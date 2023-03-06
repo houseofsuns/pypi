@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pyfttt is a lightweight package for sending events to the IFTTT Webhooks Channel. Currently, it only supports sending events, but future releases may include a webserver for receiving events.</longdescription>
+</pkgmetadata>

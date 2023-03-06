@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># aioNanoleaf package [![PyPI](https://img.shields.io/pypi/v/aionanoleaf)](https://pypi.org/project/aionanoleaf/) ![PyPI - Downloads](https://img.shields.io/pypi/dm/aionanoleaf) [![PyPI - License](https://img.shields.io/pypi/l/aionanoleaf?color=blue)](https://github.com/milanmeu/aionanoleaf/blob/main/COPYING)An async Python wrapper for the Nanoleaf API.## Installation```bashpip install aionanoleaf```## Usage### Import```pythonfrom aionanoleaf import Nanoleaf```### Create a `aiohttp.ClientSession` to make requests```pythonfrom aiohttp import ClientSessionsession = ClientSession()```### Create a `Nanoleaf` instance```pythonfrom aionanoleaf import Nanoleaflight = Nanoleaf(session, &quot;192.168.0.100&quot;)```## Example```pythonfrom aiohttp import ClientSessionfrom asyncio import runimport aionanoleafasync def main():    async with ClientSession() as session:        nanoleaf = aionanoleaf.Nanoleaf(session, &quot;192.168.0.73&quot;)        try:            await nanoleaf.authorize()        except aionanoleaf.Unauthorized as ex:            print(&quot;Not authorizing new tokens:&quot;, ex)            return        await nanoleaf.turn_on()        await nanoleaf.get_info()        print(&quot;Brightness:&quot;, nanoleaf.brightness)        await nanoleaf.deauthorize()run(main())```</longdescription>
+</pkgmetadata>

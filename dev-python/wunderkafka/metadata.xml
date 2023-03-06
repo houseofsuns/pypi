@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Wunderkafka&gt;The power of librdkafka for &lt;s&gt;humans&lt;/s&gt; pythonsWunderkafka provides handful facade for C-powered consumer/producer. It's built on top of the [confluent-kafka](https://pypi.org/project/confluent-kafka/)For a quick view on what is going on, please check [Quickstart](https://wunderkafka.readthedocs.io/en/stable/pages/quickstart.html) and [Documentation](https://wunderkafka.readthedocs.io/en/stable/)Installation process described [here](https://wunderkafka.readthedocs.io/en/stable/pages/install.html)</longdescription>
+</pkgmetadata>

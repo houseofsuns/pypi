@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># MemSQL Python LibrariesThis library contains various plugins and wrappers designed by MemSQLengineers for a couple of important python libraries.## Install```bashpip install memsql```Copy and paste the following steps to get started quickly on Ubuntu:```bashsudo apt-get updatesudo apt-get install -y mysql-client python-dev libmysqlclient-dev python-pipsudo pip install memsql```Copy and paste the following to getstarted with RHEL based distributions such as Amazon Linux or Centos:```bashsudo yum updatesudo yum install -y gcc mysql-develsudo pip install memsql```## TestingRun tests by executing `make test`.</longdescription>
+</pkgmetadata>

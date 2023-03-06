@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># MS-OVBA-CryptoCryptographic Functions for Office Visual Basic files.## InstallationUse the package manager [pip](https://pip.pypa.io/en/stable/) to install MS_OVBA_Compression.```bashpip install ms_ovba_crypto```## UsageMicrosoft VBA files use a custom encryption algorithm to obfuscate visibility and permission fields. The clsid is used as a seed. ```pythonimport ms_ovba_cryptodata = b'\x00\x00\x00\x00',clsid = '{9E394C0B-697E-4AEE-9FA6-446F51FB30DC}'# Random numbers are used in the obfuscation, so the output is not deterministic.encrypted = ms_ovba_crypto.encrypt(clsid, data)data = b'\x41\x43\x5A\x5A\x5E\x5A\x5E\x5A\x5E\x5A\x5E'# returns b'\x00\x00\x00\x00'ms_ovba_crypto.decrypt(data)```## ContributingPull requests are welcome. For major changes, please open an issue firstto discuss what you would like to change.Please make sure to update tests as appropriate.## License[MIT](https://choosealicense.com/licenses/mit/)</longdescription>
+</pkgmetadata>

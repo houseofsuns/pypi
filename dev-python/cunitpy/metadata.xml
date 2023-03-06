@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># CunitPy#### This is a universal conversor. It has methods to convert measurment units and world's most popular currency.### Installation```pip install cunitpy```### How to use```from cunitpy import *```#### Now, use the pattern bellow to asign a variable the converted value: ##### *Quantity.your_measurement_unit2new_measurement_unit(value)*### Examples:```py# 38° Celsius to KelvintempKel = Temperature.celsius2kelvin(38)``````py# 250 pounds to kilogramskg = Mass.pound2kilogram(250)``````py# 2000 Japanese Ienes to Dollarsdol = Currency.JPY2USD(2000)```</longdescription>
+</pkgmetadata>

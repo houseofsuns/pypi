@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># OGCogc - provisioning, that's it.# Get started- [Getting Started Guide](https://adam-stokes.github.io/ogc/)- User Guide  -  [Managing Deployment](https://adam-stokes.github.io/ogc/user-guide/managing-nodes/)  -  [Defining Layouts](https://adam-stokes.github.io/ogc/user-guide/defining-layouts/)  -  [Scripting](https://adam-stokes.github.io/ogc/user-guide/scripting/)# LicenseMIT.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>protest.py==========python module by aarón montoya-moraga, first released on march 2017.it is a part of &quot;its-ok&quot;, his graduate thesis at nyu itp.installation------------install with pip:  pip install protestexamples--------these are some examples of protest.py being used for protesting against trees... image::  https://raw.githubusercontent.com/montoyamoraga/protestpy/gh-pages/example-trees/1.png.. image::  https://raw.githubusercontent.com/montoyamoraga/protestpy/gh-pages/example-trees/8.png.. image::  https://raw.githubusercontent.com/montoyamoraga/protestpy/gh-pages/example-trees/44.pngspecial thanks--------------allison parrish, andrew lazarow, justin peake, lauren mccarthy, sam lavigne, tigran paravyan, wipawe sirikolkarn, yuan gao, yuli cai, zoe bachmanlicense-------mit</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>### Getting Started```Pythonfrom konan_sdk.sdk import KonanSDKif __name__ == '__main__':    # Initialize the SDK. Set verbose to True if you want verbose logging.    sdk = KonanSDK(verbose=False)    # Login user your valid konan credentials    user = sdk.login(&quot;&lt;email&gt;&quot;, &quot;&lt;password&gt;&quot;)    # Define the input data to be passed to your model    input_data = {&quot;feature_1&quot;: 1, &quot;feature_2&quot;: &quot;abc&quot;, }    # Run the prediction    prediction_uuid, ml_output = sdk.predict(&quot;&lt;deployment_uuid&gt;&quot;, input_data)    # Print the returned output    print(prediction_uuid, ml_output)```</longdescription>
+</pkgmetadata>

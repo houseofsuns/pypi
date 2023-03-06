@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>===========Django Belt===========Simple package with some utilities for Django... image:: https://travis-ci.org/marcosgabarda/django-belt.svg?branch=master    :target: https://travis-ci.org/marcosgabarda/django-belt.. image:: https://coveralls.io/repos/github/marcosgabarda/django-belt/badge.svg?branch=master    :target: https://coveralls.io/github/marcosgabarda/django-belt?branch=masterQuick start-----------**1** Install using pip::    pip install django-belt**2** Add &quot;belt&quot; to your INSTALLED_APPS settings like this::    INSTALLED_APPS += ('belt',)</longdescription>
+</pkgmetadata>

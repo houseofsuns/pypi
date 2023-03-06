@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Pie : Prototyping Inference Engine #Pie is an [inference engine](https://en.wikipedia.org/wiki/Inference_engine) library that allows to easily builds software prototypes. The goal is to allow to build quickly any software prototype which needs an inference engine. This library supports existential disjunctive rules (which are [Disjunctive Datalog](https://en.wikipedia.org/wiki/Disjunctive_Datalog) rules with existentially quantified variables in the conclusion), [forward chaining](https://en.wikipedia.org/wiki/Forward_chaining), [backward chaining](https://en.wikipedia.org/wiki/Backward_chaining) and heterogeneous sources of data.** Warning : this library is still in its infancy and big modifications of its interfaces could still be done. **# Progression #+ *API*: 80% done+ *Dlgp Parser*: 75% done+ *Homomorphism*: 50%+ *Backward chaining*: 90%+ *Forward chaining*: 0%# Packages ### API ##The API comprises the essential classes of the library : terms, atoms, atom sets, fact bases, ontologies, queries and so on.## Apps ##The apps package contains some example applications with some dlgp file examples## Backward chaining ##The backward chaining packages contains classes that allow to rewrite queries (more precisely, one can rewrite union of conjunctives queries with disjunctive existential rules)## Parser ##There is, for now, one parser : the dlgp parser, which supports an extended version of the [dlgp 2.1 format](https://graphik-team.github.io/graal/doc/dlgp) where disjunction in the queries and the head of the rules is allowed.</longdescription>
+</pkgmetadata>

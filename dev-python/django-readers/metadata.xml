@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>django-readers==============**A lightweight function-oriented toolkit for better organisation of business logic and efficient selection and projection of data in Django projects.**Tested against Django 3.2, 4.0 and 4.1 on Python 3.7, 3.8, 3.9, 3.10 and 3.11.![Build Status](https://github.com/dabapps/django-readers/workflows/CI/badge.svg?branch=main)[![pypi release](https://img.shields.io/pypi/v/django-readers.svg)](https://pypi.python.org/pypi/django-readers)## InstallationInstall from PyPI    pip install django-readers## DocumentationYou can read the documentation at [https://www.django-readers.org](https://www.django-readers.org).## Working on django-readersAfter cloning the repo:```shellpython -m venv envsource env/bin/activatepip install -r dev-requirements.txt```(the following commands assume you have the virtualenv activated)Running tests:```shell./runtests```Running code autoformatters:```shell./format```Working on the docs (built with [MkDocs](https://www.mkdocs.org/) and [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)):```shellpip install -r docs-requirements.txtmkdocs serve```## Code of conductFor guidelines regarding the code of conduct when contributing to this repository please review [https://www.dabapps.com/open-source/code-of-conduct/](https://www.dabapps.com/open-source/code-of-conduct/)</longdescription>
+</pkgmetadata>

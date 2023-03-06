@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>========================Team and repository tags========================.. image:: https://governance.openstack.org/tc/badges/pymod2pkg.svg    :target: https://governance.openstack.org/tc/reference/tags/index.html.. Change things from this point onpymod2pkg=========`pymod2pkg` is a simple python module for translating python module names tocorresponding package names which is a common problem in the packaging world.It is used for the OpenStack rpm packaging initiative.For more information about the OpenStack rpm packaging initiative, pleasefollow the link to the wiki page:   https://wiki.openstack.org/wiki/Rpm-packagingIn the unfortunate event that bugs are discovered, they shouldbe reported to the appropriate bug tracker. If you obtainedthe software from a 3rd party operating system vendor, it isoften wise to use their own bug tracker for reporting problems.In all other cases use the master OpenStack bug tracker,available at:   https://bugs.launchpad.net/pymod2pkgDevelopers wishing to work on pymod2pkg should always basetheir work on the latest code, available from the master GITrepository at:   https://opendev.org/openstack/pymod2pkgDevelopers should also join the discussion on the mailing list,at:   http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-discussor join the IRC channel on   http://webchat.freenode.net/?channels=openstack-rpm-packaging</longdescription>
+</pkgmetadata>

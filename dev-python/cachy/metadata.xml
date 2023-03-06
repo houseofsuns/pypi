@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Cachy#####.. image:: https://travis-ci.org/sdispater/cachy.png   :alt: Cachy Build status   :target: https://travis-ci.org/sdispater/cachyCachy provides a simple yet effective caching library.The full documentation is available here: http://cachy.readthedocs.orgResources=========* `Documentation &lt;http://cachy.readthedocs.org&gt;`_* `Issue Tracker &lt;https://github.com/sdispater/cachy/issues&gt;`_</longdescription>
+</pkgmetadata>

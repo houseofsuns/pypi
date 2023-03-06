@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## Hierarchical Reinforcement envs in pybulletThis package was created because all of the HRL locomotion envs are only available in mujoco. This is an implementation of as many as possible in pybullet. ### Install`pip install pybullet hrl_pybullet_envs`  This project requires [pybullet-gym](https://github.com/benelot/pybullet-gym/) which must be installed along side this package.### Envs:* AntGatherBulletEnv-v0* AntMazeBulletEnv-v0* AntMjBulletEnv-0* AntFlagrunBulletEnv-v0* PointGatherBulletEnv-v0### ExampleAlso see [this notebook](https://colab.research.google.com/drive/17FX7UM1-DDb3oxg1ei64dw9Xa6JFE_zF?usp=sharing)```import hrl_pybullet_envsimport gymimport numpy as npenv = gym.make('AntGatherBulletEnv-v0')env.render()ob = env.reset()tot_rew = 0for i in range(1000):  # Take random actions  ob, rew, done, _ = env.step(np.random.uniform(-1, 1, env.action_space.shape))  tot_rew += rew  if done: breakprint(f'Achieved total reward of: {tot_rew}')```</longdescription>
+</pkgmetadata>

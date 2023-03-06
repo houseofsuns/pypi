@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># GAD Common UtilsThis package supply utility methods to create Airflow DAG setup under Aiola GAD Framework[see](common_utils/gad_utils.py)The package page in [PYPI](https://pypi.org/project/gad-common-utils/)</longdescription>
+</pkgmetadata>

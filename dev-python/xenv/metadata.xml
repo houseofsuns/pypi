@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>xenv: eXtended ENV==================xenv consists in classes and functions to manipulate the environment in aplatform independent way.In particular it allows to describe the changest to the environment in an XMLfile that can be used by the script ``xenv`` (similar to the Unix ``env``command) to run a command in the modified environment.</longdescription>
+</pkgmetadata>

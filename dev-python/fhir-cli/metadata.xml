@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Fhir cli## DescriptionHelp validate DBT FHIR models against a FHIR server## DocumentationRead the [docs](https://arkhn.github.io/fhir-cli/) !</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>**django-simpleui**github:https://github.com/newpanjing/django-simpleuigitee:https://gitee.com/tompeppa/simpleuiQQ群：786576510</longdescription>
+</pkgmetadata>

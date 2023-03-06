@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># zaailabcorelib## IntroductionThis is our `zaailabcorelib` tools implemented and used widely in ZAI Lab. ## CompilingTo compile and upload package to PyPi```python3 setup.py sdist bdist_wheelpython3 -m twine upload --repository-url https://upload.pypi.org/legacy/ dist/*  --verbose```## Contributors- [ 1 ] congvm - congvm.it@gmail.com- [ 2 ] tript - thanhtri2502@gmail.com- [ 3 ] tinhdm - minhtinh.1997.khmt@gmail.com</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>EZyRB is a Python package that performs a data-driven model order reduction for parametrized problems exploiting the recent approaches. Such techniques are able to provide a parametric model capable to provide the real-time approximation of the solution of a generic (potentially complex and non linear) problem. The reduced model is totally built upon the numerical data obtained by the original (to reduce) model, without requiring any knowledge of the equations that describe this model, resulting in a well suited framework for industrial contexts due to its natural capability to been integrated with commercial software.</longdescription>
+</pkgmetadata>

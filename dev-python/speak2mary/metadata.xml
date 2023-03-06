@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Speak2MaryA Python wrapper for the MaryTTS Test-To-Speak system. It maps the http endpoints to python methods.Its mainly used for generating sound from an running MaryTTS server.## Requirements* Python 3 or higher## InstallThe module is available via `pip install speak2mary`.## ExamplesFor example how to use the library take a look at the [tests](https://github.com/Poeschl/speak2mary/blob/master/tests/test_marytts.py).</longdescription>
+</pkgmetadata>

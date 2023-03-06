@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Welcome to the DAS Python packageThe [Royal Netherlands Institute for Sea Research](https://www.nioz.nl) has its data management system to help scientists archive and access their data. This tool is called: **Data Archive System (DAS)** and this package is its Python client._*NOTE: This package requires Python 3.8 and plus*_# To install using pip```    $ pip install daspython```# To install this package locally use the following commands:## Create a virtual environment first:### Install virtualenv if not installed.```    $ pip install virtualenv```### Create the virtual enviroment```    $ virtualenv .venv```### Activate your virtual environment (for Windows)```    $ .\.venv\Scripts\activate.ps1   ```### Deactivate your virtual environment (for Windows)```    $ deactivate```### Now install the dependencies```powershell    $ pip install -r .\requirements.txt```The best way to see how each method is used is visiting out [automated test scripts](https://git.nioz.nl/ict-projects/das-python/-/tree/master/tests) page.# AuthenticationUse this class to authenticate and keep your token that will be needed to use with all other service classes.##### Usage```pythonfrom daspython.auth.authenticate import DasAuthauth = DasAuth('DAS url', 'Your user name', 'Your password')if (auth.authenticate()):    print('You are connected ...')    ```## Deploying this package:```$ pip install twine```### Install twine```twine upload dist/*```Than follow the instructions to publish/upload the distribution files to pypi.org</longdescription>
+</pkgmetadata>

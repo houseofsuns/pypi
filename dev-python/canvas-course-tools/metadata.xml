@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># canvas-course-toolsCanvas course tools was created at the physics practicals at the VrijeUniversiteit Amsterdam to greatly reduce the time needed to create class lists(with photos!) for staff and teaching assistants. Class lists are also createdfor students so that they can easily lookup their assigned experiments and TA's.Furthermore, we use it to create student groups on Canvas for peer feedback.This package provides the `canvas` command-line utility. After registering aCanvas URL and API key (which you can generate on your profile settings page)this tool allows you to list courses and students in different sections of yourcourses. The output has a light markup and is ideally suited for saving as atext file. It is then easy to copy and move lines inside the file to createstudent groups. The file can then be parsed by the `canvas templates` command torender templates based on the text file. This allows for creating class lists(with short notes for each student) and even class lists with photos (if youprovide photos).You can also use this tool to create groups and group sets on Canvas based on agroup list file.</longdescription>
+</pkgmetadata>

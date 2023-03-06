@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>SparkMeasure is a tool for performance troubleshooting of Apache Spark workloads.  It simplifies the collection and analysis of Spark performance metrics. The bulk of sparkMeasure is written in Scala.This package contains the Python API for sparkMeasure and is intended to work in conjunction with PySpark.Use from python command line or in Jupyter notebook environments, or as a tool to instrument Python code running Spark workloads.  **[Link to sparkMeasure GitHub page and documentation](https://github.com/lucacanali/sparkMeasure)**</longdescription>
+</pkgmetadata>

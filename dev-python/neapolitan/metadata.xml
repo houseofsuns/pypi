@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>==========Neapolitan==========I have a Django model::    from django.db import models    class Bookmark(models.Model):        url = models.URLField(unique=True)        title = models.CharField(max_length=255)        note = models.TextField(blank=True)        favourite = models.BooleanField(default=False)I want easy CRUD views for it, without it taking all day::    # urls.py    from neapolitan.views import CRUDView    class BookmarkView(CRUDView):        model = Bookmark        fields = [&quot;url&quot;, &quot;title&quot;, &quot;note&quot;]        filterset_fields = [            &quot;favourite&quot;,        ]    urlpatterns = [ ... ] + BookmarkView.get_urls()Neapolitan's ``CRUDView`` provides the standard list, detail,create, edit, and delete views for a model, as well as the hooks you need tobe able to customise any part of that.Neapolitan provides base templates and re-usable template tags to make gettingyour model on the page as easy as possible.Where you take your app after that is up to you. But Neapolitan will get youstarted.Let's go! 🚀Status------This is alpha software. I'm still working out the details of the API, and I'venot written the docs.**But**: You could just read `neapolitan.views.CRUDView` and see what it does.Up to you. 😜Installation------------Install with pip::    pip install neapolitanAdd ``neapolitan`` to your ``INSTALLED_APPS``::    INSTALLED_APPS = [        ...        &quot;neapolitan&quot;,    ]Templates expect a ``base.html`` template to exist and for that to defined a``content`` block. (Refs &lt;https://github.com/carltongibson/neapolitan/issues/6&gt;.)</longdescription>
+</pkgmetadata>

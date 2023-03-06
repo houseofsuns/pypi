@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Metric Reporting Python Package for CloudML Hypertune=====================================================    Helper Functions for CloudML Engine Hypertune Services... _Google CloudML Engine Hyperparameter Tuning Service: https://cloud.google.com/ml-engine/docs/tensorflow/hyperparameter-tuning-overview|pypi| |versions|Prerequisites--------------  Google CloudML Engine `Overview &lt;https://cloud.google.com/ml-engine/&gt;`__.-  Google CloudML Engine `Hyperparameter Tuning   Overview &lt;https://cloud.google.com/ml-engine/docs/tensorflow/hyperparameter-tuning-overview&gt;`__.Installation------------Install via `pip &lt;https://pypi.python.org/pypi/pip&gt;`__:::    pip install cloudml-hypertuneUsage-----.. code:: python    import hypertune    hpt = hypertune.HyperTune()    hpt.report_hyperparameter_tuning_metric(        hyperparameter_metric_tag='my_metric_tag',        metric_value=0.987,        global_step=1000)By default, the metric entries will be stored to ``/tmp/hypertune/outout.metric`` in json format:::    {&quot;global_step&quot;: &quot;1000&quot;, &quot;my_metric_tag&quot;: &quot;0.987&quot;, &quot;timestamp&quot;: 1525851440.123456, &quot;trial&quot;: &quot;0&quot;}Licensing---------- Apache 2.0.. |pypi| image:: https://img.shields.io/pypi/v/cloudml-hypertune.svg   :target: https://pypi.org/project/cloudml-hypertune/.. |versions| image:: https://img.shields.io/pypi/pyversions/cloudml-hypertune.svg   :target: https://pypi.org/project/cloudml-hypertune/</longdescription>
+</pkgmetadata>

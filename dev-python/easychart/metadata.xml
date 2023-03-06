@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># easychart[highcharts](https://www.highcharts.com/) meets python in your [Jupyter](https://jupyter.org/) notebook   ## Getting startedInstalling easychart is easy with pip```pip install easychart```Open a new Jupyter notebook```pythonimport easychartchart = easychart.new(&quot;column&quot;)chart.title.text = &quot;France Olympic medals&quot;,chart.subtitle.text =&quot;by year and by medal class&quot;chart.yAxis.title.text = &quot;medals&quot;chart.categories = [&quot;Gold&quot;,&quot;Silver&quot;,&quot;Bronze&quot;]chart.plot([7, 16, 18], name=2008)chart.plot([11, 11, 13], name=2012)chart```&lt;img src=&quot;https://raw.githubusercontent.com/dschenck/easychart/latest/docs/static/demo%20(1).svg&quot;/&gt;## DocumentationComplete documentation is hosted on [read the docs](https://easychart.readthedocs.io/en/latest/). Have a look at one of the [25+ example charts](https://easychart.readthedocs.io/en/latest/contents/examples/index.html). </longdescription>
+</pkgmetadata>

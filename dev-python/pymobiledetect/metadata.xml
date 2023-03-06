@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>====================Python Mobile Detect====================.. image:: https://drone.io/bitbucket.org/trbs/pymobiledetect/status.png    :alt: Build Status    :target: https://drone.io/bitbucket.org/trbs/pymobiledetect/Detects mobile phones and tables from useragent string and http headers.Big thanks to Mobile-Detect from serbanghita.</longdescription>
+</pkgmetadata>

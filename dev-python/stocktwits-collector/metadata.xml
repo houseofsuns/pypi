@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Getting started===============Stocktwits collector package is implemented for collecting the twits of Stocktwits on your local.The goal is to implement this package for each Stocktwits API and to manage how to download many data on more files to avoid networking issues and to require again all data but only the missing part.It is part of the `educational repositories &lt;https://github.com/pandle/materials&gt;`_ to learn how to write stardard code and common uses of the TDD.Installation############If you want to use this package into your code, you can install by python3-pip:.. code-block:: bash    pip3 install stocktwits_collector    python3    &gt;&gt;&gt; import stocktwits_collector.collector as Collector    &gt;&gt;&gt; help(Collector)Development###########The package is not self-consistent. So after to have downloaded the package by github and you have to install the requirements:.. code-block:: bash    git clone https://github.com/bilardi/stocktwits-collector    cd stocktwits-collector/    pip3 install --upgrade -r requirements.txtSee the documentation to contribute.Documentation#############Read the documentation on `readthedocs &lt;https://stocktwits-collector.readthedocs.io/en/latest/&gt;`_ for* Usage* DevelopmentChange Log##########See `CHANGELOG.md &lt;https://github.com/bilardi/stocktwits-collector/blob/master/CHANGELOG.md&gt;`_ for details.License#######This package is released under the MIT license.  See `LICENSE &lt;https://github.com/bilardi/stocktwits-collector/blob/master/LICENSE&gt;`_ for details.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>############Party Module############The *Party Module* is used to store and manage information about people,businesses, organisations, and associations.It allows you to save information such as contact details, addresses,identifiers and the language used by each of these different entities.</longdescription>
+</pkgmetadata>

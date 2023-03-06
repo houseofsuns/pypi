@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image:: https://img.shields.io/badge/License-GPL%20v3-blue.svg    :alt: License: GPL v3    :target: https://www.gnu.org/licenses/gpl-3.0.. image:: https://img.shields.io/pypi/pyversions/Django.svg   :target: https://pypi.python.org/pypi/ansicolortags/.. image:: https://img.shields.io/badge/version-1.13.5-blue.svg   :alt: Version 1.13.5=============Base REST API=============* Version 1.13.5* `DigitalCube &lt;http://digitalcube.rs/&gt;`_* `WIKI &lt;https://github.com/digital-cube/BASE/wiki&gt;`_************Installation************.. code-block:: console    pip3 install dcbase    pip3 install -r https://raw.githubusercontent.com/digital-cube/BASE/master/requirements.txt******************Initialize project******************.. code-block:: console    basemanager init project_name*************Start project*************.. code-block:: console    cd project_name    ./project_name*******************Initialize database*******************.. code-block:: console    cd project_name    basemanager db_init db_username db_password</longdescription>
+</pkgmetadata>

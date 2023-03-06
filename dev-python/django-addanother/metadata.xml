@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image:: https://travis-ci.org/jonashaag/django-addanother.svg?branch=master    :target: https://travis-ci.org/jonashaag/django-addanotherdjango-addanother provides you with add-another buttons for forms outside the Django administration interface. It also provides an optional integration with django-select2_.See documentation_ for details.django-addanother has been extracted from django-autocomplete-light v2, after noticing that other apps copied the same code, to ease community maintenance... _django-select2: http://django-select2.readthedocs.org/.. _documentation: http://django-addanother.readthedocs.org/</longdescription>
+</pkgmetadata>

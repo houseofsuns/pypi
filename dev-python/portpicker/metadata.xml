@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Portpicker provides an API to find and return an availablenetwork port for an application to bind to.  Ideally suited for use fromunittests or for test harnesses that launch local servers.It also contains an optional portserver that can be used to coordinateallocation of network ports on a single build/test farm host across allprocesses willing to use a port server aware port picker library such asthis one.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Python Tedee Client PackageThis is a Tedee Lock Client package.Download:git clone https://github.com/joerg65/pytedee.gitInstall:pipenv install -e .orpython3 setup.py installTry it with the example.py:- Generate personal key. Instructions: https://tedee-tedee-api-doc.readthedocs-hosted.com/en/latest/howtos/authenticate.html#personal-access-key  Minimal scopes required for enable integration are:    - Devices.Read    - Lock.Operate- Edit personalKey with generated value.</longdescription>
+</pkgmetadata>

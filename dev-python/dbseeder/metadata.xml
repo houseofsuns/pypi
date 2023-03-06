@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Seeder for Mysql[![gh-action-pip-audit](https://github.com/conlacda/auto-seeder/actions/workflows/gh-action-pip-audit.yml/badge.svg)](https://github.com/conlacda/auto-seeder/actions/workflows/gh-action-pip-audit.yml)&gt; Load database then make seeds for it## Install```shell$ pip install dbseeder```## Usage```pythonfrom dbseeder import Databasedb = Database(host=&quot;localhost&quot;, user=&quot;root&quot;, password=&quot;&quot;, database=&quot;seed&quot;)# Make seed without deleting the existence datadb.makeSeed(rows_num=100000)# Delete data, then make seedsdb.clearAndMakeSeed(rows_num=100000)```OR```shell$ python -m dbseeder --host localhost --user root --password= --database seed --rows_num 100 --drop```## TODO* Load relationship* Add test* Add argparser## Test```shellpython -m pytest```## Packing* [Tutorial](https://packaging.python.org/en/latest/tutorials/packaging-projects/)* [Package on Pypi](https://pypi.org/project/dbseeder/)## My noteTo publish new version:* Change version in `pyproject.toml`* Build: `python -m build`* Upload to testpypi: `py -m twine upload --repository testpypi dist/*`* Upload to pypi: `py -m twine upload --repository pypi dist/`</longdescription>
+</pkgmetadata>

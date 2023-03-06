@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;div align=&quot;center&quot;&gt;&lt;h3&gt;  Yolox-Pip: This is a packaged version of the YOLOX for easy installation and use.&lt;/h3&gt;&lt;h4&gt;    &lt;img width=&quot;800&quot; alt=&quot;teaser&quot; src=&quot;doc/fig.png&quot;&gt;&lt;/h4&gt;&lt;/div&gt;## &lt;div align=&quot;center&quot;&gt;Overview&lt;/div&gt;This repo is a packaged version of the [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX) for easy installation and use.### Installation```pip install yoloxdetect```### Yolox Inference```pythonfrom yoloxdetect import YoloxDetectormodel = YoloxDetector(    model_path = &quot;kadirnar/yolox_s-v0.1.1&quot;, # or &quot;data/weights/yolox_s.pth&quot;    config_path = &quot;configs.yolox_s&quot;,    device = &quot;cuda:0&quot;,    hf_model=True,)model.classes = Nonemodel.conf = 0.25model.iou = 0.45model.show = Falsemodel.save = Truepred = model.predict(image='data/images', img_size=640)```### Citation```bibtex @article{yolox2021,  title={YOLOX: Exceeding YOLO Series in 2021},  author={Ge, Zheng and Liu, Songtao and Wang, Feng and Li, Zeming and Sun, Jian},  journal={arXiv preprint arXiv:2107.08430},  year={2021}}```</longdescription>
+</pkgmetadata>

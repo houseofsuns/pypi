@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pyfrc - RobotPy development library helper==========================================pyfrc is a python 3 library designed to make developing python code using WPILib forFIRST Robotics Competition easier.This library contains a few primary parts:* A built-in uploader that will upload your robot code to the robot* Integration with the pytest testing tool to allow you to easily write unit  tests for your robot code.* Various support for robot simulation  Documentation=============* RobotPy documentation: https://robotpy.readthedocs.io* Installation: https://robotpy.readthedocs.io/en/stable/install/pyfrc.htmlContributing new changes========================pyfrc is intended to be a project that all members of the FIRST community canquickly and easily contribute to. If you find a bug, or have an idea that youthink others can use:1. [Fork this git repository](https://github.com/robotpy/robotpy/fork) to your github account2. Create your feature branch (`git checkout -b my-new-feature`)3. Commit your changes (`git commit -am 'Add some feature'`)4. Push to the branch (`git push -u origin my-new-feature`)5. Create new Pull Request on githubAuthors=======Dustin Spicuzza (dustin@virtualroadside.com)Contributors:* Sam Rosenblum* James Ward* Christian Balcom* Otherspyfrc is originally derived from (and supercedes) fake_wpilib, which wasdeveloped with contributions from Sam Rosenblum and Team 2423. </longdescription>
+</pkgmetadata>

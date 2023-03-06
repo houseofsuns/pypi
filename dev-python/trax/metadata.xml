@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Trax helps you understand deep learning. We start with basic maths and go through layers, models, supervised and reinforcement learning. We get to advanced deep learning results, including recent papers and state-of-the-art models.</longdescription>
+</pkgmetadata>

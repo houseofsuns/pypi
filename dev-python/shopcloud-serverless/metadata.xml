@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Serverless CLIServerless tool for the Google Cloud. You need the `gcloud` installed.## Install````sh$ pip install shopcloud-serverless$ serverless init````## Jobs```sh$ serverless jobs init$ serverless jobs create &lt;job-name&gt;$ serverless jobs deploy &lt;job-name&gt;$ serverless jobs run &lt;job-name&gt;```__Secrets:__Secrets can you write in the `.env.temp` file with the SecretHub syntax.## GatewayThe main entrypoint for you serverless endpoint api is the gateway.Init the gateway with the function and then deploy the endpoints and then you can deploy the api.yaml file with gateway deploy endpoint.```sh$ serverless gateway init``````sh$ serverless gateway deploy```## EndpointsCreate a new endpoint for every path.```sh$ serverless endpoints init$ serverless endpoints create hello_world```Add the Endpoint in the `api.yaml` the `operation_id` must be unqie and is the identifier for the library.You can change the `&lt;endpoint-name&gt;.yaml` with the parameters- `memory`: memory in MB- `runtime`: runtime of the function &quot;python311&quot;- `trigger`: http or pubsub the value is the name of the `topic`- `dependencies`: as string arrayfor development you can use the [functions-framework](https://github.com/GoogleCloudPlatform/functions-framework-python)```sh$ cd endpoints$ functions-framework --source=&quot;hello_world.py&quot; --target main --debug --port=8080```then deploy the function```sh$ serverless endpoints deploy hello_world```</longdescription>
+</pkgmetadata>

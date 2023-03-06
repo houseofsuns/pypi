@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>CLU – Common Lightweight Utilities (née Command-Line Utilities)==================================================This is a packaged-up and sanely version-controlled version of [the Python tools I wrote for my REPLs](https://github.com/fish2000/homage/blob/master/.script-bin/replutilities.py), divided up intoa bunch of subordinate packages.If you assumed that the project name was a Tron reference, you are in fact correct.</longdescription>
+</pkgmetadata>

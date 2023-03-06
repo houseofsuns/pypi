@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image:: https://travis-ci.org/ARMmbed/yotta.svg.. image:: https://circleci.com/gh/ARMmbed/yotta.svg?style=shieldyotta is a tool that we're building at `mbed &lt;https://mbed.org&gt;`_ to make iteasier to build better software written in C, C++ or other C-family languages.It's still early in development, so if you have questions/feedback or issues, please `report them on Github &lt;https://github.com/ARMmbed/yotta/issues&gt;`_.Installation============While yotta is written in python, to use it to build software you'll need several non-python dependencies. Detailed installation instructions and links to installers can be found on the `yotta docs site &lt;http://docs.yottabuild.org&gt;`_.Get Started===========The best way to get started is to `follow the tutorial &lt;http://docs.yottabuild.org/tutorial/tutorial.html&gt;`_.License=======yotta is licensed under Apache-2.0</longdescription>
+</pkgmetadata>

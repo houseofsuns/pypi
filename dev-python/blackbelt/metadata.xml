@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Black Belt: Project Automation The Apiary Way==================================================Integrates useful GitHub workflow with Trello, Hipchat and Circle CI.Please visit `the Black Belt documentation &lt;http://black-belt.readthedocs.org/en/latest/&gt;`_ for more details.</longdescription>
+</pkgmetadata>

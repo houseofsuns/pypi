@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># DFP: Dogmatic Functional Programming[![Documentation Status](https://readthedocs.org/projects/dogmatic-functional-programming/badge/?version=latest)](https://dogmatic-functional-programming.readthedocs.io/en/latest/?badge=latest)[![Coverage Status](https://coveralls.io/repos/github/jaypmorgan/dfp/badge.svg?branch=main)](https://coveralls.io/github/jaypmorgan/dfp?branch=main)![PyPI](https://img.shields.io/pypi/v/dfp?label=dfp)![PyPI - Downloads](https://img.shields.io/pypi/dm/dfp)Procedures to help with help with functional-styles in the Python programming language.## InstallationDFP can be installed from PyPI:```bashpip install dfp```After which, you import it:```pythonimport dfp```## User guideFor a full API list and other user guides, please consult &lt;https://dogmatic-functional-programming.readthedocs.io/&gt;</longdescription>
+</pkgmetadata>

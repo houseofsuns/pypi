@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Workflow as a Service=====================This provides client and server implementations of the `GA4GH WorkflowExecutionService &lt;https://github.com/ga4gh/workflow-execution-schemas&gt;`__ API forthe Common Workflow Language.It provides an `Arvados &lt;https://github.com/curoverse/arvados&gt;`__backend. It also works with any ``cwl-runner`` that supports the CWLstandard command line interface:http://www.commonwl.org/v1.0/CommandLineTool.html#Executing\_CWL\_documents\_as\_scriptsInstallation:::    pip install wes-serviceRun a standalone server with default ``cwl-runner`` backend:::    $ wes-serverSubmit a workflow to run:::    $ wes-client --host=localhost:8080 myworkflow.cwl myjob.jsonList workflows:::    $ wes-client --listGet workflow status:::    $ wes-client --get &lt;workflow-id&gt;Get stderr log from workflow:::    $ wes-client --log &lt;workflow-id&gt;Server Options==============Run a standalone server with Arvados backend:---------------------------------------------::    $ wes-server --backend=wes_service.arvados_wesUse a different executable with cwl\_runner backend---------------------------------------------------::    $ wes-server --backend=wes_service.cwl_runner --opt runner=cwltoilPass parameters to cwl-runner-----------------------------::    $ wes-server --backend=wes_service.cwl_runner --opt extra=--workDir=/Client environment options==========================Set service endpoint:::    $ export WES_API_HOST=localhost:8080Set the value to pass in the ``Authorization`` header:::    $ export WES_API_AUTH=my_api_tokenSet the protocol (one of http, https)::    $ export WES_API_PROTO=http</longdescription>
+</pkgmetadata>

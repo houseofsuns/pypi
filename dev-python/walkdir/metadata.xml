@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Overview========walkdir is a simple set of iterator tools intended to make iteasy to manipulate and filter the output of os.walk() in a waythat is also easily applicable to any source iterator thatproduces data in the same format.It offers tools such as:- glob-style filtering for file and directory names- depth limiting for directory recursion- flattening of output into simple sequences of path names- detection of symlink loops when following symlinks</longdescription>
+</pkgmetadata>

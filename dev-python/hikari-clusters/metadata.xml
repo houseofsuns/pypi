@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># hikari-clusters[![pypi](https://github.com/TrigonDev/hikari-clusters/actions/workflows/pypi.yml/badge.svg)](https://pypi.org/project/hikari-clusters)[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/TrigonDev/hikari-clusters/main.svg)](https://results.pre-commit.ci/latest/github/TrigonDev/hikari-clusters/main)[Documentation](https://github.com/circuitsacul/hikari-clusters/wiki)hikari-clusters allows you to scale your Discord bots horizontally by using multiprocessing and websockets. This means that your bot can use multiple cores, as well as multiple VPSes.See the #clusters channel in the hikari-py discord for help.```py# brain.pyfrom hikari_clusters import BrainBrain(    host=&quot;localhost&quot;,    port=8765,    token=&quot;ipc token&quot;,    total_servers=1,    clusters_per_server=2,    shards_per_cluster=3,).run()``````py# server.pyfrom hikari import GatewayBotfrom hikari_clusters import Cluster, ClusterLauncher, Serverclass MyBot(GatewayBot):    cluster: Cluster    def __init__(self):        super().__init__(token=&quot;discord token&quot;)        # load modules &amp; events hereServer(    host=&quot;localhost&quot;,    port=8765,    token=&quot;ipc token&quot;,    cluster_launcher=ClusterLauncher(MyBot),).run()```Run examples with `python -m examples.&lt;example name&gt;` (`python -m examples.basic`)&lt;p align=&quot;center&quot;&gt;  &lt;img src=&quot;https://us-east-1.tixte.net/uploads/files.circuitsacul.dev/hikari-clusters-diagram.jpg&quot;&gt;&lt;/p&gt;## Creating Self-Signed Certificate:```openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout cert.key -out cert.cert &amp;&amp; cat cert.key cert.cert &gt; cert.pem```</longdescription>
+</pkgmetadata>

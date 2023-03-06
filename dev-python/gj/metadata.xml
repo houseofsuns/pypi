@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Grant Jenks Tools=================`Grant Jenks`_ tools... _`Grant Jenks`: http://www.grantjenks.comFeatures--------- Pure-Python- Miscellaneous toolsTodo----- Add &quot;trash&quot; command. Use ``send2trash`` module.- Add &quot;watch&quot; command. Use ``watchdog`` module.Quickstart----------Installing ``gj`` is simple with `pip &lt;https://pip.pypa.io/en/stable/&gt;`_::  $ pip install gjYou can access documentation in the interpreter with Python's built-in helpfunction::  &gt;&gt;&gt; import gj  &gt;&gt;&gt; help(gj)Reference and Indices---------------------* `GJ Documentation`_* `GJ at PyPI`_* `GJ at GitHub`_* `GJ Issue Tracker`_.. _`GJ Documentation`: http://www.grantjenks.com/docs/gj/.. _`GJ at PyPI`: https://pypi.python.org/pypi/gj/.. _`GJ at GitHub`: https://github.com/grantjenks/python-gj/.. _`GJ Issue Tracker`: https://github.com/grantjenks/python-gj/issues/License-------Copyright 2016-2019 Grant JenksLicensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not usethis file except in compliance with the License.  You may obtain a copy of theLicense at    http://www.apache.org/licenses/LICENSE-2.0Unless required by applicable law or agreed to in writing, software distributedunder the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES ORCONDITIONS OF ANY KIND, either express or implied.  See the License for thespecific language governing permissions and limitations under the License.</longdescription>
+</pkgmetadata>

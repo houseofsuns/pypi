@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Lxpy is a novel crawler tool library designed for researchers and engineers.It provides a number of practical methods.Such as encryption algorithms and coding methods.Such as Date-time processing method, request response processing method.BLOG: https://blog.csdn.net/weixin_43582101I hope one day crawler technology can be sharedI hope one day TO meet a risk control expert face to face</longdescription>
+</pkgmetadata>

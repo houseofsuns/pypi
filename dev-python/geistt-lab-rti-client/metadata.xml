@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># GEISTT Lab RTI Client for PythonPlease refer to the [GEISTT Lab RTI documentation](https://gitlab.com/geistt/lab/rti/-/wikis/home) for more information.Example usage:```pythonfrom geistt_lab_rti_client import RTI, proto, constantsrti = RTI(application=&quot;python_test&quot;)def on_connect():    print(&quot;Connected&quot;)rti.on(&quot;connect&quot;, on_connect)def on_error(channel, message, exception):    print(f&quot;Error: {channel}: {message}&quot;, file=sys.stderr)rti.on(&quot;error&quot;, on_error)def on_message(content): print(f&quot;received: {content}&quot;)self.rti.subscribe_text(&quot;test&quot;, on_message)self.rti.publish_text(&quot;test&quot;, &quot;foo&quot;)```</longdescription>
+</pkgmetadata>

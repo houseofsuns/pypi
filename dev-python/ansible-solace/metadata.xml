@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Ansible Modules for Solace PubSub+ Event Brokers SEMP(v2) REST API# DEPRECATEDSee [Solace PubSub+ Ansible Collection](https://galaxy.ansible.com/solace/pubsub_plus) instead.---</longdescription>
+</pkgmetadata>

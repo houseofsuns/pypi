@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># psychopy-emotivExtension package for PsychoPy which adds support for various hardware devices by [Emotiv Inc.](https://www.emotiv.com/)## Supported DevicesInstalling this package alongside PsychoPy will enable support for the following devices:* Cortex Headset    ## InstallingInstall this package with the following shell command::     pip install psychopy-emotivYou may also use PsychoPy's builtin package manager to install this package.## UsageOnce the package is installed, PsychoPy will automatically load it when started and make objects available within the`psychopy.hardware.emotiv` namespace. This package also adds marking and recording components to PsychoPy Builder.</longdescription>
+</pkgmetadata>

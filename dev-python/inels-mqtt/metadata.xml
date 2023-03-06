@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Inels-mqtt========A Python library that handles communication with inels over mqtt[iNels](https://www.inels.com/) by ElkoEP company.Requirements============For smooth using you need to have Python 3.9 or higher.Install=======Use PyPI repository```pip install inels-mqtt```Testing=======I use [tox](https://tox.readthedocs.io) for testing.```$ pip install tox```</longdescription>
+</pkgmetadata>

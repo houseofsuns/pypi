@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># py-promql-parser![CI](https://github.com/messense/py-promql-parser/workflows/CI/badge.svg)[![PyPI](https://img.shields.io/pypi/v/promql-parser.svg)](https://pypi.org/project/promql-parser)[promql-parser](https://github.com/GreptimeTeam/promql-parser) Python binding, a PromQL parser for Python.## Installation```bashpip install promql-parser```## Usage```pythonimport promql_parserast = promql_parser.parse('prometheus_http_requests_total{code=&quot;200&quot;, job=&quot;prometheus&quot;}')print(ast)```## LicenseThis work is released under the MIT license. A copy of the license is provided in the [LICENSE](./LICENSE) file.</longdescription>
+</pkgmetadata>

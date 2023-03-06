@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>**youtube_lv**github: &lt;https://github.com/phillychi3/youtube_lv&gt;how to useuse ID```pythonfrom ytlv import *lv=islive()live=lv.ytid(&quot;channel ID&quot;)print(live)```use LINK```pythonfrom ytlv import *lv=islive()live=lv.ytlk(&quot;channel ID&quot;)print(live)```</longdescription>
+</pkgmetadata>

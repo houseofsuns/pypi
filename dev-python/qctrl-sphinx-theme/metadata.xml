@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Q-CTRL Sphinx ThemeThe Q-CTRL Sphinx Theme is a very opinionated [Sphinx](https://www.sphinx-doc.org/) theme intended for use with public [Q-CTRL Documentation](https://docs.q-ctrl.com/) websites such as the [Q-CTRL Python package](https://docs.q-ctrl.com/boulder-opal/references/qctrl/).## Installation```shellpip install qctrl-sphinx-theme```## Usage1. Add `qctrl-sphinx-theme` as a dev dependency in `pyproject.toml`.2. Set the `html_theme` config value in `docs/conf.py`.  ```python  html_theme = &quot;qctrl_sphinx_theme&quot;  ```3. Set the `html_theme_options` config value in `docs/conf.py`.  ```python  html_theme_options = {      &quot;segment_write_key&quot;: &quot;&lt;YOUR_SEGMENT_WRITE_KEY&gt;&quot;  }  ```</longdescription>
+</pkgmetadata>

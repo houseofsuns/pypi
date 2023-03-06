@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Vincent=======.. image:: http://farm9.staticflickr.com/8521/8644902478_0d1513db92_o.jpg    :alt: VincentA Python to Vega translator^^^^^^^^^^^^^^^^^^^^^^^^^^^The folks at Trifacta are making it easy to build visualizations on topof D3 with Vega. Vincent makes it easy to build Vega with Python.Concept-------The data capabilities of Python. The visualization capabilities ofJavaScript.Vincent takes Python data structures (tuples, lists, dicts, and PandasDataFrames) and translates them into`Vega &lt;https://github.com/trifacta/vega&gt;`__ visualization grammar. Itallows for quick iteration of visualization designs via simple additionand subtraction of grammar elements, and outputs the final visualizationto JSON.</longdescription>
+</pkgmetadata>

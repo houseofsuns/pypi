@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>====================PyAMS fields package====================.. contents::What is PyAMS?==============PyAMS (Pyramid Application Management Suite) is a small suite of packages written for applicationsand content management with the Pyramid framework.**PyAMS** is actually mainly used to manage web sites through content management applications (CMS,see PyAMS_content package), but many features are generic and can be used inside any kind of webapplication.All PyAMS documentation is available on `ReadTheDocs &lt;https://pyams.readthedocs.io&gt;`_; source codeis available on `Gitlab &lt;https://gitlab.com/pyams&gt;`_ and pushed to `Github&lt;https://github.com/py-ams&gt;`_. Doctests are available in the *doctests* source folder.What is PyAMS fields?=====================PyAMS fields is an extension package which can be used to allow application users to define theirown schema fields, and generate add or edit forms automatically.These schema fields follow *zope.schema* package philosophy, so that all standard schema fields areavailable, but the API allows applications developers to add their own fields types.This package is used by PyAMS_content package internally to allow site managers to create, for example,their own contact forms.Changelog=========1.1.1----- - updated dependencies1.1.0----- - added support for forms rendering and handlers - added support for RGPD information and reCaptcha integration1.0.1----- - code and pylint cleanup1.0.0----- - initial release</longdescription>
+</pkgmetadata>

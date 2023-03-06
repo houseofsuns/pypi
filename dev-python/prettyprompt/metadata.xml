@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Pretty PromptSimple tools for better prompts.## Installation`pip install prettyprompt`## Usage### Sniffing bad intentions```pythonfrom prettyprompt import sniffers# will this SQL statement write to my database?sniffers.is_sql_write_statement(user_supplied_sql)# is this a prompt injection attempt? ask ChatGPT# (needs an OpenAI API key)sniffers.is_prompt_injection(prompt, strategy=&quot;LLM&quot;)# uses spaCy to indicate the imperative-ness of a string# needs a trained pipeline e.g. `python -m spacy download en_core_web_sm`sniffers.is_imperative(prompt)```### Converting input```pythonfrom prettyprompt import converters# convert scraped HTML into plain text, maintaining some structureconverters.html_to_text(scraped_html)# splits text into meaningful chunks, using GPT-3.5converters.chunker(long_text, max_words_per_chunk, min_words_per_chunk)```### Cleaning input```pythonfrom prettyprompt import cleaners# remove tags from HTMLcleaners.remove_tags(html)# normalise spacescleaners.normalise_spaces(text)# swap common 'smart' characters with ASCII equivalentscleaners.simplify_text(text)```## Tests- `pip install pytest pytest-mock`- `pytest`## TODO- [Prompt Injection](https://github.com/tomdyson/prettyprompt/issues/1)</longdescription>
+</pkgmetadata>

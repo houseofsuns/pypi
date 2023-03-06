@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Foolscap (aka newpb) is a new version of Twisted's native RPC protocol, knownas 'Perspective Broker'. This allows an object in one process to be used bycode in a distant process. This module provides data marshaling, a remoteobject reference system, and a capability-based security model.</longdescription>
+</pkgmetadata>

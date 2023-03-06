@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;div align=&quot;center&quot;&gt;&lt;h1&gt;YaSpeak&lt;/h1&gt;Python wrapper for Yandex text voiceover![pypi](https://badge.fury.io/py/yaspeak.svg)&lt;/div&gt;## Install`pip install --upgrade yaspeak`## Usage```pythonfrom yaspeak import YaSpeakysp = YaSpeak()ysp.oksana(&quot;hello&quot;, &quot;oksana.mp3&quot;)ysp.levitan(&quot;hello&quot;, &quot;levitan.mp3&quot;)ysp.yandex(&quot;hello&quot;, &quot;yandex.mp3&quot;)```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>frontmatter============A simple Python package for parsing YAML Frontmatter from a text file or string. Written for Python 3, but should also work for Python 2.7.Usage------```from frontmatter import Frontmatter# assuming 'testfile.md' existspost = Frontmatter.read_file('testfile.md')print(post['attributes'], &quot;\n&quot;)  # Dictionaryprint(post['body'], &quot;\n&quot;)        # Stringprint(post['frontmatter'])       # String```The output would be:```{'foo': 'bar', 'num': 3, 'list': ['first', 'second', 'third']}This is the actual post contentThis is a second linefoo: barnum: 3list:- first- second- third```In the above example, the contents of **testfile.md** is:```---foo: barnum: 3list:- first- second- third---This is the actual post contentThis is a second line```LICENSE--------[ISC License](https://en.wikipedia.org/wiki/ISC_license)Copyright (c) 2018, Jonathan BeebePermission to use, copy, modify, and/or distribute this software for anypurpose with or without fee is hereby granted, provided that the abovecopyright notice and this permission notice appear in all copies.THE SOFTWARE IS PROVIDED &quot;AS IS&quot; AND THE AUTHOR DISCLAIMS ALL WARRANTIESWITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OFMERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FORANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGESWHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN ANACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OFOR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.</longdescription>
+</pkgmetadata>

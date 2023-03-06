@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Simple authentication client============================Simple authentication clientUsage-----.. code-block:: python    from authclient import AuthClient    async def main(username, password):        cli = AuthClient(&quot;service&quot;, &quot;127.0.0.1&quot;, 443)        await cli.authenticate(username, password)</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>#######################################################################neuro-deploy 0.0.3Released: 21-03-2023neuro-deploy, the next version of neuro-deploy, is now stable and recommended for general use.it is easy to start using neuro deploy in your existing projects as well as new projects. Going forward, API updates and all new feature work.Introductionneuro-deploy  is a Python package that provides interfaces to deply ML models. Currently, all features work with Python 3.ServicesAt the moment, neuro-deploy supports:User managementTokens managementModelsInstallationInstall via pip:$ pip install neuro-deployInstall from source:ChangeLogsTo see what has changed over time in neuro-deploy, you can check out the release notes in our websiteFinding Out More About BotoOnline documentation is also available. The online documentation includes full API documentation as well as Getting Started Guides for many of the neuro-deploy modules.Getting Started with neuro-deployYour credentials can be passed into the methods that create connections. Alternatively, neuro-deploy will check for the existence of the following environment variables to ascertain your credentials:ND_ACCESS_TOKEN - Your Neuro deploy Access Key IDND_SECRETKEY - Your  Neuro deploy  Secret Access KeyCredentials and other settings can also be stored in a Neuro deploy config files:~/.nd/secrets  #where your access credentials are stored~/.nd/config   #where your configuration is stroes : user name / URL~/.nd/token    #where your jwt token is tored after login</longdescription>
+</pkgmetadata>

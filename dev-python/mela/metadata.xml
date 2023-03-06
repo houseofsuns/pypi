@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Alem Mela## OverviewAsynchronous framework that makes it really simple to build RabbitMQ services.## Installation`pip install mela`## UsageBasic usage does look like this:`app.py`:```from mela import Melaapp = Mela(__name__)app.read_config_yaml('application.yml')@app.service(&quot;printer&quot;)def printer(body, message):    # Just print message body and push     # unchanged message to output queue.    print(body)    return bodyif __name__ == '__main__':    app.run()````application.yml`:```connections:  default:    host: localhost    port: 5672    username: user    password: bitnamiservices:  printer:    consumer:      exchange: general-sentiment-x      routing_key: general-sentiment-q      queue: general-sentiment-q    publisher:      exchange: general-sentiment-x      routing_key: general-sentiment-q```For more use cases and examples please check `/examples` directory.## AuthorsDeveloped in Alem Research.Core maintainer: Daniyar Supiyev (undead.thunderbird@gmail.com).Sponsor: Sergazy Narynov.</longdescription>
+</pkgmetadata>

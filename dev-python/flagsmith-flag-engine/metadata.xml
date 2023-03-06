@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![Feature Flag, Remote Config and A/B Testing platform, Flagsmith](https://github.com/Flagsmith/flagsmith/raw/main/static-files/hero.png)](https://www.flagsmith.com/)[Flagsmith](https://www.flagsmith.com/) is an open source, fully featured, Feature Flag and Remote Config service. Useour hosted API, deploy to your own private cloud, or run on-premise.# Flagsmith Flag EngineThis project powers the core [Flagsmith API](https://github.com/Flagsmith/flagsmith-api) flag evaluations engine.## Setup```bashpython -m venv .venvsource .venv/bin/activatepython -m pip install -r requirements-dev.txt```## Design- Marshmallow Schemas- Plain Python</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># CS3APIS for Python[![Join the conversation](https://badges.gitter.im/cs3org/CS3APIS.svg)](https://gitter.im/cs3org/CS3APIS) [![Latest Version](https://img.shields.io/pypi/v/cs3apis)](https://pypi.org/project/cs3apis/) [![Drone CI Build Status](https://img.shields.io/drone/build/cs3org/python-cs3apis)](https://cloud.drone.io/cs3org/python-cs3apis) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) API definitions can be found at https://github.com/cs3org/cs3apis## Install with pip```bashpip install cs3apis```</longdescription>
+</pkgmetadata>

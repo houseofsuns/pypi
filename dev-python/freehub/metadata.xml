@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># freehubWith one command, upload file to freehub , or download from freehub. Easy to use.# install```shell scriptpip3 install freehub``` # usage```shell script#uploadfreehub upload path(can be file or directory) [key](key is optional,by default is the same as path)#upload filefreehub upload a.jpg a #upload directoryfreehub upload demo demo# downloadfreehub download key(the key you use for uploading) [path](optional, default value: &quot;./&quot;)# download filefreehub download a ./downloads# download directoryfreehub download demo ./downloads```# roadmap[] support for custom repository, e.g. `freehub set-repo gitee.com/Peiiii`[] wrap it as a script repository, text store, json store , or database?.[] support for running script by specifying script location, e.g. `freehub run OpenGitspace/meta/b`, `freehub pyrun OpenGitspace/c/d`[] note-taking app building upon freehub[] cloud functions</longdescription>
+</pkgmetadata>

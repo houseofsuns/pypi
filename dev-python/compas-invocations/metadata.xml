@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># compas_invocations[![pypi](https://img.shields.io/pypi/v/compas_invocations.svg)](https://pypi.org/project/compas-invocations/)A collection of reusable pyinvoke tasks## UsageImport and add tasks to a collection in your project's `tasks.py` file:    import os    from invoke import Collection    from compas_invocations import style    ns = Collection(style.check, style.lint)    ns.configure(        {            &quot;base_folder&quot;: os.path.dirname(__file__),        }    )For a more complete example, check the [`tasks.py`](tasks.py) of this project.</longdescription>
+</pkgmetadata>

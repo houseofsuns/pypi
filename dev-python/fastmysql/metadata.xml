@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># fastmysql![](https://img.shields.io/badge/Python-3.8.6-green.svg)#### 介绍简单快速的使用mysql#### 软件架构软件架构说明#### 安装教程1.  pip安装```shell scriptpip3 install fastmysql```2.  pip安装（使用淘宝镜像加速）```shell scriptpip3 install fastmysql -i https://mirrors.aliyun.com/pypi/simple```#### 使用说明1.  demo```pythonimport fastmysqlquery_res = fastmysql.query_table_all_data(    db_name='test',     tb_name='test')# 获取建表语句res = fastmysql.show_create_table(    db_name='test',    tb_name='test')```2.  防止sql注入：写法cursor.execute('insert into user (name,password) value (?,?)',(name,password))　　或者cursor.execute('insert into user (name,password) value (%s,%s)',(name,password))　　%s与?都可以作为sql语句的占位符，它们作为占位符的功能是没有区别的，mysql.connector用 %s 作为占位符；pymysql用 ? 作为占位符。但是注意不要写成cursor.execute('insert into user (name,password) value (?,?)'%(name,password))　　这种写法是直接将参数拼接到sql语句中，这样数据库就容易被sql注入攻击，比如cursor.execute('select * from user where user=%s and password=%s'%(name,password))　　要是name和password都等于'a or 1=1'，那么这个语句会把整个user表都查询出来3.  默认环境- 默认使用的环境文件为：mysql.env</longdescription>
+</pkgmetadata>

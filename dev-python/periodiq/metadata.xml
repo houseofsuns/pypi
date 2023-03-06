@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Simple Scheduler for Dramatiq Task Queue[dramatiq](https://dramatiq.io) task queue is great but lake a scheduler. Thisproject fills the gap.## Features- Cron-like scheduling.- Single process.- Fast and simple implementation.- Easy on ressources using SIGALRM.- No dependency except dramatiq ones.- CLI consistent with dramatiq.- Skip outdated message.## Installationperiodiq is licensed under LGPL 3.0+.``` console$ pip install periodiq```Declare periodic tasks like this:``` python# filename: app.pyimport dramatiqfrom periodiq import PeriodiqMiddleWare, cronbroker.add_middleware(PeriodiqMiddleWare(skip_delay=30))@dramatiq.actor(periodic=cron('0 * * * *))def hourly():    # Do something each hour…    ...```Then, run scheduler with:``` console$ periodiq -v app[INFO] Starting Periodiq, a simple scheduler for Dramatiq.[INFO] Registered periodic actors:[INFO][INFO]     m h dom mon dow          module:actor@queue[INFO]     ------------------------ ------------------[INFO]     0 * * * *                app:hourly@default[INFO]...```## SupportIf you need help or found a bug, mind [opening a GitLabissue](https://gitlab.com/bersace/periodiq/issues/new) on the project. Frenchand English spoken.</longdescription>
+</pkgmetadata>

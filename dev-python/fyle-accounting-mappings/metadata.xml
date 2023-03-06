@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Fyle Accounting Mappings## Installation and UsageBackend infra to support all kinds of mappings in Fyle Accounting Integrations    $ pip install fyle-accounting-mappingsIn Django `settings.py` -    INSTALLED_APPS = [        'django.contrib.admin',        'django.contrib.auth',        'django.contrib.contenttypes',        'django.contrib.sessions',        'django.contrib.messages',        'django.contrib.staticfiles',            # Installed Apps        'rest_framework',        'corsheaders',        'fyle_rest_auth', # already existing reusable django app for authentication        'fyle_accounting_mappings', # new mapping infra app            # User Created Apps        'apps.users',        'apps.workspaces',        'apps.mappings',        'apps.fyle',        'apps.quickbooks_online',        'apps.tasks'    ]Run migrations -    $ python manage.py migrateTo use -     from fyle_accounting_mappings.models import MappingSetting, Mapping, ExpenseTag, DestinationTag        # Operations with DB</longdescription>
+</pkgmetadata>

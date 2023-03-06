@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># stringcalc*Calculations for [string instrument](https://en.wikipedia.org/wiki/String_instrument)s' strings*[![CI workflow status](https://github.com/zmoon/stringcalc/actions/workflows/ci.yml/badge.svg)](https://github.com/zmoon/stringcalc/actions/workflows/ci.yml)[![Version on PyPI](https://img.shields.io/pypi/v/stringcalc.svg)](https://pypi.org/project/stringcalc/)[![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pysesame2Python API for Sesame Smartlock made by CANDY HOUSE, Inc.### API KEYYou have to generate apikey using candyhouse dashboard: https://my.candyhouse.co/### InstallationInstall from pypi```shell# pip install pysesame2```Install from source```shell# python setup.py install```### Example#### python```pythonfrom pysesame2 import get_sesamessesames = get_sesames(YOUR_APIKEY)sesame = sesames[0]print(sesame)print(sesame.get_status())sesame.lock()``````pythonfrom uuid import UUIDfrom time import sleepfrom pyseame2 import Sesamedevice_id = UUID('YOUR DEVICE UUID')sesame = Sesame(device_id, YOUR_APIKEY)print(sesame.get_status())task = sesame.async_lock()while task.pooling() is False:    print('Processing...')    sleep(1)print('Result: %s' % task.is_successful)```#### Command Line Interface```shell# sesame2 --apikey YOUR_APIKEY list                           Device ID        Serial Nickame======================================================================00000000-0000-0000-0000-000000000001  000000000001 MY-SESAME-LOCK-100000000-0000-0000-0000-000000000002  000000000002 MY-SESAME-LOCK-2# sesame2 --apikey YOUR_APIKEY lock 00000000-0000-0000-0000-000000000001# sesame2 --apikey YOUR_APIKEY status 00000000-0000-0000-0000-000000000001Locked: TrueBattery: 100Responsive: True```Use `sesame2 --help` get more options</longdescription>
+</pkgmetadata>

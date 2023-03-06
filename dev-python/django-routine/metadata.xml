@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## Project DescriptionWith *django-routine*, you can create a basic django project with a single command!## Requirements* Python (3.8 or higher)## InstallationInstall using pip`pip install django-routine`## Usage`startproject &lt;app_name&gt; &lt;app_name&gt;`## P.S.If you find bugs, need help, or want to talk to the developers, please write an issue on [GitHub](https://github.com/DCDie/azure-transcribe/issues).</longdescription>
+</pkgmetadata>

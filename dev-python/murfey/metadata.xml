@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># MurfeyA transporter for data from Diamond eBIC microscope and detector machines onto the Diamond network.### Who is Murfey?Murfey, the package, is named after [Eliza Murfey, the inventor](https://nationalrrmuseum.org/blog/mother-of-invention-women-railroad-innovators/):&gt; Focusing on the mechanics of the railroad, inventor Eliza Murfey created devices designed&gt; to improve the bearings on rail wheels. With sixteen patents for her lubrication system,&gt; it was Murfey who designed the packings that would lubricate the axles with oil, aiding&gt; in the reduction of derailments caused by seized axles and bearings.### How do I set up a development environment?We suggest you start with your favourite virtual environment (mamba/conda/python virtualenv/...),then install the dependencies listed in `requirements_dev.txt` with eg.```bash$ git clone git@github.com:DiamondLightSource/python-murfey.git$ cd python-murfey$ pip install -r requirements_dev.txt$ pip install -e .[client,server]```You will also want to set up pre-commits:```bash$ pip install pre-commit$ pre-commit install```Finally, you may want to set up an ISPyB mock database server and a Zocalodevelopment environment. The instructions for this are out of scope here.You can then start the Murfey server with```bash$ murfey.server```and connect the client with```bash$ murfey --server http://127.0.0.1:8000```You can also install a client on a remote machine. This machine only needs to havea minimum Python installation and curl. Open the murfey server website in a browseron the client, and navigate to the bootstrap page. Then copy the displayed commandsinto a command line terminal.</longdescription>
+</pkgmetadata>

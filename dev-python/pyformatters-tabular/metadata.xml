@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## Requirements- Python 3.8+- Flit to put Python packages and modules on PyPI- Pydantic for the data parts.## Installation```pip install flitpip install pyconverters-plugins```## Publish the Python Package to PyPI- Increment the version of your package in the `__init__.py` file:```&quot;&quot;&quot;An amazing package!&quot;&quot;&quot;__version__ = 'x.y.z'```- Publish```flit publish```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image:: https://img.shields.io/pypi/v/penaltymodel-cache.svg    :target: https://pypi.org/project/penaltymodel-cachePenalty Model Cache===================.. index-start-markerA local cache for penalty models. Serves as a factory and cache for penaltymodel.On install, penaltymodel_cache registers an entry point that can be read bypenaltymodel. By identifying itself as both a cache and a factory, it willbe used automatically by any project that uses penaltymodel's :code:`get_penalty_model`function. It will also be automatically populated.. index-end-markerInstalling----------.. installation-start-markerTo install:.. code-block:: bash    pip install penaltymodel_cacheTo build from source:.. code-block:: bash    cd penaltymodel_cache    pip install -r requirements.txt    pip install -e ../penaltymodel_core/    python setup.py install.. installation-end-markerCache Location--------------If installed inside of a virtual environment, penaltymodel_cache willstore the database in :code:`/path/to/virtualenv/data/app_name`. Otherwisethe cache will be placed in the system's application data directory.License-------Released under the Apache License 2.0. See LICENSE</longdescription>
+</pkgmetadata>

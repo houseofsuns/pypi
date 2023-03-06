@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># np_workflowsThis package contains all the Python code required to run Mindscope Neuropixels experiments.Experiment workflows and related tasks are coordinated by Jupyter notebooks maintained here:https://github.com/AllenInstitute/np_notebooksRunning the notebooks requires a Python environment with:- Python &gt;= 3.11- np_workflows- Jupyter / JupyterLab```git clone https://github.com/AllenInstitute/np_notebooksconda create -n workflows python=3.11pip install np_workflowspip install jupyterlab```Keep the `np_workflows` package up-to-date by running `pip installnp_workflows -U` before each useTo develop this package `git clone` then `poetry install`</longdescription>
+</pkgmetadata>

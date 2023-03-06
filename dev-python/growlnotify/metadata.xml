@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;!--https://readme42.com--&gt;[![](https://img.shields.io/pypi/v/growlnotify.svg?maxAge=3600)](https://pypi.org/project/growlnotify/)[![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)### Installation```bash$ [sudo] pip install growlnotify```#### Examples```python&gt;&gt;&gt; import growlnotify&gt;&gt;&gt; growlnotify.notify(t=&quot;title&quot;,m=&quot;message&quot;)           # -t &quot;title&quot; -m &quot;message&quot;&gt;&gt;&gt; growlnotify.notify(title=&quot;title&quot;,message=&quot;message&quot;) # --title &quot;title&quot; --message &quot;message&quot;````-s`, `--sticky````python&gt;&gt;&gt; growlnotify.notify(title=&quot;title&quot;,s=True)       # -s&gt;&gt;&gt; growlnotify.notify(title=&quot;title&quot;,sticky=True)  # --sticky```growlnotify keys```bash$ growlnotify --help```#### Links+   [growl.info](http://growl.info/)&lt;p align=&quot;center&quot;&gt;    &lt;a href=&quot;https://readme42.com/&quot;&gt;readme42.com&lt;/a&gt;&lt;/p&gt;</longdescription>
+</pkgmetadata>

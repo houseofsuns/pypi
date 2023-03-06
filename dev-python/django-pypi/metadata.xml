@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Django PyPi============PyPi structured in your database accessible through the ORM.Installation------------To get the latest stable release from PyPi.. code-block:: bash    $ pip install django-pypiTo get the latest commit from GitHub.. code-block:: bash    $ pip install -e git+git://github.com/Celc/django-pypi.git#egg=pypiTODO: Describe further installation steps (edit / remove the examples below):Add ``pypi`` to your ``INSTALLED_APPS``.. code-block:: python    INSTALLED_APPS = (        ...,        'pypi',    )Don't forget to migrate your database.. code-block:: bash    ./manage.py migrate pypiUsage-----Use ``./manage.py pypi_refresh`` to fetch pypi, this is going to take a while.Then just start querying the ORM:.. code-block:: python    &gt;&gt;&gt; package = Package.objects.get(name='Django')    &gt;&gt;&gt; package.versions.values_list('version', flat=True)    [u'1.0.1', u'1.0.2', u'1.0.3', '...(remaining elements truncated)...']Contribute----------If you want to contribute to this project, please perform the following steps.. code-block:: bash    # Fork this repository    # Clone your fork    $ mkvirtualenv -p python2.7 django-pypi    $ python setup.py install    $ git co -b feature_branch master    # Implement your feature and tests    $ git add . &amp;&amp; git commit    $ git push -u origin feature_branch    # Send us a pull request for your feature branch</longdescription>
+</pkgmetadata>

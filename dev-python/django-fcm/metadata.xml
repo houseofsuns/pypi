@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>django-fcm==========.. image:: https://badge.fury.io/py/django-fcm.svg    :target: https://badge.fury.io/py/django-fcmFirebase Cloud Messaging Server in DjangoQuickstart----------Install the package via ``pip``::    pip install django-fcm  --process-dependency-links    Add ``fcm`` to ``INSTALLED_APPS`` in ``settings.py``.. code-block:: python   INSTALLED_APPS = [       ....,       fcm   ]Add ``FCM_APIKEY`` to ``settings.py`` file:.. code-block:: python    FCM_APIKEY = &quot;&lt;api_key&gt;&quot;Add ``fcm urls`` to ``urls.py`` file:.. code-block:: python    urlpatterns = [      ...      url(r'', include('fcm.urls')),      ...    ]Python 3 support----------------``django-fcm`` is fully compatible with Python 3.4 &amp; 3.5Django Support----------------``django-fcm`` is fully compatible with Django 1.8, 1.9 and 1.10Django Rest Framework----------------``django-fcm`` is fully compatible with django-rest-framework 3.3.2.Documentation: `https://django-fcm.readthedocs.org &lt;https://django-fcm.readthedocs.org&gt;`_</longdescription>
+</pkgmetadata>

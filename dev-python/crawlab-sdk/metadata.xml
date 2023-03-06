@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Crawlab SDK for Python[中文](https://github.com/crawlab-team/crawlab-sdk/blob/master/python/README-zh.md) | EnglishThe SDK for Python contains two parts:1. CLI Tool2. Utility Tools## CLI ToolThe CLI Tool is mainly designed for those who are more comfortable using command line tools to interact with Crawlab. The installation of the CLI Tool is simple:```bashpip install crawlab-sdk```Then, you can use the `crawlab` command in the command prompt to action with Crawlab.Check the help document below, or you can refer to [the official documentation (Chinese)](https://docs.crawlab.cn/SDK/CLI.html). ```crawlab --help```## Utility ToolsUtility tools mainly provide some `helper` methods to make it easier for you to integrate your spiders into Crawlab, e.g. saving results.Below are integration methods of Scrapy and general Python spiders with Crawlab.⚠️Note: make sure you have already installed `crawlab-sdk` using pip.##### Scrapy IntegrationIn `settings.py` in your Scrapy project, find the variable named `ITEM_PIPELINES` (a `dict` variable). Add content below.```pythonITEM_PIPELINES = {    'crawlab.pipelines.CrawlabMongoPipeline': 888,}```Then, start the Scrapy spider. After it's done, you should be able to see scraped results in **Task Detail -&gt; Result**##### General Python Spider IntegrationPlease add below content to your spider files to save results.```python# import result saving methodfrom crawlab import save_item# this is a result record, must be dict typeresult = {'name': 'crawlab'}# call result saving methodsave_item(result)```Then, start the spider. After it's done, you should be able to see scraped results in **Task Detail -&gt; Result**</longdescription>
+</pkgmetadata>

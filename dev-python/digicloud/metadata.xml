@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># DigiCloud Command Line Interface ## InstallTo install the client run the following command:```bashpython setup.py install```## bash auto completionAfter install you can use ``digicloud`` command ``bashcompletion`` toto generate auto completion bash script.```bashdigicloud complete &gt; /etc/bash_completion.d/digicloud```## DevelopmentInstall preferably inside your choice of virtual environments likepoetry or pipenv.Use edit mode:```bashpython -m pip install -e .```</longdescription>
+</pkgmetadata>

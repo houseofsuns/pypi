@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>functional provides Python users with numeroustools common in functional programming, such as foldl, foldr, flip, as wellas mechanisms for partial function application and function composition.functional also includes sane versions of the Python builtins map() and filter(),written without the weird semantics of the builtin versions.functional comes in two flavours: one is written in a combination of C andPython, focusing on performance. The second is written in pure Python andemphasises code readability and portability. The pure-Python variant is alsorecommended if your setup does not allow compilation of third-party extensionmodules.</longdescription>
+</pkgmetadata>

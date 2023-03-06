@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># hydrodata is now pygeohydroThis package has been renamed. Use `pip install pygeohydro` instead.New package: https://pypi.org/project/pygeohydro/</longdescription>
+</pkgmetadata>

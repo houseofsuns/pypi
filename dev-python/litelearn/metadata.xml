@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># litelearna python library for building models without fussingover the nitty gritty details for data mungingonce you have a `pandas` dataframe you can create a model for your dataset in 3 lines of code:```python# load some datasetimport seaborn as snsdataset = &quot;penguins&quot;target = &quot;body_mass_g&quot;df = sns.load_dataset(dataset).dropna(subset=[target])# just 3 lines of code to create # and evaluate a modelimport litelearn as llmodel = ll.core_regress_df(df, target)result = model.get_evaluation() ```## installation`pip install litelearn`</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># MeowerBot.pyA bot lib for Meower## Licensesee [LICENSE](./LICENSE)## docsThe Docs are located [here](https://meowerbot-py.showierdata.tech/)## Quick Examplelook at the [tests directory](./tests) for examples </longdescription>
+</pkgmetadata>

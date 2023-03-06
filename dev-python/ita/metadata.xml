@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>material for any purpose, even commercially.The matterial is provided by Akimasa Morihata &quot;AS IS&quot; and any expressor implied warranties are disclaimed. In no event shall AkimasaMorihata be liable for any damages and on any theory of liabilityarising in any way out of the use of this software, even if advised ofthe possibility of such damage.Akimasa Morihata, 2018-2023Description: This project provides a resource for a lecture, &quot;introduction to        algorithms&quot;, in Junior Division of the College of Arts and Sciences,        the University of Tokyo.                これは東京大学教養学部で開講されている総合科目「アルゴリズム入門」で使        用するサポートパッケージです。不明な点がある場合やバグを発見した場合は        森畑（morihata@graco.c.u-tokyo.ac.jp）までご連絡ください。                (c) Akimasa Morihata, the Univerisy of Tokyo, 2018-2023.        Platform: UNKNOWNClassifier: Programming Language :: Python :: 3Classifier: Operating System :: OS Independent</longdescription>
+</pkgmetadata>

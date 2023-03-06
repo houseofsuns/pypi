@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## Versatile Data Kit Server PluginThis plugin facilitates installation of the Control Service in a local [Kind](https://kind.sigs.k8s.io/) cluster.### UsageTo use the plugin, just install it using:```bashpip install vdk-server```To install the Control Service:```bashvdk server --install```To remove revious installation:```bashvdk server --uninstall```</longdescription>
+</pkgmetadata>

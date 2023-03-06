@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># utils-py![Continuous Integration](https://github.com/outcome-co/utils-py/workflows/Continuous%20Integration/badge.svg) ![version-badge](https://img.shields.io/badge/version-5.1.0-brightgreen)A set of python utilities.## Usage```shpoetry add outcome-utils```### CacheTo add cache to a module``` pythonfrom outcome.utils import cachecache_settings = {    '&lt;your_prefix&gt;.expiration': 300,  # Default    '&lt;your_prefix&gt;.backend': 'memory',  # Default}region = cache.get_cache_region()cache.configure_cache_region(region, settings=cache_settings, prefix='&lt;your_prefix&gt;')```Then add to the functions to cache:``` python@region.cache_on_arguments()def func_to_cache():    ...```Or for async functions:``` python@region.cache_on_arguments()@cache.cache_asyncasync def async_func_to_cache():    ...```To have the cache persist on disk, specify the path``` pythonfrom pathlib import Pathcache_settings = {    ...    '&lt;your_prefix&gt;.cache_path': f'{Path.home()}/.cache/example_path/cache.pkl'',    ...}```## DevelopmentRemember to run `./pre-commit.sh` when you clone the repository.</longdescription>
+</pkgmetadata>

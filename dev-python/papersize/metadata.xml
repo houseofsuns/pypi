@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>papersize 📏 Paper size related tools=====================================This module provides tools to manipulate paper sizes, that is:- a dictionary of several named standard names (e.g. A4, letter) , with their  respective sizes (width and height);- functions to convert sizes from one unit (e.g. inches) to another (e.g. centimeters);- functions to manipulate paper orientation (portrait or landscape);- tools to parse paper sizes, so that you do not have to worry about the format  of paper sizes provided by your user, it being `&quot;a4&quot;` or `&quot;21cm x 29.7cm&quot;`.What's new?-----------See `changelog &lt;https://git.framasoft.org/spalax/papersize/blob/main/CHANGELOG.md&gt;`_.Install-------See the end of list for a (quick and dirty) Debian package.* From sources:  * Download: https://pypi.python.org/pypi/papersize  * Install (in a `virtualenv`, if you do not want to mess with your distribution installation system)::      python3 setup.py install* From pip::    pip install papersize* Quick and dirty Debian (and Ubuntu?) package  This requires `stdeb &lt;https://github.com/astraw/stdeb&gt;`_ to be installed::      python3 setup.py --command-packages=stdeb.command bdist_deb      sudo dpkg -i deb_dist/python-papersize-&lt;VERSION&gt;_all.debTest----* Current python version::    python3 setup.py test* All supported python versions (using `tox &lt;http://tox.testrun.org&gt;`_)::    toxDocumentation-------------The documentation is available on `readthedocs &lt;http://papersize.readthedocs.io&gt;`_.  You can build it using::  cd doc &amp;&amp; make html</longdescription>
+</pkgmetadata>

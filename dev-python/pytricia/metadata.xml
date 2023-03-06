@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Pytricia is a Python module to store IP prefixes in apatricia tree. It's based on Dave Plonka's modified patricia treecode, and has three things to recommend it over related modules(including py-radix and SubnetTree): * it's faster, * it works nicely in Python 3, and * there are a few nicer library features for manipulating the structure.See the github repo for documentation and some performance numbers: &lt;https://github.com/jsommers/pytricia&gt;.Pytricia is released under terms of the GNU Lesser General Public License,version 3.</longdescription>
+</pkgmetadata>

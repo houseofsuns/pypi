@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=========== PyEnvFile===========Install=======::   pip install pydotenvUsage=====::   env = pydotenv.Environment()   env['MY_VARIABLE'] = 'some-value' Check if file exists: pass `check_file_exists=True` to get an exception if the file does not exist. By default(`False`) the file is created.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Minimal SQLAlchemy backend for Informix IDS===========================================Work in progress, updates done as needed for our migrations.Passes the SQLAlchemy standard suite without errors, skips quite a few tests though.</longdescription>
+</pkgmetadata>

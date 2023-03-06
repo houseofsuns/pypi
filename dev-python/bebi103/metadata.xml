@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># bebi103[![DOI](https://data.caltech.edu/badge/44303442.svg)](https://data.caltech.edu/badge/latestdoi/44303442)Utilities Caltech BE/Bi 103 ab: Data Analysis in the Biological SciencesPlease see [the documentation](http://bebi103.github.io/).</longdescription>
+</pkgmetadata>

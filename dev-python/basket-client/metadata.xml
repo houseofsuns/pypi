@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=============Basket Client=============This is a client for Mozilla's email subscription service,basket. Basket is not a real subscription service, but it talks to areal one and we don't really care who/what it is... image:: https://travis-ci.org/mozilla/basket-client.svg?branch=master    :target: https://travis-ci.org/mozilla/basket-client.. image:: https://img.shields.io/pypi/v/basket-client.svg    :target: https://pypi.python.org/pypi/basket-clientDocs----Documentation can be found at http://basket-client.rtfd.org/License-------This software is licensed under the BSD License. For more information, read the file ``LICENSE``.</longdescription>
+</pkgmetadata>

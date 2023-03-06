@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pycparser is a complete parser of the C language, written in        pure Python using the PLY parsing library.        It parses C code into an AST and can serve as a front-end for        C compilers or analysis tools.</longdescription>
+</pkgmetadata>

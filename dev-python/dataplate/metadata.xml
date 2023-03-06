@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>DataPlate - Python Data Access API===================================## Installationpip install dataplate## DescriptionThis client communicates with DataPlate platform servers from within your Data-Science development environmentFor more info: [DataPlate](http://dataplate.io)See also our JupyterLab extension: [DataPlate-Lab](https://pypi.org/project/dataplate-lab/)## Usage using our open-sourceFirst:Install [DataPlate Portal Web service](./../webapp/README.md) and navigate to &quot;API Documentation&quot; for usage instructions**More details:**DataPlate() constructor accepts the following parameters:env - Environment to retrieve the Data from ('dev' or 'prd').access_key - Alternative method for supplying your access key.dataplate_ur - Alternative method for supplying DataPlate Portal URI.Get the access key from Dataplate Web-service portal (Navigate in Menu to &quot;Private access key&quot;):&lt;img src=&quot;https://user-images.githubusercontent.com/69418989/102617781-61d61880-4142-11eb-9df1-1695e9d5217d.png&quot; width=&quot;50%&quot; height=&quot;50%&quot;&gt;This example shows how to run a query, and return results as Pandas DataFrame object:```from dataplate.client import DataPlatedataplate = DataPlate()df = dataplate.query_to_df('''SELECT * FROM myTable WHERE `date`='20200218' AND hour=12''')```For more instructions, please refer to the [DataPlate Github](https://github.com/Dataplate)</longdescription>
+</pkgmetadata>

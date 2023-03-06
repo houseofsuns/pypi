@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pkmanA python package manager inspired by npm.## Demo```shellmkdir my-demo-package &amp;&amp; cd my-demo-packagepkman init# edit package.jsonpkx init-pypkg# if git repo is configured, bind remote branch on remote repository bypkx gitops init git@host:username/repo branch# once you finished updating your code, sync code to remote bypkx gitops update &quot;update-code&quot;```</longdescription>
+</pkgmetadata>

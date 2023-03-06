@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># THIS IS A CLONE[Clone](https://github.com/alexberazouski/chevron) of [original chevron](https://github.com/noahmorrison/chevron) (all credits go there).Clone was created for a single purpose of releasing a package with the latest merged changes in the original repo.And to let other people know how to install it.## UsageSee the [original repo](https://github.com/noahmorrison/chevron)</longdescription>
+</pkgmetadata>

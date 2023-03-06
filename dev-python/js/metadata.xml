@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>js**Introduction============This library packages `Root directory for Fanstatic packages`_ for `fanstatic`_... _`fanstatic`: http://fanstatic.org.. _`Root directory for Fanstatic packages`: https://github.com/MiCHiLU/jsThis requires integration between your web framework and ``fanstatic``,and making sure that the original resources (shipped in the ``resources``directory in ``js``) are published to some URL.How to use?===========You can import ``js``::  &gt;&gt;&gt; import jsCHANGES*******1.0 (unreleased)===============================- Initial release.</longdescription>
+</pkgmetadata>

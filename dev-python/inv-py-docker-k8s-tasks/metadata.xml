@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Common Inkove tasks for working with Python/Docker/K8s[Inkove][invoke] (or pyinvoke) is a tool for automating tasks made in Python.This package define a set of common tasks you can use if working with Python (and it's popular frameworks), Docker and Kubernetes.[invoke]: https://pyinvoke.org</longdescription>
+</pkgmetadata>

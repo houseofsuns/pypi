@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Deethon[![Codacy Badge](https://app.codacy.com/project/badge/Grade/3a54b30586b941acb82079d0252e0320)](https://www.codacy.com/gh/deethon/deethon?utm_source=github.com&amp;amp;utm_medium=referral&amp;amp;utm_content=deethon/deethon&amp;amp;utm_campaign=Badge_Grade)[![Codacy Badge](https://app.codacy.com/project/badge/Coverage/3a54b30586b941acb82079d0252e0320)](https://www.codacy.com/gh/deethon/deethon?utm_source=github.com&amp;amp;utm_medium=referral&amp;amp;utm_content=deethon/deethon&amp;amp;utm_campaign=Badge_Coverage)[![PyPI](https://img.shields.io/pypi/v/deethon)](https://pypi.org/project/deethon/)![PyPI - Status](https://img.shields.io/pypi/status/deethon)[![PyPI - Downloads](https://img.shields.io/pypi/dm/deethon)](https://pypi.org/project/deethon/)[![GitHub license](https://img.shields.io/github/license/aykxt/deethon)](https://github.com/aykxt/deethon/blob/master/LICENSE)Deethon is a lightweight Python library for downloading high quality music from Deezer.## Getting started### Installation```shpip install deethon```### Usage```pythonimport deethondeezer = deethon.Session(&quot;YOUR ARL TOKEN&quot;)deezer.download(    &quot;https://www.deezer.com/track/1234567&quot;,    bitrate=&quot;FLAC&quot;  # or MP3_320 / MP3_256 / MP3_128 (optional))```</longdescription>
+</pkgmetadata>

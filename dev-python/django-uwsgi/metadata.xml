@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>django-uwsgi~~~~~~~~~~~~|release| |stats|  |lic|.. |release| image:: https://img.shields.io/pypi/v/django-uwsgi.svg    :target: https://pypi.python.org/pypi/django-uwsgi.. |stats| image:: https://img.shields.io/pypi/dm/django-uwsgi.svg    :target: https://pypi.python.org/pypi/django-uwsgi.. |lic| image:: https://img.shields.io/pypi/l/django-uwsgi.svg    :target: https://pypi.python.org/pypi/django-uwsgiDjango related examples/tricks/modules for uWSGIScreenshots~~~~~~~~~~~`django-debug-toolbar &lt;http://django-debug-toolbar.readthedocs.org/en/latest/&gt;`_ panel.. image:: https://github.com/unbit/django-uwsgi/raw/master/docs/screenshots/screenshot1.png`Wagtail &lt;https://github.com/torchbox/wagtail&gt;`_ admin interface:.. image:: https://github.com/unbit/django-uwsgi/raw/master/docs/screenshots/screenshot2.png.. image:: https://github.com/unbit/django-uwsgi/raw/master/docs/screenshots/screenshot3.pngEmperor's Vassal Admin Panel.. image:: https://github.com/unbit/django-uwsgi/raw/master/docs/screenshots/screenshot4.png`django.contrib.admin &lt;https://docs.djangoproject.com/en/1.10/ref/contrib/admin/&gt;`_ interface.. image:: https://github.com/unbit/django-uwsgi/raw/master/docs/screenshots/screenshot5.pngDocumentation~~~~~~~~~~~~~`Read the documentation at rtfd.org &lt;http://django-uwsgi.rtfd.org/&gt;`_Contributors~~~~~~~~~~~~See `CONTRIBUTORS &lt;https://github.com/unbit/django-uwsgi/raw/master/CONTRIBUTORS&gt;`_License~~~~~~~`MIT &lt;https://github.com/unbit/django-uwsgi/raw/master/LICENSE&gt;`_</longdescription>
+</pkgmetadata>

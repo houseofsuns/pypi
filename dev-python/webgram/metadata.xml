@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># webgramTelegram Web Util.## usage```import webgramwebgram.get(channel_name) # return Webgram object, with title, description, existwebgram.getPosts(channel_name)# returns list of Webgram object, with file, link, # preview, text, post.hasLink(), id, channel# The first object is channel infowebgram.getPost(channel_name, post_id)webgram.getPosts(channel_name, post_id) # start from post_id```## how to install`pip3 install webgram`# webgram</longdescription>
+</pkgmetadata>

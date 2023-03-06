@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># anyioc![GitHub](https://img.shields.io/github/license/Cologler/anyioc-python.svg)[![CI](https://github.com/Cologler/anyioc-python/actions/workflows/main.yml/badge.svg)](https://github.com/Cologler/anyioc-python/actions/workflows/main.yml)[![PyPI](https://img.shields.io/pypi/v/anyioc.svg)](https://pypi.org/project/anyioc/)![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Cologler/anyioc-python)Another simple ioc framework for python.## Usage``` pyfrom anyioc import ServiceProviderprovider = ServiceProvider()provider.register_singleton('the key', lambda ioc: 102) # ioc will be a `IServiceProvider`value = provider.get('the key')assert value == 102```## Register and resolveBy default, you can use following methods to register services:- `ServiceProvider.register_singleton(key, factory)`- `ServiceProvider.register_scoped(key, factory)`- `ServiceProvider.register_transient(key, factory)`- `ServiceProvider.register(key, factory, lifetime)`- `ServiceProvider.register_value(key, value)`- `ServiceProvider.register_group(key, keys)`- `ServiceProvider.register_bind(new_key, target_key)`And use following methods to resolve services:- `ServiceProvider.__getitem__(key)`- `ServiceProvider.get(key)`- `ServiceProvider.get_many(key)`*`get` return `None` if the service was not found, but `__getitem__` will raise a `ServiceNotFoundError`.*Read full [documentation](https://github.com/Cologler/anyioc-python/wiki).</longdescription>
+</pkgmetadata>

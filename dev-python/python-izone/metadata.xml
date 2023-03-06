@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># piZone - python interface to iZone aircon systemThis is a python interface to the [iZone](https://izone.com.au/) airconditioning system.The specifications for the interface are contained in the [included pdf](./AC-DOC-1401-11_iZoneEthernetInterface.pdf).## Usage</longdescription>
+</pkgmetadata>

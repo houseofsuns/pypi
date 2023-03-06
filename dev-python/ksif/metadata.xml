@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ksifData download and back testing tools for KSIF# KSIF PreprocessingData preprocessing tool for KSIF library## UsageSet the root directory as your working directory like 'C:\Users\willbe\PycharmProjects\ksif_preprocessing'.Pass a parameter indicating a file name in data folder like '180730'.After running 'core/__init__.py', the result files are saved in the root directory.## 여러가지 feature 추가 작업 재시작, daily, semi-month frequency 추가</longdescription>
+</pkgmetadata>

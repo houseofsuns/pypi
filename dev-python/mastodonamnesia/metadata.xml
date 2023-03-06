@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>MastodonAmnesia---------------!!! MastodonAmnesia has been renamed to **Fedinesia** which is available on PyPI.org !!!!!! MastodonAmnesia no longer receives fixes or new features !!!Please update to Fedinesia==========================Use the links below for information and to update: - https://pypi.org/project/fedinesia/ - https://codeberg.org/MarvinsMastodonTools/fedinesia</longdescription>
+</pkgmetadata>

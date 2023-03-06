@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>|pypi|edc-constants-------------A collection of constants and choices for the clinicedc/edc projects... |pypi| image:: https://img.shields.io/pypi/v/edc-constants.svg    :target: https://pypi.python.org/pypi/edc-constants</longdescription>
+</pkgmetadata>

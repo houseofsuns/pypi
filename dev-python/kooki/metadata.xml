@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>|build_status|_|coverage|_|pypi_version|_Kooki is a powerful template system that help you create documents with Markdown and YAML.Kooki come with different extensions that let you generate HTML, LaTeX and even more.Need more info, look at the documentation. `kooki.gitlab.io &lt;http://www.python.org/&gt;`_... |build_status| image:: https://gitlab.com/kooki/kooki/badges/master/build.svg.. _build_status: https://gitlab.com/kooki/kooki/commits/master.. |coverage| image:: https://gitlab.com/kooki/kooki/badges/master/coverage.svg?job=coverage.. _coverage: https://kooki.gitlab.io/kooki/coverage.. |pypi_version| image:: https://badge.fury.io/py/kooki.svg.. _pypi_version: https://badge.fury.io/py/kooki</longdescription>
+</pkgmetadata>

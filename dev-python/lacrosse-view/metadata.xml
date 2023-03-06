@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># La Crosse ViewA library for retrieving data from [La Crosse View-connected sensors](https://www.lacrossetechnology.com/collections/lacrosse-view-connected).## DisclaimerThis library is **NOT** for the Jeelink LaCrosse sensors. You can find that library [here](https://pypi.org/project/pylacrosse/).There is also a [Home Assistant integration](https://home-assistant.io/integrations/lacrosse) for the Jeelink LaCrosse sensors.## InstallationRun this in your terminal:```pip install lacrosse_view```## UsageThis example shows how to get the latest data from every sensor connected to the first location on your account.```pythonfrom lacrosse_view import LaCrosseimport asyncioasync def get_data():    api = LaCrosse()    # Log in to your LaCrosse View account    await api.login('paulus@home-assistant.io', 'password')    # Get the sensors from the first location on the account    locations = await api.get_locations()    sensors = await api.get_sensors(locations[0], tz=&quot;America/New_York&quot;, start=datetime.now() - timedelta(minutes=1), end=datetime.now())     for sensor in sensors:        for field in sensor.sensor_field_names:            # Each value is a dictionary with keys &quot;s&quot; and &quot;u&quot;. &quot;s&quot; is the value and &quot;u&quot; is the Unix timestamp for it.            print(                f&quot;{sensor.name} {field}: {sensor.data[field][&quot;values&quot;][-1][&quot;s&quot;]}&quot;            )        await api.logout()asyncio.run(get_data())```## Questions?If you have any questions, please, don't hesitate to [open an issue](https://github.com/IceBotYT/lacrosse_view/issues/new).</longdescription>
+</pkgmetadata>

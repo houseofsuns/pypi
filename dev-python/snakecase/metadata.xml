@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## Snakecase Coverter&gt; Covert camelCase to snake_case## Screenshot&lt;img src=&quot;https://gitlab.com/yoginth/snakecase/raw/master/Screenshot.png&quot; width=&quot;550&quot;&gt;## Install```$ pip install snakecase```## Usage```pythonimport snakecaseprint (snakecase.convert(&quot;YoginthVar&quot;))#=&gt; yoginth_varprint (snakecase.convert(&quot;thisVariable&quot;))#=&gt; this_variable```## Get HelpThere are few ways to get help: 1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question. 2. For bug reports and feature requests, open issues. 3. For direct and quick help, you can [email me](mailto://yoginth@zoho.com).## How to contributeHave an idea? Found a bug? See [how to contribute][contributing].Thanks!## License[MIT][license][LICENSE]: https://yoginth.mit-license.org/[contributing]: /CONTRIBUTING.md</longdescription>
+</pkgmetadata>

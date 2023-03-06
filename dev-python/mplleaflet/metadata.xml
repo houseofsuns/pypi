@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Convert Matplotlib plots into Leaflet web mapsmplleaflet is written and maintained by Jacob Wasserman(https://github.com/jwass) with patches by:* Marius van Niekerk (https://github.com/mariusvniekerk)* Filipe Fernandes (https://github.com/ocefpaf)* Mike Fienen (https://github.com/mnfienen)* Michelle Fullwood (https://github.com/michelleful)* Martin Journois (https://github.com/BibMartin)* Simon Norris (https://github.com/smnorris)</longdescription>
+</pkgmetadata>

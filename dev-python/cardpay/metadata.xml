@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Unlimint APIv3 Python SDKYou can sign up for a Unlimint account at https://www.unlimint.com.## Getting StartedPlease follow the [installation](#installation) instruction and take a look at [usage examples](tests).## RequirementsPython 3+## Installation &amp; Usage### pip installIf the python package is hosted on Github, you can install directly from Github```shpip install git+https://github.com/cardpay/python-sdk-v3.git --upgrade```or```shpip install 'cardpay&gt;=3.45.8' --upgrade```Then import the package:```pythonfrom cardpay import *```### SetuptoolsInstall via [Setuptools](http://pypi.python.org/pypi/setuptools).```shpython setup.py install --user```Then import the package:```pythonfrom cardpay import *```## Proxy usageThe SDK will automatically use a proxy if the `HTTPS_PROXY` or `HTTP_PROXY` environment variable is set.If the `NO_PROXY` env variable is set, the SDK won't use the proxy for hosts from this variable. The format of`NO_PROXY`: comma separated domain names (e.g. &quot;cardpay.com,.example.com&quot;).</longdescription>
+</pkgmetadata>

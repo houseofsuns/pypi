@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>#Python SDK for Aliyun IoT deviceThis is a python sdk for Aliyun IoT device. * MQTT connection:MQTTV31,MQTTV311* Aliyun IoT Thing Model## Release Notes### 1.2.1* [ADD] support to configure the custom endpoint for MQTT config_mqtt * [ADD] support to configure the custom endpoint for HTTP2 config_http2* [UPDATE] support to receive any unsubscribed message by on_topic_message### 1.2.2* [UPDATE] fix the onConnect callback invoked at wrong time issue### 1.2.3* [UPDATE] fix tsl parsing error for simplified tsl products### 1.2.4* [UPDATE] add gateway feature</longdescription>
+</pkgmetadata>

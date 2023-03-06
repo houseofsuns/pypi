@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>base32-crockford================A Python module implementing the alternate base32 encoding as describedby Douglas Crockford at: http://www.crockford.com/wrmg/base32.html.He designed the encoding to:   * Be human and machine readable   * Be compact   * Be error resistant   * Be pronounceableIt uses a symbol set of 10 digits and 22 letters, excluding I, L O andU. Decoding is not case sensitive, and 'i' and 'l' are converted to '1'and 'o' is converted to '0'. Encoding uses only upper-case characters.Hyphens may be present in symbol strings to improve readability, andare removed when decoding.A check symbol can be appended to a symbol string to detect errorswithin the string.</longdescription>
+</pkgmetadata>

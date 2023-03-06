@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Blue Dot[Blue Dot](http://bluedot.readthedocs.io/en/latest/) allows you to control your Raspberry Pi projects wirelessly - it's a Bluetooth remote and zero boiler plate (super simple to use :) Python library.## Getting started1. Install```sudo pip3 install bluedot```2. Get the [Android Blue Dot app](http://play.google.com/store/apps/details?id=com.stuffaboutcode.bluedot) or use the [Python Blue Dot app](http://bluedot.readthedocs.io/en/latest/bluedotpythonapp.html)3. Pair your Raspberry Pi4. Write some code```pythonfrom bluedot import BlueDotbd = BlueDot()bd.wait_for_press()print(&quot;You pressed the blue dot!&quot;)```5. Press the Blue DotSee the [getting started guide](http://bluedot.readthedocs.io/en/latest/gettingstarted.html) to 'get started'!## MoreBlue Dot is more than just one button. You can create as many buttons as you want and change their appearance to create your own controller.Every button is also a joystick. You can tell if a button was pressed in the middle, on the top, bottom, left or right. You can easily create a BlueDot controlled Robot.Why be restricted by such vague positions like top and bottom though: you can get the exact (x, y) position or even the angle and distance from centre where the button was pressed.Its not all about when the button was pressed either - pressed, released or moved they all work.A button can be any colour, square, given give or hidden!You can press it, slide it, swipe it, rotate it - one blue circle can do a lot!## Even moreThe [online documentation](http://bluedot.readthedocs.io/en/latest/) describes how to use Blue Dot and the Python library including recipes and ideas.</longdescription>
+</pkgmetadata>

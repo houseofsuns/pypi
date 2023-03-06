@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># GrangerThings ## DescriptionImplementation of Granger/Causality networks as described in this paper: https://arxiv.org/abs/1406.6651 ## InstallationTODO## UsageTODO## SupportTODO## ContributingNot open for public contributions.## Authors and acknowledgmentTODO## LicenseTODO## Implementation choicesTODO: Quickhull choices, word choices/preferences, etc. Things that were underspecified in the paper. ## Project statusIn development.</longdescription>
+</pkgmetadata>

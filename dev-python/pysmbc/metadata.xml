@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This is a set of Python bindings for the libsmbclient libraryfrom the samba project.&gt;&gt;&gt; # Directory listing example:&gt;&gt;&gt; import smbc&gt;&gt;&gt; ctx = smbc.Context (auth_fn=my_auth_callback_fn)&gt;&gt;&gt; entries = ctx.opendir (&quot;smb://SERVER&quot;).getdents ()&gt;&gt;&gt; for entry in entries:...     print entry&lt;smbc.Dirent object &quot;music&quot; (File share) at 0x7fbd7c42b3a0&gt;&lt;smbc.Dirent object &quot;IPC$&quot; (IPC share) at 0x7fbd7c42b148&gt;&lt;smbc.Dirent object &quot;Charlie&quot; (Printer share) at 0x7fbd7c42b3c8&gt;&gt;&gt;&gt; d = ctx.open (&quot;smb://SERVER/music&quot;)&gt;&gt;&gt; # Write file example:&gt;&gt;&gt; import smbc&gt;&gt;&gt; import os&gt;&gt;&gt; ctx = smbc.Context (auth_fn=my_auth_callback_fn)&gt;&gt;&gt; file = ctx.open (&quot;smb://SERVER/music/file.txt&quot;, os.O_CREAT | os.O_WRONLY)&gt;&gt;&gt; file.write (&quot;hello&quot;)&gt;&gt;&gt; # Read file example:&gt;&gt;&gt; import smbc&gt;&gt;&gt; ctx = smbc.Context (auth_fn=my_auth_callback_fn)&gt;&gt;&gt; file = ctx.open (&quot;smb://SERVER/music/file.txt&quot;)&gt;&gt;&gt; print file.read()hello</longdescription>
+</pkgmetadata>

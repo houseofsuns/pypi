@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>### Links-  Documentation: [palewi.re/docs/django-postgres-copy/](https://palewi.re/docs/django-postgres-copy/)-  Issues: [github.com/california-civic-data-coalition/django-postgres-copy/issues](https://github.com/california-civic-data-coalition/django-postgres-copy/issues)-  Packaging: [pypi.python.org/pypi/django-postgres-copy](https://pypi.python.org/pypi/django-postgres-copy)-  Testing: [github.com/california-civic-data-coalition/django-postgres-copy/actions](https://github.com/california-civic-data-coalition/django-postgres-copy/actions/workflows/test.yaml)</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Python-Card-Me parses iCalendar and vCard files into Python data structures,decoding the relevant encodings.It can also serialize vobject data structures to iCalendar, vCard, or hCalendar unicode strings.It is a substantially reworked version of Vobject, updated for python3, with other improvements.Requirements------------Requires Python 2.7 or later, dateutil (http://labix.org/python-dateutil) 2.4 or later, and six.For older changes, see   - http://vobject.skyhouseconsulting.com/history.html or   - http://websvn.osafoundation.org/listing.php?repname=vobject&amp;path=/trunk/</longdescription>
+</pkgmetadata>

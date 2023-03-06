@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># RFK101 PackagePackage to receive proximity card and keypad data from an RFK101reader from IDTECK.  The RFK101 RS232 connection is done throughan Ethernet adaptor (NPort).# Example:    from time import sleep    from rfk101py import rfk101py    def callback(data):        print(&quot;Received:&quot;,data)    rfk = rfk101py( 'host.test.com', 4008, callback )    # Sleep for 10 seconds waiting for a callback    sleep(10.)    # Close the interface    rfk.close()</longdescription>
+</pkgmetadata>

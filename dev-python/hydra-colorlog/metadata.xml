@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Hydra colorlogAdds &lt;a class=&quot;external&quot; href=&quot;https://github.com/borntyping/python-colorlog&quot; target=&quot;_blank&quot;&gt;colorlog&lt;/a&gt; colored logs for `hydra/job_logging` and `hydra/hydra_logging`.See [website](https://hydra.cc/docs/plugins/colorlog) for more information</longdescription>
+</pkgmetadata>

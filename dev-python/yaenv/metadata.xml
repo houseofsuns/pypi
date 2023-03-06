@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>yaenv=====|pypi| |rtd| |github| |codecov|.. |pypi| image:: https://img.shields.io/pypi/v/yaenv.svg?logo=python   :target: https://pypi.org/project/yaenv/   :alt: PyPI.. |rtd| image:: https://img.shields.io/readthedocs/yaenv.svg?logo=read-the-docs   :target: https://yaenv.readthedocs.io/en/latest/   :alt: Read the Docs.. |github| image:: https://img.shields.io/github/actions/workflow/status/ObserverOfTime/yaenv/tests.yml?label=build&amp;logo=github&amp;branch=master   :target: https://github.com/ObserverOfTime/yaenv/actions/workflows/tests.yml?query=branch%3Amaster   :alt: GitHub Actions.. |codecov| image:: https://img.shields.io/codecov/c/gh/ObserverOfTime/yaenv?logo=codecov   :target: https://codecov.io/gh/ObserverOfTime/yaenv   :alt: CodecovBecause none of the dozen dotenv parsers for Python fit all my use cases.Installation------------.. code:: sh   pip install yaenvUsage-----Documentation and examples are available on`Read the Docs &lt;https://yaenv.rtfd.io&gt;`_.Similar projects----------------* `python-dotenv &lt;https://github.com/theskumar/python-dotenv&gt;`_* `django-environ &lt;https://github.com/joke2k/django-environ&gt;`_* `django-dotenv &lt;https://github.com/jpadilla/django-dotenv&gt;`_* `environs &lt;https://github.com/sloria/environs&gt;`_* `envparse &lt;https://github.com/rconradharris/envparse&gt;`_License-------`BSD 3-Clause License &lt;LICENSE&gt;`_</longdescription>
+</pkgmetadata>

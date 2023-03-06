@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># venvpoolRun your scripts using an automated pool of virtual environments## InstallThese are generic installation instructions.### To use, permanentlyThe quickest way to get started is to install the current release from PyPI:```pip3 install --user venvpool```### To use, temporarilyIf you prefer to keep .local clean, install to a virtualenv:```python3 -m venv venvnamevenvname/bin/pip install venvpool. venvname/bin/activate```### To developFirst clone the repo using HTTP or SSH:```git clone https://github.com/combatopera/venvpool.gitgit clone git@github.com:combatopera/venvpool.git```Now use pyven's pipify to create a setup.py, which pip can then use to install the project editably:```python3 -m venv pyvenvenvpyvenvenv/bin/pip install pyvenpyvenvenv/bin/pipify venvpoolpython3 -m venv venvnamevenvname/bin/pip install -e venvpool. venvname/bin/activate```</longdescription>
+</pkgmetadata>

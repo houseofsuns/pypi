@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Asyncio high level UDP sockets==============================Asyncio high level UDP sockets.Project homepage: https://github.com/eerimoq/asyncudpDocumentation: https://asyncudp.readthedocs.org/en/latestInstallation============.. code-block:: python   $ pip install asyncudpTest====.. code-block::   $ python3 -m unittest</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Overview========Pi Touch GUI is a touchscreen GUI for the Raspberry PI.  It is inspired andfounded on work from the official Raspberry Pi touchscreen, and by theStar Trek-inspired LCARS UI by Toby Kurian.It is a work in progress.See also:https://github.com/pimoroni/python-multitouch/blob/master/library/setup.pyhttps://github.com/tobykurien/rpi_lcarsInstallation============Development===========PyCharm-------</longdescription>
+</pkgmetadata>

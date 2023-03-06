@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># vnetconfig## _Package for extacting credentila for vNet - Internal Use_## Features- Connect to RDS Cluster for Multiple Env- Get S3object based on ENV as well custom RoleArn## Installationvnetconfig requires [Python 3](https://www.python.org/download/releases/3.0/)  to run.Install the dependencies by.```pip install vnetconfig==0.1.25```## Method AvailableUse below python function for connecting RDS ClusterRds Connect:```from vnet.config import *auroraConnect(env,accessType)```get S3Object:```get_s3Object(bucket_name, object_path, expiration=60, roleArn=&quot;None&quot;, env=&quot;None&quot;)```## LicenseMIT**Internal Use only!**</longdescription>
+</pkgmetadata>

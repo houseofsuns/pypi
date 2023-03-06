@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Modelz Python SDK```shellpip install modelz-py```## CLI```shellmodelz --help```### Stable Diffusion```shellecho &quot;cute cat&quot; | modelz inference $PROJECT --serde msgpack --write-file cat.jpg --read-stdin```</longdescription>
+</pkgmetadata>

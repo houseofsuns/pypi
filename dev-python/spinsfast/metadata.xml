@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This module is a lightly modified version of the code originally written by Huffenberger andWandelt.  It enables the user to transform between modes of a spin-weighted spherical-harmonicdecomposition and values of that function on a spherical gride.</longdescription>
+</pkgmetadata>

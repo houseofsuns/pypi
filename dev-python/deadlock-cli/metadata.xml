@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Tools to create, run your Deadlock challenges.## Help```bashdcli --help```[Documentation about challenges.](https://deadlock-resources.github.io/challenge-documentation)## Install from pip```bashpip install deadlock-cli --user```If it does not work make sure you have your PATH correctly set:  `export PATH=$PATH:/home/$USER/.local/bin`## Install from sources```bashgit clone https://github.com/deadlock-resources/dcli.gitcd dcli/pip3 install .```## Get dcli version```bashdcli version```## Generate mission```bashdcli gen (java|python|cpp|c|kotlin)```## Execute mission```bashdcli solve ./mission_pathdcli run ./mission_path```## Execute metamorph missionTo execute your multi language mission:```bash# running the Java codedcli solve . javadcli run . java# running the Python codedcli solve . pythondcli run . python```## Use verbose modeIf you want more information when you launch the containers you can use the verbose mode with the flag `--verbose`. It also allows you to have more detail on some errors.```bash# running code with verbose modedcli run . --verbosedcli solve . --verbose```## Todo* Add Haskell generator language## Build archive from sources```bashpython setup.py sdist```</longdescription>
+</pkgmetadata>

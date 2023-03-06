@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>![CircleCI](https://img.shields.io/circleci/build/gh/schireson/setuplog/master) [![codecov](https://codecov.io/gh/schireson/setuplog/branch/master/graph/badge.svg)](https://codecov.io/gh/schireson/setuplog) [![Documentation Status](https://readthedocs.org/projects/setuplog/badge/?version=latest)](https://setuplog.readthedocs.io/en/latest/?badge=latest)## The pitchLogging setup is one of those annoying things that one finds themselves relearningevery time a new project is started.`setuplog` attempts to centralize, and simplify the set of decisions one needs to makewhen bootstrapping a project.```python# app.pyfrom setuplog import setup_loggingsetup_logging(    log_level='INFO',    namespace='project_name',    # opt into {}-style formatting!    style='format',)# elsewherefrom setuplog import loglog.info('Info!')```## Installing```bashpip install &quot;setuplog&quot;```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>============Pseudopeople============Pseudopeople is a package intended to add configurable noise to a simulatedcensus-scale data-set written using standard scientific Python tools.**Pseudopeople requires Python 3.7-3.10 to run**You can install ``pseudopeople`` from PyPI with pip:  ``&gt; pip install pseudopeople``or build it from source with  ``&gt; git clone https://github.com/ihmeuw/pseudopeople.git``  ``&gt; cd pseudopeople``  ``&gt; python setup.py install``Documentation======================You can view documentation at https://pseudopeople.readthedocs.io/en/latest/</longdescription>
+</pkgmetadata>

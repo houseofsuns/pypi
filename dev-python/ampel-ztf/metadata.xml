@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;img align=&quot;left&quot; src=&quot;https://desycloud.desy.de/index.php/s/6gJs9bYBG3tWFDz/preview&quot; width=&quot;150&quot; height=&quot;150&quot;/&gt;  &lt;br&gt;# ZTF support for AMPEL&lt;br&gt;&lt;br&gt;ZTF-specific implementations for Ampel such as:- An _AlertSupplier_ compatible with IPAC generated alerts- Shaper classes for ingestion- Encoding utilities for ZTF names (AMPEL requires integer ids)- Classes for archiving alerts</longdescription>
+</pkgmetadata>

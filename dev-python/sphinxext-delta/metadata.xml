@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># sphinxext-deltaSphinx extension to generate a page of changed articles on ReadTheDocs.## Installation```python -m pip install sphinxext-delta```## Requirements- Sphinx &gt;= 2- ReadTheDocs- GitHubNo other environments are supported.## UsageAdd `sphinxext.delta` to your extensions list in your `conf.py````extensions = [    sphinxext.delta,]```## OptionsThere are 2 required and 1 optional configurations:- `delta_doc_path`  - REQUIRED: Relative path to your articles. IE: `source/docs`- `delta_inject_location`  - OPTIONAL: Relative location for the toctree to be injected. Defaults to `master_doc`.</longdescription>
+</pkgmetadata>

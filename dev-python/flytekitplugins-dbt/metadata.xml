@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Flytekit dbt pluginFlytekit plugin for performing DBT tasks. Currently it supports  `dbt run` , `dbt test`, `dbt source freshness` tasks.To install the plugin, run the following command:```bashpip install flytekitplugins-dbt```_Example coming soon!_## Contributors- [Gojek](https://www.gojek.io/)</longdescription>
+</pkgmetadata>

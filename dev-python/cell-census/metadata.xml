@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># cell-census is now cellxgene-censusThis package has been renamed. Use `pip install cellxgene-census` instead.New package: [https://pypi.org/project/cellxgene-census/](https://pypi.org/project/cellxgene-census/)</longdescription>
+</pkgmetadata>

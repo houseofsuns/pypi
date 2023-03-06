@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Predictive Services Client (psclient)======================================This package allows you to create and manage Turi Predictive ServicesRefer to https://turi.com/learn/userguide/deployment/pred-intro.html for detailedinformation regarding how to use this client</longdescription>
+</pkgmetadata>

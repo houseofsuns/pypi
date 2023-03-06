@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># googlesearchgooglesearch is a Python library for searching Google, easily. googlesearch uses requests and BeautifulSoup4 to scrape Google.## usageTo get results for a search term, simply use the search function in googlesearch. For example, to get results for &quot;Google&quot; in Google, just run the following program:```pythonfrom googlesearch import searchsearch(&quot;Google&quot;)```## Additional optionsgooglesearch supports a few additional options. By default, googlesearch returns 10 results. This can be changed. To get a 100 results on Google for example, run the following program.```pythonfrom googlesearch import searchsearch(&quot;Google&quot;, num_results=100)```You can change the language google searches in. For example, to get results in French run the following program:```pythonfrom googlesearch import searchsearch(&quot;Google&quot;, lang=&quot;fr&quot;)```Also, you can specify the date range of search: from which date and to which date you want your returned results be published (or only one of this borders):```pythonfrom googlesearch import searchsearch(&quot;Google&quot;, date_to='1/1/2018', date_from='1/1/2019')```</longdescription>
+</pkgmetadata>

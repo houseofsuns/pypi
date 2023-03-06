@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Pip pip cheerio!To make go:.. code-block:: bash    virtualenv venv    source venv/bin/activate    pip install cheerio    python        &gt;import cheerio        &gt;cheerio.cheerio()</longdescription>
+</pkgmetadata>

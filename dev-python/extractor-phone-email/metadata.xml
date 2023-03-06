@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Extractor_phone_emailGet from text or clipboard emails and phone numbers## Install``` bash$ pip install extractor-phone-email```## How to use``` python# Import pakagefrom extractor_phone_email import extractor# Make an intance reading the clipboardmyExtractor = extractor.Extractor()# Make an intance with specific textmyExtractor = extractor.Extractor(&quot;This is an example text +524493247419 hernandezdarifrancisco@gmail.com&quot;)#Return all numbers and emailsmyExtractor.get()# Return only phone numbersmyExtractor.get_phones()# Return only emailsmyExtractor.get_emails()```</longdescription>
+</pkgmetadata>

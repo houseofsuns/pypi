@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Python API for AirSimThis package contains Python APIs for [Game of Drones: A NeurIPS 2019 Competition](https://github.com/microsoft/AirSim-NeurIPS2019-Drone-Racing), built on [Microsoft AirSim](https://github.com/microsoft/AirSim)## DependenciesThis package depends on `msgpack` and would automatically install `msgpack-rpc-python` (this may need administrator/sudo prompt):```pip install msgpack-rpc-python```</longdescription>
+</pkgmetadata>

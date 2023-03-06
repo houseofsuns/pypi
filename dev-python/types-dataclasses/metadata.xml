@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## Typing stubs for dataclassesThis is a PEP 561 type stub package for the `dataclasses` package.It can be used by type-checking tools like mypy, PyCharm, pytype etc. to check codethat uses `dataclasses`. The source for this package can be found athttps://github.com/python/typeshed/tree/master/stubs/dataclasses. All fixes fortypes and metadata should be contributed there.*Note:* `types-dataclasses` is unmaintained and won't be updated.See https://github.com/python/typeshed/blob/master/README.md for more details.This package was generated from typeshed commit `ec7ab6d4d6147adf01565d3b2bb2ae4d750f6b1e`.</longdescription>
+</pkgmetadata>

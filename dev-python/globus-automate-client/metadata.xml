@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Globus Automate Client======================This SDK provides a CLI and a convenient Pythonic interface to the GlobusAutomate suite of services.Basic Usage-----------Install with these commands:..  code-block:: shell    python -m pip install --upgrade pip setuptools wheel    python -m pip install globus-automate-clientYou can then import Globus Automate client classes and other helpers from``globus_automate_client``. For example:.. code-block:: python    from globus_automate_client import create_action_client    ac = create_action_client(&quot;https://actions.globus.org/hello_world&quot;)    # Launch an Action and check its results    resp = ac.run({&quot;echo_string&quot;: &quot;Hello from SDK&quot;})    assert resp.data[&quot;status&quot;] == &quot;SUCCEEDED&quot;    print(resp.data)You can also use the CLI interface to interact with Automate services. Forexample:.. code-block:: BASH    globus-automate action introspect --action-url https://actions.globus.org/hello_worldTesting, Development, and Contributing--------------------------------------Go to the`CONTRIBUTING &lt;https://github.com/globus/globus-automate-client/blob/main/CONTRIBUTING.adoc&gt;`_guide for detail.Links-----| Full Documentation: https://globus-automate-client.readthedocs.io| Source Code: https://github.com/globus/globus-automate-client| Release History + Changelog: https://github.com/globus/globus-automate-client/releases</longdescription>
+</pkgmetadata>

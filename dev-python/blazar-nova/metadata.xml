@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>========================Team and repository tags========================.. image:: https://governance.openstack.org/tc/badges/blazar-nova.svg    :target: https://governance.openstack.org/tc/reference/tags/index.html.. Change things from this point on============blazar-nova============This package contains the Blazar filter - a Nova scheduler filter used for thehost reservation feature.Other Resources---------------* Source code:    * `Blazar &lt;https://opendev.org/openstack/blazar&gt;`__    * `Nova scheduler filter &lt;https://opendev.org/openstack/blazar-nova&gt;`__    * `Client tools &lt;https://opendev.org/openstack/python-blazarclient&gt;`__    * `Dashboard (Horizon plugin) &lt;https://opendev.org/openstack/blazar-dashboard&gt;`__* Blueprints/Bugs: https://launchpad.net/blazar* Documentation: https://docs.openstack.org/blazar/latest/</longdescription>
+</pkgmetadata>

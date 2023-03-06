@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># py-dissimilar![CI](https://github.com/messense/py-dissimilar/workflows/CI/badge.svg)[![PyPI](https://img.shields.io/pypi/v/dissimilar.svg)](https://pypi.org/project/dissimilar)Python bindings to Rust [dissimilar](https://github.com/dtolnay/dissimilar) crate, a diff library with semantic cleanup.## Installation```bashpip install dissimilar```## UsageThis module provides one function:1. `def diff(a: str, b: str) -&gt; List[Chunk]: ...````pythonfrom dissimilar import diff, Equal, Delete, Inserta = '[乀丁abcd一]'b = '[一abcd丁]'chunks = diff(a, b)assert chunks == [   Equal(&quot;[&quot;),   Delete(&quot;乀丁&quot;),   Insert(&quot;一&quot;),   Equal(&quot;abcd&quot;),   Delete(&quot;一&quot;),   Insert(&quot;丁&quot;),   Equal(&quot;]&quot;),]```## LicenseThis work is released under the MIT license. A copy of the license is provided in the [LICENSE](./LICENSE) file.</longdescription>
+</pkgmetadata>

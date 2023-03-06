@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>===============================Regressors===============================.. image:: https://img.shields.io/pypi/v/regressors.svg        :target: https://pypi.python.org/pypi/regressors.. image:: https://img.shields.io/travis/nsh87/regressors.svg        :target: https://travis-ci.org/nsh87/regressors.. image:: https://readthedocs.org/projects/regressors/badge/?version=latest        :target: https://readthedocs.org/projects/regressors/?badge=latest        :alt: Documentation StatusEasy utilities for fitting various regressors, extracting stats, and making relevant plots* Free software: ISC license* Documentation: https://regressors.readthedocs.org.Features--------* TODOCredits---------Tools used in rendering this package:*  Cookiecutter_*  `cookiecutter-pypackage`_.. _Cookiecutter: https://github.com/audreyr/cookiecutter.. _`cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackageHistory-------0.0.1 (2015-11-24)------------------* First release on PyPI.0.0.2 (2015-12-08)------------------* Remove old LinearRegression class.* Add residuals, qq, scree, and principal components pairwise plots.* Add stats function for calculating SSE, adjusted R2, coefficients standard  error, t-values, p-values, F-statistic, and residuals.* Add a summary function for summarizing stats on linear models.* Add a PCR class for performing principal components regression.0.0.3 (2015-12-08)------------------* Fix typo of 'principle components' to 'principal components'.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Arcane PubSubThis package is base on [google-cloud-pubsub](https://pypi.org/project/google-cloud-pubsub/).## Get Started```shpip install arcane-pubsub```## Example Usage```pythonfrom arcane import pubsub# Import your configsfrom configure import Configclient = pubsub.Client(Config.KEY)client.push_to_topic('project', 'topic', {&quot;parameter&quot;: &quot;value&quot;})```</longdescription>
+</pkgmetadata>

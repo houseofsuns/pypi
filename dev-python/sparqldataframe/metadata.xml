@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>sparqldataframe===============.. image:: https://img.shields.io/pypi/v/sparqldataframe.svg        :target: https://pypi.python.org/pypi/sparqldataframeA Python library that can send `SPARQL`_ queries to a SPARQL endpoint and retrieve a `Pandas`_ dataframe from the result.Installation------------.. code-block:: bashpip install sparqldataframeUsage-----Here is an example how to run a SPARQL query on the `Wikidata`_ endpoint:.. code-block:: pythonimport sparqldataframesparql_query = &quot;&quot;&quot;SELECT ?item ?itemLabel WHERE {  ?item wdt:P31 wd:Q146.  SERVICE wikibase:label { bd:serviceParam wikibase:language &quot;[AUTO_LANGUAGE],en&quot;. }}&quot;&quot;&quot;df = sparqldataframe.query(&quot;https://query.wikidata.org/sparql&quot;, sparql_query)Wikidata and `DBPedia`_ can be both used without adding the SPARQL endpoint url by using the :code:`wikidata_query()` and :code:`dbpedia_query()` functions respectively:.. code-block:: pythondf = sparqldataframe.wikidata_query(sparql_query)df = sparqldataframe.dbpedia_query(sparql_query)License -------This project is licensed under the MIT license. See the `LICENSE`_ for details... _SPARQL: https://en.wikipedia.org/wiki/SPARQL.. _Wikidata: http://wikidata.org/.. _DBPedia: http://dbpedia.org/.. _Pandas: http://pandas.pydata.org/.. _LICENSE: LICENSE</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Django REST Framework DocsRest Framework Docs is an application built to produce an inventory and documentation for your Django Rest Framework v2 endpoints.InstallationFrom pip:pip install django-rest-framework-docsDocs &amp; details @https://github.com/marcgibbons/django-rest-framework-docs</longdescription>
+</pkgmetadata>

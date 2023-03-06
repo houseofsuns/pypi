@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>env.py~~~~~~Mapping environment variables can be a bit of a pain.Now you can replace this boilerplate::    ZENDESK_URL = os.environ['ZENDESK_URL']    ZENDESK_USER = os.environ['ZENDESK_USER']    ZENDESK_PASS = os.environ['ZENDESK_PASS']    ZENDESK_VIEW = os.environ['ZENDESK_VIEW']With a simple call::    import env::    &gt;&gt;&gt; zendesk = env.prefix('zendesk_')    &gt;&gt;&gt; zendesk    {'user': ..., 'pass': ..., 'url': ..., 'view': ...}Or have a bit more control::    &gt;&gt;&gt; env.map(user='zendesk_user')    {'user': ...}</longdescription>
+</pkgmetadata>

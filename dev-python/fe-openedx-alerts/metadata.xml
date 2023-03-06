@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># fe-openedx-alertsA command line tool that send alerts if any Open edX service failasticsearch service is active## Python versionPython: 3.9.16## Poetry Configuration```bash# https://pypi.org/poetry config pypi-token.pypi $PYPI_TOKEN# https://test.pypi.org/poetry config repositories.testpypi https://test.pypi.org/legacy/poetry config pypi-token.testpypi PYPI_TEST_TOKEN```## Open edX Instance```bashgit clone https://github.com/pyenv/pyenv.git ~/.pyenvexport PATH=/home/ubuntu/.pyenv/bin:$PATHpyenv install 3.9.16pyenv global 3.9.16/home/ubuntu/.pyenv/versions/3.9.16/bin/pip3 install fe-openedx-alerts==0.0.5 -U# How to execute the script/home/ubuntu/.pyenv/versions/3.9.16/bin/python /home/ubuntu/.pyenv/versions/3.9.16/lib/python3.9/site-packages/fe_openedx_alerts/es_status.py```## Cronjob```bashmkdir /home/ubuntu/logs/crontab -e```</longdescription>
+</pkgmetadata>

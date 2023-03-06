@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;br/&gt;&lt;p align=&quot;center&quot;&gt;  &lt;img src=&quot;https://doc.modelbit.com/img/modelbit-logo-with-name.svg&quot; alt=&quot;Modelbit&quot; width=&quot;500&quot;&gt;&lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;p align=&quot;center&quot;&gt;Modelbit helps you deploy ML models to Snowflake, Redshift, dbt and REST.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Sign up at &lt;a href=&quot;https://www.modelbit.com/&quot; target=&quot;_blank&quot;&gt;modelbit.com&lt;/a&gt; or learn more at &lt;a href=&quot;https://doc.modelbit.com&quot; target=&quot;_blank&quot;&gt;doc.modelbit.com&lt;/a&gt;.&lt;/p&gt;&lt;br/&gt;&lt;br/&gt;</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># clubhouse-clientPython client for Clubhouse## InstallationThe package is available on [pypi](https://pypi.org/project/clubhouse/) and canbe installed like any other packages.    $ pip install clubhouse## UsageRefer to [Clubhouse API Docs](https://clubhouse.io/api/rest/v2/) for more information.```pythonfrom clubhouse import ClubhouseClientclubhouse = ClubhouseClient('your api key')story = {'name': 'A new story', 'description': 'Do something!'}clubhouse.post('stories', json=story)```</longdescription>
+</pkgmetadata>

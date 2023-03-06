@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>![Mailshake logo](https://raw.github.com/jpsca/mailshake/master/docs/static/images/mailshake@2x.png)# Mailshake[![Build Status](https://travis-ci.org/jpsca/mailshake.svg?branch=master)](https://travis-ci.org/jpsca/mailshake)Although Python makes sending email relatively easy via the smtplibmodule, this library provides a couple of light wrappers over it.These wrappers make sending email extra quick, easy to test emailsending during development, and provides support for platforms thatcan't use SMTP.Mailers availiable:-   SMTPMailer-   AmazonSESMailer-   ToConsoleMailer (prints the emails in the console)-   ToFileMailer (save the emails in a file)-   ToMemoryMailer (for testing)-   DummyMailer (does nothing)Usage:```pythonfrom mailshake import SMTPMailermailer = SMTPMailer()mailer.send(    subject='Hi',    text_content='Hello world!',    from_email='from@example.com',    to=['mary@example.com', 'bob@example.com'])```You can also compose several messages and send them at the same time:```pythonfrom mailshake import SMTPMailer, EmailMessagemailer = SMTPMailer()messages = []email_msg = EmailMessage(    &quot;Weekend getaway&quot;,    &quot;Here's a photo of us from our trip.&quot;,    &quot;from@example.com&quot;,    &quot;bob@example.com&quot;)email_msg.attach_file(&quot;picture.jpg&quot;)messages.append(email_msg)#…mailer.send_messages(*messages)```## Install for developmentFirst, create an activate a virtualenv. eg:```bashpython -m virtualenv .venvsource .venv/bin/activate```Then run `pip install -e .[dev]` or `make install`. This will install the library in editable mode and all its dependencies.</longdescription>
+</pkgmetadata>

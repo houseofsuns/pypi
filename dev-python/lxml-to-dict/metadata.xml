@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>|Build Status|lxml to dict============`Package on Pypi &lt;https://pypi.org/project/lxml-to-dict/&gt;`__A simple conversion of an lxml.objectify element to a python dictionary.Usage-----.. code:: python    &gt;&gt;&gt; from lxml_to_dict import lxml_to_dict    &gt;&gt;&gt;     &gt;&gt;&gt; lxml_to_dict(&lt;the lxml.objectfy.Element&gt;)    &gt;&gt;&gt;    &gt;&gt;&gt; root = objectify.Element(&quot;root&quot;)            # &lt;root&gt;&lt;/root&gt;    &gt;&gt;&gt; b = objectify.SubElement(root, &quot;b&quot;)         # &lt;root&gt;&lt;b&gt;&lt;/b&gt;&lt;/root&gt;    &gt;&gt;&gt; b = objectify.SubElement(root, &quot;b&quot;)         # &lt;root&gt;&lt;b&gt;&lt;/b&gt;&lt;b&gt;&lt;/b&gt;&lt;/root&gt;    &gt;&gt;&gt; a = objectify.SubElement(root, &quot;a&quot;)         # &lt;root&gt;&lt;b&gt;&lt;/b&gt;&lt;b&gt;&lt;/b&gt;&lt;a&gt;&lt;/a&gt;&lt;/root&gt;    &gt;&gt;&gt; lxml_to_dict(root)                          # {'root': {'b': None, 'b1': None, 'a': None}}Test----You can run the tests using`tox &lt;https://tox.readthedocs.io/en/latest/&gt;`__.. code:: shell    toxPublish-------To publish a new version of this package your Pypi user needs to beadded to the project. (Ask Connor to give you access).. code:: shell    # Update version number in setup.py    python setup.py sdist    twine upload dist/*.. |Build Status| image:: https://travis-ci.org/CRiva/lxml_to_dict.svg?branch=master   :target: https://travis-ci.org/CRiva/lxml_to_dict</longdescription>
+</pkgmetadata>

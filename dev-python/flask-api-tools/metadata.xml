@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>![Validate Build](https://github.com/ScholarPack/flask-api-tools/workflows/Validate%20Build/badge.svg)# Flask API ToolsUtilities for building, running, and maintaining Python APIs with Flask and associated Flask extensions.# InstallationInstall and update using `pip`:```bash pip install -U flask-api-tools```# Tools* [Storage Backed Rate Limiting](https://github.com/ScholarPack/flask-api-tools/blob/master/flask_api_tools/rate_limiting/README.md)* [Validators](https://github.com/ScholarPack/flask-api-tools/blob/master/flask_api_tools/validators/README.md)# Developing__The build pipeline requires your tests to pass and code to be formatted__Make sure you have Python 3.x installed on your machine (use [pyenv](https://github.com/pyenv/pyenv)).Install the dependencies with [pipenv](https://github.com/pypa/pipenv) (making sure to include dev and pre-release packages):```bashpipenv install --dev --pre```Configure your environment:```bashpipenv shell &amp;&amp; export PYTHONPATH=&quot;$PWD&quot;```Run the tests:```bashpytest```Or with logging:```bashpytest -s```Or tests with coverage:```bashpytest --cov=./```Format the code with [Black](https://github.com/psf/black):```bashblack $PWD```# ReleasesCleanup the (.gitignored) `dist` folder (if you have one):```bashrm -rf dist```Notch up the version number in `setup.py` and build:```bashpython3 setup.py sdist bdist_wheel```Push to PyPi (using the ScholarPack credentials when prompted)```bashpython3 -m twine upload --repository-url https://upload.pypi.org/legacy/ dist/*```# Links* Releases: https://pypi.org/project/flask-api-tools/* Code: https://github.com/ScholarPack/flask-api-tools</longdescription>
+</pkgmetadata>

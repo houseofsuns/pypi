@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Readme======``latest`` is a LaTeX-oriented template engine.Basic Usage-----------Run `latest` script from the command line.. code-block:: bash    latest template datawhere    * `template` is the path to a template file and    * `data` is the path to a yaml formatted data file... image:: https://travis-ci.org/bluephlavio/latest.svg?branch=master   :target: https://travis-ci.org/bluephlavio/latest</longdescription>
+</pkgmetadata>

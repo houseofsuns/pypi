@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># kkpyutilSmall utility frequently used by myself for daily Python work.- No dependency on third-party Python modules, so it alwyas run- Some functions use system builtin executable or essential programs, so runs will fail if those are not installed separately## INSTALL```shellpip3 install kkpyutil```</longdescription>
+</pkgmetadata>

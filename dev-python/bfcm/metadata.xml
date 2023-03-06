@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This python package includes the functions related to paper Nápoles, G., Grau, I., Concepción, L., Koumeri, L.K. and Papa, J.P., 2022. Modeling implicit bias with fuzzy cognitive maps. Neurocomputing, 481, pp.33-45.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>cov-core========This is a lib package for use by pytest-cov, nose-cov and nose2-cov.  Unless you're developing acoverage plugin for a test framework, you probably want one of those.</longdescription>
+</pkgmetadata>

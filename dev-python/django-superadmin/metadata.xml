@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Superadmin=====Superadmin is a Django app based in django admin to build admin sites quickly and easily, and generate site page like django admin.Detailed documentation is in the &quot;docs&quot; directory.Quick start-----------1. Add &quot;superadmin&quot; to your INSTALLED_APPS setting like this::    INSTALLED_APPS = [        ...        'superadmin',    ]3. Run ``python manage.py migrate`` to create the superadmin migrations.4. Continue</longdescription>
+</pkgmetadata>

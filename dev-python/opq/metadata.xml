@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>README######**NAME**|| ``opq`` - object programming quest|**SYNOPSIS**The ``opq`` package provides an Object class, that allows for save/load to/fromjson files on disk. Objects can be searched with database functions and have a type in filename for reconstruction. Methods are factored out into functions tohave a clean namespace to read JSON data into.This is the quest for object programming (OP), the OOP without the oriented.|**INSTALL**|| ``python3 -m pip install opq --upgrade --force-reinstall``|**PROGRAMMING**basic usage is this:: &gt;&gt;&gt; import opq &gt;&gt;&gt; o = opq.Object() &gt;&gt;&gt; o.key = &quot;value&quot; &gt;&gt;&gt; o.key 'value'Objects try to mimic a dictionary while trying to be an object with normalattribute access as well. hidden methods are provided, the methods arefactored out into functions like get, items, keys, register, set, updateand values.read/write from/to disk:: &gt;&gt;&gt; from opq import Object, read, write &gt;&gt;&gt; o = Object() &gt;&gt;&gt; o.key = &quot;value&quot; &gt;&gt;&gt; p = write(o) &gt;&gt;&gt; obj = Object() &gt;&gt;&gt; read(obj, p) &gt;&gt;&gt; obj.key 'value'great for giving objects peristence by having their state stored in files:: &gt;&gt;&gt; from opq import Object, write &gt;&gt;&gt; o = Object() &gt;&gt;&gt; write(o)  # doctest: +ELLIPSIS 'opq.objects.Object/...'|**AUTHOR**|| B.H.J. Thate &lt;operbot100@gmail.com&gt;|**COPYRIGHT**|| ``opq`` is placed in the Public Domain.|</longdescription>
+</pkgmetadata>

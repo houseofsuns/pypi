@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># TendenciTendenci is an open source content management system built for non-profits, associations and cause-based sites. Functionality including association management, event registration, membership management, forums, photo galleries, donations, payments, newsletters, CRM, and much more.## Demo?https://demo.tendenci.com/This site resets every hour or two. Use &quot;admin/admin&quot; or &quot;user/user&quot; to log in and look around.## InstallationSee [https://tendenci.readthedocs.org](https://tendenci.readthedocs.org)## Vision&quot;Connect and Organize the World's People&quot;## LicenseLicense information (GNU GPLv3+) can be found in [LICENSE](https://github.com/tendenci/tendenci/blob/master/LICENSE)## CreditsSee [docs/credits.md](https://tendenci.readthedocs.io/en/latest/credits/credits.html)## Monitoring[![DepShield Badge](https://depshield.sonatype.org/badges/tendenci/tendenci/depshield.svg)](https://depshield.github.io)</longdescription>
+</pkgmetadata>

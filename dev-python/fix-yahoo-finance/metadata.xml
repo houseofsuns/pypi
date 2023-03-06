@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>``fix_yahoo_finance`` was renamed to ``yfinance``=================================================This library was renamed to ``yfinance``.For reasons of backward-competability, this library is importingand using ``yfinance`` - but you should install and use``yfinance`` directly.### 1. Install using ``pip``:.. code:: bash    $ pip install yfinance --upgrade --no-cache-dir### 2. Change your code to import ``yfinance`` instead of ``fix_yahoo_finance``:.. code:: python    import yfinance as yf</longdescription>
+</pkgmetadata>

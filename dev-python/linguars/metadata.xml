@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># lingua-py![CI](https://github.com/messense/lingua-py/workflows/CI/badge.svg)[![PyPI](https://img.shields.io/pypi/v/linguars.svg)](https://pypi.org/project/linguars)[lingua-rs](https://github.com/pemistahl/lingua-rs) Python binding. An accuratenatural language detection library, suitable for long and short text alike.## Installation```bashpip install linguars```## Usage```pythonimport linguarsdetector = linguars.LanguageDetector()print(detector.detect('我们中出了一个叛徒'))print(detector.confidence('我们中出了一个叛徒'))```## LicenseThis work is released under the MIT license. A copy of the license is provided in the [LICENSE](./LICENSE) file.</longdescription>
+</pkgmetadata>

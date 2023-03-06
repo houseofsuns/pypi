@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pantomime[![build](https://github.com/alephdata/pantomime/actions/workflows/build.yml/badge.svg)](https://github.com/alephdata/pantomime/actions/workflows/build.yml)``pantomime`` is a small library that handles the parsing and normalisationof internet MIME types in Python. This can be useful to normalise invalid,or misformatted MIME types emitted by remote web servers.## UsageThe simplest use is to normalise a MIME type:```pythonfrom pantomime import normalize_mimetypeassert normalize_mimetype('TEXT/PLAIN') == 'text/plain'assert normalize_mimetype('plain/text') == 'text/plain'assert normalize_mimetype(None) == 'application/octet-stream'assert normalize_mimetype('') == 'application/octet-stream'```Internally, `pantomime` uses a `MIMEType` object to handle parsing. It canbe used to access more specific information, like human readable labels:```pythonfrom pantomime import parse_mimetypeparsed = parse_mimetype('text/plain')assert parsed.family == 'text'assert parsed.subtype == 'plain'assert parsed.label == 'Plain text'```## Open issues* Internationalisation, i.e. make the human-readable labels available in  multiple languages.* Expand replacements for specific MIME types.## LicenseLicensed under MIT terms, see the ``LICENSE`` file included in this repository.</longdescription>
+</pkgmetadata>

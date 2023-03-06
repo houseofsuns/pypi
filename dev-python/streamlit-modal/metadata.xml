@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Streamlit modalModal support for streamlit. The hackish way.## Example```pythonimport streamlit as stfrom streamlit_modal import Modalimport streamlit.components.v1 as componentsmodal = Modal(&quot;Demo Modal&quot;)open_modal = st.button(&quot;Open&quot;)if open_modal:    modal.open()if modal.is_open():    with modal.container():        st.write(&quot;Text goes here&quot;)        html_string = '''        &lt;h1&gt;HTML string in RED&lt;/h1&gt;        &lt;script language=&quot;javascript&quot;&gt;          document.querySelector(&quot;h1&quot;).style.color = &quot;red&quot;;        &lt;/script&gt;        '''        components.html(html_string)        st.write(&quot;Some fancy text&quot;)        value = st.checkbox(&quot;Check me&quot;)        st.write(f&quot;Checkbox checked: {value}&quot;)```## Install```shell scriptpip install streamlit-modal```</longdescription>
+</pkgmetadata>

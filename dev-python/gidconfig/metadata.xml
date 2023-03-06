@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># GidconfigDifferent Config Mangagment Classes derived from the stdlib ConfigParser## Config File Formats Supported- `ini`- `json` (WIP)## Status```Work In Progress```</longdescription>
+</pkgmetadata>

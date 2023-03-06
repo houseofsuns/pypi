@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Secure SMTPD============Secure-SMTPD extends on Petri Lehtinen's SMTPD library adding support for AUTH and SSL.Usage-----```pythonfrom secure_smtpd import SMTPServer, FakeCredentialValidatorSMTPServer(    self,    ('0.0.0.0', 465),    None,    require_authentication=True,    ssl=True,    certfile='examples/server.crt',    keyfile='examples/server.key',    credential_validator=FakeCredentialValidator(),)asyncore.loop()```</longdescription>
+</pkgmetadata>

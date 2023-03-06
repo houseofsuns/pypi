@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># backend-moduleMain backend module, which is used for developing web-app logic and deploying AI model.## InstallationRun the following to install:```pythonpip install tqatest```## Usage```pythonfrom tqatest.app.services.predict import MachineLearningModel# Generate modelmodel = MachineLearningModel()# Using Exampledata_input = [1.0, 2.0, 3.0, 4.0]result = model.predict(data_input)print(result)```## Developing HelloGTo install helloG, along with the tools you need to develop and run tests, run the following in your virtualenv:```bash$ pip install tqatest[dev]```</longdescription>
+</pkgmetadata>

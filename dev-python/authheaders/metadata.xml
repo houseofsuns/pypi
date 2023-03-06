@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Python module for generating email authentication headers: Authheaders can generate both authentication results header fields and DKIM/ ARC sighatures. It can perform DKIM, SPF, and DMARC validation, and the results are packaged into a single Authentication-Results header. It can also DKIM and ARC sign messages and output the corresponding signature header fields.</longdescription>
+</pkgmetadata>

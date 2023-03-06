@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>PEP 257 docstring style checker===========================================================**pep257** is a static analysis tool for checkingcompliance with Python `PEP 257&lt;http://www.python.org/dev/peps/pep-0257/&gt;`_.The framework for checking docstring style is flexible, andcustom checks can be easily added, for example to coverNumPy `docstring conventions&lt;https://github.com/numpy/numpy/blob/master/doc/HOWTO_DOCUMENT.rst.txt&gt;`_.**pep257** supports Python 2.6, 2.7, 3.2, 3.3, 3.4, pypy and pypy3.Quick Start-----------Install^^^^^^^.. code::    pip install pep257Run^^^.. code::    $ pep257 test.py    test.py:18 in private nested class `meta`:            D101: Docstring missing    test.py:22 in public method `method`:            D102: Docstring missing    ...Links-----.. image:: https://travis-ci.org/GreenSteam/pep257.svg?branch=master    :target: https://travis-ci.org/GreenSteam/pep257.. image:: https://readthedocs.org/projects/pep257/badge/?version=latest    :target: https://readthedocs.org/projects/pep257/?badge=latest    :alt: Documentation Status* `Read the full documentation here &lt;http://pep257.readthedocs.org&gt;`_.* `Fork pep257 on GitHub &lt;http://github.com/GreenSteam/pep257&gt;`_.* `PyPI project page &lt;https://pypi.python.org/pypi/pep257&gt;`_.</longdescription>
+</pkgmetadata>

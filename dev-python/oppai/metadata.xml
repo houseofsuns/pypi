@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>osu! pp and difficulty calculator. automatically generated C bindings forhttps://github.com/Francesco149/oppai-ngusage===========.. code-block:: sh    pip install oppai.. code-block:: python    #!/usr/bin/env python    import sys    from oppai import *    ez = ezpp_new()    ezpp(ez, sys.argv[1])    print(&quot;%g pp&quot; % ezpp_pp(ez))    ezpp_free(ez).. code-block:: sh    ./example.py /path/to/file.osu.. code-block:: sh    python -c 'help(&quot;oppai&quot;)'for a list of functions, or just read the top of oppai.c for better doclimitations===========for some reason, python3 doesn't provide a persisting pointer to stringsyou pass to c code even if you aren't doing anything with them, so if youwant to reuse the handle at all you have to use ezpp_dup and ezpp_data_dup,which create a copy of the strings you pass in. this is inefficient soit's recommended to use autocalc mode and only call ezpp_dup orezpp_data_dup when you're actually changing map</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>    ## Snaky Android Test --- If you want to be able to try out the API using the **Execute** or **TRY** button from this page - an android device should be connected using &amp;#x60;adb&amp;#x60; - the server should have been started using &amp;#x60;./culebratester2 start-server&amp;#x60;  then you will be able to invoke the API and see the responses.   # noqa: E501    </longdescription>
+</pkgmetadata>

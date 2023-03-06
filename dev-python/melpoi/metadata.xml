@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># melpoi[![PyPI Latest Release](https://img.shields.io/pypi/v/melpoi.svg)](https://pypi.org/project/melpoi/)[![release](https://github.com/la0bing/melpoi/actions/workflows/release.yml/badge.svg?branch=master)](https://github.com/la0bing/melpoi/actions/workflows/release.yml)melpoi is a python library to mainly to speed up data discovery, data analyzing, etc.# Get Started```pip install melpoi```# Categories- [SQL](https://github.com/la0bing/melpoi/tree/master/melpoi/sql)- [DataFrame](https://github.com/la0bing/melpoi/tree/master/melpoi/dataframe)# Work in progress- Dataset auto analyzer- AutoML</longdescription>
+</pkgmetadata>

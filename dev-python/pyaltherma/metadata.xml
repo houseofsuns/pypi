@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pyalthermaPython library to control Daikin Altherma heat pumpTested only with BRP069A62# Usage```python3async with aiohttp.ClientSession() as session:    conn = DaikinWSConnection(session, 'IP_ADDRESS')    device = AlthermaController(conn)    await device.discover_units()    tank = device.hot_water_tank    climate = device.climate_control    print(f'Tank / Target temperature: {await tank.tank_temperature} / {await tank.target_temperature}')    print(f&quot;Indoor/outdoor temperature: {await climate.indoor_temperature}/{await climate.outdoor_temperature}&quot;)    await climate.turn_off()    await climate.turn_on()    await conn.close()```see example.py for more details.# StatusCurrently, the implementation is in early stage. At the moment it does not support schedules.</longdescription>
+</pkgmetadata>

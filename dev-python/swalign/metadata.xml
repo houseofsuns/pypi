@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># swalignThis package implements a Smith-Waterman style local alignment algorithm. Youcan align a query sequence to a reference. The scoring functions can be basedon a matrix, or simple identity. Weights can be adjusted for match/mismatchand gaps, with gap extention penalties. Additionally, the gap penalty can besubject to a decay to prioritize long gaps.The input files are FASTA format sequences, or strings of sequences.Here is some skeleton code to get you started:    import swalign    # choose your own values here… 2 and -1 are common.    match = 2    mismatch = -1    scoring = swalign.NucleotideScoringMatrix(match, mismatch)    sw = swalign.LocalAlignment(scoring)  # you can also choose gap penalties, etc...    alignment = sw.align('ACACACTA','AGCACACA')    alignment.dump()For other uses, see the script in bin/swalign or https://compgen.io/projects/swalign</longdescription>
+</pkgmetadata>

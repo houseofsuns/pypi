@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># one_py_sdkThis is a package to interact with the ONE water quality platform.The source code for it is located at https://github.com/AquaticInformatics/ONE-Py-SDKSample code leveraging the SDK can be found at https://github.com/AquaticInformatics/one-py-samples</longdescription>
+</pkgmetadata>

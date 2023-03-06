@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Pytest-Inmanta-testsThis package contains test code used by the Inmanta core and its extensions. It exposes a set of pytest fixtures as a pytest plugin.## Installation### 1) Manually```bashpip install -U setuptools pippython3 tests_common/copy_files_from_core.pypip install tests_common/```The `copy_files_from_core.py` script copies the files it requires from `tests/` into `tests_common/src/`. ### 2) Via makefile```bashmake install-tests```</longdescription>
+</pkgmetadata>

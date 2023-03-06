@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Microsoft Azure CLI 'natgateway' Command Module===============================================This package is for the 'natgateway' module.i.e. 'az network nat gateway'.. :changelog:Release History===============0.1.1+++++* Add Zone support for Nat Gateway0.1.0+++++* Initial release.</longdescription>
+</pkgmetadata>

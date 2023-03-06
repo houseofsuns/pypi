@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># PyTWebLBrings a faster and efficient way to generate web-development template, includes : html, css, js. 🧠# Key Features- Runs standalone from shell or command line- Have exclusive features of adding tags of html to generat ethe boiler plate template.# Installation- Run `pip install pytwebl`- Check [HomePage](https://github.com/SoumadeepChoudhury/pytwebl) for more details.# Usage- In command line, run `pytwebl` to start the engine.- Follow the on-screen commands.# Additional Options|Option|Description||---|---||--help|Displays the man page||--disable-colours|Disables coloured output||--enable-colours|Enables coloured output|&gt; NOTE : Colours are disabled in output by default in Windows only, enabled by default in Linux-based OS.# ContributionWe always welcome others to contribute in this project. They are welcomed whole-heartedly. 🎉🎉🥳🥳</longdescription>
+</pkgmetadata>

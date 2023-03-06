@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>===========pytest-pudb===========.. image:: https://travis-ci.org/wronglink/pytest-pudb.svg?branch=master   :target: https://travis-ci.org/wronglink/pytest-pudb   :alt: Travis-ci: continuous integration status.Pytest PuDB debugger integration based on pytest `PDB integration`_Use it as ``--pdb`` ``py.test`` command argument:.. code-block:: console    py.test --pudbOr simply use ``pudb.set_trace`` inside your python code:.. code-block:: python    def test_set_trace_integration():        # No --capture=no need        import pudb        pudb.set_trace()        assert 1 == 2    def test_pudb_b_integration():        # No --capture=no need        import pudb.b        # traceback is set up here        assert 1 == 2See also `pytest`_ and `pudb`_ projects... _PDB integration: http://doc.pytest.org/en/latest/usage.html#dropping-to-pdb-python-debugger-on-failures.. _pudb: https://pypi.python.org/pypi/pudb.. _pytest: https://pypi.python.org/pypi/pytestHistory-------0.7.0 (2018-10-25)++++++++++++++++++- Added pu.db support- Fixed pytest 3.7.3+ compatibility- Switched to semantic versioning- Build package wheels0.6 (2018-02-13)++++++++++++++++- Fixed pytest 3.3.1+ compatibility (by `@noirbizarre &lt;https://github.com/noirbizarre&gt;`_)0.5 (2017-02-25)++++++++++++++++- Fixed pypi package by adding MANIFEST.in0.4 (2017-02-24)++++++++++++++++- Use post mortem on exception (by `@Wilfred &lt;https://github.com/Wilfred&gt;`_)0.2 (2016-09-24)++++++++++++++++- Added ``import pytest.b`` support0.1 (2016-07-31)++++++++++++++++- Public release</longdescription>
+</pkgmetadata>

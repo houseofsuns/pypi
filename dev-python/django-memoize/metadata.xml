@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>django-memoize--------------**django-memoize** is an implementationof `memoization &lt;http://en.wikipedia.org/wiki/Memoization&gt;`_ techniquefor Django. You can think of it as a cache for function or method results.</longdescription>
+</pkgmetadata>

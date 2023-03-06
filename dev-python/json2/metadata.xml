@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Logfast## PurposePython package which just wraps the default python json but with.```json2.load_file``` and ```json2.save_file```## Installation```pip install json2```## Usage```import json2a = json2.load_file(r'/home/user/myjson.json')json2.dump_file(r'/home/user/myjson.json', a)```</longdescription>
+</pkgmetadata>

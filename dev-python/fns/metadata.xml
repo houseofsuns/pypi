@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># fns ![Release](https://github.com/amitness/fns/workflows/Release/badge.svg) [![Downloads](https://pepy.tech/badge/fns/month)](https://pepy.tech/project/fns) [![Version](https://img.shields.io/pypi/v/fns)](https://pypi.org/project/fns/) ![](https://img.shields.io/github/license/amitness/fns) ![](https://img.shields.io/pypi/pyversions/fns)Reusable functions for Machine Learning.## InstallationInstall via [pip](https://pypi.org/project/fns).```bashpip install fns```## DocumentationThe documentation is available [here](https://amitness.com/fns/).</longdescription>
+</pkgmetadata>

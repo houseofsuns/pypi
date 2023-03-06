@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Python Project Poetry TemplateThis is a template of a python project with all CI/CD tools implemented.## Features* `direnv` support* `commitizen` support* `pre-commit` support* Github Actions support* Version bumping supportExternal requirements:* direnv* task* git-flow## Understand how it worksMaking new releases with git is not that simple. Actually, this mechanism with the current tools we have does notreally support well nomenclature change in the git history. If you want to experiment, you may want to sometimereset your git history to start from a fresh clean.## Howto### Completely reset the projectLocally:* # git clone REPO -b &lt;BRANCH_YOU_WANT_TO_KEEP&gt; RESET* git clone git@github.com:mrjk/python-project-poetry-template.git -b main RESET* cd RESET* rm -rf .git* git init .* git add .* git commit -m &quot;Initial commit&quot;On github (if you want to clean actions and releases as well):* Delete your repository* Recreate your repo with the same name* Ensure in the settings:  * Settings/Actions/General    * Check: Allow all actions  * Settings/Pages    * Check: Deploy from branch    * Branch: gh_page    * Dir: / (root)Finally, locally:* git remote add origin git@github.com:&lt;YOUR ACCOUNT&gt;/&lt;YOUR REPOS&gt;.git* git push -u --force origin master</longdescription>
+</pkgmetadata>

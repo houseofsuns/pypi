@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># PDPilotAn interactive Jupyter widget for exploring partial dependence plots.![Screenshot](screenshot.png?raw=true)To see the widget in action, check out this [Colab notebook](https://colab.research.google.com/github/danielkerrigan/pdpilot/blob/main/examples/colab-example.ipynb).The easiest way to install the widget is through pip:```pip install pdpilot```See the [documentation](https://pdpilot.readthedocs.io/) for usage details.</longdescription>
+</pkgmetadata>

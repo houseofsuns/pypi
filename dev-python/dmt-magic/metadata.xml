@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># DMT-MagicDMT-Magic ist eine IPython-Erweiterung, die das Jupyter Magic Command **dmt** zur Verfügung stellt, mit dem das E-Assessment-Tool DMT (Data Management Tester) an Notebooks angebunden werden kann.## Initialisiserung im Jupyter Notebook - ``%load_ext dmt`` zum Laden der Erweiterung- ``%dmt url=&lt;url&gt;`` zur Angabe der URL, unter der die Instanz von DMT erreichbar ist## Aufruf einer Aufgabe- ``%dmt &lt;taskid&gt;`` zur Darstellung einer Aufgabe (referenziert über TaskId)</longdescription>
+</pkgmetadata>

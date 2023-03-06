@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># BigSMILES Parser------![PyPI](https://img.shields.io/pypi/v/bigsmiles)![downloads](https://static.pepy.tech/badge/bigsmiles)![license](https://img.shields.io/github/license/dylanwal/bigsmiles)**(still under development; but usable)****SMILES** (simplified molecular-input line-entry system) representation is a line notation for molecules with given deterministic molecular structures. **BigSMILES** is an extension to SMILES which provides support for molecules that contain stochastic molecular structures. The code here parses the string into and abstract syntax tree.[**Documention**](https://dylanwal.github.io/BigSMILES/)---## InstallationPip installable package available`pip install bigsmiles`[pypi: bigsmiles](https://pypi.org/project/bigsmiles/)---## Requirements / DependenciesPython 3.7 and up---## Basic Usage#### Code:```pythonimport bigsmiles as bspolymer_string = &quot;CC{[&gt;][&lt;]CC(C)[&gt;][&lt;]}CC(C)=C&quot;polymer = bs.BigSMILES(polymer_string)```## DocumentationFor quickstart, tutorials, reference material, BigSMILES, everything...  see documentation: [**Documention**](https://dylanwal.github.io/BigSMILES/)## Features NOT implemented yet* ladder polymers* Validation is not comprehensive* Not all aromatic rings are processed correctly at the moment ... Lots more to come* </longdescription>
+</pkgmetadata>

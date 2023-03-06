@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Areix Utils Library## InstallationCreate a virtual environment```virtualenv venv --python=python3```Activate the virtual environment```python# Macbook / Linussource venv/bin/activate# Windowsvenv/Scripts/activate```Deactivate```deactivate```Install areixlib package```pip install areixlib```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Python API client for GOV.UK Notify - see https://www.notifications.service.gov.uk for more information.For usage and documentation see https://docs.notifications.service.gov.uk/python.html</longdescription>
+</pkgmetadata>

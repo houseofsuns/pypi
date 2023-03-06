@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;h2&gt;  Stable Diffusion + ControlNet + Keras Diffusion WebUI&lt;/h2&gt;&lt;a href=&quot;https://huggingface.co/spaces/ArtGAN/Stable-Diffusion-ControlNet-WebUI&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/%20HuggingFace%20-Demo-blue.svg&quot; alt=&quot;HuggingFace Spaces&quot;&gt;&lt;/a&gt;This repo is a Stable Diffusion(v1.5, v2.0 and v2.1) + ControlNet + Keras Diffusion WebUI implementation.### Installation```bashgit clone https://github.com/kadirnar/Stable-Diffusion-ControlNet-WebUIcd Stable-Diffusion-ControlNet-WebUIpip install -r requirements.txt```### Usage```pythonpython3 app.py```</longdescription>
+</pkgmetadata>

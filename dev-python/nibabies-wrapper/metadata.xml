@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>The NiBabies Docker/Singularity wrapper---------------------------------------NiBabies is a functional magnetic resonance image pre-processing pipelineoptimized for infant and neonate MRI. It is designed to provide an easilyaccessible, state-of-the-art interface that is robust to differences inscan acquisition protocols and that requires minimal user input, whileproviding easily interpretable and comprehensive error and output reporting.This is a Python wrapper to run NiBabies.It generates the appropriate Docker or Singularity commands, providing anintuitive interface to running the fMRIPrep workflow in whichever environment.Docker or Singularity must be installed, and in the case of Docker, running.Installations can be check by running ::  docker info  # Docker  singularity version  # SingularityPlease report any feedback to our `GitHub repository&lt;https://github.com/nipreps/nibabies&gt;`_ and do notforget to `credit &lt;https://fmriprep.readthedocs.io/en/latest/citing.html&gt;`_ allthe authors of software that NiBabies uses.Usage-----Example Docker usage ::  nibabies-wrapper docker &lt;data-path&gt; &lt;output-path&gt; participant &lt;nibabies-arguments&gt;Example Singularity usage ::  nibabies-wrapper singularity &lt;data-path&gt; &lt;output-path&gt; participant -i &lt;img-path&gt; &lt;nibabies-arguments&gt;</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># HiC1DmetricsThis repository contain code and basic tutorial for &quot;HiC1Dmetrics&quot;![figure1](https://github.com/wangjk321/HiC1Dmetrics/blob/master/IMG/Figure1.png)# InstallationHiC1Dmetrics was based on `python3` and released on [PyPI](https://pypi.org/project/h1d/), it could be installed by```pythonpip install h1d```After installation, try:```$ h1d -Vh1d version 0.1.0```# DocumentsFor detailed usage, please refer to [h1d Documents](https://h1d.readthedocs.io/en/latest/)# Web applicationPlease click [hic1d webapp](http://hic1d.herokuapp.com)# CitationWang J, Nakato R. HiC1Dmetrics: framework to extract various one-dimensional features from chromosome structure data. *Briefings in Bioinformatics*, bbab509,2021.</longdescription>
+</pkgmetadata>

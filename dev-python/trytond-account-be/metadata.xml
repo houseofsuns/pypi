@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Belgian Account Module######################The Belgian account module defines the standard chart of account.The module generates french and dutch chart of accounts / chart of taxes. Thefrench / dutch XML files are generated from the same original XML file thanksto the localize.xsl XSLT script. The script will produce on the standard outputthe desired XML file. The XSLT script can be launched with the followingcommand::   xsltproc --stringparam lang &lt;lang&gt; localize.xsl &lt;xml file&gt;where ``lang`` is either ``fr`` or ``nl``.</longdescription>
+</pkgmetadata>

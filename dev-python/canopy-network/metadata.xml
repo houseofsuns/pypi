@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># canopyA decentralized social network of personal websitesStore and display content on your own personal website. Interact richlywith other sites.## InstallDebian/Ubuntu: `wget understory.cloud/gaea.py -q &amp;&amp; python3 gaea.py --deploy canopy/canopy`### Manually    $ pip install canopy-network    $ web serve canopy## Features* render profile, pages, media, posts and feeds with semantic markup a la [microformats](https://indieweb.org/microformats)  * archive source material for [reply contexts](https://indieweb.org/reply-context)  * moderated threaded discussion using Webmentions with Salmention &amp; Vouch  * syndicate to third-party aggregators* store posts:  * as [queryable JSON](https://www.sqlite.org/json1.html) in SQLite database    * [full-text search](https://www.sqlite.org/fts5.html)  * as JSON flat files inside Git repository for change history* follow by subscribing and publish to subscribers using WebSub* sign in to third-party applications using IndieAuth  * leverage third-party Micropub editors  * leverage third-party Microsub readers* import/export tools  * syndicate/backfeed to/from Twitter/Github/Facebook  * backup/restore to/from local/remote storage</longdescription>
+</pkgmetadata>

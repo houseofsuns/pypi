@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>robotpy-pathplannerlib======================This is a python implementation of Michael Jansen's pathplannerlib library... note:: The RobotPy project is not associated with or endorsed by Michael Jansen.Documentation=============* `PathplannerLib Documentation &lt;https://github.com/mjansen4857/pathplanner/wiki/PathPlannerLib:-Java-Usage&gt;`_License=======RobotPy wrappers are BSD-3-Clause. PathPlannerLib license is MIT.</longdescription>
+</pkgmetadata>

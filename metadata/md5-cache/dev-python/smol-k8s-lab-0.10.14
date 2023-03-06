@@ -1,0 +1,16 @@
+BDEPEND=dev-python/rich[python_targets_python3_11(-)?] dev-python/click[python_targets_python3_11(-)?] dev-python/bcrypt[python_targets_python3_11(-)?] dev-python/requests[python_targets_python3_11(-)?] dev-python/pyyaml[python_targets_python3_11(-)?] dev-python/xdg-base-dirs[python_targets_python3_11(-)?] python_targets_python3_11? ( >=dev-lang/python-3.11.1-r1:3.11 ) >=dev-python/gpep517-13[python_targets_python3_11(-)?]
+DEFINED_PHASES=compile configure install prepare test unpack
+DESCRIPTION=bootstrap simple projects on kubernetes with kind and k3s
+EAPI=8
+HOMEPAGE=https://jessebot.github.io/smol-k8s-lab
+INHERIT=python-r1 gs-pypi
+IUSE=python_targets_python3_11
+KEYWORDS=~amd64 ~x86
+LICENSE=AGPL-3+
+RDEPEND=dev-python/rich[python_targets_python3_11(-)?] dev-python/click[python_targets_python3_11(-)?] dev-python/bcrypt[python_targets_python3_11(-)?] dev-python/requests[python_targets_python3_11(-)?] dev-python/pyyaml[python_targets_python3_11(-)?] dev-python/xdg-base-dirs[python_targets_python3_11(-)?] python_targets_python3_11? ( >=dev-lang/python-3.11.1-r1:3.11 )
+REQUIRED_USE=|| ( python_targets_python3_11 )
+RESTRICT=test
+SLOT=0
+SRC_URI=https://files.pythonhosted.org/packages/0e/1f/98dc311cc3639cb4f607a06dddb559e410bded16681933c5e0fda1c1fb9d/smol_k8s_lab-0.10.14.tar.gz
+_eclasses_=out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	bddcb51b74f4a76724ff7cf8e7388869	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	d1408425c7c4a7669b9b17735404b693	python-utils-r1	429bfd4e8d8e39db5385ba5744f30788	python-r1	3c6cd0f418ba702c186a9865b85e704d	ninja-utils	76050953ad5b70d7e09a6ca55558db92	gs-distutils-r1	748b9bbc3f3998d9944bd6d7af1eef8a	g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	gs-pypi	5d35493d186e30ccb1242b91abc6a312
+_md5_=b6c27bc2dd054ac46891dcdb6cce169f

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>======Atomic======An atomic class that guarantees atomic updates to its contained value. ::    from atomic import AtomicLong    atomic = AtomicLong(0)    atomic += 1    atomic.valueInstallation============To install atomic, use pip : ::    pip install atomicAcknowledgement===============This is heavily inspired by `ruby-atomic &lt;https://github.com/headius/ruby-atomic&gt;`_.</longdescription>
+</pkgmetadata>

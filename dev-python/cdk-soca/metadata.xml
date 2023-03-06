@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![awscdk-jsii-template](https://img.shields.io/badge/built%20with-awscdk--jsii--template-blue)](https://github.com/pahud/awscdk-jsii-template)[![NPM version](https://badge.fury.io/js/cdk-soca.svg)](https://badge.fury.io/js/cdk-soca)[![PyPI version](https://badge.fury.io/py/cdk-soca.svg)](https://badge.fury.io/py/cdk-soca)![Release](https://github.com/pahud/cdk-soca/workflows/Release/badge.svg)# Welcome to `cdk-soca``cdk-soca` is an AWS CDK construct library that allows you to create the [Scale-Out Computing on AWS](https://aws.amazon.com/tw/solutions/implementations/scale-out-computing-on-aws/) with AWS CDK in `TypeScript` or `Python`.# Sample```python# Example automatically generated without compilation. See https://github.com/aws/jsii/issues/826import cdk_soca as soca# create the CDK applicationapp = App()# create the stack in the CDK appstack = Stack(app, &quot;soca-testing-stack&quot;)# create the workload in the CDK stacksoca.Workload(stack, &quot;Workload&quot;)```That's all!</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[GitHub Pages](https://jameskabbes.github.io/smart_documentation)  [PyPI](https://pypi.org/project/kabbes-smart-documentation)# smart_documentationPackage for automatically generating documentation for Python repositories# Steps to Set Up1. copy the docs directory over to repository you are trying to auto document2. make a workflows directory nested in a .github directory `mkdir .github/workflows/`3. copy the make.yml file over to the workflows directory4. adjust the project title in conf.py in the docs directory (found by searching &quot;project title&quot;)5. if project not stored in scr/**&quot;project**title&quot;\_\_ continue6. replace **&quot;src&quot;** in the api.rst in the docs directory to the folder you want documented7. replace the **&quot;src&quot;** in the **&quot;ml_pipeline &lt;\_autosummary/src&gt;&quot;** on the last line of the index.rst in the docs directory to the folder you want documented# Usage Tips- make sure the requirements.txt file is right since it won't build unless dependecies are installed correctly- be sure to check that Gitpages are set up right for the repositorie- if unable to push to gh-pages branch, create and push another to GitHub `git branch gh-pages`</longdescription>
+</pkgmetadata>

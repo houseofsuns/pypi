@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Model W &amp;mdash; Django PresetThis Django preset for Model W's Env Manager provides a basic Djangoconfiguration that is fit to work in PaaS platforms such as DigitalOcean's PaaS.## Documentation[✨ **Documentation is there** ✨](http://modelw-django-preset.rtfd.io/)</longdescription>
+</pkgmetadata>

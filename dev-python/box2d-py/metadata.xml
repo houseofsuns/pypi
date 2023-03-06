@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>2D physics library Box2D 2.3 for usage in Python.After installing please be sure to try out the testbed demos.They require either pygame or pyglet and are available on thehomepage.pybox2d homepage: http://pybox2d.googlecode.comBox2D homepage: http://www.box2d.org</longdescription>
+</pkgmetadata>

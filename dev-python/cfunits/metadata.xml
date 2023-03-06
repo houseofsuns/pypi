@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>*A Python interface to UNIDATA's UDUNITS-2 library with CFextensions***Note: Versions 3.0.0 and later are only compatible with version Python 3. Use version 1.9 for Python 2 compatibility.**Store, combine and compare physical units and convert numeric valuesto different units.Units are as defined in `UNIDATA's UDUNITS-2 library&lt;http://www.unidata.ucar.edu/software/udunits/&gt;`_, except forreference time units (such as ``'days since 2000-12-1'`` in the``'proleptic_gregorian'`` calendar), which are handled by the `cftimepython package &lt;https://pypi.python.org/pypi/cftime&gt;`_.In addition, some units are either new to, modified from, or removedfrom the standard UDUNITS-2 database in order to be more consistentwith the `CF conventions &lt;http://cfconventions.org/&gt;`_.Documentation=============https://ncas-cms.github.io/cfunitsInstallation============https://ncas-cms.github.io/cfunits/installation.html</longdescription>
+</pkgmetadata>

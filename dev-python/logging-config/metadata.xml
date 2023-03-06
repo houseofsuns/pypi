@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>A configuration wrapper class for the standard Python logging package. SinceDictConfigurator is not available until 2.7 and I still need to support 2.6,I wanted a consistent way to handle configuration of application logging.</longdescription>
+</pkgmetadata>

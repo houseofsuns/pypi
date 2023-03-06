@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># crownstone-lib-python-coreThis is the core of the python lib. It contains shared classes, definitions and utils. This is not intended for direct use by externalparties. Take a a look at the specialized libraries for your purpose:- https://github.com/crownstone/crownstone-lib-python-uart- https://github.com/crownstone/crownstone-lib-python-ble- https://github.com/crownstone/crownstone-lib-python-cloud- https://github.com/crownstone/crownstone-lib-python-sseIf you wish to install all crownstone python libraries, take a look at our [tutorial](./docs/TUTORIAL_VENV_SETUP.md).</longdescription>
+</pkgmetadata>

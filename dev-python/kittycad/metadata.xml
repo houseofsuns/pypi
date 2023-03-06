@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>![image](https://user-images.githubusercontent.com/19377312/165883233-3bdbc9fb-ddf9-4173-8cf2-d1b70ab7127d.png)# kittycad.pyThe Python API client for KittyCAD.- [PyPI](https://pypi.org/project/kittycad/)- [Python docs](https://python.api.docs.kittycad.io/)- [KittyCAD API Docs](https://docs.kittycad.io/?lang=python)## GeneratingYou can trigger a build with the GitHub action to generate the client. This willautomatically update the client to the latest version based on the spec hostedat [api.kittycad.io](https://api.kittycad.io/).Alternatively, if you wish to generate the client locally, make sure you have[Docker installed](https://docs.docker.com/get-docker/) and run:```bash$ make generate```## ContributingPlease do not change the code directly since it is generated. PRs that changethe code directly will be automatically closed by a bot.</longdescription>
+</pkgmetadata>

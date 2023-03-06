@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;h1 align=&quot;center&quot;&gt;🤷 Option and Result&lt;/h1&gt;This library uses code copied and pasted from [Peijun Ma's `option` library](https://github.com/MaT1g3R/option), which they have generously published under the MIT license. 🙏This is a Python implementation of Rust's [`Option`](https://doc.rust-lang.org/std/option/index.html) and [`Result`](https://doc.rust-lang.org/std/result/index.html) types in order to help make fallible functions identifiable and more robust than typical exceptions.## 💻 InstallationThis package is [published to PyPI as `babichjacob-option-and-result`](https://pypi.org/project/babichjacob-option-and-result/).## 🛠 Usage```pyfrom option_and_result import NONE, Some, Ok, Errmaybe_a_number = Some(17)assert maybe_a_number.unwrap() == 17nothing = NONE()assert nothing.is_none()number_result = maybe_a_number.ok_or(&quot;not a number&quot;)assert number_result == Ok(17)result_that_is_err = Err(&quot;gah! an error!&quot;)combinatoric_result = number_result.and_(result_that_is_err)assert combinatoric_result.unwrap_err() == &quot;gah! an error!&quot;# more methods on Options and Results are available like the Rust documentation shows# there is also MatchesNone, MatchesSome, MatchesOk, and MatchesErr# for use with Python 3.10's new structural pattern matching feature```## 😵 Help! I have a questionCreate an issue and I'll try to help.## 😡 Fix! There is something that needs improvementCreate an issue or pull request and I'll try to fix.## 📄 LicenseMIT## 🙏 Attribution_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_</longdescription>
+</pkgmetadata>

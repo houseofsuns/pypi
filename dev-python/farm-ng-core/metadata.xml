@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># farm-ng-core[![PyPI version](https://badge.fury.io/py/farm-ng-core.svg)](https://pypi.org/project/farm-ng-core)## Build on MacOSMake sure ports is installed: https://www.macports.org/install.phpInstall dependencies, once:```sudo port install cmakesudo PATH=$PATH port install protobuf3-cppsudo port install ccachesudo port install pre-commitsudo port select --set virtualenv virtualenv310```From within the repo:```mkdir buildcd buildcmake ../super_projectmake -j```Run pre-commit before commiting changes```pre-commit run -a```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pynetsnmp-2This is a Python ctypes wrapper for the [NET-SNMP](http://www.net-snmp.org/)library. It is a fork of Zenoss'[pynetsnmp](https://github.com/zenoss/pynetsnmp) library. The main improvementover `pynetsnmp` is **Python 3 support**.</longdescription>
+</pkgmetadata>

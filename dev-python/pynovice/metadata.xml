@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># novice1.geo_map: reverse Geocoder takes a latitude / longitude coordinate and returns the nearest town/city.（add google map）2.bert_extracter: Extract text features from bert.3.rule_engine: A simple extensible rules engine implemented in Python.4.score_card: A complete score card process.[bins,woe,model_pre,score,auc,ks,lift,psi,csi]5.data_base: DistributionAnysis:Analyze and plot the data[bar,lines,page,tab]</longdescription>
+</pkgmetadata>

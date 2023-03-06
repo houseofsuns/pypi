@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>PyCuber=======PyCuber is a Rubik's Cube package in Python 2/3.--------------------------------------------------The cube can be revealed as expanded view in the terminal, so it's easyto visualise the cube, just inside the terminal. (Not tested on Windows).. code-block:: python    &gt;&gt;&gt; import pycuber as pc    &gt;&gt;&gt; # Create a Cube object    &gt;&gt;&gt; mycube = pc.Cube()    &gt;&gt;&gt; # Do something at the cube.    &gt;&gt;&gt; mycube(&quot;R U R' U'&quot;)    &gt;&gt;&gt; print(mycube).. image:: http://i.imgur.com/OI4kbn7.pngWe also provided some useful tools to deal with Rubik's Cube formulae... code-block:: python    &gt;&gt;&gt; import pycuber as pc    &gt;&gt;&gt; # Create a Formula object    &gt;&gt;&gt; my_formula = pc.Formula(&quot;R U R' U' R' F R2 U' R' U' R U R' F'&quot;)    &gt;&gt;&gt; # Reversing a Formula    &gt;&gt;&gt; my_formula.reverse()    &gt;&gt;&gt; print(my_formula)    &gt;&gt;&gt; # Mirroring a Formula    &gt;&gt;&gt; myalg.mirror(&quot;LR&quot;)    &gt;&gt;&gt; print(my_formula)    F R U' R' U R U R2 F' R U R U' R'    F' L' U L U' L' U' L2 F L' U' L' U LI'll add some documentations later.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># asariAsari is a Japanese sentiment analyzer implemented in Python.## UsageBehold, the power of asari:```pythonfrom asari.api import Sonarsonar = Sonar()sonar.ping(text=&quot;広告多すぎる♡&quot;){  &quot;text&quot; : &quot;広告多すぎる♡&quot;,  &quot;top_class&quot; : &quot;negative&quot;,  &quot;classes&quot; : [ {    &quot;class_name&quot; : &quot;positive&quot;,    &quot;confidence&quot; : 0.09130180181262026  }, {    &quot;class_name&quot; : &quot;negative&quot;,    &quot;confidence&quot; : 0.9086981981873797  } ]}```Asari allows you to classify text into positive/negative class, without the need for training. You have only to fed text into asari.## InstallationTo install asari, simply use `pip` with Python 3.8+:```bashpip install asari```</longdescription>
+</pkgmetadata>

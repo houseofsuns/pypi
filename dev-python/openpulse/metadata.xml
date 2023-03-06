@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># OpenPulse Python Reference[![License](https://img.shields.io/github/license/openqasm/openqasm.svg)](https://opensource.org/licenses/Apache-2.0)&lt;!-- long-description-skip-begin --&gt;[![Release](https://img.shields.io/pypi/v/openpulse)](https://pypi.org/project/openpulse)&lt;!-- long-description-skip-end --&gt;OpenPulse is a concrete implementation of pulse grammar for `cal` and `defcal` body.It reuses the classical types and statements from openqasm3.The package is structured similarly to `openqasm3` with the modules:* `openpulse.ast`: The AST nodes. Identical nodes from `openqasm3.ast` are re-exported.* `openpulse.parser`: A parser similar to `openqasm3.parser`, but for OpenPulse.* `tests`: A set of unit tests.* No visitor module as `openqasm3.visitor` can be reused.The OpenPulse grammar introduce the following:* Pulse types: `port`, `frame` and `waveform`.* Extension to OpenQASM 3 classical type to consume the pulse types.</longdescription>
+</pkgmetadata>

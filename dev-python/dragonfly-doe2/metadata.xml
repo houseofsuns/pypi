@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>![Dragonfly](https://www.ladybug.tools/assets/img/dragonfly.png)[![Build Status](https://github.com/ladybug-tools/dragonfly-doe2/workflows/CI/badge.svg)](https://github.com/ladybug-tools/dragonfly-doe2/actions)[![Coverage Status](https://coveralls.io/repos/github/ladybug-tools/dragonfly-doe2/badge.svg?branch=master)](https://coveralls.io/github/ladybug-tools/dragonfly-doe2)[![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/downloads/release/python-370/)# dragonfly-doe2Dragonfly extension for energy modeling with the DOE-2 engine.[DOE-2](https://www.doe2.com/) is a widely used and accepted freeware building energy analysis program that can predict the energy use and cost for all types of buildings.## Installation`pip install -U dragonfly-doe2`## QuickStart```consoleimport dragonfly_doe2```## [API Documentation](http://ladybug-tools.github.io/dragonfly-doe2/docs)## Local Development1. Clone this repo locally```consolegit clone git@github.com:ladybug-tools/dragonfly-doe2# orgit clone https://github.com/ladybug-tools/dragonfly-doe2```2. Install dependencies:```cd dragonfly-doe2pip install -r dev-requirements.txtpip install -r requirements.txt```3. Run Tests:```consolepython -m pytest tests/```4. Generate Documentation:```consolesphinx-apidoc -f -e -d 4 -o ./docs ./dragonfly_doe2sphinx-build -b html ./docs ./docs/_build/docs```</longdescription>
+</pkgmetadata>

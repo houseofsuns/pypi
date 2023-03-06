@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Ksconf Splunk CONFiguration toolThis utility handles common Splunk app maintenance tasks in an installable python package.Specifically, this tool deals with many of the nuances of storing Splunk apps in aversion control system like git and pointing live Splunk apps to a working tree. Merging changesfrom the live system's (local) folder to the version controlled (default) folder and dealing withmore than one layer of &quot;default&quot; are all supported tasks which are not native to Splunk.Tasks like creating new Splunk apps from your local system while merging the 'local' folder into'default' is also supported.Earlier version of this project were packaged as [kintyre-splunk-conf](https://pypi.org/project/kintyre-splunk-conf) prior to v0.10.0Install with    pip install ksconfConfirm installation with the following command:    ksconf --versionTo get an overview of all the CLI commands, run:    ksconf --helpHelp on specific command, such as 'unarchive', run:    ksconf unarchive --helpPlease see the [Official docs](https://ksconf.readthedocs.io/en/latest/) for more info.</longdescription>
+</pkgmetadata>

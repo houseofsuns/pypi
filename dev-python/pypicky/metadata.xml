@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>About PyPIcky=============PyPIcky is a tiny package that provides a proxy to the PyPI server but withversion requirements pre-applied.Installing----------To install::    pip install pypickyUsing-----Once installed, create a`requirements file &lt;https://pip.readthedocs.io/en/1.1/requirements.html&gt;`_(using the same syntax that you would normally use for pip) and then start upPyPIcky by using the ``pypicky`` command and passing it the name of therequirements file as a command-line argument::    pypicky requirements.txtThis will start up a small web server, and will print out a line such as::    Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)You can then call pip with::    pip install --index-url http://127.0.0.1:5000/ astropyand this will then install the requested packages and all dependencies, ignoringpackages excluded by the requirements file.This can then be used for example with other tools that support PyPI index URLs,such as `tox &lt;https://tox.readthedocs.io/en/latest/&gt;`_.Caveats/warnings----------------If a package is already installed, pip will not try installing it again. Thismeans that if e.g. you try and run pip as described above, but the package youare trying to install (or any of its dependencies) is already installed, nomatter how recent the version, it will not be installed again. Therefore, Irecommend using pip with the custom index URL inside a clean environment (butyou can run the pypicky command inside your regular environment.)</longdescription>
+</pkgmetadata>

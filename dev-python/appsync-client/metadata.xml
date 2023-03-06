@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># appsync-client## Usage```pythondef callback(client, userdata, msg):  #use the msg  passappsyncClient = AppSyncClient()query = json.dumps({&quot;query&quot;: &quot;mutation {\n  updateSecret(id:\&quot;1234\&quot;,secretString:\&quot;sdfsdf\&quot;) {\n    id\n    secretString\n  }\n}\n&quot;})response = appsyncClient.execute(region=&quot;us-east-2&quot;,url=&quot;https://..../graphql&quot;,method=&quot;POST&quot;,data=query,callback=callback)```</longdescription>
+</pkgmetadata>

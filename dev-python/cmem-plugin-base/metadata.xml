@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># cmem-plugin-basePython base classes for developing eccenca Coporate Memory plugins.In order to kick-start developing eccenca Corporate Memory Plugins, please check out this project template: https://github.com/eccenca/cmem-plugin-template</longdescription>
+</pkgmetadata>

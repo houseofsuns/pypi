@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Library to schema_orgHow to use:from kraken_schema_org import kraken_schema_org as knormalize_type:```record_type = 'person'normalized_type = k.normalize_type(record_type)```normalize_key:```key = 'givenname'normalized_key = k.normalize_key(key)```normalize_record:```record = {&quot;@type&quot;: &quot;schema:WebPage&quot;, &quot;schema:url&quot;: &quot;https://www.test.com&quot;}normalized_record = k.normalize_record(record)```get_keys:```record_type = 'person'keys = k.get_keys(record_type)```get_datatype():```record_type = 'schema:Person'key = 'schema:givenName'datatypes = k.get_datatype(record_type, key)```</longdescription>
+</pkgmetadata>

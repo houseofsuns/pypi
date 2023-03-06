@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># rlgym-compatA library of RLBot compatibility objects for RLGym Agents## UsageThe recommended way of using this package is through our RLBot example bot: https://github.com/RLGym/RLGymExampleBot</longdescription>
+</pkgmetadata>

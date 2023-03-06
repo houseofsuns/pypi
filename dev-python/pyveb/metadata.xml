@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># General Package containing resuable code components for data pipelines and dags deployed to pypi.# UsageInstall/Upgrade locally: ```$ pip3 install pyveb$ pip3 install pyveb --upgrade```Import in python```import pyvebfrom pyveb import selenium_client```# Update packagePackage is automaticly deployed to pypi via github actions. Just commit and open a pull request. During the action workflow, the version will be automatically bumped and updated pyproject.toml is commited back. ! in case a dependency is added to pyproject.toml, no workflow is started unless there are also changes to src/pyveb/** </longdescription>
+</pkgmetadata>

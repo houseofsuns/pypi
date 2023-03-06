@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Cinemagoer is a Python package useful to retrieve andmanage the data of the IMDb movie database about movies, people,characters and companies.Cinemagoer and its authors are not affiliated in any way toInternet Movie Database Inc.; see the DISCLAIMER.txt file fordetails about data licenses.Platform-independent and written in Python 3Cinemagoer package can be very easily used by programmers and developersto provide access to the IMDb's data to their programs.Some simple example scripts - useful for the end users - are includedin this package; other Cinemagoer-based programs are available at thehome page: https://cinemagoer.github.io/</longdescription>
+</pkgmetadata>

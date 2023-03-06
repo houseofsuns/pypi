@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># class-poolSimple, but powerful library for python classes registries.This tool bases on django's models pool with a lot of improvements.*Features*- thread-safe classes pool- ad-hoc class registering- auto class registering from packages- custom class identifiers in a pool- filtering classes during registration- default class for unregistered identifiers- pool classes choice field for Django models, forms and Django Rest Framework serializers## Requirements* Python 3* django &gt;= 1.7 (optional)## Installation``pip install class-pool``## Documentationhttps://py-class-pool.readthedocs.io/</longdescription>
+</pkgmetadata>

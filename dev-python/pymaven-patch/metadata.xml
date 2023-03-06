@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=======Pymaven=======Overview========Pymaven is a Python library for interfacing with the maven build system. Thereare two major interfaces:* pymaven.client provides a basic maven repository client* pymaven.pom provides a Pom object that can provide progromatic access to  a maven pom file</longdescription>
+</pkgmetadata>

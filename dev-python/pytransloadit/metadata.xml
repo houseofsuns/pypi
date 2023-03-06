@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>|Build status|Transloadit python-sdk======================A **Python** Integration for`Transloadit &lt;https://transloadit.com&gt;`__\ ’s file uploading andencoding service.Intro-----`Transloadit &lt;https://transloadit.com&gt;`__ is a service that helps youhandle file uploads, resize, crop and watermark your images, make GIFs,transcode your videos, extract thumbnails, generate audio waveforms, andso much more. In short, `Transloadit &lt;https://transloadit.com&gt;`__ is theSwiss Army Knife for your files.This is a **Python** SDK to make it easy to talk to the`Transloadit &lt;https://transloadit.com&gt;`__ REST API.Only Python 3.6+ versions are supported.Install-------.. code:: bash   pip install pytransloaditUsage-----.. code:: python   from transloadit import client   tl = client.Transloadit('TRANSLOADIT_KEY', 'TRANSLOADIT_SECRET')   assembly = tl.new_assembly()   assembly.add_file(open('PATH/TO/FILE.jpg', 'rb'))   assembly.add_step('resize', '/image/resize', {'width': 70, 'height': 70})   assembly_response = assembly.create(retries=5, wait=True)   print(assembly_response.data.get('assembly_id'))   # or   print(assembly_response.data['assembly_id'])Example-------For fully working examples, take a look at```examples/`` &lt;https://github.com/transloadit/python-sdk/tree/master/examples&gt;`__.Documentation-------------See `readthedocs &lt;https://transloadit.readthedocs.io&gt;`__ for full APIdocumentation... |Build status| image:: https://github.com/transloadit/python-sdk/actions/workflows/ci.yml/badge.svg   :target: https://github.com/transloadit/python-sdk/actions/workflows/ci.yml</longdescription>
+</pkgmetadata>

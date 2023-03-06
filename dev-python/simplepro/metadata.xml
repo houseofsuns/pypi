@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>**simpleui-pro**Github:https://github.com/newpanjing/simpleproCommunity:https://simpleui.72wo.com文档地址：https://simpleui.72wo.com/docs/simplepro/QQ群：786576510购买：目前只支持支付宝、微信进行付费购买</longdescription>
+</pkgmetadata>

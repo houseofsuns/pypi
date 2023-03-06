@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>The pdf-export plugin will export all markdown pages in your MkDocs repository as PDF filesusing WeasyPrint. The exported documents support many advanced features missing in most otherPDF exports, such as a PDF Index and support for CSS paged media module.</longdescription>
+</pkgmetadata>

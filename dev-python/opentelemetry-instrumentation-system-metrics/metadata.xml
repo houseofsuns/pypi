@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>OpenTelemetry System Metrics Instrumentation============================================|pypi|.. |pypi| image:: https://badge.fury.io/py/opentelemetry-instrumentation-system-metrics.svg   :target: https://pypi.org/project/opentelemetry-instrumentation-system-metrics/Instrumentation to collect system performance metrics.Installation------------::    pip install opentelemetry-instrumentation-system-metricsReferences----------* `OpenTelemetry System Metrics Instrumentation &lt;https://opentelemetry-python-contrib.readthedocs.io/en/latest/instrumentation/system_metrics/system_metrics.html&gt;`_* `OpenTelemetry Project &lt;https://opentelemetry.io/&gt;`_</longdescription>
+</pkgmetadata>

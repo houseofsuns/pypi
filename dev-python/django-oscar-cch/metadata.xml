@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>================django-oscar-cch================|  |license| |kit| |format|This package handles integration between django-oscar based e-commerce sites and the `CCH Sales Tax Office &lt;http://www.salestax.com/products/calculations-solutions/sales-tax-office.html&gt;`_ SOAP API.**Full Documentation**: https://django-oscar-cch.readthedocs.io.. |license| image:: https://img.shields.io/pypi/l/django-oscar-cch.svg    :target: https://pypi.python.org/pypi/django-oscar-cch.. |kit| image:: https://badge.fury.io/py/django-oscar-cch.svg    :target: https://pypi.python.org/pypi/django-oscar-cch.. |format| image:: https://img.shields.io/pypi/format/django-oscar-cch.svg    :target: https://pypi.python.org/pypi/django-oscar-cch</longdescription>
+</pkgmetadata>

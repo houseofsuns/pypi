@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Conservator CLI[![Build Status](https://flirjenkins.com/buildStatus/icon?job=FLIR-Ubuntu/conservator-cli/main)](https://flirjenkins.com/job/FLIR-Ubuntu/job/conservator-cli/job/main/)This library provides a Python API to interface with [Conservator](https://flirconservator.com/), as well as a CLI forsimple operations like searching, downloading, and uploading files.Please visit the [Official Documentation](https://flir.github.io/conservator-cli/)to get started.Conservator CLI is licensed under the [MIT License](https://opensource.org/licenses/MIT).</longdescription>
+</pkgmetadata>

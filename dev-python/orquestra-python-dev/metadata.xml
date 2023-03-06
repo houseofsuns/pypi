@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># orquestra-python-devThis is a meta-package collecting all development libraries needed in other, Python-based, Orquestra packages. The tools which this package tracks versions of are:- black- flake8- Flake8-pyproject- isort- mypy- pytest- pytest-cov</longdescription>
+</pkgmetadata>

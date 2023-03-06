@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># PY-ACR122U[![PyPI - Version](https://img.shields.io/pypi/v/py-acr122u)](https://pypi.org/project/py-acr122u/)[![PyPI - License](https://img.shields.io/pypi/l/py-acr122u)](https://pypi.org/project/py-acr122u/)[![PyPI - Downloads](https://img.shields.io/pypi/dm/py-acr122u)](https://pypi.org/project/py-acr122u/)[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/py-acr122u)](https://pypi.org/project/py-acr122u/)[![PyPI - Wheel](https://img.shields.io/pypi/wheel/py-acr122u)](https://pypi.org/project/py-acr122u/)This is a python library for the ACR122U NFC reader## Installation```shellpip install py-acr122u```## Usage```pythonfrom py_acr122u import nfcreader = nfc.Reader()reader.connect()reader.print_data(reader.get_uid())reader.info()```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>GClient API Service Account Authorization=========================================.. image:: https://travis-ci.org/ambitioninc/gclient-service-account-auth.png   :target: https://travis-ci.org/ambitioninc/gclient-service-account-auth.. image:: https://pypip.in/v/gclient-service-account-auth/badge.png    :target: https://crate.io/packages/gclient-service-account-auth/    :alt: Latest PyPI version.. image:: https://pypip.in/d/gclient-service-account-auth/badge.png    :target: https://crate.io/packages/gclient-service-account-auth/    :alt: Number of PyPI downloadsAuthorizing server-to-server communications with Google's APIs shouldbe easy. However, it can be difficult to understand how to doauthorization based on Google's `Service Accounts`_, instead of thebetter-documented three-party oauth flow. This libraryattempts to streamline this process.It makes authentication and authorization as simple as creating aninstance of the `AuthorizedService` class, with the name of yourproject and the name of the API to authorize for. To get started, seethe `quickstart`_ guide... _Service Accounts: https://developers.google.com/accounts/docs/OAuth2ServiceAccount.. _quickstart: http://gclient-service-account-auth.readthedocs.org/en/latest/quickstart.htmlInstallation------------To install the latest release, type::    pip install gclient-service-account-authTo install the latest code directly from source, type::    pip install git+git://github.com/ambitioninc/gclient-service-account-auth.gitDocumentation=============Full documentation is available at http://gclient-service-account-auth.readthedocs.orgLicense=======MIT License (see LICENSE)</longdescription>
+</pkgmetadata>

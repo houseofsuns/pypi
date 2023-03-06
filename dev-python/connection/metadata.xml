@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![](https://img.shields.io/badge/released-2021.7.20-green.svg?longCache=True)](https://pypi.org/project/connection/)[![](https://img.shields.io/badge/license-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)### Installation```bash$ pip install connection```### Examples```python&gt;&gt;&gt; import connection&gt;&gt;&gt; connection.check()True```timeout```python&gt;&gt;&gt; connection.check(timeout=2)```url```python&gt;&gt;&gt; connection.check(url='https://github.com/')```</longdescription>
+</pkgmetadata>

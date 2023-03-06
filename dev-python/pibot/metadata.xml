@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># PiBotLibrary for controlling the PiBot# Installation```bashpip install pibot```# Usage```pythonfrom pibot import *display.sample_function(&quot;test&quot;)```</longdescription>
+</pkgmetadata>

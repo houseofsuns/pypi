@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Axie Utils LibraryAim of this library is to contain all the actions one might want to do when building tools around the Axie Infinity videogame. It started with me building an automation tool and needing to build different solutions. Extracting this functionality allows for that easily.**NOTE: Only v1 of this library uses free tx, from v2 and onwards all transactions consume RON. That is due to now free tx being much more rare to have available.**# InstallationInstall and update using pip:```pip install -U axie-utils```# Simple ExampleThis example would send 100 SLP from `ronin:from_where_to_send_SLP` to `ronin:to_where_we_send_SLP`.``` pythonfrom axie_utils import Paymentp = Payment(    &quot;Testing Account&quot;,    &quot;ronin:from_where_to_send_SLP&quot;,    &quot;0x:private_key_from_the_from_acc&quot;,    &quot;ronin:to_where_we_send_SLP&quot;,    100)p.execute()```This example, shows how we would claim SLP from an account.``` pythonfrom axie_utils import Claimc = Claim(    &quot;Testing Account&quot;,    &quot;ronin:acc_to_claim&quot;,    &quot;0x:private_key_from_acc_to_claim&quot;)c.execute()```# DocumentationFor furhter documentation, please visit this [link](https://ferranmarin.github.io/axie-utils-lib/).</longdescription>
+</pkgmetadata>

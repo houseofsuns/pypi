@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Purchase Secondary Unit Module##############################The purchase secondary unit module adds a secondary unit of measure on purchaselines.The secondary quantity and unit price are kept synchronized with the quantityand unit price.The secondary unit is defined on the product supplier or on the product withits factor against the purchase unit.</longdescription>
+</pkgmetadata>

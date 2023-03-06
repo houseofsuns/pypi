@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>The optimal binning is the optimal discretization of a variable into binsgiven a discrete or continuous numeric target. OptBinning is a librarywritten in Python implementing a rigorous and flexible mathematicalprogramming formulation to solving the optimal binning problem for a binary,continuous and multiclass target type, incorporating constraints notpreviously addressed.Read the documentation at: http://gnpalencia.org/optbinning/OptBinning is distributed under the Apache Software License (Apache 2.0).</longdescription>
+</pkgmetadata>

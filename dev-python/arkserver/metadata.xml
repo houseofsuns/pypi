@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Ark-Server## Connect### Start Listening (connect)Starts the server### Receive Connect Request (accept_wrapper)Connects to a client## DisconnectDisconnects the server### Send Disconnect (send_disconnect)Sends to a client to disconnect with the server### Receive Disconnect (parsed from read)If the server was remotely asked to shut down, it will theninitiate disconnecting to all remote clients too.## Run### Receive Connect RequestAccept the incoming connection### Service the connection#### ReadRead from the incoming connection#### WriteWrite to the incoming connection after reading</longdescription>
+</pkgmetadata>

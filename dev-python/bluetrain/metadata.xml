@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This is a very simple Django CMS application. It allows for the creation of hierarchical pages, adding &quot;focus areas&quot; to the pages along with normal content.There is also a view for displaying a sitemap (all of the pages tied to home). It relies heavily on terminology from my old web dev days, so itincludes three types of pages:1. Home page -- there should only be one and it should have a slug of 'home'2. Normal pages -- you get it3. Constants -- these are pages that do not appear in the page hierarchy but can be visited by all,typically links that appear on all pages, e.g., 'contact us'INSTALL=======You will want to load both files under fixtures via ./manage.py loaddataREQUIRED SETTINGS=================USE_CACHE: whether to use Django's caching or notDEFAULT_CACHE_TIMEOUT: number of seconds to cache itemsNeither of these settings should be required and I should be providing backup/ defaults for you. Kick me if you are reading this.TEMPLATE TAGS=============There's a single tag in there right now for rendering forms based on the display in default_form.html.Override this template as needed.TODO====* More tests, obviously* Default settings</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># LibBefore the major release we will put a few lines for ourselves on how to do the lib updates :)1. Install twine if needed: `pip install build twine`2. `python -m build`3. `python -m twine upload dist/*`</longdescription>
+</pkgmetadata>

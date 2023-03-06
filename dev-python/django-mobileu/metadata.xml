@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>MobileU MOOC============The MobileU MVP framework allows other developers to easily build mobileeducation sites.|mobileu-ci|_Installation~~~~~~~~~~~~::    $ virtualenv ve    $ source ve/bin/activate    (ve)$ pip install -r requirements.txtRun Tests~~~~~~~~~::    $ source ve/bin/activate    (ve)$ python manage.py test.. |mobileu-ci| image:: https://travis-ci.org/praekelt/mobileu.svg?branch=develop.. _mobileu-ci: https://travis-ci.org/praekelt/mobileu</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>===========================================================django-heroku-redisify: Friendly Redis for Django on Heroku===========================================================.. image:: https://secure.travis-ci.org/dirn/django-heroku-redisify.png?branch=masterA user-friendly method to configure Django projects on Heroku to use Redis.Inspired by the work of `Randall Degges`_... _Randall Degges: https://github.com/rdeggesUsage=====Place this code into your project's settings.py::    from redisify import redisify    CACHES = redisify(default='redis://localhost')Full documentation can be found on `Read the Docs`_... _Read the Docs: http://readthedocs.org/docs/django-heroku-redisify/en/latest/Installation============To install the latest version of django-heroku-redisify::    $ pip install django-heroku-redisifyor, if you must::    $ easy_install django-heroku-redisifyTo install the latest development version::    $ git clone git@github.com:dirn/django-heroku-redisify.git    $ cd django-heroku-redisify    $ python setup.py installChangelog=========- 0.2.1  - Add `django-redis-cache` and `redis` as requirements.- 0.2.0  - THIS RELEASE IS NOT BACKWARDS COMPATIBLE  - ``redisify()`` now returns a ``dict`` of all URLs found in the  environment settings.- 0.1.0  - Initial release</longdescription>
+</pkgmetadata>

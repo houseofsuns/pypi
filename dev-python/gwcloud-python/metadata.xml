@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>GWCloud Python API==================`GWCloud &lt;https://gwcloud.org.au/&gt;`_ is a service used to handle both the submission of `Bilby &lt;https://pypi.org/project/bilby/&gt;`_ jobs to a supercomputer queue and the obtaining of the results produced by these jobs.While there is a web interface for this service, which is recommended for beginners, this package can be used to allow Bilby job submission and manipulation from Python scripts.Check out the `documentation &lt;https://gwcloud-python.readthedocs.io/en/latest/&gt;`_ for more information.Installation------------The gwcloud-python package can be installed with::    pip install gwcloud-pythonExample-------::    &gt;&gt;&gt; from gwcloud_python import GWCloud    &gt;&gt;&gt; gwc = GWCloud(token='&lt;user_api_token_here&gt;')    &gt;&gt;&gt; job = gwc.get_preferred_job_list()[0]    &gt;&gt;&gt; job.save_corner_plot_files()    100%|██████████████████████████████████████| 3.76M/3.76M [00:00&lt;00:00, 5.20MB/s]    All 2 files saved!</longdescription>
+</pkgmetadata>

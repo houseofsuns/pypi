@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pretty-json===========make pretty json.Documentation: https://github.com/devstuff-io/pretty-jsonInstallation------------.. code-block:: shell   pip install pretty-jsonEnvironment Variables---------------------``PJSON_OUTPUT_STYLE``......................**Default**: monokaiThe pygments_ formatter used to make the json pretty.Usage-----.. code-block:: python   from pretty_json import format_json   # format_json(content, style=OUTPUT_STYLE)   print format_json({'key': 'value'})**See and sample the available styles**.. code-block:: shell   python -c &quot;from pretty_json import sample;sample('manni')&quot;Authors-------See contributors section on GitHub... _pygments: http://pygments.org/docs/styles/</longdescription>
+</pkgmetadata>

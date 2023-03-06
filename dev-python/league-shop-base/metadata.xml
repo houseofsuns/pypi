@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># League Shop BaseReusable Django app## Quick startAdd &quot;lsb&quot; to your INSTALLED_APPS setting like this::```    INSTALLED_APPS = [        ...        'lsb',    ]```## To specify top sold skin values parser, add the following settings:```LSB_SETTINGS = {    'top_sold_skin_values': {        'func': &lt;dotted_module_string_path&gt;,        'args': &lt;args&gt;,        'kwargs': &lt;kwargs&gt;    }}For example:LSB_SETTINGS = {    'top_sold_skin_values': {        'func': 'lsb.utils.skins.get_top_sold_skin_values',        'args': [0, 150],        'kwargs': {}    }}```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># make_var- Retrieve all variables defined by make command by **python**- Expand make type variables `$(VAR)` in stringPackage allow you to access any symbol defined in *make*.It might be helpful to transfer your *Makefile* based projectto different one.## Installation`pip install make_var`## TutorialHow to use package:- just create simple Makefile containing variables H and W```H = helloW = world```- next create python file `read_makefile.py````#!/usr/bin/env python3from make_var import *M=make_vars(origin=['makefile']) # retrieve only data defined in makefilesprint(M['makefile']['H'], M['makefile']['W'])```execute it and you get`hello world`- to get all variables that `make` uses just write```M=make_vars(origin=None)        # all variablesprint(M.keys())                 # print all origins```output is`['environment', &quot;'override'&quot;, 'automatic', 'makefile', 'default']`## String expansionExample to replace $(var) by definition from Makefile - use same Makefile as before - edit python file```print(make_expand(M,&quot;$(H) $(W)&quot;)) # replaces $(H) with &quot;hello&quot; and $(W) with &quot;word&quot;```you get`hello world`## Internalspackage is based on GNU make command`make -pnB`</longdescription>
+</pkgmetadata>

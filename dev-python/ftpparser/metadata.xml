@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>ftpparser---------ftpparser is a Python 3 package for parsing FTP LIST results for a variety of FTP server formatsInstall:```bashpip3 install ftpparser```Usage:```pythonimport ftpparserparser = ftpparser.FTPParser()results = parser.parse(['-r-xr-xr-x   1 root  wheel  3258128 Nov 20  2019 kernel.GENERIC'])name, size, timestamp, isdirectory, downloadable, islink, permissions = results[0]```</longdescription>
+</pkgmetadata>

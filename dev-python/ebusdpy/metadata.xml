@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># eBusdPyeBusd python integration library for HomeAssistant## Getting StartedThese instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.## Authors* **Marco Toni** - *Initial work* - [CrazYoshi](https://github.com/crazyoshi)* **john30** - *ebusd deamon* - [john30](https://github.com/john30/ebusd)## LicenseThis project is licensed under the GPLv3 License</longdescription>
+</pkgmetadata>

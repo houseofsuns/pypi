@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># get_certTool for downloading ssl certificates from remote servers.## InstallationJust use PIP:```bashpip install get_cert```## Usage```bash$ python -m get_cert --helpUsage: get_cert.py [OPTIONS] URL  Retrieve and print out the ssl certificate.  Args:     URL (str): url to be picked upOptions:  --help  Show this message and exit.```</longdescription>
+</pkgmetadata>

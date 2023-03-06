@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Jump Consistent Hash--------------------.. image:: https://github.com/lithammer/python-jump-consistent-hash/workflows/Python/badge.svg   :alt: Build Status   :target: https://github.com/lithammer/python-jump-consistent-hash/actionsPython and C implementation of the jump consistent hash algorithm by JohnLamping and Eric Veach[1]. Tested on Python 3.8+.Install-------To install Jump Consistent Hash, simply run this simple command in yourterminal of choice::   $ pip install jump-consistent-hashThe C implementation is optional but is about 10x faster than the pure Pythonimplementation in CPython.Usage`````.. code:: python   &gt;&gt;&gt; import jump   &gt;&gt;&gt; jump.hash(256, 1024)   520If you want to use a ``str`` as a key instead of an ``int``, you can pass itthrough a hash function to compute a real key. Here's a couple of examplesusing Python 3:.. code:: python   &gt;&gt;&gt; import hashlib   &gt;&gt;&gt; int(hashlib.md5(b&quot;127.0.0.1&quot;).hexdigest(), 16)   325870950296970981340734819828239218902   &gt;&gt;&gt; int(hashlib.sha1(b&quot;127.0.0.1&quot;).hexdigest(), 16)   431133456357828263809343936597625557575256328153   &gt;&gt;&gt; import binascii   &gt;&gt;&gt; binascii.crc32(b&quot;127.0.0.1&quot;) &amp; 0xffffffff   3619153832   &gt;&gt;&gt; abs(hash(&quot;127.0.0.1&quot;))   7536019783825143230Links`````[1] http://arxiv.org/pdf/1406.2294v1.pdf</longdescription>
+</pkgmetadata>

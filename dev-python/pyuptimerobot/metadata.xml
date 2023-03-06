@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pyuptimerobot[![codecov](https://codecov.io/gh/ludeeus/pyuptimerobot/branch/main/graph/badge.svg)](https://codecov.io/gh/ludeeus/pyuptimerobot)![python version](https://img.shields.io/badge/Python-3.8=&gt;&lt;=3.10-blue.svg)[![PyPI](https://img.shields.io/pypi/v/pyuptimerobot)](https://pypi.org/project/pyuptimerobot)![Actions](https://github.com/ludeeus/pyuptimerobot/workflows/Actions/badge.svg?branch=main)_Python API wrapper for Uptime Robot_## Installation```bashpython3 -m pip install pyuptimerobot```Look at the file `example.py` for a usage example.## Contribute**All** contributions are welcome!1. Fork the repository2. Clone the repository locally and open the devcontainer or use GitHub codespaces3. Do your changes4. Lint the files with `scripts/lint`5. Ensure all tests passes with `scripts/test`6. Ensure 100% coverage with `scripts/coverage`7. Commit your work, and push it to GitHub8. Create a PR against the `main` branch</longdescription>
+</pkgmetadata>

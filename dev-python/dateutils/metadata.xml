@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>dateutils=========The main purpose of this package is to provide more complex arithmeticoperations on dates/times. Heavy use is made of the relativedelta type fromLabix's dateutil library. Much of this package is just a light wrapper on topof this with some added features such as range generation and business daycalculation.Installation------------You should install dateutils with pip:    pip install dateutilsOtherwise, you'll have to download the package and run:    python setup.py installIf you install it this way then you will also have to install all necessarydependencies manually.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># piglatinConverts english text to piglatin.## Installation`piglatin` can be installed from PyPI using `pip`.    pip install piglatin## Usage```python&gt;&gt;&gt; import piglatin&gt;&gt;&gt; piglatin.translate(&quot;hello world!&quot;)'ello-hay orld-way!'```## Command Line Usage`piglatin` can also be used as a command line tool.```bash    $ python -m piglatin &quot;hello world!&quot;ello-hay orld-way```Or read and write to files.```bash$ python -m piglatin -i input.txt -o output.txt```</longdescription>
+</pkgmetadata>

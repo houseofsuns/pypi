@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>``careless`` is a command line utility for merging data from x-ray crystallography experiments. It can be used to simultaneously scale and merge integratedreflection intensities from conventional, laue, and free-electron laser experiments. It uses approximate Bayesian inference and deep learning to estimatemerged structure factor amplitudes under a Wilson prior.</longdescription>
+</pkgmetadata>

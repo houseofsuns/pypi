@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Example Package## To show * package distribution* package testing (unit, performance, acceptance and multi interpreter)* logging use* loading to pypi&lt;br /&gt; ## UsageTo install, either &lt;br /&gt;`pip install mh`&lt;br /&gt; `pip install git+https://github.com/MarkHallett/mh@v0.0.33` &lt;br /&gt;&lt;br /&gt;To import &lt;br /&gt;`import mh`&lt;br /&gt; &lt;br /&gt; Example usage   * `print mh.EG_VAR2`&lt;br /&gt; * `print mh.test_function()`&lt;br /&gt; * `print mh.Mh().run_mh()`&lt;br /&gt; &lt;br /&gt; ## Further documentation[mh docs](https://markhallett.github.io/mh/)## To run tests  unit `python -m unittest `&lt;br /&gt; performance `cd tests/performance; python test_perf.py`&lt;br /&gt; acceptance `cd tests/acceptance; behave mh.feature`&lt;br /&gt; multi interpreter `tox`&lt;br /&gt; </longdescription>
+</pkgmetadata>

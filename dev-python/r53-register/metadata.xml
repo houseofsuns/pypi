@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Minimalistic Route53 update scriptA minimal-configuration script designed to support clusters with DNS failover.## RequirementsThis project requires [AWScredentials](http://boto3.readthedocs.io/en/latest/guide/configuration.html) tobe configured.## Usage``` bashsudo pip install r53-registerr53-register foo.example.com```## Optional configuration|Environment variable|Default|Description||:-|:-|:-||`INTERFACE_PREFIX`|`en,eth,wl`|A comma-separated list of interface prefixes. Interfaces will be searched in sequence to find an IP address.||`INTERFACE_NAME`|`-`|A specific interface to grab the IP from.||`PUBLIC_IP`|`False`|Override interface search and use this machine’s public IP instead.||`SKIP_CHECK`|`False`|Skip checking the value of the current record and always update.||`NAMESERVERS`|`8.8.8.8,8.8.4.4`|Nameservers to use when checking to see if an update is required.|</longdescription>
+</pkgmetadata>

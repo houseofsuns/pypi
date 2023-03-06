@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># OpenAPI Documentation GeneratorThis is a Python script that generates API documentation from an OpenAPI specification file.## Requirements- Python 3.x- json- PyYAML- openapi-core- Jinja2## Development`pip install -r requirement.txt`install a project in editble mode`pip install -e ./`run tests - not unit tests`python tests/test.py`## Usage```pythonfrom openapi_markdown.generator import to_markdownapiFile = &quot;./tests/openapi.json&quot;outputFile = &quot;api_doc.md&quot;to_markdown(apiFile, outputFile)```## Deploy```python3 -m pip install --upgrade twine``````./pypi.sh```</longdescription>
+</pkgmetadata>

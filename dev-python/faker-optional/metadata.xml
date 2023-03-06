@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Faker Optional[![Actions Status](https://github.com/lyz-code/faker-optional/workflows/Tests/badge.svg)](https://github.com/lyz-code/faker-optional/actions)[![Actions Status](https://github.com/lyz-code/faker-optional/workflows/Build/badge.svg)](https://github.com/lyz-code/faker-optional/actions)[![Coverage Status](https://coveralls.io/repos/github/lyz-code/faker-optional/badge.svg?branch=master)](https://coveralls.io/github/lyz-code/faker-optional?branch=master)Wrapper over other Faker providers to return their value or `None`. Useful tocreate data of type `Optional[Any]`.## HelpSee [documentation](https://lyz-code.github.io/faker-optional) for more details.## Installing```bashpip install faker-optional```## ContributingFor guidance on setting up a development environment, and how to makea contribution to *faker-optional*, see [Contributing tofaker-optional](https://lyz-code.github.io/faker-optional/contributing).## LicenseGPLv3</longdescription>
+</pkgmetadata>

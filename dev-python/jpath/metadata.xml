@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Access nested dicts and lists using JSON-like path notation.Note that this code is written for python 3.The notation is as follows:    You can just write the names of components in your path like you    would in javascript:    foo.bar.baz    To access arrays or names with spaces in them, use the '[]' notation.    You can use negative indices with arrays to count from the end.    [&quot;foo&quot;][&quot;bar&quot;][&quot;baz&quot;]    array[-1].attr    [3]    You can use the wildcard character '*' to iterate over all elements:    foo.*.baz    [&quot;foo&quot;][*][&quot;baz&quot;]    This may return more or less than a single element. Use get to get the    first one, and get_all to get a list of all possibilities.    If you want to skip any number of elements in path, use two dots '..':    foo..baz    You can slice the arrays just like in python:    array[1:-1:2]    Finally, you can filter the elements:    foo(bar.baz=true)    foo.bar(baz&gt;0).baz    foo(bar=&quot;yawn&quot;).bar    At the moment only =, &gt;, &lt;, &gt;=, &lt;= and != operators are available,    and you can only use them with strings, integers and boolean values.This code was written in STX Next.</longdescription>
+</pkgmetadata>

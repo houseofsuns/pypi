@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This package provides generic [`chaostoolkit`](https://chaostoolkit.org) modules to simulate *compute* and *network* outages for various cloud providers as well as *pod disruptions* for any Kubernetes cluster.&lt;img src=&quot;https://raw.githubusercontent.com/gardener/gardener/master/logo/gardener.svg&quot; width=&quot;16&quot;/&gt; [Gardener](https://github.com/gardener/gardener) users benefit from an additional module that leverages the generic modules, but exposes their functionality in the most simple, homogeneous, and secure way (no need to specify cloud provider credentials, cluster credentials, or filters explicitly; retrieves credentials and stores them in memory only).Please check out the repo [README](https://github.com/gardener/chaos-engineering/blob/main/readme.md) for more information and then head out to our [getting started tutorial](https://github.com/gardener/chaos-engineering/blob/main/docs/tutorials/getting_started.md) and/or [Python scripting tutorial](https://github.com/gardener/chaos-engineering/blob/main/docs/tutorials/python_scripting.md), if you want to see what it is like to work with the `chaosgarden` package.</longdescription>
+</pkgmetadata>

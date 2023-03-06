@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>====phix====author: Kit La ToucheOverview--------Make writing your Sphinx docs a little easier.This is a command line tool to build and serve your Sphinx docs. Runthis from inside the directory where your Sphinx Makefile is, and itwill build your docs on any ``*.rst`` change, and serve them at``http://localhost:8000``.Options:*  ``-t``, ``--type``: the make subcommand to run, and the ``_build``   subdirectory to serve. Defaults to ``dirhtml``.*  ``-p``, ``--port``: the port to serve the docs on. Defaults to   ``8000``.*  ``-r``, ``--root``: the root directory of the Sphinx project to build   and serve. Defaults to ``.``.*  ``--help``: Show the help.*  ``--version``: Show the version.Installation / Usage--------------------To install use pip::    $ pip install phixOr clone the repo::    $ git clone https://github.com/wlonk/phix.git    $ python setup.py installThen run it::   $ phixContributing------------Fork it, make a PR, and I'll take a look!</longdescription>
+</pkgmetadata>

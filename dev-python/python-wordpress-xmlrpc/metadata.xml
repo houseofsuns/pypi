@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Overview========Python library to interface with a WordPress blog's `XML-RPC API`__.__ http://codex.wordpress.org/XML-RPC_SupportAn implementation of the standard WordPress API methods is provided,but the library is designed for easy integration with customXML-RPC API methods provided by plugins.This library was developed against and tested on WordPress 3.5.This library is compatible with Python 2.6+ and 3.2+.Please see docs for more information: http://python-wordpress-xmlrpc.rtfd.org</longdescription>
+</pkgmetadata>

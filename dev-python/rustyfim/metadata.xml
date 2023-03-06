@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>rustyfim enables you to run frequent itemset mining algorithm (both `FPGrowth` that mines frequent itemset, and `DCI` algorithm that mines closed item sets) in Python## Setup```bashpip install maturinmaturin develop```## Running FIM in python```pyfrom rustyfim import fpgrowth, dcires = fpgrowth(min_support=0.3, transactions=[[1,2,3],[2,3,4],[3,4,10],[3,4,20]])# in dci algorithm, n_features is required for creating the bitmatrix in the first placeres = dci(min_support=0.3, transactions=[[1,2,3],[2,3,4],[3,4,10],[3,4,20]], n_features=21)```Result:```First pass took 0 ms, num_transactions=4.Total runtime: 1 ms[([3], 4), ([3, 4], 3), ([4], 3)]```## Build wheel```bashmaturin build```## Lint the project```cargo clippy```</longdescription>
+</pkgmetadata>

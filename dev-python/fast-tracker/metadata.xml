@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>======================天眼Python探针======================&quot;fast_tracker&quot; base on Apache SkyWalking Python agent and Newrelic Python:https://github.com/newrelic/newrelic-python-agenthttps://github.com/apache/skywalking-pythonInstallation------------.. code:: bash    $ pip install fast-trackerUsage-----1. 配置好配置文件FastTracker.json.2. Validate the agent configuration and test the connection to our data collector service.   .. code:: bash      $ FastTracker_ConfigPath=FastTracker.json fast-boot run-program $YOUR_COMMAND_OPTIONS   Examples:   .. code:: bash      $ FastTracker_ConfigPath=FastTracker.json FastTracker_Debug_Level=true  fast-boot run-program hug -f app.pyLicense-------FAST for Python is free-to-use, proprietary software. Please see the LICENSE file in the distribution for details on the FAST License agreement and the licenses of its dependencies.Copyright---------Copyright (c) 2019-2020 FAST, Inc. All rights reserved.</longdescription>
+</pkgmetadata>

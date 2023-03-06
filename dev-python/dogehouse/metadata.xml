@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># dogehouse.pyPython wrapper for the dogehouse API.[![pypi](https://img.shields.io/badge/pypi-dogehouse-blue)](https://pypi.org/project/dogehouse)## DocumentationYou can find the documentation at [The DogeGarden Wiki](https://wiki.dogegarden.net)## Installation`pip install dogehouse`## Example```pythonfrom dogehouse import DogeClientfrom dogehouse.events import ReadyEvent, UserJoinEvent, MessageEventdoge = DogeClient(&quot;token&quot;, &quot;refresh_token&quot;)@doge.on_readyasync def make_my_room(event: ReadyEvent) -&gt; None:    print(f&quot;Successfully connected as @{event.user.username}!&quot;)    await doge.create_room(&quot;Hello dogehouse.py!&quot;)@doge.on_user_joinasync def greet_user(event: UserJoinEvent) -&gt; None:    await doge.send_message(f&quot;Hello @{event.user.username}&quot;)@doge.commandasync def echo(event: MessageEvent) -&gt; None:    msg = event.message    await doge.send_message(f'@{msg.author.username} said {msg.content}')doge.run()```Check [examples](./examples/basic_bot.py) for more feature usage.## Tokens- Go to [dogehouse.tv](https://dogehouse.tv)- Open Developer options (&lt;kbd&gt;F12&lt;/kbd&gt; or &lt;kbd&gt;Ctrl&lt;/kbd&gt;+&lt;kbd&gt;Shift&lt;/kbd&gt;+&lt;kbd&gt;I&lt;/kbd&gt;)- Go to Application &gt; Local Storage &gt; dogehouse&amp;period;tv- There lies your `TOKEN` and `REFRESH_TOKEN`</longdescription>
+</pkgmetadata>

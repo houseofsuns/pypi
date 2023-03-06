@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Currencies, Monetary Value Objects, Arithmetic and Conversion![](https://github.com/vst/pypara/workflows/Install%20and%20Test/badge.svg)&gt; **TODO**: Provide a complete README.## Development NotesCreate a virtual environment:```python3.8 -m venv /opt/venvs/pypara3.8```Activate the virtual environment:```source /opt/venvs/pypara3.8/bin/activate```Upgrade base dependencies:```pip install --upgrade pip setuptools```Install production and development dependencies:```pip install -e . -r dev-requirements.txt```Make sure that [tox](https://tox.readthedocs.io/en/latest/) completes successfully:```tox```## PublishingTo build a package and upload to PyPI:```pip install --upgrade twinepython setup.py sdist bdist_wheeltwine check dist/*twine upload -s dist/*```</longdescription>
+</pkgmetadata>

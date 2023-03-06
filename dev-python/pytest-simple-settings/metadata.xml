@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pytest-simple-settings[![PyPI version](https://badge.fury.io/py/pytest-simple-settings.svg)](https://pypi.org/project/pytest-simple-settings/) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pytest-simple-settings.svg?color=green) [![Build Status](https://github.com/tkukushkin/pytest-simple-settings/workflows/build/badge.svg?branch=master)](https://github.com/tkukushkin/pytest-simple-settings/actions?query=workflow%3Abuild+branch%3Amaster)## UsageWith default `simple_settings.settings`:```pythonfrom simple_settings import settingsdef test_foo(fake_settings):    fake_settings.FOO = 1    fake_settings.set(BAR=2)    assert settings.FOO == 1    assert settings.BAR == 2```With custom `LazySettings` instance```pythonimport pytestfrom simple_settings import LazySettingsinstance = LazySettings('settings')@pytest.fixture()def settings_instance():    return instancedef test_foo(fake_settings):    fake_settings.FOO = 1    fake_settings.set(BAR=2)    assert instance.FOO == 1    assert instance.BAR == 2```</longdescription>
+</pkgmetadata>

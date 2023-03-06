@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pyfreedomproPython library for Freedompro API.Installation------------You can install pyfreedompro with `pip install pyfreedompro`.Example-------```pythonimport asyncioimport pyfreedomproimport aiohttpasync def main():    httpsession = aiohttp.ClientSession(connector=aiohttp.TCPConnector(ssl=False));    response = await pyfreedompro.get_list(httpsession, APY_KEY);    print(response);    await httpsession.close();loop = asyncio.get_event_loop()loop.run_until_complete(main())```See the complete documentation of the Fredompro API &lt;https://api.freedompro.eu/&gt;.</longdescription>
+</pkgmetadata>

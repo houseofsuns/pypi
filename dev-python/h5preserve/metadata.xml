@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>h5preserve is a thin wrapper around h5py_, inspired by camel_.It can be installed via pip, but note that h5py_ requires a C compilerand the hdf5_ library.|Documentation Status| |Build Status| |Coverage Status| |DOI|.. |Documentation Status| image:: https://readthedocs.org/projects/h5preserve/badge/?version=latest   :target: https://h5preserve.readthedocs.org/en/latest/?badge=latest.. |Build Status| image:: https://travis-ci.org/h5preserve/h5preserve.svg?branch=master   :target: https://travis-ci.org/h5preserve/h5preserve.. |Coverage Status| image:: https://codecov.io/github/h5preserve/h5preserve/coverage.svg?branch=master   :target: https://codecov.io/github/h5preserve/h5preserve?branch=master.. |DOI| image:: https://zenodo.org/badge/DOI/10.5281/zenodo.593007.svg   :target: https://doi.org/10.5281/zenodo.593007.. _h5py: http://www.h5py.org/.. _hdf5: https://www.hdfgroup.org/HDF5/.. _camel: https://eev.ee/blog/2015/10/15/dont-use-pickle-use-camel/</longdescription>
+</pkgmetadata>

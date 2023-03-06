@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>============Secretary============Take the power of Jinja2 templates to OpenOffice or LibreOffice and create reports and letters in your web applications.See full `documentation on Github &lt;https://github.com/christopher-ramirez/secretary/blob/master/README.md&gt;`_.</longdescription>
+</pkgmetadata>

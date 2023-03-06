@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># logos_pythonThis is a repository for implementing the logos in Python.# Installing the requirements```bashpip install -r requirements.txt```# Running the codeWe expect the SQL query string is translated into a Query graph defined in `src &gt; query_graph &gt; koutrika_query_graph.py`Please refer to the examples in the test folder.</longdescription>
+</pkgmetadata>

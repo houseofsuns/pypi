@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>LibCombine implements a C++ API library providing support for the Combine Archive.  For more information about COMBINE, please see https://github.com/sbmlteam/libcombine.</longdescription>
+</pkgmetadata>

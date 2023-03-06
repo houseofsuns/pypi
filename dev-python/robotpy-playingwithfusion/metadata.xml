@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>robotpy-playingwithfusion=========================This is a python wrapper around the Playing With Fusion device support library.The RobotPy project is not associated with or endorsed by Playing With Fusion Inc.We don't own any PWF hardware, so these may have some issues. Please try them outand let us know how it goes!Documentation=============* `Installation &lt;http://robotpy.readthedocs.io/en/stable/install/pwfusion.html&gt;`_* `Python API Documentation &lt;http://robotpy.readthedocs.io/projects/pwfusion/en/stable/api.html&gt;`_License=======RobotPy specific bits are available under the Apache 2.0 license.Author======Dustin Spicuzza (dustin@virtualroadside.com)</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>inGaia Python Utility Library=============================How to use----------``pip install ingaia-libs==0.0.52``How to deploy to pypi.org???----------------------------#. First: you need to install two python libraries: **bumpversion** and **twine**. #. Second: execute the file ``deploy`` and put the pypi.org username and password ..   See &quot;\ `Operations Team Secret Resources &lt;https://i-value.atlassian.net/wiki/spaces/IO/pages/350879767/Operations+Team+Secret+Resources&gt;`_\ &quot; to get pypi login infoLibraries---------See the Readme file in subdirectories to know these libraries:* Google Cloud Utils* Request Logger </longdescription>
+</pkgmetadata>

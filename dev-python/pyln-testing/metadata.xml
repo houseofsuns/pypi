@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pyln-testing: A library to write tests against Core LightningThis library implements a number of utilities that help building tests forCore Lightning nodes. In particular it provides a number of pytest fixtures thatallow the management of a test network of a given topology and then execute atest scenarion.`pyln-testing` is used by Core Lightning for its internal tests, and by thecommunity plugin directory to exercise the plugins.## Installation`pyln-testing` is available on `pip`:```bashpip install pyln-testing```Alternatively you can also install the development version to get access tocurrently unreleased features by checking out the Core Lightning source code andinstalling into your python3 environment:```bashgit clone https://github.com/ElementsProject/lightning.gitcd lightning/contrib/pyln-testingpoetry install```This will add links to the library into your environment so changing thechecked out source code will also result in the environment picking up thesechanges. Notice however that unreleased versions may change API withoutwarning, so test thoroughly with the released version.</longdescription>
+</pkgmetadata>

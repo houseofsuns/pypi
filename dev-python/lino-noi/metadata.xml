@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Lino Noi is a customizable ticket management and time trackingsystem to use when time is more than money.- Documentation: https://noi.lino-framework.org- Technical specs are at https://www.lino-framework.org/specs/noi- This is an integral part of the Lino framework, which is documented  at https://www.lino-framework.org- The changelog is at https://www.lino-framework.org/changes- For introductions, commercial information and hosting solutions  see https://www.saffre-rumma.net- This is a sustainably free open-source project. Your contributions are  welcome.  See https://community.lino-framework.org for details.</longdescription>
+</pkgmetadata>

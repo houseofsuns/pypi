@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;!--https://readme42.com--&gt;[![](https://img.shields.io/pypi/v/accepts.svg?maxAge=3600)](https://pypi.org/project/accepts/)[![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)### Installation```bash$ [sudo] pip install accepts```#### Features*support **multiple types** argument*support **None** argument*human readable detailed exception message#### Examples```python&gt;&gt;&gt; from accepts import accepts&gt;&gt;&gt; @accepts(int)def inc(value):return value+1&gt;&gt;&gt; inc(1) # ok# multiple types&gt;&gt;&gt; @accepts((int,float))&gt;&gt;&gt; inc(1.5) # ok&gt;&gt;&gt; inc(&quot;string&quot;)TypeError: inc() argument #0 is not instance of (&lt;class 'int'&gt;, &lt;class 'float'&gt;)# None&gt;&gt;&gt; @accepts((int,float,type(None)))```&lt;p align=&quot;center&quot;&gt;    &lt;a href=&quot;https://readme42.com/&quot;&gt;readme42.com&lt;/a&gt;&lt;/p&gt;</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This plugin allows vdk-core to access vdk-control-cli functionality.Upon installing it enhances vdk with CLI commands for data job lifecycle management available from vdk-control-cli packageIt will also install properties plugin and switch Properties in vdk to use Control Service Properties API.By default no Properties backend is used otherwise.# Usage```bashpip install vdk-plugin-control-cli```### New CLI commandsThen on the vdk CLI you should be able to see the new commands. Run```bashvdk --help```and you will see extra commands being added:```Commands:  ...  login                  Authentication against the Control Service.  logout                 Logout the user from the Data Jobs Service by...  create                 Creates a new data job in cloud and locally.  delete                 Deletes a data job from the cloud.  deploy                 Deploys a data job.  ...```And you can use them from the same CLI `vdk`### New properties backend client registeredYou can now access remote properties from Control Service Properties APIStore state, configuration or secrets there using CLI or Python JobInput APIFor example, let's store some api-uri```bashvdk properties --set 'api-uri' 'http://cool.cool.api.com'```and then we can use it in our data job```pythondef run(job_input: IJobInput):    uri = job_input.get_property('api-uri')    print(requests.get(uri))```# BuildThe easiest way is to use the ../build-plugin.sh helper script```bash../build-plugin.sh```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># cujirax`Cu`cumber `Ji`ra and `X`ray## Setup environment variables```shexport JIRA_DOMAIN=&quot;urdomain.atlassian.net&quot;export JIRA_EMAIL=&quot;youremail@yourcompany.com&quot;export JIRA_SECRET=&quot;xxxxx&quot;,export XRAY_CLIENT_ID=&quot;xxxxx&quot;export XRAY_CLIENT_SECRET=&quot;xxxxx&quot;```## Maintaining cucumber result json fileMake sure it is alway updated from `https://raw.githubusercontent.com/cucumber/cucumber-json-schema/main/schema.json`Generating model from `datamodel-codegen --input schema.json --output cujirax/cucumber.py`</longdescription>
+</pkgmetadata>

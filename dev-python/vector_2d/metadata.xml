@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># VECTORA module witch implements a two-dimensional vector, both in cartesian and polar coordinates.[![Downloads](http://pepy.tech/badge/vector-2d)](http://pepy.tech/project/vector-2d)## Installation ```bash pip install vector-2d ```## Usage``` pythonfrom vector_2d import Vectorfrom vector_2d import VectorPolar```</longdescription>
+</pkgmetadata>

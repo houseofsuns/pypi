@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>labstepPy=========Python SDK for working with the Labstep APIInstallation------------::   pip install labstepUsage-----::   import labstep   # Login to your Labstep account   user = labstep.login('myaccount@labstep.com', 'mypassword')   # Get a list of your experiments   experiments = user.getExperiments(count=10)   # Get a specific experiment   my_experiment = experiments[0]   # Get a specific protocol   protocols = user.getProtocols()   my_protocol = protocols[0]   # Attach the protocol to the experiment   result = my_experiment.addProtocol(my_protocol)For full list of available methods see:https://labsteppy.readthedocs.io/en/latest/</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>logging-journald================Pure python logging handler for writing logs to the journald usingnative protocol.```pythonimport loggingfrom logging_journald import JournaldLogHandler, check_journal_stream# Use python default handlerLOG_HANDLERS = Noneif (    # Check if program running as systemd service    check_journal_stream() or    # Check if journald socket is available    JournaldLogHandler.SOCKET_PATH.exists()):    LOG_HANDLERS = [JournaldLogHandler()]logging.basicConfig(level=logging.INFO, handlers=LOG_HANDLERS)logging.info(&quot;Hello logging world.&quot;)```</longdescription>
+</pkgmetadata>

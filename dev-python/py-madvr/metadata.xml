@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Py MadVRSupport for IP based controls for Envys''*Note: IP control does not work if there is no input signal, by design&quot;Readme WIP## Commandssame as the one in the docs like PowerOff. For things that take params, use a command -&gt; KeyPress, MENUif you want to use power_off() you need to run it before turnging off other stuff bc render threadRecomend configuring update to be short, less than 5 seconds</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Generador de Certificados OASIS4© para DjangoEste módulo permite la generación de los certificados tributarios, comerciales, de asociados, estados de cuenta y fincasde los clientes y asociados que se encuentran matriculados en la base de datos OASIS4©.El módulo provee algunas apis para:* Consultar certificados disponibles &quot;/document/list/&quot;* Generar el certificado escogido &quot;/document/generator/&quot;* Descargar un certificado específico &quot;/document/get/&quot;* Solicitar el envío a través de correo electrónico de un certificado &quot;/document/send/&quot;Todos las API aqui relacionadas requieren para su operación estar auténticados y ser un asociado o cliente registrado en el portal y en el sistema.# Versiones Liberadas* 1.0.0: Versión con la generación y compatibilidad necesarias para la generación de certificados standard.</longdescription>
+</pkgmetadata>

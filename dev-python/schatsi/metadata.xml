@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># (f)SCHA.T.S.I(f)SCHA.T.S.I - An abbreviation for '**f**aster **SCH**eduling *A*lgorithm for **T**ext **S**each **I**ntelligence'.## Getting Startedhttps://python-poetry.org/```pip install poetrypoetry lock.venv\Scripts\activatepoetry config virtualenvs.in-project truepoetry install```Generate documentation----------------------Theme documentation: https://sphinx-rtd-theme.readthedocs.io/en/stable/index.htmlapidoc documentation: https://www.sphinx-doc.org/en/master/man/sphinx-apidoc.htmlos.environ[&quot;SPHINX_APIDOC_OPTIONS&quot;]=&quot;members,show-inheritance&quot;Windows```shellcd docssphinx-apidoc -lfM -d 0 -o schatsi/ ../src/schatsi.\make.bat html```Mac/Linux```shellcd docssphinx-apidoc -lfM -d 0 -o schatsi/ ../src/schatsimake html```</longdescription>
+</pkgmetadata>

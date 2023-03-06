@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># django-lazy-servicesA helper for switching between test and production versions of a service## PurposeLets you easily switch between versions of a service based on a Django setting entry.Good for situations where you want to use different versions between production and development and/or test.In the client code you might use: `from . import my_service` which might go to either `.services.MyService` or `.services.MyFakeService` depending on the content of your settings.## UsageConstruct your service as a class whose init takes no arguments.In `services.py`:```pythonclass MyService:    def __init__(self):        pass    def hello(self):        print(&quot;hello world&quot;)```Declare the service.In `__init__.py`:```pythonfrom lazy_services import LazyServicemy_service = LazyService(&quot;MY_SERVICE&quot;)```Select the service.In `settings.py````pythonMY_SERVICE = &quot;my_project.services.MyService&quot;```Use the service.```pythonfrom . import my_serivcemy_service.hello()```</longdescription>
+</pkgmetadata>

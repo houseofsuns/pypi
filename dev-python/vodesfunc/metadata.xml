@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># vodesfuncContains various functions for automation and other stuff I use in my scripts### This is by no means me trying to be professional and as such, the code will not be treated like it.&lt;br&gt;## Installation`pip install vodesfunc` &lt;br&gt;for ~~mostly~~ stable versions`pip install git+https://github.com/Vodes/vodesfunc.git` &lt;br&gt;for absolutely latest</longdescription>
+</pkgmetadata>

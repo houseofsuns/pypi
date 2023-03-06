@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## Full-on Sham ProjectA could-be/would-be malicious python project. Experiment #2 to verify behavior.Initial references:* https://github.com/kalefranz/python-wheel* https://pypi.org/project/python-wheel/* https://pypi.org/search/?q=python-wheel</longdescription>
+</pkgmetadata>

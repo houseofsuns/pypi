@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Community Home Assistant Add-ons Repository Updater.Reads remote add-on repositories, determines versions and generateschangelogs to update the add-on repository fully automated.Mainly used by the Community Home Assistant Add-ons project.Please note, this program cannot be used with the general documentedHome Assistant add-on repository approach.</longdescription>
+</pkgmetadata>

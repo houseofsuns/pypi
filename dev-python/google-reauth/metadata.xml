@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Google Reauth Python Library============================|build| |pypi|This library provides Reauth support to Google's authentication libraries forPython. Reauth allows using two-factor authentication for end-user credentials.Other than for reference purposes, this library is of little use to non-Googledevelopers... |build| image:: https://travis-ci.org/Google/google-reauth-python.svg?branch=master   :target: https://travis-ci.org/Google/google-reauth-python.. |pypi| image:: https://img.shields.io/pypi/v/google-reauth.svg   :target: https://pypi.python.org/pypi/google-reauthInstalling----------You can install using `pip`_::    $ pip install google-reauth.. _pip: https://pip.pypa.io/en/stable/For more information on setting up your Python development environment, please refer to `Python Development Environment Setup Guide`_ for Google Cloud Platform... _`Python Development Environment Setup Guide`: https://cloud.google.com/python/setupContributing------------As mentioned in the beginning, this library is not generally consumable innon-Google applications. However, if you are still inteested in contributing toit, please see `CONTRIBUTING.rst`_ for more information on how to get started... _CONTRIBUTING.rst: https://github.com/GoogleCloudPlatform/google-auth-library-python/blob/master/CONTRIBUTING.rstLicense-------Apache 2.0 - See `the LICENSE`_ for more information... _the LICENSE: https://github.com/GoogleCloudPlatform/google-auth-library-python/blob/master/LICENSE</longdescription>
+</pkgmetadata>

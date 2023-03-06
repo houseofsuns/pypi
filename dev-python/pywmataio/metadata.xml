@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># wmataio`wmataio` is an easy to use Python interface to the [Washington Metropolitan Area Transit Authority API](https://developer.wmata.com) (Washington, DC Public Transit).## Contents- [wmataio](#wmataio)  - [Contents](#contents)  - [Requirements](#requirements)  - [Installation](#installation)  - [Usage](#usage)    - [Getting Started](#getting-started)    - [Design](#design)      - [`MetroRail`](#metrorail)        - [Using `MetroRail`](#using-metrorail)      - [`MetroBus`](#metrobus)        - [Using `MetroBus`](#using-metrobus)  - [Credits](#credits)  - [License](#license)## Requirements- Python 3.10## Installation```bashpip install wmataio```## Usage### Getting Started```pythonfrom wmataio import MetroRail, Stationclient = MetroRail(api_key)await client.load_data()stations: dict[str, Station] = client.stationslines: dict[str, Line] = client.lines```### Design`wmataio` breaks the WMATA API into two components: `MetroRail` and `MetroBus`.#### `MetroRail`Provides access to all MetroRail related endpoints.##### Using `MetroRail````pythonimport wmataioclient = wmataio.client(api_key)trains = await client.rail.next_trains_at_station(client.rail.stations[&quot;A01&quot;])```#### `MetroBus`Provides access to all MetroBus related endpoints.##### Using `MetroBus````pythonimport wmataioclient = wmataio.client(api_key)routes = await client.bus.get_all_routes()```## CreditsThanks to @emma-k-alexandra for [pywmata](https://github.com/emma-k-alexandra/pywmata) which I used as the base for this repo.## License`wmataio` is released under the MIT license. [See LICENSE](https://github.com/emma-k-alexandra/pywmata/blob/master/LICENSE) for details.</longdescription>
+</pkgmetadata>

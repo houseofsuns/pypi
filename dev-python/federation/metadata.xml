@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Introduction============The aim of ``federation`` is to provide and abstract multiple social web protocols likeActivityPub and Diaspora in one package, over an easy to use and understand Python API.This way applications can be built to (almost) transparently support many protocolswithout the app builder having to know everything about those protocols... image:: _static/generic_diagram.pngStatus------Currently three protocols are being focused on.* Diaspora is considered to be stable with most of the protocol implemented.* ActivityPub support should be considered as beta - inbound payload are  handled by a jsonld processor (calamus)* Matrix support cannot be considered usable as of yet.The code base is well tested and in use in several projects. Backward incompatible changeswill be clearly documented in changelog entries.Additional information----------------------Installation and requirements.............................See `installation documentation &lt;http://federation.readthedocs.io/en/latest/install.html&gt;`_.Usage and API documentation...........................See `usage documentation &lt;http://federation.readthedocs.io/en/latest/usage.html&gt;`_.Support and help................See `development and support documentation &lt;http://federation.readthedocs.io/en/latest/development.html&gt;`_.License.......`BSD 3-clause license &lt;https://www.tldrlegal.com/l/bsd3&gt;`_.Author......Jason Robinson / `jasonrobinson.me &lt;https://jasonrobinson.me&gt;`_ / `@jaywink:federator.dev &lt;https://matrix.to/#/@jaywink:federator.dev&gt;`_ / `GitLab &lt;https://gitlab.com/jaywink&gt;`_ / `GitHub &lt;https://github.com/jaywink&gt;`_</longdescription>
+</pkgmetadata>

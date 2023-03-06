@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># slutil*A modern slurm experience.*A command line utility to view Slurm jobs. Written with rich and click.```Usage: slutil [OPTIONS] COMMAND [ARGS]...Commands:  report  Get status of multiple jobs  status  Get status of a slurm job.  submit  Submit a slurm job.```## ContributingPushes to `main` are forbidden, all changes must go through a PR before merging. All tests must pass for a PR to be merged. Code is to be formatted with `black`. Built with poetry.## submitAdd metadata to an `sbatch` command and store data in the database**Must** be used to log jobs in the database.```Usage: slutil submit [OPTIONS] SBATCH_FILE DESCRIPTION  Submit a slurm job.  SBATCH_FILE is a path to the .sbatch file for the job  DESCRIPTION is a text field describing the jobOptions:  --help  Show this message and exit.```## reportView list of recent jobs- Count parameter specifies the number of jobs to be displayed. Defaults to 10.- Truncated to screen width by default, `-v` to enable word-wrap.```Usage: slutil report [OPTIONS]  Get status of multiple jobsOptions:  -c, --count INTEGER  -v, --verbose  --help               Show this message and exit.```## statusDisplays the data on a specific job```Usage: slutil status [OPTIONS] SLURM_ID  Get status of a slurm job.  SLURM_ID is the id of the job to check.Options:  --help  Show this message and exit.```</longdescription>
+</pkgmetadata>

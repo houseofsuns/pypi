@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![PyPI version](https://badge.fury.io/py/indian-cities.svg)](https://badge.fury.io/py/indian-cities)![PyPI - License](https://img.shields.io/pypi/l/indian-cities)[![Downloads](https://pepy.tech/badge/indian-cities)](https://pepy.tech/project/indian-cities)[![CodeFactor](https://www.codefactor.io/repository/github/chayandatta/django_indian_cities/badge)](https://www.codefactor.io/repository/github/chayandatta/django_indian_cities)# indian-cities  -- states &amp; cities for india 🇮🇳## Why?If there was something plug 🔌 and playwhich can be just imported and it'll fill the choices fields with Indian cities or states.How good it'll be.## How to use this&gt; To import just add this line```from indian_cities.dj_city import cities```&gt; Test it```print(cities[0])```Now if the output looks like this```('Andaman and Nicobar Islands', (('Port Blair', 'Port Blair'),))```Then awesome, it did work 👍```class myModel(models.Model):    city = models.CharField(choices=cities, null=False, max_length=20)```### Requirements:Any version of Python, Django## InstallationTo install this&gt; pip install indian-cities---## Connect with me:LinkedIn: https://www.linkedin.com/in/chayandatta/github: https://github.com/chayandatta---made with ❤️ and 🐍</longdescription>
+</pkgmetadata>

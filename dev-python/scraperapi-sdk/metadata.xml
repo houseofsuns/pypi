@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Install```bashpip install scraperapi-sdk``````pythonfrom scraper_api import ScraperAPIClientclient = ScraperAPIClient(&quot;&lt;token&gt;&quot;)```</longdescription>
+</pkgmetadata>

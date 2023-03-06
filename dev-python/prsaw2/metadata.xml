@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># prsaw2Simple python API wrapper for the Random Stuff API.- Easy to use- Wraps the entire API- Supports both async and sync- Supports v2, v3 and v4 version of API- **[PyPi Package](https://pypi.org/project/prsaw2)**- **[Documentation](https://flampt.gitbook.io/prsaw2)**## InstallationInstallation can be done easily using the python package manager `pip````bashpip install prsaw2```## QuickstartFirstly make sure to [get the API key from here](https://api.pgamerx.com/register)Here are few examples to get you started.### Getting AI response```pyimport prsaw2client = prsaw2.Client(key='api-key-here')response = client.get_ai_response(&quot;Hi there&quot;)client.close()  # Not necessaryprint(response)```### Getting random joke```pyimport prsaw2client = prsaw2.Client(key='api-key-here')response = client.get_joke(type=&quot;any&quot;)client.close()  # Not necessaryprint(response.joke)```### Getting random image```pyimport prsaw2client = prsaw2.Client(key='api-key-here')response = client.get_image(type=&quot;any&quot;)client.close()print(response)```## Async SupportThe library also supports async usage.```pyimport prsaw2import asyncioclient = prsaw2.AsyncClient(key=&quot;api-key-here&quot;)async def coro():  response = await client.get_ai_response(&quot;Hello world&quot;)  await client.close()    print(response)loop = asyncio.get_event_loop()loop.run_until_complete(coro())```</longdescription>
+</pkgmetadata>

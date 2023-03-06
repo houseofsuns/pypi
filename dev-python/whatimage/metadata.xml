@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># whatimagePython library to detect image type from a few bytes, focussed on webby formats (old and new)Currently supports:- JPEG- WEBP- GIF- PNG- HEIC- AVIF- BMP- TIFF- PGM/PGM/PPM## Installation```pip install whatimage```## Usage```pythonimport whatimagewith open('image.jpg', 'rb') as f:    data = f.read()fmt = whatimage.identify_image(data)print(fmt)```&gt; 'jpeg'</longdescription>
+</pkgmetadata>

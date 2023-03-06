@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>django-multi-sessions=======================Multiple backends for your sessions!.. image:: https://secure.travis-ci.org/adw0rd/django-multi-sessions.png    :target: http://travis-ci.org/adw0rd/django-multi-sessionsDesigned for moving sessions from one session engine to another, without stopping the current sessions. It consistently passes backends in the list (settings.SESSION_MULTISESSIONS_POOL) and depending on the modes of doing the necessary.For more information see:* http://adw0rd.com/2012/django-multi-sessions/en/ - article about it in English* http://adw0rd.com/2012/django-multi-sessions/en/ - article about it in Russian* http://pypi.python.org/pypi/django-multi-sessions - the PyPI page* https://github.com/adw0rd/django-multi-sessions - the GitHub repository------------Installation------------1\. Download the archive and run ``python setup.py install`` or ``pip install django-multi-sessions``2\. Set ``multi_sessions.session`` as your session engine, like so::        SESSION_ENGINE = &quot;multi_sessions.session&quot;3\. Example settings::        SESSION_MULTISESSIONS_POOL = (            {&quot;backend&quot;: &quot;redis_sessions.session&quot;, &quot;modes&quot;: [&quot;read&quot;, &quot;write&quot;]},            {&quot;backend&quot;: &quot;django.contrib.sessions.backends.db&quot;, &quot;modes&quot;: [&quot;read&quot;, &quot;delete&quot;]},        )4\. Available modes:* &quot;read&quot;   - Allows launch &quot;load&quot; method;* &quot;write&quot;  - Allows launch &quot;save&quot; and &quot;create&quot; method;* &quot;delete&quot; - Allows launch the &quot;delete&quot; method.</longdescription>
+</pkgmetadata>

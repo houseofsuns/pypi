@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># alchemicalModern SQLAlchemy simplified.[![Build status](https://github.com/miguelgrinberg/alchemical/workflows/build/badge.svg)](https://github.com/miguelgrinberg/alchemical/actions) [![codecov](https://codecov.io/gh/miguelgrinberg/alchemical/branch/main/graph/badge.svg)](https://codecov.io/gh/miguelgrinberg/alchemical)## Resources- [Documentation](http://alchemical.readthedocs.io/en/latest/)- [PyPI](https://pypi.python.org/pypi/alchemical)- [Change Log](https://github.com/miguelgrinberg/alchemical/blob/main/CHANGES.md)</longdescription>
+</pkgmetadata>

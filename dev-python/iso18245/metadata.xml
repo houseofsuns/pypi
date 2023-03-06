@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># python-iso18245A Python implementation of the ISO 18245 Merchant Category Codes database.## Installation- `pip install iso18245`## Usage```py&gt;&gt;&gt; import iso18245&gt;&gt;&gt; iso18245.get_mcc(&quot;5542&quot;)MCC(range=MCCRange(start='5000', end='5599', description='Retail outlets', reserved=False), iso_description='Automated fuel dispensers', usda_description='Automated Fuel Dispensers', stripe_description='Automated Fuel Dispensers', stripe_code='automated_fuel_dispensers')&gt;&gt;&gt; iso18245.get_mcc(&quot;3000&quot;)MCC(range=MCCRange(start='3000', end='3999', description='Reserved for private use', reserved=True), iso_description='', usda_description='UNITED AIRLINES', stripe_description='', stripe_code='')&gt;&gt;&gt; iso18245.get_mcc(&quot;3000&quot;).usda_description'UNITED AIRLINES'&gt;&gt;&gt; iso18245.get_mcc(&quot;3000&quot;).rangeMCCRange(start='3000', end='3999', description='Reserved for private use', reserved=True)&gt;&gt;&gt; iso18245.get_mcc(&quot;999999&quot;)Traceback (most recent call last):  …iso18245.InvalidMCC: 999999```## External links- [Wikipedia: ISO 18245](https://en.wikipedia.org/wiki/ISO_18245)- [ISO Standard 18245:2003](https://www.iso.org/standard/33365.html)- [AFNOR: ISO 18245](http://portailgroupe.afnor.fr/public_espacenormalisation/ISOTC68SC7/ISO%2018245.html)- [Stripe MCC List](https://stripe.com/docs/issuing/categories)- [USDA MCC List (incl. private MCCs)](https://www.dm.usda.gov/procurement/card/card_x/mcc.pdf)- [VISA Merchant Data Standards Manual](https://usa.visa.com/content/dam/VCOM/download/merchants/visa-merchant-data-standards-manual.pdf)</longdescription>
+</pkgmetadata>

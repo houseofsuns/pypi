@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Funpinpin CliFunpinpin Cli is a command line to help you build on Funpinpin. It can be run and installed on Mac, Linux, and Windows systems.```shUse funpinpin -h to see available commands.``` </longdescription>
+</pkgmetadata>

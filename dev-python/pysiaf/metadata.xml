@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>A python package to access, interpret, maintain, and generate Science Instrument Aperture Files, in particular of JWST. Tools for applying the frame transformations, plotting, comparison, and validation are provided.</longdescription>
+</pkgmetadata>

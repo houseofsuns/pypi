@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Flask-Tryton============Adds Tryton support to Flask application.By default transactions are readonly except for PUT, POST, DELETE and PATCHrequest methods.It provides also 2 routing converters `record` and `records`.Setting the `configure_jinja` flag adds the following filters on jinjatemplates: `numberformat`, `dateformat`, `currencyformat` and`timedeltaformat`. The filters apply the same formatting as Tryton reports.Nutshell--------&gt;&gt;&gt; from flask import Flask&gt;&gt;&gt; from flask_tryton import Tryton&gt;&gt;&gt; app = Flask(__name__)&gt;&gt;&gt; app.config['TRYTON_DATABASE'] = 'test'&gt;&gt;&gt; tryton = Tryton(app, configure_jinja=True)&gt;&gt;&gt; User = tryton.pool.get('res.user')&gt;&gt;&gt; @tryton.default_context... def default_context():...     return User.get_preferences(context_only=True)&gt;&gt;&gt; @app.route('/')... @tryton.transaction()... def hello():...     user, = User.search([('login', '=', 'admin')])...     return '%s, Hello World!' % user.name&gt;&gt;&gt; @app.route('/user/&lt;record(&quot;res.user&quot;):user&gt;')... @tryton.transaction()... def user(user):...     return user.name&gt;&gt;&gt; @app.route('/users/&lt;records(&quot;res.user&quot;):users&gt;')... @tryton.transaction()... def users(users):...     return ', '.join(u.name for u in users)&gt;&gt;&gt; app.run()There are three configuration options available:* `TRYTON_DATABASE`: the Tryton's database to connect.* `TRYTON_USER`: the Tryton user id to use, by default `0` (aka `root`).* `TRYTON_CONFIG`: the optional path to the Tryton's configuration.To report issues please visit the `flask_tryton bugtracker`_... _flask_tryton bugtracker: http://flask-tryton.b2ck.com/</longdescription>
+</pkgmetadata>

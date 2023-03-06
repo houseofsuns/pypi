@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>SDNPlatform: anyClassifier: Development Status :: 5 - Production/StableClassifier: Environment :: ConsoleClassifier: License :: OSI Approved :: Apache Software LicenseClassifier: Topic :: System :: NetworkingClassifier: Natural Language :: EnglishClassifier: Programming Language :: PythonClassifier: Programming Language :: Python :: 2.7Classifier: Programming Language :: Python :: 3.4Classifier: Programming Language :: Python :: 3.5Classifier: Operating System :: Unix</longdescription>
+</pkgmetadata>

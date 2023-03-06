@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>*python-djvulibre* is a set of Python bindings forthe `DjVuLibre &lt;http://djvu.sourceforge.net/&gt;`_ library,an open source implementation of `DjVu &lt;http://djvu.org/&gt;`_.</longdescription>
+</pkgmetadata>

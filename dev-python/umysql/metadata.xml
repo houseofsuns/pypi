@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>:: Description ::A fast MySQL driver written in pure C/C++ for Python. Compatible with gevent through monkey patching:: Requirements ::Requires Python (http://www.python.org) :: Installation ::python setup.py build install</longdescription>
+</pkgmetadata>

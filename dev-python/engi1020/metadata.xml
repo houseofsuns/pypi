@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=======================================engi1020: Engineering 1020 library=======================================This library wraps several other libraries and re-exports them.This makes for a messy namespace, but that simplifies the business of importinglibraries for very new students, as they only need to write::    from engi1020 import *The libraries (re-)imported by this library are:https://matplotlib.org/api/pyplot_api.html[`matplotlib.pyplot`]  A plotting library using a MATLAB-like APIhttps://pypi.org/project/nanpy[`nanpy`]  A Python library for interacting with an Arduino board</longdescription>
+</pkgmetadata>

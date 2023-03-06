@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;div align=&quot;center&quot;&gt;    &lt;h1&gt;docli&lt;/h1&gt;&lt;h3&gt;:construction: REDACTION IN PROGRESS :construction:&lt;/h3&gt;&lt;/div&gt;Docli is a command-line utility forked from [Frappe Bench](https://github.com/frappe.bench) designed to install apps, manage multiple sites and update Dodock / Dokos apps on */nix (CentOS, Debian, Ubuntu, etc) for development and production.</longdescription>
+</pkgmetadata>

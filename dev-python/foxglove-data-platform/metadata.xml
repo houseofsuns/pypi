@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Python Client Library for Foxglove Data PlatformThis library provides a convenient python client for [Foxglove's Data Platform](https://foxglove.dev/data-platform).In order to use the client you will first have to create an API token for your organization on your organization's [settings page](https://console.foxglove.dev/organization).## Sample UsageExamples of various client features can be found in the `examples` directory.## Running Tests```bashpipenv install --devpipenv run python -m pytest```## Stay in touchJoin our [Slack channel](https://foxglove.dev/join-slack) to ask questions, share feedback, and stay up to date on what our team is working on.</longdescription>
+</pkgmetadata>

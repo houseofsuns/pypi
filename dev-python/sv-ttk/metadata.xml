@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;img alt=&quot;Cover image&quot; src=&quot;https://raw.githubusercontent.com/rdbende/Sun-Valley-ttk-theme/master/assets/hero_light.png&quot;&gt;## Installation [![image](https://static.pepy.tech/badge/sv-ttk)](https://pypi.org/project/sv-ttk)The theme is easily installable as a Python package```pip install sv-ttk```### UsageFor detailed documentation, see the [wiki page](https://github.com/rdbende/Sun-Valley-ttk-theme/wiki/Usage-with-Python)```pythonimport tkinterfrom tkinter import ttkimport sv_ttkroot = tkinter.Tk()button = ttk.Button(root, text=&quot;Click me!&quot;)button.pack()# This is where the magic happenssv_ttk.set_theme(&quot;dark&quot;)root.mainloop()```## Known bugs and limitations- Tkinter (Tk) isn't really good at displaying `png` images, so the window can be quite laggy when resizing, especially on Windows.## What's next?Check out my other ttk themes!- [Azure ttk theme](https://github.com/rdbende/Azure-ttk-theme)- [Forest ttk theme](https://github.com/rdbende/Forest-ttk-theme)</longdescription>
+</pkgmetadata>

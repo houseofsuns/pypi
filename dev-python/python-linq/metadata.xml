@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># LINQ[![Build Status](http://drone.jakke.se/api/badges/jakkes/python-linq/status.svg)](http://drone.jakke.se/jakkes/python-linq)Provides simple to use LINQ features to Python 3.x.## DocumentationSee this link: https://jakkes.github.io/python-linq/## Installing### From pip```bashpip install python-linq```### From source```bashgit clone https://github.com/jakkes/python-linq.gitcd python-linqpip install -r requirements.txt```## Usage1. Import the `Query` class2. Write beautiful queries!```python&gt;&gt;&gt; from linq import Query&gt;&gt;&gt; x = Query([1, 2, 3]).select(lambda x: x * x + 3).to_list()&gt;&gt;&gt; assert x == [4, 7, 12]```Distribute heavy queries across multiple processes using `DistributedQuery`.```python&gt;&gt;&gt; import time&gt;&gt;&gt; from linq import DistributedQuery&gt;&gt;&gt; &gt;&gt;&gt; def heavy_transformation(x: int):&gt;&gt;&gt;     time.sleep(10)&gt;&gt;&gt;     return x**2&gt;&gt;&gt; &gt;&gt;&gt; def less_than_5(x: int):&gt;&gt;&gt;     return x &lt; 5&gt;&gt;&gt; &gt;&gt;&gt; x = (&gt;&gt;&gt;     DistributedQuery(range(100), processes=8)&gt;&gt;&gt;     .where(less_than_5)&gt;&gt;&gt;     .select(heavy_transformation)&gt;&gt;&gt;     .to_list()&gt;&gt;&gt; )&gt;&gt;&gt; print(x)[0, 1, 4, 9, 16]    # Not necessarily in this order.```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>googledatastore===============Google Cloud Datastore Protocol Buffer client.Google Cloud Datastore is a fully managed, schemaless, non-relationaldatabase accessible through Google APIs infrastructure. It providesa rich set of query capabilities, supports atomic transactions, andautomatically scales up and down in response to load.Usage-----.. code-block:: pycon    &gt;&gt;&gt; import googledatastore as datastore    &gt;&gt;&gt; datastore.set_options(project_id='project-id')    &gt;&gt;&gt; req = datastore.BeginTransactionRequest()    &gt;&gt;&gt; datastore.begin_transaction(req)    &lt;google.datastore.v1.datastore-pb2.BeginTransactionResponse ...&gt;Installation------------.. code-block:: bash    $ pip install googledatastoreDocumentation-------------https://cloud.google.com/datastore/docs/Contribute----------https://github.com/GoogleCloudPlatform/google-cloud-datastore</longdescription>
+</pkgmetadata>

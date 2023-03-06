@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>benchline=========Python package with modules for small but important things I need and don't want to reinvent over and over again.The name benchline comes from my son.  When he was little he loved to watch the show, &quot;Thomas the Tank Engine&quot; and the main character was a train who had his own &quot;branch line&quot; off the main line.  My son, at the time, couldn't pronouce branch line so he said &quot;bench line&quot;.  So, as I code it's fun to be reminded of him and remember that we don't have to be perfect to be awesome.</longdescription>
+</pkgmetadata>

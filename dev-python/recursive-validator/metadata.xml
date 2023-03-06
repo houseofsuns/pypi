@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>```shellpython main.py \--include_patterns '*.yml,*.yaml' \--exclude_patterns '*/backups/*' \--loaders_path ./loaders \--input_directory ./my-project```</longdescription>
+</pkgmetadata>

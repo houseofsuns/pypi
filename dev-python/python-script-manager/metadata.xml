@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![Documentation Status](https://readthedocs.org/projects/python-script-manager/badge/?version=latest)](https://python-script-manager.readthedocs.io/en/latest/?badge=latest)# &lt;img src=&quot;https://raw.githubusercontent.com/YunisDEV/python-script-manager/master/assets/psm.svg&quot;/&gt; Welcome to PSM## What is PSM?**PSM** is a tool that helps you to manage and develop your Python apps easily.## Learn more about PSMFull documentation is available at readthedocs:[python-script-manager.readthedocs.io](https://python-script-manager.readthedocs.io)</longdescription>
+</pkgmetadata>

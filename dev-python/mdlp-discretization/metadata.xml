@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Implements the MDLP discretization criterion from Usama Fayyad's paper&quot;Multi-Interval Discretization of Continuous-Valued Attributes forClassification Learning.&quot;Home-page: github.com/hlin117/mdlp-discretizationAuthor: Henry LinAuthor-email: hlin117@gmail.comLicense: BSD 3 ClauseDescription: UNKNOWNPlatform: UNKNOWN</longdescription>
+</pkgmetadata>

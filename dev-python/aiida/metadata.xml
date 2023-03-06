@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># &lt;img src=&quot;http://www.aiida.net/wp-content/uploads/2020/06/logo_aiida.png&quot; alt=&quot;AiiDA&quot; width=&quot;200&quot;/&gt;AiiDA (www.aiida.net) is a workflow manager for computational science with a strong focus on provenance, performance and extensibility.## DeprecatedThis metapackage for AiiDA has been deprecated as of v1.0 and is no longer being maintained.If you want to install AiiDA, please install the [`aiida-core` package](https://pypi.org/project/aiida-core/) instead.## AcknowledgementsAiiDA is a [NumFOCUS Affiliated Project](https://www.numfocus.org) and supported by the [MARVEL National Centre of Competence in Research](http://www.marvel-nccr.ch), the [MaX European Centre of Excellence](http://www.max-centre.eu) and by a number of other supporting projects, partners and institutions, whose complete list is available on the [AiiDA website acknowledgements page](http://www.aiida.net/acknowledgements/).</longdescription>
+</pkgmetadata>

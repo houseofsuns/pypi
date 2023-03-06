@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## Mango PycoreAn implementation of common features for all SAM backend project for [Mango Soft Inc](http://www.mango-soft.com)### How to install```bash    $ pip install mango-pycore```</longdescription>
+</pkgmetadata>

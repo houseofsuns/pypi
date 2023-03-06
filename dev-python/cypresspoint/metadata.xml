@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=============Cypress Point=============.. image:: https://img.shields.io/pypi/v/cypresspoint.svg        :target: https://pypi.python.org/pypi/cypresspoint.. image:: https://img.shields.io/travis/Kintyre/cypresspoint.svg        :target: https://travis-ci.org/Kintyre/cypresspoint.. image:: https://readthedocs.org/projects/cypresspoint/badge/?version=latest        :target: https://cypresspoint.readthedocs.io/en/latest/?badge=latest        :alt: Documentation Status.. image:: https://pyup.io/repos/github/Kintyre/cypresspoint/shield.svg     :target: https://pyup.io/repos/github/Kintyre/cypresspoint/     :alt: UpdatesPython helper bits for Splunk add-on development* Free software: Apache Software License 2.0* Documentation: https://cypresspoint.readthedocs.io.Features--------* TODOCredits-------This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template... _Cookiecutter: https://github.com/audreyr/cookiecutter.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage=======History=======0.2.0 (2021-03-16)------------------* First usable release (lots of imported content from random Kintyre developed add ons)0.1.1 (2021-03-11)------------------* First release on PyPI.</longdescription>
+</pkgmetadata>

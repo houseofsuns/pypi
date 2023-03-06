@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># wcpan.workerAn asynchronous task queue with priority support.```pythonfrom wcpan.worker import AsyncQueue, Taskclass HighPriorityTask(Task):    @property    def priority(self) -&gt; int:        return 2class LowPriorityTask(Task):    @property    def priority(self) -&gt; int:        return 1# Note this queue is non-preemptive.queue = AsyncQueue()queue.start()# function_2 will come first.queue.post(LowPriorityTask(function_1))queue.post(HighPriorityTask(function_2))# cancel pending tasksqueue.flush()# wait for executing task (if any) ends, then stop the queueawait queue.stop()```</longdescription>
+</pkgmetadata>

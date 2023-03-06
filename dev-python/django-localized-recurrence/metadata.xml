@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image:: https://travis-ci.org/Wilduck/django-localized-recurrence.svg?branch=develop    :target: https://travis-ci.org/Wilduck/django-localized-recurrenceDjango Localized Recurrence===========================Django Localized Recurrence allowes you to store events that recur inusers' local times, and not have to worry about things likeThis django app provides a model, ``LocalizedRecurrence``, withmethods to help store recurring events, check if the events are due,and update their next scheduled time.Installation------------This packages is currently available through Pypi and github. Toinstall from Pypi using ``pip`` (recommended)::    pip install django-localized-recurrenceTo install the development version from github::    pip install git+git://github.com/ambitioninc/django-localized-recurrence.git@developDocumentation-------------Full documentation is available at http://django-localized-recurrence.readthedocs.orgLicense-------MIT License (see LICENSE)</longdescription>
+</pkgmetadata>

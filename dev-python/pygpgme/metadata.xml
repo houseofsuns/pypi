@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>PyGPGME is a Python module that lets you sign, verify, encrypt anddecrypt messages using the OpenPGP format.It is built on top of the GNU Privacy Guard and the GPGME library.</longdescription>
+</pkgmetadata>

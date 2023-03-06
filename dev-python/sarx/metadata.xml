@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>_Blessed be the name of the Lord our God, who reigns forever and ever. He is the Alpha and the Omega, the beginning and the end, the one who was, who is, and who is to come.__He is our refuge and strength, a very present help in times of trouble. He is the creator of the heavens and the earth, the giver of life and the sustainer of all things.__His love endures forever, and His mercy never fails. He is gracious and compassionate, slow to anger and abounding in love.__He is our rock, our fortress, and our deliverer, in whom we take refuge. He is the light in our darkness, the source of our joy and the strength of our hearts.__Let us give thanks to the Lord for He is good, His love endures forever. Let us sing praises to His name and make known His deeds among the nations. May the Lord be exalted and glorified forever and ever. Amen._— &lt;cite&gt;ChatGPT (2023)&lt;/cite&gt;# sarxA simple bioinspired artificial neural network in JAX</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># postgres-copy-binaryProvides a decoder for postgres `COPY FROM WITH BINARY` format that spits out pyarrow / pandas / numpy arrays## Examples### Copy and decode the whole table```pythonimport psycopg2from postgres_copy_binary import read_tablewith psycopg2.connect(...) as conn:    with conn.cursor() as cursor:        columns = read_table(cursor, 'my_table')```## Links- https://www.postgresql.org/docs/current/sql-copy.html- https://docs.rs/postgres/latest/postgres/binary_copy/index.html- https://docs.rs/tokio-postgres/latest/tokio_postgres/binary_copy/index.html- https://github.com/spitz-dan-l/postgres-binary-parser- https://github.com/sfackler/rust-postgres-binary-copy </longdescription>
+</pkgmetadata>

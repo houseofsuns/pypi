@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># wakatime-cli pipThis wraps the Go [wakatime-cli][wakatime-cli] in a Python package, replacing the [legacy Python wakatime-cli][wakatime-cli-legacy].## Installing    pip install wakatimeInstalling runs `install_cli.py` and downloads the latest Go wakatime-cli [release][releases] to `~/.wakatime/wakatime-cli`.## Using    wakatime --helpFor more info, see [wakatime-cli usage docs][usage].[wakatime-cli]: https://github.com/wakatime/wakatime-cli[wakatime-cli-legacy]: https://github.com/wakatime/legacy-python-cli[usage]: https://github.com/wakatime/wakatime-cli#usage[releases]: https://github.com/wakatime/wakatime-cli/releases</longdescription>
+</pkgmetadata>

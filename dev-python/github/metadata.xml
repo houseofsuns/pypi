@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Github API Wrapper==================.. image:: https://discord.com/api/guilds/963406460107235328/widget.png  :target: https://discord.gg/DWhwsQ5TsT  :alt: Discord Server InviteEasy to use Python wrapper for the **Github API**.Key Features------------- Modern Pythonic Interface- Easy to useInstalling----------**Python 3.8 or higher is required to run the library**To install the library, run the following command:.. code:: sh  # On Linux or MacOS  python3 -m pip install -U git+https://github.com/VarMonke/Github-Api-Wrapper    # On Windows  py -m pip install -U git+https://github.com/VarMonke/Github-Api-Wrapper  Quick Example-------------  .. code:: py    import github  import asyncio    async def main():    client = await github.GHClient()    user = await client.get_user(user='GithubPythonBot')    print(user)    print(user.html_url)  asyncio.run(main()).. code:: sh  # Output  &lt;User login: 'GithubPythonBot', id: 104489846, created_at: 2022-04-27 07:31:26&gt;  https://github.com/GithubPythonBot  Links------ `Discord Server &lt;https://discord.gg/DWhwsQ5TsT&gt;`_- `GitHub API Documentation &lt;https://docs.github.com/en/rest&gt;`_</longdescription>
+</pkgmetadata>

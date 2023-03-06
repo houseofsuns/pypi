@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Cpppo is used to create event-driven state machines which consume a streamof input and generate a series of state changes, or an indication that noprogress is possible due to (for example) exhaustion of input symbols.This is useful for creating parsers for complex grammars describinglanguages, including binary computer protocols.An example included with cpppo is an implementation of a subset of theEtherNet/IP CIP language used by some industrial control equipment, such asRockwell's ControlLogix Controllers.  The cpppo.server.enip package can be usedto create Python programs which can parse requests in this protocol (eg. as aserver, to implement something like a simulated Controller) or originaterequests in this protocol (eg. as a client, sending commands to a Controller).In addition, the ability to read, write and poll remote PLCs ofvarious types including Modbus/TCP is provided.</longdescription>
+</pkgmetadata>

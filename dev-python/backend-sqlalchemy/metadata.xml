@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Backend SQLAlchemy[![codecov](https://codecov.io/gh/martinmore-team/backend-sqlalchemy/branch/main/graph/badge.svg?token=XJER9LZAZV)](https://codecov.io/gh/martinmore-team/backend-sqlalchemy)## Tests- poetry run coverage run -m pytest --showlocals -vv- poetry run coverage xml -i</longdescription>
+</pkgmetadata>

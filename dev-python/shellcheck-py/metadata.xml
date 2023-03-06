@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![Build Status](https://dev.azure.com/shellcheck-py/shellcheck-py/_apis/build/status/shellcheck-py.shellcheck-py?branchName=main)](https://dev.azure.com/shellcheck-py/shellcheck-py/_build/latest?definitionId=1&amp;branchName=main)[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/shellcheck-py/shellcheck-py/main.svg)](https://results.pre-commit.ci/latest/github/shellcheck-py/shellcheck-py/main)# shellcheck-pyA python wrapper to provide a pip-installable [shellcheck] binary.Internally this package provides a convenient way to download the pre-builtshellcheck binary for your particular platform.### installation```bashpip install shellcheck-py```### usageAfter installation, the `shellcheck` binary should be available in yourenvironment (or `shellcheck.exe` on windows).### As a pre-commit hookSee [pre-commit] for instructionsSample `.pre-commit-config.yaml`:```yaml-   repo: https://github.com/shellcheck-py/shellcheck-py    rev: v0.9.0.2    hooks:    -   id: shellcheck```[shellcheck]: https://shellcheck.net[pre-commit]: https://pre-commit.com</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># AX Banner Generator### Usage```shellpip install ax-generate-banner --upgrade```Then:```pythonfrom ax_generate_banner.generate import Generateif __name__ == '__main__':    generate = Generate(        left_image='image-left.jpg',        right_image=['img1.png', 'image-right.png'],        text_header=[&quot;BEDS&quot;, &quot;FLOORS&quot;, &quot;SQ.FT&quot;],        text_data=[&quot;3&quot;, &quot;43&quot;, &quot;4863&quot;],        residence_title='Rukan Residences',        font='alethiapro-regular.otf'    )    generate.save('result.jpg')```![alt text](fonts/img.png &quot;AX Generated Image Banner&quot;)</longdescription>
+</pkgmetadata>

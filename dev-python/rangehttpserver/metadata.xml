@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>SimpleHTTPServer with support for Range requestsQuickstart:    $ pip install rangehttpserver    $ python -m RangeHTTPServer    Serving HTTP on 0.0.0.0 port 8000 ...See the GitHub repo for more information:https://github.com/danvk/RangeHTTPServer</longdescription>
+</pkgmetadata>

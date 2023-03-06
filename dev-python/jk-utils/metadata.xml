@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>jk_utils========Introduction------------This python module provides various utility functions and classes.Information about this module can be found here:* [github.org](https://github.com/jkpubsrc/python-module-jk-utils)* [pypi.python.org](https://pypi.python.org/pypi/jk_utils)How to use this module----------------------### ........Contact Information-------------------This is Open Source code. That not only gives you the possibility of freely using this code it alsoallows you to contribute. Feel free to contact the author(s) of this software listed below, eitherfor comments, collaboration requests, suggestions for improvement or reporting bugs:* Jürgen Knauth: jknauth@uni-goettingen.de, pubsrc@binary-overflow.deLicense-------This software is provided under the following license:* Apache Software License 2.0</longdescription>
+</pkgmetadata>

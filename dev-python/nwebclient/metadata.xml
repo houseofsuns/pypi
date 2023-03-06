@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># NWeb Client Client to access the NWeb-API## Installation```pip install --upgrade nwebclient``````python -m nwebclient help```## Beispiel```import nwebclient``````class NWebClient  &quot;&quot;&quot; Anstatt url kann auch ein Pfad zur einer JSON-Datei, die die Schluessel enthaelt, angegeben werden. &quot;&quot;&quot;  __init__(url, username,password)  doc(id)  docs(q)  group(id)  getOrCreateGroup(guid, title)  downloadImages()metric_val(endpointUrl:string, metricName:string, val:numeric)```Links: [Gitlab-Repo](https://gitlab.com/bsalgert/nwebclient) [PyPi-Package](https://pypi.org/project/nwebclient/)---Packaging: https://packaging.python.org/tutorials/packaging-projects/</longdescription>
+</pkgmetadata>

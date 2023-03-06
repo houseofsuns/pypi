@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># sdc-api.py* Враппер на Python для [SDC API](https://docs.server-discord.com)* Документация к API: https://docs.server-discord.com/* [Сервер поддержки](https://discord.gg/8epHXKA) враппера ## Установка```pip install sdc_api_py```# Внимание!## Враппер полностью асинхронен. Любые вызовы функций следует проводить только в асинхронных функциях## Использование### Враппер включает в себя 3 основных класса:#### Monitoring```pyimport sdc_api_pymonitoring = sdc_api_py.Monitoring(SDC_TOKEN)...sdc_guild = await monitoring.get_guild(id)  # Использовать в асинхронной функцииsdc_guild_place = await monitoring.fetch_guild_place(id)  # Использовать в асинхронной функцииsdc_guild_rate = await monitoring.get_guild_rate(id)  # Использовать в асинхронной функцииsdc_user_rate = await monitoring.get_user_rate(id)  # Использовать в асинхронной функции```#### NikaWarns```pyimport sdc_api_pyNika = sdc_api_py.NikaWarns(SDC_TOKEN)...warns = await Nika.fetch_warns(id)  # Использовать в асинхронной функции```#### Bots```pyimport sdc_api_pyfrom discord.ext import commandsclass BotsSDC(commands.Cog):    def __init__(self, bot):        self.bot = bot    @commands.Cog.listener()    async def on_ready(self):        bots = sdc_api_py.Bots(self.bot, SDC_TOKEN, logging) # Аргумент logging опциональный. По умолчанию True.        bots.create_loop()  #Как аргумент можно использовать время в минутах. Раз в это количество минут будет отправляться статистика.                            #По умолчанию 60 минут. Минимальный порог 30 минут.bot.add_cog(BotsSDC(bot))```</longdescription>
+</pkgmetadata>

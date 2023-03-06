@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This repository contains a pure-python implementation of the AndroidADB and Fastboot protocols, using libusb1 for USB communications.This is a complete replacement and rearchitecture of the Androidproject's ADB and fastboot code available athttps://github.com/android/platform_system_core/tree/master/adbThis code is mainly targeted to users that need to communicate withAndroid devices in an automated fashion, such as in automatedtesting. It does not have a daemon between the client and the device,and therefore does not support multiple simultaneous commands to thesame device. It does support any number of devices and nevercommunicates with a device that it wasn't intended to, unlike theAndroid project's ADB.</longdescription>
+</pkgmetadata>

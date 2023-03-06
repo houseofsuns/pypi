@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>![Build tests](https://github.com/mozilla/compare-locales/workflows/test/badge.svg)# compare-localesLint Mozilla localizationsFinds* missing strings* obsolete strings* errors on runtime errors without false positives* warns on possible runtime errorsIt also includes `l10n-merge` functionality, which pads localizations withmissing English strings, and replaces entities with errors with English.If you want to check your original code for errors like duplicated messages,use `moz-l10n-lint`, which is also part of this package. You can also usethis to check for conflicts between your strings and those already exposedto l10n.# ConfigurationYou configure `compare-locales` (and `moz-l10n-lint`) through a[project configuration](https://moz-l10n-config.readthedocs.io/en/latest/fileformat.html)file, `l10n.toml`.# ExamplesTo check all locales in a project use```bashcompare-locales l10n.toml .```To check Firefox against a local check-out of l10n-central, use```bashcompare-locales browser/locales/l10n.toml ../l10n-central```If you just want to check particular locales, specify them as additionalcommandline parameters.To lint your local work, use```bashmoz-l10n-lint l10n.toml```To check for conflicts against already existing strings:```bashmoz-l10n-lint --reference-project ../android-l10n/mozilla-mobile/fenix l10n.tomlmoz-l10n-lint --l10n-reference ../gecko-strings browser/locales/l10n.toml```to check for a monolithic project like Fenix or a gecko project like Firefox,resp.</longdescription>
+</pkgmetadata>

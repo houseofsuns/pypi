@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Python Client for Google Cloud Common=====================================|ga| |pypi| |versions|This package contains generated Python types for `google.cloud.common`.- `Client Library Documentation`_.. |ga| image:: https://img.shields.io/badge/support-ga-gold.svg   :target: https://github.com/googleapis/google-cloud-python/blob/main/README.rst#ga-support.. |pypi| image:: https://img.shields.io/pypi/v/google-cloud-common.svg   :target: https://pypi.org/project/google-cloud-common/.. |versions| image:: https://img.shields.io/pypi/pyversions/google-cloud-common.svg   :target: https://pypi.org/project/google-cloud-common/.. _Client Library Documentation: https://cloud.google.com/python/docs/reference/common/latestInstallation------------Install this library in a `virtualenv`_ using pip. `virtualenv`_ is a tool tocreate isolated Python environments. The basic problem it addresses is one ofdependencies and versions, and indirectly permissions.With `virtualenv`_, it's possible to install this library without needing systeminstall permissions, and without clashing with the installed systemdependencies... _`virtualenv`: https://virtualenv.pypa.io/en/latest/Mac/Linux^^^^^^^^^.. code-block:: console    pip install virtualenv    virtualenv &lt;your-env&gt;    source &lt;your-env&gt;/bin/activate    &lt;your-env&gt;/bin/pip install google-cloud-commonWindows^^^^^^^.. code-block:: console    pip install virtualenv    virtualenv &lt;your-env&gt;    &lt;your-env&gt;\Scripts\activate    &lt;your-env&gt;\Scripts\pip.exe install google-cloud-common</longdescription>
+</pkgmetadata>

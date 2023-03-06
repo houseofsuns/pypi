@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>*optparse-pretty*-----------------This module provides two help formatters for optparse_. They provideterser and more customizable option formatting in comparison to thedefault help formatter. Refer to the documentation for examples andusage instructions.Documentation:    http://optparse-pretty.readthedocs.org/en/latest/Development:    https://github.com/gvalkov/optparse-prettyPackage:    http://pypi.python.org/pypi/optparse-prettyChangelog:    https://github.com/gvalkov/optparse-pretty/releases.. _optparse: https://docs.python.org/3.4/library/optparse.html</longdescription>
+</pkgmetadata>

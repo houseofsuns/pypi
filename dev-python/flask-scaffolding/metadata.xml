@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Flask-Scaffolding-Base- Flask Scaffolding with builtin Authentication &amp; Authorization- Installation : ```pip install flask-scaffolding```- Run to create a new flask app with the given name and destination path.```python -m scaffold.web &lt;YOUR_APP_NAME&gt; &lt;path/to/destination&gt;```- Add your custom model into `&lt;YOUR_APP_NAME&gt;/app/models/`, - Run to add a new screen UI on created app above,```python -m scaffold.ui &lt;MODEL_NAME&gt; &lt;path/to/model/file/location&gt;```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># craftr-dslA domain specific language purpose-built for the Craftr build system.The Craftr DSL is an &quot;almost superset&quot; of Python 3; adding a lot of syntactical features that make it moreconvenient to describe build configurations at the cost of some other syntax features of the native Pythonlanguage (like set literals).## Installation    $ pip install craftr-dslThe `craftr-dsl` package requires at least Python 3.8.## Projects using Craftr DSL* [Novella](https://niklasrosenstein.github.io/novella/)</longdescription>
+</pkgmetadata>

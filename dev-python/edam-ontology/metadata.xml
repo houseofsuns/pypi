@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>edam-ontology.py-------------------EDAM is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0) andcan be found at http://edamontology.org/.EDAM is described in the following article. If you use, or refer to EDAM or its part, please cite:    Ison, J., Kalaš, M., Jonassen, I., Bolser, D., Uludag, M., McWilliam, H., Malone, J., Lopez, R., Pettifer, S. and Rice, P. (2013). EDAM: an ontology of bioinformatics operations, types of data and identifiers, topics and formats. Bioinformatics, 29(10): 1325-1332. DOI: 10.1093/bioinformatics/btt113 PMID: 23479348 The article is freely available without restrictions (Open access)This project is just a Python packaged version of that data - initially developed to avoid non-Python dependencieswithin Galaxy packages that need to leverage the ontology.History-------.. to_doc---------------------1.25.2 (2021-08-03)---------------------* Fix project name on PyPI.---------------------1.25.1 (2021-08-03)---------------------* Attempt to fix automated publishing to PyPI.---------------------1.25.0 (2021-08-02)---------------------* Initial project creation including the tabular version of EDAM 1.25 (https://zenodo.org/record/3899895#.YP7TqBNKh6o).</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># serverless-aws-lambda-sdk## AWS Lambda [Serverless Console](https://www.serverless.com/console) SDK for PythonInstruments AWS Lambda functions, propagates traces to the [Serverless Console](https://www.serverless.com/console/docs) and exposes Serverless SDK to the function logic.### Setup#### 1. Register with [Serverless Console](https://console.serverless.com/)#### 2. In [Serverless Console](https://console.serverless.com/) turn on integration for your AWS account and chosen Lambdas### InstrumentationAWS Lambda SDK automatically creates `aws.lambda`, `aws.lambda.initialization` and `aws.lambda.invocation` trace spans.### SDK API- [serverlessSdk](docs/sdk.md)</longdescription>
+</pkgmetadata>

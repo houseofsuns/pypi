@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>opap========opap is a library to access OPAP data.Look how easy it is to use::    import opap    opap.get_last_draw(&quot;kino&quot;)Features--------- Retrieve last draw's results- Retrieve draw's results from specific draw id- Retrieve draw's results from an id range- Retrieve the last n draw's results- Retrieve draw's results between specific dates- Retrieve draw id's between specific dates- Retrieve last draw's id- Retrieve next draw's idInstallation------------Install opap by running::    pip install opapLicense-------The project is licensed under the MIT license.</longdescription>
+</pkgmetadata>

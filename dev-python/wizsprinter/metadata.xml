@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>WizSprinter is a semi-official extension to the `WizWalker library &lt;https://github.com/StarrFox/wizwalker&gt;`_.It adds:WizSprinter (WizWalker extension):    - upgrade_clients    - extended get_new_clients    - extended remove_dead_clients    - extended get_ordered_clientsSprintyClient (Client extension):    - better teleport    - get_base_entities_with_vague_name    - get_base_entities_with_behaviors    - get_health_wisps    - get_mana_wisps    - get_mobs    - find_safe_entities_from    - find_closest_of_entities    - find_closest_by_predicate    - find_closest_by_name    - find_closest_by_vague_name    - find_closest_health_wisp    - find_closest_mana_wisp    - find_closest_mob    - tp_to_closest_of    - tp_to_closest_by_name    - tp_to_closest_by_vague_name    - tp_to_closest_health_wisp    - tp_to_closest_mana_wisp    - tp_to_closest_mob    - goto_closest_of    - goto_closest_by_name    - goto_closest_by_vague_name    - goto_closest_health_wisp    - goto_closest_mana_wisp    - goto_closest_mob    - calc_health_ratio    - calc_mana_ratio    - has_potion    - use_potion    - needs_potion    - use_potion_if_neededSprintyCombat (Implementation of a CombatHandler):    - CombatConfigProvider to parse a config file    - Full CombatHandler with some logicWizNavigator (Functionality related to traversing between zones):    - toZone    - toZoneDisplayName    - refillPotions</longdescription>
+</pkgmetadata>

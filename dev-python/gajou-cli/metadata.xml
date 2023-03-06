@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;h2&gt;牙城-CLI&lt;/h2&gt;&lt;h3&gt;CLI&lt;/h3&gt;* BaseCLI - contains method to send command in terminal with logging. Allure can be passed for adding attaches to  reports.* CLIResponse - dataclass for CLI response deserialization.* ReturnCodes - enum with basic CLI return codes.</longdescription>
+</pkgmetadata>

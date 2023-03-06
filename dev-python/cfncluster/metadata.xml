@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>cfncluster is an example framework for launching clusters.    usage: cfncluster [-h]                      {create,update,delete,start,stop,status,list,instances,ssh,configure,version}                      ...    cfncluster is a tool to launch and manage a cluster.    positional arguments:      {create,update,delete,start,stop,status,list,instances,ssh,configure,version}        create              creates a cluster        update              update a running cluster        delete              delete a cluster        start               start the compute fleet that has been stopped        stop                stop the compute fleet, but leave the master server                            running for debugging/development        status              pull the current status of the cluster        list                display a list of stacks associated with cfncluster        instances           display a list of all instances in a cluster        ssh                 connect to the master server using SSH        configure           creating initial cfncluster configuration        version             display version of cfncluster    optional arguments:      -h, --help            show this help message and exit    For command specific flags run cfncluster [command] --help</longdescription>
+</pkgmetadata>

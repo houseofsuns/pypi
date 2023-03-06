@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>**fcdproc** : An Automated FCD Detection Processing Pipeline for Structural MRI Data=======================================================================================*fcdproc* is a Nipype-based processing application that detects subtle Focal Cortical Dysplasia (FCD)lesions in MRI negative Epilespy patients. This application is easily installable, requires minimal user input, and only a small training set of normative data and FCD lesions... image:: https://img.shields.io/pypi/v/fcdproc.svg        :target: https://pypi.python.org/pypi/fcdproc.. image:: https://readthedocs.org/projects/fcdproc/badge/?version=latest  :target: http://fcdproc.readthedocs.io/en/latest/?badge=latest  :alt: Documentation Status.. image:: https://img.shields.io/badge/doi-10.1016%2Fj.nicl.2021.102565-blue.svg  :target: https://doi.org/10.1016/j.nicl.2021.102565  :alt: Published in NeuroImage: ClinicalPython package for detection of subtle focal cortical dysplasia (FCD) lesions in MRI negative epilepsy patients* Free software: Public Domain* Documentation: https://inatilab.github.io/fcdproc.## ContributingInterested in contributing? Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.## License`fcdproc` was created by InatiLab. It is licensed under the terms of the GNU General Public License v3.0 license.</longdescription>
+</pkgmetadata>

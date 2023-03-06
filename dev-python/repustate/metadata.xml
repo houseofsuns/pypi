@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Python Client for Repustate API===============================This is a Python client to the Repustate API. You must first get an APIkey from `Repustate.com`_Here’s a simple example of how to use the Python client:::    &gt;&gt;&gt; import repustate    &gt;&gt;&gt; client = repustate.Client(api_key='YOUR_API_KEY')    &gt;&gt;&gt; client.sentiment(text='I want the sentiment for this lovely text')    {&quot;status&quot;:&quot;OK&quot;, &quot;score&quot;:0.3782}You can use the Repustate API to perform text analytics in multiplelanguages including:-  Arabic-  Chinese-  English-  French-  German-  Italian-  Polish-  Portuguese-  Russian-  Spanish-  More coming soon ….. _Repustate.com: https://www.repustate.com</longdescription>
+</pkgmetadata>

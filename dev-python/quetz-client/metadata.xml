@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># quetz-clientA Python client to interact with a Quetz server. This client is compatible with all `quetz` versions listed [here](./.quetz-server-versions).## Installation### From conda-forge```bashmamba install quetz-client```### From this repoYou can install the package in development mode using:```bashgit clone git@github.com:mamba-org/quetz-client.gitcd quetz-client# create and activate a fresh environment named quetz-client# see environment.yml for detailsmamba env createconda activate quetz-clientpre-commit installpip install --no-build-isolation -e .```## Usage### Python Client```pyfrom quetz_client import QuetzClienturl = &quot;&quot;  # URL to your Quetz servertoken = &quot;&quot;  # API token for your Quetz serverclient = QuetzClient.from_token(url, token)for channel in client.yield_channels():    print(channel)```### CLI Client```shexport QUETZ_SERVER_URL=&quot;&quot;  # URL to your Quetz serverexport QUETZ_API_KEY=&quot;&quot;  # API token for your Quetz serverquetz-client --help```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ExergiThis project is a part of the Datadriven Production &amp; Distribution Department ## Project Intro/ObjectiveThe purpose of this project is to gather all exergi specific code in one repo and share it easily across the organisation. ## Modules- **aws.s3**. Module for S3 related functions such as import, export. - **aws.rds**. Module used to connect, import and export data from PostgreSQL databases on RDS or local docker environment. - **plot**. Common plotting library based on plotly. ## InstallationA step by step series of examples that tell you how to get a development env runningSay what the step will be```pip install exergi```To update exergi package please use ```pip install --upgrade exergi ```## Automated release processThis project utilized gitlab ci for automated release process. For more information see the following linkhttps://towardsdatascience.com/setup-version-increment-and-automated-release-process-591d87ea1221## Contributing Members**Leads : [Kasper Janehag](https://gitlab.stockholmexergi.io/kasper.janehag)****Contributor : [Johan Wållgren](https://gitlab.stockholmexergi.io/kasper.janehag)**## Members:|Name     |  Role  | |---------|-----------------||[Kasper Janehag] | Data Scientist        ||[Johan Wållgren] | Data Scientist         |</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>RapidPE was the first piece of software written for rapidly measuring theparameters of compact binary mergers observed via gravitational waves.  Itleverages properties of general relativity in order to minimize the number ofsimulations needed, thereby reducing the dominant cost of parameter estimation.To install, run::    $ pip install rapid-pe</longdescription>
+</pkgmetadata>

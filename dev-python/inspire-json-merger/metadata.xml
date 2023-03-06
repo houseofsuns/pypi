@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>..    This file is part of INSPIRE.    Copyright (C) 2014-2017 CERN.    INSPIRE is free software: you can redistribute it and/or modify    it under the terms of the GNU General Public License as published by    the Free Software Foundation, either version 3 of the License, or    (at your option) any later version.    INSPIRE is distributed in the hope that it will be useful,    but WITHOUT ANY WARRANTY; without even the implied warranty of    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the    GNU General Public License for more details.    You should have received a copy of the GNU General Public License    along with INSPIRE. If not, see &lt;http://www.gnu.org/licenses/&gt;.    In applying this license, CERN does not waive the privileges and immunities    granted to it by virtue of its status as an Intergovernmental Organization    or submit itself to any jurisdiction.===================== INSPIRE-JSON-Merger=====================.. image:: https://travis-ci.org/inspirehep/inspire-json-merger.svg?branch=master    :target: https://travis-ci.org/inspirehep/inspire-json-merger.. image:: https://coveralls.io/repos/github/inspirehep/inspire-json-merger/badge.svg?branch=master    :target: https://coveralls.io/github/inspirehep/inspire-json-merger?branch=masterAbout=====INSPIRE-specific configuration of the JSON Merger.</longdescription>
+</pkgmetadata>

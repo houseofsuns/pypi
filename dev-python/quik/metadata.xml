@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>====Quik====.. image:: https://travis-ci.org/avelino/quik.png?branch=master    :target: https://travis-ci.org/avelino/quik    :alt: Build Status - Travis CIA fast and lightweight Python template engineFeatures--------- Easy to use.- High performance.- Autoescaping.- Template inheritance.- Supports native python expressions.Nutshell--------Here a small example of a Quik template.. code-block:: html    &lt;ul&gt;        #for @user in @users:            #if @user.age &gt; 18:            &lt;li&gt;&lt;a href=&quot;@user.url&quot;&gt;@user.username&lt;/a&gt;&lt;/li&gt;            #end        #end    &lt;/ul&gt;Use It------Render via template:.. code-block:: python    from quik import FileLoader    loader = FileLoader('html')    template = loader.load_template('index.html')    print template.render({'author': 'Thiago Avelino'},                          loader=loader).encode('utf-8')</longdescription>
+</pkgmetadata>

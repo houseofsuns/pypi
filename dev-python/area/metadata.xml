@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>geojson-area============.. image:: https://travis-ci.org/scisco/area.svg?branch=develop    :target: https://travis-ci.org/scisco/area.. image:: https://badge.fury.io/py/area.svg    :target: http://badge.fury.io/py/areaCalculate the area inside of any `GeoJSON &lt;http://geojson.org/&gt;`_ geometry. This is a port of Mapbox's `geojson-area &lt;https://github.com/mapbox/geojson-area&gt;`_ for Python.Installation------------.. code::  $ pip install areaUsage-----Simply pass a geojson string or python dictionary to the area function and get the area... code::  &gt;&gt;&gt; from area import area  &gt;&gt;&gt; obj = {'type':'Polygon','coordinates':[[[-180,-90],[-180,90],[180,90],[180,-90],[-180,-90]]]}  &gt;&gt;&gt; area(obj)  511207893395811.06Test----.. code::  $ python test.pyCredit------- `geojson-area &lt;https://github.com/mapbox/geojson-area&gt;`_</longdescription>
+</pkgmetadata>

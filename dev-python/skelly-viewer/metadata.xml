@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># InstallationCreate a conda environment using Python 3.9 (though 3.8/3.10 should work too, if that matters) and activate your conda environment Install skelly_viewer using `pip install skelly_viewer`# UsageAfter installing, in your conda terminal (with the right environment active), type `skelly_viewer'You should see a GUI pop up with an empty graph, a slider, and two buttonsClick the `Load a session folder` button, and select a session folder that you would like to view the data from using the folder dialog (NOTE: As of right now, this viewer only works with pre-alpha labeled, post-processed data (it looks the `DataArrays` folder with a file called `mediaPipeSkel_3d_origin_aligned.npy` inside of it)You can move the slider, and the 3D graph should show your skeletonIf you hit the `Load Videos` button on the side, select a folder of videos within your current session. When you move the slider, the videosshould load in and appear on the right hand side </longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>OpenTelemetry AWS Lambda Tracing================================|pypi|.. |pypi| image:: https://badge.fury.io/py/opentelemetry-instrumentation-aws-lambda.svg   :target: https://pypi.org/project/opentelemetry-instrumentation-aws-lambda/This library provides an Instrumentor used to trace requests made by the Lambdafunctions on the AWS Lambda service.It also provides scripts used by AWS Lambda Layers to automatically initializethe OpenTelemetry SDK. Learn more on the AWS Distro for OpenTelemetry (ADOT)`documentation for the Python Lambda Layer &lt;https://aws-otel.github.io/docs/getting-started/lambda/lambda-python&gt;`_.Installation------------::    pip install opentelemetry-instrumentation-aws-lambdaReferences----------* `OpenTelemetry AWS Lambda Tracing &lt;https://opentelemetry-python-contrib.readthedocs.io/en/latest/instrumentation/aws_lambda/aws_lambda.html&gt;`_* `OpenTelemetry Project &lt;https://opentelemetry.io/&gt;`_* `OpenTelemetry Python Examples &lt;https://github.com/open-telemetry/opentelemetry-python/tree/main/docs/examples&gt;`_* `ADOT Python Lambda Layer Documentation &lt;https://aws-otel.github.io/docs/getting-started/lambda/lambda-python&gt;`_</longdescription>
+</pkgmetadata>

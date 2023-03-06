@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Canonical Store Api - Python package[![Test live APIs](https://github.com/canonical-web-and-design/canonicalwebteam.store-api/workflows/Test%20live%20APIs/badge.svg)](https://github.com/canonical-web-and-design/canonicalwebteam.store-api/actions?query=workflow%3ATest%20live%20APIs)[![Tests](https://github.com/canonical-web-and-design/canonicalwebteam.store-api/workflows/Tests/badge.svg)](https://github.com/canonical-web-and-design/canonicalwebteam.store-api/actions?query=workflow%3A)[![Publish](https://github.com/canonical-web-and-design/canonicalwebteam.store-api/workflows/Publish/badge.svg)](https://github.com/canonical-web-and-design/canonicalwebteam.store-api/actions?query=workflow%3APublish)[![Code coverage](https://codecov.io/gh/canonical-web-and-design/canonicalwebteam.store-api/branch/main/graph/badge.svg)](https://codecov.io/gh/canonical-web-and-design/canonicalwebteam.store-api)## How to installTo install this extension as a requirement in your project, you can use PIP:```bashpip install canonicalwebteam.store-api```See also the documentation for [pip install](https://pip.pypa.io/en/stable/reference/pip_install/).## DevelopmentThe package leverages [poetry](https://poetry.eustace.io/) for dependency management.## TestingAll tests can be run with `poetry run python3 -m unittest discover tests`.Note: You might have to do `poetry install` before runnning the command above.</longdescription>
+</pkgmetadata>

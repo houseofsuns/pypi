@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># handlers-pythonHandlers to process inputs and outputs of Pollination recipes.An input handler takes an input provided by user and convert it to the object that isneeded by the recipe input.An output handler takes the output of a recipe and post-process it before visualizing itinside the user interface.</longdescription>
+</pkgmetadata>

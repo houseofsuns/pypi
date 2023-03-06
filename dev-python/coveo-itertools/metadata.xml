@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># coveo-itertoolsAnother spin on iteration goodness.## dict lookupA one-liner function to retrieve a value from a dictionary:```pythonfrom typing import Dict, Anyfrom coveo_itertools.lookups import dict_lookupexample: Dict[str, Any] = {'nested': {'key': {'lookup': True}}}assert dict_lookup(example, 'nested', 'key', 'lookup') == Trueassert dict_lookup(example, 'not', 'there', default=None) is None```</longdescription>
+</pkgmetadata>

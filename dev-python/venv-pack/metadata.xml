@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Venv-Pack==========|Build Status| |PyPI Badge|``venv-pack`` is a command-line tool for packaging `virtual environments`_ fordistribution. Please refer to the documentation_ for more information.For a similar tool for `conda environments`_, see `conda-pack`_LICENSE-------New BSD. See the`License File &lt;https://github.com/jcrist/venv-pack/blob/master/LICENSE.txt&gt;`_... _documentation: https://jcrist.github.io/venv-pack/.. _virtual environments: https://docs.python.org/3/tutorial/venv.html.. _conda environments: https://conda.io.. _conda-pack: https://conda.github.io/conda-pack/.. |Build Status| image:: https://travis-ci.org/jcrist/venv-pack.svg?branch=master   :target: https://travis-ci.org/jcrist/venv-pack.. |PyPI Badge| image:: https://img.shields.io/pypi/v/venv-pack.svg   :target: https://pypi.org/project/venv-pack/</longdescription>
+</pkgmetadata>

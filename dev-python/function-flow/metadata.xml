@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Function FlowFunction Flow is a workflow management framework on top of Google CloudFunctions.It allows you to write `tasks` in Python functions, define their dependenciesand manage the executions for you.For example, if you want to first transform data from BigQuery, then invoke ajob to AI platform to make some predictions, after that load some data from GCSto BigQuery, this can be a helpful tool for you.## Running the ExampleTo enable all services, and deploy all cloud functions, first create a blank GCPproject, then run the following command:```bashcd examplebash bin/deploy.sh```If you edited `example/src/main.py`, you can run `bash bin/update-fuctions.sh`for the code to take effect.To run the example, go to cloud function page and run the function `start`. Thenyou can view the task statuses in the Firestore UI.</longdescription>
+</pkgmetadata>

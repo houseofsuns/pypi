@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># resoto-plugin-cleanup-aws-vpcsAWS VPC Cleanup Plugin for ResotoThis plugin marks all VPC dependencies for cleanup. The VPC must have been previously marked for cleanup by another cleanup plugin.The following resources are currently being marked for cleanup- AWS VPC Peering Connections- AWS EC2 Network ACLs- AWS EC2 Network Interfaces- AWS ELB- AWS ALB- AWS ALB Target Groups- AWS EC2 Subnets- AWS EC2 Security Groups- AWS EC2 Internet Gateways- AWS EC2 NAT Gateways- AWS EC2 Route Tables## UsageIn `resh` execute```&gt; config edit resoto.worker```and find the following section```plugin_cleanup_aws_vpcs:  # Dictionary of key cloud with list of account IDs for which the plugin should be active as value  config:    aws:      - '1234567'      - '567890'  # Enable plugin?  enabled: false```</longdescription>
+</pkgmetadata>

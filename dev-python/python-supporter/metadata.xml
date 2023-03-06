@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># python-supporterhttps://pypi.org/project/python-supporter&lt;pre&gt;pip install python-supporter&lt;/pre&gt;```from python_supporter import logginglogging.basicConfig(logging.ERROR)#logging.basicConfig(logging.INFO)#logging.basicConfig(logging.DEBUG)#logging.basicConfig(logging.ERROR, filename='log.txt')#logging.basicConfig(logging.INFO, filename='log.txt')#logging.basicConfig(logging.DEBUG, filename='log.txt')logging.error('This is error message') #2023-03-19 22:36:47: ERROR: This is error messagelogging.info('This is info message')logging.debug('This is debug message')```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># peeringdb-py[![PyPI](https://img.shields.io/pypi/v/peeringdb.svg?maxAge=3600)](https://pypi.python.org/pypi/peeringdb)[![Tests](https://github.com/peeringdb/peeringdb-py/workflows/tests/badge.svg)](https://github.com/peeringdb/peeringdb-py)[![Codecov](https://img.shields.io/codecov/c/github/peeringdb/peeringdb-py/master.svg?maxAge=3600)](https://codecov.io/github/peeringdb/peeringdb-py)PeeringDB python clientWe have an installation guide on our [documentation site](https://docs.peeringdb.com/howto/peeringdb-py/).</longdescription>
+</pkgmetadata>

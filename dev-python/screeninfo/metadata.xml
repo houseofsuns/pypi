@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>screeninfo----------[![Build](https://github.com/rr-/screeninfo/actions/workflows/build.yml/badge.svg)](https://github.com/rr-/screeninfo/actions/workflows/build.yml)Fetch location and size of physical screens.### Supported environments- MS Windows- MS Windows: Cygwin- GNU/Linux: X11 (through Xinerama)- GNU/Linux: DRM (experimental)- OSX: (through AppKit)I don't plan on testing OSX or other environments myself. For this reason,I strongly encourage pull requests.### Installation```pip install screeninfo```### Usage```pythonfrom screeninfo import get_monitorsfor m in get_monitors():    print(str(m))```**Output**:```python consoleMonitor(x=3840, y=0, width=3840, height=2160, width_mm=1420, height_mm=800, name='HDMI-0', is_primary=False)Monitor(x=0, y=0, width=3840, height=2160, width_mm=708, height_mm=399, name='DP-0', is_primary=True)```### Forcing environmentIn some cases (emulating X server on Cygwin etc.) you might want to specify thedriver directly. You can do so by passing extra parameter to `get_monitors()`like this:```pythonfrom screeninfo import get_monitors, Enumeratorfor m in get_monitors(Enumerator.OSX):    print(str(m))```Available drivers: `windows`, `cygwin`, `x11`, `osx`.# Contributing```shgit clone https://github.com/rr-/screeninfo.git # clone this repocd screeninfopoetry install # to install the local venvpoetry run pre-commit install # to setup pre-commit hookspoetry shell # to enter the venv```This project uses [poetry](https://python-poetry.org/) for packaging,install instructions at [poetry#installation](https://python-poetry.org/docs/#installation)</longdescription>
+</pkgmetadata>

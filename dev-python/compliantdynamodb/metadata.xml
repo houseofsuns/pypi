@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># this is where we place the documentation```python# Example automatically generated without compilation. See https://github.com/aws/jsii/issues/826self.backup_vault = backup.BackupVault(self, &quot;BackupVault&quot;,    backup_vault_name=f&quot;{props.tableName}-backup-vault&quot;,    access_policy=iam.PolicyDocument(        statements=[            iam.PolicyStatement(                sid=&quot;backup-recovery-point-manual-deletion-disabled&quot;,                effect=iam.Effect.DENY,                principals=[iam.AnyPrincipal()],                actions=[&quot;backup:DeleteRecoveryPoint&quot;, &quot;backup:PutBackupVaultAccessPolicy&quot;, &quot;backup:UpdateRecoveryPointLifecycle&quot;                ],                resources=[&quot;*&quot;]            )        ]    ))```</longdescription>
+</pkgmetadata>

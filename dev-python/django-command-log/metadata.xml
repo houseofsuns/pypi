@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Django Management Command LogApp to enable simple auditing of Django management commands### Version supportThis project now support Django 3.2+, and Python 3.8+.See git tags and PyPI classifiers for support.## BackgroundThis app wraps the standard Django management command base class to record therunning of a command. It logs the name of the command, start and end time, andthe output (if any). If the command fails with a Python exception, the errormessage is added to the record, and the exception itself is logged using`logging.exception`.![Screenshot of admin listview](https://github.com/yunojuno/django-management-command-log/blob/master/screenshots/list-view.png)![Screenshot of admin detailview](https://github.com/yunojuno/django-management-command-log/blob/master/screenshots/detail-view.png)See the `test_command` and `test_transaction_command` for examples.## TODO* Documentation.* Convert output field to JSON</longdescription>
+</pkgmetadata>

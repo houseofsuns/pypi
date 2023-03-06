@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pytest-ruffA pytest plugin to run [ruff](https://pypi.org/project/ruff/).## Installation```shellpip install pytest-ruff```## Usage```shellpytest --ruff```The plugin will run one ruff check test per file and fail if code is not ok for ruff.## ConfigurationYou can override ruff configuration options by placing a `pyproject.toml` or `ruff.toml` file in your project directory, like when using standalone ruff.## LicenseDistributed under the terms of the `MIT` license, `pytest-ruff` is free and open source software.</longdescription>
+</pkgmetadata>

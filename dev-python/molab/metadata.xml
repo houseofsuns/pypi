@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># molabThis module is for use in conjuction with the Terraform deployments of the Morpheus training labs.If you do not have access to this capability, this module is not for you.For thos e that do, you can reference the docs at https://morpheus_training.gitlab.io/molab/</longdescription>
+</pkgmetadata>

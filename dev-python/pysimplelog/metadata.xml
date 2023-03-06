@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This is a pythonic simple yet complete system logger.It allows logging simultaneously to two streams, the first one is the system standard output by default and the second one is designated to be set to a file.In addition, pysimplelog is text colouring and attributes enabled when the stream allows it.</longdescription>
+</pkgmetadata>

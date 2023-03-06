@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># CriticusA suite of tools for transcribing, collating and and creating an apparatus criticus.## installRequires Python 3.8+### Windows: - `pip install criticus`- `python -m criticus`### MacOS: - `pip3 install criticus`- `python3 -m criticus`Read the full [tutorial on GitHub](https://github.com/d-flood/criticus).</longdescription>
+</pkgmetadata>

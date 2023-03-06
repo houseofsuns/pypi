@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>********pathable********About#####Object-oriented pathsKey features************* Traverse resources like paths* Access resources on demand with separate accessor layerUsage#####.. code-block:: python   from pathable import DictPath      d = {       &quot;parts&quot;: {           &quot;part1&quot;: {               &quot;name&quot;: &quot;Part One&quot;,           },           &quot;part2&quot;: {               &quot;name&quot;: &quot;Part Two&quot;,           },       },   }      dp = DictPath(d)      # Concatenate paths with /   parts = dp / &quot;parts&quot;      # Stat path keys   &quot;part2&quot; in parts      # Open path dict   with parts.open() as parts_dict:       print(parts_dict)</longdescription>
+</pkgmetadata>

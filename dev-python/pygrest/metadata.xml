@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>gREST=====gREST (Graph-based REST API Framework) is a RESTful API developmentframework on top of Python, Flask, Neo4j and Neomodel. Its primarypurpose is to ease development of RESTful APIs with little effort andmiminum amount of code.For more information, visit github page of `the project &lt;https://github.com/mostafa/GRest&gt;`_.</longdescription>
+</pkgmetadata>

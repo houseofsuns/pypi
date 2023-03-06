@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>OpenTelemetry Collector Protobuf over gRPC Exporter===================================================|pypi|.. |pypi| image:: https://badge.fury.io/py/opentelemetry-exporter-otlp-proto-grpc.svg   :target: https://pypi.org/project/opentelemetry-exporter-otlp-proto-grpc/This library allows to export data to the OpenTelemetry Collector using the OpenTelemetry Protocol using Protobuf over gRPC.Installation------------::     pip install opentelemetry-exporter-otlp-proto-grpcReferences----------* `OpenTelemetry Collector Exporter &lt;https://opentelemetry-python.readthedocs.io/en/latest/exporter/otlp/otlp.html&gt;`_* `OpenTelemetry Collector &lt;https://github.com/open-telemetry/opentelemetry-collector/&gt;`_* `OpenTelemetry &lt;https://opentelemetry.io/&gt;`_* `OpenTelemetry Protocol Specification &lt;https://github.com/open-telemetry/oteps/blob/main/text/0035-opentelemetry-protocol.md&gt;`_</longdescription>
+</pkgmetadata>

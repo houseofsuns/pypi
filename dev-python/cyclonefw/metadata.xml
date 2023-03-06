@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># cyclone ai-platform python framework## Dependencies* [flask-restx](https://pypi.org/project/flask-restx/0.1.1/)* [flask-cors](https://pypi.org/project/Flask-Cors/)## Installation```shell scriptpip install -U cyclonefw```## Demo```python#!/usr/bin/env python3from cyclonefw import MAXAppapp = MAXApp()app.run()```</longdescription>
+</pkgmetadata>

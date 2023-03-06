@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>======js2xml======js2xml is a simple helper to parse Javascript codeby representing a parse tree in XML.You can then use XPath for example to find interestingbits in Javascript instructions (strings, IDs, function parameters...)      </longdescription>
+</pkgmetadata>

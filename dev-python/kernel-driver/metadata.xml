@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![Build Status](https://github.com/davidbrochart/kernel_driver/workflows/CI/badge.svg)](https://github.com/davidbrochart/kernel_driver/actions)[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)# Kernel driverA library for executing code in a Jupyter kernel.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># staticServe static or templated content via WSGI or stand-alone.Install Static    $ pip install staticServe up some content:    $ static localhost 9999 static-content/Or in the context of a WSGI application:```pythonimport staticwsgi_app = static.Cling('/var/www')```You can also use Python template strings, Moustache templates or easily roll your own templating plugin. See the tests and sourcecode for examples.Pull requests welcome. Happy hacking.</longdescription>
+</pkgmetadata>

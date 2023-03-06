@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Mistune=======A fast yet powerful Python Markdown parser with renderers and plugins.Useful Links------------1. GitHub: https://github.com/lepture/mistuneLicense-------Mistune is licensed under BSD. Please see LICENSE for licensing details.</longdescription>
+</pkgmetadata>

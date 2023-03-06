@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Welcome to the SysE Python Package![![Documentation Status](https://readthedocs.org/projects/syse/badge/?version=latest)](https://syse.readthedocs.io/en/latest/?badge=latest)SysE (/Sis'y/) is a Python library for Systems Engineering.SysE covers common Industrial &amp; Systems Engineering topics such as:* Engineering Economics * Probability &amp; Statistics* Modeling &amp; Quantitative Analysis* Engineering ManagementSome use cases include:**To get started, check out the docs for further information, including how to install SysE and common use cases.**Links:*** **Documentation:** [SysE Docs](https://syse.readthedocs.io/en/latest/)* **Repository:** [SysE Repo](https://github.com/Apex-Engineering-Management/SysE)**Note:**This project is under active development.</longdescription>
+</pkgmetadata>

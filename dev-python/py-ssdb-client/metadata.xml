@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># py-ssdb-clientA SSDB client for Python## Install- Run `pip install py-ssdb-client` or `pip3 install py-ssdb-client` to install this library## UsageE.g:```python```</longdescription>
+</pkgmetadata>

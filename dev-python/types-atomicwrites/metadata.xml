@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## Typing stubs for atomicwritesThis is a PEP 561 type stub package for the `atomicwrites` package.It can be used by type-checking tools like mypy, PyCharm, pytype etc. to check codethat uses `atomicwrites`. The source for this package can be found athttps://github.com/python/typeshed/tree/master/stubs/atomicwrites. All fixes fortypes and metadata should be contributed there.*Note:* `types-atomicwrites` is unmaintained and won't be updated.See https://github.com/python/typeshed/blob/master/README.md for more details.This package was generated from typeshed commit `03c38d91ae4ea2987f9853539534ce64959abf7a`.</longdescription>
+</pkgmetadata>

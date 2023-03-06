@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>VPSolver--------VPSolver is a vector packing solver based on an arc-flow formulationwith graph compression. VPSolver generates very strong models that canbe solved using general-purpose mixed-integer programming solvers suchas Gurobi and GLPK. For modelling other problems easily, VPSolverincludes a Python API and a modelling toolbox (PyMPL).Setup`````.. code:: bash    $ pip install pyvpsolverSystem requirements```````````````````* UNIX-like operating system or a UNIX-like environment such as Cygwin* g++ &gt;= 4.8; bash &gt;= 3.0Links`````* `VPSolver wiki &lt;https://github.com/fdabrandao/vpsolver/wiki&gt;`_* `GiHub repository &lt;https://github.com/fdabrandao/vpsolver&gt;`_* `BitBucket repository &lt;https://bitbucket.org/fdabrandao/vpsolver&gt;`_</longdescription>
+</pkgmetadata>

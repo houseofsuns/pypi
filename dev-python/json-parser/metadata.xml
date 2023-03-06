@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># json_parserAn _efficient_ JSON parser written in Python.## InstallationInstall it via pip:```bashpip install json-parser```## Usage```pythonimport json_parserdata = json_parser.parse('{&quot;value&quot;: 42}')print(data['value']) # 42```## BenchmarksRunning it on [this 25MB JSON file][1] gave the following results:```pycon&gt;&gt;&gt; with open('large-file.json') as f:...   t = time.time()...   x = json.load(f)...   t = time.time() - t...   print(t, 'seconds')...0.6405608654022217 seconds&gt;&gt;&gt; with open('large-file.json') as f:...   t = time.time()...   y = json_parser.parse(f.read())...   t = time.time() - t...   print(t, 'seconds')...22.286625385284424 seconds&gt;&gt;&gt; x == yTrue```So, it's about 34x slower than the builtin `json`.Which, is par for the course when it comes to pure python.## TestingClone the app and run the following:```bashpip install -e '.[dev]'pytest```[1]: https://raw.githubusercontent.com/json-iterator/test-data/master/large-file.json</longdescription>
+</pkgmetadata>

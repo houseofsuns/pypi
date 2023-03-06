@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># jsonnetbinAn **unofficial** Python interface to [Jsonnet](https://github.com/google/jsonnet).This package is created to provide binary wheels and support all major platforms (Linux, Windows, and macOS) for Python 3.x. It ought to act as a drop-in replacement for the official package.For production builds, I *highly* recommend the [official package](https://pypi.org/project/jsonnet/).</longdescription>
+</pkgmetadata>

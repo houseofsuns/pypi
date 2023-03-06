@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># AIOHWENERGYAsyncio package to communicate with HomeWizard Energy devicesThis package is aimed at basic control of the device. Initial setup and configuration is assumed to done with the official HomeWizard Energy app.## DisclaimerThis package is not developed, nor supported by HomeWizard.## Installation```bashpython3 -m pip install aiohwenergy```# UsageInstantiate the HWEnergy class and access the API.For more details on the API see the official API documentation onhttps://homewizard-energy-api.readthedocs.io# ExampleThe example below is available as a runnable script in the repository.```pythonfrom aiohwenergy import HomeWizardEnergy# Make contact with a energy devicedevice = HomeWizardEnergy(args.host)# Update device valueawait device.update()# Use the dataprint(device.device.product_name)print(device.device.serial)print(device.data.wifi_ssid)# Close connectionawait device.close()```</longdescription>
+</pkgmetadata>

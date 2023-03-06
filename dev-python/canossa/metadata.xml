@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>canossa invisible screen engine===============================Install-------via github ::    $ git clone --recursive https://github.com/saitoha/canossa.git    $ cd canossa    $ python setup.py installor via pip ::    $ pip install canossaLicense-------MIT licenseDependencies------------ - termprop   https://github.com/saitoha/termprop - TFF - Terminal Filter Framework   https://github.com/saitoha/tffDependents---------- - sentimental-skk   https://github.com/saitoha/sentimental-skk</longdescription>
+</pkgmetadata>

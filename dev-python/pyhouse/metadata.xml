@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pyhouseThis is a port of [Lighthouse](https://github.com/datamindedbe/lighthouse), a library written in Scala, that facilitates the creation of data pipelines thatare based on [Apache Spark](https://spark.apache.org/). It also comes with somerelated convenience functions, like integrations to the AWS parameter store.This port is targeted at Python and PySpark. It is not an exact port of the Scala code: we add what we need as we go along.## UsageOne of this library’s main usages is to build a class-based data catalog, that supports chaining of sources. For example, if you had a dataset in a text filethat needed to be transformed (clean, derive some statistic, …) then you couldwrite this as such:```pythonfrom pyhouse.datalake.file_system_data_link import FileSystemDataLinklink = FileSystemDataLink(    environment=&quot;dev&quot;,    session = get_spark(),    path = &quot;s3://bucket-foo/file-bar.csv&quot;,    format=&quot;csv&quot;,    savemode=&quot;errorifexists&quot;,    partitioned_by=(&quot;some-key&quot;, &quot;another-key&quot;),    options={&quot;header&quot;: True, &quot;sep&quot;: &quot;\t&quot;})link.read().groupBy(&quot;client&quot;).count().show()```The advantage of such data links becomes clear when there are multiple of themthat are combined in a module (the “catalog”): there would be one source of truth that many scripts can refer to. Hardcoded paths scattered across scripts would be a thing of the past.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>NOTE: gitpy is no longer actively maintained. I strongly recommend GitPython (https://github.com/gitpython-developers/GitPython), which has a pure-python object access layer, and implements streaming of large objects more efficiently.</longdescription>
+</pkgmetadata>

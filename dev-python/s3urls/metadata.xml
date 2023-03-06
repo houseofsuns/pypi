@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># S3urlsParse and build [Amazon S3](https://aws.amazon.com/s3/) URLs.## Usage### Parse S3 URLs```Pythonfrom s3urls import parse_url&gt;&gt;&gt; parse_url('https://my-bucket.s3.amazonaws.com/my-key/'){'bucket': 'my-bucket', 'key': 'my-key/'}&gt;&gt;&gt; parse_url('https://s3-eu-west-1.amazonaws.com/my-bucket/my-key/'){'bucket': 'my-bucket', 'key': 'my-key/'}&gt;&gt;&gt; parse_url('s3://my-bucket/my-key'){'bucket': 'my-bucket', 'key': 'my-key/'}&gt;&gt;&gt; parse_url('s3://user@my-bucket/my-key'){'bucket': 'my-bucket', 'key': 'my-key/', 'credential_name': 'user'}```### Build S3 URLs```Pythonfrom s3urls import build_url&gt;&gt;&gt; build_url('s3', 'my-bucket', 'my-key/')'s3://my-bucket/my-key/'&gt;&gt;&gt; build_url('s3', 'my-bucket', 'my-key/', credential_name='user')'s3://user@my-bucket/my-key/'&gt;&gt;&gt; build_url('bucket-in-path', 'my-bucket', 'my-key/')'https://s3.amazonaws.com/my-bucket/my-key/'&gt;&gt;&gt; build_url('bucket-in-path', 'my-bucket', 'my-key/', region='eu-west-1')'https://s3-eu-west-1.amazonaws.com/my-bucket/my-key/'&gt;&gt;&gt; build_url('bucket-in-netloc', 'my-bucket', 'my-key/')'https://my-bucket.s3.amazonaws.com/my-key/'```</longdescription>
+</pkgmetadata>

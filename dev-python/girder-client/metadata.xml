@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Girder Python Client====================This is a set of python libraries and a command-line tool that can be used tointeract with the REST API of a `Girder &lt;http://girder.readthedocs.org&gt;`_ server.Documentation for the client can be found at http://girder.readthedocs.org/en/latest/python-client.html.</longdescription>
+</pkgmetadata>

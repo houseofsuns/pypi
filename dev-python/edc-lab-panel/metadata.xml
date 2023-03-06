@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>edc-lab-panel-------------A collection of common lab panels used in edc deployments* FBC* RFT* LFT* LIPIDS* HbA1c* GlucoseAlso included are normal and graded ranges for the test results in these panels.</longdescription>
+</pkgmetadata>

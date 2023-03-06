@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Inter RAO Energosbyt Python===========================Библиотека для работы с ЕЛК ЖКХ компании Интер РАО.Библиотека подвергается частым изменениям, так как находится в стадии постоянной разработки.</longdescription>
+</pkgmetadata>

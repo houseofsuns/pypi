@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Abseil Python Common LibrariesThis repository is a collection of Python library code for building Pythonapplications. The code is collected from Google's own Python code base, and hasbeen extensively tested and used in production.## Features* Simple application startup* Distributed commandline flags system* Custom logging module with additional features* Testing utilities## Getting Started### InstallationTo install the package, simply run:```bashpip install absl-py```Or install from source:```bashpython setup.py install```### Running TestsTo run Abseil tests, you can clone the git repo and run[bazel](https://bazel.build/):```bashgit clone https://github.com/abseil/abseil-py.gitcd abseil-pybazel test absl/...```### Example CodePlease refer to[smoke_tests/sample_app.py](https://github.com/abseil/abseil-py/blob/main/smoke_tests/sample_app.py)as an example to get started.## DocumentationSee the [Abseil Python Developer Guide](https://abseil.io/docs/python/).## Future ReleasesThe current repository includes an initial set of libraries for early adoption.More components and interoperability with Abseil C++ Common Librarieswill come in future releases.## LicenseThe Abseil Python library is licensed under the terms of the Apachelicense. See [LICENSE](LICENSE) for more information.</longdescription>
+</pkgmetadata>

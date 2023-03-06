@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># A Python gNxI ProjectThis project is part of a development effort to build a modular set of python packages for building on top of [OpenConfig gRPC Network Management &amp; Operations Interfaces](https://www.openconfig.net/projects/rpc/).This project is currently a namespace placeholder and will be updated as individual components get published.</longdescription>
+</pkgmetadata>

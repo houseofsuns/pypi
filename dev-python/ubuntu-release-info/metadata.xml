@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Ubuntu Release Info[![Build Status](https://travis-ci.com/powersj/ubuntu-release-info.svg?branch=master)](https://travis-ci.com/powersj/ubuntu-release-info) [![Snap Status](https://build.snapcraft.io/badge/powersj/ubuntu-release-info.svg)](https://build.snapcraft.io/user/powersj/ubuntu-release-info)[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/ubuntu-release-info)Ubuntu distribution release informationSimilar to the 'distro-info' package, this class parses and containsthe Ubuntu release information. Instead of a static data file, thisinstead downloads the the meta-release information fromchangelogs.ubuntu.com, and parses it to determine the most recentrelease information.## InstallUsers can obtain ubuntu-release-download as a snap:```shellsnap install ubuntu-release-info```Or via PyPI:```shellpip3 install ubuntu-release-info```## UsageRun the command with the flag to see the codenames matching that flag:```shellubuntu-release-info```Options:* all:* lts:* devel:* supported:* unsupported:</longdescription>
+</pkgmetadata>

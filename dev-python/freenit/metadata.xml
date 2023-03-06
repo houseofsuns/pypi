@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Freenit Backend![freenit badge](https://github.com/freenit-framework/backend/actions/workflows/pythonapp.yml/badge.svg)[Documentation](https://freenit.org/backend/)[Source](https://github.com/freenit-framework/backend)Freenit is based on* [FastAPI](https://fastapi.tiangolo.com/)* [Ormar](https://github.com/collerek/ormar)</longdescription>
+</pkgmetadata>

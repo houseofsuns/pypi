@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Vivarium Inputs===============.. image:: https://badge.fury.io/py/vivarium-inputs.svg    :target: https://badge.fury.io/py/vivarium-inputs.. image:: https://travis-ci.org/ihmeuw/vivarium_inputs.svg?branch=master    :target: https://travis-ci.org/ihmeuw/vivarium_inputs    :alt: Latest Version.. image:: https://readthedocs.org/projects/vivarium_inputs/badge/?version=latest    :target: https://vivarium_inputs.readthedocs.io/en/latest/?badge=latest    :alt: Latest DocsThis package is used to transform Global Burden of Disease data and package it into data artifactsused as inputs into vivarium simulations.It requires access to the IHME cluster for use (but not for testing).</longdescription>
+</pkgmetadata>

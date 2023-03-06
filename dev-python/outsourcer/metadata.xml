@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># OutsourcerA micro library for generating Python source code.## Installation```consolepip install outsourcer```Outsourcer requires Python 3.6 or later.## Why does this exist?Sometimes you have to generate some Python code, and sometimes it's a bit toocomplicated for using string templates. This is a small library you can use inthose cases.## Example### Hello, World```python&gt;&gt;&gt; from outsourcer import sym&gt;&gt;&gt; sym.print('hello, world')print('hello, world')```This example uses `sym` to create a code fragment.### Control FlowHere's a longer example:```python&gt;&gt;&gt; from outsourcer import CodeBuilder, sym&gt;&gt;&gt; b = CodeBuilder()&gt;&gt;&gt; item = sym.item&gt;&gt;&gt; with b.FOR(item, in_=sym.some_collection):...     with b.IF(item % 2 == 0):...         b += sym.print('even')...     with b.ELSE():...         b += sym.skipped.append(item)...&gt;&gt;&gt; print(b.source_code())for item in some_collection:    if ((item % 2) == 0):        print('even')    else:        skipped.append(item)```</longdescription>
+</pkgmetadata>

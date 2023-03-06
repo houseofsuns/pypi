@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># np_session### *For use on internal Allen Institute network*```python&gt;&gt;&gt; from np_session import Session# initialize with a lims session ID or a string containing one: &gt;&gt;&gt; session = Session('c:/1116941914_surface-image1-left.png') &gt;&gt;&gt; session.lims.id1116941914&gt;&gt;&gt; session.folder'1116941914_576323_20210721'&gt;&gt;&gt; session.is_ecephys_sessionTrue&gt;&gt;&gt; session.rig.acq # hostnames reflect the computers used during the session, not necessarily the current machines'W10DT05515'# some properties are objects with richer information:&gt;&gt;&gt; session.mouseMouse(576323)&gt;&gt;&gt; session.projectProject('NeuropixelVisualBehavior')# - `pathlib` objects for filesystem paths:&gt;&gt;&gt; session.lims_path.as_posix()'//allen/programs/braintv/production/visualbehavior/prod0/specimen_1098595957/ecephys_session_1116941914'&gt;&gt;&gt; session.data_dict['es_id']'1116941914'# - `datetime` objects for easy date manipulation:&gt;&gt;&gt; session.datedatetime.date(2021, 7, 21)# - dictionaries from lims (loaded lazily):&gt;&gt;&gt; session.mouse.limsLIMS2MouseInfo(576323)&gt;&gt;&gt; session.mouse.lims.id1098595957&gt;&gt;&gt; session.mouse.lims['full_genotype']'wt/wt'# with useful string representations:&gt;&gt;&gt; str(session.mouse)'576323'&gt;&gt;&gt; str(session.project)'NeuropixelVisualBehavior'&gt;&gt;&gt; str(session.rig)        # from `np_config` package'NP.0'```</longdescription>
+</pkgmetadata>

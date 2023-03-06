@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## OverviewOCR Meter Reading## Setup`conda create -n ocr_license python=3.7``conda activate ocr_license``pip install ocr-license==0.0.2`Example code:```from ocr import ocr_licenseimg_path = &quot;tests/1.png&quot;ocr = ocr_license.OcrLicense()# license_type choice in (my_number_card, driver_license)ocr.inference_single(img_path, license_type=&quot;my_number_card&quot;)```</longdescription>
+</pkgmetadata>

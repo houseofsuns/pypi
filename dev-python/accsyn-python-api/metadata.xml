@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># accsyn-python-apiOfficial accsyn fast film delivery Python APIComplete Python API reference can be found [here](https://support.accsyn.com/python-api).Changelog:----------See doc/release_notes.rstHenrik Norin, HDR AB, 2022accsyn(r) - secure data delivery and workflow synchttps://accsyn.com https://support.accsyn.com</longdescription>
+</pkgmetadata>

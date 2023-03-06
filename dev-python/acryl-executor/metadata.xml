@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Acryl ExecutorRemote execution agent used for running DataHub tasks, such as ingestion powered through the UI. ```bashpython3 -m venv --upgrade-deps venvsource venv/bin/activatepip3 install .```## NotesBy default, this library comes with a set of default task implementations: ### RUN_INGEST Task- **SubprocessProcessIngestionTask** - Executes a metadata ingestion run by spinning off a subprocess. Supports ingesting from a particular version, and with a specific plugin (based on the platform type requested) - **InMemoryIngestionTask** - Executes a metadata ingestion run using the datahub library in the same process. Not great for production where we can see strange dependency conflicts when certain packages are executed together. Use this for testing, as it has no ability to check out a specific DataHub Metadata Ingestion plugin. </longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Django Swagger Render## Getting Started### Prerequisites- python &gt;= 3.5- Django &gt;= 2.0### InstallationInstall using pip```pip install django-swagger-render```Add 'swagger_render' to your INSTALLED_APPS setting.```INSTALLED_APPS = [    ...    'swagger_render',]```Create the folder where you will store your documentation```mkdir docs```Create the `index.yml` file with some `OPENAPI` or `Swagger` specifications```touch docs/index.yml```Serve your documentation files```urlpatterns += static('/docs/', document_root='docs')```Add `SWAGGER_YAML_FILENAME` setting to your `settings.py````SWAGGER_YAML_FILENAME = '/docs/index.yml'```Add the `SwaggerUIView` to your urls```from swagger_render.views import SwaggerUIViewurlpatterns = [    ...    path('swagger/', SwaggerUIView.as_view()),]```Voila!</longdescription>
+</pkgmetadata>

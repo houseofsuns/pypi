@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>FastWER====A PyPI package for fast word/character error rate (WER/CER) calculation* fast (cpp implementation)* sentence-level and corpus-level WER/CER scores# Installation```bashpip install fastwer```# Example```pythonimport fastwerhypo = ['This is an example .', 'This is another example .']ref = ['This is the example :)', 'That is the example .']# Corpus-Level WER: 40.0fastwer.score(hypo, ref)# Corpus-Level CER: 25.5814fastwer.score(hypo, ref, char_level=True)# Sentence-Level WER: 40.0fastwer.score_sent(hypo[0], ref[0])# Sentence-Level CER: 22.7273fastwer.score_sent(hypo[0], ref[0], char_level=True)```# ContactChanghan Wang (wangchanghan@gmail.com)</longdescription>
+</pkgmetadata>

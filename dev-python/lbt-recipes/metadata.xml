@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![Build Status](https://github.com/ladybug-tools/lbt-recipes/workflows/CI/badge.svg)](https://github.com/ladybug-tools/lbt-recipes/actions)# lbt-recipesA collection of recipes that ship with the Ladybug Tools plugins.This includes Radiance recipes for daylight and radiation studiesusing [Radiance](http://radiance-online.org/).It also includes microclimate mapping recipes, which spatially map thermalcomfort using [EnergyPlus](https://github.com/NREL/EnergyPlus)/[OpenStudio](https://github.com/NREL/OpenStudio)and [Radiance](http://radiance-online.org/).## Installation`pip install -U lbt-recipes`To check if command line interface is installed correctly use `lbt-recipes viz` and youshould get a `viiiiiiiiiiiiizzzzzzzzz!` back in response!## Local Development1. Clone this repo locally```consolegit clone git@github.com:ladybug-tools/lbt-recipes# orgit clone https://github.com/ladybug-tools/lbt-recipes```2. Install dependencies:```consolecd lbt-recipespip install -r dev-requirements.txtpip install -r requirements.txt```3. Run Tests:```consolepython -m pytest ./tests```</longdescription>
+</pkgmetadata>

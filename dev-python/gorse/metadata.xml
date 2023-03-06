@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># gorse#### InstallingInstall and update using pip:```$ pip install -U gorse```#### A Simple Example```from gorse import route, run, template@route(&quot;/hello/&lt;name&gt;&quot;)def hello(name):    return template(&quot;&lt;b1&gt;Hello {{name}}&lt;/b1&gt;!&quot;, name=name)@route(&quot;/&quot;)def index():    return &quot;&lt;h1&gt;Hello world!&lt;/h1&gt;&quot;run(host=&quot;127.0.0.1&quot;, port=8000, debug=True)```#### Links- Documentation: [https://github.com/MarkHoo/gorse](https://github.com/MarkHoo/gorse)- PyPI Releases: [https://pypi.org/project/gorse/](https://pypi.org/project/gorse/)- Source Code: [https://github.com/MarkHoo/gorse](https://github.com/MarkHoo/gorse)- Issue Tracker: [https://github.com/MarkHoo/gorse/issues](https://github.com/MarkHoo/gorse/issues)- Website: [https://pypi.org/project/gorse/](https://pypi.org/project/gorse/)</longdescription>
+</pkgmetadata>

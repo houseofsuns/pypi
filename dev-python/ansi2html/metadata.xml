@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image:: https://github.com/pycontribs/ansi2html/workflows/tox/badge.svg?branch=main   :alt: Build Status - main branch   :target: https://github.com/pycontribs/ansi2html/actions?query=workflow%3Atox+branch%3Amainansi2html=========:Author: Ralph Bean &lt;rbean@redhat.com&gt;:Contributor: Robin Schneider &lt;ypid23@aol.de&gt;.. comment: split hereConvert text with ANSI color codes to HTML or to LaTeX... _pixelbeat: https://www.pixelbeat.org/docs/terminal_colours/.. _blackjack: https://web.archive.org/web/20100911103911/http://www.koders.com/python/fid5D57DD37184B558819D0EE22FCFD67F53078B2A3.aspxInspired by and developed off of the work of `pixelbeat`_ and `blackjack`_.`Read the docs &lt;https://ansi2html.readthedocs.io/&gt;`_ for more informations.Example - Python API--------------------&gt;&gt;&gt; from ansi2html import Ansi2HTMLConverter&gt;&gt;&gt; conv = Ansi2HTMLConverter()&gt;&gt;&gt; ansi = &quot;&quot;.join(sys.stdin.readlines())&gt;&gt;&gt; html = conv.convert(ansi)Example - Shell Usage---------------------:: $ ls --color=always | ansi2html &gt; directories.html $ sudo tail /var/log/messages | ccze -A | ansi2html &gt; logs.html $ task rc._forcecolor:yes limit:0 burndown | ansi2html &gt; burndown.htmlSee the list of full options with:: $ ansi2html --helpGet this project:-----------------:: $ pip3 install ansi2htmlSource:  https://github.com/pycontribs/ansi2html/pypi:    https://pypi.org/project/ansi2html/License-------``ansi2html`` is licensed LGPLv3+.</longdescription>
+</pkgmetadata>

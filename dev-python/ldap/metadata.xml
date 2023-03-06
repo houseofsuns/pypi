@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># `ldap` on PyPIThis dummy project is not installable.You probably want `python-ldap` instead.### python-ldapThe widely used [python-ldap](https://python-ldap.org) project providesan importable module named `ldap`.This goes against the convention that PyPI distribution names shouldmatch the module names.But, python-ldap pre-dates wide use of that convention, and the issueis hard to fix now.Please install `python-ldap` to get the LDAP bindings.### ldap 1.0The `ldap` name on PyPI was used for an unrelated collection ofLDAP-related utilities, which is not as popular, and confused users whoinstall `ldap` to get the `ldap` module.The project is no longer developed.It is archived as `1.0.x` releases on PyPI, and on[GitHub](https://github.com/andreif/ldap).## Why we don't fix this transparentlyThis could have been a placeholder  package that depends on `python-ldap`,saving you the trouble of reading this message.However, `pip` [has trouble](https://github.com/pypa/pip/issues/4961)with differently-named packages that provide the same module.## Please: Don't install packages blindlyWhen you see the exception:```ModuleNotFoundError: No module named 'foo'```… please research the actual requirements instead of going directly for`pip install foo`.The project (distribution) name may differ from the module(s) itprovides.</longdescription>
+</pkgmetadata>

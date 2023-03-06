@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Cazoo CloudwatchThis repository is meant to be part of to be a helper among all the functions that we use internally at Cazoo.Right now, it's just a simple CW put_events function. # PrereqsI personally use twine to upload the packages to pypi`pip install twine`# Build and upload versionspython setup.py sdisttwine upload dist/* --username &lt;username&gt;</longdescription>
+</pkgmetadata>

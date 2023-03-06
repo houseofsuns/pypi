@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>====================HubSpot Api Wrapper===================HubSpot API Wrapper for python. not a complete packageTo Install for Development testing:pip install hubspot --preto upgrade packagepip install hubspot --pre --upgradeUsage:portal = HubSpot(portal_id=&quot;YourPortal&quot;, hapikey=&quot;YOUR_HAPI_KEY&quot;)Modules:portal.filesportal.contactsportal.propertiesportal.form More to come.</longdescription>
+</pkgmetadata>

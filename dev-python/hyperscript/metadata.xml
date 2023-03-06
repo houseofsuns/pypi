@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># HyperscriptHyperscript is a lightweight library that allows you to write HTML with Python. It is heavily inspired by [HyperScript](https://github.com/hyperhype/hyperscript).## Example usage```&gt;&gt;&gt; print(h(&quot;p&quot;, &quot;Hello world!&quot;))&lt;p&gt;Hello world!&lt;/p&gt;```Class and id selectors```&gt;&gt;&gt; print(h(&quot;p.class1#id&quot;, &quot;Hello world!&quot;))&lt;p class=&quot;class1&quot; id=&quot;id&quot;&gt;Hello world!&lt;/p&gt;```Style```&gt;&gt;&gt; print(h(&quot;p&quot;, &quot;Hello world!&quot;, {&quot;style&quot;: {&quot;color&quot;: &quot;red&quot;}}))&lt;p style=&quot;color: red&quot;&gt;Hello world!&lt;/p&gt;```Nesting elements```&gt;&gt;&gt; print(h(&quot;div&quot;, h(&quot;p&quot;, &quot;Hello world!&quot;)))&lt;div&gt;&lt;p&gt;Hello world!&lt;/p&gt;&lt;/div&gt;```Properties```&gt;&gt;&gt; print(h(&quot;a&quot;, {&quot;href&quot;: &quot;https://www.example.com&quot;}, &quot;link&quot;))&lt;a href=&quot;https://www.example.com&quot;&gt;link&lt;/a&gt;```</longdescription>
+</pkgmetadata>

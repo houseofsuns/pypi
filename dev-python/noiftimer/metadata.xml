@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># noiftimerSimple timer class to track average elapsed time with optional sub-second precision.&lt;br&gt;Install with:&lt;pre&gt;pip install noiftimer&lt;/pre&gt;Usage:&lt;pre&gt;from noiftimer import Timerimport timedef very_complicated_function():    time.sleep(1)timer = Timer()for _ in range(10):    timer.start()    very_complicated_function()    timer.stop()print(f'{timer.average_elapsed_time=}')print(timer.get_stats(subsecond_resolution=True))&lt;/pre&gt;produces&lt;pre&gt;timer.average_elapsed_time=1.0006019elapsed time: 1s 836usaverage elapsed time: 1s 601us&lt;/pre&gt;</longdescription>
+</pkgmetadata>

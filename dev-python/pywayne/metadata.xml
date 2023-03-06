@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># This is a useful tool created by Wayne## Currently includes:- data-structure- dsp- gui- math- tools- tt_api- ocs_api# InstallationTry to run &quot;pip install pywayne&quot; in your commond line tool.# How to usefrom pywayne.tools import *files = list_all_files(path_to_root)...# P.S.Feel free to contact me whenever you need help using this tool.e-mail: wang121ye@hotmail.comleetcode: http://leetcode.com/wangyehopegithub: http://github.com/wangyendtPull-requests are always welcomed.Hopefully this may help you somewhere!</longdescription>
+</pkgmetadata>

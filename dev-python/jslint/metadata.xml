@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>============================================================DEPRECATEDThis wrapper has been superseded by JSLint Reporter:http://github.com/FND/jslint-reporter============================================================command-line wrapper for JSLinthttp://github.com/FND/jslint-cliUsage:  $ jslint-cli &lt;filename&gt;Using Douglas Crockford's JavaScript libraries:* JSLint (http://jslint.com)* JSON (http://json.org)Prior ArtMore sophisticated wrappers exist in other languages:http://search.cpan.org/dist/JavaScript-JSLint/bin/jslinthttp://www.corybennett.org/projects/http://code.google.com/p/jslint4java/However, these are either not suitable for my own purposes or are not beingactively maintained.</longdescription>
+</pkgmetadata>

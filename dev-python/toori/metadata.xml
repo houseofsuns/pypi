@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ![icon](https://github.com/kokseen1/Toori/blob/master/toori/icon.png?raw=true) Toori [![PyPI Release](https://github.com/kokseen1/Toori/actions/workflows/release.yml/badge.svg)](https://github.com/kokseen1/Toori/actions/workflows/release.yml)[![PyPI Version](https://img.shields.io/pypi/v/toori.svg)](https://pypi.python.org/pypi/toori/)A minimal layer 3 tunnel over http(s).## Prerequisites- [MSVC Build Tools](https://visualstudio.microsoft.com/downloads/)## Installation```pip install toori```## UsageRun as Administrator:```shelltoori &lt;server address&gt;```e.g.```toori https://toori.server```</longdescription>
+</pkgmetadata>

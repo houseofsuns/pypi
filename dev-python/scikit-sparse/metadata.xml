@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Sparse matrix tools.This is a home for sparse matrix code in Python that plays well withscipy.sparse, but that is somehow unsuitable for inclusion in scipyproper. Usually this will be because it is released under the GPL.So far we have a wrapper for the CHOLMOD library for sparse Choleskydecomposition. Further contributions are welcome!</longdescription>
+</pkgmetadata>

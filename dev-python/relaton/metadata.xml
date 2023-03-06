@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>relaton-py==========.. image:: https://codecov.io/gh/relaton/relaton-py/branch/master/graph/badge.svg?token=TLQzB7fg5U   :target: https://codecov.io/gh/relaton/relaton-py      Utilities and data models for working with Relaton bibliographic items.For latest documentation, see https://relaton-py.readthedocs.io/.</longdescription>
+</pkgmetadata>

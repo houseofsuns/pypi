@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. -*-restructuredtext-*-.. image:: https://github.com/ubernostrum/django-flashpolicies/workflows/CI/badge.svg   :alt: CI status image   :target: https://github.com/ubernostrum/django-flashpolicies/actions?query=workflow%3ACIThis application provides management of Flash cross-domain accesspolicies for `Django &lt;https://www.djangoproject.com&gt;`_ sites. Forexample, the following URL pattern is all you'd need to set upcross-domain access for Flash files served from your media server:.. code:: python    from django.urls import path    from flashpolicies.views import allow_domains    urlpatterns = [        # ...your other URL patterns here...        path(            'crossdomain.xml',            allow_domains,            {'domains': ['media.example.com']}        ),    ]Various other views are included, handling other common andnot-so-common cases, as well as utilities for generating customcross-domain policies.Full documentation for all functionality is also included and`available online&lt;https://django-flashpolicies.readthedocs.io/&gt;`_.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>==========GenomeHubs==========Installation============::    conda install -c tolkit genomehubsor     pip install genomehubsYou can also install the in-development version with::    pip install https://github.com/genomehubs/genomehubs/archive/main.zipDocumentation=============https://genomehubs.readthedocs.io/Development===========To run all tests run::    toxChangelog=========2.0.0 (2020-07-02)------------------* First release on PyPI.</longdescription>
+</pkgmetadata>

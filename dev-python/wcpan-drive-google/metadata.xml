@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># wcpan.drive.googleGoogle Drive driver for wcpan.drive.Please use `wcpan.drive.google.driver.GoogleDriver` as the driver class.## RequirementNeed a `client_secret.json` file provided in **config path**.You can download it from Google Developer Console.## Config ExampleIn code:```pythonfactory = DriveFactory()# put client_secret.json at herefactory.config_path = '/path/to/config'# assign driver classfactory.driver = 'wcpan.drive.google.driver.GoogleDriver'factory.load_config()```Or in `core.yaml`:```yamlversion: 1database: nodes.sqlitedriver: wcpan.drive.google.driver.GoogleDrivermiddleware: []```</longdescription>
+</pkgmetadata>

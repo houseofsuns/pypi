@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># PyTest Plus Plugin :: extends pytest functionality[![PyPI version](https://img.shields.io/pypi/v/pytest-plus.svg)](https://pypi.org/project/pytest-plus)[![Python versions](https://img.shields.io/pypi/pyversions/pytest-plus.svg)](https://pypi.org/project/pytest-plus)![CI](https://github.com/pytest-dev/pytest-plus/workflows/tox/badge.svg)[![Python Black Code Style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/python/black)This plugin aims to be used to host multiple basic pytest extensions that meetthe following criteria:- Downgrade gracefully, meaning that if the plugin is removed, you will still  be able to run pytest## PYTEST_REQPASSIf you define environment variable `PYTEST_REQPASS=123` and at the end of thetesting the number of passed tests isnot exactly 123, pytest will return exit code 1.This feature is aimed for CI usage in order to prevent accidental skipping ofsome tests. We do expect users to define this variable within their own CI jobdefinitions. The number of tests executed is likely to be dependent on the CIjob.We discourage defining this inside places like `tox.ini` because when adeveloper runs tests, they are likely to endup running a different number oftests. Also, this feature makes no sense if you try to mention a specific test.## Links- [MIT](http://opensource.org/licenses/MIT)- [file an issue](https://github.com/pytest-dev/pytest-plus/issues)- [pytest](https://github.com/pytest-dev/pytest)- [tox](https://tox.readthedocs.io/en/latest/)- [pip](https://pypi.org/project/pip/)- [PyPI](https://pypi.org/project)</longdescription>
+</pkgmetadata>

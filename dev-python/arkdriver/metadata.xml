@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Ark-Bot## Install the Executable#### AMD ComputersTo run this make sure you have python 3.10 installed and run this executable:```Ark-Driver/pywin32-304.win-amd64-py3.10.exe```#### Intel ComputersTo run this make sure you have python 3.9 installed and run this executable:```Ark-Driver/pywin32-304.win32-py3.9.exe```## Choosing a terminalPick which terminal you'll be running the bot:- [Linux Terminal](#linux-terminal)- [Window Terminal](#windows-terminal)## Linux TerminalInstall the arkdriver.```shellpip3 install arkdriver```Run your python environment.```shellpython3```In your python environment enter the following:```pythonfrom arkdriver import runrun()```You're running the bot now. Now go to the [Final Steps](#final-steps)## Windows TerminalInstall the arkdriver.```shellpip install arkdriver```Run your python environment.```shellpython```In your python environment enter the following:```pythonfrom arkdriver import runrun()```You're running the bot now. Now go to the [Final Steps](#final-steps)## Final StepsHop into your server and activate GCM (aka Admin mode). Go into the Ark-API and submit a command. The bot shouldhave received the command if done correctly.</longdescription>
+</pkgmetadata>

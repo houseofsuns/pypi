@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>cfdtools-----[![PyPi Version](https://img.shields.io/pypi/v/cfdtools.svg?style=flat)](https://pypi.org/project/cfdtools)[![PyPI pyversions](https://img.shields.io/pypi/pyversions/cfdtools.svg?style=flat)](https://pypi.org/pypi/cfdtools/)[![GitHub stars](https://img.shields.io/github/stars/jgressier/cfdtools.svg?style=flat&amp;logo=github&amp;label=Stars&amp;logoColor=white)](https://github.com/jgressier/cfdtools)[![PyPi downloads](https://img.shields.io/pypi/dm/cfdtools.svg?style=flat)](https://pypistats.org/packages/cfdtools)[![codecov](https://img.shields.io/codecov/c/github/jgressier/cfdtools.svg?style=flat)](https://codecov.io/gh/jgressier/cfdtools)[![Codacy Badge](https://app.codacy.com/project/badge/Grade/d32cf67a5fa242c88bb1568277f1d60e)](https://app.codacy.com/gh/jgressier/cfdtools/dashboard?utm_source=gh&amp;utm_medium=referral&amp;utm_content=&amp;utm_campaign=Badge_grade)[![Doc](https://readthedocs.org/projects/cfdtools/badge/?version=latest)](https://readthedocs.org/projects/cfdtools/)[![Slack](https://img.shields.io/static/v1?logo=slack&amp;label=slack&amp;message=contact&amp;style=flat)](https://join.slack.com/t/isae-opendev/shared_invite/zt-obqywf6r-UUuHR4_hc5iTzyL5bFCwpw)### Features    - IC3 v2 or v3 reader    - IC3 v2 or v3 writer    - generic format command line: `cfdinfo`, `cfdwrite_ic3v3`    - specific IC3 command line: `ic3brief`### Installation and usage    pip install cfdtools### Requirementssee [requirements.txt](https://github.com/jgressier/cfdtools/blob/master/requirements.txt)</longdescription>
+</pkgmetadata>

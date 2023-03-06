@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># DBnomics SolrIndex DBnomics data into Apache Solr for full-text and faceted search.Requirements:- a running instance of [Apache Solr](http://lucene.apache.org/solr/); at the time this documentation is written, we use the version 7.3.See [dbnomics-docker](https://git.nomics.world/dbnomics/dbnomics-docker) to run a local DBnomics instance with Docker that includes a service for Apache Solr.## ConfigurationEnvironment variables:- `DEBUG_PYSOLR`: display pysolr DEBUG logging messages (cf &lt;https://github.com/django-haystack/pysolr&gt;)## Index a providerReplace `wto` by the real provider slug in the following command:```bashdbnomics-solr index-provider /path/to/wto-json-data```### Full mode vs incremental modeWhen data is stored in a regular directory, the script always indexes all datasets and series of a provider. This is called _full mode_.When data is stored in a Git repository, the script runs by default in _incremental mode_: it indexes only the datasets modified since the last indexation.It is possible to force the _full mode_ with the `--full` option.### Bare repositoriesThe script has an option `--bare-repo-fallback` which tries to add `.git` at the end of the storage dir name, if not found.## Remove all data from a providerTo remove all the documents related to a provider (`type:provider`, `type:dataset` and `type:series`):```bashdbnomics-solr --debug delete-provider --code &lt;provider_code&gt;dbnomics-solr --debug delete-provider --slug &lt;provider_slug&gt;# Examples:dbnomics-solr --debug delete-provider --code WTOdbnomics-solr --debug delete-provider --slug wto```</longdescription>
+</pkgmetadata>

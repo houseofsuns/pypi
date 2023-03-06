@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>**Bayesian Analysis of Galaxies for Physical Inference and Parameter EStimation**Bagpipes is a state of the art code for generating realistic model galaxy spectra and fitting these to spectroscopic and photometric observations. For further information please see the Bagpipes documentation at `bagpipes.readthedocs.io &lt;http://bagpipes.readthedocs.io&gt;`_.Bagpipes can be installed with pip:.. code::    pip install bagpipesPlease note you cannot run the code just by cloning the repository as the large grids of models aren't included... image:: docs/images/sfh_from_spec.png</longdescription>
+</pkgmetadata>

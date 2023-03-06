@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Asynchronous GLObal REDis InterfaceImplements a small interface around the basic `redis.Redis()` client meant to be sharedacross different files in the same process that need access to the same redis instance.This implementation has two major goals:1. Allow sharing the same Client object across different files without having to passthe object itself each time.2. Allow asynchronous calls to the redis interface, specially when submitting data to avoid any disruption in running code## UsageThe usage of this library is straight forward and it implements the basic `redis.Redis()` methods:```pythonfrom glored import redis_clientimport time# Synchronousredis_client.set('some_key', 'some_value')result = redis_client.get('some_key')# Asynchronousredis_client.asynchronous.set('some_key', 'other_value')time.sleep(1)result = redis_client.get('some_key')```</longdescription>
+</pkgmetadata>

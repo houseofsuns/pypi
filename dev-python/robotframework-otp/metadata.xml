@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Robotframework-OTP==================.. contents::Introduction------------Robotframework-OTP is a `Robot Framework`_ testlibrary for generating two-factor One Time Passwords.  The project is hosted on GitHub_and downloads can be found from PyPI_... image:: https://circleci.com/gh/FormulatedAutomation/robotframework-otp.svg?style=svg    :target: https://app.circleci.com/pipelines/github/FormulatedAutomation/robotframework-otp`Libdocs &lt;https://itsautomic.github.io/robotframework-otp&gt;`_Installation------------    pip install robotframework-otpUsage-----.. code:: robotframework    *** Settings ***    Library                OTP    *** Test Cases ***    Get OTP from secret        ${otp}=    Get OTP    ${SECRET}        Should Match Regexp  ${otp}\\d{6}Update Docs-----------    python -m robot.libdoc src/OTP/ doc/OTP.html.. _Github: https://github.com/itsautomic/robotframework-otp.. _pypi: https://pypi.org/project/robotframework-otp.. _Robot Framework: https://robotframework.org</longdescription>
+</pkgmetadata>

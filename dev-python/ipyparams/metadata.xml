@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ipyparamsSend parameters/arguments to notebooks via URL query string parameters.## ExamplesIf you want to prepopulate parameters like `foo=bar` and `baz=1` in a notebook, you can simply encode them in the URL:```https://your.jupyter.server/awsome_notebook.ipynb?foo=bar&amp;baz=1```In the notebook, just include the following:```pythonimport ipyparams```The values are now accessible in the `ipyparams.params` dictionary.```pythonipyparams.params['foo']  # returns &quot;bar&quot;ipyparams.params['baz']  # returns &quot;1&quot;```### Duplicate parametersURL query strings can contain multiple parameters with the same name, such as `https://your.jupyter.server/awsome_notebook.ipynb?foo=bar&amp;foo=baz`.  The `ipyparams.params` dictionary only contains the last value for each name, but you can still access all the &quot;raw&quot; parameters using `ipyparams.raw_params` dictionary.```pythonimport ipyparamsipyparams.params['foo']      # returns 'baz'ipyparams.raw_params['foo']  # returns ['bar', 'baz']```### Missing parametersIf you try to access a parameter that does not exist, you will simply get `None` back.```pythonimport ipyparamsipyparams.params['unicorn']      # returns Noneipyparams.raw_params['unicorn']  # returns None```### Get the notebook name```pythonimport ipyparamsipyparams.notebook_name  # returns 'awesome_notebook.ipynb'```### Get the full, raw URL of the notebook```pythonimport ipyparamsipyparams.raw_url# returns https://your.jupyter.server/awsome_notebook.ipynb?foo=bar&amp;baz=1```</longdescription>
+</pkgmetadata>

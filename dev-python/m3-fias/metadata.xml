@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Пакет ``m3-fias`` предоставляет панель для ввода адресов Российской Федерации сиспользованием `ФИАС &lt;https://fias.nalog.ru/&gt;`_ (Федеральной информационнойадресной системы), готовую к использованию в проектах на базе платформы`M3 &lt;http://m3.bars-open.ru/&gt;`_ компании `БАРС Груп &lt;http://bars.group&gt;`_.Возможности-----------* Работа с сервером ФИАС `django-rest-fias &lt;https://bitbucket.org/barsgroup/  django-rest-fias&gt;`_.* Встраивание в интерфейс веб-приложений на базе ExtJS.* Поиск адресов в ФИАС по мере ввода наименований адресных объектов (субъектов  Федерации, населенных пунктов, улиц, зданий).Системные требования--------------------* `Python &lt;http://www.python.org/&gt;`_ 2.7* `Django &lt;http://djangoproject.com/&gt;`_ 1.4 --- 1.11* `m3-core &lt;https://pypi.python.org/pypi/m3-core&gt;`_ 2.2* `m3-ui &lt;https://pypi.python.org/pypi/m3-ui&gt;`_ 2.2Установка---------..  pip install m3-fias</longdescription>
+</pkgmetadata>

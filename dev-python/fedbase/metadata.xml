@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># FedBaseAn easy, modularized, DIY Federated Learning framework with many baselines for individual researchers.## Installation[fedbase @ pypi](https://pypi.org/project/fedbase/)```pythonpip install --upgrade fedbase```## Baselines1. Centralized training2. Local training3. FedAvg, [Communication-Efficient Learning of Deep Networksfrom Decentralized Data](https://arxiv.org/abs/1602.05629)4. FedAvg + Finetune5. Fedprox, [Federated Optimization in Heterogeneous Networks](https://arxiv.org/abs/1812.06127)5. Ditto, [Ditto: Fair and Robust Federated Learning Through Personalization](https://arxiv.org/abs/2012.04221)6. WeCFL, [On the Convergence of Clustered Federated Learning](https://arxiv.org/abs/2202.06187)7. IFCA, [An Efficient Framework for Clustered Federated Learning](https://arxiv.org/abs/2006.04088)8. FeSEM, [Multi-Center Federated Learning](https://arxiv.org/abs/2005.01026)8. To be continued...## Three steps to achieve FedAvg!1. Data partition2. Nodes and server simulation3. Train and test## Design philosophy1. Dataset    1. Dataset        1. MNIST        2. CIFAR-10        3. Fashion-MNIST        4. ...    2. Dataset partition        1. IID        2. Non-IID            1. Dirichlet distribution            2. N-class            3. ...        3. Fake data        4. ...    &lt;!-- 3. Batch_size --&gt;2. Node    1. Local dataset    2. Model    3. Objective    4. Optimizer    5. Local update    6. Test3. Server    1. Model    2. Aggregate    3. Distribute4. Server &amp; Node    1. Topology    2. Client sampling    3. Exchange message5. Baselines    1. Global    2. Local    3. FedAvg6. Visualization## How to develop your own FL with fedbase?</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Curl_Navi&gt; Class and functions of curriculum reinforcement learning for robot navigation## 0. SetupWe setup a docker container for running the code.### 0.1 Dockerhost $ source ipc_run.sh### 0.2 Generate README and Documentationsdocker $ nbdev_build_docs### 0.3 Generate Python Librarydocker $ nbdev_build_lib## 1. Get Started### 1.1 Download Environments ### 1.2 Visualize Paires of Start and End Points### 1.3 Visualize Environment Difficulty## 2. Inference### 2.1 Download Pre-trained Weights### 2.2 Run Single Inference### 2.3 Run Evaluations`cd ~/curl_navi`## 3. Training ### 3.1 Training in Single Environment### 3.2 Curriculum RL Training in 2 Environmets ### 3.3 Curriculum Scheduler</longdescription>
+</pkgmetadata>

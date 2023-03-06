@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Nehushtan (נְחֻשְׁתָּן)A toolkit for projects in Python![PyPI](https://img.shields.io/pypi/v/nehushtan)![PyPI - Python Version](https://img.shields.io/pypi/pyversions/nehushtan)![PyPI - License](https://img.shields.io/pypi/l/nehushtan)![PyPI - Downloads](https://img.shields.io/pypi/dm/nehushtan)![https://www.jetbrains.com/community/opensource/#support](https://img.shields.io/badge/PyCharm-Licenses%20for%20Open%20Source%20Development-yellowgreen)&lt;img src=&quot;https://github.com/sinri/nehushtan/blob/master/icon.png?raw=true&quot; width=&quot;64&quot; height=&quot;64&quot;&gt;&lt;/img&gt;&gt; ipse dissipavit excelsa et contrivit statuas et succidit lucos confregitque serpentem aeneum quem fecerat Moses siquidem usque ad illud tempus filii Israhel adolebant ei incensum vocavitque eum NaasthanLicense: MIT## Category### CLIHelp to handle the command line parameters.### HelperProvide an easier way to access to class, data, etc.### LoggingProvide a solution for logging, other than the default.### MailA package to support EMail related tasks.### MySQLProvide a high-to-low solution on MySQL access, with Model support.### QueueA designed framework for queue using `subprocess`. ### Multi-ProcessingSupport for multiprocessing queue.</longdescription>
+</pkgmetadata>

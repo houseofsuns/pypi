@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>cssselect2 is a straightforward implementation of CSS4 Selectors for markupdocuments (HTML, XML, etc.) that can be read by ElementTree-like parsers(including cElementTree, lxml, html5lib, etc.)* Free software: BSD license* For Python 3.7+, tested on CPython and PyPy* Documentation: https://doc.courtbouillon.org/cssselect2* Changelog: https://github.com/Kozea/cssselect2/releases* Code, issues, tests: https://github.com/Kozea/cssselect2* Code of conduct: https://www.courtbouillon.org/code-of-conduct.html* Professional support: https://www.courtbouillon.org* Donation: https://opencollective.com/courtbouilloncssselect2 has been created and developed by Kozea (https://kozea.fr/).Professional support, maintenance and community management is provided byCourtBouillon (https://www.courtbouillon.org/).Copyrights are retained by their contributors, no copyright assignment isrequired to contribute to cssselect2. Unless explicitly stated otherwise, anycontribution intentionally submitted for inclusion is licensed under the BSD3-clause license, without any additional terms or conditions. For fullauthorship information, see the version control history.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Basedmypy -- Based Static Typing for Python===========================================Ever tried to use pythons type system and thought to yourself &quot;This doesn't seem based&quot;.Well fret no longer as basedmypy got you covered!Baseline--------Basedmypy has baseline, baseline is based! It allows you to adopt new features from basedmypywithout the burden of fixing up every usage, just save all current errors to the baselinefile and deal with them later... code-block:: python    def foo(a):        print(a).. code-block:: bash    &gt; mypy .    error: missing typehints !!!!!    Epic fail bro!    &gt; mypy --write-baseline .    error: missing typehints    Baseline successfully saved!    &gt; mypy .    Looks good to me, no errors!</longdescription>
+</pkgmetadata>

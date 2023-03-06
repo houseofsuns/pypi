@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># 带带弟弟小工具1.功能- 爬虫基类- 爬虫基类2（selenium）- mail- ftp 下载；删除- retry 重试器，只支持在类中使用- mysql 操作类---2. 使用    ```shell    pip install -i https://pypi.org/simple/ dddd-utils    ```3. 打包    ```shell    python3 -m build    python3 -m twine upload --repository testpypi dist/*        python3 -m twine upload --repository pypi dist/*    ```</longdescription>
+</pkgmetadata>

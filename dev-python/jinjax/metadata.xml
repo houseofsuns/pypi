@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;h1&gt;  &lt;img src=&quot;https://github.com/jpsca/jinjax/raw/main/logo.png&quot;width=&quot;48&quot; height=&quot;48&quot; align=&quot;top&quot;&gt;  JinjaX&lt;/h1&gt;From chaos to clarity: The power of components in your server-side-rendered Python web app.**Documentation:** https://jinjax.scaletti.dev/Write server-side components as single Jinja template files.Use them as HTML tags without doing any importing.## About- This project is developed by *Juan-Pablo Scaletti*.&lt;br&gt;- I love building products and sharing knowledge.</longdescription>
+</pkgmetadata>

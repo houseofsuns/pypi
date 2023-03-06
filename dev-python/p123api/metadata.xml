@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Portfolio123 API WrapperSample code:```pythonimport p123apitry:    client = p123api.Client(api_id='your api id', api_key='your api key')    print(client.screen_run({'screen': {'type': 'stock', 'universe': 'nasdaq100'}, 'asOfDt': '2020-05-12'}))except p123api.ClientException as e:    print(e)``` </longdescription>
+</pkgmetadata>

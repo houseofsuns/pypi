@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># BEEComThis is a simple console writen in python to control the BEETHEFIRST 3D printer from BEEVERYCREATIVE.To use this tool clone the current repository to your computer and run it bu calling &quot;python beeconsole.py&quot;## Requirements- Python 2.7- pyusb- libusb## Installation### Mac OSX- Install brew package manager (http://brew.sh)- Install python 2.7 (https://www.python.org)- Install pyusb (run &quot;sudo pip install pyusb&quot; in a terminal window)- Install libusb (run &quot;brew install libusb&quot; in a terminal window)### Linux- Install python 2.7 (run &quot;sudo apt-get install python&quot; in a terminal window)- Install pip (run &quot;sudo apt-get install python-pip&quot; in a terminal window)- Install pyusb (run &quot;sudo pip install pyusb&quot; in a terminal window)## Run### Mac OSX$python beeconsole.py</longdescription>
+</pkgmetadata>

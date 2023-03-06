@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>#################Python Test Utils#################This is a collection of common tools used in system tests of Python client libraries for Google APIs.We use `nox &lt;https://nox.readthedocs.io/en/latest/&gt;`__ to instrument our tests. This package is added to each `nox` session as described in each repository's ``noxfile.py``.</longdescription>
+</pkgmetadata>

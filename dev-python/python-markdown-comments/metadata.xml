@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>mkdcomments===========Original plugin was created by [ryneeverett](https://github.com/ryneeverett/python-markdown-comments).A [Python-Markdown](https://github.com/waylan/Python-Markdown) preprocessor extension to ignore html comments opened by three dashes and any whitespace prior to them. I believe pandoc has similar functionality.```html&lt;!-- This is a standard html comment which will remain in the output. --&gt;&lt;!--- This is a markdown comment which this extension removes. --&gt;```Installation------------```shpip install python-markdown-comments```Example-------```python&gt;&gt;&gt; import markdown&gt;&gt;&gt; from python_markdown_comments import CommentsExtension&gt;&gt;&gt; comments = CommentsExtension()&gt;&gt;&gt; markdowner = markdown.Markdown(extensions=[comments])&gt;&gt;&gt; markdowner.convert(&quot;&quot;&quot;\... blah blah blah  &lt;!--- inline comment --&gt;...... &lt;!---multiline comment... multiline comment... multiline comment--&gt;...... even more text.&quot;&quot;&quot;)u'&lt;p&gt;blah blah blah&lt;/p&gt;\n&lt;p&gt;even more text.&lt;/p&gt;'```Infrequently Asked Questions----------------------------### How can I write about markdown comments without them being removed?In order to render markdown comments, you must *(a)*use them in an html block (which are not processed as markdown) and *(b)*escape the brackets so the browser won't think they're html comments. E.g.:```html&lt;pre&gt;&amp;lt;!--- meta markdown comment --&amp;gt;&lt;/pre&gt;```</longdescription>
+</pkgmetadata>

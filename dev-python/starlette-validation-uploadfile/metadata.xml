@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># starlette-validation-uploadfile***--- Now, in progress. ---***[![PyPI](https://img.shields.io/pypi/v/starlette-validation-uploadfile?color=orange)](https://pypi.org/project/starlette-validation-uploadfile/)[![License](https://img.shields.io/github/license/terib0l/starlette-validation-uploadfile)](https://github.com/terib0l/starlette-validation-uploadfile/blob/main/LICENSE)Middleware for validation upload-file in FastAPI and Starlette.## Installation```bashpip install starlette-validation-uploadfile```## What this package can do:- Put a limit on the size of the uploaded file- Restrict the types of files that can be uploaded## Usage example with FastAPIThe following is almost identical to `test.py`.  Note: requirements.txt is for test.```pythonfrom fastapi import FastAPI, Request, UploadFile, File from starlette_validation_uploadfile import ValidateUploadFileMiddlewareapp = FastAPI()app.add_middleware(        ValidateUploadFileMiddleware,        app_path=&quot;/upload/&quot;,        max_size=120000,        file_type=[&quot;image/png&quot;, &quot;image/jpeg&quot;])@app.post(&quot;/upload/&quot;)def upload_file(request: Request, file: UploadFile = File(...)):    form = request.form()    content_type = form[next(iter(form))].content_type    size = request.headers[&quot;content-length&quot;]    return {        &quot;filename&quot;: file.filename,        &quot;content_type&quot;: content_type,        &quot;file_size&quot;: size    }```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Dell EMC OEM extension for sushy================================Sushy is a client [library](https://github.com/openstack/sushy) designed tocommunicate with [Redfish](https://en.wikipedia.org/wiki/Redfish_(specification))based BMC.Redfish specification offers extensibility mechanism to let hardware vendorsintroduce their own features with the common Redfish framework. At the sametime, `sushy` supports extending its data model by loading extensions foundwithin its &quot;oem&quot; namespace.The `sushy-oem-idrac` package is a sushy extension package that aims atadding high-level hardware management abstractions, that are specific toDell EMC BMC (which is known under the name of iDRAC), to the tree of sushyRedfish resources.Example use-----------Once installed, sushy user can access Dell EMC OEM resources. For example,OEM extension of Manager resource can be instrumental for switching thenode to boot from a virtual media device:```pythonimport sushyroot = sushy.Sushy('http://mydellemcbmc.example.com')manager = root.get_manager('iDRAC.Embedded.1')oem_manager = manager.get_oem_extension('Dell')oem_manager.set_virtual_boot_device(    sushy.VIRTUAL_MEDIA_CD, persistent=False, manager=manager)    ```See full example of virtual media boot setup in the[functional test suite](https://github.com/etingof/sushy-oem-idrac/blob/master/sushy_oem_idrac/tests/functional/vmedia_boot.py).</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Mybox🖥️ This is a box. 📦 And it is mine. 🐱There are many 🍱 nice things in there. I wouldn't want 🧰 to be without them.Even if I move 🏠 or work 🏢 I want to be comfortable.---Manage the configuration and tools on your workstation without bothering the OStoo much (maybe your favorite one isn't supported by `$WORK` or you havedifferent ones for different roles).## Usage* Run the [bootstrap](bootstrap) script:  ```shell  /bin/bash -c &quot;$(curl -fsSL https://raw.githubusercontent.com/koterpillar/mybox/main/bootstrap)&quot;  ```* Run `mybox` from the directory with package definitions.  For package definition examples, see  [koterpillar/desktop](https://github.com/koterpillar/desktop/).* To install optional components, add their names as arguments, e.g.  `mybox development`.## DevelopmentPre-requisites (see [install-dev](install-dev) for ways to install):* [Poetry](https://python-poetry.org/)* [ShellCheck](https://www.shellcheck.net/)Run [`./lint`](lint) to check style &amp; types, `./lint --format` to applyformatting automatically.Run [`./test`](test) to execute the project's tests.### Running locally* Run `poetry install`.* Run `poetry shell`.* In the launched shell, go to the directory with package definitions.* Run `mybox` with the desired arguments.### ReleasingCreate and push a signed Git tag of the format `vX.Y.Z`. The release will bedone using GitHub actions.</longdescription>
+</pkgmetadata>

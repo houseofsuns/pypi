@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># epsonprinter-apiThis package can be used to scrape the ink levels from your Epson Workforce printer.## Usage:### ConnectionCreate the API object with the IP address of the printer, on connect the values are fetched from the printer```pythonapi = EpsonPrinterAPI(&lt;IP&gt;)```Fetches the latest values from the printer### Update values```pythonapi.update()```### Get actual values```python#regular coloursblack = api.getSensorValue(&quot;black&quot;)magenta = api.getSensorValue(&quot;magenta&quot;)cyan = api.getSensorValue(&quot;cyan&quot;)yellow = api.getSensorValue(&quot;yellow&quot;)# Cleaning cardridgeclean = api.getSensorValue(&quot;clean&quot;)```</longdescription>
+</pkgmetadata>

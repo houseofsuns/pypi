@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Jasmine is a Behavior Driven Development testing framework for JavaScript. It does not rely on browsers, DOM, or any JavaScript framework. Thus it's suited for websites, Node.js (http://nodejs.org) projects, or anywhere that JavaScript can run.The Jasmine packages for Python are deprecated. There will be no furtherreleases after the end of the Jasmine 3.x series. We recommend migrating to thefollowing options:* jasmine-browser-runner (&lt;https://github.com/jasmine/jasmine-browser&gt;,  `npm install jasmine-browser-runner`) to run specs in browsers, including  headless Chrome and Saucelabs. This is the most direct replacement for the  jasmine server` and `jasmine ci` commands provided by the `jasmine` Python  package.* The jasmine npm package (&lt;https://github.com/jasmine/jasmine-npm&gt;,  `npm install jasmine`) to run specs under Node.js.* The standalone distribution from the latest Jasmine release  &lt;https://github.com/jasmine/jasmine/releases&gt; to run specs in browsers with  no additional tools.* The jasmine-core npm package (`npm install jasmine-core`) if all you need is  the Jasmine assets. This is the direct equivalent of the jasmine-core Python  package.Except for the standalone distribution, all of the above are distributed throughnpm.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># GitLab PS UtilsGitLab PS utils is the foundational API and utilities libraries used by GitLab Professional Services. To see the source code, project backlog and contributing guide, [check here](https://gitlab.com/gitlab-org/professional-services-automation/gitlab-ps-utils)## Install```bashpip install gitlab-ps-utils```## UsageThis library contains various utility modules and classes.Refer to the repository source code to see available utility functions.### Importing a utility function```pythonfrom gitlab_ps_utils.string_utils import strip_numberstest_var = &quot;abc123&quot;print(strip_numbers(test_var))```### Importing a utility class```pythonfrom gitlab_ps_utils.api import GitLabApigl_api = GitLabApi()gl_api.generate_get_request(&quot;http://gitlab.example.com&quot;, &quot;token&quot;, &quot;/projects&quot;)```## Other resources### Python-GitLabWe include a basic GitLab API wrapper class in this library. We will include specific API wrapper functions in the future.Our wrapper class and specific wrappers were created when [python-gitlab](https://python-gitlab.readthedocs.io/en/stable/) was in a much earlier state,so we continued to use our wrapper instead of switching to python-gitlabFor generic requests to the GitLab API, our wrapper is more lightweight than python-gitlab,but python-gitlab is a great option for more complex API scripts</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>isoparser=========This python library can parse the `ISO 9660`_ disk image format including`Rock Ridge`_ extensions. It can load ISOs from the local filesystem or viaHTTP, and will only read and cache sectors as necessary. You list directorycontents, extract files, and retrieve metadata.Installation------------.. code-block:: console    $ pip install isoparserUsage-----.. code-block:: python    import isoparser    iso = isoparser.parse(&quot;http://www.microsoft.com/linux.iso&quot;)    print iso.record(&quot;boot&quot;, &quot;grub&quot;).children    print iso.record(&quot;boot&quot;, &quot;grub&quot;, &quot;grub.cfg&quot;).content.. _`ISO 9660`: https://en.wikipedia.org/wiki/ISO_9660.. _`Rock Ridge`: https://en.wikipedia.org/wiki/Rock_Ridge</longdescription>
+</pkgmetadata>

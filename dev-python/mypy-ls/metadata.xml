@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>DEPRECATED==========Use `pylsp-mypy`_ instead!.. _`pylsp-mypy`: https://pypi.org/project/pylsp-mypy/</longdescription>
+</pkgmetadata>

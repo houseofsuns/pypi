@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>**********IDEM-LINUX************Grains, execution modules, and state modules common to all linux systems**INSTALLATION============Install with pip::    pip install idem-linuxDEVELOPMENT INSTALLATION========================Clone the `idem-linux` repo and install with pip::    git clone https://gitlab.com/saltstack/pop/idem-linux.git idem_linux    pip install -e idem_linuxEXECUTION=========After installation the `grains` command should now be availableTESTING=======install `requirements-test.txt` with pip and run pytest::    pip install -r idem-linux/requirements-test.txt    pytest idem-linux/testsVERTICAL APP-MERGING====================Instructions for extending idem-linux into an OS or distro specific pop projectInstall pop::    pip install --upgrade popCreate a new directory for the project::    mkdir idem-{specific_linux_distro}    cd idem-{specific_linux_distro}Use `pop-seed` to generate the structure of a project that extends `grains` and `idem`::    pop-seed -t v idem-{specific_linux_distro} -d grains exec states* &quot;-t v&quot; specifies that this is a vertically app-merged project*  &quot;-d grains exec states&quot; says that we want to implement the dynamic names of &quot;grains&quot;, &quot;exec&quot;, and &quot;states&quot;Add &quot;idem-linux&quot; to the requirements.txt::    echo idem-linux &gt;&gt; requirements.txtAnd that's it!  Go to town making grains, execution modules, and state modules specific to your linux distro.Follow the conventions you see in idem-linux.For information about running idem states and execution modules check outhttps://idem.readthedocs.io</longdescription>
+</pkgmetadata>

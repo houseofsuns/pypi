@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># govuk-country-registerJijna2 filter that uses GOV.UK Registers to look up country codes.The register data is included in the package so no external requests are required.This package will be updated when new register data is released.## Usage```import jinja2from govuk_country_register import to_countryto_country(&quot;UK&quot;)  # &quot;United Kingdom&quot;jinja_env = jinja2.Environment()jinja_env.filters[&quot;to_country&quot;] = to_country```## Version History2019-08-16 version 0.5.0- Update country data2019-06-06 version 0.4.0- Refactor code to load CSVs from a Python package2019-06-06 version 0.3.1- Fix bug where unicode characters would cause issues on systems with the default locale2019-03-14 version 0.3.0- Update country data2019-02-12 version 0.2.2- Fix PyPI readme2019-02-12 version 0.2.1- Initial release</longdescription>
+</pkgmetadata>

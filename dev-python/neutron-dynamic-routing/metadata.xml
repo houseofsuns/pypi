@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Team and repository tags========================.. image:: http://governance.openstack.org/badges/neutron-dynamic-routing.svg    :target: http://governance.openstack.org/reference/tags/index.html.. Change things from this point onThis package contains neutron-dynamic-routing code which depends upon neutronand it's related libraries to run.Project Resources=================The homepage for Neutron is: https://launchpad.net/neutron.  Use thissite for asking for help, and filing bugs. We use a single launchpadpage for all Neutron projects.Code is available on opendev.org at:https://opendev.org/openstack/neutron-dynamic-routingRefer to Neutron documentation for more information:`Neutron README.rst &lt;https://opendev.org/openstack/neutron/src/branch/master/README.rst&gt;`_Release notes for the project can be found at:https://docs.openstack.org/releasenotes/neutron-dynamic-routing/</longdescription>
+</pkgmetadata>

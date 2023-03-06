@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pyrinnaitouch - python interface to Rinnai Touch Wifi Controllers![Pylint](https://github.com/funtastix/pyrinnaitouch/workflows/Pylint/badge.svg)This is a python interface to the [Rinnai Touch Wifi Controller](https://www.rinnai.com.au/online/controllers/heating-and-cooling-controllers/rinnai-touch-wi-fi/).The specifications for the interface are contained in the [included pdf](./NBW2API_Iss1.3.pdf).## UsageThis package is not a standalone application for end user implementation.The aim of this package is to be used by software developers and integrators to implementthe Rinnai Touch Wifi interface on home automation platforms (principally Home Assistant )## CreditThe [pescea interface](https://github.com/lazdavila/pescea) was used as a template andfor inspiration in developing this library (which got it off to a good start, so thanks!)</longdescription>
+</pkgmetadata>

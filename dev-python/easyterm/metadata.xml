@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Easyterm Convenient python functions for everyday use of terminalModule colorprint:- print message using terminal colors - print service messages to be refreshed, e.g. progress barsModule commandlineopt:- read/manage command line options with minimal coding  Module commandutils:- create temporary folders with random name- check file presence or checksumSee https://easyterm.readthedocs.io/</longdescription>
+</pkgmetadata>

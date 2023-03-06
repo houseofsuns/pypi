@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Sale Stock Quantity###################The sale_stock_quantity module check the stock quantity of the products whenquoting a sale. The check will warn the user if the forecast quantity at thesale date (and further dates until next supply) is lower than the quantity soldby considering other sales and the stock forecasts.</longdescription>
+</pkgmetadata>

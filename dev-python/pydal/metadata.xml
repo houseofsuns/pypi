@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pyDAL is a pure Python Database Abstraction Layer.It dynamically generates the SQL in real time using the specified dialect forthe database back end, so that you do not have to write SQL code or learndifferent SQL dialects (the term SQL is used generically), and your code willbe portable among different types of databases.pyDAL comes from the original web2py's DAL, with the aim of beingwide-compatible. pyDAL doesn't require web2py and can be used in anyPython context.Links-----* `website &lt;https://github.com/web2py/pydal&gt;`_* `documentation &lt;http://www.web2py.com/books/default/chapter/29/06/the-database-abstraction-layer&gt;`_</longdescription>
+</pkgmetadata>

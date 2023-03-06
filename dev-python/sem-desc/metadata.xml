@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># SEM-DESC ![PyPI](https://img.shields.io/pypi/v/sem-desc)Containing basic functions (input, output, dataset, evaluation metrics) for the semantic modeling problem.</longdescription>
+</pkgmetadata>

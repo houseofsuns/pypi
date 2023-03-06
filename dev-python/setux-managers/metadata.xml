@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Setup Managers[Setux] Managers[PyPI] - [Repo] - [Doc][PyPI]: https://pypi.org/project/setux_managers[Repo]: https://bitbucket.org/dugres/setux_managers[Doc]: https://setux-managers.readthedocs.io/en/latest[Setux]: https://setux.readthedocs.io/en/latest</longdescription>
+</pkgmetadata>

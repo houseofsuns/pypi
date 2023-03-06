@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=======mlbgame=======mlbgame is a Python API to retrieve and read MLB GameDay data.mlbgame works with real time data, getting information as games are being played.mlbgame uses the same data that MLB GameDay uses,and therefore is updated as soon as something happens in a game.mlbgame `documentation &lt;http://panz.io/mlbgame&gt;`__mlbgame on `Github &lt;https://github.com/panzarino/mlbgame&gt;`__  (Source Code)If you have a question or need help, the quickest way to get a response is to file an issue on the `Github issue tracker &lt;https://github.com/panzarino/mlbgame/issues/new&gt;`__mlbgame's submodules should not really be used other than as used by the main functions of the package (in ``__init__.py``).Use of mlbgame must follow the terms stated in the `license &lt;https://raw.githubusercontent.com/panzarino/mlbgame/master/LICENSE&gt;`__ and on `mlb.com &lt;http://gd2.mlb.com/components/copyright.txt&gt;`__Installation------------mlbgame is in the `Python Package Index (PyPI) &lt;http://pypi.python.org/pypi/mlbgame/&gt;`__.Installing with ``pip`` is recommended for all systems.mlbgame can be installed by running:::    pip install mlbgameAlternatively, the latest release of mlbgame can be downloaded as a `zip &lt;https://github.com/panzarino/mlbgame/archive/master.zip&gt;`__ or `tarball &lt;https://github.com/panzarino/mlbgame/archive/master.tar.gz&gt;`__.If you do not install with ``pip``, you must also install ``lmxl`` as specified in ``setup.py``.If you want to help develop mlbgame, you must also install the dev dependencies, which can be done by running ``pip install -e .[dev]`` from within the directory.</longdescription>
+</pkgmetadata>

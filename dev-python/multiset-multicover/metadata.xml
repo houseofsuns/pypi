@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This package implements the Greedy Cover algorithm for multisets        in `C++` and exposes it to Python.        Given a universe of elements U, and a family of subsets F = {S1, ..., Sn}        of U, the set cover problem asks to find the smallest number of sets in F        such that every element of U appears in at least one such set.        This can be extended to a multicover problem, where we ask that        every element be included at least k sets. This in turn, can be extended        to accomodate multisets, where each element in Si also has a given        multiplicity.        The set cover problem is NP hard. The best known algorithm        is a greedy approach that iteratively selects the set with the largest        number of elements that have not been covered yet. This algorithm        has a log(n)-approximation guarantee where n is the size of the largest set.        The same guarantee also applies to the multicover problem, as well as the        multiset multicover problem (n here corresponds to the size of the largest        set, counting multiplicities).</longdescription>
+</pkgmetadata>

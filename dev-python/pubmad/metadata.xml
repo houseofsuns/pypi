@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ProgettoBIO## How to use the no-code interfaceRun the server with the following commands:&gt; export FLASK_APP=server&gt; python server.pyThen head over to the react client (https://github.com/Pier297/BioSearch)and execute:&gt; npm start## How to use pubmad pyp libraryTo perform installation run:&gt; pip install pubmadThen check out the documentation to look at the available commands (https://pier297.github.io/ProgettoBIO/) or look at demo.ipynb notebook to get an overview of potential use of the commands.</longdescription>
+</pkgmetadata>

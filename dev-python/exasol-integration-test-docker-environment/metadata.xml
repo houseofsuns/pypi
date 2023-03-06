@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Integration Test Docker Environment===================================This project provides a command line interface and a Python API layer tostart a test environment with an `ExasolDocker-DB &lt;https://hub.docker.com/r/exasol/docker-db&gt;`_. Both start anExasol Docker-DB container, but the API Layer has extended functionalityand also can start an associated test container for whose content theclient is responsible.Documentation-------------`Documentation for the current main branch &lt;https://exasol.github.io/integration-test-docker-environment/main&gt;`_ is hosted on the Github Pages of this project.`Here &lt;https://exasol.github.io/integration-test-docker-environment&gt;`_  is a list of documentations for previous releases.</longdescription>
+</pkgmetadata>

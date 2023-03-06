@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Sken CLIThe full documentation for skencli can be found here:http://docs.sken.ai/en/articles/4331879-advanced-settings-set-up-sken-cli-and-sken-yaml----------For test purposes only, you can run:```skencli --test```In this state, the CLI will read from `skentest.yaml` and communicate with our test servers. The `orgid` and `appid` specified in `skentest.yaml` must come from our test servers.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=======rst2txt=======.. image:: https://badge.fury.io/py/rst2txt.svg   :target: https://badge.fury.io/py/rst2txt   :alt: PyPi Status.. image:: https://travis-ci.org/stephenfin/rst2txt.svg?branch=master   :target: https://travis-ci.org/stephenfin/rst2txt   :alt: Build StatusreStructuredText is pretty-damn consumable in its raw form, but extensive useof directives and roles can hamper things or leave the document incomplete inits raw form (cough, ``.. include``, cough).*rst2txt* allows you to work around this by evaluating the reStructuredTextsource and stripping it of most of its formatting. The end result is a documentthat's more readable and has elements that don't make sense in a plain textdocument, such as images, stripped.*rst2txt* is based on the ``sphinx.writer.text.TextWriter`` writer used bySphinx's `TextBuilder&lt;https://www.sphinx-doc.org/en/1.8/usage/builders/index.html#sphinx.builders.text.TextBuilder&gt;`__but with the Sphinx-specific features stripped out.Installation------------*rst2txt* is available on PyPI. To install, run:.. code-block:: shell   $ pip install --user rst2txtUsage-----Most users will want just the ``rst2txt`` application:.. code-block:: shell   $ rst2txt README.rstIt is also possible to call this programmatically though. This can be usefulfor things like consuming README files:.. code-block:: python   from docutils.core import publish_file   import rst2txt   with open('README.rst', 'r') as source:       publish_file(source=source, destination_path='README.txt',                    writer=rst2txt.Writer())</longdescription>
+</pkgmetadata>

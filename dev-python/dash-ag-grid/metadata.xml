@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># dash-ag-gridThank you for your interest in Dash AG Grid open source!The 1.x series of this package is commercially distributed oninstances of Dash Enterprise https://plotly.com/dash/.We haven't yet released the final v2.0.0 open-source version.To install an alpha release, you need to specify the versionexactly, for example `pip install dash-ag-grid==2.0.0a1`See https://pypi.org/project/dash-ag-grid/#historyfor the list of available versions.!! Be aware there will likely be breaking changes before thefinal v2.0.0 open-source release.If you are a Dash Enterprise customer and you want to continueusing the v1.x series, please ensure you've installed dash-ag-gridwith the `--extra-index-url` argument, either in your requirements.txtfile or in the command line, so that the package is installed fromDash Enterprise's private, commercial package repository instead of frompypi.org. Visit the docs for your Dash Enterprise installation at:https://&lt;your-dash-enterprise-instance&gt;/Docsfor details.</longdescription>
+</pkgmetadata>

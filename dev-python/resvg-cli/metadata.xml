@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>|CI Status|resvg wheels============This repository is used to build and publish precompiled Python`wheels &lt;https://pythonwheels.com/&gt;`__ for the`resvg &lt;https://github.com/RazrFalcon/resvg&gt;`__ command-line tool, using`maturin &lt;https://maturin.rs/&gt;`__... |CI Status| image:: https://github.com/anthrotype/resvg-wheels/actions/workflows/ci.yml/badge.svg   :target: https://github.com/anthrotype/resvg-wheels/actions/workflows/ci.yml</longdescription>
+</pkgmetadata>

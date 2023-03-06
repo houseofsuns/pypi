@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Data Connector | Python SDK### tutorialhttps://packaging.python.org/en/latest/tutorials/packaging-projects/### deployhttps://packaging.python.org/en/latest/tutorials/packaging-projects/#generating-distribution-archives</longdescription>
+</pkgmetadata>

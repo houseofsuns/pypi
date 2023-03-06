@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![NPM version](https://badge.fury.io/js/cdk-apisix.svg)](https://badge.fury.io/js/cdk-apisix)[![PyPI version](https://badge.fury.io/py/cdk-apisix.svg)](https://badge.fury.io/py/cdk-apisix)![Release](https://github.com/pahud/cdk-apisix/workflows/Release/badge.svg)# cdk-apisixCDK construct library to generate serverless [Apache APISIX](https://github.com/apache/apisix) workload on AWS Fargate![](images/apisix-fargate-cdk.png)# sample```python# Example automatically generated from non-compiling source. May contain errors.from cdk_apisix import Apisix# create a standard apisix serviceapisix = Apisix(stack, &quot;apisix-demo&quot;)# create a sample webservice with apisix in the same Amazon ECS clusterapisix.create_web_service(&quot;flask&quot;,    environment={        &quot;PLATFORM&quot;: &quot;Apache APISIX on AWS Fargate&quot;    },    image=ContainerImage.from_registry(&quot;public.ecr.aws/pahudnet/flask-docker-sample&quot;))```## deploy with required context variables```shcdk deploy \-c ADMIN_KEY_ADMIN=*********** \-c ADMIN_KEY_VIEWER=*********** \-c DASHBOARD_ADMIN_PASSWORD=*********** \-c DASHBOARD_USER_PASSWORD=***********```## custom container image from local assets```python# Example automatically generated from non-compiling source. May contain errors.Apisix(stack, &quot;apisix-demo&quot;,    apisix_container=ContainerImage.from_asset(path.join(__dirname, &quot;../apisix_container&quot;)),    dashboard_container=ContainerImage.from_asset(path.join(__dirname, &quot;../apisix_dashboard&quot;)))```</longdescription>
+</pkgmetadata>

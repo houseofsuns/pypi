@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># leftpadLeft pad a string in Python. Created to try out making a `pip` package and uploading it to the [Python Package Index (PyPI)](https://pypi.org/).Inspired by the [`left-pad` package on npm](https://www.npmjs.com/package/left-pad) which [broke parts of the internet](https://www.theregister.co.uk/2016/03/23/npm_left_pad_chaos/).# Install`pip install leftpad`# Usage```pythonfrom leftpad import left_padleft_pad(&quot;foo&quot;, 5)// =&gt; &quot;  foo&quot;left_pad(&quot;foobar&quot;, 6)// =&gt; &quot;foobar&quot;left_pad(1, 2, '0')// =&gt; &quot;01&quot;left_pad(17, 5, 0)// =&gt; &quot;00017&quot;```## TestingRun `python -m doctest leftpad.py`.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![Build Status](https://travis-ci.org/rmorshea/spectate.svg?branch=master)](https://travis-ci.org/rmorshea/spectate/branches)[![Documentation Status](https://readthedocs.org/projects/python-spectate/badge/?version=latest)](http://python-spectate.readthedocs.io/en/latest/?badge=latest)[![Version Info](https://img.shields.io/pypi/v/spectate.svg)](https://pypi.python.org/pypi/spectate)# SpectateA library for Python 3.6 and above that can track changes to mutable data types.With `spectate`, complicated protocols for managing updates don't need to be the outward responsibility of a user and can instead be done automagically in the background. For instance, syncing the state between a server and client can controlled by `spectate`, so users don't have to.# Documentationhttps://python-spectate.readthedocs.io/en/latest/# Install+ stable```bashpip install spectate```+ pre-release```bashpip install spectate --pre```+ master```bashpip install git+https://github.com/rmorshea/spectate.git#egg=spectate```+ developer```bashgit clone https://github.com/rmorshea/spectate &amp;&amp; cd spectate/ &amp;&amp; pip install -e . -r requirements.txt```# At A GlanceIf you're using Python 3.6 and above, create a model object```pythonfrom spectate import mvcl = mvc.List()```Register a view function to it that observes changes```python@mvc.view(l)def printer(l, events):    for e in events:        print(e)```Then modify your object and watch the view function react```pythonl.append(0)l[0] = 1l.extend([2, 3])``````{'index': 0, 'old': Undefined, 'new': 0}{'index': 0, 'old': 0, 'new': 1}{'index': 1, 'old': Undefined, 'new': 2}{'index': 2, 'old': Undefined, 'new': 3}```</longdescription>
+</pkgmetadata>

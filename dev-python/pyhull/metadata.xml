@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Pyhull is a Python wrapper to Qhull (http://www.qhull.org/) for thecomputation of the convex hull, Delaunay triangulation and Voronoi diagram.It is written as a Python C extension, with both high-level and low-levelinterfaces to qhull.Pyhull has been tested to scale to 10,000 7D points for convex hullcalculations (results in ~ 10 seconds), and 10,000 6D points for Delaunaytriangulations and Voronoi tesselations (~ 100 seconds). Higher number ofpoints and higher dimensions should be accessible depending on your machine,but may take a significant amount of time.For more details or to report bugs, please visit the pyhull GitHub page athttps://github.com/materialsvirtuallab/pyhull or the documentation page athttp://packages.python.org/pyhull/.</longdescription>
+</pkgmetadata>

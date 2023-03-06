@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># LoggingMiddleware для логирования request запросов на endpoint.## Quick start1. Add &quot;django_logging&quot; to your INSTALLED_APPS setting like this.    ```python        INSTALLED_APPS = [            ...            'django_logging',            ...        ]    ```1. Create `logging` handlers with `LOGGING` name within `settings.py`. The middleware uses handlers with names: `info_logger` and`error_logger` .    ```python    LOGGING = {        'formatters': {            ...        },        'handlers': {            ...        },        'loggers': {            'info_logger': {                'handlers': ['info'],                'level': 'INFO'            },            'error_logger': {                'handlers': ['error'],            },        }    }    ```1. Create `LOGGING_SERVER_NAME` withing `settings.py`. The middleware uses this variable as server name key in every log message.    ```python    LOGGING_SERVER_NAME = 'server name'    ```1. Create `AUTHENTICATION_HEADER` within `settings.py`. The middleware try to get user information from this header in [jwt](https://jwt.io/) format.    ```python    AUTHENTICATION_HEADER = 'Authentication'    ```1. Add a middleware class to listen in on responses    ```python    MIDDLEWARE = [        ...,        &quot;django_logging.middleware.LoggingMiddleware&quot;,        ...,    ]    ```    It's better to set as low as possible.## ReleasePushing to master branch will run auto build new version and push it to `pypi`. Before pushing to masterbranch must update version in `setup.py`.</longdescription>
+</pkgmetadata>

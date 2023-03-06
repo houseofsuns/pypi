@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>If you are looking for the unicode wrapper around msgpack, that's msgpacku. If you are looking for the umsgpack module, that's u-msgpack-python.Sorry for the confusion!</longdescription>
+</pkgmetadata>

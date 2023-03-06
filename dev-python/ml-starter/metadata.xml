@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ML StarterThis is the core code for my ML project template over [here](https://github.com/codekansas/ml-project-template).## Installation```bashpip install ml-starter```Alternatively, the latest bleeding edge version can be installed from GitHub:```bashpip install git+https://github.com/codekansas/ml-starter.git```This expects a project structure like this:```bash.├── configs│   └── my_config.yaml└── project    ├── loggers    ├── lr_schedulers    ├── models    │   └── my_model.py    ├── optimizers    ├── scripts    │   └── cli.py    ├── tasks    │   └── my_task.py    └── trainers```The `cli.py` file should look something like this:```pythonfrom pathlib import Pathfrom ml.scripts.cli import cli_main as ml_cli_mainPROJECT_ROOT = Path(__file__).parent.parentdef cli_main() -&gt; None:    ml_cli_main(PROJECT_ROOT)if __name__ == &quot;__main__&quot;:    cli_main()```You can then train a model for your config using this command:```bashpython -m project.scripts.cli train configs/my_config.yaml```This can be made more wieldy by adding it as an entry point to your `setup.cfg` file:```[options.entry_points]console_scripts =    runml = project.scripts.cli:cli_main```The template repository above already does this.</longdescription>
+</pkgmetadata>

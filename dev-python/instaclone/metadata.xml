@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Instaclone is usually run from a directory where a instaclone.{yml,json}settings file resides. It will then install to and publish from thatdirectory, based on settings in that file.Settings may be overridden with corresponding command-line args.The install method determines how items are installed from cache:- symlink: Symlink to read-only cache (the default)- copy: A slow, full copy of the file or directory- fastcopy: A faster copy using rsync (preferred over copy)- hardlink: A hard link (files only)For further documentation, see: https://github.com/vivlabs/instaclone</longdescription>
+</pkgmetadata>

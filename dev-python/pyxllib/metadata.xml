@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># 1 install```pip install pyxllib```more details: https://www.yuque.com/xlpr/pyxllib/install# 2 documentdocument: https://www.yuque.com/xlpr/pyxllib.Work hard to improve, welcome more assistant partners.# 3 AcknowledgeThis project uses PyCharm to develop.Thanks to [JetBrains'](https://www.jetbrains.com/?from=pyxllib) supportof [free license for open sourse project development](https://pycharm.iswbm.com/c01/c01_05.html).</longdescription>
+</pkgmetadata>

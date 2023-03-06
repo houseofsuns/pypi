@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># torqueclientLibrary to interface with a torque server running behind mediawiki.  It createsa nicer programmattic interface with local caching options for the more cumbersomerest interface that the torque mediawiki extension creates.# UsageThe basic usage is:```from torqueclient import Torquetorque = Torque(&quot;&lt;URL&gt;&quot;, &quot;&lt;username&gt;&quot;, &quot;&lt;password&gt;&quot;)print(torque.collections[&quot;&lt;collection_name&gt;&quot;].documents[&quot;&lt;document_key&gt;&quot;][&quot;&lt;field&gt;&quot;]```See the inline documentation for more information.</longdescription>
+</pkgmetadata>

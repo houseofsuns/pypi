@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># HF TransferSpeed up file transfers with the Hub.Supports download and upload.## Contributing```shpython3 -m venv ~/.venv/hf_transfersource ~/.venv/hf_transfer/bin/activatepip install maturinmaturin develop```### `huggingface_hub`If you are working on changes with `huggingface_hub````shgit clone git@github.com:huggingface/huggingface_hub.git# git clone https://github.com/huggingface/huggingface_hub.gitcd huggingface_hubpython3 -m pip install -e &quot;.[quality]&quot;```You can use the following test script:```pyimport os# os.environ[&quot;HF_ENDPOINT&quot;] = &quot;http://localhost:5564&quot;os.environ[&quot;HF_HUB_ENABLE_HF_TRANSFER&quot;] = &quot;1&quot;from huggingface_hub import HfApi, logginglogging.set_verbosity_debug()hf = HfApi()hf.upload_file(path_or_fileobj=&quot;/path/to/my/repo/some_file&quot;, path_in_repo=&quot;some_file&quot;, repo_id=&quot;my/repo&quot;, repo_type=&quot;model&quot;)```</longdescription>
+</pkgmetadata>

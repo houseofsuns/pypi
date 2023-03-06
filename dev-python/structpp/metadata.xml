@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Struct++---------Struct++ (also called structpp) provides a wrapper around the struct module in the pythonstandard library will additional support for packed bitfields and decoding structs intoa named tuple by annotated field names.It is a 100%% drop in replacement for struct and its format string syntax is a superset ofthe syntax used inside the struct module.</longdescription>
+</pkgmetadata>

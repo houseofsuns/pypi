@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;h1 align=&quot;center&quot;&gt;kilroy-module-huggingface&lt;/h1&gt;&lt;div align=&quot;center&quot;&gt;kilroy module using Hugging Face models 🤗[![Lint](https://github.com/kilroybot/kilroy-module-huggingface/actions/workflows/lint.yaml/badge.svg)](https://github.com/kilroybot/kilroy-module-huggingface/actions/workflows/lint.yaml)[![Multiplatform tests](https://github.com/kilroybot/kilroy-module-huggingface/actions/workflows/test-multiplatform.yaml/badge.svg)](https://github.com/kilroybot/kilroy-module-huggingface/actions/workflows/test-multiplatform.yaml)[![Docker tests](https://github.com/kilroybot/kilroy-module-huggingface/actions/workflows/test-docker.yaml/badge.svg)](https://github.com/kilroybot/kilroy-module-huggingface/actions/workflows/test-docker.yaml)[![Docs](https://github.com/kilroybot/kilroy-module-huggingface/actions/workflows/docs.yaml/badge.svg)](https://github.com/kilroybot/kilroy-module-huggingface/actions/workflows/docs.yaml)&lt;/div&gt;---## InstallingUsing `pip`:```shpip install kilroy-module-huggingface```## UsageTo run the module server, install the package and run the following command:```shkilroy-module-huggingface```This will start the face server on port 11000 by default.Then you can communicate with the server, for example by using[this package](https://github.com/kilroybot/kilroy-module-client-py-sdk).</longdescription>
+</pkgmetadata>

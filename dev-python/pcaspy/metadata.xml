@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>PCASpy======PCASpy /'pi:kas,pai/ provides not only the low level python binding to EPICS Portable Channel Access Serverbut also the necessary high level abstraction to ease the server tool programming.Check out `PCASpy documents &lt;https://pcaspy.readthedocs.io&gt;`_ to get started.* Home: https://github.com/paulscherrerinstitute/pcaspy/wiki* Documents: https://pcaspy.readthedocs.io* Downloads: https://pypi.python.org/pypi/pcaspy* Source Repo: https://github.com/paulscherrerinstitute/pcaspy* Issue Tracker: https://github.com/paulscherrerinstitute/pcaspy/issues</longdescription>
+</pkgmetadata>

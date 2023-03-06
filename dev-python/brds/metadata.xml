@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># brds[![codecov](https://codecov.io/gh/brahle/brds/branch/main/graph/badge.svg?token=brds_token_here)](https://codecov.io/gh/brahle/brds)[![CI](https://github.com/brahle/brds/actions/workflows/main.yml/badge.svg)](https://github.com/brahle/brds/actions/workflows/main.yml)Bruno Rahle's Data Science library.## Install it from PyPI```bashpip install brds```## Usage```Coming soon!```## DevelopmentRead the [CONTRIBUTING.md](CONTRIBUTING.md) file.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Scora Notify=============================This package implements Slack notification and Mixpanel abstractions to be used in various projects.This packages uses logging for console outputs.The Slack notifier can:* Start threads* Update threads* Finish threadsThe event tracker can:* Track events* Time events To time an event, call the time_event method with the desired event_name, and later call track on that same event. The duration between calls will be saved as the &quot;Duration&quot; property.Development-----------------------------Build, install, test locally^^^^^^^^^^^^^^^^^^^^^^^^^^^^^.. code-block:: bash    # build from this source -- considering that dependencies are resolved    rm -rf ./dist/* &amp;&amp; python3 -m build    # From another venv -- install     virtualenv -p python3    . ./venv/bin/activate    pip install &lt;REPO_HOME&gt;/dist/scora-notify-0.1.0.tar.gz     # Import and run    from scora_notify import Notify     notify=Notify(slack_token=&quot;&quot;, slack_channel=&quot;&quot;, step=&quot;&quot;, tenant=&quot;&quot;, project=&quot;&quot;)    # Import and run    from scora_notify import EventTracker     tracker = src.EventTracker(&quot;&quot;,project=&quot;&quot;,tenant=&quot;&quot;)    tracker.track(&quot;event&quot;,properties={&quot;prop&quot;:1})</longdescription>
+</pkgmetadata>

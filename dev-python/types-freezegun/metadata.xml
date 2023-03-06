@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## Typing stubs for freezegunThis is a PEP 561 type stub package for the `freezegun` package.It can be used by type-checking tools like mypy, PyCharm, pytype etc. to check codethat uses `freezegun`. The source for this package can be found athttps://github.com/python/typeshed/tree/master/stubs/freezegun. All fixes fortypes and metadata should be contributed there.*Note:* The `freezegun` package includes type annotations or type stubssince version 1.2.1. Please uninstall the `types-freezegun`package if you use this or a newer version.See https://github.com/python/typeshed/blob/master/README.md for more details.This package was generated from typeshed commit `81fd55a885e678559471710f249c7e27d02ec212`.</longdescription>
+</pkgmetadata>

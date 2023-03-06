@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>The jupyter_nbextensions_configurator jupyter server extension providesgraphical user interfaces for configuring which nbextensions are enabled (loadautomatically for every notebook), and display their readme files.In addition, for nbextensions which include an appropriate yaml descriptorfile, the interface also provides controls to configure the nbextensions'options.</longdescription>
+</pkgmetadata>

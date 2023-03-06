@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This module enhances minidom and will allow you to have orderedattributes instead of having them sorted automaticaly.It is relevent in the fact that you may want to script theloading/modification/saving of xml files and then print out a diff.with the normal minidom since attributes are sorted automaticaly you canhave an unwanted diff for each unchaged line just because the order ofthe attributes changed.once you load this module, just use minidom normaly.example::    &gt;&gt;&gt; from xml.dom import minidom    &gt;&gt;&gt; import enhancedminidomthen use minidom normaly except that:+ Document and Element classes have a 'getElementsByAttributeName'  method which can be verry handy.+ 'toxml' and 'toprettyxml' will print attributes in the order they are  created/loaded if 'minidom.SORTEDATTRIBUTES = False' (default)example to get all nodes having a &quot;foo&quot; attribute::    &gt;&gt;&gt; document = minidom.parse('yourfile.xml')    &gt;&gt;&gt; nodes_with_foo = document.getElementsByAttributeName('foo')example to get all nodes having a &quot;foo&quot; attribute if they are in a &quot;fum&quot; tag::    &gt;&gt;&gt; document = minidom.parse('yourfile.xml')    &gt;&gt;&gt; nodes_with_foo = document.getElementsByAttributeName('foo', 'fum')===============Release Notes :===============Release 0.1:============First VersionRelease 0.2:============Fixed a typo in this doc</longdescription>
+</pkgmetadata>

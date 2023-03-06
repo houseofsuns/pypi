@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>ARTEMIS is an open-source tool, that implements a defense approach against BGP prefix hijacking attacks.This package holds all the utility functions that are shared between the different modules.Read more at [bgpartemis.org](http://bgpartemis.org/) and the [docs](https://bgpartemis.readthedocs.io/en/latest/).Instructions on publishing a package update:```# follow instructions to build a correct $HOME/.pypirc for artemis-utilshttps://docs.gitlab.com/ee/user/packages/pypi_repository/# generate pypi tokenhttps://pypi.org/manage/account/token/# update the package (code, version, files, etc.)python3 setup.py sdist bdist_wheeltwine upload dist/*```</longdescription>
+</pkgmetadata>

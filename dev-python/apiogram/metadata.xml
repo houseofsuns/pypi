@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ApiogramSimple wrapper for aiogram - little framework for comfortable develop telegram bots[![PyPi Package Version](https://img.shields.io/pypi/v/aiogram.svg?style=flat-square)](https://pypi.python.org/pypi/apiogram)[![PyPi status](https://img.shields.io/pypi/status/aiogram.svg?style=flat-square)](https://pypi.python.org/pypi/apiogram)[![Supported python versions](https://img.shields.io/badge/Python-3.10.8,3.11-blue)](https://pypi.python.org/pypi/apiogram)[![Telegram Bot API](https://img.shields.io/badge/Telegram%20Bot%20API-6.2-blue.svg?style=flat-square&amp;logo=telegram)](https://core.telegram.org/bots/api)[![MIT License](https://img.shields.io/pypi/l/aiogram.svg?style=flat-square)](https://opensource.org/licenses/MIT)```pyimport loggingfrom magic_config import Configfrom apiogram import start_pollingdef main():    &quot;&quot;&quot;Main function&quot;&quot;&quot;    # Logging module configuration    logging.basicConfig(level=logging.DEBUG if Config.DEBUG else logging.INFO)    # Dafult configuration get from Config object    start_polling()if __name__ == &quot;__main__&quot;:    &quot;&quot;&quot;Run main function&quot;&quot;&quot;    main()```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Fast Sentence Tokenizer (fast-sentence-tokenize)Best in class tokenizer## Usage### Import```pythonfrom fast_sentence_tokenize import fast_sentence_tokenize```### Call Tokenizer```pythonresults = fast_sentence_tokenize(&quot;isn't a test great!!?&quot;)```### Results```json[   &quot;isn't&quot;,   &quot;a&quot;,   &quot;test&quot;,   &quot;great&quot;,   &quot;!&quot;,   &quot;!&quot;,   &quot;?&quot;]```Note that whitespace is not preserved in the output by default.This generally results in a more accurate parse from downstream components, but may make the reassembly of the original sentence more challenging.### Preserve Whitespace```pythonresults = fast_sentence_tokenize(&quot;isn't a test great!!?&quot;, eliminate_whitespace=False)```### Results```json[   &quot;isn't &quot;,   &quot;a &quot;,   &quot;test &quot;,   &quot;great&quot;,   &quot;!&quot;,   &quot;!&quot;,   &quot;?&quot;]```This option preserves whitespace.This is useful if you want to re-assemble the tokens using the pre-existing spacing```pythonassert ''.join(tokens) == input_text```</longdescription>
+</pkgmetadata>

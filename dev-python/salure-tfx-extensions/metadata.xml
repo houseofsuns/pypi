@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Salure TFX ExtensionsRepository: https://bitbucket.org/salurebi/salure_tfx_extensions/src/master/Docker Image over at hub.docker.com: salure/kubeflow_tfx_extensions## GoalTwo goals:- To add functionality as required by internal demand of Salure.- To provide helper functions and new components for TFX</longdescription>
+</pkgmetadata>

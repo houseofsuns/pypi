@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pip uninstall zcbot-celery-sdkpip install --upgrade zcbot-celery-sdk -i https://pypi.python.org/simplepip show zcbot-celery-sdk</longdescription>
+</pkgmetadata>

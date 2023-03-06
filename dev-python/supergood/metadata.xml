@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Supergood Python ClientMonitor the usage, spend and performance of your external API's in 5 minutes flat.1. Sign-up for an account on supergood.ai2. Create your organization3. Head to the &quot;API Keys&quot; side panel, and generate your CLIENT_ID and CLIENT_SECRET4. In your codebase, run `pip -m install supergood`5. Add the above CLIENT_ID and CLIENT_SECRET as environment variables in your codebase as `SUPERGOOD_CLIENT_ID` and `SUPERGOOD_CLIENT_SECRET` respectively.6. At the top of any file you're making external API calls, add the following two lines:```from supergood import ClientClient()```... and that's it!Head back to https://dashboard.supergood.ai to start monitoring your external API calls!</longdescription>
+</pkgmetadata>

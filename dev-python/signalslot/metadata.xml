@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image:: https://secure.travis-ci.org/Numergy/signalslot.png?branch=master    :target: http://travis-ci.org/Numergy/signalslot.. image:: https://pypip.in/d/signalslot/badge.png    :target: https://crate.io/packages/signalslot.. image:: https://pypip.in/v/signalslot/badge.png       :target: https://crate.io/packages/signalslot.. image:: https://coveralls.io/repos/Numergy/signalslot/badge.png     :target: https://coveralls.io/r/Numergy/signalslot.. image:: https://readthedocs.org/projects/signalslot/badge/?version=latest    :target: https://signalslot.readthedocs.org/en/latestsignalslot: simple Signal/Slot implementation for Python========================================================This package provides a simple and stupid implementation of the `Signal/Slotpattern &lt;http://en.wikipedia.org/wiki/Signals_and_slots&gt;`_ for Python.Wikipedia has a nice introduction:    Signals and slots is a language construct introduced in Qt for    communication between objects[1] which makes it easy to implement the    Observer pattern while avoiding boilerplate code. Rationale against Signal/Slot is detailed in the &quot;Pattern&quot;section of the documentation.Install-------Install latest stable version::    pip install signalslotInstall development version::    pip install -e git+https://github.com/Numergy/signalslotUpgrade-------Upgrade to the last stable version::    pip install -U signalslotUninstall---------::    pip uninstall signalslot</longdescription>
+</pkgmetadata>

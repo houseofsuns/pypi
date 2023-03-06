@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=======feed2mb=======Feed2mb updates a microblog account from a xml feed.It's a free alternative to services like Twitterfeed.To install feed2mb:1. install tweepy:  http://github.com/joshthecoder/tweepy1. install feedparser:  http://www.feedparser.org/Install it with: python setup.py install or download and instal it with easy-install: easy-install feed2mbRunning:--------* You need to set your feed and your microblog account.* You need to create a configuration file. You can see a sample with the command *feed2mbx -p*. It will looks like: ::[global]interval = 00:05consumer_key = consumer_keyconsumer_secret = consumer_secret[twitter]url = http://example.com/rssoauth_token = oauth_tokenoauth_secret = oauth_secretmode = titleitems = 5shortener = is.gdservice = twitterThe url is the url for the feed that you want to publish, mode can be 'text' (140 chars of your post text) or 'title' (your post title, with a link). The interval should be in the global section and is the interval in which the feed2mb will publish your last posts. In the sample, feed2mb will check the provided feed each hour. The shortener will let you choose the shortener service, and the options now are is.hd, migre.me and tinyurl. The default will be tinyurl.Since the oauthcapylpse, you can't use http basic auth to update itens on twitter. You should register a application on http://dev.twitter.com/ and get yout Oauth 1.0a access tokens.You can add how many sections for services as you like. Run it with the command feed2mb. It will update your microblog with your latest posts, in the interval that you have set.You can contact me at walter@waltercruz.com. Have fun!</longdescription>
+</pkgmetadata>

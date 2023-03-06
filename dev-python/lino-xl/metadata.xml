@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>The **Lino Extensions Library** is a collection of plugins used by many Linoapplications.- This repository is considered an integral part of the Lino framework, which is  documented as a whole in the `Lino Book  &lt;https://www.lino-framework.org/about/overview.html&gt;`__.- Your feedback is welcome.  See https://community.lino-framework.org- API changes to this repository are logged at  https://www.lino-framework.org/changes/</longdescription>
+</pkgmetadata>

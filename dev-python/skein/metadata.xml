@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Skein=====|travis| |conda| |pypi|Skein is a simple tool and library for deploying applications on `Apache YARN&lt;https://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html&gt;`_.See `the documentation &lt;https://jcristharif.com/skein/&gt;`_ for moreinformation.LICENSE-------New BSD. See the`License File &lt;https://github.com/jcrist/skein/blob/master/LICENSE&gt;`_... |travis| image:: https://travis-ci.org/jcrist/skein.svg?branch=master   :target: https://travis-ci.org/jcrist/skein.. |pypi| image:: https://img.shields.io/pypi/v/skein.svg   :target: https://pypi.org/project/skein/.. |conda| image:: https://img.shields.io/conda/vn/conda-forge/skein.svg   :target: https://anaconda.org/conda-forge/skein</longdescription>
+</pkgmetadata>

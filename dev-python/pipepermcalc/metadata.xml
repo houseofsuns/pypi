@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>PIPEPERMCALC=============PIPEPERMCALC or PipePermeationCalculator is a python package to calculate the permeation through pipesInstallation-------------To get the latest stable version, use::  pip install pipepermcalc  License--------This package is MIT licensed See `License File &lt;https://github.com/KWR-Water/pipepermcalc/blob/main/LICENSE&gt;`__... _documentation: https://pipepermcalc.readthedocs.io/en/latest/</longdescription>
+</pkgmetadata>

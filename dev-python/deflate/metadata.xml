@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>deflate=======This is a very thin Python wrapper Eric Biggers' excellent[libdeflate](https://github.com/ebiggers/libdeflate). Currently, it only handles compression and decompression ofgzip data, with a very basic API:```pythonimport deflatelevel = 6  # The default; may be 1-12 for libdeflate.compressed = deflate.gzip_compress(b&quot;hello world!&quot; * 1000, level)original = deflate.gzip_decompress(compressed)```</longdescription>
+</pkgmetadata>

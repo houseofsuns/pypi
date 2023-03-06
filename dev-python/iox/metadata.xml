@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image:: iox.svg   :height: 200px..   master.. image:: https://img.shields.io/pypi/v/iox   :target: https://pypi.org/project/iox/.. image:: https://img.shields.io/codecov/c/github/LockhartLab/iox/master   :target: https://codecov.io/gh/LockhartLab/iox..   *dev:*   &lt;nobr&gt;&lt;img src=&quot;https://img.shields.io/codecov/c/github/LockhartLab/iox/dev&quot; alt=&quot;coverage-dev&quot;/&gt;&lt;/nobr&gt;note that this package is **still in development**at this stage, I'm only building thing as they come to mindversion 1.0 will be the first major releaseuntil then, consider this code heavily volatileyet, install simply by calling `pip install iox` or `pip install --pre iox` for the latestdevelopment release.we endeavor to follow https://scikit-learn.org/stable/developers/performance.html</longdescription>
+</pkgmetadata>

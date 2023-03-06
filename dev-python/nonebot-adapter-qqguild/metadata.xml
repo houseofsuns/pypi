@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;p align=&quot;center&quot;&gt;  &lt;a href=&quot;https://v2.nonebot.dev/&quot;&gt;&lt;img src=&quot;https://raw.githubusercontent.com/nonebot/adapter-qqguild/master/assets/logo.png&quot; width=&quot;200&quot; height=&quot;200&quot; alt=&quot;nonebot-adapter-qqguild&quot;&gt;&lt;/a&gt;&lt;/p&gt;&lt;div align=&quot;center&quot;&gt;# NoneBot-Adapter-QQGuild_✨ QQ 频道协议适配 ✨_&lt;/div&gt;## 配置修改 NoneBot 配置文件 `.env` 或者 `.env.*`。### Driver参考 [driver](https://v2.nonebot.dev/docs/tutorial/configuration#driver) 配置项，添加 `ForwardDriver` 支持。如：```dotenvDRIVER=~httpx+~websocketsDRIVER=~aiohttp```### QQGUILD_IS_SANDBOX是否为沙盒模式，默认为 `False`。```dotenvQQGUILD_IS_SANDBOX=true```### QQGUILD_BOTS配置机器人帐号，如：```dotenvQQGUILD_BOTS='[  {    &quot;id&quot;: &quot;xxx&quot;,    &quot;token&quot;: &quot;xxx&quot;,    &quot;secret&quot;: &quot;xxx&quot;,    &quot;intent&quot;: {      &quot;guild_messages&quot;: true,      &quot;at_messages&quot;: false    }  }]'```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>usbinfo is a Python module for performing introspection on endpoints attachedto the USB subsystems. usbinfo allows scripts to access information about thoseendpoints such as vendor and product ID, manufacturer and product names,serial numbers, and character device files.usbinfo is eventually intended to be portable across as many platforms thatPython itself is ported to.</longdescription>
+</pkgmetadata>

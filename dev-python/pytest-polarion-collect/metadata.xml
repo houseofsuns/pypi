@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=======================pytest-polarion-collect=======================pytest plugin for collecting test cases and corresponding Polarion data.Usage-----Collect tests data::    $ py.test --collect-only --generate-jsonInstall-------Install this plugin::    $ pip install pytest-polarion-collect</longdescription>
+</pkgmetadata>

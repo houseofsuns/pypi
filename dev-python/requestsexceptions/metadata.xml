@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>requestsexceptions==================The python requests library bundles the urllib3 library, however, somesoftware distributions modify requests to remove the bundled library.This makes some operations, such as supressing the &quot;insecure platformwarning&quot; messages that urllib emits difficult.  This is a simplelibrary to find the correct path to exceptions in the requests libraryregardless of whether they are bundled.</longdescription>
+</pkgmetadata>

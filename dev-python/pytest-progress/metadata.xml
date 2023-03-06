@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pytest-progress================pytest-progress is a plugin for `py.test &lt;http://pytest.org&gt;`_ that allows to print the test progress like number of tests Passed , Failed, Skipped and also instant test failure messages.Requirements------------You will need the following prerequisites in order to use pytest-progress:- Python 2.7, 3.4 or 3.5- pytest 2.9.0 or newerInstallation------------To install pytest-progress::    $ pip install pytest-progressThen run your tests with::    $ py.test --show-progressIf you would like more detailed output (one test per line), then you may use the verbose option::    $ py.test --verboseExamples------------To run the pytest with progress::$ py.test --show-progress test_progress_report.py$ py.test --showprogress test_progress_report.pyTo run tests in verbose mode::$ py.test --show-progress --verbose test_progress_report.py$ py.test --showprogress --verbose test_progress_report.py</longdescription>
+</pkgmetadata>

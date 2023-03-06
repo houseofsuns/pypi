@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># coopgameLibrary of tooling and templates used for building gamesExample:```from coopgame.gameTemplate import GameTemplatefrom coopstructs.vectors import Vector2import pygamefrom coopgame.colors import Colorfrom coopgame.sprites import RectangleSpriteclass MyGame(GameTemplate):    def __init__(self):        super().__init__()        self.sprites = pygame.sprite.Group()    def draw(self, frames):        for entity in self.sprites:            self.screen.blit(entity.surf, entity.rect)    def handle_hover_over(self, mouse_pos_as_vector: Vector2):        pass    def handle_left_click(self):        self.sprites.add(RectangleSprite(self.mouse_pos_as_vector(), Color.BLUE, 10, 10))    def handle_right_click(self):        self.sprites.add(RectangleSprite(self.mouse_pos_as_vector(), Color.RED, 20, 30))    def handle_key_pressed(self, pressed_key):        if pressed_key == pygame.K_r:            self.sprites.empty()if __name__ == &quot;__main__&quot;:    import logging    import loggingConfig    loggingConfig.initLogging(loggingLvl=logging.DEBUG)    game = MyGame()    game.main()```</longdescription>
+</pkgmetadata>

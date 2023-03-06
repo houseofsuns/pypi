@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># brs-utils[![Anaconda-Server Badge](https://anaconda.org/brsynth/brs_utils/badges/latest_release_date.svg)](https://anaconda.org/brsynth/brs_utils) [![Anaconda-Server Badge](https://anaconda.org/brsynth/brs_utils/badges/version.svg)](https://anaconda.org/brsynth/brs_utils)## total_sizeComputes the deep size of an object.## print functionsDefines some fancy print functions## download, extract_gz, download_and_extract_gzFunctions to handle download and extract files## file_lengthReturns the number of lines of the given file## Authors* **Melchior du Lac*** **Joan Hérisson**## Licencebrs-utils is released under the MIT licence. See the LICENCE file for details.</longdescription>
+</pkgmetadata>

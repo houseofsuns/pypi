@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># quiltplusResource-oriented API for Quilt's decentralized social knowledge platform## Command-Line QuickStart```bashpip install quiltplusqp -U &quot;quilt+s3://quilt-example#package=examples/echarts&quot; pkg # getqp listqp --help```### Detailed Command-Line```bashexport WRITE_BUCKET=writeable_s3_bucket# create empty package and save to configqp -U &quot;quilt+s3://$(WRITE_BUCKET)#package=test/quiltplus&quot; pkg -x posttime &gt; README.mdqp stage -a README.mdqp stage # displays staged filesqp pkg -x patch # uploads staged files```## DevelopmmentUses the [trio](https://trio.readthedocs.io/en/stable/) version of Python's `async` I/O```bashgit clone https://github.com/quiltdata/quiltpluscd quiltpluspoetry self updatepoetry installexport WRITE_BUCKET=writeable_s3_bucketpoetry run pytest --cov-report html &amp;&amp; open htmlcov/index.htmlpoetry run ptw --now .```## Pushing ChangesBe sure you to first set your [API token](https://pypi.org/manage/account/) using `poetry config pypi-token.pypi &lt;pypi-api-token&gt;````bash# merge PRpoetry version patch # minor majorpoetry buildpoetry publish# create new branchpoetry version prepatch # preminor premajor```</longdescription>
+</pkgmetadata>

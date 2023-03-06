@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![Build Status](https://github.com/hukkinj1/mdformat-beautysh/workflows/Tests/badge.svg?branch=master)](&lt;https://github.com/hukkinj1/mdformat-beautysh/actions?query=workflow%3ATests+branch%3Amaster+event%3Apush&gt;)[![PyPI version](https://badge.fury.io/py/mdformat-beautysh.svg)](&lt;https://badge.fury.io/py/mdformat-beautysh&gt;)# mdformat-beautysh&gt; Mdformat plugin to beautify Bash scripts## Descriptionmdformat-beautysh is an [mdformat](&lt;https://github.com/executablebooks/mdformat&gt;) pluginthat makes mdformat format Bash scripts with [Beautysh](&lt;https://github.com/lovesegfault/beautysh&gt;).## UsageInstall with:```bashpip install mdformat-beautysh```When using mdformat on the command line, Beautysh formatting will be automatically enabled after install.When using mdformat Python API, code formatting for Bash scripts will have to be enabled explicitly:````pythonimport mdformatunformatted = &quot;&quot;&quot;```bashfunction bad_func() {echo &quot;test&quot;}```&quot;&quot;&quot;formatted = mdformat.text(unformatted, codeformatters={&quot;bash&quot;, &quot;sh&quot;})assert formatted == &quot;&quot;&quot;```bashfunction bad_func(){    echo &quot;test&quot;}```&quot;&quot;&quot;````</longdescription>
+</pkgmetadata>

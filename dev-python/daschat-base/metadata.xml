@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># daschat-handsoff-baseBase package for the development of integration modules with chat applications for the handsoff of conversations.&lt;p align=&quot;center&quot;&gt;&lt;a href=&quot;https://www.python.org/&quot;&gt;    &lt;img src=&quot;https://img.shields.io/badge/Made%20with-Python-1f425f.svg&quot;        alt = &quot;Made with Python&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://pypi.python.org/pypi/daschat_base&quot;&gt;    &lt;img src=&quot;https://img.shields.io/pypi/v/daschat_base.svg&quot;        alt = &quot;Release Status&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://github.com/daschat-io/daschat_base/actions&quot;&gt;    &lt;img src=&quot;https://github.com/daschat-io/daschat_base/actions/workflows/main.yml/badge.svg?branch=release&quot; alt=&quot;CI Status&quot;&gt;&lt;/a&gt;&lt;!-- &lt;a href=&quot;https://daschat-handsoff-base.readthedocs.io/en/latest/?badge=latest&quot;&gt;    &lt;img src=&quot;https://readthedocs.org/projects/daschat-base/badge/?version=latest&quot; alt=&quot;Documentation Status&quot;&gt;&lt;/a&gt; --&gt;&lt;/p&gt;## Features* Free software: MIT* Documentation: &lt;https://daschat-io.github.io/daschat_base/&gt;## Enabling Python versionsInstall Python versions using `pyenv` and enable all versions to be used with `tox`:``` console$ pyenv install 3.8.10 3.9.5$ pyenv shell 3.8.10 3.9.5$ pyenv local 3.8.10```## Acknowledgements - [Cookiecutter](https://github.com/audreyr/cookiecutter) - [zillionare/cookiecutter-pypackage](https://github.com/zillionare/cookiecutter-pypackage) - [Naereen/badges](https://github.com/Naereen/badges)</longdescription>
+</pkgmetadata>

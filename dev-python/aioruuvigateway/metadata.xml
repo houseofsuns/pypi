@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># aioruuvigatewayAn asyncio-native library for requesting data from a Ruuvi Gateway.[![PyPI - Version](https://img.shields.io/pypi/v/aioruuvigateway.svg)](https://pypi.org/project/aioruuvigateway)[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/aioruuvigateway.svg)](https://pypi.org/project/aioruuvigateway)---## InstallationRequires Python 3.7 or newer.```consolepip install aioruuvigateway```## UsageEnsure you have set up bearer token authentication in your Ruuvi Gateway (and that you know the token).### APIDocumentation can be found in `test_library.py` for now, sorry.### Command line interfaceYou can use the command line interface to test the library.```consolepython -m aioruuvigateway --host 192.168.1.249 --token bearbear --parse --json```will output data from the gateway in JSON format, printing changed information every 10 seconds.## License`aioruuvigateway` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.</longdescription>
+</pkgmetadata>

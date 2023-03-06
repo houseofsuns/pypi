@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># siotThis is a package for siot publish and subscribe.This package works on Python3.6.x or Higher version ## History- Oct 12, 2019 - Version 0.0.6 released.## CreditsWritten by LuoYufeng 2019. (Welcome to our [website](https://www.dfrobot.com/))</longdescription>
+</pkgmetadata>

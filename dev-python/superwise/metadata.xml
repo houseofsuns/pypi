@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Superwise Python SDK### A python SDK to integrate with SuperwiseIn order to use this library you need:```python &gt; 3.0```### InstallUse pip to install the Superwise SDK```pip install superwise```## VersioningWe use [SemVer](http://semver.org/) for versioning. For all available versions, see the [tags in this repository](https://github.com/your/project/tags).For getting started, HOWTOs, jupyter notebooks examples etc., head over to the Superwise documentation portal:  https://docs.superwise.ai/## LicenseThe Superwise SDK is released under the MIT licence (See LICENSE file)</longdescription>
+</pkgmetadata>

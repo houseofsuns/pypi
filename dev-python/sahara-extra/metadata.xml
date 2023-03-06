@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>========================Team and repository tags========================.. image:: https://governance.openstack.org/tc/badges/sahara-extra.svg    :target: https://governance.openstack.org/tc/reference/tags/index.html.. Change things from this point onOpenStack Data Processing (&quot;Sahara&quot;) extra repo===============================================Sahara-extra is place for Sahara components not included into the main `Sahara repository &lt;https://opendev.org/openstack/sahara&gt;`_Here is the list of components:* Sources for Swift filesystem implementation for Hadoop: https://opendev.org/openstack/sahara-extra/src/branch/master/hadoop-swiftfs/README.rst* Sources for main function wrapper that adapt for oozie: https://opendev.org/openstack/sahara-extra/src/branch/master/edp-adapt-for-oozie/README.rst* Sources for main function wrapper that adapt for spark: https://opendev.org/openstack/sahara-extra/src/branch/master/edp-adapt-for-spark/README.rst* `Diskimage-builder &lt;https://opendev.org/openstack/diskimage-builder&gt;`_ elements moved to the new repo: https://opendev.org/openstack/sahara-image-elements* Tools for building artifacts: https://opendev.org/openstack/sahara-extra/src/branch/master/tools</longdescription>
+</pkgmetadata>

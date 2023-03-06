@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>        SAGE (Shapley Additive Global importancE) is a game theoretic approach         for understanding black-box machine learning models. It quantifies each         feature's importance based on the predictive power it contributes, and         it accounts for complex interactions using the Shapley value from         cooperative game theory. See the         [GitHub page](https://github.com/iancovert/sage/) for examples, and see         the [paper](https://arxiv.org/abs/2004.00668) for more details.    </longdescription>
+</pkgmetadata>

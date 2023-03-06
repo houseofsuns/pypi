@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Scrapinghub command line client===============================.. image:: https://img.shields.io/pypi/v/shub.svg   :target: https://pypi.python.org/pypi/shub   :alt: PyPI Version.. image:: https://img.shields.io/pypi/pyversions/shub.svg   :target: https://pypi.python.org/pypi/shub   :alt: Python Versions.. image:: https://github.com/scrapinghub/shub/actions/workflows/tests.yml/badge.svg   :target: https://github.com/scrapinghub/shub/actions/workflows/tests.yml   :alt: Tests.. image:: https://img.shields.io/codecov/c/github/scrapinghub/shub/master.svg   :target: https://codecov.io/github/scrapinghub/shub?branch=master   :alt: Coverage report``shub`` is the Scrapinghub command line client. It allows you to deployprojects or dependencies, schedule spiders, and retrieve scraped data or logswithout leaving the command line.Requirements------------* Python &gt;= 3.6Installation------------If you have ``pip`` installed on your system, you can install ``shub`` fromthe Python Package Index::    pip install shubPlease note that if you are using Python &lt; 3.6,you should pin `shub` to `2.13.0` or lower.We also supply stand-alone binaries. You can find them in our `latest GitHubrelease`_... _`latest Github release`: https://github.com/scrapinghub/shub/releases/latestDocumentation-------------Documentation is available online via Read the Docs:https://shub.readthedocs.io/, or in the ``docs`` directory.</longdescription>
+</pkgmetadata>

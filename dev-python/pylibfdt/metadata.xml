@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This tree contains a copy of libfdt from the upstream dtc project for thepurposes of pypi.org packaging. Other than changes to the packaging files,changes should be made upstream. The upstream sources are here:git://git.kernel.org/pub/scm/utils/dtc/dtc.gitTo install this you will need to install swig and Python development files.On Debian distributions:   sudo apt-get install swig python3-devThe module can be installed with pip:   pip install libfdtor via setup.py:   ./setup.py install [--user]</longdescription>
+</pkgmetadata>

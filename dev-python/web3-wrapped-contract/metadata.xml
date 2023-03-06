@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># web3_wrapped_contract![PyPI - package version](https://img.shields.io/pypi/v/web3_wrapped_contract?logo=pypi&amp;style=flat-square)![PyPI - license](https://img.shields.io/pypi/l/web3_wrapped_contract?label=package%20license&amp;style=flat-square)![PyPI - python version](https://img.shields.io/pypi/pyversions/web3_wrapped_contract?logo=pypi&amp;style=flat-square)![PyPI - downloads](https://img.shields.io/pypi/dm/web3_wrapped_contract?logo=pypi&amp;style=flat-square)![GitHub - last commit](https://img.shields.io/github/last-commit/kkristof200/py_web3_wrapped_contract?style=flat-square)![GitHub - commit activity](https://img.shields.io/github/commit-activity/m/kkristof200/py_web3_wrapped_contract?style=flat-square)![GitHub - code size in bytes](https://img.shields.io/github/languages/code-size/kkristof200/py_web3_wrapped_contract?style=flat-square)![GitHub - repo size](https://img.shields.io/github/repo-size/kkristof200/py_web3_wrapped_contract?style=flat-square)![GitHub - lines of code](https://img.shields.io/tokei/lines/github/kkristof200/py_web3_wrapped_contract?style=flat-square)![GitHub - license](https://img.shields.io/github/license/kkristof200/py_web3_wrapped_contract?label=repo%20license&amp;style=flat-square)## Descriptionweb3_wrapped_contract## Install~~~~bashpip install web3_wrapped_contract# orpip3 install web3_wrapped_contract~~~~## Usage~~~~pythonimport web3_wrapped_contract~~~~## Dependencies[eth-account](https://pypi.org/project/eth-account), [setuptools](https://pypi.org/project/setuptools), [web3](https://pypi.org/project/web3)</longdescription>
+</pkgmetadata>

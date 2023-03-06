@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ObjaverseObjaverse is a Massive Dataset with 800K+ Annotated 3D Objects.More documentation is coming soon. In the meantime, please see our [paper](https://arxiv.org/abs/2212.08051) and [website](https://objaverse.allenai.org/) for additional details.# LicenseThe use of the dataset as a whole is licensed under the [ODC-By v1.0](https://opendatacommons.org/licenses/by/1-0/) license. Individual objects in Objaverse are all licensed as creative commons distributable objects, and may be under the following licenses:- [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) - 721K objects- [CC-BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) - 25K objects- [CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) - 52K objects- [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - 16K objects- [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) - 3.5K objectsThe metadata will provide the license for each object.The code in this repository is licensed under the Apache 2.0 license.# CitationTo cite Objaverse, please use the following BibTeX entry:```bibtex@article{objaverse,  title={Objaverse: A Universe of Annotated 3D Objects},  author={Matt Deitke and Dustin Schwenk and Jordi Salvador and Luca Weihs and          Oscar Michel and Eli VanderBilt and Ludwig Schmidt and          Kiana Ehsani and Aniruddha Kembhavi and Ali Farhadi},  journal={arXiv preprint arXiv:2212.08051},  year={2022}}```</longdescription>
+</pkgmetadata>

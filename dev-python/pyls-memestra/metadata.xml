@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pyls-memestra[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/QuantStack/pyls-memestra/master?urlpath=/lab/tree/binder/default_decorator_example.ipynb)&gt; [Memestra](https://github.com/QuantStack/memestra/) plugin for the [Python Language Server](https://github.com/python-lsp/python-lsp-server)![screenshot](./screenshot.png)# Installation## From pip`pip install pyls-memestra`## From Mamba`mamba install -c conda-forge pyls-memestra`## From Conda`conda install -c conda-forge pyls-memestra`## From source```bashgit clone git@github.com:QuantStack/pyls-memestra.gitcd pyls-memestrapython -m pip install -e .```# For a development environment1. install dependencies    ```    mamba install -c conda-forge python jupyterlab nodejs python-lsp-server frilouz memestra jupyter-lsp    ```2. install the `jupyter-lsp` frontend extension (only for JupyterLab&lt;3 users):    ```bash    jupyter labextension install @krassowski/jupyterlab-lsp           # for JupyterLab 2.x    # jupyter labextension install @krassowski/jupyterlab-lsp@0.8.0   # for JupyterLab 1.x    ```3. install the `pyls-memestra` plugin    ```bash    python -m pip install -e .    ```</longdescription>
+</pkgmetadata>

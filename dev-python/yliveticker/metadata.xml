@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>![Python package](https://github.com/yahoofinancelive/yliveticker/workflows/Python%20package/badge.svg)![Upload Python Package](https://github.com/yahoofinancelive/yliveticker/workflows/Upload%20Python%20Package/badge.svg)# Live from Yahoo FinanceGet market data from Yahoo Finance websocket in near-real time.wss://streamer.finance.yahoo.com/## Setup```bashpip install yliveticker```[pypi package home](https://pypi.org/project/yliveticker/)## ExampleThe following snippet prints out live metrics in console output. You can follow other symbols by providing them in `ticker_names`.```pythonimport yliveticker# this function is called on each ticker updatedef on_new_msg(ws, msg):    print(msg)yliveticker.YLiveTicker(on_ticker=on_new_msg, ticker_names=[    &quot;BTC=X&quot;, &quot;^GSPC&quot;, &quot;^DJI&quot;, &quot;^IXIC&quot;, &quot;^RUT&quot;, &quot;CL=F&quot;, &quot;GC=F&quot;, &quot;SI=F&quot;, &quot;EURUSD=X&quot;, &quot;^TNX&quot;, &quot;^VIX&quot;, &quot;GBPUSD=X&quot;, &quot;JPY=X&quot;, &quot;BTC-USD&quot;, &quot;^CMC200&quot;, &quot;^FTSE&quot;, &quot;^N225&quot;])```**Note***Check trading hours for your market if you don't observe any live metrics*</longdescription>
+</pkgmetadata>

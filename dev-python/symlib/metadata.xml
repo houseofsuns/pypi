@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># SymphonyThis repository contains code related to the Symphony zoom-in simulation suite.The website for this simulation suite as well as the documentaiton for the symlib analysis library can be found at https://phil-mansfield.github.io/symphony/index.html</longdescription>
+</pkgmetadata>

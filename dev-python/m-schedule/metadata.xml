@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># &lt;h2 id=&quot;title&quot;&gt; Thư viên Schedule trên ngôn ngữ Python để chạy service background.&lt;/h2&gt;# Copyright: MobioVN# CHANGE LOG:## v0.6.7- Sửa lỗi key &quot;last_run&quot;#### Cài đặt:`$ pip3 install m-schedule`#### Sử dụng:1. Tạo class thực thi scheduler kế thừa từ class BaseScheduler    ```python    class TestScheduler(BaseScheduler):        def owner_do(self):            # TODO            pass            def get_schedule(self):            &quot;&quot;&quot;            hàm xác định thời điểm chạy của scheduler, bằng cách xử dụng thư viện schedule            Các ví dụ hướng dẫn cách xác định thời gian chạy            1. scheduler chỉ thực hiện công việc một lần duy nhất.                return None            2. scheduler sẽ thực hiện mỗi 10 phút một lần.                return schedule.every(10).minutes            3. scheduler sẽ thực hiện hàng ngày vào lúc 10h 30 phút.                return schedule.every().day.at(&quot;10:30&quot;)            4. scheduler sẽ thực hiện sau mỗi giờ.                return schedule.every().hour            5. scheduler sẽ thực hiện vào mỗi thứ 2 hàng tuần.                return schedule.every().monday            6. scheduler sẽ thực hiện vào mỗi thứ 5 hàng tuần và vào lúc 13h 15'.                return schedule.every().wednesday.at(&quot;13:15&quot;)            &quot;&quot;&quot;        return schedule.every(10).minutes    ```2. Đăng ký scheduler với factory    ```python    factory = SchedulerFactory()    factory.add(TestScheduler(name=&quot;MyScheduler&quot;, redis_uri=&quot;redis://redis-server:6379/0&quot;))    factory.run()    ```</longdescription>
+</pkgmetadata>

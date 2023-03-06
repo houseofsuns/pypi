@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;p align=&quot;center&quot;&gt;  &lt;a href=&quot;https://coltrane.readthedocs.io&quot;&gt;&lt;h1 align=&quot;center&quot;&gt;coltrane&lt;/h1&gt;&lt;/a&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;A simple content site framework that harnesses the power of Django without the hassle 🎵&lt;/p&gt;`coltrane-web` has been renamed to [coltrane](https://pypi.org/project/coltrane/).</longdescription>
+</pkgmetadata>

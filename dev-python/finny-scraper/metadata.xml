@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># rfin_scrapera scraper for basic property info on the MLSThis can be installed into a project using pip install finny_scrapper in a Python projectA new instance of a property class must be created and a redfin url must be passed as the only argument.The accessible methods are:get_property_image() - returns the first image in the property listing as a stringget_listing_price() - returns an integer of the current listed property priceget_property_type() - returns a string that will be something like &quot;Single Family&quot; or &quot;Multifamily (2-4)&quot; or &quot;C, (2-4),&quot; etc.get_number_of_units() - returns an integer of units on the property. Single Family = 1, Duplex = 2. There are some bugs with condosget_property_info() - return an object with all of the above info in a dictionary</longdescription>
+</pkgmetadata>

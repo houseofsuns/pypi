@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=====unify=====.. image:: https://travis-ci.org/myint/unify.svg?branch=master    :target: https://travis-ci.org/myint/unify    :alt: Build statusModifies strings to all use the same quote where possible.Example=======After running::    $ unify --in-place example.pythis code.. code-block:: python    x = &quot;abc&quot;    y = 'hello'gets formatted into this.. code-block:: python    x = 'abc'    y = 'hello'</longdescription>
+</pkgmetadata>

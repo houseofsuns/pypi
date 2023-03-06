@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=======Ganglia=======A library to send metric to Ganglia in python.Supports UDP, multicast, group and spoofing.Installing==========To install : ::    pip install gangliaUsage=====Sending metric over UDP: ::    ganglia = GMetric(&quot;udp://127.0.0.1&quot;)    ganglia.send(        name='hits',        units='req/sec',        type='uint8',        value=200,        tmax=60,        dmax=300,        group='web'    )</longdescription>
+</pkgmetadata>

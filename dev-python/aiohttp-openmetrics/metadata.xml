@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>aiohttp-openmetrics===================This project contains a simple middleware and /metrics route endpoint foraiohttp that allow easy implementation of the`openmetrics &lt;https://www.openmetrics.org/&gt;`_ protocol.At the moment, this package is a thin wrapper around the ``prometheus_client``package.Example usage-------------.. code-block:: python  from aiohttp import web  from aiohttp_openmetrics import metrics, metrics_middleware  app = web.Application()  app.middlewares.append(metrics_middlware)  app.router.add_get('/metrics', metrics)  web.run_app(app)License-------This package is licensed under the Apache v2 or later license.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## A simple wrapper for mediainfo tool#### PrerequisitesThis tool needs mediainfo to be installed inorder to work properly.On Ubuntu/Debian:```sudo apt install mediainfo```On Mac:```brew install mediainfo```#### UsageTo get all available info about a video file. It works with all media types.```mediaquery --file=&quot;some video.mp4&quot; track --type={General/Audio/Video} --list-keys```To get info about one particular key:```mediaquery --file=&quot;some video.mp4&quot; track --type={General/Audio/Video} --key=Duration```#### Build Deb```python setup.py --command-packages=stdeb.command bdist_deb```#### Install Deb```sudo apt install python3-pymongo python3-gridfs python3-pymongo-ext python3-bsonsudo dpkg -i python3-mediaquery_0.1.5-1_all.deb```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># eokulapieokul vbs api wrapper for python## install`pip install eokulapi` or `poetry add eokulapi`## usage```pythonfrom eokulapi import EokulAPIuser=EokulAPI(uid=...)st=user.students[0]user.update_student_data(st)...```</longdescription>
+</pkgmetadata>

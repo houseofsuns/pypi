@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Traquitanas[![Publish Python distributions to PyPI](https://github.com/traquitanas/traquitanas/actions/workflows/publish-to-pypi.yml/badge.svg)](https://github.com/traquitanas/traquitanas/actions/workflows/publish-to-pypi.yml)&lt;br&gt;[![Publish Python distributions to TestPyPI](https://github.com/traquitanas/traquitanas/actions/workflows/publish-to-test-pypi.yml/badge.svg)](https://github.com/traquitanas/traquitanas/actions/workflows/publish-to-test-pypi.yml)- [GitHub](https://github.com/traquitanas/traquitanas)- [PyPi](https://pypi.org/project/traquitanas)&lt;br&gt;Traquitanas, badulaques, secos e molhados.\Por aqui tem de tudo. Tudo junto e misturado!Todas as coisas que uso no dia a dia... em um só pacote.\Quem sabe um dia encaixoto tudo, separando os temas em pacotes distintos...O pacote também tem a função de aprender a empacotar as coisas.&lt;br&gt;---### Como Instalar?!```bashpip3 install traquitanas --upgrade```&lt;br&gt;---### DocumentaçãoPara melhores explicações, veja o [wiki](https://github.com/traquitanas/traquitanas/wiki)&lt;br&gt;---### Google ColabPara testes rápidos sobre o funcionamento do pacote, elaborei um [Google Colab](https://colab.research.google.com/drive/1WfiEeO4jeeiLPiCknGWfvHI-O3b5NbjE?usp=sharing).&lt;br&gt;---### _TODO_1. Criar _iki_</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![Documentation Status](https://readthedocs.org/projects/peakrdl/badge/?version=latest)](http://peakrdl.readthedocs.io)[![build](https://github.com/SystemRDL/PeakRDL/workflows/build/badge.svg)](https://github.com/SystemRDL/PeakRDL/actions?query=workflow%3Abuild+branch%3Amain)[![Coverage Status](https://coveralls.io/repos/github/SystemRDL/PeakRDL/badge.svg?branch=main)](https://coveralls.io/github/SystemRDL/PeakRDL?branch=main)[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/peakrdl.svg)](https://pypi.org/project/peakrdl)# PeakRDLPeakRDL is a free and open-source control &amp; status register (CSR) toolchain.This project provides a command-line tool that unifies many aspects of registerautomation centered around the SystemRDL register description language.## DocumentationSee the [PeakRDL Documentation](http://peakrdl.readthedocs.io) for more details.</longdescription>
+</pkgmetadata>

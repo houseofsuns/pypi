@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># lanku## LANK UserUser interface which utilizes the LANK protocol.## InstallationIt is easy to install lanku using pip:```pip install lanku```## UsageOnce installed, simply run the `lanku` command from any terminal.</longdescription>
+</pkgmetadata>

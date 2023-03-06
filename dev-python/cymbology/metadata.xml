@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># cymbologycymbology identifies and validates financial security ids.  Currently the following identifiers are supported:1. Sedol2. Cusip3. IsinThis package can be used to validate these identifiers, discover the validation error, or create checksum digits.# Example Usage:### ISIN number```pythonfrom cymbology import Isin, cusip_from_isinisin = Isin()# validate ISIN number 'US0378331005', throwing error IdError if invalid&gt;&gt;&gt; valid_isin = isin.validate('US0378331005')&gt;&gt;&gt; valid_isin'US0378331005'# return validation boolean for ISIN number&gt;&gt;&gt; tf = isin.is_valid('US0378331005')&gt;&gt;&gt; tfTrue# calculate checksum for ISIN number 'US0378331005'check_digit = isin.calculate_checksum('US037833100')# convert ISIN to CUSIP number.&gt;&gt;&gt; cusip_from_isin('US0378331005')'037833100'```# Dependancies and Installation NotesThis package currently only relies on the standard library, and has not been tested for Python 2.X.# Running TestsPYTHONPATH=. py.test --cov# ExtendingIdenifiers that rely on alpha-numeric codes should be able to be easily extended.  Feel free to add additional identification algorithmns.  Legal Indenifiers(LEI) ids will be added to master branch of repo soon.</longdescription>
+</pkgmetadata>

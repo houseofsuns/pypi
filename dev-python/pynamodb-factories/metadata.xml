@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Usage```pythonfrom pynamodb import Modelfrom pynamodb_factories import PynamoModelFactoryclass SomePynamoModel(Model):    ...    passclass SomeModelFactory(PynamoModelFactory):    __model__ = SomePynamoModel    passfake_model = SomeModelFactory.build()```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>camd is software designed to support Computational Autonomy for Materials Discoverybased on ongoing work led by the[Toyota Research Institute](http://www.tri.global/accelerated-materials-design-and-discovery/).camd enables the construction of sequential learning pipelines using a set ofabstractions that include* Agents - decision making entities which select experiments to run from pre-determined    candidate sets* Experiments - experimental procedures which augment candidate data in a way that    facilitates further experiment selection* Analyzers - Post-processing procedures which frame experimental results in the context    of candidate or seed datasetsIn addition to these abstractions, camd provides a loop construct which executesthe sequence of hypothesize-experiment-analyze by the Agent, Experiment, and Analyzer,respectively.  Simulations of agent performance can also be conducted usingafter the fact sampling of known data.</longdescription>
+</pkgmetadata>

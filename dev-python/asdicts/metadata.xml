@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>===============================================================asdicts: Missed utilities for working with Python dictionaries===============================================================Missed utilities for working with Python dictionaries.Python has great builtins for working with lists as well as dictionaries, butsome utilities for working with dictionaries are still missed. This fills thegap... teaser-end.. -project-information-Project Information===================``asdicts`` is released under the `Apache Licence 2.0 &lt;https://choosealicense.com/licenses/apache-2.0/&gt;`_,and the code on `GitHub &lt;https://github.com/sergeyklay/asdicts&gt;`_. It’s rigorouslytested on Python 3.6+. If you'd like to contribute to ``asdicts`` you're most welcome!.. -support-Support=======Should you have any question, any remark, or if you find a bug, or if there issomething you can't do with the ``asdicts``, please`open an issue &lt;https://github.com/sergeyklay/asdicts/issues&gt;`_.Release Information===================1.1.0 (2021-01-26)------------------Features^^^^^^^^- Enable Python 3.6 support`Full changelog &lt;https://github.com/sergeyklay/asdicts/blob/master/CHANGELOG.rst&gt;`_.Credits=======``asdicts`` is written and maintained by `Serghei Iakovlev &lt;https://github.com/sergeyklay/&gt;`_.A full list of contributors can be found in `GitHub's overview &lt;https://github.com/sergeyklay/asdicts/graphs/contributors&gt;`_.</longdescription>
+</pkgmetadata>

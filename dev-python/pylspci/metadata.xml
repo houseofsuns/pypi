@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pylspci=======A Python parser for the ``lspci`` command from the pciutils_ package.`Browse documentation`_.. _pciutils: http://mj.ucw.cz/sw/pciutils/.. _Browse documentation: https://lucidiot.tildepages.org/pylspci/</longdescription>
+</pkgmetadata>

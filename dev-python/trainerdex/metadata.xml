@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![Support Server](https://img.shields.io/discord/614101299197378571.svg?color=7289da&amp;label=Support&amp;logo=discord&amp;style=flat)](https://discord.gg/pdxh7P)[![PyPi version](https://badgen.net/pypi/v/trainerdex/)](https://pypi.org/project/trainerdex/)[![wakatime](https://wakatime.com/badge/github/TrainerDex/TrainerDex.py.svg?style=flat)](https://wakatime.com/badge/github/TrainerDex/TrainerDex.py)A python library for interacting with the TrainerDex APIInstallation------------    pip install trainerdex</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Welcome to Sloth CI![![image](https://img.shields.io/pypi/v/sloth-ci.svg)](https://pypi.org/project/sloth-ci)[![Build Status](https://travis-ci.com/Sloth-CI/sloth-ci.svg?branch=develop)](https://travis-ci.com/Sloth-CI/sloth-ci)**Sloth CI** is a lightweight, standalone CI server.Via extensions, Sloth CI offers detailed logs, build status badges, email notifications, and webhooks. ## Run LocallyDeploy the project with Poetry:    $ poetry installRun locally with:    $ poetry run sci startCheck that the instance is running:    $ poetry run sci statusBuild the docs:    $ poetry run foliant make site -p docs</longdescription>
+</pkgmetadata>

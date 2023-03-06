@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Load configurations from a variety of configuration files and use them easily# Examples## Load configuration file if it exists```pythonimport configloadersusername = 'username'password = 'password'phone = 123456789auto_login = Trueconfigloaders.load_json(globals())```## Load the configuration and update it on exit```pythonimport configloadersusername = 'username'password = 'password'phone = 123456789auto_login = Trueconfigloaders.load_json(globals(), save_on_exit=True)```## Load the configuration and require the configuration file to exist```pythonimport configloadersusername = 'username'password = 'password'phone = 123456789auto_login = Trueconfigloaders.load_json(globals(), required=True)```## Manually save the configuration```pythonimport configloadersusername = 'username'password = 'password'phone = 123456789auto_login = Trueconfigloaders.load_json(globals()).dump()configloaders.load_json(globals()).dump(original=True)configloaders.dump()configloaders.dump(original=True)```## Take all configuration items as command line arguments```pythonimport configloadersusername = 'username'password = 'password'phone = 123456789auto_login = Trueconfigloaders.load_argparse(globals())# orimport argparseparser = argparse.ArgumentParser()configloaders.load_argparse(globals(), parser)parser.parse_args()```# Features* Variables of the module type and those prefixed with &quot;__&quot; are ignored</longdescription>
+</pkgmetadata>

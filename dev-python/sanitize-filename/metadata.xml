@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>A simple, dependency-free, blacklist-based filename sanitizer, for when you want to keep the original filename.Note that a blacklist based sanitizer will _never_ be as safe as a whitelist based one. In most cases, your best option is to create a safe filename yourself. Your second safest option is to use a whitelist approach (allowing only certain characters). This sanitizer is useful when you want to keep the original filename, including non ascii characters, whenever possible.## Installation```shpip install sanitize_filename```## Usage```python3from sanitize_filename import sanitizefilename = input(&quot;Enter a file name:&quot;)filename = sanitize(filename)```Examples:```python3&gt; sanitize(&quot;A/B/C.txt&quot;)'ABC.txt'&gt; sanitize(&quot;this𓀦filenameḜisあactually...valid.txt&quot;)'this𓀦filenameḜisあactually...valid.txt'&gt; sanitize(&quot;def.&quot;)'def'&gt; sanitize(&quot;NUL&quot;)'__NUL'&gt; sanitize(&quot;..&quot;)'__'```## Changelog- 1.2.0  - Get rid of os dependent checks; ensure uniform behaviour  - Now works on long filenames where the non-extensions part consists of only dots- 1.1.0  - Try to preserve filename extensions if possible- 1.0.1  - First release (as 1.0.1 due to a version number mix-up in 1.0.0)- 1.0.0-dev3  - Black list low code point characters (&lt;32)- 1.0.0-dev1  - First version</longdescription>
+</pkgmetadata>

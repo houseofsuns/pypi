@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>sphinxcontrib-gtagjs====================Sphinx extension to render global site tag of Google.Installation------------Install from PyPI.. code-block:: bash    pip install sphinxcontrib-gtagjsConfiguration-------------1 - Add this extension into ``conf.py`` ... code-block:: python    extensions = [        'sphinxcontrib.gtagjs',    ]2 - Set your IDs for gtag.js.. code-block:: python    gtagjs_ids = [        'UA-1234-1234',    ]</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>===============================ahoy===============================.. image:: https://img.shields.io/travis/eddiejessup/ahoy.svg        :target: https://travis-ci.org/eddiejessup/ahoy.. image:: https://img.shields.io/pypi/v/ahoy.svg        :target: https://pypi.python.org/pypi/ahoyAgent-based simulations of active particles* Free software: BSD license* Documentation: https://ahoy.readthedocs.org.Features--------* TODOHistory-------0.1.0 (2015-01-11)---------------------* First release on PyPI.</longdescription>
+</pkgmetadata>

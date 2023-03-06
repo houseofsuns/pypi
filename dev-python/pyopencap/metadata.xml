@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>PyOpenCAP is an open-source package aimed at extending the capabilities of electronic structure packages to describe metastable electronic states. Currently supported electronic structure packages are:- Q-Chem- OpenMolcas- PySCF- Psi4- ColumbusCurrently available features:- Box and Voronoi CAPs- Trajectory analysis toolsAll PyOpenCAP wheels distributed on PyPi are MIT licensed.</longdescription>
+</pkgmetadata>

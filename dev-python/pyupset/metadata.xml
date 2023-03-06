@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>A pure-python implementation of the UpSet suite of visualisation methods by Lex, Gehlenborg et al.For more information on how to use the package, please consult the github homepage.</longdescription>
+</pkgmetadata>

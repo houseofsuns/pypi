@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># koreanize-matplotlibmatplotlib를 한국어 표시에 대응시킵니다.## 사용법matplotlib를 import한 후 koreanize_matplotlib를 import합니다.```pythonimport matplotlib.pyplot as pltimport koreanize_matplotlibplt.plot([-1, 0, 1, 2])plt.title('그래프 제목', fontweight=&quot;bold&quot;)plt.xlabel('간단한 그래프')plt.show()```![demo](https://github.com/ychoi-kr/koreanize-matplotlib/raw/master/demo.png &quot;demo&quot;)## 설치```shpip install koreanize-matplotlib```또는```shpython setup.py install```## 사용한 폰트[나눔고딕](https://hangeul.naver.com/2021/fonts/nanum)</longdescription>
+</pkgmetadata>

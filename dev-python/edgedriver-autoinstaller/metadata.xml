@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># edgedriver-autoinstallerAutomatically download and install [edgedriver](https://edgedriver.chromium.org/) that supports the currently installed version of edge. This installer supports Linux, MacOS and Windows operating systems.## Installation```bashpip install edgedriver-autoinstaller```## UsageJust type `import edgedriver_autoinstaller` in the module you want to use edgedriver.## Example```from selenium import webdriverimport edgedriver_autoinstalleredgedriver_autoinstaller.install()  # Check if the current version of edgedriver exists                                      # and if it doesn't exist, download it automatically,                                      # then add edgedriver to pathdriver = webdriver.Edge(executable_path=&quot;msedgedriver.exe&quot;)driver.get(&quot;http://www.python.org&quot;)assert &quot;Python&quot; in driver.title```## NoteForked from: [python-chromedriver-autoinstaller](https://github.com/yeongbin-jo/python-chromedriver-autoinstaller)Most of the work has been done by [yeongbin-jo](https://github.com/yeongbin-jo/), i only adapted it for Edge.</longdescription>
+</pkgmetadata>

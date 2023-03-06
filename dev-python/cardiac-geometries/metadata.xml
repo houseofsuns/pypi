@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Cardiac GeometriesThis is a library for creating idealized cardiac geometries in FEniCS using `gmsh`. There is also some functionality for doing this with `mshr`, however, `mshr` is not really supported anymore.This package can also output analytic fiber orientations.Please read the documentation at http://computationalphysiology.github.io/cardiac_geometries for more info.</longdescription>
+</pkgmetadata>

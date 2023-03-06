@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># text-normalizer[![travis][travis-image]][travis-url][![pypi][pypi-image]][pypi-url][travis-image]: https://img.shields.io/travis/Yoctol/text-normalizer.svg?style=flat[travis-url]: https://travis-ci.org/Yoctol/text-normalizer[pypi-image]: https://img.shields.io/pypi/v/text-normalizer.svg?style=flat[pypi-url]: https://pypi.python.org/pypi/text-normalizerNormalize your Text String. It is a python package that help you normalize your text data and recover it.## InstallUse Python3```&gt; pip install text-normalizer```## Usage```pythonfrom text_normalizer.text_normalizer_collection_library import chinese_charactor_text_normalizer_collection_2input_sentence = &quot;   我在85.33度C買了一杯900──1000元的咖啡    《ohoh》？？ m_m&quot;nor_sentence, meta = chinese_charactor_text_normalizer_collection_2.normalize(input_sentence)print(nor_sentence)&gt; &quot;我在_float_度c買了一杯_int_-_int_元的咖啡 &lt;ohoh&gt;?? m_m&quot;de_sentence = chinese_charactor_text_normalizer_collection_2.denormalize(nor_sentence, meta)print(de_sentence)&gt; &quot;我在85.33度C買了一杯900──1000元的咖啡 《ohoh》？？ m_m&quot;,```</longdescription>
+</pkgmetadata>

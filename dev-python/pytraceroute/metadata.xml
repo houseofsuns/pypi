@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pytraceroute - A simple traceroute(8) implementation in Python===============================================================pytraceroute is a simple `traceroute(8)` implementation written inPython.Its purpose is mainly educational, rather than somethingfeature-rich as is `traceroute(8)` for example.Requirements============* Python 2.7.x or 3.x* docoptInstallation============Clone the Git repository and install:.. code-block:: bash   $ git clone https://github.com/pytraceroute   $ cd pytraceroute &amp;&amp; python setup.py installOr via `pip`:.. code-block:: bash   $ pip install pytracerouteUsage=====pytraceroute requires root permissions due to the useof raw (`socket.SOCK_RAW`) sockets.Example usage:.. code-block:: bash   $ sudo py-traceroute google.comContributions=============pytraceroute is hosted on `Github`_. Please contribute byreporting issues, suggesting features or by sending patches usingpull requests.Bugs====Probably. If you experience a bug issue, please report it to thepytraceroute issue tracker on `Github`_... _`Github`: https://github.com/dnaeon/pytraceroute</longdescription>
+</pkgmetadata>

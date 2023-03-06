@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># About projectA small wrapper over smartapi to backtest basic trading strategies. Easy installation and usage# Installation```pip install alphatools_jv```# Usage## Creating and running a strategy```pythonfrom alphatools.backtesting_app import BackTestingAppfrom datetime import datetimeclass TestSmartApiApp(BackTestingApp):    def on_md(self, data_row):        # your strat code goes here        print(&quot;New row found: {}&quot;.format(data_row))app = TestSmartApiApp('/Users/jaskiratsingh/projects/smart-api-creds.ini')app.set_start_date(datetime.strptime('2022-12-20 11:39:00+05:30', '%Y-%m-%d %H:%M:%S%z'))app.set_end_date(datetime.strptime('2022-12-29 11:39:00+05:30', '%Y-%m-%d %H:%M:%S%z'))app.set_interval('ONE_MINUTE')app.add_instrument(53825, &quot;NFO&quot;)app.add_instrument(48756, &quot;NFO&quot;)app.load_data()                     # Loads the data into a dataframeapp.get_candle_info_df()            # Returns the entire simulation dataframeapp.simulate()                      # Starts simulation from the beginning# To place a trade, use trade api to send the orders to the pnl calculator. # Pnl calculator uses last tick prices to calculate the observed Pnlapp.trade(53825, 1)     # Buys 1 unit for token 53825app.trade(53825, -3)    # Sells 3 units for token 53825app.get_total_pnl()     # Returns pnl after all trades are made```## Helper for instruments```pythonfrom alphatools.utils.token_manager import TokenManagertok = TokenManager()# Refer documentation for more overridesinfo = tok.get_instrument(53825) # Returns instrument infoinfo = tok.get_instrument('NIFTY23FEB23FUT') # Returns instrument info```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># utils-api-pipefyBiblioteca que possui um kit de ferramentas úteis para ações usualmente rotineiras de quem trabalha com Pipefy, desde consulta de cards a criação de Pipes, Tables e atualizações em geral.Utilizamos como apoio as collection requests e python-dotenv.## Instalação```pip install utils-api-pipefy```## .envHOST_PIPE=app or seu_host_pipefy&lt;br&gt;PIPE= seu_numero_pipe&lt;br&gt;NONPHASES= [numeros_fases_ignoradas]&lt;br&gt;TOKEN= seu_token&lt;br&gt;LOGENV = DEV or PROD [ PROD remove urlib3 logs ]&lt;br&gt;LOGNAME = nome_arquivo_logs&lt;br&gt;DISABLELOG = True or False [True desabilita a criação de pasta e arquivo de logs, temos essa opção para utilização em plataformas como Google Cloud Platform, neste caso o logging apenas imprime da tela, sem salvar o log.]&lt;br&gt;## Exemplo de uso```pyimport osimport jsonimport timeimport loggingfrom utils_api_pipefy import Enginefrom utils_api_pipefy import exceptionsif __name__ == &quot;__main__&quot;:        try:        eng = Engine()                # ALGUMAS DAS UTILIDADES DO ENGINE        logging.info(eng.columns)        print(json.dumps(eng.phases_id, ensure_ascii=False, indent=2))        print(json.dumps(eng.fields, ensure_ascii=False, indent=2))        print(json.dumps(eng.phases, ensure_ascii=False, indent=2))                        a = time.time()        data=eng.run_all_data_phases()        print(f&quot;\n\nTempo total: {time.time()-a}\n\n&quot;)        print()    except Exception as err:        raise exceptions(err)```</longdescription>
+</pkgmetadata>

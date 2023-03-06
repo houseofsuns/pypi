@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>DataScienceFaker================|Build Status| |codecov| |doc| |pypi_v| |pypi_month|DSFaker aims at providing data scientists with functions for generatingand streaming arrays of data such as:-  Time-series-  Date/Datetime-  Autoincrement &amp; random autoincrement-  Trigonometric (Sin, Sinh, Cos, Cosh, Tan, Tanh)-  Random distributions-  Pattern repetition-  Noise applicationBasic operators between generators and/or python int/float types (+, -,/, //, \*, …) are also implemented.To generate such data, you can specify the distribution you want amongstthe ones provided by numpy.random. Or you can also implement your owndistribution to generate data.Installation------------.. code-block:: shell-session    pip install dsfakerDocumentation-------------The documentation is available here: https://eds-aphp.github.io/dsfaker/... |Build Status| image:: https://travis-ci.org/eds-aphp/dsfaker.svg?branch=master   :target: https://travis-ci.org/eds-aphp/dsfaker.. |codecov| image:: https://codecov.io/gh/eds-aphp/dsfaker/branch/master/graph/badge.svg   :target: https://codecov.io/gh/eds-aphp/dsfaker.. |doc| image:: https://img.shields.io/badge/docs-latest-brightgreen.svg   :target: https://eds-aphp.github.io/dsfaker/.. |pypi_v| image:: https://img.shields.io/pypi/v/dsfaker.svg   :target: https://pypi.python.org/pypi/dsfaker.. |pypi_month| image:: https://img.shields.io/pypi/dm/dsfaker.svg   :target: https://pypi.python.org/pypi/dsfaker</longdescription>
+</pkgmetadata>

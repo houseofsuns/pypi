@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Janus ControllerA container (Portainer Docker) controller with profiles for common Data TransferNode (DTN) capabilities. Support DTN-as-a-Service deployments.## Build Instructions```python -m build```Upload to PyPi using```twine upload dist/*```## Install Instructions```git clone https://github.com/esnet/janus.gitcd januspip3 install -e .```</longdescription>
+</pkgmetadata>

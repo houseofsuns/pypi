@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>             _ _                                       _            _ __ (_) |       ___ ___  _ __ ___  _ __   __ _| |_         | '_ \| | |_____ / __/ _ \| '_ ` _ \| '_ \ / _` | __|        | |_) | | |_____| (_| (_) | | | | | | |_) | (_| | |_         | .__/|_|_|      \___\___/|_| |_| |_| .__/ \__,_|\__|        |_|                                 |_|                      pillow has modules named PIL.Image*. PIL has them as Image.*.This is a package which shims between the two.Run `materialise.py` to generate the Image* modules in source, and `setup.py`can then generate your wheel or sdist.Email me if you have confusion: alistair@alynn.co.uk</longdescription>
+</pkgmetadata>

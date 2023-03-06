@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pykaleidescapeA python library for controlling Kaleidescape devices via the Kaleidescape System Control Protocol.Note: This library is not operated by, or affiliated with Kaleidescape, Inc.## Installation```pip install pykaleidescape```## UsageCheckout the [examples](examples) directory for more examples.```pythonimport asynciofrom kaleidescape import Deviceasync def main():    # Use &quot;my-kaleidescape&quot; on Windows    device = Device(&quot;my-kaleidescape.local&quot;)    await device.connect()    print(f&quot;Power state is currently: {device.power.state}&quot;)    await device.disconnect()if __name__ == &quot;__main__&quot;:    asyncio.run(main())```</longdescription>
+</pkgmetadata>

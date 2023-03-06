@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>nclib is a python socket library that wants to be your friend.nclib provides:- Easy-to-use interfaces for connecting to and listening on TCP and UDP sockets- The ability to handle any python stream-like object with a single interface- A better socket class, the Netcat object  - Convenient receive methods for common socket usage patterns  - Highly customizable logging  - Interactive mode, connecting the socket to your stdin/stdout  - Intelligent detection of socket closes and connection drops  - Long-running functions cleanly abortable with ctrl-c  - Lots of aliases in case you forget the right method name- Mechanisms to launch processes with their in/out streams connected to sockets  - Launch a process with gdb attached- TCP and UDP server classes for writing simple python daemons- A script to easily daemonize command-line programsDocumentation is available at https://nclib.readthedocs.io/ and source code isavailable at https://github.com/rhelmot/nclibIf you are familiar with pwntools, nclib provides much of the functionaly thatpwntools' socket wrappers do, but with the bonus feature of not being pwntools.</longdescription>
+</pkgmetadata>

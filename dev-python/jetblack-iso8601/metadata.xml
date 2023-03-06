@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># jetblack-iso8601Support for ISO8601(read the [docs](https://rob-blackbourn.github.io/jetblack-iso8601/)).## Usage### TimestampsTimestamps can be parsed with `iso8601_to_datetime` andconverted to a string with `datetime_to_iso8601`.```pythonfrom jetblack_iso8601 import (    iso8601_to_datetime,    datetime_to_iso8601)text = '2014-02-01T09:28:56.321-10:00'timestamp = iso8601_to_datetime(text)roundtrip = datetime_to_iso8601(timestamp)assert text == roundtrip```### DurationsTimestamps can be parsed with `iso8601_to_timedelta` andconverted to a string with `datetime_to_iso8601`.```pythonfrom jetblack_iso8601 import (    iso8601_to_timedelta,    timedelta_to_iso8601)text = 'P3Y2M1DT12H11M10S'value = iso8601_to_timedelta(text)roundtrip = timedelta_to_iso8601(value)assert roundtrip == text```</longdescription>
+</pkgmetadata>

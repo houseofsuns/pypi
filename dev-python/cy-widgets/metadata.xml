@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>==========CY Widgets==========.. image:: https://img.shields.io/pypi/v/cy_widgets.svg        :target: https://pypi.python.org/pypi/cy_widgets</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>OpenTelemetry Requests Instrumentation======================================|pypi|.. |pypi| image:: https://badge.fury.io/py/opentelemetry-instrumentation-requests.svg   :target: https://pypi.org/project/opentelemetry-instrumentation-requests/This library allows tracing HTTP requests made by the`requests &lt;https://requests.readthedocs.io/en/master/&gt;`_ library.Installation------------::     pip install opentelemetry-instrumentation-requestsConfiguration-------------Exclude lists*************To exclude certain URLs from being tracked, set the environment variable ``OTEL_PYTHON_REQUESTS_EXCLUDED_URLS``(or ``OTEL_PYTHON_EXCLUDED_URLS`` as fallback) with comma delimited regexes representing which URLs to exclude.For example,::    export OTEL_PYTHON_REQUESTS_EXCLUDED_URLS=&quot;client/.*/info,healthcheck&quot;will exclude requests such as ``https://site/client/123/info`` and ``https://site/xyz/healthcheck``.References----------* `OpenTelemetry requests Instrumentation &lt;https://opentelemetry-python-contrib.readthedocs.io/en/latest/instrumentation/requests/requests.html&gt;`_* `OpenTelemetry Project &lt;https://opentelemetry.io/&gt;`_* `OpenTelemetry Python Examples &lt;https://github.com/open-telemetry/opentelemetry-python/tree/main/docs/examples&gt;`_</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>A python package containing dictionary representations of Avro Schemas,for use with the nubium project.## Usage ExamplesThe first step is to include the latest version of the schema library inthe requirements for the app.For code examples, go to https://gitlab.corp.redhat.com/ebrennan/python-avro-classes.gitWhen a git tag is created, the `.gitlab-ci.yml` pipeline will automatically trigger `upload_package.sh`, creating a new pypi version.### Faust1) Import one of the schema dictionaries from the package1) Dump the dictionary to a string using `json.dumps`1) Define a serializer using the `FaustSerializer` class### Confluent Kafka1) Import the schema dictionary1) Dump the schema to a string using `json.dumps`1) Create a schema object using `confluent_kafka.avro.loads`1) Use the schema when instantiating Avro producer and consumer clients</longdescription>
+</pkgmetadata>

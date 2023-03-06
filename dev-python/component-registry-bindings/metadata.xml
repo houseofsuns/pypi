@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># component-registry-bindingsA client library for accessing Component Registry API## Installation```pip install component_registry_bindings```## For more details read [tutorial](TUTORIAL.md)## For development details read [developer guide](DEVELOP.md)</longdescription>
+</pkgmetadata>

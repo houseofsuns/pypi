@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Overview========Piston mini client is a package that allows you to easily describe anAPI provided by a Django server using django-piston that takes care of:* Serializing call arguments and deserializing responses from the api.  It  can deserialize json provided by Piston into light-weight objects.* Making the http calls for you.  You should be able to call a method on an  api object instead of having to fetch a particular URL.* Provide a in-code description of your API.  Developers should be able to  know your API by looking at the client code you provide.You can read the `latest docs online`_... _latest docs online: http://packages.python.org/piston-mini-client/Installation============piston-mini-client uses a standard distutils setup.py script, so you can use::  python setup.py installRunning the tests=================To run the tests, just install tox_ (can be in a virtualenv) and then run::  toxThis will ensure the tests run on Python 2.6, 2.7 and 3.2, and the docs buildcorrectly.Building the docs locally=========================With sphinx_ installed, you should be able to build the documentation forthis code with::  cd doc  make htmlEnjoy!.. _tox: http://pypi.python.org/pypi/tox.. _sphinx: http://sphinx.pocoo.org/</longdescription>
+</pkgmetadata>

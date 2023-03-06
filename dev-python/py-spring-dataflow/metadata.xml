@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># py-spring-dataflow[![PyPI version](https://badge.fury.io/py/py-spring-dataflow.svg)](https://badge.fury.io/py/py-spring-dataflow)**py-spring-dataflow**is a Python package for working with[Spring Cloud Data Flow](https://dataflow.spring.io).## LicenseThis project is [licensed](LICENSE) under [MIT License](https://opensource.org/licenses/MIT).</longdescription>
+</pkgmetadata>

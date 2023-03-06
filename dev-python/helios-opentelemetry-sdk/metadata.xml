@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>![Helios](https://user-images.githubusercontent.com/5681098/167285905-d325755a-fb34-44b5-9f51-bf6c7ef99ff2.png)## About HeliosHelios empowers developers to deliver production-ready code by reducing cloud-native development friction. By making OpenTelemetry data actionable, Helios provides a new type of developer suite for understanding, troubleshooting, and testing distributed applications. With Helios, developers get the power to deliver code faster and with more confidence.## Getting startedNavigate to your project's root directory, and install the latest Helios OpenTelemetry SDK:```pip install helios-opentelemetry-sdk```[Read more](https://docs.gethelios.dev/)## RequirementsUnless otherwise noted, all published artifacts support Python 3.7 or higher.</longdescription>
+</pkgmetadata>

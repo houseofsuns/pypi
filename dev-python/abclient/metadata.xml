@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>abclient: Python library for EISOO AnyBackup APIs=================================================.. image:: https://img.shields.io/pypi/v/abclient.svg    :target: https://pypi.python.org/pypi/abclient/**abclient** is a client library for EISOO AnyBackup APIs.**abclient** allows openstack-karbor to create backups for databases and filesystems.Installation------------To install abclient, simply:.. code-block:: bash    $ pip install abclientHow to use-----------.. code-block:: python    &gt;&gt;&gt;from abclient import backup_manager    &gt;&gt;&gt;ab = backup_manager.eisooBackupManager('IP_ADDR','MACHINE_CODE')    &gt;&gt;&gt;ab.start_backup(...)API Support---------------- Create backup for ORACLE Databasemore API will be supported in the future.License-------Apache License Version 2.0 http://www.apache.org/licenses/LICENSE-2.0</longdescription>
+</pkgmetadata>

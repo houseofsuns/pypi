@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># TherePrint the current filename and line. Example, `where.py````pythonimport thereimport there as hereprint(here)print('and')print(there)```Then `python where.py` will print:```where.py:4andwhere.py:6```## replace print function`There` provide a replacement for the `print` function, that prepend thefilename and line. Example, `where.py````pythonfrom there import printprint('hi')print('there')```Then `python where.py` will print:```where.py:3 hiwhere.py:4 there```## that's itThat's it (for now), non more, no less. I have plan – the usually never getrealised – to also have a `there.indent` that return the indentation of thecurrent line.# GotchasReturns the line where the `__str__`, or `__repr__` of `there` is computed.Usually by `print`. So it might be wrong. If you want to be sure (like whenusing `log`) wrap it in `str()`Runs only on CPython likely. But anyway don't run it in production.</longdescription>
+</pkgmetadata>

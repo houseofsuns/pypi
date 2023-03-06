@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># KappaSchedules[![publish](https://github.com/BenediktAlkin/KappaSchedules/actions/workflows/publish.yaml/badge.svg)](https://github.com/BenediktAlkin/KappaSchedules/actions/workflows/publish.yaml)</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># vs-iew### PyPi package for quickly updating and installing all IEW packages.&lt;br&gt;&lt;br&gt;&lt;br&gt;## How to installInstall `vsiew` with the following command:```shpip install vsiew```&lt;br&gt;## How to useInstall all iew packages:```shpython -m vsiew```Install latest git version of all iew packages:```shpython -m vsiew latest```</longdescription>
+</pkgmetadata>

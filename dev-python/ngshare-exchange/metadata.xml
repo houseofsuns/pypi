@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ngshare_exchange[![codecov](https://codecov.io/gh/LibreTexts/ngshare_exchange/branch/master/graph/badge.svg)](https://codecov.io/gh/LibreTexts/ngshare_exchange)[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)Custom [nbgrader](https://github.com/jupyter/nbgrader) exchange to be used with [ngshare](https://github.com/LibreTexts/ngshare). This should be installed in the singleuser image of [Z2JH](https://github.com/jupyterhub/zero-to-jupyterhub-k8s) to allow the users to use ngshare.# Installation instructionsTo install this and `ngshare`, see the instructions on [Read the Docs](https://ngshare.readthedocs.io/en/latest/user_guide/install.html).# ngshare Course ManagementTo manage students in your course, please don't use formgrader's web interface since it doesn't use ngshare. Instead, use the `ngshare-course-management` command that gets installed with this package. Please [read the documentation](https://ngshare.readthedocs.io/en/latest/user_guide/course_management.html) for instructions on how to use this tool.</longdescription>
+</pkgmetadata>

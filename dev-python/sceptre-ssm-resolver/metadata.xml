@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># OverviewThe purpose of this resolver is to retrieve values from the AWS SSM.## Install```bashpip install sceptre-ssm-resolver```## Available Resolvers### ssmFetches the value stored in AWS SSM Parameter Store.__Note:__ Sceptre must be run with a user or role that has access to the parameter storeSyntax:```yamlparameter|sceptre_user_data:  &lt;name&gt;: !ssm /prefix/param``````yamlparameter|sceptre_user_data:  &lt;name&gt;: !ssm    name: /prefix/param    region: us-east-1    profile: OtherAccount``````yamlparameter|sceptre_user_data:  &lt;name&gt;: !ssm {&quot;name&quot;: &quot;/prefix/param&quot;, &quot;region&quot;: &quot;us-east-1&quot;, &quot;profile&quot;: &quot;OtherAccount&quot;}```#### Parameters* name - SSM key name, mandatory* region - SSM key region, optional, stack region by default* profile - SSM key's account profile , optional, stack profile by default#### Example:Add a secure string to the SSM parameter store```bashaws ssm put-parameter --name /dev/DbPassword --value &quot;mysecret&quot; \--key-id alias/dev/kmskey --type &quot;SecureString&quot;```Retrieve and decrypt SSM parameter from the same account that thestack is being deployed to:```yamlparameters:  database_password: !ssm /dev/DbPassword```Retrieve and decrypt SSM parameter from another AWS account:```yamlparameters:  database_password: !ssm    name: /dev/DbPassword    profile: OtherAccount```</longdescription>
+</pkgmetadata>

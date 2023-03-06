@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># HyPyUtils HyDEV Utils for Python## Modules| Module             | Requirements             ||--------------------|--------------------------|| `tqdm_utils`       | tqdm                     || `downloader`       | tqdm, requests           || `scientific_utils` | numpy, numba, matplotlib |</longdescription>
+</pkgmetadata>

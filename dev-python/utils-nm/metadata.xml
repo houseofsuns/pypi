@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>utils_nm--------This package contains utility objects like functions and classes.The following modules can be imported:- db_functions: functions for database operations- orm_models: sqlalchemy orm models for logging purposes of job executions- util_classes: useful classes- util_functions: useful functions- util_decorators: useful decorator functions, classes, factoriesTo use (with caution), simply do:    &gt;&gt;&gt; from src.utils_nm import util_functions as uf    &gt;&gt;&gt; user_input = uf.input_prompt(name='arg', choices=('a', 'b'), default='a', enum=False)</longdescription>
+</pkgmetadata>

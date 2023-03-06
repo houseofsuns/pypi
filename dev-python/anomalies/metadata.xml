@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Anomalies![Python package](https://github.com/restrepo/anomalies/workflows/Python%20package/badge.svg)![Upload Python Package](https://github.com/restrepo/anomalies/workflows/Upload%20Python%20Package/badge.svg)[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5526558.svg)](https://doi.org/10.5281/zenodo.5526558)Implement the anomaly free solution of  [arXiv:1905.13729](https://arxiv.org/abs/1905.13729) [PRL]:Obtain a numpy array `z` of `N` integers which satisfy the Diophantine equations```python&gt;&gt;&gt; z.sum()0&gt;&gt;&gt; (z**3).sum()0```The input is two lists `l` and `k` with any `(N-3)/2` and `(N-1)/2` integers for `N` odd, or `N/2-1` and `N/2-1` for `N` even (`N&gt;4`).The function is implemented below under the name: `free(l,k)`## Install```bash$ pip install anomalies```## USAGE```python&gt;&gt;&gt; from anomalies import anomaly&gt;&gt;&gt; anomaly.free([-1,1],[4,-2])array([  3,   3,   3, -12, -12,  15])&gt;&gt;&gt; anomaly.free.gcd3&gt;&gt;&gt; anomaly.free.simplifiedarray([ 1,  1,  1, -4, -4,  5])```## ExampleA sample for `4&lt;N&lt;13` with integers until `|30|` with `~400 000` chiral solutions can be download from [here](https://github.com/restrepo/anomaly/raw/main/solutions.json.gz) [JSON]</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## Typing stubs for aws-xray-sdkThis is a PEP 561 type stub package for the `aws-xray-sdk` package. Itcan be used by type-checking tools like[mypy](https://github.com/python/mypy/),[pyright](https://github.com/microsoft/pyright),[pytype](https://github.com/google/pytype/),PyCharm, etc. to check code that uses`aws-xray-sdk`. The source for this package can be found athttps://github.com/python/typeshed/tree/main/stubs/aws-xray-sdk. All fixes fortypes and metadata should be contributed there.See https://github.com/python/typeshed/blob/main/README.md for more details.This package was generated from typeshed commit `fe9eb630eedfc588c57cee51807c505c072c1348`.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Epydoc is a tool for generating API documentation documentation forPython modules, based on their docstrings.  For an example of epydoc'soutput, see the API documentation for epydoc itself (`html&lt;http://epydoc.sf.net/api/&gt;`__\ , `pdf&lt;http://epydoc.sf.net/epydoc.pdf&gt;`__\ ).  A lightweight markuplanguage called `epytext &lt;http://epydoc.sf.net/epytextintro.html&gt;`__can be used to format docstrings, and to add information aboutspecific fields, such as parameters and instance variables.  Epydocalso understands docstrings written in `reStructuredText&lt;http://docutils.sourceforge.net/rst.html&gt;`__\ , Javadoc, andplaintext. For a more extensive example of epydoc's output, see theAPI documentation for `Python 2.5&lt;http://epydoc.sourceforge.net/stdlib/&gt;`__\ .</longdescription>
+</pkgmetadata>

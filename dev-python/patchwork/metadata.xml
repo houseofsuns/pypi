@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Patchwork is a mid-level library of Unix system administration primitives suchas &quot;install package&quot; or &quot;create user account&quot;, interrogative functionality forintrospecting system state, and other commonly useful functions built on top ofthe `Fabric &lt;http://fabfile.org&gt;`_ library.Specifically:- Primary API calls strive to be **idempotent**: they may be called multiple  times in a row without unwanted changes piling up or causing errors.- Patchwork **is just an API**:  it has no concept of &quot;recipes&quot;, &quot;manifests&quot;,  &quot;classes&quot;, &quot;roles&quot; or other high level organizational units. This is left up  to the user or wrapping libraries.    - This is one way Patchwork differs from larger configuration management      frameworks like `Chef &lt;http://opscode.com/chef/&gt;`_ or `Puppet      &lt;http://puppetlabs.com&gt;`_. Patchwork is closest in nature to those tools'      &quot;resources.&quot;- It is implemented in **shell calls**, typically sent **over SSH** from a  local workstation.    - However, where possible, its functions expect a baseline Invoke      `~invoke.context.Context` object and can thus run locally *or* remotely,      depending on the specific context supplied by the caller.</longdescription>
+</pkgmetadata>

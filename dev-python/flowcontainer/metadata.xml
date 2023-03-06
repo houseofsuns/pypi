@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>A python lib to parse traffic flow information from pcaps.Homepage : https://github.com/jmhIcoding/flowcontainer.Fix bugs: set the default filter string to be `tcp or udp or gre`. update help information for errors.  supports ipv6 parse.  fix separator bugs, replace separator from '+' to '`'   fix separator bugs, for http payload, the separator char would separate the payload wrongly.   support extract the extended protocol name, e.g. TLSv1, TLSv2, IPSEC etc.  fix http payload bugs.  2023-03-30: check the version of wireshark, ensure the version is not greater than 4.0.0. </longdescription>
+</pkgmetadata>

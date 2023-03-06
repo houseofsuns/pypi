@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## Typing stubs for appdirsThis is a PEP 561 type stub package for the `appdirs` package. Itcan be used by type-checking tools like[mypy](https://github.com/python/mypy/),[pyright](https://github.com/microsoft/pyright),[pytype](https://github.com/google/pytype/),PyCharm, etc. to check code that uses`appdirs`. The source for this package can be found athttps://github.com/python/typeshed/tree/main/stubs/appdirs. All fixes fortypes and metadata should be contributed there.The `appdirs` package has been deprecated in favour of the `platformdirs` package, which ships with a `py.typed` file. Users should migrate their `appdirs` code to use `platformdirs` instead, which will remove the need for the `types-appdirs` package.*Note:* `types-appdirs` is unmaintained and won't be updated.See https://github.com/python/typeshed/blob/main/README.md for more details.This package was generated from typeshed commit `7e0b9b44dea0b170081cafd596c2804089dc2125`.</longdescription>
+</pkgmetadata>

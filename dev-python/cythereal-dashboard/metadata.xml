@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>The API used exclusively by the MAGIC Dashboard for populating charts, graphs, tables, etc... on the dashboard.  # API Conventions  **All responses** MUST be of type &amp;#x60;APIResponse&amp;#x60; and contain the following fields:  * &amp;#x60;api_version&amp;#x60; |  The current api version * &amp;#x60;success&amp;#x60; | Boolean value indicating if the operation succeeded. * &amp;#x60;code&amp;#x60; | Status code. Typically corresponds to the HTTP status code.  * &amp;#x60;message&amp;#x60; | A human readable message providing more details about the operation. Can be null or empty.  **Successful operations** MUST return a &amp;#x60;SuccessResponse&amp;#x60;, which extends &amp;#x60;APIResponse&amp;#x60; by adding:  * &amp;#x60;data&amp;#x60; | Properties containing the response object. * &amp;#x60;success&amp;#x60; | MUST equal True  When returning objects from a successful response, the &amp;#x60;data&amp;#x60; object SHOULD contain a property named after the requested object type. For example, the &amp;#x60;/alerts&amp;#x60; endpoint should return a response object with &amp;#x60;data.alerts&amp;#x60;. This property SHOULD  contain a list of the returned objects. For the &amp;#x60;/alerts&amp;#x60; endpoint, the &amp;#x60;data.alerts&amp;#x60; property contains a list of MagicAlerts objects. See the &amp;#x60;/alerts&amp;#x60; endpoint documentation for an example.  **Failed Operations** MUST return an &amp;#x60;ErrorResponse&amp;#x60;, which extends &amp;#x60;APIResponse&amp;#x60; by adding:  * &amp;#x60;success&amp;#x60; | MUST equal False.   # noqa: E501</longdescription>
+</pkgmetadata>

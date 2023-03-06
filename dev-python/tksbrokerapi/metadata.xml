@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>See full documentation with examples on GitHub Pages: https://github.com/Tim55667757/TKSBrokerAPI/blob/master/README_EN.mdTKSBrokerAPI module documentation: https://tim55667757.github.io/TKSBrokerAPI/docs/tksbrokerapi/TKSBrokerAPI.htmlПодробная документация на русском с примерами: https://github.com/Tim55667757/TKSBrokerAPI/blob/master/README.mdДокументация на модуль TKSBrokerAPI: https://tim55667757.github.io/TKSBrokerAPI/docs/tksbrokerapi/TKSBrokerAPI.html</longdescription>
+</pkgmetadata>

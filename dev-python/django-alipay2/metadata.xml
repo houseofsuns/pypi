@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>==============django-alipay2==============提供django下alipay直接支付接口Quick start-----------1. Install::    pip install django_alipay22. Add &quot;alipay&quot; to your INSTALLED_APPS setting like this::    INSTALLED_APPS = [        ...        'alipay',    ]3. [Optional] Include the alipay URLconf in your project urls.py like this::    url(r'^alipay/', include('alipay.urls')),4. Migrate::    python manage.py migrate5. Add config 'ALIPAY' to settings.py like this::    # account below is for sandbox    ALIPAY = {        'pid': '2088101122136241',        'key': '760bdzec6y9goq7ctyx96ezkz78287de',        'seller_email': 'overseas_kgtest@163.com',        'gateway': 'https://openapi.alipaydev.com/gateway.do?',        'server_url': 'http://localhost:8000'        # RSA specified        'rsa_public_raw_key': '',        'sign_type': 'RSA',    }    # you may add an 'api_provider' to support multiple seller    ALIPAY = {        'api_provider': 'some_package.sub_package.get_alipay_alipay'  # input:seller_email, output:AlipayAPI    }6. Create alipay redirect::    import uuid    payment = AlipayPayment.objects.create(        out_no=uuid.uuid4(),        subject='充值',        body='1年365元',        amount_total=0.01,        user=None, # 可以指定user        seller_email='your_seller_email@domain.com',        # reference_id='1' # 可选    )    return redirect('alipay_redirect', out_no=payment.out_no)</longdescription>
+</pkgmetadata>

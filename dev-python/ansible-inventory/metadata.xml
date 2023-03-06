@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Script to manage your Ansible Inventory and also can be used by ansible as a dynamic inventory sourceAuthor: Diego Blanco &lt;diego.blanco@treitos.com&gt;Project: https://github.com/diego-treitos/ansible-inventory</longdescription>
+</pkgmetadata>

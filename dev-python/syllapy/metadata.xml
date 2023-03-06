@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>SyllaPy=======&lt;p&gt;  &lt;a href=&quot;https://badge.fury.io/py/syllapy&quot;&gt;&lt;img src=&quot;https://badge.fury.io/py/syllapy.svg&quot; alt=&quot;PyPI version&quot;&gt;&lt;/a&gt;  &lt;a href=&quot;https://github.com/mholtzscher/syllapy&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/code%20style-black-000000.svg&quot; alt=&quot;Black&quot;&gt;&lt;/a&gt;&lt;/p&gt;Calculate syllable counts for English words.Installation------------``` {.sourceCode .python}pip install syllapy```Usage-----``` {.sourceCode .python}import syllapycount = syllapy.count('additional')```</longdescription>
+</pkgmetadata>

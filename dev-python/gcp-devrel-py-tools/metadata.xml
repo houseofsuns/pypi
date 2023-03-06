@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Cloud Platform Python Repository Tools======================================|Build Status|This is a collection of common tools used to maintain and test Python repositories in the `GoogleCloudPlaftorm &lt;https://github.com/GoogleCloudPlatform&gt;`__ organization.Contributing changes---------------------  See `CONTRIBUTING.md`_Licensing---------- Apache 2.0 - See `LICENSE`_.. _LICENSE: https://github.com/GoogleCloudPlatform/python-repo-tools/blob/master/LICENSE.. _CONTRIBUTING.md: https://github.com/GoogleCloudPlatform/python-repo-tools/blob/master/CONTRIBUTING.md.. |Build Status| image:: https://travis-ci.org/GoogleCloudPlatform/python-repo-tools.svg   :target: https://travis-ci.org/GoogleCloudPlatform/python-repo-tools</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># CLImageConvert images to beautiful ANSI escape codes for display in command line interfaces.Available as both a CLI application and a Python library.![demo](https://raw.github.com/pnappa/CLImage/master/extra/demo.png)## Features - 8/16/256/Truecolor supports - Custom system color palettes - Toggleable Unicode mode, allowing up to 4x more detail - Custom output size## Example usage### CLI`$ climage --unicode --truecolor --cols 80 barney.jpg`![cliusage](https://raw.github.com/pnappa/CLImage/master/extra/clibarney.png)For more detail and available options, run `$ climage --help`.### Python```python3import climageoutput = climage.convert('image.png', is_unicode=True)print(output)```</longdescription>
+</pkgmetadata>

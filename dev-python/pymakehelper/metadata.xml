@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>==============*pymakehelper*==============.. image:: https://img.shields.io/pypi/v/pymakehelper.. image:: https://img.shields.io/github/license/veltzer/pymakehelper.. image:: https://img.shields.io/badge/code%20style-black-000000.svgproject website: https://veltzer.github.io/pymakehelperauthor: Mark Veltzerversion: 0.0.27</longdescription>
+</pkgmetadata>

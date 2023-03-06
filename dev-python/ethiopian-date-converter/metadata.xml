@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Ethiopian Date Converter========================Introduction------------ethiopian_date is a date converter from Ethiopian calendar to Gregoriancalendar and vice-versa.It is a port from Java's Ealet 2.0.Installation------------    pip install ethiopian_dateResources--------- * http://www.funaba.org/en/calendar-conversion.cgi * http://www.senamirmir.org/projects/</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Nion Swift EELS Analysis========================A Nion Swift library for EELS analysis (used in Nion Swift)-----------------------------------------------------------Nion Swift EELS analysis is comprised of libraries and UI's useful for EELSanalysis... start-badges.. list-table::    :stub-columns: 1    * - tests      - | |linux|    * - package      - |version|.. |linux| image:: https://img.shields.io/travis/nion-software/eels-analysis/master.svg?label=Linux%20build   :target: https://travis-ci.org/nion-software/eels-analysis   :alt: Travis CI build status (Linux).. |version| image:: https://img.shields.io/pypi/v/nionswift-eels-analysis.svg   :target: https://pypi.org/project/nionswift-eels-analysis/   :alt: Latest PyPI version.. end-badgesMore Information----------------- `Changelog &lt;https://github.com/nion-software/eels-analysis/blob/master/CHANGES.rst&gt;`_</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># together_worker## Setup dev```consolemake install```## Publish to PyPiGitHub repo &gt; Releases &gt; Draft a new Release &gt; Choose a tag &gt; Create new tag on publish &gt;Name the tag using the current version from pyproject.toml with a &quot;v&quot; e.g. `v1.0.9`.&gt; Publish ReleaseIn the repo toolbar select &gt; Actions- Verify the publish workflow is running and completes successfully</longdescription>
+</pkgmetadata>

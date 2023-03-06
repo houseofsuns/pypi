@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># BlueQubit Python SDK## Quick Start1. Register on https://app.bluequbit.io and copy the API token.2. Install Python SDK from PyPI:```    pip install bluequbit```3. An example of how to run a Qiskit circuit using the SDK:```    import qiskit    import bluequbit    bq_client = bluequbit.init(&quot;&lt;token&gt;&quot;)    qc_qiskit = qiskit.QuantumCircuit(2)    qc_qiskit.h(0)    qc_qiskit.x(1)    job_result = bq_client.run(qc_qiskit, job_name=&quot;testing_1&quot;)    state_vector = job_result.get_statevector()     # returns a NumPy array of [0. +0.j 0. +0.j 0.70710677+0.j 0.70710677+0.j]```The packages is tested extensively on Python 3.8.## Full referencePlease find detailed reference at https://app.bluequbit.io/sdk-docs.## Questions and IssuesPlease submit questions and issues to info@bluequbit.io.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>boxing======Draw boxes like never before! Python porting of `boxen &lt;https://github.com/sindresorhus/boxen&gt;`_.Install-------``pip install boxing``or``pipenv install boxing``Usage-----``boxing(text, style='single', margin=1, padding=1)``.. code-block:: python    &gt;&gt;&gt; from boxing import boxing    &gt;&gt;&gt; boxing(&quot;Hello, world!&quot;)        ┌───────────────────┐        │                   │        │   Hello, world!   │        │                   │        └───────────────────┘    &gt;&gt;&gt; boxing(&quot;boxing&quot;, style=&quot;double&quot;, padding=2, margin=1)        ╔══════════════════╗        ║                  ║        ║                  ║        ║      boxing      ║        ║                  ║        ║                  ║        ╚══════════════════╝</longdescription>
+</pkgmetadata>

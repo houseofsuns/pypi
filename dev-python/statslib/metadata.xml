@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>git clone https://github.com/aforren1/pystatslib --recursiveExample usage:```pythonimport statslib as slimport numpy as npimport matplotlib.pyplot as pltfrom scipy.stats import normx = np.linspace(-3, 3, num=100)y = sl.dnorm(x, mu=0, sigma=1, log=False)y2 = norm.pdf(x, loc=0, scale=1)plt.plot(x, y - y2)plt.show()```</longdescription>
+</pkgmetadata>

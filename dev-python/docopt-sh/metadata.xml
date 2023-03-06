@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>docopt.sh=========A [docopt](http://docopt.org/) argument parser for bash 3.2, 4+, and 5+ with noexternal dependencies.The full documentation is available on [GitHub](https://github.com/andsens/docopt.sh#docoptsh).</longdescription>
+</pkgmetadata>

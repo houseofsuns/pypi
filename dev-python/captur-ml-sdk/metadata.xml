@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Captur ML SDKThis is an internal SDK to build Captur Machine Learning products.## Using this library`pip install captur-ml-sdk`## Publishing a new version of this library`sh publish.sh`</longdescription>
+</pkgmetadata>

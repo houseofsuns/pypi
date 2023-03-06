@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># based_latexGenerates SVG image code from LaTeX formulas.## Installation```pip install based_latex```## RequirementsThis package requires a [LaTeX distribution](https://www.latex-project.org/), as well as [Ghostscript](https://www.ghostscript.com/) and [Inkscape](https://inkscape.org/).## UsageUse the function `based_latex.get_latex_svg_data(expression)` to get a dictionary of the form```{dimensions: # Some dimension parameters (useful for HTML embedding)svg: # The SVG code.}```</longdescription>
+</pkgmetadata>

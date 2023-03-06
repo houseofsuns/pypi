@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Creates flexible tables in Jupyter Notebooks with lots of formatting options such as changing font, font color, cell background, number formatting and much more. Tables can also be saved to csv or Excel files, or generated from csv data files.</longdescription>
+</pkgmetadata>

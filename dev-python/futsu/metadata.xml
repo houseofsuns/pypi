@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/luzi82/py.futsu)![Python package](https://github.com/luzi82/py.futsu/workflows/Python%20package/badge.svg)# FutsuFutsu = Japanese 普通 , means general, ordinary, usual.You can see this lib is like Apache Commons, but in python.https://github.com/luzi82/py.futsu## Cheat sheet```gcloud auth logingcloud config configurations create futsugcloud config set project futsu-242513export GOOGLE_APPLICATION_CREDENTIALS=${PWD}/key/futsu-4bc2f6db1c50.jsonvirtualenv --python python3 venvsource venv/bin/activatepip install --upgrade pip wheelpip install --upgrade setuptools wheel nose twine keyring google-cloud-storage boto3keyring set https://upload.pypi.org/legacy/ luzi82keyring set https://test.pypi.org/legacy/ luzi82rm -rf distpython3 setup.py testpython3 setup.py sdist bdist_wheelpython3 -m twine upload -u luzi82 --repository-url https://test.pypi.org/legacy/ dist/*deactivatemkdir -p tmp;cd tmprm -rf venv_testvirtualenv --python python3 venv_testsource venv_test/bin/activatepip install --index-url https://test.pypi.org/simple/ --no-deps futsupython3 -c &quot;import futsu;print(futsu.name)&quot;deactivatecd ..source venv/bin/activatepython3 -m twine upload -u luzi82 dist/*deactivate# short output# update version in setup.pyexport GOOGLE_APPLICATION_CREDENTIALS=${PWD}/key/futsu-4bc2f6db1c50.jsonsource venv/bin/activate   rm -rf dist \&amp;&amp; python3 setup.py test \&amp;&amp; python3 setup.py sdist bdist_wheel \&amp;&amp; python3 -m twine upload -u luzi82 dist/*```</longdescription>
+</pkgmetadata>

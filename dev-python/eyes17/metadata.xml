@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ExpEYES17 PIP Packageentry points : eyes17maintainer : Jithin B P jithinbp@gmail.com# Translations - translation to French by Georges Khaznadar, &lt;georges.khaznadar at free.fr&gt;,   Copyright (c) 2019 - translation to Malayalam by Amal M, &lt;amalmphysics at gmail.com&gt;,   Copyright (c) 2020</longdescription>
+</pkgmetadata>

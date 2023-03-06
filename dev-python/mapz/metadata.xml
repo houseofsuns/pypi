@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># MapZ&lt;h2&gt;Extension of standard `dict` capabilities.&lt;/h2&gt;&lt;p&gt;    &lt;a href=&quot;https://github.com/ilexconf/mapz/actions&quot;&gt;&lt;img alt=&quot;GitHub Workflow Status&quot; src=&quot;https://img.shields.io/github/workflow/status/ilexconf/mapz/release?logo=github&quot;&gt;&lt;/a&gt;    &lt;a href=&quot;https://codecov.io/gh/ilexconf/mapz/&quot;&gt;&lt;img alt=&quot;Codecov&quot; src=&quot;https://img.shields.io/codecov/c/github/ilexconf/mapz?logo=codecov&quot;&gt;&lt;/a&gt;    &lt;a href=&quot;https://pypi.org/project/mapz/&quot;&gt;&lt;img alt=&quot;PyPI&quot; src=&quot;https://img.shields.io/pypi/v/mapz?color=blue&amp;logo=pypi&quot;&gt;&lt;/a&gt;&lt;/p&gt;</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>python-hl7 is a simple library for parsing messages of Health Level 7(HL7) version 2.x into Python objects.* Documentation: http://python-hl7.readthedocs.org* Source Code: http://github.com/johnpaulett/python-hl7</longdescription>
+</pkgmetadata>

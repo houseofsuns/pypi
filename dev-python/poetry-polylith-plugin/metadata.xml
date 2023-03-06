@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Poetry Polylith PluginThis is a Python `Poetry` plugin, adding CLI support for the Polylith Architecture.## DocumentationHave a look at the [documentation](https://davidvujic.github.io/python-polylith-docs/).You will find installation, setup, usage guides and more.## Quick startWith the `Poetry` version 1.2 or later installed, you can add plugins.Make sure that you have `Poetry` 1.2 or later installed.Add the [Multiproject](https://github.com/DavidVujic/poetry-multiproject-plugin) plugin, that will enable the very important __workspace__ support (i.e. relative package includes) to Poetry.``` shellpoetry self add poetry-multiproject-plugin```Add the Polylith plugin:``` shellpoetry self add poetry-polylith-plugin```Create a directory for your code, initialize it with __git__ and create a basic __Poetry__ setup:``` shellgit initpoetry init```Next: create a Polylith workspace, with a basic Polylith folder structure.``` shellpoetry poly create workspace --name my_namespace --theme loose```Time to start coding. Add components, bases and projects:``` shellpoetry poly create component --name my_componentpoetry poly create base --name my_example_endpointpoetry poly create project --name my_example_project```For details, have a look at the [documentation](https://davidvujic.github.io/python-polylith-docs/).There, you will find guides for setup, migration, packaging, available commands, code examples and more.</longdescription>
+</pkgmetadata>

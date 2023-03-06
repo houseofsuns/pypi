@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;a href=&quot;https://cognite.com/&quot;&gt;    &lt;img src=&quot;https://github.com/cognitedata/correlation/blob/master/img/cognite_logo.png&quot; alt=&quot;Cognite logo&quot; title=&quot;Cognite&quot; align=&quot;right&quot; height=&quot;80&quot; /&gt;&lt;/a&gt;Correlation=======================[![build](https://webhooks.dev.cognite.ai/build/buildStatus/icon?job=github-builds/correlation/master)](https://jenkins.cognite.ai/job/github-builds/job/correlation/job/master/)[![codecov](https://codecov.io/gh/cognitedata/correlation/branch/master/graph/badge.svg)](https://codecov.io/gh/cognitedata/correlation)Correlation analysis tool for contextualization of time series data.## DocumentationDocumentation can be found [here](https://cognite-docs.readthedocs-hosted.com/projects/cognite-cognite-correlation/en/latest/)## PrerequisitesPython3 (&gt;= 3.5) and pip## InstallationUse pip for installation:```bash$ pip install cognite-correlation```## ExamplesSome examples can be found in the [documentation](https://cognite-docs.readthedocs-hosted.com/projects/cognite-cognite-correlation/en/latest/),and some notebooks with examples can be found in the `examples/` directory.## LicenseCognite Packages use the Apache 2.0 License. See [LICENSE](LICENSE)</longdescription>
+</pkgmetadata>

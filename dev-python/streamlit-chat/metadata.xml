@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># st-chatStreamlit Component, for a Chat-bot UI, [example app](https://share.streamlit.io/ai-yash/st-chat/main/examples/chatbot.py)authors - [@yashppawar](https://github.com/yashppawar) &amp; [@YashVardhan-AI](https://github.com/yashvardhan-ai)## InstallationInstall `streamlit-chat` with pip```bashpip install streamlit-chat ```usage, import the `message` function from `streamlit_chat````pyimport streamlit as stfrom streamlit_chat import messagemessage(&quot;My message&quot;) message(&quot;Hello bot!&quot;, is_user=True)  # align's the message to the right```   ### Screenshot![chatbot-og](https://user-images.githubusercontent.com/90775147/210397700-5ab9e00d-a61b-4bc9-a34a-b5bd4454b084.png)</longdescription>
+</pkgmetadata>

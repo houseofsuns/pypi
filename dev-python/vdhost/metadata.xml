@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;img src=&quot;https://vectordash-static.s3.amazonaws.com/images/logo-black.png&quot; width=250&gt;&lt;/img&gt;# vdhostA command line tool for hosting your machine as [Vectordash](http://vectordash.com) GPU instances. Can be installed with `pip3 install vdhost`.For a more detailed overview on how to get started, how the commands work, or general questions, please visit our [hosting page](https://vectordash.com.hosting) or view our [host documentation.](http://vectordash.com/machines/docs/) Note that you must be logged in and an approved host to view the host documentation.</longdescription>
+</pkgmetadata>

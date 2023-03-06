@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># clODE - an OpenCL based tool for solving ordinary differential equations (ODEs)clODE is a tool for solving ordinary differential equations (ODEs) using OpenCL.It lets users simulate 10,000s of ODEs simultaneously on a GPU, and generates data three orders of magnitude faster than Matlab's ODE solversor scipy's odeint.clODE is written in C++ and OpenCL, and has a Python interface.The right-hand-side (RHS) function is written in OpenCL,and is relatively simple in structure. The library is compiledusing bazel and bazelisk, and it runs on Linux, Windows and MacOS.## SourceThe source code is available on [GitHub](https://github.com/patrickfletcher/clODE).</longdescription>
+</pkgmetadata>

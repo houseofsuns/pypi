@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># sys-detectionhttps://pypi.org/project/sys-detection/Allows identifiying the current operating system, which is helpful whenbuilding and packaging cross-platform software.## Usage as module```&gt;&gt;&gt; from sys_detection import local_sys_conf&gt;&gt;&gt; local_sys_conf() &lt;sys_detection.SysConfiguration system='Linux' architecture='x86_64' linux_os_release={'NAME': 'CentOS Stream', 'VERSION': '8', 'ID': 'centos', 'ID_LIKE': 'rhel fedora', 'VERSION_ID': '8', 'PLATFORM_ID': 'platform:el8', 'PRETTY_NAME': 'CentOS Stream 8', 'ANSI_COLOR': '0;31', 'CPE_NAME': 'cpe:/o:centos:centos:8', 'HOME_URL': 'https://centos.org/', 'BUG_REPORT_URL': 'https://bugzilla.redhat.com/', 'REDHAT_SUPPORT_PRODUCT': 'Red Hat Enterprise Linux 8', 'REDHAT_SUPPORT_PRODUCT_VERSION': 'CentOS Stream'} at 0x7f0123456789&gt;&gt;&gt;&gt; local_sys_conf().id_for_packaging()'centos8-x86_64'&gt;&gt;&gt; local_sys_conf().id_for_packaging(mid_part=['moreinfo'])'centos8-moreinfo-x86_64'&gt;&gt;&gt; local_sys_conf().id_for_packaging(separator='_')'centos8_x86_64'```## Command-line usage```bashpython3 -m sys_detection```Output:```centos8-x86_64```</longdescription>
+</pkgmetadata>

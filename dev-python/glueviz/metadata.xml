@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>The glueviz meta-package========================This package does not contain any code, but instead is a meta-package that depends on the core glue code as well as stable plugins that we want to provide to users by default. It can be installed with::    pip install gluevizThis currently installs:* `glue-core &lt;https://github.com/glue-viz/glue&gt;`_, the main glue package* `glue-vispy-viewers &lt;https://github.com/glue-viz/glue-vispy-viewers&gt;`_,  which adds 3D viewersIn future, as more plugin packages become stable, we will include themin this meta-package.Issues should be opened `in the repository for the main glue package&lt;https://github.com/glue-viz/glue&gt;`_.</longdescription>
+</pkgmetadata>

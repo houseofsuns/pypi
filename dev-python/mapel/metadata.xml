@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># MapelThis package's purpose is to install jointly the following (so far all) parts ofthe mapel ecosystem:  1. mapel-core1. mapel-elections1. mapel-roommates1. mapel-marriagesSee the documentation of the above for further information.# AcknowledgmentsThis project is part of the [PRAGMA project](https://home.agh.edu.pl/~pragma/)which has received funding from the [European Research Council(ERC)](https://home.agh.edu.pl/~pragma/) under the European Union’s Horizon 2020research and innovation programme ([grant agreement No101002854](https://erc.easme-web.eu/?p=101002854)).</longdescription>
+</pkgmetadata>

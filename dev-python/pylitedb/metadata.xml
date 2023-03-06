@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pylitedbSimple library to help manage an sqlite database## Example```pythonfrom datetime import datetimeimport pylitedbconn = pylitedb.DB(&quot;test&quot;, path=&quot;.&quot;)daily_data = pylitedb.Table(conn,              name=&quot;DailyData&quot;,              schema={&quot;date&quot;: datetime,                        &quot;ticker&quot;: str,                        &quot;field&quot;: str,                        &quot;value&quot;: float},              primary_keys=['date', 'ticker', 'field'])daily_data.upsert([{&quot;date&quot;: datetime(2022, 2, 1),                        &quot;ticker&quot;: &quot;AAPL&quot;,                        &quot;field&quot;: &quot;PX_LAST&quot;,                        &quot;value&quot;: 6.}])data = daily_data.query(&quot;&quot;)daily_data.delete()```</longdescription>
+</pkgmetadata>

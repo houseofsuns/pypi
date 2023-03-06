@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![PyPI](https://img.shields.io/pypi/v/slz)](https://pypi.org/project/slz/)## slza (light) binding for http://www.libslz.org/```o = slz.compressobjo.compress('hello')o.flush()```the stream is compatible with zlib deflate.## tested versions- Python 2.7- Python 3.9- PyPy [2.7] 7.3.3- PyPy [3.7] 7.3.5    - For PyPy2, pip needs to be 20.1.x cf https://github.com/pypa/pip/issues/8653    - PyPy needs to be 7.3.1+ cf https://github.com/pybind/pybind11/issues/2436- Pyston [3.8] 2.3## Windows installationNow sdist installation is possible.## Apple M1 wheelIt will be considered after https://github.com/actions/python-versions/pull/114 is done.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># PKI Express for PythonPackage for using PKI Express on PythonThe recommend way to install **PKI Express for Python** is through [PyPi](https://pypi.org/):    $ pip install pkiexpressOr informing on your project's `requirements.txt` file:    pkiexpress==1.10.0## Documentationhttps://docs.lacunasoftware.com/en-us/articles/pki-express/python## SamplesPlease visit the [PKI Express samples repository](https://github.com/LacunaSoftware/PkiExpressSamples/tree/master/Python)for examples on how to use this library.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>OpenTelemetry Psycopg Instrumentation=====================================|pypi|.. |pypi| image:: https://badge.fury.io/py/opentelemetry-instrumentation-psycopg2.svg   :target: https://pypi.org/project/opentelemetry-instrumentation-psycopg2/Installation------------::    pip install opentelemetry-instrumentation-psycopg2References----------* `OpenTelemetry Psycopg Instrumentation &lt;https://opentelemetry-python-contrib.readthedocs.io/en/latest/instrumentation/psycopg2/psycopg2.html&gt;`_* `OpenTelemetry Project &lt;https://opentelemetry.io/&gt;`_* `OpenTelemetry Python Examples &lt;https://github.com/open-telemetry/opentelemetry-python/tree/main/docs/examples&gt;`_</longdescription>
+</pkgmetadata>

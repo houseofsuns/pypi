@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Legacy NS1 Python SDK=====================This SDK is deprecated in favor of `ns1-python &lt;https://github.com/ns1/ns1-python&gt;`_and should not be used for new projects. The code in this repository providesjust a thin wrapper for the new SDK to allow easier migration.Migration to the new SDK------------------------The new SDK provides equivalent functionality. To migrate a project to the newSDK:* Update your project dependencies to use ``ns1-python`` instead of ``nsone``.* Replace use of ``nsone`` namespace with ``ns1``.* Replace use of ``nsone.NSONE`` with ``ns1.NS1``.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>HitchTest=========HitchTest is the main hitch plugin containing all of the core componentsrequired to run a test.It is installed into every .hitch virtualenv by the `bootstrapper &lt;https://github.com/hitchtest/hitch&gt;`_.Documentation-------------* `Full hitch documentation &lt;https://hitchtest.readthedocs.org/en/latest/&gt;`_* `hitchtest-specific API docs &lt;https://hitchtest.readthedocs.org/en/latest/api/&gt;`_</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Project Revenue Module######################The project revenue module computes revenue and cost per task and project.The revenue uses the list price of the product. If the product's unit ofmeasure is time based, the revenue is computed as the product of the price andthe hours of effort otherwise the price is considered as fixed.The cost is computed by summing the cost of all the linked time sheets and thelinked purchase lines.</longdescription>
+</pkgmetadata>

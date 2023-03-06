@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Protobuf messages in messages_pb2 are tracked by git, so when importing this repo as submodule # there is no need to compile protobuf.If you are reading this outside of PyPi, this project is published:```pip install advance-common```</longdescription>
+</pkgmetadata>

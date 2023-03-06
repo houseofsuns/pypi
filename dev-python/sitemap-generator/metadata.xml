@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pysitemap=========Sitemap generatorinstalling----------::    pip install sitemap-generatorrequirements------------::    asyncio    aiofile    aiohttpexample-------::    import sys    import logging    from pysitemap import crawler    from pysitemap.parsers.lxml_parser import Parser    if __name__ == '__main__':        if '--iocp' in sys.argv:            from asyncio import events, windows_events            sys.argv.remove('--iocp')            logging.info('using iocp')            el = windows_events.ProactorEventLoop()            events.set_event_loop(el)        # root_url = sys.argv[1]        root_url = 'https://www.haikson.com'        crawler(            root_url, out_file='debug/sitemap.xml', exclude_urls=[&quot;.pdf&quot;, &quot;.jpg&quot;, &quot;.zip&quot;],            http_request_options={&quot;ssl&quot;: False}, parser=Parser        )TODO------  big sites with count of pages more then 100K will use more then 100MB   memory. Move queue and done lists into database. Write Queue and Done   backend classes based on-  Lists-  SQLite database-  Redis-  Write api for extending by user backendschangelog---------</longdescription>
+</pkgmetadata>

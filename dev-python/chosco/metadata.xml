@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># chosco 🏷️ [![ci](https://github.com/alice-biometrics/fuchicar/workflows/ci/badge.svg)](https://github.com/alice-biometrics/fuchicar/actions)&lt;img src=&quot;https://github.com/alice-biometrics/custom-emojis/blob/master/images/alice_header.png&quot; width=auto&gt;Package on top of `ipywidgets` to label media resources on `Notebook` pages.## Table of Contents- [Installation :computer:](#installation-computer)- [Development :construction_worker:](#development-construction_worker)- [Testing :white_check_mark:](#testing-white_check_mark)- [Contact :mailbox_with_mail:](#contact-mailbox_with_mail)## Installation :computer:```console&gt;&gt; pip install chosco```## Development :construction_worker:Use [lume :fire:](https://github.com/alice-biometrics/lume) to install dependencies:Example:```console&gt;&gt; python3 -m venv venv&gt;&gt; source venv/bin/activate(venv) &gt;&gt; pip install lume(venv) &gt;&gt; lume -install```## Testing :white_check_mark:### Unit, Integration and Acceptance```console(venv) &gt;&gt; lume -test```## NotebooksRun jupyter server:```console(venv) &gt;&gt; jupyter notebook``` Go to dummy example [here](http://localhost:8888/notebooks/notebooks/dummy_annotation.ipynb)## Contact :mailbox_with_mail:support@alicebiometrics.com</longdescription>
+</pkgmetadata>

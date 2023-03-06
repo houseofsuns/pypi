@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>VeRoViz is a suite of tools (primarily written in Python) to easily generate, test, and visualize vehicle routing problems.Key features of the Python tools include:- Generation of nodes on road networks;- Calculation of travel time/distance matrices using external data providers;- Creation of Leaflet maps to view nodes, routes, and basic geometric shapes; and - Generation of dynamic CesiumJS content to view 4D &quot;movies&quot; of vehicle routing problems.Source code is available at https://github.com/optimatorlab/veroviz.  Documentation and examples are maintained on the project homepage (https://veroviz.org).</longdescription>
+</pkgmetadata>

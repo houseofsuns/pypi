@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>OpenSCM-Units==============.. sec-begin-indexOpenSCM-Units is a repository for handling of units related to simple climate modelling... sec-end-indexLicense-------.. sec-begin-licenseOpenSCM-Units is free software under a BSD 3-Clause License, see`LICENSE &lt;https://github.com/openscm/openscm-units/blob/master/LICENSE&gt;`_... sec-end-license</longdescription>
+</pkgmetadata>

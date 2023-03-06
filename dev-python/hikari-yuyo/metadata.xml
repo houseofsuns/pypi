@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># YuyoA collection of utility classes and functions designed to expand Hikari.# InstillationYou can install yuyo from PyPI using the following command.```python -m pip install -U hikari-yuyo```The following feature flags ensure feature-specific optional dependencies are also installed:* `hikari-yuyo[asgi]` ensures the dependencies required to run the Asgi RESTBot adapter.* `hikari-yuyo[sake]` can be used to ensure the installed Sake version is compatible with  Yuyo's functionality which uses Sake. You should still have a Sake version pinned in your  own requirements as this just provides an accepted range for the dependency.* `hikari-yuyo[tanjun]` can be used to ensure the installed Tanjun version is compatible with  Yuyo's Tanjun support (e.g. the `from_tanjun`) class methods.# Quick Usage.For usage see the the [documentation](https://yuyo.cursed.solutions/) and soon to come examples.# Support[Hikari's support guild](https://discord.gg/hikari) provides for support for Yuyo.# ContributingBefore contributing you should read through the[contributing guidelines](https://github.com/FasterSpeeding/Yuyo/blob/master/CONTRIBUTING.md) andthe [code of conduct](https://github.com/FasterSpeeding/Yuyo/blob/master/CODE_OF_CONDUCT.md).</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>APEER Python SDK aka (ADK) is a Python library for reading inputs and writing outputs of APEER(https://www.apeer.com) modules.The ADK will take care of reading inputs from previous modules in APEER and writing your outputs in the correct format for the next mod ule.This project is hosted at https://github.com/apeer-micro/apeer-python-sdkThe documentation can be found at https://github.com/apeer-micro/apeer-python-sdk/blob/master/README.md</longdescription>
+</pkgmetadata>

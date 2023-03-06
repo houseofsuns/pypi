@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>``ll.nightshade`` allows you to use Oracle PL/SQL procedures/functions asCherryPy__ response handlers. __ http://www.cherrypy.orgChanges in 0.14.1 (released 03/09/2009)---------------------------------------*``ll.nightshade.Call`` now commits any changes that might have been doneby the function or procedure.</longdescription>
+</pkgmetadata>

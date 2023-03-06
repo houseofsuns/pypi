@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># IRC botJust a small library based on asyncore that allows you to quickly create a small IRC bot## Pull RequestsPull requests are welcome. The code base is a mess and I'm too lazy to fix it.</longdescription>
+</pkgmetadata>

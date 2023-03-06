@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Frigidaire Python APIThis is an API wrapper written in Python around the Frigidaire 2.0 App.This was created specifically for use in [home-assistant/core](https://github.com/home-assistant/core) to introduce HomeKit support to Frigidaire air conditioners.</longdescription>
+</pkgmetadata>

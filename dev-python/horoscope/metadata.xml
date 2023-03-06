@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=====horoscope=====A Python module to fetch and parse data from Ganeshaspeaks.Installation============Install using pip:    pip install horoscopeUsage=====    from horoscope import Horoscope    your_horoscope = Horoscope.get_todays_horoscope ('Libra')        #do stuff with the parsed data    your_horoscope['date']    your_horoscope['sunsign']    your_horoscope['horscope']Features========Currently implemented---------------------* Today's Horscope* Weekly Horoscope * Monthly Horoscope* Yearly HoroscopeTodo----* Personality Profile * Facts About a Sunsign* Practical Side of a Sunsign* Astrological Perspective of a Sunsign* More information about a sunsign</longdescription>
+</pkgmetadata>

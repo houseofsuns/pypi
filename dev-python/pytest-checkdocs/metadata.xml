@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image:: https://img.shields.io/pypi/v/pytest-checkdocs.svg   :target: `PyPI link`_.. image:: https://img.shields.io/pypi/pyversions/pytest-checkdocs.svg   :target: `PyPI link`_.. _PyPI link: https://pypi.org/project/pytest-checkdocs.. image:: https://github.com/jaraco/pytest-checkdocs/workflows/tests/badge.svg   :target: https://github.com/jaraco/pytest-checkdocs/actions?query=workflow%3A%22tests%22   :alt: tests.. image:: https://img.shields.io/badge/code%20style-black-000000.svg   :target: https://github.com/psf/black   :alt: Code style: Black.. image:: https://readthedocs.org/projects/pytest-checkdocs/badge/?version=latest   :target: https://pytest-checkdocs.readthedocs.io/en/latest/?badge=latest.. image:: https://img.shields.io/badge/skeleton-2022-informational   :target: https://blog.jaraco.com/skeletonA pytest plugin that checks the long description of the project to ensure itrenders properly.</longdescription>
+</pkgmetadata>

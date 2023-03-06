@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>sdssdb======|python| |docs| |travis|`SDSS &lt;https://sdss.org&gt;`__ product for database management.**sdssdb is in active development. Although the code is stable and can be used for production, the implementation of existing features may be changed without previous notice. This will change when we reach version 1.0.0.**Useful links------------- GitHub: https://github.com/sdss/sdssdb- Documentation: https://sdssdb.readthedocs.org- Issues: https://github.com/sdss/sdssdb/issuesHow to use----------::    &gt;&gt;&gt; from sdssdb.peewee.sdss5db import catalogdb    &gt;&gt;&gt; targets = catalogdb.GaiaDR2Source.select().where(catalogdb.GaiaDR2Source.phot_g_mean_mag &lt; 15).. |python| image:: https://img.shields.io/badge/python-3.6%2B-green.svg    :alt: Requires Python 3.6+    :scale: 100%.. |docs| image:: https://readthedocs.org/projects/sdssdb/badge/?version=latest    :alt: Documentation Status    :scale: 100%    :target: https://sdssdb.readthedocs.io/en/latest/?badge=latest.. |travis| image:: https://travis-ci.org/sdss/sdssdb.svg?branch=main    :target: https://travis-ci.org/sdss/sdssdb.. |Python application| image:: https://github.com/sdss/sdssdb/workflows/Python%20application/badge.svg</longdescription>
+</pkgmetadata>

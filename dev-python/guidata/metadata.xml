@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>guidata: Automatic GUI generation for easy dataset editing and display with Python======================================================================================Simple example of ``guidata`` datasets embedded in an application window:.. image:: https://raw.githubusercontent.com/PierreRaybaut/guidata/master/doc/images/screenshots/editgroupbox.pngSee `documentation`_ for more details on the library and `changelog`_ for recent history of changes.Copyright © 2009-2022 CEA, Pierre Raybaut, licensed under the terms of the`CECILL License`_... _documentation: https://guidata.readthedocs.io/en/latest/.. _changelog: https://github.com/PierreRaybaut/guidata/blob/master/CHANGELOG.md.. _CECILL License: https://github.com/PierreRaybaut/guidata/blob/master/Licence_CeCILL_V2-en.txtOverview--------Based on the Qt library, ``guidata`` is a Python library generating graphical userinterfaces for easy dataset editing and display. It also provides helpers andapplication development tools for Qt (PyQt5, PySide2, PyQt6, PySide6).Generate GUIs to edit and display all kind of objects:- integers, floats, strings ;- ndarrays (NumPy's n-dimensional arrays) ;- etc.Application development tools:- configuration management- internationalization (``gettext``)- deployment tools- HDF5 I/O helpers- misc. utilsBuilding, installation, ...---------------------------The following package is **required**: `PyQt5`_ (or `PySide2`_)... _PyQt5: https://pypi.python.org/pypi/PyQt5.. _PySide2: https://pypi.python.org/pypi/PySide2.. _h5py: https://pypi.python.org/pypi/h5pySee the `README`_ and `documentation`_ for more details... _README: https://github.com/PierreRaybaut/guidata/blob/master/README.md</longdescription>
+</pkgmetadata>

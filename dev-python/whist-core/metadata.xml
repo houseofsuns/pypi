@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![Documentation Status](https://readthedocs.org/projects/pip/badge/?version=stable)](https://whist-core.readthedocs.io/en/latest/)[![codecov](https://codecov.io/gh/Whist-Team/Whist-Core/branch/main/graph/badge.svg)](https://codecov.io/gh/Whist-Team/Whist-Core)![PyPI](https://img.shields.io/pypi/v/whist-core)![PyPI - Python Version](https://img.shields.io/pypi/pyversions/whist-core)![PyPI - Wheel](https://img.shields.io/pypi/wheel/whist-core)![GitHub repo size](https://img.shields.io/github/repo-size/whist-team/whist-core)![Lines of code](https://img.shields.io/tokei/lines/github/whist-team/whist-core)![PyPI - Downloads](https://img.shields.io/pypi/dm/whist-core)![PyPI - License](https://img.shields.io/pypi/l/whist-core)# Whist-CoreWhist rules implementation## Development### SetupYou need [Poetry](https://python-poetry.org/) for development.```bash# Create venv and install depspoetry install```The Python virtual environment will be created in the `.venv` directory.### Run tests/lint```bash# Run tests (in venv)python -m pytest # or pylint...# ORpoetry run python -m pytest```### BuildGenerates `sdist` and `bdist_wheel`.```bashpoetry build```### PublishYou need the environment variable `POETRY_PYPI_TOKEN_PYPI` filled with a PyPI token.```bashpoetry buildpoetry publish# ORpoetry publish --build```</longdescription>
+</pkgmetadata>

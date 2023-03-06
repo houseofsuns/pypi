@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># DataJoint Element - LabDataJoint Element for lab metadata. DataJoint Elements collectively standardize andautomate data collection and analysis for neuroscience experiments. Each Element is amodular pipeline for data storage and processing with corresponding database tables thatcan be combined with other Elements to assemble a fully functional pipeline.Installation and usage instructions can be found at the[Element documentation](https://datajoint.com/docs/elements/element-lab).</longdescription>
+</pkgmetadata>

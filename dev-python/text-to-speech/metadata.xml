@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># text-to-speech[![npm](https://img.shields.io/pypi/v/text-to-speech.svg)](https://pypi.org/project/text-to-speech/)This is a simple text to speech engine with some customizable options.## InstallationRun the following to install:```consolepip install text-to-speech```## Usage### Save```pythonsave()```Params:```Text: String ? The text to be read.Language: String ? The language (IETF language tag) to read the text in.Slow: Boolean ? Reads text more slowly.File: String ? The file to save the text to, default is = &quot;speech.mp3&quot;, only accepts .mp3.Lang_check: Boolean ? If the text has to be checked on language errors.```Demo:```pythonfrom text_to_speech import savesave(&quot;Hello World&quot;, &quot;en&quot;, file=&quot;Hello-World.mp3&quot;)```# License[MIT](https://github.com/dewittethomas/text-to-speech/blob/master/LICENSE)</longdescription>
+</pkgmetadata>

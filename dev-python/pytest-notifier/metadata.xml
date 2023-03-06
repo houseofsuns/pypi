@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pytest-notifier===============.. image:: https://img.shields.io/pypi/v/pytest-notifier.svg    :target: https://pypi.python.org/pypi/pytest-notifier    :alt: Latest PyPI versionA `pytest`_ plugin to notify test result on Linux and OS X.Requirements------------Linux^^^^^Make sure ``notify-send`` is exists in ``$PATH``,which comes from ``libnotify``.OS X^^^^OS X 10.8 and higher is required.Optionally, you could install `terminal-notifier`_to avoid Script Editor being opened when notification icon is clicked.Installation------------You can install ``pytest-notifier`` via `pip`_ from `PyPI`_::    $ pip install pytest-notifierUsage-----Once installed, notification will be shown after each test run.By using with `pytest-watch &lt;https://github.com/joeyespo/pytest-watch&gt;`_,you can get continous feedback during development::    $ ptwYou can use ``--notifier-off`` flag to disable notification::    $ pytest --notifier-offLicence-------Distributed under the terms of the `MIT`_ license, ``pytest-notifier`` is free and open source softwareIssues------If you encounter any problems, please `file an issue`_ along with a detailed description... _`file an issue`: https://github.com/ratson/pytest-notifier/issues.. _`MIT`: http://opensource.org/licenses/MIT.. _`pip`: https://pypi.python.org/pypi/pip/.. _`PyPI`: https://pypi.python.org/pypi.. _`pytest`: https://github.com/pytest-dev/pytest.. _`terminal-notifier`: https://github.com/julienXX/terminal-notifier</longdescription>
+</pkgmetadata>

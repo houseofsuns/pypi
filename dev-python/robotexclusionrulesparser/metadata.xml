@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Robotexclusionrulesparser is an alternative to the Python standard librarymodule robotparser. It fetches and parses robots.txt files and can answerquestions as to whether or not a given user agent is permitted to visit a certain URL.This module has some features that the standard library module robotparser does not, including the ability to decode non-ASCII robots.txt files, respectfor Expires headers and understanding of Crawl-delay and Sitemap directives and wildcard syntax in path names.Complete documentation (including a comparison with the standard librarymodule robotparser) is available in ReadMe.html.Robotexclusionrulesparser is released under a BSD license.</longdescription>
+</pkgmetadata>

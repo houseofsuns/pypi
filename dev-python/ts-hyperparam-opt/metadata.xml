@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Time Series Hyperparameter Optimization (CV + Parallel)Convenience package for optimizing hyperparameters for Time Series forecastingusing methods like _ExponentialSmoothing_ or _SARIMAX_. Especially usefulfor Jupyter Notebooks where parallelization (with e.g. `ProcessPoolExecutor`)only works when importing the function used in parallel.## Install it from PyPI```bashpip install ts-hyperparam-opt```## Usage```pyfrom ts_hyperparam_opt import parallel_hyperparameter_optimization as phoparams_sarima = [    [(1,1,1), (1,1,1,7)],    [(1,1,0), (1,1,1,7)]    ]if __name__ == '__main__':    freeze_support()    results = process_map(functools.partial(pho.optimize_hyperparams,                            data=df_data, func=&quot;sarima&quot;,                             n_steps=15), params_sarima)    results_sorted = pho.sort_results(results)```## DevelopmentAlpha VersionCurrently supported methods:- (Triple) Exponential Smoothing (Holt-Winters)- SARIMA(X)</longdescription>
+</pkgmetadata>

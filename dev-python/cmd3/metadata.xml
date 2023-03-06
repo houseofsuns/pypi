@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>cmd3 - A dynamic CMD shell with plugins=======================================cmd is an extension for the CMD class with the following features:* commands are loaded from plugin directories * usage of docopts as part of the command creation* variable substitution* execution of python commands* scripts loadable from a script directoryThrough these extensions cmd becomes very flexible and can be used toextend command shell interface through simple add-ons via very simpleplugins provided as classes.The documentation is located at * http://cloudmesh.github.com/cmd3/</longdescription>
+</pkgmetadata>

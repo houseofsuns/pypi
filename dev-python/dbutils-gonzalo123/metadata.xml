@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Database utils for psycopg2[dbutils](https://github.com/gonzalo123/dbutils)## Install```commandlinepip install dbutils-gonzalo123```From github```commandlinepip install -e git+https://github.com/gonzalo123/dbutils#egg=dbutils-gonzalo123```### Run test```commandlinepytest```Note: Set up your connection parameters within pytest.ini. I also provide one docker-compose.yml file with a PostgreSQL database ready for the testing.```ini[pytest]python_files = tests.py test_*.py *_tests.pyenv =    POSTGRES_HOST=localhost    POSTGRES_PASSWORD=password    POSTGRES_USER=username    POSTGRES_DB=gonzalo123```In this database ther's one table and one stored procedure:```sqlCREATE TABLE users(    email  VARCHAR(256) UNIQUE NOT NULL,    &quot;name&quot; VARCHAR(256)        NOT NULL);CREATE OR REPLACE FUNCTION hello(name varchar(100))    RETURNS VARCHAR AS$$BEGIN    RETURN 'Hello ' || name;END;$$    LANGUAGE plpgsql;```</longdescription>
+</pkgmetadata>

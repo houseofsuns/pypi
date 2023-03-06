@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Bayne - Bayesian Neural NetworksPytorch/Pyro-based Bayesian Neural Networks libraryFeatures:- Markov Chain Monte Carlo (MCMC)  - Fully connected neural network with ReLU, Sigmoid, or Tanh activation  - Configurable prior &amp; likelihood  - Hamiltonian Monte Carlo or NUTS samplerAuthors:- Frederik Baymler Mathiesen, PhD student @ TU Delft, Netherlands</longdescription>
+</pkgmetadata>

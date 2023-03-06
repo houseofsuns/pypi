@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Opbeat for Python=================.. image:: https://api.travis-ci.org/opbeat/opbeat_python.svg?branch=master    :target: https://travis-ci.org/opbeat/opbeat_python    :alt: Build Status.. image:: https://img.shields.io/pypi/v/opbeat.svg?style=flat    :target: https://pypi.python.org/pypi/opbeat/    :alt: Latest Version.. image:: https://img.shields.io/pypi/pyversions/opbeat.svg?style=flat    :target: https://pypi.python.org/pypi/opbeat/    :alt: Supported Python versionsThis is the official Python module for `Opbeat &lt;https://opbeat.com/&gt;`_.It provides full out-of-the-box support for many of the popular frameworks,including Django, and Flask. Opbeat also includes drop-in support for anyWSGI-compatible web application.Your application doesn't live on the web? No problem! Opbeat is easy to use inany Python application.Documentation-------------* `Documentation overview &lt;https://opbeat.com/docs/topics/python/&gt;`_* `Get started with Django &lt;https://opbeat.com/docs/articles/get-started-with-django/&gt;`_* `Get started with Flask &lt;https://opbeat.com/docs/articles/get-started-with-flask/&gt;`_* `Get started with a custom Python stack &lt;https://opbeat.com/docs/articles/get-started-with-a-custom-python-stack/&gt;`_License-------BSD-3-ClauseMade with ♥️ and ☕️ by Opbeat and our community.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># PyCUDACov - A PyCuda Covariance Matrix Parallel Implementation[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)## Usage and InstallationRequires CUDA enviroment.### Installation:```sh$ pip install pycudacov```### Basic Usage```pythonfrom sklearn.datasets import make_blobsfrom sklearn.preprocessing import StandardScalerfrom pandas import DataFrameimport numpy as npfrom pycudacov import get_cov# Generate test datasetrows, cols = 2048, 2048 # samples, featuresX, y = make_blobs(n_samples = rows, centers = 2, n_features = cols)X_std = StandardScaler().fit_transform(X) # Optionaldf = DataFrame(X_std)df = df.astype(np.float32)blocks = 512# Size of kernel blocksthreads = 256# Size of threads per block# Call to PyCUDA Kernel, return the cov. matrix and# GPU execution time in millisecondscovariance_matrix, gpu_exec_time = get_cov(df.values, blocks, threads)```## License[MIT](https://choosealicense.com/licenses/mit/)</longdescription>
+</pkgmetadata>

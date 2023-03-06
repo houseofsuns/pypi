@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![PyPI version](https://badge.fury.io/py/heyvi.svg)](https://badge.fury.io/py/heyvi)\&quot;Hey Vi!\&quot;-------------------HEYVI: Visym Analytics for Visual AI    docs: https://developer.visym.com/heyviHEYVI is a python package for visual AI that provides systems and trained models for activity detection and object tracking in videos.HEYVI provides:  * Real time activity detection of the [MEVA activity classes](https://mevadata.org)* Real time visual object tracking in long duration videos* Live streaming of annotated videos to youtube live* Visual AI from RTSP camerasRequirements-------------------python 3.*    [ffmpeg](https://ffmpeg.org/download.html) (required for videos)    [vipy](https://github.com/visym/vipy), torch, pytorch_lightning (for training)    Installation-------------------```pythonpip install heyvi```Quickstart-------------------```pythonv = heyvi.sensor.rtsp().framerate(5)T = heyvi.system.Tracker()with heyvi.system.YoutubeLive(fps=5, encoder='480p') as s:     T(v, frame_callback=lambda im: s(im.pixelize().annotate()))```Create a default RTSP camera and GPU enabled object tracker, then stream the privacy preserving annotated video (e.g. pixelated bounding boxes with captions) to a YouTube live stream.[![YoutubeLive stream](https://img.youtube.com/vi/rMuuRpBCaVU/maxresdefault.jpg)](https://youtu.be/rMuuRpBCaVU)</longdescription>
+</pkgmetadata>

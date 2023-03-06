@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image:: https://img.shields.io/pypi/v/safe-security-logger.svg        :alt: PyPI-Server        :target: https://pypi.org/project/safe-security-logger/.. image:: https://img.shields.io/github/workflow/status/Safe-Security/py-logger/publish    :alt: Built Status    :target: https://github.com/Safe-Security/py-logger/actions/workflows/publish.yml|====================safe-security-logger====================    Structured JSON logger package from Safe Security============Installation============::    pip install safe-security-logger============Usage============::    import safe_security_logger as logging    logger = logging.getLogger(&quot;awesome-logger&quot;)    def test():        logger.info(&quot;Hello world&quot;)        logger.info(&quot;Hello world&quot;, extra={&quot;text&quot;: &quot;testing logging&quot;})    test()</longdescription>
+</pkgmetadata>

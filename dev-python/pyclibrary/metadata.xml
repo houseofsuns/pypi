@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>PyCLibrary includes 1) a pure-python C parser and2) an automation library that uses C header file definitions to simplify theuse of c bindings. The C parser currently processes all macros, typedefs,structs, unions, enums, function prototypes, and global variable declarations,and can evaluate typedefs down to their fundamental C types +pointers/arrays/function signatures. Pyclibrary can automatically build cstructs/unions and perform type conversions when calling functions viacdll/windll.</longdescription>
+</pkgmetadata>

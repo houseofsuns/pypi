@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Messaging App for NarunoThe Messaging App is a simple messaging application that allows users to communicate with each other through text messages. This app is built with Python and uses the Naruno blockchain for user authentication.## Features- Decentralized system- Secure communication between nodes- Fast and easy to use- Maps blockchain addresses to dynamic IPs- Uses encryption to protect sensitive information## InstallationYou can install Messaging App by pip3:```consolepip3 install messaging_app```## UsageTo use Messaging App, you can call from the command line:```consolemessagingapp -pass MyNarunoPass --port 80 --integrationport 8000```And after you can use the app by going to http://localhost:80## ContributingContributions to the Messaging App are welcome! If you have any suggestions or find a bug, please open an issue on the GitHub repository. If you want to contribute code, please fork the repository and create a pull request.## LicenseMessaging App is released under the MPL-2.0 License.</longdescription>
+</pkgmetadata>

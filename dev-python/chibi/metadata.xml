@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=====chibi=====this package is for i can put snippets and other useful thingsand i do not need to write the same thing for fifth time*************cosas utitles*************Chibi_path==========the chibi path work like strings but with opperators have sense for foldersand files.. code-block:: pythonfrom chibi.file import Chibi_pathtmp = Chibi_path( '/tmp/folder' )isintance( p, str ) == true# return a generator with all the files and folders in# the pathls = list( p.ls() )print( ls )p = tmp + 'file.json'str( p ) == '/tmp/folder/file.json'f = p.open()# check the file for see is containt the string'some string' in f# write a dict like json in the filef.write( { 'stuff': 'str' } )# read the json and transform the dict in a Chibi_atlasjson = f.read()json.stuff == 'str'# the same but in yamlf = p + 'file.yaml'f.write( { 'stuff': 'str' } )yaml = f.read()yaml.stuff == 'str'Chibi_atlas===========this is a dict but his keys can be access like attribute.. code-block:: pythonimport chibi.atals import Chibi_atlasc = Chibi_atlas( { 'stuff': 'str', 'l': [ 1, { 'more_stuff': 'str_2' } ] } )isintance( c, dict ) == truec.stuff == 'str'c.l[0] == 1c.l[1].more_stuff == 'str_2'=======History=======******************0.0.1 (2019-12-18)******************* First release on PyPI.</longdescription>
+</pkgmetadata>

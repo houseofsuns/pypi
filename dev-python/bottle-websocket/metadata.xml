@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This project adds websocket capabilities to [bottle](http://bottlepy.org), leveraging [gevent-websocket](http://www.gelens.org/code/gevent-websocket/) and [gevent](http://www.gevent.org/).### InstallUse `pip` or `easy_install`:    pip install bottle-websocket### UsageUsage is pretty straight-forward, just import the server and plugin:    from bottle.ext.websocket import GeventWebSocketServer    from bottle.ext.websocket import websocketYou can use the websocket plugin to turn routes websocket handlers, the websocket is passed to the route as the first argument:    @get('/websocket', apply=[websocket])    def echo(ws):        while True:            msg = ws.receive()            if msg is not None:                ws.send(msg)            else: breakAnd then use the provided server:    run(host='127.0.0.1', port=8080, server=GeventWebSocketServer)### Contributors- [zeekay](https://github.com/zeekay)- [xeross](https://github.com/xeross)</longdescription>
+</pkgmetadata>

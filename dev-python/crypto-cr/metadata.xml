@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># CRYPTO_CR==========This project refers to a password encryptor, which also serves to encrypt and decrypt files through a password entered by users. &lt;br&gt;[Project Cripto](https://github.com/NaraAndrad3/Cripto/)to write your content.&lt;h3&gt;&lt;li&gt;1 - Para instalar o pacote use:&lt;/li&gt;&lt;/h3&gt;``````pip install crypto_cr``````&lt;h3&gt;&lt;li&gt;2 - import o modulo usando:&lt;/li&gt;&lt;/h3&gt;``````from crypto_cr import *``````&lt;h3&gt;&lt;li&gt;3 - Formas de usar o pacote:&lt;/li&gt;&lt;/h3&gt;``````#Encriptando e decriptando o arquivof = FilesDec()print('Criptografar: ')arq = 'arquivo.pdf'f.encryptFile(arq,'1234')print('Decriptografar: ')f.decryptFiles(arq,'1234')#Gerando senhassenha1 = pwd.password_letters(8)``````</longdescription>
+</pkgmetadata>

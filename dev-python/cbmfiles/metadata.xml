@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># cbmfilesThis Python module enables access to various types of file formats used by Commodore microcomputers.It provides classes to translate BASIC and binary program files between their native format and standard text files.## ExamplesClasses reside in the `cbm_files` module, the whole module may be imported or just those definitions referenced by the user.### List the contents of a BASIC file```pythonfrom cbm_files import BASICFilewith open('example.prg', 'rb') as f:    prog = BASICFile(f)for line in prog.to_text():    print(line)```## TODO- detailed documentation- support PET, C16, C128- support BASIC variants- more examples</longdescription>
+</pkgmetadata>

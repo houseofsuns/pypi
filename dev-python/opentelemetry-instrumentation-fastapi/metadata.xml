@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>OpenTelemetry FastAPI Instrumentation=======================================|pypi|.. |pypi| image:: https://badge.fury.io/py/opentelemetry-instrumentation-fastapi.svg   :target: https://pypi.org/project/opentelemetry-instrumentation-fastapi/This library provides automatic and manual instrumentation of FastAPI web frameworks,instrumenting http requests served by applications utilizing the framework.auto-instrumentation using the opentelemetry-instrumentation package is also supported.Installation------------::    pip install opentelemetry-instrumentation-fastapiReferences----------* `OpenTelemetry Project &lt;https://opentelemetry.io/&gt;`_* `OpenTelemetry Python Examples &lt;https://github.com/open-telemetry/opentelemetry-python/tree/main/docs/examples&gt;`_</longdescription>
+</pkgmetadata>

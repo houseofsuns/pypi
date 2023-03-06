@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>===========PluginCode===========- license: Apache-2.0- copyright: copyright (c) nexB. Inc. and others- homepage_url: https://github.com/nexB/plugincode- keywords: plugins, utilities, scancode-toolkit, plugincodePluginCode is a library that provides plugable functionality with plugins, including Click plugins.It is used by ScanCode toolkit and related projectsVisit https://aboutcode.org and https://github.com/nexB/ for support and download.To set up the development environment::    source configureTo run unit tests::    pytest -vvs -n 2To clean up development environment::    ./configure --clean</longdescription>
+</pkgmetadata>

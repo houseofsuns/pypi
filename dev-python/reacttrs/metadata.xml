@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># reacttrsReactive attributes extracted out from [Textual](https://textual.textualize.io/guide/reactivity).```pyfrom reacttrs import reactiveclass Foo:    name = reactive(&quot;Paul&quot;)    age = reactive(33)    birth = reactive(1990)    def watch_name(self, old, new):        print(f&quot;{old=}, {new=}&quot;)    def validate_name(self, name):        if name == &quot;John&quot;:            print(&quot;Hey John!&quot;)        return name    def compute_age(self) -&gt; int:        age = 2023 - self.birth        print(f&quot;{age=}&quot;)        return agefoo = Foo()foo.name = &quot;John&quot;foo.name = &quot;Steve&quot;foo.agefoo.birth = 1991foo.age```</longdescription>
+</pkgmetadata>

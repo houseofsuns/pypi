@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Kwant is a free (open source) Python package for numerical calculations ontight-binding models with a strong focus on quantum transport. It is designed tobe flexible and easy to use. Thanks to the use of innovative algorithms, Kwantis often faster than other available codes, even those entirely written in thelow level FORTRAN and C/C++ languages.Tight-binding models can describe a vast variety of systems and phenomena inquantum physics. Therefore, Kwant can be used to simulate* metals,* graphene,* topological insulators,* quantum Hall effect,* superconductivity,* spintronics,* molecular electronics,* any combination of the above, and many other things.Kwant can calculate* transport properties (conductance, noise, scattering matrix),* dispersion relations,* modes,* wave functions,* various Green’s functions,* out-of-equilibrium local quantities.Other computations involving tight-binding Hamiltonians can be implementedeasily.See the `Kwant web site &lt;http://kwant-project.org/&gt;`_ for the latest stableversion.  The current development version is available via the `Kwant gitlabinstance &lt;https://gitlab.kwant-project.org/kwant/kwant&gt;`_.  Contributions arewelcome.A `mailing list &lt;http://kwant-project.org/community&gt;`_ exists for generaldiscussions related to Kwant.  Please report bugs and other issues using the`issue tracker &lt;https://gitlab.kwant-project.org/kwant/kwant/issues&gt;`_.</longdescription>
+</pkgmetadata>

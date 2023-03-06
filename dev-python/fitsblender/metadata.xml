@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># fitsblender[![Build Status](https://dev.azure.com/spacetelescope/fitsblender/_apis/build/status/spacetelescope.fitsblender?branchName=master)](https://dev.azure.com/spacetelescope/fitsblender/_build/latest?definitionId=14&amp;branchName=master)[![codecov](https://codecov.io/gh/spacetelescope/fitsblender/branch/master/graph/badge.svg)](https://codecov.io/gh/spacetelescope/fitsblender)FITSBLENDER============This package supports the creation of a combined header for a FITS file based on the contents of the headersof a set of input FITS images.  A rules file defines what keywords will be present in the combinedoutput header as well as how the output value will be determined from the set of values from all the input image headers.  </longdescription>
+</pkgmetadata>

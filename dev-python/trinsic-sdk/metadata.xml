@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Python SDK## Installation```bashpip install trinsic-sdkpython -m trinsic```Installs and verifies the installation. You should receive a consolemessage: `Package successfully installed. Sample profile below` and a long base64 string output. This base64 string isthe encoded `AccountProfile`. For more information, see the documentation link below## DocumentationSee [documentation here](https://docs.trinsic.id/)</longdescription>
+</pkgmetadata>

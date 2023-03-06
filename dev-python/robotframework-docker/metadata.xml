@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Short Description-----------------`Robot Framework`_ library for working with ``docker`` and``docker-compose``.Installation------------Installation using pip~~~~~~~~~~~~~~~~~~~~~~~~~.. code:: bash   pip3 install robotframework-dockerInstallation from sources~~~~~~~~~~~~~~~~~~~~~~~~~.. code:: bash   python3 setup.py installExample-------.. code:: robotframework   *** Settings ***   Documentation           DockerComposeLibrary tests.   Library                 DockerComposeLibrary   Library                 RequestsLibrary   Test Setup              Docker Compose Up   Test Teardown           Docker Compose Down   *** Test Cases ***   Start Apache Web Server       ${service} =        Get Exposed Service  httpd  80       Log To Console      http has started and is available at http://${service.host}:${service.port}License-------Apache License 2.0.. _Robot Framework: https://robotframework.org/</longdescription>
+</pkgmetadata>

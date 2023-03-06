@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># wmillThe core client for the [Windmill](https://windmill.dev) platform.It is a convenient wrapper around the exhaustive, automatically generated fromOpenApi but less user-friendly[windmill-api](https://pypi.org/project/windmill-api/).## Quickstart```pythonimport wmilldef main():    #os.environ.set(&quot;WM_TOKEN&quot;, &quot;&lt;mytoken&gt;&quot;) OPTIONAL to set token used by the wmill client    version = wmill.get_version()    resource = wmill.get_resource(&quot;u/user/resource_path&quot;)    # run synchronously, will return the result    res = wmill.run_script_sync(hash=&quot;000000000000002a&quot;, args={})    print(res)    for _ in range(3):        # run asynchrnously, will return immediately. Can be scheduled        wmill.run_script_async(hash=&quot;000000000000002a&quot;, args={}, scheduled_in_secs=10)```</longdescription>
+</pkgmetadata>

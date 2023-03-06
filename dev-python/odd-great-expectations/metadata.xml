@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## OpenDataDiscovery Great Expectations metadata collecting.[![PyPI version](https://badge.fury.io/py/odd-great-expectations.svg)](https://badge.fury.io/py/odd-great-expectations)## Supporting| Feature                     | Supporting || --------------------------- | ---------- || V3 API +                    | +          || SqlAlchemyEngine            | +          || PandasEngine                | +          || Great Expectations V2 API - | -          || Cloud Solution              | -          |`odd_great_expectation.action.ODDAction`Is a class derived from `ValidationAction` and can be used in checkpoint actions lists.## How to:### Install odd-great-expectations package```bashpip install odd-great-expectations```### Add action to checkpoint:```yamlname: &lt;CHECKPOINT_NAME&gt;config_version: 1.0template_name:module_name: great_expectations.checkpointclass_name: Checkpointrun_name_template: '%Y%m%d-%H%M%S-my-run-name-template'expectation_suite_name:batch_request: {}action_list:  # other actions  - name: store_metadata_to_odd     action:      module_name: odd_great_expectations.action      class_name: ODDAction      platform_host: &lt;PLATFORM_HOST&gt; # OpenDataDiscovery platform, i.e. http://localhost:8080      platform_token: &lt;PLATFORM_TOKEN&gt; # OpenDataDiscovery token      data_source_name: &lt;DATA_SOURCE_NAME&gt; # Unique name for data source, i.e. local_qa_testevaluation_parameters: {}```### Run checkpoint```bashgreat_expectations checkpoint run &lt;CHECKPOINT_NAME&gt; ```### Check resultCheck results on &lt;PLATFORM_HOST&gt; UI.</longdescription>
+</pkgmetadata>

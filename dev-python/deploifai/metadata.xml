@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Deploifai CLI## Installation```shellpip install deploifai```Or, install from homebrew:```shellbrew tap deploifai/deploifaibrew install deploifai```## UsageEnsure that you have installed correctly.```shell# show help messagedeploifai --help# show versiondeploifai --version```### AuthenticationFirst, generate a personal access token on your Deploifai [dashboard](https://deploif.ai/dashboard) settings.Then, login to the cli tool:```shelldeploifai auth login -u [username] -t [token]```## DocumentationSee the [documentation](https://docs.deploif.ai/cli/commands/quick-start) for more information about the CLI.</longdescription>
+</pkgmetadata>

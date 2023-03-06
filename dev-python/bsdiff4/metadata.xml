@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=======================================================bsdiff4: binary diff and patch using the BSDIFF4-format=======================================================The code is mostly derived from cx_bsdiff (written by Anthony Tuininga,http://cx-bsdiff.sourceforge.net/).  The cx_bsdiff code in turn was derivedfrom bsdiff, the standalone utility produced for BSD which can be foundat http://www.daemonology.net/bsdiff.In addition to the two functions (diff and patch) cx_bsdiff provides, thispackage includes:* an interface to the BSDIFF4-format* command line interfaces: bsdiff4 and bspatch4* testsThe bsdiff4 package defines the following high level functions:``diff(src_bytes, dst_bytes)`` -&gt; bytes   Return a BSDIFF4-format patch (from ``src_bytes`` to ``dst_bytes``) as   bytes.``patch(src_bytes, patch_bytes)`` -&gt; bytes   Apply the BSDIFF4-format ``patch_bytes`` to ``src_bytes`` and return   the bytes.``file_diff(src_path, dst_path, patch_path)``   Write a BSDIFF4-format patch (from the file ``src_path`` to the   file ``dst_path``) to the file ``patch_path``.``file_patch(src_path, dst_path, patch_path)``   Apply the BSDIFF4-format file ``patch_path`` to the file ``src_path``   and write the result to the file ``dst_path``.``file_patch_inplace(path, patch_path)``   Apply the BSDIFF4-format file ``patch_path`` to the file ``path``   in place.Example:.. code-block:: python   &gt;&gt;&gt; import bsdiff4   &gt;&gt;&gt; a = 100000 * b'a'   &gt;&gt;&gt; b = bytearray(a)   &gt;&gt;&gt; b[100:106] = b' diff '   &gt;&gt;&gt; p = bsdiff4.diff(a, bytes(b))   &gt;&gt;&gt; len(p)   154   &gt;&gt;&gt; bsdiff4.patch(a, p) == b   True</longdescription>
+</pkgmetadata>

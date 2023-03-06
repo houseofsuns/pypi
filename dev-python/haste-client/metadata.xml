@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>CLI Haste client================|version|A simple client for `Hasteserver &lt;https://github.com/jirutka/haste-server&gt;`__ written in Python.Installation------------Use pip or easy\_install:::    pip install haste-clientGentoo users can use`haste-client &lt;https://github.com/cvut/gentoo-overlay/tree/master/www-apps/haste-client&gt;`__ebuild from `CVUT Overlay &lt;https://github.com/cvut/gentoo-overlay&gt;`__.Haste client needs Python 2.6+ or 3.x (it was tested on 2.7, 3.3 and3.4) and following modules:-  `requests &lt;https://github.com/kennethreitz/requests&gt;`__-  `docopt &lt;https://github.com/docopt/docopt&gt;`__ &gt;= 0.3.0Usage-----Text can be passed to ``haste`` via stdin or a file. TTY is alsosupported.::    haste FILE    cat FILE | hasteURL of the created entry is then printed to STDOUT.Configuration-------------Haste client reads configuration variables from ``~/.hastec`` and``/etc/hastec.conf`` (in this order, first wins). When no such file orthe particular variable exists, then default values are used:::    server_url = http://hastebin.com    timeout = 3License-------This project is licensed under `MITlicense &lt;http://opensource.org/licenses/MIT&gt;`__... |version| image:: https://img.shields.io/pypi/v/haste-client.svg?style=flat   :target: https://pypi.python.org/pypi/haste-client</longdescription>
+</pkgmetadata>

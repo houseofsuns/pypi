@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Hydra Joblib LauncherProvides a [`Joblib.Parallel`](https://joblib.readthedocs.io/en/latest/parallel.html) based Hydra Launcher supporting parallel execution.See [website](https://hydra.cc/docs/next/plugins/joblib_launcher) for more information</longdescription>
+</pkgmetadata>

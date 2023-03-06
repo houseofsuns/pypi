@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Python Module to use the Readwise APIThis module is a wrapper for the Readwise API.It allows you to easily access your Readwise data in Python.## Installation```bashpip install -U readwise```## How to use### Readwise API```pythonfrom readwise import Readwiseclient = Readwise('token')books = client.get_books(category='articles')for book in books:highlights = client.get_book_highlights(book.id)if len(highlights) &gt; 0:print(book.title)for highlight in highlights:print(highlight.text)```### Readwise Readwise API```pythonfrom readwise import ReadwiseReaderclient = ReadwiseReader('token')response = client.create_document('https://www.example.com')response.raise_for_status()```## DocumentationThe latest documentation can be found at &lt;https://rwxd.github.io/pyreadwise/&gt;If you've checked out the source code (for example to review a PR), you can build the latest documentation by running `make serve-docs`.</longdescription>
+</pkgmetadata>

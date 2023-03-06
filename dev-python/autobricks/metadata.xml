@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># What the heck is this?It's a high level wrapper around the Databricks API so that we can write simple short expressive python scripts in CI/CD pipelines to deploy databricks bits and peices. Also use adhocly if you wish.# The Docs are hereMany operations mimick the API but there's also some handy high level handling for common operations.https://autobricks.readthedocs.io/en/latest/# About the authorMade by me, Shaun Ryan</longdescription>
+</pkgmetadata>

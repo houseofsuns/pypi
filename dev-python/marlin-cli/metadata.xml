@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Marlin: The fastest path to modern web apps90% of software is the exact same; the final 10% is what differentiates a product. Marlin helps developers build the first 90% fast, so they can focus on what matters.## InstallationMarlin can be built from source with the included build.sh script. Run the script and a single file executable will be written to `./dist/marlin`. Add this to your path or envoke it directly.## DocumentationEventually we're going to put docs here## ContributeMarlin-cli uses pyenv for environment management and Poetry for dependcy management. These can be installed with the included `dev_setup.sh` script.## VSCodeOpen VSCode and run the following commands in the terminal```poetry shellpoetry env info --path | pbcopy```Open the VSCode command palette with `cmd+shift+P` and search for `Python: select interpretor`. Open it, click `Enter interpreter path...` and paste the path copied from poetry above.</longdescription>
+</pkgmetadata>

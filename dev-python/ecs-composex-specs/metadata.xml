@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>===================ECS Compose-X Specs===================`Specifications for ECS Compose-X.`_Visit the `Compose-X repositories on GitHub`_, `use-cases walkthroughs`_ and the `blog`_.. _Specifications for ECS Compose-X.: https://ecs-composex-specs.compose-x.io.. _Compose-X repositories on GitHub: https://github.com/compose-x.. _use-cases walkthroughs: https://labs.compose-x.io.. _blog: https://blog.compose-x.io</longdescription>
+</pkgmetadata>

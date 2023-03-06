@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>FFMPEG wrapper for Python.Note that the platform-specific wheels contain the binary executableof ffmpeg, which makes this package around 60 MiB in size.I guess that's the cost for being able to read/write video files.For Linux users: the above is not the case when installing via yourLinux package manager (if that is possible), because this package wouldsimply depend on ffmpeg in that case.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>#######################################################  #                                                     ##                 SWAgent Crawler                     ##                                                     ########################################################This is a simple web crawler specifically designed to scrape data from swranking.com continuously in order to build a database with data useful enoughn to traina ML model to make RTA draft predictions in real time.The package contains two helper classes:     - USERAGENT: creates randomized user_agents tosend through the REST request t obtain data from thewebsites API.    - SEEKER: this is the actual crawler that findsthe information for us and then sends it out as a json object.The package main routine focuses on a basic ETL schema. afte obtaining the data from the seeker objectit then transfoms the data to be in the format wantedby the Database. Then we send it to the local db ofthe VM to store for further processing by other jobs.</longdescription>
+</pkgmetadata>

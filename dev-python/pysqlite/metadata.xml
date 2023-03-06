@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Python interface to SQLite 3pysqlite is an interface to the SQLite 3.x embedded relational database engine.It is almost fully compliant with the Python database API version 2.0 alsoexposes the unique features of SQLite.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># markdown-it-reporterBuild Markdown based HTML reports from Github flavored Markdown using the markdown-it library... _Galaxy: http://galaxyproject.org/.. _GitHub: https://github.com/History-------.. to_doc---------------------0.0.2 (2020-08-21)---------------------* Implement customizable masthead links.---------------------0.0.1 (2020-08-18)---------------------* Initial version - still testing it.</longdescription>
+</pkgmetadata>

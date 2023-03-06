@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>A collection of IETF &amp; IANA MIBs compiled into PySNMP classes.Note that there is also PySMI package (https://pypi.python.org/pypi/pysmi/) that converts ASN.1 MIBs into PySNMP form.Latest PySNMP (4.3+) invokes PySMI automatically to handle ASN.1 MIBs.See http://pysnmp.sf.net &amp; http://pysmi.sf.net</longdescription>
+</pkgmetadata>

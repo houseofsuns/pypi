@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># libsSome library to extend Python Standard Library[![Github](https://github.com/phyng/libs/workflows/test/badge.svg)](https://github.com/phyng/libs/actions) [![Pypi](https://img.shields.io/pypi/v/libs.svg?style=flat&amp;label=PyPI)](https://pypi.org/project/libs/)## documentationhttps://phyng.com/libs/## install```bash# use pippip install libs# or use poetrypoetry add libs```## test```bashnpm testnpm test_coverage```</longdescription>
+</pkgmetadata>

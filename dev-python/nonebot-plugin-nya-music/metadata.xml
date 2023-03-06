@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;p align=&quot;center&quot;&gt;  &lt;a href=&quot;https://v2.nonebot.dev/store&quot;&gt;  &lt;img src=&quot;https://user-images.githubusercontent.com/44545625/209862575-acdc9feb-3c76-471d-ad89-cc78927e5875.png&quot; width=&quot;180&quot; height=&quot;180&quot; alt=&quot;NoneBotPluginLogo&quot;&gt;&lt;/a&gt;&lt;/p&gt;&lt;div align=&quot;center&quot;&gt;# nonebot_plugin_nya_music_✨ Nonebot2 喵喵点歌 ✨_&lt;/div&gt;&lt;p align=&quot;center&quot;&gt;  &lt;a href=&quot;https://opensource.org/licenses/MIT&quot;&gt;    &lt;img src=&quot;https://img.shields.io/badge/License-MIT-yellow.svg&quot; alt=&quot;license&quot;&gt;  &lt;/a&gt;  &lt;a href=&quot;https://v2.nonebot.dev/&quot;&gt;    &lt;img src=&quot;https://img.shields.io/static/v1?label=nonebot&amp;message=v2rc1%2B&amp;color=green&quot; alt=&quot;nonebot2&quot;&gt;  &lt;/a&gt;  &lt;img src=&quot;https://img.shields.io/static/v1?label=python+&amp;message=3.8%2B&amp;color=blue&quot; alt=&quot;python&quot;&gt;&lt;/p&gt;## 简介闲的没事（bushi）整个点歌插件玩玩，做的比较粗糙，但能用  可以搜索和下载歌曲  &lt;img width=&quot;500&quot; src=&quot;https://raw.githubusercontent.com/nikissXI/nonebot_plugins/main/nonebot_plugin_nya_music/readme_img/pic1.jpg&quot;/&gt;## 安装使用nb-cli安装```bashnb plugin install nonebot_plugin_nya_music```或者  直接把插件clone下来放进去plugins文件夹，但要记得装Pillow和httpx库## 配置在bot对应的.env文件修改```bash# 每页返回的结果数量，选填nya_music_page_items = 10# 机器人的QQ号列表，选填# 如果有多个bot连接，会按照填写的list，左边的机器人QQ优先级最高 1234 &gt; 5678 &gt; 6666，会自动切换# 如果不填该配置则由第一个连上的bot响应nya_music_bot_qqnum_list = [1234, 5678, 6666]```## 插件命令  | 指令 | 说明 ||:-----:|:----:|| 点歌 | 你发一下就知道啦 |## 更新日志### 2023/3/25 \[v0.1.4]* 修复小bug### 2023/3/24 \[v0.1.0]* 发布插件</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># MeshCtrl## Usage Example```pyfrom meshctrl import MeshCtrlmesh_client = MeshCtrl(uri=&quot;wss://mesh.example.com&quot;, user=&quot;mesh username&quot;, token=&quot;mesh_login_token&quot;)result = mesh_client.send_command(node_id=&quot;mesh_node_id&quot;, command=&quot;whoami&quot;)print(result)```</longdescription>
+</pkgmetadata>

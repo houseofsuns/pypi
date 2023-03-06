@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. Copyright (C) The Arvados Authors. All rights reserved..... SPDX-License-Identifier: AGPL-3.0====================Arvados Node Manager====================Overview--------This package provides ``arvados-node-manager``.  It dynamically startsand stops compute nodes on an Arvados_ cloud installation based on jobdemand... _Arvados: https://arvados.org/Setup-----1. Install the package.2. Write a configuration file.  ``doc/ec2.example.cfg`` documents all   of the options available, with specific tunables for EC2 clouds.3. Run ``arvados-node-manager --config YOURCONFIGFILE`` using whatever   supervisor you like (e.g., runit).Testing and Development-----------------------To run tests, just run::  python setup.py testOur `hacking guide&lt;https://arvados.org/projects/arvados/wiki/Hacking_Node_Manager&gt;`_provides an architectural overview of the Arvados Node Manager to helpyou find your way around the source.  The `Lifecycle of an Arvadoscompute node&lt;https://arvados.org/projects/arvados/wiki/Lifecycle_of_an_Arvados_compute_node&gt;`_page explains how it works in concert with other Arvados components toprepare a node for compute work.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;h1 align=&quot;center&quot;&gt;  Django API Decorator&lt;/h1&gt;&lt;p align=&quot;center&quot;&gt;  A collection of tools to build function based Django APIs.&lt;/p&gt;&gt; **Warning**&gt; This project is still in early development. Expect breaking changes.## InstallationDjango API Decorator can be installed from[PyPI](https://pypi.org/project/django-api-decorator):`pip install django-api-decorator`</longdescription>
+</pkgmetadata>

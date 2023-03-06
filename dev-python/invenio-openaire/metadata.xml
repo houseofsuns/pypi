@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>..    This file is part of Invenio.    Copyright (C) 2015-2019 CERN.    Invenio is free software; you can redistribute it and/or modify it    under the terms of the MIT License; see LICENSE file for more details.================== Invenio-OpenAIRE==================.. image:: https://github.com/inveniosoftware/invenio-openaire/workflows/CI/badge.svg        :target: https://github.com/inveniosoftware/invenio-openaire/actions?query=workflow%3ACI.. image:: https://img.shields.io/coveralls/inveniosoftware/invenio-openaire.svg        :target: https://coveralls.io/r/inveniosoftware/invenio-openaire.. image:: https://img.shields.io/pypi/v/invenio-openaire.svg        :target: https://pypi.org/pypi/invenio-openaireInvenio module providing integration between Invenio repositories and OpenAIRE.*This is an experimental developer preview release.** Free software: MIT license* Documentation: https://invenio-openaire.readthedocs.io/..    This file is part of Invenio.    Copyright (C) 2015-2023 CERN.    Invenio is free software; you can redistribute it and/or modify it    under the terms of the MIT License; see LICENSE file for more details.Changes=======Version 1.0.0a16 (released 2023-03-23)- Initial public release.</longdescription>
+</pkgmetadata>

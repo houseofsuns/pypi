@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Welcome to QLibsQLibs is a multipurpose library, suitable for making graphical applications and games.# FeaturesThere are quite a lot of them!* Resource system.* Math: vectors and matrices.* Wavefont OBJ loading and rendering.* Window creation and widgets.* Text rendering.* Network packets and sockets.* More to come.# DocumentationSee https://intquant.github.io/qlibs/Also there are examples.# Installation* Use `pip install qlibs[full]` to install all dependencies.* `pip install qlibs` will install only MIT-licensed dependencies.* `--no-deps` switch can be used to ignore dependencies, most of library will still work.</longdescription>
+</pkgmetadata>

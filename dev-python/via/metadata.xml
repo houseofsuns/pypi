@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Via: a command line tool to initialize your reposInitialize your repository.## Feature- [x] `.gitignore`- [x] `License`- [x] args## Toturail```sh# download python .gitignore file and MIT License# file will be saved to current dirvia -i python -l mit```## Support### IgnoreAll the files are downloaded from [github/gitignore](https://github.com/github/gitignore)### LicenseAll the licenses are downloaded through [GitHub License API](https://developer.github.com/v3/licenses/).* GPL-2.0* Unlicense* BSD-2-Clause* LGPL-2.1* GPL-3.0* MIT* BSD-3-Clause* Apache-2.0* EPL-2.0* MPL-2.0* LGPL-3.0* AGPL-3.0</longdescription>
+</pkgmetadata>

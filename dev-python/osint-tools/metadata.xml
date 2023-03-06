@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Tools for working with data.```cythonfastapi==0.74.1required for web3?requests&gt;=2.11python-multipart==0.0.5pydantic[email,dotenv]==1.9.0strawberry-graphql[debug-server,fastapi]uvicorn==0.17.5uvicorn[standard]gunicorn==20.1.0gunicorn[gthread]python-jose[cryptography]==3.3.0passlib[bcrypt]==1.7.4pyserumsolanaweb3==4.2.1motor==2.5.1redis==4.3.4deep-translator==1.8.3feedparser==6.0.8Pillow==9.1.0pytesseract==0.3.9chardet==4.0.0opencv-python==4.5.5.64```</longdescription>
+</pkgmetadata>

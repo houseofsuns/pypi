@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Thunder-Remote## InstallInstall through pypi:    pip install thunder-remoteAfter the setup is complete run the following command to patch the inputs library for non-blocking controller input.Otherwise the library blocks until there is an input from the controller.    python -m thunder_remote --patchOr clone this repo:    git clone https://github.com/Schrotty/thunder-remote    cd thunder-remote    python setup.py install## UsageFor examples see the _examples/_ directory.## LicenseThunder-Remote is licensed under the MIT-License.The 3rd-party module licenses can be found in _LICENSE-3RD-PARTY.md_</longdescription>
+</pkgmetadata>

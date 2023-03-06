@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># CapsolverCapsolver official python library## Supported CAPTCHA types:- HCaptcha- FunCaptcha- Geetest- ReCaptchaV2- ReCaptchav3- MtCaptcha- Datadom- Cloudflare- Kasada- Akamai BMP## InstallationYou don't need this source code unless you want to modify the package. If you justwant to use the package, just run:```shpip3 install --upgrade capsolver```Install from source with:```shpython setup.py install```## Usage```bashexport CAPSOLVER_API_KEY='...'```Or set `capsolver.api_key` to its value:```pythonfrom pathlib import Pathimport osimport base64import capsolver# tokenTaskprint(&quot;api host&quot;,capsolver.api_base)print(&quot;api key&quot;,capsolver.api_key)# capsolver.api_key = &quot;...&quot;solution = capsolver.solve({        &quot;type&quot;:&quot;ReCaptchaV2TaskProxyLess&quot;,        &quot;websiteKey&quot;:&quot;6Le-wvkSAAAAAPBMRTvw0Q4Muexq9bi0DJwx_mJ-&quot;,        &quot;websiteURL&quot;:&quot;https://www.google.com/recaptcha/api2/demo&quot;,    })print(solution)# RecognitionTaskimg_path = os.path.join(Path(__file__).resolve().parent,&quot;queue-it.jpg&quot;)with open(img_path,'rb') as f:    solution = capsolver.solve({        &quot;type&quot;:&quot;ImageToTextTask&quot;,        &quot;module&quot;:&quot;queueit&quot;,        &quot;body&quot;:base64.b64encode(f.read()).decode(&quot;utf8&quot;)    })    print(solution)# get current balancebalance = capsolver.balance()# print the current balanceprint(balance)```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;!--SPDX-FileCopyrightText: Copyright (C) DUNE Project contributors, see file LICENSE.md in module rootSPDX-License-Identifier: LicenseRef-GPL-2.0-only-with-DUNE-exception--&gt;DUNE-library============DUNE, the Distributed and Unified Numerics Environment is a modular toolboxfor solving partial differential equations with grid-based methods.The main intention is to create slim interfaces allowing an efficient use oflegacy and/or new libraries. Using C++ techniques DUNE allows to use verydifferent implementation of the same concept (i.e. grid, solver, ...) undera common interface with a very low overhead.DUNE was designed with flexibility in mind. It supports easy discretizationusing methods, like Finite Elements, Finite Volume and also FiniteDifferences.Dune-localfunctions-------------------This module provides interfaces and implementations for localfinite element ansatz spaces, i.e., shape functions, associatedinterpolation functionals, and relation to grid entities.More information----------------Check dune-common for more details concerning dependencies, known bugs,license and installation.git-3f2805875bbe5569190663c13bfcd1c49ccee7e9</longdescription>
+</pkgmetadata>

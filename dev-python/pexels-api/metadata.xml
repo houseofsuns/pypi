@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Using Pexels API v1 with PythonUse *[pexels_api][2]* to search photos from [Pexels][0].## Dependencies:- [requests][1]## Installation:`pip install pexels-api`## Usage:The following code shows you how to import the package and make a simple query to Pexels API v1. See more [examples][4] or the [documentation][3].```python# Import API class from pexels_api packagefrom pexels_api import API# Type your Pexels APIPEXELS_API_KEY = 'YOUR-PEXELS-API-KEY'# Create API objectapi = API(PEXELS_API_KEY)# Search five 'kitten' photosapi.search('kitten', page=1, results_per_page=5)# Get photo entriesphotos = api.get_entries()# Loop the five photosfor photo in photos:  # Print photographer  print('Photographer: ', photo.photographer)  # Print url  print('Photo url: ', photo.url)  # Print original size url  print('Photo original size: ', photo.original)```&lt;!-- References --&gt;[0]: https://pexels.com                        &quot;Pexels website&quot;[1]: https://2.python-requests.org/en/master/  &quot;Documentation: requests&quot;&lt;!-- Documentation --&gt;[2]: https://github.com/AguilarLagunasArturo/pexels-api               &quot;Source code on Github&quot;[3]: https://github.com/AguilarLagunasArturo/pexels-api#documentation &quot;Documentation: pexels_api&quot;[4]: https://github.com/AguilarLagunasArturo/pexels-api#examples      &quot;Examples&quot;</longdescription>
+</pkgmetadata>

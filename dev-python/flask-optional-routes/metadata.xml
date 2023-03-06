@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># flask_optional_routes## This package allows you to specify optional routes in a url path.&lt;br&gt;&lt;br&gt;## How it worksSimply place a '?' delimiter at the end of a path segment and &lt;br&gt;this code will automatically add rules for all possible routes.&lt;br&gt;&lt;br&gt;## How to install* Method 1: Use PIP```pip install flask_optional_routes```* Method 2: Download from Github&lt;br&gt;&lt;br&gt;## Usage Example1```pythonfrom flask import Flaskfrom flask_optional_routes import OptionalRoutesapp = Flask(__name__)optional = OptionalRoutes(app)@optional.routes('/&lt;user_id&gt;/&lt;user_name&gt;?/')def foobar(user_id, user_name=None):    return 'it worked!'if __name__ == &quot;__main__&quot;:    app.run(host='0.0.0.0', port=5000)```Using @optional.routes('/&lt;user_id&gt;/&lt;user_name&gt;?/') &lt;br&gt;the following urls will show the same endpoint:* /1/* /1/john/## Usage Example2```pythonfrom flask import Flaskfrom flask_optional_routes import OptionalRoutesapp = Flask(__name__)optional = OptionalRoutes(app)@optional.routes('/a/b?/c/d?/')def foobar():    return 'it worked!'if __name__ == &quot;__main__&quot;:    app.run(host='0.0.0.0', port=5000)```Using @optional.routes('/a/b?/c/d?/') &lt;br&gt;the following urls will show the same endpoint:* /a/c/* /a/b/c/* /a/c/d/* /a/b/c/d/</longdescription>
+</pkgmetadata>

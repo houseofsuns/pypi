@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pygptwrapper - A Python Wrapper for the ChatGPT APIpygptwrapper is a Python library that provides a simple way to interact with the ChatGPT API, which is a powerful language model trained by OpenAI that can generate human-like text based on input prompts.This library makes it easy to integrate the ChatGPT API into your Python applications, allowing you to generate text in real-time, create chatbots, or automate text generation tasks. It provides context-based model using newly introduced model ```gpt-3.5-turbo```.# InstallationTo install pygptwrapper, you can use pip:```pythonpip install pygptwrapper```# UsageHere's a basic example of how to use pygptwrapper:```pythonfrom pygptwrapper import ContextualGPT# Instantiate the ContextualGPT object with a task and api_keygpt = ContextualGPT(    task=&quot;You are a chatbot assistant. You will give recommendations for restaurants.&quot;    api_key=api_key)```# Initiate a conversation with instanciated bot```pythontext = gpt.ask(question=&quot;What is the meaning of life?&quot;)print(text)```This will generate a response from the ChatGPT API based on the input prompt. Notice that contextual conversation is stored in ```gpt.conversation```.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>vvm===|Pypi Status| |Build Status| |Coverage Status|Vyper version management tool.Installation------------via ``pip``~~~~~~~~~~~.. code:: bash   pip install vvmvia ``setuptools``~~~~~~~~~~~~~~~~~~.. code:: bash   git clone https://github.com/vyperlang/vvm.git   cd vvm   python3 setup.py installTesting-------``vvm`` is tested on Linux, OSX and Windows with Vyper versions``&gt;=0.1.0-beta.16``.To run the test suite:.. code:: bash   pytest tests/By default, the test suite installs all available ``vyper`` versions foryour OS. If you only wish to test against already installed versions,include the ``--no-install`` flag. Use the ``--vyper-verions`` flag totest against one or more specific versions.Contributing------------Help is always appreciated! Feel free to open an issue if you find aproblem, or a pull request if you’ve solved an issue.Please check out our `Contribution Guide &lt;CONTRIBUTING.md&gt;`__ prior toopening a pull request.License-------This project is licensed under the `MIT license &lt;LICENSE&gt;`__... |Pypi Status| image:: https://img.shields.io/pypi/v/vvm.svg   :target: https://pypi.org/project/vvm/.. |Build Status| image:: https://img.shields.io/github/workflow/status/vyperlang/vvm/vvm%20workflow   :target: https://github.com/vyperlang/vvm/actions.. |Coverage Status| image:: https://img.shields.io/codecov/c/github/vyperlang/vvm   :target: https://codecov.io/gh/vyperlang/vvm</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Pyblish=======Plug-in driven automation framework for content.Built for platform, software and language agnosticism. Free, community-driven and licensed under LGPLv3.`See our website`_ for more information.. _`See our website`: http://pyblish.com</longdescription>
+</pkgmetadata>

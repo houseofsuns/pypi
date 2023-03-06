@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## 一些常用的python工具箱#### 安装```bashpip3 install python_common_tools```#### 使用```pythonimport time# 使得函数使用缓存from python_common_tools.cache import cache_function,cache_daily_function@cache_function('.')def f(self, a, b, c):    time.sleep(3)    return a + b + c@cache_daily_function('.')def f2(self, a, b, c):    time.sleep(3)    return a + b + c# 快速设置日志from python_common_tools.log import setup_loggerlogger = setup_logger(&quot;test.log&quot;)# 搞定异常处理的网络请求from python_common_tools.network import secure_requests, secure_requests_jsonresp = secure_requests(&quot;https://www.gethtml.com/test&quot;, retry_times=3,log_err=True)j = secure_requests_json(&quot;https://www.getjson.com/test&quot;,timeout=10)# linux系统相关的获取命令执行结果  获取最新版本号 打开远程服务器上的文件from python_common_tools.linux import get_bash_output, get_latest_commit_id, open_remote_filedirfiles = get_bash_output([&quot;ls&quot;, &quot;-l&quot;])commit_id = get_latest_commit_id()```</longdescription>
+</pkgmetadata>

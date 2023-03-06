@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Python-RedfinA wrapper around redfin's unofficial API. Anything on the redfin site can be accessed through this module without screen scraping.### Installation```$ python3 -m pip install redfin```### Usage```python3from redfin import Redfinclient = Redfin()address = '4544 Radnor St, Detroit Michigan'response = client.search(address)url = response['payload']['exactMatch']['url']initial_info = client.initial_info(url)property_id = initial_info['payload']['propertyId']listing_id = initial_info['payload']['listingId']mls_data = client.below_the_fold(property_id, listing_id)```### DocumentationSee the file for all functions, pop open requests on redfin to see which one you want.</longdescription>
+</pkgmetadata>

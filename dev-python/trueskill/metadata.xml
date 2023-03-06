@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>TrueSkill~~~~~~~~~An implementation of the TrueSkill algorithm for Python.  TrueSkill is a ratingsystem among game players and it is used on Xbox Live to rank and matchplayers... sourcecode:: python   from trueskill import Rating, quality_1vs1, rate_1vs1   alice, bob = Rating(25), Rating(30)  # assign Alice and Bob's ratings   if quality_1vs1(alice, bob) &lt; 0.50:       print('This match seems to be not so fair')   alice, bob = rate_1vs1(alice, bob)  # update the ratings after the matchLinks`````Documentation   http://trueskill.org/GitHub:   http://github.com/sublee/trueskillMailing list:   trueskill@librelist.comList archive:   http://librelist.com/browser/trueskillContinuous integration (Travis CI)   https://travis-ci.org/sublee/trueskill   .. image:: https://api.travis-ci.org/sublee/trueskill.pngSee Also````````- `TrueSkill(TM) Ranking System by Microsoft  &lt;http://research.microsoft.com/en-us/projects/trueskill/&gt;`_- `&quot;Computing Your Skill&quot; by Jeff Moser &lt;http://bit.ly/moserware-trueskill&gt;`_- `&quot;The Math Behind TrueSkill&quot; by Jeff Moser &lt;http://bit.ly/trueskill-math&gt;`_- `TrueSkill Calcurator by Microsoft  &lt;http://atom.research.microsoft.com/trueskill/rankcalculator.aspx&gt;`_</longdescription>
+</pkgmetadata>

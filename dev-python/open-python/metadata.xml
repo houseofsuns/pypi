@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># open## Description ##Open a file, directory, or URI using the OS's default application forthat object type. Optionally, you can specify an application to use.This is a proxy for the following commands:        OSX: &quot;open&quot;    Windows: &quot;start&quot;Linux/Other: &quot;xdg-open&quot;This is a python port of the node.js module:https://github.com/pwnall/node-open## Import ##```pythonimport open_python```## Usage ##### open google.com in the user's default browser:```pythonopen_python.start(&quot;https://google.com/&quot;)```### you can specify the program to use:```pythonopen_python.start(&quot;https://google.com/&quot;, &quot;firefox&quot;)```## use in command line```sh$ python -m open_python https://google.com/```## License ##Copyright (c) 2013 skratchdot  Licensed under the MIT license.## Contributors ##skratchdotpanda2134</longdescription>
+</pkgmetadata>

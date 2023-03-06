@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>---title: APIstags: technology, documentation---### FinX Capital Markets LLCPlease see LICENSE and SECURITY for terms of use.***# FinX Python Software Development KitThe **FinX SDK** is a python package that has interfaces to the FinX Capital MarketsAnalytics Platform (the 'FinX Platform'). The code in the SDK makes calls to REST APIs &amp; WebSocket endpoints. A valid ___FinX API Key___ is required for the SDK to return results.To obtain an API Key, please contact us FinX Capital Markets LLC [via email](mailto:info@finx.io).***## IntroductionThis document is the definitive source of information for using the FinX SDK.---title: APIstags: technology, documentation---# Developer Notes - FinX SDKThe **FinX SDK** is a python package that has interfaces to the FinX Capital MarketsAnalytics Platform (the 'FinX Platform'). The code in the SDK makes calls to REST APIs &amp; WebSocket endpoints. A valid ___FinX API Key___ is required for the SDK to return results.To obtain an API Key, please contact us FinX Capital Markets LLC [via email](mailto:info@finx.io).Please see LICENSE and SECURITY for terms of use.***# Technical Documentation - FinX SDKTechnical docs may be found at [http://docs.finx.io](http://docs.finx.io)</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># BDBFBertik23's DiscordBot framework# InstalationUse `pip install --upgade bdbf` to get the newest version of bdbf installed.# DocumentationHead to [ReadTheDocs](https://bdbf.readthedocs.io/en/stable) to see the documentation.# ContributingHead to [my discord server](https://discord.gg/QGW3SMb) and ask there.</longdescription>
+</pkgmetadata>

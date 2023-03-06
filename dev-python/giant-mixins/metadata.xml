@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Giant MixinsA small, re-usable package which can be used in any project that requires mixins (which is 99% of them)This will include the standard mixins such as TimestampMixin, PublishingMixin and VideoURLMixin## InstallationTo install the standard app with no extras simply run    $ poetry add giant-mixinsHowever if your project has django-cms installed then you can make use of the full range of mixins in this app. For this, install the package with the extra dependencies,    $ poetry add giant-mixins --extras &quot;cms&quot;You should then add `&quot;mixins&quot;` to the `INSTALLED_APPS` in your settings file.</longdescription>
+</pkgmetadata>

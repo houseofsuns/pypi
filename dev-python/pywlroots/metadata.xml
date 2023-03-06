@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pywlroots=========|ci|A Python binding to the `wlroots`_ library using cffi.  The library uses`pywayland`_ to provide the Wayland bindings and `python-xkbcommon`_ to providewlroots keyboard functionality... _python-xkbcommon: https://github.com/sde1000/python-xkbcommon.. _pywayland: https://pywayland.readthedocs.io/en/latest/.. _wlroots: https://github.com/swaywm/wlrootsInstallation------------The library can be installed from the packaged PyPI releases, which will pullin all of the necessary Python dependencies.  In addition to the Pythondependencies, pywlroots requires the wlroots and xkbcommon libraries andheaders to be installed.  At installation time, the cffi binding is compiledagainst these libraries.To build pywlroots from source, the Python requirements will need to beinstalled manually.  These are available in ``requirements.txt``.  The cffibindings are built by running ``python wlroots/ffi_build.py``.Versioning and Releases-----------------------Released versions of pywlroots are published to `PyPI`_.The major and minor versions of pywlroots denote the version of wlroots that itis compatibile with.  The pywlroots patch version will denote changes and fixeson the given wlroots version. .. _PyPI: https://pypi.org/project/pywlroots/.. |ci| image:: https://github.com/flacjacket/pywlroots/actions/workflows/ci.yml/badge.svg    :target: https://github.com/flacjacket/pywlroots/actions/workflows/ci.yml    :alt: Build Status</longdescription>
+</pkgmetadata>

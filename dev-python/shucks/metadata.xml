@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Installing----------.. code-block:: bash  pip3 install shucksSimple Usage------------Validating a login form accepting email or phone and a password... code-block:: py  import shucks  import math  schema = shucks.And(    dict,    {      'id': shucks.If(        shucks.And(str, lambda v: '@' in v),        shucks.Con(          lambda v: v.split('@', 1)[1],          shucks.contain({'gmail.com', 'hotmail.com', 'yahoo.com'})        ),        shucks.And(          shucks.Or(str, int),          shucks.Con(str, shucks.Con(len, shucks.range(10, 10)))        )      ),      'password': shucks.And(        str,        shucks.Con(len, shucks.And(shucks.range(8, math.inf))),        shucks.wrap(shucks.Not(lambda v: 'logo' in v), 'logo')      ),      shucks.Opt('remember'): bool    }  )  data = {    'id': 1234567890    'password': 'logo1234'  }  shucks.check(schema, data)Links------ `Documentation &lt;https://shucks.readthedocs.io&gt;`_</longdescription>
+</pkgmetadata>

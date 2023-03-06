@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>UK JSON COVID SNOMED CT codes from &quot;COVID-19 Vaccination Codes&quot; https://hscic.kahootz.com/connect.ti/t_c_home/view?objectId=16878800</longdescription>
+</pkgmetadata>

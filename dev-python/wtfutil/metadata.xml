@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># wftutil&lt;a href=&quot;https://pypi.python.org/pypi/wtfutil&quot;&gt;&lt;img src=&quot;https://img.shields.io/pypi/v/wtfutil.svg&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://pypi.python.org/pypi/wtfutil&quot;&gt;&lt;img src=&quot;https://img.shields.io/pypi/pyversions/wtfutil.svg&quot;&gt;&lt;/a&gt;=================================================================================================================## ☤ The BasicsA Python utility## ☤ InstallationOf course, the recommended installation method is `pipenv &lt;http://pipenv.org&gt;`\_::```bashpipenv install wtfutil```or```bashpip install wtfutil```## ☤ Features```pythonfrom wtfutil import util``````pythonfrom wtfutil import sqlutil```## ☤ Thank YouThanks for checking this library out! I hope you find it useful.Of course, there's always room for improvement. Feel free to [https://github.com/vicrack](https://github.com/vicrack)</longdescription>
+</pkgmetadata>

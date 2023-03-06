@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>The pyfdt library is aimed to facilitate manipulation of the flattened device tree in order to parse it and generate output in various formats.It is highly based on fdtdump for the dtc compiler package.Device Tree Blob (.dtb) input is actually the only input format accepted, but either Device Tree Blob (DTB) or Device Tree Structure (text DTS) is available as output format. Device Tree filesystem 'output' is available via the fusemount.py FUSE sample using fusepy library.Python 2.6, 2.7, 3.x supported.</longdescription>
+</pkgmetadata>

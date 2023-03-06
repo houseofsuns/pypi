@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Rispack - Pack of shared libraries from Rispar## HandlerSet of libraries to make serverless development a breezy.### Routes - API Requests/Responses### Record - Background Jobs## ErrorsCommon errors raised by services.## DatabaseManage connection to RDS Cluster (or RDS Proxy) via Secret Manager.## AWSPack of utilities from AWS services.## SchemasBase Schema for entities, events and other data classes.## LoggerAWS Lambda Powertools logger## StoresBase Store class and decorators to work with transactions</longdescription>
+</pkgmetadata>

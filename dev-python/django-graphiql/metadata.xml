@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Django GraphiQL===============.. image:: https://badge.fury.io/py/django-graphiql.svg    :target: https://badge.fury.io/py/django-graphiqlDjango GraphiQL is a library for integrating `GraphiQL`_ inside yourDjango project, so you can test your `GraphQL`_ schemas easily.This library versioning go in partity with GraphiQL.Installing----------For installing this library just run in your favorite shell:.. code:: bash    pip install django-graphiqlConfiguring-----------In settings.py add ``'django_graphiql'`` into ``INSTALLED_APPS``, so itwill look like.. code:: python    INSTALLED_APPS = [        # ...        'django_graphiql',        # ...    ]And then, add into your urls.py:.. code:: python    urlpatterns = [        # Your other urls...        url(r'^graphiql', include('django_graphiql.urls')),    ].. _GraphiQL: https://github.com/graphql/graphiql.. _GraphQL: https://github.com/graphql-python/graphql-core</longdescription>
+</pkgmetadata>

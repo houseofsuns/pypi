@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>NNGT provides a unified interface to use three of the main Python graphlibraries (graph-tool, igraph, and networkx) in order to generate and studyneuronal networks. It allows the user to easily send this graph to the NESTsimulator, the analyze the resulting activity while taking structure intoaccount.</longdescription>
+</pkgmetadata>

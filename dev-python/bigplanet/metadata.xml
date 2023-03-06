@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;p align=&quot;center&quot;&gt;  &lt;img width = &quot;250&quot; src=&quot;docs/VPLanetLogo.png?raw=true&quot;/&gt;&lt;/p&gt;&lt;h1 align=&quot;center&quot;&gt;BigPlanet: Big Data with VPLanet&lt;/h1&gt;&lt;p align=&quot;center&quot;&gt;  &lt;a href=&quot;https://VirtualPlanetaryLaboratory.github.io/bigplanet/&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/read-the_docs-blue.svg?style=flat&quot;&gt;&lt;/a&gt;    &lt;img src=&quot;https://img.shields.io/badge/Python-3.6+-orange.svg&quot;/&gt;&lt;/a&gt;  &lt;a href=&quot;LICENSE&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/license-MIT-purple.svg&quot;/&gt;&lt;/a&gt;    &lt;a href=&quot;https://github.com/VirtualPlanetaryLaboratory/bigplanet/actions/workflows/tests.yml&quot;&gt;  &lt;img src=&quot;https://github.com/VirtualPlanetaryLaboratory/bigplanet/actions/workflows/tests.yml/badge.svg&quot;/&gt;      &lt;a href=&quot;https://codecov.io/gh/VirtualPlanetaryLaboratory/bigplanet&quot;&gt;        &lt;img src=&quot;https://codecov.io/gh/VirtualPlanetaryLaboratory/bigplanet/branch/main/graph/badge.svg?token=FQEJBL185K&quot;/&gt;      &lt;/a&gt;            &lt;/a&gt;&lt;/p&gt;A suite of data analysis and extraction routines for [VPLanet](https://github.com/VirtualPlanetaryLaboratory/vplanet) and designed to be used with [VSPACE](https://github.com/VirtualPlanetaryLaboratory/vspace) and [MultiPlanet](https://github.com/VirtualPlanetaryLaboratory/multi-planet) scripts. It can also generate files for use with the free version of the [VR Ulysses data explorer](https://www.vrulysses.com/download-ulysses).</longdescription>
+</pkgmetadata>

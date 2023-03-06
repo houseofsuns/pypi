@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># easylogcli## 简介easylogcli 是 [easylog](https://github.com/prprprus/easylog) 的 Python 客户端实现，用于向服务端发送日志信息，无第三方依赖。&gt; 需要 Python 版本大于等于 3.6## 安装```bashpip install easylogcli```## 使用例子```Pythonfrom easylogcli.easylog import EasyLogimport timedef test():    # 创建客户端    client = EasyLog(name='log-server', host='127.0.0.1', port=10000, absolute_path='/Users/tiger/develop/tmp/1.txt')    # 发送日志    client.send(message='下载图片成功')    # 模拟持续运行    time.sleep(0.1)    # 关闭客户端    client.close()if __name__ == '__main__':    test()```输出的日志格式例子：```[Tiger-3.local 172.16.4.251] INFO - 2020-03-06 14:41:54.517499 - (easylog.py:97) - 下载图片成功[Tiger-3.local 172.16.4.251] INFO - 2020-03-06 14:41:54.517622 - (easylog.py:97) - 下载图片成功[Tiger-3.local 172.16.4.251] INFO - 2020-03-06 14:41:54.517733 - (easylog.py:97) - 下载图片成功[Tiger-3.local 172.16.4.251] INFO - 2020-03-06 14:41:54.517814 - (easylog.py:97) - 下载图片成功[Tiger-3.local 172.16.4.251] INFO - 2020-03-06 14:41:54.520207 - (easylog.py:97) - 下载图片成功[Tiger-3.local 172.16.4.251] INFO - 2020-03-06 14:41:54.520277 - (easylog.py:97) - 下载图片成功```日志格式解析：[主机名 IP] INFO - 日期时间 - (文件名:行数) - 日志内容## 一些细节客户端和服务端之间自定义了一个简单的消息体。消息体例子：```absolute_path:/Users/tiger/develop/tmp/1.txtcontent:[Tiger-3.local 172.16.4.251] INFO - 2020-03-06 11:38:32.616777 - (easylog.py:97) - 下载图片成功----------```消息体字段解析：- absolute_path: 日志保存路径- content:       日志内容- ----------:    分隔符## TODO- CI- logging 代替 print- 批量发送- 发送失败时报警- 失败重试- ...</longdescription>
+</pkgmetadata>

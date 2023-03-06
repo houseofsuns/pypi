@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Standalone previewer for VapourSynth scriptsFork of Endilll's [vapoursynth-preview](https://github.com/Endilll/vapoursynth-preview) (not maintained anymore)This program is meant to be paired with a code editor with integrated terminal like Visual Studio Code.# Prerequisites1. [Python](https://www.Python.org/downloads) (3.10+ required)    * Make sure to install Python to your `PATH`.1. [Vapoursynth](https://github.com/vapoursynth/vapoursynth/releases) (R59+ required)# InstallationInstall latest stable via pypi:```bashpip install vspreview```Install latest git:```bashpip install -U git+https://github.com/Irrational-Encoding-Wizardry/vs-preview.git```# UsageIt can be used by running `vspreview script.vpy` or your preferred way in [your IDE](#ide-integration).[Keyboard Shortcuts](https://github.com/Irrational-Encoding-Wizardry/vs-preview/tree/master/docs/shortcuts.md)[Saved Frame Filename Variables](https://github.com/Irrational-Encoding-Wizardry/vs-preview/tree/master/docs/save_frame_placeholders.md)# IDE Integration* [VSCode](https://github.com/Irrational-Encoding-Wizardry/vs-preview/tree/master/docs/vscode_install.md)* [Vim](https://github.com/Irrational-Encoding-Wizardry/vs-preview/tree/master/docs/vim_install.md)</longdescription>
+</pkgmetadata>

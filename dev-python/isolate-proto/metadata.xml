@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># gRPC definitionsFor regenerating definitions:```$ cd projects/isolate_proto$ python ../../tools/regen_grpc.py src/isolate_proto/controller.proto &lt;isolate version&gt;$ pre-commit run --all-files```The `&lt;isolate version&gt;` argument needs to be a [tag from the isolate Github project](https://github.com/fal-ai/isolate/tags) minus the leading `v`.</longdescription>
+</pkgmetadata>

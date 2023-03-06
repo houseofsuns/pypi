@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>```shpip install colourtime```Colourtime converts an Event Stream file (.es) into a PNG image, where time is represented with colour gradients.The pip package installs a Python library (`import colourtime`) and command-line executable (`colourtime`).The following command converts an Event Stream file.```shcolourtime /path/to/input.es```Run `colourtime --help` to list available options.Check **python/**init**.py** for details on the Python API.## Build from source```shpython3 -m venv .source ./bin/activatepip3 install -U pip event_stream matplotlib maturin numpy pillowmaturin develop -r```## Format```isort .; black .; pyright .```</longdescription>
+</pkgmetadata>

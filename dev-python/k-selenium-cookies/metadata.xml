@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># selenium_cookies![PyPI - package version](https://img.shields.io/pypi/v/selenium_cookies?logo=pypi&amp;style=flat-square)![PyPI - license](https://img.shields.io/pypi/l/selenium_cookies?label=package%20license&amp;style=flat-square)![PyPI - python version](https://img.shields.io/pypi/pyversions/selenium_cookies?logo=pypi&amp;style=flat-square)![PyPI - downloads](https://img.shields.io/pypi/dm/selenium_cookies?logo=pypi&amp;style=flat-square)![GitHub - last commit](https://img.shields.io/github/last-commit/kkristof200/selenium_cookies?style=flat-square)![GitHub - commit activity](https://img.shields.io/github/commit-activity/m/kkristof200/selenium_cookies?style=flat-square)![GitHub - code size in bytes](https://img.shields.io/github/languages/code-size/kkristof200/selenium_cookies?style=flat-square)![GitHub - repo size](https://img.shields.io/github/repo-size/kkristof200/selenium_cookies?style=flat-square)![GitHub - lines of code](https://img.shields.io/tokei/lines/github/kkristof200/selenium_cookies?style=flat-square)![GitHub - license](https://img.shields.io/github/license/kkristof200/selenium_cookies?label=repo%20license&amp;style=flat-square)## Description## Install~~~~bashpip install selenium_cookies# orpip3 install selenium_cookies~~~~## Usage~~~~pythonimport selenium_cookies~~~~## Dependencies[tldextract](https://pypi.org/project/tldextract)</longdescription>
+</pkgmetadata>

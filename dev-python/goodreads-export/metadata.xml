@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![Build Status](https://github.com/andgineer/goodreads-export/workflows/Test/badge.svg)](https://github.com/andgineer/goodreads-export/actions)[![Coverage Status](https://coveralls.io/repos/github/andgineer/goodreads-export/badge.svg?branch=main)](https://coveralls.io/github/andgineer/goodreads-export?branch=main)# Export goodreads books into markdown files (Obsidian etc)![goodreads.png](https://andgineer.github.io/goodreads-export/goodreads.png)![goodreads-author.png](https://andgineer.github.io/goodreads-export/goodreads-author.png)# User manual[goodreads-export](https://andgineer.github.io/goodreads-export/)# Developers#### Create / activate environment    . ./activate.shDelete `venv/` if you want to reinstall everything from requirements*.txt    make reqs  # if you want to refresh versions    deactivate    rm -f venv    pip install --upgrade pip-tools    . ./activate.sh#### Compile pinned to versions requirements*.txt from requirements*.in filesUsing pip-tools    make reqs#### Release version    make ver-bug/feature/releaseGithub actin will automatically update the pip package on pypi.org# Docstrings documentationDocumentation generated from source code.[reference](https://andgineer.github.io/goodreads-export/docstrings/)</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>TLV (tag length lavue) data parser, especially useful for [EMV](http://emvco.com) tags parsingTo import the pytlv module in your code:```pythonfrom pytlv.TLV import *```To parse data from a TLV string:```pythontlv = TLV(['84', 'A5']) # provide the possible tag valuestlv.parse('840E315041592E5359532E4444463031A5088801025F2D02656E')&gt;&gt;&gt; {'84': '315041592E5359532E4444463031', 'A5': '8801025F2D02656E'}```To build a TLV string:```pythontlv = TLV(['9F02', '9F04'])tlv.build({'9f02': '000000001337'})&gt;&gt;&gt; '9F0206000000001337'```</longdescription>
+</pkgmetadata>

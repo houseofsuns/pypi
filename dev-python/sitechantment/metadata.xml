@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=============================sitechantment=============================.. image:: https://travis-ci.org/mmessmore/sitechantment.png?branch=master    :target: https://travis-ci.org/mmessmore/sitechantment.. image:: https://pypip.in/d/sitechantment/badge.png    :target: https://pypi.python.org/pypi/sitechantmentCheck a site for spelling errors in a way that can be integrated with your testingWhy?----I wanted a way to add spellchecking to a suite of tests for a Flask-basedsite.  I saw some windows tools, using a combination of lynx/curl/wget andi/a/hunspell.But I just want a way to get a +/- test and a list of misspelled words.How---So sitechantment is a command line utility to do just that.  You can pass it a urlto crawl, an optional additional list of words, language, etc.  It will crawl thesite (not wandering off to another host/port) spellcheck every page and give you alist of words that are &quot;misspelled&quot;.You have the ability to run with a --update flag to automatically add all words toa personal word list so they aren't flagged on the next run.It is also available as a class sitechantment.SiteCheck, that can be used inside atest suite.  You can even pass it a flask test client instead of using requestsand be able to crawl a site inside of py.test or whatever is being used to unittest a flask application.  (Really anything can be used as long as it supportshandling uri's with a get() method).Documentation-------------The full documentation is at http://sitechantment.rtfd.org.History-------0.1.0 (2015-07-18)++++++++++++++++++* First release on PyPI.</longdescription>
+</pkgmetadata>

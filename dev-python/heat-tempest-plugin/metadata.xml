@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>===================Heat Tempest Plugin===================Tests can be run as a tempest plugin against any heat-enabled OpenStackcloud, however defaults match running against a recent DevStack.To run the tests against DevStack, do the following:    # Define DEST    export DEST=/opt/stack    # create test resources and write tempest config    $DEST/heat/heat_integrationtests/prepare_test_env.sh    $DEST/heat/heat_integrationtests/prepare_test_network.sh    # run tempest selecting only these tests    cd $DEST/tempest    tempest run --regex heat_tempest_plugin.testsIf custom configuration is required, edit the [heat_plugin] section of    $DEST/tempest/etc/tempest.conf</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Volume Segmantics User Interface ClientThis package allows a python script to connect to the volume segmantics server and update the server's information about a corresponding process. &lt;br&gt;The task id must match the name of a process definition in the connected server. The provided methods are:- **set_task_id** (id : str)    - This should correspond to the name of this process on the server.- **connect** (HOST : str = 'localhost', PORT : str = '8000')    - Initiates a socketio session with the server.- **edit_element** (element_uid : str, value : Any)    - Target a specific display component and update its data.- **notify** (txt : str, type : str)    - send a toast to the client    - types:        - success        - error        - info        - warning    - changing the type only changes the toast colour and icon- **set_logging_target** (key: str)    - Define the component key of the task element that logs should be forwarded to.&lt;br&gt;A log component can be configured to display all messages sent to a logger using     # (if you want to get the default logger)    logger = logging.getLogger()    # add the vsui handler to your logger    handler = vsui_client.RequestHandler()Now all logging messages will be forwarded to the specified component in the web client.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>PyObjC is a bridge between Python and Objective-C.  It allows fullfeatured Cocoa applications to be written in pure Python.  It is alsoeasy to use other frameworks containing Objective-C class librariesfrom Python and to mix in Objective-C, C and C++ source.This package is a pseudo-package that will install all pyobjc relatedpackages (that is, pyobjc-core as well as wrappers for frameworks onmacOS)Project links-------------* `Documentation &lt;https://pyobjc.readthedocs.io/en/latest/&gt;`_* `Issue Tracker &lt;https://github.com/ronaldoussoren/pyobjc/issues&gt;`_* `Repository &lt;https://github.com/ronaldoussoren/pyobjc/&gt;`_</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Purchase Amendment Module#########################The purchase amendment module allows you to change purchases that are beingprocessed and keep track of the changes.An amendment is composed of action lines which can:* Recompute taxes (if the supplier tax rules or product taxes have changed)* Change the payment term* Change the party and the address* Change the warehouse* Change a purchase line:    * the product (for one with the same UoM category)    * the quantity and unit of measure    * the unit price    * the descriptionWhen the amendment is validated the purchase is updated and given a newrevision. Generated documents (like moves and invoices) that are still in adraft state are replaced with new ones based on the new values.</longdescription>
+</pkgmetadata>

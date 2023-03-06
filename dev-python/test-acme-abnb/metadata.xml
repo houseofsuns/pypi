@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## Ottr ACME Client`ottr-airbnb` is a Python wrapper around `acme.sh` that handles the certificatesigning process for Certificate Authorities that support the ACME protocol suchas Let's Encrypt. This package is utilized for containers running on Ottr thathandle the logic for X.509 certificate rotations.</longdescription>
+</pkgmetadata>

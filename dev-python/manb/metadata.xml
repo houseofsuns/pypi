@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Mission Aware Note Book (manb)## Description* A Python package for Google Colab that supports [Mission Aware](https://mission-aware.net) concepts using the [GENESYS](https://www.vitechcorp.com/genesys_software/) REST API.## Usage```# Notebook Initializationimport manbenv = manb.Environment(domain, path)env.Tunnel()env.Login()# System Descriptionsd = manb.SystemDescription(env)sd.UseCaseDiagram()sd.UseCaseTable()sd.ControlStructureDiagram()sd.MSCDiagrams()# Risk Assessmentra = manb.RiskAssessment(env)ra.LossTable()ra.HazardTable()ra.ControlActionTable()ra.HazardousActionTable()ra.ControlActionAnalysisTable()# Vulnerability Assessmentva = manb.VulnerabilityAssesment(env)va.LossScenarioTable()va.PhysicalBlockDiagrams()va.ComponentAnalysisTable()va.LinkAnalysisTable()# Resilience Architecturearch = manb.ResilienceArchitecture(env)arch.ResilientModeTable()arch.LossScenarioElaborationTable()arch.LossScenarioMSCDiagrams()arch.ElictedRequirementsTable()# Section Exercisesex = manb.Exercises(env, manb.Section.&lt;section enum&gt;)ex.Edit()```</longdescription>
+</pkgmetadata>

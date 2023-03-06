@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>##  Thư viện kiểm tra file type.### Cài đặt:```bash $ pip3 install m-filetype ```### Sử dụng```pythonfrom mobio.sdks.filetype.file import Filefrom mobio.sdks.filetype.common import ExtensionImageFile.check_filetype_by_file_extensions(    file_binary=file, # Check filetype của định dạng file binary.Mặc định None    file_path=file_path, # Check filetype của path file    extensions=[ExtensionImage.PNG] # Danh sách extension cần check.)```#### Lấy extensions support- Extension Image:```pythonfrom mobio.sdks.filetype.common import ExtensionImageExtensionImage.LIST_EXTENSION_SUPPORTED```- Extension Document:```pythonfrom mobio.sdks.filetype.common import ExtensionDocumentExtensionDocument.LIST_EXTENSION_SUPPORTED```- Extension Audio:```pythonfrom mobio.sdks.filetype.common import ExtensionAudioExtensionAudio.LIST_EXTENSION_SUPPORTED```</longdescription>
+</pkgmetadata>

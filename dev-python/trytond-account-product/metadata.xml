@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>######################Account Product Module######################The *Account Product Module* allows products to be associated with accountingproperties such as taxes and expense or revenue accounts.It allows these properties to be easily managed using accounting categories.</longdescription>
+</pkgmetadata>

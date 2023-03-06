@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># skan: skeleton analysis in PythonPython module to analyse skeleton (thin object) images[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jni/skan/main?filepath=doc%2Fgetting_started.ipynb)[![Coverage Status](https://coveralls.io/repos/github/jni/skan/badge.svg?branch=main)](https://coveralls.io/github/jni/skan?branch=master)See the documentation at [https://skeleton-analysis.org](https://skeleton-analysis.org).</longdescription>
+</pkgmetadata>

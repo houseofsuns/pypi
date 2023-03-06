@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Spark MLlib runtime for MLServerThis package provides a MLServer runtime compatible with Spark MLlib.## UsageYou can install the runtime, alongside `mlserver`, as:```bashpip install mlserver mlserver-mllib```For further information on how to use MLServer with Spark MLlib, you can checkout the [MLServer repository](https://github.com/SeldonIO/MLServer).</longdescription>
+</pkgmetadata>

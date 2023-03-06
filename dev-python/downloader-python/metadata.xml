@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Downloader-python---**What can it do?**___&gt;You can use it to download images,text and vedios in the internet.---&gt;Download moudles for your Python.---&gt;Write python script and run it.---**Can we make mods for 'downloader-python'?*****&gt;Yes,we can.---&gt;You can read the file:moudle path/downloader-python/TEXT FOR MOD MAKER/README.TXT,make mods and upload to PyPI---About Author---**Author's e-mail*****&gt;email:guoxiuchen20170402@163.com</longdescription>
+</pkgmetadata>

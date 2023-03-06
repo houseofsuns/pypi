@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This module implements a very fast JSON encoder/decoder for Python.JSON stands for JavaScript Object Notation and is a text based lightweightdata exchange format which is easy for humans to read/write and for machinesto parse/generate. JSON is completely language independent and has multipleimplementations in most of the programming languages, making it ideal fordata exchange and storage.The module is written in C and it is up to 250 times faster when compared tothe other python JSON implementations which are written directly in python.This speed gain varies with the complexity of the data and the operation andis the the range of 10-200 times for encoding operations and in the range of100-250 times for decoding operations.</longdescription>
+</pkgmetadata>

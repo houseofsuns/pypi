@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Python Implementation## Installpython &gt;=3.5 requiredpip &gt;= 19.0.0```pip install lor-deckcodes```## UsageEver expanding rich API with method to display cards conveniently```pythonfrom lor_deckcodes import LoRDeck, CardCodeAndCount# Decodingdeck = LoRDeck.from_deckcode('CEBAIAIFB4WDANQIAEAQGDAUDAQSIJZUAIAQCBIFAEAQCBAA')# list all cards with card format 3:01SI001list(deck)card = deck.cards[0] # instance of CardCodeAndCountcard.faction # SI/FR...card.card_id # 111card.set # 01# Encoding# These are equivalentdeck = LoRDeck(['3:01SI015', '3:01SI044'])deck = LoRDeck([    CardCodeAndCount.from_card_string('3:01SI015'),    CardCodeAndCount('01SI015', 3)])# returns encoded stringdeck.encode()```</longdescription>
+</pkgmetadata>

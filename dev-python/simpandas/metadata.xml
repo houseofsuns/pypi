@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># `simpandas`A couple of Pandas DataFrame and Series subclasses, extended to work with units and to deal with column names following the style of eclipse simulator outputs.This package is under development and is regularly updated. Back-compatibility is intended to be maintained when possible.## What Contains This PackageIt is powered by other packages, like &lt;a href=&quot;https://numpy.org/&quot;&gt;**NumPy**&lt;/a&gt;, &lt;a href=&quot;https://seaborn.pydata.org/&quot;&gt;**seaborn**&lt;/a&gt; and &lt;a href=&quot;https://github.com/ayaranitram/unyts&quot;&gt;**unyts**&lt;/a&gt; and further own methods, to be able to deal with tables of quantities and facilitate common manipulations of time-dependent data.## To install this package:To install it from the &lt;a href=&quot;https://pypi.org/search/?q=simpandas&quot;&gt;pypi.org&lt;/a&gt; repository:  `pip install simpandas`or upgrade to the latest version:`pip install --upgrade simpandas`## Requisites- Pandas- NumPy- matplotlib- datetime- unyts</longdescription>
+</pkgmetadata>

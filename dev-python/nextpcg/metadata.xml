@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Create by AI:     The pypapi module in NextPCG is a powerful tool that allows users to create sophisticated programs and applications     with ease. It provides a comprehensive suite of features and commands that makes coding much simpler and faster.     With the help of this module, users can quickly and easily develop programs and applications with advanced     capabilities, such as natural language processing, artificial intelligence, and other complex tasks.     In addition, the pypapi module makes it easy to create programs and applications that are compatible with     different platforms and operating systems, ensuring that users can deploy their creations on a variety of platforms.     All in all, the pypapi module in NextPCG is a great tool for developers who want to quickly and easily create     complex applications.</longdescription>
+</pkgmetadata>

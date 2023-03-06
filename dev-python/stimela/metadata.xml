@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=======Stimela=======|Pypi Version||Build Version|  To reference *stimela* in a scholary work, please use this citation:.. code-block:: latex @phdthesis{makhathini2018,  author       = {Makhathini, S.},  title        = {Advanced radio interferometric simulation and data reduction techniques},  school       = {Rhodes University},  year         = 2018,  address      = {Drosty Rd, Grahamstown, 6139, Eastern Cape, South Africa},  month        = 4,  note         = {Available via \url{http://hdl.handle.net/10962/57348}}}`Documentation &lt;https://github.com/SpheMakh/Stimela/wiki&gt;`_  ===========================================================`Installation &lt;https://github.com/SpheMakh/Stimela/wiki/Installation&gt;`_=======================================================================`Tutorials &lt;https://github.com/SpheMakh/Stimela/wiki/Examples&gt;`_================================================================This project was initially funded by the `SKA/AWS AstroCompute In The Cloud &lt;https://www.skatelescope.org/ska-aws-astrocompute-call-for-proposals&gt;`_ initiative... |Pypi Version| image:: https://img.shields.io/pypi/v/stimela.svg                  :target: https://pypi.python.org/pypi/stimela                  :alt:.. |Build Version| image:: https://travis-ci.org/SpheMakh/Stimela.svg?branch=master                  :target: https://travis-ci.com/Sphemakh/Stimela/                  :alt:.. |Python Versions| image:: https://img.shields.io/pypi/pyversions/stimela.svg                     :target: https://pypi.python.org/pypi/stimela                     :alt:</longdescription>
+</pkgmetadata>

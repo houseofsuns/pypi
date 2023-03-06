@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>        SchNetPack aims to provide accessible atomistic neural networks that can be        trained and applied out-of-the-box, while still being extensible to custom         atomistic architectures</longdescription>
+</pkgmetadata>

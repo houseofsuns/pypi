@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># biolib&lt;b&gt;[This library is in active development and not currently recommended for public use.]&lt;/b&gt;[![version status](https://img.shields.io/pypi/v/biolib.svg)](https://pypi.python.org/pypi/biolib)[![Bioconda](https://img.shields.io/conda/vn/bioconda/biolib.svg?color=43b02a)](https://anaconda.org/bioconda/biolib)Biolib is a python package for common tasks in bioinformatics.## Announcements* Ported to Python 3 starting with version 0.1.0## InstallThe simplest way to install this package is through pip:```shellpython -m pip install biolib```## CiteIf you find this package useful, please cite this git repository https://github.com/dparks1134/biolib.## CopyrightCopyright © 2015 Donovan Parks. See LICENSE for further details.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>**NOTICE**: If you're reading this on GitHub.com please be aware this is a mirror of the primary remote located at https://code.richard.do/richardARPANET/lock-requirements.Please direct issues and pull requests there.# lock-requirementsA CLI tool to update your requirements.txt file package versions to be locked/fixed to the latest versions available on PyPI.#### For exampleInput file contents before locking:```requirements-parserpypi-simple&gt;=0.4.0,&lt;1.0.0docopt&gt;=0.5.0,&lt;1.0.0wheel```Input file contents after locking:```requirements-parser==0.2.0pypi-simple==0.4.0docopt==0.6.2wheel==0.32.3```## Installation```pip install lock-requirements```## Usage```lock requirements.txtlock requirements-dev.txt```Use a custom PyPI simple index url to retrieve latest package versions from.```lock requirements.txt --index-url=https://example.com/simple/```## Development Installation```pip install -r requirements-dev.txtpython setup.py develop```And to the run tests:```tox```</longdescription>
+</pkgmetadata>

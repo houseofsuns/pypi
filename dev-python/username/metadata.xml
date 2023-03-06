@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;p align=&quot;center&quot;&gt;&lt;a href=&quot;https://pypi.org/project/username&quot;&gt;&lt;img src=&quot;https://cdn.abranhe.com/projects/username/logo.svg&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;a href=&quot;https://pypi.org/project/username&quot;&gt;&lt;b&gt;username&lt;/b&gt;&lt;/a&gt; get the current username&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;a href=&quot;https://github.com/abranhe/username/actions/workflows/main.yml&quot;&gt;&lt;img src=&quot;https://github.com/abranhe/username/actions/workflows/main.yml/badge.svg&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;https://app.travis-ci.com/github/abranhe/username&quot;&gt;&lt;img src=&quot;https://img.shields.io/travis/com/abranhe/username.svg?logo=travis&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;https://ci.appveyor.com/project/abranhe/username&quot;&gt;&lt;img src=&quot;https://ci.appveyor.com/api/projects/status/8bp4dpqr76nx2nxt?svg=true&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;https://pypi.org/project/username&quot;&gt;&lt;img src=&quot;https://img.shields.io/pypi/v/username&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://github.com/abranhe/username/blob/master/license&quot;&gt;&lt;img src=&quot;https://img.shields.io/github/license/abranhe/username.svg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;## Install```console$ pip install username```## Usage```pythonimport usernameprint(username())# 'abranhe'```## API### username()Get current username## Related- [username-cli](https://github.com/abranhe/username-cli): cli for this package.## LicenseMIT © [Abraham Hernandez](https://github.com/abranhe)</longdescription>
+</pkgmetadata>

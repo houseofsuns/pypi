@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Django URL or Relative URL FieldThis package extends default Django URLField to support relative URLs.## Installation1. Install the python package django-url-or-relative-url-field from pip:    ``pip install django-url-or-relative-url-field``    Alternatively, you can install download or clone this repo and call ``pip install -e .``.  2. Add to INSTALLED_APPS in your **settings.py**:    `'url_or_relative_url_field',`  ## Usage    Add field to the model:```pythonfrom django.db import modelsfrom url_or_relative_url_field.fields import URLOrRelativeURLFieldclass Redirect(models.Model):   url = URLOrRelativeURLField()```Now your model will accept both absolute and relative URLs into the ``url`` field.</longdescription>
+</pkgmetadata>

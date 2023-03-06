@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=====================manila-tempest-plugin=====================This repository contains a `Tempest`_ `test plugin`_ to verify thefunctionality of the `OpenStack Shared File System Service`_, Manila.See `contributor information`_ to learn more.* Free software: Apache license* Documentation: https://docs.openstack.org/manila/latest/* Release notes: https://docs.openstack.org/releasenotes/manila/* Source: https://opendev.org/openstack/manila-tempest-plugin* Bugs: https://bugs.launchpad.net/manila.. _Tempest: https://docs.openstack.org/tempest.. _test plugin: https://docs.openstack.org/tempest/latest/plugin.html.. _contributor information: CONTRIBUTING.rst.. _OpenStack Shared File System Service: https://docs.openstack.org/manila</longdescription>
+</pkgmetadata>

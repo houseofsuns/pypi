@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># polywrap-manifestPython implementation of the WRAP manifest schema at https://github.com/polywrap/wrap## Usage### Deserialize WRAP manifest```pythonfrom polywrap_manifest import deserialize_wrap_manifest, WrapManifest_0_1with open(&quot;&lt;path to WRAP package&gt;/wrap.info&quot;, &quot;rb&quot;) as f:    raw_manifest = f.read()manifest = deserialize_wrap_manifest(raw_manifest)assert isinstance(manifest, WrapManifest_0_1)```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># awprLibrary that helps an application report progress to Argo Workflows.## Installation ```shellpip install awpr```## UsageSet the environment variable and run your application:`ARGO_PROGRESS_FILE=/tmp/progress.txt````shellfrom awpr.awpr import ArgoWorkflowsProgressReporterawpr = ArgoWorkflowsProgressReporter()awpr.set_total_progress(100)awpr.start_reporting()awpr.set_current_progress(20)awpr.set_current_progress(30)awpr.get_progress_percent()awpr.set_progress_complete()awpr.get_progress_percent()```</longdescription>
+</pkgmetadata>

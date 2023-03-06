@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>A Baseline for Multilingual Sentiment Analysis (b4msa)======================================================.. image:: https://github.com/INGEOTEC/b4msa/actions/workflows/test.yaml/badge.svg   :target: https://github.com/INGEOTEC/b4msa/actions/workflows/test.yaml.. image:: https://coveralls.io/repos/github/INGEOTEC/b4msa/badge.svg?branch=master:target: https://coveralls.io/github/INGEOTEC/b4msa?branch=master.. image:: https://anaconda.org/ingeotec/b4msa/badges/version.svg:target: https://anaconda.org/ingeotec/b4msa   .. image:: https://badge.fury.io/py/b4msa.svg:target: https://badge.fury.io/py/b4msa.. image:: https://anaconda.org/ingeotec/b4msa/badges/downloads.svg:target: https://anaconda.org/ingeotec/b4msa.. image:: https://readthedocs.org/projects/b4msa/badge/?version=latest         :target: https://b4msa.readthedocs.io/en/latest/?badge=latestb4msa is multilingual framework, that can be served as a baseline for sentiment analysisclassifiers, as well as a starting point to build new sentiment analysissystems.b4msa extends our work on creating a text classifier (see `microTC&lt;http://github.com/ingeotec/microtc&gt;`_) by incorporating differentlanguage dependent techniques such as:* Stemming* Stopword* NegationsThe documentation is on `readthedocs &lt;https://b4msa.readthedocs.io&gt;`_.</longdescription>
+</pkgmetadata>

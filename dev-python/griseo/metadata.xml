@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># GriseoChat with OpenAI in the Hacker way.## Installation```shellpip install griseo```## Usage```shellexport OPENAI_API_KEY=&lt;API_TOKEN&gt; # or echo OPENAI_API_KEY=&lt;API_TOKEN&gt; &gt;&gt; .envgriseo ... # one-shot chat completiongriseo     # open an interactive session  ```</longdescription>
+</pkgmetadata>

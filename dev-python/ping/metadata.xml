@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This library is a fork of George Notaras' python-ping library, which isan implementation of the standard ICMP ping in pure Python.As it uses raw ICMP sockets, you need to be root to use the functionsexported by the ping module.This fork by Pierre Bourdon adds a setup.py file in order to permit aneasier distribution of the package. The license of the library remainsunchanged (GPLv2), see COPYING.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># *Ceramic**Ceramic* is a Python library for turning dataframes into *mosaics* for ease of use. For example, you can create a mosaic with *X* and *y* tile columns and *training* and *test* tile rows for fitting and testing machine learning models. </longdescription>
+</pkgmetadata>

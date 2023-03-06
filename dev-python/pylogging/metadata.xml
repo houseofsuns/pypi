@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>PyLogging is a light-weight python logging library. It provides ability to write logs in your own customized format. It is also provides support for custom log filters, custom log actions and email notifications. for more info please visit https://github.com/Clivern/pylogging</longdescription>
+</pkgmetadata>

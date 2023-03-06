@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>The python-javabridge package makes it easy to start a Java virtualmachine (JVM) from Python and interact with it. Python code caninteract with the JVM using a low-level API or a more convenienthigh-level API. Python-javabridge was developed for and is used by thecell image analysis software CellProfiler (cellprofiler.org).</longdescription>
+</pkgmetadata>

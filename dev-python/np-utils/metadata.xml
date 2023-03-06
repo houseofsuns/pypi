@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Utilities for array and list manipulation by David Mashburn.Notably: * functions to scale arrays by integer multiples (without interpolation) * drawing basic graphics objects on (multi-dimensional) numpy arrays:     * line segment, triangle, circle, and sphere</longdescription>
+</pkgmetadata>

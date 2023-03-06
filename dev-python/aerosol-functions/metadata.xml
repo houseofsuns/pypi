@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>![logo](logo.png)# aerosol-functionsA collection of methods to analyze and visualize atmospheric aerosol data.## Installation`pip install aerosol-functions`## DocumentationThe documentation can be foud [here](https://jlpl.github.io/aerosol-functions/)</longdescription>
+</pkgmetadata>

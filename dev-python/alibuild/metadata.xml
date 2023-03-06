@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image:: https://github.com/alisw/alibuild/workflows/Python%20package/badge.svgaliBuild========A simple build tool for ALICE experiment software and its externals. Recipesfor the externals and ALICE software are stored in`alidist &lt;https://github.com/alisw/alidist&gt;`_.Instant gratification with::    pip install alibuild    git clone https://github.com/alisw/alidist.git    aliBuild build AliRoot    alienv enter AliRoot/latest    aliroot -bFull documentation at:https://alisw.github.io/alibuildPre-requisites==============If you are using aliBuild directly from git clone, you should make sureyou have `pyyaml` and `argparse` in your python distribution.</longdescription>
+</pkgmetadata>

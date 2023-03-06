@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Pylibinjection==============Pylibinjection is a wrapper for the Libinjection library (https://github.com/client9/libinjection).Requirements------------* Python 2.5 or later* Python-dev (Python header files)* Optional cython::    $ apt-get install python-devInstallation------------::    $ pip install pylibinjectionUsage-----::    $ python    &gt;&gt;&gt; import pylibinjection    &gt;&gt;&gt; pylibinjection.detect_sqli(&quot;anything' OR 'x'='x';&quot;)Developers-----------Pylinjection embeds libinjection as a submodule, which means that you must clone the repo with the `--recursive` option::    $ git clone --recursive https://github.com/glastopf/pylibinjection.gitLicense information-------------------Copyright (C) 2013 Angelo Dell'Aera &lt;buffer@antifork.org&gt;License: GNU General Public License, version 2 or later; see COPYING.txt included in this archive for details.</longdescription>
+</pkgmetadata>

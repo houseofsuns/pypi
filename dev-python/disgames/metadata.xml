@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;p align=&quot;center&quot;&gt; &lt;img src=&quot;./docs/src/disgames.png&quot; height=&quot;125px&quot; width=&quot;125px&quot; /&gt;&lt;/p&gt;&lt;h1 align=&quot;center&quot;&gt;Disgames&lt;/h1&gt;A python module made to make creating games easier and adds a bunch of game commands to your discord python bot---Note: The logo has been designed by using resources from [flaticon.com](https://www.flaticon.com/)## Contents- [Disgames](#disgames)  - [Contents](#contents)  - [Installation](#installation)  - [Usage](#usage)  - [Extra](#extra)## InstallationTo install it from [pypi](https://pypi.org/project/disgames), run```shpip install disgames```To install the development version, you need [git](https://git-scm.com/downloads) installed. After installing it, run```shellpip install git+https://github.com/andrewthederp/Disgames```## UsageYou can either load it as an extension by doing```pyfrom discord.ext import commandsbot = commands.Bot(&quot;YOUR_PREFIX_HERE&quot;)bot.load_extension(&quot;disgames&quot;)```or call the `register_commands` function manually by doing```pyfrom disgames import register_commandsfrom discord.ext import commandsbot = commands.Bot(&quot;YOUR_PREFIX_HERE&quot;)register_commands(bot)```More examples on customizing the commands added to your bot can be seen in [`examples/`](./examples/)And thats it! now your bot has the games implemented in [`disgames/mixins/`](./disgames/mixins/)## ExtraNote that this works with the now discontinued module [discord.py](https://pypi.org/project/discord.py) and wewill make it compatible with other modules as soon as possible</longdescription>
+</pkgmetadata>

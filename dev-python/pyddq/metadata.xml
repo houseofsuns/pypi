@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=====pyddq=====Python API of Drunken Data Quality.https://github.com/FRosner/drunken-data-qualityDescription===========DDQ is a small library for checking constraints on Spark data structures.It can be used to assure a certain data quality, especially when continuous imports happen.Note====This project has been set up using PyScaffold 2.5.6. For details and usageinformation on PyScaffold see http://pyscaffold.readthedocs.org/.</longdescription>
+</pkgmetadata>

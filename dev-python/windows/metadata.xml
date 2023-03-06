@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This is not a usable Python package, but the name isreserved by Microsoft Corporation.Visit `aka.ms/Python &lt;https://aka.ms/python&gt;`_ for information abouttools and products released by Microsoft for Python developers.You can find other packages published by Microsoft at`pypi.org/user/microsoft &lt;https://pypi.org/user/microsoft/&gt;`_See `www.microsoft.com/trademarks &lt;https://www.microsoft.com/trademarks/&gt;`_for full details on Microsoft's trademarks and how you may use them correctly.</longdescription>
+</pkgmetadata>

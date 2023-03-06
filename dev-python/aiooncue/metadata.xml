@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>===========Async Oncue===========.. image:: https://img.shields.io/pypi/v/aiooncue.svg        :target: https://pypi.python.org/pypi/aiooncue.. image:: https://img.shields.io/travis/bdraco/aiooncue.svg        :target: https://travis-ci.com/bdraco/aiooncue.. image:: https://readthedocs.org/projects/aiooncue/badge/?version=latest        :target: https://aiooncue.readthedocs.io/en/latest/?badge=latest        :alt: Documentation StatusAsync for Oncue* Free software: Apache Software License 2.0* Documentation: https://aiooncue.readthedocs.io.Features--------* TODOCredits-------This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template... _Cookiecutter: https://github.com/audreyr/cookiecutter.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage=======History=======0.1.0 (2021-02-09)------------------* First release on PyPI.</longdescription>
+</pkgmetadata>

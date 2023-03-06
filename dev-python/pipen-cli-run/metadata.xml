@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pipen-cli-runA pipen cli plugin to run a process or a pipeline## Install```shellpip install -U pipen-cli-run```## Usage### Register a namespace`pyproject.toml````toml[tool.poetry.plugins.pipen_cli_run]ns = &quot;yourpackage.ns&quot;````ns` should be a module where you define you processes/pipelines</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># A Python DSL for pipelines Don't Repeat Yourself (D.R.Y) while writing pipelines, and stay away from leaky abstractions, use DryPipe !## What is a pipeline ?A pipeline could be described as _&quot;a bunch of programs feeding data to one another&quot;._Programs within a pipeline tend to:1. run for a long time2. need large amounts of resources (cpu, memory, disk space, etc), requiring clusters to run (Slurm, Torque,etc)3. be written in different languaged, have different CLI interfaces, file formats, etc.4. long CODE-&gt;RUN-&gt;DEBUG-&gt;CODE cyclesThe length of the development cycle makes pipelines difficult to debug.[https://drypipe.readthedocs.io/](https://drypipe.readthedocs.io/)</longdescription>
+</pkgmetadata>

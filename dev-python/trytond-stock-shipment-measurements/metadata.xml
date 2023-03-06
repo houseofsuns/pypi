@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Stock Shipment Measurements Module##################################The Stock Shipment Measurements module adds weight and volume on shipments andpackages.They are computed using the measurement and the quantity of their moves.</longdescription>
+</pkgmetadata>

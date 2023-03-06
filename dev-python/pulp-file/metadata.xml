@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pulp_file=========.. figure:: https://github.com/pulp/pulp_file/actions/workflows/nightly.yml/badge.svg?branch=main   :alt: File Nightly CI/CDA Pulp plugin to support hosting arbitrary files.For more information, please see the `documentation &lt;https://docs.pulpproject.org/pulp_file/&gt;`_or the `Pulp project page &lt;https://pulpproject.org&gt;`_.</longdescription>
+</pkgmetadata>

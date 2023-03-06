@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># PyDID[![pypi release](https://img.shields.io/pypi/v/pydid)](https://pypi.org/project/pydid/)[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&amp;logoColor=white)](https://github.com/pre-commit/pre-commit)Python library for validating, constructing, and representing DIDs and DID Documents.## InstallationUsing a virtual environment is generally recommended:```sh$ python -m venv env$ source env/bin/activate```Install with pip:```sh$ pip install pydid```## DevelopmentThis project is managed with [Poetry](https://python-poetry.org/).To begin making code changes, clone this repo and do the following to installdependencies:```sh$ python -m venv env$ source env/bin/activate$ pip install poetry$ poetry install```## ContributingSee [CONTRIBUTING.md](CONTRIBUTING.md).</longdescription>
+</pkgmetadata>

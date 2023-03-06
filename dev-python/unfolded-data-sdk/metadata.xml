@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># `unfolded.data-sdk`Python package for interfacing with [Unfolded](https://unfolded.ai)'s Data SDK.For more documentation, refer to the [documentation website](https://docs.unfolded.ai/data-sdk).</longdescription>
+</pkgmetadata>

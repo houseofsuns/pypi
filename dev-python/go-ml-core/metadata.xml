@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># go-ml-coreSome share utilities in Gogoro Machine Learning Team.## Release instructions- To install essential packages```pip3 install setuptools wheel twine```- To prepare a ~/.pypirc```[distutils]index-servers = pypi[pypi]repository:https://upload.pypi.org/legacy/username:&lt;username&gt;password:&lt;password&gt;```- To revision new version in setup.py- To compile and upload```python3 setup.py sdist bdist_wheeltwine upload --skip-existing dist/*```## Config Setting### Reference```config.yml```### Optional configs- mlcore.datahelper.s3.write```default: mlcore.datahelper.s3.read```- mlcore.datahelper.s3.read.s3baseprefix```default: &quot;ml/&quot;```- mlcore.datahelper.s3.read.aws-access-key-id &amp; mlcore.datahelper.s3.read.aws-secret-access-key```login using key or not```- mlcore.datahelper.s3.read.role-arn &amp; mlcore.datahelper.s3.read.role-session-name```assume role or not```</longdescription>
+</pkgmetadata>

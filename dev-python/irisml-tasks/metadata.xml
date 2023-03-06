@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># irisml-tasksA collection of tasks for irisml framework.Visit [irisml](https://github.com/microsoft/irisml) for the detail.## tasks### assertionThis task throws an exception if the given assertion failed for the input object.## branch'If' condition for tasks.### calculate_cosine_similarityCalculate cosine similarity between two sets of vectors.### download_azure_blobDownload a file from azure blob.### get_current_timeGet the current time in seconds from epoch.### get_dataset_statsGet statistics of the input dataset.### get_dataset_subsetCreate a new dataset with a subset of the input dataset.### get_fake_image_classification_datasetCreate a new dataset with fake classification images.### get_fake_object_detection_datasetCreate a new dataset with fake object detection examples.### get_itemGet an item from a given list.### get_secret_from_azure_keyvaultGet a secret string from Azure KeyVault.### get_topkGet TopK from a given tensor.### join_filepathJoin a given directory path and a filename.### load_state_dictLoad a specified file to the input model.### print_environment_infoPrint the enviromnent infomation such as GPU, CPU, Memory### run_parallelRun child tasks in new forked processes.### run_sequentialRun child tasks sequentially on the same process.### save_fileSave the input binary as a file.### save_state_dictSave the state_dict of the input model.### search_grid_sequentialGrid search hyperparameters in sequential. Run the child tasks and returns a set of parameters that achieved the best result.### upload_azure_blobUpload a file to azure blob.</longdescription>
+</pkgmetadata>

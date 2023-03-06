@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># sphinx-togglebuttonA small sphinx extension to make it possible to add a &quot;toggle button&quot; tosections of your page. This allows you to:- Collapse Sphinx admonitions (notes, warnings, etc) so that their content is hidden  until users click a toggle button.- Collapse arbitrary chunks of content on your page with a `collapse` directive.![Demonstration of Sphinx Togglebutton](https://user-images.githubusercontent.com/1839645/152654312-a72a320f-e1e0-40be-95ae-3ed34facc4d3.gif)Installation============You can install `sphinx-togglebutton` with `pip`:```bashpip install sphinx-togglebutton```Usage=====In your `conf.py` configuration file, add `sphinx_togglebutton`to your extensions list.E.g.:```pythonextensions = [    ...    'sphinx_togglebutton'    ...]```Now, whenever you wish for an admonition to be toggle-able, add the`:class: dropdown` parameter to the admonition directive that you use.For example, this code would create a toggle-able &quot;note&quot; admonitionthat starts hidden:```rst.. note::    :class: dropdown    This is my note.```Clicking on the toggle button will toggle the item's visibility.You may also **show the content by default**. To do so, add the `dropdown`class *as well as* a `toggle-shown` class, like so:```rst.. note::    :class: dropdown, toggle-shown    This is my note.```You can also use **containers** to add arbitrary toggle-able code. For example,here's a container with an image inside:```rst.. container:: toggle, toggle-hidden    .. admonition:: Look at that, an image!        .. image:: https://media.giphy.com/media/mW05nwEyXLP0Y/giphy.gif```</longdescription>
+</pkgmetadata>

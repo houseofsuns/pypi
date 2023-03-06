@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>✨ A simple library for creating beautiful interactive prompts... image:: https://github.com/Exahilosys/survey/raw/master/images/showcase.gifFeatures--------- **Pythonic**: Friendly interface wrapped around simple functions.- **Lightweight**: Independent of any other prompt or visual libraries.- **Adaptable**: Works with any string formatting and window size.- **Extensive**: Packed with tweaks and features for any situation.- **Complete**: Supports Windows 10 (Anniversary Update and up).Installing----------.. code-block::    pip3 install surveyLinks------ Check out the `Quickstart &lt;https://survey.readthedocs.io/quickstart.html&gt;`_ guide for more.- Greatly inspired by `AlecAivazis's GoLang &lt;https://github.com/AlecAivazis/survey&gt;`_ library.Suggestions and contributions are greatly appreciated!</longdescription>
+</pkgmetadata>

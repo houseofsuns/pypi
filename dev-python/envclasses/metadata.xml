@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># `envclasses`[![image](https://img.shields.io/pypi/v/envclasses.svg)](https://pypi.org/project/envclasses/)[![image](https://img.shields.io/pypi/pyversions/envclasses.svg)](https://pypi.org/project/envclasses/)![Test](https://github.com/yukinarit/envclasses/workflows/Test/badge.svg)*`envclasses` is a library to map fields on dataclass object to environment variables.*## Installation```bashpip install envclasses```## UsageDeclare a class with `dataclass` and `envclass` decorators.```pythonfrom envclasses import envclass, load_envfrom dataclasses import dataclass@envclass@dataclassclass Foo:    v: intfoo = Foo(v=10)load_env(foo, prefix='foo')print(foo)```Run the script```$ python foo.pyFoo(v=10)```Run with environment variable```$ FOO_V=100 python foo.pyFoo(v=100)```</longdescription>
+</pkgmetadata>

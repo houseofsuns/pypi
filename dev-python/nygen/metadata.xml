@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># nygenEasily create new python projects## Usage`nygen init --author &quot;Natalie Fearnley&quot; --email &quot;nfearnley@gmail.com&quot; --github &quot;nfearnley&quot;``cd c:\users\nfear\Desktop\coding``nygen myproject`## Templates### UsageTemplates can be specified using the `--template` option.`nygen myproject --template mytemplate`The default template is &quot;default&quot;.### CreationTemplates can be created by publishing a package that creates an entry point &quot;nygen.templates&quot; that points to the template's data directory.Example from a setup.cfg file:```[options.entry_points]nygen.templates =    default = nygen_default.template```You can use the [nygen_default](https://github.com/nfearnley/nygen_default) repo as an example of a working template package.</longdescription>
+</pkgmetadata>

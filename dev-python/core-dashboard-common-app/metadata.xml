@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=========================Core Dashboard Common App=========================Resource management via a dashboard for the curator core project.Quickstart==========1. Add &quot;core_dashboard_common_app&quot; to your INSTALLED_APPS setting-----------------------------------------------------------------.. code:: python      INSTALLED_APPS = [          ...          'core_dashboard_common_app',      ]</longdescription>
+</pkgmetadata>

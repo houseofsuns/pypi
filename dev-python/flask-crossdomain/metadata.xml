@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>flask-crossdomain=================A decorator helper to HTTP Access Control.This package was created based on Flask snippets 56 (http://flask.pocoo.org/snippets/56/).</longdescription>
+</pkgmetadata>

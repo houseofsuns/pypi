@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Constant-time string comparison-------------------------------Sometimes you need to test strings for equality with an algorithm whose timing dependsonly on the length of the strings, and not on the contents of the strings themselves. Ifone of those strings is of constant width -- an`HMAC &lt;http://en.wikipedia.org/wiki/HMAC&gt;`_, for example -- then it becomes a constant-timeoperation. This can be used to prevent some `timing side-channelattacks &lt;http://en.wikipedia.org/wiki/Timing_attack&gt;`_, such as `the critical vulnerabilityfound in KeyCzar back in 2009 &lt;http://codahale.com/a-lesson-in-timing-attacks/&gt;`_.This module offers a single function, ``equals(x, y)``, which takes two strings ``x`` and``y`` and returns ``True`` if they are equal, and ``False`` if they are not. The timethis function takes does not depend on what specific bytes are in these strings. Unicodestrings are encoded as UTF-8 before being compared; it is recommended that you only usethis on byte strings (``str`` in Python 2, ``bytes`` in Python 3).This works with Python 2 and 3, and PyPy. The license is Apache 2.0.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>A collection of heuristic algorithms for solving the 2D knapsack problem,also known as the bin packing problem. In essence packing a set of rectangles into thesmallest number of bins.</longdescription>
+</pkgmetadata>

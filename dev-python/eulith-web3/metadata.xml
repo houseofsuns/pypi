@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Welcome To Eulith ClientPlease find our docs at https://docs.eulith.com---## Setup for Linux 22.04~~~sudo apt update -qqsudo apt install -qq -y python3 python3-pippip3 install pyproject.tomlpip3 install web3pip3 install pytestexport PATH=$PATH:$HOME/.local/bin   ; echo consider adding this to .bashrc~~~## Running tests~~~pytest~~~or if you use a different URL for where to find the eulith call server~~~EULITH_URL=http://192.168.244.44:7777/v0 pytest~~~</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>jcconv, Japanese Characters CONVerter, interconvert hiragana, katakana, half-width kana.   This module also treat 'half/wide number', 'half/wide alphabet'.   Since 0.2.0, check_hira, check_kata, check_half functions were added.   you can check if string consists of characters you specified.      IMPOTANT: In current version, this works only with utf-8 encoding.   Simple example of usage is followings       &gt;&gt;&gt; from jcconv import *       &gt;&gt;&gt; print hira2kata('あいうえお')   # hiragana to katakana       アイウエオ       &gt;&gt;&gt; print kata2hira('カタカナ')     # katakana to hiragana       かたかな       &gt;&gt;&gt; print half2hira('ﾊﾝｶｸｶﾀｶﾅ')      # half-width kana to hiragana       はんかくかたかな              &gt;&gt;&gt; print half2wide('hello jcconv') # half-width alphabet to wide-width       ｈｅｌｌｏ ｊｃｃｏｎｖ       &gt;&gt;&gt; print wide2half('ＷＩＤＥ')     # wide-width alphabet to half-width       wide</longdescription>
+</pkgmetadata>

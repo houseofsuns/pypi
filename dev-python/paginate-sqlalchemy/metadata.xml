@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This module helps divide up large result sets into pages or chunks.The user gets displayed one page at a time and can navigate to other pages.It is especially useful when developing web interfaces and showing theusers only a selection of information at a time.This module uses and extends the functionality of the paginate module tosupport SQLAlchemy queries.</longdescription>
+</pkgmetadata>

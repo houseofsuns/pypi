@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># UsePy&lt;a href=&quot;https://github.com/mic1on/usepy/actions/workflows/test.yml?query=event%3Apush+branch%3Amain&quot; target=&quot;_blank&quot;&gt;    &lt;img src=&quot;https://github.com/mic1on/usepy/workflows/test%20suite/badge.svg?branch=main&amp;event=push&quot; alt=&quot;Test&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://pypi.org/project/usepy&quot; target=&quot;_blank&quot;&gt;    &lt;img src=&quot;https://img.shields.io/pypi/v/usepy.svg&quot; alt=&quot;Package version&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://pypi.org/project/usepy&quot; target=&quot;_blank&quot;&gt;    &lt;img src=&quot;https://img.shields.io/pypi/pyversions/usepy.svg&quot; alt=&quot;Supported Python versions&quot;&gt;&lt;/a&gt;`usepy`是一个简单易用的Python工具库，包含了一些常用的工具函数。### 安装```bashpip install usepy -U```### 示例及文档[官方文档](https://usepy.code05.com/)</longdescription>
+</pkgmetadata>

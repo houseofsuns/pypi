@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># `pip install jobx`---Magical tool to run batch tasks.## Get Started1. install jobx : `pip install -U -i https://pypi.org/simple jobx`.2. create task config file，it's recommended to name as `jobx.yaml`.3. run tasks (presume that the name is `jobx.yaml`).   1. run all tasks: `jobx *` (`jobx \*` on Linux/MacOS).   2. run specific task: `jobx  task-name`.   3. run multiple tasks: `jobx t1,t2` (task names are split by `,` , no space).   4. run tasks with matching names: `jobx tasks.yaml *plugin*install` (matching like fnmatch).If the config file name is not the default one (`jobx.yaml`), you need to specify the name with `-f` flag. For example, `jobx -f my-task.yaml task1`.## Acknowledgement- jinja2- python-fire</longdescription>
+</pkgmetadata>

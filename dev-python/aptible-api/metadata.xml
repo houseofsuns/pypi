@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># aptible-apiPython client for api.aptible.com. Aptible's API is built on HAL+JASON so thispackage includes a simplified engine for generating Resource types based onJSON objects provided by the API / specifications in[draft-kelly-json-hal-06](https://datatracker.ietf.org/doc/html/draft-kelly-json-hal-06)## Installation```shellpip install aptible-api```## UsageFist create an instance of the API```pythonfrom aptible.api import AptibleApiaptible_api = AptibleApi()```Then authorize the application via either account credentials or a token.```python# Via account credentialsaptible_api.authorize(email='user@example.com', password='password')# Via a tokenfrom pathlib import Pathfrom json import JSONDecodertokens_path = Path('~/.aptible/tokens.json')tokens_json = JSONDecoder.decode(tokens_path.read_text())token = tokens_json['https://auth.aptible.com']aptible_api.authorize(token=token)```From here, you can interact with the API however you wish.```pythonaccounts = aptible_api.accounts()account = next(accounts)account.handle# &gt;&gt;&gt; 'demo-account'next(account.apps()).handle# &gt;&gt;&gt; 'foodle'new_app = account.create_app(handle='foo-app')new_app.href# &gt;&gt;&gt; 'https://api.aptible.com/apps/1337'```## Contributing1. Fork the project.2. Commit your changes, with tests.3. Ensure that your code passes tests (`pipenv run py.test`) and meets pylint   style guide (`pipenv run pylint`).4. Create a new pull request on GitHub.## CopyrightMIT License, see [LICENSE](LICENSE.md) for details.Copyright (c) 2021 TrialSpark, Inc. and contributors.</longdescription>
+</pkgmetadata>

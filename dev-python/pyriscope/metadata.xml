@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Easily download any available Periscope stream by simply giving Pyriscope the URL.Pyriscope automatically downloads and stitches together Periscope video chunks.Optionally, Pyriscope converts the downloaded .ts file to a .mp4 file with optional rotation. (Requires ffmpeg)Usage:    pyriscope &lt;urls&gt; [options]See 'pyriscope --help' for further details.</longdescription>
+</pkgmetadata>

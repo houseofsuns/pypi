@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># asyncpg-stubs[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://github.com/bryanforbes/asyncpg-stubs/blob/master/LICENSE)[![Checked with mypy](http://www.mypy-lang.org/static/mypy_badge.svg)](http://mypy-lang.org/)[![Checked with pyright](https://img.shields.io/badge/pyright-checked-informational.svg)](https://github.com/microsoft/pyright/)[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)This package contains type stubs to provide more precise static types and type inference for [asyncpg](https://github.com/MagicStack/asyncpg).## Installation```shellpip install asyncpg-stubs```## DevelopmentMake sure you have [poetry](https://python-poetry.org/) installed.```shellpoetry installpoetry run pre-commit install --hook-type pre-commit```## Version numbering schemeThe **major** and **minor** version numbers of `asyncpg-stubs` will match the **major**and **minor** version numbers of the `asyncpg` release the stubs represent. Forinstance, if you are using `asyncpg` version `0.25.0`, you would use `asyncpg-stubs`version `0.25.X` where `X` is the latest **patch** version of the stubs. Using semverdependencty specifications, `asyncpg-stubs` version `~0.25` is designed to work with`asyncpg` version `~0.25`.In addition, `asyncpg-stubs` will indicate which versions of the runtime library are compatible through its dependency information (as suggested in PEP-561).</longdescription>
+</pkgmetadata>

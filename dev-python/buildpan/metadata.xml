@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>initiate the cli with &quot;buildpan&quot;  Use &quot;buildpan auth&quot; for authentication  Use &quot;buildpan allrepo&quot; for displaying all the repositories  Use &quot;buildpan selectrepo&quot; for selecting repo  Use &quot;buildpan crepo&quot; create repo in github </longdescription>
+</pkgmetadata>

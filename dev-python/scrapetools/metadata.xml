@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ScrapetoolsA collection of tools to aid in web scraping.&lt;br&gt;Install using:&lt;pre&gt;pip install scrapetools&lt;/pre&gt;Scrapetools contains three functions (scrape_emails, scrape_phone_numbers, scrape_inputs)and one class (LinkScraper).&lt;br&gt;## Basic usage&lt;pre&gt;import scrapetoolsimport requestsurl = 'https://somewebsite.com'source = requests.get(url).textemails = scrapetools.scrape_emails(source)phoneNumbers = scrapetools.scrape_phone_numbers(source)scraper = scrapetools.LinkScraper(source, url)scraper.scrape_page()# links can be accessed and filtered via the get_links() functionsame_site_links = scraper.get_links(same_site_only=True)same_site_image_links = scraper.get_links(link_type='img', same_site_only=True)external_image_links = scraper.get_links(link_type='img', excluded_links=same_site_image_links)# scrape_inputs() returns a tuple of BeautifulSoup Tag elements for various user input elementsforms, inputs, buttons, selects, text_areas = scrapetools.scrape_inputs(source)&lt;/pre&gt;</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Provides libraries for processing large data sets on AWS with Pandas.            Developed by the team at [deductive.com](https://deductive.com) as we find them useful in our projects.            &amp;copy; Deductive 2012-2020, all rights reserved. This code is licensed under MIT license. See [license.txt](https://bitbucket.org/deductive/newtools/src/master/licence.txt) for details.      For documentation see [read the docs](http://newtools.readthedocs.io)</longdescription>
+</pkgmetadata>

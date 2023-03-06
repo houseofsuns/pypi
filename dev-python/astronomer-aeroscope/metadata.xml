@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Astronomer Aeroscope ProviderThe Astronomer Aeroscope Provider contains a Plugin and Operator from Astronomer. These provide a method to run Telescope in environments where other methods are unavailable ## InstallationAdd the following line to your `requirements.txt` in your source environment:```textastronomer-aeroscope```## Usage Option 1) Plugin Usage- Navigate to the top navigation bar in your Source Airflow environment.- Click the `Astronomer` menu, then `Run Report`## Usage Option 2) Operator Usage- Add the following DAG to your source Airflow environment```pythonfrom datetime import datetimefrom airflow.models import DAGfrom astronomer.aeroscope.operators import AeroscopeOperatorwith DAG(  dag_id=&quot;astronomer_aeroscope&quot;,  schedule_interval=None,  start_date=datetime(2021, 1, 1),) as dag:  AeroscopeOperator(      task_id=&quot;run_report&quot;,      presigned_url='{{ dag_run.conf[&quot;presigned_url&quot;] }}',      organization='{{ dag_run.conf[&quot;organization&quot;] }}',  )```- Trigger the `astronomer_aeroscope` DAG with the configuration given by your Astronomer Representative```{&quot;presigned_url&quot;: &quot;presigned-url-here&quot;,&quot;organization&quot;: &quot;organization-name-here&quot;}```</longdescription>
+</pkgmetadata>

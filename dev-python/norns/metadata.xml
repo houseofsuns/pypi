@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># nornsSimple yaml-based config module.## InstallationVia pip, for now.```$ pip install norns```## Usage## Todo* Add todo!## ContributingContributions welcome! Send me a pull request or get in [touch](simon.vanheeringen@gmail.com).## LicenseThis module is licensed under the terms of the [MIT license](https://opensource.org/licenses/MIT).</longdescription>
+</pkgmetadata>

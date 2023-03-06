@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;h1 align=&quot;center&quot;&gt;kilroy-module-pytorch-py-sdk&lt;/h1&gt;&lt;div align=&quot;center&quot;&gt;SDK for kilroy modules using PyTorch 🧰[![Lint](https://github.com/kilroybot/kilroy-module-pytorch-py-sdk/actions/workflows/lint.yaml/badge.svg)](https://github.com/kilroybot/kilroy-module-pytorch-py-sdk/actions/workflows/lint.yaml)[![Tests](https://github.com/kilroybot/kilroy-module-pytorch-py-sdk/actions/workflows/test-multiplatform.yaml/badge.svg)](https://github.com/kilroybot/kilroy-module-pytorch-py-sdk/actions/workflows/test-multiplatform.yaml)[![Docs](https://github.com/kilroybot/kilroy-module-pytorch-py-sdk/actions/workflows/docs.yaml/badge.svg)](https://github.com/kilroybot/kilroy-module-pytorch-py-sdk/actions/workflows/docs.yaml)&lt;/div&gt;---## InstallingUsing `pip`:```shpip install kilroy-module-pytorch-py-sdk```## Usage```pythonfrom kilroy_module_pytorch_py_sdk import BasicModule, ModuleServerclass MyModule(BasicModule):    ... # Implement all necessary methods heremodule = await MyModule.build()server = ModuleServer(module)await server.run(host=&quot;0.0.0.0&quot;, port=11000)```</longdescription>
+</pkgmetadata>

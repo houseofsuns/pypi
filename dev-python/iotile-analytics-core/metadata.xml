@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>IOTile Analytics Core----------------------IOTile Analytics Core provides classes for pulling data from iotile.cloud intoa standard data science environment.  In particular it natively maps data intonumpy and pandas as appropriate and provides functions to select data.  Itworks well with a Jupyter Notebook based analysis environment, through thefunctionality can be used in any python environment.The IOTile Analytics package is broken into multiple parts of whichiotile-analytics-core is one.  You should install the additional parts that you need foryour use cases.Installation:```pip install -U iotile_analytics-core```</longdescription>
+</pkgmetadata>

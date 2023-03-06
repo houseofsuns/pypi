@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pymorphy2-dicts-uk=======================================Ukrainian dictionaries for `pymorphy2`_... _pymorphy2: https://github.com/kmike/pymorphy2Installation------------Install::    $ pip install pymorphy2-dicts-ukUsage-----To use these dictionaries with pymorphy2 create MorphAnalyzerwith ``lang='uk'`` parameter:&gt;&gt;&gt; import pymorphy2&gt;&gt;&gt; morph = pymorphy2.MorphAnalyzer(lang='uk')To get a path to the installed dictionary data use``pymorphy2_dicts_uk.get_path()`` method.Development-----------The main repo is https://github.com/kmike/pymorphy2-dicts/. The repositorydoesn't contain the data itself: only package template and updatescripts are stored in VCS.License for Python code in this package is MIT.The data is licensed under`Creative Commons Attribution-Share Alike &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;`_.</longdescription>
+</pkgmetadata>

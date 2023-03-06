@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![Build Status](https://travis-ci.com/adamb70/mdx-breakless-lists.svg?branch=master)](https://travis-ci.com/adamb70/mdx-breakless-lists)# Breakless Lists Markdown ExtensionUse lists without requiring a line break above them, as in [GitHub flavoured markdown](https://github.github.com/gfm/#example-283).This markdown:&gt; ```&gt; This text comes before the list&gt; - list item 1&gt; - list item 2&gt; ``` renders as this HTML:&gt; ```&gt; &lt;p&gt;This text comes before the list&lt;/p&gt;&gt; &lt;ul&gt;&gt; &lt;li&gt;list item 1&lt;/li&gt;&gt; &lt;li&gt;list item 2&lt;/li&gt;&gt; &lt;/ul&gt;&gt; ```## Installation`pip install mdx-breakless-lists`## Usage```pythonfrom markdown import markdownhtml = markdown(text, extensions=['mdx_breakless_lists'])```</longdescription>
+</pkgmetadata>

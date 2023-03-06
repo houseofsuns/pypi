@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Production Routing Module#########################The production routing module defines the routings for production: Routing,Step and Operation.Routing*******Routings are a list of steps to follow with one of the BOMs to produce aproduct.Step****Steps define the operation to perform at a specific point of the routing.Operation*********An operation is a generic action.</longdescription>
+</pkgmetadata>

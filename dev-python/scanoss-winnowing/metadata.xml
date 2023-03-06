@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># SCANOSS Winnowing Python PackageThe SCANOSS Winnowing python package provides fast implementation of the winnowing algorithm.## InstallationTo install (from [pypi.org](https://pypi.org/project/scanoss_winnowing)), please run:```bashpip3 install scanoss_winnowing```To upgrade an existing installation please run:```bashpip3 install --upgrade scanoss_winnowing```### Package UsageThe **scanoss_winnowing** package can be used in Python projects/scripts. A good example of how to consume it can be found [here](https://github.com/scanoss/scanoss.py/blob/main/src/scanoss/scanner.py).In general the easiest way to consume it is to import the required module as follows:```pythonfrom scanoss_winnowing.winnowing import Winnowingdef main():    winnowing = Winnowing()    filename = 'test-file.c'    winnowing.wfp_for_file(filename,filename)    if __name__ == &quot;__main__&quot;:    main()```## RequirementsPython 3.7 or higher.## Source codeThe source for this package can be found [here](https://github.com/scanoss/scanoss-winnowing.py).## ChangelogDetails of each release can be found [here](https://github.com/scanoss/scanoss-winnowing.py/blob/main/CHANGELOG.md).</longdescription>
+</pkgmetadata>

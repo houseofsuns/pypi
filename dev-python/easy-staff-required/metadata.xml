@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Easy Staff RequiredA simple Django decorator to restrict view access to staff users.## InstallationInstall the package using pip:```bashpip install easy-staff-required```## UsageAfter installing the package, you can use the `@staff_required` decorator in your Django views to restrict access to staff users. Here's an example:```pythonfrom django.shortcuts import renderfrom easy_staff_required import staff_required@staff_requireddef my_view(request):    return render(request, &quot;my_template.html&quot;)```The @staff_required decorator checks if the user is authenticated and has the is_staff attribute set to True. If the user is not a staff member, a PermissionDenied exception is raised.You can also use the @staff_required decorator in combination with Django's built-in @login_required decorator:```pythonfrom django.contrib.auth.decorators import login_requiredfrom easy_staff_required import staff_required@login_required@staff_requireddef my_view(request):    return render(request, &quot;my_template.html&quot;)```</longdescription>
+</pkgmetadata>

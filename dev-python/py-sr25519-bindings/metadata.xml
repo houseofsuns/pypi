@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># py-sr25519-bindingsPython bindings for sr25519 library: https://github.com/w3f/schnorrkelReference to https://github.com/LocalCoinSwap/kusama-reference-implementation/tree/improve-trading-tests/bindings and https://gitlab.com/kauriid/schnorrpy/ for the initial work ## Documentationhttps://docs.rs/py-sr25519-bindings## Installation### Install from PyPI```pip install py-sr25519-bindings```### Compile for local development```pip install -r requirements.txtmaturin develop```### Build wheels```pip install -r requirements.txt# Build local OS wheelmaturin build# Build manylinux1 wheeldocker build . --tag polkasource/maturindocker run --rm -i -v $(pwd):/io polkasource/maturin build```## Usage ```pythonimport bip39import sr25519message = b&quot;test&quot;# Get private and public key from seedseed = bip39.bip39_to_mini_secret('daughter song common combine misery cotton audit morning stuff weasel flee field','')public_key, private_key = sr25519.pair_from_seed(bytes(seed))# Generate signaturesignature = sr25519.sign(    (public_key, private_key),    message)print('Signature', signature.hex())# Verify message with signatureif sr25519.verify(signature, message, public_key):    print('Verified')```## Licensehttps://github.com/polkascan/py-sr25519-bindings/blob/master/LICENSE</longdescription>
+</pkgmetadata>

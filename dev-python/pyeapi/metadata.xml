@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>The Python Client for eAPI==========================The Python Client for eAPI (pyeapi) is a native Python library wrapper aroundArista EOS eAPI.  It provides a set of Python language bindings for configuringArista EOS nodes.The Python library can be used to communicate with EOS either locally(on-box) or remotely (off-box). It uses a standard INI-style configuration fileto specify one or more nodes and connection profiles.The pyeapi library also provides an API layer for building native Pythonobjects to interact with the destination nodes. The API layer is a convenientimplementation for working with the EOS configuration and is extensible fordeveloping custom implementations.This library is freely provided to the open source community for buildingrobust applications using Arista EOS. Support is provided as best effortthrough Github issues.</longdescription>
+</pkgmetadata>

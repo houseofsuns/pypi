@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;h2&gt;牙城-DB&lt;/h2&gt;&lt;h3&gt;DB&lt;/h3&gt;* PostgresHelper - contains all basic commands with logging. Select-command supports simple caching. Can be useful with  any query language like Pypika.* DatabaseError - simple DB exception.* Singleton - simple implementation of singleton used in DB helper to prevent unnecessary propagation of connections. </longdescription>
+</pkgmetadata>

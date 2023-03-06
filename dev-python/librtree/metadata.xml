@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>The librtree-python package===========================A Python native extension implementing the R-tree spatialindex of Guttman-Green.  The code is an embedded version of`librtree &lt;http://soliton.vm.bytemark.co.uk/pub/jjg/en/code/librtree/&gt;`_.Dependencies------------Just `Jansson &lt;http://www.digip.org/jansson/&gt;`_: this common librarymay be in your operating-system's repositories. On Debian, Ubuntu andderivatives:.. code-block:: sh   apt-get install libjansson-devOn RedHat, CentOS:.. code-block:: sh    yum install jansson-develOn OSX:.. code-block:: sh    brew install janssonOne does not need to install `librtree` itself, the library-code isembedded within the package.Install the package from PyPI-----------------------------Run.. code-block:: sh   python3 -m pip install librtreeand you should be ready to go.Use the RTree class-------------------Add.. code-block:: python   from librtree import RTreeto your Python code.  See the`documentation &lt;https://librtree-python.readthedocs.io/&gt;`_ for detailson usage.</longdescription>
+</pkgmetadata>

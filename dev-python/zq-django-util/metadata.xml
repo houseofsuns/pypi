@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;div align=&quot;center&quot;&gt;# zq-django-util**自强 Studio Django 工具**&lt;!-- markdownlint-disable-next-line MD036 --&gt;&lt;/div&gt;&lt;p align=&quot;center&quot;&gt;  &lt;a href=&quot;https://github.com/Nagico/zq-django-util/actions/workflows/code_check.yml&quot;&gt;    &lt;img src=&quot;https://github.com/Nagico/zq-django-util/actions/workflows/code_check.yml/badge.svg&quot; alt=&quot;CI&quot;&gt;  &lt;/a&gt;  &lt;a href=&quot;https://zq-django-util.readthedocs.io/en/latest/?badge=latest&quot;&gt;    &lt;img src=&quot;https://readthedocs.org/projects/zq-django-util/badge/?version=latest&quot; alt=&quot;Documentation Status&quot; /&gt;  &lt;/a&gt;  &lt;a href=&quot;https://codecov.io/gh/Nagico/zq-django-util&quot; &gt;    &lt;img src=&quot;https://codecov.io/gh/Nagico/zq-django-util/branch/master/graph/badge.svg&quot; alt=&quot;cov&quot;/&gt;  &lt;/a&gt;  &lt;a href=&quot;https://pypi.org/project/zq-django-util/&quot;&gt;  &lt;img src=&quot;https://img.shields.io/pypi/v/zq-django-util&quot; alt=&quot;pypi&quot;&gt;  &lt;/a&gt;&lt;/p&gt;&lt;!-- markdownlint-enable MD033 --&gt;[English Version](README_EN.md)## 简介zq-django-util 是用于辅助搭建 django-drf 应用的工具集合，其中包含：- 标准异常、响应处理- jwt、微信认证- oss 存储与直传- 默认分页类- 测试 ViewSet详细文档：[zq-django-util.readthedocs.io](https://zq-django-util.readthedocs.io/)## 依赖需求- Python 3.8+- Django 3.2+- Django REST framework 3.12+**强烈建议**使用官方支持的最新版本，当前的测试环境为：Python 3.10, Django 4.1, DRF 3.14## 安装- 安装 zq-django-util 包使用 `pip` 安装：```shellpip install zq-django-util```使用 `poetry` 安装：```shellpoetry add zq-django-util```## 使用可以根据以下说明进行配置，以启用相关功能。[使用文档](docs/usage)## 开发本项目使用 Poetry 进行依赖管理，Pytest 进行单元测试。[开发文档](docs/development)</longdescription>
+</pkgmetadata>

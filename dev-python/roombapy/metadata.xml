@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># roombapy[![CI](https://github.com/pschmitt/roombapy/actions/workflows/ci.yaml/badge.svg)](https://github.com/pschmitt/roombapy/actions/workflows/ci.yaml)![PyPI](https://img.shields.io/pypi/v/roombapy)![PyPI - Downloads](https://img.shields.io/pypi/dm/roombapy)![PyPI - License](https://img.shields.io/pypi/l/roombapy)Unofficial iRobot Roomba python library (SDK).Fork of [NickWaterton/Roomba980-Python](https://github.com/NickWaterton/Roomba980-Python)This library was created for the [Home Assistant Roomba integration](https://www.home-assistant.io/integrations/roomba/).# Installation```shellpip install roombapy```# NotesThis library is only for firmware 2.x.x [Check your robot version!](http://homesupport.irobot.com/app/answers/detail/a_id/529) Only local connections are supported.# How to get your username/blid and passwordTo get password from Roomba type in console:```shell$ roomba-password &lt;ip&gt;```It will find your Roomba in local network, then follow the instructions in console to get password.If IP address not provided password will be request for auto discovered robot. Also you can just ask Roomba for info:```shell$ roomba-discovery &lt;optional ip address&gt;```To test connection with iRobot:```shell$ roomba-connect &lt;ip&gt; &lt;password&gt;```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>```Utilsgit hash : https://github.com/arita37/adatasets/tree/17d2cb7f831c41fde032024205963d2b2f6f0686```</longdescription>
+</pkgmetadata>

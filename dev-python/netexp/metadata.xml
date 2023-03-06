@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># netexpPython library to automate network experiments.**Under initial development. The API may break at any point.**&lt;!-- ## ExamplesHere is a simple experiment that uses DPDK pktgen.```python``` --&gt;</longdescription>
+</pkgmetadata>

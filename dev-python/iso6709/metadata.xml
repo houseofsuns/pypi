@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>ISO 6709========This is a package for converting ISO6709 formatted strings into decimal representation.Formats=======This library supports the following DMS formats:- ``±DD.DDDD±DDD.DDDD/`` -  Latitude and Longitude in Degrees- ``±DDMM.MMMM±DDDMM.MMMM/`` - Latitude and Longitude in Degrees and Minutes- ``±DDMMSS.SSSS±DDDMMSS.SSSS/`` - Latitude and Longitude in Degrees, Minutes and SecondsAs well as the standard altitude/height suffix: ``±AAAA``Usage=====    &gt;&gt;&gt; from iso6709 import Location    &gt;&gt;&gt; loc = Location('+27.5916+086.5640+8850/') # Mount Everest    &gt;&gt;&gt; print (loc.lat.degrees, loc.lng.degrees, loc.alt    27.5916 86.5640 8850Changelog=========0.1.5 (2019-07-01)------------------* Update license clause to SPDX format0.1.4 (2019-06-28)------------------* Add support for negative altitudes (thanks @pistatium!)* Bumped development versions for security fixes0.1.3 (2017-08-25)------------------* Fix an issue where rst files weren't included in source pkg.0.1.2 (2017-08-25)------------------* First release on PyPI.</longdescription>
+</pkgmetadata>

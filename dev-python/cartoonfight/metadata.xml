@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Cartoon FightCartoon Fight is a 2D battle game to play against your friendswith your favorites cartoon characters.## Install`$ pip install cartoonfight` Cartoon Fight works with Python 3.6+.To **update** it just run `$ pip install --upgrade cartoonfight`.## PlayJust run `$ cartoonfight`.## Game Controls :video_game:Player One `A` Left, `W` Jump, `D` Right, `F` Attack Player Two&amp;#8592; Left &amp;#8593; Jump &amp;#8594; Right `CTRL` Attack## CreditsProgrammed byKilian Melcher :email: kilian.melcher@gmail.comFilipe Ramalho :email: filiperamalhodasilva@gmail.comArtwork byIsabella Lúcio :email: isabella.lucio1@gmail.com</longdescription>
+</pkgmetadata>

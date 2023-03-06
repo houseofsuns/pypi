@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image:: https://github.com/mosquito/pytest-rst/workflows/tests/badge.svg   :target: https://github.com/mosquito/pytest-rst/actions?query=workflow%3Atests   :alt: Actions.. image:: https://img.shields.io/pypi/v/pytest-rst.svg   :target: https://pypi.python.org/pypi/pytest-rst/   :alt: Latest Version.. image:: https://img.shields.io/pypi/wheel/pytest-rst.svg   :target: https://pypi.python.org/pypi/pytest-rst/.. image:: https://img.shields.io/pypi/pyversions/pytest-rst.svg   :target: https://pypi.python.org/pypi/pytest-rst/.. image:: https://img.shields.io/pypi/l/pytest-rst.svg   :target: https://pypi.python.org/pypi/pytest-rst/pytest-rst run python tests in ReStructuredText===============================================Code block must have ``:name:`` attribute starts with ``test_``.Example-------This block will running as a pytest test-case:.. code-block:: rst    .. code-block:: python        :name: test_first        assert True.. code-block:: python    :name: test_first    assert TrueThis block just not running:.. code-block:: rst    .. code-block:: python        # not a test        assert False.. code-block:: python    # not a test    assert FalseVersioning----------This software follows `Semantic Versioning`_.. _Semantic Versioning: http://semver.org/</longdescription>
+</pkgmetadata>

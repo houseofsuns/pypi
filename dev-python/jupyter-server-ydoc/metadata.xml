@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Jupyter Server YDoc[![Build Status](https://github.com/jupyter-server/jupyter_server_ydoc/actions/workflows/test.yml/badge.svg?query=branch%3Amain++)](https://github.com/jupyter-server/jupyter_server_ydoc/actions?query=branch%3Amain++)Jupyter Server YDoc is a Jupyter Server Extension providing support for Y documents.## Installation and Basic usageTo install the latest release locally, make sure you have[pip installed](https://pip.readthedocs.io/en/stable/installing/) and run:    pip install jupyter_server_ydocJupyter Server YDoc currently supports Python&gt;=3.6 on Linux, OSX and Windows.### TestingSee [CONTRIBUTING](./CONTRIBUTING.rst#running-tests).## ContributingIf you are interested in contributing to the project, see [CONTRIBUTING](./CONTRIBUTING.rst).</longdescription>
+</pkgmetadata>

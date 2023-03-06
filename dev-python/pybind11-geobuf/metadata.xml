@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># geobuf&lt;!--intro-start--&gt;C++ port of &lt;https://github.com/mapbox/geobuf&gt;,and with python binding.## Python bindingInstall```bash# from pypipip install -U pybind11_geobuf# from sourcegit clone --recursive https://github.com/cubao/geobuf-cpppip install ./geobuf-cpp# or justpip install git+https://github.com/cubao/geobuf-cpp.git```(you can build wheels for later reuse by ` pip wheel git+https://github.com/cubao/geobuf-cpp.git`)See `tests/test_geobuf.py` for usage.## DependenciesAll dependencies are header-only, including:-   [`rapidjson`](https://github.com/Tencent/rapidjson) for JSON read/write-   [`geojson-cpp`](https://github.com/district10/geojson-cpp) for GeoJSON representation    -   dependencies        -   [`variant`](https://github.com/mapbox/variant)        -   [`geometry.hpp`](https://github.com/district10/geometry.hpp)    -   forked from mapbox, with some modifications to `geojson-cpp` and `geometry.hpp`        -   added `z` to mapbox::geojson::point        -   added `custom_properties` to geometry/feature/feature_collection-   [`protozero`](https://github.com/mapbox/protozero) for protobuf encoding/decoding*[`dbg-macro`](https://github.com/sharkdp/dbg-macro) and [`doctest`](https://github.com/onqtam/doctest) are dev dependencies.*Simple roundtrip tests pass, have identical results to JS implementation.&lt;!--intro-end--&gt;## Developmentpull all code:```bashgit submodule update --init --recursive```compile &amp; test:```bashmake buildmake test_allmake roundtrip_test_jsmake roundtrip_test_cpp```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>The logutils package provides a set of handlers for the Python standardlibrary's logging package.Some of these handlers are out-of-scope for the standard library, andso they are packaged here. Others are updated versions which haveappeared in recent Python releases, but are usable with older versionsof Python and so are packaged here.The source code repository is at:https://bitbucket.org/vinay.sajip/logutils/Documentation is available at:https://logutils.readthedocs.io/https://pythonhosted.org/logutils/</longdescription>
+</pkgmetadata>

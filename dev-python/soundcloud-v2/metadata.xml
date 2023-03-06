@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># soundcloud.py[![Tests](https://github.com/7x11x13/soundcloud.py/actions/workflows/ci.yml/badge.svg)](https://github.com/7x11x13/soundcloud.py/actions/workflows/ci.yml)[![Coverage Status](https://coveralls.io/repos/github/7x11x13/soundcloud.py/badge.svg?branch=main)](https://coveralls.io/github/7x11x13/soundcloud.py?branch=main)Python wrapper for some of the v2 SoundCloud API## Installation```bashpip install soundcloud-v2```## Example```pythonfrom soundcloud import SoundCloudsc = SoundCloud(&quot;client_id&quot;, &quot;auth_token&quot;)assert sc.is_client_id_valid()assert sc.is_auth_token_valid()me = sc.get_user_by_username(&quot;7x11x13&quot;)assert me.permalink == &quot;7x11x13&quot;```## License[MIT](https://choosealicense.com/licenses/mit/)</longdescription>
+</pkgmetadata>

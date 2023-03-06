@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## YamzAn easy way to manage environment specific configurations.### Requirements- Python &gt;=3.6### Why Yamz?All the other names I managed to think of were already taken, so... here we are.### How to useI recommend using environments names such as: `production`, `development`, etc.,Also, if you would like to include variables from your environment, make sure to add a `$` prefix (`$HOME`) and Yamz will make sure it's included.Note: `global` settings will be available in all environments- `pip install yamz`- Configure your environment in `config.yaml` (requires PyYAML)    ```yaml    global:      TEST: some_test    production:      HOME: $HOME      MYSQL_DB_HOST: 1.2.3.4      MYSQL_DB_PASS: $MYSQL_DB_PASS    ```- Configure your environment in `config.json`    ```json    {      &quot;global&quot;: {        &quot;TEST&quot;: &quot;some_test&quot;      },      &quot;production&quot;: {        &quot;HOME&quot;: &quot;$HOME&quot;,        &quot;MYSQL_DB_HOST&quot;: &quot;1.2.3.4&quot;,        &quot;MYSQL_DB_PASS&quot;: &quot;$MYSQL_DB_PASS&quot;      }    }     ``````pythonimport osfrom yamz import Yamzfrom yamz.providers.default import YamlProvider, JsonProviderbase = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))path = os.path.join(base, 'config.yaml')env = Yamz(path, provider=YamlProvider) # or JsonProviderprod_env = env.load(&quot;production&quot;)prod_env.MYSQL_DB_HOST # 1.2.3.4prod_env.YAMZ_ENV # production```### ContributionsIf you'd like to contribute and make Yamz better, feel free to open up a PR.I'll review it at my earliest convenience!</longdescription>
+</pkgmetadata>

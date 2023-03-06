@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Import packages from the root of a monorepoInstructions:1. First create a file named `.monorepo_root` at the root of your monorepo.2. Use `monorepo.load_package` to load packages from anywhere in your monorepo.Example usage:```pythonimport monorepo# The `load_package` function will search up from the current directory for a# file named `.monorepo_root`, which is used to determine the root directory# from which to load `example.package.foo`:foo = monorepo.load_package(&quot;example.package.foo&quot;)# The foo package can be used directly:foo.bar_function()# We can also import other subpackages:from foo.bar import baz```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># homelypyA thin wrapper for the Homely alarm company API# Data dumpThis can be used to easily extract a data dump from the API. Simply clone the repository or install from pypi (pip install homelypy) and run```shellpython3 -m homelypy.homely &lt;username&gt;```You will be prompted for a password, then it will dump all the locations and associated sensors in the system. It is gathered inappropriate location_&lt;location_name&gt;.json for convenience.# Building and packaging```shellrm -R distpython3 -m buildpython3 -m twine upload dist/* --verbose```</longdescription>
+</pkgmetadata>

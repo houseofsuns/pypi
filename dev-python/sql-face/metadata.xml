@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>::: {.cell 0=‘h’ 1=‘i’ 2=‘d’ 3=‘e’}``` pythonfrom sql_face.core import *```:::# sql-face&gt; Saves face image attributes in SQL database.This file will become your README and also the index of yourdocumentation.## Install``` shpip install sql_face```## How to useFill me in please! Don’t forget code examples:``` python1+1```    2</longdescription>
+</pkgmetadata>

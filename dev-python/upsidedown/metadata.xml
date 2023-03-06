@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>==========Upsidedown==========Upsidedown is a simple Python module that &quot;flips&quot; latin characters in astring to create an &quot;upside-down&quot; impression. It makes extensive use of compatible latin characters as encoded in Unicode.Example=======    &gt;&gt;&gt; import upsidedown    &gt;&gt;&gt; print upsidedown.transform('hello world!')    ¡pꞁɹoʍ oꞁꞁǝɥInstalling==========Run the following to deploy the library on your system::    $ python setup.py installThis does not only install the library but also registers an executable file(on Win32 systems as ``upsidedown.exe`` in ``C:\Python26\Scripts\``).Command line============You can also easily use this software on the command line::    $ echo hello world\! | upsidedown    ¡pꞁɹoʍ oꞁꞁǝɥ</longdescription>
+</pkgmetadata>

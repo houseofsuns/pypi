@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># atqo[![Documentation Status](https://readthedocs.org/projects/atqo/badge/?version=latest)](https://atqo.readthedocs.io/en/latest)[![codeclimate](https://img.shields.io/codeclimate/maintainability/endremborza/atqo.svg)](https://codeclimate.com/github/endremborza/atqo)[![codecov](https://img.shields.io/codecov/c/github/endremborza/atqo)](https://codecov.io/gh/endremborza/atqo)[![pypi](https://img.shields.io/pypi/v/atqo.svg)](https://pypi.org/project/atqo/)Async Task Queue Orchestrator (task) properties can have arbitrary limits(actor) capabilities must have linear limits - based on (global) resourceswith - complex resource manager- flexible abstractions for schedulers, actors, resources and resource limitscame from [aswan](https://github.com/endremborza/aswan), as part of [sscub](https://sscu-budapest.github.io/) ecosystem cleanup</longdescription>
+</pkgmetadata>

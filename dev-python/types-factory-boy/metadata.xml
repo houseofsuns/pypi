@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## Typing stubs for factory-boyThis is a PEP 561 type stub package for the `factory-boy` package.It can be used by type-checking tools like mypy, PyCharm, pytype etc. to check codethat uses `factory-boy`.### Installation```shellpip install types-factory-boy```</longdescription>
+</pkgmetadata>

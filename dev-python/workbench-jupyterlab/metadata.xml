@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># workbench_jupyterlabThe workbench_jupyterlab JupyterLab plugin provides features for integrating JupyterLab with Posit Workbench. ## Features* Provides a button on the main toolbar that will bring the user to the Posit Workbench homepage* Provides the command &quot;Return to Posit Workbench Home&quot; that can be accessed through the Command Palette to bring the user to the Posit Workbench homepage.* Provides a &quot;Proxied Servers&quot; sidebar view that allows users to access their remote servers from Posit Workbench environments.## Requirements* JupyterLab &gt;= 3.0## InstallTo install the extension, execute:```bashpip install workbench_jupyterlab```## UninstallTo remove the extension, execute:```bashpip uninstall workbench_jupyterlab```</longdescription>
+</pkgmetadata>

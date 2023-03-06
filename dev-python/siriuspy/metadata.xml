@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>INSTALL - siriuspy==================This package can be installed using setuptools (&gt;=16.0).There is no automatic dependency checking, so read the list below and ensure necessary dependencies are available.Developed and tested with Python 3 (3.4).REQUIREMENTS============TESTS=====To run the unittest suite: ```command   cd siriuspy   ./setup.py test```To run a specific unittest subpacke:```command   cd siriuspy   ./setup.py test -s tests.search```INSTALLATION============To install to a default Python directory, run```command    &lt;python&gt; setup.py install```Use the appropriate command in &lt;python&gt;. Depending on permissions, it may benecessary to run the command with sudo or as superuser.To install a development version, with a link to the local package files in thedefault Python directory, run```command    &lt;python&gt; setup.py develop```Details and further options can be found in setuptools documentation.</longdescription>
+</pkgmetadata>

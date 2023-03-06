@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>### Логгер#### Совместная работа [loguru](https://loguru.readthedocs.io) &amp; [rich](https://rich.readthedocs.io).[Screenshot logger](https://disk.yandex.ru/i/JexFefETxnJavA)  [Screenshot logger2](https://disk.yandex.ru/i/ubvT0kZbfS-Guw)![Screenshot logger](wiki/logrich_screenshot.png?raw=True &quot;Screenshot&quot;)----![Screenshot logger too](wiki/logrich_screenshot2.png?raw=True &quot;Screenshot&quot;)Уровень вывода исключений определяется в переменных окружения.Цвета, ширины и шаблоны вывода также могут быть определены в окружении.Обработчики записей логов можно определять дополнительно, например запись в файл или отправка в канал.#### Использованиесмотри [тест](tests/test_1.py) #### Как развернуть:```shellgit clone cd logrichpoetry shellpoetry install# создаём окружениеcp template.env .env```#### Запустить тест(ы):```shellpytest# монитор тестовptw```</longdescription>
+</pkgmetadata>

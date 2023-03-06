@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># django-view-tablePlugin to create view table in Django.  This plugin enable you to create view table in Django model.  ## Support Database* SQLite3* PostgreSQL* MySQL* (TBC)Oracle Database## Installation &amp; Setup```pip install django-view-table```After install, you can set your `INSTALLED_APPS````pythonINSTALLED_APPS = [    'viewtable',]```## Usage### Create modelYou need the three step.* Import `view_table` module* Inherit `ViewTable`* Impliment `get_query` methodThe method `get_query` should return select sql statement.  You can write sql statement as raw sql or django model object.  This is a simple example.  ```pythonfrom django.db import modelsfrom view_table.models import ViewTable# Base tableclass Book(models.Model):    name = models.CharField(max_length=100)    category = models.CharField(max_length=100)# View tableclass Books(ViewTable):    category = models.CharField(max_length=100)    count = models.IntegerField()    # You must implement get_query method.    @classmethod    def get_query(self):        return Book.objects.values('category').annotate(count=models.Count('category')).query        # You can also write:        # return 'SELECT &quot;polls_book&quot;.&quot;category&quot;, COUNT(&quot;polls_book&quot;.&quot;category&quot;) AS &quot;count&quot; FROM &quot;polls_book&quot; GROUP BY &quot;polls_book&quot;.&quot;category&quot;' ``` ### Run commandAfter Django migration, you can create view tables the below command.  ```bashpython manage.py createviewtable```## DevelopmentI prepare application for this plugin application.  * https://github.com/pyohei/django-view-table## LicenseMIT</longdescription>
+</pkgmetadata>

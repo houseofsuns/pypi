@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Docker registry jss storage driverThis is a [docker-registry backend driver][registry-core] for [jss Cloud Storage][jss].## Usage (recommendation)Go to [jss Cloud Storage](http://www.JAE.JD.com/) to get your access_key first.Run docker-registry service by docker container## Usage via pip```# Install pipapt-get -y install python-pip# finallypip install jss docker-registry-driver-jss</longdescription>
+</pkgmetadata>

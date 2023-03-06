@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Non-official Pinata.cloud libraryFor more information about [Pinata.cloud](pinata.cloud) go to the official [documentation](https://pinata.cloud/documentation#GettingStarted)## WarningIt's experimental development for my own purpose. Probably I'll finish error handling, add comments and publish it on PyPi.But at the moment use it as it is. In the end it's just a hundred of lines =)`options` doesn't work yet## Installation```pip install pinatapy-vourhey```## Usage```from pinatapy import PinataPypinata = PinataPy(&lt;pinata_api_key&gt;, &lt;pinata_secret_api_key&gt;)```Look at the `__init__.py` file to find out about api calls</longdescription>
+</pkgmetadata>

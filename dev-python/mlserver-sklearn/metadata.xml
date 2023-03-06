@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Scikit-Learn runtime for MLServerThis package provides a MLServer runtime compatible with Scikit-Learn.## UsageYou can install the runtime, alongside `mlserver`, as:```bashpip install mlserver mlserver-sklearn```For further information on how to use MLServer with Scikit-Learn, you can checkout this [worked out example](../../docs/examples/sklearn/README.md).## Content TypesIf no [content type](../../docs/user-guide/content-type) is present on therequest or metadata, the Scikit-Learn runtime will try to decode the payload asa [NumPy Array](../../docs/user-guide/content-type).To avoid this, either send a different content type explicitly, or define thecorrect one as part of your [model'smetadata](../../docs/reference/model-settings).</longdescription>
+</pkgmetadata>

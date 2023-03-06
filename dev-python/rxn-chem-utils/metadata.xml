@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># RXN chemistry utilities package[![Actions tests](https://github.com/rxn4chemistry/rxn-chemutils/actions/workflows/tests.yaml/badge.svg)](https://github.com/rxn4chemistry/rxn-chemutils/actions)This repository contains various chemistry-related Python utilities used in the RXN universe.For general utilities not related to chemistry, see our other repository [`rxn-utilities`](https://github.com/rxn4chemistry/rxn-utilities).The documentation can be found [here](https://rxn4chemistry.github.io/rxn-chemutils/).## System RequirementsThis package is supported on all operating systems. It has been tested on the following systems:+ macOS: Big Sur (11.1)+ Linux: Ubuntu 18.04.4A Python version of 3.6 or greater is recommended.## Installation guideThe package can be installed from Pypi:```bashpip install rxn-chem-utils```For local development, the package can be installed with:```bashpip install -e .[dev]```The `RDKit` dependency is not installed automatically and can be installed via Conda or Pypi:```bash# Install RDKit from Condaconda install -c conda-forge rdkit# Install RDKit from Pypipip install rdkit# for Python&lt;3.7# pip install rdkit-pypi```</longdescription>
+</pkgmetadata>

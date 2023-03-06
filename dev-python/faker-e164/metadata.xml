@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Faker Provider for E164 Phone Numbers`pip install faker-e164`## Usage```pythonfrom faker import Fakerfrom faker_e164.providers import E164Providerfake = Faker()fake.add_provider(E164Provider)# To actually fake an e164 phone numberfake.e164()```## ContributingContributions for faker-e164 are welcomed by the community. If you are looking for issues to work on, please visit [the issues tab](https://github.com/crowdcomms/faker-e164/issues). If you have an idea for an improvement, please submit an new issue and allow some time for discussion before starting any work on a PR. If you get stuck please don't hesitate to start a discussion with the project maintainers.</longdescription>
+</pkgmetadata>

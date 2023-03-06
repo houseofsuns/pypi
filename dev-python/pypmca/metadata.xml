@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>The ``pyPM.ca`` population modeller (www.pyPM.ca) describes connected systems withdiscrete-time difference equations. It was developed specificallyto understand and characterize the CoViD-19 epidemic.A ``pyPM.ca`` model is built by connecting a set of population objects withconnector objects. The connectors represent either a transfer that occursimmediately at the next time stepor one which is delayed and distributed in time. Eachpopulation object retains a record of its size at each time step, and alsomaintains a list of future contributions, arising from delayed transfersfrom other populations.Calculations of population size are done either in terms of expectation values or simulated data,allowing the model to be used for both analysis and simulation.</longdescription>
+</pkgmetadata>

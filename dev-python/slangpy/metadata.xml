@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Slang-Python PackageThis package allows you to use Slang as a language to writePyTorch kernels.Slang user guide: https://shader-slang.com/slang/user-guide/slangpy documentation: https://shader-slang.com/slang/user-guide/a1-02-slangpy.html</longdescription>
+</pkgmetadata>

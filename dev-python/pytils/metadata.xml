@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Pytils------Pytils is a Russian-specific string utils(transliteration, numeral is words, russian dates, etc)-----Pytils это инструменты для работы с русскими строками (транслитерация, числительные словами, русские даты и т.д.)</longdescription>
+</pkgmetadata>

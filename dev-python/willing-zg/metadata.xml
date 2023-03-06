@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># willing_zgWilling specific plugins for Zygoat&lt;img src=&quot;https://user-images.githubusercontent.com/640862/81694571-7a08eb00-942f-11ea-87f9-c419cb4f8900.jpg&quot; /&gt;## How does it work?`willing-zg` works by adding additional components for `zygoat` to use when installing or upgrading a repository. These are components that the Willing team wants in every application, but might not be appropriate for every `zygoat` application.## How do I use it?Make sure `zygoat` is installed. Then install `willing-zg`:```bashpip install --user --upgrade /path/to/willing-zg```Go to your application directory and update the `zygoat_settings.yml` file to include the additional components.```extras:    - willing_zg:component_name    - willing_zg:other_component_name```Then run a zygoat update to install the new components.```bashzg update```</longdescription>
+</pkgmetadata>

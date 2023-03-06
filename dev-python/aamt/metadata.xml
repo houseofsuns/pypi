@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## AAMT 项目模版&gt; 用于生成 基于pytest的接口自动化脚手架python 版本&gt; 3.9安装最新版本&gt; pip install aamt指定版本安装&gt; pip install aamt==0.2.2升级aamt&gt; pip install -U aamt创建项目脚手架 &gt; aamt startproject demo创建项目脚手架(自动创建虚拟环境)&gt; aamt startproject demo -venv外网速度慢，pandas可能安装失败，推荐用国内镜像&gt; pip --default-timeout=6000 install -i https://pypi.tuna.tsinghua.edu.cn/simple aamt</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># PROMINENCE Command Line Interface![License](https://img.shields.io/github/license/prominence-eosc/cli)[![PyPI version shields.io](https://img.shields.io/pypi/v/prominence.svg)](https://pypi.python.org/pypi/ansicolortags/)The PROMINENCE CLI presents a simple batch-system style interface to PROMINENCE. Written in Python, it can be installed easily on any system using pip:```pip install prominence```To upgrade the CLI the `--upgrade` option needs to be added:```pip install --upgrade prominence```See https://prominence-eosc.github.io/docs/ for more information.</longdescription>
+</pkgmetadata>

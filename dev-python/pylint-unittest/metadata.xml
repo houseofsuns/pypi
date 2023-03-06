@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pylint-unittest===============.. image:: https://travis-ci.org/federicobond/pylint-unittest.svg?branch=master    :alt: Build Status    :target: https://travis-ci.org/federicobond/pylint-unittest.. image:: https://img.shields.io/pypi/v/pylint-unittest.svg    :alt: Latest Version    :target: https://pypi.python.org/pypi/pylint-unittestAbout-----``pylint-unittest`` is a `Pylint &lt;http://pylint.org&gt;`__ plugin fordetecting incorrect use of unittest assertions.Installation------------::   pip install pylint-unittestUsage-----Ensure ``pylint-unittest`` is installed and then execute:::   pylint --load-plugins pylint_unittest [..other options..] &lt;path_to_your_sources&gt;Alternatively, add ``load_plugins=pylint_unittest`` to your ``pylintrc``file, under the MASTER section.Rules-----wrong-assertion~~~~~~~~~~~~~~~This rule will complain if you use assertEqual with True, False or Noneas arguments instead of the respective ``assertTrue``, ``assertFalse``,``assertIsNone``.deprecated-unittest-alias~~~~~~~~~~~~~~~~~~~~~~~~~This rule will complain if you use a deprecated unittest alias. See`here &lt;https://docs.python.org/2/library/unittest.html#deprecated-aliases&gt;`__for more information.License-------GPL-3.0</longdescription>
+</pkgmetadata>

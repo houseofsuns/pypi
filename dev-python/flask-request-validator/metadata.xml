@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Flask Request Validator=======================Simply request validator for Flask. See `readme`_Installation------------    $ pip install flask_request_validator.. _readme: https://github.com/d-ganchar/flask_request_validator</longdescription>
+</pkgmetadata>

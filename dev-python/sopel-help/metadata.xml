@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>==========sopel-help==========Sopel plugin ``.help`` command::    [Exirel]: .help help    [Sopel]: Generate help for Sopel's commands.    [Sopel]: e.g. .help help or .helpInstall=======The recommanded way to install this plugin is to use ``pip``::    $ pip install sopel-helpNote that this plugin requires Python 3.7+ and Sopel 7.1+.Configure=========As with many other plugins, you can use ``sopel-config`` to launch theconfiguration wizard, like so::    $ sopel-plugins configure helpDon't forget to use the ``-c &lt;config-name&gt;`` option to select the right config.Providers=========There are several providers built-in with this plugin:* ``base`` (the default): basic provider; it outputs help directly to the user* ``local``: it generates an HTML file and outputs an URL; you have to  install and configure your own origin server to serve that file* ``clbin``, ``0x0``, ``termbin``: all these providers post a plain-text file  to a pastebin service and then output the resulting URL</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Cassandra CQL 3 Object Mapper for Python[Documentation](https://cqlengine.readthedocs.org/en/latest/)[Report a Bug](https://github.com/bdeggleston/cqlengine/issues)[Users Mailing List](https://groups.google.com/forum/?fromgroups#!forum/cqlengine-users)</longdescription>
+</pkgmetadata>

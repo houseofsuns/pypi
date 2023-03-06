@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>``aioymaps`` is an asynchronous library provides API to fetch json informationabout transport stops from Yandex MapsRequirements============``aioymaps`` requires python 3.5 or higher due to async/await syntax and aiohttplibraryInstallation============Use pip to install the library:::    pip install aioymapsOr install manually.::    sudo python ./setup.py installUsage=====::    from aioymaps import YandexMapsRequester    requester = YandexMapsRequester()    data = await requester.get_stop_info('stop__10067199')    print(data)Or you can use it in your shell:::    python -m aioymaps -s group__219</longdescription>
+</pkgmetadata>

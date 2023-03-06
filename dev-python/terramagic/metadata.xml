@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Terramagic CLI## MotivationEvery time , I needed create a terraform files to a new project, and a new terraform files., but this is not good. and now we have a Terramagic tool to help us to create a terraform files.## Requirements- Python 3.8 &gt;=## How to install?```shellpip install terramagic```## Check the version```bashterramagic --version```### Create a new project```shellterramagic create --name &lt;project name&gt; --env &lt;env&gt;``````shellterramagic create --name terraform --env prod --env dev```### Delete a project```shellterramagic delete --name &lt;project name&gt;```### Check if all terraform files configuration are valid.```shellterramagic check --name &lt;project name&gt;```## How to use this tool ?```shellUsage: terramagic [OPTIONS] COMMAND [ARGS]...  ClI tool to create Terraform projectOptions:  -v, --version  Show version  --help         Show this message and exit.Commands:  check   Check all files inside a Terraform project are valid.  create  Create a new Terraform project with specified name and environment  remove  Delete the project```Enjoy!</longdescription>
+</pkgmetadata>

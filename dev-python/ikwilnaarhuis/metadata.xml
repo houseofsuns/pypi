@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=============ikwilnaarhuis=============A (cross-platform) Python CLI tool to help people who feel like 'IK WIL NAAR HUIS'... image:: ./src/ikwilnaarhuis.jpegUsage===========``ikwilnaarhuis````ikwilnaarhuis 9 15``runs ikwilnaarhuis with ``ikwilnaarhuis -t 9 15``runs ikwilnaarhuis with ``ikwilnaarhuis -t 9 15 -l 60````ikwilnaarhuis -v`` or ``ikwilnaarhuis --version``</longdescription>
+</pkgmetadata>

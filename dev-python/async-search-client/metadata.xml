@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Async Search Client⚠️ This project has been renamed to meilisearch-python-async and moved to the[meilisearch-python-async](https://github.com/sanders41/meilisearch-python-async) repository. All ofthe functionality remains the same in meilisearch-python-async and development continues from wherewhere this package left off. ⚠️</longdescription>
+</pkgmetadata>

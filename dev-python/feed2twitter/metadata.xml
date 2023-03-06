@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>============Feed2Twitter============Feed2twitter updates a twitter account from a xml feed.It's a free alternative to services like Twitterfeed.To install feed2twitter:1. install python-twitter:  http://code.google.com/p/python-twitter/1. install feedparser:  http://www.feedparser.org/Install it with: python setup.py installRunning:--------* You need to set your feed and your twitter account.* You need to create a configuration file. You can see a sample with the command *feed2twitter -p*. It will looks like: ::        [global]        url = http://example.com/rss        username = twitter_user        password = twitter_password        mode = text        interval = 01:00        items = 5The url is the url for the feed that you want to publish, mode can be 'text' (140 chars of your post text) or 'title' (your post title, with a link). The interval is the interval in which the feed2twitter will publish your last posts. In the sample, feed2twitter will check the provided feed each hour.Run it with the command feed2twitter. It will update your twitter with your latest posts, in the interval that you have set.Kudos to Gleicon da Silveira (http://zenmachine.wordpress.com/about/), that give me a idea of the code in a post of his blog.You can contact me at walter@waltercruz.com. Have fun!</longdescription>
+</pkgmetadata>

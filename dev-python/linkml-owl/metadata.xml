@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># linkml-owlTranslates between LinkML instance data to OWL (TBoxes and ABoxes)See [linkml.io/linkml-owl](https://linkml.io/linkml-owl/)</longdescription>
+</pkgmetadata>

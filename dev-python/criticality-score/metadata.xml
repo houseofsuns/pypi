@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Open Source Project Criticality Score (Beta)The Python version of Criticality Score is deprecated and will no longer receiveupdates.A Go version exists and is under active development and should be used instead.See https://github.com/ossf/criticality_score for more details.</longdescription>
+</pkgmetadata>

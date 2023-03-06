@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![](https://img.shields.io/badge/Python-3.10-blue.svg)]()[![](https://img.shields.io/badge/Documentation-unfinished-orange.svg)]()[![](https://img.shields.io/badge/build-passing-green.svg)]()# GFAgraphsThis package aims to be an abstraction layer for GFA file format.Its a simple, convinient but lack-luster library to extract informations from GFA files, be it as the graph or line level.Main features are :+ **Record** (line-level) and **Graph** (file-level) abstractions+ Full decoding of **GFA tags** (standard+optional)+ **pip**-installable (`pip install gfagraphs`)+ **networkx** integration</longdescription>
+</pkgmetadata>

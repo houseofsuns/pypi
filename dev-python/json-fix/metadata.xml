@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># What is this?A pip module that let you define a `__json__` method, that works like the `toJSON` from JavaScript.&lt;br&gt;(e.g. it magically gets called whenever someone does `json.dumps(your_object)`)From a technical perspective, this module is a safe, backwards-compatible, reversable patch to the built-in python `json` object that allows classes to specify how they should be serialized.# Why?Because sometimes external code uses something like```pythonimport jsonjson.dumps(list_containing_your_object)```And it simply throws an error no matter how you customize your object# How do I use this?`pip install json-fix````pythonimport json_fix # import this before the JSON.dumps gets called# same file, or different fileclass YOUR_CLASS:    def __json__(self):        # YOUR CUSTOM CODE HERE        #    you probably just want to do:        #        return self.__dict__        return &quot;a built-in object that is natually json-able&quot;```If you want control over classes that are defined externally (datetime, numpy.array, tensor, etc), use the override_table```pythonimport json_fix # import this before the JSON.dumps gets calledimport jsonimport pandas as pdSomeClassYouDidntDefine = pd.DataFrame# create a boolean function for identifying the classclass_checker = lambda obj: isinstance(obj, SomeClassYouDidntDefine)# then assign it to a function that does the convertingjson.override_table[class_checker] = lambda obj_of_that_class: json.loads(obj_of_that_class.to_json())json.dumps([ 1, 2, SomeClassYouDidntDefine() ], indent=2)```</longdescription>
+</pkgmetadata>

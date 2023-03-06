@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>**kirUI** is a framework for building user interfaces.Issues======- Ha a modal nincs nyitva, de a szerver 200-as válasszal tér vissza, akkor a modal link egy csúnya hibát dob. Jó lenne figyelmeztetni a felhasználót, hogy a backenden 403-mmal kell visszatérni.</longdescription>
+</pkgmetadata>

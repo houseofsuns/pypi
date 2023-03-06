@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Leven=====Levenshtein edit distance library for Python, Apache-licensed.Written by Lars Buitinck, Netherlands eScience Center, with contributionsfrom Isaac Sijaranamual, University of Amsterdam.Performs distance computations on either byte strings or Unicode codepoints.Installation------------Make sure you have Cython and a C++ compiler installed::    pip install cythonInstalling a C++ compiler is so platform-dependent that I won't showinstructions. Consult your package manager.Then::    python setup.py installTo run the tests, but not to actually use leven, you need six and Nose.Usage-----    &gt;&gt;&gt; from leven import levenshtein    &gt;&gt;&gt; levenshtein(&quot;hello, world!&quot;, &quot;goodbye, cruel world!&quot;)    13About the implementation------------------------The core algorithms have been implemented in C++. I used this instead of Cto get templates, easier memory management and a better standard library,so the C++ code probably looks C-ish.Todo----* Implement Ukkonen's algorithm for bounded Levenshtein distance* Implement Levenshtein automata for fast neighbor search in string spaces* Implement weighted Levenshtein distance</longdescription>
+</pkgmetadata>

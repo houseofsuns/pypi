@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Sardana is a Supervision, Control And Data Acquisition (SCADA) system for scientific installations. It is written in Python and based on the TANGO library. The hardware control and data acquisition routines can be accessed via an IPython console and a generic graphical user interface (both of which are easily extensible by the user).</longdescription>
+</pkgmetadata>

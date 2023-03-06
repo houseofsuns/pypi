@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>*******************************************New FastAPI-based Book Server for Runestone*******************************************The BookServer is a next-generation server for the `Runestone platform &lt;https://runestone.academy/&gt;`_. The goal of this project is to replace the parts of the web2py-based RunestoneServer. For more information, see the `full documentation &lt;https://bookserver.readthedocs.io/en/latest/&gt;`_.We would love development help on this; see the `developer docs &lt;https://bookserver.readthedocs.io/en/latest/docs/dev_toctree.html&gt;`_.TODO: A nice image of a book or something eye-catching.</longdescription>
+</pkgmetadata>

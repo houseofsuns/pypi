@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>enum-compat===========This is a virtual package, its whole purpose is to install enum34 onPython older than 3.4. On Python 3.4+ it's a no-op.</longdescription>
+</pkgmetadata>

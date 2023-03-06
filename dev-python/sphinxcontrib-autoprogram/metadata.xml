@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>``sphinxcontrib.autoprogram``=============================.. image:: https://badge.fury.io/py/sphinxcontrib-autoprogram.svg   :target: https://pypi.org/project/sphinxcontrib-autoprogram/   :alt: Latest PyPI version.. image:: https://readthedocs.org/projects/sphinxcontrib-autoprogram/badge/   :target: https://sphinxcontrib-autoprogram.readthedocs.io/   :alt: Documentation Status.. image:: https://github.com/sphinx-contrib/autoprogram/workflows/Build%20and%20Test/badge.svg?branch=master   :target: https://github.com/sphinx-contrib/autoprogram/actions   :alt: Build StatusThis contrib extension, ``sphinxcontrib.autoprogram``, provides an automatedway to document CLI programs.  It scans ``argparse.ArgumentParser`` object,and then expands it into a set of ``.. program::`` and ``.. option::``directives.Install using ``pip``:.. code-block:: console   $ pip install sphinxcontrib-autoprogramYou can find the documentation from the following URL:https://sphinxcontrib-autoprogram.readthedocs.io/</longdescription>
+</pkgmetadata>

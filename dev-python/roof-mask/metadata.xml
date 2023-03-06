@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>v0.5.3: backend errors (coded as 11, 21, 31, and 41) from image vender and geo-coding vender are raised as exceptions and passed back to the caller. v0.5.4: minor bugfix.</longdescription>
+</pkgmetadata>

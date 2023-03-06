@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># visual-novel-toolkit [![build](https://img.shields.io/github/actions/workflow/status/proofit404/visual-novel-toolkit/release.yml?branch=release&amp;style=flat-square)](https://github.com/proofit404/visual-novel-toolkit/actions/workflows/release.yml?query=branch%3Arelease) [![pypi](https://img.shields.io/pypi/v/visual-novel-toolkit?style=flat-square)](https://pypi.org/project/visual-novel-toolkit)A set of useful tools to improve DX of visual novel games.**[Documentation](https://proofit404.github.io/visual-novel-toolkit) |[Source Code](https://github.com/proofit404/visual-novel-toolkit) |[Task Tracker](https://github.com/proofit404/visual-novel-toolkit/issues)**![](index.jpg)## QuestionsIf you have any questions, feel free to create an issue in our[Task Tracker](https://github.com/proofit404/visual-novel-toolkit/issues). Wehave the[question label](https://github.com/proofit404/visual-novel-toolkit/issues?q=is%3Aopen+is%3Aissue+label%3Aquestion)exactly for this purpose.## Enterprise supportIf you have an issue with any version of the library, you can apply for a paidenterprise support contract. This will guarantee you that no breaking changeswill happen to you. No matter how old version you're using at the moment. Allnecessary features and bug fixes will be backported in a way that serves yourneeds.Please contact [proofit404@gmail.com](mailto:proofit404@gmail.com) if you'reinterested in it.## License`visual-novel-toolkit` library is offered under the two clause BSD license.</longdescription>
+</pkgmetadata>

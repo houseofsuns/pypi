@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>django-oauth2-provider======================.. image:: https://travis-ci.org/caffeinehit/django-oauth2-provider.png?branch=master*django-oauth2-provider* is a Django application that providescustomizable OAuth2\-authentication for your Django projects.`Documentation &lt;http://readthedocs.org/docs/django-oauth2-provider/en/latest/&gt;`_`Help &lt;https://groups.google.com/d/forum/django-oauth2-provider&gt;`_License=======*django-oauth2-provider* is released under the MIT License. Please see the LICENSE file for details.</longdescription>
+</pkgmetadata>

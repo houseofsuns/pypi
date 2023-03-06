@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![Build Status](https://github.com/ladybug-tools/honeybee-display/workflows/CI/badge.svg)](https://github.com/ladybug-tools/honeybee-display/actions)[![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/downloads/release/python-370/) [![Python 2.7](https://img.shields.io/badge/python-2.7-green.svg)](https://www.python.org/downloads/release/python-270/) [![IronPython](https://img.shields.io/badge/ironpython-2.7-red.svg)](https://github.com/IronLanguages/ironpython2/releases/tag/ipy-2.7.8/)# honeybee-displayAdds methods and a CLI to translate honeybee objects to VisualizationSets.## Installation```consolepip install -U honeybee-display```If you want to also include all dependencies needed to produce VTK visualizationsfrom honeybee Models use.```consolepip install -U honeybee-display[full]```To check if the command line interface is installed correctly use `honeybee-display --help`## QuickStart```pythonimport honeybee_display```## [API Documentation](http://ladybug-tools.github.io/honeybee-display/docs)## Local Development1. Clone this repo locally```consolegit clone git@github.com:ladybug-tools/honeybee-display# orgit clone https://github.com/ladybug-tools/honeybee-display```2. Install dependencies:```consolecd honeybee-displaypip install -r dev-requirements.txtpip install -r requirements.txt```3. Run Tests:```consolepython -m pytest tests/```4. Generate Documentation:```consolesphinx-apidoc -f -e -d 4 -o ./docs ./honeybee_displaysphinx-build -b html ./docs ./docs/_build/docs```</longdescription>
+</pkgmetadata>

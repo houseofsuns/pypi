@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This is a collection of Peter Williams' miscellaneous Python tools. I'm    packaging them so that other people can install them off of PyPI and run    my code without having to go to too much work. That's the hope, at least.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Allows to easily index CMS pages and push them to algolia.### UsageInstall as `pip install djangocms-algolia`.Add the following variables to settings.py:```pythonINSTALLED_APPS = [    'djangocms_algolia',    'algoliasearch_django',]ALGOLIA = {    'APPLICATION_ID': env.get('ALGOLIA_APPLICATION_ID', ''),    'API_KEY': env.get('ALGOLIA_API_KEY', '')}# not used, but django-haystack requires it to be preset in settings.pyHAYSTACK_CONNECTIONS = {'default': {'ENGINE': 'haystack.backends.simple_backend.SimpleEngine'}}```You can exclude plugins from indexing by adding them to `settings.ALDRYN_SEARCH_EXCLUDED_PLUGINS`.You can also limit the CMS pages content using `settings.ALGOLIA_SEARCH_INDEX_TEXT_LIMIT`.### Render plain text from CMS placeholdersThis package also includes a function that helps to index django models which utilize `PlaceholderField`.You can use it as following:```pythonfrom djangocms_algolia.utils.render import render_text_from_placeholderclass CustomModel(Model):    placeholder = PlaceholderField('Content')    def description(self) -&gt; str:        return render_text_from_placeholder(self.placeholder)```</longdescription>
+</pkgmetadata>

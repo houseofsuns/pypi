@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># playaudio`pip install playaudio`A cross platform solution for playing a sound in MacOS/Windows/Linux.[![MacOS_Tests](https://github.com/zackees/playaudio/actions/workflows/push_macos.yml/badge.svg)](https://github.com/zackees/playaudio/actions/workflows/push_macos.yml)[![Ubuntu_Tests](https://github.com/zackees/playaudio/actions/workflows/push_ubuntu.yml/badge.svg)](https://github.com/zackees/playaudio/actions/workflows/push_ubuntu.yml)[![Win_Tests](https://github.com/zackees/playaudio/actions/workflows/push_win.yml/badge.svg)](https://github.com/zackees/playaudio/actions/workflows/push_win.yml)[![Linting](https://github.com/zackees/playaudio/actions/workflows/lint.yml/badge.svg)](https://github.com/zackees/playaudio/actions/workflows/lint.yml)## InstallUses the built in system commands to play audio.# Usage### Python```pythonfrom playaudio import playaudioplayaudio(&quot;my.mp3&quot;)  # blocks until sound is played.```### Command line```bash&gt; pip install playaudio&gt; playaudio &quot;my.mp3&quot;&gt; playaudio # plays an included bell.mp3 sound.```# DevelopPR's are welcome!To develop software git clone the repo then run `. ./activate.sh`# WindowsThis environment requires you to use `git-bash`. This library expects a sound card to be installed. If you are running on a server then you will need to install a virtual sound card. See [windows setup here](.github/workflows/push_win.yml).# LintingRun `./lint.sh` to find linting errors using `pylint`, `flake8` and `mypy`.# Releases:  * 1.0.4: Windows: Supports playing mp3 files  * 1.0.3: Adds ignore_errors=True for playaudio()  * 1.0.2: BELL_FILE -&gt; BELL_MP3  * 1.0.1: Fix readme  * 1.0.0: Initial release</longdescription>
+</pkgmetadata>

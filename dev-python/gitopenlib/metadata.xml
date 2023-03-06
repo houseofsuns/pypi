@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># GitOPENLibThis library contains Python code snippets THAT I often use.If you need it, you can install it with the `pip install gitopenlib` command.**May goodness live on forever.**Powered by GitOPEN.</longdescription>
+</pkgmetadata>

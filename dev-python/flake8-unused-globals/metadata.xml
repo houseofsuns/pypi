@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># flake8-unused-globalsA flake8 plugin that checks for unused global variables.This package adds the following warnings:- `UUG001`: An unused global variable.There are no configuration options at this time.</longdescription>
+</pkgmetadata>

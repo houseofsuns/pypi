@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># InitCommerce Common UtilitiesThis project includes common libraries and utilities to avoid depending onthird party libraries. It aims to increase the abstraction by providing thedependencies through a layer that can be evolved without hassle.</longdescription>
+</pkgmetadata>

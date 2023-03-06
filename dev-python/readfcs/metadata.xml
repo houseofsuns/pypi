@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![Stars](https://img.shields.io/github/stars/laminlabs/readfcs?logo=GitHub&amp;color=yellow)](https://github.com/laminlabs/readfcs)[![codecov](https://codecov.io/gh/laminlabs/readfcs/branch/main/graph/badge.svg?token=6A5PYRX809)](https://codecov.io/gh/laminlabs/readfcs)[![pypi](https://img.shields.io/pypi/v/readfcs?color=blue&amp;label=pypi%20package)](https://pypi.org/project/readfcs)[![doi](https://img.shields.io/badge/doi-10.56528%2Frfcs-lightgrey)](https://doi.org/10.56528/rfcs)# readfcs: Read FCS files_A lightweight open-source Python package that loads data and metadata from Flow Cytometry Standard (FCS) files into DataFrame and AnnData objects._Read the [docs](https://lamin.ai/docs/readfcs), [report](https://lamin.ai/reports/2022/readfcs).</longdescription>
+</pkgmetadata>

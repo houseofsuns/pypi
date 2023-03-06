@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>color-matcher enables color transfer across images which comes in handy for automatic color-gradingof photographs, paintings and film sequences as well as light-field and stopmotion corrections. The methods behindthe mappings are based on the approach from Reinhard et al., the Monge-Kantorovich Linearization (MKL) as proposed byPitie et al. and our analytical solution to a Multi-Variate Gaussian Distribution (MVGD) transfer in conjunction withclassical histogram matching. As shown below our HM-MVGD-HM compound outperforms existing methods.</longdescription>
+</pkgmetadata>

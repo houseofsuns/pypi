@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># bgen-readerA [bgen file format](http://www.well.ox.ac.uk/~gav/bgen_format/) reader.Bgen is a file format for storing large genetic datasets.It supports both unphased genotypes and phased haplotype data with variableploidy and number of alleles. It was designed to provides a compact datarepresentation without sacrificing variant access performance.This python package is a wrapper around the [bgen library](https://github.com/limix/bgen),a low-memory footprint reader that efficiently reads bgen files.It fully supports the bgen format specifications: 1.2 and 1.3;as well as their optional compressed formats.## InstallIt can be installed via [conda](https://conda.io/docs/)```bashconda install -c conda-forge bgen-reader```Or via pip```bashpip install bgen-reader```## DocumentationPlease, refer to [https://bgen-reader.readthedocs.io](https://bgen-reader.readthedocs.io).## Troubleshooting### fatal error: bgen.h: No such file or directoryThis means that bgen C library is not installed (or could not be found). Please,follow the instructions in &lt;https://github.com/limix/bgen&gt; to install it, and tryinstalling bgen-reader again.## ProblemsIf you encounter any issue, please, [submit it](https://github.com/limix/bgen-reader-py/issues/new).## Authors* [Danilo Horta](https://github.com/horta)## LicenseThis project is licensed under the [MIT License](https://raw.githubusercontent.com/limix/bgen-reader-py/main/LICENSE.md).</longdescription>
+</pkgmetadata>

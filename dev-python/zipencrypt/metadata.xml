@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>zipencrypt==========zipencrypt is a Python module to provide *weak* password-basedencryption for zipfiles. It is meant as a drop-in replacement forzipfile from the standard lib and provides the counterpart to thedecryption implemented there.It is implemented in pure python and does not rely on any 3rd party libraries.Compatible to python 2.7 and 3.4+Installation------------::    pip install zipencryptThe code--------.. code:: python    from zipencrypt import ZipFile    with ZipFile(&quot;file.zip&quot;, mode=&quot;w&quot;) as f:        f.writestr(&quot;file1.txt&quot;, &quot;plaintext&quot;, pwd=b&quot;password&quot;)Do not use this!----------------The standard encryption of ZIP is known to be seriously flawed (see`here &lt;https://en.wikipedia.org/wiki/Zip_(file_format)#Encryption&gt;`_).That is probably the reason why it is not implemented in zipfile in thestandard lib. There are however legitimate use cases.</longdescription>
+</pkgmetadata>

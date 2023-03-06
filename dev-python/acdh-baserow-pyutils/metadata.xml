@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![flake8 Lint](https://github.com/acdh-oeaw/acdh-baserow-pyutils/actions/workflows/lint.yml/badge.svg)](https://github.com/acdh-oeaw/acdh-baserow-pyutils/actions/workflows/lint.yml)[![Test](https://github.com/acdh-oeaw/acdh-baserow-pyutils/actions/workflows/test.yml/badge.svg)](https://github.com/acdh-oeaw/acdh-baserow-pyutils/actions/workflows/test.yml)[![codecov](https://codecov.io/github/acdh-oeaw/acdh-baserow-pyutils/branch/main/graph/badge.svg?token=8B1K7Y36HN)](https://codecov.io/github/acdh-oeaw/acdh-baserow-pyutils)[![PyPI version](https://badge.fury.io/py/acdh-baserow-pyutils.svg)](https://badge.fury.io/py/acdh-baserow-pyutils)# acdh-baserow-pyutilsa python client for baserow## install`pip install acdh-baserow-client`## how to useHave a look into `tests/test_baserow_client.py`### dump all tables of a given database into JSON-FILES```pythonimport osfrom acdh_baserow_utils import BaseRowClient# store baserow credentials as ENV-VariablesBASEROW_USER = os.environ.get(&quot;BASEROW_USER&quot;)BASEROW_PW = os.environ.get(&quot;BASEROW_PW&quot;)BASEROW_TOKEN = os.environ.get(&quot;BASEROW_TOKEN&quot;) # you need to create a token via baserowDATABASE_ID = &quot;41426&quot; # you can get this ID from Baserow# initialize the clientbr_client = BaseRowClient(BASEROW_USER, BASEROW_PW, BASEROW_TOKEN)# writes all tables from Database as json.files into a folder 'out' (the folder needs to exist!) and returns a list of the file namesfiles = br_client.dump_tables_as_json(DATABASE_ID, folder_name='out')print(files)# ['out/place.json', 'out/person.json', 'out/profession.json']```</longdescription>
+</pkgmetadata>

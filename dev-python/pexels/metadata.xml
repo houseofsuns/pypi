@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pexels![PyPI - package version](https://img.shields.io/pypi/v/pexels?logo=pypi&amp;style=flat-square)![PyPI - license](https://img.shields.io/pypi/l/pexels?label=package%20license&amp;style=flat-square)![PyPI - python version](https://img.shields.io/pypi/pyversions/pexels?logo=pypi&amp;style=flat-square)![PyPI - downloads](https://img.shields.io/pypi/dm/pexels?logo=pypi&amp;style=flat-square)![GitHub - last commit](https://img.shields.io/github/last-commit/Zselter07/py_pexels?style=flat-square)![GitHub - commit activity](https://img.shields.io/github/commit-activity/m/Zselter07/py_pexels?style=flat-square)![GitHub - code size in bytes](https://img.shields.io/github/languages/code-size/Zselter07/py_pexels?style=flat-square)![GitHub - repo size](https://img.shields.io/github/repo-size/Zselter07/py_pexels?style=flat-square)![GitHub - lines of code](https://img.shields.io/tokei/lines/github/Zselter07/py_pexels?style=flat-square)![GitHub - license](https://img.shields.io/github/license/Zselter07/py_pexels?label=repo%20license&amp;style=flat-square)## DescriptionGet pexels video ids with selenium firefox## Install~~~~bashpip install pexels# orpip3 install pexels~~~~## Usage~~~~pythonfrom pexels import Pexelsfrom pexels.models.enums import Orientation, Sizepexels = Pexels()video_ids = pexels.get_video_ids(    'dogs',    videos_orientation=Orientation.HORIZONTAL,  # Optional    videos_size=Size.FOUR_K                     # Optional)~~~~## Dependencies[randomua](https://pypi.org/project/randomua), [selenium-firefox](https://pypi.org/project/selenium-firefox)</longdescription>
+</pkgmetadata>

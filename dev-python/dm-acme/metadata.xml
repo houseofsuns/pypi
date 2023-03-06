@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Acme is a library of reinforcement learning (RL) agentsand agent building blocks. Acme strives to expose simple, efficient,and readable agents, that serve both as reference implementations of popularalgorithms and as strong baselines, while still providing enough flexibilityto do novel research. The design of Acme also attempts to provide multiplepoints of entry to the RL problem at differing levels of complexity.For more information see [github repository](https://github.com/deepmind/acme).</longdescription>
+</pkgmetadata>

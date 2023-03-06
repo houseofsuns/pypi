@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># nb_black[![PyPI](https://img.shields.io/pypi/v/nb_black.svg)]()[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/nb_black.svg)]()A simple extension for Jupyter Notebook and Jupyter Lab to beautify Python code automatically using **Black**.Please note that since the **Black** package only supports Python 3.6+, so **YAPF** package willbe used for the lower versions. If you edit the code while running the cell, the formatting isnot submitted to the Jupyter notebook and instead silently suppressed, so you have to stick withthe edited, but unformatted code.## InstallationYou can install this package using [pip](http://www.pip-installer.org):```$ [sudo] pip install nb_black```## UsageFor Jupyter Notebook:```%load_ext nb_black```For Jupyter Lab:```%load_ext lab_black```Just put this code into the first cell in your Notebook, and that's all. :)</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># cli-commanderCLI commander is an easy-to-use python library for running CLI commands.All commands are supported on Linux Mint 21, and some commands are supported on othersystems too.**Very good packge! You can actually get the output of commands,assign command output to variables,print command output, and more!**# Pip installation:**Run this in your command prompt/shell:**```pip install cli_commander```# Importing cli-commanderHow to import cli-commander with no issues:```pythonimport cli_commander.commands```# cli-commander venvCreate a new virtual environment like this:```pythonimport cli_commander.commands as clicli.venv(&quot;MyExampleVenv&quot;).new()```Get into an existing virtual environment like this:```pythonimport cli_commander.commands as clicli.venv(&quot;MyExampleVenv&quot;).new()```You can leave a virtual environment using the venv.leave() function.Example:```pythonimport cli_commander.commands as climyVenv = cli.venv(&quot;MyExampleVenv&quot;).enter()myVenv.leave()```# Need help with the 117 more functions?**Run this:**```pythonimport cli_commander.commands as clihelp(cli)```# Thank you</longdescription>
+</pkgmetadata>

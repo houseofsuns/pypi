@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pyqwikswitch library====================[![CircleCI](https://circleci.com/gh/kellerza/pyqwikswitch.svg?style=svg)](https://circleci.com/gh/kellerza/pyqwikswitch)QwikSwitch USB Modem library for Python 3  See http://www.qwikswitch.co.za for more information on the Qwikswitch devices.  The library contains threaded and async interfaces and supports relays, buttons, LED dimmers and decoding of various [sensors](https://github.com/kellerza/pyqwikswitch/blob/master/pyqwikswitch/qwikswitch.py#L277)##  QSUsb class* Get a list of all devices &amp; values. *(http://localhost:2020/&amp;device)*  `QSUsb.devices()`  ```  [{&quot;id&quot;: &quot;@0c26e0&quot;,&quot;name&quot;: &quot;buitelig&quot;,&quot;type&quot;: &quot;rel&quot;,&quot;val&quot;: &quot;ON&quot;,        &quot;time&quot;: &quot;1460146507&quot;,&quot;rssi&quot;: &quot;45%&quot;},    .....]  ```* Long poll *(http://localhost:8080/&amp;listen)* for device changes and    button presses. This is non-blocking and should be stopped manually (`.stop()`)  `QSUsb.listen(callback)`* Set a specific device according to ID. (dim 5%) or 100 (on) *(http://localhost:8080/@0ac2f0=5)*  `QSUsb.set(id, value)`  Dimmers values can be adjusted to get a more linear behaviour by setting `dim_adj` between 1 - 2## Example usageSee [example.py](./example.py) for a basic usage and tests though the synchronous interface</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># e-drone* Install```&gt; pip install e_drone&gt; pip --no-cache-dir install e_drone```* Upgrade```&gt; pip install --upgrade e_drone```* Uninstall```&gt; pip uninstall e_drone```## Link* [PyPI E-Drone](https://pypi.org/project/e-drone/)* [Github Repository](https://github.com/byrobot-python/e_drone)* [Documents for E-Drone python library.](https://byrobot.github.io/documents/kr/products/e_drone/library/python/e_drone/)* [BYROBOT Dev](http://dev.byrobot.co.kr/)* [BYROBOT Forum](https://groups.google.com/d/forum/byrobot)* [Discord BYROBOT](https://discord.gg/UVVJMye)* [Youtube BYROBOT Channel](https://www.youtube.com/user/BYROBOTCO)* [Facebook BYROBOT](https://www.facebook.com/Byrobot.Drones)### BYROBOT</longdescription>
+</pkgmetadata>

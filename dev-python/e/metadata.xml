@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>For example::    $ python -me 1 + 1    2Like python -c but no need for a print. But wait, there's more.As a bonus, if the first argument is a module name then it will output thelocation of the module source code::    $ python -me os    /Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/os.pyIf you follow the name of the module with a command then the module will beopened with that command. For example, the following will open the os modulesource in vim::    $ python -me os vimThe &quot;e&quot; module recognises the special command names &quot;edit&quot; and &quot;view&quot; whichwill result in it looking up your editor and viewer commands in theenvironment variables $EDITOR and $PAGER respectively. The latter defaults to&quot;less&quot;. This is slightly easier than writing, for example::    $ vim `python -me os`... especially if you're going back to edit a previous &quot;python -me&quot; commandusing line editing.Also, &quot;python -me help&quot; is a shortcut to Python's interactive help mechanism.Idea from Georg Brandl. Foolishly implemented by Michael Foord and RichardJones.</longdescription>
+</pkgmetadata>

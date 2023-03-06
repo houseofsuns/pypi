@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Django-psycopg2-extensionLibrary contains django commands which helps to prepare and manage PostgreSQL database.## QuickstartInstall djjango-psycopg2-extension```bashpip install django-psycopg2-extension```Add psycopg2_extension to your `INSTALLED_APPS`:```pythonINSTALLED_APPS = [    # Django apps...    'psycopg2_extension',]```## Commands### psqlinitDjango command psqlinit create a database defined in django settings. You can define specific database settings with standard django ``DATABASE`` settings:```pythonDATABASES = {    'default': {        ...        'EXTENSIONS': ['postgis', 'unaccent'],  # extensions to be installed with psqlinit command        'SNAPSHOT_FILE': Path('data', 'sql', 'local', 'init_default.sql'), # SQL which will be loaded after database initialization    },}```Snapshot and extensions are automatically loaded when database is preparing for tests too.### psqlcleanPostgreSQL database requires often call `VACUUM` and `REINDEX`. The command `psqlclean` performs these operations. You can define specific database settings for psqlclean command with standard django ``DATABASE`` settings:```pythonDATABASES = {    'default': {        ...        'VACUUM': {            'EXCLUDE': ['users_user'],  # list of excluded tables            'TABLES': ['users_permission'],  # list of tables to vacuum, all tables are selected if the setting is not set            'TABLES_FULL': ['users_permission'],  # list of tables to vacuum full            'TABLES_REINDEX': ['users_permission'],  # list of tables to reindex        }    },}```### psqlsnapshotCommand which creates SQL dump with ``pg_dump`` script and store it to the database ``'SNAPSHOT_FILE'`` setting.</longdescription>
+</pkgmetadata>

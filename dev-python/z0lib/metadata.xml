@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>General purpose bash and python library for zeroincombenze(R) toolsFeatures:* xuname: unix/linux platform recognizer (tested on various environments)* parseoptargs: line command parser; expands python argparse and adds same functionalities to bash scripts* tracelog: manage tracelog (only bash)* findpkg: find package in file system (only bash)* run_traced: execute (or dry_run) shell command (only bash)* CFG: local dictionary values from config file like python ConfigParser (only bash)</longdescription>
+</pkgmetadata>

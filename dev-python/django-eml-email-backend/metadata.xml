@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>========================django-eml-email-backend========================Django has filebased email backend that is handy for inspectingoutgoing emails during development. But this backend saves emailsto '.log' files and it is not clear how to view them in email client.This is especially important for html emails.eml_email_backend saves outgoing emails to '.eml' files. This way emailscan be opened directly in MS Outlook or Mail.app or previewedin OS X Finder by simply pressing space over the file.Installation============::    $ pip install django-eml-email-backendUsage=====Setup the django email backend in your local_settings.py::    EMAIL_BACKEND = 'eml_email_backend.EmailBackend'    EMAIL_FILE_PATH = 'path/to/output/folder/'Limitations===========Full eml format is not supported, file extensions are just changedfrom &quot;.log&quot; to &quot;.eml&quot; by this app. It works in most cases. Patchesfor better eml support are welcome.See also: https://code.djangoproject.com/ticket/15793</longdescription>
+</pkgmetadata>

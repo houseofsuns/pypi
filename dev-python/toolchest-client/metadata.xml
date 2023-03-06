@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Toolchest Python Client**Toolchest** runs computational biology software in the cloud with just a few lines of code. You can call Toolchest from anywhere Python or R runs, using input files located on your computer or S3.This package contains the **Python** client for using Toolchest.For the **R** client, [see here](https://github.com/trytoolchest/toolchest-client-r).## [Documentation &amp; User Guide](https://docs.trytoolchest.com/)## InstallationThe Toolchest client is available [on PyPI](https://pypi.org/project/toolchest-client):``` shellpip install toolchest-client```## UsageUsing a tool in Toolchest is as simple as:``` pythonimport toolchest_client as toolchesttoolchest.set_key(&quot;YOUR_TOOLCHEST_KEY&quot;)toolchest.kraken2(  tool_args=&quot;&quot;,  inputs=&quot;path/to/input.fastq&quot;,  output_path=&quot;path/to/output.fastq&quot;,)```For a list of available tools, see the [documentation](https://docs.trytoolchest.com/tool-reference/about/).## ConfigurationTo use Toolchest, you must have an authentication key storedin the `TOOLCHEST_KEY` environment variable.``` pythonimport toolchest_client as toolchesttoolchest.set_key(&quot;YOUR_TOOLCHEST_KEY&quot;) # or a file path containing the key```Contact Toolchest if:-   you need a key-   you’ve forgotten your key-   the key is producing authentication errors.</longdescription>
+</pkgmetadata>

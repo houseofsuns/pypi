@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Arcus for Azure Machine LearningThis package for Python allows users to better collaborate around Azure MLOps and abstracts a lot of the complexities when running experiments and trainings locally or in the cloud.Support for- Remote tracking of experiments- Distributed training</longdescription>
+</pkgmetadata>

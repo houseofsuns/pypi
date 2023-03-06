@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=================Your Project Name=================.. image:: https://img.shields.io/travis//your-project-name.svg        :target: https://travis-ci.org//your-project-name.. image:: https://img.shields.io/pypi/v/your-project-name.svg        :target: https://pypi.python.org/pypi/your-project-namePython package for doing science.* Free software: Affero GNU Public Licence (AGPLv3)* Documentation: (COMING SOON!) https://.github.io/your-project-name.Features--------* TODO</longdescription>
+</pkgmetadata>

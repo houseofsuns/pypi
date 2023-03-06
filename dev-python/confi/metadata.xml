@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Comfortable python configs from environment variables.* Validated at **import time**. If you forgot a configuration variable you find out at startup.* One source of configuration for all application code. No more `flask_conf.cfg`, `myconfig.ini`, `.env`, hardcoded constants and variables from `docker-compose.yml`.* Type casting and validation at load time. Do it once and forget.# Quickstart```&gt;&gt;&gt; from confy import BaseEnvironConfig&gt;&gt;&gt; class Config(BaseEnvironConfig):...  DEBUG = ConfigField(processor=strtobool, default=True)...&gt;&gt;&gt; Config.DEBUGTrue```Loads variable `DEBUG` __at import time__ from environment, applies function `string_to_bool` to the value,If variable is not provided uses the default of `True`.# Config field options* `default` - default value, can be anything* `required` - boolean, default `False`. Throws `ConfigError` if value is required, but not provided.* `processor` - callable. Can be used to validate the value* `from_var` - specify environment variable to take value from. If none uses config class property name, __case is important__.# Mocking in testsSince its a global class that can't be instanced it's __very important__ to import it like this:```from package import moduleprint(module.ConfigClass.as_text())```and __not__ like this:```from package.module import ConfigClassprint(ConfigClass.as_text())```The first option allows you to monkey patch the config during testing.Pytest example:```from package.module import ConfigClassclass TestConfig(ConfigClass):    passTestConfig.TEST = Truemonkeypatch.setattr('package.module.ConfigClass', TestConfig)```All code accesing `module.ConfigClass` will get `TestConfig`.</longdescription>
+</pkgmetadata>

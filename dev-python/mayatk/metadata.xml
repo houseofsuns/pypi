@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>### MAYATK (Maya Toolkit)---&lt;!-- short_description_start --&gt;*mayattk is a collection of backend utilities for Autodesk Maya.*&lt;!-- short_description_end --&gt;### Installation:###### To install:Add the `mayatk` folder to a directory on your python path, orinstall via pip in a command line window using:```python -m pip install mayatk```### Example use-case:###### Import the class `Node` from the package.###### As the name suggests, the class `Node` holds the package's node related functions.```pythonfrom mayatk import NodeNode.isLocator(&lt;obj&gt;)```###### You can also import a function directly.```pythonfrom mayatk.Node import isGroupisGroup(&lt;obj&gt;)```</longdescription>
+</pkgmetadata>

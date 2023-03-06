@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Dt4testA library for distributed big data system test## Introduction ( main purpose )* TestCase running environment* TestCase viewing and tune* Assistance libs of network, container and data generator* Support monitor and warnning system* Offer period running task* Support performance test plan and execution* Unified test report generation* Bigdata components client* Bigdata components startup and revoke### Installation```pip install dt4test```### Get started* use ``dt`` comman ```commandline***********dt4test client***************Log file:/data1/dollarkv4/test_dir/output/dt4test.logModule Logger:可以通过传入log文件名，指定log文件，如果没有 ${PROJECT_DIR}环境变量，则放在 /tmp 目录下面Module Network:网络服务的公共库Module Base:基础的公共函数Module JsonP:处理复杂json的类，主要是用于查询，基于jmespath：https://jmespath.org/tutorial.htmlModule ConfigIni:INI 格式的配置文件的处理，get ，set ，if existsModule CaseRunner:Run Test Case```* import modules```Pythonfrom dt4test import networkhost = &quot;yourshost.com:8081&quot;payload = {&quot;bid&quot;:&quot;110&quot;, &quot;model_name&quot;:&quot;test_model&quot;}path = &quot;/master/querybid&quot;res = network.send_get_request(host, path, payload)assert(res.status_code == 200)print(res.content)```#### Get All Apis```Pythonfrom dt4test import networknetwork.help()```</longdescription>
+</pkgmetadata>

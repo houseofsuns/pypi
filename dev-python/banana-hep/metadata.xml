@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;p align=&quot;center&quot;&gt;  &lt;a href=&quot;https://n3pdf.github.io/banana/&quot;&gt;&lt;img alt=&quot;Banana&quot; src=&quot;https://raw.githubusercontent.com/N3PDF/banana/main/docs/_assets/logo.png&quot; width=700&gt;&lt;/a&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;  &lt;a href=&quot;https://github.com/N3PDF/banana/actions?query=workflow%3A%22unit+tests%22&quot;&gt;    &lt;img alt=&quot;Tests&quot; src=&quot;https://github.com/N3PDF/banana/workflows/unit%20tests/badge.svg&quot;&gt;  &lt;/a&gt;  &lt;a href='https://banana-hep.readthedocs.io/en/latest/?badge=latest'&gt;&lt;img src='https://readthedocs.org/projects/banana-hep/badge/?version=latest' alt='Documentation Status' /&gt;&lt;/a&gt;  &lt;a href=&quot;https://pypi.org/project/banana-hep/&quot;&gt;&lt;img alt=&quot;PyPI&quot; src=&quot;https://img.shields.io/pypi/v/banana-hep&quot;/&gt;&lt;/a&gt;  &lt;a href=&quot;https://doi.org/10.5281/zenodo.4247164&quot;&gt;&lt;img src=&quot;https://zenodo.org/badge/DOI/10.5281/zenodo.4247164.svg&quot; alt=&quot;DOI&quot;&gt;&lt;/a&gt;  &lt;a href=&quot;https://codecov.io/gh/N3PDF/banana&quot;&gt;    &lt;img src=&quot;https://codecov.io/gh/N3PDF/banana/branch/main/graph/badge.svg?token=L9XIAXV77R&quot;/&gt;  &lt;/a&gt;  &lt;a href=&quot;https://www.codefactor.io/repository/github/n3pdf/banana&quot;&gt;    &lt;img src=&quot;https://www.codefactor.io/repository/github/n3pdf/banana/badge?s=1f7766473570c0d6432d5a2d216498b09a50c2b5&quot; alt=&quot;CodeFactor&quot; /&gt;  &lt;/a&gt;&lt;/p&gt;# banana: Benchmarking AgaiNst Apfel aNd AnythingThis is the base package of ekomark and yadmark</longdescription>
+</pkgmetadata>

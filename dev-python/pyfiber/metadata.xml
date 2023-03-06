@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pyFiberObject-oriented fiber photometry and behavioral data analysis toolkit.## InstallationAvailable on [PyPi](https://pypi.org/project/pyfiber/).```bashpip install pyfiber```## DocumentationDetailed documentation and tutorials on [Read The Docs](https://pyfiber.readthedocs.io/en/latest/).</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># InfoSet of various scripts which were used in '19-'20 to operate some integrations in CI pipelines.It previously was distributed via PIP package, now it's a python-based Docker container.# Installation## HandyJust use a docker container, e.g.:```docker build . -t devops-integration-toolsdocker run --rm -ti devops-integration-tools```## ManualBuild a package:```pip install setuptools wheelpython ./setup.py  sdist bdist_wheel```Then upload to PyPI:```twine upload ./dist/*```Then install it somewhere:```pip install devops-integration-tools```</longdescription>
+</pkgmetadata>

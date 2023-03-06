@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;!--https://readme42.com--&gt;[![](https://img.shields.io/pypi/v/setupcfg.svg?maxAge=3600)](https://pypi.org/project/setupcfg/)[![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)### Installation```bash$ [sudo] pip install setupcfg```#### Related+   [`classifiers-generator` - classifiers generator](https://pypi.org/project/readme-docstring/)+   [`readme-badges` - `README.md` badges](https://pypi.org/project/readme-badges/)+   [`readme-docstring` - generate README.md from python docstrings](https://pypi.org/project/readme-docstring/)+   [`readme-generator` - `README.md` generator](https://pypi.org/project/readme-generator/)+   [`setupcfg-generator` - `setup.cfg` generator](https://pypi.org/project/setupcfg-generator/)+   [`travis-generator` - `.travis.yml` generator](https://pypi.org/project/travis-generator/)#### Links+   [metadata, options - setuptools documentation](http://setuptools.readthedocs.io/en/latest/setuptools.html#metadata)+   [Specifying values](http://setuptools.readthedocs.io/en/latest/setuptools.html#specifying-values)&lt;p align=&quot;center&quot;&gt;    &lt;a href=&quot;https://readme42.com/&quot;&gt;readme42.com&lt;/a&gt;&lt;/p&gt;</longdescription>
+</pkgmetadata>

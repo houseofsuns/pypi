@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This is GNU Mailman, a mailing list management system distributed under theterms of the GNU General Public License (GPL) version 3 or later.  The name ofthis software is spelled 'Mailman' with a leading capital 'M' but with a lowercase second 'm'.  Any other spelling is incorrect.</longdescription>
+</pkgmetadata>

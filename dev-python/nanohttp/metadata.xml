@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># nanohttpA very micro HTTP framework. [documentation](http://nanohttp.org)[![PyPI](http://img.shields.io/pypi/v/nanohttp.svg)](https://pypi.python.org/pypi/nanohttp)[![Gitter](https://badges.gitter.im//nanohttp.svg)](https://gitter.im/pylover/nanohttp)[![Build Status](https://travis-ci.org/pylover/nanohttp.svg?branch=master)](https://travis-ci.org/pylover/nanohttp)[![Coverage Status](https://coveralls.io/repos/github/pylover/nanohttp/badge.svg?branch=master)](https://coveralls.io/github/pylover/nanohttp?branch=master)## Contribution### BranchingA new branching model is applied to this repository, which consists of a master branch and release branches.#### Master branchThe master branch is an integration branch where bug fixes/features are gathered for compiling and functional testing.#### Release branchThe release branch is where releases are maintained and hot fixes (with names like release/v2.x.x) are added. Please ensure that all your production-related work are tracked with the release branches.With this new model, we can push out bug fixes more quickly and achieve simpler maintenance.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>useful_rdkit_utils==============================[//]: # (Badges)[![GitHub Actions Build Status](https://github.com/PatWalters/useful_rdkit_utils/workflows/CI/badge.svg)](https://github.com/PatWalters/useful_rdkit_utils/actions?query=workflow%3ACI)A collection of useful RDKit functions### Download```bashgit clone git@github.com:PatWalters/useful_rdkit_utils.git```### Installation```bashpip install useful_rdkit_utils```### Installing the latest development version```bashpip install git+https://github.com/PatWalters/useful_rdkit_utils```### Documentation[https://useful-rdkit-utils.rtfd.io](https://useful-rdkit-utils.rtfd.io)### DemosThe notebooks directory contains Jupyter notebooks that show how to use some of the functions in this collection.### ContributingI'm very open to PRs with corrections and/or contributions. ### CopyrightCopyright (c) 2021, Pat Walters### LicenseThe code in this package is licensed under the MIT License.### Acknowledgements Project based on the [Computational Molecular Science Python Cookiecutter](https://github.com/molssi/cookiecutter-cms) version 1.6.</longdescription>
+</pkgmetadata>

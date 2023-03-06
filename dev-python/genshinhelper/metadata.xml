@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># genshinhelperA Python library for miHoYo bbs and HoYoLAB Community.## InstallationVia pip:```pip install genshinhelper```Or via source code:```git clone https://github.com/y1ndan/genshinhelper2.gitcd genshinhelper2python setup.py install```## Basic Usage```pythonimport genshinhelper as ghcookie = 'account_id=16393939; cookie_token=jPjdK4yd7oeIifkdYhkFhkkjde00hdUgh'g = gh.Genshin(cookie)roles = g.roles_infoprint(roles)```</longdescription>
+</pkgmetadata>

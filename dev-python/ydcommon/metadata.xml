@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=========================YD Technology Common libs=========================.. image:: https://travis-ci.org/ArabellaTech/ydcommon.png?branch=master   :target: http://travis-ci.org/ArabellaTech/ydcommon.. image:: https://coveralls.io/repos/ArabellaTech/ydcommon/badge.png?branch=master   :target: https://coveralls.io/r/ArabellaTech/ydcommon/   .. image:: https://requires.io/github/ArabellaTech/ydcommon/requirements.svg?branch=master     :target: https://requires.io/github/ArabellaTech/ydcommon/requirements/?branch=master     :alt: Requirements StatusSystem Requirements===================- Python 2.7+Settings========- ``IGNORE_QUNIT_HTML_FILES`` ignore HTML qunits files- ``JSHINT_FILES_FIND`` JS Hint search files grep. Default ``-name &quot;*.js&quot; | xargs grep -l '/\*jslint' | grep -v libs``Views=====``QunitTestsView`` Qunit tests (stuff permission required), example entry in urls.py:::    url(r&quot;^js-tests/(?P&lt;path&gt;.*)&quot;, 'ydcommon.views.qunit_view', name='quinit'),Commands========Checking requirement for tests:::    ./manage.py check_test_requirementsRunning Qunit tests::    ./manage.py run_qunitRunning JS Hint::    ./manage.py jshintRunning JS Hint with custom directory::    ./manage.py jshint --dir=my/custom/dirClear database - drop all tables::    ./manage.py clear_databaseDump database::    ./manage.py dump_database</longdescription>
+</pkgmetadata>

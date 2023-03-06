@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>===========commentjson===========`commentjson` (Comment JSON) is a Python package that helps you create JSONfiles with Python and JavaScript style inline comments. Its API is very similarto the Python standard library's `json`_ module... _`json`: http://docs.python.org/2/library/json.html.. image:: https://travis-ci.org/vaidik/commentjson.pngInstallation============    pip install commentjsonBasic Usage===========.. code-block:: python    &gt;&gt;&gt; import commentjson    &gt;&gt;&gt;    &gt;&gt;&gt; json_string = &quot;&quot;&quot;{    ...     &quot;name&quot;: &quot;Vaidik Kapoor&quot;, # Person's name    ...     &quot;location&quot;: &quot;Delhi, India&quot;, // Person's location    ...    ...     # Section contains info about    ...     // person's appearance    ...     &quot;appearance&quot;: {    ...         &quot;hair_color&quot;: &quot;black&quot;,    ...         &quot;eyes_color&quot;: &quot;black&quot;,    ...         &quot;height&quot;: &quot;6&quot;    ...     }    ... }&quot;&quot;&quot;    &gt;&gt;&gt;    &gt;&gt;&gt; json_loaded = commentjson.loads(json_string)    &gt;&gt;&gt; print json_loaded    {u'appearance': {u'eyes_color': u'black', u'hair_color': u'black', u'height': u'6'}, u'name': u'Vaidik Kapoor', u'location': u'Delhi, India'}Documentation=============Complete documentation can be found `here`_... _`here`: http://commentjson.readthedocs.org/en/latest/Tests=====    python setup.py testLicense=======See `license`_... _`license`: https://github.com/vaidik/commentjson/blob/master/LICENSE.rst</longdescription>
+</pkgmetadata>

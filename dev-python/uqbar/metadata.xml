@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># uqbar[![](https://img.shields.io/pypi/pyversions/uqbar)]()[![](https://img.shields.io/pypi/l/uqbar)]()[![](https://img.shields.io/github/actions/workflow/status/josiah-wolf-oberholtzer/uqbar/test.yml?branch=main)]()Tools for creating Sphinx and Graphviz documentation.</longdescription>
+</pkgmetadata>

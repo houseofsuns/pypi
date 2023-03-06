@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>![PyPI](https://img.shields.io/pypi/v/deep-proto)![GitHub release (latest by date)](https://img.shields.io/github/v/release/intergral/go-deep-proto?label=golang)# Language Independent Interface Types For DEEPThe proto files can be consumed as GIT submodules or copied and built directly in the consumer project.The compiled files are published to central repositories (Maven, ...).## Generate gRPC Client LibrariesTo generate the raw gRPC client libraries, use `make gen-${LANGUAGE}`. Currently supported languages are:* python* golang</longdescription>
+</pkgmetadata>

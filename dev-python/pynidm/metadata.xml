@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>NIDM========A Python library to manipulate the [Neuroimaging Data Model](http://nidm.nidash.org).License=======``pynidm`` is licensed under the terms of the Apache License 2.0. See the file&quot;LICENSE&quot; for information on the history of this software, terms &amp; conditionsfor usage, and a DISCLAIMER OF ALL WARRANTIES.</longdescription>
+</pkgmetadata>

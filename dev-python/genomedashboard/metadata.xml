@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![image](https://img.shields.io/pypi/v/genomedashboard.svg)](https://pypi.python.org/pypi/genomedashboard)[![image](https://img.shields.io/travis/genomeDashboard/genomedashboard.svg)](https://travis-ci.org/genomeDashboard/genomedashboard)[![Documentation Status](https://readthedocs.org/projects/genomedashboard/badge/?version=latest)](https://genomedashboard.readthedocs.io/en/latest/?badge=latest)# Genome DashboardGenome Dashboard is the logic behind a web-based prototype of a genomicsdashboard, specifically designed to integrate informatics and 4Dmaterial studies of chromatin. Genome Dashboard unites our InteractiveChromatin Modeling (ICM) tools with the Biodalliance genome browser andthe JSMol molecular viewer to rapidly fold any DNA sequence into atomicor coarse-grained models of DNA, nucleosomes or chromatin.-   Free software: MIT license-   Documentation: &lt;https://genomedashboard.readthedocs.io&gt;.## Authors### Developers-   Thomas C. Bishop \&lt;&lt;bishop@latech.edu&gt;\&gt;-   Zilong Li \&lt;&lt;zli007@latech.edu&gt;\&gt;-   Ran Sun \&lt;&lt;rsu007@latech.edu&gt;\&gt;### Contributors-   John Gentle \&lt;&lt;taoteg@gmail.com&gt;\&gt;### Maintainers-   Genome Dashboard \&lt;&lt;genome.dashboard@gmail.com&gt;\&gt;</longdescription>
+</pkgmetadata>

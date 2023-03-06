@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>============================= Slick Python Client Library=============================This library is a python client for accessing and reporting results to Slick.  Slick is anopen source QA result and test manager available from https://github.com/slickqa/slickqaweb.Use is intended to be simple, and explorable.  All the types are defined, and code completionwill be available through most IDEs.  Here is an example of how the library is used::  from slickqa import SlickConnection, Project  slick = SlickConnection('http://localhost:8080')  proj = slick.projects.findByName('A Project')  release = slick.projects(proj).releases(proj.defaultRelease).get()  print(&quot;The default release for project &quot; + proj.name + &quot; is &quot; + release.name + &quot;.&quot;)</longdescription>
+</pkgmetadata>

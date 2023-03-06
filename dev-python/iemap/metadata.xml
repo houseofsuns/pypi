@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># iemap-moduleThis module provides simple functions to interact with the iemap API. ## Quickstart1. Create a virtual environment and install the module in it:    ```bash    pip install iemap    ```2. In your script or notebook, import the module:    ```python    from iemap import IEMAP    ```3. Create an instance of the `IEMAP` class, using your `user` and `password`:    ```python    api = IEMAP(user, password)    ```4. Use the `login()` method for API login:    ```python    api.login()    ```5. Use the `my_projects()` method to get a list of your projects:    ```python    api.my_projects()    ```</longdescription>
+</pkgmetadata>

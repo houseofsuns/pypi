@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># BolinetteBolinette is a Python web framework built on top of [aiohttp](https://github.com/aio-libs/aiohttp).[Read the complete docs here!](https://docs.bolinette.org/)## Install### PrerequisitesBolinette requires Python 3.10.Get it from the [official sources](https://www.python.org/downloads/).Be sure to install the pip and virtualenv extensions.### Create your project folder```shmkdir my-project &amp;&amp; cd my-project```### Install BolinetteWith a virtual environment:```shpython3.9 -m venv venv &amp;&amp; source venv/bin/activate &amp;&amp; pip install pip --upgrade &amp;&amp; pip install bolinette```Globally, with admin rights:```shpip install pip --upgrade &amp;&amp; pip install bolinette```## Use the Bolinette CLI### Initialize your project```shblnt init app my_project```You will then be asked a few questions about the new project.### Useful commands```shblnt run server //runs the development serverblnt init db [-s] //creates tables in database [and runs seeders]blnt new [model|service|controller] //creates new files from generic templates```Find all available commands with `blnt -h`.</longdescription>
+</pkgmetadata>

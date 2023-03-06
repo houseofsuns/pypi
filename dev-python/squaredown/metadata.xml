@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># SquaredownWe use Square as our point of sale system for our businesses. It works really well for most applications, but it takes too long to produce reports in a way that meets our business needs and the process is just too manual. We needed an automated way to produce our customized reports either at a click of a button or on a schedule. To do that we download the Square data into a MongoDB database. This is the code that we use to connect Square to MongoDB.## Getting StartedThese instructions will get you a copy of the project up and running on your local machine for development and testing purposes.### PrerequisitesThis package supports the following version of Python. It probably supports older versions, but they have not been tested.- Python 3.10 or later### InstallingInstall the latest package using pip.```bash$ pip install squaredown```End with an example of getting some data out of the system or using it for a little demo## Running the testsExplain how to run the automated tests for this system```bash$ python -m pytest```## UsageTODO## Authors- **Jason Romano** - [Aracnid](https://github.com/aracnid)See also the list of [contributors](https://github.com/lakeannebrewhouse/squaredown/contributors) who participated in this project.## LicenseThis project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details</longdescription>
+</pkgmetadata>

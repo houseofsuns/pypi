@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>######################Account Invoice Module######################The *Account Invoice Module* adds the concept of invoicing to Tryton.It allows the creation of customer and supplier invoices, and can handle thepayment terms related to the invoices and show when they have been paid.</longdescription>
+</pkgmetadata>

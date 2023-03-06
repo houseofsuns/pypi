@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># fhm-unittestA package for unittest. It will take two parameters where the first parameter will be the returned value and the second parameter will be the expected value.### Installation InstructionsUsing PIP via PyPI```pip install fhm-unittest```for installing on Google Colab:```! pip3 install fhm-unittest```### Usage```&gt;&gt;&gt; import fhm_unittest as unittest```To test a function, call the output_test function as pass your returned value and expected value as parameters```&gt;&gt;&gt; unittest.output_test(returned value, expected value)```### Example - 01```def even_odd_checker(number):  if number % 2 == 0:    return 'The number is even'  else:    return 'The number is odd'``````&gt;&gt;&gt; unittest.output_test(even_odd_checker(10), 'The number is even')    Accepted```### Example - 02```def even_odd_checker(number):  if number % 2 == 0:    return 'even'  else:    return 'odd'``````&gt;&gt;&gt; unittest.output_test(even_odd_checker(10), 'The number is even')    Not Accepted [Your output: even  |  Expected Output: The number is even]```### Example - 03```def even_odd_checker(number):  if number % 2 == 0:    return 'even'  else:    return 'odd'``````&gt;&gt;&gt; unittest.output_test(even_odd_checker(10), 'The number is odd')    Wrong Answer [Your output: even  |  Expected Output: The number is odd]```</longdescription>
+</pkgmetadata>

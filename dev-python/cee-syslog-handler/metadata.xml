@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>==================cee_syslog_handler==================.. image:: https://travis-ci.org/blue-yonder/cee_syslog_handler.svg?branch=master     :target: https://travis-ci.org/blue-yonder/cee_syslog_handlerPython Syslog Logging Handler with CEE SupportUsage::    from cee_syslog_handler import CeeSysLogHandler    import logging    logger = logging.getLogger('log')    logger.setLevel(logging.DEBUG)    ch = CeeSysLogHandler(address=(&quot;10.2.160.20&quot;, 514))    ch.setLevel(logging.DEBUG)    logger.addHandler(ch)    logger.info(&quot;test&quot;)</longdescription>
+</pkgmetadata>

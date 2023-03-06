@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Digole LCD DriverTested with Digole 160x128 Color LCD 1.8&quot; DSDM/SerialRaspberry Pi 3 B using the i2c busExamples at www.github.com/jethornton/digoleInstalling ```pip3 install digole```Upgrade ```pip3 install digole --upgrade```Or ```pip3 install --no-cache-dir digole --upgrade```Importing ```from digole import lcd```Create a new instance and use the default i2c address of 0x27 ```s = lcd()```Create a new instance and use a different i2c address ```s = lcd(0x29)```clear the screen ```s.clearScreen()```write a line of text ```s.writeLine('Text to write')```change X start position from the left edge in columns```s.changePosition(x)```change XY start position of the text from the top left corner in columns, rows```s.changePosition(x,y)``````s.changePosition(0,2) # start the text on column 0 row 2```Change Foreground Color color value 0-255 ```s.changeForeColor(color)```color can be an int 0-255, a hex 0x0-0x255 or a color name from the chart.Black   =   0 = 0x0Navy    =   2 = 0x2Blue    =   3 = 0x3Green   =  24 = 0x18Teal    =  27 = 0x1BLime    =  28 = 0x1CAqua    =  31 = 0x1FMaroon  = 192 = 0xC0Purple  = 195 = 0xC3Olive   = 219 = 0xDBRed     = 224 = 0xE0Magenta = 227 = 0xE3Yellow  = 252 = 0xFCWhite   = 255 = 0xFF</longdescription>
+</pkgmetadata>

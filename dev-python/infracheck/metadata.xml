@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>InfraCheck==========Health check system designed to be easy to extend by not enforcing the programming language.A single health check unit (let we call it later just 'check') can be written even in BASH.Read more in the documentation at: https://readthedocs.org/projects/infracheck/badge/?version=latest</longdescription>
+</pkgmetadata>

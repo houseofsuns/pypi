@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>============hyperthought============Modules that encapsulate HyperThought API calls and makeoperations like authentication and file transfer (uploador download) easier to accomplish.Description===========Example usage:Here is the code needed to upload a file to a HyperThought workspace... code-block:: python    from getpass import getpass    import hyperthought as ht    auth_info = getpass(&quot;Enter encoded auth info from your HyperThought profile page: &quot;)    auth = ht.auth.Authorization(auth_info)    files_api = ht.api.files.FilesAPI(auth)    # space_id can be found in the url for the workspace    # e.g. https://www.hyperthought.io/workspace/&lt;space_id&gt;/detail    space_id = input(&quot;Enter destination project id (in url of project): &quot;)    # Create a folder.    # Use default (root) path and don't specify any metadata for the folder.    # (See method docstring for info on unused parameters.)    folder_id = files_api.create_folder(        name=&quot;Tests&quot;,        space_id=space_id,    )    # Get a path for the file.    # Paths consist of comma-separated parent folder ids.    path = f&quot;,{folder_id},&quot;    local_file_path = input(&quot;Enter path to local file: &quot;)    files_api.upload(        local_path=local_file_path,        space_id=space_id,        path=path,    )    # Look in the HyperThought UI to see the uploaded file.</longdescription>
+</pkgmetadata>

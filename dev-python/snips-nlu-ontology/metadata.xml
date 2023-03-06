@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Snips NLU Ontology==================Installation-------------------------Linux / MacOS-------------.. code-block:: bash    pip install snips-nlu-ontology---------------Other platforms---------------This package can be installed via pip from a source distribution. As it containssome ``rust`` code ``rust`` must be installed on your machine.To install Rust, run the following in your terminal, then follow the onscreen instructions:.. code-block:: bash    curl https://sh.rustup.rs -sSf | shYou will also need the python lib ``setuptools_rust``:.. code-block:: bash    pip install setuptools_rustFinally, you can install ``snips-nlu-ontology`` using pip:.. code-block:: bash    pip install snips-nlu-ontology</longdescription>
+</pkgmetadata>

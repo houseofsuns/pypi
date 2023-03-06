@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Py-Functiontrace================The Python module for Functiontrace (https://functiontrace.com).Dependencies------------The FunctionTrace server must be installed for this package to work.See installation instructions at https://functiontrace.com#installation.Usage-----To use, add `-m functiontrace` to the Python script you want to profile.  For example:.. code:: sh    $ python foo.pyshould be run as.. code:: sh    $ python -m functiontrace foo.pyTo see the various arguments, run.. code:: sh    $ python -m functiontrace --help</longdescription>
+</pkgmetadata>

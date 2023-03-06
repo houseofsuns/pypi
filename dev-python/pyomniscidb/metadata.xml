@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>===========pyomniscidb===========A python `DB API`_ compliant interface for `OmniSci`_ (formerly MapD). .. _DB API: https://www.python.org/dev/peps/pep-0249/.. _OmniSci: https://www.omnisci.com/</longdescription>
+</pkgmetadata>

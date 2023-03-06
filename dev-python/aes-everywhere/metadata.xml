@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># AES Everywhere - Cross Language Encryption LibraryAES Everywhere is Cross Language Encryption Library which provides the ability to encrypt and decrypt data using a single algorithm in different programming languages and on different platforms.This is an implementation of the AES algorithm, specifically CBC mode, with 256 bits key length and PKCS7 padding.It implements OpenSSL compatible cryptography with random generated salt## [Python](https://www.python.org/) implementationPython versions &gt;= 2.7, &lt; 3.8### Installation```shellpip install aes-everywhere```### Usage```pythonfrom AesEverywhere import aes256# encryptionencrypted = aes256.encrypt('TEXT', 'PASSWORD')print(encrypted)# decryptionprint(aes256.decrypt(encrypted, 'PASSWORD'))```</longdescription>
+</pkgmetadata>

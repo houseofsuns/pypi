@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![BuildStatus](https://travis-ci.org/linsomniac/python-memcached.svg)](https://travis-ci.org/linsomniac/python-memcached)## OverviewThis software is a 100% Python interface to the memcached memory cachedaemon.  It is the client side software which allows storing valuesin one or more, possibly remote, memcached servers.  Search google formemcached for more information.This package was originally written by Evan Martin of Danga.  Please donot contact Evan about maintenance.  Sean Reifschneider of tummy.com,ltd. has taken over maintenance of it.Please report issues and submit code changes to the github repository at:   https://github.com/linsomniac/python-memcachedFor changes prior to 2013-03-26, see the old Launchpad repository at:   Historic issues: https://launchpad.net/python-memcached## TestingTest patches locally and easily by running tox:    pip install tox    tox -e py27Test for style by running tox:    tox -e pep8</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Domino is a package for analysing composites of atmospheric data.## Based on xarray, Domino makes it easy to calculate lagged composites of fields and scalar indices around categorical event time series, and to compute bootstrapped confidence bounds. This is still an alpha release! While core functionality is stable, there could be some bugs!## DocumentationSee https://github.com/joshdorrington/domino/blob/master/docbuild/domino-composite.pdf## ExamplesA basic introduction to using the package out of the box, with three example applications:https://github.com/joshdorrington/domino/blob/master/examples/basic_usage.ipynbA more in-depth discussion of how to customise the behaviour of the LaggedAnalyser class:https://github.com/joshdorrington/domino/blob/master/examples/advanced_usage.ipynb## Installdomino can be installed using pip:```python -m pip install &quot;domino-composite==0.14&quot;```</longdescription>
+</pkgmetadata>

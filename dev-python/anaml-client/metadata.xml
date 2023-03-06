@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>The Anaml Python SDK makes it easy to interact with the [Anaml][1] featureengineering platform from Python. The SDK provides datatypes and methods tointeract with the Anaml REST API and to load Anaml feature data into Pandasand/or Spark data frames.[1]: https://www.anaml.com/</longdescription>
+</pkgmetadata>

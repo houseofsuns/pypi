@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Dk Analyzer## How do I install it?`pip install dk_analyzer`## How do I use it?See `dk_analyzer --help`### How do I obtain CLIENT_ID and CLIENT_SECRET?Head over to &lt;https://www.warcraftlogs.com/api/clients&gt; and click `Create Client`.You can leave the redirect URL as `https://google.com`.Leave Public Client unchecked.## DevelopmentFor help getting started developing check [DEVELOPMENT.md](DEVELOPMENT.md)</longdescription>
+</pkgmetadata>

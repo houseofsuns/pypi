@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># kplotA little package to make it easy to make pretty plots in matplotlib without having to fiddle too much :-)## UsageIn general, all that kplot will do is change the defaults in matplotlib via the style sheet that you want. In order to do this, simply add an import statement of the form&quot;&quot;&quot;pythonimport kplot.style&quot;&quot;&quot;Where style is the style that you want! My person default right now is the kg style sheet. But there is also a dark mode, and an option that will work well for colorblind folk.</longdescription>
+</pkgmetadata>

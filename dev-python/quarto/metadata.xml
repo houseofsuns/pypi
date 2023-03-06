@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># QuartoPython interface to Quarto, an academic, scientific, and technical publishing system built on [Pandoc](https://pandoc.org).In addition to the core capabilities of Pandoc, Quarto includes:1.  Support for embedding output from R and Python via integration with knitr and Jupyter.2.  A project system for rendering groups of documents at once.3.  Flexible ways to specify rendering options, including project-wide options and per-format options.4.  Cross references for figures, tables, equations, sections, listings, proofs, and more.5.  Sophisticated layout for panels of figures, tables, and other content.6.  Automatic installation of required LaTeX packages when rendering PDF output.For more information on Quarto, see the project GitHub repositories at https://github.com/quarto-dev/ </longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>rpaframework-recognition========================This library enablous various recognition features with `RPA Framework`_libraries, such as image template matching... _RPA Framework: https://rpaframework.org</longdescription>
+</pkgmetadata>

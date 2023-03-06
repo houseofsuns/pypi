@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;p align=&quot;center&quot;&gt;  &lt;img src=&quot;https://raw.githubusercontent.com/bali-framework/bali/master/docs/img/bali.png&quot; alt='bali framework' /&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;    &lt;b&gt;bali-cli&lt;/b&gt; is     CLI tools to simplify gRPC services and clients&lt;/p&gt;# bali-cli&lt;img src=&quot;https://img.shields.io/pypi/v/bali-cli&quot; /&gt;CLI tools to simplify gRPC services and clients## Cli commands ### `bali add`&gt; Add service to clients folder, syntax is **bali add {service}**```bash# Example: added a service named `user`bali add user```### `bali build`&gt; Build current development service protobuf &gt;&gt; Legacy protobuf path: &lt;b&gt;/services/rpc/*.proto&lt;/b&gt;&gt; New protobuf path: &lt;b&gt;*/protos/*.proto*&lt;/b&gt;```bash# Example: build in a service root directorybali build```### `bali run`&gt; New in `2.5.0`&gt; &gt; Start Bali App service, include `http`/`rpc`/`event````bash# Example: start httpbali run http# Example: start rpcbali run rpc# Example: start eventbali run event```### `bali shell`&gt; New in `2.5.0`&gt; ```bash# Enter Bali App shellbali shell```## Related Projects[![bali](https://github-readme-stats.vercel.app/api/pin/?username=bali-framework&amp;repo=bali)](https://github.com/bali-framework/bali)## CONTRIBUTE**Developer Environment**```bashmake init``` ```examples# setup examples environmentsgit submodule update --init --recursive# execute bali commands # cd examples/gateway_service &amp;&amp; bali add greeter```**Tag a new release**tag a version:```bashgit tag -a v0.1.0```push tags to remote:```bashgit push --tags```**Get a test report**```bashmake test``` </longdescription>
+</pkgmetadata>

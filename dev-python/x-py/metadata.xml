@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>基于 Tornado 的示例程序设置配置文件```cp app.example.yaml cp app.yaml```安装第三方库命令```pip install pyyaml sqlalchemy mysql-connector```启动程序命令```python app.py````启动成功后，访问地址 http://localhost:8000执行测试命令python tests/test_all.pycoverage run tests/test.py</longdescription>
+</pkgmetadata>

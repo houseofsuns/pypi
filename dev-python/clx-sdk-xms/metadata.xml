@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>REST API SDK for SMS====================This is the Python SDK for the CLX Communications REST API (alsocalled XMS) for sending and receiving single or batch SMS messages. Italso supports scheduled sends, organizing your frequent recipientsinto groups, and customizing your message for each recipient usingparametrization.This library is compatible with Python 2.7 and 3.3 and later.Getting Started---------------The SDK is packaged using setuptools_ and is available in the PyPI_repository under the name clx-sdk-xms_. You can therefore, forexample, use pip_ to install the library using the command ``pipinstall clx-sdk-xms``.After installing the SDK it is recommended to read the tutorial_ and`Client documentation`_... _Setuptools: https://pypi.python.org/pypi/setuptools/.. _PyPI: https://pypi.python.org/.. _clx-sdk-xms: https://pypi.python.org/pypi/clx-sdk-xms/.. _pip: https://pip.pypa.io/.. _tutorial: https://clxcommunications.github.io/sdk-xms-python/tutorial.html.. _`Client documentation`: https://clxcommunications.github.io/sdk-xms-python/clx.xms.html#module-clx.xms.clientLicense-------This project is licensed under the Apache License Version 2.0. See theLICENSE.txt file for the license text.</longdescription>
+</pkgmetadata>

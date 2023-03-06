@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>### pytest-embedded-idfpytest embedded service for esp-idf projectExtra Functionalities:=== &quot;`pytest-embedded-serial-esp` activated&quot;    - `app`: parse the built binary by idf rules and gather more information.    - `serial`: auto flash the built binary into the target board at the beginning when running test cases.=== &quot;`pytest-embedded-serial-esp` NOT activated&quot;    - `app`: parse the built binary by idf rules and gather more information.Used CLI Options:- `part-tool`</longdescription>
+</pkgmetadata>

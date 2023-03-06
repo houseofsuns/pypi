@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>--------------------------------------# Connect by Credo AI - Utility Module for Connecting to AI Governance PlatformConnect is a utility module that integrates ML assessments with the Credo AI Governance Platform.Connect defines `evidence_containers` which function as adapters between diverse AI assessmentframeworks (or custom analyses) and Credo AI-compatible `Evidence` objects.## Dependencies- Credo AI Connect supports Python 3.8+- Sphinx (optional for local docs site)## InstallationThe latest stable release (and required dependencies) can be installed from PyPI.```pip install credoai-connect```## DocumentationDocumentation is hosted by [readthedocs](https://credoai-connect.readthedocs.io/en/stable/).</longdescription>
+</pkgmetadata>

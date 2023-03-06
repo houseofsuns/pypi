@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Product Attribute Module########################The Product Attribute module defines the following models: Attribute andAttribute Set.Attribute*********An Attribute represents a property of a product, such as its colors, dimensionsand so on.Attribute Set*************An Attribute Set is linked to products and allows to assign attribute values toproducts.</longdescription>
+</pkgmetadata>

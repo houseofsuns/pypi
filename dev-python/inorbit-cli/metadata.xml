@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># InOrbit CLIWelcome to the InOrbit Command Line Interface.## Installing[https://pypi.org/project/inorbit-cli/](https://pypi.org/project/inorbit-cli/)Make sure you deactivated the development virtual environment or you are using a different one with no `inorbit` python package installed.```bashpip install inorbit-cli```## UsageThe CLI requires an API key for authenticating against InOrbit's platform. For obtaining it, please go to the [InOrbit developer console](https://console.inorbit.ai/).```bash$ export INORBIT_CLI_API_KEY=&quot;company_api_key&quot; $ inorbit --helpUsage: inorbit [OPTIONS] COMMAND [ARGS]...  InOrbit Command Line Interface tool  The InOrbit CLI tool enable roboteers to interact with the InOrbit Cloud  platform in order to manage robot configuration as code.Options:  --help  Show this message and exit.Commands:  describe  get```## ContributingSee [CONTRIBUTING.md](./CONTRIBUTING.md)</longdescription>
+</pkgmetadata>

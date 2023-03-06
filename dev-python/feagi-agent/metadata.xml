@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># What is Feagi-agent?The Feagi-agent is the core of the Feagi agent and it serves multiple purposes. It works behind the scenes and serves as an API for Feagi.Keep in mind, you will need Feagi to connect with feagi_agent. Feagi can be running on a website, Docker, or locally on your computer. If you would like to learn more about how to run Feagi, please visit: https://github.com/feagi/feagi/tree/staging# Quick Start:You can start with any of the quick start options. The easiest and simplest method is to use feagi_agent_webcam, which focuses solely on webcam functionality. Once you have installed it using pip3 install feagi_agent_webcam, simply type python3 -m feagi_agent_webcam --ip 127.0.0.1 to run it.If you would like to create your own code using the Feagi API and call `feagi_interface` or `retina`, you can use the following code:`from feagi_agent import feagi_interface``from feagi_agent import retina`# Feagi Agent Packages:Currently, we have more than 2 packages: `feagi_agent_webcam`, `feagi_agent_freenove`, and `feagi_agent_mycobot`. You can find more packages here: https://github.com/feagi/feagi/tree/feature-mycobot-updated/peripheralsThe requirements for `feagi-agent` can be found here: [feagi-agent requirements](https://github.com/feagi/feagi/blob/staging/peripherals/feagi_agent_core/feagi_agent/requirements.txt)</longdescription>
+</pkgmetadata>

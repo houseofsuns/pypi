@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>dephell_changelogs==================Installation------------.. code-block:: bash   python3 -m pip install --user dephell_changelogsUsage-----Get changelog url:.. code-block:: python   from dephell_changelogs import get_changelog_url   url = get_changelog_url('dephell')   url = get_changelog_url('https://dephell.readthedocs.io/')   url = get_changelog_url('https://github.com/dephell/dephell/')Parse changelog:.. code-block:: python   from dephell_changelogs import parse_changelog   parsed = parse_changelog(url)   parsed['0.8.0']   # 'New commands:\n\n+ [dephell package bug]...'</longdescription>
+</pkgmetadata>

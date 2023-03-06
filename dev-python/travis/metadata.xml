@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>A sample Python project=======================This package is to investigate a possible security issue with pip changingthe --user syntax for Travis projects.https://pip.pypa.io/en/stable/user_guide/#user-installspip install --user $USER git+https://github.com/google/closure-linter.gitresults in```Could not find any downloads that satisfy the requirement travis```See e.g. https://github.com/travis-ci/travis-ci/issues/6905</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># `trustfall` — Python bindingsUse the Trustfall query engine from Python.## APICreate a schema object:```pythonfrom trustfall import Schemamy_schema = Schema(    &quot;&quot;&quot;    Your schema text here, written in GraphQL SDL.    See an example schema here:    https://github.com/obi1kenobi/trustfall/blob/main/pytrustfall/numbers.graphql    &quot;&quot;&quot;)```Create an adapter with which to query the schema:```pythonfrom typing import Any, Dictfrom trustfall import Adapter# Choose the type that is used to represent data vertices:Vertex = Dict[str, Any]class MyAdapter(Adapter[Vertex]):    # Implement the four abstract methods from Adapter.    ...```Execute queries:```pythonfrom trustfall import execute_querymy_adapter = MyAdapter(...)my_query = &quot;&quot;&quot;query {    # your query here}&quot;&quot;&quot;args = {    # query arguments here}results_iterator = execute_query(    my_adapter,    my_schema,    my_query,    args,)for result in results_iterator:    print(result)```## Installing `trustfall`This package is a wrapper around the Trustfall query engine, which is written in Rust.Wheels are available for Windows, macOS (both x86 and ARM), and Linux (`manylinux`),for each supported version of CPython (3.9+).This package should work on other platforms as well, in which case its Rust componentsmay need to be compiled from source as part of the installation process.If you get errors while installing this package, please[report your OS and architecture info in an issue](https://github.com/obi1kenobi/trustfall/issues/new).</longdescription>
+</pkgmetadata>

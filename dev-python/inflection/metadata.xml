@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Inflection==========|build status|_.. |build status| image:: https://travis-ci.org/jpvanhal/inflection.svg?branch=master   :alt: Build Status.. _build status: http://travis-ci.org/jpvanhal/inflectionInflection is a string transformation library.  It singularizes and pluralizesEnglish words, and transforms strings from CamelCase to underscored string.Inflection is a port of `Ruby on Rails`_' `inflector`_ to Python... _Ruby on Rails: http://rubyonrails.org.. _inflector: http://api.rubyonrails.org/classes/ActiveSupport/Inflector.htmlResources---------- `Documentation &lt;https://inflection.readthedocs.io/&gt;`_- `Issue Tracker &lt;http://github.com/jpvanhal/inflection/issues&gt;`_- `Code &lt;http://github.com/jpvanhal/inflection&gt;`_- `Development Version  &lt;http://github.com/jpvanhal/inflection/zipball/master#egg=Inflection-dev&gt;`_</longdescription>
+</pkgmetadata>

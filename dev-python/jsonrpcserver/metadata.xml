@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;img    alt=&quot;jsonrpcserver&quot;    style=&quot;margin: 0 auto;&quot;    src=&quot;https://github.com/explodinglabs/jsonrpcserver/blob/main/docs/logo.png?raw=true&quot;/&gt;![PyPI](https://img.shields.io/pypi/v/jsonrpcserver.svg)![Code Quality](https://github.com/explodinglabs/jsonrpcserver/actions/workflows/code-quality.yml/badge.svg)![Coverage Status](https://coveralls.io/repos/github/explodinglabs/jsonrpcserver/badge.svg?branch=main)![Downloads](https://img.shields.io/pypi/dw/jsonrpcserver)Process incoming JSON-RPC requests in Python.```pythonfrom jsonrpcserver import method, serve, Success@methoddef ping():    return Success(&quot;pong&quot;)if __name__ == &quot;__main__&quot;:    serve()```Or use `dispatch` instead of `serve`:```pythonresponse = dispatch('{&quot;jsonrpc&quot;: &quot;2.0&quot;, &quot;method&quot;: &quot;ping&quot;, &quot;id&quot;: 1}')# =&gt; '{&quot;jsonrpc&quot;: &quot;2.0&quot;, &quot;result&quot;: &quot;pong&quot;, &quot;id&quot;: 1}'```[Watch a video on how to use it.](https://www.youtube.com/watch?v=3_BMmgJaFHQ)Full documentation is at [jsonrpcserver.com](https://www.jsonrpcserver.com/).See also: [jsonrpcclient](https://github.com/explodinglabs/jsonrpcclient)</longdescription>
+</pkgmetadata>

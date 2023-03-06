@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Better ThreadsA wrapper over threads that provides extended control. The module supports pausing, terminating and putting threads to sleep. The module also provides some additional tools to Pipe data between threads and a thread pool to keep track of threads.## Key features- Pipe data between threads- Pause, Resume and Stop threads- Simple## Installing**Python 3.7 or higher is required**```pip install better-threads```## Quick exampleMore exmples https://github.com/ItsYasiru/Better-Threads/tree/master/examples```pyimport timefrom BetterThreads import ThreadPoolthread_pool = ThreadPool()@thread_pool.thread()def test_loop():    print(&quot;Loop running!&quot;)    time.sleep(1)test_loop.start(test_loop)time.sleep(5)test_loop.terminate(test_loop)```</longdescription>
+</pkgmetadata>

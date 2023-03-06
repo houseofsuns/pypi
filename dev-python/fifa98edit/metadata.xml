@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># fifa98editA Python 3 editor for the old EA Sports PC game Fifa RTWC 98.Run fifa98edit.py. Help and instructions are provided in the editor.## InstallationInstall Python 3.8 or higher and run:    pip install fifa98editIf your system runs multiple versions of Python (e.g. Python 2 on many Macs) run:    pip3 install fifa98editIf you wish to update to a new version, run:    pip3 install --upgrade fifa98edit## Use    python -m fifa98editor        python3 -m fifa98edit if running multiple versions of PythonFurther help is provided in the application.## Uninstall    pip uninstall fifa98editor        pip3 uninstall fifa98editif running multiple versions of PythonThe command will produce a list of files that &quot;Would not remove&quot;. Remove those files manually following the path provided.## DependenciesThe ability to add national teams or to move club teams to national team groups (for example, to create tournaments) depends on the ability to write compressed graphic files containing the flags. This is provided by [RefPack Tool by **KUDr**](https://github.com/MicaelJarniac/RefPack-Tool/tree/master/bin), which runs under Windows (or Wine). Download the executables and follow the instructions in the editor.</longdescription>
+</pkgmetadata>

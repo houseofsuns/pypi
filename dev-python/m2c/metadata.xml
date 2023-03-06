@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## m2c**workflow**0. pip install m2c1. mkdir **your-project-name**2. cd **your-project-name**3. m2c init4. m2c build5. m2c run6. m2c debug7. m2c unittest8. m2c pack**coding**0. desgin apimodel.txt1. m2c apicode2. desgin objmodel.txt3. m2c objcode4. coding logic with api/obj...5. coding unittest...6. m2c unittest7. m2c pack8. done</longdescription>
+</pkgmetadata>

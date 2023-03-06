@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># sciprs[scipy](https://scipy.org) but really written in pure Rust. Checkout [sci-rs](https://github.com/qsib-cbie/sci-rs) for Rust implementations behind the Python interface## Why sciprs instead of scipyscipy is largely written in Python, Pyrex, C, and Fortran. scipy is great for research and servers. Rust is a cross platform language that provides both performance improvements and portability to scipy.sciprs acts as the wrapper around a library that is ready to translate directly into embedded, mobile, web, or server deployments without losing the agility of Python's powerful interactive scripting abilities.## How to use sciprsChange you scipy import to sciprs. sciprs strives to provide the same functionality as scipy without compromising with a rich history of documentation and published research. ```python3 from scipy.signal import sosfilt, butter ``` becomes ```python3 from sciprs.signal import sosfilt, butter ```  ## Installation  Install the package from PyPi like usual, `sciprs`. The GitHub Actions will generate a compiled wheel for most major platforms each release.  ```zsh pip3 install sciprs ```### Compilation from source`maturin` provides the build system hooks with `pyo3` as the intermediate between Python and Rust```zshmaturin build```</longdescription>
+</pkgmetadata>

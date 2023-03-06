@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>AutoItLibrary is a Robot Framework keyword library wrapper for for thefreeware AutoIt tool (http://www.autoitscript.com/autoit3/index.shtml)using AutoIt's AutoItX.dll COM object. The AutoItLibrary classprovides a proxy for the AutoIt keywords callable on the AutoIt COMobject and provides additional high-level keywords implemented asmethods in this class.</longdescription>
+</pkgmetadata>

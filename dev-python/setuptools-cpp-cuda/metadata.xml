@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Setuptools C++ CUDA***Warning:*** This project has been renamed to [pypi/setuptools-cuda-cpp](https://pypi.org/project/setuptools-cuda-cpp)for visibility reasons in Pypi and migrated to GitHub for enhance community Issues feedback.Please uninstall this module:```pip uninstall setuptools-cpp-cuda```and install the new package:```pip install setuptools-cuda-cpp```Sorry for the inconveniences.</longdescription>
+</pkgmetadata>

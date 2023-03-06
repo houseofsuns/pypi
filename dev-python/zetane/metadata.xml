@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Zetane Protector API is an automated platform for testing and improving the robustness of machine learning models and their data. It provides data scientists and operators with insights into proposed machine learning solutions and helps validate, understand, and analyze the operational boundaries of machine learning data and models prior to deployment.Visit our [docs](https://docs.zetane.com) for more details.</longdescription>
+</pkgmetadata>

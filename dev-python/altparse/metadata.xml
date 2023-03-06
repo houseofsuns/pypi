@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># AltSourceParserThis package is designed to aid in creating and maintaining AltSources (for use primarily with AltStore) which are static json files containing various store-like and app metadata.# Installation``pip install altparse``# UsageSee [tests/example_update.py](https://github.com/noah978/AltSourceParser/blob/main/tests/example_update.py) for how to best utilize the AltSource updating functionality.</longdescription>
+</pkgmetadata>

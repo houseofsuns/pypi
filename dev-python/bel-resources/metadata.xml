@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>BEL Resources |build| |coverage| |zenodo|=========================================Utilities for BEL resource files.Installation |pypi_version| |python_versions| |pypi_license|------------------------------------------------------------Install from `PyPI &lt;https://pypi.python.org/pypi/bel-resources&gt;`_ with:.. code-block:: bash   $ pip install bel-resourcesor get the latest code from `GitHub &lt;https://github.com/pybel/bel-resources&gt;`_ with:.. code-block:: bash   $ git clone https://github.com/pybel/bel-resources.git   $ cd bel-resources   $ pip install -e ... |build| image:: https://travis-ci.com/pybel/bel-resources.svg?branch=master    :target: https://travis-ci.com/pybel/bel-resources.. |coverage| image:: https://codecov.io/gh/pybel/bel-resources/branch/master/graph/badge.svg    :target: https://codecov.io/gh/pybel/bel-resources.. |python_versions| image:: https://img.shields.io/pypi/pyversions/bel-resources.svg    :alt: Stable Supported Python Versions.. |pypi_version| image:: https://img.shields.io/pypi/v/bel-resources.svg    :alt: Current version on PyPI.. |pypi_license| image:: https://img.shields.io/pypi/l/bel-resources.svg    :alt: MIT License.. |zenodo| image:: https://zenodo.org/badge/164254633.svg   :target: https://zenodo.org/badge/latestdoi/164254633</longdescription>
+</pkgmetadata>

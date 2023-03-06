@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>I first preprocessed data also considering phonetic similarity of alphabets based on some common problems of Indian names.After that i implemented soundex and used it to find similarity of names.If two names seems similar , I have implmented my improvised vowels/cosonants functions which clears the situation better and gives an improvised Output.Requirements============-  Python 3 or higher and nltkInstallation============Using PIP via PyPI.. code:: bash    pip3 install indian_namematch.. code:: bash    python3Usage=====.. code:: python    &gt;&gt;&gt; import indian_namematch    &gt;&gt;&gt; from indian_namematch import fuzzymatchSingle Comparison~~~~~~~~~~~~~~~~~.. code:: python    &gt;&gt;&gt; results = fuzzymatch.single_compare(&quot;A Singh&quot;, &quot;Ajeet Singh&quot;)    &gt;&gt;&gt; print(results)        Match    &gt;&gt;&gt; results = fuzzymatch.single_compare(&quot;Ajeit Singh&quot;, &quot;Ajeet Singh&quot;)    &gt;&gt;&gt; print(results)        Match    &gt;&gt;&gt; results = fuzzymatch.single_compare(&quot;Mr Ajeit Singh&quot;, &quot;Ajeet Singh&quot;)    &gt;&gt;&gt; print(results)        Match    &gt;&gt;&gt; results = fuzzymatch.single_compare(&quot;M/r Ajeit Singh&quot;, &quot;Ajeet Singh&quot;)    &gt;&gt;&gt; print(results)</longdescription>
+</pkgmetadata>

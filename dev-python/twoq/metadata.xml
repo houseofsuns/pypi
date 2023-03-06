@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>*twoq* chains iterators together using a double-headed input and output queue,that can be shifted or synced as needed.*twoq* exposes some useful features buried in the standard library and includes some Python 2 &lt;-&gt; 3 compatibility aids.Mirrored on https://github.com/lcrees/twoq/</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Python package for stacking (stacked generalization) featuring lightweight functional API and fully compatible scikit-learn API.Convenient way to automate OOF computation, prediction and bagging using any number of models.</longdescription>
+</pkgmetadata>

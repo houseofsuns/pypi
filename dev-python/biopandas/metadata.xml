@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Biopandas is a python package for working with molecular structuresin pandas DataFrames.Contact=============If you have any questions or comments about biopandas,please feel free to contact me viaeMail: mail@sebastianraschka.comor Twitter: https://twitter.com/rasbtThis project is hosted at https://github.com/rasbt/biopandasThe documentation can be found at http://rasbt.github.io/biopandas/</longdescription>
+</pkgmetadata>

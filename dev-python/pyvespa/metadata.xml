@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[Vespa](https://vespa.ai/) is the scalable open-sourced serving enginethat enables users to store, compute and rank big data at user serving time.[pyvespa](https://pyvespa.readthedocs.io/) provides a python API to Vespa.It allows users to create, modify, deploy and interact with running Vespa instances.The main goal of the library is to allow for faster prototypingand to facilitate Machine Learning experiments for Vespa applications -also see [learntorank](https://github.com/vespa-engine/learntorank).</longdescription>
+</pkgmetadata>

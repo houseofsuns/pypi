@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>windflow========Windflow is a python 3.5+ toolkit helping to develop modern and modular web applications using asyncio and sqlalchemy.This is an experimental project, things will change, probably in huge ways. Use it at your own risks... image:: https://travis-ci.org/hartym/windflow.svg?branch=master    :target: https://travis-ci.org/hartym/windflow    :alt: Continuous Integration Status.. image:: https://coveralls.io/repos/github/hartym/windflow/badge.svg?branch=master    :target: https://coveralls.io/github/hartym/windflow?branch=master    :alt: Coverage Status.. image:: https://readthedocs.org/projects/windflow/badge/?version=latest    :target: http://windflow.readthedocs.org/en/latest/?badge=latest    :alt: Documentation Status----Made with ♥ by `Romain Dorgueil &lt;https://twitter.com/rdorgueil&gt;`_ and `contributors &lt;https://github.com/hartym/windflow/graphs/contributors&gt;`_.</longdescription>
+</pkgmetadata>

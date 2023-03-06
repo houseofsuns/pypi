@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>prompter========.. image:: https://travis-ci.org/tylerdave/prompter.svg?branch=master  :target: https://travis-ci.org/tylerdave/prompter.. image:: http://badge.fury.io/py/prompter.png  :target: http://badge.fury.io/py/prompter.. image:: https://coveralls.io/repos/tylerdave/prompter/badge.svg?branch=master  :target: https://coveralls.io/r/tylerdave/prompter?branch=master Simple CUI prompt input for PythonInstalling----------Install the latest stable from PyPi:: pip install prompterInstall the latest development version from master::  pip install git+git://github.com/tylerdave/prompterUsing-----.. code-block:: python  &gt;&gt;&gt; from prompter import prompt, yesno  &gt;&gt;&gt; prompt('What is your name?')  What is your name? Dave  'Dave'  &gt;&gt;&gt; prompt('What is your name?', default='Jenn')  What is your name? [Jenn]  'Jenn'  &gt;&gt;&gt; prompt('What is your name?', default='Jenn', suffix='\n &gt; ')  What is your name? [Jenn]  &gt;  'Jenn'  &gt;&gt;&gt; prompt('Enter text surrounded by spaces.', strip=False)  Enter text surrounded by spaces.    text  '   text   '  &gt;&gt;&gt; yesno('Really?')  Really? [Y/n]  True  &gt;&gt;&gt; yesno('Really?')  Really? [Y/n] no  False  &gt;&gt;&gt; yesno('Really?', default='no')  Really? [y/N]  True  &gt;&gt;&gt; yesno('')  [Y/n] n  FalseNote----Please open an issue on Github if you notice problems or havesuggestions!</longdescription>
+</pkgmetadata>

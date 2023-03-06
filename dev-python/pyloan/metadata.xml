@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>==================Welcome to PyLoan!==================PyLoan is a Python package designed to provide a lightweight and flexible tool to perform mortgage/loan calculations, including:* Calculate payment amount to fully amortize a mortgage/loan over its term.* Amortize a mortgage/loan based on the specified payment schedule.* Consider ad-hoc or periodic special principal repayments during the mortgage/loan amortization schedule.* Calculate interest payments using either 30/360 methods or actual methods.* Consider interest-only payment periods.Installation============PyLoan is distributed on PyPI and can be installed with `pip`::  $ pip install pyloanFor more information, read the documentation on `installing the package &lt;https://pyloan.readthedocs.io/en/latest/installation.html&gt;`_.Quickstart==========Read the `Quickstart &lt;https://pyloan.readthedocs.io/en/latest/quickstart.html&gt;`_ guide to see illustrative examples on how to get started using PyLoan to perform mortgage/loan calculations.Support=======Report bugs via the bug tracker on `GitHub &lt;https://github.com/sudo-dakix/pyloan/issues&gt;`_.License=======PyLoan is licensed under the `MIT License &lt;https://github.com/sudo-dakix/pyloan/blob/master/LICENSE&gt;`_.</longdescription>
+</pkgmetadata>

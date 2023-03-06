@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ODB Plotter## Constraints:ODB Plotter is being developed by [CMML](https://www.cmml.me.msstate.edu), and as such has a focus on Additive Manufacturing and Temperature Data.## Install with pip```shellpip install odb-plotter```## Run the cli with python```shellpython -m odbp```## Or import to use the api```pythonfrom odbp import Odb...```## ODB Plotter Design Goals### I intend for this project to serve two purposes:- First, implement an extensible, flexible api for accessing data within .odb files or .hdf5 files with odb data- Second, implement a user-friendly, sane-defaults cli to allow for quick data extraction, manipulation, and visualization with no hassle</longdescription>
+</pkgmetadata>

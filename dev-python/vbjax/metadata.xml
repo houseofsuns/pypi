@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># `vbjax``vbjax` is a Jax-based package for working with virtual brain style models.Installs with `pip install vbjax`, or manually install dependencies with`pip install numpy scipy jax jaxlib` or `conda install -y numpy scipy jax`.## Examples## Development```git clone https://github.com/ins-amu/vbjaxcd vbjaxpip install '.[dev]'pytest```## Releasesa release of version `v1.2.3` requires following steps- [ ] `git checkout main`: tag releases from main for now- [ ] edit `_version.py` to have correct release number- [ ] `python -m vbjax._version tag` to create and push new tag  - [GitHub tests, builds and pushes tag release to PyPI](.github/workflows/publish-tags.yml)- [ ] use GitHub UI to create new release</longdescription>
+</pkgmetadata>

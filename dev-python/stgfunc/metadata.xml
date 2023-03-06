@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># stgfunc### VapourSynth functions and utils&lt;br&gt;You can find me in the [IEW Discord server](https://discord.gg/qxTxVJGtst), @Setsugennoao#6969.&lt;br&gt;&lt;br&gt;## How to installInstall `stgfunc` with the following command:```sh$ pip install stgfunc```Or if you want the latest git version, install it with this command:```sh$ pip install git+https://github.com/Setsugennoao/stgfunc.git```&lt;br&gt;</longdescription>
+</pkgmetadata>

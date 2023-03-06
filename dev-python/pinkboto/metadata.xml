@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pinkbotoA Colorful AWS SDK wrapper for Python[![Current version at PyPI](https://img.shields.io/pypi/v/pinkboto.svg)](https://pypi.python.org/pypi/pinkboto)![Supported Python Versions](https://img.shields.io/pypi/pyversions/pinkboto.svg)![Software status](https://img.shields.io/pypi/status/pinkboto.svg)![PyPI - Downloads](https://img.shields.io/pypi/dd/pinkboto)## Install```bashpip install pinkboto```### Usage```pythonimport pinkbotoaws = pinkboto.aws(profile='production', region='us-east-1') selector = {'resource': 'aws_db_instance'}projection = ['DBInstanceIdentifier', 'Endpoint']rds = aws.find(selector, projection)```### CachingBy default, pinkboto caching all requests with 120 seconds lifespan.To disable:```pythonaws = pinkboto.aws(profile='production', region='us-east-1', cache=False)```To modify lifespan to 1 hour:```pythonaws = pinkboto.aws(profile='production', region='us-east-1', cache=3600)```### Subfield projectionYou can access a subfield in projection. For example 'Endpoint.Address' in rds```pythonrds = aws.find({'resource': 'aws_db_instance'}, ['Endpoint.Address', 'AvailabilityZone'])```### CSV output```pythonpinkboto.to_csv(rds, 'result.csv')```### pypi package publish```bashupdate setup.py version.python3 setup.py sdisttwine upload dist/pinkboto-${new-version}.tar.gz```### ContributingPull requests for new features, bug fixes, and suggestions are welcome!### LicenseGNU General Public License v3 (GPLv3)### Developer install requirements```bashpre-commit install```</longdescription>
+</pkgmetadata>

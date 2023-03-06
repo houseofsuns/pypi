@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>====================Welcome to pyGedcomX====================.. image:: https://img.shields.io/pypi/pyversions/pygedcomx    :target: https://pypi.org/project/pygedcomx/.. image:: https://img.shields.io/pypi/v/pygedcomx    :target: https://pypi.org/project/pygedcomx/.. image:: https://img.shields.io/pypi/format/pygedcomx    :target: https://pypi.org/project/pygedcomx/.. image:: https://img.shields.io/badge/code%20style-black-000000.svg    :target: https://github.com/psf/black.. image:: https://img.shields.io/badge/License-Apache%202.0-blue.svg    :target: https://opensource.org/licenses/Apache-2.0This is Python implementation of GEDCOM X specificationas described in `GEDCOM X Conceptual Model`_... _GEDCOM X Conceptual Model: https://github.com/FamilySearch/gedcomx/blob/master/specifications/conceptual-model-specification.mdFeatures========* reading and writing of the GEDCOM X JSON Serialization Format with use of pydantic.Features in development=======================* GEDCOM X File Format support* GEDCOM X Extensions support</longdescription>
+</pkgmetadata>

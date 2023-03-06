@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ASYML-Utilities## OverviewSome shared utilities across multiple ASYML projects.## List of Modules* `asyml_utilities.hyperparams.HParams`* `asyml_utilities.special_tokens.SpecialTokens`## License[Apache License 2.0](./LICENSE)</longdescription>
+</pkgmetadata>

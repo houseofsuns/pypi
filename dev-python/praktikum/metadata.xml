@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=============== praktikum===============This library provides tools for analyzing data in the context of thebeginners' lab courses in physics at RWTH Aachen University(Grundpraktikum Physik). It also includes tools for parsing data fileswritten by Leybold's Cassy data acquisition system. Both Cassy-1 andCassy-2 are supported.Further information===================Please see the `homepage &lt;http://pgp.physik.rwth-aachen.de/software&gt;`_.</longdescription>
+</pkgmetadata>

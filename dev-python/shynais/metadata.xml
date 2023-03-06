@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># shyna/shynais## Getting StartedDownload links:SSH clone URL: ssh://git@git.jetbrains.space/shyna623/shyna/shynais.gitHTTPS clone URL: https://git.jetbrains.space/shyna623/shyna/shynais.gitThese instructions will get you a copy of the project up and running on your local machine for development and testing purposes.## PrerequisitesWhat things you need to install the software and how to install them.```    &quot;setuptools&quot;,    &quot;wheel&quot;,    &quot;ShynaDatabase&quot;,    &quot;ShynaWeather&quot;,    &quot;Shynatime&quot;,    &quot;python-telegram-bot&quot;,    &quot;ShynaTelegramBotNotification&quot;,    &quot;wget&quot;,    &quot;haversine&quot;```## DeploymentAdd additional notes about how to deploy this on a production system.## ResourcesAdd links to external resources for this project, such as CI server, bug tracker, etc.## Description```    This is for tracking and checking activities. It will store the data in table    and Notification package should take care of sending notification in case there is something unexpected    1) is_location_service_on?    2) is_this_is_first_time_on_cam?    3) is_shivam_in_front_of _any_camera?    4) is_shivam_working late night?    5) Is_shivam_at_home?    6) is_mom_calling?    7) is_shivam_far_away?    8) is_shivam_coming_home?    ```</longdescription>
+</pkgmetadata>

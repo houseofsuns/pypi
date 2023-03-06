@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Client[![Unit tests](https://github.com/sweetrpg/client/actions/workflows/python-ci.yml/badge.svg)](https://github.com/sweetrpg/client/actions/workflows/python-ci.yml)[![Coverage](https://github.com/sweetrpg/client/blob/develop/coverage.svg)](https://github.com/sweetrpg/client)[![PyPI version](https://badgen.net/pypi/v/sweetrpg-client)](https://pypi.org/project/sweetrpg-client)[![License](https://img.shields.io/github/license/sweetrpg/client.svg)](https://img.shields.io/github/license/sweetrpg/client.svg)[![Issues](https://img.shields.io/github/issues/sweetrpg/client.svg)](https://img.shields.io/github/issues/sweetrpg/client.svg)[![PRs](https://img.shields.io/github/issues-pr/sweetrpg/client.svg)](https://img.shields.io/github/issues-pr/sweetrpg/client.svg)[![Dependabot](https://badgen.net/github/dependabot/sweetrpg/client)](https://badgen.net/github/dependabot/sweetrpg/client)[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white)](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white)[![Built with love](https://ForTheBadge.com/images/badges/built-with-love.svg)](https://ForTheBadge.com/images/badges/built-with-love.svg)This package provides client access to SweetRPG API resources.## DocumentationDocumentation for this package can be found [here](https://sweetrpg.github.io/client).</longdescription>
+</pkgmetadata>

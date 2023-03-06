@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pyperscan## LicenseLicensed under either of- Apache License, Version 2.0  ([LICENSE-APACHE](LICENSE-APACHE) or http://www.apache.org/licenses/LICENSE-2.0)- MIT license  ([LICENSE-MIT](LICENSE-MIT) or http://opensource.org/licenses/MIT)at your option.## ContributionUnless you explicitly state otherwise, any contribution intentionally submittedfor inclusion in the work by you, as defined in the Apache-2.0 license, shall bedual licensed as above, without any additional terms or conditions.</longdescription>
+</pkgmetadata>

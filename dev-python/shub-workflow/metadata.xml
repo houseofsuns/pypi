@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>A set of tools for controlling processing workflow with spiders and script running in scrapinghub ScrapyCloud.# Installationpip install shub-workflow# UsageCheck [Project Wiki](https://github.com/scrapinghub/shub-workflow/wiki) for documentation. You can also see code tests for lots of examples of usage.# NoteThe requirements for this library are defined in setup.py as usual. The Pipfile files in the repository don't define dependencies. It is only usedfor setting up a development environment for shub-workflow library development and testing.</longdescription>
+</pkgmetadata>

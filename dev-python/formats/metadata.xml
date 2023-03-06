@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Formats=======|Version| |License|.. |Version| image:: https://img.shields.io/pypi/v/formats.svg?style=flat    :target: https://pypi.python.org/pypi/formats    :alt: Version.. |License| image:: https://img.shields.io/pypi/l/formats.svg?style=flat    :target: https://github.com/redodo/formats/blob/master/LICENSE    :alt: LicenseInstallation via PIP::    pip install --pre formatsQuick usage overview::    &gt;&gt;&gt; import formats    &gt;&gt;&gt; formats.discover()    &gt;&gt;&gt; text = '''    ...     awesome_things:    ...     - dodos    ...     - pythons    ... '''    &gt;&gt;&gt; formats.parse('yaml', text)    {'awesome_things': ['dodos', 'pythons']}    &gt;&gt;&gt; formats.convert('yaml', 'json', text)    '{&quot;awesome_things&quot;: [&quot;dodos&quot;, &quot;pythons&quot;]}'</longdescription>
+</pkgmetadata>

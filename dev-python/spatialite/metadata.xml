@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>spatialite==========Wrapper for standard Python module `sqlite3` which adds SpatiaLite support.Requirement: mod_spatialite---------------------------This module will try to load SpatiaLite extension in SQLite and thus requires&quot;mod_spatialite&quot; being present.Ubuntu::    $ apt-get install libsqlite3-mod-spatialitemacOS::    $ brew install libspatialiteInstall-------Using pip::    $ pip install spatialiteUsage-----.. code-block:: python    import spatialite    with spatialite.connect('sl_temp.db') as db:        print(db.execute('SELECT spatialite_version()').fetchone()[0])</longdescription>
+</pkgmetadata>

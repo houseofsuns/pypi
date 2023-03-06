@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Unicboard billing api is available on PyPI:## Requires:Python &gt;=3.6## install:python -m pip install unicboard_billing_sdk## usage:```pythonfrom unicboard_billing_sdk import BillingApiSdkApi = BillingApiSdk(    api_billing_url=&quot;unicboard url&quot;,    api_token=&quot;yours token&quot;,) ```### get list devices```pythondevices = Api.get_device_list_info() # default limit = 1000devices = Api.get_device_list_info(limit: int, offset: int) #  for custom limit/offsetlist_device_id = [device.id for device in devices] list_device_mac = [device.data_gateway_network_device.mac for device in devices]```### get device by device_id```pythondevice = Api.get_device_info(UUID(device_id))```### get device by device_id```pythondevices_values = Api.get_device_value(    devices_id=list_device_id,    period_from: datetime,    period_to: Optional[datetime],  # default now)```</longdescription>
+</pkgmetadata>

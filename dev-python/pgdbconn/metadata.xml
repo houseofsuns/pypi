@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>========PgDbConn========PgDbConn is an offshoot from the Perseas project (started as Pyrseas)to isolate and generalize the Postgres database connection code sothat it can be used in other Perseas products, such as a webapplication to update Postgres tables.Features--------- Connect to a Postgres database with minimal information, creating a  DbConnection object- Provide basic methods through the DbConnection object, e.g., fetch,  execute, commit, rollback- (planned) Connect using a pool of connections, so that it can be used,  for example, in a web applicationRequirements------------- PostgreSQL 9.2 or higher- Python 2.7, or 3.4 or higher- Psycopg2 2.5 or higherLicense-------PgDbConn is free (libre) software and is distributed under the BSDlicense.  Please see the LICENSE file for details.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>============CYDataAccess============.. image:: https://img.shields.io/pypi/v/cy_data_access.svg        :target: https://pypi.python.org/pypi/cy_data_access=======History=======0.0.1 (2020-03-02)------------------* First release on PyPI.</longdescription>
+</pkgmetadata>

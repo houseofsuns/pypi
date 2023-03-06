@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;h1 align=&quot;center&quot;&gt;&lt;i&gt;✨ pylzf ✨ &lt;/i&gt;&lt;/h1&gt;&lt;h3 align=&quot;center&quot;&gt;The python binding for &lt;a href=&quot;https://github.com/ProjectHentai/liblzf&quot;&gt;liblzf&lt;/a&gt; &lt;/h3&gt;[![pypi](https://img.shields.io/pypi/v/pylzf.svg)](https://pypi.org/project/pylzf/)![python](https://img.shields.io/pypi/pyversions/pylzf)![implementation](https://img.shields.io/pypi/implementation/pylzf)![wheel](https://img.shields.io/pypi/wheel/pylzf)![license](https://img.shields.io/github/license/synodriver/pylzf.svg)![action](https://img.shields.io/github/workflow/status/synodriver/pylzf/build%20wheel)### 安装```bashpip install pylzf```### 使用```pythonimport pylzfpylzf.compress(b&quot;123&quot;, 100)pylzf.decompress(b&quot;xxx&quot;, 100)data = bytearray(1000)pylzf.compress_into(b&quot;1212&quot;, data)pylzf.decompress_into(b&quot;xxxx&quot;, data)```### 公开函数```pythondef compress(data: bytes, outlen: int = ...) -&gt; bytes: ...def decompress(data: bytes, outlen: int) -&gt; bytes: ...def compress_into(data: bytes, out: bytearray) -&gt; int: ...def decompress_into(data: bytes, out: bytearray) -&gt; int: ...```### 本机编译```python -m pip install setuptools wheel cython cffigit clone https://github.com/synodriver/pylzfcd pylzfgit submodule update --init --recursivepython setup.py bdist_wheel --use-cython --use-cffi```### 后端选择默认由py实现决定，在cpython上自动选择cython后端，在pypy上自动选择cffi后端，使用```LZF_USE_CFFI```环境变量可以强制选择cffi</longdescription>
+</pkgmetadata>

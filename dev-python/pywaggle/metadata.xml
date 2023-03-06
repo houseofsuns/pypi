@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Waggle Python Modulepywaggle is a Python module for implementing [Waggle](https://github.com/waggle-sensor/waggle) plugins and system services.## Installation GuidesMost users getting started with pywaggle will want to install latest version with all optional dependencies using:```shpip install -U pywaggle[all]```Advanced users can install specific subsets of functionality using the following extras flags:* `audio` - Audio and microphone support for plugins.* `vision` - Image, video and camera support for plugins.```sh# install only core plugin featurespip install pywaggle# install only audio featurespip install pywaggle[audio]# install only vision featurespip install pywaggle[vision]# install both audio and vision featurespip install pywaggle[audio,vision]```## Usage Guides* [Writing a plugin](https://github.com/waggle-sensor/pywaggle/blob/main/docs/writing-a-plugin.md)</longdescription>
+</pkgmetadata>

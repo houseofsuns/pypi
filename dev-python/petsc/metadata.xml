@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>The Portable, Extensible Toolkit for Scientific Computation (PETSc),is a suite of data structures and routines for the scalable (parallel)solution of scientific applications modeled by partial differentialequations. It employs the Message Passing Interface (MPI) standard forall message-passing communication... note::   To install ``PETSc`` and ``petsc4py`` (``mpi4py`` is optional   but highly recommended) use::     $ python -m pip install numpy mpi4py  (or pip install numpy mpi4py)     $ python -m pip install petsc petsc4py (or pip install petsc petsc4py).. tip::  You can also install the in-development versions with::    $ python -m pip install Cython numpy mpi4py    $ python -m pip install --no-deps https://gitlab.com/petsc/petsc/-/archive/main/petsc-main.tar.gz  To set the MPI compilers use the environmental variables ``MPICC``, ``MPICXX``, ``MPIF90``.  Provide any ``PETSc`` ./configure options using the environmental variable ``PETSC_CONFIGURE_OPTIONS``.  Do not use the ``PETSc`` ``./configure`` options ``--with-cc``, ``--with-cxx``, ``--with-fc``, or ``--with-mpi-dir``.  If ``mpi4py`` is installed the compilers will obtained from that installation and ``MPICC``, ``MPICXX``, ``MPIF90`` will be ignored.</longdescription>
+</pkgmetadata>

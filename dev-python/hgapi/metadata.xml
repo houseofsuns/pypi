@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>hgapi is a pure-Python API to Mercurial, that uses the command-lineinterface instead of the internal Mercurial API. The rationale forthis is twofold: the internal API is unstable, and it is GPL.hgapi works for any version of Mercurial, including  &lt; 1.9, and willinstantly reflect any changes to the repository. It also has a reallypermissive license (do whatever you want, don't blame me).For example of code that uses this API, take a look athttps://bitbucket.org/haard/autohook which now uses hgapiexclusively.</longdescription>
+</pkgmetadata>

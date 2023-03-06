@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Number to Thai textThe tool is a convert number to thai text : **Python 3.6+**.# Features- Convert number integer or float to Thai text.- Convert thai text to number.# Setup- Check version Python and PIP![](https://github.com/pinyoothotaboot/num-thai/blob/master/docs/images/check_version.png?raw=true)- Install lib : num-thai![](https://github.com/pinyoothotaboot/num-thai/blob/master/docs/images/install_numthai.png?raw=true)- Test lib in python shell![](https://github.com/pinyoothotaboot/num-thai/blob/master/docs/images/example_numthai.png?raw=true)# Example```pythonfrom num_thai.thainumbers import NumThainum = NumThai()text = num.NumberToTextThai(1111111111111111)number = num.TextThaiToNumber(&quot;ลบสามสิบเอ็ดจุดแปดหก&quot;)print(&quot;Text is &quot;,text)print(&quot;Number is &quot;,number)```# About- Support digit length 1 - 16 digit.- Support minus digit.- Support integer or float number.- Support thai text</longdescription>
+</pkgmetadata>

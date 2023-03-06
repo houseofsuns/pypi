@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;p align=&quot;center&quot;&gt;  &lt;img src=&quot;https://raw.githubusercontent.com/rockem/busypie/master/docs/source/_static/busypie_logo.png&quot; width=&quot;120&quot;/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;  &lt;strong&gt;Easy and expressive busy-waiting for Python&lt;/strong&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;  &lt;a href=&quot;https://github.com/rockem/busypie/actions&quot;&gt;&lt;img src=&quot;https://github.com/rockem/busypie/workflows/Build/badge.svg&quot;/&gt;&lt;/a&gt;  &lt;a href=&quot;https://github.com/rockem/busypie/releases&quot;&gt;&lt;img src=&quot;https://img.shields.io/github/v/release/rockem/busypie&quot;/&gt;&lt;/a&gt;  &lt;a href=&quot;https://github.com/rockem/busypie/blob/master/LICENSE&quot;&gt;&lt;img src=&quot;http://img.shields.io/:license-apache2.0-blue.svg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;Although you wouldn't want to do much busy waiting in your production code, testing is a different matter. When testing asynchronous systems, it's very helpful to wait for some scenario to finish its course. busypie helps you perform busy waiting easily and expressively. ## QuickstartMost typical usage will be in test, when we have a scenario that require us to wait for something to happen.```pythonfrom busypie import wait, SECONDdef test_create_user():    create_user_from(USER_DETAILS)    wait().at_most(2, SECOND).until(lambda: is_user_exists(USER_DETAILS))```## Documentation* [Installation](https://busypie.readthedocs.io/en/latest/install.html)* [Usage Guide](https://busypie.readthedocs.io/en/latest/index.html)## LinksThis project drew a lot of inspiration from [Awaitility](https://github.com/awaitility/awaitility).</longdescription>
+</pkgmetadata>

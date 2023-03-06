@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Chaos Toolkit AddonsThis project provides a set of commnly requested actions, probes, tolerancesor controls that can benefit the community.## InstallThis package requires Python 3.7+To be used from your experiment, this package must be installed in the Pythonenvironment where [chaostoolkit][] already lives.[chaostoolkit]: https://github.com/chaostoolkit/chaostoolkit```$ pip install chaostoolkit-addons```## Develop### TestTo run the tests for the project execute the following:```$ pytest```### ContributeIf you wish to contribute more functions to this package, you are more thanwelcome to do so. Please, fork this project, make your changes following theusual [PEP 8][pep8] code style, sprinkling with tests and submit a PR forreview.[pep8]: https://pycodestyle.readthedocs.io/en/latest/</longdescription>
+</pkgmetadata>

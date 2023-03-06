@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Ansys Prime Server gRPC Interface PackageThis Python package contains the auto-generated gRPC Python interface files forAnsys Prime Server.  Contributions for this API will not be accepted.  Pleasecreate an issue or discussion for questions or enhancements relating to thisproject.## InstallationProvided that these wheels have been published to public PyPI, they can beinstalled with:```bashpip install ansys-api-meshing-prime```## BuildTo build the gRPC packages, run:```bashpip install buildpython -m build .```This will create both the source distribution containing just the protofilesalong with the wheel containing the protofiles and build Python interfacefiles.Note that the interface files are identical regardless of the version of Pythonused to generate them, but the last pre-built wheel was Python 3.7, so toimprove your build time, use Python 3.7 when building the wheel.## Manual DeploymentAfter building the packages, manually deploy them with:```bashpip install twinetwine upload dist/*```Note that this is automatically done through CI/CD.## Automatic DeploymentThis repository contains GitHub CI/CD that enables the automatic building ofsource and wheel packages for these gRPC Python interface files. By default,these are built on PRs, the main branch, and on tags when pushing. Artifactsare uploaded for each PR.To publicly release wheels to PyPI, ensure your branch is up-to-date and thenpush tags. For example, for the version ``v0.1.2``.```bashgit tag v0.1.2git push --tags```</longdescription>
+</pkgmetadata>

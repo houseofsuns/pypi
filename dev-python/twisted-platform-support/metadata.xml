@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Twisted Platform Support========================What is this?-------------Code that allows Twisted to work on platforms where Python does not have complete bindings for everything Twisted needs.For example, this includes:- I/O Completion Ports for Windows (&quot;IOCPReactor&quot;)- ``sendmsg`` support for Python 2- other C used in testing.How do I get it?----------------Just ``pip install twisted[platform_support]``.</longdescription>
+</pkgmetadata>

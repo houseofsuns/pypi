@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## TSD API ClientTransport files and directories, no limits on size or amount, resumable by default, synchronise if needed.## Install```bashpip3 install tsd-api-clientpip3 install tsd-api-client --upgrade # to get the latest version```## taclGet started with `tacl`:```bashtacl --guide configtacl --guide uploadstacl --guide downloadstacl --guide synctacl --guide topics # to see all guides availabletacl --help```Set up shell completion:```sh# for Bash, in ~/.bashrc:eval &quot;$(_TACL_COMPLETE=source_bash tacl)&quot;# for Zsh, in ~/.zshrc:eval &quot;$(_TACL_COMPLETE=source_zsh tacl)&quot;# for Fish, in ~/.config/fish/completions/tacl.fisheval (env _TACL_COMPLETE=source_fish tacl)```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pytest-expect=============A `py.test &lt;http://pytest.org/latest/&gt;`_ plugin that stores testexpectations by saving the set of failing tests, allowing them to bemarked as xfail when running them in future. The tests expectationsare stored such that they can be distributed alongside thetests. However, note that test expectations can only be reliablyshared between Python 2 and Python 3 if they only use ASCII charactersin their node ids: this likely isn't a limitation if tests are usingthe normal Python format, as Python 2 only allows ASCII characters inidentifiers.Compatibility-------------We follow `semver &lt;http://semver.org/spec/v2.0.0.html&gt;`_. Our publicAPI is defined by the expectation file and the command line parameters.In other words: for a given major release (e.g., 1.y.z), expectationfiles and command line parameters will remain compatible. Across majorversions, we'll try to break as little as possible. All pre-release(0.y.z) versions should be compatible with each other, but areunlikely to be compatible with 1.0.0.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Dessia commonThe common parts of the dessia SDK.## PurposeThe dessia SDK consists in a framework to build python apps that can be uploaded and interpreted by dessia platform instances. This package give a base class to make your object inherit.## Installation```pip(3) install dessia_common ```pip can be named pip3 by your distribution.Python at a version &gt; 3.8 is required.## UsageThe main usage is to make your objects inherit from dessia_common.DessiaObject.This will give them the powers to be handled by dessia platforms.## DocumentationsFor user documentation on how to use this SDK: https://documentation.dessia.techFor developement documentation or precise questions on classes and method: https://documentation.dessia.tech/dessia_common/## Changelog &amp; roadmapSee markdown files in the repo CHANGELOG.md and ROADMAP.md for details.</longdescription>
+</pkgmetadata>

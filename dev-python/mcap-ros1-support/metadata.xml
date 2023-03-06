@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Python MCAP Ros1 supportThis package provides ROS1 support for the Python MCAP file format reader &amp;amp;writer.## InstallationYou can install directly via pip.```bashpip install mcap-ros1-support```## Reading ROS1 Messages```python# Reading from a MCAP filefrom mcap_ros1.reader import read_ros1_messagesfor msg in read_ros1_messages(&quot;my_data.mcap&quot;):    print(f&quot;{msg.topic}: f{msg.ros_msg}&quot;)```## Writing ROS1 Messages```pythonfrom mcap_ros1.writer import Writer as Ros1Writerfrom std_msgs.msg import Stringoutput = open(&quot;example.mcap&quot;, &quot;w+b&quot;)ros_writer = Ros1Writer(output=output)for i in range(0, 10):    ros_writer.write_message(&quot;chatter&quot;, String(data=f&quot;string message {i}&quot;))ros_writer.finish()```## Stay in touchJoin our [Slack channel](https://foxglove.dev/join-slack) to ask questions,share feedback, and stay up to date on what our team is working on.</longdescription>
+</pkgmetadata>

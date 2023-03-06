@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![license-url](https://img.shields.io/npm/l/make-coverage-badge.svg)](https://opensource.org/licenses/MIT)![coverage-badge](https://raw.githubusercontent.com/mh-superbox/superbox-utils/main/coverage.svg)![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg)# Superbox UtilsUtilities for superbox python packages.</longdescription>
+</pkgmetadata>

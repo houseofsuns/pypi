@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;p align=&quot;center&quot;&gt;&lt;a href=&quot;http://gdbgui.com&quot;&gt;&lt;img src=&quot;https://github.com/cs01/gdbgui/raw/master/images/gdbgui_banner.png&quot;&gt;&lt;/a&gt;&lt;/p&gt;&lt;h3 align=&quot;center&quot;&gt;A browser-based frontend to gdb (gnu debugger)&lt;/h3&gt;&lt;p align=&quot;center&quot;&gt;&lt;a href=&quot;https://github.com/cs01/gdbgui/actions&quot;&gt;&lt;img src=&quot;https://github.com/cs01/gdbgui/workflows/Tests/badge.svg?branch=master&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;https://badge.fury.io/py/gdbgui&quot;&gt;&lt;img src=&quot;https://badge.fury.io/py/gdbgui.svg&quot; alt=&quot;PyPI version&quot; &gt;&lt;/a&gt;&lt;img src=&quot;https://pepy.tech/badge/gdbgui&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;---**Documentation**: https://gdbgui.com**Source Code**: https://github.com/cs01/gdbgui/</longdescription>
+</pkgmetadata>

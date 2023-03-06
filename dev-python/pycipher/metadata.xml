@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pycipher========Common classical ciphers implemented in Python.Documentation is available at http://pycipher.readthedocs.io/en/master/ .Install-------::    pip install git+git://github.com/jameslyons/pycipherExample usage-------------::    &gt;&gt;&gt; from pycipher import ADFGVX    &gt;&gt;&gt; adfgvx = ADFGVX(key='PH0QG64MEA1YL2NOFDXKR3CVS5ZW7BJ9UTI8', keyword='GERMAN')    &gt;&gt;&gt; adfgvx.encipher(&quot;Hello world!&quot;)    'FVFDAGXAFFFFGFAGADFG'    &gt;&gt;&gt; adfgvx.decipher(_)    'HELLOWORLD'Feedback--------The code is hosted on GitHub: https://github.com/jameslyons/pycipherIf you find any bugs make an issue or create a pull request.To run the test suite::    python setup.py test</longdescription>
+</pkgmetadata>

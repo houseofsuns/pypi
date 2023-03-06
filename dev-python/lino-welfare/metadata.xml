@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Lino Welfare is a`Lino &lt;https://www.lino-framework.org&gt;`__plugin libraryfor Belgian*Public Centres for Social Welfare*.- Project homepage: https://gitlab.com/lino-framework/welfare- Documentation: https://welfare.lino-framework.org- There are *user guides* in `French  &lt;https://welfare.lino-framework.org/fr&gt;`_ and `German  &lt;https://welfare.lino-framework.org/de&gt;`_.- There are two applications using this library:  `Châtelet &lt;https://gitlab.com/lino-framework/welcht&gt;`__  and `Eupen &lt;https://gitlab.com/lino-framework/weleup&gt;`__- Online demo sites at  https://welcht1.mylino.net  and  https://weleup1.mylino.net- This is an integral part of the Lino framework, which is documented  at https://www.lino-framework.org- Changelog: https://www.lino-framework.org/changes- For introductions, commercial information and hosting solutions  see https://www.saffre-rumma.net- This is a sustainably free open-source project. Your contributions are  welcome.  See https://community.lino-framework.org for details.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Burner![PyPI](https://img.shields.io/pypi/v/burner) ![PyPI - License](https://img.shields.io/pypi/l/burner) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/burner)Easy to use script to determine the cheapest price for [SimSMS](https://simsms.org/) codes.## Installation### With Pip```bashpip install burner```### With Poetry```bashpoetry add git+https://github.com/ramadan8/Burner.git```### Manual```bashgit clone https://github.com/ramadan8/Burner --depth 1poetry install```## UsageUse the following command to find the code for the service you want.```bashburner services```Then use the following command to find the price list for the service.```bashburner prices opt29 # This will get the price list for Telegram.```If you want to refresh the cache for the prices to a newer version, run the following command.```bashburner --authorization &lt;apikey&gt; reset```If you'd like to buy a phone number, use the following format. An API key with available funds is necessary for this command.```bashburner -a &lt;apikey&gt; number &lt;countrycode&gt; &lt;servicecode&gt;```For example, you could type the following to get a Russian [Signal](https://signal.org/) code.```bashburner -a &lt;apikey&gt; number RU opt127```You can also set your API key with the `SMS_AUTHORIZATION` environment variable.For more information simply type `burner --help`.</longdescription>
+</pkgmetadata>

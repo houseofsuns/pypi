@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;p align=&quot;center&quot;&gt;  &lt;img src=&quot;https://github.com/Getdeck/beiboot/raw/main/docs/static/img/logo.png&quot; alt=&quot;Gefyra Logo&quot;/&gt;&lt;/p&gt;# Getdeck Beiboot_Getdeck Beiboot_ (or just Beiboot for brevity) is a Kubernetes-in-Kubernetes solution. It was born from the idea to provide Getdeck users a simple yet flexible solution to spin up **hybrid cloud development** infrastructure. This is useful for Kubernetes development workloads which grew too large to run on a development machine (or with pony workloads on MacOS and Windows machines). # Beiboot ClientThe Beiboot client is a Python API to manage Beiboot clusters. It can set up and tear down Kubernetes instancesas well as establish connections.</longdescription>
+</pkgmetadata>

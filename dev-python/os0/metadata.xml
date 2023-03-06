@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This module extends python os module with a few new functionalityto interface operating system.It recognizes file name structure and manages both URI standard nameboth local name, as UNC and ODS5.- URI (Uniform Resource Identifier) is standard posix filename.- UNC (Uniform Naming Convention) is windows standard- ODS5 is used for define OpenVMS standard filenamesAn example of URI filename is '/home/myfile'.UNC example for the same of previous URI name is '\home\myfile'(with single backslash).ODS5 (OpenVMS) for the same of previous URI name is '[home]myfile'</longdescription>
+</pkgmetadata>

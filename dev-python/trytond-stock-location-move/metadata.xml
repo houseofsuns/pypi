@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Stock Location Move Module##########################The stock location move module allows to define some *Locations* as movable(like palette).Such locations can be moved using an *Internal Shipment*. The parent locationis changed for the destination location when the shipment is done. If there isa transit location, the locations will be first moved to this one when shipped.A reservation mechanism prevent to assign the same locations at the same time.If a *Customer Shipment* or a *Supplier Return Shipment* empties a movablelocation, it will automatically deactivate it.</longdescription>
+</pkgmetadata>

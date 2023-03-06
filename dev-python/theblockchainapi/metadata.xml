@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># The Blockchain APISubmit issues and feature requests for our API on our &lt;a href=&quot;https://github.com/BL0CK-X/the-blockchain-api&quot;&gt;main GitHub repository&lt;/a&gt;.See &lt;a href=&quot;https://docs.theblockchainapi.com&quot;&gt;the docs&lt;/a&gt; for more info.## Python Quick Start`pip install theblockchainapi`Get an API key pair at &lt;a href=&quot;https://dashboard.theblockchainapi.com&quot;&gt;dashboard.theblockchainapi.com&lt;/a&gt;.`from theblockchainapi import TheBlockchainAPIResource``result = TheBlockchainAPIResource(&quot;APIKeyID&quot;, &quot;APISecretKey&quot;).generate_secret_key()``print(result)`There are many examples using this package &lt;a href=&quot;https://github.com/BL0CK-X/the-blockchain-api/tree/main/examples&quot;&gt;here&lt;/a&gt;.## Python DocumentationTo get a list of available functions, run `help(TheBlockchainAPIResource)` after importing `TheBlockchainAPIResource` as shown above.## DocumentationFor full API documentation, check out &lt;a href=&quot;https://docs.theblockchainapi.com&quot;&gt;the docs&lt;/a&gt;.</longdescription>
+</pkgmetadata>

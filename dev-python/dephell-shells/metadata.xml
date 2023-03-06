@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Dephell ShellsRun shell for virtual environment.## InstallationInstall from [PyPI](https://pypi.org/project/dephell-shells/):```bashpython3 -m pip install --user dephell_shells```## Usage```pythonfrom pathlib import Pathfrom dephell_shells import Shellsshells = Shells(bin_path=Path('/home/gram/.../dephell-nLn6/bin'))shells.current# ZshShell(bin_path=Path('/home/gram/.../dephell-nLn6'), shell_path=Path('/usr/bin/zsh'))shells.current.run()```## CLIShow current shell path:```bash$ python3 -m dephell_shells/bin/zsh```Actiavate venv:```bash$ python3.7 -m dephell_shells ./venv/bin```</longdescription>
+</pkgmetadata>

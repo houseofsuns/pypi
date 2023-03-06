@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># DEPRECATED blaseball-reference-pyDEPRECATED: This package is no longer being maintained. Datablase wrappers are being further developed in `blaseball-mike`. https://github.com/jmaliksi/blaseball-mikePython wrapper around the Blaseball stats API# Installation```pip install blaseball-reference```# Usagehttps://api.blaseball-reference.com/docs#/# Development```python3 -m venv envsource env/bin/activatepip install -r requirements.txt```# Release1. Update `version` in setup.py. Please use semver.2. Merge changes3. Create a new release in github with matching version ID. Project will be uploaded to PyPi automatically.# ExamplesTo start,```from blaseball_reference import api```When no arguments are specified, a ```dict``` object is returned, with a key for each player ID that could fit the query. For example, running```print(api.batting_average())```will print a dictionary of every Blaseball batter and their batting averages, and will not return pitchers.```{'batter_id': value'}```Some queries, ```event_type``` for example, will return every player.You can specify the ID of the player to filter by. Multiple pitchers can also be specified, by passing a list or a string delimited by commas```pitcherera = api.era(&quot;pitcher_id&quot;)``````pitcherera = api.era([&quot;pitcher_id&quot;, &quot;pitcher_id&quot;, &quot;pitcher_id&quot;])``````pitcherera = api.era(&quot;pitcher_id, pitcher_id, pitcher_id&quot;)```</longdescription>
+</pkgmetadata>

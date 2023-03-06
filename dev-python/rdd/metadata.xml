@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># rddrdd is a set of tools for implementing regression discontinuity designs in Python.  At present, it only allows for inputs that are pandas Series or DataFrames.  Check out the tutorial [here](https://github.com/evan-magnusson/rdd/blob/master/tutorial/tutorial.ipynb) for a guide to using this package.## Installation:To install using `pip`, run `pip install rdd`. See [here](https://pypi.org/project/rdd/) for more information and to download from PyPI.  Otherwise, you can download this repository.## Current Features:* Computes the Imbens-Kalyanaraman optimal bandwidth (see [this article](http://www.nber.org/papers/w14726.pdf) for details)* Creates a dataset containing only observations within a given bandwidth* Generates a reduced pandas DataFrame for graphical analysis (such as binned scatter plots) when the number of observations is large* Implements a sharp RDD  * With or without user supplied equation and/or controls  * Via OLS or WLS## Features to Come:* Tutorial on how to check rdd's statistical assumptions in Python, such as using:  * Continuity plots  * Density plots  * Tests for discontinuities  * Checking for balance and testing for random assignment (though not a requirement, it can still be a useful check)* McCrary tests* Implementation of Fuzzy RDD</longdescription>
+</pkgmetadata>

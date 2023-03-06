@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>|bmlab|=======|PyPI Version| |Build Status| |Coverage Status| |Docs Status|This is a Python library for the post-measurement analysis ofBrillouin microscopy data.Documentation-------------The documentation, including the code reference and examples, is available at`bmlab.readthedocs.io &lt;https://bmlab.readthedocs.io/en/stable/&gt;`__.Installation------------::    pip install bmlabFor more options, please check out the `documentation&lt;https://bmlab.readthedocs.io/en/latest/sec_getting_started.html#installation&gt;`__.Contributing------------Please read our `information for developers&lt;https://bmlab.readthedocs.io/en/latest/sec_develop.html&gt;`__... |bmlab| image:: https://raw.github.com/BrillouinMicroscopy/bmlab/main/docs/logo/bmlab.png.. |PyPI Version| image:: https://img.shields.io/pypi/v/bmlab.svg   :target: https://pypi.python.org/pypi/bmlab.. |Build Status| image:: https://img.shields.io/github/workflow/status/BrillouinMicroscopy/bmlab/Checks   :target: https://github.com/BrillouinMicroscopy/bmlab/actions?query=workflow%3AChecks.. |Coverage Status| image:: https://img.shields.io/codecov/c/github/BrillouinMicroscopy/bmlab/main.svg   :target: https://codecov.io/gh/BrillouinMicroscopy/bmlab.. |Docs Status| image:: https://readthedocs.org/projects/bmlab/badge/?version=latest   :target: https://readthedocs.org/projects/bmlab/builds/</longdescription>
+</pkgmetadata>

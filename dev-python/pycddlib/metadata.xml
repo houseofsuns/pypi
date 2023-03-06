@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>`cddlib &lt;https://people.inf.ethz.ch/fukudak/cdd_home/&gt;`_ isan implementation of the Double Description Method of Motzkin etal. for generating all vertices (i.e. extreme points) and extreme raysof a general convex polyhedron given by a system of linearinequalities.The program also supports the reverse operation (i.e. convex hullcomputation). This means that one can move back and forth between aninequality representation and a generator (i.e. vertex and ray)representation of a polyhedron with cdd.  Also, it can solve a linearprogramming problem, i.e. a problem of maximizing and minimizing alinear function over a polyhedron.* Download: https://pypi.org/project/pycddlib/#files* Documentation: https://pycddlib.readthedocs.io/en/latest/* Development: https://github.com/mcmtroffaes/pycddlib/ |ci|.. |ci| image:: https://github.com/mcmtroffaes/pycddlib/actions/workflows/python-package.yml/badge.svg       :target: https://github.com/mcmtroffaes/pycddlib/actions/workflows/python-package.yml       :alt: ci</longdescription>
+</pkgmetadata>

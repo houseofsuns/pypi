@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># freenlpca wrapper for nlpcloud free-tier.# FEATURES- wrappes all the important nlpcloud free-tier models in one object.- no rate limit per minute error, it will just keep on trying until it gets the response.- you can initialize it with more than one API token, if one reached the rate limit it will automatically switch to the other API token.# AVAILABLE TASKS- classification- dialog summary- headline generation- entities extraction- question answering- semantic similarity- sentiment/emotions analysis- summarization- embeddings- translation- language detection- tokenization and lemmatization- sentence dependencies# INSTALLATION```pip install freenlpc```# USAGE```from freenlpc import FreeNlpctokens = [&quot;token1&quot;, &quot;token2&quot;] # your nlpcloud api token/snlpc = FreeNlpc(tokens)# then use whatever task you wantresult = nlpc.sentiment_emotions(&quot;i am feelin happy&quot;)```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Pydenticon==========Pydenticon is a small utility library that can be used for deterministicallygenerating identicons based on the hash of provided data.The implementation is a port of the Sigil identicon implementation from:* https://github.com/cupcake/sigil/Pydenticon provides a couple of extensions of its own when compared to theoriginal Sigil implementation, like:* Ability to supply custom digest algorithms (allowing for larger identicons if  digest provides enough entropy).* Ability to specify a rectangle for identicon size..</longdescription>
+</pkgmetadata>

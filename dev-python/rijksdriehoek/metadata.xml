@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># python-rijksdriehoekConverts Rijksdriehoek coordinates to WGS'84, and vice versa.Example usage:``from rijksdriehoek import rijksdriehoekrd = rijksdriehoek.Rijksdriehoek()print(&quot;Original coordinates in WGS'84: {},{}&quot;.format(str(52.3761973), str(4.8936216)))rd.from_wgs(52.3761973, 4.8936216)print(&quot;Rijksdriehoek: {},{}&quot;.format(str(rd.rd_x), str(rd.rd_y)))lat, lon = rd.to_wgs()print(&quot;WGS'84 coordinates converted from RD: {},{}&quot;.format(str(lat), str(lon)))``Please be aware that every conversion from WGS-&gt;RD-&gt;WGS has shown to introduce a inaccuracy of up to 0.0000001 degrees. Please take that into consideration when deciding whether this tool is useful for usage in your project.</longdescription>
+</pkgmetadata>

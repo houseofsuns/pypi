@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;h1 id=&quot;2b6aba2c8ec2f8b0&quot;&gt;selenium2mysql&lt;/h1&gt;preparing&lt;!-- Markdown link &amp; img dfn's --&gt;</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Libsolv=======This is libsolv, a free package dependency solver using a satisfiabilityalgorithm.The code is based on two major, but independent, blocks: 1. Using a dictionary approach to store and retrieve package and    dependency information in a fast and space efficient manner. 2. Using satisfiability, a well known and researched topic, for    resolving package dependencies.The sat-solver code has been written to aim for the newest packages,record the decision tree to provide introspection, and also providesthe user with suggestions on how to deal with unsolvableproblems. It also takes advantage of repository storage tominimize memory usage.Supported package formats:  - rpm/rpm5  - deb  - arch linux  - haikuSupported repository formats:  - rpmmd (primary, filelists, comps, deltainfo/presto, updateinfo)  - susetags, suse product formats  - mandriva/mageia (synthesis, info, files)  - arch linux  - red carpet helix format  - haikuBuild instructions==================Requires: cmake 2.8.5 or later    mkdir build    cd build    cmake ..    make////vim: syntax=asciidoc////</longdescription>
+</pkgmetadata>

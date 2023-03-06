@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image:: https://s3.amazonaws.com/conda-dev/conda_logo.svg   :alt: Conda LogoConda is a cross-platform, language-agnostic binary package manager. It is thepackage manager used by `Anaconda&lt;http://docs.continuum.io/anaconda/index.html&gt;`_ installations, but it may beused for other systems as well.  Conda makes environments first-classcitizens, making it easy to create independent environments even for Clibraries. Conda is written entirely in Python, and is BSD licensed opensource.Installation############**WARNING:** Using ``pip install conda`` or ``easy_install conda`` will notgive you conda as a standalone application.  Currently supported installmethods include the Anaconda installer and the miniconda installer.  Youcan download the miniconda installer from https://conda.io/miniconda.html.</longdescription>
+</pkgmetadata>

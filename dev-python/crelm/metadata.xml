@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># CrelmThe Crelm package provides a relatively simple API around the CFFI system. Give it C code or source files, it gives you a package with bindings to functions and `struct`s. Easiest way to get started is hack up the examples in [the repo](https://github.com/wideopensource/crelm/tree/main/examples).### Installationpip3 install crelm### Simple Demo```from crelm import Factorypaste = Factory(debug=False, verbose=True).create_Tube('add2') \    .add_source_text('int add2(int a, int b) { return a + b; }') \    .squeeze()print(f'2 + 3 = {paste.add2(2, 3)}')```</longdescription>
+</pkgmetadata>

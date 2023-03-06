@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># AerForgeA game engine made with pygame.## Getting Started1) Install Python2) Open cmd/terminal and type:```pip install AerForge```## Examples# Creating a window``` pythonfrom aerforge import *forge = Forge()@forge.eventdef update():    passforge.run()```# Creating a cube``` pythonfrom aerforge import *forge = Forge()class Cube(Entity):    def __init__(self):        super().__init__(            window = forge,            shape = shape.Rect,            width = 20,            height = 20,            x = 0,            y = 0,            color = color.Color(0, 255, 255)        )        self.center()cube = Cube()@forge.eventdef update():    passforge.run()```</longdescription>
+</pkgmetadata>

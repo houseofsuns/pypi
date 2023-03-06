@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Windmill is an Open Source AJAX Web UI Testing framework.  Windmill implements cross browser testing, in-browser recording and playback, and functionality for fast accurate debugging and test environment integration.We welcome any and all interest and contribution, as we work diligently at adding new features and keeping up with your bugs.Thanks for your interest and participation!</longdescription>
+</pkgmetadata>

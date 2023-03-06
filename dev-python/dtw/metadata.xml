@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Dtw is a Python Module for computing Dynamic Time Warping distance. It can be used as a similarity measured between temporal sequences.More info can be found at: https://github.com/pierre-rouanet/dtwIt is compatible with Python 2.7-3.6 and is distributed under the GPLv3 license.</longdescription>
+</pkgmetadata>

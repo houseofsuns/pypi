@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># CFunctionsCFunctions (cloud functions, compute functions, construct functions) are abuilding block of the [constructs programming model] which can be used topackage JavaScript code and run it on a cloud system.Let's take a look at a simple CFunction:```pythonconst { CFunction } = require('cfunctions');const cfunc = new CFunction({  capture: [ 'x', 'y' ],  code: 'x + y'});console.log('outfile:', cfunc.outfile);console.log('env:', cfunc.env);```The output will look like this:```shelloutfile: /tmp/.cf.out.TAJEO8/cf.jsenv: { __CF__x__: '100', __CF__y__: '200' }```The `cf.js` file is a a self-contained JavaScript module which can be loadedthrough a `require()` statement and returns an async function that executes thecode after binding it from a set of environment variables.Let's execute our cfunction:```shell$ export __CF__x__=123$ export __CF__y__=10$ node -e &quot;require('/tmp/.cf.out.TAJEO8/cf.js')().then(result =&gt; console.log(result))&quot;12310```The `CFunction.exec()` static method can also be used to execute the function:```jsconst result = CFunction.exec('/tmp/.cf.out.TAJEO8/cf.js', {  env: {    __CF__x__: 123,    __CF__y__: 10  }});console.log(result);```## LicenseLicensed under the [Apache 2.0](./LICENSE) license.</longdescription>
+</pkgmetadata>

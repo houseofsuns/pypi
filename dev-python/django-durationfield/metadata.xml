@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Reusable Django application that adds a DurationField implementationThe django-durationfield package is a implementation for `#2443 &lt;http://code.djangoproject.com/ticket/2443&gt;`_,&quot;Add IntervalField to database models.&quot; Since the existing patch was notcommitted before the 1.2 feature deadline, this package attempts to make thepatch into a reusable application that provides a ``DurationField``.</longdescription>
+</pkgmetadata>

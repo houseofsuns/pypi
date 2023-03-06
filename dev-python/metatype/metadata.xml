@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Metatype========Implements the base metaformat types for different versions ofmetaformat.This package provides classes derived from base ``dict`` class, withmodified constructors, in order to validate represent data itemsfollowing metaformat’s specific version (specific metaformats).It is organized as follows:::   metatype     metatype       mft         &lt;N&gt;       rfc         &lt;N&gt;       iso         &lt;N&gt;</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># sphinx-markdown-tablesA [Sphinx](http://www.sphinx-doc.org/en/master/) extension for rendering markdown tables.Sphinx supports markdown via [Recommonmark,](https://github.com/rtfd/recommonmark) which does not support tables. Thisextension provides them.It renders markdown tables as HTML, as defined by [python-markdown](https://python-markdown.github.io/)## Installation    pip install sphinx-markdown-tables## Usage### Quick versionAdd `sphinx_markdown_tables` to `extensions` in `conf.py`, like so:    extensions = [        'sphinx_markdown_tables',    ]### Longer versionSphinx needs to be configured to use markdown. First, you need `recommonmark`:    pip install recommonmarkIn `conf.py`, configure `source_parsers` and `source_suffix`:    source_parsers = {        '.md': 'recommonmark.parser.CommonMarkParser',    }    source_suffix = ['.rst', '.md']Once Sphinx is configured appropriately, add `sphinx_markdown_tables` to `extensions`, like so:    extensions = [        'sphinx_markdown_tables',    ]For more information on Sphinx and markdown, see the[Sphinx documentation.](http://www.sphinx-doc.org/en/master/usage/markdown.html)## LicenseThis project is available under the GPLv3 license. For other licensing arrangements contact[Ryan Fox.](https://foxrow.com)</longdescription>
+</pkgmetadata>

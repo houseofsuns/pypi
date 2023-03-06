@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Opqua is an epidemiological modeling framework for population genetics and evolution. Opqua stochastically simulates  pathogens with specific, evolving genotypes spread through  populations of hosts that can have specific immune profiles. Opqua is a useful tool to test out scenarios, explore hypotheses, and make predictions about the relationship between pathogen evolution and epidemiology.  Visit github.com/pablocarderam/opqua for more information.</longdescription>
+</pkgmetadata>

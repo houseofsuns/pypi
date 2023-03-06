@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Perlin noise is ubiquitous in modern CGI. Used for procedural texturing,animation, and enhancing realism, Perlin noise has been called the &quot;salt&quot; ofprocedural content. Perlin noise is a type of gradient noise, smoothlyinterpolating across a pseudo-random matrix of values.The noise library includes native-code implementations of Perlin &quot;improved&quot;noise and Perlin simplex noise. It also includes a fast implementation ofPerlin noise in GLSL, for use in OpenGL shaders. The shader code and many ofthe included examples require Pyglet (http://www.pyglet.org), the native-codenoise functions themselves do not, however.The Perlin improved noise functions can also generate fBm (fractal Brownianmotion) noise by combining multiple octaves of Perlin noise. Shader functionsfor convenient generation of turbulent noise are also included.- 1.2.2 AppVeyor support for Windows builds (Thanks to Federico Tomassetti)- 1.2.1 Fixes MSVC compatibility (Thanks to Christoph Gohlke)- 1.2.0 adds 4D simplex noise, tiling for 2D simplex noise,   and parameterized lacunaritySee CHANGES.txt for more details</longdescription>
+</pkgmetadata>

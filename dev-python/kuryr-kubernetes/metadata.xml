@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>========================Team and repository tags========================.. image:: https://governance.openstack.org/tc/badges/kuryr-kubernetes.svg   :target: https://governance.openstack.org/tc/reference/tags/index.html.. Change things from this point onProject description===================Kubernetes integration with OpenStack networkingThe OpenStack Kuryr project enables native Neutron-based networking inKubernetes. With Kuryr-Kubernetes it's now possible to choose to run bothOpenStack VMs and Kubernetes Pods on the same Neutron network if your workloadsrequire it or to use different segments and, for example, route between them.* Free software: Apache license* Documentation: https://docs.openstack.org/kuryr-kubernetes/latest* Source: https://opendev.org/openstack/kuryr-kubernetes* Bugs: https://bugs.launchpad.net/kuryr-kubernetes* Overview and demo: https://superuser.openstack.org/articles/networking-kubernetes-kuryr* Release notes: https://docs.openstack.org/releasenotes/kuryr-kubernetes/Contribution guidelines-----------------------For the process of new feature addition, refer to the `Kuryr Policy`_... _Kuryr Policy: https://wiki.openstack.org/wiki/Kuryr#Kuryr_Policies</longdescription>
+</pkgmetadata>

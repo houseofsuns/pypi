@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Testpath is a collection of utilities for Python code working with files and commands.It contains functions to check things on the filesystem, and tools for mockingsystem commands and recording calls to those.`Documentation on ReadTheDocs &lt;https://testpath.readthedocs.io/en/latest/&gt;`_e.g.::    import testpath    testpath.assert_isfile(path)        with testpath.assert_calls('git', ['add', path]):        function_under_test()</longdescription>
+</pkgmetadata>

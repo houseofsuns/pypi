@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># 这是什么?这是一个导入一次解耦方案, 封装了importlib并进行了底层的修改.# 这能干什么?``` pythonfrom entrancebar.Import import Importfrom entrancebar.sources import FromSitePackage, FromFileLocationos, Path, getframe, join, thisfile = Import(    os=&quot;os::$this&quot;,    Path=&quot;pathlib::Path&quot;,    getframe=&quot;sys::_getframe&quot;,    join=&quot;os::path/join&quot;,    thisfile=&quot;testfile::$this&quot;)(    os=FromSitePackage(&quot;os&quot;),    pathlib=FromSitePackage(&quot;pathlib&quot;),    sys=FromSitePackage(&quot;sys&quot;),    testfile=FromFileLocation(&quot;./test.py&quot;)) # 实际上, 导入不需要解构运算符, Import会直接把传入的具名实参导入到当前的globals()内.```# 所以这么没用的玩意发出来干啥?给我自己用.</longdescription>
+</pkgmetadata>

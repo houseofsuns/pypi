@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image:: https://img.shields.io/pypi/v/cherrypy_cors.svg   :target: https://pypi.io/project/cherrypy_cors.. image:: https://img.shields.io/pypi/pyversions/cherrypy_cors.svg.. image:: https://img.shields.io/pypi/dm/cherrypy_cors.svg.. image:: https://img.shields.io/travis/yougov/cherrypy-cors/master.svg   :target: http://travis-ci.org/yougov/cherrypy-corsCORS support for CherryPyLicense=======License is indicated in the project metadata (typically one or moreof the Trove classifiers). For more details, see `this explanation&lt;https://github.com/jaraco/skeleton/issues/1&gt;`_.In a nutshell=============In your application, either install the tool globally... code-block:: python    import cherrypy_cors    cherrypy_cors.install()Or add it to your application explicitly... code-block:: python    import cherrypy_cors    app = cherrypy.tree.mount(...)    app.toolboxes['cors'] = cherrypy_cors.toolsThen, enable it in your cherrypy config. For example, to enable it for allstatic resources... code-block:: python    config = {        '/static': {            'tools.staticdir.on': True,            'cors.expose.on': True,        }    }See `simple-example&lt;https://github.com/yougov/cherrypy-cors/blob/master/simple-example.py&gt;`_for a runnable example.</longdescription>
+</pkgmetadata>

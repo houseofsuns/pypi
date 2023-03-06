@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Event Model[![Build Status](https://img.shields.io/github/workflow/status/bluesky/event-model/Unit%20Tests)](https://github.com/bluesky/event-model/actions?query=workflow%3A%22Unit+Tests%22+branch%3Amaster)[**Documentation**](https://blueskyproject.io/event-model/)</longdescription>
+</pkgmetadata>

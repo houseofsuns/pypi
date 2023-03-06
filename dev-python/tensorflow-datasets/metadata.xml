@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>tensorflow/datasets is a library of public datasets ready to use withTensorFlow. Each dataset definition contains the logic necessary to download andprepare the dataset, as well as to read it into a model using the`tf.data.Dataset` API.Usage outside of TensorFlow is also supported.See the README on GitHub for further documentation.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># point_in_time_gridPoint-in-time grid-based recipe for Pollination.Use this recipe to calculate illuminance or irradiance for a single point in time,given a HBJSON model and a sky condition. This recipe can also compute luminanceand radiance, though these will interpret the sensors as individual rays.Skies can be either CIE, ClimateBased/Custom, or for a specificIlluminance/Irradiance. This input can also just be a text definitionof a sky's parameters. Examples include:* cie 21 Mar 9:00 -lat 41.78 -lon -87.75 -tz 5 -type 0* climate-based 21 Jun 12:00 -lat 41.78 -lon -87.75 -tz 5 -dni 800 -dhi 120* irradiance 0</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># CockroachDB dialect for SQLAlchemy## PrerequisitesFor psycopg2 support you must install either:* [psycopg2](https://pypi.org/project/psycopg2/), which has some  [prerequisites](https://www.psycopg.org/docs/install.html#prerequisites) of  its own.* [psycopg2-binary](https://pypi.org/project/psycopg2-binary/)(The binary package is a practical choice for development and testing but inproduction it is advised to use the package built from sources.)Or, for asyncpg support (⚠️ experimental 🏗) you must install* [asyncpg](https://pypi.org/project/asyncpg/) ## Install and usageUse `pip` to install the latest version.`pip install sqlalchemy-cockroachdb`NOTE: This version of the dialect requires SQLAlchemy 2.0 or later. To work withearlier versions of SQLAlchemy you'll need to install an earlier version of thisdialect.`pip install sqlalchemy-cockroachdb&lt;2.0.0`Use a `cockroachdb` connection string when creating the `Engine`. For example,to connect to an insecure, local CockroachDB cluster using psycopg2:```from sqlalchemy import create_engineengine = create_engine('cockroachdb://root@localhost:26257/defaultdb?sslmode=disable')```or```from sqlalchemy import create_engineengine = create_engine('cockroachdb+psycopg2://root@localhost:26257/defaultdb?sslmode=disable')```To connect using asyncpg (⚠️ experimental 🏗):```from sqlalchemy import create_async_engineengine = create_async_engine('cockroachdb+asyncpg://root@localhost:26257/defaultdb')```## ChangelogSee [CHANGES.md](https://github.com/cockroachdb/sqlalchemy-cockroachdb/blob/master/CHANGES.md)</longdescription>
+</pkgmetadata>

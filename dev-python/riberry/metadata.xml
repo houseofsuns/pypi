@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Riberry[![CircleCI](https://circleci.com/gh/srafehi/riberry/tree/master.svg?style=svg)](https://circleci.com/gh/srafehi/riberry/tree/master)Under active development[Documentation](https://riberry.app)</longdescription>
+</pkgmetadata>

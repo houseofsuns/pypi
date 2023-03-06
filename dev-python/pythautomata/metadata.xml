@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># PythautomataPythautomata is a Python library for modeling finite state systems.## **About**Pythautomata is developed at the Department of Artificial Intelligence and Big Data of the Universidad ORT Uruguay. Its main goal is to provide implementations for the structures needed for working in the Model Extraction Framework.Models present in the framework are:- DFA- NFA- WFA/PDFA- SFAAll of these can be exported in different manners, like pickle or to visual representations using Graphviz. Besides the structure representations a number of algorithms of interest are implemented, to name a few:- FSA minimization- FSA comparison using Hopcroft Karp equivalence- FSA intersection (and other boolean operations)## **Installation**```pip install pythautomata```## **Documentation**- [**API Documentation:**](https://neuralchecker.github.io/pythautomata/index.html)## **Maintainers**Federico VilenskyFranz MayrFederico Pan## Colaborators</longdescription>
+</pkgmetadata>

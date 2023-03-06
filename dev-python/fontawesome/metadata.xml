@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Font Awesome icons for python |PyPI version|============================================Installation --------------.. code:: sh   pip install fontawesomeUsage -------.. code:: py   import fontawesome as fa   print(fa.icons['thumbs-up'])   &gt;&gt;&gt; Build -------.. code:: sh   # Run the generate script to download font awesome's character mapping   # and generate a python-formatted version of it.  Save this file as icons.py   # in the fontawesome subdirectory.  Note that this pulls the latest revision   # on the master branch.  You can easily change this  with the --revision flag.   ./fontawesome/generate.py &gt; ./fontawesome/icons.py   python setup.py build   python setup.py installLicense-------The code in this repository is licensed under `Apache2.0 &lt;https://www.apache.org/licenses/LICENSE-2.0&gt;`__The character codes included with this package are part of the `FontAwesome project &lt;http://fontawesome.io/&gt;`__... |PyPI version| image:: https://badge.fury.io/py/fontawesome.svg   :target: https://badge.fury.io/py/fontawesome</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Kivy-WidgetsWelcome to the &quot;Kivy Widgets&quot; repository! This repository contains a collection of custom widgets for the Kivy Python library. These widgets are designed to enhance the functionality and user experience of your Kivy applications.`IconViewer`:```pyfrom kivy.app import runTouchAppfrom kivy.lang import Builderfrom kivy_widgets import color_definitionsfrom kivy_widgets.icons import IconViewerrunTouchApp(Builder.load_string(&quot;&quot;&quot;IconViewer:&quot;&quot;&quot;))```https://user-images.githubusercontent.com/23220309/228534067-bab84dda-8910-45f8-be38-1242dada9c17.mp4## ContributingWe welcome contributions to this repository from the Kivy community. If you have created a custom widget that you think would be a good fit for this repository, please feel free to submit a pull request with your changes.## LicenseThis repository is licensed under the MIT License, which allows for both personal and commercial use of the code provided. ## AcknowledgementsWe would like to thank the Kivy community for helping to make Kivy a powerful and versatile library for Python developers.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;img align=&quot;left&quot; src=&quot;./docs/source/rindcalc_logo.png&quot; width=&quot;140&quot; height=&quot;149.4&quot;/&gt; # Rindcalc**A Spectral Index Raster Calculator For Satellite Image Processing**[![Documentation Status](https://readthedocs.org/projects/rindcalc/badge/?version=2.0.5)](https://rindcalc.readthedocs.io/en/2.0.5/?badge=2.0.5)[![Build Status](https://travis-ci.org/ocsmit/rindcalc.svg?branch=master)](https://travis-ci.org/ocsmit/rindcalc)[![Conda Platforms](https://anaconda.org/rindcalc/rindcalc/badges/platforms.svg)](https://anaconda.org/rindcalc/rindcalc)[![DOI](https://zenodo.org/badge/232691170.svg)](https://zenodo.org/badge/latestdoi/232691170)---#### For more information visit the [Rindcalc documentation](https://rindcalc.readthedocs.io/en/latest/)Rindcalc is an open source python library built on numpy and gdal aiming toprovide seamless and accurate raster index calculations and composites of satellite and aerial imagery.    It currently consists of index calculation, composite and utility functionsfor Landsat-8 and USDA NAIP imagery, with Sentinel-2 and MODIS satellitefunctionality in the works**Roadmap**- [ ] Finish Sentinel-2 implementation- [x] Rework Landsat, NAIP, and Sentinel to operate in classes- [ ] Segmentation and zonal statistics**Install with pip**Dependencies: * GDAL - *need to build from .whl file*  * NumPy```consolepip install rindcalc```    **Install with conda**```consoleconda install -c rindcalc rindcalc ```If rindcalc is not importing after conda install on Windows 10 then rindcalc files need to be moved from Lib/pythonX.X/site-packages/ to Lib/site-packageswithin the conda env folder. </longdescription>
+</pkgmetadata>

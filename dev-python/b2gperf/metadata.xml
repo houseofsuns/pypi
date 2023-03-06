@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># b2gperfb2gperf is a tool for testing the performance of[Firefox OS](https://developer.mozilla.org/en-US/docs/Mozilla/Firefox_OS).## PrerequisitesYou will need a[Marionette enabled Firefox build](https://developer.mozilla.org/en-US/docs/Marionette/Builds)that you can[successfully connect to](https://developer.mozilla.org/en-US/docs/Marionette/Connecting_to_B2G).## InstallationInstallation is simple:    pip install b2gperfIf you anticipate modifying b2gperf, you can instead:    git clone git://github.com/mozilla/b2gperf.git    cd b2gperf    python setup.py develop## Running    Usage: b2gperf [options] app_name [app_name] ...    For full usage details run `b2gperf --help`.## Test VariablesCurrently the only test variable support is for a wifi network. If you want toconnect to wifi before measuring performance, please specify a path to a JSONfile that describes the network. For example:    {      &quot;wifi&quot;: {        &quot;ssid&quot;: &quot;MyNetwork&quot;,        &quot;keyManagement&quot;: &quot;WPA-PSK&quot;,        &quot;psk&quot;: &quot;SecurePassword&quot;      }    }</longdescription>
+</pkgmetadata>

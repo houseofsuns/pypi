@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># conjurerPython library to help you to perform magic on your data analytics project; which helps- EDA (load &amp; check data)- Automatic machine learning tuning## Why do I need this?## ReferenceFor installation / user guide please refer https://github.com/not-so-fat/conjurer/wiki</longdescription>
+</pkgmetadata>

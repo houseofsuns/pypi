@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># zacktools### Useful tools created by zackdai# install`pip install zacktools`or from git`pip3 install git+https://github.com/ZackAnalysis/zacktools.git`## pageparserA tool for parse address,phone, email, facebook, twitter, linkedin, contact link, about us link from a webpage### usage```from zacktools import pageparserimport requestsres = requests.get('http://rel8ed.to')result = pageparser.parse(res.content)print(result)``````{  &quot;facebook&quot;: &quot;https://www.facebook.com/rel8edto/&quot;,  &quot;twitter&quot;: &quot;https://twitter.com/rel8edto&quot;,  &quot;instagram&quot;: &quot;&quot;,  &quot;linkedin&quot;: &quot;https://www.linkedin.com/company/rel8ed-to&quot;,  &quot;contactlink&quot;: &quot;http://www.rel8ed.to/contact-us/&quot;,  &quot;aboutlink&quot;: &quot;http://www.rel8ed.to/about-us/&quot;,  &quot;title&quot;: &quot;Big Data Analysis Data Mining Predictive Analytics&quot;,  &quot;email&quot;: &quot;info@rel8ed.to&quot;,  &quot;phone&quot;: &quot;905.321.0466&quot;,  &quot;Mainaddress&quot;: &quot;1 St. Paul St., Unit A303, St. Catharines, ON L2R 7L2&quot;,  &quot;addresses&quot;: [    &quot;1 St. Paul St., Unit A303, St. Catharines, ON L2R 7L2&quot;  ]}```### Test it [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1aE8PeQhJym8G6I_yHVfqIuydod5tlQuQ?usp=sharing)## multithread```from zacktools.multiThread import scrapeurlsimport asynciourls = ['ibm.com','idc.com']asyncio.run(scrapeurls(urls))```</longdescription>
+</pkgmetadata>

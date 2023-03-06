@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># `fastapi-pagination-minus-one`The `fastapi-pagination-minus-one` is a simple package that reduces by one de initial page of fastapi-pagination usage.</longdescription>
+</pkgmetadata>

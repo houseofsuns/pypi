@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pfp is an 010 template interpreter for Python. It accepts an        input data stream and an 010 template and returns a modifiable        DOM of the parsed data. Extensions have also been added to the        010 template syntax to allow for linked fields (e.g. checksums,        length calculations, etc), sub structures in compressed data,        etc.</longdescription>
+</pkgmetadata>

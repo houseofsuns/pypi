@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># discord-lib 0.0.5discord-lib currently supports discord bots written in JSON, XML and yaml. It will soon support toml, etc## Installation```pip install git+https://github.com/CodeWithSwastik/discord-lib```</longdescription>
+</pkgmetadata>

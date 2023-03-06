@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>FF Proxy - Python Client========================FF includes a client library for use in Python projects.## InstallationThe python package `ff-client` can be installed with pip:```pip install ff-client```See latest versions [here](https://pypi.org/project/ff-client/)## UsageThe `FfClient` class provides the ability to send a HTTP request string to an FF proxy:```pythonfrom ff_client import FfClient, FfConfig, FfRequestimport loggingclient = FfClient(    FfConfig(        ip_address='127.0.0.1',        port=8080,         pre_shared_key='testkey',        log_level=logging.DEBUG    ))client.send_request('''GET / HTTP/1.1Host: google.com''',https=True)```</longdescription>
+</pkgmetadata>

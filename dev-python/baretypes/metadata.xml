@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># bareTypesTypes for [bareASGI](https://github.com/rob-blackbourn/bareASGI)and [bareClient](https://github.com/rob-blackbourn/bareClient)(read the [docs](https://rob-blackbourn.github.io/bareTypes/)).## InstallationThe package can be installed with pip.```bashpip install baretypes```This is a Python 3.7 and later package with no dependencies.</longdescription>
+</pkgmetadata>

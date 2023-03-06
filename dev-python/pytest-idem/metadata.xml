@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>***********PYTEST-IDEM*************A pytest plugin to help with testing idem projects**INSTALLATION============Install with pip::    pip install pytest-idemDEVELOPMENT INSTALLATION========================Clone the `pytest-idem` repo and install with pip::    git clone https://gitlab.com/vmware/idem/pytest-idem.git    pip install -e pytest-idemACCT====Some projects, specifically need credentials from idem's ctx generator.A ctx fixture exists, but it won't work unless you override the `acct_file` and `acct_profile` fixtures::    @pytest.fixture    def acct_subs() -&gt; List[str]:        return [&quot;azurerm&quot;, &quot;vultr&quot;]    @pytest.fixture    def acct_profile() -&gt; str:        return &quot;test_development_idem_cloud&quot;Once these fixtures are overridden, the `ctx` fixture will become available to your test::    test_cloud_instance_present(hub, ctx):        hub.state.cloud.present(ctx, &quot;instance_name&quot;)</longdescription>
+</pkgmetadata>

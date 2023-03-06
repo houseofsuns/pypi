@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Tile Size- Aggregate Operation Sum, Min, Max, 99th percentile, 95th Percentile - Split based on zoom level - Compare different tilesets </longdescription>
+</pkgmetadata>

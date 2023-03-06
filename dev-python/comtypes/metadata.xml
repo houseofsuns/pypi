@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>comtypes========**comtypes** is a lightweight Python COM package, based on the ctypes_FFI library, in less than 10000 lines of code (not counting thetests).**comtypes** allows to define, call, and implement custom anddispatch-based COM interfaces in pure Python.  It works on Windows and64-bit Windows. Windows CE support was dropped since comtypes==1.1.8.Documentation:    https://pythonhosted.org/comtypes    Contribute using the `source repository and issue tracker    &lt;https://github.com/enthought/comtypes/&gt;`_ on GitHub.Mailing list:    http://gmane.org/info.php?group=gmane.comp.python.comtypes.user    https://lists.sourceforge.net/lists/listinfo/comtypes-users/Download:    Releases can be downloaded in the PyPI page:    https://pypi.python.org/pypi/comtypes.. _ctypes: http://docs.python.org/lib/module-ctypes.html</longdescription>
+</pkgmetadata>

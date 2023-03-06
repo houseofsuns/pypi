@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>I simple utility to sign http requests given some private keyTo run the python tests1. pip install -r requirements/test.txt2. nosetestsTo run the example using flask1. pip install -r requirements/example.txt2. python app.py3. open a browser and point to http://localhost:5000/After you invoke the GET request above you should see a request in the terminalGET /verify?__client_id=example&amp;username=foo&amp;password=bar&amp;__signature=somestrangestuffhereThis shows the client in action but at this time our example does not truly verify the signed request</longdescription>
+</pkgmetadata>

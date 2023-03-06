@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Bitso FrameworkPython library companion for the Bitso Framework## How to build from source```bashgit clone ...cd bitsoframeworkpython3 -m venv .python-envsource .python-env/bin/activatepip install -r requirements/local.txt## at least once to set up all your libraries needed to build#source scripts/pre-build.sh## actually build the local package#source scripts/build.sh```## PYPITo set credentials to publish you may run the following command:python3 -m keyring set https://upload.pypi.org/legacy/ bitsoDocker Quick Start-----------This project creates a shared database.If using docker it will create a shared network and volume that the other projects can connect to.Start bitsoframework by running `docker-compose -f local.yml up --build`If you are missing the network or volume you will see the following prompts:  - create network with `docker network create bitso_local_network`  - create volume with `docker volume create --name=bitso_local_db_volume`</longdescription>
+</pkgmetadata>

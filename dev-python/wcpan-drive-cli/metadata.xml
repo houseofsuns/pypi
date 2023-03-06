@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># wcpan.drive.cliCommand line tool for `wcpan.drive`.This package needs a driver to actually work with a cloud drive.## ConfigYou will need a `core.yaml` file in **config path**.By default it is `$HOME/.config/wcpan.drive`, but you can change it by`--config-prefix` flag.```shpython3 -m wcpan.drive.cli --config-prefix=/path/to/config ...```Here is an example of `core.yaml`:```yamlversion: 1database: nodes.sqlitedriver: wcpan.drive.google.driver.GoogleDrivermiddleware: []```## Command Line UsageGet the latest help:```shpython3 -m wcpan.drive.cli -h```You need to authorize an user first.```shpython3 -m wcpan.drive.cli auth```Then you should build local cache.Many commands reliy on this cache to avoid making too many API requests.Note that this is the **ONLY** command that will update the cache.Which means after `upload`, `mkdir`, `remove`, `rename`, you need to run thiscommand to make the cache up-to-date.```shpython3 -m wcpan.drive.cli sync```The `remove` command only put files to trash can, it does **NOT** permanentlyremove **ANY** files.Removing a folder will also remove all its descendants.```python3 -m wcpan.drive.cli remove file1 file2 ...```</longdescription>
+</pkgmetadata>

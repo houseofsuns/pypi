@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>\/    /\__/\\__=(  o_O )=(__________) |_ |_ |_ |_CAT-SOOPCAT-SOOP is a flexible, programmable learning management system originallydeveloped primarily for use in MIT's 6.01 (Introduction to ElectricalEngineering and Computer Science via Robotics).CAT-SOOP is Free/Libre Software, available under the terms of the GNU AfferoGeneral Public License, version 3+.  Please note that the terms of this licenseapply to the CAT-SOOP system itself, but not to any course material hosted on aCAT-SOOP instance, unless explicitly stated otherwise.CONTACT-------Web Site: https://catsoop.mit.eduCommunity Forum: https://catsoop.mit.edu/forum                 (post via e-mail: community@catsoop.mit.edu)INSTALLING-----------To install, run:  $ pip3 install catsoopOr, for the LTS release, run:  $ pip3 install catsoop~=2019.9Or, from a clone of the repository, run:  $ make installTo generate a config.py file, run:  $ catsoop configureIf you are setting up a public-facing copy of CAT-SOOP (as opposed to a localcopy for debugging purposes), see the instructions at:    https://catsoop.mit.edu/website/docs/installing/server_configurationTo start the server, run:  $ catsoop startTo run all the unit tests:  $ make testHACKING--------See https://catsoop.mit.edu/website/docs/contributing/hackingINCLUDED SOFTWARE-----------------CAT-SOOP incorporates pieces of third-party software.  Licensing informationfor the original programs is available in the LICENSE.included_software file.The CAT-SOOP distribution also includes several pieces of third-party software.Licensing information for these programs is included in this distribution, inthe LICENSE.bundled_software file.</longdescription>
+</pkgmetadata>

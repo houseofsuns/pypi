@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># geckodriver-autoinstallerAutomatically download and install [geckodriver](https://github.com/mozilla/geckodriver/releases/latest) that supports the currently installed version of firefox. This installer supports Linux, MacOS and Windows operating systems.## Installation```bashpip install geckodriver-autoinstaller```## UsageJust type `import geckodriver_autoinstaller` in the module you want to use geckodriver.## Example```from selenium import webdriverimport geckodriver_autoinstallergeckodriver_autoinstaller.install()  # Check if the current version of geckodriver exists                                     # and if it doesn't exist, download it automatically,                                     # then add geckodriver to pathdriver = webdriver.Firefox()driver.get(&quot;http://www.python.org&quot;)assert &quot;Python&quot; in driver.title```</longdescription>
+</pkgmetadata>

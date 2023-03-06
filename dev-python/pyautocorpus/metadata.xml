@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># PyAutoCorpusA python interface to the excellent [AutoCorpus](https://github.com/mpacula/AutoCorpus) library.Right now, it only supports the wiki markup `textify` function, which strips outmarkup. From my benchmarks, this ends up being \~40x faster than methods to stripmarkup using other libraries:```bashmwparserfromhell 0.208 sec/docwikitextparser 0.215 sec/docpyautocorpus 0.005 sec/doc```where: - `mwparserfromhell` is `mwparserfromhell.parse(x).strip_code()` - `wikitextparser` is `wikitextparser.parse(x).plain_text()` - `pyautocorpus` is `pyautocorpus.Textifier().textify(x)`## Installing### From pypi:```bashpip install pyautocorpus```### From source:Be sure to clone recursively:```bashgit clone --recursive https://github.com/seanmacavaney/pyautocorpus.git```You will first need the `pcre` library installed.```bashpython setup.py install```## UsageExample:```pythonimport pyautocorpustextifier = pyautocorpus.Textifier()textifier.textify(&quot;==Wiki Marked up text==\n [[Some Page|link text]] example.&quot;)'Wiki Marked up text\n\n\n link text example.'```## Known issues - Windows is not yet supported## Credits[AutoCorpus](https://github.com/mpacula/AutoCorpus)Contributors to this repository: - Sean MacAvaney (University of Glasgow) - Thomas Jänich (University of Glasgow)</longdescription>
+</pkgmetadata>

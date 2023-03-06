@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Python library to generate nicely formatted trees, like the UNIX `tree`command.## ExampleProduce output like this:```foo├── bar│   ├── a│   └── b├── baz└── qux    └── c⏎        d```using code like this:```pythonfrom operator import itemgetterfrom tree_format import format_treetree = (    'foo', [        ('bar', [            ('a', []),            ('b', []),        ]),        ('baz', []),        ('qux', [            ('c\nd', []),        ]),    ],)print format_tree(    tree, format_node=itemgetter(0), get_children=itemgetter(1))```## LicenseThis is made available under the Apache Software License, version 2.0.Copyright (c) 2015 - Jonathan M. Lange## TestingRun tests with:```python -m testtools.run discover```</longdescription>
+</pkgmetadata>

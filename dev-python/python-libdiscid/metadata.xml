@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># libdiscid Python bindingspython-libdiscid implements Python &gt;= 3.6 bindings for libdiscid using Cython.## Dependencies* libdiscid* Cython (&gt;= 0.15, optional)* pkgconfig (optional)Note that the tarballs come with pre-built C source for the Cython module. SoCython is only required if one builds python-libdiscid from the git repositoryor if one wants to change anything in the Cython module.If pkgconfig is installed, setup.py uses libdiscid's pkg-config information toset include directories, libraries to link, etc.## Quick installation guidepython-libdiscid is available in some distributions:* Debian/Ubuntu: `apt-get install python3-libdiscid` (Python 3)* Fedora: `dnf install python3-libdiscid` (Python 3)python-libdiscid can be installed via `pip`:```$ pip install python-libdiscid```or by running:```$ python3 setup.py install```If you just want to try it locally, run:```$ python3 setup.py build_ext -i```and hack right away. You can also run:```$ python3 setup.py build```but please make sure that `build/lib.*` is in `sys.path` before the sourcefolder.## A note for Windows usersThere are eggs available from PyPI that don't require the extension module to bebuilt. If these are used, it is still required to drop a working discid.dll in`C:\WINDOWS\system32` (or wherever it can be found).## Usage```python3from libdiscid import readdisc = read(&quot;/dev/cdrom&quot;)print(&quot;id: {}&quot;.format(disc.id))```## Licensepython-libdiscid is released under the MIT license. Check LICENSE for details.</longdescription>
+</pkgmetadata>

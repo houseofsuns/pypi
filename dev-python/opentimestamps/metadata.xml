@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># python-opentimestampsPython3 library for creating and verifying OpenTimestamps proofs.## InstallationFrom the PyPi repository:    pip3 install opentimestamps## StructureSimilar to the author's `python-bitcoinlib`, the codebase is split between theconsensus-critical `opentimestamps.core.*` modules, and thenon-consensus-critical `opentimestamps.*` modules. The distinction between thetwo is whether or not changes to that code are likely to lead to permanentincompatibilities between versions that could lead to timestamp validationreturning inconsistent results between versions.## Unit tests    python3 -m unittest discover -vAdditionally Travis is supported.## SSL Root CertificatesOn some MacOS setups SSL certificates may be missing. The following commandscould be of use to resolve this error (the below example assumes a user isrunning Python &quot;3.7&quot;, and is using Certifi package):```cd /Applications/Python\ 3.7Install\ Certificates.command```</longdescription>
+</pkgmetadata>

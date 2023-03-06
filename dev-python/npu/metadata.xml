@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># NPU Python Client PackageTo install, run:`pip install npu`To use in code:`import npu` This library has four core functions. `npu.api, npu.compile, npu.train, npu.predict` Here is an example script of them in use. ```import npufrom npu.vision.models import resnet18from npu.vision.datasets import CIFAR10npu.api(API_KEY)model = npu.train(resnet18(pretrained=True),                         train_data=CIFAR10.train,                         val_data=CIFAR10.val,                         loss=npu.loss.CrossEntropyLoss,                         optim=npu.optim.SGD(lr=0.01),                         batch_size=128,                         epochs=2)output = npu.predict(model, data)```Full documentation is [here](https://dashboard.neuro-ai.co.uk/docs/)</longdescription>
+</pkgmetadata>

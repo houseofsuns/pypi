@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>A multivalue dictionary is a dictionary that can store multiple values for thesame key. An ordered multivalue dictionary is a multivalue dictionary thatretains the order of insertions and deletions.omdict retains method parity with dict.Information and documentation at https://github.com/gruns/orderedmultidict.</longdescription>
+</pkgmetadata>

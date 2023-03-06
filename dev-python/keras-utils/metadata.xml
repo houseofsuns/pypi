@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Keras UtilsThis package provides utilities for Keras, such as modified callbacks, genereators, etc.## InstallationTo install the package from the PyPi repository you can execute the followingcommand:```shpip install keras-utils```## UsageThe usage of the package is simple:```pyimport kerasimport keras_utils# build your modelmodel = get_model(input_shape, num_classes=num_classes, reserve_layers=reserve_layers)# build your train-set &amp; validation-set generatorstrain_generator = ImageDataGenerator().flow_from_directory(        train_images_path,        target_size=target_size,        batch_size=batch_size,        color_mode='rgb',        class_mode='categorical',        seed=seed,        shuffle=True)valid_generator = ImageDataGenerator().flow_from_directory(        valid_images_path,        target_size=target_size,        batch_size=1,        color_mode='rgb',        class_mode='categorical',        shuffle=False)# create a validation-callback which tests the validation-set every 10 epocksvalid_callback = ValidateCallback(10, valid_generator, model)# create a save-callback which saves the model every 20 epochs under the name &quot;model_name&quot;save_callback = SaveCallback(20, 'model_name.model', model)# train your modelmodel.fit_generator(generator=train_generator,                    epochs=epochs,                    verbose=1,                    workers=8,                    callbacks=[valid_callback, save_callback])```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>osgeo package===============A dummy placeholder for the `gdal` packageIn order to be able to run `from osgeo import gdal`, You were probably trying to install `gdal` by running `pip install osgeo`.Instead, you should either `pip install gdal` or replace `osgeo` with `gdal` in your requirements.This package was made so an attacker would not be able to take advantage of this confusion.</longdescription>
+</pkgmetadata>

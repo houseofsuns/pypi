@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>lpschedule-generator====================Python package that enables the FSF_ to write the LibrePlanet_schedule in Markdown_.See &quot;Installation_&quot; to get started... _Installation: https://ricketyspace.net/lpschedule-generator/install.. _FSF: https://fsf.org.. _LibrePlanet: https://libreplanet.org/conference.. _Markdown: https://daringfireball.net/projects/markdown</longdescription>
+</pkgmetadata>

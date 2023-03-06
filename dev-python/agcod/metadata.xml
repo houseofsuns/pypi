@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Amazon Gift Code On-Demand (AGCOD)This is a tool for working with the AGCOD service and can be used for easily creating, cancellingand checking the status of Amazon gift codes.## Install`pip install agcod`## Quickstart```pythonfrom agcod import clientclient.sandbox = True  # default is True, False will use production URLsclient.debug = False  # default is Falseclient.aws_region_name = 'us-east-1'  # Default is us-east-1client.partner_id = '&lt;Your Partner ID&gt;'client.aws_key_id = '&lt;Your AWS Key ID&gt;'client.aws_secret_key = '&lt;Your AWS Secret Key&gt;'# Request ID must begin with Partner IDrequest_id = client.partner_id + 'EXAMPLE'amount = 1.00currency = 'USD'# Create a new gift coderesult = client.create_gift_card(request_id, amount, currency)# Example response# {#   &quot;cardInfo&quot;: {#     &quot;cardNumber&quot;: null,#     &quot;cardStatus&quot;: &quot;Fulfilled&quot;,#     &quot;expirationDate&quot;: null,#     &quot;value&quot;: {#       &quot;amount&quot;: 1.0,#       &quot;currencyCode&quot;: &quot;USD&quot;#     }#   },#   &quot;creationRequestId&quot;: &quot;MyidEXAMPLE&quot;,#   &quot;gcClaimCode&quot;: &quot;ABCD-12345-WXYZ&quot;,#   &quot;gcExpirationDate&quot;: null,#   &quot;gcId&quot;: &quot;AA11BB22CC33DD&quot;,#   &quot;status&quot;: &quot;SUCCESS&quot;# }# Cancel that gift codeclient.cancel_gift_card(request_id, result['gcId'])# Get account balanceclient.get_available_funds()# Example response# {#   &quot;availableFunds&quot;: {#     &quot;amount&quot;: 1250.00,#     &quot;currencyCode&quot;: &quot;USD&quot;#   },#   &quot;status&quot;: &quot;SUCCESS&quot;,#   &quot;timestamp&quot;: &quot;20180802T155339Z&quot;# }```</longdescription>
+</pkgmetadata>

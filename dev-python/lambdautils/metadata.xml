@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Utilities for AWS Lambda functions==================================|Build Status| |PyPI|Basic utilities for Lambda event processors that are deployed using`humilis &lt;https://github.com/humilis/humilis&gt;`__ ``lambda`` references.Development-----------Assuming you have`virtualenv &lt;https://virtualenv.readthedocs.org/en/latest/&gt;`__installed:::    make developTesting-------To run the local test suite (does not require deployment):::    make testContact-------If you have questions, bug reports, suggestions, etc. please create anissue on the `GitHub projectpage &lt;https://github.com/humilis/humilis-lambdautils&gt;`__.License-------This software is licensed under the `MITlicense &lt;http://en.wikipedia.org/wiki/MIT_License&gt;`__.See `Licensefile &lt;https://github.com/humilis/humilis-lambdautils/blob/master/LICENSE.txt&gt;`__.© 2016 German Gomez-Herrero, `FindHotel &lt;http://findhotel.net&gt;`__ andothers... |Build Status| image:: https://travis-ci.org/humilis/humilis-lambdautils.svg?branch=master   :target: https://travis-ci.org/humilis/humilis-lambdautils.. |PyPI| image:: https://img.shields.io/pypi/v/lambdautils.svg?style=flat   :target: https://pypi.python.org/pypi/lambdautils</longdescription>
+</pkgmetadata>

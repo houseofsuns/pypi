@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Alibi-Detect runtime for MLServerThis package provides a MLServer runtime compatible with[alibi-detect](https://docs.seldon.io/projects/alibi-detect/en/latest/index.html)models.## UsageYou can install the `mlserver-alibi-detect` runtime, alongside `mlserver`, as:```bashpip install mlserver mlserver-alibi-detect```For further information on how to use MLServer with Alibi-Detect, you can checkout this [worked out example](../../docs/examples/alibi-detect/README.md).## Content TypesIf no [content type](../../docs/user-guide/content-type) is present on therequest or metadata, the Alibi-Detect runtime will try to decode the payloadas a [NumPy Array](../../docs/user-guide/content-type).To avoid this, either send a different content type explicitly, or define thecorrect one as part of your [model'smetadata](../../docs/reference/model-settings).## SettingsThe Alibi Detect runtime exposes a couple setting flags which can be used tocustomise how the runtime behaves.These settings can be added under the `parameters.extra` section of your`model-settings.json` file, e.g.```{code-block} json---emphasize-lines: 6-8---{  &quot;name&quot;: &quot;drift-detector&quot;,  &quot;implementation&quot;: &quot;mlserver_alibi_detect.AlibiDetectRuntime&quot;,  &quot;parameters&quot;: {    &quot;uri&quot;: &quot;./alibi-detect-artifact/&quot;,    &quot;extra&quot;: {      &quot;batch_size&quot;: 5    }  }}```### ReferenceYou can find the full reference of the accepted extra settings for the AlibiDetect runtime below:```{eval-rst}.. autopydantic_settings:: mlserver_alibi_detect.runtime.AlibiDetectSettings```</longdescription>
+</pkgmetadata>

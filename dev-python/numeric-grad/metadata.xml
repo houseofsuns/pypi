@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Numeric GradientsSmall library for computing gradients of functions that are commonly used in Machine Learning and Deep Learning.## AcknowledgementsThis library is originated from [micrograd](https://github.com/karpathy/micrograd) implementation and extended to support more functions.## Installation```bashpip install numeric-grad```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Accompanies Bart, Rebecca, *et al.* High-throughput genomic sequencing of Cassava Bacterial Blight strains identifies conserved effectors to target for durable resistance. *PNAS Plus*.Currently depends on `clustalw &lt;ftp://ftp.ebi.ac.uk/pub/software/clustalw2/2.1/&gt;`_ and `BLAST &lt;ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/&gt;`_.You can grab the most current code from `github &lt;https://github.com/sonwell/biotools&gt;`_ or via git    git clone git://github.com/sonwell/biotools.git</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Simpley**Simpley** is a Python package designed to make coding in Python just a little bit easier.  Everything in **Simpley** is just a simple function, so you can easily code anything in Python.## InstallationTo install **Simpley**, use one of the following commands:``` shpython3 -m pip install simpleypy -m pip install simpleypip3 install simpleypip install simpley```## DocumentationView the **Simpley** documentation [here](https://github.com/dylanopen/simpley)</longdescription>
+</pkgmetadata>

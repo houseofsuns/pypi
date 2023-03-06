@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Sale Invoice Grouping Module############################The ``sale_invoice_grouping`` module adds an option to define how invoice linesgenerated from sales will be grouped.A field is added to the *Party*:- *Sale Invoice Grouping Method*: The method used when grouping invoice lines.If the Standard method is used, invoice lines generated will be added to thefirst matching invoice found. If no invoice matches sale attributes then a newone will be created. Invoices not created by the sale process are not takeninto account when looking for a candidate invoice to add invoice lines to.</longdescription>
+</pkgmetadata>

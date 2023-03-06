@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ChaiPy![PyPI - Python Version](https://img.shields.io/pypi/pyversions/chaipy)![PyPI](https://img.shields.io/pypi/v/chaipy)A developer interface for creating Chat AIs for the Chai app.## InstallYou can install chai using pip    $ pip install -U chaipy## DocumentationAn API guide is available on the [Chai website](https://chai.ml/doc/python-api)## TestingTests can be run using [pytest](http://pytest.org/).    $ python -m pytest## RequirementsPython 3.7 or later is required.## Get InvolvedSpeak to us on [Whatsapp](https://chat.whatsapp.com/Btbz9tYOpyG72oqI4NfGE1)Come join us on [Discord](https://discord.gg/YfrVwBtYWb)!</longdescription>
+</pkgmetadata>

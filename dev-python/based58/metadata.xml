@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># based58A fast base-58 Python library`based58` is a fast Python library for[Base58](https://en.wikipedia.org/wiki/Binary-to-text_encoding#Base58)encoding and decoding. It includes support for Base58Check and configurable alphabets.It is[significantly faster](https://gist.github.com/kevinheavey/2abad728d7658c136de0078d667d7267)than the pure-Python[base58 library](https://gist.github.com/kevinheavey/2abad728d7658c136de0078d667d7267),as it calls the Rust [bs58 library](https://github.com/mycorrhiza/bs58-rs)under the hood.The API mimics that of the `base58` library, with the exception that string inputs are notsupported, only bytes.## Installation    pip install based58Note: requires Python &gt;= 3.7.## Usage```python&gt;&gt;&gt; import based58&gt;&gt;&gt; data = [1, 2, 3]&gt;&gt;&gt; based58.b58encode(b'hello world')b'StV1DL6CwTryKyV'&gt;&gt;&gt; based58.b58decode(b'StV1DL6CwTryKyV')b'hello world'&gt;&gt;&gt; based58.b58encode_check(b'hello world')b'3vQB7B6MrGQZaxCuFg4oh'&gt;&gt;&gt; based58.b58decode_check(b'3vQB7B6MrGQZaxCuFg4oh')b'hello world'&gt;&gt;&gt; based58.b58encode(b'hello world', alphabet=based58.Alphabet.RIPPLE)b'StVrDLaUATiyKyV'&gt;&gt;&gt; based58.b58decode(b'StVrDLaUATiyKyV', alphabet=based58.Alphabet.RIPPLE)b'hello world'```## Development### Setup1. Install [poetry](https://python-poetry.org/)2. Install dev dependencies:```poetry install```3. Activate the poetry shell:```shpoetry shell```### Testing1. Run `maturin develop` to compile the Rust code.2. Run `make fmt`, `make lint`, and `make test`.</longdescription>
+</pkgmetadata>

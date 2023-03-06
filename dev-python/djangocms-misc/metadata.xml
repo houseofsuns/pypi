@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image:: https://github.com/bnzk/djangocms-misc/actions/workflows/ci.yml/badge.svg    :target: https://github.com/bnzk/djangocms-misc/actions/workflows/ci.yml.. image:: https://img.shields.io/pypi/v/djangocms-misc.svg    :target: https://pypi.python.org/pypi/djangocms-misc/.. image:: https://img.shields.io/pypi/l/djangocms-misc.svg    :target: https://pypi.python.org/pypi/djangocms-misc/Development and Docs on `&lt;https://github.com/bnzk/djangocms-misc/&gt;`_</longdescription>
+</pkgmetadata>

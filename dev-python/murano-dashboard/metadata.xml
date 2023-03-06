@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Murano======Murano Project introduces an application catalog, which allows applicationdevelopers and cloud administrators to publish various cloud-readyapplications in a browsable categorised catalog. Cloud users— including inexperienced ones — can then use the catalog tocompose reliable application environments with the push of a button.Murano Dashboard----------------Murano Dashboard an extension for OpenStack Dashboard that provides UI forMurano. With murano-dashboard user is able to easily manage and controlapplication catalog, running applications and created environments alongsidewith all other OpenStack resources.For developer purpose, please place OpenStack Dashboard extension file, locatedat *local/_50_murano.py* under horizon/openstack_dashboard/local/enableddirectory and run horizon as usual.Project Resources-----------------* `Murano at Launchpad &lt;http://launchpad.net/murano&gt;`_* `Wiki &lt;https://wiki.openstack.org/wiki/Murano&gt;`_* `Code Review &lt;https://review.openstack.org/&gt;`_* `Sources &lt;https://wiki.openstack.org/wiki/Murano/SourceCode&gt;`_* `Documentation &lt;http://murano.readthedocs.org/&gt;`_</longdescription>
+</pkgmetadata>

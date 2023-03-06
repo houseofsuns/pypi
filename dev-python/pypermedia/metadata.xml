@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Hypermedia Client=================Hypermedia client is a proxy for direct URL-access to a hypermedia resource. Itcurrently allows a python developer to interact with a SIREN-producing serviceas though the objects were local to the application.</longdescription>
+</pkgmetadata>

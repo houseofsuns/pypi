@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>trusted analyticstrusted analytics is a platform that simplifies applying graph analytics and machine learning to big data for superior knowledgediscovery and predictive modeling across a wide variety of use cases and solutions. ATK provides an analytics pipelinespanning feature engineering, graph construction, graph analytics, and machine learning using an extensible,modular framework. By unifying graph and entity-based machine learning, machine learning developers can incorporate anentity's nearby relationships to yield superior predictive models that better represent the contextual information inthe data. All functionality operates at full scale, yet are accessed using a higher level Python data scienceprogramming abstraction to significantly ease the complexity of cluster computing and parallel processing.The platform is fully extensible through a plugin architecture that allows incorporating the full range of analyticsand machine learning for any solution need in a unified workflow that frees the researchers from the overhead ofunderstanding, integrating, and inefficiently iterating across a diversity of formats and interfaces.Documentation http://trustedanalytics.github.io/atk/Source  https://github.com/trustedanalytics/atk</longdescription>
+</pkgmetadata>

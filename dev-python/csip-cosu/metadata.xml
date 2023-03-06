@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>CSIP - Optimization Sensitivity and Uncertainty (COSU) Analysis Library This library provides a simple, yet powerful API for calibrating CSIP models. It supports:* Particle Swarm Optimization for CSIP Services* Stepwise Calibration (Rounds/Steps approach)* Parallel Particle evaluation (requires Python 3.6)</longdescription>
+</pkgmetadata>

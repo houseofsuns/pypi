@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>******************************************## Welcome to `ibm-watson-machine-learning`******************************************``ibm-watson-machine-learning`` is a library that allows to work with Watson Machine Learning service on [IBM Cloud](https://console.bluemix.net/catalog/services/machine-learning) andIBM Cloud for Data. Train, test and deploy your models as APIs for application development, share with colleagues using this python library.### [Package Sphinx documentation](http://ibm-wml-api-pyclient.mybluemix.net)==========================================</longdescription>
+</pkgmetadata>

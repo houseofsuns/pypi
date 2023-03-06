@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># outlook_msg[![Build Status](https://travis-ci.org/HamiltonInsurance/outlook_msg.svg?branch=master)](https://travis-ci.org/HamiltonInsurance/outlook_msg)`outlook_msg` is a Python library by [Hamilton Group](http://www.hamiltongroup.com/) to process the .msg files that Users can export from Outlook. It is very common for users in organizations that use Outlook to archive data in this format. For example, at Hamilton we see these files store in relation to deals we write. If we want to do automaticprocessing in a way that feels most natural to end users we need to extract data from these files.This library is built on top of the excellent [compoundfiles](https://pypi.org/project/compoundfiles/) library, withoutwhich none of this would be possible.## Getting StartedInstall using pip:`pip install outlook_msg`## UsageTo open an email:```pythonfrom outlook_msg import Messagewith open('file.msg') as msg_file:    msg = Message(msg_file)# Contents are the plaintext body of the emailcontents = msg.body# Attachments can be read and saved like sofirst_attachment = msg.attachments[0]with first_attachment.open() as attachment_fp, open(first_attachment.filename, 'wb') as output_fp:    output_fp.write(attachment_fp.read())``` ## Running the testsWe use [pytest](https://docs.pytest.org/en/latest/) to run our tests but you are best to use tox so you can test on allsupported Python versions and will ensure a clean environment.  </longdescription>
+</pkgmetadata>

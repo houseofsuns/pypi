@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>checkout------------|build status|_.. |build status| image:: https://secure.travis-ci.org/tuomasb/python-checkout.png?branch=master   :alt: Build Status.. _build status: http://travis-ci.org/tuomasb/python-checkoutPython wrapper for the Checkout Finland API.Installation------------::    $ pip install checkoutResources---------- `Issue Tracker &lt;http://github.com/tuomasb/python-checkout/issues&gt;`_- `Code &lt;http://github.com/tuomasb/python-checkout&gt;`_- `Development Version  &lt;http://github.com/tuomasb/python-checkout/zipball/master#egg=checkout-dev&gt;`_Changelog---------Here you can see the full list of changes between each python-checkoutrelease.0.3.0 (February 6, 2014)^^^^^^^^^^^^^^^^^^^^- Initual public release of python-checkout.0.2.0 (June 6, 2013)^^^^^^^^^^^^^^^^^^^^- Initial public release of python-verkkomaksut.</longdescription>
+</pkgmetadata>

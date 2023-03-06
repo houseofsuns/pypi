@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=======================Neutron FWaaS Dashboard=======================OpenStack Dashboard panels for Neutron FWaaS* Documentation: https://docs.openstack.org/neutron-fwaas-dashboard/latest/* Source: https://opendev.org/openstack/neutron-fwaas-dashboard* Bugs: https://bugs.launchpad.net/neutron-fwaas-dashboard* Release Notes: https://docs.openstack.org/releasenotes/neutron-fwaas-dashboard/</longdescription>
+</pkgmetadata>

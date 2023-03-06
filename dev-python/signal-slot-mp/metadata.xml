@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># signal-slot[![tests](https://github.com/alex-petrenko/signal-slot/actions/workflows/test-ci.yml/badge.svg)](https://github.com/alex-petrenko/signal-slot/actions/workflows/test-ci.yml)[![Downloads](https://pepy.tech/badge/signal-slot-mp)](https://pepy.tech/project/signal-slot-mp)[&lt;img src=&quot;https://img.shields.io/discord/987232982798598164?label=discord&quot;&gt;](https://discord.gg/BCfHWaSMkr)Qt-like event loops, signals and slots for communication across threads and processes in Python.### Recent releases##### v1.0.3* Improved logging##### v1.0.2* Catching queue.Full exception to handle situations where receiver event loop process is killed##### v1.0.1* Added signal_slot.configure_logger() function to configure a custom logger##### v1.0.0* First PyPI version### Installation```bashpip install signal-slot-mp```### ContributingLocal installation for development:```bashpip install -e .[dev]```Automatic code formatting:```bashmake format &amp;&amp; make check-codestyle```Run tests:```bashmake test```Documentation contributions are welcome.### FootnoteOriginally designed for Sample Factory 2.0, a high-throughput asynchronous RL codebase https://github.com/alex-petrenko/sample-factory.Distributed under MIT License (see LICENSE), feel free to use for any purpose, commercial or not, at your own risk.</longdescription>
+</pkgmetadata>

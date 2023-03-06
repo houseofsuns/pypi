@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>LinchPin--------LinchPin provides a command-line interface and Python API for provisioning andmanaging resources across multiple infrastructures. Where multipleinfrastructure resource types can be defined with a single topology file.LinchPin can also generate inventory files for use with additional Ansibleplaybooks. These are applied using an inventory layout file.Contributing and Community Participation++++++++++++++++++++++++++++++++++++++++Developers are encouraged to contribute to the LinchPin project. Please visit`Contributing &lt;http://github.com/CentOS-PaaS-SIG/linchpin/tree/develop/CONTRIBUTING.rst&gt;`_for details.* Subscribe and participate on the `LinchPin Mailing List &lt;https://www.redhat.com/mailman/listinfo/linchpin&gt;`_* Join the `#linchpin` IRC chat channel on `freenode &lt;https://webchat.freenode.net/?channels=#linchpin&gt;`_Installation++++++++++++`Installation documentation &lt;http://linchpin.readthedocs.io/en/develop/installation.html&gt;`_QuickStart++++++++++The `Getting Started Guide &lt;http://linchpin.readthedocs.io/en/develop/getting_started.html&gt;`_ is a quick guide for LinchPin from the Command-Line.Using LinchPin+++++++++++++++Check out the `Getting Started Guide &lt;http://linchpin.readthedocs.io/en/develop/getting_started.html&gt;`_ for a quick guide on how to use LinchPin from the Command-Line.For API documentation, check out the `Python API Reference &lt;http://linchpin.readthedocs.io/en/develop/libdocs.html&gt;`_.</longdescription>
+</pkgmetadata>

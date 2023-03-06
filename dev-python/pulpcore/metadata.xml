@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>**Acquire, Organize, and Distribute Software**Pulp is a platform for managing repositories of content, such as softwarepackages, and pushing that content out to large numbers of consumers.Using Pulp you can:- Locally mirror all or part of a repository- Host your own content in a new repository- Manage content from multiple sources in one place- Promote content through different repos in an organized wayPulp is completely free and open-source!- License: GPLv2+- Documentation: https://docs.pulpproject.org/- Source: https://github.com/pulp/pulpcore/- Bugs: https://github.com/pulp/pulpcore/issuesFor more information, check out the project website: https://pulpproject.orgGet Help--------Check out our help page for ways to get help:https://pulpproject.org/help/</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>========= Imports=========.. image:: https://img.shields.io/pypi/v/imports.svg        :target: https://pypi.python.org/pypi/imports.. image:: https://img.shields.io/travis/joaopcanario/imports.svg        :target: https://travis-ci.org/joaopcanario/imports.. image:: https://readthedocs.org/projects/imports/badge/?version=latest        :target: https://imports.readthedocs.io/en/latest/?badge=latest        :alt: Documentation StatusA helper tool to identify unused installed packages* Free software: MIT license* Documentation: https://imports.readthedocs.io.Features--------* List all installed packages added on the project requirements that are not usedCredits-------This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template... _Cookiecutter: https://github.com/audreyr/cookiecutter.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage=======History=======0.1.0 (2018-03-20)------------------* First release on PyPI.0.1.2 (2018-03-22)------------------* Fix minor issues.* Update documentation* Minor code improvements0.1.4 (2018-03-23)------------------* Improve tests* Fix minor issues</longdescription>
+</pkgmetadata>

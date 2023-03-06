@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Python Zanox API================Python zanox.com API - A simple Python wrapper around the zanox.com developer APIPublisher API - https://developer.zanox.com/web/guest/publisher-api-2011Features--------- Easy to use wrapper- Generate tracking url for deeplinksDependencies------------- requests- xmltodictInstallation------------.. code-block:: bash    $ pip install python-zanox-apiExample-------.. code-block:: python    &gt;&gt;&gt; from zanox.apis import PublisherApi    &gt;&gt;&gt; api = PublisherApi(connect_id='XXXXX', secret_key='XXXXX', from_email='yourmail@example.com')    &gt;&gt;&gt; example1 = api.get('programs')    &gt;&gt;&gt; example2 = api.get('programs', start_date='2012-01-01')    &gt;&gt;&gt; example3 = api.get('programs/program/1234')    &gt;&gt;&gt; example4 = api.get_tracking_url('http://www.example.com/foo/bar.html', adspace=XXXXX)    ...Parameters----------- **connect_id** Zanox Connect ID (required)- **secret_key** Zanox Secret Key (required)- **domain** default: api.zanox.com- **format** default: json- **version** default: 2011-03-01- **ssl** default: True- **user_agent** default: PythonZanoxApi/x.x.x- **from_email** (optional)TODOs and BUGS==============See: http://github.com/baskoopmans/python-zanox-api/</longdescription>
+</pkgmetadata>

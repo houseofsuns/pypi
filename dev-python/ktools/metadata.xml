@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>ktools======.. image:: https://img.shields.io/pypi/v/ktools.svg    :target: https://pypi.python.org/pypi/ktools    :alt: Latest PyPI version.. image:: https://github.com/fx-kirin/ktools.png   :target: https://github.com/fx-kirin/ktools   :alt: Latest Travis CI build statuskirin's toolkit.Usage-----Installation------------Requirements^^^^^^^^^^^^Compatibility-------------Licence-------Authors-------`ktools` was written by `fx-kirin &lt;ono.kirin@gmail.com&gt;`_.</longdescription>
+</pkgmetadata>

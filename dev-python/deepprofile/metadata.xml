@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Deep Profile [![PyPI - Version](https://img.shields.io/pypi/v/deepprofile.svg)](https://pypi.org/project/deepprofile)[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/deepprofile.svg)](https://pypi.org/project/deepprofile)-----This is a library that makes it easy to profile GPU usage for functions in Python. **Table of Contents**- [Installation](#installation)- [License](#license)## Installation1. Install deepprofile ```consolepip install deepprofile ```2. Install Nvidia NSight Systems ## License`deepprofile` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.</longdescription>
+</pkgmetadata>

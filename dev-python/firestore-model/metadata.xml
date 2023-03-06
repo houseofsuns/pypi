@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># firestore-modelQuickly and simply create model classes for Google's Cloud Firestore schemaless database. ## OverviewThis project seeks to provide a similar convenience and utility for using Cloud Firestore with the newly available Python 3.7 App Engine Envinronment as the NDB client library does for using Cloud Datastore with Python 2.7 App Engine.[Blog post describing motivation and further usage](https://medium.com/@jeremy.from.earth/using-dataclasses-firestore-to-replace-ndb-datastore-on-python-3-7-app-engine-e21199b58ef2)## Example```import firestore_modelfrom google.firestore import firestorefrom filestore_model import Model, Query# initialize the database connection globally for Firestore Model firestore_model.db = firestore.Client()# Define a data structure for a User@dataclassclass User(Model):  first_name:str  last_name:str  occupation:str# Create a new user, pass save = True to automagically save the model objectu1 = User.make(    first_name='Sonic',    last_name='Brown',    occupation='circus dog'    save=True  )# Fetch all users that match a given queryusers = User.query([    ('occupation', 'circus dog'),     ('created', '&gt;', 1540776978)  ]).get()# Iterate through the results of the queryfor u in users:  print(u.id, u.created, u.first_name, u.last_name, u.occupation)```</longdescription>
+</pkgmetadata>

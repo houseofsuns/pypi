@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># WeathercomA Python package to get weather reports for any location from weather.com. API for weather.com## InstallationUse the package manager [pip](https://pip.pypa.io/en/stable/) to install weathercom.```bashpip install weathercom```## Usage```pythonimport weathercomweatherDetails = weathercom.getCityWeatherDetails(&quot;bangalore&quot;)weatherDetails = weathercom.getCityWeatherDetails(city=&quot;bangalore&quot;, queryType=&quot;daily-data&quot;)weatherDetails=weathercom.getCityWeatherDetails(city=&quot;bangalore&quot;, queryType=&quot;ten-days-data&quot;)weatherDetails=weathercom.getCityWeatherDetails(city=&quot;bangalore&quot;, queryType=&quot;hourly-data&quot;)weatherDetails=weathercom.getCityWeatherDetails(city=&quot;bangalore&quot;, queryType=&quot;monthly-data&quot;)weatherDetais=weathercom.getCityWeatherDetails(city=&quot;bangalore&quot;, queryType=&quot;particular-date-data&quot;, date={'year':'2018','month':'09','date': '19')```## Defects to be corrected in next releaseBetter error handling, particular-date-data can only accept a date in the last five years, imporved user experience ## ContributingPull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.Please make sure to update tests as appropriate.## License[MIT](https://github.com/prashanth-p/weathercom/blob/master/LICENSE.txt)</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=======================================  Pyliblinear - a liblinear python API=======================================**pyliblinear** is an API for `liblinear`_  without using ctypes. Itaims for more pythonic access to liblinear's features, especiallyfeaturing streams of data and lazy evaluations whereever possible.Supported python versions are Python 2.7 and Python 3.6+... _liblinear: http://www.csie.ntu.edu.tw/~cjlin/liblinear/Development Status~~~~~~~~~~~~~~~~~~Beta.The API is not stabilized yet. There also may be a few kinks here andthere. But generally it works as expected.Copyright and License~~~~~~~~~~~~~~~~~~~~~Copyright 2015 - 2022André Malo or his licensors, as applicable.The whole package is distributed under the Apache License Version 2.0.You'll find a copy in the root directory of the distribution or onlineat: &lt;http://www.apache.org/licenses/LICENSE-2.0&gt;.pyliblinear ships with a copy of `liblinear`_, which is licensed underthe terms of the `3-clause BSD license`_... _liblinear: http://www.csie.ntu.edu.tw/~cjlin/liblinear/.. _3-clause BSD license: http://opensource.org/licenses/BSD-3-ClauseBugs~~~~No bugs, of course. ;-)But if you've found one or have an idea how to improve pyliblinear, feelfree to send a pull request on `github&lt;https://github.com/ndparker/pyliblinear&gt;`_ or send a mail to&lt;pyliblinear-bugs@perlig.de&gt;.Author Information~~~~~~~~~~~~~~~~~~André &quot;nd&quot; Malo &lt;nd perlig.de&gt;GPG: 0x029C942244325167    If God intended people to be naked, they would be born that way.    -- Oscar Wilde.. vim:tw=72 syntax=rest</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![codecov](https://codecov.io/gh/mathematicalmichael/mud-examples/branch/main/graph/badge.svg?token=JQZao81BSp)](https://codecov.io/gh/mathematicalmichael/mud-examples)[![PyPI version](https://badge.fury.io/py/mud-examples.svg)](https://badge.fury.io/py/mud-examples)![unit testing workflow](https://github.com/mathematicalmichael/mud-examples/actions/workflows/main.yml/badge.svg)![example workflow](https://github.com/mathematicalmichael/mud-examples/actions/workflows/examples.yml/badge.svg)![publish workflow](https://github.com/mathematicalmichael/mud-examples/actions/workflows/publish.yml/badge.svg)# MUD-Examples## Examples for _Existence, Uniqueness, and Convergence of Parameter Estimates with Maximal Updated Densities_Authors: Troy Butler &amp; Michael Pilosov# Installation```shpip install mud-examples```# QuickstartGenerate all of the figures the way they are referenced in the paper:```shmud_run_all```The above is equivalent to running all of the examples sequentially:```shmud_run_invmud_run_linmud_run_odemud_run_pde```# UsageThe `mud_run_X` scripts all call the same primary entrypoint, which you can call with the console script `mud_examples`.Here are two examples:```shmud_examples --example ode``````shmud_examples --example lin```and so on. (More on this later, once argparsing is better handled, they might just be entrypoints to the modules themselves rather than a central `runner.py`, which really only exists to compare several experiments, so perhaps it warrants renaming to reflect that).</longdescription>
+</pkgmetadata>

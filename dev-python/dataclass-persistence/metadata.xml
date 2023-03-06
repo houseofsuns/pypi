@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>dataclass-persistence==========================This program can be used to make dataclasses persistent by adding store and load functionality.The dataclass is stored in .json format which is by default compressed inside of a .zip file.What makes dataclass-persistence special?   * Support for numpy arrays   * Support for nested dataclasses   * Human readable storage format with small file sizeUsage-----Let your dataclass inherit from :code:`Persistent`.Then the dataclass can be stored on disk using :code:`.store()` and loaded from disk using:code:`.load()`.In the example below, we create an instance of dataclass, which is stored to and loaded from disk... code-block:: python    from dataclass_persistence import Persistent    from dataclasses import dataclass    import numpy as np    @dataclass    class SomeData(Persistent):        parameter_a: str        array: np.ndarray    data = SomeData('my_string', np.array([0, 0]))    file = 'my_file'    data.store(file)    data_reconstructed = SomeData.load(file)On disk the code above produces `my_file.zip` which contains `my_file.json`:.. code-block:: json    {      &quot;parameter_a&quot;: &quot;my_string&quot;,      &quot;array&quot;: {&quot;data&quot;: [0, 0], &quot;dtype&quot;: &quot;int32&quot;}    }</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>========Parslepy========Parslepy lets you extract content from HTML and XML documentswhere extraction rules are defined using a JSON objector equivalent Python dict,where keys are names you want to assign to extracted content,and values are CSS selectors or XPath expressions.Parslepy is an implementation of the Parsley extractionlanguage defined `here &lt;https://github.com/fizx/parsley&gt;`_,using lxml and cssselect.You can nest objects, generate list of objects, and (toa certain extent) mix CSS and XPath.Parslepy uderstands what lxml and cssselect understand,which is roughly CSS3 selectors and XPath 1.0 expressions.Documentation &amp; examples========================See https://github.com/redapple/parslepy/wiki#usage</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;div&gt;&lt;img src=&quot;https://raw.githubusercontent.com/myHBPwork/NMCog/master/resources/images/nmcogLogo4.png&quot; alt=&quot;CerebUnit&quot; height=&quot;23%&quot; width=&quot;15%&quot; align=&quot;right&quot;&gt;&lt;/div&gt;# nmcogLibrary for simulating cognitive models in neuromorphic platforms.Current target platforms- [SpiNNaker](http://spinnakermanchester.github.io/)[nmcog documentation](https://nmcog.readthedocs.io/en/latest/)&lt;div&gt;&lt;img src=&quot;https://raw.githubusercontent.com/myHBPwork/NMCog/master/resources/images/eu_logo.jpg&quot; alt=&quot;EU Logo&quot; height=&quot;23%&quot; width=&quot;15%&quot; align=&quot;right&quot;&gt;&lt;/div&gt;### ACKNOWLEDGEMENTSThis open source software code was developed in part or in whole in the Human Brain Project, funded from the European Union’s Horizon 2020 Framework Programme for Research and Innovation under the Specific Grant Agreement No. 785907 (Human Brain Project SGA2).</longdescription>
+</pkgmetadata>

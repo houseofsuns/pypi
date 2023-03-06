@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Function to calculate mean average precision (mAP) for set of boxes. Useful for object detection pipelines.More details: https://github.com/ZFTurbo/Mean-Average-Precision-for-Boxes</longdescription>
+</pkgmetadata>

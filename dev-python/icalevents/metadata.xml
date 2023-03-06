@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># iCalEventsSimple Python 3 library to download, parse and query iCal sources.[![PyPI version](https://badge.fury.io/py/icalevnt.svg)](https://badge.fury.io/py/icalevnt)[![Jazzband](https://jazzband.co/static/img/badge.svg)](https://jazzband.co/)## Build infolast push: ![run pytest](https://github.com/jazzband/icalevents/actions/workflows/python-test.yml/badge.svg)master: [![Run pytest](https://github.com/jazzband/icalevents/actions/workflows/python-test.yml/badge.svg?branch=master)](https://github.com/jazzband/icalevents/actions/workflows/python-test.yml)## Documentationhttps://icalevents.readthedocs.io/en/latest/## Usage### iCloud:```pythonfrom icalevents.icalevents import eventses  = events(&lt;iCloud URL&gt;, fix_apple=True)```### Google:```pythonfrom icalevents.icalevents import eventses  = events(&lt;Google Calendar URL&gt;)```# ContributingYou will need [poetry](https://github.com/python-poetry/poetry) and [pre-commit](https://pre-commit.com/index.html) installed and than run.```bashpre-commit install```Happy contributing!</longdescription>
+</pkgmetadata>

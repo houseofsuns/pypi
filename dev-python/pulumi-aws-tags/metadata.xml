@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Pulumi AWS TagsPulumi package that helps manage tags for AWS resources.## Installation### PythonUse `pip` to install the package:```bashpip install pulumi_aws_tags```## UsageSee [examples](https://github.com/tlinhart/pulumi-aws-tags/blob/main/examples)directory for usage examples.## Reference- https://www.pulumi.com/blog/automatically-enforcing-aws-resource-tagging-policies/- https://github.com/joeduffy/aws-tags-example</longdescription>
+</pkgmetadata>

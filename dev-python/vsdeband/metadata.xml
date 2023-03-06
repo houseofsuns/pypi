@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># vs-deband, a collection of wrappers and functions for debandingFor further support, drop by `#vsdeband` in the [IEW Discord server](https://discord.gg/qxTxVJGtst).## How to installInstall `vsdeband` with the following command:```shpip install vsdeband```Or if you want the latest git version, install it with this command:```shpip install git+https://github.com/Irrational-Encoding-Wizardry/vs-deband.git```&lt;br&gt;</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=========================================================================================django-celery-with-redis - Bundle installing the dependencies for Django-Celery and Redis=========================================================================================:Version: 3.0Contents========This bundle installs the following packages::    ['django-celery&gt;=3.0,&lt;4.0', 'redis&gt;=2.4.4']What is this?=============This is a bundle of several packages that you can use as a shortcut in therequirements lists of your applications.  Bundles are used to follow acommon group of packages, or a package with an optional extension feature.You can install all of the packages in this bundle by,*using pip*::    $ pip install -U django-celery-with-redisor *using easy_install*::    $ easy_install -U django-celery-with-redisOr if you want to add this bundle as a dependency in your application, youcan add the following identifier in your ``setup.py``'s requires list orin your pip requirements files::    django-celery-with-redisYou can also specify a specific version::    django-celery-with-redis&gt;=3.0</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image:: https://raw.githubusercontent.com/cupy/cupy/main/docs/image/cupy_logo_1000px.png   :width: 400CuPy : NumPy &amp; SciPy for GPU============================`CuPy &lt;https://cupy.dev/&gt;`_ is a NumPy/SciPy-compatible array library for GPU-accelerated computing with Python.This package (``cupy``) is a source distribution.For most users, use of pre-build wheel distributions are recommended:- `cupy-cuda12x &lt;https://pypi.org/project/cupy-cuda12x/&gt;`_ (for CUDA 12.x)- `cupy-cuda11x &lt;https://pypi.org/project/cupy-cuda11x/&gt;`_ (for CUDA 11.2 ~ 11.x)- `cupy-cuda111 &lt;https://pypi.org/project/cupy-cuda111/&gt;`_ (for CUDA 11.1)- `cupy-cuda110 &lt;https://pypi.org/project/cupy-cuda110/&gt;`_ (for CUDA 11.0)- `cupy-cuda102 &lt;https://pypi.org/project/cupy-cuda102/&gt;`_ (for CUDA 10.2)- `cupy-rocm-5-0 &lt;https://pypi.org/project/cupy-rocm-5-0/&gt;`_ (for ROCm 5.0)- `cupy-rocm-4-3 &lt;https://pypi.org/project/cupy-rocm-4-3/&gt;`_ (for ROCm 4.3)Please see `Installation Guide &lt;https://docs.cupy.dev/en/latest/install.html&gt;`_ for the detailed instructions.</longdescription>
+</pkgmetadata>

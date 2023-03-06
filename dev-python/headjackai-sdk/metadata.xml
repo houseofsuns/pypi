@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Headjack AI SDK![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)Headjack AI is a advanced machine learning tool for the modularity of features engineering, which provides an effective and flexible knowledge transfer framework that sublimates source data sets to pretrained feature engineering function for any predictive machine learning task.With Headjack-AI SDK, you can easily implement Headjack-AI server into your application with Python. This SDK library contains knowledge fit, transform, and running your custom inference models and custom tasks with Headjack-AI.To know more about Headjack AI, please contact us to try it out!(jim_liu@symphox.net)## System Requirement* python3.7## InstallInstall and update using pip:```bashpip install headjackai-sdk```## LinksFor more details on design, guidance on setting up a development environment, and SDK usage.* Headjack AI Platform: &lt;http://www.headjackai.com/&gt;* Headjack AI SDK Code: &lt;https://github.com/jimliu741523/headjackai-sdk&gt;## History0.2.12 fix check status from AutoKnow 0.2.11 fix example0.2.10 refactor AutoKnow</longdescription>
+</pkgmetadata>

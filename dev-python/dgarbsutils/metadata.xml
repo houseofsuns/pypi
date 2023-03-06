@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Utils## DescriptionI found myself using the same code over and over across projects so I created a package to import my own code faster.## Install```bashpip install dgarbsutils```## Usage```pythonfrom dgarbsutils import utils, awsUtils```## Build```bashpython -m build```## Upload```bashpython3 -m twine upload --repository pypi dist/*python3 -m twine upload --repository nexus dist/*```</longdescription>
+</pkgmetadata>

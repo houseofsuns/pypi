@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Introduction============To autogenerate SCANME.md, you can globally ``pip install metadir``, andtype ``metadir .``.Usage=====Running command ``metadir .`` to generate ``SCANME.md`` content... code:: yaml   - '*': ''     README.md: {'*': ''}     src:       - '*': ''         main.py: {'*': ''}         main.js: {'*': ''}         core:           - '*': ''             app.py: {'*': ''}     docs:       - '*': ''         index.md: {'*': ''}The values at each level provide ability to specify`metaformat &lt;https://book.mindey.com/metaformat/0001-metaform-philosophy/0001-metaform-philosophy.html&gt;`__for each file and directory in the project by providing URLs to schemaspecifications.TODO====-  Implement ignoring of files based on ``.gitignore``, and using regex   (look for strings ``SKIP`` in the project).</longdescription>
+</pkgmetadata>

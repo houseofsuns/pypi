@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ldsc2Simplify stratified LD score regression## Installation```shpip3 install ldsc2```or```shpip3 install --user ldsc2```Followed by ```shldsc2-download```</longdescription>
+</pkgmetadata>

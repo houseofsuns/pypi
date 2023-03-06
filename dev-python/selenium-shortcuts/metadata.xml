@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>### selenium-shortcutsShortcut functions for Python seleniumInstallation:`pip install selenium-shortcuts`Usage:```from selenium_shortcuts import setup_shortcutshelper = setup_shortcuts(browser='uc') # Start a browser on port 9222 or reconnect to existing browser on port 9222 with undetected-chromedriverdriver, find, finds, click, text, send, get, check = helper.driver, helper.find, helper.finds, helper.click, helper.text, helper.send, helper.get, helper.checkinfo = text('#info')print(info)click('#submit')info = find('#info')print(info.text)info.click()items = finds('.items')for item in items:print(item.text)info, classes = find('#info', attribute='class')print(classes)```</longdescription>
+</pkgmetadata>

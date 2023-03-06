@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Python FRTB Aggregator[Ultibi](https://github.com/ultima-ib/ultima) is a free python binding to implementation of Fundamental Review of the Trading Book (FRTB SA). Supports multiple jurisdictions (BCBS, CRR2). Aggregates at any level of breakdown. Supports everything you'd need in a proper production environment: Filtering, Overrides and WhatIf. Blazingly fast, parallel.Currently covering SA (Standardised Approach), with some limitations, it will be extended to cover IMA (Internal Models Approach) and SA CVA shortly. Not certified. Checkout our [userguide](https://ultimabi.uk/ultibi-frtb-book/).# ContributingYou will need `python`, `make`.## Before commitFirst:`cd pyultima`Linting:`make pre-commit`Tests\\examples:`make test`Playround:`make build`</longdescription>
+</pkgmetadata>

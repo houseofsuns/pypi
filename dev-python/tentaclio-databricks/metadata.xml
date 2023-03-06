@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># tentaclio-databricksA package containing all the dependencies for the `databricks+thrift` tentaclio schema .## Quick StartThis project comes with a `Makefile` which is ready to do basic common tasks```$ make helpinstall                       Initalise the virtual env installing depsclean                         Remove all the unwanted clutterlock                          Lock dependenciesupdate                        Update dependencies (whole tree)sync                          Install dependencies as per the lock filelint                          Lint files with flake and mypyformat                        Run black and isorttest                          Run unit testscircleci                      Validate circleci configuration (needs circleci cli)```## Configuring access to DatabricksYour connection url should be in the following format:```databricks+thrift://&lt;token&gt;@&lt;host&gt;?HTTPPath=&lt;http_path&gt;```Example values:- token: dapi1213456789abc- host: myhost.databricks.com- http_path: /sql/1.0/endpoints/123456789</longdescription>
+</pkgmetadata>

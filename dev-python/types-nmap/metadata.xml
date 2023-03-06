@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## Typing stubs for nmapThis is a PEP 561 type stub package for the `nmap` package.It can be used by type-checking tools like mypy, PyCharm, pytype etc. to check codethat uses `nmap`. The source for this package can be found athttps://github.com/python/typeshed/tree/master/stubs/nmap. All fixes fortypes and metadata should be contributed there.See https://github.com/python/typeshed/blob/master/README.md for more details.This package was generated from typeshed commit `8b9d771b67acf13a35905c7d4996382394f23181`.</longdescription>
+</pkgmetadata>

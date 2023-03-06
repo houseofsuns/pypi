@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pytest-gitignore================This py.test plugin will tell py.test to ignore any file that gitignores, when it's collecting tests.  For example, if you keep virtualenvsin your source directory, you can have both git and py.test ignore themby putting them in your .gitignore.  To see whether a file is ignoredby git, run `git check-ignore (filename)`.This plugin is registered as 'gitignore'.</longdescription>
+</pkgmetadata>

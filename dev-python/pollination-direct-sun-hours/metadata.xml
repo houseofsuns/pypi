@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># direct-sun-hoursDirect sun hours recipe calculates the number of hours of direct sun received by grids of sensors duringthe time period of a specified Wea. The recipe generates 2 sub-folders of results:1. `direct_sun_hours`: Contains matrices of zero/one values indicating whether  each sensor is exposed to the sun at a given time step of the input Wea.2. `cumulative`: The cumulative number of hours that each sensor can see the  sun. Each value is always in hours.Using the -viz version of this recipe will produce a VTKjs file for visualizingthe cumulative results.</longdescription>
+</pkgmetadata>

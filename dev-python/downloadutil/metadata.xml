@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># downloadutilA Python module with common utilities for downloading and extracting archives.Use cases:- Download an archive from a URL and the expected SHA256 checksum from the same URL with a &quot;.sha256&quot;  suffix appended. Verify the checksum.- Download an archive as above and extract it into a target directory, and still keep the archive in  a special cache directory.</longdescription>
+</pkgmetadata>

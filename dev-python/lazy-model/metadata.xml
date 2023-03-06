@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Lazy parsing for Pydantic modelsThis library provides a lazy interface for parsing objects from dictionaries. During the parsing, it saves the raw data inside the object and parses each field on demand.## Installpoetry```shellpoetry add lazy-model```pip```shellpip install lazy-model```## Usage```pythonfrom lazy_model import LazyModelfrom pydantic import validatorclass Sample(LazyModel):    i: int    s: str    @validator(&quot;s&quot;)    def s_upper(cls, v):        return v.upper()obj = Sample.lazy_parse({&quot;i&quot;: &quot;10&quot;, &quot;s&quot;: &quot;test&quot;})# at this point the data is stored in a raw format inside the objectprint(obj.__dict__)# &gt;&gt;&gt; {'i': NAO, 's': NAO}# NAO - Not An Object. It shows that the field was not parsed yet.print(obj.s)# &gt;&gt;&gt; TEST# Custom validator works during lazy parsingprint(obj.__dict__)# &gt;&gt;&gt; {'i': NAO, 's': 'TEST'}# The `s` field  was already parsed by this stepprint(obj.i, type(obj.i))# &gt;&gt;&gt; 10 &lt;class 'int'&gt;# It converted `10` from string to int based on the annotationsprint(obj.__dict__)# &gt;&gt;&gt; {'i': 10, 's': 'TEST'}# Everything was parsed```</longdescription>
+</pkgmetadata>

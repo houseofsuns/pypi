@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This is a set of Python bindings for the libcups library from theCUPS project.&gt;&gt;&gt; # Example of getting a list of printers&gt;&gt;&gt; import cups&gt;&gt;&gt; conn = cups.Connection ()&gt;&gt;&gt; printers = conn.getPrinters ()&gt;&gt;&gt; for printer in printers:...     print printer, printers[printer][&quot;device-uri&quot;]...HP ipp://192.168.1.1:631/printers/HPduplex ipp://192.168.1.1:631/printers/duplexHP-LaserJet-6MP ipp://192.168.1.1:631/printers/HP-LaserJet-6MPEPSON-Stylus-D78 usb://EPSON/Stylus%20D78</longdescription>
+</pkgmetadata>

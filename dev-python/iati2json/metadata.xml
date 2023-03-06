@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Convert IATI XML to JSON##  Install```pip install iati2json```##  Usage### Save to file (fastest option)```import iati2jsoniati2json.convert(&quot;my_iati_file.xml&quot;, file=&quot;converted.json&quot;)```### Convert to String```import iati2jsonimport jsoniati_json_string = iati2json.convert(&quot;my_iati_file.xml&quot;)iati_dict = json.loads(iati_json_string)```### Pretty (indented output)```import iati2jsoniati2json.convert(&quot;my_iati_file.xml&quot;, file=&quot;converted.json&quot;, pretty=True)```### Custom Iati SchemasBy default will work with 2.03 version of standard. You can provide your own versions of schemas:```import iati2jsonschemas = [    &quot;https://raw.githubusercontent.com/IATI/IATI-Schemas/version-2.04-beta/iati-activities-schema.xsd&quot;,    &quot;https://raw.githubusercontent.com/IATI/IATI-Schemas/version-2.04-beta/iati-organisations-schema.xsd&quot;,]iati2json.convert(&quot;my_iati_file.xml&quot;, schemas=schemas)```</longdescription>
+</pkgmetadata>

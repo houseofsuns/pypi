@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># check_shapes`check_shapes` is a library for annotating and checking tensor shapes.For example:```pythonimport tensorflow as tffrom gpflow.experimental.check_shapes import check_shapes@tf.function@check_shapes(    &quot;features: [batch..., n_features]&quot;,    &quot;weights: [n_features]&quot;,    &quot;return: [batch...]&quot;,)def linear_model(features: tf.Tensor, weights: tf.Tensor) -&gt; tf.Tensor:    return tf.einsum(&quot;...i,i -&gt; ...&quot;, features, weights)```For more information see our [documentation](https://gpflow.github.io/check_shapes).## InstallationThe recommended way to install `check_shapes` is from pypi:```bashpip install check_shapes```### From sourceTo develop `check_shapes`, check it out from GitHub:```bashgit clone git@github.com:GPflow/check_shapes.git```We use [Poetry](https://python-poetry.org/) to install and manage dependencies. Follow theirinstructions for how to install Poetry itself. Then:```bashcd check_shapespoetry install```To check you installation run our tests:```bashpoetry run task test```For testing with different versions of Python and dependencies, see the `poetryenv` script.</longdescription>
+</pkgmetadata>

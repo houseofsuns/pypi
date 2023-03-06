@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Portfolio Allocation for GnuCashCurrency, country, asset class and industry allocations for portfolio of ETFs and mutual fundsWhat the program does:1. Takes instrument allocation from [GnuCash's &quot;Security&quot; pie chart report](https://raw.githack.com/fertkir/portfolio-allocation/master/examples/gnucash.html)2. Fetches data for each instrument from the Internet:   1. Finex website   2. Tinkoff website   3. Yahoo Finance3. Generates and opens [portfolio allocation report](https://raw.githack.com/fertkir/portfolio-allocation/master/examples/allocation.html) in your browser.## Installation```commandlinepip install portfolio-allocation```## UsageTo generate report based on default &quot;Securities&quot; GnuCash report for recently open GnuCash file:```commandlineportfolio-allocation gnucash```But you'd better customize it, since the &quot;Securities&quot; pie chart is limited to 7 instruments:```commandlineportfolio-allocation gnucash -r MyCustomReport1 MuCustomReport2```To select another GnuCash file:```commandlineportfolio-allocation gnucash -r MyCustomReport -f /home/user/other.gnucash```To view all the possible options, check:```commandlineportfolio-allocation -h```</longdescription>
+</pkgmetadata>

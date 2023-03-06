@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># disentpyPython client for Disent's API framework.## InstallationInstall using `pip````shellpip install disentpy```## Usage```pythonimport disent# get AAPL vol surface (list of dicts)model=&quot;DEMO_EQD_VOLS&quot;ticker = 'AAPL'model_args = {'ticker':ticker}df = disent.hub(model,model_args)print(df)# get AAPL vol surface (pivoted on K)model_args = {'ticker':ticker,'pivot':'T_DATE,K,IV'}df = disent.hub(model,model_args)print(df)# lambdify disent call for any tickerf_vols = lambda i: disent.hub(model,{'ticker':i})print(f_vols('SPX'))print(f_vols('RTY'))```## DocumentationLatest documentation is hosted on [read the docs](https://disentpy.readthedocs.io/en/latest/).### RequirementsUsing disentpy requires the following packages:- pandas&gt;=1.0- requests&gt;=2.19.0### Install latest development version```shellpip install git+http://github.com/disentcorp/disent_pip.git```or```shellgit clone pip install https://github.com/disentcorp/disent_pip.gitcd disentpypython setup.py install```</longdescription>
+</pkgmetadata>

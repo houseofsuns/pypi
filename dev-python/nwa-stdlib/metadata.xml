@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Network Automation Standard LibraryThis library contains the functions and utilities that are shared by mostNetwork Automation projects built at SURF.## Getting startedIf you want to use a virtual environment first create the environment:```bashpip install flit```And then run the following commands:If you want to enhance or develop bug fixes for `nwastdlib` it's easiest to run the following commands:```bashflit install --deps develop --symlink```## DevelopmentDepending on the feature type, run bumpversion (patch|minor|major) to increment the version you are working on. Forexample to update the increment the patch version use```bashbumpversion patch```## To run tests```pytest```</longdescription>
+</pkgmetadata>

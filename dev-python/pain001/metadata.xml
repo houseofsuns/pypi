@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>The pain001 library is a Python package that generates a Customer-to-Bank Credit Transfer payload in the pain.001.001.03 format from a CSVfile.The package is named after the standard file format for SEPA and non-SEPA Credit Transfer, which is the Pain (payment initiation) format001.001.03.The pain001 library provides a convenient way for developers to createpayment files in this format.</longdescription>
+</pkgmetadata>

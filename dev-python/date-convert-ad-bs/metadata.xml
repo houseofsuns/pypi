@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Date-convert-AD-BSA Lightweight package that allows to convert AD to BS and vice versa.## InstallationYou can install the package using pip:```pip install date-convert-ad-bsorpip3 install date-convert-ad-bs```## UsageTo use the package, simply import it and call its functions:```pythonfrom dateconvert import DateConvertconverter = DateConvert()print(converter.ad_to_bs(1993,5,29))print(converter.bs_to_ad(2050,2,11))```</longdescription>
+</pkgmetadata>

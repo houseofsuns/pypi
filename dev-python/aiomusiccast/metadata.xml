@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;div align=&quot;center&quot;&gt;&lt;picture&gt;  &lt;source srcset=&quot;banner-dark.png&quot; media=&quot;(prefers-color-scheme: dark)&quot;&gt;  &lt;img src=&quot;banner.png&quot;&gt;&lt;/picture&gt;## Companion library for musiccast devices intended for the Home Assistant integration.[![PyPI Version](https://img.shields.io/pypi/v/aiomusiccast.svg)](https://pypi.org/project/aiomusiccast)![GitHub release (latest by date)](https://img.shields.io/github/v/release/vigonotion/aiomusiccast)![Read the Docs](https://img.shields.io/readthedocs/aiomusiccast)[![PyPI License](https://img.shields.io/pypi/l/aiomusiccast.svg)](https://pypi.org/project/aiomusiccast)&lt;/div&gt;&lt;br/&gt;# Setup## Requirements* Python 3.8+## InstallationInstall it directly into an activated virtual environment:```text$ pip install aiomusiccast```or add it to your [Poetry](https://poetry.eustace.io/) project:```text$ poetry add aiomusiccast```# UsageAfter installation, the package can imported:```text$ python&gt;&gt;&gt; import aiomusiccast&gt;&gt;&gt; aiomusiccast.__version__```</longdescription>
+</pkgmetadata>

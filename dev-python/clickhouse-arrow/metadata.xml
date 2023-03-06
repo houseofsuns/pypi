@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Clickhouse Arrow 🏠 🏹A minimal [ClickHouse](https://clickhouse.com) client that uses the HTTP API and Apache Arrow.You should probably use [Clickhouse Connect](https://github.com/ClickHouse/clickhouse-connect) instead.### Installation```bashpip install clickhouse_arrow```### Examples```pythonimport clickhouse_arrow as chimport pyarrow as pa# Initialise a clientclient = ch.Client(&quot;http://localhost:8123&quot;, password=&quot;password&quot;)# Create a tableclient.execute(    &quot;&quot;&quot;    CREATE TABLE test (        col1 Int64,        col2 String    )    ENGINE = Memory    &quot;&quot;&quot;,)# Import a tabletable = pa.Table.from_pydict(    {        &quot;col1&quot;: [1, 2, 3],        &quot;col2&quot;: [&quot;a&quot;, &quot;b&quot;, &quot;d&quot;],    },)client.insert(&quot;test&quot;, table)# Read into a tabletable = client.read_table(&quot;SELECT * FROM test&quot;)print(table)# Read iterator of batchesbatches = client.read_batches(&quot;SELECT * FROM test&quot;)for batch in batches:    print(batch)# Use query parameterstable = client.read_table(    &quot;&quot;&quot;    SELECT * FROM test    WHERE col1 = {value:Int64}    &quot;&quot;&quot;,    params={&quot;value&quot;: 2},)print(table)# Use query settingstable = client.read_table(    &quot;SELECT col2 FROM test&quot;,    settings={&quot;output_format_arrow_string_as_string&quot;: 1},)print(table[&quot;col2&quot;])```</longdescription>
+</pkgmetadata>

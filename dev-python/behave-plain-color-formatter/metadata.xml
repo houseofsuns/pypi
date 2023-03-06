@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># behave-plain-color-formatterFormatter for [behave][] that uses color but not fancy terminal repositioning![screenshot](https://raw.githubusercontent.com/msabramo/behave-plain-color-formatter/master/screenshot.png)## Installation```bashpip install behave-plain-color-formatter````## UsageYou can specify the formatter directly in the command line using the -f argument:```bashbehave -f behave_plain_color_formatter:PlainColorFormatter```or```bashbehave --format behave_plain_color_formatter:PlainColorFormatter```You can also register the formatter to be available through a simple name:```ini# -- FILE: behave.ini[behave.formatters]plain.color = behave_plain_color_formatter:PlainColorFormatter```and the use it like:```bashbehave -f plain.color```[behave]: https://github.com/behave/behave</longdescription>
+</pkgmetadata>

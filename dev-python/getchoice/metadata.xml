@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># getchoiceA simple library to allow a user to select from a list of options on the command line. Like [pick](https://github.com/wong2/pick), but with two major differences: - `getchoice` is intended for use alongside [python prompt toolkit](https://github.com/prompt-toolkit/python-prompt-toolkit); its output can be styled using PPT-style `(styling, text)` format.- `getchoice` does not use `curses`, and does not clear the screen when used.Install it from PyPI: `pip install getchoice````python from getchoice import ChoicePrinterfrom datetime import datechoice_printer = ChoicePrinter(normal_style=&quot;green italic&quot;)items = [     (&quot;February 1&quot;, date(2023, 2, 1)),     (&quot;Pi Day&quot;, date(2023, 3, 14)),     (&quot;Stanislav Petrov Day&quot;, date(2023, 9, 26))  ]choice_printer.getchoice(items, title = &quot;Select a date&quot;)```This displays an interactive prompt menu for the choices, that the user can navigate with the arrow or j/k keys, and select and item with space or enter. `choice_printer.getchoice()` returns a tuple of the form `(selected_index: int, selected_object)`For further details, see the `getchoice/getchoice.py` file; it's quite simple and hopefully unsuprising.</longdescription>
+</pkgmetadata>

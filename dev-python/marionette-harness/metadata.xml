@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>marionette-harness==================Marionette is an automation driver for Mozilla's Gecko engine. It can remotelycontrol either the UI or the internal JavaScript of a Gecko platform, such asFirefox. It can control both the chrome (i.e. menus and functions) or thecontent (the webpage loaded inside the browsing context), giving a high levelof control and ability to replicate user actions. In addition to performingactions on the browser, Marionette can also read the properties and attributesof the DOM.The marionette_harness package contains the test runner for Marionette, andallows you to run automated tests written in Python for Gecko basedapplications. Therefore it offers the necessary testcase classes, which arebased on the unittest framework.For more information and the repository please checkout:- home and docs: https://developer.mozilla.org/en-US/docs/Mozilla/QA/MarionetteExample-------The following command will run the tests as specified via a manifest file, ortest path, or test folder in Firefox:    marionette --binary %path_to_firefox% [manifest_file | test_file | test_folder]To get an overview about all possible option run `marionette --help`.</longdescription>
+</pkgmetadata>

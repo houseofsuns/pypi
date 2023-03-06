@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image:: https://badge.fury.io/py/galaxy-objectstore.svg   :target: https://pypi.org/project/galaxy-objectstore/Overview--------The Galaxy_ object store framework and default implementations.* Free software: Academic Free License version 3.0* Code: https://github.com/galaxyproject/galaxy.. _Galaxy: http://galaxyproject.org/History-------.. to_doc---------------------20.9.2.dev0------------------------------------------20.9.1 (2021-03-01)------------------------------------------20.9.0 (2020-10-15)---------------------* First release from the 20.09 branch of Galaxy.---------------------20.5.0 (2020-07-04)---------------------* First release from the 20.05 branch of Galaxy.---------------------19.9.0 (2019-12-16)---------------------* Initial import from dev branch of Galaxy during 19.09 development cycle.</longdescription>
+</pkgmetadata>

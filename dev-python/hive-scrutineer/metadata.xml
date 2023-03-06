@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># scrutineerHive Post performance and quality analytics.## Installation```cmd$ pip install hive-scrutineer```Supported Python versions 3.10+.## Blockchain SupportLimited support to Hive Blockchain HF27.## Basic usage```pythonfrom scrutineer import Scrutineeranalyzer = Scrutineer()analyzer.set_weights()analysis = analyzer.analyze(&quot;author&quot;, &quot;post-permlink&quot;)```## Customizations```pythonimport jsonfrom nektar import Wagglefrom scrutineer import Scrutineerhive = Waggle(&quot;username&quot;)analyzer = Scrutineer(minimum_score=10, max_emojis=0, deep=True, full=False)analyzer.set_weights(title=5, body=6, emojis=4, images=2, tagging=3, tags=1)for blog in hive.blogs(limit=5)    analysis = analyzer.analyze(blog)    print(json.dumps(analysis, indent=2))```## Keywords```pythonimport jsonfrom nektar import Wagglefrom scrutineer import get_keywords, get_bigramshive = Waggle(&quot;username&quot;)for blog in hive.blogs(limit=5)    keywords = get_keywords(blog[&quot;body&quot;])    print(&quot;\nget_keywords&quot; + json.dumps(keywords))        keywords = get_bigrams(blog[&quot;body&quot;])    print(&quot;\nget_bigrams:&quot; + json.dumps(keywords))```## PerformanceIn version `1.3.0`, we've migrated to `langdetect` to speed up `Scrutineer.analyze()` by more than 300x versus version `1.2.*`!```cmdMIN: 0.02782490011304617AVG: 0.13722777900053187MAX: 4.033556599984877```We've also seen a 70% import speed increase, in the said profiling.</longdescription>
+</pkgmetadata>

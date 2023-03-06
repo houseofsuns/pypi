@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>PayPlug Bindings for Python===========================A Python library for PayPlug's API.Installation------------You can install this package by using the pip tool and installing:    $ pip install payplug --upgradeOr via easy_install:    $ easy_install payplug --upgradeCreate a PayPlug Account------------------------Sign up for a PayPlug account at : https://www.payplug.com/portal2/signupUsing PayPlug API-----------------Documentation for Python is here : https://www.payplug.com/docs/api?python</longdescription>
+</pkgmetadata>

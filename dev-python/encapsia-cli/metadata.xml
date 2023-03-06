@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># About[![Known Vulnerabilities](https://snyk.io/test/github/encapsia/encapsia-cli/badge.svg?targetFile=requirements.txt)](https://snyk.io/test/github/encapsia/encapsia-cli?targetFile=requirements.txt)This package provides command line access to Encapsia over the REST API.All of these are designed to work with server 1.5 and beyond.## AutocompleteSetup autocomplete using the instructions found on &lt;https://github.com/click-contrib/click-completion&gt;## Tests### Unit testsRun:    poetry run pytest### Walkthrough TestsSee the `walkthrough_tests` directory for bash scripts which exercise the CLI.Run them e.g. with:    poetry run bash walkthrough_tests/all.shor test specific subcommands with:    poetry run bash walkthrough_tests/token.shNote that these tests are *not* self-verifying; they just provide helpful coverage, assurance, and working documentation.## Release checklist* Run: `poetry run black .`* Run: `poetry run isort .`* Run: `poetry run flake8 .`* Run: `poetry run mypy .`* Ensure &quot;tests&quot; run ok (see above).* Capture test output and commit with: `poetry run bash walkthrough_tests/all.sh 2&gt;&amp;1 | poetry run ansi2html -f 80% &gt;WALKTHROUGH.html`* Create `requirements.txt` for Snyk scanning with: `poetry export -f requirements.txt &gt;requirements.txt`* Ensure git tag, package version, and `encapsia_cli.__version__` are all equal.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image:: https://travis-ci.org/ambitioninc/django-entity-event.png   :target: https://travis-ci.org/ambitioninc/django-entity-event.. image:: https://pypip.in/v/django-entity-event/badge.png    :target: https://crate.io/packages/django-entity-event/    :alt: Latest PyPI version.. image:: https://pypip.in/d/django-entity-event/badge.png    :target: https://crate.io/packages/django-entity-event/    :alt: Number of PyPI downloadsDjango Entity Event===================Django Entity Event is a great way to collect events that your userscare about into a unified location. The parts of your code base thatcreate these events are probably totally separate from the parts thatdisplay them, which are also separate from the parts that managesubscriptions to notifications. Django Entity Event makes separatingthese concerns as simple as possible, and provides convenientabstractions at each of these levels.Installation------------To install the latest release, type::    pip install django-entity-eventTo install the latest code directly from source, type::    pip install git+git://github.com/ambitioninc/django-entity-event.gitDocumentation-------------Full documentation is available at http://django-entity-event.readthedocs.orgLicense-------MIT License (see LICENSE)</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This library allows indexing many strings into a file, and then efficiently fuzzy-matching strings against what's been indexed.Currently, the structure is built from the Rust program in memory before being written to the file, so that phase uses a lot of RAM. You cannot create/change an index from Python.String search is done from the file and requires little memory.The index is a trie structure in which trigrams can be looked up; results for each trigrams of the input are matched and sorted to get the most similar strings.Example::    &gt;&gt;&gt; from ngram_search import Ngrams    &gt;&gt;&gt; ngrams = Ngrams(path)    &gt;&gt;&gt; ngrams.search(&quot;ham&quot;, 0.24)    [(0, 1.0), (2, 0.25)]    &gt;&gt;&gt; ngrams.search(&quot;spa&quot;, 0.2)    [(0, 0.375)]</longdescription>
+</pkgmetadata>

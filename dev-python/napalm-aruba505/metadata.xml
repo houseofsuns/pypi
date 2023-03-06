@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;!DOCTYPE html&gt;&lt;h2&gt;Napalm-aruba505 &lt;/h2&gt; &lt;br&gt;&lt;h3&gt;Driver implementation for ArubaOS Access Points&lt;/h3&gt; &lt;br&gt;&lt;h5&gt;Currently supported Napalm methods:&lt;/h5&gt;&lt;div&gt;    &lt;ul&gt; get_config() &lt;/ul&gt;    &lt;ul&gt; get_facts() &lt;/ul&gt;    &lt;ul&gt; get_lldp_neighbors()&lt;/ul&gt;    &lt;ul&gt; get_interfaces()&lt;/ul&gt;    &lt;ul&gt; get_environment()&lt;/ul&gt;    &lt;ul&gt; get_vlans()&lt;/ul&gt;    &lt;ul&gt; cli()&lt;/ul&gt;&lt;/div&gt;&lt;h5&gt;How to install&lt;/h5&gt;&lt;ul&gt;pip install napalm-aruba505&lt;/ul&gt;&lt;h5&gt;How to use it&lt;/h5&gt;&lt;ul&gt;    &lt;li&gt;import napalm&lt;/li&gt;    &lt;li&gt;from napalm import get_network_driver&lt;/li&gt;    &lt;li&gt;driver = napalm.get_network_driver(&quot;napalm_aruba505&quot;)&lt;/li&gt;    &lt;li&gt;device = driver(&quot;my-ap-1&quot;, &quot;my_username&quot;, &quot;my_password&quot;)&lt;/li&gt;    &lt;li&gt;config = device.get_config()&lt;/li&gt;    &lt;li&gt;print(config)&lt;/li&gt;&lt;/ul&gt; &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;Useful info:&lt;/p&gt; &lt;div&gt;    &lt;li&gt; &lt;a href=&quot;https://pypi.org/project/sshFRIEND/&quot;&gt; sshFRIEND&lt;/a&gt; &lt;/li&gt;&lt;/div&gt;</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>petrone&lt;br&gt;PyPIhttps://pypi.python.org/pypi/petrone&lt;br&gt;BYROBOT Devhttp://dev.byrobot.co.kr/&lt;br&gt;Documentshttp://dev.byrobot.co.kr/documents/en/products/petrone/library/python/petrone/&lt;br&gt;Forumhttps://groups.google.com/d/forum/byrobot&lt;br&gt;BYROBOT</longdescription>
+</pkgmetadata>

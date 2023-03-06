@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># PyhoparaPyhopara is the Hopara Python SDK. It's main purpose is to ingest data from Python/Pandas.### Install```shellpip install hopara```---Before using Pyhopara you should setup your environment. This is achieved by installing the Hopara CLI and sign-in or sign-up:```shellnpm install -g hoparahopara signup```---Basic usage:```pythonimport hopara as hphopara = hp.Hopara()table = hp.Table('table_name')table.add_column('column1', hp.ColumnType.INTEGER)table.add_column('column2', hp.ColumnType.STRING)hopara.create_table(table)rows = [{'column1': 1, 'column2': 'a'},        {'column1': 2, 'column2': 'b'},        {'column1': 3, 'column2': 'c'}]hopara.insert_rows(table, rows)```With pandas DataFrame:```pythonimport hopara as hpimport hopara.from_pandas as hpdimport pandas as pdhopara = hp.Hopara()df = pd.DataFrame({    'column1': [1, 2, 3],    'column2': ['a', 'b', 'c']})table = hpd.get_table('table_name', df)hopara.create_table(table)hopara.insert_rows(table, hpd.get_rows(df))```Please check the ``Hopara`` and ``Table`` sections for additional options.</longdescription>
+</pkgmetadata>

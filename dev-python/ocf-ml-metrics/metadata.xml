@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ocf-ml-metricsCollection of simple baseline models and metrics for standardized evaluation of OCF forecasting models.This package computes a variety of baselines and error metricsincluding persistence of both last value and last day of generation,comparison to PVLive, and max and zero baselines.## InstallationInstall with `pip install ocf-ml-metrics`## UsageThe easiest way to use this package is to use theconvenience function `ocf_ml_metrics.metrics.errors.compute_metrics` thatcomputes all the basic error metrics overall, with and without night time,for different parts of the year, different times of day, and all forecasthorizons by default.There is also `ocf_ml_metrics.evaluation.evaluation.evaluation` that computes metrics after taking in a pandasdataframe. These metrics are computed for the raw values, normalized values, against simple baseline models,and per ID in the input dataframe. The input dataframe required data can be found in the docstringAnd example usage would be```pythonfrom ocf_ml_metrics.evaluation.evaluation import evaluationimport pandas as pdresults_df = pd.read_csv('&lt;path to csv&gt;')metrics: dict = evaluation(results_df=results_df, model_name='&lt;model name&gt;')```</longdescription>
+</pkgmetadata>

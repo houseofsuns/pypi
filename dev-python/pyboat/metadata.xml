@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## pyBOAT - A Biological Oscillations Analysis Toolkit ##Tools for time-frequency analysis of noisy non-stationary signals with Morlet Wavelets.See the [github repo](https://github.com/tensionhead/pyBOAT) for general documentation or[this paper](https://www.biorxiv.org/content/10.1101/2020.04.29.067744v3)for more details.&lt;img src=&quot;../doc/assets/DataViewerSpectrum.png&quot; alt=&quot;wavelet power spectrum&quot; width=&quot;850&quot;/&gt;### Features ###* Optimal sinc filter* Fourier analysis* Wavelet analysis * Ridge detection* Phase extraction* Amplitude estimation* Synthetic signal generator* Ensemble/Summary statistics</longdescription>
+</pkgmetadata>

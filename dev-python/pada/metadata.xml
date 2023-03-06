@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># padapada is an onomatopoeia, like the sound we make when building blocks.a ligthweight feature manage framework1. load_data: load data2. feature definition: metadata, input data, transform3. assemble: construct## pada command line generates the project directory```project|---definition|  |-feats_def.py|---load_data.py|---main.py|---url.py    ```## base introduce### load_data.pydefine a function named *data()*, return your data which is a pd.DataFrame### definitionyou should define your feature in this directory### url.pyfind your feature definition by *url()* function### main.pyrun your feature engeering by *run()* function# History## 0.1.0 (2022-03-01)* First release on PyPI</longdescription>
+</pkgmetadata>

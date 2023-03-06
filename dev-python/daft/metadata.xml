@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image:: https://raw.github.com/dfm/daft/master/images/logo.png**Daft** is a Python package that uses `matplotlib &lt;http://matplotlib.org/&gt;`_to render pixel-perfect *probabilistic graphical models* for publicationin a journal or on the internet. With a short Python script and an intuitivemodel-building syntax you can design directed and undirected graphs and savethem in any formats that matplotlib supports.Get more information at: `docs.daft-pgm.org &lt;https://docs.daft-pgm.org&gt;`_*************************************************************************</longdescription>
+</pkgmetadata>

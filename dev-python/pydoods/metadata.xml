@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># PyDOODS - Python for Distributed Open Object Detection ServiceThis is a simple Python wrapper for the [DOODS](https://github.com/snowzach/doods) service. DOODS allows you to do remote object detection in images easily. A simple example using this library:```import PyDOODS from pydoodstry:    pd = PyDOODS(&quot;http://docker:8080&quot;,                    auth_key=&quot;abc1234&quot;, timeout=90)except OSError as err:    print(&quot;OS error: {0}&quot;.format(err))    exitimage = open(&quot;grace_hopper.png&quot;, &quot;rb&quot;).read()print(pd.detect(image))```</longdescription>
+</pkgmetadata>

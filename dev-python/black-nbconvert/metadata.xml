@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># black + nbconvertTired of having to *think* about formatting in Jupyter notebooks?Look no further!This script will correctly format your Jupyter notebooks for you using [black](https://black.readthedocs.io).**Warning: This project will overwrite your notebooks in place.It shouldn't change anything except the format, but use at your own risk!**## Installation &amp; UsageTo install:```bashpip install black_nbconvert```To check a notebook:```bashblack_nbconvert --check /path/to/a/notebook.ipynb```To fix the formatting in a notebook (in place):```bashblack_nbconvert /path/to/a/notebook.ipynb```If you pass a directory instead of a notebook file, notebooks will be found recursively below that directory.For example:```bashblack_nbconvert .```will fix the formatting for all notebooks in the current directory and (recursively) below.*Configuration:* Configuration for `black` in a `pyproject.toml` file above the target files will be respected.## Version control integrationUse [pre-commit](https://pre-commit.com/).Once you [have it installed](https://pre-commit.com/#install), add this to the `.pre-commit-config.yaml` in your repository:```yamlrepos:- repo: https://github.com/dfm/black_nbconvert  rev: v0.3.0  hooks:  - id: black_nbconvert```Then run `pre-commit install` and you're ready to go.</longdescription>
+</pkgmetadata>

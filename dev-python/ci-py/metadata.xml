@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ci.py[![Build Status](https://travis-ci.org/grantmcconnaughey/ci.py.svg?branch=master)](https://travis-ci.org/grantmcconnaughey/ci.py)A Python library for working with Continuous Integration services. For Python 2.7 and 3.5+.## UsageFirst, `pip` install ci.py:    $ pip install ci-py## Available Methods```pythonimport cici.is_ci()  # True/Falseci.is_pr()  # True/Falseci.name()  # &quot;Travis CI&quot;ci.pr()  # &quot;38&quot;ci.repo()  # &quot;grantmcconnaughey/ci.py&quot;ci.commit_sha()  # &quot;246249bab34e78a020efc67b626efd6052e754d9&quot;```## CI Servicesci.py works with the following CI services:- Travis CI- Circle CI- GitHub Actions- Drone CI- AppVeyor- Shippable- Semaphore- AWS CodeBuild- Azure DevOps## Running TestsTo run tests, install `tox` and run it from the command line:```&gt; tox```This will run tests against all of the Python versions defined in `tox.ini`. Note that all of these versions of Python will need to be installed. You can use `pyenv` to install these different versions.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>spglib======Python bindings for C library for finding and handling crystalsymmetriesInstallation------------The package is developed on github. You can get the source for thereleased versions from the`repository &lt;https://github.com/spglib/spglib/releases&gt;`__.Using package distribution service~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~The easiest way to install python-spglib is to use the pypi package, forwhich numpy is required to be installed before the installation. Acommand to install spglib is:::    pip install spglibConda is another choice:::    conda install -c conda-forge spglibThese packages are made by Pawel T. Jochym.</longdescription>
+</pkgmetadata>

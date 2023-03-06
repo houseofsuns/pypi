@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>|pypi| |travis| |coverage|edc-pharmacy-dashboard----------------------EDC Pharmacy Dashboard.. |pypi| image:: https://img.shields.io/pypi/v/edc-pharmacy-dashboard.svg    :target: https://pypi.python.org/pypi/edc-pharmacy-dashboard    .. |travis| image:: https://travis-ci.com/clinicedc/edc-pharmacy-dashboard.svg?branch=develop    :target: https://travis-ci.com/clinicedc/edc-pharmacy-dashboard    .. |coverage| image:: https://coveralls.io/repos/github/clinicedc/edc-pharmacy-dashboard/badge.svg?branch=develop    :target: https://coveralls.io/github/clinicedc/edc-pharmacy-dashboard?branch=develop</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># py-ed25519-bindingsPython bindings for the [ed25519-dalek RUST crate](https://crates.io/crates/ed25519-dalek/1.0.1) ## Documentationhttps://docs.rs/py-ed25519-bindings## Installation### Install from PyPI```pip install py-ed25519-bindings```### Compile for local development```pip install -r requirements.txtmaturin develop```### Build wheelhouses```pip install -r requirements.txt# Build local OS wheelhousematurin build# Build manylinux1 wheelhousedocker build . --tag polkasource/maturindocker run --rm -i -v $(pwd):/io konstin2/maturin build```## Usage```pythonimport bip39import ed25519_dalekmessage = b&quot;test&quot;# Get private and public key from seedseed = bip39.bip39_to_mini_secret('daughter song common combine misery cotton audit morning stuff weasel flee field','')private_key, public_key = ed25519_dalek.ed_from_seed(bytes(seed))# Generate signaturesignature = ed25519_dalek.ed_sign(public_key, private_key, message)print(signature.hex())# Verify message with signatureif ed25519_dalek.ed_verify(signature, message, public_key):    print('Verified')```## Licensehttps://github.com/polkascan/py-ed25519-bindings/blob/master/LICENSE</longdescription>
+</pkgmetadata>

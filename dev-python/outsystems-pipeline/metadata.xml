@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>The outsystems-pipeline Python package provides functions to support the creation of OutSystems CI/CD pipelines using your DevOps automation tool of choice.Visit the `project repository &lt;https://github.com/OutSystems/outsystems-pipeline&gt;`_ on GitHub for instructions on how to build example OutSystems CI/CD pipelines with common DevOps automation tools, as well as documentation that will help you adapt the examples to your particular scenarios.What's new==========**Trigger Manifest Artifact** * New function to create and execute a deployment plan based on the app versions on the manifest given by the latest version of the Trigger Pipeline LifeTime Plugin. * New function to set configuration item values on a target environment based on the values found on the manifest given by the latest version of the Trigger Pipeline LifeTime Plugin.**LifeTime Deployment Operations** * New function to resume the execution of a deployment plan on a target environment where 2-stage deployments are enabled.Installing and upgrading========================Install or upgrade outsystems-pipeline to the latest available version as follows:::    pip install -U outsystems-pipeline</longdescription>
+</pkgmetadata>

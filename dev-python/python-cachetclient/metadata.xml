@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>About=====python-cachetclient_ is a client and library that can be used to communicatewith the Cachet_ API.Disclaimer: This is a work in progress. Please feel free to provide feedbackand contribute to the project !.. _python-cachetclient: https://github.com/dmsimard/python-cachetclient.. _Cachet: https://cachethq.io/Documentation=============No documentation for the time being.TL;DR: See the provided `example file`_... _example file: https://github.com/dmsimard/python-cachetclient/blob/master/contrib/example.pyInstalling==========From source::    pip install git+https://github.com/dmsimard/python-cachetclientFrom pypi::    pip install python-cachetclientAuthor======David Moreau SimardCopyright=========Copyright 2016 Red Hat, Inc.Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);you may not use this file except in compliance with the License.You may obtain a copy of the License at    http://www.apache.org/licenses/LICENSE-2.0Unless required by applicable law or agreed to in writing, softwaredistributed under the License is distributed on an &quot;AS IS&quot; BASIS,WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.See the License for the specific language governing permissions andlimitations under the License.</longdescription>
+</pkgmetadata>

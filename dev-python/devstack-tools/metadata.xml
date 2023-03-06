@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>===============================devstack-tools===============================Devstack Helper Tools in PythonThis is a set of cli tools for supporting devstack. It moves some ofthe complexity out of bash and into python where it's easier to havecomprehensive testing of behavior.Currently this includes the ``dsconf`` tool, which provides a cli formanipulating local.conf and ini files.::  usage: dsconf [-h]              {iniset,inicomment,iniuncomment,inirm,extract-localrc,extract,setlc,setlc_raw,setlc_conf,merge_lc}              ...  optional arguments:    -h, --help            show this help message and exit  commands:    {iniset,inicomment,iniuncomment,inirm,extract-localrc,extract,setlc,setlc_raw,setlc_conf,merge_lc}                        sub-command help    iniset              set item in ini file    inicomment          comment item in ini file    iniuncomment        uncomment item in ini file    inirm               delete item from ini file    extract-localrc     extract localrc from local.conf    extract             extract and merge config from local.conf    setlc               set variable in localrc of local.conf    setlc_raw           set raw line at the end of localrc in local.conf    setlc_conf          set variable in ini section of local.conf    merge_lc            merge local.conf files* Free software: Apache license* Documentation: https://docs.openstack.org/devstack-tools/latest/* Source: https://opendev.org/openstack/devstack-tools/* Bugs: https://bugs.launchpad.net/devstackFeatures--------* TODO</longdescription>
+</pkgmetadata>

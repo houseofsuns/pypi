@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># esi-coreRepository for compiled code used by ESI projects, namely C code used in the USGS Shakemap and Groundmotion-Processing programs.As of September 15th, this project is functional for the gmprocess portion of compiled code. Shakemap functionality will soon follow.## gmprocessThe compiled code here is used in [gmprocess](https://github.com/usgs/groundmotion-processing) both in metrics calculations and waveform processing.Computation of waveform metrics utilizes the ```oscillators``` module, while waveform processing routines use the ```auto_fchp``` for corner frequency determination, as well as the ```konno-omachi``` and ```smoothing``` modules to perform spectral smoothing## ShakemapUnder development for future PyPi releaseProvides the [Shakemap](https://github.com/usgs/shakemap) project with necessary C libraries for Shakemap production and contouring</longdescription>
+</pkgmetadata>

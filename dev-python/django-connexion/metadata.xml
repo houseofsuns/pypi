@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## Django ConnexionThis is a django api for [connexion lib](https://connexion.readthedocs.io/en/latest/index.html).## Get started### Install With poetry:```shpoetry add git+https://github.com/buserbrasil/django-connexion.git#main```With pip:```shpip install git+https://github.com/buserbrasil/django-connexion.git```### Use```pythonfrom django_connexion import DjangoApidoc_api = DjangoApi(&quot;openapi.json&quot;) # path to openapi file (json or yaml).# ... any codeurlpatterns = [  path(&quot;&quot;, doc_api.urls),  # ... rest of urls  path('admin/', admin.site.urls),]```</longdescription>
+</pkgmetadata>

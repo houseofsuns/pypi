@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Convert from fuzzy dates like &quot;yesterday&quot;, &quot;2 weeks and 1 day ago&quot;, &quot;next wed&quot;,&quot;Jan 4&quot;, etc., to a datetime object.This is useful for processing command line arguments::    &gt;&gt;&gt; from optparse import OptionParser    &gt;&gt;&gt; import magicdate    &gt;&gt;&gt; parser = OptionParser(option_class=magicdate.MagicDateOption)    &gt;&gt;&gt; parser.add_option(    ...     '-s', '--start', dest='start', type='magicdate', default=None)    &gt;&gt;&gt; parser.add_option(    ...     '-e', '--end', dest='end', type='magicdate', default='today')Now you can pass options like &quot;today&quot;, &quot;1996-01-01&quot;, etc., to your program.Inspired by Simon Willison's ``dateparse.js``.</longdescription>
+</pkgmetadata>

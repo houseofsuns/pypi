@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># githubgqlPython library for GraphQL API interactions on Github Actions.Basic example:```pythonfrom githubgql import githubgqlQUERY = &quot;&quot;&quot;query {   repository(owner: &quot;github&quot;, name: &quot;docs&quot;) {    name  }}&quot;&quot;&quot;token = os.environ.get('BOT_TOKEN', None)result = githubgql.graphql(QUERY, token)```More detailed examples are present in the source.Packaged using tutorial on[packaging.python.org](https://packaging.python.org/tutorials/packaging-projects/).Uses [gh-action-pypi-publish](https://github.com/actions-automation/githubgql)for automatic publishing.</longdescription>
+</pkgmetadata>

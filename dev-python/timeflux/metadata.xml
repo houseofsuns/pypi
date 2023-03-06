@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>|Build| |Doc| |PyPI| |Contributor Covenant||Logo|Timeflux========Timeflux is a free and open-source framework for acquiring and processing biosignals in real-time.Use it to bootstrap your research, build brain-computer interfaces,closed-loop biofeedback applications, interactive installations, andmore. Written in Python, it works on Linux, MacOS and Windows. Made forresearchers and hackers alike.Installation------------You can easily install the latest stable release from PyPI. We higlhy recommend that you use an environment management system such as `Conda &lt;https://docs.conda.io/en/latest/miniconda.html&gt;`__ to keep everything tidy.::    $ conda create --name timeflux python=3.10 pytables    $ conda activate timeflux    $ pip install timefluxGetting started---------------`Read the documentation &lt;https://doc.timeflux.io&gt;`__... |Build| image:: https://img.shields.io/github/actions/workflow/status/timeflux/timeflux/build.yml?branch=master.. |Doc| image:: https://img.shields.io/readthedocs/timeflux/latest.. |PyPI| image:: https://img.shields.io/pypi/v/timeflux.. |Contributor Covenant| image:: https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg.. |Logo| image:: https://avatars3.githubusercontent.com/u/44117793?v=4&amp;s=100</longdescription>
+</pkgmetadata>

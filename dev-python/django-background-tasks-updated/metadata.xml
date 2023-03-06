@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Django Background Tasks UpdatedDjango Background Task is a database-backed work queue for Django, loosely basedaround [Ruby's DelayedJob](https://github.com/tobi/delayed_job) library. This project wasadopted and adapted from [lilspikey's](https://github.com/lilspikey/) `django-background-task`. This fork includes minor fixes to support Django 4.To avoid conflicts on PyPI we renamed it to django-background-tasks-updated (plural).# DocsSee [Read the docs](http://django-background-tasks.readthedocs.io/en/latest/)# Donations``django-background-tasks`` is free software. If you find it useful and would like to give back, please consider makinga donation to the original author using [Bitcoin](https://blockchain.info/payment_request?address=34vD9fADYX9QAcMfJUB4c2pYd19SG2toZ9) or [PayPal](https://www.paypal.me/arteriagmbh). Thank you!</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>===============================DBaaS ACLAPI===============================.. image:: https://badge.fury.io/py/dbaas-aclapi.png    :target: http://badge.fury.io/py/dbaas-aclapi.. image:: https://travis-ci.org/felippemr/dbaas-aclapi.png?branch=master        :target: https://travis-ci.org/felippemr/dbaas-aclapi.. image:: https://pypip.in/d/dbaas-aclapi/badge.png        :target: https://pypi.python.org/pypi/dbaas-aclapiACL API integration for DBaaS* Free software: BSD license* Documentation: https://dbaas-aclapi.readthedocs.org.Features--------* TODOHistory-------0.0.1 (2014-01-11)---------------------* First release on PyPI.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Python Blackerz API-Wrapper ![travis status](https://api.travis-ci.org/Fastering18/Blackerz-SDK-Python.svg)  Python SDK for interact with our API__Example Post Bot Description__```pyimport blackerz_wrapper as blackerzblackerz.authorize(&quot;V1auth&quot;)goblox = blackerz.bot(&quot;bot_id&quot;)bot_data = goblox.bot_data()print(bot_data)result = goblox.edit_data(short_description=&quot;generated_by_python_lib&quot;)print(result) # boolean indicates success or notprint(goblox.check_vote(&quot;775363892167573535&quot;)) # check if userid 775363892167573535 voted the bot  ```  ## Website  Get your **V1 auth** by login to our website then visit your profile, here the link  https://blackerz.herokuapp.com/&lt;br&gt;Made by Fastering18, join our support server https://discord.gg/t7zJBwynFU for more information.</longdescription>
+</pkgmetadata>

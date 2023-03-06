@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&quot;Imagination is a reusable component and aspect-oriented programming framework which encapsulates an object into a single object, called containers, inspired by many frameworks, e.g., Symfony Framework in PHP and Spring Framework in Java.&quot;</longdescription>
+</pkgmetadata>

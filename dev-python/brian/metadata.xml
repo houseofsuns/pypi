@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Brian is a simulator for spiking neural networks available on almost all platforms.The motivation for this project is that a simulator should not only save the time ofprocessors, but also the time of scientists.Brian is easy to learn and use, highly flexible and easily extensible. The Brian packageitself and simulations using it are all written in the Python programming language,which is an easy, concise and highly developed language with many advanced features anddevelopment tools, excellent documentation and a large community of users providingsupport and extension packages.</longdescription>
+</pkgmetadata>

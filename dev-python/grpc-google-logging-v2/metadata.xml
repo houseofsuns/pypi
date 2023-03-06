@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>gRPC library for google-logging-v2grpc-google-logging-v2 is the IDL-derived library for the google-logging (v2) service in the googleapis_ repository... _`googleapis`: https://github.com/googleapis/googleapis/tree/master/google/logging/v2</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image:: https://img.shields.io/pypi/v/django-otp-twilio?color=blue   :target: https://pypi.org/project/django-otp-twilio/   :alt: PyPI.. image:: https://img.shields.io/readthedocs/django-otp-twilio   :target: https://django-otp-twilio.readthedocs.io/   :alt: Documentation.. image:: https://img.shields.io/badge/github-django--otp--twilio-green   :target: https://github.com/django-otp/django-otp-twilio   :alt: SourceThis is a django-otp plugin that delivers tokens via Twilio's `SMS&lt;https://www.twilio.com/sms&gt;`_ service.See `django-otp &lt;https://pypi.org/project/django-otp&gt;`_ for more informationon the OTP framework... _upgrade notes: https://django-otp-twilio.readthedocs.io/#upgrading</longdescription>
+</pkgmetadata>

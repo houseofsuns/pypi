@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pycooldown[![pypi](https://github.com/TrigonDev/apgorm/actions/workflows/pypi.yml/badge.svg)](https://pypi.org/project/pycooldown)[Documentation](https://github.com/circuitsacul/pycooldown/wiki) | [Support](https://discord.gg/dGAzZDaTS9)A lightning-fast cooldown/ratelimit implementation.## Example Usage```pyfrom pycooldown import FixedCooldowncooldown = FixedCooldown(period=10, capacity=5)def handle_event(sender):    retry_after = cooldown.update_ratelimit(sender)    if retry_after is None:        print(&quot;Event succeeded!&quot;)    else:        print(f&quot;Too many events from {sender}. Retry in {retry_after} seconds.&quot;)```</longdescription>
+</pkgmetadata>

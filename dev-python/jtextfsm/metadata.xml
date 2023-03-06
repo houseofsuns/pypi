@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>jtextfsm: A TextFSM fork, Python 3 compatible==============================================Installation:.. code:: bash    pip install jtextfsmUsage:.. code:: python    import jtextfsm as textfsmThe original code:TextFSM: https://code.google.com/p/textfsm</longdescription>
+</pkgmetadata>

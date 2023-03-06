@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image:: https://badge.fury.io/py/galaxy-containers.svg   :target: https://pypi.org/project/galaxy-containers/Overview--------The Galaxy_ containers module - interfaces for modeling and interacting with container backends (docker and docker swarm currently).* Free software: Academic Free License version 3.0* Code: https://github.com/galaxyproject/galaxy.. _Galaxy: http://galaxyproject.org/History-------.. to_doc---------------------21.1.1.dev0------------------------------------------21.1.0 (2021-03-19)---------------------* First release from the 21.01 branch of Galaxy.---------------------20.5.0 (2020-07-04)---------------------* First release from the 20.05 branch of Galaxy.---------------------19.9.0 (2019-12-16)---------------------* Initial import from dev branch of Galaxy during 19.09 development cycle.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=================Python MWS Client=================.. image:: https://img.shields.io/pypi/v/pymws.svg        :target: https://pypi.python.org/pypi/pymws.. image:: https://github.com/fulfilio/pymws/workflows/CI%20(pip)/badge.svg        :target: https://github.com/fulfilio/pymws/actions.. image:: https://readthedocs.org/projects/pymws/badge/?version=latest        :target: https://pymws.readthedocs.io/en/latest/?badge=latest        :alt: Documentation Status.. image:: https://pyup.io/repos/github/fulfilio/pymws/shield.svg     :target: https://pyup.io/repos/github/fulfilio/pymws/     :alt: UpdatesPython client for Amazon Marketplace Web Services (MWS)* Free software: MIT license* Documentation: https://pymws.readthedocs.io.Installation------------.. code-block::    pip install pymwsUsage-----Import the package.. code-block:: python    from pymws import MWSCreate a client instance.. code-block:: python  client = MWS(      marketplace=&quot;US&quot;, merchant_id=&quot;1234&quot;,      access_key_id=&quot;key&quot;, secret_key=&quot;secret&quot;,      auth_token=&quot;token&quot;  )Once you have a client with valid credentials, you can nowcall operations... code-block:: python  start_date = datetime(2020, 1, 20, 10, 30)  client.orders.list_orders(CreatedAfter=start_date)=======History=======0.1.0 (2020-08-08)------------------* First release on PyPI.</longdescription>
+</pkgmetadata>

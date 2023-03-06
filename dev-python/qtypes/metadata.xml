@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># qtypes[![PyPI](https://img.shields.io/pypi/v/qtypes)](https://pypi.org/project/qtypes)[![Conda](https://img.shields.io/conda/vn/conda-forge/qtypes)](https://anaconda.org/conda-forge/qtypes)[![black](https://img.shields.io/badge/code--style-black-black)](https://black.readthedocs.io/)[![log](https://img.shields.io/badge/change-log-informational)](https://gitlab.com/yaq/qtypes/-/blob/main/CHANGELOG.md)Build qt graphical user interfaces out of simple type objects.## InstallationTODO## Types### Bool```value: bool```### Button```value: Nonebackground_color: strtext: strtext_color: str```### Enum```value: strallowed: List[str]```### Float```value: doubleunits: strminimum: doublemaximum: doubledecimals: int```Note that units support works via [pint](https://pint.readthedocs.io)### Integer```value: intminimum: intmaximum: int```### String```value: str```## Examples`qtypes` comes with a few examples right out of the box.Run them using the python module syntax, e.g.:```bash$ python -m qtypes.examples one_of_each```Included examples:| example       | description                                                            || ------------- | ---------------------------------------------------------------------- || `one_of_each` | Simple example displaying one of each type with some inspection tools. || `units`       | Example demonstrating units support for qtypes Float object.           |</longdescription>
+</pkgmetadata>

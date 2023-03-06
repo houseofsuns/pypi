@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Mutalyzer Retriever![GitHub last commit](https://img.shields.io/github/last-commit/mutalyzer/retriever)![GitHub Workflow Status](https://img.shields.io/github/workflow/status/mutalyzer/retriever/Python%20package%20CI)![Read the Docs](https://img.shields.io/readthedocs/mutalyzer-retriever)![GitHub release (latest by date)](https://img.shields.io/github/v/release/mutalyzer/retriever)![GitHub Release Date](https://img.shields.io/github/release-date/mutalyzer/retriever)![PyPI](https://img.shields.io/pypi/v/mutalyzer_retriever)![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/mutalyzer/retriever)![GitHub language count](https://img.shields.io/github/languages/count/mutalyzer/retriever)![GitHub top language](https://img.shields.io/github/languages/top/mutalyzer/retriever)![GitHub](https://img.shields.io/github/license/mutalyzer/retriever)---Retrieve and parse genomic reference files.Please see [ReadTheDocs][RTD] for the latest documentation.[RTD]: https://mutalyzer-retriever.readthedocs.io/en/latest/</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>'The Visual Editor Pipeline extension is used to build AI pipelines from notebooks, Python scripts and R scripts, simplifying the conversion of multiple notebooks or script files into batch jobs or workflows.See https://elyra.readthedocs.io/en/v3.15.0/user_guide/pipelines.html'</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Asciitable can read and write a wide range of ASCII table formats via built-inExtension Reader Classes:* **Basic**: basic table with customizable delimiters and header configurations* **Cds**: `CDS format table &lt;http://vizier.u-strasbg.fr/doc/catstd.htx&gt;`_ (also Vizier and ApJ machine readable tables)* **CommentedHeader**: column names given in a line that begins with the comment character* **Daophot**: table from the IRAF DAOphot package* **FixedWidth**: table with fixed-width columns* **Ipac**: `IPAC format table &lt;http://irsa.ipac.caltech.edu/applications/DDGEN/Doc/ipac_tbl.html&gt;`_* **Latex**: LaTeX tables (plain and AASTex)* **Memory**: table already in memory (list of lists, dict of lists, etc)* **NoHeader**: basic table with no header where columns are auto-named* **Rdb**: tab-separated values with a column types line after the column names line* **Tab**: tab-separated values**This is the last major release of the asciitable package:**The asciitable package was moved into the `Astropy &lt;http://astropy.org&gt;`_ projectas `astropy.io.ascii &lt;http://astropy.readthedocs.org/en/latest/io/ascii/index.html&gt;`_.This sub-package is being actively developed and contains many new features andbug fixes.  Users are encouraged to migrate to ``astropy.io.ascii``.</longdescription>
+</pkgmetadata>

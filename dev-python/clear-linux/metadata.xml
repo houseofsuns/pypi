@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># IMPORTANT: - The clear command is `clear_linux.clear()` - To import properly, add this line of code `from clear_linux import clear_linux`# Clear Command for LinuxWill clear your terminal output for you with one function# Requirements: - os (default) - time (default) - python 3.7+# Latest Patch Notes: - Updated `README.md` again - **All previous patch notes are availible in version history**</longdescription>
+</pkgmetadata>

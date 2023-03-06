@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># astro_metadata_translator[![pypi](https://img.shields.io/pypi/v/astro-metadata-translator.svg)](https://pypi.org/project/astro-metadata-translator/)[![codecov](https://codecov.io/gh/lsst/astro_metadata_translator/branch/main/graph/badge.svg?token=0HtEHdoYDF)](https://codecov.io/gh/lsst/astro_metadata_translator)Observation metadata handling infrastructureThis package can be used to translate headers from astronomicalinstrumentation into a standard form.  This allows the detailsof particular headers to be hidden from the user of the datafiles.This package was developed by the Large Synoptic Survey TelescopeData Management team.It does not depend on any LSST software.Documentation: &lt;https://astro-metadata-translator.lsst.io&gt;\Source: &lt;https://github.com/lsst/astro_metadata_translator&gt;\PyPI: &lt;https://pypi.org/project/astro-metadata-translator/&gt;</longdescription>
+</pkgmetadata>

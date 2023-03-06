@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pycassa is a python client library for Apache Cassandra with the following features:1. Auto-failover single or thread-local connections2. Connection pooling3. A batch interface4. Simplified version of the Thrift interface5. A method to map an existing class to a Cassandra column family</longdescription>
+</pkgmetadata>

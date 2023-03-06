@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Fast and effective Instagram Private API wrapper (public+private requests and challenge resolver).Use the most recent version of the API from Instagram.Features:1. Performs Public API (web, anonymous) or Private API (mobile app, authorized)   requests depending on the situation (to avoid Instagram limits)2. Challenge Resolver have Email (as well as recipes for automating receive a code from email) and SMS handlers3. Support upload a Photo, Video, IGTV, Clips (Reels), Albums and Stories4. Support work with User, Media, Insights, Collections, Location (Place), Hashtag and Direct objects5. Like, Follow, Edit account (Bio) and much more else6. Insights by account, posts and stories7. Build stories with custom background, font animation, swipe up link and mention users8. In the next release, account registration and captcha passing will appear</longdescription>
+</pkgmetadata>

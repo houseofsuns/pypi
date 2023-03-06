@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Ivy ORM allows you to write data access instructions that are then converted to the database you are working with.By providing a schema file to the Datasource class, you are able to (hopefully) quickly write some code that allows you to query a database# Current statusThis is a very 'alpha' build. I've only done the very basics such as create and drop tables, and CRUD operations.There is also only one connector - Postgres!</longdescription>
+</pkgmetadata>

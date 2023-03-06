@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># crostonA python package to forecast intermittent time series using croston's method[readthedocs: croston](https://croston.readthedocs.io/en/latest/)example:```import numpy as npimport randomfrom croston import crostonimport matplotlib.pyplot as plta = np.zeros(50)val = np.array(random.sample(range(100,200), 10))idxs = random.sample(range(50), 10)ts = np.insert(a, idxs, val)fit_pred = croston.fit_croston(ts, 10,'original')yhat = np.concatenate([fit_pred['croston_fittedvalues'], fit_pred['croston_forecast']])plt.plot(ts)plt.plot(yhat)```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># py-machineidGet the unique machine ID of any host (without admin privileges).Sponsored by:[![Keygen logo](https://user-images.githubusercontent.com/6979737/175406169-bd8bf064-7343-4bd1-94b7-a773ecec07b8.png)](https://keygen.sh)_A software licensing and distribution API built for developers._## InstallInstall using [`pip`](https://docs.python.org/3/installing/index.html):```bashpython3 -m pip install py-machineid```## UsageTo obtain the raw GUID of the device, use `id() -&gt; str`:```pythonimport machineidprint(machineid.id())```To obtain an anonymized (hashed) version of the GUID, see below. The`hashed_id(str) -&gt; str` function takes an optional application ID,which will ensure a unique ID per-app for the same device.```pythonimport machineidprint(machineid.hashed_id('myappid'))print(machineid.hashed_id())```## ThanksSpecial thanks to Denis Brodbeck for his Go package, [`machineid`](https://github.com/denisbrodbeck/machineid).</longdescription>
+</pkgmetadata>

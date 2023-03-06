@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Deltas======An open licensed (MIT) library for performing generating deltas (A.K.A sequencesof operations) representing the difference between two sequences of comparabletokens.* **Installation:** ``pip install deltas``* **Repo**: http://github.com/halfak/Deltas* **Documentation**: http://pythonhosted.org/deltas* Note this library requires Python 3.3 or newerThis library is intended to be used to make experimental difference detectionstrategies more easily available.  There are currently two strategies available:``deltas.sequence_matcher.diff(a, b)``:    A shameless wrapper around `difflib.SequenceMatcher` to get it to work    within the structure of *deltas*.``deltas.segment_matcher.diff(a, b, segmenter=None)``:    A generalized difference detector that is designed to detect block moves    and copies based on the use of a ``Segmenter``.:Example:    &gt;&gt;&gt; from deltas import segment_matcher, text_split    &gt;&gt;&gt;    &gt;&gt;&gt; a = text_split.tokenize(&quot;This is some text.  This is some other text.&quot;)    &gt;&gt;&gt; b = text_split.tokenize(&quot;This is some other text.  This is some text.&quot;)    &gt;&gt;&gt; operations = segment_matcher.diff(a, b)    &gt;&gt;&gt;    &gt;&gt;&gt; for op in operations:    ...     print(op.name, repr(''.join(a[op.a1:op.a2])),    ...           repr(''.join(b[op.b1:op.b2])))    ...    equal 'This is some other text.' 'This is some other text.'    insert ' ' '  '    equal 'This is some text.' 'This is some text.'    delete '  ' ''</longdescription>
+</pkgmetadata>

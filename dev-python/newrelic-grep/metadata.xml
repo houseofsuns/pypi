@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## grep command for New Relic LogsThis package provides a command `nrgrep` which is grep-like command for New Relic Logs.New Relic can store plenty of logs and we can query it really fast on the very nice UI on the web site, but some of developers still prefer to use command line interface to query logs than modern UIs.This command helps such kind of people.## Install```pip install newrelic-grep```## PrereqiusitsSet environment variables to access New Relic API:**NR_API_KEY**    USER API key**NR_ACCOUNT_ID**    Account ID of New Relic User## Usage```# nrgrep [--since DATETIME] [--until DATETIME] &lt;KeyWord to search&gt;```**Exapmple**```nrgrep --since 20230301140000 --until 20230301150000 'Failed to write'```### Options**--since**    Start time to be queried.    Format is `YYYYmmddHHMMSS`.    You can omit right part if you want.    `2023030114` will be `20230301140000`    Default is 3 days ago.**--until**    End time to be queried.    Format is as same as `--since`**-a**    Show attibute before log message.    You can use this option multiple times.Ex.```nrgrep -a hostname -a logtype 'Failed to write'```**-q**    Query to attributes. Format is `Attribute Name:Value`.    You can use this option multiple times.Ex.```ngrep -q hostname:myhost -q service=api 'Failed to write'```**-d**    Show queries to be sent.</longdescription>
+</pkgmetadata>

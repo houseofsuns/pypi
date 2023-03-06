@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Flake8-JSON===========This is a plugin for Flake8 that will format the output as JSON. By default,the output is **not** pretty-printed. We would love to add that as a separateformatter option, though.CodeClimate support is also offered through this plugin as of v20.12.0Installation------------.. code-block:: bash    pip install flake8-jsonUsage-----.. code-block:: bash    flake8 --format=json ..... code-block:: bash    flake8 --format=codeclimate ...Competitors-----------None that I could find on PyPIMaintenance Policy------------------This project is seeking maintainers. Please open an issue if you're interestedand ensure that you've read the PyCQA's `Code of Conduct`_... _Code of Conduct:    http://meta.pycqa.org/en/latest/code-of-conduct.html</longdescription>
+</pkgmetadata>

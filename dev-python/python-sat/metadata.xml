@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>A Python library providing a simple interface to a number of state-of-artBoolean satisfiability (SAT) solvers and a few types of cardinality andpseudo-Boolean encodings. The purpose of PySAT is to enable researchersworking on SAT and its applications and generalizations to easily prototypewith SAT oracles in Python while exploiting incrementally the power of theoriginal low-level implementations of modern SAT solvers.With PySAT it should be easy for you to implement a MaxSAT solver, anMUS/MCS extractor/enumerator, or any tool solving an application problemwith the (potentially multiple) use of a SAT oracle.Details can be found at `https://pysathq.github.io &lt;https://pysathq.github.io&gt;`__.</longdescription>
+</pkgmetadata>

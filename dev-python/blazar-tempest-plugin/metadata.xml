@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=====================Blazar Tempest Plugin=====================Tempest plugin for Blazar ProjectIt contains the tempest plugin for the functional testing of Blazar Project.* Free software: Apache license* Documentation:  https://docs.openstack.org/blazar-tempest-plugin/latest/* Source: https://opendev.org/openstack/blazar-tempest-plugin* Bugs: https://bugs.launchpad.net/blazar</longdescription>
+</pkgmetadata>

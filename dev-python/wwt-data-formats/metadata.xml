@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[wwt_data_formats] is a low-level Python package thatinterfaces with the various XML serialization formats used by the [AAS][WorldWide Telescope].[wwt_data_formats]: https://wwt-data-formats.readthedocs.io/[AAS]: https://aas.org/[WorldWide Telescope]: http://www.worldwidetelescope.org/For more information, including installation instructions, please visit [theproject homepage].[the project homepage]: https://wwt-data-formats.readthedocs.io/</longdescription>
+</pkgmetadata>

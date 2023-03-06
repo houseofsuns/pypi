@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ykenan_file&gt; **`File read and write operations`**This is a simple log package. You can see[Github-ykenan_file](https://github.com/YuZhengM/ykenan_file)[PyPI-ykenan_file](https://pypi.org/project/ykenan-file/)## Use&gt; install```shellpip install ykenan_file```&gt; import```shellimport ykenan_file as yf```</longdescription>
+</pkgmetadata>

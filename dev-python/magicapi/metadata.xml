@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Magic APIThe Magic API!1) incr the toml version2) poetry publish --buildFor CLI:# Magic CLI (magicapi has this built in)The best server maker.Steps:1) pip install magicapi (make sure the pip points to the correct python (3.6+))2) cd into the directory you want the server to be in// use the cli to create the app3) magic create &lt; app name &gt;4) cd &lt; app name &gt;// now make the virtual env and pip install the requirements5) python3 -m venv venv6) source venv/bin/activate7) `pip install -r requirements.txt`8) `pip install --upgrade magicdb magicapi`// files needed to run8) Create an .env file in the &lt; app name &gt; directory.a) Use the &quot;.example_env&quot; as a template. Fill in the env variables for the services you will need to use.b) The SERVICE and TASKS_TABLE_NAME are required for the app.// add firestore1) add the firestore service account json to the &lt; app name &gt; and name it &quot;my-service-account.json&quot;// to deploy to aws lambda1) Create a user on AWS and sign in via the CLI (https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html) 2) npm i2) magic deployThat should be it for the setup!Time to run it!To start a local server: magic startTo test local server (while local server is running): magic testTo deploy for the first time or any time you change the serverless yaml: magic deployTo deploy when you just edited the app code: magic deploy_againTo update magicapi:pip install --upgrade magicapi</longdescription>
+</pkgmetadata>

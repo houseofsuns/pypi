@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># novadata utilsPacote para facilitar o seu dia a dia como programador Django.## Getting Started### DependênciasDjangoDjango Rest Framework#### Installation```shellpip install novadata-utils```Settings.py:```pythonINSTALLED_APPS = [    ...    'django-admin-list-filter-dropdown',    'django_object_actions',    'import_export',    'novadata_utils',    'rest_framework',    ...]MIDDLEWARE += ('crum.CurrentRequestUserMiddleware',)```Rode os seguintes comandos:```pythonpython manage.py makemigrationspython manage.py migrate```## Features</longdescription>
+</pkgmetadata>

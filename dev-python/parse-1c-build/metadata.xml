@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Утилита для разборки и сборки *epf*-, *erf*-, *ert*- и *md*-файлов===Что делает---При установке пакета в каталоге скриптов интерпретатора Python создаётся исполняемый файл *p1cb.exe*. Его можно запустить с командой *parse* для разборки *epf*- и *erf*-файлов с помощью [V8Reader][1] или [V8Unpack][2], *ert*- и *md*-файлов с помощью [GComp][3], или с командой *build* для сборки *epf*- и *erf*-файлов с помощью [V8Unpack][2], *ert*- и *md*-файлов с помощью [GComp][3].Пути к сервисной информационной базе, *V8Reader.epf*, *v8unpack.exe* и GComp указываются в файле настроек *settings.yaml*, который сначала ищется в текущем каталоге, затем в каталоге данных приложения пользователя (в Windows 10 каталог *C:\Users\\&lt;Пользователь&gt;\AppData\Roaming\util-1c\parse-1c-build\&gt;*), а затем в общем каталоге данных приложения (в Windows 10 каталог *C:\ProgramData\util-1c\parse-1c-build\&gt;*). Если путь к платформе 1С:Предприятие 8 в файле настроек не указан, то он ищется автоматически.Требования---- Windows- Python 3.10 и выше. Каталоги интерпретатора и скриптов Python должны быть прописаны в переменной окружения Path- Для работы с *epf*- и *erf*-файлами:  - Платформа 1С:Предприятие 8.3, сервисная информационная база (в которой будет запускаться *V8Reader.epf*) и   [V8Reader][1]  - [V8Unpack][2]- Для работы *ert*- и *md*-файлами:  - [GComp][3]Установка---```cmdpipx install parse-1c-build```[1]: https://github.com/xDrivenDevelopment/v8Reader[2]: https://github.com/e8tools/v8unpack[3]: http://1c.alterplast.ru/gcomp/</longdescription>
+</pkgmetadata>

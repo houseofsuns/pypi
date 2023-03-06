@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>SnowDDL is a [declarative-style](https://www.snowflake.com/blog/embracing-agile-software-delivery-and-devops-with-snowflake/) tool for object management automation in Snowflake.Getting started: [https://docs.snowddl.com/getting-started](https://docs.snowddl.com/getting-started)Main features: [https://docs.snowddl.com/features](https://docs.snowddl.com/features)1. SnowDDL is &quot;stateless&quot;.2. SnowDDL can revert any changes.3. SnowDDL supports ALTER COLUMN.4. SnowDDL provides built-in &quot;Role hierarchy&quot; model.5. SnowDDL re-creates invalid views automatically.6. SnowDDL simplifies code review.7. SnowDDL supports creation of isolated &quot;environments&quot; for individual developers and CI/CD scripts.8. SnowDDL strikes a good balance between dependency management overhead and parallelism.9. SnowDDL configuration can be generated dynamically in Python code.10. SnowDDL can manage packages for Java and Python UDF scripts natively.Enjoy!    </longdescription>
+</pkgmetadata>

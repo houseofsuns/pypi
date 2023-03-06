@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># DataYoga CLI## DevelopmentTo set up environment in development mode:### Set Up Virtual Environment```bashpython -m venv venvsource venv/bin/activate```### Upgrade `pip` to Latest Version&gt; [Pip](https://pypi.org/project/pip) version 22 and up is needed for editable install.```bashpython -m pip install --upgrade pip```### Install Dependencies```bashcd corepython -m pip install -e .```## Run CLI in Development Mode```bashpython ./cli/src/datayoga/__main__.py```## Running tests### Core```cd corepip install .pip install .[test]PYTHONPATH=src python -m pytest -s --log-cli-level=DEBUG```</longdescription>
+</pkgmetadata>

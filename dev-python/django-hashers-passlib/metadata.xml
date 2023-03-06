@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This library provides password hashers for the hash schemes provided by passlib forDjangos password hashing framework. Unlike passlibs ``passlib.apps.django``, it does not replace Djangospassword hashing framework but adds additional hashers to its built in framework.Please see https://github.com/mathiasertl/django-hashers-passlib for more information and documentation.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># rayter-generator[![Build Status](https://github.com/rayter-org/rayter-generator/workflows/Tests/badge.svg)](https://github.com/rayter-org/rayter-generator/actions?query=workflow%3ATests)A static site generator for game ranking leagues.</longdescription>
+</pkgmetadata>

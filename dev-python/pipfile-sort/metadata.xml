@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;!-- markdownlint-disable MD033 --&gt;&lt;!-- markdownlint-disable MD041 --&gt;&lt;h1 align=&quot;center&quot;&gt;  pipfile-sort&lt;/h1&gt;&lt;div align=&quot;center&quot;&gt;  &lt;strong&gt;    Sort package dependency lists in Pipfile.  &lt;/strong&gt;  &lt;br/&gt;  &lt;br/&gt;  &lt;a href=&quot;https://badge.fury.io/py/pipfile-sort&quot;&gt;&lt;img src=&quot;https://badge.fury.io/py/pipfile-sort.svg&quot; alt=&quot;PyPI version&quot; height=&quot;18&quot;&gt;&lt;/a&gt;&lt;/div&gt;## Install```shellpip install pipfile-sort```## Usage```shell# Pipfile-sort targets Pipfile on current directory,# so need to move to the directory where Pipfile exists.cd /path/to/pipfile/dir# Rewrite Pipfile as the package lists are sorted.pipfile-sort```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Jubeatools[![docs status badge](https://readthedocs.org/projects/jubeatools/badge/)](https://jubeatools.readthedocs.io)A toolbox to convert between jubeat file formats## How to install```shpip install jubeatools```You need Python 3.9 or greaterMore details in [the documentation](https://jubeatools.readthedocs.io)## How to use in a command line```shjubeatools ${source} ${destination} -f ${output format} (... format specific options)```Again, more details in [the documentation](https://jubeatools.readthedocs.io)## Which formats are supported|                 |                      | input | output ||-----------------|----------------------|:-----:|:------:|| memon           | v1.0.0               | ✔️     | ✔️      ||                 | v0.3.0               | ✔️     | ✔️      ||                 | v0.2.0               | ✔️     | ✔️      ||                 | v0.1.0               | ✔️     | ✔️      ||                 | legacy               | ✔️     | ✔️      || jubeat analyser | #memo2               | ✔️     | ✔️      ||                 | #memo1               | ✔️     | ✔️      ||                 | #memo                | ✔️     | ✔️      ||                 | mono-column (1列形式) | ✔️     | ✔️      || jubeat (arcade) | .eve                 | ✔️     | ✔️      || jubeat plus     | .jbsq                | ✔️     | ✔️      || malody          | .mc (Pad Mode)       | ✔️     | ✔️      |</longdescription>
+</pkgmetadata>

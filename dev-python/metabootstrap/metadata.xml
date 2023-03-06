@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># MetaBootstrapMetaBootstrap is a library that fulfills the objective of making easier to make responses from Django Rest Frameworkto a client that uses Webix.&lt;br&gt;Read the &lt;a href=&quot;https://smooth-sidecar-75f.notion.site/Metabootstrap-21ca5d89ea4c476988914e6ac538cbf5&quot;&gt;documentation&lt;/a&gt;.&lt;br&gt;Author: ISN Studio.&lt;br&gt;Version: 1.1.0&lt;h2&gt;Installation&lt;/h2&gt;If you want to install MetaBootstrap, you need to install it with pip.&lt;br&gt;&lt;code&gt;pip install metabootstrap&lt;/code&gt;&lt;br&gt;If you also want to use MetaLog, you need to add it to yourinstalled apps.&lt;pre&gt;&lt;code&gt;INSTALLED_APPS = {    # Other installed apps    &quot;metabootstrap.metalog&quot;}&lt;/code&gt;&lt;/pre&gt;</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Libdiscid Python bindings-------------------------Python-discid implements Python bindings for MusicBrainz Libdiscid. Thismodule works with Python 2 &gt;= 2.6, or Python 3 &gt;= 3.1.Libdiscid &gt;= 0.2.2 is needed.Libdiscid's main purpose is the calculation of an identifier of audiodiscs (disc ID) to use for the `MusicBrainz database &lt;http://musicbrainz.org&gt;`_.That identifier is calculated from the TOC of the disc, similar to thefreeDB CDDB identifier. Libdiscid can calculate MusicBrainz disc IDs andfreeDB disc IDs.Additionally the MCN of the disc and ISRCs from the tracks can be extracted.This module is a close binding that offloads all relevant datastorage and calculation to Libdiscid. On the other hand it gives apythonic API and uses objects and exceptions.The official API documentation can be found at `readthedocs.org`_For more information on Libdiscid see `libdiscid`_.For more information about the calculation of these disc ids see `DiscID Calculation`_.Usage~~~~~.. code:: python    # this will load Libdiscid    import discid    disc = discid.read()  # use default device    print &quot;id: %s&quot; % disc.id  # Python 2    print(&quot;id: %s&quot; % disc.id) # Python 3See also the examples.py.License~~~~~~~This module is released under the GNU Lesser General Public LicenseVersion 3. See COPYING.LESSER for details.Bugs~~~~You can submit tickets at `GitHub`_... _readthedocs.org: https://python-discid.readthedocs.org/.. _libdiscid: http://musicbrainz.org/doc/libdiscid.. _Disc ID Calculation: http://musicbrainz.org/doc/Disc_ID_Calculation.. _GitHub: https://github.com/JonnyJD/python-discid</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Grading Tools[![build](https://github.com/worldquant-university/grading-tools/actions/workflows/build.yml/badge.svg)](https://github.com/worldquant-university/grading-tools/actions)[![codecov](https://codecov.io/gh/worldquant-university/grading-tools/branch/main/graph/badge.svg?token=PV83R6T99N)](https://codecov.io/gh/worldquant-university/grading-tools)This library allows you to compare student submissions to an answer, and providemeaningful feedback. It currently accommodates basic Python data structures, `pandas`Series and DataFrames, `scikit-learn` models, and images.## Installation```bash$ pip install grading-tools```## Usage```python&gt;&gt;&gt; from grading_tools.graders import PythonGrader&gt;&gt;&gt; sub = {&quot;snake&quot;: &quot;reptile&quot;, &quot;frog&quot;: &quot;reptile&quot;}&gt;&gt;&gt; ans = {&quot;snake&quot;: &quot;reptile&quot;, &quot;frog&quot;: &quot;amphibian&quot;}&gt;&gt;&gt; g = PythonGrader(sub, ans)&gt;&gt;&gt; g.grade_dict()&gt;&gt;&gt; g.return_feedback(html=False){    'score': 0,    'passed': False,    'comment': &quot;The value for the key `frog` doesn't match the expected result.&quot;}```## License`grading-tools` was created by[Nicholas Cifuentes-Goodbody](https://github.com/ncgoodbody) at[WorldQuant University](http://wqu.edu/). It is not currently licensed for reuse ofany kind.</longdescription>
+</pkgmetadata>

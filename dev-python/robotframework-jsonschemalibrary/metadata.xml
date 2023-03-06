@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>====================================================A Robot Framework library for JSON Schema validation====================================================Provides a simple interface to `jsonschema`_, the Python implementation of JSON Schema.Usage-----The library needs access to the file system location of the schemas, in order to resolve referencesbetween schemas. Default is a subdirectory called `schemas` - you could make a symlink here to whereverthe schema definition files are::  Library  JSONSchemaLibrary  /path/to/schemas  ...  My Test Case:    Validate Json  schema_name.schema.json  {&quot;foo&quot;: &quot;bar&quot;}Per default, only prints the validation error message when there's an error.Run with log level `DEBUG` in order to see more info, including a dump of the schema, in the Robot Framework logs.Development-----------::  $ pybot --pythonpath . testsTodo----* HTTP resolver.. _`jsonschema`: https://github.com/Julian/jsonschema</longdescription>
+</pkgmetadata>

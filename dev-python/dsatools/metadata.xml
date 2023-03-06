@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Digital Signal Analysis (DSA) library for python.The library includes such methods of signal analysis andsignal parameter estimation as arma-based techniques; subspace-based techniques; matrix-pencil-based methods; singular-spectrum analysis (SSA); dynamic-mode decomposition (DMD); empirical mode decomposition; variational mode decomposition; empirical wavelet transform; Hilbert vibration decomposition and many others.</longdescription>
+</pkgmetadata>

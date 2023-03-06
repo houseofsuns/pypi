@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>rangeset - A utility belt for operations on sets of ranges==========================================================|Build Status|Overview--------Rangeset is a package that allows for easy manipulation of sets ofranges. These ranges can contain any ordered elements, be they numbers,tuples, or even datetime objects.Installation------------Use either:::   python setup.py installor:::   pip install rangesetDocumentation-------------See`https://github.com/axiak/py-rangeset` &lt;https://github.com/axiak/py-rangeset&gt;__Basic Usage-----------.. code:: python   import rangeset   # Create a rangeset   &gt;&gt;&gt; r = RangeSet(1, 3) | (5, 6)   # negate   &gt;&gt;&gt; (~r) &amp; (0, 10)   &lt;RangeSet 0 -- 1, 3 -- 5, 6 -- 10&gt;   # &quot;measure&quot; - How much distance is in the ranges, minus the gaps   &gt;&gt;&gt; ((~r) &amp; (0, 10)).measure()   7   # range - Total distance between start and end   &gt;&gt;&gt; ((~r) &amp; (0, 10)).range()   10For more usage examples, see the doctests at`https://github.com/axiak/py-rangeset/tree/master/python2/rangeset/test &lt;https://github.com/axiak/py-rangeset/tree/master/python2/rangeset/test&gt;`__License-------It's licensed under the MIT License. Please see the license file formore:`https://github.com/axiak/py-rangeset/blob/master/LICENSE &lt;https://github.com/axiak/py-rangeset/blob/master/LICENSE&gt;`__.. |Build Status| image:: https://secure.travis-ci.org/axiak/py-rangeset.png?branch=master   :target: http://travis-ci.org/axiak/py-rangeset</longdescription>
+</pkgmetadata>

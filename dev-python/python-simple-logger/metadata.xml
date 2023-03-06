@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Simple Python loggerA simple logger for console/file logging with duplicate logs filter support## Release new version### requirements* Export GitHub token```bashexport GITHUB_TOKEN=&lt;your_github_token&gt;```* [release-it](https://github.com/release-it/release-it)```bashsudo npm install --global release-itnpm install --save-dev @release-it/bumper```### usage* Create a release```bashgit pullrelease-it # Follow the instructions```## Usage```pythonfrom simple_logger.logger import get_loggerlogger = get_logger(name=__name__, level=logging.DEBUG, filename=&quot;my-log.log&quot;)logger.info(&quot;This is INFO log&quot;)```</longdescription>
+</pkgmetadata>

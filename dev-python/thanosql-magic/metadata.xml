@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># thanosql-magicSmartMind `ThanoSQL` Ipython Magic for Jupyter Lab## Installation```$ pip install thanosql-magic```## Quick Start1. load extension   ```python   %load_ext thanosql   ```2. change default API uri (optional)   ```python   %thanosql http://localhost:8000/api/v1/query   ```3. use magic   ```python   %%thanosql   SELECT * FROM users   ```## License[MIT](LICENSE)</longdescription>
+</pkgmetadata>

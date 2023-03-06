@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>![Python Badge](https://img.shields.io/badge/python-3.7%2B-blue.svg?style=for-the-badge&amp;logo=python)# crl-checkerThis small python library checks if a specific certificate is revoked using theCRL defined in the x509 CRL distribution pointsextension (https://datatracker.ietf.org/doc/html/rfc5280.html#section-4.2.1.13)# Installation`pip install crl-checker`# UsageChecking revocation using PEM encoded certificate```python3from crl_checker import check_revoked, Revoked, Errorcert_pem = &quot;&quot;&quot;-----BEGIN CERTIFICATE-----&lt;CERTIFICATE_PEM_BYTES&gt;-----END CERTIFICATE-----&quot;&quot;&quot;try:    check_revoked(cert_pem)except Revoked as e:    print(f&quot;Certificate revoked: {e}&quot;)except Error as e:    print(f&quot;Revocation check failed. Error: {e}&quot;)    raise```Checking revocation using an already loaded cryptography [x509.Certificate](https://cryptography.io/en/latest/x509/reference/#cryptography.x509.Certificate):```python3from cryptography import x509from crl_checker import check_revoked_crypto_cert, Revoked, Errorcert : x509.Certificate = ...try:    check_revoked_crypto_cert(cert)except Revoked as e:    print(f&quot;Certificate revoked: {e}&quot;)except Error as e:    print(f&quot;Revocation check failed. Error: {e}&quot;)    raise```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This repo contains the code associated with a library on pypihttps://pypi.org/project/earthscopestraintools/M. Gottlieb 1-20-23It can be installed with     &gt; pip install earthscopestraintoolsOr with optional dependencies:&gt; pip install 'earthscopestraintools[mseed]'&gt; &gt; pip install 'earthscopestraintools[tiledb]'&gt; &gt; pip install 'earthscopestraintools[mseed,tiledb]'### straintiledbarray.pyclass with methods and metadata to interact with strain tiledb arrays.  Methods include create, delete, consolidate, vacuum, read, write.  it also includes the current schema definition.### ascii2tdb.pyETL script to read level 2 ascii files and write them to tiledb local arrays.  then need to&gt; aws s3 sync arrayname s3://tiledb-strain/arrayname### tdb2ascii.pydistrubution script to generate level 2 ascii files based on a time queryback from tiledb and package as tarball### tdb2tdb.pydistribution script to generate a subset tdb array based on a time query and package as tarball### bottle.pylibrary for reading gtsm bottle files### bottletar.pywrapper class for reading 5 cases of tarballs of bottle files and writing to tiledb### bottle2mseed.pyadd on functionality around bottletar to use obspy to write mseed files### bottle2tiledb.pyadd on functionality around bottletar to use straintiledbarray to write to tiledb### mseed_tools.pyfunctions to download miniseed from DataSelect and load into pandas dataframes### gtsm_metadata.pyclass to load GTSM metadata </longdescription>
+</pkgmetadata>

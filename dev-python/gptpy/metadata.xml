@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># GPTPy: Your kind Python guide, powered by AI to fix errors and explain code[![asciicast](https://asciinema.org/a/momJh0P8YiZRY5IW0ZwTTynhA.svg)](https://asciinema.org/a/momJh0P8YiZRY5IW0ZwTTynhA)## Installation```bashpip install -U gptpy```## Usage### Simply run your code```bashgptpy runnable_python_code.py```### ..or run with arguments```bashgptpy runnable_python_code.py --arg1=1 --arg2=2```## ExampleHere's a simple Python code, which has a syntax error.```python# test.pydef add(a, b):    print(&quot;a + b)```If you run `test.py`, you will get an error.```$ python test.py   File &quot;~/test.py&quot;, line 1    print(&quot;a + b)                 ^SyntaxError: EOL while scanning string literal```Now, let's use `gptpy` to fix the error.```$ gptpy test.py --------------------------------------------------[GPTPy] Your code has an error![GPTPy] Error Reason: # The user code is missing a closing quotation mark.SyntaxError: EOL while scanning string literal[GPTPy] Here's fixed code:print(&quot;a + b&quot;)--------------------------------------------------```## Limitations- GPT-3 is not perfect. It may not be able to fix all errors.- It may take a while to get the result.</longdescription>
+</pkgmetadata>

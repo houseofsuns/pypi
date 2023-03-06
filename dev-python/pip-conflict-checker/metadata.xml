@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![Build Status](https://travis-ci.org/ambitioninc/pip-conflict-checker.png)](https://travis-ci.org/ambitioninc/pip-conflict-checker)pip-conflict-checker====================A tool that checks installed packages against all package requirements to ensure that there are no dependency version conflicts.## Installation```pip install pip-conflict-checker```### UsageSimply run the command pipconflictchecker. If any dependency conflicts are found an output dump of all conflicts will be shown,and an exit code of 1 will be returned.</longdescription>
+</pkgmetadata>

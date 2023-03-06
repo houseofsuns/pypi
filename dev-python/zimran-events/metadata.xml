@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## zimran-contribThe `zimran-py-events` module provides AMQP interface[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?color=green&amp;style=plastic)](https://opensource.org/licenses/MIT)![code size](&lt;https://img.shields.io/github/languages/code-size/zimran-tech/zimran-py-events?style=plastic&gt;)## Installation```bashpip install zimran-events```## Usage example**Producer**```pythonfrom zimran.events import AsyncProducerproducer = AsyncProducer(broker_url='')await producer.connect()# message publishingawait producer.publish('some.event.routing', {'msg': 'hello, world'})```**Consumer**```pythonfrom zimran.events import Consumerfrom zimran.events.schemas import ExchangeSchemeconsumer = Consumer(service_name='my-service', broker_url='')consumer.add_event_handler(            name='routing-key',            handler=handler_func,            exchange=ExchangeScheme(                name='exchange-name',                type='exchange-type',                durable=True,            )           )# orfrom zimran.events import Consumerconsumer = Consumer(service_name='my-service', broker_url='')@consumer.event_handler('routing-key')def handler_func(**kwargs):  ...```## CodeThe code and issue tracker are hosted on GitHub: &lt;https://github.com/zimran-tech/zimran-py-events.git&gt;## Features- AMQP interfaces### For contributors**Setting up development environment**Clone the project:```bashgit clone https://github.com/zimran-tech/zimran-py-events.gitcd zimran-py-events```Create a new virtualenv:```bashpython3 -m venv venvsource venv/bin/activate```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Krest is written in Python and is aimed to provide rapid enablement of managing and monitoring Kaminario K2 all-flash arrays using Python.Please see the project homepage_ for full description... _homepage: https://github.com/Kaminario/krest</longdescription>
+</pkgmetadata>

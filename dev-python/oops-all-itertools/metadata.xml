@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>==================Oops All Itertools==================Python's ``more-itertools`` is a fantastic compliment to ``itertools`` but it'sinconvenient to have to constantly look up which itertool is in which library.Oops All Itertools heaps them together into a loose pile in a single namespace.Inspired by `more-itertools issue 681 &lt;https://github.com/more-itertools/more-itertools/issues/681&gt;`_|Build Status|.. |Build Status| image:: https://github.com/lonnen/oops-all-itertools/actions/workflows/python-app.yml/badge.svg?branch=main   :target: https://github.com/lonnen/oops-all-itertools/actions/workflows/python-app.yml:Code:          https://github.com/lonnen/oops-all-itertools:Issues:        https://github.com/lonnen/oops-all-itertools/issues:Releases:      https://pypi.org/project/oops_all_itertools/#history:License:       MIT; See LICENSEInstall=======To get started, install the library with `pip &lt;https://pip.pypa.io/en/stable/&gt;`_:.. code-block:: shell    $ pip install oops-all-itertoolsUsage=====.. code-block:: python    &gt;&gt;&gt; from oops_all_itertools import chain, chunked    &gt;&gt;&gt; list(chain.from_iterable(chunked(range(6), 3)))    [0, 1, 2, 3, 4, 5]For the full list of functions, see the `itertools API documentation &lt;https://docs.python.org/3/library/itertools.html&gt;`_and the `more-itertools API documentation &lt;https://more-itertools.readthedocs.io/en/stable/api.html&gt;`_.</longdescription>
+</pkgmetadata>

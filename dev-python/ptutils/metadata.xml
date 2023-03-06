@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Principled Technologies Boilerplate Utilities=============================================.. cut-hereThis library provides oft-reused boilerplate functions and classes. This library is under construction.  Please see LICENSE.txt for licensing information.For the moment the `GitLab repository &lt;https://www.gitlab.com/principled.technologies/community/ptutils&gt;`_ is private, but will be made available soon.Usage-----Install with PIP^^^^^^^^^^^^^^^^Install the package (or add it to your ``requirements.txt`` file):.. code-block:: bash    pip install ptutilsImport in Python^^^^^^^^^^^^^^^^Import the library in python:.. code-block:: python    from logging import getLogger    from ptutils.io import File    from ptutils.encoding import pretty_json    logger = getLogger(__name__)    f      = File('/etc/docker/daemon.json')    data   = f.content    text   = pretty_json( data )        logger.debug( text )</longdescription>
+</pkgmetadata>

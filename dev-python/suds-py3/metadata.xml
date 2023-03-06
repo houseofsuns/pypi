@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>The &quot;suds-p3&quot; is a lightweight soap-based client for python3    licensed under LGPL. This is a mirror of http://svn.fedorahosted.org/svn/suds/trunk/    supporting Python3 and some fixes.</longdescription>
+</pkgmetadata>

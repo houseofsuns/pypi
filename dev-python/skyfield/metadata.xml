@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>==================================== Welcome to the Skyfield Repository====================================Skyfield is a pure-Python astronomy packagethat is compatible with both Python 2 and 3and makes it easy to generate high precision research-gradepositions for planets and Earth satellites... code-block:: python   from skyfield.api import load   planets = load('de421.bsp')   earth, mars = planets['earth'], planets['mars']   ts = load.timescale()   t = ts.now()   position = earth.at(t).observe(mars)   ra, dec, distance = position.radec()   print(ra)   print(dec)   print(distance)The result:::   10h 47m 56.24s   +09deg 03' 23.1&quot;   2.33251 auSkyfield’s only binary dependency is NumPy.Once that is available, Skyfield can usually be installed with::    pip install skyfieldHere are the essential project links:* `Home page and documentation  &lt;http://rhodesmill.org/skyfield&gt;`_.* `Installing Skyfield  &lt;http://rhodesmill.org/skyfield/installation.html&gt;`_.* `Contributing to Skyfield  &lt;https://github.com/skyfielders/python-skyfield/blob/master/Contrib.rst&gt;`_.* `Skyfield package &lt;https://pypi.python.org/pypi/skyfield&gt;`_  on the Python Package Index.* `Issue tracker  &lt;https://github.com/brandon-rhodes/python-skyfield/issues&gt;`_  on GitHub.</longdescription>
+</pkgmetadata>

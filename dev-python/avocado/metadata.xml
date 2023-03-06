@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Avocado[![Build Status](https://travis-ci.org/chop-dbhi/avocado.svg?branch=master)](https://travis-ci.org/chop-dbhi/avocado) [![Coverage Status](https://img.shields.io/coveralls/chop-dbhi/avocado.svg)](https://coveralls.io/r/chop-dbhi/avocado)Metadata APIs for Django.## Documentationhttp://avocado.harvest.io## DevelopmentSee the [contributing](https://github.com/chop-dbhi/avocado/blob/master/CONTRIBUTING.md) guide.## Data Model![Avocado ER Diagram](./avocado_erd.png)</longdescription>
+</pkgmetadata>

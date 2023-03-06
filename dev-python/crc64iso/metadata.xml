@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># CRC64ISOPackage for calculating checksums using __64-bit cyclic redundancy checks (CRC)__ according to the __ISO 3309__ standard.Generator polynomial: x&lt;sup&gt;64&lt;/sup&gt; + x&lt;sup&gt;4&lt;/sup&gt; + x&lt;sup&gt;3&lt;/sup&gt; + x + 1Reference:_W. H. Press, S. A. Teukolsky, W. T. Vetterling, and B. P. Flannery, &quot;Numerical recipes in C&quot;, 2nd ed.,Cambridge University Press. Pages 896ff._### Requirements- python 3.x### Examples- Calculate 64-bit checksum from a string:```from crc64iso.crc64iso import crc64checksum = crc64iso.crc64(&quot;ILOVEMATH&quot;)```- Calculate 64-bit checksum from incremental (bytes) data:```from crc64iso.crc64iso import crc64_pair, format_crc64_paircrc_pair_1 = crc64_pair(&quot;ILOVE&quot;.encode())crc_pair_2 = crc64_pair(&quot;MATH&quot;.encode(), crc_pair_1)checksum = format_crc64_pair(crc_pair_2)```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># addonfactory_splunk_conf_parser_libThis repository provides a one-file library to parse Splunk-specific `.conf` files.Currently, it supports:1. Read/write .conf files with comments2. Additional comment prefix such as *3. Support multiline end with \</longdescription>
+</pkgmetadata>

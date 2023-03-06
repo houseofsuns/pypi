@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pyrepl is a Python library, inspired by readline, for building flexiblecommand line interfaces, featuring: * sane multi-line editing * history, with incremental search * completion, including displaying of available options * a fairly large subset of the readline emacs-mode keybindings * a liberal, Python-style, license * a new python top-level.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># InferrdInferrd is a hosting platform for TensorFlow.### AuthenticationIn order to use this library you need to get a api token from [inferrd.com](https://inferrd.com)Authenticate with the `inferrd.auth` method:```pythonimport inferrdinferrd.auth('&lt;token&gt;')```### Deploying TensorFlowFirst, create a model on [inferrd.com](https://inferrd.com) and select the kind of instance you want. Then simple call `inferrd.deploy_tf`:```pythonimport inferrd# this only needs to be done onceinferrd.auth('&lt;token&gt;')# deploy TFinferrd.deploy_tf(tf_model, '&lt;name of the model&gt;')```### Fetching predictionsInferrd allows us to pull predictions back into your notebook by using `inferrd.get_requests`:```pythonimport inferrd# this only needs to be done onceinferrd.auth('&lt;token&gt;')# get the requestsrequests = inferrd.get_requests('&lt;name of the model&gt;', limit=100, page=0, includeFailures=False)```</longdescription>
+</pkgmetadata>

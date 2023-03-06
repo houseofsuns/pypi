@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># codetalkTalk to your code!**NOTE:** You will need a user token to use this project. Currently these are manually distributed; contact us by getting on the list at [codetalk.ai](https://www.codetalk.ai) and we'll supply you one.## Setup1. Make sure you have the latest version: `pip install --upgrade codetalk`1. Run the `codetalk` command.4. Enter your user token when prompted.5. You will then be asked which directory to index. This needs to be an absolute path to the root of your codebase. Please note that indexing can take a long time if your project is large (expect about three minutes per 100k LoC).6. Once indexing is complete you will be ready to chat! There are a few built-in commands, which you can list with `help`.</longdescription>
+</pkgmetadata>

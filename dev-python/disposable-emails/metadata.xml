@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># disposable-emailsWeed out disposable email providers with ease 🚀## InstallationYou can install this package using PyPI:    pip3 install disposable-emailsThere are no dependencies. You don't need Django, Flask or any third-party API.## How to useCheck an email:    &gt;&gt;&gt; from disposable_emails import is_disposable_email    &gt;&gt;&gt; is_disposable_email('john.smith@mailforspam.com')    True    &gt;&gt;&gt; is_disposable_email('john.smith@gmail.com')    FalseCheck a domain:    &gt;&gt;&gt; from disposable_emails import is_disposable_domain    &gt;&gt;&gt; is_disposable_domain('temp-mail.com')    True    &gt;&gt;&gt; is_disposable_domain('kremlin.ru')    False**Using Django?** There is a form validator which you can use with forms:    from django import forms    from disposable_emails.contrib.django import disposable_validator    class FooForm(forms.Form):        email = forms.EmailField(            label=&quot;Email&quot;,            max_length=254,            validators=[disposable_validator]        )And with models:    from django import models    from disposable_emails.contrib.django import disposable_validator    class FooModel(models.Model):        email = models.EmailField(validators=[disposable_validator])## CreditsThis package uses **[disposable](https://github.com/andreis/disposable-email-domains/)** by @andreis as a source of disposable email services.## ContributionsCode contributions are welcome! Just drop a pull request.</longdescription>
+</pkgmetadata>

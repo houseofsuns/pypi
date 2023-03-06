@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;h1 align=&quot;center&quot;&gt;    &lt;strong&gt;starlette-testclient&lt;/strong&gt;&lt;/h1&gt;&lt;p align=&quot;center&quot;&gt;    &lt;a href=&quot;https://github.com/Kludex/starlette-testclient&quot; target=&quot;_blank&quot;&gt;        &lt;img src=&quot;https://img.shields.io/github/last-commit/Kludex/starlette-testclient&quot; alt=&quot;Latest Commit&quot;&gt;    &lt;/a&gt;        &lt;img src=&quot;https://img.shields.io/github/workflow/status/Kludex/starlette-testclient/CI&quot;&gt;    &lt;br /&gt;    &lt;a href=&quot;https://pypi.org/project/starlette-testclient&quot; target=&quot;_blank&quot;&gt;        &lt;img src=&quot;https://img.shields.io/pypi/v/starlette-testclient&quot; alt=&quot;Package version&quot;&gt;    &lt;/a&gt;    &lt;img src=&quot;https://img.shields.io/pypi/pyversions/starlette-testclient&quot;&gt;    &lt;img src=&quot;https://img.shields.io/github/license/Kludex/starlette-testclient&quot;&gt;&lt;/p&gt;This is a backport of Starlette's `TestClient` using `requests` instead of `httpx`.The reason behind here is to give more time for people to migrate.## Installation```bashpip install starlette-testclient```## UsageYou just need to replace the import statement from:```pythonfrom starlette.testclient import TestClient```to:```pythonfrom starlette_testclient import TestClient```Easy, right? :sweat_smile:## LicenseThis project is licensed under the terms of the BSD 3-Clause license.</longdescription>
+</pkgmetadata>

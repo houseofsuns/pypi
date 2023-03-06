@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=====Ralph=====Ralph is full-featured Asset Management, DCIM and CMDB system for data center and back office.Features:* auto-discover existing hardware* keep track of assets purchases and their life cycle* generate flexible and accurate cost reports* integrate with change management process using JIRA integrationIt is an Open Source project provided on Apache v2.0 License... image:: https://pypip.in/v/ralph/badge.png    :target: https://crate.io/packages/ralph/    :alt: Latest PyPI version.. image:: https://travis-ci.org/allegro/ralph.svg?branch=develop    :target: https://travis-ci.org/allegro/ralph.. image:: https://coveralls.io/repos/allegro/ralph/badge.png?branch=develop    :target: https://coveralls.io/r/allegro/ralph?branch=develop    :alt: Unit tests coverage</longdescription>
+</pkgmetadata>

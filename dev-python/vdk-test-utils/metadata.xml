@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This plugin provides utility tools used for the testing of vdk-core and vdk-core plugins.# Usage### CliEntryBasedTestRunnerCliEntryBasedTestRunner provides an easy way to create unit or functional tests for your plugins in isolated environment.Similarly this can be used to unit tests data jobs.For example , let's say we want to test newly developed AtlasLineagePlugin```pythondb_plugin = AtlasLineagePlugin()# we pass the plugin to the runner that will make sure to register itrunner = CliEntryBasedTestRunner(db_plugin)# and then invoke the command we want to test -# in this case data job runresult: Result = runner.invoke(    [ &quot;run&quot;, util_funcs.jobs_path_from_caller_directory(&quot;simple-create-insert&quot;) ])cli_assert_equal(0, result)assert 'expected_schema' in result.output```### Testing pluginsSome useful plugins that can be used during testing can be seen in util_plugins.</longdescription>
+</pkgmetadata>

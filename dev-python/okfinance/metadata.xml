@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Example PackageThis is a simple example package. You can use[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)to write your content.# pip ```py -m pip install --upgrade pippy -m pip install --upgrade buildpy -m pip install --upgrade twine```# build```py -m build```# upload```py -m twine upload --repository pypi dist/*```</longdescription>
+</pkgmetadata>

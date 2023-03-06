@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># jinja2-strcaseA python package for converting string case in jinja2 templates (including cookiecutter).It is a port of the go package [strcase](https://github.com/iancoleman/strcase)## Installationjinja2-strcase is available for download from PyPI via pip:```$ pip install jinja2-strcase```## Example```from jinja2 import Environmentenv = Environment(extensions=['jinja2_strcase.StrcaseExtension'])# This will convert 'Any kind of string' -&gt; 'any_kind_of_string'template = env.from_string(&quot;{% 'Any kind of string' |  to_snake }&quot;)template.render()```| Function                        | Result               ||---------------------------------|----------------------|| `to_snake`                      | `any_kind_of_string` || `to_screaming_snake`            | `ANY_KIND_OF_STRING` || `to_kebab`                      | `any-kind-of-string` || `to_screaming_kebab`            | `ANY-KIND-OF-STRING` || `to_camel`                      | `AnyKindOfString`    || `to_lower_camel`                | `anyKindOfString`    |</longdescription>
+</pkgmetadata>

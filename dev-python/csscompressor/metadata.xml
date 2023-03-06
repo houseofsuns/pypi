@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image:: https://travis-ci.org/sprymix/csscompressor.svg?branch=master    :target: https://travis-ci.org/sprymix/csscompressorAlmost exact port of YUI CSS Compressor.Passes all original unittests.Usage=====.. code:: pycon    &gt;&gt;&gt; from csscompressor import compress    &gt;&gt;&gt; compress('''    ...    your css {    ...        content: &quot;!&quot;;    ...    }    ... ''')    'your css{content:&quot;!&quot;}'Or, if you want to use it from command line:.. code::    $ python3 -m csscompressor --helpCompatibility=============Tested under Python 2.7 and 3.3+Installation============Use ``pip`` or ``easy_install``:.. code::    $ pip install csscompressorDevelopment===========Use py.test to run unittestsLicense=======Published under the original Yahoo License for YUI Compressor -- BSD.</longdescription>
+</pkgmetadata>

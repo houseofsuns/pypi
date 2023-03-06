@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Microsoft Azure SDK for PythonThis is the Microsoft Azure Cognitive Services Anomaly Detector Client Library.This package has been tested with Python 2.7, 3.5, 3.6, 3.7 and 3.8.For a more complete view of Azure libraries, see the [Github repo](https://github.com/Azure/azure-sdk-for-python/)# UsageFor code examples, see [Cognitive Services Anomaly Detector](https://docs.microsoft.com/python/api/overview/azure/cognitive-services)on docs.microsoft.com.# Provide FeedbackIf you encounter any bugs or have suggestions, please file an issue in the[Issues](https://github.com/Azure/azure-sdk-for-python/issues)section of the project.![Impressions](https://azure-sdk-impressions.azurewebsites.net/api/impressions/azure-sdk-for-python%2Fazure-cognitiveservices-anomalydetector%2FREADME.png)# Release History## 0.3.0 (2020-07-23)**Features**  - Added `change_point_detect` method to the client.  - Added new models `ChangePointDetectRequest` and `ChangePointDetectResponse`## 0.2.0 (2019-04-12)**Bugfixes**  - Fix some syntax error in the initial release## 0.1.0 (2019-04-10)  - Initial Release</longdescription>
+</pkgmetadata>

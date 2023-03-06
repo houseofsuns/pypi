@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ClientIGN GPAO Client est un module développée en [Python](https://www.python.org/) qui exécute des traitements (lignes de commande) en optimisant les ressources de la machine sur laquelle il est installé.## Installation1. Cloner le dépôt ign-gpao/client2. Dans le répertoire du client, lancer la commande : `python3 -m client.client`## UtilisationDifférents paramètres optionnels peuvent être ajoutés à la commande précédente :| Commande | Abréviation | Description || --- | --- | --- || --help | -h | Afficher l'aide au paramétrage de la commande || --verbose | -v | Augmenter la verbosité des logs || --clean | -c | Supprimer les anciens dossiers temporaires et fermer toutes les sessions ouvertes || --threads THREADS | -n THREADS | Fixer le nombre de threads du client, par défaut le nombre estimé de CPU de la machine || --suffix SUFFIX | -s SUFFIX | Ajouter un suffixe au nom du client (nécessaire si l'on utilise plusieurs clients sur une machine), par défaut nom de la machine || --tags TAGS | -t TAGS | Définir les tags du client (liste de tags séparés par des virgules) || --autostart AUTOSTART | -a AUTOSTART | Définir le nombre de threads à activer automatiquement dès le lancement du client, par défaut 0 |## DéveloppementLe code peut-être analysé avec PyLint et Flake8.### Tests## LicenceCe projet est sous licence CECILL-B (voir [LICENSE.md](https://github.com/ign-gpao/.github/blob/main/LICENSE.md)).[![IGN](https://github.com/ign-gpao/.github/blob/main/images/logo_ign.png)](https://www.ign.fr)</longdescription>
+</pkgmetadata>

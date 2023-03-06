@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Data Lake ToolsThis is the repository for the Data Lake tools. This Python package contains command line tools and packages to generate Data Lakes and Funtionality to interact with data lakes. ## Client Package---The Client Package is for clients to upload files to the data lake. ### Package Installation---To install run:```pip install indxdatalaketools```### Tool---For help on usage of the tool run:```IndxClientDataLakeTools --help```</longdescription>
+</pkgmetadata>

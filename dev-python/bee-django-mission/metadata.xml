@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=====crm=====Quick start-----------1. Add &quot;crm&quot; to your INSTALLED_APPS setting like this::    INSTALLED_APPS = (        ...        'crm.apps.CrmConfig',    )2. Include the crm URLconf in your project urls.py like this::    from django.conf.urls import include, url    ...    url(r'^crm/', include('crm.urls', namespace='crm')),3.settings.py like this::    USER_TABLE=&quot;&quot; #用户表，如果用django自带，为空或None。如果自定义，则为app_label.ModelName3. Run `python manage.py makemigrations`,`python manage.py migrate` to create the crm models.4. Start the development server and visit http://127.0.0.1:8000/admin/   to create a cc (you'll need the Admin app enabled).5. Visit http://127.0.0.1:8000/cc/ to participate in the cc.</longdescription>
+</pkgmetadata>

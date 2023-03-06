@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># HypothesisA python wrapper for the Hypothesis API## Create an annotation using a TextQuoteSelector```h = hypothesis.Hypothesis(username=USER, token=TOKEN)  # your h username and api token (from https://hypothes.is/account/developer)url = 'url of web page to annotate'exact = 'selected text (i.e. the quote)'prefix = '30 chars preceding the quote'suffix = '30 chars following the quote'title = 'title of the web page'tags = [&quot;tag1&quot;, &quot;tag2&quot;]text = &quot;body of annotation, can include [markup](http://example.com)&quot;   payload = {    &quot;uri&quot;: url,    &quot;target&quot;:         [{            &quot;source&quot;: [url],            &quot;selector&quot;:                 [{                    &quot;type&quot;: &quot;TextQuoteSelector&quot;,                     &quot;prefix&quot;: prefix,                    &quot;exact&quot;: exact,                    &quot;suffix&quot;: suffix                    }                 ]        }],     &quot;tags&quot;: tags,    &quot;text&quot;: text,     &quot;document&quot;: {         &quot;title&quot;: [title]     },     &quot;permissions&quot;: h.permissions,     &quot;group&quot;: h.group  }r = h.post_annotation(payload)print r.status_code```</longdescription>
+</pkgmetadata>

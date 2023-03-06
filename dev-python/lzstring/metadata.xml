@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>lz-string-python================lz-string for python 2/3Based on the LZ-String javascript found here: http://pieroxy.net/blog/pages/lz-string/index.htmlExample-------::  &gt;&gt;&gt; import lzstring  &gt;&gt;&gt; x = lzstring.LZString()  &gt;&gt;&gt; compressed = x.compressToBase64(u'你好') # 'gbyl9NI='  &gt;&gt;&gt; x.decompressFromBase64(compressed) # '你好'Installation------------::  $ pip install lzstring</longdescription>
+</pkgmetadata>

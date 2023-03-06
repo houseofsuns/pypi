@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>causalmodels============causalmodels in Python.instalation-----------::    $ pip install causalmodelsusage-----::    &gt;&gt;&gt; import numpy as np    &gt;&gt;&gt; import pandas as pd    &gt;&gt;&gt; import causalmodels as cm    &gt;&gt;&gt; a = np.random.laplace(size=500)    &gt;&gt;&gt; b = np.random.laplace(size=500) + a    &gt;&gt;&gt; c = np.random.laplace(size=500) + a + b    &gt;&gt;&gt; data = pd.DataFrame({'a': a, 'b': b, 'c': c})    &gt;&gt;&gt; model = cm.DirectLiNGAM(data.values, data.columns)    &gt;&gt;&gt; results = model.fit()    &gt;&gt;&gt; results.order    [2, 1, 0]    &gt;&gt;&gt; result.plot()</longdescription>
+</pkgmetadata>

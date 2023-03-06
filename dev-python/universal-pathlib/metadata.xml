@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Universal PathlibUniversal Pathlib is a python library that aims to extend Python's built-in [`pathlib.Path`](https://docs.python.org/3/library/pathlib.html) api to use a variety of backend filesystems using [`fsspec`](https://filesystem-spec.readthedocs.io/en/latest/intro.html)## Installation### Pypi```bashpip install universal_pathlib```### conda```bashconda install -c conda-forge universal_pathlib```## Basic Usage```python&gt;&gt;&gt; from upath import UPath&gt;&gt;&gt; import s3fs&gt;&gt;&gt; s3path = UPath(&quot;s3://test_bucket&quot;) / &quot;example.txt&quot;&gt;&gt;&gt; s3path.nameexample.txt&gt;&gt;&gt; s3path.stemexample&gt;&gt;&gt; s3path.suffix.txt&gt;&gt;&gt; s3path.exists()True&gt;&gt;&gt; s3path.read_text()'Hello World'```For more examples, see the [example notebook here](notebooks/examples.ipynb)### Currently supported filesystems (and schemes)- `file:` Local filessystem- `memory:` Ephemeral filesystem in RAM- `az:`, `adl:` and `abfs:` Azure Storage (requires `adlfs` to be installed)- `http:` and `https:` HTTP(S)-based filesystem- `hdfs:` Hadoop distributed filesystem- `gs:` and `gcs:` Google Cloud Storage (requires `gcsfs` to be installed)- `s3:` and `s3a:` AWS S3 (requires `s3fs` to be installed)- `webdav+http:` and `webdav+https:` WebDAV-based filesystem on top of HTTP(S) (requires `webdav4[fsspec]` to be installed)Other fsspec-compatible filesystems may also work, but are not supported and tested.Contributions for new filesystems are welcome!## LicenseMIT License</longdescription>
+</pkgmetadata>

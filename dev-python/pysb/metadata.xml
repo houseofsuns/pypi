@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>PySB====.. image:: https://badges.gitter.im/pysb/pysb.svg   :alt: Join the chat at https://gitter.im/pysb/pysb   :target: https://gitter.im/pysb/pysb?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge&amp;utm_content=badge.. image:: https://github.com/pysb/pysb/workflows/Continuous%20Integration/badge.svg   :alt: Continuous Integration   :target: https://github.com/pysb/pysb/actionsPython Systems Biology modeling frameworkhttp://pysb.org/PySB (pronounced &quot;Pie Ess Bee&quot;) is a framework for building rule-basedmathematical models of biochemical systems. It works nicely withscientific Python libraries such as NumPy, SciPy and SymPy for modelsimulation and analysis.Installation------------PySB depends on the following:  * numpy  * scipy  * sympy  * Perl - http://www.perl.org/get.html  * BioNetGen - http://bionetgen.org/For full instructions, see the Installation chapter of the manual athttp://docs.pysb.org/en/latest/installation.htmlDocumentation-------------The manual is available online at http://docs.pysb.org/. You can alsogenerate the documentation locally by installing Sphinx and runningthe following commands::    $ cd doc    $ make htmlThen open _build/html/index.html in your web browser.</longdescription>
+</pkgmetadata>

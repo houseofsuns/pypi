@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>About-----Clipt (command line interface plotting tool) uses clasp and matplotlibto aid in plotting data files using matplotlib directly from the commandline using a extensive set of options.  See the clasp documentation forimformation about using config files.https://clipt.readthedocs.io/Clipt was built using clasp: https://clasp.readthedocs.io/which in turn depends on click: https://palletsprojects.com/p/click/Installation------------::    pip install cliptUsage-----see::    cl_plot --helpAutocomplete------------::    _CL_PLOT_COMPLETE=source cl_plot &gt; clipt_complete.shIn your .bash_profile::    source path/to/bin/clipt_complete.shSource Code-----------* clipt: https://bitbucket.org/stephenwasilewski/cliptLicence-------| Copyright (c) 2018 Stephen Wasilewski| This Source Code Form is subject to the terms of the Mozilla Public| License, v. 2.0. If a copy of the MPL was not distributed with this| file, You can obtain one at http://mozilla.org/MPL/2.0/.=======History=======1.0.0-----alpha python 3.7 version0.1.11------polar fix for scatter plot plus variable defined marker size0.1.11------initial box plot implementation (need to work on multi-series / color options)0.1.10------expose additional options to CLI0.1.9-----fix polar axis readin options on scatterplot0.1.8-----proper labeling of max value when using -xticks/yticks0.1.7-----bug in cl_plot colors0.1.6-----improve graph formatting and bug fixes in scatter and histo0.1.3-----add release to version bump0.1.2-----first release on pypi0.1.1-----remove dependency link from setup.py0.1.0-----first stable release0.0.1-----Initial setup of the directory</longdescription>
+</pkgmetadata>

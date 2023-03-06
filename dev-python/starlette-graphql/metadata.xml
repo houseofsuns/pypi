@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Starlette GraphQLThe starlette GraphQL implement, which  support query, mutate and subscription. Based on [python-gql](https://github.com/syfun/python-gql).## RequirementPython 3.7+## Installation`pip install starlette-graphql`## Getting started```python# app.pyfrom gql import query, gqlfrom stargql import GraphQLtype_defs = gql(&quot;&quot;&quot;type Query {    hello(name: String!): String!}&quot;&quot;&quot;)@queryasync def hello(parent, info, name: str) -&gt; str:    return nameapp = GraphQL(type_defs=type_defs)```Use [uvicorn](https://www.uvicorn.org) to run app.`uvicorn app:app --reload`## Upload File```pythonimport uvicornfrom gql import gql, mutatefrom stargql import GraphQLtype_defs = gql(&quot;&quot;&quot; scalar Upload  type File {    filename: String!  }  type Query {    uploads: [File]  }  type Mutation {    singleUpload(file: Upload!): File!    multiUpload(files: [Upload!]!): [File!]!  }&quot;&quot;&quot;)@mutatedef single_upload(parent, info, file):    return file@mutatedef multi_upload(parent, info, files):    return filesapp = GraphQL(type_defs=type_defs)if __name__ == '__main__':    uvicorn.run(app, port=8080)```## SubscriptionFor more about subscription, please see [gql-subscriptions](https://github.com/syfun/starlette-graphql).## Apollo Federation[Example](https://github.com/syfun/starlette-graphql/tree/master/examples/federation)For more abount subscription, please see [Apollo Federation](https://www.apollographql.com/docs/apollo-server/federation/introduction/)</longdescription>
+</pkgmetadata>

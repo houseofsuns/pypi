@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>magic-import============Import python object from string and return the reference of the object. The object can be a class, instance, variable and anything else, and can be from class, instance, module, global/local environment.Install-------::    pip install magic-importUsage-----::    from magic_import import import_from_string        listdir = import_from_string(&quot;os.listdir&quot;)    files = listdir(&quot;.&quot;)</longdescription>
+</pkgmetadata>

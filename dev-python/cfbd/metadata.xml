@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>    This is an API for accessing all sorts of college football data.  Please note that API keys should be supplied with \&amp;quot;Bearer \&amp;quot; prepended (e.g. \&amp;quot;Bearer your_key\&amp;quot;). API keys can be acquired from the CollegeFootballData.com website.  # noqa: E501    </longdescription>
+</pkgmetadata>

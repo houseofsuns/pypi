@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&quot;WebbPSF produces simulated PSFs for the James Webb Space Telescope, NASA's next flagship infrared space telescope. WebbPSF can simulate images for any of the four science instruments plus the fine guidance sensor, including both direct imaging and coronagraphic modes.&quot;</longdescription>
+</pkgmetadata>

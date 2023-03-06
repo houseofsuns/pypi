@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Python implementation of Jeff Heer's C3 color naming model,outlined in```bibtexJeffrey Heer and Maureen Stone. 2012. Color naming models for color selection, image editing and palette design. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '12). Association for Computing Machinery, New York, NY, USA, 1007â1016. https://doi-org.ezp-prod1.hul.harvard.edu/10.1145/2207676.2208547```</longdescription>
+</pkgmetadata>

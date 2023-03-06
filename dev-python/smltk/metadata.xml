@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Getting started===============smltk (Simple Machine Learning Tool Kit) package is implemented for helping your work during* data preparation* testing your modelThe goal is to implement this package for each step of machine learning process that can simplify your code.It is part of the `educational repositories &lt;https://github.com/pandle/materials&gt;`_ to learn how to write stardard code and common uses of the TDD.Installation############If you want to use this package into your code, you can install by python3-pip:.. code-block:: bash    pip3 install smltk    python3    &gt;&gt;&gt; from smltk.metrics import Metrics    &gt;&gt;&gt; help(Metrics)The package is not self-consistent. So if you want to contribute, you have to download the package by github and to install the requirements.. code-block:: bash    git clone https://github.com/bilardi/smltk    cd smltk/    pip3 install --upgrade -r requirements.txtRead the documentation on `readthedocs &lt;https://smltk.readthedocs.io/en/latest/&gt;`_ for* API* Usage* DevelopmentChange Log##########See `CHANGELOG.md &lt;https://github.com/bilardi/smltk/blob/master/CHANGELOG.md&gt;`_ for details.License#######This package is released under the MIT license.  See `LICENSE &lt;https://github.com/bilardi/smltk/blob/master/LICENSE&gt;`_ for details.</longdescription>
+</pkgmetadata>

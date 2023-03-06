@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>`r3l3453` is a small project that I use for semi-automating release cycle on a few projects of mine.In short what it does is as follows:* Bump version(s) to a release version according to git log and `Conventional Commits`_.* Change the title of `Unreleased`_ section in ``CHANGELOG.rst`` to the new version.* Commit changes.* Tag the commit.* Release to PyPI.* Bump the version again to dev0 version for the next release.* Push changes to repository.There is a ``--simulate`` cli option which allows one to see what is going to happen... _Conventional Commits: https://www.conventionalcommits.org/.. _Unreleased: https://keepachangelog.com/</longdescription>
+</pkgmetadata>

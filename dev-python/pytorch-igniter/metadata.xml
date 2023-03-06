@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pytorch-igniter===============Simplify `pytorch &lt;https://pytorch.org/&gt;`_ training using a configurable wrapper around `pytorch-ignite &lt;https://pytorch.org/ignite/&gt;`_Installation-----------------.. code-block:: bash  pip install pytorch-igniterDemo------See `pytorch-igniter-demo &lt;https://pytorch-igniter-demo.readthedocs.io/&gt;`_Documentation-----------------View latest documentation at `ReadTheDocs &lt;https://pytorch-igniter.readthedocs.io/&gt;`_Continuous Integration------------------------View continuous integration at `TravisCI &lt;https://travis-ci.org/github/bstriner/pytorch-igniter&gt;`_PyPI------------------------View releases on `PyPI &lt;https://pypi.org/project/pytorch-igniter/&gt;`_GitHub------------------------View source code on `GitHub &lt;https://github.com/bstriner/pytorch-igniter&gt;`_GitHub tags are automatically released on ReadTheDocs, tested on TravisCI, and deployed to PyPI if successful.</longdescription>
+</pkgmetadata>

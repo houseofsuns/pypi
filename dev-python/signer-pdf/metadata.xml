@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>```pythonwith open(&quot;test.pdf&quot;, &quot;rb&quot;) as inFile, open(&quot;modified.pdf&quot;, &quot;wb&quot;) as modified:    modified.write(        sign(&quot;Дик Анатолий Артёмович&quot;,             datetime(2020, 1, 25, 0, 0),             &quot;123asdfdfsddfasdf62gdsfgsd45345&quot;, inFile)            .getvalue())```</longdescription>
+</pkgmetadata>

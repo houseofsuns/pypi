@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># sphinxifyConvert Javadoc and Doxygen to Sphinx docstrings.## Why?The [RobotPy][] project ports Java libraries to Python.A converter was originally written in HTML + JavaScript, but then the need tobe able to programmatically convert doc comments arose.This also makes it easier to use in certain editors such as vim...## UsageRun `sphinxify` and give it a Javadoc comment.  It will keep reading until EOF.If a Java function prototype is also given, sphinxify will also output aPython type-hinted function signature.There is also a `sphinxify yaml` mode for the [robotpy-ctre][].[RobotPy]: https://robotpy.github.io[robotpy-ctre]: https://github.com/robotpy/robotpy-ctre</longdescription>
+</pkgmetadata>

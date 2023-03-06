@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># LEET*Library of Eclectic Experiments by Tenchi*Random modules that I made and use in several project and are too small to get their own package. A `util` library of sorts.---## Contents&lt;!-- MarkdownTOC autolink=true --&gt;- [Logging](#logging)    - [Progress bars](#progress-bars)    - [Images](#images)&lt;!-- /MarkdownTOC --&gt;## LoggingModule that provides a fancy-looking theme for Python loggers.(TODO: Screenshot)To enable, `import leet.logging` from anywhere (maybe the main `__init__.py` of your project). You will then have a global logger `log` function that you can use from anywhere:```pylog.info(&quot;Hello&quot;)log.warn(&quot;World&quot;)```If using MyPy (or if you don't like monkeypatching) you can import the logger explicitly in each module as needed:```pyfrom leet.logging import loglog.info(&quot;Explicit import&quot;)```### Progress barsAlso provides a progress bar (from [WoLpH/python-progressbar](https://github.com/WoLpH/python-progressbar)) that fits in the theme:```pyfrom time import sleepfrom leet.logging import log_progressfor i in log_progress.debug(range(10)):    sleep(1)    log.info(&quot;Working on %d...&quot; % i)```### ImagesAlso supports outputing images via [imgcat](https://iterm2.com/utilities/imgcat) if using [iTerm2](https://iterm2.com/) (support for other tools pending):```pylog.warn(&quot;Image is too big:&quot;, extras={&quot;img&quot;: &quot;path/to/image.png&quot;})```</longdescription>
+</pkgmetadata>

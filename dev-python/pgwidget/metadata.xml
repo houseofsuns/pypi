@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pgwidgetpgwidget is a Python library for easy creation of GUI widgets in pygame environment.## InstallationUse the package manager [pip](https://pip.pypa.io/en/stable/) to install pgwidget.```bashpip install pgwidget```## Usage```pythonimport pgwidget.pgwidget_core as pgwbuttons=pgw.PgWidget()button1=pgw.Button([800,100],[80,20],&quot;Submit&quot;)buttons.elements.append(button1)pgwidgets=[buttons]pgw.main_program_loop(pgwidgets,None)```In examples folder you can get several GUI elements.![alt text](https://github.com/dovax/pgwidget/blob/main/example1.png?raw=true)## ContributingPull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.## License[MIT](https://choosealicense.com/licenses/mit/)## Currently implemented* Checkbox* Radio button* Button (image)* Button (classical)* Table (spreadsheet)</longdescription>
+</pkgmetadata>

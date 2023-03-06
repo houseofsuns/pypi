@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># poetry-aliases-pluginPoetry plugin to run commands through aliases## Functionality- Запуск команд через псевдонимы  - Запуск  - Запуск множества команд разделенных `&amp;&amp;`  - Преобразование команд для запуска через poetry  - ~~Дополнение команд~~- ~~Добавление / Просмотр / Изменение / Удаление псевдонимов через cli~~## Quick start```bashpoetry self add poetry-aliases-pluginpoetry alias this # ==&gt; poetry run python -m thispoetry this # ==&gt; poetry run python -m this```## Dependencies```toml[tool.poetry.dependencies]python = &quot;&gt;=3.10&quot;poetry = &quot;&gt;=1.2.0&quot;```PS. Adaptation for earlier versions of python will someday appear## Install```bashpoetry self add poetry-aliases-plugin# uninstall: poetry self remove poetry-aliases-plugin# update: rm -r ~/.cache/pypoetry/{artifacts,cache} &amp;&amp; poetry self update poetry-aliases-plugin```## SetupOn `0.N.N` version setup only in `pyproject.toml`:```toml[tool.aliases] # config dict, where key - alias, value - full command / commands with &quot;&amp;&amp;&quot;alias = &quot;full command / commands with '&amp;&amp;'&quot;test = &quot;poetry run pytest&quot;runserver = &quot;poetry run python manage.py runserver&quot;```## Useplugin command - &quot;l&quot;```bashpoetry l --helppoetry l test # ==&gt; poetry run pytestpoetry l runserver # ==&gt; poetry run python manage.py runserver```## ContributeIssue Tracker: &lt;https://gitlab.com/rocshers/python/poetry-alias-plugin/-/issues&gt;Source Code: &lt;https://gitlab.com/rocshers/python/poetry-alias-plugin&gt;</longdescription>
+</pkgmetadata>

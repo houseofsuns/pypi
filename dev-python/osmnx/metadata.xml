@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>**OSMnx** is a Python package that lets you download spatial data andmodel, project, visualize, and analyze real-world street networks fromOpenStreetMap's APIs. Users can download and model walkable, drivable, orbikeable urban networks with a single line of Python code, and then easilyanalyze and visualize them. You can just as easily download and work withamenities/points of interest, building footprints, elevation data, streetbearings/orientations, speed/travel time, and network routing.Citation info: Boeing, G. 2017. `OSMnx: New Methods for Acquiring,Constructing, Analyzing, and Visualizing Complex Street Networks`_.*Computers, Environment and Urban Systems* 65, 126-139.doi:10.1016/j.compenvurbsys.2017.05.004Read the `docs`_ or see usage examples and demos on `GitHub`_... _GitHub: https://github.com/gboeing/osmnx-examples.. _docs: https://osmnx.readthedocs.io.. _OSMnx\: New Methods for Acquiring, Constructing, Analyzing, and Visualizing Complex Street Networks: http://geoffboeing.com/publications/osmnx-complex-street-networks/</longdescription>
+</pkgmetadata>

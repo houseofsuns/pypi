@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;p align=&quot;left&quot;&gt;&lt;a href=&quot;https://pypi.org/project/pdip&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://img.shields.io/pypi/v/pdip?color=%2334D058&amp;label=pypi%20package&quot; alt=&quot;Package version&quot;&gt;&lt;/a&gt;&lt;/p&gt;# IntroductionThis package aim to perform the integration processes easily </longdescription>
+</pkgmetadata>

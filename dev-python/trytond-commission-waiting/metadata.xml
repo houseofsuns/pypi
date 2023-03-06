@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Commission Waiting##################The commission_waiting module allows to generate account move for eachcommission between the expense/revenue account to a waiting account defined onthe agent.Once the commission invoice is posted the waiting account is cleared with thepayable/receivable account of the invoice.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Worklog - Simple CLI util to track work hours[![Documentation Status](https://readthedocs.org/projects/dcs-worklog/badge/?version=latest)](https://dcs-worklog.readthedocs.io/en/latest/?badge=latest)[![codecov](https://codecov.io/gh/dotcs/worklog/branch/develop/graph/badge.svg)](https://codecov.io/gh/dotcs/worklog)[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)Worklog is a simple and straight-forward tool to track working times via CLI.It uses a plain text file as its storage backend which makes it easy toprocess the logged information with other tools.## Getting startedYou need to have Python &gt;= 3.6 installed.```bashpip install dcs-worklog```Please follow the [documentation onreadthedocs](https://dcs-worklog.readthedocs.io) to learn how to use the CLItool.## DevelopmentClone this repository and install the development version:```bashpip install -e &quot;.[develop]&quot;```Run tests via```bashpytest --cov worklog```### Create a release**Attention**: This should not be needed. Releases are auto-generated from the*GitHub CI. See the [configuration file](./.github/workflows/package.yaml).To create a release use [git flow](), update the version number in setup.py first.Then execute the following commands:```bashpython setup.py sdist bdist_wheeltwine upload --skip-existing -r pypi dist/*```</longdescription>
+</pkgmetadata>

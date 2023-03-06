@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># YAPB: A Minimalist Progress Bar for Python![Rust Tests](https://github.com/wilswer/yapb/actions/workflows/rust_tests.yml/badge.svg)## Usage```pythonfrom yapb import ProgressBarN = 100pb = ProgressBar(N, message=&quot;Computing...&quot;, description=&quot;Progress&quot;)for _ in range(N):    pb.update(message=&quot;Still computing...&quot;, description=f&quot;At {_}/{N}&quot;)    pb.render()```## Installation```pip install yapb```</longdescription>
+</pkgmetadata>

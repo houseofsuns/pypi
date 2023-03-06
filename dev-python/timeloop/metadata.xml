@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># TimeloopTimeloop is a service that can be used to run periodic tasks after a certain interval.![timeloop](http://66.42.57.109/timeloop.jpg)Each job runs on a separate thread and when the service is shut down, it waits till all tasks currently being executed are completed.Inspired by this blog [`here`](https://www.g-loaded.eu/2016/11/24/how-to-terminate-running-python-threads-using-signals/)## Installation```shpip install timeloop```## Writing jobs```pythonimport timefrom timeloop import Timeloopfrom datetime import timedeltatl = Timeloop()@tl.job(interval=timedelta(seconds=2))def sample_job_every_2s():    print &quot;2s job current time : {}&quot;.format(time.ctime())@tl.job(interval=timedelta(seconds=5))def sample_job_every_5s():    print &quot;5s job current time : {}&quot;.format(time.ctime())@tl.job(interval=timedelta(seconds=10))def sample_job_every_10s():    print &quot;10s job current time : {}&quot;.format(time.ctime())```## Start time loop in separate threadBy default timeloop starts in a separate thread.Please do not forget to call ```tl.stop``` before exiting the program, Or else the jobs wont shut down gracefully.```pythontl.start()while True:  try:    time.sleep(1)  except KeyboardInterrupt:    tl.stop()    break```## Start time loop in main threadDoing this will automatically shut down the jobs gracefully when the program is killed, so no need to  call ```tl.stop``````pythontl.start(block=True)```## Author* **Sankalp Jonna**Email me with any queries: [sankalpjonna@gmail.com](sankalpjonna@gmail.com).</longdescription>
+</pkgmetadata>

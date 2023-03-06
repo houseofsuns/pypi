@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># asyncio-chainableMaking asyncio coroutines chainableBuilt on: Python3 and Docker (alpine) and Poetry (Package Manager)&lt;br&gt;Maintained by: Chris Lee [sihrc.c.lee@gmail.com]## Installation```bashpip3 install asyncio_chainable```## Example Usage```python3import pytestfrom asyncio_chainable import async_chainable, async_chainable_class@pytest.mark.asyncioasync def test_simple_chain():    class Number:        def __init__(self, num: int = 0):            self.num = num        @async_chainable        async def add(self, num: int):            self.num += num            return self        @async_chainable        async def subtract(self, num: int):            self.num -= num            return self    assert (await Number().add(5).subtract(2)).num == 3@pytest.mark.asyncioasync def test_class_chain():    @async_chainable_class    class Number:        def __init__(self, num: int = 0):            self.num = num        async def add(self, num: int):            self.num += num            return self        async def subtract(self, num: int):            self.num -= num            return self    assert (await Number().add(5).subtract(2)).num == 3```## Contributing: Getting Started### Docker- Additional Python3 dependencies can be added to requirements.txt&lt;br&gt;- Tests are located in ./tests &lt;br&gt;- To run the docker container with the basic requirements, dependencies, and the package installed:  ```bash  $ touch .env  $ docker-compose up  ```### Poetry```$ poetry install```</longdescription>
+</pkgmetadata>

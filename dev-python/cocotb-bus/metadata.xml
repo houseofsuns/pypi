@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># cocotb-bus[![PyPI](https://img.shields.io/pypi/dm/cocotb-bus.svg?label=PyPI%20downloads)](https://pypi.org/project/cocotb-bus/)The new home of the [cocotb](https://github.com/cocotb) project's pre-packaged testbenching tools and reusable bus interfaces.</longdescription>
+</pkgmetadata>

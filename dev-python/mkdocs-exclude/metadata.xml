@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># File exclude plugin for mkdocs`mkdocs-exclude` is a[mkdocs plugin](http://www.mkdocs.org/user-guide/plugins/) that allows youto exclude files from your input using unix-style wildcards (globs) orregular expressions (regexes).This implements what people were asking for in some mkdocs bugs, such as&lt;https://github.com/mkdocs/mkdocs/issues/1500&gt; and&lt;https://github.com/mkdocs/mkdocs/issues/1152&gt;.## Quick start1. Install the module using pip: `pip3 install mkdocs-exclude`2. In your project, add a plugin configuration to `mkdocs.yml`:   ```yaml   plugins:     - exclude:         glob:           - exclude/this/path/*           - &quot;*.tmp&quot;           - &quot;*.pdf&quot;           - &quot;*.gz&quot;         regex:           - '.*\.(tmp|bin|tar)$'   ```You can provide zero or more patterns of each type.  (If you don't provideany patterns, then nothing will happen!)Note!  Because of peculiarity of yaml syntax, the `glob:` and `regex:` lines**must not** start with a dash, but the lines under them **must** start witha dash.Also because of yaml, patterns that start with a punctuation mark must bequoted.When writing regexes, it's best to use single quotes rather than doublequotes, so that your regex backslash escapes are preserved correctly withouthaving to be doubled up.</longdescription>
+</pkgmetadata>

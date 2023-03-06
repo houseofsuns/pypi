@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># GoSlide Open Cloud APIPython API to utilise the GoSlide Open Cloud and Local JSON API## Requirements- Python &gt;= 3.5.2## UsageSee https://github.com/ualex73/goslide-api for examples## LicenseApache License 2.0</longdescription>
+</pkgmetadata>

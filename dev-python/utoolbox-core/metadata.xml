@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># uToolbox [Core]A Python image processing package for LLSM.For more information, refer to [the documentation](https://utoolbox.readthedocs.io/en/latest/index.html).## InstallationuToolbox is published on [PyPI](https://pypi.org/project/utoolbox/) and can be installed from there:`pip install -U utoolbox`Beta releases are also published:`pip install -U --pre utoolbox`If you wish to install uToolbox for development purposes, refer to [the developer guide](https://utoolbox.readthedocs.io/en/latest/intro/developer.html).## DocumentationDocumentation is available from [readthedocs.io](https://utoolbox.readthedocs.io/en/latest/index.html).## Authors- Liu, Yen-Ting## LicenseThis project is licensed under the Apache 2.0 License - see the [LICENSE.md](LICENSE.md) file for details## Acknowledgments- [LLSpy](https://github.com/tlambert03/LLSpy) by Talley Lambert.</longdescription>
+</pkgmetadata>

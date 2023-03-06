@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Alembic Verify==============.. pull-quote::    Verify that your alembic migrations are valid and equivalent to your models.Documentation-------------See `&lt;http://alembic-verify.readthedocs.org&gt;`_.License-------Apache 2.0. See LICENSE for details.</longdescription>
+</pkgmetadata>

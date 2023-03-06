@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>OpenTelemetry B3 Propagator===========================|pypi|.. |pypi| image:: https://badge.fury.io/py/opentelemetry-propagator-b3.svg   :target: https://pypi.org/project/opentelemetry-propagator-b3/This library provides a propagator for the B3 formatInstallation------------::     pip install opentelemetry-propagator-b3References----------* `OpenTelemetry &lt;https://opentelemetry.io/&gt;`_* `B3 format &lt;https://github.com/openzipkin/b3-propagation&gt;`_</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>aws-parallelcluster-awsbatch-cli is the python package installed on the Amazon EC2 instances launched as part of AWS ParallelCluster when using AWS Batch as a scheduler. It provides a set of commands to manage AWS Batch resources created within the cluster and AWS Batch jobs.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>hjson-py========`Hjson`_, a user interface for JSONHjson works with Python 2.5+ and Python 3.3+ (based on `simplejson`_)Installation============-  ``pip install hjson``-  or download from https://pypi.python.org/pypi/hjsonCommandline-----------::    Usage:      hjson [options]      hjson [options] &lt;input&gt;      hjson (-h | --help)      hjson (-V | --version)    Options:      -h --help     Show this screen.      -j            Output as formatted JSON.      -c            Output as JSON.      -V --version  Show version.E.g. ``echo '{&quot;json&quot;:&quot;obj&quot;}' | hjson``Usage=====.. code-block:: python    import hjsonDecoding Hjson--------------.. code-block:: python    text = &quot;&quot;&quot;{      foo: a      bar: 1    }&quot;&quot;&quot;    hjson.loads(text)Result:.. code-block:: python    OrderedDict([('foo', 'a'), ('bar', 1)])Encoding Python object hierarchies----------------------------------.. code-block:: python    hjson.dumps({'foo': 'text', 'bar': (1, 2)})Result:::    {      foo: text      bar:      [        1        2      ]    }Encoding as JSON----------------Note that this is probably not as performant as the simplejson version... code-block:: python    hjson.dumpsJSON(['foo', {'bar': ('baz', None, 1.0, 2)}])Result: ``'[&quot;foo&quot;, {&quot;bar&quot;: [&quot;baz&quot;, null, 1.0, 2]}]'``API===`hjson-py`_.. _Hjson: https://hjson.github.io.. _simplejson: https://github.com/simplejson/simplejson.. _hjson-py: http://hjson.github.io/hjson-py/</longdescription>
+</pkgmetadata>

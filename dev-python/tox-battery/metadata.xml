@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image:: https://travis-ci.org/signalpillar/tox-battery.svg    :target: https://travis-ci.org/signalpillar/tox-batteryThe project is an attempt to add to the `tox&lt;http://tox.readthedocs.org/en/latest/&gt;`_ some missing out of the box functionality.Basically it is just an extension for the tool that will be loaded automatically.Features========First `experimental feature &lt;https://bitbucket.org/hpk42/tox/issues/149/virtualenv-is-not-recreated-when-deps&gt;`_ is to recreate virtual environment on requirements file update.Installation============Thanks to entrypoints mechanism used by tox plugin system no additional configurationis required except of the package installation.::    pip install tox-batteryPackage Maintainance====================Release=======::  tox -e release</longdescription>
+</pkgmetadata>

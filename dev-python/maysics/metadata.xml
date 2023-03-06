@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># maysics本库用于科学计算和快速建模maysics主要包括十一个模块：&lt;br/&gt;1、calc 封装了常见的算符算子、函数、积分方法，辅助数学运算；&lt;br/&gt;2、equa 封装了部分方程求解方法；&lt;br/&gt;3、explain 用于评估和解释模型；&lt;br/&gt;4、graph 用于图论分析；&lt;br/&gt;5、digital 用于数字图像、序列处理;&lt;br/&gt;6、models 封装了几种常用的模型、算法以便快速构建数理模型；&lt;br/&gt;7、prep 用于数据预处理；&lt;br/&gt;8、stats 用于统计分析；&lt;br/&gt;9、time 用于处理时间数据；&lt;br/&gt;10、trans 封装了常用的坐标转换及其他数学变换；&lt;br/&gt;11、utils 是额外工具箱。&lt;br/&gt;This package is used for scientific calculating and fast modelingmaysics includes eleven modules:&lt;br/&gt;1. &quot;calc&quot; packaes common operatoes, functions and integration method;&lt;br/&gt;2. &quot;equa&quot; packages some equation solving operation;&lt;br/&gt;3. &quot;explain&quot; is used for estimating and explaining models;&lt;br/&gt;4. &quot;graph&quot; is used for graph theory analysis;&lt;br/&gt;5. &quot;digital&quot; is used for digital image, sequence process;&lt;br/&gt;6. &quot;models&quot; packages several coommon models and algorithms for fast modeling;&lt;br/&gt;7. &quot;prep&quot; is used for data preproccessing;&lt;br/&gt;8. &quot;stats&quot; is uesd for statistical analysis;&lt;br/&gt;9. &quot;time&quot; is used for processing time data;&lt;br/&gt;10. &quot;trans&quot; packages common coordinate transformations and other mathematical transformations;&lt;br/&gt;11. &quot;utils&quot; is extra Utils.</longdescription>
+</pkgmetadata>

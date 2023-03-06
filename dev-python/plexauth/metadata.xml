@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># python-plexauthHandles the authorization flow to obtain tokens from Plex.tv via external redirection.Example usage:```import asynciofrom plexauth import PlexAuthPAYLOAD = {    'X-Plex-Product': 'Test Product',    'X-Plex-Version': '0.0.1',    'X-Plex-Device': 'Test Device',    'X-Plex-Platform': 'Test Platform',    'X-Plex-Device-Name': 'Test Device Name',    'X-Plex-Device-Vendor': 'Test Vendor',    'X-Plex-Model': 'Test Model',    'X-Plex-Client-Platform': 'Test Client Platform'}async def main():    async with PlexAuth(PAYLOAD) as plexauth:        await plexauth.initiate_auth()        print(&quot;Complete auth at URL: {}&quot;.format(plexauth.auth_url()))        token = await plexauth.token()    if token:        print(&quot;Token: {}&quot;.format(token))    else:        print(&quot;No token returned.&quot;)loop = asyncio.get_event_loop()loop.run_until_complete(main())```</longdescription>
+</pkgmetadata>

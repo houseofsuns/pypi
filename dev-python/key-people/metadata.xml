@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This package is used to pull key people from a company based on the ticker.from Key-People import get_Key_People, Key_People, get_c_Namelist_of_key_people = get_Key_People(&quot;AAPL&quot;)company_Name = get_c_Name(&quot;AAPL&quot;)#if you are doing multiple entries and want to make it quickerdb = Key_People()entry = db.entry(&quot;AAPL&quot;)entry.company_Nameentry.key_Peopleentry.ticker</longdescription>
+</pkgmetadata>

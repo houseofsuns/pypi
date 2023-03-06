@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># vk | python vk.com API wrapper[![Maintanance](https://img.shields.io/maintenance/yes/2022?style=flat-square)](https://github.com/voronind/vk/commits/master)[![PyPI](https://img.shields.io/pypi/pyversions/vk?style=flat-square)](https://pypi.org/project/vk/)[![GitHub CI](https://img.shields.io/github/workflow/status/voronind/vk/Check/master?style=flat-square)](https://github.com/voronind/vk/actions)[![Codecov](https://img.shields.io/codecov/c/github/voronind/vk?style=flat-square)](https://codecov.io/gh/voronind/vk)[![Docs](https://img.shields.io/readthedocs/vk?style=flat-square)](https://vk.readthedocs.io/en/latest/)This is a vk.com (the largest Russian social network) python API wrapper. &lt;br&gt;The goal is to support all API methods (current and future) that can be accessed from server.## Quickstart### Install```bashpip install vk```### Usage```python&gt;&gt;&gt; import vk&gt;&gt;&gt; api = vk.API(access_token='...')&gt;&gt;&gt; api.users.get(user_ids=1)[{'id': 1, 'first_name': 'Pavel', 'last_name': 'Durov', ... }]```See official VK [documentation](https://dev.vk.com/method) for detailed API guide.## More infoRead full documentation on [Read the Docs](https://vk.readthedocs.org)</longdescription>
+</pkgmetadata>

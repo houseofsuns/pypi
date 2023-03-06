@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># dwq - a Disque based work queuedwq (Disque Work Queue) is a tool that can be used to distribute Jobs on gitrepositories across multiple machines.## Installation    # pip install dwq## UsageStart a worker:    # dwqwExecute a command on worker:    # dwqc -r &lt;repository&gt; -c &lt;commit&gt; lsMore sophisticated:    # export DWQ_REPO=&lt;repository&gt; DWQ_COMMIT=&lt;commit&gt;    # for i in $(seq 10); do echo 'echo $DWQ_WORKER:$DWQ_WORKER_THREAD'; done | dwqc</longdescription>
+</pkgmetadata>

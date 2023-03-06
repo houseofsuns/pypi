@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Python: DirecTV (SHEF) ClientAsynchronous Python client for DirecTV receivers using the [SHEF](http://forums.solidsignal.com/docs/DTV-MD-0359-DIRECTV_SHEF_Command_Set-V1.3.C.pdf) protocol.## AbooutThis package allows you to monitor and control a DirecTV receiver and its associated client devices.## Installation```bashpip install directv```## Usage```pythonimport asynciofrom directv import DIRECTVasync def main():    &quot;&quot;&quot;Show example of connecting to your DIRECTV receiver.&quot;&quot;&quot;    async with DIRECTV(&quot;192.168.1.100&quot;) as dtv:        print(dtv)if __name__ == &quot;__main__&quot;:    loop = asyncio.get_event_loop()    loop.run_until_complete(main())```</longdescription>
+</pkgmetadata>

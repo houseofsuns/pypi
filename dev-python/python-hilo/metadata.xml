@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># python-hilo`python-hilo` (aka `pyhilo`) is a Python 3.9, `asyncio`-driven interface to the unofficialHilo API from Hydro Quebec. This is meant to be integrated into Home Assistant.Nothing is fully functional right now except for the PoC. Before this package, the Hilo APIwas returning all information via some REST calls. Since the end of 2021, Hilo has deprecatedsome of the endpoints including the ones that returns the status of the devices. This wasreplaced with a websocket system using Google Firebase.## Running the PoC```$ python -m virtualenv .venv$ source .venv/bin/activate$ pip install -r requirements.txt$ cat &lt;&lt; EOF &gt; .envexport hilo_username=&quot;moi@gmail.com&quot;export hilo_password=&quot;secretpassword&quot;$ source .env$ ./test.py```Home assistant integration is available [here](https://github.com/dvd-dev/hilo)## TODO- Type everything: almost done, got a few &quot;type: ignore&quot; to fix## Later?- Full docstrings and doc generation- Unit testing- Functional testingIf anyone wants to contribute, feel free to submit a PR. If you'd like to sync up first, you canfire me an email me@dvd.dev</longdescription>
+</pkgmetadata>

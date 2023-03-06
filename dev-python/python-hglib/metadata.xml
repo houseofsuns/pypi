@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>python-hglib============python-hglib is a library with a fast, convenient interface to Mercurial.It uses Mercurial's command server for communication with hg.Installation is standard:  $ python setup.py install</longdescription>
+</pkgmetadata>

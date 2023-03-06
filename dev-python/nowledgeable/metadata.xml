@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Nowledgeable exercice checkThis module let student check their answers outside nowledgeable, anywhere. Allows exercices to be run outside the nowledgeable application. Allow also testing complex applicationsContain also the python exercice unit framework## installation ```bashpip3 install nowledgeable```## usage ### Exercice checking Run the following in an exercice containing an exercice with the exercice.yaml specification```bashnowledgeable run-checks```or ```bashnowledgeable run-checks /path/to/exercice.yaml```Watching for file update and reruning files automatically```bash nowledgeable watch``` ### using the unit testing library ```python from python_utils.utils import AnswerTestertester = AnswerTester() #singleton pattern## add assertionstester.print_test_output()```#### Exemplesimagine you have the following wording : &quot;Code the function multiply_by_two(x) return 2 * x for each x&quot;You can use  `compare_function`.for that you need to : 1. code the proper function2. specify a test_inputs variables which will be fed to the student function and the good one.```pythondef solution(x): return 2 * xtester = AnswerTester()test_inputs = [    [3], # la fonction sera testée avec l'argument x=3    [-2],# la fonction sera testée avec l'argument x=-2    [random.randint(-3, 3)] #la fonction sera testée avec un x aléatoire entre -3 et 3]tester.compare_functions(&quot;nom test&quot;, multiply_by_two, solution, test_inputs, &quot;message&quot;)result_status = tester.get_test_output()result = tester.get_test_output() #A la fin on demande de générer le json```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pkce (Proof Key for Code Exchange)Simple Python module to generate PKCE code verifier and code challenge.## Installation```bashpip install pkce```## Usage```python&gt;&gt;&gt; import pkce&gt;&gt;&gt; code_verifier, code_challenge = pkce.generate_pkce_pair()``````python&gt;&gt;&gt; import pkce&gt;&gt;&gt; code_verifier = pkce.generate_code_verifier(length=128)&gt;&gt;&gt; code_challenge = pkce.get_code_challenge(code_verifier)```## Additional informationSpec for the PKCE protocol can be found [here](https://tools.ietf.org/html/rfc7636).</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> ``` Utilities function: load/save sessions, ....Stats usage:   https://pepy.tech/project/utilmy   https://pypistats.org/packages/utilmy   https://groups.google.com/g/utilmyHash:18e1c29368c22c166691762ccb195e5b88ee2378```</longdescription>
+</pkgmetadata>

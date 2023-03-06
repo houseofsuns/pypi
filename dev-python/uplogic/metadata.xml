@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># uplogicA logic extention module for [UPBGE](https://github.com/UPBGE/upbge) containing utility functions, wrappers and the code to run logic nodes.## licenseThis project is provided under the terms of _[GNU General Public License v2 (GPLv2)](LICENSE)_.# Licenseuplogic uses the GNU General Public License v2, which describes the rightsto distribute or change the code. Please read this file for the full license.GPL-license.txt</longdescription>
+</pkgmetadata>

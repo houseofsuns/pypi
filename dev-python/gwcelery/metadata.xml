@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image:: https://gwcelery.readthedocs.io/en/latest/_static/logo-0.5x.png   :alt: GWCelery logoGWCelery========GWCelery is a simple and reliable package for annotating and orchestratingLIGO/Virgo alerts, built from widely used open source components.See the `quick start installation instructions &lt;https://gwcelery.readthedocs.io/en/latest/quickstart.html&gt;`_,the full `documentation &lt;https://gwcelery.readthedocs.io/en/latest/&gt;`_, or the`contributing guide &lt;https://gwcelery.readthedocs.io/en/latest/contributing.html&gt;`_.Features--------- `Easy installation with pip &lt;https://gwcelery.readthedocs.io/en/latest/quickstart.html&gt;`_- Lightning fast distributed task queue powered by  `Celery &lt;http://celeryproject.org&gt;`_ and `Redis &lt;https://redis.io&gt;`_- Tasks are defined by `small, self-contained Python functions &lt;https://git.ligo.org/emfollow/gwcelery/tree/main/gwcelery/tasks&gt;`_- `Lightweight test suite &lt;https://git.ligo.org/emfollow/gwcelery/tree/main/gwcelery/tests&gt;`_ using mocks of external services- `Continuous integration &lt;https://git.ligo.org/emfollow/gwcelery/pipelines&gt;`_- `One environment variable to switch from playground to production GraceDB server &lt;https://gwcelery.readthedocs.io/en/latest/configuration.html&gt;`_- `Browser-based monitoring console &lt;https://gwcelery.readthedocs.io/en/latest/monitoring.html&gt;`_</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># E-boekhouden-Python API clientThis is a simple API client for the E-boekhouden.nl API. It is written in Python and uses the ZEEP library. This library is partly inspired by work of Roel van den Boom.## Installation and basic configurationTo install the library, simply run the following command:```bashpip install eboekhouden-python```To use the library, you need to configure it with your API credentials. While you can add these credentials as parameters to the class constructor, it is recommended to use environment variables. The following environment variables are automatically recognized by the library:```bashEBOEKHOUDEN_USERNAME=your_usernameEBOEKHOUDEN_CODE1=your_code_1EBOEKHOUDEN_CODE2=your_code_2```## UsageThe library is very simple to use. The following example shows how to retrieve a list of all mutations:```pythonfrom eboekhouden_python import EboekhoudenClientclient = EboekhoudenClient()mutations = client.get_mutaties()```## DevelopmentFeel free to extend the library, pull requests are welcome. For a development environment, you can use the following commands:```bashconda env create -f environment.ymlpoetry installpre-commit install```</longdescription>
+</pkgmetadata>

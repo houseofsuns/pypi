@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>common-tags |pypi version|------------------------------.. |pypi version|   image:: https://img.shields.io/pypi/v/common-tags.svg?style=flat-square   :target: https://pypi.python.org/pypi/common-tags.. image:: https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square   :target: https://raw.githubusercontent.com/agusmakmun/common-tags/master/LICENSE.. image:: https://img.shields.io/pypi/pyversions/common-tags.svg?style=flat-square   :target: https://pypi.python.org/pypi/common-tags.. image:: https://img.shields.io/badge/Django-1.8,%201.9,%201.10-green.svg?style=flat-square  :target: https://www.djangoproject.comCommon templatetags provides for Django.Installation------------------------------Common Tags is available directly from `PyPI`_:1. Installing the package.::    $ pip install common-tags2. Don't forget to add ``'common'`` to your ``'INSTALLED_APPS'`` setting `(without migrations)`.::    # settings.py    INSTALLED_APPS = [        ....        'common',    ]Usage in template------------------------------::    {% load common_tags %}For complete usage, see `common/templatetags/common_tags.py`_Contributing------------------------------Feel free to `open a bug`_ or `contribute to code`_ !.. _PyPI: https://pypi.python.org/pypi/common-tags.. _common/templatetags/common_tags.py: https://github.com/agusmakmun/common-tags/blob/master/common/templatetags/common_tags.py.. _open a bug: https://github.com/agusmakmun/common-tags/issues.. _contribute to code: https://github.com/agusmakmun/common-tags/pulls</longdescription>
+</pkgmetadata>

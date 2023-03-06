@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Patchwork ContribSet of tools and helpers to integrate [Patchwork](https://patchwork-framework.gitlab.io/core) with externallibraries.## Warning!Current project state should be considered as Proof-of-Concept. This framework is based on working solution which handles 100+ services and hundreds of events per second,however it's written from scratch and fully asynchronous in opposite to original one which is fully synchronous. There is no guarantee that this framework pass performance tests and will be useful.https://patchwork-framework.gitlab.io/contrib</longdescription>
+</pkgmetadata>

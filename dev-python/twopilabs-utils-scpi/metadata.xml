@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>SCPI abstraction for SCPI commands and parameters=================================================This is a very rudimentary implementation of a SCPI abstraction/command+parameter interface for SCPI devicesSeveral features are not implemented (yet) and parsing is often not fully waterproof.</longdescription>
+</pkgmetadata>

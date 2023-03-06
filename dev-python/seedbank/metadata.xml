@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Python Seed ManagerPython programs, particularly data science applications, often need tointeract with multiple different random number generators.This package provides a unified interface to seeding them, along withAPIs for deriving additional RNG seeds in a predictable way (using NumPy1.17's new random infrastructure) and constructing random generators.## Quick StartTo get started, just use the seedbank.initialize() function to seed all available random number generators:```pythonimport seedbankseedbank.initialize(65000)```SeedBank will seed all of the known generators that will be available, including:- Python standard random- NumPy legacy random `numpy.random`- PyTorch (with torch.manual_seed())- Numba’s NumPy random- TensorFlow (with tf.random.set_seed())In addition, it will initialize a root seed for constructing new-style NumPy `Generator` instances.If SeedBank doesn’t support your RNG yet, please submit a pull request!## Developing SeedBankSeedBank uses Flit for managing dependencies.  To set up in a freshvirtual environment:    python -m pip install flit    flit install --pth-file[conda-lock][] can help you set up a Conda environment (replace `linux-64` with your platform):    # install conda-lock in base environment    # alternatively: pip install conda-lock    conda install -c conda-forge conda-lock    # create the lock file    conda-lock -p linux-64 -f pyproject.toml    # create the environment    conda env create -n seedbank -f conda-linux-64.lock</longdescription>
+</pkgmetadata>

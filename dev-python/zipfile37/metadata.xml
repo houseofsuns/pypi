@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This is a backport of the zipfile module from Python 3.7, which contains someimprovements. Cloned from the 3.6 backport of Thomas Kluyver (https://gitlab.com/takluyver/zipfile36).Installation::    pip install zipfile37Suggested usage:.. code:: python    if sys.version_info &gt;= (3, 7):        import zipfile    else:        import zipfile37 as zipfile</longdescription>
+</pkgmetadata>

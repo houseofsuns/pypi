@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;!--https://readme42.com--&gt;[![](https://img.shields.io/pypi/v/runcmd.svg?maxAge=3600)](https://pypi.org/project/runcmd/)[![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)### Installation```bash$ [sudo] pip install runcmd```#### Examples```python&gt;&gt;&gt; import runcmd&gt;&gt;&gt; r = runcmd.run([&quot;echo&quot;, &quot;hello world&quot;])&gt;&gt;&gt; r.code  # exit status code0&gt;&gt;&gt; r.out  # stdout'hello world'&gt;&gt;&gt; r.err  # stderr''&gt;&gt;&gt; r.pid  # process pid1234````background=True````python&gt;&gt;&gt; r = runcmd.run([&quot;sleep&quot;,&quot;5&quot;],background=True)&gt;&gt;&gt; while r.running:  # True if process is running and not &quot;zombie process&quot;&gt;&gt;&gt;     print(&quot;running&quot;)````kill(signal=None)` - kill process```python&gt;&gt;&gt; r.kill(-9)````exc()` - raise exception if code is not `0````python&gt;&gt;&gt; runcmd.run([&quot;ls&quot;]).exc()              # code 0, ok&gt;&gt;&gt; runcmd.run([&quot;mkdir&quot;, &quot;/&quot;]).exc()      # code 1, raise OSError...OSError: exited with code 1mkdir: /: Is a directory```&lt;p align=&quot;center&quot;&gt;    &lt;a href=&quot;https://readme42.com/&quot;&gt;readme42.com&lt;/a&gt;&lt;/p&gt;</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## cURL2cURL code convert to some programming languages.Thanks for curlconverter!Currently supported languages: go, python, node, php, r, strest, rust, elixir, dart, json, ansible, matlab, etc.## Install curl2```pip3 install -U curl2```## How to use### Python```curl2 -c &quot;curl https://leesoar.com&quot;```* OutPut```pythonimport requestsresponse = requests.get('https://leesoar.com/')```### Go```curl2 -c &quot;curl https://leesoar.com -l go&quot;```* OutPut```gopackage mainimport (        &quot;fmt&quot;        &quot;io/ioutil&quot;        &quot;log&quot;        &quot;net/http&quot;)func main() {        client := &amp;http.Client{}        req, err := http.NewRequest(&quot;GET&quot;, &quot;https://leesoar.com&quot;, nil)        if err != nil {                log.Fatal(err)        }        resp, err := client.Do(req)        if err != nil {                log.Fatal(err)        }        bodyText, err := ioutil.ReadAll(resp.Body)        if err != nil {                log.Fatal(err)        }        fmt.Printf(&quot;%s\n&quot;, bodyText)}```### node```curl2 -c &quot;curl https://leesoar.com -l node&quot;```* OutPut```nodevar request = require('request');var options = {    url: 'https://leesoar.com'};function callback(error, response, body) {    if (!error &amp;&amp; response.statusCode == 200) {        console.log(body);    }}request(options, callback);```### php```curl2 -c &quot;curl https://leesoar.com -l php&quot;```* OutPut```php&lt;?phpinclude('vendor/rmccue/requests/library/Requests.php');Requests::register_autoloader();$headers = array();$response = Requests::get('https://leesoar.com', $headers);```</longdescription>
+</pkgmetadata>

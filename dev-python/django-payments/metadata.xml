@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>django-payments===============.. image:: https://jazzband.co/static/img/badge.svg  :target: https://jazzband.co/  :alt: Jazzband.. image:: https://github.com/jazzband/django-payments/workflows/Test/badge.svg   :target: https://github.com/jazzband/django-payments/actions   :alt: GitHub Actions.. image:: https://codecov.io/gh/jazzband/django-payments/branch/main/graph/badge.svg  :target: https://codecov.io/gh/jazzband/django-payments  :alt: Build coverage.. image:: https://readthedocs.org/projects/django-payments/badge/?version=latest  :target: http://django-payments.readthedocs.io/en/latest/?badge=latest  :alt: Documentation Status.. image:: https://img.shields.io/pypi/v/django-payments.svg  :target: https://pypi.python.org/pypi/django-payments  :alt: version on pypi.. image:: https://img.shields.io/pypi/dm/django-payments.svg  :target: https://pypi.python.org/pypi/django-payments  :alt: downloads.. image:: https://img.shields.io/pypi/l/django-payments.svg  :target: https://github.com/jazzband/django-payments/blob/main/LICENSE  :alt: licenceUniversal payment handling for DjangoDocumentation: https://django-payments.readthedocs.org/Additional payment providers----------------------------* `BNL POSitivity (BNP Paribas) &lt;https://github.com/esistgut/django-payments-bnlepos&gt;`_* `Redsys (formerly known as Sermepa) &lt;https://github.com/ajostergaard/django-payments-redsys&gt;`_* `Razorpay &lt;https://github.com/NyanKiyoshi/django-payments-razorpay/&gt;`_* `PayU &lt;https://github.com/PetrDlouhy/django-payments-payu/&gt;`_</longdescription>
+</pkgmetadata>

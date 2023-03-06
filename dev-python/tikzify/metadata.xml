@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=======Tikzify=======.. image:: https://badge.fury.io/py/tikzify.svg    :target: https://badge.fury.io/py/tikzify.. role:: bash(code)    :language: bashA set of utilities for programmatically generating TikZ code.Contribution guidelines=======================- Conventions  - Naming conventions are according to PEP8.- How to clean the source:  - :bash:`isort .`  - :bash:`pylint tikzify`  - :bash:`flake8 tikzify`Running=======- This macro is helpful for running examples:.. code-block:: bash    function dm {        python &quot;$1.py&quot; $2 &amp;&amp; pdflatex -shell-escape $1 &amp;&amp; open $1.pdf    }- The basal ganglia example can be run by doing :bash:`dm basal_ganglia` from the examples folder.  It should produce :bash:`examples/basal_ganglia.pdf`, which shows all of the output, as well as :bash:`examples/figures/basal_ganglia-*.pdf`, which are the individual diagrams to be included.- A copy of the `pdf &lt;examples/basal_ganglia.pdf&gt;` is provided.  It shows three programmatically-generated diagrams, with various sections highlighted.Whom do I talk to?==================- Neil Girdhar</longdescription>
+</pkgmetadata>

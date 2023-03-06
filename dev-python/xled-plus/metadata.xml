@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>XLED Plus provides addons to the XLED package. Whereas XLED provides apython interface to Twinkly led lights, XLED Plus provides classes andfunctions to make it easier to produce various effects on the lightsentirely from python: still or animated, simple or advanced,prerecorded or created in real time.</longdescription>
+</pkgmetadata>

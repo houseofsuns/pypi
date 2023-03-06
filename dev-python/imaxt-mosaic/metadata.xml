@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># IMAXT Mosaic PipelineThe IMAXT mosaic pipeline produces stitched images from tile observations.Currently we support two instruments: Serial Two-Photon Tomography (STPT)and AXIOScan. Note that raw data (typically in the form of TIFF images) need to be convertedto Zarr format first using e.g. [stpt2zarr](https://pypi.org/project/stpt2zarr/)or [axio2zarr](https://pypi.org/project/axio2zarr/).## Pipeline Definition FileIn order to run the pipeline you need a YAML file as follows:```version: 1name: imaxt-mosaicinput_path: /storage/imaxt/raw/stpt/20211020_PDX_STG139_GFP_029621_100x15umoutput_path: /storage/imaxt/processed/stpt/20211020_PDX_STG139_GFP_029621_100x15umstitcher: stptrecipes:  - calibration  - mosaic  - beadfitresources:  cpu: 16  workers: 1  memory: 48```### Execute locally with OwlIn order to run the pipeline locally, install as follows:```pip install imaxt-mosaic owl-pipeline-client```and execute:```owl execute pipeline.yaml```### Remote executionTo execute the pipeline using a remote Owl server it is not needed to installthe module locally. Just submit as:```owl submit pipeline.yaml```</longdescription>
+</pkgmetadata>

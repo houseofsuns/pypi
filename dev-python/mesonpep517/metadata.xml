@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># mesonpep517This is a simple module that implements pep517 for the [meson] build system.This means that you only need to provide a `pyproject.toml` in your projectsource root to be able to publish your project built with meson on PyPiand to create a wheel for the project.For more information have a look at [the documentation](https://thiblahute.gitlab.io/mesonpep517/)[meson]: https://mesonbuild.com</longdescription>
+</pkgmetadata>

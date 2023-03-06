@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># aws-utilsA collection of simple python modules that interact with various aws services.This Is intended to be a pip installable package.Its has nice abstractions of boto, the de facto python library for interfacing with aws services</longdescription>
+</pkgmetadata>

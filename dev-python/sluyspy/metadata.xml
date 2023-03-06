@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># sluyspy #![PyPI](https://img.shields.io/pypi/v/sluyspy?color=%230A0) ![PyPI -Downloads](https://img.shields.io/pypi/dm/sluyspy) [![DocumentationStatus](https://readthedocs.org/projects/sluyspy/badge/?version=latest)](https://sluyspy.readthedocs.io/en/latest/?badge=latest)![PyPI - License](https://img.shields.io/pypi/l/sluyspy?color=%230A0)Marc van der Sluys' personal Python modules.The code is being developed by [Marc van der Sluys](http://marc.vandersluys.nl) of the department ofAstrophysics at the Radboud University Nijmegen, the Institute of Nuclear and High-Energy Physics (Nikhef),and the Institute for Gravitational and Subatomic Physics (GRASP) at Utrecht University, all in TheNetherlands.  The sluyspy package can be used under the conditions of the [EUPL 1.2](https://www.eupl.eu/1.2/en/) licence.## Installation ##This package can be installed using `pip install sluyspy`.  This should automatically install thedependency packages `numpy`, `pandas` and `matplotlib`, if they haven't been installed already.  If you areinstalling by hand, ensure that these packages are installed as well.## Example use ##```python&quot;&quot;&quot;Example Python script using the sluyspy package.&quot;&quot;&quot;import sluyspy```## sluyspy pages ##* [Pypi](https://pypi.org/project/sluyspy/): sluyspy Python package* [GitHub](https://github.com/MarcvdSluys/sluyspy/): sluyspy source code* [ReadTheDocs](https://sluyspy.readthedocs.io/): sluyspy documentation## Author and licence ##* Author: Marc van der Sluys* Contact: http://marc.vandersluys.nl* Licence: [EUPL 1.2](https://www.eupl.eu/1.2/en/)## References ##&lt;sub&gt;Copyright (c) 2022-2023 Marc van der Sluys&lt;/sub&gt;</longdescription>
+</pkgmetadata>

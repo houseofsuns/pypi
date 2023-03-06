@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Framework EMULSION is intended for modellers in epidemiology, to helpthem design, simulate, and revise complex mechanistic stochasticmodels, without having to write or rewrite huge amounts of code.It comes with a *Domain-Specific Language* to represent all componentsof epidemiological models (assumptions, model structure,parameters...) in an explicit, intelligible and revisable way, andthus facilitate interactions with other scientists (biologists,veterinarians, economists...) throughout the modellingprocess. EMULSION models are automatically processed by a modularsimulation engine, which, if needed, can also incorporate small codeadd-ons for representing very specific features of a model.Models can use classical modelling paradigms (compartments,individual-based models, metapopulations) and multiple scales (fromindividuals to metapopulations), thanks to recent research inArtificial Intelligence.</longdescription>
+</pkgmetadata>

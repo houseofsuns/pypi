@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># CaraML Google AuthenticationUtility package containing functions to authenticate users of the Python SDKs of CaraML.## InstallationAs this package currently only contains utility functions, and is not released to the PyPI repository, using helper functions contained in this package requires installing/specifying this package as a Git (VCS) dependency:To install via `pip`:```shellpip install git+https://github.com/caraml-dev/caraml-sdk.git@main#egg=caraml-auth-google&amp;subdirectory=packages/caraml-auth-google```To specify this in a `requirements.txt` file:```txtcaraml-auth-google @ git+https://github.com/caraml-dev/caraml-sdk.git@main#egg=caraml-auth-google&amp;subdirectory=packages/caraml-auth-google```## Unit TestsTo run the unit tests, run the following command:```shellmake test```</longdescription>
+</pkgmetadata>

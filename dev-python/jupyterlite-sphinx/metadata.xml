@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># JupyterLite SphinxA Sphinx extension that provides utilities for embedding [JupyterLite](https://jupyterlite.readthedocs.io) in your documentation.## Docshttps://jupyterlite-sphinx.readthedocs.io## ExamplePractical examples are in the [ipycanvas](https://ipycanvas.readthedocs.io) and [ipyleaflet](https://ipyleaflet.readthedocs.io) documentation.## Installation:```bashpip install jupyterlite-sphinx```</longdescription>
+</pkgmetadata>

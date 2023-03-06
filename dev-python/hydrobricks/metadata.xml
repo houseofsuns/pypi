@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># hydrobricksA modular hydrological modelling framework**This is a very preliminary code base that is not doing much yet...**## TestingDuring development, the package must be installed before being tested:```shellpip install -e .pytest ./tests/```</longdescription>
+</pkgmetadata>

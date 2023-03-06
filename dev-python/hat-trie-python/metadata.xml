@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># hat-trie-pythonPython wrapper for https://github.com/Tessil/hat-trie (MIT License)It's still incomplete, not all functionality is supported. Sets are not implemented yet.Tested on Linux 2.7+, Windows 3.5+, MacOS 2.7+. It should work on Windows 2.7 also, however it's tricky to compile.## Install- `pip install hattrie` (requires Cython and a C++11 compiler)## Example usage:```from hattrie import HatTrieMaphtm = HatTrieMap()htm[b&quot;/foo&quot;] = b&quot;1&quot;htm[b&quot;/foo/bar&quot;] = b&quot;2&quot;print(list(htm.longest_prefix(b&quot;/foo&quot;))) # returns [(b'/foo', b'1')]print(list(htm.longest_prefix(b&quot;/foo/baz&quot;))) # returns [(b'/foo', b'1')]print(list(htm.longest_prefix(b&quot;/foo/bar/baz&quot;))) # returns [(b'/foo/bar', b'2'), (b'/foo', b'1')]print(list(htm.longest_prefix(b&quot;/foo/bar/&quot;))) # returns [(b'/foo/bar', b'2'), (b'/foo', b'1')]print(list(htm.longest_prefix(b&quot;/bar&quot;))) # returns []print(list(htm.longest_prefix(b&quot;&quot;))) # returns []```Any Python object is supported as value, however only bytes are supported as keys.</longdescription>
+</pkgmetadata>

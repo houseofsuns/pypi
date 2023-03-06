@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># camomilla cms [![PyPI](https://img.shields.io/pypi/v/django-camomilla-cms?style=flat-square)](https://pypi.org/project/django-camomilla-cms) ![Codecov](https://img.shields.io/codecov/c/github/lotrekagency/camomilla?style=flat-square) ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/lotrekagency/camomilla/Test,%20Coverage%20and%20Release?style=flat-square) [![GitHub](https://img.shields.io/github/license/lotrekagency/camomilla?style=flat-square)](./LICENSE)## Install$ pip install -r requirements.txt## SettingsCamomilla brings a lot of default settings you can include in your project's ones    from camomilla.defaults import *Remember to add all the required applications in your project    INSTALLED_APPS = [        ...        'rest_framework',        'rest_framework.authtoken',        'camomilla',        'hvad',        ...    ]## Run the server    $ python manage.py runserver## Run tests    pip install -r requirements-dev.txt    make test## Don't fear the hvaderFeel free to make your models untranslatable, [we have a nice solution for them](https://github.com/lotrekagency/hvad-migration)</longdescription>
+</pkgmetadata>

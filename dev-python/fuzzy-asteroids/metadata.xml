@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Fuzzy AsteroidsThis repository is a dependency for the [Explainable Fuzzy Challenge](https://xfuzzycomp.github.io/XFC/). in which it is used as the simulation environment for the development of Fuzzy Logic AIs by competitors.## DependenciesThe Python Arcade Library is the primary dependency for this repo and is used for creating the environmentfor the game. ## InstallingTo install the Fuzzy Asteroids environment inside your Python environment, we recommend using the following    pip install fuzzy-asteriodsOr you could always add the following to your project's ``requirements.txt`` file:and simply use    pip install -r requirements.txtWe recommend tracking your project dependencies ## UpgradingSince this package is ``pip`` installed as a git repository, you can do an upgrade of this repository    pip install --upgrade --force-reinstall -r requirements.txt</longdescription>
+</pkgmetadata>

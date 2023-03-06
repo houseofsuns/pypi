@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># sqlflow [![Build Status](https://travis-ci.org/sql-machine-learning/pysqlflow.svg?branch=develop)](https://travis-ci.org/sql-machine-learning/pysqlflow) [![PyPI Package](https://img.shields.io/pypi/v/sqlflow.svg)](https://pypi.python.org/pypi/sqlflow)[SQLFlow](https://github.com/sql-machine-learning/sqlflow) client library for Python.## InstallationThis package is available on PyPI as `pysqlflow`. So you can install it by running the following command:    pip install sqlflow## DocumentationYou can read the Sphinx generated docs at:[http://sql-machine-learning.github.io/pysqlflow/](http://sql-machine-learning.github.io/pysqlflow/)## Development## Prerequisite### Python 3`brew install python`### Setup Environment`make setup`### Test`make test`### Release`make release`### Generate Documentation`make doc`### Generate GRPC clientGRPC client code has been generated when you setup environment. If you would like to regenerate it, please run `make protoc`.</longdescription>
+</pkgmetadata>

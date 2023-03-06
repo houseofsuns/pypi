@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image:: https://github.com/easybuilders/easybuild/raw/develop/logo/png/easybuild_logo_2022_horizontal_dark_bg_transparent.png   :align: center   :height: 400px.. image:: https://github.com/easybuilders/easybuild-easyconfigs/workflows/easyconfigs%20unit%20tests/badge.svg`EasyBuild &lt;https://easybuild.io&gt;`_ is a software buildand installation framework that allows you to manage (scientific) softwareon High Performance Computing (HPC) systems in an efficient way.The **easybuild-easyconfigs** package provides a collection of well-testedexample *easyconfig files* for EasyBuild.Easyconfig files are used to specify which software to build, whichversion of the software (and its dependencies), which build parametersto use (e.g., which compiler toolchain to use), etc.The EasyBuild documentation is available at http://docs.easybuild.io/.The easybuild-easyconfigs package is hosted on GitHub, alongwith an issue tracker for bug reports and feature requests, seehttps://github.com/easybuilders/easybuild-easyconfigs.Related Python packages:* **easybuild-framework**  * the EasyBuild framework, which includes the ``easybuild.framework`` and ``easybuild.tools`` Python    packages that provide general support for building and installing software  * GitHub repository: https://github.com/easybuilders/easybuild-framework  * PyPi: https://pypi.python.org/pypi/easybuild-framework* **easybuild-easyblocks**  * a collection of easyblocks that implement support for building and installing (groups of) software packages  * GitHub repository: https://github.com/easybuilders/easybuild-easyblocks  * package on PyPi: https://pypi.python.org/pypi/easybuild-easyblocks</longdescription>
+</pkgmetadata>

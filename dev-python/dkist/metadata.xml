@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>DKIST User Tools----------------.. image:: http://img.shields.io/badge/powered%20by-SunPy-orange.svg?style=flat    :target: http://www.sunpy.org    :alt: Powered by SunPy BadgeA Python library of tools for obtaining, processing and interacting with DKISTdata.License-------This project is Copyright (c) NSO / AURA and licensed underthe terms of the BSD 3-Clause license. This package is based uponthe `Astropy package template &lt;https://github.com/astropy/package-template&gt;`_which is licensed under the BSD 3-clause licence. See the licenses folder formore information.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Install with `pip install yeonji`# borgsizeLists sizes of all backups in a borg repository. Type `borgsize *repopath*`, e.g. `borgsize ~/myrepos/coolrepo`.# flaccoFlacco is a simple tool for organizing CD rips from cdparanoia. It renames the flac files (or converts from wav files) and tags them with the desired title in one step. Type `flacco *num* *title*`, e.g. `flacco 1 &quot;As If It's Your Last&quot;`.[AUR](https://aur.archlinux.org/packages/flacco/)# fscleanClean unicode filenames in a directory tree. Use `--dryrun` to check what would be renamed. Existing files will not be overwritten.# me2dlcInstalls ME2 DLCs from exe files on Linux using Steam Proton. Navigate to directory with files, then run `me2dlc`. Requires protontricks.# ytdQuickly downloads videos with predefined settings. Use `ytd *URL*` to download to current folder, `ytd -p *preset* *URL*` to download to a preset, and `ytd -n *preset*` (in the target directory) to define new preset. You can specifiy additional options in configuration files in the target folder and all its parent folders.# ytdljMerges any number of local files / youtube videos into a new file. Type `ytdlj *URLs/files* *outputname*`, e.g. `ytdlj party1.mkv ../party2.mkv https://www.youtube.com/watch?v=b3_lVSrPB6w fullvideo.mkv`.# yttagDownload a video's audio and immediately id3-tag it according to command line arguments or supplied files. The script will look for `artist`,`albumartist`,`album` and `title` in `metadata.yml` files in this directory and up to three parent directories, but the command line flags will always have preference.</longdescription>
+</pkgmetadata>

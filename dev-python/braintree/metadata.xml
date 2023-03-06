@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>        The Braintree Python SDK provides integration access to the Braintree Gateway.        1. https://github.com/braintree/braintree_python - README and Samples        2. https://developer.paypal.com/braintree/docs/reference/overview - API Reference      </longdescription>
+</pkgmetadata>

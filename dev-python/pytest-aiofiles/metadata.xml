@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pytest-aiofiles===============.. image:: https://img.shields.io/circleci/project/github/ptpb/pytest-aiofiles.svg   :target: https://circleci.com/gh/ptpb/pytest-aiofiles.. image:: https://img.shields.io/codecov/c/github/ptpb/pytest-aiofiles.svg   :target: https://codecov.io/gh/ptpb/pytest-aiofiles.. image:: https://img.shields.io/pypi/v/pytest-aiofiles.svg   :target: https://pypi.org/project/pytest-aiofilespytest-aiofiles provides pytest fixtures for writing aiofiles testsusing pyfakefs, instead of real file IO.Features--------- fake filesystem fixture attached to aiofiles- automatic aiofiles monkey-patchingDocumentation-------------http://pytest-aiofiles.readthedocs.io/Source code-----------http://github.com/ptpb/pytest-aiofiles</longdescription>
+</pkgmetadata>

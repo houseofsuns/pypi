@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># python-geoacumen## Installation```pip install python-geoacumen```## Usage```&gt;&gt;&gt; import geoacumen&gt;&gt;&gt; import maxminddb&gt;&gt;&gt; reader = maxminddb.open_database(geoacumen.db_path)&gt;&gt;&gt; reader.get(&quot;1.1.1.1&quot;){'country': {'iso_code': 'CN'}}&gt;&gt;&gt;```</longdescription>
+</pkgmetadata>

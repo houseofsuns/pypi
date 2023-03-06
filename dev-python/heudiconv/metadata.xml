@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Convert DICOM dirs based on heuristic info - HeuDiConvuses the dcmstack package and dcm2niix tool to convert DICOM directories ortarballs into collections of NIfTI files following pre-defined heuristic(s).</longdescription>
+</pkgmetadata>

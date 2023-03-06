@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>blurhash-python===============This is an encoder for the BlurHash algorithm. To find out more about BlurHash, see https://github.com/woltapp/blurhash.Installation------------Install blurhash with pip```$ pip install blurhash-python```or pipenv```$ pipenv install blurhash-python```Usage-----Create blurhash from image file```pythonimport blurhashwith open('image.jpg', 'rb') as image_file:    hash = blurhash.encode(image_file, x_components=4, y_components=3)```Alternatively, scale the image to produce a faster hash, and create a blurhash from the in-memory image directly```pythonimport blurhashfrom PIL import Imagewith Image.open('image.jpg') as image:  image.thumbnail(( 100, 100 ))  hash = blurhash.encode(image, x_components=4, y_components=3)```You can also pass file name as parameter to the function```pythonimport blurhashhash = blurhash.encode('image.jpg', x_components=4, y_components=3)````y_components` and `x_components` parameters adjust the amount ofvertical and horizontal AC components in hashed image. Both parameters mustbe `&gt;= 1` and `&lt;= 9`.Development-----------Install development requirements and package in editable mode```$ pipenv install --dev```Tests-----Run test suite with `pytest` in virtual environment```$ pytest```Use `tox` to run test suite against all supported python versions```$ tox```</longdescription>
+</pkgmetadata>

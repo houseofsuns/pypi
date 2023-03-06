@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>******************hypothesis-fspaths******************`Hypothesis &lt;https://hypothesis.readthedocs.io/en/latest/&gt;`_ extension forgenerating filesystem paths. Anything the built-in Python function ``open()``accepts can be generated.Example=======.. code:: python    from hypothesis import given    from hypothesis_fspaths import fspaths    @given(fspaths())    def test_open_file(path):        try:            open(path).close()        except IOError:            pass.. image:: https://travis-ci.org/lazka/hypothesis-fspaths.svg?branch=master    :target: https://travis-ci.org/lazka/hypothesis-fspaths</longdescription>
+</pkgmetadata>

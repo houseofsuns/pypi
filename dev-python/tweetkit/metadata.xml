@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># [TweetKit](https://github.com/ysenarath/tweetkit)[![Documentation Status](https://readthedocs.org/projects/tweetkit/badge/?version=latest)](https://tweetkit.readthedocs.io/en/latest/?badge=latest) [![PyPI version](https://badge.fury.io/py/tweetkit.svg)](https://badge.fury.io/py/tweetkit)A python Twitter client focused mainly on Twitter API for academic research. Installation============If you have pip installed:`pip install tweetkit`From the source:```shellgit clone https://github.com/ysenarath/tweetkit.git# add path to the ./tweetkit folder in PYTHONPATHexport PYTHONPATH=&quot;${PYTHONPATH}:$(pwd)/tweetkit&quot;```</longdescription>
+</pkgmetadata>

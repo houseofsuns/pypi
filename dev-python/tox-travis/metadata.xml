@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>====================================tox-travis: Integrate tox and Travis====================================.. image:: https://img.shields.io/pypi/v/tox-travis.svg   :target: https://pypi.org/project/tox-travis/   :alt: Latest Version.. image:: https://readthedocs.org/projects/tox-travis/badge/?version=stable   :target: https://tox-travis.readthedocs.io/en/stable/?badge=stable   :alt: Documentation Status.. image:: https://travis-ci.org/tox-dev/tox-travis.svg?branch=master   :target: https://travis-ci.org/tox-dev/tox-travis.. image:: https://codecov.io/gh/tox-dev/tox-travis/branch/master/graph/badge.svg   :target: https://codecov.io/gh/tox-dev/tox-travis.. image:: https://badges.gitter.im/tox-dev/tox-travis.svg   :alt: Join the chat at https://gitter.im/tox-dev/tox-travis   :target: https://gitter.im/tox-dev/tox-travis?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge&amp;utm_content=badgetox-travis is a plugin for `tox &lt;https://pypi.org/project/tox/&gt;`_ that simplifies the setupbetween tox and Travis.Usage=====Configure the Python versions to test with in ``.travis.yml``,and install ``tox-travis`` with pip:.. code-block:: yaml    language: python    python:      - &quot;3.6&quot;      - &quot;3.7&quot;    install: pip install tox-travis    script: toxtox will only run the ``py36`` or ``py37`` env(or envs that have a factor that matches)as appropriate for the version of Pythonthat is being run by each Travis job.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>**true_encoding**==================*Usage:*--------&gt;&gt;&gt;from true_encoding.debug import debug&gt;&gt;&gt;r = requests.get('http://www.fang.com')&gt;&gt;&gt;r.encoding = debug(r)&gt;&gt;&gt;print(r.text)</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># infer-licenseHeavily inspired by https://github.com/sol/infer-license/ this will provide anAPI to guess what license a given file represents.```&gt;&gt;&gt; from infer_license import guess_file&gt;&gt;&gt; print(guess_file(&quot;LICENSE&quot;))License(name='MIT License', shortname='MIT', trove_classifier='License :: OSI Approved :: MIT License')&gt;&gt;&gt; guess_file(&quot;setup.py&quot;)None```There's also a handy `infer_license` script that takes a filename.```$ infer_license LICENSELICENSE: MIT```# Licenseinfer-license is copyright [Tim Hatch](http://timhatch.com/), and licensed underthe MIT license.  I am providing code in this repository to you under an opensource license.  This is my personal repository; the license you receive tomy code is from me and not from my employer. See the `LICENSE` file for details.</longdescription>
+</pkgmetadata>

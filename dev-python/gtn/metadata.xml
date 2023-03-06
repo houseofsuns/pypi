@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## GTN Python BindingsInstall the Python bindings with```pip install gtn```Follow these [instructions](../../README.md#python-bindings-from-source) toinstall the bindings from source.## DocumentationFor more information on the GTN package, visit the[documentation](https://gtn.readthedocs.io/).</longdescription>
+</pkgmetadata>

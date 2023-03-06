@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Ewoks: ESRF Workflow SystemMany [workflow management systems](https://s.apache.org/existing-workflow-systems) exist to deal with data processing problems that can be expressed as a graph of tasks, also referred to as a *computational graph* or *workflow*. The main purpose of a workflow management system is to provide a framework for implementing tasks, creating graphs of tasks and executing these graphs.The purpose of *ewoks* is to provide an abstraction layer between graph representation and execution. This allows using the same tasks and graphs in different workflow management systems. *ewoks* itself is **not** a workflow management system.## Install```bashpip install ewoks[orange,dask,ppf,test]```## Test```bashpytest --pyargs ewoks.tests```## Getting startedWorkflows can be executed from the command line```bashewoks execute /path/to/graph.json [--engine dask]```or for an installation with the system python```bashpython3 -m ewoks execute /path/to/graph.json [--engine dask]```Workflows can also be executed from python```pythonfrom ewoks import execute_graphresult = execute_graph(&quot;/path/to/graph.json&quot;, engine=&quot;dask&quot;)```When no engine is specified it will use sequential execution from `ewokscore`.## Documentationhttps://ewoks.readthedocs.io/</longdescription>
+</pkgmetadata>

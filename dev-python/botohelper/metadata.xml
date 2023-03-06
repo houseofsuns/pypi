@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># README.mdTo install:1. run shell script install_botohelper2. setup the local_settings.py file according to what the install script tells you3. run any of the other shell scripts in the root of the repo with -h to see what they do</longdescription>
+</pkgmetadata>

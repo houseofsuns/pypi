@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=========================Core Federated Search App=========================Federated search backend for the curator core project.Quick start===========1. Add &quot;core_federated_search_app&quot; to your INSTALLED_APPS setting-----------------------------------------------------------------.. code:: python    INSTALLED_APPS = [      'oauth2_provider',      'core_federated_search_app',    ]2. Include the core_federated_search_app URLconf in your project urls.py------------------------------------------------------------------------.. code:: python    url(r'^o/', include('oauth2_provider.urls', namespace='oauth2_provider')),    url(r'^federated/search/', include(&quot;core_federated_search_app.urls&quot;)),</longdescription>
+</pkgmetadata>

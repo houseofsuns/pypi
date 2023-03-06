@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ewoksjobUtilities for job scheduling of [ewoks](https://ewoks.readthedocs.io/) workflows.Ewoksjob provides an ewoks interface for asynchronous and distributed scheduling of [ewoks](https://ewoks.readthedocs.io/) from python.Note that *ewoksjob* distributes the execution of workflows while [ewoksdask](https://ewoks.readthedocs.io/)distributes the execution of tasks in a workflow. So in the context of workflows, job scheduling exists on two levels.The primary clients that need to schedule workflows are* [Ewoksserver](https://gitlab.esrf.fr/workflow/ewoks/ewoksserver): web backend for ewoks.* [Bliss](https://gitlab.esrf.fr/bliss/bliss): the ESRF beamline control system.* [Daiquiri](https://gitlab.esrf.fr/ui/daiquiri): web backend for Bliss.## InstallationInstall on the client side```bashpip install ewoksjob```Install on the worker side```bashpip install ewoksjob[worker]```## Getting startedStart a worker pool that can execute ewoks graphs```bashewoksjob worker```Start a workflow on the client side```pythonfrom ewoksjob.client import submitworkflow = {&quot;graph&quot;: {&quot;id&quot;: &quot;mygraph&quot;}}future = submit(args=(workflow,))result = future.get()```Note that both environments need to be able to import `celeryconfig` whichcontains celery configuration (mainly the message broker and result backend URL's).## Hello world exampleClone the git repository and start a worker pool```bashscripts/worker.sh --sql```Submit workflows```bashscripts/runjobs.sh --sql```## Tests```bashpytest --pyargs ewoksjob```To run the redis tests you need `redis-server` (e.g. `conda install redis-server`).## Documentationhttps://ewoksjob.readthedocs.io/</longdescription>
+</pkgmetadata>

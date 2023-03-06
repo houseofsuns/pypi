@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Sigma ToolsThis package contains the following tools for [Sigma](https://github.com/SigmaHQ/sigma):* `sigmac`: the Sigma converter* `merge_sigma`: Merge a Sigma collection into a minimal set of Sigma rules* `sigma2misp`: Import Sigma rules into MISP* `sigma2attack`: Create a MITRE ATT&amp;CK® coverage map* `sigma_similarity`: Measure similarity of Sigma rules* `sigma_uuid`: Check Sigma identifiers</longdescription>
+</pkgmetadata>

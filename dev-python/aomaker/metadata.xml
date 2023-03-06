@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># AOMaker*AOMaker* means &quot;api object maker&quot;,yes,It can help you play your API like building blocks !## Design Philosophy- Based on the design idea of api object- Anything is modularized and abstracted- Return to the coding,balance generality and flexibility## Key Features- integrate *requests,pytest,allure*- layered structure:base api--api definition--api object--case--testcase--testdata- Import custom fixture automatically- generate api object automatically by *swagger*- generate testcase automatically by *api object*- Switch test environment with one click- CLI command supported</longdescription>
+</pkgmetadata>

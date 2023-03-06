@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Python bindings for the snappy compression library from Google.More details about Snappy library: http://code.google.com/p/snappyThis package is statically built against the snappy codebase so that we do notneed to ship libsnappy.so together with the python module. This makes it easierto host on PyPi.</longdescription>
+</pkgmetadata>

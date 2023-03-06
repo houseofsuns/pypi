@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>================ Jobbergate API================The Jobbergate API provides a RESTful interface over the Jobbergate data and is usedby both the ``jobbergate-agent`` and the ``jobbergate-cli`` to view and manage theJobbergate resources.Jobbergate API is a Python project implemented with`FastAPI &lt;https://fastapi.tiangolo.com/&gt;`_. Its dependencies and environment aremanaged by `Poetry &lt;https://python-poetry.org/&gt;`_.It integrates with an OIDC server to provide identity and auth for its endpoints.See also:* `jobbergate-cli &lt;https://github.com/omnivector-solutions/jobbergate/jobbergate-cli&gt;`_License-------* `MIT &lt;LICENSE&gt;`_Copyright---------* Copyright (c) 2020 OmniVector Solutions &lt;info@omnivector.solutions&gt;</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Python util funcsThis is a collection of python functions that I use in my projects.To install [the package](https://pypi.org/project/hkkang-utils/):```bashpip install hkkang_utils```</longdescription>
+</pkgmetadata>

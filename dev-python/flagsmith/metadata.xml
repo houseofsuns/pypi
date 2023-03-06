@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;img width=&quot;100%&quot; src=&quot;https://github.com/Flagsmith/flagsmith/raw/main/static-files/hero.png&quot;/&gt;# Flagsmith Python SDK&gt; Flagsmith allows you to manage feature flags and remote config across multiple projects, environments and organisations.The SDK for Python applications for [https://www.flagsmith.com/](https://www.flagsmith.com/).## Adding to your projectFor full documentation visit [https://docs.flagsmith.com/clients/server-side](https://docs.flagsmith.com/clients/server-side).## ContributingPlease read [CONTRIBUTING.md](https://gist.github.com/kyle-ssg/c36a03aebe492e45cbd3eefb21cb0486) for details on our code of conduct, and the process for submitting pull requests## Getting HelpIf you encounter a bug or feature request we would like to hear about it. Before you submit an issue please search existing issues in order to prevent duplicates.## Get in touchIf you have any questions about our projects you can email &lt;a href=&quot;mailto:support@flagsmith.com&quot;&gt;support@flagsmith.com&lt;/a&gt;.## Useful links[Website](https://www.flagsmith.com/)[Documentation](https://docs.flagsmith.com/)</longdescription>
+</pkgmetadata>

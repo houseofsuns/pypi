@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image:: https://travis-ci.org/codysoyland/surlex.png?branch=master    :target: https://travis-ci.org/codysoyland/surlexSurlex (Simple URL Expression) is a language for matching and extracting text, similar to regex (regular expression). It works by generating a regular expression from a more concise syntax that is designed to produce easy-to-read url patterns.Documentation is available as RestructuredText in the &quot;docs&quot; directory. HTML documentation is at:http://codysoyland.com/projects/surlex/documentation/A tutorial also exists at:http://codysoyland.com/blog/2009/sep/6/introduction-surlex/Installation:Download and extract the tarball and run &quot;python setup.py install&quot;or.. install with PyPI/pip by running &quot;pip install surlex&quot;</longdescription>
+</pkgmetadata>

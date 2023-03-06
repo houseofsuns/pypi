@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Digg-like paginator for Django.Originaly posted on Django snippets site by miracle2k http://blog.elsdoerfer.name/https://djangosnippets.org/snippets/773/To setup use pip install django_digg_paginatorCan be used with generic ListView as simple asfrom digg_paginator import DiggPaginatorclass MyCustomView(ListView):    paginator_class = DiggPaginatorand addig a temaplate like in origial django snippet info</longdescription>
+</pkgmetadata>

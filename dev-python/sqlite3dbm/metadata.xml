@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>sqlite3dbm==========Description===========This module provides a sqlite-backed dictionary conforming to the dbminterface, along with a shelve class that wraps the dict and providesserialization for it.Installation============* pip install sqlite3dbm* easy_install sqlite3dbmTesting=======* `testify tests` from the root directoryLinks=====* source &lt;http://github.com/Yelp/sqlite3dbm/&gt;* documentation &lt;http://packages.python.org/sqlite3dbm/&gt;</longdescription>
+</pkgmetadata>

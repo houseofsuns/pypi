@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># BgmiGet## How to Install```pip install bgmiget```## Basic UsageSearch anime by &quot;search&quot; commnad.```bgmiget search '因为太怕痛' 7 &quot;sc&quot; &quot;桜都字幕组&quot;&gt;0  -&gt; 【因为太怕痛...】【07】【桜都字幕组】```Then, download anime by index.```bgmiget download 0```Subscribe anime by &quot;subscribe&quot; command, and list them by &quot;show_subscribed&quot; command.At last, check for updates on anime by &quot;upgrade&quot; command.</longdescription>
+</pkgmetadata>

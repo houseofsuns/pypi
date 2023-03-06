@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=============================Railroad=============================.. image:: https://badge.fury.io/py/railroad.png    :target: http://badge.fury.io/py/railroad.. image:: https://travis-ci.org/s-m-i-t-a/railroad.png?branch=master    :target: https://travis-ci.org/s-m-i-t-a/railroad.. image:: https://coveralls.io/repos/s-m-i-t-a/railroad/badge.svg?branch=master&amp;service=github    :target: https://coveralls.io/github/s-m-i-t-a/railroad?branch=master.. image:: https://pypip.in/d/railroad/badge.png    :target: https://pypi.python.org/pypi/railroadA functional library for data processing.Features--------* TODODocumentation-------------History-------0.1.0 (2015-08-27)++++++++++++++++++* First release on PyPI.</longdescription>
+</pkgmetadata>

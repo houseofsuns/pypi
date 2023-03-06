@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># 项目描述一个用于加密str型和bytes型数据的加密器。1、底层加密算法为AES-CBC-256。2、加密时，会自动创建随机salt、随机iv、原始明文的校验值，并把校验值添加到密文中。3、解密时，会自动根据校验值校验“解密得到的明文”与“原始明文”是否一致。# 安装```pip install encrypt256```# Bug提交、功能提议您可以通过 [Github-Issues](https://github.com/lcctoor/lccpy/issues)、[微信](https://raw.githubusercontent.com/lcctoor/me/main/author/WeChatQR.jpg)、[技术交流群](https://raw.githubusercontent.com/lcctoor/me/main/ExchangeGroup/PythonTecQR.jpg) 与我联系。# 关于作者作者：许灿标邮箱：lcctoor@outlook.com[主页](https://github.com/lcctoor/me/blob/main/home.md) | [微信](https://raw.githubusercontent.com/lcctoor/me/main/author/WeChatQR.jpg) | [Python技术微信交流群](https://raw.githubusercontent.com/lcctoor/me/main/ExchangeGroup/PythonTecQR.jpg)开源项目：[让 Python 更简单一点](https://github.com/lcctoor/lccpy#readme)# 教程### 导入```pythonfrom encrypt256 import Encrypt256```### 创建加密器```pythonpassword1 = 123456789  # 支持int型密钥password2 = '黄河之水天上来'  # 支持str型密钥password3 = '床前明月光'.encode('utf8')  # 支持bytes型密钥enctool = Encrypt256(password1)  # 创建加密器```### 加密```python# 加密str型数据p1 = '人生自古谁五死'c1 = enctool.encrypt(p1, checkSize=32)# 加密bytes型数据p2 = '莎士比亚'.encode('utf8')c2 = enctool.encrypt(p2, checkSize=64)```### 解密```pythonp11 = enctool.decrypt(c1)p22 = enctool.decrypt(c2)assert p1 == p11assert p2 == p22assert type(p1) is type(p11)assert type(p2) is type(p22)```当发生以下情况时，会解密失败并报错：1、密钥错误。2、由于密文被篡改，导致AES算法解密失败。3、由于密文被篡改，虽然AES算法解密成功，但校验值错误。# 支持作者1元encrypt256 是一个免费的开源项目，由个人维护。每个小的贡献，都是构成车轮的一份子，可以帮助保持车轮完美旋转。![donationQR.jpg](https://raw.githubusercontent.com/lcctoor/me/main/donation/donationQR_1rmb_200_200.jpg)</longdescription>
+</pkgmetadata>

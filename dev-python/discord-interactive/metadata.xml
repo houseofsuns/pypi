@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>A package to help you build an interactive help for your Discord bot.Please refer to the github page for more information : https://github.com/astariul/discord_interactive_help/tree/masterYou can also refer to the wiki for detailed explanations : https://github.com/astariul/discord_interactive_help/wiki</longdescription>
+</pkgmetadata>

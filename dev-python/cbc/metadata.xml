@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Count Blood CellsCount red, white blood cells to detect various diseases such as blood cancer (leukemia), lower red blood cells count (anemia)...&lt;!-- TABLE OF CONTENTS --&gt;## Table of Contents* [Project Structure](#project-structure)* [Install](#install)* [Usage](#usage)* [Develop](#develop)* [License](#license)## Project Structure```cbc/|-- data/|   |-- plt/...|   |-- rbc/...|   |-- wbc/...||-- docs/...||-- models/...||-- output/|   |-- plt/...|   |-- rbc/...|   |-- wbc/...||-- AUTHORS|-- cbc|-- LICENSE|-- README.md|-- TODO.md|-- requirements.txt |-- setup.py```## Install- Install straight from PyPI using pip:```$ pip install cbc```## Usage&gt; Please read `cbc --help` before using it&gt; -o flag is optional (defaults to out/ directory)- Count blood cells (-r for red and -w for white):```$ cbc -r &lt;blood-cell-image&gt;```- Predict red blood cells (use Circle Hough Tranform and Connected Component Labeling with otsu's thresholding):```$ cbc -r -CHT -CCL -t &lt;blood-cell-image&gt;```- Predict white blood cells (with custom output directory):```$ cbc -w &lt;blood-cell-image&gt; -o outdir/```## Develop- Download the project:```$ git clone https://github.com/nemo256/cbc$ cd cbc ```- Activate virtual environment:```$ python -m venv venv$ source venv/bin/activate$ pip install -r requirements.txt```- Now just adapt the code to your needs and then run using the command:```$ chmod +x cbc$ ./cbc```## License- Please read [cbc/LICENSE](https://github.com/nemo256/cbc/blob/master/LICENSE)</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>``rutter``:  URL map for Py3k=============================.. image:: https://img.shields.io/pypi/v/rutter.svg?style=flat    :target: https://pypi.python.org/pypi/rutter/    :alt: Latest Version.. image:: https://github.com/tseaver/rutter/actions/workflows/ci-tests.yml/badge.svg?branch=master    :target: https://github.com/tseaver/rutter/actions/workflows/ci-tests.yml.. image:: https://readthedocs.org/projects/rutter/badge/?version=latest    :target: https://rutter.readthedocs.org/en/latest/    :alt: Documentation StatusThis project provides a version of the ``URLMap`` class from ``paste.urlmap``,ported to support Python3.  It also features 100% unit test coverage.Please see https://rutter.rtfd.io/ for complete documentation``rutter`` Changelog====================1.0 (2023-01-23)----------------- No changes from 1.0b1.1.0b1 (2023-01-18)------------------- Add support for Python 3.11.- Drop support for Python 2.7, 3.5, and 3.6.0.4 (2022-03-12)----------------- Add support for Python 3.9, and 3.10.- Remove DeprecationWarning from using ``collections.abc``.- Move tests to GitHub actions.- Move test suite to py.test.0.3 (2020-08-10)----------------- Add support for Python 3.5, 3.6, 3.7, and 3.8.- Drop support for Python 2.6, 3.2, 3,3, and 3.4.- Add support for PyPy3.0.2 (2013-10-21)----------------- Fix generation of ``long-description`` PyPI metadata.- Add Sphinx documentation.0.1 (2013-10-16)----------------- Initial version.</longdescription>
+</pkgmetadata>

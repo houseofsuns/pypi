@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># AlertNow PythonThis package used for logging information or errors.#Installation```pip install AlertNow-Python```#How to use it?First, you need to register with ```sign-up``` remote API and get the api key on the site.After, you must initialize connection using ```set_api_key``` and you can initialize host, user and tags data using ```set_host```, ```set_user```, ```set_tag``` method.And you can use ```info``` or ```error``` methods.#Example```angular2htmlfrom logger.src.logger import set_host, set_api_key, set_user, set_tag, info, errorfrom logger.src.common.dto.user import Userfrom logger.src.common.dto.userGeo import UserGeoimport jsonpickledef execute_method():    set_host('http://localhost:8080')    set_api_key('b4984c8de7f14b2f86f8e036456fd60c')    set_tag('os.name', 'python OS')    set_user(User(        &quot;13213231&quot;,        &quot;111.11.1.11&quot;,        UserGeo(            &quot;1044&quot;,            &quot;Baku&quot;,            &quot;Gadabay&quot;        )    ))    response = info('hi from python env')    print(response.status_code)    print(jsonpickle.encode(response))execute_method()```</longdescription>
+</pkgmetadata>

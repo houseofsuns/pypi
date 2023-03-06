@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># [what's a yeet?](https://www.youtube.com/watch?v=fVva0bV0odg)# quickstart## Run app```pythonimport osfrom controllers import HomeController, ArticlesControllerfrom examples.constants import INIT_QUERIES, DB_SETTINGSfrom python_yeet.app import Yeetfrom python_yeet.db import Databaseapp = Yeet(name=os.path.basename(os.getcwd()))app.add_route(r'^articles/$', ArticlesController(methods=['GET', 'POST']))app.add_route(r'^.*$', HomeController)db = Database(db_settings=DB_SETTINGS,              init_queries=INIT_QUERIES)app.run()```## Create model example```pythonimport datetimefrom python_yeet.orm import BaseModel, BaseManagerclass Article(BaseModel):    table_name = &quot;articles&quot;    manager_class = BaseManager    id: int    title: str    text: str    author: int    created_at: datetime.datetime```## Create controller example```pythonfrom examples.models.article import Articlefrom python_yeet.controllers import BaseControllerclass ArticlesController(BaseController):    def get(self, path):        return self.render_template('articles.html', articles=self._get_articles())               @staticmethod    def _get_articles():        articles = Article.objects.select(&quot;id&quot;, &quot;title&quot;)        return articles```</longdescription>
+</pkgmetadata>

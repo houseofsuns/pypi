@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pytest-testrail-pluginPyTest plugin for integration with TestRail## Usage0. Installing    pip install pytest-testrail-plugin1. Create config file .cfg`test/testrail_config.cfg`:```[API]url = https://cashwagon.testrail.ioemail = name@cashwagon.compassword = pass[TESTRUN]project_id = your IDroot_section = directory_name```2. Use `@pytestrail.case()` decorator for tests    `from pytest_testrail_plugin.plugin import pytestrail`3. Use docstring in `yaml` or `json` format if you want customize test case    ```python   from pytest_testrail_plugin.plugin import pytestrail   @pytestrail.case()   def test_foo():       &quot;&quot;&quot;       title: case title in TestRail       custom_preconds: preconditions info       custom_steps: steps info       custom_expected: this is too long a string            to print in a single line       &quot;&quot;&quot;       assert 1 == 1    ```4. Run test with flags    `py.test --testrail --tr-config=path/to/config/file.cfg`    If you want to delete unused cases and sections use `--tr-unsafe` flag:    `py.test --testrail --tr-config=path/to/config/file.cfg --tr-unsafe`</longdescription>
+</pkgmetadata>

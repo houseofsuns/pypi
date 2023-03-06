@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>New Relic Lambda Handler========================This module provides a decorator, ``lambda_handler`` that enables New Relic instrumentationof an AWS Lambda function.New Relic recommends using its Lambda Layer for seamless instrumentation. For the manualinstrumentation process, check outhttps://docs.newrelic.com/docs/serverless-function-monitoring/aws-lambda-monitoring/get-started/enable-new-relic-monitoring-aws-lambda#instrument-lambda</longdescription>
+</pkgmetadata>

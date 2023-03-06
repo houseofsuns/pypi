@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># hosterhoster is a python module that hosts code  Usage:  Add this to the end of your code:```Pythonimport hosterhoster.start(ip=&lt;your ip&gt;, port=&lt;4 digits&gt;)```</longdescription>
+</pkgmetadata>

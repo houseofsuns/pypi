@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ModelZooThis is the ModelZoo created by the Analytics Club, IIT MadrasModels : * Computer Vision  * Segmentation    * 2D Segmentation      * UNet       * UNet++      * PSPNet    * 3D Segmentation      * PointNet  * GAN    * StackGAN    * Inpainting* Natural Language Processing  * CharCNN  * Adaptive Attention for Image Captioning## InstallationRun the following to install:**pip install modelzoo-iitm**## Developing Model ZooTo install modelzoo, along with the tools you need to develop and run tests, run the following in your virtualenv:**pip install -e .[dev]**</longdescription>
+</pkgmetadata>

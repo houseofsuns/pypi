@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>|pipeline status| |coverage report| |pypi| |conda| |version|bilby_pipe==========A package for automating transient gravitational wave parameter estimation-  `Installation   instructions &lt;https://lscsoft.docs.ligo.org/bilby_pipe/master/installation.html&gt;`__-  `Documentation &lt;https://lscsoft.docs.ligo.org/bilby_pipe/master/index.html&gt;`__-  `Issue tracker &lt;https://git.ligo.org/lscsoft/bilby/issues&gt;`__-  See the `bilby page &lt;https://git.ligo.org/lscsoft/bilby&gt;`__ for help channels... |pipeline status| image:: https://git.ligo.org/lscsoft/bilby_pipe/badges/master/pipeline.svg   :target: https://git.ligo.org/lscsoft/bilby_pipe/commits/master.. |coverage report| image:: https://git.ligo.org/lscsoft/bilby_pipe/badges/master/coverage.svg   :target: https://lscsoft.docs.ligo.org/bilby_pipe/htmlcov/.. |version| image:: https://img.shields.io/pypi/pyversions/bilby-pipe.svg   :target: https://pypi.org/project/bilby_pipe/.. |pypi| image:: https://badge.fury.io/py/bilby-pipe.svg   :target: https://pypi.org/project/bilby_pipe/.. |conda| image:: https://img.shields.io/conda/vn/conda-forge/bilby_pipe.svg   :target: https://anaconda.org/conda-forge/bilby_pipe</longdescription>
+</pkgmetadata>

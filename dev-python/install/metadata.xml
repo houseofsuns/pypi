@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># installA package to install pip packages from within code.Requires Python 2.7+, 3.5+Usage:```import installinstall.install('pkg_you_want')# ... after retrieving a requirements.txt from the web or somewhere elseinstall.install('requirements.txt', requirements=True)# ... need arbitary options?install.install('my_pkg', pip_options=['--isolated'], install_options=['--no-clean', '--pre'])```</longdescription>
+</pkgmetadata>

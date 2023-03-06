@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Lorem Ipsum Generator provides a GTK+ graphical user interface, and a Python module, that generates random &quot;lorem ipsum&quot; text. The Lorem Ipsum Generator can produce a given quantity of paragraphs or sentences of &quot;lorem ipsum&quot; text.</longdescription>
+</pkgmetadata>

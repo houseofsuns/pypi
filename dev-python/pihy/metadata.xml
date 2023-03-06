@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># raspberrysystempython3 -m pihy.appList_addr// base//default pump address is 103 Address,103I2C,11// add new pump for acid//default pump address is 103Address,103I2C,12</longdescription>
+</pkgmetadata>

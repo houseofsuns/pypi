@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># luadata[![Build Status](https://travis-ci.org/leafvmaple/luadata.svg?branch=master)](https://travis-ci.org/leafvmaple/luadata)![PyPI](https://img.shields.io/pypi/v/luadata)This is a Python package that can serialize `Python` list &amp;amp; dictionary to `Lua` table, or unserialize `Lua` table to `Python` list &amp; dictionary.## InstallBinary installers for the latest released version are available at the `Pypi`.```python -m pip install --upgrade luadata```## Usage### write&gt; Serialize `python` variable to `lua` data string, and save to specific path.```pythonimport luadataluadata.write(path, data, encoding=&quot;utf-8&quot;, indent=&quot;\t&quot;, prefix=&quot;return &quot;)```### read&gt; Unserialize `lua` data string to `python` variable from file.```pythonimport luadatadata = luadata.read(path, encoding=&quot;utf-8&quot;)```### serialize&gt; Serialize `python` variable to `lua` data string.```pythonimport luadataluadata.serialize(var, encoding=&quot;utf-8&quot;, indent=&quot;\t&quot;, indent_level=0)```### unserialize&gt; Unserialize `lua` data string to `python` variable.```pythonimport luadataluadata.unserialize(luadata_str, encoding=&quot;utf-8&quot;, multival=False)```## License[BSD](https://github.com/leafvmaple/luadata/blob/master/LICENSE)</longdescription>
+</pkgmetadata>

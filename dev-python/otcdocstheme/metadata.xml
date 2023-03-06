@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>========================Team and repository tags========================.. image:: https://governance.openstack.org/tc/badges/openstackdocstheme.svg    :target: https://governance.openstack.org/tc/reference/tags/index.html.. Change things from this point onOpenTelekomCloud docs Sphinx Theme=========================================Theme and extension support for Sphinx documentation.Intended for use by OpenTelekomCloud `projects`...  `projects`: https://github.com/OpenTelekomCloud* Free software: Apache License, Version 2.0* Source: https://github.com/OpenTelekomCloud/otcdocstheme</longdescription>
+</pkgmetadata>

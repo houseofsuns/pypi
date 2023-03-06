@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># shopify_apis Collection of custom shopify functionsConfig file needed at ~/.Shopify-Config.json which will be used by com_digitalruiz_shopify_http_client```{  &quot;shopify_store_name&quot;: &quot;YOUR-STORE-NAME&quot;,  &quot;shopify_admin_api_version&quot;: &quot;API VERSION&quot;,  &quot;shopify_access_token&quot;: &quot;ACCESS TOKEN&quot;}```example use:```from com_digitalruiz_shopify_tools import shopify_tools```</longdescription>
+</pkgmetadata>

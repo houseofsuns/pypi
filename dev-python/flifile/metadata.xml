@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![mypy](https://github.com/rharkes/flifile/actions/workflows/mypy.yml/badge.svg)](https://github.com/rharkes/flifile/actions/workflows/mypy.yml)[![Black](https://github.com/rharkes/flifile/actions/workflows/black.yml/badge.svg)](https://github.com/rharkes/flifile/actions/workflows/black.yml)[![Black](https://github.com/rharkes/flifile/actions/workflows/pytest.yml/badge.svg)](https://github.com/rharkes/flifile/actions/workflows/pytest.yml)# flifilePython code for opening a lambert instruments .fli file## Requirements* Numpy## ExamplesOpen a local .fli file```&gt;&gt;&gt; from flifile import FliFile&gt;&gt;&gt; myflifile = FliFile('sample_file.fli')&gt;&gt;&gt; data = myflifile.getdata()&gt;&gt;&gt; data.shape(348, 256, 12)&gt;&gt;&gt; data.mean()26342.449652777777```## Install`pip install flifile`https://pypi.org/project/flifile/## Contribute* Clone the repository* Install with the development packages: `pip install -e .[dev]`Before making a pull request, make sure the following three commands run without errors* `black .`* `pytest`* `mypy`</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># py-partiql-parserA tokenizer/parser/executor for the PartiQL-language, in Python.Much beta, such wow. Feel free to raise any issues you encounter.## Usage```original_json = {&quot;a1&quot;: &quot;b1&quot;, &quot;a2&quot;: &quot;b2&quot;}from py_partiql_parser import Parserparser = Parser(source_data={&quot;s3object&quot;: original_json})result = parser.parse(&quot;SELECT * FROM s3object&quot;)```## MeatThe important logic of this library can be found here: https://github.com/bblommers/py-partiql-parser/blob/main/py_partiql_parser/_internal/parser.pyIt is implemented as a naive, dependency-free, TDD-first tokenizer.## TestsTests based on real-world examples from users/AWS, and can be found here:https://github.com/getmoto/py-partiql-parser/blob/main/tests/test_aws_examples.py## Outstanding - Support for functions such as `count(*)` - Support for CSV conversion. A start has been made in `_internal/csv_converter.py` - .. and I'm sure many other things.## NotesThe first iteration of this library was based on the spec, found here: https://partiql.org/assets/PartiQL-Specification.pdfAWS doesn't follow its own spec though, most notably: - a file containing a list (with multiple JSON documents) cannot be queried normally (`select *` returns everything, but you cannot `select key` for each document in the list) - `select values` is not supported</longdescription>
+</pkgmetadata>

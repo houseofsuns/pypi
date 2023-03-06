@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># vWelcome to v - essential tools for programming in Python!## InstallationLinux / macOS (python3):```shpython3 -m pip install v```Linux / macOS (python2):``` shpython -m pip install v```Windows:``` shpy -m pip install v```[full guide](https://github.com/dylanopen/v/blob/main/docs/installation.md)## Docs[v documentation](https://github.com/dylanopen/v/tree/main/docs)## Changelog[v changelog](https://github.com/dylanopen/v/blob/main/changelog.txt)</longdescription>
+</pkgmetadata>

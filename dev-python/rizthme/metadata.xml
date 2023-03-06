@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Rizthme## RequierementFirst step is to add in your environments variables,a variables named &quot;TOKEN&quot; with in value, your discord application token.do this with:```consolefoo@bar:~$ export TOKEN=&lt;your token&gt;```or&gt; Write a .env file at project root next, check that the ffmpeg module is installed on your device.```consolefoo@bar:~$ ffmpeg -version```if not```consolefoo@bar:~$ sudo apt install ffmpeg # or equivalent depending on your system```## To launch the discord client```consolefoo@bar:~$ python3 run.py```### Automatically script launching#### For Linux userFor use automatically your virtual environment. (The virtual environment name need to be &quot;venv/&quot;)```consolefoo@bar:~$ make python-run```if you want to use rizthme on docker container you can use make script for this```consolefoo@bar:~$ make build docker-run```And to delete stop or restart him check Makefile possibilities</longdescription>
+</pkgmetadata>

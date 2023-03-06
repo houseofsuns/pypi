@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>A Package That Lets You Easily Trick Your Friends And Prank Them With Fake Hacking Programs Version 0.3.3 Adds Matrix Fall Witch You Can Use With The New hackprank.matrix module Version 0.4.7 Adds New Matrix Fall hackprank.matrix </longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This is the core package of the Lino framework.This repository is an integral part of the `Lino framework&lt;https://www.lino-framework.org&gt;`__, which is documented as a whole in the `LinoBook &lt;https://dev.lino-framework.org/about/overview.html&gt;`__.- Code repository: https://gitlab.com/lino-framework/lino- Test results: https://gitlab.com/lino-framework/lino/-/pipelines- Feedback: https://community.lino-framework.org- Maintainer: https://www.saffre-rumma.net/</longdescription>
+</pkgmetadata>

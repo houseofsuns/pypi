@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>#### Clear a Python Shell##### a simple function for clearing your interactive Python Interpreter Shell&lt;br&gt;&lt;br&gt;&lt;strong&gt;USAGE:&lt;/strong&gt;&lt;br&gt;&lt;code&gt;from clear_screen import clear&lt;/code&gt;&lt;br&gt;&lt;code&gt;clear()&lt;/code&gt;&lt;br&gt;&lt;br&gt;Works on Linux, Windows, Mac terminal/shell&lt;br&gt;Compatible with Python 2 and Python 3&lt;br&gt;&lt;br&gt;&lt;b&gt;DOES NOT WORK WITH THE IDLE INTERPRETER&lt;/b&gt;&lt;br&gt;&lt;hr&gt;</longdescription>
+</pkgmetadata>

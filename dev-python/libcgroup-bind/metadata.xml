@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># libcgroup - low level Python binding for [libcgroup](http://libcg.sourceforge.net/)- [libcgroup](http://libcg.sourceforge.net/) is a library that abstracts the [control group file system](http://lwn.net/Articles/236038/) in Linux.- Matches one-to-one with libcgroup's API and provides type info via stub.## Install shared library### Debian (e.g. Ubuntu)```bashapt install libcgroup1```### Red Hat```bashyum install libcgroup```### Arch Linux (AUR)```bash&lt;AUR Helper&gt; -S libcgroup```</longdescription>
+</pkgmetadata>

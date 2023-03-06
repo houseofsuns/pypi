@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=======catplot=======.. image:: https://travis-ci.org/PytLab/catplot.svg?branch=master    :target: https://travis-ci.org/PytLab/catplot    :alt: Build Status.. image:: https://landscape.io/github/PytLab/catplot/master/landscape.svg?style=flat   :target: https://landscape.io/github/PytLab/catplot/master   :alt: Code Health.. image:: https://img.shields.io/badge/python-3.5, 2.7-green.svg    :target: https://www.python.org/downloads/release/python-351/    :alt: platform.. image:: https://img.shields.io/badge/pypi-v1.3.3-blue.svg    :target: https://pypi.python.org/pypi/catplot/    :alt: versions.. image:: https://img.shields.io/badge/license-MIT-blue.svg    :target: https://raw.githubusercontent.com/PytLab/catplot/master/LICENSEIntroduction------------**CatPlot** is a Python Library for Energy Profile and Abstract Grid(2D/3D) plotting.Installation------------1. Via pip (recommend)::    pip install catplot2. From source::    python setup.py install</longdescription>
+</pkgmetadata>

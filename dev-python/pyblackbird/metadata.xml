@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## Status[![Build Status](https://travis-ci.org/koolsb/pyblackbird.svg?branch=master)](https://travis-ci.org/koolsb/pyblackbird)[![Coverage Status](https://coveralls.io/repos/github/koolsb/pyblackbird/badge.svg)](https://coveralls.io/github/koolsb/pyblackbird)# pyblackbirdPython3 interface implementation for Monoprice Blackbird 4k 8x8 HDBaseT Matrix## NotesThis is for use with [Home-Assistant](http://home-assistant.io)## Usage```pythonfrom pyblackbird import get_blackbird# Connect via serial portblackbird = get_blackbird('/dev/ttyUSB0')# Connect via IPblackbird = get_blackbird('192.168.1.50', use_serial=False)# Print system lock statusprint('System Lock is {}'.format('On' if blackbird.lock_status() else 'Off'))# Valid zones are 1-8zone_status = blackbird.zone_status(1)# Print zone statusprint('Zone Number = {}'.format(zone_status.zone))print('Zone Power is {}'.format('On' if zone_status.power else 'Off'))print('AV Source = {}'.format(zone_status.av))print('IR Source = {}'.format(zone_status.ir))# Turn off zone #1blackbird.set_power(1, False)# Set source 5 for zone #1blackbird.set_zone_source(1, 5)# Set all zones to source 2blackbird.set_all_zone_source(2)# Lock system buttonsblackbird.lock_front_buttons()# Unlock system buttonsblackbird.unlock_front_buttons()```</longdescription>
+</pkgmetadata>

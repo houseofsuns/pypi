@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>==========================Welcome to Heat Dashboard!==========================Heat dashboard is a horizon plugin for Heat.* License: Apache license* Documentation: https://docs.openstack.org/heat-dashboard/latest/* Source: https://opendev.org/openstack/heat-dashboard* Bugs: https://storyboard.openstack.org/#!/project/openstack/heat-dashboard* Release Notes: https://docs.openstack.org/releasenotes/heat-dashboardTeam and repository tags------------------------.. image:: https://governance.openstack.org/tc/badges/heat-dashboard.svg    :target: https://governance.openstack.org/tc/reference/tags/index.html</longdescription>
+</pkgmetadata>

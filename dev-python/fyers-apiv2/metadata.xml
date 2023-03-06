@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>README========This module is installed via pip:```pip install fyers-api```Packages Required - json - requests - tornado For an overview of Fyers-api please refer to the documentation at [fyers-api-docs](http://apidashboard.fyers.in/api-docs)</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Logilab's mtconverter library=============================Logilab's mtconverter is a library to convert data from a MIME type to another.It is originally a backport of Zope's PortalTransforms tool with all Zope's internal removed (e.g. most of the code).Installation------------Extract the tarball, jump into the created directory and run ::python setup.py installFor installation options, see ::python setup.py install --helpComments, support, bug reports------------------------------Use the python-projects@logilab.org mailing list. Since we do not havepublicly available bug tracker yet, bug reports should be emailedthere too. You can subscribe to this mailing list athttp://www.logilab.org/mailinglists/python_projects/mailinglist_register_formArchives are available at http://lists.logilab.org/pipermail/python-projects/</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># NextGuild![image](https://user-images.githubusercontent.com/77706434/225704407-da247647-9c9f-4115-a2f1-93d567f46ea7.png)# AboutNextGuild is a Guilded API wrapper written in Python.Planning on being the most simplest python library interacting with the Guilded API, Nextguild is planning to be beginner-friendly and be a great resource to learn Python programming, this is a library, with easy configuration.Made from a team of 2 people, this was a simple project originally thought for a fun purpose and for testing the Guilded API, which eventually turned into a bot library for multi-purpose use.# DevelopmentCurrently, NextGuild is not at a stable version and it is not recommended to use the package until a stable version is released.## InstallationUse the Python Package Index package manager [pip](https://pip.pypa.io/en/stable/) to install NextGuild to start using this package for your project.```bashpip install nextguild```## DocumentationFor NextGuild's official documentation, click [this link](https://github.com/ArjunSharda/nextguild/tree/main/docs)## ContributingPull requests are welcome. For major changes, please open an issue firstto discuss what you would like to change.## LicenseThe NextGuild Project is under the [MIT](https://choosealicense.com/licenses/mit/) license, and usage is subject to the terms of the MIT license.&lt;hr&gt;&lt;h6 align=&quot;center&quot;&gt;© The NextGuild Project 2023-present&lt;br&gt;All Rights Reserved&lt;/h6&gt;</longdescription>
+</pkgmetadata>

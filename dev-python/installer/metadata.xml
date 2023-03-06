@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># installer&lt;!-- start readme-pitch --&gt;This is a low-level library for installing a Python package from a[wheel distribution](https://packaging.python.org/glossary/#term-Wheel). Itprovides basic functionality and abstractions for handling wheels and installingpackages from wheels.- Logic for &quot;unpacking&quot; a wheel (i.e. installation).- Abstractions for various parts of the unpacking process.- Extensible simple implementations of the abstractions.- Platform-independent Python script wrapper generation.&lt;!-- end readme-pitch --&gt;You can read more in the [documentation](https://installer.rtfd.io/).</longdescription>
+</pkgmetadata>

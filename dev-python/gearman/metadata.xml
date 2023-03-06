@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>==============python-gearman==============Description===========Python Gearman API - Client, worker, and admin client interfacesFor information on Gearman and a C-based Gearman server, see http://www.gearman.org/Installation============* easy_install gearman* pip install gearmanLinks=====* 2.x source &lt;http://github.com/Yelp/python-gearman/&gt;* 2.x documentation &lt;http://packages.python.org/gearman/&gt;* 1.x source &lt;http://github.com/samuel/python-gearman/&gt;* 1.x documentation &lt;http://github.com/samuel/python-gearman/tree/master/docs/&gt;</longdescription>
+</pkgmetadata>

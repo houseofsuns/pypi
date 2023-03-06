@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>    Library for macromolecular crystallography and structural bioinformatics.    For working with coordinate files (mmCIF, PDB, mmJSON),    refinement restraints (monomer library), electron density maps (CCP4),    and crystallographic reflection data (MTZ, SF-mmCIF). It understands    crystallographic symmetries, it knows how to switch between the real    and reciprocal space and it can do a few other things.    The setup.py script builds only Python extension.    Use cmake to build also a command-line program.    </longdescription>
+</pkgmetadata>

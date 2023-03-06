@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>DNSDiag provides a handful of tools to measure and diagnose your DNSperformance and integrity. Using dnsping, dnstraceroute and dnseval toolsyou can measure your DNS response quality from delay and loss perspectiveas well as tracing the path your DNS query takes to get to DNS server.</longdescription>
+</pkgmetadata>

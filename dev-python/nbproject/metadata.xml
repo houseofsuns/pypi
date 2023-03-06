@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![Stars](https://img.shields.io/github/stars/laminlabs/nbproject?logo=GitHub&amp;color=yellow)](https://github.com/laminlabs/nbproject)[![coverage](https://codecov.io/gh/laminlabs/nbproject/branch/main/graph/badge.svg?token=05R04PR9RB)](https://codecov.io/gh/laminlabs/nbproject)[![pypi](https://img.shields.io/pypi/v/nbproject?color=blue&amp;label=pypi%20package)](https://pypi.org/project/nbproject)[![doi](https://img.shields.io/badge/doi-10.56528%2Fnbp-lightgrey)](https://doi.org/10.56528/nbp)# nbproject: Manage Jupyter notebooksRead the [docs](https://lamin.ai/docs/nbproject).Read the [report](https://lamin.ai/reports/2022/nbproject).</longdescription>
+</pkgmetadata>

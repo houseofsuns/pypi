@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Python EmailRepThis is a python 3 library and cli module for interacting with the [EmailRep](https://emailrep.io) service.## Installation`pip3 install emailrep --upgrade` or `python3 -m pip install --upgrade emailrep`## Quick Start (cli)```sh# setup your api key (optional)emailrep setup -k &lt;your api key&gt;# query an email addressemailrep bill@microsoft.com# report an email address (key required)emailrep --report foo@bar.com --tags &quot;bec, maldoc&quot; --description &quot;Phishing email targeting CEO&quot;```## Quick Start (python library)```pyfrom emailrep import EmailRep# setup your api key (optional)emailrep = EmailRep('&lt;your api key&gt;')# query an email addressemailrep.query(&quot;bill@microsoft.com&quot;)# report an email address (key required)emailrep.report(&quot;foo@bar.com&quot;, [&quot;bec&quot;, &quot;maldoc&quot;], &quot;Phishing email targeting CEO&quot;)```Full API docs can be found [here](https://docs.emailrep.io).</longdescription>
+</pkgmetadata>

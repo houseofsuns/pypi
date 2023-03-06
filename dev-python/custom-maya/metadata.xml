@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># 项目说明此工具内含各种实用工具。**仅为测试用！！！**仅支持Maya2023及以上版本。参照* [如何使用mayapy运行venv](https://knowledge.autodesk.com/zh-hans/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2023/CHS/Maya-Scripting/files/GUID-6AF99E9C-1473-481E-A144-357577A53717-htm.html)* [Maya Python 解释器 mayapy](https://knowledge.autodesk.com/zh-hans/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2023/CHS/Maya-Scripting/files/GUID-D64ACA64-2566-42B3-BE0F-BCE843A1702F-htm.html)## 安装并获取更新使用 pip 安装```shellpip install custom-maya```需要使用 mayapy 环境安装。测试用```shellXcopy custom_maya &quot;C:\Program Files\Autodesk\Maya2023\Python\Lib\site-packages\custom_maya&quot; /E/H/C/I```## 如何设置IDE### 制作从名为 python 的命令创建指向 mayapy 的软链接```shellcd &quot;C:\Program Files\Autodesk\Maya2023\bin&quot;mklink python.exe mayapy.exe```### 将IDE的解释器设置为```&quot;C:\Program Files\Autodesk\Maya2023\bin\python.exe&quot;```## 例子### 获取某根目录下所有Maya文件的信息```python```## 打包上传到pipy升级```shellpython.exe -m pip install --upgrade buildpython.exe -m pip install --upgrade pip``````shellpython -m build```上传测试包```shellpython -m twine upload --repository testpypi dist/*```上传正式版本包```shellpython -m twine upload dist/*```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># dmbiolibLibrary of Python functions for bioinformaticsInstall from Bioconda:````conda install -c bioconda dmbiolib````Install from PyPI:````pip install dmbiolib````Full documentation: https://dmbiolib.readthedocs.io/GitHub issues (bug reports, feature requests): https://github.com/damienmarsic/dmbiolib/issues/new/choose[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/dmbiolib/README.html)[![dmbiolib documentation](https://img.shields.io/badge/dmbiolib-Documentation-yellow)](https://dmbiolib.readthedocs.io/)</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># SIL ThotSIL Thot is a C++ library for statistical machine translation and word alignment. This is a fork of the [Thot Toolkit](https://github.com/daormar/thot) developed by Daniel Ortiz-Martínez. This fork has packaged the original Thot toolkit into a shared library. This allows the functionality to be embedded in other applications. The fork also includes ew alignment models, such as IBM-3, IBM-4, and Fast Align.</longdescription>
+</pkgmetadata>

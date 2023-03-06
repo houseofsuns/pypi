@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>============ETOS Library============.. image:: https://img.shields.io/badge/Stage-Sandbox-yellow.svg  :target: https://github.com/eiffel-community/community/blob/master/PROJECT_LIFECYCLE.md#stage-sandboxETOS (Eiffel Test Orchestration System) LibraryDescription===========A collection of common tools and code used throughout the whole ETOS project.Installation============   pip install etos_libContribute==========- Issue Tracker: https://github.com/eiffel-community/etos/issues- Source Code: https://github.com/eiffel-community/etos-librarySupport=======If you are having issues, please let us know.There is a mailing list at: etos-maintainers@googlegroups.com or just write an Issue.</longdescription>
+</pkgmetadata>

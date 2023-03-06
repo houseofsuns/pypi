@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pysicglpysicgl is a Python C extension interface for the [sicgl](https://github.com/oclyke-dev/sicgl) graphics library.both projects are young and would benefit from community involvement.</longdescription>
+</pkgmetadata>

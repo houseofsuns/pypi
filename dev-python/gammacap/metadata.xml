@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>The gammacap package provides statistical tools and clustering algorithms for analysis of gamma-ray data and is an acronym for &quot;Gamma-ray Clustering Analysis Package. It is actively maintained and written in pure python, requiring only standard scientific libraries.</longdescription>
+</pkgmetadata>

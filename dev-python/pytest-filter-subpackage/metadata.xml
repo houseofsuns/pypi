@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>========================pytest-filter-subpackage========================.. image:: https://dev.azure.com/astropy-project/pytest-filter-subpackage/_apis/build/status/astropy.pytest-filter-subpackage?branchName=main   :target: https://dev.azure.com/astropy-project/pytest-filter-subpackage/_build/latest?definitionId=5&amp;branchName=mainThis package contains a simple plugin for the `pytest`_ framework that provides ashortcut to testing all code and documentation for a given sub-package... _pytest: https://pytest.org/en/latest/Installation------------The ``pytest-filter-subpackage`` plugin can be installed using ``pip``::    $ pip install pytest-filter-subpackageIt is also possible to install the latest development version from the sourcerepository::    $ git clone https://github.com/astropy/pytest-filter-subpackage    $ cd pytest-filter-subpackage    $ pip install .In either case, the plugin will automatically be registered for use with``pytest``.Usage-----This plugin provides a ``-P`` option which takes a comma-separated listof sub-package names (without the top-level package name)::    pytest -P wcs,io.fitswhich is equivalent to::    pytest **/wcs **/io/fitsWhen used in conjunction with `pytest-doctestplus&lt;http://github.com/astropy/pytest-doctestplus&gt;`_ this will result in boththe narrative documentation and code being tested for a given sub-package.License-------This plugin is licensed under a 3-clause BSD style license - see the``LICENSE.rst`` file.</longdescription>
+</pkgmetadata>

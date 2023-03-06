@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Django-adaptors is a tool which allow you to transform easily a CSV/XML file into a python object or a django model instance.It is based on a django-style declarative model.More information available on read the doc:http://django-adaptors.readthedocs.org/</longdescription>
+</pkgmetadata>

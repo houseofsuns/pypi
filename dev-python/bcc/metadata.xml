@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>===bcc===.. image:: https://img.shields.io/pypi/v/bcc.svg        :target: https://pypi.python.org/pypi/bcc.. image:: https://img.shields.io/travis/willsheffler/bcc.svg        :target: https://travis-ci.org/willsheffler/bcc.. image:: https://readthedocs.org/projects/bcc/badge/?version=latest        :target: https://bcc.readthedocs.io/en/latest/?badge=latest        :alt: Documentation StatusN-dim invertible BCC lattice* Free software: Apache Software License 2.0* Documentation: https://bcc.readthedocs.io.Features--------* TODOCredits-------This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template... _Cookiecutter: https://github.com/audreyr/cookiecutter.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage=======History=======0.1.9 (2018-07-10)------------------* add numba support0.1.8 (2018-03-12)------------------* Basic tests in place0.1.7 (2018-03-06)------------------* First release on PyPI.</longdescription>
+</pkgmetadata>

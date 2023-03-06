@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>A collection of useful code &quot;snippets&quot; or &quot;helpers&quot; that implement little but annoying to add things for you# Install```shellpip install einfach```# Use/Features[List of Features in the wiki](https://github.com/rotgruengelb/einfach/wiki/Features)</longdescription>
+</pkgmetadata>

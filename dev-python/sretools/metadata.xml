@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># sretoolsA collection of SRE command line tools## SSH toolsretools-ssh        ssh command tool with expect integration.  run remote command, ship and run package on remote server, etc.## expectsretools-expect    command line expect tool.   help SRE to &quot;expect' interactive applications in a very easy way.## structure data [sretools-dsq](/examples/sretools-dsq.md) jq/jello like query tools with interactive mode. \sretools-json2html   format JSON from file or pipe to HTML tables. \sretools-json2yaml   format JSON from file or pipe \sretools-yaml2json   format YAML from file or pipe \sretools-yaml2html   format YAML from file or pipe ## concole[sretools-table-format](/examples/sretools-table-format.md)  console table formatting tool.  pipe, CSV, etc. support UNICODE.## database client[sretools-dbx](/examples/sretools-dbx.md)        generic JDBC calls. dump query in good table format.  open JDBC access to bash level.## misc&lt;ul&gt;&lt;li&gt;sretools-nonascii    scan FS, files for non-ascii characters.  will help resovle issues caused by &quot;invisiable&quot; characters.&lt;/li&gt;&lt;/ul&gt;## Classes&lt;ul&gt;&lt;li&gt;LE   expect class for develp sretools-ltexpect alike tools.&lt;/li&gt;&lt;li&gt;SimpleTable    console formatting table supporting wide chacaters.&lt;/li&gt;&lt;li&gt;JsonConverter  convert JSON str or dict/list object to HTML or YAML.&lt;/li&gt;&lt;/ul&gt;</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Home-page: https://github.com/PaddlePaddle/InterpretDL Author: Baidu-BDL Author-email: autodl@baidu.com License: Apache 2.0 Description: InterpretDL, short for interpretation of deep learning models, is a model interpretation toolkit for PaddlePaddle models.</longdescription>
+</pkgmetadata>

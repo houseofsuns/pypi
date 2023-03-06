@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Shadowsocks(R) utils[![PyPi Version](http://img.shields.io/pypi/v/ssr-utils.svg)](https://pypi.python.org/pypi/ssr-utils/)[&gt;&gt; Read the docs &lt;&lt;](https://neoctobers.readthedocs.io/en/latest/repo/py_ssr_utils.html)</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># MT AWS UTILS[![PyPI - Version](https://img.shields.io/pypi/v/mt-aws-utils.svg)](https://pypi.org/project/mt-aws-utils)[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/mt-aws-utils.svg)](https://pypi.org/project/mt-aws-utils)-----**Table of Contents**- [Installation](#installation)- [License](#license)## Installation```consolepip install mt-aws-utils```## License`mt-aws-utils` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.</longdescription>
+</pkgmetadata>

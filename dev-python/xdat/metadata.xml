@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## What is *xdat*?xdat (eXtended Data Analysis Toolkit), is a set of utilities that help streamline data science projects.+ Monkey-patches common packages to add useful functionality+ Helps with standardization of plots in projects+ Includes useful tools (like caching)### Warning: this isn't even in &quot;alpha&quot; yet, and will likely have changes that are not backwards-compatible.## Installation### Ubuntu 20.04```&gt; sudo apt -q -y install libeigen3-dev&gt; pip install xdat```</longdescription>
+</pkgmetadata>

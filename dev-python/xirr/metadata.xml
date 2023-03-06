@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image:: https://img.shields.io/pypi/l/xirr.svg   :target: https://pypi.python.org/pypi/xirr.. image:: https://img.shields.io/pypi/v/xirr.svg   :target: https://pypi.python.org/pypi/xirr.. image:: https://readthedocs.org/projects/xirr/badge   :target: https://xirr.rtfd.ioxirr====Irregular internal rate of return (xirr) and net present value (npv) calculations.Based on https://stackoverflow.com/questions/8919718/financial-python-library-that-has-xirr-and-xnpv-functionwith some handling for special cases from https://github.com/RayDeCampo/java-xirr/See the `Documentation &lt;https://xirr.rtfd.io/&gt;`__.</longdescription>
+</pkgmetadata>

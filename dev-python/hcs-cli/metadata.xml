@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># hcs-cliThe hcs-cli is a CLI for Horizon Cloud Service, with the following considerations:* Provides user-task oriented CLI, not API-CLI.* Support multiple profiles.* Based on [Context Programming](https://github.com/nanw1103/context-programming)Confluence: https://confluence.eng.vmware.com/display/HCS/HCS+CLI## Getting started```pip3 install hcs-cli```or if you already have hcs-cli installed, use the follow command to upgrade it:```hcs upgrade```Create a default profile:```hcs profile init```## Choose profileList existing profiles```hcs profile list```Get details of a profile```hcs profile get &lt;name&gt;```Switch to a profile```hcs profile use &lt;name&gt;```You may directly edit a profile. The following command shows the profile file path:```hcs profile file &lt;name&gt;```### Auth related commandsGet the auth token that can be used as the bearer token for REST API call.```hcs auth```Get details of the configured auth token, e.g. permissions &amp; orgs```hcs auth --details```### ExamplesEach service has its own sub-command. Take PKI service as example, to request a resource certificate:```hcs pki sign-resource-cert my-res1```LCM command examples```hcs lcm template create &lt; payload/lcm/zero.jsonhcs lcm template wait --timeout=1m10s &lt;template-id&gt;hcs lcm template list --type ZEROCLOUD | jq &quot;.|map(.id)&quot;hcs lcm template get &lt;template-id&gt;hcs lcm template delete &lt;template-id&gt;hcs lcm provider list --type ZEROCLOUD```</longdescription>
+</pkgmetadata>

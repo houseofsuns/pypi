@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This Python library is a high-level set of Kubernetes Helpers allowing eitherto manage individual standard Kubernetes controllers (Deployment, StatefulSets, etc) or a logical setof standard Kubernetes controllers through the `expecteddeploymentscales.wiremind.io` CRD (for exampleallowing to scale down ALL Deployments of a Helm Release marked as such).</longdescription>
+</pkgmetadata>

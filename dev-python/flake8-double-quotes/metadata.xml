@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Flake8 Extension to lint for double quotes.## UsageIf you are using flake8 its as easy as:```shell    pip install flake8-quotes```Now you don't need to worry about people like @sectioneight constantlycomplaining that you are using doublequotes and not singlequotes.</longdescription>
+</pkgmetadata>

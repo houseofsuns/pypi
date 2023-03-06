@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># duty[![ci](https://github.com/pawamoy/duty/workflows/ci/badge.svg)](https://github.com/pawamoy/duty/actions?query=workflow%3Aci)[![documentation](https://img.shields.io/badge/docs-mkdocs%20material-blue.svg?style=flat)](https://pawamoy.github.io/duty/)[![pypi version](https://img.shields.io/pypi/v/duty.svg)](https://pypi.org/project/duty/)[![gitpod](https://img.shields.io/badge/gitpod-workspace-blue.svg?style=flat)](https://gitpod.io/#https://github.com/pawamoy/duty)[![gitter](https://badges.gitter.im/join%20chat.svg)](https://gitter.im/duty/community)A simple task runner.Inspired by [Invoke](https://github.com/pyinvoke/invoke).![demo](demo.svg)## InstallationWith `pip`:```bashpip install duty```With [`pipx`](https://github.com/pipxproject/pipx):```bashpython3.7 -m pip install --user pipxpipx install duty```## Quick startCreate a `duties.py` file at the root of your repository.```pythonfrom duty import duty@dutydef docs(ctx):    ctx.run(&quot;mkdocs build&quot;, title=&quot;Building documentation&quot;)```You can now use the command line tool to run it:```bashduty docs```See the [Usage](https://pawamoy.github.io/duty/usage/)section in the documentation for more examples.</longdescription>
+</pkgmetadata>

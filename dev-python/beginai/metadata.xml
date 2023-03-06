@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This is Begin AI python SDK for both batch processing and application integration. It can be used to integrate applications with Begin.ai orchestration platform to deliver applications withpersonalisation algorithms to do:1. Predict user engagement.2. Provide recommenders for users.3. Detect fake content.4. Detect fake profiles.5. Classify objects, profiles and contents automatically in categories.You do not need machine learning experience to use this library, check out our documentation for details. https://docs.begin.ai/b89798c6201243ecbbdc1126ece4e989register at begin.ai to get started.</longdescription>
+</pkgmetadata>

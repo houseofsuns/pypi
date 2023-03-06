@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=====sauth=====.. image:: https://img.shields.io/pypi/v/sauth.svg        :target: https://pypi.python.org/pypi/sauth**S** erver **auth**A simple server for serving directories via http or https and BASIC authorization::    $ sauth --help    Usage: sauth [OPTIONS] USERNAME PASSWORD [IP] [PORT]      Start http server with basic authentication current directory.    Options:      -d, --dir TEXT  use different directory      -s, --https     use https      -t, --thread    serve each request in a different thread      --help          Show this message and exit.* Free software: GNU General Public License v3Installation------------::    pip install sauthAlso available on Arch User Repository if you're running arch::        pacaur -S sauthUsage-----To serve your current directory simply run::    $ sauth someuser somepass    Serving &quot;/home/user/somedir&quot; directory on http://0.0.0.0:8333You can specify port and ip to serve on with 3rd and 4th arguments::    $ sauth someuser somepass 127.0.0.1 1234    Serving &quot;/home/user/somedir&quot; directory on http://127.0.0.1:1234Threading is also supported through `-t` or `--thread` flags:    $ sauth someuser somepass 127.0.0.1 1234 --thread    Serving &quot;/home/user/somedir&quot; directory on http://127.0.0.1:1234 using threading</longdescription>
+</pkgmetadata>

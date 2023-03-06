@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ENKIE - The ENzyme KInetics Estimator[![Documentation Status](https://readthedocs.org/projects/enkie/badge/?version=latest)](https://enkie.readthedocs.io/en/latest/?badge=latest)[![PyPI version](https://badge.fury.io/py/enkie.svg)](https://badge.fury.io/py/enkie)ENKIE is a python package for the prediction of kinetic parameter values anduncertainties in metabolic networks. The package uses Bayesian Multilevel Models topredict values and uncertainties from reaction, protein and metabolite identifiers. Thepredictions are then combined with standard free energy estimates to ensurethermodynamic consistency.## InstallationENKIE is available as a Python package on the [Python PackageIndex](https://pypi.org/project/enkie/), see the[documentation](https://enkie.readthedocs.io/en/latest/getting_started.html)for the installation instructions.## Cite usIf you use ENKIE in a scientific publication, please cite our paper: Gollub, M.G., Backes, T., Kaltenbach, H.M., Stelling, J., 2023. &quot;ENKIE: A package forpredicting enzyme kinetic parameter values and their uncertainties&quot;. *bioRxiv*. -[DOI](https://doi.org/10.1101/2023.03.08.531697)</longdescription>
+</pkgmetadata>

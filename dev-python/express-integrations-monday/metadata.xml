@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># mondayA python client for the monday.com GraphQL APIFor the Monday API docs, [click here](https://monday.com/developers/v2#introduction-section).#### Requirements- Python &gt;= 3.6#### Getting started`pip install monday``monday` sample usage:```pythonfrom monday import MondayClientmonday = MondayClient('your token')monday.items.create_item(board_id='12345678', group_id='today',  item_name='Do a thing')```</longdescription>
+</pkgmetadata>

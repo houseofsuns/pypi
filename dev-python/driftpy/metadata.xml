@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># DriftPy&lt;div align=&quot;center&quot;&gt;    &lt;img src=&quot;docs/img/drift.png&quot; width=&quot;30%&quot; height=&quot;30%&quot;&gt;&lt;/div&gt;DriftPy is the Python client for the [Drift](https://www.drift.trade/) protocol. It allows you to trade and fetch data from Drift using Python.**[Read the full SDK documentation here!](https://drift-labs.github.io/driftpy/)**## Installation```pip install driftpy```Note: requires Python &gt;= 3.10.## SDK Examples- `examples/` folder includes more examples of how to use the SDK including how to provide liquidity/become an lp, stake in the insurance fund, etc.## Setting Up Dev Env`bash setup.sh`## Running Unit Tests`bash test.sh`## Building the docsLocal Docs: `mkdocs serve` Updating public docs: `poetry run mkdocs gh-deploy --force`## Releasing a new version of the package- `python new_release.py`- Create a new release at https://github.com/drift-labs/driftpy/releases.  - (The CI process will upload a new version of the package to PyPI.)</longdescription>
+</pkgmetadata>

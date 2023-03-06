@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># BingAI (ChatGPT)## Bing AI API for ChatGPT### Installation```pip install bingai --upgrade```## Important Feature - No Manual Intervention Required```100% Programmatic RunEdge browser opens up and automatically fetches tokens, no manual intervention whatsoever```### Usage```from bingai import BingSessionsession = BingSession(email, password)session.run()```Microsoft credentials for the account which has access to the Bing Chat feature</longdescription>
+</pkgmetadata>

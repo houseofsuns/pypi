@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ml_prepareRepository containing functions for preprocessing data for machine learning projects.# Installation```pip install mlprep-ls```# Import module```import mlprepare as mlp``` # How to use it[Tutorial](https://github.com/lschmiddey/ml_prepare/blob/main/2021-01-28-Tutorial-mlp.ipynb)</longdescription>
+</pkgmetadata>

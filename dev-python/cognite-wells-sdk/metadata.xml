@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Cognite Well Data Layer SDKCognite wells SDK is tool for interacting with the CDF Well Data Layer (WDL).The well data layer (WDL) is an abstraction on top of CDF resources able to concatenate well data (wellhead, wellbores, trajectories, logs and other measurements, casings) from different sources into a single contextualized representation of the well that is independent of source and customer.# UsagePlease see [the documentation](https://cognite-wells-sdk.readthedocs-hosted.com/en/latest/) for usage.</longdescription>
+</pkgmetadata>

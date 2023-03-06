@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Function Logger and TimerThis is a Python package that provides decorators for logging function execution and timing function execution.## InstallationYou can install the package using pip:'pip install log_exc_decorator'## Usage### Logging function executionTo log function execution, use the elog decorator. Here's an example:`from log_exc_decorator import elog````python@elogdef my_function():    # your code here    pass```This will log the start and end of my_function, as well as any exceptions that may occur.### Timing function executionTo time function execution, use the timeit decorator. Here's an example:```pythonfrom log_exc_decorator import timeit@timeitdef my_function():    # your code here    pass```This will time how long it takes to execute my_function and log the elapsed time.## ContributingPull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.Please make sure to update tests as appropriate.## LicenseApache</longdescription>
+</pkgmetadata>

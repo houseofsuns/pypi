@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># CastTubecasttube provides a way to interact with the Youtube Chromecast api.**Install:**```pip install casttube```**Features*** Play video* Play a playlist* Add video to the end of the play queue* Play next* Remove video* Clear the entire queue```from casttube import YouTubeSessionsession = YouTubeSession(screen_id)# YouTube video id is http://youtube.com/watch?v=video_idsession.play_video(video_id)```The library requires 2 things:1. screen id2. The Chromecast youtube app needs to be openThere is a small script in https://github.com/ur1katz/CastTube-Scripts to print the screen id and launch the app.</longdescription>
+</pkgmetadata>

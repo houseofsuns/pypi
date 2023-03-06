@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image:: https://travis-ci.org/ambitioninc/django-issue.png   :target: https://travis-ci.org/ambitioninc/django-issue.. image:: https://coveralls.io/repos/ambitioninc/django-issue/badge.png?branch=develop    :target: https://coveralls.io/r/ambitioninc/django-issue?branch=develop.. image:: https://img.shields.io/pypi/v/django-issue.svg    :target: https://pypi.python.org/pypi/django-issue/    :alt: Latest PyPI version.. image:: https://img.shields.io/pypi/dm/django-issue.svg    :target: https://pypi.python.org/pypi/django-issue/    :alt: Number of PyPI downloadsdjango-issue============An app for tracking ongoing issues within your web application.In a nutshell: a ticketing system for use by software components!Installation------------To install the latest release, type::    pip install django-issueTo install the latest code directly from source, type::    pip install git+git://github.com/ambitioninc/django-issue.gitDocumentation-------------Full documentation is available at http://django-issue.readthedocs.orgLicense-------MIT License (see LICENSE)</longdescription>
+</pkgmetadata>

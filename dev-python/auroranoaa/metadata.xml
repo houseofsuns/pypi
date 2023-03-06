@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Aurora API (auroranoaa)PyPi integration to support the Home Assistant Aurora integration.## Available Methods### get_forecast_data(longitude:float, latitude:float)Request the NOAA Aurora forecast for the given longitude and latitude.Return value will be an integer of the forecast % chance of there being an Aurora event at the given coordinates.</longdescription>
+</pkgmetadata>

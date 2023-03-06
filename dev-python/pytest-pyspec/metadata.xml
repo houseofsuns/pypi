@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![](https://github.com/felipecrp/pytest-pyspec/actions/workflows/pytest.yml/badge.svg)](https://github.com/felipecrp/pytest-pyspec/actions/workflows/pytest.yml)The **pytest-pyspec** plugin transforms the pytest output into a result similar to the RSpec.Just nest your tests using classes and include _docstring_ for each class and test. You can create any nested levels.The following test sample:```pythonimport pytestclass TestHouse:    &quot;a House&quot;        def test_door(self):        &quot;has door&quot;        assert 1 == 1            class TestTwoFloors:        &quot;&quot;&quot;with two floors                A house with two floor has stairs        &quot;&quot;&quot;        def test_stairs(self):            &quot;has stairs&quot;            assert 1 == 1        def test_second_floor(self):            &quot;has second floor&quot;            assert 1 == 1        def test_third_floor(self):            &quot;has third floor&quot;            assert 1 == 2```Generates the following output:```test/test_sample.py A house  ✓ Has doorA house  With two floors    ✓ Has stairs    ✓ Has second floor    ✗ Has third floor```## Installing and running **pySpec**```bashpip install pytest-pyspecpytest --pyspec```</longdescription>
+</pkgmetadata>

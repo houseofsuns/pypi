@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>rpaframework-windows====================This library enables Windows automation for the  `RPA Framework`_libraries based on `uiautomation`_ dependency... _RPA Framework: https://rpaframework.org.. _uiautomation: https://github.com/yinkaisheng/Python-UIAutomation-for-Windows</longdescription>
+</pkgmetadata>

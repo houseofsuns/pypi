@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ROVAWrapper to get ROVA calendar from Rova's APIAcces to ROVA API has been simplified since version 0.2.1 of this wrapperJust use https://www.rova.nl/api/waste-calendar/upcoming?postalcode=1000AA&amp;houseNumber=1&amp;addition=&amp;take=5with a existing combination of postalcode, housenumber, [housenumber addition]take=5 means that five upcoming dates are returned, min is 1 max unknownBe aware that ROVA API has not been officially published by ROVA.## Create a new connection by supplying your zip code and house number```r = rova.Rova(YOUR_ZIP_CODE, YOUR_HOUSE_NUMBER, [YOUR_HOUSE_NUMBER_ADDITION])```## API RequestCheck wether ROVA collects garbage at the given zip code and house number and addition```def is_rova_area():```This method return the parsed JSON response as a list.```def get_calendar_items([TAKE]):```</longdescription>
+</pkgmetadata>

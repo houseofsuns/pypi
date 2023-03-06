@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># st-cardStreamlit Component, for a UI cardauthors - [@gamcoh](https://github.com/gamcoh) @Pernod Ricard## InstallationInstall `streamlit-card` with pip```bashpip install streamlit-card ```usage, import the `card` function from `streamlit_card````pyfrom streamlit_card import cardhasClicked = card(  title=&quot;Hello World!&quot;,  text=&quot;Some description&quot;,  image=&quot;http://placekitten.com/200/300&quot;  url=&quot;https://github.com/gamcoh/st-card&quot;)```   </longdescription>
+</pkgmetadata>

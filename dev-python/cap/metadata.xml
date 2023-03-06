@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Cap: lightweight package for use network captures[![PyPI version](https://img.shields.io/pypi/v/cap.svg)](https://pypi.python.org/pypi/cap/)[![PyPI downloads](https://img.shields.io/pypi/dm/cap.svg)](https://pypi.python.org/pypi/cap/)[![GitHub](https://img.shields.io/github/license/netanelrevah/cap)](https://pypi.python.org/pypi/cap/)[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/cap)](https://pypi.python.org/pypi/cap/)The idea is to read and write capture files like it is really a serialized data. The API is ment to be close as possible to json and pickle APIs.## Installation:install the package by:``` bashpip install cap```or from the source:``` bashpython setup.py install```## Usage:### read cap:```pythonimport capcaptured_packets = cap.load(open(&quot;C:\\test.cap&quot;, &quot;rb&quot;))```### filter about somthing```pythonip_v4_captured_packet = []for captured_packet in captured_packets:    if captured_packet.data[12:14] == '\x08\x00':        ip_v4_captured_packet.append(p)```### dump filtered packets```pythoncap.dump(ip_v4_captured_packet, open('C:\\new_test.cap', &quot;wb&quot;))```Have a nice use and please report about problems and issues.Thank you.</longdescription>
+</pkgmetadata>

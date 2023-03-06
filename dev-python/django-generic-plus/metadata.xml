@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>django-generic-plus###################.. image:: https://github.com/theatlantic/django-generic-plus/actions/workflows/test.yml/badge.svg    :target: https://github.com/theatlantic/django-generic-plus/actions    :alt: Build Status**django-generic-plus** is a python module which provides a Django modelfield that combines the functionality of GenericForeignKey and FileFieldinto a single field.It is useful in situations where one wishes to associate metadata with aFileField or ImageField. It is currently used by`django-cropduster &lt;https://github.com/theatlantic/django-cropduster&gt;`_.</longdescription>
+</pkgmetadata>

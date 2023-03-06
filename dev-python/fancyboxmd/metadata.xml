@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Fancybox markdown extensionThis markdown extension creates [fancybox images](http://fancybox.net/).### Markdown```md!![Title](image.png &quot;Description&quot;)```### HTML```html&lt;figure&gt;  &lt;a data-caption=&quot;Description&quot; data-fancybox=&quot;gallery&quot; href=&quot;image.png&quot;&gt;    &lt;img alt=&quot;Title&quot; src=&quot;image.png&quot; title=&quot;Title&quot; width=&quot;600px&quot; /&gt;  &lt;/a&gt;  &lt;figcaption&gt;    Description  &lt;/figcaption&gt;&lt;/figure&gt;```## Using it with mkdocsEnable it in mkdocs.yml```ymlmarkdown_extensions:  - fancyboxmd```Enable fancybox in mkdocs.yml```yml# Cssextra_css:  - https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css# Extra javascriptextra_javascript:  - https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js  - https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js```## ConfigurationIt supports one configuration option `preview_width` which defaults to `600px`.</longdescription>
+</pkgmetadata>

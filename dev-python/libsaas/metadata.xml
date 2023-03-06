@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>libsaas==========A library to take the pain out of using SaaS APIs.It provides an abstraction layer on top of various APIs, taking care ofconstructing the URLs, serializing parameters and authentication. You just callPython methods and receive Python objects.It's like an ORM for SaaS!Libsaas is built by Ducksboard_ and distributed under the MIT license. You canfile bugs in the `issue tracker`_, browse the documentation_ or help out bycontributing support for new services... _Ducksboard: http://ducksboard.com/.. _issue tracker: https://github.com/ducksboard/libsaas/issues.. _documentation: http://docs.libsaas.net/</longdescription>
+</pkgmetadata>

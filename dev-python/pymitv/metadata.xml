@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pymitv======A Python 3 based control of the Mi Tv 3(s).. figure:: https://i.imgur.com/kOLWhWU.jpg   :alt: The Mi TV 3s 65-inchThe Mi TV 3s 65-inchIntroduction------------This package was developed to interface with the Xiaomi TV 3 seriesthrough their local HTTP API using Python. The package has both theability to discover TVs and control them. The TV lineup in question isthis `one.`_ It should be noted, that all the TV logic and hardware isin the soundbar. Thus, if you have a soundbar that looks identical tothe one in the picture, you should be golden with this library.Supported models''''''''''''''''- Mi TV 3s (all sizes)Not sure if supported models''''''''''''''''''''''''''''- Mi TV 4A (all sizes)Documentation-------------You can find the documentation on Github here_... _one.: http://www.mi.com/en/mitv3s/65/.. _here: https://github.com/fattdev/pymitv</longdescription>
+</pkgmetadata>

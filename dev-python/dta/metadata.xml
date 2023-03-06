@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># dta (Dict to Attributes)dta is very small dict (or json) to attributes converter.  It is only have 1 files and applied to every python versions.  No need dependencies required so your repository size won't go to hell.## Features- Ability to convert lame dict object to class attributes!- Ability to convert those attributes back to dict!## InstallationUse pip to install [package](https://pypi.org/project/dta)```bashpip install dta```Or Use github repository and build it```bashpip install git+https://github.com/dumb-stuff/dta```## UsageImport dta.```pyimport dta```For converting to attributes do```pyimport dta SomeCoolConvertedDictToAttributes = dta.Dict2Attr({&quot;stuff&quot;:[&quot;balls&quot;,&quot;watch anime girls&quot;,&quot;OwO&quot;]})SomeCoolConvertedDictToAttributes.stuff[1]```For converting attributes back to dict for saving purpose do```pyimport dtadta.Attr2Dict(SomeCoolConvertedDictToAttributes)```</longdescription>
+</pkgmetadata>

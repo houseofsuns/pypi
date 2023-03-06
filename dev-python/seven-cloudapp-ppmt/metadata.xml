@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># seven_cloudapp_ppmt## 天志互联Python淘宝云应用框架库(潮玩盲盒)### 1.0.34 更新内容* 千牛端导入订单修改### 1.0.33 更新内容* 机台表新增字段machine_bg_pic### 1.0.32.17 更新内容* 新版本### 1.0.19 更新内容* 修改抽奖报错### 1.0.18 更新内容* 去掉monitor监控* UserListHandler改成全部字段输出### 1.0.16 更新内容* 购买订单并发优化### 1.0.15 更新内容* 增加分享新用户上报### 1.0.13 更新内容* 潮玩盲盒v2.0整合### 1.0.2 更新内容* 框架内容添加</longdescription>
+</pkgmetadata>

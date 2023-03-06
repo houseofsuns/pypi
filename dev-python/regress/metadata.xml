@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>===========``regress``===========|PyPI| |Pythons| |CI|.. |PyPI| image:: https://img.shields.io/pypi/v/regress.svg  :alt: PyPI version  :target: https://pypi.org/project/regress/.. |Pythons| image:: https://img.shields.io/pypi/pyversions/regress.svg  :alt: Supported Python versions  :target: https://pypi.org/project/regress/.. |CI| image:: https://github.com/Julian/regress/workflows/CI/badge.svg  :alt: Build status  :target: https://github.com/Julian/regress/actions?query=workflow%3ACIPython bindings to the Rust `regress &lt;https://docs.rs/regress/latest/regress/&gt;`_ crate, exposing ECMA regular expressions... code:: python    &gt;&gt;&gt; from regress import Regex    &gt;&gt;&gt; regex = Regex(r&quot;\d{4}&quot;)    &gt;&gt;&gt; regex.find(&quot;2020-20-05&quot;) is not None    True</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># tree![Versions](https://img.shields.io/badge/python-&gt;3.7-blue)[![Documentation Status](https://readthedocs.org/projects/sdss-tree/badge/?version=latest)](https://sdss-tree.readthedocs.io/en/latest/?badge=latest)[![Travis (.org)](https://img.shields.io/travis/sdss/tree)](https://travis-ci.org/sdss/tree)[![codecov](https://codecov.io/gh/sdss/tree/branch/master/graph/badge.svg)](https://codecov.io/gh/sdss/tree)[![Coveralls](https://coveralls.io/repos/github/sdss/tree/badge.svg)](https://coveralls.io/github/sdss/tree)This product contains the definition(s) of the SDSS Science Archiver Server (SAS) filesystem environment tree(s).  Itsets up the SDSS environment configuration files for loading either via the [Modules Environment Manager](http://modules.sourceforge.net/) or dynamically with a ``tree.Tree`` python package.  Available environments are a SDSS &quot;working&quot; environment, i.e. ``sdsswork`` or any number of environments for public DataReleases, i.e. ``dr16.cfg``.  See full documentation at http://sdss-tree.readthedocs.io/en/latest/.Useful links------------- GitHub: https://github.com/sdss/tree- Documentation: https://sdss-tree.readthedocs.org- Issues: https://github.com/sdss/tree/issues</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># datasette-ui-extras[![PyPI](https://img.shields.io/pypi/v/datasette-ui-extras.svg)](https://pypi.org/project/datasette-ui-extras/)[![Changelog](https://img.shields.io/github/v/release/cldellow/datasette-ui-extras?include_prereleases&amp;label=changelog)](https://github.com/cldellow/datasette-ui-extras/releases)[![Tests](https://github.com/cldellow/datasette-ui-extras/workflows/Test/badge.svg)](https://github.com/cldellow/datasette-ui-extras/actions?query=workflow%3ATest)[![codecov](https://codecov.io/gh/cldellow/datasette-ui-extras/branch/main/graph/badge.svg?token=QRV8VXYKTW)](https://codecov.io/gh/cldellow/datasette-ui-extras)[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/cldellow/datasette-ui-extras/blob/main/LICENSE)This plugin aims to be a batteries-included theme that makes Datasette more like a self-hosted Airtable or Notion.You can share read-only access, while still allowing authenticated users to edit data.## DemoYou can see a demo at https://dux.fly.dev/## User documentationSee our documentation site at https://dux.cldellow.com## DevelopmentTo set up this plugin locally, first checkout the code. Then create a new virtual environment:    cd datasette-ui-extras    python3 -m venv venv    source venv/bin/activateNow install the dependencies and test dependencies:    pip install -e '.[test]'To run the tests:    pytest</longdescription>
+</pkgmetadata>

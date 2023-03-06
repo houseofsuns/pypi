@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;!--https://readme42.com--&gt;[![](https://img.shields.io/pypi/v/pypi-xmlrpc.svg?maxAge=3600)](https://pypi.org/project/pypi-xmlrpc/)[![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)### Installation```bash$ [sudo] pip install pypi-xmlrpc```#### Examples`user_packages(user)` `[(role,name),...]````python&gt;&gt;&gt; packages = pypi_xmlrpc.user_packages(&quot;kennethreitz&quot;) # user packages&gt;&gt;&gt; for role, name in packages:````package_releases(name)````python&gt;&gt;&gt; pypi_xmlrpc.package_releases(&quot;requests&quot;)['x.y.z',..., '0.0.1']````package_roles(name)` `[(role,name),...]````python&gt;&gt;&gt; pypi_xmlrpc.package_roles(&quot;requests&quot;)[('role','username'),...]````release_data(name,version)````python&gt;&gt;&gt; pypi_xmlrpc.release_data(&quot;requests&quot;,&quot;x.y.z&quot;){'name': 'requests',...}````release_urls(name,version)````python&gt;&gt;&gt; pypi_xmlrpc.release_urls(&quot;requests&quot;,&quot;x.y.z&quot;)[...]```#### Links+   [PyPiXmlRpc - PythonInfo Wiki](http://wiki.python.org/moin/PyPiXmlRpc)&lt;p align=&quot;center&quot;&gt;    &lt;a href=&quot;https://readme42.com/&quot;&gt;readme42.com&lt;/a&gt;&lt;/p&gt;</longdescription>
+</pkgmetadata>

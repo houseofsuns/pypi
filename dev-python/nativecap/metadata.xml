@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># nativecapTake a screenshot with Python, natively, using a method based on[that answer](https://stackoverflow.com/a/16141058/1025222).## Setup```pip install nativecap```## Usage```pythonimport nativecap# outputs an array containing pixel colors in the BGRA formatbuffer = nativecap.capture(top_left_x, top_left_y, width, height)```## Example```pythonimport cv2import numpy as npimport nativecapimport platformx = 0y = 0width = 640height = 480buffer = nativecap.capture(x, y, width, height)image = np.ctypeslib.as_array(buffer)image = image.reshape(width, height, 4)cv2.imshow(&quot;image&quot;, image)cv2.waitKey(0)```</longdescription>
+</pkgmetadata>

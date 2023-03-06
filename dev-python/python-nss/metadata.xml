@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>python-nss is a Python binding for NSS (Network Security Services) andNSPR (Netscape Portable Runtime). NSS provides cryptography servicessupporting SSL, TLS, PKI, PKIX, X509, PKCS*, etc. NSS is analternative to OpenSSL and used extensively by major softwareprojects. NSS is FIPS-140 certified.NSS is built upon NSPR because NSPR provides an abstraction of commonoperating system services, particularly in the areas of networking andprocess management. Python also provides an abstraction of commonoperating system services but because NSS and NSPR are tightly boundpython-nss exposes elements of NSPR.More information on python-nss can be found on the`python-nss project page &lt;http://www.mozilla.org/projects/security/pki/python-nss&gt;`_For information on NSS and NSPR, see the following:    * Network Security Services. `NSS project page &lt;http://www.mozilla.org/projects/security/pki/nss/&gt;`_.    * Netscape Portable Runtime. `NSPR project page &lt;http://www.mozilla.org/projects/nspr/&gt;`_.To build python-nss you the C language header files and libraries forboth NSPR and NSS will need to be installed. This is system anddistribution specific, as such we cannot give you explicitinstructions. On Linux typically these packages are called:    * nss-devel    * nspr-develUse your system package manger to install them, for example on Fedora:    % sudo yum install nss-devel nspr-develAfter all packages are installed, then:    % python setup.py build    % sudo python setup.py installTo generate the API documentation:    % python setup.py build_doc</longdescription>
+</pkgmetadata>

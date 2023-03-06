@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>==========================rinoh-typeface-dejavuserif==========================This package provides the `DejaVu Serif`_ typeface for use with rinohtype_. TheDejaVu fonts are a font family based on the `Vera Fonts`_. Its purpose is toprovide a wider range of characters while maintaining the original look andfeel through the process of collaborative development, under a Free license... _DejaVu Serif: http://dejavu-fonts.org.. _Vera Fonts: http://gnome.org/fonts/.. _rinohtype: https://github.com/brechtm/rinohtype#readme</longdescription>
+</pkgmetadata>

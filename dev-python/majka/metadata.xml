@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Native cPython binding to a C++ implementation of morphological analyser named Majka.Tags returned from the analyser are also transcribed into a native Python dictionaryto enable a much more Python-like experience without a need to study the documentation.Based on code of Pavel Smerk and Pavel Rychly, NLP group at MUNI, Czech Republic.Morphological automatons are distributed separately under different licences.See http://nlp.fi.muni.cz/ma/</longdescription>
+</pkgmetadata>

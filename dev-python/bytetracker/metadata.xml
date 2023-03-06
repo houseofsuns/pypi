@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;div align=&quot;center&quot;&gt;&lt;h2&gt;  ByteTrack-Pip: Packaged version of the ByteTrack repository  &lt;/h2&gt;&lt;h4&gt;    &lt;img width=&quot;700&quot; alt=&quot;teaser&quot; src=&quot;assets/demo.gif&quot;&gt;&lt;/h4&gt;&lt;div&gt;    &lt;a href=&quot;https://pepy.tech/project/bytetracker&quot;&gt;&lt;img src=&quot;https://pepy.tech/badge/bytetracker&quot; alt=&quot;downloads&quot;&gt;&lt;/a&gt;    &lt;a href=&quot;https://badge.fury.io/py/bytetracker&quot;&gt;&lt;img src=&quot;https://badge.fury.io/py/bytetracker.svg&quot; alt=&quot;pypi version&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;## &lt;div align=&quot;center&quot;&gt;Overview&lt;/div&gt;This repo is a packaged version of the [ByteTrack](https://github.com/ifzhang/ByteTrack) algorithm.### Installation```pip install bytetracker```### Detection Model + ByteTrack ```pythonfrom bytetracker import BYTETrackertracker = BYTETracker(args)for image in images:   dets = detector(image)   online_targets = tracker.update(dets)```### Reference: - [Yolov5-Pip](https://github.com/fcakyon/yolov5-pip) - [ByteTrack](https://github.com/ifzhang/ByteTrack)### Citation```bibtex@article{zhang2022bytetrack,  title={ByteTrack: Multi-Object Tracking by Associating Every Detection Box},  author={Zhang, Yifu and Sun, Peize and Jiang, Yi and Yu, Dongdong and Weng, Fucheng and Yuan, Zehuan and Luo, Ping and Liu, Wenyu and Wang, Xinggang},  booktitle={Proceedings of the European Conference on Computer Vision (ECCV)},  year={2022}}```</longdescription>
+</pkgmetadata>

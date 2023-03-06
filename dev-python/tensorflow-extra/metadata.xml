@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Tensorflow Extra&gt; Extra Utilities for Tensorflow# Installation```shellpip install tensorflow-extra```# Activations## SmeLU: Smooth ReLU```pyimport tensorflow as tfimport tensorflow_extra as tfea = tf.constant([-2.5, -1.0, 0.5, 1.0, 2.5])b = tfe.activations.smelu(a)  # array([0., 0.04166667, 0.6666667 , 1.0416666 , 2.5])```&lt;img src=&quot;images/smelu.png&quot; width=500&gt;</longdescription>
+</pkgmetadata>

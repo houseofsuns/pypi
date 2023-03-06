@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># norminette for 42 schools## Install:Requires python3.7+ (3.7, 3.8, 3.9)### Directly inside your global commandsInstall using pip.```shellpython3 -m pip install --upgrade pip setuptoolspython3 -m pip install norminette```To upgrade an existing install, use```shellpython3 -m pip install --upgrade norminette```### Inside a virtual environmentUsing a virtual environment will avoid version conflicts with already globally installed packages.```shellpython3 -m venv venvsource venv/bin/activatepip install norminette```## Usage```norminette```Runs on the current folder and any subfolder```norminette filename.[c/h]```Runs on the given filename(s)```norminette -d```Prevents stopping on various blocking errors```norminette -dd```Outputs all the debug logging## Docker usage```docker build -t norminette .cd ~/42/ft_printfdocker run -v $PWD:/code norminette /code```If you encounter an error or an incorrect output, you can: - Open an issue on github  - Post a message on the dedicated slack channel (#norminette-v3-beta)    Please try to include as much information as possible (the file on which it crashed, etc)Feel free to do pull requests if you want to help as well. Make sure that run_test.sh properly runs after your modifications.</longdescription>
+</pkgmetadata>

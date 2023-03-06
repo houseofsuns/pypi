@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;!--https://readme42.com--&gt;[![](https://img.shields.io/pypi/v/replace.svg?maxAge=3600)](https://pypi.org/project/replace/)[![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)### Installation```bash$ [sudo] pip install replace```#### Examples```pythonimport replace&gt;&gt;&gt; replace.replace([&quot;3.6&quot;,&quot;3.7&quot;,&quot;3.8&quot;], {&quot;3.7&quot;: &quot;3.7-dev&quot;, &quot;3.8&quot;: &quot;3.8-dev&quot;})[&quot;3.6&quot;,&quot;3.7-dev&quot;,&quot;3.8-dev&quot;&quot;3.8&quot;]``````python&gt;&gt;&gt; replace.replace(&quot;package/module.py&quot;, {&quot;/&quot;: &quot;.&quot;, &quot;.py&quot;: &quot;&quot;})&quot;package.module&quot;```&lt;p align=&quot;center&quot;&gt;    &lt;a href=&quot;https://readme42.com/&quot;&gt;readme42.com&lt;/a&gt;&lt;/p&gt;</longdescription>
+</pkgmetadata>

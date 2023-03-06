@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># sd_notifySimple sd_notify(3) client functionality implemented in Python 3.Usage:```import sd_notifynotify = sd_notify.Notifier()if not notify.enabled():    # Then it's probably not running is systemd with watchdog enabled    raise Exception(&quot;Watchdog not enabled&quot;)# Report a status messagenotify.status(&quot;Initialising my service...&quot;)time.sleep(3)# Report that the program init is completenotify.ready()notify.status(&quot;Waiting for web requests...&quot;)time.sleep(3)# Report an error to the service managernotify.notify_error(&quot;An irrecoverable error occured!&quot;)# The service manager will probably kill the program heretime.sleep(3)```Author: stig@stigok.com Dec 2019## Reference### `&lt;class 'sd_notify.Notifier'&gt;`#### `_send(msg)`Send string `msg` as bytes on the notification socket#### `enabled()`Return a boolean stating whether watchdog is enabled#### `notify()`Report a healthy service state#### `notify_error(msg=None)`Report a watchdog error. This program will likely be killed by theservice manager.If `msg` is not None, it will be reported as an error message to theservice manager.#### `ready()`Report ready service state, i.e. completed initialisation#### `status(msg)`Set a service status message</longdescription>
+</pkgmetadata>

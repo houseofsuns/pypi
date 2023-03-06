@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Fast Sentence Segmentation (fast-sentence-segment)Fast and Efficient Sentence SegmentationUsage```pythonfrom fast_sentence_segment import segment_textresults = segment_text(    'here is a dr. who says something.  and then again, what else?  i dont know.  Do you?')assert results == [    [        'here is a dr. who says something.',        'and then again, what else?',        'i dont know.',        'Do you?'    ]]```Why use a double-scripted list?The segementation process will segment into paragraphs and sentences.  A paragraph is composed of 1..* sentences, hence each list of lists is equivalent to a paragraph.This usage```pythonresults = segment_text(input_text, flatten=True)```Will return a list of strings, regardless of paragraph delimitation.</longdescription>
+</pkgmetadata>

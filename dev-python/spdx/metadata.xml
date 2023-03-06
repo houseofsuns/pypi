@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>spdx====A Python module incorporating an interface to the SPDX license database.This library serves purely as a holder for the database that can befound on `the SPDX website &lt;https://spdx.org/licenses/&gt;`__.To more easily query this database or detect licenses, consider usingsomething like`spdx-lookup &lt;https://pypi.python.org/pypi/spdx-lookup&gt;`__.Usage-----See the ``spdx/__init__.py`` file for the very simple interface.tl;dr: ``spdx.licenses()`` gets you the licenses, and ``spdx.License``is a nice wrapper for interacting with them.</longdescription>
+</pkgmetadata>

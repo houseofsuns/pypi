@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Headliner is a sequence modeling library that eases the training and **in particular, the deployment of custom sequence models** for both researchers and developers. You can very easily deploy your models in a few lines of code. It was originally built for our own research to generate headlines from news articles. That's why we chose the name, Headliner. Although this library was created internally to generate headlines, you can also use it for other tasks like machine translations,text summarization and many more.Read the documentation at: https://as-ideas.github.io/headliner/Headliner is compatible with Python 3.6+ and is distributed under the MIT license.</longdescription>
+</pkgmetadata>

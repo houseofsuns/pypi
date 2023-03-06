@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Example PackageThis is the OMG package. You can use[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)to write your content.py -m buildpy setup.py sdist bdist_wheelpy setup.py sdist uploadpy -m twine upload dist/*py -m twine upload --skip-existing dist/*py -m twine upload --repository testpypi dist/*py -m twine upload --repository testpypi --skip-existing dist/*py -m pip install --index-url  https://test.pypi.org/project/pyomega/0.0.2/ --no-deps pyomega-pyomegapy -m pip install -i https://test.pypi.org/simple/ pyomega==0.0.2</longdescription>
+</pkgmetadata>

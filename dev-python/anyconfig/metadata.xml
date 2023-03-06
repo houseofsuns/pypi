@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>python-anyconfig is a python library provides common APIs to load and dumpconfiguration files in various formats with some useful features such ascontents merge, templates, query, schema validation and generation support.- Home: https://github.com/ssato/python-anyconfig- Author: Satoru SATOH &lt;satoru.satoh@gmail.com&gt;- License: MIT</longdescription>
+</pkgmetadata>

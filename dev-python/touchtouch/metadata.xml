@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Creates a file (and folders if they don't exist) at the given path```python$pip install touchtouchfrom touchtouch import touchtouch('f:\\dada\\baba\\caca\\myfile.html')# original: https://github.com/andrewp-as-is/touch.py (not working anymore)```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>AlekSIS (School Information System) — App Paweljong (Camp/Event management)==================================================================================================AlekSIS-------This is an application for use with the `AlekSIS®`_ platform.Features--------The author of this app did not describe it yet.Licence-------::  Copyright © 2018, 2021, 2022 Dominik George &lt;dominik.george@teckids.org&gt;  Copyright © 2019, 2022 Tom Teichler &lt;tom.teichler@teckids.org&gt;  Licenced under the EUPL, version 1.2 or laterPlease see the LICENCE.rst file accompanying this distribution for thefull licence text or on the `European Union Public Licence`_ websitehttps://joinup.ec.europa.eu/collection/eupl/guidelines-users-and-developers(including all other official language versions).Trademark---------AlekSIS® is a registered trademark of the AlekSIS open source project, representedby Teckids e.V. Please refer to the `trademark policy`_ for hints on using the trademarkAlekSIS®... _AlekSIS®: https://edugit.org/AlekSIS/AlekSIS.. _European Union Public Licence: https://eupl.eu/.. _trademark policy: https://aleksis.org/pages/about</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## deqrA python library for decoding QR codes. Implemented as a cython wrapper aroundtwo different QR code decoding backends (quirc and qrdec).### Install```pip install deqr```### [Documentation][documentation][documentation]: https://torque.github.io/deqr-docs/latest-dev/</longdescription>
+</pkgmetadata>

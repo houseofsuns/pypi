@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># spfy-----**Table of Contents*** [Installation](#installation)* [License](#license)## Installationspfy is distributed on [PyPI](https://pypi.org) as a universalwheel and is available on Linux/macOS and Windows and supportsPython 3.6+ and PyPy.```bash$ pip install spfy```## Licensespfy is distributed under the terms of both- [MIT License](https://choosealicense.com/licenses/mit)- [Apache License, Version 2.0](https://choosealicense.com/licenses/apache-2.0)at your option.</longdescription>
+</pkgmetadata>

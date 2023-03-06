@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># discord_loggingdiscord_logging is a logging extension module.  By using this module, logs can be sent by webhook.  # installing  Install and update using pip:`pip install discord_logging`  A simple example.  ```pythonimport discordimport loggingimport discord_logginglogger = logging.getLogger()WEBHOOK_URL = &quot;Your webhook url&quot;handler = discord_logging.Discord_Handler(WEBHOOK_URL)logger.addHandler(handler)client = discord.Client()@client.eventasync def on_ready():    print('login！(\'◇\')ゞ')@client.eventasync def on_message(message):    if message.author.bot:        return    if message.content == '/hello':        await message.channel.send('hello')client.run('THi5IsDuMMyaCCesSTOK3nQ4.Cl2FMQ.ThIsi5DUMMyAcc3s5ToKen7kKWs')```</longdescription>
+</pkgmetadata>

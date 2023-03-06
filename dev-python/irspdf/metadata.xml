@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># README## Presentationirspdf is a simple textual information retrieval system for pdf documents.Text is extracted from pdf with [pdfplumber](https://pypi.org/project/pdfplumber/).Standard text preprocessing for information retrieval is applied:* StopWord removal* Stemming * Punctuation removal* Lowercase conversionThe ranking function used is BM25.## Installation### Install with pip```pip install irspdf```### OR install from github```git clone https://github.com/Jibril-Frej/irspdf.gitcd irspdf &amp;&amp; python setup.py install```## Usage### Build a collection```from irspdf import buildbuild(folder_path, collection_path)```folder_path : path of the folder that contains all the pdf files to include to the collection.collection_path : file where the collection will be saved### Query the collection```from irspdf import queryquery(collection_path)```collection_path : file where the collection is saved### Update the collection```from irspdf import updateupdate(folder_path, collection_path)```folder_path : path of the folder that contains all the pdf files to add to the collection.collection_path : file where the original collection is saved## Useful linksDocumentation:  [https://irspdf.readthedocs.io/en/latest/](https://irspdf.readthedocs.io/en/latest/).Source Code: [https://github.com/Jibril-Frej/irspdf](https://github.com/Jibril-Frej/irspdf)Package: [https://pypi.org/project/irspdf/](https://pypi.org/project/irspdf/)</longdescription>
+</pkgmetadata>

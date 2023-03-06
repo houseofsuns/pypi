@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># HitSaveEffortless data.Optimize your team's workflow with cloud memoization, experiment tracking and effortless data versioning.Find out more at https://hitsave.io.# Quickstart```shpip install hitsave```Take any functon in your project, decorate it with `@memo`.```pyfrom hitsave import memodef dependency(y):  # try changing the method body!  return y + y@memodef long_running_function(x):  print(f&quot;Running {x}!&quot;)  return x + 2 + dependency(x)long_running_function(3)long_running_function(4)```When you run this python file, `@memo` will cache the results to disk (and toour cloud service). When you run the file again, the cache will be used ratherthan re-running the function. `@memo` analyses the code-dependencies of yourcode and determines when to invalidate the cache. You can add `@memo` to anyfunction where the output is picklable.</longdescription>
+</pkgmetadata>

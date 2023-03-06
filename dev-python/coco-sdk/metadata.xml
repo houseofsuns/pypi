@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># CoCoHub SDK to use components in python codehttps://www.conversationalcomponents.com[![asciicast](https://asciinema.org/a/291261.svg)](https://asciinema.org/a/291261)## Installation```bashpip install coco-sdk```#### With async support```bashpip install coco-sdk[async]```## Usage```pythonimport cocoimport uuidsession_id = str(uuid.uuid4()) # generate a random session id# directly calling exchange:response = coco.exchange(&quot;namer_vp3&quot;, session_id, user_input=&quot;hello&quot;) # namer_vp3 is CoCoHub component# using ConversationalComponent APIcomp = coco.ConversationalComponent(&quot;namer_vp3&quot;)response = comp(session_id, &quot;hello&quot;)# using ComponentSession APIsession_with_component = coco.ComponentSession(&quot;namer_vp3&quot;) response = session_with_component(&quot;hello&quot;)```#### Async```pythonimport coco.async_api as coco# directly calling exchange:response = await coco.exchange(&quot;namer_vp3&quot;, session_id, user_input=&quot;hello&quot;) # namer_vp3 is CoCoHub component# using ConversationalComponent APIcomp = coco.ConversationalComponent(&quot;namer_vp3&quot;)response = await comp(session_id, &quot;hello&quot;)# using ComponentSession APIsession_with_component = coco.ComponentSession(&quot;namer_vp3&quot;) response = await session_with_component(&quot;hello&quot;)```</longdescription>
+</pkgmetadata>

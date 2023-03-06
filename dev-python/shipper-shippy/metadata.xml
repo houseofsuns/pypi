@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># shippy![version](https://img.shields.io/github/v/release/ericswpark/shippy)![commits-since](https://img.shields.io/github/commits-since/ericswpark/shippy/latest)[![PyPI](https://img.shields.io/pypi/v/shipper-shippy)![PyPI - Downloads](https://img.shields.io/pypi/dm/shipper-shippy)](https://pypi.org/project/shipper-shippy/)Client-side tool to interface with shipper# UsageGet shippy from PyPI:```shellpip3 install --upgrade shipper-shippy```Go to the directory with build files, and run:```shellshippy```Run `shippy -h` to see commandline arguments' usage instructions.# Configurationshippy stores its configuration in `~/.shippy.ini`. An example configuration file is shown below:```ini[shippy]server = https://example.comtoken = a1b2c3d4e5...DisableBuildOnUpload = falseUploadWithoutPrompt = false```Configuration options explained:### `server`Server URL### `token`Token used to sign in to the server### `DisableBuildOnUpload`Immediately disables the build after uploading it. Useful if you are uploading from Jenkins or uploading potentiallyunstable builds. Do NOT use under normal circumstances!### `UploadWithoutPrompt`shippy will not prompt you before uploading builds, and will automatically upload all builds found in the currentdirectory. Use with caution. Same as the `-y`/`--yes` flag shown above.</longdescription>
+</pkgmetadata>

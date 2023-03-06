@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># django_periodiq**django_periodiq** is a Django app that integrates with [Periodiq][periodiq].## Requirements* [django-dramatiq][django-dramatiq] 0.11.0+* [Periodiq][periodiq] 0.12.1+## Installation    pip install django-periodiqAdd `django_periodiq` to installed apps *before* any of your customapps and *after* `django_dramatiq`:``` pythonINSTALLED_APPS = [    &quot;django_dramatiq&quot;,    &quot;django_periodiq&quot;,    &quot;myprojectapp1&quot;,    &quot;myprojectapp2&quot;,    # etc...]```Add `periodiq.PeriodiqMiddleware` to `DRAMATIQ_BROKER` middlewares:``` pythonDRAMATIQ_BROKER = {    &quot;MIDDLEWARE&quot;: [            ...        &quot;periodiq.PeriodiqMiddleware&quot;,    ],}```To change `PeriodiqMiddleware.skip_delay` add `PERIODIQ_SKIP_DELAY` settingsRun dramatiq:```shellpython manage.py rundramatiq````Run periodiq:```shellpython manage.py runperiodiq```[periodiq]: https://gitlab.com/bersace/periodiq[django-dramatiq]: https://github.com/Bogdanp/django_dramatiq</longdescription>
+</pkgmetadata>

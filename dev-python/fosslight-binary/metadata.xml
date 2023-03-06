@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;!--Copyright (c) 2021 LG ElectronicsSPDX-License-Identifier: Apache-2.0 --&gt;# FOSSLight Binary Scanner&lt;img src=&quot;https://img.shields.io/pypi/l/fosslight_binary&quot; alt=&quot;FOSSLight Binary is released under the Apache-2.0.&quot; /&gt; &lt;img src=&quot;https://img.shields.io/pypi/v/fosslight_binary&quot; alt=&quot;Current python package version.&quot; /&gt; &lt;img src=&quot;https://img.shields.io/pypi/pyversions/fosslight_binary&quot; /&gt; [![REUSE status](https://api.reuse.software/badge/github.com/fosslight/fosslight_binary_scanner)](https://api.reuse.software/info/github.com/fosslight/fosslight_binary_scanner)## 💡 IntroductionIt searches for a binary and outputs OSS information    if there is an identical or similar binary from the Binary DB.## 📖 User GuideWe describe the user guide in the FOSSLight guide page.Please see the [**User Guide**](https://fosslight.org/fosslight-guide-en/scanner/4_binary.html) for more information on how to install and run it.## 👏 Contributing GuideWe always welcome your contributions.  Please see the [CONTRIBUTING guide](https://fosslight.org/fosslight-guide-en/learn/1_contribution.html) for how to contribute.## 📄 LicenseFOSSLight Binary Scanner is Apache-2.0, as found in the [LICENSE][l] file.[l]: https://github.com/fosslight/fosslight_binary_scanner/blob/main/LICENSE</longdescription>
+</pkgmetadata>

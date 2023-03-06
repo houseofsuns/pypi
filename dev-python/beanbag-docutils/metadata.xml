@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=====================Beanbag Doc Utilities=====================This is a collection of utilities to help with generating documentation forBeanbag-related products, including:* `Review Board`_ - Our widely-used open source code review product.* RBCommons_ - Our Review Board SaaS.* Djblets_ - A set of utilities and infrastructure for Django-based projects.* RBTools_ - Command line tools for Review Board and RBCommons... _Review Board: https://www.reviewboard.org/.. _RBCommons: https://www.rbcommons.com/.. _Djblets: https://github.com/djblets/djblets/.. _RBTools: https://github.com/reviewboard/rbtools/Compatibility=============* beanbag-docutils 2.x supports Python 3.6-3.11.* beanbag-docutils 1.x supports Python 2.7 and 3.6-3.10.Getting Started===============To install the package, run:.. code-block:: shell   $ pip install beanbag-docutilsSee the documentation_ for usage information... _documentation: https://beanbag-docutils.readthedocs.io/</longdescription>
+</pkgmetadata>

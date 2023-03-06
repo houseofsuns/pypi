@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Generate HTML. Usage:import genhtmlhtml=genhtml.HTML()p=html.open('p')p.attrs['style']='color:red;'p.write('Hello!')html.commit(p)tags=html.get_tags()tags[0].write('Using genhtml')html.set_tags(tags)html.open_in_browser()print(genhtml.formated(html.output()))</longdescription>
+</pkgmetadata>

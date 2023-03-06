@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ci-cmg-cruise-schema-orm## Setting Up a Virtual Environment with pyenvInstall pyenv-virtualenv if you have not already```bashbrew install pyenv-virtualenvpyenv install 3.9.13```If setting up pyenv for the first time, you will need to add these lines to your `~/.bash_profile`or `~/.zprofile` (if using zsh, the default in macos Catalina and later) file in order for pyenv to automatically activate / deactivate python environments configured for a given directory (next step).```basheval &quot;$(pyenv init -)&quot;  eval &quot;$(pyenv virtualenv-init -)&quot;```configure python environment for project directory```bashpyenv virtualenv 3.9.13 cruise-schema-orm-3.9.13pyenv local cruise-schema-orm-3.9.13```install dependencies into python environment```bashpip install -r requirements.txtpip install -r test-requirements.txt```## BuildingSince this project can use JDBC divers, Apache Maven is used to build and test the library.Java 8+ and Maven must be installed and on the PATH.  JAVA_HOME and MAVEN_HOMEenvironment variables should be set.This project uses a docker container running an Oracle database to run tests.  Docker must be installed.To build and test, run the following from the root of the project:```bashmvn clean install```## Developing</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># GTA SA-MP client ## RCON and query client library for  PythonA modern Python library for querying and managing SA-MP servers.Supported Python version 3.4 or newer. If you require support for Python 2.7, install 2.1 version of the package.### Installation```bashpip install samp-client```### UsageThe library can be easily interfaced using a single `SampClient` class:```pythonfrom samp_client.client import SampClientwith SampClient(address='localhost', port=7777) as client:    print(client.get_server_info())```The library also allows you to run RCON commands as well as queries:```pythonfrom samp_client.client import SampClientwith SampClient(address='localhost', port=7777, rcon_password='password') as client:    client.rcon_cmdlist()```Query and RCON responses are parsed into native Python structures:```pythonfrom samp_client.client import SampClientwith SampClient(address='localhost', port=7777, rcon_password='password') as client:    info = client.get_server_info()    print(info)    # ServerInfo(password=True, players=9, max_players=100, hostname='Convoy Trucking', gamemode='Convoy Trucking 3.1.1', language='English')    print(info.gamemode)    # 'Convoy Trucking 3.1.1'    print(client.rcon_get_hostname())    # ServerVar(name='hostname', value='Convoy Trucking', read_only=False)    print(client.rcon_players()[0].ping)    # 26```### ExamplesFolder `example/` contains usage example of the library### Running testsTo run tests:```bashpython -m unittest discover -v```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![CI](https://github.com/lmignon/pydantic-ext/actions/workflows/ci.yml/badge.svg)](https://github.com/lmignon/pydantic-ext/actions/workflows/ci.yml)[![codecov](https://codecov.io/gh/lmignon/pydantic-ext/branch/master/graph/badge.svg?token=Z9FWM57T14)](https://codecov.io/gh/lmignon/pydantic-ext)# pydantic-extThis addons provides a new type used to declare [Pydantic](https://pypi.org/project/pydantic/)model as [Extendable](https://pypi.org/project/extendable/) class.```pythonfrom pydantic import BaseModelfrom extendable_pydantic import ExtendableModelMetafrom extendable import context, registryclass Location(BaseModel, metaclass=ExtendableModelMeta):    lat = 0.1    lng = 10.1class ExtendedLocation(Location, extends=Location):    name: str_registry = registry.ExtendableClassesRegistry()context.extendable_registry.set(_registry)_registry.init_registry()loc = Location(**{&quot;lat&quot;: 12.3, &quot;lng&quot;: 13.2, &quot;name&quot;: &quot;My Loc&quot;})loc.dict() == {&quot;lat&quot;: 12.3, &quot;lng&quot;: 13.2, &quot;name&quot;: &quot;My Loc&quot;}#&gt; Trueloc.schema()#&gt; {'title': 'Location', 'type': 'object', 'properties': {'lat': {'title': 'Lat', 'default': 0.1, 'type': 'number'}, 'lng': {'title': 'Lng', 'default': 10.1, 'type': 'number'}, 'name': {'title': 'Name', 'type': 'string'}}, 'required': ['name']}```## Development`pip install -e .`Then, copy `extendable_pydantic_patcher.pth` to `$VIRTUAL_ENV/lib/python3.10/site-packages`.</longdescription>
+</pkgmetadata>

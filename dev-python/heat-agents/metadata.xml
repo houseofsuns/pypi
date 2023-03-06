@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>========================Team and repository tags========================.. image:: https://governance.openstack.org/badges/heat-agents.svg    :target: https://governance.openstack.org/reference/tags/index.html.. Change things from this point on===========Heat Agents===========Heat Agents are python hooks for deploying software configurations using heat.</longdescription>
+</pkgmetadata>

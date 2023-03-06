@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>dandan project``````````````several tools for convenient develop in pythonLinks`````Documentation http://dandan.readthedocs.io/en/master/Github https://github.com/StevenBaby/dandan</longdescription>
+</pkgmetadata>

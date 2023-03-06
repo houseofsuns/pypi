@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>probablepeople is a python library for parsing unstructured romanized name or company strings into components, using conditional random fields.&gt;From the python interpreter:&gt;&gt;&gt; import probablepeople&gt;&gt;&gt; probablepeople.parse('Mr George &quot;Gob&quot; Bluth II') [('Mr', 'PrefixMarital'),  ('George', 'GivenName'),  ('&quot;Gob&quot;', 'Nickname'),  ('Bluth', 'Surname'),  ('II', 'SuffixGenerational')]&gt;&gt;&gt; probablepeople.parse('Sitwell Housing Inc')[('Sitwell', 'CorporationName'), ('Housing', 'CorporationName'), ('Inc', 'CorporationLegalType')]</longdescription>
+</pkgmetadata>

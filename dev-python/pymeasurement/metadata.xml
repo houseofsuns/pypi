@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pymeasurementA Measurement Calculator with Fixed Point Precision, Uncertainties, and Units.View at [PyPi], [Github], and [Read the Docs].## Installationpymeasurement is distributed on [PyPI]. ```pip install pymeasurement```## Usage and DocumentationAccess the [Read the Docs] to learn about usage and documentation for this package.[pypi]: https://pypi.org/project/pymeasurement/[github]: https://github.com/Saptak625/pymeasurement[Read the Docs]: https://pymeasurement.readthedocs.io/en/latest/</longdescription>
+</pkgmetadata>

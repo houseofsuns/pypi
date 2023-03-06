@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># sm3utilsSM3 Cryptographic Hash Algorithm.## Install```pip install sm3utils```## Usage```from sm3utils import sm3gen = sm3()gen.update(b'abc')result = gen.hexdigest()print(&quot;result=&quot;, result)# result= 66c7f0f462eeedd9d1f2d46bdc10e4e24167c4875cf2f7a2297da02b8f4ba8e0```## Releases### 0.1.2- First release.### 0.1.3- Add block_size and digest_size properties to sm3utils.sm3.</longdescription>
+</pkgmetadata>

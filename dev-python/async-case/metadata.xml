@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># async_case[![PyPi Version](https://img.shields.io/pypi/v/async_case.svg)](https://pypi.python.org/pypi/async_case/)Backport of Python 3.8's unittest.IsolatedAsyncioTestCaseSee upstream [docs](https://docs.python.org/3/library/unittest.html#unittest.IsolatedAsyncioTestCase)and [source](https://github.com/python/cpython/blob/3.8/Lib/unittest/async_case.py) for more.```pip install async_case```</longdescription>
+</pkgmetadata>

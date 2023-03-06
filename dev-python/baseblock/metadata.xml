@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Base Block (baseblock)Base Block of Common Enterprise Python Utilities## Crypto BaseUsage```pythonfrom baseblock import CryptoBasekey = CryptoBase.generate_private_key()```The `key` is used to both encrypt and decrypt text, like this:```pythoninput_text = &quot;Hello, World!&quot;crypt = CryptoBase(key)x = crypt.encrypt_str(input_text)y = crypt.decrypt_str(x)assert input_text == y```The key can also be stored in the environment under **BASEBLOCK_CRYPTO_KEY**.</longdescription>
+</pkgmetadata>

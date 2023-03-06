@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>scikit-fmm is a Python extension module which implements the fastmarching method.- Signed distance functions- Travel time transforms (solutions to the Eikonal equation)- Extension velocitieshttps://github.com/scikit-fmm/scikit-fmm</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># sphinx-basic-ngA modernised skeleton for Sphinx themes.## To demo this theme1. Clone this repository   ```shell   git clone https://github.com/pradyunsg/sphinx-basic-ng   ```2. Install it locally   ```shell   pip install -e ./sphinx-basic-ng   ```3. Install `nox`   ```shell   pip install nox   ```4. Use `nox` to build a simple demo site   ```shell   nox -s docs-live -- ./tests/barebones   ```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>DimRedTools is a set of algorithms and data structures for dimensionality reduction.Documentation: https://keeper318.github.io/DimRedTools/Installation: `pip install dimredtools`Currently implemented:- Cover Tree- Compressed Cover Tree- MDS- Isomap</longdescription>
+</pkgmetadata>

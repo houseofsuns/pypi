@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pydyf is a low-level PDF generator written in Python and based on PDFspecification 1.7.* Free software: BSD license* For Python 3.7+, tested on CPython and PyPy* Documentation: https://doc.courtbouillon.org/pydyf* Changelog: https://github.com/CourtBouillon/pydyf/releases* Code, issues, tests: https://github.com/CourtBouillon/pydyf* Code of conduct: https://www.courtbouillon.org/code-of-conduct* Professional support: https://www.courtbouillon.org* Donation: https://opencollective.com/courtbouillonCopyrights are retained by their contributors, no copyright assignment isrequired to contribute to pydyf. Unless explicitly stated otherwise, anycontribution intentionally submitted for inclusion is licensed under the BSD3-clause license, without any additional terms or conditions. For fullauthorship information, see the version control history.</longdescription>
+</pkgmetadata>

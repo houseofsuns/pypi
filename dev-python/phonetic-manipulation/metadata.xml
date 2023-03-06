@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This package mainly serves the function of taking phonetic transcriptions and converting it to IPA from X-SAMPA or SAMPA and vice versa.You can provide your own list of phones for the language you're working with in order to condense the data. No matter what, it will provide you all phones organizedby their feature categories.</longdescription>
+</pkgmetadata>

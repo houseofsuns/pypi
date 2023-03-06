@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>apk-signer============================================================| Easy to use apk signing.. code-block:: sh   pip install apk-signer   .. code-block:: sh  $ apk-signer sample.apk  [Warning] Signing with default keystore.  [Warning] Please pass --key_path, --key_alias, --key_pass, --ks_pass parameter, if you want to use your keystore  &gt; sample-signed.apk  $ apk-signer sample.apk --key_path=&quot;sample.jks&quot; --key_alias=&quot;sample&quot; --key_pass=&quot;sample_key&quot; --ks_pass=&quot;sample_ks&quot;  &gt; sample-signed.apk  $ apk-signer sample.apk --run  &gt; Success  &gt; Performing Streamed Install\nSuccess  &gt; Starting: Intent { cmp=com.sample.activty/.MainActivity }</longdescription>
+</pkgmetadata>

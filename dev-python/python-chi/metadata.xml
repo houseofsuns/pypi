@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>python-chi==========.. figure:: https://github.com/ChameleonCloud/python-chi/workflows/Unit%20tests/badge.svg   :target: https://github.com/ChameleonCloud/python-chi/actions?query=workflow%3A%22Unit+tests%22``python-chi`` is a Python library that can help you interact with the`Chameleon testbed &lt;https://www.chameleoncloud.org&gt;`_ to improve yourworkflows with automation. It additionally pairs well with environments likeJupyter Notebooks.* `Documentation &lt;https://python-chi.readthedocs.io&gt;`_* `Contributing guide &lt;./DEVELOPMENT.rst&gt;`_</longdescription>
+</pkgmetadata>

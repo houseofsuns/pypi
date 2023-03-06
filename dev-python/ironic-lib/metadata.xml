@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>==========ironic-lib==========Team and repository tags------------------------.. image:: https://governance.openstack.org/tc/badges/ironic-lib.svg    :target: https://governance.openstack.org/tc/reference/tags/index.htmlOverview--------A common library to be used **exclusively** by projects under the `Ironicgovernance &lt;https://governance.openstack.org/tc/reference/projects/ironic.html&gt;`_.Running Tests-------------To run tests in virtualenvs (preferred)::  $ sudo pip install tox  $ toxTo run tests in the current environment::  $ sudo pip install -r requirements.txt -r test-requirements.txt  $ stestr run</longdescription>
+</pkgmetadata>

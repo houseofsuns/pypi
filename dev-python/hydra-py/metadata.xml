@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>![](./assets/hydrapy-logo.png)# Hydra-PyHydra for Python. A light-weight library for building distributed applications such as microservices.```diff- NOTE THIS PROJECT IS IN VERY EARLY DEVELOPMENT- From version 0.3.0 HydraPy only supports the use of short-form UMF see: https://github.com/pnxtech/umf/blob/master/umf.md#Short-form-syntax- Starting from version 0.5.0 HydraPy expects a Redis URL formatted connection string in the following format, where unused fields may be ignored:  redis://[user]:[password]@[host:port]/[database_number]```- Hydra-Py is changing quickly and not recommended for serious use at this time* As a microservices approach, Hydra-Py depends on the presence of a Redis database server as its single infrastructual dependency* Hydra-Py requires Python 3.7+ and aioredis==1.3.1 or greater## IntroductionHydra is an approach to building light-weight microservices by leveraging the awesome power of the Redis database platform.&gt; Hydra-Py is a nextgen port of the NodeJS implementation of Hydra with a goal of offering the same level of ease of use to the Python community.  We hope this will empower data scientists to build containerized microservices for their AI/ML applications.## DocumentationVisit the [project documentation](https://github.com/pnxtech/HydraPy/tree/master/documentation) for a quick start guide and additional documentation.</longdescription>
+</pkgmetadata>

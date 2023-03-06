@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># 介绍从它的名字就可以看出，这是一个简单但很实用的模块&lt;br/&gt;你可以通过导入模块中的功能来简化你的代码，它们大多很简单，但很实用&lt;br/&gt;如果有问题或建议请在GitHub反馈</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![Build][build-image]]()[![Status][status-image]][pypi-project-url][![Stable Version][stable-ver-image]][pypi-project-url][![Coverage][coverage-image]]()[![Python][python-ver-image]][pypi-project-url][![License][bsd3-image]][bsd3-url]# thcouch## OverviewTangledHub library for couchdb with a focus on asynchronous functions## Licensingthcouch is licensed under the BSD license. Check the [LICENSE](https://opensource.org/licenses/BSD-3-Clause) for details## Installation```bashpip instal thcouch```## Testing```bashdocker-compose build --no-cache thcouch-test ; docker-compose run --rm thcouch-test```## Building```bashdocker-compose build thcouch-build ; docker-compose run --rm thcouch-build```## Publish```bashdocker-compose build thcouch-publish ; docker-compose run --rm -e PYPI_USERNAME=__token__ -e PYPI_PASSWORD=__SECRET__ thcouch-publish```&lt;!-- Links --&gt;&lt;!-- Badges --&gt;[bsd3-image]: https://img.shields.io/badge/License-BSD_3--Clause-blue.svg[bsd3-url]: https://opensource.org/licenses/BSD-3-Clause[build-image]: https://img.shields.io/badge/build-success-brightgreen[coverage-image]: https://img.shields.io/badge/Coverage-100%25-green[pypi-project-url]: https://pypi.org/project/thcouch/[stable-ver-image]: https://img.shields.io/pypi/v/thcouch?label=stable[python-ver-image]: https://img.shields.io/pypi/pyversions/thcouch.svg?logo=python&amp;logoColor=FBE072[status-image]: https://img.shields.io/pypi/status/thcouch.svg</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># `awkward-cpp``awkward-cpp` provides precompiled routines for the `awkward` package. It is not useful on its own, only as a dependency for `awkward `.</longdescription>
+</pkgmetadata>

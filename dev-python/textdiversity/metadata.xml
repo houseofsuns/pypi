@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># TextDiversity ## Installation```pip install -r requirements.txt```Some of the text diversity measures rely on software that must be installed separately. For your particular OS, follow the instructions below:### Windows1. Phoneme Diversity   - Phonemizer      - Visit: https://github.com/espeak-ng/espeak-ng/releases      - Install either `espeak-ng-X64.msi` or `espeak-ng-X86.msi` (This project used Release 1.51)      - Add Phonemizer environement variable ([[reference]](https://github.com/bootphon/phonemizer/issues/44))         - Navigate: Windows Key &gt; Edit System Environment Variables &gt; Environment Variables         - Add New Variable:            - Variable Name: `PHONEMIZER_ESPEAK_LIBRARY`            - Variable Value: `C:\Program Files\eSpeak NG\libespeak-ng.dll`2. Syntactical Diversity (non-core functionality)   - Dependency Parse Tree Visualization      - `UNKOWN SETUP STEPS`### Linux1. Phoneme Diversity   - Phonemizer      - `sudo apt-get install espeak-ng`2. Syntactical Diversity   - Dependency Parse Tree Visualization (non-core functionality)      - `sudo apt-get install python3-dev graphviz libgraphviz-dev pkg-config`</longdescription>
+</pkgmetadata>

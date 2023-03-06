@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># limix-sphinx-themeThis sphinx theme is basically a copy of[astropy-sphinx-theme](https://github.com/astropy/astropy-sphinx-theme) with minormodifications to work with[sphinx\_rtd\_theme](https://github.com/rtfd/sphinx_rtd_theme).All credits go the authors of astropy-sphinx-theme.</longdescription>
+</pkgmetadata>

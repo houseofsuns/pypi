@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># siho-dict-api![PyPI](https://img.shields.io/pypi/v/sihodictapi?style=flat-square)![PyPI - License](https://img.shields.io/pypi/l/sihodictapi?color=information&amp;style=flat-square)&gt; 一些在线词典/翻译API仅对API进行收集和密钥逆向破解，不修改返回结果## 安装```pip install sihodictapi```</longdescription>
+</pkgmetadata>

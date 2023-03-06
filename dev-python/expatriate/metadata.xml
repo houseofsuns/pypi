@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>expatriate==========.. image:: https://travis-ci.org/cjaymes/expatriate.svg?branch=master.. image:: https://readthedocs.org/projects/expatriate/badge/?version=latestXML parsing and generation library on top of expat with Python object mapping(ORM). See tests/fixtures for examples of how to use.Install (system-wide):    pip install expatriateInstall (using venv):    python3 -m venv venv    . venv/bin/activate    pip install --upgrade pip    pip install -r requirements.txt    python3 setup.py installTests:    pip install pytest    pytestCHANGELOG=========0.4    Merged in publishsubscribe, added attr_name getters, set loggers to INFO by    default0.3    Added documentation, updated meta files0.2    Added modeling0.1    Initial release</longdescription>
+</pkgmetadata>

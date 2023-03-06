@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Python binds for Melissa Climate================================This is an unofficial wrapper for melissa web api:http://seemelissa.com/en`Coffee fundraiser &lt;https://paypal.me/pools/c/8177s58qSX&gt;`__Installing~~~~~~~~~~::   pip install py-melissa-climate::   python   &gt;&gt;&gt; from melissa import Melissa   &gt;&gt;&gt; m = Melissa(username=&quot;email_adress&quot;, password=&quot;password&quot;)   &gt;&gt;&gt; m.fetch_devices()   {'********': {'user_id': 1, 'serial_number': '********', 'mac': '********', 'firmware_version': 'V1SHTHF', 'name': 'Melissa ********', 'type': 'melissa', 'room_id': None, 'created': '2016-07-06 18:59:46', 'id': 1, 'online': True, 'brand_id': 1, 'controller_log': {'temp': 25.4, 'created': '2018-01-06T10:12:16.249Z', 'raw_temperature': 28188, 'humidity': 18.5, 'raw_humidity': 12862}, '_links': {'self': {'href': '/v1/controllers'}}}}Running the tests-----------------WIPAnd coding style tests~~~~~~~~~~~~~~~~~~~~~~We use flake8::   pip install flake8::   flake8 melissaBuilt With-----------  `requests &lt;http://docs.python-requests.org/en/master/&gt;`__Versioning----------We use `SemVer &lt;http://semver.org/&gt;`__ for versioning. For the versionsavailable, see the `tags on thisrepository &lt;https://github.com/kennedyshead/py-melissa-climate/tags&gt;`__.Authors--------  **Magnus Knutas** - *Initial work* -   `kennedyshead &lt;https://github.com/kennedyshead&gt;`__License-------This project is licensed under the MIT License - see the`LICENSE.md &lt;LICENSE.md&gt;`__ file for detailsAcknowledgments----------------  Melissa dev team who made a great API-  Home-assistant.io for the inspiration to write this</longdescription>
+</pkgmetadata>

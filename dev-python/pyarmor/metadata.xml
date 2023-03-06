@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Protect Python Scripts By Pyarmor=================================Pyarmor is a command line tool used to obfuscate python scripts, bindobfuscated scripts to fixed machine or expire obfuscated scripts.Key Features------------* The obfuscated scritpt is still a normal `.py` script, in most of  cases the original python scripts can be replaced with obfuscated  scripts seamlessly.* Provide many ways to obfuscate the scripts to balance security and  performance* Rename functions/methods/classes/variables/arguments, irreversible  obfuscation* Convert part of Python functions to C function, compile to binary by  high optimize option, irreversible obfuscation* Bind obfuscated scripts to fixed machine or expire obfuscted scripts* Protect obfuscated scripts by Themida (Only for Windows)Support Platforms-----------------* Python 3.7~3.11* Windows* Many linuxs, include embedded systems* Apple Intel and Apple SiliconQuick Start-----------Install::    pip install pyarmorObfuscate the script `foo.py`::    pyarmor gen foo.pyThis command generates an obfuscated script `dist/foo.py` like this:.. code:: python    from pyarmor_runtime import __pyarmor__    __pyarmor__(__name__, __file__, b'\x28\x83\x20\x58....')Run it::    python dist/foo.pyMore Resources--------------- `Home &lt;https://github.com/dashingsoft/pyarmor&gt;`_- `Website &lt;http://pyarmor.dashingsoft.com&gt;`_- `中文网站 &lt;http://pyarmor.dashingsoft.com/index-zh.html&gt;`_- `Issues &lt;https://github.com/dashingsoft/pyarmor/issues&gt;`_- `Documentation &lt;https://pyarmor.readthedocs.io/&gt;`_</longdescription>
+</pkgmetadata>

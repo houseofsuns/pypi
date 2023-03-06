@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>gRPC-GCP Python===============Package for gRPC-GCP Python.Installation------------gRPC-GCP Python is available wherever gRPC is available.From PyPI~~~~~~~~~If you are installing locally...::  $ pip install grpcio-gcpElse system wide (on Ubuntu)...::  $ sudo pip install grpcio-gcpUsage-----Create a config file (e.g. ``spanner.grpc.config``) defining API configuration,with ChannelPoolConfig and MethodConfig.::  channel_pool: {    max_size: 10    max_concurrent_streams_low_watermark: 1  }  method: {    name: &quot;/google.spanner.v1.Spanner/CreateSession&quot;    affinity: {      command: BIND      affinity_key: &quot;name&quot;    }  }  method: {    name: &quot;/google.spanner.v1.Spanner/GetSession&quot;    affinity: {      command: BOUND      affinity_key: &quot;name&quot;    }  }  method: {    name: &quot;/google.spanner.v1.Spanner/DeleteSession&quot;    affinity: {      command: UNBIND      affinity_key: &quot;name&quot;    }  }Load configuration file to ApiConfig object... code-block:: python  import google.protobuf.text_format  config = grpc_gcp.api_config_from_text_pb(      pkg_resources.resource_string(__name__, 'spanner.grpc.config'))Create channel pool using grpc_gcp... code-block:: python  import grpc_gcp  import grpc  credentials = grpc.ssl_channel_credentials()  # Add api config key-value pair to options  options = [(grpc_gcp.API_CONFIG_CHANNEL_ARG, config)]  channel_pool = grpc_gcp.secure_channel(target, credentials, options)The generated channel pool is inherited from the original grpc.Channel,with underlying support for multiple grpc channels.</longdescription>
+</pkgmetadata>

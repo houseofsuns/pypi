@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>===========static_vars===========A decorator for adding static variables to a method.Typical use:.. code-block:: python    from static_vars import static_vars    @static_vars(counter=0)    def foo():        foo.counter += 1    foo()    foo()    assert foo.counter==2    foo.counter = 0    foo()    assert foo.counter==1* Free software: MIT license* Documentation: https://static-vars.readthedocs.io.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># A sample Python projectA sample project that exists as an aid to the [Python Packaging UserGuide][packaging guide]'s [Tutorial on Packaging and DistributingProjects][distribution tutorial].This project does not aim to cover best practices for Python projectdevelopment as a whole. For example, it does not provide guidance or toolrecommendations for version control, documentation, or testing.[The source for this project is available here][src].Most of the configuration for a Python project is done in the `setup.py` file,an example of which is included in this project. You should edit this fileaccordingly to adapt this sample project to your needs.----This is the README file for the project.The file should use UTF-8 encoding and can be written using[reStructuredText][rst] or [markdown][md use] with the appropriate [key set][mduse]. It will be used to generate the project webpage on PyPI and will bedisplayed as the project homepage on common code-hosting services, and should bewritten for that purpose.Typical contents for this file would include an overview of the project, basicusage examples, etc. Generally, including the project changelog in here is not agood idea, although a simple “What's New” section for the most recent versionmay be appropriate.[packaging guide]: https://packaging.python.org[distribution tutorial]: https://packaging.python.org/tutorials/packaging-projects/[src]: https://github.com/pypa/sampleproject[rst]: http://docutils.sourceforge.net/rst.html[md]: https://tools.ietf.org/html/rfc7764#section-3.5 &quot;CommonMark variant&quot;[md use]: https://packaging.python.org/specifications/core-metadata/#description-content-type-optional</longdescription>
+</pkgmetadata>

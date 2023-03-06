@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># myreco &amp;middot; [![Build Status](https://travis-ci.org/dutradda/myreco.svg?branch=master)](https://travis-ci.org/dutradda/myreco) [![Coverage Status](https://coveralls.io/repos/github/dutradda/myreco/badge.svg?branch=master)](https://coveralls.io/github/dutradda/myreco?branch=master) [![PyPi Last Version](https://img.shields.io/pypi/v/myreco.svg)](https://pypi.python.org/pypi/myreco) [![PyPi Develop Status](https://img.shields.io/pypi/status/myreco.svg)](https://pypi.python.org/pypi/myreco) [![Python Versions](https://img.shields.io/pypi/pyversions/myreco.svg)](https://pypi.python.org/pypi/myreco) [![License](https://img.shields.io/pypi/l/myreco.svg)](https://github.com/dutradda/myreco/blob/master/LICENSE)My Recommendations - A HTTP API Recommendations Service</longdescription>
+</pkgmetadata>

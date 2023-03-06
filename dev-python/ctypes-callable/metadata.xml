@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Python ``ctypes``-based ``callable`` reimplementation=====================================================Implements ``callable`` using ``ctypes`` (useful on CPython3.0 and 3.1, which is missing the ``callable`` function).Versioning----------This library's version numbers follow the `SemVer 2.0.0specification &lt;https://semver.org/spec/v2.0.0.html&gt;`_.Installation------------::    pip install ctypes-callableUsage-----The use-case for using this module is if:1. You are using an **early** CPython 3 release missing ``callable``.2. You cannot upgrade to a newer CPython 3 for some reason.3. You want to use code which uses the ``callable`` builtin.To do this, run this before any code that uses ``callable`` (forexample, `usercustomize` or `sitecustomize` might be good places):.. code:: python    import ctypes_callable    import builtins    builtins.callable = ctypes_callable.callablePortability-----------This module will **fail** on ``import`` on Jython, IronPython, PyPy,MicroPython, PyPy.js, Brython, Transcrypt, and probably any otherimplementation besides CPython, because it relies on accessing thePython C API through ``ctypes``.</longdescription>
+</pkgmetadata>

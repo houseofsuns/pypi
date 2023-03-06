@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ControlNet auxiliary modelsThis is a Pypi installable copied version of HED, MLSD and Human Pose auxiliary models: https://github.com/lllyasviel/ControlNet/tree/main/annotatorAll credit goes to https://github.com/lllyasviel .```pip install controlnet-aux==0.0.1``````pythonfrom controlnet_aux import OpenposeDetector, MLSDdetector, HEDdetector, CannyDetector, MidasDetectoropen_pose = OpenposeDetector.from_pretrained(&quot;lllyasviel/ControlNet&quot;)mlsd = MLSDdetector.from_pretrained(&quot;lllyasviel/ControlNet&quot;)hed = HEDdetector.from_pretrained(&quot;lllyasviel/ControlNet&quot;)midas = MidasDetector.from_pretrained(&quot;lllyasviel/ControlNet&quot;)canny = CannyDetector()```</longdescription>
+</pkgmetadata>

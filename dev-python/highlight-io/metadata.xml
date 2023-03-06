@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># highlight-io Python SDKThis directory contains the source code for the Highlight Python SDK.### E2EThe `e2e` directory contains supported Python frameworks integrated with our SDK for local development and testing.Do not use the snippets verbatim as they are configured for local development and will not work in production without changes.</longdescription>
+</pkgmetadata>

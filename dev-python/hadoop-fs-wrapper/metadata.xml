@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Hadoop FileSystem Java Class Wrapper Typed Python wrappers for [Hadoop FileSystem](https://hadoop.apache.org/docs/stable/api/org/apache/hadoop/fs/FileSystem.html) class family.## InstallationYou can install this package from `pypi` on any Hadoop or Spark runtime:```commandlinepip install hadoop-fs-wrapper```Select a version that matches hadoop version you are using:| Hadoop Version | Compatible hadoop-fs-wrapper version ||----------------|:------------------------------------:|| 3.2.x          |                0.4.x                 || 3.3.x          |             0.4.x, 0.5.x             |## UsageCommon use case is accessing Hadoop FileSystem from Spark session object:```pythonfrom hadoop_fs_wrapper.wrappers.file_system import FileSystemfile_system = FileSystem.from_spark_session(spark=spark_session)```Then, for example, one can check if there are any files under specified path:```pythonfrom hadoop_fs_wrapper.wrappers.file_system import FileSystemdef is_valid_source_path(file_system: FileSystem, path: str) -&gt; bool:    &quot;&quot;&quot;     Checks whether a regexp path refers to a valid set of paths    :param file_system: pyHadooopWrapper FileSystem    :param path: path e.g. (s3a|abfss|file|...)://hello@world.com/path/part*.csv    :return: true if path resolves to existing paths, otherwise false    &quot;&quot;&quot;    return len(file_system.glob_status(path)) &gt; 0```## ContributionCurrently basic filesystem operations (listing, deleting, search, iterative listing etc.) are supported. If an operation you require is not yet wrapped,please open an issue or create a PR.All changes are tested against Spark 3.2/3.3 running in local mode.</longdescription>
+</pkgmetadata>

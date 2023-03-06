@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## bspwm auto rice [bspar]an automatice ricing script for bspwm (my dots)ONLY WORKS ON ARCH BASED DISTROS## demo[Demo](https://i.imgur.com/VBXp4yK.mp4)## Installation```pip install bspwm-auto-rice```## Usagefor help:```bspar --help```and ```bspar &lt;command&gt; --help```example:```bspar set --help```</longdescription>
+</pkgmetadata>

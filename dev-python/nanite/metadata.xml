@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>nanite======|PyPI Version| |Build Status| |Coverage Status| |Docs Status|Loading, fitting, and rating AFM force-distance data.Documentation-------------The documentation, including the code reference and examples, is available at`nanite.readthedocs.io &lt;https://nanite.readthedocs.io/en/stable/&gt;`__.Installation------------To install the latest release, simply run:::    pip install nanite[CLI].. |PyPI Version| image:: https://img.shields.io/pypi/v/nanite.svg   :target: https://pypi.python.org/pypi/nanite.. |Build Status| image:: https://img.shields.io/github/actions/workflow/status/AFM-analysis/nanite/check.yml   :target: https://github.com/AFM-analysis/nanite/actions?query=workflow%3AChecks.. |Coverage Status| image:: https://img.shields.io/codecov/c/github/AFM-analysis/nanite/master.svg   :target: https://codecov.io/gh/AFM-analysis/nanite.. |Docs Status| image:: https://readthedocs.org/projects/nanite/badge/?version=latest   :target: https://readthedocs.org/projects/nanite/builds/</longdescription>
+</pkgmetadata>

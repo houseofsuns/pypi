@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>object-tracker--------------A pure python object change and history tracker. Monitor all changes in your objects lifecycle and trigger callback functions to capture them.View the `Github repository &lt;https://github.com/saurabh0719/object-tracker&gt;`__ and the `official docs &lt;https://github.com/saurabh0719/object-tracker#README&gt;`__... code:: sh    $ pip install object-trackerTested for python 3.6, 3.7 and above.Key Features-------------  Determine if a python object has changed.-  Investigate change history through the changelog.-  Trigger callback functions whenever the object or an attribute has changed.-  Simple and structured API. -  Queryable change history log.License-------::    Copyright (c) Saurabh Pujari    All rights reserved.    This source code is licensed under the BSD-style license found in the LICENSE file in the root directory of this source tree.Usage :~~~~~~~~~~~~~.. code:: python   from object_tracker import ObjectTracker    def observer(attr, old, new):        print(f&quot;Observer : {attr} -&gt; {old} - {new}&quot;)    class User(ObjectTracker):        def __init__(self, name) -&gt; None:            ObjectTracker.__init__(self, observers=[observer,])            self.name = name    user = User(&quot;A&quot;)    print(user.tracker.changed())     # False    user.name = &quot;B&quot; # observers will be triggered    # Observer : name -&gt; A - B    print(user.tracker.changed())     # True</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>ATHENA is a Python package for reduction of high dimensional parameter spaces in the context of numerical analysis. It allows the use of several dimensionality reduction techniques such as Active Subspaces (AS), Kernel-based Active Subspaces (KAS), and Nonlinear Level-set Learning (NLL).It is particularly suited for the study of parametric PDEs, for sensitivity analysis, and for the approximation of engineering quantities of interest. It can handle both scalar and vectorial high dimensional functions, making it a useful tool also to reduce the burden of computational intensive optimization tasks.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>PyUSB offers easy USB devices communication in Python.It should work without additional code in any environment withPython &gt;= 3.6, ctypes and a pre-built USB backend library(currently: libusb 1.x, libusb 0.1.x or OpenUSB).</longdescription>
+</pkgmetadata>

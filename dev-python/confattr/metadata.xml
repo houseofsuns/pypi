@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Config AttributesA python library to read and write config fileswith a syntax inspired by vimrc and ranger config.Documentation: https://erzo.gitlab.io/confattr/latest</longdescription>
+</pkgmetadata>

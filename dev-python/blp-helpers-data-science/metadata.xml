@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># What it hasHelpers I use for Data Science projects# Additional info* https://pypi.org/project/blp-helpers-data-science/* https://github.com/leugh/helpers_data_science# How to use it```python pip install blp-helpers-data-science```# How to develop it1. Ensure setuptools is installed: ```pip install --user --upgrade setuptools wheel```2. Ensure twine is installed ```pip install --user --upgrade twine```3. Make changes4. Update CHANGELOG.md5. Update setup.py7. Create distribution packages ```python setup.py sdist bdist_wheel```5. Upload to pypi ```python -m twine upload dist/*```&gt; Source: https://widdowquinn.github.io/coding/update-pypi-package/</longdescription>
+</pkgmetadata>

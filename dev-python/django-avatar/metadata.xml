@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=============django-avatar=============.. image:: https://jazzband.co/static/img/badge.png   :target: https://jazzband.co/   :alt: Jazzband.. image:: https://img.shields.io/pypi/pyversions/django-avatar.svg   :target: https://pypi.org/project/django-avatar/   :alt: Supported Python versions.. image:: https://img.shields.io/pypi/djversions/django-avatar.svg   :target: https://pypi.org/project/django-avatar/   :alt: Supported Django versions.. image:: https://github.com/jazzband/django-avatar/actions/workflows/test.yml/badge.svg   :target: https://github.com/jazzband/django-avatar/actions/workflows/test.yml.. image:: https://codecov.io/gh/jazzband/django-avatar/branch/main/graph/badge.svg?token=BO1e4kkgtq   :target: https://codecov.io/gh/jazzband/django-avatar.. image:: https://badge.fury.io/py/django-avatar.svg    :target: https://badge.fury.io/py/django-avatar    :alt: PyPI badge.. image:: https://readthedocs.org/projects/django-avatar/badge/?version=latest    :target: https://django-avatar.readthedocs.org/en/latest/?badge=latest    :alt: Documentation StatusDjango-avatar is a reusable application for handling user avatars.  It has theability to default to Gravatar if no avatar is found for a certain user.Django-avatar automatically generates thumbnails and stores them to your defaultfile storage backend for retrieval later.For more information see the documentation at https://django-avatar.readthedocs.org/</longdescription>
+</pkgmetadata>

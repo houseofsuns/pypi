@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Queue manager[![codecov][codecov_img]][codecov_url][![Test action][github_action_test]][github_actions]WIP```bashpython3 -m pip install queueman```&lt;!-- LINKS --&gt;[codecov_url]: https://codecov.io/gh/ludeeus/queueman[codecov_img]: https://codecov.io/gh/ludeeus/queueman/branch/master/graph/badge.svg[github_actions]: https://github.com/ludeeus/queueman/actions[github_action_test]: https://github.com/ludeeus/queueman/workflows/Test/badge.svg&lt;!-- LINKS --&gt;</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## Typing stubs for pkg_resourcesThis is an auto-generated PEP 561 type stub package for `pkg_resources` package.It can be used by type-checking tools like mypy, PyCharm, pytype etc. to check codethat uses `pkg_resources`. The source for this package can be found athttps://github.com/python/typeshed/tree/master/stubs/pkg_resources. All fixes fortypes and metadata should be contributed there.See https://github.com/python/typeshed/blob/master/README.md for more details.This package was generated from typeshed commit `64f463172b27d7321461890dd3edf416a103ace7`.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Pastel: Bring colors to your terminal#####################################Pastel is a simple library to help you colorize strings in your terminal.It comes bundled with predefined styles:* ``info``: green* ``comment``: yellow* ``question``: black on cyan* ``error``: white on red.. image:: https://raw.githubusercontent.com/sdispater/pastel/master/assets/screenshot.pngFeatures========* Use predefined styles or add you own.* Disable colors all together by calling ``with_colors(False)``.* Automatically disables colors if the output is not a TTY.* Used in `cleo &lt;https://github.com/sdispater/cleo&gt;`_.* Supports Python **2.7+**, **3.5+** and **PyPy**.Usage=====.. code-block:: python    &gt;&gt;&gt; import pastel    &gt;&gt;&gt; print(pastel.colorize('&lt;info&gt;Information&lt;/info&gt;'))    'Information'  # Green string by default    &gt;&gt;&gt; print(pastel.colorize('&lt;fg=red;options=bold&gt;This is bold red&lt;/&gt;'))    'This is bold red'Installation============.. code-block::    pip install pastel</longdescription>
+</pkgmetadata>

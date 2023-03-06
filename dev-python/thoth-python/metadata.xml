@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Thoth Python------------This library provides routines for Python specific operations for `projectThoth &lt;https://thoth-station.ninja&gt;`_. An example of routines present in thislibrary:* manipulating with project (see ``Project`` abstraction)* operations on top of requirements.txt files and/or ``Pipfile`` and ``Pipfile.lock`` files* operations on top of ``constraints.txt`` files* operations for operating with Python package source indexes (`PEP-0503 &lt;https://www.python.org/dev/peps/pep-0503/&gt;`_ compatible simple repository API)* operations for Python packages (default and the development ones) and their in memory hierarchical structuresInstallation============This package is `available on PyPI &lt;https://pypi.org/project/thoth-python/&gt;`_.You can install it with pip or `Pipenv &lt;https://pipenv.readthedocs.io&gt;`_:.. code-block:: console  pipenv install thoth-pythonRunning and testing===================You can use Pipenv for managing this project and execute testsuite using``setup.py``'s ``test`` command:.. code-block:: console  # Clone this package:  git clone https://github.com/thoth-station/python.git thoth-python  cd thoth-python  pipenv install --dev  pipenv run python3 setup.py test</longdescription>
+</pkgmetadata>

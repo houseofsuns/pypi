@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![Lifecycle:Maturing](https://img.shields.io/badge/Lifecycle-Maturing-007EC6)](&lt;Redirect-URL&gt;)# Object Storage / S3 Utility Methods&lt;img src=&quot;https://lh3.googleusercontent.com/pw/AM-JKLV5unOdDuG_o7QwVYaiUCaFePQtcVWxPMJekkMNgQzVxKfkir0Akv9adldYQQTLVPW1W0O5Aov_Ep-v6HFcA6EwL3olmrkQW9Tm5k96K9Iv8uZAnrzc68vWIIs8gRt_wahaTmEv-XF1W9pxAygsesPHzw=w1292-h792-no?authuser=0&quot; width=&quot;600&quot;&gt;Glueing together some object storage functionality into aeasy to use python library.Intent is to bundle up commonly used functions into a singlelibrary that can be imported into other projects.# Installing`pip install nr_objstore_util`# Creating an NRObjStoreUtil Object by passing credentials```pythonimport NRUtil.NRObjStoreUtil as NRObjStoreUtilobjstor = NRObjStoreUtil.ObjectStoreUtil(    &quot;name of object store host&quot;,    &quot;object store user / access&quot;,    &quot;object store secret&quot;,    &quot;object store bucket&quot;)```# Creating an NRObjStoreUtil Object using env varsFirst populate the following environment variables:* OBJ_STORE_BUCKET* OBJ_STORE_SECRET* OBJ_STORE_USER* OBJ_STORE_HOST```bashexport OBJ_STORE_BUCKET=bucket_nameexport OBJ_STORE_SECRET=sdf3jkllvjiojl;a4sf892ikfjovjexport OBJ_STORE_USER=ostoreuserexport OBJ_STORE_HOST=nrs.objectstore.gov.bc.ca```Then create the NRObjStoreUtil object without args:```pythonimport NRUtil.NRObjStoreUtil as NRObjStoreUtilobjstor = NRObjStoreUtil.ObjectStoreUtil()```# Examples... see the examples folder for examples</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>A simple libary to configurate slash commands on discordSee documentation at https://github.com/mactul/discordslashcommandsThanks to Seniru for reporting and correcting some bugs and imperfections</longdescription>
+</pkgmetadata>

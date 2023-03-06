@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;h1 align=&quot;center&quot;&gt;  &lt;p align=&quot;center&quot;&gt;admindojo.org&lt;/p&gt;  &lt;a href=&quot;https://admindojo.org&quot;&gt;&lt;img height=&quot;300&quot; src=&quot;https://admindojo.org/img/dojo_round.png&quot; alt=&quot;admindojo&quot;&gt;&lt;/a&gt;&lt;/h1&gt;&lt;p align=&quot;center&quot;&gt;  &lt;a href=&quot;https://pypi.python.org/pypi/admindojo&quot;&gt;&lt;img src=&quot;https://img.shields.io/pypi/v/admindojo.svg&quot; alt=&quot;pypi Version&quot;&gt;&lt;/a&gt;  &lt;a href=&quot;https://travis-ci.org/admindojo/admindojo-client&quot;&gt;&lt;img src=&quot;https://img.shields.io/travis/admindojo/admindojo-client.svg&quot; alt=&quot;Travis Status&quot;&gt;&lt;/a&gt;&lt;/p&gt;# Introductionadmindojo is a free, interactive Linux tutorial for (junior) sysadmins.Using local virtual machines, admindojo provides real-world scenarios in real environments.This repository contains the client that is used inside each training VM.Visit [admindojo.org](https://admindojo.org/getting-started) for more information.# Basic Usage``admindojo start`` : Start training``admindojo check`` : Run check and calculate score``admindojo --help``: help# LicenseFree software: MIT license# Credits- Package templating tool [https://github.com/audreyr/cookiecutter](ookiecutter)- Package template [https://github.com/audreyr/cookiecutter-pypackage](audreyr/cookiecutter-pypackage)</longdescription>
+</pkgmetadata>

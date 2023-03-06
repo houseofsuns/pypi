@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>ultramemcache=============*ultramemcache* is an ultra fast Memcache client written in highly optimizedC++ with Python bindings.To install it just run Pip as usual::    $ pip install umemcache*ultramemcache* provides a **Client** class you can use to interact withMemcache::    &gt;&gt;&gt; import umemcache    &gt;&gt;&gt; c = umemcache.Client('127.0.0.1:11211')    &gt;&gt;&gt; c.connect()    &gt;&gt;&gt; c.set('key', 'value')    'STORED'    &gt;&gt;&gt; c.get('key')[0]    'value'By design, *ultramemcache* limits the size of Memcache items to 1000*1000bytes, but you can change this limitation by using the **max_item_size**argument when creating a **Client** class.</longdescription>
+</pkgmetadata>

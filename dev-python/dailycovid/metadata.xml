@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># dailycovid - Easily get covid updates# Pypi installation`pip3 install dailycovid`# Usage## Simplest`dailycovid --plot -s statecode`## Specific Counties in a State or Whole StatesYou can now use an arbitrary number of arguments with `-s` or `-sc`.`dailycovid -sc ny-albany ca-orange &quot;California-Los Angeles&quot;``dailycovid -s DELAWARE MA`Here are three ways to do the same thing.`dailycovid -sc &quot;California-Los Angeles&quot;``dailycovid -s CA -c &quot;Los Angeles&quot;``dailycovid --state CA --county &quot;Los Angeles&quot;`## Making PlotsUse `--plot` or `-p` to make the plots.## Updating DataOn the first run it will download a csv file containing the most recent data.Use `dailycovid -g` to update the cache.# Examples of plots'![image](https://raw.githubusercontent.com/Fitzy1293/daily-covid/master/examples/plots_LOS-ANGELES_CA.png)'![image](https://raw.githubusercontent.com/Fitzy1293/daily-covid/master/examples/plots_SUFFOLK_MA.png)   ![image](https://raw.githubusercontent.com/Fitzy1293/daily-covid/master/examples/plots_NEW-YORK-CITY_NY.png)</longdescription>
+</pkgmetadata>

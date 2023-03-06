@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Gotya Text AnonymizerGotya Text Anonymizer is a Python package that helps you to anonymize text by detecting and redacting personally identifiable information (PII) such as names, addresses, phone numbers, credit card numbers, email addresses, and more.## InstallationTo install the Gotya Text Anonymizer package, run the following command:```bashpip install gotya-text-anonymizer```## UsageHere's an example of how to use the Gotya Text Anonymizer package:```pythonfrom gotya_text_anonymizer.anonymizer import load_model, anonymizeload_model()text = &quot;&quot;&quot;My name is gotya tech and I live in Berlin, credit card 1234567890123456, Phone Number: +441234567890, Address: 123 Main St, Anytown, UK, Email: johndoe@example.com, PIN: 8888, CVV: 123&quot;&quot;&quot;redacted_text = anonymize(text, threshold=0.3)print(redacted_text)This will print the redacted text with PII replaced by tags. You can customize the threshold value to control the confidence level of the detected entities.```## ContributingContributions are welcome! If you would like to contribute to the Gotya Text Anonymizer package, please submit a pull request or open an issue on GitHub.## LicenseThe Gotya Text Anonymizer package is licensed under the MIT License.</longdescription>
+</pkgmetadata>

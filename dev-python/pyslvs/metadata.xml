@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![PyPI](https://img.shields.io/pypi/v/pyslvs.svg)](https://pypi.org/project/pyslvs/)[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/KmolYuan/pyslvs.svg?logo=lgtm&amp;logoWidth=18)](https://lgtm.com/projects/g/KmolYuan/pyslvs/context:python)# Pyslvs LibrariesA no-GUI module of mechanism synthesis system and a 2D geometric constraint solver.## InstallationInstall from PyPI:```bashpip install pyslvs```Or install and test from source:```bashpip install -e .python test```## DocumentationRun the solver through an example:```pythonfrom pyslvs import example_list, parse_vpoints, t_config, expr_solving# Get example with nameexpr, inputs = example_list(&quot;Jansen's linkage (Single)&quot;)# Parse the mechanism expression into a list of joint datavpoints = parse_vpoints(expr)# Config joint data and control data for the solverexprs = t_config(vpoints, inputs)# Solve the positionresult = expr_solving(exprs, vpoints, {pair: 0. for pair in inputs})# Get the result from joint 7x, y = result[7]print(x, y)  # -43.170055 -91.753226```The documentation of Pyslvs library is on [Readthedocs](https://pyslvs-ui.readthedocs.io/en/latest/pyslvs-lib/).If you have any questions, please post on GitHub issue or contact &lt;pyslvs@gmail.com&gt;.</longdescription>
+</pkgmetadata>

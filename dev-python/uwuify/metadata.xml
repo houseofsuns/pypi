@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># uwuify![PyPI - Downloads](https://img.shields.io/pypi/dm/uwuify?style=for-the-badge)[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)Command line uwuification# Installation```shellpip install uwuify```# Usage```shelluwuify hello# outputs hewwo in consoleuwuify how are you? --smiley --yu# outputs how awe yoyu? with a random smileyuwuify how are you? --smiley --yu --stutter# outputs h-how awe yoyu? with a random smiley# --stutter stutters every 4-th word```or```pythonimport uwuifyprint(uwuify.uwu(&quot;hello&quot;))# hewwoflags = uwuify.SMILEY | uwuify.YUprint(uwuify.uwu(&quot;how are you?&quot;, flags=flags))# how awe yoyu? with a random smileyflags = uwuify.SMILEY | uwuify.YU | uwuify.STUTTERprint(uwuify.uwu(&quot;how are you?&quot;, flags=flags))# h-how awe yoyu? with a random smiley```</longdescription>
+</pkgmetadata>

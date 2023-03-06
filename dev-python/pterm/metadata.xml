@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pterm[![PyPI version](https://badge.fury.io/py/pterm.svg)](https://badge.fury.io/py/pterm)Generates a bunch of usefull iterm2 dynamic profilesIt will load your ~/.aws/config and will generate all the required profilesfor your aws accounts.It can handle things like `source_profile` or `aws-azure-login` and it willautomatically export the correct `AWS_PROFILE` env var along with a cool badgefor your session.But wait, there is more.This script also talks kubernetes. It will scan your ~/.kube/confing and willseparate it out to multiple files. When you launch a k8s profile, the correct`KUBECOFNIG` and `AWS_PROFILE` is set, plus you get a nice blue color to makesure you know you are in a k8s enabled environment.# Installation```pip install pterm```# Help```pterm -h```</longdescription>
+</pkgmetadata>

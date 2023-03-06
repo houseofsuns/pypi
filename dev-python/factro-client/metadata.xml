@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># factro core api mittels Python verwendenTBD- [Vorbereitung der Umgebung](#vorbereitung-der-umgebung)Die Erweiterung der Client wird dagegen in [CONTRIBUTION.MD](CONTRIBUTION.MD) erklärt.</longdescription>
+</pkgmetadata>

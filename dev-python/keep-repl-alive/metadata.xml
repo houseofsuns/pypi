@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>============Keep Alive============Keep-alive is a simple python module for keeping repls awake============How to use============1. Install the module through pip`pip install keep_repl_alive`2. Import the `keep_repl_alive` function from the module`from keep_repl_alive import keep_alive`3. Add the function into your code4. And done</longdescription>
+</pkgmetadata>

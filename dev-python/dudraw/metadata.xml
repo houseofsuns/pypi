@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># dudraw## DescriptionRepository for `dudraw`, a fork of [stddraw from the Princeton Standard Libraries](https://introcs.cs.princeton.edu/python/code/).## Installation```pip install dudraw```## DocumentationAPI Documentation: [https://cs.du.edu/~intropython/dudraw/](https://cs.du.edu/~intropython/dudraw/)To build documentation:```pip install pydoctormake docs```## LicenseReleased under the [GNU Public License version 3 (GPLv3)](https://www.gnu.org/licenses/gpl-3.0.html)## AuthorsOriginal Authors of [StdLib](https://introcs.cs.princeton.edu/java/stdlib/):    Robert Sedgewick    Kevin Wayne `dudraw` Fork Additions by:    Joseph Brooksbank    Ryan Dunagan    Declan Kahn    Eddy Rogers    Andrew Hannum    Mohammed Albow    Jeff Edgington</longdescription>
+</pkgmetadata>

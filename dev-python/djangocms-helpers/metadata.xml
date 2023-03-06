@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Source Code = https://gitlab.com/what-digital/djangocms-helpersHome-page: https://gitlab.com/what-digital/djangocms-helpersAuthor: VictorAuthor-email: victor@what.digitalLicense: MITDescription: UNKNOWNKeywords: djangoPlatform: UNKNOWNClassifier: Development Status :: 4 - BetaClassifier: Programming Language :: Python3Classifier: Framework :: DjangoClassifier: Framework :: Django :: 2.1Classifier: Framework :: Django :: 2.2Classifier: Framework :: Django CMSClassifier: Programming Language :: Python :: 3Classifier: Programming Language :: Python :: 3.6</longdescription>
+</pkgmetadata>

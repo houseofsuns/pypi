@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## vegafusion-python-embedThis crate contains the Python library that embeds the VegaFusion Runtime and select Connection. This crate uses PyO3 to expose the Rust logic to CPython. </longdescription>
+</pkgmetadata>

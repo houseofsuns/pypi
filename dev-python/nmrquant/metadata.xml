@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>NMRQuant========**NMRQuant is a software for the quantification of metabolites from 1D Proton NMR experiments**.It takes as input integrated areas from spectra and proton counts from a database from excel andcsv files. It can be used with either internal or external calibration, using a standard. It outputsan excel file containing the calculated concentrations, and svg files containing plots that helpwith the visualisation and interpretation of the data.It is one of the routine tools used on the `MetaToul platform &lt;https://www6.toulouse.inrae.fr/metatoul&gt;`_.The code is open-source, and available on Github under a GPLv3 license.The documentation relative to NMRQuant's usage can be found on `ReadTheDocs &lt;https://nmrquant.readthedocs.io/&gt;`_.It can be used from a command line interface or through an interactive jupyter notebook GUI. The notebook can bedownloaded from the `GitHub page &lt;https://github.com/llegregam/NmrQuant&gt;`_... rubric:: Key Features* **Calculation of metabolite concentrations from 1D H+ NMR integrated data*** **Creation of figures (lineplots and barplots) that help with interpretation**</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=======Skyflow=======This is the Python SDK for the `Skyflow API &lt;https://skyflow.com/&gt;`_.Getting Started---------------You can install the package using the following command ::$ pip install skyflowWhat you need-------------- A Skyflow account (You can also request for a demo `here &lt;https://www.skyflow.com/get-demo&gt;`_)- A Skyflow Service AccountResources---------- You can find the source code with examples at the official `Github &lt;https://github.com/skyflowapi/skyflow-python/&gt;`_ repository.- Checkout the official `Skyflow docs &lt;https://docs.skyflow.com/&gt;`_ for API Reference</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Gzip Utilities for Python[![Build Status](https://dev.azure.com/eossu/public/_apis/build/status/Eossu.gzip-utils?branchName=master)](https://dev.azure.com/eossu/public/_build/latest?definitionId=2&amp;branchName=master)This is a repository to hold diffrent utilities for gzip.## Utilities- [Compressed JSON List](docs/utils/compressed_json_list.md)</longdescription>
+</pkgmetadata>

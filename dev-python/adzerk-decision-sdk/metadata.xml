@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>    Adzerk Decision SDK    Python Software Development Kit for Adzerk Decision &amp; UserDB APIs    https://github.com/adzerk/adzerk-decision-sdk-python    </longdescription>
+</pkgmetadata>

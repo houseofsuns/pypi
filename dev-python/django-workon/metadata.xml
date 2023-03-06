@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>django-workon======================Django multi extensions- Urls routing by decorator- Utils- Fields- Form Fields- Models helpers- ContribsUsage=====Add ``'workon'`` to your INSTALLED_APPSAdd ``url(r'^whatever_internal/', include('workon.urls')),`` to your url PATTERNS</longdescription>
+</pkgmetadata>

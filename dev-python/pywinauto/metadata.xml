@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>At it's simplest it allows you to send mouse and keyboardactions to windows dialogs and controls, but It has support for more complexcontrols also.Useful links-------------- Home page: http://pywinauto.github.io/- Docs Intro: https://pywinauto.readthedocs.io/en/latest/- Getting Started Guide: https://pywinauto.readthedocs.io/en/latest/getting_started.html- StackOverflow tag: https://stackoverflow.com/questions/tagged/pywinauto</longdescription>
+</pkgmetadata>

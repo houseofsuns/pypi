@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>#  CertificatesGenerate event certificates easily.## Requirements* Inkscape (`apt install inkscape`)## InstallationUse the package manager [pip](https://pip.pypa.io/en/stable/) to install certificates.```bashpip install certificates```## Usage`certificates participants.csv template.svg````usage: certificates [-h] [--output OUTPUT] participants templatepositional arguments:  participants          csv filaname containing participants  template              certificate template in svg format used to buildoptional arguments:  -h, --help            show this help message and exit  --output OUTPUT, -o OUTPUT                        destination of the generated certificates```## ContributingPull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.Please make sure to update tests as appropriate.## License[Apache 2.0](https://choosealicense.com/licenses/apache-2.0/)</longdescription>
+</pkgmetadata>

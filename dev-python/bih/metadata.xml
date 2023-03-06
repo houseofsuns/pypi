@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># BIH[Bounded Interval Hierachy](https://en.wikipedia.org/wiki/Bounding_interval_hierarchy) (BIH)of [Axes Aligned Bounding Boxes](https://en.wikipedia.org/wiki/Bounding_volume) (AABB). **Functions:**- construction of AABB from list of points- simple operations with AABBs- construction of BIH from a list of AABBs- lookup for AABBs containing a givnen point- lookup for AABBs intersecting with given AABBC++ implementation with Python binding.## Python install    pip3 install bih    See 'test/test_bih_tree.py' for usage example.    ## C++ build    mkdir build    cd build    cmake ..    makeSee 'test/test_bih_tree.cc' for usage example.    </longdescription>
+</pkgmetadata>

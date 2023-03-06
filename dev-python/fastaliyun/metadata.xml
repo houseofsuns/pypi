@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># fastaliyun#### 介绍快捷使用阿里云模块#### 软件架构软件架构说明#### 安装教程1.  pip安装```shell scriptpip install fastaliyun```2.  pip安装（使用淘宝镜像加速）```shell scriptpip install fastaliyun -i https://mirrors.aliyun.com/pypi/simple```#### 使用说明1.  demo```pythonimport fastaliyunres = fastaliyun.datahub.project_list()```</longdescription>
+</pkgmetadata>

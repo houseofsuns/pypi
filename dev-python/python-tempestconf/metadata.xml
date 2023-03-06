@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>python-tempestconf==================Overview--------python-tempestconf will automatically generate the tempest configurationbased on your cloud.-  Free software: Apache license-  Documentation: https://docs.opendev.org/openinfra/python-tempestconf/latest/-  Source: https://opendev.org/openinfra/python-tempestconf-  Bugs: https://storyboard.openstack.org/#!/project/912-  Release notes: https://docs.opendev.org/openinfra/python-tempestconf/latest/releasenotes</longdescription>
+</pkgmetadata>

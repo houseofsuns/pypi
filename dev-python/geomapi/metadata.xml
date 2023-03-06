@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>![geomapiLogo](https://gitlab.kuleuven.be/uploads/-/system/project/avatar/7619/GeoMapiLogo.png?width=64)# GeomAPIA joint API to standardize geomatic data storage and processing.Developed by the Geomatics research group at the KU Leuven ## InstallationUse the package manager [pip](https://pypi.org/project/geomapi) to install geomapi.```bashpip install geomapi```## DocumentationYou can read the full API reference here:[Documentation](https://geomatics.pages.gitlab.kuleuven.be/research-projects/geomapi/)## Quickstart```pyimport geomapifrom geomapi.nodes import NodenewNode = Node()```## ContributingThe master branch is protected and you can only make changes by submitting a merge request. Please create a new branch if you would like to make changes and submit them for approval.## LicensingThe code in this project is licensed under MIT license.</longdescription>
+</pkgmetadata>

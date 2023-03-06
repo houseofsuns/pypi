@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>A series of Python scripts to facilitate the processing of [fmdt's](https://github.com/alsoc/fmdt) outputScripts for video editing rely on [ffmpeg-python's](https://github.com/kkroening/ffmpeg-python) simple Python bindings to ffmpeg. Make sure you install `ffmpeg-python` before trying any of the video editing functionality.### Installation```pip install fmdt-python````fmdt/core.py` should contain the functions that are called directly in scripts.`fmdt/utils.py` contains utility functions that `fmdt.core` makes use of.Example to split a video using tracking information already provided by `fmdt-detect`:```import fmdtfmdt.split_video_at_meteors(&quot;demo.mp4&quot;, &quot;ex1_detect_tracks.txt&quot;)```#### TODO- [x] Upload fmdt to pip so that we can download fmdt and call scripts from anywhere- [x] Add API to call fmdt executables like `fmdt-detect` and `fmdt-visu`</longdescription>
+</pkgmetadata>

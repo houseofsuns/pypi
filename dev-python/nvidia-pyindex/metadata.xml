@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>NVIDIA Index============This package adds the address of the NVIDIA Private Python Package Index tothe user's environment.For more information, please refer to https://github.com/nvidia/tensorflow/This package can be installed as follows:.. code-block:: bash    pip install nvidia-pyindex</longdescription>
+</pkgmetadata>

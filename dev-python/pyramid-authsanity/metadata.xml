@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>==================pyramid_authsanity==================An auth policy for the `Pyramid Web Framework&lt;https://trypyramid.com&gt;`_ with sane defaults that works with `MichaelMerickel's &lt;http://michael.merickel.org&gt;`_ absolutely fantastic`pyramid_services &lt;https://github.com/mmerickel/pyramid_services&gt;`_.Provides an easy to use authorization policy that incorporates web securitybest practices.Installation============Install from `PyPI &lt;https://pypi.python.org/pypi/pyramid_authsanity&gt;`_ using``pip`` or ``easy_install`` inside a virtual environment.::  $ $VENV/bin/pip install pyramid_authsanityOr install directly from source.::  $ git clone https://github.com/usingnamespace/pyramid_authsanity.git  $ cd pyramid_authsanity  $ $VENV/bin/pip install -e .Setup=====Activate ``pyramid_authsanity`` by including it into your pyramid application.::  config.include('pyramid_authsanity')2.0.0 (2021-03-07)==================- Remove support for Python 2, 3.4, and 3.5- Updated to use new Pyramid 2.0 import locations, please use 1.1.0 if you want  compatibility with lower versions of Pyramid.1.1.0 (2017-11-29)==================- Add new Authorization header based authentication source  This provides out of the box support for &quot;Bearer&quot; like tokens.1.0.0 (2017-05-19)==================- Remove Python 2.6 support- Fix a bug whereby the policy was storing a dict instead of a list in the  source, which of course broke things subtly when actually using the policy.- Send empty cookie when forgetting the authentication for the cookie source</longdescription>
+</pkgmetadata>

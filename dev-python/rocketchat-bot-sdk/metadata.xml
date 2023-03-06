@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Rocketchat Bot SDKA small SDK to write chat bots for Rocketchat. Built on top of [https://github.com/jadolg/rocketchat_API](rocketchat_API), and using the websocket-based realtime API for receiving messages.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Tango Contact Manager=====[![Build Status](https://travis-ci.org/tBaxter/tango-contact-manager.svg?branch=master)](https://travis-ci.org/tBaxter/tango-contact-manager)Provides contact forms and any other sort of user submission form you might want. You can create new forms on the fly, straight from the admin.It has been tested for Python 2 and 3.## Key features* Simple contact forms or complex user-submission forms -- it's your call* Create new forms on the fly through the Django admin* Email addresses are never exposed to spammers* Submissions can be emailed or stored in your database* Submissions can be displayed on site* Submissions can include a photo.##Installation:    pip install tango-contact-manageror    pip install git+https://github.com/tBaxter/tango-contact-manager.git## Usage:Add 'contact_manager' and 'tango_shared' to your installed apps, then run syncdb or migrate.tango_shared is a dependency. It will be installed for you.Site emails will be sent to superusers or anyone specified in a DEFAULT_CONTACTS setting. That setting should be a list of emails.</longdescription>
+</pkgmetadata>

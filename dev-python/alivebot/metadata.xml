@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># AlivebotA script to find and react to !ALIVE commands in comments on the Hive blockchain.*Please note that this software is in early Beta stage, and that you need to know what you are doing to use it.*## Installation For Ubuntu and Debian install these packages:```sudo apt-get install python3-pip build-essential libssl-dev python3-dev python3-setuptools python3-gmpy2```### Install Python PackagesInstall alivebot by (you may need to replace pip3 by pip):```sudo pip3 install -U alivebot beem hiveengine```## Configure And Run AlivebotFirst clone the Github repository to your home directory:```cd ~git clone https://github.com/flaxz/alivebot```After that edit your comment templates using Nano, there are 4 comment templates.```sudo apt install nano cd ~/alivebot/templateslsnano COMMENT-TEMPLATE-1-2-3-4```Then edit your configuration file.```cd ~/alivebotnano alivebot.config```Copy your configuration and comment templates to your working directory.```cd ~/alivebotsudo cp templates /usr/local/binsudo cp alivebot /usr/local/binsudo cp alivebot.config /usr/local/binsudo cp run-alivebot.sh /usr/local/bin```Make the startup scripts executable.```cd /usr/local/binsudo chmod u+x alivebotsudo chmod u+x run-alivebot.sh```Copy the Systemd config to it's directory.```cd ~/alivebotsudo cp alivebot.service /etc/systemd/system```Reload Systemd and start the bot.```sudo systemctl daemon-reloadsudo systemctl start alivebot.service```Get status and error messages.```sudo systemctl status alivebot.service```Stop the bot.```sudo systemctl stop alivebot.service```As has been stated above this bot is in early Beta and bugs and issues are likely to occur.</longdescription>
+</pkgmetadata>

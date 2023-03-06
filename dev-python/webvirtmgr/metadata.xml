@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=================WebVirtMgr panel=================Introduction------------WebVirtMgr is a libvirt-based Web interface for managing virtual machines. It allows you to create and configure new domains, and adjust a domain's resource allocation. A VNC viewer presents a full graphical console to the guest domain. KVM is currently the only hypervisor supported.Technology:***********The application logic is written in Python &amp; Django. The LIBVIRT Python bindings are used to interacting with the underlying hypervisor.Installation (Only web panel)-----------------------------`Install WebVirtMgr &lt;https://github.com/retspen/webvirtmgr/wiki/Install-WebVirtMgr&gt;`_Setup host server (Server for VM's)-----------------------------------`Setup Host Server &lt;https://github.com/retspen/webvirtmgr/wiki/Setup-Host-Server&gt;`_Links------- `Website &lt;https://github.com/retspen/webvirtmgr&gt;`_- `Screenshots &lt;https://github.com/retspen/webvirtmgr/wiki/Screenshots&gt;`_- `Wiki &lt;https://github.com/retspen/webvirtmgr/wiki&gt;`_</longdescription>
+</pkgmetadata>

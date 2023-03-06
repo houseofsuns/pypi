@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>**lifelib** is a collection of actuarial projection models.lifelib models are built as `modelx`_ models, ready to be used out of the boxwith sample formulas and input files, and they arefully customizable by users... _modelx: http://docs.modelx.ioFeature highlights------------------    - Formulas and their calculated values paired as **Cells**,      just like spreadsheet cells    - Relevant cells grouped together as a **Space**, just like a spreadsheet    - Spaces in other spaces (subspaces), forming trees of spaces    - **Models** composed of spaces    - Space inheritance    - Parametrized dynamic subspaces created automatically    - Saving to / loading from files    - Conversion to Pandas objects    - Reading data from Excel files    - Cells graph to track cells interdependencyWhy **lifelib**?----------------    - Better model integrity and extensibility    - For readable formula expressions    - For eliminating spreadsheet errors    - For better version control/model governanceWhat for?---------    - Pricing / Profit testing    - Model validation / testing    - Prototyping for production models    - As corporate models    - For simulations    - As replacement for any spreadsheet modelsRelated sites-------------    - **lifelib** development site: https://github.com/lifelib-dev/lifelib    - **modelx** documentation: http://docs.modelx.io</longdescription>
+</pkgmetadata>

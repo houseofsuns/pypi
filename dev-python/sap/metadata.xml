@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Simple Attribute Profiles (SAP)[![build status](https://github.com/fguiotte/sap/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/fguiotte/sap/actions/workflows/main.yml)[![codecov](https://codecov.io/gh/fguiotte/sap/branch/master/graph/badge.svg?token=D8VCLKNAYW)](https://codecov.io/gh/fguiotte/sap)[![Documentation Status](https://img.shields.io/readthedocs/python-sap/master)](https://python-sap.readthedocs.io/en/master)[![Pypi version](https://img.shields.io/pypi/v/sap.svg)](https://pypi.org/project/sap/)[![Pypi python](https://img.shields.io/pypi/pyversions/sap)](https://pypi.org/project/sap/)SAP is a Python package to easily compute morphological attributeprofiles (AP) of images.## Installation```shellpip install sap```## DocumentationDocumentation is available on &lt;https://python-sap.rtfd.io&gt;.### Notebooks**TODO:**### Code examples```pythonimport sapimport numpy as npimport matplotlib.pyplot as pltimage = np.random.random((512, 512))t = sap.MaxTree(image)area = t.get_attribute('area')filtered_image = t.reconstruct(area &lt; 100)plt.imshow(filtered_image)plt.show()```## Develop status[![build status](https://github.com/fguiotte/sap/actions/workflows/main.yml/badge.svg?branch=develop)](https://github.com/fguiotte/sap/actions/workflows/main.yml)[![codecov](https://codecov.io/gh/fguiotte/sap/branch/develop/graph/badge.svg?token=D8VCLKNAYW)](https://codecov.io/gh/fguiotte/sap)[![Documentation Status](https://img.shields.io/readthedocs/python-sap/develop)](https://python-sap.readthedocs.io/en/develop)</longdescription>
+</pkgmetadata>

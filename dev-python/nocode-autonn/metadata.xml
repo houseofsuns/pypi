@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;p align=&quot;center&quot;&gt; &lt;a href=&quot;https://pypi.org/project/nocode-autonn/&quot;&gt; &lt;img src=&quot;https://user-images.githubusercontent.com/55054089/190849404-ac47a467-3f66-48af-a037-177938230c4b.png&quot; /&gt;&lt;/p&gt;&lt;/a&gt;***# AutoNN : A No-Code Automated Machine Learning Framework For Deep Learning enthusiast.## Official &lt;a href=&quot;https://autonn.github.io/AutoNN/&quot;&gt;Website&lt;/a&gt;## InstallationInstall it using pip package manager:```pythonpip install nocode-autonn```Upgrade the package using the following command:```pythonpip install --upgrade nocode-autonn```## Install all the dependencies ```pip install -r requirements.txt```## How to run the file:Open terminal and write the following command:```autonn```## The user interface: ![ezgif com-gif-maker](https://user-images.githubusercontent.com/55054089/208089822-6167f0c4-6ff5-4952-815d-ee9c74e09641.gif)</longdescription>
+</pkgmetadata>

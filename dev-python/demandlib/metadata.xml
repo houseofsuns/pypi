@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>========Overview========Creating heat and power demand profiles from annual values.* Free software: MIT licenseInstallation============::    pip install demandlibYou can also install the in-development version with::    pip install https://github.com/oemof/demandlib/archive/master.zipDocumentation=============https://demandlib.readthedocs.io/Development===========To run all the tests run::    toxNote, to combine the coverage data from all the tox environments run:.. list-table::    :widths: 10 90    :stub-columns: 1    - - Windows      - ::            set PYTEST_ADDOPTS=--cov-append            tox    - - Other      - ::            PYTEST_ADDOPTS=--cov-append tox</longdescription>
+</pkgmetadata>

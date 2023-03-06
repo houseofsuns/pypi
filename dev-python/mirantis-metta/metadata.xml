@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Mirantis Testing ToolboxThe Mirantis Testing tooblox cluster management framework for creating testharnesses to test against.## DependenciesMetta relies heavily on python 3.8 features and setuptools for the modular plugin system.### ConfigerusConfigerus is heavily leveraged for dynamic and abstracted configuration.Primarily two aspects are used:1. centralized configuration in order to separate plugins which need config from   the configuration that they need; this allows simpler management and overrides.2. Configerus source overrides are used to implement a preset system where   configuration sources are included based on what preset keys are requested.   This allows easy switching of cluster platforms, cluster size and mirantis   product versions.## Getting startedsee our ./docs section for better running instructions## ContributingFeel free to open issues and PRs directly.</longdescription>
+</pkgmetadata>

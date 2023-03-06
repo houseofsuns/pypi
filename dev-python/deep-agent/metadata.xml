@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># DEEP Python ClientDEEP is an open source dynamic insight engine based on the Grafana stack. The idea is to allow dynamic collection ofTraces, Metrics, Logs and Snapshots via the Grafama UI.## UsageTo use DEEP simple import the package and start the agent at the earliest point in the code.```pythonimport deepdeep.start()```## ExamplesThere are a couple of examples [available here](./examples/README.md).</longdescription>
+</pkgmetadata>

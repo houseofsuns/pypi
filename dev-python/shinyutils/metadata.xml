@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># shinyutilsVarious utilities for common tasks. :sparkles: :sparkles: :sparkles:## SetupInstall with `pip` (Python 3.7 or higher is required).```bashpip install shinyutils  # basic installpip install &quot;shinyutils[colors]&quot;  # install with color support```## UsageFor documentation on usage, refer to docs/index.md.</longdescription>
+</pkgmetadata>

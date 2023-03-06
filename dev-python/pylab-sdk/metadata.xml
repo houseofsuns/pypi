@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pylab-sdkA development kit that collects simple utilities.## Installation```bashpip install pylab-sdk```## Example```import pylab# Get your public IPip = pylab.get_ip()# Get latest user agent of modern browseragents = pylab.get_latest_agents()assert agents['macOS'] == pylab.get_latest_agents('macOS')# Similar to netcat, webcat running over the http protocol helps you keep a log that you can check anywhere.pylab.wc('hello world', source='discord-bot')```</longdescription>
+</pkgmetadata>

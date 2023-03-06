@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># metric-config-parserThis package parses configuration files that are compatible with [jetstream](https://github.com/mozilla/jetstream) and [opmon](https://github.com/mozilla/opmon) compatible configuration files.## Installation`pip install mozilla-metric-config-parser`</longdescription>
+</pkgmetadata>

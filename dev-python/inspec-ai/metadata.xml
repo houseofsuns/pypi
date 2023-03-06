@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># inspec-ai[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)![CI](https://github.com/moovai/inspec/actions/workflows/ci.yml/badge.svg)This library contains all the prototypes that were developped by the Moov AI product team.   ## InstallationTo add inSpec to your project, you can run the following command:```pip install inspec-ai```NOTE: inspec-ai was developed using Python 3.9.## DocumentationFor more information on each specific function, please consult their specific documentation page in the `docs/` folder on the repository.## LicenseCopyright (c) 2022 MoovAI Technologies Inc.Permission is hereby granted, free of charge, to any person or organizationobtaining a copy of this software and associated documentation files(the &quot;Software&quot;), to use, copy and distribute the Software within theinternal operations of aforementioned person or organization. It isstrictly forbidden to publish, externally distribute, sublicense, lease orsell copies or use of the Software or any derived work, without explicitauthorization from MoovAI Technologies Inc.THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS ORIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THEAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHERLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THESOFTWARE.</longdescription>
+</pkgmetadata>

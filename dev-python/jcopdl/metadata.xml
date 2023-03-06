@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># J.COp DLJ.COp DL is a deep Learning package to complement pytorch workflow. It includes pytroch callbacks and metrics.The project started in August 2019 as a tool to teach deep learning for beginner. Together with LuWiji and J.COp ML, J.COP DL is developed by Wira D. K. Putra as complementary for his machine learning curriculum for young machine learning enthusiast.# User Installation Guide```pip install jcopdl```</longdescription>
+</pkgmetadata>

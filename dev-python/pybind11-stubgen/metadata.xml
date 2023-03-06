@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image:: https://img.shields.io/pypi/v/pybind11-stubgen.svg?logo=PyPI&amp;logoColor=white    :alt: pypi package    :target: https://pypi.org/project/pybind11-stubgen/About=====Generates stubs for python modulesThere are several tweaks to target specifically modules compiled using `pybind11 &lt;https://github.com/pybind/pybind11&gt;`_Package targets python3 only. (In fact, it's compatible with python2 but it's not officially supported)Issues/PR are welcomeInstall=======**From PYPI:**.. code-block:: bash   python -m pip install pybind11-stubgen**From github:**.. code-block:: bash   python -m pip install git+https://github.com/sizmailov/pybind11-stubgen.gitUsage=====.. code-block:: bash   pybind11-stubgen [-h] [-o OUTPUT_DIR] \                    [--root-module-suffix ROOT_MODULE_SUFFIX] \                    [--no-setup-py] \                    [--ignore-invalid {signature,defaultarg,all} [{signature,defaultarg,all} ...]] \                    [--skip-signature-downgrade] \                    [--bare-numpy-ndarray] \                    [--log-level LOG_LEVEL] \                    MODULE_NAME [MODULE_NAME ...]</longdescription>
+</pkgmetadata>

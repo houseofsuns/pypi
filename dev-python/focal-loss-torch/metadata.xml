@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># focal_loss_torchSimple pytorch implementation of focal loss introduced by Lin et al [[1]](#1).## UsageInstall the package using pip```bashpip install focal_loss_torch```Focal loss is now accessible in your pytorch environment:```pythonfrom focal_loss.focal_loss import FocalLoss# Withoout class weightscriterion = FocalLoss(gamma=0.7)# with weights # The weights parameter is similar to the alpha value mentioned in the paperweights = torch.FloatTensor([2, 3.2, 0.7])criterion = FocalLoss(gamma=0.7, weights=weights)# to ignore index criterion = FocalLoss(gamma=0.7, ignore_index=0)# To make it behaves as CrossEntropy losscriterion = FocalLoss(gamma=0)```### ExamplesFor Binary-classification```pythonbatch_size = 10m = torch.nn.Sigmoid()logits = torch.randn(batch_size)target = torch.randint(0, 2, size=(batch_size,))loss = criterion(m(logits), target)```For Multi-Class classification```pythonbatch_size = 10n_class = 5m = torch.nn.Softmax(dim=-1)logits = torch.randn(batch_size, n_class)target = torch.randint(0, n_class, size=(batch_size,))criterion(m(logits), target)```For Multi-Class Sequence classification```pythonbatch_size = 10max_length = 20n_class = 5m = torch.nn.Softmax(dim=-1)logits = torch.randn(batch_size, max_length, n_class)target = torch.randint(0, n_class, size=(batch_size, max_length))criterion(m(logits), target)```## ContributionsContributions, criticism or corrections are always welcome. Just send me a pull request!## References &lt;a id=&quot;1&quot;&gt;[1]&lt;/a&gt; Lin, T. Y., et al.&quot;Focal loss for dense object detection.&quot;arXiv 2017.&quot; arXiv preprint arXiv:1708.02002 (2002).</longdescription>
+</pkgmetadata>

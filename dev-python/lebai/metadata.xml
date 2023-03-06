@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># 乐白机器人 Python SDK## 使用说明```pip install lebai```[API 文档](https://docs.lebai.ltd/sdk/python/)- `LebaiRobot`：提供乐白机器人API的python调用接口。## 示例```pythonimport mathfrom lebai import LebaiRobot, CartesianPose, JointPosedef run():    rb = LebaiRobot(&quot;192.168.3.218&quot;)    rb.start_sys()    rb.movej(JointPose(0, -1.2, math.pi / 6, 0, math.pi / 4, 0), 0, 0, 1, 0)    base = rb.get_actual_tcp_pose()    p2 = CartesianPose(0.1, 0, 0, 0, 0, 0, base=base)    rb.movel(p2, 0, 0, 1, 0)    rb.stop_sys()if __name__ == '__main__':    run()```## 版本要求- Python &gt;= 3.7安装依赖：```bashpip install grpcio protobuf~=3.19.4 requests```</longdescription>
+</pkgmetadata>

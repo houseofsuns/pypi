@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=======DryDock=======.. image:: https://badge.fury.io/py/drydock.png    :target: http://badge.fury.io/py/drydock    .. image:: https://travis-ci.org/Nekroze/drydock.png?branch=master    :target: https://travis-ci.org/Nekroze/drydock.. image:: https://pypip.in/d/drydock/badge.png    :target: https://pypi.python.org/pypi/drydockA Docker cluster construction utility.DryDock takes a simple (YAML_) specification file then can construct andconfigure a cluster of Docker_ containers. DryDock will automaticallysetup a reverse proxy, exposure of ports, and even persistent storage toallow for easy future upgrading by simply rebuilding the DryDockspecification!Features--------* Simple YAML_ configuration.* Automatic Docker_ cluster provisioning/configuration* Nginx_ reverse proxy configuration with HTTPS/SSL support* Easy setup for persistent volumes.* Share your DryDock specifications with the world.* Container supervisor utilizing the Docker_ API.TODO----* Provide a better update path, specific update commands, custom pre-post.* Container monitoring, ensure a container is working else reconstruct it.* Better support for stateless-ness and volumes* Better unittest coverage.* Ability to provide a custom docker images repository for master containers.* An external facing DNS server or config generation.* Control over a master container cluster, Drydock as a Service?.* Web interface for control, logging and monitoring. Far future... _Nginx: http://wiki.nginx.org/.. _YAML: http://wikipedia.org/wiki/YAML.. _Docker: https://www.docker.io/Documentation-------------The full documentation is at http://dry-dock.readthedocs.org.</longdescription>
+</pkgmetadata>

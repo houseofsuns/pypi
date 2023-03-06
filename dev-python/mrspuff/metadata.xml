@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># mrspuff&gt; A library for Deep Learning education. (deep learning &lt;=&gt; having a school at the bottom of the ocean)![mrspuff image](https://github.com/drscotthawley/mrspuff/blob/master/images/mrspuff_logo.png?raw=1)## About`mrspuff` is a collection of teaching tools for deep learning, intended to work well on [Google Colab](https://colab.research.google.com/) and interface with [fast.ai](https://github.com/fastai/fastai).## Install`pip install mrspuff`## How to useThis is still under development, not ready for widespread public use yet. If you want to try it,you may either import individual routines, as in```pythonfrom mrspuff.viz import image_and_bars``` or import the whole package and access its submodules, e.g.:```pythonimport mrspuff as mspp, t = msp.utils.calc_prob()```</longdescription>
+</pkgmetadata>

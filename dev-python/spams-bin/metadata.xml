@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Python interface for SPArse Modeling Software (SPAMS),an optimization toolbox for solving various sparse estimation problems.This (unofficial) version includes pre-built wheels for python 3 on windows, mac (with openmp support) and linux.In addition, building from source explicitly requires openblas on mac/linux and intel mkl on windows,unlike the official version which can use any blas implementation.The source code for this fork is also available at https://github.com/samuelstjean/spams-python/</longdescription>
+</pkgmetadata>

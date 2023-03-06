@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ansible-mdgen[![&lt;CircleCI&gt;](https://circleci.com/gh/murphypetercl/ansible-mdgen.svg?style=svg)](https://app.circleci.com/pipelines/github/murphypetercl/ansible-mdgen?branch=main)Ansible-mdgen is a package used to auto generate documentation for an ansible role.## To install```pip install ansible-mdgen```## To runCall ansible-mdgen passing in the path to the role```ansible-mdgen &lt;path_to_role&gt;```## DocumentationSee [here](https://murphypetercl.github.io/ansible-mdgen/) for full documentation.## CreditsThe idea for this project is based on (and includes some code from) [ansible-autodoc](https://github.com/AndresBott/ansible-autodoc) by Andres Bott so credit to him for his work.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>PyPI has a new home at &lt;http://pypi.org/&gt;. Users should need not need to changeanything, as the old &quot;www&quot; address should still work. Use of the newaddress in preference is encouraged.Developers interested in how PyPI works, or in contributing to the project,should visit http://wiki.python.org/moin/CheeseShopDev</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Perforce is the fast SCM system at www.perforce.com.This package provides a simple interface from Python wrapping thePerforce C++ API to gain performance and ease of coding.Similar to interfaces available for Ruby and Perl.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;h1&gt;snaplib&lt;/h1&gt;&lt;h2&gt;A simple data preprocessing tools.&lt;/h2&gt;____________________________________________# user guide### Kaggle Notebook### Classification    &lt;https://www.kaggle.com/code/artyomkolas/titanic-snaplib-classification/notebook&gt;### Regression    &lt;https://www.kaggle.com/code/artyomkolas/housing-prices-with-snaplib/notebook&gt;____________________________________________# PyPi```python!pip install snaplibfrom snaplib.snaplib import Snaplibsl = Snaplib()```                  1. sl.nan_info     2. sl.nan_plot     3. sl.cleane     4. sl.recover_data - NaN imputing with ML5. sl.dummied     6. sl.encode_dataframe     7. sl.decode_dataframe    8. sl.train_test_split_balanced      9. sl.k_folds_split     ### For one and list of algorithms with bagging10. sl.cross_val    11. sl.features_selection_regr12. sl.features_selection_clsf     13. sl.fit_stacked     14. sl.save_stack     15. sl.load_stack     16. sl.predict_stacked      # __doc__```pythonprint(sl.recover_data.__doc__)```Imputing of missing values (np.nan) in tabular data, not TimeSeries.            Use case:df = Snaplib().recover_data(df, device=&quot;cpu&quot;, verbose=True)      device must be &quot;cpu&quot; or &quot;gpu&quot;. Sometime small datasets work faster with cpu.      verbose = True algorithm runs cross validation tests and prints results of tests for decision making.      discrete_columns = ['col_name_1', 'col_name_2', 'col_name_3', 'etc']      TESTS on &lt;https://www.kaggle.com/code/artyomkolas/nan-prediction-in-progress/notebook&gt;      </longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Complete documentation of the FoundationDB Python API can be found at https://apple.github.io/foundationdb/api-python.html.These bindings require the FoundationDB client. The client can be obtained from https://www.foundationdb.org/download/.</longdescription>
+</pkgmetadata>

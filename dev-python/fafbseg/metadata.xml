@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![Documentation Status](https://readthedocs.org/projects/fafbseg-py/badge/?version=latest)](https://fafbseg-py.readthedocs.io/en/latest/?badge=latest) [![DOI](https://zenodo.org/badge/197735091.svg)](https://zenodo.org/badge/latestdoi/197735091)# FAFBsegTools to work with manually generated and auto-segmented data in FAFB.## DocumentationFAFBseg is on [readthedocs](https://fafbseg-py.readthedocs.io/en/latest/).## QuickstartLatest stable version```bashpip3 install fafbseg```Install from Github```bashpip3 install git+https://github.com/flyconnectome/fafbseg-py.git```</longdescription>
+</pkgmetadata>

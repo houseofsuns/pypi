@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pyuptimekumaSimple Python wrapper for Uptime Kuma## Installation```shellpython3 -m pip install pyuptimekuma```## Example```pythonimport asyncioimport aiohttpfrom pyuptimekuma import UptimeKumaURL = &quot;&quot;USERNAME = &quot;&quot;PASSWORD = &quot;&quot;VERIFY_SSL = Trueasync def main():    async with aiohttp.ClientSession() as session:        uptime_robot_api = UptimeKuma(session, URL, USERNAME, PASSWORD, VERIFY_SSL)        response = await uptime_robot_api.async_get_monitors()        print(response.data)loop = asyncio.get_event_loop()loop.run_until_complete(main())```## CreditI would like to give a special thanks to these repositories since a lot of code has been inspired by them.- [ludeeus/pyuptimerobot](https://github.com/ludeeus/pyuptimerobot)- [meichthys/utptime_kuma_monitor](https://github.com/meichthys/utptime_kuma_monitor)</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=========mitocyto=========Image analysis software for detecting cells in serial sections and summarising intensity in each cell across multiple channels.  Includes automatic segementation and gui-based manual segmentation workflows.Source code and documentation on GitHub: `https://github.com/CnrLwlss/mitocyto &lt;https://github.com/CnrLwlss/mitocyto/&gt;`_.Contributors============`Conor Lawless &lt;http://cnr.lwlss.net/&gt;`_</longdescription>
+</pkgmetadata>

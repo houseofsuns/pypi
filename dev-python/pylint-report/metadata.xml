@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pylint-report==============Generates an HTML report summarizing the results of `pylint &lt;https://www.pylint.org/&gt;`_.Installation-------------The recommended way to install ``pylint-report`` is using.. code-block:: bash   pip install pylint-reportor, for a development version (with all optional dependencies):.. code-block:: bash   pip install pylint-report[dev]Quickstart===========Place the following in ``.pylintrc``.. code-block:: shell   [MASTER]   load-plugins=pylint_report   [REPORTS]   output-format=pylint_report.CustomJsonReporteror place the following in ``pyproject.toml``.. code-block:: toml   [tool.pylint.MASTER]   load-plugins = &quot;pylint_report&quot;   [tool.pylint.REPORTS]   output-format = &quot;pylint_report.CustomJsonReporter&quot;or manually pass the ``--load-plugins`` and ``--output-format`` flags.* A two-step approach:  + ``pylint path/to/code &gt; report.json``: generate a (custom) ``json`` file using ``pylint``  + ``pylint_report.py report.json -o report.html``: generate html report* Or alternatively ``pylint path/to/code | pylint_report.py &gt; report.html``Based on---------* https://github.com/Exirel/pylint-json2html* https://stackoverflow.com/a/57511754</longdescription>
+</pkgmetadata>

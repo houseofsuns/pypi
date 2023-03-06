@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># valclient.py### API wrapper for VALORANT's client API[![Discord](https://img.shields.io/badge/discord-join-7389D8?style=flat&amp;logo=discord)](https://discord.gg/uGuswsZwAT)[![Downloads](https://pepy.tech/badge/valclient)](https://pepy.tech/project/valclient)## Installation```pythonpip install valclient```## Example```pythonfrom valclient.client import Clientclient = Client(region=&quot;na&quot;)client.activate()# get MatchID of latest matchhistory = client.fetch_match_history(queue_id=&quot;unrated&quot;)print(history[&quot;History&quot;][0][&quot;MatchID&quot;])```## DocsCheck out [Techdoodle's awesome documentation](https://github.com/techchrism/valorant-api-docs/tree/trunk/docs)</longdescription>
+</pkgmetadata>

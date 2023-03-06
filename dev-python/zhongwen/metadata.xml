@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># 給懂中文的程式設計師## 中文數字模組運用中文文字處理程式庫的程式設計師自然懂中文，所以本程式庫設計哲學就是函數以中文命名且能簡明表達功能，另以簡體名稱表示處理簡體中文情形，繁體名稱表示處理繁體中文情形，如以中文數字處理功能為例：     from zhongwen.number import 中文數字, 中文数字, 大寫中文數字    中文數字(10600)    &gt;&gt;&gt; '一萬零六百'    中文数字(10600)    &gt;&gt;&gt; '一万零六百'    大寫中文數字(23232.00518)    &gt;&gt;&gt; '貳萬參仟貳佰參拾貳點零零伍壹捌'## 民國日期處理民國日期係目前仍在臺灣地區使用之日期格式，本模組之【取日期】函數可將民國日期字串轉成日期時間(datetime)類型，而【民國日期】可將日期時間依指定格式轉成字串，示例如次：    from zhongwen.date import 取日期    取日期('111.9.23')    &gt;&gt;&gt; datetime(2022,9,23,0,0)    取日期('110/12/27')    &gt;&gt;&gt; datetime(2021,12,27,0,0)    from zhongwen.date import 民國日期    民國日期(datetime(2021,12,27,0,0), '%Y年%M月%d日')    &gt;&gt;&gt; '110年12月27日'## 中文字元判斷中文字元判斷功能示例如次：    是否為中文字元('繁')    &gt;&gt;&gt; True    是否為中文字元('简')    &gt;&gt;&gt; True    是否為中文字元('a')    &gt;&gt;&gt; False</longdescription>
+</pkgmetadata>

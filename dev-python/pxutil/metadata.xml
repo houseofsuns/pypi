@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pxutil======.. image:: https://github.com/peterjpxie/pxutil/actions/workflows/build_test_publish.yml/badge.svg    :target: https://github.com/peterjpxie/pxutil/actions  .. image:: https://img.shields.io/badge/code%20style-black-000000.svg    :target: https://github.com/psf/blackSome handy Python utilitiesInstall from source===================::    python setup.py install    or     pip install .Build distributions -- Replaced with Actions / cibuildwheel===========================================================::    rm -rf dist/* &amp;&amp; python setup.py sdist bdist_wheelPublish to pypi===============::    twine upload dist/*Usage=====::    import pxutil as px    px.bash('ls')    px.bashx('ls')    px.grep('ab','abc\ndef')    px.trim_docstring('''        ab            cd        ef        '''        )Test====::    pip3 install -U pytest tox pytest-cov     git clone https://github.com/peterjpxie/pxutil.git    cd pxutil    pytest    or     tox</longdescription>
+</pkgmetadata>

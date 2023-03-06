@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>====================================================== Python implementation of the multihash specification======================================================This is an implementation of the `multihash`_ specification in Python.The main component in the module is the `Multihash` class, a named tuple thatrepresents a hash function and a digest created with it, with extendedabilities to work with hashlib-compatible hash functions, verify the integrityof data, and encode itself to a byte string in the binary format described inthe specification (possibly ASCII-encoded).  The `decode()` function can beused for the inverse operation, i.e. converting a (possibly ASCII-encoded)byte string into a `Multihash` object... _multihash: https://github.com/jbenet/multihashFor more information, please see the documentation under the ``docs``directory and the docstrings in the ``multihash`` package.  Ready-to-readdocumentation is also available in https://pymultihash.readthedocs.io/.This package requires at least Python 3.4.</longdescription>
+</pkgmetadata>

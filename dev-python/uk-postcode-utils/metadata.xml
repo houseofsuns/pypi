@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=====================UK Postcode utilities=====================UK Postcode utilities provides functions for working with UK postcodedata. Typical usage often looks like this::    #!/usr/bin/env python    from ukpostcodeutils import validation    if validation.is_valid_postcode('SW1A1AA'):        print &quot;Postcode OK.&quot;Contributors============- Matthew Somerville- Louise Crow- Andy Gimblett- ShaheedHaque</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Vallaris libraryA package to made for support Vallaris MapsNow supported Pythont &gt;= 3.6## How to use &lt;br/&gt;1 Install python &gt;= 3.6 &lt;br/&gt;2 Install library vallaris ==&gt; pip3 install vallaris&lt;br/&gt;3 Create User On Vallaris Maps at https://vallarismaps.com/management/signin&lt;br/&gt;4 Example source code at https://repo.i-bitz.co.th/vallaris_example/vallaris-python## Select a file from the code folder.  for data management in Vallaris Maps &lt;br/&gt; - 1 collectionCreate.py  ==&gt; for create Collection &lt;br/&gt;- 2 collectionUpdate.py ==&gt; for update Collection &lt;br/&gt;- 3 collectionDelete.py ==&gt; for delete Collection &lt;br/&gt;- 4 featuresCreate.py ==&gt; for create data in Collection &lt;br/&gt;- 5 featuresUpdate.py ==&gt; for update data in Collection &lt;br/&gt;- 6 featuresDelete.py ==&gt; for delete data in Collection &lt;br/&gt;- 7 featuresExport.py ==&gt; for download data in Collection &lt;br/&gt;- 8 vectortileCreate.py ==&gt; for Vector Tile  &lt;br/&gt;## Select a file from the code folder.  for create Module processes in Vallaris Maps &lt;br/&gt; - 1 perform.py ==&gt; for write code python &lt;br/&gt;- 2 mockProcess.py ==&gt; for json test for use processes &lt;br/&gt;</longdescription>
+</pkgmetadata>

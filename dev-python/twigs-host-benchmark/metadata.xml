@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>====================twigs_host_benchmark====================.. image:: https://img.shields.io/pypi/v/twigs_host_benchmark.svg        :target: https://pypi.python.org/pypi/twigs_host_benchmark.. image:: https://readthedocs.org/projects/twigs-host-benchmark/badge/?version=latest        :target: https://twigs-host-benchmark.readthedocs.io/en/latest/?badge=latest        :alt: Documentation StatusTWIGS Host Benchmark* Free software: GNU General Public License v3.* Documentation: https://twigs-host-benchmark.readthedocs.io.Features--------* This is a sub-package used by twigs for performing host benchmark tests.Credits-------This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template... _Cookiecutter: https://github.com/audreyr/cookiecutter.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage=======History=======1.0.0 (2020-11-20)------------------* First release on PyPI.1.0.1 (2021-03-12)------------------* Minor fixes.1.0.2 (2022-05-31)------------------* Upgraded host benchmark tool.1.0.3 (2022-06-01)------------------* Fix broken package.</longdescription>
+</pkgmetadata>

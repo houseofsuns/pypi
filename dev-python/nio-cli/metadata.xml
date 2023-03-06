@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>nio CLI=======A suite of command line tools for the [nio](https://niolabs.com/) Platform.[Documentation](https://docs.n.io/cli/)To install for development:```git clone git@github.com:niolabs/nio-cli.gitcd nio-clipip3 install -e .[dev]```</longdescription>
+</pkgmetadata>

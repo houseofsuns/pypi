@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>A food ordering management system for Django.    This project was initially started to help 'dotKom' with organizing the ordering of food for their work nights.    Check out the github repo for installation instructions.</longdescription>
+</pkgmetadata>

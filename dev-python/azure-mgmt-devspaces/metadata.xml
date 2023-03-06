@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Microsoft Azure SDK for Python==============================This is the Microsoft Azure Dev Spaces Client Library.Azure Resource Manager (ARM) is the next generation of management APIs thatreplace the old Azure Service Management (ASM).This package has been tested with Python 2.7, 3.4, 3.5, 3.6 and 3.7.For the older Azure Service Management (ASM) libraries, see`azure-servicemanagement-legacy &lt;https://pypi.python.org/pypi/azure-servicemanagement-legacy&gt;`__ library.For a more complete set of Azure libraries, see the `azure &lt;https://pypi.python.org/pypi/azure&gt;`__ bundle package.Usage=====For code examples, see `Dev Spaces&lt;https://docs.microsoft.com/python/api/overview/azure/&gt;`__on docs.microsoft.com.Provide Feedback================If you encounter any bugs or have suggestions, please file an issue in the`Issues &lt;https://github.com/Azure/azure-sdk-for-python/issues&gt;`__section of the project... image::  https://azure-sdk-impressions.azurewebsites.net/api/impressions/azure-sdk-for-python%2Fazure-mgmt-devspaces%2FREADME.png.. :changelog:Release History===============0.2.0 (2019-05-23)++++++++++++++++++**Features**- Model ControllerUpdateParameters has a new parameter target_container_host_credentials_base64- Added operation group ContainerHostMappingsOperations**Breaking changes**- Operation ControllersOperations.list_connection_details has a new signature- Operation ControllersOperations.update has a new signature- Model ControllerConnectionDetails has a new signature0.1.0 (2018-07-12)++++++++++++++++++* Initial Release</longdescription>
+</pkgmetadata>

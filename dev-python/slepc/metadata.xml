@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>SLEPc is a software library for the solution of large scale sparseeigenvalue problems on parallel computers. It is an extension of PETScand can be used for either standard or generalized eigenproblems, withreal or complex arithmetic. It can also be used for computing apartial SVD of a large, sparse, rectangular matrix, and to solvenonlinear eigenvalue problems.. note::   To install ``PETSc``, ``SLEPc``, ``petsc4py``, and ``slepc4py``   (``mpi4py`` is optional but highly recommended) use::     $ pip install numpy mpi4py     $ pip install petsc petsc4py     $ pip install slepc slepc4py</longdescription>
+</pkgmetadata>

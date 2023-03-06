@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># General utilities and practicesThis repository contains development patterns applied for the bmcs packges. They distinguish three development phases: * Formulation of model components using using jupyter notebooks with Python package  * Implementation of Python packages * Model presentation using examples via Jupyter Notebooks The detailed documentation of the package is provided [here](docs/README.md)</longdescription>
+</pkgmetadata>

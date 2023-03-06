@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Open notebooks from the command linenbopen looks for the nearest running notebook server - if it finds one, itopens a web browser to that notebook. If not, it starts a new notebook serverin that directory.Installation::    python3 -m pip install nbopenUsage::    nbopen AwesomeNotebook.ipynbTo integrate with your file manager, so you can double click on notebooksto open them, run:* Linux/BSD: ``python3 -m nbopen.install_xdg``* Windows: ``python3 -m nbopen.install_win``* Mac: Clone the repository and run ``./osx-install.sh``</longdescription>
+</pkgmetadata>

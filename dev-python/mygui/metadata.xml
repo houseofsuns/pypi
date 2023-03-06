@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># mygui 0.2.2# &lt;img src=&quot;https://raw.githubusercontent.com/Caveman-Software/mygui/main/Icon.png&quot; width=&quot;35&quot; height=&quot;35&quot;&gt;  Caveman Software® 2022## lgridexample:---    import os    from tkinter import Tk    from mygui import egrid, lgrid    root = Tk()    root.minsize(300, 100)    lgrid(root, 'Label placed in grid 0,0', 0, 0)    lgrid(root, 'Label placed in grid 0,1', 0, 1)    egrid(root, 1, 0)    root.mainloop()---## egrid---    import os    from tkinter import Tk,Entry    from mygui import egrid, lgrid    root = Tk()    root.minsize(300, 100)    egrid(root,0,0)    root.mainloop()---</longdescription>
+</pkgmetadata>

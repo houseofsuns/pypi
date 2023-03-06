@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>===============================bulv1ne-django-utils===============================.. image:: https://img.shields.io/pypi/v/bulv1ne-django-utils.svg  :target: https://pypi.python.org/pypi/bulv1ne-django-utils.. image:: https://img.shields.io/travis/bulv1ne/django-utils.svg  :target: https://travis-ci.org/bulv1ne/django-utils.. image:: https://coveralls.io/repos/github/bulv1ne/django-utils/badge.svg?branch=master  :target: https://coveralls.io/github/bulv1ne/django-utils?branch=master.. image:: https://img.shields.io/badge/code%20style-black-000000.svg  :target: https://github.com/ambv/blackInstalling----------.. code-block:: bash  $ pip install bulv1ne-django-utilsAdd `'utils'` to `INSTALLED_APPS` in your settings.py:.. code-block:: python    INSTALLED_APPS = (        ...        &quot;utils&quot;,        ...    )</longdescription>
+</pkgmetadata>

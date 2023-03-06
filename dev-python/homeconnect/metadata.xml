@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># homeconnectSimple Python client for the BSH Home Connect REST API implementing OAuth 2 authentication, REST calls, and SSE event stream parsing.## Usage exampleTo use this library, you have to sign up to the [Home Connect Developer Portal](https://developer.home-connect.com/) and register a new applicationto get a client ID, client secret, and redirect URI.```pythonfrom homeconnect import HomeConnecthc = HomeConnect(my_clientid, my_clientsecret, my_redirecturi)# open this URL in your web browserprint(hc.get_authurl())# paste the resulting URL below as `auth_result` to get a tokenhc.get_token(auth_result)# list the existing applianceshc.get_appliances()```## DisclaimerThe package and its author are not affiliated with BSH or Home Connect. Use at your own risk.## LicenseThe package is released under the MIT license.</longdescription>
+</pkgmetadata>

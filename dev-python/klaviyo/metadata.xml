@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Deprecation Notice: This package is set to be deprecated on 2023-01-01 and will not receive further updates. To continue receiving API and SDK improvements, we recommend switching over to our latest package/sdk: https://pypi.org/project/klaviyo-api/</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=============================healthy_django=============================Simple Re Usable tool for Django HealthchecksDocumentation-------------Quickstart----------Install healthy_django::    pip install healthy_djangoAdd it to your `INSTALLED_APPS`:.. code-block:: python    INSTALLED_APPS = (        ...        'healthy_django',        ...    )Add healthy_django's URL patterns:.. code-block:: python    urlpatterns = [        ...        path(&quot;health/&quot;, include(&quot;healthy_django.urls&quot;, namespace=&quot;healthy_django&quot;)),        ...    ]Add list of healthcheck plugins the currently supported plugins along with their spec| Django Database Health Check    Checks if a Database defined in Django is up and running    | Django Cache Health Check    Checks if a Cache defined in Django is up and running    | Redis based Celery Queue Health Check    Checks if a Celery queue backlog is within given limits | AWS SQS Queue Health Check    Checks if an AWS SQS queue backlog is within given limits     Features--------| Non ORM Based Database Tests| RabbitMQ Queue Length Test| S3 file testCredits-------Made with Love by SecurityAdvisorHistory-------0.0.1 (2021-09-15)++++++++++++++++++* First release on PyPI.</longdescription>
+</pkgmetadata>

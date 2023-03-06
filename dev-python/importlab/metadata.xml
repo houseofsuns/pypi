@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>importlab---------Importlab is a library for Python that automatically infers dependenciesand calculates a dependency graph. It can perform dependency ordering ofa set of files, including cycle detection.Importlab's main use case is to work with static analysis tools thatprocess one file at a time, ensuring that a file's dependencies areanalysed before it is.(This is not an official Google product.)License-------Apache 2.0Installation------------Importlab can be installed from pip::    pip install importlabTo check out and install the latest source code::    git clone https://github.com/google/importlab.git    cd importlab    python setup.py installUsage-----Importlab is primarily intended to be used as a library. It takes one ormore python files as arguments, and generates an import graph, typicallyused to process files in dependency order.It is currently integrated into`pytype &lt;https://github.com/google/pytype&gt;`__Command-line tool-----------------Importlab ships with a small command-line tool, also called``importlab``, which can display some information about a project'simport graph.::    usage: importlab [-h] [--tree] [--unresolved] [filename [filename ...]]    positional arguments:      filename              input file(s)    optional arguments:      -h, --help            show this help message and exit      --tree                Display import tree.      --unresolved          Display unresolved dependencies.Roadmap--------  ``Makefile`` generation, to take advantage of ``make``'s incremental   update and parallel execution features-  Integration with other static analysis tools</longdescription>
+</pkgmetadata>

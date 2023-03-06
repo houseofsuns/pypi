@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Python countrycode------------------Convert country names to and from 9 country code schemes.* Bugs &amp; Development: https://github.com/vincentarelbundock/pycountrycode* Pypi: https://pypi.python.org/pypi/countrycode* `Vincent's webpage &lt;http://umich.edu/~varel&gt;`_A Python port of the ``countrycode`` package for R: * `countrycode @ Github &lt;http://github.com/vincentarelbundock/countrycode&gt;`_* `countrycode @ CRAN &lt;http://cran.r-project.org/web/packages/countrycode/index.html&gt;`_This is *beta* software.Installation------------Using pip::    sudo pip install countrycodeLatest version from Gitub::    git clone https://github.com/vincentarelbundock/pycountrycode    cd pycountrycode    sudo python setup.py installUsage-----::    from countrycode import countrycode    countrycode(codes=['Algeria', 'United States'], origin='country_name', target='iso3c')    &gt; ['DZA', 'USA']</longdescription>
+</pkgmetadata>

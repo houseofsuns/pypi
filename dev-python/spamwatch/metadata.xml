@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># SpamWatch API Python Wrapper# Basic Usage```pythonimport spamwatchtoken = 'A_LONG_TOKEN_HERE'client = spamwatch.Client(token)ban = client.get_ban(777000)print(ban.reason)```</longdescription>
+</pkgmetadata>

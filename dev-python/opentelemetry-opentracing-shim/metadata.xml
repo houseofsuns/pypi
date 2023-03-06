@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>OpenTracing Shim for OpenTelemetry==================================|pypi|.. |pypi| image:: https://badge.fury.io/py/opentelemetry-opentracing-shim.svg   :target: https://pypi.org/project/opentelemetry-opentracing-shim/Installation------------::    pip install opentelemetry-opentracing-shimReferences----------* `OpenTracing Shim for OpenTelemetry &lt;https://opentelemetry-python.readthedocs.io/en/latest/shim/opentracing_shim/opentracing_shim.html&gt;`_* `OpenTelemetry Project &lt;https://opentelemetry.io/&gt;`_</longdescription>
+</pkgmetadata>

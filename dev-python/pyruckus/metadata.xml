@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pyruckusA Python API which interacts with a Ruckus Unleashed device.## SetupTo install the `pyruckus` package:```shpip3 install pyruckus```## UsageEach function is defined as an [async](https://docs.python.org/3/library/asyncio.html) function, so you will have to create an event loop instead of calling the functions directly in a shell.```pythonfrom pyruckus import Ruckusimport asyncioasync def test_pyruckus():    ruckus = Ruckus(&quot;&lt;ruckus ip&gt;&quot;, &quot;&lt;ruckus user&gt;&quot;, &quot;&lt;ruckus password&gt;&quot;)    await ruckus.connect()    ap_info = await ruckus.ap_info()    mesh_info = await ruckus.mesh_info()    system_info = await ruckus.system_info()    config = await ruckus.config()    clients = await ruckus.current_active_clients()    wlan_info = await ruckus.wlan_info()    ruckus.disconnect()loop = asyncio.get_event_loop()loop.run_until_complete(test_pyruckus())```</longdescription>
+</pkgmetadata>

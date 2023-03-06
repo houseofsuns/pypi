@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/jaykv/cliffy/python-app.yaml?branch=main)](https://github.com/jaykv/cliffy/actions)[![PyPI](https://img.shields.io/pypi/v/cliffy)](https://pypi.org/project/cliffy/)![GitHub](https://img.shields.io/github/license/jaykv/cliffy)# cliffy :mountain:YAML-defined CLI generator and manager## Features* Build and generate YAML-defined CLIs* Dynamic abstractions to rapidly build and test CLIs* Manage CLIs- load, enable, disable, update, and remove* Built-in shell and Python script support## Install`pip install cliffy`## Usage* `cli init &lt;cli name&gt;`: Generate a template CLI manifest* `cli load &lt;manifest&gt;`: Add a new CLI based on the manifest* `cli render &lt;manifest&gt;`: Render the YAML manifest into executable code* `cli list`: Ouput a list of loaded CLIs * `cli disable &lt;cli name&gt;`: Disable a CLI* `cli enable &lt;cli name&gt;`: Enable a disabled CLI* `cli unload &lt;cli name&gt;`: Remove a loaded CLI### Example1. Define a manifest```yaml# hello.yamlname: helloversion: 0.1.0commands:  bash: $echo &quot;hello from bash&quot;  python: print(&quot;hello from python&quot;)```2. Load CLI```$ cli load hello.yaml```3. Run CLI directly![hello-demo](docs/images/hello.png)For more examples, check [examples](examples/) directory.## Development```poetry shellcli -h```</longdescription>
+</pkgmetadata>

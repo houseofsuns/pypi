@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># resoto-plugin-oneloginOneLogin collector plugin for ResotoThis plugin collects OneLogin users as cloud resources and adds them to the Resoto graph for use by other plugins.## UsageRetrieve OneLogin API credentials and provide them to the plugin either as environment variables or commandline arguments.</longdescription>
+</pkgmetadata>

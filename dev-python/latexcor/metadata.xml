@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># latexcorlatexcor need latexmkpip install --upgrade latexcor## commandlatexcorlatexcor --cleanlatexcor --recompilelatexcor --xelatexlatexcor --lualatexlatexcor --utf8latexcor --slugify## Ajouter texmf```bashsudo tlmgr conf auxtrees add ~/texmf```</longdescription>
+</pkgmetadata>

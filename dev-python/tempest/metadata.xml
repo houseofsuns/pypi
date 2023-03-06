@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>========================Team and repository tags========================.. image:: https://governance.openstack.org/tc/badges/tempest.svg    :target: https://governance.openstack.org/tc/reference/tags/index.html.. Change things from this point onTempest - The OpenStack Integration Test Suite==============================================This is a set of integration tests to be run against a live OpenStackcluster. Tempest has batteries of tests for OpenStack API validation,scenarios, and other specific tests useful in validating an OpenStackdeployment.  * Documentation: https://docs.openstack.org/tempest/latest/  * Features: https://specs.openstack.org/openstack/qa-specs/#tempest  * Bugs: https://bugs.launchpad.net/tempest/  * Release Notes: https://docs.openstack.org/releasenotes/tempestGet in touch via `email &lt;mailto:openstack-discuss@lists.openstack.org&gt;`_. Use[tempest] in your subject.</longdescription>
+</pkgmetadata>

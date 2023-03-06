@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Categorical Sampler-----Install from pip: `pip install categorical-sampler`Let&amp;rsquo;s generate a probability distribution to get us started.  First, sample a bunch of random numbers to determine probability &amp;ldquo;scores&amp;rdquo;.    &gt;&gt;&gt; from random import random    &gt;&gt;&gt; k = 10**6    &gt;&gt;&gt; scores = [random() for i in range(k)]    &gt;&gt;&gt; total = sum(scores)    &gt;&gt;&gt; probabilities = [s / total for s in scores]We've normalized the scores to sum to 1, i.e. makethem into proper probabilities, but actually the categorical sampler will do that for us, so it&amp;rsquo;s not necessary:    &gt;&gt;&gt; from categorical import Categorical as C    &gt;&gt;&gt; my_sampler = C(scores)    &gt;&gt;&gt; print my_sampler.sample()    487702Comparing to numpy, assuming we draw 1000 individual samples *individually*:    &gt;&gt;&gt; from numpy.random import choice    &gt;&gt;&gt; import time    &gt;&gt;&gt;     &gt;&gt;&gt; def time_numpy():    &gt;&gt;&gt;     start = time.time()    &gt;&gt;&gt;     for i in range(1000):    &gt;&gt;&gt;         choice(k, p=probabilities)    &gt;&gt;&gt;     print time.time() - start    &gt;&gt;&gt;     &gt;&gt;&gt; def time_my_alias():    &gt;&gt;&gt;     start = time.time()    &gt;&gt;&gt;     for i in range(1000):    &gt;&gt;&gt;         my_sampler.sample()    &gt;&gt;&gt;     print time.time() - start    &gt;&gt;&gt;     &gt;&gt;&gt; time_numpy()    31.0555009842    &gt;&gt;&gt; time_my_alias()    0.0127031803131Get the actual probability of a given outcome:    &gt;&gt;&gt; my_sampler.get_probability(487702)    1.0911282101090306e-06</longdescription>
+</pkgmetadata>

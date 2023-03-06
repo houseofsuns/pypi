@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># hhframe为 “Python开发” 而生## 网站[后天堂](http://www.houheaven.com)  [后天堂工作室](http://studio.houheaven.com)  [后天堂框架](http://plugin.houheaven.com/hhframe)  </longdescription>
+</pkgmetadata>

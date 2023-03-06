@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=========lazyarray=========lazyarray is a Python package that provides a lazily-evaluated numerical arrayclass, ``larray``, based on and compatible with NumPy arrays.Lazy evaluation means that any operations on the array (potentially includingarray construction) are not performed immediately, but are delayed untilevaluation is specifically requested. Evaluation of only parts of the array isalso possible.Use of an ``larray`` can potentially save considerable computation timeand memory in cases where:* arrays are used conditionally (i.e. there are cases in which the array is  never used)* only parts of an array are used (for example in distributed computation,  in which each MPI node operates on a subset of the elements of the array).. image:: https://readthedocs.org/projects/lazyarray/badge/?version=latest   :target: http://lazyarray.readthedocs.io/en/latest/.. image:: https://travis-ci.org/NeuralEnsemble/lazyarray.svg?branch=master   :target: https://travis-ci.org/NeuralEnsemble/lazyarray/.. image:: https://coveralls.io/repos/github/NeuralEnsemble/lazyarray/badge.svg?branch=master   :target: https://coveralls.io/github/NeuralEnsemble/lazyarray?branch=master</longdescription>
+</pkgmetadata>

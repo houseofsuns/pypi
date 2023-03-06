@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># poetry-types[![PyPI version](https://badge.fury.io/py/poetry-types.svg)](https://badge.fury.io/py/poetry-types)[![GitHub license](https://img.shields.io/github/license/jvllmr/poetry-types)](https://github.com/jvllmr/poetry-types/blob/master/LICENSE)[![GitHub issues](https://img.shields.io/github/issues/jvllmr/poetry-types)](https://github.com/jvllmr/poetry-types/issues)![PyPI - Downloads](https://img.shields.io/pypi/dd/poetry-types)![Tests](https://github.com/jvllmr/poetry-types/actions/workflows/main.yml/badge.svg)## DescriptionThis is a plugin to poetry for the upcoming poetry 1.2 plugin feature.It installs/removes/updates typing stubs via following commands:- `poetry types add &lt;package names&gt;`- `poetry types remove &lt;package names&gt;`- `poetry types update &lt;package names&gt;`## Usage examples- `poetry types add SQLAlchemy` adds `types-SQLAlchemy` to your project- `poetry types update` adds `types-SQLAlchemy` if `SQLAlchemy` is present, but not `types-SQLAlchemy`- `poetry types update` removes `types-SQLAlchemy` if `types-SQLAlchemy` is present, but not `SQLAlchemy`## InstallationRun `poetry self add poetry-types` for global install or run `poetry add -D poetry-types` to use this plugin with your project.## Usage with pre-commit```yaml- repo: https://github.com/jvllmr/poetry-types  rev: v0.3.5  hooks:    - id: poetry-types```### poetry-types has to be skipped with pre-commit.ci```yamlci:  skip: [poetry-types]```</longdescription>
+</pkgmetadata>

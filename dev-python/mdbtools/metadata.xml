@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># mdbtoolsPython and UNIX CLI utilities to simplify common MongoDB DevOps tasks  Michael S. Noble  mnoble@broadinstitute.org  There are a number of common operations one would like to perform uponMongoDB databases directly from a UNIX command line, for scalability, repeatability and automation (e.g. cron jobs).  This package makes it veryeasy to do that, without having to write or think in Javascript OR sacrificingchoice of what key bindings you may edit with.  The package also offers asimple object framework, which not only maintains a consistent look and feelamongst all tools, but also makes it very straightforward to add new ones.To better resonate with the UNIX environment, many utilities in the mdbtoolssuite have been given names which reflect UNIX tools of similar purpose.  Thesuite currently includes:* mdbcat     _display contents of one or more collections, as JSON or TSV/CSV tables_* mdbcp      _copy a collection_* mdbindex   _add/remove indexes to/from a collection_* mdbload    _load a table into a DB_* mdbls      _list the collections in a DB_* mdbmv      _rename (move) a collection_* mdbquery   _issue general purpose key=value queries (with timing info and more, e.g. to assess indexes)_* mdbrm      _remove a collection_* mdbtouch   _create a new, empty collection_* mdbstats   _display summary statistics for one or more collections in a DB_Some of these tools can be extended in a natural way to operate upon entire databases or server instances, not just collections; this has been considered and may appear in a future release.</longdescription>
+</pkgmetadata>

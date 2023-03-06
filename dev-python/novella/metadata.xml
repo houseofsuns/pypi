@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># novellaNovella is a build system for processing files in a temporary directory isolated from the project source code. It isdesigned for the preprocessing of documentation source code such as Markdown files before they are passed into astatic site generator such as [Mkdocs][] or [Hugo][]. Novella was designed as the backbone for [Pydoc-Markdown][],but can be used independently.  [Mkdocs]: https://www.mkdocs.org/  [Hugo]: https://gohugo.io/  [Pydoc-Markdown]: https://github.com/NiklasRosenstein/pydoc-markdown  [Novella Documentation]: https://niklasrosenstein.github.io/novellaCheck out the [Novella Documentation][] for more information.&gt; Note: Novella is currently a work in progress project and is considered unstable.</longdescription>
+</pkgmetadata>

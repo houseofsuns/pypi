@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>==================OpenStack Keystone==================.. image:: https://governance.openstack.org/tc/badges/keystone.svg    :target: https://governance.openstack.org/tc/reference/tags/index.html.. Change things from this point onOpenStack Keystone provides authentication, authorization and service discoverymechanisms via HTTP primarily for use by projects in the OpenStack family. Itis most commonly deployed as an HTTP interface to existing identity systems,such as LDAP.Developer documentation, the source of which is in ``doc/source/``, ispublished at:    https://docs.openstack.org/keystone/latestThe API reference and documentation are available at:    https://docs.openstack.org/api-ref/identityThe canonical client library is available at:    https://opendev.org/openstack/python-keystoneclientDocumentation for cloud administrators is available at:    https://docs.openstack.org/The source of documentation for cloud administrators is available at:    https://opendev.org/openstack/openstack-manualsInformation about our team meeting is available at:    https://wiki.openstack.org/wiki/Meetings/KeystoneMeetingRelease notes is available at:    https://docs.openstack.org/releasenotes/keystoneBugs and feature requests are tracked on Launchpad at:    https://bugs.launchpad.net/keystoneFuture design work is tracked at:    https://specs.openstack.org/openstack/keystone-specsContributors are encouraged to join IRC (``#openstack-keystone`` on OFTC):    https://wiki.openstack.org/wiki/IRCSource for the project:    https://opendev.org/openstack/keystoneFor information on contributing to Keystone, see ``CONTRIBUTING.rst``.</longdescription>
+</pkgmetadata>

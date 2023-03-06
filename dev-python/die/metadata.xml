@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>die===.. image:: https://secure.travis-ci.org/njharman/die.png   :target: https://secure.travis-ci.org/njharman/die   :alt: Build status   :scale: 200%About-----die is a dice library, for RPG and Board Game games, tools, whatever.Emphasizes flexibility over speed.Installing----------via source::    python setup.py installvia pip::    pip install --upgrade dieTesting-------unittest prerequisites:    - pep8_    - unittest2_ (only Python &lt; 2.7)Author uses nose_ to run unittests, YMMV. ::    pip install --upgrade pep8 --use-mirrors    nosetestsUnittests run against the following Python versions using `Travis CI`_:  - 2.5 requires unittest2_  - 2.6 requires unittest2_  - 2.7  - 3.1  - 3.2Using-----Until some docs are written have a look at ``demo.py``.History-------0.2.0  Updated to modern style, pep8, tests, docs, travis-ci, more unittests.  Py3.x support.0.1.0  Initial release... _pep8: http://pypi.python.org/pypi/pep8/.. _unittest2: http://pypi.python.org/pypi/unittest2/.. _nose: http://pypi.python.org/pypi/nose/.. _travis ci: http://travis-ci.org/#!/njharman/die</longdescription>
+</pkgmetadata>

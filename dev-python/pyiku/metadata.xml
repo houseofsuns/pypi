@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># PyikuA small Python package to make a haiku out of a list of words# Usage:- Install from PyPi with ``pip install pyiku``- Import with ``from pyiku import haiku``- Use with ``my_haiku = haiku([&quot;word1&quot;, &quot;word2&quot;, ...])``</longdescription>
+</pkgmetadata>

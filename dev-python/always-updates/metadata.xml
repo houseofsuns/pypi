@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># always_updatesalways_updates updates your system. always_updates will always update, evenif other packages on your system do not have updates available.## installation```pip install always-updates```## usage```aupd```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>ampdup======A type-hinted async python mpd client library.Summary=======`ampdup` is an async/await based MPD library.It is fully type-hinted and MPD responses are typed as well, so it is able toplay nicely with `mypy` and autocompletion such as what is provided by `jedi`.Examples========First a basic usage example. `make()` returns a connected client as a contextmanager that handles disconnection automatically.```pythonasync def main():    async with MPDClient.make('localhost', 6600) as m:        await m.play()```The IdleClient class provides the `idle()` function. Since `ampdup` is`async`/`await`-based this loop can easily run concurrently with otheroperations.```async def observe_state():    async with IdleClient.make('localhost', 6600) as i:        while True:            changed = await i.idle()            handle_changes(changed)```Todo====- [ ] Support command lists.- [ ] Support connecting through Unix socket.- [ ] Support the more obscure MPD features such as partitions.</longdescription>
+</pkgmetadata>

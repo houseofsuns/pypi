@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>![random_topic](https://i.imgur.com/1248yt1.png)# random_topicFetch random topics to start conversations.For Async version visit [here](https://github.com/johan-naizu/aiotopics)![Downloads](https://pepy.tech/badge/random_topic) ![PyPI](https://img.shields.io/pypi/v/random_topic) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/random_topic) ![PyPI - License](https://img.shields.io/pypi/l/random_topic)## Installation```pippip install random_topic```## Usage```pythonimport random_topictopic=random_topic.get_topic()print(topic)</longdescription>
+</pkgmetadata>

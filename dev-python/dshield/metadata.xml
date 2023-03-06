@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>DShield=======.. image:: https://travis-ci.org/rshipp/python-dshield.svg?branch=master   :target: https://travis-ci.org/rshipp/python-dshield   :alt: Build Status.. image:: https://coveralls.io/repos/rshipp/python-dshield/badge.png?branch=master   :target: https://coveralls.io/r/rshipp/python-dshield?branch=master    :alt: Test Coverage.. image:: https://api.codacy.com/project/badge/3906ec0470df46b8923fc3177e7daa78   :target: https://www.codacy.com/app/rshipp/python-dshield   :alt: Code Health.. image:: http://img.shields.io/pypi/v/dshield.svg   :target: https://pypi.python.org/pypi/dshield   :alt: PyPi VersionA Pythonic interface to the Internet Storm Center / DShield API_.Installation------------``pip install dshield``Usage-----For the full documentation, see the ReadTheDocs_ site. If you justwant a quick start::    &gt;&gt;&gt; import dshield    &gt;&gt;&gt; dshield.infocon()    {'status': 'green'}    &gt;&gt;&gt; dshield.infocon(dshield.XML)    '&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;\n&lt;infocon&gt;\n&lt;status&gt;green&lt;/status&gt;\n&lt;/infocon&gt;'.. _API: https://dshield.org/api/.. _ReadTheDocs: http://dshield.readthedocs.org/en/latest/</longdescription>
+</pkgmetadata>

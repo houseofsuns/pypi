@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pysctp is a python wrapper for the SCTP protocol stack and library. On Mac OS X you will need the SCTP NKE (Kernel Extensions). On Linux systems, you need an SCTP-aware kernel (most are) and install the following packages (debian): apt install libsctp-dev libsctp1 lksctp-tools</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Dictalchemy===========Dictalchemy adds asdict() and fromdict() methods to SQLAlchemy declarative models.Documentation-------------Documentation can be found at `http://pythonhosted.org/dictalchemy/ &lt;http://pythonhosted.org/dictalchemy/&gt;`_Source------The source is hosted at `http://github.com/danielholmstrom/dictalchemy &lt;http://github.com/danielholmstrom/dictalchemy&gt;`_.Licence-------Dictalchemy is MIT licenced.</longdescription>
+</pkgmetadata>

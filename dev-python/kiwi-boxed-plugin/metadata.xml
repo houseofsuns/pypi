@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>KIWI - Boxed Build Plugin=========================.. |GitHub CI Action| image:: https://github.com/OSInside/kiwi-boxed-plugin/workflows/CILint/badge.svg   :target: https://github.com/OSInside/kiwi-boxed-plugin/actions|GitHub CI Action|KIWI plugin to provide self contained build support. For furtherdetails see:`Building in a Self-Contained Environment &lt;https://osinside.github.io/kiwi/plugins/self_contained.html&gt;`__</longdescription>
+</pkgmetadata>

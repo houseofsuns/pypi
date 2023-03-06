@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># chromedriver-pydownloads and installs the latest chromedriver binary version for automated testing of webapps.  the installer supports linux, mac and windows operating systems.this package is maintained by an automated update script on travis.  if a new chromedriver version is out, this package will automaticly get updated within a day.## installationdue to the way how the pipeline packages the binaries, you cannot install the package from github.  installing from pypi is the only option.__from pypi:__```bash$ pip install chromedriver-py```__specific version:__  choose your version [here](https://pypi.org/project/chromedriver-py/#history)```bash# example for chrome version 88pip install chromedriver-py==88.0.4324.96```## usageto use chromedriver just `from chromedriver_py import binary_path`.  you will get a string variable with the executable filepath for your operating system.## example```pythonfrom selenium import webdriverfrom selenium.webdriver.chrome.service import Servicefrom chromedriver_py import binary_path # this will get you the path variableservice_object = Service(binary_path)driver = webdriver.Chrome(service=service_object)# deprecated but works in older selenium versions# driver = webdriver.Chrome(executable_path=binary_path)driver.get(&quot;http://www.python.org&quot;)assert &quot;Python&quot; in driver.title```## developeryou can trigger a custom build with a specific version in github actions.  just click `Run workflow` and put your desired version in the `version` input field that pops up.  the workflow tries to get your desired version and push it to pypi.</longdescription>
+</pkgmetadata>

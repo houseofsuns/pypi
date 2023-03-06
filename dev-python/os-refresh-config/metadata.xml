@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>========================Team and repository tags========================.. image:: https://governance.openstack.org/tc/badges/os-refresh-config.svg    :target: https://governance.openstack.org/tc/reference/tags/index.html.. Change things from this point on=================os-refresh-config=================`os-refresh-config` uses `dib-run-parts` to run scripts in apre-defined set of directories::  /opt/stack/os-config-refresh/pre-configure.d  /opt/stack/os-config-refresh/configure.d  /opt/stack/os-config-refresh/post-configure.d  /opt/stack/os-config-refresh/migration.d  /opt/stack/os-config-refresh/error.d`/opt/stack/os-config-refresh` is the default base directory. You canset `OS_REFRESH_CONFIG_BASE_DIR` environment variable to override thedefault one.Its intended purpose is to separate scripts execution into 4 phases:1. Quiesce(pre-configure.d),2. Configure(configure.d),3. Activate(post-configure.d).4. Migrate(migration.d),It runs through all the phases above to ensure configuration is appliedand enabled on a machine. It will run the scripts in error.d and thenexit with a non-zero exit status if any phase has a problem. The scriptsin each phase should not depend on each other having worked properly.Note: Earlier versions of os-refresh-config ran migration beforepost-configure. This was an oversight in the initial design, asmigrations are intended to be online migrations after the host isfully configured.For things which must happen while the service is quiesced, that shouldbe done in the post-configure scripts which control the service state.</longdescription>
+</pkgmetadata>

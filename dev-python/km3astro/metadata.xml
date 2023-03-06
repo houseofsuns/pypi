@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>km3astro========.. image:: https://git.km3net.de/km3py/km3astro/badges/master/pipeline.svg    :target: https://git.km3net.de/km3py/km3astro/pipelines.. image:: https://git.km3net.de/km3py/km3astro/badges/master/coverage.svg    :target: https://km3py.pages.km3net.de/km3astro/coverage.. image:: https://git.km3net.de/examples/km3badges/-/raw/master/docs-latest-brightgreen.svg    :target: https://km3py.pages.km3net.de/km3astroAbout-----KM3Astro is a collection astronomy utils, like coordinate transformations.Install-------This is developed on python &gt;=3.5. Lower versions (especially py2)might or might not work. Use ``pip`` to install the latestversion::  pip install km3astroInstall the latest development version~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~To get the latest and greatest stable development version, use ``pip``and the URL to the repository::  pip install git+http://git.km3net.de/km3py/km3astro.gitor just clone the git repository and install via ``pip install .``</longdescription>
+</pkgmetadata>

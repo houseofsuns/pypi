@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Arbor=====The Arbor Python package is a wrapper around the high-performance C++library Arbor, for constructing and running simulationsmulti-compartment neuron models, from single cell models to largenetworks.Documentation is available online at `Read theDocs &lt;https://docs.arbor-sim.org/en/latest/python&gt;`__.`Submit a ticket &lt;https://github.com/arbor-sim/arbor&gt;`__ if you have anyquestions or want help.</longdescription>
+</pkgmetadata>

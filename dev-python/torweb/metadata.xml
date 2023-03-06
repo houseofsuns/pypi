@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># torweb#### torweb is a second development based application framework tornado1. **Install**Example for virtualenv:    $ cd ~    $ mkdir env    $ cd env    $ virtualenv torweb    $ ln -s ~/env/torweb/bin/python /usr/bin/python-torweb    $ ln -s ~/env/torweb/bin/pip /usr/bin/pip-torweb    $ pip-torweb install torweb    $ ln -s ~/env/torweb/lib/python2.7/site-packages/torweb/start_app.py /usr/bin/torweb_startapp.py    $ sudo chmod a+x /usr/bin/torweb_startapp.py2. **Getting started**Example for virtualenv torweb:        Before start app of torweb, you'd have to install mysql, and set mysql root user and password.And then, edit &quot;**/usr/bin/torweb_startapp.py**&quot; below to your username and password:    MYSQL_ROOT_USER = &quot;root&quot;    MYSQL_ROOT_PASS = &quot;1&quot;Next, do follows to start you first application named torweb.    $ cd ~    $ mkdir projects    $ cd projects    $ torweb_startapp.py test    $ cd test    $ python-torweb dev_server.py    [2013-10-25 10:53:18] * app server is running on http://0.0.0.0:8888    [2013-10-25 10:53:18] * restart with reloadif you have got above tips, your first application has been built.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Meroxa-py## InstallingInstall and update using [pip](https://pip.pypa.io/en/stable/getting-started/):```    $ pip install -U meroxa-py```## A Simple Example```pythonimport asynciofrom meroxa import Meroxafrom pprint import pprintauth=&quot;auth.token&quot;,async def main():    async with Meroxa(auth=auth) as m:        resp = await m.users.me()        pprint(resp)asyncio.run(main())```To obtain a Meroxa Auth Token please see: [How to Obtain a Meroxa Access Token](https://docs.meroxa.com/guides/how-to-obtain-meroxa-access-token/)</longdescription>
+</pkgmetadata>

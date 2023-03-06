@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>The LIGO Light-Weight XML format is used extensively by compact object detection pipeline and associated tool sets.  This package provides a Python I/O library for reading, writing, and interacting with documents in this format.</longdescription>
+</pkgmetadata>

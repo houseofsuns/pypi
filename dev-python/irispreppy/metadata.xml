@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># irispreppyFor radiometrically calibrating and PSF deconvolving IRIS data.To install run `pip install irispreppy`.I dislike how I need to own proprietary software (IDL) just to simply prepare my data. I use Python for my analysis, why can't I radiometrically calibrate and deconvolve with it?This has been a passion project of mine during my PhD. The radiometric calibration keeps itself up to date with the response files by checking https://hesperia.gsfc.nasa.gov/ssw/iris/response/ every time it is run. If it finds new files, it downloads them before continuing.These scripts should be general purpose and &quot;just work&quot;. No janky hacks are present.This remains untested on Mac. However, I expect it to work on UNIX-like OSes.---Usageirispreppy can take a list of HDU objects, a list of a directory paths to fits, or single HDU objects. For example,```pythonfrom astropy.io import fitsimport irispreppy as ipraw=fits.open(&quot;path/to/file.fits&quot;) #Raw datarc=ip.radcal(raw)   #Radiometrically calibratedrc_d=ip.deconvolve(rc)   #Radiometrically calibrated and deconvolved```---More in depth documentation will be added in the future.Thank you to Dr Graham S. Kerr for IRIS_SG_deconvolve.py and IRIS_SG_PSFs.pkl.Special thanks to Dr C.M.J. Osborne (https://github.com/Goobley) for putting up with my incessant and innane questions.</longdescription>
+</pkgmetadata>

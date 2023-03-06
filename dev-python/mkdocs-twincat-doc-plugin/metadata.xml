@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># mkdocs-twincat-doc-pluginMkDocs plugin to import retrieve docstrings from TwinCAT project objects and add to docs.# Developing mkdocs-twincat-doc-pluginTo install mkdocs-twincat-doc-plugin, along with the tools youneed to develop and run tests, run the following in your virtualenv:```bash$ pip install -e . [dev]```</longdescription>
+</pkgmetadata>

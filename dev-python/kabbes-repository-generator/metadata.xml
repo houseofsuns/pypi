@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[GitHub Pages](https://jameskabbes.github.io/repository_generator)&lt;br&gt;[PyPI](https://pypi.org/project/kabbes-repository-generator)# repository_generatorPackage for creating repositories from templates, performing operations on Git repositories&lt;br&gt; # Installation`pip install kabbes_repository_generator`&lt;br&gt;# UsageFor more in-depth documentation, read the information provided on the Pages. Or better yet, read the source code.## Python Script```pythonimport repository_generator as repo_gen``````pythonrepo_gen.generate()```## Terminal```python -m repository_generator```&lt;br&gt;# AuthorJames Kabbes</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Mobile DropdownMobile Dropdown is a Dash component library.Dropdown component for smartphones.### Installation***    $ pip install mobile_dropdown### Properties***- id (string)- className (string)- options (array)    - label (string; require)    - value (string | int; require)- value (string | int)- notfoundMsg (string; default: &quot;No results found&quot;)    Message when no choice exists.- clearable (bool)    Do you want to have Dropdown cleared?</longdescription>
+</pkgmetadata>

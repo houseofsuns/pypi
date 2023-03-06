@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># emtransmissionemtransmission is collecting data sysstem for Electronic monitoring reporter.this system collect the image data in shipe and transfer the image data to system of shore sideusing ftp## InstallingInstall from PyPI    pip install emtransmission## Usage1. generate the config.ini file[DEFAULT]GEOMETRY = 1200x550VIDEOCAPTURE = 0PATH = recoding_fileTARGET_PATH = FTP_SERVER_IP = FTP_ID =FTP_PASS =#DIVX or XVID CODEC = DIVX#Setting to AUTO or MANUALFPS = AUTO#if u setting to AUTO it's not availableFPS_SET = 10SETTING_FRAME_CNT = 1000SNAP_FREQ = 10[IP]GEOMETRY = 1200x550VIDEOCAPTURE = PATH = recoding_fileTARGET_PATH = FTP_SERVER_IP = FTP_ID = FTP_PASS = #DIVX or XVIDCODEC = DIVX#Setting to AUTO or MANUALFPS = MANUAL #if u setting to AUTO it's not availableFPS_SET = 10SETTING_FRAME_CNT = 1000SNAP_FREQ = 102. import that package and run```pythonfrom emtransmission.fk_recoding import Fk_viewerenv ='default' # or 'ip't=Fk_viewer(env)```## TODO</longdescription>
+</pkgmetadata>

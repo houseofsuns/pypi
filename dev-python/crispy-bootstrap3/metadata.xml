@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># crispy-bootstrap3[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/django-crispy-forms/crispy-bootstrap3/blob/main/LICENSE)Bootstrap3 template pack for django-crispy-forms. This template pack was included with the core django-crispy-forms package until version 2.0.## InstallationInstall this plugin using `pip`:```bash    $ pip install crispy-bootstrap3```## UsageYou will need to update your project's settings file to add `crispy_forms`and `crispy_bootstrap3` to your projects `INSTALLED_APPS`. Also set`bootstrap3` as and allowed template pack and as the default template packfor your project:```python    INSTALLED_APPS = (        ...        &quot;crispy_forms&quot;,        &quot;crispy_bootstrap3&quot;,        ...    )    CRISPY_ALLOWED_TEMPLATE_PACKS = &quot;bootstrap3&quot;    CRISPY_TEMPLATE_PACK = &quot;bootstrap3&quot;```</longdescription>
+</pkgmetadata>

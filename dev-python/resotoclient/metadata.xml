@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># resotoclient-pythonPython client for Resoto## Installation```bashpip install resotoclient```For GraphVis and Pandas support:```bashpip install resotoclient[extras]```## Usage```pythonfrom resotoclient import ResotoClientclient = ResotoClient(url=&quot;https://localhost:8900&quot;, psk=&quot;changeme&quot;)instances_csv = client.cli_execute(&quot;search is(instance) | tail 5 | list --csv&quot;)for instance in instances_csv:    print(instance)```### Pandas Dataframes```pythondf = client.dataframe(&quot;is(instance)&quot;)```### GraphViz Digraph```pythongraph = client.graphviz(&quot;is(graph_root) --&gt;&quot;)```## TestThe tests expect a ResotoCore on localhost with the default PSK `changeme`.You can start it locally via:```bash$&gt; resotocore --graphdb-database resotoclient_test --psk changeme```A local test environment is required. See the [contribution guide](https://resoto.com/docs/contributing/components) for instructions.When the virtual environment is available, use those commands to set up the project and run the tests:```bash$&gt; pip install --upgrade pip poetry nox nox-poetry$&gt; nox```For more examples see the examples directory.## Publish- bump the version number in pyproject.toml- `poetry build`- `poetry publish`</longdescription>
+</pkgmetadata>

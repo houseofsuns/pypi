@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Netbox plugin 'Users and Computers'Добавляет:- в Netbox объект &quot;ADUsers&quot;- в Netbox объект &quot;Workstations&quot;- в карточки объектов virtual machine, device секцию &quot;Risks&quot;Позволяет связывать активы с рисками ИБ и недопустимыми событиями.## Установка1. Установить плагин `pip3 install netbox-users-and-computers`2. Добавить плагин в `netbox/netbox/netbox/configuration.py` (обновить или добавить переменную):```PLUGINS=['users_and_computers']```3. Перейти в каталог с файлом `manage.py` и выполнить миграцию БД `python3 manage.py migrate`4. Перезапустить сервер netbox5. Проверить, что плагин появился в списке установленных плагинов в административном интерфейсе Django.</longdescription>
+</pkgmetadata>

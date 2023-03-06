@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image:: https://raw.githubusercontent.com/wagtail/wagtailtrans/master/docs/source/_static/wagtailtrans-logo.png    :alt: Wagtailtrans logo.. image:: https://travis-ci.org/wagtail/wagtailtrans.svg?branch=master    :target: https://travis-ci.org/wagtail/wagtailtrans    :alt: Build status.. image:: https://codecov.io/gh/wagtail/wagtailtrans/branch/master/graph/badge.svg    :target: https://codecov.io/gh/wagtail/wagtailtrans    :alt: Code coverage.. image:: https://badge.fury.io/py/wagtailtrans.svg    :target: https://badge.fury.io/py/wagtailtrans    :alt: PyPi version.. image:: https://readthedocs.org/projects/wagtailtrans/badge/?version=latest    :target: http://wagtailtrans.readthedocs.io/en/latest/?badge=latest    :alt: Documentation StatusWagtail multilanguage module============================Support multiple languages for your Wagtail site.Requirements------------ - Python 3.5+ - Django 2+ - Wagtail 2.7+Getting started---------------Follow our `Getting Started &lt;http://wagtailtrans.readthedocs.io/en/latest/getting_started.html&gt;`_ guide to start integrating Wagtailtrans.Documentation-------------The complete project documentation can be found on `Read the Docs &lt;http://wagtailtrans.readthedocs.io/&gt;`_Who's using it?---------------If you want to see some examples on how Wagtailtrans is running in a production environment you can take a look at the following websites:* `Hendrix Genetics &lt;https://www.hendrix-genetics.com/&gt;`_* `Wiskerke Onions &lt;https://www.wiskerke-onions.nl/&gt;`_</longdescription>
+</pkgmetadata>

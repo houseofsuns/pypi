@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>===================VMware-NSX package===================You have come across the VMware-NSX family of Neutron pluginsExternal Resources:-------------------The homepage for the VMware-NSX project is on Launchpad_... _Launchpad: https://launchpad.net/vmware-nsxUse this site for asking for help, and filing bugs.Code is available both git.openstack.org_ and github_... _git.openstack.org: https://git.openstack.org/cgit/openstack/vmware-nsx/tree/.. _github: https://github.com/openstack/vmware-nsxFor help on usage and hacking of VMware-NSX, please send a message to theopenstack-discuss_ mailing list... _openstack-discuss: mailto:openstack-discuss@lists.openstack.orgFor information on how to contribute to VMware-NSX, please see thecontents of the CONTRIBUTING.rst file.</longdescription>
+</pkgmetadata>

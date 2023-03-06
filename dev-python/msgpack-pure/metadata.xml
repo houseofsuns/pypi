@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>MessagePack (de)serializer for Python.What's MessagePack? (from http://msgpack.org/) MessagePack is a binary-based efficient data interchange format that is focused on high performance. It is like JSON, but very fast and small.I strongly recommend to use msgpack by INADA Naoki if you can,because it's core is written in C and much faster than msgpack-pure.msgpack-pure is for environments on which C-extention cannot be installed/compiled,including hosting, Windows and Google App Engine.</longdescription>
+</pkgmetadata>

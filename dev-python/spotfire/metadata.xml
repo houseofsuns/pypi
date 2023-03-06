@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Package for Building Python Extensions to TIBCO Spotfire® This package provides functions used for integrating Python with Spotfire, including: * reading and writing files in Spotfire Binary Data Format (SBDF)* building Spotfire Packages (SPKs) for distributing Python interpreters and custom packages with Spotfire* internal handler code for executing Data Functions from Spotfire### Installation```shpip install spotfire```### LicenseBSD-type 3-Clause License.  See the file ```LICENSE``` included in the package.</longdescription>
+</pkgmetadata>

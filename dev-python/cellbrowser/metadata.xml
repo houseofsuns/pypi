@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>The UCSC Cell Browser is an interactive browser for    single cell data, like mRNA or ATAC-seq data. You can display    dimensionality reductions, navigate them with the mouse or the cursor keys,    select cells, color by genes or meta annotations and make many other    changes. The main site runs at https://cells.ucsc.edu, but using this    package you can also convert data yourself and build a Cell Browser HTML    directory that can be served through any University or any other webserver    for static webpages. You can try the Cell Browser at https://cells.ucsc.edu    or read about how to convert data with this package on    https://cellbrowser.rtfd.org.    We strongly recommend that to use Python3, but we make an effort to remain compatible with Python2.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>A static website generator for people who enjoy the simpler things in life.* `Github &lt;https://github.com/dmulholl/ivy&gt;`_* `Documentation &lt;http://www.dmulholl.com/docs/ivy/dev/&gt;`_* `Demo &lt;http://www.dmulholl.com/demos/ivy/&gt;`_</longdescription>
+</pkgmetadata>

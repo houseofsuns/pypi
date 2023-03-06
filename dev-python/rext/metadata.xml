@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># rex## git commitvx.x.x## cleanpython setup.py sdist## releasepython setup.py upload --verbose## installpip intall rext## upgradepip install --upgrade rext## listpip list## importfrom rext import mstring as ms## useprint(ms.remove_space_all(&quot;666 666&quot;))</longdescription>
+</pkgmetadata>

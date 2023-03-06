@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># higlass-dataPackage that creates data files for CGAP's Higlass browsers## InstallationMake sure `poetry` is installed on your system. Clone the repository and run `poetry install`## Run a script```# -i input file path# -o output file path# -q Shows logs when set to Falsepoetry run create-cohort-vcf -i ./PATH/input.vcf -o ./PATH/input.multires.vcf -q False```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Introduction============A module to automatically manage `aiohttp.ClientSession` objects for youto improve performance.The package manages a global cache of `aiohttp.ClientSession` objects basedon the host a particular request is connecting to so connections can bereused between requests.It also simplifies the API.Usage-----The usage is similar to the python `requests` library::    import aiohttp_client    async with aiohttp_client.get('http://www.google.com') as resp:        # do something hereConfiguration-------------Uses env variables to configure max number of reqeusts/sessions to manage:- AIOHTTP_SESSION_SIZE: max number of sessions to keep in cache(default 200)- AIOHTTP_SESSION_DNS_CACHE: number of seconds to keep dns lookup in cache(default 20)- AIOHTTP_SESSION_LIMIT: number of simultaneous connections to have per session(default 500)1.1.2 (2022-10-20)------------------- Change to bsd license1.1.1 (2020-04-15)------------------- better session connector defaults1.1.0 (2019-06-06)------------------- update max requests and sessions- Updated setup.py to point to aihttp_client.py1.0.0 (2018-04-09)------------------- initial release</longdescription>
+</pkgmetadata>

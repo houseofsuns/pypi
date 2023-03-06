@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ccaawsPython objects wrapped around [boto3](https://github.com/boto/boto3)## botosession.pyBase class inherited by all the others.  Manages connections to AWS viaaccess keys or profiles.## cfnclient.pyCloudFormation client## cwclient.pyCloudWatch client## iamclient.pyAccess to IAM functions - mainly for user access key management.Can raise an `AccessKeyError` exception on failure.```from ccaaws.iamclient import IamClientiam = IamClient(&quot;iam.user&quot;)newkey = iam.rotateKeys()```## paramstore.pySSM ParameterStore client[modeline]: # ( vim: set ft=markdown tw=74 fenc=utf-8 spell spl=en_gb mousemodel=popup: )</longdescription>
+</pkgmetadata>

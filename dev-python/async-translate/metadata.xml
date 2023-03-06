@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># async_translateMulti-provider async translate API## Why?Most translate APIs work on one backend (usually Google Translate), and few are fully asynchronous.I wanted a translate API that uses `async` and `await`, and I wanted to be able to use multiple providers without havingto deal with their different APIs.I built this to use with my Discord bot, [Mr. Translate](https://docs.mrtranslate.xyz).## Installation**Currently this uses Python 3.8 specific features.**Install with `pip install -U async-translate`.## Optional Default ProvidersA few providers are baked into this package. You can install them with:* [Azure Cognitive Services][azure] `pip install -U async-translate[azure]`* [Google Translate][google] `pip install -U async-translate[google]`## Custom ProvidersSee [CUSTOM_PROVIDERS.md](async_translate/providers/CUSTOM_PROVIDERS.md) on making your own providers.Feel free to contribute back to the project with a pull request containing code for other providers.[azure]: https://azure.microsoft.com/en-us/services/cognitive-services/translator/[google]: https://cloud.google.com/translate</longdescription>
+</pkgmetadata>

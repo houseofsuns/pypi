@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This package consists of a couple of optimised tools for doing things that can roughly be considered &quot;group-indexing operations&quot;. The most prominent tool is `aggregate`.`aggregate` takes an array of values, and an array giving the group number for each of those values. It then returns the sum (or mean, or std, or any, ...etc.) of the values in each group. You have probably come across this idea before, using `matlab` accumarray, `pandas` groupby, or generally MapReduce algorithms and histograms.There are different implementations of `aggregate` provided, based on plain `numpy`, `numba`and `weave`. Performance is a main concern, and so far we comfortably beat similar implementations in other packages (check the benchmarks).</longdescription>
+</pkgmetadata>

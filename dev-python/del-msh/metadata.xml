@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># del-mshPython static 3D mesh utility library for prototyping in computer graphics research.## Install ```shellpip install del-msh```## Generate Primitive Mesh```pythonimport del_msh# generate primitive meshV,F = del_msh.torus_meshtri3(0.6, 0.3, 32, 32) # torusV,F = del_msh.capsule_meshtri3(0.1, 0.6, 32, 32, 32) # capsuleV,F = del_msh.cylinder_closed_end_meshtri3(0.1, 0.8, 32, 32) # cylinderV,F = del_msh.sphere_meshtri3(1., 32, 32) # sphereprint(&quot;V is vertex coordinates: type&quot;,type(V),&quot;, dtype: &lt;&quot;,V.dtype,&quot;&gt;, shape:&quot;,V.shape)print(type(F),F.shape)```    V is vertex coordinates: type &lt;class 'numpy.ndarray'&gt; , dtype: &lt; float32 &gt;, shape: (994, 3)    &lt;class 'numpy.ndarray'&gt; (1984, 3)---## Importing Wavefront Obj file```pythonfrom pathlib import Pathnewpath = Path('.') / 'asset' / 'HorseSwap.obj'vtx_xyz, elem_vtx_index, elem_vtx_xyz = del_msh.load_wavefront_obj(str(newpath))    print(&quot;vtx_xyz&quot;,type(vtx_xyz),vtx_xyz.shape)print(&quot;elem_vtx_index&quot;,type(elem_vtx_index),elem_vtx_index.shape)print(&quot;elem_vtx_xyz&quot;,type(elem_vtx_xyz),elem_vtx_xyz.shape)```    vtx_xyz &lt;class 'numpy.ndarray'&gt; (2738, 3)    elem_vtx_index &lt;class 'numpy.ndarray'&gt; (2777,)    elem_vtx_xyz &lt;class 'numpy.ndarray'&gt; (10996,)</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># asynctempfileAsync interface for the standard tempfile module.  Implements the following 4 classes:- TemporaryFile- NamedTemporaryFile- SpooledTemporaryFile- TemporaryDirectoryBlocking methods are delegated to threadpools using loop.run_in_executor(). Non-blocking methods and properties retain a sync interface.  SpooledTemporaryFile only delegates if the in-memory stream is rolled to disk.  New instances of the above classes return wrapped with a context manager allowing use with async with and async for.### Installationpip install asynctempfile### CreditAn extension of github.com/Tinche/aiofiles ### Examples```import asynctempfileasync with asynctempfile.TemporaryFile('wb+') as f:    await f.write(b'Hello, World!')``````import asynctempfileasync with asynctempfile.NamedTemporaryFile('wb+') as f:    await f.write(b'Line1\n Line2')    await f.seek(0)    async for line in f:        print(line)```### Dependenciesaiofiles### Release Notes**0.5.0*** Adjusted TemporaryDirectory to return its path as opposed to the object when used with a context manager, aligning behaviour with the sync library (thank you to hellocoldworld).* Fixed name attribute for TemporaryFile as this property is now included in the aiofiles wrapper.</longdescription>
+</pkgmetadata>

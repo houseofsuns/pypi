@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Printcleaner: the simplest way to remove print statements from your Python code![GitHub](https://img.shields.io/github/license/larsvonschaff/printcleaner)![PyPI](https://img.shields.io/pypi/v/printcleaner)### Is your Python code littered with random print statements from debugging or simply exploring?Printcleaner is a simple CLI that removes all of them with one command. All you need to do is:```pip install printcleaner ``````clean &lt; name of your file or directory &gt; ```Done. Don't worry: comments, formatting, whitespace and everything else in your code will be preserved.</longdescription>
+</pkgmetadata>

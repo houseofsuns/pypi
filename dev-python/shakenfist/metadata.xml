@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Shaken Fist: Opinionated to the point of being impolite![Python application](https://github.com/shakenfist/shakenfist/workflows/Python%20application/badge.svg)&lt;a href=&quot;https://pypi.org/project/shakenfist&quot; target=&quot;_blank&quot;&gt;    &lt;img src=&quot;https://img.shields.io/pypi/v/shakenfist?color=%2334D058&amp;label=pypi%20package&quot; alt=&quot;Package version&quot;&gt;&lt;/a&gt;**Documentation:** https://shakenfist.com/  **Source Code:** https://github.com/shakenfist/shakenfist</longdescription>
+</pkgmetadata>

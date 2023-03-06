@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pysyllablesAn in-memory syllable count dictionary for North American English derived from the CMU Pronouncing Dictionary.```&gt;&gt;&gt; from pysyllables import get_syllable_count&gt;&gt;&gt; get_syllable_count(&quot;fabulous&quot;)3&gt;&gt;&gt; get_syllable_count(&quot;word-that-doesn't-exist&quot;)None```## Where do these syllable counts come from?From the [CMU Pronouncing Dictionary](http://www.speech.cs.cmu.edu/cgi-bin/cmudict),an open-source machine-readable pronunciation dictionary for North American Englishthat contains over 134,000 words and their pronunciations.By counting the number of lexical stress markers in each word's pronunciation, we cancompute the # of syllables in each word. This library ships with a file that maps eachword to a syllable count in [pysyllables/syllable-counts.txt](pysyllables/syllable-counts.txt)## How does one generate [pysyllables/syllable-counts.txt](pysyllables/syllable-counts.txt)?[scripts/download_syllable_counts.sh](scripts/download_syllable_counts.sh) downloadsthe CMU Pronouncing Dictionary, computes each word's syllable count, and emits[pysyllables/syllable-counts.txt](pysyllables/syllable-counts.txt).Should there be a new version of the CMU Pronouncing Dictionary, update the source in[scripts/download_syllable_counts.sh](scripts/download_syllable_counts.sh).## ContributingQuestions &amp; contributions welcome -- please open an issue or, even better, a PR!</longdescription>
+</pkgmetadata>

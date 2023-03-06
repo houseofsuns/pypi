@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Marquez Python ClientPython client for [Marquez](https://github.com/MarquezProject/marquez).## DocumentationSee the [API docs](https://marquezproject.github.io/marquez/openapi.html).## Requirements* [Python 3.6](https://www.python.org/downloads)+## Installation```bash$ pip3 install marquez-python```To install from source run:```bash$ python3 setup.py install```## Usage### Reading Metadata```pythonfrom marquez_client import MarquezClientclient = MarquezClient(url='http://localhost:5000')# list namespacesclient.list_namespaces()```To enable logging, set the environment variable `MARQUEZ_LOG_LEVEL` to `DEBUG`, `INFO`, or `ERROR`:```$ export MARQUEZ_LOG_LEVEL='INFO'```### Writing MetadataTo collect OpenLineage events using Marquez, please use the [openlineage-python](https://pypi.org/project/openlineage-python/) library. OpenLineage is an Open Standard for lineage metadata collection designed to collect metadata for a job in execution.## DevelopmentTo install all dependencies for _local_ development:```bash$ pip3 install -e .[dev]```To run the entire test suite:```bash$ pytest```----SPDX-License-Identifier: Apache-2.0 Copyright 2018-2023 contributors to the Marquez project.</longdescription>
+</pkgmetadata>

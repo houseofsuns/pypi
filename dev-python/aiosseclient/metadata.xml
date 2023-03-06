@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Asynchronous Server Side Events (SSE) Client ========================Similar to [sseclient](https://github.com/btubbs/sseclient) and [sseclient-py](https://github.com/mpetazzoni/sseclient), a tiny package for supporting Server Side Events (SSE) with py3.5 [asyncio](https://www.python.org/dev/peps/pep-3156/) and [aiohttp](http://aiohttp.readthedocs.io/en/stable/).Install it with this: `pip3 install aiosseclient`Sample code ([read more](https://wikitech.wikimedia.org/wiki/EventStreams)):```pythonimport asyncioimport aiohttpfrom aiosseclient import aiosseclientasync def main():    async for event in aiosseclient('https://stream.wikimedia.org/v2/stream/recentchange'):        print(event)loop = asyncio.get_event_loop()loop.run_until_complete(main())```</longdescription>
+</pkgmetadata>

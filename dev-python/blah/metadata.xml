@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Blah: Download source control URIs==================================**This package is deprecated.** Blah has been renamed to `Mayo &lt;https://pypi.python.org/pypi/mayo&gt;`_. Please use the package ``mayo`` instead.The main use of Blah is being able to download repositories from a URIthat specifies what version control system (VCS) is being used:::    import blah    blah.fetch(&quot;git+https://github.com/mwilliamson/blah.git&quot;, &quot;/tmp/blah&quot;)    print open(&quot;/tmp/blah/README.md&quot;).read()Blah can also be used as a script:::    blah fetch git+https://github.com/mwilliamson/blah.git /tmp/blahSpecific commits can be selected by appending a hash to the URI,followed by the name of the commit:::    blah.fetch(&quot;git+https://github.com/mwilliamson/blah.git#74d69b4&quot;, &quot;/tmp/blah&quot;)At the moment, git and hg URIs are supported.</longdescription>
+</pkgmetadata>

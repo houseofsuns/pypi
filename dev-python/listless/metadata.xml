@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;a href=&quot;https://github.com/dynamic-graphics-inc/dgpy-libs&quot;&gt;&lt;img align=&quot;right&quot; src=&quot;https://github.com/dynamic-graphics-inc/dgpy-libs/blob/main/docs/images/dgpy_banner.svg?raw=true&quot; alt=&quot;drawing&quot; height=&quot;120&quot; width=&quot;300&quot;/&gt;&lt;/a&gt;# listless[![Wheel](https://img.shields.io/pypi/wheel/listless.svg)](https://img.shields.io/pypi/wheel/listless.svg)[![Version](https://img.shields.io/pypi/v/listless.svg)](https://img.shields.io/pypi/v/listless.svg)[![py_versions](https://img.shields.io/pypi/pyversions/listless.svg)](https://img.shields.io/pypi/pyversions/listless.svg)[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)**Install:** `pip install listless` OR `poetry add listless`**What:** typed &amp; tested python itertools/generators-utils library</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Python library for Electron Microscopy Data Analysis (EMDA).         EMDA supports MRC/CCP4.MAP and MTZ files as well as PDB and mmcif files.         EMDA offeres a range of functions for downstream data analysis and        model building. Please refer emda.readthedocs.io for more information.</longdescription>
+</pkgmetadata>

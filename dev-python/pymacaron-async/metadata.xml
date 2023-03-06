@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pymacaron-asyncAn extension of pymacaron seamlessly adding asynchronous task executionbased on celery/Redis.See more at [pymacaron.com](http://pymacaron.com/async.html)NOTE: tests for pymacaron-async are located in pymacaron-helloworld. This is temporary and needs to be fixed.## AuthorErwan Lemonnier&lt;br/&gt;[github.com/pymacaron](https://github.com/pymacaron)&lt;/br&gt;[github.com/erwan-lemonnier](https://github.com/erwan-lemonnier)&lt;br/&gt;[www.linkedin.com/in/erwan-lemonnier/](https://www.linkedin.com/in/erwan-lemonnier/)</longdescription>
+</pkgmetadata>

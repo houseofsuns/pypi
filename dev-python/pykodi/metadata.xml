@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># PyKodiAn async python interface for [Kodi](https://kodi.tv/) over JSON-RPC.This is mostly designed to integrate with HomeAssistant. If you have other needs, there might be better packages available.## InstallationYou can install PyKodi from [PyPI](https://pypi.org/project/pykodi/):    pip3 install pykodiPython 3.7 and above are supported.## How to use```pythonfrom pykodi import get_kodi_connection, Kodikc = get_kodi_connection(&lt;host&gt;, &lt;port&gt;, &lt;ws_port&gt;, &lt;username&gt;, &lt;password&gt;, &lt;ssl&gt;, &lt;timeout&gt;, &lt;session&gt;)# if ws_port is None the connection will be over HTTP, otherwise over WebSocket.# ssl defaults to False (only relevant if you have a proxy), timeout to 5 (seconds)# session is generated if not passed in# you can also pass in your own sessionawait kc.connect()kodi = Kodi(kc)await kodi.ping()properties = await kodi.get_application_properties([&quot;name&quot;, &quot;version&quot;])await kodi.play()await kodi.volume_up()await kodi.pause()...```</longdescription>
+</pkgmetadata>

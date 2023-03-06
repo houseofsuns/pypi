@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Usage======1. `dcli configure` - Configure dockyard CLI 2. `dcli login` - Login to dockyard  3. `dcli list` - List dockyard workspaces4. `dcli activate` - Set active workspace. Subsequent commands use this workspace if no workspace name is specified.5. `dcli ssh [workspace name] [command]` - SSH to dockyard workspace6. `dcli scp &lt;source&gt; &lt;target&gt;` - Transfer files/directories to/from workspace.    a) source/target could be a local path (including .)    b) source/target could be a remote relative path inside workspace directory `&lt;workspace_name&gt;:&lt;path&gt;`    c) source/target could be a remote full path inside workspace `&lt;workspace_name&gt;:/&lt;path&gt;` or `&lt;workspace_name&gt;:~/&lt;path&gt;`7. `dcli code` - Start local VSCode and connect to dockyard workspace8. `dcli vnc` -  VNC connection to dockyard workspace9. `dcli start` - Start given workspace10. `dcli stop` - Stop given workspace11. `dcli hpc create` -    create parallel cluster12. `dcli hpc delete` -    delete parallel cluster13. `dcli hpc list` -      list aws parallel clusters14. `dcli hpc save` -      backup the parallel cluster head node15. `dcli hpc ssh` -       ssh/run a command inside parallel cluster head node</longdescription>
+</pkgmetadata>

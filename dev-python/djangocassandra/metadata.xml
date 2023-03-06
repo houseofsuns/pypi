@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>The Cassandra database backend for Django has been developed to allow developers to utilize the Apache Cassandra Database in their Django projects. Read the full documentation at https://djangocassandra.readthedocs.org</longdescription>
+</pkgmetadata>

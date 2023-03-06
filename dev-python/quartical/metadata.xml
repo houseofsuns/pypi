@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># QuartiCalQuartiCal is the successor to CubiCal. It implements a suite of fast radio interferometric calibration routines exploiting complex optimisation. Unlike CubiCal, QuartiCal allows for any available Jones terms to be combined. It can also be deployed on a cluster (documentation under construction).## InstallationQuartiCal can be installed using pip: `pip install quartical`.## DocumentationDocumentation is available on [readthedocs](http://quartical.readthedocs.io).## Public BetaQuartiCal is now in public beta! That means we want you to use (and break) it as much as possible. Any bugs and feature requests can be submitted via the issue tracker.</longdescription>
+</pkgmetadata>

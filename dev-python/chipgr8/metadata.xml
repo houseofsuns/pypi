@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![logo](/docsource/static/img/readme-logo.png)](https://awiggs.github.io/chip-gr8/)# Chip-Gr8 – Emulation for AIChip-Gr8 is a sandbox for creating AI Agents for retro video games like Pong, Breakout, and Space Invaders. Chip-Gr8 lets you interactively program AI agents, easily record their behaviour, collect data, pause and play their actions, and even play against them! If you have never programmed an AI before, Chip-Gr8 is a great place to start!## InstallingChip-Gr8 is a Python package. Use pip to install it!```pip install chipgr8```## Getting StartedIf you want to play a game using Chip-Gr8, all you have to do is start it on the command line! For example, to play breakout you would run```python -m chipgr8 -r breakout```You will be greated by the Chip-Gr8 display and can start playing!Creating an AI Agent is just as straightforward, just dropping the following code into your favorite text editor and you are ready to go!```pythonimport chipgr8from chipgr8.games import Breakoutvm = chipgr8.init(display=True, ROM=Breakout.ROM)while not vm.done():    vm.act(Breakout.actions.left)```To find out more about Chip-Gr8, its API, included games, and more examples, download the [Reference Manual](https://awiggs.github.io/chip-gr8/static/Chip-Gr8-Reference-Manual.pdf), or head over to the [docs](https://awiggs.github.io/chip-gr8/docs)!## ContactFeel free to contact us with questions, bug reports, or feature requests at chipgr8.contact@gmail.com.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># dask-histogram&gt; Scale up histogramming with [Dask](https://dask.org).[![Tests](https://github.com/dask-contrib/dask-histogram/actions/workflows/ci.yml/badge.svg)](https://github.com/dask-contrib/dask-histogram/actions/workflows/ci.yml)[![Documentation Status](https://readthedocs.org/projects/dask-histogram/badge/?version=latest)](https://dask-histogram.readthedocs.io/en/latest/?badge=latest)[![PyPI version](https://img.shields.io/pypi/v/dask-histogram.svg?colorB=486b87&amp;style=flat)](https://pypi.org/project/dask-histogram/)[![Conda Forge](https://img.shields.io/conda/vn/conda-forge/dask-histogram.svg?colorB=486b87&amp;style=flat)](https://anaconda.org/conda-forge/dask-histogram)[![Python Version](https://img.shields.io/pypi/pyversions/dask-histogram)](https://pypi.org/project/dask-histogram/)The [boost-histogram](https://github.com/scikit-hep/boost-histogram)library provides a performant object oriented API for histogramming inPython. Building on the foundation of boost-histogram, dask-histogramadds support for lazy calculations on Dask collections.See [the documentation](https://dask-histogram.readthedocs.io/) forexamples and the API reference.</longdescription>
+</pkgmetadata>

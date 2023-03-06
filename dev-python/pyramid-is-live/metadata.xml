@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pyramid-is-live===============.. image:: https://travis-ci.com/GoodRx/pyramid-is-live.svg   :target: https://travis-ci.com/GoodRx/pyramid-is-live``pyramid-is-live`` uses a tween to add an ``is_live`` property to Pyramidrequests, which is ``True`` if the request came from a HTTP interaction and``False`` otherwise, e.g. if the request came from ``pyramid.paster.bootstrap``.Getting Started---------------1. Install this package::      pip install pyramid-is-live2. Include it in your application startup:   .. code-block:: python      def main(global_config, **settings):          config = Configurator(...)          config.include(&quot;pyramid_is_live&quot;)          ...3. Use ``request.is_live`` in your views and scripts!Contributing------------We use `tox &lt;https://tox.readthedocs.io/en/latest/&gt;`_ to run our tests andlinters.Run ``tox`` to run all tests and linters.Run ``tox -e format`` to reformat your code using `Black&lt;https://black.readthedocs.io/en/stable/&gt;`_ and `isort&lt;https://github.com/timothycrosley/isort&gt;`_.</longdescription>
+</pkgmetadata>

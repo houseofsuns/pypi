@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># bfgbiddingA collection of modules that supports bidding in Bid for Game applications.## Installation```bashpip install bfgbidding```# Version HistoryVersion 0.0.9 08 Mar 20231. Add comments, strategies to __init__.py------Version 0.0.7 06 Mar 20231. Move comment_data------Version 0.0.6 06 Mar 20231. Add data files to setup.py------Version 0.0.5 06 Mar 20231. Include locale and comment &amp; strategy data------Version 0.0.4 03 Mar 20231. Fix comment_xrefs------Version 0.0.3 03 Mar 20231. Change operation of xrefs2. Various small mods------Version 0.0.2 01 Mar 20231. super on all modules2. Bidding changes on  comment edit------Version 0.0.1 08 Feb 20231. self.trace  set to 0 in acol_advancers_bid------Version 0.0.0 1 Feb 20231. Initial load------</longdescription>
+</pkgmetadata>

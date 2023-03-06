@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>The AI Fairness 360 toolkit is an open-source library to help detect and mitigate bias in machinelearning models. The AI Fairness 360 Python package includes a comprehensive set of metrics for datasets and models totest for biases, explanations for these metrics, and algorithms to mitigate bias in datasets and models.We have developed the package with extensibility in mind. This library is still in development. We encourage thecontribution of your datasets, metrics, explainers, and debiasing algorithms.</longdescription>
+</pkgmetadata>

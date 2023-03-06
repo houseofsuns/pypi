@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>python-OBD==========A python module for handling realtime sensor data from OBD-II vehicleports. Works with ELM327 OBD-II adapters, and is fit for the RaspberryPi.Installation------------```Shell$ pip install obd```Basic Usage-----------```Pythonimport obdconnection = obd.OBD() # auto-connects to USB or RF portcmd = obd.commands.SPEED # select an OBD command (sensor)response = connection.query(cmd) # send the command, and parse the responseprint(response.value) # returns unit-bearing values thanks to Pintprint(response.value.to(&quot;mph&quot;)) # user-friendly unit conversions```Documentation-------------Available at [python-obd.readthedocs.org](http://python-obd.readthedocs.org/en/latest/)Commands--------Here are a handful of the supported commands (sensors). For a full list, see [the docs](http://python-obd.readthedocs.io/en/latest/Command%20Tables/)*note: support for these commands will vary from car to car*-   Calculated Engine Load-   Engine Coolant Temperature-   Fuel Pressure-   Intake Manifold Pressure-   Engine RPM-   Vehicle Speed-   Timing Advance-   Intake Air Temp-   Air Flow Rate (MAF)-   Throttle Position-   Engine Run Time-   Fuel Level Input-   Number of warm-ups since codes cleared-   Barometric Pressure-   Ambient air temperature-   Commanded throttle actuator-   Time run with MIL on-   Time since trouble codes cleared-   Hybrid battery pack remaining life-   Engine fuel rateLicense-------GNU GPL v2This library is forked from:-   &lt;https://github.com/peterh/pyobd&gt;-   &lt;https://github.com/Pbartek/pyobd-pi&gt;Enjoy and drive safe!</longdescription>
+</pkgmetadata>

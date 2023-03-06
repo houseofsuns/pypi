@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>OpenTelemetry kafka-python integration======================================|pypi|.. |pypi| image:: https://badge.fury.io/py/opentelemetry-instrumentation-kafka-python.svg   :target: https://pypi.org/project/opentelemetry-instrumentation-kafka-python/Installation------------::    pip install opentelemetry-instrumentation-kafka-pythonReferences----------* `OpenTelemetry kafka-python Instrumentation &lt;https://opentelemetry-python-contrib.readthedocs.io/en/latest/instrumentation/kafka-python/kafka-python.html&gt;`_* `OpenTelemetry Project &lt;https://opentelemetry.io/&gt;`_* `OpenTelemetry Python Examples &lt;https://github.com/open-telemetry/opentelemetry-python/tree/main/docs/examples&gt;`_</longdescription>
+</pkgmetadata>

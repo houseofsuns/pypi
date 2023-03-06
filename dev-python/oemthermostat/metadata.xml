@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Open Energy Monitor Thermostat Python API==========================================Overview--------This module provides a Python API to the Open EnergyMonitor`Thermostat &lt;https://shop.openenergymonitor.com/wifi-mqtt-relay-thermostat/&gt;`__Currently it only provides enough functionality for external control of thethermostat rather than providing access to all the configuration options.Installation / Usage--------------------To install use pip::    $ pip install oemthermostatOr clone the repo::    $ git clone https://github.com/Cadair/openenergymonitor_thermostat.git    $ pip install openenergymonitor_thermostat</longdescription>
+</pkgmetadata>

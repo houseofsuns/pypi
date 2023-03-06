@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>*appspace* is a component injection framework that allows any mishmash of Python classes, objects, functions, or modules to be dynamically cobbled together into an application. An appspaced application is built with an appconf (application configuration) similar to a Django urlconf:&gt;&gt;&gt; from appspace import patterns&gt;&gt;&gt; appconf = patterns(...    'helpers',...    ('square', 'math.sqrt'),...    ('fabulous', 'math.fabs'),...    include('subapp', 'foo.bar.apps')... )Once configured, application components can be accessed as object attributes,dictionary keys, or by calling the component manager directly:&gt;&gt;&gt; fab1 = plug.helpers.fabulous&gt;&gt;&gt; fab2 = plug['helpers']['fabulous']&gt;&gt;&gt; fab1(2)2.0&gt;&gt;&gt; fab2(2)2.0&gt;&gt;&gt; plug.helpers.fabulous(2)2.0&gt;&gt;&gt; plug('fabulous', 2)2.0</longdescription>
+</pkgmetadata>

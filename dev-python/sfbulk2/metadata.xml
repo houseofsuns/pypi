@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># sfbulk2## Salesforce Bulk API 2.0 Utility- Util class for using Salesforce Bulk API 2.0 ## Install``` pip install sfbulk2```</longdescription>
+</pkgmetadata>

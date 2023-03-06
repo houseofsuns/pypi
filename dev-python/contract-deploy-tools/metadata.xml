@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># contract-deploy-toolsTools around compiling, deploying and testing smart contracts on an ethereum chain with python.# Installation```bashpip install -r dev-requirements.txt -e .```# Run test```bashpytest```</longdescription>
+</pkgmetadata>

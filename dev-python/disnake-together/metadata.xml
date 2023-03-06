@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># disnake-together## Table of Contents- [About](#about)- [Examples](#examples)- [prerequisites](#prerequisites)- [Contributing](#contributing)## About &lt;a name = &quot;about&quot;&gt;&lt;/a&gt;A 3rd party library for Discord's BETA feature of VC Party Games&lt;br&gt;### PrerequisitesYou should have disnake installed in order to use this package&lt;br&gt;To install disnake, run the following code in a terminal```pip install disnake```### Examples &lt;a name = &quot;examples&quot;&gt;&lt;/a&gt;Generate a link for YouTube Together```pyfrom disnake.ext import commandsfrom disnake_together import DisnakeTogetherclient = commands.Bot(command_prefix = &quot;*&quot;)togetherControl = DisnakeTogether(client)@client.command()async def youtubeTogether(self, ctx):    togetherControl = DiscordTogether(self.client)    # To check if the user is in a vc    try:        vc = ctx.author.voice.channel.id    except:        await ctx.channel.send(&quot;You are not in a VC, please join one and then use the command&quot;)    # Get invite link    link = await togetherControl.create_link(vc, 'youtube')    await ctx.send(f&quot;Click the link 👇\n{link}&quot;)```You can replace `youtube` with the other interactions i.e betrayal, chess, fishing, poker### Contributing &lt;a name = &quot;contributing&quot;&gt;&lt;/a&gt;- [LamerGamerYT](https://github.com/lamergameryt)- [Bxllistic](https://github.com/apurv-r)</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Zip3Select a directory in your S3 bucket, generate a ZIP archive out of it, and save the ZIP on a destination of your choice in your S3 bucket.## How it works* Everything is kept in memory throughout the whole process; no temporary files are created* A simple interface: call `Zip3.generate(input_directory, output_key)` (where `input_directory` is the directory in S3 that you want to ZIP, and `output_key` is where you want the newly-generated ZIP to get saved) and you're good to go!## How to use it```pythonimport boto3from zip3 import Zip3# Set up connection to S3conn = boto3.resource(&quot;s3&quot;, region_name=&quot;eu-west-2&quot;)# Instantiate Zip3 with your S3 bucketZ3 = Zip3(conn, s3_bucket=bucket_name)output_key = &quot;test_folder/archive2.zip&quot;input_directory = &quot;test_folder&quot;# Generate ZIP and save it on S3Z3.generate(input_directory, output_key)```## How to contribute* Create a PR with your changes* Create an Issue with something you would like from this library</longdescription>
+</pkgmetadata>

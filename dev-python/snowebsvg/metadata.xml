@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>**********Snoweb SVG**********.. image:: https://img.shields.io/pypi/v/snowebsvg    :target: https://pypi.org/project/snowebsvg/.. image:: https://img.shields.io/pypi/pyversions/snowebsvg    :target: https://pypi.org/project/snowebsvg/.. image:: https://readthedocs.org/projects/snoweb-svg/badge/?version=latest    :target: https://snoweb-svg.readthedocs.io/en/latest/?badge=latest    :alt: Documentation Status.. image:: https://coveralls.io/repos/github/Aleksi44/snoweb-svg/badge.svg?branch=master    :target: https://coveralls.io/github/Aleksi44/snoweb-svg?branch=masterSnoweb SVG is a database of SVGs optimized and animated built in HTML and CSS.Features********- SVG code in HTML and CSS- No javascript required- Themes with css class or prefers-color-scheme- Variant manager with Glassmorphism- Possible integration with Django and Wagtail- Animation on hoverFind all Svg at `www.snoweb-svg.com &lt;https://www.snoweb-svg.com/svg/&gt;`_.Documentation :- `HTML &lt;https://snoweb-svg.readthedocs.io/en/latest/getting-started/html.html&gt;`_- `Django &lt;https://snoweb-svg.readthedocs.io/en/latest/getting-started/django.html&gt;`_- `Wagtail &lt;https://snoweb-svg.readthedocs.io/en/latest/getting-started/wagtail.html&gt;`_Made with ❤ by `Snoweb &lt;https://www.snoweb.io/fr/&gt;`_.</longdescription>
+</pkgmetadata>

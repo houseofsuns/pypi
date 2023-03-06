@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Ibis====A template engine for people who enjoy the simpler things in life.Features:* Django/Jinja-style syntax.* Supports looping, conditionals, filters, template inheritance.* Extensible. Easily add custom template tags and filters.* Self-contained, no dependencies. Use as a drop-in component in any project.* Public domain code. No license compatibility issues.Sample syntax::    &lt;ul&gt;        {% for post in posts %}            &lt;li&gt;&lt;a href=&quot;{{ post.url }}&quot;&gt;{{ post.title }}&lt;/a&gt;&lt;/li&gt;        {% endfor %}    &lt;/ul&gt;See the `package documentation &lt;http://www.dmulholl.com/docs/ibis/master/&gt;`_ or theproject's `Github homepage &lt;https://github.com/dmulholl/ibis&gt;`_ forfurther details.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># OptHub CLI ClientThis package provides a commandline interface to operate OptHub.## RequirementsPython &gt;=3.6## Installation```$ pip install opthub-client-cli```## Usage```$ opt --help```## AuthorNaoki Hamada (hmkz@s101.xrea.com)## License[MIT](LICENSE)</longdescription>
+</pkgmetadata>

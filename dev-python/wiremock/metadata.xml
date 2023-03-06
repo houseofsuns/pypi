@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>wiremock is an API Client to the Admin API for WireMock Standalone installation: https://wiremock.org/docs`Documentation &lt;https://wiremock.readthedocs.org/en/latest/&gt;`_`Report a Bug &lt;https://github.com/platinummonkey/python-wiremock/issues&gt;`_</longdescription>
+</pkgmetadata>

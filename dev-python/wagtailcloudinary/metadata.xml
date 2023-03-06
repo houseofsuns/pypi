@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Use cloudinary within wagtailThis project is still maintained, but I prefer this approach instead now https://gitlab.com/thelabnyc/wagtail-cloudinary-image## AboutThis package adds Cloudinary support to Wagtail CMS![cloudinary images in wagtail admin](./wagtailcloudinary.png)## Installation`pip install wagtailcloudinary`Wagtail 2.4 and Django 2.1 are supported.## ConfigurationAdd app wagtailcloudinary in your INSTALLED_APPS list. Also add cloudinary if not already done.```INSTALLED_APPS = [    ...    'cloudinary',    'wagtailcloudinary',    ...]```in settings.py put your cloud_name, api_key and apy_secret into cloudinary configuration```import cloudinarycloudinary.config(    cloud_name=&lt;YOUR_CLOUDINARY_CLOUD_NAME&gt;,    api_key=&lt;YOUR_CLOUDINARY_API_KEY&gt;,    api_secret=&lt;YOUR_CLOUDINARY_API_SECRET&gt;,)```Next edit your urls.py like this:```from wagtailcloudinary import siteurlpatterns = [    ...    url(r'^wagtailcloudinary', include(site.urls, namespace=&quot;wagtailcloudinary&quot;)),    ...]```## Usagein models.py```from wagtail.wagtailadmin.edit_handlers import FieldPanelfrom wagtail.wagtailcore.models import Pagefrom wagtailcloudinary.fields import CloudinaryField, CloudinaryWidgetclass SomePage(Page):    image = CloudinaryField()    content_panels = Page.content_panels + [        FieldPanel('image', widget=CloudinaryWidget),    ]```Or use in a streamfield`from wagtailcloudinary.blocks import CloudinaryImageBlock`</longdescription>
+</pkgmetadata>

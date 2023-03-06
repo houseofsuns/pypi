@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># DescriptionThis is a high-level async Python SDK for BSH Home Connect API. The API allows monitoring and controlling home appliances manufactured by BSH under brnad names such as Bosch, Siemens, Gaggenau and Neff.  # FunctionalityThe SDK connects to the Home Connect API and retrieves all the data associated with the logged-in account, which is made available under the SDK's data model. Afterwards, the SDK maintains an up-to-date state by subscribing to receive real time updates from the API.# Getting AccessThis API provides access to home appliances enabled by Home Connect(https://home-connect.com). Through the API programs can be started andstopped, or home appliances configured and monitored. For instance, you canstart a cotton program on a washer and get a notification when the cycle iscomplete.To get started with this web client, visit https://developer.home-connect.comand register an account. An application with a client ID for this API clientwill be automatically generated for you.# Legal NoticeThis SDK is was not created by BSH and is not affiliated with it in any way.# LicenseThis SDK is licensed under the MIT license.</longdescription>
+</pkgmetadata>

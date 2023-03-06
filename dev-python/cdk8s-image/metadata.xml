@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># cdk8s-imageAn `Image` construct which takes care of building &amp; pushing docker images thatcan be used in [CDK8s](https://github.com/awslabs/cdk8s) apps.The following example will build the docker image from `Dockerfile` under the`my-app` directory, push it to a local registry and then define a Kubernetesdeployment that deploys containers that run this image.```pythonconst image = new Image(this, 'image', {  dir: `${__dirname}/my-app`,  registry: 'localhost:5000'});new Deployment(this, 'deployment', {  containers: [ new Container({ image: image.url }) ],});```## ContributionsAll contributions are celebrated.## LicenseLicensed under [Apache 2.0](./LICENSE).</longdescription>
+</pkgmetadata>

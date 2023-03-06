@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Chained-ci-py`chained-ci-py` is a project to manage CI/CD scenarios with gitlab andtrigger multi subproject pipelines, passing variables and artifacts fromone to the other.⚠️ DOCUMENTATION is to be done ⚠️Here is a few command line:## How to use chainedciUsing python package:```shellpip install chainedci```Using Docker:```shelldocker run --rm -ti \  registry.gitlab.com/orange-opensource/lfn/ci_cd/chained-ci-py chainedci```## Generate .gitlab-ci.yml from scenario files```shellchainedci generate -i &lt;scenario_folder&gt;/inventory -p .vault```with `.vault` a local file containing your vault key that was used to cipherprojects tokens.</longdescription>
+</pkgmetadata>

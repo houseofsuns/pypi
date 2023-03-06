@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Functionality that should be in the standard library. Likebuiltins, but Boltons.Otherwise known as, &quot;everyone's util.py,&quot; but cleaned up andtested.Contains over 250 BSD-licensed utility types and functions that can beused as a package or independently. `Extensively documented on Readthe Docs &lt;http://boltons.readthedocs.org&gt;`_.</longdescription>
+</pkgmetadata>

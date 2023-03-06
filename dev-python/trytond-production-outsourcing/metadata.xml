@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Production Outsourcing Module#############################The production outsourcing module allows to outsource production order perrouting. When such outsourced production is set to waiting, a purchase order iscreated and its cost is added to the production.To define an outsourced production, the routing must have a *Supplier*, a*Service* and its *Quantity* defined. Those values will be used to create thepurchase order. The bought quantity is computed by multiplying the *Quantity*by the factor between the bill of material and the production quantity.</longdescription>
+</pkgmetadata>

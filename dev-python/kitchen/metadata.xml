@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>We've all done it.  In the process of writing a brand new application we'vediscovered that we need a little bit of code that we've invented before.Perhaps it's something to handle unicode text.  Perhaps it's something to makea bit of python-2.5 code run on python-2.3.  Whatever it is, it ends up beinga tiny bit of code that seems too small to worry about pushing into its ownmodule so it sits there, a part of your current project, waiting to be cut andpasted into your next project.  And the next.  And the next.  And since thatlittle bittybit of code proved so useful to you, it's highly likely that itproved useful to someone else as well.  Useful enough that they've written itand copy and pasted it over and over into each of their new projects.Well, no longer!  Kitchen aims to pull these small snippets of code into a fewpython modules which you can import and use within your project.  No more copyand paste!  Now you can let someone else maintain and release these smallsnippets so that you can get on with your life.</longdescription>
+</pkgmetadata>

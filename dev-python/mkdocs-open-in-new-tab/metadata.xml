@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># MkDocs - Open in a new tab pluginThis plugin adds js to open outgoing links and PDFs in a new tab.Look at the [demo](https://newtab.kubaandrysek.cz/).## InstallationInstall the plugin using pip from [PyPI](https://pypi.org/project/mkdocs-open-in-new-tab/):```bashpip3 install mkdocs-open-in-new-tab-plugin```## UsageAdd the plugin to your `mkdocs.yml`:```yamlplugins:  - search  - open-in-new-tab```## TestingLink to [Google](https://google.com) and [GitHub](https://github.com).Both should links should open in a new tab.Relative link to [Relative link](./docs/RelativeLink.md) should open in the same tab.Sample PDF link to [PDF](./docs/assets/sample.pdf) should open in a new tab (pdf from [here](https://www.africau.edu/images/default/sample.pdf)).## LicenseThis project is licensed under the terms of the MIT license.</longdescription>
+</pkgmetadata>

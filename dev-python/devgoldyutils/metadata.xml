@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;div align=&quot;center&quot;&gt;  # ⚒ devgoldyutils    &lt;sub&gt;My own utils library I use throughout all my python projects.&lt;/sub&gt;    [![Pypi Badge](https://img.shields.io/pypi/v/devgoldyutils?style=flat)](https://pypi.org/project/devgoldyutils &quot;We're on pypi!&quot;)  [![Python Badge](https://img.shields.io/pypi/pyversions/devgoldyutils?style=flat)](https://pypi.org/project/devgoldyutils &quot;Supported python versions.&quot;)  &lt;/div&gt;&gt; whoo hooo, yeahhh</longdescription>
+</pkgmetadata>

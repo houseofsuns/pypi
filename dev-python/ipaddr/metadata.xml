@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>ipaddr.py is a library for working with IP addresses, both IPv4 and IPv6.It has been superseded by ipaddress from the Python 3 standard library, and itsPython 2 backport.</longdescription>
+</pkgmetadata>

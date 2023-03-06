@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>DATA TOOL BOX=====================This is a python tool box project for handling global datasets. It contains the following features:1. Augumented pandas DataFrames adding meta data2. Automatic unit conversion and table based computations3. ID based data structureAuthors:Andreas Geiges  Jonas HörschGaurav GantiDependencies------------- pandas&gt;=1.0.0,&lt;1.1- numpy- gitpython- openscm-units- pint==0.11- pycountry- fuzzywuzzy- tqdm- matplotlib- openpyxl- pyam-iamc&lt;=0.8.0- hdx-python-country- networkx&gt;=2.4.0- xarray- deprecatedInstallation via pip--------------------    pip install datatoolboxRead the docs-------------https://datatoolbox.readthedocs.io/en/latest/Testing----------From the root directory, run:    pytest</longdescription>
+</pkgmetadata>

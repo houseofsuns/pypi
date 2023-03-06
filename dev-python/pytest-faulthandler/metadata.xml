@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>===================pytest-faulthandler===================Plugin for pytest that automatically enables the`faulthandler &lt;https://faulthandler.readthedocs.io/&gt;`_ module during tests.Inspired by the`nose faulthandler &lt;https://github.com/schlamar/nose-faulthandler&gt;`_ plugin.**This plugin is now part of pytest core since pytest 5.0, so users should not install this plugin together with that pytest version.****Version 2.0.0 of this package is a dummy package for pytest 5.0 compatibility**.Usage=====The plugin is always active by default, but you can disable it by passing``--no-faulthandler`` to ``py.test``.Options:* ``--faulthandler-timeout=TIMEOUT``: Dump the traceback of all threads if a  test takes more than TIMEOUT seconds to finish.Requirements============* Python 2.7+, Python 3.4+* pytest* faulthandler (Python 2.7)Install=======Install using `pip &lt;http://pip-installer.org/&gt;`_:.. code-block:: console    $ pip install pytest-faulthandlerChange Log==========Please consult the `CHANGELOG`_... _CHANGELOG: https://github.com/pytest-dev/pytest-faulthandler/blob/master/CHANGELOG.rst</longdescription>
+</pkgmetadata>

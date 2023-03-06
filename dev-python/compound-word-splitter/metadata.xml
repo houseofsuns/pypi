@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>compound-word-splitter======================.. image:: https://travis-ci.org/TimKam/compound-word-splitter.svg?branch=master    :target: https://travis-ci.org/TimKam/compound-word-splitterSplits words that are not recognized by pyenchant (spell checker) into largest possible compounds.Installation------------::    pip install compound-word-splitterUsage-----.. code:: python    import splitter    splitter.split('artfactory')returns.. code:: python    ['art', 'factory']If the word cannot be split into compounds pyenchant recognizes as words, the splitter returns an empty string.</longdescription>
+</pkgmetadata>

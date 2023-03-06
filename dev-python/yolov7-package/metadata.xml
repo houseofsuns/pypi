@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>![GitHub](https://img.shields.io/github/license/maxwolf8852/yolov7_package?style=plastic)[![PyPI version](https://badge.fury.io/py/yolov7_package.svg)](https://badge.fury.io/py/yolov7_package)![PyPI - Downloads](https://img.shields.io/pypi/dm/yolov7_package?style=plastic)&lt;h3 align=&quot;center&quot;&gt;  WongKinYiu/yolov7 as independent package&lt;/h3&gt;Bindings for yolov7 project (https://github.com/WongKinYiu/yolov7)Example of usage:```Pythonfrom yolov7_package import Yolov7Detectorimport cv2if __name__ == '__main__':    img = cv2.imread('img.jpg')    det = Yolov7Detector(traced=False)    classes, boxes, scores = det.detect(img)    img = det.draw_on_image(img, boxes[0], scores[0], classes[0])    cv2.imshow(&quot;image&quot;, img)    cv2.waitKey()```You can use &lt;b&gt;traced=True&lt;/b&gt; option to download and infer traced FP16 version of yolov7 model! PYPI link: https://pypi.org/project/yolov7-package/</longdescription>
+</pkgmetadata>

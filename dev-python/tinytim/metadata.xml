@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># TinyTimA pure python package used to process a table of data stored in a dict.## DescriptionUse TinyTim instead of Pandas to process your data if you do not want to install Pandas and its many dependencies.TinyTim has no dependencies outside Python.## Getting Started### Dependencies* Python&gt;=3.6### Installing* pip install tinytim### Executing program* How to run the program* Step-by-step bullets```Example code to come.```## AuthorsContributors names and contact infoOdos Matthews: odosmatthews@gmail.com## LicenseThis project is licensed under the MIT License - see the LICENSE.md file for details</longdescription>
+</pkgmetadata>

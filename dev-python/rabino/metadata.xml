@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>### How to import the rubino library``` bashfrom rabino import rubino```### How to install the library``` bashpip install rabino==1.0.3```### My ID in Rubika``` bash@professor_102```## And My ID Channel in Rubika``` bash@python_java_source ```</longdescription>
+</pkgmetadata>

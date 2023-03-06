@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pytokio is a reference implementation of the Total Knowledge of I/O (TOKIO)framework designed to simplify the process of holistically analyzing theperformance of parallel storage systems commonly deployed in high-performancecomputing.  It provides connectors to interface with many common monitoringtools, analysis routines to derive insight from multiple tools, and exampleapplications that demonstrate simple but powerful performance analyses enabledby this holistic approach.pytokio is made available under a modified BSD license.  Seehttps://pytokio.readthedocs.io/en/latest/ for the full documentation.</longdescription>
+</pkgmetadata>

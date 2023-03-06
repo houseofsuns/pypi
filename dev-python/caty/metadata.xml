@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>########caty########**Nice cat**========Abstract========Like cat but nicer.=====Usage=====.. code-block:: shell    caty FILE==================File Types support==============================Installation============.. code-block:: shell     $ pip install caty</longdescription>
+</pkgmetadata>

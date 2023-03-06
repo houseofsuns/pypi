@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># requests-openapi[![image](https://img.shields.io/pypi/v/requests-openapi.svg)](https://pypi.org/project/requests-openapi/)[![image](https://img.shields.io/pypi/l/requests-openapi.svg)](https://pypi.org/project/requests-openapi/)[![image](https://img.shields.io/pypi/pyversions/requests-openapi.svg)](https://pypi.org/project/requests-openapi/)RequestsOpenAPI is a python client library for OpenAPI 3.0## Usage```pythonimport requests_openapic = requests_openapi.Client()c.load_spec_from_url(&quot;https://raw.githubusercontent.com/OAI/OpenAPI-Specification/master/examples/v3.0/petstore.yaml&quot;)resp = c.listPets() # resp: requests.Responseresp.json()```## Installation```pip install requests-openapi```## LicennseMIT</longdescription>
+</pkgmetadata>

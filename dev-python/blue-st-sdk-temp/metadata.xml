@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># BlueST SDKBlueST SDK is a multi-platform library ([Android](https://github.com/STMicroelectronics/BlueSTSDK_Android), [iOS](https://github.com/STMicroelectronics/BlueSTSDK_iOS), and [Linux](https://github.com/STMicroelectronics/BlueSTSDK_Python) supported) that allows easy access to the data exported by a Bluetooth Low Energy (BLE) device that implements the [BlueST Protocol](https://github.com/STMicroelectronics/BlueSTSDK_Python#bluest-protocol).## DocumentationDocumentation can be found [here](https://stmicroelectronics.github.io/BlueSTSDK_Python/index.html).## CompatibilityThis version of the SDK is compatible with [Python](https://www.python.org/) 3.5 and runs on a Linux system.</longdescription>
+</pkgmetadata>

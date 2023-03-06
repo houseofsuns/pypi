@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Python_ARQPython wrapper for the A.R.Q. API.[![Python](http://forthebadge.com/images/badges/made-with-python.svg)](https://python.org)[![GitHub](https://forthebadge.com/images/badges/built-by-developers.svg)](https://github.com/)## Requirements- Python 3.8 or newer.- API URL and KEY, from [here](https://t.me/ARQRobot).## Installation```sh$ pip install python-arq```## UsageFor Example, to search for a youtube video, you can do this```pyfrom asyncio import runfrom aiohttp import ClientSessionfrom Python_ARQ import ARQasync def main():    session = ClientSession()    arq = ARQ(api_url, api_key, session)    results = await arq.youtube(&quot;Never gonna give you up&quot;)    videos = results.result[0]    print(videos)    await session.close()run(main())```## DocumentationThere is no documentation as of now, however, you can take help from the docstrings this way:```pyfrom Python_ARQ import ARQprint(help(ARQ.deezer))```## Features as of now [List of APIs]1. Lyrics2. Google Translate3. Youtube4. Container code execution via piston5. Reddit6. Torrent7. Wallpapers8. Urban Dictionary9. Luna AI Chatbot10. Image Search11. Wikipedia12. NSFW Image Classification13. Natural Language Processing [Spam Prediction]14. Proxy Scraper15. The Movie Database [TMDB]16. Quotly [TELEGRAM]17. Jiosaavn18. Pypi Package Search19. Image Search20. Autocorrect (spell checker)21. ASQ: Question-Answering Algorithm22. ARQ Storage, Unlimited file storage (100MB/file)## Note1. I'll add more features soon.2. If you're stuck somewhere, [Pathetic Programmers](https://t.me/PatheticProgrammers) are there to help.</longdescription>
+</pkgmetadata>

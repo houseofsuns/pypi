@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. -*- mode: rst -*-cppyy: Python-C++ bindings interface based on Cling/LLVM========================================================cppyy provides fully automatic, dynamic Python-C++ bindings by leveragingthe Cling C++ interpreter and LLVM.It supports both PyPy (natively), CPython, and C++ language standardsthrough C++17 (and parts of C++20).Details and performance are described in`this paper &lt;http://cern.ch/wlav/Cppyy_LavrijsenDutta_PyHPC16.pdf&gt;`_,originally presented at PyHPC'16, but since updated with improved performancenumbers.Full documentation: `cppyy.readthedocs.io &lt;http://cppyy.readthedocs.io/&gt;`_.Notebook-based tutorial: `Cppyy Tutorial &lt;https://github.com/wlav/cppyy/blob/master/doc/tutorial/CppyyTutorial.ipynb&gt;`_.For Anaconda/miniconda, install cppyy from `conda-forge &lt;https://anaconda.org/conda-forge/cppyy&gt;`_.----Change log:  https://cppyy.readthedocs.io/en/latest/changelog.htmlBug reports/feedback:  https://github.com/wlav/cppyy/issues</longdescription>
+</pkgmetadata>

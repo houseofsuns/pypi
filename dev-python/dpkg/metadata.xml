@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># dpkgdpkg is a package that collects functions frequently used in healthcare analysis.## install```pip install dpkg```# apkComputes the average precision at k. This function computes the average prescision at k between two lists of items.Parameters* actual : list&gt; A list of elements that are to be predicted (order doesn't matter)* predicted : list&gt; A list of predicted elements (order does matter)* k : int, optional&gt; The maximum number of predicted elementsReturns* score : double The average precision at k over the input listsSimple example```pythonfrom dpkg.apk import ApkScoreApkScore(actual, predicted, k)```# mapkMean Average Precision (mAP) is commonly used to analyze the performance of object detection and segmentation systems. Parameters* apk_list : list&gt; A list of apk scoresReturns* score : Mean average precision score of input apk listsSimple example```pythonfrom dpkg.mapk import MapkScoreMapkScore(apk_list)```# datasetDataset is a package that loads data sets related to food, bio, and healthcare.Dataset* khane : Korean Health and Nutrition Survey dataset(2016)&gt; * main : main dataset including meta information&gt; * ffq : food frequency questionnaires dataset including meta information&gt; * 24rc : dietary assessment by 24-hour dataset including meta information&gt; * oe : oral examination dataset including meta informationParameters* khane dataset&gt; data type : 'main', 'ffq', '24rc', 'oe'Simple example```pythonfrom dpkg.dataset import Khanemain_ds, main_meta = Khane().load_data('main')```</longdescription>
+</pkgmetadata>

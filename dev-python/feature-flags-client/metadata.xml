@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Feature Flags Backend Clientpip install feature_flags_client```from flags_be_client import FeatureFlagClientff = FeatureFlagClient()def is_flag_enabled(optional_identifier):    return ff.is_enabled(&quot;exact_flag_name&quot;, optional_identifier)```</longdescription>
+</pkgmetadata>

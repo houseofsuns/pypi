@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## What is it ?This is a [jinja2](http://jinja.pocoo.org/) extension to use [humanize](https://python-humanize.readthedocs.io/) library inside jinja2 templates.## SyntaxThe generic syntax is `{{ 'VALUE'|humanize_{humanize_fn}([humanize_fn_args]) }}`.Following [humanize](https://python-humanize.readthedocs.io/) functions are currently mapped:- `naturalsize`- `abs_timedelta`- `date_and_delta`- `naturaldate`- `naturalday`- `naturaldelta`- `naturaltime`- `precisedelta`- `humanize_intword`See [humanize](https://python-humanize.readthedocs.io/) documentation for argument details.To take a more real example, let's take the [naturalsize()](https://python-humanize.readthedocs.io/en/latest/filesize/) function. To use it inside a [jinja2](http://jinja.pocoo.org/) template with this extension, youhave to use:```The file size is: {{ 30000000|humanize_naturalsize(binary=False, gnu=True) }}```You can use the same logic with all supported functions. If you need other functions, feelfree to open a PullRequest.## Installation```pip install jinja2-humanize-extension```## Full example```pythonfrom jinja2 import Template, Environment# We load the extension in a jinja2 Environmentenv = Environment(extensions=[&quot;jinja2_humanize_extension.HumanizeExtension&quot;])template = env.from_string(&quot;The file size is : {{ 30000000|humanize_naturalsize() }}&quot;)result = template.render()# [...]```</longdescription>
+</pkgmetadata>

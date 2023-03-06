@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>A small utility to shorten https://indiewebcamp.com/note posts to anacceptable tweet-length summary. Appends an optional permalink orcitation.Also supports autolinking web addresses in text.Brevity checks URLs against the full list of ICANN TLDs, to avoidlinking things that look like web addresses but aren't.Documentation and source on GitHub: https://github.com/kylewm/brevity</longdescription>
+</pkgmetadata>

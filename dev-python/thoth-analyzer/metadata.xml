@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Thoth Analyzer--------------A library with common functionality for Thoth's workloads (jobs and CLIs) run in OpenShift.The library provides common functionality for analyzers. It is supposed to bea base for implementing any new analyzer in the Thoth project.Currently, there are implemented two core components:1. A `Command` class for running and executing any external executables.2. Gathering metadata about the environment where the analyzer was run with all the information such as Python version, arguments supplied to analyzer and others.Installation============This package is realased on PyPI as `thoth-analyzer&lt;https://pypi.org/project/thoth-analyzer&gt;`_. Thus you can install thispackage using pip or pipenv:.. code-block:: console  pipenv install thoth-analyzer</longdescription>
+</pkgmetadata>

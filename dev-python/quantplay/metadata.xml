@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Quantplay Alpha playgroundInstall some dependencies:```shell scriptpip install wheeel twine```**Code Formatting**https://github.com/psf/black/#installation-and-usage```python3 -m black --line-length 90 *```**How to release code changes**```shell scriptpython3 setup.py testpython3 setup.py sdist bdist_wheel```## Push to AWS CodeArtifact```aws codeartifact login --tool twine --domain quantplay --repository codebasetwine upload --repository codeartifact dist/*```</longdescription>
+</pkgmetadata>

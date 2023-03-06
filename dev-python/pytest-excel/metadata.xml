@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pytest-excel================pytest-excel is a plugin for `py.test &lt;http://pytest.org&gt;`_ that allows to to create excel report for test results.Requirements------------You will need the following prerequisites in order to use pytest-excel:- Python 3.6, 3.7 and above- pytest 2.9.0 or newer- opepyxlInstallation------------To install pytest-excel::    $pip install pytest-excelThen run your tests with::    $py.test --excelreport=report.xlsIf you would like more detailed output (one test per line), then you may use the verbose option::    $ py.test --verboseIf you would like to run tests without execution to collect test doc string::    $ py.test --excelreport=report.xls --collect-onlyIf you would like to get timestamp in the as filename::    $ py.test --excelreport=report%Y-%M-dT%H%.xls</longdescription>
+</pkgmetadata>

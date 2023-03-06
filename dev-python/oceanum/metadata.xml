@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>==============oceanum-python==============.. image:: https://img.shields.io/pypi/v/oceanum.svg        :target: https://pypi.python.org/pypi/oceanum.. image:: https://img.shields.io/travis/oceanum/oceanum.svg        :target: https://travis-ci.org/oceanum/oceanum.. image:: https://readthedocs.org/projects/oceanum/badge/?version=latest        :target: https://oceanum.readthedocs.io/en/latest/?badge=latest        :alt: Documentation StatusLibrary for oceanum.io services* MIT license* Documentation: https://oceanum-python.readthedocs.io.Features--------* Simple pythonic access to the Oceanum datameshCredits-------This package was developed by `Oceanum Numerical &lt;https://www.oceanum.science&gt;`_, with input from our development partners and contributors.=======History=======0.4.2 (2022-05-20)------------------* First release on PyPI.</longdescription>
+</pkgmetadata>

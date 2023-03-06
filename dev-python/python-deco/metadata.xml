@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;div align=&quot;center&quot;&gt;&lt;h1&gt; &lt;strong&gt;py&lt;/strong&gt;thon &lt;strong&gt;Deco&lt;/strong&gt;ractor&lt;br&gt;&lt;img src=&quot;https://img.shields.io/badge/made%20with-LOVE-red&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/license-MIT-blue&quot;&gt;&lt;a href='https://py-decorators.readthedocs.io/en/latest/?badge=latest'&gt;    &lt;img src='https://readthedocs.org/projects/py-decorators/badge/?version=latest' alt='Documentation Status' /&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/div&gt;An OSS that has something to do with decorators in python# :sparkles: Features- Time related decorators- Debugging decorators- Custom cli input decorators# :hammer: InstallTo install, run the following command.```bash$ pip install python-deco```# :package: Modules- **Info**: Decorators that provide information about the function.- **Debug**: Decorators that help debug the function.- **CLI**: Decorators that uses variables defined in a [yaml/json] file as function arugments.- **Fun**: Decorators just for FUN!# :books: UsageA quick usage example.@timeit```pythonfrom pyDeco.dev import inactivefrom pyDeco.time import timeit@timeitdef func():    # do something    return 1``````bash2023-02-17 00:05:09,721 [INFO ] Function func() took 2.0120s.```# :construction: TODO- [ ] Update docs- [ ] Refactor code- [ ] Flowchart Module## creditshttps://bytepawn.com/python-decorators-for-data-scientists.html</longdescription>
+</pkgmetadata>

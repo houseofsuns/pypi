@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>JOSE protocol implementation in Python using cryptography.. image:: https://github.com/certbot/josepy/actions/workflows/check.yaml/badge.svg  :target: https://github.com/certbot/josepy/actions/workflows/check.yaml.. image:: https://codecov.io/gh/certbot/josepy/branch/master/graph/badge.svg  :target: https://codecov.io/gh/certbot/josepy.. image:: https://readthedocs.org/projects/josepy/badge/?version=latest  :target: http://josepy.readthedocs.io/en/latest/?badge=latestOriginally developed as part of the ACME_ protocol implementation... _ACME: https://pypi.python.org/pypi/acme</longdescription>
+</pkgmetadata>

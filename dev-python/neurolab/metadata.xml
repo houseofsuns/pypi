@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Neurolab is a simple and powerful Neural Network Library for Python.Contains based neural networks, train algorithms and flexible frameworkto create and explore other neural network types.:Features:    - Pure python + numpy    - API like Neural Network Toolbox (NNT) from MATLAB    - Interface to use train algorithms form scipy.optimize    - Flexible network configurations and learning algorithms. You may change: train, error, initialization and activation functions    - Unlimited number of neural layers and number of neurons in layers    - Variety of supported types of Artificial Neural Network and learning algorithms:Example:&gt;&gt;&gt; import numpy as np&gt;&gt;&gt; import neurolab as nl&gt;&gt;&gt; # Create train samples&gt;&gt;&gt; input = np.random.uniform(-0.5, 0.5, (10, 2))&gt;&gt;&gt; target = (input[:, 0] + input[:, 1]).reshape(10, 1)&gt;&gt;&gt; # Create network with 2 inputs, 5 neurons in input layer and 1 in output layer&gt;&gt;&gt; net = nl.net.newff([[-0.5, 0.5], [-0.5, 0.5]], [5, 1])&gt;&gt;&gt; # Train process&gt;&gt;&gt; err = net.train(input, target, show=15)Epoch: 15; Error: 0.150308402918;Epoch: 30; Error: 0.072265865089;Epoch: 45; Error: 0.016931355131;The goal of learning is reached&gt;&gt;&gt; # Test&gt;&gt;&gt; net.sim([[0.2, 0.1]]) # 0.2 + 0.1array([[ 0.28757596]]):Links:    - `Home Page &lt;http://code.google.com/p/neurolab/&gt;`_    - `PyPI Page &lt;http://pypi.python.org/pypi/neurolab&gt;`_    - `Documentation &lt;http://packages.python.org/neurolab/&gt;`_    - `Examples &lt;http://packages.python.org/neurolab/example.html&gt;`_</longdescription>
+</pkgmetadata>

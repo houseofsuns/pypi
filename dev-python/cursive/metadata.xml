@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>===============================cursive===============================Cursive implements OpenStack-specific validation of digital signatures.As OpenStack continues to mature, robust security controls become increasinglycritical. The cursive project contains code extracted from various OpenStackprojects for verifying digital signatures. Additional capabilities will beadded to this project in support of various security features.* Free software: Apache license* Source: https://opendev.org/x/cursive* Bugs: http://bugs.launchpad.net/cursiveFeatures--------* TODO</longdescription>
+</pkgmetadata>

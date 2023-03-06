@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![pypi](https://img.shields.io/pypi/v/pytest-eradicate.svg)](https://pypi.python.org/pypi/pytest-eradicate/)pytest-eradicate===============================================================[Pytest](http://pytest.org/) plugin for detecting commented out code in python files.Changes-------- **0.0.5** added compatability for Pytest 5.4 and higher- **0.0.4** made eradicate 1.0 compatible, added `--agressive` (thanks to @avallbona)Usage---------install via::    pip install pytest-eradicateif you then type::    pytest --eradicateevery file ending in ``.py`` will be discovered and checkedfor commented out code.There is also the option::    pytest --eradicate --aggressivemake more aggressive changes. This may result in false positives.Added in order to update to the last version of eradicate like it seems to be the default mode.Eradicate---------Eradicate is a tool to detect commented out code in Python files.[Eradicate Github](https://github.com/myint/eradicate)As the developer states commented out code has no place in your repository.Besides that, commented out code is often an indicator for debug statements left behind orcode moved out of the way during development.</longdescription>
+</pkgmetadata>

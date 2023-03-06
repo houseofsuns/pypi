@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pytest-pretty-terminalThis [pytest](http://pytest.org) plugin makes the terminal output prettier and more verbose. Beside a bit formatting you will see the doc string and the parametrization of a test case printed to the terminal. Live logging is enabled by default.## System requirementsDefining the system requirements with exact versions typically is difficult. But there is a tested environment:* Linux* Python 3.8.12* pip 21.2.4* pytest 5.2.0Other versions and even other operating systems might work. Feel free to tell us about your experience.## VersioningIn our versioning we follow [Semantic Versioning](https://semver.org/).## Installing for usageThe Python Package Index takes care for you. Just use pip.```bashpython -m pip install pytest-pretty-terminal```## Installing for developmentFirst, you need to get the sources.```bashgit clone git@github.com:devolo/pytest-pretty-terminal.git```Then you need to take care of the requirements.```bashcd pytest-pretty-terminalpython setup.py install```## UsageTo activate the pretty output, you have to start pytest with the pretty option. Otherwise, the plugin is skipped.```bashpytest --pretty```## Compatibility with other pytest pluginsThis plugin should not interfere with other plugins. In case of using [pytest-xdist](https://github.com/pytest-dev/pytest-xdist), you will lose live logging, as xdist uses stdin/stdout for communicating with its workers.</longdescription>
+</pkgmetadata>

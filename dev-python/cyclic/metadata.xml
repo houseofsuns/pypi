@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![Build Status](https://travis-ci.org/neurobin/cyclic.svg?branch=release)](https://travis-ci.org/neurobin/cyclic)Handle cyclic relation compared by value.# InstallInstall from Pypi:```bashpip install cyclic```# Usage```pythonfrom cyclic import Cycliccy = Cyclic()# Let's say A is a prent of Bcy.add(B, A)# B is a parent of Ccy.add(C, B)# C is a parent of A (cyclic)cy.add(A, C)# let's see if C is in any kind of cyclic relationprint(cy.is_cyclic(C)) # True```</longdescription>
+</pkgmetadata>

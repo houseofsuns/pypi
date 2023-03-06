@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>========================Team and repository tags========================.. image:: https://governance.openstack.org/tc/badges/sahara-image-elements.svg    :target: https://governance.openstack.org/tc/reference/tags/index.html.. Change things from this point onSahara image elements project==============================This repo is a place for Sahara-related for diskimage-builder elements.Script for creating Fedora and Ubuntu cloud images with our elements and default parameters. You should only need to run this command:.. sourcecode:: bash    tox -e venv -- sahara-image-createNote: More information about script `diskimage-create &lt;https://opendev.org/openstack/sahara-image-elements/src/branch/master/diskimage-create/README.rst&gt;`_</longdescription>
+</pkgmetadata>

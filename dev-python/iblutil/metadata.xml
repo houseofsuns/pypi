@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># iblutil![CI workflow](https://github.com/int-brain-lab/iblrplate/actions/workflows/main.yaml/badge.svg?branch=main)[![Coverage Status](https://coveralls.io/repos/github/int-brain-lab/iblrplate/badge.svg?branch=main)](https://coveralls.io/github/int-brain-lab/iblrplate?branch=main)Small utilities with minimal dependencies, tests run on Python v3.8</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ciso[![Tests](https://github.com/ioos/ciso/actions/workflows/tests.yml/badge.svg)](https://github.com/ioos/ciso/actions/workflows/tests.yml)[![Wheels](https://github.com/ioos/ciso/actions/workflows/cibuildwheel.yml/badge.svg)](https://github.com/ioos/ciso/actions/workflows/cibuildwheel.yml)Fast cythonized code for iso-slices of ocean models properties.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># laundrify_aio`laundrify_aio` is a python package to communicate with the [laundrify](https://laundrify.de) API.It has primarily been developed for the Home Assistant integration.## Usage Example```pythonimport asynciofrom laundrify_aio import LaundrifyAPIasync def main():# Generate a new AuthCode in the laundrify App (`Smart-Home Integration -&gt; Home Assistant -&gt; Integration aktivieren`)auth_code = '123-456'# exchange your auth code for a long-lived access tokenaccess_token = await LaundrifyAPI.exchange_auth_code(auth_code)# initialize a new client with the previously obtained access tokenlaundrify_client = LaundrifyAPI(access_token)# get all machinesmachines = await laundrify_client.get_machines()if __name__ == &quot;__main__&quot;:loop = asyncio.get_event_loop()loop.run_until_complete(main())```## Development/BuildTo build and publish the package, run the following:```bash# Make a source distribution and a wheelpython3 setup.py sdist bdist_wheel# Make sure the long description will render correctlytwine check dist/*# (optional) upload to TestPyPItwine upload --repository-url https://test.pypi.org/legacy/ dist/*# upload to PyPItwine upload dist/*```</longdescription>
+</pkgmetadata>

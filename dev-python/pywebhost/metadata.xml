@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># PyWebHostPython-based All-in-One Webserver,Handles both `Websocket` and oridnary HTTP Requests## DemoThe included demo program,`demo.py`,serves as both a `Websocket` server and a HTTP File server.`usage:demo.py [address] [port]`## UsageYou got the demo,and that's pretty much enough lol</longdescription>
+</pkgmetadata>

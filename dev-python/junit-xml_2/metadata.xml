@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>python-junit-xml================Fork of https://github.com/kyrus/python-junit-xml to publish on pypi as tarball sohttps://github.com/Homebrew/homebrew-core/blob/master/Formula/semgrep.rb can rely on this as a pypi package</longdescription>
+</pkgmetadata>

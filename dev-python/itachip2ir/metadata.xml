@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>==========itachip2ir==========.. image:: https://travis-ci.org/thehappydinoa/itachip2ir.svg?branch=master    :target: https://travis-ci.org/thehappydinoa/itachip2irA small module for interacting with the Global Caché iTach WF2IR or IP2IR==========How To Use==========.. code-block:: python  from itachip2ir import VirtualDevice, iTach  commands = {    &quot;toggle_power&quot;: &quot;sendir,1:3,1,40192,1,1,97,23,49,23,25,23,49,23,25,23,49,23,25,23,25,23,25,23,49,23,25,23,49,23,49,23,25,23,49,23,25,23,25,23,25,23,49,23,49,23,49,529,96,23,49,23,25,23,49,23,25,23,49,23,25,23,25,23,25,23,49,23,25,23,49,23,49,23,25,23,49,23,25,23,25,23,25,23,49,23,49,23,49,528,96,23,49,23,25,23,49,23,25,23,49,23,25,23,25,23,25,23,49,23,25,23,49,23,49,23,25,23,49,23,25,23,25,23,25,23,49,23,49,23,49,553,97,23,49,23,25,23,49,23,25,23,49,23,25,23,25,23,25,23,49,23,25,23,49,23,49,23,25,23,49,23,25,23,25,23,25,23,49,23,49,23,49,554,97,23,49,23,25,23,49,23,25,23,49,23,25,23,25,23,25,23,49,23,25,23,49,23,49,23,25,23,49,23,25,23,25,23,25,23,49,23,49,23,49,554,97,23,49,23,25,23,49,23,25,23,49,23,25,23,25,23,25,23,49,23,25,23,49,23,49,23,25,23,49,23,25,23,25,23,25,23,49,23,49,23,49,554,97,23,49,23,25,23,49,23,25,23,49,23,25,23,25,23,25,23,49,23,25,23,49,23,49,23,25,23,49,23,25,23,25,23,25,23,49,23,49,23,49,4000&quot;  }  itach = iTach(ipaddress=&quot;192.168.1.111&quot;, port=4998)  blueray = itach.add(VirtualDevice(    name=&quot;blueray&quot;, commands=commands))  if __name__ == &quot;__main__&quot;:    print(blueray.toggle_power())Check the ``examples/`` folder for more`The source for this project is available here&lt;https://github.com/thehappydinoa/itachip2ir&gt;`_.</longdescription>
+</pkgmetadata>

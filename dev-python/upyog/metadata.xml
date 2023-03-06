@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This package is a collection of utilities that I find myself using across the various projects I've worked on in the past. Some have been extracted from packages, some from blog posts / stack overflow solutions, and some my own. Wherever possible, I have cited the source. Please do let me know if I missed outEnable math like operations for joining PIL Images```pythonfrom upyog.image import *img1 = Image.open(...)img2 = Image.open(...)horizontal_join = img1 | img2vertical_join = img1 // img2```To do this over a list of images, use:```img_join_horizontal(img_list)img_join_vertical(img_list)```</longdescription>
+</pkgmetadata>

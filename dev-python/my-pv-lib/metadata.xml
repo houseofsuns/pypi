@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Introduction The my-pv-lib Python package provides easy useage of products from my-pv GmbH in python projects.# Installation`pip install my-pv-lib`# UsageThe Python package basicaly provides the following functionalities:- Device implementations for access device data and settings in own projects like for example home automation solutions.- Connecting Devices to Cloud Services- Additional Tools## DevicesA device will handle connections to a real device and provides access to settings and data in an easy to use way.All devices provide acces to data via so called channels. Which channels are provided is depending on the specific device and it's functionalities an is descriped in the device description. Channels can be read-only, write-only or read-and-write depending on the devices capabilities. Using a channel in a wrong direction will cause an exception.### Power Meter#### Channels- power: power measured in W#### ConstructorPowermeter(Serialnumber, [Hostname or IP Address of the device])`#### ExamplesGetting latest power value by reading the power channel``` device = Powermeter(&quot;1530638&quot;, None)device.readallregisters()power = device.getchannelvalue(&quot;power&quot;)print(&quot;Channel power: &quot; + str(power))```# ContributePlease report bug, feature requests or your own code to info@my-pv.com </longdescription>
+</pkgmetadata>

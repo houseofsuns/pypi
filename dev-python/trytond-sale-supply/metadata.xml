@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Sale Supply Module##################The Sale Supply module adds a &quot;supply on sale option&quot; to purchasable products.If checked, it will generate a purchase request for each sale line of thisproduct regardless of the stock levels. Once the purchased products arereceived they are assigned on the customer shipments.If the purchase is cancelled the sale goes back to the default supply method... warning::    If the shiment method is *On Invoice Paid*, the purchase request will be    created only when all the invoice lines are paid..</longdescription>
+</pkgmetadata>

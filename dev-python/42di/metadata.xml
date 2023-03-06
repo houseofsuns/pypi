@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># 42di Python SDK**42di is the python sdk for 42di.com****42di.com is a platform for data science.**## Install```bashpip install 42di```OR```bashpip install git+https://github.com/42di/python-sdk```## Put to / read from 42di```pythonimport di #42diimport pandas_datareader as pdrdi.TOKEN = &quot;&lt;YOUR_ACCESS_TOKEN&gt;&quot;df = pdr.get_data_fred('GDP')di.put(&quot;42di.cn/shellc/testing/my_dataset&quot;, df, create=True, update_schema=True)df = di.read(&quot;42di.cn/shellc/testing/my_dataset&quot;)print(df.head(100))```    </longdescription>
+</pkgmetadata>

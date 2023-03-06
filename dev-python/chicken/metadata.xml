@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>===============================chicken===============================.. image:: https://badge.fury.io/py/chicken.png    :target: http://badge.fury.io/py/chicken    .. image:: https://travis-ci.org/rgbkrk/chicken.png?branch=master        :target: https://travis-ci.org/rgbkrk/chicken.. image:: https://pypip.in/d/chicken/badge.png        :target: https://crate.io/packages/chicken?version=latestThe Chicken came in the egg* Free software: BSD license* Documentation: http://chicken.rtfd.org.Features--------* TODOHistory-------0.1.0 (2014-01-11)++++++++++++++++++* First release on PyPI.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>py3rijndael===========.. image:: https://travis-ci.org/meyt/py3rijndael.svg?branch=master    :target: https://travis-ci.org/meyt/py3rijndael.. image:: https://coveralls.io/repos/github/meyt/py3rijndael/badge.svg?branch=master    :target: https://coveralls.io/github/meyt/py3rijndael?branch=master.. image:: https://img.shields.io/pypi/pyversions/py3rijndael.svg    :target: https://pypi.python.org/pypi/py3rijndaelRijndael algorithm library for Python3.Rijndael is the key algorithm of `AES &lt;https://en.wikipedia.org/wiki/Advanced_Encryption_Standard&gt;`_,and there is some of implementations already exist:- `pycrypto &lt;https://github.com/dlitz/pycrypto&gt;`_: Very old and not written in python.- `pycryptodome &lt;https://github.com/Legrandin/pycryptodome&gt;`_: In road of ``pycrypto`` but alive.- `python-cryptoplus &lt;https://github.com/doegox/python-cryptoplus&gt;`_:  Tested and works fine. but, not in Python 3, also depend on ``pycrypto``.- `RijndaelPbkdf &lt;https://github.com/dsoprea/RijndaelPbkdf&gt;`_:  Tested and works fine. but, old PyPi release and not active (i have no time to wait for maintainer).- https://gist.github.com/jeetsukumaran/1291836 : The gist i borrowed initial source.Installation------------.. code:: bash    pip install py3rijndaelUsage-----Follow the tests.</longdescription>
+</pkgmetadata>

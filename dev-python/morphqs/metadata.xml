@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Morpheus Quickshots - README## What is this?This is a collection of Morpheus use cases that can be deployed for POCs and demos. Each use case is a self-contained that can be deployed in a few minutes.</longdescription>
+</pkgmetadata>

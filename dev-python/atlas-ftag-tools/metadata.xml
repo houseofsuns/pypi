@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ATLAS FTAG Python ToolsThis is a collection of Python tools for working with files produced with the FTAG [ntuple dumper](https://gitlab.cern.ch/atlas-flavor-tagging-tools/training-dataset-dumper/).The code is intended to be used a [library](https://iscinumpy.dev/post/app-vs-library/) for other projects.Please see the [example notebook](ftag/example.ipynb) for usage.## InstallationTo install the package you can install from pip using the [release on pypi](https://pypi.org/project/atlas-ftag-tools/) via```bashpip install atlas-ftag-tools```or you can clone the repository and install in editable mode with```bashpython -m pip install -e .```To install optional development dependencies (for formatting and linting) you can instead install with either from pip```bashpip install atlas-ftag-tools[dev]```or from source```bashpython -m pip install -e &quot;.[dev]&quot;```## Create virtual fileThis package contains a script to easily merge a set of H5 files.A virtual file is a fast and lightweight way to wrap a set of files.See the [h5py documentation](https://docs.h5py.org/en/stable/vds.html) for more information on virtual datasets.The script is `vds.py` and can be run after installing this package with```vds &lt;pattern&gt; &lt;output path&gt;```</longdescription>
+</pkgmetadata>

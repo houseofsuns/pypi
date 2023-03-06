@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>A full stack framework that let's you drag-&amp;-drop components to build apps.The backend of these apps can be very easily built using Python.It (semi-)automates many things out of the box such as CDN caching, browser caching etc.</longdescription>
+</pkgmetadata>

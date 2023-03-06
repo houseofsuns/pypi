@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># isyflask-cliUn cli para manejar proyectos de API con flask.&gt; Se recomienda la instalación de docker para tener las últimas mejoras y actualizaciones. Algunas características sólo están con dockerSe recomienda utilizar el módulo *virtualenv* para los proyectos generadosPara _windows_:````commandlinepython -m venv venv./venv/Scripts/activate````Para _macOS_ o _linux_:````commandlinepython -m venv venvsource ./venv/Scripts/activate````## InstalacionPara instalar el CLI ejecute el siguiente comando```python -m pip install --upgrade pip```````commandlinepip install isyflask-cli````Para iniciar un proyecto ejecute el siguiente comando y responda las preguntas que salgan en el prompt:````commandlineisyflask-cli project initcd &lt;folder project name&gt;pip install -r requirements.txt````Cambie el directorio al generado en el paso anterior. Utilizando *Docker*, el proyecto se levanta utilizando el siguiente comando:````commandlinedocker-compose up````Si no utiliza docker, necesitará ejecutar lo siguiente:_Windows_:```python -m venv venvsource ./venv/Scripts/activateset FLASK_APP=apiset FLASK_RUN_HOST=0.0.0.0set FLASK_ENV=development flask db migrateflask db upgradeflask run --host=0.0.0.0```_Mac_ o _Linux_:```python -m venv venv./venv/Scripts/activateexport FLASK_APP=apiexport FLASK_RUN_HOST=0.0.0.0export FLASK_ENV=developmentflask db migrateflask db upgradeflask run --host=0.0.0.0```</longdescription>
+</pkgmetadata>

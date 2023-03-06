@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![Coverage Status](https://coveralls.io/repos/github/moj-analytical-services/dataengineeringutils3/badge.svg?branch=master)](https://coveralls.io/github/moj-analytical-services/dataengineeringutils3?branch=master)# Data engineering utils - Python 3Fully unit tested utility functions for data engineering. Python 3 only.  ## Installation```bashpip install dataengineeringutils3```## Testing```bashpytest --cov-report term-missing --cov=dataengineeringutils3 tests/```</longdescription>
+</pkgmetadata>

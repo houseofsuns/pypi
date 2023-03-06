@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This is a Python package to interface with an Insteon Modem. It has beentested to work with most USB or RS-232 serial based devices such as the`2413U &lt;https://www.insteon.com/powerlinc-modem-usb&gt;`__,`2412S &lt;https://www.insteon.com/powerlinc-modem-serial&gt;`__,`2448A7 &lt;http://www.insteon.com/usb-wireless-adapter&gt;`__ and Hub models`2242 &lt;https://www.insteon.com/support-knowledgebase/2014/9/26/insteon-hub-owners-manual&gt;`__and `2245 &lt;https://www.insteon.com/insteon-hub/&gt;`__. Other models havenot been tested but the underlying protocol has not changed much overtime so it would not be surprising if it worked with a number of othermodels. If you find success with something, please let us know.This **pyinsteon** package was created primarily to support an INSTEONplatform for the `Home Assistant &lt;https://home-assistant.io/&gt;`__automation platform but it is structured to be general-purpose andshould be usable for other applications as well.Requirements-------------  Python 3.8, 3.9, 3.10 or 3.11-  Posix or Windows based system-  Some form of Insteon PLM or Hub-  At least one Insteon deviceInstallation------------You can, of course, just install the most recent release of this packageusing ``pip``. This will download the more recent version from`PyPI &lt;https://pypi.python.org/pypi/pyinsteon&gt;`__ and install it toyour host.::    pip install pyinsteonIf you want to grab the the development code, you can also clone thisgit repository and install from local sources:::    cd pyinsteon    pip install .</longdescription>
+</pkgmetadata>

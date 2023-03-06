@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Install```bashpip install githubdata```# Quick Start```pythonimport githubdata as gdgithub_url = 'https://github.com/imahdimir/d-TSETMC_ID-2-FirmTicker'df = gd.get_data_from_github(github_url)```- That is easy as that!</longdescription>
+</pkgmetadata>

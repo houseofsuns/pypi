@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>![liftover](https://github.com/jeremymcrae/liftover/workflows/liftover/badge.svg)### python liftover utilityConverts point coordinates between genome assemblies.Inspired by [pyliftover](https://github.com/konstantint/pyliftover), thisoffers a few advantages: - ~5X faster, and lower memory requirements, as loading the chain file and   converting coordinates is implemented in c++. - dictionary style conversion, as in access converted coordinates via   `converter[chrom][pos]`### InstallationInstall via pip: `pip install liftover`### Usage```pythonfrom liftover import get_lifterconverter = get_lifter('hg19', 'hg38')chrom = '1'pos = 103786442converter[chrom][pos]# other synonyms for the lift callconverter.convert_coordinate(chrom, pos)converter.query(chrom, pos)# alternatively create a converter directly from a chainfilefrom liftover import ChainFileconverter = ChainFile('/home/user/hg18ToHg38.over.chain.gz', 'hg18', 'hg38')converter[chrom][pos]```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>### Install````pip3 install cloud-storage-client````### Deploy````python3 setup.py sdisttwine upload dist/*````### Example usage````from cloud_storage_client import storageimport osstorageClient = storage.StorageClient(    os.environ['STORAGE_PROVIDER'], # GOOGLE_CLOUD_STORAGE = 'GCS', AMAZON_S3 = 'S3', AZURE_BLOB_STORAGE = 'ABS'    os.environ['STORAGE_BUCKET_NAME'],    os.getenv('STORAGE_ACCESS_KEY'),    os.getenv('STORAGE_SECRET_KEY'))# Delete single filestorageClient.delete_file('path/file.py')# Delete a virtual folderstorageClient.delete_folder('path')# Download a folderstorageClient.download_folder('folder_destination_name', '/Users/user/Downloads')# Upload a local filestorageClient.upload_file('/Users/user/Documents/my-file.yaml', 'my-file.yaml')# Download single filestorageClient.download_file('virtual_path', 'file.py', '/Users/user/Documents')# Upload a folderstorageClient.upload_folder('folder_destination_name', '/Users/user/Documents', do_tar=False, do_compress=False)# Upload local filesstorageClient.upload_files('folder_destination_name', ['file01.py', 'file02.py'], '/Users/user/Documents', do_tar=False, do_compress=False)# List remote files over a virtual path / directorystorageClient.list_files_folder('folder_destination_name')````</longdescription>
+</pkgmetadata>

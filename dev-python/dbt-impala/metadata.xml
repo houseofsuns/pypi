@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># dbt-impalaThe `dbt-impala` adapter allows you to use [dbt](https://www.getdbt.com/) along with [Apache Impala](https://impala.apache.org/) and [Cloudera Data Platform](https://cloudera.com)## Getting started- [Install dbt](https://docs.getdbt.com/docs/installation)- Read the [introduction](https://docs.getdbt.com/docs/introduction/) and [viewpoint](https://docs.getdbt.com/docs/about/viewpoint/)### RequirementsPython &gt;= 3.8dbt-core ~= 1.3.0impyla &gt;= 0.18python-decouple &gt;= 3.6### Installing dbt-impala`pip install dbt-impala`### Profile Setup```demo_project:  target: dev  outputs:    dev:     type: impala     host: impala-coordinator.my.org.com     port: 443     dbname: my_db     schema: my_db     user: my_user     password: my_pass     auth_type: ldap     http_path: cliservice```## Supported features| Name | Supported ||------|-----------||Materialization: Table|Yes||Materialization: View|Yes||Materialization: Incremental - Append|Yes||Materialization: Incremental - Insert+Overwrite|Yes||Materialization: Incremental - Merge|No||Materialization: Ephemeral|No||Seeds|Yes||Tests|Yes||Snapshots|Yes||Documentation|Yes||Authentication: LDAP|Yes||Authentication: Kerberos|Yes|</longdescription>
+</pkgmetadata>

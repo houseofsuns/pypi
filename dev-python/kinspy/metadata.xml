@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Name: kinspy# Describes: provide convenient functions and constants# Version: v1.0.10# Date: 2021-12-16# Author: Yunxiao Zhang# E-mail: yunxiao9277@gmail.com</longdescription>
+</pkgmetadata>

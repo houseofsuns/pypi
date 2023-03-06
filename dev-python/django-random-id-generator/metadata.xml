@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>django-random-id-generator==========================What is it?===========django-random-id-generator is a simple Django app to Generate Random and Unique IDs for Django model objects with custom save methodInstallation============You can get ``django-random-id-generator`` by :- Download or git clone `&lt;https://github.com/frankovo/django-random-id-generator.git&gt;`_Usage=====1. Add ``random_id`` to your INSTALLED_APPS setting like this::       INSTALLED_APPS = [           # Django default apps            ...           'random_id',       ]2. Run ``python manage.py makemigrations random_id``3. Run ``python manage.py migrate``4. Run ``python manage.py createsuperuser``5. Run ``python manage.py runserver``6. Go to `&lt;http://127.0.0.1:8000/admin/&gt;`_Requirements============`Django==2.0.3`Note===========Django==2.0.3 requires Python 3.4, 3.5, 3.6</longdescription>
+</pkgmetadata>

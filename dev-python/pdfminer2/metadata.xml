@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Maintained fork of PDFMiner using six for Python 2+3 compatibilityPDFMiner is a tool for extracting information from PDF documents.Unlike other PDF-related tools, it focuses entirely on gettingand analyzing text data. PDFMiner allows to obtainthe exact location of texts in a page, as well asother information such as fonts or lines.It includes a PDF converter that can transform PDF filesinto other text formats (such as HTML). It has an extensiblePDF parser that can be used for other purposes instead of text analysis.</longdescription>
+</pkgmetadata>

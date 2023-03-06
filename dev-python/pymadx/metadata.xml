@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>#pymadx#A python package containing both utilities for processing and analysing MADX output.## Authors ##L. NevayS. BoogertS. WalkerA. AbramovW. ShieldsJ. Snuverink## Setup ##pip install pymadxOr from source, from the main directory:$ make installor for development where the local copy of the repository is usedand can be reloaded with local changes:$ make developLook in the Makefile for the various pip commands (e.g. for with a venv).```$&gt; python&gt;&gt;&gt; import pymadx&gt;&gt;&gt; t = pymadx.Data.Tfs(&quot;twiss.tfs&quot;)```## Dependencies ## * matplotlib * numpy * pytransport (optional)</longdescription>
+</pkgmetadata>

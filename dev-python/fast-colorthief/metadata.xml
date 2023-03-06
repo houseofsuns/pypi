@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Fast colorthiefA Python module for selecting most dominant colors in the image. Based on https://github.com/fengsp/color-thief-py but faster.## InstallationLinux, MacOS 10.15 or newer:```pip install fast_colorthief```Other operating systems (CMake required):```git clone https://github.com/bedapisl/fast-colorthiefcd fast-colorthiefpip3 install .```## Example```import fast_colorthiefimage_path = 'image.jpg'dominant_color = fast_colorthief.get_dominant_color(image_path)color_palette = fast_colorthief.get_palette(image_path)```## Benchmark1200 x 1200 jpg image| Algorithm | Time per image || ----------| -------------- || Fast colorthief (input numpy array) | 0.0012s || Fast colorthief (input filename) | 0.034s | | Reference (https://github.com/fengsp/color-thief-py) (input filename) | 0.509s |## How does it workBackend is written in C++ for better performance.Uses Modified Median Cut Quantization algorithm.</longdescription>
+</pkgmetadata>

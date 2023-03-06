@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![Build Status](https://travis-ci.org/DanielJDufour/date-extractor.svg?branch=master)](https://travis-ci.org/DanielJDufour/date-extractor)[![Requirements Status](https://requires.io/github/DanielJDufour/date-extractor/requirements.svg?branch=master)](https://requires.io/github/DanielJDufour/date-extractor/requirements/?branch=master)[![Hex.pm](https://img.shields.io/hexpm/l/plug.svg?maxAge=2592000?style=plastic)]()# date-extractordate-extractor helps you extract dates from text# Installation```pip3 install date-extractor```# Use```pythonfrom date_extractor import extract_datestext = &quot;I arrived in that city on January 4, 1937&quot;dates = extract_dates(text)# [datetime.datetime(1937, 1, 4, 0, 0, tzinfo=&lt;UTC&gt;)]```Date extractor also works on dates with hours, minutes and seconds:```pythonfrom date_extractor import extract_datedate = extract_date(&quot;2018-06-07 16:31:54&quot;)# datetime.datetime(2018, 6, 7, 16, 31, 54, tzinfo=&lt;UTC&gt;)```# Returning Precision```pythonfrom date_extractor import extract_datetext = &quot;I arrived in that city in 1937&quot;date, precision = extract_date(text, return_precision=True)# precision = 'year'```# Features| Languages Supported || ------------------- || Arabic || Chinese (incl. Taiwan) || English || French || Sorani (Kurdish) || Turkish |# TestingTo test the package run```python3 -m unittest date_extractor.tests.test```# SupportContact Daniel Dufour at daniel.j.dufour@gmail.com</longdescription>
+</pkgmetadata>

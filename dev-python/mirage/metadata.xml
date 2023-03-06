@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>A tool to create simulated NIRCam, NIRISS,and FGS exposuresusing an input dark current exposure and anoiseless seed image, which can be producedfrom source catalogs. Data can optionally bedispersed as well, to simulate wide fieldslitless data files.</longdescription>
+</pkgmetadata>

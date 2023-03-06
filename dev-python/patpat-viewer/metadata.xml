@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># *Patpat-viewer*A viewer for *[Patpat](https://github.com/henry-leo/Patpat)*## InstallationInstall Patpat-viewer by PyPI```commandlinepip install patpat-viewer```## UsageAfter installation, running the FLASK server will enter **the sample environment**.As different systems have different methods for setting environment variables, operations may vary:**Windows:**```cmd&gt; set FLASK_APP=patpat_viewer&gt; set FLASK_ENV=production&gt; flask run```**Linux:**```CIL$ export FLASK_APP=patpat_viewer$ export FLASK_ENV=production$ flask run```Before starting the server, specify the **answers of [Patpat](https://github.com/henry-leo/Patpat)** `patpat_env`by changing the environment variables:**Windows:**```cmd...&gt; set PATPAT_ENV=&lt;Absolute path of patpat_env&gt;&gt; flask run```**Linux:**```CIL...$ export PATPAT_ENV=&lt;Absolute path of patpat_env&gt;$ flask run```### Example in WindowsWe recommend using conda to manage environments. A clean environment makes me feel comfortable and can also prevent hair loss.```cmd(base)&gt; conda create --name=patpat python=3.10...(base)&gt; conda activate patpat(patpat)&gt; pip install patpat-viewer...(patpat)&gt; set FLASK_APP=patpat_viewer(patpat)&gt; set FLASK_ENV=production(patpat)&gt; set PATPAT_ENV=D:\patpat_env(patpat)&gt; flask run```</longdescription>
+</pkgmetadata>

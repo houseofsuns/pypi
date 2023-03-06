@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ae_literal module 0.3.34ae_literal is a Python multi-platform module project based on the [__Kivy__ Framework](https://kivy.org) and some portions of the [__ae__ namespace(Application Environment)](https://ae.readthedocs.io &quot;ae on rtd&quot;).the source code is available at [Gitlab](https://gitlab.com/ae-group/ae_literal) maintained by the user group ae-group.additional credits to:* [__Erokia__](https://freesound.org/people/Erokia/) and   [__plasterbrain__](https://freesound.org/people/plasterbrain/) at  [freesound.org](https://freesound.org) for the sounds.* [__iconmonstr__](https://iconmonstr.com/interface/) and  [__Google__](https://fonts.google.com/icons?icon.set=Material+Symbols) for the icon images.</longdescription>
+</pkgmetadata>

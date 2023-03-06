@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># genpypressThis library contains several code generator helpers. It is connected to the `press` code generator.This package will only run on Windows (submodule `table` uses external binary as dependency, the binary only exists for Windows).## Usage### Command line application- `ph --help` - zobrazí nápovědu- `ph apatch` - provede patch TPT skriptů pro asynchronní stage- `ph cc` - připraví SQL a/nebo BTEQ skripty tabulek na podmíněné nasazení### Markdown (mapping) parser```pythonfrom pathlib import Pathfrom genpypress import mapping# import a file in markdown formatfile = Path(&quot;TGT_ACCS_METH_RLTD_906_900_915_AMR_NIC_PCR_2_M2C.md&quot;, encoding=&quot;utf-8&quot;)map = mapping.from_markdown(file.read_text(encoding=&quot;utf-8&quot;))# access table mapping propertyprint(&quot;Type of historization:&quot;, map.etl_historization)# access a column mapping property (case insensitive)print(&quot;hist_type =&quot;, map[&quot;hist_type&quot;].transformation_rule)# nonexisting column will - of course - blow the code uptry:    print(map[&quot;not available&quot;])except KeyError as err:    print(f&quot;error: {err}&quot;)```### Table parser```from genpypress import tablefilename = &quot;ddl_script.sql&quot;data = table.from_file(filename)t = data[0]# access to table properties and/or columnsprint(&quot;table name&quot;, t.name)print(&quot;first column&quot;, t[0])print(&quot;column by name&quot;, t[&quot;column_name&quot;])# deletion of columns by name and/or indexdel t[&quot;another_column&quot;]del t[O]```</longdescription>
+</pkgmetadata>

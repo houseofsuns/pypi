@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## Python interface to the Apache Arrow-based Feather File FormatFeather efficiently stores pandas DataFrame objects on disk. It depends on theApache Arrow for Python## Installing```shellpip install feather-format```pip users note: ``feather-format`` depends on ``pyarrow`` and may not beavailable on your platform via pip. If that does not work try conda-forge.From [conda-forge][1]:```shellconda install feather-format -c conda-forge```## LimitationsSome features of pandas are not supported in Feather:* Non-string column names* Row indexes* Object-type columns with non-homogeneous data[1]: https://conda-forge.github.io</longdescription>
+</pkgmetadata>

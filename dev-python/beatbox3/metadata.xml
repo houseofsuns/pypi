@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Beatbox is a minimal dependency python library for accessing the salesforce.com web services API.  Beatbox3 is meant to be the python3 compatible fork.Its primary dependency is on xmltramp2, a xml parser library that exposes access to the xml document in an easy to use manner.Beatbox is released under the GPL v2.http://www.pocketsoap.com/beatbox/</longdescription>
+</pkgmetadata>

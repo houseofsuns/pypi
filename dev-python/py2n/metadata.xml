@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Py2NAsynchronous library to control [2N Telekomunikace® devices](https://www.2n.com)**This library is under development**## Requirements- Python &gt;= 3.9- aiohttp## Install```bashpip install py2n```## Example```pythonfrom py2n import Py2NDevice, Py2NConnectionDataimport asyncioimport aiohttpasync def main():    &quot;&quot;&quot;Run with aiohttp ClientSession.&quot;&quot;&quot;    async with aiohttp.ClientSession() as session:        await run(session)async def run(websession):    &quot;&quot;&quot;Use library.&quot;&quot;&quot;    device = await Py2NDevice.create(        websession,        Py2NConnectionData(            ip_address=&quot;192.168.1.69&quot;,            username=&quot;username&quot;,            password=&quot;password&quot;,        ),    )    await device.restart()asyncio.run(main())```</longdescription>
+</pkgmetadata>

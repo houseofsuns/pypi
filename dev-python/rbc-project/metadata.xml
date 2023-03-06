@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>The aim of the Remote Backend Compiler project is to distribute thetasks of a program JIT compilation process to separate computersystems using the client-server model. The frontend of the compilerruns on the client computer and the backend runs on the servercomputer. The compiler frontend will send the program code to compilerbackend in IR form where it will be compiled to machine code.</longdescription>
+</pkgmetadata>

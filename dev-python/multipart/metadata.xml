@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Parser for multipart/form-data==============================This module provides a parser for the multipart/form-data format. It can readfrom a file, a socket or a WSGI environment. The parser can be used to replacecgi.FieldStorage to work around its limitations.</longdescription>
+</pkgmetadata>

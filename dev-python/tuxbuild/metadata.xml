@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>tuxbuild is deprecated in favor of[tuxsuite](https://pypi.org/project/tuxsuite/). This package is provided asshim for tuxsuite, and is intended for backwards compatibility. You shouldmigrate to tuxsuite and uninstall this package.</longdescription>
+</pkgmetadata>

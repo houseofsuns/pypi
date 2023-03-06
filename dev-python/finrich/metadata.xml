@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># finrichCalculate enrichment of genomic regions with fine-mapping signals## Installation```shpip3 install finrich```or```shpip3 install --user finrich```## Example```finrich --helpfinrich finemap.bed regions.bed background.bed --permutations 1000 --processes 2```</longdescription>
+</pkgmetadata>

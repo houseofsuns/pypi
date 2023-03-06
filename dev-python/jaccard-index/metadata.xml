@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># jaccard_indexJaccard Index ComputationThis package provides computation Jaccard Index based on n-grams for strings. This can be used as a metric for computing similarity between two strings e.g. Indentity resolution## InstallationInstall using pip:```#  pip install jaccard-index ```To install using the archive, unpack it and run:```# python setup.py install```## UsageA common use case is to compare strings for similarity:```&gt;&gt;&gt; from jaccard_index.jaccard import jaccard_index&gt;&gt;&gt; jaccard_index(&quot;abc&quot;,&quot;&quot;)0&gt;&gt;&gt; jaccard_index(&quot;accessary&quot;, &quot;accessory&quot;)0.6&gt;&gt;&gt; jaccard_index(&quot;coffee&quot;, &quot;coffee&quot;)1```</longdescription>
+</pkgmetadata>

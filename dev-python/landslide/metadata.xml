@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Landslide takes your Markdown, ReST, or Textile file(s) and generates fancyHTML5 slideshow like `this &lt;http://landslide.adamzap.com/&gt;`_.Read the `README &lt;http://github.com/adamzap/landslide/blob/master/README.md&gt;`_for formatting instructions and more information.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Supports logging events in WSGI applications toSTDOUT, time rotated log files, email, syslog, and web servers. Alsosupports catching and sending HTML-formatted exception tracebacks to aweb browser for debugging.Simple usage example::    from wsgilog import log    @log(tohtml=True, tofile='wsgi.log', tostream=True, toprint=True)    def app(environ, start_response):        print 'STDOUT is logged.'        environ['wsgilog.logger'].info('This information is logged.')        # Exception will be logged and sent to the browser formatted as HTML.        raise Exception()    if __name__ == '__main__':         from wsgiref.simple_server import make_server         http = make_server('', 8080, app)         http.serve_forever()</longdescription>
+</pkgmetadata>

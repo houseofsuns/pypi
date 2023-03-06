@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image:: https://img.shields.io/pypi/v/anitya_schema.svg  :target: https://pypi.org/project/anitya_schema/.. image:: https://readthedocs.org/projects/anitya-messages/badge/?version=latest  :alt: Documentation Status  :target: https://anitya-messages.readthedocs.io/en/latest/?badge=latestAnitya Message Schema=====================JSON schema definitions for messages published by`Anitya &lt;https://github.com/fedora-infra/anitya&gt;`_.Documentation for Anitya Message Schema could be found`here &lt;https://anitya-messages.readthedocs.io/en/latest&gt;`_.See http://json-schema.org/ for documentation on the schema format. Seehttps://fedora-messaging.readthedocs.io/en/latest/messages.html fordocumentation on fedora-messaging.</longdescription>
+</pkgmetadata>

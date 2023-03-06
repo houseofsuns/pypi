@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># isic-cli[![PyPI](https://img.shields.io/pypi/v/isic-cli)](https://pypi.org/project/isic-cli/)The official command line tool for interacting with the [ISIC Archive](https://isic-archive.com).## Quickstart``` shpip install isic-cli  # requires python &gt;= 3.9isic user login  # optional```## Common use cases### Downloading images``` shisic image download images/  # downloads the entire archive, images and metadata, to images/# optionally filter the resultsisic image download --search 'diagnosis:&quot;basal cell carcinoma&quot;' images/isic image download --search 'age_approx:[5 TO 25] AND sex:male' images/```### Downloading metadata``` shisic metadata download  # downloads the entire archive metadata to a csv# find a collection to filter byisic collection list  # grab the ID for the 2020 Challenge training set (70)isic metadata download --collections 70```</longdescription>
+</pkgmetadata>

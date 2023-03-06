@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Iron.io common library----------------------This package offers common functions for Iron.io APIs and services. It does not wrap any APIs or contain API-specific features, but serves as a common base that wrappersmay be built on. Users looking for API wrappers should instead look at iron_worker_python and iron_worker_mq.</longdescription>
+</pkgmetadata>

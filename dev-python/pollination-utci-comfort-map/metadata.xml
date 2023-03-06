@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># UTCI Comfort MapUTCI thermal comfort map recipe for Pollination.Compute spatially-resolved Universal Thermal Climate Index (UTCI) and heat/cold stressconditions an EPW and Honeybee model. Raw results are written into a `results/` folder andinclude CSV matrices of hourly UTCI temperatures, thermal conditions and heat stressclassifications. Processed metrics of Thermal Comfort Percent (TCP) can be foundin the `metrics/` folder.## MethodsThis recipe uses EnergyPlus to obtain longwave radiant temperatures and indoor airtemperatures. The outdoor air temperature and air speed are taken directly from the EPW.A Radiance-based enhanced 2-phase method is used for all shortwave MRT calculations,which includes an accurate direct sun calculation using precise solar positions. Theenergy properties of the model geometry are what determine the outcome of thesimulation and the model's SensorGrids are what determine where the comfortmapping occurs.To determine Thermal Comfort Percent (TCP), all hours of the outdoors are consideredoccupied. For any indoor sensor, the occupancy schedules of the energy model are used.Any hour of the occupancy schedule that is 0.1 or greater will be considered occupied.</longdescription>
+</pkgmetadata>

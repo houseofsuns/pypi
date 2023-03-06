@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># moneymoneyMoney package for Python[![PyPI](https://img.shields.io/pypi/v/moneymoney)](https://pypi.org/project/moneymoney/)[![GitHub release (latest by date)](https://img.shields.io/github/v/release/w0rmr1d3r/moneymoney)](https://github.com/w0rmr1d3r/moneymoney/releases)![PyPI - Python Version](https://img.shields.io/pypi/pyversions/moneymoney)[![PyPi downloads](https://img.shields.io/pypi/dm/moneymoney?label=PyPi%20downloads)](https://pypistats.org/packages/moneymoney)## Installation```bashpip install moneymoney```## Usage```pythonfrom moneymoney.currency_codes import CurrencyCodesfrom moneymoney.defaults import ONE_EURfrom moneymoney.money import Moneyfrom moneymoney.presets import EUR# using a string as currency codequantity = Money(amount=1000, currency_code=&quot;EUR&quot;)# using currency codes from this packagequantity_two = Money(amount=1000, currency_code=CurrencyCodes.EUR)# using defaultsmy_price = ONE_EUR# using presetsmy_euro = EUR(amount=1.0)```## ContributingPull requests are welcome. For major changes, please open an issue firstto discuss what you would like to change.Please make sure to update tests as appropriate.## SponsorsBecome a sponsor [here](https://github.com/sponsors/w0rmr1d3r)## License[GPLv3](LICENSE)</longdescription>
+</pkgmetadata>

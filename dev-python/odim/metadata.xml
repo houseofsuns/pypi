@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># odimSimple Python ORM/ODM specifically designed to be used with Pydantic and FastAPI## Simple syntaxIn order to nicely work with databases you just create your Pydantic models. Odim does not care if it is MongoDB or SQL.```python3from pydantic import BaseModelclass MyModel(BaseModel):    id : int    field : str    class Config:        db_uri = &quot;mongodb://user:pwd@10.0.0.1/db1&quot;        collection_name = &quot;mymodel&quot;```Then you can easily perform CRUD operations.```python3obj = MyModel(id=1, field=&quot;asdf 213&quot;)await Odim(obj).save()obj2 = await Odim(MyModel).get(123)for x in await Odim(MyModel).find({&quot;field&quot; : &quot;asdf 213&quot;}):  print(x)await Odim(MyModel).count({&quot;field&quot; : 1})```In case you are using amazin FastAPI. We have our extended router, that gives you CRUD API endpoint```python3from odim.router import OdimRouterrouter = OdimRouter()router.mount_crud(&quot;/api/mymodel/&quot;, model=MyModel, tags=[&quot;mymodel&quot;])```Or you can generate these API stubs with```python3router.generate(&quot;/api/mymodel/&quot;, model=MyModel, tags=[&quot;mymodel&quot;])```</longdescription>
+</pkgmetadata>

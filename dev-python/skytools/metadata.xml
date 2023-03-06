@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Skytools - Utilities for writing Python scripts===============================================This is the low-level utility module split out fromold Skytools meta-package.  It contains variousutilities for writing database scripts.Database specific utilites are mainly meant for PostgreSQL.Features--------* Support for background scripts  - Daemonizing  - logging  - config parsing* Database tools  - Tuned connection  - DB structure examining  - SQL parsing  - COPY I/O* Time utilities  - ISO timestamp parsing  - datetime to timestamp* Text utilities  - Natural sort  - Fast urlencode I/OTODO----* Move from optparse to argparse* Doc cleanup</longdescription>
+</pkgmetadata>

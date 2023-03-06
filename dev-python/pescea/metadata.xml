@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pescea - python interface to Escea fireplacesThis is a python interface to the [Escea range](https://escea.com/) of fireplaces.The specifications for the interface are contained in the [included pdf](./630260_3_Escea_Fireplace_LAN_Comms_Spec.pdf).Further information on the Escea controller's network communications can be found in [this pdf](./Escea_Controller_Network_Communications_Summary.pdf)Note: The above documents are copyright of Escea## UsageThis package is not a standalone application for end user implementation.The aim of this package is to be used by software developers and integrators to implementthe Escea interface on home automation platforms (principally Home Assistant )## CreditThe [pizone interface](https://github.com/Swamp-Ig/pizone) was used as a template andfor inspiration in developing this interface (which saved a lot of time, so thanks!)</longdescription>
+</pkgmetadata>

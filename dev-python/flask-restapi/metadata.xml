@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Flask-RESTAPI[![license](https://img.shields.io/github/license/jonarsli/flask-restapi.svg)](https://github.com/jonarsli/flask-restapi/blob/master/LICENSE)[![pypi](https://img.shields.io/pypi/v/flask-restapi.svg)](https://pypi.python.org/pypi/flask-restapi)[Flask-RESTAPI document](https://jonarsli.github.io/flask-restapi/)Flask-RESTAPI is an extension for Flask that is a database-agnostic framework library for creating REST APIs. It is a lightweight abstraction that works with your existing ORM/libraries.It use pydantic to validate and serialize data. OpenAPI document can be automatically generated through the python decorator and it supports swagger ui display.Pydantic are used to validate and serialize parameters. For details, please refer to the [pydantic documentation](https://pydantic-docs.helpmanual.io/).## Installation```bashpip install flask-restapi```## Example```pythonfrom flask import Flaskfrom flask.views import MethodViewfrom pydantic import BaseModelfrom flask_restapi import Api, RequestParametersTypeapp = Flask(__name__)api = Api(app)class UserGetSpec(BaseModel):    name: strclass UserResponseSpec(BaseModel):    id: int    name: strclass User(MethodView):    @api.query(UserGetSpec)    @api.response(UserResponseSpec)    def get(self, parameters: RequestParametersType):        &quot;&quot;&quot;Get a user name and id&quot;&quot;&quot;        user_name = parameters.query.name        return UserResponseSpec(id=1, name=user_name)app.add_url_rule(&quot;/user&quot;, view_func=User.as_view(&quot;user&quot;))```## Swagger API docsNow go to http://localhost:5000/docs![](docs/images/example.png)</longdescription>
+</pkgmetadata>

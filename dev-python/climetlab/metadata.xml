@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># CliMetLab[![PyPI version fury.io](https://badge.fury.io/py/climetlab.svg)](https://pypi.python.org/pypi/climetlab/)[![PyPI pyversions](https://img.shields.io/pypi/pyversions/climetlab.svg)](https://pypi.python.org/pypi/climetlab/)[![Build](https://github.com/ecmwf/climetlab/actions/workflows/long-test.yml/badge.svg)](https://github.com/ecmwf/climetlab/actions/workflows/long-test.yml)**CliMetLab** is a Python package aiming at simplifying access to climate and meteorological datasets, allowing users to focus on science instead oftechnical issues such as data access and data formats. It is mostly intended to be used in Jupyter notebooks, and be interoperable with all populardata analytic packages, such as Numpy, Pandas, Xarray, SciPy, Matplotlib, etc. as well as machine learning frameworks, such as Tensorflow, Keras or PyTorch.The documentation can be found at &lt;https://climetlab.readthedocs.io/&gt;.### PluginsSee https://climetlab.readthedocs.io/en/latest/guide/pluginlist.html.### License[Apache License 2.0](LICENSE) In applying this licence, ECMWF does not waive the privileges and immunities granted to it by virtue of its status as an intergovernmental organisation nor does it submit to any jurisdiction.</longdescription>
+</pkgmetadata>

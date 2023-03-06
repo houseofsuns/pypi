@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># jupyterlab-night[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/martinRenou/jupyterlab-night/main?urlpath=lab)JupyterLab dark theme inspired by the Github dark theme## Requirements* JupyterLab &gt;= 3.0## InstallTo install the extension, execute:```bashconda install jupyterlab-night -c conda-forge```or```bashpip install jupyterlab-night```![jupyterlab-night](jupyterlab-night.png)</longdescription>
+</pkgmetadata>

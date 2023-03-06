@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># News To Play## Index:    0. python version &gt;= 3.6    1. How to setup dev environment    2. How to use news2play package    3. How to deploy## How to setup dev/running environment##### Command for init dev/running environment```bashmake init```## How to use news2play package##### Command for install news2play from PyPI```bashpip3 install news2play```##### Command for run news2play after installation.```pythonimport news2playnews2play.app.run()```After the process finished, you can find the generated audios for news in ./storage/data##### Command for run Docker from DockerHub```bashmake docker_run```or:```bashdocker run -it -p 5000:5000 deep3/news2play```## How to deploy##### Command for deploy to PyPI```bashgit tag [major].[monor].[patch] [none/commit id]git push &amp; git push --tagsmake publish```##### Command for push to DockerHub, docker image will use news2play in PyPI```bashmkae docker_buildmake docker_push```or:```bashdocker build -t deep3/news2play:latest .docker push deep3/news2play:latest```## Backup```bashecho hello news2play``````pythonprint('hello news2play')``````javascript```</longdescription>
+</pkgmetadata>

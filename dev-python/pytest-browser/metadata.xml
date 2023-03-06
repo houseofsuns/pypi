@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pytest-browser==============|pypi| |versions| |pypi_downloads|A ``pytest`` plugin for interactively selecting tests to run using anurwid based console UI.Installation------------::    pip install pytest-browserUsage-----Run ``pytest`` with ``--browse`` or the shorthand ``--br``Credits-------Many thanks to `@tgoodlet &lt;https://github.com/tgoodlet&gt;`_'s `pytest-interactive`_ for inspiration and borrowed sample test cases...  _pytest-interactive:    https://github.com/tgoodlet/pytest-interactive.. |versions| image::    https://img.shields.io/pypi/pyversions/pytest-browser.svg    :target: https://pypi.python.org/pypi/pytest-browser.. |pypi| image:: https://img.shields.io/pypi/v/pytest-browser.svg    :target: https://pypi.python.org/pypi/pytest-browser.. |pypi_downloads| image:: https://img.shields.io/pypi/d/pytest-browser.svg    :target: https://pypi.python.org/pypi/pytest-browser.. |docs| image::    https://readthedocs.org/projects/pytest-browser/badge/?version=latest    :target: http://pytest-browser.readthedocs.io/en/latest/?badge=latest.. _docs:    http://pytest-browser.readthedocs.io/en/latest/?badge=latest</longdescription>
+</pkgmetadata>

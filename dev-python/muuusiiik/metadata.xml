@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># UTILITY PACKAGE### OVER VIEW* **timer** - counter a runtime * **configure** - reading configure file in yaml format* **data** - load &amp; save plain text &amp; object * **hasher** - string hashing* **param_tool** - convert between dict and plain-text* **log** - log manager### DEMO LOG ``` pythonimport muuusiiik.util as msk# define loggerlogger = msk.log.GetLogger(level=msk.log.DEBUG, formatter='minimal')hand   = msk.log.GetHandler(filename='logs/usage.log', when='daily', level=msk.log.WARNING, formatter='full')logger.addHandler(hand)# use loggerlogger.info(' &gt; info')logger.debug(' &gt; debug')logger.warning(' &gt; warning')logger.error(' &gt; error')logger.critical(' &gt; critical')```### DEMO PARSER```pythonimport muuusiiik.parser as ps```### HOW TO BUILD A PACKAGE TO PYPIprerequisite``` shellpip install setuptools wheel tqdm twine```build and upload package```shell# preparing tar.gz package python setup.py sdist# uploading package to pypi serverpython -m twine upload dist/* --verbose```install package``` shell# install latest versionpip install muuusiiik --upgrade# specific version with no cachepip install muuusiiik==0.0.11  --no-cache-dir```</longdescription>
+</pkgmetadata>

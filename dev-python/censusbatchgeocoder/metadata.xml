@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## Links* Docs: [palewi.re/docs/censusbatchgeocoder](http://palewi.re/docs/censusbatchgeocoder)* Issues: [github.com/datadesk/python-censusbatchgeocoder/issues](https://github.com/datadesk/censusbatchgeocoder/issues)* Packaging: [pypi.python.org/pypi/censusbatchgeocoder](https://pypi.python.org/pypi/censusbatchgeocoder)</longdescription>
+</pkgmetadata>

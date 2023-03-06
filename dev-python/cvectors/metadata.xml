@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># CvectorsCvectors is a Python package for 2D vectors. It provides a class,`Vector`, which uses `complex` internally.Usage is as follows:```python&gt;&gt;&gt; from cvectors import Vector&gt;&gt;&gt; foo = Vector(4, 3)&gt;&gt;&gt; fooVector(4.0, 3.0)&gt;&gt;&gt; foo.x4.0&gt;&gt;&gt; foo.y3.0&gt;&gt;&gt; foo.r5.0&gt;&gt;&gt; bar = Vector(4, 5)&gt;&gt;&gt; foo + barVector(8.0, 8.0)&gt;&gt;&gt; foo.dot(bar)31.0&gt;&gt;&gt; import math&gt;&gt;&gt; foo.rotate(math.pi / 2)Vector(-2.9999999999999996, 4.0)&gt;&gt;&gt; Vector.from_polar(r=3, theta=5) - Vector.from_polar(r=5, theta=2)Vector(2.9317207391253906, -7.423259958117824)&gt;&gt;&gt; Vector(5, 6).perp_dot(Vector(-6, 1))41.0&gt;&gt;&gt; abs(foo)5.0&gt;&gt;&gt; Vector(1, -9).rec()(1.0, -9.0)&gt;&gt;&gt; Vector(1, -9).pol()(9.055385138137417, -1.460139105621001)&gt;&gt;&gt; Vector(3, 2).perp()Vector(-2.0, 3.0)&gt;&gt;&gt; Vector(3.142, 2.718).round()(3, 3)&gt;&gt;&gt; Vector(3.142, 2.718).round(1)(3.1, 2.7)```</longdescription>
+</pkgmetadata>

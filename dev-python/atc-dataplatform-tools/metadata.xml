@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># atc-dataplatform-toolsA common set of tools for working with dataplatforms.These libraries contain test fixtures and development tools that are not part of the runtime tools in atc-dataplatform.</longdescription>
+</pkgmetadata>

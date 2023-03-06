@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![Upload pypi package release](https://github.com/tys-hiroshi/backlogprocessing/actions/workflows/pypi-package-publish.yml/badge.svg?branch=master)](https://github.com/tys-hiroshi/backlogprocessing/actions/workflows/pypi-package-publish.yml)# Summaryprocessing working time on backlog.Referencehttps://developer.nulab.com/ja/docs/backlog/## Requirements- Python 3.7+- pybacklog- pipenv install python-dateutil- pipenv install --dev twine## Install packagehttps://pypi.org/project/backlogprocessing/```pip install backlogprocessing```## Usage```from backlogprocessingmodule import *backlogapiprocessing.run(ConfigFilePath, LoggingConfigFilePath)```## For DeveloperWhen you need to upload this package, see package_release.md### Migrate requirements.txt to Pipfilehttps://www.kabuku.co.jp/developers/python-pipenv-graph```pipenv install -r requirements.txtpipenv graph```</longdescription>
+</pkgmetadata>

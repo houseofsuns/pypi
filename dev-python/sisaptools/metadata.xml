@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Eines comunes per a l'execució de SISAP i SIDIAP.                       Per a més informació veure                       https://github.com/sisap-ics/sisaptools/</longdescription>
+</pkgmetadata>

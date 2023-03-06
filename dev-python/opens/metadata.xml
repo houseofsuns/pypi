@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># OpenShellWelcome to OpenShell! This shell is different to others - instead of typing endless commands into a complicated terminal, you have all the power of Python at your fingertips!OpenShell isn't just a Python interpreter, either. It's got an entire Python library behind it - designed specifically for the shell!## Changelog1.0:* Core shell* Variables* Conditions* Loops* `echo` function* Lots of colours :)* (A lot more was added)1.1:* `prompt` function* More terminal styling* Made command input bold* Cleaned up error handling code1.2:* Changed version shown when launching terminal!* Code optimisation* `fullpath` function* Removed unwanted code* Banned using `os` module (for security)1.3:* `ls` function* `fullpath` no longer returns `/` when path doesn't exist* `cd` function* Improved returns (now prints return in green)</longdescription>
+</pkgmetadata>

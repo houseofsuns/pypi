@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># MIDAS Palaestrai Adapter## DescriptionThis package contains everything needed to use midas with palaestrAI.## LicenseThis software is released under the GNU Lesser General Public License (LGPL). See the license file for more information about the details.</longdescription>
+</pkgmetadata>

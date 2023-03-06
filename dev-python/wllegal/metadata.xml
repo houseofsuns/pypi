@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image:: https://s.weblate.org/cdn/Logo-Darktext-borders.png   :alt: Weblate   :target: https://weblate.org/   :height: 80px**Weblate is a copylefted libre software web-based continuous localization system,used by over 2500 libre projects and companies in more than 165 countries.**This is legal module used on the `Hosted Weblate service&lt;https://weblate.org/hosting/&gt;`_.You can use them as an example how to customize `Weblate&lt;https://weblate.org/&gt;`_, but there are probably not generally usable.  If youthink something should be part of Weblate, please open an issue... image:: https://img.shields.io/badge/website-weblate.org-blue.svg    :alt: Website    :target: https://weblate.org/.. image:: https://hosted.weblate.org/widgets/weblate/-/svg-badge.svg    :alt: Translation status    :target: https://hosted.weblate.org/engage/weblate/?utm_source=widget.. image:: https://bestpractices.coreinfrastructure.org/projects/552/badge    :alt: CII Best Practices    :target: https://bestpractices.coreinfrastructure.org/projects/552.. image:: https://img.shields.io/pypi/v/wllegal.svg    :target: https://pypi.org/project/wllegal/    :alt: PyPI package.. image:: https://readthedocs.org/projects/weblate/badge/    :alt: Documentation    :target: https://docs.weblate.org/Installation------------Install using pip:.. code-block:: sh    pip3 install wllegalSources are available at &lt;https://github.com/WeblateOrg/wllegal&gt;.Usage-----Include the module in the `INSTALLED_APPS`, it has tbe placed prior to otherWeblate modules to override it's templates:.. code-block:: python   INSTALLED_APPS.insert(0, &quot;wllegal&quot;)</longdescription>
+</pkgmetadata>

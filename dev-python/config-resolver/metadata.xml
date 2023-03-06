@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>config_resolver===============Full Documentation    https://config-resolver.readthedocs.org/en/latest/Repository    https://github.com/exhuma/config_resolverPyPI    https://pypi.python.org/pypi/config_resolver``config_resolver`` provides a simple, yet flexible way to provideconfiguration to your applications. It follows the `XDG Base Dir Spec&lt;https://standards.freedesktop.org/basedir-spec/0.8/&gt;`_ (This instance isbased on 0.8 of this spec) for config file locations, and adds additional waysto override config locations. The aims of this package are:* Provide a simple API* Follow well-known standards for config-file locations* Be as close to pure-Python as possible* Be framework agnostic* Allow custom configutaion types (``.ini`` and ``.json`` support is shipped by  default)* Allow to provide system-wide defaults but allow overriding of values for more  specific environments. These are (in increasing order of specificity):  1. System-wide configuration (potentially requiring root-access to modify)  2. User-level configuration (for all instances running as that user)  3. Current Working Directory configuration (for a running instance)  4. Per-Instance configuration</longdescription>
+</pkgmetadata>

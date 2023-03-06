@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ZINC CLIWelcome to the Zinc CLI.___## Features* Blah 1* Blah 2* Blah 3## Links[Hello](www.google.com)## Examples```pythonprint(&quot;Hello World&quot;)```</longdescription>
+</pkgmetadata>

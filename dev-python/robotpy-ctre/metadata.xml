@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>robotpy-ctre============This is a python wrapper around the CTRE Phoenix library. The RobotPy projectis not associated with or endorsed by Cross The Road Electronics.**NOTE**: CTRE only supports simulation for the following platforms:* Linux (64-bit only)* Windows (64-bit only)* OSXOther platforms will fail to install with an 404 error.Documentation=============* `Installation &lt;http://robotpy.readthedocs.io/en/stable/install/ctre.html&gt;`_* `Python API Documentation &lt;http://robotpy.readthedocs.io/projects/ctre/en/stable/api.html&gt;`_* `CTRE's software guide &lt;https://phoenix-documentation.readthedocs.io/en/latest/index.html&gt;`_License=======RobotPy specific bits are available under the Apache 2.0 license. The CTREbinaries are available under their custom license which basically says &quot;you mayonly use this software with our hardware&quot;. See LICENSE for details.Author======Dustin Spicuzza (dustin@virtualroadside.com)</longdescription>
+</pkgmetadata>

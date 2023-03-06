@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Whirlpool's Sixth Sense (unofficial)Unofficial API for Whirlpool's 6th Sense appliances.As an example on how to use this library, please check the implementation of Home Assistant's [Whirlpool Integration](https://www.home-assistant.io/integrations/whirlpool), or take a look at the `whirlpool_ac.py` file.If a command does not work, check if it works through the official app.# NOTICEUse this at your own risk. If, by using this software, any damage is caused to your appliance, or if you get too hot because your AC got crazy and now you can't sleep, the developers of this software or the manufacturer of your appliance cannot be blamed.# Using the cli- listing all Whirpool appliances for an account:    `python cli.py -l -b &quot;whirlpool&quot; -e &quot;person@mail.com&quot; -p &quot;password123&quot;`- viewing/controlling a single Maytag appliance:    `python cli.py -l -b &quot;maytag&quot; -s &quot;SAID123&quot; -e &quot;person@mail.com&quot; -p &quot;password123&quot;`</longdescription>
+</pkgmetadata>

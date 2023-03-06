@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Person counterfrom opencv_stream import VideoStreamer, FpsDrawerfrom person_counter.model import PersonCounterModel, PersonCounterOutputimport numpy as npimport osVIDEO_DIR = &quot;D:/project/facebodydetection/facebodydetect/app/src/videos&quot;def get_video():   paths = [ os.path.join(VIDEO_DIR, p) for p in os.listdir(VIDEO_DIR)]   return np.random.choice(paths)stream = VideoStreamer.from_video_input(get_video())fps = FpsDrawer()model = PersonCounterModel()@stream.on_next_frame()def index(frame: np.ndarray):      result = model.predict(frame)    if result.is_ok():      output: PersonCounterOutput = result.unwrap()      output.draw(frame)   else:    raise result.exception   fps.draw(frame)stream.start()</longdescription>
+</pkgmetadata>

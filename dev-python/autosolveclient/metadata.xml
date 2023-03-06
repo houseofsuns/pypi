@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># AYCD AutoSolve Python ClientClient for connecting to the AYCD AutoSolve network## Documentationhttps://docs.aycd.io/docs/getting-started/## LicenseThis project is licensed under the MIT License</longdescription>
+</pkgmetadata>

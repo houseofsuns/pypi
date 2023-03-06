@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ua-generatorA random user-agent generator for Python &gt;= 3.6# Features* No external user-agent list. No downloads.* Templates are hardcoded into the code.* Platform and browser versions are based on real releases.* Client hints (Sec-CH-UA fields).# Installing```bashpip3 install -U ua-generator```# Basic usage```pythonimport ua_generatorua = ua_generator.generate()print(ua) # Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/15.2 Safari/604.1.38```# CustomizationThere are three different parameters to the generate user-agent by the certain conditions.```pythondevice = ('desktop', 'mobile')platform = ('windows', 'macos', 'ios', 'linux', 'android')browser = ('chrome', 'edge', 'firefox', 'safari')```All of the parameters are optional, and the types can be choose multiple.```pythonimport ua_generatorua = ua_generator.generate(device='desktop', browser='firefox')print(ua.text)      # Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0print(ua.platform)  # linuxprint(ua.browser)   # firefoxprint(ua.ch.brands) # &quot; Not A;Brand&quot;;v=&quot;99&quot;print(ua.ch.mobile) # ?0ua = ua_generator.generate(platform=('ios', 'macos'), browser='chrome')print(ua.text)      # Mozilla/5.0 (iPhone; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) CriOS/80.0.3987.44 Mobile/15E148 Safari/537.36print(ua.platform)  # iosprint(ua.browser)   # chromeprint(ua.ch.brands) # &quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;80&quot;, &quot;Google Chrome&quot;;v=&quot;80&quot;print(ua.ch.mobile) # ?1```# AuthorEkin Karadeniz (iamdual@icloud.com)</longdescription>
+</pkgmetadata>

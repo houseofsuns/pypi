@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># monashspamonashspa is a Python library containing helpful Python functions and utilities for Physics &amp; Astronomy classes at Monash University.## DocumentationDocumentation, along with installation instructions, are available at [http://monashspa.readthedocs.io/](http://monashspa.readthedocs.io/)## Licencemonashspa is licensed under the GPLv3 licence.## ContributingPlease see [contributing.md](https://github.com/Monash-University-Physics-Astronomy/monashspa/blob/master/contributing.md). For making a subsequent releasesee [release.md](https://github.com/Monash-University-Physics-Astronomy/monashspa/blob/master/release.md)</longdescription>
+</pkgmetadata>

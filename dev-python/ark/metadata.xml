@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Ark===Ark is a static website generator built in Python. It transforms a directoryof text files into a self-contained website.* `Documentation &lt;http://mulholland.xyz/docs/ark/&gt;`_* `Sample Site &lt;http://ark.mulholland.xyz/phoenix/&gt;`_* `Github Homepage &lt;https://github.com/dmulholland/ark&gt;`_</longdescription>
+</pkgmetadata>

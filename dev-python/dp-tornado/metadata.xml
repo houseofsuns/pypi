@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>MVC Web Application Framework with Tornado, Python 2 and 3To install the package run:    pip install dp-tornadoRun-----    $ pip install virtualenv    $ virtualenv ./venv    $ . ./venv/bin/activate    $ pip install dp-tornado    $ dp4p init --path app</longdescription>
+</pkgmetadata>

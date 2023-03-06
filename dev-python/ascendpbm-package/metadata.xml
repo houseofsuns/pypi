@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This is a growing library intended to make use of other python packages streamlined and scaleable for ascendpbm. It is to include tools for interfacing with FTP, SFTP, FTPS, email, Microsoft Graph API, PostgreSQL, bash scripts, reporting infrastructure/packages, and much more. Please note that it will require several unlisted dependencies and requirements such as our business environments, Anaconda installations, and many python packages.</longdescription>
+</pkgmetadata>

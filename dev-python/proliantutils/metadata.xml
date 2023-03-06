@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>proliantutils=============**proliantutils** is a set of utility libraries for interfacing and managingvarious components (like iLO, HPSSA) for HPE Proliant Servers.  This libraryis used by iLO drivers in Ironic for managing Proliant Servers (though thelibrary can be used by anyone who wants to manage HPE Proliant servers).Please use launchpad_ to report bugs and ask questions... _launchpad: https://bugs.launchpad.net/proliantutilsInstallation------------Install the module from PyPI_.  If you are using Ironic, install the moduleon Ironic conductor node::  pip install proliantutils.. _PyPI: https://pypi.python.org/pypi/proliantutilsSome GNU/Linux distributions provide *python-proliantutils* package.Usage-----iLO~~~For interfacing with the iLO, use *IloClient* object::  &gt;&gt;&gt; from proliantutils.ilo import client  &gt;&gt;&gt; ilo_client = client.IloClient('10.10.1.57', 'Administrator', 'password')  &gt;&gt;&gt; ilo_client.get_host_power_status()  'OFF'  &gt;&gt;&gt;For operations supported on the client object, please refer*proliantutils.ilo.operations*.</longdescription>
+</pkgmetadata>

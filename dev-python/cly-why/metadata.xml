@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Why?I wanted a simple library to write small to moderate cli programs.It only uses the standard library.# Why not X?## X = argparseIts way more then what I need 99% of the time.## X = clickI don't particularly like decorators.## X = richI like pprint, but it always seems like to much## X = typerI've used typer a bit, but it never clicked with me.# Core Functions## Text-Decorate and Colorize Take a string and color/text-decoration name and returns the string wrapped in its ansi code## ClyEntrypoint functionBy default ignores functions that start with '_'/underscore# Feature List- [X] Colorize and Text Decorate- [ ] Tests- [ ] Automatic Fish Shell Completions- [ ] Prompts  - [ ] Text Prompt  - [ ] Multiline Prompt  - [ ] Fzf Selector  - [ ] Date Selector- [ ] 2 line functionality```pythonimport cly_whyif __name__ == &quot;__main__&quot;:cly_why.cly()```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>``cloudi_api_python``=====================|Build Status| |PyPI Package Version|Python `CloudI API &lt;https://cloudi.org/api.html#1_Intro&gt;`__Author------Michael Truog (mjtruog at protonmail dot com)License-------MIT License.. |Build Status| image:: https://travis-ci.org/CloudI/cloudi_api_python.png   :target: https://travis-ci.org/CloudI/cloudi_api_python.. |PyPI Package Version| image:: https://img.shields.io/pypi/v/cloudi.svg?maxAge=2592000   :target: https://pypi.python.org/pypi/cloudi/</longdescription>
+</pkgmetadata>

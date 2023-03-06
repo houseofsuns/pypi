@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># PBCPG pipelineAnalysis of CpG methylation calls from PacBio HiFi data. See also the [full documentation](https://salk-tm.gitlab.io/pbcpg-pipeline/index.html)## Installation### CondaThe recommended way to install `pbcpg-pipeline` is with a dedicated `conda` environment:```conda create -n pbcpg-pipeline -c bioconda -c conda-forge \  python==3.9 tensorflow==2.7 numpy==1.20.0 biopython pandas \  pysam tqdm pybigwig pbmm2 urllib3 bedtools pybedtools gff2bed \  seaborn pyfaidxconda activate pbcpg-pipelinepip install pbcpg-pipeline```Alternatively, from the git repo:```git clone https://gitlab.com/salk-tm/pbcpg-pipeline.gitcd pbcpg-pipelineconda env create -f conda_env_cpg_pipeline.yamlconda activate pbcpg-pipelinepip install .```### Check installationCheck that the correct version was installed with `pbcpg-pipeline --version`</longdescription>
+</pkgmetadata>

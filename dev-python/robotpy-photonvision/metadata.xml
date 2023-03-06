@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># robotpy-photonvisionThis is a python wrapper around the Photonvision Photonlib library. The RobotPy project is not associated with or endorsed by Photonvision.</longdescription>
+</pkgmetadata>

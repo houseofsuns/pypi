@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>MinTOTP=======MinTOTP is a minimal TOTP generator written in Python.Introduction------------TOTP stands for Time-Based One-Time Password. Many websites and servicesrequire two-factor authentication (2FA) or multi-factor authentication(MFA) where the user is required to present two or more pieces ofevidence:  - Something only the user knows, e.g., password, passphrase, etc.  - Something only the user has, e.g., hardware token, mobile phone, etc.  - Something only the user is, e.g., biometrics.A TOTP value serves as the second factor, i.e., it proves that the useris in possession of a device (e.g., mobile phone) that contains a TOTPsecret key from which the TOTP value is generated. Usually the serviceprovider that provides a user's account also issues a secret key encodedeither as a Base32 string or as a QR code. This secret key is added toan authenticator app (e.g., Google Authenticator) on a mobile device.The app can then generate TOTP values based on the current time.By default, it generates a new TOTP value every 30 seconds.MinTOTP is a Python tool that can be used to generate TOTP values from asecret key. Additionally, it exposes its functionality as module-levelfunctions for Python developers. It can be used on any system withPython 3.4 or later installed on it.Resources---------Here is a list of useful links about this project:  - [Documentation](https://github.com/susam/mintotp#readme)  - [Latest release][pypi]  - [Changelog](https://github.com/susam/mintotp/blob/master/CHANGES.md)  - [Issue tracker](https://github.com/susam/mintotp/issues)  - [Source code](https://github.com/susam/mintotp)[pypi]: https://pypi.org/project/mintotp/</longdescription>
+</pkgmetadata>

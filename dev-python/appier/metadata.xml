@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>`Appier &lt;http://appier.hive.pt&gt;`__==================================Joyful Python Web App developmentAppier is an object-oriented Python web framework built for super fast app development.It's as lightweight as possible, but not too lightweight.It gives you the power of bigger frameworks, without their complexity.Installation------------    pip install appierUsage-----.. code:: python    import appier    class HelloApp(appier.App):        @appier.route(&quot;/&quot;, &quot;GET&quot;)        def hello(self):            return &quot;Hello World&quot;    HelloApp().serve()More----For more information consult the `website &lt;http://appier.hive.pt&gt;`__.</longdescription>
+</pkgmetadata>

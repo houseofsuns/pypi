@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image:: https://raw.githubusercontent.com/scikit-hep/awkward-array/master/docs/source/logo-300px.png   :alt: awkward-array   :target: https://github.com/scikit-hep/awkward-array|Allows awkward arrays to be used in Numba-compiled code and optimizes awkward methods with JIT compilation.See tests/study_numba_speed.py for an example.Note: be sure to ``import awkward.numba`` before attempting to use an awkward array in a Numba routine.Status: only JaggedArrays have been implemented.</longdescription>
+</pkgmetadata>

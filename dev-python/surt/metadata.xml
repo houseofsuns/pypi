@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Sort-friendly URI Reordering Transform (SURT) python package.Usage:::    &gt;&gt;&gt; from surt import surt    &gt;&gt;&gt; surt(&quot;http://archive.org/goo/?a=2&amp;b&amp;a=1&quot;)    'org,archive)/goo?a=1&amp;a=2&amp;b'    &gt;&gt;&gt; surt(&quot;http://archive.org/goo/?a=2&amp;b&amp;a=1&quot;, trailing_comma=True)    'org,archive,)/goo?a=1&amp;a=2&amp;b'    &gt;&gt;&gt; surt(&quot;http://123.456.78.910/goo/?a=2&amp;b&amp;a=1&quot;, reverse_ipaddr=False)    '123.456.78.910)/goo?a=1&amp;a=2&amp;b'Installation:::    pip install surtOr install the dev version from git:::    pip install git+https://github.com/internetarchive/surt.git#egg=surtMore information about SURTs:http://crawler.archive.org/articles/user\_manual/glossary.html#surtThis is mostly a python port of the webarchive-commons org.archive.urlpackage. The original java version of the org.archive.url package ishere:https://github.com/iipc/webarchive-commons/tree/master/src/main/java/org/archive/urlThis module depends on the ``tldextract`` module to query the PublicSuffix List. ``tldextract`` can be installed via ``pip``|Build Status|.. |Build Status| image:: https://travis-ci.org/internetarchive/surt.svg   :target: https://travis-ci.org/internetarchive/surt</longdescription>
+</pkgmetadata>

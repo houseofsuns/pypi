@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>LibIndic Utilities==================.. image:: https://img.shields.io/pypi/v/libindic-utils.svg    :target: https://pypi.python.org/pypi/libindic-utils    :alt: PyPI VersionThis package provides common functions needed by LibIndic web applicationitself and modules which are hosted by `LibIndic`_. There are 2 submodulesprovided by this package* charmap - provides character mapping for Indic and other languages* langdetect - module provides language detecting capabilities* Also provides a decorator servicemethod, this should be used by  modules which want to expose their methods via JSONRPC modulesInstallation------------Python 3 is required. Using with `venv`_ is recommended  .. code-block:: console    $ pip install libindic-utilsUsage-----  .. code-block:: python    from libindic.utils import get_language    get_language(u'অ') # 'bn_IN'.. _`LibIndic`: https://libindic.org.. _`venv`: https://docs.python.org/3/library/venv.html</longdescription>
+</pkgmetadata>

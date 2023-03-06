@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pyxdeltaPython interface for xdelta.## Installation`pip install pyxdelta`## Usage```import pyxdeltapyxdelta.run(&quot;source.bin&quot;, &quot;target.bin&quot;, &quot;patch.xdelta&quot;)```</longdescription>
+</pkgmetadata>

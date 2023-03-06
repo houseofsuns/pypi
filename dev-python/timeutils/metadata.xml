@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image:: https://img.shields.io/pypi/status/timeutils.svg    :target: https://gitlab.com/cmick/timeutils.. image:: https://badge.fury.io/py/timeutils.svg    :target: https://badge.fury.io/py/timeutils.. image:: https://readthedocs.org/projects/timeutils/badge   :target: http://timeutils.readthedocs.io.. image:: https://img.shields.io/pypi/pyversions/timeutils.svg   :target: https://pypi.python.org/pypi/timeutils.. image:: https://img.shields.io/pypi/l/timeutils.svg   :target: https://gitlab.com/cmick/timeutils/blob/master/LICENSEtimeutils=========timeutils is a Python package providing a set of methods and classes toaccurately measure elapsed time.Documentation-------------The documentation is hosted on http://timeutils.readthedocs.ioInstallation------------Latest from the `source &lt;https://gitlab.com/cmick/timeutils&gt;`_::    git clone https://gitlab.com/cmick/timeutils.git    cd timeutils    python setup.py installUsing `PyPI &lt;https://pypi.python.org/pypi/timeutils&gt;`_::    pip install timeutilsExamples--------.. code :: pycon    &gt;&gt;&gt; from timeutils import Stopwatch    &gt;&gt;&gt; sw = Stopwatch(start=True)    &gt;&gt;&gt; sw.elapsed_seconds    16.282313108444214    &gt;&gt;&gt; str(sw.stop())    '0:01:30.416023'    &gt;&gt;&gt; sw.elapsed.human_str()    '1 min, 30 secs'</longdescription>
+</pkgmetadata>

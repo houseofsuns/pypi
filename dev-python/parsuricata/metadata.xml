@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># parsuricataParse Suricata rules# Installation```bashpip install parsuricata```# Usage```pythonfrom parsuricata import parse_rulessource = '''  alert http $HOME_NET any -&gt; !$HOME_NET any (msg: &quot;hi mum!&quot;; content: &quot;heymum&quot;; http_uri; sid: 1;)'''rules = parse_rules(source)print(rules)## alert http $HOME_NET any -&gt; !$HOME_NET any ( \#   msg: hi mum!; \#   content: heymum; \#   http_uri; \#   sid: 1; \# )rule = rules[0]print(rule.action)# alertprint(rule.protocol)# httpprint(rule.src)# $HOME_NETprint(rule.src_port)# anyprint(rule.direction)# -&gt;print(rule.dst)# !$HOME_NETprint(rule.dst_port)# anyfor option in rule.options:    print(f'{option.keyword} = {option.settings}')## msg = hi mum!# content = heymum# http_uri = None# sid = 1```</longdescription>
+</pkgmetadata>

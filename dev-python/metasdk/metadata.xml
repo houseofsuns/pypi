@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># MetaSDK Python[Документация](http://metasdk.readthedocs.io/)[Полный список примеров](https://github.com/devision-io/metasdk/tree/master/metasdk/examples/)#### Как обновить metasdk в pypi.org1. Если кто-то из новых людей будет пробовать обновлять - надо дописать гайд как зарегаться на pypi.org и получить возможность обновлять метасдк2. Обновляем наш репозиторий в соответствии с общими правилами, не забываем апнуть версию (version) в info.py, как обычно в пайтон-либах (на момент написания это - обновляем мастер, создаём ветку с номером задачи из мастера, заливаем коммиты в ветку, создаём пулл-реквест в стеше, при необходимости мержимся с актуальным мастером, проходим ревью, заливаем в мастер)3. Если не устанавливали, устанавливаем pip3 install wheel &amp;&amp; pip3 install twine (если ещё не делали (это как раз тот этап, когда у кого-то может деплоиться, а у кого-то нет)4. Делаем make publish. Может спросить пароль от ключа, логи и пароль от pypi.org5. Обновить версию в тех репозиториях, для которых, собственно, делаются изменения (например, metafeedconnectors)Связанные задачи:- META-2941- META-2571</longdescription>
+</pkgmetadata>

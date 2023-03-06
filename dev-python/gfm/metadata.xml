@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>GFM===GFM is a small module to convert `GitHub Flavored Markdown`_ to HTML.Usage-----GFM offers two methods, ``gfm`` and ``markdown``.``gfm`` simply preprocesses the parts of Markdown that GitHub FlavoredMarkdown is interested in, without converting the Markdown to HTML.``markdown`` does this as well as passing the result through the``markdown`` module to generate HTML.::    &gt;&gt;&gt; import gfm    &gt;&gt;&gt; string = &quot;Roses are red\nViolets are blue&quot;    &gt;&gt;&gt; gfm.gfm(string)    'Roses are red  \nViolets are blue'    &gt;&gt;&gt; gfm.markdown(string)    '&lt;p&gt;Roses are red&lt;br /&gt;\nViolets are blue&lt;/p&gt;'Installation------------::    pip install gfmLicense-------MIT, plain and simple... _GitHub Flavored Markdown: https://help.github.com/articles/github-flavored-markdown</longdescription>
+</pkgmetadata>

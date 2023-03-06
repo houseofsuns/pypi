@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## JeffersonJFFS2 filesystem extraction tool### InstallationFollow these steps on Debian based systems (Debian, Ubuntu, Kali, ...) to perform a system-wide installation of jefferon:```bashgit clone https://github.com/sviehb/jefferson.gitcd jeffersonsudo apt updatesudo apt install python3-pip liblzo2-devsudo python3 -m pip install -r requirements.txtsudo python3 setup.py install```### Features- big-endian and little-endian support with auto-detection- zlib, rtime, LZMA, and LZO compression support- CRC checks - for now only enforced on `hdr_crc`- extraction of symlinks, directories, files, and device nodes- detection/handling of duplicate inode numbers. Occurs if multiple JFFS2 filesystems are found in one file and causes `jefferson` to treat segments as separate filesystems### Usage```bash$ jefferson filesystem.img -d outdir```</longdescription>
+</pkgmetadata>

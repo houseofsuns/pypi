@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## OpenGenCode generation tool for OpEn### Installation To use this Python package, run:```pip install opengen```You will then be able to use it in your project with```pythonfrom opengen import *```or ```pythonimport opengen as og```In order to build the auto-generated code, you need the Rust compiler.For detailed documentation, please refer to [OpEn's website](https://alphaville.github.io/optimization-engine/).## Citing OpEnPlease, cite OpEn as follows:```@inproceedings{open2020,author=&quot;P. Sopasakis and E. Fresk and P. Patrinos&quot;,title=&quot;OpEn: Code Generation for Embedded Nonconvex Optimization&quot;,booktitle=&quot;IFAC World Congress&quot;,year=&quot;2020&quot;,address=&quot;Berlin&quot;}``` </longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Aporia SDK## TestingTo run the tests, first install the library locally:```pip install &quot;.[all]&quot; --upgrade```Then run the tests using `pytest`:```pytest -v```If you don't have Spark installed, skip the pyspark tests:```pytest -v --ignore=tests/pyspark```</longdescription>
+</pkgmetadata>

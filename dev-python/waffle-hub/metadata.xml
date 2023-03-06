@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;div align=&quot;center&quot;&gt;  &lt;p&gt;    &lt;a href=&quot;http://snuailab.ai/&quot;&gt;        &lt;img width=&quot;75%&quot; src=&quot;https://raw.githubusercontent.com/snuailab/assets/main/waffle/icons/waffle_banner.png&quot;&gt;    &lt;/a&gt;  &lt;/p&gt;&lt;/div&gt;Waffle is a framework that lets you use lots of different deep learning tools through just one interface. When it comes to MLOps (machine learning operations), you need to be able to keep up with all the new ideas in deep learning as quickly as possible. But it's hard to do that if you have to write all the code yourself. That's why we started a project to bring together different tools into one framework.Experience the power of multiple deep learning frameworks at your fingertips with Waffle's seamless integration, unlocking limitless possibilities for your machine learning projects.See our [documentation](https://snuailab.github.io/waffle_hub/) for more information!</longdescription>
+</pkgmetadata>

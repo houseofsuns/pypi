@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Pyodide Micropip Test Package=============================This package is made to test Pyodide's ability to install external PyPI packages which require dependencies based on markers (like `implementation_name`). It is not meant to be used in any other project and it's only functionality is to install `snowballstemmer` if `cpython` is used.* Pyodide source code is available [here][link-pyodide] and is part of [Iodide Project][link-iodide].* Details about the installation of PyPI packages in Pyodide are available [here][link-pypi-packages].* Implementation PR for support of markers is available [here][link-markers-pr].* This package is created by a third-party contributor to Pyodide which is not affiliated to [Iodide Project][link-iodide] or [SnowballStemmer][link-snowballstemmer] team.[link-pyodide]: https://github.com/iodide-project/pyodide/[link-iodide]: https://github.com/iodide-project/[link-snowballstemmer]: https://snowballstem.org/[link-pypi-packages]: https://github.com/iodide-project/pyodide/blob/master/docs/pypi.md[link-markers-pr]: https://github.com/iodide-project/pyodide/pull/528</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># youtube_searchPython function for searching for youtube videos to avoid using their heavily rate-limited APITo avoid using the API, this uses the form on the youtube homepage and scrapes the resulting page.## Example UsageFor a basic search (and all of the current functionality), you can use the search tool as follows:```pip install youtube-search``````pythonfrom youtube_search import YoutubeSearchresults = YoutubeSearch('search terms', max_results=10).to_json()print(results)# returns a json string########################################results = YoutubeSearch('search terms', max_results=10).to_dict()print(results)# returns a dictionary```</longdescription>
+</pkgmetadata>

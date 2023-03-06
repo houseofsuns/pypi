@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pdf2pptx**Utility to convert a PDF slideshow to Powerpoint PPTX.**Renders each page as a PNG image and creates the resulting Powerpoint slideshow from these images. Useful when you want to use Powerpoint to present a set of PDF slides (e.g. slides from Beamer). You can thenuse the presentation capabilities of Powerpoint (notes, ink on slides,etc.) with slides created in LaTeX.I use this to present PDF slides on a Surface Pro so that I can annotatethem with a stylus as I present.Uses [PyMuPDF](https://github.com/pymupdf/PyMuPDF) and [python-pptx](https://github.com/scanny/python-pptx) to do the hard work.## Installation```bashpip install pdf2pptx```## UsageThe following will create a `slides.pptx` file from a `slides.pdf` file.```bashpdf2pptx slides.pdf```Run `pdf2pptx --help` for more info on the command line interface.</longdescription>
+</pkgmetadata>

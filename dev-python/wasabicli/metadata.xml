@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=========WasabiCLI=========.. image:: https://img.shields.io/pypi/v/wasabicli.svg        :target: https://pypi.python.org/pypi/wasabicli.. image:: https://img.shields.io/travis/salimdason/wasabicli.svg        :target: https://travis-ci.com/salimdason/wasabicli.. image:: https://readthedocs.org/projects/wasabicli/badge/?version=latest        :target: https://wasabicli.readthedocs.io/en/latest/?version=latest        :alt: Documentation Status.. image:: https://pyup.io/repos/github/salimdason/wasabicli/shield.svg     :target: https://pyup.io/repos/github/salimdason/wasabicli/     :alt: UpdatesCLI application for management of versioned Wasabi S3 buckets* Free software: GNU General Public License v3* Documentation: https://wasabi-cli.readthedocs.io/en/latest/index.htmlFeatures--------1. Delete only non-current objects2. Delete both current and non-current objects3. Purge delete markers from bucket4. Delete bucket (after running above commands to ensure it's empty)=======History=======1.0.0 (2023-03-07)------------------* First release on PyPI.</longdescription>
+</pkgmetadata>

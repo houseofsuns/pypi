@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>gitapi is a pure-Python API to Git, that uses the command-lineinterface. This is a fork of https://bitbucket.org/haard/ with theintention of making a unified API for a subset of git and hgfunctionality possible</longdescription>
+</pkgmetadata>

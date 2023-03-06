@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>README===================*obsinfo* is a system for for creating FDSN-standard data and metadata forocean bottom seismometers using standardized, easy-to-read information files Current goal-------------------To come out with a first version (v1.x) schema for the information files.  Wewould like input from seismologists and ocean bottom seismometermanufacturers/operators about what information/capabilities are missing.  Existing questions can be found/modified in the gitlab `ISSUES &lt;https://gitlab.com/resif/obsinfo/-/issues&gt;`_`Documentation &lt;https://obsinfo.readthedocs.io/en/latest/index.html&gt;`_`Source code &lt;https://gitlab.com/resif/obsinfo&gt;`_Versioning----------------We use standard MAJOR.MINOR.MAINTENANCE version numbering but, while thesystem is in prerelease:- MAJOR==0- MINOR increments every time the information   file structure changes in a **non-backwards-compatible** way- MAINTENANCE increments when the code changes or the file structure changes  in a **backwards-compatible** way</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;div align=&quot;center&quot;&gt;  &lt;img width=&quot;77%&quot; alt=&quot;&quot; src=&quot;https://raw.githubusercontent.com/xprobe-inc/xoscar/main/doc/source/_static/Xoscar.svg&quot;&gt;&lt;br&gt;&lt;/div&gt;# Python actor framework for heterogeneous computing.</longdescription>
+</pkgmetadata>

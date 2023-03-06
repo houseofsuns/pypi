@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>The Divio CLI is a tool for interacting with Divio projects and the Divio cloud infrastructure.It provides commands to set up projects locally, push and pull media and database content toremote cloud projects, get and set environment variables, and so on.How to get started with the Divio CLI: https://docs.divio.com/en/latest/how-to/local-cli/Divio CLI reference: https://docs.divio.com/en/latest/reference/divio-cli</longdescription>
+</pkgmetadata>

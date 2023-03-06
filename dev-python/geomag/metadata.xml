@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Magnetic variation/declination        ------------------------------                Calculates magnetic variation/declination for any latitude/longitude/altitude, for any date. Uses the NOAA National Geophysical Data Center, epoch 2015 data.</longdescription>
+</pkgmetadata>

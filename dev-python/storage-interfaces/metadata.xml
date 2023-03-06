@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Storage Interfaces==================|                       |                                                                                     ||-----------------------|-------------------------------------------------------------------------------------|| Build Status          | ![Build Status](https://secure.travis-ci.org/Infinidat/storage_interfaces.png)      || Supported Versions    | ![Supported Versions](https://img.shields.io/pypi/pyversions/storage_interfaces.svg)|| Latest Version        | ![Latest Version](https://img.shields.io/pypi/v/storage_interfaces.svg)             |Abstract classes for representing storage-related objectsLicence-------BSD3</longdescription>
+</pkgmetadata>

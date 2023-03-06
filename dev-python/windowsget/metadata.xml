@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Windowsget: Python CLIBasic usage -Download file by passing your URL as argument after `windowsget````bashwindowsget https://myexample.com/file.txt```Download file by passing your URL as argument after `windowsget` and specify output path with filename.```bashwindowsget https://myexample.com/file.txt -o mydir/myfile.txt```For more check the documentation given under the project links.</longdescription>
+</pkgmetadata>

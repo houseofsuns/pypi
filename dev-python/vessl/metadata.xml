@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># `vessl-python-sdk`## Basic usage```pythonimport vesslvessl.init(organization_name=&quot;my-organization&quot;)vessl.create_experiment(...)```## Keras- Use ExperimentCallback```pythonimport vesslfrom vessl.integration.keras import ExperimentCallbackvessl.init()# Keras training codemodel = Model()model.compile(...)# Add integrationmodel.fit(x, y, epochs=5, callbacks=[ExperimentCallback()])```- Run experiment on Vessl using Web UI or SDK## For M1```bashdocker context create remote --docker &quot;host=ssh://ec2-user@10.110.3.24&quot;docker context use remotedocker build . -t vessl-python-sdkdocker run vessl-python-sdk```# Development Setting## Poetry### Install poetry[Documentation](https://python-poetry.org/docs/#installation)#### Set python version environment1. Install each python distribution package.1. [Follow instructions](https://python-poetry.org/docs/managing-environments/#switching-between-environments)</longdescription>
+</pkgmetadata>

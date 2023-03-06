@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>lynx====Simple python configuration library and format. The format is very similar to YAML with the enhancment of sections.##InstallationInstall the ``lynx`` package with [pip](&lt;https://pypi.python.org/pypi/lynx&gt;):    pip install lynx##Example useConfiguration example:```# section examplesection {# fieldsfield1: myfield1 valuefield2: Another field value# listsmylist: [5, mystr, value, 8]}# Another sectionsection2 {# sub section examplemy_section {name: lynx}# sections can have same name.my_section {    # multiline fieldsLibrary description:|    Lynx is a python    Configuration library    supporting many features    including multiline fields!$%$!%#@    Yay!myfloat: 5.3}}```Load the configuration:```&gt;&gt;&gt; import lynx# Load file&gt;&gt;&gt; with open(&quot;config.conf&quot;, &quot;r&quot;) as fp:...     config = lynx.load(fp)# Get the first section&gt;&gt;&gt; config[0].name()'section'&gt;&gt;&gt; config[0].fields(){'field2': 'Another field value', 'field1': 'myfield1 value', 'mylist': [5, 'mystr', 'value', 8]}# Get sub sections&gt;&gt;&gt; config[1].sub_sections()[&lt;lynx.Section object at 0x7f4ab28dfdd0&gt;, &lt;lynx.Section object at 0x7f4ab28dfe10&gt;]&gt;&gt;&gt; config[1].sub_sections()[0].name()'my_section'```## FeaturesFeatures include:* Sections* Sub sections* Lists* Multiline fields* Load &amp; dump* Types:    * Strings    * Integers    * Floats</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># cbmi_utilsUtility package for common features at CBMI. Further Information can be found in the [Wiki](https://gitlab.htw-berlin.de/baumapa/cbmi-utils/-/wikis/home).## Install```pip install cbmi-utils```## UsageExample PyTorch Layer Import```from cbmi_utils.pytorch.layers import Reshape```## New Release Procedure- commit your changes on the dev branch and push to dev- increase version number in `setup.py` and commit with message `increase version number` and push to dev- merge to master and push- on the gitlab-page create new tag  - Tag Name: `0.X.XX`  - Message: `new version 0.X.XX`  - Release Notes: `&lt;your actual changes&gt;`</longdescription>
+</pkgmetadata>

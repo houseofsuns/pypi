@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Author-email: fenics-dev@googlegroups.comMaintainer-email: fenics-dev@googlegroups.comLicense: LGPL version 3 or laterDescription: UNKNOWNPlatform: WindowsPlatform: LinuxPlatform: SolarisPlatform: Mac OS-XPlatform: UnixClassifier: Development Status :: 5 - Production/StableClassifier: Intended Audience :: DevelopersClassifier: Intended Audience :: Science/ResearchClassifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)Classifier: Operating System :: POSIXClassifier: Operating System :: POSIX :: LinuxClassifier: Operating System :: MacOS :: MacOS XClassifier: Operating System :: Microsoft :: WindowsClassifier: Programming Language :: PythonClassifier: Programming Language :: Python :: 2Classifier: Programming Language :: Python :: 2.7Classifier: Programming Language :: Python :: 3Classifier: Programming Language :: Python :: 3.4Classifier: Programming Language :: Python :: 3.5Classifier: Programming Language :: Python :: 3.6Classifier: Topic :: Scientific/Engineering :: MathematicsClassifier: Topic :: Software Development :: Libraries :: Python Modules</longdescription>
+</pkgmetadata>

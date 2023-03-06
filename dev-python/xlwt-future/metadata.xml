@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Py2.6+ and Py3.3+ fork of xlwt.xlwt is a library for generating spreadsheet files that are compatiblewith Excel 97/2000/XP/2003, OpenOffice.org Calc, and Gnumeric. xlwt hasfull support for Unicode. Excel spreadsheets can be generated on anyplatform without needing Excel or a COM server. The only requirement isPython 2.6, 2.7, or 3.3.</longdescription>
+</pkgmetadata>

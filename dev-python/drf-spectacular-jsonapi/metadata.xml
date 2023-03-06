@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>========================drf-spectecular-json-api========================open api 3 schema generator for `drf-json-api &lt;https://github.com/django-json-api/django-rest-framework-json-api&gt;`_ package based on `drf-spectacular &lt;https://github.com/tfranzel/drf-spectacular&gt;`__ package.Installation------------.. note::    Install `django-rest-framework &lt;https://www.django-rest-framework.org/&gt;`_, `django-rest-framework-json-api &lt;https://django-rest-framework-json-api.readthedocs.io/en/stable/&gt;`_ and `drf-spectacular &lt;https://drf-spectacular.readthedocs.io/en/latest/&gt;`__ as described by them first.Install using ``pip``\ ..... code:: bash    $ pip install drf-spectacular-jsonapithen configure the rest framework and drf-spectacular with the following settings inside your project ``settings.py``.. code:: python    REST_FRAMEWORK = {        # YOUR SETTINGS        &quot;DEFAULT_SCHEMA_CLASS&quot;: &quot;drf_spectacular_jsonapi.schemas.openapi.JsonApiAutoSchema&quot;,        &quot;DEFAULT_PAGINATION_CLASS&quot;: &quot;drf_spectacular_jsonapi.schemas.pagination.JsonApiPageNumberPagination&quot;,    }    SPECTACULAR_SETTINGS = {        # To provide different schema components for patch and post        &quot;COMPONENT_SPLIT_REQUEST&quot;: True    }Release management^^^^^^^^^^^^^^^^^^Same as the based *drf-spectacular* package, we provide versions below sem version *1.x.x* to signal that every new version may potentially break you.</longdescription>
+</pkgmetadata>

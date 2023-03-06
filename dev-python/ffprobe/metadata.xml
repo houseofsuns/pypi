@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=======FFProbe=======A wrapper around the ffprobe command to extract metadata from media files.Usage::    #!/usr/bin/env python        from ffprobe import FFProbe        metadata=FFProbe(&quot;test-media-file.mov&quot;)        for stream in metadata.streams:    if stream.isVideo():    print &quot;Stream contains &quot;+stream.frames()+&quot; frames.&quot;</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># DPDispatcherDPDispatcher is a python package used to generate HPC(High Performance Computing) scheduler systems (Slurm/PBS/LSF/dpcloudserver) jobs input scripts and submit these  scripts to HPC systems and poke until they finish.DPDispatcher will monitor (poke) until these jobs finish and download the results files (if these jobs is running on remote systems connected by SSH).For more information, check the [documentation](https://dpdispatcher.readthedocs.io/).## InstallationDPDispatcher can installed by `pip`:```bashpip install dpdispatcher```## UsageSee [Getting Started](https://dpdispatcher.readthedocs.io/en/latest/getting-started.html) for usage.## ContributingDPDispatcher is maintained by Deep Modeling's developers and welcome other people.See [Contributing Guide](CONTRIBUTING.md) to become a contributor! 🤓</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;h1 align=&quot;center&quot;&gt;    &lt;b&gt;        &lt;a href=&quot;https://github.com/HuyaneMatsu/scarletio&quot;&gt;            scarletio        &lt;/a&gt;    &lt;/b&gt;&lt;/h1&gt;&lt;p align=&quot;center&quot;&gt;    &lt;b&gt;        Asynchronous blackmagic &amp; Witchcraft    &lt;/b&gt;&lt;/p&gt;&lt;br&gt;----Scarletio is a coroutine based concurrent Python library using modern `async / await` syntax. It abstracts awaythreading behind event loops providing concurrent API since the start.One of the core concept of the library, that event loops should not intercept with synchronous code execution. Whenan event loop is started it will not block the control flow. Synchronizations like starting new asynchronousprocedures and retrieving their result cross environment allows you to snuggle synchronous with asynchronous modelswell.</longdescription>
+</pkgmetadata>

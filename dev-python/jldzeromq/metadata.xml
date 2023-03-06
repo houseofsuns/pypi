@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Overview--------Collection of 0mq related scripts* jld0sub: subscribe to topics, output to stdout w/wo JSON* jld0pub: publish to a topic, input from stdin w/wo JSON* jld0fabric: fabric to publish/subscribe pattern* jld0fabric_default: fabric with some default settings* jld0send : send message to fabric for all the subscribers</longdescription>
+</pkgmetadata>

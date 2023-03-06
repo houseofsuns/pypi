@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># MambaMamba is a framework to write, compile, and deploy smart contractswritten in Vyper language and Solidity language. On top of that, it has supports for writingand testing decentralized applications using Web3.py and Pytest.## Dependencies* [Ganache](https://www.trufflesuite.com/ganache)* [Ganache CLI](https://github.com/trufflesuite/ganache-cli)* [Pip](https://pypi.org/project/pip/)* [Python3](https://www.python.org/downloads/) version 3.6 or greater* [Go Ethereum](https://geth.ethereum.org/downloads/)* [Vyper](https://github.com/ethereum/vyper)* [Solidity](https://soliditylang.org)## InstallationYou can install the latest release via ``pip``:```bash$ pip install black-mamba```To use Solidity, you must install ``solc`` compiler separately.## Quick UsageTo set up the the structure of Mamba project directory:```bash$ mamba init$ edit contracts/HelloWorld.vy$ mamba compile```## DocumentationMamba documentation can be found at [Mamba website](https://mamba.black/documentation).## ContributingI invite you to join Mamba squad! You can contribute to Mamba bywriting documentation, finding bugs, and creating pull requests.</longdescription>
+</pkgmetadata>

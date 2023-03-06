@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># DialecticMathematical logic implementation using python.### Install```pip install dialectic```### Usage```pythonfrom dialectic import Atomic# Atomic objectsa = Atomic('a')b = Atomic('b')# Invertinvert = ~a# Conjunctionconjunction = (a &amp; b)# Disjunctiondisjunction = (a | b)# Implicationimplication = (a &gt; b)# Equality (iff)equality = (a == b)# Validation with given sentence setimplication.validate({a, b})# Parsing a sentence listfrom dialectic import parse_sentencesparsed_set = parse_sentences([implication, a])# Inferencefrom dialectic import Inferenceis_valid = Inference((a &gt; b), [b]).is_valid_argument()is_tautology = Inference((a | ~a)).is_tautology()is_contradictory = Inference((a &amp; ~a)).is_contradictory()is_contingent = Inference((a &amp; b)).is_contingent()```</longdescription>
+</pkgmetadata>

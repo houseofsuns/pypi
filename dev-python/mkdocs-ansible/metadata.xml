@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># mkdocs-ansible themeThis [mkdocs](https://www.mkdocs.org/) theme is based on [mkdocs-material](https://squidfunk.github.io/mkdocs-material/) and aims to provide a consistentlook and feel for any project related to [Ansible](https://docs.ansible.com/) ecosystem.Some of the projects that use this theme are:- [ansible-compat](https://ansible-compat.readthedocs.io/)- [ansible-devtools](https://ansible-devtools.readthedocs.io/)- [ansible-language-server](https://ansible-language-server.readthedocs.io/)- [ansible-lint](https://ansible-lint.readthedocs.io/)- [ansible-navigator](https://ansible-navigator.readthedocs.io/en/latest/)- [molecule](https://molecule.readthedocs.io/)</longdescription>
+</pkgmetadata>

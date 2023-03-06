@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![Dev Build Status](https://travis-ci.com/drforse/aiogram_oop_framework.svg?branch=master)](https://travis-ci.com/drforse/aiogram_oop_framework)  # aiogram_oop_frameworkAn extender for aiogram to make it more OOPdocs: https://aiogram-oop-framework.readthedocs.io/en/latest## [Live Templates](https://www.jetbrains.com/help/pycharm/using-live-templates.html) for PyCharmYou can find live templates in &quot;misc/idea/live templates&quot;  To just install them all import all.zip through File | Manage IDE Settings | Import  To install some of them you should follow these instructions:1) copy the content of file with template which you want to add2) go to File | Settings | Editor | Live Templates3) add Template Group with any name you want (not required)4) add Live Template to the group you created (or Python group)5) Paste content to the created Live Template6) Click edit variables7) Edit variables as showed below:    Name|Expression|Default value|Skip if defined       ---|---|---|---    CLASS_NAME|capitalize(fileNameWithoutExtension())|   |as you wish</longdescription>
+</pkgmetadata>

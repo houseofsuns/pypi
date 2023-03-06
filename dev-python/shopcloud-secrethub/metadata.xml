@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Shopcloud SecretHub CLIThe SecretHub CLI provides the command-line interface to interact with the SecretHub API.## install```$ pip install shopcloud_secrethub```### Usage__Reading and writing secrets:__```sh$ secrethub auth$ secrethub read &lt;secret-name&gt;$ secrethub write &lt;secret-name&gt; &lt;value&gt;```__Provisioning your applications with secrets:__Provision a template file```sh$ secrethub inject -i app.temp.yaml -o app.yaml# app.temp.yamlenv_variables:  ENV: {{ talk-point/test-repo/env }}  SECRET_KEY: {{ talk-point/test-repo/secret_key }}```Provision to the environment```sh$ eval `secrethub printenv -i app.temp.yaml`# app.temp.yamlenv_variables:  ENV: {{ talk-point/test-repo/env }}  SECRET_KEY: {{ talk-point/test-repo/secret_key }}```__in Code:__```pyfrom shopcloud_secrethub import SecretHubhub = SecretHub(user_app=&quot;test-script&quot;, api_token='&lt;TOKEN&gt;')hub.read('talk-point/test-repo/secret_key')```### Deploy to PyPi```sh$ rm -rf build dist$ pip3 install wheel twine$ python3 setup.py sdist bdist_wheel$ twine upload dist/*```</longdescription>
+</pkgmetadata>

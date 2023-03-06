@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>==========================Welcome to networking-odl!==========================.. Team and repository tags.. image:: http://governance.openstack.org/badges/networking-odl.svg    :target: http://governance.openstack.org/reference/tags/index.html.. Change things from this point onSummary-------OpenStack networking-odl is a library of drivers and plugins that integratesOpenStack Neutron API with OpenDaylight Backend. For example it has ML2driver and L3 plugin to enable communication of OpenStack Neutron L2and L3 resources API to OpenDayLight Backend.To report and discover bugs in networking-odl the followinglink can be used:https://bugs.launchpad.net/networking-odlAny new code submission or proposal must follow the developmentguidelines detailed in HACKING.rst and for further details thislink can be checked:https://docs.openstack.org/networking-odl/latest/The OpenDaylight homepage:https://www.opendaylight.org/Release notes for the project can be found at:https://docs.openstack.org/releasenotes/networking-odl/The project source code repository is located at:https://opendev.org/openstack/networking-odl</longdescription>
+</pkgmetadata>

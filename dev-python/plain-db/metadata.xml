@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># plain_dbPlain txt db## usage```import plain_dbcounter = plain_db.load('counter')counter.update('abc', 2)counter.inc('abc', 1)counter.get('abc') # 3```## how to install`pip3 install plain_db`</longdescription>
+</pkgmetadata>

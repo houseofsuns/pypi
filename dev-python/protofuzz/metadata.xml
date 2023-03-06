@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&quot;ProtoFuzz is a generic fuzzer for Google’s Protocol Buffers format.Instead of defining a new fuzzer generator for custom binary formats, protofuzz automatically creates a fuzzer based onthe same format definition that programs use. ProtoFuzz is implemented as a stand-alone Python3 program.</longdescription>
+</pkgmetadata>

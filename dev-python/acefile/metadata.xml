@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This single-file, pure python 3, no-dependencies implementation is intendedto be used as a library, but also provides a stand-alone unace utility.As mostly pure-python implementation, it is significantly slower thannative implementations, but more robust against vulnerabilities.This implementation supports up to version 2.0 of the ACE archive format,including the EXE, DELTA, PIC and SOUND modes of ACE 2.0, password protectedarchives and multi-volume archives.  It does not support writing to archives.It is an implementation from scratch, based on the 1998 document titled&quot;Technical information of the archiver ACE v1.2&quot; by Marcel Lemke, usingunace 2.5 and WinAce 2.69 by Marcel Lemke as reference implementations.For more information, API documentation, source code, packages and releasenotifications, refer to:- https://www.roe.ch/acefile- https://apidoc.roe.ch/acefile- https://github.com/droe/acefile- https://pypi.python.org/pypi/acefile- https://twitter.com/droethlisberger</longdescription>
+</pkgmetadata>

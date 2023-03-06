@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>routemaster-sentry^^^^^^^^^^^^^^^^^^Usage, in your Routemaster configuration file:.. code-block:: yaml   plugins:     logging:       - class: routemaster_sentry.logger:SentryLogger         kwargs:           dsn: https://xxxxxxx:xxxxxxx@sentry.io/xxxxxxx</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Anilist Man&lt;p align=&quot;left&quot;&gt;  &lt;img src=&quot;https://repository-images.githubusercontent.com/463782270/36ac76f6-ad08-486a-94ff-b1b2a082f95b&quot; alt=&quot;Banner&quot; width=&quot;792&quot;&gt;&lt;/p&gt;`anilist-man` : python command-line tool for managing your data on [AniList](https://anilist.co) , made by [@ayushsehrawat](https://github.com/AyushSehrawat) in Typer.---## Contents * [Why?](#why) * [Installation](#installation) * [Usage](#usage)---## Why?`anilist-man` is a tool which can- Easily update progress in few steps- Remove the hassle of finding via search by chapter- Has custom name for better user friendly and easier to navigate---## Installation&lt;p align=&quot;left&quot;&gt;  &lt;img src=&quot;https://github.com/minihut/anilist-man/raw/main/img/pip.png&quot; alt=&quot;Pip&quot; width=&quot;500&quot;&gt;&lt;/p&gt;## Usage&lt;p align=&quot;left&quot;&gt;  &lt;img src=&quot;https://github.com/minihut/anilist-man/raw/main/img/usage.png&quot; alt=&quot;CMD&quot; width=&quot;500&quot;&gt;&lt;/p&gt;#### Todo- [x] Register on pypi ( python main.py -&gt; some_command )- [x] Fix `--` not in cli ( due to some issue not showing )- [x] Add more support and commands- [ ] Simply code- [x] Fix saving of file issue#### Usage of codeUsage of code for personal use ( editing , etc ) is allowed but user should give credits to this repository</longdescription>
+</pkgmetadata>

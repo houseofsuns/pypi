@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Phenrsteno==========.. figure:: https://raw.githubusercontent.com/wiki/contrum/plover-phenrsteno/png/layout.png   :alt: Stenotype layout for Phenrsteno   Stenotype layout for PhenrstenoNon-rhotic phonemic system for`Plover &lt;https://github.com/openstenoproject/plover&gt;`__. See the`wiki &lt;https://github.com/contrum/plover-phenrsteno/wiki&gt;`__ to learnmore.Installation------------1. Install `Plover version   4.x.x &lt;https://github.com/openstenoproject/plover/releases&gt;`__2. In the main Plover window, select ``Plugins Manager`` from the   toolbar   -  In the plugins list, find and select plover-phenrsteno and click      ``Install/Update``3. Quit (Ctrl-q) and re-open Plover4. In the main Plover window, select ``Configure``   -  Go to the ``System`` tab   -  Select ``Phenrsteno`` from the dropdown box   -  Click ``OK``Usage-----Once installed, you have two options:-  Use someone else’s dictionaries-  Create your ownYou can `download my dictionaries from thisrepository &lt;https://github.com/contrum/plover-phenrsteno/tree/master/json&gt;`__.``verbatim.json`` is for fingerspelling individual letters.``vocabulary.json``, ``prefixes.json``, and ``suffixes.json`` are fortranscribing (British) English words.In Plover, click the big green plus icon to add dictionaries.</longdescription>
+</pkgmetadata>

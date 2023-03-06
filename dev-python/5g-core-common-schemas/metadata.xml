@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># 5g-core-common-schemasCommon schemas used in 5G core network services.## UsageInstall the package:```bashpip install 5g-core-common-schemas```Use the library in your project:```pythonfrom fiveg_core_common_schemas.NfInstanceId import NfInstanceIdmy_instance = NfInstanceId(&quot;banana&quot;)```</longdescription>
+</pkgmetadata>

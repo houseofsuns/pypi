@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>rabbitpy - RabbitMQ simplified==============================A pure python, thread-safe, minimalistic and Pythonic BSD LicensedAMQP/RabbitMQ library that supports Python 2.7+ and Python 3.4+.rabbitpy aims to provide a simple and easy to use API for interfacing withRabbitMQ, minimizing the programming overhead often found in other libraries.|Version| |Downloads| |Status| |Coverage| |License|Installation------------rabbitpy may be installed via the Python package index with the tool ofyour choice. I prefer pip:.. code:: bash    pip install rabbitpyBut there's always easy_install:.. code:: bash    easy_install rabbitpyDocumentation-------------Documentation is available on `ReadTheDocs &lt;https://rabbitpy.readthedocs.io&gt;`_.Requirements-------------  `pamqp &lt;https://github.com/pika/pamqp&gt;`_Version History---------------Available at https://rabbitpy.readthedocs.org/en/latest/history.html.. |Version| image:: https://img.shields.io/pypi/v/rabbitpy.svg?   :target: http://badge.fury.io/py/rabbitpy.. |Status| image:: https://img.shields.io/travis/gmr/rabbitpy.svg?   :target: https://travis-ci.org/gmr/rabbitpy.. |Coverage| image:: https://img.shields.io/codecov/c/github/gmr/rabbitpy.svg?   :target: https://codecov.io/github/gmr/rabbitpy?branch=master.. |Downloads| image:: https://img.shields.io/pypi/dm/rabbitpy.svg?   :target: https://pypi.python.org/pypi/rabbitpy.. |License| image:: https://img.shields.io/pypi/l/rabbitpy.svg?   :target: https://rabbitpy.readthedocs.org</longdescription>
+</pkgmetadata>

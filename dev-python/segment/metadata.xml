@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Segment is the simplest way to integrate analytics into your application.One API allows you to turn on any other analytics service. No more learningnew APIs, repeated code, and wasted development time.This is the official python client that wraps the Segment REST API (https://segment.com).Documentation and more details at https://github.com/segmentio/analytics-python</longdescription>
+</pkgmetadata>

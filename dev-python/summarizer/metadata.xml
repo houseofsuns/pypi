@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Summarizer [![Build Status](https://travis-ci.org/michigan-com/summarizer.svg)](https://travis-ci.org/michigan-com/summarizer)==========Summarizer is an automatic summarization algorithm.Requirements------------* Python 2.7, 3.3, 3.4, or 3.5* NLTKInstall it----------```pip install summarizer```Use it------```from summarizer import summarizesummarize(title, text)```Documentation-------------Summarizer.summarize(title, text, count=5, summarizer=Summarizer())* title: The title of the article* text: The actual text of the article* count: The number of summarized sentences to return* summarizer: The class instance that will do all the workContributing------------All contributions must be accompanied by some form of unit testingCHANGES=======v0.0.7------* Added python 3.5 to travis* Moved `SentenceTokenizer` to its own file* Added `dept` to `abbrev_types`v0.0.6------* [FIX] Sgt, Gov, and No abbreviations accounted forv0.0.5 10-01-2015-----------------* [FIX] Python2.7 unicode errors* Updated PunktLanguageVars to detect special quotation marksv0.0.4 10-01-2015-----------------* [FIX] PYPI didn't pick up the new training data in JSON formatv0.0.3 10-01-2015-----------------* [FIX] Tokenizer would think a custom abbreviation, F.B.I., was a sentence break* [FIX] Added sanitizer module to preprocess text before summarizing it* [TESTS] Added ability to pull valid tokenized articles from brevity.detroitnow.ioand test that the new tokenizer is still validv0.0.2 08-26-2015-----------------* PYPI not picking up data filesv0.0.1 08-26-2015-----------------* Added setup.py* Added \_\_version\_\_* Added unit tests</longdescription>
+</pkgmetadata>

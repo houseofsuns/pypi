@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>PythonBQ==========Python wrapper for easy use of big queryFeatures--------- Easily pull big query data from pythonSetup----------Make sure you have Python 3.7.x (or higher) installed on your system. You can download it [here](https://www.python.org/downloads/).### Installation```pip install pythonbq```### Example```from pythonbq import pythonbqmyProject=pythonbq(  bq_key_path='path/to/bq/key.json',  project_id='myGoogleProjectID',  legacy_sql=False)output=myProject.query(sql=&quot;&quot;&quot;select * from myProjectTable&quot;&quot;&quot;)```### Documentation for pythonbq Functionshttps://connor-makowski.github.io/pythonbq/pythonbq.html### Output Data- Output from the `query` function is returned as a list of dictionaries  - This can be modified by specifying the argument `out_type` in your `.query()`    - `dict`: list of dictionaries    - `list`: list of lists (header as the first row)    - `raw`: list of lists (with no header row)    - EG:      ```      output=myProject.query(sql=&quot;&quot;&quot;select * from myProjectTable&quot;&quot;&quot;, out_type='list')      ```- EG:   ```  query = &quot;&quot;&quot;      SELECT name FROM `bigquery-public-data.usa_names.usa_1910_2013`      WHERE state = &quot;TX&quot;      LIMIT 5  &quot;&quot;&quot;  myProject = pythonbq(      key_path='./private/bq_key.json',  )  output = myProject.query(sql=query)  # output = [{'name': 'Mary'}, {'name': 'Roberta'}, {'name': 'Marguerite'}, {'name': 'Katie'}, {'name': 'Eunice'}]  ```</longdescription>
+</pkgmetadata>

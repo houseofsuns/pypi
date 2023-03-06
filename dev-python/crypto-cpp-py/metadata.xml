@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Crypto-cpp-py=============A python packaged `crypto-cpp &lt;https://python-poetry.org/&gt;`_ library, that can be used for hashing and signing messages in starknet.Dependencies------------- cairo-lang- cmake [optional, for building package from sdist; can be installed with `pip install crypto-cpp-py[build]`]</longdescription>
+</pkgmetadata>

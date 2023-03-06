@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Django Endless Pagination can be used to provide Twitter-style orDigg-style pagination, with optional Ajax support and other featureslike multiple or lazy pagination.The initial idea, which has guided the development of this application,is to allow pagination of web contents in `very few steps&lt;http://django-endless-pagination.readthedocs.org/en/latest/start.html&gt;`_.**Documentation** is `avaliable online&lt;http://django-endless-pagination.readthedocs.org/&gt;`_, or in the docsdirectory of the project.To file **bugs and requests**, please usehttps://github.com/frankban/django-endless-pagination/issues.The **source code** for this app is hosted athttps://github.com/frankban/django-endless-pagination.The **Mercurial repository** of this project is hosted athttps://bitbucket.org/frankban/django-endless-pagination.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>===============Tank Forecaster===============Small package for generating forecasts of fuel tank demand.Features--------- tank_forecaster.validation    - clean and format sales data    - clean and format tank reading data    - use sales data to impute missing values in tank readings- tank_forecaster.decompositions    - create seasonal decomposition curves (yearly / monthly / weekly)    - generate generic decomposition curves for instances of no data- tank_forecaster.forecaster    - create short term forecasts with generalized additive models (prophet)    - create long term forecasts with ARIMA type models- tank_forecaster.events    - define holidays and special events that effect fuel demandCredits-------This package was created with Cookiecutter=======History=======0.1.0 (2020-05-11)------------------* First release on PyPI.</longdescription>
+</pkgmetadata>

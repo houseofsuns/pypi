@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Aiml UAE Python libreryChange Log =============1.0.6 (06/07/2022)-------------------- Data From github1.0.8 (06/07/2022)-------------------- Excel file Support Added1.0.22 (07/07/2022)-------------------- New Datasets added</longdescription>
+</pkgmetadata>

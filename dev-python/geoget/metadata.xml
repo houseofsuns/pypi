@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># GeoGet&gt; Utility functions to download geo data.## Install`pip install geoget`## How to useGo to https://ladsweb.modaps.eosdis.nasa.gov/ and create an account and an authentication token. Then create `~/.ladsweb` file with the following format where you should write your email and token (key):```bash# To create an account and an authentication token visit ladsweb website.{    &quot;url&quot;   : &quot;https://ladsweb.modaps.eosdis.nasa.gov&quot;,    &quot;key&quot;   : &quot;&quot;,    &quot;email&quot; : &quot;&quot;}```    The following bash script shows an example of how to make a request:```bash#!/bin/bash -l bbox='-10 36 0 44'product=&quot;NPP_VMAES_L1&quot;collection=&quot;5000&quot;tstart=&quot;2017-10-27 00:00:00&quot;tend='2017-10-27 23:59:59'path_save=&quot;/srv/geoget/data&quot;bands=&quot;Reflectance_M5 Reflectance_M7 Reflectance_M10 Radiance_M12 Radiance_M15 SolarZenithAngle SatelliteZenithAngle&quot;geoget_ladsweb $product $collection &quot;$tstart&quot; &quot;$tend&quot; &quot;$bbox&quot; $path_save &quot;$bands&quot; --repName &quot;GEO&quot; --repPixSize &quot;0.01&quot; --daynight &quot;D&quot;```In case you need to stop the request (it may take a while until the files are available) you can later call `geoget_order_manager  .` on `path_save` directory and all requests in the log file will continue to be processed.**Note:** Library under development. Examples above were tested in Ubuntu 16.04 LTS.</longdescription>
+</pkgmetadata>

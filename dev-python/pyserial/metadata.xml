@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Python Serial Port Extension for Win32, OSX, Linux, BSD, Jython, IronPythonStable:- Documentation: http://pythonhosted.org/pyserial/- Download Page: https://pypi.python.org/pypi/pyserialLatest:- Documentation: http://pyserial.readthedocs.io/en/latest/- Project Homepage: https://github.com/pyserial/pyserial</longdescription>
+</pkgmetadata>

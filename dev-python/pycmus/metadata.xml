@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>======pycmus======A python library for sending commands to the cmus music player:https://cmus.github.io/It uses the same socket interface as the cmus-remote command.Complete documentation is here: http://pycmus.readthedocs.io/en/latest/Usage=====Using pycmus is pretty straightforward you just need to init a PyCmus objectand then issue commands to it. For example::  from pycmus import remote  cmus = remote.PyCmus()  print(cmus.status())will connect to a running cmus instance (with the socket file in the defaultlocation) and print the player status.For a complete API documentation see: :ref:`pycmus_api`.</longdescription>
+</pkgmetadata>

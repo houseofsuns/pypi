@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Python Interface to NKF21. How to Install  Install from PyPI:    $ sudo pip install nkf  Install from source tree:    $ make    $ sudo make install2. Usage    ## flag is same as the flags of nkf itself    import nkf    output = nkf.nkf(flag, input)    ## For example, to convert from euc-jp to utf-8    output = nkf.nkf('-Ew', 'some euc-jp string')3.  guess() function,    which guesses input_string_code and returns one of next strings:        &quot;BINARY&quot;        &quot;ASCII&quot;        &quot;Shift_JIS&quot;        &quot;CP932&quot;        &quot;EUC-JP&quot;        &quot;EUCJP-MS&quot;        &quot;CP51932&quot;        &quot;ISO-2022-JP&quot;        &quot;CP50221&quot;        &quot;CP50220&quot;        &quot;UTF-8&quot;        &quot;UTF-16&quot;        &quot;UTF-32&quot;    ## For example    import nkf    input_code = nkf.guess('some string')</longdescription>
+</pkgmetadata>

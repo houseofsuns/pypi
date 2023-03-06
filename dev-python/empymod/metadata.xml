@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image:: https://raw.github.com/emsig/logos/main/empymod/empymod-logo.png   :target: https://emsig.xyz   :alt: empymod logoOpen-source full 3D electromagnetic modeller for 1D VTI media- **Website:** https://emsig.xyz- **Documentation:** https://empymod.emsig.xyz- **Source Code:** https://github.com/emsig/empymod- **Bug reports:** https://github.com/emsig/empymod/issues- **Contributing:** https://empymod.emsig.xyz/en/latest/dev- **Contact:** see https://emsig.xyz- **Zenodo:** https://doi.org/10.5281/zenodo.593094Available through ``conda`` and ``pip``; consult the `documentation&lt;https://empymod.emsig.xyz&gt;`_ for detailed installation instructions.</longdescription>
+</pkgmetadata>

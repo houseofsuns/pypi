@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>rpmfluff provides a python library for building RPM packages, andsabotaging them so they are broken in controlled ways.It is intended for use when validating package analysis tools such as RPM lint.It can also be used to construct test cases for package management softwaresuch as RPM, YUM, and DNF.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Steamship Python Client LibrarySteamship is the fastest way to build, ship, and use full-lifecycle language AI.## InstallingInstall via pip:```pip install steamship```We also recommend installing the Steamship CLI for project management:```npm install -g @steamship/cli```</longdescription>
+</pkgmetadata>

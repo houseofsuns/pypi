@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># chaoxingxuexitong-fileloads 下载学习通课件视频  觉得输入太多麻烦可以走极简通道，此时记得至少改个基本目录和链接，其他参数自定义，不改按默认参数。  使用方法代码里写了不少  只运行代码2即可，代码已作为模块导入  大致流程依次：mode_op 模式选择9自定义，中间值仅第一次循环极简,0极简.loop_op 按2自动循环1手动单次.file_class 输入循环下载类型3全部2pdf1mp4不下载0,start_inPage章节内页面跟着提示即可</longdescription>
+</pkgmetadata>

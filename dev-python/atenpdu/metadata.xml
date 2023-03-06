@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pductl - Control outlets of ATEN PE PDUs## Installation```shpip install atenpdu``` ## Example configuration [~/.pductl]```json{  &quot;format&quot;: 1,  &quot;pdus&quot;: {    &quot;pdu1&quot;: {      &quot;node&quot;: &quot;pdu1&quot;,      &quot;service&quot;: &quot;snmp&quot;,      &quot;username&quot;: &quot;administrator&quot;,      &quot;authkey&quot;: &quot;AAAAAAAAAAAAAA&quot;,      &quot;privkey&quot;: &quot;BBBBBBBBBBBBBB&quot;    },    &quot;pdu2&quot;: {      &quot;authkey&quot;: &quot;CCCCCCCCCCCCCC&quot;,      &quot;privkey&quot;: &quot;DDDDDDDDDDDDDD&quot;    },    &quot;pdu3&quot;: {      &quot;node&quot;: &quot;192.168.21.19&quot;,      &quot;service&quot;: &quot;16161&quot;,      &quot;username&quot;: &quot;joe&quot;,      &quot;authkey&quot;: &quot;EEEEEEEEEEEEEE&quot;,      &quot;privkey&quot;: &quot;FFFFFFFFFFFFFF&quot;    },    &quot;pdu4&quot;: {      &quot;community&quot;: &quot;private&quot;    },    &quot;pdu5&quot;: {    }  }}```* `authkey` and `privkey` are required for SNMPv3. On absence, SNMPv2c gets used.* `community` defaults to `private` for SNMPv2c.* `node` defaults to PDU entry's name.* `service` defaults to `snmp`, i.e. port 161.* `username` defaults to `administrator` for SNMPv3.## Usage```shpductl [-p &lt;PDU&gt;] listpductl [-p &lt;PDU&gt;] &lt;on|off|reboot|status&gt; &lt;OUTLET&gt; [&lt;OUTLET&gt; ...]```Use `ALL` to select all outlets.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Summary-------This cube stores the data found in a version content managerrepository. It currently works with mercurial repositories.The revision metadata (parents, author, description, etc) is stored inentities, and thus accessible from RQL, but the files and contents areread from the VCS on demand.Notice this cube depends on mercurial's `evolve extension`_. If you installvcsfile using a Debian package, you'll probably have to add Logilab's backportrepository to find the `mercurial-evolve` package, e.g. ::  deb  http://download.logilab.org/backports/dists/ jessie/On other system, you're on your own... _`evolve extension`: https://bitbucket.org/marmoute/mutable-history</longdescription>
+</pkgmetadata>

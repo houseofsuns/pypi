@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ST common data## Introduction`st_common_data` is common data that is used in different ST projects.## Installation```shellpip install st_common_data```## Usage```pythonfrom st_common_data.nyse_holidays import NYSE_HOLIDAYSfrom st_common_data.utils.common import (    is_holiday,    get_current_eastern_datetime,    round_half_up_decimal,    # ....     )```## To update pip package via terminal:1) Add updates2) Change version in st_common_data.\__init\__.py3) Commit changes4) Run build:```python3 -m buildpython3 -m pip install --upgrade twine```5) Run this command from the same directory where dist directory is located:```twine upload --skip-existing dist/*```</longdescription>
+</pkgmetadata>

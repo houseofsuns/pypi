@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## amis-python&lt;p align=&quot;center&quot;&gt;    &lt;a href=&quot;https://cdn.jsdelivr.net/gh/CMHopeSunshine/amis-python@master/LICENSE&quot;&gt;&lt;img src=&quot;https://img.shields.io/github/license/CMHopeSunshine/amis-python&quot; alt=&quot;license&quot;&gt;&lt;/a&gt;    &lt;img src=&quot;https://img.shields.io/badge/Python-3.7+-yellow&quot; alt=&quot;python&quot;&gt;    &lt;img src=&quot;https://img.shields.io/pypi/v/amis-python&quot; alt=&quot;version&quot;&gt;&lt;/p&gt;基于 [百度amis](https://github.com/baidu/amis) 前端框架的python pydantic模型封装。由于[原版本](https://github.com/amisadmin/fastapi_amis_admin/tree/master/fastapi_amis_admin/amis)缺少大量amis新版本的组件或配置，因此本项目在其版本的基础上进行了扩充。相比fastapi-amis-admin的版本：- 涵盖amis截至2.3.1版本的所有组件- 使用jinja2模板- 支持修改主题## 安装```pip install amis-python```## 简单使用```pythonfrom amis.components import Pagepage = Page(title='新页面', body='Hello World')# 输出为python字典print(page.to_dict())# 输出为jsonprint(page.to_json())# 输出为strprint(page.render())# 保存为html文件with open('HelloWorld.html', 'w', encoding='utf-8') as f:    f.write(page.render())```## 详细使用详见[amis官方文档](https://aisuda.bce.baidu.com/amis/zh-CN/docs/index)## 感谢- [amis](https://github.com/baidu/amis)- [fastapi-amis-admin](https://github.com/amisadmin/fastapi_amis_admin/tree/master/fastapi_amis_admin/amis)</longdescription>
+</pkgmetadata>

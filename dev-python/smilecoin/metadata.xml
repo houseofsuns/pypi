@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Smile Coin Web3 SDK### Convert any platform to Web3 in 10 lines of code!Find documentation [here.](https://smile-coin.gitbook.io/sdk-docs/)</longdescription>
+</pkgmetadata>

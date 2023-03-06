@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Project: simplefileserver         -----------------------                ```            Simple File Server By Bottle with Paste(Multi-threaded Library)        ```                Usage:        -----------------------        ```python            &gt;&gt;&gt; from simplefileserver import server            &gt;&gt;&gt; server()            &gt;&gt;&gt; server(8080) # server(server_port)        ```        ```shell            $ simplefileserver            $ simplefileserver 8000        ```                Installation:        -----------------------        ``` bash            $ pip install simplefileserver        ```        Project History: simplefileserver         -----------------------                ## 0.0.3 (2015-02-03)        --------------------------        #### Behavioural Changes        * split file and directory with slash '/'                #### Bugfixes        * null                        ## 0.0.2 (2015-02-03)        --------------------------        #### Behavioural Changes        * null                #### Bugfixes        * add MANIFEST.in file: include data files/directories                        ## 0.0.1 (2015-02-03)        --------------------------        #### Behavioural Changes        * simple server ok                #### Bugfixes        * null</longdescription>
+</pkgmetadata>

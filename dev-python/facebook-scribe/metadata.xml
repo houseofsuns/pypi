@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Scribe client=============This is a Python client for scribe that can be installed using pip::    pip install facebook-scribeUsage-----Connect to ``HOST:9999`` using *Thrift*::    from scribe import scribe    from thrift.transport import TTransport, TSocket    from thrift.protocol import TBinaryProtocol    socket = TSocket.TSocket(host=&quot;HOST&quot;, port=9999)    transport = TTransport.TFramedTransport(socket)    protocol = TBinaryProtocol.TBinaryProtocol(trans=transport, strictRead=False, strictWrite=False)    client = scribe.Client(protocol)    transport.open()    category = 'LOGS'    message = 'hello world'    log_entry = scribe.LogEntry(category, message)    result = client.Log(messages=[log_entry])    if result == 0:      print 'success'Links-----* `Facebook Scribe on GitHub &lt;https://github.com/facebook/scribe&gt;`_</longdescription>
+</pkgmetadata>

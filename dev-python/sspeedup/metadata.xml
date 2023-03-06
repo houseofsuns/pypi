@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># sspeedup开发工具箱。- 缓存    - 过期缓存- 日志    - 运行日志- 终端彩色输出- 可选模块加载- 分词    - jieba        - 普通分词        - 搜索引擎分词        - 词性分词</longdescription>
+</pkgmetadata>

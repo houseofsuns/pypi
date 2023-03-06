@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>TMG ETL pipeline==================================TMG ETL pipeline is the base structure of our ETL pipelines.Any pipeline should inherit from TMGETLPipeline class and implement the necessary methods.Quick Start-----------Installation~~~~~~~~~~~~Install this library in a `virtualenv`_ using pip. `virtualenv`_ is a tool tocreate isolated Python environments. The basic problem it addresses is one ofdependencies and versions, and indirectly permissions... _`virtualenv`: https://virtualenv.pypa.io/en/latest/Supported Python Versions^^^^^^^^^^^^^^^^^^^^^^^^^Python &gt;= 3.5Mac/Linux^^^^^^^^^.. code-block:: console    pip install virtualenv    virtualenv &lt;your-env&gt;    source &lt;your-env&gt;/bin/activate    &lt;your-env&gt;/bin/pip install tmg-etl-pipelineExample Usage-------------.. code:: python    from tmg_etl_pipeline.etl import TMGETLPipeline    class MyETL(TMGETLPipeline):        def run(self):            # your ETL logic goes here            # access the configs            # self.config['some-config-variable']            # access the secrets            # self.secrets['some-secret-variable']        def cleanup(self):            # your clean up code goes here    etl = MyETL(app_name='your-app-name', config_path='path/to-the-config-file')    etl.execute()</longdescription>
+</pkgmetadata>

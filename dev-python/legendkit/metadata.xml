@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Mr-Milk/legendkit/main/images/legendkit-project.svg&quot;&gt;&lt;/p&gt;[![Documentation Status](https://img.shields.io/readthedocs/legendkit?logo=readthedocs&amp;logoColor=white&amp;style=flat-square)](https://legendkit.readthedocs.io/en/stable)![pypi version](https://img.shields.io/pypi/v/legendkit?color=blue&amp;logo=python&amp;logoColor=white&amp;style=flat-square)When you want to create or adjust the legend in matplotlib, things can get dirty. Legendkit may solve your headache.&lt;img src=&quot;https://legendkit.readthedocs.io/en/latest/_images/cover.svg&quot;&gt;## Features- Easy title placement and alignment- Easy colorbar with shape- Layout for multiple legends and colorbar*## Installation```shellpip install legendkit```</longdescription>
+</pkgmetadata>

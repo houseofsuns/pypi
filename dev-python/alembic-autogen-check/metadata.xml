@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># alembic-autogen-check[![Travis-CI](https://badgen.net/travis/4Catalyzer/alembic-autogen-check/master)](https://travis-ci.org/4Catalyzer/alembic-autogen-check)## Install```pip install alembic-autogen-check```## Usage```PYTHONPATH=. alembic-autogen-check```This assumes that an `alembic.ini` file exists in the current workingdirectory. You can explicitly pass a config file:```PYTHONPATH=. alembic-autogen-check --config path/to/alembic.ini```</longdescription>
+</pkgmetadata>

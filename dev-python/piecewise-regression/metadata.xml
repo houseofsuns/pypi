@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>piecewise-regression provides tools for fitting continuous straight line models to data with breakpoint(s) where the gradient changes. For docs and more information, visit the Github repo at https://github.com/chasmani/piecewise-regression.</longdescription>
+</pkgmetadata>

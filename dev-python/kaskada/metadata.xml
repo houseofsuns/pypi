@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Kaskada SDK## Developer InstructionsThe package uses Poetry to develop and build.1. Install Pyenv [Pyenv Documentation](https://github.com/pyenv/pyenv)1. Install Python 3.9.16: `$ pyenv install 3.9.16`1. Install Poetry [Poetry Documentation](https://python-poetry.org/docs/)1. Install dependences: `$ poetry install`### Run tasksThe package uses [`poethepoet`](https://github.com/nat-n/poethepoet) for running tasks#### Test TaskTo run tests: `$ poetry run poe test` #### Check Style TaskTo check the style: `$ poetry run poe style`#### Format TaskTo auto-format (isort + black): `$ poetry run poe format`#### Check Static Type TaskTo perform static type analysis (mypy): `$ poetry run poe types`#### Lint TaskTo run the linter (pylint): `$ poetry run poe lint`## Using the Client from Jupyter#### Install JupyterTo install Jupyter: `$ pip install notebook`#### Build the ClientTo build the client: `$ poetry build`#### Install the ClientTo install the client: `$ pip install dist/*.whl`#### Open a Jupyter NotebookTo open a notebook: `$ jupyter notebook`</longdescription>
+</pkgmetadata>

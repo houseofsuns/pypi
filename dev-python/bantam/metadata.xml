@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Bantam is a Python package for building http-based micro-services.It abstracts away any knowledge of routes, mappings and translationsbetween javascript and Python.  It even provides a means ofauto-generating the javascript client interface to you appon the fly and serve it to web-based/javascript-based clients.See https://nak.github.io/bantam_docs/ for details.    </longdescription>
+</pkgmetadata>

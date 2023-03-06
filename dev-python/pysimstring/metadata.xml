@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># SimString Python PackageOrginal version by [chokkan](https://github.com/chokkan/simstring) and [QuickUMLS](https://github.com/Georgetown-IR-Lab/simstring).This version removes the [libiconv](https://www.gnu.org/software/libiconv/) dependencywhich required a conda installation before installing the simstring package on Windows.</longdescription>
+</pkgmetadata>

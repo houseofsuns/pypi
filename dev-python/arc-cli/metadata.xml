@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ARC: A Regular CLIA tool for building declartive, and highly extendable CLI systems for Python 3.9# ARC Features- Command line arguments based on python type hints- Arbitrary command nesting- Automatic `--help` documentation- Dynamic command loading at runtime# [Docs](http://arc.seanrcollings.com)# Quick Start```pyimport arc@arc.command()def hello(name: str):    &quot;&quot;&quot;My first arc program!&quot;&quot;&quot;    arc.arc.print(f&quot;Hello {name}!&quot;)hello()``````$ python hello.py SeanHello, Sean!``````USAGE    hello.py [-h] [--] nameDESCRIPTION    My first arc program!ARGUMENTS    nameOPTIONS    --help (-h)  Displays this help message```# Installation```$ pip install arc-cli```Clone for development```$ git clone https://github.com/seanrcollings/arc$ poetry install```# TestsTests are written with `pytest````$ pytest```</longdescription>
+</pkgmetadata>

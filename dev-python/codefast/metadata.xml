@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>A package encapsulating a few frequently used functions for faster Python programming. ## Install`python3 -m pip install codefast`Or, update to latest version with:`python3 -m pip install codefast --upgrade`## Usage### 1. Manipulate JSON Files```pythonimport codefast as cf# read filejson_content = jsn.read('json_file.json')# write filejson.write(json_content, '/tmp/json_file.json)```### 2. Manipulate CSV Files```pythonimport codefast as cf# read filecontent = cf.csv.read('somefile.csv')# write filecf.csv.write(content, 'somefile.csv')```### 3. Manipulate normal Files```pythonimport codefast as cf# read filecontent = io.read('somefile.txt')# or content = cf.file.read# write fileio.write(content, 'somefile.txt')```### 4. Logging```pythonimport codefast as cfcf.info(&quot;Here we go&quot;)cf.warn(&quot;Not good, something went wrong&quot;)cf.error(&quot;Unexpected result&quot;)```### 5. Others```pythonimport codefast as cfcf.post('www.abcde.com', json={}) # encapsulate requests.postcf.get('wwww.example.com') # encapsulate requests.getcf.shell('ls -lt') # run system command```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Patchwork nodeWorker node for Patchwork - an asynchronous distributed microservices framework.## Requirements* Python 3.7## Installation``pip install pachwork-node``## Documentationhttps://patchwork-framework.gitlab.io/core</longdescription>
+</pkgmetadata>

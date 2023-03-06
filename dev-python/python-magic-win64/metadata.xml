@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This module uses python-magic to access libmagic functionality.It also distributes and automatically injects the magic library for 64-bit Windows &amp; python.Can be used as a drop-in replacement for python-magic by using `from winmagic import magic`.</longdescription>
+</pkgmetadata>

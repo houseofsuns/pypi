@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Introducing nsfds2==================|Pypi| |Licence| |DOI|.. image:: https://github.com/ipselium/nsfds2/blob/master/docs/source/images/nsfds2.png**nsfds2** is 2D Navier-Stokes Solver that uses finite difference method.**nsfds2** is specialized in acoustic simulations.**nsfds2** is still in developpement. It is still full of bugs and comes with**ABSOLUTELY NO WARRANTY**.Dependencies------------:python: &gt;= 3.6:numpy: &gt;= 1.1:matplotlib: &gt;= 3.0:h5py: &gt;= 2.8:progressbar33: &gt;= 2.4:ofdlib2: &gt;= 0.11.0:fdgrid: &gt;= 0.11.0:mplutils: &gt;= 0.4.2**Important:** To create animations using **nsfds2 make movie**, you also need tohave **ffmpeg** installed on your system.Installation------------To install **nsfds2**:.. code:: console   $ pip install nsfds2**Note:** To compile *ofdlib2*, OS X users may recquire:.. code:: console   $ xcode-select --installLinks------ **Documentation:** http://perso.univ-lemans.fr/~cdesjouy/nsfds2/- **Source code:** https://github.com/ipselium/nsfds2- **Bug reports:** https://github.com/ipselium/nsfds2/issues- **fdgrid:** https://github.com/ipselium/fdgrid.. |Pypi| image:: https://badge.fury.io/py/nsfds2.svg    :target: https://pypi.org/project/nsfds2    :alt: Pypi Package.. |Licence| image:: https://img.shields.io/github/license/ipselium/nsfds2.svg.. |DOI| image:: https://zenodo.org/badge/178000566.svg    :target: https://zenodo.org/badge/latestdoi/178000566</longdescription>
+</pkgmetadata>

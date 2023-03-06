@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image:: https://bytebucket.org/tt-lab/ttlab/raw/07af7e037611c6d2b47aef425bc7e078519c04ce/assets/header.png?token=9425964a76732a6a54d81fb58935ae6dc8acbfa4TT - lab========Easy to use import scripts for the most common physics equipments such as XPS, mass spectrometer, light spectrometers.Functions for the most typical analysis procedures.Installation--------------.. code-block:: console    $ pip install ttlabHow to use----------For full explanation, see the documentation at 'link'.Example with mass spectrometer data:.. code-block:: python    from ttlab import MassSpectrometer    # Create a mass spec object    filename = 'path/filename.asc'    MS = MassSpectrometer(filename)    # Check what gases are included in the data    print(MS.gases)    # Plot one of the gases, using matploltlib, returns the axes    ax = MS.plot_gas('Ar')        # Get the ion current and the relative time for the gas, returns np arrays with the data    ion_current_argon = MS.get_ion_current('Ar')    time_relative = MS.get_relative_time('Ar')License-------MIT licenseFeel free to use ttlab in whatever way you want to.</longdescription>
+</pkgmetadata>

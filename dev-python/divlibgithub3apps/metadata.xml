@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># github3apps.pyThis project is an extension to the [github3.py](https://github.com/sigmavirus24/github3.py) project, with the purpose of enabling [GitHub Application](https://developer.github.com/apps/) development.Using this library developers can access all of the special App endpoints as well as pull out a `github3.py` client authenticated by a specific installation.## Usage### Connect to Github as ApplicationTo connect you need to pass the app id and the location of your app's private key.```pythonfrom github3apps import GithubAppgha = GithubApp(app_id, path_to_private_key)gha.set_user_agent('MyApp')gha.get_app()```### List Available InstallationsThis returns the list of installations IDs available to your application.```pythonfrom github3apps import GithubAppgha = GithubApp(app_id, path_to_private_key)installation_ids = gha.get_installations()```### Get Repositories Available to InstallationThis returns the list of repositories available to your specific installation.```pythonfrom github3apps import GithubAppgha = GithubApp(app_id, path_to_private_key)installation = gha.get_installation(installation_id)installation.get_repositories()```### Communicate with Github API as InstallationThis returns a [github3.py](https://github.com/sigmavirus24/github3.py) client already authenticated against a specific installation.```pythonfrom github3apps import GithubAppgha = GithubApp(app_id, path_to_private_key)installation = gha.get_installation(installation_id)gh = installation.get_github3_client()```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![](https://codecov.io/gh/nickderobertis/py-mixins/branch/master/graph/badge.svg)](https://codecov.io/gh/nickderobertis/pymixins)# py-mixins## OverviewMixin classes which may be added to your own classes to add certain functionality to them.## Getting StartedInstall `mixins`:```pip install mixins```A simple example:```pythonimport mixins# Do something with mixins```## LinksSee the[documentation here.](https://nickderobertis.github.io/py-mixins/)## AuthorCreated by Nick DeRobertis. MIT License.</longdescription>
+</pkgmetadata>

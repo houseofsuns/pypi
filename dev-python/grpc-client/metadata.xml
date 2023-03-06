@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>#Python GRPC ClientA simple GRPC client to easy use.##Requirements:```grpcioprotobuf```##How to use:```from grpc_client.bbase_client import BaseClientdef CallbackFunction(response):    return responseclient = BaseClient(    host='Host',    port='Port',    stub_class=GrpcStubClass,    call_func='stub_function_name',    data={'request': GrpcRequestFunction},    response_callback=CallbackFunction).execute()```</longdescription>
+</pkgmetadata>

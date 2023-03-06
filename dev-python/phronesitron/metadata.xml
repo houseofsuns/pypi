@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![check](https://github.com/retospect/phronesitron/actions/workflows/check.yml/badge.svg)](https://github.com/retospect/phronesitron/actions/workflows/check.yml)# PhronesitronPhronesitron is a set of tools to interact with textual AItools like OpenAI's models.Example use:```&gt; ph explain quantum physics in 10 wordsMysterious particles with probabilistic behavior in complex systems.```Currently, openAI models are supported.# SetupSet the openAI API key (get it from here: https://platform.openai.com/account/api-keys)```export OPENAIKEY=&lt;put key here&gt;```# VersioningUses semantic versioning. https://semver.org/</longdescription>
+</pkgmetadata>

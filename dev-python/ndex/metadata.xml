@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ndex-pythonThis repository stores all of the code we are going to release under the name 'ndex' on PyPi.API documention can be found here: http://ndexbio.github.io/ndex-python/index.htmlPlease Note:Anything in the ndex.beta package is subject to radically change or even be deleted without notice. This area is mostly intended for close collaborators.</longdescription>
+</pkgmetadata>

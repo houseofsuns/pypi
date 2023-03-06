@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>py-import-cycles================Detect import cycles in Python projectsInstallation------------The py-import-cycles package is available on PyPI: `python3 -m pip install --user py-import-cycles`Usage-----* `python3 -m py_import_cycles --version`* `python3 -m py_import_cycles --help`* `python3 -m py_import_cycles --project-path /path/to/project`</longdescription>
+</pkgmetadata>

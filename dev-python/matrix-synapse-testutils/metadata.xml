@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># matrix-synapse-testutilsBase testutils of matrix synapseThis project includes the test utils from [matrix-synapse](https://github.com/matrix-org/synapse)to make them reusable in other projects.There are some very good basic unittest classes to testroutes and plugins, but one is unable to import them, because - the files are in a module called 'test' - the imports are absolute - the test module is included in the sdist but not after installation# Sample usage```pythonfrom matrix_synapse_testutils.unittest import HomeserverTestCase```# VersioningThe version of this module always fits the version of itsrespective synapse version.Synapse version `1.70.0` leads to a version of matrix_synapse_testutils of`1.70.0.N`.N is a numeric revision number for matrix_synapse_testutilsstarting at 1 for every release of synapse, just like you would expect.## Examples1.70.0.0This means it is the first release of `matrix_synapse_testutils` for synapse 1.70.01.70.0.1This means it is the second release of `matrix_synapse_testutils` for synapse 1.70.01.71.1.0This means it is the first release of `matrix_synapse_testutils` for synapse 1.71.1# ScriptsUnder `bin/` is a shell script which does most of the work of updating theutilities from synapse.It downloads, unpacks, syncs and tries to patch the files from synapse.This is far from perfect and might needs manual adaption.</longdescription>
+</pkgmetadata>

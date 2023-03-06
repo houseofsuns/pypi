@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># coopioLibrary for creating data servicesCsvDataService Example:```class Dummy:    def __init__(self, a, b, c):        self.a = a        self.b = b        self.c = c    def __str__(self):        return f&quot;a: {self.a}, b: {self.b}, c: {self.c}&quot;    def __repr__(self):        return self.__str__()class CsvDataService_Dummy(ICsvDataService):    def __init__(self, data_file_path: str):        ICsvDataService.__init__(self, data_file_path)    def translate_from_data_rows(self, df: pd.DataFrame) -&gt; List[T]:        ret_dummies = []        for i, row in df.iterrows():            new_dummy = Dummy(                a=row['a'],                b=row['b'],                c=row['c']            )            ret_dummies.append(new_dummy)        return ret_dummies```After Establishing the data service, data can be stored or retrieved as follows:```    dummies = []    for ii in range(0, 5):        dummies.append(Dummy(ii, 2, 3))    data_service.add_or_update(obj_identifier='a', objs=dummies)    stored = data_service.retrieve_data(obj_identifier='a')```</longdescription>
+</pkgmetadata>

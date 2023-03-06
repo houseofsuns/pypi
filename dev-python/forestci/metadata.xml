@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>sklearn forest ci=================`forest-confidence-interval` is a Python module for calculating variance andadding confidence intervals to scikit-learn random forest regression orclassification objects. The core functions calculate an in-bag and error barsfor random forest objectsPlease read the repository README_ on Github or our documentation_.. _README: https://github.com/scikit-learn-contrib/forest-confidence-interval/blob/master/README.md.. _documentation: http://contrib.scikit-learn.org/forest-confidence-interval/</longdescription>
+</pkgmetadata>

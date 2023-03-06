@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># eolearn.geometry subpackageGeometry subpackage used for geometric transformation and conversion between vector and raster data.For more information about the module visit [readthedocs](https://eo-learn.readthedocs.io/en/latest/reference/eolearn.geometry.html), or see the [module task index](https://eo-learn.readthedocs.io/en/latest/eotasks.html#geometry).</longdescription>
+</pkgmetadata>

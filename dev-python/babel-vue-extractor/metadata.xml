@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Babel extractor for vue.js==========================|Build Status| |Coverage Status|Babel messages extractor for vue.js templates.*vue.js* — Reactive Components for Modern Web Interfaces. Site:http://vuejs.org/.*Babel* — Internationalization library for Python. Site:http://babel.pocoo.org/... image:: https://raw.githubusercontent.com/nonamenix/babel-vue-extractor/master/babel_vuejs.pngInstall-------.. code::    pip install babel-vue-extractorUsage-----Add to your babel config.. code::    [babelvueextractor.extract.extract_vue: **.vue]Usage in .vhtml files---------------------.. code::    &lt;h1&gt;{{ gettext('Hello') }}&lt;/h1&gt;    &lt;p&gt; {{ ngettext('Foo', 'Foos', 1) }} &lt;/p&gt;    &lt;p&gt; {{ gettext('Processed by filter')|somefilter }} &lt;/p&gt;    &lt;div v-text=&quot;gettext('Sometext')&quot;&gt;&lt;/div&gt;    &lt;div :text=&quot;gettext('Sometext')&quot;&gt;&lt;/div&gt;Issue Tracking--------------GitHub: `https://github.com/nonamenix/babel-vue-extractor/issues &lt;https://github.com/nonamenix/babel-vue-extractor/issues&gt;`_.. |Build Status| image:: https://travis-ci.org/nonamenix/babel-vue-extractor.svg   :target: https://travis-ci.org/nonamenix/babel-vue-extractor   :alt: Build Status.. |Coverage Status| image:: https://coveralls.io/repos/nonamenix/babel-vue-extractor/badge.svg?branch=master&amp;service=github&amp;v=0.1.3.1   :target: https://coveralls.io/github/nonamenix/babel-vue-extractor?branch=master   :alt: Coverage Status</longdescription>
+</pkgmetadata>

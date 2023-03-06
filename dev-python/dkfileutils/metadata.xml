@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>dkfileutils - file and directory utilities==========================================.. image:: https://travis-ci.org/datakortet/dkfileutils.svg?branch=master   :target: https://travis-ci.org/datakortet/dkfileutils.. image:: https://coveralls.io/repos/datakortet/dkfileutils/badge.svg?branch=master&amp;service=github   :target: https://coveralls.io/github/datakortet/dkfileutils?branch=master.. image:: https://readthedocs.org/projects/dkfileutils/badge/?version=latest.. image:: https://codecov.io/gh/datakortet/dkfileutils/branch/master/graph/badge.svg   :target: https://codecov.io/gh/datakortet/dkfileutils.. image:: https://scrutinizer-ci.com/g/datakortet/dkfileutils/badges/quality-score.png?b=master   :target: https://scrutinizer-ci.com/g/datakortet/dkfileutils/Documentation: http://dkfileutils.readthedocs.io/Contains the following modules------------------------------See the documentation link (above) and module documentation for detailed docs.changed~~~~~~~Code to check if directory contents have changed since last check.listfiles~~~~~~~~~Yield (digest, fname) tuples for all interesting filesin `dirname`.  The file names are relative to `curdir`unless otherwise specified.path~~~~&quot;Poor man's pathlib&quot;.  Object-oriented wrapper around `os.path` andfriends.  Similar to the Python 3 `pathlib`, however paths are`str` subclasses and thus much easier to use in an environmentwhere `os.path` calls are interspersed with object-oriented code.pfind~~~~~Find directory where a file is located by walking up parent directories.which~~~~~Functions for finding executable files on the path.</longdescription>
+</pkgmetadata>

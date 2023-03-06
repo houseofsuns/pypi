@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>ILinq=====.. image:: https://gitlab.com/yassu/ilinq/badges/master/pipeline.svgThis project provides the module like linq of C# for Python.`Documentation &lt;https://yassu.gitlab.io/ilinq/&gt;`_How To Install--------------::    $ pip install ilinqFor developers, we enter::    $ pip install pipenv    $ pipenv install --devFirst Example-------------::    #!/usr/bin/env python    # -*- coding: utf-8 -*-    from ilinq.ilinq import Linq    def is_prime(n):        if n &lt; 2:            return False        for j in range(2, n):            if n % j == 0:                return False        return True    if __name__ == '__main__':        print(            Linq(range(10**4))            .last(is_prime))        # =&gt; 9973LICENSE-------Apache 2.0</longdescription>
+</pkgmetadata>

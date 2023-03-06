@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Ovation is a Scientific Data Layer-as-a-Service, engineered specifically for scientists. Ovation helps researchers manage files and metadata, link raw data with analysis and share all of this with colleagues and collaborators.The Ovation Python API wraps the Ovation REST API.</longdescription>
+</pkgmetadata>

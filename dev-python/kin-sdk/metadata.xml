@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>![Kin Logo](kin.png)# Kin SDK for PythonThe Kin SDK for Python is meant to be used as a back-end service. It can perform actions for your client apps (iOS, Android, etc.) and also operate as a server for you to build services on top of the Kin blockchain. The SDK can, for example, take care of communicating with the Kin Blockchain on behalf of the client to create accounts and whitelist transactions. It can also monitor blockchain transactions so that you can implement broader services. It's up to you how to integrate the SDK in your overall architecture and managing server up-time.&lt;a href=&quot;https://docs.kin.org/python/sdk&quot;&gt;&lt;img src=&quot;https://partners.kinecosystem.com/img/documentation-button2x.png&quot; width=300 height=84 alt=&quot;Documentation&quot;/&gt;&lt;/a&gt;</longdescription>
+</pkgmetadata>

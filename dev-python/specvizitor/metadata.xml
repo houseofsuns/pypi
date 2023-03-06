@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>![Specvizitor GUI](https://github.com/ivkram/specvizitor/blob/main/docs/screenshots/specvizitor_gui.png?raw=true &quot;Specvizitor GUI&quot;)## Installation### Installing `specvizitor` using pipSet up a local environment and run        $ pip install specvizitor### Installing `specvizitor` from source1. Clone the public repository:        $ git clone https://github.com/ivkram/specvizitor        $ cd specvizitor2. Set up a local environment and run        $ pip install -e .## Starting `specvizitor`    To start `specvizitor`, run this command in your terminal:    $ specvizitor## TroubleshootingTo reset `specvizitor` to its initial state, run the script with the `--purge` option:    $ specvizitor --purge## License`specvizitor` is licensed under a 3-clause BSD style license - see the [LICENSE.txt](https://github.com/ivkram/specvizitor/blob/main/LICENSE.txt) file.</longdescription>
+</pkgmetadata>

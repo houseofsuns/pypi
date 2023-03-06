@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Package dg_util v 0.0.15Package dg_util consists of different interface of commonly used basic functions in development process to help reduce redoundancy and keep your codes clean. More features will be updated in future.* Install: ```bashpip install dg_util```* Uninstall: ```bashpip uninstall dg_util```## Features### Image ReprocessingCrop face images with landmark.1. crop_image2. crop_image_from_path### Face ParsingGenreate face parsing with BiSeNet。1. parsing_face2. parsing_faces### RembgRemove background.1. bg.move</longdescription>
+</pkgmetadata>

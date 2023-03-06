@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>============Introduction============The Netskope module which provides a RESTful API that ispublished using Swagger on https://&lt;TENANT&gt;.goskope.com/apidocs/ along with otherNetskope APIs.This module aims to provide a class hierarchy to simplify access to thesepublished APIs, performing the 'heavy lifting' whilst providing full access toto their functionality. This is achieved by providing simple wrappers that enableyou to take the swagger documented object paths, fields and where appropriate JSON body from the documentation and pass them to simple get, create, delete andupdate methods. These methods simply return a *requests* response object.Some basic configuration, such a base url and API key are readfrom an ini file. An example of which is provided. When instantiating/initialisingthis will read config.ini by default. Alternatively a path can be provided.For more detailed documentation please see: https://python-netskope.readthedocs.io/en/latest/PyPi:https://pypi.org/project/netskope/GitHub:https://github.com/neerdael-nl/python-netskopeAll feedback please to jneerdael@netskope.comThanksJohn Neerdael</longdescription>
+</pkgmetadata>

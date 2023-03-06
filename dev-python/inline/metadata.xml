@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>inline======.. image:: https://img.shields.io/travis/manicmaniac/inline/master.svg    :target: https://travis-ci.org/manicmaniac/inline    :alt: Travis CI.. image:: https://img.shields.io/pypi/v/inline.svg    :target: https://pypi.python.org/pypi/inline    :alt: PyPI Version.. image:: https://img.shields.io/pypi/pyversions/inline.svg    :target: https://pypi.python.org/pypi/inline    :alt: Python VersionsEmbed inline C / C++ source codes in Python.Usage-----.. code:: python    import inline    c = inline.c(r'''    int add(int a, int b) {        return a + b;    }    ''')    c.add(40, 2).. code:: python    import inline    cxx = inline.cxx(r'''    extern &quot;C&quot; {        int add(int a, int b) {            return a + b;        }    }    ''')    cxx.add(40, 2)Install-------.. code:: sh    pip install inline.. code:: sh    git clone https://github.com/manicmaniac/inline.git    cd inline    python setup.py install</longdescription>
+</pkgmetadata>

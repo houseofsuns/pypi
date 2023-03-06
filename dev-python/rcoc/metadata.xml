@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![PyPI version](https://badge.fury.io/py/rcoc.svg)](https://badge.fury.io/py/rcoc)[![Downloads](https://static.pepy.tech/personalized-badge/rcoc?period=total&amp;units=international_system&amp;left_color=grey&amp;right_color=orange&amp;left_text=Downloads)](https://pepy.tech/project/rcoc)[![GitHubIssues](https://img.shields.io/badge/issue_tracking-github-blue.svg)](https://github.com/touhf/rcoc/issues)rcoc - Random Country or City=======================================================================================Simple script for1. generating random city name (any country)2. generating random country name3. generating random city from of country4. generating random location (country and city)### usage```pythonimport rcocprint(&quot;Random city: &quot;, rcoc.get_random_city())rand_country = rcoc.get_random_country()print(&quot;\nRandom country: &quot;, rand_country)print(&quot;Random {0} city: {1}&quot;.format(rand_country, rcoc.get_random_city_by_country(rand_country)))print(&quot;\nRandom location: &quot;, rcoc.get_random_location())```### output example```Random city:  Gagliano AternoRandom country:  BoliviaRandom Bolivia city: ReyesRandom location: Annecy-le-Vieux, France```Getting list of all countries as list:```pythonall_countries = rcoc.get_all_countries()```</longdescription>
+</pkgmetadata>

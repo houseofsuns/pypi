@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image:: doc/static/assets/hydride_logo.svg   :width: 400   :align: centerHydride - Adding hydrogen atoms to molecular models===================================================Many tasks in structural biology ranging from simulations and hydrogenbond detection to mere visual analysis, require complete molecularmodels.However, most experimentally determined structures do not includethe position of hydrogen atoms, due to their small size and electrondensity.*Hydride* is an easy-to-use program and library written in Python thatadds missing hydrogen atoms to molecular models based on known bondlengths and angles.Since it does not require force-field parameters for the specificmolecule(s), it can be used for adding hydrogen atoms to almost anyorganic molecule - from small ligands to large protein complexes... image:: doc/images/cover_structure.svg   :width: 400   :align: center|Installation------------In order to use *Hydride* you need to have Python (at least 3.7) installed.You can install *Hydride* via.. code-block:: console   $ pip install hydrideUsage-----In its basic invocation *Hydride* reads an input structure file, adds hydrogenatoms to the molecular model and writes the resulting model into an outputstructure file... code-block:: console   $ hydride -i input_structure.pdb -o output_structure.pdbPython API----------*Hydride* also provides a Python API to add hydrogen atoms to ``AtomArray``objects from `Biotite &lt;https://www.biotite-python.org/&gt;`_... code-block:: python   atom_array, _ = hydride.add_hydrogen(atom_array)   atom_array.coord = hydride.relax_hydrogen(atom_array)</longdescription>
+</pkgmetadata>

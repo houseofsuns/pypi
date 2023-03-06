@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=============MailingLogger=============This package contains two handlers for the python loggingframework that enable important log entries to be sent by email.This can either be as the entries are logged or as a summary atthe end of the running process.The handlers have the following features:    - customisable and dynamic subject lines for emails sent- emails sent with configurable headers for easy filtering    - flood protection to ensure the number of emails sent is not  excessive- support for SMTP servers that require authentication- configurable log entry filtering- fully documented and tested</longdescription>
+</pkgmetadata>

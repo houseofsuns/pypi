@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># opentypespec[![PyPi Status]][PyPi][PyPi Status]: https://img.shields.io/pypi/v/opentypespec.svg[PyPi]: https://pypi.python.org/pypi/opentypespecThis package currently provides the ``opentypespec.tags`` module, whichexports ``FEATURE_TAGS``, ``SCRIPT_TAGS``, ``LANGUAGE_TAGS`` and``BASELINE_TAGS`` dictionaries, representing data from theLayout Tag Registry (section 6.4 of the Open Font Format specification):```python        &gt;&gt;&gt; from opentypespec.tags import SCRIPT_TAGS, LANGUAGE_TAGS        &gt;&gt;&gt; SCRIPT_TAGS[&quot;adlm&quot;]        {'name': 'Adlam'}        &gt;&gt;&gt; LANGUAGE_TAGS[&quot;ECR &quot;]        {'name': 'Eastern Cree', 'iso639': ['crj', 'crl']}```* Data derived from the ISO/IEC 14496-22 “Open Font Format” specification.* The Python code in this module is licensed under the Apache Software License 2.0## History### 1.8.4 (2021-06-28)* First release on PyPI.</longdescription>
+</pkgmetadata>

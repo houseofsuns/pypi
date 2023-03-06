@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># flake8-asyncA flake8 plugin that checks for bad async / asyncio practices.## Installation```consolepip install flake8-async```- Or from GitHub```consolepip install git+https://github.com/cooperlees/flake8-async```## List of warnings- **ASYNC100**: Warning about the use of a blocking http call inside an `async def`- **ASYNC101**: Warning about the use of `open`, `time.sleep` or methods in `subprocess`, inside an `async def`.- **ASYNC102**: Warning about the use of unsafe methods in `os` inside an `async def`.## DevelopmentWhen you wish to add a check to `flake8-async` please ensure the following:- This `README.md` gets a one line about your new warning- CHANGELOG gets added to a `## UNRELEASED` section- Unittests are added showing the check hilight where it should and shouldn'tTo run our test suite please use tox.```consolepython3 -m venv --upgrade-deps /tmp/tfa/tmp/tfa/bin/pip install tox# Linting/tmp/tfa/bin/tox -e check# Test Running/tmp/tfa/bin/tox -e test -- -n auto```## LicenseMIT# Changelog## 22.11.14Add ASYNC102: probable blocking os call in async function## 22.11.6Add ASYNC101: blocking sync call in async function## 22.3.10- Initial release</longdescription>
+</pkgmetadata>

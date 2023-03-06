@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ultralytics+Extra features for [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics).## installation```bashpip install ultralyticsplus```## push to 🤗 hub```bashultralyticsplus --exp_dir runs/detect/train --hf_model_id HF_USERNAME/MODELNAME```## load from 🤗 hub```pythonfrom ultralyticsplus import YOLO, render_result# load modelmodel = YOLO('HF_USERNAME/MODELNAME')# set model parametersmodel.overrides['conf'] = 0.25  # NMS confidence thresholdmodel.overrides['iou'] = 0.45  # NMS IoU thresholdmodel.overrides['agnostic_nms'] = False  # NMS class-agnosticmodel.overrides['max_det'] = 1000  # maximum number of detections per image# set imageimage = 'https://github.com/ultralytics/yolov5/raw/master/data/images/zidane.jpg'# perform inferenceresults = model.predict(image, imgsz=640)# parse resultsresult = results[0]boxes = result.boxes.xyxy # x1, y1, x2, y2scores = result.boxes.confcategories = result.boxes.clsscores = result.probs # for classification modelsmasks = result.masks # for segmentation models# show results on imagerender = render_result(model=model, image=image, result=result)render.show()```</longdescription>
+</pkgmetadata>

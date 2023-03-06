@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># MyPy2JUnit[![Build Status](https://travis-ci.com/dundee/mypy2junit.svg?branch=master)](https://travis-ci.com/dundee/mypy2junit)Script for converting output from MyPy to JUnit XML format## Usage```mypy somedir | mypy2junit &gt; junit.xml```or:```mypy &gt; output.txtmypy2junit output.txt &gt; junit.xml```## Installation```pip install mypy2junit```</longdescription>
+</pkgmetadata>

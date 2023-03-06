@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ds-pricing-frameworkThis package contains the following class(es):- TriageVariableTo use the TriageVariable module, you will need to start with a pandas dataframe that has the following variables:- ep- il- policy_number- claim_indicator- policy_gen- age- price_per_mileYou will also need:- a target variable for the model (claim_indicator is the preferred variable)- a proposed variable that you are testing, summarized at the policy level- any variables that you would like to control forThe inputs for TriageVariable are:- pandas dataframe- target variable- proposed variable- list of control variablesCall the function run_triage which will output tables to help make a decision about the variable.Example:```pip install ds-pricing-frameworkimport pricing_framework_triage as pftriage = pf.TriageVariable(df, &quot;claim_indicator&quot;, &quot;prior_claim&quot;, [&quot;package&quot;, &quot;seasoning&quot;, &quot;age_bucket&quot;])triage.run_triage()```</longdescription>
+</pkgmetadata>

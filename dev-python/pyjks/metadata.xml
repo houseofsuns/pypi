@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>PyJKS enables Python projects to load and manipulate Java KeyStore(JKS) data without a JVM dependency. PyJKS supports JKS, JCEKS, BKSand UBER (BouncyCastle) keystores. Simply::  pip install pyjksOr::  easy_install pyjksThen::  import jks  keystore = jks.KeyStore.load('keystore.jks', 'passphrase')  print(keystore.private_keys)  print(keystore.certs)  print(keystore.secret_keys)And that's barely scratching the surface. Check out `the usage examples onGitHub &lt;https://github.com/kurtbrose/pyjks#usage-examples&gt;`_ formore!</longdescription>
+</pkgmetadata>

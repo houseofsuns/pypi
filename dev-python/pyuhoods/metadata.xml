@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pyuhoo[![PyPi version](https://img.shields.io/pypi/v/pyuhoo.svg)](https://pypi.python.org/pypi/pyuhoods/)[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/csacca/pyuhoo/master.svg)](https://results.pre-commit.ci/latest/github/csacca/pyuhoo/master)![ci workflow](https://github.com/csacca/pyuhoo/actions/workflows/ci.yaml/badge.svg)Python API for talking to uHoo consumer APIPlease note that this is a non-public API that has been reverse-engineered from mobileapps. It is likely to break unexpectedly when uHoo changes the API.</longdescription>
+</pkgmetadata>

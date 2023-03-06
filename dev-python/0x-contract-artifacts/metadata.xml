@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## 0x-contract-artifacts0x smart contract compilation artifactsRead the [documentation](http://0x-contract-artifacts-py.s3-website-us-east-1.amazonaws.com/)## Installing```bashpip install 0x-contract-artifacts```## ContributingWe welcome improvements and fixes from the wider community! To report bugs within this package, please create an issue in this repository.Please read our [contribution guidelines](../../CONTRIBUTING.md) before getting started.### Pull in artifacts from TypeScript build environment```bash./setup.py pre_install```### Install Code and Dependencies```bashpip install -e .[dev]```### Clean`./setup.py clean --all`### Lint`./setup.py lint`### Build Documentation`./setup.py build_sphinx`### MoreSee `./setup.py --help-commands` for more info.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># CoffeeHouse API Wrapper for PythonThis is a very simple API Wrapper for the CoffeeHouse API. UsingThis Library only supports the V1IVA2.0 CoffeeHouse API which is based fromthis [Documentation](https://gist.github.com/Netkas/e8977b26f482ca40911a949df7dd286f)## Installation```shpip install coffeehouse```or```shpython setup.py buildpython setup.py install```## Lydia Example```pythonfrom coffeehouse.lydia import LydiaAI# Create the CoffeeHouse API instanceapi_key = input(&quot;API Key: &quot;)# Create Lydia instancelydia = LydiaAI(api_key)# Create a new chat session (Like a conversation)session = lydia.create_session()print(&quot;Session ID: {0}&quot;.format(session.id))print(&quot;Session Available: {0}&quot;.format(str(session.available)))print(&quot;Session Language: {0}&quot;.format(str(session.language)))print(&quot;Session Expires: {0}&quot;.format(str(session.expires)))# Talk to the bot!while True:    output = session.think_thought(input(&quot;Input: &quot;))    print(&quot;Output: {0}&quot;.format(output))# In the case you want to save the Session ID to reuse the session# Use lydia to invoke think_thought instead, for example;## while(True):#     output = lydia.think_thought(session.id, input(&quot;Input: &quot;))#     print(&quot;Output: {0}&quot;.format(output))## This is the same effect as above but uses the lydia instance directly.```</longdescription>
+</pkgmetadata>

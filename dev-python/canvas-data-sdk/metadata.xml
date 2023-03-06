@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>===============Canvas Data SDK===============The Canvas Data SDK provides a Python interface to Instructure's Canvas Data REST API.Getting Started===============See bin/example.py for examples of how this module can be used.Documentation=============See http://canvas-data-sdk.readthedocs.io</longdescription>
+</pkgmetadata>

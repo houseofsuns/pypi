@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;!--SPDX-FileCopyrightText: 2021 Magenta ApS &lt;https://magenta.dk&gt;SPDX-License-Identifier: MPL-2.0--&gt;# RA UtilsVarious code utilities for OS2mo/LoRa## License- This project: [MPL-2.0](MPL-2.0.txt)This project uses [REUSE](https://reuse.software) for licensing. All licenses can be found in the [LICENSES folder](LICENSES/) of the project.</longdescription>
+</pkgmetadata>

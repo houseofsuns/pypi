@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=============================================Microsoft.Recognizers.Text.Suite for Python=============================================Please check the `main README`_ for more details... _main README: https://github.com/Microsoft/Recognizers-Text/tree/master/Python</longdescription>
+</pkgmetadata>

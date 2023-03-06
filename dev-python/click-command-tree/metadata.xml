@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>click-command-tree==================`click-command-tree` is a [click](https://github.com/pallets/click) plugin to show the command tree of your CLIInstallation------------```pip install click-command-tree```Tested against Python 3.4, 3.5, and 3.6 and click &gt;= 5.0Example-------```pythonfrom pkg_resources import iter_entry_pointsimport clickfrom click_plugins import with_plugins@with_plugins(iter_entry_points('click_command_tree'))@click.group()def root():    pass@root.group()def command_group():    pass@command_group.command()def nested_command():    pass@root.command()def standard_command():    passif __name__ == '__main__':    root()``````↪ python example.py --helpUsage: example.py [OPTIONS] COMMAND [ARGS]...Options:  --help  Show this message and exit.Commands:  command-group  standard-command  tree              show the command tree of your CLI↪ python example.py treeroot├── command-group│   └── nested-command├── standard-command└── tree```</longdescription>
+</pkgmetadata>

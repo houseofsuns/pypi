@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># memobjA library for defining objects in memory## installingpython 3.11+ only!`pip install memobj`## usage```pythonimport osfrom memobj import WindowsProcess, MemoryObjectfrom memobj.property import Signed4class PythonIntObject(MemoryObject):    value: int = Signed4(24)process = WindowsProcess.from_id(os.getpid())# id(x) gives the address of the object in cpythonmy_int = PythonIntObject(address=id(1), process=process)# prints 1print(my_int.value)```## supportdiscordhttps://discord.gg/7hBStdXkyR</longdescription>
+</pkgmetadata>

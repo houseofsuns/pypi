@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>### cgepy // 0.7.0###### A simple graphics engine with no dependencies.***cgePy, or cge, is a text-based graphics engine that can operate in the console or terminal.\Currently with zero dependencies, a simple system that can suit many needs, and easily tweaked settings, cgePy will allow you to turn ideas into reality.</longdescription>
+</pkgmetadata>

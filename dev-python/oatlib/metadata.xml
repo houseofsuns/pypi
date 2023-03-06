@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># OAT (Observation Analysis Tool)A Python library (oatlib) to manage sensor data in Python.It provides objects and methods to manipulate obeservation time series. It support data loading, export and savingon different format (CSV, sqlite, istSOS).- lib documentation: https://ist-supsi.gitlab.io/OAT## installation&gt; pip install oatlib## Create pypi packagemodify the code and**change the VERSION in __init__.py**# run scipy-notebook dockerdocker run -p 10001:8888 -v /home/maxi/GIT/OAT:/home/jovyan/work jupyter/scipy-notebook:807999a41207# in jupyter-lab terminal build the packagecd /home/jovyan/workpython -m pip install --upgrade setuptoolspython -m pip install --upgrade pippython -m pip install --upgrade buildpython -m build# test the package in your notebookpip install /home/jovyan/work/dist/oatlib-__YOUR_VERSION_HERE__-py3-none-any.whl# upload to pipypython -m pip install --upgrade twinetwine upload dist/*## update library documentationpip install pdoc3pdoc3 --force --html -o html_doc  oatlib--&gt; we have some issue here (see bug https://github.com/pdoc3/pdoc/issues/299)## test in a 3.10.5 pythondocker run -p 10000:8888 -v /home/maxi/GIT/OAT/oatlib:/home/jovyan/work jupyter/scipy-notebook:807999a41207## old packg build CMDpython setup.py sdist bdist_wheel</longdescription>
+</pkgmetadata>

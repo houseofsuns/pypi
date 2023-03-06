@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Flet core libraryThe library is the foundation of Flet framework and is not intended to be used directly.Install [`flet` module](https://pypi.org/project/flet/) to use Flet framework.</longdescription>
+</pkgmetadata>

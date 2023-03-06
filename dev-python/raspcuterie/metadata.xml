@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># raspcuterieCharcuterie dashboard and controller for the Raspberry PI4 relay switches with a am2302 humidity and temperature configuration.# docs https://foarsitter.github.io/raspcuterie  </longdescription>
+</pkgmetadata>

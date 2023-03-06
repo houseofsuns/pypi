@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Hycli[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/hycli)](https://pypi.org/project/hycli/)[![PyPI version](https://badge.fury.io/py/hycli.svg)](https://pypi.org/project/hycli/)[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)![Main workflow](https://github.com/hypatos/hycli/workflows/Main%20workflow/badge.svg)This repository contains a Python package/CLI tool to batch extract documents through the Hypatos API and to compare the results.## Quickstart```pip install hyclihycli extract path-to-files [to-xlsx|to-csv|to-json] urlhycli compare workbook1 workbook2hycli evaluate -gt ground-truth-workbook -m1 model1-workbook -m2 model2-workbook```For more information without leaving the cli use ```hycli --help```## API Reference and User Guide [available](https://hypatos.github.io/hycli/)---## Development### Requirement- [poetry](https://python-poetry.org/)### Installing```poetry installpoetry shellhycli --help```### Running the tests```poetry run pytest```### VersioningUses [bump2version](https://github.com/c4urself/bump2version):```bump2version --verbose [patch|minor|major]  # add --dry-run to have a previewgit push --follow-tags```### DocumentationIs build with sphinx, can be seen/worked on locally by:```cd docsmake htmlopen build/html/index.html```### LicenseHypatos</longdescription>
+</pkgmetadata>

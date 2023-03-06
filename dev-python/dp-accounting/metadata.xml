@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Differential Privacy AccountingThis directory contains tools for tracking differential privacy budgets,available as part of the[Google differential privacy library](https://github.com/google/differential-privacy).The set of DpEvent classes allow you to describe complex differentially privatemechanisms such as Laplace and Gaussian, subsampling mechanisms, and theircompositions. The PrivacyAccountant classes can ingest DpEvents and return theε, δ of the composite mechanism. Privacy Loss Distributions (PLDs) and RDPaccounting are currently supported.More detailed definitions and references about PLDs can be found[in our supplementary pdf document](https://github.com/google/differential-privacy/tree/main/common_docs/Privacy_Loss_Distributions.pdf).Our library only support Python version &gt;= 3.9. We test this library on Linuxwith Python version 3.9. If you experience any problems, please file an issue onGitHub, also for other platforms or Python versions.</longdescription>
+</pkgmetadata>

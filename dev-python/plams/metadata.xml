@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>PLAMS is a library providing powerful, flexible and easily extendable Python interface to molecular modeling programs. It takes care of input preparation, job execution, file management and output data extraction. It helps with building advanced data workflows that can be executed in parallel, either locally or by submitting to a resource manager queue.Please check the project's GitHub page for more information: https://github.com/SCM-NV/PLAMS PLAMS is an Open Source project supported by `Software for Chemistry &amp; Materials B.V. &lt;https://www.scm.com&gt;`_</longdescription>
+</pkgmetadata>

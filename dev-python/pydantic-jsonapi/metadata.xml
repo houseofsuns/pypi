@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pydantic-jsonapi[![Build Status](https://travis-ci.org/DeanWay/pydantic-jsonapi.svg?branch=master)](https://travis-ci.org/DeanWay/pydantic-jsonapi)[![PyPi Link](https://img.shields.io/pypi/pyversions/pydantic-jsonapi.svg)](https://pypi.org/project/pydantic-jsonapi/)an implementation of JSON:api using pydantic for validation```pythonfrom pydantic_jsonapi import JsonApiModelfrom pydantic import BaseModelclass Item(BaseModel):    name: str    quantity: int    price: floatItemRequest, ItemResponse = JsonApiModel('item', Item)# request validationrequest = {    'data': {        'type': 'item',        'attributes': {            'name': 'apple',            'quantity': 10,            'price': 1.20,        },    }}ItemRequest(**request)#response validationresponse = {    'data': {        'id': 'abc123',        'type': 'item',        'attributes': {            'name': 'apple',            'quantity': 10,            'price': 1.20,        },        'relationships': {            'store': {                'links': {                    'related': '/stores/123'                }            }        }    },    'links': {        'self': '/item/abc123'    }}ItemResponse(**response)```</longdescription>
+</pkgmetadata>

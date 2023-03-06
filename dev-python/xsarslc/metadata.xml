@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>xsarslcFunctions for Sentinel-1 SLC products This is a Work In Progress Library.Disclaimer: no warranty on the quality of output product at this stage.# installation```bashgit clone https://github.com/umr-lops/xsar_slccd xsar_slcpip install .```# usage```pythonimport xsarslc```</longdescription>
+</pkgmetadata>

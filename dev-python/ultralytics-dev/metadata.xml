@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![codecov](https://codecov.io/gh/ultralytics/package-framework/branch/master/graph/badge.svg?token=YWaAfJ18gg)](https://codecov.io/gh/ultralytics/package-framework)# package framework## Installation```console# clone project repositorygit clone git@github.com:ultralytics/package-framework.git# navigate to project root directorycd package-framework# create python virtual environment and activate it (optional)virtualenv venvsource venv/bin/activate# install projectpython setup.py install```# Deployment ## RequirementsPython 3.8 or later with all [requirements.txt](https://github.com/ultralytics/pip/blob/master/requirements.txt)dependencies installed, including `build` and `twine`.```bashpython -m pip install -U pippip install -U build twine```## Pip Package StepsDeploy from master branch ⚠### https://pypi.org/```bash# Build and upload https://pypi.org/rm -rf build dist &amp;&amp; python -m build &amp;&amp; python -m twine upload dist/*# username: __token__# password: pypi-AgENdGVzdC5weXBpLm9yZ...# Download and installpip install -U ultralytics# Import and testpython -c &quot;from ultralytics import simple; print(simple.add_one(10))&quot;sample_script```### https://test.pypi.org/```bash# Build and upload https://test.pypi.org/rm -rf build dist &amp;&amp; python -m build &amp;&amp; python -m twine upload --repository testpypi dist/*# username: __token__# password: pypi-AgENdGVzdC5weXBpLm9yZ...# Download and installpip install -U --index-url https://test.pypi.org/simple/ --no-deps ultralytics2==0.0.9# Import and testpython -c &quot;from ultralytics import simple; print(simple.add_one(10))&quot;sample_script```</longdescription>
+</pkgmetadata>

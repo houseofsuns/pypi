@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># lairning DecisionsContains lairning Deep Reinforcement Learning platform that Trains AI Agents to take optimal decisions on Simulated Environments (processes or systems) and make those AI Agents available through a Rest API to be used in the real world.</longdescription>
+</pkgmetadata>

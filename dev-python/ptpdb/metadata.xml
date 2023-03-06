@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>ptpdb=====(Still experimental) PDB replacement, build on top of `prompt_toolkit&lt;http://github.com/jonathanslenders/python-prompt-toolkit/&gt;`_ and `ptpython&lt;https://github.com/jonathanslenders/ptpython/&gt;`_.Installation************::    pip install ptpdbUsage*****.. code:: python    from ptpdb import set_trace    set_trace()See `the official PDB documentation&lt;https://docs.python.org/3/library/pdb.html&gt;`_ to learn how it works.</longdescription>
+</pkgmetadata>

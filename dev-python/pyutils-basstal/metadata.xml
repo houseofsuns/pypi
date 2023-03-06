@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># DescriptionThis package contains self-used utils and 3rd-party source files that can be called from other python modules.# Install```python3 setup.py install```# Files &amp; Functions- fsext : file system extension, include search, copy files with filter.- executor : subprocess extension, including setup windows env, use git-bash as executor, and more.- templite : customized [3rd-party](https://pypi.org/project/templite/) template coding module.- autoupgrade : auto-upgrade package use pip, check if remote has a later version of that package.# TODO- [ ] more testcase.</longdescription>
+</pkgmetadata>

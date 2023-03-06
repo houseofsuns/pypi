@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># etherbase-predeployed## DescriptionA tool for generating predeployed etherbase smart contract## Installation```consolepip install etherbase-predeployed```## Usage example```pythonfrom etherbase_predeployed import  UpgradeableEtherbaseUpgradeableGenerator, ETHERBASE_ADDRESS, ETHERBASE_IMPLEMENTATION_ADDRESSOWNER_ADDRESS = '0xd200000000000000000000000000000000000000'PROXY_ADMIN_ADDRESS = '0xd200000000000000000000000000000000000001'etherbase_generator = UpgradeableEtherbaseUpgradeableGenerator()genesis = {    # genesis block parameters    'alloc': {        **etherbase_generator.generate_allocation(            contract_address=ETHERBASE_ADDRESS,            implementation_address=ETHERBASE_IMPLEMENTATION_ADDRESS,            schain_owner=OWNER_ADDRESS,            proxy_admin_address=PROXY_ADMIN_ADDRESS        )    }}```</longdescription>
+</pkgmetadata>

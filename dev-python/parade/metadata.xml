@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Parade[![Build Status](https://travis-ci.org/bailaohe/parade.svg?branch=master)](https://travis-ci.org/bailaohe/parade)`Parade` is a simple and out-of-box toolkit to handle data work such as ETL, data analysis, BI reports, etc, and enable fast and flexible integration mechanism with applications. It can be used for a wide range of purposes, from composing &amp; scheduling data workflow to providing unified web-APIs of data query.## Requirements* Python 3.4+* Works on Linux, Windows, Mac OSX, BSD## InstallThe quich way:```bash&gt; pip install parade```## Basic Usage &amp; TutorialsSee [here](http://parade.readthedocs.io/en/latest/).</longdescription>
+</pkgmetadata>

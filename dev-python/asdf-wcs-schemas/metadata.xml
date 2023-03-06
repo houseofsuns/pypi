@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># asdf-wcs-schemasThis package provides ASDF schemas for validating WCS tags. Users should not need to install this directly; instead, install an implementation package such as gwcs, which includes asdf-wcs-schemas as a dependency.![CI](https://github.com/asdf-format/asdf-wcs-schemas/workflows/CI/badge.svg)</longdescription>
+</pkgmetadata>

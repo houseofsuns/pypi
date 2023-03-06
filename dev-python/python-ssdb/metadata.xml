@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># python-ssdbThe python client for [SSDB](https://github.com/ideawu/ssdb) Key-Value store.## Installation```shell$ pip install python-ssdb```## Features- Use compiled response parser written in Cython.- Supports connection pool.- Supports async API.## Usage### Basic example```python&gt;&gt;&gt; from ssdb import SSDB&gt;&gt;&gt; cli = SSDB(host=&quot;localhost&quot;, port=7036)&gt;&gt;&gt; cli.set(&quot;foo&quot;, &quot;bar&quot;)1&gt;&gt;&gt; cli.get(&quot;foo&quot;)b'bar'```## Commands- Supports all commands in [this page](https://ssdb.io/docs/php/) ## LicenseThis software is licensed under the [Apache 2 license](LICENSE), quoted below.Copyright 2023 Kakao Corp. &lt;http://www.kakaocorp.com&gt;Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may notuse this project except in compliance with the License. You may obtain a copyof the License at http://www.apache.org/licenses/LICENSE-2.0.Unless required by applicable law or agreed to in writing, softwaredistributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUTWARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See theLicense for the specific language governing permissions and limitations underthe License.</longdescription>
+</pkgmetadata>

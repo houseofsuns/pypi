@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Point One FusionEngine protocol support for real-time interaction and control, plus post-processing data analysis tools.See https://github.com/PointOneNav/fusion-engine-client for full details. See https://pointonenav.com/docs/for the latest FusionEngine message specification.</longdescription>
+</pkgmetadata>

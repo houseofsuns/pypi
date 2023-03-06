@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># matlablibSuite of Matlab utilities ported over to Python ## InstallationRun the following to install :```pythonpip install matlablib```## Usage``` pythonimport matlablib as ml  from matlablib import closefigures  from matlablib import cc  from matlablib import keyboard  from matlablib import sayHey  from matlablib import quit_early  from matlablib import kill_background  from matlablib import getPythonVariables  ```### Say hey``` pythonml.sayHey```</longdescription>
+</pkgmetadata>

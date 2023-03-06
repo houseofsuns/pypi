@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Quick Start-----------* Ensure Python 3.6.2 or later is installed on your system.* Ensure git is installed on your system.* ``pip install bcompiler``* ``bcompiler-init``* ``bcompiler --help``Introduction-------------``bcompiler`` is a tool to manage data involved in the BICC reporting process at the UK Department for Transport.``bcompiler`` processes data held in Excel files, either compiling similar datafrom many Excel files into a single master spreadsheet, or populating manyExcel files using the data from a master spreadsheet.&quot;Auxiliary&quot; files are required to map data in each direction, and to templates.These files are contained in a DfT reporitory on GitHub. ``bcompiler`` can beused to obtain/update these files.Documentation-------------Full documentation for the project can be found at http://bcompiler.readthedocs.io/en/latest/index.html.News====11 July 2019------------- Bug fix30 October 2017---------------- Fix bug where not all columns in master are being processed during swimlane analyser.17 October 2017---------------- Changed ERROR log message to WARNING to accommodate dates mixed with free text.16 October 2017---------------- Fix bug where cell value in string and datetime value would try to compare arithmetically.11 October 2017---------------- Fix bug where `.xlsx` files not being picked up.- Improved exception handling and bug fixes.10 October 2017---------------- Handling cp1252 encoding coming through from Windows- Added CHANGES.txt- Minor bugfixes</longdescription>
+</pkgmetadata>

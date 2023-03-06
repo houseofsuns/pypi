@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Combine**Build a straightforward marketing or documentation website with the power of [Jinja](http://jinja.pocoo.org/).No fancy JavaScript here &amp;mdash; this is just like the good old days.**Put your site into the &quot;content&quot; directory and Combine will:- Render files using Jinja- Create pretty URLs (&quot;file-system routing&quot;)- Inject variables- Run custom build steps (like building Tailwind)Most sites follow a simple pattern.Create a `base.template.html`:```html+jinja&lt;!DOCTYPE html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;    &lt;meta charset=&quot;UTF-8&quot;&gt;    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;    &lt;title&gt;My site&lt;/title&gt;&lt;/head&gt;&lt;body&gt;    {% block content %}{% endblock %}&lt;/body&gt;&lt;/html&gt;```And use it (ex. `pricing.html`):```html+jinja{% extends &quot;base.template.html&quot; %}{% block content %}&lt;div class=&quot;pricing&quot;&gt;    &lt;div class=&quot;flex&quot;&gt;        ...    &lt;/div&gt;&lt;/div&gt;{% endblock %}```In the end, you get a static HTML site that can be deployed almost anywhere.</longdescription>
+</pkgmetadata>

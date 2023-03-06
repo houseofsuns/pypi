@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Sale Payment Module###################The sale_payment module extends *Sale* to allow payments prior to the creationof any invoice.A field *Payments* is added on the sale which can be filled in quotation state.The sale can not be reset to draft or cancelled if there are no failed paymentlinked.The payment authorization of the full sale amount is used as confirmation ofthe sale.When an invoice from a sale is posted, its payments are used to pay invoice's*Lines to Pay*.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># annual-daylightAnnual daylight recipe for PollinationUse this recipe to calculate annual daylight for a HBJSON model.This recipe uses an enhanced 2-phase method for daylight simulation with accurate direct sunlight calculation.For more information [see the recipe on Pollination](https://app.pollination.cloud/recipes/ladybug-tools/annual-daylight).</longdescription>
+</pkgmetadata>

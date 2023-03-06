@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Cloudlab ClientThis package is a client for the Cloudlab service. Cloudlab is a cloud foracademic institutions. Because I could not (yet) find any working API forCloudlab, the current client relies on username / password authentication andweb scraping.## Usage```python# Create new client and loginusername = os.environ.get(&quot;CLOUDLAB_USERNAME&quot;)password = os.environ.get(&quot;CLOUDLAB_PASSWORD&quot;)cloudlab_client = CloudlabClient()cloudlab_client.login(username, password)# List experimentsexperiments = cloudlab_client.experiment_list()print(experiments)# List an experiment's nodesnodes = cloudlab_client.experiment_list_nodes(&quot;my-experiment&quot;)print(nodes)# Request an extension (e.g., for 6 days). Reason must be at least 120 characters.reason = (&quot;Important experiment needed for research, conducted under advisor&quot;          &quot; &lt;fill_your_advisor&gt;. Particular machines are needed because&quot;          &quot; &lt;fill_your_reasons&gt;.&quot;)cloudlab_client.experiment_extend(&quot;my-experiment&quot;, reason, hours=6*24)```</longdescription>
+</pkgmetadata>

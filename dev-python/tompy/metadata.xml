@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># tompyPython Time Series Library# Install## conda```conda create -n tompy python=3.11conda activate tompypip install flit```## code```cd PATH_TO_CODEflit install```## run```cd PATH_TO_RUNconda activate tompy```</longdescription>
+</pkgmetadata>

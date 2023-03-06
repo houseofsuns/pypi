@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Flake8-SARIF============This is a plugin for Flake8 that will format the output as SARIF.Installation------------.. code-block:: bash    pip install flake8-sarifUsage-----.. code-block:: bash    flake8 --format=sarif ...Competitors-----------None that I could find on PyPIMaintenance Policy------------------This project is seeking maintainers. Please open an issue if you're interestedand ensure that you've read the PyCQA's `Code of Conduct`_... _Code of Conduct:    http://meta.pycqa.org/en/latest/code-of-conduct.html</longdescription>
+</pkgmetadata>

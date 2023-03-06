@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># python-tfvars  read secrets from terraform tfvars  This module will read variables from [terraform tfvars files](https://www.terraform.io/language/values/variables#variable-definitions-tfvars-files) to facilitate the usage of python scripts from terraform resources.Currently we do not support json format.  ## basic usage  Assuming a terraform.tfvars file as follows:   ```token = &quot;some_token&quot;```in your python script:```import tfvarstfv = tfvars.LoadSecrets()print(tfv[&quot;token&quot;])```  optionally specify a file location:  ```tfv = tfvars.LoadSecrets(&quot;../dev.auto.tfvars&quot;)```</longdescription>
+</pkgmetadata>

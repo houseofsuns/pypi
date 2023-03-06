@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## Memory management in [NumPy](https://numpy.org)*[![Binder](https://mybinder.org/badge_logo.svg)](https://gesis.mybinder.org/v2/gh/inaccel/numpy-allocator/master?labpath=NumPy-Allocator.ipynb)[![PyPI version](https://badge.fury.io/py/numpy-allocator.svg)](https://badge.fury.io/py/numpy-allocator)**NumPy is a trademark owned by [NumFOCUS](https://numfocus.org).*#### Customize Memory AllocatorsΑ metaclass is used to override the internal data memory routines. The metaclass has four optional fields:```python&gt;&gt;&gt; import ctypes&gt;&gt;&gt; import ctypes.util&gt;&gt;&gt; import numpy_allocator&gt;&gt;&gt; my = ctypes.CDLL(ctypes.util.find_library('my'))&gt;&gt;&gt; class my_allocator(metaclass=numpy_allocator.type):...     _calloc_ = ctypes.addressof(my.calloc_func)...     _free_ = ctypes.addressof(my.free_func)...     _malloc_ = ctypes.addressof(my.malloc_func)...     _realloc_ = ctypes.addressof(my.realloc_func)...```#### An example using the allocator```python&gt;&gt;&gt; import numpy as np&gt;&gt;&gt; with my_allocator:...     a = np.array([1, 2, 3])...&gt;&gt;&gt; my_allocator.handles(a)True```</longdescription>
+</pkgmetadata>

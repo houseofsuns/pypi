@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>========Overview========CFFI bindings for libmagic.* Free software: MIT LicenseInstallation============::    pip install fileUsage=====.. code-block:: python    from file import Magic    with Magic() as magic:        print(magic.buffer(&quot;hello&quot;)) # =&gt; &quot;text/plain&quot;    from file import magic_buffer, magic_file, magic_setflags    magic = Magic()    mimetype = magic_buffer(&quot;\x89\x50\x4E\x47\x0D\x0A\x1A\x0A&quot;)    print(mimetype) # =&gt; &quot;image/png&quot;    mimetype = magic_file(&quot;/etc/passwd&quot;)    print(mimetype) # =&gt; &quot;text/plain&quot;    from file import MAGIC_NONE    magic_setflags(MAGIC_NONE)    mimetype = magic_file(&quot;demo.docx&quot;)    print(mimetype) # =&gt; &quot;Microsoft Word 2007+&quot;    magic.close() # don't forget about thisChangelog=========0.3.0 (2017-11-03)------------------* Remove ``magic_version`` - not available in old ``libmagic.so``.* Remove ``magic`` object - will break import if there's a load failure.0.2.1 (2017-11-02)------------------* Release without wheels.0.2.0 (2017-11-02)------------------* First release on PyPI.</longdescription>
+</pkgmetadata>

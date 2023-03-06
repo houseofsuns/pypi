@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![Build Status](https://dev.azure.com/l-johnston/nitdms/_apis/build/status/l-johnston.nitdms?branchName=master)](https://img.shields.io/azure-devops/build/l-johnston/nitdms/14) ![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/l-johnston/nitdms/14) ![PyPI version](https://img.shields.io/pypi/v/nitdms)# `nitdms` - A pythonic TDMS file readerThe main export from the `nitdms` package is the TdmsFile class. Upon instantiation,the reader loads the file into memory and discovers all of the file, group and channelobjects and respective properties. These objects and properties are dynamically instantiated as attributes allowing easy access from within an interactive sessionwith tab completion such as Jupyter or bash.Channel data is returned as a numpy ndarray, or WaveformDT if data in the file is fromLabVIEW's waveform data type. WaveformDT is a subclass of ndarray that mimicsthe waveform data type.LabVIEW's timestamp is stored as UTC in the TDMS file. `nitdms` returns the timestampin the machine's local time zone consistent with LabVIEW and aligns with WaveformDT.## Installing```bash$ pip install nitdms```## UsageWithin an interactive session with tab completion:```python&gt;&gt;&gt; from nitdms import TdmsFile&gt;&gt;&gt; tf = TdmsFile(&lt;file&gt;)&gt;&gt;&gt; data = tf.&lt;group&gt;.&lt;channel&gt;.data&gt;&gt;&gt; t0 = tf.&lt;group&gt;.&lt;channel&gt;.wf_start_time&gt;&gt;&gt; dt = tf.&lt;group&gt;.&lt;channel&gt;.wf_increment&gt;&gt;&gt; group_property = tf.&lt;group&gt;.&lt;property&gt;```## Documentationhttps://l-johnston.github.io/nitdms/</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Hestia Data Validation[![Pipeline Status](https://gitlab.com/hestia-earth/hestia-data-validation/badges/master/pipeline.svg)](https://gitlab.com/hestia-earth/hestia-data-validation/commits/master)[![Coverage Report](https://gitlab.com/hestia-earth/hestia-data-validation/badges/master/coverage.svg)](https://gitlab.com/hestia-earth/hestia-data-validation/commits/master)[![Documentation Status](https://readthedocs.org/projects/hestia-data-validation/badge/?version=latest)](https://hestia-data-validation.readthedocs.io/en/latest/?badge=latest)## Install```bashpip install hestia_earth.validation```## Usage```pythonfrom hestia_earth.validation import validate# for each node, this will return a list containing all the errors/warnings (empty list if no errors/warnings)errors = validate(nodes)```Note: if you want to validate existing data (with `@type` and `@id` fields), please set the following environment variable:```VALIDATE_EXISTING_NODES=true```</longdescription>
+</pkgmetadata>

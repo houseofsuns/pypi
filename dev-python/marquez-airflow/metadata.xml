@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Marquez Airflow - `DEPRECATED`[![Project status](https://img.shields.io/badge/status-deprecated-orange.svg)]()This library has been moved to [`OpenLineage/integration/airflow`](https://github.com/OpenLineage/OpenLineage/tree/main/integration/airflow). The `marquez-airflow` library extends the class [`openlineage.airflow.DAG`](https://github.com/OpenLineage/OpenLineage/blob/main/integration/airflow/openlineage/airflow/dag.py) for backwards compatibility. **Please use the** [`openlineage-airflow`](https://pypi.org/project/openlineage-airflow) **library instead**.</longdescription>
+</pkgmetadata>

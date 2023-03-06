@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>---gitea: noneinclude_toc: true---![Build Status](https://drone.mcos.nc/api/badges/laboro/laboro_demo/status.svg) ![License](https://img.shields.io/static/v1?label=license&amp;color=orange&amp;message=MIT) ![Language](https://img.shields.io/static/v1?label=language&amp;color=informational&amp;message=Python)# laboro_demoThe Laboro demonstration module.This module is not intended to be useful other than for test purpose.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># link_traits[![Build Status](https://travis-ci.org/hyperspy/link_traits.svg?branch=master)](https://travis-ci.org/hyperspy/link_traits)[![Codecov branch](https://img.shields.io/codecov/c/github/hyperspy/link_traits/master.svg)](https://codecov.io/gh/hyperspy/link_traits)**link_traits** is a fork of [traitlets'](https://github.com/ipython/traitlets)**link** and **dlink** functions to add the ability to link[traits](https://github.com/enthought/traits) in addition to traitlets.## InstallationMake sure you have[pip installed](https://pip.pypa.io/en/stable/installing/) and run:```bashpip install link_traits```**link_traits** depends on **traits** which is not a pure Python package. In[Anaconda](http://continuum.io/anaconda) you can install link_traits andtraits as follows:```bashconda install link-traits -c conda-forge```## Running the testspy.test is required to run the tests.```bashpip install &quot;link_traits[test]&quot;py.test --pyargs traitlets```## Usage```pythonimport traits.api as timport traitletsfrom link_traits import linkclass A(t.HasTraits):    a = t.Int()class B(traitlets.HasTraits):    b = t.Int()a = A()b = B()l = link((a, &quot;a&quot;), (b, &quot;b&quot;))``````python&gt;&gt;&gt; a.a = 3&gt;&gt;&gt; b.b3```## DevelopmentContributions through pull requests are welcome. The intention is to keep thesyntax and features in sync with the original traitlets' **link** and **dlink**functions. Therefore, before contributing a new feature here,please contribute it to [traitlets](https://github.com/ipython/traitlets/)first.</longdescription>
+</pkgmetadata>

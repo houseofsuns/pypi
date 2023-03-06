@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![Build Status](https://travis-ci.org/OLC-Bioinformatics/sipprverse.svg?branch=master)](https://travis-ci.org/OLC-Bioinformatics/sipprverse)# sipprverse==============#### [Read the Docs](http://olc-bioinformatics.github.io/sipprverse/)### IntroductionThis pipeline searches for gene targets in FASTQ files. These files may be previously generated, or created from BCL files from a run of an Illumina MiSeq as part of the pipeline. The latter functionality is to allow for the creationof FASTQ files from an in progress MiSeq run.</longdescription>
+</pkgmetadata>

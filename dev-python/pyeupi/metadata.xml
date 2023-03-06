@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Client API for EUPI===================[![Build Status](https://travis-ci.org/Rafiot/PyEUPI.svg?branch=master)](https://travis-ci.org/Rafiot/PyEUPI)[![Documentation Status](https://readthedocs.org/projects/pyeupi/badge/?version=latest)](http://pyeupi.readthedocs.org/en/latest/?badge=latest)Client API to query the Phishing Initiative service.Installation============From the repository:```    python setup.py install```Or via pip:```    pip install pyeupi```Search queries==============```    from pyeupi import PyEUPI    p = PyEUPI('&lt;Api key&gt;')    p.search(content='circl')    p.search_url(tld='lu')    p.search_submissions()```</longdescription>
+</pkgmetadata>

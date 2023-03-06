@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>CLI tool that generates an index.rst for a Sphinx based notebook* Free software: MIT LicenseFeatures--------* TODOCredits-------This package was created with Cookiecutter_ and the `midwatch/cc-py3-pkg`_ project template... _Cookiecutter: https://github.com/audreyr/cookiecutter.. _`midwatch/cc-py3-pkg`: https://github.com/midwatch/cc-py3-pkg</longdescription>
+</pkgmetadata>

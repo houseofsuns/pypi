@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>ccard=====Fake credit-card generatoris a Python 3 Package for TESTING PURPOSES AND DATA VERIFICATION ONLY!Instead of using a real credit cardthis tool will help you generate a vaild credit card numbersGiving you the option to generate the following type of credit card- Visa- Discover- Master Card- American ExpressInstallation------------The script is `available on PyPI`_.  To install with pip::    pip install ccardUsage-----credit-card generator can be used as a command line utility or imported as a Python package.Command Line Usage~~~~~~~~~~~~~~~~~~To use the script from the command line:the defualt value is Visa.. code-block:: bash    $ ccard      4916232538105515Python Package Usage~~~~~~~~~~~~~~~~~~~~Here are examples of all current features:.. code-block:: pycon    &gt;&gt;&gt; import ccard    &gt;&gt;&gt; ccard.visa()    4485610834415848    &gt;&gt;&gt; ccard.discover()    6011017754491148    &gt;&gt;&gt; ccard.mastercard()    5179703192884719    &gt;&gt;&gt; ccard.americanexpress()    374300139079794License-------This project is released under an MIT License... _available on PyPI: http://pypi.python.org/pypi/ccard/Contributing============Please file bugs to the `Github issue tracker`_.  Pull requests are welcome... _Github issue tracker: https://github.com/davidsamir/credit-card-generatorHacking and Pull Requests-------------------------Opening your pull request sooner will allow others to comment on it sooner.A checklist of things to remember when making a feature:- Write tests if applicable- Update the `README`_ file if needed- Update the documentation if needed- Add yourself to the `AUTHORS`_ file.. _AUTHORS: AUTHORS.rst.. _README: README.md</longdescription>
+</pkgmetadata>

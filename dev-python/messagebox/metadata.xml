@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># PyMessageBox Messagebox for userinput/useroutput **WITHOUT library dependencies** like tkinter# Supported platforms [^1]| Platform     | Supported | Tested || ------------ | --------- | ------ || Windows      | ✓         | ✓     || Linux/Mint   | ✓         | ✕     || Linux/Ubuntu | ✓         | ✕     || Linux/Xorg   | ✕         | ✕     || Linux/GNOME  | ✕         | ✕     || macOS        | ✕         | ✕     |[^1]: I need tester. please report bugs etc. under your platform  # Message-Boxes- showinfo- showwarning- showerror- askquestion- askokcancel- askyesno- askretrycancel# Usage```pythonimport messageboxmessagebox.showinfo('Success', 'This package works')```</longdescription>
+</pkgmetadata>

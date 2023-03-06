@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># coordIO[![Versions](https://img.shields.io/badge/python-3.7%20%7C%203.8%20%7C%203.9%20%7C%203.10-blue)](https://docs.python.org/3/)[![Documentation Status](https://readthedocs.org/projects/sdss-coordio/badge/?version=latest)](https://sdss-coordio.readthedocs.io/en/latest/?badge=latest)[![Tests Status](https://github.com/sdss/coordio/workflows/Test/badge.svg)](https://github.com/sdss/coordio/actions)[![Coverage Status](https://codecov.io/gh/sdss/coordio/branch/master/graph/badge.svg)](https://codecov.io/gh/sdss/coordio)Coordinate conversion for SDSS-V.## InstallationIn general you should be able to install ``coordio`` by doing```consolepip install sdss-coordio```To build from source, use```consolegit clone git@github.com:sdss/coordiocd coordiopip install .```</longdescription>
+</pkgmetadata>

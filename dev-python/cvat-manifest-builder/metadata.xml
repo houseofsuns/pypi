@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># cvat-manifest-builder## Installation &amp; Use```shell# Install cvat-manifest-builder&gt; pip install cvat-manifest-builder&gt; cvat-manifest-builder --helpusage: cvat-manifest-builder [-h] --output_manifest_file OUTPUT_MANIFEST_FILE --input_data_path                             INPUT_DATA_PATHBuilds a CVAT manifest file from a directory of images.optional arguments:  -h, --help            show this help message and exit  --output_manifest_file OUTPUT_MANIFEST_FILE                        Path to the output manifest file.  --input_data_path INPUT_DATA_PATH                        Path to the data directory.```</longdescription>
+</pkgmetadata>

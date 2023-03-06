@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># mockserver_clientIt has docker based image: ``jamesdbloom/mockserver:mockserver-5.13.*``As pip dependency could be found here: https://pypi.org/project/helix-mockserver-client/In your ``requirements.txt`` or ```PipFile```  add ```helix-mockserver-client&gt;=*.*.*```Basic usage:```pythonimport jsonfrom mockserver_client.mockserver_client import (    MockServerFriendlyClient,    mock_request,    mock_response,    times,) mock_server = MockServerFriendlyClient('http://127.0.0.1:1080') mock_server.expect(mock_request(            path=&quot;/&quot; + 'item',            method=&quot;POST&quot;,            body={                &quot;json&quot;: {                    &quot;client_id&quot;: &quot;unitypoint_bwell&quot;,                    &quot;client_secret&quot;: &quot;fake_client_secret&quot;,                    &quot;grant_type&quot;: &quot;client_credentials&quot;,                }            },        ),            mock_response(                body=json.dumps(                    {                        &quot;token_type&quot;: &quot;bearer&quot;,                        &quot;access_token&quot;: &quot;fake access_token&quot;,                        &quot;expires_in&quot;: 54000,                    }                )            ),            timing=times(1),        )```How to pull the image with Docker:```docker pull jamesdbloom/mockserver:mockserver-5.13.2```How to start the server locally with Docker:```docker run -dp 1080:1080 jamesdbloom/mockserver:mockserver-5.13.2 -logLevel DEBUG -serverPort 1080```</longdescription>
+</pkgmetadata>

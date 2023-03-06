@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Label converter [![Build Status](https://travis-ci.org/finnishnetsolutions/label-converter.svg?branch=master)](https://travis-ci.org/finnishnetsolutions/label-converter)## Description**label_converter** is a Python library to turn HTML string to png file for label printing.## Usage```from label_converter import label_converterheader = '&lt;p&gt;I\'m head&lt;/p&gt;'body = '&lt;p&gt;I\'m &lt;strong&gt;label&lt;/strong&gt; &lt;span style=&quot;font-size: 30px; color: rgb(184, 49, 47);&quot;&gt;body&lt;/span&gt;&lt;/p&gt;'footer = '&lt;p&gt;I\'m footer&lt;/p&gt;width = 600height = 500base64_encoding = Falselabel_converter.create(header, body, footer, width, height, base64_encoding)```</longdescription>
+</pkgmetadata>

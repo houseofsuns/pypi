@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. code-block:: python  &gt;&gt;&gt; from django.core.wsgi import get_wsgi_application  &gt;&gt;&gt;  &gt;&gt;&gt; import requests  &gt;&gt;&gt; import wsgiadapter  &gt;&gt;&gt;  &gt;&gt;&gt; s = requests.Session()  &gt;&gt;&gt; s.mount('http://staging/', wsgiadapter.WSGIAdapter(get_wsgi_application()))  &gt;&gt;&gt; s.get('http://staging/index')  &lt;Response [200]&gt;</longdescription>
+</pkgmetadata>

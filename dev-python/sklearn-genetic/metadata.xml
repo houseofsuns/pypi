@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. -*- mode: rst -*-|PyPi|_ |Anaconda|_ |ReadTheDocs|_.. |PyPi| image:: https://img.shields.io/pypi/v/sklearn-genetic?style=flat-square.. _PyPi: https://pypi.org/project/sklearn-genetic.. |Anaconda| image:: https://anaconda.org/conda-forge/sklearn-genetic/badges/version.svg.. _Anaconda: https://anaconda.org/conda-forge/sklearn-genetic.. |ReadTheDocs| image:: https://readthedocs.org/projects/sklearn-genetic/badge/?version=latest&amp;style=flat-square.. _ReadTheDocs: https://sklearn-genetic.readthedocs.io/en/latest/?badge=latest***************sklearn-genetic*****************sklearn-genetic** is a genetic feature selection module for scikit-learn.Genetic algorithms mimic the process of natural selection to search for optimal values of a function.Installation============Dependencies------------sklearn-genetic requires:- Python (&gt;= 3.6)- scikit-learn (&gt;= 0.23)- deap (&gt;= 1.0.2)- numpy- multiprocessUser installation-----------------The easiest way to install sklearn-genetic is using :code:`pip`.. code:: bash    pip install sklearn-geneticor :code:`conda`.. code:: bash    conda install -c conda-forge sklearn-geneticDocumentation=============Installation documentation, API reference and examples can be found on the `documentation &lt;https://sklearn-genetic.readthedocs.io&gt;`_.See also========- `shapicant &lt;https://github.com/manuel-calzolari/shapicant&gt;`_, a feature selection package based on SHAP and target permutation, for pandas and Spark</longdescription>
+</pkgmetadata>

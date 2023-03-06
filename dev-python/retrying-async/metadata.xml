@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>async_retrying==============:info: Simple retrying for asyncioInstallation------------.. code-block:: shell    pip install retrying-async==1.1.0 -i https://pypi.org/pypiUsage-----.. code-block:: python    import asyncio    from retrying_async import retry    counter = 0    @retry(attempts=3, delay=3)    async def fn():        global counter        counter += 1        if counter == 1:            raise RuntimeError    async def main():        await fn()    loop = asyncio.get_event_loop()    loop.run_until_complete(main())    assert counter == 2    loop.close()Python 3.5+ is required</longdescription>
+</pkgmetadata>

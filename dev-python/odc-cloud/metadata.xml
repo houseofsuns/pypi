@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>odc.cloud=========Various cloud access helper methods.This package ships several namespaces:- `odc.aws.` S3 and other AWS resources- `odc.aio.` S3 but async, depends (needs `[ASYNC]` feature flag, pulls in `aiobotocore`)- `odc.azure.` Azure blob storage traversal helpers (needs `[AZURE]` feature flag)- `odc.thredds.` THREDDS traversal helper method (needs `[THREDDS]` feature flag)Installation------------```pip install odc-cloud```Usage-----TODO</longdescription>
+</pkgmetadata>

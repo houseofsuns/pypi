@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># yagup - Yet another git url parser## UsageIts very simple to use it:```from yagup import GitURLGitURL.parse(&quot;ssh://github.com/foo/bar.git)```</longdescription>
+</pkgmetadata>

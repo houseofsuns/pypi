@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>* Webpage: https://gammapy.org* Documentation: https://docs.gammapy.org* Code: https://github.com/gammapy/gammapyGammapy is an open-source Python package for gamma-ray astronomy built on Numpy, Scipy and Astropy.It is the base library for the science analysis tools of the Cherenkov Telescope Array Observatoryand can also be used to analyse data from existing gamma-ray telescopes.</longdescription>
+</pkgmetadata>

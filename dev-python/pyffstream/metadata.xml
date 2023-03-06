@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pyffstream[![PyPI](https://img.shields.io/pypi/v/pyffstream.svg)](https://pypi.org/project/pyffstream/)[![Python](https://img.shields.io/pypi/pyversions/pyffstream.svg)](https://pypi.org/project/pyffstream/)[![Docs](https://readthedocs.org/projects/pyffstream/badge/)](https://pyffstream.readthedocs.io/)[![Release](https://github.com/gbeauregard/pyffstream/workflows/Release/badge.svg)](https://github.com/GBeauregard/pyffstream/actions/workflows/release.yml)[![Tox](https://github.com/gbeauregard/pyffstream/workflows/Tox/badge.svg)](https://github.com/GBeauregard/pyffstream/actions/workflows/tox.yml)[![CodeQL](https://github.com/gbeauregard/pyffstream/workflows/CodeQL/badge.svg)](https://github.com/GBeauregard/pyffstream/actions/workflows/codeql-analysis.yml)[![Code Style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)A CLI wrapper for ffmpeg to stream files over SRT/RTMP. Also supports the apifor a not (yet) open sourced pyffserver endpoint.## UsageSee [the documentation](https://pyffstream.readthedocs.io/) for a list of CLI options.## NotesThe CLI interface is relatively stable, but the API helper functions aresubject to change drastically until at least 0.1.</longdescription>
+</pkgmetadata>

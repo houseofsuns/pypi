@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>### pytest-embedded-serialpytest embedded service for testing via serial portsExtra Functionalities:- `serial`: enable the fixture- `dut`: duplicate the `serial` output to `pexpect_proc`.Used CLI Options:- `port`</longdescription>
+</pkgmetadata>

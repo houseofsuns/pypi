@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Syneto APISyneto Client API library: authentication, storage, virtualization and protection# Installation```$ pip install syneto-api```# Basic Usage```from syneto_api import Authentication, Virtualization, Storage, Protectionauth_api = Authentication(url_base=&quot;https://syneto-instance-ip-address/api/auth&quot;, insecure_ssl=True)response = auth_api.login(username=&quot;admin&quot;, password=&quot;admin&quot;)jwt = response['jwt']virt_api = Virtualization(url_base=&quot;https://syneto-instance-ip-address/api/virtualization&quot;, insecure_ssl=True)virt_api.set_auth_jwt(jwt)print(virt_api.get_vms())storage_api = Storage(url_base=&quot;https://syneto-instance-ip-address/api/storage&quot;, insecure_ssl=True)storage_api.set_auth_jwt(jwt)print(storage_api.get_pools())```# Environment VariablesFor conveninence, the base urls for the api endpoints are also accepted as environment variables, please see below.```AUTH_SERVICE=https://syneto-instance-ip-address/api/authVIRTUALIZATION_SERVICE=https://syneto-instance-ip-address/api/virtualizationSTORAGE_SERVICE=https://syneto-instance-ip-address/api/storagePROTECTION_SERVICE=https://syneto-instance-ip-address/api/protection```If you are using self-signed SSL certificates, set the following env. so that the http request library does not perform ssl verification. ```ALLOW_INSECURE_SSL=True```</longdescription>
+</pkgmetadata>

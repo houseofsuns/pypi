@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[Documentation](https://consol.github.io/check_vsphere/#/)# Installation```pip install checkvsphere```# LICENSEIf not stated otherwise in a source file everything is licensed underGNU AFFERO GENERAL PUBLIC LICENSE Version 3.See also the LICENSE file.</longdescription>
+</pkgmetadata>

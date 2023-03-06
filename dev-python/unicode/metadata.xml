@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Display unicode character properties:Enter regular expression, hexadecimal number or some characters as anargument. unicode will try to guess what you want to look up.Use four-digit hexadecimal number followed by two dots to displaygiven unicode block in a nice tabular format.</longdescription>
+</pkgmetadata>

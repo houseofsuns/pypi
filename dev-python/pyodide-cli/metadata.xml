@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pyodide-cli[![PyPI Latest Release](https://img.shields.io/pypi/v/pyodide-cli.svg)](https://pypi.org/project/pyodide-cli/)![GHA](https://github.com/pyodide/pyodide-cli/actions/workflows/main.yml/badge.svg)[![codecov](https://codecov.io/gh/pyodide/pyodide-cli/branch/main/graph/badge.svg)](https://codecov.io/gh/pyodide/pyodide-cli)The command line interface for the Pyodide project.In most cases, you do not need to install this package directly, and it would be installed asa dependency of other packages in the ecosystem (e.g. pyodide-build).## Installation```pip install pyodide-cli```## UsageTo get a list of available CLI commands,```pyodide --help```## DevelopersYou can register a subcommand in the `pyodide` CLI in your own package by:1. adding a dependency on `pyodide-cli`2. Adding a `pyodide.cli` [entry point](https://setuptools.pypa.io/en/latest/userguide/entry_point.html). For example, with   **setup.cfg**   ```toml   [options.entry_points]   pyodide.cli =    do_something = &quot;&lt;your-package&gt;.cli:main&quot;   ```   or   **pyproject.toml**   ```toml   [project.entry-points.&quot;pyodide.cli&quot;]   do_something = &quot;&lt;your-package&gt;.cli:main&quot;   ```   where in this example `main` needs to be a function with type annotations   that can be converted to a CLI with [typer](https://typer.tiangolo.com/).## Licensepyodide-cli uses the [Mozilla Public License Version2.0](https://choosealicense.com/licenses/mpl-2.0/).</longdescription>
+</pkgmetadata>

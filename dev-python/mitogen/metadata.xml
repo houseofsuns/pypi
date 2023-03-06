@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Mitogen&lt;a href=&quot;https://mitogen.networkgenomics.com/&quot;&gt;Please see the documentation&lt;/a&gt;.![](https://i.imgur.com/eBM6LhJ.gif)[![Total alerts](https://img.shields.io/lgtm/alerts/g/mitogen-hq/mitogen.svg?logo=lgtm&amp;logoWidth=18)](https://lgtm.com/projects/g/mitogen-hq/mitogen/alerts/)[![Build Status](https://dev.azure.com/mitogen-hq/mitogen/_apis/build/status/mitogen-hq.mitogen?branchName=master)](https://dev.azure.com/mitogen-hq/mitogen/_build/latest?definitionId=1&amp;branchName=master)</longdescription>
+</pkgmetadata>

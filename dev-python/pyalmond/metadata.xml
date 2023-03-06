@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Python Client for the Almond API[![Build Status](https://travis-ci.com/stanford-oval/pyalmond.svg?branch=master)](https://travis-ci.com/stanford-oval/pyalmond) [![Coverage Status](https://coveralls.io/repos/github/stanford-oval/pyalmond/badge.svg?branch=master)](https://coveralls.io/github/stanford-oval/pyalmond?branch=master) [![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/stanford-oval/pyalmond.svg?logo=lgtm&amp;logoWidth=18)](https://lgtm.com/projects/g/stanford-oval/pyalmond/context:python)This package contains a Python client to access the [Almond API](https://almond.stanford.edu/doc/my-api.md).It allows to communicate and control a running Almond instance from a Python application.## InstallationTo install this package, run:```bashpip3 install --user pyalmond```## Developer SetupThe developer dependencies are listed in requirements.txt. You can install them with:```bashpip3 install -r requirements.txt```</longdescription>
+</pkgmetadata>

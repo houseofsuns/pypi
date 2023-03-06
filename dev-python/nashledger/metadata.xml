@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Nasheq E.R.P. Standardized A.P.I.s python integrations## Quick GuideBelow are the steps on how to get the web app up and running1.Install Dependencies:```bash    pip install requests    pip install django-compression-middleware    pip install djangorestframework```2.Install Nash Sync ERP Library:```bash    pip install nashledger```3.View get started documentation:```bash    https://nashledger.readme.io/docs```4.Start Coding</longdescription>
+</pkgmetadata>

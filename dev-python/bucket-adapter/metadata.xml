@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Buckets AdapterBuckets Adapter Django module is a base for upload files on bucket for different web services e.g Google Cloud Platform or Amazon Web Services which will be used as a package in different projects.</longdescription>
+</pkgmetadata>

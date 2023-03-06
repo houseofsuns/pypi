@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>#################ftrack Python API#################Python API for ftrack... important::    This is the new Python client for the ftrack API. If you are migrating from    the old client then please read the dedicated `migration guide &lt;http://ftrack-python-api.rtd.ftrack.com/en/stable/release/migrating_from_old_api.html&gt;`_.*************Documentation*************Full documentation, including installation and setup guides, can be found athttp://ftrack-python-api.rtd.ftrack.com/en/stable/*********************Copyright and license*********************Copyright (c) 2014 ftrackLicensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not usethis work except in compliance with the License. You may obtain a copy of theLicense in the LICENSE.txt file, or at:http://www.apache.org/licenses/LICENSE-2.0Unless required by applicable law or agreed to in writing, software distributedunder the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES ORCONDITIONS OF ANY KIND, either express or implied. See the License for thespecific language governing permissions and limitations under the License.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># topbid[![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-380/)[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)Helper library to fetch and store current orderbook top bid/ask price and volume from crypto exchanges APIs.Currently supports Binance, Bybit, Gateio, Kraken, Kucoin and OKX.Requires Python 3.8+## Installation```pip install topbid```## Usage```python&gt;&gt;&gt; from topbid.orderbook import OrderBook# Instanciate OrderBook.&gt;&gt;&gt; orderbook = OrderBook()# Add one or more market pairs to be fetched from an exchange REST API.&gt;&gt;&gt; orderbook.add(&quot;binance&quot;, &quot;BTC/USDT&quot;)&gt;&gt;&gt; orderbook.add(&quot;kucoin&quot;, [&quot;BTC/USDT&quot;, &quot;ETH/USDT&quot;])# Start the background thread fetching prices and volume (here, every 2 seconds).&gt;&gt;&gt; orderbook.start(update_every=2)# Retrieve the highest bid on the orderbook.&gt;&gt;&gt; orderbook.get_orderbook_top_bid(&quot;binance&quot;, &quot;BTC/USDT&quot;)(23130.41, 0.0584)# Retrieve the lowest ask on the orderbook.&gt;&gt;&gt; orderbook.get_orderbook_top_ask(&quot;binance&quot;, &quot;BTC/USDT&quot;)(23130.43, 0.0214)# Removes a pair from being fetched.&gt;&gt;&gt; orderbook.delete(&quot;binance&quot;, &quot;BTC/USDT&quot;)# Stop the background thread and removes all watched pairs.# It must be called before exiting your own application.&gt;&gt;&gt; orderbook.stop()```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># 🤖 AI Module### 👉🏻 데이터 수집, 전처리, DB 관련 패키지#### pshmodule  https://pypi.org/project/pshmodule/&lt;br&gt;db :  sqlalchemy, pymysql excutemany query&lt;br&gt;processing : data 정규표현식 전처리&lt;br&gt;selenium : selenium 크롤링&lt;br&gt;utils : filemanager 파일 load, save 및 전반 utils&lt;br&gt;## 👉🏻 use totest directory의 test 파일로 예시 참고 ex) alchemy_test, selenium_test&lt;br&gt;https://github.com/hipster4020/pshmodule/tree/master/test&lt;br&gt;## 👉🏻 installpip3 install pshmodule&lt;br&gt;## 👉🏻 tree * [src]   * [pshmodule]      * [db]       * [__init__.py]       * [alchemy.py]       * [config.py]     * [processing]       * [__init__.py]       * [processing.py]     * [selenium]       * [__init__.py]       * [helper.py]     * [utils]       * [__init__.py]       * [filemanager.py]     * [__init__.py] * [test]   * [selenium_test.py]  * [README.md] * [setup.py]## 👉🏻 registpython3 setup.py sdist bdist_wheeltwine upload --repository-url https://upload.pypi.org/legacy/ dist/*</longdescription>
+</pkgmetadata>

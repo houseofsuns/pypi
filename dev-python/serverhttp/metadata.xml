@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;h3&gt;A Simple HTTP Server.&lt;/h3&gt;&lt;h4&gt;Changes&lt;/h4&gt;&lt;p&gt;Dropped Support for python 3.3&amp;3.4.&lt;/p&gt;&lt;p&gt;Dropped ThreadedHTTPServer.&lt;/p&gt;&lt;p&gt;Bug Fixes&lt;/p&gt;</longdescription>
+</pkgmetadata>

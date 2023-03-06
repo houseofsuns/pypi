@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># news_2_pdfGenerate international news in pdf. For people with limited access to internet.## usage```import news_2_pdfnew_2_pdf.gen('bbc英文')new_2_pdf.gen('nyt英文')new_2_pdf.gen('bbc')new_2_pdf.gen('nyt')```## how to install`sudo -v &amp;&amp; wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin` `pip3 install news_2_pdf`</longdescription>
+</pkgmetadata>

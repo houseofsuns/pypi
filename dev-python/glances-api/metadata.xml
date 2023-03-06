@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>python-glances-api==================A Python client for interacting with `Glances &lt;https://nicolargo.github.io/glances/&gt;`_.This module is not official, developed, supported or endorsed by Glances.Installation------------The module is available from the `Python Package Index &lt;https://pypi.python.org/pypi&gt;`_... code:: bash    $ pip3 install glances_apiOr on a Fedora-based system or on a CentOS/RHEL machine with has EPEL enabled... code:: bash    $ sudo dnf -y install python3-glances-apiFor Nix or NixOS is `pre-packed module &lt;https://search.nixos.org/packages?channel=unstable&amp;query=glances-api&gt;`_available. The lastest release is usually present in the ``unstable`` channel... code:: bash    $ nix-env -iA nixos.python3Packages.glances-apiUsage-----The file ``example.py`` contains an example about how to use this module.License-------``python-glances-api`` is licensed under MIT, for more details check LICENSE.</longdescription>
+</pkgmetadata>

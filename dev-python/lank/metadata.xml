@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># LANK## Listening Anchor Nodes for KIn service of:- **L**abels- **A**ddresses (peer discovery)- **N**ames- **K**eys## InstallationLANK is easy to install using pip:```pip install lank```## UsageOnce installed, simply run the `lank` command from any terminal.## AuthorCreated by Shawn A. Wilson [lannocc@yahoo.com] aka LANNOCC.</longdescription>
+</pkgmetadata>

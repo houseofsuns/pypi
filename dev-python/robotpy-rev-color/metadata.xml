@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>robotpy-rev-color=================This is a python wrapper around the REV Robotics Color Sensor V3. The RobotPyproject is not associated with or endorsed by REV Robotics.Documentation-------------TODO.. there's an example at [examples/read_rgb_values](examples/read_rgb_values).License-------RobotPy specific bits are available under the BSD-3-Clause license. The REVspecific pieces are available under a BSD license.Author------Dustin Spicuzza (dustin@virtualroadside.com)</longdescription>
+</pkgmetadata>

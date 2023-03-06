@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>django-pagseguro2=================Integração da API v2 do PagSeguro com o Django... image:: https://github.com/allisson/django-pagseguro2/workflows/tests/badge.svg    :target: https://github.com/allisson/django-pagseguro2/actions.. image:: https://img.shields.io/pypi/v/django-pagseguro2.svg        :target: https://pypi.python.org/pypi/django-pagseguro2        :alt: Latest Version.. image:: https://img.shields.io/github/license/allisson/django-pagseguro2.svg        :target: https://pypi.python.org/pypi/django-pagseguro2        :alt: License.. image:: https://img.shields.io/pypi/pyversions/django-pagseguro2.svg        :target: https://pypi.python.org/pypi/django-pagseguro2        :alt: Supported Python versions- `Documentação &lt;http://django-pagseguro-2.readthedocs.org/&gt;`_- `Aplicação de exemplo &lt;https://github.com/allisson/django-pagseguro2-example/&gt;`_</longdescription>
+</pkgmetadata>

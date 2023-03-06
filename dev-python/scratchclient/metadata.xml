@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># scratchclientA scratch API wrapper for python. ## InstallationGo to your terminal (not your python shell) and execute this command:```bashpip install scratchclient```If this didn't work for whatever reason, open your python shell and run the following:```pythonimport os; os.system(&quot;pip install scratchclient&quot;)```## Example Usage### Basic Usage```pythonfrom scratchclient import ScratchSessionsession = ScratchSession(&quot;ceebee&quot;, &quot;--uwu--&quot;)# post commentssession.get_user(&quot;Paddle2See&quot;).post_comment(&quot;OwO&quot;)# lots of other stuffprint(session.get_project(450216269).get_comments()[0].content)print(session.get_studio(29251822).description)```### Cloud Connection```pythonfrom scratchclient import ScratchSessionsession = ScratchSession(&quot;griffpatch&quot;, &quot;SecurePassword7&quot;)connection = session.create_cloud_connection(450216269)connection.set_cloud_variable(&quot;variable name&quot;, 5000)@connection.on(&quot;set&quot;)def on_set(variable):    print(variable.name, variable.value)print(connection.get_cloud_variable(&quot;other variable&quot;))```Documentation is available at &lt;https://cubeythecube.github.io/scratchclient&gt;.All bugs should be reported to the [github repository](https://github.com/CubeyTheCube/scratchclient/issues). If you need help or guideance, check out the [forum topic](https://scratch.mit.edu/discuss/topic/506810).</longdescription>
+</pkgmetadata>

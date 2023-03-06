@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># python-bgpstuff.netpython-bgpstuff.net is a Python library that can access the various functions on [bgpstuff.net](bgpstuff.net).## Requirements```pip install bgpstuff```## Simple demo```&gt;&gt;&gt; import bgpstuff&gt;&gt;&gt; q = bgpstuff.Client()&gt;&gt;&gt; q.get_route(&quot;4.2.2.1&quot;)&gt;&gt;&gt; print(f&quot;The route for 4.2.2.1 is {q.route}&quot;)&gt;&gt;&gt; The route for 4.2.2.1 is 4.0.0.0/9```## NotesThe library has a built in rate limiter to limit 30 requests per minute. If you go over this limit the application will sleep until there is more available requests.While you could change this in the code, if you do that I'll permanently ban your source IPs.### DocumentationDocumentation for installation and all the methods can be found at [https://dev.bgpstuff.net/](https://dev.bgpstuff.net/)</longdescription>
+</pkgmetadata>

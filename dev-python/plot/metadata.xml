@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># plotThis is a command line package for using matplotlibto make plots based on input JSON or YAML file.## ExamplesThis package is still in active development.  For examples, you can take a look at the [test/run](https://github.com/yuhangwang/plot/tree/master/test/run) folder.Currently `plot` supports plotting `line`, `bar`, `matrix` and `span` plots.The full list of available parameters can be found in the [plot/parameter](https://github.com/yuhangwang/plot/tree/master/plot/parameter) folder.  In the subfolders: `data`, `global` and `local`,the `all.yaml` contains all the parameters for each these fields.It is automatically generated using the the individual yaml files,  such as `bar.yaml`, `line.yaml`, etc.A documentation will be available soon.## Support for MacOSTo avoid TK crashing problem on MacOS, do the followings(see https://github.com/MTG/sms-tools/issues/36#issuecomment-296493101)```bashmkdir -p ~/.matplotlib`echo &quot;backend: TkAgg&quot; &gt; ~/.matplotlib/matplotlibrc````## LicenseMIT/X11 (c) Yuhang(Steven) Wang, 2016</longdescription>
+</pkgmetadata>

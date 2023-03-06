@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## kudu-python: Python interface to the Apache Kudu C++ Client APIUsing this package requires that you install the Kudu C++ client libraries andheaders. See http://getkudu.io for more.To install from PyPI, run```pip install kudu-python```Installation from source requires Cython.</longdescription>
+</pkgmetadata>

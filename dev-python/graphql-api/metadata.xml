@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># GraphQL-APIFramework for building a GraphQL API with Python[![coverage report](https://gitlab.com/parob/graphql-api/badges/master/coverage.svg)](https://gitlab.com/parob/graphql-api/commits/master)[![pipeline status](https://gitlab.com/parob/graphql-api/badges/master/pipeline.svg)](https://gitlab.com/parob/graphql-api/commits/master)## Installation##### Pip```pip install graphql-api```## Run the Unit TestsTo run the tests.```pip install pipenvpipenv install --devpipenv run python -m pytest tests --cov=graphql_api```## DocsThe documentation is public, and is generated using Sphinx.[GraphQL-API Documentation](http://parob.gitlab.io/graphql-api/)##### Build documentationTo build a local static HTML version of the documentation.```pip install pipenvpipenv install sphinxpipenv run sphinx-build docs ./public -b html```## Simple Example``` pythonfrom graphql_api import GraphQLAPIapi = GraphQLAPI()@api.type(root=True)class MathService:    @api.field    def is_odd(self, number: int) -&gt; str:        return &quot;No&quot; if (num % 2) else &quot;Yes&quot;query = '''    query {        isOdd(number: 5)    }'''result = api.executor().execute(query)print(result.data)`````` text$ python example.py&gt;&gt;&gt; {'isOdd': 'No'}```</longdescription>
+</pkgmetadata>

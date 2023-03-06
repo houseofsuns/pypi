@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Python version of MoorDyn, a lumped-mass mooring dynamics modelintended for coupling with floating structure codes.This is not a wrapper of MoorDyn, but an stand-alone version. Thus you canjust install and use this package, no need of the MoorDyn library in yoursystem.Please, visit https://moordyn-v2.readthedocs.io to learn more about this package,and MoorDyn in general.If you detect any problem, please feel free to report the issue on the GitHubpage:https://github.com/mattEhall/MoorDynWARNING: This is a pre-release version of MoorDyn v2. The API may be changedin the future, breaking your program</longdescription>
+</pkgmetadata>

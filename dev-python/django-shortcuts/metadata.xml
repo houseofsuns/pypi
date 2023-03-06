@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Django shortcuts================You spend too much time typing ``python manage.py``.Usage-----Django shortcuts installs a ``django`` binary that proxiesDjango's ``manage.py`` and ``django-admin.py`` scripts.::    $ django &lt;command or shortcut&gt;    $ cd any/project/subdirectory    $ django &lt;command or shortcut&gt;Requirements------------Some commands require additional packages+ South+ Haystack+ Django Command ExtensionsShortcuts---------::    # Django    'c'  : 'collectstatic',    'r'  : 'runserver',    'sd' : 'syncdb',    'sp' : 'startproject',    'sa' : 'startapp',    't'  : 'test',    # Shell    'd'  : 'dbshell',    's'  : 'shell',    # Auth    'csu': 'createsuperuser',    'cpw': 'changepassword',    # South    'm'  : 'migrate',    'mm' : 'makemigrations',    'sm' : 'schemamigration',    'dm' : 'datamigration',    # Haystack    'ix' : 'update_index',    'rix': 'rebuild_index',    # Django Extensions    'sk' : 'generate_secret_key',    'rdb': 'reset_db',    'rp' : 'runserver_plus',    'shp': 'shell_plus',    'url': 'show_urls',    'gm' : 'graph_models',    'rs' : 'runscript'Installation------------::    $ pip install django-shortcuts</longdescription>
+</pkgmetadata>

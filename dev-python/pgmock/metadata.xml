@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pgmock######pgmock provides utilities for obtaining and mocking out expressions in Postgres queries. For a quick start anda full tutorial on using pgmock, view the documentation link below.Documentation=============`View the pgmock docs here &lt;http://pgmock.readthedocs.io/&gt;`_.Installation============pgmock can be installed with::    pip3 install pgmockContributing Guide==================For information on setting up pgmock for development and contributing changes, view `CONTRIBUTING.rst &lt;CONTRIBUTING.rst&gt;`_.Primary Authors===============- @wesleykendall (Wes Kendall)- @chris-hartfield (Chris Hartfield)- @dargueta (Diego Argueta)- @VincentLa (Vincent La)Other contributors can be found in the AUTHORS file</longdescription>
+</pkgmetadata>

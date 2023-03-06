@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Project renamed to `solo1-cli`.- repository: &lt;https://github.com/solokeys/solo1-cli&gt;- install: `pip install --upgrade solo1`- CLI use: `solo1 &lt;commands&gt;`- libray use: no change, use `import solo.client; solo.client.find_all()` etc.</longdescription>
+</pkgmetadata>

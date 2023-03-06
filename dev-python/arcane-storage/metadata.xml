@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Arcane StorageThis package is base on [google-cloud-storage](https://pypi.org/project/google-cloud-storage/).## Get Started```shpip install arcane-storage```## Example Usage```pythonfrom arcane import storageclient = storage.Client()blobs = client.list_blobs('bucket-id-here')```or```pythonfrom arcane import storage# Import your configsfrom configure import Configclient = storage.Client.from_service_account_json(Config.KEY, project=Config.GCP_PROJECT)blobs = client.list_blobs('bucket-id-here')```</longdescription>
+</pkgmetadata>

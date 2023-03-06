@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Config BuilderThe ConfigBuilder provides an SDK for building configuration classes on the basis of given content from YAML configuration files. Details about the ConfigBuilder can befound in the [documentation](documentation/index.adoc).## InstallThe installation and setup of the ConfigBuilder is described in [chapter 11](documentation/12_tutorial.adoc) of the documentation.# Technology stack- Python ## LicenseSee the license file in the top directory.## Contact informationMaintainer: - Maximilian Otten &lt;a href=&quot;mailto:maximilian.otten@iml.fraunhofer.de?&quot;&gt;maximilian.otten@iml.fraunhofer.de&lt;/a&gt;Development Team: - Christian Hoppe &lt;a href=&quot;mailto:christian.hoppe@iml.fraunhofer.de?&quot;&gt;christian.hoppe@iml.fraunhofer.de&lt;/a&gt;- Oliver Bredtmann &lt;a href=&quot;mailto:oliver.bredtmann@dbschenker.com?&quot;&gt;oliver.bredtmann@dbschenker.com&lt;/a&gt;- Thilo Bauer &lt;a href=&quot;mailto:thilo.bauer@dbschenker.com?&quot;&gt;thilo.bauer@dbschenker.com&lt;/a&gt;</longdescription>
+</pkgmetadata>

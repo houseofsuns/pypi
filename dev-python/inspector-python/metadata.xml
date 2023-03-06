@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Inspector | Code Execution Monitoring ToolInspector is a Code Execution Monitoring tool to help developers find out technical problems in their application automatically, before customers do.## Requirements- Python &gt;= 3.x## InstallInstall the latest version of the package from PyPI:```shellpip install inspector-python```## Get a new Ingestion KeyYou need an Ingestion Key to create an instance of the Inspector class.  You can obtain a key creating a new project in your [Inspector dashboard](https://app.inspector.dev).## InitializationHere's a code example of how Inspector is normally initialized in a Python script:```pythonfrom inspector import Configuration, Inspectorconfig = Configuration('xxxxxxxxxxxxxxxxxxx')inspector = Inspector(config)inspector.start_transaction('my python script')```## Official documentationCheckout our [official documentation](https://docs.inspector.dev/guides/python) for more detailed tutorial.## LicenseThis library is licensed under the [MIT](LICENSE) license.</longdescription>
+</pkgmetadata>

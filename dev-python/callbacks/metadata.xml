@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Callbacks lets you use decorator syntax to set callbacks on methods or functions.[![Build Status](https://secure.travis-ci.org/14rcole/callbacks.svg?branch=master)](https://travis-ci.org/14rcole/callbacks)[![Coverage Status](https://coveralls.io/repos/github/14rcole/callbacks/badge.svg?branch=master)](https://coveralls.io/github/14rcole/callbacks?branch=master)```pythonfrom callbacks import supports_callbacksdef callback():    print &quot;Polly!&quot;@supports_callbacksdef target():    print &quot;hello&quot;,target.add_callback(callback)target() # prints &quot;hello Polly!&quot;```</longdescription>
+</pkgmetadata>

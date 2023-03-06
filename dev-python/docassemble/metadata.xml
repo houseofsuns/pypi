@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>See the [docassemble web site] for a description of **docassemble**and installation instructions.To get help with using **docassemble**, join the [docassemble Slackgroup].[docassemble web site]: https://docassemble.org[docassemble Slack group]: https://docassemble.org/docs/support.html</longdescription>
+</pkgmetadata>

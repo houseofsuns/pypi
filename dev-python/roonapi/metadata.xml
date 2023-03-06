@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pyRoon ![Build status](https://github.com/pavoni/pyroon/workflows/Build/badge.svg) ![PyPi version](https://img.shields.io/pypi/v/roonapi) ![PyPi downloads](https://img.shields.io/pypi/dm/roonapi)python library to interface with the Roon API (www.roonlabs.com)See https://github.com/pavoni/pyroon/tree/master/examples for code examples.An example of connecting to the roon server and using a subscription:```import timefrom roonapi import RoonApiappinfo = {    &quot;extension_id&quot;: &quot;python_roon_test&quot;,    &quot;display_name&quot;: &quot;Python library for Roon&quot;,    &quot;display_version&quot;: &quot;1.0.0&quot;,    &quot;publisher&quot;: &quot;gregd&quot;,    &quot;email&quot;: &quot;mygreat@emailaddress.com&quot;,}# Can be None if you don't yet have a tokentoken = open(&quot;mytokenfile&quot;).read()# Take a look at examples/discovery if you want to use discovery.server = &quot;192.168.1.160&quot;roonapi = RoonApi(appinfo, token, server)def my_state_callback(event, changed_ids):    &quot;&quot;&quot;Call when something changes in roon.&quot;&quot;&quot;    print(&quot;my_state_callback event:%s changed_ids: %s&quot; % (event, changed_ids))    for zone_id in changed_ids:        zone = roonapi.zones[zone_id]        print(&quot;zone_id:%s zone_info: %s&quot; % (zone_id, zone))# receive state updates in your callbackroonapi.register_state_callback(my_state_callback)time.sleep(60)# save the token for next timewith open(&quot;mytokenfile&quot;, &quot;w&quot;) as f:    f.write(roonapi.token)```</longdescription>
+</pkgmetadata>

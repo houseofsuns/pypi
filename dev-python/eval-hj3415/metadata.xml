@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>eval-hj3415==========eval-hj3415 evaluate naver financial data.Quick start------------from eval_hj3415 import evalfor all eval dictionary..   eval.Eval(&lt;&lt;code:str&gt;&gt;).get_all()or..   eval.Score(&lt;&lt;code:str&gt;&gt;).eval_dictfor get score..   s = eval.Score(&lt;&lt;code:str&gt;&gt;)   s.red()   s.mil()   s.blue()</longdescription>
+</pkgmetadata>

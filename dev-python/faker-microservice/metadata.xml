@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># faker-microserviceProvider for [Faker](https://faker.readthedocs.io/) which adds fake microservice names.[![PyPI](https://img.shields.io/pypi/v/faker-microservice.svg)](https://pypi.org/project/faker-microservice/)![](https://img.shields.io/pypi/pyversions/faker-microservice.svg)[![Downloads](https://pepy.tech/badge/faker-microservice)](https://pepy.tech/project/faker-microservice)[![Build Status](https://img.shields.io/travis/com/craiga/faker-microservice.svg)](https://travis-ci.com/craiga/faker-microservice)[![Maintainability](https://img.shields.io/codeclimate/maintainability/craiga/faker-microservice.svg)](https://codeclimate.com/github/craiga/faker-microservice/maintainability)[![Test Coverage](https://img.shields.io/codeclimate/coverage/craiga/faker-microservice.svg)](https://codeclimate.com/github/craiga/faker-microservice/test_coverage)# Installation```pipenv install faker-microservice```# Usage## Python```pythonfrom faker import Fakerimport faker_microservicefake = Faker()fake.add_provider(faker_microservice.Provider)print(fake.microservice())  # prints &quot;fulfilment_manager&quot; or similar```## Command Line```pipenv run faker microservice -i faker_microservice```</longdescription>
+</pkgmetadata>

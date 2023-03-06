@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pytest-httpbin==============httpbin is an amazing web service for testing HTTP libraries. It has severalgreat endpoints that can test pretty much everything you need in a HTTPlibrary. The only problem is: maybe you don't want to wait for your tests totravel across the Internet and back to make assertions against a remote webservice.Enter pytest-httpbin. Pytest-httpbin creates a pytest &quot;fixture&quot; that isdependency-injected into your tests. It automatically starts up a HTTP serverin a separate thread running httpbin and provides your test with the URL in thefixture. Check out this example:.. code-block:: python    def test_that_my_library_works_kinda_ok(httpbin):        assert requests.get(httpbin.url + '/get/').status_code == 200This replaces a test that might have looked like this before:.. code-block:: python    def test_that_my_library_works_kinda_ok():        assert requests.get('http://httpbin.org/get').status_code == 200pytest-httpbin also supports https and includes its own CA cert you can use.Check out `the full documentation`_ on the github page... _the full documentation: https://github.com/kevin1024/pytest-httpbin</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pyschlagePython 3 library for interacting with Schlage Encode WiFi locks.*Note that this project has no official relationship with Schlage or Allegion. Use at your own risk.*## Usage```pythonfrom pyschlage import Auth, Schlage# Create a Schlage object and authenticate with your credentials.s = Schlage(Auth(&quot;username&quot;, &quot;password&quot;))# List the locks attached to your account.locks = s.locks()# Print the name of the first lockprint(locks[0].name)&quot;My lock&quot;# Lock the first lock.lock[0].lock()```## DocumentationAPI reference can be found on [Read the Docs](https://pyschlage.readthedocs.io)</longdescription>
+</pkgmetadata>

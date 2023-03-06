@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>dyplot======matplotlib-like plot functions for dygraphs.js c3.js. See `dygraphs.com &lt;http://dygraphs.com&gt;`_ and `c3js.org &lt;http://c3js.org&gt;`_.Interactive out of the box: zoom, pan and mouseover are on by default.Drag your mouse to zoom in and double click to zoom out.You can clone the source code from https://github.com/blacksburg98/dyplotThe document is http://dyplot.readthedocs.org/The series needs to be pandas.Series</longdescription>
+</pkgmetadata>

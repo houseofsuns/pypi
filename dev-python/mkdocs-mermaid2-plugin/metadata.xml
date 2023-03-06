@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>A mkdocs plugin that interprets mermaid graphs in the markdown file.To install, please follow instructions in the readme file.This is a fork of the Pugong Liu's excellent project, which is no longer maintained.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Pheasant is a Markdown converter which is designed to be used as a plugin for static site generators, especially MkDocs. The Pheasant main feature is auto generation of outputs for a fenced code block in Markdown source using Jupyter client. In addition, Pheasant can automatically number headers, figures, tables, etc.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Accern-XYME===========*accern\_xyme* is a python/typescript library for accessing XYME functionality.|CircleCI|.. |CircleCI| image:: https://circleci.com/gh/Accern/accern-xyme.svg?style=svg   :target: https://circleci.com/gh/Accern/accern-xymePython Usage------------You can install *accern\_xyme* with pip:.. code:: sh    pip install --user accern-xymeImport it in python via:.. code:: python    import accern_xyme    xyme = accern_xyme.create_xyme_client(        &quot;&lt;URL&gt;&quot;,        token=&quot;&lt;TOKEN&gt;&quot;,        namespace=&quot;default&quot;)    print(xyme.get_dags()):code:`&lt;URL&gt;` and :code:`&lt;TOKEN&gt;` are the login credentials for XYME.You will need python3.6 or later.Typescript Developing---------------------You can install dependency with :code:`yarn`. Run :code:`yarn _postinstall`to configure husky pre-commit hooks for your local environment.</longdescription>
+</pkgmetadata>

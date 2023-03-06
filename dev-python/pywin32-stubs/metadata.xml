@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pywin32-stubs=============pywin32-stubs is generated from pywin32.chm, it contains: - win32-stubs- win32comext-stubs - pythonwin-stubs - win32helper : this packagedefines win32typing and constants.Installation============    pip install pywin32-stubsUsage=====.. code:: python    import win32gui    import win32helper.win32con as con    win32gui.MessageBox(0, &quot;hello&quot;, 'shit', con.MB_OK)</longdescription>
+</pkgmetadata>

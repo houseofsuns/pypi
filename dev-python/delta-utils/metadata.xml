@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Delta-utils## Installation```pip install delta-utils```## To deploy to PyPIFirst increase the version number in pyproject.toml (e.g. 0.0.13 -&gt; 0.0.14)```bashpython3 -m pip install --upgrade buildpython3 -m buildpython3 -m pip install --upgrade twinetwine upload --skip-existing dist/*```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># LCD I2C## Use an I2C LCD with PythonBasic library for interacting with I2C LCD screens. It started off as a Python port of the Arduino [LiquidCristal_I2C](https://github.com/johnrickman/LiquidCrystal_I2C/) library and ended up implementing an object oriented API, for easier use.Tested using a Raspberry Pi Zero 2W.## Examples### Connect to LCD screen and print some text:```pythonfrom lcd_i2c import LCD_I2Clcd = LCD_I2C(39, 16, 2)# Turn on the backlightlcd.backlight.on()# Show the blinking cursorlcd.blink.on()# or:# lcd.cursor.blink.on()# Print some textlcd.write_text('Hola!')```</longdescription>
+</pkgmetadata>

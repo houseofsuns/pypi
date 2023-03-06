@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>PyNewtonMath============Basics------PyNewtonMath is a Python 3.x API wrapper providing full support for the`newton micro-service`_, which is `available on GitHub`_.Newton does anything from numerical calculation to symbolic mathparsing.Installation------------Using pip:::    pip install pynewtonmathFrom GitHub:::    pip install git+https://github.com/benpryke/pynewtonmathUsage-----.. code-block:: python    import pynewtonmath as newton    newton.derive('x^2') # -&gt; '2 x'    newton.cos('pi') # -&gt; -1    newton.zeroes('x^2+2x') # -&gt; [-2, 0]-  No instantiation required-  Supports natural return typesThe following methods take optional extra arguments for convenience. Asper the API, if these are not specified they must be included before ahorizontal bar ``'|'`` in the expression for newton... code-block:: python    newton.log('2|8') # -&gt; 3    newton.log(8, base=2) # -&gt; 3    newton.tangent('2|x^3') # -&gt; '12 x + -16'    newton.tangent('x^3', x=2) # -&gt; '12 x + -16'    newton.area('2:4|x^3') # -&gt; 60    newton.area('x^3', start=2, end=4) # -&gt; 60See `the newton API GitHub repo`_ for the full list of endpoints... _newton micro-service: https://newton.now.sh.. _available on GitHub: https://github.com/aunyks/newton-api.. _the newton API GitHub repo: https://github.com/aunyks/newton-api</longdescription>
+</pkgmetadata>

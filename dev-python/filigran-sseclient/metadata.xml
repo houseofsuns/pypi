@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Filigran Python SSE ClientThis is a Python client library for iterating over http Server Sent Event (SSE)streams (also known as EventSource, after the name of the Javascript interfaceinside browsers).  The SSEClient class accepts a url on init, and is then aniterator over messages coming from the server.Forked from btubbs/sseclient to mainly support chunk stream messages, thanks to @ristowee</longdescription>
+</pkgmetadata>

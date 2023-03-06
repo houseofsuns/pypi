@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![Build Status](https://travis-ci.org/ohsu-comp-bio/py-tes.svg?branch=master)](https://travis-ci.org/ohsu-comp-bio/py-tes)[![Coverage Status](https://coveralls.io/repos/github/ohsu-comp-bio/py-tes/badge.svg?branch=master)](https://coveralls.io/github/ohsu-comp-bio/py-tes?branch=master)[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)py-tes======_py-tes_ is a library for interacting with servers implementing the [GA4GH Task Execution Schema](https://github.com/ga4gh/task-execution-schemas).### InstallAvailable on [PyPI](https://pypi.org/project/py-tes/).```pip install py-tes```### Example```import testask = tes.Task(    executors=[        tes.Executor(            image=&quot;alpine&quot;,            command=[&quot;echo&quot;, &quot;hello&quot;]        )    ])cli = tes.HTTPClient(&quot;http://funnel.example.com&quot;, timeout=5)task_id = cli.create_task(task)res = cli.get_task(task_id)cli.cancel_task(task_id)```</longdescription>
+</pkgmetadata>

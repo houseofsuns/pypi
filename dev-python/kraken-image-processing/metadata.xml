@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Image analysisFrom image, extracts the following information:- Image data    - Width    - Height- Characteristics    - Contains nudity- Faces    - features (for facial recognition)    - Face images- Persons    - Images of Persons- Save to file share## How to useAs method:`results = process(record, image)`As api: - Runs a flask servers accepting requests`run_api()`</longdescription>
+</pkgmetadata>

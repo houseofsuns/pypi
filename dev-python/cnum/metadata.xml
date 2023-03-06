@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># cnumcnum is a Python library for changing int and float value to Chinese numeral format string.Chinese numeral format is adopted following languages:- Japanese- Simplified Chinese- Traditional Chinese - KoreanFor each languages ## InstallationUse the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.```bashpip install cnum```## Usage```pythonimport cnum# returns Japanese styled numeral string.cnum.jp(123456789.123456789)'1億2345万6789 1分2厘3毛4糸5忽'# returns simplified Chinese styled numeral string. cnum.scn(123456789.12345)'1亿2345万6789 1分2厘3毫4丝5忽'# returns traditional Chinese styled numeral string. cnum.tcn(123456789.12345)'1億2345萬6789 1分2厘3毫4絲5忽'# returns Korean styled numeral string. cnum.kr(123456789.12345)'1억2345만6789 1分2厘3毛4糸5忽'```## ContributingPull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.Please make sure to update tests as appropriate.## License[MIT](https://choosealicense.com/licenses/mit/)</longdescription>
+</pkgmetadata>

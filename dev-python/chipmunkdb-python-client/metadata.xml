@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># chipmunkdb :chipmunk: python-clientModify and save dataframes with timeseries or without to an ultra-fast ipc chipmunk database with olap features. (Powered by duckdb)## Installationpip install chipmunkdb-python-client## Usage````python import syssys.path.insert(0,'..')import pandas as pdimport numpy as npfrom chipmunkdb.ChipmunkDb import ChipmunkDbdb = ChipmunkDb(&quot;localhost&quot;)#receive all collectionscollections = db.collections()# create a dataframedf = pd.DataFrame(np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]]),                   columns=['a', 'b', 'c'])print(df)## save your pandasdb.save_as_pandas(df, &quot;mydf&quot;)## get infos abotu your dataframecollection = db.collection_info(&quot;mydf&quot;)# read your dataframe againdf2 = db.collection_as_pandas(&quot;mydf&quot;)print(df2)# call any query on your datad = db.query(&quot;SELECT * FROM mydf WHERE a=1 LIMIT 100&quot;)print(d)````## Info</longdescription>
+</pkgmetadata>

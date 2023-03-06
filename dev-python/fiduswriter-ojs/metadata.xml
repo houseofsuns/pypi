@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>FidusWriter-OJS=====FidusWriter-OJS is a Fidus writer plugin to connect a Fidus Writer instancewith Open Journal Systems (OJS).This plugin has to be combined with the `OJS-FidusWriter plugin &lt;https://github.com/fiduswriter/ojs-fiduswriter&gt;`_ for OJS.NOTE----These instructions are for developers only. If you are running Fidus Writer as a snap, see [these instructions](https://github.com/fiduswriter/fiduswriter/wiki/Installation-and-configuration-on-Ubuntu-using-snap#activate-plugins) on how to activate plugins.Installation------------1. Within a Python virtual environment, install Fidus Writer with the plugin like this:    pip install fiduswriter[ojs]2. Create a Fidus Writer project in the current folder by running:    fiduswriter startproject3. There will now be a configuration.py file in the current folder. Add &quot;ojs&quot; to your INSTALLED_APPS setting in the configuration.py file   like this::    INSTALLED_APPS += (        ...        'ojs',    )4. Run Fidus Writer::    fiduswriter runserver5. Following the install instructions of the `OJS-FidusWriter plugin &lt;https://github.com/fiduswriter/ojs-fiduswriter&gt;`_ to connect   the two plugins with each other.Credits-----------This plugin has been developed by the `Opening Scholarly Communications in the Social Sciences (OSCOSS) &lt;http://www.gesis.org/?id=10714&gt;`_ project, financed by the German Research Foundation (DFG) and executed by the University of Bonn and GESIS – Leibniz Institute for the Social Sciences.Original Developers: `Fakhri Momeni &lt;https://github.com/momenifi&gt;`_ and `Johannes Wilm &lt;https://github.com/johanneswilm&gt;`_</longdescription>
+</pkgmetadata>

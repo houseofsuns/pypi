@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>classproperty======#### Install```pip install classproperties```#### Usage```from classproperties import classpropertyclass Foo:  @classproperty  def prop():    return 'hi there'  @classproperty  def other(cls):    return 'also works'Foo.propFoo.other```</longdescription>
+</pkgmetadata>

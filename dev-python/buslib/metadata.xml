@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Client library for interfacing with the BUS Methodology data API================================================================Typical contents for this file would include an overview of the project, basicusage examples, etc. Generally, including the project changelog in here is nota good idea, although a simple &quot;What's New&quot; section for the most recent versionmay be appropriate.</longdescription>
+</pkgmetadata>

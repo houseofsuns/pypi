@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># crucioCrucio is a python sci-kit learn inspired package for class imbalance. It use some classic methods for class balancing taking as parameters a data frame and the target column.This version of kydavra has the next methods of feature selection:* ADASYN.* ICOTE (Immune Centroids Oversampling).* MTDF (Mega-Trend Difussion Function).* MWMOTE (Majority Weighted Minority Oversampling Technique).* SMOTE (Synthetic Minority Oversampling Technique).* SMOTENC (Synthetic Minority Over-sampling Technique for Nominal and Continuous).* SMOTETOMEK (Synthetic Minority Oversampling Technique + Tomek links for undersampling).* SMOTEENN (Synthetic Minority Oversampling Technique + ENN for undersampling).* SCUT (SMOTE and Clustered Undersampling Technique).* SLS (Safe-Level-Synthetic Minority Over-Sampling TEchnique).* TKRKNN (Top-K ReverseKNN).All these methods takes the pandas Data Frame and y column to balance on.How to use crucioTo use balancer from crucio you should just import the balancer from crucio in the following framework:```pythonfrom crucio import SMOTE```class names are written above.Next create a object of this algorithm (I will use SMOTE method as an example).```pythonmethod = SMOTE()```To balance the dataset on the target column use the ‘balance’ function, using as parameters the pandas Data Frame and the column that you want to balance. Small tip, balance only the training set, not full one.```pythonnew_dataframe = method.balance(df, 'target')```Returned value is a new data frame with the target column balanced.With love from Sigmoid.We are open for feedback. Please send your impression to vladimir.stojoc@gmail.com</longdescription>
+</pkgmetadata>

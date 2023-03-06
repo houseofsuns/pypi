@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Nutils is a Free and Open Source Python programming library for Finite ElementMethod computations, developed by `Evalf Computing &lt;http://evalf.com&gt;`_ anddistributed under the permissive MIT license. Key features are a readable, mathcentric syntax, an object oriented design, strict separation of topology andgeometry, and high level function manipulations with support for automaticdifferentiation.Nutils provides the tools required to construct a typical simulation workflowin just a few lines of Python code, while at the same time leaving fullflexibility to build novel workflows or interact with third party tools. Withnative support for Isogeometric Analysis (IGA), the Finite Cell method (FCM),multi-physics, mixed methods, and hierarchical refinement, Nutils is at theforefront of numerical discretization science. Efficient under-the-hoodvectorization and built-in parallellisation provide for an effortlesstransition from academic research projects to full scale, real worldapplications.</longdescription>
+</pkgmetadata>

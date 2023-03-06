@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Django Markup Deprecated======================================This package contains the original ``django.contrib.markup`` from Django 1.4.1.It's intended as backward-compatible quick fix for your project if you're upgrading toDjango 1.6, which deprecates the app.For new projects, you may want to use something like `Django Markup Field &lt;https://github.com/jamesturk/django-markupfield&gt;`_ instead.Installation------------This package is also available on PyPI.::    $ pip install django-markup-deprecatedUsage-----Add ``'markup_deprecated'`` to your ``INSTALLED_APPS``.The template library is still called ``markup``, so you can still use ``{% load markup %}`` in your templates.Difference from ``django.contrib.markup``-----------------------------------------Settings~~~~~~~~This package adds an optional ``DJANGO_MARKUP_IGNORE_WARNINGS`` setting, that can be used to silence the warnings. Defaults to ``False``.Support-------This package will updated only when (and if) ``django.contrib.markup`` will everchange in the Django 1.4.x series. It is only for backward-compatibility purposesand there will be no support nor bugfixes.</longdescription>
+</pkgmetadata>

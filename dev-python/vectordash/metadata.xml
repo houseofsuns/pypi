@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># vectordash-cliA command line tool for interacting with [Vectordash](http://vectordash.com) GPU instances. For a more detailed overview on how to get started, how the commands work, or general questions, please go to our [docs](https://docs.vectordash.com)!#### Usage Examples1) `vectordash secret &lt;secret_token&gt;` - update's the user's secret token which is used for authentication2) `vectordash list` - lists the machines the user can connect to; these are machines user is currently renting3) `vectordash ssh &lt;machine_id&gt;` - connect the user to a machine via SSH4) `vectordash push &lt;machine_id&gt; &lt;from_path&gt; &lt;to_path&gt;`  This uses scp to push files to the machine. If `&lt;to_path&gt;` is not included,  then `scp` pushes it to the machine's home directory.5) `vectordash pull &lt;machine_id&gt; &lt;from_path&gt; &lt;to_path&gt;`  Same command as above, except we're copying files from the machine to the local machine.   If `&lt;to_path&gt;` is not provided, then copies the files to the current directory.</longdescription>
+</pkgmetadata>

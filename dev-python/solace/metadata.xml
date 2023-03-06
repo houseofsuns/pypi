@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;h1&gt;    &lt;img src=&quot;assets/logo.png&quot; style=&quot;max-width: 100px; vertical-align:middle; padding-bottom: 15px;&quot;&gt;    &lt;br /&gt; Solace Python Framework&lt;/h1&gt;Solace is a next generation web framework for Python3, inspired by Koa, built on Starlette.## Goals- make a framework that enables truly re-usable code    - we have a concept of &quot;flows&quot; (lightweight middleware)- make a framework that is easily extendable via plugins    - Starlette provides a solid core, everything extra is handled via plugins- provide a &quot;common sense&quot; approach to building web apps- enable rapid development and deployment using best practices- solve the problem first, then write the code### Solace is made from Awesome Open Source Projects- Starlette- Typer- Poetry- Loguru- python-dotenv- Jinja2- Arrow- Cerberus</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># xmltojson---Python library and cli tool for converting XML to JSON[![Downloads](https://static.pepy.tech/personalized-badge/xmltojson?period=total&amp;units=international_system&amp;left_color=grey&amp;right_color=brightgreen&amp;left_text=Installs)](https://pepy.tech/project/xmltojson)## Install`$ poetry add xmltojson``$ pip install xmltojson`## Usage### Command line:#### Converting an XML file and sending the output to STDOUT`$ xmltojson &lt;filename.xml&gt;`#### Send output to a file`$ xmltojson &lt;filename.xml&gt; -o &lt;new_filename.json&gt;`#### xmltojson can also read from STDIN`$ echo '&lt;name&gt;John&lt;/name&gt;' | xmltojson --stdin`### Library:```[1]: import xmltojson[2]: with open('/path/to/file', 'r') as f:...:     my_xml = f.read()[3]: xmltojson.parse(my_xml)'{&quot;name&quot;: &quot;John&quot;}'```</longdescription>
+</pkgmetadata>

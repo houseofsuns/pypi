@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>telethon-tgcrypto=================Module ``telethon-tgcrypto`` brings better performance to`Telethon &lt;https://github.com/LonamiWebs/Telethon&gt;`__ lib.Installation~~~~~~~~~~~~**N.B.** you must not have ``cryptg`` installed, because it interferes withthis module.To install this module and patch your Telethon installation just run:::    pip install telethon-tgcryptoCredits~~~~~~~-  `@painor &lt;https://github.com/painor&gt;`__ for making this module-  `@andrew &lt;https://github.com/kittyandrew&gt;`__ for writing this readme-  `@tulir &lt;https://github.com/tulir&gt;`__ for the basic implementation-  `@lonami &lt;https://github.com/lonami&gt;`__ &amp;   `contributors &lt;https://github.com/LonamiWebs/Telethon/graphs/contributors&gt;`__   for making `telethon &lt;https://github.com/LonamiWebs/Telethon&gt;`__-  `unknown &lt;https://github.com/explore&gt;`__ `d &lt;https://github.com/delivrance&gt;`__\ `eveloper &lt;https://github.com/explore&gt;`__   for the fast crypto module</longdescription>
+</pkgmetadata>

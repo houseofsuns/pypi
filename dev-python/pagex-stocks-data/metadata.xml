@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pagex-stocks-dataThe data access layer module# local python upgrade1. brew install python@3.102. add python_version = &quot;3.10.0&quot; to pipfile3. pipenv --rm4. pipenv --python /usr/local/opt/python@3.10/bin/python3.105. pipenv update --python 3.106. pipenv installadd interpreter setting to pycharm# build wheelmaintain setup.pypython -m pip install -U wheel setuptoolspython setup.py bdist_wheel --universal# pip - https://pip.pypa.io/en/latest/cli/pip install --upgrade pagex-stocks-data # upgrade module versionpip checkpython -m pip freeze # list dependencies from pippython -m pip freeze &gt; requirements.txt # list dependencies from pip and export it to requirements.txt</longdescription>
+</pkgmetadata>

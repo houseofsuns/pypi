@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Access Outlook EmailThis project contains the basic files to send and save an email/attachment through the module ```exchangelib```.## InstallationNote that the module requires ```Python 3.6``` or higher.To install the module, run a pip command like the following:```pip install access_outlook_email```## Usage create_accountSimply import the modules via the following import statements:```from accessOutlookEmail import create_accountaccount = create_account('user@provider.com', '***')```The ```create_account``` function requires your Outlook-Exchange email-address and your password.## Usage sendSimply import the modules via the following import statements:```from accessOutlookEmail import send_email```The ```send_email``` function requires your account, subject, body, recipients and optional attachments.To send an email, the following code provides the core functionality:```send_email(account, 'TestSubject', 'TestBody', ['recepient@provider.com'], ['path/to/your/attachments'])```## Usage saveSimply import the modules via the following import statements:```from accessOutlookEmail import save_attachment```The ```save_attachment``` function requires your Outlook Exchange Folder, which needs to be located in your inbox. Also it needs a path where to save and an exchangelib account.To save an attachment, the following code provides the core functionality:```save_attachment(account, 'TestSubject', 'TestBody', ['recepient@provider.com'])```## LicenseThis project is licensed by a MIT License.## Project statusThe current released version is 0.1.5.</longdescription>
+</pkgmetadata>

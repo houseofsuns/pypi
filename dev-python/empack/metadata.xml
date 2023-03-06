@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># empackPack a mamba environment with emsdk## Installation```bashmamba install empack -c conda-forge```or with pip:```bashpip install empack```## UsageYou can pack the  environment (located at `/path/to/env`) with the following command:```bashempack pack env --env-prefix /path/to/env --outname python_data  --config /path/to/config.yaml```This will generate two files `python_data.js` and `python_data.data` that you can use in the browser.A sample config is located in [`tests/empack_test_config.yaml`](https://github.com/emscripten-forge/empack/blob/main/tests/empack_test_config.yaml)</longdescription>
+</pkgmetadata>

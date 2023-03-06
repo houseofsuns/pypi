@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># yaqd-core-python[![PyPI](https://img.shields.io/pypi/v/yaqd-core)](https://pypi.org/project/yaqd-core)[![Conda](https://img.shields.io/conda/vn/conda-forge/yaqd-core)](https://anaconda.org/conda-forge/yaqd-core)[![black](https://img.shields.io/badge/code--style-black-black)](https://black.readthedocs.io/)[![ver](https://img.shields.io/badge/calver-YYYY.M.MICRO-blue)](https://calver.org/)[![log](https://img.shields.io/badge/change-log-informational)](https://github.com/yaq-project/yaq-python/blob/main/yaqd-core/CHANGELOG.md)Core python package for implementing yaq daemons, and associated utilities.Documentation at https://yaqd-core-python.yaq.fyi</longdescription>
+</pkgmetadata>

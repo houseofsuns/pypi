@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># simple_nlp_librarySimple NLP library## usage### installation```python3 -m pip install --upgrade simple_nlp_library```### api#### semantic_tokens```pythonpreprocessing.semantic_tokens(&quot;The quick brown fox jumps over the lazy dog&quot;)```#### cosine_similarity```pythonmetrics.cosine_similarity([1.0, 1.0, 1.0], [4.0, 4.0, 4.0])```#### inserting_distance```pythonmetrics.inserting_distance(&quot;simple&quot;, &quot;simpler&quot;)```#### inserting_similarity```pythonmetrics.inserting_similarity(&quot;simple&quot;, &quot;simpler&quot;)```#### jaccard_similarity```pythonmetrics.jaccard_similarity([1, 2, 3], [1, 2, 3, 4])```#### embeddings```pythonvectors = embeddings.model()vector = vectors[&quot;facebook&quot;]```#### sentence similarity```pythonvectors = embeddings.model()metrics.cosine_similarity(    embeddings.tokens_vector(vectors, preprocessing.semantic_tokens(&quot;the slow brown bear jumped over the lazy dog&quot;)),    embeddings.tokens_vector(vectors, preprocessing.semantic_tokens(&quot;the quick red fox jumped over the lazy cat&quot;)),)```</longdescription>
+</pkgmetadata>

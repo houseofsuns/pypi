@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># django-utils-sixForward compatibility django.utils.six for Django 3```bashpip install Django&gt;3pip install django-utils-six```Code is taken from [Django 2.2](https://github.com/django/django/blob/stable/2.2.x/django/utils/six.py)## Why?I found `django.utils.six` is solely responsible for plenty of libraries' incompatibility with Django 3.</longdescription>
+</pkgmetadata>

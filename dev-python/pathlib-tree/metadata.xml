@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>![Unit Tests](https://github.com/hile/pathlib-tree/actions/workflows/unittest.yml/badge.svg)![Style Checks](https://github.com/hile/pathlib-tree/actions/workflows/lint.yml/badge.svg)# Tree extension for pathlib.PathThis module implements an extensible tree-like object `pathlib_tree.Tree` that can be iteratedand subclassed to use for various filesystem tree processing tasks.</longdescription>
+</pkgmetadata>

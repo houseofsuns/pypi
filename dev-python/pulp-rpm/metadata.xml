@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>``pulp_rpm`` Plugin===================.. figure:: https://github.com/pulp/pulp_rpm/actions/workflows/nightly.yml/badge.svg?branch=main   :alt: Rpm Nightly CI/CDThis is the ``pulp_rpm`` Plugin for `Pulp Project3.0+ &lt;https://pypi.python.org/pypi/pulpcore/&gt;`__. This plugin provides support for RPM familycontent types, similar to the ``pulp_rpm`` plugin for Pulp 2.For more information, please see the `documentation&lt;https://docs.pulpproject.org/pulp_rpm/&gt;`_ or the `Pulp project page&lt;https://pulpproject.org&gt;`_.</longdescription>
+</pkgmetadata>

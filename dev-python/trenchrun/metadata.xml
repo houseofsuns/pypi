@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># TrenchrunThis tool computes the [Meridian TrenchRun](https://starwars.fandom.com/wiki/Meridian_trench) image for a scene using[Whitebox Tools](https://github.com/jblindsay/whitebox-tools/),[PDAL](https://pdal.io), and matplotlib.![Meridian Trench](/images/meridian.png)![Autzen Trenchrun Image](/images/autzen-exposure.jpg)</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Instalation Instructions### create virtual environment&lt;ul&gt;&lt;li&gt;enter command: pip -m venv venv&lt;/li&gt;&lt;li&gt;activate virtual environnment (venv\Scripts\activate.bat)&lt;/li&gt;&lt;/ul&gt;### install requirements&lt;ul&gt;&lt;li&gt;enter command: pip install -r requirements.txt&lt;/li&gt;&lt;/ul&gt;## Create .env file in root folder Ie:&lt;ul&gt;&lt;li&gt;LOG_LEVEL=[DEBUG]&lt;/li&gt;&lt;li&gt;DATABASE_FOLDER=[DATABASE_FOLDER]&lt;/li&gt;&lt;li&gt;S3_BUCKET=[S3_BUCKET]&lt;/li&gt;&lt;li&gt;LOG_STREAMNAME=[LOG_STREAMNAME]&lt;/li&gt;&lt;li&gt;BASE_STREAM_NAME=[BASE_STREAM_NAME]&lt;/li&gt;&lt;li&gt;LEGACY_READ=&lt;/li&gt;&lt;li&gt;LEGACY_DATABASE_FOLDER=&lt;/li&gt;&lt;li&gt;LEGACY_S3_BUCKET=&lt;/li&gt;&lt;li&gt;LEGACY_S3_AWS_PROFILE=&lt;/li&gt;&lt;/ul&gt;</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># kraken-wrapperThis projects implements `krakenw`, the wrapper CLI for the Kraken build system that enables reproducible buildsvia lock files and executing builds from inside subdirectories.For more information, check out the [Kraken Documentation](https://kraken-build.github.io/docs/).__Installation__You need Python 3.7+, &lt;3.11 (currently limited due to an incompatibility with Dill).    $ pipx install kraken-wrapper</longdescription>
+</pkgmetadata>

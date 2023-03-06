@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>blec: alpha blending calculator===============================This is a tool to calculate a resulting color of the alpha blending process.A gamma correction is enabled and the default transfer function is the one defined in sRGB.Usage-----Just enumerate colors from the bottom to the top. Let's blend 75% black on pure white    blec white black:0.75    blec fff 000000bf    blec ffffffff [0,0,0,191]    blec ffffff:1 [0,0,0]:0.75Every call above does the same thingInstallation------------    pip3 install blec</longdescription>
+</pkgmetadata>

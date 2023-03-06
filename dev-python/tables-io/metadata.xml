@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># tables_ioInput/output and conversion interfaces for tabular data formats.## People* [Eric Charles](https://github.com/LSSTDESC/qp/issues/new?body=@eacharles) (SLAC)## License, Contributing etcThe code in this repo is available for re-use under the MIT license.</longdescription>
+</pkgmetadata>

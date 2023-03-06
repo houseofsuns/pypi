@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>::    Development on this project has ceased in favor of `&lt;https://pypi.org/project/routes-18xx/&gt;`_. Whereas routes-1846 was focused specifically on 1846: Race for the Midwest, routes-18xx can support most 18xx games.A library for calculating optimal routes for each train (by revenue) for the board game &quot;1846: The Race For The Midwest&quot;.Usage instructions forthcoming. For now, check out the `related web app &lt;https://routes1846.herokuapp.com/&gt;`_.</longdescription>
+</pkgmetadata>

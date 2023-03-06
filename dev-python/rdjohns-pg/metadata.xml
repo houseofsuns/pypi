@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># rdjohns_pgKeep in mind that this tutorial showed you how to upload your package to Test PyPI, which isnâ€™t a permanent storage. The Test system occasionally deletes packages and accounts. It is best to use TestPyPI for testing and experiments like this tutorial.When you are ready to upload a real package to the Python Package Index you can do much the same as you did in this tutorial, but with these important differences:</longdescription>
+</pkgmetadata>

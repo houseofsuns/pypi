@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pvsite_datamodelPython library to interact with PV Site postgres database## Install the dependencies (requires [poetry][poetry])    poetry install## Structure```yamlpvsite_datamodel:  read: # Sub package containing modules for reading from the database  write: # Sub package containing modules for writing to the database  - connection.py # Class for connecting to the database  - schema.py # Pandera pandas dataframe validation schemas  - sqlmodels.py # SQLAlchemy definitions of table schemastests: # External tests package```## Top-level functionsClasses specifying table schemas:- SiteSQL- GenerationSQL- ForecastSQL- ForecastValueSQL- ClientSQL- StatusSQLDatabase connection objects:- DatabaseConnection## Read package functionsCurrently available functions accessible via `from pvsite_datamodel.read import &lt;func&gt;`:- get_pv_generation_by_client- get_pv_generation_by_sites- get_site_by_uuid- get_site_by_client_site_id- get_site_by_client_site_name- get_all_sites- get_latest_status- get_latest_forecast_values_by_site## Write package functionsCurrently available write functions accessible via `from pvsite_datamodels.write import &lt;func&gt;`:- insert_generation_values## Coding styleFormat the code **in place**.    make formatLint the code    make lint## Running the tests    make test## Database migrations using alembic[./alembic](./alembic)[poetry]: https://python-poetry.org/</longdescription>
+</pkgmetadata>

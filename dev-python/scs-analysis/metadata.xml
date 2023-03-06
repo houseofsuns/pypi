@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># scs_analysis_Information management and analysis utilities for South Coast Science data consumers_Detailed information at the [scs_analysis wiki](https://github.com/south-coast-science/scs_analysis/wiki).#**Installation:**The package can be installed either by git clone, or as a [pypi project](https://pypi.org/project/scs-analysis/):```pip install scs-analysis```- Windows 10 users may need to install the PyCurl executable for the PIP installer to runwhich can be found here: https://dl.bintray.com/pycurl/pycurl/ - Linux users may need to install an open SSL library for the PIP installer to run```sudo apt install libcurl4-openssl-dev libssl-dev```https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/26/python-virtual-env/</longdescription>
+</pkgmetadata>

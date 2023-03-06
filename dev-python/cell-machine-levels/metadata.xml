@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## This library is currently in beta and can have major API changes# Cell Machine LevelsA library for manipulating modded cell machine level codes.To install do:```bashpip3 install cell_machine_levels```Or just `pip` on some OSes## Level classCurrently supports the main 3 types (V1, V2, V3), support is going to be added for more than just theseLevel creation example:```pyfrom cell_machine_levels import leveltest = level.Level(10, 10, &quot;test&quot;, level.WallEffect.wrap)print(test.save(&quot;V3&quot;))```Level importing example:```pyfrom cell_machine_levels import leveltest = level.open(&quot;V3;a;a;;;test;2&quot;)print(f&quot;{test.name}: {test.size}, {test.wall_effect}&quot;)```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># JSON Classes SanicJSON Classes integration with Sanic.## PrerequisitesTo use this package, you should have `jsonclasses` and `sanic` installed.## InstallationInstall `jsonclasses-sanic` with `pip`.```shpip install jsonclasses-sanic```## DocumentationRead on bla bla bla.## License[MIT License](https://github.com/WiosoftCrafts/jsonclasses-sanic/blob/master/LICENSE)</longdescription>
+</pkgmetadata>

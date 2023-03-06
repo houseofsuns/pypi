@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># json-templatesA small python module for populating json template files.### Version 0.1.0Accepts either a json string or a file path and a dictionary. json-template replaces the place holders found in the json with those found in the dictionary.Below is a template example```json{  &quot;key&quot;:&quot;hard coded value&quot;,  &quot;key2&quot;:1,  &quot;key3&quot;:&quot;{{ variable }}&quot;,  &quot;key4&quot;:&quot;{% array %}&quot;}```Currently supports `{{ variable }}` for single replacement and `{% array %}` for iterable replacement.For example given the following dictionary```python{  &quot;variable&quot;:&quot;hello world&quot;,  &quot;array&quot;:[&quot;foo&quot;,&quot;bar&quot;]}```The JSON would become```json{  &quot;key&quot;:&quot;hard coded value&quot;,  &quot;key2&quot;:1,  &quot;key3&quot;:&quot;hello world&quot;,  &quot;key4&quot;:[&quot;foo&quot;,&quot;bar&quot;]}```### Usage```pythonimport JsonTemplatesjson_tmp = JsonTemplates()result = json_tmp.load(&quot;template.json&quot;)if result[0]:  new_dict = json_tmp.generate({&quot;variable&quot;:&quot;hello world&quot;,&quot;array&quot;:[&quot;foo&quot;,&quot;bar&quot;]})```### Methods- **load(json_file_path)** - Loads a JSON file  Returns a tuple (Success,error message or dictionary)- **loads(json_str)** - Loads a JSON string  Returns a tuple (Success,error message or dictionary)  - **generate(replacement_dict)** - Takes in a dictionary of replacement values and generates a new dictionary with the placeholders replaced with the values in the dictionary  Returns a tuple (Success, error message or dictionary)</longdescription>
+</pkgmetadata>

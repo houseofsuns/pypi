@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>====bnsl====A collection of Bayesian Network structure learning algorithms* Free software: MIT licenseFeatures--------* This package includes 3 basic structure learning algorithms which are HC, GES and PC-stable. The algorithms take pandas Dataframe as input and generate a dictionary as the learned graph.Credits-------</longdescription>
+</pkgmetadata>

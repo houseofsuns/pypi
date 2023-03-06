@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ctapipe_io_lst [![Build Status](https://github.com/cta-observatory/ctapipe_io_lst/workflows/CI/badge.svg?branch=master)](https://github.com/cta-observatory/ctapipe_io_lst/actions?query=workflow%3ACI+branch%3Amaster)EventSource Plugin for ctapipe, able to read LST zfits filesand calibration them to R1 as needed for ctapipe tools.Since version 0.19, `ctapipe_io_lst` is on conda-forge,which is the easiest way to install it, since the `protozfits`dependency is offered pre-compiled for Linux and mac OS (including arm64).To install into an exisiting environtment, just do:```# or conda$ mamba install -c conda-forge ctapipe_io_lst```For development, create a new environment and run the development install:```conda env create -n lstenv -f environment.ymlconda activate lstenvpip install -e .````ctapipe_io_lst` is also on PyPI, but note that the `protozfits`dependency only has wheels for Linux, so you'd need to compile from source on mac OS.## Test DataTo run the tests, a set of non-public files is needed.If you are a member of CTA, ask one of the project maintainers for the credentialsand then run```./download_test_data.sh```</longdescription>
+</pkgmetadata>

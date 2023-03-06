@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># TrainlogA simple logging library, designed for deep learning.Trainlog's aim is to make it easy to create a single file containing allkey info about a training run. We prioritize convenience and ease of useover efficiency. - [Documentation](https://douglasorr.github.io/TrainLog/latest/) - [Code](https://github.com/DouglasOrr/TrainLog) - [Release notes](https://github.com/DouglasOrr/TrainLog/blob/master/doc/release_notes.md)```bashpip install trainlog```## ExampleCode to generate the log looks like this:```pythonimport trainlog as Lwith L.logger.open(&quot;log.jsonl&quot;, lr=0.01) as logger:    logger.add(&quot;step&quot;, loss=10)    logger.add(&quot;step&quot;, loss=5)    logger.add(&quot;step&quot;, loss=2.5)```You can inspect the log using standard tools `gzip -cd log.jsonl.gz | jq -Cc . | less -R`.Code to analyse the log looks like this:```pythonimport trainlog as Limport trainlog.ops as Olog = L.logs.open(&quot;log.jsonl.gz&quot;)log = log.apply(O.header(&quot;lr&quot;), O.count(&quot;step&quot;))df = log[&quot;step&quot;].to_pandas()print(df)```## See also - [Design rationale](https://github.com/DouglasOrr/TrainLog/tree/master/doc/design.md) - [Developing trainlog yourself](https://github.com/DouglasOrr/TrainLog/tree/master/doc/development.md)</longdescription>
+</pkgmetadata>

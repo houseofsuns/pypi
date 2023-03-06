@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Sphinx Theme Builder&lt;!-- start-elevator-pitch --&gt;Streamline the Sphinx theme development workflow, by building upon existingstandardised tools.- simplified packaging experience- simplified JavaScript tooling setup- development server, with rebuild-on-save and automagical browser reloading- consistent repository structure across themes&lt;!-- end-elevator-pitch --&gt;## Installation&lt;!-- start-installation --&gt;This project is available on[PyPI](https://pypi.org/project/sphinx-theme-builder/), and can be installedusing `pip`:```pip install &quot;sphinx-theme-builder[cli]&quot;```This project requires modern versions of CPython (&gt;= 3.7).&lt;!-- end-installation --&gt;## UsageFind more details on how to use this project in the [documentation].## Contributing`stb` is a volunteer maintained open source project, and we welcomecontributions of all forms. Please take a look at the [DevelopmentDocumentation] for more information.[documentation]: https://sphinx-theme-builder.rtfd.io/[development documentation]:  https://sphinx-theme-builder.rtfd.io/en/latest/development/</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>unpy2exe========```usage: unpy2exe.py [-h] [-o OUTPUT_DIR] [-p PYTHON_VERSION] filenameExtract pyc files from py2exe executable.positional arguments:  filename              The py2exe executableoptional arguments:  -h, --help            show this help message and exit  -o OUTPUT_DIR, --output-dir OUTPUT_DIR                        Output directory  -p PYTHON_VERSION, --python-version PYTHON_VERSION                        Python version for pyc  -v, --verbose         Verbose output```You can install it from PyPI:```$ pip install unpy2exe```Install from source-------------------Dependencies: - pefile - six - argparse (Python &lt; 2.7)You can install dependencies through `pip install -r requirements.txt`Notes-----For .exe files generated with Python 2.x, you will need to run unpy2exe withPython 2.x; similarly, for Python 3.x .exe files, you will need to run unpy2exewith Python 3.x. Note the same unpy2exe source code works for both, but youwill need to install the dependencies accordingly.On the other hand, to be able to run the extracted .pyc file, you will need thesame Python version used to generate the .exe, or at least the same majorversion (although it is highly probable you could still get some issues orcrashes if the version doesn't match the original bytecode).TODO: - Extract archived files (from zip/from exe)See also: - http://py2exe.svn.sourceforge.net/viewvc/py2exe/trunk/py2exe/py2exe/build_exe.py?view=markup</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Copied from my git repo https://github.com/zcold/pycnnum.## UsageThis package exposes two methods for conversion between Chinese string and `int`/`float` number.### Chinese string to number `cn2num````python&gt;&gt;&gt; from pycnnum import cn2num&gt;&gt;&gt; cn2num(&quot;一百八&quot;)180&gt;&gt;&gt; cn2num(&quot;十五&quot;)15&gt;&gt;&gt; cn2num(&quot;负十五&quot;)-15&gt;&gt;&gt; cn2num(&quot;一百八十&quot;)180&gt;&gt;&gt; cn2num(&quot;一百八点五六七&quot;)180.567&gt;&gt;&gt; cn2num(&quot;两千万一百八十&quot;)20000180```### Number to Chinese string `num2cn````pythonfrom pycnnum import num2cn&gt;&gt;&gt; num2cn('023232.005184132423423423300', numbering_type=&quot;high&quot;, alt_two=True, capitalize=False, traditional=True)'兩萬三仟兩佰三拾二點零零五一八四一三二四二三四二三四二三三'&gt;&gt;&gt; num2cn('023232.005184132423423423300', numbering_type=&quot;high&quot;, alt_two=False, capitalize=False, traditional=True)'二萬三仟二佰三拾二點零零五一八四一三二四二三四二三四二三三'&gt;&gt;&gt; num2cn(111180000)'一亿一千一百一十八万'&gt;&gt;&gt; num2cn(1821010)'一百八十二万一千零一十'&gt;&gt;&gt; num2cn(182.1)'一百八十二点一'&gt;&gt;&gt; num2cn('3.4')'三点四'&gt;&gt;&gt; num2cn(16)'十六'&gt;&gt;&gt; num2cn(10600)'一万零六百'&gt;&gt;&gt; num2cn(110)'一百一'&gt;&gt;&gt; num2cn(1600)'一千六'```## Development1. Create a virtual env `venv`2. Activate the virtual env3. Run `python -m pip install .[dev]`- `VSCode` task for creating API document is in `.vscode/tasks.json`.- `VSCode` debugger configuration for fixing issues with `pytest-cov` is in `.vscode/launch.json`.</longdescription>
+</pkgmetadata>

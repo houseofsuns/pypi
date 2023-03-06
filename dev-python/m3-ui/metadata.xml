@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Home-page: https://bitbucket.org/barsgroup/m3-extAuthor: BARS GroupAuthor-email: bars@bars-open.ruLicense: MITDescription: README        ===============        Platform: UNKNOWNClassifier: Intended Audience :: DevelopersClassifier: Environment :: Web EnvironmentClassifier: Natural Language :: RussianClassifier: Natural Language :: EnglishClassifier: Operating System :: OS IndependentClassifier: Programming Language :: PythonClassifier: License :: OSI Approved :: MIT LicenseClassifier: Development Status :: 5 - Production/Stable</longdescription>
+</pkgmetadata>

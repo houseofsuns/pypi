@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## Kaldi Python IOA python (3.6+) wrapper for Kaldi's data accessing.### Support Type* Kaldi's binary archives (*.ark)* Kaldi's scripts (alignments &amp; features, *.scp)* Kaldi nnet3 data examples in binary (*.egs)### Install`python setup.py install` or `pip install kaldi-python-io`### Usage* ArchiveReader &amp;&amp; AlignArchiveReader    ```python    # allow only sequential index    ark_reader = ArchiveReader(&quot;copy-feats ark:foo.ark ark:- |&quot;)    for key, _ in ark_reader:        print(key)    ali_reader = AlignArchiveReader(&quot;gunzip -c foo.ali.gz |&quot;)    for key, _ in ark_reader:        print(key)    ```* Nnet3EgsReader    ```python    # allow only sequential index    egs_reader = Nnet3EgsReader(&quot;foo.egs&quot;)    for key, _ in egs_reader:        print(key)    ```* ArchiveWriter    ```python    with ArchiveWriter(&quot;foo.ark&quot;, &quot;foo.scp&quot;) as writer:        for i in range(10):            mat = np.random.rand(100, 20)            writer.write(f&quot;mat-{i}&quot;, mat)    ```* ScriptReader &amp;&amp; AlignScriptReader    ```python    # allow sequential/random index    scp_reader = ScriptReader(&quot;shuf foo.scp | head -n 2&quot;)    for key, mat in scp_reader:        print(f&quot;{key}: {mat.shape}&quot;)    ali_reader = AlignScriptReader(&quot;foo.ali.scp&quot;)    for key, ali in ali_reader:        print(f&quot;{key}: {ali.shape}&quot;)    ```</longdescription>
+</pkgmetadata>

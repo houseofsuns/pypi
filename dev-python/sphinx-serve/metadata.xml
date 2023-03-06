@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>sphinx-serve------------Simple utility to easier preview your sphinx documentation.After running the sphinx-serve command, it tries to detect thesphinx build directory. It examines the current working directoryand if the build directory is not present, it tries to iteratethe parent paths. If a build directory is detected it launchesan http server.The build directory name is configurable. It also supports servingdocumentation from the html folder of the singlehtml folder.Installation------------    pip install sphinx-serveUsage-----Run with:    sphinx-serveFor all available options use:    sphinx-serve --help</longdescription>
+</pkgmetadata>

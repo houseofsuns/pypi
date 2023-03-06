@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Prolog======Django-security-logger is library for logging input and output request. Library can be used with django-reversion to log which data was changed in a request.The library provides throttling security mechanism.Installation------------.. code:: bash    pip install django-security-loggerDocs----For more details see [docs](http://django-security-logger.readthedocs.org/)</longdescription>
+</pkgmetadata>

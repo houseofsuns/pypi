@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>```  oooooooo8             o888  o888  o88o888     88   ooooooo    888   888  oooo   ooooooo  ooooooooo    ooooooooo8888           ooooo888   888   888   888 888     888 888    888 888oooooo8888o     oo 888    888   888   888   888 888     888 888    888 888 888oooo88   88ooo88 8o o888o o888o o888o  88ooo88   888ooo88     88oooo888                                                    o888```Calliope is a toolkit for working with playlists of music.The goal is to enable research and experimentation in open source musicrecommendation, by providing a set of standard interfaces and operationsto online and local music services.In order words, a way to mash up data from Spotify, Musicbrainz, Last.fmand your local music collection!For more information, see the manual:&lt;https://calliope-music.readthedocs.io/en/latest/&gt;</longdescription>
+</pkgmetadata>

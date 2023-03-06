@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Introduction[Stocksymbol](https://pypi.org/project/stocksymbol/) connects to the [StockSymbol API](https://stock-symbol.herokuapp.com/) that I created to provide a list of stock symbols from all major stock exchanges across various regions and markets.# Quick Start## Install package```pythonpip install stocksymbol```## Get an API keyYou can register for a free API key [here](https://stock-symbol.herokuapp.com/).## Symbol list```pythonfrom stocksymbol import StockSymbolapi_key = '&lt;your API key here&gt;'ss = StockSymbol(api_key)# get symbol list based on marketsymbol_list_us = ss.get_symbol_list(market=&quot;US&quot;) # &quot;us&quot; or &quot;america&quot; will also work# get symbol list based on indexsymbol_list_spx = ss.get_symbol_list(index=&quot;SPX&quot;)# show a list of available marketmarket_list = ss.market_list# show a list of available indexindex_list = ss.index_list```# Further readsCheck out this [blog post](https://yonghongtan.medium.com/download-list-of-all-stock-symbols-using-this-python-package-12937073b25) (free link [here](https://yonghongtan.medium.com/download-list-of-all-stock-symbols-using-this-python-package-12937073b25?source=friends_link&amp;sk=0d0305ab61ea7a71b47e7c8cec01c74e)) for a detailed tutorial with output examples and the motivation behind stocksymbol.</longdescription>
+</pkgmetadata>

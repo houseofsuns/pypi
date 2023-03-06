@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Zero-OS Python Client## Install```bashpip3 install 0-core-client```## How to use```pythonfrom zeroos.core0.client import Clientcl = Client(host='&lt;0-core-host-address&gt;', password='&lt;JWT&gt;')#validate that core0 is reachableprint(cl.ping())#then u can do stuff likeprint(    cl.system('ps -eF').get())print(    cl.system('ip a').get())#client exposes more tools for disk, bridges, and container mgmtprint(    cl.disk.list())```</longdescription>
+</pkgmetadata>

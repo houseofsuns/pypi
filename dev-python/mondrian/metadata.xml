@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>mondrian========.. image:: https://app.fossa.io/api/projects/git%2Bgithub.com%2Fpython-mondrian%2Fmondrian.svg?type=shield    :target: https://app.fossa.io/projects/git%2Bgithub.com%2Fpython-mondrian%2Fmondrian?ref=badge_shield    :alt: License StatusMondrian helps you paint your standard python logger... image:: https://raw.githubusercontent.com/hartym/mondrian/master/demo.png  :alt: Mondrian in action  :width: 100%  :align: centerEnabling mondrian is simple and straightforward:.. code-block:: python    import logging    import mondrian    logger = logging.getLogger()    if __name__ == '__main__':        mondrian.setup(excepthook=True)        logger.setLevel(logging.INFO)        logger.info('Hello, world.')License=======.. image:: https://app.fossa.io/api/projects/git%2Bgithub.com%2Fpython-mondrian%2Fmondrian.svg?type=large    :target: https://app.fossa.io/projects/git%2Bgithub.com%2Fpython-mondrian%2Fmondrian?ref=badge_large    :alt: License Status</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Flamyngo is a customizable Flask frontend for MongoDB.At the most basic level, the aim is to delegate most settings to a YAMLconfiguration file, which then allows the  underlying code to be reused forany conceivable collection.Detailed usage instructions are available at the project's `Github page&lt;https://github.com/materialsvirtuallab/flamyngo&gt;`_.</longdescription>
+</pkgmetadata>

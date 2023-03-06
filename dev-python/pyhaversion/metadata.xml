@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pyhaversion[![codecov](https://codecov.io/gh/ludeeus/pyhaversion/branch/main/graph/badge.svg)](https://codecov.io/gh/ludeeus/pyhaversion)![python version](https://img.shields.io/badge/Python-3.8=&gt;&lt;=3.9-blue.svg)[![PyPI](https://img.shields.io/pypi/v/pyhaversion)](https://pypi.org/project/pyhaversion)![Actions](https://github.com/ludeeus/pyhaversion/workflows/Actions/badge.svg?branch=main)_Get the latest Home Assistant version from various sources._## Installation```bashpython3 -m pip install pyhaversion```Look at the file `example.py` for a usage example.## Contribute**All** contributions are welcome!1. Fork the repository2. Clone the repository locally and open the devcontainer or use GitHub codespaces3. Do your changes4. Lint the files with `make black`5. Ensure all tests passes with `make test`6. Ensure 100% coverage with `make coverage`7. Commit your work, and push it to GitHub8. Create a PR against the `main` branch</longdescription>
+</pkgmetadata>

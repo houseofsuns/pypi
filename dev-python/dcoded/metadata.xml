@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># dcodedWelcome to dcoded - the package designed to do everything!## InstallationLinux / macOS (python3):``` zshpython3 -m pip install dcoded```Linux  / macOS (python2):``` zshpython -m pip install dcoded```Windows:``` zshpy -m pip install dcoded```## ModulesBelow are listed the modules in dcoded:* dcoded.io.file## Docs[dcode documentation](https://github.com/dylanopen/dcoded/blob/main/docs.md)</longdescription>
+</pkgmetadata>

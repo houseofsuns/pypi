@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Toot is a CLI and TUI tool for interacting with Mastodon instances from thecommand line.Allows posting text and media to the timeline, searching, following, mutingand blocking accounts and other actions.</longdescription>
+</pkgmetadata>

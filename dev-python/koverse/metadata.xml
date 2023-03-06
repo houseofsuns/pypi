@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Koverse Python client=====================A package that allows Python scripts to communicate with the Koverse server.When you are ready to publish the updated version of this package: 1. Build package source: `python setup.py build` 2. Build distributable artifacts - `python setup.py bdist_wheel &amp;&amp; python setup.py sdist` - and delete old tarballs and `whl` files</longdescription>
+</pkgmetadata>

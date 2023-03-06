@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>### OpenERZ Python APIThis wrapper allows you to interact with the OpenERZ API using Python code.For more information about the API itself see: [http://openerz.metaodi.ch/documentation](http://openerz.metaodi.ch/documentation) and [https://github.com/metaodi/openerz](https://github.com/metaodi/openerz)#### Usage exampleA ready-to-run example can also be found in the `examples` directory.```from openerz_api.main import OpenERZConnectorZIP = 8001WASTE = &quot;paper&quot;# initialize the connector given zip code and waste typeconnector = OpenERZConnector(zip_code=ZIP, waste_type=WASTE)# retrieve the next pick-up date within a period of choicenext_pickup = connector.find_next_pickup(day_offset=15)```</longdescription>
+</pkgmetadata>

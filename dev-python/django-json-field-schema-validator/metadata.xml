@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># django-json-field-schema-validator[![Build Status](https://travis-ci.org/wblxyxolbkhv/django-json-field-schema-validator.svg?branch=main)](https://travis-ci.org/wblxyxolbkhv/django-json-field-schema-validator.svg?branch=main)[![Coverage Status](https://coveralls.io/repos/github/wblxyxolbkhv/django-json-field-schema-validator/badge.svg?branch=main)](https://coveralls.io/github/wblxyxolbkhv/django-json-field-schema-validator?branch=main)[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)Tiny tool for Django JSONField validation through [JSON Schema](https://python-jsonschema.readthedocs.io/en/latest/validate/)## Installation```shell scriptpip install django-json-field-schema-validator```## Example```pythonfrom django.db import modelsfrom django_json_field_schema_validator.validators import JSONFieldSchemaValidatorschema = {    '$schema': f'http://json-schema.org/draft-07/schema#',    'type': 'object',    'properties': {        'foo': {'type': 'number'},        'bar': {'type': 'string'}    },    'required': ['foo', 'bar']}class SomeModel(models.Model):    some_field = models.JSONField(validators=[JSONFieldSchemaValidator(schema)])```</longdescription>
+</pkgmetadata>

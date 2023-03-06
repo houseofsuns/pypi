@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>docutils-stubs===============`PEP 561`_ based Type information for docutils_... _PEP 561: https://www.python.org/dev/peps/pep-0561.. _docutils: http://docutils.sourceforge.net/</longdescription>
+</pkgmetadata>

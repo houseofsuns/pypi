@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># create-drf-app toolcreate-drf-app helps you create Django + DRF project. choosing the type of template you want from basic to advance. ## InstallationsAssuming you have Python installed..Install create-drf-app tool.```shell script$ pip install create-drf-app```## Create proejctCreate a new Django + DRF project.```shell script$ create-drf-app start &lt;template_type&gt;```## Template typesfor now we only have a basic template- basic- intermediate- advance## Road map- Intermediate DRF template- Advance DRF template- React/DRF template- Vue/DRF template- SolidJs/DRF template## LicenseEverything inside this repository is [MIT licensed](https://github.com/MohammedBajuaifer/create-drf-app/blob/master/README.md).</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![Build Status](https://github.com/mcarans/pytest-loguru/workflows/build/badge.svg)](https://github.com/mcarans/pytest-loguru/actions?query=workflow%3Abuild)[![Coverage Status](https://codecov.io/gh/mcarans/pytest-loguru/branch/main/graph/badge.svg?token=JpWZc5js4y)](https://codecov.io/gh/mcarans/pytest-loguru)[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)[![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&amp;labelColor=ef8336)](https://pycqa.github.io/isort/)### pytest-loguruA pytest plugin to add support for loguru to pytest's caplog fixture. You can install it from pypi with `pip install pytest-loguru`.Note that coverage is 100% but the coverage tool is confused by the fixture decorator.</longdescription>
+</pkgmetadata>

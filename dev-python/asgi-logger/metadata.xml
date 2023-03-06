@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;h1 align=&quot;center&quot;&gt;    &lt;strong&gt;asgi-logger&lt;/strong&gt;&lt;/h1&gt;&lt;p align=&quot;center&quot;&gt;    &lt;a href=&quot;https://github.com/Kludex/asgi-logger&quot; target=&quot;_blank&quot;&gt;        &lt;img src=&quot;https://img.shields.io/github/last-commit/Kludex/asgi-logger&quot; alt=&quot;Latest Commit&quot;&gt;    &lt;/a&gt;        &lt;img src=&quot;https://img.shields.io/github/workflow/status/Kludex/asgi-logger/Test&quot;&gt;        &lt;img src=&quot;https://img.shields.io/codecov/c/github/Kludex/asgi-logger&quot;&gt;    &lt;br /&gt;    &lt;a href=&quot;https://pypi.org/project/asgi-logger&quot; target=&quot;_blank&quot;&gt;        &lt;img src=&quot;https://img.shields.io/pypi/v/asgi-logger&quot; alt=&quot;Package version&quot;&gt;    &lt;/a&gt;    &lt;img src=&quot;https://img.shields.io/pypi/pyversions/asgi-logger&quot;&gt;    &lt;img src=&quot;https://img.shields.io/github/license/Kludex/asgi-logger&quot;&gt;&lt;/p&gt;## Installation``` bashpip install asgi-logger```## LicenseThis project is licensed under the terms of the MIT license.</longdescription>
+</pkgmetadata>

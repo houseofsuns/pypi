@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pathnavNavigate paths with ease for python# Docs## Install pathnav`pip install pathnav`## Create new path object```pyimport pathnavpath = pathnav.path(&quot;C:\\Users\\titushm\\Repos\\Github&quot;) # create a directory path object# Propertiesprint(path.path) # get the path as a stringprint(path.dir_name) # get the name of the directoryprint(path.child_dirs) # get a list of directorys in the directoryprint(path.child_files) # get a list of files in the directoryprint(path.dir_size) # get the size in bytes of the directoryprint(path.resolved_path) # get the full path without relative parts such as .. and %enviroment_varible%# Methodsprint(path.up()) # go up one directoryprint(path.into(&quot;example-repo&quot;)) # go down one specified directoryprint(path.get_file(&quot;text-file.txt&quot;)) # get a file by name in the directory, returns None if no file is presentparent_path = pathnav.path(&quot;C:\\Users\\titushm\\Repos&quot;)print(path.is_subdir(parent_path)) # check if a path is a subdirectory of another pathpath = pathnav.path(&quot;C:\\Users\\titushm\\Repos\\Github\\test-file.txt&quot;) # create a file path object# Propertiesprint(path.path) # get the path as a stringprint(path.file_name) # get the file name as stringprint(path.file_type) # get the file type as a stringprint(path.parent_dir) # returns a directory path object for the directory that the file is in# Methodsprint(path.is_subdir(parent_path))```</longdescription>
+</pkgmetadata>

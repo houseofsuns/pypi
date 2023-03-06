@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Rapid Innovation PackageRapid Innovation is a Python package that provides a set of tools and utilities for rapid development and innovation.## InstallationTo install Rapid Innovation, simply run:        pip install rapid_innovation## UsageTo use Rapid Innovation, simply import the desired module and call the desired function or class. For example:        !pip install rapid-innovation        from rapid.email import RapidEmailNotificationSMTP                smtp_user = 'XXXXXXX'        smtp_password = 'XXXXXX'                renstmp = RapidEmailNotificationSMTP(smtp_user, smtp_password)                to = ['abhisheknegi@rapidinnovation.dev']        subject = 'Pip Package testing'        content = 'Testing upload pip package.'                renstmp.send_email(to, subject, content)## LicenseRapid Innovation is released under the MIT License.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pylivy======.. image:: https://github.com/acroz/pylivy/workflows/Tests/badge.svg?branch=master    :target: https://github.com/acroz/pylivy/actions.. image:: https://badge.fury.io/py/livy.svg    :target: https://pypi.org/project/livy/.. image:: https://img.shields.io/pypi/pyversions/livy.svg    :target: https://pypi.org/project/livy/`Livy &lt;https://livy.incubator.apache.org/&gt;`_ is an open source REST interfacefor interacting with `Spark &lt;http://spark.apache.org/&gt;`_. ``pylivy`` is aPython client for Livy, enabling easy remote code execution on a Spark cluster.Installation------------.. code:: bash    $ pip install -U livyNote that ``pylivy`` requires Python 3.6 or later.Documentation-------------Documentation for ``pylivy`` is available at https://pylivy.readthedocs.io/.Contributing------------Contributions to extend or improve ``pylivy`` are very welcome! Have a look at`the relevant docs page&lt;https://pylivy.readthedocs.io/en/latest/contributing.html&gt;`_ for moreinformation.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># rloggingSpecific logging settings for a python application## Usage```pip install rlogging```### Python```bash```### Django```bash# settings.pyINSTALLED_APPS = [    ...    'rlogging.integration.django',    ...]MIDDLEWARE = [    ...    'rlogging.integration.django.middleware.LoggingMiddleware',    ...]LOGGING = generate_logging_dict(LOGS_DIR, MIN_LOGGING_LEVEL)```### FastAPI```bash```### aiogram```bash```</longdescription>
+</pkgmetadata>

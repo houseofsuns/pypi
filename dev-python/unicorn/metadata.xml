@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Unicorn is a lightweight, multi-platform, multi-architecture CPU emulator frameworkbased on [QEMU](http://qemu.org).Unicorn offers some unparalleled features:- Multi-architecture: ARM, ARM64 (ARMv8), M68K, MIPS, PowerPC, RISCV, SPARC, S390X, TriCore and X86 (16, 32, 64-bit)- Clean/simple/lightweight/intuitive architecture-neutral API- Implemented in pure C language, with bindings for Crystal, Clojure, Visual Basic, Perl, Rust, Ruby, Python, Java, .NET, Go, Delphi/Free Pascal, Haskell, Pharo, and Lua.- Native support for Windows &amp; *nix (with Mac OSX, Linux, *BSD &amp; Solaris confirmed)- High performance via Just-In-Time compilation- Support for fine-grained instrumentation at various levels- Thread-safety by design- Distributed under free software license GPLv2Further information is available at http://www.unicorn-engine.org</longdescription>
+</pkgmetadata>

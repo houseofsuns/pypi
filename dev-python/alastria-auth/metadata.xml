@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>**Alastria ID authentication**- Descripción: Librería para poder autenticarse con alastria ID- URL: [https://pypi.org/project/alastria-auth/](https://pypi.org/project/alastria-auth/)- Requisitos: Django- Instalar: alastria-auth==0.0.9- Cómo usar:Añadir en settings.py:```pythonINSTALLED_APPS = [....&quot;alastria_auth.apps.AlastriaAuthConfig&quot;]# ALASTRIA AUTH VARSBACKEND_DOMAIN = os.environ.get(&quot;BACKEND_DOMAIN&quot;, &quot;http://localhost:8000&quot;)NETWORK_SERVICE_HOST = os.environ.get(&quot;NETWORK_SERVICE_HOST&quot;, &quot;http://host.docker.internal:8001&quot;)ISSUER_PRIVATE_KEY = os.environ.get(&quot;ISSUER_PRIVATE_KEY&quot;, &quot;&quot;)ISSUER_PUBLIC_KEY = os.environ.get(    &quot;ISSUER_PUBLIC_KEY&quot;,    &quot;&quot;,)ISSUER_ADDRESS = os.environ.get(&quot;ISSUER_ADDRESS&quot;, &quot;&quot;)ALASTRIA_T_NETWORK_ID = os.environ.get(&quot;ALASTRIA_T_NETWORK_ID&quot;, &quot;redT&quot;)ALASTRIA_AUTH_SECRET = os.environ.get(&quot;ALASTRIA_AUTH_SECRET&quot;, &quot;&quot;)ALASTRIA_SERVICE_HOST = os.environ.get(&quot;ALASTRIA_SERVICE_HOST&quot;, &quot;http://host.docker.internal:5000&quot;)#####################```Añadir en [url.py](http://url.py) las urls:```pythonfrom alastria_auth.views import AlastriaAuthView....urlpatterns = [path(&quot;alastria/&quot;, include(&quot;alastria_auth.urls&quot;)),....]```</longdescription>
+</pkgmetadata>

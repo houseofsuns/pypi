@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># EDGAR-DOC-PARSER## DocumentationFor more information read our documentation hosted [here.](https://kamilkrukowski.github.io/EDGAR-DOC-PARSER)## Installation GuideWe are available through [pip.](https://pypi.org/project/edgar-doc-parser/)```pip install edgar-doc-parser```## Quick Start Guide### DataLoader```from edgar import DataLoaderdataloader = edgar.DataLoader(tikrs=['nflx'], document_type='8-K', data_dir='data')for text_8k in dataloader[:3]:  print(text_8k)```## Currently Support Filing Types* 10-Q* 8-KWe plan on expanding the list in future releases</longdescription>
+</pkgmetadata>

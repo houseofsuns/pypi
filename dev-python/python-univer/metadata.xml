@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Python UniverСодержит маппинг данных из Univer для SqlAlchemy## Установка```sh$ pip install python_univer```## Конфигурация```pythonfrom python_univer.config import Config, DRIVERfrom python_univer.orm import get_sessionconfig = Config(host='адрес', user='пользователь', password='пароль', db='имя базы данных', driver=DRIVER.FREETDS)Session = get_session(config)```## Использование```pythonfrom python_univer.models import Studentsession = Session()students = session.query(Student).filter(Student.course == 2, Student.status == 1)for student in students:    print(student)```</longdescription>
+</pkgmetadata>

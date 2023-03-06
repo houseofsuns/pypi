@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ftd_sys`ftd_sys` is a low level Python binding to rust crates [`ftd`](https://ftd.dev) and [`fpm`](https://fpm.dev)[Documentation](https://fifthtry.github.io/python.ftd.dev/ftd-sys/).</longdescription>
+</pkgmetadata>

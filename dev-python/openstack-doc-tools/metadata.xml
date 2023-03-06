@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>========================Team and repository tags========================.. image:: https://governance.openstack.org/tc/badges/openstack-doc-tools.svg    :target: https://governance.openstack.org/tc/reference/tags/index.html.. Change things from this point onOpenStack Doc Tools~~~~~~~~~~~~~~~~~~~This repository contains tools used by the OpenStack Documentationproject.For more details, see the `OpenStack Documentation Contributor Guide&lt;https://docs.openstack.org/contributor-guide/&gt;`_.* License: Apache License, Version 2.0* Source: https://opendev.org/openstack/openstack-doc-tools* Bugs: https://bugs.launchpad.net/openstack-doc-toolsPrerequisites-------------You need to have Python 2.7 installed for using the tools.This package needs a few external dependencies including lxml. If youdo not have lxml installed, you can either install python-lxml or haveit installed automatically and build from sources. To build lxml fromsources, you need a C compiler and the xml and xslt developmentpackages installed.To install python-lxml, execute the following based on yourdistribution.On Fedora, RHEL 7, and CentOS 7::    $ yum install python-lxmlOn openSUSE::    $ zypper in python-lxmlOn Ubuntu::    $ apt-get install python-lxmlFor building from source,  install the dependencies of lxml.On Fedora, RHEL 7, and CentOS 7::    $ yum install python-devel libxml2-devel libxslt-develOn openSUSE::    $ zypper in libxslt-develOn Ubuntu::    $ apt-get install libxml2-dev libxslt-dev</longdescription>
+</pkgmetadata>

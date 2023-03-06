@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>------------speech.py------------  Allows your Windows python program to:    * get the text spoken by the user when prompted (a la raw_input())    * execute a callback when certain phrases are heard    * execute a callback when any understandable text is heard    * have different callbacks for different groups of phrases    * convert text to speech.Example=======  Showing speaking out loud, a simple input, and listening for all  recognizable words.  ::    import speech    import time    response = speech.input(&quot;Say something, please.&quot;)    speech.say(&quot;You said &quot; + response)    def callback(phrase, listener):        if phrase == &quot;goodbye&quot;:            listener.stoplistening()        speech.say(phrase)    listener = speech.listenforanything(callback)    while listener.islistening():        time.sleep(.5)Requirements============  Requires Windows XP or Vista, and Python 2.4 or 2.5.  If you use  Windows Vista, you'll need to say &quot;start listening&quot; if Speech  Recognition is not awake.  In addition to easy_installing speech.py, you'll need pywin32  (`for Python 2.5 &lt;http://tinyurl.com/5ezco9&gt;`__ or  `for Python 2.4 &lt;http://tinyurl.com/5uzpox&gt;`__); and if you're on XP,  you'll need the Microsoft Speech kit (installer  `here &lt;http://tinyurl.com/br8ysh&gt;`__).Resources=========  * Homepage: http://pyspeech.googlecode.com/  * Source:    - Browse at http://code.google.com/p/pyspeech/source/browse/trunk/    - Get with **svn co http://pyspeech.googlecode.com/svn/trunk/      pyspeech-read-only**  Please let me know if you like or use this module - it would make  my day!</longdescription>
+</pkgmetadata>

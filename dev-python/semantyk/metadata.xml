@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>***&lt;h1 align='center'&gt;Semantyk&lt;/h1&gt;&lt;h3 align='center'&gt;&lt;i&gt;Ideas Wonder&lt;/i&gt;&lt;/h3&gt;&lt;p align='center'&gt;  &lt;img alt='Semantyk' src='https://www.semantyk.com/static/Semantyk.png' width='250'/&gt;  &lt;br&gt;  &lt;br&gt;  &lt;b&gt;August 31, 2017&lt;/b&gt;  &lt;br&gt;  &lt;i&gt;Copyright © Semantyk 2021. All rights reserved.&lt;/i&gt;&lt;/p&gt;***[![Build Status](https://www.travis-ci.com/semantyk/Semantyk.svg?branch=master)](https://www.travis-ci.com/semantyk/Semantyk)[![GitHub stars](https://raster.shields.io/github/stars/semantyk/Semantyk.png)](https://github.com/semantyk/Semantyk/stargazers)[![PyPI](https://img.shields.io/pypi/v/semantyk.svg)](https://pypi.python.org/pypi/semantyk)[![PyPI](https://img.shields.io/pypi/pyversions/semantyk.svg)](https://pypi.python.org/pypi/semantyk)</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Open source implementation of RML (Report Markup Language) from ReportLab[![Build Status](https://travis-ci.org/romanlv/trml2pdf.svg?branch=master)](https://travis-ci.org/romanlv/trml2pdf)[RML User Guide](http://www.reportlab.com/docs/rml2pdf-userguide.pdf)  (or [beginner tutorial](http://www.reportlab.com/docs/rml-for-idiots.pdf))Not all tags are supported, but most of them work.Install------- `pip install trml2pdf`Examples--------Create a PDF file:```pythonimport trml2pdfprint trml2pdf.parseString(open('file.rml','rt').read())```If you are using this for Django you can dynamically create an .rml file with the template system and then render it.```pythonfrom django.template.loader import get_templatefrom django.template.context import Contextimport trml2pdfdata = {'key1': 'foo'}template = get_template('template.rml')context = Context(data)xmlstring = template.render(context)pdfstr = trml2pdf.parseString(xmlstring)```# Looking for maintainer I no longer use this library in my own projects, so there is no interest in adding new feature or improving things. If you are intersted in taking it over or being actively involved, please let me know</longdescription>
+</pkgmetadata>

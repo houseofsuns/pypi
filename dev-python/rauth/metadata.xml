@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>    rauth    -----    A simple Python OAuth 1.0/a, OAuth 2.0, and Ofly consumer library built on    top of Requests.    Links    `````    * `documentation &lt;https://rauth.readthedocs.org/en/latest/&gt;`_    * `development version &lt;https://github.com/maxcountryman/rauth&gt;`_</longdescription>
+</pkgmetadata>

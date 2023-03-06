@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># researchpySource code for researchpy. Documentation and licensing information can be found here: https://github.com/researchpy/documentation##### Citation RecommendationBryant. C (2018). Researchpy. https://github.com/researchpy/researchpy</longdescription>
+</pkgmetadata>

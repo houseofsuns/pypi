@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ConSys [![Build Status](https://app.travis-ci.com/kosyachniy/consys.svg?branch=main)](https://app.travis-ci.com/kosyachniy/consys)Object-oriented programming control system in Python [Base Object Model][GitHub](https://github.com/kosyachniy/consys) | [PyPI](https://pypi.org/project/consys/)[View ORM for PostgreSQL →](https://pypi.org/project/consql/)## SubmodulesModule | Description---|----` consys ` | ORM for Python &amp; MongoDB` consys.handlers ` | Ready to use handlers for ORM` consys.files ` | File uploading system` consys.types ` | Type checking system` consys.errors ` | Set of errors</longdescription>
+</pkgmetadata>

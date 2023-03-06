@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># VoiceS适用于 diffsinger 的多功能工具集## 功能与计划您可以点击对应的功能名查看对应的文档:- [x] [[slicer]适用于 .ass 的字幕切片工具](docs/字幕切片工具.md)- [x] [[uta]openutau 转 .ass(k轴) 工具](docs/utau转k轴工具.md)</longdescription>
+</pkgmetadata>

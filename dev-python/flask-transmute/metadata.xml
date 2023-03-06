@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>===============flask-transmute===============.. image:: https://travis-ci.org/toumorokoshi/flask-transmute.svg?branch=master    :alt: build status    :target: https://travis-ci.org/toumorokoshi/flask-transmute.. image:: https://coveralls.io/repos/github/toumorokoshi/flask-transmute/badge.svg?branch=master    :alt: coverage status    :target: https://coveralls.io/github/toumorokoshi/flask-transmute?branch=masterA transmute (http://transmute-core.readthedocs.io/) implementation for flask.You can find out more here:http://flask-transmute.readthedocs.io/en/latest/</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>The pyhdf package wraps the functionality of the NCSA HDF version4 library inside a Python OOP framework. The SD (scientific dataset),VS (Vdata) and V (Vgroup) APIs are currently implemented.  SD datasetsare read/written through numpy arrays. NetCDF files can also be readand modified with pyhdf.</longdescription>
+</pkgmetadata>

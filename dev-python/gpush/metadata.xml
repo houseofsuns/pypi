@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># gpush`gpush` is a command line utility for standardising commit messages using [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).# InstallationThis package is available for installation via pypi```pip3 install gpush```# UsageWhen running gpush in a git directory, use `gpush` to replace your standard `git commit &amp;&amp; git push` commands. `gpush` will ask three questions to determine detail about your commit and generate a conventionally formatted git commit message.![&quot;gpush_demo&quot;](docs/gpush_demo.gif)# Local developmentTo develop locally, execute the pip3 installation in the local directory:```pip3 install .```Alternatively, create an alias in your zshrc file (Use appropriate profile file if you do not use zsh)echo &quot;alias gpush=\&quot;python3 /path/to/git/gpush/gpush\&quot;&quot; &gt;&gt; ~/.zshrcTo start using straight away, source your filesource ~/.zshrc# python-semantic-release`gpush` generates commit messages that are compliant with [python-semantic-release](https://python-semantic-release.readthedocs.io/en/latest/). See example in the [GitHub Repository](https://github.com/tjtharrison/gpush/blob/main/.github/workflows/semver.yaml)</longdescription>
+</pkgmetadata>

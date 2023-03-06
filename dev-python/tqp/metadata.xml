@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># TQPAn opinionated library for pub/sub over SQS and SNS## TopicTo publish on a topic:```pytopic = Topic('widgets--created')topic.publish({'id': '123456'})```## Topic Queue PollerTo read from the topic:```pypoller = TopicQueuePoller('my_poller')@poller.handler('widgets--created')def process_created_widget(item):    widget_id = item['id']    print(f'Widget {widget_id} was created')poller.start()```### S3 notificationsIt is also possible to poll for s3 object notifications```py@poller.s3_handler('my-bucket-name')def process_file_created(msg):    print(msg)    # {    #     'event_name': 'ObjectCreated:Put',    #     'bucket_name': 'bespin-dev-consular21d51f71-11lpitfowdylc',    #     'object': {    #         'key': 'genome.fasta',    #         'size': 124,    #         'eTag': '5d9d04cd0b9d3b314d9bd622da06ab74',    #         'sequencer': '005FAD55883A198E97'    #     },    # }```### FlaskA Flask binding is also provided:```pypoller = FlaskTopicQueuePoller('my_poller', app=flask_app)```When using the Flask poller, you can also specify how to format the logs:```py# the argument (optional) is a function that takes the message payload as input and return a message identifierpoller.set_log_formatter(lambda payload: payload[&quot;message&quot;].get(&quot;id&quot;, &quot;&lt;NO ID&gt;&quot;))```</longdescription>
+</pkgmetadata>

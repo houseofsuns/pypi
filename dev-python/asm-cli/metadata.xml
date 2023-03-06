@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;h1&gt;Alphalogic Service Manager CLI&lt;a href=&quot;https://asm_cli.readthedocs.io&quot;&gt;&lt;img src=&quot;https://readthedocs.org/projects/asm_cli/badge/?version=latest&quot; alt=&quot;Documentation Status&quot; /&gt;&lt;/a&gt;&lt;/h1&gt;The official CLI for Alphalogic Service Manager. &lt;a href=&quot;https://asm_cli.readthedocs.io&quot;&gt;   Documentation&lt;/a&gt;</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># nvsmiA (user-)friendly wrapper to `nvidia-smi`.It can be used to filter the GPUs based on resource usage (e.g. to choose the least utilized GPU on a multi-GPU system).## Usage### CLI```nvsmi --helpnvsmi ls --helpnvsmi ps --help```### As a library```import nvsminvsmi.get_gpus()nvsmi.get_available_gpus()nvsmi.get_gpu_processes()```## Prerequisites- An nvidia GPU- `nvidia-smi`- Python 2.7 or 3.6+## Installation### pipxThe recommended installation method is [pipx](https://github.com/pipxproject/pipx).More specifically, you can install `nvsmi` for your user with:``` shellpipx install nvsmi```The above command will create a virtual environment in `~/.local/pipx/venvs/nvsmi` andadd the `nvsmi` executable in `~/.local/bin`.### pipAlternatively you can use good old `pip` but this is more fragile than `pipx`:```pip install --user nvsmi```</longdescription>
+</pkgmetadata>

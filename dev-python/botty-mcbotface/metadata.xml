@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Overview********A `slackbot &lt;https://github.com/lins05/slackbot&gt;`__ plugin that acts asa general purpose Slack bot. Although botty\_mcbotface is not sentient,it does display a little sense of humor.Much inspiration drawn from snoonet's`gonzobot &lt;https://github.com/snoonetIRC/CloudBot&gt;`__ for IRC. The mainbuild is from lins05's`slackbot &lt;https://github.com/lins05/slackbot&gt;`__, whichbotty\_mcbotface is technically a plugin for (though he himself has amultitude of plugins as well).Installation &amp; Contributing***************************Please see the matching documentation at the botty_mcbotface `GitHub repo &lt;https://github.com/ColumbiaSC-Tech/botty_mcbotface&gt;`__.Contributors************`Danny Hinshaw &lt;https://github.com/DannyHinshaw&gt;`__`Benjamin Matthews &lt;https://github.com/bmatt468&gt;`__License*******The MIT License (see `LICENSE &lt;LICENSE&gt;`__)</longdescription>
+</pkgmetadata>

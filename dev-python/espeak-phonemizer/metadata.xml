@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># eSpeak PhonemizerUses [ctypes](https://docs.python.org/3/library/ctypes.html) and [libespeak-ng](https://github.com/espeak-ng/espeak-ng/blob/master/docs/integration.md) to transform text into [IPA](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet) phonemes.## InstallationFirst, install libespeak-ng:```shsudo apt-get install libespeak-ng1```Next, install espeak_phonemizer:```shpip install espeak_phonemizer```If installation was successful, you should be able to run:```shespeak-phonemizer --version```## Basic PhonemizationSimply pass your text into the standard input of `espeak-phonemizer`:```shecho 'This is a test.' | espeak-phonemizer -v en-usðɪs ɪz ɐ tˈɛst```### SeparatorsPhoneme and word separators can be changed:```shecho 'This is a test.' | espeak-phonemizer -v en-us -p '_' -w '#'ð_ɪ_s#ɪ_z#ɐ#t_ˈɛ_s_t```### Punctuation and StressSome punctuation can be kept (.,;:!?) in the output:```shecho 'This: is, a, test.' | espeak-phonemizer -v en-us --keep-punctuationðˈɪs: ˈɪz, ˈeɪ, tˈɛst.```Stress markers can also be dropped:```shecho 'This is a test.' | espeak-phonemizer -v en-us --no-stressðɪs ɪz ɐ tɛst```### Delimited InputThe `--csv` flag enables delimited input with fields separated by a '|' (change with `--csv-delimiter`):```shecho 's1|This is a test.' | espeak-phonemizer -v en-us --csvs1|This is a test.|ðɪs ɪz ɐ tˈɛst```Phonemes are added as a final column, allowing you to pass arbitrary metadata through to the output.### Parallelize with GNU Parallel```shparallel -a /path/to/input.csv --pipepart \    espeak-phonemizer -v en-us --csv \    &gt; /path/to/output.csv```</longdescription>
+</pkgmetadata>

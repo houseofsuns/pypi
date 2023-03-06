@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Chatushka botБот для чатиков (пока только для телеграмушки)# Usage## Installation```shellpip install chatushka```## Start bot```shellpython -m chatushka --token &lt;telegrambotapitoken&gt;```## Test bot- [x] добавить ботика в чат- [x] делегировать боту админские права- [x] написать в чатик /help```shellpython -m chatushka --token &lt;telegrambotapitoken&gt;```</longdescription>
+</pkgmetadata>

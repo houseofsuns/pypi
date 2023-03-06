@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This code started out as rpadutils as part of Mirubot and later padbot-cogs/misc-cogs for Tsubaki Bot. It's now a library in order to improve the startup process of the bot.</longdescription>
+</pkgmetadata>

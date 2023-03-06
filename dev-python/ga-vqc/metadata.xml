@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># GA for VQC Ansatz SearchThis is a module to support Variational Quantum Circuits by optimizing the ansatz. The ansatz optimization is performed using a Genetic Algorithm, which can be sped up with GPUs.## InstallationRun the following to install:```bash$ pip install ga-vqc```## ContributorsThis module was developed through the Caltech SURF program. Special thanksto my mentor at Caltech.- Jean-Roch (California Institute of Technology, Pasadena, CA 91125, USA)## Usage```pythonimport ga_vqc as gav# Config (hyperparameters) for GA, see full list in exampleconfig = {    'backend': 'simple',    'vqc': main,    'vqc_config': {},}# Create the GA with the given hyperparametersga = gav.setup(config)# Evolve the GA and search for the best ansatzga.evolve()```</longdescription>
+</pkgmetadata>

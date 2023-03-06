@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>===============================Iotronic Lightning-rod Agent===============================Python implementation of Lightning-rod Agent, the Stack4Thingsboard-side probe.* Free software: Apache 2.0 license* Website: http://stack4things.unime.it/* Source: https://opendev.org/x/iotronic-lightning-rod* Bugs: https://bugs.launchpad.net/iotronic-lightning-rodInstallation guides-------------------* `Raspberry Pi 3 &lt;https://opendev.org/x/iotronic-lightning-rod/src/branch/master/doc/installation/raspberry_pi_3.rst&gt;`_.* `Ubuntu 16.04 and 18.04 &lt;https://opendev.org/x/iotronic-lightning-rod/src/branch/master/doc/installation/ubuntu1604.rst&gt;`_.* Docker:  * `Raspberry Pi &lt;https://cloud.docker.com/u/smartmeio/repository/docker/smartmeio/arm-openstack-iotronic-lightning-rod&gt;`_.  * `Debian/Ubuntu &lt;https://cloud.docker.com/u/smartmeio/repository/docker/smartmeio/openstack-iotronic-lightning-rod&gt;`_.</longdescription>
+</pkgmetadata>

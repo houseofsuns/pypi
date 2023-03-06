@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># 🌊 Canals 🌊&lt;p align=&quot;center&quot; float=&quot;left&quot;&gt;  &lt;img alt=&quot;&quot; src=&quot;https://raw.githubusercontent.com/deepset-ai/.github/main/deepset-logo-colored.png&quot; width=&quot;30%&quot;/&gt;  &lt;img alt=&quot;&quot; src=&quot;https://raw.githubusercontent.com/deepset-ai/.github/main/haystack-logo-colored-on-dark.png#gh-dark-mode-only&quot; width=&quot;30%&quot;/&gt;  &lt;img alt=&quot;&quot; src=&quot;https://raw.githubusercontent.com/deepset-ai/.github/main/haystack-logo-colored.png#gh-light-mode-only&quot; width=&quot;30%&quot;/&gt;&lt;/p&gt;[![PyPI - Version](https://img.shields.io/pypi/v/canals.svg)](https://pypi.org/project/canals)[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/canals.svg)](https://pypi.org/project/canals)Canals is a **node orchestration engine**. Nodes are Python objects that can execute a task, like reading a file, performing calculations, or making API calls. Canals connects these objects together: it builds a graph of nodes and takes care of managing their execution order, making sure that each object receives the input it expects from the other nodes of the pipeline.Canals powers version 2.0 of the [Haystack framework](https://github.com/deepset-ai/haystack).## InstallationRunning:```consolepip install canals```gives you the bare minimum necessary to run Canals.To be able to draw pipelines, please make sure you have [graphviz](https://graphviz.org/download/) installed:```consolesudo apt install graphviz  # You may need `graphviz-dev` too: sudo apt install graphviz-devpip install canals[draw]```</longdescription>
+</pkgmetadata>

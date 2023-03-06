@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># easyfinemap[![pypi](https://img.shields.io/pypi/v/easyfinemap.svg)](https://pypi.org/project/easyfinemap/)[![python](https://img.shields.io/pypi/pyversions/easyfinemap.svg)](https://pypi.org/project/easyfinemap/)[![Build Status](https://github.com/Jianhua-Wang/easyfinemap/actions/workflows/dev.yml/badge.svg)](https://github.com/Jianhua-Wang/easyfinemap/actions/workflows/dev.yml)[![codecov](https://codecov.io/gh/Jianhua-Wang/easyfinemap/branch/main/graphs/badge.svg)](https://codecov.io/github/Jianhua-Wang/easyfinemap)[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)[![PyPI download month](https://img.shields.io/pypi/dm/easyfinemap.svg)](https://pypi.org/project/easyfinemap/)[![Build Status](https://github.com/Jianhua-Wang/easyfinemap/actions/workflows/python-package-conda.yml/badge.svg)](https://github.com/Jianhua-Wang/easyfinemap/actions/workflows/python-package-conda.yml)user-friendly pipeline for GWAS fine-mapping* Documentation: &lt;https://Jianhua-Wang.github.io/easyfinemap&gt;* GitHub: &lt;https://github.com/Jianhua-Wang/easyfinemap&gt;* PyPI: &lt;https://pypi.org/project/easyfinemap/&gt;* Free software: MIT## Features* Prepare LD reference for fine-mapping* Standardize input summary statistics* Identify independent loci by distance, LD clumping, or conditional analysis* Fine-mapping with or without LD reference## Finemapping approaches* LD-free    * aBF* LD-based    * FINEMAP    * CAVIARBF    * PAINTOR</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>cadcdata ========.. image:: https://img.shields.io/pypi/v/cadcdata.svg       :target: https://pypi.python.org/pypi/cadcdataCanadian Astronomy Data Centre - data accessaccess library and client for astronomical data hosted at the Canadian Astronomy Data Centre</longdescription>
+</pkgmetadata>

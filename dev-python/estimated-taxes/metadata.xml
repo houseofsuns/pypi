@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># estimated-taxesEstimated taxes calculator.This is meant to help estimate additional tax payments throughout the year, i.e.for [IRS form 1040-ES](https://www.irs.gov/pub/irs-pdf/f1040es.pdf) and [CA form540-ES](https://www.ftb.ca.gov/forms/2020/2020-540-es.pdf).Please review the logic yourself if you intend to use this. It intentionallydoes not attempt to handle all forms and all scenarios; you will likely need toaugment it for your particular needs.See also [nkouevda/capital-gains](https://github.com/nkouevda/capital-gains).## Installation    pip install estimated-taxesOr:    brew install nkouevda/nkouevda/estimated-taxes## Usage```usage: estimated-taxes [&lt;options&gt;] [--] &lt;input file&gt;Estimated taxes calculatoroptional arguments:  -h, --help     show this help message and exit  -v, --version  show program's version number and exit```## Input FormatSee [input/example.yaml](input/example.yaml).The input file must start with `!InputData`, and must specify `year`,`filing_status`, `fed_allowances`, and `ca_allowances`. All other values areoptional.Each value must be a number, or a list of numbers, or a map where the values arenumbers. Lists and maps are allowed for convenience, to split up categories intomultiple entries. For example, the following are all equivalent:```supplemental_wages: 62500supplemental_wages:  - 12500  - 50000supplemental_wages:  bonus: 12500  rsu: 50000```## Examples    estimated-taxes input/example.yaml &gt; output/example.txt## TODO- Itemized deductions other than SALT- AMT## License[MIT License](LICENSE.txt)</longdescription>
+</pkgmetadata>

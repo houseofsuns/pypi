@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># CDKTF Local Exec ConstructA simple construct that executes a command locally. This is useful to run build steps within your CDKTF Program or to run a post action after a resource is created.The construct uses the null provider to achieve this so it can be trusted to only run after all dependencies are met.## Usage```pythonimport { Provider, LocalExec } from &quot;cdktf-local-exec&quot;;// LocalExec extends from the null provider,// so if you already have the provider initialized you can skip this stepnew Provider(this, &quot;local-exec&quot;);const frontend = new LocalExec(this, &quot;frontend-build&quot;, {  // Will copy this into an asset directory  cwd: &quot;/path/to/project/frontend&quot;,  command: &quot;npm install &amp;&amp; npm build&quot;,});const pathToUpload = `${frontend.path}/dist`;new LocalExec(this, &quot;frontend-upload&quot;, {  cwd: pathToUpload,  command: `aws s3 cp --recursive ${pathToUpload} s3://${bucket.name}/frontend`,});new LocalExec(this, &quot;backend-build&quot;, {  cwd: &quot;/path/to/project/backend&quot;,  copyBeforeRun: false, // can not run remotely since the runner has no docker access  command: &quot;docker build -t foo . &amp;&amp; docker push foo&quot;,});```### Options* `cwd`: The working directory to run the command in. It will be copied before execution to ensure the asset can be used in a remote execution environment.* `command`: The command to execute.* `copyBeforeRun`: If true, the command will copy the `cwd` directory into a tmp dir and run there. If false, the command will be executed in the `cwd` directory.</longdescription>
+</pkgmetadata>

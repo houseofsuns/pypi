@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># `cdncheck-python`[![Tests](https://github.com/blacklanternsecurity/cdncheck-python/actions/workflows/tests.yml/badge.svg?branch=stable)](https://github.com/blacklanternsecurity/cdncheck-python/actions?query=workflow%3A&quot;tests&quot;)This is a Python wrapper around ProjectDiscovery's [cdncheck](https://github.com/projectdiscovery/cdncheck). It is useful for checking whether a given IP address belongs to a cloud provider, e.g. Google, Azure, etc. Tests are run on a weekly schedule.## InstallationIf you run into problems with installation, please make sure golang is installed on your system.```bash$ pip install cdncheck```## Usage (CLI)```bash$ cdncheck 1.2.3.41.2.3.4 does not belong to a CDN$ cdncheck 168.62.20.37168.62.20.37 belongs to CDN &quot;azure&quot;```## Usage (Python)```python&gt;&gt;&gt; from cdncheck import cdncheck# empty string == not belonging to a CDN&gt;&gt;&gt; cdncheck('1.2.3.4')''&gt;&gt;&gt; cdncheck('168.62.20.37')'azure'```</longdescription>
+</pkgmetadata>

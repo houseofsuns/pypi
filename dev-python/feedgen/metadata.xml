@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Feedgenerator=============This module can be used to generate web feeds in both ATOM and RSS format. Ithas support for extensions. Included is for example an extension to producePodcasts.It is licensed under the terms of both, the FreeBSD license and the LGPLv3+.Choose the one which is more convenient for you. For more details have a lookat license.bsd and license.lgpl.</longdescription>
+</pkgmetadata>

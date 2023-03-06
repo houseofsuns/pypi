@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># :tumbler_glass:  Whiskey makes writing happen. Whiskey is a static site generator focusing on making writing happen. It gets out of the way so you can focus on telling your story.## Features* Built around flat Markdown files using the power of Pandoc* Built-in publish and backup functionalities* Command-line driven* Has an &quot;update&quot; post-style for tweet-like posts* Generates feeds of regular posts, update posts, and all posts so you  can integrate updates with sites like [micro.blog](https://micro.blog)## InstallTo install Whiskey, run:```shpython3 -m pip install whiskey-flask```For an example site to get started, see[nickwynja/whiskey-example](https://github.com/nickwynja/whiskey-example). Tosee Whiskey in use, visit [nickwynja.com](https://nickwynja.com).</longdescription>
+</pkgmetadata>

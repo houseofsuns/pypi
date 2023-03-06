@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Testimony=========Are you tired of managing your test cases in a test case management tool andyour test code in a python automation framework?  Testimony can help to usethe python automation framework as a test case repository tool.The project testimony is written to inspect and report on the python testcases.  There are several reporting features in this program.The `full documentation &lt;http://testimony-qe.readthedocs.io/&gt;`_ is available onReadTheDocs.</longdescription>
+</pkgmetadata>

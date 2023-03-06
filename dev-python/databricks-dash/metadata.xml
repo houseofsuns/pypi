@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># databricks-dashdatabricks-dash is a part of [Dash Enterprise](https://plotly.com/dash/),Plotly's end-to-end Dash application platform. This public copy of the packageis a stub published on pypi.org designed to shield Dash Enterprise users from[dependency confusion](https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610),a remote code execution attack publicly disclosed in 2021 by Alex Birsan.If you are a Dash Enterprise user, you will only see this public package if yourapp is not properly configured to find the local package repository built intoDash Enterprise. Visit the docs for your Dash Enterprise installation for details.If you never see this public package, it's still doing its job of protecting youfrom the dependency confusion attack!</longdescription>
+</pkgmetadata>

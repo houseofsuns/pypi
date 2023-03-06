@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pyebootPython interface for pspdecrypt and sign_np.## Installation`pip install pyeboot`## Usage```import pyebootpyeboot.decrypt(&quot;EBOOT.BIN&quot;, &quot;BOOT.BIN&quot;)pyeboot.sign(&quot;BOOT.BIN&quot;, &quot;EBOOT.BIN&quot;, &quot;1&quot;)```</longdescription>
+</pkgmetadata>

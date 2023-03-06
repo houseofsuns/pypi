@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Eolymp SDK in PythonThis is SDK to talk to Eolymp API server pragmatically. [Learn more](https://support.eolymp.com/dev)## Quick start example```pythonimport eolymp.universe.universe_pb2 as universe_pb2from eolymp.universe.universe_http import UniverseClientfrom eolymp.core.http_client import HttpClienttransport = HttpClient(token=&quot;etkn-...&quot;)universe = UniverseClient(transport)out = universe.ListSpaces(request=universe_pb2.ListSpacesInput())for space in out.items:    print(space.name)```</longdescription>
+</pkgmetadata>

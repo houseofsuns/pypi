@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># PyxDI (in development)`PyxDI` is a modern, lightweight and async-friendly Python Dependency Injection library that leverages type annotations ([PEP 484](https://peps.python.org/pep-0484/))to effortlessly manage dependencies in your applications.[![CI](https://github.com/antonrh/pyxdi/actions/workflows/ci.yml/badge.svg)](https://github.com/antonrh/pyxdi/actions/workflows/ci.yml)[![codecov](https://codecov.io/gh/antonrh/pyxdi/branch/main/graph/badge.svg?token=67CLD19I0C)](https://codecov.io/gh/antonrh/pyxdi)[![Documentation Status](https://readthedocs.org/projects/pyxdi/badge/?version=latest)](https://pyxdi.readthedocs.io/en/latest/?badge=latest)[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)---Documentationhttp://pyxdi.readthedocs.io/---## RequirementsPython 3.7+and requires [anyio](https://github.com/agronholm/anyio)## InstallationInstall using `pip`:```shellpip install pyxdi```or using `poetry`:```shellpoetry add pyxdi```## Quick Example*app.py*```pythonimport pyxdidi = pyxdi.PyxDI()@di.providerdef message() -&gt; str:    return &quot;Hello, world!&quot;@di.injectdef say_hello(message: str = pyxdi.dep) -&gt; None:    print(message)if __name__ == &quot;__main__&quot;:    say_hello()```## TODO* Documentation (in progress)* Examples (in progress)</longdescription>
+</pkgmetadata>

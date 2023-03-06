@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># [FastAPI](https://fastapi.tiangolo.com/) exceptions## Introduction`fastapi-exceptions` is a set of standard http exceptions based on starlette exceptions.## Installation```shell&gt; pip install fastapi-exceptions```## UsageInstead of duplication of exceptions codes and their details for standard cases:```pythonfrom fastapi import HTTPExceptionfrom starlette import status# some app logic ...    raise HTTPException(        status_code=status.HTTP_401_UNAUTHORIZED,        detail='Authentication credentials were not provided',    )```you can simply import exceptions and use wherever you need:```pythonfrom fastapi_exceptions.exceptions import NotAuthenticated# some app logic ...    raise NotAuthenticated()```and, of course, modify details if needed:```python# some app logic ...    raise NotAuthenticated(detail='No authentication header')```</longdescription>
+</pkgmetadata>

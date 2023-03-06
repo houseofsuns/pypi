@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This is the python bindings subdir of llvm clang repository.https://github.com/llvm/llvm-project/tree/main/clang/bindings/pythonThis is a non-official packaging directly from the debian packages for the purpose of creating a pypi package.Build repository at https://github.com/trolldbois/python-clang/Install with     pip install clang    pip install clang==14You will need to install llvm libclang libraries, which are not packaged with this package.</longdescription>
+</pkgmetadata>

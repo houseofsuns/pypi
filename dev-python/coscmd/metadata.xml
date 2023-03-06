@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>COSCMD#######################.. image:: https://img.shields.io/pypi/v/coscmd.svg      :target: https://pypi.org/search/?q=coscmd   :alt: Pypi.. image:: https://travis-ci.org/tencentyun/coscmd.svg?branch=master      :target: https://travis-ci.org/tencentyun/coscmd   :alt: Travis CI 介绍_______腾讯云COS命令行工具, 目前可以支持Python2.6与Python2.7以及Python3.x。安装指南__________使用pip安装 ::    pip install -U coscmd手动安装::    python setup.py install使用方法__________使用coscmd，参照 https://cloud.tencent.com/document/product/436/10976</longdescription>
+</pkgmetadata>

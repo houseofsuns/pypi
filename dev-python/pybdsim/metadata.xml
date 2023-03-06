@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pybdsim #A python package containing both utilities for preparing and analysing BDSIM input and output as well as controlling BDSIM.## Authors ##L. NevayA. AbramovS. AldenS. BoogertC. HernalsteensW. ParkerE. RamoisiauxW. ShieldsJ. SnuverinkR. TesseS. Walker## Setup ##pip install pybdsimOr from source, from the main directory:$ make installor for development where the local copy of the repository is used and canbe reloaded with local changes:$ make developLook in the Makefile for the various pip commands (e.g. for with a venv)```python&gt;&gt;&gt; import pybdsim&gt;&gt;&gt; d = pybdsim.Data.Load(&quot;output.root&quot;)&gt;&gt;&gt; eventTree = a.GetEventTree()&gt;&gt;&gt; for event in eventTree:        print(event.Summary.nTracks)&gt;&gt;&gt; dh = pybdsim.Data.Load(&quot;analysis_histograms.root&quot;)&gt;&gt;&gt; pybdsim.Plot.Histogram1D(dh.histogramspy[&quot;Event/MergedHistograms/PlossHisto&quot;])```</longdescription>
+</pkgmetadata>

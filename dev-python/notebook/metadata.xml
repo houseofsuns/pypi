@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>The Jupyter Notebook is a web application that allows you to create andshare documents that contain live code, equations, visualizations, andexplanatory text. The Notebook has support for multiple programminglanguages, sharing, and interactive widgets.Read `the documentation &lt;https://jupyter-notebook.readthedocs.io&gt;`_for more information.    </longdescription>
+</pkgmetadata>

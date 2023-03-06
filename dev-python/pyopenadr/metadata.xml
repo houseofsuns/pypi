@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># PyOpenADRPyOpenADR has changed its name to [OpenLEADR](https://pypi.org/project/openleadr). You can still use pyopenadr as an alias to openleadr if you want.Please update your dependencies, and please take a look [here](https://pypi.org/project/openleadr). Thanks.</longdescription>
+</pkgmetadata>

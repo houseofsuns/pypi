@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=======ebcli=======This package provides a command line interface ElasticBoxThe ebcli package should work on Python versions 2.7.x---------------Getting Started---------------Our documentation is available at https://www.ctl.io/knowledge-base/cloud-application-manager</longdescription>
+</pkgmetadata>

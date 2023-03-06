@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ircrobots## rationaleI wanted a very-bare-bones IRC bot framework that deals with most of theconcerns one would deal with in scheduling and awaiting async stuff, e.g.creating and awaiting a new task for each server while dynamically being ableto add/remove servers.## usagesee [examples/](examples/) for some usage demonstration.## contactCome say hi at `#irctokens` on irc.libera.chat</longdescription>
+</pkgmetadata>

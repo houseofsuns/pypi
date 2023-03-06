@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># EufyLife BLE ClientThis is a library for parsing data from Eufy smart scales that use the EufyLife mobile app.# Supported Models| Model | Name               || ----- | ------------------ || T9140 | Smart Scale        || T9146 | Smart Scale C1     || T9147 | Smart Scale P1     || T9148 | Smart Scale P2     || T9149 | Smart Scale P2 Pro |## InstallationInstall this via pip:`pip install eufylife-ble-client`</longdescription>
+</pkgmetadata>

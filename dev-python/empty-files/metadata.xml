@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># EmptyFiles.Python[![PyPI version](https://img.shields.io/pypi/v/empty-files.svg)](https://pypi.org/project/empty-files)**TL;DR** Null Object pattern for files. &lt;!-- toc --&gt;## Contents  * [Setup](#setup)  * [Usage](#usage)  * [Null Object Pattern](#null-object-pattern)  * [Attributions](#attributions)&lt;!-- endToc --&gt;This project will create an empty file of a type requested. If possible, that file will be the smallest valid file for that type. For example, an empty jpg will be a 1x1 pixel jpg.## SetupFrom [pypi](https://pypi.org/project/empty-files/):pip install empty-files## UsageThis code:&lt;!-- snippet: create_empty_jpg --&gt;&lt;a id='snippet-create_empty_jpg'&gt;&lt;/a&gt;```pyfrom empty_files.empty_files import create_empty_filecreate_empty_file(&quot;temp/empty.jpg&quot;)```&lt;sup&gt;&lt;a href='/tests/test_empty_files.py#L23-L26' title='Snippet source file'&gt;snippet source&lt;/a&gt; | &lt;a href='#snippet-create_empty_jpg' title='Start of snippet'&gt;anchor&lt;/a&gt;&lt;/sup&gt;&lt;!-- endSnippet --&gt;will create the following [image](tests/test_empty_files.test_sample.approved.jpg)## Null Object Pattern**Issue:** null/None causes extra checks in order to avoid errors.**Solution:** return an empty version of the object, so methods can be used normally.**Example:** if `last_name` returns `&quot;&quot;` instead of `None`,  we can write:```pythonname_length = len(person.last_name())```instead of :```python name_length = 0if (person.last_name()) name_length = len(person.last_name()) ```## AttributionsThe empty files are taken from [Simon Cropp's Empty Files](https://github.com/VerifyTests/EmptyFiles/tree/main/index).</longdescription>
+</pkgmetadata>

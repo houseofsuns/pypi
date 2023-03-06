@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Car Talk ArchiverA script that generates an RSS XML feed containing every Car Talk episode currently hosted by NPR, dating back to 2007. Host via HTTP and update with a program like crontab for maximum effect.Compatible with any podcast application that supports RSS.## Requirements```python = &quot;^3.10&quot;beautifulsoup4 = &quot;^4.11.2&quot;feedgen = &quot;^0.9.0&quot;requests = &quot;^2.28.2&quot;```## Installation```pip install car-talk-archiver```## Usage```usage: cta.py [-h] [-i file] [-o file]Generate a podcast RSS feed containing every Car Talk episode currently hosted by NPR.options:  -h, --help            show this help message and exit  -i file, --input file                        file name of an existing feed (if specified, script will only check for newer episodes)  -o file, --output file                        output file name (defaults to cartalk_&lt;timestamp&gt;.xml in current working directory)```## ExamplesGenerate a new feed:```$ ./cta.py```Use an existing feed to generate a new feed including the most recent episodes:```$ ./cta.py -i cartalk.xml```Update and overwrite an existing feed with the most recent episodes:```$ ./cta.py -i cartalk.xml -o cartalk.xml```</longdescription>
+</pkgmetadata>

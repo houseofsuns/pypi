@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## Data TeamThe [handbook](https://about.gitlab.com/handbook/business-ops/data-team/data-infrastructure) is the single source of truth for all of our documentation. ### ContributingWe welcome contributions and improvements, please see the [contribution guidelines](CONTRIBUTING.md).### LicenseThis code is distributed under the MIT license, please see the [LICENSE](LICENSE) file.</longdescription>
+</pkgmetadata>

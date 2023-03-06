@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>CityHash========A fork of Python wrapper around `CityHash &lt;https://github.com/google/cityhash&gt;`__with downgraded version of algorithm. This fork used as 3-rd party libraryfor hashing data in ClickHouse protocol. Unfortunately ClickHouseserver comes with built-in old version of this algorithm.Please use original `python-cityhash &lt;https://github.com/escherba/python-cityhash&gt;`_package for other purposes.Getting Started---------------To use this package in your program, simply type.. code-block:: bash    pip install clickhouse-cityhashSee Also--------For other fast non-cryptographic hashing implementations available as Pythonextensions, see `MetroHash &lt;https://github.com/escherba/python-metrohash&gt;`__and `xxh &lt;https://github.com/lebedov/xxh&gt;`__.Authors-------The Python bindings were originally written by Alexander [Amper] Marshalov andwere subsequently edited for more speed/versatility and packaged for PyPI byEugene Scherba. The original CityHash algorithm is by Google.License-------This software is licensed under the `MIT License&lt;http://www.opensource.org/licenses/mit-license&gt;`_.  See the included LICENSEfile for more information.</longdescription>
+</pkgmetadata>

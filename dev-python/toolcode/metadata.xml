@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># toolcode**toolcode** is a simple, toolcode supporting facebook```python&gt;&gt;&gt; from toolcode import toolcode&gt;&gt;&gt; getprofile=toolcode.checkfb(cookie)&gt;&gt;&gt;getprofile.idfb&gt;&gt;&gt; getprofile.namefbnguyen van ky deptrai1000383493047&gt;&gt;&gt; like = toolcode.fblike(idpost,cookie)&gt;&gt;&gt; like.messhttps://mbasic.facebook.com/*****&gt;&gt;&gt; follow=toolcode.fbfollow(idprofile,cookie)&gt;&gt;&gt; follow.messhttps://mbasic.facebook.com/*****&gt;&gt;&gt; react=toolcode.fbreact(idpost,cookie,type)...```type can be love , haha , sad , care , angry , wow and dont messexcept fbreact, other functions stop like fblike and followit helps you like photos uploaded to facebook and some other functions like react, follow, group, like page, create fake name, countdownand it depends on the required module, the usage of the request is still the same, if you have not installed the required module, the tool codewill automatically install it, the toolcode is quite suitable for those of you who make software and tools on facebook## Installing toolcode and Supported Versionstoolcode is available on PyPI:```console$ python -m pip install toolcode```Requests officially supports Python 3.7+.## features in tool code- toolcode.fbfriend(idprofile,cookie)- toolcode.fblike(idpost,cookie)- toolcode.fbreact(idpost,cookie,type)- toolcode.fbpage(idpage,cookie)- toocode.fbgroup(idgroup,cookie)- toolcode.fbfollow(idprofile,cookie)- toolcode.checkfb(cookie)- toolcode.fakename(2)- toolcode.wait('',10,'')## group toolcodehttps://t.me/+BfXb55fR3sZjNGNl</longdescription>
+</pkgmetadata>

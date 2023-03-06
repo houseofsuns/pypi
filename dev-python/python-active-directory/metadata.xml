@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Python-Active-Directory=======================This is Python-AD, an Active Directory client library for Python on UNIX/Linux systems.**Note** - version 1.0 added support for Python &gt;= 3.6 and version 2.0 will drop support for Python 2Install-------.. code:: bash    $ pip install -e git+git@github.com:theatlantic/python-active-directory.git@v1.0.0+atl.2.0#egg=python-active-directoryDevelopment-----------Get the code~~~~~~~~~~~~.. code:: bash    $ git clone git@github.com:theatlantic/python-active-directory.git    $ cd python-active-directoryCreate virtual environment~~~~~~~~~~~~~~~~~~~~~~~~~~.. code:: bash    $ python -mvenv venv    $ . venv/bin/activate    $ pip install -e .Testing~~~~~~~Version 1.0 switched to using pytest instead of nose, and added tox configurationfor supporting testing across various supported Python versions... code:: bash    $ pip install tox    $ toxSpecial environment variables:* ``PYAD_TEST_CONFIG`` - Override the default test configuration file (formerly ``FREEADI_TEST_CONFIG``)* ``PYAD_READONLY_CONFIG`` - Enable readonly tests, must be in the form of ``username:password@domain.tld``</longdescription>
+</pkgmetadata>

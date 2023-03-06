@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Jackal, Django Rest Framework extension[![version badge](https://badge.fury.io/py/django-jackal.svg)](https://badge.fury.io/py/django-jackal)![jackal image](https://imgur.com/XnlU8T9.jpg)&gt; Warning! This project is for personal use. Therefore, there are no documents, and the code changes are arbitrary.**Jackal** is extension of Django REST Framework(DRF)that help you easily implement the necessary features on your web backend server.## Installation    pip install django-jackal</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## To Install Main Package```pip install censius -U```## To Install Dev Package``` pip install --trusted-host pypi-dev.eastus.azurecontainer.io:8080 \ --index-url http://pypi-dev.eastus.azurecontainer.io:8080/simple/ censius -U```## API Reference to execute operationhttps://documentation.censius.ai/api-reference</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># TDK-SözlükEn iyi TDK sözlük arama kütüphanesi.\Best TDK dict. search library.### Yükleme / Install:```shell$ pip install tdk-sozluk```### Gereksinimler / Requirements:Python 3.3+\pip### Temel Kullanım / Basic Usage```pythonimport tdksonuclar = tdk.ara(&quot;yüzmek&quot;)for s in sonuclar:    for i in s.anlamlar():        print(i.anlam())```Output / Çıktı:```Kol, bacak, yüzgeç vb. organların özel hareketleriyle su yüzeyinde veya su içinde ilerlemek, durmakYüzme sporu yapmakBir sıvının yüzeyinde batmadan durmakHerhangi bir durumun en aşırı derecesinde olmakDalgalanmakHerhangi bir şeyle üzeri kaplanmak, bir şeye bulanmakDerisini çıkarmak, derisini soymakÇok para istemek```### Dokümantasyon / DocumentationDokümanlar henüz hazır değil. Hazır olunca burada olacak.\Docs are not ready yet. They will be here when they're completed.\\Ama kullanımla ilgili bilgi için kaynak kodlarındaki yorum satırlarını okuyabilirsiniz.\But you can read the explanations in the source code.### Katkı Yap / ContributeKatkı yapmak için bu projeyi forklayın, geliştirin ve bir pull request ekleyin.\To contribute this project: Fork, develop and submit a pull request.### LICENSEThis project is distributed under MIT License.</longdescription>
+</pkgmetadata>

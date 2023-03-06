@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![NPM version](https://badge.fury.io/js/cdk-bar.svg)](https://badge.fury.io/js/cdk-bar)[![PyPI version](https://badge.fury.io/py/cdk-bar.svg)](https://badge.fury.io/py/cdk-bar)![Release](https://github.com/aws-samples/aws-cdk-for-k3scluster/workflows/Release/badge.svg)# cdk-barA demo construct library created with `Projen` :-)# sample```python# Example automatically generated without compilation. See https://github.com/aws/jsii/issues/826app = cdk.App()stack = cdk.Stack(app, &quot;my-demo-stack&quot;)Bar(stack, &quot;MyBar&quot;)```</longdescription>
+</pkgmetadata>

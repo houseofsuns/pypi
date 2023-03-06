@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>dkist-processing-test---------------------Overview--------The dkist-processing-test library serves as an example implementation of a Tasks and Workflows using the`dkist-processing-core &lt;https://pypi.org/project/dkist-processing-core/&gt;`_ framework and`dkist-processing-common &lt;https://pypi.org/project/dkist-processing-common/&gt;`_ Tasks.The recommended project structure is to separate tasks and workflows into separate packages.Build-----Artifacts are built through `bitbucket pipelines &lt;bitbucket-pipelines.yml&gt;`_The pipeline can be used in other repos with a modification of the package and artifact locationsto use the names relevant to the target repo.e.g. dkist-processing-test -&gt; dkist-processing-vbi and dkist_processing_test -&gt; dkist_processing_vbiDeployment----------Deployment is done with `turtlebot &lt;https://bitbucket.org/dkistdc/turtlebot/src/master/&gt;`_ and followsthe process detailed in `dkist-processing-core &lt;https://pypi.org/project/dkist-processing-core/&gt;`_Environment Variables---------------------Only those specified by `dkist-processing-core &lt;https://pypi.org/project/dkist-processing-core/&gt;`_ and `dkist-processing-common &lt;https://pypi.org/project/dkist-processing-common/&gt;`_Development-----------.. code-block:: bash    git clone git@bitbucket.org:dkistdc/dkist-processing-test.git    cd dkist-processing-test    pre-commit install    pip install -e .[test]    pytest -v --cov dkist_processing_test</longdescription>
+</pkgmetadata>

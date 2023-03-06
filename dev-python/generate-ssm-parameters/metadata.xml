@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ssm-parameter-generatorThis script generates SSM parameters in an AWS account based on the contents of a CSV file.The CSV file should have the following headers: - Name (string)- Type (&quot;String&quot; | &quot;StringList&quot; | &quot;SecureString&quot;)- Value (string)- Description (string)## UsageTo run the script:- generate-ssm-parameters CSV-FILE-NAME --profile AWS-PROFILE --region AWS-REGIONThe script supports the following options:- profile: specifies the aws profile to use while running the script. Defaults to &quot;default&quot;. If no default profile is found, it will try to use the AWS environment variables.- region: specifies the aws region to use while running the script. Defaults to &quot;us-east-1&quot;. # generate-ssm-parameters</longdescription>
+</pkgmetadata>

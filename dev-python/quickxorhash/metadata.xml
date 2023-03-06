@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This python library is a Cython wrapper for the [original C implementation](https://https://github.com/flowerysong/quickxorhash).quickxorhash is a C library (libqxh) implementing Microsoft's QuickXORHash algorithm.## AlgorithmQuickXORHash is a non-cryptographic hash function that XORs the inputbytes in a circular shift pattern, then XORs the least significantbits of the hash with the input length. The canonical representationof the resulting hash is a Base64 encoded string, because hexadecimalis too plebeian.## Usage```python&gt;&gt;&gt; import quickxorhash&gt;&gt;&gt; h = quickxorhash.quickxorhash()&gt;&gt;&gt; h.update(b'hello world')&gt;&gt;&gt; print(h.digest())b'h(\x03\x1b\xd8\xf0\x06\x10\xdc\xe1\rrk\x03\x19\x00\x00\x00\x00\x00'&gt;&gt;&gt; import base64&gt;&gt;&gt; print(base64.b64encode(h.digest()))b'aCgDG9jwBhDc4Q1yawMZAAAAAAA='```</longdescription>
+</pkgmetadata>

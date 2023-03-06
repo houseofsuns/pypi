@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># BossmanExtensible automation framework, geared towards Akamai configuration management.All documentation is available on [bossman.readthedocs.io](https://bossman.readthedocs.io).</longdescription>
+</pkgmetadata>

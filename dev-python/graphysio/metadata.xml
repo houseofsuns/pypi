@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># GraPhysioGraPhysio is a graphical time series visualizer created for biometric datasignals from ICU patient monitors. It is however not limited to this. It canhandle low frequency and high frequency data as well as aggregating andsynchronizing signals from different sources. GraPhysio supports basicmathematical operations and filters and can help selecting and exporting timeperiods. GraPhysio can read data from CSV, Parquet and EDF files and can writeCSV, Parquet, EDF and Matlab files.## Install instructionsFor the best experience, conda is recommended:conda install -c conda-forge graphysioAlternatively you can then install the latest version of GraPhysio from PyPi bytying the following command:&gt; python -m pip install graphysioYou can launch GraPhysio by typing:&gt; python -m graphysio</longdescription>
+</pkgmetadata>

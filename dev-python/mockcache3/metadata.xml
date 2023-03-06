@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>The Python dictionary-based mock memcached client library. It does notconnect to any memcached server, but keeps a dictionary and stores every cacheinto there internally. It is a just emulated API of memcached client only fortests. It implements expiration also. NOT THREAD-SAFE.This module and other memcached client libraries have the same behavior.It is a fork from [mockcache](https://github.com/lunant/mockcache) to supportnew Python versions and fix a few bugs.</longdescription>
+</pkgmetadata>

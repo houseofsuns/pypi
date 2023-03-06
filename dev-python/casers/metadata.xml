@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># casers[![PyPI](https://img.shields.io/pypi/v/casers)](https://pypi.org/project/casers/)[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/casers)](https://www.python.org/downloads/)[![GitHub last commit](https://img.shields.io/github/last-commit/daxartio/casers)](https://github.com/daxartio/casers)[![GitHub stars](https://img.shields.io/github/stars/daxartio/casers?style=social)](https://github.com/daxartio/casers)## Installation### pip```pip install casers```### poetry```poetry add casers```## Usage```pythonfrom casers import snake_to_camelsnake_to_camel(&quot;some_text&quot;) == &quot;someText&quot;# True``````pythonfrom casers.pydantic import SnakeToCamelAliasesclass Model(SnakeToCamelAliases):    snake_case: strModel.parse_obj({&quot;snakeCase&quot;: &quot;value&quot;}).snake_case == &quot;value&quot;# True```## License* [MIT LICENSE](LICENSE)## Contribution[Contribution guidelines for this project](CONTRIBUTING.md)</longdescription>
+</pkgmetadata>

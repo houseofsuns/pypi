@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Hestia Aggregation Engine[![Pipeline Status](https://gitlab.com/hestia-earth/hestia-aggregation-engine/badges/master/pipeline.svg)](https://gitlab.com/hestia-earth/hestia-aggregation-engine/commits/master)[![Coverage Report](https://gitlab.com/hestia-earth/hestia-aggregation-engine/badges/master/coverage.svg)](https://gitlab.com/hestia-earth/hestia-aggregation-engine/commits/master)[![Documentation Status](https://readthedocs.org/projects/hestia-aggregation-engine/badge/?version=latest)](https://hestia-aggregation-engine.readthedocs.io/en/latest/?badge=latest)## DocumentationOfficial documentation can be found on [Read the Docs](https://hestia-aggregation-engine.readthedocs.io/en/latest/index.html).Additional models documentation can be found in the [source folder](./hestia_earth/aggregation).## Install1. Install the module:```bashpip install hestia_earth.aggregation```### Usage```pythonimport osfrom hestia_earth.aggregation import aggregateos.environ['API_URL'] = 'https://api.hestia.earth'aggregates = aggregate(country_name='Japan')```</longdescription>
+</pkgmetadata>

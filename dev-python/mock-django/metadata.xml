@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>mock-django~~~~~~~~~~~A simple library for mocking certain Django behavior, such as the ORM.Using mock-django objects-------------------------Inside your virtualenv:.. code:: python   &gt;&gt;&gt; from django.conf import settings   &gt;&gt;&gt; settings.configure() # required to convince Django it's properly configured   &gt;&gt;&gt; from mock_django.query import QuerySetMock   &gt;&gt;&gt; class Post(object): pass   ...   &gt;&gt;&gt; qs = QuerySetMock(Post, 1, 2, 3)   &gt;&gt;&gt; list(qs.all())   [1, 2, 3]   &gt;&gt;&gt; qs.count()   3   &gt;&gt;&gt; list(qs.all().filter())   [1, 2, 3]See tests for more examples.Testing-------.. image:: https://secure.travis-ci.org/dcramer/mock-django.png   :alt: Build Status   :target: http://travis-ci.org/dcramer/mock-django``tox``</longdescription>
+</pkgmetadata>

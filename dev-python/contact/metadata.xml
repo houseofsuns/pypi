@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ContactIt takes contact list and saves in the database or on entering the number returns the name if the number is found in the database.## Installation```pip install contact```## How to use it?Open terminal and type contact and then input the integer of your choice## LicenseÂ© 2022 Abhishek PandeyThis repository is licensed under the MIT license. See LICENSE for details.</longdescription>
+</pkgmetadata>

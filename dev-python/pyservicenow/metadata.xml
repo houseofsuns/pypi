@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># PyServiceNow## DistributingCheck any of the Release/* branches to find the needed versionCheck under dist for the .whl file```bashpip install *.whl```## Making Wheel```bashpython setup.py bdist_wheel --universal```## Example Basic Call```pythonfrom pyservicenow.core import UsernamePasswordCredential, ServiceNowClientfrom pyservicenow.types.models.querybuilder import QueryBuildercredential = UsernamePasswordCredential(&quot;&quot;, &quot;&quot;)client = ServiceNowClient(credential=credential, instance=&quot;instance&quot;)query = QueryBuilder().field(&quot;serial_number&quot;).equals(&quot;92XWKW2&quot;)Ticket = client.Now.table_api(&quot;alm_hardware&quot;).Request.sysparam_query(query).sysparam_limit(1).Get.invoke_request```</longdescription>
+</pkgmetadata>

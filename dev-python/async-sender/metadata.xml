@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image:: https://img.shields.io/travis/com/theruziev/async_sender.svg?style=flat-square        :target: https://travis-ci.com/theruziev/async_sender.. image:: https://img.shields.io/codecov/c/github/theruziev/async_sender.svg?style=flat-square        :target: https://codecov.io/gh/theruziev/async_sender.. image:: https://img.shields.io/pypi/v/async_sender.svg?style=flat-square           :alt: PyPI           :target: https://pypi.org/project/async_sender/AsyncSender provides a simple interface to set up a SMTP connection and send email messages asynchronously.Installation------------Install with the following command.. code-block:: bash    pip install async_senderQuickstart----------AsyncSender is really easy to use.  Emails are managed through a `Mail`instance.. code-block:: python    from async_sender import Mail    import asyncio    async def run():        mail = Mail()        await mail.send_message(&quot;Hello&quot;, from_address=&quot;from@example.com&quot;,                                to=&quot;to@example.com&quot;, body=&quot;Hello world!&quot;)    asyncio.run(run())Message-------To send one message, we need to create a `Message` instance.. code-block:: python    from async_sender import Message    msg = Message(&quot;demo subject&quot;, from_address=&quot;from@example.com&quot;,                  to=&quot;to@example.com&quot;)</longdescription>
+</pkgmetadata>

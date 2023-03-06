@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Python Rook==================`Rook &lt;http://www.rookout.com&gt;`_ is a Python package that supportson the fly debugging and data extraction from python applicationsin production.For more info see `Rookout's docs &lt;https://docs.rookout.com/docs/python-setup&gt;`_</longdescription>
+</pkgmetadata>

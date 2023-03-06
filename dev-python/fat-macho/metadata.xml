@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># fat-macho[![GitHub Actions](https://github.com/messense/fat-macho-rs/workflows/Python/badge.svg)](https://github.com/messense/fat-macho-rs/actions?query=workflow%3APython)[![PyPI](https://img.shields.io/pypi/v/fat-macho.svg)](https://pypi.org/project/fat-macho)Python wrapper of the [fat-macho](https://github.com/messense/fat-macho-rs) Rust crate.## Installation```bashpip install fat-macho```## Usage### Generate a Mach-O fat binary```pythonfrom fat_macho import FatWriterwriter = FatWriter()with open(&quot;x86_64_thin_file_path&quot;, &quot;rb&quot;) as f:    writer.add(f.read())with open(&quot;arm64_thin_file_path&quot;, &quot;rb&quot;) as f:    writer.add(f.read())# Get Mach-O fat binary as bytesfat_bytes = writer.generate()# Write to filewriter.write_to(&quot;fat_file_path&quot;)```## LicenseThis work is released under the MIT license. A copy of the license is provided in the [LICENSE](../LICENSE) file.</longdescription>
+</pkgmetadata>

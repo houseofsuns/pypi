@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Un projecte de GirotecGestiona la API de Girotec amb aquest paquet d'èines.Parla amb el distribuïdor del software ManPro per obtenir les credencials.</longdescription>
+</pkgmetadata>

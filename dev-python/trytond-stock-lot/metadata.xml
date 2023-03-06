@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Stock Lot Module################The stock lot module defines lot of products.Lot***A lot is by default just a number to tag moves.It is possible to define per product when the lot is required by selecting thetype of location involved in the move.</longdescription>
+</pkgmetadata>

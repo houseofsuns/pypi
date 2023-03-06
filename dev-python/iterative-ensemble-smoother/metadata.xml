@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Iterative Ensemble Smoother===========================[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)[![docs](https://readthedocs.org/projects/iterative_ensemble_smoother/badge/?version=latest&amp;style=plastic)](https://iterative_ensemble_smoother.readthedocs.io/)A library for the iterative ensemble smoother algorithm.For more information, see [the docs](http://iterative_ensemble_smoother.rtfd.io).## buildingBefore building you will have to have a c compiler and python with pipinstalled. Depending on your environment you will have to instructthe conan package manager about which c compiler to use.```bashc++ --version # to get information about which c compiler is installed              # on your system.pip install conan# The following sets the compiler settings# assuming the output of `c++ --version` indicated# that the installed c compiler was gcc version 11.2# and writes it to the default profile.conan profile update &quot;settings.compiler=gcc&quot; defaultconan profile update &quot;settings.compiler.version=11.2&quot; default```To build iterative_ensemble_smoother from source:```bashgit clone https://github.com/equinor/iterative_ensemble_smoother.gitcd iterative_ensemble_smootherpip install .```### build the documentation```bashapt install pandoc # Building the doc requires pandocpip install .[doc]spinx-build -c docs/source/ -b html docs/source/ docs/build/html/```</longdescription>
+</pkgmetadata>

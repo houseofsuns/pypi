@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>ktpanda_modules===============A collection of helper modules by PinkPandaKatie (https://ktpanda.org)threadpool----------Maintains a pool of threads which can execute jobs.object_pool-----------Maintains a pool of objects which can be checked out as needed by different threads.hotload-------A class which can reload its methods from a module when it detects changes.sqlite_helper-------------A wrapper class for an SQLite database that includes schema versioning andvarious helper methods.textcolor---------A module for coloring text using VT100 codesttyutil-------Utilities for controlling Posix TTY devices and reading raw input.dateutils---------Simple utilities for dealing with date / time, extending the built-in datetime.fileutils---------Simple utilities for dealing with files / directories.vt100-----Defines constants for VT100 control codes.cli---Defines decorators which make it easy to create dispatch-style CLI interfaces.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># MFD FloodsA python script to model hidrologic behavior of downstream drainpaths. With a DTM cover of your study area you can define longitude and latitude (in the DTM distance unit) as a start point and an income flow to see how the water will flood the territory.## InstallationWith pip `pip install mfdfloods`From source `python -m pip install -r /path/to/mfdfloods/directory`## DependenciesThe script requires GDAL installed on your system and python-gdal as a python dependency.To install GDAL execute `apt install gdal-bin libgdal-dev`.## ModuleExecute .py from inside the folder to test the algorithm.The test.py is a script that call the class MFD and execute its modelization withthe datasource from the `data/` folder. There you have to place your GeoJSON fileswith the modelized line geometry.`python test.py &lt;path:data&gt; &lt;lng:float&gt; &lt;lat:float&gt;`Arguments:1. **data** is the pathname of the data directory. There you have to place a   `dtm.tif`, a `mannings.tif` and a `hydrogram.csv` files.2. **lng** is the longitude in your reference dtm distance units.3. **lat** is the latitude in your reference dtm distance units.The output will be placed in your **data** floder as three files with the name _(draft|flood|speed)\_{lng}-{lat}.tif_.## UseInclude mfdfloods as a module on your scripts with `from mfdfloods import MFD` then instantiate the class MFD to execute its drainpaths method.</longdescription>
+</pkgmetadata>

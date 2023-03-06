@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>====================craytraverse (0.1.6)====================.. image:: https://img.shields.io/pypi/v/craytraverse?style=flat-square    :target: https://pypi.org/project/craytraverse    :alt: PyPI.. image:: https://img.shields.io/pypi/l/craytraverse?style=flat-square    :target: https://www.mozilla.org/en-US/MPL/2.0/    :alt: PyPI - Licensec/c++ libraries for raytraverse, including radiance based render classes.* Free software: Mozilla Public License 2.0 (MPL 2.0)* Documentation: https://raytraverse.readthedocs.io/en/latest/.Installation------------The easiest way to install craytraverse is with pip::    pip install --upgrade pip setuptools wheel    pip install craytraverseor if you have cloned this repository::    cd path/to/this/file    git submodule init    git submodule update    pip install .=======History=======0.1.6 (2022-12-23)------------------* changed rontrib_clear to hopefully avoid segfault occuring after many resets  the diagnosis was using lu_delete instead of lu_done. tested on mac and linux.0.1.5 (2022-10-26)------------------* fixed bug from updated radiance where calcontext was not getting  reinitialized after rcontrib.reset()* added basic usable renderer objects (without raytraverse)0.1.4 (2022-09-27)------------------* updated radiance0.1.3 (2022-07-05)------------------* error messages in linux0.1.2 (2022-05-19)------------------* added color-channel support0.1.1 (2022-04-28)------------------* added scene property to render objects available from python* updated to radiance db4988bb 2022-04-240.1.0 (2022-04-14)------------------* split from main raytraverse module.</longdescription>
+</pkgmetadata>

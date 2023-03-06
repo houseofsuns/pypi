@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Basi[![PyPi version][pypi-image]][pypi-link][![Supported Python versions][pyversions-image]][pyversions-link][![Build status][ci-image]][ci-link][![Coverage status][codecov-image]][codecov-link]## InstallInstall from [PyPi](https://pypi.org/project/basi/)```pip install basi```## Links- __[Documentation][docs-link]__- __[API Reference][api-docs-link]__- __[Get Started][install-link]__- __[Contributing][contributing-link]__[docs-link]: https://davidkyalo.github.io/basi/[api-docs-link]: https://davidkyalo.github.io/basi/[install-link]: https://davidkyalo.github.io/basi/install.html[contributing-link]: https://davidkyalo.github.io/basi/contributing.html[pypi-image]: https://img.shields.io/pypi/v/basi.svg?color=%233d85c6[pypi-link]: https://pypi.python.org/pypi/basi[pyversions-image]: https://img.shields.io/pypi/pyversions/basi.svg[pyversions-link]: https://pypi.python.org/pypi/basi[ci-image]: https://github.com/davidkyalo/basi/actions/workflows/workflow.yaml/badge.svg?event=push&amp;branch=master[ci-link]: https://github.com/davidkyalo/basi/actions?query=workflow%3ACI%2FCD+event%3Apush+branch%3Amaster[codecov-image]: https://codecov.io/gh/davidkyalo/basi/branch/master/graph/badge.svg[codecov-link]: https://codecov.io/gh/davidkyalo/basiSee this release on GitHub: [v0.6.3](https://github.com/davidkyalo/basi/releases/tag/0.6.3)</longdescription>
+</pkgmetadata>

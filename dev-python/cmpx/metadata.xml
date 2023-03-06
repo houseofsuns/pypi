@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># PythonComplexA package for different operations on complex numbers.## More details- This package is essentially for mathematical operations on complex numbers.- It is very easy and intuitif to use, as any mathematicain would expect.- There is more to come on this class, like power of complex numbers.## InstallationUse the package manager [pip](https://pypi.org/project/cmpx/) to install cmpx.```bashpip install cmpx```## TutorialYou can follow this [tutorial](https://github.com/Omar-Belghaouti/PythonComplex/blob/master/cmpx%20tutorial.ipynb) to learn more about this package.## ContributingPull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.Please make sure to update tests as appropriate.</longdescription>
+</pkgmetadata>

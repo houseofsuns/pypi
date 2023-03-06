@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># globsterspython &amp; rust globstersglob + lobster + rs (rs) = globsters```pythonfrom globsters import globster# singlematcher_1 = globster(&quot;**/*.py&quot;)assert matcher_1(&quot;foo/bar/baz.py&quot;)  # Trueassert not matcher_1(&quot;foo/bar/baz.pyc&quot;)  # False# single case insensitivematcher_2 = globster(&quot;**/*.py&quot;, case_insensitive=True)assert matcher_2(&quot;foo/bar/baz.PY&quot;)  # True# multi (also works with negation)matcher_3 = globster([&quot;*.py&quot;, &quot;*.txt&quot;])assert matcher_3(&quot;foo/bar/baz.py&quot;)  # Trueassert matcher_3(&quot;foo/bar/baz.txt&quot;)  # Trueassert not matcher_3(&quot;foo/bar/baz.pyc&quot;)  # False# multi negation (also works with case insensitive)matcher_4 = globster([&quot;*.py&quot;, &quot;!__init__.py&quot;])assert matcher_4(&quot;foo/bar/baz.py&quot;)  # Trueassert not matcher_4(&quot;foo/bar/__init__.py&quot;)  # False```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>==========esptool.py==========A Python-based, open-source, platform-independent utility to communicate with the ROM bootloader in Espressif chips.The esptool.py project is `hosted on github &lt;https://github.com/espressif/esptool&gt;`_.Documentation-------------Visit online `esptool documentation &lt;https://docs.espressif.com/projects/esptool/&gt;`_ or run ``esptool.py -h``.Contributing------------Please see the `contributions guide &lt;https://docs.espressif.com/projects/esptool/en/latest/contributing.html&gt;`_.</longdescription>
+</pkgmetadata>

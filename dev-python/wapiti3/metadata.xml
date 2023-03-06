@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Wapiti allows you to audit the security of your web applications.It performs &quot;black-box&quot; scans, i.e. it does not study the source code of theapplication but will scans the webpages of the deployed webapp, looking forscripts and forms where it can inject data.Once it gets this list, Wapiti acts like a fuzzer, injecting payloads to seeif a script is vulnerable.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># NeedleNavigating nested structures easily.## DescriptionThe idea behind this package is to provide a simple interface allowing to &quot;flatten&quot; nested structures into a plain table where each key is represented as a fully qualified name that leads to a certain field in thestructure. It is especially useful when dealing with complex configuration objects that are merged into onefrom several files or container, and include very long keys that aren't easily visualized via pretty printing.## FunctionalityThe package's goal is to provide a simple interface for navigating configurations right in the terminal whiledebugging an executed script. It provides two basic high-level functions:```pythonfrom needle import search, viewobj = { ... }  # some nested object# parsing keys (with optional depth limitation)s = search(obj, max_depth=3)  print(s.top.flat_keys)   # all keys available on the topmost levels.subsearch(&quot;dataset&quot;)   # navigating to the &quot;dataset&quot; subsectionprint(s.top.flat_keys)   # now, the &quot;dataset&quot; subsection is on the top of the stackview(obj)                # starts an interactive mode as showed below ```## Showcase![](https://raw.githubusercontent.com/devforfu/needle/main/docs/quick_example.gif)## Why?The author of this package encountered a problem of navigating a deeply nested objects often enough to botherwriting a dedicated package that (in his opinion) should simplify that endeavor.</longdescription>
+</pkgmetadata>

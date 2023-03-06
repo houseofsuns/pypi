@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># bominade (b8)**Vim-based IDE**Bominade is the successor to a8 and PIDA. It is an extremely light-weight IDEbased on NeoVim, a file browser and a terminal emulator. It is currently inheavy development but I use it every day.For all information, check out the website at [bominade.dev](https://bominade.dev)## Obligatory screenshotThis is what we mean...![Bominade screenshot](https://gitlab.com/afshar-oss/b8/-/raw/dev/dev/screenshot.png)## LicenseMIT LicenseCopyright (c) 2020 Ali Afshar Open Source SoftwarePermission is hereby granted, free of charge, to any person obtaining a copyof this software and associated documentation files (the &quot;Software&quot;), to dealin the Software without restriction, including without limitation the rightsto use, copy, modify, merge, publish, distribute, sublicense, and/or sellcopies of the Software, and to permit persons to whom the Software isfurnished to do so, subject to the following conditions:The above copyright notice and this permission notice shall be included in allcopies or substantial portions of the Software.THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS ORIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THEAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHERLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THESOFTWARE.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>PysparkRPC |teststatus|========================.. |teststatus| image:: https://github.com/abronte/PysparkRPC/workflows/Tests/badge.svgSeamlessly run Pyspark code on remote clusters.</longdescription>
+</pkgmetadata>

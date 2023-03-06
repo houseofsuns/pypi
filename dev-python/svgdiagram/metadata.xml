@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># SVG DiagramLibrary for creating `*.svg` diagrams (Gantt, Network, GitBranching)with also eports available to `*.png`, `*.eps`, `*.ps` (through `cariosvg`).The library uses its own library for creating the `*.svg` files.## Install```pip install svgdiagram```## Diagrams### GanttThe creation of a Gantt chart is controlled trough a dictionary / json file.Executing the script```pyfrom svgdiagram import Ganttcontent = {    &quot;swimlanes&quot;: [        {            &quot;name&quot;: &quot;releases&quot;,            &quot;milestones&quot;: [                {                    &quot;name&quot;: &quot;candidate&quot;,                    &quot;due_date&quot;: &quot;2022-09-02&quot;,                },                {                    &quot;name&quot;: &quot;release&quot;,                    &quot;due_date&quot;: &quot;2022-09-08&quot;,                },            ],            &quot;tasks&quot;: [                {                    &quot;name&quot;: &quot;bugfix&quot;,                    &quot;start_date&quot;: &quot;2022-09-02&quot;,                    &quot;end_date&quot;: &quot;2022-09-08&quot;,                }            ]        }    ]}gantt = Gantt(content)gantt.write_svg('readme/images/simple_gantt.svg')```results in the following Gantt chart:![Simple Gantt](https://raw.githubusercontent.com/MatthiasRieck/svgdiagram/main/readme/images/simple_gantt.svg)</longdescription>
+</pkgmetadata>

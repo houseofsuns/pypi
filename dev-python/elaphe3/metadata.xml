@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>======Elaphe======Elaphe is a python binding of Barcode Writer In Pure PostScript(http://www.terryburton.co.uk/barcodewriter/).It generates barcode symbol as PostScript code fragment usingBWIPP. The generated code is then embedded in encapsulatedPostScript image which can be handled by PIL.Prerequisites==============* Python 2.7 or later (functional decorators, ternary operator, and   generator expressions are used).  .. note::    Except ``setup.py test``, code may still work on 2.5-2.6.    * If you want to render barcode into bitmap image, EpsImagePlugin of  Python Imaging Library (http://www.pythonware.com/products/pil) or  Pillow is required. Note that EpsImagePlugin requires Ghostscript is  correctly installed.Simple Usage=============The following example::  &gt;&gt;&gt; from elaphe import barcode  &gt;&gt;&gt; barcode('qrcode',  ...         'Hello Barcode Writer In Pure PostScript.',  ...         options=dict(version=9, eclevel='M'),   ...         margin=10, data_mode='8bits'))   # Generates PIL.EpsImageFile instance  &lt;PIL.EpsImagePlugin.EpsImageFile ... at ...&gt;  &gt;&gt;&gt; _.show() # Show rendered bitmapwill invoke some viewer which shows a QRcode symbol with 10px margin.Remember, barcode() returns PIL image object.0.2.0 (2017-05-03)------------------- Update to BWIPP to 2017-04-04.- Update trove0.1.1 (2016-05-25)------------------- Fix packaging.- Switch to zest.releaser.0.1.0 (2016-05-24)------------------- First version of elaphe3 that can be installed from PyPI</longdescription>
+</pkgmetadata>

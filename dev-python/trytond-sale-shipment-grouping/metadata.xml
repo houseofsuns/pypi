@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Sale Shipment Grouping Module#############################The ``sale_shipment_grouping`` module adds an option to define how stock movesgenerated from sales will be grouped.A field is added to the *Party*:- *Sale Shipment Grouping Method*: The method used when grouping stock moves.If the Standard method is used, stock moves generated will be added to thefirst matching shipment found. If no shipment matches sale attributes then anew one will be created.</longdescription>
+</pkgmetadata>

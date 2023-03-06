@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ScoutrScoutr was built as a means to provide a simple way to put an API in front of a NoSQL backend and ensure full role-based access control (RBAC) integration with audit logging.A Golang implementation is available at https://github.com/MichaelPalmer1/scoutr-go.## DocumentationDocumentation is available at [https://geskunkworks.github.io/scoutr/](https://geskunkworks.github.io/scoutr/).</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># tntnPython wrapper library for tunneling appsThe main purpose is for use in my other project [Bing-su/sd-webui-tunnels](https://github.com/Bing-su/sd-webui-tunnels).---## Usage```sh❯ tntn --helptntn: Python wrapper library for tunneling appsUsage: tntn &lt;app_name&gt; &lt;args&gt;``````sh❯ tntn jprq --helpUsage: jprq &lt;command&gt; [arguments]Commands:  auth &lt;token&gt;               Set authentication token from jprq.io/auth  tcp &lt;port&gt;                 Start a TCP tunnel on the specified port  http &lt;port&gt;                Start an HTTP tunnel on the specified port  http &lt;port&gt; -s &lt;subdomain&gt; Start an HTTP tunnel with a custom subdomain  --help                     Show this help message  --version                  Show the version number```see [jprq](https://github.com/azimjohn/jprq)```sh❯ tntn bore --helpA modern, simple TCP tunnel in Rust that exposes local ports to a remote server, bypassing standard NAT connection firewalls.Usage: bore.exe &lt;COMMAND&gt;Commands:  local   Starts a local proxy to the remote server  server  Runs the remote proxy server  help    Print this message or the help of the given subcommand(s)Options:  -h, --help     Print help information  -V, --version  Print version information```see [bore](https://github.com/ekzhang/bore)</longdescription>
+</pkgmetadata>

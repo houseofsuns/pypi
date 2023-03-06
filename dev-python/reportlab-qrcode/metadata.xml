@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>reportlab-qrcode================reportlab-qrcode implements a QR code flowable for the ReportLab PDF libraryusing the [qrcode package](https://pypi.org/project/qrcode/).Installation------------reportlab-qrcode can be installed via pip:    pip install reportlab-qrcodeUsage-----Simply use the *QRCodeImage* class with your data. All non-recognized keywordarguments will be passed to the *qrcode.QRCode* class from the qrcode package.    from reportlab.lib.units import mm    from reportlab.pdfgen.canvas import Canvas    from reportlab_qrcode import QRCodeImage    doc = Canvas('simple.pdf')    qr = QRCodeImage('Some data here', size=30 * mm)    qr.drawOn(doc, 0, 0)    doc.showPage()    doc.save()For further examples, including setting fill and back colors, QR code size,error correction level, as well as using the QR code as ReportLab Flowableobject, see the [examples directory](https://github.com/hprid/reportlab-qrcode/tree/master/examples).Maintenance note----------------This package is considered completed. So please do not wonder if you see nofurther commits. Despite the lack of new commits, this package is stillmaintained, i. e., I plan to keep this package compatible with the newestPython, qrcode and ReportLab version. If you find a bug, please open an issuein the issue tracker.License-------reportlab-qrcode is licensed under the MIT license. See LICENSE file fordetails.</longdescription>
+</pkgmetadata>

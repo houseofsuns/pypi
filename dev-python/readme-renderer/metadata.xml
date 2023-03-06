@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Readme Renderer===============.. image:: https://badge.fury.io/py/readme-renderer.svg    :target: https://badge.fury.io/py/readme-renderer.. image:: https://github.com/pypa/readme_renderer/actions/workflows/ci.yml/badge.svg    :target: https://github.com/pypa/readme_renderer/actions/workflows/ci.ymlReadme Renderer is a library that will safely render arbitrary``README`` files into HTML. It is designed to be used in Warehouse_ torender the ``long_description`` for packages. It can handle Markdown,reStructuredText (``.rst``), and plain text... _Warehouse: https://github.com/pypa/warehouseCheck Description Locally-------------------------To locally check whether your long descriptions will render on PyPI, firstbuild your distributions, and then use the |twine check|_ command.Code of Conduct---------------Everyone interacting in the readme_renderer project's codebases, issue trackers,chat rooms, and mailing lists is expected to follow the `PSF Code of Conduct`_... |twine check| replace:: ``twine check``.. _twine check: https://packaging.python.org/guides/making-a-pypi-friendly-readme#validating-restructuredtext-markup.. _PSF Code of Conduct: https://github.com/pypa/.github/blob/main/CODE_OF_CONDUCT.md</longdescription>
+</pkgmetadata>

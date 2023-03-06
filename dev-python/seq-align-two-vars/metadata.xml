@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># seq_align_two_vars## General infoThis project is created by Jeffrey Cai under supervised by Nathan Ryan, Professor in Mathematics department of Bucknell University.  It is used to align sequences with non-uniform varaibales like time or distance. It is based on the idea of Alexandar Murph(https://github.com/cran/sawnuti). We implemented his method in this python package and not only to analysis non-uniform time intervals, but including analysis of more than one varaibles like both time and dis.## TechnologiesProject is created with:* numpy version: 1.22.4* pandas version: 1.5.0* matplotlib version: 3.6.0* networkx version: 3.0* scipy version: 1.10.0* sklearn version: 1.2.1## Data import:1. use make_sample2. read in datafile3. input networks, generate random walk data## SetupTo run this project, install it locally using pip install:```$ pip install seq-align-two-vars```## Reference guideSee https://caidog1129.github.io/seq_align_two_vars/seq_align_two_vars.html</longdescription>
+</pkgmetadata>

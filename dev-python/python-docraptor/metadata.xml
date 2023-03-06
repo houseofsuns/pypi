@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>python-docraptor================.. image:: https://travis-ci.org/jkeyes/python-docraptor.png?branch=master    :target: https://travis-ci.org/jkeyes/python-docraptorpython-docraptor is an MIT Licensed wrapper for the docraptor API.Synchronous Example-------------------.. code-block:: pycon    from docraptor import DocRaptor    docraptor = DocRaptor()    with open(&quot;test.pdf&quot;, &quot;wb&quot;) as f:        f.write(docraptor.create({            'document_content': '&lt;p&gt;python-docraptor Test&lt;/p&gt;',             'test': True        }).content)Asynchronous Example--------------------.. code-block:: pycon    import time    from docraptor import DocRaptor    docraptor = DocRaptor()    resp = docraptor.create({        'document_content': '&lt;p&gt;python-docraptor Async Test&lt;/p&gt;',         'test': True,         'async': True     })    status_id = resp['status_id']    resp = docraptor.status(status_id)    while resp['status'] != 'completed':        time.sleep(3)        resp = docraptor.status(status_id)        with open(&quot;test_async.pdf&quot;, &quot;wb&quot;) as f:        f.write(docraptor.download(resp['download_key']).content)Installation------------To install python-docraptor, simply:.. code-block:: bash    $ pip install python-docraptor</longdescription>
+</pkgmetadata>

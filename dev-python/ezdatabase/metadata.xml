@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ezdatabase## Making Databases easierEzDatabase is a simple Database Wrapper for Python! Inspired by Repl.it Database!It can be used like a Python List## Features- Works with a Key / Value System- Can store strings, numbers, booleans, bytes## Code Examples- Initialize Database##```pythonfrom ezdatabase import dbdatabase = db(&quot;MyDatabase.db&quot;)# Returns None```- Set / Update Value of a Key##```python# Arguments: key_name, key_valuedatabase[&quot;User1&quot;] = {&quot;age&quot;: 10, &quot;name&quot;: &quot;John&quot;}database[&quot;21398&quot;] = &quot;10,30 EUR&quot;database[&quot;online&quot;] = True# Returns True on Success```- Read the Value of a Key##```pythonvalue = database[&quot;User1&quot;]# Returns the Value of a Key```- Delete a Key##```pythondel database[&quot;User1&quot;]# Returns True on Successful removal of the Key```##- Iterate through the Keys of the Database```pythonfor x in database:    print(x)```Change Log==========1.6 (02/12/2021)-------------------- Usage Updated- Made Database Iterable- Documentation Updated</longdescription>
+</pkgmetadata>

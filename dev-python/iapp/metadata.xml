@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;h1 align = &quot;center&quot;&gt;:rocket: App :facepunch:&lt;/h1&gt;---## Install```bashpip install iapp -U```## Usage- Rest Api```pythonimport jiebafrom iapp import Apppred1 = lambda **kwargs: kwargs['x'] + kwargs['y']pred2 = lambda x=1, y=1: x - ypred3 = lambda text='小米是家不错的公司': jieba.lcut(text)app = App(verbose=True)app.add_route(&quot;/&quot;, pred1, result_key='result')app.add_route(&quot;/f1&quot;, pred1, version=&quot;1&quot;)app.add_route(&quot;/f2&quot;, pred2, version=&quot;2&quot;)app.add_route(&quot;/f3&quot;, pred3, version=&quot;3&quot;)app.run()```- Scheduler```pythonfrom iapp.scheduler import Scheduler    def task1(x):        print(x)        import logging        import time        logging.warning(f'Task1: {time.ctime()}')    def task2():        import logging        import time        logging.warning(f'Task2: {time.ctime()}')    def task3():        return 1 / 0    def my_listener(event):        if event.exception:            print(event.traceback)            print('任务出错了！！！！！！')        else:            print('任务照常运行...')    scheduler = Scheduler()    scheduler.add_job(task1, 'interval', seconds=3, args=('定时任务',))    scheduler.add_job(task2, 'interval', seconds=5)    scheduler.add_job(task3, 'interval', seconds=1)    scheduler.add_listener(my_listener)    scheduler.start()    while 1:        pass```</longdescription>
+</pkgmetadata>

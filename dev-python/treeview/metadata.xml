@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># treeviewtreeview is a simple folder structure viewer.## InstallationUse the package manager [pip](https://pip.pypa.io/en/stable/) to install treeview.```bashpip install treeview```## Usage```bashtreeview [TYPE t g] [PATH TO JSON] [NAME OF TREE] [OUTPUT FOLDER]```where:  t for text-based output  g for graph-based output## License[MIT](https://choosealicense.com/licenses/mit/)</longdescription>
+</pkgmetadata>

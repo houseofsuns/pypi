@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>medspacy-io------------medspacy-io is a collection of modules to facilitate reading text from various sources and writing to various sources.Installation------------    pip install medspacy-ioHow to use------------Please refer to the samples in the tests.A Colab notebook demo is available at:https://colab.research.google.com/drive/12EBOaKej9uPmGAb5dV2oB1goEWrwXjSD</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>WXMPlot provides advanced wxPython widgets for plotting and image displayof scientific data based on matplotlib. While matplotlib provides excellentgeneral purpose plotting functionality and supports many GUI and non-GUIbackends it does not have a very tight integration with any particular GUItoolkit. With a large number of plotting components and options, it is noteasy for programmers to select plotting options for every stuation and noteasy for end users to manipulate matplotlib plots.  Similarly, whilewxPython has some plotting functionality, it has nothing as good orcomplete as matplotlib. The WXMPlot package attempts to bridge that gap.With the plotting and image display Panels and Frames from WXMPlot,programmers are able to provide plotting widgets that make it easy for endusers to customize plots and interact with their data.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/tandav/dagops)# dagopsdag/task runner## install### install from [pypi](https://pypi.org/project/dagops/)```shpip install dagops```### or install the latest version from github```shpip install git+https://github.com/tandav/dagops```### development```shpip install -e .[dev]```</longdescription>
+</pkgmetadata>

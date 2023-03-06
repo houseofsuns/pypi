@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># nexio-behaveThe Nexio BehaveFeatures:- &lt;!-- list of features --&gt;Table of Contents:- [Installation](#installation)- [Guide](#guide)- [Development](#development)## Installationnexio-behave requires Python 3.9 or above.```bashpip install nexio-behave# orpoetry add nexio-behave```## Guide&lt;!-- Subsections explaining how to use the package --&gt;## DevelopmentTo develop nexio-behave, install dependencies and enable the pre-commit hook:```bashpip install pre-commit poetrypoetry installpre-commit install -t pre-commit -t pre-push```To run tests:```bashpoetry run pytest```</longdescription>
+</pkgmetadata>

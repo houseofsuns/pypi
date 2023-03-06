@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![NPM version](https://badge.fury.io/js/cdk-lambda-extensions.svg)](https://badge.fury.io/js/cdk-lambda-extensions)[![PyPI version](https://badge.fury.io/py/cdk-lambda-extensions.svg)](https://badge.fury.io/py/cdk-lambda-extensions)![Release](https://github.com/pahud/cdk-lambda-extensions/workflows/Release/badge.svg)# cdk-lambda-extensionsAWS CDK construct library that allows you to add any [AWS Lambda Extensions](https://docs.aws.amazon.com/lambda/latest/dg/using-extensions.html) to the Lambda functions.# SampleTo add `s3-logs-extension-demo` extension from the [aws-lambda-extensions](https://github.com/aws-samples/aws-lambda-extensions) github repository:```python# Example automatically generated from non-compiling source. May contain errors.# prepare the s3 bucket for the lambda logsbucket = s3.Bucket(self, &quot;DemoBucket&quot;)# prepare the Functionfn = Function(self, &quot;Handler&quot;, {    &quot;code&quot;: lambda_.Code.from_asset(path.join(__dirname, &quot;../aws-lambda-extensions/s3-logs-extension-demo/functionsrc&quot;)),    &quot;runtime&quot;: lambda_.Runtime.PYTHON_3_8,    &quot;handler&quot;: &quot;lambda_function.lambda_handler&quot;,    &quot;memory_size&quot;: 128,    &quot;environment&quot;: {        &quot;S3_BUCKET_NAME&quot;: bucket.bucket_name    }})bucket.grant_write(fn)# plug the `s3-logs-extension` in the lambda functionfn.add_extension(S3LogsExtension(self, &quot;S3BucketExtention&quot;).extension)```</longdescription>
+</pkgmetadata>

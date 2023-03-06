@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>aioeventlet implements the asyncio API (PEP 3156) on top of eventlet. It makespossible to write asyncio code in a project currently written for eventlet.aioeventlet allows to use greenthreads in asyncio coroutines, and to useasyncio coroutines, tasks and futures in greenthreads: see ``link_future()``and ``wrap_greenthread()`` functions.The main visible difference between aioeventlet and trollius is the behaviourof ``run_forever()``: ``run_forever()`` blocks with trollius, whereas it runsin a greenthread with aioeventlet. It means that aioeventlet event loop can runin an greenthread while the Python main thread runs other greenthreads inparallel.* `aioeventlet documentation &lt;http://aioeventlet.readthedocs.org/&gt;`_* `aioeventlet project in the Python Cheeseshop (PyPI)  &lt;https://pypi.python.org/pypi/aioeventlet&gt;`_* `aioeventlet project at Bitbucket &lt;https://bitbucket.org/haypo/aioeventlet&gt;`_* Copyright/license: Open source, Apache 2.0. Enjoy!</longdescription>
+</pkgmetadata>

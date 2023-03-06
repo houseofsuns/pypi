@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># glglueThe glue code which mediates between OpenGL and some GUI.GUI イベント(resize, mouse, keyboard, repaint) を OpenGL に橋渡しする。```                           GUI                         OpenGL controller+--------+                   +------------+| win32  |--window resize---&gt;| Update     || glut   |--mouse input-----&gt;| Update     || sdl    |--keyboard input--&gt;| Update     || pyside6|                   |            || gtk3   |--repaint---------&gt;| Draw       || gtk4   |                   +------------++--------+```And OpenGL utilities.## Requirements* Python 3.10## Site* &lt;https://ousttrue.github.io/glglue/&gt;* &lt;https://pypi.python.org/pypi/glglue/&gt;</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>========Overview========Simple Python-based setuid+setgid+setgroups+exec. A port of https://github.com/tianon/gosu* Free software: BSD licenseInstallation============::    pip install pysuDocumentation=============Usage: pysu [-h] user[:group] commandChange user and exec command.positional arguments:  user  commandoptional arguments:  -h, --help  show this help message and exitDevelopment===========To run the all tests run::    toxChangelog=========0.2.0 (2016-05-06)------------------* Allow using &quot;:group&quot; as argument, just like ``gosu`` (it will use the current user, but with the given group).0.1.0 (2016-04-19)------------------* First release on PyPI.</longdescription>
+</pkgmetadata>

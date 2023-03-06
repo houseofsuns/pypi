@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>MAVENN------MAVENN is a Python package for inferring quantitative models of sequence-functionrelationships from multiplexed assays of variant effects. MAVENN currently implements global epistasis regression and noise agnostic regression.Please see 'https://mavenn.readthedocs.io' for additional details.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># wasp_mapUtilites for the mapping pipeline from [WASP](https://github.com/bmvdgeijn/WASP)## Installation**Step 0 (optional):** If you wish to specify the locations of the Anaconda3and/or WASP installations, you can do so through the environment variables`WASP_MAP_ANACONDA_DIR` and `WASP_MAP_DIR`. For example, you could append thisto your `.bash_profile`:```shexport WASP_MAP_ANACONDA_DIR=~/anaconda3export WASP_MAP_DIR=~/WASP```If these environment variables point to already-existing installations ofAnaconda3 and WASP, respectively, then you can skip step 2 (running`wasp_map-download`).If you also set environment variable `LD_LIBRARY_PATH` appropriately, you canskip step 3 (running `wasp_map-set-ldlib`). For example:```shexport WASP_MAP_ANACONDA_DIR=~/anaconda3export WASP_MAP_DIR=~/WASPexport LD_LIBRARY_PATH=${WASP_MAP_ANACONDA_DIR}/lib:$LD_LIBRARY_PATH```**Step 1:** install the python package via `pip3`:```shpip3 install wasp_map```or```shpip3 install --user wasp_map```**Step 2:** Once the python package is installed, run```shwasp_map-download```and follow the prompts. Anaconda3 and/or WASP will be installed, if necessary.**Step 3:** Next, run```shwasp_map-set-ldlib```and follow the instruction. It will be something like:```Run the following `export` command, or append it to your .bashrc, .profile, or .bash_profile:export LD_LIBRARY_PATH=/home/aaylward/.local/lib/python3.6/site-packages/wasp_map/anaconda3/lib:$LD_LIBRARY_PATH```</longdescription>
+</pkgmetadata>

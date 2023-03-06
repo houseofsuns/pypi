@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pylinkvalidator is a simple crawler that traverses a web sites and reportserrors (e.g., 500 and 404 errors) encountered. The crawler can try to downloadresources like images.</longdescription>
+</pkgmetadata>

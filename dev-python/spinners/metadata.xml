@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>More than 60 spinners for terminal, this is python port of amazing node library cli-spinners. Find the documentation here: https://github.com/manrajgrover/py-spinners.</longdescription>
+</pkgmetadata>

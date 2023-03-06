@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># np_config### *For use on internal Allen Institute network*Fetch configs from ZooKeeper nodes or .yaml/.json files:```pythonimport np_configzk_config: dict[str, str | int] = np_config.from_zk('/rigs/NP.1')file_config: dict[str, Any] = np_config.from_file('local_config.yaml')```If running on a machine attached to a Mindscope Neuropixels rig (`NP.0`, ..., `NP.3`), get rig-specific config info with:```pythonrig = np_config.Rig()name: str = rig.id                            # &quot;NP.1&quot;index: int = rig.idx                          # 1acquisition_pc_hostname: str = rig.acq        # &quot;W10DT713843&quot;config: dict[str, str | int] = rig.config     # specific to NP.1paths: dict[str, pathlib.Path] = rig.paths    # using values from rig.config```If not running on a rig-attached machine, get the config for a particular rig by supplying rig-index as an `int` to `Rig`:```pythonnp1 = np_config.Rig(1)np1_mvr_data_root: pathlib.Path = np.paths['MVR']```***- the Mindscope ZooKeeper server is at `eng-mindscope:2181`- configs can be added via ZooNavigator webview:  [http://eng-mindscope:8081](http://eng-mindscope:8081)- or more conveniently, via an extension for VSCode such as [gaoliang.visual-zookeeper](https://marketplace.visualstudio.com/items?itemName=gaoliang.visual-zookeeper)</longdescription>
+</pkgmetadata>

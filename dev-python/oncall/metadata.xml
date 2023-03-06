@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Oncall [![Gitter chat](https://badges.gitter.im/irisoncall/Lobby.png)](https://gitter.im/irisoncall/Lobby) [![Build Status](https://circleci.com/gh/linkedin/oncall.svg?style=shield)](https://circleci.com/gh/linkedin/oncall)======&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://github.com/linkedin/oncall/raw/master/docs/source/_static/demo.png&quot; width=&quot;600&quot;&gt;&lt;/p&gt;See [admin docs](http://oncall.tools/docs/admin_guide.html) for information onhow to run and manage Oncall.Development setup-----------------### Prerequisites  * Debian/Ubuntu - `sudo apt-get install libsasl2-dev python3-dev libldap2-dev libssl-dev python-pip python-setuptools mysql-server mysql-client`### Install```bashpython setup.py developpip install -e '.[dev]'```Setup mysql schema:```bashmysql -u root -p &lt; ./db/schema.v0.sql```Setup app config by editing configs/config.yaml.Optionally, you can import dummy data for testing:```bashmysql -u root -p -o oncall &lt; ./db/dummy_data.sql```### RunOne of the following commands:* `goreman start`* `procman start`* `make serve`* `oncall-dev ./configs/config.yaml`### Test```bashmake test```Check out https://github.com/linkedin/oncall/issues for a list of outstandingissues, and tackle any one that catches your interest. Contributions areexpected to be tested thoroughly and submitted with unit/end-to-end tests; lookin the e2e directory for our suite of end-to-end tests.</longdescription>
+</pkgmetadata>

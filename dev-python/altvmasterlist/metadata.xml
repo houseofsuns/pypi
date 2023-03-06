@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># alt:V Masterlist for PythonYou can use this Package to interface with the alt:V master list API and with the altstats.net API.# Install ```pip install altvmasterlist``` or ```pip3 install altvmasterlist```# Usage```from altvmasterlist import masterlist as altv...or...from altvmasterlist import altstats as altv```# DocsPlease see the Docs [here](https://nickwasused.github.io/altv-python-masterlist/).</longdescription>
+</pkgmetadata>

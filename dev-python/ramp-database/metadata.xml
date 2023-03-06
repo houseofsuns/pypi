@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>RAMP database model===================This package contains the ORM model for the RAMP database.Set up of a PostgreSQL database-------------------------------1. create db directory and initialise the PostgreSQL database::    mkdir postgres_dbs    initdb postgres_dbs2. start the PostgreSQL engine::    pg_ctl -D postgres_dbs -l postgres_dbs/logfile start3. create a user `&lt;db_user&gt;` and set a password `&lt;db_password&gt;`::    createuser --pwprompt &lt;db_user&gt;4. create the database called `&lt;db_name&gt;` for that user::    createdb --owner=&lt;db_user&gt; &lt;db_name&gt;</longdescription>
+</pkgmetadata>

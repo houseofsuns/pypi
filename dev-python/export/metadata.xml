@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># exportControl module exports## AboutThis library dynamically generates an `__all__` attribute for modules## Usage### Private by Default*Does* export objects marked **public**, *doesn't* export everything else```python# lib.pyimport exportexport.init(default=export.PRIVATE)@export.publicdef foo():    passdef bar():    passdef baz():    pass``````python&gt;&gt;&gt; import lib&gt;&gt;&gt; &gt;&gt;&gt; lib.__all__['foo']```### Public by Default*Doesn't* export objects marked **private**, *does* export everything else```python# lib.pyimport exportexport.init(default=export.PUBLIC)def foo():    pass@export.privatedef bar():    pass@export.privatedef baz():    pass``````python&gt;&gt;&gt; import lib&gt;&gt;&gt; &gt;&gt;&gt; lib.__all__['export', 'foo']```</longdescription>
+</pkgmetadata>

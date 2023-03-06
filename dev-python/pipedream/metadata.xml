@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pipedream=========.. contents:: **Table of Contents**    :backlinks: noneInstallation------------pipedream is distributed on `PyPI &lt;https://pypi.org&gt;`_ as a universalwheel and is available on Linux/macOS and Windows and supportsPython 2.7/3.5+ and PyPy... code-block:: bash    $ pip install pipedreamLicense-------pipedream is distributed under the terms of the`MIT License &lt;https://choosealicense.com/licenses/mit&gt;`_.</longdescription>
+</pkgmetadata>

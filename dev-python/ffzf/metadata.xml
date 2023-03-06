@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ffzfFast fuzzy string matching for Python. # Installation ```pip install ffzf```# Usage```python# Find closest string matchingfrom ffzf import closestbest_match = closest(&quot;hello&quot;, [&quot;harps&quot;, &quot;apples&quot;, &quot;jello&quot;])# Find n best matchesfrom ffzf import n_closestbest_matches = n_closest(&quot;hello&quot;, [&quot;harps&quot;, &quot;apples&quot;, &quot;jello&quot;], 2)from ffzf import JAROWINKLER# Specify an algorithm (default is levenshtein distance)best_match = closest(&quot;hello&quot;, [&quot;harps&quot;, &quot;apples&quot;, &quot;jello&quot;], algorithm=JAROWINKLER)# Call algorithm directlyfrom ffzf import levenshtein_distancedist = levenshtein_distance(&quot;hello&quot;, &quot;jello&quot;)# Case sensitive comparison (default is case insensitive)dist = levenshtein_distance(&quot;Hello&quot;, &quot;hello&quot;, case_sensitive=True)best_match = closest(&quot;Hello&quot;, [&quot;harps&quot;, &quot;apples&quot;, &quot;jello&quot;], case_sensitive=True)# Remove whitespace (default is to keep the whitespace in strings)dist = levenshtein_distance(&quot;hello world&quot;, &quot;helloworld&quot;, remove_whitespace=True)# Return scores with closest resultsfrom ffzf import n_closest_with_scorebest_matches = n_closest_with_score(&quot;hello&quot;, [&quot;harps&quot;, &quot;apples&quot;, &quot;jello&quot;], 2)```# Supported Algorithms- Levenshtein Distance (default)- Jaro Similarity (&quot;JARO&quot;)- Jaro-Winkler Similarity (&quot;JAROWINKLER&quot;)- Hamming Distance (&quot;HAMMING&quot;)</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Package Description-------------------ripdb is a wrapper around the IPython debugger that enables one to connect toand control the debugger remotely via a socket handler. It combinesthe functionality of `ipdb &lt;https://github.com/gotcha/ipdb&gt;`_ and `rpdb&lt;https://github.com/tamentis/rpdb&gt;`_ in a single package... image:: https://img.shields.io/pypi/v/ripdb.svg    :target: https://pypi.python.org/pypi/ripdb    :alt: Latest VersionUsage-----After installation, include the following in your code: ::  import ripdb  ripdb.set_trace()This will start the debugger on port 4444 by default; to use a different portinstantiate the debugger as follows: ::  import ripdb  ripdb.set_trace(port=12345)Connect to the debugger using telnet, netcat, or socat. If you want to enable line completion and editing, you need to disable several terminal features before connecting: ::  SAVED_STTY=`stty -g`; stty -icanon -opost -echo -echoe -echok -echoctl   -echoke; nc 127.0.0.1 4444; stty $SAVED_STTYDevelopment-----------The latest release of the package may be obtained from`GitHub &lt;tthps://github.com/lebedov/ripdb&gt;`_.Authors-------See the included `AUTHORS&lt;https://github.com/lebedov/ripdb/blob/master/AUTHORS.rst&gt;`_ file for moreinformation.License-------This software is licensed under the `BSD License&lt;http://www.opensource.org/licenses/bsd-license.php&gt;`_.  See the included`LICENSE &lt;https://github.com/lebedov/ripdb/blob/master/LICENSE.rst&gt;`_ file formore information.</longdescription>
+</pkgmetadata>

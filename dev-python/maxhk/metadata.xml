@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Package with miscelaneous utils## 1 password```pythoncreds = op.get_item(&quot;pypi.org&quot;, [&quot;username&quot;, &quot;password&quot;])# use `creds.username` or `creds.password````## PyPIhttps://pypi.org/project/maxhk/</longdescription>
+</pkgmetadata>

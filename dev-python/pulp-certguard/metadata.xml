@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pulp-certguard==============.. figure:: https://github.com/pulp/pulp-certguard/actions/workflows/nightly.yml/badge.svg?branch=main   :alt: Certguard Nightly CI/CDA Pulp plugin that provides an X.509 capable ``ContentGuard`` for pulpcore. Instances of``X509CertGuard`` are useful for requiring clients to submit a certificate proving their entitlementto content before receiving the content.For more information, please see the `documentation &lt;https://docs.pulpproject.org/pulp_certguard&gt;`_or the `Pulp project page &lt;https://pulpproject.org&gt;`_.</longdescription>
+</pkgmetadata>

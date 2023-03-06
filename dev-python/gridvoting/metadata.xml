@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># gridvotingVoting simulations on a 2D grid of feasible outcomesHelper class and functions for a Markov Chain voting modelbased on a series of status quos and random challenges.**This software is at a pre-release stage and not yet intended for general use.**Inputs:* grid size in 2D -glimit &lt;= x,y &lt;= glimit* utility functions for each voter for each point on the grid* challenger strategy (zi True/False)Outputs:* Markov chain transition matrix* Existence of core (absorbing) points* Stationary distributions (no core)* Diagnostic and distribution plots</longdescription>
+</pkgmetadata>

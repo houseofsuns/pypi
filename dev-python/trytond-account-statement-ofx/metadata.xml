@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Account Statement OFX Module############################The Account statement OFX module implement the import of the `OFX&lt;https://en.wikipedia.org/wiki/Open_Financial_Exchange&gt;`_ file as statement.</longdescription>
+</pkgmetadata>

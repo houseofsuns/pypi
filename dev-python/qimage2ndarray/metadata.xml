@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>qimage2ndarray is a small python extension for quickly convertingbetween QImages and numpy.ndarrays (in both directions).  These arevery common tasks when programming e.g. scientific visualizations inPython using PyQt4 as the GUI library.* Supports conversion of scalar and RGB data, with arbitrary dtypes  and memory layout, with and without alpha channels, into QImages  (e.g. for display or saving using Qt).* qimage2ndarray makes it possible to create ndarrays that are  *views* into a given QImage's memory.  This allows for very efficient data handling and makes it possible  to modify Qt image data in-place (e.g. for brightness/gamma or alpha  mask modifications).* Masked arrays are also supported and are converted into QImages  with transparent pixels.* Supports recarrays (and comes with an appropriate dtype) for  convenient access to RGB(A) channels.* Supports value scaling / normalization to 0..255 for convenient  display of arbitrary NumPy arrays.* qimage2ndarray is stable and unit-tested.</longdescription>
+</pkgmetadata>

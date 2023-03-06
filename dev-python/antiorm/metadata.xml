@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Anti-ORM is not an ORM, and it certainly does not want to be.  Anti-ORM is asimple Python module that provides a pythonic syntax for making it moreconvenient to build SQL queries over the DBAPI-2.0 interface.In practice, if you're the kind of person that likes it to the bare metal, it'salmost as good as the ORMs.  At least there is no magic, and it just works.</longdescription>
+</pkgmetadata>

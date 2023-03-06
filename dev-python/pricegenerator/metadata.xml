@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>See full documentation with examples: https://github.com/Tim55667757/PriceGenerator/blob/master/README.mdTKSBrokerAPI module documentation: https://tim55667757.github.io/PriceGenerator/docs/pricegenerator/PriceGenerator.htmlПодробная документация на русском с примерами: https://github.com/Tim55667757/PriceGenerator/blob/master/README_RU.mdДокументация на модуль PriceGenerator: https://tim55667757.github.io/PriceGenerator/docs/pricegenerator/PriceGenerator.html</longdescription>
+</pkgmetadata>

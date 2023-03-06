@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Welcome!========Xtesting have leveraged on Functest efforts to provide a reference testingframework:  * Requirements Management: https://wiki.opnfv.org/display/functest/Requirements+management  * Docker Slicing: http://testresults.opnfv.org/functest/dockerslicing/  * Functest Framework: http://testresults.opnfv.org/functest/framework/Xtesting aims at allowing a smooth integration of new Functest Kubernetestestcases.But, more generally, it eases building any CI/CD toolchain for otherdomains than testing Virtualized Infrastructure Managers (VIM) such as`OpenStack &lt;https://www.openstack.org/&gt;`_.To learn more about Xtesting:  * Documentation: http://xtesting.readthedocs.io/en/latest/  * Gerrit: https://gerrit.opnfv.org/gerrit/#/q/project:functest-xtestingGet in touch via `email &lt;mailto:opnfv-tech-discuss@lists.opnfv.org&gt;`_.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>tox-run-command===============A tox plugin to run an arbitrary command in a tox managed virtualenv.Example:  ``tox -e py27 --run-command &quot;server --port 8080&quot;``In the example tox will will run ``server --port 8080`` inside of the py27virualenv.Notes:* Any env defined in your tox.ini will work* The env will be created if it doesn't exist (just like tox normally  does)* The commands from your tox.ini will not be run and instead the command  you wanted to run is run* `tox substitutions`_ will also work.  (e.g. ``tox -e py27 --run-command &quot;server --config={homedir}/server.conf&quot;``)Why?----Almost all of the projects I work on use `tox`_ for test automation. Manyof those projects, one such example is `Keystone`_, carry custom Pythonand/or shell scripts to create virtualenvs to run server processes formanual testing. Other projects advise the developer to create a toxvirtualenv by running ``tox -e py27 --notest`` and then running theserver from within that virtualenv like ``.tox/py27/bin/server --port8080``.Both of those options suck. Since I couldn't find a tool that already existedto do this, I created one using the new `tox plugin API`_... _tox: https://testrun.org/tox/latest/.. _Keystone: http://docs.openstack.org/developer/keystone/.. _tox plugin API: https://testrun.org/tox/latest/plugins.html.. _tox substitutions: https://testrun.org/tox/latest/config.html#substitutions</longdescription>
+</pkgmetadata>

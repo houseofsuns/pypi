@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Quick StartUse the [Infura](https://infura.io/) provider plugin to interact with blockchains via APIs.This plugin supports the following ecosystems:- Ethereum- Polygon- Arbitrum- Optimism## Dependencies- [python3](https://www.python.org/downloads) version 3.8 or greater, python3-dev## Installation### via `pip`You can install the latest release via [`pip`](https://pypi.org/project/pip/):```bashpip install ape-infura```### via `setuptools`You can clone the repository and use [`setuptools`](https://github.com/pypa/setuptools) for the most up-to-date version:```bashgit clone https://github.com/ApeWorX/ape-infura.gitcd ape-infurapython3 setup.py install```## Quick UsageFirst, make sure you have one of the following environment variables set (it doesn't matter which one):- WEB3_INFURA_PROJECT_ID- WEB3_INFURA_API_KEYEither in your current terminal session or in your root RC file (e.g. `.bashrc`), add the following:```bashexport WEB3_INFURA_PROJECT_ID=MY_API_TOKEN```To use the Infura provider plugin in most commands, set it via the `--network` option:```bashape console --network ethereum:goerli:infura```To connect to Infura from a Python script, use the `networks` top-level manager:```pythonfrom ape import networkswith networks.parse_network_choice(&quot;ethereum:mainnet:infura&quot;) as provider:    ...```</longdescription>
+</pkgmetadata>

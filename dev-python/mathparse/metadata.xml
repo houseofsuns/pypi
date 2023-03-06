@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>mathparse is a library for solving mathematical equations contained in stringsHome-page: https://github.com/gunthercox/mathparseAuthor: Gunther CoxAuthor-email: gunthercx@gmail.comLicense: MITDescription: UNKNOWNKeywords: mathparsePlatform: anyClassifier: Development Status :: 4 - BetaClassifier: Intended Audience :: DevelopersClassifier: License :: OSI Approved :: MIT LicenseClassifier: Operating System :: OS IndependentClassifier: Topic :: Software Development :: Libraries :: Python ModulesClassifier: Topic :: Scientific/Engineering :: MathematicsClassifier: Topic :: Text Processing :: GeneralClassifier: Topic :: Text Processing :: LinguisticClassifier: Programming Language :: Python</longdescription>
+</pkgmetadata>

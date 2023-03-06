@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>### Machine Learning for Physical Sciences (mlphys)Author: [Sanjaya Lohani](https://sanjayalohani.com)  Email: slohani@mlphys.com### Installation```pip install mlphys```### API* &lt;a href=&quot;https://github.com/slohani-ai/machine-learning-for-physical-sciences/tree/main/mlphys/deepqis&quot;&gt;deepQis&lt;/a&gt;* &lt;a href=&quot;https://github.com/slohani-ai/machine-learning-for-physical-sciences/tree/main/mlphys/lgoam&quot;&gt;LG-OAM Tensors&lt;/a&gt;&lt;!--Thanks to [Brian T. Kirby](https://briankirby.github.io/), [Ryan T. Glasser](http://www.tulane.edu/~rglasser97/), [Sean D. Huver](https://developer.nvidia.com/blog/author/shuver/) and [Thomas A. Searles](https://ece.uic.edu/profiles/searles-thomas/)--&gt;&lt;!--### Follow me:[Twitter](https://twitter.com/slohani_ai) --&gt;</longdescription>
+</pkgmetadata>

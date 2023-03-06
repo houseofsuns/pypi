@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Flask AutoInjectFlask integration to provide separate contexts for each request regardless of the underlying WSGI handler.As of version 1.1.0, you MUST use the `init_app()` functionto properly use `autoinject` with Flask contexts. Previously,the informant was registered automatically. Calling `init_app()` now (as of 2.0.0) uses the new contextvars integration in `autoinject`by wrapping the call to wsgi_app() in an `autoinject.with_contextvars()`decorator. This ensures that injected functions are cleaned up when the callto wsgi_app() ends and prevents any ordering problems in terms of the teardown functions.Note that this module does not provide management of autoinjected variablesoutside of the context of a call to wsgi_app() (essentially from app config push to teardown). Any other management you will need to provide yourself.```pythonimport flaskimport flask_autoinjectapp = flask.Flask(__name__)flask_autoinject.init_app(app)```</longdescription>
+</pkgmetadata>

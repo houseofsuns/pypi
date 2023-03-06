@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># lanms-neoImplements Locality-Aware NMS from [EAST](https://github.com/argman/EAST) that may be used across other frameworks like [mmocr](https://github.com/open-mmlab/mmocr).## Install`pip install lanms-neo`## Use```pythonfrom lanms import merge_quadrangle_n9 as la_nms```</longdescription>
+</pkgmetadata>

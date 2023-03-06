@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>RecBole is developed based on Python and PyTorch for reproducing and developing recommendation algorithms in a unified, comprehensive and efficient framework for research purpose. In the first version, our library includes 53 recommendation algorithms, covering four major categories: General Recommendation, Sequential Recommendation, Context-aware Recommendation and Knowledge-based Recommendation. View RecBole homepage for more information: https://recbole.io</longdescription>
+</pkgmetadata>

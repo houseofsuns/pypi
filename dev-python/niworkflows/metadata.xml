@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>NeuroImaging workflows (NiWorkflows): robust processing tools for MRI data==========================================================================.. image:: https://circleci.com/gh/nipreps/niworkflows/tree/master.svg?style=shield  :target: https://circleci.com/gh/nipreps/niworkflows/tree/master  :alt: CI status.. image:: https://github.com/nipreps/niworkflows/workflows/Python%20package/badge.svg  :target: https://github.com/nipreps/niworkflows/actions  :alt: GitHub Actions.. image:: https://codecov.io/gh/nipreps/niworkflows/branch/master/graph/badge.svg  :target: https://codecov.io/gh/nipreps/niworkflows  :alt: Test coverage*NeuroImaging Workflows (NiWorkflows)* is a selection of image processing workflowsfor magnetic resonance images of the brain. It is designed to provide an easilyaccessible, state-of-the-art interface that is robust to differences in scanacquisition protocols and that requires minimal user input.This open-source neuroimaging data processing tool is being developed as a part ofthe MRI image analysis and reproducibility platform offered by the *NiPreps Community*.**Documentation**: https://www.nipreps.org/niworkflows/</longdescription>
+</pkgmetadata>

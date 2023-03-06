@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># flask-shell-ipythonReplace default `flask shell` command by similar command running IPython.## UsageJust install:    pip install flask-shell-ipythonAnd here are you go:    &gt; flask shell    Python 3.5.1 (default, Mar  3 2016, 09:29:07)    [GCC 5.3.0] on linux    IPython: 5.0.0    App: discharges [debug]    Instance: /home/ei-grad/repos/discharges/instance    In [1]:</longdescription>
+</pkgmetadata>

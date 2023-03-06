@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># SetuxPython framework to install / deploy / maintain local or remote hosts.[PyPI] - [Repo] - [Doc][PyPI]: https://pypi.org/project/setux[Repo]: https://framagit.org/louis-riviere-xyz/setux[Doc]: https://setux.readthedocs.io/en/latest</longdescription>
+</pkgmetadata>

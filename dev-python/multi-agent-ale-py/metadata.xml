@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># The Multi-Agent Arcade Learning Environment## OverviewThis is a fork of the [Arcade Learning Environment (ALE)](https://github.com/mgbellemare/Arcade-Learning-Environment). It is mostly backwards compatible with ALE and it also supports certain games with 2 and 4 players.To install it in Python, please use `pip install multi-agent-ale-py`## Citation```@article{terry2020arcade,  Title = {Multiplayer Support for the Arcade Learning Environment},  Author = {Terry, Justin K and Black, Benjamin},  journal={arXiv preprint arXiv:2009.09341},  year={2020}}```</longdescription>
+</pkgmetadata>

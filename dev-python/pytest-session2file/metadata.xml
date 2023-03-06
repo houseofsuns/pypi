@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pytest-session2file======================pytest-session2file is a py.test plugin that save failure or test session information to a file pass that can beinvoked as at command line when launching py.test run. It put in a file exactly what pytest return to stdout.**Installation**Install it with pip as follow :    pip install pytest-session2file**Usage**Once the plugin is installed edit your `conftest.py` and insert in the top of the file :    pytest_plugins = 'pytest_session2file'Then you can launch your test with the new option `--session2file=` like this :    py.test --session2file=FILENAMEIf you don't want to edit your `conftest.py` you can invoque py.test like this :    py.test -p pytest_session2file --session2file=FILENAMEAt the end of the test execution you should obtain a text file with the content of stdout of py.test under the filenameprovided that look like this :============== test session starts ====================...============== 2 passed in 34.70 seconds ==============**NOTE:** Name has change from pytest-session_to_file to pytest-session2file**TODO:** Write test**Inspire by:** _pytest.pastebin**Ref:** https://github.com/pytest-dev/pytest/blob/master/_pytest/pastebin.py**Platforms:** All**Version:** 0.1.11**Date:** 2021-01-26 13:08:31**License:** LGPLv3 (http://www.gnu.org/licenses/lgpl.html)Copyright (C) 2015 Richard Vézina &lt;ml.richard.vezinar@gmail.com&gt;</longdescription>
+</pkgmetadata>

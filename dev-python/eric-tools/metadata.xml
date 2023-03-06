@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Tools[![License](https://img.shields.io/:license-apache-blue.svg)](https://opensource.org/licenses/Apache-2.0)![latest 1.2.4.1](https://img.shields.io/badge/latest-1.2.4.1-green.svg?style=flat)[Redis](https://eric-jxl.github.io)##### Project management of Python daily tools```shell pip install eric_tools``````https://pypi.org/project/eric_tools/``````encryption_classmethod.py  Python HMAC+MD5加密签名算法exception_class.py  异常类resize_image.py 图片压缩ip.py           ip地址定位APIlogger.py       日志模块类和高级日志装饰器remove.py       删除文件send_email.py   发送邮件sftp.py         ssh远程下载文件pgsql.py        对postgresql 增删改查操作readconfig      针对读取配置文件jwt_encrypt     生成jwt Access Token 加密及解密convert_json    支持json和object之间转换Abstract.py     抽象类模型decorator.py    惰性属性装饰器BingDwenDwen.py  冰墩墩```</longdescription>
+</pkgmetadata>

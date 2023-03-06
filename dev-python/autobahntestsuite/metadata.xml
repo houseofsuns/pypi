@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Twisted-based WebSocket/WAMP protocol implementation test suite.Autobahn|Testsuite provides a fully automated test suite to verify client andserver implementations of the WebSocket protocol.The test suite will check an implementation by doing basic WebSocketconversations, extensive protocol compliance verification andperformance and limits testing.Contains over 500 test cases covering* Framing* Pings/Pongs* Reserved Bits* Opcodes* Fragmentation* UTF-8 Handling* Limits/Performance* Closing Handshake* Opening Handshake (under development)* WebSocket compression (permessage-deflate extension)Besides the automated test suite, wstest also includes a numberof other handy developer tools:* WebSocket echo server and client* WebSocket broadcast server (and client driver)* Testee modes to test Autobahn itself against the test suite* wsperf controller and master (see http://www.zaphoyd.com/wsperf)* WAMP server and client, for developing WAMP implementationsMore information:* http://autobahn.ws/testsuite* https://github.com/crossbario/autobahn-testsuite* http://tools.ietf.org/html/rfc6455* http://wamp.ws</longdescription>
+</pkgmetadata>

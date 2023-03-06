@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ProjectVTTCompilePy is a Python extension built using Cython. It provides streamlined bindings forvarious compilers from Visual TrueType. VTTCompilePy was developed to support a Python based font development environment. In addition to the Python interface,a command line interface is also installed. Usage is available with &quot;vttcompilepy --help&quot;. ### Example```python    import sys     from pathlib import Path    import vttcompilepy as vtt    TESTDATA = Path(__file__).parent / &quot;data&quot;    IN_PATH = TESTDATA / &quot;selawik-variable.ttf&quot;    OUT_PATH = TESTDATA / &quot;out.ttf&quot;    print(bytes(IN_PATH))    print('VTTCompilePy Test Client')    compiler = vtt.Compiler(IN_PATH)    compiler.compile_all()    compiler.save_font(OUT_PATH, vtt.StripLevel.STRIP_NOTHING)```## TrademarksThis project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft trademarks or logos is subject to and must follow [Microsoft's Trademark &amp; Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.Any use of third-party trademarks or logos are subject to those third-party's policies.</longdescription>
+</pkgmetadata>

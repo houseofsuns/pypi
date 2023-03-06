@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>`ccbuilder` can build and install `llvm` and `gcc`.Installation:```pip install [-U] ccbuilder```Usage:```ccbuilder build [compiler] [revision]````compiler` must be either `llvm` or `gcc` and `revision` either a commit hashor a tag.For more options check `cbuilder build -h`.</longdescription>
+</pkgmetadata>

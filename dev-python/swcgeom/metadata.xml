@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># SWC GEOM&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/4.0/&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;[![Release to GitHub](https://github.com/yzx9/swcgeom/actions/workflows/github-publish.yml/badge.svg)](https://github.com/yzx9/swcgeom/releases)[![Release to PyPI](https://github.com/yzx9/swcgeom/actions/workflows/pypi-publish.yml/badge.svg)](https://pypi.org/project/swcgeom/)[![Release to Test PyPI](https://github.com/yzx9/swcgeom/actions/workflows/test-pypi-publish.yml/badge.svg)](https://test.pypi.org/project/swcgeom/)A neuron geometry library for swc format.## UsageSee documents for details.## Development```bash# clone repogit clone git@github.com:yzx9/swcgeom.gitcd swcgeom# install dependenciespython -m pip install --upgrade pippip install build# install editable versionpip install --editable .```Static analysis don't support import hook used in editable install for [PEP660](https://peps.python.org/pep-0660/) since upgrade to setuptools v64+, detail infomation at [setuptools#3518](https://github.com/pypa/setuptools/issues/3518), a workaround for vscode with pylance:```json{    &quot;python.analysis.extraPaths&quot;: [&quot;/path/to/this/project&quot;]}```## LICENSEThis work is licensed under a &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/4.0/&quot;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</longdescription>
+</pkgmetadata>

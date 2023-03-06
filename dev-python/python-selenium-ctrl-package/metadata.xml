@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># python_selenium_ctrlUnder construction! Not ready for use yet! Currently experimenting and planning!Developed by Simon Poon from BuPA (c) 2022Need to work with Seleium framework and pytest# Other Code# Procedure to publish to pypiReference: https://packaging.python.org/en/latest/tutorials/packaging-projects/#configuring-metadata1. Update pyproject.toml2. Install `build` and `twine` python package```shellpython -m pip install build twine```3. Build package```shellpython -m build#dist folder will appear tar.gz &amp; .whl package```4. Publish to pypi (Need to have pypi account)```shellpython -m twine upload dist/*```</longdescription>
+</pkgmetadata>

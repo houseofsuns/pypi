@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># asn_nmapLibrary created with the aim of facilitating the obtaining of ips service status by asnDescription. - The package asn_nmap is used to:- Asn:- get_ips- Nmap: - main ## Requirements- python3.9 or higher- nmap## InstallationUse the package manager [pip](https://pip.pypa.io/en/stable/) to install asn_nmap```bashapt-get install nmap -ypip install asn-nmap```## Usage #### Get information from a asn```pythonfrom asn_nmap.asn import Asnfrom asn_nmap.export import Exportfrom asn_nmap.nmap import Nmaplist_asns = [1251]ports = [80,443]asn = Asn()data = asn.get_ips_by_asns(list_asns)data = {'1251' : ['200.136.0.0/32']} # Subscribing the data manually to testnmap = Nmap()nmap.run_nmap(asn_info=data, port_list=ports, threads_count=1)Export().to_xlsx(destination_file_name='teste')```#### an file will be automatically generated## DocumentationProject documented with [mkdocs](https://www.mkdocs.org/)```bash# Run the command in the root of the projectmkdocs serve```## AuthorEdgar Reis## License[MIT](https://choosealicense.com/licenses/mit/)</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=========Xml Utils=========XML utils for the curator core project.Quick start===========1. Add &quot;xml_utils&quot; to your INSTALLED_APPS setting-------------------------------------------------.. code:: python    INSTALLED_APPS = [      ...      'xml_utils',    ]</longdescription>
+</pkgmetadata>

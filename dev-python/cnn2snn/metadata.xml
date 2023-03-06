@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># CNN2SNN toolkitThe Brainchip CNN2SNN toolkit provides a means to convert Convolutional NeuralNetworks (CNN) that were trained using Deep Learning methods to a low-latency and low-power Spiking Neural Network (SNN) for use with the Akida Runtime.</longdescription>
+</pkgmetadata>

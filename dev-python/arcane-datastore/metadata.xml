@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Arcane DatastoreThis package is based on [google-cloud-datastore](https://pypi.org/project/google-cloud-datastore/).## Get Started```shpip install arcane-datastore```## Example Usage```pythonfrom arcane import datastoreclient = datastore.Client()entity = client.get_entity('kind-id-here', 1)```or```pythonfrom arcane import datastore# Import your configsfrom configure import Configclient = datastore.Client.from_service_account_json(Config.KEY, project=Config.GCP_PROJECT)entity = client.get_entity('kind-id-here', 1)```</longdescription>
+</pkgmetadata>

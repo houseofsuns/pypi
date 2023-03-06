@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## InstallationRun the following to install:```pythonpip install gli99```## Usage```pythonfrom gli99.tools import GifScrapergs = GifScraper(browser=&quot;firefox&quot;)gs.load(query=&quot;brazil&quot;,amount=5)gs.download()```currently supported browsers:* Edge* Chrome* Firefox</longdescription>
+</pkgmetadata>

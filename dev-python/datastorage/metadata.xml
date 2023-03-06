@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>datastorage-----------To use simply do::   &gt;&gt;&gt; from datastorage import DataStorage   &gt;&gt;&gt; data = DataStorage( a=(1,2,3),b=&quot;add&quot;,filename='store.npz' )   &gt;&gt;&gt; # data.a will be a dictionary   &gt;&gt;&gt; data = DataStorage( myinfo = dict( name= 'marco', surname= 'cammarata'),\   &gt;&gt;&gt;                     data   = np.arange(100) )   &gt;&gt;&gt;  # reads from file if it exists   &gt;&gt;&gt;  data = DataStorage( 'mysaveddata.npz' ) ;   &gt;&gt;&gt;  create empty storage (with default filename)   &gt;&gt;&gt;  data = DataStorage()   &gt;&gt;&gt;  data.mynewdata = np.ones(10)</longdescription>
+</pkgmetadata>

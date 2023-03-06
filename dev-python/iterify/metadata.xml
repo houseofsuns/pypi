@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>============iterify============.. image:: https://img.shields.io/pypi/v/iterify.svg        :target: https://pypi.python.org/pypi/iterify.. image:: https://img.shields.io/travis/mmore500/iterify.svg        :target: https://travis-ci.com/mmore500/iterify.. image:: https://readthedocs.org/projects/iterify/badge/?version=latest        :target: https://iterify.readthedocs.io/en/latest/?badge=latest        :alt: Documentation Statusiterify streamlines making one-off iterators over one or a few values* Free software: MIT license* Documentation: https://iterify.readthedocs.io... code-block:: python3  import iterify as itfy  # itfy.iterify  [*itfy.iterify('a')] # -&gt; ['a']  [*itfy.iterify('a', 'b', 'c')] # -&gt; ['a', 'b', 'c']  # itfy.cyclify  [*zip([1, 2, 3], itfy.cyclify('a', 'b'))] # -&gt; [(1, 'a'), (2, 'b'), (3, 'a')]  # itfy.samplify  [*zip(    [1, 2, 3],    itfy.samplify('a', 'b')  )]  # -&gt; [(1, 'a'), (2, 'a'), (3, 'b')]  # or -&gt; [(1, 'b'), (2, 'a'), (3, 'b')]  # or -&gt; [(1, 'b'), (2, 'b'), (3, 'b')]  # etc.  # itfy.shufflify  [*itfy.shufflify('a', 'b')]  # -&gt; ['a', 'b']  # or -&gt; ['b', 'a']Credits-------This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template... _Cookiecutter: https://github.com/audreyr/cookiecutter.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage=======History=======0.0.0 (2022-02-22)------------------* First release on PyPI.</longdescription>
+</pkgmetadata>

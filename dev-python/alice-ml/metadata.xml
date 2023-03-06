@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ALICE - Automated Labeling of Independent Components for EEGThe project aims to develop a sustainable algorithm for EEG IC artifact removal and collect a publically available dataset.Read about out project in the recent [publication](https://www.frontiersin.org/articles/10.3389/fninf.2021.720229/full)`alice-ml` library contains pretrained ML models to label IC. It's compatible with [MNE](https://mne.tools/stable/index.html) library.## Requirements* Python &gt;= 3.7## InstallationCurrently only pip installation is supported```pip install alice-ml```</longdescription>
+</pkgmetadata>

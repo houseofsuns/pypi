@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>fastbencode===========fastbencode is an implementation of the bencode serialization format originallyused by BitTorrent.The package includes both a pure-Python version and an optional C extensionbased on Cython.  Both provide the same functionality, but the C extensionprovides significantly better performance.Example:    &gt;&gt;&gt; from fastbencode import bencode, bdecode    &gt;&gt;&gt; bencode([1, 2, b'a', {b'd': 3}])    b'li1ei2e1:ad1:di3eee'    &gt;&gt;&gt; bdecode(bencode([1, 2, b'a', {b'd': 3}]))    [1, 2, b'a', {b'd': 3}]License=======fastbencode is available under the GNU GPL, version 2 or later.Copyright=========* Original Pure-Python bencoder (c) Petru Paler* Cython version and modifications (c) Canonical Ltd* Split out from Bazaar/Breezy by Jelmer Vernooĳ</longdescription>
+</pkgmetadata>

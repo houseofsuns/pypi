@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># UPF to JSON converterUPF is a file format to describe atomic pseudo-potentials used by (DFT) densityfunctional theory codes. This package provides scripts for converting UPF v1 andUPF v2 (Unified Pseudopotential Format) to json format as required by the SIRIUSDFT library [SIRIUS github](https://github.com/electronic-structure/SIRIUS).More information about the unified pseudopotential format can be found here:https://www.quantum-espresso.org/pseudopotentials/unified-pseudopotential-format</longdescription>
+</pkgmetadata>

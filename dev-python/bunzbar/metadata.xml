@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Bunzbar## System requirements+ Linux system with X.Org display server## Installation### Install Python packageFirst of all you need to install the bunzbar python module.After installing python and pip, use one of the following options to install it.+ pip```bashpip install bunzbar```+ from source```bashpip install build twinegit clone https://gitlab.com/02742/bunzbar.gitcd bunzbar &amp;&amp; python3 -m buildpip install dist/*.whl --force-reinstall```### Add `~/.local/bin` to your `$PATH````bashexport PATH=~/.local/bin:${PATH}echo &quot;export PATH=~/.local/bin:${PATH}&quot; &gt;&gt; ~/.bashrc```### Add `~/.local/bin/bunzbar -d &amp;` to your `~/.xinitrc` file```bashbunzbar -d```## ConfigurationYou can toggle an info in the bar with the following command:```bashbunzbar -it &lt;toogle_name&gt;```To get a list of these names simply execute:```bashbunzbar -il```If you want to change an option in the config file you can do that using:```bashbunzbar -cs &lt;config_option&gt; &lt;value&gt;```Again you can list the available config options using:```bashbunzbar -cl```## Links+ [gitlab](https://gitlab.com/02742/bunzbar/)+ [pypi](https://pypi.org/project/bunzbar/)</longdescription>
+</pkgmetadata>

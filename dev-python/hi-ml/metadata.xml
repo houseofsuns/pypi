@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Microsoft Health Intelligence Machine Learning Toolbox## OverviewThis toolbox aims at providing low-level and high-level building blocks for Machine Learning / AI researchers andpractitioners. It helps to simplify and streamline work on deep learning models for healthcare and life sciences,by providing tested components (data loaders, pre-processing), and deep learning models.## InstallationYou can install the latest version from `pypi` via```consolepip install hi-ml```## DocumentationThe detailed package documentation, with examples and API reference, is on[readthedocs](https://hi-ml.readthedocs.io/en/latest/).## Getting startedExamples that illustrate the use of the `hi-ml` toolbox can be found on[readthedocs](https://hi-ml.readthedocs.io/en/latest/).## ChangelogWe are relying on Github's auto-generated changelog to describe what went into a release. Please check [each individual release](https://github.com/microsoft/hi-ml/releases) to see a full changelog.## Links* Github [https://github.com/microsoft/hi-ml](https://github.com/microsoft/hi-ml)* Project InnerEye [http://aka.ms/InnerEye](http://aka.ms/InnerEye)</longdescription>
+</pkgmetadata>

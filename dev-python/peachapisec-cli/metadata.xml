@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>peachapisec-cli===============This is a command line interface (cli) tool for the Peach API Security product.The cli exposes several commands useful commands availablevia the installed 'peachcli' script.Requirements------------You will need the following prerequisites in order to use: * Peach API Security * Python 2 or 3Installation------------To install:$ python -m pip install peachapisec-cli**From Source**$ python setup.py install**Offline**$ pip install --no-index --find-links ../deps -r requirements.txt$ python setup.py installUsage-----Running 'peachcli' will provide some syntax help. See the Peach API Security User Guide for more information.</longdescription>
+</pkgmetadata>

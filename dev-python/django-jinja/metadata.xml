@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>django-jinja============Simple and nonobstructive jinja2 integration with Django... image:: https://img.shields.io/travis/niwinz/django-jinja.svg?style=flat    :target: https://travis-ci.org/niwinz/django-jinja.. image:: https://img.shields.io/pypi/v/django-jinja.svg?style=flat    :target: https://pypi.python.org/pypi/django-jinja**Documentation:** http://niwinz.github.io/django-jinja/latest/How to install?---------------You can install it with pip:.. code-block:: shell    pip install django-jinjaHow to run tests as a developer-------------------------------Install the Tox automation tool (outside a virtualenv), then.. code-block:: shell    toxTox will create virtualenvs for different interpreter versions and run the test suite.</longdescription>
+</pkgmetadata>

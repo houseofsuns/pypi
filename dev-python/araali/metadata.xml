@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Araali APIThis is a python library to expose access to Araali APIs## Help```# setup a python3 virtualenv to run araali (one time)cd ~/python3 -m venv araaliapienvsource araaliapienv/bin/activatepip install araali# every other time (enter the environment you setup)cd ~/source araaliapienv/bin/activatepip install --upgrade araali# export your api tokenexport ARAALI_API_TOKEN=&quot;&lt;your-token-here&gt;&quot;# usage help - command linepython -m pydoc araalipython -m araali -h# from your code&gt;&gt;&gt; import araali&gt;&gt;&gt; help(araali)```</longdescription>
+</pkgmetadata>

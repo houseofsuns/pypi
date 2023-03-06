@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ypA mapping view to pypi projectsTo install:```pip install yp```# Example UsageGet a mapping of all of ``pypi`` projects.    &gt;&gt;&gt; from yp import Pypi    &gt;&gt;&gt; p = Pypi()The keys of this mapping are the project names. There are lots!    &gt;&gt;&gt; len(p)  # doctest: +SKIP    405120    &gt;&gt;&gt; 'numpy' in p and 'dol' in p    True    &gt;&gt;&gt; 'no_way_this_is_a_package' in p    FalseThe values of the mapping are the corresponding project's info, which is anested dict of good stuff.    &gt;&gt;&gt; info = p['numpy']    &gt;&gt;&gt; list(info)    ['info', 'last_serial', 'releases', 'urls', 'vulnerabilities']Tip: To only get the info you want, you'llThe project info is obtained, live, making requests to the``https://pypi.python.org/pypi/{pkg_name}/json`` API,but the list of all project names is actually taken from a local file.You should update that file regularly (but not TOO regularly!) to be in syncwith pypi.org. To do so, do this:    &gt;&gt;&gt; Pypi.refresh_cached_package_names()  # doctest: +SKIPIf, on the other hand, you don't want all projects of Pypi to be the collectionyou're working with, you can specify what ``user`` they should belong to:    &gt;&gt;&gt; p = Pypi(user='thorwhalen1')    &gt;&gt;&gt; len(p)  # doctest: +SKIP    131You can also explicitly give ``Pypi`` a collection of projects you want to workwith:    &gt;&gt;&gt; p = Pypi(proj_names={'numpy', 'pandas', 'dol'})    &gt;&gt;&gt; len(p)    3You can do a lot more by simply using the tools of ``dol`` to change the mappingyou want to work with in all kinds of ways!</longdescription>
+</pkgmetadata>

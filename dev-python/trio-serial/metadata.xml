@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Serial package for trio=======================This project is an adaption of the `pyserial &lt;https://github.com/pyserial/pyserial/&gt;`__ projectfor `trio &lt;https://github.com/python-trio/trio&gt;`__.Installation------------.. code-block:: console    $ pip install trio-serialDocumentation-------------https://trio-serial.1e8.de/</longdescription>
+</pkgmetadata>

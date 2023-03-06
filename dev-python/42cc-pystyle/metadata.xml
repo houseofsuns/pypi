@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># 42cc-pystyleflake8 plugins for 42 Coffee Cups style checks- 0.0.7flake8 version bump to 3.8.3- 0.0.6fixed flake8 warnings :)- 0.0.5fixed package layout declaration- 0.0.4fixed nosetests- 0.0.3moved code to a subfolder- 0.0.2Added MANIFEST.in- 0.0.1Tests should have docstringsTests for the module could be run via `nosetests` or `python setup.py nosetests`</longdescription>
+</pkgmetadata>

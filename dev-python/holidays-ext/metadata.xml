@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Holidays ExtensionThis repo forks the [Facebook Prophet](https://github.com/facebook/prophet)library, and serve as an extension of the [Python holidays](https://github.com/dr-prodigy/python-holidays)library. The holidays are customized and extended.To use this library, simply do```pythonfrom holidays_ext.get_holidays import get_holidayfrom holidays_ext.get_holidays import get_holiday_dfholidays = get_holiday(    country_list=[&quot;UnitedStates&quot;, &quot;Russia&quot;],    years=[2019, 2020])holidaysholidays_df = get_holiday_df(    country_list=[&quot;UnitedStates&quot;, &quot;China&quot;, &quot;India&quot;],    years=[2018, 2019, 2020, 2021])holidays_df```</longdescription>
+</pkgmetadata>

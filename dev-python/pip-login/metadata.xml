@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pip-loginCommand line interface for logging into a private python repositoryby configuring pip.conf and storing credentials with python keyring.This utilizes the new python keyring feature in pip 19.2.1# UsageTo install:```pip install pip-login```Then just run the following:```pip-login```By default pip login will prompt for `url`, `username` and `password`.The url is what you'd normally pass as an `--extra-index-url`.The username and password will be stored using python keyring and theurl will be added to your pip.conf or pip.ini. If run in a virtualenvit will store the pip.conf in the virtualenv, otherwise it stores itto the per-user location. See the[pip config user guide](https://pip.pypa.io/en/stable/user_guide/#config-file)for more information.Additionally, although not recommended, you can set all of the parametersvia command line arguments (See --help) or by setting the followingenvironment variables.```PIP_LOGIN_REPOSITORYPIP_LOGIN_USERNAMEPIP_LOGIN_PASSWORD```</longdescription>
+</pkgmetadata>

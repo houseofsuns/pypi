@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>==================================SageMaker PyTorch Training Toolkit==================================SageMaker PyTorch Training Toolkit is an open-source library for using PyTorch to train models on Amazon SageMaker.This toolkit depends and extends the base `SageMaker Training Toolkit &lt;https://github.com/aws/sagemaker-training-toolkit&gt;`__ with PyTorch specific support.For inference, see `SageMaker PyTorch Inference Toolkit &lt;https://github.com/aws/sagemaker-pytorch-serving-container&gt;`__.For the Dockerfiles used for building SageMaker PyTorch Containers, see `AWS Deep Learning Containers &lt;https://github.com/aws/deep-learning-containers&gt;`__.For information on running PyTorch jobs on Amazon SageMaker, please refer to the `SageMaker Python SDK documentation &lt;https://github.com/aws/sagemaker-python-sdk&gt;`__.For notebook examples: `SageMaker NotebookExamples &lt;https://github.com/awslabs/amazon-sagemaker-examples&gt;`__.Contributing------------Please read`CONTRIBUTING.md &lt;https://github.com/aws/sagemaker-pytorch-training-toolkit/blob/master/CONTRIBUTING.md&gt;`__for details on our code of conduct, and the process for submitting pullrequests to us.License-------SageMaker PyTorch Training Toolkit is licensed under the Apache 2.0 License. It is copyright 2018 Amazon.com, Inc. or its affiliates. All Rights Reserved. The license is available at:http://aws.amazon.com/apache2.0/</longdescription>
+</pkgmetadata>

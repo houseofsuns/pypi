@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>### Connectors for Discovery Platform ApplicationsThe current version supports 3 kind of API connections: AWS S3, Box, PostgreSQL.The required secret file formats are as follows.- S3 Connector  ```  {    &quot;aws_access_key_id&quot;: &quot;&quot;,    &quot;aws_secret_access_key&quot;: &quot;&quot;  }- Box Connector  ```    {      &quot;boxAppSettings&quot;: {        &quot;clientID&quot;: &quot;&quot;,        &quot;clientSecret&quot;: &quot;&quot;,        &quot;appAuth&quot;: {          &quot;publicKeyID&quot;: &quot;&quot;,          &quot;privateKey&quot;: &quot;&quot;,          &quot;passphrase&quot;: &quot;&quot;          }        },        &quot;enterpriseID&quot;: &quot;&quot;      }- Postgresql Connector  ```  {    &quot;host&quot;: &quot;&quot;,    &quot;port&quot;: 5432,    &quot;database&quot;: &quot;&quot;,    &quot;user&quot;: &quot;&quot;,    &quot;password&quot;: &quot;&quot;  }</longdescription>
+</pkgmetadata>

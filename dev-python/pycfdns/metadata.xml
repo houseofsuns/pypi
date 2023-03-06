@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Update CloudFlare DNS records._Update records in your DNS zone._## Install```bashpython3 -m pip install pycfdns```## Example```python&quot;&quot;&quot;Example usage of pycfdns.&quot;&quot;&quot;import asyncioimport aiohttpfrom pycfdns import CloudflareUpdaterAPI_TOKEN = &quot;5cdba21d55cdba21d55cdba21d5&quot;ZONE = &quot;example.com&quot;UPDATE_RECORDS = [&quot;test&quot;]async def example():    &quot;&quot;&quot;Example usage of pycfdns.&quot;&quot;&quot;    async with aiohttp.ClientSession() as session:        cfupdate = CloudflareUpdater(session, API_TOKEN, ZONE, UPDATE_RECORDS)        zone_id = await cfupdate.get_zone_id()        records = await cfupdate.get_record_info(zone_id)        for record in records:            print(record.record_name)        await cfupdate.update_records(zone_id, records, &quot;127.0.0.1&quot;)asyncio.get_event_loop().run_until_complete(example())```</longdescription>
+</pkgmetadata>

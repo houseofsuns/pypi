@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Django xhtml2pdf################Attention=============================This project is wrapper code between the django project and the xhtml2pdfproject, both have a few maintaining so maybe are not ideal for your project.Please get in touch if you would like to take over maintainership.What it does is simply allow people to create xhtml2pdf templates using all thecool django things like STATIC_URL etc.. (like one would for a webpagetemplate), and the utils function makes all the images and ressources appear inthe pdf.Usage=====Simply do the following::    from django_xhtml2pdf.utils import generate_pdf    def myview(response):        resp = HttpResponse(content_type='application/pdf')        result = generate_pdf('my_template.html', file_object=resp)        return resultClass-based views=================You can use the provided PdfMixin with any view that subclasses TemplateView,example::    from django.views.generic.detail import DetailView    from django_xhtml2pdf.views import PdfMixin    from .models import Product    class ProductPdfView(PdfMixin, DetailView):        model = Product        template_name = &quot;product_pdf.html&quot;It will output the rendered content of the view in pdf.Decorator============Simply do the following::    from django_xhtml2pdf.utils import pdf_decorator    @pdf_decorator    def myview(request):        return render(request, 'mytemplate.html')Change de pdf file name::    from django_xhtml2pdf.utils import pdf_decorator    @pdf_decorator(pdfname='new_filename.pdf')    def myview(request):        return render(request, 'mytemplate.html')</longdescription>
+</pkgmetadata>

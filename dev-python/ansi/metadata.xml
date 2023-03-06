@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>ANSI====Various ANSI escape codes, used in moving the cursor in a text console orrendering coloured text.Example-------Print something in bold yellow on a red background:    &gt;&gt;&gt; from ansi.colour import fg, bg    &gt;&gt;&gt; from ansi.colour.fx import reset    &gt;&gt;&gt; msg = (bg.red, fg.yellow, 'Hello world!', reset)    &gt;&gt;&gt; print(''.join(map(str, msg)))    ...If you like syntactic sugar, you may also do:    &gt;&gt;&gt; from ansi.colour import fg, bg    &gt;&gt;&gt; print(bg.red(fg.yellow('Hello world!')))    ...Also, 256 RGB colours are supported:    &gt;&gt;&gt; from ansi.colour.rgb import rgb256    &gt;&gt;&gt; from ansi.colour.fx import reset    &gt;&gt;&gt; msg = (rgb256(0xff, 0x80, 0x00), 'hello world', reset)    &gt;&gt;&gt; print(''.join(map(str, msg)))    ...If you prefer to use American English instead:    &gt;&gt;&gt; from ansi.color import ...    References----------http://www.ecma-international.org/publications/files/ECMA-ST/Ecma-048.pdfRequirements------------Ansi requires python 3.6 and supports typing.</longdescription>
+</pkgmetadata>

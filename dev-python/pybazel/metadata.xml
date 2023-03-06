@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pybazelA python client for Bazel.## InstallPybazel is available as a [pypi package](https://pypi.org/project/pybazel/).```shellpip install pybazel```## Usage```shellpython -c 'import pybazel; print(pybazel.BazelClient().info())'```</longdescription>
+</pkgmetadata>

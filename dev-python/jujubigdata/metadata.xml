@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Juju Big Data |badge|=====================.. |badge| image:: https://travis-ci.org/juju-solutions/jujubigdata.svg    :target: https://travis-ci.org/juju-solutions/jujubigdataThe `jujubigdata &lt;https://github.com/juju-solutions/jujubigdata&gt;`_ Python library is ancollection of functions and classes for simplifying the development of`Juju Charms &lt;https://juju.ubuntu.com/docs/&gt;`_ for Big Data applications. Itincludes utilities for:* Interacting with Apache Hadoop* Connecting to the core Apache Hadoop `platform bundle &lt;https://jujucharms.com/apache-core-batch-processing/&gt;`_* Reading and writing configuration in various formats* Managing distribution-specific configuration in a generalized, maintainable fashionPlease see the `documentation &lt;http://pythonhosted.org/jujubigdata/&gt;`_ fordetailed information on how to use the Apache Hadoop Juju platform and thislibrary.Contact Information-------------------`bigdata@lists.ubuntu.com &lt;mailto:bigdata@lists.ubuntu.com&gt;`_Resources---------- `Juju Big Data repo &lt;https://github.com/juju-solutions/jujubigdata&gt;`_- `Apache Hadoop &lt;http://hadoop.apache.org/&gt;`_ home page- `Apache Hadoop bug tracker &lt;http://hadoop.apache.org/issue_tracking.html&gt;`_- `Apache Hadoop mailing lists &lt;http://hadoop.apache.org/mailing_lists.html&gt;`_- `Apache Hadoop charms &lt;https://jujucharms.com/q/apache-hadoop&gt;`_- `Juju Big Data bug tracker &lt;https://bugs.launchpad.net/charms/+source/apache-core-batch-processing/+filebug&gt;`_- `Juju mailing list &lt;https://lists.ubuntu.com/mailman/listinfo/juju&gt;`_- `Juju community &lt;https://jujucharms.com/community&gt;`_</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># JSONClasses PymongoJSONClasses integration with Pymongo.## PrerequisitesTo use this package, you should have `jsonclasses` and `pymongo` installed.## InstallationInstall `jsonclasses-pymongo` with `pip`.```shpip install jsonclasses-pymongo```## Documentation[Read the Documentation](https://docs.jsonclasses.com)## License[MIT License](https://github.com/fillmula/jsonclasses-pymongo/blob/master/LICENSE)</longdescription>
+</pkgmetadata>

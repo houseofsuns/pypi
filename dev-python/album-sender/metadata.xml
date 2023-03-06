@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># album_senderTelegram album sender## usage```import album_sender, web_2_albumresult = web_2_album.get(url)album_sender.send_v2(chat, result, rotate=False)```## how to install`pip3 install album_sender`</longdescription>
+</pkgmetadata>

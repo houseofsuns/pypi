@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Python client for Jiggy open source componentspip install jiggyset api key via environment variable: &quot;JIGGY_API_KEY&quot;This is in an experimental form and not suitable for large vector collections or production use cases.</longdescription>
+</pkgmetadata>

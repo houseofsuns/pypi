@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Welcome!========This library contains the components required to integrate anOpenStack deployment with an Arista Networks Converged Cloud Fabric.* Source: https://opendev.org/x/networking-bigswitch* Bugs: https://bugs.launchpad.net/networking-bigswitchExternal Resources:===================Arista Networks Website: http://www.arista.com</longdescription>
+</pkgmetadata>

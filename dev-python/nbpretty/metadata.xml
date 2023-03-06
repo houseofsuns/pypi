@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>nbpretty========nbpretty is a tool to convert sets of notebook files into a single, cohesive set of linked pages.Documentation at https://nbpretty.readthedocs.io</longdescription>
+</pkgmetadata>

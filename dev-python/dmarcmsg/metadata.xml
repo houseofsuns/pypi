@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This is a library which can be used for ListServs which need to be DMARC compliant, and can help build DMARC-compliant messages with origin points of the ListServ itself from original messages that a ListServ would receive.</longdescription>
+</pkgmetadata>

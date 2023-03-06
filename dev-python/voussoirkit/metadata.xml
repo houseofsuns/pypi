@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>voussoirkit===========This is a collection of tools that I use often and import into my other projects.# Install`pip install voussoirkit`## Mirrorshttps://github.com/voussoir/voussoirkithttps://gitlab.com/voussoir/voussoirkithttps://codeberg.org/voussoir/voussoirkit</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Pylint Per File Ignores 😲This pylint plugin will enable per-file-ignores in your project!## Install```# w/ poetrypoetry add --dev pylint-per-file-ignores# w/ pippip install pylint-per-file-ignores```## Add to Pylint SettingsEdit your `pyproject.toml`:```[tool.pylint.MASTER]load-plugins=[    &quot;pylint_per_file_ignores&quot;,    ...]```## UsageAdd a section to your `pyproject.toml` with the patterns and codes you would like to ignore.```[tool.pylint-per-file-ignores]&quot;/folder_1/&quot;=&quot;missing-function-docstring,W0621,W0240,C0115&quot;&quot;file.py&quot;=&quot;C0116,E0001&quot;```## ThanksTo pylint :) And the plugin `pylint-django` who produced most of the complex code.## ContributingThis repo uses commitizen and semantic release. Please commit using `npm run commit` .</longdescription>
+</pkgmetadata>

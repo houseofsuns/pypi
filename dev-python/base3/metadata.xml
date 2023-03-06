@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image:: https://img.shields.io/badge/License-GPL%20v3-blue.svg    :alt: License: GPL v3    :target: https://www.gnu.org/licenses/gpl-3.0.. image:: https://img.shields.io/pypi/pyversions/Django.svg    :alt: python3   :target: https://www.python.org/download/releases/3.0/.. image:: https://img.shields.io/badge/version-3.4.2-blue.svg   :alt: Version 3.4.2Base REST API=============* Version 3.4.2* `base3.dev &lt;https://base3.dev/&gt;`_Installation------------.. code-block:: console    pip install base3</longdescription>
+</pkgmetadata>

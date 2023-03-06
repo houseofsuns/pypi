@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>prefixcommons=============A python API for working with ID prefixes in the context of`prefixcommons &lt;http://prefixcommons.org&gt;`__Current functionality: Uses JSON-LD contexts to expand and contractCURIEs to URIsE.g. GO:0008150 &lt;=&gt; http://purl.obolibrary.org/obo/GO\_0008150Example=======::      &gt;&gt;&gt; from prefixcommons import contract_uri   &gt;&gt;&gt; print(contract_uri('http://purl.obolibrary.org/obo/GO_0008150'))   ['GO:0008150']      &gt;&gt;&gt; from prefixcommons import expand_uri   &gt;&gt;&gt; print(expand_uri('GO:000850'))   http://purl.obolibrary.org/obo/GO_0008150The above uses standard JSON-LD context files from `prefixcommons/biocontext &lt;https://github.com/prefixcommons/biocontext&gt;`__You can pass your own::   &gt;&gt;&gt; cmaps = [{'GO': 'http://purl.obolibrary.org/obo/GO_'}]   &gt;&gt;&gt; print(contract_uri('http://purl.obolibrary.org/obo/GO_0008150'), cmaps)   ['GO:0008150']</longdescription>
+</pkgmetadata>

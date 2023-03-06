@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Gzip Reader===========Transparently decompress gzipped file stream on the fly.Installation-------------::    pip install gzip-readerUsage-----.. code:: python    from gzip_reader import GzipReader    fd = GzipReader(urlopen('http://example.com/some_file.gz'))    # or    fd = GzipReader(socket_conn.makefile('rb'))    for line in fd:        print line</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># aiobafi6[![PyPI version](https://badge.fury.io/py/aiobafi6.svg)](https://badge.fury.io/py/aiobafi6)[![Downloads](https://pepy.tech/badge/aiobafi6)](https://pepy.tech/project/aiobafi6)aiobafi6 is a python library to discovery, query and control[Big Ass Fans](https://bigassfans.com) products that use the i6 protocol, whichincludes i6 fans and Haiku fans with the 3.0 firmware.It supports almost all the features of the previous protocol (&quot;SenseMe&quot;), withthe exception of rooms, and sleep mode. Occupancy support was added in the 3.1 firmware.## Command lineThe aiobafi6 package comes with a minimal command line (`aiobafi6`) that useseither the library or direct communication with a target device. It is usefulfor debugging and interacting with the firmware. Run with `--help` for usage.## Compiling the aiobafi6 protocol bufferThe BAF i6 protocol uses[protocol buffers](https://developers.google.com/protocol-buffers) for messagewire serialization. This library maintains a[single proto file](proto/aiobafi6.proto) with all known messages and constants.The generated Python client for this proto file is checked in the repo to avoiddepending on the protocol buffer compiler for installation. Whenever the sourceproto file is changed, the Python client files must be re-generated.`poe protoc`## Special thanks[@bdraco](https://github.com/bdraco) for writing the HASS integration, helping withPython, and suggesting BAF is using protobufs.[@oogje](https://github.com/oogje) for a reference homebridge implementation.[Big Ass Fans](https://www.bigassfans.com) for making great products.</longdescription>
+</pkgmetadata>

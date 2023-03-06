@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># IntroductionThis is a utility script to convert the json file produced by [Joern](https://joern.io)/[Ocular](https://www.shiftleft.io/ocular/) to [SARIF](https://sarifweb.azurewebsites.net/) format.## Usage```bashsudo pip install joern2sarifjoern2sarif -i findings.json -o joern-findings.sarif```Example usage on [GitHub action](https://github.com/prabhu/explnode/blob/master/.github/workflows/ocular.yml)## LicenseApache 2.0</longdescription>
+</pkgmetadata>

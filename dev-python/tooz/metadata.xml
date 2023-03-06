@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Tooz====.. image:: https://img.shields.io/pypi/v/tooz.svg    :target: https://pypi.org/project/tooz/    :alt: Latest Version.. image:: https://img.shields.io/pypi/dm/tooz.svg    :target: https://pypi.org/project/tooz/    :alt: DownloadsThe Tooz project aims at centralizing the most common distributed primitiveslike group membership protocol, lock service and leader election by providinga coordination API helping developers to build distributed applications.* Free software: Apache license* Documentation: https://docs.openstack.org/tooz/latest/* Source: https://opendev.org/openstack/tooz* Bugs: https://bugs.launchpad.net/python-tooz/* Release notes: https://docs.openstack.org/releasenotes/toozJoin us-------- https://launchpad.net/python-tooz</longdescription>
+</pkgmetadata>

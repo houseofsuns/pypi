@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>A collection of diagnostic and interpolation routines to be used with WRF-ARW data.GitHub Repository:https://github.com/NCAR/wrf-pythonDocumentation:https://wrf-python.rtfd.org</longdescription>
+</pkgmetadata>

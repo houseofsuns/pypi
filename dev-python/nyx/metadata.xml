@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Nyx is a command-line monitor for Tor. With this you can get detailed real-time information about your relay such as bandwidth usage, connections, logs, and much more. For more information see `Nyx's homepage &lt;https://nyx.torproject.org/&gt;`_.Quick Start-----------To install you can either use...::  pip install nyx... or install from the source tarball. Nyx supports both the python 2.x and 3.x series.</longdescription>
+</pkgmetadata>

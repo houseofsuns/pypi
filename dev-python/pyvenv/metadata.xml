@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># PyVenv---&gt; A minimalist python environment manager.``` ____      __     __              |  _ \ _   \ \   / /__ _ ____   __| |_) | | | \ \ / / _ \ '_ \ \ / /|  __/| |_| |\ V /  __/ | | \ V / |_|    \__, | \_/ \___|_| |_|\_/         |___/                      help: {program_name} &lt;command&gt; [arguments]Global Options:    -h, --help               Show this help message and exit.    Commands:        create                   Create a new environment.        Options: {program_name} create &lt;environment name&gt;    remove                   Delete an environment.        Options: {program_name} remove &lt;environment name&gt;    shell                    Activate an environment (Copy activation command).        Options: {program_name} activate &lt;environment name&gt;    list                     List the available environments.        Options: {program_name} list```</longdescription>
+</pkgmetadata>

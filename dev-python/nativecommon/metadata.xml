@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># nativecommonCommon code of projects with native parts## InstallThese are generic installation instructions.### To use, permanentlyThe quickest way to get started is to install the current release from PyPI:```pip2 install --user nativecommon```### To use, temporarilyIf you prefer to keep .local clean, install to a virtualenv:```python2 -m venv venvnamevenvname/bin/pip install nativecommon. venvname/bin/activate```### To developFirst clone the repo using HTTP or SSH:```git clone https://github.com/combatopera/nativecommon.gitgit clone git@github.com:combatopera/nativecommon.git```Now use pyven's pipify to create a setup.py, which pip can then use to install the project editably:```python2 -m venv pyvenvenvpyvenvenv/bin/pip install pyvenpyvenvenv/bin/pipify nativecommonpython2 -m venv venvnamevenvname/bin/pip install -e nativecommon. venvname/bin/activate```</longdescription>
+</pkgmetadata>

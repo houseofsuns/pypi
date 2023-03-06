@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># sphinx_compas_themeThis is the public repository of the Sphinx theme for the documentation of the COMPAS framework.## Getting started## Questions and feedback## License## Contact</longdescription>
+</pkgmetadata>

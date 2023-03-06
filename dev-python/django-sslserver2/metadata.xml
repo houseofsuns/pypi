@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;div&gt;  &lt;h1 align=&quot;center&quot;&gt;django-sslserver2&lt;/h1&gt;  &lt;h4 align=&quot;center&quot;&gt;    Django package to support both HTTP and HTTPS as runserver command  &lt;/h4&gt;&lt;/div&gt;## Usage1. Install this package in you Django project```bashpip install django-sslserver2```2. Update Django's `settings.py````bashINSTALLED_APPS = (...    'django_sslserver2',    ...)```3. Execute you Django server:```bashpython manage.py runsslserver --certificate cert.pem --key key.pem```## Development### Requirements- [Python v3.10.0](https://www.python.org/downloads/release/python-3100/)- [Pipenv](https://pipenv.pypa.io)### Update **requirements.txt**As this project uses Pipenv on development, to keep compatibility with otherenvironments is recommended to generate the corresponding `requirements.txt`file on every integration.Run the following command to generate or overwrite the `requirements.txt` file:```bashpipenv lock -r &gt; requirements.txt```## Releasing1. Install `twine````bashpip install twine```2. Build package distribution```bashpython setup.py sdist bdist_wheel```3. Upload distribution```bashtwine upload --repository-url https://upload.pypi.org/legacy/ dist/*```</longdescription>
+</pkgmetadata>

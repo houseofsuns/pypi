@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Nutanix API* Work in progressEasily interact with Nutanix API v3 ## Installation```bashpip install nutanix-api```##  Usage ```pythonfrom nutanix_api import NutanixApiClient, NutanixVM, NutanixClusterclient = NutanixApiClient(&quot;username&quot;, &quot;password&quot;, 9440, &quot;https://path/to/endpoint&quot;)# Virtual Machinevm = NutanixVM.get(client, &quot;61b13e12-1494-11ed-861d-0242ac120002&quot;)vm.turn_off()  # Turn VM off vm.turn_on()  # Turn VM on# Clustercluster = NutanixCluster.get(client, &quot;81b13e12-1494-11ed-861d-0242ac120003&quot;)print(cluster.name)```</longdescription>
+</pkgmetadata>

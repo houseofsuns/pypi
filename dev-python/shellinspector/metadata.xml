@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Shell Inspector 🕵️️Open a shell session locally or via SSH, execute commands, and test what comesback.[![asciicast](https://asciinema.org/a/IfzFtiTPjabw4etcMJmpcuH8f.svg)](https://asciinema.org/a/IfzFtiTPjabw4etcMJmpcuH8f)First, prepare a spec file, e.g. `readme.inspect`:```[@local]$~ ping -c1 google.com1 packets transmitted[@local]$ whoamishellinspector```Then, run it:```$ python -m shellinspector readme.inspectrunning readme.consolePASS [@local]$~ ping -c1 google.comFAIL [@local]$ whoamiexpected:    shellinspectoractual:    luto```For more details have a look at [`docs/syntax.md`](docs/syntax.md).</longdescription>
+</pkgmetadata>

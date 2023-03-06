@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## GameA web game emulator, not only can play games. Welcome to explore.**Support Online Resource.**Thanks for emularity!### Release Note* 0.0.5: Release.## Screenshots![ui_1](game/ui_1.jpg)![ui_2](game/ui_2.jpg)### How to use* open web ui```shell&gt;&gt;&gt; game web```* select game by path```shell&gt;&gt;&gt; game play &quot;your_link_or_path&quot;```</longdescription>
+</pkgmetadata>

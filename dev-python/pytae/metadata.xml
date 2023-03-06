@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># This is my day to day util## This contains three sets of features:- ### one that extends pandas capabilities ### two that allows to process tar files and some other interesting features and ### three reconcilliation of two dataframes.https://github.com/maddytae/pytae/blob/master/src/recon.ipynb#### To Do: Documentation and automated Testing features</longdescription>
+</pkgmetadata>

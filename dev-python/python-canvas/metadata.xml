@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># python-canvasБиблиотека **python-canvas** является SqlAlchemy-маппингом для базы данных Canvas LMS.## Примеры```pythonfrom canvas_db.config import Configfrom canvas_db.orm import get_sessionconfig = Config(host='Адрес БД Canvas LMS', user='Пользователь БД Canvas LMS', passowrd='Пароль БД Canvas LMS')session = get_session(config)```</longdescription>
+</pkgmetadata>

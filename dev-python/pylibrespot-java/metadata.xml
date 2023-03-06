@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pylibrespot-java Python Library===============================version number: 0.1.0author: Justin WongOverview--------A simple library to interface with a librespot-java server.Installation / Usage--------------------To install use pip:    $ pip install pylibrespot-javaOr clone the repo:    $ git clone https://github.com/uvjustin/pylibrespot-java.git    $ python setup.py install    Contributing------------TBDExample-------TBD</longdescription>
+</pkgmetadata>

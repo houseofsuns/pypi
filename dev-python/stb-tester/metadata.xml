@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Stb-tester**Automated User Interface Testing for Set-Top Boxes &amp; Smart TVs**Copyright © 2018-2022 Stb-tester.com Ltd. All rights reserved.This package contains the &quot;stbt&quot; Python APIs that you can use in test-scriptswritten for running on the [Stb-tester Platform]. The primary purpose of thispackage is to make the stbt library easy to install locally for IDE linting &amp;autocompletion.This package doesn't support video-capture, so `stbt.get_frame()` and`stbt.frames()` won't work -- but you will be able to run `stbt.match()` if youspecify the `frame` parameter explicitly, for example by loading a screenshotfrom disk with `stbt.load_image()`.This package doesn't include remote-control integrations, so `stbt.press()` andsimilar functions won't work.This package doesn't bundle the Tesseract OCR engine, so `stbt.ocr()` and`stbt.match_text()` won't work.Premium (non-open source) APIs, such as `stbt.get_rms_volume()` and otheraudio-related APIs, are included as stubs to support IDE linting &amp;autocompletion, but without a working implementation.[Stb-tester Platform]: https://stb-tester.com</longdescription>
+</pkgmetadata>

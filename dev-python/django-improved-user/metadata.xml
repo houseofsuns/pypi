@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Read Me=======This project provides a custom user model that improves on Django'sdefault by making a few modern and international changes.* Uses email as the username to simplify login for users* Replace :code:`first_name` and :code:`last_name` with international  friendly :code:`short_name` and :code:`full_name` fieldsThe project also provides mix-in classes to make building custom Usermodels easier.For an explanation of why and how the project was built, please see the`Project Rationale`_.For information about getting started, please refer to the `quickstartdocumentation`_.For information about how to help with the project, please see the`contributing documentation`_... _contributing documentation: https://django-improved-user.readthedocs.io/en/latest/contributing.html.. _Project Rationale: https://django-improved-user.readthedocs.io/en/latest/rationale.html.. _quickstart documentation: https://django-improved-user.readthedocs.io/en/latest/quickstart.html</longdescription>
+</pkgmetadata>

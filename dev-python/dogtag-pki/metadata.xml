@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This package contains the REST client for Dogtag PKI.The Dogtag Certificate System is an enterprise-class open sourceCertificate Authority (CA). It is a full-featured system, and has beenhardened by real-world deployments. It supports all aspects of certificatelifecycle management, including key archival, OCSP and smartcard management,and much more. The Dogtag Certificate System can be downloaded for freeand set up in less than an hour.</longdescription>
+</pkgmetadata>

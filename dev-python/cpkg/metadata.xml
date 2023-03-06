@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># cPkg## This is a package that generates packages&gt;## install&gt;&gt;```shell&gt;&gt;pip install cpkg&gt;&gt;```&gt;## use&gt;&gt;```python&gt;&gt;import cpkg&gt;&gt;cpkg.create(&gt;&gt;    path='',&gt;&gt;    dirName='',&gt;&gt;    pkgName='',&gt;&gt;    author='',&gt;&gt;    author_email='',&gt;&gt;    description='',&gt;&gt;    url='',&gt;&gt;    project_urls={},&gt;&gt;    classifiers=[],&gt;&gt;    python_requires=3.6,&gt;&gt;    install_requires=[]&gt;&gt;)&gt;&gt;```### or```shellcreatepkg optional```For more information, see```shellcreatepkg -h```## updata&gt;### 0.0.6 2021 1 19&gt;&gt;1. Update command:&gt;&gt;&gt;See details:&gt;&gt;&gt;```shell&gt;&gt;&gt;python3 -m cpkg -h&gt;&gt;&gt;```&gt;&gt;&gt;### 0.0.7 2021 1 19&gt;&gt;Update Info&gt;### 0.0.8 2021 1 19&gt;&gt;Repair Bug&gt;### 0.0.9 2021 1 19&gt;&gt;Repair Bug&gt;### 0.0.13 2021 1 24&gt;&gt;Repair Bug&gt;### 0.0.18 2022 3 27&gt;&gt;Convert module to command line tool&gt;### 0.1.9 2022 3 27&gt;&gt;Updata README.md&gt;### 0.1.10 2022 4 9&gt;&gt;Repair Bug&gt;### 0.1.11 2022 4 19&gt;&gt;Add new elements from setup.py&gt;### 0.2.14 2022 5 19&gt;&gt;Repair Bug&gt;### 0.3.19 2022 7 7&gt;&gt;Add the functions of creating templates and identifying templates(Command is not supported temporarily)&gt;### 0.4.19 2022 7 13&gt;&gt;Add The createmod command supports the functions of creating and identifying templates&gt;### 0.4.21 2022 7 13&gt;&gt;Repair Bug</longdescription>
+</pkgmetadata>

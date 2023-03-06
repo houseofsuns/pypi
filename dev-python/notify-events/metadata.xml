@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Python client for Notify.EventsA simple Python extension that simplifies the process of integrating your project with the [Notify.Events](https://notify.events) service to send messages to your channels.#### Instruction on another languages- [Р СѓСЃСЃРєРёР№](https://github.com/notify-events/python/blob/master/docs/ru-RU/README.md)# InstallationYou can install the Python client for Notify.Events from [PyPI](https://pypi.org/project/notify_events/):```pip install notify_events```# UsageTo use this extension, you need to import the Message class into your script.```pythonfrom notify_events import Message```After that, you can create a Message object, set the necessary parameters and send the message to the channel.### Usage example```pythonfrom notify_events import Message# Create a message object.message = Message('Some &lt;b&gt;important&lt;/b&gt; message', 'Title', Message.PRIORITY_HIGH, Message.LEVEL_WARNING)# Attach the file to the message.message.add_file('path\to\local\file.zip', 'filename.zip')# Send a message to your channel in Notify.Events.message.send('XXXXXXXX')```[List of all available functions](https://github.com/notify-events/python/blob/master/docs/en-US/Message.md)</longdescription>
+</pkgmetadata>

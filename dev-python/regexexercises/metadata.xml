@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Python re(gex)? exercisesThis TUI application is intended to help you practice Python regular expressions. There are more than 100 exercises covering both the builtin `re` and third-party `regex` module.# Screenshot![Sample Python regex exercise](https://raw.githubusercontent.com/learnbyexample/TUI-apps/main/PyRegexExercises/pyregex_exercises.png)# GuideSee [app_guide.md](https://github.com/learnbyexample/TUI-apps/blob/main/PyRegexExercises/app_guide.md)# Video demoYou can view a video demo here: [https://youtu.be/0oXPeF8HutQ](https://youtu.be/0oXPeF8HutQ)# LicenseCode snippets are licensed under [MIT LICENSE](https://github.com/learnbyexample/TUI-apps/blob/main/LICENSE)Exercise questions and associated files (like `questions.json`) are licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/)</longdescription>
+</pkgmetadata>

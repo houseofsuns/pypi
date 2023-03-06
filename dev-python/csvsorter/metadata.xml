@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>==========CSV Sorter==========Fork of the csvsort_ for Python 3.For sorting CSV files on disk that do not fit into memory. The merge sort algorithm is used to break up the original file into smaller chunks, sort these in memory, and then merge these sorted files... _csvsort: https://bitbucket.org/richardpenman/csvsort=============Example usage=============.. sourcecode:: python    &gt;&gt;&gt; from csvsorter import csvsort    &gt;&gt;&gt; # sort this CSV on the 5th and 3rd columns (columns are 0 indexed)    &gt;&gt;&gt; csvsort('test1.csv', [4,2])      &gt;&gt;&gt; # sort this CSV with no header on 4th column and save results to separate file    &gt;&gt;&gt; csvsort('test2.csv', [3], output_file='test3.csv', has_header=False)      &gt;&gt;&gt; # sort this TSV on the first column and use a maximum of 10MB per split    &gt;&gt;&gt; csvsort('test3.tsv', [0], max_size=10, delimiter='\t')      &gt;&gt;&gt; # sort this CSV on the first column, force quotes around every field (default is csv.QUOTE_MINIMAL) and use windows-1250 encoding    &gt;&gt;&gt; import csv    &gt;&gt;&gt; csvsort('test4.csv', [0], quoting=csv.QUOTE_ALL, encoding='windows-1250')..=======Install=======.. sourcecode:: bash    $ pip install csvsorter..</longdescription>
+</pkgmetadata>

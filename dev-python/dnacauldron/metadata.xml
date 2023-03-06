@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>DNA Cauldron===================DNA Cauldron provides a generic cloning simulation framework to predictconstructs sequences and detect assembly flaws.It can simulate Golden-Gate, with extra features like enzyme orconnector parts autoselection, and other methods like Gibson Assembly,LCR Assembly, BASIC assembly, BioBrick assembly.It supports single and combinatorial assemblies, hierarchical assemblies, andproduces nice reports for traceability and troubleshooting.Infos-----**PIP installation:**.. code:: bash  pip install dnacauldron**Web documentation:**`&lt;https://edinburgh-genome-foundry.github.io/DnaCauldron/&gt;`_**Github Page:**`&lt;https://github.com/Edinburgh-Genome-Foundry/DnaCauldron&gt;`_**Live demo:**`&lt;http://cuba.genomefoundry.org/simulate_gg_assemblies&gt;`_**License:** MIT, Copyright Edinburgh Genome FoundryMore biology software---------------------.. image:: https://raw.githubusercontent.com/Edinburgh-Genome-Foundry/Edinburgh-Genome-Foundry.github.io/master/static/imgs/logos/egf-codon-horizontal.png  :target: https://edinburgh-genome-foundry.github.io/DNA Cauldron is part of the `EGF Codons &lt;https://edinburgh-genome-foundry.github.io/&gt;`_ synthetic biology software suite for DNA design, manufacturing and validation.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># python-homewizard-kitchenThis package connects to the HomeWizard Kitchen's websocket to get &amp; update a device status.This project currently only implements the Kettle device.Tested on a HomeWizard Kettle 1.4,HWK-KTL 1.07## Installation```pip install homewizard-kitchen```## UsageSee [example.py](https://github.com/lesleyxyz/python-homewizard-kitchen/blob/main/example.py)Afterwards you can use the Kettle model to update &amp; retrieve data.</longdescription>
+</pkgmetadata>

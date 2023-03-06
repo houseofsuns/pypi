@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>The configuration is a JSON structure. We'll use the following for thecoming examples.```JSON{  &quot;courses&quot;: {    &quot;datintro22&quot;: {      &quot;timesheet&quot;: {        &quot;url&quot;: &quot;https://sheets.google...&quot;      },      &quot;schedule&quot;: {        &quot;url&quot;: &quot;https://timeedit.net/...&quot;      }    }  }}```The format is actually irrelevant to anyone outside of this library,since it will never be accessed directly anyway. But it will be used toillustrate the examples.We can access values by dot-separated addresses. For instance, we canuse `courses.datintro22.schedule.url` to access the TimeEdit URL of thedatintro22 course.Let's have a look at some usage examples. Say we have the program`nytid` that wants to use this config module and subcommand.```pythonimport typerimport typerconf as configcli = typer.Typer()# add some other subcommandsconfig.add_config_cmd(cli)```We want the CLI command to have the following form when used with`nytid`.```bash  nytid config courses.datintro22.schedule.url --set https://timeedit.net/...```will set the configuration value at the path, whereas```bash  nytid config courses.datintro22.schedule.url```will return it.Internally, `nytid`'s different parts can access the config through thefollowing API.```pythonimport typerconf as configurl = config.get(&quot;courses.datintro22.schedule.url&quot;)```</longdescription>
+</pkgmetadata>

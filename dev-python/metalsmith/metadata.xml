@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Deployment and Scheduling tool for Bare Metal=============================================.. image:: https://governance.openstack.org/badges/metalsmith.svg    :target: https://governance.openstack.org/reference/tags/index.htmlOverview--------This is a simple tool to provision bare metal machines using `OpenStack BareMetal Service (ironic) &lt;https://docs.openstack.org/ironic/latest/&gt;`_ and,optionally, `OpenStack Image Service (glance)&lt;https://docs.openstack.org/glance/latest/&gt;`_ and `OpenStack NetworkingService (neutron) &lt;https://docs.openstack.org/neutron/latest/&gt;`_.* License: Apache License, Version 2.0* Documentation: https://docs.openstack.org/metalsmith/* Source: https://opendev.org/openstack/metalsmith* Bugs: https://storyboard.openstack.org/#!/project/openstack/metalsmithInstallation------------::    pip install --user metalsmith.. note::    The current versions of *metalsmith* require Bare Metal API from the Stein    release or newer. Use the 0.11 release series for older versions.Contributing------------* Pull requests: `Gerrit  &lt;https://review.openstack.org/#/q/project:openstack/metalsmith&gt;`_  (see `developer's guide  &lt;https://docs.openstack.org/infra/manual/developers.html&gt;`_)* Bugs and RFEs:  `StoryBoard  &lt;https://storyboard.openstack.org/#!/project/openstack/metalsmith&gt;`_  (please do NOT report bugs to Github)</longdescription>
+</pkgmetadata>

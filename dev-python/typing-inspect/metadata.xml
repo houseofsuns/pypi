@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Typing Inspect==============The &quot;typing_inspect&quot; module defines experimental API for runtimeinspection of types defined in the standard &quot;typing&quot; module.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;!-- * @Date: 2022-07-20 15:22:19 * @LastEditors: mushan wwd137669793@gmail.com * @LastEditTime: 2023-01-05 18:11:54 * @FilePath: /mushan/README.md--&gt;A Toolkit By Mushan.</longdescription>
+</pkgmetadata>

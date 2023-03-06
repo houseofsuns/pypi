@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>    The Voucherify REST SDK provides Python APIs to create, process and manage vouchers.    1. https://github.com/voucherifyio/voucherify-python-sdk/ - README and Samples    2. https://voucherify.readme.io/ - API Reference  </longdescription>
+</pkgmetadata>

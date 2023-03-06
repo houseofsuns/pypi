@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>python3 -m pip install --upgrade setuptools wheelpython3 setup.py sdist bdist_wheeltwine upload dist/*qiming_zouzqm@00123321</longdescription>
+</pkgmetadata>

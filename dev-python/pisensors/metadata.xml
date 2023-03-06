@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pisensorsRaspberry Pi Sensors script for Temperature &amp; Humidity.Reads from a DHT22 temperature/humidity sensor, and insert info into a InfluxDB, so that it can be later used by Grafana or whateverIt needs to be executed every x minutes (i.e. cron) </longdescription>
+</pkgmetadata>

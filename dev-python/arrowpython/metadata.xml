@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ArrowPythonA programming language that transpiles to python. It has extremely similar syntax, but instead of colons (`:`),you use arrows (`=&gt;`). Along with this, you are also able to call functions with only one argument with the following syntax:```pythonfunction:argument```This allows for statements such as this in ArrowPython:```pythonprint:&quot;hello&quot;```or:```pythonstr:1234```It allows you to call single-argument functions whilst shortening the time it takes to write them.To use arrow python, first install it using:```shellpip3 install arrowpython```Then, to use it in your program, create a new python file and before putting in any code write:```pythonimport arrowpython```If you are using IDLE, IDLE can often be finicky over syntax errors, as it tries to find then *before* the code is run. This way you will often have a hard time executing ArrowPython in IDLE. I'd reccomend using something like Sublime Text or VSCode.With that out of the way, this is an example of the popular FizzBuzz program in ArrowPython:```pythonimport arrowpythondef fizbuzz:num =&gt;    for fizzbuzz in range:num =&gt;        if fizzbuzz % 3 == 0 and fizzbuzz % 5 == 0 =&gt;            print:&quot;fizzbuzz&quot;            continue        elif fizzbuzz % 3 == 0 =&gt;            print:&quot;fizz&quot;            continue        elif fizzbuzz % 5 == 0 =&gt;            print:&quot;buzz&quot;            continue        print:fizzbuzzfizbuzz:51```Have fun coding!</longdescription>
+</pkgmetadata>

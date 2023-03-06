@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>===========Grid===========Grid contains objects and functions pertaining to 3D volumetric (grid) data.It was specifically written for 3D-RISM distribution data but isby no means limited to such data. Grid requires numpy.Typical usage often looks like this::    #!/usr/bin/env python    import grid    mygrid = grid.dx2Grid(&quot;mydxfilename&quot;)Some files can be converted now using gridconvert.py:    gridconvert.py mydxfile.dx grdWill yield an Accelrys DS .grd file</longdescription>
+</pkgmetadata>

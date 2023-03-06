@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>============ligo-gracedb============The Gravitational-wave Candidate Event Database (GraceDB) is a web service designed for aggregating and communicating information about candidate events from gravitational-wave searches and associated follow-ups.``ligo-gracedb`` provides a Python-based client tool for facilitating interactions with the GraceDB API.Documentation-------------For more information, see the `full documentation &lt;https://ligo-gracedb.readthedocs.io/&gt;`__.Quick install-------------.. code:: python    pip install ligo-gracedbContributing------------Please fork this `repository &lt;https://git.ligo.org/computing/gracedb/client/&gt;`__ and submit a merge request if you wish to contribute to this package.See the `contributing documentation &lt;https://ligo-gracedb.readthedocs.io//en/latest/contributing.html&gt;`__ for more details.</longdescription>
+</pkgmetadata>

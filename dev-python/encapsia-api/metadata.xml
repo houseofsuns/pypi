@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Encapsia API Library![Tests](https://github.com/tcorbettclark/encapsia-api/workflows/Tests/badge.svg)[![Known Vulnerabilities](https://snyk.io/test/github/tcorbettclark/encapsia-api/badge.svg?targetFile=requirements.txt)](https://snyk.io/test/github/tcorbettclark/encapsia-api?targetFile=requirements.txt)REST API for working with Encapsia.See &lt;https://www.encapsia.com.&gt;## Release checklist* Run: `black .`* Run: `isort .`* Run: `flake8 .`* Run: `mypy .`* Run: `pytest .`* Run: `poetry export -f requirements.txt &gt;requirements.txt` (for snyk scanning)* Set package version (via `poetry version`) and `encapsia_api.__version__` to the new version. Commit, then set `git tag`.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># snappi-convergence[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)![GitHub](https://img.shields.io/github/license/open-traffic-generator/snappi-convergence)[![release)](https://img.shields.io/github/v/release/open-traffic-generator/snappi-convergence)](https://github.com/open-traffic-generator/snappi-convergence/releases/latest)[![build](https://github.com/open-traffic-generator/snappi-convergence/workflows/cicd/badge.svg)](https://github.com/open-traffic-generator/snappi-convergence/actions)[![LGTM Grade](https://img.shields.io/lgtm/grade/python/github/open-traffic-generator/snappi-convergence)](https://lgtm.com/projects/g/open-traffic-generator/snappi-convergence/context:python)[![LGTM Alerts](https://img.shields.io/lgtm/alerts/github/open-traffic-generator/snappi-convergence)](https://lgtm.com/projects/g/open-traffic-generator/snappi-convergence/?mode=list)A snappi extension for measuring network convergence.### Install```bashpython -m pip install --upgrade &quot;snappi[convergence]&quot;```### Development Setup```bashgit clone --recurse-submodules https://github.com/open-traffic-generator/snappi-convergence.git &amp;&amp; cd snappi-convergencepython do.py setup &amp;&amp; python do.py init```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>txtrader-client---------------This module is a minimum dependency client for the txtrader trading api manager## Installation```pip install txtrader-client```## ConfigurationThe following configuration variables are required:```TXTRADER_HOSTTXTRADER_USERNAMETXTRADER_PASSWORDTXTRADER_HTTP_PORTTXTRADER_API_ACCOUNT```There are 2 ways to provide the variables:### passed as a python dict into the constructor `API(config={'TXTRADER_HOST': 'localhost', ...})` ### set as environment variables## Basic Usage:```from txtrader_client import APIapi = API()print(api.status())api.add_symbol('TSLA')order = api.market_order('TSLA', 100)print(api.query_positions())```</longdescription>
+</pkgmetadata>

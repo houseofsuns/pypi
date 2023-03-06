@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ta-core[![pip version](https://img.shields.io/pypi/v/ta-core.svg)](https://pypi.python.org/pypi/ta-core)Thoughtful Automation Core package. This package contains the function required for Thoughtful Automation bots. Documentation may be closed and certain functions may not work outside the Thoughtful Automation environment.Example Usage-------------To use `Status` you need to install the library `rpaframework` and get WorkItems from `robocorp` environment.    from ta_core.status import Status    Status.change_status_to_warning()</longdescription>
+</pkgmetadata>

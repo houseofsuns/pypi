@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Python helpers for chemiscopeThis package contains Python code to help generate input files for the[chemiscope](https://chemiscope.org) default visualizer, and integratechemiscope with jupyter notebooks.## InstallationYou should use pip to install this package:```bashpip install chemiscope```This installs both a `chemiscope-input` command line tool, and the `chemiscope`package.## UsageTo create a new chemiscope input file:```pythonimport chemiscopeimport ase.io# read frames using aseframes = ase.io.read(&quot;structures.xyz&quot;, &quot;:&quot;)# add additional properties to displayproperties = {    &quot;&lt;property name&gt;&quot;: {        target: &quot;atom&quot;,        values: [3, 4, 2, 8, 9, 10],    }}chemiscope.write_input(&quot;my-input.json.gz&quot;, frames=frames, properties=properties)```To display a chemiscope widget inside a jupyter notebook:```pythonimport chemiscopeimport ase.io# read frames using aseframes = ase.io.read(&quot;structures.xyz&quot;, &quot;:&quot;)# add additional properties to displayproperties = {    &quot;&lt;property name&gt;&quot;: [3, 4, 2, 8, 9, 10],}chemiscope.show(frames=frames, properties=properties)```</longdescription>
+</pkgmetadata>

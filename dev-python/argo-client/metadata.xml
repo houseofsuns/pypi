@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Argo ClientA python library for client connections to [JSON RPC](https://www.jsonrpc.org/specification) servers, specifically designed with the Haskell [Argo](https://github.com/galoisinc/argo) sister library in mind.</longdescription>
+</pkgmetadata>

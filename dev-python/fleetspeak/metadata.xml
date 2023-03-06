@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Fleetspeak is a framework for communicating with a fleet of machines, with a focus on security monitoring and basic administrative use cases. It is a subproject of GRR ( https://github.com/google/grr/blob/master/README.md ), and can be seen as an effort to modularizing and modernizing its communication mechanism.</longdescription>
+</pkgmetadata>

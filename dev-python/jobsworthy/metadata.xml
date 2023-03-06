@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># JobsworthA set of utility functions and classes to aid in build Spark jobs on the Azure Databricks Platform.## Spark Job+ [Spark Job](docs/job/spark-job.md)+ Job Configuration## Util Module+ [Secrets](docs/util/secrets.md)+ Spark Session## Model Module+ [The Model Module](docs/model/model.md)## Repository Module+ [Database and Table](docs/repo/repository.md)## Structure ModuleThe Structure module provides functions for building a more abstract definition of a Hive table schema and abstractionsfor creating table, column and cell data which can be provided as the data argument when creating a dataframe.+ [Generating Table Schemas from PUML Models Model Generation](docs/structure/puml-to-table-dsl.md)+ [Turning the output of a dataframe printSchema command into a PUML class diagram](docs/structure/hive-print-schema-to-puml-class-model.md)+ [Table Schema Definition](docs/structure/table-schema.md)</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Python client for Basepair======================Python bindings for Basepair's API and command line interface (CLI).## How to build and push to pypi:```BASHpython setup.py sdist bdist_wheel # This will create two files in a newly created dist directory, a source archive and a wheel:twine upload dist/* # To upload it to Pypi```</longdescription>
+</pkgmetadata>

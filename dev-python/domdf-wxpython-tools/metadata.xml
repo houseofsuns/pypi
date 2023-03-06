@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>**********************domdf_wxpython_tools**********************.. image:: https://travis-ci.com/domdfcoding/domdf_wxpython_tools.svg?branch=master    :target: https://travis-ci.com/domdfcoding/domdf_wxpython_tools    :alt: Build Status.. image:: https://readthedocs.org/projects/domdf_wxpython_tools/badge/?version=latest    :target: https://domdf_wxpython_tools.readthedocs.io/en/latest/?badge=latest    :alt: Documentation Status.. image:: https://img.shields.io/pypi/v/domdf_wxpython_tools.svg    :target: https://pypi.org/project/domdf_wxpython_tools/    :alt: PyPI.. image:: https://img.shields.io/pypi/pyversions/domdf_wxpython_tools.svg    :target: https://pypi.org/project/domdf_wxpython_tools/    :alt: PyPI - Python VersionTools and widgets for wxPython</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>========Overview========Bindings for Mark Adler's `unlzw&lt;https://mathematica.stackexchange.com/questions/60531/how-can-i-read-compressed-z-file-automatically-by-mathematica/60879#60879&gt;`_library.* Free software: BSD 3-Clause LicenseInstallation============::    pip install unlzwDocumentation=============.. code-block:: python    from unlzw import unlzw    assert unlzw(b'\x1f\x9d\x90f\xde\xbc\x11\x13FN\xc0\x81\x05\x0f\x124(p\xa1\xc2\x82') == b'foobarfoobarfoobarfoobarfoobar'Changelog=========0.1.1 (2017-10-26)------------------* Removed junk from ``MANIFEST.in``.0.1.0 (2017-10-25)------------------* First release on PyPI.</longdescription>
+</pkgmetadata>

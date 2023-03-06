@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># AutoCorrect for PythonThe Python version of [AutoCorrect](https://github.com/huacnlee/autocorrect).- Rust - [autocorrect](https://github.com/huacnlee/autocorrect)- Ruby - [autocorrect-rb](https://github.com/huacnlee/autocorrect/tree/main/autocorrect-rb)- Go - [autocorrect-go](https://github.com/longbridgeapp/autocorrect)- Python - [autocorrect-py](https://github.com/huacnlee/autocorrect/tree/main/autocorrect-py)- Node.js - [autocorrect-node](https://github.com/huacnlee/autocorrect/tree/main/autocorrect-node)- JavaScript (Browser) - [autocorrect-wasm](https://github.com/huacnlee/autocorrect/tree/main/autocorrect-wasm)- Java - [autocorrect-java](https://github.com/huacnlee/autocorrect/tree/main/autocorrect-java)## Installation```bash$ pip install autocorrect-py```## Usage```pyimport autocorrect_py as autocorrectautocorrect.format(&quot;Hello你好.&quot;)# =&gt; &quot;Hello 你好。&quot;autocorrect.format_for(&quot;let title = 'Hello你好。'&quot;, &quot;js&quot;)# =&gt; &quot;let title = 'Hello 你好。'&quot;result = autocorrect.lint_for(&quot;&lt;h1&gt;这是 Heading标题&lt;/h1&gt;&quot;, &quot;html&quot;)print result# =&gt; LintResult(filepath='html', lines=[LineResult { line: 1, col: 5, new: &quot;这是 Heading 标题&quot;, old: &quot;这是 Heading标题&quot;, severity: Error }], enable=true)# Load configautocorrect.load_config('{ textRules: { &quot;你好hello&quot;: 0 } }')autocorrect.format(&quot;Hello你好.&quot;)# =&gt; &quot;Hello 你好。&quot;autocorrect.format(&quot;你好hello.&quot;)# =&gt; &quot;你好hello.&quot;# Ignorer, if /path/to/workdir contains .autocorrectignore or .gitignoreignorer = autocorrect.Ignorer('/path/to/workdir');ignorer.is_ignored('README.md');```</longdescription>
+</pkgmetadata>

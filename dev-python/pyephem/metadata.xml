@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This distribution is a stubthat doesn’t install any Python packages,but does list ``ephem`` as an install requirementin case any old projects depend on this ``pyephem`` package name.New projects are encouraged to directly require the main package,which can be found at:`https://pypi.org/project/ephem/ &lt;https://pypi.org/project/ephem/&gt;`_This package’s version 9.99 is merely a placeholder value.This package does not pin any particular PyEphem version,but simply installs the latest version of the library.Switch your project to depending on ``ephem`` directlyif you want to be able to pin a specific version.</longdescription>
+</pkgmetadata>

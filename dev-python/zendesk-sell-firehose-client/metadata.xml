@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Zendesk Sell Firehose ClientClient for ZenDesk Sell Firehose API## Installation```bashpip install zendesk_sell_firehose_client```## Usage```pythonfrom zendesk_sell_firehose_client import ZendeskSellFirehoseClientclient = ZendeskSellFirehoseClient(bearer_token=&quot;{BEARER_TOKEN_HERE}&quot;)# Get all leadsleads = client.get_leads()```## Development### Setup```bashpip install -r requirements.txt```### Testing```bashpytest```</longdescription>
+</pkgmetadata>

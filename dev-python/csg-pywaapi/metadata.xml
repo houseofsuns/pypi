@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># csg_waapiWarning! csg-pywaapi has been renamed pss-pywaapi. The older csg-pywaapi module will no longer be supported, please change your code to use the new pss-pywaapi module.## UsageImport the library... &quot;import csg_pywaapi&quot;Connect to Wwise and get the connection info...&quot;result = csg_pywaapi.connect()&quot;Default port is 8095, Optionally pass in an alternative port for the connection ...&quot;result = csg_pywaapi.connect(8080)&quot; ## Documentation:https://csg-pywaapi.readthedocs.io/</longdescription>
+</pkgmetadata>

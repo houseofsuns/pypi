@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># PsychoPy plugins for OpenSesameCopyright (2016-2023) Sebastiaan Mathôt## InstallationIn a terminal:~~~pip install psychopy-plugin-opensesame~~~See also:- https://rapunzel.cogsci.nl/manual/environment/## AboutCurrently, there are two plugins:- `psychopy_gratingstim`- `psychopy_textstim`The [GratingStim](http://www.psychopy.org/api/visual/gratingstim.html) and [TextStim](http://www.psychopy.org/api/visual/textstim.html) are visual stimuli from PsychoPy, a Python library for psychology. With these plugins, you can use these stimuli easily within OpenSesame, a graphical experiment builder for the social sciences. You can use the plugin in OpenSesame [coroutines](http://osdoc.cogsci.nl/3.1/manual/structure/coroutines/), and adjust their properties periodically; this allows you, for example, to implement a drifting gabor patch.## LicenseThis software is distributed under the terms of the GNU General Public License 3. The full license should be included in the file `COPYING`, or can be obtained from:- &lt;http://www.gnu.org/licenses/gpl.txt&gt;</longdescription>
+</pkgmetadata>

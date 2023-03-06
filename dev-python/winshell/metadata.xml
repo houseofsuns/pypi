@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>winshell========The winshell module is a light wrapper around the Windows shell functionality.It includes convenience functions for accessing special folders, for usingthe shell's file copy, rename &amp; delete functionality, and a certain amountof support for structured storage.winshell is tested on all versions of Python from 2.4 to 3.2 (2.5+ for contextmanagement).Code is hosted at: https://github.com/tjguk/winshellDocs are hosted at: http://winshell.readthedocs.org/</longdescription>
+</pkgmetadata>

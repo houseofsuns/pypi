@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># cached_urlLibrary to fetch url, read from cache when testing.## usage```import cached_urlcontent = cached_url.get(webpage_url, ttl=10)```## how to install`pip3 install cached_url`</longdescription>
+</pkgmetadata>

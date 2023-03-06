@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>### Heybooster MongoDB Helper**Installation:**```shellpip3 install heybooster_toolkit```---**Example:**```pythonfrom heybooster.helpers.database.mongodb import MongoDBHelperNAME = &quot;database_name&quot;URI = &quot;database_uri&quot;with MongoDBHelper(uri=URI, database=NAME) as db:    result = db.find_one('test_collection', query={'email': 'test@email.com'})    result = db.find('test_collection', query={'email': 'test@email.com'})    db.insert('test_collection', query={'email': 'test@email.com'})    db.insert('test_collection', query={'email': 'test@email.com'})    db.find_and_modify('test_collection', query={'email': 'test@email.com'}, update={&quot;$set&quot;: 'test2@gmail.com'})```or```pythonfrom heybooster.helpers.database.mongodb import MongoDBHelperNAME = &quot;database_name&quot;URI = &quot;database_uri&quot;db = MongoDBHelper(uri=URI, database=NAME)result = db.find_one('test_collection', query={'email': 'test@email.com'})db.close()print(result)```</longdescription>
+</pkgmetadata>

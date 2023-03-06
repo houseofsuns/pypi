@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># AMAAZE ToolsThe AMAAZETools Python package contains Python implementations of mesh processing tools developed by [AMAAZE](https://amaaze.umn.edu/). The examples directory contains a series of test scripts showing how to use the package. ## InstallationThe package is now available on the python package index, and can be installed with```pip install amaazetools```To install the most recent developers version of the package, run ```git clone https://github.com/jwcalder/AMAAZEToolscd AMAAZEToolspip install -r requirements.txtpython setup.py install --user```## DocumentationDetailed documentation for all of the Python code within this repository can be found at &lt;https://jwcalder.github.io/AMAAZETools/&gt;.## Contact and questionsEmail &lt;jwcalder@umn.edu&gt; with any questions or comments.## ContributorsSeveral people have contributed to the development of this software:1. David Floeder2. Riley O'Neill3. Brendan Cook</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pytodotxtA tiny library to access todo.txt-like task lists.## InstallationTo install pytodotxt, you can follow these steps to clone the repository,and install the program.    pip install pytodotxtThat’s all there is to do.## DocumentationYou can find the full documentation at &lt;https://vonshednob.cc/pytodotxt/doc/&gt;.## Example usageHere’s an example how to open a todo.txt file and print the description of alltasks that are not marked as completed:    import pytodotxt    todotxt = pytodotxt.TodoTxt('todo.txt')    todotxt.parse()    for task in todotxt.tasks:        if not task.is_completed:            print(task.description)Here is how you add a new task to an existing todo.txt file:    import datetime    import pytodotxt    todotxt = pytodotxt.TodoTxt('todo.txt')    todotxt.parse()    task = pytodotxt.Task()    task.parse('This is a new task')    task.creation_date = datetime.date.today()    todotxt.tasks.append(task)    todotxt.save()</longdescription>
+</pkgmetadata>

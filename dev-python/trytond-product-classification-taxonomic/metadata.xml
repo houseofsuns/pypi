@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Product Classification Taxonomic Module#######################################The Product Classification Taxonomic module adds the taxonomic classificationto the products.The available classifications are:Taxon*****A `taxon &lt;http://en.wikipedia.org/wiki/Taxon&gt;`_ is defined by a name and a`taxonomic rank &lt;http://en.wikipedia.org/wiki/Taxonomic_rank&gt;`_. It is storedinside a tree structure.Cultivar********A `cultivar &lt;http://en.wikipedia.org/wiki/Cultivar&gt;`_ is defined by a name, ataxon and a list of `cultivar groups&lt;http://en.wikipedia.org/wiki/Cultivar_group&gt;`_.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Install```shellpip install ricco```# Update```shellpip install ricco -Upip install ricco --upgrade```# 工具包内容1. ETL工具2. Geocoding工具3. 坐标转换工具4. 地理处理工具</longdescription>
+</pkgmetadata>

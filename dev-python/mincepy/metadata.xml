@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. _documentation: https://mincepy.readthedocs.org/.. _object-document mapper: https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping#Object-oriented_databases.. _data mapper pattern: https://en.wikipedia.org/wiki/Data_mapper_patternmincePy=======.. image:: https://codecov.io/gh/muhrin/mincepy/branch/develop/graph/badge.svg    :target: https://codecov.io/gh/muhrin/mincepy    :alt: Coverage.. image:: https://travis-ci.com/muhrin/mincepy.svg?branch=master    :target: https://travis-ci.com/github/muhrin/mincepy    :alt: Travis CI.. image:: https://img.shields.io/pypi/v/mincepy.svg    :target: https://pypi.python.org/pypi/mincepy/    :alt: Latest Version.. image:: https://img.shields.io/pypi/wheel/mincepy.svg    :target: https://pypi.python.org/pypi/mincepy/.. image:: https://img.shields.io/pypi/pyversions/mincepy.svg    :target: https://pypi.python.org/pypi/mincepy/.. image:: https://img.shields.io/pypi/l/mincepy.svg    :target: https://pypi.python.org/pypi/mincepy/.. image:: https://img.shields.io/badge/code%20style-black-000000.svg    :target: https://github.com/psf/blackmincePy: move the database to one side and let your objects take centre stage.MincePy is an `object-document mapper`_ (ORM) using the `data mapper pattern`_ designed specifically for computationaland data science.  What does this all mean??  It's simple really, it means you can store, find, get the history of andannotate any of your python objects either in your local database or one shared with your collaborators.See `documentation`_ for more information.</longdescription>
+</pkgmetadata>

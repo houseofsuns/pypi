@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pycd[![PyPI Version](https://img.shields.io/pypi/v/pycd.svg)](https://pypi.python.org/pypi/pycd)[![image](https://travis-ci.org/wkentaro/pycd.svg)](https://travis-ci.org/wkentaro/pycd)Simple command line tool to change directory for Python packages.  You can now easily read the codes of the modules.## Installationinstall pycd by pip```bashpip install pycd```add following line to your shell```bashsource `which pycd.sh````## Usageuse `pycd` to change directory for python packages:```bash$ pycd numpy$ pwd/usr/local/lib/python2.7/dist-packages/numpy```use `pypack` to get information about python packages:```bash$ pypack find numpy/usr/local/lib/python2.7/dist-packages/numpy$ pypack listnumpysklearnscipy...```## Testing```bashnosetests -v pycd```## LicenseSee [LICENSE](LICENSE).</longdescription>
+</pkgmetadata>

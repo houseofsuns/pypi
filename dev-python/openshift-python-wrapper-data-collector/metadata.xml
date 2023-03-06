@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>To enable data-collector pass data-collector.yamlYAML format:```yaml    data_collector_base_directory: &quot;&lt;base directory for data collection&gt;&quot;    collect_data_function: &quot;&lt;import path for data collection method&gt;&quot;    collect_pod_logs: true|false # bool whether to collect logs if resource is a pod```YAML Example `ocp_utilities/data-collector.yaml`:```yaml    data_collector_base_directory: &quot;collected-info&quot;    collect_data_function: &quot;data_collector.collect_data&quot;    collect_pod_logs: true```Either export path to yaml file in `OPENSHIFT_PYTHON_WRAPPER_DATA_COLLECTOR_YAML` or set `data_collector` in your py_configThe environment variable takes precedence over py_config.To use dynamic base directory, export `OPENSHIFT_PYTHON_WRAPPER_DATA_COLLECTOR_DYNAMIC_BASE_DIR`  Example:```data_collector_base_directory = &quot;/data/results/collected-info&quot;OPENSHIFT_PYTHON_WRAPPER_DATA_COLLECTOR_DYNAMIC_BASE_DIR = &quot;dynamic_collector_test_dir&quot;Result: /data/results/dynamic_collector_test_dir/collected-info```</longdescription>
+</pkgmetadata>

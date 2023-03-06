@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>安装: pip install asyncpy## AsynpyAsynpy 是一个异步请求框架，基于asyncio和aiohttp，实现便捷高效的从网络上抓取数据&quot;With reference to the design pattern of scrapy, an asynchronous co-processing method is adopted to simplify some operations and complete the tasks of web crawler more easily and efficiently&quot;### asyncioasyncio是Python 3.4版本引入用来编写并发代码的标准库，直接内置了对异步IO的支持。asyncio的编程模型就是一个单线程的消息循环。从asyncio模块中直接获取一个EventLoop的引用，然后把需要执行的协程扔到EventLoop中执行，就实现了异步IO。### aiohttpaiohttp - 基于asyncio实现的HTTP框架。aiohttp强调的是异步并发。提供了对asyncio/await的支持，可以实现单线程并发IO操作。#### 单线程的asyncio为什么速度会更快呢？- 多线程是基于系统的，协程是基于线程的，多线程上下文切换有陷入内核态的消耗，协程就没有，协程更轻量- Python的GIL阻止两个线程在同一个程序中同时执行，有时候多线程并没有单线程速度快。- 而Scrapy是基于twited的单线程框架，消息队列和事件循环在一个线程来回切换，downloader是多线程的#### 详细操作文档请参考博客或者github:https://blog.csdn.net/weixin_43582101/article/details/106258518https://github.com/lixi5338619/asyncpyThanks : Scrapy、Ruia、Looter、asyncio、aiohttp公众号《Pythonlx》</longdescription>
+</pkgmetadata>

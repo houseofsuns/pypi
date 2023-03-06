@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># LangSciThis package provides tools for authoring open access books. The python packages available in pypi are in the folder `langsci`A couple of wrapper scripts for these packages for the command line are in the folder `wrapperscripts`. Some more random scripts which we use but which are not related to any of the packages are found in the folder `standalonescripts`</longdescription>
+</pkgmetadata>

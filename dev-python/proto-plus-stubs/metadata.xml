@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Type stubs for proto-plus-stubs[![PyPI version](https://badge.fury.io/py/proto-plus-stubs.svg)](https://badge.fury.io/py/proto-plus-stubs)This package provides type stubs for the [proto-plus](https://pypi.org/project/proto-plus/) package.**This is in no way affiliated with Google.**The stubs were created automatically by [stubgen](https://mypy.readthedocs.io/en/stable/stubgen.html).## Installation```shell script$ pip install proto-plus-stubs```</longdescription>
+</pkgmetadata>

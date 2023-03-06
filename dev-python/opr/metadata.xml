@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>README######**NAME**``OPR - object programming runtime``**SYNOPSIS**| ``opr [-c|-d|-h]``| ``opr &lt;cmd&gt; [key=value] [key==value]``|**DESCRIPTION**``OPR`` is a runtime (program) that is intended to be programmable, with aclient program to develop modules on and a daemonised version that can runin the background. ``OPR`` provides object persistence, an event handler andsome basic code to load modules that can provide additional functionality.``OPR`` uses object programming (opv), the object oriented programming withoutthe oriented ;] Object programming is that method are seperated out intofunctions that use the object as the first argument of that funcion. This givesbase class definitions a clean namespace to inherit from and to load json datainto the object's __dict__. A clean namespace prevents a json loaded attributeto overwrite any methods.**INSTALL**``pip3 install opr``**AUTHOR**Bart Thate - operbot100@gmail.com**COPYRIGHT**``opr`` is placed in the Public Domain.</longdescription>
+</pkgmetadata>

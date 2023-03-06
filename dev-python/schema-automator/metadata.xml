@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># LinkML Schema AutomatorThis is a toolkit that assists with the generation and enhancement of [LinkML](https://linkml.io/linkml) schemas## Install```bashpip install schema-automator```## Command LineSee [CLI docs](https://linkml.io/schema-automator/cli)Generalizing:```bashschemauto generalize-tsv my-data.tsv &gt; my-schema.yaml```Importing:```bashschemauto import-json-schema their.schema.json &gt; my-schema.yaml```Annotating:```bashschemauto annotate-schema my-schema.yaml```## Full Documentation[linkml.io/schema-automator](https://linkml.io/schema-automator/)</longdescription>
+</pkgmetadata>

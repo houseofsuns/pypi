@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># apronpyPython Interface for the [APRON Numerical Abstract Domain Library](http://apron.cri.ensmp.fr/library/).## Getting Started ### Prerequisites* Install [**APRON**](https://github.com/antoinemine/apron)* Install [**Python 3.x**](http://www.python.org/)### Installation* Create a virtual Python environment:    | Linux or Mac OS X                   |    | ----------------------------------- |    | `virtualenv --python=python3 &lt;env&gt;` |* Install apronpy in the virtual environment:    | Linux or Mac OS X                 |    | --------------------------------- |    | `./&lt;env&gt;/bin/pip install apronpy` | </longdescription>
+</pkgmetadata>

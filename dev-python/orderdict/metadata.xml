@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;!--https://readme42.com--&gt;[![](https://img.shields.io/pypi/v/orderdict.svg?maxAge=3600)](https://pypi.org/project/orderdict/)[![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)### Installation```bash$ [sudo] pip install orderdict```#### Examples```python&gt;&gt;&gt; import orderdict&gt;&gt;&gt; metadata = dict(version=&quot;1.0.0&quot;, name=&quot;pkgname&quot;){'version': '1.0.0', 'name': 'pkgname'}&gt;&gt;&gt; orderdict.order([&quot;name&quot;, &quot;version&quot;], metadata)OrderedDict([('name', 'pkgname'), ('version', '1.0.0')])```&lt;p align=&quot;center&quot;&gt;    &lt;a href=&quot;https://readme42.com/&quot;&gt;readme42.com&lt;/a&gt;&lt;/p&gt;</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>If you encounter an SSLError from within Vestas firewalls, chances are that you haven't added the proper certificates. With vespy, you can do it like this```pip install vespy; vespy --fix-ssl```Alternatively, you can invoke the fix from within python (e.g. in your own library),    from vespy import fix_ssl_error    fix_ssl_error()</longdescription>
+</pkgmetadata>

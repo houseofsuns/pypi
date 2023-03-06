@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>GetItFixed!===========Documentation-------------Build the docs.. code-block:: bash    cd getitfixed/docs    make htmlDemo :https://geomapfish-demo.camptocamp.com/getitfixed/getitfixed/issuesDemo admin :https://geomapfish-demo.camptocamp.com/getitfixed/getitfixed_admin/issuesCreate a development instance-----------------------------.. code-block:: bash    git clone git@github.com:camptocamp/getitfixed.git    cd getitfixed    make meacoffeePublic interface should be available at:http://localhost:8080/getitfixed/issuesAdmin interface should be available at:http://localhost:8080/getitfixed_admin/issuesGenerate a new alembic revision-------------------------------Generate a new alembic revision:.. code-block:: bash    docker-compose run --rm --user `id -u` getitfixed \        alembic -c /app/alembic.ini -n getitfixed revision --autogenerate -m 'First revision'Now upgrade the database:.. code-block:: bash    docker-compose run --rm --user `id -u` getitfixed \        alembic -c /app/alembic.ini -n getitfixed upgrade headEmail-----In development we use a custom SMTP server. All emails will be availableat the following address:http://localhost:8082/webmail/?_task=mail&amp;_mbox=INBOX0.0----  Initial version</longdescription>
+</pkgmetadata>

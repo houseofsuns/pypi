@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># zwave-js-server-pythonPython library for communicating with [zwave-js-server](https://github.com/zwave-js/zwave-js-server/). Goal for this library is to replicate the structure and the events of Z-Wave JS 1:1. So it has a `Driver`, `Controller` and `Node` classes.## Trying it out```shellpython3 -m zwave_js_server ws://localhost:3000```Or get the version of the server```shellpython3 -m zwave_js_server ws://localhost:3000 --server-version```Or dump the state. Optionally add `--event-timeout 5` if you want to listen 5 seconds extra for events.```shellpython3 -m zwave_js_server ws://localhost:3000 --dump-state```## Sending commands```pythontry:    result = await client.async_send_command({ &quot;command&quot;: &quot;start_listening&quot; })except zwave_js_server.client.FailedCommand as err:    print(&quot;Command failed with&quot;, err.error_code)```</longdescription>
+</pkgmetadata>

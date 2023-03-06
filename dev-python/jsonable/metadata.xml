@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>JSON-able data types====================This library provides and abstract base class ``JSONable`` which enables easy definition of trivially JSON-able python objects.* **Installation:** ``pip install jsonable``:Example:    &gt;&gt;&gt; import jsonable    &gt;&gt;&gt;    &gt;&gt;&gt;    &gt;&gt;&gt; class Fruit(jsonable.Type):    ...     __slots__ = ('type', 'weight')    ...    ...     def initialize(self, type, weight):    ...         self.type   = str(type)    ...         self.weight = float(weight)    ...    &gt;&gt;&gt; class Pie(jsonable.Type):    ...     __slots__ = ('fruit',)    ...    ...     def initialize(self, fruit):    ...         self.fruit = [Fruit(f) for f in fruit]    ...    ...    &gt;&gt;&gt; pie = Pie([Fruit('apple', 10.3), Fruit('cherry', 2)])    &gt;&gt;&gt;    &gt;&gt;&gt; doc = pie.to_json()    &gt;&gt;&gt; doc    {'fruit': [{'weight': 10.3, 'type': 'apple'}, {'weight': 2.0, 'type': 'cherry'}]}    &gt;&gt;&gt;    &gt;&gt;&gt; pie == Pie(doc)    True</longdescription>
+</pkgmetadata>

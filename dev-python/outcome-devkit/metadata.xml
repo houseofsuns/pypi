@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># devkit-py![Continuous Integration](https://github.com/outcome-co/devkit-py/workflows/Continuous%20Integration/badge.svg) ![version-badge](https://img.shields.io/badge/version-7.2.0-brightgreen)A package containing common dev dependencies for python projects.## Usage```shpoetry add -D outcome-devkit```## DevelopmentRun `./bootstrap.sh` when you clone the repository to get set up.</longdescription>
+</pkgmetadata>

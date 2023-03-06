@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Microsoft Azure CLI 'private-dns' Command Module================================================This package is for the 'private-dns' module.i.e. 'az network private-dns'.. :changelog:Release History===============1.0.2+++++* Minor fixes1.0.1+++++* Minor fixes1.0.0+++++* az network private-dns: CLI for Private DNS zones.</longdescription>
+</pkgmetadata>

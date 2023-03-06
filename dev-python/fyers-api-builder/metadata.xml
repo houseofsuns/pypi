@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## Fyers Token Generator```from fyers_api_builder import FyersApiBuilder``````config = {  &quot;username&quot;: &quot;&lt;USERNAME&gt;&quot;,  &quot;password&quot;: &quot;&lt;PASSWORD&gt;&quot;,  &quot;pin&quot;: &quot;&lt;PIN&gt;&quot;,  &quot;client_id&quot;: &quot;&lt;CLIENT_ID&gt;&quot;,  &quot;secret_key&quot;: &quot;&lt;SECRET_KEY&gt;&quot;,  &quot;redirect_uri&quot;: &lt;REDIRECT_URL&gt;}```#### Initialization```from fyers_api import accessToken, fyersModelfrom fyers_api.Websocket import wsfyersApiBuilder = FyersApiBuilder(config=config, accessToken=accessToken, fyersModel=fyersModel, ws=ws)```#### HTTP Client- fyersApiBuilder.client.get_profile()- fyersApiBuilder.client.history(payload)#### WebSocket Client- fyersApiBuilder.ws_client.subscribe(payload)</longdescription>
+</pkgmetadata>

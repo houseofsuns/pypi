@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># svmbir*Python code for fast MBIR (Model Based Iterative Reconstruction)  This is a python wrapper for High Performance Imaging's supervoxel C code, [HPImaging/sv-mbirct](https://github.com/HPImaging/sv-mbirct).*Full documentation is available at: https://svmbir.readthedocs.io## Installing svmbirCurrently supporting Python 3.7-3.10, on MacOS and Linux (Windows possible but not actively maintained).**svmbir** packages are available from conda-forge and PyPI, or can be built and installed from source.- (recommended) Create a clean virtural environment, such as```conda create -n svmbir python=3.8conda activate svmbir```- To install from conda-forge,```conda install -c conda-forge svmbir```- To install from PyPI,```pip install svmbir```- Installing from source (requires GNU/gcc compiler, OMP libraries),```# In top repository folder,CC=gcc pip install .        # also supports Intel &quot;icc&quot;```See [here](https://svmbir.readthedocs.io/en/latest/install.html#)for more details.## Running the demos1. Download demo.zip at https://github.com/cabouman/svmbir/blob/master/demo.zip.2. Uncompress the zip file and change into demo folder.3. In your terminal window, install required dependencies of demo. ```pip install -r requirements_demo.txt```4. In your terminal window, use python to run each demo.</longdescription>
+</pkgmetadata>

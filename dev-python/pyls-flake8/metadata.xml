@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pyls-flake8A Flake8 plugin for the[Python LSP Server](https://github.com/python-lsp/python-lsp-server).Install this plugin in the same environment as `python-lsp-server`:```shellpip install pyls-flake8```pyls-flake8 will read its config from your project's ``setup.cfg``,``tox.ini`` or ``.flake8`` file if it has one.</longdescription>
+</pkgmetadata>

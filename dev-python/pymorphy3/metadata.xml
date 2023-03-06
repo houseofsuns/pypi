@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pymorphy3=========Morphological analyzer (POS tagger + inflection engine)for Russian and Ukrainian languages.## LinksRepo is fork of [Mikhail Korobov](https://github.com/kmike/pymorphy2) and follows all rules of MIT license.</longdescription>
+</pkgmetadata>

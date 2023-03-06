@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># QM-QUA SDKQUA is a pulse-level language used to control a Quantum System.Read more about it and it's uses here: https://arxiv.org/abs/2303.03816This package, QM-QUA, is an implementation that uses the Quantum Machines QOP controller and is used both to communicate with the QOP and to implement a Pythonic implementation (DSL) of QUA.  To learn how to use this package, please visit the documentation website at: https://qm-docs.qualang.io/</longdescription>
+</pkgmetadata>

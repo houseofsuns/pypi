@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>A library created by PhishMe Intelligence to support developing integregations with client security architecture.For more information on gaining access to PhishMe Intelligence data athttps://phishme.com/product-services/phishing-intelligenceIf you are already a customer, detailed documentation on the Intelligence API can be found athttps://www.threathq.com/documentation/display/MADThe download and/or use of this PhishMe application is subject to the terms and conditions set forth at https://phishme.com/legal/integration-applications/.Copyright 2013-2017 PhishMe, Inc.  All rights reserved.This software is provided by PhishMe, Inc. (&quot;PhishMe&quot;) on an &quot;as is&quot; basis and any express or implied warranties,including but not limited to the implied warranties of merchantability and fitness for a particular purpose, aredisclaimed in all aspects.  In no event will PhishMe be liable for any direct, indirect, special, incidental orconsequential damages relating to the use of this software, even if advised of the possibility of such damage. Use ofthis software is pursuant to, and permitted only in accordance with, the agreement between you and PhishMe.Author: PhishMe Intelligence Solutions EngineeringSupport: support@phishme.com</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>django-iris===InterSystems IRIS backend for [Django](https://www.djangoproject.com/)Prerequisites---You must install, the latest version of InterSystems IRIS DB-API Python driver```shellpip3 install intersystems_irispython-3.2.0-py3-none-any.whl```Install and usage---Install with pip`pip install django-iris`Configure the Django `DATABASES` setting similar to this:```pythonDATABASES = {    'default': {        'ENGINE': 'django_iris',        'NAME': 'USER',        'USER': '_SYSTEM',        'PASSWORD': 'SYS',        'HOST': 'localhost',        'PORT': '1972',    },}```</longdescription>
+</pkgmetadata>

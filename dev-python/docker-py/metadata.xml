@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>docker-py=========|Build Status|A Python library for the Docker Remote API. It does everything the``docker`` command does, but from within Python – run containers, managethem, pull/push images, etc.Installation------------The latest stable version is always available on PyPi.::    pip install docker-pyDocumentation-------------|Documentation Status|`Read the full documentationhere &lt;https://docker-py.readthedocs.io/en/latest/&gt;`__. The source isavailable in the ``docs/`` directory.License-------Docker is licensed under the Apache License, Version 2.0. See LICENSEfor full license text.. |Build Status| image:: https://travis-ci.org/docker/docker-py.png   :target: https://travis-ci.org/docker/docker-py.. |Documentation Status| image:: https://readthedocs.org/projects/docker-py/badge/?version=latest   :target: https://readthedocs.org/projects/docker-py/?badge=latest</longdescription>
+</pkgmetadata>

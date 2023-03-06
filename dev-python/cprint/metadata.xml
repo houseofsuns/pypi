@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![Build Status](https://travis-ci.org/EVasseure/cprint.svg?branch=master)](https://travis-ci.org/EVasseure/cprint)## cprintDo you find it annoying when you have to search for a certain debug, or error, line in your console? Have you ever dreamed of a simple and quick way to make your debug print truly visible? Well here is your solution!  cprint is a minimalist python library which gives you the possibility to print in color.  ## Install`pip install cprint`## Usage```pythonfrom cprint import *cprint(arg) # WHITEcprint.ok(arg)# BLUEcprint.info(arg)# GREENcprint.warn(arg)# YELLOWcprint.err(arg, interrupt=False)# BROWNcprint.fatal(arg, interrupt=False)# RED```![Demo](/img/screen.png)In case you have issues under Windows, try installing colorama with `pip install colorama`.</longdescription>
+</pkgmetadata>

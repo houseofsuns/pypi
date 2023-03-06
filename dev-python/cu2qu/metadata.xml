@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>cu2qu=====This library provides functions which take in UFO objects (Defcon Fontsor Robofab RFonts) and converts any cubic curves to quadratic. The mostuseful function is probably ``fonts_to_quadratic``.This library is now maintained as part of https://github.com/fonttools/fonttools</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## Links- Documentation: [warn-transformer.readthedocs.io](https://warn-transformer.readthedocs.io)- Repository: [github.com/biglocalnews/warn-transformer](https://github.com/biglocalnews/warn-transformer)- Packaging: [pypi.org/project/warn-transformer](https://pypi.org/project/warn-transformer/)## AboutThe project is sponsored by [Big Local News](https://biglocalnews.org/#/about), a program at Stanford University that collects data for impactful journalism. The code is maintained by [Ben Welsh](https://palewi.re/who-is-ben-welsh/), a visiting data journalist from the Los Angeles Times.</longdescription>
+</pkgmetadata>

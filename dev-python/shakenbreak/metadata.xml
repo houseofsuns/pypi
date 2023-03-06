@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Python package to automate the process of defect structure searching. &lt;br&gt;Employs chemically-guided bond distortions to locate ground-state and metastable structures of point defects in solid materials. &lt;br&gt;Read the [docs](https://shakenbreak.readthedocs.io/en/latest/index.html) for more info.</longdescription>
+</pkgmetadata>

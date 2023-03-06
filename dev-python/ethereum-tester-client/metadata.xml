@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Ethereum Tester Client[![Build Status](https://travis-ci.org/pipermerriam/ethereum-tester-client.png)](https://travis-ci.org/pipermerriam/ethereum-tester-client)   Python client for testing applications that use either the[ethereum-rpc-client](https://github.com/pipermerriam/ethereum-rpc-client) or the [ethereum-ipc-client](https://github.com/pipermerriam/ethereum-ipc-client).</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=====================Django Simple Options=====================.. image:: https://travis-ci.org/marcosgabarda/django-simple-options.svg?branch=master    :target: https://travis-ci.org/marcosgabarda/django-simple-options.. image:: https://coveralls.io/repos/github/marcosgabarda/django-simple-options/badge.svg?branch=master    :target: https://coveralls.io/github/marcosgabarda/django-simple-options?branch=masterSimple app to add configuration options to a Django project.Quick start-----------**1** Install using pip::    $ pip install django-simple-options**2** Add &quot;options&quot; to your INSTALLED_APPS settings like this::    INSTALLED_APPS += ('options',)Settings options----------------Use ``SIMPLE_OPTIONS_CONFIGURATION_DEFAULT`` to set the default options::    SIMPLE_OPTIONS_CONFIGURATION_DEFAULT = {        &quot;sold_out&quot;: {            &quot;value&quot;: 0,            &quot;type&quot;: INT,            &quot;public_name&quot;: &quot;Sets tickets as sold out&quot;        },    }</longdescription>
+</pkgmetadata>

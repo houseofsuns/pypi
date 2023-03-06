@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>======polint======.. image:: https://img.shields.io/pypi/v/polint.svg    :target: https://pypi.org/project/polint/    :alt: PyPI.. image:: https://img.shields.io/pypi/l/polint.svg    :target: https://pypi.org/project/polint/    :alt: Licence.. image:: https://img.shields.io/pypi/pyversions/polint.svg    :target: https://pypi.org/project/polint/    :alt: Python versions.. image:: https://travis-ci.org/ziima/polint.svg?branch=master    :target: https://travis-ci.org/ziima/polint    :alt: Travis CI.. image:: https://codecov.io/gh/ziima/polint/branch/master/graph/badge.svg    :target: https://codecov.io/gh/ziima/polint    :alt: Codecov``polint`` is a linter for gettext PO files. It validates PO files against defined convensions.-----Usage-----::    polint.py [options] &lt;path&gt;...    polint.py -h | --help    polint.py --versionTo print complete usage use ``--help`` option.------Errors------* ``fuzzy`` - Translation is fuzzy* ``obsolete`` - Entry is obsolete* ``untranslated`` - Translation is missing. That includes ``fuzzy`` or ``obsolete``.* ``location`` - Entry contains location data* ``unsorted`` - Entry is not properly sorted---------Changelog---------0.4=== * Fix installation in environment with C locales.0.3=== * Use ``docopt`` for argument parsing. * Recursively search directories for ``.po`` files.0.2=== * Add sort validator0.1=== * Initial version</longdescription>
+</pkgmetadata>

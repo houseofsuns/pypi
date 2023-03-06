@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># duckcliA command-line client for DuckDB databases that has auto-completion and syntax highlighting.![Completion](screenshots/duckcli.png)## InstallationYou can install it via pip:```$ pip install -U duckcli```## Usage```$ duckcli --helpUsage: duckcli [OPTIONS] [DATABASE]Examples:  - duckcli duckdb_filename```A config file is automatically created at `~/.config/duckcli/config` at first launch. For Windows machines a config file is created at `~\AppData\Local\dbcli\duckcli\config` at first launch. See the file itself for a description of all available options.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>def print_message(midi):    if midi.isNoteOn():        print 'ON: ', midi.getMidiNoteName(midi.getNoteNumber()), midi.getVelocity()    elif midi.isNoteOff():        print 'OFF:', midi.getMidiNoteName(midi.getNoteNumber())    elif midi.isController():        print 'CONTROLLER', midi.getControllerNumber(), midi.getControllerValue()import rtmidimidiin = rtmidi.RtMidiIn()ports = range(midiin.getPortCount())if ports:    for i in ports:        print midiin.getPortName(i)    midiin.openPort(1)    while True:        m = midiin.getMessage(250) # some timeout in ms        if m != None:            print_message(m)else:    print 'NO MIDI INPUT PORTS!'Home-page: https://github.com/patrickkidd/pyrtmidiAuthor: Patrick StinsonAuthor-email: patrickkidd@gmail.comLicense: UNKNOWNDownload-URL: https://github.com/patrickkidd/pyrtmidi/tarball/2.3.4Description: UNKNOWNKeywords: midi audio hardwarePlatform: UNKNOWNClassifier: Development Status :: 5 - Production/StableClassifier: Intended Audience :: DevelopersClassifier: Programming Language :: Python :: 3Classifier: Programming Language :: Python :: 3.4</longdescription>
+</pkgmetadata>

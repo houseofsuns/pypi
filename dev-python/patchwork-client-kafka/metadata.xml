@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Patchwork Client KafkaKafka Client implementation for Patchwork - an asynchronous distributed microframework.Currently, only asynchronous client is implemented.## Requirements* Python 3.7## Installation``pip install patchwork-client-kafka`## Documentationhttps://patchwork-framework.gitlab.io/core</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># vitya**WARNING**: This library is still in development stage.Validators for different russian banking values.  Values you can validate:- ИНН ```validate_inn```    - ИНН для ИП/Физ.Лица ```validate_inn_ip```    - ИНН для Юр.Лица ```validate_inn_le```- КПП ```validate_kpp```- БИК ```validate_bic```- ОГРН ```validate_ogrn```    - ОГРНИП ```validate_ogrnip```- СНИЛС ```validate_snils```- ОКТМО ```validate_oktmo```You should pass value as ```str```, otherwise exception will be raised.  If passed value is wrong, all functions will raise ```ValidationError```.Also, optionally, you can use validators as Pydantic fields### Examples:```pythonvalidate_inn(&quot;3664069397&quot;)try:    validate_inn(&quot;770708389&quot;)except ValidationError as e:    print(f&quot;wrong inn: {e}&quot;)``````pythonvalidate_kpp(&quot;616401001&quot;)validate_bic(&quot;044525901&quot;)validate_ogrn(&quot;1027700132195&quot;)validate_snils(&quot;11223344595&quot;)validate_oktmo(&quot;69701000001&quot;)``````pythonfrom pydantic import BaseModel, ValidationErrorfrom vitya.pydantic_fields import INNclass InnModel(BaseModel):    inn: INNinn_model = InnModel(inn=&quot;302502032671&quot;)assert inn_model.inn == &quot;302502032671&quot;try:    InnModel(inn=&quot;3664069398&quot;)except ValidationError as e:    print(e.errors())```</longdescription>
+</pkgmetadata>

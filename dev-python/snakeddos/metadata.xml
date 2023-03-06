@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Snake DDoSA Python DDoS library\Python version: 3.11\For testing purposes only## Basic Usage```from snakeddos import SnakeDDoSif __name__ == '__main__':    atk = SnakeDDoS()    atk.procedure()```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>A command-line tool for populating ubi repositories.# Cli usageCli can be run by *ubipop* with arguments:- positional arguments:  - content_sets: list of content sets to be processed- optional arguments:  - -h, --help: show this help message and exit  - --pulp-hostname HOSTNAME: hostname of Pulp server  - --user USER: username for authentication to Pulp  - --password PASSWORD: password for authentication to Pulp  - --dry-run: if True, print pulp actions only, do not execute# Development-----------Patches may be contributed via pull requests tohttps://github.com/release-engineering/ubi-population-toolAll changes must pass the automated test suite, along with various staticchecks.The [Black](https://black.readthedocs.io/) code style is enforced.Enabling autoformatting via a pre-commit hook is recommended:```pip install -r requirements-dev.txtpre-commit install```</longdescription>
+</pkgmetadata>

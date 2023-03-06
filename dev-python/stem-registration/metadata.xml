@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Default configs:SHOW_LOGIN = TrueSHOW_LAST_FIRST_NAME = TrueSHOW_CONTRACTOR_TYPE = TrueSHOW_ADDRESS = TrueSHOW_BILLING_ADDRESS = TrueSHOW_NUMBER = TrueNUMBER_IS_REQUIRED = TrueSHOW_TAX_NUMBER = TrueTAX_NUMBER_IS_REQUIRED = TrueSHOW_ID_CARD_FIELDS = TrueSHOW_NAME_LEGAL = TrueNAME_LEGAL_IS_REQUIRED = FalseSHOW_ACCOUNTING_NUMBER = TrueDEFAULT_COUNTRY = UKRADDRESS_IS_REQUIRED = True</longdescription>
+</pkgmetadata>

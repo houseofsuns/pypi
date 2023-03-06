@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![DL stat](https://img.shields.io/pypi/v/mypdns.png)](https://pypi.org/project/mypdns)[![Downloads Total](https://static.pepy.tech/personalized-badge/mypdns?period=total&amp;units=none&amp;left_color=black&amp;right_color=brightgreen&amp;left_text=Downloads%20Total)](https://pepy.tech/project/mypdns)[![Downloads Month](https://static.pepy.tech/personalized-badge/mypdns?period=month&amp;units=none&amp;left_color=black&amp;right_color=brightgreen&amp;left_text=Downloads%20Month)](https://pepy.tech/project/mypdns)[![Downloads Week](https://static.pepy.tech/personalized-badge/mypdns?period=week&amp;units=none&amp;left_color=black&amp;right_color=brightgreen&amp;left_text=Downloads%20Week)](https://pepy.tech/project/mypdns)[![My Privacy DNS Release](https://github.com/mypdns/mypdns/actions/workflows/master.yaml/badge.svg?branch=master)](https://github.com/mypdns/mypdns/actions/workflows/master.yaml)Namespace Reservation for the [mypdns.org](https://mypdns.org/python/mypdns) project</longdescription>
+</pkgmetadata>

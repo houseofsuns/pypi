@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pypers&lt;p align=&quot;center&quot;&gt;    &lt;a href=&quot;https://pypi.org/project/PyPers/&quot;&gt;&lt;img src=&quot;https://img.shields.io/pypi/v/PyPers&quot; alt=&quot;PyPI&quot;&gt;&lt;/a&gt;    &lt;a href=&quot;https://github.com/Divkix/PyPers/actions&quot;&gt;&lt;img src=&quot;https://github.com/Divkix/PyPers/workflows/CI%20%28pip%29/badge.svg&quot; alt=&quot;CI (pip)&quot;&gt;&lt;/a&gt;    &lt;a href=&quot;https://pypi.org/project/pypers/&quot;&gt;&lt;img src=&quot;https://img.shields.io/pypi/wheel/PyPers.svg&quot; alt=&quot;PyPI - Wheel&quot;&gt;&lt;/a&gt;    &lt;a href=&quot;https://pypi.org/project/pypers/&quot;&gt;&lt;img src=&quot;https://img.shields.io/pypi/pyversions/PyPers.svg&quot; alt=&quot;Supported Python Versions&quot;&gt;&lt;/a&gt;    &lt;a href=&quot;https://pepy.tech/project/PyPers&quot;&gt;&lt;img src=&quot;https://pepy.tech/badge/PyPers&quot; alt=&quot;Downloads&quot;&gt;&lt;/a&gt;&lt;/p&gt;Package with helper scripts.Contains some helper function which make up its name: python+helpers = pypers.Read the docs:https://pypers.divkix.me</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ZwlibZwLib is a package that provides a series of utility functions for Convo studio, HyperPM, and AIForYou products.## Features- Easy-to-use API request functions with built-in error handling- Functions for handling image, video, and payment meta-data- Building NLP Models- Compatible with Python 3.6 and above## InstallationTo install Zwlib, simply run:```bashpip install zwlib</longdescription>
+</pkgmetadata>

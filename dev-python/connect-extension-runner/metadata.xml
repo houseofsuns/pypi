@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># CloudBlue Connect EaaS Extension Runner![pyversions](https://img.shields.io/pypi/pyversions/connect-extension-runner.svg) [![PyPi Status](https://img.shields.io/pypi/v/connect-extension-runner.svg)](https://pypi.org/project/connect-extension-runner/) [![Build Connect Reports Core](https://github.com/cloudblue/connect-extension-runner/actions/workflows/build.yml/badge.svg)](https://github.com/cloudblue/connect-extension-runner/actions/workflows/build.yml) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=connect-extension-runner&amp;metric=alert_status)](https://sonarcloud.io/dashboard?id=connect-extension-runner) [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=connect-extension-runner&amp;metric=coverage)](https://sonarcloud.io/dashboard?id=connect-extension-runner) [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=connect-extension-runner&amp;metric=sqale_rating)](https://sonarcloud.io/dashboard?id=connect-extension-runner)![Docker Image Version (latest semver)](https://img.shields.io/docker/v/cloudblueconnect/connect-extension-runner?label=docker%20version&amp;sort=semver)![Docker Image Size (latest semver)](https://img.shields.io/docker/image-size/cloudblueconnect/connect-extension-runner?label=docker%20image%20size&amp;sort=semver)![Docker Pulls](https://img.shields.io/docker/pulls/cloudblueconnect/connect-extension-runner)</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>NIP is a yaml-like config files parser for convenient python object construction and experiment holding.Short guide can be found here: https://github.com/spairet/nip/tree/main/doc</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This plugin makes the [Pololu 3pi+ 2040Robot](https://www.pololu.com/3pi) more usable with Thonny.  It'smostly a copy of the built-in Pico plugin, but with &quot;remote&quot; files anddirectories disabled, since they are unnecessary for our version ofMicroPython and can be confusing.To install the plugin, open Thonny's &quot;Tools&quot; menu, click &quot;Manageplug-ins...&quot;, and search for &quot;thonny-pololu&quot;.  You will need torestart after installing.To build the project, see [Packaging PythonProjects](https://packaging.python.org/en/latest/tutorials/packaging-projects/).More information about maintaining plugins is available[here](https://github.com/thonny/thonny/wiki/Plugins).</longdescription>
+</pkgmetadata>

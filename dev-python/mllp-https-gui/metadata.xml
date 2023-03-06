@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># MLLP/HTTP(S)[![PyPI](https://img.shields.io/pypi/v/mllp-https-gui)](https://pypi.org/project/mllp-https-gui/)GUI for the [Project](https://github.com/tiagoepr/mllp-https/) mllp-https, by: Tiago Rodrigues, 2022 &lt;br&gt;&lt;p align=&quot;center&quot;&gt;  &lt;img src=&quot;https://github.com/tiagoepr/mllp-https/raw/master/doc/logo.png&quot;&gt;&lt;/p&gt;</longdescription>
+</pkgmetadata>

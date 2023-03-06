@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Sweatpy[![Downloads](https://pepy.tech/badge/sweat)](https://pepy.tech/project/sweat)&gt; :warning: **Sweatpy is currently undergoing major revisions which will result in deprecations and backwards incompatible changes. We recommend pinning your sweatpy dependency in your requirements.txt file (e.g. `sweat==0.19.0`).**Documentation can be found [here](https://sweatpy.gssns.io).## Contributors[Maksym Sladkov](https://github.com/sladkovm)[Aart Goossens](https://github.com/AartGoossens)## LicenseSee [LICENSE](LICENSE) file.</longdescription>
+</pkgmetadata>

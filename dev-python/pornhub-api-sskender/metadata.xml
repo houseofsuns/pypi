@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># PornHub Unofficial APIUnofficial API for pornhub.com in Python## Usage#### Create client```pythonimport pornhubclient = pornhub.PornHub()```#### Create client with proxy ```pythonimport pornhubclient = pornhub.PornHub(&quot;5.135.164.72&quot;, 3128)#With proxy, given a Proxy IP and Port. For the countries with restricted access like Turkey, etc.```#### Grab stars```pythonfor star in client.getStars(10):    print(star)    print(star[&quot;name&quot;])```#### Create client with search keywords```pythonkeywords = [&quot;word1&quot;, &quot;word2&quot;]client = pornhub.PornHub(keywords)for video in client.getVideos(10,page=2):    print(video)    print(video[&quot;url&quot;])```## LicenseMIT license</longdescription>
+</pkgmetadata>

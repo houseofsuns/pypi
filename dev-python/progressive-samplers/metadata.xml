@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Project name here&gt; Summary description here.This file will become your README and also the index of your documentation.## Install`pip install your_project_name`## How to useFill me in please! Don't forget code examples:```python1+1```    2</longdescription>
+</pkgmetadata>

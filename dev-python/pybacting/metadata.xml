@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pybacting[![Tests](https://github.com/cthoyt/pybacting/actions/workflows/tests.yml/badge.svg)](https://github.com/cthoyt/pybacting/actions/workflows/tests.yml)[![PyPI](https://img.shields.io/pypi/v/pybacting)](https://pypi.org/project/pybacting/)![PyPI - License](https://img.shields.io/pypi/l/pybacting)![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pybacting)[![Documentation Status](https://readthedocs.org/projects/pybacting/badge/?version=latest)](https://pybacting.readthedocs.io/en/latest/?badge=latest)[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)[![DOI](https://zenodo.org/badge/390711946.svg)](https://zenodo.org/badge/latestdoi/390711946)Python wrapper around [Bacting](https://github.com/egonw/bacting).## UsageBased on the example from the Bacting page, you can do:```pythonfrom pybacting import cdkprint(cdk.fromSMILES(&quot;COC&quot;))```Or you can use some of the more pythonic functions that wrap the functionsexposed through the `pybacting.cdk` object:```pythonimport pybactingprint(pybacting.from_smiles(&quot;COC&quot;))```## InstallationBefore installing, you'll need to make sure Maven (`mvn`) is available on yourpath. If you're on mac, use `brew install maven`.```shell$ pip install pybacting```Install the latest code from GitHub:```shell$ pip install git+https://github.com/cthoyt/pybacting```Download and install from source in development mode:```shell$ git clone https://github.com/cthoyt/pybacting$ cd pybacting$ pip install --editable .```</longdescription>
+</pkgmetadata>

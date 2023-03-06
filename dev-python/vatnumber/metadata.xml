@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>vatnumber=========Python module to validate VAT numbers.Nutshell--------Here a simple example to validate VAT numbers format::    &gt;&gt;&gt; import vatnumber    &gt;&gt;&gt; vatnumber.check_vat('BE0123456749')    TrueHere a simple example to validate European VAT through VIES service::    &gt;&gt;&gt; import vatnumber    &gt;&gt;&gt; vatnumber.check_vies('BE0897290877')    TrueFor more information please visit the `vatnumber website`_... _vatnumber website: http://code.google.com/p/vatnumber/</longdescription>
+</pkgmetadata>

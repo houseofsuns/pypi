@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># This package is a shimThis module allows to use [disnake](https://github.com/DisnakeDev/disnake) using `discord` namespace. This is not an independent library.# Installing**Python 3.8 or higher is required**Run the following command:```sh# Linux/macOSpython3 -m pip install -U &quot;disnake[discord]&quot;# Windowspy -3 -m pip install -U disnake[discord]```# Links- [Documentation](https://docs.disnake.dev/en/latest)- [disnake GitHub](https://github.com/DisnakeDev/disnake)- [disnake Discord](https://discord.gg/gJDbCw8aQy)</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Peach Runner============This test runner will send requests via Peach API Security to perform testingof a target api.  There are several methods for sending requests:  - Burp file with recorded requests. Each request is tested one at a time.  - Postman collection with requests. Each request is tested one at a time.  - Single command line (ex: curl, python script, etc.)  - Text file with one-command per line  - Directory with executable scripts/programs, each executed in sequenceInstallation------------Install required python dependencies with internet connection.$ pip install -r requirements.txtOffline Installation--------------------Install required python dependencies using our offline dependenciesfolder.$ pip install --no-index --find-links ../../deps -r requirements.txt</longdescription>
+</pkgmetadata>

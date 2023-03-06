@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># OBytes Django Survey App[![Build &amp; Test](https://github.com/obytes/ob-dj-survey/actions/workflows/test-build.yml/badge.svg)](https://github.com/obytes/ob-dj-survey/actions/workflows/test-build.yml)[![Publish to PyPI](https://github.com/obytes/ob-dj-survey/actions/workflows/release.yml/badge.svg)](https://github.com/obytes/ob-dj-survey/actions/workflows/release.yml)Survey Django Application is designed to be a simple and easy to use survey application for Django, which can be used to collect data from users.## Quick start1. Install `ob-dj-survey` latest version `pip install ob-dj-survey`2. Add &quot;ob_dj_survey&quot; to your `INSTALLED_APPS` setting like this:```python   # settings.py   INSTALLED_APPS = [        ...        &quot;ob_dj_survey.core.survey&quot;,   ]```3. Include the  URLs in your project urls.py like this:```python   # urls.py   path(&quot;survey/&quot;, include(&quot;ob_dj_survey.apis.survey.urls&quot;)),```4. Run ``python manage.py migrate`` to create the survey models.## Developer Guide1. Clone github repo `git clone [url]`2. `pipenv install --dev`3. `pre-commit install`4. Run unit tests `make test`</longdescription>
+</pkgmetadata>

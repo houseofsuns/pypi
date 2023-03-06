@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># nidhoggr-coreThis package contains all domain model for [nighoggr] library forconvenient interop with other Python applications (like[nidhoggr-requests]).[nidhoggr]: https://pypi.org/project/nidhoggr/[nidhoggr-requests]: https://pypi.org/project/nidhoggr-requests/# History## 0.5.0 (2020-01-10)* **Breaking** Always return User from UserRepository## 0.4.1 (2020-01-09)* Improved API consistency## 0.4.0 (2020-01-09)* **Breaking** Split StatusResponse on two classes## 0.3.0 (2020-01-06)* **Breaking** Return StatusResponse from each method of repositories## 0.1.0 (2019-12-31)* First release on PyPI.</longdescription>
+</pkgmetadata>

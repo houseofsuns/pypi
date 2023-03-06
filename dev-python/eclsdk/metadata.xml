@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Enterprise Cloud 2.0 Python SDK================================The ``eclsdk`` is a collection of libraries for buildingapplications to work with Enterprise Cloud 2.0.Usage-----The following example simply connects to an Enterprise Cloud 2.0.::    import ecl    conn = ecl.connection.Connection(        auth_url=&quot;http://ecl:5000/v3/&quot;,        project_id=&quot;Tenant ID&quot;,        username=&quot;API Key&quot;,        password=&quot;API Secret Key&quot;,        user_domain_id=&quot;default&quot;,        project_domain_id=&quot;default&quot;)    vols = conn.block_store.volumes()    for vol in vols:        print vol.nameToken can be used instead of username/password using auth_plugin='token'::    import ecl    conn = ecl.connection.Connection(        auth_plugin='token'        token='my-fancy-token1234'        auth_url=&quot;http://ecl:5000/v3/&quot;,        project_id=&quot;Tenant ID&quot;)    vols = conn.block_store.volumes()    for vol in vols:        print vol.nameDocumentation-------------Documentation is available athttps://ecl.ntt.comLicense-------Apache 2.0</longdescription>
+</pkgmetadata>

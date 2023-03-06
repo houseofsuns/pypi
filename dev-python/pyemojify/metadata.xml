@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Pyemojify=========|Latest Version| |Build Status| |Python Versions|Substitutes emoji aliases to emoji raw characters. Simple but sweet:smile:Installation------------::    $ pip install pyemojifyUsage-----CLI~~~Use ``pyemojify -t text``, for example:::    $ pyemojify -t &quot;Life is short :smile: , use :sparkles: Python :sparkles:&quot;    Life is short 😄 , use ✨ Python ✨.Pyemojify also support pipeline, for example:::    $ echo &quot;Life is short :smile: , use :sparkles: Python :sparkles:&quot; | pyemojify    Life is short 😄 , use ✨ Python ✨.This one is very useful for git commit messages, use the following oneand you'll see you emoji friends again!::    $ git log --oneline --color | pyemojify | lessAPI~~~::    &gt;&gt;&gt; from pyemojify import emojify    &gt;&gt;&gt; text = emojify(&quot;Life is short :smile: , use :sparkles: Python :sparkles:&quot;)    &gt;&gt;&gt; print(text)    Life is short 😄 , use ✨ Python ✨.Credits-------It's a python port of the original`emojify &lt;https://github.com/mrowa44/emojify&gt;`__, all the glories shouldbelong to `mrowa44 &lt;https://github.com/mrowa44&gt;`__.License-------MIT.. |Latest Version| image:: http://img.shields.io/pypi/v/pyemojify.svg   :target: https://pypi.python.org/pypi/pyemojify.. |Build Status| image:: https://travis-ci.org/lord63/pyemojify.svg   :target: https://travis-ci.org/lord63/pyemojify.. |Python Versions| image:: https://img.shields.io/pypi/pyversions/pyemojify.svg   :target: https://pypi.python.org/pypi/pyemojify</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># sqlalchemy-databricks![pypi](https://img.shields.io/pypi/v/sqlalchemy-databricks.svg)![pyversions](https://img.shields.io/pypi/pyversions/sqlalchemy-databricks.svg)A SQLAlchemy Dialect for Databricks workspace and sql analytics clusters using the officially supported [databricks-sql-connector](https://pypi.org/project/databricks-sql-connector/) dbapi.## InstallationInstall using pip.```bashpip install sqlalchemy-databricks```## UsageInstalling registers the ``databricks+connector`` dialect/driver with SQLAlchemy. Fill in the required information when passing the engine URL. The http path can be for either a workspace or sql analytics cluster.```pythonfrom sqlalchemy import *from sqlalchemy.engine import create_engineengine = create_engine(    &quot;databricks+connector://token:&lt;databricks_token&gt;@&lt;databricks_host&gt;:443/&lt;database_or_schema_name&gt;&quot;,    connect_args={        &quot;http_path&quot;: &quot;&lt;cluster_http_path&gt;&quot;,    },)logs = Table(&quot;my_table&quot;, MetaData(bind=engine), autoload=True)print(select([func.count(&quot;*&quot;)], from_obj=logs).scalar())```</longdescription>
+</pkgmetadata>

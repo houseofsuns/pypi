@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Kamzik3 is a modular and lightweight experiment control framework written in Python3.It is focused on minimalist yet unified way to control and orchestrate wide range ofdevices used in experimental setup.It uses ZeroMQ to exchange messages between server and clients. Qt5 is used for thegraphical interface. Kamzik3 provides tools for logging, visualizing and evaluationof experimental data. Users can create and execute custom macros and scans using thebuilt-in macro-server.The experimental setup is defined in one configuration file written in YAML,human-readable data serialization standard.The framework can be downloaded from PyPI (https://pypi.org/project/kamzik3/).Documentation=============The documentation is available at: https://cfel-sc-public.pages.desy.de/kamzik3/Requirements============  * Python: 3.8 or 3.9  **Python Modules: Backend**  * numpy  * pyzmq  * pint  * bidict  * pyqt5  * pyqtgraph  * pyserial  * oyaml  * psutil  * natsort  * reportlab  * pandas  * tables  **Python Modules: Optional**  * pytango  * pyopengl  * sysutil  * pydaqmx  * pypiwin32  * rocketchat-API  * pytest  * pytest-cov  * pytest-lazy-fixture  * pytest-mockChangelog=========.. include:: HISTORY.rst  :end-before: EOF</longdescription>
+</pkgmetadata>

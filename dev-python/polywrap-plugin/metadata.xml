@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># polywrap-wasmPython implementation of the plugin wrapper runtime.## Usage### Invoke Plugin Wrapper```pythonfrom typing import Any, Dict, List, Union, Optionalfrom polywrap_manifest import AnyWrapManifestfrom polywrap_plugin import PluginModulefrom polywrap_core import Invoker, Uri, InvokerOptions, UriPackageOrWrapper, Envclass GreetingModule(PluginModule[None]):    def __init__(self, config: None):        super().__init__(config)    def greeting(self, args: Dict[str, Any], client: Invoker[UriPackageOrWrapper], env: Optional[Env] = None):        return f&quot;Greetings from: {args['name']}&quot;manifest = cast(AnyWrapManifest, {})wrapper = PluginWrapper(greeting_module, manifest)args = {    &quot;name&quot;: &quot;Joe&quot;}options: InvokeOptions[UriPackageOrWrapper] = InvokeOptions(    uri=Uri.from_str(&quot;ens/greeting.eth&quot;),    method=&quot;greeting&quot;,    args=args)invoker: Invoker = ...result = await wrapper.invoke(options, invoker)assert result, &quot;Greetings from: Joe&quot;```</longdescription>
+</pkgmetadata>

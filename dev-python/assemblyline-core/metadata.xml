@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Assemblyline 4 - Core servicesThis repository provides cores services for Assemblyline 4.#### Core Services ##### Alerter Create alerts for the different submissions in the system.##### DispatcherRoute the files in the system while a submission is tacking place. Make sure all files during a submission are completed by all required services.##### ExpiryDelete submissions and their results when their TTL expires.##### IngesterMove ingested files from the priority queues to the processing queues.##### MetricsGenerates metrics of the different components in the system.##### ScalerSpin up and down services in the system depending on the load.##### UpdaterMake sure the different services get their latest update files.##### WorkflowRun the different workflows in the system and apply their labels, priority and status.</longdescription>
+</pkgmetadata>

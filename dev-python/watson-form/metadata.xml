@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Watson-Form===========Make working with HTML forms more tolerable.For full documentation please see [Read TheDocs](http://watson-form.readthedocs.org/).Build Status------------[![BuildStatus](https://img.shields.io/travis/watsonpy/watson-form.svg?maxAge=2592000)](https://travis-ci.org/watsonpy/watson-form)[![CoverageStatus](https://img.shields.io/coveralls/watsonpy/watson-form.svg?maxAge=2592000)](https://coveralls.io/r/watsonpy/watson-form)[![Version](https://img.shields.io/pypi/v/watson-form.svg?maxAge=2592000)](https://pypi.python.org/pypi/watson-form/)### Installation`pip install watson-form`### Dependencies-   watson-common-   watson-html-   watson-validators-   watson-filters#### Optional-   watson-http</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## AGZ Library**This is fast and easy library for making rubika self bots**## Example``` pythonfrom agz.rubika import Botfrom agz.socket import _Socketauth = &quot;Auth Acount&quot;socket , bot = _Socket(auth) , Bot(auth)for msg in agz.handler():    guid = socket.object_guid(msg)    user = socket.author_object_guid(msg)    msg_id = socket.message_id(msg)    guid_type = socket.guid_type(msg)    action = socket.action(msg)    text = socket.text(msg)    print(text)    if text == &quot;hello&quot;:        bot.sendMessage(guid , &quot;hi&quot; , msg_id)```### Installing``` bashpip3 install agz```© 2022 Ali Ganji zadeh</longdescription>
+</pkgmetadata>

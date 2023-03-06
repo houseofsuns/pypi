@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>********glpi-api********https://di.pages.unistra.fr/glpi/python-glpi-api/`Changelog &lt;https://github.com/unistra/python-glpi-api/blob/master/CHANGELOG.rst&gt;`__</longdescription>
+</pkgmetadata>

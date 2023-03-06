@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># apache-airflow-providers-sktvane###```shell# build$ python setup.py sdist bdist_wheel# upload$ twine upload dist/*# remove$ rm -rf build dist apache_airflow_providers_sktvane.egg-info ```</longdescription>
+</pkgmetadata>

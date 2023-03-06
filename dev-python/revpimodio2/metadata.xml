@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Das Modul stellt alle Devices und IOs aus der piCtory Konfiguration in Python3 zur Verfügung. Es ermöglicht den direkten Zugriff auf die Werte über deren vergebenen Namen. Lese- und Schreibaktionen mit dem Prozessabbild werden von dem Modul selbst verwaltet, ohne dass sich der Programmierer um Offsets und Adressen kümmern muss. Für die Gatewaymodule wie ModbusTCP oder Profinet sind eigene 'Inputs' und 'Outputs' über einen bestimmten Adressbereich definierbar. Auf diese IOs kann mit Python3 über den Namen direkt auf die Werte zugegriffen werden.</longdescription>
+</pkgmetadata>

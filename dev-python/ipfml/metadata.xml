@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Image Processing For Machine Learning=====================================![](https://img.shields.io/github/workflow/status/prise-3d/ipfml/build?style=flat-square) ![](https://img.shields.io/pypi/v/ipfml?style=flat-square) ![](https://img.shields.io/pypi/dm/ipfml?style=flat-square)&lt;p align=&quot;center&quot;&gt;    &lt;img src=&quot;https://github.com/prise-3d/ipfml/blob/master/ipfml_logo.png&quot; alt=&quot;&quot; width=&quot;40%&quot;&gt;&lt;/p&gt;Installation------------```bashpip install ipfml```How to use ?------------To use, simply do :```pythonfrom PIL import Imagefrom ipfml.processing import transformimg = Image.open('path/to/image.png')s = transform.get_LAB_L_SVD_s(img)```Modules-------This project contains modules.- **metrics** : *Metrics computation for model performance*- **utils** : *All utils functions developed for the package*- **exceptions** : *All customized exceptions*- **filters** : *Image filter module with convolution*- **iqa** : *Image quality assessments*- **processing** : *Image processing module*All these modules will be enhanced during development of the package. Documentation is available [here](https://prise-3d.github.io/ipfml/).How to contribute-----------------Please refer to the [guidelines](CONTRIBUTING.md) file if you want to contribute!## Contributors* [jbuisine](https://github.com/jbuisine)## License[MIT](LICENSE)</longdescription>
+</pkgmetadata>

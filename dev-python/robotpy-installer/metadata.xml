@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>robotpy-installer=================The RobotPy installer can be used to:* Install RobotPy on your RoboRIO* Install python packages on your RoboRIO via pip* Install binary packages from NI and distributed by the RobotPy project via opkgIt can install downloaded packages on your RoboRIO without requiring internetaccess, which makes it usable in a competition (provided you downloaded thenecessary packages when you were connected to the internet).For more information about installing and using the RobotPy installer, see `http://robotpy.readthedocs.io/en/stable/install/packages.html &lt;http://robotpy.readthedocs.io/en/stable/install/packages.html&gt;`_</longdescription>
+</pkgmetadata>

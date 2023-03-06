@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Salt connector for netunicorn This is a connector for netunicorn platform to saltstack-managed infrastructure.## Installation```bashpip install netunicorn-connector-salt```## UsageCreate a configuration file (see [example](configuration-example.yaml)). Then, add the connector informationto the main configuration file of netunicorn-director-infrastructure module (see corresponding repo).This connector represents saltstack-managed infrastructure to netunicorn platform.It works via Salt CherryPy API and requires a corresponding Salt configuration changes.### Salt configurationIn master configuration file (usually `/etc/salt/master`) specify the following options:```yaml# external_auth configurationexternal_auth:  pam:    remoteusername:      - .*      - '@wheel'      - '@runner'      - '@jobs'...# cherrypy configurationrest_cherrypy:  port: your_cherrypy_port  host: your_cherrypy_host```See the Salt's documentation for more details.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pyft232This module provides a simple Serial-Like interface to FT232 chips while stillallowing access to the CBUS pins for controlling simple signals.Ctypes is used to interface with either FTDI's d2xx library (when available)or libftdi. In this way this package works on both Windows and Linux (and otherlibftdi supported OS's) without needing to mess with the FTDI drivers on windows.In contrast, pyftdi is more feature rich and also cross platform but requiresspecial drivers on windows so you can't also use the FTDI chip as a pureCOM port.## Usage```pythonimport ft232serial_number = &quot;FT1234&quot;try:    sp = ft232.Ft232(serial_number, baudrate=115200)except ft232.Ft232Exception:    print(&quot;Unable to open the ftdi device: %s&quot; % serial_number)    sys.exit(1)#You may use sp as you would a Serial objectsp.write(b&quot;Hello World!\n&quot;)resp = sp.read(100)#If you want to use the CBUS pins, you enable them with cbus_setup# 'mask' is a bitmask which specifies which pins to enable# 'init' is a bitmask for the initial value for each pinsp.cbus_setup(mask=3, init=3)#Change the current value of all setup pinssp.cbus_write(2)#Print the current value of all setup pinsprint(&quot;CBUS: %s&quot; % sp.cbus_read())```</longdescription>
+</pkgmetadata>

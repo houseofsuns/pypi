@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>========pygal.js========.. list-table::    :stub-columns: 1    * - package      - |version| |downloads|.. |version| image:: https://img.shields.io/pypi/v/pygaljs.svg?style=flat    :alt: PyPI Package latest release    :target: https://pypi.python.org/pypi/pygaljs.. |downloads| image:: https://img.shields.io/pypi/dm/pygaljs.svg?style=flat    :alt: PyPI Package monthly downloads    :target: https://pypi.python.org/pypi/pygaljsPython package providing assets from https://github.com/Kozea/pygal.js* Free software: LGPLv3 licenseInstallation============::    pip install pygaljsReleasing=========::    git submodule foreach &quot;git fetch; git reset --hard origin/gh-pages&quot;    git submodule syncChangelog=========1.0.2 (2020-04-03)------------------* Fixed pytest section name in ``setup.cfg``.1.0.1 (2015-09-04)------------------* Updated files from upstream.1.0.0 (2015-08-13)------------------* First release on PyPI.</longdescription>
+</pkgmetadata>

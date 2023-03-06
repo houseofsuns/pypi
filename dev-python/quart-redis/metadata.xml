@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Quart-Redis[![Documentation Status](https://readthedocs.org/projects/quart-redis/badge/?version=latest)](https://quart-redis.readthedocs.io/en/latest/)![PyPI](https://img.shields.io/pypi/v/quart-redis)![PyPI - Python Version](https://img.shields.io/pypi/pyversions/quart-redis)![PyPI - Downloads](https://img.shields.io/pypi/dm/quart-redis)![GitHub](https://img.shields.io/github/license/enchant97/quart-redis)![GitHub issues](https://img.shields.io/github/issues/enchant97/quart-redis)![GitHub last commit](https://img.shields.io/github/last-commit/enchant97/quart-redis)An easy way of setting up a redis connection in quart.## Requirements- quart &gt;= 0.18- redis &gt;= 4.2## Example of Use```pip install quart-redis``````pythonfrom quart import Quartfrom quart_redis import RedisHandler, get_redisapp = Quart(__name__)app.config[&quot;REDIS_URI&quot;] = &quot;redis://localhost&quot;# override default connection attempts, set &lt; 0 to disable# app.config[&quot;REDIS_CONN_ATTEMPTS&quot;] = 3redis_handler = RedisHandler(app)@app.route(&quot;/&quot;)async def index():    redis = get_redis()    val = await redis.get(&quot;my-key&quot;)    if val is None:        await redis.set(&quot;my-key&quot;, &quot;it works!&quot;)        val = await redis.get(&quot;my-key&quot;)    return val```</longdescription>
+</pkgmetadata>

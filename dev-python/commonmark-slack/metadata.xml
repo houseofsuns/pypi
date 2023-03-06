@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># CommonMark-SlackCommonMark-Slack extends the [commonmark.py](https://github.com/readthedocs/commonmark.py) library to add rendering of the [Slack](https://slack.com/) flavor of Markdown. This can be handy if you are already using [standard Markdown](https://commonmark.org/) for another purpose and would like to also produce Slack output from the same source. CommonMark-slack also allows for producing plaintext from standard Markdown, useful for the areas of Slack that use unadorned text.## InstallationYou can install CommonMark-Slack from [PyPI](https://pypi.org/project/commonmark-slack/):    pip install commonmark-slackThe commonmark-slack package is supported by Python 3.6 and above.## Usage```import commonmarkslackparser = commonmarkslack.Parser()ast = parser.parse(&quot;Hello *World*&quot;)renderer = commonmark.SlackRenderer()slack_md = renderer.render(ast)print(slack_md) # Hello _World_renderer = commonmarkslack.PlainTextRenderer()plain_text = renderer.render(ast)print(plain_text) # Hello World```</longdescription>
+</pkgmetadata>

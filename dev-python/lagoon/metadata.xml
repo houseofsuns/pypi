@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># lagoonConcise layer on top of subprocess, similar to sh project## SupportIf you see an error along the lines of:```ImportError: cannot import name 'zyx' from 'lagoon'```This means the app requires command `zyx` to be available, and you don't have it on your system.The solution is to install `zyx` in the usual way, e.g. via your package manager.## InstallThese are generic installation instructions.### To use, permanentlyThe quickest way to get started is to install the current release from PyPI:```pip3 install --user lagoon```### To use, temporarilyIf you prefer to keep .local clean, install to a virtualenv:```python3 -m venv venvnamevenvname/bin/pip install lagoon. venvname/bin/activate```### To developFirst clone the repo using HTTP or SSH:```git clone https://github.com/combatopera/lagoon.gitgit clone git@github.com:combatopera/lagoon.git```Now use pyven's pipify to create a setup.py, which pip can then use to install the project editably:```python3 -m venv pyvenvenvpyvenvenv/bin/pip install pyvenpyvenvenv/bin/pipify lagoonpython3 -m venv venvnamevenvname/bin/pip install -e lagoon. venvname/bin/activate```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>faust-streaming-rocksdb=======================Python bindings for RocksDB.See https://faust-streaming.github.io/python-rocksdb/ for a more comprehensive install andusage description.Quick Install-------------This library is built for Debian + Ubuntu Distributions... code-block:: bash    pip3 install faust-streaming-rocksdbQuick Usage Guide-----------------.. code-block:: python    &gt;&gt;&gt; import rocksdb    &gt;&gt;&gt; db = rocksdb.DB('test.db', rocksdb.Options(create_if_missing=True))    &gt;&gt;&gt; db.put(b'a', b'data')    &gt;&gt;&gt; print(db.get(b'a'))    b'data'Acknowledgements----------------This project attempts to collect the efforts put into different forks of the`pyrocksdb`_ project that was originally written by `stephan-hof`_, as sadlynone seems to be actively maintained. In particular, the `python-rocksdb`_ forkcreated by `twmht`_, but it also incorporates changes from other forks andunfinished pull requests. The current state of this project has pulled all ofthese commits from `NightTsarina`_'s `fork`_... _python-rocksdb: https://github.com/twmht/python-rocksdb.. _twmht: https://github.com/twmht.. _pyrocksdb: https://github.com/stephan-hof/pyrocksdb.. _stephan-hof: https://github.com/stephan-hof.. _NightTsarina: https://github.com/NightTsarina.. _fork: https://github.com/NightTsarina/python-rocksdb</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## discord-custom-helpMaking help commands easier## Installation`pip install discord-custom-help`## Usage```pybot.load_extension('dch')```## CustomizationTo change the color of embeds```pyimport osos.environ['DCH_COLOR'] = '34ffcd' # Any hex color code```Using disnake?```pyimport osos.environ[&quot;DISCORD_LIB&quot;] = &quot;disnake&quot;```[Join Discord](https://discord.gg/7SaE8v2) For any kind of help</longdescription>
+</pkgmetadata>

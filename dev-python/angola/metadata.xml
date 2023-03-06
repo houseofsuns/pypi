@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Angola**Angola**## API## Connection```import angola#--- connectdb = angola.db(hosts=&quot;http://host:8529&quot;, username=&quot;root&quot;, password:str)#--- select collectioncoll = db.select_collection('test')#--- insert itemcoll.insert({k:v, ...})#--- insert item with custom _keycoll.insert({k:v,...}, _key='awesome')```### Query ### @@CURRDATE`@@CURRDATE($format=None, $dateshifter=None) ````  {    &quot;_modified_at&quot;: &quot;@@CURRDATE() +2Days&quot;  }```Format:```YYYY: YearMM: MonthDD: DateHH: Hourmm: Minss: secondsISODATE: YYYY-MM-DDTHH:mm:ss```### $AND and $OR```filters = {  &quot;$or&quot;: [    { // query between dates      &quot;_created_at:$lt&quot;: &quot;@@CURRDATE() -2days&quot;,      &quot;_created_at:$gt&quot;: &quot;@@CURRDATE() +2days&quot;    }  ]}```### Insert### Update### Delete### Collection### SubCollection### Operators### Custom Operators</longdescription>
+</pkgmetadata>

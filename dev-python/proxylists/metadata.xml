@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># proxylistsProxylists is a simple tool for getting a list of proxy IPs fromfree proxy servers using several providers.## Supported Providers: * free-proxy-list.net * hidemy.name * proxydb.netcan retrieve a list of IPs by provider or from all of themusing the &quot;get_proxies()&quot; method.### DownloadThe list can be tabulated (one proxy by line, to save on .txt, csv, etc)or a python dictionary.## Usage```pythonfrom proxylist import get_proxiesproxies = get_proxies()```Or get the list from a single provider:```pythonfrom proxylist.proxies import ProxyDB # getting from proxydb.netimport asyncioasync def get_proxies():     return await ProxyDB().get_list()loop = asyncio.get_event_loop()proxies = loop.run_until_complete(get_proxies())print(proxies)```### License ###Proxylists is licensed under BSD license.</longdescription>
+</pkgmetadata>

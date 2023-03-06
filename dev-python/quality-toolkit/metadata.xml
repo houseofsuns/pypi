@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Quality-ToolkitToolkit for the quality in order to help writing tests## ContributionClone the project```bashgit clone https://github.com/veepee-oss/quality-toolkit quality-toolkitcd quality-toolkit```## Installation in local```bashmake install```## Installation in a projectEdit the project's requirements.txt and add the line :```txtquality-toolkit```and finish by install the project dependencies :```bashpip3 install```## How to use the libSee the list of available componants :* [Helpers](docs/helpers.md)* [Services](docs/services.md)</longdescription>
+</pkgmetadata>

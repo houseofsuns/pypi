@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>============aleph-client============Python Client for the aleph.im network, next generation network of decentralized big data applications.Developement follows the `Aleph Whitepaper &lt;https://github.com/aleph-im/aleph-whitepaper&gt;`_.Documentation=============Documentation (albeit still vastly incomplete as it is a work in progress) can be found at http://aleph-client.readthedocs.io/ or built from this repo with:    $ python setup.py docsRequirements============- Linux : Some cryptographic functionalities use curve secp256k1 and require installing`libsecp256k1 &lt;https://github.com/bitcoin-core/secp256k1&gt;`_.    $ apt-get install -y python3-pip libsecp256k1-dev- macOs :      $ brew tap cuber/homebrew-libsecp256k1    $ brew install libsecp256k1Installation============Using pip and `PyPI &lt;https://pypi.org/project/aleph-client/&gt;`_:    $ pip install aleph-clientInstallation for development============================If you want NULS2 support you will need to install nuls2-python (currently only available on github):    $ pip install git+https://github.com/aleph-im/nuls2-python.gitTo install from source and still be able to modify the source code:    $ pip install -e .    or    $ python setup.py developUsing Docker============Use the Aleph client and it's CLI from within Docker or Podman with:$ docker run --rm -ti -v $(pwd)/data:/data ghcr.io/aleph-im/aleph-client/aleph-client:master --helpWarning: This will use an ephemeral key that will be discarded when stopping the container.</longdescription>
+</pkgmetadata>

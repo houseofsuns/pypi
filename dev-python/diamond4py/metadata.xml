@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># diamond4py[![pypi](https://github.com/GCS-ZHN/diamond4py/actions/workflows/pypi.yml/badge.svg)](https://pypi.org/project/diamond4py/)![license](https://img.shields.io/badge/license-GPLv3-blue.svg)![python](https://img.shields.io/badge/python-&gt;=3.7-success.svg)This is python binding for [diamond](https://github.com/bbuchfink/diamond)--a sequence alignment BLAST software implements in C++.## install- from source code```bashgit clone https://github.com/GCS-ZHN/diamond4py.gitcd diamond4pyconda create -n diamond4py python=3.8# zlib is required by diamond.conda install -c anaconda zlibpip install -v .```- from pypi```bahspip install diamond4py```## Usage```pythonfrom diamond4py import Diamond# create a objectdiamond = Diamond(    database=&quot;database.dmnd&quot;,    n_threads=4)# make db if you don't create it or just download one from websitesdiamond.makedb(&quot;database.fasta&quot;)print(diamond.version)# print database statistic infodiamond.dbinfo()# run blast for proteinsdiamond.blastp(    query=&quot;test_proteins.fasta&quot;,    out=&quot;test_output&quot;)```</longdescription>
+</pkgmetadata>

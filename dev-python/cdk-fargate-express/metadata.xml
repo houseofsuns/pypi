@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![awscdk-jsii-template](https://img.shields.io/badge/built%20with-awscdk--jsii--template-blue)](https://github.com/pahud/awscdk-jsii-template)[![NPM version](https://badge.fury.io/js/cdk-fargate-express.svg)](https://badge.fury.io/js/cdk-fargate-express)[![PyPI version](https://badge.fury.io/py/cdk-fargate-express.svg)](https://badge.fury.io/py/cdk-fargate-express)![Release](https://github.com/pahud/cdk-fargate-express/workflows/Release/badge.svg)# cdk-fargate-expressDeploy your serverless Express app in AWS with AWS CDK## UsageOn deployment, AWS CDK executs `docker build` with your Express code assets at `express.d`For example:```python# Example automatically generated from non-compiling source. May contain errors.from cdk_fargate_express import ExpressServiceExpressService(stack, &quot;testing&quot;, vpc=vpc)```You may specify different folder by specifying `expressAssets` property:```python# Example automatically generated from non-compiling source. May contain errors.ExpressService(stack, &quot;testing&quot;,    vpc=vpc,    express_assets=path.join(__dirname, &quot;../another_express.d&quot;))```</longdescription>
+</pkgmetadata>

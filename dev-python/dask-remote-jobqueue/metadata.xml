@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;!-- Copyright (c) 2021 dciangot This software is released under the MIT License. https://opensource.org/licenses/MIT--&gt;# dask-remote-jobqueueA custom dask remote jobqueue for HTCondor</longdescription>
+</pkgmetadata>

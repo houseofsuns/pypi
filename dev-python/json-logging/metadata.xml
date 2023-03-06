@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>json-logging============Python logging library to emit JSON log that can be easily indexed andsearchable by logging infrastructure such as`ELK &lt;https://www.elastic.co/webinars/introduction-elk-stack&gt;`_.Go here for full documentation: https://github.com/thangbn/json-logging-python</longdescription>
+</pkgmetadata>

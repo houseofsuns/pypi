@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># rmspaceRemove trailing whitespace from code and other plain-text files.## Usage```bashpip install rmspace# Remove trailing whitespace.python -m rmspace ./rmspace/rmspace/main.py# Remove trailing whitespace, return 1 if any file was formatted.# This is intended for linting in CI flows.python -m rmspace ./rmspace/rmspace/main.py --check```</longdescription>
+</pkgmetadata>

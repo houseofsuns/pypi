@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># tracing-library[Opencensus](https://opencensus.io/) python wrapper for traceability## Usage### How to enablethe tracing require environment variable to start```pythonTRACER = True```### Falcon MiddlewareEnable the middleware in your app.```pythonimport falconfrom citibox.google_cloud_tracer.contrib.falcon import GoogleCloudFalconMiddlewarefrom opencensus.trace import samplersgoogleCloudTracer = GoogleCloudFalconMiddleware(    &quot;your-project&quot;,     [&quot;/&quot;, &quot;/health&quot;, &quot;/another-not-traceable&quot;],    samplers.AlwaysOnSampler())app = falcon.API(middleware=[googleCloudTracer])```### Requests wrapperThere is a `requests` wrapper to make http requests traceables````pythonfrom citibox.google_cloud_tracer import requestsr_get = requests.get('https://google.com', {&quot;param&quot;: &quot;something&quot;})r_post = requests.post('https://google.com', json={&quot;something&quot;: &quot;value&quot;})````You can use `requests` wrapper as native `requests` library.&gt; requests.Session() not applied, you will need to get the trace headers if you are using sessions ### Django MiddlewareEnable the middleware in your app.```pythonMIDDLEWARE = [    ...,    'citibox.google_cloud_tracer.contrib.django.GoogleCloudDjangoMiddleware',    ...,]TRACING = {    'PROJECT_ID': 'your-project-id',    'EXCLUDELIST_HOSTNAMES': ['localhost', '127.0.0.1'],    'EXCLUDELIST_PATHS': ['_ah/health'],    'SAMPLER': 'opencensus.trace.samplers.AlwaysOnSampler()',}```</longdescription>
+</pkgmetadata>

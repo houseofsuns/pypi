@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># docker_containers## Usage:```pythonimport timefrom x5_aio_pika_ext import RMQClientfrom docker_containers import RabbitContainerasync def check_connect(url):    rabbit_client = RMQClient(url)    await rabbit_client.is_alive()    await rabbit_client.close()container = RabbitContainer(check_connect)container.start()time.sleep(180)container.stop()```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This was a package for PrestoSQL. The package itself is no longer maintained,as PrestoSQL got renamed to Trino. Read more athttps://trino.io/blog/2020/12/27/announcing-trino.htmlIf you are using an older PrestoSQL release, you can install a previousversion of the package with:    pip install presto-client==0.302.0The package has been superseded with a client for Trino. You can install itwith:    pip install trinoApologies for the disruption and very short notice, resulting in no transitionperiod.</longdescription>
+</pkgmetadata>

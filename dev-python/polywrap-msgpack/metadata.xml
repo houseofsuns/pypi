@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># polywrap-msgpackPython implementation of the WRAP MsgPack encoding standard.## Usage### Encoding-Decoding Native types and objects```pythonfrom polywrap_msgpack import msgpack_decode, msgpack_encodedictionary = {  &quot;foo&quot;: 5,  &quot;bar&quot;: [True, False],  &quot;baz&quot;: {    &quot;prop&quot;: &quot;value&quot;  }}encoded = msgpack_encode(dictionary)decoded = msgpack_decode(encoded)assert dictionary == decoded```### Encoding-Decoding Extension types```pythonfrom polywrap_msgpack import msgpack_decode, msgpack_encode, GenericMapcounter: GenericMap[str, int] = GenericMap({  &quot;a&quot;: 3,  &quot;b&quot;: 2,  &quot;c&quot;: 5})encoded = msgpack_encode(counter)decoded = msgpack_decode(encoded)assert counter == decoded```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## django-autotaskDjango app for working with Autotask. Defines models (tickets,resources, accounts, etc.).## Requirements-  Python 3.5-  Django 2.0Other versions may work; we haven't tried.## InstallationFrom source:    git clone git@github.com:KerkhoffTechnologies/django-autotask.git    cd django-autotask    python setup.py install## Usage1. Add to INSTALLED_APPS    ```    INSTALLED_APPS = [        ...        'djautotask',        ...    ]    ```## Testing```pip install --upgrade -r requirements_test.txt```Try one of:    ./runtests.py    python setup.py test    make test## Contributing- Fork this repo- Make a branch- Make your improvements    Making migrations? Run:    ```    ./makemigrations.py    ```- Run the tests (see above)- Make a pull request## LicenseMIT## Copyright©2018 Kerkhoff Technologies Inc.</longdescription>
+</pkgmetadata>

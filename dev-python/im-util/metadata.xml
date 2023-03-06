@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># im_utilThis package contains miscellaneous utility functions for use by other im_* packages. ## InstallUse the python package for this library. You can find the package online [here](https://pypi.org/project/im-util/).Change to your Python App Engine project's root folder and do the following:&gt; pip install im_util --target libOr add it to your requirements.txt. You'll also need to set up vendoring, see [app engine vendoring instructions here](https://cloud.google.com/appengine/docs/python/tools/using-libraries-python-27).</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Qlient Core: Python GraphQL Client Core Library[![DeepSource](https://deepsource.io/gh/qlient-org/python-qlient-core.svg/?label=active+issues&amp;token=B71TvEVbDX-5GynnxfPlumBi)](https://deepsource.io/gh/qlient-org/python-qlient-core/?ref=repository-badge)[![DeepSource](https://deepsource.io/gh/qlient-org/python-qlient-core.svg/?label=resolved+issues&amp;token=B71TvEVbDX-5GynnxfPlumBi)](https://deepsource.io/gh/qlient-org/python-qlient-core/?ref=repository-badge)[![pypi](https://img.shields.io/pypi/v/qlient-core.svg)](https://pypi.python.org/pypi/qlient-core)[![versions](https://img.shields.io/pypi/pyversions/qlient-core.svg)](https://github.com/qlient-org/python-qlient-core)[![license](https://img.shields.io/github/license/qlient-org/python-qlient-core.svg)](https://github.com/qlient-org/python-qlient-core/blob/master/LICENSE)[![codestyle](https://img.shields.io/badge/code%20style-black-black)](https://github.com/psf/black)This is the core for a blazingly fast and modern graphql client that was designed with simplicity in mind.## HelpSee the [documentation](https://qlient-org.github.io/python-qlient-core/site/) for more details.## Quick Preview```pythonfrom qlient.core import Client, Backend, GraphQLResponseclass MyBackend(Backend):    &quot;&quot;&quot;Must be implemented by you&quot;&quot;&quot;client = Client(MyBackend())res: GraphQLResponse = client.query.get_my_thing(&quot;name&quot;)print(res.request.query)  # &quot;query get_my_thing { get_my_thing { name } }&quot;```</longdescription>
+</pkgmetadata>

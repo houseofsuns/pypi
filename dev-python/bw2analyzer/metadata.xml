@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Brightway2-analyzerThis is a set of tools to analyze results of life cycle assessment (LCA) calculations. It is part of the [Brightway2 LCA framework](https://brightway.dev).</longdescription>
+</pkgmetadata>

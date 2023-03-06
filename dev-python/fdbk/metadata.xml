@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># fdbk[![Build Status](https://travis-ci.org/kangasta/fdbk.svg?branch=master)](https://travis-ci.org/kangasta/fdbk)Backend and DB wrapper for feedback collection system.## InstallationRun:```bashpip install fdbk```to install from [PyPI](https://pypi.org/project/fdbk/) or download this repository and run```bashpython setup.py install```to install from sources.## UsageSee examples directory for example use cases.### Running the serverLaunch development server to port 8080 with:```bashfdbk-server -p 8080```See `fdbk-server --help` for other options.## TestingCheck and automatically fix formatting with:```bashpycodestyle fdbkautopep8 -aaar --in-place fdbk```Run static analysis with:```bashpylint -E --enable=invalid-name,unused-import,useless-object-inheritance fdbk```Run unit tests with command:```bashpython3 -m unittest discover -s tst/```Get test coverage with commands:```bashcoverage run --branch --source fdbk/ -m unittest discover -s tst/coverage report -m```</longdescription>
+</pkgmetadata>

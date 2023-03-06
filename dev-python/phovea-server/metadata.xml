@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>DEPRECATED: phovea_server =====================[![Phovea][phovea-image]][phovea-url] [![Build Status][circleci-image]][circleci-url]Python server implementation of Phovea that provides: * Data set handling* Reading data from CSV* ID mapping* Selection and range handling* General graph implementation* WebSocket stream### DEPRECATION InformationPlease note that this project has been archived and is no longer being maintained. There is an active development under https://github.com/datavisyn/tdp_core and we will also contribute our future changes to it.Installation------------```git clone https://github.com/phovea/phovea_server.gitcd phovea_servernpm install```Testing-------```npm test```Building--------```npm run build```***&lt;a href=&quot;https://caleydo.org&quot;&gt;&lt;img src=&quot;http://caleydo.org/assets/images/logos/caleydo.svg&quot; align=&quot;left&quot; width=&quot;200px&quot; hspace=&quot;10&quot; vspace=&quot;6&quot;&gt;&lt;/a&gt;This repository is part of **[Phovea](http://phovea.caleydo.org/)**, a platform for developing web-based visualization applications. For tutorials, API docs, and more information about the build and deployment process, see the [documentation page](http://phovea.caleydo.org).[phovea-image]: https://img.shields.io/badge/Phovea-Server%20Plugin-10ACDF.svg[phovea-url]: https://phovea.caleydo.org[circleci-image]: https://circleci.com/gh/phovea/phovea_server.svg?style=shield[circleci-url]: https://circleci.com/gh/phovea/phovea_server</longdescription>
+</pkgmetadata>

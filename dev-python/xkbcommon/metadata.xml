@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>xkbcommon=========Python bindings for libxkbcommon_ using cffi_.Example usage:&gt;&gt;&gt; from xkbcommon import xkb&gt;&gt;&gt; ctx = xkb.Context()&gt;&gt;&gt; keymap = ctx.keymap_new_from_names()&gt;&gt;&gt; state = keymap.state_new()&gt;&gt;&gt; state.led_name_is_active(&quot;Caps Lock&quot;)False&gt;&gt;&gt; capslock = 66&gt;&gt;&gt; str(state.update_key(capslock, xkb.XKB_KEY_DOWN))'StateComponent.XKB_STATE_MODS_DEPRESSED|XKB_STATE_MODS_LOCKED|XKB_STATE_MODS_EFFECTIVE|XKB_STATE_LEDS'&gt;&gt;&gt; str(state.update_key(capslock, xkb.XKB_KEY_UP))'StateComponent.XKB_STATE_MODS_DEPRESSED'&gt;&gt;&gt; state.led_name_is_active(&quot;Caps Lock&quot;)TrueVersion numbering-----------------From release 0.5 onwards, the version numbering of this package willrelate to releases of libxkbcommon_ as follows:If the Python package version is major.minor[.patch] then it requiresat least release major.minor.0 of libxkbcommon to build and run, andshould work with any subsequent release. The patch version of thePython package is unrelated to the patch version of libxkbcommon... _libxkbcommon: https://xkbcommon.org/.. _cffi: https://pypi.python.org/pypi/cffi</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Provides Markdown page field and StreamField block for Wagtail. More info: https://github.com/torchbox/wagtail-markdown/blob/ee86e2c73b38d7f81e59b5eea9fdbc19bb2f001e/README.md</longdescription>
+</pkgmetadata>

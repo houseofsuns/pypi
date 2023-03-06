@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>===============================Wagtail Draftail Editor Plugins===============================This library includes some commonly used extensions for the `Wagtail Draftail &lt;http://docs.wagtail.io/en/stable/advanced_topics/customisation/extending_draftail.html&gt;`_ editor. These extensions currently include:- Superscript text formatting (via the ``&lt;sup&gt;`` HTML tag)- Subscript text formatting (via the ``&lt;sub&gt;`` HTML tag)- Paragraph text formatting (via the ``&lt;p&gt;`` HTML tag)</longdescription>
+</pkgmetadata>

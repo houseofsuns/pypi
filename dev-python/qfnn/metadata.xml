@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># qfnnThe &quot;qfnn&quot; (or QuantumFlow Neural Network Library) is a library to support the implementation of [QuantumFlow](https://www.nature.com/articles/s41467-020-20729-5)and its extensions, including [QF-Mixer](https://arxiv.org/pdf/2109.03806.pdf) and [QF-RobustNN](https://arxiv.org/pdf/2109.03430.pdf).</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Androguard is a tool and python library to interact with Android Files.Usually they come in the form of Android Packages (APK) or Dalvik Executeable (DEX) files.Androguard has tools to read Android's binary format for XML files (AXML) and is also suited with a decompiler for DEX.Androguard might not only be used as a tool for reverse engineering single applications, but features a lot of functionsfor automated analysis. It provides a pure python framework to build your own analysis tools.If you encounter bugs while using androguard, please feel free to report them in our bugtracker_... _bugtracker: https://github.com/androguard/androguard/issues</longdescription>
+</pkgmetadata>

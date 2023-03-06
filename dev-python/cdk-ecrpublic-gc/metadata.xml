@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![NPM version](https://badge.fury.io/js/cdk-ecrpublic-gc.svg)](https://badge.fury.io/js/cdk-ecrpublic-gc)[![PyPI version](https://badge.fury.io/py/cdk-ecrpublic-gc.svg)](https://badge.fury.io/py/cdk-ecrpublic-gc)![Release](https://github.com/pahud/cdk-ecrpublic-gc/workflows/Release/badge.svg)# cdk-ecrpublic-gcCDK construct library that helps you build a garbage collector to delete all untagged images in Amazon ECR public with AWS CDK.# WhyAmazon ECR public does not have lifecycle policy to clean up all untagged images at this moment(see [this issue](https://github.com/aws/containers-roadmap/issues/1268)). `cdk-ecrpublic-gc` allows you to deploy a **AWS Step Functions** state machine with [dynamic parallelism](https://aws.amazon.com/tw/blogs/aws/new-step-functions-support-for-dynamic-parallelism/) to invoke an arbitrary of Lambda functions to remove untagged images to release the storage.# ScheduleBy default, the state machine will be triggered **every 4 hours** and can be configured in the `schedule` property in the `TidyUp` construct.# Sample```python# Example automatically generated from non-compiling source. May contain errors.import aws_cdk.core as cdkfrom cdk_ecrpublic_gc import TidyUpapp = cdk.App()stack = cdk.Stack(app, &quot;ecr-public-gc&quot;)TidyUp(stack, &quot;TidyUp&quot;,    repository=[&quot;vscode&quot;, &quot;gitpod-workspace&quot;, &quot;github-codespace&quot;    ],    schedule=events.Schedule.cron(hour=&quot;*/4&quot;, minute=&quot;0&quot;))```# In ActionStep Function state machine with dynamic tasks in parallel![](images/01.png)![](images/02.png)</longdescription>
+</pkgmetadata>

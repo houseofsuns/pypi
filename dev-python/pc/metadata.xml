@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pc.py is a layer on top of subprocess. The subprocess module supportsa rich API but is clumsy for many common use cases, namely sync/asyncfork-exec, command substitution and pipelining, all of which is trivialto do on system shells.The goal is to make Python a sane alternative to non-trivial shell scripts.Features:  * Easy to fork-exec commands, wait or no wait  * Easy to capture stdout/stderr of children (command substitution)  * Easy to express I/O redirections  * Easy to construct pipelines  * Use short names for easy interactive typingDocumentation is at &lt;http://github.com/aht/pc.py/&gt;.This module depends on Python 2.6, or where subprocess is available.Doctests require /bin/sh to pass. Tested on Linux.This is an alpha release. Expect bugs.</longdescription>
+</pkgmetadata>

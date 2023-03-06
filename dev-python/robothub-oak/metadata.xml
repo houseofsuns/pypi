@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># RobotHub-OAKThis repository contains the code for the integration of [DepthAI SDK](https://github.com/luxonis/depthai) intoRobotHub.&gt; **This library is intended to be only used with RobotHub.**## DocumentationPlease visit [RobotHub documentation page](https://hub-docs.luxonis.com/).## InstallationTo install this package, run the following command in your terminal window```$ python3 -m pip install robothub-oak```## ExamplesThere are several examples in the [examples](examples) folder.## LicenseThis project is licensed under the terms of the MIT license.</longdescription>
+</pkgmetadata>

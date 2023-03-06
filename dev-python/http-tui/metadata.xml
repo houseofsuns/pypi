@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># http-tui[![PyPI - Version](https://img.shields.io/pypi/v/http-tui.svg)](https://pypi.org/project/http-tui)[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/http-tui.svg)](https://pypi.org/project/http-tui)![Example Output](https://github.com/treyhunner/http-tui/raw/main/example.svg)## InstallationInstall with pipx (pip works too):```consolepipx install http-tui```To start the app, run:```consolehttp```## License`http-tui` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.</longdescription>
+</pkgmetadata>

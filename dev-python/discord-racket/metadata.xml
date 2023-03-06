@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># RacketDiscord bot utilities.I write discord bots for a small discord server with friends. This repo is acollection of shared utilities I find myself re-writing for each bot.I have no idea if these utilities would scale well to a large bot, or if theyare bug free. They work pretty well for our small-scale usage.## TODO- [ ] Add testing  - [ ] Github actions testing- [ ] Look into cutting releases using github actions  - [ ] After passing tests cut new release  - [ ] Auto publish to pypi  - [ ] Store auth token on github</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/tandav/musictool)# musictoolset of tools to work with scales, modes, modulations, chord progressions, voice leading, rhythm and more## install### install from [pypi](https://pypi.org/project/musictool/)```shpip install musictool```### or install the latest version from github```shpip install git+https://github.com/tandav/musictool```### development```shpip install -e .[dev]```## examples```py&gt;&gt;&gt; from musictool.scale import Scale&gt;&gt;&gt; from musictool.chord import Chord&gt;&gt;&gt; scale = Scale.from_name('C', 'major')&gt;&gt;&gt; scale.rootNote(name=C)&gt;&gt;&gt; scale.notesfrozenset({Note(name=C),           Note(name=D),           Note(name=E),           Note(name=F),           Note(name=G),           Note(name=A),           Note(name=B)})&gt;&gt;&gt; scale.bits'101011010101'&gt;&gt;&gt; scale.intervalsfrozenset({0, 2, 4, 5, 7, 9, 11})&gt;&gt;&gt; scale.triads(CEG/C, DFA/D, EGB/E, FAC/F, GBD/G, ACE/A, BDF/B)&gt;&gt;&gt; chord = Chord.from_str('CEG/C')&gt;&gt;&gt; chord == scale.triads[0]True```</longdescription>
+</pkgmetadata>

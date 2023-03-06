@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># M3LD### Getting StartedIn order to get started quickly with M3LD, a sample project is bundled within the M3LD CLI that will set up a server, privacy center, and a sample application for you to experiment with.#### Minimum requirements- [Docker](https://www.docker.com/products/docker-desktop) (version 20.10.11 or later)- [Python](https://www.python.org/downloads/) (version 3.8 through 3.10)#### Download and install M3LDYou can easily download and install M3LD using `pip`. Run the following command to get started:```shpip install meld-sandbox```</longdescription>
+</pkgmetadata>

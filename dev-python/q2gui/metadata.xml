@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># The light Python GUI builder (currently based on PyQt6)# How to start ## With docker &amp;&amp; x11:```bashgit clone https://github.com/AndreiPuchko/q2gui.git#                      sudo if necessary cd q2gui/docker-x11 &amp;&amp; ./build_and_run_menu.sh```## With PyPI package:```bashpoetry new project_01 &amp;&amp; cd project_01 &amp;&amp; poetry shellpoetry add q2guicd project_01python -m q2gui &gt; example_app.py &amp;&amp; python example_app.py```## Explore sources:```bashgit clone https://github.com/AndreiPuchko/q2gui.gitcd q2guipip3 install poetrypoetry shellpoetry installpython3 demo/demo_00.py     # All demo launcherpython3 demo/demo_01.py     # basic: main menu, form &amp; widgetspython3 demo/demo_02.py     # forms and forms in formpython3 demo/demo_03.py     # grid form (CSV data), automatic creation of forms based on datapython3 demo/demo_04.py     # progressbar, data loading, sorting and filteringpython3 demo/demo_05.py     # nonmodal formpython3 demo/demo_06.py     # code editorpython3 demo/demo_07.py     # database app (4 tables, mock data loading) - requires a q2db packagepython3 demo/demo_08.py     # database app, requires a q2db package, autoschema```## demo/demo_07.py screenshot=======![Alt text](https://andreipuchko.github.io/q2gui/screenshot.png)# Build standalone executable (The resulting executable file will appear in the folder  dist/)### One file```bashpyinstaller -F demo/demo.py```### One directory```bashpyinstaller -D demo/demo.py```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># jsonaliasA microlibrary that defines a `Json` type alias for Python.## This README is longer than the librarySeriously, this is all the code:```pythonfrom typing import Dict, List, UnionJson = Union[Dict[str, &quot;Json&quot;], List[&quot;Json&quot;], str, int, float, bool, None]```If we only supported Python &gt;= 3.10, it would fit on one line:```pythonJson = dict[str, 'Json'] | list['Json'] | str | int | float | bool | None```## Then why make a library out of it?I want to use this type alias in multiple projects and it'sjust about long enough to be annoying.This alias should probably get added to the Python `typing` module.If it does and I haven't put a big notice on this README,please open a PR.## Example```pythonfrom jsonalias import Jsond: Json = {&quot;foo&quot;: [&quot;bar&quot;, {&quot;x&quot;: &quot;y&quot;}]}```## It's not working please help???Make sure you're using mypy &gt;= 0.981 and running with the`--enable-recursive-aliases` flag.## Special ThanksGitHub user wbolster for [this comment](https://github.com/python/typing/issues/182#issuecomment-1259412066)notifying us that mypy could now do JSON.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Convert python-poetry(pyproject.toml) to setup.py.It only relies on poetry.core, so the effect is better than any other third-party software.I created this library because python-poetry does not support exporting to setup.py and dephell will generate setup.py incorrectly in some cases.## Install```bashpip install poetry2setup```## UsageRun command `poetry2setup` in your project directory, it will display `setup.py` content in console. If you want to export to `setup.py`, just run `poetry2setup &gt; setup.py`.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>dwdatareader============.. image:: https://travis-ci.com/costerwi/dwdatareader.svg?branch=master   :alt: DWDataReader build status on Travis CI   :target: https://travis-ci.com/costerwi/dwdatareader.. image:: https://ci.appveyor.com/api/projects/status/a2qssrmuepbx224i/branch/master?svg=true   :alt: DWDataReader build status on Appveyor   :target: https://ci.appveyor.com/project/costerwi/dwdatareader/branch/masterDEWESoft produces hardware and software for test measurement, data aquisition, and storage. Data files are stored with the extension .d7d in a proprietaryformat. DEWESoft provides a free Windows application to work with the dataand a free shared library for developers on Windows and Linux.This is a Python module to interact with the DEWESoft DWDataReaderLib shared libraryavailable from https://download.dewesoft.com/list/developers.Installation------------The module is available on https://pypi.python.org/pypi/dwdatareader so allone needs to do is:::    pip install dwdatareaderExample usage-------------Scripts like the following may be run from the command line or, moreinteractively, from `Jupyter Notebook &lt;http://jupyter.org&gt;`_You can work with a `live Binder example here &lt;https://mybinder.org/v2/gh/costerwi/dwdatareader/master?labpath=dwdatareader_example.ipynb&gt;`_... code:: python    import dwdatareader as dw    with dw.open('myfile.d7d') as f:        print(f.info)        ch1 = f['chname1'].series()        ch1.plot()        for ch in f.values():            print(ch.name, ch.series().mean())Contribute----------Bug reports and pull requests should be directed to the project home on`Github &lt;http://github.com/costerwi/dwdatareader&gt;`_</longdescription>
+</pkgmetadata>

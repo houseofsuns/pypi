@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Python bindings for zxing-cpp[![Build + Deploy](https://github.com/zxing-cpp/zxing-cpp/actions/workflows/python-build.yml/badge.svg)](https://github.com/zxing-cpp/zxing-cpp/actions/workflows/python-build.yml)[![PyPI](https://img.shields.io/pypi/v/zxing-cpp.svg)](https://pypi.org/project/zxing-cpp/)## Installation```bashpip install zxing-cpp```or```bashpython setup.py install```Note: To install via `setup.py`, you need a suitable [build environment](https://github.com/zxing-cpp/zxing-cpp#build-instructions) including a c++ compiler.## Usage```pythonimport cv2import zxingcppimg = cv2.imread('myimage.png')results = zxingcpp.read_barcodes(img)for result in results:print(&quot;Found barcode:\n Text:    '{}'\n Format:   {}\n Position: {}&quot;.format(result.text, result.format, result.position))if len(results) == 0:print(&quot;Could not find any barcode.&quot;)```</longdescription>
+</pkgmetadata>

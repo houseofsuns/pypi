@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Gooey PieGooey Pie is a minimalist, opinionated GUI library for Python designed for beginner users of Python.## InstallationYou can install GooeyPie from [PyPI](https://pypi.org/project/gooeypie/):    pip install gooeypie## How to useA getting started guide, full documentation and examples can be found at https://www.gooeypie.dev/</longdescription>
+</pkgmetadata>

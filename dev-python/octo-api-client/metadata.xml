@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># OCTO API clientPython HTTP client for OCTO (Open Connection for Tourism) APIs.More info at [octospec.com](https://octospec.com/)API Specification: https://docs.octo.travel/docs/octo/r6gduoa5ah5ne-octo-api## Installation    pip install octo-api-client## Requirements* Python v3.7+## Development### Getting started    $ pip install poetry    $ poetry install### Running tests and lintersTo run linters:    $ poetry run ruff octo_client    $ poetry run mypy octo_clientTo run tests:    $ poetry run pytest## Usage```from octo_client import OctoClientclient = OctoClient('https://octo-api.mysupplier.com', 'MY-SECRET_TOKEN')client.get_suppliers()```</longdescription>
+</pkgmetadata>

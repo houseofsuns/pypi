@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># HANS[![PyPI version](https://badge.fury.io/py/hans.svg)](https://badge.fury.io/py/hans) [![CI](https://github.com/hannes-holey/hans/actions/workflows/ci.yaml/badge.svg?branch=master)](https://github.com/hannes-holey/hans/actions/workflows/ci.yaml) [![Coverage](https://gist.githubusercontent.com/hannes-holey/fac7fa61e1899b1e74b3bab598fe6513/raw/badge.svg)](https://gist.githubusercontent.com/hannes-holey/fac7fa61e1899b1e74b3bab598fe6513/raw/badge.svg)This code implements the Height-Averaged Navier-Stokes (HANS) scheme for two-dimensional lubrication problems as described in the following paper:[Holey, H. et al. (2022) Tribology Letters, 70(2), p. 36.](https://doi.org/10.1007/s11249-022-01576-5)## InstallationPackaged versions can be installed via```pip install hans```## ExamplesRun from the command line with```mpirun -n &lt;NP&gt; python3 -m hans -i &lt;input_file&gt; [-p] [-r &lt;restart_file&gt;]```where `NP` is the number of MPI processes. The plot option (`-p`, `--plot`) is only available for serial execution. Example input files as well as jupyter-notebooks can be found in the [examples](examples/) directory.The command line interface contains some scripts for plotting and creating animations.For instance, 1D profiles of converged solutions can be displayed with```plot1D_last.py```## TestsRun all tests from the main source directory with```pytest```or append the path to the test definition file (located in [tests](tests)) to run selected tests only.## FundingThis work is funded by the German Research Foundation (DFG) through GRK 2450.</longdescription>
+</pkgmetadata>

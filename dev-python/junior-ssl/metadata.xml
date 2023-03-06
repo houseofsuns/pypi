@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Junior SSL (Omniwheel soccer setup)![Robots](/docs/imgs/cover.jpg)## Presentation[YouTube demonstration video](https://www.youtube.com/watch?v=4NFXbaom7YQ)The goal of this project is to provide an open-source material to build and operate a setup featuringomniwheel robots and a soccer field monitoring them with a camera.With this setup, it is possible for two teams to code a program and play against each other.## Documentation**This is a WORK IN PROGRESS, you can't (yet) build the whole setup by following instructions fromthis repository, if any question, do not hesitate to open an issue*** [Robots](/docs/robots.md)* [Coordinates, field and markers](/docs/coordinates-markers.md)* [Game Controller and Python API](/docs/programming.md)## License&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc/2.0/&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by-nc/2.0/88x31.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc/2.0/&quot;&gt;Creative Commons Attribution-NonCommercial 2.0 Generic License&lt;/a&gt;.</longdescription>
+</pkgmetadata>

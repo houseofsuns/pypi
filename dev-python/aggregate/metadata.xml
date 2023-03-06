@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>aggregate===========Purpose-------``aggregate`` solves insurance, risk management, and actuarial problems using realistic models that reflect underlying frequency and severity.It delivers the speed and accuracy of parametric distributions to situations that usually require simulation, making it as easy to work with an aggregate (compound) probability distribution as the lognormal.``aggregate`` includes an expressive language called DecL to describe aggregate distributions and is implemented in Python under an open source BSD-license.Documentation-------------https://aggregate.readthedocs.io/Where to get it---------------https://github.com/mynl/aggregateInstallation------------::  pip install aggregateDependencies------------See requirements.txt.License-------BSD 3 licenceContributing to aggregate-------------------------All contributions, bug reports, bug fixes, documentation improvements,enhancements and ideas are welcome.</longdescription>
+</pkgmetadata>

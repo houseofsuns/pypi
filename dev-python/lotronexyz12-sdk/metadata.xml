@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>### Cast it into the fire!Run `pip3 install lotronexyz12_sdk`Import the SDK`from  lotronexyz12_sdk import LOTR_SDK`Examples```client = LOTR_SDK()# query the movie endpointmovie_endpoint = client.endpoint('movie')``````# Fetch all moviesmovies = movie_endpoint.fetch_all()``````# Fetch all movies with OPTIONS# limit -&gt; int# page -&gt; int# offset -&gt; int# sort -&gt; str.     Sort by movie name -&gt; &quot;name:asc&quot; or &quot;name:desc&quot;# filter -&gt; str    - Less than, greater than or equal to.    - Keys:  academyAwardWins, runtimeInMinutes, and budgetInMillions.    - Example value: academyAwardWins&gt;10&amp;runtimeInMinutes&gt;=160movies = endpoint.fetch_all(    options={        'limit' : 5,        #'page' : 2,        #'offset' : 3,        'sort' : 'name:asc',    },     filter = 'academyAwardWins&gt;10&amp;runtimeInMinutes&gt;=160')``````# Fetch a single moviemovies = endpoint.fetch_one(    '5cd95395de30eff6ebccde5d',     # movie _id    with_quotes=True,               # return quotes from movie, default is False        options = {                     # Options similar to fetch_all        'sort' : 'character:desc',  # Sort by movie name or character if with_quotes=True        'limit' : 5    })```</longdescription>
+</pkgmetadata>

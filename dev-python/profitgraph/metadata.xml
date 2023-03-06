@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># AboutThis program will help you showcase the profits and purchases of your company by days, months and years! Choose personalized options and compare the data to analyse your business outcomes just in a few clicks! #### What the program can do:1. Uses three languages (EN/UA/RU)2. Adds data to database3. Creates graph by several options4. Shows max and min data in legend5. Shows average value by period and percent change compared to first entered period6. Saves your graphs in 'graph/' directory7. Creates random data    * To use this, just enter 'random' while you choose 'add data' or 'create graph'#### Used libraries:* [matplotlib](https://github.com/matplotlib/matplotlib)* [mplcursors](https://github.com/anntzer/mplcursors)* [tqdm](https://github.com/tqdm/tqdm)* [colorama](https://github.com/tartley/colorama)* [sqlite3](https://docs.python.org/3/library/sqlite3.html)## InstallInstall via pip:```pip install profitgraph```## LaunchTo launch a program, open a cmd (Win+R) and enter:```startgraph```## Examples![Overall profit by days](https://i.imgur.com/VTjizD7.png)![Profit by years](https://i.imgur.com/Pcv2Een.png)![Sales by months](https://i.imgur.com/M8uenjz.png)## LicenseSee LICENSE.md for more information## Special thanks[Mundoggu](https://github.com/Mundoggu) - for code disscussion</longdescription>
+</pkgmetadata>

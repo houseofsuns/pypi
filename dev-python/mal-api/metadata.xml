@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Python MAL API[![pypi Version](https://img.shields.io/pypi/v/mal-api.svg?color=informational)](https://pypi.org/project/mal-api/)An unofficial MyAnimeList API for Python 3.Currently, the API does not feature any kind of rate limiting. Use the API in moderationand rate limit your queries (0.5 seconds is sufficient to my knowledge). This API usescached webpage data to increase efficiency and save bandwidth. If you want to refreshyour data, you must manually refresh the object.The API is currently incomplete. More features are to come.If there are any features that you wish to be supported, please raise an issue. Anyfeedback is also appreciated.## API Documentation[ReadTheDocs Documentation](https://mal-api.readthedocs.io)## Installation and UsageTo install the library:```pip install -U mal-api```To import the library:```pythonfrom mal import *```## ExampleTo call the API, you need to create an object.#### ID Query Example```pythonfrom mal import Animeanime = Anime(1)  # Cowboy Bebopprint(anime.score)  # prints 8.82anime.reload()  # reload objectprint(anime.score)  # prints 8.81```#### Search Query Example```pythonfrom mal import AnimeSearchsearch = AnimeSearch(&quot;cowboy bebop&quot;)  # Search for &quot;cowboy bebop&quot;print(search.results[0].title)  # Get title of first result```## ConfigurationTo configure timeout (default timeout is 5 seconds):```pythonfrom mal import Animefrom mal import configconfig.TIMEOUT = 1  # Import level configanime = Anime(1, timeout=1)  # Object level config```</longdescription>
+</pkgmetadata>

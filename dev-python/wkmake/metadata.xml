@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># wkmakeSome simple python project build tools.# Install`pip3 install wkmake`# Usage```shell script# quick startwkmake makepkg mypkgcd mypkg# edit wkmake.yaml , config your package information.# run following command to build pkg at path &quot;.&quot;wkmake make . ```Check out the result in folder `demo`</longdescription>
+</pkgmetadata>

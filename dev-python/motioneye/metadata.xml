@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>**motionEye** is a web-based frontend for `motion &lt;https://motion-project.github.io&gt;`_. Check out the `wiki &lt;https://github.com/ccrisan/motioneye/wiki&gt;`_ for more details... image:: https://badges.gitter.im/Join%20Chat.svg   :alt: Join the chat at https://gitter.im/ccrisan/motioneye   :target: https://gitter.im/ccrisan/motioneye?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge&amp;utm_content=badgeYou can support the development of motionEye by making a small donation... image:: https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif   :alt: [paypal]   :target: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=ccrisan%40gmail%2ecom&amp;lc=US&amp;item_name=motionEye&amp;no_note=0&amp;currency_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHostedGuest</longdescription>
+</pkgmetadata>

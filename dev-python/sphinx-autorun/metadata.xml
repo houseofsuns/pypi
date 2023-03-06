@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>==============sphinx-autorun==============sphinx-autorun is an extension for Sphinx_ that can execute the code from arunblock directive and attach the output of the execution to the document. .. _Sphinx: https://sphinx.readthedocs.io/For example::    .. runblock:: pycon        &gt;&gt;&gt; for i in range(5):        ...    print iProduces::    &gt;&gt;&gt; for i in range(5):    ...    print i    1    2    3    4    5Another example::    .. runblock:: console        $ dateProduces::    $ date     Thu  4 Mar 2010 22:56:49 ESTCurrently autorun supports ``pycon`` and ``console`` languages. It's alsopossible to configure autorun (from `conf.py`) to run other languages.Installation------------Installing via pip (recommended)::    $ pip install sphinx-autorunInstall from source::    $ git clone git@github.com:hobarrera/sphinx-autorun.git    $ python setup.py installTo enable autorun add 'sphinx_autorun' to the ``extension`` list in`conf.py`::    extensions.append('sphinx_autorun')The documentation is in the doc/ folder.About this fork---------------sphinx-contrib/autorun was abandoned and broken for several months. Since itdid not even work, this fork was created as a continuation of it with mostlycritical fixes.</longdescription>
+</pkgmetadata>

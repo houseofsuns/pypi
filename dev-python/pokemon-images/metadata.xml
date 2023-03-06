@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># `pokemon_images.py`A small library with no dependencies to get a random image of a Pokémon.Usage is simple: `import pokemon_images`, then `pokemon_images.get_random_url`.## Some notesThere are no accented `é`s in this library to aid typing on keyboards that do not have this key. In all cases, `é` should be replaced by `e` except in documentation.This library is fully typed and fully documented with Python docstrings.Contributions are welcome, but this library is considered feature-complete.</longdescription>
+</pkgmetadata>

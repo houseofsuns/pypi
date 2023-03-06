@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Django Froala WYSIWYG Editor============================    django-froala-editor package helps integrate `Froala WYSIWYG HTML    editor &lt;https://froala.com/wysiwyg-editor/&gt;`__ with Django.View the full documentation at `Github. &lt;https://github.com/froala/django-froala-editor/&gt;`__</longdescription>
+</pkgmetadata>

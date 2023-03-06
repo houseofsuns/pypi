@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># CLI trackerAllows to collect cli usage data to a Sentry instance.Built by:&lt;picture&gt;  &lt;source media=&quot;(prefers-color-scheme: dark)&quot; srcset=&quot;./assets/Unikube-Logo-H-White.png&quot;&gt;  &lt;img alt=&quot;Unikube Logo&quot; src=&quot;./assets/Unikube-Logo-H.png&quot;&gt;&lt;/picture&gt;</longdescription>
+</pkgmetadata>

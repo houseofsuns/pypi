@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Vroom: license plate parser=========================================================**vroom** provides tools for identifying license plates in text.Basic usage-----------.. code:: python    from vroom import plates_parser    parser = plates_parser.Parser()        plates_string = &quot;Lorem ipsum SY12345 dolor sit amet, SK 1A234 consectetur adipiscing elit STA12AA&quot;    found_plates = parser.findall_plates(plates_string)    print(found_plates)        single_plate = &quot;SY12345&quot;    plate_info = parser.match_plate(single_plate)    print(single_plate)Currently supported countries-----------------------------* Poland [PL] (`source &lt;http://prawo.sejm.gov.pl/isap.nsf/download.xsp/WDU20120000585/O/D20120585.pdf&gt;`_)</longdescription>
+</pkgmetadata>

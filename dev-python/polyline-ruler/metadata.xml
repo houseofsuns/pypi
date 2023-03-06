@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># polyline-ruler&lt;!--intro-start--&gt;Init from [mapbox/cheap-ruler](https://github.com/mapbox/cheap-ruler) but more than that.## Installation### via pip```bashpip install -U polyline-ruler```### from source```bashgit clone --recursive https://github.com/cubao/polyline-rulerpip install ./polyline-ruler```Or```bashpip install git+https://github.com/cubao/polyline-ruler.git```(you can build wheels for later reuse by `pip wheel git+https://github.com/cubao/polyline-ruler.git`)&lt;!--intro-end--&gt;## UsageSee [`tests/test_basic.py`](tests/test_basic.py).## Tests```bashpython3 tests/test_basic.py```</longdescription>
+</pkgmetadata>

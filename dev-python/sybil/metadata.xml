@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Sybil=====|CircleCI|_ |Docs|_.. |CircleCI| image:: https://circleci.com/gh/simplistix/sybil/tree/master.svg?style=shield.. _CircleCI: https://circleci.com/gh/simplistix/sybil/tree/master.. |Docs| image:: https://readthedocs.org/projects/sybil/badge/?version=latest.. _Docs: http://sybil.readthedocs.org/en/latest/This library provides a way to check examples in your code and documentation by parsingthem from their source and evaluating the parsed examples as part ofyour normal test run. Integration is provided for the main Python testrunners.The `documentation &lt;https://sybil.readthedocs.io/&gt;`__ is the best place to start.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>faculty-datasets-fs===================An fsspec plugin for Faculty datasets.Installation------------.. code-block:: sh    pip install faculty-datasets-fsUsage-----``faculty-datasets-fs`` adds a ``faculty-datasets`` protocol that can be usedwith ``fsspec``, for example:.. code-block:: python    with fsspec.open(&quot;faculty-datasets://file.txt&quot;) as fp:        fp.read()``faculty-datasets-fs`` relies on environment variables and the standardFaculty credentials toolchain to determine:* The Faculty deployment to query* The Faculty project to query* Credentials to useThese will work out of the box when running within a Faculty project.</longdescription>
+</pkgmetadata>

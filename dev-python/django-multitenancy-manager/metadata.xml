@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># django-multitenancyDjango Multitenancy is a Django app that handles user subscriptions for saas multi tenant apps.The aim of this project is to speed up the process of launch your saas app.&lt;p align=&quot;center&quot;&gt;    &lt;br&gt;    &lt;a href=&quot;https://github.com/tekanokhambane/django-multitenancy/actions&quot;&gt;        &lt;img src=&quot;https://github.com/tekanokhambane/django-multitenancy/workflows/Django Multitenancy CI/badge.svg&quot; alt=&quot;Build Status&quot; /&gt;    &lt;/a&gt;    &lt;a href=&quot;https://opensource.org/licenses/BSD-3-Clause&quot;&gt;        &lt;img src=&quot;https://img.shields.io/badge/license-BSD-blue.svg&quot; alt=&quot;License&quot; /&gt;    &lt;/a&gt;&lt;/p&gt;#### :warning: This package is still in its alpha stage and is not ready for production![django-multitenancy screenshot](https://github.com/tekanokhambane/django-multitenancy/blob/main/.github/dango-multitenancy-screenshot.png)## Requirements- Python 3.6+- Django 3.0+## Installation1. Clone the repository:```git clone git@github.com:tekanokhambane/django-multitenancy.git```### 🔥 Features-   Manage Customers and Teams-   Helpdesk, Ticket system-   Create and manage templates-   Automated subscriptions and billing systems-   Admin, Staff and Client dashboard-   Customizable pricing plans-   Manage subscriptions - Activate, suspend, deactivate subscription-   Runs on a Raspberry Pi or a multi-datacenter cloud platform-   Domain management -   Use for any Saas App</longdescription>
+</pkgmetadata>

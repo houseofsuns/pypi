@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>==================================================Wissen: Full-Text Search and Classification Engine==================================================This package was renamed and transfered to DeLune_, then this package is no longer developed nor mainterned any more... _DeLune: https://pypi.python.org/pypi/delune</longdescription>
+</pkgmetadata>

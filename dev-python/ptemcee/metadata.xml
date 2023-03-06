@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>ptemcee=======.. image:: http://img.shields.io/travis/willvousden/ptemcee/master.svg?style=flat        :target: http://travis-ci.org/willvousden/ptemcee.. image:: http://img.shields.io/badge/license-MIT-blue.svg?style=flat        :target: https://github.com/willvousden/ptemcee/blob/master/LICENSE.. image:: http://img.shields.io/badge/arXiv-1501.05823-orange.svg?style=flat        :target: http://arxiv.org/abs/1501.05823ptemcee /'tɛmsiː/ (noun):    `Adaptive parallel tempering &lt;http://arxiv.org/abs/1501.05823&gt;`_ meets |emcee|_.*ptemcee*, pronounced &quot;tem-cee&quot;, is fork of Daniel Foreman-Mackey's wonderful |emcee|_ to implementparallel tempering more robustly.If you're trying to characterise awkward, multi-model probability distributions, then *ptemcee* isyour friend.Documentation-------------... will be here soon.Attribution-----------Please cite `Vousden, Farr, Mandel (2015) &lt;http://arxiv.org/abs/1501.05823&gt;`_ and `Foreman-Mackey,Hogg, Lang &amp; Goodman (2012) &lt;http://arxiv.org/abs/1202.3665&gt;`_ if you find this code useful in yourresearch.License-------*ptemcee* is free software distributed under the MIT License; see the `LICENSE&lt;https://github.com/willvousden/ptemcee/blob/master/LICENSE&gt;`_ file for details... |emcee| replace:: *emcee*.. _emcee: https://github.com/dfm/emcee</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># PhyCV[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&amp;logo=YouTube&amp;logoColor=white)](https://www.youtube.com/playlist?list=PLj--iTBXPaTWABQstUFA6l6_Rf3uiZq9T)[![Wikipedia](https://img.shields.io/badge/Wikipedia-%23000000.svg?style=for-the-badge&amp;logo=wikipedia&amp;logoColor=white)](https://en.wikipedia.org/wiki/PhyCV)Welcome to PhyCV ! The First Physics-inspired Computer Vision Python library developed by [Jalali-Lab](https://photonics.ucla.edu/) @ UCLA. This repo is maintained by [Yiming Zhou](https://yiming0416.github.io/).## Change Log* **Version 1.2.5**  Fix minor bugs in  `PST`.* **Version 1.2.4**  Improve `PAGE` implementation. Pin `PyTorch` version to 1.13* **Version 1.2.3**  Fix the opencv import bug in `pst_gpu.py` and `page_gpu.py`.   * **Version 1.2.2**  Morphological operations are simplified and improved.* **Version 1.2.1**  Minor improvements for loading images.* **Version 1.2.0**  We release VEViD, an efficient algorithm for both low-light enhancement and color enhancement! We also significantly improved the document and code!* **Version 1.1.1**  Fix minor bugs in `page_create_edge` .* **Version 1.1.0**  The `load_img` method now supports loading images from both an image files and image arrays.* **Version 1.0.0**    The first release of PhyCV is available!</longdescription>
+</pkgmetadata>

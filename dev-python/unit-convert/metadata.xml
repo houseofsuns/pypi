@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># unit-convertEasily convert units to different quantities.For conveniance, abbreviations are accepted, where an attempt will be made to calculate the type based on the other inputs (eg. &quot;m&quot; can evaluate as either &quot;minute&quot; or &quot;metre&quot;).&gt; **This library is deprecated**: A recommendation is to use [pint](https://github.com/hgrecco/pint) instead.## Example Usage```python&gt;&gt;&gt; from unit_convert import UnitConvert# Yards + kilometres to miles&gt;&gt;&gt; UnitConvert(yards=136.23, kilometres=60)['miles']37.35976780046479# Bytes to terabytes&gt;&gt;&gt; UnitConvert('b', 19849347813875, 'megabytes', 512)['tb']18.053364951617368# List available conversions&gt;&gt;&gt; UnitConvert(metres=1).keys()['nm', 'nanometres', 'Î¼m', 'micrometres', 'mm', 'millimetres', 'cm', 'centimetres', 'i', 'inches', 'ft', 'feet', 'm', 'metres', 'meters', 'yd', 'yards', 'km', 'kilometres', 'kilometers', 'miles', 'lightyears', 'au', 'astronomical_units', 'parsec']```Data size, time, distance, mass and temperatures are supported.</longdescription>
+</pkgmetadata>

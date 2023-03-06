@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>====================Fibonacci Calculator====================.. image:: https://img.shields.io/pypi/v/fibonacci_calculator.svg        :target: https://pypi.python.org/pypi/fibonacci_calculator.. image:: https://img.shields.io/travis/richardscholtens/fibonacci_calculator.svg        :target: https://travis-ci.org/richardscholtens/Fibonacci_Calculator.. image:: https://readthedocs.org/projects/fibonacci-calculator/badge/?version=latest        :target: https://fibonacci-calculator.readthedocs.io/en/latest/?badge=latest        :alt: Documentation Status.. image:: https://pyup.io/repos/github/richardscholtens/Fibonacci_Calculator/shield.svg     :target: https://pyup.io/repos/github/richardscholtens/Fibonacci_Calculator/     :alt: UpdatesA calculator that calculates Fibonacci numbers from 0 to n, indexes n-number and returns n-number.* Free software: MIT license* Documentation: https://fibonacci-calculator.readthedocs.io.Features--------* TODOCredits-------This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template... _Cookiecutter: https://github.com/audreyr/cookiecutter.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage-------Cython modules-------The library was enhanced using the Cython library to improve speed efficiency.https://cython.readthedocs.io/en/latest/=======History=======0.1.0 (2020-10-15)------------------* First release on PyPI.</longdescription>
+</pkgmetadata>

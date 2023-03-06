@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>The h5py package provides both a high- and low-level interface to the HDF5library from Python. The low-level interface is intended to be a completewrapping of the HDF5 API, while the high-level component supports  access toHDF5 files, datasets and groups using established Python and NumPy concepts.A strong emphasis on automatic conversion between Python (Numpy) datatypes anddata structures and their HDF5 equivalents vastly simplifies the process ofreading and writing data from Python.Wheels are provided for several popular platforms, with an included copy ofthe HDF5 library (usually the latest version when h5py is released).You can also `build h5py from source&lt;https://docs.h5py.org/en/stable/build.html#source-installation&gt;`_with any HDF5 stable release from version 1.8.4 onwards, although naturally newHDF5 versions released after this version of h5py may not work.Odd-numbered minor versions of HDF5 (e.g. 1.13) are experimental, and may notbe supported.</longdescription>
+</pkgmetadata>

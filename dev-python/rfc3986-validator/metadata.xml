@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># rfc3986-validatorA pure python RFC3986 validator[![image](https://img.shields.io/pypi/v/rfc3986_validator.svg)](https://pypi.python.org/pypi/rfc3986_validator)[![Build Status](https://travis-ci.org/naimetti/rfc3986-validator.svg?branch=master)](https://travis-ci.org/naimetti/rfc3986-validator)# Install```shell scriptpip install rfc3986-validator```# Usage```pycon&gt;&gt;&gt; from rfc3986_validator import validate_rfc3986&gt;&gt;&gt; validate_rfc3986('http://foo.bar?q=Spaces should be encoded')False&gt;&gt;&gt; validate_rfc3986('http://foo.com/blah_blah_(wikipedia)')True```It also support validate [URI-reference](https://tools.ietf.org/html/rfc3986#page-49) rule ```pycon&gt;&gt;&gt; validate_rfc3986('//foo.com/blah_blah', rule='URI_reference')True```  - Free software: MIT license</longdescription>
+</pkgmetadata>

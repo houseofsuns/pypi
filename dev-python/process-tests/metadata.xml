@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>========Overview========Tools for testing processes.* Free software: BSD 2-Clause LicenseUsage=====::    from process_tests import ProcessTestCase    from process_tests import TestProcess    class MyTestCase(ProcessTestCase):        def test_simple(self):            with TestProcess('mydaemon', 'arg1', 'arg2') as proc:                with self.dump_on_error(proc.read):                    self.wait_for_strings(proc.read, 10, # wait 10 seconds for process to output lines with these strings                        'Started',                        'Working',                        'Done',                    )Features========* TODOExamples========* https://github.com/ionelmc/python-redis-lock/blob/master/tests/test_redis_lock.py* https://github.com/ionelmc/python-manhole/blob/master/tests/test_manhole.py* https://github.com/ionelmc/python-stampede/blob/master/tests/test_stampede.py* https://github.com/ionelmc/python-remote-pdb/blob/master/tests/test_remote_pdb.pyTODO====* tests* docsRequirements============:OS: Any:Runtime: Python 2.6, 2.7, 3.2, 3.3 or PyPySimilar projects================* TODOChangelog=========2.1.2 (2020-07-23)------------------* Fixed another regression caused by the ``universal_newlines`` for Windows.2.1.1 (2020-07-23)------------------* Fixed regression caused by the ``universal_newlines`` (now the internals don't decode strings).2.1.0 (2020-07-23)------------------* Applied the cookiecutter-pylibrary templates.* ``TestProcess`` will use ``universal_newlines`` by default for the contained ``subprocess.Popen`` to make sure line buffering is actually  used. This also fixes warnings on Python 3.2.x (???)---------* Lots of wild stuff.</longdescription>
+</pkgmetadata>

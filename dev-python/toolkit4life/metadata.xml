@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># toolkit4lifeA PyPI package to help speed-up development and make life easier.## Features- **logger**: Different decorators to use on your fuctions- **threads**: *Thread* and *ThreadPool* with return values- **requests**: Send requests with Backoff-Strategy- **clients**:  - **redis**: Redis-Client  - **trino**: trino-Client  - **postgre**: PostgreSQL-Client</longdescription>
+</pkgmetadata>

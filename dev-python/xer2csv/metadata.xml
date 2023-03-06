@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># xer2csvThis package provides tools to convert XER files to CSV files.## InstallationUse the package manager [pip](https://pip.pypa.io/en/stable/) to install [xer2csv](https://pypi.org/project/xer2csv/).```pip install xer2csv```## Testingtest.py file will parse all the &quot;.xer&quot; files from the `input_dir` location and will parse them to the `output_dir` directory. For each table from XER file a separate CSV file will be created (within a subdirectory with the name of the original XER file).usage: ```python test.py input_dir output_dir```## License[MIT](https://choosealicense.com/licenses/mit/)</longdescription>
+</pkgmetadata>

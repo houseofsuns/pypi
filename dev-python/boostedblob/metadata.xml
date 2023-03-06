@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># boostedblobboostedblob is a command line tool and async library to perform basic file operations on localpaths, Google Cloud Storage paths and Azure Blob Storage paths.boostedblob is derived from the excellent [blobfile](https://github.com/christopher-hesse/blobfile).The fun part of implementing boostedblob is `boostedblob/boost.py`, which provides a`concurrent.futures`-like interface for running and composing async tasks in a concurrency limitedenvironment.## InstallationJust run `pip install boostedblob`. boostedblob requires Python 3.7 or better.## UsageFor an overview and list of commands:```shbbb --help```For help with a specific command:```shbbb ls --help```To enable tab completion, add the following to your shell config (replacing `zsh` with `bash`,if appropriate):```sheval &quot;$(bbb complete init zsh)&quot;```Note that the quotes are necessary. You can also inline the result of `bbb complete init zsh` intoyour shell config to make your shell startup a little faster.## ContributingFor developer documentation (getting started, running tests, debugging tricks, codebase tips),see [CONTRIBUTING.md](CONTRIBUTING.md)</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Dymos is a framework for the simulation and optimization of dynamical systems within the OpenMDAO Multidisciplinary Analysis and Optimization environment.Dymos leverages implicit and explicit simulation techniques to simulate generic dynamic systems of arbitary complexity.The software has two primary objectives:-   Provide a generic ODE integration interface that allows for the analysis of dynamical systems.-   Allow the user to solve optimal control problems involving dynamical multidisciplinary systems.</longdescription>
+</pkgmetadata>

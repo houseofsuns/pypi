@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># cookiemilkAn easy-to-use Python package to process knowledge structure data automatically, including:- Convert a variety of forms of data (e.g., concept map, essay/summary) into a graph- Calculate graph-based features- Similarity comparisonGithub: https://github.com/weiziqianpsych/cookiemilkPyPI: https://pypi.org/project/cookiemilk/Tutorial: https://cookiemilk-tutorial.readthedocs.io/en/latest/index.html</longdescription>
+</pkgmetadata>

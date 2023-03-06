@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=========================Django common application=========================Django-common provides useful shortcuts for developing django projects.Overview========context_processors~~~~~~~~~~~~~~~~~~* settings_processor - put django.conf.settings into RequestContextdecorators~~~~~~~~~~* render_to - classic render_to functionality* paged - paginate the `response_qs` variable in response. Used with render_to.* ajax - wrap view reponse into JSONfields~~~~~~* AutoOneToOneField - OneToOne field which automatically creates related objectforms~~~~~* build_form - shortcut for creating GET/POST form with one line of codehttp~~~~* HttpResponseJson - Response class which wraps data into JSON format. Used in common.decorators.ajaxmiddleware~~~~~~~~~~* LoginRequiredMiddleware - restrict guest access</longdescription>
+</pkgmetadata>

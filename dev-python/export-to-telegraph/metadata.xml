@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># export_to_telegraphLibrary for export webpage to Telegraph.## usage```import export_to_telegraphexport_to_telegraph.TOKEN = YOUR_TELEGRAPH_TOKENtelegraph_url = export_to_telegraph.export(webpage_url)```If export failed, `telegraph_url` will be None.## how to generate tokenToken is not needed if you don't plan to edit the generated telegraph.Example code:```from html_telegraph_poster import TelegraphPosterposter = TelegraphPoster()api_response = poster.create_api_token(shortname, longname)token = api_response['access_token']```## how to install`pip3 install export_to_telegraph`</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>gvar------This package facilitates the creation and manipulation of arbitrarilycomplicated (correlated) multi-dimensional Gaussian random variables.The random variables are represented by a new data type (``gvar.GVar``)that can be used in arithmetic expressions and pure Python functions. Suchexpressions/functions create new Gaussian random variableswhile automatically tracking statistical correlations between the newand old variables. This data type is useful for simple error propagation,but also is heavily used by the Bayesian least-squares fitting module``lsqfit.py`` to define priors and specify fit results, while accountingfor correlations between all variables. Documentation can is in the``doc/`` subdirectory: see ``doc/html/index.html``or look online at &lt;https://gvar.readthedocs.io&gt;.These packages use ``numpy`` for efficient array arithmetic, and ``cython``to compile efficient code. ``gvar`` uses automatic differentiation totrack covariances through arbitrary arithmetic.Information on how to install the components is in the ``INSTALLATION`` file.To test the libraries try ``make tests``. Someexamples are give in the ``examples/`` subdirectory.``gvar`` version numbers have the form ``major.minor.patch`` where:incompatible changes are signaled by incrementing the ``major`` versionnumber, the ``minor`` number signals new features, and the ``patch`` numbersignals bug fixes.| Created by G. Peter Lepage (Cornell University) 2008| Copyright (c) 2008-2020 G. Peter Lepage.. image:: https://zenodo.org/badge/37556070.svg   :target: https://zenodo.org/badge/latestdoi/37556070</longdescription>
+</pkgmetadata>

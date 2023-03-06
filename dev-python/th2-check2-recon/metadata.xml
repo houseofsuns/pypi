@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This repository is a library for creating th2-check2-recon applications.## Installation```pip install th2-check2-recon```This package can be found on [PyPI](https://pypi.org/project/th2-check2-recon/ &quot;th2-check2-recon&quot;).</longdescription>
+</pkgmetadata>

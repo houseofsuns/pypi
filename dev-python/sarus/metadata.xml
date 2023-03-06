@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Sarus===Python client for the Sarus Gateway. It provides simple connectors to leverage confidential data while ensuring data privacy. Users can explore &amp; train AI models on sensitive data, via synthetic data browsing, remote training and differential privacy.Installation------------PIP^^^To install locally the latest available version :``pip install sarus``Usage-----Client^^^^^^Use this class to connect to **Sarus Gateway**... code-block:: python   from sarus import Client   client = Client(url=&quot;http://admin.sarus.tech:5000&quot;)   available = client.available_datasets()   print(f'Datasets available on the server: {available}')</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This is a backport of the functools standard library module fromPython 3.2.3 for use on Python 2.7 and PyPy. It includesnew features `lru_cache` (Least-recently-used cache decorator).</longdescription>
+</pkgmetadata>

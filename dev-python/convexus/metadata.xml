@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;p align=&quot;center&quot;&gt;  &lt;img     src=&quot;https://i.imgur.com/qqIPMGE.png&quot;     alt=&quot;Convexus logo&quot;&gt;&lt;/p&gt;[![unittest and publish to pypi](https://github.com/Convexus-Protocol/convexus-sdk-py/actions/workflows/convexus-unittest-and-publish.yml/badge.svg?branch=master)](https://github.com/Convexus-Protocol/convexus-sdk-py/actions/workflows/convexus-unittest-and-publish.yml)[![PyPI - latest](https://img.shields.io/pypi/v/convexus?label=latest&amp;logo=pypi)](https://pypi.org/project/convexus)[![PyPI - Python](https://img.shields.io/pypi/pyversions/convexus?logo=pypi)](https://pypi.org/project/convexus)# Convexus SDK for PythonConvexus SDK for Python is useful for building applications on top of Convexus## Requirements- Python 3.10 or later.## InstallationSetup a virtual environment first, and install the Python SDK.```shell$ python3 -m venv venv$ source venv/bin/activate$ pip install convexus```## Using the SDKPlease refer to the SDK documentation located [here](https://dev.convexus.net/convexus-sdk/index).</longdescription>
+</pkgmetadata>

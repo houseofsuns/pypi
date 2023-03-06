@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Json2df-------|PyPI version|json2df is a library batch processing a lists of json data (multipleinstances of same structured json data) into Pandas DataFrame.. |PyPI version| image:: https://badge.fury.io/py/json2df.svg   :target: https://badge.fury.io/py/json2dfinstallation~~~~~~~~~~~~``$ pip install json2df``usage example~~~~~~~~~~~~~https://github.com/shichaoji/json2df</longdescription>
+</pkgmetadata>

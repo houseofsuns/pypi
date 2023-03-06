@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Visit https://worksheets.codalab.org/ or setup your own server by following the instructions in the documentation (https://codalab-worksheets.readthedocs.io/en/latest/Server-Setup).</longdescription>
+</pkgmetadata>

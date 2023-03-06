@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>SigOpt Orchestrate==================SigOpt Orchestrate is a command-line tool for managing training clusters and running optimization experiments.Documentation---------------Documentation and installation instructions can be found at: https://app.sigopt.com/docs/orchestrate</longdescription>
+</pkgmetadata>

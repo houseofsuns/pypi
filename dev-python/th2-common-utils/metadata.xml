@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># th2-common-utils-py (2.0.0)Python library with useful functions for **developers and QA needs**. Check the [Wiki](https://github.com/th2-net/th2-common-utils-py/wiki) for instructions and examples.## Installation```pip install th2-common-utils```</longdescription>
+</pkgmetadata>

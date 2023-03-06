@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>======================================================etesync-dav: A CalDAV and CardDAV frontend for EteSync======================================================This is a CalDAV and CardDAV front-end for `EteSync &lt;https://www.etesync.com&gt;`_.This package provides a local CalDAV and CardDAV server that proxies requeststo an EteSync server for use with desktop CalDAV and CardDAV clients.This is essentially a compatibility layer between EteSync and DAV clients.| Source code: https://github.com/etesync/etesync-dav| README: https://github.com/etesync/etesync-dav/blob/master/README.mdRelease Information===================## Version 0.32.1* Support radicale 3.1.0 for EteSync 1.0 too`Full changelog &lt;https://github.com/etesync/etesync-dav/blob/master/ChangeLog.md&gt;`_.</longdescription>
+</pkgmetadata>

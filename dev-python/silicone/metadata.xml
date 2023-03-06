@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Silicone========.. sec-begin-indexSilicone is a Python package which can be used to infer emissions from other emissions data.It is intended to 'infill' integrated assessment model (IAM) data so that their scenariosquantify more climate-relevant emissions than are natively reported by the IAMs themselves.It does this by comparing the incomplete emissions set to complete data from other sources.It uses the relationships within the complete data to make informed infilling estimates ofotherwise missing emissions timeseries.For example, it can add emissions of aerosol precurors based on carbon dioxide emissionsand infill nitrous oxide emissions based on methane, or split HFC emissions pathways intoemissions of different specific HFC gases... sec-end-indexLicense-------.. sec-begin-licenseSilicone is free software under a BSD 3-Clause License, see`LICENSE &lt;https://github.com/GranthamImperial/silicone/blob/master/LICENSE&gt;`_... sec-end-license.. sec-begin-fundersFunders-------This project has received funding from the European Union Horizon 2020 research andinnovation programme under grant agreement No 820829 (CONSTRAIN) and No 641816 (CRESCENDO)... sec-end-funders</longdescription>
+</pkgmetadata>

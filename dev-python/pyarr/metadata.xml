@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Sonarr and Radarr API Python WrapperPython Wrapper for the [Sonarr](https://github.com/Sonarr/Sonarr), [Radarr](https://github.com/Radarr/Radarr), [Lidarr](https://github.com/Lidarr/Lidarr) &amp; [Readarr](https://github.com/Readarr/Readarr) API.See the full [documentation](https://docs.totaldebug.uk/pyarr/) for supported functions.### Requirements-   requests### Example Sonarr Usage:```python# Import SonarrAPI Classfrom pyarr import SonarrAPI# Set Host URL and API-Keyhost_url = 'http://your-domain.com'# You can find your API key in Settings &gt; General.api_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'# Instantiate SonarrAPI Objectsonarr = SonarrAPI(host_url, api_key)# Get and print TV Showsprint(sonarr.get_series(123))```### Example Radarr Usage:```python# Import RadarrAPI Classfrom pyarr import RadarrAPI# Set Host URL and API-Keyhost_url = 'http://your-domain.com'# You can find your API key in Settings &gt; General.api_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'# Instantiate RadarrAPI Objectradarr = RadarrAPI(host_url, api_key)# Get and print TV Showsprint(radarr.get_root_folder())```### Documentation-   [Pyarr Documentation](https://docs.totaldebug.uk/pyarr)-   [Sonarr API Documentation](https://github.com/Sonarr/Sonarr/wiki/API)-   [Radarr API Documentation](https://radarr.video/docs/api)</longdescription>
+</pkgmetadata>

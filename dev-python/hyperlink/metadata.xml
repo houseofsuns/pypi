@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>The humble, but powerful, URL runs everything around us. Chancesare you've used several just to read this text.Hyperlink is a featureful, pure-Python implementation of the URL, withan emphasis on correctness. MIT licensed.See the docs at http://hyperlink.readthedocs.io.</longdescription>
+</pkgmetadata>

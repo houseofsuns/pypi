@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>`japanmap` is a package for Japanese map.::   import matplotlib.pyplot as plt   from japanmap import picture, get_data, pref_map   pct = picture({'北海道': 'blue'})  # numpy.ndarray   # pct = picture({1: 'blue'})  # same to above   plt.imshow(pct)  # show graphics   plt.savefig('map.png')  # save to PNG file   svg = pref_map(range(1,48), qpqo=get_data())  # IPython.display.SVG   print(svg.data)  # SVG sourceRequirements------------* Python 3.10, Pillow, Numpy, Open-CVFeatures--------* nothingSetup-----::   $ pip install japanmapHistory-------0.0.1 (2016-6-7)~~~~~~~~~~~~~~~~~~* first release</longdescription>
+</pkgmetadata>

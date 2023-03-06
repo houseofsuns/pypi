@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Fides - A python package for Trust Region Optimization&lt;a href=&quot;https://badge.fury.io/py/fides&quot;&gt;  &lt;img src=&quot;https://badge.fury.io/py/fides.svg&quot; alt=&quot;PyPI version&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://codecov.io/gh/fides-dev/fides&quot;&gt;  &lt;img src=&quot;https://codecov.io/gh/fides-dev/fides/branch/master/graph/badge.svg&quot; alt=&quot;Code coverage&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://fides-optimizer.readthedocs.io/en/latest/?badge=latest&quot;&gt; &lt;img src=&quot;https://readthedocs.org/projects/fides-optimizer/badge/?version=latest&quot; alt=&quot;ReadTheDocs status&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://zenodo.org/badge/latestdoi/312057973&quot;&gt; &lt;img src=&quot;https://zenodo.org/badge/312057973.svg&quot; alt=&quot;DOI&quot;&gt;&lt;/a&gt;## About FidesFides implements an Interior Trust Region Reflective for boundary constrainedoptimization problems based on the papers[ColemanLi1994](https://doi.org/10.1007/BF01582221) and[ColemanLi1996](http://dx.doi.org/10.1137/0806023). Accordingly, Fides is namedafter the Roman goddess of trust andreliability.Fides can be installed via `pip install fides`. Further documentation is available at [Read the Docs](https://fides-optimizer.readthedocs.io/).  ## Features* Boundary constrained and unconstrained interior trust-region optimization* Reflective, truncated and optimization based boundary heuristics* Exact, 2D and CG subproblem solvers* BFGS, DFP, SR1, Broyden (good and bad) and Broyden class iterative Hessian Approximation schemes* SSM, TSSM, FX, GNSBFGS and custom hybrid Hessian Approximations schemes</longdescription>
+</pkgmetadata>

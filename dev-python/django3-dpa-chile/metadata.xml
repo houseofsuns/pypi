@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)Django Political-Administrative Division of ChileDivisión Política-Administrativa de Chile para Django=================================================``Regiones - Provincias - Comunas``=================================================This fork was created to update the package to work with the latest versions of Django 3.2+ (4.1 included) and Python, as the [original developer](https://github.com/jupitercl/django-dpa-chile) appears to be inactive.Information obtained from the api of Modernization and Digital Government Unithttps://apis.digital.gob.cl/dpaPypi====https://pypi.org/project/django3-dpa-chile/Installation------------Install **django3-dpa-chile** using **pip**    pip install django3-dpa-chileAdd **d3_dpa_chile** to **INSTALLED_APPS**settings.py-----------    # ...    INSTALLED_APPS =[    ...    'd3_dpa_chile',    ]    # ...Populate--------    python manage.py migrate d3_dpa_chile    python manage.py populate_dpa_chileUse---    from d3_dpa_chile.models import Region, Provincia, Comuna</longdescription>
+</pkgmetadata>

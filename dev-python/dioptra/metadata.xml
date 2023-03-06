@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;div align=&quot;center&quot;&gt;  &lt;img src=&quot;https://dioptra-resources.s3.us-east-2.amazonaws.com/public_assets/dioptra/images/dioptra_logo_with_text.png&quot; width=&quot;400&quot; /&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;---## AboutDioptra is a ML intelligence platform. It provides real time observability of models in production as well as error analysis frameworks to understand model performance and inform retraining strategies.## Quickstart### 1. Create your accountSign up for a free account by reaching out to &lt;info@dioptra.ai&gt;.### 2. Get your service API keyWhen you create an account, we generate a service API key.### 3. Instrument your code### Install LibraryInstall the Dioptra library in an environment using Python &gt; 3.5.3.```sh$ pip3 install dioptra```Or clone the repo:```sh$ git clone https://github.com/dioptra-ai/collector-py.git$ python3 setup.py install```### Runnin the exampleYou can run the provided example to get a sense of how Dioptra works```sh$ export DIOPTRA_API_KEY=&lt;your_api_key&gt;$ python3 examples/image_classification.py```And log in to the dioptra app to see what happens :)</longdescription>
+</pkgmetadata>

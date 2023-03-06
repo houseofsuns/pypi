@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Extractor to get main content from the web page. - guessed title of main content - guessed main content - guessed summarization - candidate of main imageInstall   sudo easy_install summaryUsages   visit at https://github.com/after12am/summary</longdescription>
+</pkgmetadata>

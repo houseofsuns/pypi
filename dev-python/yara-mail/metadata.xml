@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;div align=&quot;center&quot;&gt;  &lt;img src=&quot;https://seanthegeek.github.io/yaramail/_static/yaramail-logo.png&quot; alt=&quot;yaramail logo&quot;&gt;&lt;h1 style=&gt;yaramail&lt;/h1&gt;  [![Python tests](https://github.com/seanthegeek/yaramail/actions/workflows/python-tests.yaml/badge.svg)](https://github.com/seanthegeek/yaramail/actions/workflows/python-tests.yaml)  [![PyPI](https://img.shields.io/pypi/v/yara-mail)](https://pypi.org/project/yara-mail/)  [![PyPI - Downloads](https://img.shields.io/pypi/dm/yara-mail?color=blue)](https://pypistats.org/packages/yara-mail)&lt;/div&gt;`yaramail` is a Python package and command line utility for scanning emails with[YARA rules][yara]. It is ideal for automated triage of phishing reports.## CLI Demo[![asciicast](https://asciinema.org/a/529801.svg)][cli-demo]## Features- Scans all parts of an email via API or CLI  - Headers    - Removes header indents by default for consistent scanning  - Plain text and HTML body content    - Converts body content to Markdown by default for consistent scanning  - Attachments    - Raw file content    - Emails attached to emails    - PDF document text    - ZIP file contents, including nested ZIP files      - Uses message body content as a list of possible ZIP passwords      - Customizable list of passwords to use when attempting to scan encrypted ZIP files- Provides a built-in methodology for categorizing emails- Parses `Authentication-Results` headers[yara]: https://yara.readthedocs.io/en/stable/writingrules.html[cli-demo]: https://seanthegeek.github.io/yaramail/tutorial.html#using-the-cli</longdescription>
+</pkgmetadata>

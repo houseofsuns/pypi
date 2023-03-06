@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image:: https://img.shields.io/pypi/v/py.svg    :target: https://pypi.org/project/py.. image:: https://img.shields.io/conda/vn/conda-forge/py.svg    :target: https://anaconda.org/conda-forge/py.. image:: https://img.shields.io/pypi/pyversions/py.svg  :target: https://pypi.org/project/py.. image:: https://github.com/pytest-dev/py/workflows/build/badge.svg  :target: https://github.com/pytest-dev/py/actions**NOTE**: this library is in **maintenance mode** and should not be used in new code.The py lib is a Python development support library featuringthe following tools and modules:* ``py.path``:  uniform local and svn path objects  -&gt; please use pathlib/pathlib2 instead* ``py.apipkg``:  explicit API control and lazy-importing -&gt; please use the standalone package instead* ``py.iniconfig``:  easy parsing of .ini files -&gt; please use the standalone package instead* ``py.code``: dynamic code generation and introspection (deprecated, moved to ``pytest`` as a implementation detail).**NOTE**: prior to the 1.4 release this distribution used tocontain py.test which is now its own package, see https://docs.pytest.orgFor questions and more information please visit https://py.readthedocs.ioBugs and issues: https://github.com/pytest-dev/pyAuthors: Holger Krekel and others, 2004-2017</longdescription>
+</pkgmetadata>

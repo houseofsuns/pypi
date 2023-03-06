@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># tox-extraThis [tox plugin](https://github.com/topics/tox-plugin) adds few extra checkslike:- ensure exit code 1 if git reports dirty or untracked files _after_ the runUsage example:```$ tox -e py...ERROR: Git reported dirty status. Git should never report dirty status at the end of testing, regardless if status is passed, failed or aborted.On branch develYour branch is up to date with 'origin/devel'.Untracked files:  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)some-untracked.txtnothing added to commit but untracked files present (use &quot;git add&quot; to track)__________________________________________ summary ___________________________________________ERROR:   py: failed```The goal of this plugin is to help developers be aware about files modified by testsor untracked files before they commit the code. This plugin also does not take intoconsideration the global `.gitignore`, something that can make git miss reportingsome untracked files, the goal being to assure that when a new developer clones andruns the tests they do not endup with an unexpected git status.If you have any cases where you expect to have git report dirty, pleaseadd `--allow-dirty` to the command call to disable this check.</longdescription>
+</pkgmetadata>

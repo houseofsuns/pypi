@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># p3droslo_Probabilistic 3D Reconstruction of Spectral Line Observations._![Build status](https://github.com/Magritte-code/p3droslo/actions/workflows/build-and-test.yaml/badge.svg)![Build status](https://github.com/Magritte-code/p3droslo/actions/workflows/upload-to-pypi.yaml/badge.svg)![Build status](https://github.com/Magritte-code/p3droslo/actions/workflows/upload-to-anaconda.yaml/badge.svg)## InstallationGet the latest release (version 0.0.8) either from [PyPI](https://pypi.org/project/p3droslo/), using `pip`, with:```pip install p3droslo```or from [Anaconda.org](https://anaconda.org/FredDeCeuster/p3droslo), using `conda`, with:```conda install -c freddeceuster p3droslo ```or download the [source code](https://github.com/Magritte-code/p3droslo/archive/refs/heads/main.zip), unzip, and install with `pip` by executing:```pip install .```in the root directory of the code.</longdescription>
+</pkgmetadata>

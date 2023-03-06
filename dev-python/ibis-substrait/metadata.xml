@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># [Ibis](https://ibis-project.org) + [Substrait](https://substrait.io)This repo houses the Substrait compiler for ibis.We're just getting started here, so stay tuned!# Usage```python&gt;&gt;&gt; import ibis&gt;&gt;&gt; t = ibis.table(    [(&quot;a&quot;, &quot;string&quot;), (&quot;b&quot;, &quot;float&quot;), (&quot;c&quot;, &quot;int32&quot;), (&quot;d&quot;, &quot;int64&quot;), (&quot;e&quot;, &quot;int64&quot;)],    &quot;t&quot;,)&gt;&gt;&gt; expr = t.group_by([&quot;a&quot;, &quot;b&quot;]).aggregate([t.c.sum().name(&quot;sum&quot;)]).select(&quot;b&quot;, &quot;sum&quot;)&gt;&gt;&gt; exprr0 := UnboundTable: t  a string  b float64  c int32  d int64  e int64r1 := Aggregation[r0]  metrics:    sum: Sum(r0.c)  by:    a: r0.a    b: r0.bSelection[r1]  selections:    b:   r1.b    sum: r1.sum&gt;&gt;&gt; ibis.show_sql(expr)SELECT  t0.b,  t0.sumFROM (  SELECT    t1.a AS a,    t1.b AS b,    SUM(t1.c) AS sum  FROM t AS t1  GROUP BY    t1.a,    t1.b) AS t0&gt;&gt;&gt; from ibis_substrait.compiler.core import SubstraitCompiler&gt;&gt;&gt; compiler = SubstraitCompiler()&gt;&gt;&gt; proto = compiler.compile(expr)```</longdescription>
+</pkgmetadata>

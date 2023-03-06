@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># QURI Parts CoreQURI Parts Core is a core component of QURI Parts, a platform-independent library for quantum computing.## Documentation[QURI Parts Documentation](https://quri-parts.qunasys.com)## Installation```pip install quri-parts-core```## LicenseApache License 2.0</longdescription>
+</pkgmetadata>

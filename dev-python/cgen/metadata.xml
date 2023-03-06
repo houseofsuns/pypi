@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>cgen: An Abstract Syntax Tree for C, in Python----------------------------------------------.. image:: https://gitlab.tiker.net/inducer/cgen/badges/master/pipeline.svg    :alt: Gitlab Build Status    :target: https://gitlab.tiker.net/inducer/cgen/commits/master.. image:: https://dev.azure.com/ak-spam/inducer/_apis/build/status/inducer.cgen?branchName=master    :alt: Azure Build Status    :target: https://dev.azure.com/ak-spam/inducer/_build/latest?definitionId=7&amp;branchName=master.. image:: https://badge.fury.io/py/cgen.png    :alt: Python Package Index Release Page    :target: https://pypi.org/project/cgen/cgen offers a simple abstract syntax tree for C and related languages(C++/CUDA/OpenCL) to allow structured code generation from Python.To represent mathematical expressions, cgen can be used with `pymbolic&lt;https://github.com/inducer/pymbolic&gt;`_.Places on the web related to cgen:* `Python package index &lt;http://pypi.python.org/pypi/cgen&gt;`_ (download releases)  .. image:: https://badge.fury.io/py/cgen.png      :target: http://pypi.python.org/pypi/cgen* `Documentation &lt;http://documen.tician.de/cgen&gt;`_ (read how things work)* `Github &lt;http://github.com/inducer/cgen&gt;`_ (get latest source code, file bugs)cgen is licensed under the liberal `MIT license&lt;http://en.wikipedia.org/wiki/MIT_License&gt;`_ and free for commercial, academic,and private use. All of cgen's dependencies can be automatically installed fromthe package index after using::    pip install cgen</longdescription>
+</pkgmetadata>

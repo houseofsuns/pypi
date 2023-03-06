@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Mypy non-float Decimal pluginRestricts passing float numbers to Decimal## Why?[The implementation of floating point numbers](https://docs.python.org/3/tutorial/floatingpoint.html) can cause imprecisions in results. To avoid this problem you can use `Decimal` type, however you still need to avoid passing `float` as its parameter:```&gt;&gt;&gt; Decimal(1.02)Decimal(&quot;1.020000000000000017763568394002504646778106689453125&quot;)&gt;&gt;&gt; Decimal(&quot;1.02&quot;)Decimal(&quot;1.02&quot;)```This plugin is meant to spot occurrences where `float` is passed to `Decimal` in your code.## Usage- install plugin```pip install mypy-nonfloat-decimal```- add it into list of mypy plugins in your mypy config (`mypy.ini`)```[mypy]plugins=mypy_nonfloat_decimal```- upon running mypy will detect `float` passed to `Decimal` and report it as an error (`example.py`):```from decimal import DecimalDecimal(1.02)``````$ mypy --config-file ./mypy.ini ./example.pyexample.py:2: error: Invalid type passed to Decimal (expected &quot;Union[int, str, Decimal]&quot;), got float instead```</longdescription>
+</pkgmetadata>

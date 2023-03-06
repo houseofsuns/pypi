@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Filerobot The Filerobot class provides all the functionality of the Filerobot and all of it's APIs. The idea of the filerobot class is to be used in every scrips filerobotrelated providing the functionality of the Filerobot in an easier way.![alt text](https://blog.scaleflex.com/content/images/2021/05/SCALEFLEX-LOGO-HORIZONTAL.png)## Installation```bashpip install filerobot```## Usage```pythonfrom filerobot.filerobot import Filerobotfilerobot = Filerobot('&lt;filerobot token&gt;', '&lt;filerobot key&gt;')# Check if filerobot credentials is rightfilerobot.check_and_set_filerobot_credentials()```## Functionality1. Folders- Create folder- Get folder details- List &amp; search folders- Rename folder- Move folder- Delete folder2. Files- List files- Get file details- Rename file- Move file- Delete file- HTTP upload file- Multipart upload file- Pool upload file3. Metadata - Get metadata fields- Get details about metadata field## ContributingPull requests are welcome. For major changes, please open an issue firstto discuss what you would like to change.Please make sure to update tests as appropriate.## License[MIT](https://choosealicense.com/licenses/mit/)</longdescription>
+</pkgmetadata>

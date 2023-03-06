@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># FTSCursorA sqlite3 cursor with extra methods to support FTS3/4/5.This package contains a subclass of the sqlite3.Cursor class that makesit easy to perform (simple) full-text-search operations using the sqlite3module.See the included [example script](https://github.com/anthony-aylward/ftscursor/blob/master/ftscursor/example_script.py)for an application of the FTSCursor class. Once `ftscursor` is installed, theexample script can be run from the command line by calling `ftscursor-example`.For usage information, see `ftscursor-example -h`:```usage: ftscursor-example [-h]                         &lt;path/to/database.db&gt; &lt;table_name&gt; &lt;column_name&gt;                         [&lt;column_name&gt; ...] &lt;query&gt;Create a sqlite3 FTS table in memory and perform a querypositional arguments:  &lt;path/to/database.db&gt;                        a sqlite database  &lt;table_name&gt;          the table which will be indexed  &lt;column_name&gt;         a column which will be indexed  &lt;query&gt;               a FTS queryoptional arguments:  -h, --help            show this help message and exit```</longdescription>
+</pkgmetadata>

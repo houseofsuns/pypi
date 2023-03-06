@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># OpenLR Python[![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](LICENSE)[![Travis (.org)](https://img.shields.io/travis/tomtom-international/openlr-python)](https://travis-ci.org/tomtom-international/openlr-python)[![Coverage Status](https://img.shields.io/codecov/c/github/tomtom-international/openlr-python/master.svg)](https://codecov.io/github/tomtom-international/openlr-python?branch=master)[![pip downloads](https://img.shields.io/pypi/dm/openlr)](https://pypi.org/project/openlr)[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/openlr)](https://pypi.org/project/openlr)[![PyPI](https://img.shields.io/pypi/v/openlr)](https://pypi.org/project/openlr)Zero dependency Python implementation for[OpenLR™](https://www.openlr-association.com) XML and binary physical formats according to[the White Paper](https://www.openlr-association.com/fileadmin/user_upload/openlr-whitepaper_v1.5.pdf)and [the reference implementation](https://github.com/tomtom-international/openlr).## InstallationYou need a Python version &gt;= 2.7.```pip install openlrpython -m openlr CwGkNSK5WhtzAv9+/5kbAw==```## LicenseReleased under [the Apache License 2.0](LICENSE).Copyright (c) 2016-2020 TomTom NV.</longdescription>
+</pkgmetadata>

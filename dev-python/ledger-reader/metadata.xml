@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Ledger ReaderA simple parser for hledger journal files. It's always fun to play with rply and use a simple grammar. PR's welcome :).## Install```pip install ledger-reader```## Example usage### Read a journal```pythonfrom ledger_reader import LedgerReaderreader = LedgerReader()journal = reader.parse_file('bank.journal')for entry in journal:    print(entry.date, entry.description)    for transaction in entry.transactions:        print(f'{transaction.account} {transaction.currency} {transaction.amount}')    print()```### Append to a journal```pythonfrom datetime import datefrom ledger_reader import Entry, Transactionentry = Entry(    date(2022, 3, 5),    'Cash Transfer',    transactions=[        Transaction('assets:bank:boa:checking', '$', -5000),        Transaction('assets:bank:boa:savings')    ])with open('bank.journal', 'a') as fp:    fp.write(f'\n{entry}')```</longdescription>
+</pkgmetadata>

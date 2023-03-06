@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># GS DBS ClientThe GS-DBS-Client is a Python library interacting with the Glass Sphere DBS.## CAUTIONVersion 0.2.0 introduces breaking changes due to introduction of the mission control client. Be aware of the changed imports.  ## InstallationUse the package manager [pip](https://pip.pypa.io/en/stable/) to install the gs-dbs-client. Further information can befound [here](https://glass-sphere-ai.de/learn).```bashpip install gs-dbs-gsdbs```## Usage```pythonimport os#v0.1.xfrom client.gsdbs import GSDBS#v0.2.xfrom gsdbs.dbclient import GSDBSfrom gsdbs.missioncontrol import MissionControl...gsdbs = GSDBS(os.path.dirname(os.path.realpath(__file__)))```## License(C) 2022 ENS - Freies Institut fuer Technische Informatik UG haftungsbeschraenkt[MIT](https://choosealicense.com/licenses/mit/)</longdescription>
+</pkgmetadata>

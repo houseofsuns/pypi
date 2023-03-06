@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![RTD](https://readthedocs.org/projects/dask-cuda/badge/?version=latest)](https://dask-cuda.readthedocs.io/en/latest/?badge=latest)Dask CUDA=========Various utilities to improve deployment and management of Dask workers onCUDA-enabled systems.This library is experimental, and its API is subject to change at any timewithout notice.Example-------```pythonfrom dask_cuda import LocalCUDAClusterfrom dask.distributed import Clientcluster = LocalCUDACluster()client = Client(cluster)```Documentation is available [here](https://dask-cuda.readthedocs.io/).What this is not----------------This library does not automatically convert your Dask code to run on GPUs.It only helps with deployment and management of Dask workers in multi-GPUsystems.  Parallelizing GPU libraries like [RAPIDS](https://rapids.ai) and[CuPy](https://cupy.chainer.org) with Dask is an ongoing effort.  You may wishto read about this effort at [blog.dask.org](https://blog.dask.org) for moreinformation.  Additional information about Dask-CUDA can also be found in the[docs]( https://dask-cuda.readthedocs.io ).</longdescription>
+</pkgmetadata>

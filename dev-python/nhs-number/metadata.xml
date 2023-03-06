@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># NhsNumberChecksPackage to provide utilities to check NHS Numbers for validity&lt;table&gt;    &lt;tr&gt;        &lt;td&gt;License&lt;/td&gt;        &lt;td&gt;&lt;img src=&quot;https://img.shields.io/pypi/l/nhs-number&quot; alt=&quot;Licence type badge&quot;&gt;&lt;/td&gt;        &lt;td&gt;Version&lt;/td&gt;        &lt;td&gt;&lt;img src=&quot;https://img.shields.io/pypi/v/nhs-number&quot; alt=&quot;Version badge&quot;&gt;&lt;/td&gt;    &lt;/tr&gt;    &lt;tr&gt;        &lt;td&gt;Travis CI&lt;/td&gt;        &lt;td&gt;&lt;img src='https://www.travis-ci.com/andylaw/NhsNumberChecks.svg?branch=main'&gt;&lt;/td&gt;        &lt;td&gt;Coverage&lt;/td&gt;        &lt;td&gt;&lt;img src='https://codecov.io/gh/andylaw/NhsNumberChecks/branch/main/graph/badge.svg'&gt;&lt;/td&gt;    &lt;/tr&gt;    &lt;tr&gt;        &lt;td&gt;Wheel&lt;/td&gt;        &lt;td&gt;&lt;img src='https://img.shields.io/pypi/wheel/nhs-number'&gt;&lt;/td&gt;        &lt;td&gt;Implementation&lt;/td&gt;        &lt;td&gt;&lt;img src='https://img.shields.io/pypi/implementation/nhs-number'&gt;&lt;/td&gt;    &lt;/tr&gt;    &lt;tr&gt;        &lt;td&gt;Status&lt;/td&gt;        &lt;td&gt;&lt;img src='https://img.shields.io/pypi/status/nhs-number'&gt;&lt;/td&gt;        &lt;td&gt;Downloads&lt;/td&gt;        &lt;td&gt;&lt;img src='https://img.shields.io/pypi/dm/nhs-number'&gt;&lt;/td&gt;    &lt;/tr&gt;    &lt;tr&gt;        &lt;td&gt;Supported versions&lt;/td&gt;        &lt;td&gt;&lt;img src='https://img.shields.io/pypi/pyversions/nhs-number.svg'&gt;&lt;/td&gt;    &lt;/tr&gt;&lt;/table&gt;</longdescription>
+</pkgmetadata>

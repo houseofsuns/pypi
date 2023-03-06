@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Mines Data EngineeringThis package simplifies the process of starting common database systems in the background on Singularity Hub.## Supported Databases- MongoDB- TimescaleDB (and Postgres)## Examples### MongoDB```pythonfrom mines_data_engineering import start_mongoimport pymongo# will need wait a couple minutes the first time this happens# while Singularity downloads and converts the Docker imageconnection_string = start_mongo()client = pymongo.MongoClient(connection_string)client.my_db.my_col.insert_one({'finally': 'working'})```### Postgres/TimescaleDB```pythonfrom mines_data_engineering import start_postgresimport psycopg2# will need wait a couple minutes the first time this happens# while Singularity downloads and converts the Docker imageconnection_string = start_postgres()conn = psycopg2.connect(connection_string)cur = conn.cursor()cur.execute(&quot;SELECT 1&quot;)assert next(cur) == (1,)```</longdescription>
+</pkgmetadata>

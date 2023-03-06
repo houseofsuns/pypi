@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># funcsforspo_l - Funcoes para Selenium; Python; Openpyxl; SQLite3 entre outros## pip install funcsforspo_l | NECESSÁRIO PYTHON 3.10Aqui voce achara funcoes produzidas para ter maior agilidade nos desenvolvimentos nas tecnologias abaixo:* Selenium  * Existem diversas funcoes em pt-br que vao te ajudar a desenvolver os seus projetos mais rapidamente em selenium* Openpyxl (ainda em desenvolvimento para mais funcoes)  * Algumas funcoes que minimizarao o trabalho pesado de mexer com openpyxl* Python  * Funcoes criadas para o Python, como excluir varios arquivos, criar, verificar se um programa / executavel esta aberto, entre outras funcionalidades## Instalacaopip install funcsforspo_l em seu ambiente virtual e pronto!Powered By [https://github.com/gabriellopesdesouza2002](https://github.com/gabriellopesdesouza2002)# Current Version -&gt; 1.0.0version==1.0.0 -&gt; Primeira implementação</longdescription>
+</pkgmetadata>

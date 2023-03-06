@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>ntplib - Python NTP library===========================Description-----------This module offers a simple interface to query NTP servers from Python.It also provides utility functions to translate NTP fields values to text (mode,leap indicator...). Since it's pure Python, and only depends on core modules, itshould work on any platform with a Python implementation.Example-------&gt;&gt;&gt; import ntplib&gt;&gt;&gt; from time import ctime&gt;&gt;&gt; c = ntplib.NTPClient()&gt;&gt;&gt; response = c.request('europe.pool.ntp.org', version=3)&gt;&gt;&gt; response.offset-0.143156766891&gt;&gt;&gt; response.version3&gt;&gt;&gt; ctime(response.tx_time)'Sun May 17 09:32:48 2009'&gt;&gt;&gt; ntplib.leap_to_text(response.leap)'no warning'&gt;&gt;&gt; response.root_delay0.0046844482421875&gt;&gt;&gt; ntplib.ref_id_to_text(response.ref_id)193.190.230.66Installation------------As root::   # python setup.py installor just copy ntplib.py inside a directory in your sys.path, e.g.`/usr/lib/python2.5/`.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># h3ppyA python package for modelling and fitting H&lt;sub&gt;3&lt;/sub&gt;&lt;sup&gt;+&lt;/sup&gt; and H&lt;sub&gt;2&lt;/sub&gt; spectra## Install via pip```pip3 install h3ppy```Full [documentation on Github](https://github.com/henrikmelin/h3ppy).    </longdescription>
+</pkgmetadata>

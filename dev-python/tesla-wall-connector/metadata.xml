@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Python Tesla Wall Connector API &lt;!-- omit in TOC --&gt;Python Tesla Wall Connector API for local consumption. This package allows you to monitor your 3rd generation Tesla Wall Connector programmatically. It is mainly created to enable integration with Home Assistant and threfore exposes an asynchronous API.## Usage```pythonimport asynciofrom tesla_wall_connector import WallConnectorasync def main():    async with WallConnector('TeslaWallConnector_ABC123.localdomain') as wall_connector:        lifetime = await wall_connector.async_get_lifetime()        print(&quot;energy_wh: {}Wh&quot;.format(lifetime.energy_wh))asyncio.run(main())```## Setting up development environmentThis Python project is fully managed using the [Poetry][poetry] dependencymanager.You need at least:- Python 3.8+- [Poetry][poetry-install]To install all packages, including all development requirements:```bashpoetry install```As this repository uses the [pre-commit][pre-commit] framework, all changesare linted and tested with each commit. You can run all checks and testsmanually, using the following command:```bashpoetry run pre-commit run --all-files```To run the Python tests:```bashpoetry run pytest```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=================================================== OSProfiler -- Library for cross-project profiling===================================================.. image:: https://governance.openstack.org/tc/badges/osprofiler.svg    :target: https://governance.openstack.org/tc/reference/tags/index.html.. Change things from this point on.. image:: https://img.shields.io/pypi/v/osprofiler.svg    :target: https://pypi.org/project/osprofiler/    :alt: Latest Version.. image:: https://img.shields.io/pypi/dm/osprofiler.svg    :target: https://pypi.org/project/osprofiler/    :alt: DownloadsOSProfiler provides a tiny but powerful library that is used bymost (soon to be all) OpenStack projects and their python clients. Itprovides functionality to be able to generate 1 trace per request, that goesthrough all involved services. This trace can then be extracted and usedto build a tree of calls which can be quite handy for a variety ofreasons (for example in isolating cross-project performance issues).* Free software: Apache license* Documentation: https://docs.openstack.org/osprofiler/latest/* Source: https://opendev.org/openstack/osprofiler* Bugs: https://bugs.launchpad.net/osprofiler* Release notes: https://docs.openstack.org/releasenotes/osprofiler</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ipython-autotimeTime everything in IPython## Installation:```console$ pip install ipython-autotime```## Examples```pythonIn [1]: %load_ext autotimetime: 264 µs (started: 2020-12-15 11:44:36 +01:00)In [2]: x = 1time: 416 µs (started: 2020-12-15 11:44:45 +01:00)In [3]: x / 0---------------------------------------------------------------------------ZeroDivisionError                         Traceback (most recent call last)&lt;ipython-input-3-034eb0c6102b&gt; in &lt;module&gt;----&gt; 1 x/0ZeroDivisionError: division by zerotime: 88.7 ms (started: 2020-12-15 11:44:53 +01:00)```## Want to turn it off?```pythonIn [4]: %unload_ext autotime```</longdescription>
+</pkgmetadata>

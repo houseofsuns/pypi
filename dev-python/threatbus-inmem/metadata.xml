@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Threat Bus In-Memory Backbone Plugin====================================&lt;h4 align=&quot;center&quot;&gt;[![PyPI Status][pypi-badge]][pypi-url][![Build Status][ci-badge]][ci-url][![License][license-badge]][license-url]&lt;/h4&gt;A very simplistic Threat Bus plugin that provides an in-memory backbone for dataprovisioning.### Message RoutingMessages are routed based on their data type. Stix2 data, like Indicators andSightings are routed via the `stix2/` topic prefix. Threat Bus-internal messageslike SnapshotRequests and SnapshotEnvelopes are routed via the `threatbus/`topic prefix.### SubscriptionsApplication plugins can subscribe to topics and topic prefixes.## Installation```shpip install threatbus-inmem```## ConfigurationAdd a placeholder for this plugin's config:```yaml...plugins:  backbones:    inmem:...```There is no further configuration needed.## LicenseThreat Bus comes with a [3-clause BSD license][license-url].[pypi-badge]: https://img.shields.io/pypi/v/threatbus-inmem.svg[pypi-url]: https://pypi.org/project/threatbus-inmem[ci-url]: https://github.com/tenzir/threatbus/actions?query=branch%3Amaster[ci-badge]: https://github.com/tenzir/threatbus/workflows/Python%20Egg/badge.svg?branch=master[license-badge]: https://img.shields.io/badge/license-BSD-blue.svg[license-url]: https://github.com/tenzir/threatbus/blob/master/COPYING</longdescription>
+</pkgmetadata>

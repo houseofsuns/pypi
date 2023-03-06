@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># vitalpyWelcome to vitalpy - essential tools for programming in Python!## InstallationLinux / macOS (python3):``` zshpython3 -m pip install vitalpy```Linux  / macOS (python2):``` zshpython -m pip install vitalpy```Windows:``` zshpy -m pip install vitalpy```## Docs[vitalpy documentation](http://123web.uk/vitalpy/docs)---&lt;!--``` pythonv.file.ls(path)```Returns a list of files in a directory.Arguments:* `path`: the folder to search (e.g. `/home/your_name/coding/awesome_project`)Returns:`list` of files in the specified directory``` pythonv.file.create(path)```---Creates the specified file.Arguments:* `file`: the file to createReturns:`list` of files in the specified directory--&gt;``` pythonv.file.ls(path) #List all files in a folderv.file.create(file) # Create the specified folderv.file.write(file, content) # Write some data to a filev.file.read(file) # Get the contents of a filev.file.rm(path) # Delete a filev.file.rmdir(path) # Delete a folderv.file.mkdir(folder) # Create a folderv.file.copy(origin, destination) # Copy the origin file to the destinationv.file.append(file, content) # Append the content to the filev.file.move(origin, destination) # Change the filepath of origin to destinationv.file.rename(origin, destination) # Rename the old_name file to new_name, same as move()```</longdescription>
+</pkgmetadata>

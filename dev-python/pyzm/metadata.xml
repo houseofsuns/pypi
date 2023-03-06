@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;img src=&quot;https://raw.githubusercontent.com/ZoneMinder/pyzm/master/images/pyzm.png&quot; width=&quot;200&quot;/&gt;What=====Pythonic ZoneMinder wrapper- API- Event Server- Logger- Memory- Machine Learning ModulesDocumentation &amp; Examples=========================Latest documentation is available &lt;a href='https://pyzm.readthedocs.io/en/latest/'&gt;here&lt;/a&gt;. The documentation includes a full example.Features=========- API auth using tokens or legacy (manages refresh logins automatically)- Monitors- Events with filters- States- Configs- EventNotification callbacks- Mapped Memory access- Direct access to ML algorithms- [Amazon Rekognition support](https://medium.com/@michael-ludvig/aws-rekognition-support-for-zoneminder-object-detection-40b71f926a80) for object detectionLimitations============* Only for Python3</longdescription>
+</pkgmetadata>

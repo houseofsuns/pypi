@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># emodeconnectionThis package provides an interface to the EMode software from EMode Photonix LLC.## Installation`$ pip install emodeconnection`## Using emodeconnectionSee the [guide](https://docs.emodephotonix.com/emodeconnection.html) provided by EMode Photonix.## LicenseThis package is published under the 3-Clause BSD License.</longdescription>
+</pkgmetadata>

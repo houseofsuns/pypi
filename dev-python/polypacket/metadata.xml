@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>![polypacket_logo](https://raw.githubusercontent.com/wiki/up-rev/PolyPacket/polypacket_logo.png)Poly Packet is a set of tools aimed at generating protocols from embedded projects. Protocols are described in an YAML document which can be easily shared with all components of a system.A python script is used to parse the YAML file and generate C/C++ code as well as documentation. The code generation tool can create the back end service, application layer, and even an entire linux utility app## InstallationThe tools can be installed using pip:```bashpip3 install polypacket```&lt;br&gt;To view an example protocol file:```bashpoly-make -e```&lt;br&gt;## Live Protocol InterpreterOnce you have a descriptor file, you can run a live interface of the protocol using poly-packetOpen two terminals and connect them over udp to test it out:&lt;br&gt;&lt;br&gt;terminal 1:```bashpoly-packet -i sample_protocol.yml -c connect udp:8020```&lt;br&gt;terminal 2:```bashpoly-packet -i sample_protocol.yml -c connect udp:8010:8020```&lt;br&gt;The terminal interface uses autocompletion, so hit tab to show available packet/ field types. to send a packet just type the packet name followed by comma seperated field names and values.example:```bashData sensorA: 45, sensorB: 78, sensorName: mySensor```[Visit Wiki for more information](https://github.com/up-rev/PolyPacket/wiki)</longdescription>
+</pkgmetadata>

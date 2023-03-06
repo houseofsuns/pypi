@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># mecab-pythonPlease use [mecab-python3](https://github.com/SamuraiT/mecab-python3) instead.This package was originally a separate package, but it was last updated in 2015. mecab-python3 also supports Python 2 and is actively maintained.</longdescription>
+</pkgmetadata>

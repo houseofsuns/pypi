@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Tornado Web Server==================.. image:: https://badges.gitter.im/Join%20Chat.svg   :alt: Join the chat at https://gitter.im/tornadoweb/tornado   :target: https://gitter.im/tornadoweb/tornado?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge&amp;utm_content=badge`Tornado &lt;http://www.tornadoweb.org&gt;`_ is a Python web framework andasynchronous networking library, originally developed at `FriendFeed&lt;http://friendfeed.com&gt;`_.  By using non-blocking network I/O, Tornadocan scale to tens of thousands of open connections, making it ideal for`long polling &lt;http://en.wikipedia.org/wiki/Push_technology#Long_Polling&gt;`_,`WebSockets &lt;http://en.wikipedia.org/wiki/WebSocket&gt;`_, and otherapplications that require a long-lived connection to each user.Hello, world------------Here is a simple &quot;Hello, world&quot; example web app for Tornado:.. code-block:: python    import asyncio    import tornado.web    class MainHandler(tornado.web.RequestHandler):        def get(self):            self.write(&quot;Hello, world&quot;)    def make_app():        return tornado.web.Application([            (r&quot;/&quot;, MainHandler),        ])    async def main():        app = make_app()        app.listen(8888)        await asyncio.Event().wait()    if __name__ == &quot;__main__&quot;:        asyncio.run(main())This example does not use any of Tornado's asynchronous features; forthat see this `simple chat room&lt;https://github.com/tornadoweb/tornado/tree/stable/demos/chat&gt;`_.Documentation-------------Documentation and links to additional resources are available athttps://www.tornadoweb.org</longdescription>
+</pkgmetadata>

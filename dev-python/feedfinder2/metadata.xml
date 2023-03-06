@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Feedfinder2===========This is a Python library for finding links feeds on a website. It is based on`feedfinder &lt;http://www.aaronsw.com/2002/feedfinder/&gt;`_ - originallywritten by `MarkPilgrim &lt;http://en.wikipedia.org/wiki/Mark_Pilgrim_(software_developer)&gt;`_ andsubsequently maintained by `AaronSwartz &lt;http://en.wikipedia.org/wiki/Aaron_Swartz&gt;`_ until his untimely death.Usage-----Feedfinder2 offers a single public function: ``find_feeds``. You would use itas follows:::    from feedfinder2 import find_feeds    feeds = find_feeds(&quot;xkcd.com&quot;)Now, ``feeds`` is the list: ``['http://xkcd.com/atom.xml','http://xkcd.com/rss.xml']``. There is some attempt made to rank feeds frombest candidate to worst but... well... you never know.License-------Feedfinder2 is licensed under the MIT license (see LICENSE).</longdescription>
+</pkgmetadata>

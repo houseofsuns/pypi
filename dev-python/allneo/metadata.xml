@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Project description=================================================================================#developed by :Roni Das===================================================================================#Date : 30/05/2021===================================================================================allneo is a Python package that provides fast, flexible, and expressive toolkit this helps to work with neo4j graph database easyily and intuitively. It aims to be the fundamental high-level building block for doing practical, real world operation and data analysis in Python. Additionally, it has the broader goal of becoming the most powerful and flexible open source neo4j operation and manipulation tool available in python. We are trying to make its way toward this goal.allneo is well suited for many different kinds of neo4j operations======================================================================================#30/05/2021======================================================================================#version 12.0.0#added function count_node for getting the nodecoun#added exception handling for invalid hostname, username and password</longdescription>
+</pkgmetadata>

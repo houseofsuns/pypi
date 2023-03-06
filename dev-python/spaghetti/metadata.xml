@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Spaghetti is an open-source Python library for the analysis of network-basedspatial data. Originating from the `network` module in `PySAL`_(Python Spatial Analysis Library), it is under active developmentfor the inclusion of newly proposed methods for buildinggraph-theoretic networks and the analysis of network events... _PySAL: http://pysal.org</longdescription>
+</pkgmetadata>

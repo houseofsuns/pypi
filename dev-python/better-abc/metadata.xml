@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Better ABChttps://stackoverflow.com/questions/23831510/abstract-attribute-not-property## Usage ```pythonfrom better_abc import ABCMeta, abstract_attribute    # see belowclass AbstractFoo(metaclass=ABCMeta):    @abstract_attribute    def bar(self):        passclass Foo(AbstractFoo):    def __init__(self):        self.bar = 3class BadFoo(AbstractFoo):    def __init__(self):        pass``````Foo()     # okBadFoo()  # will raise: NotImplementedError: Can't instantiate abstract class BadFoo# with abstract attributes: bar```If you want other features of ABC they need to be imported from the abc module directly.```pythonfrom abc import abstractmethodfrom better_abc import ABCMeta, abstract_attribute```</longdescription>
+</pkgmetadata>

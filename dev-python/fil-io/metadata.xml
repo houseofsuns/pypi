@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Fil_IO: simple file selection/reading/writingThis library supports you in simplified reading and writing multiple files## InstallationThe minimal required python version is `Python3.6`.The easiest installation can be done by `pip3 install fil_io`.## Getting startedOnce installed, just `from fil_io import xls` the package and start using as simple as:`data_sheet = xls.load_single_sheet(file_name, sheet_name)` For further guidance and help look at the documentation:## DocumentationPlease find the documentation here: [documentation](https://fil_io.readthedocs.io/en/latest/)## Release NotesPlease find all release notes here: [release notes](https://fil_io.readthedocs.io/en/latest/release_notes.html)## Requests &amp; contributionIf you desire anything changed in the package, need another feature please just create an issue.I am happy for everybody wanting to contribute. Simplest way is to start writing issues, forking the repository and contacting me ;)</longdescription>
+</pkgmetadata>

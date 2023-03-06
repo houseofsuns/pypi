@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>GameboyCore Python==================.. image:: https://travis-ci.org/nnarain/gameboycore-python.svg?branch=master    :target: https://travis-ci.org/nnarain/gameboycore-python.. image:: https://ci.appveyor.com/api/projects/status/hatnihg8ii76hc27?svg=true    :target: https://ci.appveyor.com/project/nnarain/gameboycore-python.. image:: https://img.shields.io/pypi/v/gameboycore.svg    :target: https://pypi.python.org/pypi/gameboycore.. image:: https://readthedocs.org/projects/gameboycore-python/badge/?version=latest    :target: http://gameboycore-python.readthedocs.io/en/latest/?badge=latestPython Bindings for `GameboyCore &lt;https://github.com/nnarain/gameboycore&gt;`_Installation------------    pip install gameboycore</longdescription>
+</pkgmetadata>

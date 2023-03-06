@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>First version of urequests for micropythonSupports: - SSL - Cookies - Basic Auth - Custom HTTP Headers - GET, POST, PUT, DELETE, OPTIONS, HEADSimilar interface to http://docs.python-requests.org/en/latest/</longdescription>
+</pkgmetadata>

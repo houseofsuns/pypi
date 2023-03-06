@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;img src=&quot;resources/logo.png&quot; style=&quot;float: right;&quot; /&gt;# Culqi Python[![Build Status](https://travis-ci.org/culqi/culqi-python.svg?branch=master)](https://travis-ci.org/culqi/culqi-python)![](https://img.shields.io/pypi/pyversions/Culqi)![](https://img.shields.io/pypi/l/culqi)![](https://img.shields.io/pypi/v/culqi)&lt;br/&gt;&lt;br/&gt;Biblioteca de CULQI para el lenguaje Python, pagos simples en tu sitio web. ## Requisitos- Python 2.7, 3.5, 3.6, 3.7, 3.8-dev- Credenciales de comercio en [Culqi](https://culqi.com).## Instalación```bashpip install culqi ```![](/resources/carbon.png)Cada metodo retona un diccionario con la estructura```python{      &quot;status&quot;: status_code,      &quot;data&quot;: data}```El `status_code` es el estatus HTTP numérico devuelto por la solicitud HTTP que serealiza al API de Culqi, y `data` contiene el cuerpo de la respuesta obtenida.## Documentación- [Referencia de API](https://www.culqi.com/api/)- [Ejemplos](https://github.com/culqi/culqi-python/wiki)- [Wiki](https://github.com/culqi/culqi-python/wiki)## ChangelogTodos los cambios en las versiones de esta biblioteca están listados en[CHANGELOG.md](CHANGELOG.md).## Desarrollo[Revisa nuestra guia de contribución](CONTRIBUTING.md)## Contribuidores</longdescription>
+</pkgmetadata>

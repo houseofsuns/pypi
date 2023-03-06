@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pyspark extra utilities## SparkMetricsTrack metrics (like number of rows/number of files written) when writing a DataFrame.```pythonimport pyspark.sqlfrom pysparkextra.metrics import SparkMetricsspark_session: pyspark.sql.SparkSessiondf: pyspark.sql.DataFrame = spark_session.createDataFrame(    [        [1, 2],        [-3, 4],    ],    schema=(&quot;foo&quot;, &quot;bar&quot;))with SparkMetrics(spark_session) as metrics:    df.write.parquet(&quot;/tmp/target&quot;, mode='overwrite')print(metrics['numOutputRows'])  # 2with SparkMetrics(spark_session) as metrics:    df.union(df).write.parquet(&quot;/tmp/target&quot;, mode='overwrite')print(metrics['numOutputRows'])  # 4print(metrics)  # {'numFiles': 5, 'numOutputBytes': 3175, 'numOutputRows': 4, 'numParts': 0}```## union arbitrary number of dataframes with arbitrary number of columns```pythonfrom pyspark.sql import DataFrame, SparkSessionfrom pysparkextra.funcs import unionspark_session: SparkSessiondf1: DataFrame = spark_session.createDataFrame(    [        [1, 2],        [3, 4],    ], schema=(&quot;foo&quot;, &quot;bar&quot;))df2: DataFrame = spark_session.createDataFrame(    [        [10, 20, 30],        [40, 50, 60],    ], schema=(&quot;bar&quot;, &quot;qux&quot;, &quot;foo&quot;))df3: DataFrame = spark_session.createDataFrame(    [        [100, 200],        [300, 400],    ], schema=(&quot;foo&quot;, &quot;bar&quot;))df: DataFrame = union(df1, df2, df3)df.show()# +---+---+----+# |foo|bar| qux|# +---+---+----+# |  1|  2|null|# |  3|  4|null|# | 30| 10|  20|# | 60| 40|  50|# |100|200|null|# |300|400|null|# +---+---+----+```## and moreCheck out the tests, which also act as examples.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## IntroductionConversion of the ecfas nc coastal TWL time-series to geojson format, with the addition of the trigger threshold for coastal flood warning. It therefore requires that the ecfas workflow and trigger have been run first such. If this is not the case, a dummy threshold is introduced (-9999).## Conda dependenciesgeopandas==0.10.2## usageSpecify the following mandatory arguments:- -o &lt;outputdir&gt;: Output directory where the daily regional netcdf time-series forecasts are saved.Optional arguments:- -r &lt;region&gt; : Region, matching the 6 Copernicus Marine Service regional domains. Defaults to all ['NWS','IBI','MED','BAL','BS','ARC']- -t &lt;%Y%m%d_%H%M%S&gt;: Bulleting date for the forecast data. Default: Forecast update time of execution dayExample usage: `nc2geojson -o &lt;outputdir&gt; [-r &lt;region&gt;] -t [&lt;%Y%m%d_%H%M%S&gt;]`Output: output written to folder '/geojson/' under the outputdir ('o'). The outputs are geojson files (*.geojson). The name of the file is kept the same as the the original netcdf filenames, just the extension changes.</longdescription>
+</pkgmetadata>

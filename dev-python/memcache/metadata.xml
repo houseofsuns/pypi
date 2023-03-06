@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># memcacheExperimental memcached client library for python. This project is in WIP status, please don't use it in production environment.Key features:- Based on memcached's new meta commands;- Asyncio support;- Type hints.## Installation```sh$ pip install memcache```## About the ProjectMemcache is &amp;copy; 2020-2021 by [aisk](https://github.com/aisk).### LicenseMemcache is distributed by a [MIT license](https://github.com/aisk/memcache/tree/master/LICENSE).</longdescription>
+</pkgmetadata>

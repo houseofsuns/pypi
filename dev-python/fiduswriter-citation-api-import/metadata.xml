@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>FidusWriter-Citation-API-import=====FidusWriter-Citation-API-import is a Fidus Writer plugin to allow for import ofcitations from external sources via API.Currently these citation sources are supported: Crossref, Datacite and GESIS Search.Installation-----------1. Install Fidus Writer if you haven't done so already.2. Within the virtual environment install Fidus Writer with the citation-api-import option::    pip install fiduswriter[citation-api-import]3. Add &quot;citation-api-import&quot; to your INSTALLED_APPS setting in the   configuration.py file like this::    INSTALLED_APPS += (        ...        'citation_api_import',    )4. Run `fiduswriter setup` to create the needed JavaScript files.5. (Re)start your Fidus Writer serverCredits-----------This plugin has been developed by the `Opening Scholarly Communications in the Social Sciences (OSCOSS) &lt;http://www.gesis.org/?id=10714&gt;`_ project, financed by the German Research Foundation (DFG) and executed by the University of Bonn and GESIS - Leibniz Institute for the Social Sciences.Original Developer: `Niloofar Azizi &lt;https://github.com/NiloofarAzizi&gt;`_</longdescription>
+</pkgmetadata>

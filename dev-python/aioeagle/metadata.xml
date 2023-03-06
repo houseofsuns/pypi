@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Aioeagle## Asynchronous library to control Rainforest EAGLE-200Requires Python 3.8+ and uses asyncio and aiohttp.```pythonimport asynciofrom pprint import pprintimport aiohttpfrom aioeagle import EagleHubCLOUD_ID = &quot;123456&quot;INSTALL_CODE = &quot;abcdefghijklmn&quot;async def main():    async with aiohttp.ClientSession() as session:        await run(session)async def run(websession):    hub = EagleHub(websession, CLOUD_ID, INSTALL_CODE)    devices = await hub.get_device_list()    if len(devices) == 0:        print(&quot;No devices found&quot;)        return    device = devices[0]    pprint(device.details)    print()    pprint(await device.get_device_query(device.ENERGY_AND_POWER_VARIABLES))asyncio.run(main())```## Testing locally```bashpython3 example.py &lt;cloud_id&gt; &lt;install_code&gt;```## TimeoutsAioeagle does not specify any timeouts for any requests. You will need to specify them in your own code. We recommend the `async_timeout` package:```pythonimport async_timeoutwith async_timeout.timeout(10):    devices = await hub.get_device_list()```## Contribution guidelinesObject hierarchy and property/method names should match the EAGLE-200 API.</longdescription>
+</pkgmetadata>

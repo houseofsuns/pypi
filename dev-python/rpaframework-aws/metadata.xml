@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>rpaframework-aws================This library enables Amazon Web Services (AWS) for `RPA Framework`_libraries, such as Textract... _RPA Framework: https://rpaframework.org</longdescription>
+</pkgmetadata>

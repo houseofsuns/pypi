@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># SubeteSubete is a Python library for interacting with the Sample Programsrepository. It works by cloning the repository and analyzing itscontents. It is currently in its alpha form, but you can alreadysee it being used in various Sample Programs projects. If you're interested in exploring the repo programatically,check out the [official documentation](https://subete.jeremygrifski.com). </longdescription>
+</pkgmetadata>

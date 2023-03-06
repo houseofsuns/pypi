@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Arris TG2492LG Python clientA unofficial Python client for retrieving information from the Arris TG2492LG router. The Arris TG2492LG is one of two routers that Ziggo, a cable operator in the Netherlands, provides to their customers as the Ziggo Connectbox.The current functionality is limited to retrieving a list of devices that are connected to the router.&gt; **_WARNING:_** The router prevents the admin user from logging in twice. This can cause problems with accessing the router's configuration pages while using this library. ## UsageList all connected devices:```pythonimport asyncioimport aiohttpfrom arris_tg2492lg import ConnectBoxasync def main():    async with aiohttp.ClientSession() as session:        connect_box = ConnectBox(session, &quot;http://192.168.178.1&quot;, &quot;password&quot;)        devices = await connect_box.async_get_connected_devices()        print(devices)        await connect_box.async_logout()if __name__ == &quot;__main__&quot;:    loop = asyncio.get_event_loop()    loop.run_until_complete(main())```Please note that the list of connected devices include devices that are offline (e.g. just went out of range of the wifi). The `Device` class contains a property `online` that can be checked.An example for retrieving a list of the MAC addresses of all online device is included in the `examples` folder:```bashpython3 list_online_devices.py --host http://192.168.178.1 --password &lt;password&gt;```## DevelopmentSetup `arris_tg2492lg` for local development by running:```bashscripts/setup```This will download the required libraries and configure a git commit hook.</longdescription>
+</pkgmetadata>

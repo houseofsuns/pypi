@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>***********numba-scipy***********.. image:: https://badges.gitter.im/numba/numba.svg   :target: https://gitter.im/numba/numba?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge   :alt: GitterNumba + SciPy = numba-scipy###########################``numba-scipy`` extends Numba to make it aware of SciPy. Numba is an opensource, NumPy-aware optimizing compiler for Python sponsored by Anaconda, Inc.It uses the LLVM compiler project to generate machine code from Python syntax.For more information about Numba, see the Numba homepage:http://numba.pydata.orgFor more information about numba-scipy see:https://numba-scipy.readthedocs.io/en/latest/index.htmlDependencies============* numba</longdescription>
+</pkgmetadata>

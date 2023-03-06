@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>====move====Interactively moves files under revision control using a text editor... image:: https://raw.github.com/myint/move/master/screenshot1.png   :alt: screenshot   :align: center.. image:: https://raw.github.com/myint/move/master/screenshot2.png   :alt: screenshot   :align: center.. image:: https://raw.github.com/myint/move/master/screenshot3.png   :alt: screenshot   :align: centerInstallation============*move* depends on *renameutils*.Under MacPorts::   $ sudo port install renameutilsUnder Ubuntu::   $ sudo apt-get install renameutilsTo install *move*::   $ pip install moveFeatures========*move* supports multiple revision control systems. It tries them in order:- ``git mv``- ``svn mv``- ``hg mv``If above commands all fail, it falls back to running plain ``mv``.Links=====.. image:: https://travis-ci.org/myint/move.png?branch=master   :target: https://travis-ci.org/myint/move   :alt: Build status</longdescription>
+</pkgmetadata>

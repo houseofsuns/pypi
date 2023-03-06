@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>xmldict========Convert xml to python dictionaries, and vice-versa.Installation------------    pip install xmldictOn most of the systems, you will need the `sudo` permissions if you are doing a system wideinstall.    sudo pip install xmldictExmaple---------------------::    # Converting xml to dictionary    &gt;&gt;&gt; xmldict.xml_to_dict('''    ... &lt;root&gt;    ...   &lt;persons&gt;    ...     &lt;person&gt;    ...       &lt;name first=&quot;foo&quot; last=&quot;bar&quot; /&gt;    ...     &lt;/person&gt;    ...     &lt;person&gt;    ...       &lt;name first=&quot;baz&quot; last=&quot;bar&quot; /&gt;    ...     &lt;/person&gt;    ...   &lt;/persons&gt;    ... &lt;/root&gt;    ... ''')    {'root': {'persons': {'person': [{'name': {'last': 'bar', 'first': 'foo'}}, {'name': {'last': 'bar', 'first': 'baz'}}]}}}::    # Converting dictionary to xml    &gt;&gt;&gt; xmldict.dict_to_xml({'root': {'persons': {'person': [{'name': {'last': 'bar', 'first': 'foo'}}, {'name': {'last': 'bar', 'first': 'baz'}}]}}})    '&lt;root&gt;&lt;persons&gt;&lt;person&gt;&lt;name&gt;&lt;last&gt;bar&lt;/last&gt;&lt;first&gt;foo&lt;/first&gt;&lt;/name&gt;&lt;/person&gt;&lt;person&gt;&lt;name&gt;&lt;last&gt;bar&lt;/last&gt;&lt;first&gt;baz&lt;/first&gt;&lt;/name&gt;&lt;/person&gt;&lt;/persons&gt;&lt;/root&gt;'Convert xml to python dictionaries.</longdescription>
+</pkgmetadata>

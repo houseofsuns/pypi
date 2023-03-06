@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># DBND Snowflake## The plugin`dbnd-snowflake` Log preview, schema, size and system resource usage for Snowflake tables.### What does it do?It uses system Snowflake tables and views to fetch meta data.### Installation```bashpip install dbnd-snowflake```</longdescription>
+</pkgmetadata>

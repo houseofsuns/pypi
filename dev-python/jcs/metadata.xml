@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># JCS - JSON Canonicalization for Python 3[![Tests](https://github.com/titusz/jcs/actions/workflows/tests.yml/badge.svg)](https://github.com/titusz/jcs/actions/workflows/tests.yml)This is a Python 3 package fora [JCS (RFC 8785)](https://datatracker.ietf.org/doc/html/rfc8785) compliant JSONcanonicalization.The main author of this code is [Anders Rundgren](https://github.com/cyberphone). Theoriginal source code isat [cyberphone/json-canonicalization](https://github.com/cyberphone/json-canonicalization/tree/master/python3)including comprehensive test data.## Installation```bash$ pip install jcs```## Using JCS```pythonimport jcsdata = jcs.canonicalize({&quot;tag&quot;: 4})```</longdescription>
+</pkgmetadata>

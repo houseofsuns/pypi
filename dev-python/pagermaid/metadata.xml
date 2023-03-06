@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># PagerMaidPagerMaid is a utility daemon for telegram.It automates a range of tasks by responding to commands issued to self.Update channel: https://t.me/PagerMaid## InstallationSee [INSTALL.md](https://git.stykers.moe/users/stykers/repos/pagermaid/browse/INSTALL.md)## ContactUse -contact &lt;message&gt; on telegram, and enter the PM that's opened, if you have installation problems email me at stykers@stykers.moe or message me on telegram at [@KatOnKeyboard](https://t.me/KatOnKeyboard).## Special Thanks[Amine Oversoul](https://bitbucket.org/oversoul/pagermaid-ui)</longdescription>
+</pkgmetadata>

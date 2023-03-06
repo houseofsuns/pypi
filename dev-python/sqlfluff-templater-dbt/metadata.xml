@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># dbt plugin for SQLFluffThis plugin works with [SQLFluff](https://pypi.org/project/sqlfluff/), theSQL linter for humans, to correctly parse and compile SQL projects using[dbt](https://pypi.org/project/dbt/).For more details on how to use this plugin,[see the documentation](https://docs.sqlfluff.com/en/stable/configuration.html#dbt-project-configuration).</longdescription>
+</pkgmetadata>

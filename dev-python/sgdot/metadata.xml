@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>**SG-DOT**SGDOT is a Package created to help design and optimize the networktopology for swarm-grids. It uses satellite imagery of villages to beelectrified and enables designing and optimizing a grid with a tree-starconfiguration.The grids module containes the Grid class. A grid essentially contains twoDataFrames representing the nodes and the links composing the network as well asa set of attributes representing the price of the grid's components.The nodes represent houses to be connected to the grid and the links representwires connecting pairs of houses together. There is a price associated witheach link and node. The price of a Grid is the sum of the prices of eachnodes and links.The tools sub-package contains the **grid_optimizer, grid_visualizer, io** and **plot** modules.- The **grid_optimizer** modules encapsulates GridOptimizer class which contains methods for optimizing a Grid object.- The **grid_visualizer** modules encapsulates GridVisualizer class which contains methods for visualise a Grid object using opencv.- The **io** module contains functions to handle files.- The **plot** module enables to display the grid object in a 2D plot as well as displaying the plot of the results of the optimizations</longdescription>
+</pkgmetadata>

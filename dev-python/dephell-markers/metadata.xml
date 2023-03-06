@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Dephell Markers===============.. image:: https://travis-ci.org/dephell/dephell_markers.svg?branch=master   :target: https://travis-ci.org/dephell/dephell_markers   :alt: travis.. image:: https://ci.appveyor.com/api/projects/status/github/dephell/dephell_markers?svg=true   :target: https://ci.appveyor.com/project/orsinium/dephell-markers   :alt: appveyor.. image:: https://img.shields.io/pypi/l/dephell-markers.svg   :target: https://github.com/dephell/dephell_markers/blob/master/LICENSE   :alt: MIT LicenseWork with environment markers (PEP-496).Installation------------Install from `PyPI &lt;https://pypi.org/project/dephell-markers/&gt;`_\ :.. code-block:: bash   python3 -m pip install --user dephell_markersUsage-----.. code-block:: python   from dephell_markers import Markers   m = Markers('os_name == &quot;posix&quot; and python_version &gt;= &quot;2.7&quot;')   m.get_version(name='python_version')   # '&gt;=2.7'   m.get_string(name='os_name')   # 'posix'   Markers('python_version &gt;= &quot;2.4&quot; or python_version &lt;= &quot;2.7&quot;').get_version(name='python_version')   '&lt;=2.7 || &gt;=2.4'   Markers('python_version &gt;= &quot;2.4&quot; or python_version &lt;= &quot;2.7&quot;').python_version   # RangeSpecifier(&lt;=2.7 || &gt;=2.4)   # Nothing better than lie:   Markers('python_version == &quot;2.4&quot; or os_name == &quot;linux&quot;').get_version(name='python_version')   # None</longdescription>
+</pkgmetadata>

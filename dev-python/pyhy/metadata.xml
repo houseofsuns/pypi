@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pyhyPython bindings for [libhydrogen](https://github.com/jedisct1/libhydrogen).## InstallRequires [libhydrogen](https://github.com/jedisct1/libhydrogen) to be installedon system. Testing/development has been done on linux, specifically Ubuntu18.04. Additional work may be required for other platforms/distros.```shpip3 install pyhypip3 install paho-mqtt # for running the demo```## Usage* An end-to-end example for `kx` (N, KK, XX) is provided using [paho-mqtt](https://github.com/eclipse/paho.mqtt.python).See [demo](https://github.com/someburner/pyhy/tree/master/demo) for instructions.* The [wiki](https://github.com/someburner/pyhy/wiki) contains a few usageexamples.* [tests.py](https://github.com/someburner/pyhy/blob/master/test.py) is fairlyself-describing. Just copy that somewhere, run it, and hack away.## BindingsThis project uses cffi [docs](https://cffi.readthedocs.io/en/latest/)/[bitbucket](https://bitbucket.org/cffi/cffi/issues?status=new&amp;status=open).If you experience low-level issues you may want to look there for help.**Ensuring latest version**:```shpip3 uninstall pyhypip3 install pyhy --no-cache```**To generate bindings yourself**:```shsudo apt-get install python3-devvirtualenv env --python=$(which python3)source env/bin/activatepip3 install cffigit clone https://github.com/someburner/pyhycd pyhy./bind.py./test.py```**NOTE**: For development you may need to compiled/install libhydrogen with`-fPIC` flag (add it to CFLAGS at the top of its Makefile).## LicenseSee LICENSE. Same as libhydrogen.</longdescription>
+</pkgmetadata>

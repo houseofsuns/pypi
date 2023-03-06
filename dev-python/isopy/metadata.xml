@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># isoPy[![PyPI version](https://badge.fury.io/py/isopy.svg)](https://badge.fury.io/py/isopy)[![Build Status](https://travis-ci.com/mattias-ek/isopy.svg?branch=master)](https://travis-ci.com/mattias-ek/isopy)[![codecov](https://codecov.io/gh/mattias-ek/isopy/branch/master/graph/badge.svg?token=W6SII47DJI)](https://codecov.io/gh/mattias-ek/isopy)Isopy is a Python 3 library for data processing in isotope geo/cosmochemistry.## Installation```bashpip install isopy```**Note** Isopy requires python 3.9 and above.For more information on installing isopy see Installing isopy documentation.## License[MIT]()</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># wifi_qrcode_generatorGenerate a QR code for your WiFi network to let others quickly connect without needing to tell them your long and complicated password.## Installation```bash$ pip install wifi-qrcode-generator```## Usage### CLI interactive mode```bash$ wifi-qrcode-generator```![CLI interactive mode](images/CLI%20interactive.png)![QR Code](images/Home%20WiFi.png)### CLI non-interactive mode```bash$ wifi-qrcode-generator -s &quot;Home WiFi&quot; -p &quot;very complicated password&quot; -a WPA -o qr.png -P```![CLI non-interactive mode](images/CLI.png)### Python API```python#!/usr/bin/env python3import wifi_qrcode_generator.generatorqr_code = wifi_qrcode_generator.generator.wifi_qrcode(    ssid='Home WiFi', hidden=False, authentication_type='WPA', password='very complicated password')qr_code.print_ascii()qr_code.make_image().save('qr.png')```## Dependencies- [Pillow](https://pypi.org/project/Pillow/)- [qrcode](https://pypi.org/project/qrcode/)</longdescription>
+</pkgmetadata>

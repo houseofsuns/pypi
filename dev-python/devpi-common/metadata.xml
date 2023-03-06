@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This package contains utility functions used by devpi-server and devpi-client.See http://doc.devpi.net for more information.=========Changelog=========.. towncrier release notes start3.7.2 (2023-01-24)==================Bug Fixes---------- Fix #928: correct default for pre-release matching after switching from ``pkg_resources`` to ``packaging``.- Fix #949: correct parsing of wheel tags for Python 3.10 and above.3.7.1 (2022-12-16)==================Bug Fixes---------- Fix #939: pin packaging to &lt;22 as it removed the deprecated LegacyVersion.3.7.0 (2022-08-16)==================Features--------- Add ``hash_type`` and ``fragment`` attributes to URL class.- Replace ``pkg_resources`` usage with ``packaging``.Bug Fixes---------- Fix #895: return content of data-yanked.- Fixed some cases where name and version weren't split off correctly from filename.3.6.0 (2020-09-13)==================Features--------- Hide password from URL representation.- Allow replacement of individual netloc parts with URL.replace method.3.5.0 (2020-05-04)==================Features--------- fix #792: support data-yanked attribute in HTMLPage parser.- Replace &quot;cached_property&quot; with &quot;lazy&quot; package, which uses __dict__ directly for much faster reads.</longdescription>
+</pkgmetadata>

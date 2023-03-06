@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pyrlp=====|Build Status| |Coverage Status| |PyPI version|A Python implementation of Recursive Length Prefix encoding (RLP). Youcan find the specification of the standard in the `Ethereumwiki &lt;https://github.com/ethereum/wiki/wiki/RLP&gt;`__ and thedocumentation of this package on`readthedocs &lt;http://pyrlp.readthedocs.org/en/latest/&gt;`__.Release setup~~~~~~~~~~~~~For Debian-like systems:::   apt install pandocTo release a new version:.. code:: sh   make release bump=$$VERSION_PART_TO_BUMP$$How to bumpversion^^^^^^^^^^^^^^^^^^The version format for this repo is ``{major}.{minor}.{patch}`` forstable, and ``{major}.{minor}.{patch}-{stage}.{devnum}`` for unstable(``stage`` can be alpha or beta).To issue the next version in line, specify which part to bump, like``make release bump=minor`` or ``make release bump=devnum``.If you are in a beta version, ``make release bump=stage`` will switch toa stable.To issue an unstable version when the current version is stable, specifythe new version explicitly, like``make release bump=&quot;--new-version 4.0.0-alpha.1 devnum&quot;``.. |Build Status| image:: https://travis-ci.org/ethereum/pyrlp.svg?branch=develop   :target: https://travis-ci.org/ethereum/pyrlp.. |Coverage Status| image:: https://coveralls.io/repos/ethereum/pyrlp/badge.svg   :target: https://coveralls.io/r/ethereum/pyrlp.. |PyPI version| image:: https://badge.fury.io/py/rlp.svg   :target: http://badge.fury.io/py/rlp</longdescription>
+</pkgmetadata>

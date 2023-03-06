@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>nsw-fuel-api-client============================================[![](https://travis-ci.org/nickw444/nsw-fuel-api-client.svg?branch=master)](https://travis-ci.org/nickw444/nsw-fuel-api-client)[![](https://coveralls.io/repos/nickw444/nsw-fuel-api-client/badge.svg)](https://coveralls.io/r/nickw444/nsw-fuel-api-client)[![](https://img.shields.io/pypi/v/nsw-fuel-api-client.svg)](https://pypi.python.org/pypi/nsw-fuel-api-client/)    API Client for NSW fuel prices.</longdescription>
+</pkgmetadata>

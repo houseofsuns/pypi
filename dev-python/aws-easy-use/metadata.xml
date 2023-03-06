@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># aws-easy-use![CI](https://github.com/imaging8896/aws-easy-use/actions/workflows/push_any_branch.yml/badge.svg?branch=master)![Release](https://github.com/imaging8896/aws-easy-use/actions/workflows/push_release_tag.yml/badge.svg)AWS boto3 wrapper. Make it easier and intuitive to use.</longdescription>
+</pkgmetadata>

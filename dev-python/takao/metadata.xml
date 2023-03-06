@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># TakaoTakao is a dark theme for the[Sphinx documentation generator](https://www.sphinx-doc.org).I created it mainly for my own projects. Feel free to try it and open an issueif you have any problems.## DemoFor a demo of the theme, see https://columns-ui-sdk.readthedocs.io.## LicenceTakao uses the MIT licence.Distributions of Takao include the [Inter font](https://github.com/rsms/inter),which[uses the SIL Open Font Licence](https://github.com/rsms/inter/blob/master/LICENSE.txt).## Installation1. Install the Python package:   ```shell   pip install takao   ```2. Update `html_theme` in your Sphinx project configuration:   ```python   html_theme = &quot;takao&quot;   ```3. Create a clean documentation build in your Sphinx project directory:   ```shell   make clean   make html   ```## DevelopmentDevelopment of Takao requires Python 3.11, [Poetry](https://python-poetry.org)and Node.js 18.### Set up1. Install Python dependencies:   ```shell   poetry install   ```2. Install Node.js dependencies:   ```shell   npm install   ```### Build a wheel```shellpoetry run python scripts/build.py```### Build the docs```shellpoetry run python scripts/build_docs.py```### Run visual regression testsRequires [Podman](https://podman.io/getting-started/installation).```shellpoetry run python scripts/run_e2e_tests.py```#### Update changed snapshots```shellpoetry run python scripts/run_e2e_tests_update_snapshots.py```</longdescription>
+</pkgmetadata>

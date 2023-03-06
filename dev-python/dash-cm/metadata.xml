@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># dash_cm## Install```bashpip install --upgrade dash_cm```Optionally:```bashsudo tee /usr/local/bin/dashcm &gt; /dev/null &lt;&lt;EOT#!/usr/bin/bashexec &quot;python&quot; -m dash_cm &quot;\$@&quot;EOTsudo chmod +x /usr/local/bin/dashcm```And then use as executable```bashdashcm serve &amp;```To check used ports:`netstat -tulpn | grep LISTEN |grep 3000`## Make '.model' file executableCreate the two following files:- `/usr/share/mime/packages/cardiac-model.xml`    ```    &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;        &lt;mime-info xmlns=&quot;https://www.freedesktop.org/standards/shared-mime-info&quot;&gt;        &lt;mime-type type=&quot;application/zip&quot;&gt;            &lt;comment xml:lang=&quot;en&quot;&gt;Cardiac Model&lt;/comment&gt;            &lt;glob pattern=&quot;*.model&quot;/&gt;            &lt;glob pattern=&quot;*.zip&quot;/&gt;        &lt;/mime-type&gt;    &lt;/mime-info&gt;    ```- `/usr/share/applications/cardiac-model.desktop`    ```    [Desktop Entry]    Encoding=UTF-8    Version=1.0    Type=Application    Terminal=true    Exec=dashcm load %F    Name=CardiacModel    Icon=&lt;path-to&gt;/dash_cm/build/static/icons/logo_512.png    ```</longdescription>
+</pkgmetadata>

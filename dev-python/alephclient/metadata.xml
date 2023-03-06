@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># alephclientCommand-line client for Aleph. It can be used to bulk import document sets viathe API, without direct access to the server. It requires an active API clientto perform uploads.## InstallationInstall using `pip`.```bashpip install alephclient```## UsageRefer to the `aleph` handbook for an introduction on how to use `alephclient`,e.g. to crawl a local file directory, or to stream entities:* https://docs.alephdata.org/developers/alephclient</longdescription>
+</pkgmetadata>

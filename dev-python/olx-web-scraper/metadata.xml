@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;img align=&quot;right&quot; width=&quot;150&quot; height=&quot;auto&quot; src=&quot;https://i.imgur.com/uHdBRp2.png&quot;&gt;# Olx Web ScraperCLI to Scrape OLX for Ad listing (Optimized for Car/Motocycle ads)## Table of Contents  - [Installation](#installation)  - [Usage](#usage)## Installation1. Create a virtual enviroment for the repo &amp; activate it ```pythonpython -m venv venvcd venvScripts\activate.bat```3. Install the scraper ```pythonpip install olx-web-scraper```## Usage- To get scraping, simple run the following on your prefered terminal:```pythonolx_web_scraper &lt;filename without extension&gt;```Eg:`pythonolx_web_scraper scraped_data`- Next, input the URL to scrape```OLX Web Scraper!URL: https://www.olx.in/kerala_g2001160/q-interceptor-650```- This will then scrape all the listing available and save to a file named scraped_data.csv in your root folder.&lt;!-- ![](https://i.imgur.com/iptsDh1.png) --&gt;</longdescription>
+</pkgmetadata>

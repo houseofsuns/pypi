@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># 🇺🇦 UA Siren 🚨## UKІмплементує siren.pp.ua API - публічну обгортку навколо [api.ukrainealarm.com](https://api.ukrainealarm.com/swagger/index.html), який повертає інформацію про повітряні тривоги в Україні.### Обмеження200 запитів на протязі 5 хвилин з одного IP.## ENImplements siren.pp.ua API - public wrapper for [api.ukrainealarm.com](https://api.ukrainealarm.com/swagger/index.html) API that returns info about Ukraine air raid alarms.### LimitationsThere is a limit of 200 requests per 5 minutes from a single IP address.</longdescription>
+</pkgmetadata>

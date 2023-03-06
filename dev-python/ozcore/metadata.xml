@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>======OzCore======OzCore is my core... image:: https://badge.fury.io/py/ozcore.svg    :target: https://pypi.python.org/pypi/ozcore/    :alt: PyPI version.. image:: https://readthedocs.org/projects/ozcore/badge/?version=latest    :target: https://ozcore.readthedocs.io/en/latest/?badge=latest    :alt: Documentation Status.. image:: http://hits.dwyl.com/ozgurkalan/OzCore.svg    :target: http://hits.dwyl.com/ozgurkalan/OzCore    :alt: HitCount.. image:: https://img.shields.io/badge/code%20style-black-000000.svg    :target: https://github.com/psf/blackOzCore is automating my boring stuff. A time saver gadget for me. Installation============I. Pip simple~~~~~~~~~~~~~Published latest stable version.. code:: bash    pip install ozcoreII. Latest from GitHub with Pip~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Latest dev version from GitHub.. code:: bash    pip install git+https://github.com/ozgurkalan/OzCore --force-reinstall --no-depsIII. GitHub clone~~~~~~~~~~~~~~~~~.. code:: bash    git clone https://github.com/ozgurkalan/OzCore.gitJupyter Kernel==============For your Jupyter Notebook to run in your dedicated environment, use the following script::    # add kernell to Jupyter    python -m ipykernel install --user --name=&lt;your_env_name&gt;Fresh installs may have problems with enabling extentions. You shall run the commands below to activate... code:: bash    jupyter nbextension enable --py --sys-prefix widgetsnbextensionJupyter Extensions==================This step copies the ``nbextensions`` javascript and css files into the jupyter server’s search directory, and edits some jupyter config files. .. code:: bash    jupyter contrib nbextension install --system</longdescription>
+</pkgmetadata>

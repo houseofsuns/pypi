@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Collection of Useful Tools for `pystops` ProjectDuring my PhD, I noticed that some features that I implemented throughout my projects appeared repeatedly.As a result, I decided to separate these features and manage them appropriately.## GoalManage/unify fragmented features and deploy to `pypi.org`.## Features- Diagnostics  - file I/O    - Supports: `csv`, `hdf5` (`.h5`), and `vtk` (both `.vti` and `.vtu`) formats    - All data loaded are `torch.Tensor`  - Tensorboard tracker- Logging, timer, and progress bar  - Prettier representation using `rich` package## DependenciesMain dependencies:- `python = &quot;^3.10&quot;`- `h5py = &quot;^3.8.0&quot;`- `pyevtk = &quot;^1.5.0&quot;`- `rich = &quot;^13.3.2&quot;`- `tensorboard = &quot;^2.12.0&quot;`- `tqdm = &quot;^4.65.0&quot;`- `pandas = &quot;^1.5.3&quot;`- `torch = &quot;^1.13.1&quot;`- `vtk = &quot;^9.2.6&quot;`My other personal project:- `pymyplot = &quot;^0.2.7&quot;` (for plotting)</longdescription>
+</pkgmetadata>

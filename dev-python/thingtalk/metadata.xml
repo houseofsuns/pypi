@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;h1 align=&quot;center&quot;&gt;Project thingTalk&lt;/h1&gt;&lt;h2 align=&quot;center&quot;&gt;Thing as a Service&lt;/h2&gt;[![pypi-v](https://img.shields.io/pypi/v/thingtalk.svg)](https://pypi.python.org/pypi/thingtalk)[![python](https://img.shields.io/pypi/pyversions/thingtalk.svg)](https://github.com/hidaris/thingtalk)## What is `thingTalk`?`thingTalk` is a web of things implementation, currently supporting a dialect protocol called webthings.## Project Vision:To provide a communication layer for spatial computing, and make iot interoperable with xr.### The key features are:* Layered design -- Provide services such as rule engines on top of the core protocol layer.* Scalability -- Can be based on MQTT to achieve distributed deployment.* Standards-based -- Compatibility with community standards[WoT].* Fast: Very high performance, on par with NodeJS and Go (thanks to FastAPI).* Robust: Get production-ready code. With automatic interactive documentation.* Fast to code: Increase the speed to develop features by about 200% to 300%. *## Installationthingtalk can be installed via pip, as such:`$ pip install thingtalk`</longdescription>
+</pkgmetadata>

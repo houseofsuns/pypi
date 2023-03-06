@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pyodide-buildTools for building Pyodide.See [http://github.com/pyodide/pyodide](http://github.com/pyodide/pyodide) formore information.## LicensePyodide uses the [Mozilla Public License Version2.0](https://choosealicense.com/licenses/mpl-2.0/).</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Astronomy Data Commons Streaming Client LibrariesLibraries making it easy to access astronomy data commons resources.## Developer notes### SetupTo prepare for development, run `pip install --editable &quot;.[dev]&quot;` from withinthe repo directory. This will install all dependencies, including those usingduring development workflows.This project expects you to use a `pip`-centric workflow for development on theproject itself. If you're using conda, then use the conda environment's `pip` toinstall development dependencies, as described above.Integration tests require Docker to run a Kafka broker. The broker might havenetwork problems on OSX if you use Docker Desktop; run the tests in a Linuxvirtual machine (like with VirtualBox) to get around this.### Code WorkflowWrite code, making changes.Use `make format` to reformat your code to comply with PEP8.Use `make lint` to catch common mistakes.Use `make test-quick` to run fast unit tests.Use `make test` to run the full slow test suite, including integration tests.Once satisfied with all four of those, push your changes and open a PR.### Tag, build, and upload to PyPI and CondaTag a new version:```git tag -s -a v0.x.x```Build and release:```make pypi-distmake pypi-dist-checkmake pypi-uploadmake conda-buildmake conda-upload```</longdescription>
+</pkgmetadata>

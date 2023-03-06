@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Fork for python 3.7 supportMandrill is a Python API client and suite of CLI-based tools for the Mandrill email as a platform service.The API client is comprehensive, but the CLI functionality is minimal at this time.Examples:import mandrillm = mandrill.Mandrill('YOUR_API_KEY')print m.users.ping()--&gt; &quot;PONG!&quot;CLI Examples:mandrill setupmandrill ping -c10mandrill send -f from@example.com -t to@example.com -s &quot;My Subject Line&quot; &lt; content.html</longdescription>
+</pkgmetadata>

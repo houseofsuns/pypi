@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>DSA buddy client @Copyright 2021-22 [Botoservices]Steps:1.  Please Check your Python version. Python3 is required for this package2.  Install it using below command:    &lt;b&gt;pip install dsa-buddy&lt;/b&gt;3.  You can submit your code using below decorator.  [Check below Sample code]4.  When you will run your code, it will ask you to enter dsa-buddy credentials.  [Note: You must be registered with dsa-buddy Telegram bot]5.  If you have any query regrading registeration or want to share any feedback, Please contact us via &quot;botoservices@gmail.com&quot; Sample Code:```#################### Sample code #####################import dsa_buddy@dsa_buddy.submit()def factorial(num):ans = 1    while num &gt; 0:        ans = ans * num        num = num - 1    return ansfactorial(5)######################################################```</longdescription>
+</pkgmetadata>

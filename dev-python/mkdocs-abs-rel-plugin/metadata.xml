@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)[![Build Status](https://travis-ci.org/sander76/mkdocs-abs-rel-plugin.svg?branch=master)](https://travis-ci.org/sander76/mkdocs-abs-rel-plugin)# Mkdocs absolute to relative link converterMkdocs officially only supports relative links. While this makes sense there are situation where it is useful to make use of absolute links. For example when creating a document with absolute links to an image folder. If that file is to be moved later on, links are kept intact.## Installation```bashpip install mkdocs-abs-rel-plugin```## UsageIn your `mkdocs.yml` file add `abs-to-rel` to the plugins entry:```yamlplugins:  - abs-to-rel```</longdescription>
+</pkgmetadata>

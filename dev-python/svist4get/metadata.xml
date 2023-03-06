@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;img src=&quot;https://github.com/art-egorov/svist4get/blob/main/docs/logo_256.png?raw=true&quot; alt=&quot;drawing&quot; width=&quot;150&quot;/&gt;### DescriptionSvist4get is a simple bioinformatics tool for visualization of genomic signal tracks in user-defined genomic windows, either arbitrary selected by genomic coordinates or anchored to particular transcripts or genes.**The detailed documentation is available at [Home Page](https://github.com/art-egorov/svist4get).**### ReferenceIf you find svist4get useful, please cite:Artyom A. Egorov, Ekaterina A. Sakharova, Aleksandra S. Anisimova, Sergey E. Dmitriev, Vadim N. Gladyshev and Ivan V. Kulakovskiy,  **svist4get: a simple visualization tool for genomic tracks from sequencing experiments,**  *BMC Bioinformatics, Volume 20, 2019, 113, [doi: 10.1186/s12859-019-2706-8](https://doi.org/10.1186/s12859-019-2706-8)*</longdescription>
+</pkgmetadata>

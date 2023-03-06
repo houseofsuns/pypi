@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Introduction to pi3d====================pi3d is a Python module that aims to greatly simplify writing 3D in Pythonwhilst giving access to the power of the Raspberry Pi GPU. It enables both3D and 2D rendering and aims to provide a host of exciting commands to loadin textured/animated models, create fractal landscapes, shaders and much more.The pi3d module runs on platforms other than the Raspberry Pi (On Windowsusing pygame, on linux using the X server directly and on Android usingpython-for-android) and runs with python 3 as well as 2.The OpenGLES2.0 functionality of the Raspberry Pi or Android is used directlyor via mesa or ANGLE on 'big' machines. This makes it generally *faster*and opens up the world of *shaders* that allow effects such as normal and reflection maps, blurring and many others. It has various demos of built-inshapes, landscapes, model loading, walk-about camera and much more! See the demoson github.com/pi3d/pi3d_demos and experiment with them ..Documentation (instalation instructions): https://pi3d.github.io/html/ReadMe.htmlFAQ: https://pi3d.github.io/html/FAQ.htmlDemo programs: https://github.com/pi3d/pi3d_demosSource code: https://github.com/tipam/pi3dBook: http://paddywwoof.github.io/pi3d_book/Changelog: https://github.com/tipam/pi3d/blob/master/ChangeLog.txt</longdescription>
+</pkgmetadata>

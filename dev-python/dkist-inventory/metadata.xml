@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>A shared library for dataset inventory and asdf generation.-----------------------------------------------------------Running Tests-------------At the start of the pytest run the test suite calls the simulator to generate a number of test datasets (with small array size).This process takes some time, when quickly iterating on test failures this can be annoying.To share the simulated data over multiple test runs invoke the test suite with the ``--cached-tmpdir=/path/`` argument.This will use the specified path for all simulated datasets and not regenerate if the files are already present.**Note**: It is up to you to make sure the files are correct and to remove all the files if they need to change.License-------This project is Copyright (c) NSO / AURA and licensed underthe terms of the BSD 3-Clause license. This package is based uponthe `Openastronomy packaging guide &lt;https://github.com/OpenAstronomy/packaging-guide&gt;`_which is licensed under the BSD 3-clause licence. See the licenses folder formore information.</longdescription>
+</pkgmetadata>

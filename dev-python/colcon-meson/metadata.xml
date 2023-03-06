@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># colcon-mesonA colcon extension for building [Meson](https://mesonbuild.com) packages.Install from the Python Package Index via:```shpip install colcon-meson```## Passing Meson argumentsArguments can be passed to `meson setup` via `--meson-args`:1. set build options defined in `meson_options.txt`:    ```sh    colcon build --packages-select $PACKAGE --meson-args \        -D$ARG1=$PARAM1 \        -D$ARG2=$PARAM2    ```2. set the build type:    ```sh    colcon build --packages-select $PACKAGE --meson-args \        --buildtype=debugoptimized    ```See `meson setup -h` for a detailed list of arguments.</longdescription>
+</pkgmetadata>

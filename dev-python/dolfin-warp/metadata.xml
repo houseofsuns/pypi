@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># dolfin_warpA set of FEniCS- and VTK-based python tools for Finite Element Digital Image Correlation, basically implementing the method described in [[Genet et al., 2018, Medical Image Analysis]](https://www.medicalimageanalysisjournal.com/article/S1361-8415(18)30534-6/fulltext).### RequirementsYou need a working installation of FEniCS (including DOLFIN python interface) &amp; VTK (also including python interface).### Installation```pip install dolfin_warp```</longdescription>
+</pkgmetadata>

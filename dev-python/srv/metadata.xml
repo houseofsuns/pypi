@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>srv---Serve a directory with one command.### Install    pip install srv### Usage    srv [-p PORT] [dir]To serve the current directory from port 8000:    srv![Screenshot](https://raw.githubusercontent.com/dkter/srv/assets/screenshot.png)</longdescription>
+</pkgmetadata>

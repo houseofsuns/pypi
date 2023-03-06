@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># History ServiceThe history service is the gatekeeper for the InfluxDB database. It writes broadcasted data, and offers a REST interface for querying the database.## Features### QueryClient ([influx.py](./brewblox_history/influx.py))Handles directly querying InfluxDB. API functions eventually call this.### InfluxWriter ([influx.py](./brewblox_history/influx.py))Periodically writes scheduled data points to InfluxDB.Publicly offers the `write_soon()` function, where data can be scheduled for writing.### DataRelay ([relays.py](./brewblox_history/relays.py))Subscribes to the broadcast exchange on the event bus, and schedules all received data for writing to the database.By default, it is subscribed to the broadcast exchange specified with the `--broadcast-exchange` commandline argument. Additional subscriptions can be added.## REST API### subscribe ([influx.py](./brewblox_history/influx.py))Adds another broadcast subscription. All data received with this subscription is written to InfluxDB.### queries ([sse.py](./brewblox_history/sse.py))Public query API for external clients. Input is sanitized before being passed on to InfluxDB.### sse ([sse.py](./brewblox_history/sse.py))Subscribe to regular updates of database values. The endpoint arguments are comparable to the ones used to get values from `queries`. It will periodically yield newly received data as SSE data.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Package pii_optimized_loggerConfiguration:log_disable_handlervalue 0 is the default value and the handler is enablevalue 1 will disable the handlerlog_max_lengthdefault value is 500it is used to define the max length for each message to print in log# Sample to use the libraryimport loggingfrom pii_optimized_logger import log_handlerlogger = logging.getLogger()logger.setLevel(logging.DEBUG)logger.handlers = log_handler.create()</longdescription>
+</pkgmetadata>

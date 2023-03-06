@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>User Documentation==================``pharus`` is a generic REST API server backend for `DataJoint &lt;https://datajoint.io&gt;`_ pipelines built on top of ``flask``, ``datajoint``, and ``pyjwt``.- `Documentation &lt;https://datajoint.github.io/pharus&gt;`_- `PyPi Package &lt;https://pypi.org/project/pharus/&gt;`_- `Docker Image &lt;https://hub.docker.com/r/datajoint/pharus&gt;`_- `Release &lt;https://github.com/datajoint/pharus/releases/latest&gt;`_- `Source &lt;https://github.com/datajoint/pharus&gt;`_Installation------------If you have not done so already, please install the following dependencies.- `Docker &lt;https://docs.docker.com/get-docker/&gt;`_- `Docker Compose &lt;https://docs.docker.com/compose/install/&gt;`_Prerequisites-------------Download the ``docker-compose-deploy.yaml`` docker environment from the source located `here &lt;https://github.com/datajoint/pharus/releases/latest/download/docker-compose-deploy.yaml&gt;`_.Running the API server----------------------To start the API server, use the command:    .. code-block:: bash        PHARUS_VERSION=0.7.3 docker-compose -f docker-compose-deploy.yaml up -dTo stop the API server, use the command:    .. code-block:: bash        PHARUS_VERSION=0.7.3 docker-compose -f docker-compose-deploy.yaml downReferences----------- DataJoint  - https://datajoint.io- DataJoint LabBook (a companion frontend)    - https://github.com/datajoint/datajoint-labbook</longdescription>
+</pkgmetadata>

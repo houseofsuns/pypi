@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>PyAgentX3--------------------pyagentx3 is a pure Python3 implementation of AgentX protocol (RFC 2741), itwill allow you to extend an SNMP agent (e.g. snmpd) by writing AgentX subagents,without modifying the original SNMP agent.The agent can support the following commands:- snmpget- snmpwalk- snmptable- snmpsetIt also allows sending notifications/traps.</longdescription>
+</pkgmetadata>

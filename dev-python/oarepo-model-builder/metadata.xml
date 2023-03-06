@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># OARepo model builderA library and command-line tool to generate invenio model project from a single model file.Documentation for the model format and examples are at [https://narodni-repozitar.github.io/developer-docs/docs/technology/invenio/nrp-toolchain/edit-metadata](https://narodni-repozitar.github.io/developer-docs/docs/technology/invenio/nrp-toolchain/edit-metadata)To compile your model into invenio sources, run```bashoarepo-compile-model &lt;model.yaml&gt; --output-directory &lt;output-dir&gt;```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># mkdocs-obsidian-support-plugin---Plugin for [mkdocs-material](https://squidfunk.github.io/mkdocs-material/) to convert semantic in documentation from [obsidian](https://obsidian.md/) to mkdocs-material.[![PyPI](https://img.shields.io/pypi/v/mkdocs-obsidian-support-plugin)](https://pypi.org/project/mkdocs-obsidian-support-plugin/)[![GitHub](https://img.shields.io/github/license/ndy2/mkdocs-obsidian-support-plugin)](https://github.com/ndy2/mkdocs-obsidian-support-plugin/blob/main/LICENSE.md)```textpip install mkdocs-obsidian-support-plugin```## UsageActivate the plugin in mkdocs.yml ```yamlplugins:  - obsidian-support```## features -  `obsidian callout` -&gt; `mkdocs-material admonition`-  `obsidian wikilink image` -&gt; `mkdocs-material mdlink image` &amp; `image with md_in_html`## github-pages&gt; [!info]&gt; &gt; See https://ndy2.github.io/mkdocs-obsidian-support-plugin/ for more details</longdescription>
+</pkgmetadata>

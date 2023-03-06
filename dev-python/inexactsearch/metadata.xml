@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Approximate String Search###########################.. image::   https://travis-ci.org/Project-SILPA/inexactsearch.svg?branch=master   :target: https://travis-ci.org/Project-SILPA/inexactsearch    .. image::   https://coveralls.io/repos/Project-SILPA/inexactsearch/badge.png?branch=master  :target: https://coveralls.io/r/Project-SILPA/inexactsearch?branch=masterThis is a `Fuzzy string search&lt;http://en.wikipedia.org/wiki/Fuzzy_string_searching&gt;`_application. This application illustrates the combined use of `Editdistance &lt;http://en.wikipedia.org/wiki/Levenshtein_distance&gt;`_ and`Indic Soundex &lt;http://silpa.org.in/Soundex&gt;`_ algorithm.By mixing both written like(edit distance) and sounds like(soundex),we achieve an efficient aproximate string searching. This applicationis capable of cross language string search too. That means, you cansearch Hindi words in Malayalam text. If there is any Malayalam word,which is approximate transliteration of hindi word, or sounds alikethe hindi words, it will be returned as an approximate match. The&quot;written like&quot; algorithm used here is a bigram average algorithm.  Theratio of common bigrams in two strings and average number of bigramswill give a factor which is greater than zero and lessthan 1. Similarly the soundex algorithm also gives a weight. Byselecting words which has comparison weight more than the thresholdweight(which 0.6), we get the search results.</longdescription>
+</pkgmetadata>

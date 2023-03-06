@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># selenium_pinterest![python_version](https://img.shields.io/static/v1?label=Python&amp;message=3.5%20|%203.6%20|%203.7&amp;color=blue)## Install~~~~shellpip install --upgrade selenium-pinterest# orpip3 install --upgrade selenium-pinterest~~~~## Usage~~~~pythonfrom selenium_pinterest import Pinterestpinterest_demo = pinterst_one = Pinterest(&quot;/path/to/cookies&quot;, &quot;path/to/extension&quot;, host = 'host_nr', port=12345)pinterest_demo.repin('pin_id')## Dependenciesgeckodriver</longdescription>
+</pkgmetadata>

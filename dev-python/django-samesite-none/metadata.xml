@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Middleware to work around [#30862](https://code.djangoproject.com/ticket/30862)Chrome started rolling out changes that brake Django sites with intentionallyempty `SameSite` cookie settings.This middleware sets the value `&quot;None&quot;` on those cookies explicitly.Also sets `Secure` to `True` for all altered cookies.# InstallationGet it from PyPi:```bashpip install django-samesite-none```Put it first in the `MIDDLEWARE` list in your `settings.py`:```MIDDLEWARE = [    &quot;django_samesite_none.middleware.SameSiteNoneMiddleware&quot;,    ...]```</longdescription>
+</pkgmetadata>

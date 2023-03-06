@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Account Statement AEB43 Module##############################The Account Statement AEB43 module implements the import of the `Norm 43&lt;https://downloads.tryton.org/standards/aeb43.pdf&gt;`_ of the Spanish banksassociation file as statement.</longdescription>
+</pkgmetadata>

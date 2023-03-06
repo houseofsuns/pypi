@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Gherkin Parser==============Parses Gherkin BDD feature files. Compatible with Cucumber.Needs documentation, and testing for edge cases, but is otherwisereasonably complete. It has been tested against 150 feature files from theCucumber and Behave BDD projects.|CILink|_.. |CILink| image:: https://travis-ci.org/nathforge/gherkin-parser.svg?branch=master.. _CILink: https://travis-ci.org/nathforge/gherkin-parser</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># arrow-jsonEncode an arrow array into an array of json strings:```pythonimport jsonimport pyarrow as pafrom arrow_json import array_to_utf8_json_arraydata = [[{&quot;f&quot;: [1, 2]}], [], None]array = pa.array(data)print(nested_list_struct_array.type)# list&lt;item: struct&lt;f: list&lt;item: int64&gt;&gt;&gt;json_array = array_to_utf8_json_array(array)loaded = [json.loads(s) if s is not None else None for s in json_array.to_pylist()]assert loaded == data```</longdescription>
+</pkgmetadata>

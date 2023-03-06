@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ORM Collector SchemmaEste módulo consiste en la descripción de modelos de tablasy sus relaciones, las clases que administran los datos de manera sencilla entregando una API, y las herramientas de creación delesquema.# Tecnologías que usa- Sqlalchemy- GeoSqlalchemy- Posgresql- Python3# Modo de instalaciónPrimero, deberás clonar el proyecto:~~~git clone http://gitlab.csn.uchile.cl/dpineda/orm_collector.git~~~Luego, instalar en modo develop dentro de tu ambientevirtual~~~python setup.py develop~~~</longdescription>
+</pkgmetadata>

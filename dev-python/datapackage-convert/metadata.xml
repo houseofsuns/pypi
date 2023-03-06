@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Datapackage Convert[**Full Documentation**](http://datapackage_convert.opendata.coop/)Conversions from tabular-data-packages. Currently:* Merge mulitple datapackages into one.* To SQLite  * To Parquet * To XLSX* To PostgresAll conversions aim to be memory efficiant and as fast they can be. This is the python library, providing bindings to the [rust library](https://github.com/kindly/datapackage_convert).## Install```pip install datapackage-convert```## UsageWhen refering to a datapackage you can either reference:* A `datapackage.json` file.* A datapackage directory containing a `datapackage.json` file. e.g.  `/a/datapackage/dir`* A zip file containing a `datapackage.json` file. e.g. `my_datapackage.zip`### Merge datapackageThis will merge datapckages into a single one.```from datapackage_convert import merge_datapackagemerge_datapackage('output_datapackage', ['datapackage1', 'datapackage2'])```### To SQLiteWill convert to sqlite file. Adding foreign key relationships and indexes for them.```from datapackage_convert import datapackage_to_sqlitedatapackage_to_sqlite('mydatabase.db', 'my_datapackage')```### To parquetWill convert to snappy compressed parquet files. ```from datapackage_convert import datapackage_to_parquetdatapackage_to_parquet('output_directory', 'my_datapackage')```### To xlsxWill convert to XLSX files. ```from datapackage_convert import datapackage_to_xlsxdatapackage_to_xlsx('output.xlsx', 'my_datapackage')```### To postgresWill insert data into postgres database. ```from datapackage_convert import datapackage_to_postgresdatapackage_to_xlsx('postgres://name:pass@host/dbname', 'my_datapackage')```</longdescription>
+</pkgmetadata>

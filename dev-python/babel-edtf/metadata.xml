@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>..    Copyright (C) 2020 CERN.    Babel-EDTF is free software; you can redistribute it and/or modify it    under the terms of the MIT License; see LICENSE file for more details.============ Babel-EDTF============A Python module for localization of Extended Date Time Format (EDTF) level 0strings.EDTF is a syntax for specifying imprecise dates. Seehttp://www.loc.gov/standards/datetime/. This modules relies on`python-edtf &lt;https://pypi.org/project/edtf/&gt;`_ forEDTF parsing.Install-------Babel-EDTF is on PyPI so all you need is:.. code-block:: console   $ pip install babel-edtfQuickstart----------Let's format some EDTF strings:&gt;&gt;&gt; from babel_edtf import format_edtf&gt;&gt;&gt; format_edtf('2020-01', locale='en')'Jan 2020'&gt;&gt;&gt; format_edtf('2020-01/2020-09', locale='da')'jan.–sep. 2020'&gt;&gt;&gt; format_edtf('2020-01/2020-09', format='long', locale='en')'January – September 2020'The following formats are supported:- ``short``- ``medium``- ``long``- ``full``..    Copyright (C) 2020 CERN.    Babel-EDTF is free software; you can redistribute it and/or modify it    under the terms of the MIT License; see LICENSE file for more details.Changes=======Version 1.0.0 (released 2020-11-06)- Initial public release.</longdescription>
+</pkgmetadata>

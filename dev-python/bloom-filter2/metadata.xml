@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>bloom-filter============A pure python bloom filter (low storage requirement, probabilisticset datastructure) is provided.  It is known to work on CPython 3.x, Pypy,and Jython.Includes mmap, in-memory and disk-seek backends.This project builds on `drs-bloom-filter` and `bloom_filter_mod`.Credits and links can be found in AUTHORS.md.Usage-----The user specifies the desired maximum number of elements and thedesired maximum false positive probability, and the modulecalculates the rest.::    from bloom_filter2 import BloomFilter    # instantiate BloomFilter with custom settings,    # max_elements is how many elements you expect the filter to hold.    # error_rate defines accuracy; You can use defaults with    # `BloomFilter()` without any arguments. Following example    # is same as defaults:    bloom = BloomFilter(max_elements=10000, error_rate=0.1)    # Test whether the bloom-filter has seen a key:    assert &quot;test-key&quot; not in bloom    # Mark the key as seen    bloom.add(&quot;test-key&quot;)    # Now check again    assert &quot;test-key&quot; in bloom</longdescription>
+</pkgmetadata>

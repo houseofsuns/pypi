@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>==============transmute-core==============.. image:: https://travis-ci.org/toumorokoshi/transmute-core.svg?branch=master    :alt: build status    :target: https://travis-ci.org/toumorokoshi/transmute-core.. image:: https://coveralls.io/repos/github/toumorokoshi/transmute-core/badge.svg?branch=master    :alt: coverage status    :target: https://coveralls.io/github/toumorokoshi/transmute-core?branch=master    .. image:: https://img.shields.io/badge/code%20style-black-000000.svg    :target: https://github.com/ambv/blackA utility library to help build transmute api generators for Python webframeworks.You can find out more here:http://transmute-core.readthedocs.io/</longdescription>
+</pkgmetadata>

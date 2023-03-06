@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ParamgaParamga is a Genetic Algorithm tool for optimizing model parameters.# Updating Version`bumpversion major|minor|patch`# Push to pypi`python3 setup.py sdist bdist_wheel``python3 -m twine upload dist/*`</longdescription>
+</pkgmetadata>

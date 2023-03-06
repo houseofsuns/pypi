@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>A pair of python modules implementing red black trees is provided.Red-black trees are a little slower than treaps (some question this), but they give a nicelow standard deviation in operation times, and this code is rather flexible.A module is provided for red black trees that enforce uniqueness.They allow for set-like use and dictionary-like use.This code is known to work on CPython 2.x, CPython 3.x, Pypy and Jython.Much of the work here was done by Duncan G. Smith.  Dan just put some finishing touches on it.</longdescription>
+</pkgmetadata>

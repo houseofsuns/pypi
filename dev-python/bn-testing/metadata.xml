@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># BN testing[![Test Package](https://github.com/windisch/bn_testing/actions/workflows/test_package.yml/badge.svg)](https://github.com/windisch/bn_testing/actions/workflows/test_package.yml)[![Documentation Status](https://readthedocs.org/projects/bn_testing/badge/?version=latest)](https://bn_testing.readthedocs.io/en/latest/?badge=latest)[![PyPI](https://img.shields.io/pypi/v/bn_testing)](https://pypi.org/project/bn_testing/)A test framework to evaluate methods that learn Bayesian Networks fromhigh-dimensional observational data.## SamplingSet up the graphical model and sample  data```pythonfrom bn_testing.models import BayesianNetworkfrom bn_testing.dags import ErdosRenyfrom bn_testing.conditionals import PolynomialConditionalmodel = BayesianNetwork(   dag=ErdosReny(p=0.01, n_nodes=100),   conditionals=PolynomialConditional(max_terms=5))df = model.sample(10000, normalize=True)```The observations are stored in a `pandas.DataFrame` where the columnsare the nodes of the DAG and each row is an observation. Theunderlying DAG of the graphical model can be accessed with `model.dag`</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>SINRIC  PRO===============Automate your home using Amazon Alexa, Google Home, SmartThings with Sinric Pro https://sinric.pro/Installation :--------------Python3-------::    python3 -m pip install sinricpro --userExamples :--------------https://github.com/sinricpro/python-sdk/examples</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Use [marshmallow-dataclass](https://github.com/lovasoa/marshmallow_dataclass)es as [Django](https://github.com/django/django) Fields.## Usage```pythonfrom marshmallow_dataclass_djangofield import MarshmallowFieldfrom marshmallow_dataclass_djangofield import marshmallow_dataclass_djangofieldclass MyModel(Model):    @marshmallow_dataclass_djangofield(model_name='MyModel')    @marshmallow_dataclass.dataclass    class MyDataClass:        foo: str        bar: int    foobars = MarshmallowField(many=True, schema=MyDataClass)```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># vital-pythonThe official Python Library for [Vital API](https://docs.tryvital.io)# Install```pip install vital```# Installing locally```poetry build --format sdisttar -xvf dist/*-`poetry version -s`.tar.gz -O '*/setup.py' &gt; setup.py```## DocumentationPlease refer to the official [Vital docs](https://docs.tryvital.io) provide a full reference on using this library.</longdescription>
+</pkgmetadata>

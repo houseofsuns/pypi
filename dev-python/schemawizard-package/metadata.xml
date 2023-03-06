@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># schemawizardReads a csv and generates a table design for Postgres, MySQL, sqlite or BigQuery### install with pippip install schemawizard-package### command line testpy -m schemawizard_package.schemawizard### Methodshttps://github.com/daveskura/schemawizard/blob/main/methods.md</longdescription>
+</pkgmetadata>

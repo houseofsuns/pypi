@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Copr is designed to be a lightweight buildsystem that allows contributorsto create packages, put them in repositories, and make it easy for usersto install the packages onto their system. Within the Fedora Project itis used to allow packagers to create third party repositories.This part is a python client to the copr service.</longdescription>
+</pkgmetadata>

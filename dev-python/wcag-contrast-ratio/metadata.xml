@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>wcag-contrast-ratio===================A library for computing contrast ratios, as required by `WCAG 2.0`.Usage-----Simple usage follows this pattern:.. code-block:: python  &gt;&gt; import wcag_contrast_ratio as contrast  &gt;&gt; black = (0.0, 0.0, 0.0)  &gt;&gt; white = (1.0, 1.0, 1.0)  &gt;&gt; contrast.rgb(black, white)  21.0Two useful helper functions are provided, to check if contrast meetsthe required level:.. code-block:: python  &gt;&gt; import wcag_contrast_ratio as contrast  &gt;&gt; contrast.passes_AA(21.0)  True  &gt;&gt; contrast.passes_AAA(21.0)  True.. _WCAG 2.0: http://www.w3.org/TR/WCAG20/</longdescription>
+</pkgmetadata>

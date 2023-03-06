@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Logomaker---------Logomaker is a Python package for generating publication-quality sequence logos. Logomaker can generate both standard and highly customized logos illustrating the properties of DNA, RNA, or protein sequences. Logos are rendered as vector graphics embedded within native matplotlib Axes objects, making them easy to style and incorporate into multi-panel figures. Please see 'https://logomaker.readthedocs.io' for additional details.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># SKLearn Linear Model ModificationThis class should act exactly like sklearn linear model to solve regression problems with the benefit of being able to use drop1 and add1 based on AIC.## InstallationRun the following to install:```pythonpip install sklearn_linear_model_modification```## Usage```import pandas as pdfrom sklearn_linear_model_modification import LinearRegression, Add1LinearRegression, Drop1LinearRegressionfrom sklearn_linear_model_modification import Lasso, Add1Lasso, Drop1Lassofrom sklearn_linear_model_modification import ElasticNet, Add1ElasticNet, Drop1ElasticNetfrom sklearn_linear_model_modification import Ridge, Add1Ridge, Drop1Ridgedef load_Xy():    data = load_boston()    X = pd.DataFrame( data['data'], columns=data['feature_names'] )    y = data['target']    return X, yX, y = load_Xy()lmod = Ridge()lmod.fit(X, y)lmod = Lasso()lmod.fit(X, y)lmod = ElasticNet()lmod.fit(X, y)lmod = LinearRegression()lmod.fit(X, y)lmod = Add1Ridge()lmod.fit(X, y)lmod = Add1Lasso()lmod.fit(X, y)lmod = Add1ElasticNet()lmod.fit(X, y)lmod = Add1LinearRegression()lmod.fit(X, y)lmod = Drop1Ridge()lmod.fit(X, y)lmod = Drop1Lasso()lmod.fit(X, y)lmod = Drop1ElasticNet()lmod.fit(X, y)lmod = Drop1LinearRegression()lmod.fit(X, y)```## Development sklearn_linear_model_modificationTo install sklearn_linear_model_modification, along with the tools you need to develop and run tests, run the following in your virtualend:```bash$ pip install -e .[dev]```</longdescription>
+</pkgmetadata>

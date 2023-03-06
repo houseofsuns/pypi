@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;u&gt;&lt;h1&gt;Tic Tac Toe&lt;/h1&gt;&lt;/u&gt;&lt;h3&gt;Example&lt;/h3&gt;```pyimport discordfrom discord.ext.games import TicTacToefrom discord.ext import commandsbot = commands.Bot(&quot;!&quot;)@bot.eventasync def on_ready():    print(&quot;Bot is Ready!&quot;)@bot.command()async def ttt(ctx, member: discord.Member):    await TicTacToe(ctx, [ctx.author, member], config={        'down_right': 675624269073481749,        'x':536043344569303041,    }).start()bot.run(&quot;&quot;)```</longdescription>
+</pkgmetadata>

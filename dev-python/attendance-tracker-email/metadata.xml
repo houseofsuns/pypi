@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Attendance TrackerTracks the attendance of participants in online events using their emails### Install```bashpip install attendance_tracker_email```[PyPi Package](https://pypi.org/project/attendance-tracker-email)### Directory structure```your_project│   README.md│   your_script.py│└───email_files   │   day1.txt   │   day2.txt   |   day3.txt```------- day1.txt```day1.txtfirst2emai@outlook.comsecond12email@gmail.com```### How to use ```from attendance_tracker_email import attended```Directory with emails as day1.txt, day2.txt etc```directory = 'email_files'print( attended.show_attended(directory))```### Next in the project- [X] Published for easy plug n play- [ ] #739 Create a chrome extension for the frontend- [ ] Authentication to take attendance automatically- [ ] Track time attended- [ ] Add more features### Issuesa)  [Open an issue](https://github.com/morehwachege/attendance-tracker-email/issues)b) [Star this for the future](https://github.com/morehwachege/attendance-tracker-email/fork)## LicenseMITContributions are welcome. Pull requests are welcome.  </longdescription>
+</pkgmetadata>

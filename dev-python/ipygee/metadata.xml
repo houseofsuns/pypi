@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># IpyGEEA set of tools and Widgets for working with **Google Earth Engine** in Jupyter notebooks and Jupyter Lab## Install&gt; pip install ipygee*Note: Installation **does not** install Earth Engine Python API. You have to install it before installing `ipygee`, see: https://developers.google.com/earth-engine/python_install*Be sure notebook extensions are enabledipywidgets:&gt; jupyter nbextension enable --py widgetsnbextensionipyleaflet:&gt; jupyter nbextension enable --py --sys-prefix ipyleaflet## Main Widgets### - Map``` pythonfrom ipygee import *Map = Map()Map.show()```### - AssetManager``` pythonfrom ipygee import *AM = AssetManager()AM```### - TaskManager``` pythonfrom ipygee import *TM = TaskManager()TM```See examples in [here](https://github.com/fitoprincipe/ipygee/tree/master/examples)</longdescription>
+</pkgmetadata>

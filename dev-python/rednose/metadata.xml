@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=========rednose=========rednose is a `nosetests`_plugin for adding colour (and readability) to nosetest console results... image:: rednose_example.png:scale: 50 %:align: centerInstallation:-------------::pip install rednoseor from the source::python setup.py installRednose officially supports Python 2.7, 3.4, and 3.5.Usage:------::nosetests --rednoseor::export NOSE_REDNOSE=1nosetestsRednose by default uses auto-colouring, which will only usecolour if you're running it on a terminal (i.e not piping itto a file). To control colouring, use one of::nosetests --rednose --force-colornosetests --no-color(you can also control this by setting the environment variable NOSE_REDNOSE_COLOR to 'force' or 'no')Rednose by default prints file paths relative to the workingdirectory. If you want the full path in the traceback thenuse::nosetests --rednose --full-file-pathRednose by default prints error style formating for skipped tests,to supress this use::nosetests --rednose --hide-skipsRednose supports printing the test results mid run as well as atthe end, to enable it use::nosetests --rednose --immediate.. _nosetests: http://somethingaboutorange.com/mrl/projects/nose/</longdescription>
+</pkgmetadata>

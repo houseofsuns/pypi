@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>manhattan forms===============A set of classes, functions and utilties that extend WTForms for use withmanhattan.How to install--------------`pip install manhattan_forms`Testing-------`pip install --no-deps -e .``py.test`</longdescription>
+</pkgmetadata>

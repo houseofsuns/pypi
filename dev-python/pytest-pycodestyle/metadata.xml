@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pytest-pycodestyle[![PyPI version](https://badge.fury.io/py/pytest-pycodestyle.svg)](https://pypi.org/project/pytest-pycodestyle/)[pytest](https://docs.pytest.org/en/latest/) plugin to run [pycodestyle](https://github.com/PyCQA/pycodestyle)## Installation```shpip install pytest-pycodestyle```## Usage```shpytest --pycodestyle ...```For detail, please see `pytest -h` after installation.## ConfigurationThe behavior can be configured in the same style of pycodestyle.  (cf. [Configuration — pytest documentation](https://docs.pytest.org/en/latest/customize.html) and [Configuration — pycodestyle documentation](https://pycodestyle.readthedocs.io/en/latest/intro.html#configuration))For example,```[pycodestyle]max-line-length = 127[tool:pytest]addopts = --pycodestyle```## LicenceThe MIT License  Copyright (c) 2019 OMOTO Tsukasa## Acknowledgments- [pytest-dev / pytest-pep8 — Bitbucket](https://bitbucket.org/pytest-dev/pytest-pep8)</longdescription>
+</pkgmetadata>

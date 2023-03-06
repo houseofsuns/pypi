@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## Typing stubs for itsdangerousThis is a PEP 561 type stub package for the `itsdangerous` package.It can be used by type-checking tools like mypy, PyCharm, pytype etc. to check codethat uses `itsdangerous`. The source for this package can be found athttps://github.com/python/typeshed/tree/master/stubs/itsdangerous. All fixes fortypes and metadata should be contributed there.*Note:* The `itsdangerous` package includes type annotations or type stubssince version 2.0. Please uninstall the `types-itsdangerous`package if you use this or a newer version.See https://github.com/python/typeshed/blob/master/README.md for more details.This package was generated from typeshed commit `a5bc1e037fa9fb541d81de92ad27fa8543c65be4`.</longdescription>
+</pkgmetadata>

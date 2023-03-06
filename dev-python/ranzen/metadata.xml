@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ranzen 🎒A python toolkit facilitating machine-learning experimentation.[Documentation](https://wearepal.github.io/ranzen/)## InstallRun```pip install ranzen```or install directly from GitHub:```pip install git+https://github.com/wearepal/ranzen.git@main```</longdescription>
+</pkgmetadata>

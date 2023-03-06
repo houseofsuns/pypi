@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>To find out what's new in this version of tpunicorn, please see `the repo&lt;https://github.com/shawwn/tpunicorn&gt;`_.Welcome to tpunicorn!=====================`tpunicorn` is a Python library and command-line programfor managing TPUs.</longdescription>
+</pkgmetadata>

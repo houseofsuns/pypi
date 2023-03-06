@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;div align=&quot;center&quot;&gt;  &lt;img src=&quot;https://storage.googleapis.com/hume-public-logos/covcheck/covcheck-dino-banner.png&quot;&gt;  &lt;h1&gt;covcheck&lt;/h1&gt;  &lt;p&gt;    &lt;strong&gt;Command-line tool for code coverage validation&lt;/strong&gt;  &lt;/p&gt;  &lt;br&gt;  &lt;div&gt;    &lt;a href=&quot;https://badge.fury.io/py/covcheck&quot;&gt;&lt;img src=&quot;https://badge.fury.io/py/covcheck.svg&quot; alt=&quot;PyPI&quot;&gt;&lt;/a&gt;    &lt;a href=&quot;https://pepy.tech/project/covcheck&quot;&gt;&lt;img src=&quot;https://pepy.tech/badge/covcheck&quot; alt=&quot;Downloads&quot;&gt;&lt;/a&gt;    &lt;a href=&quot;https://github.com/HumeAI/covcheck/actions/workflows/ci.yml&quot;&gt;&lt;img src=&quot;https://github.com/HumeAI/covcheck/actions/workflows/ci.yaml/badge.svg&quot; alt=&quot;CI&quot;&gt;&lt;/a&gt;  &lt;/div&gt;  &lt;br&gt;&lt;/div&gt;## About`covcheck` is intended to be used in conjunction with [coverage.py](https://coverage.readthedocs.io/), which already has support for `pytest`, `unittest`, and `nosetest`. All you have to do is point `covcheck` to the `coverage.xml` file produced when running your tests.For more information on how to use `covcheck` please check out the [official docs page](https://humeai.github.io/covcheck).</longdescription>
+</pkgmetadata>

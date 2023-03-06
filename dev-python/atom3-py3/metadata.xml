@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>atom3-py3=========Processing of 3D atomic data (Python 3 version).Installation------------.. code-block:: console    $ pip3 install atom3-py3Usage-----Process a PDB file to a pickled pandas dataframe... code-block:: console    $ atom3 parse sample/11as.pdb1.gz sample/parsedDerive subunits of a parsed dataframe... code-block:: console    $ atom3 complex sample/parsed sample/complexes.dillSplit subunits into interacting pairs... code-block:: console    $ atom3 pairs sample/complexes.dill sample/pairsFor help on commands... code-block:: console    $ atom3 -h    $ atom3 parse -h</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ColumnarFrameカラムベースでデータを扱うためのライブラリです。ある程度Pandasのように操作できるような形を目指しています。This is a library for handling column-based data.It is intended to be operated like Pandas to some extent.## Memo* unittest```poetry run python -m unittest discover```* build```poetry build```* publish(Test)```poetry publish -r testpypi```* public(real)```poetry publish```* lib install```poetry add xxxx```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># fastinference&gt; A collection of inference modules for fastai including inference speedup and interpretability## Install`pip install fastinference`There are submodules available as well via:* `pip install fastinference[interp]` - Interpretability modules such as SHAP and Feature Importance* `pip install fastinference[onnx-cpu]` - ONNX for a CPU environment* `pip install fastinference[onnx-gpu]` - ONNX for a GPU environment## Wonderful Contributors:(Using both their `fastai` handles as well as their GitHub handles if possible):* Pavel (Pak)</longdescription>
+</pkgmetadata>

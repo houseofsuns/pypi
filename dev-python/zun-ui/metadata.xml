@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>==========zun-ui==========Zun UI* Free software: Apache license* Source: https://opendev.org/openstack/zun-ui* Bugs: https://bugs.launchpad.net/zun-uiManual Installation-------------------Install according to `Zun UI documentation &lt;https://docs.openstack.org/zun-ui/latest/install/index.html&gt;`_.Enabling in DevStack--------------------Add this repo as an external repository into your ``local.conf`` file::    [[local|localrc]]    enable_plugin zun-ui https://github.com/openstack/zun-ui</longdescription>
+</pkgmetadata>

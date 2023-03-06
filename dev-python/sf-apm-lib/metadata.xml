@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>sf-apm-lib==============[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) [![pypi-package](https://img.shields.io/badge/pypi-green)](https://pypi.org/project/sf-apm-lib/)Snappyflow modulesInstallation------------pip install sf-apm-libThen you should import the library.```python from sf_apm_lib.snappyflow import Snappyflow```Usage-----Get trace config```python    sf = Snappyflow() # Initialize Snappyflow. By default intialization will pick profileKey, projectName and appName from sfagent config.yaml.# Add below part to manually configure the initializationproject_name = '&lt;Snappyflow Project Name&gt;'app_name = '&lt;Snappyflow App Name&gt;'profile_key = '&lt;Snappyflow Profile Key&gt;'sf.init(profile_key, project_name, app_name)# End of manual configurationtrace_config = sf.get_trace_config() # Returns trace configprint(trace_config)```</longdescription>
+</pkgmetadata>

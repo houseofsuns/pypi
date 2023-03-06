@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Copyright (c) 2023 Chongqing Spiritlong Technology Co., Ltd.All rights reserved.version0.0.12briefSpiritLong python package from pip重庆灵悠科技有限公司专用工具包</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>The Environment for Tree Exploration (ETE) is a Python programmingtoolkit that assists in the automated manipulation, analysis andvisualization of phylogenetic trees (although clustering trees or anyother tree-like data structure could be used). ETE is currently developed as a tool for researchers working inphylogenetics and genomics. If you use ETE for a published work,please cite:::  Jaime Huerta-Cepas, Joaquin Dopazo and Toni Gabaldon. ETE: a python  Environment for Tree Exploration. BMC Bioinformatics 2010, 11:24.Visit http://etetoolkit.org for more info.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;div align=&quot;center&quot;&gt;&lt;h2&gt;     ChatGptHub: Gpt Chatbot Library with LangChain Support &lt;/h2&gt;&lt;div&gt;    &lt;a href=&quot;https://pepy.tech/project/chatgpthub&quot;&gt;&lt;img src=&quot;https://pepy.tech/badge/chatgpthub&quot; alt=&quot;downloads&quot;&gt;&lt;/a&gt;    &lt;a href=&quot;https://badge.fury.io/py/chatgpthub&quot;&gt;&lt;img src=&quot;https://badge.fury.io/py/chatgpthub.svg&quot; alt=&quot;pypi version&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;This repo is a implementation of the ChatGPT Models with [LangChain](https://github.com/hwchase17/langchain) support.### Installation```bashpip install chatgpthub```### Usage```pythonfrom chatgpthub import ChatGptHubDemo# translate chatgpt modeldemo = ChatGptHubDemo(    openai_key=&quot;openai_key&quot;,    promptlayer_key=&quot;promptlayer_key&quot;, #optional)# translate chatgpt modeldemo.translate(    model_name = &quot;gpt-3.5-turbo&quot;,    input_language = &quot;English&quot;,    output_language = &quot;Turkish&quot;,    text = &quot;Hello, how are you?&quot;,    temperature = 0.0,)# promptlayer chatgpt modeldemo.promptlayer(    model_name = &quot;gpt-3.5-turbo&quot;,    text = &quot;Hello, how are you?&quot;,    temperature = 0.0,)# custom template chatgpt modeltemplate = &quot;You are a helpful assistant that python to c++ and you are asked to translate the following text: {text}&quot;text = &quot;print('Hello, world!')&quot;output = demo.custom_template(    model_name=&quot;gpt-3.5-turbo&quot;,    template=template,    input_variables=&quot;text&quot;,    text=text,    temperature=0.0,)```</longdescription>
+</pkgmetadata>

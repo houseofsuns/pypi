@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![Build Status](https://travis-ci.com/ladybug-tools/pydantic-openapi-helper.svg?branch=master)](https://travis-ci.com/ladybug-tools/pydantic-openapi-helper)[![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/downloads/release/python-370/)# pydantic-openapi-helperA small module to add additional post-processing to the OpenAPI schemas that are generatedby Pydantic.This module is designed to work with Ladybug Tools schema libraries such as[honeybee-schema](https://github.com/ladybug-tools/honeybee-schema/),[dragonfly-schema](https://github.com/ladybug-tools/dragonfly-schema/) and[queenbee](https://github.com/ladybug-tools/queenbee/) but might be also helpful forother projects.The most important feature of the library is to generate an OpenAPI schema to usepolymorphism. It adds referenced values to subclasses using allOf field as explained inthis post: https://swagger.io/docs/specification/data-models/inheritance-and-polymorphismWe are not intending to support the development for make this library work universallybut you are more than welcome to fork and make your own version of the library.## installation`python3 -m pip install pydantic-openapi-helper`</longdescription>
+</pkgmetadata>

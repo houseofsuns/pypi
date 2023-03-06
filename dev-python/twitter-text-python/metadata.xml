@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Extract @users, #hashtags and URLs (and unwind shortened links) from tweets including entity locations, also generate HTML for output. Visit https://github.com/edburnett/twitter-text-python for examples.</longdescription>
+</pkgmetadata>

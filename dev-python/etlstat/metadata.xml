@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=======etlstat=======**etlstat** is a Python package that contains **Extract-Transform-Load**utilities for statistical offices data processing.It's been created by the Instituto Cántabro de Estadística (ICANE) andbelongs to ICANE's Python data framework.</longdescription>
+</pkgmetadata>

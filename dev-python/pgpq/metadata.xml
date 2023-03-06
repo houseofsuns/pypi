@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pgpqConvert PyArrow RecordBatches to Postgres' native binary format.## Usage```pythonimport psycopgimport pyarrow.dataset as dsfrom pgpq import ArrowToPostgresBinaryEncoderdataset = ds.dataset(&quot;tests/testdata/&quot;)encoder = ArrowToPostgresBinaryEncoder(dataset.schema)# get the expected postgres destination schema# note that this is _not_ the same as the incoming arrow schema# and not necessarily the schema of your permanent table# instead it's the schema of the data that will be sent over the wire# which for example does not have timezones on any timestampspg_schema = encoder.schema()# assemble ddl for a temporary table# it's often a good idea to bulk load into a temp table to:# (1) Avoid indexes# (2) Stay in-memory as long as possible# (3) Be more flexible with types (you can't load a SMALLINT into a BIGINT column without casting)cols = [f&quot;\&quot;{col['name']}\&quot; {col['data_type']['ddl']}&quot; for col in pg_schema[&quot;columns&quot;]]ddl = f&quot;CREATE TEMP TABLE data ({','.join(cols)})&quot;with psycopg.connect(&quot;postgres://postgres:postgres@localhost:5432/postgres&quot;) as conn:    with conn.cursor() as cursor:        cursor.execute(ddl)  # type: ignore        with cursor.copy(&quot;COPY data FROM STDIN WITH (FORMAT BINARY)&quot;) as copy:            copy.write(encoder.write_header())            for batch in dataset.to_batches():                copy.write(encoder.write_batch(batch))            copy.write(encoder.finish())        # load into your actual table, possibly doing type casts        # cursor.execute(&quot;INSERT INTO \&quot;table\&quot; SELECT * FROM data&quot;)```</longdescription>
+</pkgmetadata>

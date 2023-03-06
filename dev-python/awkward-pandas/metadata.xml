@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># awkward-pandas&gt; Awkward Array extension for use in pandas.[![Tests](https://github.com/intake/awkward-pandas/actions/workflows/pypi.yml/badge.svg)](https://github.com/intake/awkward-pandas/actions/workflows/pypi.yml)[![Documentation Status](https://readthedocs.org/projects/awkward-pandas/badge/?version=latest)](https://awkward-pandas.readthedocs.io/en/latest/?badge=latest)See the [quickstart](https://awkward-pandas.readthedocs.io/en/latest/quickstart.html)in the documentation for an introduction to awkward-pandas.</longdescription>
+</pkgmetadata>

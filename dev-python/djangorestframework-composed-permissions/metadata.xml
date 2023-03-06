@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Composed permissions for django-rest-framework----------------------------------------------A simple way to define complex permissions for django-rest-framework.- **Documentation:** https://djangorestframework-composed-permissions.readthedocs.org/en/latest/Development-----------Run tests with our settings using the following command:``django-admin test restfw_composed_permissions --settings=restfw_composed_permissions.tests.settings_sqlite``License-------New BSD License</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>NetMāgus Python Package=======================This Python package is to be used with the `NetMāgus &lt;http://www.intelligentvisibility.com/netmagus&gt;`_ product from `Intelligent Visbility, Inc &lt;http://www.intelligentvisibility.com&gt;`_.It is used to create and exchange UI forms and Formula steps with the NetMāgus application.The code has been tested and should work for both Python 3.6+.Refer to the `NetMāgus &lt;http://www.intelligentvisibility.com/netmagus&gt;`_ documentation for usage details.To install: ``pip install netmagus``</longdescription>
+</pkgmetadata>

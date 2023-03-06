@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Stock Inventory Location Module###############################The Stock Inventory Location Module add a new wizard *CreateInventories* under the *Inventories* sub-menu.This wizard first asks the user to select the locations, the productsand the categories of product that he wants to create inventories forand opens them in a new tab.</longdescription>
+</pkgmetadata>

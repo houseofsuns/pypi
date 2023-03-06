@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># clearskiesclearskies is a very opinionated Python framework intended for developing microservices in the cloud via declarative programming principles.  It is mainly intended for backend services and so is designed for RESTful API endpoints, queue listeners, scheduled tasks, and the like.# Installation, Documentation, and UsageTo install:```pip3 install clear-skies```Documentation is under construction here:[https://clearskies.info](https://clearskies.info)</longdescription>
+</pkgmetadata>

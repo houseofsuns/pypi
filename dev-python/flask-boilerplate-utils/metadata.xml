@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Flask Boilerplate Utilities================================================For use in `Flask-Boilerplate &lt;https://github.com/nickw444/Flask-Boilerplate&gt;`_.  however very useful as a standalone package for use within Flask apps.This module is part of the flask-boilerplate project.- `flask-boilerplate &lt;https://github.com/nickw444/Flask-Boilerplate&gt;`_- `flask-boilerplate-buildutils &lt;https://github.com/nickw444/flask-boilerplate-buildutils&gt;`_- `flask-boilerplate-utils &lt;https://github.com/nickw444/flask-boilerplate-utils&gt;`_- `maketools &lt;https://github.com/nickw444/python-maketools&gt;`_Installation------------------------------------.. code-block:: bashpip install flask-boilerplate-utilsUsage-----------------------------------.. code-block:: python    from flask import Flask    from flask_boilerplate_utils import Boilerplate()        app = Flask(__name__)    Boilerplate(app)Full usage available at `read the docs &lt;http://flask-boilerplate-utils.readthedocs.org/en/latest/&gt;`_</longdescription>
+</pkgmetadata>

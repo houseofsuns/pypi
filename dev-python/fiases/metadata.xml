@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Пакет импорта данных ФИАС в Elasticsearch=========================================Реализованный функционал------------------------* Пакет ``fiases`` позволяет осуществить  импорт таблиц ``ADDROBJ`` и ``HOUSES`` в формате XML изФИАС (Федеральной информационной адресной системы)  в ``Elasticsearch``* Обновление до актуальной версии на сайте ФИАС* Создание индекса для полнотекстового поискаУстановка---------pip install fiasesЗависимости (устанавливаются автоматически)-------------------------------------------* elasticsearch&gt;=7.1.0,* elasticsearch-dsl&gt;=7.1.0,* hurry.filesize&gt;=0.9,* rarfile&gt;=3.1,* tqdm&gt;=4.40.1,* urllib3&gt;=1.25.7,* lxml&gt;=4.4.2,* py-dateutil&gt;=2.2</longdescription>
+</pkgmetadata>

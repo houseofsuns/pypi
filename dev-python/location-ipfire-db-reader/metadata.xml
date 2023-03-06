@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># location_ipfire_db_reader## Main usage:```pythonfrom location_ipfire_db_reader import LocationDatabasefrom pathlib import Pathlocation_db = Path('location.db')# This call will download the location database into the provided file.#   It will not re-download it if there are no updates.LocationDatabase.download(location_db)db = LocationDatabase(location_db)print(db.find_country('8.8.8.8'))  # US```Should work for both IP4 &amp; IP6.</longdescription>
+</pkgmetadata>

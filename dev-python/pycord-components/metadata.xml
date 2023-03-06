@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;div align=&quot;center&quot;&gt;    &lt;a href=&quot;https://pypi.org/project/discord-components&quot;&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kiki7000/discord.py-components/master/.github/logo.png&quot; alt=&quot;discord-components logo&quot; height=&quot;128&quot; style=&quot;border-radius: 50%&quot;&gt;&lt;/a&gt;    &lt;h1&gt;pycord-components&lt;/h1&gt;    &lt;p&gt;based on discord.py components - to comply with py-cord&lt;/p&gt;&lt;/div&gt;&lt;img src=&quot;https://app.travis-ci.com/Leek5/pycord-components.svg?branch=master&quot; alt=&quot;Travis CI Result&quot;&gt;## Welcome!Discord components are cool, but pycord's document lacks ease of use in components. Itis hard to wait, so we made a third-party library for using components such asbuttons or selects!This project is open source ⭐.## Features- You can use message components and handle component interactions easily!- Third-party of pycord.- It is simply changed version of discord-components which doesn't require discord.py. Why? Because it is deprecated.## Install```pip install --upgrade pycord-components```## LicenseThis project is under the MIT License.</longdescription>
+</pkgmetadata>

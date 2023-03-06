@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Nose ignore docstrings======================This is a plugin for nose. If this plugin is active, nose doesn't usedocstrings to name tests.Installation------------You can install or upgrade ``nose-ignore-docstring`` with these commands::  $ pip install nose-ignore-docstring  $ pip install --upgrade nose-ignore-docstringUsage-----Pass the ``--with-ignore-docstrings`` option to ``nosetests``::    $ nosetests --with-ignore-docstrings -v    ...Or define the following entry in ``setup.cfg``::    [nosetests]    with-ignore-docstrings=1Changes-------0.1 - 2013-04-17````````````````* First release</longdescription>
+</pkgmetadata>

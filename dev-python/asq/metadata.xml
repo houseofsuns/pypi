@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>``asq`` is simple implementation of a LINQ-inspired API for Python whichoperates over Python iterables, including a parallel version implemented interms of the Python standard library multiprocessing module.What It Does============``asq`` is a package implementing queries over iterables of Pythonobjects.  `asq` provides a fluent interface making extensive use of methodchaining to create complex queries without compromising readability.  Forexample, to take the first five uppercased results from a list of words sortedby length and then alphabetically, try::  &gt;&gt;&gt; from asq import query  &gt;&gt;&gt; words = [&quot;zero&quot;, &quot;one&quot;, &quot;two&quot;, &quot;three&quot;, &quot;four&quot;, &quot;five&quot;, &quot;six&quot;, &quot;seven&quot;, &quot;eight&quot;, &quot;nine&quot;, &quot;ten&quot;]  &gt;&gt;&gt; query(words).order_by(len).then_by().take(5).select(str.upper).to_list()  ['ONE', 'SIX', 'TEN', 'TWO', 'FIVE']Over 40 standard query operators are provided together with various utilitiesto make the API even more convenient to use in Python.How to get it=============``asq`` is available on the Python Package Index and can be installed witheasy_install from setuptools::  $ pip install asqAlternatively you can download and unpack the source and install using::  $ cd asq-1.2  $ python setup.py installRequirements============This version of ``asq`` works with  and 2.7 and higher, including Python 3.It is tested on Python 2.7, Python 3.3, Python 3.4 and Python 3.5.Furthermore it is tested on IronPython 2.7.</longdescription>
+</pkgmetadata>

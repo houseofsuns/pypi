@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Central Dogma client in Python&lt;a href=&quot;https://pypi.org/project/centraldogma-python/&quot;&gt;    &lt;img src=&quot;https://badge.fury.io/py/centraldogma-python.svg&quot; alt=&quot;Package version&quot;&gt;&lt;/a&gt;Python client library for [Central Dogma](https://line.github.io/centraldogma/)## Install```$ pip install centraldogma-python```## Getting started```pycon&gt;&gt;&gt; from centraldogma.dogma import Dogma&gt;&gt;&gt; dogma = Dogma(&quot;https://dogma.yourdomain.com&quot;, &quot;token&quot;)&gt;&gt;&gt; dogma.list_projects()[]```Please see [`examples` folder](https://github.com/line/centraldogma-python/tree/main/examples) for more detail.---## Development### Tests#### Unit test```$ pytest```#### Integration test1. Run local Central Dogma server with docker-compose```$ docker-compose up -d```2. Run integration tests```$ INTEGRATION_TEST=true pytest```3. Stop the server```$ docker-compose down```### Lint- [PEP 8](https://www.python.org/dev/peps/pep-0008)```$ black .```### Documentation- [PEP 257](https://www.python.org/dev/peps/pep-0257)#### To build sphinx at local```$ pip install sphinx sphinx_rtd_theme$ cd docs &amp;&amp; make html```</longdescription>
+</pkgmetadata>

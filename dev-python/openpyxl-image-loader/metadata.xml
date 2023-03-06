@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Openpyxl Image LoaderOpenpyxl wrapper that gets images from cells## Requirements* [openpyxl](https://pypi.org/project/openpyxl/)## Usage```pythonfrom openpyxl import load_workbookfrom openpyxl_image_loader import SheetImageLoader# Load your workbook and sheet as you want, for examplewb = load_workbook('path_to_file.xlsx')sheet = wb['required_sheet']# Put your sheet in the loaderimage_loader = SheetImageLoader(sheet)# And get image from specified cellimage = image_loader.get('A3')# Image now is a Pillow image, so you can do the followingimage.show()# Ask if there's an image in a cellif image_loader.image_in('A4):    print(&quot;Got it!&quot;)```</longdescription>
+</pkgmetadata>

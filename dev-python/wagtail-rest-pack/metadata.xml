@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># wagtail-rest-pack# wagtail-rest-pack=====Wagtail Rest Pack=====Wagtail app easing development of single page application with specific complex needs. And for fun.Deployment Backend-----------1. Push your changes2. Increment version in setup.cfg3. Start push.sh command, which pushes to repository   Deployment Frontend-----------1. Increment version in package.json2. Push your changes3. run &quot;npm run build&quot;4. run &quot;npm run publish&quot;</longdescription>
+</pkgmetadata>

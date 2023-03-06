@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>django-shell+=================A management command to start a shell, and auto-import all models, and the datetime module.Usage::    $ django-admin.py shell+or::    $ ./manage.py shell+Also included: a command to update permissions.    $ django-admin.py update_permissionsInstallation::    $ pip install django-shell-plusAnd then add `shell_plus` to your `settings.INSTALLED_APPS`.Changelog---------1.1.7~~~~~Make update_permissions use new app-loading API.1.1.6~~~~Use the new (!) app-loading from django. Remove code that uses deprecated APIs.1.1.5~~~~~Import `cache` from `django.core.cache`, and `reverse`,`resolve` from `django.core.urlresolvers`, because I often fire up a shell, just to do this to check something.</longdescription>
+</pkgmetadata>

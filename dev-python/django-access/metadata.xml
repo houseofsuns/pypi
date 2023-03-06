@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Django-Access=============The application introducing dynamic evaluation-based instance-level (row-level) access rights control for Django.See details at the home page: https://github.com/nnseva/django-access</longdescription>
+</pkgmetadata>

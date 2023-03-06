@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>================WSGI AWS Unproxy================Set the correct ``REMOTE_ADDR`` based on the ``X-Forwarded-For`` header,while only trusting the CloudFront IP addresses.This module is applied as WSGI middleware, fixing the IP-address retrieval for the entire application in a secure manner.As extra benefit, external packages no longer have to write abstraction layers to retrieve the IP-address header.Django example==============In Django edit the ``wsgi.py`` file to apply the module:.. code-block:: python    from django.core.wsgi import get_wsgi_application    from wsgi_aws_unproxy import UnProxy    application = get_wsgi_application()    application = UnProxy(application)Now all packages can just read ``request.META['REMOTE_ADDR']`` to fetch the correct IP.This includes contact forms, Sentry error reporting and rate limiting tools.Installation============You can install the latest version using pip:.. code-block:: bash    pip install wsgi-aws-unproxyAnd apply it as WSGI middleware:.. code-block:: python    from wsgi_aws_unproxy import UnProxy    application = UnProxy(application)</longdescription>
+</pkgmetadata>

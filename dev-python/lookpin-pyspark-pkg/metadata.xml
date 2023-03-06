@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>#installpython -m pip install --upgrade build#installpython -m pip install --upgrade twine#rootcd lookpin-pyspark-pkg#version upsetup.py version up#buildpython -m build #upload python -m twine upload dist/*#user authregister 1passwordID: level13</longdescription>
+</pkgmetadata>

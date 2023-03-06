@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>biosaur2 - A feature detection LC-MS1 spectra. This project is a rewriten version of Biosaur software (https://github.com/abdrakhimov1/Biosaur).-----------------------------------------------------------------------The centroided mzML file is required for of the script.Algorithm can be run with following command:    biosaur2 path_to_MZMLThe script output contains tsv table with peptide features.All available arguments can be shown with command &quot;biosaur2 -h&quot;.The default parameter minlh (the minimal number of consecutive scans for peptide feature) is 1 and this value is optimimal for ultra-short LC gradients (a few minutes). For the longer LC gradients, this value can be increased for reducing of feature detection time and removing noise isotopic clusters.For TOF data please add &quot;-tof&quot; argument.For PASEF data please convert mzML file using msconvert and '--combineIonMobilitySpectra --filter &quot;msLevel 1&quot; ' options. Do not use option --filter &quot;scanSumming&quot;! The latter is often required for MS/MS data analysis but breaks MS1 feature detection. For negative mode data please add &quot;-nm&quot; argument.Citing biosaur2-------------------Abdrakhimov, et al. Biosaur: An open-source Python software for liquid chromatography-mass spectrometry peptide feature detection with ion mobility support. https://doi.org/10.1002/rcm.9045Installation-------------Using the pip:    pip install biosaur2    Links------ GitHub repo &amp; issue tracker: https://github.com/markmipt/biosaur2- Mailing list: markmipt@gmail.com</longdescription>
+</pkgmetadata>

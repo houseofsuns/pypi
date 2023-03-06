@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># numpyencoderCustom Python JSON encoder for handling Numpy data types.**Example Use:**```pythonfrom numpyencoder import NumpyEncodernumpy_data = np.array([0, 1, 2, 3])with open(json_file, 'w') as file:    json.dump(numpy_data, file, indent=4, sort_keys=True,              separators=(', ', ': '), ensure_ascii=False,              cls=NumpyEncoder)```</longdescription>
+</pkgmetadata>

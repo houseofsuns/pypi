@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>**Deprecated January 5th, 2015**This project is no longer being maintained. Last release isElasticUtils 0.10.2. You should consider switching to`elasticsearch-dsl-py &lt;https://github.com/elasticsearch/elasticsearch-dsl-py&gt;`_.======== README========ElasticUtils is a convenient Django QuerySet-like API for queryingElasticsearch.Project details===============:Code:           https://github.com/mozilla/elasticutils:Documentation:  http://elasticutils.rtfd.org:Issue tracker:  https://github.com/mozilla/elasticutils/issues:IRC:            ``#elasticutils`` on irc.mozilla.org:License:        BSD 3-clause; see LICENSE fileOur unit tests are run by Travis CI every time we commit to themaster branch... image:: https://secure.travis-ci.org/mozilla/elasticutils.png?branch=master   :target: http://travis-ci.org/mozilla/elasticutilsQuick install=============Latest released version::    $ pip install elasticutilsRun the dev version (which is master tip)::    $ pip install elasticutils==devThat corresponds with`&lt;http://github.com/mozilla/elasticutils/tarball/master#egg=elasticutils-dev&gt;`_.Quick start===========See https://elasticutils.readthedocs.org/ for the quick start.</longdescription>
+</pkgmetadata>

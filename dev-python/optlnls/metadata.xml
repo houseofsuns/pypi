@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># optlnlsUseful python functions for x-ray optics simulations and metrology developed in LNLS, CNPEM### About hybrid:Hybrid documentation and license can be found [HERE](optlnls/hybrid_funcs).## Authors:Sergio A. Lordano Luiz (sergiolordano2@gmail.com)Artur C. Pinto (artur.pinto@lnls.br)Humberto Rigamonti Jr. (humberto.junior@lnls.br)João Pedro I. Astolfo (joao.astolfo@lnls.br)Bernd C. Meyer</longdescription>
+</pkgmetadata>

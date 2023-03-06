@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>BCF-API-XML-converter=====================BCF-API-XML-converter is a library to open BCFzip and get data similar to BCF API json and to save BCF API data as BCFzip files.# Install```bashpip install bcf-api-xml```# usage```python    from bcf_api_xml import to_zip, to_json    file_like_bcf_zip = to_zip(topics, comments, viewpoints)    imported_topics = to_json(file_like_bcf_zip)```# develop```bashpoetry shellpoetry installpytestpre-commit install```# Publish new version```bashpoetry publish --build --username= --password=```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># DATA-ECOSYSTEM/PADEProject Dependency Documentation- Point of contact: [John Bowyer](mailto:jcbowyer@hotmail.com)- Organizational unit: Pending Public Release- Related projects: Pending Public Release- Related investments: Pending Public Release- Governance status: Pending Public Release- Program official: Pending Public Release</longdescription>
+</pkgmetadata>

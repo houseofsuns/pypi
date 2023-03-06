@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Deepforest## Full documentation[http://deepforest.readthedocs.io/en/latest/](http://deepforest.readthedocs.io/en/latest/)## InstallationCompiled wheels have been made for linux, osx and windows```#Install DeepForestpip install deepforest```## Get in touchSee the [GitHub Repo](https://github.com/Weecology/DeepForest) to see thesource code or submit issues and feature requests.## CitationIf you use this software in your research please cite it as:Geographic Generalization in Airborne RGB Deep Learning Tree DetectionBen. G. Weinstein, Sergio Marconi, Stephanie A. Bohlman, Alina Zare, Ethan P. WhitebioRxiv 790071; doi: https://doi.org/10.1101/790071## AcknowledgmentsDevelopment of this software was funded by[the Gordon and Betty Moore Foundation's Data-Driven Discovery Initiative](http://www.moore.org/programs/science/data-driven-discovery) through[Grant GBMF4563](http://www.moore.org/grants/list/GBMF4563) to Ethan P. White.</longdescription>
+</pkgmetadata>

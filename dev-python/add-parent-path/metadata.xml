@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>add_parent_path===============Usage-----.. code-block::   # Just add path   add_parent_path(1)   # Append to syspath and delete when the exist of with statement.   with add_parent_path(1):      # Import modules in the parent path      passInstallation------------Requirements------------Compatibility-------------Licence-------Authors-------``add_parent_path`` was written by `fx-kirin &lt;fx.kirin@gmail.com&gt;`_.</longdescription>
+</pkgmetadata>

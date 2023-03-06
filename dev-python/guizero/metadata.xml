@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># guizeroguizero is designed to allow new learners to quickly and easily create GUIs for their programs.There is comprehensive documentation at [lawsie.github.io/guizero](https://lawsie.github.io/guizero/)## InstallIf you can download and unzip a file, you can [install guizero](https://lawsie.github.io/guizero/#easy-install) - **no special permissions or administrator rights are required**.If you have administrator rights and are connected to the internet, you can use [pip to quickly install guizero]((https://lawsie.github.io/guizero/#install-using-pip).guizero only requires `tkinter` to be installed, which is included with a standard Python installation on all platforms except Linux.A python module to allow learners to easily create GUIs. guizero is designed to be used by new learners.## Useguizero is simple to use, taking away much of the complexity of creating simple GUIs.```pythonfrom guizero import App, Textapp = App(title=&quot;Hello world&quot;)message = Text(app, text=&quot;Welcome to the Hello world app!&quot;)app.display()```</longdescription>
+</pkgmetadata>

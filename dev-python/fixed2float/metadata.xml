@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![Crates.io](https://img.shields.io/crates/v/fixed2float)](https://crates.io/crates/fixed2float)[![PyPI](https://img.shields.io/pypi/v/fixed2float)](https://pypi.org/project/fixed2float/)# fixed2floatSimple utility for fixed point to real number conversions, using the VisSim (Fx*m.b*) and Q (Q*m.n*) [notations](https://en.wikipedia.org/wiki/Fixed-point_arithmetic#Notations).### Usage- as a dependency of your Rust library```shcargo add fixed2float```which will automatically fetch the most recent version from the registry and update one line on Cargo.toml.- as a dependency of your Python library```shpip install fixed2float```### ExamplesSee [example.py](https://github.com/urbanij/fixed2float/blob/main/py-fixed2float/examples/example.py) (Python) or the [examples folder](https://github.com/urbanij/fixed2float/tree/main/examples) (Rust) or this online notebook:[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/urbanij/fixed2float/HEAD?labpath=py-fixed2float%2Fexamples%2Fnotebook.ipynb)&lt;!-- ### Screencast --&gt;&lt;!-- [![asciicast](https://asciinema.org/a/463661.svg)](https://asciinema.org/a/463661) --&gt;### Similar projects- ameetgohil's [fixed2float](https://www.npmjs.com/package/fixed2float) in javascript</longdescription>
+</pkgmetadata>

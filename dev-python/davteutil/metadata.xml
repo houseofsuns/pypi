@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># davteutilThis project provides convenient general-purpose functions, used by [Davte](t.me/davte) in his projects.Please note that you need Python3.5+ to run async code## Project folders## Usage```import asynciofrom davteutil.utilities import async_get, async_postasync def main():  url = 'http://www.google.com'  result = await async_get(url, mode='html')  print(result)loop = asyncio.get_event_loop()loop.run_until_complete(main())```</longdescription>
+</pkgmetadata>

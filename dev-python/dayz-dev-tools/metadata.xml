@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># DayZ Dev ToolsThis project contains tools and libraries that can be useful for DayZ moddevelopers and server owners, including:* `guid` - Tool for converting 64-bit SteamIDs to DayZ GUIDs* `unpbo` - Tool for inspecting PBO archives and extracting their contents* `run-server` - Tool that makes running DayZ Server easierMore information:* [Documentation](https://dayz-dev-tools.readthedocs.io/)## InstallationDayZ Dev Tools is listed on [PyPI](https://pypi.org/project/dayz-dev-tools/). Ihighly recommend installing it using [`pipx`](https://pypa.github.io/pipx/) forcommand line use:```pipx install dayz-dev-tools```It can also be installed with `pip` or using your preferred Python packagemanager:```pip install dayz-dev-tools```DayZ Dev Tools can be run on Windows or Linux but Python 3.8 or higher isrequired.</longdescription>
+</pkgmetadata>

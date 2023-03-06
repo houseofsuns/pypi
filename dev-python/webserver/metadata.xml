@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Docker-Webserver (nginx:mainline-alpine)**NB!** Big change is in progress, consider this an **alpha** product!## What is it?Simple to use CLI for setting up nginx webserver in Docker Swarmand adding websites' configs, proxies and static files----## Technology Stack* **Docker Swarm** for orchestration* **click** for CLI scripts----## Features* **Run Highly-Available *nginx:mainline-alpine* stack** with attachable **nginx** network (*to use with others containers*) -&gt; `webserver run`* **Update stack images *without downtime*** -&gt; `webserver update`* **Generate HTTPS config** for website with examples -&gt; `webserver genconf`* **Get LetsEncrypt SSL certificate** for website *with one command and no configuration* (*except DNS A record*) -&gt; `webserver gentls`* **Generate DH params** for website -&gt; `webserver gendh`* Work with configuration files:  * **Add configuration file** for website -&gt; `webserver conf add`  * **Generate and add config with one command** -&gt; `webserver conf create`  * **Edit configuration file** for website -&gt; `webserver conf edit`  * **Reload configs *without downtime*** -&gt; `webserver conf reload`* **Add/Update static files** for website -&gt; `webserver static add`ROADMAP (v1.0.0)----* **See stats** of running stack* **Stop** the stack* **Restart** the stackROADMAP (v1.x.x)----* **Analyze logs with GoAccess**----Made by Igor Nehoroshev (https://neigor.me) for his own needs (if You find it useful - great!😎)</longdescription>
+</pkgmetadata>

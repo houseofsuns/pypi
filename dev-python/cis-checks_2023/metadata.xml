@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># OBP_security_pillarOBP_security_Pillar package can be used to get the compliance details of Operational Best Practices for AWS Well Architected Security Pillar.Release Notes:# v0.0.11. Added following compliance checks:   - RdsAutomaticMinorVersionUpgradeEnabled   - RdsInstancePublicAccessCheck   - RdsSnapshotEncrypted   - RdsSnapshotsPublicProhibited   - RdsStorageEncrypted   - S3BucketLoggingEnabled   - S3BucketVersioningEnabled</longdescription>
+</pkgmetadata>

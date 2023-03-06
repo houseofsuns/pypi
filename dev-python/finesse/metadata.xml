@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Finesse 3Finesse 3 is a Python based interferometer simulation software. It is currently in an earlydevelopment stage. For modelling interferometers we currently recommend that you use our mature packages:* Finesse 2 http://www.gwoptics.org/finesse* Pykat http://www.gwoptics.org/pykatAt the same time we invite participation to the development of Finesse. You can find the Finesse 3 resources at:* Source code, issue tracker etc. https://gitlab.com/ifosim/finesse/finesse3* Documentation https://finesse.ifosim.org/docs/## InstallationFor guides on the installation of Finesse 3 see: https://finesse.ifosim.org/docs/develop/getting_started/install/index.html</longdescription>
+</pkgmetadata>

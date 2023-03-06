@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Cortex Data Product SDK## Schema### Bronze```json{  &quot;data_type&quot;: &quot;&quot;,  &quot;catalog_name&quot;: &quot;&quot;,  &quot;data_pack_name&quot;: &quot;&quot;,  &quot;database_name&quot;: &quot;&quot;,  &quot;dataset_name&quot;: &quot;&quot;,  &quot;table_fields&quot;: [    {      &quot;name&quot;: &quot;&quot;,      &quot;nullable&quot;: true,      &quot;type&quot;: &quot;&quot;    }  ],  &quot;table_modifiers&quot;: [    &quot;&quot;  ],  &quot;table_name&quot;: &quot;&quot;,  &quot;table_owner&quot;: &quot;&quot;,  &quot;table_properties&quot;: {    &quot;&quot;: &quot;&quot;  },  &quot;table_selectors&quot;: [    &quot;&quot;  ]}```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ChatGPT CLI Client## Installation### Manual Installation    git clone https://github.com/hansololz/rubberduck-ai.git    cd rubberduck-ai    python setup.py install### Installation (pip)    pip install rubberduck-ai## Authentication### Authentication TokenThe CLI tool requires Open AI authentication token. Token can be obtained by going to https://platform.openai.com/account/api-keys.### Authentication MethodsChoose one of these options to authenticate the CLI tool:- Set the environment variable: `OPENAI_API_KEY=&lt;AUTHENTICATION_TOKEN&gt;`.- Use a command argument: `rda --openai-api-key=&lt;AUTHENTICATION_TOKEN&gt;`.- Enter the API key when prompted while running the CLI tool.## Usage### Evaluation LoopRun the application:        rda#### Supported Commands- .n .new: Create new session- .p .print: Print current session - .s .sessions: Change chat session- cd clear ls: Session supported bash commands- cd cls dir: Session supported cmd commands### Single PromptProcess a single prompt with:    rda &lt;SINGLE_PROMPT&gt; --openai-api-key=&lt;AUTHENTICATION_TOKEN&gt;</longdescription>
+</pkgmetadata>

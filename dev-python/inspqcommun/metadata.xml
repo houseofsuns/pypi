@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Modules communs Python de l'INSPQCe package contient les modules communs de l'INSPQ## Module userprovisioning.scim Implémentation SCIM pour PythonCe module permet de manipuler les utilisateurs et le groupes SCIM.Il permet aussi de consommer des services SCIM.## Module identity.keycloak Client Python pour KeycloakCe module permet d'interagir avec un serveur Keycloak pour OpenID Connect.Actuellement, la seule fonctionnalité implantée est l'obtention d'un access token Open ID Connect.</longdescription>
+</pkgmetadata>

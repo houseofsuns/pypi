@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>A python library to interface with Hayward/Goldline AquaLogic/ProLogic pool controllers. Note that the Goldline protocol uses RS-485 so a hardware interface that can provide the library with reader and writer file objects is required. The simplest solution for this is an RS-485 to Ethernet adapter connected via a socket.</longdescription>
+</pkgmetadata>

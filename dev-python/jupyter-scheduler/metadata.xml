@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># jupyter_scheduler[![Github Actions Status](https://github.com/jupyter-server/jupyter-scheduler/workflows/Build/badge.svg)](https://github.com/jupyter-server/jupyter-scheduler/actions/workflows/build.yml)[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jupyter-server/jupyter-scheduler/main?urlpath=lab)A JupyterLab extension for running notebook jobs. Documentation is available on[ReadTheDocs](https://jupyter-scheduler.readthedocs.io).This extension is composed of a Python package named `jupyter_scheduler`for the server extension and a NPM package named `@jupyterlab/scheduler`for the frontend extension. Installation of this extension provides aREST API to run, query, stop and deletenotebook jobs; the UI provides an interface to create, list and view jobdetails.## Requirements- JupyterLab &gt;= 3.0## InstallTo install the extension, execute:```bashpip install jupyter_scheduler```## UninstallTo remove the extension, execute:```bashpip uninstall jupyter_scheduler```## User's guidePlease refer to our [user's guide](https://jupyter-scheduler.readthedocs.io/en/latest/users/index.html)for more information on installation and usage.## ContributingPlease refer to our [contributor's guide](https://jupyter-scheduler.readthedocs.io/en/latest/contributors/index.html)for more information on installation and usage.</longdescription>
+</pkgmetadata>

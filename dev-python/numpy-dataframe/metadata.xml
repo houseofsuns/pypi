@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># numpy_tableThis project implements a simple implementation of a dataframe using numpy arrays as its basic unit. The goal was to have a syntax simpler than pandas, and be able to use numpy in the columns of the dataframe directly.## Authors and acknowledgmentCarlos Molinero## LicenseMIT license## Project statusThis is a very early stage implementation, I do not recommend using it yet, I have published it for my personal use.</longdescription>
+</pkgmetadata>

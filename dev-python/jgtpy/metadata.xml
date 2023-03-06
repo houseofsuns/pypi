@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># jgtpyJGTPyIndicators Prep Service## Installation```shpip install -U jgtpy```## Example```py    &gt;&gt;&gt; import pandas as pd    &gt;&gt;&gt; import jgtpy    &gt;&gt;&gt; df=jgtpy.getPH('EUR/USD','H4')    &gt;&gt;&gt;    &gt;&gt;&gt; # retrieve 3000 periods and generate from the DF    &gt;&gt;&gt; df=jgtpy.getPH('EUR/USD','H4',3000,with_index=False)    &gt;&gt;&gt; dfi=jgtpy.createFromDF(df)    &gt;&gt;&gt;    &gt;&gt;&gt; # Create with Timerange    &gt;&gt;&gt; start=&quot;11.17.2022 00:00:00&quot;    &gt;&gt;&gt; end=&quot;11.25.2022 00:00:00&quot;    &gt;&gt;&gt; df=jgtpy.createByRange(&quot;USD/CAD&quot;,&quot;m15&quot;,start,end)    &gt;&gt;&gt;    &gt;&gt;&gt; # offsets date for retreival    &gt;&gt;&gt; dtfirst_with_offset=jgtetl.svc_offset_dt_by_tf(dtfirst,ctx.timeframe)    &gt;&gt;&gt; df=createByRange(ctx.instrument,ctx.timeframe,dtfirst_with_offset,dtlast)```</longdescription>
+</pkgmetadata>

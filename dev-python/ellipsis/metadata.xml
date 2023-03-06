@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Ellipsis Drive Python PackageThis package is meant to help you interact with the Ellipsis API.You can install this package using`pip install ellipsis`For documentation see https://ellipsis-package.readthedocs.ioThis package is meant to ease the use of the Ellipsis Drive API in your Python projects.# ExamplesBelow are some code examples.    import ellipsis as el    # log in    token = el.account.logIn(&quot;username&quot;, &quot;password&quot;)    # retrieve all maps in &quot;My Drive&quot;    maps = el.account.listRoot(&quot;myDrive&quot;, pathType='layer',    token=token)Another example    import ellipsis as el    folderId = '46e1e919-8b73-42a3-a575-25c6d45fd93b'    token = el.account.logIn(&quot;username&quot;, &quot;password&quot;)    info = el.path.get(folderId, token)    layers = el.path.listPath(folderId, pathType='layer', token = token, listAll = True)    folders = el.path.listPath(folderId, pathType='folder', token = token, listAll = True)</longdescription>
+</pkgmetadata>

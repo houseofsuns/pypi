@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pigz-pythonThe goal of this project is to create a pure Python implementation of the pigz project for parallelizing gzipping.# Usage examplespigz-python can be utilized by creating a `PigzFile` object and calling the `process_compression_target()` method.```pythonfrom pigz_python import PigzFilepigz_file = PigzFile('foo.txt')pigz_file.process_compression_target()```Alternatively, the pigz_python module also provides a convenient helper method to do all of this work for you.```pythonimport pigz_pythonpigz_python.compress_file('foo.txt')```</longdescription>
+</pkgmetadata>

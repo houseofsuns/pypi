@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Converts a string to Camel Case with the ability to include words to skip over.Basic Usage===========.. code:: pythonfrom camelcase import CamelCasec = CamelCase()s = 'this is a sentence that needs CamelCasing!'print c.hump(s)# This is a Sentence That Needs CamelCasing!If you have particular words that you want to skip then you can do the following..... code:: pythonfrom camelcase import CamelCasec = CamelCase('little', 'another')s = 'this is a another sentence, but this one is a little different'print c.hump(s)# This is a another Sentence, But This One is a little Different</longdescription>
+</pkgmetadata>

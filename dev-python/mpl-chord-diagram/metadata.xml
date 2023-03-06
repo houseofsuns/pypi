@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>The module enables to plot chord diagrams with matplotlib from lists,numpy or scipy sparse matrices.It provides tunable parameters such as arc sorting based on size or distance,and supports gradients to better visualize source and target regions.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image:: https://img.shields.io/pypi/v/super-devops.svg?style=plastic   :target: https://pypi.python.org/pypi/super-devops/.. image:: https://img.shields.io/pypi/dm/super-devops.svg?style=plastic   :target: https://pypi.python.org/pypi/super-devops/.. image:: https://travis-ci.org/crazy-canux/super-devops.svg?branch=master   :target: https://travis-ci.org/crazy-canux/super-devops.. image:: https://coveralls.io/repos/github/crazy-canux/super-devops/badge.svg?branch=master   :target: https://coveralls.io/github/crazy-canux/super-devops?branch=master============super-devops============Tons of tools for devops project.Dependency:pymssql:    $ sudo apt-get install freetds-devlibvirt-python:    $ sudo apt-get install libvirt-devInstall::    $ pip install super-devops    $ pip3 install super-devopsUsage::    from super-devops.&lt;protocol&gt;.&lt;tool&gt;_wrapper import &lt;Class&gt;============Contribution============`[Contribution] &lt;https://github.com/crazy-canux/super-devops/blob/master/CONTRIBUTING.rst&gt;`_=======Authors=======`[Authors] &lt;https://github.com/crazy-canux/super-devops/blob/master/AUTHORS.rst&gt;`_=======License=======`[License] &lt;https://github.com/crazy-canux/super-devops/blob/master/LICENSE&gt;`_</longdescription>
+</pkgmetadata>

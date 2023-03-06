@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Hydra-SMAC 0.1.11A minimal Python re-implementation of [Hydra](https://www.cs.ubc.ca/labs/algorithms/Projects/Hydra/).## Getting started```bashpip install hydra-smac```## ExampleFor more information on how to use Scenario objects, please refer to the [SMAC](https://github.com/automl/SMAC3) documentation.```pyfrom ConfigSpace import Configuration, ConfigurationSpace, Floatfrom hydrasmac import Hydrafrom smac import Scenarioinstances = [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;]features = {&quot;a&quot;: [0.0], &quot;b&quot;: [1.0], &quot;c&quot;: [2.0]}cs = ConfigurationSpace()cs.add_hyperparameters(    [        Float(&quot;x&quot;, (1.0, 5.0)),        Float(&quot;y&quot;, (1.0, 5.0)),        Float(&quot;z&quot;, (1.0, 5.0)),    ])def target_function(config: Configuration, instance: str, seed: int = 0) -&gt; float:    config_dict = config.get_dictionary()    x, y, z = config_dict[&quot;x&quot;], config_dict[&quot;y&quot;], config_dict[&quot;z&quot;]    if instance == &quot;a&quot; and x &lt; 2.5 and y &gt; 2.5 and z &gt; 2.5:        return 0.001    if instance == &quot;b&quot; and y &lt; 2.5 and x &gt; 2.5 and z &gt; 2.5:        return 0.01    if instance == &quot;c&quot; and z &lt; 2.5 and y &gt; 2.5 and x &gt; 2.5:        return 0.1    return 1scenario = Scenario(    configspace=cs,    instances=instances,    instance_features=features,    n_trials=500,)hydra = Hydra(    scenario,    target_function,    hydra_iterations=3,    smac_runs_per_iter=1,    incumbents_added_per_iter=1,    stop_early=True,)portfolio = hydra.optimize()print(&quot;====== Resulting portfolio ======&quot;)print(portfolio)print(&quot;=================================&quot;)```</longdescription>
+</pkgmetadata>

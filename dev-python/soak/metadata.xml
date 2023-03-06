@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># soakProcess aridity templates en masse, like Helm but much more DRY## InstallThese are generic installation instructions.### To use, permanentlyThe quickest way to get started is to install the current release from PyPI:```pip3 install --user soak```### To use, temporarilyIf you prefer to keep .local clean, install to a virtualenv:```python3 -m venv venvnamevenvname/bin/pip install soak. venvname/bin/activate```### To developFirst clone the repo using HTTP or SSH:```git clone https://github.com/combatopera/soak.gitgit clone git@github.com:combatopera/soak.git```Now use pyven's pipify to create a setup.py, which pip can then use to install the project editably:```python3 -m venv pyvenvenvpyvenvenv/bin/pip install pyvenpyvenvenv/bin/pipify soakpython3 -m venv venvnamevenvname/bin/pip install -e soak. venvname/bin/activate```## Commands### soakProcess aridity templates as per all soak.arid configs in directory tree.</longdescription>
+</pkgmetadata>

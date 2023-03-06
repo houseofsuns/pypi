@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Jupyter Lab and Notebook Extensions for FugueThe extensions enables the magic `%%fsql` and Fugue SQL highlights. It also enables pretty print of dataframes.## InstallTo install the extension, execute:```bashpip install fugue-jupyter```### Enable highlights on classic notebooksTo enable syntax highlights on classic notebooks, you will need to firstly install [jupyter-contrib-nbextensions](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/install.html) (this is NOT automatically done by installing fugue-jupyter), and then run:```bashfugue-jupyter install nbextension```Or if you want to manually install with special parameters, you can just let it show the command to be executed, you can modify them and run manually:```bashfugue-jupyter install nbextension --show```### Register startup scriptFor both lab and classic notebooks, you must register a startup script so the system can understand `%%fsql` means running the cell as Fugue SQL, this is separated from highlighting:```bashfugue-jupyter install startup```Or if you want to add the startup script to a specific profile (for example abc):```bashfugue-jupyter install startup abc```## UninstallTo remove the extension, execute:```bashfugue-jupyter uninstall startuppip uninstall fugue-jupyter```</longdescription>
+</pkgmetadata>

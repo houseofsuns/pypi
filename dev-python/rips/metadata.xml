@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>ResInsight is free software: you can redistribute it andor modifyit under the terms of the GNU General Public License as published bythe Free Software Foundation, either version 3 of the License, or(at your option) any later version.ResInsight is distributed in the hope that it will be useful, but WITHOUT ANYWARRANTY; without even the implied warranty of MERCHANTABILITY orFITNESS FOR A PARTICULAR PURPOSE.See the GNU General Public License at &lt;http:www.gnu.orglicensesgpl.html&gt;for more details.Description: # ResInsight Processing Server - rips                A Python interface for the ResInsight visualization and post-processing suite for Reservoir Simulations                [Learn More](https://www.resinsight.org)        Platform: UNKNOWN</longdescription>
+</pkgmetadata>

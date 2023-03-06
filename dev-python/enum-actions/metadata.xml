@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;div align=&quot;center&quot;&gt;[![pypi](https://img.shields.io/pypi/v/enum-actions)](https://pypi.org/project/enum-actions/)[![github](https://img.shields.io/static/v1?label=&amp;message=github&amp;color=grey&amp;logo=github)](https://github.com/aatifsyed/enum-actions)&lt;/div&gt;# `enum-actions`For easy selection command-line selection of an `enum.Enum` variant with `argparse.Action`s.Use it like this:```python&gt;&gt;&gt; from enum_actions import enum_action&gt;&gt;&gt; from argparse import ArgumentParser&gt;&gt;&gt; import enum&gt;&gt;&gt; class MyEnum(enum.Enum):...     A = 1...     B = 2&gt;&gt;&gt; parser = ArgumentParser()&gt;&gt;&gt; _ = parser.add_argument(&quot;-e&quot;, &quot;--enum&quot;, action=enum_action(MyEnum), default=&quot;a&quot;, help=&quot;pick a variant&quot;) # create an action for your enum&gt;&gt;&gt; args = parser.parse_args() # there will be an instance of MyEnum in the args object```## Features### Choices are handled transparently```textfoo.py --helpusage: foo.py [-h] [-e {a,b}]optional arguments:  -h, --help            show this help message and exit  -e {a,b}, --enum {a,b}                        pick a variant (default: b)```### Defaults are handled transparentlyHaving a default string or enum will both work```pythonparser.add_argument(&quot;--enum&quot;, action=enum_action(MyEnum), default=&quot;a&quot;)parser.add_argument(&quot;--enum&quot;, action=enum_action(MyEnum), default=MyEnum.A)```</longdescription>
+</pkgmetadata>

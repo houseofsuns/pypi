@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># flake8-empty-init-modulesflake8 plugin that disallows code in `__init__.py` modules.## installation```shpython -m pip install flake8-empty-init-modules```## checks### EIM001Disallows all code in any `__init__.py` module.### EIM002Allows imports and assignment to `__all__` in `__init__.py` modules, but nothingelse.This check is disabled by default. To use this check instead of `EIM001` add thefollowing to your `setup.cfg````ini[flake8]ignore = EIM001enable-extensions=EIM002```## rationaleCode in `__init__.py` modules is often unwanted because:- it runs at import-time - this can cause surprising import-time side-effects- these modules are often empty, so code there is easily missedThe relaxed version of this check allows convenience imports in `__init__.py`modules without allowing 'real' code to hide out there.</longdescription>
+</pkgmetadata>

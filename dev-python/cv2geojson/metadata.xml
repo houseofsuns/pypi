@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># cv2geojsoncv2geojson is an open source project to export annotation contours extracted using [OpenCV-python](https://github.com/opencv/opencv-python) package to [GeoJSON](https://pypi.org/project/geojson/) format.## IntroductionIn digital pathology, images are often quite large and dedicated software tools like [QuPath](https://qupath.github.io/) are required to aid visualisation. The python package cv2geojson export contours detected using `cv2.findContours` as polygons using GeoJSON format for visualisation in QuPath.## InstallationThe recommended way to install is via pip:`pip install cv2geojson`## Example```import cv2 as cvimport geojsonimport cv2geojson# read sample imageimg = cv.imread('./example/img_01.png')img = cv.cvtColor(img, cv.COLOR_BGR2GRAY)# Extract annotation contourscontours, hierarchy = cv.findContours(img, cv.RETR_CCOMP, cv.CHAIN_APPROX_SIMPLE)# convert contours to geojson formatgeometries = cv2geojson.contour2geometry(contours, hierarchy)features = [cv2geojson.geometry2feature(geometry) for geometry in geometries]annotation = geojson.FeatureCollection(features)# export annotationwith open('./example/geocontours_01.geojson', 'w') as writer:    geojson.dump(annotation, writer)```</longdescription>
+</pkgmetadata>

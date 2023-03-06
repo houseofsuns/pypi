@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>==============================ZenginCode==============================|circle| |version|The python implementation of ZenginCode.ZenginCode is datasets of bank codes and branch codes for japanese.Installation==============.. code-block:: bash pip install zengin_codeUsage==============.. code-block:: python from zengin_code import Bank Bank.all # =&gt; OrderedDict([(u'0001', &lt;zengin_code.bank.Bank object at 0x1044173d0&gt;), ...Contributing===============Bug reports and pull requests are welcome on GitHub at https://github.com/zengin-code/zengin-pyLicense===============The package is available as open source under the terms of the `MIT License &lt;http://opensource.org/licenses/MIT&gt;`_ ... |circle| image:: https://img.shields.io/circleci/project/zengin-code/zengin-py.svg    :target: https://circleci.com/gh/zengin-code/zengin-py.. |version| image:: https://img.shields.io/pypi/v/zengin_code.svg    :target: http://pypi.python.org/pypi/zengin_code/    :alt: latest version</longdescription>
+</pkgmetadata>

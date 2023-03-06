@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>fodselsnummer=============.. image:: https://travis-ci.org/magnuswatn/fodselsnummer.svg?branch=master    :target: https://travis-ci.org/magnuswatn/fodselsnummer.. image:: https://codecov.io/gh/magnuswatn/fodselsnummer/branch/master/graph/badge.svg    :target: https://codecov.io/gh/magnuswatn/fodselsnummer.. image:: https://badge.fury.io/py/fodselsnummer.svg    :target: https://badge.fury.io/py/fodselsnummerUsed to generate and validate Norwegian birth numbers (&quot;fødselsnummer&quot;).Installation------------.. code-block:: bash    $ pipenv install fodselsnummerExample usage-------------.. code-block:: python    import fodselsnummer    fodselsnummer.check_fnr('12345678900')</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Raven=====Raven is a Python client for `Sentry &lt;http://getsentry.com/&gt;`_. It providesfull out-of-the-box support for many of the popular frameworks, including`Django &lt;djangoproject.com&gt;`_, `Flask &lt;http://flask.pocoo.org/&gt;`_, and `Pylons&lt;http://www.pylonsproject.org/&gt;`_. Raven also includes drop-in support for any`WSGI &lt;https://wsgi.readthedocs.io/&gt;`_-compatible web application.</longdescription>
+</pkgmetadata>

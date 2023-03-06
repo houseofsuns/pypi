@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>a lite mysql connector...Name from the Lord of Ring&lt;=========how to use=========&gt;from anduin.server import Datacond = [    (col1,'=',val1),    (col2,'=',val2),    ....]fields = [    col1,    col2    ...]params = {    key1:val1,    key2:val2,    ...}find one line of data:    Data.find(__TableName__,conditions=cond,fields=fields)    return a python dict like { col1:value1,col2:value2...}find datas    Data.select(__TableName__,conditions=cond,fields=fields)    return a python list like [{ col1:value1,col2:value2...}]update data:    Data.update(__TableName__,conditions=cond,params=params)    return Noneinsert data:    Data.insert(__TableName__,params=params)    return Nonedelete data:    Data.delete(__TableName__,conditions=cond)    return Noneusing Data.query() to execute sql directly like Data.query('select * from table')</longdescription>
+</pkgmetadata>

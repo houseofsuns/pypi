@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;!--&lt;p align=&quot;center&quot;&gt;  &lt;img src=&quot;https://github.com/hrshdhgd/ontobot-change-agent/raw/main/docs/source/logo.png&quot; height=&quot;150&quot;&gt;&lt;/p&gt;--&gt;Update ontologies using change language.## Getting Started[Read the docs](https://hrshdhgd.github.io/ontobot-change-agent/index.html)&lt;!-- ## Installation --&gt;&lt;!-- Uncomment this section after first releaseThe most recent release can be installed from[PyPI](https://pypi.org/project/ontobot_change_agent/) with:```bash$ pip install ontobot-change-agent```--&gt;&lt;!-- The most recent code and data can be installed directly from GitHub with:```bash$ pip install git+https://github.com/hrshdhgd/ontobot-change-agent.git``` --&gt;&lt;!-- ## ContributingContributions, whether filing an issue, making a pull request, or forking, are appreciated. See[CONTRIBUTING.md](https://github.com/hrshdhgd/ontobot-change-agent/blob/master/.github/CONTRIBUTING.md) for more information on getting involved. --&gt;### LicenseThe code in this package is licensed under the MIT License.</longdescription>
+</pkgmetadata>

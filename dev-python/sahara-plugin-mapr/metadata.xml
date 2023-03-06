@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>========================Team and repository tags========================.. image:: https://governance.openstack.org/tc/badges/sahara.svg    :target: https://governance.openstack.org/tc/reference/tags/index.html.. Change things from this point onOpenStack Data Processing (&quot;Sahara&quot;) MapR plugin================================================OpenStack Sahara MapR Plugin provides the users the option tostart MapR clusters on OpenStack Sahara.Check out OpenStack Sahara documentation to see how to deploy theMapR Plugin.Sahara at wiki.openstack.org: https://wiki.openstack.org/wiki/SaharaStoryboard project: https://storyboard.openstack.org/#!/project/openstack/sahara-plugin-maprSahara docs site: https://docs.openstack.org/sahara/latest/Quickstart guide: https://docs.openstack.org/sahara/latest/user/quickstart.htmlHow to participate: https://docs.openstack.org/sahara/latest/contributor/how-to-participate.htmlSource: https://opendev.org/openstack/sahara-plugin-maprBugs and feature requests: https://storyboard.openstack.org/#!/openstack/sahara-plugin-maprRelease notes: https://docs.openstack.org/releasenotes/sahara-plugin-mapr/License-------Apache License Version 2.0 http://www.apache.org/licenses/LICENSE-2.0</longdescription>
+</pkgmetadata>

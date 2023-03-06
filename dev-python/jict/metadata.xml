@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## jictjict is basically a nested dict.  with some extra features  simple use example :```pythonfrom jict import jictjct = jict()jct['level1']['level2']['level3'] = 'created nested dictionary'print(jct)# output :# {#   &quot;level1&quot;: {#     &quot;level2&quot;: {#       &quot;level3&quot;: &quot;created nested dictionary&quot;#     }#   }# }# jict to dictmydict = jct.dict()```jict utilities:```pythonfrom jict import jict# our jictjct = jict({    'val': { 'list':[ [{ 'find-me': 'secret' }] ] }})# we can easly find the key we needprint(jct.get('find-me'))# we also can rename the keys# output : secretjct.rename('find-me','password')print(jct.get('find-me'))# output : Noneprint(jct.get('password'))# output : secret# we also can replace valuesjct.replace('password','mypass')print(jct.get('password'))# output : mypassdef foo(val):    val[0][0]['name'] = 'jict'    return val# we also can replace with callbacks and multiple valuesjct.replace({    'password':'mypass',    'list': foo,})# callbacks also work with this: jct.replace('list' , foo)print(jct.get('list'))# output: [[{'password': 'mypass', 'name': 'jict'}]]```also you can easly load a .json , .yaml file```pythonfrom jict import jictjctj = jict('test.json')print(jctj)# output :# {#   &quot;test&quot;: &quot;json-content&quot;# }jcty = jict('test.yaml')print(jctj)# output :# {#   &quot;test&quot;: &quot;yaml-content&quot;# }# if you want to save the modifed valuesjctj.save()jcty.save()# you can also save to another filejcty.save('newfile.json')```</longdescription>
+</pkgmetadata>

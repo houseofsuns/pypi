@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># polyswarm-apiAn interface to the PolySwarm Customer APIs.For an easy-to-use CLI tool, or as an example of how to use these APIs, please see [polyswarm-cli](https://github.com/polyswarm/polyswarm-cli)Supports Python 2.7 and greater.## InstallationFrom PyPI:    pip install polyswarm-apiFrom source:    python3 setup.py install&gt; If you get an error about a missing package named `wheel`, that means your version of pip or setuptools is too old.&gt; You need pip &gt;= 19.0 and setuptools &gt;= 40.8.0. &gt; To update pip, run `pip install -U pip`.&gt; To update setuptools, run `pip install -U setuptools`## UsageSee the [polyswarm-api documentation](https://docs.polyswarm.io/docs/polyswarm-customer-api) for usage guidance.## API ReferenceSee the [polyswarm-api reference](https://polyswarm-api.readthedocs.io/en/latest/autoapi/index.html) for API References.## Questions? Problems?File a ticket or email us at `info@polyswarm.io`.</longdescription>
+</pkgmetadata>

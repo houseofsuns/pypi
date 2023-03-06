@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pytest-bigquery-mockPytest plugin that provides a `bq_client_mock` fixture.This fixture mocks the `google.cloud.bigquery.Client` class and provides a way to mock an API response using `pytest.mark`, for example:## Install and useInstall the plugin with```pip install pytest-bigquery-mock```Then, in your `conftest.py` file add `pytest-bigquery-mock` to your list of plugins```tests/conftest.pyplugins = [&quot;pytest-bigquery-mock&quot;]```This allows you to use the `bq_client_mock` fixture in your pytest tests.```def function_that_calls_bigquery(bq_client):    row_iter = bq_client.query(&quot;SELECT * FROM table&quot;).result()    return row_iter@pytest.mark.bq_query_return_data(    [        {            &quot;query&quot;: &quot;SELECT * FROM table&quot;,            &quot;table&quot;: {                &quot;columns&quot;: [                    &quot;id_row&quot;,                    &quot;name&quot;,                ],                &quot;rows&quot;: [                    [1, &quot;Alice&quot;],                    [2, &quot;Pete&quot;],                    [3, &quot;Steven&quot;],                ],            },        },    ])def test_function_that_calls_bigquery(bq_client_mock):    row_iter = function_that_calls_bigquery(bq_client_mock)    expected_row_dicts = [        {&quot;id_row&quot;: 1, &quot;name&quot;: &quot;Alice&quot;},        {&quot;id_row&quot;: 2, &quot;name&quot;: &quot;Pete&quot;},        {&quot;id_row&quot;: 3, &quot;name&quot;: &quot;Steven&quot;},    ]    for row, expected_row in zip(row_iter, expected_row_dicts):        assert dict(row) == expected_row```</longdescription>
+</pkgmetadata>

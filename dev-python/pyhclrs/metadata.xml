@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pyhclrsPython wrapper for [martinohmann/hcl-rs](https://github.com/martinohmann/hcl-rs).## Setup```shpip install pyhclrs```## Usage```py&gt;&gt;&gt; import pyhclrs&gt;&gt;&gt; pyhclrs.loads(&quot;&quot;&quot;variable &quot;docker_ports&quot; {...   type = list(object({...     internal = number...     external = number...     protocol = string...   }))...   default = [...     {...       internal = 8300...       external = 8300...       protocol = &quot;tcp&quot;...     }...   ]... }&quot;&quot;&quot;){'variable': {'docker_ports': {'type': '${list(object({ internal = number, external = number, protocol = string }))}', 'default': [{'internal': 8300, 'external': 8300, 'protocol': 'tcp'}]}}}```</longdescription>
+</pkgmetadata>

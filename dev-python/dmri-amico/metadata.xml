@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>======= AMICO=======Implementation of the linear framework for Accelerated Microstructure Imaging via Convex Optimization (AMICO) described here:| Accelerated Microstructure Imaging via Convex Optimization (AMICO) from diffusion MRI data| Alessandro Daducci, Erick Canales-Rodriguez, Hui Zhang, Tim Dyrby, Daniel Alexander, Jean-Philippe Thiran| NeuroImage 105, pp. 32-44 (2015)</longdescription>
+</pkgmetadata>

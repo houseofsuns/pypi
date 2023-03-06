@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## DataClient### Introductionthis is a tool which save data to class card server### Usage##### 1. install```bashpip install classcard-dataclient```##### 2. init client```python# init instanceclient = DataClient()# set the configclient.set_config_module(&quot;config&quot;)```##### 3. call method```pythondata = Model(**{    &quot;xxx&quot;: &quot;xxx&quot;})code, msg = client.create_section(data)```**Notice:*** when data is model instance , code is integer, msg is string, * when data is instance list, the code is list, msg is also list.</longdescription>
+</pkgmetadata>

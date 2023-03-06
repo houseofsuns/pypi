@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>``reciprocalspaceship`` provides a ``pandas``-style interface foranalyzing and manipulating reflection data from crystallographyexperiments. Using this library, it is possible to interactively workwith crystallographic data in Python, enabling easy integration  withmodern scientific computing libraries. ``reciprocalspaceship`` isintended to support the rapid prototyping of new crystallographic methodsand custom analyses while maintaining clear, reproducible, and performantcode.Features of this library include:  - Crystallographically-aware ``pandas`` objects, datatypes, and syntax    that are familiar to Python users.  - Convenient integration with `GEMMI &lt;https://gemmi.readthedocs.io/en/latest/&gt;`__    to provide built-in methods and support for developing functions that    use space groups, unit cell parameters, and crystallographic symmetry    operations.  - Support for reading and writing MTZ reflection files.</longdescription>
+</pkgmetadata>

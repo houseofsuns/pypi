@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>MakeELF is a Python library to parse, modify and create ELF binaries. It provides following features: - easy to use, standard Python interface - reading existing ELF files to Python representation - modification of every aspect of ELF format structures - ability to skip any validation to test other parsers for potential errors - creating new valid ELF files with just one step - easy serialization of every structure present in ELF file</longdescription>
+</pkgmetadata>

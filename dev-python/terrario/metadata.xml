@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;p align=&quot;center&quot;&gt;  &lt;img src=&quot;src/terrario/Images/UI/Logo.png&quot; alt=&quot;Terrario 2 Logo&quot; width=&quot;50%&quot;&gt;&lt;/p&gt;[![license](https://img.shields.io/github/license/MaitreRenard18/Terrario-2.svg)](https://github.com/MaitreRenard18/Terrario-2/blob/master/LICENSE)# Présentation du projet :Terrario 2 est la suite du mondialement connu [Terrario](https://github.com/MaitreRenard18/Terrario).# Prérequis :Il faudra installer le module python Pygame version 2.1.1 minimum et Opensimplex pour que le jeu fonctionne.Ci-dessous la commande pour installer le module `terrario` et ses dépendances :```bash  $ pip install .```# Comment jouer ?Pour lancer le jeu, exécuter tout simplement Terrario.pyw.# Captures d’écran :![Forêt](src/terrario/Images/Screenshots/Forest.png)![Desert](src/terrario/Images/Screenshots/Desert.png)![Biome neige](src/terrario/Images/Screenshots/Snowy_biome.png)</longdescription>
+</pkgmetadata>

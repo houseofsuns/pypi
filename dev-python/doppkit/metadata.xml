@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Doppkit for GRiDDoppkit is a CLI for the USACE GRiD program. It supports downloading user exports when given an application token```bash$ export GRID_ACCESS_TOKEN=KMCb6Nl799EFPproLLJR8bgeqzd4q$ doppkit --progress True list --filter &quot;Chicago&quot;$ doppkit --log-level DEBUG --progress True sync 80903```</longdescription>
+</pkgmetadata>

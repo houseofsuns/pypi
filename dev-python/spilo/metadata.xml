@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># SPILOSpilo is lightweight library for developing real time applications which helps developers managing websocket clients effectively and gives ability to scale horizontaly for handling large amount of clients.## Installation```console$ pip install spilo```Here's example of the backend code for a simple websocket server:**server.py**```pythonfrom dataclasses import dataclassimport uuidfrom fastapi import FastAPI, WebSocket, WebSocketDisconnectfrom spilo.channel import Channelfrom spilo.base_client import BaseClientfrom spilo.redis_pubsub import RedisPubSubapp = FastAPI()redis_pubsub = RedisPubSub()redis_pubsub.connect()@dataclassclass Client(BaseClient):    protocol: WebSocket    def __hash__(self):        return self.client_id.int    async def send(self, data):        await self.protocol.send_text(str(data))    async def close(self):        await self.protocol.close()@app.websocket(&quot;/ws/{channel_name}&quot;)async def websocket_endpoint(websocket: WebSocket, channel_name: str):    await websocket.accept()    client = Client(protocol=websocket)    channel = Channel.get(channel_name, redis_pubsub)    channel.add_client(client)    try:        while True:            data = await websocket.receive_text()            await channel.publish(data)    except WebSocketDisconnect:        await channel.remove_client(client)```</longdescription>
+</pkgmetadata>

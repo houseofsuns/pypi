@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Python Jenkins client====================jenkinsc is a client library for Jenkins API that is made to handle all the possible connectivity and Jenkins API issues## Installation```pip install jenkinsc```## How to useHere an example of usage:```    jenkins = Jenkins('environ['JENKINS_URL']', username=environ['JENKINS_USR'], password=environ['JENKINS_PWD'])jenkins['JOBNAME'].build(build_params={'SRC': 'myscr/folder', 'VERSION': '111'})  # Non blocking jenkins job callqueue_item = jenkins['JOBNAME2'].build(build_params={'REDEPLOY': 'true', 'VERSION': '111'}, block=True)  # will wait till the job is finished if not queue_item.get_build().successful():    raise Exception('JOB2 failed')```## How to deployjenkinsc is deployed automatically on adding new tag. To make a new release just add a tag on master after upgrading package version in `setup.py`.#### How to add a tagExample: ```git tag -a v0.0.37 -m &quot;Version 0.0.37&quot;git push --tag```</longdescription>
+</pkgmetadata>

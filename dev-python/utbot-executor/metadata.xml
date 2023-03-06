@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># UtBot ExecutorUtil for python code execution and state serialization.## InstallationYou can install module from [PyPI](https://pypi.org/project/utbot-executor/):```bashpython -m pip install utbot-executor```## Usage### From console with socket listenerRun with your `&lt;hostname&gt;` and `&lt;port&gt;` for socket connection```bash$ python -m utbot_executor &lt;hostname&gt; &lt;port&gt; &lt;logfile&gt; [&lt;loglevel DEBUG | INFO | ERROR&gt;]```### Result format:```json{        &quot;status&quot;: &quot;success&quot;,        &quot;isException&quot;: bool,        &quot;statements&quot;: list[int],        &quot;missedStatements&quot;: list[int],        &quot;stateBefore&quot;: memory json dump,        &quot;stateAfter&quot;: memory json dump,        &quot;argsIds&quot;: list[str],        &quot;kwargs&quot;: list[str],        &quot;resultId&quot;: str,}```or error format:```json{        &quot;status&quot;: &quot;fail&quot;,        &quot;exception&quot;: str (traceback),}```#### States formatTODO### Submodule `deep_serialization`JSON serializer and deserializer for python objects## SourceGitHub [repository](https://github.com/tamarinvs19/utbot_executor)</longdescription>
+</pkgmetadata>

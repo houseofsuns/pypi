@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>python streamcorpus===================python wrapper around the streamcorpus interfaces:   http://github.com/trec-kba/streamcorpusTo generate new python files from an updated thirft definition run thefollowing command:   python setup.py thriftUnder the hood this runs    thrift --gen py streamcorpus-v0_3_0.thriftand integrates the generated code into this package.</longdescription>
+</pkgmetadata>

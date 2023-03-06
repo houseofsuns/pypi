@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Vedro[![Codecov](https://img.shields.io/codecov/c/github/nikitanovosibirsk/vedro/master.svg?style=flat-square)](https://codecov.io/gh/nikitanovosibirsk/vedro)[![PyPI](https://img.shields.io/pypi/v/vedro.svg?style=flat-square)](https://pypi.python.org/pypi/vedro/)[![PyPI - Downloads](https://img.shields.io/pypi/dm/vedro?style=flat-square)](https://pypi.python.org/pypi/vedro/)[![Python Version](https://img.shields.io/pypi/pyversions/vedro.svg?style=flat-square)](https://pypi.python.org/pypi/vedro/)(!) Work in progress, **internal** breaking changes (for plugins) are possible until v2.0 is released## Installation```shell$ pip3 install vedro```## Usage```python# ./scenarios/decode_base64_encoded_string.pyimport base64import vedroclass Scenario(vedro.Scenario):    subject = &quot;decode base64 encoded string&quot;    def given(self):        self.encoded = &quot;YmFuYW5h&quot;    def when(self):        self.decoded = base64.b64decode(self.encoded)    def then(self):        assert self.decoded == b&quot;banana&quot;``````shell$ vedro run```## Documentation🚀 [vedro.io](https://vedro.io/docs/quick-start)</longdescription>
+</pkgmetadata>

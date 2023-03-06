@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=====================Styler REST Framework=====================.. image:: https://img.shields.io/pypi/v/styler_rest_framework.svg        :target: https://pypi.python.org/pypi/styler_rest_framework.. image:: https://github.com/STYLER-Inc/styler-rest-framework/workflows/Python%20package/badge.svgStandards used in REST servicesInstallation------------* TODOUsage-----* TODO</longdescription>
+</pkgmetadata>

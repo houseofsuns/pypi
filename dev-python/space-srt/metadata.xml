@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![Stars](https://img.shields.io/github/stars/ericli0419/SPACE?logo=GitHub&amp;color=yellow)](https://github.com/ericli0419/SPACE) [![PyPI](https://img.shields.io/pypi/v/space-srt.svg)](https://pypi.org/project/space-srt)# **SP**atial transcriptomics **A**nalysis via **C**ell **E**mbedding## Installation  #### install from PyPI```shellpip install space-srt```#### install from GitHubinstall the latest develop version```shellgit clone https://github.com/ericli0419/SPACE.gitcd SPACEpython setup.py install```SPACE is implemented in [Pytorch](https://pytorch.org/) framework.  SPACE can be run on CPU devices, and running SPACE on GPU devices if available is recommended.   </longdescription>
+</pkgmetadata>

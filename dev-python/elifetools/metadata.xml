@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>elife-tools===========Tools for using article data in PythonSupports============* Python &gt;=3.5Non-Python dependencies=======================* libxml2 (Ubuntu, Arch)Install for users=================Install via `pip &lt;https://pip.pypa.io/en/stable/&gt;`_:.. code-block:: bash   $ pip install elifetools   You might need to install libxml manually first.. code-block:: bash   $ sudo STATIC_DEPS=true pip install lxml==3.4.1To install the latest version directly from git.. code-block:: bash   $ pip install git+https://github.com/elifesciences/elife-tools.git@masteror you can add it to your project's requirements.txt file.. code-block:: bash   git+https://github.com/elifesciences/elife-tools.git@masterInstall for developers======================Clone the git repoMake a virtualenv (optional)Then.. code-block:: bash   $ python setup.py installExample usage=============.. code-block:: python    &gt;&gt;&gt; from elifetools import parseJATS as parser    &gt;&gt;&gt; soup = parser.parse_document('tests/sample-xml/elife-kitchen-sink.xml')    &gt;&gt;&gt; print(parser.doi(soup))More code examples can be found in `tests/basic_usage_test.py`Testing=======You can run the full automated test suite from the base folder with:.. code-block:: bash    $ python -m unittest discover testsor you can run tests with coverage:.. code-block:: bash    $ coverage run -m unittest discover testsand then view the coverage report:.. code-block:: bash    $ coverage report -mLicense=========`The MIT License &lt;http://opensource.org/licenses/mit-license.php&gt;`_</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># py-graphql-clientDead-simple to use GraphQL client over websocket. Using the[apollo-transport-ws](https://github.com/apollographql/subscriptions-transport-ws/blob/master/PROTOCOL.md)protocol.## Install```bashpip install py-graphql-client```## Examples### Setup subscriptions super easily```pythonfrom graphql_client import GraphQLClientws = GraphQLClient('ws://localhost:8080/graphql')def callback(_id, data):  print(&quot;got new data..&quot;)  print(f&quot;msg id: {_id}. data: {data}&quot;)query = &quot;&quot;&quot;  subscription {    notifications {      id      title      content    }  }&quot;&quot;&quot;sub_id = ws.subscribe(query, callback=callback)...# later stop the subscriptionws.stop_subscribe(sub_id)ws.close()```### Variables can be passed```pythonfrom graphql_client import GraphQLClientws = GraphQLClient('ws://localhost:8080/graphql')def callback(_id, data):  print(&quot;got new data..&quot;)  print(f&quot;msg id: {_id}. data: {data}&quot;)query = &quot;&quot;&quot;  subscription ($limit: Int!) {    notifications (order_by: {created: &quot;desc&quot;}, limit: $limit) {      id      title      content    }  }&quot;&quot;&quot;sub_id = ws.subscribe(query, variables={'limit': 10}, callback=callback)```### Normal queries and mutations work too```pythonfrom graphql_client import GraphQLClientws = GraphQLClient('ws://localhost:8080/graphql')query = &quot;&quot;&quot;  query ($limit: Int!) {    notifications (order_by: {created: &quot;desc&quot;}, limit: $limit) {      id      title      content    }  }&quot;&quot;&quot;res = ws.query(query, variables={'limit': 10})print(res)ws.close()```## TODO- support http as well- should use asyncio websocket library?</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>            To learn more about Mito, checkout out our documentation: https://docs.trymito.io/getting-started/installing-mito            Before installing Mito             1. Check that you have Python 3.6 or above. To check your version of Python, open a new terminal, and type python3 --version. If you need to install or update Python, restart your terminal after doing so.            2. Check that you have Node installed.To check this, open a new terminal, and type node -v.  It should print a version number. If you need to install Node, restart your terminal after doing so.            3. Mito works in Jupyter Lab 2.0 only. We do not yet support Google Collab, VSCode, or Jupyter Lab 3.0.            4. Checkout our terms of service and privacy policy. By installing Mito, you're agreeing to both of them. Please contact us at aarondr77 (@) gmail.com with any questions.            Installation Instructions             For more detailed installation instructions, see our documentation: https://docs.trymito.io/getting-started/installing-mito            1. pip install mitoinstaller            2. python -m mitoinstaller install            </longdescription>
+</pkgmetadata>

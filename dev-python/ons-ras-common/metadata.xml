@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This library covers a multitude of miscellaneous routines used by micro-servicesincluding but not limited to, Cloud Foundry provisioning, JWT encryption, genericencryption, Database detection and setup, router endpoint provisioning, SwaggerAPI setup, configuration file management and async reactor startup.</longdescription>
+</pkgmetadata>

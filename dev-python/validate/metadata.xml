@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>`validate.py &lt;http://www.voidspace.org.uk/python/validate.html&gt;`_ is amodule for validating values against a specification. It can be usedwith `ConfigObj &lt;http://www.voidspace.org.uk/python/configobj.html&gt;`_, or as astandalone module.It is extensible, and as well as doing type conversion from strings,you can easily implement your own functions for transforming values inany way you please.</longdescription>
+</pkgmetadata>

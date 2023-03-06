@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># This project has been renamed to fast-diff-match-patch.This project has been moved to https://pypi.org/project/fast-diff-match-patch/.The 1.0.2 release of this package will remain posted at https://pypi.org/project/diff_match_patch_python/1.0.2/.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Python REST API client for Shaken Fist======================================This is a python REST API client and command line client for the minimal cloud [Shaken Fist](https://github.com/shakenfist/shakenfist).The library is a complete interface to the Shaken Fist HTTP API.</longdescription>
+</pkgmetadata>

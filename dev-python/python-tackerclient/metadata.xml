@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>========================Team and repository tags========================.. image:: https://governance.openstack.org/tc/badges/python-tackerclient.svg    :target: https://governance.openstack.org/tc/reference/tags/index.html.. Change things from this point onNFV Orchestration (Tacker) Client=================================CLI and Client Library for OpenStack TackerInstallation============**Note:** The paths we are using for configuration files in these stepsare with reference to Ubuntu Operating System. The paths may vary forother Operating Systems.The branch_name which is used in commands, specify the branch_nameas stable/&lt;branch&gt; for any stable branch installation. For eg:stable/queens, stable/pike. If unspecified the default will bemaster branch.Using python install--------------------Clone python-tackerclient repository.  ::    $ cd ~/    $ git clone https://github.com/openstack/python-tackerclient -b &lt;branch_name&gt;Install python-tackerclient.  ::    $ cd python-tackerclient    $ sudo python setup.py installUsing pip---------You can also install the latest version by using ``pip`` command:  ::    $ pip install python-tackerclientOr, if it is needed to install ``python-tackerclient`` from master branch,type  ::    $ pip install git+https://github.com/openstack/python-tackerclient.gitMore Information================* Python-tackerclient documentation: https://docs.openstack.org/python-tackerclient/latest/* Tacker Documentation: https://docs.openstack.org/tacker/latest/* Tacker Wiki: https://wiki.openstack.org/wiki/Tacker* Release Notes: https://docs.openstack.org/releasenotes/python-tackerclient</longdescription>
+</pkgmetadata>

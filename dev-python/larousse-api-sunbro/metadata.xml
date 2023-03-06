@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## Larousse API### Installation* `pip install larousse-api-sunbro`### Usage```python3from larousse_api import larousse# Print the array containing all defintions of &quot;Fromage&quot;print(larousse.get_definitions(&quot;Fromage&quot;))```### Why ?Because the Larousse website doesn't supply an api to look up definitions :(### How ?* python3* requests* re* BeautifulSoup### Possible improvements* Suggest words if the word is misspelled</longdescription>
+</pkgmetadata>

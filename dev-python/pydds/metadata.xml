@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pyddsReplacement library for ImageMagick to decompress from many DDS pixel formats with an optional crop to a target region. While cropping can be done with separate libraries like Pillow doing it as part of decompression can save a lot of work as only the required blocks will be decompressed.## Usage`decode_dds` takes a blob of bytes and an optional cropping region, returning a PIL Image for further processing.```pythonfrom dds import decode_dds# optional cropping region of (x0, y0, w, h) to be applied while decodingcrop = (0, 0, 20, 20)with open('Atlas.dds', 'rb') as fh:    img = decode_dds(fh.read(), crop)```</longdescription>
+</pkgmetadata>

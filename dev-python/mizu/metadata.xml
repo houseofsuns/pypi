@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># mizu 💧[![Version](https://img.shields.io/pypi/v/niconico.py)](https://pypi.org/project/niconico.py/)[![Downloads](https://pepy.tech/badge/mizu)](https://pepy.tech/project/mizu)[![Downloads](https://pepy.tech/badge/mizu/month)](https://pepy.tech/project/mizu)[![Downloads](https://pepy.tech/badge/mizu/week)](https://pepy.tech/project/mizu)[Documentation](https://tuna2134.github.io/mizu)Mizu written by rust and used [pulldown-cmark](https://github.com/raphlinus/pulldown-cmark).## Installation```shpip install mizu```Or```shpip install &quot;mizu @ git+https://github.com/tuna2134/mizu&quot;```## PerformanceThese performance test codes are in tests.`26ms`## ExampleBasic:```pyfrom mizu import parseparse(&quot;# Hello tuna2134&quot;)```Extension:```pyfrom mizu import parse_extparse_ext(&quot;&quot;&quot;- [ ] test- [ ] test2&quot;&quot;&quot;)```</longdescription>
+</pkgmetadata>

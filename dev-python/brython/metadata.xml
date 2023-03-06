@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>With Brython you can write browser programs in Python instead of Javascript,by inserting Python code in an HTML page by:    &lt;script type=&quot;text/python&quot;&gt;    ...    &lt;/script&gt;Usage:    pip install brythonThen in an empty folder:    brython-cli --installor in a folder with older versions already present:    brython-cli --updateThe package includes a page **demo.html** with examples of use. For moreinformation see the [Brython site](http://brython.info).</longdescription>
+</pkgmetadata>

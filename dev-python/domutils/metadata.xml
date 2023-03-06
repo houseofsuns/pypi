@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Documentation:https://domutils.readthedocs.io# Contents:* legsA class for easy custom color mappings.* geo_toolsA class for handling the geographical projection of data.* radar_toolsFunctions for reading radar mosaics and making accumulations on the fly.</longdescription>
+</pkgmetadata>

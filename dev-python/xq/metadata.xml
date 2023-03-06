@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>xq==Apply XPath expressions to XML, like ``jq`` does for JSONPath and JSON.Installation------------Install with ``pip``::    pip install xqOr download the repo and install via ``setuptools``::    python setup.py installUsage-----Extract download URLs from an RSS feed::    http get 'http://br-rss.jeffbr13.net/rss/channels/1/' | xq '//item/enclosure/@url'Extract all links from an HTML page footer::    http get 'http://br-rss.jeffbr13.net/ | xq '//footer//a/@href'Test----Run ``unittest`` in the root directory to autodetect and run tests::    python -m unittestBuild-----Increment ``xq.VERSION`` and run the following two commandsto create a `source distribution &lt;https://packaging.python.org/tutorials/distributing-packages/#source-distributions&gt;`_,create a `universal wheel &lt;https://packaging.python.org/tutorials/distributing-packages/#universal-wheels&gt;`_,and `upload to PyPI &lt;https://packaging.python.org/tutorials/distributing-packages/#upload-your-distributions&gt;`_ ::    python setup.py sdist    python setup.py bdist_wheel --universal    twine upload dist/*See Also--------- `jq &lt;https://github.com/stedolan/jq&gt;`_- `hq &lt;https://github.com/rbwinslow/hq&gt;`_</longdescription>
+</pkgmetadata>

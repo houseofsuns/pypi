@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>A Django app to transform and refine campaign-finance data from the California Secretary of State’s `CAL-ACCESS &lt;http://www.sos.ca.gov/prd/cal-access/&gt;`__ database-  Documentation:   `django-calaccess-processed-data.californiacivicdata.org &lt;http://django-calaccess.californiacivicdata.org&gt;`__-  Issues:   `github.com/california-civic-data-coalition/django-calaccess-processed-data/issues &lt;https://github.com/california-civic-data-coalition/django-calaccess-processed-data/issues&gt;`__-  Packaging:   `pypi.python.org/pypi/django-calaccess-processed-data &lt;https://pypi.python.org/pypi/django-calaccess-processed-data&gt;`__-  Testing:   `github.com/california-civic-data-coalition/django-calaccess-processed-data/actions &lt;https://github.com/california-civic-data-coalition/django-calaccess-processed-data/actions/workflows/test.yaml&gt;`__</longdescription>
+</pkgmetadata>

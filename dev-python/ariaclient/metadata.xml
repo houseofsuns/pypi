@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>![Fincloud.io](https://avatars.githubusercontent.com/u/73434302?s=100&amp;v=4)# ariaclientThis is a python wrapper around the REST api for the multi message-transport ARIA platform.Build instructions==================1. Ensure that the project version number is correctly updated [src/ariaclient/__init__.py](src/ariaclient/__init__.py)2. `pip install -r requirements_dev.txt`      `python -m build`3. Then to upload into pyi  `twine upload dist/*`</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># statutilsThis package is aselections of various utils for statistics.It is inspired by R functions and packages.## Usage### Adjust p values for multiple comparisonsUse `p_adjust` method to adjust p-values with Bonferroni correction, Holm-Bonferroni correction or others. `p_adjust` is a rewrite of R's `p.adjust` function with the numpy arrays.Use it in the same way.Supported methods for multiple comparison (`method` argument):- `bonferroni` Bonferroni correction- `holm` Holm (1979)- `hochberg` Hochberg (1988)- `hommel` Hommel (1988)- `BH` Benjamini &amp; Hochberg (1995)- `BY` Benjamini &amp; Yekutieli (2001)- `none` as a pass-through option#### Example```pythonfrom statutils.multi_comparison import p_adjustp = [0.005, 0.04, 0.01, 0.5, 0.01, 0.7]p_adjusted = p_adjust(p, method='holm')```</longdescription>
+</pkgmetadata>

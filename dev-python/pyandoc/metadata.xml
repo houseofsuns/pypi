@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Pyandoc: a simple Pandoc wrapper for Python===========================================Pyandoc is a simple Python wrapper for the excellent `pandoc &lt;http://pandoc.org&gt;`_ utility. It allows you to convert the format of text documents by interacting with a `Document` object's attributes. Each supported format is available as a property, and can either read from or written to.Requirements++++++++++++* PandocUsage+++++Get setup... code-block:: pythonimport pandocLet's start with a Markdown document:.. code-block:: pythondoc = pandoc.Document()doc.markdown = '''# I am an H1 Tag* bullet point* more points* point with [link](http://kennethreitz.com)!'''Now let's convert that into a ReST document: ::&gt;&gt;&gt; print doc.rstI am an H1 Tag==============-  bullet point-  more points-  point with `link &lt;http://kennethreitz.com&gt;`_!Formats available:- asciidoc- beamer- commonmark- context- docbook- doc- x- dokuwiki- dzslides- epub- epub3- fb2- haddock- html- html5- icml- json (pandoc's AST)- latex- man- markdown- markdown_github- markdown_mmd- markdown_phpextra- markdown_strict- mediawiki- native- odt- opendocument- opml- org- pdf- plain- revealjs- rst- rtf- s5,- slideous- slidy- texinfo- textileEnjoy.v0.0.2 (02-04-2016)+++++++++++++++++++* Automatically find pandoc executable.* Updated export formats.v0.0.1 (01-02-2010)+++++++++++++++++++* Initial release.</longdescription>
+</pkgmetadata>

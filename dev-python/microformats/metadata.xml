@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[microformats][0] are the simplest way to openly publish contacts, events,reviews, recipes, and other structured information on the web.    &gt;&gt;&gt; import mf    &gt;&gt;&gt; url = &quot;https://alice.example&quot;    &gt;&gt;&gt; doc = mf.parse(doc=f'''    ... &lt;p class=h-card&gt;&lt;a href={url}&gt;Alice&lt;/a&gt;&lt;/p&gt;    ... &lt;ul class=h-feed&gt;    ... &lt;li class=h-entry&gt;foo    ... &lt;li class=h-entry&gt;bar    ... &lt;/ul&gt;    ... ''', url=url)    # TODO &gt;&gt;&gt; dict(doc)    # TODO &gt;&gt;&gt; doc.json    &gt;&gt;&gt; card = doc[&quot;items&quot;][0]    &gt;&gt;&gt; card[&quot;type&quot;]    ['h-card']    &gt;&gt;&gt; card[&quot;properties&quot;]    {'name': ['Alice'], 'url': ['https://alice.example']}    &gt;&gt;&gt; feed = doc[&quot;items&quot;][1]    &gt;&gt;&gt; feed[&quot;children&quot;][0][&quot;properties&quot;][&quot;name&quot;]    ['foo']    &gt;&gt;&gt; mf.util.representative_card(doc, url)    {'name': ['Alice'], 'url': ['https://alice.example']}    &gt;&gt;&gt; mf.util.representative_feed(doc, url)[&quot;items&quot;][0][&quot;name&quot;]    ['foo']    # TODO &gt;&gt;&gt; doc.representative_card    # TODO {'name': ['Alice'], 'url': ['https://alice.example']}    # TODO &gt;&gt;&gt; doc.representative_feed[&quot;items&quot;][0][&quot;name&quot;]    # TODO ['foo']Based upon [`mf2py`][1] and [`mf2util`][2].[0]: https://microformats.org/wiki/microformats[1]: https://github.com/microformats/mf2py[2]: https://github.com/kylewm/mf2util</longdescription>
+</pkgmetadata>

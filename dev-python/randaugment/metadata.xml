@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pytorch-randaugmentUnofficial PyTorch Reimplementation of AutoAugment and RandAugment.Code taken from https://github.com/DeepVoltaire/AutoAugment and https://github.com/jizongFox/uda## How to install:```bashpip install randaugment```---## How to use:```pythonfrom autoaugment import RandAugment, ImageNetPolicydata = ImageFolder(rootdir, transform=transforms.Compose(                        [                            transforms.RandomCrop(32, padding=4, fill=128), # fill parameter needs torchvision installed from source                            transforms.RandomHorizontalFlip(),                             RandAugment(),                            #ImageNetPolicy(),                            transforms.ToTensor(),                             Cutout(size=16), # (https://github.com/uoguelph-mlrg/Cutout/blob/master/util/cutout.py)                            transforms.Normalize(...)                        ]))loader = DataLoader(data, ...)```</longdescription>
+</pkgmetadata>

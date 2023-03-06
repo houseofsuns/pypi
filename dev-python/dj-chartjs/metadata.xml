@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=============================dj-chartjs=============================Documentation-------------The full documentation is at https://django-charts.readthedocs.io/en/latest/Quickstart----------Install dj-chartjs::    pip install dj-chartjsAdd it to your `INSTALLED_APPS`:.. code-block:: python    INSTALLED_APPS = (        ...        'dj_chartjs',        ...    )**PS: You need define jquery and chartjs libraries in your html section script**.. code-block:: html    &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.js&quot;&gt;&lt;/script&gt;    &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.js&quot;&gt;&lt;/script&gt;Running Tests-------------Does the code actually work?::    source &lt;YOURVIRTUALENV&gt;/bin/activate    (myenv) $ pip install tox    (myenv) $ toxHistory-------0.1.0 (2020-03-30)++++++++++++++++++* First release on PyPI.</longdescription>
+</pkgmetadata>

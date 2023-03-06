@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>ASHLAR: Alignment by Simultaneous Harmonization of Layer/Adjacency RegistrationAshlar implements efficient combined stitching and registration of multi-channelimage mosaics collected using the Tissue-CycIF microscopy protocol [1]_. Althoughoriginally developed for CycIF, it may also be applicable to other tiled and/orcyclic imaging approaches. The package offers both a command line script for themost common use cases as well as an API for building more specialized tools... [1] Tissue-CycIF is multi-round immunofluorescence microscopy on large fixed   tissue samples. See https://doi.org/10.1101/151738 for details.</longdescription>
+</pkgmetadata>

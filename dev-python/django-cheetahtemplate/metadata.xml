@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Django-CheetahTemplate======================Django-CheetahTemplate is a Django template backend to useCheetahTemplate3_ in Django... _CheetahTemplate3: http://cheetahtemplate.org/It works with Python 2.7 or Python 3.4+, Django 1.11 and 2+,CheetahTemplate3.Install ``django-cheetahtemplate``. Add or change TEMPLATES in``settings.py`` the following way:.. code-block:: python    TEMPLATES = [        {            'APP_DIRS': True,            'BACKEND': 'django_cheetahtemplate.DjangoCheetahTemplate',            'DIRS': [            ],            'OPTIONS': {            },        },    ]Put templates in ``cheetahtemplate`` subdirectories of installedapplications. See`example &lt;https://github.com/CheetahTemplate3/django-cheetahtemplate/tree/master/example&gt;`_.Author: Oleg Broytman &lt;phd@phdru.name&gt;.Copyright (C) 2018-2022 PhiloSoft Design.License: MIT.| Home Page:     https://github.com/CheetahTemplate3/django-cheetahtemplate| PyPI:          https://pypi.org/pypi/django-cheetahtemplate</longdescription>
+</pkgmetadata>

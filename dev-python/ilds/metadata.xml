@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>====================ilds====================**ilds** 是一个常用模块的集合，为了多平台，多电脑调用方便功能模块包含:* 获取文件md5* 处理文件内容安装：-------------pip install -U ilds简单的例子:-------------.. code-block:: python   import ilds   from lds.file import is_file查看 `更改日志 &lt;https://github.com/ldsxp/ilds/blob/master/CHANGELOG.md&gt;`__</longdescription>
+</pkgmetadata>

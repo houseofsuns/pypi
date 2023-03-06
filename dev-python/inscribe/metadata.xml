@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Inscribe.ai===========-  API wrapper for `Inscribe`_For more information, please read our `documentation`_.Breaking Changes----------------From v3.0.0 onwards, the following API token formats have been removed:1. Supplying an `api_key` argument.2. Supplying an `access_key` and `secret_key`.From v3.0.0 onwards, you must supply a `secret_token` which is supplied to you on creation of an API token.Installation-------------  ``pip install inscribe``Usage-----.. code:: python   import inscribe   import json   # API Authentication   api = inscribe.Client(secret_token=&quot;YOUR_API_SECRET_TOKEN&quot;)   # Create customer folder   customer = api.create_customer(name=&quot;new&quot;)   customer_id = customer['data']['id']   # Upload document   doc_obj = open(&quot;YOUR_FILE.pdf&quot;, &quot;rb&quot;)   document = api.upload_document(customer_id=customer_id, document=doc_obj)   document_id = document['result_urls'][0]['document_id']   # Check document   result = api.retrieve_document_results(customer_id=customer_id, document_id=document_id)   print(json.dumps(result, indent=2)).. _Inscribe: https://inscribe.ai.. _documentation: https://docs.inscribe.ai/#introduction</longdescription>
+</pkgmetadata>

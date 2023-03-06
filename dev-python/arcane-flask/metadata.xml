@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Arcane flaskThis package help us authenticate users## Get Started```shpip install arcane-flask```## Example Usage```pythonfrom arcane import flask@check_access_rights(service='function', required_rights='Viewer',                     receive_rights_per_client=True, project=Config.Project, adscale_key=Config.Key)def function(params):    pass```</longdescription>
+</pkgmetadata>

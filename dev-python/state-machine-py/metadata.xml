@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># state-machine-py状態遷移マシン## Install```shell# Windowspython.exe -m pip install state_machine_py```## Example* Homepage  * 📂tests    * 📂[rock_paper_scissors](https://github.com/muzudho/state-machine-py/tree/main/tests/rock_paper_scissors) - じゃんけん    * 📂[edge_walk](https://github.com/muzudho/state-machine-py/tree/main/tests/edge_walk) - ツリー構造のエッジ    * 📂[two_machines_catchball](https://github.com/muzudho/state-machine-py/tree/main/tests/two_machines_catchball) - 複数のステートマシンの実行```shellpython.exe -m tests.rock_paper_scissors.mainpython.exe -m tests.edge_walk.mainpython.exe -m tests.two_machines_catchball.main```## Skill up* 📖 [State machine Practice](https://github.com/muzudho/py-state-machine-practice)</longdescription>
+</pkgmetadata>

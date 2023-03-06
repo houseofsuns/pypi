@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Coverage Reporting for Python=============================Uploads code coverage data to `scrutinizer-ci.com &lt;https://scrutinizer-ci.com&gt;`_.Installation------------To install the code coverage reporter, simply run:.. code-block:: bash    pip install scrutinizer-ocularIntegration with your CI server-------------------------------After your code coverage was generated, simply run the following command:.. code-block:: bash    ocular --access-token &quot;your-access-token&quot;**For closed-source projects**, make sure to `generate an access token &lt;https://scrutinizer-ci.com/profile/applications&gt;`_.For open-source projects, this is not necessary and should be avoided.Customizing Locations of Coverage Data/Config---------------------------------------------If your coverage data or configuration is not placed in the current working directory, you need to pass these pathsas options to the ocular command:.. code-block:: bash    ocular --access-token &quot;your-access-token&quot; --data-file &quot;../.coverage&quot; --config-file &quot;../.coveragerc&quot;</longdescription>
+</pkgmetadata>

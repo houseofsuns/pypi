@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Rattail=======Rattail is a framework / tool kit for building custom apps.  Originallyintended for use in retail environments, but useful in others also.It is released under the GNU General Public License.This is the core ``rattail`` package.Please see the  `Rattail Project`_ for more information... _Rattail Project: https://rattailproject.org/</longdescription>
+</pkgmetadata>

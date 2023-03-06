@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. _Django: https://www.djangoproject.com/.. _django-crispy-forms: https://github.com/maraujop/django-crispy-forms.. _Foundation for sites: https://get.foundation/.. _Python: http://python.org/Introduction============This is a `Django`_ application to add `django-crispy-forms`_ layout objects for`Foundation for sites`_.This app does not include `Foundation for sites`_ assets, you will have to install themby yourself in your projects.Links****** Read the documentation on `Read the docs &lt;http://crispy-forms-foundation.readthedocs.io/&gt;`_;* Download his `PyPi package &lt;http://pypi.python.org/pypi/crispy-forms-foundation&gt;`_;* Clone it on its `Github repository &lt;https://github.com/sveetch/crispy-forms-foundation&gt;`_;Requires========* `Python`_ &gt;= 3.8;* `Django`_ &gt;= 3.2;* `django-crispy-forms`_ &gt;= 1.9.0;* `Foundation for sites`_ &gt;= 6.3.x;</longdescription>
+</pkgmetadata>

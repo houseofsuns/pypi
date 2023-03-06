@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Prelude CLIInteract with the full range of features in Prelude Detect, organized by:- IAM: manage your account - Build: write and maintain your collection of security tests- Detect: schedule security tests for your endpoints## Quick start```bashpip install prelude-cliprelude --helpprelude --interactive```## Documentationhttps://docs.preludesecurity.com/docs/prelude-cli</longdescription>
+</pkgmetadata>

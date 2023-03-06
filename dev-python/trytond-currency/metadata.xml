@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>###############Currency Module###############The *Currency Module* defines the basics needed to work with currencies inTryton including a list of standard currencies.It is also possible to define the rates used to convert amounts betweendifferent currencies.</longdescription>
+</pkgmetadata>

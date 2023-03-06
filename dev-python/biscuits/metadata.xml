@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># BiscuitsLow level API for handling cookies server side.## Install    pip install biscuits## API    # Parse a &quot;Cookie:&quot; header value:    from biscuits import parse    parse('some=value; and=more')    &gt; {'some': 'value', 'and': 'more'}    # Generate a &quot;Set-Cookie:&quot; header value:    from biscuits import Cookie    cookie = Cookie(name='foo', value='bar', domain='www.example.org')    str(cookie)    &gt; &quot;foo=bar; Domain=www.example.org; Path=/&quot;## Building from source    pip install cython    make compile    python setup.py develop## Testing    make test## Benchmark![benchmark](benchmark.png)See [Benchmark](https://github.com/pyrates/biscuits/wiki/Benchmark) for moredetails.## Changelog### 0.2- unescape antislash when parsing to be consistent with quoting (cf #3)- unescape octal ascii when parsing to be consistent with quoting (cf #4)### 0.3- add support for the SameSite attribute (cf #8)</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Extended attributes extend the basic attributes of files and directoriesin the file system.  They are stored as name:data pairs associated withfile system objects (files, directories, symlinks, etc).Extended attributes are currently only available on Darwin 8.0+ (Mac OS X 10.4)and Linux 2.6+. Experimental support is included for Solaris and FreeBSD.</longdescription>
+</pkgmetadata>

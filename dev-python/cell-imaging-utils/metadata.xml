@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># BGU-cell-imaging-utilsa python package that staged toghether different utils regarding cell imaging projectinstallation:1. create or activate conda env2. pip install contact_sitesinstallation for development:1. create or activate conda env2. for development cd to project dirctory3. pip install -e .for deployment:1. run deploy.bat from master (it will add,commit,bump,build and deploy to pip)</longdescription>
+</pkgmetadata>

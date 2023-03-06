@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># cqmlComposable Query Meta LanguageCQML is declarative data format for specifying complete data analysis pipelines.  It is most commonly implemented as YAML, but can trivially be transformed into JSON, CSON, or macOS and Java property lists.The initial back-end is written for the DataBrick's flavor of PySpark and Spark SQL, but should be easy to extend to other databases and warehouses.# USAGE```#pip install git+https://github.com/TheSwanFactory/cqml.git@main #@v3-dailypip install cqml #==0.3.0import cqml```# TestingFrom top-level directory:```$ python3 -m pip install -r requirements.txt$ pip install pytest$ python3 -m pytest```# Building the Packages```$ python3 -m pip install --upgrade build$ python3 -m pip install --upgrade twine$ prerelease &amp;&amp; release &amp;&amp; python3 -m build &amp;&amp; python3 -m twine upload dist/* &amp;&amp; postrelease```# Development Build```awk -Fv '{printf(&quot;%sv%d\n&quot;,$1,v$2+1)}' version.txt &gt; /tmp/version.txt &amp;&amp; cp /tmp/version.txt version.txt &amp;&amp; git commit -a &amp;&amp; git push```</longdescription>
+</pkgmetadata>

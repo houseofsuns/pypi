@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>========================Team and repository tags========================.. image:: http://governance.openstack.org/badges/murano-pkg-check.svg    :target: http://governance.openstack.org/reference/tags/index.html.. Change things from this point on===============================murano-pkg-check===============================Murano package validator toolAfter checking out tool from repository easiest method to run tool is to run.. code-block:: shell  tox -e venv -- murano-pkg-check -hThis command will display help for murano-pkg-validatorIf you installed it from PYPI you can use:.. code-block:: shell  murano-pkg-check -hTo run validator in directory apache-app just run:.. code-block:: shell  murano-pkg-check apache-appIt will print all errors there are on package... code-block:: shell  murano-pkg-check --discovery murano-appsWill search for all packages under directory `murano-apps`. It will print allerrors and warnings for all packages found.* Free software: Apache license* Documentation: http://docs.openstack.org/developer/murano-pkg-check* Source: http://git.openstack.org/cgit/openstack/murano-pkg-check* Bugs: http://bugs.launchpad.net/murano</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># MLflow runtime for MLServerThis package provides a MLServer runtime compatible with [MLflowmodels](https://www.mlflow.org/docs/latest/models.html).## UsageYou can install the runtime, alongside `mlserver`, as:```bashpip install mlserver mlserver-mlflow```## Content TypesThe MLflow inference runtime introduces a new `dict` content type, whichdecodes an incoming V2 request as a [dictionary oftensors](https://www.mlflow.org/docs/latest/models.html#deploy-mlflow-models).This is useful for certain MLflow-serialised models, which will expect that themodel inputs are serialised in this format.```{note}The `dict` content type can be _stacked_ with other content types, like[`np`](../../docs/user-guide/content-type).This allows the user to use a different set of content types to decode each ofthe dict entries.```</longdescription>
+</pkgmetadata>

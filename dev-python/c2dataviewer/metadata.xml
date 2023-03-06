@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>C2DataViewer is a Python based data viewer for next generation of APS control system (C2).It is developed with pyqtgraph, PyQt, and uses pvaPy as pvAccess Python binding.This is a viewer for pvData structured data objects as transported by pvAccess. Some use cases are a 'scope viewer',and Area Detector images from the AD pva plugin.</longdescription>
+</pkgmetadata>

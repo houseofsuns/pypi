@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># fcmaesA Python 3 gradient-free optimization library.- [README](https://github.com/dietmarwo/fast-cma-es/blob/master/README.adoc)- [Tutorials](https://github.com/dietmarwo/fast-cma-es/blob/master/tutorials/Tutorials.adoc)</longdescription>
+</pkgmetadata>

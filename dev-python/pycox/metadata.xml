@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>**pycox** is a python package for survival analysis and time-to-event prediction with [PyTorch](https://pytorch.org/).It is built on the [torchtuples](https://github.com/havakv/torchtuples) package for training [PyTorch](https://pytorch.org/) models.Read the documentation at: https://github.com/havakv/pycoxThe package contains- survival models: (Logistic-Hazard, DeepHit, DeepSurv, Cox-Time, MTLR, etc.)- evaluation criteria (concordance, Brier score, Binomial log-likelihood, etc.)- event-time datasets (SUPPORT, METABRIC, KKBox, etc)- simulation studies- illustrative examples</longdescription>
+</pkgmetadata>

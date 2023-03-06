@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>editpyxl========editpyxl is a Python library to non-destructively edit Excel 2010 xlsx/xlsm files.The purpose is to edit excel files without otherwise modifying the excel document, to allow for efficient and quickedits of an excel file.Many thanks to openpyxl for their hard work in developing a tool to read and writing excel files.https://bitbucket.org/ericgazoni/openpyxlOfficial documentation======================The homepage is http://editpyxl.readthedocs.orgYou will find:* every installation methods* the official documentation* code examples* instructions for contributing0.1.10======* Updated MutableSet import for python 3.10 compatibility0.1.9=====* Force closing of zip file before removing folder, to prevent PermissionError: [WinError 32] error.0.1.8=====* Added worksheet function clear_formula_values.  This deletes preset values in formulas to force recalculation, to  solve issue in Excel 2016 not respecting force recalc flags or the absence of the calcChain.xml0.1.5=====* Updated lxml writing for python30.1.4=====* Updated uuid1().get_hex() -&gt; uuid1().hex0.1.3=====* Added wb['sheetname'] notation.* Added wb.sheetnames0.1.2=====* Added ws['A1'] notation.0.1.1=====* Added ws.dump() to dump all cell values.0.1.0=====* Added wb.hide_sheet() / wb.unhide_sheet()0.0.9 (unreleased)==================* Fixed filename parsing.0.0.8 (unreleased)==================* Added function for updating formulas.0.0.7 (unreleased)==================* Remove formulas from cells when setting value and remove calcChain.xml.0.0.1 (unreleased)==================Initial Release---------------* Initial project released in Alpha.</longdescription>
+</pkgmetadata>

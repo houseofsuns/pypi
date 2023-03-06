@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>hass-apps=========This is a collection of useful apps and snippets to empower Home Assistantand AppDaemon even more.Documentation-------------Read the `detailled documentation&lt;https://hass-apps.readthedocs.io/en/stable/&gt;`_ hosted at readthedocs.Donations---------.. note::   I work on this project in my spare time, as many free software   developers do. And of course, I enjoy this work a lot. There is no   and will never be a need to pay anything for using this software.However, if you want to honor the hundreds of hours continuously spentwith writing code and documentation, testing and providing support bydonating me a cup of coffee, a beer in the evening, my monthly hostingfees or anything else embellishing my day a little more, that would beawesome. If you decide doing so, I want to thank you very much! Pleasebe assured that I'm not presuming anybody to donate, it's entirelyyour choice.|paypal-recurring| Ensure ongoing development and support with a monthlydonation, no matter how small... |paypal-recurring| image:: https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif   :target: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=PZPNNAJ93TVTQ&amp;source=url|paypal-once| Or make an one-time donation... |paypal-once| image:: https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif   :target: https://www.paypal.me/RSchindler| ETH: 0xCE6B204B6AB5B93156f4FCD373482e148753beAb| ZEC: t1RKFyt4qqtqdYfprf8HZoDHRNLNzhe35EDMonthly Supporters~~~~~~~~~~~~~~~~~~These awesome supporters show their appreciation with a monthly donationand help keeping hass-apps alive. If you want to be listed here, pleaselet me know!* None yet.</longdescription>
+</pkgmetadata>

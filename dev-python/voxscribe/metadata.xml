@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># voxscribeExtract text from .wav and .mp3 files. &lt;br&gt;Install with:&lt;pre&gt;pip install voxscribe&lt;/pre&gt;FFmpeg also needs to be installed and in your PATH.&lt;br&gt;It can be obtained here: https://ffmpeg.org/ &lt;br&gt;Usage:&lt;br&gt;&lt;pre&gt;from voxscribe import get_text_from_url, get_text_from_WAV, get_text_from_MP3# For web hosted audio (mp3 or wav needs to be specified in the second argument)text = get_text_from_url(&quot;https://github.com/matt-manes/voxscribeTestAudio/blob/main/testaudio.mp3?raw=true&quot;, '.mp3')#For local filestext = get_text_from_MP3('some/filePath/someAudio.mp3')#ortext = get_text_from_WAV('some/other/filePath/someOtherAudio.wav')&lt;/pre&gt;</longdescription>
+</pkgmetadata>

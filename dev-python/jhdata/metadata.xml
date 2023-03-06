@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>JHData================Various interfaces for interacting with files stored in the cloud![image](https://img.shields.io/pypi/v/jhdata?style=flat-square)## InstallingInstall the [PyPI Package](https://pypi.org/project/jhdata/):    pip install jhdata## ExamplesTODO</longdescription>
+</pkgmetadata>

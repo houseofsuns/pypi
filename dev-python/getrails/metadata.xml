@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>![Getrails](img/banner.png)# GETRAILS![Upload Python Package](https://github.com/Jul10l1r4/getrails/workflows/Upload%20Python%20Package/badge.svg) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/fc02078872134bbc93b9e79a777dc14e)](https://app.codacy.com/manual/Jul10l1r4/getrails?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Jul10l1r4/getrails&amp;utm_campaign=Badge_Grade_Dashboard)Lib of [OSINT](https://pt.wikipedia.org/wiki/OSINT) and Dork hacking that work with Google, Duckduckgo and TorchFeel free to contribute  ## Run```pythonimport getrailsgetrails.search('site:scanme.nmap.org')) # Try Google search if return error use Duckduckgo# [&quot;http://scanme.nmap.org&quot;,...]getrails.go_gle(&quot;term&quot;) # Searching Googlegetrails.go_duck(&quot;term&quot;) # Searching Duckduckgogetrails.go_onion(&quot;term&quot;) # Searching torch (Onion)```## Install```pypipip3 install getrails```or ```pythonpython3 setup.py```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Dojo Toolkit============.. image:: https://github.com/grupy-sanca/dojo-toolkit/actions/workflows/test_push.yaml/badge.svg?branch=main  :target: https://github.com/grupy-sanca/dojo-toolkit/actions/workflows/test_push.yaml?query=branch%3Amain.. image:: https://coveralls.io/repos/github/grupy-sanca/dojo-toolkit/badge.svg?branch=main  :target: https://coveralls.io/github/grupy-sanca/dojo-toolkit?branch=mainToolkit for python coding dojos.Source: https://github.com/grupy-sanca/dojo-toolkitFeatures--------- Timer to determine the pilot's turn- Display notifications on pilot's time up, tests passed and failed- Dojo Semaphor through OS notifications- Run tests after each saveHow to use----------Installation:::  $ pip install dojo-toolkitRunning:::  $ dojo /path/to/code/directory/For detailed information about running from source: `CONTRIBUING.rst &lt;https://github.com/grupy-sanca/dojo-toolkit/blob/main/CONTRIBUTING.rst&gt;`_To see the options available use:::  $ dojo --helpContributing------------Check the `CONTRIBUING.rst &lt;https://github.com/grupy-sanca/dojo-toolkit/blob/main/CONTRIBUTING.rst&gt;`_ file to discover how you can help the development of dojo-toolkit.Dependencies------------- Python 3- (Optional) `Libnotify &lt;https://developer.gnome.org/libnotify&gt;`_</longdescription>
+</pkgmetadata>

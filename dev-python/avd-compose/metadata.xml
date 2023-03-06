@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># avd-compose [![PyPi version](https://img.shields.io/pypi/v/avd-compose.svg)](https://pypi.python.org/pypi/avd-compose/) [![PyPI pyversions](https://img.shields.io/pypi/pyversions/avd-compose.svg)](https://pypi.python.org/pypi/avd-compose/) [![](https://img.shields.io/github/license/f9n/avd-compose.svg)](https://github.com/f9n/avd-compose/blob/master/LICENSE)Define and run android virtual devices# Requirements- android-studio- python3.4+- pip3# NotesMake sure that the `ANDROID_HOME` environment variable is set.```bash$ echo $ANDROID_HOME$ export ANDROID_HOME=$HOME/Android/Sdk$ echo $ANDROID_HOME/home/f9n/Android/Sdk```# Install```bash$ pip3 install --user avd-compose```# Usage```bash$ avd-compose --help$ avd-compose version$ cat &lt;&lt;EOF &gt;avd-compose.ymlversion: 1platforms:  - name: My_Nexus_5    avd:      package: &quot;system-images;android-27;google_apis_playstore;x86&quot;      device: Nexus 5    emulator:  - name: My_Nexus_One    avd:      package: &quot;system-images;android-27;google_apis_playstore;x86&quot;      device: Nexus One    emulator:EOF$ # Create all of them$ avd-compose create$ # Create one of them$ avd-compose create --name My_Nexus_One$ # Destroy all of them$ avd-compose destroy$ # Destroy one of them$ avd-compose destroy --name My_Nexus_One$ avd-compose up --name My_Nexus_5```# ExamplesLook up the [examples](https://github.com/f9n/avd-compose/tree/master/examples) directory.# Credits- [Docker Compose](https://github.com/docker/compose)- [Vagrant](https://github.com/hashicorp/vagrant)</longdescription>
+</pkgmetadata>

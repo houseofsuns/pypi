@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># dephell_setuptoolsExtract meta information from `setup.py`.Install:```python3 -m pip install --user dephell_setuptools```CLI:```python3 -m dephell_setuptools ./setup.py```Lib:```pythonfrom pathlib import Pathfrom dephell_setuptools import read_setupresult = read_setup(path=Path('setup.py'))```</longdescription>
+</pkgmetadata>

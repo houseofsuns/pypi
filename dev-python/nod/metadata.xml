@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># py-nodPython 3.6 bindings for the [NOD](https://gitlab.axiodl.com/AxioDL/nod), a library for traversing, dumping, and authoringGameCube and Wii optical disc images.## Usage### Unpacking```pythonimport noddef progress_callback(path, progress):    if args.verbose:        print(&quot;Extraction {:.0%} Complete; Current node: {}&quot;.format(progress, path))context = nod.ExtractionContext()context.set_progress_callback(progress_callback)try:    disc, is_wii = nod.open_disc_from_image(&quot;game.iso&quot;)    data_partition = disc.get_data_partition()    if not data_partition:        raise RuntimeError(&quot;Could not find a data partition in the disc.&quot;)    data_partition.extract_to_directory(&quot;dir_out&quot;, context)except RuntimeError as e:    raise Exception(&quot;Could not extract disc at 'game.iso' to 'dir_out': {}&quot;.format(e))```### Packing```pythonimport nodif nod.DiscBuilderGCN.calculate_total_size_required(&quot;dir_out&quot;) is None:    raise Exception(&quot;Image built with given directory would pass the maximum size.&quot;)def fprogress_callback(progress: float, name: str, bytes: int):    print(&quot;\r&quot; + &quot; &quot; * 100, end=&quot;&quot;)    print(&quot;\r{:.0%} {} {} B&quot;.format(progress, name, bytes), flush=True)disc_builder = nod.DiscBuilderGCN(&quot;game.iso&quot;, fprogress_callback)try:    disc_builder.build_from_directory(&quot;dir_out&quot;)    except RuntimeError as e:    raise Exception(&quot;Failure building the image: {}&quot;.format(e))```</longdescription>
+</pkgmetadata>

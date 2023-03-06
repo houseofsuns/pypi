@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># unicms-editorial-board### Use as is in production```pip install unicms-editorial-board./manage.py collectstatic```### DevelopmentInstall node.js and npmPurge old installation```sudo rm -rf /usr/local/bin/npm /usr/local/share/man/man1/node* ~/.npmsudo rm -rf /usr/local/lib/node*sudo rm -rf /usr/local/bin/node*sudo rm -rf /usr/local/include/node*sudo apt-get purge nodejs npmsudo apt autoremove```Download the latest tar.xz NodeJS file from https://nodejs.org/en/download/```tar -xf node-v#.#.#-linux-x64.tar.xzsudo mv node-v#.#.#-linux-x64/bin/* /usr/local/bin/sudo mv node-v#.#.#-linux-x64/lib/node_modules/ /usr/local/lib/Where #.#.# is the version you downloaded.```Verify installation using```node -vnpm -v```Install packages```cd /unicms-editorial-board/src/unicms_editorial_board/unicms_editorial_board_vuenpm install```Edit files and build```npm run build```</longdescription>
+</pkgmetadata>

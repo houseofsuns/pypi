@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># jsonstreamLoad multiple delimited JSON documents from a single string or file-like object.This allows for storing multiple object roots to be stored in a single document,but without having to load all the object roots from the document at once.``jsonstream`` does not even require that you have the entire documentimmediately stored in memory. This allows you to stream objects from fileswhich are too large to store in memory, or from network connections.# Basic UsageRetrieve objects from the document one at a time, or all at once.```pythonfrom jsonstream import loads&gt;&gt;&gt; doc = '[1, 2, 3] {&quot;some&quot;: &quot;object&quot;}\n   null'&gt;&gt;&gt; it = loads(doc)&gt;&gt;&gt; next(it)[1, 2, 3]&gt;&gt;&gt; list(it)[{&quot;some&quot;: &quot;object&quot;}, None]```Using file-like objects when the whole document is not immediately available```python&gt;&gt;&gt; from jsonstream import load&gt;&gt;&gt; from io import StringIO&gt;&gt;&gt; fh = StringIO('[&quot;first&quot;] [&quot;second&quot;]')&gt;&gt;&gt; it = load(fh)&gt;&gt;&gt; next(it)[&quot;first&quot;]&gt;&gt;&gt; fh.write('[&quot;and&quot;, &quot;a&quot;, &quot;third&quot;]')&gt;&gt;&gt; list(it)[[&quot;second&quot;], [&quot;and&quot;, &quot;a&quot;, &quot;third&quot;]]```Further documentation can be found on the doc strings of ``loads`` and ``load``.</longdescription>
+</pkgmetadata>

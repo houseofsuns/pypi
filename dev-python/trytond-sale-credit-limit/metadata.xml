@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Sale Credit Limit#################The sale_credit_limit module adds confirmed sale but not yet invoiced to the&quot;Credit Amount&quot; of the Party and check the credit limit of the party whenconfirming a sale.</longdescription>
+</pkgmetadata>

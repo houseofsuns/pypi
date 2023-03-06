@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Exasol driver with low overhead, fast HTTP transport and compression. It is implemented in Python 3.6+.Main features:-  Based on WebSocket protocol;-  Optimized for minimum overhead;-  Easy integration with pandas via HTTP transport;-  Compression to reduce network bottleneck;PyEXASOL does not follow DB-API 2.0 in favor of Exasol-specific features.Please read &quot;Best practices&quot; manual page to learn how to use PyEXASOL with maximum efficiency.    </longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Provides a file-like interface to other system processes and shell-likepipelines.  In contrast with os.popen, the shell is not used to interpret thecommands, and the exit status of each componenet of the pipeline is availabe. An alternative to builtin packages such as subprocess, commands, os.popen,popen2, os.system, etc. Examples of how to feed the pipe with a file-like object are included in thedocstrings. Requires os.fork, but does not require any threadinglibraries.</longdescription>
+</pkgmetadata>

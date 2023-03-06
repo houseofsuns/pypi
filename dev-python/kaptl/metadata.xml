@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>kaptl===========CLI for KAPTL generator. For more info, check https://www.kaptl.cominstallation------------    pip install kaptlSupported platforms-------------------Currently tested on Windows and Linux with Python 2.7. Should be usable on all modern platforms.Release notes-------------0.1.0~~~~~Initial releaseInfo====-  Homepage: https://www.kaptl.com</longdescription>
+</pkgmetadata>

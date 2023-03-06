@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># fold_to_asciiA Python port of the [Apache Lucene ASCII FoldingFilter](https://lucene.apache.org/core/4_0_0/analyzers-common/org/apache/lucene/analysis/miscellaneous/ASCIIFoldingFilter.html)that converts alphabetic, numeric, and symbolic Unicode characters which are notin the first 127 ASCII characters (the &quot;Basic Latin&quot; Unicode block) into ASCIIequivalents, if they exist.## Usage``` python&gt; from fold_to_ascii import fold&gt; s = u'Astroturf® paté'&gt; fold(s)u'Astroturf pate'&gt; fold(s, u'?')u'Astroturf? pate'```## Differences from [JS fold-to-ascii](https://www.npmjs.com/package/fold-to-ascii)This library **always** removes astral characters, even when a replacementcharacter is specified. PRs welcome if you want to fix this.## Differences from unidecodeThere are a few Python unidecode libraries out there([1](https://pypi.python.org/pypi/text-unidecode),[2](https://pypi.python.org/pypi/Unidecode/)). They are based on a Perl programthat makes some interesting choices about what to replace, for example, `£`(`POUND SIGN`) is replaced with the string `PS`. Also, they do not allowspecifying a replacement character to use other than the empty string forunmapped characters.## Development environment``` shell$ virtualenv -p python3 ~/.local/venvs/fold_to_ascii$ source ~/.local/venvs/fold_to_ascii/bin/activate$ pip install -r requirements.txt```## Test``` shell$ make lint &amp;&amp; make test```## ReleaseRequires a [pypi](https://pypi.org/) account.1. Bump the version in setup.py.1. Build and upload:``` shell$ python setup.py sdist bdist_wheel$ twine upload dist/*```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># monocdk Experiment[![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)An **experiment** to bundle all of the CDK into a single module.&gt; :warning: Please don't use this module unless you are interested in providing&gt; feedback about this experience.## Usage### InstallationTo try out `monocdk` replace all references to CDK ConstructLibraries (most `@aws-cdk/*` packages) in your `package.json` file with a singleentrey referring to `monocdk`.You also need to add a reference to the `constructs` library, according to thekind of project you are developing:* For libraries, model the dependency under `devDependencies` **and** `peerDependencies`* For apps, model the dependency under `dependencies` only### Use in your code#### Classic importYou can use a classic import to get access to each service namespaces:```python# Example automatically generated from non-compiling source. May contain errors.from monocdk import core, aws_s3 as s3app = core.App()stack = core.Stack(app, &quot;MonoCDK-Stack&quot;)s3.Bucket(stack, &quot;TestBucket&quot;)```#### Barrel importAlternatively, you can use &quot;barrel&quot; imports:```python# Example automatically generated from non-compiling source. May contain errors.from monocdk import App, Stackfrom monocdk.aws_s3 import Bucketapp = App()stack = Stack(app, &quot;MonoCDK-Stack&quot;)Bucket(stack, &quot;TestBucket&quot;)```</longdescription>
+</pkgmetadata>

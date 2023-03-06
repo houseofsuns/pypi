@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>============rebotics_sdk============Rebotics SDK for communicating with Rebotic Services, API CLI client.Features--------* Communication between Rebotics Services through provider client classes* Two django applications for external communications through web-hooks* CLI clients for Rebotics ServicesCredits-------This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template... _Cookiecutter: https://github.com/audreyr/cookiecutter.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage=======History=======0.1.0 (2019-05-22)------------------* First release on PyPI.</longdescription>
+</pkgmetadata>

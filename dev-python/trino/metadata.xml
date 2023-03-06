@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Client for Trino (https://trino.io), a distributed SQL engine forinteractive and batch big data processing. Provides a low-level client anda DBAPI 2.0 implementation.</longdescription>
+</pkgmetadata>

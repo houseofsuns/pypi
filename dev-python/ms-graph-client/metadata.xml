@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>export PATH=&quot;$HOME/.local/bin:$PATH&quot;Docs: https://learn.microsoft.com/en-us/graph/api/resources/group?view=graph-rest-1.0# How to use```from ms_graph_client import GraphAPI, GraphAPIConfig, GraphCacheAPIfrom ms_graph_client.services.groups import Groupsclient_id = &quot;xxxxxxxx&quot;tenant_id = &quot;xxxxxxxx&quot;client_secret = &quot;xxxxxxxx&quot;graphapi_config = GraphAPIConfig(    client_id=client_id,    tenant_id=tenant_id,    client_secret=client_secret,    api_url=&quot;https://graph.microsoft.com/v1.0&quot;,)#CRUD wrapper to expose enough to automate Group Management.# This includes Create/Delete Azure AD Groups,# Add/Remove Members of Groups, # Assign and Unassign the group to/from an Applicationgraph_api_wrapper = GraphAPI(config=config)```</longdescription>
+</pkgmetadata>

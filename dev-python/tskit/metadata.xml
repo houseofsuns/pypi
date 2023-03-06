@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>The tree sequence toolkit.Tskit is a cross-platform library for the storage and analysis of large-scalegenetic genealogy and variation data.Please see the `documentation &lt;https://tskit.dev/tskit/docs/stable/&gt;`_for further details.Tskit is highly portable, and provides a number of`installation options &lt;https://tskit.dev/tskit/docs/stable/installation.html&gt;`_.</longdescription>
+</pkgmetadata>

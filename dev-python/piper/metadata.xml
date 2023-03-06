@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;img src=&quot;https://raw.githubusercontent.com/databio/pypiper/master/logo_pypiper.svg?sanitize=true&quot; alt=&quot;Pypiper logo&quot; height=&quot;70&quot; align=&quot;left&quot;/&gt;# Pypiper[![Documentation Status](https://readthedocs.org/projects/pypiper/badge/?version=latest)](http://pypiper.readthedocs.org/en/latest/?badge=latest)[![Build Status](https://travis-ci.org/databio/pypiper.svg?branch=master)](https://travis-ci.org/databio/pypiper)A lightweight python toolkit for gluing together restartable, robust shell pipelines. Learn more in the [documentation](http://pypiper.databio.org).</longdescription>
+</pkgmetadata>

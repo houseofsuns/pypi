@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Django PFX![pipeline]![coverage]![logo]Django PFX is a toolkit to build web APIs dedicated to be used by React progressive web app.&gt; **WARNING**&gt;&gt; This is an experimental projet. It should not be used in real project because it is incomplete and there is no warranty of keeping compatibility in future version.[logo]: https://gitlab.com/hmartinet/django-pfx/-/raw/master/img/pfx.png &quot;PFX&quot;[pipeline]: https://gitlab.com/hmartinet/django-pfx/badges/master/pipeline.svg &quot;Pipeline Status&quot;[coverage]: https://gitlab.com/hmartinet/django-pfx/badges/master/coverage.svg &quot;Code Coverage&quot;</longdescription>
+</pkgmetadata>

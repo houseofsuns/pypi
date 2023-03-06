@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># STOCK_DATALibrary for extracting full list of active tradeable stocks available, and creating detailed data of trends and statistics in daily, weekly, monthly, and yearly intervals. Requires Alpaca trading account for stock data extraction</longdescription>
+</pkgmetadata>

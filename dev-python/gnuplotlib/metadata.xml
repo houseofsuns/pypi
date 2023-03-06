@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>gnuplotlib allows numpy data to be plotted using Gnuplot as a backend. Asmuch as was possible, this module acts as a passive pass-through to Gnuplot,thus making available the full power and flexibility of the Gnuplot backend.</longdescription>
+</pkgmetadata>

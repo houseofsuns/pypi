@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>**Features**Supports use in group chat and private chatSupports continuous conversationSupports Chinese, English and characters**Usage**Web API recognition: send /apiocr, only support photos of Chinese, English and digital punctuation, cannot switch languages. Send /end to end the current user conversation, and users do not affect each other.</longdescription>
+</pkgmetadata>

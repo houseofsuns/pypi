@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=====shell=====&quot;&quot;&quot;A better way to run shell commands in Python.&quot;&quot;&quot;Built because every time I go to use `subprocess`_, I spend more time in thedocs &amp; futzing around than actually implementing what I'm trying to get done... _`subprocess`: http://docs.python.org/2.7/library/subprocess.htmlFull docs are at https://shell.readthedocs.org/en/latest/.Requirements============* Python 2.6+ or Python 3.3+Usage=====If you just need to quickly run a command, you can use the ``shell`` shortcutfunction::    &gt;&gt;&gt; from shell import shell    &gt;&gt;&gt; ls = shell('ls')    &gt;&gt;&gt; for file in ls.output():    ...     print file    'another.txt'If you need to extend the behavior, you can also use the ``Shell`` object::    &gt;&gt;&gt; from shell import Shell    &gt;&gt;&gt; sh = Shell(has_input=True)    &gt;&gt;&gt; cat = sh.run('cat -u')    &gt;&gt;&gt; cat.write('Hello, world!')    &gt;&gt;&gt; cat.output()    ['Hello, world!']You can even chain calls if you'd like::    &gt;&gt;&gt; from shell import shell    &gt;&gt;&gt; shell('cat -u', has_input=True).write('Hello, world!').output()    ['Hello, world!']Installation============Using ``pip``, simply run::    pip install shellLicense=======New BSD</longdescription>
+</pkgmetadata>

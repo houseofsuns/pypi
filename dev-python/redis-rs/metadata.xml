@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># redis-rsPython wrapper for redis-rs and redis_cluster_async# Install    pip install redis-rs# Using```pythonimport asyncioimport redis_rsx = redis_rs.create_client([    &quot;redis://redis-node001&quot;,    &quot;redis://redis-node002&quot;,], 1)async def main():    print(await x.execute(b&quot;hset&quot;, &quot;fooh&quot;, &quot;a&quot;, b&quot;asdfg&quot;))    print(await x.fetch_int(&quot;hset&quot;, &quot;fooh&quot;, &quot;b&quot;, 11234567890))    print(await x.fetch_int(&quot;hget&quot;, &quot;fooh&quot;, &quot;b&quot;))    print(await x.fetch_str(&quot;hget&quot;, &quot;fooh&quot;, &quot;a&quot;))    print(await x.fetch_dict(&quot;hgetall&quot;, &quot;fooh&quot;))    print(await x.execute(&quot;cluster&quot;, &quot;nodes&quot;))    print(await x.fetch_bytes(&quot;get&quot;, &quot;foo&quot;))    print(await x.fetch_int(&quot;get&quot;, &quot;foo&quot;))    print(await x.execute(&quot;hgetall&quot;, &quot;fooh&quot;))    print(await x.execute(&quot;zadd&quot;, &quot;fooz&quot;, 1.5678, &quot;b&quot;))    print(await x.fetch_scores(&quot;zrange&quot;, &quot;fooz&quot;, 0, -1, &quot;WITHSCORES&quot;))asyncio.run(main())```</longdescription>
+</pkgmetadata>

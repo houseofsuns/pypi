@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Sale Discount Module####################The sale_discount module adds discount on sale line.Two discount fields are added to the sale line to define a discount as rate andas amount between a base price and the unit price.The base price is filled automatically with the list price of the product.</longdescription>
+</pkgmetadata>

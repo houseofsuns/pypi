@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># New Zealand Business NumberA Python library for interacting with New Zealand Business Number services.## Installation```$ pip install nzbn```## Example Usage### Get a list of abbreviated entities```pythonfrom nzbn import AbbreviatedEntityentities: List[AbbreciatedEntity] = AbbreviatedEntity.retrieve_many(    access_token=&quot;your nzbn API access token&quot;,    search_text=&quot;some entity name&quot;,    page=0,    # defaults to 0    limit=20   # per page count, defaults to 20)```### Get detailed data about an entity```pythonfrom nzbn import Entityentity: Entity = Entity.retrieve(    access_token=&quot;your nzbn API access token&quot;,    nzbn=&quot;9429049541410&quot;,    sandbox=False  # defaults to False)```</longdescription>
+</pkgmetadata>

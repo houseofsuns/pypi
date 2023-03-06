@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># PADE-Python Project Documentation- Point of contact: [John Bowyer](mailto:zfo4@cdc.gov)- Organizational unit: OCIO- Related projects: EDC- Related investments:  Pending Public Release- Governance status: Pending Public Release- Program official:  [Erik Knudsen](mailto:egk1@cdc.gov)</longdescription>
+</pkgmetadata>

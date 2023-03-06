@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>About=====.. image:: https://drone.io/bitbucket.org/hhatto/pyprof2html/status.png    :target: https://drone.io/bitbucket.org/hhatto/pyprof2htmlThis script is converted to HTML file from Python's profile,Profile and hotshot profiling data.inspired by `Devel::NYTProf`_ (Perl Module)sample data (`pystone hotshot linetimings`_ `pystone cProfile`_).. _`pystone hotshot linetimings`: http://www.hexacosa.net/pyprof2html/pystone-line_html/.. _`pystone cProfile`: http://www.hexacosa.net/pyprof2html/pystone_html/.. _`Devel::NYTProf`: http://search.cpan.org/dist/Devel-NYTProf/Installation============used to easy_install::  $ easy_install pyprof2htmlRequirements============Require `Jinja2`_ module... _`Jinja2`: http://pypi.python.org/pypi/Jinja2/Ubuntu------python-profiler (Ubuntu Package)installed to::  $ easy_install jinja2or::  $ sudo apt-get intall python-jinja2  $ sudo apt-get intall python-profilerUsage=====basic usage::  $ python -m cProfile -o PROFILE_DATA USER_SCRIPT.py  $ pyprof2html PROFILE_DATA  $ ls  htmlLinks=====* PyPI_* Bitbucket_.. _PyPI: https://pypi.python.org/pypi/pyprof2html/.. _Bitbucket: https://bitbucket.org/hhatto/pyprof2html</longdescription>
+</pkgmetadata>

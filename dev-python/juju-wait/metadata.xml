@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Juju Wait=========This is a Juju plugin that provides the following new juju command::    juju waitThis command waits until all hooks in the environment have completedrunning and there are no more queued to run. It is primarily used bydeployment wrappers and test suites to know when a series on jujucommands (which run asynchronously) have completed and the system isready for the next step. Once the Juju environment has reached thisstable state, it will remain stable until some action destabalizes it,such as operator action, machine reboots or scheduled tasks.</longdescription>
+</pkgmetadata>

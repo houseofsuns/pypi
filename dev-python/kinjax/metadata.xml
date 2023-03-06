@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># kinjax---------------**kinjax** is a Python package that provides functions for computing the forward kinematics and Jacobian of a robot. It uses JAX to enable fast computations on GPUs.### InstallationTo install the module, run:```pip install kinjax```### UsageTo use kinjax, you need to provide it with a URDF file that describes the robot you want to compute the forward kinematics and Jacobian for. You can then call `get_fk_fn` and `get_jacobian_fn` to create functions that can compute the forward kinematics and Jacobian of the robot, respectively.Here's an example of how to use `kinjax` to compute the forward kinematics and Jacobian of a robot:```pythonimport jaximport jax.numpy as jnpimport kinjaxend_effector_link_name = &quot;hand&quot;dof = 6# Load the URDF filelink_dict, joint_dict = kinjax.get_link_joint_dict(&quot;robot.urdf&quot;)# Compute the forward kinematics function for the robotfk_fn = kinjax.get_fk_fn(link_dict, joint_dict, dof, end_effector_link_name)# Compute the Jacobian function for the robotjac_fn = kinjax.get_jacobian_fn(link_dict, joint_dict, dof, end_effector_link_name)# Compute the forward kinematics and Jacobian for a given joint configurationq = jnp.array([0.1, 0.2, 0.3, 0.4, 0.5, 0.6])T_fk = fk_fn(q)J = jac_fn(q) ```### LicenseThis project is licensed under the MIT License</longdescription>
+</pkgmetadata>

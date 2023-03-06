@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Quick Started==============At first, you should crate a **yourname.github.com.git** on **GitHub**::  $ git clone git@github.com:yourname/yourname.github.com.git  $ cd yourname.github.com  $ orgnote initThus, update **_config.yml** configure file.Usage======The usage of **orgnote**::   $ orgnote help   Usage: orgnote &lt;command&gt;   Commands:   init       Create a new OrgNote folder   new        Create a new .org/.md post   list       List this blog notes   status     Status of those notes   publish    Auto Publish a note   recall     Cancel publish a note   generate   Generate static files   server     Start the server   deploy     Deploy your website   help       Get help on a command   version    Display version informationFor more help, you can check the docs:  http://orgnote.readthedocs.org/zh_CN/latest/</longdescription>
+</pkgmetadata>

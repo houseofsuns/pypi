@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Fast Unit - Rust Unit Management for PythonOriginally created as a faster version of [Unum](https://pypi.org/project/Unum/) for use in Python-based FRC robot code.## Building and Installing for Local Machine```shellmaturin build --release  # This will generate wheels and put a native library in ./fast_unit/pip install .  # Installs to your python interpreter```## Cross Compilation for RoboRIO (WIP)### Getting Required FilesIn order to compile for RoboRIO, you need to copy the contents of `/usr/local/lib` andupdate the `RIO_ROOT` to reflect where you copied them. This is assuming you have alreadyinstalled python on your RIO using [RobotPy](https://robotpy.readthedocs.io/en/stable/).This is the command I used to accomplish this:```shellscp lvuser@roboRIO-XXXX-FRC.local:/usr/local/lib ./RIO_ROOT/usr/local/lib```### Installing ARM LinkerRust needs an arm linker to compile arm binaries, which can be installed fairly easily. On debian, run the following:```shellsudo apt install gcc-arm-linux-gnueabi```### BuildingOnce you have the required tools, running the script below should compile and buildthe wheels.```shell# Add RIO's target triplerustup target add arm-unknown-linux-gnueabi# Set cross-compilation environment variablesexport PYO3_CROSS_PYTHON_VERSION=3.10export PYO3_CROSS_LIB_DIR=&quot;RIO_ROOT/usr/local/lib&quot;# Build wheels for RIOmaturin build --target=arm-unknown-linux-gnueabi --rustc-extra-args=&quot;-C linker=arm-linux-gnueabi-gcc&quot;```</longdescription>
+</pkgmetadata>

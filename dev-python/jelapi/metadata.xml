@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>![Lint and Tests](https://github.com/liip/jelapi/workflows/Lint%20and%20Tests/badge.svg)[![codecov](https://codecov.io/gh/liip/jelapi/branch/main/graph/badge.svg?token=ZjQDtiXWwO)](https://codecov.io/gh/liip/jelapi)# jelapiA Jelastic API Python library## Installation    pip3 install jelapi## Usage```import jelapijelapi.api_url = &quot;https://app.jpc.infomaniak.com/1.0/&quot;jelapi.api_token = &quot;your-long-token&quot;jelenvs = jelapi.JelasticEnvironment.list()jelenv = next(    env    for env in jelenvs.values()    if all(eg in env.envGroups for eg in [&quot;clients/envgroup&quot;, &quot;prod&quot;]))for ng in jelenv.nodeGroups.values():    for n in ng.nodes:        n.fixedCloudlets = 2cpnodegroup = jelenv.nodeGroups(&quot;cp&quot;]cpnodegroup.nodes[0].fixedCloudlets = 2cpnodegroup.envVars[&quot;AN_ENV_VARIABLE&quot;] = &quot;Content&quot;sqlnode = jelenv.nodeGroups[&quot;sqldb&quot;].nodes[0]sqlnode.flexibleCloudlets = max(sqlnode.flexibleCloudlets - 2, 0)sqlnode.allowFlexibleCloudletsReduction = Truejelenv.save()```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This package contains a [Sphinx](http://www.sphinx-doc.org/en/master/) extensionfor producing proof, theorem, axiom, lemma, definition, criterion, remark, conjecture,corollary, algorithm, example, property, observation and proposition directives.This project is maintained and supported by [najuzilu](https://github.com/najuzilu).</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>**Project Portfolio: https://github.com/calebyhan/CalebHan** # currency-chPython library for currency exchanges.All rates originated from [FloatRates](https://www.floatrates.com/json-feeds.html).Disclaimer: all rates may or may not be the most accurate, and could vary by search on the internet.## Installation----------------------Use the package manager [pip](https://pip.pypa.io/en/stable/) to install currency-ch.```bashpip install currency-ch```## Usage----------------------```pythonimport currency# converts amount of money from one currency to anothercurrency.convert(&quot;usd&quot;, &quot;eur&quot;, 1)# returns rate from one currency to anothercurrency.rate(&quot;usd&quot;, &quot;eur&quot;)```## Documentation----------------------``currency.convert(input_currency, output_currency, amount, roundTo)``Converts input_currency of amount (default 1) to output_currency with rounded to roundTo decimal places (default 2).``currency.rate(input_currency, output_currency, roundTo)``Returns rate of converting input_currency to output_currency rounded to roundTo decimal places (default 2).``currency.add(values, output_currency, roundTo)``Adds up currencies in 2-D array values (in format [amount, input_currency]), and displays in form of output_currency rounded to roundTo decimal places (default 2).## Contributing----------------------Pull requests are welcome. For major changes, please open an issue firstto discuss what you would like to change.Please make sure to update tests as appropriate.## License----------------------[MIT](https://choosealicense.com/licenses/mit/)</longdescription>
+</pkgmetadata>

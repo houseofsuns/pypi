@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>![](https://img.shields.io/badge/platform-Ubuntu-orange)![](https://img.shields.io/badge/python-3.10.x-yellow)![GitHub release (latest by date)](https://img.shields.io/github/v/release/Fraccs/tor-refresh)![GitHub](https://img.shields.io/github/license/Fraccs/tor-refresh)![GitHub issues](https://img.shields.io/github/issues/Fraccs/tor-refresh)![GitHub pull requests](https://img.shields.io/github/issues-pr/Fraccs/tor-refresh)# TOR Refresh&gt; 🧅 Refresh your TOR circuit with ease.---&lt;img src=&quot;https://user-images.githubusercontent.com/78105813/209010594-c6c054d2-e498-44df-95f3-247b9378cfcc.PNG&quot; /&gt;---## Installation (tor)&gt; The program needs the tor executable in order to work, skip this if you have it already.```bashsudo apt update``````bashsudo apt install tor```## Installation (pipx)### Install pipx```bashpython3 -m pip install pipx``````bashpython3 -m pipx ensurepath```### Install tor-refresh```bashpipx install tor-refresh``````bashtor_refresh &lt;?port&gt; &lt;?control_port&gt;```## Installation (git)### Install tor-refresh```bashgit clone https://github.com/Fraccs/tor-refresh.git``````bashpython3 src/tor_refresh.py &lt;?port&gt; &lt;?control_port&gt;```</longdescription>
+</pkgmetadata>

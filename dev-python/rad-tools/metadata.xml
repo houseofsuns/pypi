@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Script Collection=================Various scripts which were useful during my PhD... image:: https://readthedocs.org/projects/rad-tools/badge/?version=stable    :target: https://rad-tools.adrybakov.com/en/stable/?badge=stable    :alt: Documentation Status.. image:: https://img.shields.io/badge/code%20style-black-000000.svg   :target: https://github.com/psf/blackInstallation------------First make sure that you have python3 and pip installed.Then execute the following in your terminal:.. code-block:: console   pip install rad-toolsDocumentation=============Documentations is available `here. &lt;https://rad-tools.adrybakov.com&gt;`_</longdescription>
+</pkgmetadata>

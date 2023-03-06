@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Product Cost FIFO Module########################The Product Cost FIFO Module add a *FIFO* option in the Cost Methodfield of the product form.The cost price of product whose cost price method is *FIFO* will beupdated automatically when stock moves coming from a supplier or goingto a customer are made. The page `FIFO and LIFO accounting`_ onWikipedia gives some information about this costing method... _FIFO and LIFO accounting: http://en.wikipedia.org/wiki/FIFO_and_LIFO_accounting</longdescription>
+</pkgmetadata>

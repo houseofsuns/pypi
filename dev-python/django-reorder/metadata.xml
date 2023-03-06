@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=============================Django Reorder=============================.. image:: https://badge.fury.io/py/django-reorder.png    :target: https://badge.fury.io/py/django-reorderA project that helps sorting querysets in a specific orderDocumentation-------------The full documentation is at https://django-reorder.readthedocs.org.Quickstart----------Install Django Reorder::    pip install django-reorderThen use it in a project::    from django_reorder.reorder import reorder    Tshirt.objects.order_by(reorder(size=['S', 'M', 'L']))Some more detailed examples can be foind on the :doc:`usage` page.Features--------* Can be used in ``order_by()`` and in ``annotate()`` calls.* Works across relationships.* Lets you control the sorting order of ``NULL`` values explicitly (otherwise  it can vary across databases).Running Tests--------------Does the code actually work?::    source &lt;YOURVIRTUALENV&gt;/bin/activate    (myenv) $ pip install -r requirements_test.txt    (myenv) $ python runtests.pyCredits---------Tools used in rendering this package:*  Cookiecutter_*  `cookiecutter-djangopackage`_.. _Cookiecutter: https://github.com/audreyr/cookiecutter.. _`cookiecutter-djangopackage`: https://github.com/pydanny/cookiecutter-djangopackageHistory-------0.2.1 (2016-09-13)++++++++++++++++++* Forgot to ``pull`` before I ``push``ed...0.2.0 (2016-09-13)++++++++++++++++++* Added ``null_first()`` and ``null_last()`` shortcuts.0.1.0 (2016-07-26)++++++++++++++++++* First release on PyPI.</longdescription>
+</pkgmetadata>

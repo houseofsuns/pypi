@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Ansys fork of `pythonnet &lt;https://github.com/pythonnet/pythonnet&gt;`_.We will try to keep this up-to-date with pythonnet and upstream changes that might benefit the pythonnet communityChanges relative to pythonnet:- Revert of `#1240 &lt;https://github.com/pythonnet/pythonnet/pull/1240&gt;`_.</longdescription>
+</pkgmetadata>

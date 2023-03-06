@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;!--https://readme42.com--&gt;[![](https://img.shields.io/pypi/v/cached.svg?maxAge=3600)](https://pypi.org/project/cached/)[![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)### Installation```bash$ [sudo] pip install cached```#### Examples`@cached` decorator```python&gt;&gt;&gt; from cached import cached&gt;&gt;&gt; @cached    def func(*args, **kwags):````cached(function)` function```python&gt;&gt;&gt; from cached import cached&gt;&gt;&gt; def func(*args, **kwags):        ...&gt;&gt;&gt; cached(func)()```&lt;p align=&quot;center&quot;&gt;    &lt;a href=&quot;https://readme42.com/&quot;&gt;readme42.com&lt;/a&gt;&lt;/p&gt;</longdescription>
+</pkgmetadata>

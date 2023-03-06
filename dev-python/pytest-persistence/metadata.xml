@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pytest-persistencePytest tool for persistent objects## InstallationIn a Python environment do:    python -m pip install pytest-persistence## UsageTo store fixtures to file run tests with `--store {file_path}`:    python -m pytest --store {file_path}To load fixtures from file run tests with `--load {file_path}`:    python -m pytest --load {file_path}</longdescription>
+</pkgmetadata>

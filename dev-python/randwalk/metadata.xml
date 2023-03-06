@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># NAMErandwalk - random walk agents on graph supporting several strategies.# SYNOPSIS# DESCRIPTION# INSTALLATION# AVAILABILITYThe latest version of **randwalk** is available at PyPI(https://pypi.org/project/randwalk/) .# SEE ALSO# AUTHORHiroyuki Ohsaki &lt;ohsaki[atmark]lsnl.jp&gt;</longdescription>
+</pkgmetadata>

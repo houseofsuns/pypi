@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># DV360 data GeneratorTo be able to retrieve different data reports from DV360 we use different API's. These API's are the DBM API and DV360 REST API. To make the code more maintanable we have turned the applied &quot;builder&quot; pattern into a package. This package can be used to retreive different types of reports or be extended to support reports, for different purposes.## ExampleTo use the package and get our data from the platform, we must have a valid user oauth file. This can be created using the dqna authflow script.We need to init the director:```pydirector = DvDataDirector(credentials=&quot;../some-cerdentials-file.json&quot;)```After this we can get different reports, see the methods of `director`</longdescription>
+</pkgmetadata>

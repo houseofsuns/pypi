@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>GameGridP---------GameGridP ist eine in Python programmierte 2D-Grafikengine die für Bildungszwecke gedacht ist.Viele Konzepte wurden von  [JGameGrid](http://www.aplu.ch/home/apluhomex.jsp?site=45)_bzw. [Greenfoot](https://www.greenfoot.org/door) übernommen. Im Gegensatz zu Greenfoot bietetgamegridp keine grafische Benutzeroberfläche.Eigenschaften  * GameGridP unterstützt sowohl Pixel-basierte Spiele als auch Spiele mit   quadratischen Zellen (z.B. Rouge-Likes)  * Einfaches Erstellen von Animationen  * Musik und Soundeffekte  * Integrierte Konsole für Ausgaben  * Einfaches Erstellen von GUI-Elementen und Popups  * Einfache Datenbankanbindung  * Open SourceGithub: https://github.com/asbl/gamegridpDokumentation: https://gamegridp.it-teaching.de</longdescription>
+</pkgmetadata>

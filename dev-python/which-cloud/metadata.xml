@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># which-cloudGiven an ip address, return which cloud provider it belongs to.## Usage```pythonfrom which_cloud import WhichCloud, Providerswc = WhichCloud()wc.is_ip('52.94.76.10') # Providers.AWSwc.is_ip('104.214.20.0') # Providers.AZUREwc.is_ip('35.185.160.160') # Providers.GCP```## PreprocessConvert raw ip ranges of different platforms into a single pickle file to speed up data load time.## Data Sources### GCP- document: &lt;https://cloud.google.com/compute/docs/faq#find_ip_range&gt;- data: &lt;https://www.gstatic.com/ipranges/cloud.json&gt;### AWS- document: &lt;https://docs.aws.amazon.com/general/latest/gr/aws-ip-ranges.html&gt;- data: &lt;https://ip-ranges.amazonaws.com/ip-ranges.json&gt;### Azure- document: &lt;https://www.microsoft.com/en-us/download/details.aspx?id=56519&gt;- data: &lt;https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20201109.json&gt;### Digital Ocean&gt; Not implemented yet.No official documented ip ranges ([thread](https://www.digitalocean.com/community/questions/please-publish-the-digitalocean-public-ip-ranges))### IBM&gt; Not implemented yet.- document: &lt;https://cloud.ibm.com/docs/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-ibm-cloud-ip-ranges&gt;- data: no formatted data source</longdescription>
+</pkgmetadata>

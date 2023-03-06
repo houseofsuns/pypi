@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># spaceyA simple pure python library for simple GIS functionality, enabling one to:* calculate geocentric radius for a given latitude* decimal degree or metre distance between two points* euclidean and noneuclidean area calculation* angle of a three pointed spline</longdescription>
+</pkgmetadata>

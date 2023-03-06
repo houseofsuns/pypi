@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Google APIs common protos[![pypi](https://img.shields.io/pypi/v/google-cloud-audit-log.svg)](https://pypi.org/project/google-cloud-audit-log/)The python classes generated from the `google/cloud/audit`protos in the [googleapis/googleapis](https://github.com/googleapis/googleapis/tree/master/google/cloud/audit) repository.</longdescription>
+</pkgmetadata>

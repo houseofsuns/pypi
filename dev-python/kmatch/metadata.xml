@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image:: https://travis-ci.org/ambitioninc/kmatch.png   :target: https://travis-ci.org/ambitioninc/kmatch.. image:: https://coveralls.io/repos/ambitioninc/kmatch/badge.png?branch=develop    :target: https://coveralls.io/r/ambitioninc/kmatch?branch=develop.. image:: https://pypip.in/v/kmatch/badge.png    :target: https://crate.io/packages/kmatch/    :alt: Latest PyPI version.. image:: https://pypip.in/d/kmatch/badge.png    :target: https://crate.io/packages/kmatch/    :alt: Number of PyPI downloadskmatch======A language for matching/validating/filtering Python dictionariesInstallation------------To install the latest release, type::    pip install kmatchTo install the latest code directly from source, type::    pip install git+git://github.com/ambitioninc/kmatch.gitDocumentation-------------Full documentation is available at http://kmatch.readthedocs.orgLicense-------MIT License (see LICENSE)</longdescription>
+</pkgmetadata>

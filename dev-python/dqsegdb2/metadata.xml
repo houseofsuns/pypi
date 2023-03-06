@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># DQSEGDB2[![PyPI version](https://badge.fury.io/py/dqsegdb2.svg)](http://badge.fury.io/py/dqsegdb2)[![Conda version](https://img.shields.io/conda/vn/conda-forge/dqsegdb2.svg)](https://anaconda.org/conda-forge/dqsegdb2/)[![License](https://img.shields.io/pypi/l/dqsegdb2.svg)](https://choosealicense.com/licenses/gpl-3.0/)[![DOI](https://zenodo.org/badge/136390328.svg)](https://zenodo.org/badge/latestdoi/136390328)![Supported Python versions](https://img.shields.io/pypi/pyversions/dqsegdb2.svg)[![Build status](https://git.ligo.org/duncanmmacleod/dqsegdb2/badges/main/pipeline.svg)](https://git.ligo.org/duncanmmacleod/dqsegdb2/-/pipelines)![Code coverage](https://git.ligo.org/duncanmmacleod/dqsegdb2/badges/main/coverage.svg)[![Documentation status](https://readthedocs.org/projects/dqsegdb2/badge/?version=latest)](https://dqsegdb2.readthedocs.io/en/latest/?badge=latest)DQSEGDB2 is a simplified Python implementation of the DQSEGDB API as defined in[LIGO-T1300625](https://dcc.ligo.org/LIGO-T1300625).This package only provides a query interface for `GET` requests, any userswishing to make `POST` requests should refer to the official `dqsegdb` Pythonclient available from &lt;https://github.com/ligovirgo/dqsegdb/&gt;.## InstallationFor best results, please install from [conda-forge](https://conda-forge.org/):```shellconda install -c conda-forge dqsegdb2```On Unix systems, you can also install directly from PyPI:```shellpip install dqsegdb2```## Basic Usage```pythonfrom dqsegdb2.query import query_segmentsprint(query_segments('G1:GEO-SCIENCE:1', 1000000000, 1000001000))```</longdescription>
+</pkgmetadata>

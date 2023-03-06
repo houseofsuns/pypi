@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>OpenCensus gRPC Integration============================================================================|pypi|.. |pypi| image:: https://badge.fury.io/py/opencensus-ext-grpc.svg   :target: https://pypi.org/project/opencensus-ext-grpc/OpenCensus provides the implementation of interceptors for both the client sideand server side to instrument the gRPC requests and responses. The clientinterceptors are used to create a decorated channel that intercepts clientgRPC calls and server interceptors act as decorators over handlers.gRPC interceptor is a new feature in the grpcio1.8.0 release, please upgradeyour grpcio to the latest version to use this feature.For sample usage, please refer to the hello world example in the examplesdirectory.More information about the gRPC interceptors please see the `proposal`_... _proposal: https://github.com/mehrdada/proposal/blob/python-interceptors/L13-Python-Interceptors.mdInstallation------------::    pip install opencensus-ext-grpcUsage-----Please refer to the `examples &lt;https://github.com/census-instrumentation/opencensus-python/tree/master/contrib/opencensus-ext-grpc/examples&gt;`_.For more information, read `gRPC Python Interceptors &lt;https://github.com/grpc/proposal/blob/master/L13-python-interceptors.md&gt;`_.References----------* `Examples &lt;https://github.com/census-instrumentation/opencensus-python/tree/master/contrib/opencensus-ext-grpc/examples&gt;`_* `gRPC &lt;https://grpc.io/&gt;`_* `OpenCensus Project &lt;https://opencensus.io/&gt;`_</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>General MultiPrecision arithmetic for Pythongmpy is a C-coded Python extension module that provides access to the GMP (or MPIR) multiple-precision arithmetic library.gmpy 1.17 is the final release of the 1.x series. No further updates are planned. All further development is occurring in the 2.x series, also known as gmpy2. Please see https://pypi.python.org/pypi/gmpy2/ for the latest 2.x releases.GMPY allows creation of multiprecision integer (mpz), float (mpf),and rational (mpq) numbers, conversion between them and to/from Python numbers/strings, arithmetic, bitwise, and some other higher-level mathematical operations.Version 1.17 only fixes compatibility with Python 3.x and other C extensions that use gmpy.Version 1.16 fixes a minor issue with the new Decimal type in Python 3.3.Version 1.15 was the last significant release.</longdescription>
+</pkgmetadata>

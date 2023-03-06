@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Sphinx epytext support======================sphinx-epytext provides basic support for epytext docstrings&lt;http://epydoc.sourceforge.net/epytext.html&gt; in Sphinx autodoc &lt;http://sphinx-doc.org/ext/autodoc.html&gt;. It connects to the 'autodoc-process-docstring' hook of Sphinx, to perform the following:- Replaces '@' with ':' for epydoc fields. &lt;http://epydoc.sourceforge.net/fields.html&gt;- Replaces L{..} and C{..} with :py:obj:`..`- Removes U{..} from around linksConfiguration-------------Add it to your extensions in ``conf.py``::    extensions = [        'sphinx.ext.autodoc',        'sphinx_epytext',        # your other sphinx extensions        # ...    ]Then run ``sphinx-build``.</longdescription>
+</pkgmetadata>

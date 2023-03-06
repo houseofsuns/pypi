@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ![](https://www.controllerapp.ml/static/img/favicon.png)  ControllerApp     Now, it`s possible to use your phone as a controller to develop games and interactive programs in python!**ControllerApp** is a tool that allows you to catch all sorts of UI events like a simple tap on your mobile's screen or a device's acceleration directly in your Python code. ## App InstallationThe app is available at [Play Store](https://play.google.com/store/apps/details?id=ml.controllerapp.controllerapp).## Python Package InstallationInstall the controller package using **pip**:``` pip install controller```## How to useThe communication works with a 6-letters code: it`s enought to put the same code in both App and Python code to start using it.In the app, the code field is ommited: You just need to minimize the square to make it appears!In the Python side, you can test the tap functionality with the following example:```pythonfrom controller import Controllerc = Controller('a1b2c3') '''room code'''def myFunction(x,y):    print('hello world',x,y)c.mobile.onTap = myFunction ```## More functionsExplore all the possibilities in the [ControllerApp Documentation](https://www.controllerapp.ml).</longdescription>
+</pkgmetadata>

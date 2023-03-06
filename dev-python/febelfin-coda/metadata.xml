@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>febelfin-coda=============febelfin-coda is a parser for `CODA files`_... _CODA files: https://www.febelfin.be/sites/default/files/2019-04/standard-coda-2.6-en.pdfNutshell--------Import::    &gt;&gt;&gt; import os    &gt;&gt;&gt; from coda import CODAInstantiate::    &gt;&gt;&gt; coda = CODA('coda/CODA.txt')The statements::    &gt;&gt;&gt; len(coda.statements)    1    &gt;&gt;&gt; statement, = coda.statements    &gt;&gt;&gt; statement.account    '435000000080'    &gt;&gt;&gt; statement.account_currency    'EUR'    &gt;&gt;&gt; statement.old_balance    Decimal('0')    &gt;&gt;&gt; statement.old_balance_date    datetime.date(2006, 12, 6)    &gt;&gt;&gt; statement.new_balance    Decimal('9405296.99')    &gt;&gt;&gt; statement.new_balance_date    datetime.date(2006, 12, 7)The transactions::    &gt;&gt;&gt; len(statement.moves)    59    &gt;&gt;&gt; move = statement.moves[0]    &gt;&gt;&gt; move.value_date    datetime.date(2006, 12, 6)    &gt;&gt;&gt; move.entry_date    datetime.date(2006, 12, 6)    &gt;&gt;&gt; move.amount    Decimal('-2578.25')    &gt;&gt;&gt; move.bank_reference    'EPIB00048 AWIUBTKAPUO'    &gt;&gt;&gt; move.transaction_code    '00799000'    &gt;&gt;&gt; move.communication    &quot;BORDEREAU DE DECOMPTE AVANCES    015 NUMERO D'OPERATION 495953&quot;To report issues please visit the `coda bugtracker`_... _coda bugtracker: https://coda.b2ck.com/</longdescription>
+</pkgmetadata>

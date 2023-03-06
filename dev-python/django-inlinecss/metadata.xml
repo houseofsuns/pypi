@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![Build Status](https://travis-ci.org/roverdotcom/django-inlinecss.png?branch=master)](https://travis-ci.org/roverdotcom/django-inlinecss)## AboutInlining CSS is necessary for email generation and sendingbut is currently a surprisingly large hassle.This library aims to make it a breeze in the Djangotemplate language.## Usage#### Step 1: Dependencies- BeautifulSoup- cssutils- Python 2.7+,3.4+- Django 1.11+#### Step 2: Install django_inlinecssAdd ```django_inlinecss``` to your ```settings.py```:```pythonINSTALLED_APPS = (        'django.contrib.auth',        'django.contrib.webdesign',        'django.contrib.contenttypes',        '...',        '...',        '...',        'django_inlinecss')```#### Step 3: Use the templatetag1. Place your CSS file somewhere staticfiles can find it2. Create your template:```html{% load inlinecss %}{% inlinecss &quot;css/extra-padding.css&quot; %}    &lt;html&gt;        &lt;body&gt;            &lt;div class='lots-o-padding'&gt;                Something in need of styling.            &lt;/div&gt;        &lt;/body&gt;    &lt;/html&gt;{% endinlinecss %}```#### Step 4: Prepare to be Wowed```html&lt;html&gt;    &lt;body&gt;        &lt;div style=&quot;padding-left: 10px; padding-right: 10px; padding-top: 10px;&quot; class=&quot;lots-o-padding&quot;&gt;            Something in need of styling.        &lt;/div&gt;    &lt;/body&gt;&lt;/html&gt;```## AcknowledgementsThanks to Tanner Netterville for his efforts on [Pynliner](https://github.com/rennat/pynliner).Thanks to Thomas Yip for his unit tests on the `soupselect` module. These testshelped on getting the core CSS2 selectors to work.## LicenseMIT license. See LICENSE.md for more detail.</longdescription>
+</pkgmetadata>

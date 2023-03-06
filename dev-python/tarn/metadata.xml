@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>A hashmap-based storage on local and remote disks# InstallThe simplest way is to get it from PyPi:```shellpip install tarn```Or if you want to try the latest version from GitHub:```shellgit clone https://github.com/neuro-ml/tarn.gitcd tarnpip install -e .# or let pip handle the cloning:pip install git+https://github.com/neuro-ml/tarn.git```# AcknowledgementsSome parts of our automatic cache invalidation machinery were heavily inspired bythe [cloudpickle](https://github.com/cloudpipe/cloudpickle) project.</longdescription>
+</pkgmetadata>

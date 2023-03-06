@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>``pp``: an alias for pprint++=============================``pp`` can be installed with Python 2 or Python 3 using ``pip`` or``easy_install``::    $ pip install pprintpp pp-ez    - OR -    $ easy_install pprintpp pp-ezThe ``pp`` package is just an alias for the ``pprintpp`` package (and falls backto the ``pprint`` package if ``pprintpp`` isn't available), plus a bit of magicso it can be called directly::    &gt;&gt;&gt; import pp    &gt;&gt;&gt; pp([&quot;Hello&quot;, &quot;world&quot;])    [&quot;Hello&quot;, &quot;world&quot;]    &gt;&gt;&gt; pp.fmt([1, 2, 3])    '[1, 2, 3]'    &gt;&gt;&gt; pp.pprint([1, 2, 3])    [1, 2, 3]    &gt;&gt;&gt; pp.pformat([1, 2, 3])    '[1, 2, 3]'By default, ``pp`` tries to use the ``pprintpp`` package, but if that is notavailable it will fall back to using ``pprint``::    &gt;&gt;&gt; import pp    &gt;&gt;&gt; pp    &lt;module 'pp' (pp_magic_module with pprint_mod='pprint')&gt;    &gt;&gt;&gt; pp.pprint_mod    &lt;module 'pprint' from '.../lib/python2.7/pprint.pyc'&gt;See also: ``pprint++``: https://pypi.python.org/pypi/pprintpp</longdescription>
+</pkgmetadata>

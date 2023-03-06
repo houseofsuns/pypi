@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># MCDM SOLVERSolving **MULTI-CRITERIA DECISIONS PROBLEMS** with python.You can find many methods which can be applied in various area. for more information please send an e-mail to algin.okursoy@gmail.com</longdescription>
+</pkgmetadata>

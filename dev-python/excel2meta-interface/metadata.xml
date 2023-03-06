@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># excel2meta-interfaceConvert Excel input for metadata interfaces## Runto-do## Contribute* Clone this repository* run the following to get the referenced git repositories    ```shell    git submodule init    git submodule update    ```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># urbandictionary-pySimple Python wrapper for Urban Dictionary API.## InstallationWith PyPI:```pip install udpy```## Usage### UrbanDefinitionThis module defines **UrbanDefinition**, an object to represent each Urban Dictionary definition.**UrbanDefinition** has the following accessible attributes:* **word**: the word being defined,* **definition**: the word's definition,* **example**: usage example,* **upvotes**: number of upvotes on Urban Dictionary,* **downvotes**: number of downvotes on Urban Dictionary### ExamplesCreate client:```pythonfrom udpy import UrbanClientclient = UrbanClient()```Lookup by word:```pythondefs = client.get_definition('netflix and chill')&gt;[List of UrbanDef objects]```Lookup random words:```pythonrand = client.get_random_definition()&gt;[List of UrbanDef objects]```Read definitions:```pythonfor d in defs:print(d.definition)&gt;It means that you are going to go over ...&gt;code for two people going to each others ...&gt; &lt;other Netflix and Chill definitions&gt; ...```UrbanDefinition string representation:```pythonfor d in defs:print(d)&gt;Netflix and Chill: It means that you are going to go over to your par... (21776, 7750)&gt;netflix and chill: code for two people going to each others houses an... (8056, 2622)&gt;&lt;word&gt;: &lt;definition trimmed to 50 characters&gt; (&lt;upvotes&gt;, &lt;downvotes&gt;)```Also it has asynchronous interface. Just use `AsyncUrbanClient` and add awaits.</longdescription>
+</pkgmetadata>

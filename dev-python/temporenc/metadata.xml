@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>====================Temporenc for Python====================This is a Python library implementing the `temporenc format&lt;https://github.com/wbolster/temporenc&gt;`_.* `Online documentation &lt;http://temporenc.readthedocs.org/&gt;`_* `Project page (Github) &lt;https://github.com/wbolster/temporenc-python&gt;`_</longdescription>
+</pkgmetadata>

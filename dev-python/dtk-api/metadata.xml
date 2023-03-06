@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># 大淘客接口这个项目里面是大淘客的接口信息(当前仅仅生成 Python 的代码)## 注意:    这个接口仅仅是为了内部使用，虽然您可以获取它的源代码，但是请不要使用在您的项目中.    当前我并不对兼容性以及可用性做任何保证。(如果需要使用请联系开发者获取相应的授权)</longdescription>
+</pkgmetadata>

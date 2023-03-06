@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Gradescope Python Utilities[![PyPI version](https://badge.fury.io/py/gradescope-utils.svg)](https://badge.fury.io/py/gradescope-utils)[![Documentation Status](https://readthedocs.org/projects/gradescope-utils/badge/?version=latest)](https://gradescope-utils.readthedocs.io/en/latest/?badge=latest)## InstallingMake sure you have pip installed (eg. on Debian/Ubuntu, `apt-get install python-pip`).Then, run `pip install gradescope-utils`## Packages- [Autograder Utilities](/gradescope_utils/autograder_utils)## ChangelogSee the [Releases](https://github.com/gradescope/gradescope-utils/releases) page.## Releasing new versionsFollow https://packaging.python.org/tutorials/packaging-projects/, but in brief:1. Bump the version in setup.py2. Draft a release on https://github.com/gradescope/gradescope-utils/releases  - This can take care of tagging for you. Otherwise, tag the commit: `git tag vX.Y.Z COMMIT_SHA`  - Make sure that the setup.py version matches the release/tag version  - GitHub releases can help auto-generate release notes from merged PRs. Edit these as necessary.3. Publish the release on GitHub. GitHub Actions will build and publish a new release when a version is tagged (e.g. when a GitHub release is published).## SupportContact us at [help@gradescope.com](mailto:help@gradescope.com) if you need help with these packages.</longdescription>
+</pkgmetadata>

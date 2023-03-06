@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Substring MatchA Python library written in Rust that can be used to search a collection of strings for strings containing a pattern.## Installation```pip install substring-match```## Usage```pythonfrom substring_match import SubstringMatcherm = SubstringMatcher([&quot;banana&quot;, &quot;apple tree&quot;, &quot;pineapple tree&quot;])m.find(&quot;apple&quot;)# [&quot;apple tree&quot;, &quot;pineapple tree&quot;]```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image:: https://img.shields.io/pypi/v/wolframalpha.svg   :target: `PyPI link`_.. image:: https://img.shields.io/pypi/pyversions/wolframalpha.svg   :target: `PyPI link`_.. _PyPI link: https://pypi.org/project/wolframalpha.. image:: https://github.com/jaraco/wolframalpha/workflows/tests/badge.svg   :target: https://github.com/jaraco/wolframalpha/actions?query=workflow%3A%22tests%22   :alt: tests.. image:: https://img.shields.io/badge/code%20style-black-000000.svg   :target: https://github.com/psf/black   :alt: Code style: Black.. image:: https://readthedocs.org/projects/wolframalpha/badge/?version=latest   :target: https://wolframalpha.readthedocs.io/en/latest/?badge=latestPython Client built against the `Wolfram|Alpha &lt;http://wolframalpha.com&gt;`_v2.0 API.Usage=====See the self-documenting source in`the docs &lt;https://wolframalpha.readthedocs.io/en/latest/?badge=latest&gt;`_for examples to get started.</longdescription>
+</pkgmetadata>

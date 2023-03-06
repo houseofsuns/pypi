@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># onnxmodel-utilsutils for working with onnx models## ExampleSimple if model```pythonfrom onnxmodel_utils import Model, build_if_modelmodel1 = Model.load('model1.onnx')model2 = Model.load('model2.onnx')model = build_if_model(    &quot;if_model&quot;,    &quot;cond&quot;,    model1,    model2,)model.save('if_model.onnx')import onnxruntimesess = onnxruntime.InferenceSession('if_model.onnx')inps = {    &quot;input&quot;: np.random.randn(1, 3, 224, 224).astype(np.float32),    &quot;cond&quot;: np.array([True]).astype(np.bool),}out1 = sess.run(None, inps)inps[&quot;cond&quot;] = np.array([False]).astype(np.bool)out2 = sess.run(None, inps)```Optional cache model```pythonfrom onnxmodel_utils import Model, build_if_model_with_cachedecoder = Model.load(&quot;decoder.onnx&quot;)decoder_init = Model.load(&quot;decoder_init.onnx&quot;)model = build_if_model_with_cache(    name=&quot;merged_model&quot;,    cache_model=decoder,    cacheless_model=decoder_init,    cache_names=[&quot;pasts&quot;, &quot;pasts_st&quot;],)model.save(&quot;merged_model.onnx&quot;)import onnxruntimeimport numpy as npsess = onnxruntime.InferenceSession(&quot;merged_model.onnx&quot;)inps = {    &quot;input_ids&quot;: np.array([[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]], dtype=np.int64),    &quot;target_ids&quot;: np.array([[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]], dtype=np.int64),    &quot;pasts&quot;: None,    &quot;pasts_st&quot;: None,}init_out = sess.run(None, inps)inps[&quot;pasts&quot;] = init_out[1]inps[&quot;pasts_st&quot;] = init_out[2]out = sess.run(None, inps)```## Installation```bashpip install onnxmodel-utils```</longdescription>
+</pkgmetadata>

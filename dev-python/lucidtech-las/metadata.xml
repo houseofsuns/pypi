@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Python SDK for Lucidtech AI Services API![Github Actions build status](https://github.com/LucidtechAI/las-sdk-python/workflows/main/badge.svg)## Documentation[Link to docs](https://docs.cradl.ai/python-docs/index.html)## Installation```bash$ pip install lucidtech-las```## UsageSign up for free [here](https://app.cradl.ai/signup) and download API credentials to use this SDK.Read more about authenticating to the API [here](https://docs.cradl.ai/overview/authentication)### Quick start```pythonimport jsonfrom las import Clientclient = Client()models = client.list_models()['models'] # List all models availablemodel_id = models[0]['modelId'] # Get ID of first model in listdocument = client.create_document('path/to/document.pdf')prediction = client.create_prediction(document['documentId'], model_id=model_id)print(json.dumps(prediction, indent=2))```## Contributing### Prerequisites```bash$ pip install -r requirements.txt$ pip install -r requirements.ci.txt```### Run tests```bash$ make prism-start$ python -m pytest```### Create docs```bash$ tox -e docs .docsout```</longdescription>
+</pkgmetadata>

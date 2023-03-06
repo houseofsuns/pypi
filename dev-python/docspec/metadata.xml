@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># docspecThis Python packages provides* A library to (de-) serialize Docspec conformat JSON payloads* A CLI to validate and introspect such payloadsExample:```pyimport docspec, sysfor module in docspec.load_modules(sys.stdin):  module.members = [member for member in module.members if member.docstring]  docspec.dump_module(sys.stdout)``````$ docspec module.json --dump-treemodule docspec| class Location| | data filename| | data lineno| class Decoration| | data name# ...```The `docspec` Python module requires Python 3.5 or newer.---&lt;p align=&quot;center&quot;&gt;Copyright &amp;copy; 2020, Niklas Rosenstein&lt;/p&gt;</longdescription>
+</pkgmetadata>

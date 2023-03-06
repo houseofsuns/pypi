@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Helpers for Flask.====================Helpers for Flask. 使用示例 `codeif/flask-zs-template  &lt;https://github.com/codeif/flask-zs-template&gt;`_依赖:- flask- requests安装----.. code-block:: sh    pip install flask-zs额外安装 `codeif/zs-mixins &lt;https://github.com/codeif/zs-mixins&gt;`_.. code-block:: sh    pip install flask-zs[mixins]集中models-------------把models集中到一个__init__.py中(zsdemo为package name)::    PYTHONPATH=. collect-models &lt;zsdemo&gt; instance/__init__.py</longdescription>
+</pkgmetadata>

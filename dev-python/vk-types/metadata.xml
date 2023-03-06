@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Vk types(deprecated)**Warning** This library is forked from abandoned project that I've found on github  this repo updates when needed, so your PR's are welcome!5.101pypi: https://pypi.org/project/vk-types/## Install```shpip install vk_types```## UsageSimple example```pythonpass```## Authors👤 **[prostomarkeloff](https://github.com/prostomarkeloff)**  👤 **[kz159](https://github.com/kz159)**</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Pytorch Functional&gt; THIS PROJECT WAS RENAMED!&gt;&gt; New name is Pytorch Symbolic.&gt;&gt; The main reason is the ambiguity with `torch.nn.functional`.## NEW LINKS* https://pytorch-symbolic.readthedocs.io/* https://github.com/gahaalt/pytorch-symbolic/* https://pypi.org/project/pytorch-symbolic/## InstallationInstall new version with pip:```pip install pytorch-symbolic```</longdescription>
+</pkgmetadata>

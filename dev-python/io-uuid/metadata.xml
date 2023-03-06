@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># io-uuidyou need to create files and care about not overwriting files?This util could help with that.## Features- creates ids for files- ids can be created with prefixes (e.g. the real file name)- even suffixes can be added## SupportIf you want to add something, create an issue and do a pull request.</longdescription>
+</pkgmetadata>

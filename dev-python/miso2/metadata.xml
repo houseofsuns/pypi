@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># particle-classificationPython scripts for particle classificationhttps://stackoverflow.com/questions/53779509/upload-failed-403-invalid-or-non-existent-authentication-information-python</longdescription>
+</pkgmetadata>

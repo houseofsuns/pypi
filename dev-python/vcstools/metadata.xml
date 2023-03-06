@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>vcstools========.. image:: https://travis-ci.org/vcstools/vcstools.svg?branch=master    :target: https://travis-ci.org/vcstools/vcstools.. image:: https://coveralls.io/repos/github/vcstools/vcstools/badge.svg?branch=master    :target: https://coveralls.io/github/vcstools/vcstools?branch=master.. image:: https://img.shields.io/pypi/v/vcstools.svg    :target: https://pypi.python.org/pypi/vcstools.. image:: https://img.shields.io/pypi/pyversions/vcstools.svg    :target: https://pypi.python.org/pypi/vcstools.. image:: https://img.shields.io/pypi/status/vcstools.svg    :target: https://pypi.python.org/pypi/vcstools.. image:: https://img.shields.io/pypi/l/vcstools.svg    :target: https://pypi.python.org/pypi/vcstools.. image:: https://img.shields.io/pypi/dd/vcstools.svg    :target: https://pypi.python.org/pypi/vcstools.. image:: https://img.shields.io/pypi/dw/vcstools.svg    :target: https://pypi.python.org/pypi/vcstools.. image:: https://img.shields.io/pypi/dm/vcstools.svg    :target: https://pypi.python.org/pypi/vcstoolsThe vcstools module provides a Python API for interacting with different version control systems (VCS/SCMs)It is used in tools like `wstool &lt;https://wiki.ros.org/wstool&gt;`_ and `rosinstall &lt;https://docs.ros.org/independent/api/rosinstall/html/&gt;`_, which are frequently used in ROS.This should not be confused with ``vcstool`` (no trailing ``s``), which provides the ``vcs`` command line tool and is otherwise unrelated to this repository, see: https://github.com/dirk-thomas/vcstoolSee http://www.ros.org/doc/independent/api/vcstools/html/Installing----------See `documentation &lt;http://docs.ros.org/independent/api/vcstools/html/&gt;`_</longdescription>
+</pkgmetadata>

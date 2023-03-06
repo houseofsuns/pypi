@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;a id=&quot;librelingo_yaml_loader.yaml_loader&quot;&gt;&lt;/a&gt;# librelingo\_yaml\_loader.yaml\_loader&lt;a id=&quot;librelingo_yaml_loader.yaml_loader.load_course&quot;&gt;&lt;/a&gt;#### load\_course```pythondef load_course(path: str)```Load a YAML-based course into a Course() object</longdescription>
+</pkgmetadata>

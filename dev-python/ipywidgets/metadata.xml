@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ipywidgets: Interactive HTML Widgets**ipywidgets**, also known as jupyter-widgets or simply widgets, are[interactive HTML widgets](https://github.com/jupyter-widgets/ipywidgets/blob/main/docs/source/examples/Index.ipynb)for Jupyter notebooks and the IPython kernel.This package contains the python implementation of the core interactive widgets bundled in ipywidgets.## Core Interactive WidgetsThe fundamental widgets provided by this library are called core interactivewidgets. A [demonstration notebook](https://github.com/jupyter-widgets/ipywidgets/blob/main/docs/source/examples/Index.ipynb)provides an overview of the core interactive widgets, including:- sliders- progress bars- text boxes- toggle buttons and checkboxes- display areas- and moreFor more information, see the main [documentation](https://github.com/jupyter-widgets/ipywidgets#readme).</longdescription>
+</pkgmetadata>

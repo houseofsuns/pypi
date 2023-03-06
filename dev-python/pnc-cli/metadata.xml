@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>#pnc-cliA python CLI around the PNC REST APIInstallation: * python setup.py install --userUsage: * Configure the REST endpoint for PNC in USER_HOME/.config/pnc-cli/pnc-cli.conf * pnc -h for a list of valid operations.Currently outputs the raw JSON. More refined output is definitely in the works :) #TestsRequirements: * py.test (pip install pytest) * mock (pip install mock) * GitPython (pip install GitPython)Run any of the testing scripts to see results. The tested instance is configured by the local file ~/.config/pnc-cli/pnc-cli.conf </longdescription>
+</pkgmetadata>

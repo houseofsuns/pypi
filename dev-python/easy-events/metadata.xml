@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># easy-events**A library that help you to manage events**## Getting started1. [**Installation**](#installation)2. [**Usages**](#usages)3. [**Code example**](#code-example)4. [**Documentation**](#documentation)## Installation`pip install easy-events`GitHub : [Github](https://github.com/ThePhoenix78/Commands)## Usagestext## Code example```pyfrom easy_events import EasyEvents# create an event or use it in a classclient = EasyEvents()# create another event (can be sync or async)# you can put as much parameters as you want@client.add_event(&quot;test1&quot;)def test(data, arg1, arg2, *, arg3):# data is the default parameter, it contain some basic informations that you can format as you wantprint(data, arg1, arg2, arg3)# trigger the event# dict wayclient.trigger({&quot;event&quot;: &quot;test1&quot;, &quot;parameters&quot;: {&quot;arg1&quot;: &quot;arg1&quot;, &quot;arg2&quot;: &quot;arg2&quot;, &quot;arg3&quot;: [&quot;arg3&quot;, &quot;arg4&quot;]}})# dict way v2client.trigger({&quot;event&quot;: &quot;test&quot;, &quot;parameters&quot;: [&quot;arg1&quot;, &quot;arg2&quot;, &quot;arg3&quot;, &quot;arg4&quot;]})# dict way v3client.trigger({&quot;event&quot;: &quot;test1&quot;, &quot;parameters&quot;: &quot;arg1 arg2 arg3 arg4&quot;})# list wayclient.trigger([&quot;test&quot;, &quot;arg1&quot;, &quot;arg2&quot;, &quot;arg3&quot;, &quot;arg4&quot;])# str wayclient.trigger(&quot;test arg1 arg2 arg3 arg4&quot;)# the result will be (for all cases):# arg1 = arg1# arg2 = arg2# arg3 = [arg3, arg4]```</longdescription>
+</pkgmetadata>

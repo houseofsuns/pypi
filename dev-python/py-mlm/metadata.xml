@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># mlm mlm - manga library manager. Read, track, and download latest chapters of yourmanga library with mlm. Depends on zathura, gallery-dl, and tar</longdescription>
+</pkgmetadata>

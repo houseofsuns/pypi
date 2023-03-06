@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Click Datetime (in progress)Click support for Python's Datetime types to allow developers to easy parse date strings asparameters to Python commandline tools.**Note :** This package is VERY new and is still under development.## Use Casehttps://github.com/pallets/click/issues/603## Authors- Dawson Reid (@ddaws)</longdescription>
+</pkgmetadata>

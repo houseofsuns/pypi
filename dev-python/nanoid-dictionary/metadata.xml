@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Nano ID dictionary******************Alphabets and string functions designed to be used with `Nano ID &lt;https://github.com/puyuan/py-nanoid&gt;`__.Installation============.. code:: bash    pip install nanoid-dictionaryUsage=====Available alphabets and functions:* ``alphabet_std``* ``human_alphabet``* ``lookalikes``* ``lowercase``* ``numbers``* ``prevent_misreadings(unsafe_chars, alphabet)``* ``uppercase````prevent_misreadings(unsafe_chars, alphabet)`` accepts a string and removes all the characters that look similar by default. The function is also case-insensitive... code:: python    from nanoid_dictionary import *    alphabet_std   # =&gt; _-0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ    human_alphabet # =&gt; _-23456789abcdefghijkmnpqrstuvwxyzABCDEFGHIJKMNPQRSTUVWXYZ    lookalikes                               # =&gt; 1l0o    lowercase                                # =&gt; abcdefghijklmnopqrstuvwxyz    numbers                                  # =&gt; 0123456789    prevent_misreadings(lookalikes, 'a1l0o') # =&gt; a    uppercase                                # =&gt; ABCDEFGHIJKLMNOPQRSTUVWXYZThanks to=========* Andrey Sitnik for `Nano ID &lt;https://github.com/ai/nanoid&gt;`__.* Aleksandr Zhuravlev for incredible `Nano ID calculator &lt;https://zelark.github.io/nano-id-cc&gt;`__.</longdescription>
+</pkgmetadata>

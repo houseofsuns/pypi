@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>The pprocess module provides elementary support for parallel        programming in Python using a fork-based process creation model in        conjunction with a channel-based communications model implemented        using socketpair and poll.</longdescription>
+</pkgmetadata>

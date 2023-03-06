@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># np_audio_control### *For use on internal Allen Institute network*[![PythonVersions](https://img.shields.io/pypi/pyversions/np_audio_control.svg)](https://pypi.python.org/pypi/np-audio-control/)Tools for remote control of Windows system audio on Mindscope Neuropixels and Behavior rigs.Uses SetVol v3.4 (https://www.rlatour.com/setvol/)## Install```shellpython -m pip install np_audio_control```## Basic usage```python&gt;&gt;&gt; from np_audio_control import mute, unmute, set_volume, get_volume&gt;&gt;&gt; host = 'W10LTPC2BC51P'# interact with default audio device &gt;&gt;&gt; mute(host)&gt;&gt;&gt; unmute(host)&gt;&gt;&gt; set_volume(50, host)&gt;&gt;&gt; get_volume(host)50# interact with specific device (see SetVol `device name` argument)&gt;&gt;&gt; device = 'Speakers (Realtek USB2.0 Audio)'&gt;&gt;&gt; mute(host, device)&gt;&gt;&gt; set_volume(50, host, device)# send any command to SetVol&gt;&gt;&gt; from np_audio_control import send_setvol_cmd&gt;&gt;&gt; send_setvol_cmd(host, 'beep')```</longdescription>
+</pkgmetadata>

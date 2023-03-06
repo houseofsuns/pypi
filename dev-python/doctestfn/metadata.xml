@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>doctestfn=========[![PyPI](https://img.shields.io/pypi/v/doctestfn)](https://pypi.org/project/doctestfn/)Run doctests for one Python function in a moduleInstallation------------The program can be installed using pip:```pip3 install doctestfn```Usage-----```usage: doctestfn [-h] [-v] module functionRun doctests for one functionpositional arguments:  module         Module to load  function       Function to testoptional arguments:  -h, --help     show this help message and exit  -v, --verbose  Enable verbose doctest output```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Neuro Platform LoggingUsage:```pythonfrom neuro_logging import init_loggingimport logginginit_logging()logging.info(&quot;Some info&quot;)```By default `init_logging()` will forward all `errors` and `critical` messages to `stderr`. All other type of messages will be forwarded to `stdout`.You can pass own dict-based config with custom setting i.e. for disable warning in asyncio and concurrent```pythonfrom neuro_logging import init_logging, DEFAULT_CONFIGimport loggingcustom_config = dict(DEFAULT_CONFIG)custom_config.update({&quot;loggers&quot;: {&quot;asyncio&quot;: {&quot;level&quot;: &quot;ERROR&quot;}, &quot;concurrent&quot;: {&quot;level&quot;: &quot;ERROR&quot;}}})init_logging(custom_config)```</longdescription>
+</pkgmetadata>

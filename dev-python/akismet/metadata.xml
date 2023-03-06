@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. -*-restructuredtext-*-.. image:: https://github.com/ubernostrum/akismet/workflows/CI/badge.svg   :alt: CI status image   :target: https://github.com/ubernostrum/akismet/actions?query=workflow%3ACI``akismet`` is a Python library wrapping `the Wordpress Akismetspam-detection service &lt;https://akismet.com/&gt;`_. All methods of theAkismet API are supported:* Checking comments for spam* Reporting comments incorrectly classified as not spam* Reporting comments incorrectly classified as spamUse of this module requires an Akismet API key (which must be obtainedfrom the Akismet service).The Python ``akismet`` module was originally written by Michael Foord.Full documentation is `available online &lt;http://akismet.readthedocs.io/&gt;`_.</longdescription>
+</pkgmetadata>

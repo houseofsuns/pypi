@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>taurus_pyqtgraph is an extension for the Taurus package.It adds the taurus.qt.qtgui.tpg submodule which provides pyqtgraph-basedwidgets.</longdescription>
+</pkgmetadata>

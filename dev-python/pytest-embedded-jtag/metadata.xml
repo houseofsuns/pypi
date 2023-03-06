@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>### pytest-embedded-jtagpytest embedded service for openocd/gdb utilitiesExtra Functionalities:- `openocd`: enable the fixture- `gdb`: enable the fixture- `dut`: duplicate the `openocd` output and the `gdb` output to `dut.pexpect_proc`.Used CLI Options:- `gdb-prog-path`- `gdb-cli-args`- `openocd-prog-path`- `openocd-cli-args`</longdescription>
+</pkgmetadata>

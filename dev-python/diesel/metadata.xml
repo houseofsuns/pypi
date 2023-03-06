@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>diesel is a framework for easily writing reliable and scalable networkapplications in Python.  It uses the greenlet library layered atopasynchronous socket I/O in Python to achieve benefits of boththe threaded-style (linear, blocking-ish code flow) and evented-style(no locking, low overhead per connection) concurrency paradigms.  It'sdesign is heavily inspired by the Erlang/OTP platform.It contains high-quality buffering, queuing and synchronization primitives,procedure supervision and supervision trees, connection pools, seamlessthread integration, and more.An HTTP/1.1+WSGI+WebSockets implementation is included, as well as tightintegration with the Flask web framework.Other bundled protocols include MongoDB, Riak, and Redis client libraries.</longdescription>
+</pkgmetadata>

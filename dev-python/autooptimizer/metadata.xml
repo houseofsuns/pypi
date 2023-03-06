@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>AutoOptimizer package provides tools for automatically optimizing machine learning models. It uses Exhaustive Search Mechanism with Hyperparameter Tuning for optimizing machine learning models. It also provides evaluation metrics for regression models, and ability to delete outliers with several methods.#Prerequisites:&gt;{ sklearn - numpy - pandas }#Install package:&gt;pip install autooptimzer#Install package in jupyter notebook:&gt;1- open anaconda prompt (It is recommended open as administrator)&gt;2- pip install autooptimzer#Usage:&gt;Optimize machine learning models using python.&gt;&gt;Clustering: DBSCAN, KMeans, MeanShift, Mini Batch K-Means&gt;&gt;Supervised: KNeighborsClassifier, KNeighborsRegressor, DecisionTreeClassifier, DecisionTreeRegressor, SupportVectorClassifier, SupportVectorRegressor, LogisticRegression, LinearRegression&gt;&gt;Ensemble: RandomForestClassifier, RandomForestRegressor, GradientBoostingClassifier, GradientBoostingRegressor, AdaBoostClassifier, AdaBoostRegressor, BaggingClassifier, BaggingRegressor, ExtraTreesClassifier&gt;Metrics for regression models.&gt;Clear data by removing outliers.Download Document: https://genesiscube.ir/wp-content/uploads/2023/03/Auto-Optimizer-document-0.8.9.pdfFor more information visit: https://genesiscube.ir/autooptimizer/#Contact and Contributing:Please share your good ideas with us. Thanks for contributing with the program.&gt;&gt;https://github.com/mrb987/autooptimizer&gt;&gt;info@GenesisCube.ir&gt;&gt;www.GenesisCube.ir</longdescription>
+</pkgmetadata>

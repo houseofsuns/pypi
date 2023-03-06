@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>*python-afl* is an experimental module that enables`American Fuzzy Lop`_ fork server and instrumentation for pure-Python code... _American Fuzzy Lop: http://lcamtuf.coredump.cx/afl/</longdescription>
+</pkgmetadata>

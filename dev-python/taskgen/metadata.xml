@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Task Generator Core===========Ядро генератора банка задач на базе MiKTeX и Jupyter Notebook.Для работы с ядром необходимо использовать панель управления, которая размещена здесь - https://github.com/artyom-zolotarevskiy/taskgenПо всем вопросам: artyom@zolotarevskiy.ru.Возможности----------Ядро в связке с панелью управления решают задачу генерации параметризованного банка задач для методического сопровождения различных математических дисциплин в ВУЗе.В качестве языка разметки используется TeX на базе дистрибутива MiKTeX, а за параметризацию отвечает Python на базеJupyter Notebook, входящий в Anaconda.Результатом работы является уникальный банк задач в форматах TeX, HTML, PDF и Moodle XML. В скором времени планируется добавить создание параметризированных интерактивных блокнотов Jupyter для учебного процесса.Установка----------Выполните следующую команду для установки актуальной версии ядра:```pip install taskgen```Дальнейшую работу осуществляйте через панель управления - https://github.com/artyom-zolotarevskiy/taskgenЛицензия-------Copyright (c) 2023 Артём ЗолотаревскийСвязь с автором: artyom@zolotarevskiy.ruБлагодарности-------Отдельная благодарность научному руководителю, Павлу Евгеньевичу Рябову,за постановку задачи и постоянное внимание к работе.</longdescription>
+</pkgmetadata>

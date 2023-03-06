@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>plotto contains a function to display a set of interactive charts created with Altair## InstallingThe latest release can be installed using pip```bashpip install plotto```see the [Documentation](https://plotto.readthedocs.io/en/latest/) for more details.</longdescription>
+</pkgmetadata>

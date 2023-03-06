@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Faraday Agent Parameters TypesThe [faraday agents][dispatcher] run code remotely to secure your domains. This info is triggered and published to a[faraday server][faraday] instance, which had set the parameters of the code. This repository sets the models tobe used by both sides.Features--------* Set the models of parameters types for the agents:    * How to pass them by identifier strings    * How to encode/decode them to pass data between the [Faraday server][faraday], and the [agents][dispatcher]Credits-------This package was created with [Cookiecutter][cookiecutter] and the[`audreyr/cookiecutter-pypackage`][cookiecutter-pypackage] project template.[cookiecutter]: https://github.com/audreyr/cookiecutter[cookiecutter-pypackage]: https://github.com/audreyr/cookiecutter-pypackage[faraday]: https://github.com/infobyte/faraday[dispatcher]: https://github.com/infobyte/faraday_agent_dispatcher1.0.1 [Aug 9th, 2021]:--- * New manifest for InsightVM agent * Remove HOST and API from parameters1.0.0 [Jun 29th, 2021]:--- * First release of module0.1.0 [May 14th, 2021]:--- * Release of first stable version, to use in multiples pipelines0.1.0a1 [Apr 22nd, 2021]:--- * Encode/Decode the types, plus identifier logic * First release of the package, in alpha status</longdescription>
+</pkgmetadata>

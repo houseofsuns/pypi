@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>======================aliyun-python-sdk-core======================This is the core module of Aliyun Python SDK.Aliyun Python SDK is the official software development kit. It makes things easy to integrate your Python application,library, or script with Aliyun services.This module works on Python versions:   * 3.0 and greaterDocumentation:Please visit https://github.com/duangy/aliyunsdkcore</longdescription>
+</pkgmetadata>

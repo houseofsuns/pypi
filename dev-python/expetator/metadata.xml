@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># expetatorA tool for running HPC benchmarks using several type of leverages (DVFS) and low-level monitoring (hardware performance counters, RAPL) mostly on Grid5000.Documentation is available here: https://expetator.readthedocs.io/Source code is available here: https://gitlab.irit.fr/sepia-pub/expetatorTo install expetator:pip3 install expetator</longdescription>
+</pkgmetadata>

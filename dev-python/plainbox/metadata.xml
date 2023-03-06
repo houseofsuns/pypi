@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>PlainBox========PlainBox is a toolkit consisting of python3 library, development tools,documentation and examples. It is targeted at developers working on testing orcertification applications and authors creating tests for such applications.PlainBox can be used to both create simple and comprehensive test tools as wellas to develop and execute test jobs and test scenarios. It was created as arefined and rewritten core of the CheckBox project. It has a well tested anddocumented core, small but active development community and a collection ofassociated projects that use it as a lower-level engine/back-end library.PlainBox has a novel approach to discovering (and probing) hardware andsoftware that is extensible and not hardwired into the system. It allows testdevelopers to express association between a particular test and the hardware,software and configuration constraints that must be met for the test to executemeaningfully. This feature, along with pluggable test definitions, makesPlainBox flexible and applicable to many diverse testing situations, rangingfrom mobile phones, traditional desktop computers, servers and up to testing&quot;cloud&quot; installations.External Documentation Links============================* `Using PlainBox &lt;http://plainbox.readthedocs.org/en/latest/usage.html&gt;`_* `Hacking on PlainBox &lt;http://plainbox.readthedocs.org/en/latest/dev/index.html&gt;`_* `Testing PlainBox &lt;http://plainbox.readthedocs.org/en/latest/dev/intro.html#running-plainbox-tests&gt;`_Known Issues============https://bugs.launchpad.net/plainbox</longdescription>
+</pkgmetadata>

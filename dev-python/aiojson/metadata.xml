@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>aiojson=======|pipeline status| |coverage report| |pypi link|.. |coverage report| image:: https://git.yurzs.dev/yurzs/aiojson/badges/master/coverage.svg   :target: https://git.yurzs.dev/yurzs/aiojson/-/commits/master.. |pipeline status| image:: https://git.yurzs.dev/yurzs/aiojson/badges/master/pipeline.svg   :target: https://git.yurzs.dev/yurzs/aiojson/-/commits/master.. |pypi link| image:: https://badge.fury.io/py/aiojson.svg   :target: https://pypi.org/project/aiojsonSimple json template verifier for ``aiohttp``Usage-----Simple example:.. code-block:: python    from aiohttp import JsonTemplate    @JsonTemplate({        &quot;messages&quot;: [{            &quot;id&quot;: int,            &quot;text&quot;: str    }])    async def received_message(request, validated_data):        pass</longdescription>
+</pkgmetadata>

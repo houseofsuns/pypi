@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># APIFairy[![Build status](https://github.com/miguelgrinberg/apifairy/workflows/build/badge.svg)](https://github.com/miguelgrinberg/apifairy/actions) [![codecov](https://codecov.io/gh/miguelgrinberg/apifairy/branch/main/graph/badge.svg)](https://codecov.io/gh/miguelgrinberg/APIFairy)APIFairy is a minimalistic API framework built on top of Flask, and with thesupport of Marshmallow schemas. Using a familiar decorator syntax you cangenerate a live documentation site directly from your source code.Check out [Microblog-API](https://github.com/miguelgrinberg/microblog-api) tosee APIFairy in action in a non-trivial project.![APIFairy example](docs/_static/apispec-example.png)Resources---------- [Documentation](http://apifairy.readthedocs.io/en/latest/)- [PyPI](https://pypi.python.org/pypi/APIFairy)- [Change Log](https://github.com/miguelgrinberg/APIFairy/blob/main/CHANGES.md)</longdescription>
+</pkgmetadata>

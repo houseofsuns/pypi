@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># boto3-typeLightweight type check for boto3 service, resource instances.## Install:```bashpip install boto3_type```## Problem:```PythonIn [1]: import boto3In [2]: import botocoreIn [3]: s3 = boto3.client(&quot;s3&quot;)In [4]: type(s3)Out[4]: botocore.client.S3In [5]: isinstance(s3, botocore.client.S3)---------------------------------------------------------------------------AttributeError                            Traceback (most recent call last)&lt;ipython-input-5-a7f37740cc80&gt; in &lt;module&gt;----&gt; 1 isinstance(s3, botocore.client.S3)AttributeError: module 'botocore.client' has no attribute 'S3'```## Usage:```PythonIn [1]: import boto3In [2]: import boto3_type as btIn [3]: client = boto3.client(&quot;ecs&quot;)In [4]: resource = boto3.resource(&quot;s3&quot;)In [5]: bucket = resource.Bucket(&quot;test-bucket&quot;)In [6]: bt.is_client(client)Out[6]: TrueIn [7]: bt.client.istype(client, &quot;ecs&quot;)Out[7]: TrueIn [8]: bt.is_resource(resource)Out[8]: TrueIn [9]: bt.resource.istype(resource, &quot;s3&quot;)Out[9]: TrueIn [10]: bt.s3.istype(bucket, &quot;bucket&quot;)Out[10]: TrueIn [11]: bt.is_resource(client)Out[11]: FalseIn [12]: bt.is_client(resource)Out[12]: False```</longdescription>
+</pkgmetadata>

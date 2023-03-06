@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>ucamcl======This package provides a simple tool for checking answersto exercises in a Jupyter notebook.Usage::  # Install the grader  !pip install ucamcl  # Log in to the grader. It will prompt you with a &quot;log in&quot; button.  GRADER = ucamcl.autograder('https://markmy.solutions', course='scicomp').subsection('notes1')  # Fetch a question. It will tell you what to do, with what parameters.  q = GRADER.fetch_question('ex5')  print(q)  # Prepare your answer and submit it.  myans = {'x': [i**2 for i in range(q['n'])]  is_correct, answer = GRADER.submit_answer(q, myans)This package is what the student installs in their Jupyter notebook.The other half is a server that should be set up by the course instructor.Contact Damon Wischik &lt;djw1005@cam.ac.uk&gt; for details.</longdescription>
+</pkgmetadata>

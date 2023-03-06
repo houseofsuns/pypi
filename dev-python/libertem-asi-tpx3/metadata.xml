@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># LiberTEM-asi-tpx3A Rust+Python library for receiving sparse array streams from AmsterdamScientific Instruments CheeTah TPX3 detectors.# DevelopmentNeeds to have a Python environment active, and a recent rust toolchain installed.- `pip install maturin[patchelf] numpy`- `maturin develop -r`- `python examples/simple.py`</longdescription>
+</pkgmetadata>

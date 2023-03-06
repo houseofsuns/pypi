@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Basic open source license collector script.Outputs a licenses.json file.Currently supported platforms:* Debian* Alpine* PythonPlanned:* Node## Usage```pip3 install olcdetect_licenses $PROJECTNAME```</longdescription>
+</pkgmetadata>

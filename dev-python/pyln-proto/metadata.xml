@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pyln-proto: Lightning Network protocol implementationThis package implements some of the Lightning Network protocol in purepython. It is intended for protocol testing and some minor tooling only. It isnot deemed secure enough to handle any amount of real funds (you have beenwarned!).## Installation`pyln-proto` is available on `pip`:```pip install pyln-proto```Alternatively you can also install the development version to get access tocurrently unreleased features by checking out the Core Lightning source code andinstalling into your python3 environment:```bashgit clone https://github.com/ElementsProject/lightning.gitcd lightning/contrib/pyln-protopoetry install```This will add links to the library into your environment so changing thechecked out source code will also result in the environment picking up thesechanges. Notice however that unreleased versions may change API withoutwarning, so test thoroughly with the released version.</longdescription>
+</pkgmetadata>

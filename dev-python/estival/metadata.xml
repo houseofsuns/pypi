@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># estivalCalibration and optimization tools for summerA minimal pip-installable package providing MCMC and support tools for use with the summer2 library Based on the AuTuMN calibration modulehttps://github.com/monash-emu/AuTuMN</longdescription>
+</pkgmetadata>

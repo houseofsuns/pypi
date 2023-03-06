@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># File TyperAppend extension in files without-it, based on mimetypesSome files comes without any extension and windows complyabout it! Because of that, several tools, including Windows Explorer cannotshow the users the file preview, and cannot open-it.This tool allows the user pass an directory/file and traverse-it, renamingfiles, putting extension of known table into-it, based on mimetypesNow, if an FileListInfo found, the tool process-it and rename files acording to metadata presented. (this file is sent by Apple in law enforcement return).## Requirements* You must install Python 3.8 ou superior.* Works only on Linux or MacOS## Installation*file-typer* can be installed using pip:    python3 -m pip install -U file-typerIf you want to run the latest version of the code, you can install from git:    python3 -m pip install -U git+https://github.com/mperon/file-typer.git## UsageThe applications uses command line arguments to interact with the user. To seeall the options, execute:`file-typer --help`To process a folder, run with this command:`file-typer /path/to/folder -o /path/to/output`</longdescription>
+</pkgmetadata>

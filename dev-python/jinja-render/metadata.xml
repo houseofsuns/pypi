@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;a href=&quot;https://www.islas.org.mx/&quot;&gt;&lt;img src=&quot;https://www.islas.org.mx/img/logo.svg&quot; align=&quot;right&quot; width=&quot;256&quot; /&gt;&lt;/a&gt;# Jinja RenderBase functinos to use Jinja2Here we use the `jinja_render` module, as example, from `robinson_code` repo# Dummy TransformationsPara usar este repo como plantilla debemos hacer lo siguiente:1. Presiona el botón verde que dice _Use this template_1. Selecciona como dueño a la organización IslasGECI1. Agrega el nombre del nuevo módulo de python1. Presiona el botón _Create repository from template_1. Reemplaza `dummy_transformations` por el nombre del nuevo módulo en:    - `Makefile`    - `pyproject.toml`    - `tests\test_transformation.py`1. Renombra el archivo `dummy_transformations\transformation.py` al nombre del primer archivo del   nuevo módulo1. Cambia la descripción del archivo `dummy_transformations\__init__.py`1. Renombra el directorio `dummy_transformations` al nombre del nuevo módulo1. Cambia el `codecov_token` del archivo `Makefile`Los archivos del nuevo módulo los agregarás en la carpeta que antes se llamaba`dummy_transformations` y las pruebas en la carpeta `tests`.</longdescription>
+</pkgmetadata>

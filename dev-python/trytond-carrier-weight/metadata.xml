@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Carrier Weight Module#####################The carrier weight module adds a cost method based on weight.The price is computed by finding the line for which the weight is greater orequal but smaller than the next line.</longdescription>
+</pkgmetadata>

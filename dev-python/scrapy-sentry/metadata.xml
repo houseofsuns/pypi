@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>scrapy-sentry=============Logs Scrapy exceptions into SentryA python library that glues [Sentry](http://www.getsentry.com) with [Scrapy](http://www.scrapy.org).Any spider errors will get pushed to Sentry. Please note that currently, exceptions anywhere else (e.g. the Scrapy pipeline)are not being reported to Sentry.Requisites: -----------* [Sentry server](http://www.getsentry.com/)Installation------------  ```  pip install scrapy-sentry  ```Setup-----Add `SENTRY_DSN` and `scrapy_sentry.extensions.Errors` extension to your Scrapy Project `settings.py`.Example:  ```  # sentry dsn  SENTRY_DSN = 'http://public:secret@example.com/1'  EXTENSIONS = {      &quot;scrapy_sentry.extensions.Errors&quot;:10,  }  ```Supported versions------------------This package works with Python 2.7, 3.4 and 3.5. It has been tested with Scrapy up to version 1.2.1.  </longdescription>
+</pkgmetadata>

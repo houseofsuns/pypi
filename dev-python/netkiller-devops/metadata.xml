@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>DevOps Tools====OS Software Configure ManagmentInstall-------pip install netkiller-devops -i https://pypi.tuna.tsinghua.edu.cn/simple### Docker root@netkiller ~# docker run --rm -it --name=netkiller --entrypoint=sh netkiller-devops:latest### PATH Variable$ cp share/profile.d/devops.sh /etc/profile.d/or $ cat &gt;&gt; /etc/profile.d/devops.sh &lt;&lt;'EOF'export PATH=/srv/devops/bin:$PATHEOFDeployment----------[Software deployment tools](https://github.com/netkiller/devops/blob/master/doc/deployment.md).### Ubuntu 编译安装$ cd /usr/local/src/$ git clone https://github.com/netkiller/devops.git$ cd devops$ python3 setup.py sdist$ python3 setup.py install### CentOS 编译安装$ cd /usr/local/src/$ git clone https://github.com/netkiller/devops.git$ cd devops$ python3 setup.py sdist$ python3 setup.py install --prefix=/srv/devopsorpython36 setup.py sdist  python36 setup.py install --prefix=/srv/devopsBackup------[Data backup tools](https://github.com/netkiller/devops/blob/master/doc/backup.md).[Database backup](https://github.com/netkiller/devops/blob/master/doc/database.md).OS Configuration file versioning-----[osconf](https://github.com/netkiller/devops/blob/master/doc/osconf.md).# DonationsWe accept PayPal through:https://www.paypal.me/netkillerWechat (微信) / Alipay (支付宝) 打赏:https://www.netkiller.cn/home/donations.html</longdescription>
+</pkgmetadata>

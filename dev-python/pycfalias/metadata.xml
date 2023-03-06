@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pycfaliasEasy Cloudflare email alias management### Installation1. Install via python pip   ```   pip install pycfalias   ```2. Configure either via configuration file or environment variables   ```   export CF_FORWARD_EMAIL=$your_forward_email   export CF_TOKEN=$your_cloudflare_token   export CF_ZONE_ID=$your_cloudflare_zone_id   ```    OR   Create a file in your home directory called ```.pycfalias.toml``` (note the dot)   ```   &quot;CF_FORWARD_EMAIL&quot; = &quot;$your_forward_email&quot;   &quot;CF_TOKEN&quot; = &quot;$your_cloudflare_token&quot;   &quot;CF_ZONE_ID&quot; = &quot;$your_cloudflare_zone_id&quot;   ```&lt;p align=&quot;right&quot;&gt;(&lt;a href=&quot;#readme-top&quot;&gt;back to top&lt;/a&gt;)&lt;/p&gt;&lt;!-- USAGE EXAMPLES --&gt;## UsageList email aliases```pycfalias -l [--list]```Create an email alias```pycfalias -c [--create]```Remove existing email alias```pycfalias -r [--remove]```&lt;p align=&quot;right&quot;&gt;(&lt;a href=&quot;#readme-top&quot;&gt;back to top&lt;/a&gt;)&lt;/p&gt;&lt;!-- ACKNOWLEDGMENTS --&gt;## Acknowledgments* Inspiration - [cf-alias](https://github.com/dustinblackman/cf-alias)</longdescription>
+</pkgmetadata>

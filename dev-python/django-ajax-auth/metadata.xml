@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># django-xauth[![PyPI version](https://badge.fury.io/py/django-ajax-auth.svg)](https://badge.fury.io/py/django-ajax-auth)Some simple AJAX authorisation endpoints for Django.## Why?I wanted a package to integrate AJAX authorisation with Django'sstandard authorisation views. When a request is made via AJAX itshould be handled as such, and when a standard request is made thelogin form should be rendered.## Installation`pip` is the easiest way to get the package:```pythonpip install django-ajax-auth```Add the package to your Django settings file:```pythonINSTALLED_APPS = [    'xauth',    ...]```Replace the standard authorisation URLs in your URL configuration:```pythonurlpatterns = [    url(r'^', include('xauth.login_ajax_urls'))]```## UsageNow you can either perform the usual non-AJAX GET and POST to loginas you would normally, or POST using `application/json` encoding tologin over AJAX.```javascriptimport $ from 'jquery'$.ajax({  url: '/login',  method: 'POST',  contentType: 'application/json',  data: {    username: 'harry',    password: 'henderson123'  }})```Sometimes you may wish to only allow AJAX logins, in which case set`XAUTH_AJAX` to `True` in your settings file.</longdescription>
+</pkgmetadata>

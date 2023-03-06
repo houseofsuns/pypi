@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>==================================useragent==================================useragent is a Python library that parses HTTP User-agent stringsand tries to give you as much data as possible in a normalized form.It uses the data provided by the ua-parser project (originally collected bySteve Souders). It aims to be more pythonic than the python wrapper foundin the original ua-parser project.To-wit::    #!/usr/bin/env python    import useragent    ua = useragent.detect(&quot;Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; nl; rv:1.9.0.1) Gecko/2008070206 Firefox/3.0.1&quot;)    print(ua)Which would print ``ua``, a dict-like object with the following structure::    {        'device': {            'family': None,            'major_version': None,            'minor_version': None,            'patch_version': None        },        'os': {            'family': 'Mac OS X',            'major_version': '10',            'minor_version': '5',            'patch_version': None        },        'browser': {            'family': 'Firefox',            'major_version': '3',            'minor_version': '0',            'patch_version': '1'        }    }The ``ua`` object actually has each of those keys exposed as attributes on itself, so you may find it more comfortable to navigate like so::    print(ua.browser.family)    print(ua.os.family)    print(ua.device.family)</longdescription>
+</pkgmetadata>

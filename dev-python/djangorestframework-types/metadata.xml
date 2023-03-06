@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># djangorestframework-types [![PyPI](https://img.shields.io/pypi/v/djangorestframework-types.svg)](https://pypi.org/project/djangorestframework-types/)Type stubs for [Django Rest Framework](https://www.django-rest-framework.org).&gt; Note: this project was forked from&gt; &lt;https://github.com/typeddjango/djangorestframework-stubs&gt; with the goal of&gt; removing the [`mypy`](https://github.com/python/mypy) plugin dependency so&gt; that `mypy` can't [crash due to Django&gt; config](https://github.com/typeddjango/django-stubs/issues/318), and that&gt; non-`mypy` type checkers like&gt; [`pyright`](https://github.com/microsoft/pyright) will work better with&gt; Django Rest Framework.## install```bashpip install djangorestframework-types```## related- &lt;https://github.com/sbdchd/django-types&gt;- &lt;https://github.com/sbdchd/celery-types&gt;- &lt;https://github.com/sbdchd/mongo-types&gt;- &lt;https://github.com/sbdchd/msgpack-types&gt;</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Use CircleCI env vars to determine which tests to run- CIRCLE_NODE_TOTAL indicates total number of nodes tests are running on- CIRCLE_NODE_INDEX indicates which node this isWill run a subset of tests based on the node index.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Cats coreCats core is a Python library for [cats project](https://finance.rescala.jp/?page_id=204).## InstallationUse the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.```bashpip install catscore```## Usage```pythontbd = &quot;TBD```## ContributingPull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.Please make sure to update tests as appropriate.## License[MIT](https://choosealicense.com/licenses/mit/)## Mecab installIf you are failing to install mecab-python3, please check iten:  https://github.com/shogun-toolbox/shogun/issues/2930jp: https://qiita.com/siraasagi/items/e07e0b271cb7cd679a70### Swig problem at mecab-pythonYou need to update swig &gt; 0.3.8Please execute yum install swig3</longdescription>
+</pkgmetadata>

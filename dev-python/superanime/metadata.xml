@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># SuperAnimeThe best package in Python to get anime information and anime gifs!## Installation:```pip install superanime```## Example Usage:```pyimport asynciofrom superanime import AnimeClientfrom superanime.ext.types import SFWGif, SearchTypeanime = AnimeClient() async def main():    await anime.start() # Starts the client        gif = anime.gif(        bucket=SFWGif.KISS, # Also works with strings!        as_object=True # If you want to send a 'GifResult' object with additional info like anime name. Default to 'True'    )    print(gif.url) # Print the GIF URL    search = await anime.search(        query=&quot;One Piece&quot;, # The query to search in kitsu.io        type=SearchType.ANIME # The type of search you want to search for. ('ANIME' or 'MANGA') If none provided the anime type will be searched.    )    print(search.name) # Print the Anime name    if __name__ == &quot;main&quot;:    asyncio.run(main())```## Methods:```pysuperanime.AnimeClient(print_on_ready: bool = True) -&gt; AnimeClientAnimeClient.gif(bucket: SFWGif | NSFWGif | str, as_object: bool = True) -&gt; GifResultAnime.search(query: str, type: SearchType | str = None) -&gt; SearchResult```&lt;br/&gt;       _~ Made by Noraa08 for MoonlightGroup_</longdescription>
+</pkgmetadata>

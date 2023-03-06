@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># MMF-metaЭта библиотека - часть проекта Model Management Framework.Отвечает за оформление пользовательских функций### Пример использования```pythonimport mmf_meta.formatsimport pickleimport timeimport pandasimport mmf_meta as mmf@mmf.target(    description=&quot;Супер-функция&quot;,    returns=mmf.DataFrame(out_format=mmf_meta.formats.DataFrameFormat.CSV),)def score(        df: pandas.DataFrame = mmf.DataFrame(description=&quot;Описание df&quot;),        # other: dict = mmf.JsonFile(description=&quot;Описание other&quot;),):    return df@mmf.target(    description=&quot;Другая супер-функция&quot;,    returns=mmf.String(),)def other(        inp=mmf.String(description=&quot;важный параметр&quot;),        another=mmf.Integer(description=&quot;еще один важный параметр&quot;),):    time.sleep(30)    return inpmmf.artifact(&quot;some_file&quot;)@mmf.artifact(&quot;other&quot;)def model():    with open(&quot;other&quot;, &quot;br&quot;) as f:        return pickle.load(f)```[Подробная документация](https://mm-framework.github.io/docs/)</longdescription>
+</pkgmetadata>

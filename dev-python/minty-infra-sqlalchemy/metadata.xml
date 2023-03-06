@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. _readme:Introduction============Minty template project for Python (micro)services.Getting started---------------n/aMore documentation------------------Please see the generated documentation via CI for more information about thismodule and how to contribute in our online documentation. Open index.htmlwhen you get there:`&lt;https://gitlab.com/minty-python/minty-infra-sqlalchemy/-/jobs/artifacts/master/browse/tmp/docs?job=qa&gt;`_Contributing------------Please read `CONTRIBUTING.md &lt;https://gitlab.com/minty-python/minty-infra-sqlalchemy/blob/master/CONTRIBUTING.md&gt;`_for details on our code of conduct, and the process for submitting pull requests to us.Versioning----------We use `SemVer &lt;https://semver.org/&gt;`_ for versioning. For the versionsavailable, see the`tags on this repository &lt;https://gitlab.com/minty-python/minty-infra-sqlalchemy/tags/&gt;`_License-------iCopyright (c) Minty Team and all persons listed in the file `CONTRIBUTORS`This project is licensed under the EUPL, v1.2. See the `EUPL-1.2.txt` in the`LICENSES` directory for details... SPDX-FileCopyrightText: 2020 Mintlab B.V..... SPDX-License-Identifier: EUPL-1.2</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Python sprites module introducePython sprites  is a module for make game and animation easily.anybody can make game and animation funny. It's developed with Turtle module,In order to facilitate the beginners to make games, some functions are added,such as Clock class can fix FPS, stamp can move, image can rotate,can detect keyboard keys and mouse keys a loop statement,and add rectangle collision method. There are also functions such as bounce_on_edge and say functions.## Main application scenarios:1、Introduction to children's computer games and animation development.2、learn the ABC of Python game development.3、Python game crash.4、Getting started with Python for training institutions.5、Python experience courses and public welfare courses of training institutions. more example,please conatct lixingqiu, wechat:scratch8,website:&lt;http://www.lixingqiu.com&gt;sprites module Developer: Li Xingqiu，email:406273900@qq.com,Pingxiang, Jiangxi, China.</longdescription>
+</pkgmetadata>

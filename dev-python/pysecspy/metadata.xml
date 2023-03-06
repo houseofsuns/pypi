@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Python Wrapper for the SecuritySpy API![Latest PyPI version](https://img.shields.io/pypi/v/pysecspy) ![Supported Python](https://img.shields.io/pypi/pyversions/pysecspy)This module communicates with a [SecuritySpy Video Server](https://www.bensoftware.com/securityspy/) and can retrieve and set data for:* Cameras* Motion Sensors* Motion EventsIt will require the Webserver component activated on SecuritySpy, and a Username, Password, IP Address and Port number for the Webserver.See `devicelist.py` and `eventlist.py` for examples on how to use this wrapper. And before doing so, edit each file and insert your SecuritySpy IP Adress, Port Number, Username and Password in the designated variables.```pythonUSERNAME = &quot;YOUR_USERNAME&quot;PASSWORD = &quot;YOUR_PASSWORD&quot;IPADDRESS = &quot;YOUR_IP_ADDRESS&quot;PORT = 8000```Change all the items in CAPITAL letters to your personal settings.</longdescription>
+</pkgmetadata>

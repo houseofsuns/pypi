@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># OneDrive downloader: python utility to download files from OneDrive## Install (PyPI)`pip install onedrivedownloader`First stable release: `1.0.0`Current: `1.1.3`*Do not require authentication.*### Requires- `tqdm`: for nice progress bar- `requests`: fetch data from OneDrive## Usage```from onedrivedownloader import download...download(url: str, filename: str, unzip=False, unzip_path: str = None, force_download=False, force_unzip=False, clean=False)```### Required parameters:- `url`: The url to download from (should end with '?download=1').- `filename`: The filename to save the file as.### Optional parameters:- `unzip`: want to unzip file or just download? If file is not `.zip`, do nothing.- `unzip_path`: path to unzip files (default: current directory)- `force_download`: force files download if exist? (default: False)- `clean`: clean source file after unzip?## Example```ln = &quot;https://unimore365-my.sharepoint.com/:u:/g/personal/215580_unimore_it/EUmqgpzRz3tPlD2KiVNRqdABBJl7qQYcIeROtMc4g2UeIA?e=zZtkLr&quot;download(ln, filename=&quot;file.zip&quot;, unzip=True, unzip_path=&quot;./data&quot;)```</longdescription>
+</pkgmetadata>

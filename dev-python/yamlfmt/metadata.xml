@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># yamlfmtA simple opionated yaml formatter that keeps your comments!That is no longer maintained!Checkout out [yamlfix](https://github.com/lyz-code/yamlfix) for a possible alternative.I myself just use [prettier](https://github.com/prettier/prettier)</longdescription>
+</pkgmetadata>

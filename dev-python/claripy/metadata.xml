@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># claripy[![Latest Release](https://img.shields.io/pypi/v/claripy.svg)](https://pypi.python.org/pypi/claripy/)[![Python Version](https://img.shields.io/pypi/pyversions/claripy)](https://pypi.python.org/pypi/claripy/)[![PyPI Statistics](https://img.shields.io/pypi/dm/claripy.svg)](https://pypistats.org/packages/claripy)[![License](https://img.shields.io/github/license/angr/claripy.svg)](https://github.com/angr/claripy/blob/master/LICENSE)Claripy is an abstracted constraint-solving wrapper.## Project LinksProject repository: https://github.com/angr/claripyDocumentation: https://api.angr.io/projects/claripy/en/latest/## UsageIt is usable!General usage is similar to Z3:```python&gt;&gt;&gt; import claripy&gt;&gt;&gt; a = claripy.BVV(3, 32)&gt;&gt;&gt; b = claripy.BVS('var_b', 32)&gt;&gt;&gt; s = claripy.Solver()&gt;&gt;&gt; s.add(b &gt; a)&gt;&gt;&gt; print(s.eval(b, 1)[0])```</longdescription>
+</pkgmetadata>

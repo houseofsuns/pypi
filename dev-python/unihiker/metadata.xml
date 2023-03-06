@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># unihikerThis is a library for unihiker from DFRobot (https://www.unihiker.com). Now there is an easy-to-use GUI inside based on tkinter and ttkbootstrap. This library aims to make unihiker suitable for education scenario.The parameters in GUI's function is highly compatible with Tkinter's Button and Canvas widget. You could find the reference from here to get the detail configuration and parameters:https://anzeljg.github.io/rin2/book2/2405/docs/tkinter/canvas.htmlhttps://anzeljg.github.io/rin2/book2/2405/docs/tkinter/button.html</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![docs-badge](docs/source/_static/docs-badge.svg)][docs]neuprint-python===============Python client utilties for interacting with the [neuPrint][neuprint] connectome analysis service.[neuprint]: https://neuprint.janelia.org## InstallIf you're using conda, use this command:```shellconda install -c flyem-forge neuprint-python```Otherwise, use pip:```shellpip install neuprint-python```## Getting startedSee the [Quickstart section][quickstart] in the [documentation][docs][docs]: http://connectome-neuprint.github.io/neuprint-python/docs/[quickstart]: http://connectome-neuprint.github.io/neuprint-python/docs/quickstart.html</longdescription>
+</pkgmetadata>

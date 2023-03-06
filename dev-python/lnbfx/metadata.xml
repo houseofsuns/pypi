@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![pypi](https://img.shields.io/pypi/v/lnbfx?color=%2334D058&amp;label=pypi%20package)](https://pypi.org/project/lnbfx)# lnbfx: Manage bioinformatics pipelinesThis package is in private beta at this moment!Follow https://twitter.com/laminlabs to learn about a first public release.For beta users: Read the [docs](https://lamin.ai/docs/lnbfx).</longdescription>
+</pkgmetadata>

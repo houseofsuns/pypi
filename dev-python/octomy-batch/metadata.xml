@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![pipeline status](https://gitlab.com/octomy/batch/badges/production/pipeline.svg)](https://gitlab.com/octomy/batch/-/commits/production)# About batch&lt;img src=&quot;https://gitlab.com/octomy/batch/-/raw/production/design/logo-1024.png&quot; width=&quot;20%&quot;/&gt;Batch is a batch tasks queue and executor in PyPi package form. See also [https://gitlab.com/octomy/batch-base](batch-base) for Docker image based on this.- Batch is [available on gitlab](https://gitlab.com/octomy/batch).- Batch is [available in PyPI](https://pypi.org/project/octomy-batch/).```shell# Clone git repositorygit clone git@gitlab.com:octomy/batch.git``````shell# Install into your current Python environmentpip install octomy-batch```</longdescription>
+</pkgmetadata>

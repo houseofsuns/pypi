@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>========================django-language-field========================Language Field for Django apps. Includes all language choices from the IANA Language Subtag Registry.Included is:* ``LanguageField``, a model field* ``LanguageField``, a form field (Not yet implemented)* ``regenerate.py``, a script to parse the latest language list from IANAInstallation============::    pip install django-language-fieldBasic usage===========Add ``languages`` to the list of the installed apps inyour ``settings.py`` file::    INSTALLED_APPS = [        ...        'languages',        ...    ]Then, you can use it like any regular model field::    from languages.fields import LanguageField    class MyModel(models.Model):        ..        language = LanguageField()        ..Internally, LanguageField is based upon ``CharField`` and by defaultrepresents the as a string.As with ``CharField``'s, it is discouraged to use ``null=True`` use ``blank=True`` if you want to make it a non-required field.</longdescription>
+</pkgmetadata>

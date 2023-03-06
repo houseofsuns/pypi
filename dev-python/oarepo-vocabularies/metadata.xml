@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># OARepo vocabulariesThis is an extension of invenio vocabularies that allows:* Use the vocabularies with custom fields* Treat vocabulary items as hierarchy## InstallationAdd `oarepo-runtime`, `oarepo-vocabularies` to your virtualenv an set up the following in your `invenio.cfg`:```pythonfrom oarepo_vocabularies.services.config import VocabulariesConfigfrom oarepo_vocabularies.resources.config import VocabulariesResourceConfigVOCABULARIES_SERVICE_CONFIG = VocabulariesConfigVOCABULARIES_RESOURCE_CONFIG = VocabulariesResourceConfig```## DocumentationSee [NRP documentation](https://narodni-repozitar.github.io/developer-docs/docs/technology/invenio/nrp-toolchain/plugins/vocabularies) for more details.</longdescription>
+</pkgmetadata>

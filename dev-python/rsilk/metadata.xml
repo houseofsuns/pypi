@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;h1 align=&quot;center&quot;&gt;&lt;i&gt;✨ rsilk ✨ &lt;/i&gt;&lt;/h1&gt;&lt;h3 align=&quot;center&quot;&gt;The python binding for &lt;a href=&quot;https://github.com/lz1998/silk-rs&quot;&gt;silk-rs&lt;/a&gt; &lt;/h3&gt;[![pypi](https://img.shields.io/pypi/v/rsilk.svg)](https://pypi.org/project/rsilk/)![python](https://img.shields.io/pypi/pyversions/rsilk)![implementation](https://img.shields.io/pypi/implementation/rsilk)![wheel](https://img.shields.io/pypi/wheel/rsilk)![license](https://img.shields.io/github/license/synodriver/rsilk.svg)![action](https://img.shields.io/github/workflow/status/synodriver/rsilk/build%20wheel)## Usage- encode```pythonimport rsilkwith open(&quot;tests/input.pcm&quot;, &quot;rb&quot;) as f:    data = f.read()output = rsilk.encode(data, 24000, 24000)with open(&quot;output.silk&quot;, &quot;wb&quot;) as f:    f.write(output)```- decode```pythonimport rsilkwith open(&quot;input.silk&quot;, &quot;rb&quot;) as f:    data = f.read()output = rsilk.decode(data, 24000)with open(&quot;output.pcm&quot;, &quot;wb&quot;) as f:    f.write(output)```### Exceptions- SilkError### Public functions- def decode(src: bytes, sample_rate: int, frame_size: int = 0, frames_per_packet: int = 1, more_internal_decoder_frames: bool = False, in_band_fec_offset: int = 0, loss: bool = False) -&gt; bytes- def encode(input: bytes, sample_rate: int, bit_rate: int, max_internal_sample_rate: int = 24000, packet_loss_percentage: int = 0, complexity: int = 2, use_inband_fec: bool = False, use_dtx: bool = False, tencent: bool = True) -&gt; bytes</longdescription>
+</pkgmetadata>

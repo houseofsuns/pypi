@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Django UK Geo UtilsDjango app for working with OS AddressBase, ONSUD and ONSPD---[![Build Status](https://app.circleci.com/pipelines/github/DemocracyClub/uk-geo-utils)][![Coverage Status](https://coveralls.io/repos/github/DemocracyClub/uk-geo-utils/badge.svg?branch=master)](https://coveralls.io/github/DemocracyClub/uk-geo-utils?branch=master)![PyPI Version](https://img.shields.io/pypi/v/uk-geo-utils.svg)![License](https://img.shields.io/pypi/l/uk-geo-utils.svg)![Python Support](https://img.shields.io/pypi/pyversions/uk-geo-utils.svg)![Django Support](https://img.shields.io/pypi/djversions/uk-geo-utils.svg)![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)* [Documentation](https://democracyclub.github.io/uk-geo-utils/)* [Support](https://github.com/DemocracyClub/uk-geo-utils/issues)* [Code of Conduct](https://democracyclub.org.uk/code-of-conduct/)</longdescription>
+</pkgmetadata>

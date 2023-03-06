@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># wedata的使用方法## 安装wedata```shellpip install wedata```## 本地调用本地调用需要通过同步工具将数据文件保存在本地后再调用接口进行数据查询执行命令```pythonimport wedata as weclient = we.LocalClient(path=&quot;XXX/XXX/XXX&quot;)    # path为数据文件的保存根目录param = {    'domain': 'descriptor',    'phylum': 'feature',    'class': 'aindexeodprices',    'fields': [],    'user': '0000001',    'case': 'equity_20220628',    'start_date': '20220628',    'end_date': '20220630',    'codes': [],    'form': 'normal'}client.query(param)```## 远程调用执行命令```pythonimport wedata as wewe.login(username='XXX', password='XXX')param = {    'domain': 'descriptor',    'phylum': 'feature',    'class': 'aindexeodprices',    'fields': [],    'user': '0000001',    'case': 'equity_20220628',    'start_date': '20220628',    'end_date': '20220630',    'codes': [],    'form': 'normal'}we.query(param)```</longdescription>
+</pkgmetadata>

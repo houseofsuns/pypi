@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Network access control list parsing library.This library contains various modules that allow for parsing, manipulation, andmanagement of network access control lists (ACLs). It will parse a complete ACLand return an ACL object that can be easily translated to any supported vendorsyntax.</longdescription>
+</pkgmetadata>

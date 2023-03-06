@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>from odictliteral import odict==============================Provides a nice way of specifying ordered dictionaries from Python source.Example:    &gt;&gt;&gt; from odictliteral import odict    &gt;&gt;&gt; x = odict[1:2,3:4]    &gt;&gt;&gt; print(x)    odict[1: 2, 3: 4]You can use odict as a replacement for OrderedDict otherwise, eg:    &gt;&gt;&gt; y = odict( [(1,2), (3,4)] )    &gt;&gt;&gt; print(y)    odict[1: 2, 3: 4]    &gt;&gt;&gt; x == y    TrueYou should also be able to use odict in combination with OrderedDicts:    &gt;&gt;&gt; z = OrderedDict( [(1,2), (3,4)] )    &gt;&gt;&gt; print(z)    OrderedDict([(1, 2), (3, 4)])    &gt;&gt;&gt; y == z    TrueThat's pretty much all there is to it. Should be compatible with Python2.7 and Python 3; requires the &quot;ordereddict&quot; module to work with Python2.4, 2.5 or 2.6.</longdescription>
+</pkgmetadata>

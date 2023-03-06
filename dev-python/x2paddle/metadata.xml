@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>X2Paddle is a toolkit for converting trained model to PaddlePaddle from other deep learning frameworks.Usage: x2paddle --framework tensorflow --model tf_model.pb --save_dir paddle_modelGitHub: https://github.com/PaddlePaddle/X2PaddleEmail: dltp-sz@baidu.com</longdescription>
+</pkgmetadata>

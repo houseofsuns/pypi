@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ipynbnameWhen run in a Jupyter notebook, simply returns the notebook filename or the full path to the notebook.I created this to help with automating posting blog posts written in Jupyter notebooks directly toGitHub Pages.  [Check it out](https://msm1089.github.io/2020/09/04/Automating-Jupyter-Notebook-Blog-Post-Deployment.html) if you're looking to use this method of blogging :metal:You would think there was already some built-in way to access the current notebook name, but it took many hoursof searching for a way to do it. As it seems many others did, I tried using Javascript, but the async nature ofJS meant that it was unreliable. Finally I stumbled on this [post](https://forums.fast.ai/t/jupyter-notebook-enhancements-tips-and-tricks/17064/39).I have refactored the code there so a user can get either the name or path, but credit for most of the codegoes to the author of this post, thanks!## ExamplesGet the notebook name:```pythonimport ipynbnamenb_fname = ipynbname.name()```Get the full path to the notebook:```pythonimport ipynbnamenb_path = ipynbname.path()```</longdescription>
+</pkgmetadata>

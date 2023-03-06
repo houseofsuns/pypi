@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Nox - Flexible test automation for Python=========================================This package is deprecated and merely installs the `nox`_ package instead... _nox: https://pypi.org/project/nox</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pyintanPython reader for INTAN rhs files# InstallationOpen a terminal and:```git clone https://github.com/alejoe91/pyintan/cd pyintanpython setup.py develop```# Basic usageIn python (or ipython):```import pyintanfile = pyintan.File('path-to-rhs')# all fields are lists of objctsanalog_signals = file.analog_signals[0]adc_signals = file.adc_signals[0]dac_signals = file.dac_signals[0]# actual signals are: analog_signals.signaldigital_in_signals = file.digital_in_signals[0]digital_out_signals = file.digital_out_signals[0]# event times are: digital_in_signals.timesstimulation = file.stimulation[0]# contains stimulation information```</longdescription>
+</pkgmetadata>

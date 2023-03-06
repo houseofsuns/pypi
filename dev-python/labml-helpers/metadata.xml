@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![PyPI - Python Version](https://badge.fury.io/py/labml-helpers.svg)](https://badge.fury.io/py/labml-helpers)[![PyPI Status](https://pepy.tech/badge/labml-helpers)](https://pepy.tech/project/labml-helpersl)# labml.ai library helpersThis is a collection of classes and functions to automate common deep learning training patterns.## Installation```shpip install labml-helpers```</longdescription>
+</pkgmetadata>

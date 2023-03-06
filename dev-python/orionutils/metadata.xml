@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># orion-utilsorionutils provides collection generation for testing Galaxy and related projects.## ReleasingTo release a new version of orion-utils, follow these steps:1. Change the version in setup.py2. Generate a distribution of the new version:    python setup.py sdist3. Upload to PyPI    twine upload dist/orionutils-*.tar.gzYou must have PyPI credentials for an account with upload permissions.</longdescription>
+</pkgmetadata>

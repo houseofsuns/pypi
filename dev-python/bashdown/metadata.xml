@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># bashdownA markdown pre-processor for inline bash.Have you ever written a command line tool and wanted to include it's outputin your documentation?Then bashdown is for you.Write your markdown files as usual and include bash code sections as normalusing &quot;```bash&quot;.When you pass this file through bashdown, it will run the code in thecode block and include that output inside the rest of the markdown.This README.md was generated using bashdown.Check README.bashdown for the file that's used to generate README.mdThis project was inspired by tools like quarto and Rmarkdown, but hassignificantly fewer dependencies due to it's much more limited scope.## UsageBasic usage is as follows:```bash# bashdown README.bashdown &gt; README.md```Full usage information can be obtained from the built in help.```bashbashdown --help``````outputusage: bashdown [-h] filenameProcesses in-line bash in markdown filespositional arguments:  filenameoptional arguments:  -h, --help  show this help message and exitFor more information please see the docs```## LicenseMIT © Mark Sellors</longdescription>
+</pkgmetadata>

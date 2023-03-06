@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Incluia-ETLThis repository contains general tools for Extracting, Transforming and Loading data in Incluia projects.## 1. Setting the Repo &lt;a name=&quot;settings&quot;&gt;&lt;/a&gt;### 1.1 Github Repo &lt;a name=&quot;github&quot;&gt;&lt;/a&gt;This repo contains the functions that are repeatedly used in all Incluia Projects. To start a new country's project start by creating a github repo, apply `git clone` locally, and then copy-paste `src` and `notebooks` from the lastest Incluia's project.### 1.2. Virtual Environment &lt;a name=&quot;anaconda&quot;&gt;&lt;/a&gt;Then, we updated Anaconda to its last version and afer we generated a virtual environment called *incluia-&lt;country&gt;* with the following command:&gt; conda env create --file environment.ymlThis command uses the following files: *environment.yml*, *setup.py*, and *requirements.txt*. To activate the environment do&gt; conda activate incluia-&lt;country&gt;## 2. Workflow of the project  &lt;a name=&quot;workflow&quot;&gt;&lt;/a&gt;Workflow can be accessed and modified [Here](https://miro.com/app/board/o9J_lUVWc1c=/)![Flowchart](https://user-images.githubusercontent.com/22568654/139956069-ffebe91c-45a9-42ac-9683-68346ac88c6a.jpg)</longdescription>
+</pkgmetadata>

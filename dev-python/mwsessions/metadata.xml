@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># MediaWiki Session AnalysisThis library provides a set of utilities for group MediaWiki user actions intosessions.  * **Installation:** ``pip install mwsessions``* **Documentation:** https://pythonhosted.org/mwsessions* **License:** MIT## Basic example    &gt;&gt;&gt; import mwsessions    &gt;&gt;&gt;    &gt;&gt;&gt; user_events = [    ...     (&quot;Willy on wheels&quot;, 20150101000000, {'rev_id': 1}),    ...     (&quot;Walter&quot;, 20150101000001, {'rev_id': 2}),    ...     (&quot;Willy on wheels&quot;, 20150101000001, {'rev_id': 3}),    ...     (&quot;Walter&quot;, 100035, {'rev_id': 4}),    ...     (&quot;Willy on wheels&quot;, 103602, {'rev_id': 5})    ... ]    &gt;&gt;&gt;    &gt;&gt;&gt; for user, events in mwsessions.sessionize(user_events):    ...     (user, events)    ...    ('Willy on wheels', [{'rev_id': 1}, {'rev_id': 3}])    ('Walter', [{'rev_id': 2}, {'rev_id': 4}])    ('Willy on wheels', [{'rev_id': 5}])## Author* Aaron Halfaker -- https://github.com/halfak</longdescription>
+</pkgmetadata>

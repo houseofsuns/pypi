@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>============================rinoh-typeface-texgyrecursor============================This package provides the `TeX Gyre Cursor`_ typeface for use with rinohtype_.TeX Gyre Cursor is based on URW Nimbus Mono L and can be used as a replacementfor Courier... _TeX Gyre Cursor: http://www.gust.org.pl/projects/e-foundry/tex-gyre/cursor.. _rinohtype: https://github.com/brechtm/rinohtype#readme</longdescription>
+</pkgmetadata>

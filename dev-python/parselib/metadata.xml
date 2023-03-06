@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>========================================parselib - HTML parser for web scraping========================================.. code-block:: console        pip install parselib.. code-block:: python    from parselib import Parser    html = &quot;&quot;&quot;        &lt;div class=&quot;class-one class-two&quot;&gt;            &lt;div class=&quot;class-two&quot;&gt;text&lt;/div&gt;        &lt;/div&gt;    &quot;&quot;&quot;    parser = Parser(html)    div_one = parser.find(&quot;*&quot;, attrs={&quot;class&quot;: &quot;class-two class-one&quot;})    div_two = parser.find(&quot;*&quot;, attrs={&quot;class&quot;: &quot;class-two&quot;}, exclude_attrs={&quot;class&quot;: [&quot;class-one&quot;]})----find(tag, attrs=None, exclude_attrs=None)    Return first matching elementfind_all(tag, attrs=None, exclude_attrs=None)    Return all matching elements----element.tagname    Tag(str)element.attrs    Attributes(dict)    element.text    Textelement.all_text    All text within elementelement.children    Elements one level downelement.descendants    All elements within element    element.parent    Element one level upelement.next_sibling    Next element on the same levelelement.previous_sibling    Previous element on the same level</longdescription>
+</pkgmetadata>

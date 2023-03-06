@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># json-work-managerhttps://pypi.org/project/json-work-manager&lt;pre&gt;pip install json-work-manager&lt;/pre&gt;Examples  Basic  https://github.com/automatethem/json-work-manager/blob/main/examples/basic/json_work.py   https://github.com/automatethem/json-work-managerr/blob/main/examples/basic/inputs/config.jsonChrome  https://github.com/automatethem/json-work-manager/blob/main/examples/chrome/inputs/config.json</longdescription>
+</pkgmetadata>

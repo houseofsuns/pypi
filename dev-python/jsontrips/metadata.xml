@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># jsontrips [![PyPI version](https://badge.fury.io/py/jsontrips.svg)](https://badge.fury.io/py/jsontrips)[![Build Status](https://travis-ci.org/mrmechko/jsontrips.svg?branch=master)](https://travis-ci.org/mrmechko/jsontrips)To rebuild:```&gt; ./make.sh# run facilitator# in sbcl, rooted at src/Systems/gloss&gt; (load &quot;test&quot;)&gt; (run)&gt; (write-jsons)```</longdescription>
+</pkgmetadata>

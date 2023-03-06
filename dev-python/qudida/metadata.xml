@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># QuDiDA (QUick and DIrty Domain Adaptation)QuDiDA is a micro library for very naive though quick pixel level image domain adaptation via `scikit-learn` transformers.Is assumed to be used as image augmentation technique, while was not tested in public benchmarks. ## Installation```pip install qudida```or```pip install git+https://github.com/arsenyinfo/qudida```## Usage ```import cv2from sklearn.decomposition import PCAfrom qudida import DomainAdapteradapter = DomainAdapter(transformer=PCA(n_components=1), ref_img=cv2.imread('target.png'))source = cv2.imread('source.png')result = adapter(source)cv2.imwrite('../result.png', result)```## Example Source image: ![source](source.png)Target image (style donor):![target](target.png)Result with various adaptations:![result](result.gif)</longdescription>
+</pkgmetadata>

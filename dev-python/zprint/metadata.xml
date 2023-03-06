@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Info====`zprint 2018-08-20``Author: Zhao Mingming &lt;471106585@qq.com&gt;``Copyright: This module has been placed in the public domain.``version:0.0.4`- `add func zprint, print out the function list and time into stdout`- `add func eprint, print out the function list and time into stderr`- `add func zhelp, print demo script``version:0.0.7`- `add func zprintr``version:0.0.7`- `add func sys.stdout.flush()`Functions:- `add func zprint, print out the function list and time into stdout`- `add func eprint, print out the function list and time into stderr`How To Use This Module======================.. image:: funny.gif   :height: 100px   :width: 100px   :alt: funny cat picture   :align: center1. example code:.. code:: pythonfrom  zprint  import *   def fun2():    zprint(&quot; I am in fun2&quot;,0)def fun1():    zprint(&quot; I am in fun1&quot;)    fun2()if __name__==&quot;__main__&quot;:   print 1   fun1()Refresh========20180820</longdescription>
+</pkgmetadata>

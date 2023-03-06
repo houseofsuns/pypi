@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Startd following https://johnfraney.ca/blog/create-publish-python-package-poetry/to publish to pypi:poetry buildpoetry publishpoetry cache clear pypi --all &amp;&amp; poetry update razaltlib</longdescription>
+</pkgmetadata>

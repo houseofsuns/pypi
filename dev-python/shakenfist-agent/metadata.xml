@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Python side channel agent for Shaken Fist=========================================This is a python side channel in-guest agent for [Shaken Fist](https://github.com/shakenfist/shakenfist).</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;div align=&quot;center&quot;&gt;  &lt;a href=&quot;https://github.com/pyodide/pyodide&quot;&gt;  &lt;img src=&quot;https://pyodide.org/en/0.18.0/_static/img/pyodide-logo-readme.png&quot; alt=&quot;Pyodide&quot;&gt;  &lt;/a&gt;&lt;/div&gt;Python with the scientific stack, compiled to WebAssembly.Pyodide is a Python distribution that runs in the browser or Node.js. It cannotbe installed from PyPi. See[github.com/pyodide/pyodide](https://github.com/pyodide/pyodide) for how to usePyodide.</longdescription>
+</pkgmetadata>

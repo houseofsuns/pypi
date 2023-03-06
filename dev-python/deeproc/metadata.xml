@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># deeproc**deeproc** is a Python package written by André Carrington and Yusuf Sheikh, for in-depth analysis of ROC plots in multiple groups/regions or a single region of interest.  It provides measures and plots which measure in a group: AUC (concordant partial AUC), the C statistic (partial C statistic), average sensitivity (partial AUC), average specificity (horizontal partial AUC) and other pre-test and post-test measures including average precision and inverse precision, also called average positive and negative predictive value.    Groups are contiguous regions of predicted risk or probability (e.g., ranges of FPR or TPR) or non-contiguous demographic groups or clinical groups/arms.  Groups may be overlapping and not cover the whole ROC curve, or they may be mutually exclusive and perfectly cover the ROC curve.  ## Features- Classes:  - SimpleROC  - FullROC  - DeepROC  - ConcordanceMatrixPlot## InstallationThe package can be installed from PyPi:```bashpip install deeproc```</longdescription>
+</pkgmetadata>

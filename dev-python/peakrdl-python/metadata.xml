@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>![CI](https://github.com/krcb197/PeakRDL-python/actions/workflows/action.yaml/badge.svg)[![Documentation Status](https://readthedocs.org/projects/peakrdl-python/badge/?version=latest)](https://peakrdl-python.readthedocs.io/en/latest/?badge=latest)# PeakRDL-pythonGenerate Python wrapper for a register model compiled SystemRDL input## DocumentationSee the [PeakRDL Python Documentation](https://peakrdl-python.readthedocs.io/) for more details</longdescription>
+</pkgmetadata>

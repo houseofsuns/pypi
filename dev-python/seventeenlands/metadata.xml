@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># mtga-log-clientSimple client for passing relevant events from MTG Arena logs to the 17Lands REST endpoint.## UsageTo run, simply enter `seventeenlands` in your terminal. On first run, you will be prompted for your user token.## NotesLicensed under GNU GPL v3.0 (see included LICENSE).This MTGA log follower is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC. See https://company.wizards.com/fancontentpolicy for more details.</longdescription>
+</pkgmetadata>

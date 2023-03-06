@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># chrisbaseA base tool for python programming## Installation```bashpip install chrisbase``````bashgit clone https://github.com/chrisjihee/chrisbasecd chrisbasepip install .```## Reference- https://pypi.org/project/chrisbase/- https://github.com/chrisjihee/chrisbase/</longdescription>
+</pkgmetadata>

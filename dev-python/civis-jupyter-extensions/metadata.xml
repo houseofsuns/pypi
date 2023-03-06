@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>civis-jupyter-extensions========================.. image:: https://travis-ci.org/civisanalytics/civis-jupyter-extensions.svg?branch=master    :target: https://travis-ci.org/civisanalytics/civis-jupyter-extensionsTools for using the Civis Platform with Jupyter notebooksInstallation and Setup----------------------Run the following commands in a shell::    pip install civis-jupyter-extensions    jupyter nbextension install --py civis_jupyter_ext    jupyter nbextension enable --py civis_jupyter_extIn order to use the extensions, make sure to have your Civis Platform API key inyour local environment as `CIVIS_API_KEY`.Magic Commands--------------To load the magic commands, use the following in ipython or aJupyter notebook::    %load_ext civis_jupyter_extYou can also autoload the magic commands every time a notebook is opened byadding::    c.InteractiveShellApp.extensions = ['civis_jupyter_ext']to your ``~/.ipython/profile_default/ipython_config.py``.SQL Queries~~~~~~~~~~~To get a table preview, use the cell magic like this::    %%civisquery my-database    select * from dummy.table limit 10;To return a DataFrame for further processing, use the line magic like this::    df = %civisquery my-database; select * from dummy.table;</longdescription>
+</pkgmetadata>

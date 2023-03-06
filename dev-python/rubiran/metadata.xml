@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## An example:``` pythonfrom rubiran import rubiranbot = rubiran(&quot;Auth Account&quot;)gap = &quot;guids&quot;bot.sendMessage(gap,&quot;pyrubika&quot;)```### How to import the Rubik's library``` bashfrom rubiran import rubiran```### How to install the library``` bashpip install rubiran```### My ID in Rubika``` bash@mamadcoder1```## And My ID Channel in Rubika``` bash@python_java_source ```</longdescription>
+</pkgmetadata>

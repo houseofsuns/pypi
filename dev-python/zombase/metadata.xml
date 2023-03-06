@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>zombase=======zombase is a collection of tools and best practices designed to helpdeveloppers write beautiful APIs for their data layer.Dependencies------------zombase is built upon the following projects:* `SQLAlchemy &lt;http://http://www.sqlalchemy.org/&gt;`_* `dogpile.cache &lt;http://dogpilecache.readthedocs.org/en/latest/&gt;`_* `Voluptuous &lt;https://github.com/alecthomas/voluptuous&gt;`_</longdescription>
+</pkgmetadata>

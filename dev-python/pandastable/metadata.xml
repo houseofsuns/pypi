@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Introduction------------The pandastable library provides a table widget for Tkinter withplotting and data manipulation functionality. It uses the pandasDataFrame class to store table data. Pandas is an open source Pythonlibrary providing high-performance data structures and data analysistools. Tkinter is the standard GUI toolkit for python. It is intendedfor the following uses:-  for python/tkinter GUI developers who want to include a table in   their application that can store and process large amounts of data-  for non-programmers who are not familiar with Python or the pandas   API and want to use the included DataExplore application to   manipulate/view their data-  it may also be useful for data analysts and programmers who want to   get an initial interactive look at their tabular data without codingThe DataExplore application---------------------------Installing the package creates a command *dataexplore* in your path.Just run this to open the program. This is a standalone application fordata manipulation and plotting meant for education and basic dataanalysis. See the home page for this application athttp://dmnfarrell.github.io/pandastable/Links-----http://openresearchsoftware.metajnl.com/articles/10.5334/jors.94/http://dmnfarrell.github.io/pandastable/https://youtu.be/Ss0QIFywt74</longdescription>
+</pkgmetadata>

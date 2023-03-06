@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Create PyProj```text   ______                __          ____        ____               _  / ____/_______  ____ _/ /____     / __ \__  __/ __ \_________    (_) / /   / ___/ _ \/ __ `/ __/ _ \   / /_/ / / / / /_/ / ___/ __ \  / // /___/ /  /  __/ /_/ / /_/  __/  / ____/ /_/ / ____/ /  / /_/ / / /\____/_/   \___/\__,_/\__/\___/  /_/    \__, /_/   /_/   \____/_/ /                                       /____/                /___/```## Create a new python skeleton project## Usage```pythoncreate-pyproj &lt;projectname&gt;```The project structure will be copied to the folder ./\&lt;projectname\&gt;, the modules installed with Pipenv and a git repo initiated.---The project has a number of development toolsand convenince functions to get you started quickly!This basic version starts with:- settings manager, save, load and update using yaml.- a logging setup with console and file handlers.- a version manager, to keep the version file easily asccessible for CI/CD### Project structure&lt;!-- PROJ_STRUCTURE --&gt;```text    - .vscode        - settings.json    - src        - _config            - logger.py            - logging.yaml            - settings.py            - version.py        - main.py        - settings.yaml    - .env    - .flake8    - .style.yapf    - .gitignore    - Pipfile    - README.md    - VERSION```&lt;!-- END PROJ_STRUCTURE --&gt;### Detailed How Tos- Pipenv- Pydantic</longdescription>
+</pkgmetadata>

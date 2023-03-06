@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Naas AuthenticatorNaas Authenticator provides the following features:* New users can signup on the system;* New users can be blocked of accessing the system and need an admin authorization;* Option of increase password security by avoiding common passwords or minimum password length;* Option to block users after a number attempts of login;* Option of open signup and no need for initial authorization;* Option of open change password (open_change_password);* Option of adding more information about users on signup.## DocumentationDocumentation is available [here](https://naas-authenticator.readthedocs.io)## Running testsTo run the tests locally, you can install the development dependencies:`$ pip install -e '.[dev]'`Then run tests with pytest:`$ pytest`</longdescription>
+</pkgmetadata>

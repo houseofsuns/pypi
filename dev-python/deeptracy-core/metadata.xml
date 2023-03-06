@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Deeptracy Core==============.. image:: https://travis-ci.org/BBVA/deeptracy-core.svg?branch=master    :target: https://travis-ci.org/BBVA/deeptracy-coreCore package for deeptracy.. image::  https://raw.githubusercontent.com/BBVA/deeptracy/develop/docs/_static/deeptracy-logo-small.png    :alt: Deeptracy logo    :width: 250 px+----------------+----------------------------------------------+|Project site    | https://github.com/bbva/deeptracy            |+----------------+----------------------------------------------+|Issues          | https://github.com/bbva/deeptracy/issues/    |+----------------+----------------------------------------------+|Documentation   | https://deeptracy.readthedocs.org/           |+----------------+----------------------------------------------+|DockerHub       | https://hub.docker.com/r/bbvalabs/deeptracy/ |+----------------+----------------------------------------------+Description===========This package contains core classes for data access and plugin developmentContributing to Deeptracy=========================You can contribute to Deeptracy in a few different ways:- Submit issues through `issue tracker &lt;https://github.com/BBVA/deeptracy/issues&gt;`_ on GitHub.- If you wish to make code changes, or contribute something new, please follow the `GitHub Forks / Pull requests model &lt;https://help.github.com/articles/fork-a-repo/&gt;`_: fork the s`Deeptracy Repo &lt;https://github.com/bbva/deeptracy/&gt;`_, make the changes and propose it back by submitting a pull request.License=======This project is distributed under `Apache License &lt;https://github.com/BBVA/deeptracy/blob/master/LICENSE&gt;`_</longdescription>
+</pkgmetadata>

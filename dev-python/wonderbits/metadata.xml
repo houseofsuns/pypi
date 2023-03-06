@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>### 豌豆拼&gt; 重写了豌豆拼python硬件交互逻辑```pythonfrom wonderbits import Display, wb_tool, Control, Ledimport randomimport time# wb_tool.show_console()d = Display()c = Control()l = Led()for i in range(20):    d.print(1,1,i)    v = c.get_sw4()    l.set_rgb(random.randint(0,255),random.randint(0,255),random.randint(0,255))    print(v)    time.sleep(1)```</longdescription>
+</pkgmetadata>

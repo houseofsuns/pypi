@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># FinmetryThis is the project on stock market data analysis using modern data anlysis tools, AI and ML.In depth tests on various stock market tools are conducted.## The current version is    0.1.3    # Importing and initiating```pythonimport finmetry as fms1 = fm.yf_base(symbol='RELIANCE')```You can now get the data out of it.------</longdescription>
+</pkgmetadata>

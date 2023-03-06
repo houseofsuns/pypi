@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>**Fast Json Normalize**A package designed to be a drop in replacement for the pandas json normalize function, as it can be rather slow when dealing with very large json files.It can be installed using```pip install fast-json-normalize```(plan on making a pull request once I've integrated it into a fork of [Pandas](https://github.com/pandas-dev/pandas)</longdescription>
+</pkgmetadata>

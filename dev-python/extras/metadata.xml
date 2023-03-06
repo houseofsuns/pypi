@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>======extras======extras is a set of extensions to the Python standard library, originallywritten to make the code within testtools cleaner, but now split out forgeneral use outside of a testing context.Documentation-------------pydoc extras is your friend. extras currently contains the following functions:* try_import* try_imports* safe_hasattrWhich do what their name suggests.Licensing---------This project is distributed under the MIT license and copyright is owned bythe extras authors. See LICENSE for details.Required Dependencies--------------------- * Python 2.6+ or 3.0+Bug reports and patches-----------------------Please report bugs using github issues at &lt;https://github.com/testing-cabal/extras&gt;.Patches can also be submitted via github.  You can mail the authors directlyvia the mailing list testtools-dev@lists.launchpad.net. (Note that Launchpaddiscards email from unknown addresses - be sure to sign up for a Launchpadaccount before mailing the list, or your mail will be silently discarded).History-------extras used to be testtools.helpers, and was factored out when folk wanted touse it separately.Thanks------ * Martin Pool</longdescription>
+</pkgmetadata>

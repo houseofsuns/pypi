@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>ftputil is a high-level FTP client library for the Python programminglanguage. ftputil implements a virtual file system for accessing FTP servers,that is, it can generate file-like objects for remote files. The librarysupports many functions similar to those in the os, os.path andshutil modules. ftputil has convenience functions for conditional uploadsand downloads, and handles FTP clients and servers in different timezones.</longdescription>
+</pkgmetadata>

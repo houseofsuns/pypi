@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Flunn - Simple CBOR En/Decoder##############################Flunn is also a Python library providing CBOR [RFC7049] encoding and decoding with atraditional buffered and a streaming interface.(flunn is a fork of flynn)Usage=====The Flunn API is really simple and inspired by existing Python serialisationmodules like json and pickle. The flunn module has four methods called dumps,dump, loads and load, where dumps will return the serialised input as bytesstring, while dump will write the serialised input to a file descriptor. Thesame applies to loads and load.&gt;&gt;&gt; flunn.dumps([1, [2, 3]])b'\x82\x01\x82\x02\x03'&gt;&gt;&gt; flunn.loads(b'\x82\x01\x82\x02\x03')[1, [2, 3]]Furthermore, Flunn supports generators and other iterables as input forstreaming support:&gt;&gt;&gt; flunn.dumps(range(5))b'\x9f\x00\x01\x02\x03\x04\xff'&gt;&gt;&gt; flunn.loads(b'\x9f\x00\x01\x02\x03\x04\xff')[0, 1, 2, 3, 4]Or to generate a map using an iterable:&gt;&gt;&gt; flunn.dumps(flunn.mapping(((a, a) for a in range(5))))b'\xbf\x00\x00\x01\x01\x02\x02\x03\x03\x04\x04\xff'&gt;&gt;&gt; flunn.loads(b'\xbf\x00\x00\x01\x01\x02\x02\x03\x03\x04\x04\xff'){0: 0, 1: 1, 2: 2, 3: 3, 4: 4}Copyright / License===================© 2015 Sokolov Yura aka funny_falcon© 2013 Fritz Conrad GrimpenThe code is licensed under the MIT license, provided in the COPYING file of theFlunn distribution.</longdescription>
+</pkgmetadata>

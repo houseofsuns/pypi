@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>**spm1d** is a Python package for &lt;b&gt;one-dimensional Statistical Parametric Mapping&lt;b&gt;.spm1d uses &lt;b&gt;Random Field Theory&lt;/b&gt; expectations regarding the behavior of smooth,one-dimensional Gaussian fields to make statistical inferences regarding a set ofone-dimensional measurements.</longdescription>
+</pkgmetadata>

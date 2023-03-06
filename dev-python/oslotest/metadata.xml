@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>========================Team and repository tags========================.. image:: https://governance.openstack.org/tc/badges/oslotest.svg    :target: https://governance.openstack.org/tc/reference/tags/index.html.. Change things from this point on=====================================================oslotest -- OpenStack Testing Framework and Utilities=====================================================The Oslo Test framework provides common fixtures, support for debugging, andbetter support for mocking results.* Free software: Apache license* Documentation: https://docs.openstack.org/oslotest/latest/* Source: https://opendev.org/openstack/oslotest* Bugs: https://bugs.launchpad.net/oslotest* Release notes: https://docs.openstack.org/releasenotes/oslotest</longdescription>
+</pkgmetadata>

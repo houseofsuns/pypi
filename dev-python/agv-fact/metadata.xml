@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># README #### Cambios en esta versión ###* Version 1.0.1.0* Se agrega la versión 4.0 de facturación* Se modifica el data que recibe la libreria para el timbrado* Nueva información en el data para poder timbrar* [Link](https://google.com)</longdescription>
+</pkgmetadata>

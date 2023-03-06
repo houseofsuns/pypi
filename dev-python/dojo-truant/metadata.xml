@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># dojo_truantPotentially to be published but just enough of a python defect dojo client to get me where I need to go. It's truantbecause it's expected that there's features in defect dojo that I will likely not fully support.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Super Simple Test Sequencer## Install```pip install super-simple-test-sequencer```## Create new test sequenceThis command creates new empty/template test sequence to test_definitions/ directory.```super_simple_test_runner.py ```Modify the template at test_definitions/ to create your own sequence.## Run sequence```super_simple_test_runner.py ```# More informationSee video of the concept (in finnish):https://youtu.be/x7MCSb7BLW4</longdescription>
+</pkgmetadata>

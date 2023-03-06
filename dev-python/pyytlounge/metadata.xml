@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># YouTube Lounge API wrapper written in Python (WIP)## SetupActivate virtual environment:- create `python -m venv .venv`- activate `source .venv/bin/activate`## How to use1. Now you need a screen_id and loungeToken. For now the easiest way is through manual pairing.   - Try `python manual_pairing.py` and enter the pairing code from the YouTube app settings.2. Copy variables_example.py to variables.py and enter screen id and lounge token there.3. `python main.py`## Thanks- https://github.com/henriquekano/youtube-lounge-api### Publish to pypi1. Update pyproject.toml2. `python -m build`3. `python -m twine upload dist/*`</longdescription>
+</pkgmetadata>

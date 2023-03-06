@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![Build Status](https://travis-ci.org/bboe/update_checker.png)](https://travis-ci.org/bboe/update_checker)# update_checkerA python module that will check for package updates.Only whitelisted packages can be checked for updates. Contact update_checker'sauthor for information on adding a package to the whitelist.### InstallationThe update_checker module can be installed via:    pip install update_checker### UsageTo simply output when there is a newer version of the `praw` package, you canuse the following bit of code:```pythonfrom update_checker import update_checkupdate_check('praw', '0.0.1')```If you need more control, such as performing operations conditionally whenthere is an update you can use the following approach:```pythonfrom update_checker import UpdateCheckerchecker = UpdateChecker()result = checker.check('praw', '0.0.1')if result:  # result is None when an update was not found or a failure occured   # result is a UpdateResult object that contains the following attributes:   # * available_version   # * package_name   # * running_version   # * release_date (is None if the information isn't available)   print(result)   # Conditionally perform other actions```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![Build Status](https://travis-ci.com/TheTesla/dnsuptools.svg?branch=master)](https://travis-ci.com/TheTesla/dnsuptools)# DNSupToolsThis is a python library enabling easy dns server record updates. Currently onlyinwx.de is supported. This program library depends on pycurl. To use this you need:```bashsudo apt install libcurl4-openssl-dev libssl-dev```# ToDocomplete all tests!# AuthorStefan Helmert</longdescription>
+</pkgmetadata>

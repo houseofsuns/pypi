@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## Overview## Documentation## Installation```pip install apidevtools```### Package dependencies```pip install pydantic loguru pillow numpy argon2-cffi cryptography aiohttp```speedups```pip install aiodns ujson cchardet uvloop```### Per module dependencies- simpleorm    - orm        ```        pip install pydantic loguru        ```        - connectors            - mysql ```pip install aiomysql```            - postgresql ```pip install asyncpg```            - sqlite ```pip install aiosqlite```    - nosql        - redis ```pip install aioredis```- security    - hasher        ```        pip install argon2-cffi        ```    - encryptor        ```        pip install cryptography        ```- media    - imgproc        ```        pip install pillow numpy        ```    - telegraph        ```        pip install aiohttp        ```- logman    ```    pip install loguru    ```</longdescription>
+</pkgmetadata>

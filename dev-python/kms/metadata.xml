@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># KMSThis Is KMS Library That Created For Hackers In Python Language. Its For Someone Who Need To Create A PowerFul Tool! Because Its Contains Lots Of Things That Hackers Need And Want...This Is Information Gathering Part Tools:1. Get (A) Records2. AS Lookup3. DNS Lookup4. Find DNS Servers5. HTTP Headers6. IP Location7. Page Links8. Ping9. Reverse IP Lookup10. Reverse DNS11. Subnet Calcualtor12. TCP Port Scanner13. TraceRoute14. Whois15. Zone TransferIt Contains Two Or Three Types Of Hashing.And Contains An Inspector That You Can Get Every Some Tags In A Code Or You Can Get Every Information In Site Really Easy!!!It Contains Two Admin Finder Part And Contains A CMS Finder! For Example You Can Find CMS Js Web Servers And ... With This Command:`import kms``kms.find_cms(&quot;web Address&quot;)`Or You Can find Admin Page With These Commands:`kms.find_admin_php(&quot;web Address&quot;)`Or`kms.find_admin_asp(&quot;web Address&quot;)`You Can See Better Explanation And Full Documentation In Wiki...# InstallationFor Install Kms Just Install It From PIP:`pip install kms`Really Easy!!</longdescription>
+</pkgmetadata>

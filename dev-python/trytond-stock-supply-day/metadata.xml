@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Stock Supply Day Module#######################The Stock Supply Day module adds a Week Days list on the ProductSupplier form. This allow to restrict the supply week days for eachsupplier on each product. If no days are defined for a supplier asupplying may happens at any day of the week.For example, those week days are taken into account when computing theplanned date of stock moves created by the purchase (defined in thePurchase module) and by the scheduler that generates the PurchaseRequests (defined in the Stock Supply module).</longdescription>
+</pkgmetadata>

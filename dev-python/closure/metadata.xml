@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>The `Closure Compiler &lt;http://code.google.com/closure/compiler/&gt;`_ isa tool for reducing the size of Javascript files to make them downloadand run faster.It's a Java-based tool. This package, in the spirit of the `yuicompressor &lt;http://pypi.python.org/pypi/yuicompressor/&gt;` package,provides a simple way to install and use the the Closure compiler from Python, bundling the ``closure.jar`` with the Python package.I recommend looking at `webassets`_ for your CSS/JS compression needs... _webassets: https://github.com/miracle2k/webassets--------Versions--------Version ``YYYYMMDD`` of this package will bundle the corresponding version of the compiler (Closure uses the build date as the version).If you want a new version to be uploaded, open a ticket at the`Github page &lt;https://github.com/miracle2k/python-closure&gt;`_.</longdescription>
+</pkgmetadata>

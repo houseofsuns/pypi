@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># django-user-visitDjango app for recording daily user visits#### CompatibilityThis library uses the `__future__.annotations` import for postponed evaluation of annotations.As a result it supports Python 3.7 and above only.It supports Django 2.2 and above.---This app consists of middleware to record user visits, and a single `UserVisit` model to capturethat data.The principal behind this is _not_ to record every single request made by a user. It is to recordeach daily visit to a site.The one additional factor is that it will record a single daily visit per session / device / ipcombination. This means that if a user visits a site multiple times from the same location / samedevice, without logging out, then they will be recorded once. If the same user logs in from adifferent device, IP address, then they will be recorded again.The goal is to record unique daily visits per user 'context' ( where context is the location /device combo).Admin list view:![UserVisit list view](assets/screenshot-admin-list-view.png)Admin edit view:![UserVisit edit view](assets/screenshot-admin-edit-view.png)</longdescription>
+</pkgmetadata>

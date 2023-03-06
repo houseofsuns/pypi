@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Client Library for encoding Videos with CoconutCoconut is a Video Encoding Web Service built for developers.For more information:* Coconut: https://coconut.co* API Documentation: https://docs.coconut.co* Twitter: @openCoconutChangelogs3.0.0New pytonh library compatible with Coconut APIv22.4.3Fix Authorization Header:&quot;TypeError: a bytes-like object is required, not 'str'&quot; was returned before2.4.2Don't wait for a 401 challenge to pass the auth token to Coconut APIs.2.4.0Implements new Job methods to get info about a job and get metadata (new metadata API).2.2.0Added a new method #config to generate a full configuration based on the given parameters. It's especially useful to handle dynamic settings like source or variables that can be set directly in code.2.0.0New version of the client library which uses the HeyWatch API v2. This library is not compatible with 1.x1.0.0First version</longdescription>
+</pkgmetadata>

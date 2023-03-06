@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Palettable==========.. image:: https://travis-ci.org/jiffyclub/palettable.png?branch=master   :alt: Travis-CI   :target: https://travis-ci.org/jiffyclub/palettable.. image:: https://coveralls.io/repos/jiffyclub/palettable/badge.png   :alt: Coveralls   :target: https://coveralls.io/r/jiffyclub/palettable.. image:: https://img.shields.io/pypi/v/palettable.svg   :alt: PyPI   :target: https://pypi.python.org/pypi/palettable/.. image::  https://img.shields.io/pypi/wheel/palettable.svg    :target: https://pypi.python.org/pypi/palettable/    :alt: Wheel StatusColor Palettes for Python-------------------------Palettable (formerly brewer2mpl) is a library of color palettes for Python.It's written in pure Python with no dependencies, but it can supply color mapsfor matplotlib. You can use Palettable to customize matplotlib plots or supplycolors for a web application.For more information see the`documentation &lt;https://jiffyclub.github.io/palettable/&gt;`_.</longdescription>
+</pkgmetadata>

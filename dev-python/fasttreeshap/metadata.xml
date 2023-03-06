@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>FastTreeSHAP package implements two new algorithms FastTreeSHAP v1 and FastTreeSHAP v2, to improve the computational efficiency of TreeSHAP for large datasets. In practice FastTreeSHAP v1 is 1.5x faster than TreeSHAP while keeping the memory cost unchanged, and FastTreeSHAP v2 is 2.5x faster than TreeSHAP at the cost of a slightly higher memory usage.</longdescription>
+</pkgmetadata>

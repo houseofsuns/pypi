@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Validate and Parse Brazilian Identification Numbers---------------------------------------------------Python functions for working with CNPJ, CEI, CPF, PIS/PASEP, CEP, and municipal(município) codes, which identify firms, people, and places in Brazil.</longdescription>
+</pkgmetadata>

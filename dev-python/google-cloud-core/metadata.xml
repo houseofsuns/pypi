@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Core Helpers for Google Cloud Python Client Library===================================================|pypi| |versions|This library is not meant to stand-alone. Instead it definescommon helpers (e.g. base ``Client`` classes) used by all of the``google-cloud-*`` packages.-  `Documentation`_.. |pypi| image:: https://img.shields.io/pypi/v/google-cloud-core.svg   :target: https://pypi.org/project/google-cloud-core/.. |versions| image:: https://img.shields.io/pypi/pyversions/google-cloud-core.svg   :target: https://pypi.org/project/google-cloud-core/.. _Documentation: https://cloud.google.com/python/docs/reference/google-cloud-core/latestQuick Start-----------.. code-block:: console    $ pip install --upgrade google-cloud-coreFor more information on setting up your Python development environment,such as installing ``pip`` and ``virtualenv`` on your system, please referto `Python Development Environment Setup Guide`_ for Google Cloud Platform... _Python Development Environment Setup Guide: https://cloud.google.com/python/setupSupported Python Versions-------------------------Python &gt;= 3.7Unsupported Python Versions---------------------------Python == 2.7: the last version of this library which supported Python 2.7is ``google.cloud.core 1.7.2``.Python == 3.6: the last version of this library which supported Python 3.6is ``google.cloud.core 2.3.1``.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># drpydrpy (pronounced &quot;doctor pi&quot;) is a **D**ata **R**eduction toolkit for astronomical **P**hotometry and spectroscop**Y**## Installation```pip install astro-drpy```## Note1. No NaNs or infs should be passed into functions without being masked in advance.2. `use_uncertainty` and `use_mask` only control the use of uncertainty and mask frames in the calculations. Whether the two frames are returned by a function depends on the custom's input.3. All calculations should be dimensionless to ensure best performence.4. Header should not convert to meta directly. Should be ```meta = {'header': header}```5. Do NOT do validation in internal functions</longdescription>
+</pkgmetadata>

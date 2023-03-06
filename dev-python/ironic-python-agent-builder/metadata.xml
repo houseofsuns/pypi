@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>===========================Ironic Python Agent Builder===========================Tools and scripts to build a deployment, cleaning or inspection ramdiskbased on `Ironic Python Agent`_.* Free software: Apache license* Documentation: https://docs.openstack.org/ironic-python-agent-builder* Source: https://opendev.org/openstack/ironic-python-agent-builder* Bugs: https://storyboard.openstack.org/#!/project/948* Release Notes: https://docs.openstack.org/releasenotes/ironic-python-agent-builder/.. _Ironic Python Agent: https://docs.openstack.org/ironic-python-agent</longdescription>
+</pkgmetadata>

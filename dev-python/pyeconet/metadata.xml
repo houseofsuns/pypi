@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pyeconetPython3 interface to the unofficial EcoNet API.**NOTE** This isn't using an official EcoNet API therefore this library could stop working at any time, without warning.```pythonimport asyncioimport loggingimport timeimport getpassfrom pyeconet import EcoNetApiInterfacefrom pyeconet.equipment import EquipmentTypefrom pyeconet.equipment.water_heater import WaterHeaterOperationModelogging.basicConfig()logging.getLogger().setLevel(logging.DEBUG)async def main():    email = input(&quot;Enter your email: &quot;).strip()    password = &quot;&quot; #getpass.getpass(prompt='Enter your password: ')    api = await EcoNetApiInterface.login(email, password=password)    all_equipment = await api.get_equipment_by_type([EquipmentType.WATER_HEATER, EquipmentType.THERMOSTAT])    #api.subscribe()    #await asyncio.sleep(5)    for equip_list in all_equipment.values():        for equipment in equip_list:            print(f&quot;Name: {equipment.device_name}&quot;)    #        print(f&quot;Set point: {equipment.set_point}&quot;)    #        print(f&quot;Supports modes: {equipment._supports_modes()}&quot;)    #        print(f&quot;Operation modes: {equipment.modes}&quot;)    #        print(f&quot;Operation mode: {equipment.mode}&quot;)            #await equipment._get_energy_usage()            #equipment.set_set_point(equipment.set_point + 1)            #equipment.set_mode(OperationMode.ELECTRIC_MODE)    #await asyncio.sleep(300000)    #api.unsubscribe()if __name__ == &quot;__main__&quot;:    loop = asyncio.get_event_loop()    loop.run_until_complete(main())```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Summary-------The addressbook cube adds a phone number, postal address and instantmessenger address (supports icq, msn and jabber) to the schema.Views description-----------------There's only basic entity views in there.</longdescription>
+</pkgmetadata>

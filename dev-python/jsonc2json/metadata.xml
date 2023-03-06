@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># jsonc2jsonpython &amp; rust package to strip comments from jsonc strings/bytesuses: https://docs.rs/json_comments/latest/json_comments/## Usage:```pythonfrom jsonc2json import jsonc2jsonjsonc_string = &quot;&quot;&quot;{    &quot;name&quot;: /* full */ &quot;John Doe&quot;,    &quot;age&quot;: 43,    &quot;phones&quot;: [        &quot;+44 1234567&quot;, // work phone        &quot;+44 2345678&quot;  // home phone    ]  # hash comment}&quot;&quot;&quot;.strip()json_string = jsonc2json(jsonc_string)print(json_string)# PRINTS:# {#     &quot;name&quot;:            &quot;John Doe&quot;,#     &quot;age&quot;: 43,#     &quot;phones&quot;: [#         &quot;+44 1234567&quot;,#         &quot;+44 2345678&quot;#     ]# }assert isinstance(json_string, str)assert isinstance(jsonc2json(jsonc_string.encode()), bytes)```## TODO:- [ ] Add options present in the rust package</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># igwn-gwalert-schemaJSON and Avro Schema for gravitational-wave alerts.## To install    $ pip install igwn-gwalert-schema## To use    $ python    &gt;&gt;&gt; from importlib import resources    &gt;&gt;&gt; import json    &gt;&gt;&gt; with resources.open_text('igwn_gwalert_schema', 'igwn.alerts.v1_0.Alert.avsc') as f:    ...     json.load(f)    ...     {'name': 'Alert', 'namespace': 'igwn.alerts.v1_0', 'type': 'record', 'doc': 'Alert schema v1.0.', 'fields': [{'name': 'alert_type', 'type': 'igwn.alerts.v1_0.AlertType', 'doc': 'The type of alert; the possible values are EARLY_WARNING, PRELIMINARY, INITIAL, UPDATE, RETRACTION.'}, {'name': 'time_created', 'type': 'string', 'doc': 'The time this notice was created in ISO 8601 format.'}, {'name': 'superevent_id', 'type': 'string', 'doc': 'The GraceDB superevent ID.'}, {'name': 'event', 'type': ['null', 'igwn.alerts.v1_0.EventInfo'], 'doc': 'Information about the event, if any.'}, {'name': 'external_coinc', 'type': ['null', 'igwn.alerts.v1_0.ExternalCoincInfo'], 'doc': 'Information about the coincidence with an non-GW event, if any.'}, {'name': 'urls', 'type': {'type': 'map', 'values': 'string', 'default': {}}, 'doc': 'URLs relevant to the event, if any.'}]}</longdescription>
+</pkgmetadata>

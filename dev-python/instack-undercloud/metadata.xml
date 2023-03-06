@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Team and repository tags========================[![Team and repository tags](https://governance.openstack.org/tc/badges/instack-undercloud.svg)](https://governance.openstack.org/tc/reference/tags/index.html)&lt;!-- Change things from this point on --&gt;Undercloud Install via instack==============================instack-undercloud is tooling for installing a TripleO undercloud.It is part of the TripleO project:https://docs.openstack.org/tripleo-docs/latest/* Free software: Apache license* Source: https://git.openstack.org/cgit/openstack/instack-undercloud* Bugs: https://bugs.launchpad.net/tripleo</longdescription>
+</pkgmetadata>

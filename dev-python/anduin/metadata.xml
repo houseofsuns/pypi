@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>一个轻量化的sqlite/mysql数据序列化操作引擎名称来自《指环王》&lt;=========使用指南=========&gt;参见github wiki页面[使用指南](https://github.com/campanulamediuml/Anduin/wiki)</longdescription>
+</pkgmetadata>

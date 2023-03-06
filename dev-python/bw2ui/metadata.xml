@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Brightway2-UI=============This is a web and command line user interface, part of the `Brightway2 LCA framework &lt;http://brightwaylca.org&gt;`_. The source code is hosted on `Bitucket &lt;https://bitbucket.org/cmutel/brightway2-ui&gt;`_.</longdescription>
+</pkgmetadata>

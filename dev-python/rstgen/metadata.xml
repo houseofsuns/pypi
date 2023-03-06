@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=====================The ``rstgen`` module=====================Warning: This repository has moved to https://gitlab.com/lino-framework/rstgenSome utilities for generating chunks of `reStructuredText&lt;https://docutils.sourceforge.io/rst.html&gt;`__.It also contains a series of Sphinx extensions (in the `rstgen.sphinxconf`package).- Documentation: https://atelier.lino-framework.org/rstgen- Source code: https://gitlab.com/lino-framework/rstgen- Changelog: https://atelier.lino-framework.org/changes</longdescription>
+</pkgmetadata>

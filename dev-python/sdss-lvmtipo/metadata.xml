@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>lvmtipo==========================================|py| |pypi| |Build Status| |docs| |Coverage Status|``lvmtipo`` common Telescope/Instrument Parameters &amp; Objects for lvmFeatures--------- TODOInstallation------------``lvmtipo`` can be installed using ``pip`` as.. code-block:: console    pip install sdss-lvmtipoor from source.. code-block:: console    git clone https://github.com/sdss/lvmtipo    cd lvmtipo    pip install ... |Build Status| image:: https://img.shields.io/github/workflow/status/sdss/lvmtipo/Test    :alt: Build Status    :target: https://github.com/sdss/lvmtipo/actions.. |Coverage Status| image:: https://codecov.io/gh/sdss/lvmtipo/branch/main/graph/badge.svg    :alt: Coverage Status    :target: https://codecov.io/gh/sdss/lvmtipo.. |py| image:: https://img.shields.io/badge/python-3.7%20|%203.8%20|%203.9-blue    :alt: Python Versions    :target: https://docs.python.org/3/.. |docs| image:: https://readthedocs.org/projects/docs/badge/?version=latest    :alt: Documentation Status    :target: https://lvmtipo.readthedocs.io/en/latest/?badge=latest.. |pypi| image:: https://badge.fury.io/py/sdss-lvmtipo.svg    :alt: PyPI version    :target: https://badge.fury.io/py/sdss-lvmtipo.. |black| image:: https://img.shields.io/badge/code%20style-black-000000.svg    :target: https://github.com/psf/black</longdescription>
+</pkgmetadata>

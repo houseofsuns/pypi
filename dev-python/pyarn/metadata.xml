@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![Coverage Status](https://coveralls.io/repos/github/containerbuildsystem/pyarn/badge.svg?branch=master)](https://coveralls.io/github/containerbuildsystem/pyarn?branch=master)# PYarnIf, for some weird reason, you need to parse a Yarn's `yarn.lock` file usingPython, you are in the right place!PYarn is currently in an early developmente stage. It will create a dict from ayarn.lock file, given the yarn.lock file is correct as per [itsimplementation](https://github.com/yarnpkg/yarn/blob/master/src/lockfile/parse.js).At this moment, there is no guarantees that PYarn will behave well (e.g., raisean error) in case a malformed Yarn lockfile is passed to PYarn.PYarn only supports Yarn v1 lockfiles. Parsing Yarn v2 lockfiles should betrivial since they are yaml files.## Development```make develmake check```## UsageThe following prints all the content in the `yarn.lock` file:```from pyarn import lockfilemy_lockfile = lockfile.Lockfile.from_file(FILE_NAME)print(my_lockfile.data)# ormy_lockfile.to_json()````my_lockfile.data` is a `dict` where the top level keys are the top level entries(i.e., the package names) for the `yarn.lock` file entries.## ReleasingBefore releasing a new version to PyPI, don't forget to bump the version number in[setup.cfg](./setup.cfg).Make sure to `git tag` the release commit with the corresponding version and createa Github release explaining what is new.Afterwards, releasing to PyPI is quite simple:```shellmake buildtwine check dist/*twine upload dist/*```</longdescription>
+</pkgmetadata>

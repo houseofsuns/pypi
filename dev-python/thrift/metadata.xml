@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Thrift Python Software LibraryLicense=======Licensed to the Apache Software Foundation (ASF) under oneor more contributor license agreements. See the NOTICE filedistributed with this work for additional informationregarding copyright ownership. The ASF licenses this fileto you under the Apache License, Version 2.0 (the&quot;License&quot;); you may not use this file except in compliancewith the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0Unless required by applicable law or agreed to in writing,software distributed under the License is distributed on an&quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANYKIND, either express or implied. See the License for thespecific language governing permissions and limitationsunder the License.Using Thrift with Python========================Thrift is provided as a set of Python packages. The top level package isthrift, and there are subpackages for the protocol, transport, and servercode. Each package contains modules using standard Thrift naming conventions(i.e. TProtocol, TTransport) and implementations in corresponding modules(i.e. TSocket).  There is also a subpackage reflection, which containsthe generated code for the reflection structures.The Python libraries can be installed manually using the provided setup.pyfile, or automatically using the install hook provided via autoconf/automake.To use the latter, become superuser and do make install.</longdescription>
+</pkgmetadata>

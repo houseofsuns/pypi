@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>==========Ceilometer==========--------Overview--------Ceilometer is a data collection service that collects event and meteringdata by monitoring notifications sent from OpenStack services. It publishescollected data to various targets including data stores and message queues.Ceilometer is distributed under the terms of the ApacheLicense, Version 2.0. The full terms and conditions of thislicense are detailed in the LICENSE file.-------------Documentation-------------Release notes are available athttps://releases.openstack.org/teams/telemetry.htmlDeveloper documentation is available athttps://docs.openstack.org/ceilometer/latest/Launchpad Projects------------------- Server: https://launchpad.net/ceilometerCode Repository---------------- Server: https://github.com/openstack/ceilometerBug Tracking------------- Bugs: https://bugs.launchpad.net/ceilometer/Release Notes-------------- Server: https://docs.openstack.org/releasenotes/ceilometer/IRC---IRC Channel: #openstack-telemetry on `OFTC`_.Mailinglist-----------Project use http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-discussas the mailinglist. Please use tag ``[Ceilometer]`` in the subject for newthreads... _OFTC: https://oftc.net/</longdescription>
+</pkgmetadata>

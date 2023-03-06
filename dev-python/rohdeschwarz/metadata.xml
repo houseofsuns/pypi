@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Rohde &amp; Schwarz python instrument control toolkit=================================================This package provides classes for controlling Rohde &amp; Schwarz general purpose instruments in a pythonic way.</longdescription>
+</pkgmetadata>

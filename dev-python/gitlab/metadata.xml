@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## GitLab&gt; Get GitLab user Details## Install```$ pip install gitlab```## Usage```pythonimport gitlabgitlab.get('yoginth')&quot;&quot;&quot;{'username': 'yoginth','bio': 'Open-Source Enthusiast • Developer &amp; Toolmaker • Pythonista 🐍 • Issue Resolver • Jack 🃏 of all trades, master of none • Beating the odds • I 💜 science 🌌','location': 'Parallel Universe','twitter': 'yoginths','linkedin': '','skype': '','website_url': 'https://t.me/yoginth','id': 2580049,'state': 'active','avatar_url': 'https://secure.gravatar.com/avatar/ef5eb22b653730b5d7d7c32a73ff64e7?s=80&amp;d=identicon','web_url': 'https://gitlab.com/yoginth'}&quot;&quot;&quot;```## Get HelpThere are few ways to get help: 1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question. 2. For bug reports and feature requests, open issues. 3. For direct and quick help, you can [email me](mailto://yoginth@zoho.com).## How to contributeHave an idea? Found a bug? See [how to contribute][contributing].Thanks!## License[MIT][license][LICENSE]: https://yoginth.mit-license.org/[contributing]: /CONTRIBUTING.md</longdescription>
+</pkgmetadata>

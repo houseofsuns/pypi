@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>![vkbee](https://github.com/vkbee/vkbee/raw/master/logo.png)&lt;h1 align=&quot;center&quot;&gt;VKBee - простая в использовании библиотека для взаимодействия с API ВКонтакте&lt;/h1&gt;&lt;p align=&quot;center&quot;&gt;    &lt;img alt=&quot;Made with Python&quot; src=&quot;https://img.shields.io/badge/Made%20with-Python-%23FFD242?logo=python&amp;logoColor=white&quot;&gt;    &lt;img alt=&quot;Downloads&quot; src=&quot;https://pepy.tech/badge/vkbee&quot;&gt;    &lt;img alt=&quot;License&quot; src=&quot;https://img.shields.io/github/license/asyncvk/vkbee?style=flat-square)&quot;&gt;&lt;/p&gt;## УстановкаИз PyPI:```bash$ pip install vkbee```Из GitHub (рекомендуется):```bash$ pip install https://github.com/vkbee/vkbee/archive/master.zip```&gt; Минимальная версия Python - 3.6## Пример использования```pythonimport asyncioimport vkbeefrom vkbee.longpoll import BotLongpoll, Sessionfrom vkbee import APIasync def main(loop):    vk_session = Session(token='token', loop=loop)    longpoll = BotLongpoll(vk_session, 'groupid', 10)    async for event in longpoll.events():        user_id = event['object']['message']['from_id']        message_text = event['object']['message']['text']        await API.call(vk_session, 'messages.send', {'user_id': user_id, 'message': message_text, 'random_id': 0})loop = asyncio.get_event_loop()loop.run_until_complete(main(loop))```Более расширенное использование описано в [документации](https://github.com/vkbee/vkbee/blob/master/docs/docs.md)# СообществоSoon</longdescription>
+</pkgmetadata>

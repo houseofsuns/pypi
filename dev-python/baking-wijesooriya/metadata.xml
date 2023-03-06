@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Learning tool for teaching the Cake Baking Analogy Meant to make the analogy literal so that beginners can better understand the basics of functions.## 1.1 Functions:(All functions sleep one second after they run except complete)\measure: waits one second then prints its string argument\mixIngredients: sleeps for one second then prints &quot;Batter is mixed&quot;\pourBatter: waits one second then prints &quot;Batter has been poured&quot;\setOvenTempTo: prints &quot;Setting oven temp&quot;, waits 0.2 seconds, prints &quot;Heating up...&quot;, prints &quot;Ready in x hours&quot; where x is the oven temperature divided by 100 then stops and prints &quot;Oven temperature set to y degrees&quot; where y is its int argument\bakeBatter: prints &quot;Baking x layer&quot; and then &quot;x layer baked&quot; where x is the ordinal form of 1 through 3 and then prints &quot;All layers are baked!&quot;\assembleCake: prints &quot;Assembling cake...&quot; then sleeps for 1 second then prints &quot;Cake is assembled and ready to be iced!&quot;\iceCake: prints &quot;Icing cake...&quot; then &quot;Cake is iced!&quot;\complete: executes every function and takes unlimited string arguments which are use in measure and uses 500 for setOvenTemp argument.</longdescription>
+</pkgmetadata>

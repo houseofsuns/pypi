@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Scalyr Agent============The Scalyr Agent package.The module that implements the Scalyr Agent, a daemon that collects logs and metrics fromcustomer machines and transmits them to Scalyr.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># psat-server-webPython 3 web interface for the Pan-STARRS and ATLAS surveys.To install:pip install psat-server-webOnce installed, don't forget to add the &quot;data&quot; symlinks in the:site-packages/psat\_server\_web/atlas/media/imagessite-packages/psat\_server\_web/ps1/media/imagesdirectories which point to the location of the image stamps.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>networking-baremetal plugin---------------------------This project's goal is to provide deep integration between the Networkingservice and the Bare Metal service and advanced networking features likenotifications of port status changes and routed networks support in cloudswith Bare Metal service.* Free software: Apache license* Documentation: http://docs.openstack.org/networking-baremetal/latest* Source: http://opendev.org/openstack/networking-baremetal* Bugs: https://storyboard.openstack.org/#!/project/955* Release notes: https://docs.openstack.org/releasenotes/networking-baremetal/</longdescription>
+</pkgmetadata>

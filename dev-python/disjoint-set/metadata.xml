@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># disjoint-set![PyPI - Python Version](https://img.shields.io/pypi/pyversions/disjoint_set.svg)[![PyPI](https://img.shields.io/pypi/v/disjoint_set.svg)](https://pypi.org/project/disjoint-set/)![Coveralls](https://img.shields.io/coveralls/github/mrapacz/disjoint-set/master.svg)![PyPI - License](https://img.shields.io/pypi/l/disjoint_set.svg)[DisjointSet](https://en.wikipedia.org/wiki/Disjoint-set_data_structure) (a.k.a. union–find data structure or merge–find set) implementation for Python.## PrerequisitesThe only requirement is having Python 3 installed, you can verify this by running:```bash$ python --versionPython 3.7.2```## Installation```pip install disjoint-set```You can verify you're running the latest package version by running:```python&gt;&gt;&gt; import disjoint_set&gt;&gt;&gt; disjoint_set.__version__'0.7.3'```## Usage```python&gt;&gt;&gt; from disjoint_set import DisjointSet&gt;&gt;&gt; ds = DisjointSet()&gt;&gt;&gt; ds.find(1)1&gt;&gt;&gt; ds.union(1,2)&gt;&gt;&gt; ds.find(1)2&gt;&gt;&gt; ds.find(2)2&gt;&gt;&gt; ds.connected(1,2)True&gt;&gt;&gt; ds.connected(1,3)False&gt;&gt;&gt; &quot;a&quot; in dsFalse&gt;&gt;&gt; ds.find(&quot;a&quot;)'a'&gt;&gt;&gt; &quot;a&quot; in dsTrue&gt;&gt;&gt; list(ds)[(1, 2), (2, 2), (3, 3), ('a', 'a')]&gt;&gt;&gt; list(ds.itersets())[{1, 2}, {3}, {'a'}]```## ContributingFeel free to open any issues on github.## Authors* [Maciej Rapacz](https://github.com/mrapacz/)## LicenseThis project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details</longdescription>
+</pkgmetadata>

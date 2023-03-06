@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Robotframework-Openpyxllib libraryThis Robotframework Openpyxl library that provides keywords to Open, Read, Write and Save XLSX files. This library uses Openpyxl python module to read and write datas in xlsx files.Pre-requisities:- Python - 2.7 (Not tested with Python 3.0)- Robotframework - 3.0.2 (Not tested with other versions)- OpenpyxlInstallation:pip install robotframework-openpyxllibExample:| Library    |    OpenPyxlLibrary    || Open Excel | &lt;Filename with path&gt;  |</longdescription>
+</pkgmetadata>

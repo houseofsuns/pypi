@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Apple Hardware DataBrought to you by the [Hack Different](https://hackdifferent.com) team.## IntroductionThis is a package with data files sourced fromthe [hack-different/apple-knowledge](https://github.com/hack-different/apple-knowledge/tree/main/_data)repository.  Updates to that repository will automatically update this package, therefore no attempt shouldbe made to update the data files by any other method.## Accessing the DataFor the time being, there is only one simple API:```pythonfrom apple_data import get_dataREGISERS = get_data('registers')```## Credits* [Hack Different](https://hackdifferent.com)Created and maintained as a labor of love by [`rickmark`](https://github.com/rickmark)</longdescription>
+</pkgmetadata>

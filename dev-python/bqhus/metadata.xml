@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># bqhus[![Maintainability](https://api.codeclimate.com/v1/badges/102f4aceaa6a1c544f52/maintainability)](https://codeclimate.com/github/yokoe/bqhus/maintainability)BigQuery helper utils for Python## How to use### Select from table```import bqhusbqhus.select(&quot;SELECT * FROM `foo.bar.purchases` LIMIT 20&quot;).as_dicts()bqhus.select(&quot;SELECT * FROM `foo.bar.purchases` ORDER BY created_at LIMIT 1&quot;, client=bigquery.Client(project=&quot;foobar&quot;)).first_as_dict()bqhus.select(&quot;SELECT * FROM `foo.bar.purchases` LIMIT 20&quot;).to_dataframe()```### Create table from query```bqhus.select(&quot;SELECT * FROM `some.source.table`&quot;).to_table(&quot;foo.bar.new_table&quot;)```### Create temp table from query```bqhus.select(&quot;SELECT * FROM `some.source.table`&quot;).to_table(&quot;foo.bar.new_table&quot;).expires_in(days=7)```### Export table to GCS as csv```bqhus.export_table(&quot;foo.bar.sample&quot;).as_csv(gzip=True).to_gcs(&quot;my-bucket&quot;, &quot;exported-table.csv.gz&quot;)```### Generate random table name```bqhus.random_table_name(&quot;prefix-here&quot;)```## Development### Run tests```docker compose run bqhus```</longdescription>
+</pkgmetadata>

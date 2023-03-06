@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># perceptorModular image generation library.## Install```bashpoetry add perceptor```Or, for the old timers:```bashpip install perceptor```### CUDA 11.3 (Support RTX cards)```bashpoetry run pip uninstall torch torchvision -y &amp;&amp; poetry run pip install torch==1.12.1 torchvision==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu113```## InterfaceShortlist of available features. See the [API reference](https://perceptor.readthedocs.io/en/latest/) for more information.```pythonperceptor  .drawers    .BruteDiffusion    .DeepImagePrior    .Raw    .RuDALLE    .StyleGANXL  .models    .AdaBinsDepth    .DeepImagePrior    .VelocityDiffusion (yfcc_2, yfcc_1, cc12m_1_cfg, wikiart)    .latent_diffusion      .Text2Image      .Face      .SuperResolution    .GuidedDiffusion (openai, pixelart)    .MidasDepth    .MonsterDiffusion (all, tinyhero)    .StyleGANXL    .RuDALLE    .StableDiffusion    .SuperResolution  .losses    # Text-image similarity    .BLIP    .CLIP    .CLOOB    .LiT    .GlideCLIP    .OpenCLIP    .OWLViT    .RuCLIP    .SLIP    # Other    .AestheticVisualAssessment    .LPIPS    .Memorability    .MidasDepth    .SimulacraAesthetic    .Smoothness    .StyleTransfer  .transforms    .clamp_with_grad    .resize    .SuperResolution  .utils    .gradient_checkpoint```</longdescription>
+</pkgmetadata>

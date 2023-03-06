@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## Novigi Custom Airflow Operators ##* This Repo contains custom airflow operators which were writen by Novigi Pty Ltd * Version No - 1.0* Bitbucket Link - https://Prasadi1994@bitbucket.org/novigi/novigi_operators.git### How do I get set up? ###* Summary of set up* Configuration* Dependencies* Database configuration* How to run tests* Deployment instructions### Contribution guidelines ###* Writing tests* Code review* Other guidelines### Who do I talk to? ###* Repo owner or admin* Other community or team contact</longdescription>
+</pkgmetadata>

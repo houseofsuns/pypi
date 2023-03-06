@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Django Auth MixinsBackport of Django 1.9 [authmixins](https://github.com/django/django/blob/1.9.4/django/contrib/auth/mixins.py)for Django 1.8.x LTS:* LoginRequiredMixin* PermissionRequiredMixin* UserPassesTestMixin## Usage    from auth_mixins import LoginRequiredMixin, PermissionRequiredMixin, UserPassesTestMixin## Docs- https://docs.djangoproject.com/en/1.9/topics/auth/default/#the-loginrequired-mixin- https://docs.djangoproject.com/en/1.9/topics/auth/default/#the-permissionrequiredmixin-mixin- https://docs.djangoproject.com/en/1.9/topics/auth/default/#django.contrib.auth.mixins.UserPassesTestMixin## LicenseLike Django, see `LICENSE` file.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># image2vector## IntroduceTransforming images into 512-dimensional vectors by residual neural networks⭐️ 🌟 ✨ ⚡️ ☄️ 💥## InstallationPackage is uploaded on PyPI: https://pypi.org/project/image2vectorYou can install it with pip:```shellpip install image2vector```## RequirementsPython -- one of the following:- CPython : 3.8 and newer ✅- PyPy : Software compatibility not yet tested ❓## Documentation📄 Intensified preparation in progress## ExampleWith the following code demo, you will learn the following- Initialize a residual neural network- Generate a vector of specified images- Compare the Euclidean distance of two vectors```pythonfrom pathlib import Pathfrom typing import Listfrom iv import ResNet, l2# Initialize a residual neural networkresnet: ResNet = ResNet(    weight_file='weight/gl18-tl-resnet50-gem-w-83fdc30.pth')# Generate a vector of specified images# The generated vector is a List[float] data structure,# the length of the list is 512, which means the vector is of 512 dimensionsvector_1: List[float] = resnet.gen_vector('example-1.jpg')vector_2: List[float] = resnet.gen_vector('example-2.jpg')# Compare the Euclidean distance of two vectorsdistance: float = l2(vector_1, vector_2)print('Euclidean Distance is ', distance)```&gt; Where to get the `weight/gl18-tl-resnet50-gem-w-83fdc30.pth` file from, you can visit: http://cmp.felk.cvut.cz/cnnimageretrieval/data/networks/gl18/</longdescription>
+</pkgmetadata>

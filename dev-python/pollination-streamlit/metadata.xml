@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Pollination StreamlitA [Pollination](https://pollination.cloud) extension to facilitate working withPollination in [Streamlit](https://streamlit.io) apps.Many thanks to the Streamlit team for developing [Streamlit app framework](https://github.com/streamlit/)! :balloon: :balloon: :balloon:You can build custom apps for environmental building simulation by bringing the power ofPollination and Ladybug Tools to Streamlit apps!# Getting StartedSee [this repository](https://github.com/pollination/sample-apps) for several samplepollination sample apps.If you are new Streamlit see Streamlit [get started documentation](https://docs.streamlit.io/library/get-started).## Installation`python -m pip install -U pollination-streamlit`## Local Development1. Clone this repo locally```consolegit clone git@github.com:ladybug-tools/pollination-streamlit# orgit clone https://github.com/ladybug-tools/pollination-streamlit```2. Install dependencies:```consolecd pollination-streamlitpip install -r dev-requirements.txtpip install -r requirements.txt```3. Run Tests:```consolepython -m pytest tests/```</longdescription>
+</pkgmetadata>

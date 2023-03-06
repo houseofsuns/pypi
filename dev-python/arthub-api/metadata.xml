@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Arthub SDK for pythonThis python project provides a series of API interfaces to access the ArtHub server## InstallingYou can install via pip.```pip install arthub_api```or build from source```git clone https://git.woa.com/arthub/arthub-python-sdk.gitcd arthub-python-sdkpython setup.py install```## TestingWe provide unit tests in ./test, you can use them with pytest```pytest ./tests```## Using the SDK* Please refer to the SDK usage guide:  [Usage Guide](./docs/usage_guide.md)* If you have any questions, please contact joeyding on WeChat Work## For Developer* [Developer](./docs/developer_guide.md)</longdescription>
+</pkgmetadata>

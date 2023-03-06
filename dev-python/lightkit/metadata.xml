@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># LightKitLightKit provides simple utilities for working with PyTorch and PyTorch Lightning. At the moment,it provides three simple features:- A data loader for tabular data that is orders of magnitude faster than PyTorch's builtin data  loader for medium-sized datasets and larger ones.- A mixin for modules that allows to save not only weights, but also the configuration to the file  system such that it is easier to retrieve trained models.- A typed base class for estimators that enables users to easily create estimators with PyTorch and  PyTorch Lightning which are fully compatible with Scikit-learn.For more details, consult the [documentation](https://lightkit.borchero.com).## InstallationLightKit is available via `pip`:```bashpip install lightkit```If you are using [Poetry](https://python-poetry.org/):```bashpoetry add lightkit```</longdescription>
+</pkgmetadata>

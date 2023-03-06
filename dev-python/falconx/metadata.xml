@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># OverviewThis is the official python client for the FalconX API.API Documentation: http://docs.falconx.io# Installation```shpip install falconx```# Quickstart```pythonfrom falconx import FalconxClientclient = FalconxClient(key=KEY, secret=SECRET, passphrase=PASSPHRASE)quote = client.get_quote('BTC', 'USD', 5, 'two_way')result = client.execute_quote(quote['fx_quote_id'], 'buy')```# About FalconXFalconX is an institutional digital asset brokerage. </longdescription>
+</pkgmetadata>

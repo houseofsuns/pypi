@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># uule_grabberGenerates UULE codes for Google Search## InstallationYou can install the package from PyPI by using pip:```sh$ pip install uule_grabber```## Usage```python&gt;&gt;&gt; import uule_grabber&gt;&gt;&gt;&gt;&gt;&gt; city = &quot;Lezigne,Pays de la Loire,France&quot;&gt;&gt;&gt; uule_grabber.uule(city)&quot;w+CAIQICIfTGV6aWduZSxQYXlzIGRlIGxhIExvaXJlLEZyYW5jZQ&quot;```## Latest Geo TargetsYou can directly download the data from Google AdWords API:https://developers.google.com/adwords/api/docs/appendix/geotargeting## CreditsPorted to Python based on:- Google UULE parameter: https://valentin.app/uule.html</longdescription>
+</pkgmetadata>

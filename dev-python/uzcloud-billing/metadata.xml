@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>====================Uzcloud Billing====================Uzcloud Billing is a Django app to provide account with Uzcloud Billing account number. Quick start-----------1.Add &quot;rest_framework&quot; and &quot;uzcloud_billing&quot; to your INSTALLED_APPS :.. code-block:: python    INSTALLED_APPS = [        ...        'rest_framework',        'uzcloud_billing',    ]2.Include the uzcloud_billing urls in your project urls.py like this :.. code-block:: python    path('api/billing/', include('uzcloud_billing.urls')),3.Add Following credentials to settings.py :.. code-block:: python    UZCLOUD_BILLING = {        &quot;AUTH_URL&quot;: &quot;&quot;,        &quot;BASE_URL&quot;: &quot;&quot;,        &quot;CLIENT_ID&quot;: &quot;&quot;,        &quot;CLIENT_SECRET&quot;: &quot;&quot;,        &quot;IDENT_RESPONSE_SERIALIZER&quot;: &quot;&quot;,    }    4.Run ``python manage.py migrate`` to create the uzcloud_billing models.5.You may create receiver for balance filled event.Signal for your receiver must be ``uzcloud_billing.signals.balance_filled_signal``.Receiver function get  ``data`` as argument and data value is {&quot;AccountNumber&quot;:&quot;&quot;,&quot;paymentType&quot;:&quot;&quot;,&quot;Amount&quot;:&quot;&quot;,&quot;Balance&quot;:&quot;&quot;}</longdescription>
+</pkgmetadata>

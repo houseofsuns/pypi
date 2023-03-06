@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># maquinas_maquinas_ is a library to build computing machines and grammars. It can be use to teach Formal Language Theory.## InstallationWithin a virtual environment use pip to install maquinas:    $ pip install maquinas## DocumentationVisit: https://maquinas.readthedocs.io/To check further examples check the [Notebooks repository](https://github.com/ivanvladimir/maquinas_notebooks).</longdescription>
+</pkgmetadata>

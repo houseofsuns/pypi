@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Roman Attribute Dictionary[![CI](https://github.com/spacetelescope/rad/actions/workflows/ci.yml/badge.svg)](https://github.com/spacetelescope/rad/actions/workflows/ci.yml) [![Documentation Status](https://readthedocs.org/projects/rad/badge/?version=latest)](https://rad.readthedocs.io/en/latest/?badge=latest)[![Powered by STScI Badge](https://img.shields.io/badge/powered%20by-STScI-blue.svg?colorA=707170&amp;colorB=3e8ddd&amp;style=flat)](http://www.stsci.edu)This is a repository for the Roman Attribute Dictionary## InstallationTo install the latest `rad` release    pip install radTo install the latest code from the repository    pip install git+https://github.com/spacetelescope/rad.gitTo use the library    &gt;&gt;&gt; import rad</longdescription>
+</pkgmetadata>

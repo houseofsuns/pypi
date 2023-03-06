@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># hglibThe hglib is fork of of [hglib](https://www.mercurial-scm.org/wiki/PythonHglib), which is library with a fast, convenient interface to Mercurial. It uses Mercurial's command server for communication with hg.Only difference for now is just name of the package and updated tests.## Basic usage```pythonimport hglibclient = hglib.open(path)log = client.log(revrange=&quot;tip&quot;)print(log)```## Dependencies ##* Python 2.7 or 3.5## Licence ##MIT## Contact ##Michal Siska &lt;michal.515k4@gmail.com&gt;</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![Python package](https://github.com/PTB-PSt1/time-series-buffer/workflows/Python%20package/badge.svg?branch=master)](https://pypi.org/project/time-series-buffer/)[![Documentation Status](https://readthedocs.org/projects/time-series-buffer/badge/?version=latest)](https://time-series-buffer.readthedocs.io/en/latest/)# time-series-buffer - a metrological time-series bufferThis package provides support for time-series buffering based on the build-in Python `collections.deque`. The package is developed and maintained at the &quot;Physikalisch-Technische Bundesanstalt&quot; by Björn Ludwig and Maximilian Gruber. </longdescription>
+</pkgmetadata>

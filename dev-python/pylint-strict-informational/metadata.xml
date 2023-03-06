@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>===========================Pylint Strict Informational===========================Pylint plugin to make it fail when an informational message (the `I` category) is found.Pylint &gt;= 2.4.0 is required (in order for `pylint.constants` module to exist).</longdescription>
+</pkgmetadata>

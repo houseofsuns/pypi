@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pandas-gbq==========|preview| |pypi| |versions| **pandas-gbq** is a package providing an interface to the Google BigQuery API from pandas.-  `Library Documentation`_-  `Product Documentation`_.. |preview| image:: https://img.shields.io/badge/support-preview-orange.svg   :target: https://github.com/googleapis/google-cloud-python/blob/main/README.rst#beta-support.. |pypi| image:: https://img.shields.io/pypi/v/pandas-gbq.svg   :target: https://pypi.org/project/pandas-gbq/.. |versions| image:: https://img.shields.io/pypi/pyversions/pandas-gbq.svg   :target: https://pypi.org/project/pandas-gbq/.. _Library Documentation: https://googleapis.dev/python/pandas-gbq/latest/.. _Product Documentation: https://cloud.google.com/bigquery/docs/reference/v2/Installation------------Install latest release version via conda~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~.. code-block:: shell   $ conda install pandas-gbq --channel conda-forgeInstall latest release version via pip~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~.. code-block:: shell   $ pip install pandas-gbqInstall latest development version~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~.. code-block:: shell    $ pip install git+https://github.com/googleapis/python-bigquery-pandas.gitUsage-----Perform a query~~~~~~~~~~~~~~~.. code:: python    import pandas_gbq        result_dataframe = pandas_gbq.read_gbq(&quot;SELECT column FROM dataset.table WHERE value = 'something'&quot;)Upload a dataframe~~~~~~~~~~~~~~~~~~.. code:: python    import pandas_gbq        pandas_gbq.to_gbq(dataframe, &quot;dataset.table&quot;)More samples~~~~~~~~~~~~See the `pandas-gbq documentation &lt;https://googleapis.dev/python/pandas-gbq/latest/&gt;`_ for more details.</longdescription>
+</pkgmetadata>

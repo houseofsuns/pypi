@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>``nose-pattern-exclude``########################A simple nose plugin that allows for excluding directories and filesfrom test discovery by path or glob pattern. Inspired by`nose-exclude &lt;https://pypi.python.org/pypi/nose-exclude&gt;`_.Installation============.. code-block:: bash    $ pip install nose-pattern-excludeUsage=====.. code-block:: bash    $ nosetest \        --exclude-path=./stuff \        --exclude-path=/code/morestuff.py \        --exclude-path=app/api/v?/*/tests.py</longdescription>
+</pkgmetadata>

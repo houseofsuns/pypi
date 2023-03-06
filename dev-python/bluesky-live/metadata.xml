@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>============bluesky-live============.. image:: https://img.shields.io/travis/bluesky/bluesky-live.svg        :target: https://travis-ci.org/bluesky/bluesky-live.. image:: https://img.shields.io/pypi/v/bluesky-live.svg        :target: https://pypi.python.org/pypi/bluesky-livePrototype building blocks for working with streaming data in bluesky* Free software: 3-clause BSD license* Documentation: (COMING SOON!) https://bluesky.github.io/bluesky-live.Features--------* TODO</longdescription>
+</pkgmetadata>

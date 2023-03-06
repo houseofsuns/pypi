@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;!-- Add banner here --&gt;# RecKit![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/ZhongchuanSun/reckit?include_prereleases)![PyPI](https://img.shields.io/pypi/v/reckit)![Travis (.com)](https://img.shields.io/travis/com/ZhongchuanSun/reckit?label=Travis%20CI&amp;logo=Travis)![AppVeyor](https://img.shields.io/appveyor/build/ZhongchuanSun/reckit?label=AppVeyor&amp;logo=AppVeyor)&lt;!-- Describe your project in brief --&gt;RecKit is a collection of recommender utility codes.# Feature- Parse arguments from command line and ini-style files- Diverse data preprocessing- Fast negative sampling- Fast model evaluating- Convenient records logging- Flexible batch data iterator# Installation## Installation from binaryBinary installers are available at the [Python package index](https://pypi.org/project/reckit/)```sh# PyPIpip install reckit```## Build from sourcesTo install reckit from source you need Cython:```shpip install cython```In the reckit directory, execute:```shpython setup.py bdist_wheel```Then, you can find a `*.whl` file in `./dist/`, and install it:```shpip install ./dist/*.whl```# UsageYou can find examples in [NeuRec](https://github.com/wubinzzu/NeuRec/tree/v3.x).</longdescription>
+</pkgmetadata>

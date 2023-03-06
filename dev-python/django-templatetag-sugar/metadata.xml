@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>django-templatetag-sugar===========================A library to make writing templatetags in Django sweet.Here's an example of using:.. code-block:: python    from django import template    from templatetag_sugar.register import tag    from templatetag_sugar.parser import Name, Variable, Constant, Optional, Model    register = template.Library()    @tag(register, [Constant(&quot;for&quot;), Variable(), Optional([Constant(&quot;as&quot;), Name()])]):    def example_tag(context, val, asvar=None):        if asvar:            context[asvar] = val            return &quot;&quot;        else:            return valAs you can see it makes it super simple to define the syntax for a tag.</longdescription>
+</pkgmetadata>

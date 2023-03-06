@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Boolean========.. image:: https://travis-ci.org/scisco/boolean.svg?branch=develop    :target: https://travis-ci.org/scisco/boolean.. image:: https://badge.fury.io/py/boolean.svg    :target: http://badge.fury.io/py/boolean.. image:: https://img.shields.io/pypi/l/boolean.svg    :target: https://pypi.python.org/pypi/boolean/    :alt: LicenseConverts strings such as &quot;true&quot;, &quot;True&quot;, &quot;y&quot;, &quot;n&quot;, ... to their equivalent Boolean value.Installation------------.. code::  $ pip install booleanUsage-----.. code::  &gt;&gt;&gt; from boolean import boolean  &gt;&gt;&gt; boolean('True')  True  &gt;&gt;&gt; boolean('t')  True  &gt;&gt;&gt; boolean('f')  False  &gt;&gt;&gt; boolean('False')  False</longdescription>
+</pkgmetadata>

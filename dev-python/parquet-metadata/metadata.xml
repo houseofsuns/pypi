@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># parquet-metadata[![Build Status](https://travis-ci.org/cldellow/parquet-metadata.svg?branch=master)](https://travis-ci.org/cldellow/parquet-metadata)Dump metadata about a Parquet file. You may also be interested in [csv2parquet](https://github.com/cldellow/csv2parquet).```sudo pip install parquet-metadataparquet-metadata parquet.file```Sample output:```filecreated_byparquet-cpp version 1.4.1-SNAPSHOTfilecolumns9filerow_groups1filerows2row_group0size634row_group0rows2row_group0columns9row_group0booltypeBOOLEANrow_group0boolnum_values2row_group0boolcompressionSNAPPYrow_group0boolencodingsPLAIN,RLErow_group0boolcompressed_size36row_group0booluncompressed_size34row_group0boolstats:minFalserow_group0boolstats:maxTruerow_group0float32typeFLOATrow_group0float32num_values2row_group0float32compressionSNAPPYrow_group0float32encodingsPLAIN_DICTIONARY,PLAIN,RLErow_group0float32compressed_size68row_group0float32uncompressed_size64row_group0float32stats:min0.5row_group0float32stats:max0.6[...]```</longdescription>
+</pkgmetadata>

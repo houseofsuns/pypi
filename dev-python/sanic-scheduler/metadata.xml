@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Sanic SchedulerSanic Scheduler runs a functions on a schedule.## InstallationAutomatic installation:```bash$ pip install sanic-scheduler```Sanic Scheduler is listed in [PyPI](https://pypi.python.org/pypi/sanic-scheduler) and can be installed with pip or easy_install.Manual installation:```bash$ git clone https://github.com/asmodius/sanic-scheduler.git$ cd sanic_scheduler$ python setup.py install```Sanic Scheduler source code is [hosted on GitHub](https://github.com/asmodius/sanic-scheduler)## Usage```pythonimport asynciofrom datetime import datetime, time, timedeltafrom sanic import Sanicfrom sanic_scheduler import SanicScheduler, taskapp = Sanic()scheduler = SanicScheduler(app)@task(timedelta(seconds=30))def hello(app):    &quot;&quot;&quot;Runs the function every 30 seconds.&quot;&quot;&quot;    print(&quot;Hello, {0}&quot;.format(app), datetime.now())@task(timedelta(hours=1), time(hour=1, minute=30))async def foo_bar(_):    &quot;&quot;&quot;Runs the function every 1 hours after 1:30.&quot;&quot;&quot;    print(&quot;Foo&quot;, datetime.now())    await asyncio.sleep(1)    print(&quot;Bar&quot;)@task(timedelta(minutes=2), timedelta(seconds=10))def baz(_):    &quot;&quot;&quot;Runs the function every 2 minutes after 10 seconds.&quot;&quot;&quot;    print(&quot;Baz&quot;, datetime.now())@task(start=timedelta(seconds=10))def another(_):    &quot;&quot;&quot;Run the function after 10 seconds once.&quot;&quot;&quot;    print(&quot;another&quot;, datetime.now())if __name__ == &quot;__main__&quot;:    app.run(host='127.0.0.1', port=5000, debug=True)```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Vivisect / Vdb / VtraceA combined disassembler/static analysis/symbolic execution/debugger framework.## UsagePlease see the quickstart/usage docs over at our [docs page](https://vivisect.readthedocs.io/en/latest/)## InstallingFor most use cases, you should just be able to run `pip install &quot;vivisect[gui]&quot;` to get both the vivisect/vdb libraries and UI components. For other use cases, please see our [documentation](https://vivisect.readthedocs.io/en/latest/).## VersioningAll releases prior to v1.0.0 are python2 only. As of v1.0.0, vivisect/vdb/vstructare all python3 compatible. Please report any bugs/issues to the [issue tracker](https://github.com/vivisect/vivisect/issues)or hit us up in the #vivisect room in the [synapse slack](http://slackinvite.vertex.link/)Please see v0.x.x-support branch for the current python2 version, or pip installthe v.0.2.x version of vivisect.## UpgradingDue to fun pickle shenanigans, old python2 vivisect workspaces are not typicallycompatible with python3. In what will be one of (if not, the) final release of thepython2 compatible vivisect, v0.2.1 will include a conversion script that can migratethe basicfile-based vivisect workspaces files to the msgpack-back ones, which shouldbe loadable in python3 vivisect.## Build Status[![CircleCI](https://circleci.com/gh/vivisect/vivisect/tree/master.svg?style=svg)](https://circleci.com/gh/vivisect/vivisect/tree/master)[![Documentation Status](https://readthedocs.org/projects/vivisect/badge/?version=latest)](https://vivisect.readthedocs.io/en/latest/?badge=latest)</longdescription>
+</pkgmetadata>

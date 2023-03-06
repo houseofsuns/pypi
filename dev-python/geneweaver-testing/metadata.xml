@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Geneweaver TestingThis package is used to test the Geneweaver project. It contains tools for running tests against Geneweaver projectpackages and components to aid in the development of Geneweaver. ## Quick Start1. Install the package    ```bash    poetry install -G dev geneweaver-testing    ```2. Make a &quot;common&quot; test file    ```    touch tests/common.py    ```3. Add the following to the &quot;common&quot; test file    ```    # Inside tests/common.py    from geneweaver.testing import *    ```4. Add a fixture file at test root (if you don't have one already)    ```    touch tests/conftest.py    ```5. Add the following to the fixture file    ```    # Inside tests/conftest.py    from geneweaver.testing.fixtures import *    ```6. Run Tests!    ```bash    pytest tests    ```## Package ModulesLike all Geneweaver packages, this package is namespaced under the `geneweaver` package. The root of this package is`geneweaver.testing`. The package is structured for usage in pytest tests, with pre-defined tests available throughsplat (`*`) imports as shown in the Quick Start. Other package functionality is available by specifically importingmodules.The following modules are available in this package:### `geneweaver.testing.fixtures`This module contains pytest fixtures that are used to test Geneweaver packages. These fixtures can be used to set uptest contexts for Geneweaver packages. This module does not contain any tests.### `geneweaver.testing.package`This module contains tools for testing and validating Geneweaver packages. ## ContributingContributions to this package are welcome. Please see the [Contributing](CONTRIBUTING.md) document for more information.</longdescription>
+</pkgmetadata>

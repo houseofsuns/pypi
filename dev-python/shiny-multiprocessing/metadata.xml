@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># shiny_multiprocessingA small token piece of code meant to make multiprocessing a bit handier, whenit comes to executing functions, that need proper monitoring in terms ofidling, timing out or failing with errors.It makes use of Pebble to reliably enforce timeouts on the individual processeswhile also providing comfortable retry capabilities for a range of exceptionsof your selection.More documentation to come. Maybe.# Its home in Gitlab* [shiny_multiprocessing](https://gitlab.com/SummaSineLaude/shiny_multiprocessing)</longdescription>
+</pkgmetadata>

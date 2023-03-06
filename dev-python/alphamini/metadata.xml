@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># 悟空python sdk 使用这是优必选 alphamini 机器人 python sdk. 接口文档: &lt;http://docs.ubtrobot.com/alphamini/python-sdk/index.html&gt;</longdescription>
+</pkgmetadata>

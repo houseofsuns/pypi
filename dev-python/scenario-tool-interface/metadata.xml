@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=======================Scenario Tool Interface=======================Python interface to the scenario-tool https://www.wsc-scenario.org.auDescription===========The Scenario Tool Interface provides an easy to use Python interface to the Scenario-Tool's REST api.It provides power users with the ability to create project, create complex workflows and run sensitivityand uncertainty analysis. Combined with powerful python notebook's and data analysis toolssuch as pandas if provides a powerful tool to gain insights for complex integrated urban water management strategies.The API is in its early development stages and feedback on its usability and improvements to the functionality andvery welcome.Install=======pip install scenario-tool-interfaceDocumentation=============https://scenario-tool-interface.readthedocs.io</longdescription>
+</pkgmetadata>

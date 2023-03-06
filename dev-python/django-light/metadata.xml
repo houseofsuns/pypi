@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># django-lightDisable dark mode in Django admin UI.## Installation1. `pip install django-light`2. Add `'django_light',` to `INSTALLED_APPS` **before** `django.contrib.admin`## ImplementationThis is a pure CSS tweak. The CSS file is injected via `base.html` in the `extrastyle` block. If you are using Jinja2 or override `base.html` in a way that doesn't call `{{ block.super }}` on that block, YMMV. But in the end all that isneeded is for the browser to load `&lt;STATIC_URL&gt;/django_light/django_light.css` stylesheet.Please report any problems via GitHub issues. PRs welcome.</longdescription>
+</pkgmetadata>

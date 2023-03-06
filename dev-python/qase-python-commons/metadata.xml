@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Qase Python Commons## DescriptionThis package contains reporters for Qase TestOps and Qase Report that are used in [qase-pytest](https://github.com/qase-tms/qase-python/tree/master/qase-pytest) and [qase-robotframework](https://github.com/qase-tms/qase-python/tree/master/qase-robotframework).## How to install`pip install qase-python-commons`</longdescription>
+</pkgmetadata>

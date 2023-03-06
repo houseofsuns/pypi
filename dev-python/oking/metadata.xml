@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># OKING - Conector de Integração GenéricoSistema python para realizar a integração com ERP's ou outras soluções via conexão direta com banco de dados, via arquivos e/ou APIs.Dentre os módulos de integração estão:- Catálogo de Produtos- Preço- Estoque- Pedido- Clientes## Manual&lt;https://doc.clickup.com/d/h/2zgwt-5063/8b4903a4de0ccbd&gt;</longdescription>
+</pkgmetadata>

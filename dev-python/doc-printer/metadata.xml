@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Document Printer![GitHub Workflow Status](https://img.shields.io/github/workflow/status/wenkokke/py-doc-printer/CI) ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/wenkokke/py-doc-printer) ![PyPI](https://img.shields.io/pypi/v/doc-printer)A Wadler-Leijen Pretty Printer in Python.See the [documentation](https://wenkokke.github.io/py-doc-printer/).</longdescription>
+</pkgmetadata>

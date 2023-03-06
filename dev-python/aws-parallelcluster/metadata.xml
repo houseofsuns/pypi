@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>AWS ParallelCluster is an AWS supported Open Source cluster management tool that makes it easy for you to deploy andmanage High Performance Computing (HPC) clusters in the AWS cloud.Built on the Open Source CfnCluster project, AWS ParallelCluster enables you to quickly build an HPC compute environment in AWS.It automatically sets up the required compute resources and a shared filesystem and offers a variety of batch schedulers such as AWS Batch and Slurm.AWS ParallelCluster facilitates both quick start proof of concepts (POCs) and production deployments.You can build higher level workflows, such as a Genomics portal that automates the entire DNA sequencing workflow, on top of AWS ParallelCluster.Documentation can be found at https://docs.aws.amazon.com/parallelcluster/</longdescription>
+</pkgmetadata>

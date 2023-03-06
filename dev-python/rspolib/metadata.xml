@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># rspolib[![pypi](https://img.shields.io/pypi/v/rspolib?logo=pypi&amp;logoColor=white)](https://pypi.org/project/rspolib/) [![pyversions](https://img.shields.io/pypi/pyversions/rspolib?logo=python&amp;logoColor=white)](https://pypi.org/project/rspolib/)Python bindings for the Rust crate [rspolib]. Check the [reference](https://github.com/mondeja/rspolib/blob/master/python/REFERENCE.md) for more information.## Install```bashpip install rspolib```## Usage### Read and save a PO file```pythonimport rspolibtry:    po = rspolib.pofile(&quot;path/to/file.po&quot;)except rspolib.SyntaxError as e:    print(e)    exit(1)for entry in po:    print(entry.msgid)po.save(&quot;path/to/other/file.po&quot;)```### Read and save a MO file```pythonimport rspolibtry:    mo = rspolib.mofile(&quot;path/to/file.mo&quot;)except rspolib.IOError as e:    print(e)    exit(1)for entry in mo:    print(entry.msgid)mo.save(&quot;path/to/other/file.mo&quot;)```[rspolib]: https://github.com/mondeja/rspolib</longdescription>
+</pkgmetadata>

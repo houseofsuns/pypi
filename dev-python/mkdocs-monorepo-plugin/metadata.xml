@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This introduces support for the !include syntax in mkdocs.yml, allowing you to import additional Mkdocs navigation.It enables large or complex repositories to have their own sets of docs/ folders, whilst generating only a single Mkdocs site.This is built and maintained by the engineering community at Spotify.</longdescription>
+</pkgmetadata>

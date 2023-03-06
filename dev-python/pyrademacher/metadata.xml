@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pyrademacherPython Library to read/control devices connected to your Rademacher HomePilot (or Start2Smart) hub.This library uses the latest REST API, so you must update your hub to the latest firmware if you want to use this library.## InstallationUse pip to install pyrademacher lib:```bashpip install pyrademacher```## Usage### API ClassWith the HomePilotApi class you can acess the REST API directly:```pythonfrom homepilot.api import HomePilotApiapi = HomePilotApi(&quot;hostname&quot;, &quot;password&quot;) # password can be empty if not defined (&quot;&quot;)print(asyncio.run(asyncio.run(api.get_devices()))) # get all devicesasyncio.run(api.async_open_cover(did=1)) # open cover for device id 1 (assuming it's a cover device)```### Manager ClassYou can use the HomePilotManager helper class to more easily manage the devices:```pythonimport asynciofrom homepilot.manager import HomePilotManagerfrom homepilot.api import HomePilotApiapi = HomePilotApi(&quot;hostname&quot;, &quot;password&quot;) # password can be empty if not defined (&quot;&quot;)manager = asyncio.run(HomePilotManager.async_build_manager(api))asyncio.run(manager.update_states())print(manager.devices[&quot;1&quot;].is_closed)print(manager.devices[&quot;1&quot;].cover_position)print(manager.devices[&quot;-1&quot;].fw_version) # ID -1 is reserved for the hub itself```Each device in manager.devices is an instance of the specific device class.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># SARplusSimple Algorithm for Recommendation (SAR) is a neighborhood basedalgorithm for personalized recommendations based on user transactionhistory. SAR recommends items that are most **similar** to the onesthat the user already has an existing **affinity** for. Two items are**similar** if the users that interacted with one item are also likelyto have interacted with the other. A user has an **affinity** to anitem if they have interacted with it in the past.SARplus is an efficient implementation of this algorithm for Spark.More details can be found at[sarplus@microsoft/recommenders](https://github.com/microsoft/recommenders/tree/main/contrib/sarplus).</longdescription>
+</pkgmetadata>

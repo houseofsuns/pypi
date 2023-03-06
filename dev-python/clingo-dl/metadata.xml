@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This package allows for adding the clingo-dl propagator as atheory to clingo.It can also be used as a clingo-dl solver running:    python -m clingodl CLINGODL_ARGUMENTS</longdescription>
+</pkgmetadata>

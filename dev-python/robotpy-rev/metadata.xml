@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>robotpy-rev===========This is a python wrapper around the REV Robotics REVLib. The RobotPy projectis not associated with or endorsed by REV Robotics.Documentation=============* `Installation &lt;http://robotpy.readthedocs.io/en/stable/install/rev.html&gt;`_* `Python API Documentation &lt;http://robotpy.readthedocs.io/projects/rev/en/stable/api.html&gt;`_* `REVLib documentation &lt;https://docs.revrobotics.com/docs/first-robotics-competition&gt;`_License=======RobotPy specific bits are available under a BSD-3-Clause license. The REVspecific pieces are available under a BSD license.Author======Dustin Spicuzza (dustin@virtualroadside.com)</longdescription>
+</pkgmetadata>

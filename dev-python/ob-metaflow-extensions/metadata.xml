@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Outerbounds platform packageThis package installs client side packages for Outerbounds platform. See Outerbounds platform documentation and [Metaflow documentation](https://metaflow.org/) for more info on how to use it.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>py2py=======================A lightweight module for python 3.4+ which takes all of the fuss out of peer to peer communication. It achieves this via two classes: Sender and Listener. Communication occurs between the two using HTTP POST.</longdescription>
+</pkgmetadata>

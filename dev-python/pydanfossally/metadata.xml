@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;a href=&quot;https://www.buymeacoffee.com/mtrab&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png&quot; alt=&quot;Buy Me A Coffee&quot; style=&quot;height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;&quot; &gt;&lt;/a&gt;# Danfoss Ally APITrying to get full functionality from Danfoss Ally API</longdescription>
+</pkgmetadata>

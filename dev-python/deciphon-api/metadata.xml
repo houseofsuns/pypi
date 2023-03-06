@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># deciphon-api## DependenciesIf you happen to be using a supported Linux environment (which is likely the case),you would need:- [Python](https://www.python.org) &gt;=3.8- [Pipx](https://pypa.github.io/pipx/) for easy installation and environment isolation. Feel free to use [Pip](https://pip.pypa.io/en/stable/) instead though.## UsageGenerate a configuration file:```bashpipx run deciphon-api generate-config &gt; .env```Tweak `.env` as needed, and then run```bashpipx run deciphon-api start```## DevelopmentMake sure you have [Poetry](https://python-poetry.org/docs/).Enter```bashpoetry installpoetry shell```to setup and activate a Python environment associated with the project.Then enter```bashuvicorn deciphon_api.main:app.api --reload```to start the API.Tests can be performed by entering```bashpytest```while the corresponding Python environment created by Poetry is active.## SettingsCopy the file [.env.example](.env.example) to your working directory and rename it to `.env`.Edit it accordingly.The rest of the configuration can be tuned by `uvicorn` options.</longdescription>
+</pkgmetadata>

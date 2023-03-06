@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># followthemoney-storeThis library provides methods to store, fetch and list entities formatted as`followthemoney` data as datasets stored in a SQL backend.## Usage### Command-line usage```bash# Insert a bunch of FtM entities into a store:$ cat ftm-entities.ijson | ftm store write -d my_dataset# Re-create the entities in aggregated form:$ ftm store iterate -d my_dataset | alephclient write-entities -f my_dataset```If you don't want to keep the balkhash dataset generated above, there's ashortcut that combines the write and iterate functions:```bash$ cat ftm-entities.ijson | ftm store aggregate | alephclient write-entities -f my_dataset```### Python Library```pythonfrom ftmstore import Datasetdataset = Dataset(&quot;US-OFAC&quot;)dataset.put(entity, fragment='1')```</longdescription>
+</pkgmetadata>

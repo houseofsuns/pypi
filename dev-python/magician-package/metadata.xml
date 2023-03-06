@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># magician_packagePackaging for magicianThis the the packaging for python manager for LDA-FFT code. For better understanding of the working please refer - [LDA-FFT](https://github.com/ai-se/LDA_FFT)</longdescription>
+</pkgmetadata>

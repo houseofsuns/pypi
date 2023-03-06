@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Q-CTRL M-LOOPThe Q-CTRL M-LOOP Python package allows you to integrate Boulder Opalautomated closed-loop optimizers with automated closed-loop optimizationsmanaged by the open-source package M-LOOP.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># bulk-taskPackage bulk-task provide an easy way to call lazy functions in bulk.## Installation```$ pip install bulk-task```## Example```pythonfrom dataclasses import dataclassfrom bulk_task import BulkTaskbulk_task = BulkTask()# It can be a dataclass or a Pydantic model.@dataclassclass DataclassModel:    name: str@bulk_taskdef func(args: List[DataclassModel]):    print(arg.name for arg in args)# Push lazy calls.func.push('name1')func.push('name2')# Bulk consume lazy calls.bulk_task.consume()```</longdescription>
+</pkgmetadata>

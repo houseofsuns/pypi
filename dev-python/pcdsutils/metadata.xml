@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>===============================pcdsutils===============================.. image:: https://img.shields.io/travis/pcdshub/pcdsutils.svg        :target: https://travis-ci.org/pcdshub/pcdsutils.. image:: https://img.shields.io/pypi/v/pcdsutils.svg        :target: https://pypi.python.org/pypi/pcdsutilsPCDS Python UtilitiesDocumentation-------------Sphinx-generated documentation for this project can be found here:https://pcdshub.github.io/pcdsutils/Requirements------------* Python 3.6+Installation------------```pip install pcdsutils```Running the Tests-----------------::  $ python run_tests.py</longdescription>
+</pkgmetadata>

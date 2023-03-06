@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=================================Tempest integration of CloudKitty=================================This project defines a tempest plugin containing tests used to verify thefunctionality of a cloudkitty installation. The plugin will automatically loadthese tests into tempest.Dependencies------------This plugin tests the CloudKitty API. This supposes that the 'rating' roleexists in your OpenStack installation.Developers----------For more information on cloudkitty, refer to:https://docs.openstack.org/cloudkitty/latest/For more information on tempest plugins, refer to:https://docs.openstack.org/tempest/latest/#using-pluginsBugs----Please report bugs to: https://storyboard.openstack.org/#!/project/890Installing----------Clone this repository and call from the repo::    $ pip install -e .Running the tests-----------------To run all the tests from this plugin, call from the tempest repo::    $ cd &lt;Tempest Directory&gt;    $ tox -e all -- cloudkitty_tempest_pluginTo run a single test case, call with full path, for example::    $ cd &lt;Tempest Directory&gt;    $ tox -e all -- cloudkitty_tempest_plugin.tests.api.test_cloudkitty_api.CloudkittyAdminAPITest.test_get_collector_mappingsTo retrieve a list of all tempest tests, run::    $ cd &lt;Tempest Directory&gt;    $ testr list-tests</longdescription>
+</pkgmetadata>

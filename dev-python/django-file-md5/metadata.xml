@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>===============django-file-md5===============Django File Md5Installation============::    pip install django-file-md5Usage=====::    from django_file_md5 import calculate_md5    def xxx(request):        photo = request.FILES.get('photo', '')        # if photo:        #     md5 = calculate_md5(photo)        md5 = calculate_md5(photo)</longdescription>
+</pkgmetadata>

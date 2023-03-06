@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># FabkitThis library is a group of common helpers for [Fabric 1.x](https://github.com/fabric/fabric) used by myself in my projects.It was inspired by similar [fabtools](https://github.com/fabtools/fabtools)but it's targeting to be working on Arch Linux## InstallationTo install the latest release from PyPI```bash$ pip install fabkit```## Requirements* Python 3.6+* Arch Linux remote target (but most utils are generic and should work on other Linux systems)## Examplestbd.</longdescription>
+</pkgmetadata>

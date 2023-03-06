@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Tapioca provides an easy way to make explorable Python API wrappers.APIs wrapped by Tapioca follow a simple interaction pattern that works uniformly so developers don't need to learn how to use a new coding interface/style for each service API.Source code hosted on Github: https://github.com/vintasoftware/tapioca-wrapperDocumentation hosted by Readthedocs: http://tapioca-wrapper.readthedocs.io/en/stable/</longdescription>
+</pkgmetadata>

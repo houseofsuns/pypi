@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># liknorm-pyLiknorm Python wrapper.## InstallIt can be done via [pip](https://pypi.org/) or [conda](https://conda.io/).### Pip```bashpip install liknorm```### Conda```bashconda install -c conda-forge liknorm-py```## Running the testsAfter installation, you can test it```bashpython -c &quot;import liknorm; liknorm.test()&quot;```as long as you have [pytest](http://docs.pytest.org/en/latest/).## Example```python&gt;&gt;&gt; from numpy import empty&gt;&gt;&gt; from numpy.random import RandomState&gt;&gt;&gt; from liknorm import LikNormMachine&gt;&gt;&gt;&gt;&gt;&gt; machine = LikNormMachine('bernoulli')&gt;&gt;&gt; random = RandomState(0)&gt;&gt;&gt; outcome = random.randint(0, 2, 5)&gt;&gt;&gt; tau = random.rand(5)&gt;&gt;&gt; eta = random.randn(5) * tau&gt;&gt;&gt;&gt;&gt;&gt; log_zeroth = empty(5)&gt;&gt;&gt; mean = empty(5)&gt;&gt;&gt; variance = empty(5)&gt;&gt;&gt;&gt;&gt;&gt; moments = {'log_zeroth': log_zeroth, 'mean': mean, 'variance': variance}&gt;&gt;&gt; machine.moments(outcome, eta, tau, moments)&gt;&gt;&gt;&gt;&gt;&gt; print('%.3f %.3f %.3f' % (log_zeroth[0], mean[0], variance[0]))-0.671 -0.515 0.946```## Authors* [Danilo Horta](https://github.com/horta)## LicenseThis project is licensed under the[MIT License](https://raw.githubusercontent.com/limix/liknorm-py/master/LICENSE.md).</longdescription>
+</pkgmetadata>

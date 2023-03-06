@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>OpenTelemetry urllib Instrumentation====================================|pypi|.. |pypi| image:: https://badge.fury.io/py/opentelemetry-instrumentation-urllib.svg   :target: https://pypi.org/project/opentelemetry-instrumentation-urllib/This library allows tracing HTTP requests made by the`urllib &lt;https://docs.python.org/3/library/urllib.html&gt;`_ library.Installation------------::     pip install opentelemetry-instrumentation-urllibReferences----------* `OpenTelemetry urllib Instrumentation &lt;https://opentelemetry-python-contrib.readthedocs.io/en/latest/instrumentation/urllib/urllib.html&gt;`_* `OpenTelemetry Project &lt;https://opentelemetry.io/&gt;`_* `OpenTelemetry Python Examples &lt;https://github.com/open-telemetry/opentelemetry-python/tree/main/docs/examples&gt;`_</longdescription>
+</pkgmetadata>

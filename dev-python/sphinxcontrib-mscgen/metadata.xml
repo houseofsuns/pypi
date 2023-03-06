@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This package contains the mscgen_ Sphinx_ extension... _mscgen: http://www.mcternan.me.uk/mscgen/.. _Sphinx: http://sphinx.pocoo.org/Allow mscgen-formatted Message Sequence Chart (MSC) graphs to be included inSphinx-generated documents inline. For example::    .. msc::        hscale = &quot;0.5&quot;;        a,b,c;        a-&gt;b [ label = &quot;ab()&quot; ] ;        b-&gt;c [ label = &quot;bc(TRUE)&quot;];        c=&gt;c [ label = &quot;process()&quot; ];</longdescription>
+</pkgmetadata>

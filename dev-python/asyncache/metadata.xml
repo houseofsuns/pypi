@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>asyncache#########Helpers to use cachetools with asyncio... image:: https://img.shields.io/pypi/v/asyncache   :target: https://pypi.org/project/asyncache/   :alt: Latest PyPI version.. image:: https://travis-ci.org/hephex/asyncache.svg?branch=master    :target: https://travis-ci.org/hephex/asyncache.. image:: https://coveralls.io/repos/github/hephex/asyncache/badge.svg?branch=master    :target: https://coveralls.io/github/hephex/asyncache?branch=master.. image:: https://img.shields.io/badge/code%20style-black-000000.svg    :target: https://github.com/ambv/blackInstallation============asyncache is available from PyPI_ and can be installed by running::  pip install asyncacheExample=======.. code-block:: python    from asyncache import cached    from cachetools import TTLCache        pool = ...        @cached(TTLCache(1024, 60))    async def get_username(user_id):        rec = await pool.fetchrow(            &quot;&quot;&quot;            SELECT                username            FROM                users            WHERE                id = $1            &quot;&quot;&quot;,            user_id,        )        return rec and rec[&quot;username&quot;]License=======This project is licensed under the MIT License - see the LICENSE_ file for details.Acknowledgments===============- `cachetools`_.. _LICENSE: LICENSE.. _cachetools: https://github.com/tkem/cachetools.. _PyPI: https://pypi.org/project/asyncache/</longdescription>
+</pkgmetadata>

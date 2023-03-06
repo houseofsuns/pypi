@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## Lambda Builders![Apache 2.0 License](https://img.shields.io/github/license/aws/aws-lambda-builders)![GitHub release (latest by date)](https://img.shields.io/github/v/release/aws/aws-lambda-builders)![PyPI - Python Version](https://img.shields.io/pypi/pyversions/aws-lambda-builders)![pip](https://img.shields.io/badge/pip-aws--lambda--builders-9cf)Lambda Builders is a Python library to compile, build and package AWS Lambda functions for several runtimes &amp; frameworks.Lambda Builders currently contains the following workflows* Java with Gradle* Java with Maven* Dotnet with amazon.lambda.tools* Python with Pip* Javascript with Npm* Typescript with esbuild* Ruby with Bundler* Go with Mod* Rust with CargoIn Addition to above workflows, AWS Lambda Builders also supports *Custom Workflows* through a Makefile.Lambda Builders is the brains behind the `sam build` command from [AWS SAM CLI](https://github.com/awslabs/aws-sam-cli)### Integrating with Lambda BuildersLambda Builders is a Python library.It additionally exposes a JSON-RPC 2.0 interface to use from other languages.If you intend to integrate with Lambda Builders,check out [this section of the DESIGN DOCUMENT](DESIGN.md#builders-library).### ContributingIf you are a developer and interested in contributing, read the [DESIGN DOCUMENT](./DESIGN.md) to understand how this works.</longdescription>
+</pkgmetadata>

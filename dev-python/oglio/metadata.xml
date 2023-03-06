@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;img src=&quot;./docs/agpl-license-web-badge-version-2-256x48.png&quot;/&gt; [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)[![CircleCI](https://dl.circleci.com/status-badge/img/gh/hasii2011/oglio/tree/master.svg?style=shield)](https://dl.circleci.com/status-badge/redirect/gh/hasii2011/oglio/tree/master)[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)# IntroductionProvides a common way to parse and write Pyut XML files.  Additionally, removes this code from Pyut and places in a new project so we can easily version the library.  Furthermore, allowsthe development of an IOXml plugin for Pyut with common code# Overview------![Humberto's Modified Logo](https://raw.githubusercontent.com/wiki/hasii2011/gittodoistclone/images/SillyGitHub.png)I am concerned about GitHub's Copilot projectI urge you to read about the[Give up GitHub](https://GiveUpGitHub.org) campaign from[the Software Freedom Conservancy](https://sfconservancy.org).While I do not advocate for all the issues listed there I do not like thata company like Microsoft may profit from open source projects.I continue to use GitHub because it offers the services I need for free.  But, I continueto monitor their terms of service.Any use of this project's code by GitHub Copilot, past or present, is donewithout my permission.  I do not consent to GitHub's use of this project'scode in Copilot.A repository owner may opt out of Copilot by changing Settings --&gt; GitHub Copilot.I have done so.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>debugpy is an implementation of the Debug Adapter Protocol for Python.The source code and the issue tracker is [hosted on GitHub](https://github.com/microsoft/debugpy/).</longdescription>
+</pkgmetadata>

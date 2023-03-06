@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>OpenTelemetry Starlette Instrumentationpypi.. pypi image httpsbadge.fury.iopyopentelemetry-instrumentation-starlette.svg   target httpspypi.orgprojectopentelemetry-instrumentation-starletteThis library provides automatic and manual instrumentation of Starlette web frameworks,instrumenting http requests served by applications utilizing the framework.auto-instrumentation using the opentelemetry-instrumentation package is also supported.Installation------------    pip install opentelemetry-instrumentation-starletteReferences---------- OpenTelemetry Project httpsopentelemetry.io_ OpenTelemetry Python Examples httpsgithub.comopen-telemetryopentelemetry-pythontreemaindocsexamples_</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>OpenCensus httplib Integrationpypi.. pypi image httpsbadge.fury.iopyopencensus-ext-httplib.svg   target httpspypi.orgprojectopencensus-ext-httplibOpenCensus can trace HTTP requests made with the httplib library.You can enable requests integration by specifying httplib to trace_integrations.Its possible to configure a list of URL you dont want traced. See requests integrationfor more information. The only difference is that you need to specify hostname and portevery time.Installation------------    pip install opencensus-ext-httplibUsage-----.. code python    import requests    from opencensus.trace import config_integration    from opencensus.trace.tracer import Tracer    config_integration.trace_integrations([httplib])    tracer  Tracer()    with tracer.span(nameparent)        response  requests.get(httpswww.wikipedia.orgwikiRabbit)References---------- OpenCensus Project httpsopencensus.io_</longdescription>
+</pkgmetadata>

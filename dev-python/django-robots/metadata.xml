@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Django Robots.. image httpsjazzband.costaticimgbadge.svg   target httpsjazzband.co   alt Jazzband.. image httpsgithub.comjazzbanddjango-robotsworkflowsTestbadge.svg   target httpsgithub.comjazzbanddjango-robotsactions.. image httpscodecov.ioghjazzbanddjango-robotsbranchmastergraphbadge.svg  target httpscodecov.ioghjazzbanddjango-robots.. image httpsimg.shields.iopypivdjango-robots.svg   target httpspypi.python.orgpypidjango-robotsThis is a basic Django application to manage robots.txt files following therobots exclusion protocol_, complementing the Django_ Sitemap contrib app_.For installation instructions, see the documentation install section_for instructions on how to use this application, and onwhat it provides, see the file overview.txt in the docsdirectory or on ReadTheDocs httpsdjango-robots.readthedocs.ioSupported Django versions------------------------- Django 4.0 Django 3.2 Django 3.1 Django 2.2For older Django versions (1.6-1.10) use django-robots3.0.for Django 2 and above, use django-robots4.0.0.Supported Python version------------------------ Python 3.7, 3.8, 3.9, 3.10.. _install section httpsdjango-robots.readthedocs.ioenlatestinstallation.. _robots exclusion protocol httpen.wikipedia.orgwikiRobots_exclusion_standard.. _Django httpwww.djangoproject.com.. _Sitemap contrib app httpdocs.djangoproject.comendevrefcontribsitemaps</longdescription>
+</pkgmetadata>

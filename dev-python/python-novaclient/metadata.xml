@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Team and repository tags.. image httpsgovernance.openstack.orgtcbadgespython-novaclient.svg    target httpsgovernance.openstack.orgtcreferencetagsindex.html.. Change things from this point onPython bindings to the OpenStack Compute API.. image httpsimg.shields.iopypivpython-novaclient.svg    target httpspypi.orgprojectpython-novaclient    alt Latest VersionThis is a client for the OpenStack Compute API. It provides a Python API (thenovaclient module) and a deprecated command-line script (nova). ThePython API implements 100 of the OpenStack Compute API. License Apache License, Version 2.0 PyPi_ - package installation Online Documentation_ Launchpad project_ - release management Blueprints_ - feature specifications Bugs_ - issue tracking Source_ Specs_ How to Contribute_ Release Notes_.. _PyPi httpspypi.orgprojectpython-novaclient.. _Online Documentation httpsdocs.openstack.orgpython-novaclientlatest.. _Launchpad project httpslaunchpad.netpython-novaclient.. _Blueprints httpsblueprints.launchpad.netpython-novaclient.. _Bugs httpsbugs.launchpad.netpython-novaclient.. _Source httpsopendev.orgopenstackpython-novaclient.. _How to Contribute httpsdocs.opendev.orgopendevinfra-manuallatestdevelopers.html.. _Specs httpsspecs.openstack.orgopenstacknova-specs.. _Release Notes httpsdocs.openstack.orgreleasenotespython-novaclient</longdescription>
+</pkgmetadata>

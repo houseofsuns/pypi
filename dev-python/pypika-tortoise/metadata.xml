@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> pypika-tortoise[[image](httpsimg.shields.iopypivpypika-tortoise.svgstyleflat)](httpspypi.python.orgpypipypika-tortoise)[[image](httpsimg.shields.iogithublicensetortoisepypika-tortoise)](httpsgithub.comtortoisepypika-tortoise)[[image](httpsgithub.comtortoisepypika-tortoiseworkflowspypibadge.svg)](httpsgithub.comtortoisepypika-tortoiseactionsqueryworkflowpypi)[[image](httpsgithub.comtortoisepypika-tortoiseworkflowscibadge.svg)](httpsgithub.comtortoisepypika-tortoiseactionsqueryworkflowci)Forked from [pypika](httpsgithub.comkayakpypika) and streamline just for tortoise-orm. Why forkedThe original repo include many databases that tortoise-orm dont need, and which aims to be a perfect sql builder andshould consider more compatibilities, but tortoise-orm is not, and we need add new features and update it ourselves. What changeDelete many codes that tortoise-orm dont need, and add features just tortoise-orm considers to. What affect tortoise-ormNothing, because this repo keeps the original struct and code. ThanksTo- [pypika](httpsgithub.comkayakpypika), a python SQL query builder that exposes the full richness of the SQL  language using a syntax that reflects the resulting query. LicenseThis project is licensed under the [Apache-2.0](.LICENSE) License.</longdescription>
+</pkgmetadata>

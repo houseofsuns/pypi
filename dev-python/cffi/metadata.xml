@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>CFFIForeign Function Interface for Python calling C code.Please see the Documentation httpcffi.readthedocs.org_.Contact-------Mailing list httpsgroups.google.comforumforumpython-cffi_</longdescription>
+</pkgmetadata>

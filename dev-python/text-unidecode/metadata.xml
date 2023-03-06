@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Text-Unidecode.. image httpstravis-ci.orgkmiketext-unidecode.svgbranchmaster    target httpstravis-ci.orgkmiketext-unidecode    alt Build Statustext-unidecode is the most basic port of theTextUnidecode httpsearch.cpan.orgsburkeText-Unidecode-0.04libTextUnidecode.pm_Perl library.There are other Python ports of TextUnidecode (unidecode_and isounidecode_). unidecode_ is GPL isounidecode_ uses too much memory,and it didnt support Python 3 when this package was created.You can redistribute it andor modify this port under the terms of either Artistic License_, or GPL or GPLv2+If youre OK with GPL-only, use unidecode_ (it has better memory usage andbetter transliteration quality).text-unidecode supports Python 2.7 and 3.4+... _unidecode httpspypi.python.orgpypiUnidecode.. _isounidecode httpspypi.python.orgpypiisounidecode.. _Artistic License httpsopensource.orglicensesArtistic-Perl-1.0Installation------------    pip install text-unidecodeUsage-----     from text_unidecode import unidecode     unidecode(u- )    kakoi-to tekst</longdescription>
+</pkgmetadata>

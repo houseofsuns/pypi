@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>OS2MO Data ImportMagentas officielle repo til integrationer og eksportfunktioner til OS2MO.For sprgsml til koden eller brug af den, er man velkommen til at kontakteMagenta ApS infomagenta.dkUsage-----Start en OS2mo stak vha. docker-compose, se detaljer her httpsos2mo.readthedocs.ioen1.16.1devenvironmentdocker.htmldocker-composeDipex dockerimage kan bygges med docker-compose build.Nr dette er sket, kan DIPEX kommandoer kaldes med fxdocker-compose run --rm dipex python3 metacli.py Alternativt kan man starte et udviklingsmilj meddocker-compose up -d --buildNr kommandoen er krt frdig, kan man hoppe ind i containeren meddocker-compose exec dipex binbashDette giver en terminal i containeren, hvorfra diverse programmer kan kres.Et flles entrypoint til programmerne findes ved at krepython3 metacli.pyForbindelsen imod OS2mo, kan testes med programmet check_connectivitypython3 metacli.py check_connectivity --mora-base httpmoDependencies------------Der bruges poetry til at hndtere pakker. For at sikre at all bruger samme version kan man gre det gennem docker, fxdocker-compose run --rm dipex poetry updateFor at dette kan virke er filerne pyproject.toml og poetry.lock mountet med skriveadgang i docker-compose.yml.</longdescription>
+</pkgmetadata>

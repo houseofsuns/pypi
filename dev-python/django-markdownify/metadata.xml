@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Django Markdownify - A Django Markdown filterDjango Markdownify is a template filter to convert Markdown to HTML in Django. Markdown is converted to HTML and sanitized.Read the full documentation on [Read the docs](httpdjango-markdownify.readthedocs.ioenlatest) or check out the package on [pypi](httpspypi.python.orgpypidjango-markdownify). UsageLoad the tag inside your template{ load markdownify }Then you can change markdown to html as follows{{ textmarkdownify }}or{{ somevariablemarkdownify }} Example{ load markdownify }{{Some test [link]()markdownify }}Is transformed tohtmlp  Some emtestem a hreflinkapThe filter is a wrapper around [Markdown](httpspypi.python.orgpypiMarkdown) and[Bleach](httppythonhosted.orgbleachindex.html) and as such supports their settings. It is possible to define multiple settings for multiple usecases.For examplepython settings.pyMARKDOWNIFY  {  default {     WHITELIST_TAGS [a, p, h1, ]  },  alternative {     WHITELIST_TAGS [a, p, ],     MARKDOWN_EXTENSIONS [markdown.extensions.fenced_code, ]  }}And in your templateshtml-- page1.html --{{ mytextmarkdownify }} -- Uses your default settings ---- page2.html --{{ mytextmarkdownifyalternative }} -- Uses your alternative settings -- DocumentationRead the full documentation on [Read the docs](httpsdjango-markdownify.readthedocs.ioenlatest). CreditsThis filter is a slightly richer and packaged version of the snippet [using-markdown-django-17](httpwww.jw.peblogpostusing-markdown-django-17).</longdescription>
+</pkgmetadata>

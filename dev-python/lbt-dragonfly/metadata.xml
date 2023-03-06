@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[Dragonfly](httpwww.ladybug.toolsassetsimgdragonfly.png)[[Build Status](httpsgithub.comladybug-toolslbt-dragonflyworkflowsCIbadge.svg)](httpsgithub.comladybug-toolslbt-dragonflyactions)[[Python 2.7](httpsimg.shields.iobadgepython-2.7-green.svg)](httpswww.python.orgdownloadsreleasepython-270) [[Python 3.6](httpsimg.shields.iobadgepython-3.6-blue.svg)](httpswww.python.orgdownloadsreleasepython-360) [[IronPython](httpsimg.shields.iobadgeironpython-2.7-red.svg)](httpsgithub.comIronLanguagesironpython2releasestagipy-2.7.8) lbt-dragonflyCollection of all Dragonfly core Python libraries.Note that this repository and corresponding Python package does not contain any sourcecode and it simply exists to provide a shortcut for installing all of the dragonflycore libraries and extensions together. Included Dragonfly ExtensionsRunning pip install lbt-dragonfly will result in the installation of the followingdragonfly Python packages [dragonfly-energy](httpsgithub.comladybug-toolsdragonfly-energy) [dragonfly-uwg](httpsgithub.comladybug-toolsdragonfly-uwg) [dragonfly-doe2](httpsgithub.comladybug-toolsdragonfly-doe2) Included Dragonfly Core LibrariesSince both dragonfly extensions use the dragonfly core libraries, the followingdependencies are also included [dragonfly-core](httpsgithub.comladybug-toolsdragonfly-core) [dragonfly-schema](httpsgithub.comladybug-toolsdragonfly-schema) All Ladybug and Honeybee Packages Are Also IncludedSince dragonfly uses ladybug and honeybee, the following dependencies are also included [lbt-ladybug](httpsgithub.comladybug-toolslbt-ladybug) [lbt-honeybee](httpsgithub.comladybug-toolslbt-honeybee)</longdescription>
+</pkgmetadata>

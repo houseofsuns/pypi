@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>SQLAlchemy MigrateFork from httpcode.google.compsqlalchemy-migrate to get it working withSQLAlchemy 0.8.Inspired by Ruby on Rails migrations, Migrate provides a way to deal withdatabase schema changes in SQLAlchemy httpsqlalchemy.org_ projects.Migrate extends SQLAlchemy to have database changeset handling. It provides adatabase change repository mechanism which can be used from the command line aswell as from inside python code.Help----Sphinx documentation is available at the project page readthedocs.orghttpssqlalchemy-migrate.readthedocs.org_.Users and developers can be found at openstack-dev on Freenode IRCnetwork and at the public users mailing list migrate-usershttpgroups.google.comgroupmigrate-users_.New releases and major changes are announced at the public announce mailinglist openstack-devhttplists.openstack.orgcgi-binmailmanlistinfoopenstack-dev_and at the Python package index sqlalchemy-migratehttppypi.python.orgpypisqlalchemy-migrate_.Homepage is located at stackforgehttpgithub.comstackforgesqlalchemy-migrate_You can also clone a current development versionhttpgithub.comstackforgesqlalchemy-migrate_Tests and Bugs--------------To run automated tests install tox pip install -U tox run tox tox to test only a specific Python version tox -e py27 (Python 2.7)Please report any issues with sqlalchemy-migrate to the issue tracker atLaunchpad issueshttpsbugs.launchpad.netsqlalchemy-migrate_</longdescription>
+</pkgmetadata>

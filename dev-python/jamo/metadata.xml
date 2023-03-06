@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Jamo Hangul Character Analysis.. image httpstravis-ci.orgJDongianpython-jamo.svgbranchmaster    target httpstravis-ci.orgJDongianpython-jamo.. image httpsreadthedocs.orgprojectspython-jamobadgeversionlatest    target httpsreadthedocs.orgprojectspython-jamobadgelatestPython-jamo is a Python Hangul syllable decomposition and synthesis libraryfor working with Hangul characters and jamo.Currently in beta release, function names are subject to change, but there iscoverage for nearly all Hangul-related codepoints under Unicode 7.0.Originally designed to help students identify difficult-to-spell wordscontaining (,) or (,), this project hopes to fill the niche of Koreanphonetic and spelling analysis.Installation------------To install Jamo from pypi_, simply.. code-block bash    pip install jamoThe jamo module is Python 3 only. Viva the bleeding edgeDocumentation-------------Documentation is available at ReadTheDocs in English_.Contributing------------Like this project or want to help Take a look at the issues Im active ongithub, and will review pulls. Im open to email as well, so please contactme if you have any ideas for this project.License-------Apache 2.0 licensed.Anyone is free to use the software for any purpose, to distribute it, tomodify it, and to distribute modified versions of the software, under theterms of the license, without concern for royalties... _pypi httpspypi.python.orgpypijamo.. _English httppython-jamo.readthedocs.orgenlatest.. _Korean httppython-jamo.readthedocs.orgkolatest</longdescription>
+</pkgmetadata>

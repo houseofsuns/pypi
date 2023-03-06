@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[[NPM version](httpsbadge.fury.iojscdk-common.svg)](httpsbadge.fury.iojscdk-common)[[PyPI version](httpsbadge.fury.iopycdk-common.svg)](httpsbadge.fury.iopycdk-common)[[release](httpsgithub.comneilkuancdk-commonactionsworkflowsrelease.ymlbadge.svg)](httpsgithub.comneilkuancdk-commonactionsworkflowsrelease.yml)[Downloads](httpsimg.shields.iobadge-DOWNLOADS-brightgreencolorgray)[npm](httpsimg.shields.ionpmdtcdk-commonlabelnpmcolororange)[PyPI](httpsimg.shields.iopypidmcdk-commonlabelpypicolorblue) Welcome to cdk-commonThis Constructs Library will collection of useful function and class for AWS CDK. InstallbashUse the npm dist tag to opt in CDKv1 or CDKv2 for CDKv2npm install cdk-commonornpm install cdk-commonlatest for CDKv1npm install cdk-commoncdkv1 please click [here](httpsgithub.comneilkuancdk-commontreecdkv1readme), if you are using aws-cdk v1.x.x version. AWS Managed Policies enumpythonimport  as cdk from aws-cdk-libimport { AWSManagedPolicies } from cdk-commonimport { Construct } from constructsconst app  new cdk.App()const stack  new cdk.Stack(app, integ-default, { env })export class IntegDefault extends Construct {  constructor(scope Construct, id string ) {    super(scope, id)    const role  new iam.Role(this, iamrole, {      assumedBy new iam.ServicePrincipal(ec2.amazonaws.com),    })     Use this way.    role.addManagedPolicy(iam.ManagedPolicy.fromAwsManagedPolicyName(AWSManagedPolicies.AMAZON_SSM_MANAGED_INSTANCE_CORE))     Not this way.    role.addManagedPolicy(iam.ManagedPolicy.fromAwsManagedPolicyName(AmazonSSMManagedInstanceCore))  }}</longdescription>
+</pkgmetadata>

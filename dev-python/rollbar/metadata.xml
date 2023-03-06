@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Pyrollbar[Build Status](httpsgithub.comrollbarpyrollbarworkflowsPyrollbar20CIbadge.svgtaglatest)[PyPI - Python Version](httpsimg.shields.iopypipyversionsrollbar)Python notifier for reporting exceptions, errors, and log messages to [Rollbar](httpsrollbar.com). Setup Instructions1. [Sign up for a Rollbar account](httpsrollbar.comsignup)2. Follow the [Quick Start](httpsdocs.rollbar.comdocspythonsection-quick-start) instructions in our [Python SDK docs](httpsdocs.rollbar.comdocspython) to install pyrollbar and configure it for your platform. Usage and ReferenceFor complete usage instructions and configuration reference, see our [Python SDK docs](httpsdocs.rollbar.comdocspython). Release History  ChangelogSee our [Releases](httpsgithub.comrollbarpyrollbarreleases) page for a list of all releases, including changes. Help  SupportIf you run into any issues, please email us at [supportrollbar.com](mailtosupportrollbar.com)For bug reports, please [open an issue on GitHub](httpsgithub.comrollbarpyrollbarissuesnew). Contributing1. Fork it2. Create your feature branch (git checkout -b my-new-feature).3. Commit your changes (git commit -am Added some feature)4. Push to the branch (git push origin my-new-feature)5. Create new Pull RequestTests are in rollbartest. To run the tests python setup.py test</longdescription>
+</pkgmetadata>

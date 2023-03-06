@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>A very simple module to allow nagios service check results to be submitted viaNSCA.Usage  import pynsca  from pynsca import NSCANotifier  notif  NSCANotifier(nagios)  notif.svc_result(host, service, pynsca.OK, Looks Good) Prebuild RPM packages The Bareos project builds (using open build server) and publishes python-pynsca RPM packages for a variety of RPM based Linux distribution, you can directly install from the repositoryhttpdownload.bareos.orgbareoscontribDebian  Ubuntu packages may follow later.Requirements Python 2.4 or higher python-mcrypt, if using AES encryption pycrypto, if using 3DES encryption No other libraries requiredIssuesPlease file any bugs or feature requests at  httpsgithub.comdjmitchepynscaissuesChanges1.6 (Unreleased)---------------- Debian package updated. spec file to generate a RPM package.1.5---PyCrypto is only required when using 3DES encryption (mode 3).1.4---The library now supports 3DES encryption (mode 3).  This adds the requirementfor PyCrypto.</longdescription>
+</pkgmetadata>

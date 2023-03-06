@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> ZhDate [[VersionBadge](httpsimg.shields.iopypivzhdate.svgstyleflat)](httpspypi.orgprojectzhdate)  [[pythonversion](httpsimg.shields.iopypipyversionszhdate.svgstyleflat-square)](httpspypi.orgprojectzhdate) [[LicenseBadge](httpsimg.shields.iogithublicenseCutePandaShzhdate.svgstyleflat)](httpsgithub.comCutePandaShzhdateblobmasterLICENSE) [EillesWan](httpsgithub.comEillesWanzhdate) - - f   pip bashpip install zhdategitbashgit clone httpsgithub.comCutePandaShzhdate.gitcd zhdatepython setup.py installbashpip install zhdate --upgrade pythonfrom zhdate import ZhDatedate1  ZhDate(2010, 1, 1)   2010 print(date1)   dt_date1  date1.to_datetime()   datetime dt_date2  datetime(2010, 2, 6)date2  ZhDate.from_datetime(dt_date2)  date3  ZhDate(2020, 4, 30, leap_monthTrue)   2020430print(date3.to_datetime()) if ZhDate(2019, 1, 1)  ZhDate.from_datetime(datetime(2019, 2, 5))    pass new_zhdate  ZhDate(2019, 1, 1) - 30  new_zhdate2  ZhDate(2019, 1, 1) - ZhDate(2018, 1, 1) zhdatenew_zhdate3  ZhDate(2019, 1, 1) - datetime(2019, 1, 1)   new_zhdate4  ZhDate(2019, 1, 1) + 30   new_zhdate5  ZhDate(2019, 1, 1)print(new_zhdate5.chinese()) ZhDate.today()</longdescription>
+</pkgmetadata>

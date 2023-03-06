@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Python-Multipart.. image httpsgithub.comandrew-dpython-multipartactionsworkflowstest.yamlbadge.svg        target httpsgithub.comandrew-dpython-multipartactionspython-multipart is an Apache2 licensed streaming multipart parser for Python.Test coverage is currently 100.Documentation is available here_... _here httpsandrew-d.github.iopython-multipartWhy----Because streaming uploads are awesome for large files.How to Test-----------If you want to test.. code-block bash     pip install .[dev]     inv test</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> makefun[[Python versions](httpsimg.shields.iopypipyversionsmakefun.svg)](httpspypi.python.orgpypimakefun) [[Build Status](httpsgithub.comsmariepython-makefunactionsworkflowsbase.ymlbadge.svg)](httpsgithub.comsmariepython-makefunactionsworkflowsbase.yml) [[Tests Status](httpssmarie.github.iopython-makefunreportsjunitjunit-badge.svgdummy8484744)](httpssmarie.github.iopython-makefunreportsjunitreport.html) [[Coverage Status](httpssmarie.github.iopython-makefunreportscoveragecoverage-badge.svgdummy8484744)](httpssmarie.github.iopython-makefunreportscoverageindex.html) [[codecov](httpscodecov.ioghsmariepython-makefunbranchmaingraphbadge.svg)](httpscodecov.ioghsmariepython-makefun) [[Flake8 Status](httpssmarie.github.iopython-makefunreportsflake8flake8-badge.svgdummy8484744)](httpssmarie.github.iopython-makefunreportsflake8index.html)[[Documentation](httpsimg.shields.iobadgedoc-latest-blue.svg)](httpssmarie.github.iopython-makefun) [[PyPI](httpsimg.shields.iopypivmakefun.svg)](httpspypi.python.orgpypimakefun) [[Downloads](httpspepy.techbadgemakefun)](httpspepy.techprojectmakefun) [[Downloads per week](httpspepy.techbadgemakefunweek)](httpspepy.techprojectmakefun) [[GitHub stars](httpsimg.shields.iogithubstarssmariepython-makefun.svg)](httpsgithub.comsmariepython-makefunstargazers)Small library to dynamically create python functions.The documentation for users is available here [httpssmarie.github.iopython-makefun](httpssmarie.github.iopython-makefun)A readme for developers is available here [httpsgithub.comsmariepython-makefun](httpsgithub.comsmariepython-makefun)</longdescription>
+</pkgmetadata>

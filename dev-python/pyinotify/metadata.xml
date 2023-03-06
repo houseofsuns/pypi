@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Pyinotify License           MIT Project URL       [httpgithub.comseb-mpyinotify](httpgithub.comseb-mpyinotify) Project Wiki      [httpgithub.comseb-mpyinotifywiki](httpgithub.comseb-mpyinotifywiki) API Documentation [httpseb-m.github.compyinotify](httpseb-m.github.compyinotify) Dependencies Linux  2.6.13 Python  2.4 (including Python 3.x) Install Get the current stable version from PyPI and install it with pip     To install pip follow httpwww.pip-installer.orgenlatestinstalling.html     sudo pip install pyinotify Or install Pyinotify directly from source     Choose your Python interpreter either python, python2.7, python3.2,..     Replacing XXX accordingly, type     sudo pythonXXX setup.py install Watch a directoryInstall pyinotify and run this command from a shell     python -m pyinotify -v my-dir-to-watch</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>SnakeViz.. image httpsgithub.comjiffyclubsnakevizactionsworkflowsci.ymlbadge.svg    target httpsgithub.comjiffyclubsnakevizactionsworkflowsci.yml    alt Build Status.. image httpsimg.shields.iopypivsnakeviz.svg    target httpspypi.python.orgpypisnakeviz    alt Latest Version.. image httpsimg.shields.iopypipyversionssnakeviz.svg    target httpspypi.python.orgpypisnakeviz    alt Supported Python versions.. image httpsimg.shields.iopypiformatsnakeviz.svg    target httpspypi.python.orgpypisnakeviz    alt Wheel StatusAbout-----SnakeViz is a viewer for Python profiling data that runs as a webapplication in your browser. It is inspired by the wxPython profile viewerRunSnakeRun httpwww.vrplumber.comprogrammingrunsnakerun_.View the docs at httpsjiffyclub.github.iosnakeviz.</longdescription>
+</pkgmetadata>

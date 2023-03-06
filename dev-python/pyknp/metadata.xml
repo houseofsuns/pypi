@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> pyknp Python Module for JUMAN++KNPJUMAN++(JUMAN)KNPPython (Python23) Requirements- Python    - Verified Versions 2.7.15,  3.7.11-  [JUMAN++](httpnlp.ist.i.kyoto-u.ac.jpindex.phpJUMAN++) [[EN](httpnlp.ist.i.kyoto-u.ac.jpENindex.phpJUMAN++)](or [JUMAN](httpnlp.ist.i.kyoto-u.ac.jpindex.phpJUMAN)[[EN](httpnlp.ist.i.kyoto-u.ac.jpENindex.phpJUMAN)])    - JUMAN++ JUMAN-  [KNP](httpnlp.ist.i.kyoto-u.ac.jpindex.phpKNP) [[EN](httpnlp.ist.i.kyoto-u.ac.jpENindex.phpKNP)] Installation pip install pyknp Documentshttpspyknp.readthedocs.ioenlatest AuthorsContact  (contactnlp.ist.i.kyoto-u.ac.jp)- John Richardson, Tomohide Shibata, Yuta Hayashibe, Tomohiro Sakaguchi</longdescription>
+</pkgmetadata>

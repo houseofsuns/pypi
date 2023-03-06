@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>easydev.. image httpsbadge.fury.iopyeasydev.svg    target httpspypi.python.orgpypieasydev.. image httpsgithub.comcokelaereasydevactionsworkflowsmain.ymlbadge.svg    target httpsgithub.comcokelaereasydevactionsworkflowsmain.yml.. image httpscoveralls.ioreposcokelaereasydevbadge.svgbranchmain    target httpscoveralls.iorcokelaereasydevbranchmain documentation httpeasydev-python.readthedocs.ioenlatestcontributions Please join httpsgithub.comcokelaereasydevsource Please use httpsgithub.comcokelaereasydevissues Please use httpsgithub.comcokelaereasydevissuesPython version supported 3.7, 3.8, 3.9, 3.10The  easydev httppypi.python.orgpypieasydev_ package provides miscellaneous functions that are repeatidly used during the development of Python packages. The goal is to help developers on speeding up their own dev. It has been used also as an incubator for other packages (e.g., httppypi.python.orgpypicolormap) and is stable... warning Im not pretending to provide universal and bug-free tools. The    tools provided may also change. However, easydev is used    in a few other packages such as     bioservices httpspypi.python.orgpypibioservices_,     sequana httpssequana.readthedocs.io_ or     GDSCTools httpssequana.readthedocs.io_ to give a few    examples. </longdescription>
+</pkgmetadata>

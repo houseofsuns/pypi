@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> archinfo[[Code style black](httpsimg.shields.iobadgecode20style-black-000000.svg)](httpsgithub.compsfblack)archinfo is a collection of classes that contain architecture-specific information.It is useful for cross-architecture tools (such as pyvex).</longdescription>
+</pkgmetadata>

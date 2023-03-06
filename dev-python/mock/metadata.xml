@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>mock is a library for testing in Python. It allows you to replace parts ofyour system under test with mock objects and make assertions about how theyhave been used.mock is now part of the Python standard library, available as unittest.mockhttpsdocs.python.orgdevlibraryunittest.mock.html_ in Python 3.3onwards.This package contains a rolling backport of the standard library mock codecompatible with Python 3.6 and up.Please see the standard library documentation for more details.Homepage Mock Homepage_Download Mock on PyPI_Documentation Python Docs_License BSD License_Support Mailing list (testing-in-pythonlists.idyll.org) httplists.idyll.orglistinfotesting-in-python_Code GitHub httpsgithub.comtesting-cabalmock_Issue tracker GitHub Issues httpsgithub.comtesting-cabalmockissues_Build status    CircleCI_ Docs_    .. CircleCI image httpscircleci.comghtesting-cabalmocktreemaster.svgstyleshield    .. _CircleCI httpscircleci.comghtesting-cabalmocktreemaster    .. Docs image httpsreadthedocs.orgprojectsmockbadgeversionlatest    .. _Docs httpmock.readthedocs.orgenlatest.. _Mock Homepage httpmock.readthedocs.orgenlatest.. _BSD License httpsgithub.comtesting-cabalmockblobmasterLICENSE.txt.. _Python Docs httpsdocs.python.orgdevlibraryunittest.mock.html.. _mock on PyPI httpspypi.orgprojectmock</longdescription>
+</pkgmetadata>

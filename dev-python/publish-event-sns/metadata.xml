@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[[Actions Status](httpsgithub.commsantinopublish-event-snsworkflowsCIbadge.svg)](httpsgithub.commsantinopublish-event-snsactions)[[Python 3.7](httpsimg.shields.iobadgepython-3.7-blue.svg)](httpswww.python.orgdownloadsreleasepython-370)[[PyPI version](httpsbadge.fury.iopypublish-event-sns.svg)](httpsbadge.fury.iopylambda-parse-sqs)[[License MIT](httpsimg.shields.iobadgeLicense-MIT-yellow.svg)](httpsopensource.orglicensesMIT)[[Language grade Python](httpsimg.shields.iolgtmgradepythongmsantinolambda-parse-sqs.svglogolgtmlogoWidth18)](httpslgtm.comprojectsgmsantinolambda-parse-sqscontextpython)[[Twitter Follow](httpsimg.shields.iotwitterfollowmsantino.svgstylesociallabelFollow)](httpstwitter.commsantino) Publish Data Event to SNS TopicThis package helps you to publish a dict object as JSON into SNS Topic, including fields as attributesbashpip install publish-event-snspythonfrom publish_event_sns import publishmy_dict  {    foo bar}response  publish(topic_name, my_dict)This code will transform DICT into JSON and publish into SNS Topic with foo as attribute as bar value.  publish function will automaticaly exclude from attributes non primitive values (dict, object, etc) ParametersSome aditional configuration is possible while publishing event region_name Region name to use in internal boto3 client session If you need to provide a existing boto3 session attr_exclude A list of fields to force exclusion while including fields as attributes</longdescription>
+</pkgmetadata>

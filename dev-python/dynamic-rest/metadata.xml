@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Dynamic RESTDynamic API extensions for Django REST FrameworkSee httpdynamic-rest.readthedocs.org for full documentation.OverviewDynamic REST (or DREST) extends the popular Django RESTFramework httpsdjango-rest-framework.org__ (or DRF) with APIfeatures that empower simple RESTful APIs with the flexibility of agraph query language.DREST classes can be used as a drop-in replacement for DRF classes,which offer the following features on top of the standard DRF kit-  Linked relationships-  Sideloaded relationships-  Embedded relationships-  Field inclusions-  Field exclusions-  Field-based filtering-  Field-based sorting-  Directory panel for your Browsable API-  OptimizationsDREST was initially written to complement EmberData httpsgithub.comemberjsdata__, but it can be used to providefast and flexible CRUD operations to any consumer that supports JSONover HTTP.Maintainers------------  Anthony Leontiev mailtoaleontievtohigherground.com__-  Savinay Nangalia mailtosnangaliatohigherground.com__-  Christina DAstolfo mailtocdastolfotohigherground.com__Requirements-  Python (3.6, 3.7, 3.8)-  Django (2.2, 3.1, 3.2)-  Django REST Framework (3.11, 3.12, 3.13)</longdescription>
+</pkgmetadata>

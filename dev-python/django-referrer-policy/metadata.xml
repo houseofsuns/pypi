@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. --restructuredtext--.. image httpstravis-ci.orgubernostrumdjango-referrer-policy.svgbranchmaster    target httpstravis-ci.orgubernostrumdjango-referrer-policydjango-referrer-policy provides a middleware class implementing theReferrer-Policy header httpswww.w3.orgTRreferrer-policy_ forDjango httpswww.djangoproject.com_-powered sites.Setting the Referrer-Policy header allows you to control what, ifany, information is sent in the HTTP Referer header when a userclicks a link on your site.Documentation is available onlinehttpsdjango-referrer-policy.readthedocs.io_.</longdescription>
+</pkgmetadata>

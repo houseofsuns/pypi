@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>tinynetrc.. image httpsbadgen.netpypivtinynetrc  alt pypi badge  target httpspypi.orgprojecttinynetrc.. image httpsbadgen.nettravissloriatinynetrcmaster  alt travis-ci status  target httpstravis-ci.orgsloriatinynetrcRead and write .netrc files in Python.tinynetrc uses the netrc httpsdocs.python.org3librarynetrc.html_module from the standard library under the hood and adds a fewimprovements Adds write functionality. Fixes a std lib bug httpsbugs.python.orgissue30806_ with  formatting a .netrc file. Parses .netrc into dictionary values rather than tuples.This bug is fixed in newer versions of Python.Get it now    pip install tinynetrctinynetrc supports Python  2.7 or  3.5.Usage.. code-block python    from tinynetrc import Netrc    netrc  Netrc()   parse .netrc     Get credentials    netrc[api.heroku.com][login]    netrc[api.heroku.com][password]     Modify an existing entry    netrc[api.heroku.com][password]  newpassword    netrc.save()   writes to .netrc     Add a new entry    netrc[surge.surge.sh]  {        login sloria1gmail.com,        password secret    }    netrc.save()     Removing an new entry    del netrc[surge.surge.sh]    netrc.save()You can also use Netrc as a context manager, which will automatically save.netrc... code-block python    from tinynetrc import Netrc    with Netrc() as netrc        netrc[api.heroku.com][password]  newpassword        assert netrc.is_dirty is True     savedLicenseMIT licensed. See the bundled LICENSE httpsgithub.comsloriatinynetrcblobmasterLICENSE_ file for more details.</longdescription>
+</pkgmetadata>

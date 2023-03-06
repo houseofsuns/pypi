@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>sphinxcontrib-blockdiag.. image httpstravis-ci.orgblockdiagsphinxcontrib-blockdiag.svgbranchmaster   target httpstravis-ci.orgblockdiagsphinxcontrib-blockdiag.. image httpscoveralls.ioreposblockdiagsphinxcontrib-blockdiagbadge.pngbranchmaster   target httpscoveralls.iorblockdiagsphinxcontrib-blockdiagbranchmaster.. image httpscodeclimate.comgithubblockdiagsphinxcontrib-blockdiagbadgesgpa.svg   target httpscodeclimate.comgithubblockdiagsphinxcontrib-blockdiagA sphinx extension for embedding block diagram using blockdiag_.This extension enables you to insert block diagrams into your document.Following code is an example   .. blockdiag      diagram {        A - B - C             B - D      }.. _blockdiag httpbitbucket.orgblockdiagblockdiagFor more details, see online documentation_ at httpblockdiag.com... _online documentation httpblockdiag.comenblockdiagsphinxcontrib.html</longdescription>
+</pkgmetadata>

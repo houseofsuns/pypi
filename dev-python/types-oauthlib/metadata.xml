@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Typing stubs for oauthlibThis is a PEP 561 type stub package for the oauthlib package. Itcan be used by type-checking tools like[mypy](httpsgithub.compythonmypy),[pyright](httpsgithub.commicrosoftpyright),[pytype](httpsgithub.comgooglepytype),PyCharm, etc. to check code that usesoauthlib. The source for this package can be found athttpsgithub.compythontypeshedtreemainstubsoauthlib. All fixes fortypes and metadata should be contributed there.See httpsgithub.compythontypeshedblobmainREADME.md for more details.This package was generated from typeshed commit 6ba28ae54707db9be1a89119bd6eebcc9237395b.</longdescription>
+</pkgmetadata>

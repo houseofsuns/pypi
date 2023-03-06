@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Django Hijack[[CI](httpsgithub.comdjango-hijackdjango-hijackworkflowsCIbadge.svgbranchmaster)](httpsgithub.comdjango-hijackdjango-hijackactions)[[codecov](httpscodecov.ioghdjango-hijackdjango-hijackbranchmastergraphbadge.svgtokenzX0nCDRJDj)](httpscodecov.ioghdjango-hijackdjango-hijack)[[PyPI](httpsimg.shields.iopypivdjango-hijack)](httpspypi.orgprojectdjango-hijack)[Screenshot of the notification seen while hijacking another user.](httpsgithub.comdjango-hijackdjango-hijackrawmasterdocsdjango-hijack.jpg)With Django Hijack, admins can log in and work on behalf of other users without having to know their credentials. DocsDocs are available on Read the Docs httpdjango-hijack.readthedocs.orgenstable, both for v2.x and v3.x. VersionsThere are two versions available v2.x and v3.x.v3.x provides a security first design, easy integration, customisation, out-of-the-box Django admin support and dark-mode.It is a complete rewrite and all former APIs are broken. Testimonials I am using django-hijack on a project with hundreds of users, wonderful tool for support. Thank you -- [benzinonapoloni](httpswww.reddit.comuserbenzinonapoloni) on [reddit](httpsredd.it39aggd) This is a super useful tool. I have a site where I occasionally impersonating users to help troubleshoot their issues. This is a huge time saver. -- [orangishyellow](httpswww.reddit.comuserorangishyellow) on [reddit](httpsredd.it2i35fu) ... one of our standard apps to install now. -- [thundersnow](httpswww.reddit.comuserthundersnow) on [reddit](httpsredd.it4wqo0d) Love django-hijack -- [bmihelac](httpstwitter.combmihelac) on [Twitter](httpstwitter.combmihelacstatus836225081508519936)</longdescription>
+</pkgmetadata>

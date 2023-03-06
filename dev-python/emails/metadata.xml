@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>python-emailsModern python library for email.Build message    import emails    message  emails.html(htmlpHibrHere is your receipt...,                          subjectYour receipt No. 567098123,                          mail_from(Some Store, storesomestore.com))    message.attach(dataopen(bill.pdf), filenamebill.pdf)send message and get response from smtp server    r  message.send(toslavr.me, smtp{host aspmx.l.google.com, timeout 5})    assert r.status_code  250and more  DKIM signature  Render body from template  Flask extension and Django integration  Message body transformation methods  Load message from url or from fileLinks documentation httppython-emails.readthedocs.org_ source code httpgithub.comlavrpython-emails_</longdescription>
+</pkgmetadata>

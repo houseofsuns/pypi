@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>django-phonenumber-field.. image httpsgithub.comstefanfoulisdjango-phonenumber-fieldworkflowsTestbadge.svg    target httpsgithub.comstefanfoulisdjango-phonenumber-fieldworkflowsTestbadge.svg.. image httpsimg.shields.iocoverallsstefanfoulisdjango-phonenumber-fielddevelop.svg    target httpscoveralls.iogithubstefanfoulisdjango-phonenumber-fieldbranchmainA Django library which interfaces with python-phonenumbers_ to validate, pretty print and convertphone numbers. python-phonenumbers is a port of Googles libphonenumber_ library, whichpowers Androids phone number handling... _python-phonenumbers httpsgithub.comdaviddrysdalepython-phonenumbers.. _libphonenumber httpsgithub.comgooglelibphonenumberDocumentationhttpsdjango-phonenumber-field.readthedocs.ioRunning teststox needs to be installed. To run the whole test matrix with the locallyavailable Python interpreters and generate a combined coverage report    toxrun a specific combination    tox -e py310-djmain,py39-djmain</longdescription>
+</pkgmetadata>

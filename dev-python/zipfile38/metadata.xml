@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pypiA backport of the zipfile module from Python 3.8, which contains notable improvements such as the strict_timestamps keyword argument (which enables the creation of reproducible zip archives).installation    pip install zipfile38usage.. code python    if sys.version_info  (3, 8)        import zipfile    else        import zipfile38 as zipfile---shout out to Thomas Kluyvers backport for 3.6 httpsgitlab.comtakluyverzipfile36_ and Markus Scheidgens backport for 3.7 httpsgithub.commarkus1978zipfile37_... pypi image httpsimg.shields.iopypivzipfile38.svg   target httpspypi.orgprojectzipfile38</longdescription>
+</pkgmetadata>

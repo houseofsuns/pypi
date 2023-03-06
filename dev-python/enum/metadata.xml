@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>..  Important Superseded by Python standard library.    Python 3 now has in its standard library an enum_    implementation (also available for older Python versions as    the third-party enum34_ distribution) that supersedes this    library.    ..  _enum httpsdocs.python.org3libraryenum.html    ..  _enum34 httpspypi.orgprojectenum34This package provides a module for robust enumerations in Python.An enumeration object is created with a sequence of string argumentsto the Enum() constructor     from enum import Enum     Colours  Enum(red, blue, green)     Weekdays  Enum(mon, tue, wed, thu, fri, sat, sun)The return value is an immutable sequence object with a value for eachof the string arguments. Each value is also available as an attributenamed from the corresponding string argument     pizza_night  Weekdays[4]     shirt_colour  Colours.greenThe values are constants that can be compared only with values fromthe same enumeration comparison with other values will invokePythons fallback comparisons     pizza_night  Weekdays.fri    True     shirt_colour  Colours.red    True     shirt_colour  green    FalseEach value from an enumeration exports its sequence indexas an integer, and can be coerced to a simple string matching theoriginal arguments used to create the enumeration     str(pizza_night)    fri     shirt_colour.index    2</longdescription>
+</pkgmetadata>

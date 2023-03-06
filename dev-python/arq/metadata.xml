@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> arq[[CI](httpsgithub.comsamuelcolvinarqworkflowsCIbadge.svgeventpush)](httpsgithub.comsamuelcolvinarqactionsqueryevent3Apush+branch3Amain+workflow3ACI)[[Coverage](httpscodecov.ioghsamuelcolvinarqbranchmaingraphbadge.svg)](httpscodecov.ioghsamuelcolvinarq)[[pypi](httpsimg.shields.iopypivarq.svg)](httpspypi.python.orgpypiarq)[[versions](httpsimg.shields.iopypipyversionsarq.svg)](httpsgithub.comsamuelcolvinarq)[[license](httpsimg.shields.iogithublicensesamuelcolvinarq.svg)](httpsgithub.comsamuelcolvinarqblobmainLICENSE)Job queues in python with asyncio and redis.See [documentation](httpsarq-docs.helpmanual.io) for more details.</longdescription>
+</pkgmetadata>

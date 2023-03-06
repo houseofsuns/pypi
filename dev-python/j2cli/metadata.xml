@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>j2cli - Jinja2 Command-Line Toolj2cli is a command-line tool for templating in shell-scripts,leveraging the [Jinja2](httpjinja.pocoo.orgdocs) library.Features Jinja2 templating INI, YAML, JSON data sources supported Allows the use of environment variables in templates Hello [Docker](httpwww.docker.com) )Inspired by [mattrobenoltjinja2-cli](httpsgithub.commattrobenoltjinja2-cli)</longdescription>
+</pkgmetadata>

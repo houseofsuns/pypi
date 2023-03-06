@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> gpsoauth[[CI](httpsgithub.comsimon-webergpsoauthactionsworkflowsci.yamlbadge.svg)](httpsgithub.comsimon-webergpsoauthactionsworkflowsci.yaml)[[PyPI version](httpsbadge.fury.iopygpsoauth.svg)](httpspypi.orgprojectgpsoauth)[[repominder](httpsimg.shields.iobadgedynamicjson.svglabelreleasequery24.statusmaxAge43200urihttps3A2F2Fwww.repominder.com2Fbadge2FeyJmdWxsX25hbWUiOiAic2ltb24td2ViZXIvZ3Bzb2F1dGgifQ3D3D2Flinkhttps3A2F2Fwww.repominder.com2F)](httpswww.repominder.com)Python client library for Google Play Services OAuth.gpsoauth allows python code to use the master token flow that KB Sriram described athttpsbktech.blogspot.com201401inside-android-play-services-magic.html.This can be useful when writing code that poses as a Google app, like[gmusicapi does here](httpsgithub.comsimon-webergmusicapiblob87a802ab3a59a7fa2974fd9755d59a55275484d9gmusicapisession.pyL267-L278).Many thanks to Dima Kovalenko for reverse engineering the EncryptedPasswd signature inhttpsweb.archive.orgweb20150814054004httpcodedigging.comblog2014-06-09-about-encryptedpasswd.For an explanation of recent changes, see [the changelog](httpsgithub.comsimon-webergpsoauthblobmasterCHANGELOG.md). Ports- C httpsgithub.comvemacsGPSOAuthSharp- Ruby httpsgithub.combryanmytkogpsoauth- Java httpsgithub.comsvarzeegpsoauth-java- C++ httpsgithub.comdvirtzgpsoauth-cpp and httpsgithub.comIciclelzgpsoauthclient ContributingSee [Contributing guidelines](httpsgithub.comsimon-webergpsoauthblobmasterCONTRIBUTING.md).This is an open-source project and all countributions are highly welcomed.</longdescription>
+</pkgmetadata>

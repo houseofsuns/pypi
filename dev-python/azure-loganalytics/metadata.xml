@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Microsoft Azure SDK for PythonThis package is no longer being maintained. Please use our latest package [azure-monitor-query](httpspypi.orgprojectazure-monitor-query).A [migration guide](httpsgithub.comAzureazure-sdk-for-pythonblobmainsdkmonitorazure-monitor-querymigration_guide.md) has been provided for the same.[image](httpsazure-sdk-impressions.azurewebsites.netapiimpressionsazure-sdk-for-python2Fazure-loganalytics2FREADME.png) Release History 0.1.1 (2021-11-11) This package is no longer maintained. Please use httpspypi.orgprojectazure-monitor-query 0.1.0 (2018-07-11) Initial Release</longdescription>
+</pkgmetadata>

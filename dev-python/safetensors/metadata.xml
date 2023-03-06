@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Installationpip install safetensors Usage Numpypythonfrom safetensors.numpy import save_file, load_fileimport numpy as nptensors  {   a np.zeros((2, 2)),   b np.zeros((2, 3), dtypenp.uint8)}save_file(tensors, .model.safetensors) Now loadingloaded  load_file(.model.safetensors) Torchpythonfrom safetensors.torch import save_file, load_fileimport torchtensors  {   a torch.zeros((2, 2)),   b torch.zeros((2, 3), dtypetorch.uint8)}save_file(tensors, .model.safetensors) Now loadingloaded  load_file(.model.safetensors) Developing inside .safetensorsbindingspythonpip install .[dev]Should be enough to install this library locally. Testing inside .safetensorsbindingspythonpip install .[dev]pytest -sv tests</longdescription>
+</pkgmetadata>

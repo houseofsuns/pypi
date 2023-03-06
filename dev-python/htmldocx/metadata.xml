@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> htmldocxConvert html to docxDependencies python-docx  bs4 To installpip install htmldocx UsageAdd strings of html to an existing docx.Document objectfrom docx import Documentfrom htmldocx import HtmlToDocxdocument  Document()new_parser  HtmlToDocx() do stuff to documenthtml  h1Hello worldh1new_parser.add_html_to_document(html, document) do more stuff to documentdocument.save(your_file_name)Convert files directlyfrom htmldocx import HtmlToDocxnew_parser  HtmlToDocx()new_parser.parse_html_file(input_html_file_path, output_docx_file_path)Convert files from a stringfrom htmldocx import HtmlToDocxnew_parser  HtmlToDocx()docx  new_parser.parse_html_string(input_html_file_string)Change table stylesTables are not styled by default. Use the table_style attribute on the parser to set a tablestyle. The style is used for all tables.from htmldocx import HtmlToDocxnew_parser  HtmlToDocx()new_parser.table_style  Light Shading Accent 4To add borders to tables, use the TableGrid stylenew_parser.table_style  TableGridDefault table styles can be found here httpspython-docx.readthedocs.ioenlatestuserstyles-understanding.htmltable-styles-in-default-template</longdescription>
+</pkgmetadata>

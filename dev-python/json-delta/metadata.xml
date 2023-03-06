@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>json-delta A diffpatch pair and library for JSON datastructures. (httpjson_delta.readthedocs.org)JSON-delta is a multi-language software suite for computing deltasbetween JSON-serialized data structures, and applying those deltas aspatches.  It enables separate programs at either end of acommunications channel (e.g. client and server over HTTP, or twoprocesses talking to one another using bidirectional IPC) tomanipulate a data structure while minimizing communications overhead.This is the python implementation.  It requires Python version 2.7 ornewer (including Python 3).  It can be installed in the standard way python setup.py install(potentially needing superuser privileges).  This will install asingle module named json_delta, and scripts named json_diff,json_patch and json_cat.HTML documentation for all four of these can be found in the docdirectory, along with manpages for the scripts.Donations to support the continuing development of JSON-delta will begratefully received via gratipay (httpsgratipay.comphijaro),PayPal (himselfphil-roberts.name) orBitcoin (1HPJHRpVSm1Y4zrgppd2c6LysjxeabbQN4bitcoin1HPJHRpVSm1Y4zrgppd2c6LysjxeabbQN4_).</longdescription>
+</pkgmetadata>

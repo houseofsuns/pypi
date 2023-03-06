@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> cdk-dynamo-table-viewerAn AWS CDK construct which exposes a public HTTP endpoint which displays an HTMLpage with the contents of a DynamoDB table in your stack.SECURITY NOTE this construct was built for demonstration purposes andusing it in production is probably a really bad idea. It exposes the entirecontents of a DynamoDB table in your account to the general public.The library is published under the following namesLanguageRepository-------------------JavaScriptTypeScript[cdk-dynamo-table-viewer](httpswww.npmjs.compackagecdk-dynamo-table-viewer)Python[cdk-dynamo-table-viewer](httpspypi.orgprojectcdk-dynamo-table-viewer).NET[Eladb.DynamoTableViewer](httpswww.nuget.orgpackagesEladb.DynamoTableViewer)Java[com.github.eladbcdk-dynamo-table-viewer](httpssearch.maven.orgartifactcom.github.eladbcdk-dynamo-table-viewer)Go[github.comcdklabscdk-dynamo-table-viewer-godynamotableviewer](httpspkg.go.devgithub.comcdklabscdk-dynamo-table-viewer-godynamotableviewer) Usage (TypeScriptJavaScript)Install via npmshell npm i cdk-dynamo-table-viewerAdd to your CDK stackpythonimport { TableViewer } from cdk-dynamo-table-viewerconst viewer  new TableViewer(this, CookiesViewer, {  table cookiesTable,  title Cookie Sales,  optional  sortBy -sales        optional (- denotes descending order)})Notes The endpoint will be available (as an deploy-time value) under viewer.endpoint.  It will also be exported as a stack output. Paging is not supported. This means that only the first 1MB of items will be  displayed (again, this is a demo...) Supports CDK version 0.38.0 and above LicenseApache 2.0</longdescription>
+</pkgmetadata>

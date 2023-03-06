@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[[Build Status](httpsgithub.comhukkinj1mdformat-gfmworkflowsTestsbadge.svgbranchmaster)](httpsgithub.comhukkinj1mdformat-gfmactionsqueryworkflow3ATests+branch3Amaster+event3Apush)[[PyPI version](httpsimg.shields.iopypivmdformat-gfm)](httpspypi.orgprojectmdformat-gfm) mdformat-gfm Mdformat plugin for GitHub Flavored Markdown compatibility Description[Mdformat](httpsgithub.comexecutablebooksmdformat) is a formatter for[CommonMark](httpsspec.commonmark.orgcurrent)compliant Markdown.Mdformat-gfm is an mdformat plugin that changes the target specification to[GitHub Flavored Markdown (GFM)](httpsgithub.github.comgfm),making the tool able to format the following syntax extensions- [tables](httpsgithub.github.comgfmtables-extension-)- [task list items](httpsgithub.github.comgfmtask-list-items-extension-)- [strikethroughs](httpsgithub.github.comgfmstrikethrough-extension-)- [autolinks](httpsgithub.github.comgfmautolinks-extension-)- [disallowed raw HTML](httpsgithub.github.comgfmdisallowed-raw-html-extension-)  (note that no changes are required from a formatter to support this extension) Installshpip install mdformat-gfm Usageshmdformat filename</longdescription>
+</pkgmetadata>

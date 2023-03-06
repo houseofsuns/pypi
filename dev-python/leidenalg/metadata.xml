@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Leiden is a general algorithm for methods of community detection in large networks.Please refer to the documentation httpleidenalg.readthedocs.ioenlatest_for more details.The source code of this package is hosted at GitHub httpsgithub.comvtraagleidenalg_.Issues and bug reports are welcome at httpsgithub.comvtraagleidenalgissues.</longdescription>
+</pkgmetadata>

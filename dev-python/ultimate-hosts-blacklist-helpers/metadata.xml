@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>The Ultimate Hosts Blacklist helpersThis is the branch which contain the helpers which we use while developing submodule for our infrastructure or frontend.Installation------------     pip3 install --user ultimate-hosts-blacklist-helpersNote----Most of the classes and methods here comes, are inspired or copied from the PyFunceble_ project... _PyFunceble httpspyfunceble.github.io</longdescription>
+</pkgmetadata>

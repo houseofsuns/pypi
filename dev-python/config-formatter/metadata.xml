@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> config-formatter[[Pypi version](httpsimg.shields.iopypivconfig-formatter.svg)](httpspypi.python.orgpypiconfig-formatter) [[Python version](httpsimg.shields.iobadgepython-3.62B-blue.svg)](httpspypi.python.orgpypiconfig-formatter) [[Build status](httpsimg.shields.iogithubworkflowstatusDelganconfig-formatterTestsmain)](httpsgithub.comDelganconfig-formatteractionsworkflowstests.ymlquerybranchmain) [[License](httpsimg.shields.iogithublicensedelganconfig-formatter.svg)](httpsgithub.comDelganconfig-formatterblobmainLICENSE)An automatic formatter for .ini and .cfg configuration files. Installationshellpip install config-formatter Usagepythonfrom config_formatter import ConfigFormatterwith open(config.ini, r) as file    formatter  ConfigFormatter()    formatted  formatter.prettify(file.read())    print(formatted) ExampleBeforeini[main]         Comments are preserved.     Error-prone indentation is removed.    [section1]    key1 value1    key2value2   Value assignment is normalized.[section2]lists  are indented including commentsmultiline     text that spans on several lines      is properly aligned.Afterini[main]   Comments are preserved. Error-prone indentation is removed.[section1]key1  value1key2  value2   Value assignment is normalized.[section2]lists     are    indented     including    commentsmultiline  text that spans            on several lines            is properly aligned.</longdescription>
+</pkgmetadata>

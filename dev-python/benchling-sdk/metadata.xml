@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Benchling SDKA Python 3.7+ SDK for the [Benchling](httpswww.benchling.com) platform designed to provide typed, fluentinteractions with [Benchling APIs](httpsdocs.benchling.comreference). InstallationInstall the dependency via [Poetry](httpspython-poetry.org) (if applicable)bashpoetry add benchling-sdk Or [Pip](httpspypi.orgprojectpip) bashpip install benchling-sdk DocumentationDocumentation for the SDK is kept up-to-date at [docs.benchling.com](httpsdocs.benchling.com), and you can get started withit using this guide[httpsdocs.benchling.comdocsgetting-started-with-the-sdk](httpsdocs.benchling.comdocsgetting-started-with-the-sdk). SupportTo report issues with using the SDK, contact [supportbenchling.com](mailtosupportbenchling.com).</longdescription>
+</pkgmetadata>

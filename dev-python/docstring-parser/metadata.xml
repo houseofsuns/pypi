@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>docstring_parser[[Build](httpsgithub.comrr-docstring_parseractionsworkflowsbuild.ymlbadge.svg)](httpsgithub.comrr-docstring_parseractionsworkflowsbuild.yml)Parse Python docstrings. Currently support ReST, Google, Numpydoc-style andEpydoc docstrings.Example usagepython from docstring_parser import parse docstring  parse(...     ...     Short description......     Long description spanning multiple lines...     - First line...     - Second line...     - Third line......     param name description 1...     param int priority description 2...     param str sender description 3...     raises ValueError if name is invalid...     ) docstring.long_descriptionLong description spanning multiple linesn- First linen- Second linen- Third line docstring.params[1].arg_namepriority docstring.raises[0].type_nameValueErrorRead [API Documentation](httpsrr-.github.iodocstring_parser). ContributingTo set up the projectshpip install --user poetrygit clone httpsgithub.comrr-docstring_parser.gitcd docstring_parserpoetry installpoetry run pre-commit installTo run testspoetry run pytest</longdescription>
+</pkgmetadata>

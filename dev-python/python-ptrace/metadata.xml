@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>python-ptrace.. image httpsimg.shields.iopypivpython-ptrace.svg   alt Latest release on the Python Cheeseshop (PyPI)   target httpspypi.python.orgpypipython-ptrace.. image httpsgithub.comvstinnerpython-ptraceactionsworkflowsbuild.ymlbadge.svg   alt Build status of python-ptrace on GitHub Actions   target httpsgithub.comvstinnerpython-ptraceactionspython-ptrace is a debugger using ptrace (Linux, BSD and Darwin system call totrace processes) written in Python. python-ptrace documentation  httppython-ptrace.readthedocs.io_ python-ptrace at GitHub  httpsgithub.comvstinnerpython-ptrace_ python-ptrace at the Python Cheeseshop (PyPI)  httpspypi.python.orgpypipython-ptrace_python-ptrace is an opensource project written in Python under GNU GPLv2license. It supports Python 3.6 and newer.</longdescription>
+</pkgmetadata>

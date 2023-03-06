@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>A Python and Command-Line Interface to Archive.orgtoxversionsdownloadscontributors.. tox image httpsgithub.comjjjakeinternetarchiveactionsworkflowstox.ymlbadge.svg    target httpsgithub.comjjjakeinternetarchiveactionsworkflowstox.yml.. versions image httpsimg.shields.iopypipyversionsinternetarchive.svg    target httpspypi.orgprojectinternetarchive.. downloads image httpsstatic.pepy.techbadgeinternetarchivemonth    target httpspepy.techprojectinternetarchive.. contributors image httpsimg.shields.iogithubcontributorsjjjakeinternetarchive.svg    target httpsgithub.comjjjakeinternetarchivegraphscontributorsThis package installs a command-line tool named ia for using Archive.org from the command-line.It also installs the internetarchive Python module for programmatic access to archive.org.Please report all bugs and issues on Github httpsgithub.comjjjakeinternetarchiveissues__.Installation------------You can install this module via pip.. code bash     pip install internetarchiveBinaries of the command-line tool are also available.. code bash     curl -LO httpsarchive.orgdownloadia-pexia     chmod +x ia     .ia helpDocumentation-------------Documentation is available at httpsarchive.orgservicesdocsapiinternetarchive httpsarchive.orgservicesdocsapiinternetarchive_.Contributing------------All contributions are welcome and appreciated. Please see httpsarchive.orgservicesdocsapiinternetarchivecontributing.html httpsarchive.orgservicesdocsapiinternetarchivecontributing.html_ for more details.</longdescription>
+</pkgmetadata>

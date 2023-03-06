@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pyramid_tm.. image httpsgithub.comPylonspyramid_tmworkflowsBuild20and20testbadge.svg    target httpsgithub.comPylonspyramid_tmactionsqueryworkflow3A22Build+and+test22.. image httpsreadthedocs.orgprojectspyramid-tmbadgeversionlatest        target httpsdocs.pylonsproject.orgprojectspyramid-tmenlatest        alt Documentation Statuspyramid_tm is a package which allows Pyramid requests to jointhe active transaction as provided by the transactionhttpspypi.orgprojecttransaction_ package.See httpsdocs.pylonsproject.orgprojectspyramid_tmenlatesthttpsdocs.pylonsproject.orgprojectspyramid_tmenlatest_ or docsindex.rst in this distribution for detaileddocumentation.</longdescription>
+</pkgmetadata>

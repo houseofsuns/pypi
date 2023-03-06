@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. NOTES FOR CREATING A RELEASE....    bumpversion {majorminorpatch}..    git push  git push --tags..    twine upload -r textract dist..    convert into release httpsgithub.comdeanmalmgrentextractreleasestextractExtract text from any document. No muss. No fuss.Full documentation httptextract.readthedocs.org__.Build Status Version Downloads Test Coverage Documentation StatusUpdates Stars Forks.. Build Status image httpstravis-ci.orgdeanmalmgrentextract.svgbranchmaster   target httpstravis-ci.orgdeanmalmgrentextract.. Version image httpsimg.shields.iopypivtextract.svg   target httpswarehouse.python.orgprojecttextract.. Downloads image httpsimg.shields.iopypidmtextract.svg   target httpswarehouse.python.orgprojecttextract.. Test Coverage image httpscoveralls.ioreposgithubdeanmalmgrentextractbadge.svgbranchmaster    target httpscoveralls.iogithubdeanmalmgrentextractbranchmaster.. Documentation Status image httpsreadthedocs.orgprojectstextractbadgeversionlatest   target httpsreadthedocs.orgprojectstextractbadgelatest.. Updates image httpspyup.ioreposgithubdeanmalmgrentextractshield.svg    target httpspyup.ioreposgithubdeanmalmgrentextract.. Stars image httpsimg.shields.iogithubstarsdeanmalmgrentextract.svg    target httpsgithub.comdeanmalmgrentextractstargazers.. Forks image httpsimg.shields.iogithubforksdeanmalmgrentextract.svg    target httpsgithub.comdeanmalmgrentextractnetwork</longdescription>
+</pkgmetadata>

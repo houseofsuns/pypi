@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Psycopg 3 PostgreSQL database adapter for PythonPsycopg 3 is a modern implementation of a PostgreSQL adapter for Python.This distribution contains the pure Python package psycopg.Installation------------In short, run the following    pip install --upgrade pip            to upgrade pip    pip install psycopg[binary,pool]   to install package and dependenciesIf something goes wrong, and for more information about installation, pleasecheck out the Installation documentation__... __ httpswww.psycopg.orgpsycopg3docsbasicinstall.htmlHacking-------For development information check out the project readme__... __ httpsgithub.compsycopgpsycopgreadmeCopyright (C) 2020 The Psycopg Team</longdescription>
+</pkgmetadata>

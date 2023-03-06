@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image httpsgithub.comCh00kffmpyworkflowstestbadge.svg    target httpsgithub.comCh00kffmpyactions    alt Tests.. image httpscodecov.ioghCh00kffmpybranchmastergraphsbadge.svg    target httpscodecov.iogithubCh00kffmpy    alt Coverage.. image httpsreadthedocs.orgprojectsffmpybadgeversionlatest    target httpffmpy.readthedocs.ioenlatestbadgelatest    alt Documentation.. image httpsimg.shields.iopypivffmpy.svg    target httpspypi.python.orgpypiffmpy    alt Latest versionffmpyffmpy is a simplistic FFmpeg httpffmpeg.org_ command line wrapper. It implements a Pythonic interface for FFmpeg command line compilation and uses Python subprocess httpsdocs.python.org2librarysubprocess.html_ module to execute compiled command line.Installation------------You guessed it  pip install ffmpyQuick example-------------.. code python   import ffmpy   ff  ffmpy.FFmpeg(  ...     inputs{input.mp4 None},  ...     outputs{output.avi None}  ... )   ff.run()This will take input.mp4 file in the current directory as the input, change the video container from MP4 to AVI without changing any other video parameters and create a new output file output.avi in the current directory.Documentation-------------httpffmpy.rtfd.ioSee Examples httpffmpy.readthedocs.ioenlatestexamples.html_ section for usage examples.License-------ffmpy is licensed under the terms of MIT license</longdescription>
+</pkgmetadata>

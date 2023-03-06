@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>PDFServices Python SDKThe Adobe PDFServices Python SDK provides ML APIs. Currently, it contains only Extract API, for extracting elements and renditions from PDFs.Adobe Document Clouds simple cloud-based APIs help you get up and running quickly. Once youve received your developer credential, download and set up the sample project. After youre familiar with the APIs, leverage the samples in your own server-side code.Installation------------ Install [Python](httpswww.python.org) 3.6 or higher.  pip install pdfservices-sdkResources------------ [QuickStart](httpswww.adobe.comgopdftoolsapi_doc) [Samples](httpswww.adobe.comgopdfservices_python_samples) [API Reference](httpswww.adobe.comgopdfservices_python_docs)</longdescription>
+</pkgmetadata>

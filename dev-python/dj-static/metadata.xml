@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>dj-staticThis is a simple Django middleware utility that allows you to properlyserve static assets from production with a WSGI server like Gunicorn.Django doesnt recommend httpsdocs.djangoproject.comen1.5howtostatic-filesadmonition-serving-the-files_the production use of its static file server for a number of reasons.There exists, however, a lovely WSGI application aptly named Static httplukearno.comprojectsstatic_.It is suitable for the production use of static file serving, unlike Django.Usage-----Configure your static assets in settings.py   STATIC_ROOT  staticfiles   STATIC_URL  staticThen, update your wsgi.py file to use dj-static    from django.core.wsgi import get_wsgi_application    from dj_static import Cling    application  Cling(get_wsgi_application())</longdescription>
+</pkgmetadata>

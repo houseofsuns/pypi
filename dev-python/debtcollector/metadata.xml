@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Team and repository tags.. image httpsgovernance.openstack.orgtcbadgesdebtcollector.svg    target httpsgovernance.openstack.orgtcreferencetagsindex.html.. Change things from this point onDebtcollector.. image httpsimg.shields.iopypivdebtcollector.svg    target httpspypi.orgprojectdebtcollector    alt Latest VersionA collection of Python deprecation patterns and strategies that help youcollect your technical debt in a non-destructive manner. The goal of thislibrary is to provide well documented developer facing deprecationpatterns that start of with a basic set and can expand into a largerset of patterns as time goes on. The desired output of these patternsis to apply the warnings module to emit DeprecationWarning or PendingDeprecationWarningor similar derivative to developers using libraries (or potentiallyapplications) about future deprecations. Free software Apache license Documentation httpsdocs.openstack.orgdebtcollectorlatest Source httpsopendev.orgopenstackdebtcollector Bugs httpsbugs.launchpad.netdebtcollector Release Notes httpsdocs.openstack.orgreleasenotesdebtcollector</longdescription>
+</pkgmetadata>

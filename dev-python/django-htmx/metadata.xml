@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>django-htmx.. image httpsimg.shields.ioreadthedocsdjango-htmxstylefor-the-badge   target httpsdjango-htmx.readthedocs.ioenlatest.. image httpsimg.shields.iogithubactionsworkflowstatusadamchainzdjango-htmxmain.ymlbranchmainstylefor-the-badge   target httpsgithub.comadamchainzdjango-htmxactionsworkflowCI.. image httpsimg.shields.iobadgeCoverage-10025-successstylefor-the-badge   target httpsgithub.comadamchainzdjango-htmxactionsworkflowCI.. image httpsimg.shields.iopypivdjango-htmx.svgstylefor-the-badge   target httpspypi.orgprojectdjango-htmx.. image httpsimg.shields.iobadgecode20style-black-000000.svgstylefor-the-badge   target httpsgithub.compsfblack.. image httpsimg.shields.iobadgepre--commit-enabled-brightgreenlogopre-commitlogoColorwhitestylefor-the-badge   target httpsgithub.compre-commitpre-commit   alt pre-commitExtensions for using Django with htmx httpshtmx.org__.----Want to work smarter and fasterCheck out my book Boost Your Django DX httpsadamchainz.gumroad.comlbyddx__ which covers many ways to improve your development experience.----Documentation-------------Please see httpsdjango-htmx.readthedocs.io .</longdescription>
+</pkgmetadata>

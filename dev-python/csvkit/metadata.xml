@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image httpsgithub.comwireservicecsvkitworkflowsCIbadge.svg    target httpsgithub.comwireservicecsvkitactions    alt Build status.. image httpscoveralls.ioreposwireservicecsvkitbadge.svgbranchmaster    target httpscoveralls.iorwireservicecsvkit    alt Coverage Status.. image httpsimg.shields.iopypidmcsvkit.svg    target httpspypi.python.orgpypicsvkit    alt PyPI downloads.. image httpsimg.shields.iopypivcsvkit.svg    target httpspypi.python.orgpypicsvkit    alt Version.. image httpsimg.shields.iopypilcsvkit.svg    target httpspypi.python.orgpypicsvkit    alt License.. image httpsimg.shields.iopypipyversionscsvkit.svg    target httpspypi.python.orgpypicsvkit    alt Support Python versionscsvkit is a suite of command-line tools for converting to and working with CSV, the king of tabular file formats.It is inspired by pdftk, GDAL and the original csvcut tool by Joe Germuska and Aaron Bycoffe.Important links Documentation httpscsvkit.rtfd.org Repository    httpsgithub.comwireservicecsvkit Issues        httpsgithub.comwireservicecsvkitissues Schemas       httpsgithub.comwireserviceffs</longdescription>
+</pkgmetadata>

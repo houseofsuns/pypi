@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>sigfig.. image httpsimg.shields.iopypivsigfig.svg    target httpspypi.orgprojectsigfig    alt Version.. image httpsreadthedocs.orgprojectssigfigbadgeversionlatest    target httpsigfig.readthedocs.io    alt Documentation.. image httpsimg.shields.iopypipyversionssigfig.svg    target httpspypi.python.orgpypisigfig    alt Python Versions.. image httpscodecov.ioghmikebusuttilsigfigbranchmastergraphbadge.svg    target httpscodecov.ioghmikebusuttilsigfig    alt Coverage StatusThis is the sigfig Python package used for rounding numbers (with expected results)... code python     round(0.25, 1)    0.2     from sigfig import round     round(0.25, decimals1)    0.3     round(3.14159, sigfigs2)    3.1     round(3.14159, uncertainty0.003639)    3.142  0.004     round(3.141592653589793, 0.00000002567, formatDrake)    3.141 592 654(26)Key Features round numbers by significant figuresdigits round numbers by decimal places round numbers by uncertaintyerror format numbers in a variety of common styles  notations read in numbers of any typeIn-depth documentation can be found here Installation httpssigfig.readthedocs.ioenlatestinstall.html_ Usage Guide httpssigfig.readthedocs.ioenlatestusage.html_ API Documentation httpssigfig.readthedocs.ioenlatestapi.html_ Project Development  Roadmap httpssigfig.readthedocs.ioenlatestroadmap.html_Useful links Python Package Index entry httpspypi.orgprojectsigfig Source Code httpsgithub.comdrakegroupsigfigPlease direct any commentssuggestionsfeedbackbugs to mike.busuttilgmail.com and valdeztgmail.comThanks for downloading )</longdescription>
+</pkgmetadata>

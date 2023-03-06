@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>GRequests allows you to use Requests with Gevent to make asynchronous HTTPRequests easily.Usage-----Usage is simple    import grequests    urls  [        httpwww.heroku.com,        httptablib.org,        httphttpbin.org,        httppython-requests.org,        httpkennethreitz.com    ]Create a set of unsent Requests     rs  (grequests.get(u) for u in urls)Send them all at the same time     grequests.map(rs)    [Response [200], Response [200], Response [200], Response [200], Response [200]]</longdescription>
+</pkgmetadata>

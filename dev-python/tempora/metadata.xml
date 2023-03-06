@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image httpsimg.shields.iopypivtempora.svg   target httpspypi.orgprojecttempora.. image httpsimg.shields.iopypipyversionstempora.svg.. image httpsgithub.comjaracotemporaworkflowstestsbadge.svg   target httpsgithub.comjaracotemporaactionsqueryworkflow3A22tests22   alt tests.. image httpsimg.shields.iobadgecode20style-black-000000.svg   target httpsgithub.compsfblack   alt Code style Black.. image httpsreadthedocs.orgprojectstemporabadgeversionlatest   target httpstempora.readthedocs.ioenlatestbadgelatest.. image httpsimg.shields.iobadgeskeleton-2023-informational   target httpsblog.jaraco.comskeleton.. image httpstidelift.combadgespackagepypitempora   target httpstidelift.comsubscriptionpkgpypi-temporautm_sourcepypi-temporautm_mediumreadmeObjects and routines pertaining to date and time (tempora).Modules include- tempora (top level package module) contains miscellaneous   utilities and constants.- timing contains routines for measuring and profiling.- schedule contains an event scheduler.- utc contains routines for getting datetime-aware UTC values.For EnterpriseAvailable as part of the Tidelift Subscription.This project and the maintainers of thousands of other packages are working with Tidelift to deliver one enterprise subscription that covers all of the open source you use.Learn more httpstidelift.comsubscriptionpkgpypi-temporautm_sourcepypi-temporautm_mediumreferralutm_campaigngithub_.Security ContactTo report a security vulnerability, please use theTidelift security contact httpstidelift.comsecurity_.Tidelift will coordinate the fix and disclosure.</longdescription>
+</pkgmetadata>

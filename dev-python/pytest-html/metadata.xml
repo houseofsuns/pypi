@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pytest-htmlpytest-html is a plugin for pytest httppytest.org_ that generates a HTML report for test results... image httpsimg.shields.iobadgelicense-MPL202.0-blue.svg   target httpsgithub.compytest-devpytest-htmlblobmasterLICENSE   alt License.. image httpsimg.shields.iopypivpytest-html.svg   target httpspypi.python.orgpypipytest-html   alt PyPI.. image httpsimg.shields.iocondavnconda-forgepytest-html.svg   target httpsanaconda.orgconda-forgepytest-html   alt Conda Forge.. image httpsgithub.compytest-devpytest-htmlworkflowsghbadge.svg   target httpsgithub.compytest-devpytest-htmlactions   alt CI.. image httpsimg.shields.iorequiresgithubpytest-devpytest-html.svg   target httpsrequires.iogithubpytest-devpytest-htmlrequirementsbranchmaster   alt Requirements.. image httpscodecov.ioghpytest-devpytest-htmlbranchmastergraphbadge.svgtokenY0myNKkdbi   target httpscodecov.ioghpytest-devpytest-html   alt CodecovResources---------- Documentation httpspytest-html.readthedocs.ioenlatest_- Release Notes httpspytest-html.readthedocs.ioenlatestchangelog.html_- Issue Tracker httpgithub.compytest-devpytest-htmlissues_- Code httpgithub.compytest-devpytest-html_Contributing------------We welcome contributions.To learn more, see Development httpspytest-html.readthedocs.ioenlatestdevelopment.html_Screenshots-----------.. image httpscloud.githubusercontent.comassets1228001195219462daa964-a88e-11e5-9745-2aa5b714c8bb.png   target httpscloud.githubusercontent.comassets12280011951695f371b926-a88a-11e5-91c2-499166776bd3.png   alt Enhanced HTML report</longdescription>
+</pkgmetadata>

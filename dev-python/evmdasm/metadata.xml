@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[[Build Status](httpsapi.travis-ci.orgtintinwebevmdasm.svgbranchmaster)](httpstravis-ci.orgtintinwebevmdasm) evmdasmA lightweight ethereum evm bytecode instruction registry, disassembler and evmcode manipulation library.This library is meant for providing a static interface and registry for EVM opcodes and instructions. The idea is to keep it as lightweight as possible especially when it comes to dependencies or high level features.e.g. The [ethereum-dasm](httpsgithub.comtintinwebethereum-dasm) project - a kind of high level disassembler with staticdynamic analysis features - relies on the registry and base disassembling functionality provided by [evmdasm](httpsgithub.comtintinwebevmdasm). More information -- [Wiki](httpsgithub.comtintinwebevmdasmwiki)Projects building on [evmdasm](httpsgithub.comtintinwebevmdasm) trophy httpsgithub.comethereumevmlab trophy httpsgithub.comtintinwebethereum-dasm trophy httpsgithub.comtintinwebevmcodegen Setup from pypi python3 -m pip install evmdasm from source python3 setup.py install</longdescription>
+</pkgmetadata>

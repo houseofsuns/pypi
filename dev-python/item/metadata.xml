@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>item.. image httpstravis-ci.orglorienitem.pngbranchmaster    target httpstravis-ci.orglorienitembranchmaster.. image httpscoveralls.ioreposlorienitembadge.svgbranchmaster    target httpscoveralls.iorlorienitembranchmaster.. image httpspypip.indownloaditembadge.svgperiodmonth    target httpspypi.python.orgpypiitem.. image httpspypip.inversionitembadge.svg    target httpspypi.python.orgpypiitem.. image httpslandscape.iogithublorienitemmasterlandscape.png   target httpslandscape.iogithublorienitemmasterUsage Example.. code python    from item import Item    from lxml.html import fromstring    class SomeStructure(Item)        id  IntegerField(pathtoid)        name  StringField(pathtoname)        date  DateTimeField(pathtodatetime, Y-m-d HMS)    structure  SomeStructure(fromstring(SOME_HTML))    print(structure.id)    print(structure.name)    print(structure.date)Installation.. code bash    pip install item</longdescription>
+</pkgmetadata>

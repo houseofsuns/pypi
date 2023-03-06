@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>CastellanGeneric Key Manager interface for OpenStack. License Apache License, Version 2.0 Documentation httpsdocs.openstack.orgcastellanlatest Source httpsopendev.orgopenstackcastellan Bugs httpsbugs.launchpad.netcastellan Release notes httpsdocs.openstack.orgreleasenotescastellan Wiki httpswiki.openstack.orgwikiCastellanTeam and repository tags.. image httpsgovernance.openstack.orgtcbadgescastellan.svg    target httpsgovernance.openstack.orgtcreferencetagsindex.html</longdescription>
+</pkgmetadata>

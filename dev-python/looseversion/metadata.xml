@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> looseversion - Version numbering for anarchists and software realistsA backwardsforwards-compatible fork of distutils.version.LooseVersion,for times when PEP-440 isnt what you need.The goal of this package is to be a drop-in replacement for the original LooseVersion.It implements an identical interface and comparison logic to LooseVersion.The only major change is that a looseversion.LooseVersion is comparable to adistutils.version.LooseVersion, which means tools should not need to worry whetherall dependencies that use LooseVersion have migrated.If you are simply comparing versions of Python packages, consider moving to[packaging.version.Version](httpspackaging.pypa.ioenlatestversion.htmlpackaging.version.Version),which follows [PEP-440](httpspeps.python.orgpep-0440).LooseVersion is better suited to interacting with heterogeneous version schemes thatdo not follow PEP-440. Installation From PyPIpip install looseversion From sourcegit clone httpsgithub.comeffigieslooseversion.gitpip install looseversion UsagePython from looseversion import LooseVersion LooseVersion(1.0.0)  LooseVersion(2.0.0)True LooseVersion(1.0.0)  2True</longdescription>
+</pkgmetadata>

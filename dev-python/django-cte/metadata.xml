@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Common Table Expressions with Django[[Build Status](httpstravis-ci.comdimagidjango-cte.png)](httpstravis-ci.comdimagidjango-cte)[[PyPI version](httpsbadge.fury.iopydjango-cte.svg)](httpsbadge.fury.iopydjango-cte) Installationpip install django-cte DocumentationThe [django-cte documentation](httpsdimagi.github.iodjango-cte) shows howto use Common Table Expressions with the Django ORM. Running testscd django-ctemkvirtualenv cte   or however you choose to setup your environmentpip install django nose flake8nosetestsflake8 --configsetup.cfgAll feature and bug contributions are expected to be covered by tests. Uploading to PyPIPackage and upload the generated files.pip install -r pkg-requires.txtpython setup.py sdist bdist_wheeltwine upload dist</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image httpsimg.shields.iopypivoathtool.svg   target PyPI link_.. image httpsimg.shields.iopypipyversionsoathtool.svg   target PyPI link_.. _PyPI link httpspypi.orgprojectoathtool.. image httpsgithub.comjaracooathtoolworkflowstestsbadge.svg   target httpsgithub.comjaracooathtoolactionsqueryworkflow3A22tests22   alt tests.. image httpsimg.shields.iobadgecode20style-black-000000.svg   target httpsgithub.compsfblack   alt Code style Black.. .. image httpsreadthedocs.orgprojectsskeletonbadgeversionlatest..    target httpsskeleton.readthedocs.ioenlatestbadgelatest.. image httpsimg.shields.iobadgeskeleton-2021-informational   target httpsblog.jaraco.comskeletonTOTP code generator based on oathtool.UsageCommand-line     python -m oathtool keyAPI     oathtool.generate_otp(key)Create standalone script (Unix)     python -m oathtool.generate-script     .oathtool keyDont want to install oathtool, but just want the script Usepip-run httpspypi.orgprojectpip-run_     pip-run oathtool -- -m oathtool.generate-script     .oathtool keygenerate-script also takes an arbitrary target path incase you wish to generate the script elsewhere     python -m oathtool.generate-script binmy-oathtoolOr install with pipx httpspipxproject.github.iopipx_     pipx install oathtool     oathtool key</longdescription>
+</pkgmetadata>

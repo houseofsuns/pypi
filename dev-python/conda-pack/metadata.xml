@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Conda-Packconda-pack is a command line tool for creating relocatable condaenvironments. This is useful for deploying code in a consistent environment,potentially in locations where python or conda isnt already installed.See the a hrefhttpsconda.github.ioconda-packdocumentationafor more information.Conda-pack is offered under a New BSD license see thea hrefhttpsgithub.comcondaconda-packblobmasterLICENSE.txtlicense filea. Build status [[Build status](httpsgithub.comcondaconda-packworkflowsBuild20and20test20the20packagebadge.svg)](httpsgithub.comcondaconda-packactions) [[codecov](httpscodecov.ioghcondaconda-packbranchmastergraphbadge.svg)](httpscodecov.ioghcondaconda-pack)  [[Anaconda-Server Badge](httpsanaconda.orgctoolsconda-packbadgeslatest_release_date.svg)](httpsanaconda.orgctoolsconda-pack)  ---  -  [conda install ctoolslabeldevconda-pack](httpsanaconda.orgctoolsconda-pack)  [[Anaconda-Server Badge](httpsanaconda.orgctoolsconda-packbadgesversion.svg)](httpsanaconda.orgctoolsconda-pack)  [conda install defaultsconda-pack](httpsanaconda.organacondaconda-pack)  [[Anaconda-Server Badge](httpsanaconda.organacondaconda-packbadgesversion.svg)](httpsanaconda.organacondaconda-pack)  [conda install conda-forgeconda-pack](httpsanaconda.orgconda-forgeconda-pack)  [[Anaconda-Server Badge](httpsanaconda.orgconda-forgeconda-packbadgesversion.svg)](httpsanaconda.orgconda-forgeconda-pack) </longdescription>
+</pkgmetadata>

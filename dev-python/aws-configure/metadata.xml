@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> aws-configure[[PyPI](httpsimg.shields.iopypivaws-configure)](httpspypi.orgprojectaws-configure)A CLI to configure AWS named profiles in .awsconfig and .awscredentials files Usagelist profiles      aws-configure list  set profile options      aws-configure set [--profile-p profile_name] [--clean-c] [config_options...]          --profile-p profile_name  select profile [default]          config_options             keyvalue pairs e.g. regioneu-central-1 source_profiledefault          --empty-e                   empty all profile options before setting new options          --empty-config               empty profile config options before setting          --empty-credentials          empty profile credentials options before setting  get profile options      aws-configure get [--profile-p profile_name] [config_options...]          --profile-p profile_name  select profile [default]          config_options             option key e.g. region source_profile  delete profile      aws-configure delete [--profile-p profile_name] [--config] [--credentials]          --profile-p profile_name  select profile [default]          --config                     delete only profile config in .awsconfig          --credentials                delete only profile credentials in .awscredentials  print help      aws-configure help Setup dev environment Install Dev Dependenciespip3 install -r requirements.txtpip3 install -r requirements-dev.txt Create Packagepython3 setup.py sdist bdist_wheel Local Installpip3 install --force-reinstall --no-deps distaws_configure--py3-none-any.whl Deploy to PiPytwine upload dist</longdescription>
+</pkgmetadata>

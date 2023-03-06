@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> pdftotext[[PyPI Status](httpsimg.shields.iopypivpdftotext.svg)](httpspypi.python.orgpypipdftotext)[[Azure Status](httpsdev.azure.comjalanpalmerjalanpalmer_apisbuildstatusjalan.pdftotextbranchNamemaster)](httpsdev.azure.comjalanpalmerjalanpalmer_buildlatestdefinitionId1branchNamemaster)[[AppVeyor status](httpsci.appveyor.comapiprojectsstatusuwcjxgu31kirkiujbranchmastersvgtrue)](httpsci.appveyor.comprojectjalanpdftotextbranchmaster)[[Coverage Status](httpscoveralls.ioreposgithubjalanpdftotextbadge.svgbranchmaster)](httpscoveralls.iogithubjalanpdftotextbranchmaster)[[Downloads](httpsimg.shields.iopypidmpdftotext.svg)](httpspypistats.orgpackagespdftotext)Simple PDF text extractionpythonimport pdftotext Load your PDFwith open(lorem_ipsum.pdf, rb) as f    pdf  pdftotext.PDF(f) If its password-protectedwith open(secure.pdf, rb) as f    pdf  pdftotext.PDF(f, secret) How many pagesprint(len(pdf)) Iterate over all the pagesfor page in pdf    print(page) Read some individual pagesprint(pdf[0])print(pdf[1]) Read all the text into one stringprint(nn.join(pdf)) OS DependenciesThese instructions assume youre using Python 3 on a recent OS. Package namesmay differ for Python 2 or for an older OS. Debian, Ubuntu, and friendssudo apt install build-essential libpoppler-cpp-dev pkg-config python3-dev Fedora, Red Hat, and friendssudo yum install gcc-c++ pkgconfig poppler-cpp-devel python3-devel macOSbrew install pkg-config poppler python WindowsCurrently tested only when using conda - Install the Microsoft Visual C++ Build Tools - Install poppler through conda      conda install -c conda-forge poppler    Installpip install pdftotext</longdescription>
+</pkgmetadata>

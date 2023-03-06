@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>luhnpypi buildstatus coverageGenerate and verify Luhn check digitsInstall with    pip install luhnUse verify to check digit strings.. code python     from luhn import      verify(356938035643809)    True     verify(534618613411236)    Falseand use generate to produce them.. code python     generate(53461861341123)    4or append for convenience.. code python     append(53461861341123)    534618613411234.. pypi image httpsimg.shields.iopypivluhn.svgstyleflat-square   target httpspypi.python.orgpypiluhn.. buildstatus image httpsimg.shields.iotravismmcloughlinluhn.svgstyleflat-square   target httpstravis-ci.orgmmcloughlinluhn.. coverage image httpsimg.shields.iocoverallsmmcloughlinluhn.svgstyleflat-square   target httpscoveralls.iormmcloughlinluhn</longdescription>
+</pkgmetadata>

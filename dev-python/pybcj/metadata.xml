@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>BCJ(Branch-Call-Jump) filter for python.. image httpsbadge.fury.iopypybcj.svg  target httpsbadge.fury.iopypybcj.. image httpsimg.shields.iocondavnconda-forgepybcj  target httpsanaconda.orgconda-forgepybcj.. image httpsdev.azure.commiurahrCodeBerg_apisbuildstatusCodeBerg-pybcj-CIbranchNamemain  target httpsdev.azure.commiurahrCodeBerg_buildlatestdefinitionId32branchNamemain.. image httpscoveralls.ioreposgithubmiurahrpybcjbadge.svgbranchmain  target httpscoveralls.iogithubmiurahrpybcjbranchmainIn data compression, BCJ, short for Branch-Call-Jump, refers to a technique that improves the compression ofmachine code of executable binaries by replacing relative branch addresses with absolute ones.This allows a LZMA compressor to identify duplicate targets and archive higher compression rate.BCJ is used in 7-zip compression utility as default filter for executable binaries.pybcj is a python bindings with BCJ implementation by C language.The C codes are derived from p7zip, portable 7-zip implementation.pybcj support IntelAmd x86x86_64, ArmArm64, ArmThumb, Sparc, PPC, and IA64.Development statusA development status is considered as Beta state.InstallationAs usual, you can install pybcj using python standard pip command... code-block    pip install pybcjAlternatively, one can also use conda.. code-block    conda install -c conda-forge pybcjWARNING------- When use it on MSYS2Mingw64 environment, please set environment variable  SETUPTOOLS_USE_DISTUTILSstdlib to install.License- SPDX-License-Identifier LGPL-2.1-or-later- SPDX-URL httpsspdx.orglicensesLGPL-2.1-or-later.html Copyright (C) 2020-2022 Hiroshi Miura Copyright (C) 1999-2010 Igor Pavlov</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Crytic-compile[[Build Status](httpsimg.shields.iogithubworkflowstatuscryticcrytic-compileCImaster)](httpsgithub.comcryticcrytic-compileactionsqueryworkflow3ACI)[[Slack Status](httpsempireslacking.herokuapp.combadge.svg)](httpsempireslacking.herokuapp.com)[[PyPI version](httpsbadge.fury.iopycrytic-compile.svg)](httpsbadge.fury.iopycrytic-compile)Library to help smart contract compilation. It includes support for- Direct solc compilation- [Brownie](httpsgithub.comiamdefinitelyahumanbrownie)- [Buidler](httpsgithub.comnomiclabsbuidler)- [Dapp](httpsdapp.toolsdapp)- [Embark](httpsembark.status.im)- [Etherlime](httpsgithub.comLimeChainetherlime)- [Etherscan](httpsetherscan.io) (including several alt-chain explorers and testnets)- [Foundry](httpsgithub.comfoundry-rsfoundry)- [Hardhat](httpsgithub.comnomiclabshardhat)- [Truffle](httpstruffleframework.com)- [Waffle](httpsgithub.comEthWorksWaffle)See the [Configuration](httpsgithub.comcryticcrytic-compilewikiConfiguration) documentation for advanced usages.The plugin is used in Trail of Bits tools, including- [Slither](httpsgithub.comcryticslither)- [Echidna](httpsgithub.comcryticechidna)- [Manticore](httpsgithub.comtrailofbitsmanticore)- [evm-cfg-builder](httpsgithub.comcryticevm_cfg_builder) Installationbashpip3 install crytic-compile Usage Standalonebashcrytic-compile .Crytic-compile will generate crytic-exportcontracts.json containing the ASTABI and bytecodes of the contracts.Run crytic-compile --help for more options. As a librarySee the [library documentation](httpsgithub.comcryticcrytic-compilewikiLibrary-Documentation).</longdescription>
+</pkgmetadata>

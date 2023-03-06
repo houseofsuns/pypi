@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>rinoh-typeface-texgyrepagellaThis package provides the TeX Gyre Pagella_ typeface for use with rinohtype_.TeX Gyre Pagella is based on URW Palladio L and can be used as a replacementfor Palatino... _TeX Gyre Pagella httpwww.gust.org.plprojectse-foundrytex-gyrepagella.. _rinohtype httpsgithub.combrechtmrinohtypereadme</longdescription>
+</pkgmetadata>

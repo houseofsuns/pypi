@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>p aligncenter  a hrefhttpmariadb.com    img srchttpsmariadb.comkbstaticimageslogo-2018-black.png  ap MariaDB ConnectorPython[[License (LGPL version 2.1)][licence-image]](LICENSE)[[Python 3.7][python-image]][python-url][[Build Status](httpstravis-ci.commariadb-corporationmariadb-connector-python.svgbranch1.1)](httpsapp.travis-ci.commariadb-corporationmariadb-connector-python)a hrefhttpsscan.coverity.comprojectsmariadb-connector-python  img altCoverity Scan Build Status       srchttpsscan.coverity.comprojects21386badge.svgaMariaDB ConnectorPython enables python programs to access MariaDB and MySQL databases, using an APIwhich is compliant with the Python DB API 2.0 (PEP-249). It is written in C and uses MariaDB ConnectorCclient library for client server communication. LicenseMariaDB ConnectorPython is licensed under the LGPL 2.1 Source codeMariaDB ConnectorPython source code is hosted on [Github](httpsgithub.commariadb-corporationmariadb-connector-python) DocumentationMariaDB ConnectorPython documentation can be found on [Github Pages](httpsmariadb-corporation.github.iomariadb-connector-python) BugsBugs and feature requests should be filed in the [MariaDB bug ticket system](httpsjira.mariadb.org)[licence-image]httpsimg.shields.iobadgelicense-GNU20LGPL20version202.1-green.svgstyleflat-square[python-image]httpsimg.shields.iobadgepython-3.7-blue.svg[python-url]httpswww.python.orgdownloadsreleasepython-370</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> docker-pycreds[[CircleCI](httpscircleci.comghshin-dockerpy-credstreemaster.svgstylesvg)](httpscircleci.comghshin-dockerpy-credstreemaster)Python bindings for the docker credentials store API Credentials store info[Docker documentation page](httpsdocs.docker.comenginereferencecommandlinelogincredentials-store) RequirementsOn top of the dependencies in requirements.txt, the docker-credentialexecutable for the platform must be installed on the users system. API usagepythonimport dockerpycredsstore  dockerpycreds.Store(secretservice)store.store(    serverhttpsindex.docker.iov1, usernamejohndoe,    secrethunter2)print(store.list())print(store.get(httpsindex.docker.iov1))store.erase(httpsindex.docker.iov1)</longdescription>
+</pkgmetadata>

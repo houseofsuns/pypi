@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>BlinkerBlinker provides a fast dispatching system that allows any number ofinterested parties to subscribe to events, or signals.Signal receivers can subscribe to specific senders or receive signalssent by any sender... code-block pycon     from blinker import signal     started  signal(round-started)     def each(round)    ...     print Round s  round    ...     started.connect(each)     def round_two(round)    ...     print This is round two.    ...     started.connect(round_two, sender2)     for round in range(1, 4)    ...     started.send(round)    ...    Round 1    Round 2    This is round two.    Round 3Links------   Documentation httpsblinker.readthedocs.io-   Changes httpsblinker.readthedocs.iochanges-   PyPI Releases httpspypi.orgprojectblinker-   Source Code httpsgithub.compallets-ecoblinker-   Issue Tracker httpsgithub.compallets-ecoblinkerissues</longdescription>
+</pkgmetadata>

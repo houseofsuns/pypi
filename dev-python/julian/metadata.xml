@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Build Statusjulianjulian is a simple Python library for converting between Julian datesand Python datetime objects.Examples--------.. code python    import julian    import datetime    mjd  54372.78    dt  julian.from_jd(mjd, fmtmjd)    print(dt)    2007-09-29 184311.999982.. code python    jd  julian.to_jd(dt + datetime.timedelta(hours12), fmtjd)    print(jd)    2454373.78Installation------------julian is tested on python versions  3.2    pip install julian.. Build Status image httpstravis-ci.orgdannyzedjulian.svgbranchmaster   target httpstravis-ci.orgdannyzedjulian</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>fcache.. image httpsbadge.fury.iopyfcache.png    target httpbadge.fury.iopyfcache.. image httpstravis-ci.orgtsrotenfcache.pngbranchdevelop    target httpstravis-ci.orgtsrotenfcachefcache is a dictionary-like, file-based cache module for Python. Its simpleto use, has an optional write buffer, and isShelf httpdocs.python.org3libraryshelve.htmlshelve.Shelf_-compatible... code python     from fcache.cache import FileCache     mycache  FileCache(myapp)     mycache[foo]  [1, 2, 3, 4, 5]     mycache[foo]    [1, 2, 3, 4, 5]     mycache[bar]  value     list(mycache)    [foo, bar]     del mycache[foo]     mycache[foo]        ...        KeyError fooInstall-------fcache supports Python 2.7 and 3. To install fcache, use pip.. code bash     pip install fcachefcache also requires the appdirs httpsgithub.comActiveStateappdirs_ package.Documentation-------------fcaches documentation httpsfcache.readthedocs.org_ contains an introduction along with an API overview. For more information on how to get started with fcache, be sure to read the documentation.BugIssues Tracker------------------fcache uses its GitHub Issues page httpsgithub.comtsrotenfcacheissues_ to track bugs, feature requests, and support questions.License-------fcache is released under the OSI-approved MIT License httpopensource.orglicensesMIT_. See the file LICENSE.txt for more information.</longdescription>
+</pkgmetadata>

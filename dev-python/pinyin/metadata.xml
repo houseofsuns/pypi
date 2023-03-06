@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Pinyin.. image httpimg.shields.iopypivpinyin.svgstyleflat   target httpspypi.python.orgpypipinyin.. image httpimg.shields.iotravislxyupinyinmaster.svgstyleflat   target httpstravis-ci.orglxyupinyinTranslate chinese chars to pinyin based on Mandarin.datInstall-------.. code bash     pip install pinyinUsage-----.. code python     import pinyin     print pinyin.get( )    n ho     print pinyin.get(, formatstrip, delimiter )    ni hao     print pinyin.get(, formatnumerical)    ni3hao3     print pinyin.get_initial()    n h.. note    format must be one of numericaldiacriticalstripPrototype Chinese-English--------------------------.. code python     import pinyin.cedict     pinyin.cedict.translate_word()    [you (informal, as opposed to courteous [nin2])]     pinyin.cedict.translate_word()    [Hello, Hi, How are you]     list(pinyin.cedict.all_phrase_translations())    [[, [you (informal, as opposed to courteous [nin2])]], [, [Hello, Hi, How are you]], [, [to be fond of, to have a tendency to, to be prone to]]]Note that this is a prototype, and only functions from Python 3.License-------pinyin is free software, under an MIT-style license. See LICENSE for details.The data file for translations is the CC-BY-SA 3.0.The translations are from the CC-CE-DICT project (httpscc-cedict.orgwiki), by Denisowski, Peterson, Brelsford, and others.</longdescription>
+</pkgmetadata>

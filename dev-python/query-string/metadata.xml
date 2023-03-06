@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>--httpsreadme42.com--[[](httpsimg.shields.iopypivquery-string.svgmaxAge3600)](httpspypi.orgprojectquery-string)[[](httpsimg.shields.iobadgeLicense-Unlicense-blue.svglongCacheTrue)](httpsunlicense.org) Installationbash [sudo] pip install query-string Features+   Python 23 compatible Examplespython import query_string query_string.parse(httpssite.orgindex.phpkvk2v2k3v3anchor){k v,k2 v2, k3 v3} query_string.parse(kvk2v2k3v3){k v,k2 v2, k3 v3} Links+   [Query string - Wikipedia](httpsen.wikipedia.orgwikiQuery_string)p aligncenter    a hrefhttpsreadme42.comreadme42.comap</longdescription>
+</pkgmetadata>

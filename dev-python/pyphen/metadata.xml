@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Pyphen is a pure Python module to hyphenate text using existing Hunspellhyphenation dictionaries.This module is a fork of python-hyphenator, written by Wilbert Berendsen.Many dictionaries are included in pyphen, they come from the LibreOffice gitrepository and are distributed under GPL, LGPL andor MPL. Dictionaries are notmodified in this repository. See the dictionaries and LibreOffices repositoryfor more details.httpscgit.freedesktop.orglibreofficedictionariestree Free software GPL 2.0+LGPL 2.1+MPL 1.1 tri-license For Python 3.7+, tested on CPython and PyPy Documentation httpsdoc.courtbouillon.orgpyphen Changelog httpsgithub.comKozeapyphenreleases Code, issues, tests httpsgithub.comKozeapyphen Code of conduct httpswww.courtbouillon.orgcode-of-conduct Professional support httpswww.courtbouillon.org Donation httpsopencollective.comcourtbouillonPyphen has been created and developed by Kozea (httpskozea.fr).Professional support, maintenance and community management is provided byCourtBouillon (httpswww.courtbouillon.org).Copyrights are retained by their contributors, no copyright assignment isrequired to contribute to Pyphen. Unless explicitly stated otherwise, anycontribution intentionally submitted for inclusion is licensed underGPL2.0+LGPL2.1+MPL1.1, without any additional terms or conditions. Forfull authorship information, see the version control history.</longdescription>
+</pkgmetadata>

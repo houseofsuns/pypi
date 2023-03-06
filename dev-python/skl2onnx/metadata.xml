@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Introductionsklearn-onnx converts [scikit-learn](httpsscikit-learn.orgstable) models to [ONNX](httpsgithub.comonnxonnx).Once in the ONNX format, you can use tools like [ONNX Runtime](httpsgithub.comMicrosoftonnxruntime) for high performance scoring.All converters are tested with [onnxruntime](httpsonnxruntime.ai). DocumentationFull documentation including tutorials is available at [httpsonnx.aisklearn-onnx](httpsonnx.aisklearn-onnx).[Supported scikit-learn Models](httpsonnx.aisklearn-onnxsupported.html)Last supported opset is 15.You may also find answers in [existing issues](httpsgithub.comonnxsklearn-onnxissuesutf8E29C93qis3Aissue)or submit a new one. InstallationYou can install from [PyPi](httpspypi.orgprojectskl2onnx)pip install skl2onnxOr you can install from the source with the latest changes.pip install git+httpsgithub.comonnxsklearn-onnx.git ContributeWe welcome contributions in the form of feedback, ideas, or code. License[Apache License v2.0](LICENSE)</longdescription>
+</pkgmetadata>

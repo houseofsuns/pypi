@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>numpydoc -- Numpys Sphinx extensions.. image httpsreadthedocs.orgprojectsnumpydocbadgeversionlatest   alt Documentation Status   scale 100   target httpsnumpydoc.readthedocs.ioenlatest.. image httpscodecov.ioghnumpynumpydocbranchmaingraphbadge.svg   target httpsapp.codecov.ioghnumpynumpydocbranchmain.. image httpsgithub.comnumpynumpydocactionsworkflowstest.ymlbadge.svgbranchmain   target httpsgithub.comnumpynumpydocactionsworkflowstest.ymlThis package provides the numpydoc Sphinx extension for handlingdocstrings formatted according to the NumPy documentation format.The extension also adds the code description directivesnpfunction, np-cfunction, etc.numpydoc requires Python 3.7+ and sphinx 4.2+.For usage information, please refer to the documentationhttpsnumpydoc.readthedocs.io_.The numpydoc docstring guidehttpsnumpydoc.readthedocs.ioenlatestformat.html_ explains howto write docs formatted for this extension, and the user guidehttpsnumpydoc.readthedocs.io_ explains how to use it with Sphinx.</longdescription>
+</pkgmetadata>

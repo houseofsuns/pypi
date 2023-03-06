@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Server Side Events (SSE) client for PythonA Python client for SSE event sources that seamlessly integrates withurllib3 and requests.Installation------------.. code     pip install sseclient-pyUsage-----.. code python    import json    import pprint    import sseclient    def with_urllib3(url, headers)        Get a streaming response for the given event feed using urllib3.        import urllib3        http  urllib3.PoolManager()        return http.request(GET, url, preload_contentFalse, headersheaders)    def with_requests(url, headers)        Get a streaming response for the given event feed using requests.        import requests        return requests.get(url, streamTrue, headersheaders)    url  httpdomain.comevents    headers  {Accept textevent-stream}    response  with_urllib3(url, headers)   or with_requests(url, headers)    client  sseclient.SSEClient(response)    for event in client.events()        pprint.pprint(json.loads(event.data))Resources-  httpwww.w3.orgTR2009WD-eventsource-20091029-  httpspypi.python.orgpypisseclient-py</longdescription>
+</pkgmetadata>

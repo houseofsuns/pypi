@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> poetry-version (deprecated) What to use insteadNow there is a better way to extract the version of the package.Assuming your package is named mypackagepythonimport importlib.metadata__version__  importlib.metadata.version(mypackage)This code should work as is if you are using Python  3.8.For Python 3.6 and 3.7 you need to install a backport httpspypi.orgprojectimportlib-metadata</longdescription>
+</pkgmetadata>

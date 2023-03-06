@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>(Asyncio OR Threadsafe) Python Client for Google Cloud Task Queuepypi pythons-aio pythons-restInstallation------------.. code-block console     pip install --upgrade gcloud-{aio,rest}-taskqueueUsage-----See our docs_.Contributing------------Please see our contributing guide_... _contributing guide httpsgithub.comtalkiqgcloud-aioblobmaster.githubCONTRIBUTING.rst.. _our docs httpstalkiq.github.iogcloud-aio.. pypi image httpsimg.shields.iopypivgcloud-aio-taskqueue.svgstyleflat-square    alt Latest PyPI Version (gcloud-aio-taskqueue)    target httpspypi.orgprojectgcloud-aio-taskqueue.. pythons-aio image httpsimg.shields.iopypipyversionsgcloud-aio-taskqueue.svgstyleflat-squarelabelpython (aio)    alt Python Version Support (gcloud-aio-taskqueue)    target httpspypi.orgprojectgcloud-aio-taskqueue.. pythons-rest image httpsimg.shields.iopypipyversionsgcloud-rest-taskqueue.svgstyleflat-squarelabelpython (rest)    alt Python Version Support (gcloud-rest-taskqueue)    target httpspypi.orgprojectgcloud-rest-taskqueue</longdescription>
+</pkgmetadata>

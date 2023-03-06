@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> pytest-sugar[[Build status](httpstravis-ci.orgTeemupytest-sugar.svgbranchmaster)](httpstravis-ci.orgTeemupytest-sugar)[[Pypi version](httpsimg.shields.iopypivpytest-sugar.svg)](httpspypi.orgprojectpytest-sugar)pytest-sugar is a plugin for [pytest](httppytest.org) that showsfailures and errors instantly and shows a progress bar.[Demo](httpsi.imgur.comjER0Jxj.gif) Similar projects- [pytest-rich](httpsgithub.comnicoddemuspytest-rich)- [pytest-pretty](httpsgithub.comsamuelcolvinpytest-pretty) RequirementsYou will need the following prerequisites in order to use pytest-sugar- Python 2.7, 3.4 or newer- pytest 2.9.0 or newer- pytest-xdist 1.14 or above if you want the progress bar to work while running  tests in parallel InstallationTo install pytest-sugar    pip install pytest-sugarThen run your tests with    pytestIf you would like more detailed output (one test per line), then you may use the verbose option     pytest --verboseIf you would like to run tests without pytest-sugar, use     pytest -p nosugar Running on WindowsIf you are seeing gibberish, you might want to try changing charset and fonts. See [this comment]( httpsgithub.comTeemupytest-sugarpull49issuecomment-146567670) for more details.</longdescription>
+</pkgmetadata>

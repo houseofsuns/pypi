@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> IOC Finder[[PyPi](httpsimg.shields.iopypivioc_finder.svg)](httpspypi.python.orgpypiioc_finder)[PyPI - Downloads](httpsimg.shields.iopypidmioc-finder)[[CI](httpsgithub.comfhightowerioc-finderworkflowsCIbadge.svg)](httpsgithub.comfhightowerioc-finderactions)[[Lint](httpsgithub.comfhightowerioc-finderworkflowsLintbadge.svg)](httpsgithub.comfhightowerioc-finderactions)[[codecov](httpscodecov.ioghfhightowerioc-finderbranchmastergraphbadge.svg)](httpscodecov.ioghfhightowerioc-finder)[[License LGPL v3](httpsimg.shields.iobadgeLicense-LGPL20v3-blue.svg)](httpschoosealicense.comlicenseslgpl-3.0)[[live demo](httpsimg.shields.iobadgelive20demo-E28692-green)](httpshightower.spaceioc-finder)Parse [indicators of compromise](httpssearchsecurity.techtarget.comdefinitionIndicators-of-Compromise-IOC) (also known as observables or network data - e.g. urls, email addresses, etc) from text. [Documentation](httpshightower.spaceioc-finder) (its interactive) Im looking for [sponsorship](httpsgithub.comsponsorsfhightower) for this project.I have a number of improvements and helpful features Id like to add and would appreciate some support as I invest this time and focus.If you use this project for in a commercial capacity andor find it useful, please consider [contributing](httpsgithub.comsponsorsfhightower) even a small amount. Thanks</longdescription>
+</pkgmetadata>

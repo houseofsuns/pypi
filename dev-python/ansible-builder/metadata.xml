@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[[CI](httpsgithub.comansibleansible-builderactionsworkflowsci.ymlbadge.svgbranchdevel)](httpsgithub.comansibleansible-builderactionsquerybranch3Adevel)[[codecov](httpscodecov.ioghansibleansible-builderbranchdevelgraphbadge.svgtoken4F6P3DBI40)](httpscodecov.ioghansibleansible-builder) Ansible BuilderAnsible Builder is a tool that automates the process of building executionenvironments using the schemas and tooling defined in various AnsibleCollections and by the user.See the readthedocs page for ansible-builder athttpsansible-builder.readthedocs.ioenlatest Get Involved We use [GitHub issues](httpsgithub.comansibleansible-builderissues) to  track bug reports and feature ideas Want to contribute, check out our [guide](CONTRIBUTING.md) Join us in the ansible-builder channel on Libera.chat IRC Join the discussion in  [awx-project](httpsgroups.google.comforumforumawx-project) For the full list of Ansible email Lists, IRC channels and working groups,  check out the [Ansible Mailing  lists](httpsdocs.ansible.comansiblelatestcommunitycommunication.htmlmailing-list-information)  page of the official Ansible documentation Code of ConductWe ask all of our community members and contributors to adhere to the [Ansiblecode ofconduct](httpdocs.ansible.comansiblelatestcommunitycode_of_conduct.html). Ifyou have questions, or need assistance, please reach out to our community teamat [codeofconductansible.com](mailtocodeofconductansible.com) License[Apache License v2.0](.LICENSE.md) Project Maintainers- Shane McDonald (shanemcdredhat.com)- Alan Rominger (aromingeredhat.com)- Bianca Henderson (biancaredhat.com)</longdescription>
+</pkgmetadata>

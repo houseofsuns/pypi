@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Boolean.. image httpstravis-ci.orgsciscoboolean.svgbranchdevelop    target httpstravis-ci.orgsciscoboolean.. image httpsbadge.fury.iopyboolean.svg    target httpbadge.fury.iopyboolean.. image httpsimg.shields.iopypilboolean.svg    target httpspypi.python.orgpypiboolean    alt LicenseConverts strings such as true, True, y, n, ... to their equivalent Boolean value.Installation------------.. code   pip install booleanUsage-----.. code   from boolean import boolean   boolean(True)  True   boolean(t)  True   boolean(f)  False   boolean(False)  False</longdescription>
+</pkgmetadata>

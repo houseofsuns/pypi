@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>dataset databases for lazy people[build](httpsgithub.compudodatasetworkflowsbuildbadge.svg)In short, dataset makes reading and writing data in databases as simple as reading and writing JSON files.[Read the docs](httpsdataset.readthedocs.io)To install dataset, fetch it with pipbash pip install datasetNote as of version 1.0, dataset is split into two packages, with thedata export features now extracted into a stand-alone package, datafreeze.See the relevant repository [here](httpsgithub.compudodatafreeze).</longdescription>
+</pkgmetadata>

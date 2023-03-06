@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> docstring-to-markdown[[tests](httpsgithub.compython-lspdocstring-to-markdownworkflowstestsbadge.svg)](httpsgithub.compython-lspdocstring-to-markdownactionsqueryworkflow3A22tests22)[CodeQL](httpsgithub.compython-lspdocstring-to-markdownworkflowsCodeQLbadge.svg)[[pypi-version](httpsimg.shields.iopypivdocstring-to-markdown.svg)](httpspython.orgpypidocstring-to-markdown)On the fly conversion of Python docstrings to markdown- Python 3.6+- currently can recognise reStructuredText and convert multiple of its features to Markdown- in the future will be able to convert Google docstrings too Installationbashpip install docstring-to-markdown ExampleConvert reStructuredTextpython import docstring_to_markdown docstring_to_markdown.convert(mathsum)sumWhen given the format cannot be recognised an exception will be raisedpython docstring_to_markdown.convert(sum)Traceback (most recent call last)    raise UnknownFormatError()docstring_to_markdown.UnknownFormatError Developmentbashpip install -e .pytest</longdescription>
+</pkgmetadata>

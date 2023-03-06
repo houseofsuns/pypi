@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>execnet distributed Python deployment and communicationImportant---------execnet currently is in maintenance-only mode, mostly because it is still the backendof the pytest-xdist plugin. Do not use in new projects... image httpsimg.shields.iopypivexecnet.svg    target httpspypi.orgprojectexecnet.. image httpsanaconda.orgconda-forgeexecnetbadgesversion.svg    target httpsanaconda.orgconda-forgeexecnet.. image httpsimg.shields.iopypipyversionsexecnet.svg    target httpspypi.orgprojectexecnet.. image httpsgithub.compytest-devexecnetworkflowsbuildbadge.svg    target httpsgithub.compytest-devexecnetactionsqueryworkflow3Abuild.. image httpsimg.shields.iobadgecode20style-black-000000.svg    target httpsgithub.compythonblack.. _execnet httpcodespeak.netexecnetexecnet_ provides carefully tested means to ad-hoc interact with Pythoninterpreters across version, platform and network barriers.  It providesa minimal and fast API targetting the following uses distribute tasks to local or remote processes write and deploy hybrid multi-process applications write scripts to administer multiple hostsFeatures------------------ zero-install bootstrapping no remote installation required flexible communication sendreceive as well as  callbackqueue mechanisms supported simple serialization of python builtin types (no pickling) grouped creation and robust termination of processes interoperable between Windows and Unix-ish systems. integrates with different threading models, including standard  os threads, eventlet and gevent based systems.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> ansible-vault[[Test result badge.](httpsgithub.comtomoh1ransible-vaultworkflowstestbadge.svg)](httpsgithub.comtomoh1ransible-vaultactionsqueryworkflow3Atest) [[Use black.](httpsimg.shields.iobadgecode20style-black-000000.svg)](httpsgithub.compythonblack)This project aim to RW an ansible-vault yaml file.This is not Ansible official project.You can install with pip.consolepip install ansible-vaultWhen you have an ansible-vault file, then you can read file. See below.pythonfrom ansible_vault import Vaultvault  Vault(password)data  vault.load(open(vault.yml).read())When you have to write data, then you can write data to file. See below.pythonfrom ansible_vault import Vaultvault  Vault(password)vault.dump(data, open(vault.yml, w)) also you can get encrypted textprint(vault.dump(data))And see [wiki](httpsgithub.comtomoh1ransible-vaultwiki).</longdescription>
+</pkgmetadata>

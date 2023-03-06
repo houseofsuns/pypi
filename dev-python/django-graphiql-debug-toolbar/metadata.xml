@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Django GraphiQL Debug Toolbar[[Tests](httpsgithub.comflavorsdjango-graphiql-debug-toolbaractionsworkflowstest-suite.ymlbadge.svg)](httpsgithub.comflavorsdjango-graphiql-debug-toolbaractions)[[Coverage](httpsimg.shields.iocodecovcgithubflavorsdjango-graphiql-debug-toolbarcolor2334D058)](httpscodecov.ioghflavorsdjango-graphiql-debug-toolbar)[[Codacy](httpsapp.codacy.comprojectbadgeGrade354f70cdefda40938c397d8651a2a06c)](httpswww.codacy.comghflavorsdjango-graphiql-debug-toolbardashboard)[[Package version](httpsimg.shields.iopypivdjango-graphiql-debug-toolbar.svg)](httpspypi.python.orgpypidjango-graphiql-debug-toolbar)[Django Debug Toolbar](httpsgithub.comjazzbanddjango-debug-toolbar) for [GraphiQL](httpsgithub.comgraphqlgraphiql) IDE.[Graphiql Debug Toolbar](httpsuser-images.githubusercontent.com551499036340937-1937ee68-1419-11e8-8477-40622e98c312.gif) Dependencies   Python  3.6   Django  2.2 InstallationInstall last stable version from Pypi.shpip install django-graphiql-debug-toolbarSee the [documentation](httpsdjango-debug-toolbar.readthedocs.ioenstableinstallation.html) for further guidance on setting Django Debug Toolbar.Add graphiql_debug_toolbar to your INSTALLED_APPS settingspyINSTALLED_APPS  [    debug_toolbar,    graphiql_debug_toolbar,]Replace the Django Debug Toolbar middleware with the GraphiQL Debug Toolbar one. pyMIDDLEWARE  [     debug_toolbar.middleware.DebugToolbarMiddleware,    graphiql_debug_toolbar.middleware.DebugToolbarMiddleware,]Credits to [jazzband](httpsjazzband.co)  [django-debug-toolbar](httpsgithub.comjazzbanddjango-debug-toolbar).</longdescription>
+</pkgmetadata>

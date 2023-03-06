@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Flask Babel[Tests](httpsgithub.compython-babelflask-babelworkflowsTestsbadge.svgbranchmaster)[[PyPI](httpsimg.shields.iopypivflask-babel.svgmaxAge2592000)](httpspypi.python.orgpypiFlask-Babel)Implements i18n and l10n support for Flask. This is based on the Python[babel][] and [pytz][] modules. DocumentationThe latest documentation is available [here][docs].[babel] httpsgithub.compython-babelbabel[pytz] httpspypi.python.orgpypipytz[docs] httpspython-babel.github.ioflask-babel[semver] httpssemver.org</longdescription>
+</pkgmetadata>

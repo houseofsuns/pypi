@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>kaldi-io-for-pythonGlue code connecting kaldi data and python.----------------------------------------------- Supported data types- vector (integer)- Vector (float, double)- Matrix (float, double)- Posterior (posteriors, nnet1 training targets, confusion networks, ...) Examples Reading feature scp examplepythonimport kaldi_iofor key,mat in kaldi_io.read_mat_scp(file)  ... Writing feature ark to filestreampythonimport kaldi_iowith open(ark_file,wb) as f  for key,mat in dict.iteritems()    kaldi_io.write_mat(f, mat, keykey) Writing features as ark,scp by pipeline with copy-featspythonimport kaldi_ioark_scp_outputark copy-feats --compresstrue ark- ark,scpdatafeats2.ark,datafeats2.scpwith kaldi_io.open_or_fd(ark_scp_output,wb) as f  for key,mat in dict.iteritems()    kaldi_io.write_mat(f, mat, keykey) Install- from pypi python -m pip --user install kaldi_io- from sources  - git clone httpsgithub.comvesis84kaldi-io-for-python.git kaldi-io-dir  - python setup.py install (default python)- for local development use export PYTHONPATH{PYTHONPATH}kaldi-io-dir in HOME.bashrcNote it is recommended to set KALDI_ROOT in your HOME.bashrc asexport KALDI_ROOTsome_kaldi_dir, so you can readwrite usingpipes which contain kaldi binaries. LicenseApache License, Version 2.0 (LICENSE-2.0.txt) Contact- If you have an extension to share, please create a pull request.- For feedback and suggestions, please create a GitHub Issue in the project.- For the positive reactions ) I am also reachable by email vesis84gmail.com</longdescription>
+</pkgmetadata>

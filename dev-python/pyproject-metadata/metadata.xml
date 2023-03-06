@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> pyproject-metadata[[pre-commit.ci status](httpsresults.pre-commit.cibadgegithubFFY00python-pyproject-metadatamain.svg)](httpsresults.pre-commit.cilatestgithubFFY00python-pyproject-metadatamain)[[checks](httpsgithub.comFFY00python-pyproject-metadataactionsworkflowschecks.ymlbadge.svg)](httpsgithub.comFFY00python-pyproject-metadataactionsworkflowschecks.yml)[[tests](httpsgithub.comFFY00python-pyproject-metadataactionsworkflowstests.ymlbadge.svg)](httpsgithub.comFFY00python-pyproject-metadataactionsworkflowstests.yml)[[codecov](httpscodecov.ioghFFY00python-pyproject-metadatabranchmaingraphbadge.svgtoken9chBjS1lch)](httpscodecov.ioghFFY00python-pyproject-metadata)[[Documentation Status](httpsreadthedocs.orgprojectspyproject-metadatabadgeversionlatest)](httpspyproject-metadata.readthedocs.ioenlatestbadgelatest) Dataclass for PEP 621 metadata with support for [core metadata] generationThis project does not implement the parsing of pyproject.tomlcontaining PEP 621 metadata.Instead, given a Python data structure representing PEP 621 metadata (alreadyparsed), it will validate this input and generate a PEP 643-compliant metadatafile (e.g. PKG-INFO). UsageAfter [installing pyproject-metadata](httpspypi.orgprojectpyproject-metadata),you can use it as a library in your scripts and programspythonfrom pyproject_metadata import StandardMetadataparsed_pyproject  { ... }   you can use parsers like tomli to obtain this dictmetadata  StandardMetadata.from_pyproject(parsed_pyproject)print(metadata.entrypoints)   same fields as defined in PEP 621pkg_info  metadata.as_rfc822()print(str(pkg_info))   core metadata[core metadata] httpspackaging.python.orgspecificationscore-metadata</longdescription>
+</pkgmetadata>

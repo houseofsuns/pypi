@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>treq High-level Twisted HTTP Client APIpypi_calver_coverage_documentation_treq is an HTTP library inspired byrequests httpsrequests.readthedocs.io_ but written on top ofTwisted httpswww.twistedmatrix.com_sAgents httpstwistedmatrix.comdocumentscurrentapitwisted.web.client.Agent.html_.It provides a simple, higher level API for making HTTP requests whenusing Twisted... code-block python     import treq     def done(response)    ...     print(response.code)    ...     reactor.stop()     treq.get(httpsgithub.com).addCallback(done)     from twisted.internet import reactor     reactor.run()    200For more info read the docs httpstreq.readthedocs.org_.Contributing------------treq development is hosted on GitHub httpsgithub.comtwistedtreq_.We welcome contributions feel to fork and send contributions over.See CONTRIBUTING.rst httpsgithub.comtwistedtreqblobmasterCONTRIBUTING.rst_ for more info.Code of Conduct---------------Refer to the Twisted code of conduct httpsgithub.comtwistedtwistedblobtrunkcode_of_conduct.md_.Copyright and License---------------------treq is made available under the MIT license.See LICENSE .LICENSE_ for legal details and copyright notices... _pypi httpspypi.orgprojecttreq.. pypi image httpsimg.shields.iopypivtreq.svg    alt PyPI.. _calver httpscalver.org.. calver image httpsimg.shields.iobadgecalver-YY.MM.MICRO-22bfda.svg    alt calver YY.MM.MICRO.. _coverage httpscoveralls.iogithubtwistedtreq.. coverage image httpscoveralls.ioreposgithubtwistedtreqbadge.svg    alt Coverage.. _documentation httpstreq.readthedocs.org.. documentation image httpsreadthedocs.orgprojectstreqbadge    alt Documentation</longdescription>
+</pkgmetadata>

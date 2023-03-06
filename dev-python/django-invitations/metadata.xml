@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Django-invitations - Generic invitations app[[Jazzband](httpsjazzband.costaticimgbadge.svg)](httpsjazzband.co)[[PyPI Download](httpsimg.shields.iopypivdjango-invitations.svg)](httpspypi.python.orgpypidjango-invitations)[[PyPI Python Versions](httpsimg.shields.iopypipyversionsdjango-invitations.svg)](httpspypi.python.orgpypidjango-invitations)[[Build status](httpsgithub.comjazzbanddjango-invitationsactionsworkflowstest.ymlbadge.svg)](httpsgithub.comjazzbanddjango-invitationsactionsworkflowstest.yml)[[Coverage status](httpscodecov.ioghjazzbanddjango-invitationsbranchmastergraphbadge.svgtokenxxufPt4r3I)](httpscodecov.ioghjazzbanddjango-invitations)[[Documentation Status](httpsreadthedocs.orgprojectsdjango-invitationsbadgeversionlatest)](httpsdjango-invitations.readthedocs.ioenlatestbadgelatest) AboutGeneric invitations solution with adaptable backend and support for django-allauth. ContributingAs we are members of a [JazzBand project](httpsjazzband.coprojects), django-invitations contributors should adhere to the [Contributor Code of Conduct](httpsjazzband.coaboutconduct). DocumentationDocumentation can be found at httpsdjango-invitations.readthedocs.io</longdescription>
+</pkgmetadata>

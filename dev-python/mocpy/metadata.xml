@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>MOCPyPyPI version BuildTest status Notebook Binder DocMOCPy is a Python library allowing easy creation and manipulation of MOCs (Multi-Order Coverage maps).   MOC is an IVOA standard  enabling description of arbitrary sky regions.  Based on the HEALPix sky tessellation, it maps regions on the skyinto hierarchically grouped predefined cells.An experimental support for TMOC (temporal MOC) has been added since version 0.4.0.It allows creation, parsing and comparison of TMOCs.Space  Time coverages (STMOC) are an extension of MOC to add time information.It is possible to get a TMOC by querying a STMOC with a MOC andor get a MOC by querying a STMOC with a TMOC.Please check the mocpys documentation httpscds-astro.github.iomocpy__for more details about installing MOCPy and using it.For a command line tool, see the moc-cli httpsgithub.comcds-astrocds-moc-rusttreemaincratescli__. For more information about the MOCPy Rust core, see the moc crate httpscrates.iocratesmoc__. .. figure .resourcesreadme.png   scale 50    align center   alt map to buried treasure   Rendered with MOCpy.. PyPI version image httpsbadge.fury.iopymocpy.svg    target httpsbadge.fury.iopyMOCPy.. BuildTest status image httpsgithub.comcds-astromocpyactionsworkflowstest.ymlbadge.svg    target httpsgithub.comcds-astromocpyactionsworkflowstest.yml.. Notebook Binder image httpmybinder.orgbadge.svg    target httpsmybinder.orgv2ghcds-astromocpymaster.. Doc image httpsimg.shields.iobadgeDocumentation-link-green.svg    target httpscds-astro.github.iomocpy</longdescription>
+</pkgmetadata>

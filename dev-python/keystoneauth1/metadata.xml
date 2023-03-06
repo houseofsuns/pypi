@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Team and repository tags.. image httpsgovernance.openstack.orgtcbadgeskeystoneauth.svg    target httpsgovernance.openstack.orgtcreferencetagsindex.html.. Change things from this point onkeystoneauth.. image httpsimg.shields.iopypivkeystoneauth1.svg    targethttpspypi.orgprojectkeystoneauth1    alt Latest Version.. image httpsimg.shields.iopypidmkeystoneauth1.svg    target httpspypi.orgprojectkeystoneauth1    alt DownloadsThis package contains tools for authenticating to an OpenStack-based cloud.These tools include Authentication plugins (password, token, and federation based) Discovery mechanisms to determine API version support A session that is used to maintain client settings across requests (based on  the requests Python library)Further information Free software Apache license Documentation httpsdocs.openstack.orgkeystoneauthlatest Source httpsopendev.orgopenstackkeystoneauth Bugs httpsbugs.launchpad.netkeystoneauth Release notes httpsdocs.openstack.orgreleasenoteskeystoneauth</longdescription>
+</pkgmetadata>

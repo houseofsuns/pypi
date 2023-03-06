@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Pi.. image httpstravis-ci.orgzalando-stupspiu.svgbranchmaster   target httpstravis-ci.orgzalando-stupspiu   alt Build Status.. image httpscoveralls.ioreposzalando-stupspiubadge.svg   target httpscoveralls.iorzalando-stupspiu   alt Code Coverage.. image httpsimg.shields.iopypidwstups-piu.svg   target httpspypi.python.orgpypistups-piu   alt PyPI Downloads.. image httpsimg.shields.iopypivstups-piu.svg   target httpspypi.python.orgpypistups-piu   alt Latest PyPI version.. image httpsimg.shields.iopypilstups-piu.svg   target httpspypi.python.orgpypistups-piu   alt LicensePi is the command line client for the even SSH access granting service.Installation.. code-block bash     sudo pip3 install --upgrade stups-piuUsage.. code-block bash     piu myusermyhost my-reasonSee the STUPS documentation on Pi_ for details... _STUPS documentation on Pi httpstups.readthedocs.orgenlatestcomponentspiu.htmlRunning Unit Tests.. code-block bash     python3 setup.py test --cov-htmltrue</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This is an implementation of the Zabbix API in Python.Please note that the Zabbix API is still in a draft state,and subject to change.Implementations of the Zabbix API in other languages maybe found on the wiki.Zabbix 1.8, 2.0, 2.2, 2.4, 3.0 and 3.2 are supported.Python 2 and 3 are supported.Future versions must be supported too, if there is no deep changes.Installationsh pip install zabbix-apiShort examplepython from zabbix_api import ZabbixAPI zapi  ZabbixAPI(serverhttpsserver) zapi.login(login, password) zapi.trigger.get({expandExpression extend, triggerids range(0, 100)})See also httpwww.zabbix.comwikidocapi httpswww.zabbix.comdocumentation2.4manualapi httpwww.zabbix.comforumshowthread.phpt15218</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>airspeed velocityairspeed velocity (asv) is a tool for benchmarking Pythonpackages over their lifetime.It is primarily designed to benchmark a single project over itslifetime using a given suite of benchmarks.  The results are displayedin an interactive web frontend that requires only a basic staticwebserver to host.See an example airspeed velocity site httpspv.github.ionumpy-bench__.See the full documentation httpsasv.readthedocs.io__for more information.The latest release can be installed from PyPI using    pip install asvAre you using asv  Consider adding a badge to your projectsREADME like this.. image httpimg.shields.iobadgebenchmarked20by-asv-blue.svgstyleflatBy using the following markdown  [[asv](httpimg.shields.iobadgebenchmarked20by-asv-blue.svgstyleflat)](httpyour-url-here)License BSD three-clause licensehttpopensource.orglicensesBSD-3-Clause__.Authors Michael Droettboom, Pauli Virtanen</longdescription>
+</pkgmetadata>

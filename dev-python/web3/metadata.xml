@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Web3.py[[Documentation Status](httpsreadthedocs.orgprojectsweb3pybadgeversionlatest)](httpsweb3py.readthedocs.ioenlatestbadgelatest)[[Discord](httpsimg.shields.iodiscord809793915578089484colorbluelabelchatlogodiscordlogoColorwhite)](httpsdiscord.ggGHryRvPB84)[[Build Status](httpscircleci.comghethereumweb3.py.svgstyleshield)](httpscircleci.comghethereumweb3.py)A Python library for interacting with Ethereum, inspired by [web3.js](httpsgithub.comethereumweb3.js). Python 3.6+ support--- Quickstart[Get started in 5 minutes](httpsweb3py.readthedocs.ioenlatestquickstart.html) or[take a tour](httpsweb3py.readthedocs.ioenlatestoverview.html) of the library. DocumentationFor additional guides, examples, and APIs, see the [documentation](httpsweb3py.readthedocs.ioenlatest). Want to helpWant to file a bug, contribute some code, or improve documentation Excellent Read up on ourguidelines for [contributing](httpsweb3py.readthedocs.ioenlatestcontributing.html),then check out issues that are labeled[Good First Issue](httpsgithub.comethereumweb3.pyissuesqis3Aissue+is3Aopen+label3A22Good+First+Issue22).--- Questions on implementation or usage Join the conversation on [discord](httpsdiscord.ggGHryRvPB84).</longdescription>
+</pkgmetadata>

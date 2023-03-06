@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>OpenSSL Transport for asyncio.. image httpsgithub.comhorazontaioopensslworkflowsCIbadge.svg  target httpsgithub.comhorazontaioopensslactionsqueryworkflow3ACI+branch3Adevel.. image httpscoveralls.ioreposgithubhorazontaioopensslbadge.svgbranchdevel  target httpscoveralls.iogithubhorazontaioopensslbranchdevelaioopenssl provides a asynciohttpsdocs.python.org3libraryasyncio.html_ Transport which usesPyOpenSSL httpspyopenssl.readthedocs.org_ instead of the built-in sslmodule.The transport has two main advantages compared to the original The TLS handshake can be deferred by passing use_starttlsTrue and later  calling the starttls() coroutine method.  This is useful for protocols with a STARTTLS  httpsen.wikipedia.orgwikiSTARTTLS_ feature. A coroutine can be called during the TLS handshake this can be used to defer  the certificate check to a later point, allowing e.g. to get user feedback  before the starttls() method returns.  This allows to ask users for certificate trust without the application layer  protocol interfering or starting to communicate with the unverified peer... note   Use this module at your own risk. It has lower test coverage than Id like   it to have it has been exported from aioxmpp on request, where it undergoes   implicit testing. If you find bugs, please report them. If possible, add   regression tests while youre at it.   If you find security-critical bugs, please follow the procedure announced in   the aioxmpp readme httpsgithub.comhorazontaioxmpp_.Documentation-------------Official documentation can be built with sphinx and is available onlineon our servers httpsdocs.zombofant.netaioopenssl0.6_.</longdescription>
+</pkgmetadata>

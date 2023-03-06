@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>google-resumable-mediaUtilities for Google Media Downloads and Resumable UploadsSee the docs_ for examples and usage... _docs httpsgoogleapis.devpythongoogle-resumable-medialatestindex.htmlExperimental asyncio Support------------------------------While still in development and subject to change, this library has asynciosupport at google._async_resumable_media. Supported Python Versions-------------------------Python  3.7Unsupported Python Versions---------------------------Python  2.7, Python  3.5, Python  3.6.The last version of this library compatible with Python 2.7 and 3.5 isgoogle-resumable-media1.3.3.The last version of this library compatible with Python 3.6 isgoogle-resumable-media2.3.3.License-------Apache 2.0 - See the LICENSE_ for more information... _the LICENSE httpsgithub.comgoogleapisgoogle-resumable-media-pythonblobmainLICENSE</longdescription>
+</pkgmetadata>

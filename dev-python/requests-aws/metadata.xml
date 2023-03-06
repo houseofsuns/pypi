@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>S3 using python-requestsAWS authentication for Amazon S3 for the wonderful [pyhon requests library](httppython-requests.org)[[Build Status](httpstravis-ci.orgtaxpython-requests-aws.svgbranchmaster)](httpstravis-ci.orgtaxpython-requests-aws)- Tested with python 2.7 and python 3- At the moment only S3 is supported Usagepythonimport requestsfrom awsauth import S3AuthACCESS_KEY  ACCESSKEYXXXXXXXXXXXXSECRET_KEY  AWSSECRETKEYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX        url  httpmybuck.s3.amazonaws.comfile.txts  Lola is sweet Creating a filer  requests.put(url, datas, authS3Auth(ACCESS_KEY, SECRET_KEY)) Downloading a filer  requests.get(url, authS3Auth(ACCESS_KEY, SECRET_KEY))if r.text  Lola is sweet    print It works Removing a filer  requests.delete(url, authS3Auth(ACCESS_KEY, SECRET_KEY)) InstallationInstalling requests-aws is simple with pip     pip install requests-aws</longdescription>
+</pkgmetadata>

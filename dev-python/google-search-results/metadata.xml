@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Google  Bing  Baidu Search Results in PythonThis Python package is meant to scrape and parse Google, Google Scholar, Bing, Baidu, Yandex, Yahoo, Ebay results using SerpApi httpsserpapi.com_. The following services are provided Search API httpsserpapi.comsearch-api_  Search Archive API httpsserpapi.comsearch-archive-api_ Account API httpsserpapi.comaccount-api_  Location API httpsserpapi.comlocations-api_SerpApi provides a script builder httpsserpapi.comdemo_ to get you started quickly.Installation-------------Compatible with Python 3.7+.. code-block shell    pip install google-search-resultsLink to the python package page httpspypi.orgprojectgoogle-search-results_Quick start-------------.. code-block python    from serpapi import GoogleSearch    search  GoogleSearch({q coffee, location Austin,Texas, api_key secretKey})    result  search.get_dict()This example runs a search about coffee using your secret api key.The Serp API service (backend) searches on Google using the query q  coffee parses the messy HTML responses return a standardizes JSON responseThe GoogleSearch class Format the request Execute GET http request against Serp API service Parse JSON response into a dictionaryEt voila..Alternatively, you can search- Bing using BingSearch class- Baidu using BaiduSearch class- Yahoo using YahooSearch class- Ebay using EbaySearch class- Yandex using YandexSearch class- Home depot using HomeDepotSearch class- GoogleScholar using GoogleScholarSearch classSee the playground to generate your code. httpsserpapi.complayground_Documentation available here httpsgithub.comserpapigoogle-search-results-pythonblobmasterREADME.md_</longdescription>
+</pkgmetadata>

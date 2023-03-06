@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Python Color Math Module (colormath).. image httpstravis-ci.orggtaylorpython-colormath.pngbranchmaster        target httpstravis-ci.orggtaylorpython-colormath.. image httpspypip.indcolormathbadge.png        target httpscrate.iopackagescolormathThis module implements a large number of different color operations such ascolor space conversions, Delta E, and density to spectral.Requirements------------ numpy NetworkX 2.0+ Python 2.7 or Python 3.5+Installation------------The easiest way to install colormath is via pipeasy_install    pip install colormathDocumentation-------------For documentation, see the project webpage at    httppython-colormath.readthedocs.org    There are also a lot of useful examples under the examples directory withinthis directory.Support-------Head over to httpsgithub.comgtaylorpython-colormathand submit an issue if you have any problems or questions.Legal Mumbo Jumbo-----------------Copyright (C) 2018 Gregory Taylor_This software is licensed under the BSD License... _Gregory Taylor httpgc-taylor.com</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>python-interfacebuild statusinterface is a library for declaring interfaces and for staticallyasserting that classes implement those interfaces. It aims to provide strictersemantics and better error messages than Pythons built-in abc module.interface supports Python 2.7 and Python 3.4+.For more information, see our documentation_.Installation.. code-block shell    pip install python-interface.. _documentation  httppython-interface.readthedocs.io.. build status image httpsgithub.comssandersonpython-interfaceworkflowsinterface-cibadge.svg   target httpsgithub.comssandersonpython-interfaceactions</longdescription>
+</pkgmetadata>

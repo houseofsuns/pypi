@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> public and privateThis library provides two very simple decorators that document thepublicness of the names in your module.  They keep your modules __all__in sync so you dont have to.Authorpublic is Copyright (C) 2016-2022 Barry Warsaw barrypython.orgLicensed under the terms of the Apache License Version 2.0.  See the LICENSEfile for details.Project details  Project home httpsgitlab.comwarsawpublic  Report bugs at httpsgitlab.comwarsawpublicissues  Code hosting httpsgitlab.comwarsawpublic.git  Documentation httpspublic.readthedocs.io  PyPI httpspypi.python.orgpypiatpublic</longdescription>
+</pkgmetadata>

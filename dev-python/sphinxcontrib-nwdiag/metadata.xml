@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>sphinxcontrib-nwdiag.. image httpstravis-ci.orgblockdiagsphinxcontrib-nwdiag.svgbranchmaster   target httpstravis-ci.orgblockdiagsphinxcontrib-nwdiag.. image httpscoveralls.ioreposblockdiagsphinxcontrib-nwdiagbadge.pngbranchmaster   target httpscoveralls.iorblockdiagsphinxcontrib-nwdiagbranchmaster.. image httpscodeclimate.comgithubblockdiagsphinxcontrib-nwdiagbadgesgpa.svg   target httpscodeclimate.comgithubblockdiagsphinxcontrib-nwdiagA sphinx extension for embedding network related diagrams using nwdiag_.For now, nwdiag supports these diagrams- logical network diagram- rack structure diagram- packet structure diagramThis extension enables you to insert network related diagrams into your document.Following code is an example   .. nwdiag      nwdiag {        network {          web01 web02        }        network {          web01 web02 db01        }      }.. _nwdiag httpbitbucket.orgblockdiagnwdiagFor more details, see online documentation_ at httpblockdiag.com... _online documentation httpblockdiag.comennwdiagsphinxcontrib.html</longdescription>
+</pkgmetadata>

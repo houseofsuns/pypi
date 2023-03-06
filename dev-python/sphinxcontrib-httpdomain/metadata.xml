@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>sphinxcontrib.httpdomain.. image httpsbadge.fury.iopysphinxcontrib-httpdomain.svg   target httpspypi.orgprojectsphinxcontrib-httpdomain   alt Latest PyPI version.. image httpsreadthedocs.orgprojectssphinxcontrib-httpdomainbadge   target httpssphinxcontrib-httpdomain.readthedocs.io   alt Documentation Status.. image httpstravis-ci.orgsphinx-contribhttpdomain.svgbranchmain   alt Build Status   target httpstravis-ci.orgsphinx-contribhttpdomainThis contrib extension, sphinxcontrib.httpdomain, provides a Sphinxdomain for describing HTTP APIs.You can find the documentation from the following URLhttpssphinxcontrib-httpdomain.readthedocs.io</longdescription>
+</pkgmetadata>

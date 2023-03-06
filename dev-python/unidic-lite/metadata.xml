@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[[Current PyPI packages](httpsbadge.fury.iopyunidic-lite.svg)](httpspypi.orgprojectunidic-lite) Unidic LiteThis is a version of [unidic-py](httpsgithub.compolmunidic-py) that isdesigned to be installable with pip alone, not requiring any extra downloads. At the moment it uses Unidic 2.1.2, from 2013, which is the most recent releaseof UniDic thats small enough to be distributed via PyPI.Note this package takes roughly 250MB on disk after being installed.In order to use this you will need to install a MeCab wrapper such as[mecab-python3](httpsgithub.comSamuraiTmecab-python3) or[fugashi](httpsgithub.compolmfugashi).  Differences from the Official UniDic ReleaseThis has a few changes from the official UniDic release to make it easier to use.- entries for  have been added- single-character numeric and alphabetic words have been deleted- unk.def has been modified so unknown punctuation wont be marked as a noun LicenseThis code is licensed under the MIT or WTFPL license, as you prefer. Unidic2.1.2 is copyright the UniDic Consortium and distributed under the terms of the[BSD license](.LICENSE.unidic).</longdescription>
+</pkgmetadata>

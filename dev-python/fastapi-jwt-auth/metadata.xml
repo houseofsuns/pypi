@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>h1 alignleft stylemargin-bottom 20px font-weight 500 font-size 50px color black  FastAPI JWT Authh1[Tests](httpsgithub.comIndominusBytefastapi-jwt-authworkflowsTestsbadge.svg)[[Coverage Status](httpscoveralls.ioreposgithubIndominusBytefastapi-jwt-authbadge.svgbranchmaster)](httpscoveralls.iogithubIndominusBytefastapi-jwt-authbranchmaster)[[PyPI version](httpsbadge.fury.iopyfastapi-jwt-auth.svg)](httpsbadge.fury.iopyfastapi-jwt-auth)[[Downloads](httpsstatic.pepy.techpersonalized-badgefastapi-jwt-authperiodtotalunitsinternational_systemleft_colorgreyright_colorbrightgreenleft_textDownloads)](httpspepy.techprojectfastapi-jwt-auth)---Documentation a hrefhttpsindominusbyte.github.iofastapi-jwt-auth target_blankhttpsindominusbyte.github.iofastapi-jwt-authaSource Code a hrefhttpsgithub.comIndominusBytefastapi-jwt-auth target_blankhttpsgithub.comIndominusBytefastapi-jwt-autha--- FeaturesFastAPI extension that provides JWT Auth support (secure, easy to use and lightweight), if you were familiar with flask-jwt-extended this extension suitable for you, cause this extension inspired by flask-jwt-extended - Access tokens and refresh tokens- Freshness Tokens- Revoking Tokens- Support for WebSocket authorization- Support for adding custom claims to JSON Web Tokens- Storing tokens in cookies and CSRF protection InstallationThe easiest way to start working with this extension with pipbashpip install fastapi-jwt-authIf you want to use asymmetric (publicprivate) key signing algorithms, include the basymmetricb extra requirements.bashpip install fastapi-jwt-auth[asymmetric] LicenseThis project is licensed under the terms of the MIT license.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> A Python package to read and write R RData and Rds filesintofrom pandas data frames. It does not need to have R or other externaldependencies installed.It is based on the C library librdata anda modified version of the cython wrapper jamovi-readstat.brPlease visit out project home page for more informationbrhttpsgithub.comofajardopyreadr</longdescription>
+</pkgmetadata>

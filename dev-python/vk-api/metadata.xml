@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> vk_api [[PyPI](httpsimg.shields.iopypivvk_api.svg)](httpspypi.orgprojectvk_api) [Python 3.x](httpsimg.shields.iopypipyversionsvk_api.svg)vk_api  Python       (vk.com API wrapper) [](httpsvk-api.readthedocs.ioenlatest) [](.examples) [  Telegram](httpst.mepython273_vk_api) [   API](httpsvk.comdevmethods) [ vk_api](httpsgithub.compython273vk_apiissues356) ( )python3 -m pip install vk_apipythonimport vk_apivk_session  vk_api.VkApi(+71234567890, mypassword)vk_session.auth()vk  vk_session.get_api()print(vk.wall.post(messageHello world))</longdescription>
+</pkgmetadata>

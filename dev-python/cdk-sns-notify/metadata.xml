@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[[NPM version](httpsbadge.fury.iojscdk-sns-notify.svg)](httpsbadge.fury.iojscdk-sns-notify)[[PyPI version](httpsbadge.fury.iopycdk-sns-notify.svg)](httpsbadge.fury.iopycdk-sns-notify)[Release](httpsgithub.comclarencetwcdk-sns-notifyworkflowsReleasebadge.svg) cdk-sns-notifyA CDK construct library to send line notify or discord webhook Samplepythonimport  as sns from aws-cdkaws-snsimport  as cloudwatch from aws-cdkaws-cloudwatchimport  as cw_actions from aws-cdkaws-cloudwatch-actionsimport { SnsNotify } from cdk-sns-notifyconst topic  new sns.Topic(stack, Topic)const metric  new cloudwatch.Metric({  namespace AWSEC2,  metricName CPUUtilization,  dimensions {    InstanceId instance.instanceId,  },  period cdk.Duration.minutes(1),})const alarm  new cloudwatch.Alarm(stack, Alarm, {  metric,  threshold 5,  evaluationPeriods 1,})alarm.addAlarmAction(new cw_actions.SnsAction(topic))const snsLineNotify  new SnsNotify(stack, sns-line-notify, {  lineNotifyToken lineNotifyToken,})topic.addSubscription(snsLineNotify.lambdaSubscription) Deployshcdk deploy</longdescription>
+</pkgmetadata>

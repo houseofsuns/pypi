@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Python JSON RPC ServerA Python 3.6+ server implementation of the [JSON RPC 2.0](httpwww.jsonrpc.orgspecification) protocol. This library has been pulled out of the [Python LSP Server](httpsgithub.compython-lsppython-lsp-server) project. Installation    pip install -U python-jsonrpc-server ExamplesThe examples directory contains two examples of running language servers over websockets. exampleslangserver.py shows how to run a language server in-memory. exampleslangserver_ext.py shows how to run a subprocess language server, in this case the Python LSP Server.Start by installing tornado and python-language-server    pip install python-lsp-server[all] tornadoThen running python exampleslangserver.py or python exampleslangserver_ext.py will host a websocket on wslocalhost3000python.</longdescription>
+</pkgmetadata>

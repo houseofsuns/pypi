@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Django Admin Inline PaginatorThe Django Admin Inline Paginator is simple way to paginate your inline in django adminIf you use or like the project, click Star and Watch to generate metrics and i evaluate project continuity. Installpip install django-admin-inline-paginator Usage1. Add to your INSTALLED_APPS, in settings.py      INSTALLED_APPS  [       ...       django_admin_inline_paginator,       ...   ]   2. Create your model inline      from django_admin_inline_paginator.admin import TabularInlinePaginated   class ModelWithFKAdminInline(TabularInlinePaginated)       fields  (...)       per_page  1       model  ModelWithFK   3. Create main model admin and use inline        register(YourModel)    class YourModelAdmin(ModelAdmin)        fields  (...)        inlines  (ModelWithFKAdminInline, )        model  YourModel     Advanced Usage1. Paginate multiples inlines            class ModelWithFKInline(TabularInlinePaginated)    fields  (name, active)    per_page  2    model  ModelWithFK    pagination_key  page-model   make sure its unique for page inline    class AnotherModelWithFKInline(TabularInlinePaginated)    fields  (name, active)    per_page  2    model  AnotherModelWithFK    pagination_key  page-another-model   make sure its unique for page inline    2. Use previous inlines            register(YourModel)    class YourModelAdmin(ModelAdmin)        fields  (...)        inlines  (ModelWithFKAdminInline, AnotherModelWithFKInline)        model  YourModel     Images[image](httpsuser-images.githubusercontent.com3019699298023167-706ca880-1dfe-11eb-89fe-c056741f0d5b.png)</longdescription>
+</pkgmetadata>

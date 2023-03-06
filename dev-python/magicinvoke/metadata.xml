@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>To find out whats new in this version of MagicInvoke, please see the changelogon GitHub for 2.4.6.Welcome to MagicInvokeMagicinvoke is a Python (2.7 and 3.4+) library based onInvoke httppyinvoke.org_.It adds get_params_from_ctx, skippable, and magictask,as well as including a patched version of invoke with support for args and kwargs on tasks,some clearer exceptions, and some minor bugfixes.For docs and to see what magicinvoke has to offer you,see here httpsmagicinvoke.readthedocs.io_.Report issues and help out here httpsgithub.comhaydenflinnermagicinvoke_.For getting started , we recommend you start with invokeand then start mixing in magicinvoke once you feel the needfor a bit more power. See theexamples httpsmagicinvoke.readthedocs.ioenlatestjump-in_page of the magicinvoke doc.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[[Build Status](httpsgithub.comy-crdtypy-websocketworkflowsCIbadge.svg)](httpsgithub.comy-crdtypy-websocketactions)[[Code style black](httpsimg.shields.iobadgecode20style-black-000000.svg)](httpsgithub.compsfblack) ypy-websocketypy-websocket is an async WebSocket connector for Ypy. Usage ClientHere is a code examplepyimport asyncioimport y_py as Yfrom websockets import connectfrom ypy_websocket import WebsocketProviderasync def client()    ydoc  Y.YDoc()    async with connect(wslocalhost1234my-roomname) as websocket        WebsocketProvider(ydoc, websocket)        ymap  ydoc.get_map(map)        with ydoc.begin_transaction() as t            ymap.set(t, key, value)asyncio.run(client()) ServerHere is a code examplepyimport asynciofrom websockets import servefrom ypy_websocket import WebsocketServerasync def server()    websocket_server  WebsocketServer()    async with serve(websocket_server.serve, localhost, 1234)        await asyncio.Future()   run foreverasyncio.run(server()) WebSocket APIThe WebSocket object passed to WebsocketProvider and WebsocketServer.serve must respect thefollowing APIpyclass WebSocket    property    def path(self) - str         can be e.g. the URL path         or a room identifier        return my-roomname    def __aiter__(self)        return self    async def __anext__(self) - bytes         async iterator for receiving messages         until the connection is closed        try            message  await self.recv()        except            raise StopAsyncIteration()        return message    async def send(self, message bytes)         send message        pass    async def recv(self) - bytes         receive message        return b</longdescription>
+</pkgmetadata>

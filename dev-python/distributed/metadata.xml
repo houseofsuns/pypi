@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>DistributedTest Status Longitudinal Report (full) Longitudinal Report (short) Coverage Doc Status Discourse Version Status NumFOCUSA library for distributed computation.  See documentation_ for more details... _documentation httpsdistributed.dask.org.. Test Status image httpsgithub.comdaskdistributedworkflowsTestsbadge.svgbranchmain   target httpsgithub.comdaskdistributedactionsqueryworkflow3ATests+branch3Amain.. Longitudinal Report (full) image httpsgithub.comdaskdistributedworkflowsTest20Reportbadge.svgbranchmain   target httpsdask.github.iodistributedtest_report.html   alt Longitudinal test report (full version).. Longitudinal Report (short) image httpsgithub.comdaskdistributedworkflowsTest20Reportbadge.svgbranchmain   target httpsdask.github.iodistributedtest_short_report.html   alt Longitudinal test report (short version).. Coverage image httpscodecov.ioghdaskdistributedbranchmaingraphbadge.svg   target httpscodecov.ioghdaskdistributedbranchmain   alt Coverage status.. Doc Status image httpsreadthedocs.orgprojectsdistributedbadgeversionlatest   target httpsdistributed.dask.org   alt Documentation Status.. Discourse image httpsimg.shields.iodiscourseuserslogodiscourseserverhttps3A2F2Fdask.discourse.group   alt Discuss Dask-related things and ask for help   target httpsdask.discourse.group.. Version Status image httpsimg.shields.iopypivdistributed.svg   target httpspypi.python.orgpypidistributed.. NumFOCUS image httpsimg.shields.iobadgepowered20by-NumFOCUS-orange.svgstyleflatcolorAE1523DcolorB007D8A   target httpswww.numfocus.org</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>hdf5plugin.. image httpszenodo.orgbadgeDOI10.5281zenodo.7257761.svg   target httpsdoi.org10.5281zenodo.7257761hdf5plugin provides HDF5 compression filters httpsportal.hdfgroup.orgdisplaysupportRegistered+Filter+Plugins_ (namely Blosc, Blosc2, BitShuffle, BZip2, FciDecomp, LZ4, SZ, SZ3, Zfp, ZStd) and makes them usable from h5py httpswww.h5py.org_.See documentation httpwww.silx.orgdochdf5pluginlatest_.Installation------------To install, run     pip install hdf5plugin [--user]     or, with conda (httpsanaconda.orgconda-forgehdf5plugin)    conda install -c conda-forge hdf5pluginTo install from source and recompile the HDF5 plugins, run     pip install hdf5plugin --no-binary hdf5plugin [--user]Installing from source can achieve better performances by enabling AVX2 and OpenMP if available.For more details, see the installation documentation httpwww.silx.orgdochdf5pluginlatestinstall.html_.How-to use----------To use it, just use import hdf5plugin and supported compression filters are available from h5py httpswww.h5py.org_.For details, see Usage documentation httpwww.silx.orgdochdf5pluginlatestusage.html_.License-------The source code of hdf5plugin itself is licensed under the MIT license LICENSE_.Embedded HDF5 compression filters are licensed under different open-source licensessee the license documentation httpwww.silx.orgdochdf5pluginlatestinformation.htmllicense_.</longdescription>
+</pkgmetadata>

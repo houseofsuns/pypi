@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> jina-hubble-sdkimg altPyPI srchttpsimg.shields.iopypivjina-hubble-sdkimg srchttpscodecov.ioghjina-aijina-hubble-sdkbranchmaingraphbadge.svgtokenSttz9HTmDq Installshellpip install jina-hubble-sdkshellconda install jina-hubble-sdk -c conda-forge Core functionality Python API and CLI. Authentication and token management. Artifact management. [Documentation](httpsdocs.jina.aijina-ai-cloudlogin)-- start support-pitch -- Support- Join our [Slack community](httpsslack.jina.ai) and chat with other Jina community members about ideas.- Join our [Engineering All Hands](httpsyoutube.complaylistlistPL3UBBWOUVhFYRUa_gpYYKBqEAkO4sxmne) meet-up to discuss your use case and learn Jinas new features.    - When The second Tuesday of every month    - Where      Zoom ([see our public events calendar](httpscalendar.google.comcalendarembedsrcc_1t5ogfp2d45v8fit981j08mcm440group.calendar.google.comctzEurope2FBerlin)[.ical](httpscalendar.google.comcalendaricalc_1t5ogfp2d45v8fit981j08mcm440group.calendar.google.compublicbasic.ics))      and [live stream on YouTube](httpsyoutube.comcjina-ai)- Subscribe to the latest video tutorials on our [YouTube channel](httpsyoutube.comcjina-ai) Join UsHubble Python SDK is backed by [Jina AI](httpsjina.ai) and licensed under [Apache-2.0](.LICENSE). [We are actively hiring](httpsjobs.jina.ai) AI engineers, solution engineers to build the next neural search ecosystem in opensource.-- end support-pitch --</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> requests-raw[[PyPI version](httpsimg.shields.iopypivrequests-raw)](httpspypi.orgprojectrequests-raw)[[Downloads](httpspepy.techbadgerequests-raw)](httpspepy.techprojectrequests-raw)[PyPI - Python Version](httpsimg.shields.iopypipyversionsrequests-raw)  Use [requests](httpsrequests.readthedocs.io) to send HTTP raw sockets (To Test RFC Compliance) Usage Explicitpythonimport jsonimport requests_rawres  requests_raw.raw(urlhttphttpbin.org, databGET get HTTP1.1rnHost httpbin.orgrnrn)res_json  res.json()print(json.dumps(res_json, indent2)) Implicit (monkey patch)pythonimport jsonimport requestsimport requests_rawrequests_raw.monkey_patch_all()session  requests.Session()res  session.raw(urlhttpshttpbin.org, databGET cookiessetnamevalue HTTP1.1rnHost httpbin.orgrnrn)res_json  res.json()print(json.dumps(res_json, indent2)) Installation Prerequisites Python 2.7 Python 3.5+shpip3 install requests-raw</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>a hrefhttpsexplosion.aiimg srchttpsexplosion.aiassetsimglogo.svg width125 height125 alignright a Cython bindings for MurmurHash2[[Azure Pipelines](httpsimg.shields.ioazure-devopsbuildexplosion-aipublic5master.svglogoazure-pipelinesstyleflat-square)](httpsdev.azure.comexplosion-aipublic_builddefinitionId5)[[pypi Version](httpsimg.shields.iopypivmurmurhash.svgstyleflat-squarelogopypilogoColorwhite)](httpspypi.python.orgpypimurmurhash)[[conda Version](httpsimg.shields.iocondavnconda-forgemurmurhash.svgstyleflat-squarelogoconda-forgelogoColorwhite)](httpsanaconda.orgconda-forgemurmurhash)[[Python wheels](httpsimg.shields.iobadgewheels-E29C93-4c1.svglongCachetruestyleflat-squarelogopythonlogoColorwhite)](httpsgithub.comexplosionwheelwrightreleases)</longdescription>
+</pkgmetadata>

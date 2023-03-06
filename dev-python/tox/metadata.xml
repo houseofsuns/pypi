@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> tox[[PyPI](httpsimg.shields.iopypivtox)](httpspypi.orgprojecttox)[[Supported Pythonversions](httpsimg.shields.iopypipyversionstox.svg)](httpspypi.orgprojecttox)[[Downloads](httpspepy.techbadgetoxmonth)](httpspepy.techprojecttox)[[Documentationstatus](httpsreadthedocs.orgprojectstoxbadgeversionlatest)](httpstox.readthedocs.ioenlatestbadgelatest)[[check](httpsgithub.comtox-devtoxactionsworkflowscheck.ymlbadge.svg)](httpsgithub.comtox-devtoxactionsworkflowscheck.yml)tox aims to automate and standardize testing in Python. It is part of a larger vision of easing the packaging, testingand release process of Python software (alongside [pytest](httpsdocs.pytest.orgenlatest) and[devpi](httpswww.devpi.net)).tox is a generic virtual environment management and test command line tool you can use for- checking your package builds and installs correctly under different environments (such as different Python  implementations, versions or installation dependencies),- running your tests in each of the environments with the test tool of choice,- acting as a frontend to continuous integration servers, greatly reducing boilerplate and merging CI and shell-based  testing.Please read our [user guide](httpstox.wikienlatestuser_guide.htmlbasic-example) for an example and more detailedintroduction, or watch [this YouTube video](httpswww.youtube.comwatchvSFqna5ilqig) that presents the problem spaceand how tox solves it.</longdescription>
+</pkgmetadata>

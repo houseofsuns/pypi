@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>vokativ Oslovte sv uivatele sprvnInstalace     pip install vokativPodporovan verze Pythonu 2.6, 2.7, 3.x.Pouit from vokativ import vokativ vokativ(Petr)upete vokativ(uNovk)unovku vokativ(Adriana)uadriano vokativ(uFialov)ufialovFunkce vokativ() bere jako prvn argument vlastn jmno v 1. pdu jednotnho sla a vrt ho vyskloovan v 5. pdu.Nvratov hodnota funkce je vdy etzec s malmi psmeny typu unicode.Upozorujeme, e funkce nemus fungovat sprvn pro jmna cizho pvodu. Dal voliteln argumenty jsou womanPouijte True, pokud si pejete zadan jmno skloovat jako ensk.Pouijte False, pokud si pejete zadan jmno skloovat jako musk.Ve vchozm ppad je pohlav detekovno automaticky. vokativ(Michel)   automaticky sklouje jako musk jmnoumicheli vokativ(Michel, womanFalse)umicheli vokativ(Michel, womanTrue)umichel last_namePouijte True, pokud si pejete zadan jmno skloovat jako pjmen.Pouijte False, pokus si pejete zadan jmno skloovat jako kestn jmno.Ve vchozm ppad je typ jmna detekovn automaticky.Hodnota tohoto parametru ovlivuje pouze skloovn enskch jmen. vokativ(Ivanova)   automaticky sklouje jako pjmenuivanova vokativ(Ivanova, last_nameTrue)uivanova vokativ(Ivanova, last_nameFalse)uivanovoAutomatick detekce pohlavKnihovna vokativ poskytuje taky jednoduchou funkci na detekci pohlav podle kestnho jmna i pjmen.Pro etnosti jmen v R podle [statistickho adu](httpwww.mvcr.czclanekcetnost-jmen-a-prijmeni-722752.aspx)funkce funguje sprvn v 99.7 ppad. from vokativ import sex sex(Michal)m sex(Novk)m sex(Tereza)w sex(uNovkov)w</longdescription>
+</pkgmetadata>

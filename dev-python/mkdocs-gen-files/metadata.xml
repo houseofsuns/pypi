@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> mkdocs-gen-files[Plugin][] for [MkDocs][] to programmatically generate documentation pages during the build[[PyPI](httpsimg.shields.iopypivmkdocs-gen-files)](httpspypi.orgprojectmkdocs-gen-files)[[GitHub](httpsimg.shields.iogithublicenseoprypinmkdocs-gen-files)](httpsgithub.comoprypinmkdocs-gen-filesblobmasterLICENSE.md)[[GitHub Workflow Status](httpsimg.shields.iogithubworkflowstatusoprypinmkdocs-gen-filesCI)](httpsgithub.comoprypinmkdocs-gen-filesactionsqueryevent3Apush+branch3Amaster)shellpip install mkdocs-gen-filesContinue to the [documentation site][].[mkdocs] httpswww.mkdocs.org[plugin] httpswww.mkdocs.orguser-guideplugins[documentation site] httpsoprypin.github.iomkdocs-gen-files UsageActivate the plugin in mkdocs.yml (scripts is a required list of Python scripts to execute, always relative to mkdocs.yml)yamlplugins  - search  - gen-files      scripts        - gen_pages.py   or any other name or pathThen create such a script gen_pages.py (this is relative to the root, not to the docs directory).pythonimport mkdocs_gen_fileswith mkdocs_gen_files.open(foo.md, w) as f    print(Hello, world, filef)This added a programmatically generated page to our site. That is, the document doesnt actually appear in our source files, it only virtually becomes part of the site to be built by MkDocs.Continue to the [documentation site][].</longdescription>
+</pkgmetadata>

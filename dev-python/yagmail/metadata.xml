@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>yagmail - Yet another GMAIL  SMTP clientyagmail is a GMAILSMTP client that aims tomake it as simple as possible to send emails.Sending an Email is as simple.. code-block python    import yagmail    yag  yagmail.SMTP()    contents  [        This is the body, and here is just text httpsomedomainimage.png,        You can find an audio file attached., localpathtosong.mp3    ]    yag.send(tosomeone.com, subject, contents)     Alternatively, with a simple one-liner    yagmail.SMTP(mygmailusername).send(tosomeone.com, subject, contents)Note that yagmail will read the password securely fromyour keyring, see the section onUsername and Password in the repositorys READMEhttpsgithub.comkootenpvyagmailusername-and-password_for further details. If you do not want this, you caninitialize yagmail.SMTP like this.. code-block python    yag  yagmail.SMTP(mygmailusername, mygmailpassword)but honestly, do you want to have yourpassword written in your scriptFor further documentation and examples,please go to httpsgithub.comkootenpvyagmail.The full documentation is available athttpyagmail.readthedocs.ioenlatest.</longdescription>
+</pkgmetadata>

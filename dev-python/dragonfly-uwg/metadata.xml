@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[Dragonfly](httpswww.ladybug.toolsassetsimgdragonfly.png)[[Build Status](httpsgithub.comladybug-toolsdragonfly-uwgworkflowsCIbadge.svg)](httpsgithub.comladybug-toolsdragonfly-uwgactions)[[Coverage Status](httpscoveralls.ioreposgithubladybug-toolsdragonfly-uwgbadge.svgbranchmaster)](httpscoveralls.iogithubladybug-toolsdragonfly-uwg)[[Python 3.7](httpsimg.shields.iobadgepython-3.7-blue.svg)](httpswww.python.orgdownloadsreleasepython-360) [[Python 2.7](httpsimg.shields.iobadgepython-2.7-green.svg)](httpswww.python.orgdownloadsreleasepython-270) [[IronPython](httpsimg.shields.iobadgeironpython-2.7-red.svg)](httpsgithub.comIronLanguagesironpython2releasestagipy-2.7.8) dragonfly-uwgDragonfly extension for urban heat island modeling with the UWG.Dragonfly-uwg uses the [Urban Weather Generator (uwg)](httpsgithub.comladybug-toolsuwg) to morph EPW files to account for the [urban heat island effect](httpsen.wikipedia.orgwikiUrban_heat_island). Installationpip install -U dragonfly-uwg QuickStartconsoleimport dragonfly_uwg [API Documentation](httpladybug-tools.github.iodragonfly-uwgdocs) Local Development1. Clone this repo locallyconsolegit clone gitgithub.comladybug-toolsdragonfly-uwg orgit clone httpsgithub.comladybug-toolsdragonfly-uwg2. Install dependenciescd dragonfly-uwgpip install -r dev-requirements.txtpip install -r requirements.txt3. Run Testsconsolepython -m pytest tests4. Generate Documentationconsolesphinx-apidoc -f -e -d 4 -o .docs .dragonfly_uwgsphinx-build -b html .docs .docs_builddocs</longdescription>
+</pkgmetadata>

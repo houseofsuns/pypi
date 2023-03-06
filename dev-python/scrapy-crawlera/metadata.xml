@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>scrapy-crawlera.. image httpsimg.shields.iopypivscrapy-crawlera.svg   target httpspypi.python.orgpypiscrapy-crawlera   alt PyPI Version.. image httpstravis-ci.orgscrapy-pluginsscrapy-crawlera.svgbranchmaster   target httptravis-ci.orgscrapy-pluginsscrapy-crawlera   alt Build Status.. image httpcodecov.iogithubscrapy-pluginsscrapy-crawleracoverage.svgbranchmaster   target httpcodecov.iogithubscrapy-pluginsscrapy-crawlerabranchmaster   alt Code Coveragescrapy-crawlera provides easy use of Crawlera httpscrapinghub.comcrawlera_ with Scrapy.Requirements Python 2.7 or Python 3.4+ ScrapyInstallationYou can install scrapy-crawlera using pip    pip install scrapy-crawleraDocumentationDocumentation is available online at httpsscrapy-crawlera.readthedocs.io and in the docs directory.</longdescription>
+</pkgmetadata>

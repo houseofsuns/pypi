@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[[Actions Status](httpsgithub.compulumipulumi-dockerworkflowsmasterbadge.svg)](httpsgithub.compulumipulumi-dockeractions)[[Slack](httpwww.pulumi.comimagesdocsbadgesslack.svg)](httpsslack.pulumi.com)[[NPM version](httpsbadge.fury.iojs40pulumi2Fdocker.svg)](httpswww.npmjs.compackagepulumidocker)[[Python version](httpsbadge.fury.iopypulumi-docker.svg)](httpspypi.orgprojectpulumi-docker)[[NuGet version](httpsbadge.fury.ionupulumi.docker.svg)](httpsbadge.fury.ionupulumi.docker)[[PkgGoDev](httpspkg.go.devbadgegithub.compulumipulumi-dockersdkv3go)](httpspkg.go.devgithub.compulumipulumi-dockersdkv3go)[[License](httpsimg.shields.ionpml40pulumi2Fpulumi.svg)](httpsgithub.compulumipulumi-dockerblobmasterLICENSE) Docker Resource ProviderThe Docker resource provider for Pulumi lets you manage Docker resources in your cloud programs. To usethis package, please [install the Pulumi CLI first](httpspulumi.io). InstallingThis package is available in many languages in the standard packaging formats. Node.js (JavaTypeScript)To use from JavaScript or TypeScript in Node.js, install using either npm     npm install pulumidockeror yarn     yarn add pulumidocker PythonTo use from Python, install using pip     pip install pulumi_docker GoTo use from Go, use go get to grab the latest version of the library     go get github.compulumipulumi-dockersdkv3 .NETTo use from .NET, install using dotnet add package     dotnet add package Pulumi.Docker ReferenceFor further information, please visit [the Docker provider docs](httpswww.pulumi.comdocsintrocloud-providersdocker) or for detailed reference documentation, please visit [the API docs](httpswww.pulumi.comdocsreferencepkgdocker).</longdescription>
+</pkgmetadata>

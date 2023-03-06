@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Documentation License GitHub issuesPlugin for gcdtauthor glomex SRE Team gcdt httpsgithub.comglomexgcdtFeatures include-  bundle artifacts (zip file) for tenkai and ramudaRunning tests-------------Please make sure to have good test coverage for your plugin so we canalways make sure your plugin runs with the upcoming gcdt version.Run tests like so.. code bash     python -m pytest -vv --cov-report term-missing teststest_License-------Copyright (c) 2017 glomex and others. gcdt and plugins are releasedunder the MIT License (see LICENSE)... Documentation image httpsreadthedocs.orgprojectsbeedobadgeversionlatest   target httpgcdt.readthedocs.ioenlatest.. License image httpimg.shields.iobadgelicense-MIT-yellowgreen.svg   target LICENSE.. GitHub issues image httpsimg.shields.iogithubissuesglomexglomex-cloud-deployment-tools.svgmaxAge2592000   target httpsgithub.comglomexglomex-cloud-deployment-toolsissues</longdescription>
+</pkgmetadata>

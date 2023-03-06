@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Storage-pyPython Client library to interact with Supabase Storage. How to useAs it takes some effort to get the headers. We suggest that you use the storage functionality through the main [Supabase Python Client](httpsgithub.comsupabase-communitysupabase-py)python3from storage3 import create_clienturl  httpsyour_supabase_id.supabase.costoragev1key  your api keyheaders  {apiKey key, Authorization fBearer {key}} pass in is_asyncTrue to create an async clientstorage_client  create_client(url, headers, is_asyncFalse)storage_client.list_buckets()</longdescription>
+</pkgmetadata>

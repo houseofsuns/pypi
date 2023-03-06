@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Simple Rest ClientGithub Actions Status----Simple REST client for python 3.7+.How to install--------------.. code shell    pip install simple-rest-clientDocumentation--------------Check out documentation at Read the Docs_ website... _Read the Docs httpspython-simple-rest-client.readthedocs.ioenlatestProjects using--------------- python-vindi_- sentry-patrol_.. _python-vindi httpsgithub.comallissonpython-vindi.. _sentry-patrol httpsgithub.comdaneoshigasentry-patrol.. Github Actions Status image httpsgithub.comallissonpython-simple-rest-clientworkflowsmain-workflowbadge.svg   target httpsgithub.comallissonpython-simple-rest-clientactions</longdescription>
+</pkgmetadata>

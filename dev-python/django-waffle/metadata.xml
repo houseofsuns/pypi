@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>READMEDjango Waffle is (yet another) feature flipper for Django. You candefine the conditions for which a flag should be active, and use it ina number of ways... image httpsgithub.comdjango-waffledjango-waffleworkflowsPython20packagebadge.svgbranchmaster   target httpsgithub.comdjango-waffledjango-waffleactions   alt Build Status.. image httpsbadge.fury.iopydjango-waffle.svg   target httpsbadge.fury.iopydjango-waffle   alt PyPI status badgeCode          httpsgithub.comdjango-waffledjango-waffleLicense       BSD see LICENSE fileIssues        httpsgithub.comdjango-waffledjango-waffleissuesDocumentation httpswaffle.readthedocs.io</longdescription>
+</pkgmetadata>

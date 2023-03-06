@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[[codecov](httpscodecov.ioghviralogicpy-enumerablebranchmastergraphbadge.svgtokenu72ojmMvEn)](httpscodecov.ioghviralogicpy-enumerable) py-linq LINQ (Language Integrated Query) is a popular querying language available in .NET. This library ports the language sothat developers can query collections of objects using the same syntax. This library would be useful for Python developerswith experience using the expressiveness and power of LINQ. Install Available as a package from PyPI.bashpip install py-linq UsageTo access the LINQ functions an iterable needs to be wrapped by the Enumerablepythonfrom py_linq import Enumerablemy_collection  Enumerable([1, 2, 3]) Documentation Please visit the project [site](httpsviralogic.github.iopy-enumerable) for better documentation Contributing Contributions are welcomed. This project uses [poetry](httpspython-poetry.orgdocs) to handle the few library dependencies. [Pre-commit](httpspre-commit.com) is also used so that formatting and linting checks are performed on commit.1. Clone the repository using git clone httpsgithub.comviralogicpy-enumerable.git2. Install poetry globally as per the instructions [here](httpspython-poetry.orgdocs)3. CD into the root of your cloned repository directory and poetry install to install all packages from the repository Pipfile.4. Install pre-commit by typing poetry run pre-commit install5. You should now be ready to start coding</longdescription>
+</pkgmetadata>

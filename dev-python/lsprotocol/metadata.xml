@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Language Server Protocol Types implementation for Pythonlsprotocol is a python implementation of object types used in the Language Server Protocol (LSP). This repository contains the code generator and the generated types for LSP. OverviewLSP is used by editors to communicate with various tools to enables services like code completion, documentation on hover, formatting, code analysis, etc. The intent of this library is to allow you to build on top of the types used by LSP. This repository will be kept up to date with the latest version of LSP as it is updated. Installationpython -m pip install lsprotocol Usage Using LSP typespythonfrom lsprotocol import typesposition  types.Position(line10, character3) Using built-in type converterspython test.pyimport jsonfrom lsprotocol import converters, typesposition  types.Position(line10, character3)converter  converters.get_converter()print(json.dumps(converter.unstructure(position, unstructure_astypes.Position)))Outputconsole python test.py{line 10, character 3}</longdescription>
+</pkgmetadata>

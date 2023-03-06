@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>ETOS Library.. image httpsimg.shields.iobadgeStage-Sandbox-yellow.svg  target httpsgithub.comeiffel-communitycommunityblobmasterPROJECT_LIFECYCLE.mdstage-sandboxETOS (Eiffel Test Orchestration System) LibraryDescriptionA collection of common tools and code used throughout the whole ETOS project.Installation   pip install etos_libContribute- Issue Tracker httpsgithub.comeiffel-communityetosissues- Source Code httpsgithub.comeiffel-communityetos-librarySupportIf you are having issues, please let us know.There is a mailing list at etos-maintainersgooglegroups.com or just write an Issue.</longdescription>
+</pkgmetadata>

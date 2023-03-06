@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Pygerrit2 - Client library for interacting with Gerrit Code Reviews REST API.. image httpsimg.shields.iopypivpygerrit2.svg.. image httpsimg.shields.iopypilpygerrit2.svg.. image httpstravis-ci.orgdpursehousepygerrit2.svgbranchmaster.. image httpsapi.dependabot.combadgesstatushostgithubrepodpursehousepygerrit2.. image httpsimg.shields.iobadgecode20style-black-000000.svgPygerrit2 provides a simple interface for clients to interact withGerrit Code Review_ via the REST API.Copyright and License---------------------Copyright 2011 Sony Ericsson Mobile Communications. All rights reserved.Copyright 2012 Sony Mobile Communications. All rights reserved.Copyright 2016 David Pursehouse. All rights reserved.Licensed under The MIT License.  Please refer to the LICENSE_ file for fulllicense details... _Gerrit Code Review httpsgerritcodereview.com.. _LICENSE httpsgithub.comdpursehousepygerrit2blobmasterLICENSE</longdescription>
+</pkgmetadata>

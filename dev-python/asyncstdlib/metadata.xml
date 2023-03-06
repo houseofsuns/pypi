@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>asyncstdlib -- the missing async toolbox.. image httpsreadthedocs.orgprojectsasyncstdlibbadgeversionlatest    target httpasyncstdlib.readthedocs.ioenlatestbadgelatest    alt Documentation Status.. image httpsimg.shields.iopypivasyncstdlib.svg    alt Available on PyPI    target httpspypi.python.orgpypiasyncstdlib.. image httpsanaconda.orgconda-forgeasyncstdlibbadgesversion.svg    alt Available on Conda-Forge    target httpsanaconda.orgconda-forgeasyncstdlib.. image httpsimg.shields.iogithublicensemaxfischer2781asyncstdlib.svg    alt License    target httpsgithub.commaxfischer2781asyncstdlibblobmasterLICENSE.. image httpsbadges.gitter.immaxfischer2781asyncstdlib.svg    target httpsgitter.immaxfischer2781asyncstdlibutm_sourcebadgeutm_mediumbadgeutm_campaignpr-badgeutm_contentbadge    alt Development ChatThe asyncstdlib library re-implements functions and classes of the Pythonstandard library to make them compatible with async callables, iterablesand context managers.It is fully agnostic to async event loops and seamlessly works withasyncio, third-party libraries such as trio, as well asany custom async event loop. Full set of async versions of advantageous standard library helpers,  such as zip, map, enumerate, functools.reduce,  itertools.tee, itertools.groupby and many others. Safe handling of async iterators to ensure prompt cleanup, as well as  various helpers to simplify safely using custom async iterators. Small but powerful toolset to seamlessly integrate existing sync code  into async programs and libraries.Check out the documentation_ to get started or take a look around... _documentation httpasyncstdlib.readthedocs.io</longdescription>
+</pkgmetadata>

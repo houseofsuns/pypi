@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> borsh-construct[[Tests](httpsgithub.comnearborsh-construct-pyworkflowsTestsbadge.svg)](httpsgithub.comnearborsh-construct-pyactionsworkflowTests)[[Docs](httpsgithub.comnearborsh-construct-pyworkflowsDocsbadge.svg)](httpsnear.github.ioborsh-construct-py)borsh-construct is an implementation of the [Borsh](httpsborsh.io) binary serialization format for Python projects.Borsh stands for Binary Object Representation Serializer for Hashing. It is meant to be used in security-critical projects as it prioritizes consistency, safety, speed, and comes with a strict specification.Read the [Documentation](httpsnear.github.ioborsh-construct-py). Installationshpip install borsh-construct Development Setup1. Install [poetry](httpspython-poetry.orgdocsinstallation)2. Install dev dependenciesshpoetry install3. Install [nox-poetry](httpsgithub.comcjolowicznox-poetry) (note do not use Poetry to install this, see [here](httpsmedium.comcjolowicznox-is-a-part-of-your-global-developer-environment-like-poetry-pre-commit-pyenv-or-pipx-1cdeba9198bd))4. Activate the poetry shellshpoetry shell Quick Testsshpytest Full Testsshnox</longdescription>
+</pkgmetadata>

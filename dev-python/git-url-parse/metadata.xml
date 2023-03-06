@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image httpimg.shields.iotravisretr0hgit-url-parse.svgstylepopout-squarelogotravis  target httpstravis-ci.orgretr0hgit-url-parse.. image httpsimg.shields.iocodecovcgithubretr0hgit-url-parse.svgstylepopout-squarelogocodecov  target httpscodecov.ioghretr0hgit-url-parse.. image httpsimg.shields.iopypivgit-url-parse.svgstylepopout-squarelogopython  target httpspypi.orgprojectgit-url-parse.. image httpsimg.shields.ioreadthedocsgit-url-parse.svgstylepopout-squarelogoRead20the20Docs  target httpsgit-url-parse.readthedocs.ioenlatestgiturlparseA simple GIT URL parser similar to giturlparse.py_... _giturlparse.py httpsgithub.comFriendCodegiturlparse.pyDocumentationhttpsgit-url-parse.readthedocs.ioLicenseMIT</longdescription>
+</pkgmetadata>

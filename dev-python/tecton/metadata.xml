@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Tecton [General Documentation](httpsdocs.tecton.ai) [API Reference](httpsdocs.tecton.aiapi-reference0.5index.html) LicenseCopyright (2022) Tecton, Inc. This library (the Software) may not be used except in connection with the Licensees useof the Tecton Platform Services (defined below) pursuant to an Agreement (defined below) between Licensee (definedbelow) and Tecton, Inc. (Tecton). This Software shall be deemed part of the Services under the Agreement, or if theAgreement does not define Services, then the term in such Agreement that refers to the applicable Tecton PlatformServices (as defined below) shall be substituted herein for Services. Licensees use of the Software must comply atall times with any restrictions applicable to the Services, generally, and must be used in accordance with anyapplicable documentation. If you have not agreed to an Agreement or otherwise do not agree to these terms, you may notuse the Software. This license terminates automatically upon the termination of the Agreement or Licensees breach ofthese terms. Agreement the agreement between Tecton and Licensee governing the use of the Tecton Platform Services,which shall be, with respect to Tecton, the Tecton Platform-as-a-Service Agreement locatedat httpswww.tecton.aitecton_online-tos, unless Licensee has entered into a separate written agreement with Tectongoverning the use of the Tecton Platform Services. Tecton Platform Services the Tecton services according to where theSoftware is used. Licensee the user of the Software, or, if the Software is being used on behalf of a company, thecompany.</longdescription>
+</pkgmetadata>

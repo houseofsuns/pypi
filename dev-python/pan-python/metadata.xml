@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pan-pythonpan-python is a Python package for Palo Alto NetworksNext-Generation Firewalls, WildFire and AutoFocus.  It providesseveral components- Python and command line interface to the PAN-OS and Panorama XML API- Command line program for managing PAN-OS XML configurations- Python and command line interface to the WildFire API- Python and command line interface to the AutoFocus API- Python and command line interface to the PAN-OS licensing APIDocumentation-------------- Rendered reStructuredText from GitHub  httpsgithub.comkevinstevespan-pythontreemasterdoc- HTML from source distribution  doc.htmlInstall-------pan-python is available as arelease httpsgithub.comkevinstevespan-pythonreleases_on GitHub and as apackage httpspypi.orgprojectpan-python_on PyPi.There are no external modules required to use pan-python.</longdescription>
+</pkgmetadata>

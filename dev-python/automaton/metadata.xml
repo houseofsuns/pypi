@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Automaton.. image httpsimg.shields.iopypivautomaton.svg    target httpspypi.orgprojectautomaton    alt Latest Version.. image httpsimg.shields.iopypidmautomaton.svg    target httpspypi.orgprojectautomaton    alt DownloadsFriendly state machines for python. The goal of this library is to providewell documented state machine classes and associated utilities. The statemachine pattern (or the implemented variation there-of) is a commonlyused pattern and has a multitude of various usages. Some of the usagesfor this library include providing state  transition validation andrunningschedulinganalyzing the execution of tasks. Free software Apache license Documentation httpsdocs.openstack.orgautomatonlatest Source httpsopendev.orgopenstackautomaton Bugs httpsbugs.launchpad.netautomaton</longdescription>
+</pkgmetadata>

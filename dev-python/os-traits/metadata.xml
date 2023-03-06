@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>os-traitsos-traits is an OpenStack library containing standardized trait strings.Traits are strings that represent a feature of a resource provider hosted bythe Placement_ service. This library contains the catalog of constants thathave been standardized in the OpenStack community to refer to a particularhardware, virtualization, storage, network, or device trait. Free software Apache license Documentation httpsdocs.openstack.orgos-traitslatest Source httpopendev.orgopenstackos-traits Bugs httpsstoryboard.openstack.orgprojectopenstackos-traits Release Notes httpsdocs.openstack.orgreleasenotesos-traits.. _Placement httpsdocs.openstack.orgplacementlatest</longdescription>
+</pkgmetadata>

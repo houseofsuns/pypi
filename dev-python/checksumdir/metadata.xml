@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Checksumdirbadge1 badge2.. badge1 image httpsimg.shields.iopypidmchecksumdir       alt PyPI - Downloads    target httpspypi.orgprojectchecksumdir.. badge2 image httpsbadge.fury.iopychecksumdir.svg    target httpspypi.orgprojectchecksumdirA simple module for creating a single hash for a directory of files, with file contentsignoring any metadata such as file name.  Options exist to also exclude specific filesor files with specific extensions.Usage.. code-block python    from checksumdir import dirhash    directory   pathtodirectory    md5hash     dirhash(directory, md5)    sha1hash    dirhash(directory, sha1, excluded_files[package.json])    sha256hash  dirhash(directory, sha256, excluded_extensions[pyc])Or to use the CLI.. code-block bash     Defaults to md5.     checksumdir pathtodirectory     Create sha1 hash     checksumdir -a sha1 pathtodirectory     Exclude files     checksumdir -e files pathtodirectory     Exclude files with specific extensions     checksumdir -x extensions pathtodirectory     Follow soft links     checksumdir --follow-links pathtodirectory</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>A simple to use, highly customizable, Interactive Session and Paginator for discord.py.Still in early stages and undergoing rapid production. Feel free to suggest something via Discord.Support---------------------------For support using Buttons, please join the official support serverhttpdiscord.ggRAKc3HF_ on Discord httpsdiscordapp.com_.Discord.. Discord image httpsimg.shields.iodiscord490948346773635102color237289DAlabelPythonistalogodiscordlogoColorwhite   target httpsdiscord.ggRAKc3HFInstallation---------------------------Buttons requires Python 3.6 or higher.Windows.. code sh    py -version -m pip install buttonsLinux.. code sh    python3 -m pip install buttonsGetting Started----------------------------A quick and easy paginator example.. code py3    from discord.ext import commands    from discord.ext import buttons    class MyPaginator(buttons.Paginator)        def __init__(self, args, kwargs)            super().__init__(args, kwargs)        buttons.button(emojiu23FA)        async def record_button(self, ctx, member)            await ctx.send(This button sends a silly message But could be programmed to do much more.)        buttons.button(emojimy_custom_emoji1234567890)        async def silly_button(self, ctx, member)            await ctx.send(Beep boop...)    bot  commands.Bot(command_prefix)    bot.command()    async def test(ctx)        pagey  MyPaginator(titleSilly Paginator, colour0xc67862, embedTrue, timeout90, use_defaultsTrue,                            entries[1, 2, 3], length1, format)        await pagey.start(ctx)    bot.event    async def on_ready()        print(Ready)    bot.run(TOKEN)</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Django-JSONEditorDjango-JSONEditor is an online structured JSON input widget for Django appropriate for various JSONFields provided for Django.Code of the javascript JSONEditor online editor has been got from the httpjsoneditoronline.org.See the latest versions of the javascript online JSON Editor here httpsgithub.comjosdejongjsoneditorSample views.. image httpsraw.github.comjosdejongjsoneditormastermiscjsoneditor.pngInstallation------------Latest version from the GIT repository    pip install git+gitgithub.comnnsevadjango-jsoneditor.gitStable version from the PyPi repository    pip install django-jsoneditorSee all details on httpsgithub.comnnsevadjango-jsoneditor</longdescription>
+</pkgmetadata>

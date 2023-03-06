@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Crayons Text UI colors for Python... image httpsimg.shields.iopypivcrayons.svg    target httpspypi.orgprojectcrayons.. image httpsgithub.comMasterOdincrayonsworkflowsTestbadge.svg    target httpsgithub.comMasterOdincrayonsactionsqueryworkflow3ATest+branch3Amaster.. image httpsimg.shields.iopypilcrayons.svg    target httpspypi.python.orgpypicrayons.. image httpsimg.shields.iopypiwheelcrayons.svg    target httpspypi.python.orgpypicrayons.. image httpsimg.shields.iopypipyversionscrayons.svg    target httpspypi.python.orgpypicrayonsThis module is really simple, it gives you colored strings for terminalusage. Included colors are red, green, yellow, blue, black, magenta, cyan, white, andnormal (as well as clean and disable).Crayons is nice because it automatically wraps a given string in both the foreground color, as well as returning to theoriginal state after the string is complete. Most terminal color libraries make you manage this yourself... image httpsd3vv6lp55qjaqc.cloudfront.netitems3q0I293q1z293R3a3a3nScreen20Shot202017-01-2320at206.00.0220PM.pngX-CloudApp-Visitor-Id2577Arguments include alwaysTrue and boldTrue.Features--------- If you call disable(), all future calls to colors will be ignored.- If you call normal(), color is reset to default foreground color- If the current process is not in a TTY (e.g. being piped), no colors will be displayed.- Length of ColoredStrings can be properly calculated.- Powered by colorama.Usage is simple---------------     red is red, white is white.     print({} white.format(crayons.red(red)))    red whiteThats itInstallation------------     pip install crayons</longdescription>
+</pkgmetadata>

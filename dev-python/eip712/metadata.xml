@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Quick StartMessage classes for typed structured data hashing and signing in Ethereum.See [EIP-712](httpseips.ethereum.orgEIPSeip-712) for details. Dependencies- [python3](httpswww.python.orgdownloads) version 3.7.2 or greater, python3-dev Installation via pipYou can install the latest release via [pip](httpspypi.orgprojectpip)bashpip install eip712 via setuptoolsYou can clone the repository and use [setuptools](httpsgithub.compypasetuptools) for the most up-to-date versionbashgit clone httpsgithub.comApeWorXeip712.gitcd eip712python3 setup.py install Quick UsageDefine EIP-712 modelspythonfrom eip712.messages import EIP712Message, EIP712Typeclass Person(EIP712Type)    name string    wallet addressclass Mail(EIP712Message)    _chainId_  1    _name_  Ether Mail    _verifyingContract_  0xCcCCccccCCCCcCCCCCCcCcCccCcCCCcCcccccccC    _version_  1    sender Person    receiver Person</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[logo pykeops](httpwww.kernel-operations.iokeops_imagespykeops_logo.png)PyKeOps contains the python bindings (numpy and pytorch) for the cppcuda library [KeOps](httpswww.kernel-operations.io). It providesstandard python functions that can be used in any python 3 codes.For a full documentation you may read [Installation](httpswww.kernel-operations.iokeopsintroductioninstallation.html) [Documentation](httpswww.kernel-operations.io) [Learning KeOps syntax with examples](httpswww.kernel-operations.iokeops_auto_examplesindex.html) [Tutorials gallery](httpswww.kernel-operations.iokeops_auto_tutorialsindex.html) Authors- [Benjamin Charlier](httpsimag.umontpellier.frcharlier)- [Jean Feydy](httpswww.math.ens.frfeydy)- [Joan Alexis Glauns](httpswww.mi.parisdescartes.frglaunes)</longdescription>
+</pkgmetadata>

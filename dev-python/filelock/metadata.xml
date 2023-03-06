@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> py-filelock[[PyPI](httpsimg.shields.iopypivfilelock)](httpspypi.orgprojectfilelock)[[Supported Pythonversions](httpsimg.shields.iopypipyversionsfilelock.svg)](httpspypi.orgprojectfilelock)[[Documentationstatus](httpsreadthedocs.orgprojectspy-filelockbadgeversionlatest)](httpspy-filelock.readthedocs.ioenlatestbadgelatest)[[Code styleblack](httpsimg.shields.iobadgecode20style-black-000000.svg)](httpsgithub.compsfblack)[[Downloads](httpspepy.techbadgefilelockmonth)](httpspepy.techprojectfilelockmonth)[[check](httpsgithub.comtox-devpy-filelockactionsworkflowscheck.ymlbadge.svg)](httpsgithub.comtox-devpy-filelockactionsworkflowscheck.yml)For more information checkout the [official documentation](httpspy-filelock.readthedocs.ioenlatestindex.html).</longdescription>
+</pkgmetadata>

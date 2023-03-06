@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pytest-seleniumpytest-selenium is a plugin for pytest httppytest.org_ that providessupport for running Selenium httpseleniumhq.org_ based tests... image httpsimg.shields.iobadgelicense-MPL202.0-blue.svg   target httpsgithub.compytest-devpytest-seleniumblobmasterLICENSE   alt License.. image httpsimg.shields.iopypivpytest-selenium.svg   target httpspypi.python.orgpypipytest-selenium   alt PyPI.. image httpsimg.shields.iotravispytest-devpytest-selenium.svg   target httpstravis-ci.orgpytest-devpytest-selenium   alt Travis.. image httpsimg.shields.iobadgedocs-latest-brightgreen.svg   target httppytest-selenium.readthedocs.ioenlatest   alt Read the Docs.. image httpsimg.shields.iobadgecode20style-black-000000.svg    target httpsgithub.comambvblack.. image httpsimg.shields.iogithubissues-rawpytest-devpytest-selenium.svg   target httpsgithub.compytest-devpytest-seleniumissues   alt Issues.. image httpsimg.shields.iorequiresgithubpytest-devpytest-selenium.svg   target httpsrequires.iogithubpytest-devpytest-seleniumrequirementsbranchmaster   alt RequirementsResources---------- Documentation httppytest-selenium.readthedocs.ioenlatest_- Issue Tracker httpgithub.compytest-devpytest-seleniumissues_- Code httpgithub.compytest-devpytest-selenium_</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> MathJax resources endpoints for Jupyter Server[Testing](httpsgithub.comjupyter-serverjupyter_server_mathjaxworkflowsTestingbadge.svg) Basic UsageInstall from PyPIsh pip install jupyter_server_mathjaxThis will automatically enable the extension in Jupyter Server.To test the installation, you can run Jupyter Server and visit the staticjupyter_server_mathjaxMathJax.js endpointsh jupyter server Maintenance NotesTo install an editable install locally for development, first clone the repository locally,then runshpip install -e .[test]Note that the editable install will not install the data file thatautomatically configures the extension for use. To manually enable it, runshjupyter server extension enable --py jupyter_server_mathjaxTo build for distribution, use the build packageshpip install buildpython -m buildThen release using twineshtwine check disttwine check dist</longdescription>
+</pkgmetadata>

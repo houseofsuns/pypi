@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>os-testr.. image httpsimg.shields.iopypivos-testr.svg    target httpspypi.orgprojectos-testr    alt Latest Version.. image httpsimg.shields.iopypidmos-testr.svg    target httpspypi.orgprojectos-testr    alt DownloadsA testr wrapper to provide functionality for OpenStack projects. Free software Apache license Documentation httpsdocs.openstack.orgos-testr Source httpsopendev.orgopenstackos-testr Bugs httpsbugs.launchpad.netos-testrFeatures-------- subunit-trace an output filter for a subunit stream which provides  useful information about the run subunit2html generates a test results html page from a subunit stream generate-subunit generate a subunit stream for a single test.. _stestr httpsstestr.readthedocs.io</longdescription>
+</pkgmetadata>

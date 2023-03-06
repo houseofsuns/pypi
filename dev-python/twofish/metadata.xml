@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>python-twofishBindings for the Twofish implementation by Niels Ferguson libtwofish-dev_.Compatible with Python 2.6, 2.7 and 3.3.The library performs a self-test at each import... _libtwofish-dev httppackages.debian.orgsidlibtwofish-devInstallation------------  pip install twofishUsage-----Create a twofish.Twofish instance with a key of length ]0, 32] and then use the encrypt and decrypt methods on 16 bytes blocks.All values must be binary strings (str on Python 2, bytes on Python 3)[WARNING] this should be used in a senseful cipher mode, like CTR or CBC. If you dont know what this mean, you should probably usa a higher level library.Example------- from twofish import Twofish T  Twofish(bsecret) x  T.encrypt(bYELLOWSUBMARINES) print(T.decrypt(x).decode())YELLOWSUBMARINES</longdescription>
+</pkgmetadata>

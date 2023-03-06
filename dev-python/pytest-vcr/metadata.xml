@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pytest-vcrTravis AppVeyor ReadTheDocs.. Travis image httpstravis-ci.orgktosiekpytest-vcr.svgbranchmaster    target httpstravis-ci.orgktosiekpytest-vcr    alt See Build Status on Travis CI.. AppVeyor image httpsci.appveyor.comapiprojectsstatusgithubktosiekpytest-vcrbranchmaster    target httpsci.appveyor.comprojectktosiekpytest-vcrbranchmaster    alt See Build Status on AppVeyor.. ReadTheDocs image httpsreadthedocs.orgprojectspytest-vcrbadgeversionlatest    target httppytest-vcr.readthedocs.ioenlatestbadgelatest    alt See the documentationPy.test plugin for managing VCR.py httpsvcrpy.readthedocs.io_ cassettes.Quick StartInstall the plugin.. code-block sh    pip install pytest-vcrAnnotate your tests.. code-block python    pytest.mark.vcr()    def test_iana()        response  urlopen(httpwww.iana.orgdomainsreserved).read()        assert bExample domains in responseAnd thats itA new file cassettestest_iana.yaml will be created next to your test file on the first run.This file should be committed to a VCS.For more examples and configuration options see the documention on ReadTheDocs httppytest-vcr.readthedocs.ioenlatest_.</longdescription>
+</pkgmetadata>

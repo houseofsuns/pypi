@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Color Thief-----------A module for grabbing the color palette from an image.Links github httpsgithub.comfengspcolor-thief-py_ development version  httpgithub.comfengspcolor-thief-pyzipballmastereggcolor-thief-py-dev_</longdescription>
+</pkgmetadata>

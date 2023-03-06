@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>commentjsoncommentjson (Comment JSON) is a Python package that helps you create JSONfiles with Python and JavaScript style inline comments. Its API is very similarto the Python standard librarys json_ module... _json httpdocs.python.org2libraryjson.html.. image httpstravis-ci.orgvaidikcommentjson.pngInstallation    pip install commentjsonBasic Usage.. code-block python     import commentjson         json_string  {    ...     name Vaidik Kapoor,  Persons name    ...     location Delhi, India,  Persons location    ...    ...      Section contains info about    ...      persons appearance    ...     appearance {    ...         hair_color black,    ...         eyes_color black,    ...         height 6    ...     }    ... }         json_loaded  commentjson.loads(json_string)     print json_loaded    {uappearance {ueyes_color ublack, uhair_color ublack, uheight u6}, uname uVaidik Kapoor, ulocation uDelhi, India}DocumentationComplete documentation can be found here_... _here httpcommentjson.readthedocs.orgenlatestTests    python setup.py testLicenseSee license_... _license httpsgithub.comvaidikcommentjsonblobmasterLICENSE.rst</longdescription>
+</pkgmetadata>

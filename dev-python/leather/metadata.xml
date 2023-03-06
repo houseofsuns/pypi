@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image httpstravis-ci.orgwireserviceleather.png    target httpstravis-ci.orgwireserviceleather    alt Build status.. image httpsimg.shields.iopypidwleather.svg    target httpspypi.python.orgpypileather    alt PyPI downloads.. image httpsimg.shields.iopypivleather.svg    target httpspypi.python.orgpypileather    alt Version.. image httpsimg.shields.iopypilleather.svg    target httpspypi.python.orgpypileather    alt License.. image httpsimg.shields.iopypipyversionsleather.svg    target httpspypi.python.orgpypileather    alt Support Python versionsLeather is the Python charting library for those who need charts now and dont care if theyre perfect.Leather isnt picky. Its rough. It gets dirty. It looks sexy just hanging on the back of a chair. Leather doesnt need your accessories. Leather is how Snake Plissken would make charts.Get itImportant links Documentation    httpleather.rtfd.io Repository       httpsgithub.comwireserviceleather Issues           httpsgithub.comwireserviceleatherissues</longdescription>
+</pkgmetadata>

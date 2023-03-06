@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>httmockA mocking library for requests for Python 2.7 and 3.4+.Installation------------    pip install httmockOr, if you are a Gentoo user    emerge dev-pythonhttmockUsage-----You can use it to mock third-party APIs and test libraries that use requests internally, conditionally using mocked replies with the urlmatch decoratorpythonfrom httmock import urlmatch, HTTMockimport requestsurlmatch(netlocr(..)google.com)def google_mock(url, request)    return Feeling lucky, punkwith HTTMock(google_mock)    r  requests.get(httpgoogle.com)print r.content   Feeling lucky, punkThe all_requests decorator doesnt conditionally block real requests. If you return a dictionary, it will map to the requests.Response object returnedpythonfrom httmock import all_requests, HTTMockimport requestsall_requestsdef response_content(url, request)return {status_code 200,        content Oh hai}with HTTMock(response_content)r  requests.get(httpsfoo_bar)print r.status_codeprint r.contentIf you pass in Set-Cookie headers, requests.Response.cookies will contain the values. You can also use response method directly instead of returning a dictpythonfrom httmock import all_requests, response, HTTMockimport requestsall_requestsdef response_content(url, request)headers  {content-type applicationjson,           Set-Cookie foobar}content  {message API rate limit exceeded}return response(403, content, headers, None, 5, request)with HTTMock(response_content)r  requests.get(httpsapi.github.comuserswhatever)print r.json().get(message)print r.cookies[foo]</longdescription>
+</pkgmetadata>

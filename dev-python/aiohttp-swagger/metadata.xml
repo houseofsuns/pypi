@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>aiohttp-swaggerLOOCKING FOR MAINTAINERS[Logo](docsource_staticlogo.png)[[Build Status](httpstravis-ci.orgcr0hnaiohttp-swagger.svgbranchmaster)](httpstravis-ci.orgcr0hnaiohttp-swagger)[[codecov.io](httpscodecov.iogithubcr0hnaiohttp-swaggercoverage.svgbranchmaster)](httpscodecov.iogithubcr0hnaiohttp-swagger)aiohttp-swagger Swagger API Documentation builder for aiohttp serverDocumentation   httpaiohttp-swagger.readthedocs.ioenlatest-------------  -------------------------------------------------Code  httpsgithub.comcr0hnaiohttp-swaggerIssues  httpsgithub.comcr0hnaiohttp-swaggerissuesPython version  Python 3.4 and aboveWhats aiohttp-swagger----------------------aiohttp-swagger is a plugin for aiohttp.web server that allow to document APIs using Swagger show the Swagger-ui console.Whats new----------- Version 1.0.0- First version releasedYou can read entire list in [CHANGELOG](httpsgithub.comcr0hnaiohttp-swaggerblobmasterCHANGELOG) file.</longdescription>
+</pkgmetadata>

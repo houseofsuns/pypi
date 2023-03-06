@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Jupyter Server Terminals[[Build Status](httpsgithub.comjupyter-serverjupyter_server_terminalsactionsworkflowstest.ymlbadge.svgquerybranch3Amain++)](httpsgithub.comjupyter-serverjupyter_server_terminalsactionsquerybranch3Amain++)[[codecov](httpscodecov.ioghjupyter-serverjupyter_server_terminalsbranchmaingraphbadge.svgtoken6OPBSEMMUG)](httpscodecov.ioghjupyter-serverjupyter_server_terminals)[[Documentation Status](httpsreadthedocs.orgprojectsjupyter-server-terminalsbadgeversionlatest)](httpjupyter-server-terminals.readthedocs.ioenlatestbadgelatest)Jupyter Server Terminals is a Jupyter Server Extension providing support for terminals. Installation and Basic usageTo install the latest release locally, make sure you have[pip installed](httpspip.readthedocs.ioenstableinstalling) and runpip install jupyter_server_terminalsJupyter Server Terminals currently supports Python3.6 on Linux, OSX and Windows. TestingSee [CONTRIBUTING](.CONTRIBUTING.rstrunning-tests). ContributingIf you are interested in contributing to the project, see [CONTRIBUTING](.CONTRIBUTING.rst).</longdescription>
+</pkgmetadata>

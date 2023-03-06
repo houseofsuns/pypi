@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>shellA better way to run shell commands in Python.Built because every time I go to use subprocess_, I spend more time in thedocs  futzing around than actually implementing what Im trying to get done... _subprocess httpdocs.python.org2.7librarysubprocess.htmlFull docs are at httpsshell.readthedocs.orgenlatest.Requirements Python 2.6+ or Python 3.3+UsageIf you just need to quickly run a command, you can use the shell shortcutfunction     from shell import shell     ls  shell(ls)     for file in ls.output()    ...     print file    another.txtIf you need to extend the behavior, you can also use the Shell object     from shell import Shell     sh  Shell(has_inputTrue)     cat  sh.run(cat -u)     cat.write(Hello, world)     cat.output()    [Hello, world]You can even chain calls if youd like     from shell import shell     shell(cat -u, has_inputTrue).write(Hello, world).output()    [Hello, world]InstallationUsing pip, simply run    pip install shellLicenseNew BSD</longdescription>
+</pkgmetadata>

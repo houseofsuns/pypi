@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pyvalid-------.. image httpsimg.shields.iocodecovcgithubuzumaxypyvalid.svgstyleplastic.. image httpsimg.shields.iogithubworkflowstatusuzumaxypyvalidPython20packagestyleplasticpyvalid is a Python data validation tool.Documentation uzumaxy.github.iopyvalid httpsuzumaxy.github.iopyvalid_.License+++++++Note that this project is distributed under the MIT License LICENSE_.</longdescription>
+</pkgmetadata>

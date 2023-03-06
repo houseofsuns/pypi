@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Gunicorn--------.. image httpsimg.shields.iopypivgunicorn.svgstyleflat    alt PyPI version    target httpspypi.python.orgpypigunicorn.. image httpsimg.shields.iopypipyversionsgunicorn.svg    alt Supported Python versions    target httpspypi.python.orgpypigunicorn.. image httpstravis-ci.orgbenoitcgunicorn.svgbranchmaster    alt Build Status    target httpstravis-ci.orgbenoitcgunicornGunicorn Green Unicorn is a Python WSGI HTTP Server for UNIX. Its a pre-forkworker model ported from Rubys Unicorn_ project. The Gunicorn server is broadlycompatible with various web frameworks, simply implemented, light on serverresource usage, and fairly speedy.Feel free to join us in gunicorn_ on Freenode_.Documentation-------------The documentation is hosted at httpsdocs.gunicorn.org.Installation------------Gunicorn requires Python 3.x  3.5.Install from PyPI     pip install gunicornUsage-----Basic usage     gunicorn [OPTIONS] APP_MODULEWhere APP_MODULE is of the pattern (MODULE_NAME)(VARIABLE_NAME). Themodule name can be a full dotted path. The variable name refers to a WSGIcallable that should be found in the specified module.Example with test app     cd examples     gunicorn --workers2 testappContributing------------See our complete contributors guide CONTRIBUTING.md_ for more details.License-------Gunicorn is released under the MIT License. See the LICENSE_ file for moredetails... _Unicorn httpsbogomips.orgunicorn.. _gunicorn httpswebchat.freenode.netchannelsgunicorn.. _Freenode httpsfreenode.net.. _LICENSE httpsgithub.combenoitcgunicornblobmasterLICENSE</longdescription>
+</pkgmetadata>

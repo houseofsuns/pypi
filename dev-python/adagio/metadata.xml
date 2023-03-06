@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> A-DAG-IO Framework[[GitHub release](httpsimg.shields.iogithubreleasefugue-projectadagio.svg)](httpsGitHub.comfugue-projectadagio)[[PyPI pyversions](httpsimg.shields.iopypipyversionsadagio.svg)](httpspypi.python.orgpypiadagio)[[PyPI license](httpsimg.shields.iopypiladagio.svg)](httpspypi.python.orgpypiadagio)[[PyPI version](httpsbadge.fury.iopyadagio.svg)](httpspypi.python.orgpypiadagio)[[codecov](httpscodecov.ioghfugue-projectadagiobranchmastergraphbadge.svgtokenP82AEINHFY)](httpscodecov.ioghfugue-projectadagio)[Join Fugue-Project on Slack](httpsjoin.slack.comtfugue-projectshared_invitezt-he6tcazr-OCkj2GEvJ9UYoZT3FPM4g)A Dag IO framework for [Fugue projects](httpsgithub.comfugue-project) Installationpip install adagio</longdescription>
+</pkgmetadata>

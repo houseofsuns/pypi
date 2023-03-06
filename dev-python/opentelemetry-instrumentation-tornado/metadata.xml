@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>OpenTelemetry Tornado Instrumentationpypi.. pypi image httpsbadge.fury.iopyopentelemetry-instrumentation-tornado.svg   target httpspypi.orgprojectopentelemetry-instrumentation-tornadoThis library builds on the OpenTelemetry WSGI middleware to track web requestsin Tornado applications.Installation------------    pip install opentelemetry-instrumentation-tornadoReferences---------- OpenTelemetry Tornado Instrumentation httpsopentelemetry-python-contrib.readthedocs.ioenlatestinstrumentationtornadotornado.html_ OpenTelemetry Project httpsopentelemetry.io_ OpenTelemetry Python Examples httpsgithub.comopen-telemetryopentelemetry-pythontreemaindocsexamples_</longdescription>
+</pkgmetadata>

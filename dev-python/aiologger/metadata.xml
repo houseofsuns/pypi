@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> aiologger[[PYPI](httpsimg.shields.iopypivaiologger.svg)](httppypi.python.orgpypiaiologger)[[PYPI Python Versions](httpsimg.shields.iopypipyversionsaiologger.svg)](httppypi.python.orgpypiaiologger)[[Build Status](httpsgithub.comasync-workeraiologgeractionsworkflowsmain.yamlbadge.svgbranchmain)](httpsgithub.comasync-workeraiologgeractionsworkflowsmain.yaml)[[Maintainability](httpsapi.codeclimate.comv1badges122a3696a749ed04a972maintainability)](httpscodeclimate.comgithubasync-workeraiologgermaintainability)[[Test Coverage](httpsapi.codeclimate.comv1badges122a3696a749ed04a972test_coverage)](httpscodeclimate.comgithubasync-workeraiologgertest_coverage)[[Code style black](httpsimg.shields.iobadgecode20style-black-000000.svg)](httpsgithub.comambvblack) About the ProjectThe built-in python logger is IO blocking. This means that using the built-inlogging module will interfere with your asynchronous application performance.aiologger aims to be the standard Asynchronous non-blocking logging forpython and asyncio. DocumentationThe project documentation can be found here httpsasync-worker.github.ioaiologger</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>sqlalchemy-vertica-pythonVertica dialect for sqlalchemy. Forked from the Vertica ODBC dialect httpspypi.python.orgpypivertica-sqlalchemy_, written by James Casbon httpsgithub.comjamescasbon_.This module implements a Vertica dialect for SQLAlchemy using the pure-Python DB-API driver vertica-python httpsgithub.comverticavertica-python_, as adapted by Luke Emery-Fertitta httpsgithub.comlemeryfertitta_.It is currently maintained by BlueLabs httpsbluelabs.com_ - PRs are welcomeEngine creation.. code-block python    import sqlalchemy as sa    sa.create_engine(vertica+vertica_pythonuserpwdhostportdatabase)Installation------------From PyPI      pip install sqlalchemy-vertica-pythonFrom git      git clone httpsgithub.combluelabsiovertica-sqlalchemy-python     cd vertica-sqlalchemy-python     python setup.py installUsage------------IDPrimary Key DeclarationDo not use this. The INSERT will fail as it will try to insert the ID    id  Column(Integer, primary_keyTrue)Do the following instead    id  Column(Integer, Sequence(user_id_seq), primary_keyTrue)</longdescription>
+</pkgmetadata>

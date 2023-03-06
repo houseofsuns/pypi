@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> win32-setctime[[Pypi version](httpsimg.shields.iopypivwin32-setctime.svg)](httpspypi.python.orgpypiwin32-setctime) [[Python version](httpsimg.shields.iobadgepython-3.52B-blue.svg)](httpspypi.python.orgpypiwin32-setctime) [[Build status](httpsimg.shields.iogithubworkflowstatusDelganwin32-setctimeTestsmaster)](httpsgithub.comDelganwin32-setctimeactionsworkflowstests.ymlquerybranchmaster) [[License](httpsimg.shields.iogithublicensedelganwin32-setctime.svg)](httpsgithub.comDelganwin32-setctimeblobmasterLICENSE)A small Python utility to set file creation time on Windows. Installationshellpip install win32-setctime Usagepythonfrom win32_setctime import setctimesetctime(my_file.txt, 1561675987.509, follow_symlinksTrue)</longdescription>
+</pkgmetadata>

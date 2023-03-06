@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Python bindings to the OpenStack Trove API.. image httpsgovernance.openstack.orgtcbadgespython-troveclient.svg    target httpsgovernance.openstack.orgtcreferencetagsindex.html.. image httpsimg.shields.iopypivpython-troveclient.svg    target httpspypi.orgprojectpython-troveclient    alt Latest VersionThis is a client for the OpenStack Trove API. Theres a Python API (thetroveclient module), and a command-line script (trove). Eachimplements 100 of the OpenStack Trove API.See the Trove CLI Guide_ for information on how to use the trovecommand-line tool. You may also want to look at theOpenStack API documentation_... _Trove CLI Guide httpsdocs.openstack.orgtrovelatestcli.. _OpenStack API documentation httpsdocs.openstack.orgapi-quick-startpython-troveclient is licensed under the Apache License like the rest of OpenStack. License Apache License, Version 2.0 Online Documentation_ Bugs_ - issue tracking PyPi_- package installation Blueprints_ - feature specifications Git Source_ Specs_ How to Contribute_ Release Notes_.. _Online Documentation httpsdocs.openstack.orgpython-troveclientlatest.. _Bugs httpsstoryboard.openstack.orgprojectopenstackpython-troveclient.. _PyPi httpspypi.orgprojectpython-troveclient.. _Blueprints httpsstoryboard.openstack.orgprojectopenstackpython-troveclient.. _Git Source httpsopendev.orgopenstackpython-troveclient.. _Specs httpsspecs.openstack.orgopenstacktrove-specs.. _How to Contribute httpsdocs.openstack.orginframanualdevelopers.html.. _Release Notes httpsdocs.openstack.orgreleasenotespython-troveclient</longdescription>
+</pkgmetadata>

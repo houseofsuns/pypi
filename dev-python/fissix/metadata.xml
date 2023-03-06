@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>fissixBackport of latest lib2to3, with enhancements.[[build status](httpstravis-ci.orgjreesefissix.svgbranchmaster)](httpstravis-ci.orgjreesefissix)[[version](httpsimg.shields.iopypivfissix.svg)](httpspypi.orgprojectfissix)[[license](httpsimg.shields.iopypilfissix.svg)](httpsgithub.comjreesefissixblobmasterLICENSE)[[code style](httpsimg.shields.iobadgecode20style-black-000000.svg)](httpsgithub.comambvblack)Installation------------pip3 install fissix or pip install fissix, depending on theoperating systems Python policy.  On Debian 11 and derivatives suchas Ubuntu 21.04, sudo apt install python3-fissix.License-------fissix is licensed under the Python Software Foundation License Version 2.I am providing code in this repository to you under an open source license.Because this is my personal repository, the license you receive to my codeis from me and not from my employer.See the LICENSE file for details.Used by------- httpspypi.orgprojectbowler Safe code refactoring for modern Python projects httpspypi.orgprojectmodernize A hack on top of fissix for modernizing code for hybrid codebases.</longdescription>
+</pkgmetadata>

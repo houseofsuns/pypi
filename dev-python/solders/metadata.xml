@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>div aligncenter    img srchttpsraw.githubusercontent.comkevinheaveysoldersmaindocslogo.jpeg width50 height50div---[[ActionsStatus](httpsgithub.comkevinheaveysoldersworkflowsCIbadge.svg)](httpsgithub.comkevinheaveysoldersactionsqueryworkflow3ACI)[[PyPI version](httpsbadge.fury.iopysolders.svg)](httpsbadge.fury.iopysolders)[[License MIT](httpsimg.shields.iobadgeLicense-MIT-yellow.svg)](httpsgithub.comkevinheaveysoldersblobmaimLICENSE)[[Code style black](httpsimg.shields.iobadgecode20style-black-000000.svg)](httpsgithub.compsfblack) Solderssolders is a Python binding to the[Solana Rust SDK](httpsdocs.rssolana-sdklatestsolana_sdk).It provides robust, high-performance solutions to core Solana tasks such as transaction signing and serialization, and saves us from reimplementing Solana logic in pure Python. Installationpip install soldersNote Requires Python  3.7. Example Usagepython from solders.message import Message from solders.keypair import Keypair from solders.instruction import Instruction from solders.hash import Hash from solders.transaction import Transaction from solders.pubkey import Pubkey program_id  Pubkey.default() arbitrary_instruction_data  bytes([1]) accounts  [] instruction  Instruction(program_id, arbitrary_instruction_data, accounts) payer  Keypair() message  Message([instruction], payer.pubkey()) blockhash  Hash.default()   replace with a real blockhash tx  Transaction([payer], message, blockhash) Development Setup1. Install [poetry](httpspython-poetry.org)2. Install dev dependenciespoetry install3. Activate the poetry shellshpoetry shell Testing1. Run maturin develop to compile the Rust code.2. Run make fmt, make lint, and make test.</longdescription>
+</pkgmetadata>

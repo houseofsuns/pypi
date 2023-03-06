@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>tag-expressionsPackage to evaluate logical tag expressions by using a modified version of the Shunting Yard algorithm httpsen.wikipedia.orgwikiShunting-yard_algorithm_.This package is a Python port of cucumbers tag expression.Its also used by radish httpsgithub.comradish-bddradish_.Build Status PyPI package version PyPI python versionsInstalling----------.. code bash     pip install tag-expressionsHere is a tease---------------.. code python     from tagexpressions import parse         expression  ( a and b ) or ( c and d )     compiled_expression  parse(expression)     print(compiled_expression)    ( ( a and b ) or ( c and d ) )         data  [a, b, c, d]     assert compiled_expression.evaluate(data)  True         data  [a, c]     assert compiled_expression.evaluate(data)  False             expression  not a or b and not c or not d or e and f     compiled_expression  parse(expression)     print(compiled_expression)    ( ( ( not ( a ) or ( b and not ( c ) ) ) or not ( d ) ) or ( e and f ) )         data  [b, e, f]     assert compiled_expression.evaluate(data)  True         data  [a, c, d]     assert compiled_expression.evaluate(data)  False.. Build Status image httpstravis-ci.orgtimofurrertag-expressions.pngbranchmaster   target httpstravis-ci.orgtimofurrertag-expressions.. PyPI package version image httpsbadge.fury.iopytag-expressions.svg   target httpsbadge.fury.iopytag-expressions.. PyPI python versions image httpsimg.shields.iopypipyversionstag-expressions.svg   target httpspypi.python.orgpypitag-expressions</longdescription>
+</pkgmetadata>

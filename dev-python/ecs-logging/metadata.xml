@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> ecs-logging-python[[Build Status](httpsapm-ci.elastic.cojobapm-agent-pythonjobecs-logging-python-mbpjobmainbadgeicon)](httpsapm-ci.elastic.coblueorganizationsjenkinsapm-agent-python2Fecs-logging-python-mbpbranches)[[PyPI](httpsimg.shields.iopypivecs-logging)](httpspypi.orgprojectecs-logging)[[Versions Supported](httpsimg.shields.iopypipyversionsecs-logging)](httpspypi.orgprojectecs-logging)Check out the [Elastic Common Schema (ECS) reference](httpswww.elastic.coguideenecscurrentindex.html)for more information.The library currently implements ECS 1.6. Installationconsole python -m pip install ecs-logging DocumentationSee the [ECS Logging Python reference](httpswww.elastic.coguideenecs-loggingpythoncurrentindex.html) on elastic.co to get started. Elastic APM Log Correlationecs-logging-python supports automatically collecting [ECS tracing fields](httpswww.elastic.coguideenecsmasterecs-tracing.html)from the [Elastic APM Python agent](httpsgithub.comelasticapm-agent-python) in order to[correlate logs to spans, transactions and traces](httpswww.elastic.coguideenapmagentpythoncurrentlog-correlation.html) in Elastic APM. LicenseApache-2.0</longdescription>
+</pkgmetadata>

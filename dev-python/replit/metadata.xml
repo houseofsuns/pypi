@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>  import replit[compute](httpsgithub.comkennethreitz42replit-pyblobkr-cleanupextreadme.gifrawtrue)This repository is the home for the replit Python package, which provides- A fully-featured database client for [Replit DB](httpsdocs.repl.itmiscdatabase).- A Flaskbased application framework for accelerating development on the platform.- Replit user profile metadata retrieval (more coming here).- A simple audio library that can play tones and audio files Open Source LicenseThis library is licensed under the [ISC License](httpsen.wikipedia.orgwikiISC_license) and is free for you to use, change, or even profit from</longdescription>
+</pkgmetadata>

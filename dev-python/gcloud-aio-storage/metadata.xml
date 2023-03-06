@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>(Asyncio OR Threadsafe) Python Client for Google Cloud Storage    This is a shared codebase for gcloud-aio-storage and    gcloud-rest-storagepypi pythons-aio pythons-restInstallation------------.. code-block console     pip install --upgrade gcloud-{aio,rest}-storageUsage-----See our docs_.Contributing------------Please see our contributing guide_... _contributing guide httpsgithub.comtalkiqgcloud-aioblobmaster.githubCONTRIBUTING.rst.. _our docs httpstalkiq.github.iogcloud-aio.. pypi image httpsimg.shields.iopypivgcloud-aio-storage.svgstyleflat-square    alt Latest PyPI Version (gcloud-aio-storage)    target httpspypi.orgprojectgcloud-aio-storage.. pythons-aio image httpsimg.shields.iopypipyversionsgcloud-aio-storage.svgstyleflat-squarelabelpython (aio)    alt Python Version Support (gcloud-aio-storage)    target httpspypi.orgprojectgcloud-aio-storage.. pythons-rest image httpsimg.shields.iopypipyversionsgcloud-rest-storage.svgstyleflat-squarelabelpython (rest)    alt Python Version Support (gcloud-rest-storage)    target httpspypi.orgprojectgcloud-rest-storage</longdescription>
+</pkgmetadata>

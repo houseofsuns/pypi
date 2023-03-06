@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> crazy-thursday[[](httpsimg.shields.iobadgesponsored20by-Crazy--Thursday-brightgreenlogoKFC)](httpswww.kfchk.comindex.html)[[](httpsimg.shields.iobadgepowered20by-Github20Actions-brightgreenlogoGithub)](httpsdocs.github.comactions)[[](httpsimg.shields.iopypivcrazy-thursdaylogoPyPI)](httpspypi.orgprojectcrazy-thursday)[[](httpsgithub.comzqmilletcrazy-thursdayactionsworkflowsupdate_curpus.yamlbadge.svg)](httpsgithub.comzqmilletcrazy-thursdayactions), , ,  100000 , ,  V  50 , ,    bashpip3 install crazy-thursdaypython3 -m pip install crazy-thursday[](.staticinstall.svg) ,  crazy-thursday  kfc .  crazy-thursday  kfc .[](.statickfc.svg) , [ issue](httpsgithub.comzqmilletcrazy-thursdayissuesnewassigneeslabelsadd+articletemplateadd-article.yamltitlethanks+for+taking+the+time+to+contribute+article+about+crazy-thursday.), .,  issue,  .whl ,  [PyPI](httpspypi.orgprojectcrazy-thursday) .  4 ,  year.month.day.build, - year .- month .- day .- build ,  0 . 1926.8.16.3  1926  8  16  4 .  Github Actions , .mermaid{init {theme base, themeVariables {primaryColor FFFFFF, primaryBorderColor 000000}}}graph TD    A( httpsgithub.comzqmilletcrazy-thursday) --collect issues B( crazy_thursdaycorpus.jsonl)    B --update version C( crazy_thursday__init__.py)     C -- commit  push D( httpsgithub.comzqmilletcrazy-thursday)    D -- build E( distcrazy_thursday-.whl)    E -- publish F( httpspypi.orgprojectcrazy-thursday)-  clone ,  Python, .-  scriptsupdate_curpus.py ,  issue  crazy_thursdaycorpus.jsonl .-  crazy_thursday__init__.py .-  commit  push .-  .whl ,  PyPI .,  issue .</longdescription>
+</pkgmetadata>

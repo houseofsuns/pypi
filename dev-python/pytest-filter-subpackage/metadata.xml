@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pytest-filter-subpackage.. image httpsdev.azure.comastropy-projectpytest-filter-subpackage_apisbuildstatusastropy.pytest-filter-subpackagebranchNamemain   target httpsdev.azure.comastropy-projectpytest-filter-subpackage_buildlatestdefinitionId5branchNamemainThis package contains a simple plugin for the pytest_ framework that provides ashortcut to testing all code and documentation for a given sub-package... _pytest httpspytest.orgenlatestInstallation------------The pytest-filter-subpackage plugin can be installed using pip     pip install pytest-filter-subpackageIt is also possible to install the latest development version from the sourcerepository     git clone httpsgithub.comastropypytest-filter-subpackage     cd pytest-filter-subpackage     pip install .In either case, the plugin will automatically be registered for use withpytest.Usage-----This plugin provides a -P option which takes a comma-separated listof sub-package names (without the top-level package name)    pytest -P wcs,io.fitswhich is equivalent to    pytest wcs iofitsWhen used in conjunction with pytest-doctestplushttpgithub.comastropypytest-doctestplus_ this will result in boththe narrative documentation and code being tested for a given sub-package.License-------This plugin is licensed under a 3-clause BSD style license - see theLICENSE.rst file.</longdescription>
+</pkgmetadata>

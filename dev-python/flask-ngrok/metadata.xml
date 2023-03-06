@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> flask-ngrok[[PyPI version](httpsbadge.fury.iopyflask-ngrok.svg)](httpsbadge.fury.iopyflask-ngrok)A simple way to demo Flask apps from your machine.Makes your [Flask](httpflask.pocoo.org) apps running on localhost available over the internet via the excellent [ngrok](httpsngrok.com) tool. CompatabilityPython 3.6+ is required. Installationbashpip install flask-ngrok Inside Jupyter  Colab NotebooksNotebooks have [an issue](httpsstackoverflow.comquestions51180917python-flask-unsupportedoperation-not-writable) with newer versions of Flask, so force an older version if working in these environments.bashpip install flask0.12.2 Quickstart1. Import with from flask_ngrok import run_with_ngrok2. Add run_with_ngrok(app) to make your Flask app available upon runningpython flask_ngrok_example.pyfrom flask import Flaskfrom flask_ngrok import run_with_ngrokapp  Flask(__name__)run_with_ngrok(app)   Start ngrok when app is runapp.route()def hello()    return Hello Worldif __name__  __main__    app.run()Running the examplebashpython flask_ngrok_example.py  Running on http127.0.0.15000 (Press CTRL+C to quit)  Running on httprandom-address.ngrok.io  Traffic stats available on http127.0.0.14040 </longdescription>
+</pkgmetadata>

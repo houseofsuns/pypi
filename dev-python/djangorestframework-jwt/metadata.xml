@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>REST framework JWT Authbuild-status-image pypi-versionJSON Web Token Authentication support for Django REST FrameworkFull documentation for the project is available at docs_.Overview--------This package provides JSON Web Token Authentication_ support forDjango REST framework_.If you want to know more about JWT, check out the following resources-  DjangoCon 2014 - JSON Web Tokens Video_  Slides_-  Auth with JSON Web Tokens_-  JWT.io_Requirements-------------  Python (2.7, 3.3, 3.4, 3.5)-  Django (1.8, 1.9, 1.10, 1.11)-  Django REST Framework (3.0, 3.1, 3.2, 3.3, 3.4, 3.5)Installation------------Install using pip ..... code bash     pip install djangorestframework-jwtDocumentation  Support-----------------------Full documentation for the project is available at docs_.You may also want to follow the author_ on Twitter... _docs httpgetblimp.github.iodjango-rest-framework-jwt.. _JSON Web Token Authentication httptools.ietf.orghtmldraft-ietf-oauth-json-web-token.. _Django REST framework httpdjango-rest-framework.org.. _Video httpswww.youtube.comwatchv825hodQ61bg.. _Slides httpsspeakerdeck.comjpadilladjangocon-json-web-tokens.. _Auth with JSON Web Tokens httpjpadilla.compost73791304724auth-with-json-web-tokens.. _JWT.io httpjwt.io.. _author httpstwitter.comblimp.. build-status-image image httpssecure.travis-ci.orgGetBlimpdjango-rest-framework-jwt.svgbranchmaster   target httptravis-ci.orgGetBlimpdjango-rest-framework-jwtbranchmaster.. pypi-version image httpsimg.shields.iopypivdjangorestframework-jwt.svg   target httpspypi.python.orgpypidjangorestframework-jwt</longdescription>
+</pkgmetadata>

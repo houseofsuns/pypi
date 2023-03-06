@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> codeowners [[CircleCI](httpscircleci.comghsbdchdcodeowners.svgstylesvg)](httpscircleci.comghsbdchdcodeowners) [[pypi](httpsimg.shields.iopypivcodeowners.svg)](httpspypi.orgprojectcodeowners) Python codeowners parser based on [softpropss Rust library](httpscrates.iocratescodeowners) and [hmarrs Go library](httpsgithub.comhmarrcodeowners). WhyTo allow Python users to parse [codeownersfiles](httpsdocs.github.comengithubcreating-cloning-and-archiving-repositoriesabout-code-ownerscodeowners-syntax)in Python. Installshellpip install codeowners Usagepythonfrom codeowners import CodeOwnersexample_file   owners for js files.js    ghost python.py userexample.com miscbuildlogs dmindocs  docsexample.comowners  CodeOwners(example_file)assert owners.of(test.js)   [(USERNAME, ghost)] Devshellpoetry installstestslint Releasing a New Versionshell bump version in pyproject.toml update CHANGELOG.md commit release commit to GitHub build and publishpoetry publish --build create a release in the GitHub UI</longdescription>
+</pkgmetadata>

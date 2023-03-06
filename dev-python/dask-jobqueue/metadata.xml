@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Deploy Dask on Job Queueing systemsBuild Status Doc Status Gitter Version StatusEasy deployment of Dask Distributed on job queuing systems such as PBS, Slurm,or SGE.  See documentation_ for more information.LICENSE-------New BSD. See License File httpsgithub.comdaskdask-jobqueueblobmainLICENSE.txt__... _documentation httpsjobqueue.dask.orgenlatest.. Build Status image httpsgithub.comdaskdask-jobqueueworkflowsCIbadge.svg   target httpsgithub.comdaskdask-jobqueueactions.. Doc Status image httpsreadthedocs.orgprojectsdask-jobqueuebadgeversionlatest   target httpsjobqueue.dask.orgenlatest   alt Documentation Status.. Gitter image httpsbadges.gitter.imJoin20Chat.svg   alt Join the chat at httpsgitter.imdaskdask   target httpsgitter.imdaskdaskutm_sourcebadgeutm_mediumbadgeutm_campaignpr-badgeutm_contentbadge.. Version Status image httpsimg.shields.iopypivdask-jobqueue.svg   target httpspypi.python.orgpypidask-jobqueue</longdescription>
+</pkgmetadata>

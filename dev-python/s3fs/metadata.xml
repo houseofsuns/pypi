@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>s3fsBuild Status Doc StatusS3FS builds on aiobotocore_ to provide a convenient Python filesystem interface for S3.View the documentation_ for s3fs... _documentation https3fs.readthedocs.ioenlatest.. _aiobotocore httpsaiobotocore.readthedocs.ioenlatest.. Build Status image httpsgithub.comfsspecs3fsworkflowsCIbadge.svg    target httpsgithub.comfsspecs3fsactions    alt Build Status.. Doc Status image httpsreadthedocs.orgprojectss3fsbadgeversionlatest    target httpss3fs.readthedocs.ioenlatestbadgelatest    alt Documentation Status</longdescription>
+</pkgmetadata>

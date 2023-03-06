@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>An IPython magic extension for printing date and time stamps, versionnumbers, and hardware information.ContactIf you have any questions or comments about watermark,please feel free to contact me viaemail mailsebastianraschka.comThis project is hosted at httpsgithub.comrasbtwatermarkThe documentation can be found athttpsgithub.comrasbtwatermarkblobmasterREADME.md</longdescription>
+</pkgmetadata>

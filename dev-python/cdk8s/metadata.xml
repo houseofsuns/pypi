@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> cdk8s Cloud Development Kit for Kubernetes[[build](httpsgithub.comcdk8s-teamcdk8s-coreworkflowsreleasebadge.svg)](httpsgithub.comcdk8s-teamcdk8s-coreactionsworkflowsrelease.yml)[[npm version](httpsbadge.fury.iojscdk8s.svg)](httpsbadge.fury.iojscdk8s)[[PyPI version](httpsbadge.fury.iopycdk8s.svg)](httpsbadge.fury.iopycdk8s)[[Maven Central](httpsmaven-badges.herokuapp.commaven-centralorg.cdk8scdk8sbadge.svg)](httpsmaven-badges.herokuapp.commaven-centralorg.cdk8scdk8s)cdk8s is a software development framework for defining Kubernetesapplications using rich object-oriented APIs. It allows developers to leveragethe full power of software in order to define abstract components calledconstructs which compose Kubernetes resources or other constructs intohigher-level abstractions. Note This repository is the core library of cdk8s, with logic for synthesizing Kubernetes manifests using the [constructs framework](httpsgithub.comawsconstructs). It is published to NPM as [cdk8s](httpswww.npmjs.compackagecdk8s) and should not be confused with the cdk8s command-line tool [cdk8s-cli](httpswww.npmjs.compackagecdk8s-cli). For more general information about cdk8s, please see [cdk8s.io](httpscdk8s.io), or visit the umbrella repository located at [cdk8s-teamcdk8s](httpsgithub.comcdk8s-teamcdk8s). DocumentationSee [cdk8s.io](httpscdk8s.io). LicenseThis project is distributed under the [Apache License, Version 2.0](.LICENSE).This module is part of the [cdk8s project](httpsgithub.comcdk8s-teamcdk8s).</longdescription>
+</pkgmetadata>

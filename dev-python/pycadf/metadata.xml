@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>PyCADF.. image httpsgovernance.openstack.orgtcbadgespycadf.svg    target httpsgovernance.openstack.orgtcreferencetagsindex.html.. Change things from this point on.. image httpsimg.shields.iopypivpycadf.svg    target httpspypi.orgprojectpycadf    alt Latest Version.. image httpsimg.shields.iopypidmpycadf.svg    target httpspypi.orgprojectpycadf    alt DownloadsThis library provides an auditing data model based on the Cloud Auditing DataFederation httpswww.dmtf.orgstandardscadf_ specification, primarily foruse by OpenStack. The goal is to establish strict expectations about whatauditors can expect from audit notifications. PyPi_ - package installation Online Documentation_ Launchpad project_ - release management Blueprints_ - feature specifications Bugs_ - issue tracking Source_.. _PyPi httpspypi.orgprojectpycadf.. _Online Documentation httpsdocs.openstack.orgpycadflatest.. _Launchpad project httpslaunchpad.netpycadf.. _Blueprints httpsblueprints.launchpad.netpycadf.. _Bugs httpsbugs.launchpad.netpycadf.. _Source httpsopendev.orgopenstackpycadf</longdescription>
+</pkgmetadata>

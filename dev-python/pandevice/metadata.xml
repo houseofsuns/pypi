@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>The Palo Alto Networks Device Framework is a way to interact with Palo Alto Networks devices (including Next-generation Firewalls and Panorama) using the device API that is object oriented and conceptually similar to interaction with the device via the GUI or CLI.</longdescription>
+</pkgmetadata>

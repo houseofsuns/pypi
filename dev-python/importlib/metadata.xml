@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>PurposeThis package contains the code from importlib as found in Python 2.7. It isprovided so that people who wish to use importlib.import_module() with aversion of Python prior to 2.7 or in 3.0 have the function readily available.The code in no way deviates from what can be found in the Python 2.7 standardlibrary.For documentation, see the importlib docs_ for Python 2.7... _importlib docs httpdocs.python.org2.7libraryimportlib.htmlNotice about maintenanceDue to the fact that this project is only applicable to versions of Python thatare no longer supported httpcpython-devguide.readthedocs.ioenlateststatus-of-python-branches_,there will be no further maintenance of this project. Since the code includedin this project is simply copied from Python 2.7 itself, if you need updatedfixes you can copy the files manually on your own.</longdescription>
+</pkgmetadata>

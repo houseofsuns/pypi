@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Base36 in PythonYet another implementation for the positional numeral system using 36 as the radix.Installation------------    pip install base36Usage-----    import base36    assert base36.dumps(19930503)  bv6h3    assert base36.loads(bv6h3)  19930503Issues------If you want to report bugs or request features, please create issues onGitHub Issues httpsgithub.comtonyseekpython-base36issues_.Contributes-----------You can send a pull reueqst onGitHub httpsgithub.comtonyseekpython-base36pulls_... Build Status image httpsimg.shields.iotravistonyseekpython-base36.svgstyleflat   target httpstravis-ci.orgtonyseekpython-base36   alt Build Status.. Coverage Status image httpsimg.shields.iocoverallstonyseekpython-base36.svgstyleflat   target httpscoveralls.iortonyseekpython-base36   alt Coverage Status.. Wheel Status image httpspypip.inwheelbase36badge.svgstyleflat   target httpswarehouse.python.orgprojectbase36   alt Wheel Status.. PyPI Version image httpsimg.shields.iopypivbase36.svgstyleflat   target httpspypi.python.orgpypibase36   alt PyPI Version</longdescription>
+</pkgmetadata>

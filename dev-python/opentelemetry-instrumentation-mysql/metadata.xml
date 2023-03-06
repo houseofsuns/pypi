@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>OpenTelemetry MySQL Instrumentationpypi.. pypi image httpsbadge.fury.iopyopentelemetry-instrumentation-mysql.svg   target httpspypi.orgprojectopentelemetry-instrumentation-mysqlInstrumentation with MySQL that supports the mysql-connector library and isspecified to trace_integration using MySQL.Installation------------    pip install opentelemetry-instrumentation-mysqlReferences---------- OpenTelemetry MySQL Instrumentation httpsopentelemetry-python-contrib.readthedocs.ioenlatestinstrumentationmysqlmysql.html_ OpenTelemetry Project httpsopentelemetry.io_ OpenTelemetry Python Examples httpsgithub.comopen-telemetryopentelemetry-pythontreemaindocsexamples_</longdescription>
+</pkgmetadata>

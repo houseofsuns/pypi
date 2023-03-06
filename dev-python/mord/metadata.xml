@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image httpstravis-ci.orgfabianpmord.svgbranchmaster    target httpstravis-ci.orgfabianpmordmord ordinal regression in PythonCollection of Ordinal Regression algorithms in Python, following a scikit-learn compatible API.Docs httpspythonhosted.orgmordGithub repo httpgithub.comfabianpmord</longdescription>
+</pkgmetadata>

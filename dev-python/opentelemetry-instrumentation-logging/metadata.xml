@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>OpenTelemetry logging integrationpypi.. pypi image httpsbadge.fury.iopyopentelemetry-instrumentation-logging.svg   target httpspypi.orgprojectopentelemetry-instrumentation-loggingInstallation------------    pip install opentelemetry-instrumentation-loggingReferences---------- OpenTelemetry logging integration httpsopentelemetry-python-contrib.readthedocs.ioenlatestinstrumentationlogginglogging.html_ OpenTelemetry Project httpsopentelemetry.io_ OpenTelemetry Python Examples httpsgithub.comopen-telemetryopentelemetry-pythontreemaindocsexamples_</longdescription>
+</pkgmetadata>

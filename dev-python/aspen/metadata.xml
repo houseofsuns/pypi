@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Aspen is a filesystem router for Python web frameworks. See aspen.io_ forframework wrappers... _aspen.io httpaspen.ioInstallation, Testing, and Licenseaspen is available on GitHub_ and on PyPI_     pip install aspenWe test against 64-bit Python 2.7 and Python 3.6 on Linux travisAnd we test against 32- and 64-bit Python 2.7 on Windows appveyoraspen is MIT-licensed... _GitHub httpsgithub.comAspenWebaspen.py.. _PyPI httpspypi.python.orgpypiaspen.. travis image httpsimg.shields.iotravisAspenWebaspen.pymaster.svg   target httpstravis-ci.orgAspenWebaspen.py   alt Linux build status.. appveyor image httpsimg.shields.ioappveyorciAspenWebaspen-pymaster.svg   target httpsci.appveyor.comprojectAspenWebaspen-py   alt Windows build status</longdescription>
+</pkgmetadata>

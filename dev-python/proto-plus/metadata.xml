@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Proto Plus for Pythonpypi release level docs    Beautiful, Pythonic protocol buffers.This is a wrapper around protocol buffers_. Protocol buffers is aspecification format for APIs, such as those inside Google.This library provides protocol buffer message classes and objects thatlargely behave like native Python types... _protocol buffers httpsdevelopers.google.comprotocol-buffersDocumentation-------------Documentation_ is available on Read the Docs... _documentation httpsproto-plus-python.readthedocs.ioenlatest.. pypi image httpsimg.shields.iopypivproto-plus.svg   target httpspypi.orgprojectproto-plus.. release level image httpsimg.shields.iobadgerelease20level-ga-gold.svgstylex3Dflat  target httpscloud.google.comtermslaunch-stages.. docs image httpsreadthedocs.orgprojectsproto-plus-pythonbadgeversionlatest  target httpsproto-plus-python.readthedocs.ioenlatest</longdescription>
+</pkgmetadata>

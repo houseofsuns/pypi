@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> py-dmidecodeSmall tool that parses ouput of dmidecode command How to usepythonfrom dmidecode import DMIDecodeimport subprocess create parsing instance by passing dmidecode outputdmi  DMIDecode() some of the pre-defined queriesprint(Manufacturert, dmi.manufacturer())print(Modeltt, dmi.model())print(Firmwaret, dmi.firmware())print(Serial numbert, dmi.serial_number())print(Processor typet, dmi.cpu_type())print(Number of CPUst, dmi.cpu_num())print(Cores countt, dmi.total_enabled_cores())print(Total RAMt{} GB.format(dmi.total_ram()))Alternatively instead of running dmidecode locally you can use DMIParse by passing dmidecode output as an argumentpythonfrom dmidecode import DMIParsedmi  DMIParse(raw)Other information can be easily retrieved by analyzing dmi.data and module code. Possible limitationsTested with dmidecode versions 2.11, 2.12 and 3.2</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> types-s3transfer[[PyPI - types-s3transfer](httpsimg.shields.iopypivtypes-s3transfer.svgcolorbluelabeltypes-s3transfer)](httpspypi.orgprojecttypes-s3transfer)[[PyPI - s3transfer](httpsimg.shields.iopypivs3transfer.svgcolorbluelabels3transfer)](httpspypi.orgprojects3transfer)[[PyPI - Python Version](httpsimg.shields.iopypipyversionstypes-s3transfer.svgcolorblue)](httpspypi.orgprojecttypes-s3transfer)[[PyPI - Downloads](httpsimg.shields.iopypidmtypes-s3transfercolorblue)](httpspypistats.orgpackagestypes-s3transfer)[boto3.typed](httpsgithub.comyoutypemypy_boto3_builderrawmainlogo.png)Type annotations and code completion for [s3transfer](httpspypi.orgprojects3transfer) package.This package is a part of [mypy_boto3_builder](httpsgithub.comyoutypemypy_boto3_builder) project. Installationbashpython -m pip install types-s3transfer UsageUse [mypy](httpsgithub.compythonmypy) or [pyright](httpsgithub.commicrosoftpyright) for type checking. Latest changesFull changelog can be found in [Releases](httpsgithub.comyoutypetypes-s3transferreleases). Versioningtypes-s3transfer version is the same as related s3transfer version and follows[PEP 440](httpswww.python.orgdevpepspep-0440) format. Support and contributingPlease reports any bugs or request new features in[types-s3transfer](httpsgithub.comyoutypetypes-s3transferissues) repository.</longdescription>
+</pkgmetadata>

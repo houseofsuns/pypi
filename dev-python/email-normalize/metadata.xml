@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>email-normalizeemail-normalize is a Python 3 library for returning a normalized email-addressstripping mailbox provider specific behaviors such as Plus addressing(foo+bargmail.com).Version Status Coverage LicenseExample-------.. code python    import email_normalize     Returns foogmail.com    normalized  email_normalize.normalize(f.o.o+bargmail.com)Currently Supported Mailbox Providers-------------------------------------- Apple- Fastmail- Google- Microsoft- ProtonMail- Rackspace- Yahoo- Yandex- ZohoDocumentation-------------httpemail-normalize.readthedocs.orgPython Versions Supported-------------------------3.7+.. Version image httpsimg.shields.iopypivemail-normalize.svg   target httpspypi.python.orgpypiemail-normalize.. Status image httpsgithub.comgmremail-normalizeworkflowsTestingbadge.svg   target httpsgithub.comgmremail-normalizeactionsworkflowTesting   alt Build Status.. Coverage image httpsimg.shields.iocodecovcgithubgmremail-normalize.svg   target httpscodecov.iogithubgmremail-normalizebranchmaster.. License image httpsimg.shields.iopypilemail-normalize.svg   target httpsemail-normalize.readthedocs.org</longdescription>
+</pkgmetadata>

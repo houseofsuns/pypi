@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> ClearbitA Python API client to [httpsclearbit.com](httpsclearbit.com). InstallationTo install the Clearbit Python bindings, run    pip install clearbitOr    easy_install clearbit UsageFirst authorize requests by setting the API key found on your [accounts settings page](httpsclearbit.comkeys).pythonimport clearbitclearbit.key  mykeyYou can also set the API key via the CLEARBIT_KEY environment variable.Then you can lookup people by email address. If the emails domain is corporate well also return a company response.pythonresponse  clearbit.Enrichment.find(emailalexclearbit.com,streamTrue)See the [documentation](httpsclearbit.comdocsperson-api) for more information. Company lookupYou can lookup company data by domain namepythoncompany  clearbit.Company.find(domainuber.com,streamTrue)If the company cant be found, then None will be returned.See the [documentation](httpsclearbit.comdocscompany-api) for more information. TestingSet the PYTHONPATH env var to the current directory to load the library locally    export PYTHONPATH. Deploy    python setup.py sdist upload -r pypi</longdescription>
+</pkgmetadata>

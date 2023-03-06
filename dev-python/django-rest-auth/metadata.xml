@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Welcome to django-rest-auth.. image httpstravis-ci.orgTivixdjango-rest-auth.svg    target httpstravis-ci.orgTivixdjango-rest-auth.. image httpscoveralls.ioreposTivixdjango-rest-authbadge.svg    target httpscoveralls.iorTivixdjango-rest-authbranchmaster.. image httpsreadthedocs.orgprojectsdjango-rest-authbadgeversionlatest    target httpsreadthedocs.orgprojectsdjango-rest-authbadgelatestDjango-rest-auth provides a set of REST API endpoints for Authentication and RegistrationDocumentation-------------httpdjango-rest-auth.readthedocs.orgenlatestSource code-----------httpsgithub.comTivixdjango-rest-authStack Overflow-----------httpstackoverflow.comquestionstaggeddjango-rest-auth</longdescription>
+</pkgmetadata>

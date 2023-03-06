@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Fonts RobotoRoboto is a neo-grotesque sans-serif font family designed by Google for the Android mobile OS.Preview httpsfonts.google.comspecimenRobotoSource httpsgithub.comgooglerobotoThis font has been repackaged for the Python Fonts module httpspypi.orgprojectfonts0.0.1- Initial release</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>fastdiff.. image httpsimg.shields.iopypivfastdiff.svg        target httpspypi.python.orgpypifastdiff.. image httpsimg.shields.iotravissyrusakbaryfastdiff.svg        target httpstravis-ci.orgsyrusakbaryfastdiff.. image httpsreadthedocs.orgprojectsfastdiffbadgeversionlatest        target httpsfastdiff.readthedocs.ioenlatestbadgelatest        alt Documentation Status.. image httpspyup.ioreposgithubsyrusakbaryfastdiffshield.svg     target httpspyup.ioreposgithubsyrusakbaryfastdiff     alt UpdatesA fastnative implementation of diff algorithms using WebAssembly and Wasmer_. Free software MIT licenseFeatures-------- Uses WebAssembly to achieve 75x speedup in the compare algorithm Compatible with any platformCredits-------This package was created with Cookiecutter_ and the audreyrcookiecutter-pypackage_ project template... _Wasmer httpspypi.orgprojectwasmer.. _Cookiecutter httpsgithub.comaudreyrcookiecutter.. _audreyrcookiecutter-pypackage httpsgithub.comaudreyrcookiecutter-pypackageHistory0.1.0 (2019-07-04)------------------ First release on PyPI.</longdescription>
+</pkgmetadata>

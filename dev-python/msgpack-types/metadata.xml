@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> msgpack-types [[PyPI](httpsimg.shields.iopypivmsgpack-types.svg)](httpspypi.orgprojectmsgpack-types) Type stubs for [msgpack](httpsgithub.commsgpackmsgpack-python)Allows for autocomplete and static typing. installpip install msgpack-types related- httpsgithub.comsbdchddjango-types- httpsgithub.comsbdchddjangorestframework-types- httpsgithub.comsbdchdcelery-types- httpsgithub.comsbdchdmongo-types</longdescription>
+</pkgmetadata>

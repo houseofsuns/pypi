@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Blockchain ETL CommonCommon utils for httpsgithub.comblockchain-etl. Installingbash pip3 install -e .[streaming] Running Testsbash pytest -vv </longdescription>
+</pkgmetadata>

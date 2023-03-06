@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> hiddifypanel  hiddifypanel to create multi proxy using xray mtproxy and others How to use itPlease visit httpsgithub.comhiddifyhiddify-configwiki for the installation.-- InstallationFrom sourcebashgit clone httpsgithub.comhiddifyHiddifyPanel hiddifypanelcd hiddifypanelmake installFrom pypibashpip install hiddifypanel ExecutingThis application has a CLI interface that extends the Flask CLI.Just runbash hiddifypanelorbash python -m hiddifypanelTo see the help message and usage instructions. First runbashhiddifypanel init-db    run onceecho localhost9000(hiddifypanel admin-path)hiddifypanel run Note You can also use flask run to run the application.--</longdescription>
+</pkgmetadata>

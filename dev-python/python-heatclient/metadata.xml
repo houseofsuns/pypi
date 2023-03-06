@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Team and repository tags.. image httpsgovernance.openstack.orgtcbadgespython-heatclient.svg    target httpsgovernance.openstack.orgtcreferencetagsindex.html.. Change things from this point onpython-heatclient.. image httpsimg.shields.iopypivpython-heatclient.svg    target httpspypi.orgprojectpython-heatclient    alt Latest VersionOpenStack Orchestration API Client LibraryThis is a client library for Heat built on the Heat orchestration API. Itprovides a Python API (the heatclient module) and a command-line tool(heat). Free software Apache license PyPi_ - package installation Online Documentation_ Launchpad project_ - release management Blueprints_ - feature specifications Bugs_ - issue tracking Source_ Specs_ Template_ How to Contribute_.. _PyPi httpspypi.orgprojectpython-heatclient.. _Online Documentation httpsdocs.openstack.orgpython-heatclientlatest.. _Launchpad project httpslaunchpad.netpython-heatclient.. _Blueprints httpsblueprints.launchpad.netpython-heatclient.. _Bugs httpsstoryboard.openstack.orgprojectopenstackpython-heatclient.. _Source httpsopendev.orgopenstackpython-heatclient.. _How to Contribute httpsdocs.openstack.orginframanualdevelopers.html.. _Specs httpsspecs.openstack.orgopenstackheat-specs.. _Template httpsopendev.orgopenstackheat-templates</longdescription>
+</pkgmetadata>

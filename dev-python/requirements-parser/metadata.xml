@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Requirements Parser[[Python CI](httpsgithub.commadpahrequirements-parseractionsworkflowspoetry.ymlbadge.svg)](httpsgithub.commadpahrequirements-parseractionsworkflowspoetry.yml)[[Documentation Status](httpreadthedocs.orgprojectsrequirements-parserbadgeversionlatest)](httprequirements-parser.readthedocs.ioenlatestbadgelatest)[[License](httpsimg.shields.iobadgeLicense-Apache_2.0-blue.svg)](httpsopensource.orglicensesApache-2.0)This is a small Python module for parsing [Pip](httpwww.pip-installer.org) requirement files.The goal is to parse everything in the [Pip requirement file format](httpspip.pypa.ioenstablereferencepip_installrequirements-file-format) spec.Installation    pip install requirements-parseror    poetry add requirements-parserExamplesRequirements parser can parse a file-like object or a text string. {.python} import requirements with open(requirements.txt, r) as fd...     for req in requirements.parse(fd)...         print(req.name, req.specs)Django [(, 1.11), (, 1.12)]six [(, 1.10.0)]It can handle most if not all of the options in requirement files thatdo not involve traversing the local filesystem. These include-   editables (-e git+httpsgithub.comtoastdrivenpyelasticsearch.git]{.title-ref})-   version control URIs-   egg hashes and subdirectories ([eggdjango-haystacksubdirectorysetup]{.title-ref})-   extras ([DocParser[PDF]]{.title-ref})-   URLsDocumentationFor more details and examples, the documentation is available athttprequirements-parser.readthedocs.io.Change LogChange log is available on GitHub [here]()</longdescription>
+</pkgmetadata>

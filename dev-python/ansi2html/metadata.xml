@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image httpsgithub.compycontribsansi2htmlworkflowstoxbadge.svgbranchmain   alt Build Status - main branch   target httpsgithub.compycontribsansi2htmlactionsqueryworkflow3Atox+branch3Amainansi2htmlAuthor Ralph Bean rbeanredhat.comContributor Robin Schneider ypid23aol.de.. comment split hereConvert text with ANSI color codes to HTML or to LaTeX... _pixelbeat httpswww.pixelbeat.orgdocsterminal_colours.. _blackjack httpsweb.archive.orgweb20100911103911httpwww.koders.compythonfid5D57DD37184B558819D0EE22FCFD67F53078B2A3.aspxInspired by and developed off of the work of pixelbeat_ and blackjack_.Read the docs httpsansi2html.readthedocs.io_ for more informations.Example - Python API-------------------- from ansi2html import Ansi2HTMLConverter conv  Ansi2HTMLConverter() ansi  .join(sys.stdin.readlines()) html  conv.convert(ansi)Example - Shell Usage---------------------  ls --coloralways  ansi2html  directories.html  sudo tail varlogmessages  ccze -A  ansi2html  logs.html  task rc._forcecoloryes limit0 burndown  ansi2html  burndown.htmlSee the list of full options with  ansi2html --helpGet this project-----------------  pip3 install ansi2htmlSource  httpsgithub.compycontribsansi2htmlpypi    httpspypi.orgprojectansi2htmlLicense-------ansi2html is licensed LGPLv3+.</longdescription>
+</pkgmetadata>

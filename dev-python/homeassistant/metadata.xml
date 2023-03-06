@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Home Assistant Chat StatusOpen source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.Check out home-assistant.io httpshome-assistant.io__ for ademo httpshome-assistant.iodemo__, installation instructions httpshome-assistant.iogetting-started__,tutorials httpshome-assistant.iogetting-startedautomation__ and documentation httpshome-assistant.iodocs__.screenshot-statesFeatured integrations---------------------screenshot-integrationsThe system is built using a modular approach so support for other devices or actions can be implemented easily. See also the section on architecture httpsdevelopers.home-assistant.iodocsarchitecture_index__ and the section on creating your owncomponents httpsdevelopers.home-assistant.iodocscreating_component_index__.If you run into issues while using Home Assistant or during developmentof a component, check the Home Assistant help section httpshome-assistant.iohelp__ of our website for further help and information... Chat Status image httpsimg.shields.iodiscord330944238910963714.svg   target httpsdiscord.ggc5DvZ4e.. screenshot-states image httpsraw.githubusercontent.comhome-assistantcoremasterdocsscreenshots.png   target httpshome-assistant.iodemo.. screenshot-integrations image httpsraw.githubusercontent.comhome-assistantcoredevdocsscreenshot-integrations.png   target httpshome-assistant.iointegrations</longdescription>
+</pkgmetadata>

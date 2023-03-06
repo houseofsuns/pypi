@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> marshmallow3-annotationsThis is a fork of [marshmallow-annotations](httpsgithub.comjustanrmarshmallow-annotations) which has been minimallypatched to be marshmallow 3.0.0+ compatible. All credit goes to the original author.It is available on [PyPI](httpspypi.orgprojectmarshmallow3-annotations).</longdescription>
+</pkgmetadata>

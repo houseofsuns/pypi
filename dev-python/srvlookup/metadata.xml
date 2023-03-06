@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>srvlookupA small wrapper for dnspython to return SRV records for a given host, protocol,and domain name as a list of namedtuples.Version Status Coverage LicenseInstallation------------srvlookup is available on the Python Package Index httpspypi.python.orgpypisrvlookup_. Simply.. code bash    pip install srvlookupExample-------.. code python     import srvlookup     srvlookup.lookup(api, memcached)    [SRV(host192.169.1.100, port11211, priority1, weight0, hostmemcache1.local),     SRV(host192.168.1.102, port11211, priority1, weight0, hostmemcache2.local),     SRV(host192.168.1.120, port11211, priority1, weight0, hostmemcache3.local),     SRV(host192.168.1.126, port11211, priority1, weight0, hostmemcache4.local)]    Testing-------.. code bash    python setup.py nosetestsRequirements-------------  dnspython httpspypi.python.orgpypidnspython_.. Version image httpsimg.shields.iopypivsrvlookup.svg   target httpspypi.python.orgpypisrvlookup.. Status image httpsimg.shields.iotravisgmrsrvlookup.svg   target httpstravis-ci.orggmrsrvlookup.. Coverage image httpsimg.shields.iocodecovcgithubgmrsrvlookup.svg   target httpscodecov.iogithubgmrsrvlookupbranchmaster.. License image httpsimg.shields.iopypilpika.svg   target httpspika.readthedocs.io</longdescription>
+</pkgmetadata>

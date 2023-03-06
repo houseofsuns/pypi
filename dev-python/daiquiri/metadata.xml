@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>daiquiri -- Python logging setup helper.. image httpsimg.shields.iopypivdaiquiri.svg    target httpspypi.python.orgpypidaiquiri    alt Latest VersionThe daiquiri library provides an easy way to configure logging. It alsoprovides some custom formatters and handlers.You can read the whole documentation at httpdaiquiri.readthedocs.io Free software Apache license Source httpsgithub.comMergifyiodaiquiri</longdescription>
+</pkgmetadata>

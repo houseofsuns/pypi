@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pytest-instafailbuild status_.. build status image httpstravis-ci.orgpytest-devpytest-instafail.svgbranchmaster   alt Build Status.. _build status httpstravis-ci.orgpytest-devpytest-instafailpytest-instafail is a plugin for pytest httpspytest.org_ that showsfailures and errors instantly instead of waiting until the end of test session.Requirements------------You will need the following prerequisites in order to use pytest-instafail- Python 2.7, 3.5+ or PyPy- pytest 2.9 or newerInstallation------------To install pytest-instafail     pip install pytest-instafailThen run your tests with     pytest --instafailResources---------- Issue Tracker httpsgithub.compytest-devpytest-instafailissues_- Code httpsgithub.compytest-devpytest-instafail_- Development Version  httpsgithub.compytest-devpytest-instafailzipballmastereggpytest-instafail-dev_</longdescription>
+</pkgmetadata>

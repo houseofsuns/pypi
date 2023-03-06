@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>The MythX Domain Models.. image httpsimg.shields.iopypivmythx-models.svg        target httpspypi.orgprojectmythx-models.. image httpstravis-ci.orgdmuhsmythx-models.svgbranchmaster        target httpstravis-ci.orgdmuhsmythx-models.. image httpsreadthedocs.orgprojectsmythx-modelsbadgeversionlatest        target httpsmythx-models.readthedocs.ioenlatestbadgelatest.. image httpspyup.ioreposgithubdmuhsmythx-modelsshield.svg        target httpspyup.ioreposgithubdmuhsmythx-models.. image httpscoveralls.ioreposgithubdmuhsmythx-modelsbadge.svgbranchmaster        target httpscoveralls.iogithubdmuhsmythx-modelsbranchmasterThis repository contains the domain models for the MythX_ smart contract security analysis platform... contents Table of ContentsWhat is MythX--------------MythX is a security analysis API that allows anyone to create purpose-builtsecurity tools for smart contract developers. Tools built on MythX integrateseamlessly into the development environments and continuous integrationpipelines used throughout the Ethereum ecosystem.Installation------------The MythX domain models runs on Python 3.5+.To get started, simply run.. code-block console     pip3 install mythx-modelsAlternatively, clone the repository and run.. code-block console     pip3 install .Or directly through Pythons codesetuptools.. code-block console     python3 setup.py install.. _MythX httpsmythx.io</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Telegraph[[PyPI](httpsimg.shields.iopypivtelegraph.svg)](httpspypi.python.orgpypitelegraph)[Python Versions](httpsimg.shields.iopypipyversionstelegraph.svg)[License](httpsimg.shields.iogithublicensepython273telegraph.svg)Python Telegraph API wrapper- [Documentation](httpspython-telegraph.readthedocs.ioenlatest)bash python3 -m pip install telegraph with asyncio support python3 -m pip install telegraph[aio] Examplepythonfrom telegraph import Telegraphtelegraph  Telegraph()telegraph.create_account(short_name1337)response  telegraph.create_page(    Hey,    html_contentpHello, worldp)print(response[url]) Async Examplepythonimport asynciofrom telegraph.aio import Telegraphasync def main()    telegraph  Telegraph()    print(await telegraph.create_account(short_name1337))    response  await telegraph.create_page(        Hey,        html_contentpHello, worldp,    )    print(response[url])asyncio.run(main())</longdescription>
+</pkgmetadata>

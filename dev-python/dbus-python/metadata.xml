@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>dbus-python_ Python bindings for D-Bus.. _dbus-python httpwww.freedesktop.orgwikiSoftwareDBusBindingspythondbus-python is the original Python binding for dbus, the referenceimplementation of the D-Bus protocol.Online documentation can be found athttpdbus.freedesktop.orgdocdbus-python.Problems and alternativesdbus-python might not be the best D-Bus binding for you to use. dbus-pythondoes not follow the principle of In the face of ambiguity, refuse thetemptation to guess, and cant be changed to not do so without seriouslybreaking compatibility.In addition, it uses libdbus (which has known problems with multi-threadeduse) and attempts to be main-loop-agnostic (which means you have to selecta suitable main loop for your application).Alternative ways to get your Python code onto D-Bus include GDBus, part of the GIO module of GLib_, via GObject-Introspection and  PyGI_ (uses the GLib main loop and object model) QtDBus, part of Qt_, via PyQt_ (uses the Qt main loop and object model).. _GLib httpdeveloper.gnome.orgglib.. _PyGI httpslive.gnome.orgPyGObject.. _Qt   httpswww.qt.io.. _PyQT httpwww.riverbankcomputing.co.uksoftwarepyqtintro</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> File exclude plugin for mkdocsmkdocs-exclude is a[mkdocs plugin](httpwww.mkdocs.orguser-guideplugins) that allows youto exclude files from your input using unix-style wildcards (globs) orregular expressions (regexes).This implements what people were asking for in some mkdocs bugs, such ashttpsgithub.commkdocsmkdocsissues1500 andhttpsgithub.commkdocsmkdocsissues1152. Quick start1. Install the module using pip pip3 install mkdocs-exclude2. In your project, add a plugin configuration to mkdocs.yml   yaml   plugins     - exclude         glob           - excludethispath           - .tmp           - .pdf           - .gz         regex           - ..(tmpbintar)   You can provide zero or more patterns of each type.  (If you dont provideany patterns, then nothing will happen)Note  Because of peculiarity of yaml syntax, the glob and regex linesmust not start with a dash, but the lines under them must start witha dash.Also because of yaml, patterns that start with a punctuation mark must bequoted.When writing regexes, its best to use single quotes rather than doublequotes, so that your regex backslash escapes are preserved correctly withouthaving to be doubled up.</longdescription>
+</pkgmetadata>

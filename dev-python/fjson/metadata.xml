@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>p aligncenter  a hrefhttpsgithub.comnschloefjsonimg altfjson srchttpsnschloe.github.iofjsonlogo.svg width50a  p aligncenterJSON with float formatting.pp[[PyPi Version](httpsimg.shields.iopypivfjson.svgstyleflat-square)](httpspypi.orgprojectfjson)[[PyPI pyversions](httpsimg.shields.iopypipyversionsfjson.svgstyleflat-square)](httpspypi.orgpypifjson)[[GitHub stars](httpsimg.shields.iogithubstarsnschloefjson.svgstyleflat-squarelogogithublabelStarslogoColorwhite)](httpsgithub.comnschloefjson)[[Downloads](httpspepy.techbadgefjsonmonthstyleflat-square)](httpspepy.techprojectfjson)--[[PyPi downloads](httpsimg.shields.iopypidmfjson.svgstyleflat-square)](httpspypistats.orgpackagesfjson)--[[gh-actions](httpsimg.shields.iogithubworkflowstatusnschloefjsoncistyleflat-square)](httpsgithub.comnschloefjsonactionsqueryworkflow3Aci)[[codecov](httpsimg.shields.iocodecovcgithubnschloefjson.svgstyleflat-square)](httpscodecov.ioghnschloefjson)[[Code style black](httpsimg.shields.iobadgecode20style-black-000000.svgstyleflat-square)](httpsgithub.compsfblack)The [json](httpsdocs.python.org3libraryjson.html) module in the Python standardlibrary does not allow you to specify the format in which floats are written out thefile. This module adds the float_format parameter.pythonimport mathimport fjsondata  {a 1, b math.pi}string  fjson.dumps(data, float_format.6e, indent2, separators(, ,  ))print(string)--pytest-codeblocksexpected-output--json{  a 1,  b 3.141593e+00} Licensefjson is published under the [MIT license](httpsen.wikipedia.orgwikiMIT_License).</longdescription>
+</pkgmetadata>

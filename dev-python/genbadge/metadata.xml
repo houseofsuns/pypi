@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> python-genbadgeDefine fields in python classes. Easily.[[Python versions](httpsimg.shields.iopypipyversionsgenbadge.svg)](httpspypi.python.orgpypigenbadge) [[Build Status](httpsgithub.comsmariepython-genbadgeactionsworkflowsbase.ymlbadge.svg)](httpsgithub.comsmariepython-genbadgeactionsworkflowsbase.yml) [[Tests Status](httpssmarie.github.iopython-genbadgereportsjunitjunit-badge.svgdummy8484744)](httpssmarie.github.iopython-genbadgereportsjunitreport.html) [[Coverage Status](httpssmarie.github.iopython-genbadgereportscoveragecoverage-badge.svgdummy8484744)](httpssmarie.github.iopython-genbadgereportscoverageindex.html) [[Flake8 Status](httpssmarie.github.iopython-genbadgereportsflake8flake8-badge.svgdummy8484744)](httpssmarie.github.iopython-genbadgereportsflake8index.html)[[Documentation](httpsimg.shields.iobadgedoc-latest-blue.svg)](httpssmarie.github.iopython-genbadge) [[PyPI](httpsimg.shields.iopypivgenbadge.svg)](httpspypi.python.orgpypigenbadge) [[Downloads](httpspepy.techbadgegenbadge)](httpspepy.techprojectgenbadge) [[Downloads per week](httpspepy.techbadgegenbadgeweek)](httpspepy.techprojectgenbadge) [[GitHub stars](httpsimg.shields.iogithubstarssmariepython-genbadge.svg)](httpsgithub.comsmariepython-genbadgestargazers) [[codecov](httpscodecov.ioghsmariepython-genbadgebranchmaingraphbadge.svg)](httpscodecov.ioghsmariepython-genbadge)The documentation for users is available here [httpssmarie.github.iopython-genbadge](httpssmarie.github.iopython-genbadge)A readme for developers is available here [httpsgithub.comsmariepython-genbadge](httpsgithub.comsmariepython-genbadge)</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Django-Rosetta.. image httpsgithub.commbidjango-rosettaactionsworkflowstest.ymlbadge.svg  target httpsgithub.commbidjango-rosettaactionsworkflowstest.yml.. image httpsimg.shields.iopypivdjango-rosetta  target httpspypi.orgprojectdjango-rosetta.. image httpsimg.shields.iopypildjango-rosetta  target httpsgithub.commbidjango-rosettablobdevelopLICENSERosetta is a Django httpwww.djangoproject.com_ application that facilitates the translation process of your Django projects.Because it doesnt export any models, Rosetta doesnt create any tables in your projects database. Rosetta can be installed and uninstalled by simply adding and removing a single entry in your projects INSTALLED_APPS and a single line in your main urls.py file.Note as of version 0.9.0, django-rosetta requires Django 1.11 or later, as of version 0.9.6, django-rosetta requires Django 2.2 or laterFeatures Reads and writes your projects gettext catalogs (po and mo files) Installed and uninstalled in under a minute Uses Djangos admin interface CSS.. image httpsuser-images.githubusercontent.com131808104168653-ac277e00-53fe-11eb-975e-8d46551fac59.pngDocumentationPlease refer to the online documentation httpdjango-rosetta.readthedocs.org_ to install Rosetta and get started.</longdescription>
+</pkgmetadata>

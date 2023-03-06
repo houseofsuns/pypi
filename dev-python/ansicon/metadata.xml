@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. start-badges appveyor codecov pypi supported-versions supported-implementations.. appveyor image httpsimg.shields.ioappveyorciRockhopper-Technologiesansicon.svgstyleplastic    target httpsci.appveyor.comprojectRockhopper-Technologiesansicon    alt Appveyor Build Status.. codecov image httpsimg.shields.iocoverallsgithubRockhopper-Technologiesansicon.svgstyleplastic    target httpscoveralls.iogithubRockhopper-Technologiesansicon    alt Coverage Status.. pypi image httpsimg.shields.iopypivansicon.svgstyleplastic    alt PyPI Package latest release    target httpspypi.python.orgpypiansicon.. supported-versions image httpsimg.shields.iopypipyversionsansicon.svgstyleplastic    alt Supported versions    target httpspypi.python.orgpypiansicon.. supported-implementations image httpsimg.shields.iopypiimplementationansicon.svgstyleplastic    alt Supported implementations    target httpspypi.python.orgpypiansicon.. end-badgesOverviewansicon is a Python wrapper for loading Jason Hood_s ANSICON_Installation.. code-block console     pip install ansiconUsage.. code-block python    import ansicon     Load ansicon    ansicon.load()     Have fun with terminal codes    print(ux1b[32mGreenx1b[m)     Unload ansicon    ansicon.unload()     Check if ansicon is loaded    if not ansicon.loaded()        ansicon.load()    if ansicon.loaded()        ansicon.unload().. _Jason Hood httpsgithub.comadoxa.. _ANSICON httpsgithub.comadoxaansicon</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> MyST-NB[[Github-CI][github-ci]][github-link][[Coverage Status][codecov-badge]][codecov-link][[Documentation Status][rtd-badge]][rtd-link][[PyPI][pypi-badge]][pypi-link][[Conda Version][conda-badge]][conda-link]A collection of tools for working with Jupyter Notebooks in Sphinx.The primary tool this package provides is a Sphinx parser for ipynb files.This allows you to directly convert Jupyter Notebooks into Sphinx documents.It relies heavily on the [MyST parser](httpsgithub.comexecutablebooksmyst-parser).For more information, [see the MyST-NB documentation](httpsmyst-nb.readthedocs.ioenlatest) ContributingWe welcome all contributionsSee the [Contributing Guide](httpsmyst-nb.readthedocs.ioenlatestreferencecontributing.html) for more details.[github-ci] httpsgithub.comexecutablebooksMyST-NBworkflowscontinuous-integrationbadge.svgbranchmaster[github-link] httpsgithub.comexecutablebooksMyST-NB[rtd-badge] httpsreadthedocs.orgprojectsmyst-nbbadgeversionlatest[rtd-link] httpsmyst-nb.readthedocs.ioenlatestbadgelatest[codecov-badge] httpscodecov.ioghexecutablebooksMyST-NBbranchmastergraphbadge.svg[codecov-link] httpscodecov.ioghexecutablebooksMyST-NB[pypi-badge] httpsimg.shields.iopypivmyst-nb.svg[pypi-link] httpspypi.orgprojectmyst-nb[conda-badge] httpsimg.shields.iocondavnconda-forgemyst-nb.svg[conda-link] httpsanaconda.orgconda-forgemyst-nb</longdescription>
+</pkgmetadata>

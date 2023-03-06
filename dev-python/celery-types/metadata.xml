@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> celery-types [[PyPI](httpsimg.shields.iopypivcelery-types.svg)](httpspypi.orgprojectcelery-types)Type stubs for celery related projects- [celery](httpsgithub.comcelerycelery)- [django-celery-results](httpsgithub.comcelerydjango-celery-results)- [amqp](httpgithub.comcelerypy-amqp)- [kombu](httpsgithub.comcelerykombu)- [billiard](httpsgithub.comcelerybilliard)- [vine](httpsgithub.comceleryvine)- [ephem](httpsgithub.combrandon-rhodespyephem) installshellpip install celery-typesYoull also need to monkey patch Task so generic params can be providedpythonfrom celery.app.task import TaskTask.__class_getitem__  classmethod(lambda cls, args, kwargs cls) devshellpoetry install run formatting, linting, and typecheckingslint build and publishpoetry publish --build related- httpsgithub.comsbdchddjango-types- httpsgithub.comsbdchddjangorestframework-types- httpsgithub.comsbdchdmongo-types- httpsgithub.comsbdchdmsgpack-types</longdescription>
+</pkgmetadata>

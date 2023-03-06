@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[[](httpsimg.shields.iopypivtendo.svgcolorBgreen)](httpspypi.python.orgpypitendo)[[](httpsimg.shields.iocodecovcgithubpycontribstendomain.svg)](httpscodecov.ioghpycontribstendo)[[](httpsreadthedocs.orgprojectstendobadgeversionlatest)](httptendo.readthedocs.io) tendoTendo is a python module that adds basic functionality that isnot provided by Python. Read the [documentation](httpstendo.readthedocs.orgenlatest) for more info.- [transparent Unicode support for text file operations (BOM detection)](httpstendo.readthedocs.orgenlatestmodule-tendo.singleton)- [console logging coloring](httpstendo.readthedocs.orgenlatestmodule-tendo.colorer)- enable you to use symlinks under windows- [python tee implementation](httpstendo.readthedocs.orgenlatestmodule-tendo.colorer) for executing external programs and redirecting their output to both consolefile- [improved execfile](httpstendo.readthedocs.orgenlatestmodule-tendo.execfile2) Requirements and compatibility- python 3.6 or newer- tox for running tests Related projects and packages- jaraco - httppypi.python.orgpypijaraco.util- pexpect (maybe)</longdescription>
+</pkgmetadata>

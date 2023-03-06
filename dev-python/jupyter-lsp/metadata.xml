@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> jupyter-lspMulti-[Language Server][language-server] WebSocket proxy for your Jupyternotebook or lab server. For Python 3.6+. See the parent of this repository, [jupyterlab-lsp](httpsgithub.comjupyter-lspjupyterlab-lsp) for the reference client implementation for [JupyterLab][]. Language Serversjupyter-lsp does not come with any Language Servers Learn more about installingand configuring [language servers][language servers docs][language-server] httpsmicrosoft.github.iolanguage-server-protocolspecification[langserver] httpslangserver.org[lsp-implementations] httpsmicrosoft.github.iolanguage-server-protocolimplementorsservers[jupyter-lsp] httpsgithub.comjupyter-lspjupyterlab-lsp.git[jupyterlab] httpsgithub.comjupyterlabjupyterlab[language servers docs] httpsjupyterlab-lsp.readthedocs.ioenlatestLanguage20Servers.html</longdescription>
+</pkgmetadata>

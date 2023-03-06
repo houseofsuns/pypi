@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[[pre-commit.ci status](httpsresults.pre-commit.cibadgegithubasottiletypes-allmaster.svg)](httpsresults.pre-commit.cilatestgithubasottiletypes-allmaster)types-allA shim for the typeshed changes in mypy 0.900 installationpip install types-all why--install-types is annoying, this installs all the things in [typeshed]error Library stubs not installed for toml (or incompatible with Python 3.8)(for pre-commit, use something like this)yaml-   repo httpsgithub.compre-commitmirrors-mypy    rev v0.902    hooks    -   id mypy        additional_dependencies [types-all][typeshed] httpsgithub.compythontypeshed</longdescription>
+</pkgmetadata>

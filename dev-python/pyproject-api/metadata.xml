@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> [pyproject-api](httpspyproject-api.readthedocs.ioenlatest)[[PyPI](httpsimg.shields.iopypivpyproject-apistyleflat-square)](httpspypi.orgprojectpyproject-api)[[Supported Pythonversions](httpsimg.shields.iopypipyversionspyproject-api.svg)](httpspypi.orgprojectpyproject-api)[[Downloads](httpspepy.techbadgepyproject-apimonth)](httpspepy.techprojectpyproject-apimonth)[[check](httpsgithub.comtox-devpyproject-apiactionsworkflowscheck.ymlbadge.svg)](httpsgithub.comtox-devpyproject-apiactionsworkflowscheck.yml)[[Code styleblack](httpsimg.shields.iobadgecode20style-black-000000.svg)](httpsgithub.compsfblack)[[Documentation Status](httpsreadthedocs.orgprojectspyproject-apibadgeversionlatest)](httpspyproject-api.readthedocs.ioenlatestbadgelatest)</longdescription>
+</pkgmetadata>

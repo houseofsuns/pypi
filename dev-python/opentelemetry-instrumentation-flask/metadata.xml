@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>OpenTelemetry Flask Tracingpypi.. pypi image httpsbadge.fury.iopyopentelemetry-instrumentation-flask.svg   target httpspypi.orgprojectopentelemetry-instrumentation-flaskThis library builds on the OpenTelemetry WSGI middleware to track web requestsin Flask applications.Installation------------    pip install opentelemetry-instrumentation-flaskReferences---------- OpenTelemetry Flask Instrumentation httpsopentelemetry-python-contrib.readthedocs.ioenlatestinstrumentationflaskflask.html_ OpenTelemetry Project httpsopentelemetry.io_ OpenTelemetry Python Examples httpsgithub.comopen-telemetryopentelemetry-pythontreemaindocsexamples_</longdescription>
+</pkgmetadata>

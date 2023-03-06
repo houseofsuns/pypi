@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[[Build Status](httpstravis-ci.orgdavidsa03numerize.svgbranchmaster)](httpstravis-ci.orgdavidsa03numerize)[Python 2.7](httpsimg.shields.iobadgepython-2.7-green.svg)[Python 3.6](httpsimg.shields.iobadgepython-3.6-green.svg)[[license](httpsimg.shields.iogithublicensemashapeapistatus.svgmaxAge2592000)](httpsgithub.comdavidsa03numerizeblobmasterLICENSE) NumerizeNumerize is a Python (2 and 3) library for converting large numbers into readable strings.Similar to what Twitter and Instagram use for large follower counts. Number  Numerized --------------- 1   1   1000   1K   1500   1.5K   1000000   1M   1500000   1.5M   1000000000   1B   1500000000   1.5B   1000000000000   1T   1500000000000   1.5T   21324314        21.32M -21324314        -21.32M Installation pip install numerize Usagenumerize(number_to_numerize, decimal_places_to_round[optional]) from numerize import numerize numerize(1234567.12)1.23M numerize(12134.123, 3)12.134KThis will convert large numbers like 1234567.12 into 1.23M Requirements- Python  2.7 or  3.4 Contributing[How to contribute](httpsgithub.comdavidsa03numerizeblobmasterCONTRIBUTING.md) Testing python numerizetest.py LicenseMIT licensed.</longdescription>
+</pkgmetadata>

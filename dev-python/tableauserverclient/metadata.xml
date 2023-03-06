@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Tableau Server Client (Python)[[Tableau Supported](httpsimg.shields.iobadgeSupport20Level-Tableau20Supported-53bd92.svg)](httpswww.tableau.comsupport-levels-it-and-developer-tools) [[Build Status](httpsgithub.comtableauserver-client-pythonactionsworkflowsrun-tests.ymlbadge.svg)](httpsgithub.comtableauserver-client-pythonactions)[[FOSSA Status](httpsapp.fossa.comapiprojectsgit2Bgithub.com2Ftableau2Fserver-client-python.svgtypeshield)](httpsapp.fossa.comprojectsgit2Bgithub.com2Ftableau2Fserver-client-pythonrefbadge_shield)Use the Tableau Server Client (TSC) library to increase your productivity as you interact with the Tableau Server REST API. With the TSC library you can do almost everything that you can do with the REST API, including Publish workbooks and data sources. Create users and groups. Query projects, sites, and more.This repository contains Python source code for the library and sample files showing how to use it. As of May 2022, Python versions 3.7 and up are supported.To see sample code that works directly with the REST API (in Java, Python, or Postman), visit the [REST API Samples](httpsgithub.comtableaurest-api-samples) repo.For more information on installing and using TSC, see the documentationhttpstableau.github.ioserver-client-pythondocs  License[[FOSSA Status](httpsapp.fossa.comapiprojectsgit2Bgithub.com2Ftableau2Fserver-client-python.svgtypelarge)](httpsapp.fossa.comprojectsgit2Bgithub.com2Ftableau2Fserver-client-pythonrefbadge_large)</longdescription>
+</pkgmetadata>

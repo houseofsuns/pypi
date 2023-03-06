@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[logo pykeops](httpwww.kernel-operations.iokeops_imageskeops_logo.png)keopscore contains the [KeOps](httpswww.kernel-operations.io) meta programming engine. Given a formula, it generates the c++cuda code executed on the fly.  Usage This modules is for developers only and should be used only through bindings (e.g. [pykeops](httpspypi.orgprojectpykeops) or [Rkeops](httpscran.r-project.orgwebpackagesrkeopsindex.html)) [Documentation](httpswww.kernel-operations.io) [Code](httpsgithub.comgetkeopskeops) Authors- [Benjamin Charlier](httpsimag.umontpellier.frcharlier)- [Jean Feydy](httpswww.math.ens.frfeydy)- [Joan Alexis Glauns](httpswww.mi.parisdescartes.frglaunes)</longdescription>
+</pkgmetadata>

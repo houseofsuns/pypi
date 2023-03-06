@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Google Cloud Python Client    Python idiomatic client for Google Cloud Platform_ services.    WARNING The google-cloud Python package is deprecated. On June 18, 2018,    this package will no longer install any other packages. Please install the    product-specific google-cloud- packages__ needed for your application... __ httpsgithub.comGoogleCloudPlatformgoogle-cloud-pythongoogle-cloud-python-client.. _Google Cloud Platform httpscloud.google.compypi circleci appveyor coverage versions-  Homepage_-  API Documentation_-  Read The Docs Documentation_.. _Homepage httpsgooglecloudplatform.github.iogoogle-cloud-python.. _API Documentation httpsgooglecloudplatform.github.iogoogle-cloud-pythonlatest.. _Read The Docs Documentation httpsgoogle-cloud-python.readthedocs.ioenlatestLicense-------Apache 2.0 - See the LICENSE_ for more information... _the LICENSE httpsgithub.comGoogleCloudPlatformgoogle-cloud-pythonblobmasterLICENSE.. circleci image httpscircleci.comghGoogleCloudPlatformgoogle-cloud-python.svgstyleshield   target httpscircleci.comghGoogleCloudPlatformgoogle-cloud-python.. appveyor image httpsci.appveyor.comapiprojectsstatusgithubgooglecloudplatformgoogle-cloud-pythonbranchmastersvgtrue   target httpsci.appveyor.comprojectGoogleCloudPlatformgoogle-cloud-python.. coverage image httpscoveralls.ioreposGoogleCloudPlatformgoogle-cloud-pythonbadge.svgbranchmaster   target httpscoveralls.iorGoogleCloudPlatformgoogle-cloud-pythonbranchmaster.. pypi image httpsimg.shields.iopypivgoogle-cloud.svg   target httpspypi.orgprojectgoogle-cloud.. versions image httpsimg.shields.iopypipyversionsgoogle-cloud.svg   target httpspypi.orgprojectgoogle-cloud</longdescription>
+</pkgmetadata>

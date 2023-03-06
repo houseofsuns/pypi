@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>mixboxA library of common code leveraged by python-cybox, python-maec, and python-stix.travis_badge landscape_io_badge version_badge.. travis_badge image httpsapi.travis-ci.orgCybOXProjectmixbox.svgbranchmaster   target httpstravis-ci.orgCybOXProjectmixbox   alt Build Status.. landscape_io_badge image httpslandscape.iogithubCybOXProjectmixboxmasterlandscape.svgstyleflat   target httpslandscape.iogithubCybOXProjectmixboxmaster   alt Code Health.. version_badge image httpsimg.shields.iopypivmixbox.svgmaxAge3600   target httpspypi.python.orgpypimixbox   alt VersionDeveloping----------To set up an environment to develop mixbox.. code bash    Create a new virtualenv    mkvirtualenv mixbox    Change to this directory and install requirements    cd pathtomixbox    pip install -r requirements.txt    Install python-cybox, python-maec, and python-stix in develop mode.    pip install -e pathtopython-cybox    pip install -e pathtopython-maec    pip install -e pathtopython-stixThen you can make changes to the mixbox library and ensure the test cases forthe corresponding projects continue to pass (using tox or nosetests).Releasing---------.. code bash     bumpversion patch     git push origin master --tags     rm dist     python setup.py sdist bdist_wheel     twine upload dist</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[[PyPI version](httpsbadge.fury.iopyjapanize-matplotlib.svg)](httpsbadge.fury.iopyjapanize-matplotlib) japanize-matplotlibmatplotlib  matplotlibimportjapanize_matplotlibimportpythonimport matplotlib.pyplot as pltimport japanize_matplotlibplt.plot([1, 2, 3, 4])plt.xlabel()plt.show()[demo](httpsraw.githubusercontent.comuehara1414japanize-matplotlibmasterdemo.pngtokenAOnChuZIQchUxiL0U8qlW633FM-RMSuvks5bxW8zwA3D3D demo) sh pipenvpipenv install japanize-matplotlib pippip install japanize-matplotlib IPAIPAex(Ver.003.01)[IPAv1.0](httpsgithub.comuehara1414japanize-matplotlibblobmasterjapanize_matplotlibfontsIPA_Font_License_Agreement_v1.0.txt) FAQ import japanize_matplotlib  [1](httpsgithub.comuehara1414japanize-matplotlibissues1)import japanize_matplotlib  matplotlib seaborn  sns.set()  seaborn sns.set(fontIPAexGothic)  IPAexGothic  japanize_matplotlib.japanize()  import  japanize_matplotlib.japanize()  import  noqa   japanize-matplotlib  import  japanize_matplotlib import</longdescription>
+</pkgmetadata>

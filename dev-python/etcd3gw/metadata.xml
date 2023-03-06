@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> etcd3 gateway Python Client[[Build Status](httpstravis-ci.orgdimsetcd3-gateway.svgbranchmaster)](httpstravis-ci.orgdimsetcd3-gateway)[[PyPI version](httpsbadge.fury.iopyetcd3gw.svg)](httpsbadge.fury.iopyetcd3gw)[[codecov](httpscodecov.ioghdimsetcd3-gatewaybranchmastergraphbadge.svg)](httpscodecov.ioghdimsetcd3-gateway Non-generated packages only)[[pypi status](httpsimg.shields.iopypistatusetcd3gw.svg)](httpspypi.python.orgpypietcd3gw)[[pypi supported versions](httpsimg.shields.iopypipyversionsetcd3gw.svg)](httpspypi.python.orgpypietcd3gw)A python client for etcd3 grpc-gateway v3 API</longdescription>
+</pkgmetadata>

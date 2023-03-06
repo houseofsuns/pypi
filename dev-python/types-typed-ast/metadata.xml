@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Typing stubs for typed-astThis is a PEP 561 type stub package for the typed-ast package. Itcan be used by type-checking tools like[mypy](httpsgithub.compythonmypy),[pyright](httpsgithub.commicrosoftpyright),[pytype](httpsgithub.comgooglepytype),PyCharm, etc. to check code that usestyped-ast. The source for this package can be found athttpsgithub.compythontypeshedtreemainstubstyped-ast. All fixes fortypes and metadata should be contributed there.See httpsgithub.compythontypeshedblobmainREADME.md for more details.This package was generated from typeshed commit 880c0da4045cd5ff2c29b73429629adf27e49d50.</longdescription>
+</pkgmetadata>

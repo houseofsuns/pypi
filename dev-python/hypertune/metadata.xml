@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[[License Apache 2](httpsimg.shields.iobadgeLicense-apache2-green.svg)](LICENSE)[[hypertune](httpsgithub.compolyaxonhypertuneactionsworkflowshypertune.ymlbadge.svg)](httpsgithub.compolyaxonhypertuneactionsworkflowshypertune.yml)[[Slack](httpsimg.shields.iobadgechat-on20slack-aadada.svglogoslacklongCachetrue)](httpspolyaxon.comslack)[[Docs](httpsimg.shields.iobadgedocs-stable-brightgreen.svgstyleflat)](httpspolyaxon.comdocs)[[GitHub](httpsimg.shields.iobadgeissue_tracker-github-bluelogogithub)](httpsgithub.compolyaxonpolyaxonissues)[[GitHub](httpsimg.shields.iobadgeroadmap-github-bluelogogithub)](httpsgithub.compolyaxonpolyaxonmilestones)brp aligncenter  p aligncenter    img srchttpsraw.githubusercontent.compolyaxonpolyaxonmasterartifactspackageshypertune.svg althypertune height100  ppbr hypertuneA library for performing hyperparameter optimization. Installbashpip install polyaxon hypertune</longdescription>
+</pkgmetadata>

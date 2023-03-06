@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Team and repository tags.. image httpsgovernance.openstack.orgtcbadgespython-magnumclient.svg    target httpsgovernance.openstack.orgtcreferencetagsindex.html.. Change things from this point onPython bindings to the Magnum API.. image httpsimg.shields.iopypivpython-magnumclient.svg    target httpspypi.orgprojectpython-magnumclient    alt Latest Version.. image httpsimg.shields.iopypidmpython-magnumclient.svg    target httpspypi.orgprojectpython-magnumclient    alt DownloadsThis is a client library for Magnum built on the Magnum API. Itprovides a Python API (the magnumclient module) and a command-linetool (magnum).Development takes place via the usual OpenStack processes as outlinedin the developer guidehttpsdocs.openstack.orginframanualdevelopers.html_. License Apache License, Version 2.0 PyPi_ - package installation Online Documentation_ Storyboard project_ - story and task management Bugs_ - issue tracking Source_.. _PyPi httpspypi.orgprojectpython-magnumclient.. _Online Documentation httpsdocs.openstack.orgpython-magnumclientlatest.. _Storyboard project httpsstoryboard.openstack.orgprojectopenstackpython-magnumclient.. _Bugs httpsstoryboard.openstack.orgprojectopenstackpython-magnumclient.. _Source httpsopendev.orgopenstackpython-magnumclient</longdescription>
+</pkgmetadata>

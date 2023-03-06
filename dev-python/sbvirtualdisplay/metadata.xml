@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> sbVirtualDisplay () [[](httpsimg.shields.iopypivsbvirtualdisplay.svg)](httpspypi.python.orgpypisbvirtualdisplay)A customized [pyvirtualdisplay](httpsgithub.compontyPyVirtualDisplay) for use with [SeleniumBase](httpsgithub.comseleniumbaseSeleniumBase) automation. Usage examplepythonfrom sbvirtualdisplay import Displaydisplay  Display(visible0, size(1440, 1880))display.start() Run browser tests in a headless environmentdisplay.stop() Or as a context managerpythonwith Display(visible0, size(1440, 1880))     Run browser tests in a headless environment    ... When to useIf you need to run browser tests on a headless machine (such as a Linux backend), and you cant use a browsers headless mode (such as Chromes headless mode), then this may help. For example, Chrome does not allow extensions in headless mode, so if you need to run automated tests on a headless Linux machine and you need to use Chrome extensions, then this will let you run those tests using a virtual display. More info [Xvfb](httpsen.wikipedia.orgwikiXvfb) is required for this to work.</longdescription>
+</pkgmetadata>

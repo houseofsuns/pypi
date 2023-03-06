@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>S3cmd lets you copy files fromto Amazon S3(Simple Storage Service) using a simple to usecommand line client. Supports rsync-like backup,GPG encryption, and more. Also supports managementof Amazons CloudFront content delivery network.Authors--------    Florent Viard florentsodria.com    Michal Ludvig  michallogix.cz    Matt Domsch (github.commdomsch)</longdescription>
+</pkgmetadata>

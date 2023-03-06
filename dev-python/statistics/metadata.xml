@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>statistics - Mathematical statistics functionsA port of Python 3.4 statistics module to Python 2., initially done through the 3to2 tool httpspypi.python.orgpypi3to2_.This module provides functions for calculating mathematical statistics of numeric (Real-valued) data.SourcesRelevant links This package httpsgithub.comdigitalemaginepy-statistics Official Python documentation httpsdocs.python.org3librarystatistics.html Original PEP 450 httpwww.python.orgdevpepspep-0450 Original source code httpsgithub.compythoncpythonblobmasterLibstatistics.py (alt httpshg.python.orgcpythonfile3.4Libstatistics.py_) Original source documentation httpsgithub.compythoncpythonblobmasterDoclibrarystatistics.rstTODOMake a version for Python 3.0 - 3.2 (httppythonhosted.orgsetuptoolspython3.html)</longdescription>
+</pkgmetadata>

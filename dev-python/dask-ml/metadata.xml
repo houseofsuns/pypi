@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Dask-MLBuild Status Azure Pipelines Coverage Doc Status Discourse Version Status NumFOCUSDask-ML provides scalable machine learning in Python using Dask httpsdask.org__ alongside popular machine learning libraries like Scikit-Learn httpscikit-learn.org__, XGBoost httpsml.dask.orgxgboost.html__, and others.You can try Dask-ML on a small cloud instance by clicking the following button.. image httpsmybinder.orgbadge.svg   target httpsmybinder.orgv2ghdaskdask-examplesmainfilepathmachine-learning.ipynbLICENSE-------New BSD. See License File httpsgithub.comdaskdask-mlblobmainLICENSE.txt__... _documentation httpsdask.org.. Build Status image httpsgithub.comdaskdask-mlworkflowsCIbadge.svgbranchmain   target httpsgithub.comdaskdask-mlactionsqueryworkflow3A22CI22.. Azure Pipelines image httpsdev.azure.comdask-devdask_apisbuildstatusdask.dask-mlbranchNamemain   target httpsdev.azure.comdask-devdask_buildlatestdefinitionId1branchNamemain.. Coverage image httpscodecov.ioghdaskdask-mlbranchmaingraphbadge.svg   target httpscodecov.ioghdaskdask-mlbranchmain   alt Coverage status.. Doc Status image httpsreadthedocs.orgprojectsmlbadgeversionlatest   target httpsml.dask.org   alt Documentation Status.. Discourse image httpsimg.shields.iodiscourseuserslogodiscourseserverhttps3A2F2Fdask.discourse.group   alt Discuss Dask-related things and ask for help   target httpsdask.discourse.group.. Version Status image httpsimg.shields.iopypivdask-ml.svg   target httpspypi.python.orgpypidask-ml.. NumFOCUS image httpsimg.shields.iobadgepowered20by-NumFOCUS-orange.svgstyleflatcolorAE1523DcolorB007D8A   target httpswww.numfocus.org</longdescription>
+</pkgmetadata>

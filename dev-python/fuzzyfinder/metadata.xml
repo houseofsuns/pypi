@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>fuzzyfinder.. image httpsimg.shields.iotravisamjithfuzzyfinder.svg        target httpstravis-ci.orgamjithfuzzyfinder.. image httpsimg.shields.iopypivfuzzyfinder.svg        target httpspypi.python.orgpypifuzzyfinderFuzzy Finder implemented in Python. Matches partial string entries from a listof strings. Works similar to fuzzy finder in SublimeText and Vims Ctrl-Pplugin. Documentation httpsfuzzyfinder.readthedocs.org. Source httpsgithub.comamjithfuzzyfinder.. image httpsraw.githubusercontent.comamjithfuzzyfindermasterscreenshotspgcli-fuzzy.gif Quick Start-----------     pip install fuzzyfinder    or      easy_install fuzzyfinderUsage-----     from fuzzyfinder import fuzzyfinder     suggestions  fuzzyfinder(abc, [abcd, defabca, aagbec, xyz, qux])     list(suggestions)    [abcd, defabca, aagbec]Features-------- Simple, easy to understand code. No external dependencies, just the python std lib.How does it work----------------Blog post describing the algorithm httpblog.amjith.comfuzzyfinder-in-10-lines-of-pythonSimilar Projects---------------- httpsgithub.comseatgeekfuzzywuzzy - Fuzzy matching and auto-correction using levenshtein distance.Changelog---------2.0.0 (2017-01-25)--------------------- Case insensitive matching. (Gokul Soumya) Add an accessor function for fuzzy find. (Amjith) Support integer inputs. (Matheus)2.1.0 (2017-01-25)--------------------- Use lookahead regex to find shortest match. (Gokul Soumya)</longdescription>
+</pkgmetadata>

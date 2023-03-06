@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Web Core[[Unit tests](httpsgithub.comsweetrpgweb-coreactionsworkflowspython-ci.ymlbadge.svg)](httpsgithub.comsweetrpgweb-coreactionsworkflowspython-ci.yml)[[Coverage](httpsgithub.comsweetrpgweb-coreblobdevelopcoverage.svg)](httpsgithub.comsweetrpgweb-core)[[PyPI version](httpsbadgen.netpypivsweetrpg-web-core)](httpspypi.orgprojectsweetrpg-web-core)[[License](httpsimg.shields.iogithublicensesweetrpgweb-core.svg)](httpsimg.shields.iogithublicensesweetrpgweb-core.svg)[[Issues](httpsimg.shields.iogithubissuessweetrpgweb-core.svg)](httpsimg.shields.iogithubissuessweetrpgweb-core.svg)[[PRs](httpsimg.shields.iogithubissues-prsweetrpgweb-core.svg)](httpsimg.shields.iogithubissues-prsweetrpgweb-core.svg)[[Dependabot](httpsbadgen.netgithubdependabotsweetrpgweb-core)](httpsbadgen.netgithubdependabotsweetrpgweb-core)[[Python](httpsimg.shields.iobadgePython-3776ABstylefor-the-badgelogopythonlogoColorwhite)](httpsimg.shields.iobadgePython-3776ABstylefor-the-badgelogopythonlogoColorwhite)[[Built with love](httpsForTheBadge.comimagesbadgesbuilt-with-love.svg)](httpsForTheBadge.comimagesbadgesbuilt-with-love.svg)Put something useful here. DocumentationDocumentation for this package can be found [here](httpssweetrpg.github.ioweb-core).</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>OpenTelemetry Google Cloud Monitoring Exporter.. image httpsbadge.fury.iopyopentelemetry-exporter-gcp-monitoring.svg    target httpsbadge.fury.iopyopentelemetry-exporter-gcp-monitoring.. image httpsreadthedocs.orgprojectsgoogle-cloud-opentelemetrybadgeversionlatest    target httpsgoogle-cloud-opentelemetry.readthedocs.ioenlatestbadgelatest    alt Documentation StatusThis library provides support for exporting metrics to Google CloudMonitoring.For resource detection and GCP trace context propagation, seeopentelemetry-tools-google-cloudhttpspypi.orgprojectopentelemetry-tools-google-cloud_. For theGoogle Cloud Trace exporter, see opentelemetry-exporter-gcp-tracehttpspypi.orgprojectopentelemetry-exporter-gcp-trace_.Installation------------.. code bash    pip install opentelemetry-exporter-gcp-monitoringUsage-----.. code python    import time    from opentelemetry import metrics    from opentelemetry.exporter.cloud_monitoring import (        CloudMonitoringMetricsExporter,    )    from opentelemetry.sdk.metrics import Counter, MeterProvider    metrics.set_meter_provider(MeterProvider())    meter  metrics.get_meter(__name__)    metrics.get_meter_provider().start_pipeline(        meter, CloudMonitoringMetricsExporter(), 5    )    requests_counter  meter.create_counter(        namerequest_counter,        descriptionnumber of requests,        unit1,        value_typeint    )    staging_labels  {environment staging}    for i in range(20)        requests_counter.add(25, staging_labels)        time.sleep(10)References---------- Cloud Monitoring httpscloud.google.commonitoring_ OpenTelemetry Project httpsopentelemetry.io_</longdescription>
+</pkgmetadata>

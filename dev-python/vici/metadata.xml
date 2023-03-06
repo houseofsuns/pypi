@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>About-----The strongSwan VICI protocol allows external applications to monitor, configureand control the IKE daemon charon. This Python package provides a native clientside implementation of the VICI protocol, well suited to script automated tasksin a reliable way.Example Usage-------------.. code-block python     import vici     s  vici.Session()     s.version()    OrderedDict([(daemon, bcharon), (version, b5.4.0),    (sysname, bLinux), (release, b3.13.0-27-generic), (machine, bx86_64)])     s.load_pool({p1 {addrs 10.0.0.024}})    OrderedDict([(success, byes)])     s.get_pools()    OrderedDict([(p1, OrderedDict([(base, b10.0.0.0), (size, b254),    (online, b0), (offline, b0)]))])</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[[CircleCI](httpscircleci.comghnf1sfastapi-camelcase.svgstyleshield)](httpscircleci.comghnf1sfastapi-camelcase) [[codecov](httpscodecov.ioghnf1sfastapi-camelcasebranchmastergraphbadge.svg)](httpscodecov.ioghnf1sfastapi-camelcase) [[Downloads](httpspepy.techbadgefastapi-camelcase)](httpspepy.techprojectfastapi-camelcase) [GitHub Pipenv locked Python version](httpsimg.shields.iogithubpipenvlockedpython-versionnf1sfastapi-camelcase) [GitHub](httpsimg.shields.iogithublicensenf1sfastapi-camelcase) Fastapi CamelcasePackage for providing a class for camelizing request and response bodies for fastapiwhile keeping your python code snake cased.Full documentation can be found [here](httpsnf1s.github.iofastapi-camelcase) How to installbashpip install fastapi-camelcase Dependencies    pydantic    pyhumps How to usepython using CamelModel instead of Pydantic BaseModelfrom fastapi_camelcase import CamelModelclass User(CamelModel)    first_name str    last_name str    age int How to use (full example)pythonimport uvicornfrom fastapi import FastAPIfrom fastapi_camelcase import CamelModelclass User(CamelModel)    first_name str    last_name str    age intapp  FastAPI()app.get(userget, response_modelUser)async def get_user()    return User(first_nameJohn, last_nameDoe, age30)app.post(usercreate, response_modelUser)async def create_user(user User)    return userif __name__  __main__    uvicorn.run(app, host0.0.0.0, port8000)</longdescription>
+</pkgmetadata>

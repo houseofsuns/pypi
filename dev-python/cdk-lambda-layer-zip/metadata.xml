@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> AWS Lambda Layer with zip[[NPM version](httpsbadge.fury.iojscdk-lambda-layer-zip.svg)](httpsbadge.fury.iojscdk-lambda-layer-zip)[[PyPI version](httpsbadge.fury.iopycdk-lambda-layer-zip.svg)](httpsbadge.fury.iopycdk-lambda-layer-zip)[Release](httpsgithub.comclarencetwcdk-lambda-layer-zipworkflowsreleasebadge.svg)[[Gitpod Ready-to-Code](httpsimg.shields.iobadgeGitpod-ready--to--code-bluelogogitpod)](httpsgitpod.iohttpsgithub.comclarencetwcdk-lambda-layer-zip)Usagepython ZipLayer bundles the tar gzip 7z in a lambda layerimport { ZipLayer } from cdk-lambda-layer-zipdeclare const fn lambda.Functionfn.addLayers(new ZipLayer(this, ZipLayer))pythonimport { ZipLayer } from cdk-lambda-layer-zipimport  as lambda from aws-cdk-libaws-lambdanew lambda.Function(this, MyLambda, {  code lambda.Code.fromAsset(path.join(__dirname, my-lambda-handler)),  handler index.main,  runtime lambda.Runtime.PYTHON_3_9,  layers [new ZipLayer(this, ZipLayer)]})</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> virtualenv[[PyPI](httpsimg.shields.iopypivvirtualenvstyleflat-square)](httpspypi.orgprojectvirtualenv)[[PyPI - Implementation](httpsimg.shields.iopypiimplementationvirtualenvstyleflat-square)](httpspypi.orgprojectvirtualenv)[[PyPI - Python Version](httpsimg.shields.iopypipyversionsvirtualenvstyleflat-square)](httpspypi.orgprojectvirtualenv)[[Documentation](httpsreadthedocs.orgprojectsvirtualenvbadgeversionlateststyleflat-square)](httpvirtualenv.pypa.io)[[Discord](httpsimg.shields.iodiscord803025117553754132)](httpsdiscord.ggpypa)[[PyPI - Downloads](httpsimg.shields.iopypidmvirtualenvstyleflat-square)](httpspypistats.orgpackagesvirtualenv)[[PyPI - License](httpsimg.shields.iopypilvirtualenvstyleflat-square)](httpsopensource.orglicensesMIT)[[Build Status](httpsgithub.compypavirtualenvworkflowscheckbadge.svgbranchmaineventpush)](httpsgithub.compypavirtualenvactionsqueryworkflow3Acheck)[[Code styleblack](httpsimg.shields.iobadgecode20style-black-000000.svgstyleflat-square)](httpsgithub.compsfblack)A tool for creating isolated virtual python environments.- [Installation](httpsvirtualenv.pypa.ioenlatestinstallation.html)- [Documentation](httpsvirtualenv.pypa.io)- [Changelog](httpsvirtualenv.pypa.ioenlatestchangelog.html)- [Issues](httpsgithub.compypavirtualenvissues)- [PyPI](httpspypi.orgprojectvirtualenv)- [Github](httpsgithub.compypavirtualenv) Code of ConductEveryone interacting in the virtualenv projects codebases, issue trackers, chat rooms, and mailing lists is expected tofollow the [PSF Code of Conduct](httpsgithub.compypa.githubblobmainCODE_OF_CONDUCT.md).</longdescription>
+</pkgmetadata>

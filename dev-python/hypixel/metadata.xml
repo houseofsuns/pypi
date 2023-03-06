@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Hypixel Python wrapper for the Hypixel-API... image httpsi.imgur.comeFWzNiy.png    target httpsgitlab.comSnuggiehypixel.py    alt hypixel.py Logo------------------.. image httpsimg.shields.iobadgehypixel--api-python-brightgreen.svgcolorA2d2306colorB705810    target httpsapi.hypixel.net    alt Hypixel API - Python.. image httpsimg.shields.iopypivhypixel.svgcolorA2d2306colorB705810    target httpspypi.orgprojecthypixel    alt PiPy Version.. image httpsimg.shields.iobadgebuild-not yet implemented (-brightgreen.svgcolorA2d2306colorB705810    target httpsgitlab.comSnuggIehypixel.pypipelines    alt Travis Ci Build.. image httpsimg.shields.iopypipyversionshypixel.svgcolorA2d2306colorB705810    target httpspypi.orgprojecthypixel    alt Supported Python Versions.. image httpsimg.shields.iobadgemade20by-snuggle2020hypixel20moderator-brightgreen.svgcolorA2d2306colorB705810    target httpshypixel.netplayerSnuggle    alt Made by SnuggleThis is a simple, unofficial Python library which allows you to get values from the Hypixel-API using a JSON request. Designed for use with the latest version of Python with two previous versions also tested.Please see httpsgitlab.comSnuggiehypixel.py httpsgitlab.comSnuggiehypixel.py_ for installationusage information.</longdescription>
+</pkgmetadata>

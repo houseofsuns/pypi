@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> REST framework JWT Auth[[Build Status](httpstravis-ci.orgStyria-Digitaldjango-rest-framework-jwt.svgbranchmaster)](httpstravis-ci.orgStyria-Digitaldjango-rest-framework-jwt)[[Coverage](httpscodecov.iogithubStyria-Digitaldjango-rest-framework-jwtbranchmastergraphbadge.svg)](httpscodecov.iogithubStyria-Digitaldjango-rest-framework-jwtbranchmaster)JSON Web Token Authentication support for Django REST Framework OverviewThis package provides [JSON Web Token Authentication][jwt-auth-spec] supportfor [Django REST framework][drf].If you want to know more about JWT, check out the following resources - DjangoCon 2014 - JSON Web Tokens [Video][jwt-video]  [Slides][jwt-slides] - [Auth with JSON Web Tokens][auth-jwt] - [JWT.io][jwt-io] Requirements-  Python 2.7, 3.4+-  Django 1.11+-  Django REST Framework 3.7+ Installationbash pip install drf-jwt Documentation  SupportFull documentation for the project is available at [docs][docs].[jwt-auth-spec] httptools.ietf.orghtmldraft-ietf-oauth-json-web-token[drf] httpdjango-rest-framework.org[jwt-video] httpswww.youtube.comwatchv825hodQ61bg[jwt-slides] httpsspeakerdeck.comjpadilladjangocon-json-web-tokens[auth-jwt] httpjpadilla.compost73791304724auth-with-json-web-tokens[jwt-io] httpjwt.io[docs] httpstyria-digital.github.iodjango-rest-framework-jwt</longdescription>
+</pkgmetadata>

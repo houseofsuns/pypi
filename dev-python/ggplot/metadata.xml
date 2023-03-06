@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>ggplotWhat is itggplot is a Python implementation of the grammar of graphics. It isnot intended to be a feature-for-feature port ofggplot2 for R httpsgithub.comhadleyggplot2__--though thereis much greatness in ggplot2, the Python world could stand tobenefit from it. So there will be feature overlap, but notneccessarily mimicry (after all, R is a little weird).You can do cool things like this.. code python    ggplot(diamonds, aes(xprice, colorclarity)) +         geom_density() +         scale_color_brewer(typediv, palette7) +         facet_wrap(cut).. figure .docsexample.png   alt Installation.. code bash     pip install -U ggplot     or      conda install -c conda-forge ggplot     or    pip install git+httpsgithub.comyhatggplot.gitExamplesExamples are the best way to learn. There is a Jupyter Notebook full ofthem. There are also notebooks that show how to do particular thingswith ggplot (i.e. make a scatterplot .docshow-toMaking20a20Scatter20Plot.ipynb__ or make ahistogram .docshow-toMaking20a20Scatter20Plot.ipynb__).-  docs .docs__-  gallery .docsGallery.ipynb__-  various examples .examples.md__What happened to the old version that didnt workIts gone--the windows, the doors,everything httpswww.youtube.comwatchvYuxCKv_0GZc__. Justkidding, you can find ithere httpsgithub.comyhatggplottreev0.6.6__, though Im notsure why youd want to look at it. The data grouping and manipulationbits were re-written (so they actually worked) with things like facetsin mind.ContributingThanks to all of the ggplotcontributors .contributors.mdcontributors__ Seecontributing.md .contributing.md__.</longdescription>
+</pkgmetadata>

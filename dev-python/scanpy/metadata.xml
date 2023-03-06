@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[[Stars](httpsimg.shields.iogithubstarsscversescanpylogoGitHubcoloryellow)](httpsgithub.comscversescanpystargazers)[[PyPI](httpsimg.shields.iopypivscanpylogoPyPI)](httpspypi.orgprojectscanpy)[[PyPIDownloads](httpspepy.techbadgescanpy)](httpspepy.techprojectscanpy)[[Conda](httpsimg.shields.iocondadnconda-forgescanpylogoAnaconda)](httpsanaconda.orgconda-forgescanpy)[[Docs](httpsreadthedocs.comprojectsicb-scanpybadgeversionlatest)](httpsscanpy.readthedocs.io)[[Build Status](httpsdev.azure.comscversescanpy_apisbuildstatustheislab.scanpybranchNamemaster)](httpsdev.azure.comscversescanpy_build)[Discourse topics](httpsimg.shields.iodiscoursepostscoloryellowlogodiscourseserverhttps3A2F2Fdiscourse.scverse.org)[[Chat](httpsimg.shields.iobadgezulip-join_chat-2367b08f.svg)](httpsscverse.zulipchat.com) Scanpy  Single-Cell Analysis in PythonScanpy is a scalable toolkit for analyzing single-cell gene expression databuilt jointly with [anndata](httpsanndata.readthedocs.io).  It includespreprocessing, visualization, clustering, trajectory inference and differentialexpression testing.  The Python-based implementation efficiently deals withdatasets of more than one million cells.Discuss usage on the scverse [Discourse]. Read the [documentation].If youd like to contribute by opening an issue or creating a pull request, please take a look at our [contributing guide].If Scanpy is useful for your research, consider citing [Genome Biology (2018)].[contributing guide] CONTRIBUTING.md[discourse] httpsdiscourse.scverse.org[documentation] httpsscanpy.readthedocs.io[genome biology (2018)] httpsdoi.org10.1186s13059-017-1382-0</longdescription>
+</pkgmetadata>

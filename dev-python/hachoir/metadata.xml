@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Hachoir.. image httpsimg.shields.iopypivhachoir.svg   alt Latest release on the Python Cheeseshop (PyPI)   target httpspypi.python.orgpypihachoir.. image httpsgithub.comvstinnerhachoiractionsworkflowsbuild.ymlbadge.svg   alt Build status of hachoir on GitHub Actions   target httpsgithub.comvstinnerhachoiractions.. image httpunmaintained.techbadge.svg   target httpunmaintained.tech   alt No Maintenance IntendedHachoir is a Python library to view and edit a binary stream field by field.In other words, Hachoir allows you to browse any binary stream just like youbrowse directories and files.A file is splitted in a tree of fields, where the smallest field is just onebit. Examples of fields types integers, strings, bits, padding types, floats,etc. Hachoir is the French word for a meat grinder (meat mincer), which is usedby butchers to divide meat into long tubes Hachoir is used by computerbutchers to divide binary files into fields. Hachoir website httphachoir.readthedocs.io_ (source code, bugs) Hachoir on GitHub (Source code, bug tracker) httpsgithub.comvstinnerhachoir_ License GNU GPL v2Command line tools using Hachoir parsers hachoir-grep find a text pattern in a binary file hachoir-metadata get metadata from binary files hachoir-strip modify a file to remove metadata hachoir-urwid display the content of a binary file in text modeInstallation instructions httphachoir.readthedocs.ioenlatestinstall.htmlHachoir is written for Python 3.6 or newer.</longdescription>
+</pkgmetadata>

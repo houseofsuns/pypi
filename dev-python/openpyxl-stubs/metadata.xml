@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[[PyPI version](httpsbadge.fury.iopyFlask-HTTPAuth-stubs.svg)](httpspypi.orgprojectopenpyxl-stubs)[[Code on Github](httpsimg.shields.iobadgeCode-GitHub-brightgreen)](httpsgithub.comMartinThomaopenpyxl-stubs)[[Code style black](httpsimg.shields.iobadgecode20style-black-000000.svg)](httpsgithub.compsfblack)[GitHub last commit](httpsimg.shields.iogithublast-commitMartinThomaopenpyxl-stubs) openpyxl-stubsAdd types for [openpyxl](httpspypi.orgprojectopenpyxl) for mypy. Installation pip install openpyxl-stubs UsageMypy will automatically use the type annotations in this package, once it isinstalled. You just need to annotate your codepythonfrom typing import Optionalfrom flask_httpauth import HTTPAuth, Authorizationdef foo(bar HTTPAuth) - Optional[Authorization]    return bar.get_auth()For general hints how to use type annotations, please read [Type Annotations in Python 3.8](httpsmedium.comanalytics-vidhyatype-annotations-in-python-3-8-3b401384403d)</longdescription>
+</pkgmetadata>

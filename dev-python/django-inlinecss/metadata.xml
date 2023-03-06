@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[[Build Status](httpstravis-ci.orgroverdotcomdjango-inlinecss.pngbranchmaster)](httpstravis-ci.orgroverdotcomdjango-inlinecss) AboutInlining CSS is necessary for email generation and sendingbut is currently a surprisingly large hassle.This library aims to make it a breeze in the Djangotemplate language. Usage Step 1 Dependencies- BeautifulSoup- cssutils- Python 2.7+,3.4+- Django 1.11+ Step 2 Install django_inlinecssAdd django_inlinecss to your settings.pypythonINSTALLED_APPS  (        django.contrib.auth,        django.contrib.webdesign,        django.contrib.contenttypes,        ...,        ...,        ...,        django_inlinecss) Step 3 Use the templatetag1. Place your CSS file somewhere staticfiles can find it2. Create your templatehtml{ load inlinecss }{ inlinecss cssextra-padding.css }    html        body            div classlots-o-padding                Something in need of styling.            div        body    html{ endinlinecss } Step 4 Prepare to be Wowedhtmlhtml    body        div stylepadding-left 10px padding-right 10px padding-top 10px classlots-o-padding            Something in need of styling.        div    bodyhtml AcknowledgementsThanks to Tanner Netterville for his efforts on [Pynliner](httpsgithub.comrennatpynliner).Thanks to Thomas Yip for his unit tests on the soupselect module. These testshelped on getting the core CSS2 selectors to work. LicenseMIT license. See LICENSE.md for more detail.</longdescription>
+</pkgmetadata>

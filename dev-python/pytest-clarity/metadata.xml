@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pytest-clarity.. image httpsimg.shields.iopypivpytest-clarity.svg    target httpspypi.orgprojectpytest-clarity    alt PyPI version    .. image httpsimg.shields.iocondavnconda-forgepytest-clarity.svg    target httpsanaconda.orgconda-forgepytest-clarity    alt conda-forge version    .. image httpsimg.shields.iopypipyversionspytest-clarity.svg    target httpspypi.orgprojectpytest-clarity    alt Python versions.. image httpstravis-ci.orgdarrenburnspytest-clarity.svgbranchmaster    target httpstravis-ci.orgdarrenburnspytest-clarity    alt See Build Status on Travis CIA pytest plugin which brings the coloured diff output from the Ward test framework httpsgithub.comdarrenburnsward_ to pytest.Before------.. image httpsuser-images.githubusercontent.com5740731121730571-c5387600-cae7-11eb-96eb-eaa6d4cfd09f.png     alt Example output without pytest-clarityAfter-----.. image httpsuser-images.githubusercontent.com5740731121730569-c4074900-cae7-11eb-9416-47f02ca4ff82.png     alt Example output without pytest-clarityRequirements------------Supports Python 3.6+.Installation------------You can install pytest-clarity via pip     pip install pytest-clarityUsage-----Install the plugin as described above.The plugin will only be activated when the code-vv option is supplied to codepytest.You can configure the width of the output with the code--diff-width option    pytest -vv --diff-width60You can force pytest-clarity to show a symbolic diff with code--diff-symbols    pytest -vv --diff-symbols</longdescription>
+</pkgmetadata>

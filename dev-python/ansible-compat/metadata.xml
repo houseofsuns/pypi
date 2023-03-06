@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> ansible-compat[[pypi](httpsimg.shields.iopypivansible-compat.svg)](httpspypi.orgprojectansible-compat)[[docs](httpsreadthedocs.orgprojectsansible-compatbadgeversionlatest)](httpsansible-compat.readthedocs.ioenlatest)[[gh](httpsgithub.comansibleansible-compatactionsworkflowstox.ymlbadge.svg)](httpsgithub.comansibleansible-compatactionsworkflowstox.yml)[[codecov.io](httpscodecov.iogithubansibleansible-compatcoverage.svgbranchmain)](httpscodecov.iogithubansibleansible-compatbranchmain)A python package contains functions that facilitate working with variousversions of Ansible 2.12 and newer.Documentation is available at [ansible-compat.readthedocs.io](httpsansible-compat.readthedocs.ioenlatest).</longdescription>
+</pkgmetadata>

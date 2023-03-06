@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>CLI Helpers.. image httpstravis-ci.orgdbclicli_helpers.svgbranchmaster    target httpstravis-ci.orgdbclicli_helpers.. image httpsci.appveyor.comapiprojectsstatus37a1ri2nbcp237trbranchmastersvgtrue    target httpsci.appveyor.comprojectdbclicli-helpers.. image httpscodecov.ioghdbclicli_helpersbranchmastergraphbadge.svg  target httpscodecov.ioghdbclicli_helpers.. image httpsimg.shields.iopypivcli_helpers.svgstyleflat    target httpspypi.python.orgpypicli_helpers.. start-bodyCLI Helpers is a Python package that makes it easy to perform common tasks whenbuilding command-line apps. Its a helper library for command-line interfaces.Libraries like Click httpclick.pocoo.org5_ andPython Prompt Toolkit httpspython-prompt-toolkit.readthedocs.ioenlatest_are amazing tools that help you create quality apps. CLI Helpers complementsthese libraries by wrapping up common tasks in simple interfaces.CLI Helpers is not focused on your apps design pattern or framework -- you canuse it on its own or in combination with other libraries. Its lightweight andeasy to extend.Whats included in CLI Helpers- Prettyprinting of tabular data with custom pre-processing- Config file readingwriting.. end-bodyRead the documentation at httpcli-helpers.rtfd.io</longdescription>
+</pkgmetadata>

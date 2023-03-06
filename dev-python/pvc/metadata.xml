@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Python vSphere Client with a dialog(1) interface.. image httpsbadges.gitter.imJoin20Chat.svg   alt Join the chat at httpsgitter.imdnaeonpvc   target httpsgitter.imdnaeonpvcutm_sourcebadgeutm_mediumbadgeutm_campaignpr-badgeutm_contentbadgePVC is an interactive text-mode VMware vSphere Client with adialog(1)_ interface for GNULinux systems built on top of thepyVmomi_ VMware vSphere API Python bindings.Using PVC allows you to quickly navigate in your VMware vSphereenvironment and perform common tasks against various VMware vSphereManaged Entities.PVC is Open Source and licensed under the BSD License_... image httpsraw.githubusercontent.comdnaeonpvcmasterdocsimagespvc-screenshot.jpgStatusExperimental. PVC is in early development stage. Using PVC in aproduction environment is not (yet) recommended.ContributionsPVC is hosted on Github_. Please contribute by reporting issues,suggesting features or by sending patches using pull requests.DocumentationThe online documentation of PVC can be found at the link below httppvc.readthedocs.orgenlatestAt the above link you can also find example screenshots of usingPVC in a VMware vSphere environment.With DockerIt is possible to use a docker using for exampledocker run -i -t --rm --dns8.8.8.8 -hpvc-v0.1.1 --name pvc marioezquerropvcv0.1.1 usrlocalbinpvc-tuiBugsProbably. If you experience a bug issue, please report it to thePVC issue tracker on Github_... _dialog(1) httpinvisible-island.netdialog.. _pyVmomi httpsgithub.comvmwarepyvmomi.. _BSD License httpopensource.orglicensesBSD-2-Clause.. _Github httpsgithub.comdnaeonpvc</longdescription>
+</pkgmetadata>

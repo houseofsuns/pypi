@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pytest-aiohttppytest plugin for aiohttp supportThe library provides useful fixtures for creation test aiohttp server and client.Installation------------.. code-block console     pip install pytest-aiohttpAdd asyncio_mode  auto line to pytest configurationhttpsdocs.pytest.orgenlatestcustomize.html_ (see pytest-asyncio modeshttpsgithub.compytest-devpytest-asynciomodes_ for details).  The plugin workswith strict mode also.Usage-----Write tests in pytest-asyncio httpsgithub.compytest-devpytest-asyncio_ styleusing provided fixtures for aiohttp test server and client creation. The plugin providesresources cleanup out-of-the-box.The simple usage example.. code-block python    from aiohttp import web    async def hello(request)        return web.Response(bodybHello, world)    def create_app()        app  web.Application()        app.router.add_route(GET, , hello)        return app    async def test_hello(aiohttp_client)        client  await aiohttp_client(await create_app())        resp  await client.get()        assert resp.status  200        text  await resp.text()        assert Hello, world in textSee aiohttp documentation httpsdocs.aiohttp.orgenstabletesting.htmlpytest formore details about fixtures usage.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>ovsdbappA library for creating OVSDB applicationsThe ovdsbapp library is useful for creating applications that communicatevia Open_vSwitchs OVSDB protocol (httpstools.ietf.orghtmlrfc7047). Itwraps the Python ovs and adds an event loop and friendly transactions. Free software Apache license Source httpsopendev.orgopenstackovsdbapp Bugs httpsbugs.launchpad.netovsdbappFeatures An thread-based event loop for using ovs.db.Idl Transaction support Native OVSDB communication</longdescription>
+</pkgmetadata>

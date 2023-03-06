@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Django Grappelli.. image httpsgithub.comsehmaschinedjango-grappelliactionsworkflowstests.ymlbadge.svgbranchmaster    target httpsgithub.comsehmaschinedjango-grappelliactionsworkflowstests.ymlquerybranch3Amaster.. image httpsreadthedocs.orgprojectsdjango-grappellibadgeversionlatest    target httpdjango-grappelli.readthedocs.orgenlatestbadgelatest.. image httpsimg.shields.iopypivdjango-grappelli.svg    target httpspypi.python.orgpypidjango-grappelli.. image httpsimg.shields.iopypildjango-grappelli.svg    target httpspypi.python.orgpypidjango-grappelliA jazzy skin for the Django admin interface.Grappelli is a grid-based alternativeextension to the Django httpwww.djangoproject.com_ administration interface.Code----httpsgithub.comsehmaschinedjango-grappelliWebsite-------httpwww.grappelliproject.comDocumentation-------------httpreadthedocs.orgdocsdjango-grappelliReleases--------Grappelli is always developed against the latest stable Django release and is NOT tested with Djangos master branch. Grappelli 3.0.4 (November 22nd, 2022) Compatible with Django 4.0 Grappelli 2.15.6 (November 22nd, 2022) Compatible with Django 3.2 (LTS)Current development branches Grappelli 3.0.5 (Development version for Django 4.0, see branch Stable3.0.x) Grappelli 2.15.7 (Development version for Django 3.2, see branch Stable2.15.x)Older versions are available at GitHub, but are not supported anymore.</longdescription>
+</pkgmetadata>

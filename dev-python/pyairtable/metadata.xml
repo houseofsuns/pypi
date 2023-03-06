@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> pyAirtable (formerly airtable-python-wrapper)[CI](httpsgithub.comgtalaricopyairtableactionsworkflowstest_lint_deploy.ymlbadge.svg)[[PyPI](httpsimg.shields.iopypivpyairtable.svg)](httpspypi.orgprojectpyairtable)[[PyPI Downloads - 0.x](httpsimg.shields.iopypidmairtable-python-wrapper.svglabeldownloads200.x)](httpspypi.orgprojectairtable-python-wrapper)[[PyPI Downloads - 1.x](httpsimg.shields.iopypidmpyairtable.svglabeldownloads201.x)](httpspypi.orgprojectpyairtable)[[Documentation Status](httpsreadthedocs.orgprojectspyairtablebadgeversionlatest)](httppyairtable.readthedocs.ioenlatestbadgelatest)[[codecov](httpscodecov.ioghgtalaricopyairtablebranchmaingraphbadge.svgtokenaskmZgmMoV)](httpscodecov.ioghgtalaricopyairtable)Python Client for the Airtable Api Installingpip install pyairtable DocumentationCheckout the docs on [pyairtable.readthedocs.io](httppyairtable.readthedocs.io) Looking for airtable-python-wrapperairtable-python-wrapper is now pyAirtable.For the previous version go to httpsgithub.comgtalaricoairtable-python-wrappertreeairtable-python-wrapper</longdescription>
+</pkgmetadata>

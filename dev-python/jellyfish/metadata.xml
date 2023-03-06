@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Overviewjellyfish is a library for approximate  phonetic matching of strings.Source [httpsgithub.comjamesturkjellyfish](httpsgithub.comjamesturkjellyfish)Documentation [httpsjamesturk.github.iojellyfish](httpsjamesturk.github.iojellyfish)Issues [httpsgithub.comjamesturkjellyfishissues](httpsgithub.comjamesturkjellyfishissues)[[PyPI badge](httpsbadge.fury.iopyjellyfish.svg)](httpsbadge.fury.iopyjellyfish)[[Test badge](httpsgithub.comjamesturkjellyfishworkflowsPython20packagebadge.svg)](httpsgithub.comjamesturkjellyfishactionsqueryworkflow3A22Python+package)[[Coveralls](httpscoveralls.ioreposjamesturkjellyfishbadge.pngbranchmaster)](httpscoveralls.iorjamesturkjellyfish) Included AlgorithmsString comparison Levenshtein Distance Damerau-Levenshtein Distance Jaro Distance Jaro-Winkler Distance Match Rating Approach Comparison Hamming DistancePhonetic encoding American Soundex Metaphone NYSIIS (New York State Identification and Intelligence System) Match Rating Codex Example Usage python import jellyfish jellyfish.levenshtein_distance(ujellyfish, usmellyfish)2 jellyfish.jaro_distance(ujellyfish, usmellyfish)0.89629629629629637 jellyfish.damerau_levenshtein_distance(ujellyfish, ujellyfihs)1 jellyfish.metaphone(uJellyfish)JLFX jellyfish.soundex(uJellyfish)J412 jellyfish.nysiis(uJellyfish)JALYF jellyfish.match_rating_codex(uJellyfish)JLLFSH</longdescription>
+</pkgmetadata>

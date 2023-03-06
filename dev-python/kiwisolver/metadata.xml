@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Welcome to Kiwi.. image httpstravis-ci.orgnucleickiwi.svgbranchmain    target httpstravis-ci.orgnucleickiwi.. image httpsgithub.comnucleickiwiworkflowsContinuous20Integrationbadge.svg    target httpsgithub.comnucleickiwiactions.. image httpsgithub.comnucleickiwiworkflowsDocumentation20buildingbadge.svg    target httpsgithub.comnucleickiwiactions.. image httpscodecov.ioghnucleickiwibranchmaingraphbadge.svg  target httpscodecov.ioghnucleickiwi.. image httpsreadthedocs.orgprojectskiwisolverbadgeversionlatest    target httpskiwisolver.readthedocs.ioenlatestbadgelatest    alt Documentation StatusKiwi is an efficient C++ implementation of the Cassowary constraint solvingalgorithm. Kiwi is an implementation of the algorithm based on theseminal Cassowary paper httpsconstraints.cs.washington.edusolverscassowary-tochi.pdf_.It is not a refactoring of the original C++ solver. Kiwi has been designedfrom the ground up to be lightweight and fast. Kiwi ranges from 10x to 500xfaster than the original Cassowary solver with typical usecases gaining a 40ximprovement. Memory savings are consistently  5x.In addition to the C++ solver, Kiwi ships with hand-rolled Python bindings forPython 3.7+.</longdescription>
+</pkgmetadata>

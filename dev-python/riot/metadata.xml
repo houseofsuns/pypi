@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> riotA Python virtual environment constructor and command runner.[[Read the Docs](httpsimg.shields.ioreadthedocsddriotstylefor-the-badge)](httpsddriot.readthedocs.io)[[Pyversions](httpsimg.shields.iopypipyversionsriot.svgstylefor-the-badge)](httpspypi.orgprojectriot)[[PypiVersions](httpsimg.shields.iopypivriot.svgstylefor-the-badge)](httpspypi.orgprojectriot)[[Tests](httpsimg.shields.iogithubworkflowstatusDataDogriotCIlabelTestsstylefor-the-badge)](httpsgithub.comDataDogriotactionsqueryworkflow3ACI)[[Codecov](httpsimg.shields.iocodecovcgithubDataDogriotstylefor-the-badge)](httpscodecov.ioghDataDogriot) installationInstall from PyPIshpip install riotor install from sourceshpip install git+httpsgithub.comDataDogriot.git</longdescription>
+</pkgmetadata>

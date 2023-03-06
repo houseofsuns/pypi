@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>fakeredis A fake version of a redis-py[[badge](httpsimg.shields.iopypivfakeredis)](httpspypi.orgprojectfakeredis)[[CI](httpsgithub.comcunlafakeredis-pyactionsworkflowstest.ymlbadge.svg)](httpsgithub.comcunlafakeredis-pyactionsworkflowstest.yml)[[badge](httpsimg.shields.ioendpointurlhttpsgist.githubusercontent.comcunlab756396efb895f0e34558c980f1ca0c7rawfakeredis-py.json)](httpsgithub.comcunlafakeredis-pyactionsworkflowstest.yml)[[badge](httpsimg.shields.iopypidmfakeredis)](httpspypi.orgprojectfakeredis)[[badge](httpsimg.shields.iopypilfakeredis)](.LICENSE)[[Open Source Helpers](httpswww.codetriage.comcunlafakeredis-pybadgesusers.svg)](httpswww.codetriage.comcunlafakeredis-py)--------------------Documentation is now hosted in httpsfakeredis.readthedocs.io Introfakeredis is a pure-Python implementation of the redis-py python clientthat simulates talking to a redis server. This was created originally for a single purpose to write tests.This module now allows tests to simply use thismodule as a reasonable substitute for redis. Sponsorfakeredis-py is developed for free.You can support this project by becoming a sponsor using [this link](httpsgithub.comsponsorscunla).Alternatively, you can buy me coffee using thislink [[Buy Me A Coffee](httpswww.buymeacoffee.comassetsimgcustom_imagesorange_img.png)](httpsbuymeacoffee.comdanielmoran) Security contact informationTo report a security vulnerability, please use the[Tidelift security contact](httpstidelift.comsecurity).Tidelift will coordinate the fix and disclosure.</longdescription>
+</pkgmetadata>

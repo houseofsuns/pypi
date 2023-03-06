@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>OpenTelemetry Semantic Conventionspypi.. pypi image httpsbadge.fury.iopyopentelemetry-semantic-conventions.svg   target httpspypi.orgprojectopentelemetry-semantic-conventionsThis library contains generated code for the semantic conventions defined by the OpenTelemetry specification.Installation------------    pip install opentelemetry-semantic-conventionsCode Generation---------------These files were generated automatically from code in semconv_.To regenerate the code, run ..scriptssemconvgenerate.sh.To build against a new release or specific commit of opentelemetry-specification_,update the SPEC_VERSION variable in..scriptssemconvgenerate.sh. Then run the script and commit the changes... _opentelemetry-specification httpsgithub.comopen-telemetryopentelemetry-specification.. _semconv httpsgithub.comopen-telemetryopentelemetry-pythontreemainscriptssemconvReferences---------- OpenTelemetry Project httpsopentelemetry.io_ OpenTelemetry Semantic Conventions YAML Definitions httpsgithub.comopen-telemetryopentelemetry-specificationtreemainsemantic_conventions_ generate.sh script httpsgithub.comopen-telemetryopentelemetry-pythonblobmainscriptssemconvgenerate.sh_</longdescription>
+</pkgmetadata>

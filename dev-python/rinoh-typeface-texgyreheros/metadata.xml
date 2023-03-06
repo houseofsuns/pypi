@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>rinoh-typeface-texgyreherosThis package provides the TeX Gyre Heros_ typeface for use with rinohtype_.TeX Gyre Heros is based on URW Nimbus Sans L and can be used as a replacementfor Helvetica... _TeX Gyre Heros httpwww.gust.org.plprojectse-foundrytex-gyreheros.. _rinohtype httpsgithub.combrechtmrinohtypereadme</longdescription>
+</pkgmetadata>

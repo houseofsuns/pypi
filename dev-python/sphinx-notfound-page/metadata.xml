@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Build PyPI version Docs badge Licensesphinx-notfound-pageCreate a custom 404 page with absolute URLs hardcoded.Installation------------.. code-block bash   pip install sphinx-notfound-pageConfiguration-------------Add this extension in your conf.py file as.. code-block python   extensions  [     ... other extensions here    notfound.extension,   ]Documentation-------------Check out the full documentation at httpssphinx-notfound-page.readthedocs.ioThanks------Strongly based on ericholschers solution from httpsgithub.comreadthedocsreadthedocs.orgissues353.. Build image httpscircleci.comghreadthedocssphinx-notfound-page.svgstylesvg   target httpscircleci.comghreadthedocssphinx-notfound-page   alt Build status.. PyPI version image httpsimg.shields.iopypivsphinx-notfound-page.svg   target httpspypi.orgprojectsphinx-notfound-page   alt Current PyPI version.. Docs badge image httpsreadthedocs.orgprojectssphinx-notfound-pagebadgeversionlatest   target httpssphinx-notfound-page.readthedocs.ioenlatestbadgelatest   alt Documentation status.. License image httpsimg.shields.iogithublicensereadthedocssphinx-notfound-page.svg   target LICENSE   alt Repository license</longdescription>
+</pkgmetadata>

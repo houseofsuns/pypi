@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Sparse Multidimensional ArraysBuild Status Docs Status CoverageThis library provides multi-dimensional sparse arrays. Documentation httpsparse.pydata.org_ Contributing httpsgithub.compydatasparseblobmasterdocscontributing.rst_ Bug ReportsFeature Requests httpsgithub.compydatasparseissues_.. Build Status image httpsgithub.compydatasparseactionsworkflowsci.ymlbadge.svg   target httpsgithub.compydatasparseactionsworkflowsci.yml   alt Build status.. Docs Status image httpsreadthedocs.orgprojectssparse-ndbadgeversionlatest   target httpsparse.pydata.orgenlatestbadgelatest   alt Documentation Status.. Coverage image httpscodecov.ioghpydatasparsebranchmastergraphbadge.svg   target httpscodecov.ioghpydatasparse   alt Coverage Report</longdescription>
+</pkgmetadata>

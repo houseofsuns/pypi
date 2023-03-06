@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image httpstravis-ci.orgcrdoconnorxeger.svgbranchmaster    target httpstravis-ci.orgcrdoconnorxegerXegerLibrary to generate random strings from regular expressions.To install, type    pip install xegerTo use, type from xeger import Xeger x  Xeger(limit10)   default limit  10 x.xeger(json([0-9]+))ujson15062213AboutCode borrowed and cleaned up from the python modulerstr by Leap Frog Development httpjpmens.net20100426resty,in turn inspired by the Java library Xeger httpcode.google.compxeger.</longdescription>
+</pkgmetadata>

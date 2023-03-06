@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Starlette Authlib Middleware[[Build Status](httpstravis-ci.orgaogierstarlette-authlib.svgbranchmaster)](httpstravis-ci.orgaogierstarlette-authlib)[[codecov](httpscodecov.ioghaogierstarlette-authlibbranchmastergraphbadge.svg)](httpscodecov.ioghaogierstarlette-authlib)[[Package version](httpsbadge.fury.iopystarlette-authlib.svg)](httpspypi.orgprojectstarlette-authlib)[PyPI - Downloads](httpsimg.shields.iopypidmstarlette-authlib) IntroductionA drop-in replacement for Starlette session middleware, using [authlibs jwt](httpsdocs.authlib.orgenlatestjosejwt.html) Requirements Python 3.7+ Starlette 0.9+ Installationconsolepip install starlette-authlib UsageA complete example where we drop-in replace standard session middlewarepythonfrom starlette.applications import Starlettefrom starlette_authlib.middleware import AuthlibMiddleware as SessionMiddlewareapp  Starlette()app.add_middleware(SessionMiddleware, secretsecret)Other things you can configure either via environment variables or .env file DOMAIN - declare cookie domain. App must be under this domain. If empty,  the cookie is restricted to the subdomain of the app (this is useful when you  write eg. SSO portals) JWT_ALG - one of authlib JWT [supported algorithms](httpsdocs.authlib.orgenlatestspecsrfc7518.htmlspecs-rfc7518) JWT_SECRET - jwt secret. Only useful for HS algorithms, see the  sample_app folder for middleware usage w crypto keys. ContributingThis project is absolutely open to contributions so if you have a nice idea,create an issue to let the community discuss it.</longdescription>
+</pkgmetadata>

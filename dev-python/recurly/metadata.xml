@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Recurly[[PyPi](httpsimg.shields.iostaticv1labelpypimessagerecurlycolorpurple)](httpspypi.orgprojectrecurly)[[Contributor Covenant](httpsimg.shields.iobadgeContributor20Covenant-v2.020adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)This repository houses the official python library for Recurlys V3 API. Note If you were looking for the V2 client, see the [v2 branch](httpsgithub.comrecurlyrecurly-client-pythontreev2). DocumentationThis librarys [python documentation](httpsrecurly-client-python.readthedocs.ioenlatest) is hosted on ReadTheDocs. It contains the Getting Started guide as well as the reference documentation.Documentation for the HTTP API and example code can be found[on our Developer Portal](httpsdevelopers.recurly.comapiv2019-10-10). ContributingPlease see our [Contributing Guide](CONTRIBUTING.md).</longdescription>
+</pkgmetadata>

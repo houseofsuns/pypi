@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>mathlib a pure python maths library.. image httpsgithub.comspapanikmathlibactionsworkflowsbuild.ymlbadge.svg  alt Build  target httpsgithub.comspapanikmathlibactionsworkflowsbuild.yml.. image httpsimg.shields.iolgtmalertsgspapanikmathlib.svg  alt Total alerts  target httpslgtm.comprojectsgspapanikmathlibalerts.. image httpsimg.shields.iogithublicensespapanikmathlib  alt License  target httpsgithub.comspapanikmathlibblobmainLICENSE.txt.. image httpsimg.shields.iopypivmathlib  alt PyPI  target httpspypi.orgprojectmathlib.. image httpspepy.techbadgemathlib  alt Downloads  target httpspepy.techprojectmathlib.. image httpsimg.shields.iobadgecode20style-black-000000.svg  alt Code style  target httpsgithub.compsfblackmathlib is a maths library written in pure python, so that it can be usedIn a nutshell-------------InstallationThe easiest way is to use poetry_ to manage your dependencies and add mathlib to them... code-block toml    [tool.poetry.dependencies]    mathlib  0.4.0Usagemathlib mainly offers some number theoretic functions.Links------ Documentation_- Changelog_.. _poetry httpspython-poetry.org.. _Changelog httpsgithub.comspapanikmathlibblobmainCHANGELOG.rst.. _Documentation httpsmathlib.readthedocs.ioenlatest</longdescription>
+</pkgmetadata>

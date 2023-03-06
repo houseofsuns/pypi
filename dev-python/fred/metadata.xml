@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>FredPython wrapper of the St. Louis Federal Reserve Banks [FRED API webservice](httpapi.stlouisfed.orgdocsfred) for retrieving economic data.FRED API Documentation[httpapi.stlouisfed.orgdocsfred](httpapi.stlouisfed.orgdocsfred)Sign up for a FRED API key[httpapi.stlouisfed.orgapi_key.html](httpapi.stlouisfed.orgapi_key.html)</longdescription>
+</pkgmetadata>

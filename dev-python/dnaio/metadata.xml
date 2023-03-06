@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image httpsgithub.commarcelmdnaioworkflowsCIbadge.svg    alt GitHub Actions badge.. image httpsimg.shields.iopypivdnaio.svgbranchmain    target httpspypi.python.orgpypidnaio    alt PyPI badge.. image httpscodecov.ioghmarcelmdnaiobranchmastergraphbadge.svg    target httpscodecov.ioghmarcelmdnaio    alt Codecov badgednaio processes FASTQ and FASTA filesdnaio is a Python 3.7+ library for very efficient parsing and writing of FASTQ and also FASTA files.The code was previously part of theCutadapt httpscutadapt.readthedocs.io_ tool and has been improved significantly since it has been split out.Example usageThe main interface is the dnaio.open httpsdnaio.readthedocs.ioenlatestapi.html_ function    import dnaio    with dnaio.open(reads.fastq.gz) as f        bp  0        for record in f            bp + len(record)    print(fThe input file contains {bp1E6.1f} Mbp)For more, see the tutorial httpsdnaio.readthedocs.ioenlatesttutorial.html_ andAPI documentation httpsdnaio.readthedocs.ioenlatestapi.html_.Features and supported file types- FASTQ input and output- FASTA input and output- Compressed input and output (.gz, .bz2 and .xz, detected automatically)- Paired-end data in two files- Interleaved paired-end data in a single file- Files with DOSWindows linebreaks can be read- FASTQ files with a second header line (after the +) are supportedLimitations- Multi-line FASTQ files are not supported.- FASTQ parsing is the focus of this library. The FASTA parser is not as optimized.Links Documentation httpsdnaio.readthedocs.io_ Source code httpsgithub.commarcelmdnaio_ Report an issue httpsgithub.commarcelmdnaioissues_ Project page on PyPI httpspypi.python.orgpypidnaio_</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Venv-PackBuild Status PyPI Badgevenv-pack is a command-line tool for packaging virtual environments_ fordistribution. Please refer to the documentation_ for more information.For a similar tool for conda environments_, see conda-pack_LICENSE-------New BSD. See theLicense File httpsgithub.comjcristvenv-packblobmasterLICENSE.txt_... _documentation httpsjcrist.github.iovenv-pack.. _virtual environments httpsdocs.python.org3tutorialvenv.html.. _conda environments httpsconda.io.. _conda-pack httpsconda.github.ioconda-pack.. Build Status image httpstravis-ci.orgjcristvenv-pack.svgbranchmaster   target httpstravis-ci.orgjcristvenv-pack.. PyPI Badge image httpsimg.shields.iopypivvenv-pack.svg   target httpspypi.orgprojectvenv-pack</longdescription>
+</pkgmetadata>

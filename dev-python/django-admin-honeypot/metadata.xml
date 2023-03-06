@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>django-admin-honeypot.. image httpstravis-ci.orgdmpaytondjango-admin-honeypot.svgbranchdevelop   target httpstravis-ci.orgdmpaytondjango-admin-honeypot   alt Travis-CI.. image httpscoveralls.ioreposdmpaytondjango-admin-honeypotbadge.svgbranchdevelop   target httpscoveralls.iordmpaytondjango-admin-honeypot   alt Coverage.. image httpscodeclimate.comgithubdmpaytondjango-admin-honeypotbadgesgpa.svgbranchdevelop   target httpscodeclimate.comgithubdmpaytondjango-admin-honeypot   alt Code Climatedjango-admin-honeypot is a fake Django admin login screen to log and notifyadmins of attempted unauthorized access. This app was inspired by discussionin and around Paul McMillans security talk at DjangoCon 2011. Author Derek Payton httpdmpayton.com_ Version 1.1.0 License MITDocumentationhttpdjango-admin-honeypot.readthedocs.iotldr----- Install django-admin-honeypot from PyPI        pip install django-admin-honeypot Add admin_honeypot to INSTALLED_APPS Update your urls.py            urlpatterns  patterns(            ...            url(radmin, include(admin_honeypot.urls, namespaceadmin_honeypot)),            url(rsecret, include(admin.site.urls)),        ) Run python manage.py migrateNOTE replace secret in the url above with your own secret url prefix</longdescription>
+</pkgmetadata>

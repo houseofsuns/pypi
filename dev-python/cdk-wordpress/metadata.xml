@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> cdk-wordpress[[NPM version](httpsbadge.fury.iojscdk-wordpress.svg)](httpswww.npmjs.compackagecdk-wordpress)[[PyPI version](httpsbadge.fury.iopycdk-wordpress.svg)](httpspypi.orgprojectcdk-wordpress)[Release](httpsgithub.comclarencetwcdk-wordpressworkflowsReleasebadge.svg)[npm](httpsimg.shields.ionpmdtcdk-wordpresslabelnpmcolororange)[PyPI](httpsimg.shields.iopypidmcdk-wordpresslabelpypicolorblue)A CDK construct library to deploy WordPress How do useInstall your package managershyarn add cdk-wordpress TypeScript Samplepythonimport { WordPress } from cdk-wordpressconst wordpress  new WordPress(stack, WordPressEcs) Get WordPress endpointnew CfnOutput(stack, Endpoint, { value wordpress.endpoint }) To deploybashcdk deploy To destroybashcdk destroy</longdescription>
+</pkgmetadata>

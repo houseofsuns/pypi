@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> honeybee-radiance[Honeybee](httpswww.ladybug.toolsassetsimghoneybee.png)[[Build Status](httpsgithub.comladybug-toolshoneybee-radianceworkflowsCIbadge.svg)](httpsgithub.comladybug-toolshoneybee-radianceactions)[[Coverage Status](httpscoveralls.ioreposgithubladybug-toolshoneybee-radiancebadge.svgbranchmaster)](httpscoveralls.iogithubladybug-toolshoneybee-radiance)[[Python3.7](httpsimg.shields.iobadgepython-3.7-blue.svg)](httpswww.python.orgdownloadsreleasepython-370)[[Python2.7](httpsimg.shields.iobadgepython-2.7-green.svg)](httpswww.python.orgdownloadsreleasepython-270)[[IronPython](httpsimg.shields.iobadgeironpython-2.7-red.svg)](httpsgithub.comIronLanguagesironpython2releasestagipy-2.7.8)Radiance extension for honeybeeHoneybee-radiance adds radiance functionalities to honeybee for daylight simulation. Installationpip install -U honeybee-radianceTo check if the command line interface is installed correctly use honeybee-radiance --help. Documentation[API documentation](httpswww.ladybug.toolshoneybee-radiancedocs)</longdescription>
+</pkgmetadata>

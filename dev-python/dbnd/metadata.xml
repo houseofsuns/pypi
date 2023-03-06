@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[[pipeline status](httpsgitlab.comdataband-aidbndbadgesmasterpipeline.svg)](httpsgitlab.comdataband-aidbndpipelines)[PyPI - Downloads](httpsimg.shields.iopypidmdbnd) [PyPI](httpsimg.shields.iopypivdbnd)[PyPI - Python Version](httpsimg.shields.iopypipyversionsdbnd) [PyPI - License](httpsimg.shields.iopypildbnd)[Code style ](httpsimg.shields.iobadgecode20style-black-000000.svg) DBNDDBND an open source framework for building and tracking data pipelines. DBND is used for processes ranging from data ingestion, preparation, machine learning model training and production.DBND includes a Python library, set of APIs, and CLI that enables you to collect metadata from your workflows, create a system of record for runs, and easily orchestrate complex processes.DBND simplifies the process of building and running data pipelinesfrom dbnd import taskpythonfrom dbnd import tasktaskdef say_hello(name str  databand.ai) - str    value  Hello s  name    return valueAnd makes it easy to track your critical pipeline metadatapythonfrom dbnd import log_metric, log_dataframelog_dataframe(my_dataset, my_dataset)log_metric(r2, r2) Getting StartedSee our [documentation](httpsdocs.databand.aidocs) with examples and quickstart guides to get up and running with DBND. The Latest and GreatestFor using DBND, we recommend that you work with a virtual environment like [Virtualenv](httpsvirtualenv.pypa.ioenlatest) or [Conda](httpsdocs.conda.ioenlatest). Update to the latest and greatestshell scriptpip install dbndIf you would like access to our latest features, or have any questions, feedback, or contributions we would love to here from you Get in touch through contactdataband.ai</longdescription>
+</pkgmetadata>

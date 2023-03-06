@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>AMPLPY------AMPL API is an interface that allows developers to access the features of theAMPL interpreter from within a programming language. All model generation andsolver interaction is handled directly by AMPL, which leads to great stabilityand speed the library just acts as an intermediary, and the added overhead(in terms of memory and CPU usage) depends mostly on how much data is readback from AMPL, the size of the model as such is irrelevant. Functions fordirectly assigning data to AMPL parameters and sets are provided, which canbe used instead of the normal AMPL data reading procedures.  AMPL API has beenwritten with usability in mind, and it is easy to access its functionalitiesfrom C++, Java, C, MATLAB, R and Python.The AMPL API can function as an add-on to any existing AMPL installation. Ifyou do not yet have an AMPL installation on the computer where you will beworking with the API. Use our Community Edition httpampl.comce_ to download a working version that can be installed quickly.Documentation httpamplpy.readthedocs.ioRepositories GitHub Repository httpsgithub.comamplamplpy PyPI Repository httpspypi.python.orgpypiamplpy</longdescription>
+</pkgmetadata>

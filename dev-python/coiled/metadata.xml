@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>p aligncenterimg srchttpsraw.githubusercontent.comcoiledlogosmasterCoiled-Logo_Horizontal_Black-RGB.png width200 stylemax-width 200px altCoiledpp aligncenter  a hrefhttpscoiled.ioCoiled.ioa   a hrefhttpsdocs.coiled.iouser_guideindex.htmlDocumentationa   a hrefhttpsjoin.slack.comtcoiled-usersshared_invitezt-hx1fnr7k-InQ8ui3XkQfvQon0yN5WQCommunitya   a hrefhttpsdocs.coiled.iouser_guidesupport.htmlSupportapCoiled is a deployment-as-a-service library for scaling Python with Dask, a popular open source library for parallel analytics. Coiled manages cloud resources, networking, software environments, and everything you need to scale Python in the cloud robustly and easily.Go to httpscloud.coiled.io to get started with Coiled.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>sphinxcontrib-openapisphinxcontrib-openapi is a Sphinx_ extension to generate APIs docs fromOpenAPI_ (fka Swagger) spec. It depends on sphinxcontrib-httpdomain_ thatprovides an HTTP domain for describing RESTful HTTP APIs, so we dont need toreinvent the wheel... code bash    python3 -m pip install sphinxcontrib-openapiUsagePass sphinxcontrib-openapi to extensions list in  Sphinxs conf.py.. code python   extensions  [      ...      sphinxcontrib.openapi,   ]and feel free to use the openapi directive to render OpenAPI specs.. code restructuredtext   .. openapi pathtoopenapi.ymlLinks Documentation httpssphinxcontrib-openapi.readthedocs.org Source httpsgithub.comsphinx-contribopenapi Bugs httpsgithub.comsphinx-contribopenapiissues.. _Sphinx httpswww.sphinx-doc.orgenmaster.. _OpenAPI httpsgithub.comOAIOpenAPI-Specification.. _sphinxcontrib-httpdomain httpssphinxcontrib-httpdomain.readthedocs.io</longdescription>
+</pkgmetadata>

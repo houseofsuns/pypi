@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> jupyter_server_fileid[[Github Actions Status](httpsgithub.comjupyter-serverjupyter_server_fileidworkflowsBuildbadge.svg)](httpsgithub.comjupyter-serverjupyter_server_fileidactionsworkflowsbuild.yml)A Jupyter Server extension providing an implementation of the File ID service. Requirements- Jupyter Server InstallTo install the extension, executebashpip install jupyter_server_fileid UninstallTo remove the extension, executebashpip uninstall jupyter_server_fileid TroubleshootIf you are seeing the frontend extension, but it is not working, checkthat the server extension is enabledbashjupyter server extension list Contributing Development installbash Clone the repo to your local environment Change directory to the jupyter_server_fileid directory Install package in development mode - will automatically enable The server extension.pip install -e .You can watch the source directory and run your Jupyter Server-based application at the same time in different terminals to watch for changes in the extensions source and automatically rebuild the extension.  For example,when running JupyterLabbashjupyter lab --autoreloadIf your extension does not depend a particular frontend, you can run theserver directlybashjupyter server --autoreload Running TestsInstall dependenciesbashpip install -e .[test]To run the python tests, usebashpytest To test a specific filepytest jupyter_server_fileidteststest_handlers.py To run a specific testpytest jupyter_server_fileidteststest_handlers.py -k test_get Development uninstallbashpip uninstall jupyter_server_fileid Packaging the extensionSee [RELEASE](RELEASE.md)</longdescription>
+</pkgmetadata>

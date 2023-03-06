@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>extension-helpers.. image httpsgithub.comastropyextension-helpersactionsworkflowsmain.ymlbadge.svg  target httpsgithub.comastropyextension-helpersactionsworkflowsmain.yml.. image httpscodecov.ioghastropyextension-helpersbranchmaingraphbadge.svg  target httpscodecov.ioghastropyextension-helpers.. image httpsreadthedocs.orgprojectsextension-helpersbadgeversionlatest  target httpsextension-helpers.readthedocs.ioenlatestbadgelatest  alt Documentation StatusThe extension-helpers package includes convenience helpers to assist withbuilding Python packages with compiled CCython extensions. It is developed bythe Astropy project but is intended to be general and usable by any Pythonpackage.For more information, see the documentation at httpextension-helpers.readthedocs.io</longdescription>
+</pkgmetadata>

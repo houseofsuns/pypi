@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pyhs2pyHS2 is a python client driver for connecting to hive server 2.See example.py for an example of how to use it.Please log all issuesnew feature requests under the issues tab and I will respond ASAP.Contact bradruderman or bradrudermangmail.com with questions.Enjoy[alt tag](httpsrs.gwallet.comr1pixelx11399)</longdescription>
+</pkgmetadata>

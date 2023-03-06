@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>The libvirt-python package provides a module that permits applicationswritten in the Python 3.x programming language to call the interfacesupplied by the libvirt library, to manage the virtualization capabilitiesof recent versions of Linux (and other OSes).</longdescription>
+</pkgmetadata>

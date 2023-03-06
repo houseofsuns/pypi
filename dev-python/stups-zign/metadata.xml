@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Zign.. image httpstravis-ci.orgzalando-stupszign.svgbranchmaster   target httpstravis-ci.orgzalando-stupszign   alt Build Status.. image httpscoveralls.ioreposzalando-stupszignbadge.svg   target httpscoveralls.iorzalando-stupszign   alt Code Coverage.. image httpsimg.shields.iopypidwstups-zign.svg   target httpspypi.python.orgpypistups-zign   alt PyPI Downloads.. image httpsimg.shields.iopypivstups-zign.svg   target httpspypi.python.orgpypistups-zign   alt Latest PyPI version.. image httpsimg.shields.iopypilstups-zign.svg   target httpspypi.python.orgpypistups-zign   alt LicenseOAuth2 token management command line utility... code-block bash     sudo pip3 install --upgrade stups-zignUsage.. code-block bash     zign token uid cn     ztoken  shortcutSee the STUPS documentation on zign_ for details.Running Unit Tests.. code-block bash     python3 setup.py test --cov-htmltrue.. _STUPS documentation on zign httpstups.readthedocs.orgenlatestcomponentszign.htmlReleasing.. code-block bash     .release.sh NEW-VERSION</longdescription>
+</pkgmetadata>

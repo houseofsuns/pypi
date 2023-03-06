@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> qdldl-python[github actions](httpsgithub.comoxfordcontrolqdldl-pythonworkflowsBuildbadge.svgbranchmaster)Python interface to the [QDLDL](httpsgithub.comoxfordcontrolqdldl)free LDL factorization routine for quasi-definite linear systems Ax b. InstallationThis package can be directly installed via pip,pip install qdldl UsageInitialize the factorization withimport qdldlF  qdldl.Solver(A)where A must be a square quasi-definite matrix in [scipy sparse CSCformat](httpsdocs.scipy.orgdocscipyreferencegeneratedscipy.sparse.csc_matrix.html).The algorithm internally converts the matrix into upper triangular format. If A is already upper-triangular, you can specify it with the argument upperTrue to the qdldl.Solver constructor.To solve the linear system for a right-hand side b, just writex  F.solve(b)To update the factorization without changing the sparsity pattern of A you can runF.update(A_new)where A_new is a sparse matrix in CSR format with the same sparsity pattern as A.The algorithm internally converts A_new into upper triangular format. If A_new is already upper-triangular, you can specify it with the argument upperTrue to the F.update function.</longdescription>
+</pkgmetadata>

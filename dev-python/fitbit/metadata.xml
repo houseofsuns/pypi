@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>python-fitbit.. image httpstravis-ci.orgorcasgitpython-fitbit.svgbranchmaster   target httpstravis-ci.orgorcasgitpython-fitbit   alt Build Status.. image httpscoveralls.ioreposorcasgitpython-fitbitbadge.pngbranchmaster   target httpscoveralls.iororcasgitpython-fitbitbranchmaster   alt Coverage Status.. image httpsrequires.iogithuborcasgitpython-fitbitrequirements.pngbranchmaster   target httpsrequires.iogithuborcasgitpython-fitbitrequirementsbranchmaster   alt Requirements Status.. image httpsbadges.gitter.imorcasgitpython-fitbit.png   target httpsgitter.imorcasgitpython-fitbit   alt Gitter chatFitbit API Python Client ImplementationFor documentation httppython-fitbit.readthedocs.org httppython-fitbit.readthedocs.org_Requirements Python 2.7+ python-dateutil_ (always) requests-oauthlib_ (always) Sphinx_ (to create the documention) tox_ (for running the tests) coverage_ (to create test coverage reports).. _python-dateutil httpspypi.python.orgpypipython-dateutil2.4.0.. _requests-oauthlib httpspypi.python.orgpypirequests-oauthlib.. _Sphinx httpspypi.python.orgpypiSphinx.. _tox httpspypi.python.orgpypitox.. _coverage httpspypi.python.orgpypicoverageTo use the library, you need to install the run time requirements   sudo pip install -r requirementsbase.txtTo modify and test the library, you need to install the developer requirements   sudo pip install -r requirementsdev.txtTo run the library on a continuous integration server, you need to install the test requirements   sudo pip install -r requirementstest.txt</longdescription>
+</pkgmetadata>

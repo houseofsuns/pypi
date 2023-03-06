@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>OpenCensus requests Integrationpypi.. pypi image httpsbadge.fury.iopyopencensus-ext-requests.svg   target httpspypi.orgprojectopencensus-ext-requestsOpenCensus can trace HTTP requests made with the requests package_. The request URL,method, and status will be collected.You can enable requests integration by specifying requests to trace_integrations.Its possible to configure a list of URL you dont want traced. By default the request to exporterwont be traced. Its configurable by giving an array of hostnameport to the attributeexcludelist_hostnames in OpenCensus contexts attributesOnly the hostname must be specified if only the hostname is specified in the URL request... _Requests package httpspypi.python.orgpypirequestsInstallation------------    pip install opencensus-ext-requestsUsage-----.. code python    import requests    from opencensus.trace import config_integration    from opencensus.trace.tracer import Tracer    if __name__  __main__        config_integration.trace_integrations([requests])        tracer  Tracer()        with tracer.span(nameparent)            response  requests.get(urlhttpswww.wikipedia.orgwikiRabbit)References---------- OpenCensus Project httpsopencensus.io_</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> mdurl[[Build Status](httpsgithub.comexecutablebooksmdurlworkflowsTestsbadge.svgbranchmaster)](httpsgithub.comexecutablebooksmdurlactionsqueryworkflow3ATests+branch3Amaster+event3Apush)[[codecov.io](httpscodecov.ioghexecutablebooksmdurlbranchmastergraphbadge.svg)](httpscodecov.ioghexecutablebooksmdurl)[[PyPI version](httpsimg.shields.iopypivmdurl)](httpspypi.orgprojectmdurl)This is a Python port of the JavaScript [mdurl](httpswww.npmjs.compackagemdurl) package.See the [upstream README.md file](httpsgithub.commarkdown-itmdurlblobmasterREADME.md) for API documentation.</longdescription>
+</pkgmetadata>

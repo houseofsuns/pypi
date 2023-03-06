@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[[PyPI](httpsimg.shields.iopypivpytoml.svg)](httpspypi.python.orgpypipytoml)[[Build Status](httpstravis-ci.orgavakarpytoml.svgbranchmaster)](httpstravis-ci.orgavakarpytoml) DeprecatedThe pytoml project is no longer being actively maintained. Consider using the[toml](httpsgithub.comuiritoml) package instead. pytomlThis project aims at being a specs-conforming and strict parser and writer for [TOML][1] files.The library currently supports [version 0.4.0][2] of the specs and runs with Python 2.7+ and 3.5+.Install    pip install pytomlThe interface is the same as for the standard json package.     import pytoml as toml     toml.loads(a  1)    {a 1}     with open(file.toml, rb) as fin    ...     obj  toml.load(fin)     obj    {a 1}The loads function accepts either a bytes object(that gets decoded as UTF-8 with no BOM allowed),or a unicode object.Use dump or dumps to serialize a dict into TOML.     print toml.dumps(obj)    a  1 testsTo run the tests update the toml-test submodule    git submodule update --init --recursiveThen run the tests    python testtest.py  [1] httpsgithub.comtoml-langtoml  [2] httpsgithub.comtoml-langtomlblobmasterversionsentoml-v0.4.0.md</longdescription>
+</pkgmetadata>

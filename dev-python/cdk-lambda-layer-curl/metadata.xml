@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> AWS Lambda Layer with curl[[NPM version](httpsbadge.fury.iojscdk-lambda-layer-curl.svg)](httpsbadge.fury.iojscdk-lambda-layer-curl)[[PyPI version](httpsbadge.fury.iopycdk-lambda-layer-curl.svg)](httpsbadge.fury.iopycdk-lambda-layer-curl)[Release](httpsgithub.comclarencetwcdk-lambda-layer-curlworkflowsreleasebadge.svg)[[Gitpod Ready-to-Code](httpsimg.shields.iobadgeGitpod-ready--to--code-bluelogogitpod)](httpsgitpod.iohttpsgithub.comclarencetwcdk-lambda-layer-curl)Usagepython CurlLayer bundles the curl in a lambda layerimport { CurlLayer } from cdk-lambda-layer-curldeclare const fn lambda.Functionfn.addLayers(new CurlLayer(this, CurlLayer))pythonimport { CurlLayer } from cdk-lambda-layer-curlimport  as lambda from aws-cdk-libaws-lambdanew lambda.Function(this, MyLambda, {  code lambda.Code.fromAsset(path.join(__dirname, my-lambda-handler)),  handler index.main,  runtime lambda.Runtime.PYTHON_3_9,  layers [new CurlLayer(this, CurlLayer)]})</longdescription>
+</pkgmetadata>

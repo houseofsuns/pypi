@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Wrappers for the dispatch library on macOS.These wrappers dont include documentation, please check Apples documentationfor information on how to use this framework and PyObjCs documentationfor general tips and tricks regarding the translation between Pythonand (Objective-)C frameworksProject links------------- Documentation httpspyobjc.readthedocs.ioenlatest_ Issue Tracker httpsgithub.comronaldoussorenpyobjcissues_ Repository httpsgithub.comronaldoussorenpyobjc_</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Build Status PyPiVersion License DownloadsIntroduction------------By design asyncio does not allow httpsbugs.python.orgissue22239_its event loop to be nested. This presents a practical problemWhen in an environment where the event loop isalready running its impossible to run tasks and waitfor the result. Trying to do so will give the errorRuntimeError This event loop is already running.The issue pops up in various environments, such as web servers,GUI applications and in Jupyter notebooks.This module patches asyncio to allow nested use of asyncio.run andloop.run_until_complete.Installation------------.. code-block    pip3 install nest_asyncioPython 3.5 or higher is required.Usage-----.. code-block python    import nest_asyncio    nest_asyncio.apply()Optionally the specific loop that needs patching can be givenas argument to apply, otherwise the current event loop is used.An event loop can be patched whether it is already runningor not. Only event loops from asyncio can be patchedLoops from other projects, such as uvloop or quamash,generally cant be patched... Build image httpsgithub.comerdewitnest_asyncioworkflowsTestbadge.svgbranchemaster   alt Build   target httpsgithub.comerdewitnest_asyncioactions.. PyPiVersion image httpsimg.shields.iopypivnest_asyncio.svg   alt PyPi   target httpspypi.python.orgpypinest_asyncio.. Status image httpsimg.shields.iobadgestatus-stable-green.svg   alt.. License image httpsimg.shields.iobadgelicense-BSD-blue.svg   alt.. Downloads image httpspepy.techbadgenest-asynciomonth   alt Number of downloads   target httpspepy.techprojectnest-asyncio</longdescription>
+</pkgmetadata>

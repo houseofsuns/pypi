@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Boa.. image httpsimg.shields.iopypivboa-str.svg    target httpspypi.python.orgpypiboa-str    alt PyPI.. image httpsimg.shields.iocircleciprojectgithubastronomerioboa.svg    target httpscircleci.comghastronomerioboa    alt CircleCI.. image httpscodecov.ioghastronomerioboabranchmastergraphbadge.svg    target httpscodecov.ioghastronomerioboa    alt CodecovBoa is a Python package for normalizing and converting strings to snakecase.For example, it translates the user-defined event User Buys Item to user_buys_item which can then be used in a file path in S3, or as the name of a schema or table in Redshift.It also handles the more complex cases such as stripping punctuation and converting words from camelCase or PascalCase to snake_case (see examples below).Installation------------Install in your virtual environment.. code-block console     pip install boa-strQuickstart----------.. code-block python     import boa     my_str  Hello Boa     boa.constrict(my_str)    hello_boaExamples--------.. code-block python     import boa     boa.constrict(toInfinityAndBeyond)    to_infinity_and_beyond     boa.constrict(Welcome-to-planet-Earth)    welcome_to_planet_earthTests-----We use nose2 httpspypi.python.orgpypinose2_ and coverage httpspypi.python.orgpypicoverage_ for unit tests.Install with test requirements.. code-block console     pip install boa-str[test]Then run.. code-block console     invoke testStyle-----.. code-block console     invoke lintContribute----------Clone the repo, then install with dev requirements which also includes test requirements.. code-block console     git clone httpsgithub.comastronomerioboa     cd boa     pip install .[dev]</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>OpenTelemetry Prometheus Exporterpypi.. pypi image httpsbadge.fury.iopyopentelemetry-exporter-prometheus.svg   target httpspypi.orgprojectopentelemetry-exporter-prometheusThis library allows to export metrics data to Prometheus httpsprometheus.io_.Installation------------     pip install opentelemetry-exporter-prometheusReferences---------- OpenTelemetry Prometheus Exporter httpsopentelemetry-python.readthedocs.ioenlatestexporterprometheusprometheus.html_ Prometheus httpsprometheus.io_ OpenTelemetry Project httpsopentelemetry.io_</longdescription>
+</pkgmetadata>

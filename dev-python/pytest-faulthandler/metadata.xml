@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pytest-faulthandlerPlugin for pytest that automatically enables thefaulthandler httpsfaulthandler.readthedocs.io_ module during tests.Inspired by thenose faulthandler httpsgithub.comschlamarnose-faulthandler_ plugin.This plugin is now part of pytest core since pytest 5.0, so users should not install this plugin together with that pytest version.Version 2.0.0 of this package is a dummy package for pytest 5.0 compatibility.UsageThe plugin is always active by default, but you can disable it by passing--no-faulthandler to py.test.Options --faulthandler-timeoutTIMEOUT Dump the traceback of all threads if a  test takes more than TIMEOUT seconds to finish.Requirements Python 2.7+, Python 3.4+ pytest faulthandler (Python 2.7)InstallInstall using pip httppip-installer.org_.. code-block console     pip install pytest-faulthandlerChange LogPlease consult the CHANGELOG_... _CHANGELOG httpsgithub.compytest-devpytest-faulthandlerblobmasterCHANGELOG.rst</longdescription>
+</pkgmetadata>

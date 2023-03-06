@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>OpenTelemetry urllib3 Instrumentationpypi.. pypi image httpsbadge.fury.iopyopentelemetry-instrumentation-urllib3.svg   target httpspypi.orgprojectopentelemetry-instrumentation-urllib3This library allows tracing HTTP requests made by theurllib3 httpsurllib3.readthedocs.io_ library.Installation------------     pip install opentelemetry-instrumentation-urllib3Configuration-------------RequestResponse hooksThe urllib3 instrumentation supports extending tracing behavior with the help ofrequest and response hooks. These are functions that are called back by the instrumentationright after a Span is created for a request and right before the span is finished processing a response respectively.The hooks can be configured as follows.. code python     request is an instance of urllib3.connectionpool.HTTPConnectionPool    def request_hook(span, request)        pass     request is an instance of urllib3.connectionpool.HTTPConnectionPool     response is an instance of urllib3.response.HTTPResponse    def response_hook(span, request, response)        pass    URLLib3Instrumentor.instrument(        request_hookrequest_hook, response_hookresponse_hook)    )References---------- OpenTelemetry urllib3 Instrumentation httpsopentelemetry-python-contrib.readthedocs.ioenlatestinstrumentationurllib3urllib3.html_ OpenTelemetry Project httpsopentelemetry.io_ OpenTelemetry Python Examples httpsgithub.comopen-telemetryopentelemetry-pythontreemaindocsexamples_</longdescription>
+</pkgmetadata>

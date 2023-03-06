@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> py-sr25519-bindingsPython bindings for sr25519 library httpsgithub.comw3fschnorrkelReference to httpsgithub.comLocalCoinSwapkusama-reference-implementationtreeimprove-trading-testsbindings and httpsgitlab.comkauriidschnorrpy for the initial work  Documentationhttpsdocs.rspy-sr25519-bindings Installation Install from PyPIpip install py-sr25519-bindings Compile for local developmentpip install -r requirements.txtmaturin develop Build wheelspip install -r requirements.txt Build local OS wheelmaturin build Build manylinux1 wheeldocker build . --tag polkasourcematurindocker run --rm -i -v (pwd)io polkasourcematurin build Usage pythonimport bip39import sr25519message  btest Get private and public key from seedseed  bip39.bip39_to_mini_secret(daughter song common combine misery cotton audit morning stuff weasel flee field,)public_key, private_key  sr25519.pair_from_seed(bytes(seed)) Generate signaturesignature  sr25519.sign(    (public_key, private_key),    message)print(Signature, signature.hex()) Verify message with signatureif sr25519.verify(signature, message, public_key)    print(Verified) Licensehttpsgithub.compolkascanpy-sr25519-bindingsblobmasterLICENSE</longdescription>
+</pkgmetadata>

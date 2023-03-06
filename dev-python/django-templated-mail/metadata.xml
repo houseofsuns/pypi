@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>django-templated-mail.. image httpsimg.shields.iopypivdjango-templated-mail.svg  target httpspypi.orgprojectdjango-templated-mail.. image httpsimg.shields.iotravissunscrapersdjango-templated-mail.svg  target httpstravis-ci.orgsunscrapersdjango-templated-mail.. image httpsimg.shields.iocodecovcgithubsunscrapersdjango-templated-mail.svg  target httpscodecov.ioghsunscrapersdjango-templated-mail.. image httpsimg.shields.ioscrutinizergsunscrapersdjango-templated-mail.svg  target httpsscrutinizer-ci.comgsunscrapersdjango-templated-mailA simple wrapper for django.core.mail.EmailMultiAlternatives which makesuse of Django template system to store email content in separate file.Developed by SUNSCRAPERS httpsunscrapers.com_ with passion  patience.InstallationSimply install using pip.. code-block bash     pip install -U django-templated-mailDocumentationDocumentation is available to study athttpdjango-templated-mail.readthedocs.io httpdjango-templated-mail.readthedocs.io_and in docs directory.Contributing and developmentTo start developing on django-templated-mail, clone the repository.. code-block bash     git clone gitgithub.comsunscrapersdjango-templated-mail.gitIf you are a pipenv user you can quickly setup testing environment byusing Make commands.. code-block bash     make init     make test</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Generalized Linear Models in DaskBuild Status Documentation StatusThis library is not ready for use.See the documentation_ for more information.Developer Setup---------------Setup environment (from repo directory)    conda create env    source activate dask_glm    pip install -e .Run tests    py.test.. Build Status image httpstravis-ci.orgdaskdask-glm.svgbranchmaster   target httpstravis-ci.orgdaskdask-glm.. Documentation Status image httpsreadthedocs.orgprojectsdask-glmbadgeversionlatest   target httpdask-glm.readthedocs.ioenlatestbadgelatest.. _documentation httpdask-glm.readthedocs.ioenlatest</longdescription>
+</pkgmetadata>

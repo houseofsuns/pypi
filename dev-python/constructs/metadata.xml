@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Constructs Software-defined persistent state[Release](httpsgithub.comawsconstructsworkflowsReleasebadge.svg)[[npm version](httpsbadge.fury.iojsconstructs.svg)](httpsbadge.fury.iojsconstructs)[[PyPI version](httpsbadge.fury.iopyconstructs.svg)](httpsbadge.fury.iopyconstructs)[[NuGet version](httpsbadge.fury.ionuConstructs.svg)](httpsbadge.fury.ionuConstructs)[[Maven Central](httpsmaven-badges.herokuapp.commaven-centralsoftware.constructsconstructsbadge.svgstyleplastic)](httpsmaven-badges.herokuapp.commaven-centralsoftware.constructsconstructs) What are constructsConstructs are classes which define a piece of system state. Constructs can be composed together to form higher-level building blocks which represent more complex state.Constructs are often used to represent the desired state of cloud applications. For example, in the AWS CDK, which is used to define the desired state for AWS infrastructure using CloudFormation, the lowest-level construct represents a resource definition in a CloudFormation template. These resources are composed to represent higher-level logical units of a cloud application, etc. ContributingThis project has adopted the [Amazon Open Source Code ofConduct](httpsaws.github.iocode-of-conduct).We welcome community contributions and pull requests. See our [contributionguide](.CONTRIBUTING.md) for more information on how to report issues, set up adevelopment environment and submit code. LicenseThis project is distributed under the [Apache License, Version 2.0](.LICENSE).</longdescription>
+</pkgmetadata>

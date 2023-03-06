@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>os-service-typesPython library for consuming OpenStack sevice-types-authority dataThe OpenStack Service Types Authority_ contains information about officialOpenStack services and their historical service-type aliases.The data is in JSON and the latest data should always be used. This simplelibrary exists to allow for easy consumption of the data, along with a built-inversion of the data to use in case network access is for some reason notpossible and local caching of the fetched data. Free software Apache license Documentation httpsdocs.openstack.orgos-service-typeslatest Source httpsopendev.orgopenstackos-service-types Bugs httpsstoryboard.openstack.orgproject904 Release notes httpsdocs.openstack.orgreleasenotesos-service-types.. _OpenStack Service Types Authority httpsservice-types.openstack.org</longdescription>
+</pkgmetadata>

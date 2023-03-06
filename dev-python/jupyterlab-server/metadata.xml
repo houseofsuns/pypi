@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> jupyterlab server[[codecov](httpscodecov.ioghjupyterlabjupyterlab_serverbranchmaingraphbadge.svgtoken4fjcFj91Le)](httpscodecov.ioghjupyterlabjupyterlab_server)[[Build Status](httpsgithub.comjupyterlabjupyterlab_serverworkflowsTestsbadge.svgbranchmaster)](httpsgithub.comjupyterlabjupyterlab_serveractionsquerybranch3Amaster+workflow3A22Tests22)[[Documentation Status](httpsreadthedocs.orgprojectsjupyterlab_serverbadgeversionstable)](httpjupyterlab_server.readthedocs.ioenstable) MotivationJupyterLab Server sits between JupyterLab and Jupyter Server, and provides aset of REST API handlers and utilities that are used by JupyterLab. It is a separate project in order toaccommodate creating JupyterLab-like applications from a more limited scope. Installpip install jupyterlab_serverTo include optional openapi dependencies, usepip install jupyterlab_server[openapi]To include optional pytest_plugin dependencies, usepip install jupyterlab_server[test] UsageSee the full documentation for [API docs](httpsjupyterlab-server.readthedocs.ioenstableapiindex.html) and [REST endpoint descriptions](httpsjupyterlab-server.readthedocs.ioenstableapirest.html). Extending the ApplicationSubclass the LabServerApp and provide additional traits and handlers as appropriate for your application. ContributionPlease see CONTRIBUTING.md for details.</longdescription>
+</pkgmetadata>

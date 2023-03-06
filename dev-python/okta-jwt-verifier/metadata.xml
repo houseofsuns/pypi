@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Okta JWT VerifierA Python library for OKTA JWT tokens validationGetting Started---------------  pip install okta-jwt-verifier Look for our quickstart guide here- httpsgithub.comoktaokta-jwt-verifier-pythonOkta Developer Forum--------------------Find out more and look for help here httpsdevforum.okta.com</longdescription>
+</pkgmetadata>

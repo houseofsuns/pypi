@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>iso4217 Currency data package for Python.. image httpsbadge.fury.iopyiso4217.svg   target httpspypi.python.orgpypiiso4217.. image httpsgithub.comdahliaiso4217actionsworkflowsmain.yamlbadge.svg   target httpsgithub.comdahliaiso4217actionsworkflowsmain.yamlThis Python package contains ISO 4217_ currency data, represented asenum_ module which was introduced in 3.4.  Note that this works on Python 2.7as well as 3.10, the latest version of Python, through enum34_ package. from iso4217 import Currency Currency.usdCurrency.usd USD Currency.usd.codeUSD Currency.usd.currency_nameUS Dollar Currency.usd.exponent   USD has cents2 Currency.jpyCurrency.jpy JPY Currency.jpy.currency_nameYen Currency.jpy.exponent   JPY has no minor units0 Currency(KRW)   Get by the code stringCurrency.krw KRW Currency.krw is Currency(KRW)TrueWritten by Hong Minhee_.  Distributed under Public Domain... _ISO 4217 httpwww.iso.orgisohomestandardscurrency_codes.htm.. _enum httpsdocs.python.org3libraryenum.html.. _enum34 httpspypi.python.orgpypienum34.. _Hong Minhee httpshongminhee.org</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Pandarallel[[PyPI version fury.io](httpsbadge.fury.iopypandarallel.svg)](httpspypi.python.orgpypipandarallel)[[PyPI license](httpsimg.shields.iopypilpandarallel.svg)](httpspypi.python.orgpypipandarallel)[[PyPI download month](httpsimg.shields.iopypidmpandarallel.svg)](httpspypi.python.orgpypipandarallel) Without parallelization   [Without Pandarallel](httpsgithub.comnalepaepandarallelblobmasterdocsprogress_apply.gifrawtrue)        ----------------------  -----------------------------------------------------------------------------------------------------------------  With parallelization  [With Pandarallel](httpsgithub.comnalepaepandarallelblobmasterdocsprogress_parallel_apply.gifrawtrue) Pandaral.lel provides a simple way to parallelize your pandas operations on all yourCPUs by changing only one line of code. It also displays progress bars. Maintainers- [Manu NALEPA](httpsgithub.comnalepae)- [till-m](httpsgithub.comtill-m) Installationbashpip install pandarallel [--upgrade] [--user] Quickstartpythonfrom pandarallel import pandarallelpandarallel.initialize(progress_barTrue) df.apply(func)df.parallel_apply(func) UsageBe sure to check out the [documentation](httpsnalepae.github.iopandarallel). ExamplesAn example of each available pandas API is available- For [Mac  Linux](httpsgithub.comnalepaepandarallelblobmasterdocsexamples_mac_linux.ipynb)- For [Windows](httpsgithub.comnalepaepandarallelblobmasterdocsexamples_windows.ipynb)</longdescription>
+</pkgmetadata>

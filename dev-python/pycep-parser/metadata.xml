@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> pycep[[Build Status](httpsgithub.comgruebelpycepworkflowsCIbadge.svg)](httpsgithub.comgruebelpycepactions)[[codecov](httpscodecov.ioghgruebelpycepbranchmastergraphbadge.svgtoken49WHVYGE1D)](httpscodecov.ioghgruebelpycep)[[PyPI](httpsimg.shields.iopypivpycep-parser)](httpspypi.orgprojectpycep-parser)[[PyPI - Python Version](httpsimg.shields.iopypipyversionspycep-parser)](httpsgithub.comgruebelpycep)[CodeQL](httpsgithub.comgruebelpycepworkflowsCodeQLbadge.svg)A parser for [Azure Bicep](httpsgithub.comAzurebicep) files leveraging [Lark](httpsgithub.comlark-parserlark). Getting Started Requirements- Python 3.7+- Lark 1.1.2+ Installshellpip install --upgrade pycep-parser Current capabilities[Supported capabilities](docscapabilities.md) Next milestones Functions- [x] Any- [ ] Array (in progress)- [x] Date- [x] Deployment- [x] File- [x] Logical- [x] Numeric- [x] Object- [x] Resource- [x] Scope- [x] String Operators- [ ] Accessor- [x] Numeric Considering- 1st class support of interpolated strings Out-of-scope- Bicep to ARM converter and vice versa ContributingFurther details can be found in the [contribution guidelines](CONTRIBUTING.md).</longdescription>
+</pkgmetadata>

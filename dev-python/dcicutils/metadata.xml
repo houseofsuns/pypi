@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>utilsCheck out our full documentation here httpsdcic-utils.readthedocs.ioenlatest_This repository contains various utility modules shared amongst several projects in the 4DN-DCIC. It is meant to be used internally by the DCIC team and externally as a Python API to Fourfront httpsdata.4dnucleome.org_ , the 4DN data portal.pip installable as the dcicutils package with pip install dcicutilsSee this document httpsdcic-utils.readthedocs.ioenlatestgetting_started.html_ for tips on getting started. Go here httpsdcic-utils.readthedocs.ioenlatestexamples.html_ for examples of some of the most useful functions... image httpstravis-ci.org4dn-dcicutils.svgbranchmaster   target httpstravis-ci.org4dn-dcicutils   alt Build Status.. image httpscoveralls.ioreposgithub4dn-dcicutilsbadge.svgbranchmaster   target httpscoveralls.iogithub4dn-dcicutilsbranchmaster   alt Coverage.. image httpsreadthedocs.orgprojectsdcic-utilsbadgeversionlatest   target httpsdcic-utils.readthedocs.ioenlatestbadgelatest   alt Documentation Status</longdescription>
+</pkgmetadata>

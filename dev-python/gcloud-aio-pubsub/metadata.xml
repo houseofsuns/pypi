@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>(Asyncio OR Threadsafe) Python Client for Google Cloud PubSub    This is a shared codebase for gcloud-aio-pubsub and    gcloud-rest-pubsubpypi pythons-aio pythons-restInstallation------------.. code-block console     pip install --upgrade gcloud-{aio,rest}-pubsubUsage-----See our docs_.Contributing------------Please see our contributing guide_... _contributing guide httpsgithub.comtalkiqgcloud-aioblobmaster.githubCONTRIBUTING.rst.. _our docs httpstalkiq.github.iogcloud-aio.. pypi image httpsimg.shields.iopypivgcloud-aio-pubsub.svgstyleflat-square    alt Latest PyPI Version    target httpspypi.orgprojectgcloud-aio-pubsub.. pythons-aio image httpsimg.shields.iopypipyversionsgcloud-aio-pubsub.svgstyleflat-squarelabelpython (aio)    alt Python Version Support (gcloud-aio-pubsub)    target httpspypi.orgprojectgcloud-aio-pubsub.. pythons-rest image httpsimg.shields.iopypipyversionsgcloud-rest-pubsub.svgstyleflat-squarelabelpython (rest)    alt Python Version Support (gcloud-rest-pubsub)    target httpspypi.orgprojectgcloud-rest-pubsub</longdescription>
+</pkgmetadata>

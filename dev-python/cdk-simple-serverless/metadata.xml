@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[[npm version](httpsbadge.fury.iojscdk-simple-serverless.svg)](httpsbadge.fury.iojscdk-simple-serverless)[[PyPI version](httpsbadge.fury.iopycdk-simple-serverless.svg)](httpsbadge.fury.iopycdk-simple-serverless)[[release](httpsgithub.compahudcdk-simple-serverlessactionsworkflowsrelease.ymlbadge.svg)](httpsgithub.compahudcdk-simple-serverlessactionsworkflowsrelease.yml)[cdk-constructs Experimental](httpsimg.shields.iobadgecdk--constructs-experimental-important.svgstylefor-the-badge) cdk-simple-serverlessTiny serverless constructs wih all optional construct properties to keep it as simple as possible for demo out of the box. InstallUse the npm dist tag to opt in CDKv1 or CDKv2sh for CDKv2npm install cdk-simple-serverlessornpm install cdk-simple-serverlesslatest for CDKv1npm install cdk-simple-serverlesscdkv1 HelloFunctionAWS Lambda function that returns Hello CDK only.pythonimport { HelloFunction } from cdk-simple-serverlessnew HelloFunction(stack, Function) HelloRestApiServiceAmazon API Gateway REST API service that returns Hello CDK only in the HTTP response.pythonimport { HelloRestApiService } from cdk-simple-serverlessnew HelloRestApiService(stack, Service)</longdescription>
+</pkgmetadata>

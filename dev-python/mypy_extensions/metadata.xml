@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Mypy ExtensionsThe mypy_extensions module defines extensions to the standard typing modulethat are supported by the mypy type checker and the mypyc compiler.</longdescription>
+</pkgmetadata>

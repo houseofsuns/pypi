@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> sentry-dramatiq[[Travis CI build status (Linux)](httpstravis-ci.orgjmagnussonsentry-dramatiq.svgbranchmaster)](httpstravis-ci.orgjmagnussonsentry-dramatiq)[[PyPI version](httpsimg.shields.iopypivsentry-dramatiq.svg)](httpspypi.python.orgpypisentry-dramatiq)[[License](httpsimg.shields.iopypilsentry-dramatiq.svg)](httpspypi.python.orgpypisentry-dramatiq)[[Available as wheel](httpsimg.shields.iopypiwheelsentry-dramatiq.svg)](httpspypi.python.orgpypisentry-dramatiq)[[Supported Python versions](httpsimg.shields.iopypipyversionssentry-dramatiq.svg)](httpspypi.python.orgpypisentry-dramatiq)[[PyPI status (alphabetastable)](httpsimg.shields.iopypistatussentry-dramatiq.svg)](httpspypi.python.orgpypisentry-dramatiq)[[Coverage Status](httpscoveralls.ioreposgithubjmagnussonsentry-dramatiqbadge.svgbranchmaster)](httpscoveralls.iogithubjmagnussonsentry-dramatiqbranchmaster)[Dramatiq task processor](httpsdramatiq.io) integration for the [Sentry SDK](httpsdocs.sentry.ioerror-reportingquickstartplatformpython). Installationpip install sentry-dramatiq Setuppythonimport sentry_sdkimport sentry_dramatiqsentry_sdk.init(    __DSN__,    integrations[sentry_dramatiq.DramatiqIntegration()],) Features- Tags Sentry events with the message ID as dramatiq_message_id- Adds all info about a Dramatiq message to a separate context (shows up as its own section in the Sentry UI) Known limitations- sentry_sdk.init() has to be called before broker is initialized as the integration monkey patches Broker.__init__</longdescription>
+</pkgmetadata>

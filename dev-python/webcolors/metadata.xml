@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. --restructuredtext--.. image httpsgithub.comubernostrumwebcolorsworkflowsCIbadge.svg   alt CI status image   target httpsgithub.comubernostrumwebcolorsactionsqueryworkflow3ACIwebcolors is a module for working with HTMLCSS color definitions.Support is included for normalizing and converting between thefollowing formats (RGB colorspace only conversion tofrom HSL can behandled by the colorsys module in the Python standard library) Specification-defined color names Six-digit hexadecimal Three-digit hexadecimal Integer rgb() triplet Percentage rgb() tripletFor example.. code-block python     import webcolors     webcolors.hex_to_name(udaa520)    ugoldenrodImplementations are also provided for the HTML5 color parsing andserialization algorithms. For example, parsing the infamouschucknorris string into an rgb() triplet.. code-block python     import webcolors     webcolors.html5_parse_legacy_color(uchucknorris)    HTML5SimpleColor(red192, green0, blue0)Full documentation is available online httpswebcolors.readthedocs.io_.</longdescription>
+</pkgmetadata>

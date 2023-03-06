@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Example UsageBasic usage     from natural.file import accessed     print accessed(__file__)    just nowWe speak your language (with your support_)     import locale     locale.setlocale(locale.LC_MESSAGES, nl_NL)     print accessed(__file__)    zojuistBugsFeaturesYou can issue a ticket in GitHub httpsgithub.comtehmazenaturalissuesDocumentationThe project documentation can be found at httpnatural.rtfd.org.. _your support httpnatural.readthedocs.orgenlatestlocales.html</longdescription>
+</pkgmetadata>

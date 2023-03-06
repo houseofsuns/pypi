@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Javascript.pyThis package lets you use javascript like objects in python. InstallationStable versionpip install javascriptpyWorking versionpip install git+httpsgithub.comCodeWithSwastikjavascript-py Example Usagepythonfrom javascript import array  Array(apple, orange, cherry)index  Math.floor(Math.random()  array.length)console.info(Random element, array[index])console.table(array) Consolepyfrom javascript import console, Arrayconsole.clear()console.error(Syntax Error)console.warn(Forgot an import)console.table(Array([earth, venus]))[image](httpsuser-images.githubusercontent.com61446939126521684-669e4dd5-4263-4c5e-9cce-9c0e097759e3.png) Whats new- Added RegExp, Date, JSON</longdescription>
+</pkgmetadata>

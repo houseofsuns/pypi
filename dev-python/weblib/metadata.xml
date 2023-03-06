@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Weblib.. image httpstravis-ci.orglorienweblib.pngbranchmaster    target httpstravis-ci.orglorienweblib.. image httpscoveralls.ioreposlorienweblibbadge.svgbranchmaster    target httpscoveralls.iorlorienweblibbranchmaster.. image httpsreadthedocs.orgprojectsweblibbadgeversionlatest    target httpweblib.readthedocs.orgenlatestWeblib provides tools to solve typical tasks in web scraping processing HTML handling text encodings controling repeating and parallel tasks parsing RSSATOM feeds preparing data for HTTP requests working with DOM tree working with text and numeral data list of common user agents cross-platform file locking operations with files and directoriesInstallationRun.. code bash    pip install -U weblibDocumentationDocs are incomplete. Most docs are auto-generated from modulesmethods docstrings.Check out docs here httpweblib.readthedocs.orgenlatest</longdescription>
+</pkgmetadata>

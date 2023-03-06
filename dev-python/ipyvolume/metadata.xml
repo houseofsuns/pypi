@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>ipyvolumeDocumentation Version DownloadsIPython widget for rendering 3d volumes and glyphs (e.g. scatter and quiver) in the Jupyter notebook.. figure httpsraw.githubusercontent.commaartenbreddelsipyvolumemastermiscscreencast.gif   alt screencast   screencastInstallation------------To install use pip    pip install ipyvolume    jupyter nbextension enable --py --sys-prefix ipyvolumeTo install use pip (as non-admin)    pip install ipyvolume --user    jupyter nbextension enable --py --user ipyvolumeFor a development installation (requires npm),    git clone httpsgithub.commaartenbreddelsipyvolume.git    cd ipyvolume    pip install -e .    jupyter nbextension install --py --symlink --sys-prefix ipyvolume    jupyter nbextension enable --py --sys-prefix ipyvolume.. Documentation image httpsreadthedocs.orgprojectsipyvolumebadgeversionlatest   target httpsipyvolume.readthedocs.ioenlatestbadgelatest.. Version image httpsimg.shields.iopypivipyvolume.svg   target httpspypi.python.orgpypiipyvolume.. Downloads image httpsimg.shields.iopypidmipyvolume.svg   target httpspypi.python.orgpypiipyvolume</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>version python license ci coverage.. version image httpsimg.shields.iopypivinvoke    target httpspypi.orgprojectinvoke    alt PyPI - Package Version.. python image httpsimg.shields.iopypipyversionsinvoke    target httpspypi.orgprojectinvoke    alt PyPI - Python Version.. license image httpsimg.shields.iopypilinvoke    target httpsgithub.compyinvokeinvokeblobmainLICENSE    alt PyPI - License.. ci image httpsimg.shields.iocirclecibuildgithubpyinvokeinvokemain    target httpsapp.circleci.compipelinesgithubpyinvokeinvoke    alt CircleCI.. coverage image httpsimg.shields.iocodecovcghpyinvokeinvoke    target httpsapp.codecov.ioghpyinvokeinvoke    alt CodecovWelcome to InvokeInvoke is a Python (2.7 and 3.4+) library for managing shell-orientedsubprocesses and organizing executable Python code into CLI-invokable tasks. Itdraws inspiration from various sources (makerake, Fabric 1.x, etc) toarrive at a powerful  clean feature set.To find out whats new in this version of Invoke, please see the changeloghttpspyinvoke.orgchangelog.html{}_.The project maintainer keeps a roadmaphttpsbitprophet.orgprojectsroadmap_ on his website.For a high level introduction, including example code, please see our mainproject website httpspyinvoke.org_ or for detailed API docs, see theversioned API website httpsdocs.pyinvoke.org_.</longdescription>
+</pkgmetadata>

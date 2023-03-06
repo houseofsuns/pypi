@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Django Statsd Build StatusDocumentation is on Read the Docs httpsdjango-statsd.readthedocs.org_.-------License-------BSD and MPLPortions of this are from commonwarehttpsgithub.comjsocolcommonwareblobmasterLICENSE.. Build Status image httpstravis-ci.orgdjango-statsddjango-statsd.svgbranchmaster   target httpstravis-ci.orgdjango-statsddjango-statsd</longdescription>
+</pkgmetadata>

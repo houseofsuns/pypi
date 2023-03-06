@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>webapp2webapp2_ is a lightweight Python web framework compatible with Google AppEngines webapp_.webapp2 is simple_. it follows the simplicity of webapp, butimproves it in some ways it adds better URI routing and exception handling,a full featured response object and a more flexible dispatching mechanism.webapp2 also offers the package webapp2_extras_ with several optionalutilities sessions, localization, internationalization, domain and subdomainrouting, secure cookies and others.webapp2 can also be used outside of Google App Engine, independently of theApp Engine SDK.For a complete description of how webapp2 improves webapp, seewebapp2 features_.Quick links------------ User Guide httpwebapp-improved.appspot.com_- Repository httpcode.google.compwebapp-improved_- Discussion Group httpsgroups.google.comforumforumwebapp2_- webapp2 httpstwitter.comwebapp2_.. _webapp httpcode.google.comappenginedocspythontoolswebapp.. _webapp2 httpcode.google.compwebapp-improved.. _simple httpcode.google.compwebapp-improvedsourcebrowsewebapp2.py.. _webapp2_extras httpwebapp-improved.appspot.comapi-reference-webapp2-extras.. _webapp2 features httpwebapp-improved.appspot.comfeatures.html</longdescription>
+</pkgmetadata>

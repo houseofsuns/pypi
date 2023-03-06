@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> WurlitzerCapture C-level stdoutstderr pipes in Python via os.dup2.For more details on why this is needed, please read [this blog post](httpseli.thegreenplace.net2015redirecting-all-kinds-of-stdout-in-python). Install    pip install wurlitzer UsageCapture stdoutstderr in pipespythonfrom wurlitzer import pipeswith pipes() as (out, err)    call_some_c_function()stdout  out.read()Capture stdoutstderr in StringIOpythonfrom io import StringIOfrom wurlitzer import pipes, STDOUTout  StringIO()with pipes(stdoutout, stderrSTDOUT)    call_some_c_function()stdout  out.getvalue()Forward C-level stdoutstderr to Python sys.stdoutstderr,which may already be forwarded somewhere by the environment, e.g. IPythonpythonfrom wurlitzer import sys_pipeswith sys_pipes()    call_some_c_function()Or even simpler, enable it as an IPython extensionload_ext wurlitzerTo forward all C-level output to IPython during execution. AcknowledgmentsThis package is based on stuff we learned with takluyver and karies while working on capturing output from the [Cling Kernel](httpsgithub.comroot-mirrorclingtreemastertoolsJupyterkernel) for Jupyter. Wurlitzer[Wurlitzer](httpsen.wikipedia.orgwikiWurlitzer) makes pipe organs. Get it Pipes Naming is hard.</longdescription>
+</pkgmetadata>

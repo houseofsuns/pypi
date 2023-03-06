@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>httplib2 Transport for Google AuthpypiThis library provides an httplib2_ transport for google-auth_... note httplib has lots of problems such as lack of threadsafety    and insecure usage of TLS. Using it is highly discouraged. This    library is intended to help existing users of oauth2client migrate to    google-auth... pypi image httpsimg.shields.iopypivgoogle-auth-httplib2.svg   target httpspypi.python.orgpypigoogle-auth-httplib2.. _httplib2 httpsgithub.comhttplib2httplib2.. _google-auth httpsgithub.comGoogleCloudPlatformgoogle-auth-library-pythonInstalling----------You can install using pip_     pip install google-auth-httplib2.. _pip httpspip.pypa.ioenstableLicense-------Apache 2.0 - See the LICENSE_ for more information... _the LICENSE httpsgithub.comGoogleCloudPlatformgoogle-auth-library-pythonblobmasterLICENSE</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Keras Layer Normalization[[Version](httpsimg.shields.iopypivkeras-layer-normalization.svg)](httpspypi.orgprojectkeras-layer-normalization)[License](httpsimg.shields.iopypilkeras-layer-normalization.svg)Implementation of the paper [Layer Normalization](httpsarxiv.orgpdf1607.06450.pdf) Installbashpip install keras-layer-normalization Usagepythonfrom tensorflow import kerasfrom keras_layer_normalization import LayerNormalizationinput_layer  keras.layers.Input(shape(2, 3))norm_layer  LayerNormalization()(input_layer)model  keras.models.Model(inputsinput_layer, outputsnorm_layer)model.compile(optimizeradam, lossmse, metrics{},)model.summary()</longdescription>
+</pkgmetadata>

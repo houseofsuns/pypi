@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>About datarobot.. image httpsimg.shields.iopypivdatarobot.svg   target httpspypi.python.orgpypidatarobot.. image httpsimg.shields.iopypipyversionsdatarobot.svg.. image httpsimg.shields.iopypistatusdatarobot.svgDataRobot is a client library for working with the DataRobot_ platform API. This package is released under the terms of the DataRobot Tool and Utility Agreement, whichcan be found on our Legal_ page, along with our privacy policy and more.InstallationPython  3.7 are supported.You must have a datarobot account.    pip install datarobotUsageThe library will look for a config file .configdatarobotdrconfig.yaml by default.This is an example of what that config file should look like.   token your_token   endpoint httpsapp.datarobot.comapiv2Alternatively a global client can be set in the code.   import datarobot as dr   dr.Client(tokenyour_token, endpointhttpsapp.datarobot.comapiv2)Alternatively environment variables can be used.   export DATAROBOT_API_TOKENyour_token   export DATAROBOT_ENDPOINThttpsapp.datarobot.comapiv2See documentation_ for example usage after configuring.Helpful links- API quickstart guide httpsdocs.datarobot.comendocsapiapi-quickstartindex.html_- Code examples httpsdocs.datarobot.comendocsapiguidepythonindex.html_- Common use cases httpsdocs.datarobot.comendocsapiguidecommon-caseindex.html_Bug Reporting and QACreate an account on DataRobot Community httpscommunity.datarobot.com_ and post your questions and bug reportshere httpscommunity.datarobot.comt5forumspostpageboard-iddatarobot-api_... _datarobot httpsdatarobot.com.. _documentation httpsdatarobot-public-api-client.readthedocs-hosted.com.. _legal httpswww.datarobot.comlegal</longdescription>
+</pkgmetadata>

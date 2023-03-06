@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>OpenTelemetry Scikit-Learn Instrumentationpypi.. pypi image httpsbadge.fury.iopyopentelemetry-instrumentation-sklearn.svg   target httpspypi.orgprojectopentelemetry-instrumentation-sklearnThis library allows tracing HTTP requests made by thescikit-learn httpsscikit-learn.orgstable_ library.Installation------------     pip install opentelemetry-instrumentation-sklearnReferences---------- OpenTelemetry sklearn Instrumentation httpsopentelemetry-python-contrib.readthedocs.ioenlatestinstrumentationsklearnsklearn.html_ OpenTelemetry Project httpsopentelemetry.io_ OpenTelemetry Python Examples httpsgithub.comopen-telemetryopentelemetry-pythontreemaindocsexamples_</longdescription>
+</pkgmetadata>

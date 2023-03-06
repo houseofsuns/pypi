@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> claripy[[Code style black](httpsimg.shields.iobadgecode20style-black-000000.svg)](httpsgithub.compsfblack)Claripy is an abstracted constraint-solving wrapper. UsageIt is usableGeneral usage is similar to Z3python import claripy a  claripy.BVV(3, 32) b  claripy.BVS(var_b, 32) s  claripy.Solver() s.add(b  a) print(s.eval(b, 1)[0])</longdescription>
+</pkgmetadata>

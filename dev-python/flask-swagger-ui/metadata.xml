@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> flask-swagger-uiSimple Flask blueprint for adding [Swagger UI](httpsgithub.comswagger-apiswagger-ui) to your flask application.Included Swagger UI version 4.11.1. Installationpip install flask-swagger-ui UsageExample applicationpythonfrom flask import Flaskfrom flask_swagger_ui import get_swaggerui_blueprintapp  Flask(__name__)SWAGGER_URL  apidocs   URL for exposing Swagger UI (without trailing )API_URL  httppetstore.swagger.iov2swagger.json   Our API url (can of course be a local resource) Call factory function to create our blueprintswaggerui_blueprint  get_swaggerui_blueprint(    SWAGGER_URL,   Swagger UI static files will be mapped to {SWAGGER_URL}dist    API_URL,    config{   Swagger UI config overrides        app_name Test application    },     oauth_config{   OAuth config. See httpsgithub.comswagger-apiswagger-uioauth2-configuration .        clientId your-client-id,        clientSecret your-client-secret-if-required,        realm your-realms,        appName your-app-name,        scopeSeparator  ,        additionalQueryStringParams {test hello}     })app.register_blueprint(swaggerui_blueprint)app.run() Now point your browser to localhost5000apidocs ConfigurationThe blueprint supports overloading all Swagger UI configuration options that can be JSON serialized.See httpsgithub.comswagger-apiswagger-uiparameters for options.Plugins and function parameters are not supported at this time.OAuth2 parameters can be found at httpsgithub.comswagger-apiswagger-uioauth2-configuration .</longdescription>
+</pkgmetadata>

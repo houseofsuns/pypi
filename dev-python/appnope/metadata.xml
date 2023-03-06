@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> appnopeSimple package for disabling App Nap on macOS  10.9,which can be problematic.To disable App Nappythonimport appnopeappnope.nope()To reenable, for some reasonpythonappnope.nap()or to only disable App Nap for a particular blockwith appnope.nope_scope()    do_important_stuff()It uses ctypes to wrap a [NSProcessInfo beginActivityWithOptions] call to disable App Nap.To install    pip install appnope</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>corner.py.. image httpsgithub.comdfmcorner.pyworkflowsTestsbadge.svgstyleflat    target httpsgithub.comdfmcorner.pyactions.. image httpsreadthedocs.orgprojectscornerbadgeversionlatest    target httpscorner.readthedocs.ioenlatestbadgelatest.. image httpimg.shields.iobadgelicense-BSD-blue.svgstyleflat    target httpsgithub.comdfmcorner.pyblobmainLICENSE.. image httpszenodo.orgbadge4729dfmcorner.py.svgstyleflat    target httpszenodo.orgbadgelatestdoi4729dfmcorner.py.. image httpjoss.theoj.orgpapers10.21105joss.00024status.svgstyleflat    target httpdx.doi.org10.21105joss.00024++++++++++++++++++++++++++++++++++++++++++++++++++++++++++Read the documentation httpcorner.readthedocs.io_.++++++++++++++++++++++++++++++++++++++++++++++++++++++++++If you make use of this code, please cite the JOSS paperhttpdx.doi.org10.21105joss.00024_.. code-block tex    article{corner,      doi  {10.21105joss.00024},      url  {httpsdoi.org10.21105joss.00024},      year   {2016},      month  {jun},      publisher  {The Open Journal},      volume  {1},      number  {2},      pages  {24},      author  {Daniel Foreman-Mackey},      title  {corner.py Scatterplot matrices in Python},      journal  {The Journal of Open Source Software}    }</longdescription>
+</pkgmetadata>

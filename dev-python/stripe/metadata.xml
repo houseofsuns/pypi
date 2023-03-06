@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Official Stripe Bindings for PythonA Python library for Stripes API.Setup-----You can install this package by using the pip tool and installing     pip install stripeOr     easy_install stripeSetting up a Stripe Account---------------------------Sign up for Stripe at httpsdashboard.stripe.comregister.Using the Stripe API--------------------Documentation for the python bindings can be found alongside Stripes other bindings here- httpsstripe.comdocs- httpsstripe.comdocsapilangpythonIn the standard documentation (the first link), most of the reference pages will have examples in Stripes official bindings (including Python). Just click on the Python tab to get the relevant documentation.In the full API reference for python (the second link), the right half of the page will provide example requests and responses for various API calls.</longdescription>
+</pkgmetadata>

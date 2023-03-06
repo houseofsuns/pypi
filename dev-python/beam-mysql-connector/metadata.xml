@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Beam - MySQL Connector[[PyPI version](httpsbadge.fury.iopybeam-mysql-connector.svg)](httpsbadge.fury.iopybeam-mysql-connector)[PyPI - Python Version](httpsimg.shields.iopypipyversionsbeam-mysql-connector)[[Codacy Badge](httpsapi.codacy.comprojectbadgeGrade9d5d5727996e49e19bed91ac57bb1346)](httpswww.codacy.commanualesaki01beam-mysql-connectorutm_sourcegithub.comamputm_mediumreferralamputm_contentesaki01beam-mysql-connectoramputm_campaignBadge_Grade)[[License MIT](httpsimg.shields.iobadgeLicense-MIT-yellow.svg)](httpsopensource.orglicensesMIT)Beam - MySQL Connector is an io connector of [Apache Beam](httpsbeam.apache.org) to access MySQL databases. Installationbashpip install beam-mysql-connector Getting Started- Read From MySQLPythonfrom beam_mysql.connector import splittersfrom beam_mysql.connector.io import ReadFromMySQLread_from_mysql  ReadFromMySQL(        querySELECT  FROM test_db.tests,        hostlocalhost,        databasetest_db,        usertest,        passwordtest,        port3306,        splittersplitters.NoSplitter()   you can select how to split query for performance)- Write To MySQLPythonfrom beam_mysql.connector.io import WriteToMySQLwrite_to_mysql  WriteToMySQL(        hostlocalhost,        databasetest_db,        tabletests,        usertest,        passwordtest,        port3306,        batch_size1000,) LicenseMIT License. Please refer to the [LICENSE.txt](httpsgithub.comesaki01beam-mysql-connectorblobmasterLICENSE.txt), for further details.</longdescription>
+</pkgmetadata>

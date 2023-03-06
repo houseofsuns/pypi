@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> pytest-pydocstyle[[PyPI version](httpsbadge.fury.iopypytest-pydocstyle.svg)](httpspypi.orgprojectpytest-pydocstyle)[pytest](httpsdocs.pytest.orgenlatest) plugin to run [pydocstyle](httpsgithub.comPyCQApydocstyle) Installationshpip install pytest-pydocstyle Usageshpytest --pydocstyle ...For detail, please see pytest -h after installation. ConfigurationThe behavior can be configured in the same style of pydocstyle.  (cf. [Configuration  pytest documentation](httpsdocs.pytest.orgenlatestcustomize.html) and [Configuration Files  pydocstyle documentation](httpwww.pydocstyle.orgenlatestusage.htmlconfiguration-files))For example,[pydocstyle]convention  numpyadd-ignore  D400,D403[toolpytest]addopts  --pydocstyle LicenceThe MIT License  Copyright (c) 2019 OMOTO Tsukasa Acknowledgments- [abendeburypytest-pep257](httpsgithub.comabendeburypytest-pep257)</longdescription>
+</pkgmetadata>

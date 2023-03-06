@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>hpack HTTP2 Header Encoding for Python.. image httpsgithub.compython-hyperhpackworkflowsCIbadge.svg    target httpsgithub.compython-hyperhpackactions    alt Build Status.. image httpscodecov.ioghpython-hyperhpackbranchmastergraphbadge.svg    target httpscodecov.ioghpython-hyperhpack    alt Code Coverage.. image httpsreadthedocs.orgprojectshpackbadgeversionlatest    target httpshpack.readthedocs.ioenlatest    alt Documentation Status.. image httpsimg.shields.iobadgechat-join_now-brightgreen.svg    target httpsgitter.impython-hypercommunity    alt Chat community.. image httpsraw.github.comLukasahyperdevelopmentdocssourceimageshyper.pngThis module contains a pure-Python HTTP2 header encoding (HPACK) logic for usein Python programs that implement HTTP2.Contributinghpack welcomes contributions from anyone Unlike many other projects we arehappy to accept cosmetic contributions and small contributions, in addition tolarge feature requests and changes.Before you contribute (either by opening an issue or filing a pull request),please read the contribution guidelines_... _read the contribution guidelines httphyper.readthedocs.orgendevelopmentcontributing.htmlLicensehpack is made available under the MIT License. For more details, see theLICENSE file in the repository.Authorshpack is maintained by Cory Benfield, with contributions from others. Formore details about the contributors, please see CONTRIBUTORS.rst.</longdescription>
+</pkgmetadata>

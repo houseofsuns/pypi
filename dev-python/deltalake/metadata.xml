@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Deltalake-python[[PyPI](httpsimg.shields.iopypivdeltalake.svgstyleflat-square)](httpspypi.orgprojectdeltalake)[[userdoc](httpsimg.shields.iobadgedocs-user-blue)](httpsdelta-io.github.iodelta-rspython)[[apidoc](httpsimg.shields.iobadgedocs-api-blue)](httpsdelta-io.github.iodelta-rspythonapi_reference.html)Native [Delta Lake](httpsdelta.io) Python binding based on[delta-rs](httpsgithub.comdelta-iodelta-rs) with[Pandas](httpspandas.pydata.org) integration.Installation------------bashpip install deltalakeNOTE official binary wheels are linked against openssl statically for remoteobjection store communication. Please file Github issue to request for criticalopenssl upgrade.Develop------- Setup your local environment with virtualenvbash make setup-venv Activate itbash source .venvbinactivate Ready to develop with maturin[maturin](httpsgithub.comPyO3maturin) is used to build the python package.Install delta-rs in the current virtualenvbash make developThen, list all the available tasksbash make helpBuild manylinux wheels----------------------bashdocker run -e PKG_CONFIG_PATHusrlocallib64pkgconfig -it -v pwdio apachearrow-devamd64-centos-6.10-python-manylinux2010 bashcurl httpssh.rustup.rs -sSf  sh -s -- -ysource HOME.cargoenvrustup default stablecargo install --git httpsgithub.comPyO3maturin.git --rev 98636cea89c328b3eba4ebb548124f75c8018200 maturincd iopythonexport PATHoptpythoncp37-cp37mbinoptpythoncp38-cp38binPATHmaturin publish -b pyo3 --target x86_64-unknown-linux-gnu --no-sdist PyPI releasePublish a new GitHub release with name and tag version set to python-vx.y.z.This will trigger our automated release pipeline.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Microsoft Azure Storage SDK for PythonThis package was the Microsoft Azure Storage bundle.Starting with v0.37.0, this package is deprecated. Please install the service specific packages prefixed by azure-storage needed for your application.The complete list of available packages can be found athttpsaka.msazsdkpythonallHeres a non-exhaustive list of common packages- [azure-storage-blob](httpspypi.orgprojectazure-storage-blob)  Blob storage client- [azure-storage-file-share](httpspypi.orgprojectazure-storage-file-share)  Storage file share client- [azure-storage-file-datalake](httpspypi.orgprojectazure-storage-file-datalake)  ADLS Gen2 client- [azure-storage-queue](httpspypi.orgprojectazure-storage-queue) Queue storage client[Impressions](httpsazure-sdk-impressions.azurewebsites.netapiimpressionsazure-sdk-for-python2Fazure-storage2FREADME.png)</longdescription>
+</pkgmetadata>

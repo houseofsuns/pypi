@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> types-awscrt[[PyPI - types-awscrt](httpsimg.shields.iopypivtypes-awscrt.svgcolorbluelabeltypes-awscrt)](httpspypi.orgprojecttypes-awscrt)[[PyPI - awscrt](httpsimg.shields.iopypivawscrt.svgcolorbluelabelawscrt)](httpspypi.orgprojectawscrt)[[PyPI - Python Version](httpsimg.shields.iopypipyversionstypes-awscrt.svgcolorblue)](httpspypi.orgprojecttypes-awscrt)[[PyPI - Downloads](httpsimg.shields.iopypidmtypes-awscrtcolorblue)](httpspypistats.orgpackagestypes-awscrt)[boto3.typed](httpsgithub.comyoutypemypy_boto3_builderrawmainlogo.png)Type annotations and code completion for [awscrt](httpspypi.orgprojectawscrt) package.This package is a part of [mypy_boto3_builder](httpsgithub.comyoutypemypy_boto3_builder) project. Installationbashpython -m pip install types-awscrt UsageUse [mypy](httpsgithub.compythonmypy) or [pyright](httpsgithub.commicrosoftpyright) for type checking. Latest changesFull changelog can be found in [Releases](httpsgithub.comyoutypetypes-awscrtreleases). Versioningtypes-awscrt version is the same as related awscrt version and follows[PEP 440](httpswww.python.orgdevpepspep-0440) format. Support and contributingPlease reports any bugs or request new features in[types-awscrt](httpsgithub.comyoutypetypes-awscrtissues) repository.</longdescription>
+</pkgmetadata>

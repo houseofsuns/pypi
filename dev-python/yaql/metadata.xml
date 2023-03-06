@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>YAQL Yet Another Query LanguageYAQL (Yet Another Query Language) is an embeddable and extensible querylanguage, that allows performing complex queries against arbitrary objects. Ithas a vast and comprehensive standard library of frequently used queryingfunctions and can be extend even further with user-specified functions. YAQL iswritten in python and is distributed via PyPI.Quickstart----------Install the latest version of yaql    pip install yaql1.0.0Run yaql REPL    yaqlLoad a json file    yaql load my_file.jsonCheck it loaded to current context, i.e.     yaql Run some queries    yaql .customers    ...    yaql .customers.orders    ...    yaql .customers.where(.age  18)    ...    yaql .customers.groupBy(.sex)    ...    yaql .customers.where(.orders.len()  1 or name  John)Project Resources----------------- Official Documentation httpyaql.readthedocs.org_ Project status, bugs, and blueprints are tracked on  Launchpad httpslaunchpad.netyaql_License-------Apache License Version 2.0 httpwww.apache.orglicensesLICENSE-2.0</longdescription>
+</pkgmetadata>

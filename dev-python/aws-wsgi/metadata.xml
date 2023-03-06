@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>AWSGIA WSGI adapter for AWS API GatewayLambda Proxy IntegrationAWSGI allows you to use WSGI-compatible middleware and frameworks like Flask and Django with the AWS API GatewayLambda proxy integration httpsdocs.aws.amazon.comapigatewaylatestdeveloperguideapi-gateway-set-up-simple-proxy.html_.Installation------------awsgi is available from PyPI as aws-wsgi    pip install aws-wsgiExample-------.. code-block python    import awsgi    from flask import (        Flask,        jsonify,    )    app  Flask(__name__)    app.route()    def index()        return jsonify(status200, messageOK)    def lambda_handler(event, context)        return awsgi.response(app, event, context, base64_content_types{imagepng})</longdescription>
+</pkgmetadata>

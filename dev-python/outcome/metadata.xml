@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image httpsimg.shields.iobadgechat-join20now-blue.svg   target httpsgitter.impython-triogeneral   alt Join chatroom.. image httpsimg.shields.iobadgedocs-read20now-blue.svg   target httpsoutcome.readthedocs.ioenlatestbadgelatest   alt Documentation Status.. image httpstravis-ci.orgpython-triotrio.svgbranchmaster   target httpstravis-ci.orgpython-triooutcome   alt Automated test status (Linux and MacOS).. image httpsci.appveyor.comapiprojectsstatusc54uu4rxlgs2usmjbranchmastersvgtrue   target httpsci.appveyor.comprojectRazerMoutcomehistory   alt Automated test status (Windows).. image httpscodecov.ioghpython-triotriobranchmastergraphbadge.svg   target httpscodecov.ioghpython-triooutcome   alt Test coverageoutcomeWelcome to outcome httpsgithub.compython-triooutcome__Capture the outcome of Python function calls. Extracted from theTrio httpsgithub.compython-triotrio__ project.License Your choice of MIT or Apache License 2.0</longdescription>
+</pkgmetadata>

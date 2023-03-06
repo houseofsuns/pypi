@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>python-engineio[[Build status](httpsgithub.commiguelgrinbergpython-engineioworkflowsbuildbadge.svg)](httpsgithub.commiguelgrinbergpython-engineioactions) [[codecov](httpscodecov.ioghmiguelgrinbergpython-engineiobranchmaingraphbadge.svg)](httpscodecov.ioghmiguelgrinbergpython-engineio)Python implementation of the Engine.IO_ realtime client and server.Sponsors--------The following organizations are funding this project[Socket.IO](httpsimages.opencollective.comsocketio050e5eblogo64.png)br[Socket.IO](httpssocket.io)   [Add your company here](httpsgithub.comsponsorsmiguelgrinberg)--Many individual sponsors also support this project through small ongoing contributions. Why not [join them](httpsgithub.comsponsorsmiguelgrinberg)Resources----------  [Documentation](httpspython-engineio.readthedocs.ioenlatest)-  [PyPI](httpspypi.python.orgpypipython-engineio)-  [Change Log](httpsgithub.commiguelgrinbergpython-engineioblobmainCHANGES.md)-  Questions See the [questions](httpsstackoverflow.comquestionstaggedpython-socketio) others have asked on Stack Overflow, or [ask](httpsstackoverflow.comquestionsasktagspython+python-socketio) your own question.</longdescription>
+</pkgmetadata>

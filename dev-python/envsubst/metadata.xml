@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>python-envsubstSubstitute environment variables in a string     import os     from envsubst import envsubst     del os.environ[PS1]     print(envsubst(USERHOST {PS1-}))    ashafer01github.com      os.environ[PS1]       print(envsubst(USERHOST {PS1-}))    ashafer01github.com      print(envsubst(USERHOST {PS1-foo}))    ashafer01github.com      os.environ[DEFAULT_PROMPT]       print(envsubst(USERHOST {PS1-DEFAULT_PROMPT}))Also supports 0, 1, etc. from argv.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Plyvel.. image httpstravis-ci.orgwbolsterplyvel.svgbranchmaster    target httpstravis-ci.orgwbolsterplyvelPlyvel is a fast and feature-rich Python interface to LevelDB_.Plyvel has a rich feature set, high performance, and a friendly Pythonic API.See the documentation and project page for more information Documentation_ Project page_ PyPI page_.. _Project page httpsgithub.comwbolsterplyvel.. _Documentation httpsplyvel.readthedocs.io.. _PyPI page httppypi.python.orgpypiplyvel.. _LevelDB httpsgithub.comgoogleleveldbNote that using a released version is recommended over a checkout from versioncontrol. See the installation docs for more information.</longdescription>
+</pkgmetadata>

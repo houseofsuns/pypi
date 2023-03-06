@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Dask Kubernetes.. image httpsgithub.comdaskdask-kubernetesworkflowsCIbadge.svg   target httpsgithub.comdaskdask-kubernetesactionsqueryworkflow3ACI.. image httpsimg.shields.ioreadthedocsdask-kubernetescolor232980B9logoread-the-docslogoColorwhite   target httpskubernetes.dask.org   alt Read the Docs.. image httpsimg.shields.ioreadthedocsdask-kubernetescolor232980B9labeldeveloper20docslogoread-the-docslogoColorwhite   target httpskubernetes.dask.orgreleasing.html   alt Read the Docs Developer.. image httpsimg.shields.iopypivdask-kubernetes   target httpspypi.orgprojectdask-kubernetes   alt PyPI.. image httpsimg.shields.iocondavnconda-forgedask-kubernetes   target httpsanaconda.orgconda-forgedask-kubernetes   alt Conda Forge.. image httpsimg.shields.iobadgepython20support-3.87C3.97C3.10-blue   target httpskubernetes.dask.orgenlatestinstalling.htmlsupported-versions   alt Python Support.. image httpsimg.shields.iobadgeKubernetes20support-1.227C1.237C1.247C1.25-blue   target httpskubernetes.dask.orgenlatestinstalling.htmlsupported-versions   alt Kubernetes SupportNative Kubernetes integration for Dask.</longdescription>
+</pkgmetadata>

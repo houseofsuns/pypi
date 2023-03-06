@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>img    altjsonrpcserver    stylemargin 0 auto    srchttpsgithub.comexplodinglabsjsonrpcserverblobmaindocslogo.pngrawtrue[PyPI](httpsimg.shields.iopypivjsonrpcserver.svg)[Code Quality](httpsgithub.comexplodinglabsjsonrpcserveractionsworkflowscode-quality.ymlbadge.svg)[Coverage Status](httpscoveralls.ioreposgithubexplodinglabsjsonrpcserverbadge.svgbranchmain)[Downloads](httpsimg.shields.iopypidwjsonrpcserver)Process incoming JSON-RPC requests in Python.pythonfrom jsonrpcserver import method, serve, Successmethoddef ping()    return Success(pong)if __name__  __main__    serve()Or use dispatch instead of servepythonresponse  dispatch({jsonrpc 2.0, method ping, id 1})  {jsonrpc 2.0, result pong, id 1}[Watch a video on how to use it.](httpswww.youtube.comwatchv3_BMmgJaFHQ)Full documentation is at [jsonrpcserver.com](httpswww.jsonrpcserver.com).See also [jsonrpcclient](httpsgithub.comexplodinglabsjsonrpcclient)</longdescription>
+</pkgmetadata>

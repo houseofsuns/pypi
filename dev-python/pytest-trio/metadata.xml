@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pytest-trio.. image httpsimg.shields.iobadgechat-join20now-blue.svg   target httpsgitter.impython-triogeneral   alt Join chatroom.. image httpsimg.shields.iobadgedocs-read20now-blue.svg   target httpspytest-trio.readthedocs.ioenlatestbadgelatest   alt Documentation Status.. image httpsimg.shields.iopypivpytest-trio.svg   target httpspypi.orgprojectpytest-trio   alt Latest PyPi version.. image httpsgithub.compython-triopytest-trioworkflowsCIbadge.svgbranchmaster   target httpsgithub.compython-triopytest-trioactions   alt Automated test status.. image httpscodecov.ioghpython-triopytest-triobranchmastergraphbadge.svg   target httpscodecov.ioghpython-triopytest-trio   alt Test coverageThis is a pytest plugin to help you test projects that use Triohttpstrio.readthedocs.io__, a friendly library for concurrencyand async IO in Python. For an overview of features, see our manualhttpspytest-trio.readthedocs.io__, or jump straight to thequickstart guidehttpspytest-trio.readthedocs.ioenlatestquickstart.html__.Vital statistics----------------Documentation httpspytest-trio.readthedocs.ioBug tracker and source codehttpsgithub.compython-triopytest-trioLicense MIT or Apache 2, your choice.Code of conduct Contributors are requested to follow our code ofconducthttpsgithub.compython-triopytest-trioblobmasterCODE_OF_CONDUCT.md__in all project spaces.</longdescription>
+</pkgmetadata>

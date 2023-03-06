@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>fusepy    NOTE This project has moved to be under a GitHub organization and can    be found at httpsgithub.comfusepyfusepy. The project has new    maintainers and will be looking to incorporate pull requests in a more    timely manner. If you would like to help maintain this package please open    a pull request and demonstrate willingness to help (we will leave    maintainer criteria up to the current maintainers).fusepy is a Python module that provides a simple interface to FUSE_ andMacFUSE_. Its just one file and is implemented using ctypes.The original version of fusepy was hosted on Google Code_, but is nowofficially hosted on GitHub_.fusepy is written in 2x syntax, but trying to pay attention to bytes andother changes 3x would care about.examples--------See some examples of how you can use fusepymemory_ A simple memory filesystemloopback_ A loopback filesystemcontext_ Sample usage of fuse_get_context()sftp_ A simple SFTP filesystem (requires paramiko)To get started download_ fusepy or just browse the source_.fusepy requires FUSE 2.6 (or later) and runs on- Linux (i386, x86_64, PPC, arm64, MIPS)- Mac OS X (Intel, PowerPC)- FreeBSD (i386, amd64).. _FUSE httpfuse.sourceforge.net.. _MacFUSE httpcode.google.compmacfuse.. _Google Code httpcode.google.compfusepy.. _officially hosted on GitHub source_.. _download httpsgithub.comfusepyfusepyzipballmaster.. _source httpgithub.comfusepyfusepy.. examples.. _memory httpgithub.comfusepyfusepyblobmasterexamplesmemory.py.. _loopback httpgithub.comfusepyfusepyblobmasterexamplesloopback.py.. _context httpgithub.comfusepyfusepyblobmasterexamplescontext.py.. _sftp httpgithub.comfusepyfusepyblobmasterexamplessftp.py</longdescription>
+</pkgmetadata>

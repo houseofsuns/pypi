@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Python bindings for wc(s)widthcwcwidth provides Python bindings for wcwidth and wcswidth functions defined in POSIX.1-2001and POSIX.1-2008 based on [Cython](httpscython.org). These functions compute the printablelength of a unicode characterstring on a terminal. The module provides the same functions as[wcwidth](httpspypi.orgprojectwcwidth) and its behavior is compatible.On systems not conforming to POSIX.1-2001 and POSIX.1-2008, Markus Kuhns[implementation](httpswww.cl.cam.ac.ukmgk25ucswcwidth.c) is used to provide thefunctionality. Dependencies Cython  0.28 (optional, only for building). If Cython is not available, the C files are not  regenerated from their source. Quick installation guidecwcwidth can be installed via pipshpip install cwcwidthor by runningshpython3 setup.py install Usagepython3 import cwcwidth cwcwidth.wcwidth(a)1 cwcwidth.wcswidth()2 cwcwidth.wcswidth(, )19 cwcwidth.wcswidth(, , 5)10 Comparison with wcwidthpython3 import wcwidth, cwcwidth, timeit timeit.timeit(lambda wcwidth.wcswidth(, ))19.14463168097427 timeit.timeit(lambda cwcwidth.wcswidth(, ))0.16294104099506512 LicenseThe code is licensed under the MIT license.</longdescription>
+</pkgmetadata>

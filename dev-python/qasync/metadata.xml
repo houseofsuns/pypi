@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> qasync[[Maintenance](httpsimg.shields.iomaintenanceyes2021)](httpspypi.orgprojectqasync)[[PyPI - Python Version](httpsimg.shields.iopypipyversionsqasync)](httpspypi.orgprojectqasync)[[PyPI - License](httpsimg.shields.iopypilqasync)](LICENSE)[[PyPI](httpsimg.shields.iopypivqasync)](httpspypi.orgprojectqasync)[[test](httpsgithub.comCabbageDevelopmentqasyncactionsworkflowstest.ymlbadge.svg)](httpsgithub.comCabbageDevelopmentqasyncactionsworkflowstest.yml) Introductionqasync allows coroutines to be used in PyQtPySide applications by providing an implementation of the PEP 3156 event-loop. qasync is a fork of [asyncqt](httpsgithub.comgmarullasyncqt), which is a fork of [quamash](httpsgithub.comharvimtquamash). May it live longer than its predecessors.  The future of qasyncqasync was created because asyncqt and quamash are no longer maintained.qasync will continue to be maintained, and will still be accepting pull requests. Requirementsqasync requires Python  3.6, and PyQt5 or PySide2. InstallationTo install qasync, use pippip install qasync LicenseYou may use, modify and redistribute this software under the terms of the [BSD License](httpopensource.orglicensesBSD-2-Clause). See [LICENSE](LICENSE).</longdescription>
+</pkgmetadata>

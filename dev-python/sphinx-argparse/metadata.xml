@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[[Documentation Status](httpsreadthedocs.orgprojectssphinx-argparsebadgeversionstable)](httpsphinx-argparse.readthedocs.org)[[PyPI version](httpsbadge.fury.iopysphinx-argparse.svg)](httpsbadge.fury.iopysphinx-argparse)[[Install with conda](httpsanaconda.orgconda-forgesphinx-argparsebadgesinstallerconda.svg)](httpsgithub.comconda-forgesphinx-argparse-feedstock)[Conda downloads](httpsanaconda.orgconda-forgesphinx-argparsebadgesdownloads.svg)sphinx-argparseA sphinx extension that automatically documents argparse commands and options.For installation and usage details see the [documentation](httpsphinx-argparse.readthedocs.orgenlatest). The changelog is also [found there](httpsphinx-argparse.readthedocs.orgenlatestchangelog.html).This project used to live at [alex-rudakovsphinx-argparse](httpsgithub.comalex-rudakovsphinx-argparse) that the original maintainer disappears so I have taken over the project under this new home.</longdescription>
+</pkgmetadata>

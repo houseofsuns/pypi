@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>requests-ntlm.. image httpsgithub.comrequestsrequests-ntlmactionsworkflowsci.ymlbadge.svg    target httpsgithub.comrequestsrequests-ntlmactionsworkflowsci.ymlThis package allows for HTTP NTLM authentication using the requests library.Usage-----HttpNtlmAuth extends requests AuthBase, so usage is simple.. code python    import requests    from requests_ntlm import HttpNtlmAuth    requests.get(httpntlm_protected_site.com,authHttpNtlmAuth(domainusername,password))HttpNtlmAuth can be used in conjunction with a Session in order tomake use of connection pooling. Since NTLM authenticates connections,this is more efficient. Otherwise, each request will go through a newNTLM challenge-response... code python    import requests    from requests_ntlm import HttpNtlmAuth    session  requests.Session()    session.auth  HttpNtlmAuth(domainusername,password)    session.get(httpntlm_protected_site.com)Installation------------    pip install requests_ntlmRequirements------------- requests_- pyspnego_.. _requests httpsgithub.comkennethreitzrequests.. _pyspnego httpsgithub.comjborean93pyspnegoAuthors-------- Ben Toews_.. _Ben Toews httpsgithub.commastahyeti- Ian Cordasco_.. _Ian Cordasco httpsgithub.comsigmavirus24- Cory Benfield_.. _Cory Benfield httpsgithub.comLukasa</longdescription>
+</pkgmetadata>

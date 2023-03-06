@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>OpenTelemetry aiohttp client Integrationpypi.. pypi image httpsbadge.fury.iopyopentelemetry-instrumentation-aiohttp-client.svg   target httpspypi.orgprojectopentelemetry-instrumentation-aiohttp-clientThis library allows tracing HTTP requests made by theaiohttp client httpsdocs.aiohttp.orgenstableclient.html_ library.Installation------------     pip install opentelemetry-instrumentation-aiohttp-clientReferences---------- OpenTelemetry Project httpsopentelemetry.io_ aiohttp client Tracing httpsdocs.aiohttp.orgenstabletracing_reference.html_ OpenTelemetry Python Examples httpsgithub.comopen-telemetryopentelemetry-pythontreemaindocsexamples_</longdescription>
+</pkgmetadata>

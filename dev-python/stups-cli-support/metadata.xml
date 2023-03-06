@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>STUPS CLI Support.. image httpsimg.shields.iopypidwstups-cli-support.svg   target httpspypi.python.orgpypistups-cli-support   alt PyPI Downloads.. image httpsimg.shields.iopypivstups-cli-support.svg   target httpspypi.python.orgpypistups-cli-support   alt Latest PyPI version.. image httpsimg.shields.iopypilstups-cli-support.svg   target httpspypi.python.orgpypistups-cli-support   alt LicenseHelper library for all STUPS command line tools... code-block bash     sudo pip3 install --upgrade stups     stups configureLocal DevelopmentYou can test the configure command with.. code-block bash     python3 -m stups_cliReleasing.. code-block bash     .release.sh NEW-VERSION</longdescription>
+</pkgmetadata>

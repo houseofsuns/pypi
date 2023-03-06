@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pyepsgbuild_statusA simple interface to httpepsg.ioFor example, we can request the details for the projected coordinate systemidentified by EPSG code 21781, aka. Swiss CH1903  LV03     projection  pyepsg.get(21781)     projection    ProjectedCRS 21781, CH1903  LV03     projection.domain_of_validity()    [5.97, 10.49, 45.83, 47.81]     projection.cartesian_cs.axes    [Axis east  metre, Axis north  metre]Projected and geodetic coordinate systems can also be converted to variousother forms     print(projection.as_proj4()[70] + ...)    +projsomerc +lat_046.95240555555556 +lon_07.439583333333333 +k_01 ...     print(projection.as_wkt()[70] + ...)    PROJCS[CH1903  LV03,GEOGCS[CH1903,DATUM[CH1903,SPHEROID[Bessel..... build_status image httpssecure.travis-ci.orgrhattersleypyepsg.png   alt Build Status   target httptravis-ci.orgrhattersleypyepsg</longdescription>
+</pkgmetadata>

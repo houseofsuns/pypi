@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> userpath   ---  ---  CICD  [[CI - Test](httpsgithub.comofekuserpathactionsworkflowstest.ymlbadge.svg)](httpsgithub.comofekuserpathactionsworkflowstest.yml) [[CD - Build](httpsgithub.comofekuserpathactionsworkflowsbuild.ymlbadge.svg)](httpsgithub.comofekuserpathactionsworkflowsbuild.yml)  Package  [[PyPI - Version](httpsimg.shields.iopypivuserpath.svglogopypilabelPyPIlogoColorgold)](httpspypi.orgprojectuserpath) [[PyPI - Python Version](httpsimg.shields.iopypipyversionsuserpath.svglogopythonlabelPythonlogoColorgold)](httpspypi.orgprojectuserpath)  Meta  [[License - MIT](httpsimg.shields.iobadgelicense-MIT-9400d3.svg)](httpsspdx.orglicenses) [[GitHub Sponsors](httpsimg.shields.iogithubsponsorsofeklogoGitHub20Sponsorsstylesocial)](httpsgithub.comsponsorsofek) -----This is a tool for modifying a users PATH.Table of Contents- [Installation](installation)- [CLI](cli)- [API](api)- [License](license) Installationconsolepip install userpath CLIconsole userpath -hUsage userpath [OPTIONS] COMMAND [ARGS]...Options  --version   Show the version and exit.  -h, --help  Show this message and exit.Commands  append   Appends to the user PATH  prepend  Prepends to the user PATH  verify   Checks if locations are in the user PATH APIpycon import userpath location  rCUsersOfekDesktoptest userpath.in_current_path(location)False userpath.in_new_path(location)False userpath.append(location)True userpath.in_new_path(location)True userpath.need_shell_restart(location)True Licenseuserpath is distributed under the terms of the [MIT](httpsspdx.orglicensesMIT.html) license.</longdescription>
+</pkgmetadata>

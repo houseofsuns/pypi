@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> vine - Python Promisesbuild-status coverage license wheel pyversion pyimpVersion 5.0.0Web httpsvine.readthedocs.ioDownload httpspypi.orgprojectvineSource httpgithub.comceleryvineKeywords promise, async, futureAbout.. build-status image httpssecure.travis-ci.orgceleryvine.pngbranchmaster    alt Build status    target httpstravis-ci.orgceleryvine.. coverage image httpscodecov.iogithubceleryvinecoverage.svgbranchmaster    target httpscodecov.iogithubceleryvinebranchmaster.. license image httpsimg.shields.iopypilvine.svg    alt BSD License    target httpsopensource.orglicensesBSD-3-Clause.. wheel image httpsimg.shields.iopypiwheelvine.svg    alt Vine can be installed via wheel    target httpspypi.orgprojectvine.. pyversion image httpsimg.shields.iopypipyversionsvine.svg    alt Supported Python versions.    target httpspypi.orgprojectvine.. pyimp image httpsimg.shields.iopypiimplementationvine.svg    alt Support Python implementations.    target httpspypi.orgprojectvine</longdescription>
+</pkgmetadata>

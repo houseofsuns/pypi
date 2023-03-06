@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> atc-dataplatformA common set of python libraries for DataBricks.  Important NotesThis package can not be run or tested without access to pyspark.However, installing pyspark as part of our installer gave issues whenother versions of pyspark were needed. Hence we took out the dependencyfrom our installer. InstallationGet it from PyPi [[PyPI version](httpsbadge.fury.iopyatc-dataplatform.svg)](httpspypi.orgprojectatc-dataplatform)[[PyPI](httpsimg.shields.iopypidmatc-dataplatform)](httpspypi.orgprojectatc-dataplatform)    pip install atc-dataplatform Development NotesTo prepare for development please install these additional requirements - Java 8 - pip install -r test_requirements.txtThen install the package locally    python setup.py develop TestingAfter installing the dev-requirements, execute tests by running    pytest testsIf these tests dont pass, PRs will not be accepted. If you add features,please include tests for these features. General Project Info[[Github top language](httpsimg.shields.iogithublanguagestopatc-netatc-dataplatform)](httpsgithub.comatc-netatc-dataplatform)[[Github stars](httpsimg.shields.iogithubstarsatc-netatc-dataplatform)](httpsgithub.comatc-netatc-dataplatform)[[Github forks](httpsimg.shields.iogithubforksatc-netatc-dataplatform)](httpsgithub.comatc-netatc-dataplatform)[[Github size](httpsimg.shields.iogithubrepo-sizeatc-netatc-dataplatform)](httpsgithub.comatc-netatc-dataplatform)[[Issues Open](httpsimg.shields.iogithubissuesatc-netatc-dataplatform.svglogogithub)](httpsgithub.comatc-netatc-dataplatformissues) Packages Build Status</longdescription>
+</pkgmetadata>

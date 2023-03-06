@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Actions ToolkitThe GitHub Actions ToolKit provides an SDK to make creating actions easier in Python.[[Downloads](httpspepy.techbadgeactions-toolkit)](httpspepy.techprojectactions-toolkit)[[Supported Versions](httpsimg.shields.iopypipyversionsactions-toolkit.svg)](httpspypi.orgprojectactions-toolkit)[[Pypi Versions](httpsimg.shields.iopypivactions-toolkit.svg)](httpspypi.python.orgpypiactions-toolkit)[[Contributors](httpsimg.shields.iogithubcontributorsyanglbmeactions-toolkit.svg)](httpsgithub.comyanglbmeactions-toolkitgraphscontributors) InstallationAction Toolkit is available on PyPIbash python -m pip install actions-toolkitAction Toolkit officially supports Python 3.6+. Usagepython import os from actions_toolkit import core os.environ[INPUT_NAME]  Actions Toolkit core.get_input(name, requiredTrue)Actions Toolkit core.error(Something went wrong.)errorSomething went wrong. core.info(Run successfully.)Run successfully. core.set_failed(SSL certificates installation failed.)errorSSL certificates installation failed.For more examples and API documentation, please see the [core](.docscore.md)  [github](.docsgithub.md). ContributingContributions are always welcomedHere are the workflow for contributors- Fork to your own- Clone fork to local repository- Create a new branch and work on it- Keep your branch in sync- Commit your changes (make sure your commit message concise)- Push your commits to your forked repository- Create a pull requestPlease refer to [CONTRIBUTING](.CONTRIBUTION.md) for detailed guidelines. LicenseThe scripts and documentation in this project are released under the [MIT License](LICENSE).</longdescription>
+</pkgmetadata>

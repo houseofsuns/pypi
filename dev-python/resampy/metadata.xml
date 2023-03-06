@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> resampy[[GitHub license](httpsimg.shields.iobadgelicense-ISC-blue.svg)](httpsraw.githubusercontent.combmcfeeresampymasterLICENSE)[[PyPI](httpsimg.shields.iopypivresampy.svg)](httpspypi.python.orgpypiresampy)[[Anaconda-Server Badge](httpsanaconda.orgconda-forgeresampybadgesversion.svg)](httpsanaconda.orgconda-forgeresampy)[[CI](httpsgithub.combmcfeeresampyactionsworkflowsci.ymlbadge.svg)](httpsgithub.combmcfeeresampyactionsworkflowsci.yml)[[codecov](httpscodecov.ioghbmcfeeresampybranchmaingraphbadge.svgtokeno6a0xO89rz)](httpscodecov.ioghbmcfeeresampy)[[Documentation Status](httpsreadthedocs.orgprojectsresampybadgeversionstable)](httpsresampy.readthedocs.ioenstablebadgestable)[[DOI](httpszenodo.orgbadgeDOI10.5281zenodo.596633.svg)](httpsdoi.org10.5281zenodo.596633)Efficient sample rate conversion in Python.This package implements the band-limited sinc interpolation method for sampling rate conversion as described by Smith, Julius O. Digital Audio Resampling Home Page Center for Computer Research in Music and Acoustics (CCRMA),  Stanford University, 2015-02-23. Web published at [httpccrma.stanford.edujosresample](httpccrma.stanford.edujosresample). Installationresampy can be installed pip by the following commandpython -m pip install resampyIt can also be installed by conda as followsconda install -c conda-forge resampy</longdescription>
+</pkgmetadata>

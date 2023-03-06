@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>PyemojifyLatest Version Build Status Python VersionsSubstitutes emoji aliases to emoji raw characters. Simple but sweetsmileInstallation------------     pip install pyemojifyUsage-----CLIUse pyemojify -t text, for example     pyemojify -t Life is short smile , use sparkles Python sparkles    Life is short  , use  Python .Pyemojify also support pipeline, for example     echo Life is short smile , use sparkles Python sparkles  pyemojify    Life is short  , use  Python .This one is very useful for git commit messages, use the following oneand youll see you emoji friends again     git log --oneline --color  pyemojify  lessAPI     from pyemojify import emojify     text  emojify(Life is short smile , use sparkles Python sparkles)     print(text)    Life is short  , use  Python .Credits-------Its a python port of the originalemojify httpsgithub.commrowa44emojify__, all the glories shouldbelong to mrowa44 httpsgithub.commrowa44__.License-------MIT.. Latest Version image httpimg.shields.iopypivpyemojify.svg   target httpspypi.python.orgpypipyemojify.. Build Status image httpstravis-ci.orglord63pyemojify.svg   target httpstravis-ci.orglord63pyemojify.. Python Versions image httpsimg.shields.iopypipyversionspyemojify.svg   target httpspypi.python.orgpypipyemojify</longdescription>
+</pkgmetadata>

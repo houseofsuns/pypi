@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> pyodbc[[Windows Status](httpsci.appveyor.comapiprojectsstatusgithubmkleehammerpyodbcbranchmastersvgtruepassingTextWindows20build)](httpsci.appveyor.comprojectmkleehammerpyodbc)[[Ubuntu build](httpsgithub.commkleehammerpyodbcactionsworkflowsubuntu_build.ymlbadge.svg)](httpsgithub.commkleehammerpyodbcactionsworkflowsubuntu_build.yml)[[PyPI](httpsimg.shields.iopypivpyodbccolorbrightgreen)](httpspypi.orgprojectpyodbc)pyodbc is an open source Python module that makes accessing ODBC databases simple.  Itimplements the [DB API 2.0](httpswww.python.orgdevpepspep-0249) specification but ispacked with even more Pythonic convenience.The easiest way to install is to use pip    pip install pyodbcIf you are using Mac, you should be using Homebrew for installing pyodbc    brew install unixodbc    pip install pyodbc    Precompiled binary wheels are provided for most Python versions on Windows and macOS.  On otheroperating systems this will build from source.  Note, pyodbc contains C++ extensions so you willneed a suitable C++ compiler on your computer to install pyodbc, for all operating systems.  Seethe [docs](httpsgithub.commkleehammerpyodbcwikiInstall) for details.[Documentation](httpsgithub.commkleehammerpyodbcwiki)[Release Notes](httpsgithub.commkleehammerpyodbcreleases)IMPORTANT Python 2.7 support is being ended.  The pyodbc 4.x versions will be the last tosupport Python 2.7.  The pyodbc 5.x versions will only support Python 3.7 and above.</longdescription>
+</pkgmetadata>

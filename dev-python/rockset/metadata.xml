@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Official Rockset Python ClientA Python library for Rocksets API.Setup-----You can install this package by using the pip tool and installing     pip install rocksetUsing the Rockset API---------------------Documentation for this library can be found here- httpsgithub.comrocksetrockset-python-client</longdescription>
+</pkgmetadata>

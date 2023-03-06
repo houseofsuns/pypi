@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Team and repository tags.. image httpsgovernance.openstack.orgtcbadgeskeystonemiddleware.svg    target httpsgovernance.openstack.orgtcreferencetagsindex.html.. Change things from this point onMiddleware for the OpenStack Identity API (Keystone).. image httpsimg.shields.iopypivkeystonemiddleware.svg    target httpspypi.orgprojectkeystonemiddleware    alt Latest Version.. image httpsimg.shields.iopypidmkeystonemiddleware.svg    target httpspypi.orgprojectkeystonemiddleware    alt DownloadsThis package contains middleware modules designed to provide authentication andauthorization features to web services other than Keystonehttpsgithub.comopenstackkeystone. The most prominent module iskeystonemiddleware.auth_token. This package does not expose any CLI orPython API features.For information on contributing, see CONTRIBUTING.rst. License Apache License, Version 2.0 Documentation httpsdocs.openstack.orgkeystonemiddlewarelatest Source httpsopendev.orgopenstackkeystonemiddleware Bugs httpsbugs.launchpad.netkeystonemiddleware Release notes httpsdocs.openstack.orgreleasenoteskeystonemiddlewareFor any other information, refer to the parent project, Keystone    httpsgithub.comopenstackkeystone</longdescription>
+</pkgmetadata>

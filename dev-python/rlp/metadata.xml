@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pyrlpBuild Status Coverage Status PyPI versionA Python implementation of Recursive Length Prefix encoding (RLP). Youcan find the specification of the standard in the Ethereumwiki httpsgithub.comethereumwikiwikiRLP__ and thedocumentation of this package onreadthedocs httppyrlp.readthedocs.orgenlatest__.Release setupFor Debian-like systems   apt install pandocTo release a new version.. code sh   make release bumpVERSION_PART_TO_BUMPHow to bumpversionThe version format for this repo is {major}.{minor}.{patch} forstable, and {major}.{minor}.{patch}-{stage}.{devnum} for unstable(stage can be alpha or beta).To issue the next version in line, specify which part to bump, likemake release bumpminor or make release bumpdevnum.If you are in a beta version, make release bumpstage will switch toa stable.To issue an unstable version when the current version is stable, specifythe new version explicitly, likemake release bump--new-version 4.0.0-alpha.1 devnum.. Build Status image httpstravis-ci.orgethereumpyrlp.svgbranchdevelop   target httpstravis-ci.orgethereumpyrlp.. Coverage Status image httpscoveralls.ioreposethereumpyrlpbadge.svg   target httpscoveralls.iorethereumpyrlp.. PyPI version image httpsbadge.fury.iopyrlp.svg   target httpbadge.fury.iopyrlp</longdescription>
+</pkgmetadata>

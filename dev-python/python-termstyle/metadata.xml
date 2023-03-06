@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image httpgfxmonk.netdiststatusprojecttermstyle.pngtermstyletermstyle is a simple python library for adding coloured output toterminal (console) programs.  The definitions come from ECMA-048_, theControl Functions for Coded Character Sets standard.Example Usage--------------from termstyle import print ss  (red(Hey), green(how are you))print blue(How , bold(you),  doin)or, you can use a colour just as a stringprint sBlues  (blue, reset)Styles-------reset or default (no colour  style)colourblackredgreenyellowbluemagentacyanwhitebackground colourbg_blackbg_redbg_greenbg_yellowbg_bluebg_magentabg_cyanbg_whitebg_defaultIn terminals supporting transparency bg_default is often used to setthe background to transparent []_.weightboldinvertedstyleitalicunderscoreControls---------auto() - sets colouring on only if sys.stdout is a terminaldisabe() - disable coloursenable() - enable colours.. [] Supporting terminals include rxvt-unicode_, and Eterm_... _ECMA-048 httpwww.ecma-international.orgpublicationsfilesECMA-STEcma-048.pdf.. _rxvt-unicode httpsoftware.schmorp.de.. _Eterm httpwww.eterm.org.. _zero-install http0install.net</longdescription>
+</pkgmetadata>

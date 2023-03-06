@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pyKMLpyKML is a Python package for parsing and authoring KML documents. It is basedon the lxml.objectify API (httpcodespeak.netlxmlobjectify.html) whichprovides Pythonic access to XML documents... figure httppykml.googlecode.comhgdocssourcelogopyKML_logo_200x200.png   scale 100    alt pyKML logoSee the Package Documentation for information on installation and usage.</longdescription>
+</pkgmetadata>

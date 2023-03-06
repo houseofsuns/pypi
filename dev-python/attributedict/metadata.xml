@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> attributedict [[PyPI version](httpsbadge.fury.iopyattributedict.svg)](httpsbadge.fury.iopyattributedict) [[Build Status](httpstravis-ci.comgrimenpython-attributedict.svgbranchmaster)](httpstravis-ci.comgrimenpython-attributedict) [[Coverage Status](httpscodecov.ioghgrimenpython-attributedictbranchmastergraphbadge.svg)](httpscodecov.ioghgrimenpython-attributedict)A dictionary object with attributes support. InstallInstall using pipsh pip install attributedict UseExamplepythonfrom attributedict.collections import AttributeDictdata  AttributeDict({foo {bar [1, 2, 3]}})data.foo   {bar [1, 2, 3]}}data.foo.bar   [1, 2, 3]data.foo  {baz True}data.foo    {baz True}del data.foo.baz andor...data  AttributeDict({foo {bar [1, 2, 3]}})data[foo]   {bar [1, 2, 3]}}data[foo][bar]   [1, 2, 3]data[foo]  {baz True}data[foo]    {baz True}del data[foo][baz] instance of dict...isinstance(data, dict)   Trueisinstance(data, attributedict.collections.AttributeDict)   Trueisinstance(data.__dict__, dict)   Trueisinstance(data.__dict__, attributedict.collections.AttributeDict)   False no need for custom encoders...data  AttributeDict({foo {bar [1, 2, 3]}})json.dumps(data)   {foo {bar [1, 2, 3]}}json.dumps(data.__dict__)   {foo {bar [1, 2, 3]}} etc. TestClone down source code and runsh make install make test LicenseReleased under the MIT license.</longdescription>
+</pkgmetadata>

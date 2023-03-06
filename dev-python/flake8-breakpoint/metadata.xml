@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> flake8-breakpoint[[pypi](httpsbadge.fury.iopyflake8-breakpoint.svg)](httpspypi.orgprojectflake8-breakpoint)[[Python 3.6+](httpsimg.shields.iobadgePython-3.6+-blue.svg)](httpspypi.orgprojectflake8-breakpoint)[[Downloads](httpsimg.shields.iopypidmflake8-breakpoint.svg)](httpspypistats.orgpackagesflake8-breakpoint)[[Build Status](httpstravis-ci.orgAfonasevflake8-breakpoint.svgbranchmaster)](httpstravis-ci.orgAfonasevflake8-breakpoint)[[Code coverage](httpscodecov.ioghafonasevflake8-breakpointbranchmastergraphbadge.svg)](httpscodecov.ioghafonasevflake8-breakpoint)[[License MIT](httpsimg.shields.iobadgeLicense-MIT-green.svg)](httpsen.wikipedia.orgwikiMIT_License)[[Code style black](httpsimg.shields.iobadgecode20style-black-000000.svg)](httpsgithub.comambvblack)Flake8 plugin that check forgotten breakpoints. Installationbashpip install flake8-breakpoint Errors B601 builtin function breakpoint foundpythondef function()    breakpoint()   error B602 import of debug module foundpythondef function()    import pdb   error or ipdbpudb LicenseMIT Change LogUnreleased----- ...1.1.0 - 2019-05-23----- update flask_plugin_utils version to 1.01.0.0 - 2019-04-02----- initial</longdescription>
+</pkgmetadata>

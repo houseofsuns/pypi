@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>OpenTelemetry Jaeger Thrift Exporter.. warning    Since v1.35, the Jaeger supports OTLP natively. Please use the OTLP exporter instead.    Support for this exporter will end July 2023.pypi.. pypi image httpsbadge.fury.iopyopentelemetry-exporter-jaeger-thrift.svg   target httpspypi.orgprojectopentelemetry-exporter-jaeger-thriftThis library allows to export tracing data to Jaeger httpswww.jaegertracing.io_ using Thrift.Installation------------    pip install opentelemetry-exporter-jaeger-thrift.. _Jaeger httpswww.jaegertracing.io.. _OpenTelemetry httpsgithub.comopen-telemetryopentelemetry-pythonConfiguration-------------OpenTelemetry Jaeger Exporter can be configured by setting JaegerExporter parametershttpsgithub.comopen-telemetryopentelemetry-pythonblobmainexporteropentelemetry-exporter-jaeger-thriftsrcopentelemetryexporterjaegerthrift__init__.pyL88_ or by settingenvironment variables httpsgithub.comopen-telemetryopentelemetry-specificationblobmainspecificationsdk-environment-variables.mdjaeger-exporter_References---------- OpenTelemetry Jaeger Exporter httpsopentelemetry-python.readthedocs.ioenlatestexporterjaegerjaeger.html_ Jaeger httpswww.jaegertracing.io_ OpenTelemetry Project httpsopentelemetry.io_</longdescription>
+</pkgmetadata>

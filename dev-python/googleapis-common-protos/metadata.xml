@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Google APIs common protos[[pypi](httpsimg.shields.iopypivgoogleapis-common-protos.svg)](httpspypi.orgprojectgoogleapis-common-protos)googleapis-common-protos contains the python classes generated from the commonprotos in the [googleapisapi-common-protos](httpsgithub.comgoogleapisapi-common-protos) repository.</longdescription>
+</pkgmetadata>

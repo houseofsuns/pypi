@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Tornado Web Server.. image httpsbadges.gitter.imJoin20Chat.svg   alt Join the chat at httpsgitter.imtornadowebtornado   target httpsgitter.imtornadowebtornadoutm_sourcebadgeutm_mediumbadgeutm_campaignpr-badgeutm_contentbadgeTornado httpwww.tornadoweb.org_ is a Python web framework andasynchronous networking library, originally developed at FriendFeedhttpfriendfeed.com_.  By using non-blocking network IO, Tornadocan scale to tens of thousands of open connections, making it ideal forlong polling httpen.wikipedia.orgwikiPush_technologyLong_Polling_,WebSockets httpen.wikipedia.orgwikiWebSocket_, and otherapplications that require a long-lived connection to each user.Hello, world------------Here is a simple Hello, world example web app for Tornado.. code-block python    import asyncio    import tornado.web    class MainHandler(tornado.web.RequestHandler)        def get(self)            self.write(Hello, world)    def make_app()        return tornado.web.Application([            (r, MainHandler),        ])    async def main()        app  make_app()        app.listen(8888)        await asyncio.Event().wait()    if __name__  __main__        asyncio.run(main())This example does not use any of Tornados asynchronous features forthat see this simple chat roomhttpsgithub.comtornadowebtornadotreestabledemoschat_.Documentation-------------Documentation and links to additional resources are available athttpswww.tornadoweb.org</longdescription>
+</pkgmetadata>

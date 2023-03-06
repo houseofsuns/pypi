@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Warrior Framework is an open source automation framework designed to enable anyone to automate their testing,processes, and repetitive tasks by simplifying the complex process of building an automation infrastructure.As a keyword and data driven framework, Warriors infrastructure is built to maximize on re-usability of  built in keywords.Install   pip install warriorframeworkRequires    Python 3.6 and above       pexpect4.8.0       requests2.21.0       selenium3.8.0       lxml4.4.1       paramiko2.7.2       pysnmp4.4.12       pyvirtualdisplay0.2.1       kafka-python1.4.6       pycryptodome3.6.1       cloudshell-automation-api9.3.0.175525       xmltodict0.12.0       xlrd1.2.0       openpyxl3.0.3       pandas1.0.3       gcg0.2.0       termcolor1.1.0       pymongo3.11.0Command Line Usage        Warrior -hLinks      Documentation httpwarriorframework.org      License       httpwww.apache.orglicensesLICENSE-2.0      Source        httpsgithub.comwarriorframeworkwarriorframework_py3</longdescription>
+</pkgmetadata>

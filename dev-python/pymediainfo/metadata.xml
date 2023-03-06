@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pymediainfo-----------.. image httpsimg.shields.iopypivpymediainfo.svg  target httpspypi.orgprojectpymediainfo.. image httpsimg.shields.iopypipyversionspymediainfo.svg  target httpspypi.orgprojectpymediainfo.. image httpsrepology.orgbadgetiny-repospythonpymediainfo.svg  target httpsrepology.orgmetapackagepythonpymediainfo.. image httpsimg.shields.iopypiimplementationpymediainfo.svg  target httpspypi.orgprojectpymediainfo.. image httpsci.appveyor.comapiprojectsstatusg15a2daem1oub57nbranchmastersvgtrue  target httpsci.appveyor.comprojectsbrazpymediainfoThis small package is a wrapper around the MediaInfo library.It works on Linux, Mac OS X and Windows and is tested with Python 3.7 to 3.11 and PyPy3.See httpspymediainfo.readthedocs.io for more information.</longdescription>
+</pkgmetadata>

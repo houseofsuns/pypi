@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>version python license ci coverage.. version image httpsimg.shields.iopypivfabric    target httpspypi.orgprojectfabric    alt PyPI - Package Version.. python image httpsimg.shields.iopypipyversionsfabric    target httpspypi.orgprojectfabric    alt PyPI - Python Version.. license image httpsimg.shields.iopypilfabric    target httpsgithub.comfabricfabricblobmainLICENSE    alt PyPI - License.. ci image httpsimg.shields.iocirclecibuildgithubfabricfabricmain    target httpsapp.circleci.compipelinesgithubfabricfabric    alt CircleCI.. coverage image httpsimg.shields.iocodecovcghfabricfabric    target httpsapp.codecov.ioghfabricfabric    alt CodecovWelcome to FabricFabric is a high level Python (2.7, 3.4+) library designed to execute shellcommands remotely over SSH, yielding useful Python objects in return. It buildson top of Invoke httpspyinvoke.org_ (subprocess command execution andcommand-line features) and Paramiko httpsparamiko.org_ (SSH protocolimplementation), extending their APIs to complement one another and provideadditional functionality.To find out whats new in this version of Fabric, please see the changeloghttpsfabfile.orgchangelog.html{}_.The project maintainer keeps a roadmaphttpsbitprophet.orgprojectsroadmap_ on his website.</longdescription>
+</pkgmetadata>

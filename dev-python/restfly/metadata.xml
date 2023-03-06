@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>RESTfly Simplifying API LibrariesRESTfly (pronounced restfully) is a framework for building libraries toeasily interact with RESTful APIs... image httpstravis-ci.orglibrestflyrestfly.svgbranchmaster   target httpstravis-ci.orglibrestflyrestfly.. image httpsimg.shields.iopypivrestfly.svg   target httpspypi.orgprojectrestfly.. image httpsimg.shields.iopypipyversionsrestfly.svg.. image httpsimg.shields.iopypidmrestfly.svg   target httpspypistats.orgpackagesrestfly.. image httpsimg.shields.iogithublicenselibrestflyrestfly.svg   target httpsgithub.comlibrestflyrestflyblobmasterLICENSE.. image httpssonarcloud.ioapiproject_badgesmeasureprojectlibrestfly_restflymetricalert_status   target httpssonarcloud.iosummaryoverallidlibrestfly_restfly.. image httpsrestfly.readthedocs.ioenlatest_staticlogo.pngRESTfly is a simple library designed to provide the scaffolding to make APIinteraction libraries for just about any RESTful API.  With an emphasis onsimplicity and readability of the resulting library code thats written, theidea here is provide something that is not only useful for folks to use, butcan also serve as a reference implementation of the given APIs.Please refer to the full documentation at httpsrestfly.readthedocs.io.</longdescription>
+</pkgmetadata>

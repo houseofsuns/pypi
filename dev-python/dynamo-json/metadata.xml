@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[[Build](httpstravis-ci.orgadilosadynamo-json.svgbranchmaster)]() dynamo-jsonSick of DynamoDB using its own data type descriptors Swap between DynamoDB and normal JSON InstallationInstall from PyPI via pip    pip install dynamo_json UsageUse as a librarypythonimport dynamo_jsondynamo_json.marshall({some [json, document]}) {some {L [{S json}, {S document}]}}dynamo_json.unmarshall({some {L [{S json}, {S document}]}}) {some [json, document]}or as a CLI tool dynamo-json {my json}{my {S json}} dynamo-json {my {S dynamo-json}}{my dynamo-json}</longdescription>
+</pkgmetadata>

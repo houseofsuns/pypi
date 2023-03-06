@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>s2sphere.. image httpsbadge.fury.iopys2sphere.svg    target httpspypi.python.orgpypis2sphere.. image httpstravis-ci.orgsidewalklabss2sphere.svgbranchmaster    target httpstravis-ci.orgsidewalklabss2sphere.. image httpscoveralls.ioreposgithubsidewalklabss2spherebadge.svgbranchmaster    target httpscoveralls.iogithubsidewalklabss2spherebranchmasterPython implementation of a part of the C++ S2 geometry library httpscode.google.comps2-geometry-library_.Links Documentation https2sphere.readthedocs.io_,GitHub httpsgithub.comsidewalklabss2sphere_,Issue Tracker httpsgithub.comsidewalklabss2sphereissues_Install with.. code-block sh    pip install s2sphereQuick set up for development (see the Developing section in the docs https2sphere.readthedocs.ioenlatestdev.html_ for more details).. code-block sh    pip install .[tests]    nosetests -vv</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> HTML formatter for BehaveTo use it with behave create behave.ini file in project folder (or in home) withfollowing contentini -- FILE behave.ini Define ALIAS for HtmlFormatter.[behave.formatters]html  behave_html_formatterHTMLFormatterand then use it by running behave with -f--format parameter, e.g.consolebehave -f helpbehave -f htmlbehave -f html -o behave-report.htmlYou can find information about behave and user-defined formatters in the[behave docs](httpsbehave.readthedocs.ioenlatestformatters.html). ContributingYou want to help with improving this software Please create an issue inour open bug tracker, or open a pull request directly.We use [tox](httpspypi.orgprojecttox) for running linting and tests,e.g.consoletoxtox -ltox -e flake8,behaveFor code formatting we use [black](httpspypi.orgprojectblack), whichyou can run using our Tox setup, e.g.consoletox -e blackIf you need to change CSS or JavaScript code First edit the regular files,then generate the minified versions like soconsoletox -e minify</longdescription>
+</pkgmetadata>

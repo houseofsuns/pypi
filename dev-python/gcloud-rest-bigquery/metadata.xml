@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>(Asyncio OR Threadsafe) Python Client for Google Cloud BigQuery    This is a shared codebase for gcloud-rest-bigquery and    gcloud-rest-bigquerypypi pythons-aio pythons-restInstallation------------.. code-block console     pip install --upgrade gcloud-{aio,rest}-bigqueryUsage-----See our docs_.Contributing------------Please see our contributing guide_... _contributing guide httpsgithub.comtalkiqgcloud-restblobmaster.githubCONTRIBUTING.rst.. _our docs httpstalkiq.github.iogcloud-rest.. pypi image httpsimg.shields.iopypivgcloud-rest-bigquery.svgstyleflat-square    alt Latest PyPI Version (gcloud-rest-bigquery)    target httpspypi.orgprojectgcloud-rest-bigquery.. pythons-aio image httpsimg.shields.iopypipyversionsgcloud-rest-bigquery.svgstyleflat-squarelabelpython (aio)    alt Python Version Support (gcloud-rest-bigquery)    target httpspypi.orgprojectgcloud-rest-bigquery.. pythons-rest image httpsimg.shields.iopypipyversionsgcloud-rest-bigquery.svgstyleflat-squarelabelpython (rest)    alt Python Version Support (gcloud-rest-bigquery)    target httpspypi.orgprojectgcloud-rest-bigquery</longdescription>
+</pkgmetadata>

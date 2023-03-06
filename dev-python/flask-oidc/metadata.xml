@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>flask-oidcOpenID Connect httpsopenid.netconnect_ support for Flask httpflask.pocoo.org_... image httpsimg.shields.iopypivflask-oidc.svgstyleflat  target httpspypi.python.orgpypiflask-oidc.. image httpsimg.shields.iopypidmflask-oidc.svgstyleflat  target httpspypi.python.orgpypiflask-oidc.. image httpsreadthedocs.orgprojectsflask-oidcbadgeversionlatest   target httpflask-oidc.readthedocs.ioenlatestbadgelatest   alt Documentation Status.. image httpsimg.shields.iotravispuiterwijkflask-oidc.svgstyleflat  target httpstravis-ci.orgpuiterwijkflask-oidcThis library should work with any standards compliant OpenID Connect provider.It has been tested with Google+ Login httpsdevelopers.google.comaccountsdocsOAuth2Login_ Ipsilon httpsipsilon-project.org_Project statusThis project is in active development.</longdescription>
+</pkgmetadata>

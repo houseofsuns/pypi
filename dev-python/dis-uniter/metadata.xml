@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This creates a simple website to go with your discord.py bot on httpsreplit.com so it can be kept alive. UsageRun in shellbashpoetry add dis-uniterStore your bot token in a secret called DISCORD_TOKEN. Secrets are accessed through the lock icon on the left on desktop, and commands tab at the bottom  secrets on mobile.pyfrom discord.ext import commandsfrom disuniter import keepAlivebot  commands.Bot() normal bot code here...keepAlive(bot)Wait, wheres the bot.run The keepAlive function does that for you1) To enforce using a secret to store your token so you dont expose it (NEVER expose it even if you are to remove it instantly, because people can check your repls history)2) To restart your bot automatically when theres a rate limit. Rate limits are caused by too many requests from the same IP that is shared across multiple repls, and are responsible for downtimes on replit-hosted bots. Why this- No dependencies, unlike the typical Flask keep-alive- No spammy output, unlike Flask and the keep-alive I usually recommended on the replit discord- Restart your repl when theres a rate limit- It shows stats about your bot. You can update botuser info shown by hitting enter. See httpsdiscord-maths-bot.umarismyname.repl.co- It automatically adds your repl to httpsup.repl.link, a pinger, if it isnt already there- It uses [Solarized](httpsethanschoonover.comsolarizedfeatures), which is objectively the best colour palette ever. Why is it called dis-uniterI am keeping Discord bots alive. Discord  disagreement. I am dis-uniting by keeping disagreements alive.</longdescription>
+</pkgmetadata>

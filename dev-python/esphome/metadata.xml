@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> ESPHome [[Discord Chat](httpsimg.shields.iodiscord429907082951524364.svg)](httpsdiscord.ggKhAMKrd) [[GitHub release](httpsimg.shields.iogithubreleaseesphomeesphome.svg)](httpsGitHub.comesphomeesphomereleases)[[ESPHome Logo](httpsesphome.io_imageslogo-text.png)](httpsesphome.io)Documentation httpsesphome.ioFor issues, please go to [the issue tracker](httpsgithub.comesphomeissuesissues).For feature requests, please see [feature requests](httpsgithub.comesphomefeature-requestsissues).</longdescription>
+</pkgmetadata>

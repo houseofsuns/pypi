@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Team and repository tags.. image httpsgovernance.openstack.orgtcbadgespython-octaviaclient.svg    target httpsgovernance.openstack.orgtcreferencetagsindex.html.. Change things from this point onpython-octaviaclientOctavia client for OpenStack Load BalancingThis is an OpenStack Client (OSC) plugin for Octavia, an OpenStackLoad Balancing project.For more information about Octavia seehttpsdocs.openstack.orgoctavialatestFor more information about the OpenStack Client seehttpsdocs.openstack.orgpython-openstackclientlatest Free software Apache license Documentation httpsdocs.openstack.orgpython-octaviaclientlatest Source httpsopendev.orgopenstackpython-octaviaclient Release notes httpsdocs.openstack.orgreleasenotespython-octaviaclient Bugs httpsstoryboard.openstack.orgproject911Getting Started.. note This is an OpenStack Client plugin. The python-openstackclient          project should be installed to use this plugin... note This project is only intended to be used for the OpenStack Client          CLI. The openstacksdk httpsopendev.orgopenstackopenstacksdk_          should be used for python bindings.Octavia client can be installed from PyPI using pip.. code-block bash    pip install python-octaviaclientIf you want to make changes to the Octavia client for testing and contribution,make any changes and then run.. code-block bash    python setup.py developor.. code-block bash    pip install -e .</longdescription>
+</pkgmetadata>

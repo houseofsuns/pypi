@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> File ResolverA Sceptre resolver to get file contents.  The returned value can bepassed into a parameter as a string, json, or yaml object.  Thefile extension determines the return type.  By default, contents fromany files that do not end in .json or .yaml will be passed in asa string. MotivationUnlike the [file_contents resolver](httpssceptre.cloudreach.comlatestdocsresolvers.htmlfile-contents)which can only pass strings to parameters this resolver can also pass filecontent in as json and yaml object.  This resolver can also resolve remote filecontents from the web. Syntaxyamlparameterssceptre_user_data  name file pathtolocalfileyamlparameterssceptre_user_data  name file URLToFile Examples Local file textGet file content and pass it to the parameter as a text stringtagsdepartments.txttextHR, Governance, Engineering, Marketingyamlparameters  departments file tagsdepartments.txt jsonGet file contents and pass it to the parameter as a json objecttagsdepartments.jsonjson[  HR,  Governance,  Engineering,  Marketing]yamlparameters  departments file tagsdepartments.json yamlGet file contents and pass it to the sceptre_user_data as a yaml objecttagsdepartments.yamlyaml- HR- Governance- Engineering- Marketingyamlsceptre_user_data  departments file tagsdepartments.yaml__Note__ will do the same for files with .yml extension. Remote fileWorks similarly to local file except this will get file contents from the web. URLGet file contents from a URL referenceyamlsceptre_user_data  departments file httpsmy-bucket.s3.us-east-1.amazonaws.comtagsdepartments.json</longdescription>
+</pkgmetadata>

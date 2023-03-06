@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Team and repository tags.. image httpsgovernance.openstack.orgtcbadgesopenstackdocstheme.svg    target httpsgovernance.openstack.orgtcreferencetagsindex.html.. Change things from this point onOpen Infrastructure Projects Sphinx ThemesTheme and extension support for Sphinx documentation that is published byOpen Infrastructure Foundation projects.OpenStack docs.openstack.org Sphinx Theme-----------------------------------------Theme support for Sphinx documentation that is published todocs.openstack.org and developer.openstack.org.Intended for use by OpenStack projects governed by the Technical Committee_... _projects governed by the Technical Committee httpsgovernance.openstack.orgtcreferenceprojectsindex.htmlStarlingX docs.starlingx.io Sphinx Theme-----------------------------------------Theme support for Sphinx documentation that is published todocs.starlingx.io.Intended for use by StarlingX projects governed by the Technical Steering Committee_... _projects governed by the Technical Steering Committee httpsdocs.starlingx.iogovernancereferenceprojectsindex.htmlReferences---------- Free software Apache License, Version 2.0 Documentation httpsdocs.openstack.orgopenstackdocsthemelatest Release notes httpsdocs.openstack.orgreleasenotesopenstackdocstheme Source httpsopendev.orgopenstackopenstackdocstheme Bugs httpslaunchpad.netopenstack-doc-tools</longdescription>
+</pkgmetadata>

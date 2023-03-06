@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Click Default GroupDefaultGroup is a sub class of [click.Group](httpclick.pocoo.org6apiclick.Group).  But it invokes a defaultsubcommand instead of showing a help message when a subcommand is not passed.[[Build Status](httpsimg.shields.iotravisclick-contribclick-default-group.svg)](httpstravis-ci.orgclick-contribclick-default-group)[[Coverage Status](httpsimg.shields.iocoverallsclick-contribclick-default-group.svg)](httpscoveralls.iorclick-contribclick-default-group)Usage-----Define a default subcommand by defaultNAMEpythonimport clickfrom click_default_group import DefaultGroupclick.group(clsDefaultGroup, defaultfoo, default_if_no_argsTrue)def cli()    passcli.command()def foo()    click.echo(foo)cli.command()def bar()    click.echo(bar)Then you can invoke that without explicit subcommand nameconsole cli.py --helpUsage cli.py [OPTIONS] COMMAND [ARGS]...Options  --help    Show this message and exit.Command  foo  bar cli.pyfoo cli.py foofoo cli.py barbarCompatibility-------------click-default-group is compatible with these Click versions- Click-7.0- Click-6.x- Click-5.1- Click-5.0- Click-4.1- Click-4.0See the [latest build status](httpstravis-ci.orgclick-contribclick-default-group)at Travis CI.Licensing---------Written by [Heungsub Lee], and distributed under the [BSD 3-Clause] license.[Heungsub Lee] httpsubl.ee[BSD 3-Clause] httpopensource.orglicensesBSD-3-Clause</longdescription>
+</pkgmetadata>

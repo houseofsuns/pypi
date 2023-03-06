@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Your Fancy Project Deserves a Fancy PyPI Readme [[PyPI - Version](httpsimg.shields.iopypivhatch-fancy-pypi-readme.svg)](httpspypi.orgprojecthatch-fancy-pypi-readme)[[PyPI - Python Version](httpsimg.shields.iopypipyversionshatch-fancy-pypi-readme.svg)](httpspypi.orgprojecthatch-fancy-pypi-readme)[[Hatch project](httpsimg.shields.iobadgeF09FA59A-Hatch-4051b5.svg)](httpsgithub.compypahatch)[[License MIT](httpsimg.shields.iobadgelicense-MIT-C06524)](httpsgithub.comhynekhatch-fancy-pypi-readmeblobmainLICENSE.txt)hatch-fancy-pypi-readme is an MIT-licensed metadata plugin for [Hatch](httpshatch.pypa.io).Its purpose is to help you to have fancy PyPI readmes  unlike this one youre looking at right now.Please check out the [documentation](httpsgithub.comhynekhatch-fancy-pypi-readmereadme) to see what hatch-fancy-pypi-readme can do for you and your projects</longdescription>
+</pkgmetadata>

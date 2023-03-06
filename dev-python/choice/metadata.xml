@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Choice, a Python dialog librarychoice is a quick little library for getting user input in Python in a dialog-like fashion. Heres a little exampleimport choice Get a yes or no response (default is no)confirm  choice.Binary(Are you sure you want to delete, False).ask()if confirm    deleteIt() Input an arbitrary value, check for correctnesshowmany  choice.Input(How many pies, int).ask()print(You ordered {} pies.format(howmany)) Choose from a set of optionsentree  choice.Menu([steak, potatoes, eggplant]).ask()choice automatically displays the best UI available to the user basic text console, curses, or GUI windows. (curses and GUI are in development)Requirements and InstallationFor basic functionality, choice has no external dependencies, and requires only Python 2.7 or 3To install, just runpip install choiceDocumentationAPI docs are coming soon. More in-depth documentation can be found on Githubhttpsgithub.comfyhuangchoicewiki</longdescription>
+</pkgmetadata>

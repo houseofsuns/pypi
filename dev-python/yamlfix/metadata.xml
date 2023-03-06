@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> yamlfix[[Actions Status](httpsgithub.comlyz-codeyamlfixworkflowsTestsbadge.svg)](httpsgithub.comlyz-codeyamlfixactions)[[Actions Status](httpsgithub.comlyz-codeyamlfixworkflowsBuildbadge.svg)](httpsgithub.comlyz-codeyamlfixactions)[[Coverage Status](httpscoveralls.ioreposgithublyz-codeyamlfixbadge.svgbranchmain)](httpscoveralls.iogithublyz-codeyamlfixbranchmain)A simple opinionated yaml formatter that keeps your comments HelpSee [documentation](httpslyz-code.github.ioyamlfix) for more details. Installingbashpip install yamlfix ContributingFor guidance on setting up a development environment, and how to make acontribution to yamlfix, see[Contributing to yamlfix](httpslyz-code.github.ioyamlfixcontributing). Donationsnoscripta hrefhttpsliberapay.comLyzdonateimg altDonate usingLiberapay srchttpsliberapay.comassetswidgetsdonate.svganoscriptor[[ko-fi](httpsko-fi.comimggithubbutton_sm.svg)](httpsko-fi.comT6T3GP0V8)If you are using some of my open-source tools, have enjoyed them, and want tosay thanks, this is a very strong way to do it.If your productcompany depends on these tools, you can sponsor me to ensure Ikeep happily maintaining them.If these tools are helping you save money, time, effort, or frustrations orthey are helping you make money, be more productive, efficient, secure, enjoy abit more your work, or get your product ready faster, this is a great way toshow your appreciation. Thanks for thatAnd by sponsoring me, you are helping make these tools, that already help you,sustainable and healthy. LicenseGPLv3</longdescription>
+</pkgmetadata>

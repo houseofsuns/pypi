@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[[Build Status](httpsgithub.comjupyter-serverjupyter_ydocworkflowsTestsbadge.svg)](httpsgithub.comjupyter-serverjupyter_ydocactions)[[Code style black](httpsimg.shields.iobadgecode20style-black-000000.svg)](httpsgithub.compsfblack)[[PyPI](httpsimg.shields.iopypivjupyter-ydoc)](httpspypi.orgprojectjupyter-ydoc)[[npm (scoped)](httpsimg.shields.ionpmvjupyterydoc)](httpswww.npmjs.compackagejupyterydoc) jupyter_ydocjupyter_ydoc provides [Ypy](httpsgithub.comy-crdtypy)-based data structures for variousdocuments used in the Jupyter ecosystem. Built-in documents include- YBlob a generic immutable binary document.- YUnicode a generic UTF8-encoded text document (YFile is an alias to YUnicode).- YNotebook a Jupyter notebook document.These documents are registered via an entry point under the jupyter_ydoc group as blob,unicode (or file), and notebook, respectively. You can access them as followspyfrom jupyter_ydoc import ydocsprint(ydocs) {     blob class jupyter_ydoc.yblob.YBlob,     file class jupyter_ydoc.yfile.YFile,     notebook class jupyter_ydoc.ynotebook.YNotebook,     unicode class jupyter_ydoc.yunicode.YUnicode }Which is just a shortcut topyimport pkg_resourcesydocs  {ep.name ep.load() for ep in pkg_resources.iter_entry_points(groupjupyter_ydoc)}Or directly import thempyfrom jupyter_ydoc import YBlob, YUnicode, YNotebookThe jupyter_ydoc entry point group can be populated with your own documents, e.g. by adding thefollowing to your packages pyproject.toml[project.entry-points.jupyter_ydoc]my_document  my_package.my_fileMyDocumentClass</longdescription>
+</pkgmetadata>

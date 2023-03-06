@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> asdf-unit-schemas[CI](httpsgithub.comasdf-formatasdf-unit-schemasworkflowsCIbadge.svg)[Downstream](httpsgithub.comasdf-formatasdf-unit-schemasworkflowsDownstreambadge.svg)[[pre-commit](httpsimg.shields.iobadgepre--commit-enabled-brightgreenlogopre-commitlogoColorwhite)](httpsgithub.compre-commitpre-commit)[[Code style black](httpsimg.shields.iobadgecode20style-black-000000.svg)](httpsgithub.compsfblack)[[Imports isort](httpsimg.shields.iobadge20imports-isort-231674b1styleflatlabelColoref8336)](httpspycqa.github.ioisort)This package provides ASDF schemas for validating unit tags.  Users should notneed to install this directly instead, install an implementation package suchas asdf-astropy, which includes asdf-unit-schemas as a dependency.</longdescription>
+</pkgmetadata>

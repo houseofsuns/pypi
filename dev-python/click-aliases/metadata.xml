@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> click-aliases[[build](httpstravis-ci.orgclick-contribclick-aliases.svgbranchmaster)](httpstravis-ci.orgclick-contribclick-aliases)[[license](httpsimg.shields.iobadgelicense-MIT-blue.svgstyleflat)](httpsraw.githubusercontent.comclick-contribclick-aliasesmasterLICENSE)[[coverage](httpscoveralls.ioreposgithubclick-contribclick-aliasesbadge.svgbranchmaster)](httpscoveralls.iogithubclick-contribclick-aliasesbranchmaster)Add (multiple) aliases to a click_ group or command.In your [click](httpclick.pocoo.org) apppythonimport clickfrom click_aliases import ClickAliasedGroupclick.group(clsClickAliasedGroup)def cli()    passcli.command(aliases[bar, baz, qux])def foo()    Run a command.    click.echo(foo)Will result inUsage cli [OPTIONS] COMMAND [ARGS]...Options  --help  Show this message and exit.Commands  foo (bar,baz,qux)  Run a command.</longdescription>
+</pkgmetadata>

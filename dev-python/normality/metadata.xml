@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> normality text cleanup[[build](httpsgithub.compudonormalityactionsworkflowsbuild.ymlbadge.svg)](httpsgithub.compudonormalityactionsworkflowsbuild.yml)Normality is a Python micro-package that contains a small set of textnormalization functions for easier re-use. These functions accept asnippet of unicode or utf-8 encoded text and remove various classesof characters, such as diacritics, punctuation etc. This is useful asa preparation to further text analysis.WARNING This library works much better when used in combination with pyicu, a Python binding for the International Components forUnicode C library. ICU provides much better text transliteration thanthe default text-unidecode. Examplepython coding utf-8from normality import normalize, slugify, collapse_spacestext  normalize(Nie wieder Grne Sppchen kochen)assert text  nie wieder grune suppchen kochenslug  slugify(My first blog post)assert slug  my-first-blog-posttext  this nnrnhastlots of nodd spacing.assert collapse_spaces(text)  this has lots of odd spacing. Licensenormality is open source, licensed under a standard MIT license(included in this repository as LICENSE).</longdescription>
+</pkgmetadata>

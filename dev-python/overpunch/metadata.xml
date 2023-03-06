@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Overpunch ParserFormatterExtract and generate overpunch (httpsen.wikipedia.orgwikiSigned_overpunch) formatted numbers.Examples---------     import overpunch     overpunch.format(123.45)    1234E     overpunch.extract(1234E)    Decimal(123.45)Requirements------------- Python 2.7+ or Python 3Tests------Without coverage     nosetestsWith coverage     nosetests --with-coverage --cover-packageoverpunch</longdescription>
+</pkgmetadata>

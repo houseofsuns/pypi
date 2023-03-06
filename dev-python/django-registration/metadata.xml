@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. --restructuredtext--.. image httpsgithub.comubernostrumdjango-registrationworkflowsCIbadge.svg   alt CI status image   target httpsgithub.comubernostrumdjango-registrationactionsqueryworkflow3ACIThis is a user-registration application for Djangohttpswww.djangoproject.com_. There are two registrationworkflows (one-step, and two-step with activation) built in, and itsdesigned to be extensible and support building additional workflows.To get started, check out the documentationhttpsdjango-registration.readthedocs.io_.</longdescription>
+</pkgmetadata>

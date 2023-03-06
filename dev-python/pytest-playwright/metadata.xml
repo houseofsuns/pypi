@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Pytest plugin for Playwright [[PyPI](httpsimg.shields.iopypivpytest-playwright)](httpspypi.orgprojectpytest-playwright)Write end-to-end tests for your web apps with [Playwright](httpsgithub.commicrosoftplaywright-python) and [pytest](httpsdocs.pytest.orgenstable).- Support for all modern browsers including Chromium, WebKit and Firefox.- Support for headless and headed execution.- Built-in fixtures that provide browser primitives to test functions. DocumentationSee on [playwright.dev](httpsplaywright.devpythondocstest-runners) for examples and more detailed information.</longdescription>
+</pkgmetadata>

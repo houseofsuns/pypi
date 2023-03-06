@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>A python library for decision tree visualization and model interpretation.  Decision trees are the fundamental building block of [gradient boosting machines](httpexplained.aigradient-boostingindex.html) and [Random Forests](httpsen.wikipedia.orgwikiRandom_forest)(tm), probably the two most popular machine learning models for structured data.  Visualizing decision trees is a tremendous aid when learning how these models work and when interpreting models. The visualizations are inspired by an educational animation by [R2D3](httpwww.r2d3.us) [A visual introduction to machine learning](httpwww.r2d3.usvisual-intro-to-machine-learning-part-1). Please see [How to visualize decision trees](httpexplained.aidecision-tree-vizindex.html) for deeper discussion of our decision tree visualization library and the visual design decisions we made.Currently dtreeviz supports [scikit-learn](httpsscikit-learn.orgstable), [XGBoost](httpsxgboost.readthedocs.ioenlatest), [Spark MLlib](httpsspark.apache.orgmllib), [LightGBM](httpslightgbm.readthedocs.ioenlatest), and [Tensorflow](httpswww.tensorflow.orgdecision_forests).  See [Installation instructions](README.mdInstallation).</longdescription>
+</pkgmetadata>

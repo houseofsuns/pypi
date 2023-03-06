@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>wavefront-cli.. image httpstravis-ci.comwavefrontHQwavefront-cli.svgbranchmaster    target httpstravis-ci.comwavefrontHQwavefront-cliThe Wavefront Integration Command Line Interface (CLI) is a utility for installing and configuring the Wavefront proxy, Telegraf collector agent, and integrations.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> laz-rs-pythonPython bindings for the [laz-rs](httpscrates.iocrateslaz) crate. BuildingBuilding is done by using [maturin](httpsgithub.comPyO3maturin)console from pypipip install lazrs localypip install .orconsolepip install maturinmaturin develop --release</longdescription>
+</pkgmetadata>

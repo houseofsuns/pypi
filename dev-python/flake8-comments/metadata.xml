@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> flake8-commentsReport redundant comments in python code.An example of a bad commentpython create useruser.create(forceTrue)In this example, the comment gives even less information that the code itself. So, you can safely remove the comment without losing any information. The goal is to reduce the [information redundancy](httpsen.wikipedia.orgwikiRedundancy_(information_theory)), leaving in the code only what is actually important and helpful. Installationbashpython3 -m pip install flake8-comments UsageCheck that plugin was added in your flake8bash python3 -m flake8 --version3.7.7 (flake8-comments 0.1.0, mccabe 0.6.1, pycodestyle 2.5.0, pyflakes 2.1.1) CPython 3.6.7 on LinuxIf you dont see flake8-comments in the previous command output, check that flake8 and flake8-comments is installed in the same interpreter.If everything is OK, run flake8bashpython -m flake8 example.py Similar projectsThere are a few more good flake8 plugins targeted on cleaning up comments+ [flake8-eradicate](httpsgithub.comwemake-servicesflake8-eradicate) detects commented out code.+ [flake8-todos](httpsgithub.comorsinium-labsflake8-todos) controls consistency of TODO comments.+ [wemake-python-styleguide](httpsgithub.comwemake-serviceswemake-python-styleguide) has a few checks targeted on comments, like if there are empty comments, too many noqa, no cover, bad shebangs.</longdescription>
+</pkgmetadata>

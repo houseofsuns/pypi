@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Multipart Reader.. image httpstravis-ci.orgnovaflossmultipart-reader.svg   target httpstravis-ci.orgnovaflossmultipart-reader   alt We are under CIPermits to read a multipart content like, mixed, related, etc.Thanks to the aiohttp project for the implementation, cf.httpaiohttp.readthedocs.orgenstablemultipart.html. Unfortunately lot ofpeople have not yet moved to asyncio, or do not want the full aiohttp stackto read the multipart content. Here we tried to keep all the aiohttp logic and coverage but the coroutinesmechanism.What it doesIt reads the same way multpartx contents. Lets say we have the followingmultipartrelated content     import json     from email.mime.multipart import MIMEMultipart     from email.mime.base import MIMEBase     multipart  MIMEMultipart(related)     part  MIMEBase(application, json)     part.set_payload(json.dumps({foo bar}))     multipart.attach(part)     part  MIMEBase(application, octet-stream)     part.set_payload(bPython will save the world. I dont know how. But it will.)     part.add_header(Content-Disposition, attachment, filenamepython-save-the-world.txt)     multipart.attach(part)Here is how we can read it     import io     from multipart_reader import MultipartReader     content  multipart.as_string().split(nn, 1)[1]     headers  dict(multipart.items())     stream  io.BytesIO()     stream.write(content)     stream.seek(0)     reader  MultipartReader(headers, stream)     json_part  reader.next()     json_part.json()    {foo bar}     file_part  reader.next()     file_part.read()    Python will save the world. I dont know how. But it will.     file_part.filename    python-save-the-world.txtThats it ...</longdescription>
+</pkgmetadata>

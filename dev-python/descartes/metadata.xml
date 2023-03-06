@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>DescartesUse Shapely_ or GeoJSON-like geometric objects as matplotlib paths and patches.. image httpfarm4.static.flickr.com36624555372019_9bbed1f956_o_d.png   width 800   height 320Requires matplotlib, numpy, and optionally Shapely 1.2+.Example  from matplotlib import pyplot  from shapely.geometry import LineString  from descartes import PolygonPatch  BLUE  6699cc  GRAY  999999  def plot_line(ax, ob)      x, y  ob.xy      ax.plot(x, y, colorGRAY, linewidth3, solid_capstyleround, zorder1)  line  LineString([(0, 0), (1, 1), (0, 2), (2, 2), (3, 1), (1, 0)])  fig  pyplot.figure(1, figsize(10, 4), dpi180)   1  ax  fig.add_subplot(121)  plot_line(ax, line)  dilated  line.buffer(0.5)  patch1  PolygonPatch(dilated, fcBLUE, ecBLUE, alpha0.5, zorder2)  ax.add_patch(patch1)  2  ax  fig.add_subplot(122)  patch2a  PolygonPatch(dilated, fcGRAY, ecGRAY, alpha0.5, zorder1)  ax.add_patch(patch2a)  eroded  dilated.buffer(-0.3)   GeoJSON-like data works as well  polygon  eroded.__geo_interface__    geo[type]   Polygon    geo[coordinates][0][2]   ((0.50502525316941682, 0.78786796564403572), (0.5247963548222736, 0.8096820147509064))  patch2b  PolygonPatch(polygon, fcBLUE, ecBLUE, alpha0.5, zorder2)  ax.add_patch(patch2b)  pyplot.show()See also examplespatches.py.Descartes is not associated with the identically named and apparently defunctproject at httpdescartes.sourceforge.net... _Shapely httpgispython.orglabwikiShapely</longdescription>
+</pkgmetadata>

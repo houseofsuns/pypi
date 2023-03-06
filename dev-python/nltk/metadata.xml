@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>The Natural Language Toolkit (NLTK) is a Python package fornatural language processing.  NLTK requires Python 3.7, 3.8, 3.9, 3.10 or 3.11.</longdescription>
+</pkgmetadata>

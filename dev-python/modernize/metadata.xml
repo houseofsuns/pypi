@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>    Python           _              _               _ __  ___  __ ___ _ _ _ _ (_)______           _  _  -_) _   _  -_)      ________,_____ ________This library is a very thin wrapper around fissixhttpsgithub.comjreesefissix_, a fork of lib2to3, to utilize itto make Python 2 code more modern with the intention of eventuallyporting it over to Python 3.The python -m modernize command works likepython -m fissix, see fissix httpsgithub.comjreesefissix_.Heres how youd rewrite asingle file    python -m modernize -w example.pyIt does not guarantee, but it attempts to spit out a codebase compatiblewith Python 2.6+ or Python 3. The code that it generates has a runtimedependency on six httpspypi.python.orgpypisix_, unless the--no-six option is used. Version 1.9.0 or later of six isrecommended. Some of the fixers output code that is not compatible withPython 2.5 or lower.Documentation modernize.readthedocs.iohttpsmodernize.readthedocs.io_.See the LICENSE file for the license of modernize.Using this tool does not affect licensing of the modernized code... image httpsreadthedocs.orgprojectsmodernizebadge    target httpsreadthedocs.orgprojectsmodernizebadgelatest    alt Documentation Status.. image httpsapi.travis-ci.orgpycqamodernize.svgbranchmaster    target httpstravis-ci.orgpycqamodernize.. image httpscoveralls.iorepospycqamodernizebadge.pngbranchmaster    target httpscoveralls.iorpycqamodernizebranchmaster</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[PyThaiNLP Logo](httpsavatars0.githubusercontent.comu32934255s200v4)PyThaiNLP is a Python library for Thai natural language processing.The library provides functions like word tokenization, part-of-speech tagging,transliteration, soundex generation, spell checking, anddate and time parsingformatting.Website [pythainlp.github.io](httpspythainlp.github.io) InstallFor stable versionshpip install pythainlpFor development versionshpip install --upgrade --pre pythainlpSome functionalities, like named-entity recognition, required extra packages.See httpsgithub.comPyThaiNLPpythainlp for installation options.</longdescription>
+</pkgmetadata>

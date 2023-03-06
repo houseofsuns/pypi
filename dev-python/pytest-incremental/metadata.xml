@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image httpsimg.shields.iopypivpytest-incremental.svg   target httpspypi.python.orgpypipytest-incremental.. image httpsimg.shields.iopypipyversionspytest-incremental.svg   target httpspypi.python.orgpypipytest-incremental.. image httpsgithub.compytest-devpytest-incrementalworkflowstestbadge.svg   target httpsgithub.compytest-devpytest-incrementalactionsqueryworkflow3Atestpytest-incrementalan incremental test runner (pytest plug-in)pytest-incremental analyses your project structure and filemodifications between test-runsto modify the order tests are executed and de-select tests.This allows a much faster feedback for interactive test execution.Project Details - Website  docs - httpspytest-incremental.readthedocs.io - Project code + issue track on github - httpsgithub.compytest-devpytest-incremental - PyPI - httpspypi.python.orgpypipytest-incremental - Discussion group - httpgroups.google.co.ingrouppython-doitlicenseThe MIT LicenseCopyright (c) 2015-2021 Eduardo Naufel Schettinosee LICENSE file</longdescription>
+</pkgmetadata>

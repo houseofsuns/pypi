@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Build Status Gitential Active Contributors Gitential Coding Hours Gitential Efficiency.. Gitential Active Contributors image httpsapi.gitential.comaccounts6projects121badgesactive-contributors.svg   alt Gitential Efficiency   target httpsgitential.comaccounts6projects121shareuuid4fc48389-c5e6-48c5-91d8-d11adcdd9405utm_sourceshieldutm_mediumshieldutm_campaign121.. Gitential Coding Hours image httpsapi.gitential.comaccounts6projects121badgescoding-hours.svg   alt Gitential Efficiency   target httpsgitential.comaccounts6projects121shareuuid4fc48389-c5e6-48c5-91d8-d11adcdd9405utm_sourceshieldutm_mediumshieldutm_campaign121.. Gitential Efficiency image httpsapi.gitential.comaccounts6projects121badgesefficiency.svg   alt Gitential Efficiency   target httpsgitential.comaccounts6projects121shareuuid4fc48389-c5e6-48c5-91d8-d11adcdd9405utm_sourceshieldutm_mediumshieldutm_campaign121PandahousePandas interface for Clickhouse HTTP APIInstall-------.. code bash    pip install pandahouseUsage-----Writing dataframe to clickhouse.. code python    connection  {host httpclickhouse-host8123,                  database test    affected_rows  to_clickhouse(df, tablename, connectionconnection)Reading arbitrary clickhouse query to pandas.. code python    df  read_clickhouse(SELECT  FROM {db}.table, index_colid,                         connectionconnection).. Build Status image httpdrone.lensa.com8000apibadgeskszucspandahousestatus.svg   target httpdrone.lensa.com8000kszucspandahouse</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Facebook Python SDKThis client library is designed to support the Facebook Graph API_ and theofficial Facebook JavaScript SDK_, which is the canonical way to implementFacebook authentication. You can read more about the Graph API by accessing itsofficial documentation_... _Facebook Graph API httpsdevelopers.facebook.comdocsreferenceapi.. _Facebook JavaScript SDK httpsdevelopers.facebook.comdocsreferencejavascript.. _official documentation httpsdevelopers.facebook.comdocsreferenceapiLicensingThis library uses the Apache License, version 2.0_. Please see the librarysindividual files for more information... _Apache License, version 2.0 httpswww.apache.orglicensesLICENSE-2.0Reporting IssuesIf you have bugs or other issues specifically pertaining to this library, filethem here_. Bugs with the Graph API should be filed on Facebooksbugtracker_... _here httpsgithub.commobolicfacebook-sdkissues.. _Facebooks bugtracker httpsdevelopers.facebook.combugsSupport  DiscussionDocumentation is available at httpsfacebook-sdk.readthedocs.ioenlatest.Have a question Need help Visit the librarys Google Group_... _Google Group httpsgroups.google.comgrouppythonforfacebook</longdescription>
+</pkgmetadata>

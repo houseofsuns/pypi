@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image httpsgithub.comwireserviceagate-excelworkflowsCIbadge.svg    target httpsgithub.comwireserviceagate-excelactions    alt Build status.. image httpsimg.shields.iopypidmagate-excel.svg    target httpspypi.python.orgpypiagate-excel    alt PyPI downloads.. image httpsimg.shields.iopypivagate-excel.svg    target httpspypi.python.orgpypiagate-excel    alt Version.. image httpsimg.shields.iopypilagate-excel.svg    target httpspypi.python.orgpypiagate-excel    alt License.. image httpsimg.shields.iopypipyversionsagate-excel.svg    target httpspypi.python.orgpypiagate-excel    alt Support Python versionsagate-excel adds read support for Excel files (xls and xlsx) to agate httpsgithub.comwireserviceagate_.Important links agate             httpagate.rtfd.org Documentation    httpagate-excel.rtfd.org Repository       httpsgithub.comwireserviceagate-excel Issues           httpsgithub.comwireserviceagate-excelissues</longdescription>
+</pkgmetadata>

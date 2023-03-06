@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Data Commons Pandas APIThis is a Python library for creating pandas objects with data in theData Commons Graph.To get started, install this package from pip.    pip install datacommons_pandasOnce the package is installed, import datacommons_pandas.    import datacommons_pandas as dcpdFor more detail on getting started with the API, please visit our[API Overview](httpdocs.datacommons.orgapi).When you are ready to use the API, you can refer to datacommons_pandasexamples forexamples on how to use this package to perform various tasks. More tutorials anddocumentation can be found on our [tutorials page](httpsdatacommons.orgcolab) About Data Commons[Data Commons](httpsdatacommons.org) is an open knowledge repository thatprovides a unified view across multiple public data sets and statistics. You canview what [datasets](httpsdatacommons.orgdatasets) are currently ingestedand browse the graph using our [browser](httpsbrowser.datacommons.org). LicenseApache 2.0 DevelopmentPlease follow the [Development instructions](..README.mddevelopment). ReleasePlease follow the [Release instructions](..README.mdrelease). SupportFor general questions or issues about the API, please open an issue on our[issues](httpsgithub.comdatacommonsorgapi-pythonissues) page. For all otherquestions, please send an email to supportdatacommons.org.Note - This is not an officially supported Google product.</longdescription>
+</pkgmetadata>

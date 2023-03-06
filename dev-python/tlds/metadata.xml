@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Automatically updated list of valid TLDs for PythonThe tlds module provides a a set of valid TLDs directly taken from IANA_. The package is automatically updated daily.Available on PyPI_... _IANA httpdata.iana.orgTLDtlds-alpha-by-domain.txt.. _PyPI httpspypi.orgpypitlds.. image httpsgithub.comkichiktldsworkflowstlds20buildbadge.svg   alt Build status   target httpsgithub.comkichiktldsactions.. image httpsimg.shields.iopypivtldslogopypi   alt PyPI   target httpspypi.orgpypitlds.. image httpsimg.shields.iopypidmtldscolorred   alt PyPI - Downloads   target httpspypi.orgpypitldsUsage-----   from tlds import tld_set   com in tld_set  True   foobar in tld_set  False   pizza in tld_set  True  </longdescription>
+</pkgmetadata>

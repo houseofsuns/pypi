@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>a hrefhttpsexplosion.aiimg srchttpsexplosion.aiassetsimglogo.svg width125 height125 alignright a preshed Cython Hash Table for Pre-Hashed KeysSimple but high performance Cython hash table mapping pre-randomized keys to void values. Inspired by [Jeff Preshing](httppreshing.com20130107this-hash-table-is-faster-than-a-judy-array).[[Azure Pipelines](httpsimg.shields.ioazure-devopsbuildexplosion-aipublic3master.svglogoazure-pipelinesstyleflat-square)](httpsdev.azure.comexplosion-aipublic_builddefinitionId3)[[pypi Version](httpsimg.shields.iopypivpreshed.svgstyleflat-squarelogopypilogoColorwhite)](httpspypi.python.orgpypipreshed)[[conda Version](httpsimg.shields.iocondavnconda-forgepreshed.svgstyleflat-squarelogoconda-forgelogoColorwhite)](httpsanaconda.orgconda-forgepreshed)[[Python wheels](httpsimg.shields.iobadgewheels-E29C93-4c1.svglongCachetruestyleflat-squarelogopythonlogoColorwhite)](httpsgithub.comexplosionwheelwrightreleases)</longdescription>
+</pkgmetadata>

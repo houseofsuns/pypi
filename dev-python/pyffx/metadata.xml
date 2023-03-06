@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image httpstravis-ci.orgemulbrehpyffx.svgbranchmaster    target httpstravis-ci.orgemulbrehpyffxpyffxpyffx is a pure Python implementation of Format-preserving, Feistel-based encryption (FFX). The FFX Mode of Operation for Format-Preserving Encryption_ Addendum to The FFX Mode of Operation for Format-Preserving Encryption_Only method 2 is implemented.See also libffx_Usage-----.. code-block python     import pyffx     e  pyffx.Integer(bsecret-key, length4)     e.encrypt(1234)    6103     e.decrypt(6103)    1234     e  pyffx.String(bsecret-key, alphabetabc, length6)     e.encrypt(aaabbb)    acbacc     e.decrypt(acbacc)    aaabbb.. _The FFX Mode of Operation for Format-Preserving Encryption httpcsrc.nist.govgroupsSTtoolkitBCMdocumentsproposedmodesffxffx-spec.pdf.. _Addendum to The FFX Mode of Operation for Format-Preserving Encryption httpcsrc.nist.govgroupsSTtoolkitBCMdocumentsproposedmodesffxffx-spec2.pdf.. _libffx httpsgithub.comkpdyerlibffx</longdescription>
+</pkgmetadata>

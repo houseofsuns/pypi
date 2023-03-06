@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> django-treebearddjango-treebeard is a library that implements efficient treeimplementations for the Django Web Framework 2.2 and later.It is written by Gustavo Picn and licensed under the Apache License2.0. Status[[Documentation Status](httpsreadthedocs.orgprojectsdjango-treebeardbadgeversionlatest)](httpsdjango-treebeard.readthedocs.ioenlatestbadgelatest)[[Tests](httpsgithub.comdjango-treebearddjango-treebeardworkflowsTestsbadge.svg)]()[[App Veyor](httpsci.appveyor.comapiprojectsstatusmwbf062v68lhw05csvgtrue)](httpsci.appveyor.comprojectmvantellingendjango-treebeard)[[PyPI](httpsimg.shields.iopypipyversionsdjango-treebeard.svg)]()[[PyPI version](httpsimg.shields.iopypivdjango-treebeard.svg)](httpspypi.orgprojectdjango-treebeard) Featuresdjango-treebeard is-   Flexible Includes 3 different tree implementations with the    same API    1.  Adjacency List    2.  Materialized Path    3.  Nested Sets-   Fast Optimized non-naive tree operations-   Easy Uses Django Model Inheritance with abstract classes to    define your own models.-   Clean Testable and well tested code base. Codebranch test    coverage is above 96.You can find the documentation in httpdjango-treebeard.readthedocs.ioenlatest Supported versionsdjango-treebeard officially supports-   Django 3.2, 4.0, 4.1-   Python 3.8 - 3.11-   PostgreSQL, MySQL, MSSQL, SQLite database back-ends.</longdescription>
+</pkgmetadata>

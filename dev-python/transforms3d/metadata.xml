@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Transforms3dCode to convert between various geometric transformations. Composing rotations  zooms  shears  translations into affine matrix Decomposing affine matrix into rotations  zooms  shears  translations Conversions between different representations of rotations, including   3x3 Rotation matrices   Euler angles   quaternions.We have tried to document the algorithms carefully and write clear code in thehope that this code can be a teaching reference.  We document the math behindsome of the algorithms using sympy httpwww.sympy.org_ intransforms3dderivations.  We would be very pleased if yall would like toadd your own algorithms and derivations - please get a copy of the code fromhttpsgithub.commatthew-bretttransforms3d and get on down,algorithmically.  Feel free to use the github issue tracker and pull requestsystem to ask for advice and support.DocumentationDocumentation for latest released version athttpmatthew-brett.github.iotransforms3dCodeSee httpsgithub.commatthew-bretttransforms3dReleased under the BSD two-clause license - see the file LICENSE in thesource distribution.Much of the code comes from transformations.pyhttpwww.lfd.uci.edugohlkecodetransformations.py.html_ by ChristophGohlke, also released under the BSD license.We use Github actions to test the code automatically under Pythons 3.7 through3.10.We depend on numpy  1.15.  You may be able to make it work on an earliernumpy if you really needed that.The latest released version is at httpspypi.python.orgpypitransforms3dSupportPlease put up issues on the transforms3d issue trackerhttpsgithub.commatthew-bretttransforms3dissues_.</longdescription>
+</pkgmetadata>

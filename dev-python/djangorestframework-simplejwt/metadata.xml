@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Simple JWT.. image httpsjazzband.costaticimgbadge.svg   target httpsjazzband.co   alt Jazzband.. image httpsgithub.comjazzbanddjangorestframework-simplejwtworkflowsTestbadge.svg   target httpsgithub.comjazzbanddjangorestframework-simplejwtactions   alt GitHub Actions.. image httpscodecov.ioghjazzbanddjangorestframework-simplejwtbranchmastergraphbadge.svg  target httpscodecov.ioghjazzbanddjangorestframework-simplejwt.. image httpsimg.shields.iopypivdjangorestframework-simplejwt.svg  target httpspypi.python.orgpypidjangorestframework-simplejwt.. image httpsimg.shields.iopypipyversionsdjangorestframework-simplejwt.svg  target httpspypi.python.orgpypidjangorestframework-simplejwt.. image httpsimg.shields.iopypidjversionsdjangorestframework-simplejwt.svg  target httpspypi.python.orgpypidjangorestframework-simplejwt.. image httpsreadthedocs.orgprojectsdjango-rest-framework-simplejwtbadgeversionlatest  target httpsdjango-rest-framework-simplejwt.readthedocs.ioenlatestAbstract--------Simple JWT is a JSON Web Token authentication plugin for the Django RESTFramework httpwww.django-rest-framework.org__.For full documentation, visit django-rest-framework-simplejwt.readthedocs.iohttpsdjango-rest-framework-simplejwt.readthedocs.ioenlatest__.</longdescription>
+</pkgmetadata>

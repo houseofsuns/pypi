@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>symspellpy br[[PyPI version](httpsbadge.fury.iopysymspellpy.svg)](httpsbadge.fury.iopysymspellpy)[[Tests](httpsgithub.commammothbsymspellpyactionsworkflowstests.ymlbadge.svg)](httpsgithub.commammothbsymspellpyactionsworkflowstests.yml)[[Documentation Status](httpsreadthedocs.orgprojectssymspellpybadgeversionlatest)](httpssymspellpy.readthedocs.ioenlatestbadgelatest)[[codecov](httpscodecov.ioghmammothbsymspellpybranchmastergraphbadge.svg)](httpscodecov.ioghmammothbsymspellpy)symspellpy is a Python port of [SymSpell](httpsgithub.comwolfgarbeSymSpell) v6.7.1, which provides much higher speed and lower memory consumption. Unit testsfrom the original project are implemented to ensure the accuracy of the port.Please note that the port has not been optimized for speed.Notable Changesv6.7.2 Implemented fast distance comparer with [editdistpy](httpsgithub.commammothbeditdistpy). Approximately 2x speed up for usage under default settings, benchmarks found [here](httpsgithub.commammothbsymspellpyblobmastertestsbenchmarks.ipynb).InstallFor installation instructions, see the INSTALL.rst file or the [install](httpssymspellpy.readthedocs.ioenlatestusersinstalling.html) documentation.UsageCheck out the [examples](httpssymspellpy.readthedocs.ioenlatestexamplesindex.html) provided for sample usage.</longdescription>
+</pkgmetadata>

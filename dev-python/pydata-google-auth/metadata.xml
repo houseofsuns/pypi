@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pydata-google-authBuild Status Version Status Coverage Statuspydata-google-auth is a package providing helpers for authenticating to Google APIs.Installation------------Install latest release version via conda.. code-block shell    conda install pydata-google-auth --channel conda-forgeInstall latest release version via pip.. code-block shell    pip install pydata-google-authInstall latest development version.. code-block shell     pip install git+httpsgithub.compydatapydata-google-auth.gitUsage-----Use the pydata_google_auth.get_user_credentials() function toauthenticate to Google APIs with user credentials... code-block python    import pydata_google_auth    credentials  pydata_google_auth.get_user_credentials(        [httpswww.googleapis.comauthcloud-platform],    )     Use the credentials in other libraries, such as the Google BigQuery     client library.    from google.cloud import bigquery    client  bigquery.Client(projectYOUR-PROJECT-ID, credentialscredentials)See the pydata-google-auth documentation httpspydata-google-auth.readthedocs.io_ for more details... Build Status image httpscircleci.comghpydatapydata-google-authtreemaster.svgstylesvg   target httpscircleci.comghpydatapydata-google-authtreemaster.. Version Status image httpsimg.shields.iopypivpydata-google-auth.svg   target httpspypi.python.orgpypipydata-google-auth.. Coverage Status image httpsimg.shields.iocodecovcgithubpydatapydata-google-auth.svg   target httpscodecov.ioghpydatapydata-google-auth</longdescription>
+</pkgmetadata>

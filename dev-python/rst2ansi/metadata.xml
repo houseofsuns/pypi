@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>rst2ansibuild downloads pyversions formatA python module dedicated to rendering RST (reStructuredText) documentsto ansi-escaped strings suitable for display in a terminal.asciicastInstallation------------RequirementsPython 3.3+PyPi package.. code bash    pip install rst2ansiUsage-----As a CLI utility.. code bash    usage rst2ansi [-h] [file]    Prints a reStructuredText input in an ansi-decorated format suitable for    console output.    positional arguments      file        A path to the file to open    optional arguments      -h, --help  show this help message and exitAs a python module.. code python    from rst2ansi import rst2ansi    print(rst2ansi(I love reStructuredText)).. build image httpsapi.travis-ci.orgSnaipepython-rst2ansi.svg   target httpstravis-ci.orgSnaipepython-rst2ansi.. downloads image httpsimg.shields.iopypidmrst2ansi.svg   target httpspypi.python.orgpypirst2ansi.. pyversions image httpsimg.shields.iopypipyversionsrst2ansi.svg.. format image httpsimg.shields.iopypiformatrst2ansi.svg.. asciicast image httpsasciinema.orgadrykz69gtn557z3hxnbb1jybq.png   target httpsasciinema.orgadrykz69gtn557z3hxnbb1jybq</longdescription>
+</pkgmetadata>

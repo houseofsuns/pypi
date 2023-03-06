@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> pytest-circleci-parallelized[[PyPI version](httpsimg.shields.iopypivpytest-circleci-parallelized.svg)](httpspypi.orgprojectpytest-circleci-parallelized) [[Python versions](httpsimg.shields.iopypipyversionspytest-circleci-parallelized.svg)](httpspypi.orgprojectpytest-circleci-parallelized) [[CircleCI build status](httpscircleci.comghryanwilsonperkinpytest-circleci-parallelized.svgstylesvg)](httpscircleci.comghryanwilsonperkinpytest-circleci-parallelized)Parallelize pytest across CircleCI workers.--- FeaturesLeverage the builtin parallelism of CircleCI to run your test suites. Call pytest with the --circleci-parallelize flag to automatically split tests amongst nodes using the circleci tests split utility.Read more about CircleCI test splitting [here][circleci-test-splitting].yaml .circleciconfig.ymlversion 2jobs  test    docker      - image circlecipython3    parallelism 10    steps      - checkout      - run pytest --circleci-parallelizeworkflows  version 2  test    jobs      - test InstallationYou can install pytest-circleci-parallelized via pip from [PyPI][pypi].shpip install pytest-circleci-parallelized ContributingContributors welcome Tests can be run with [pytest][pytest] LicenseDistributed under the terms of the [MIT](LICENSE) license, pytest-circleci-parallelized is free and open source software. IssuesIf you encounter any problems, please [file an issue](new-issue) along with a detailed description.[pypi] httpspypi.orgprojectpytest-circleci-parallelized[new-issue] httpsgithub.comryanwilsonperkinpytest-circleci-parallelizedissuesnew[circleci-test-splitting] httpscircleci.comdocs2.0parallelism-faster-jobs</longdescription>
+</pkgmetadata>

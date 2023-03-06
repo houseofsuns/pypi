@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>elastic-apm -- Elastic APM agent for Python.. image httpsgithub.comelasticapm-agent-pythonactionsworkflowstest.ymlbadge.svgbranchmain    target httpsgithub.comelasticapm-agent-pythonactionsworkflowstest.yml    alt Build Status.. image httpsimg.shields.iopypivelastic-apm.svgstyleflat    target httpspypi.python.orgpypielastic-apm    alt Latest Version.. image httpsimg.shields.iopypipyversionselastic-apm.svgstyleflat    target httpspypi.python.orgpypielastic-apm    alt Supported Python versionsThis is the official Python module for Elastic APM.It provides full out-of-the-box support for many of the popular frameworks,including Django, and Flask. Elastic APM is also easy to adapt for mostWSGI-compatible web applications via custom integrations_.Your application doesnt live on the web No problem Elastic APM is easy to use inany Python application.Read the documentation_, including instructions on running the tests locally_.If youre interested in contributing, start here_.. _documentation httpswww.elastic.coguideenapmagentpythoncurrentindex.html.. _custom integrations httpswww.elastic.coblogcreating-custom-framework-integrations-with-the-elastic-apm-python-agent.. _running the tests locally httpswww.elastic.coguideenapmagentpythoncurrentrun-tests-locally.html.. _start here httpsgithub.comelasticapm-agent-pythonblobmainCONTRIBUTING.mdLicense-------BSD-3-ClauseMade with  and  by Elastic and our community.</longdescription>
+</pkgmetadata>

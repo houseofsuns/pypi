@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> AWS Lambda Layer with wget[[NPM version](httpsbadge.fury.iojscdk-lambda-layer-wget.svg)](httpsbadge.fury.iojscdk-lambda-layer-wget)[[PyPI version](httpsbadge.fury.iopycdk-lambda-layer-wget.svg)](httpsbadge.fury.iopycdk-lambda-layer-wget)[Release](httpsgithub.comclarencetwcdk-lambda-layer-wgetworkflowsreleasebadge.svg)[[Gitpod Ready-to-Code](httpsimg.shields.iobadgeGitpod-ready--to--code-bluelogogitpod)](httpsgitpod.iohttpsgithub.comclarencetwcdk-lambda-layer-wget)Usagepython WgetLayer bundles the wget in a lambda layerimport { WgetLayer } from cdk-lambda-layer-wgetdeclare const fn lambda.Functionfn.addLayers(new WgetLayer(this, WgetLayer))pythonimport { WgetLayer } from cdk-lambda-layer-wgetimport  as lambda from aws-cdk-libaws-lambdanew lambda.Function(this, MyLambda, {  code lambda.Code.fromAsset(path.join(__dirname, my-lambda-handler)),  handler index.main,  runtime lambda.Runtime.PYTHON_3_9,  layers [new WgetLayer(this, WgetLayer)]})</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[[GitHub Actions](httpsimg.shields.iogithubworkflowstatusflask-extensionsFlask-SimpleLoginTestsstyleflat-square)](httpsgithub.comflask-extensionsFlask-SimpleLoginactionsworkflowstests.yml)[[PyPI](httpsimg.shields.iopypivflask_simplelogin.svgstyleflat-square)](httpspypi.orgprojectflask_simplelogin)[[PyPI versions](httpsimg.shields.iopypipyversionsflask_simplelogin.svgstyleflat-square)](httpspypi.orgprojectflask_simplelogin)[[PyPI formats](httpsimg.shields.iopypiformatflask_simplelogin.svgstyleflat-square)](httpspypi.orgprojectflask_simplelogin)[[Flask](httpsimg.shields.iobadgeFlask-Extension-blue.svgstyleflat-square)](httpsgithub.compalletsflask)[[Documentation](httpsimg.shields.ioreadthedocsflask-simple-loginstyleflat-square)](httpsflask-simple-login.readthedocs.ioenlatestbadgelatest) Login Extension for FlaskThe simplest way to add login to flask How it worksFirst, install it from [PyPI](httpspypi.orgprojectflask_simplelogin)console pip install flask_simpleloginThen, use it in your apppythonfrom flask import Flaskfrom flask_simplelogin import SimpleLoginapp  Flask(__name__)SimpleLogin(app) Thats itNow you have login and logout routes in your application.The username defaults to admin and the password defaults to secret  yeah thats not clever, check the [docs](httpsflask-simple-login.readthedocs.ioenlatestbadgelatest) to see how to configure it properly[Login Screen](.login_screen.png)Check the [documentation](httpsflask-simple-login.readthedocs.ioenlatestbadgelatest) for more details</longdescription>
+</pkgmetadata>

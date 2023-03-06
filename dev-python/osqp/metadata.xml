@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Python interface for OSQP.. image httpsgithub.comoxfordcontrolqdldl-pythonworkflowsBuildbadge.svgbranchmaster   target httpsgithub.comoxfordcontrolosqp-pythonactionsPython wrapper for OSQP httpsosqp.org__ the OperatorSplitting QP Solver.The OSQP (Operator Splitting Quadratic Program) solver is a numericaloptimization package for solving problems in the form    minimize        0.5 x P x + q x    subject to      l  A x  uwhere x in Rn is the optimization variable. The objective functionis defined by a positive semidefinite matrix P in Sn_+ and vectorq in Rn. The linear constraints are defined by matrixA in R{m x n} and vectors l in Rm U {-inf}m,u in Rm U {+inf}m.Documentation-------------The interface is documented here httpsosqp.org__.Packaging---------This repository performs the tests and builds the pypi wheels. Conda packages are on conda-forge httpsgithub.comconda-forgeosqp-feedstock__.</longdescription>
+</pkgmetadata>

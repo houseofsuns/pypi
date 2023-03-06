@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>PyORC.. image httpsdev.azure.comnoirellopyorc_apisbuildstatusnoirello.pyorcbranchNamemaster    target httpsdev.azure.comnoirellopyorc_builddefinitionId1    alt Azure Pipelines Status.. image httpscodecov.ioghnoirellopyorcbranchmastergraphbadge.svg    target httpscodecov.ioghnoirellopyorc    alt Codecov code coverage.. image httpsreadthedocs.orgprojectspyorcbadgeversionlatest    target httpspyorc.readthedocs.ioenlatestbadgelatest    alt Documentation StatusPython module for reading and writing Apache ORC_ file format. It uses the Apache ORCs Core C++ APIunder the hood, and provides a similar interface as the csv module_ in the Python standard library.Supports only Python 3.7 or newer and ORC 1.7.Features--------- Reading ORC files.- Writing ORC files.- While using Pythons streamfile-like object IO interface.That sums up quite well the purpose of this project.Example-------Minimal example for reading an ORC file.. code python        import pyorc        with open(.data.orc, rb) as data            reader  pyorc.Reader(data)            for row in reader                print(row)And another for writing one.. code python        import pyorc        with open(.new_data.orc, wb) as data            with pyorc.Writer(data, structcol0int,col1string) as writer                writer.write((1, ORC from Python))ContributionAny contributions are welcome. If you would like to help in development forkor report issue here on Github. You can also help in improving thedocumentation... _Apache ORC httpsorc.apache.org.. _csv module httpsdocs.python.org3librarycsv.html</longdescription>
+</pkgmetadata>

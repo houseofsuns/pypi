@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Coinbase.. image httpsimg.shields.iopypivcoinbase.svg    target httpspypi.python.orgpypicoinbase.. image httpsimg.shields.iotraviscoinbasecoinbase-pythonmaster.svg    target httpstravis-ci.orgcoinbasecoinbase-python.. image httpsimg.shields.iopypidmcoinbase.svg    target httpspypi.python.orgpypicoinbase.. image httpsimg.shields.iopypiwheelcoinbase.svg    target httpspypi.python.orgpypicoinbase.. image httpsimg.shields.iopypipyversionscoinbase.svg    target httpspypi.python.orgpypicoinbase.. image httpsimg.shields.iopypilcoinbase.svg    target httpspypi.python.orgpypicoinbaseThe official Python library for the Coinbase APIhttpsdevelopers.coinbase.comapi_.Features--------- Near-100 test coverage.- Support for both API Key + Secret httpsdevelopers.coinbase.comapiv2api-key_ and OAuth 2 httpsdevelopers.coinbase.comapiv2oauth2-coinbase-connect_ authentication.- Convenient methods for making calls to the API - packs JSON for you- Automatic parsing of API responses into relevant Python objects.- All objects have tab-completable methods and attributes when using IPython httpipython.org_.For more information, please visit the Github repository httpsgithub.comcoinbasecoinbase-python_.Note this package name used to refer to the unofficial coinbase_pythonlibrary maintained by George Sibble httponepercentbreadsticks.com_ .George graciously allowed us to use the name for this package instead. You canstill find that package on Githubhttpsgithub.comsibblegpcoinbase_python_ . Thanks, George.</longdescription>
+</pkgmetadata>

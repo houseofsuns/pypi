@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Click Spinner[[PyPI](httpsimg.shields.iopypivclick-spinner.svg)](httpspypi.python.orgpypiclick-spinner) [[Build Status](httpstravis-ci.orgclick-contribclick-spinner.svgbranchmaster)](httpstravis-ci.orgclick-contribclick-spinner)Sometimes you would just like to show the user some progress, but a progress bar is not suitable because you dont know how much longer it would take. In these cases you might want to display a simple spinner using the spinner() function.Example usagepywith click_spinner.spinner()        do_something()        do_something_else()It looks like this[spinner](httpscloud.githubusercontent.comassets12881331822982729629cd4-728f-11e6-8007-6c85ac50565c.gif)Spinner class based on on a [gist by cevaris](httpsgist.github.comcevaris79700649f0543584009e).Introduced in [PR 649](httpsgithub.compalletsclickpull649).  Installpip install click-spinnerSupports Python 2.7 and 3. Authors- yoavram- andy-maier- AdrienPensart</longdescription>
+</pkgmetadata>

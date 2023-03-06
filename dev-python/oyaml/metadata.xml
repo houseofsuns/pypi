@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>travis_ coveralls_ pypi_ womm_.. travis image httpsimg.shields.iotraviswimglennoyaml.svgbranchmaster.. _travis httpstravis-ci.orgwimglennoyaml.. coveralls image httpsimg.shields.iocoverallswimglennoyaml.svg.. _coveralls httpscoveralls.iogithubwimglennoyamlbranchmaster.. pypi image httpsimg.shields.iopypivoyaml.svg.. _pypi httpspypi.orgprojectoyaml.. womm image httpscdn.rawgit.comnikkuworks-on-my-machinev0.2.0badge.svg.. _womm httpsgithub.comnikkuworks-on-my-machineoyamloyaml is a drop-in replacement for PyYAML httppyyaml.orgwikiPyYAML_ which preserves dict ordering.  Both Python 2 and Python 3 are supported. Just pip install oyaml, and import as shown below.. code-block python   import oyaml as yamlYoull no longer be annoyed by screwed-up mappings when dumpingloading.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> chromedriver-autoinstallerAutomatically download and install [chromedriver](httpschromedriver.chromium.org) that supports the currently installed version of chrome. This installer supports Linux, MacOS and Windows operating systems. Installationbashpip install chromedriver-autoinstaller UsageJust type import chromedriver_autoinstaller in the module you want to use chromedriver. Examplefrom selenium import webdriverimport chromedriver_autoinstallerchromedriver_autoinstaller.install()   Check if the current version of chromedriver exists                                       and if it doesnt exist, download it automatically,                                       then add chromedriver to pathdriver  webdriver.Chrome()driver.get(httpwww.python.org)assert Python in driver.title</longdescription>
+</pkgmetadata>

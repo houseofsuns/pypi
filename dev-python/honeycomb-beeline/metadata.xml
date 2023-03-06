@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Honeycomb Beeline for Python[[OSS Lifecycle](httpsimg.shields.ioosslifecyclehoneycombiobeeline-pythoncolorsuccess)](httpsgithub.comhoneycombiohomeblobmainhoneycomb-oss-lifecycle-and-practices.md)[[Build Status](httpscircleci.comghhoneycombiobeeline-python.svgstylesvg)](httpsapp.circleci.compipelinesgithubhoneycombiobeeline-python)This package makes it easy to instrument your Python web application to send useful events to [Honeycomb](httpshoneycomb.io), a service for debugging your software in production.- [Usage and Examples](httpsdocs.honeycomb.iogetting-data-inbeelinesbeeline-python)- [API Reference](httpshoneycombio.github.iobeeline-python) Compatible withCurrently, supports Django (3.2), Flask, Bottle, and Tornado.Compatible with Python 3.7. Updating to 3.3.0Version 3.3.0 added support for Environment  Services, which changes sending behavior based on API Key.If you are using the [FileTransmission](httpsgithub.comhoneycombiolibhoney-pyblobmainlibhoneytransmission.pyL448) method and setting a false API key - and still working in Classic mode - you must update the key to be 32 characters in length to keep the same behavior. ContributionsFeatures, bug fixes and other changes to beeline-python are gladly accepted.If you add a new test module, be sure and update beeline.test_suite to pick up the new tests.All contributions will be released under the Apache License 2.0.</longdescription>
+</pkgmetadata>

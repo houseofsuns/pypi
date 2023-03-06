@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>sphinxcontrib-seqdiag.. image httpstravis-ci.orgblockdiagsphinxcontrib-seqdiag.svgbranchmaster   target httpstravis-ci.orgblockdiagsphinxcontrib-seqdiag.. image httpscoveralls.ioreposblockdiagsphinxcontrib-seqdiagbadge.pngbranchmaster   target httpscoveralls.iorblockdiagsphinxcontrib-seqdiagbranchmaster.. image httpscodeclimate.comgithubblockdiagsphinxcontrib-seqdiagbadgesgpa.svg   target httpscodeclimate.comgithubblockdiagsphinxcontrib-seqdiagA sphinx extension for embedding sequence diagram using seqdiag_.This extension enables you to insert sequence diagrams into your document.Following code is an example   .. seqdiag      seqdiag {        browser  webserver  database      }.. _seqdiag httpbitbucket.orgblockdiagseqdiagFor more details, see online documentation_ at httpblockdiag.com... _online documentation httpblockdiag.comenseqdiagsphinxcontrib.html</longdescription>
+</pkgmetadata>

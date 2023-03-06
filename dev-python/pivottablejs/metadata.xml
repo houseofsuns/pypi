@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pivottablejs the Python moduleDragndrop Pivot Tables and Charts for JupyterIPython Notebook_,care of PivotTable.js_Installation------------pip install pivottablejsUsage-----.. code python    import pandas as pd    df  pd.read_csv(some_input.csv)    from pivottablejs import pivot_ui    pivot_ui(df)Advanced Usage--------------Include any option to PivotTable.jss pivotUI() function_ as a keyword argument... code python    pivot_ui(df, rows[row_name], cols[col_name])Independently control the output file path and the URL used to access it from Jupyter, in case the default relative-URL behaviour is incompatible with Jupyters settings... code python    pivot_ui(df, outfile_pathxy.html, urlhttplocalhostabx.html).. _JupyterIPython Notebook httpjupyter.org.. _PivotTable.js httpsgithub.comnicolaskruchtenpivottable.. _option to PivotTable.jss pivotUI() function httpsgithub.comnicolaskruchtenpivottablewikiParametersoptions-object-for-pivotui</longdescription>
+</pkgmetadata>

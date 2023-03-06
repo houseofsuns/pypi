@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>--httpsreadme42.com--[[](httpsimg.shields.iopypivpublic.svgmaxAge3600)](httpspypi.orgprojectpublic)[[](httpsimg.shields.iobadgeLicense-Unlicense-blue.svglongCacheTrue)](httpsunlicense.org) Installationbash [sudo] pip install public Features+   replace [__all__](httpsstackoverflow.comquestions44834can-someone-explain-all-in-python) with public.add decoratorbeforepython__all__  [func]def func()afterpythonimport publicpublic.adddef func() Examplespython import public public.add    def func() pass public.add    class Cls pass __all__[Cls,func] public.add(name) public.add([name1,name2]) __all__[Cls,func,name,name1,name2] Links+   [Importing  From a Package. Python documentation](httpsdocs.python.org3tutorialmodules.htmlimporting-from-a-package)+   [Can someone explain __all__ in Python Stackoverflow](httpsstackoverflow.comquestions44834can-someone-explain-all-in-python)p aligncenter    a hrefhttpsreadme42.comreadme42.comap</longdescription>
+</pkgmetadata>

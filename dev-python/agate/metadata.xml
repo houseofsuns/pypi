@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image httpsgithub.comwireserviceagateworkflowsCIbadge.svg    target httpsgithub.comwireserviceagateactions    alt Build status.. image httpsimg.shields.iopypidmagate.svg    target httpspypi.python.orgpypiagate    alt PyPI downloads.. image httpsimg.shields.iopypivagate.svg    target httpspypi.python.orgpypiagate    alt Version.. image httpsimg.shields.iopypilagate.svg    target httpspypi.python.orgpypiagate    alt License.. image httpsimg.shields.iopypipyversionsagate.svg    target httpspypi.python.orgpypiagate    alt Support Python versionsagate is a Python data analysis library that is optimized for humans instead of machines. It is an alternative to numpy and pandas that solves real-world problems with readable code.agate was previously known as journalism.Important links Documentation    httpagate.rtfd.org Repository       httpsgithub.comwireserviceagate Issues           httpsgithub.comwireserviceagateissues</longdescription>
+</pkgmetadata>

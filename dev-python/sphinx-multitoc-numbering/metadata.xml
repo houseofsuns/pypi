@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> sphinx-multitoc-numbering[[Documentation Status][rtd-badge]][rtd-link][[Github-CI][github-ci]][github-link][[Coverage Status][codecov-badge]][codecov-link]A Sphinx extension to support continuous numbering of sections across multiple tocs in HTML output.This package contains a [Sphinx](httpwww.sphinx-doc.orgenmaster) extension to continuously number sections across multiple toctrees present in the same document. Also quite useful in [jupyter-book](httpsjupyterbook.org) projects for continuous numbering of chapters across different parts. Get startedTo get started with sphinx-multitoc-numbering, first install it through pippip install sphinx-multitoc-numberingthen, add sphinx_multitoc_numbering to your sphinx extensions in the conf.pypython...extensions  [sphinx_multitoc_numbering]... DocumentationSee the [sphinx-multitoc-numbering documentation](httpssphinx-multitoc-numbering.readthedocs.ioenlatest) for more information. ContributingWe welcome all contributions See the [EBP Contributing Guide](httpsexecutablebooks.orgenlatestcontributing.html) for general details.[rtd-badge] httpsreadthedocs.orgprojectssphinx-multitoc-numberingbadgeversionlatest[rtd-link] httpssphinx-multitoc-numbering.readthedocs.ioenlatestbadgelatest[github-ci] httpsgithub.comexecutablebookssphinx-multitoc-numberingworkflowscontinuous-integrationbadge.svgbranchmaster[github-link] httpsgithub.comexecutablebookssphinx-multitoc-numbering[codecov-badge] httpscodecov.ioghexecutablebookssphinx-multitoc-numberingbranchmastergraphbadge.svg[codecov-link] httpscodecov.ioghexecutablebookssphinx-multitoc-numbering</longdescription>
+</pkgmetadata>

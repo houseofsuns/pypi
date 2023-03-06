@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>OpenTelemetry Google Cloud Integration.. image httpsbadge.fury.iopyopentelemetry-exporter-gcp-trace.svg    target httpsbadge.fury.iopyopentelemetry-exporter-gcp-trace.. image httpsreadthedocs.orgprojectsgoogle-cloud-opentelemetrybadgeversionlatest    target httpsgoogle-cloud-opentelemetry.readthedocs.ioenlatestbadgelatest    alt Documentation StatusThis library provides support for exporting traces to Google Cloud Trace.For resource detection and GCP trace context propagation, seeopentelemetry-tools-google-cloudhttpspypi.orgprojectopentelemetry-tools-google-cloud_. For theGoogle Cloud Monitoring exporter, seeopentelemetry-exporter-gcp-monitoringhttpspypi.orgprojectopentelemetry-exporter-gcp-monitoring_.Installation------------.. code bash    pip install opentelemetry-exporter-gcp-traceUsage-----.. code python    from opentelemetry import trace    from opentelemetry.exporter.cloud_trace import CloudTraceSpanExporter    from opentelemetry.sdk.trace import TracerProvider    from opentelemetry.sdk.trace.export import (        SimpleSpanProcessor,    )    trace.set_tracer_provider(TracerProvider())    cloud_trace_exporter  CloudTraceSpanExporter(        project_idmy-gcloud-project,    )    trace.get_tracer_provider().add_span_processor(        SimpleSpanProcessor(cloud_trace_exporter)    )    tracer  trace.get_tracer(__name__)    with tracer.start_as_current_span(foo)        print(Hello world)References---------- Cloud Trace httpscloud.google.comtrace_ OpenTelemetry Project httpsopentelemetry.io_</longdescription>
+</pkgmetadata>

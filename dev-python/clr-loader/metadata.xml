@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> clr-loader[[CI](httpsgithub.compythonnetclr-loaderworkflowsPython20Testsbadge.svg)](httpsgithub.compythonnetclr-loaderactions)[[Pypi](httpsimg.shields.iopypivclr-loader.svg)](httpspypi.orgprojectclr-loader)[[Conda Version](httpsimg.shields.iocondavnconda-forgeclr_loader.svg)](httpsanaconda.orgconda-forgeclr_loader)[[License MIT](httpsimg.shields.iobadgeLicense-MIT-yellow.svg)](httpsopensource.orglicensesMIT)Implements a generic interface for loading one of the CLR (.NET) runtimeimplementations and calling simple functions on them.Documentation is available at httpspythonnet.github.ioclr-loader.</longdescription>
+</pkgmetadata>

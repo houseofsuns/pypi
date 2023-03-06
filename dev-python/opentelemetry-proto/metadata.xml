@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>OpenTelemetry Python Protopypi.. pypi image httpsbadge.fury.iopyopentelemetry-proto.svg   target httpspypi.orgprojectopentelemetry-protoThis library contains the generated code for OpenTelemetry protobuf data model. The code in the currentpackage was generated using the v0.17.0 release_ of opentelemetry-proto... _release httpsgithub.comopen-telemetryopentelemetry-protoreleasestagv0.17.0Installation------------    pip install opentelemetry-protoCode Generation---------------These files were generated automatically from code in opentelemetry-proto_.To regenerate the code, run ..scriptsproto_codegen.sh.To build against a new release or specific commit of opentelemetry-proto_,update the PROTO_REPO_BRANCH_OR_COMMIT variable in..scriptsproto_codegen.sh. Then run the script and commit the changesas well as any fixes needed in the OTLP exporter... _opentelemetry-proto httpsgithub.comopen-telemetryopentelemetry-protoReferences---------- OpenTelemetry Project httpsopentelemetry.io_ OpenTelemetry Proto httpsgithub.comopen-telemetryopentelemetry-proto_ proto_codegen.sh script httpsgithub.comopen-telemetryopentelemetry-pythonblobmainscriptsproto_codegen.sh_</longdescription>
+</pkgmetadata>

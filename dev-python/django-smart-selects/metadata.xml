@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Django Smart Selects[[Jazzband](httpsjazzband.costaticimgbadge.svg)](httpsjazzband.co)[[Build Status](httpsgithub.comjazzbanddjango-smart-selectsworkflowsTestbadge.svg)](httpsgithub.comjazzbanddjango-smart-selectsactions)[[Coverage Status](httpscodecov.ioghjazzbanddjango-smart-selectsbranchmastergraphbadge.svg)](httpscodecov.ioghjazzbanddjango-smart-selects)[[PyPI](httpsimg.shields.iopypivdjango-smart-selects.svg)](httpspypi.orgprojectdjango-smart-selects)This package allows you to quickly filter or group chained models by adding a custom foreign key or many to many field to your models. This will use an AJAX query to load only the applicable chained objects.Works with Django version 2.2 to 4.0.Warning The AJAX endpoint enforces no permissions by default.  This means that any model with a chained field will be world readable. If you would like more control over this permission, the [django-autocomplete-light](httpsgithub.comyourlabsdjango-autocomplete-light) package is a great, high-quality package that enables the same functionality with permission checks. DocumentationFor more information on installation and configuration see the documentation athttpsdjango-smart-selects.readthedocs.io Reporting issues  sending PRsYou can try the test_app example usingshellpython manage.py migratepython manage.py loaddata test_appfixturespython manage.py runserverThen login with adminadmin at http127.0.0.18000admin TODO Add permission checks to enable users to restrict who can use the chained fields. Add a ChainedCheckboxSelectMultiple widget and adjust chainedm2m.js and chainedfk.js to build checkboxes in that case</longdescription>
+</pkgmetadata>

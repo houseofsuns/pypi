@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>OpenTelemetry Zipkin Protobuf Exporterpypi.. pypi image httpsbadge.fury.iopyopentelemetry-exporter-zipkin-proto-http.svg   target httpspypi.orgprojectopentelemetry-exporter-zipkin-proto-httpThis library allows export of tracing data to Zipkin httpszipkin.io_ using Protobuffor serialization.Installation------------     pip install opentelemetry-exporter-zipkin-proto-httpReferences---------- OpenTelemetry Zipkin Exporter httpsopentelemetry-python.readthedocs.ioenlatestexporterzipkinzipkin.html_ Zipkin httpszipkin.io_ OpenTelemetry Project httpsopentelemetry.io_</longdescription>
+</pkgmetadata>

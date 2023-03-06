@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image httpstravis-ci.orgwbolsterjsonlines.svgbranchmaster   target httpstravis-ci.orgwbolsterjsonlines.. image httpspepy.techbadgejsonlines   target httpspepy.techprojectjsonlines.. image httpspepy.techbadgejsonlinesmonth   target httpspepy.techprojectjsonlines.. image httpsanaconda.organacondaanacondabadgesinstallerconda.svg   target httpsanaconda.organacondajsonlinesjsonlinesjsonlines is a Python library to simplify working with jsonlines_and ndjson_ data... _jsonlines httpjsonlines.org.. _ndjson httpndjson.org Documentation httpsjsonlines.readthedocs.io Python Package Index (PyPI) httpspypi.python.orgpypijsonlines Source code and issue tracker httpsgithub.comwbolsterjsonlines</longdescription>
+</pkgmetadata>

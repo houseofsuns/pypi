@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> mdit-py-plugins[[Github-CI][github-ci]][github-link][[Coverage Status][codecov-badge]][codecov-link][[PyPI][pypi-badge]][pypi-link][[Conda][conda-badge]][conda-link][[Code style black][black-badge]][black-link]Collection of core plugins for [markdown-it-py](httpsgithub.comexecutablebooksmarkdown-it-py).[github-ci] httpsgithub.comexecutablebooksmdit-py-pluginsworkflowscontinuous-integrationbadge.svg[github-link] httpsgithub.comexecutablebooksmdit-py-plugins[pypi-badge] httpsimg.shields.iopypivmdit-py-plugins.svg[pypi-link] httpspypi.orgprojectmdit-py-plugins[conda-badge] httpsanaconda.orgconda-forgemdit-py-pluginsbadgesversion.svg[conda-link] httpsanaconda.orgconda-forgemdit-py-plugins[codecov-badge] httpscodecov.ioghexecutablebooksmdit-py-pluginsbranchmastergraphbadge.svg[codecov-link] httpscodecov.ioghexecutablebooksmdit-py-plugins[black-badge] httpsimg.shields.iobadgecode20style-black-000000.svg[black-link] httpsgithub.comambvblack[install-badge] httpsimg.shields.iopypidwmdit-py-pluginslabelpypi20installs[install-link] httpspypistats.orgpackagesmdit-py-plugins</longdescription>
+</pkgmetadata>

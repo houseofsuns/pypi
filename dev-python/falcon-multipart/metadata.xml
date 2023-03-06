@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[[Build Status](httpstravis-ci.orgyohanbonifacefalcon-multipart.svgbranchmaster)](httpstravis-ci.orgyohanbonifacefalcon-multipart) Parse multipartform-data requests in FalconInstall    pip install falcon-multipart UsageAdd the MultipartMiddleware to your api middlewares    from falcon_multipart.middleware import MultipartMiddleware    api  falcon.API(middleware[MultipartMiddleware()])This will parse any multipartform-data incoming request, and put the keysin req._params, including files, so you get the field as other params.Dealing with filesFiles will be available as [cgi.FieldStorage](httpsdocs.python.org3librarycgi.html),with following main parameters- file act as a python file, you can call read() on it, and you will  retrieve content (as bytes)- filename the filename, if given- value the file content in bytes- type the content-type, or None if not specified- disposition content-disposition, or None if not specifiedExample    Say you have a form with those fields     - title  a string     - image  an image file    def on_post(req, resp, kwargs)        title  req.get_param(title)        image  req.get_param(image)        Read image as binary        raw  image.file.read()         Retrieve filename        filename  image.filename</longdescription>
+</pkgmetadata>

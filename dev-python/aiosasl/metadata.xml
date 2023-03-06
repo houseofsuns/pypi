@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>aiosasl, pure python generic asyncio SASL library.. image httpsgithub.comhorazontaiosaslworkflowsCIbadge.svg  target httpsgithub.comhorazontaiosaslactionsqueryworkflow3ACI+branch3Adevel.. image httpscoveralls.ioreposgithubhorazontaiosaslbadge.svgbranchdevel  target httpscoveralls.iogithubhorazontaiosaslbranchdevelaiosasl provides a generic, asyncio-based SASL library. It can be used withany protocol, provided the neccessary interface code is provided by theapplication or protocol implementation.Dependencies------------ Python  3.5Supported SASL mechanisms------------------------- PLAIN authenticate with plaintext password (RFC 4616) ANONYMOUS anonymous authentication (RFC 4505) SCRAM-SHA-1 and SCRAM-SHA-256 (and the -PLUS variants with  channel binding) Salted Challenge Response Authentication (RFC 5802)Documentation-------------Official documentation can be built with sphinx and is available onlineon our servers httpsdocs.zombofant.netaiosasl0.5_.Supported channel binding methods--------------------------------- tls-unique and tls-server-end-point with a pyOpenSSL connection all methods supported by the Python standard library when using the  ssl module</longdescription>
+</pkgmetadata>

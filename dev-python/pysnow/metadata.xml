@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> ______   __  __    ______    __   __    ______    __     __     _     ___   -.     __      _     _-  ____   ___     -.          .   _    _____ _____  __  _____  __._  _     _____  _____  _ _  _____  _   _- Python library for ServiceNow[[image](httpstravis-ci.orgrbwpysnow.svgbranchmaster)](httpstravis-ci.orgrbwpysnow)[[image](httpscoveralls.ioreposgithubrbw0pysnowbadge.svgbranchmaster)](httpscoveralls.iogithubrbw0pysnowbranchmaster)[[image](httpsbadge.fury.iopypysnow.svg)](httpspypi.python.orgpypipysnow)[[image](httpsimg.shields.iobadgeLicense-MIT-green.svg)](httpsopensource.orglicensesMIT)[[image](httpspepy.techbadgepysnowmonth)](httpspepy.techprojectpysnow)Documentation---The documentation is available at [httpspysnow.readthedocs.io](httpspysnow.readthedocs.io)Development status---The development status of pysnow is stable maintenence will be performed, but no new features added.New features goes into [rbwaiosnow](httpsgithub.comrbwaiosnow) a modern, asynchronous library for interacting with ServiceNow.Author---Robert Wikman rbwvault13.orgCredits---Thank you [contributors](httpsgithub.comrbwpysnowgraphscontributors), and [Jetbrains](httpwww.jetbrains.com) for IDE licenses.</longdescription>
+</pkgmetadata>

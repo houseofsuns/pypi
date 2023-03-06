@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>p aligncenter  img srchttpsi2.wp.comgooglediscovery.comwp-contentuploadsgoogle-developers.png altLogo titleAiogoogle height150 width200  p aligncenter    a hrefhttpsgithub.comomarryhanaiogoogleactionsqueryworkflow3ACIimg altBuild Status srchttpsgithub.comomarryhanaiogoogleworkflowsCIbadge.svga    a hrefhttpsgithub.comomarryhanaiogoogleimg altSoftware License srchttpsimg.shields.iobadgelicense-MIT-brightgreen.svgstyleflat-squarea    a hrefhttpsgithub.compythonblackimg altCode style black srchttpsimg.shields.iobadgecode20style-black-000000.svg a    a hrefhttpspepy.techbadgeaiogoogleimg altDownloads srchttpspepy.techbadgeaiogooglea    a hrefhttpspepy.techbadgeaiogooglemonthimg altMonthly Downloads srchttpspepy.techbadgeaiogooglemontha  pp AiogoogleAsync Google API clientAiogoogle makes it possible to access most of Googles public APIs which include- Google Calendar API- Google Drive API- Google Contacts API- Gmail API- Google Maps API- Youtube API- Translate API- Google Sheets API- Google Docs API- Gogle Analytics API- Google Books API- Google Fitness API- Google Genomics API- Google Cloud Storage- Kubernetes Engine API- And [more](httpsdevelopers.google.comapis-explorer) Documentation You can find the documentation [here](httpsaiogoogle.readthedocs.ioenlatest).</longdescription>
+</pkgmetadata>

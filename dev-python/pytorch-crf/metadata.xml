@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pytorch-crfConditional random field in PyTorch httppytorch.org_... image httpsbadge.fury.iopypytorch-crf.svg   target httpsbadge.fury.iopypytorch-crf.. image httpstravis-ci.orgkmkurnpytorch-crf.svgbranchmaster   target httpstravis-ci.orgkmkurnpytorch-crf.. image httpscoveralls.ioreposgithubkmkurnpytorch-crfbadge.svgbranchmaster   target httpscoveralls.iogithubkmkurnpytorch-crfbranchmaster.. image httpscdn.rawgit.comsyl20bnrspacemacs442d025779da2f62fc86c2082703697714db6514assetsspacemacs-badge.svg   target httpspacemacs.orgThis package provides an implementation of conditional random fieldhttpsen.wikipedia.orgwikiConditional_random_field_ (CRF) in PyTorch.This implementation borrows mostly from AllenNLP CRF modulehttpsgithub.comallenaiallennlpblobmasterallennlpmodulesconditional_random_field.py_ with some modifications.Documentationhttpspytorch-crf.readthedocs.ioLicenseMITContributingContributions are welcome Please follow these instructions to installdependencies and running the tests and linter.Installing dependencies-----------------------Make sure you setup a virtual environment with Python and PyTorchinstalled. Then, install all the dependencies in requirements.txt file andinstall this package in development mode.    pip install -r requirements.txt    pip install -e .Setup pre-commit hook---------------------Simply run    ln -s ....pre-commit.sh .githookspre-commitRunning tests-------------Run pytest in the project root directory.Running linter--------------Run flake8 in the project root directory. This will also run mypy,thanks to flake8-mypy package.</longdescription>
+</pkgmetadata>

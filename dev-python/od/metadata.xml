@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>od.. image httpsgithub.comepsyodactionsworkflowsci.ymlbadge.svgbranchmaster   target httpsgithub.comepsyodactionsworkflowsci.yml.. image httpscoveralls.ioreposgithubepsyodbadge.svgbranchmaster   target httpscoveralls.iogithubepsyodbranchmasterThe od package adds a shorthand syntax to create instances of OrderedDicthttpsdocs.python.org3librarycollections.htmlcollections.OrderedDict_     import od         od[cat fish, mouse cheese]    OrderedDict([(cat, fish), (mouse, cheese)])     od[mouse cheese, cat fish]    OrderedDict([(mouse, cheese), (cat, fish)])You can also use it like the regular constructor for OrderedDict     od()    OrderedDict()     an_iterable  [(cat, fish), (mouse, cheese)]     od(an_iterable)    OrderedDict([(cat, fish), (mouse, cheese)])Install this package using pip httpspip.pypa.ioenstableinstalling_     pip install --user od</longdescription>
+</pkgmetadata>

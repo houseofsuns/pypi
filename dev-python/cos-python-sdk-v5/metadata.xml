@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Qcloud COSv5 SDK.. image httpsimg.shields.iopypivcos-python-sdk-v5.svg   target httpspypi.orgsearchqcos-python-sdk-v5   alt Pypi.. image httpsapi.travis-ci.comtencentyuncos-python-sdk-v5.svgbranchmaster   target httpsapp.travis-ci.comgithubtencentyuncos-python-sdk-v5   alt Travis CI _______COSV5Python SDK, Python2.6Python2.7Python3.x__________pip     pip install -U cos-python-sdk-v5    python setup.py install__________python sdk httpsgithub.comtencentyuncos-python-sdk-v5blobmasterdemodemo.pycos httpscloud.tencent.comdocumentproduct4366224python sdk  httpscloud.tencent.comdocumentproduct43612269python sdk  httpscloud.tencent.comdocumentproduct43612270</longdescription>
+</pkgmetadata>

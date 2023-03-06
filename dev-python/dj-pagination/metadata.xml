@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> dj-pagination[[httpstravis-ci.orgpydannydj-pagination](httpstravis-ci.orgpydannydj-pagination.svgbranchmaster)](httpstravis-ci.orgpydannydj-pagination)[[httpscodecov.iogithubpydannydjango-paginationbranchmaster](httpscodecov.ioghpydannydj-paginationbranchmastergraphsbadge.svgbranchmasterservicegithub)](httpscodecov.ioghpydannydj-pagination) How to use dj-paginationSee our official documentation for more details.httpdj-pagination.readthedocs.io Support this ProjectThis project is run by a voluntees. Please support them in their efforts to maintain and improve Cookiecutter Django [pydanny on GitHub](httpsgithub.comsponsorspydanny)Projects that provide financial support to the maintainer- [Django Crash Course 3.x](httpswww.feldroy.comproductsdjango-crash-course)- [Two Scoops of Django 3.x](httpswww.feldroy.comproductstwo-scoops-of-django-3-x) About the forkThis project is a fork of the django-pagination projectoriginally written by Eric Florenzano then forked by the LinaroValidationInfrastructure team. Latest releases can be found on pypi. About top-level package name changeThe top level package name was changed from pagination tolinaro_django_pagination to dj_pagination. Following the Linaro patternI did this to ensure that existing users of the original package could easilytransition, on their own terms. Since both packages are co-installable youare free to check things out and see if the new pagination code works well foryou or not.Since the implementation of the actual tags were rewritten since thedjango-pagination days its fairly certain the new package is a NOT adrop-in replacement.</longdescription>
+</pkgmetadata>

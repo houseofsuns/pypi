@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>cssselect CSS Selectors for Python.. image httpsimg.shields.iopypivcssselect.svg   target httpspypi.python.orgpypicssselect   alt PyPI Version.. image httpsimg.shields.iopypipyversionscssselect.svg   target httpspypi.python.orgpypicssselect   alt Supported Python Versions.. image httpsgithub.comscrapycssselectactionsworkflowstests.ymlbadge.svg   target httpsgithub.comscrapycssselectactionsworkflowstests.yml   alt Tests.. image httpsimg.shields.iocodecovcgithubscrapycssselectmaster.svg   target httpscodecov.iogithubscrapycssselectbranchmaster   alt Coverage reportcssselect is a BSD-licensed Python library to parse CSS3 selectors_ andtranslate them to XPath 1.0_ expressions.XPath 1.0_ expressions can be used in lxml_ or another XPath engine to findthe matching elements in an XML or HTML document.Find the cssselect online documentation at httpscssselect.readthedocs.io.Quick facts Source, issues and pull requests on GitHub  httpsgithub.comscrapycssselect_ Releases on PyPI httpspypi.orgprojectcssselect_ Install with pip install cssselect.. _CSS3 selectors httpswww.w3.orgTRselectors-3.. _XPath 1.0 httpswww.w3.orgTRxpathall.. _lxml httpslxml.de</longdescription>
+</pkgmetadata>

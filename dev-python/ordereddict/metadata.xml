@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Drop-in substitute for Py2.7s new collections.OrderedDict. The recipe has big-oh performance that matches regular dictionaries (amortized O(1) insertiondeletionlookup and O(n) iterationreprcopyequality_testing).Originally based on httpcode.activestate.comrecipes576693</longdescription>
+</pkgmetadata>

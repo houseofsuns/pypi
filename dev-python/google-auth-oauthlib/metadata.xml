@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>oauthlib integration for Google AuthpypiThis library provides oauthlib_ integration with google-auth_... build image httpstravis-ci.orggoogleapisgoogle-auth-library-python-oauthlib.svgbranchmain   target httpsgoogleapis.devpythongoogle-auth-oauthliblatestindex.html.. pypi image httpsimg.shields.iopypivgoogle-auth-oauthlib.svg   target httpspypi.python.orgpypigoogle-auth-oauthlib.. _oauthlib httpsgithub.comidanoauthlib.. _google-auth httpsgithub.comgoogleapisgoogle-auth-library-pythonInstalling----------You can install using pip_     pip install google-auth-oauthlib.. _pip httpspip.pypa.ioenstableDocumentation-------------The latest documentation is available at google-auth-oauthlib.googleapis.dev_... _google-auth-oauthlib.googleapis.dev httpsgoogleapis.devpythongoogle-auth-oauthliblatestindex.htmlSupported Python Versions-------------------------Python  3.6Unsupported Python Versions---------------------------Python  2.7, Python  3.5.The last version of this library compatible with Python 2.7 and 3.5 isgoogle-auth-oauthlib0.4.1.License-------Apache 2.0 - See the LICENSE_ for more information... _the LICENSE httpsgithub.comgoogleapisgoogle-auth-library-python-oauthlibblobmainLICENSE</longdescription>
+</pkgmetadata>

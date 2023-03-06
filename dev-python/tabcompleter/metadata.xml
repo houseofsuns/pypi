@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> tabcompleter () [[](httpsimg.shields.iopypivtabcompleter.svg)](httpspypi.python.orgpypitabcompleter)img width550 alttabcompleter srchttpsuser-images.githubusercontent.com6788579204385233-838cbfbf-6ec7-4b45-812c-d0c2556a82e8.png[tabcompleter](httpsgithub.commdmintztabcompleter) is a friendly fork of the (unmaintained) [fancycompleter](httpsgithub.compdbppfancycompleter) package.tabcompleter lets you use the Tab key to expand and autocomplete options in the Python console. Installationbashpip install tabcompleter Usagepythonimport tabcompletertabcompleter.interact(persist_historyTrue) Now use the Tab key in the Python consoleAn example of using the Tab key to see all possibilitiesimg width550 alttabcompleter srchttpsuser-images.githubusercontent.com6788579204386211-5fc44f73-e29f-4e87-b0ca-bb8ea69217af.png More examplestabcompleter is used by packages such as pdbp and seleniumbase httpspypi.orgprojectpdbp httpsgithub.commdmintzpdbp httpspypi.orgprojectseleniumbase httpsgithub.comseleniumbaseSeleniumBase--------img width550 alttabcompleter srchttpsuser-images.githubusercontent.com6788579204411997-34d199c6-4a84-4fb4-96ec-8e3ed6374ece.png--------(tabcompleter is maintained by the [SeleniumBase Dev Team](httpsgithub.comseleniumbaseSeleniumBase))</longdescription>
+</pkgmetadata>

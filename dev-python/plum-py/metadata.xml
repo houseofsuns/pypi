@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[plum] PackUnpack Memory.. image httpsreadthedocs.orgprojectsplum-pybadgeversionlatest    target httpsplum-py.readthedocs.ioenlatestbadgelatest    alt Documentation StatusThe plum-py Python package provides classes and utility functions totransform byte sequences into Python objects and back. While similar inpurpose to Pythons standard library struct module, this packageprovides a larger set of format specifiers and is extensible, allowingyou to easily create complex ones of your own.</longdescription>
+</pkgmetadata>

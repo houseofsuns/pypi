@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Tools for injecting arbitrary code into running Python processes.homepage httppyrasite.comdocumentation httppyrasite.rtfd.orgdownload httppypi.python.orgpypipyrasitesource httpgithub.comlmackenpyrasitescreenshots httpreadthedocs.orgdocspyrasiteenlatestGUI.htmlmailing list httpsfedorahosted.orgmailmanlistinfopyrasitejenkins httpci.csh.rit.eduviewPyrasiteirc pyrasite on FreenodeRequirements  gdb httpswww.gnu.orgsgdb_ (version 7.3+ (or RHEL5+))CompatiblityPyrasite works with Python 2.4 and newer. Injection works between versionsas well, so you can run Pyrasite under Python 3 and inject into 2, andvice versa.pyrasite-guiThe graphical interface can be found here httpsgithub.comlmackenpyrasite-gui.. image httplewk.orgimgpyrasitepyrasite-info-thumb.pngAuthorsCreated by Luke Macken httptwitter.comlmacken_ with the help ofDavid Malcolm httpdmalcolm.livejournal.com_ and many othercontributors httpsgithub.comlmackenpyrasitecontributors_.License.. image httpswww.gnu.orggraphicsgplv3-127x51.png   target httpswww.gnu.orglicensesgpl.txt</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Google Reauth Python Librarybuild pypiThis library provides Reauth support to Googles authentication libraries forPython. Reauth allows using two-factor authentication for end-user credentials.Other than for reference purposes, this library is of little use to non-Googledevelopers... build image httpstravis-ci.orgGooglegoogle-reauth-python.svgbranchmaster   target httpstravis-ci.orgGooglegoogle-reauth-python.. pypi image httpsimg.shields.iopypivgoogle-reauth.svg   target httpspypi.python.orgpypigoogle-reauthInstalling----------You can install using pip_     pip install google-reauth.. _pip httpspip.pypa.ioenstableFor more information on setting up your Python development environment, please refer to Python Development Environment Setup Guide_ for Google Cloud Platform... _Python Development Environment Setup Guide httpscloud.google.compythonsetupContributing------------As mentioned in the beginning, this library is not generally consumable innon-Google applications. However, if you are still inteested in contributing toit, please see CONTRIBUTING.rst_ for more information on how to get started... _CONTRIBUTING.rst httpsgithub.comGoogleCloudPlatformgoogle-auth-library-pythonblobmasterCONTRIBUTING.rstLicense-------Apache 2.0 - See the LICENSE_ for more information... _the LICENSE httpsgithub.comGoogleCloudPlatformgoogle-auth-library-pythonblobmasterLICENSE</longdescription>
+</pkgmetadata>

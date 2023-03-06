@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Pure Python GeoIP APIThis library is based on Maxminds GeoIP C API httpsgithub.commaxmindgeoip-api-c__.Tested with Python version 2.6, 2.7, 3.2, 3.3 and 3.4.Installation------------You can easily install pygeoip from PyPi... code python    pip install pygeoipIssues and Contribution-----------------------Bug reports are done by creating an issue onGithub httpsgithub.comappliedsecpygeoipissues__. If you want tocontribute you can always create a pullrequest httpsgithub.comappliedsecpygeoippulls__ for discussionand code submission.Documentation-------------For more information, check out the documentation httppygeoip.readthedocs.org__ over at Read the Docs.</longdescription>
+</pkgmetadata>

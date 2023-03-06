@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>python-dlinfoPython wrapper for libcs dlinfoInstall-------.. code sh   pip install dlinfo    or   pipenv install dlinfoUsage-----.. code python    from dlinfo import DLInfo    lib  ctypes.cdll.LoadLibrary(ctypes.util.find_library(c))    dlinfo  DLInfo(lib)    dlinfo.path   libx86_64-linux-gnulibc.so.6</longdescription>
+</pkgmetadata>

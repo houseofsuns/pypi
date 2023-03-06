@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> botocore-stubs[[PyPI - botocore-stubs](httpsimg.shields.iopypivbotocore-stubs.svgcolorbluelabelbotocore-stubs)](httpspypi.orgprojectbotocore-stubs)[[PyPI - botocore](httpsimg.shields.iopypivbotocore.svgcolorbluelabelbotocore)](httpspypi.orgprojectbotocore)[[PyPI - Python Version](httpsimg.shields.iopypipyversionsbotocore-stubs.svgcolorblue)](httpspypi.orgprojectbotocore-stubs)[[PyPI - Downloads](httpsimg.shields.iopypidmbotocore-stubscolorblue)](httpspypistats.orgpackagesbotocore-stubs)[boto3.typed](httpsgithub.comyoutypemypy_boto3_builderrawmainlogo.png)Type annotations and code completion for [botocore](httpspypi.orgprojectbotocore) package.This package is a part of [mypy_boto3_builder](httpsgithub.comyoutypemypy_boto3_builder) project. Installationbashpython -m pip install botocore-stubs UsageUse [mypy](httpsgithub.compythonmypy) or [pyright](httpsgithub.commicrosoftpyright) for type checking. Latest changesFull changelog can be found in [Releases](httpsgithub.comyoutypebotocore-stubsreleases). Versioningbotocore-stubs version is the same as related botocore version and follows[PEP 440](httpswww.python.orgdevpepspep-0440) format. Support and contributingPlease reports any bugs or request new features in[botocore-stubs](httpsgithub.comyoutypebotocore-stubsissues) repository.</longdescription>
+</pkgmetadata>

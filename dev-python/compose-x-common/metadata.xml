@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Compose-X -- Common.. image httpsimg.shields.iopypivcompose_x_common.svg        target httpspypi.python.orgpypicompose_x_common.. image httpsreadthedocs.orgprojectscompose-x-commons-libbadgeversionlatest        target httpscompose-x-commons-lib.readthedocs.ioenlatestversionlatest        alt Documentation StatusStandalone library of reusable functions Free software MPL-2.0 Documentation httpscompose-x-common.readthedocs.io.</longdescription>
+</pkgmetadata>

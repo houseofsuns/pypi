@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Django RatelimitDjango Ratelimit provides a decorator to rate-limit views. Limiting canbe based on IP address or a field in the request--either a GET or POSTvariable... image httpsgithub.comjsocoldjango-ratelimitworkflowstestbadge.svgbranchmain   target httpsgithub.comjsocoldjango-ratelimitactionsCode          httpsgithub.comjsocoldjango-ratelimitLicense       Apache Software License 2.0 see LICENSE fileIssues        httpsgithub.comjsocoldjango-ratelimitissuesDocumentation httpdjango-ratelimit.readthedocs.io</longdescription>
+</pkgmetadata>

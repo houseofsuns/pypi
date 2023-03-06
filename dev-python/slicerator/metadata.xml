@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Sliceratora lazy-loading, fancy-slicable iterableThink of it like a generator that is reusable and has a length.[Please see the documentation](httpslicerator.readthedocs.ioenlatest) for examples and an API reference.[[build status](httpstravis-ci.orgsoft-matterslicerator.pngbranchmaster)](httpstravis-ci.orgsoft-matterslicerator) [[Documentation Status](httpsreadthedocs.orgprojectssliceratorbadgeversionlatest)](httpslicerator.readthedocs.ioenlatestbadgelatest)Installation------------On any platform, use pip or conda.pip install sliceratororconda install -c conda-forge sliceratorExample-------pythonfrom slicerator import SliceratorSlicerator.from_classclass MyLazyLoader    def __getitem__(self, i)         this method will be wrapped by Slicerator, so that it accepts slices,         lists of integers, or boolean masks. Code below will only be executed         when an integer is used.         load thing number i        return thing    def __len__(self)         do stuff        return number_of_things Demo a  MyLazyLoader() s1  a[2]   no data is loaded yet s2  s1[1]   no data is loaded yet some_data  s2[0]</longdescription>
+</pkgmetadata>

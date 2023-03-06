@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Pytools Lots of Little Utilities.. image httpsgitlab.tiker.netinducerpytoolsbadgesmainpipeline.svg    alt Gitlab Build Status    target httpsgitlab.tiker.netinducerpytoolscommitsmain.. image httpsgithub.cominducerpytoolsworkflowsCIbadge.svgbranchmaineventpush    alt Github Build Status    target httpsgithub.cominducerpytoolsactionsquerybranch3Amain+workflow3ACI+event3Apush.. image httpsbadge.fury.iopypytools.png    alt Python Package Index Release Page    target httpspypi.orgprojectpytools.. image httpszenodo.orgbadge1575270.svg    alt Zenodo DOI for latest release    target httpszenodo.orgbadgelatestdoi1575270Pytools is a big bag of things that are missing from the Python standardlibrary. This is mainly a dependency of my other software packages, and isprobably of little interest to you unless you use those. If youre curiousnonetheless, heres whats on offer A ton of small tool functions such as len_iterable, argmin,  tuple generation, permutation generation, ASCII table pretty printing,  GvRs monkeypatch_xxx() hack, the elusive flatten, and much more. A time-series logging module, pytools.log. Batch job submission, pytools.batchjob. A lexer, pytools.lex.Links Documentation httpsdocumen.tician.depytools_ Github httpsgithub.cominducerpytools_ pytools.log has been spun out into a separate project,  logpyle httpsgithub.comillinois-ceesdlogpyle__.</longdescription>
+</pkgmetadata>

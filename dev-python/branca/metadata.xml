@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[[PyPI Package](httpsimg.shields.iopypivbranca.svg)](httpspypi.python.orgpypibranca)[[Build Status](httpsgithub.compython-visualizationbrancaactionsworkflowstest_code.ymlbadge.svgbranchmaster)](httpsgithub.compython-visualizationbrancaactionsworkflowstest_code.yml)[[Gitter](httpsbadges.gitter.impython-visualizationfolium.svg)](httpsgitter.impython-visualizationfolium) BrancaThis library is a spinoff from [folium](httpsgithub.compython-visualizationfolium). It can be used to generate HTML + JS. It is based on Jinja2.- Documentation httpspython-visualization.github.iobranca- Examples httpsnbviewer.orggithubpython-visualizationbrancatreemainexamples</longdescription>
+</pkgmetadata>

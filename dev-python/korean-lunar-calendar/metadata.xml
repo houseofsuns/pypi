@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>korean_lunar_calendar_py  OverviewHere is a library to convert Korean lunar-calendar to Gregoriancalendar.Korean calendar and Chinese calendar is same lunar calendar but havedifferent date.This follow the KARI(Korea Astronomy and Space Science Institute)   ( ) -     1000 01 01  2050 11 18   1000 02 13  2050 12 31     Gregorian calendar (1000-02-13  2050-12-31) -- Korean lunar-calendar (1000-01-01  2050-11-18)Installpip install korean_lunar_calendarTo use(0) import module    .. code python        from korean_lunar_calendar import KoreanLunarCalendar(1) Korean Solar Date - Korean Lunar Date (- )    .. code python        calendar  KoreanLunarCalendar()         params  year(), month(), day()        calendar.setSolarDate(2017, 6, 24)         Lunar Date (ISO Format)        print(calendar.LunarIsoFormat())         Korean GapJa String        print(calendar.getGapJaString())         Chinese GapJa String        print(calendar.getChineseGapJaString())    [Result]    2017-05-01 Intercalation       ()       ()(2) Korean Lunar Date - Korean Solar Date (- )    .. code python         params  year(), month(), day(), intercalation()        calendar.setLunarDate(1956, 1, 21, False)         Solar Date (ISO Format)        print(calendar.SolarIsoFormat())         Korean GapJa String        print(calendar.getGapJaString())         Chinese GapJa String        print(calendar.getChineseGapJaString())    [Result]    1956-03-03            </longdescription>
+</pkgmetadata>

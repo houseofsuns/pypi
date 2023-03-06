@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Pandas Data Types for SQL systems (BigQuery, Spanner)ga pypi versionsPandas extension data types_ for data from SQL systems such as BigQuery_.- Library Documentation_.. ga image httpsimg.shields.iobadgesupport-GA-gold.svg   target httpsgithub.comgoogleapisgoogle-cloud-pythonblobmainREADME.rstgeneral-availability.. pypi image httpsimg.shields.iopypivdb-dtypes.svg   target httpspypi.orgprojectdb-dtypes.. versions image httpsimg.shields.iopypipyversionsdb-dtypes.svg   target httpspypi.orgprojectdb-dtypes.. _Pandas extension data types httpspandas.pydata.orgpandas-docsstableecosystem.htmlecosystem-extensions.. _BigQuery httpscloud.google.combigquerydocs.. _Library Documentation httpsgoogleapis.devpythondb-dtypeslatestInstallation------------Install this library in a virtualenv_ using pip. virtualenv_ is a tool tocreate isolated Python environments. The basic problem it addresses is one ofdependencies and versions, and indirectly permissions.With virtualenv_, its possible to install this library without needing systeminstall permissions, and without clashing with the installed systemdependencies... _virtualenv httpsvirtualenv.pypa.ioenlatestSupported Python VersionsPython  3.7Unsupported Python VersionsPython  3.6.MacLinux.. code-block console    pip install virtualenv    virtualenv your-env    source your-envbinactivate    your-envbinpip install db-dtypesWindows.. code-block console    pip install virtualenv    virtualenv your-env    your-envScriptsactivate    your-envScriptspip.exe install db-dtypes</longdescription>
+</pkgmetadata>

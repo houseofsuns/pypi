@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Jupyter Notebook as a Jupyter Server Extension[Testing nbclassic](httpsgithub.comjupyterlabnbclassicworkflowsTesting20nbclassicbadge.svg)[[Documentation Status](httpsreadthedocs.orgprojectsnbclassicbadgeversionlatest)](httpsnbclassic.readthedocs.ioenlatestbadgelatest)NBClassic runs the [Jupyter NbClassic](httpsgithub.comjupyternbclassic) frontend on the Jupyter Server backend.This project prepares for a future where JupyterLab and other frontends switch to [Jupyter Server](httpsgithub.comjupyterjupyter_server) for their Python Web application backend. Using this package, users can launch Jupyter NbClassic, JupyterLab and other frontends side-by-side on top of the new Python server backend. Basic UsageInstall from PyPI pip install nbclassicThis will automatically enable the extension in Jupyter Server.Launch directly jupyter nbclassicAlternatively, you can run Jupyter Server and visiting the tree endpoint jupyter server</longdescription>
+</pkgmetadata>

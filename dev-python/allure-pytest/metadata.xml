@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Allure Pytest Plugin.. image httpsimg.shields.iopypivallure-pytest        alt Release Status        target httpspypi.python.orgpypiallure-pytest.. image httpsimg.shields.iopypidmallure-pytest        alt Downloads        target httpspypi.python.orgpypiallure-pytest- Source httpsgithub.comallure-frameworkallure-python_- Documentation httpsdocs.qameta.ioallure-report_- Gitter httpsgitter.imallure-frameworkallure-core_Installation and Usage.. code bash     pip install allure-pytest     py.test --alluredirallure_result_folder .tests     allure serve allure_result_folderUsage examples--------------See usage examples here examples_.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Scout Python APM Agent[[GitHub Actions](httpsgithub.comscoutappscout_apm_pythonworkflowsCIbadge.svgbranchmaster)](httpsgithub.comscoutappscout_apm_pythonactionsworkflowCI)[[PyPI](httpsimg.shields.iopypivscout-apm.svg)](httpspypi.python.orgpypiscout-apm)[[Documentation](httpsimg.shields.iobadgedocs-read20online-green.svg)](httpsdocs.scoutapm.compython-agent)[[Black](httpsimg.shields.iobadgecode20style-black-000000.svg)](httpsgithub.compythonblack)Monitor the performance of Python Django apps, Flask apps, and Celery workers with Scouts [Python APM Agent](httpswww.scoutapm.com). Detailed performance metrics and transaction traces are collected once the scout-apm package is installed and configured.[screenshot](httpss3-us-west-1.amazonaws.comscout-blogpython_monitoring_releasepython_monitoring_screenshot.png) RequirementsPython 2.7 or 3.4+.Scout APM has integrations for the following frameworks Bottle 0.12+ CherryPy 18.0.0+ Celery 3.1+ Django 1.8+ Dramatiq 1.0+ Falcon 2.0+ Flask 0.10+ Huey 2.0+ Hug 2.5.1+ Nameko 2.0+ Pyramid 1.8+ RQ 1.0+ Starlette 0.12+For other frameworks, you can use the agents instrumentation API.To use Scout, youll need to[sign up for an account](httpsscoutapm.comuserssign_up) or use[our Heroku Addon](httpsdevcenter.heroku.comarticlesscout). DocumentationFor full installation instructions, including information on configuring Scoutvia environment variables and troubleshooting, see our[Python docs](httpsdocs.scoutapm.compython-agent). SupportPlease email us at supportscoutapm.com or [create a GitHubissue](httpsgithub.comscoutappscout_apm_pythonissues).</longdescription>
+</pkgmetadata>

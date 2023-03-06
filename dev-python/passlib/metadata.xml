@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Passlib is a password hashing library for Python 2  3, which providescross-platform implementations of over 30 password hashing algorithms, as wellas a framework for managing existing password hashes. Its designed to be usefulfor a wide range of tasks, from verifying a hash found in etcshadow, toproviding full-strength password hashing for multi-user applications. See the documentation httpspasslib.readthedocs.io_  for details, installation instructions, and examples. See the homepage httpsfoss.heptapod.netpython-libspasslibwikishome_  for the latest news and more information. See the changelog httpspasslib.readthedocs.ioenstablehistory_  for a description of whats new in Passlib.All releases are signed with the gpg key4D8592DF4CE1ED31 httppgp.mit.edu11371pkslookupopgetsearch0x4D8592DF4CE1ED31_.</longdescription>
+</pkgmetadata>

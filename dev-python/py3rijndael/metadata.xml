@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>py3rijndael.. image httpstravis-ci.orgmeytpy3rijndael.svgbranchmaster    target httpstravis-ci.orgmeytpy3rijndael.. image httpscoveralls.ioreposgithubmeytpy3rijndaelbadge.svgbranchmaster    target httpscoveralls.iogithubmeytpy3rijndaelbranchmaster.. image httpsimg.shields.iopypipyversionspy3rijndael.svg    target httpspypi.python.orgpypipy3rijndaelRijndael algorithm library for Python3.Rijndael is the key algorithm of AES httpsen.wikipedia.orgwikiAdvanced_Encryption_Standard_,and there is some of implementations already exist- pycrypto httpsgithub.comdlitzpycrypto_ Very old and not written in python.- pycryptodome httpsgithub.comLegrandinpycryptodome_ In road of pycrypto but alive.- python-cryptoplus httpsgithub.comdoegoxpython-cryptoplus_  Tested and works fine. but, not in Python 3, also depend on pycrypto.- RijndaelPbkdf httpsgithub.comdsopreaRijndaelPbkdf_  Tested and works fine. but, old PyPi release and not active (i have no time to wait for maintainer).- httpsgist.github.comjeetsukumaran1291836  The gist i borrowed initial source.Installation------------.. code bash    pip install py3rijndaelUsage-----Follow the tests.</longdescription>
+</pkgmetadata>

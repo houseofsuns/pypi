@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Flask sqlacodegenFork of [sqlacodegen](httpspypi.python.orgpypisqlacodegen) by Alex Gronholm. Based off of version 1.1.6.Whats different Support for Flask-SQLAlchemy syntax using --flask option. Defaults to generating backrefs in relationships. --nobackref still included as option in case backrefs are not wanted.  Naming of backrefs is class name in snake_case (as opposed to CamelCase) and is pluralized if its Many-to-One or Many-to-Many using [inflect](httpspypi.python.orgpypiinflect). Primary joins are explicit. If column has a server_default set it to FetchValue() instead of trying to determine what that value is. Original code did not set the right server defaults in my setup. --ignore-cols ignores special columns when generating association tables. Original code requires all columns to be foreign keys in order to generate association table. Example --ignore-cols id,inserted,updated. Uses the command flask-sqlacodegen instead of sqlacodegen. Added support for --notables to only generate model classes, even for association tables InstallWith pipshpip install flask-sqlacodegenWithout pipshgit clone httpsgithub.comksindiflask-sqlacodegen.gitcd flask-sqlacodegenpython setup.py installFor contributingshgit clone httpsgithub.comksindiflask-sqlacodegen.gitpython -m venv envpip install -r requirements.txtpython -m sqlacodegen.main --flask --outfile models.py mysql+pymysqlusernamepassworddatabase-ipportdatabase-name [--tables tablenames] [--notables]</longdescription>
+</pkgmetadata>

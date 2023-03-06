@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>--httpsreadme42.com--[[](httpsimg.shields.iopypivtimedelta.svgmaxAge3600)](httpspypi.orgprojecttimedelta)[[](httpsimg.shields.iobadgeLicense-Unlicense-blue.svglongCacheTrue)](httpsunlicense.org) Installationbash [sudo] pip install timedelta Examplespython import timedelta td  timedelta.Timedelta(days2, hours2) init from datetime.timedelta td  timedelta.Timedelta(datetime1 - datetime2)total seconds, minutes, hours, dayspython td  timedelta.Timedelta(days2, hours2) td.total.seconds180000 td.total.minutes3000 td.total.hours50 td.total.days2 Links+ [timedelta Objects](httpsdocs.python.org3librarydatetime.htmltimedelta-objects)p aligncenter    a hrefhttpsreadme42.comreadme42.comap</longdescription>
+</pkgmetadata>

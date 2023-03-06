@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> smsapi-python[[Build Status](httpstravis-ci.orgsmsapismsapi-python-client.svgbranchmaster)](httpstravis-ci.orgsmsapismsapi-python-client)[[PyPI](httpsimg.shields.iopypivsmsapi-client.svg)](httpspypi.python.orgpypismsapi-client)Client for SMSAPI. COMPATIBILITYCompatible with Python 2.7+, 3.+. REQUIREMENTSrequests INSTALLATIONIf You have pip installed    sudo pip install smsapi-clientelse You can install manually    git clone httpsgithub.comsmsapismsapi-python-client.git    cd smsapi-python    python setup.py install Client instanceIf You are smsapi.pl customer You should importpythonfrom smsapi.client import SmsApiPlClientelse You need to use client for smsapi.compythonfrom smsapi.client import SmsApiComClient Credentials Access Tokenpythonfrom smsapi.client import SmsApiPlClienttoken  XXXXclient  SmsApiPlClient(access_tokentoken) Examples Send SMSpythonfrom smsapi.client import SmsApiPlClienttoken  XXXXclient  SmsApiPlClient(access_tokentoken)send_results  client.sms.send(tophone number, messagetext message)for result in send_results    print(result.id, result.points, result.error)- You can find more examples in examples directory in project files. Error handlingpythonfrom smsapi.client import SmsApiPlClientfrom smsapi.exception import SmsApiExceptiontoken  XXXXclient  SmsApiPlClient(access_tokentoken)try    contact  client.sms.send(to123123)except SmsApiException as e    print(e.message, e.code) LICENSE[Apache 2.0 License](httpsgithub.comsmsapismsapi-python-clientblobmasterLICENSE)</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Python Asyncio Extensions[[Release](httpsimg.shields.iopypivaioextensionscolorsuccesslabelReleasestyleflat-square)](httpspypi.orgprojectaioextensions)[[Documentation](httpsimg.shields.iobadgeDocumentation-click_here-successstyleflat-square)](httpsfluidattacks.github.ioaioextensions)[[Downloads](httpsimg.shields.iopypidmaioextensionslabelDownloadsstyleflat-square)](httpspypi.orgprojectaioextensions)[[Status](httpsimg.shields.iopypistatusaioextensionslabelStatusstyleflat-square)](httpspypi.orgprojectaioextensions)[[Coverage](httpsimg.shields.iobadgeCoverage-10025-successstyleflat-square)](httpsfluidattacks.github.ioaioextensions)[[License](httpsimg.shields.iopypilaioextensionscolorsuccesslabelLicensestyleflat-square)](httpsgithub.comfluidattacksaioextensionsbloblatestLICENSE.md)</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>twisted-iocpsupport.. image httpsimg.shields.iogithubworkflowstatustwistedtwisted-iocpsupportBuild20and20upload20to20PyPIlabelGitHub20Actionslogogithub    alt GitHub Actions    target httpsgithub.comtwistedtwisted-iocpsupport.. image httpsimg.shields.iopypivtwisted-iocpsupportlogopypi    alt PyPI    target httpspypi.orgprojecttwisted-iocpsupportAn extension for use in the L{twisted.internet.iocpreactor} IO CompletionPorts reactor.This code was initially part of the core Twisted project. It was moved into aseparate repo in order to simplify the Twisted production deployment. As such,issues are handled by the Twisted Trac Ticketing systemhttpstwistedmatrix.comtracsearchqiocpnoquickjump1ticketonAdditionally, this package provides no compatability gurantees All use mustbe via the Twisted PyPI distribution and twisted Python package.Applications must not depend on the twisted-iocpsupport PyPI distributiondirectly. Applications must not import names from the twisted_iocpsupportpackage directly.See httpstwistedmatrix.comdocumentscurrentcoredevelopmentpolicycompatibility-policy.htmlfor the Twisted Compatability Policy.</longdescription>
+</pkgmetadata>

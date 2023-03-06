@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>click-log.. image httpstravis-ci.orgclick-contribclick-log.svgbranchmaster    target httpstravis-ci.orgclick-contribclick-logIntegrates logging with click.- Documentation httpsclick-log.readthedocs.org_- Source code httpsgithub.comclick-contribclick-log_LicenseLicensed under the MIT, see LICENSE.</longdescription>
+</pkgmetadata>

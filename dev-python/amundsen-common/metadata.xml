@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Amundsen Common[[PyPI version](httpsbadge.fury.iopyamundsen-common.svg)](httpsbadge.fury.iopyamundsen-common)[[License](httpimg.shields.iolicense-Apache202-blue.svg)](LICENSE)[[PRs Welcome](httpsimg.shields.iobadgePRs-welcome-brightgreen.svg)](httpsimg.shields.iobadgePRs-welcome-brightgreen.svg)[[Slack Status](httpsimg.shields.iobadgeslack-join_chat-white.svglogoslackstylesocial)](httpsamundsenworkspace.slack.comjoinshared_inviteenQtNTk2ODQ1NDU1NDI0LTc3MzQyZmM0ZGFjNzg5MzY1MzJlZTg4YjQ4YTU0ZmMxYWU2MmVlMzhhY2MzMTc1MDg0MzRjNTA4MzRkMGE0Nzk)Amundsen Common library holds common codes among micro services in Amundsen.For information about Amundsen and our other services, visit the [main repository](httpsgithub.comamundsen-ioamundsen). Please also see our instructions for a [quick start](httpsgithub.comamundsen-ioamundsenblobmasterdocsinstallation.mdbootstrap-a-default-version-of-amundsen-using-docker) setup  of Amundsen with dummy data, and an [overview of the architecture](httpsgithub.comamundsen-ioamundsenblobmasterdocsarchitecture.mdarchitecture). Requirements- Python  3.6 Doc- httpswww.amundsen.ioamundsen</longdescription>
+</pkgmetadata>

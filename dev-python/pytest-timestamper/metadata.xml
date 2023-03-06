@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> pytest-timestamper[CI Status](httpsgithub.commbkroesepytest-timestamperactionsworkflowsmain.ymlbadge.svg)[[Code style black](httpsimg.shields.iobadgecode20style-black-000000.svg)](httpsgithub.compsfblack)[[PyPI version](httpsbadge.fury.iopypytest-timestamper.svg)](httpspypi.python.orgpypipytest-timestamper)[[PyPI pyversions](httpsimg.shields.iopypipyversionspytest-timestamper.svg)](httpspypi.python.orgpypipytest-timestamper)[[Imports isort](httpsimg.shields.iobadge20imports-isort-231674b1stylegooglelabelColoref8336)](httpspycqa.github.ioisort)Pytest plugin to add a timestamp prefix to the pytest output. myproject python3 -m pytest -v test session starts platform darwin -- Python 3.9.4, pytest-6.3.0.dev494+g43faea832.d20210528, py-1.10.0, ...cachedir .pytest_cacherootdir Usersusermyprojectplugins timestamper-0.1.dev14+gaacde4acollected 3 items[2021-06-06 121906] teststest_one.pytest_dummy PASSED                            [ 33][2021-06-06 121906] teststest_one.pytest_dummy_two PASSED                        [ 66][2021-06-06 121906] teststest_two.pytest_another_dummy PASSED                    [100] 3 passed in 0.02s  MotivationFor various reasons tests can be slower on some runs than other.However, without a timestamp in front of the test it is not clear to the user how long the current test has been taking.This plugin adds a simple timestamp in front of the pytest output. Installationpip install pytest-timestamper UsageTo activate the plugin one simply needs to install it.The user can update the format of the prefix with the --prefixfmt and the datetime format with --datefmt.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Dictdiffer.. image httpsgithub.cominveniosoftwaredictdifferworkflowsCIbadge.svg        target httpsgithub.cominveniosoftwaredictdifferactions.. image httpsimg.shields.iocoverallsinveniosoftwaredictdiffer.svg        target httpscoveralls.iorinveniosoftwaredictdiffer.. image httpsimg.shields.iogithubtaginveniosoftwaredictdiffer.svg        target httpsgithub.cominveniosoftwaredictdifferreleases.. image httpsimg.shields.iopypidmdictdiffer.svg        target httpspypi.python.orgpypidictdiffer.. image httpsimg.shields.iogithublicenseinveniosoftwaredictdiffer.svg        target httpsgithub.cominveniosoftwaredictdifferblobmasterLICENSEAboutDictdiffer is a helper module that helps you to diff and patchdictionaries.InstallationDictdiffer is on PyPI so all you need is     pip install dictdifferDocumentationDocumentation is readable at httpsdictdiffer.readthedocs.io or can bebuilt using Sphinx     pip install dictdiffer[docs]    python setup.py build_sphinxTestingRunning the test suite is as simple as     .run-tests.sh</longdescription>
+</pkgmetadata>

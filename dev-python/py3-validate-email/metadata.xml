@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> HEADS UP This is not actually a new release, but a final one on pypi.Pypi has proven to be anti free speech. Hence, youre not gonna see any more updates to this module on here. I keep updating the module on [httpsgitea.ksol.io](httpsgitea.ksol.io), in fact there are already a couple new versions released ever since 1.0.5.For future updates, youll have to update your module source. For more information, see the [updated README](httpsgitea.ksol.iokarolyipy3-validate-emailsrcbranchmasterREADME.md)Lets keep things free and decentralized.</longdescription>
+</pkgmetadata>

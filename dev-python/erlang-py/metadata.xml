@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Erlang External Term Format for PythonBuild StatusProvides all encoding and decoding for the Erlang External Term Format(as defined at httperlang.orgdocappsertserl_ext_dist.html) in asingle Python module.Available as a Python package athttpspypi.python.orgpypierlang_py httpspypi.python.orgpypierlang_py__.Tests-----   python setup.py testAuthor------Michael Truog (mjtruog at protonmail dot com)License-------MIT License.. Build Status image httpssecure.travis-ci.orgokeudayerlang_py.pngbranchmaster   target httptravis-ci.orgokeudayerlang_py</longdescription>
+</pkgmetadata>

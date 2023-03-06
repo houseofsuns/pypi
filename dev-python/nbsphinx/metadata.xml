@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Jupyter Notebook Tools for Sphinxnbsphinx is a Sphinx_ extension that provides a source parser for.ipynb files.Custom Sphinx directives are used to show Jupyter Notebook_ code cells (and ofcourse their results) in both HTML and LaTeX output.Un-evaluated notebooks -- i.e. notebooks without stored output cells -- will beautomatically executed during the Sphinx build process.Quick Start    . Install nbsphinx    . Edit your conf.py and add nbsphinx to extensions.    . Edit your index.rst and add the names of your .ipynb files       to the toctree.    . Run SphinxOnline documentation (and example of use)    httpsnbsphinx.readthedocs.ioSource code repository (and issue tracker)    httpsgithub.comspatialaudionbsphinxLicense    MIT -- see the file LICENSE for details... _Sphinx httpswww.sphinx-doc.org.. _Jupyter Notebook httpsjupyter.org</longdescription>
+</pkgmetadata>

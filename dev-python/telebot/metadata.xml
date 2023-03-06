@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Telebot-------Note This is not pyTelegramBotAPI httpsgithub.cometernnoirpyTelegramBotAPI_, but do to often confusion I have includedit within this package.  So if you accidentally install this instead of pyTelegramBotAPI httpsgithub.cometernnoirpyTelegramBotAPI_the examples, etc will still work.This originally was telegram bot library, with simple route decorators, and will nowbe imported as telebot_router, to separate pyTelegramBotAPI httpsgithub.cometernnoirpyTelegramBotAPI_ and this package fromcollision.Currently a work in progress, doesnt do much now, but will register and send messages.Example Setup from telebot_router import TeleBot app  TeleBot(__name__) app.route(command (.)) def example_command(message, cmd)     chat_dest  message[chat][id]     msg  Command Recieved {}.format(cmd)     app.send_message(chat_dest, msg) app.route(().+) def parrot(message)    chat_dest  message[chat][id]    user_msg  message[text]    msg  Parrot Says {}.format(user_msg)    app.send_message(chat_dest, msg) if __name__  __main__     app.config[api_key]  xxxxxxxxenterYourBotKeyHereToTest     app.poll(debugTrue)</longdescription>
+</pkgmetadata>

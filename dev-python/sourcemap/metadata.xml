@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>SourceMapParse JavaScript source maps.   import sourcemap   sourcemap.discover(...)  jquery.min.map   index  sourcemap.loads(...)   index.lookup(line10, column10)  Token dst_line10 dst_column10 srcjquery.js src_line50 src_col200 namelolcopyright (c) 2013 by Matt Robenoltlicense BSD, see LICENSE for more details.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>python-barcode.. image httpsaction-badges.now.shWhyNotHugopython-barcode  target httpsgithub.comWhyNotHugopython-barcodeactions  alt CI status.. image httpscodecov.ioghWhyNotHugopython-barcodebranchmaingraphbadge.svg  target httpscodecov.ioghWhyNotHugopython-barcode  alt Build coverage.. image httpsreadthedocs.orgprojectspython-barcodebadge  target httpspython-barcode.rtfd.org  alt documentation.. image httpsimg.shields.iopypivpython-barcode.svg  target httpspypi.python.orgpypipython-barcode  alt version on pypi.. image httpsimg.shields.iopypidmpython-barcode.svg  target httpspypi.python.orgpypipython-barcode  alt downloads.. image httpsimg.shields.iopypilpython-barcode.svg  target httpsgithub.comWhyNotHugopython-barcodeblobmainLICENCE  alt licencepython-barcode provides a simple way to create barcodes in Python.There are no external dependencies when generating SVG files.Pillow is required for generating images (e.g. PNGs).Support Python 3.6 to 3.10... image example-ean13.png  target httpsgithub.comWhyNotHugopython-barcode  alt python-barcodeDocumentation-------------Full documentation is published at httppython-barcode.rtfd.ioLicence-------python-barcode is licensed under the MIT licence. See LICENCE for details.</longdescription>
+</pkgmetadata>

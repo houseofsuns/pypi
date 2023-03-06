@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Google Cloud Datastore ndb Client Library IntroductionThis is an updated version of the ndb client library for use with[Google Cloud Datastore][0]. [Client Library Documentation](httpsgoogleapis.devpythonpython-ndblatest)The original Python 2 version of ndb was designed specifically for the[Google App Engine][1] python27 runtime and can be found athttpsgithub.comGoogleCloudPlatformdatastore-ndb-python. This version ofndb is designed for the [Google App Engine Python 3 runtime][2], and willrun on other Python platforms as well.[0] httpscloud.google.comdatastore[1] httpscloud.google.comappengine[2] httpscloud.google.comappenginedocsstandardpython3 Release StatusGA Supported Python VersionsOur client libraries are compatible with all current [active][3] and [maintenance][4] versions of Python.Python  3.7[3] httpsdevguide.python.orgdevcyclein-development-main-branch[4] httpsdevguide.python.orgdevcyclemaintenance-branches Unsupported Python VersionsPython  3.6If you are using an [end-of-life][5]version of Python, we recommend that you update as soon as possible to an actively supported version.[5] httpsdevguide.python.orgdevcycleend-of-life-branches</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> pytest-env[[PyPI](httpsimg.shields.iopypivpytest-envstyleflat-square)](httpspypi.orgprojectpytest-env)[[Supported Pythonversions](httpsimg.shields.iopypipyversionspytest-env.svg)](httpspypi.orgprojectpytest-env)[[check](httpsgithub.compytest-devpytest-envactionsworkflowscheck.ymlbadge.svg)](httpsgithub.compytest-devpytest-envactionsworkflowscheck.yml)[[Code styleblack](httpsimg.shields.iobadgecode20style-black-000000.svg)](httpsgithub.compsfblack)[[Downloads](httpspepy.techbadgepytest-envmonth)](httpspepy.techprojectpytest-envmonth)This is a pytest plugin that enables you to set environment variables in a pytest.ini or pyproject.toml file. InstallationInstall with pipshellpip install pytest-env UsageIn your pytest.ini file add a key value pair with env as the key and the environment variables as a line separatedlist of KEYVALUE entries. The defined variables will be added to the environment before any tests are runini[pytest]env     HOMEtmp    RUN_ENVtestOr with pyproject.tomltoml[tool.pytest.ini_options]env  [    HOMEtmp,    RUN_ENVtest,] Only set if not already setYou can use D (default) as prefix if you dont want to override existing environment variablesini[pytest]env     DHOMEtmp    DRUN_ENVtest TransformationYou can use existing environment variables using a python-like format, these environment variables will be expendedbefore setting the environment variableini[pytest]env     RUN_PATHrunpath{USER}You can apply the R prefix to keep the raw value and skip this transformation step (can combine with the D flag,order is not important)ini[pytest]env     RRUN_PATHrunpath{USER}    RDRUN_PATH_IF_NOT_SETrunpath{USER}</longdescription>
+</pkgmetadata>

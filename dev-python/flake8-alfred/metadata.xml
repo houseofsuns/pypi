@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Alfred the butler[[Build Status](httpstravis-ci.orgdatatheoremflake8-alfred.svgbranchmaster)](httpstravis-ci.orgdatatheoremflake8-alfred)[[PyPI version](httpsbadge.fury.iopyflake8-alfred.svg)](httpsbadge.fury.iopyflake8-alfred)Alfred is a flake8 plugin to warn on unsafeobsolete symbols. You can use it asa transition tool to eliminate functions, modules, variables you dont want inexisting project or you want to avoid in new ones. This plugin requires Python 3.6.Getting Started---------------First, install Alfred using pipbash pip install flake8-alfredThen, enable the plugin by configuring a blacklist of Python symbols that shouldbe flagged by flake8. Here is an example of configuration in your projects setup.cfgini[flake8]enable-extensions  B1warn-symbols     obsolete_module  Warning This module is obsolete    module.obsolete_function  Warning This function is obsolete    module.submodule.constant  Warning this variable will be removedHere enable-extensions tells flake8 to enable this plugin and warn-symbols isthe list of symbols we want to flag in our project, with the associatedwarning. By default, this plugin doesnt warn about any other symbol.If you just want to testrun once, you can also pass the configuration directlyto flake8bash flake8 --enable-extensionsB1 --warn-symbolsobsolte_moduleWarningnmodule.obsolete_functionWarningLocal Development-----------------First, clone the repositorybashgit clone httpsgithub.comdatatheoremalfred-checker.gitThe project uses pipenv to manage dependenciesbash pipenv install --devThen, the test suite can be runbash pipenv run pytest</longdescription>
+</pkgmetadata>

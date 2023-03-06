@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>DaskBuild Status Coverage Doc Status Discourse Version Status NumFOCUSDask is a flexible parallel computing library for analytics.  Seedocumentation_ for more information.LICENSE-------New BSD. See License File httpsgithub.comdaskdaskblobmainLICENSE.txt__... _documentation httpsdask.org.. Build Status image httpsgithub.comdaskdaskactionsworkflowstests.ymlbadge.svg   target httpsgithub.comdaskdaskactionsworkflowstests.yml.. Coverage image httpscodecov.ioghdaskdaskbranchmaingraphbadge.svg   target httpscodecov.ioghdaskdaskbranchmain   alt Coverage status.. Doc Status image httpsreadthedocs.orgprojectsdaskbadgeversionlatest   target httpsdask.org   alt Documentation Status.. Discourse image httpsimg.shields.iodiscourseuserslogodiscourseserverhttps3A2F2Fdask.discourse.group   alt Discuss Dask-related things and ask for help   target httpsdask.discourse.group.. Version Status image httpsimg.shields.iopypivdask.svg   target httpspypi.python.orgpypidask.. NumFOCUS image httpsimg.shields.iobadgepowered20by-NumFOCUS-orange.svgstyleflatcolorAE1523DcolorB007D8A   target httpswww.numfocus.org</longdescription>
+</pkgmetadata>

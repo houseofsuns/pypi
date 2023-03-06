@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Team and repository tags.. image httpsgovernance.openstack.orgtcbadgescliff.svg    target httpsgovernance.openstack.orgtcreferencetagsindex.html.. Change things from this point on cliff -- Command Line Interface Formulation Frameworkcliff is a framework for building command line programs.It uses entry points_ to provide subcommands, output formatters, and otherextensions... _entry points httpspackaging.python.orgspecificationsentry-points Free software Apache license Documentation httpsdocs.openstack.orgclifflatest Source httpsopendev.orgopenstackcliff Bugs httpsstoryboard.openstack.orgprojectopenstackcliff Contributors httpsgithub.comopenstackcliffgraphscontributors</longdescription>
+</pkgmetadata>

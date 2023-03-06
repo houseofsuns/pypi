@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>jk_flexdataIntroduction------------This python module ...Information about this module can be found here [github.org](httpsgithub.comjkpubsrcpython-module-jk-flexdata) [pypi.python.org](httpspypi.python.orgpypijk_flexdata)Why this module----------------...Limitations of this module--------------------------...How to use this module---------------------- Import this modulePlease include this module into your application using the following codepythonimpoert jk_flexdata...Contact Information-------------------This is Open Source code. That not only gives you the possibility of freely using this code it alsoallows you to contribute. Feel free to contact the author(s) of this software listed below, eitherfor comments, collaboration requests, suggestions for improvement or reporting bugs Jrgen Knauth jknauthuni-goettingen.de, pubsrcbinary-overflow.deLicense-------This software is provided under the following license Apache Software License 2.0</longdescription>
+</pkgmetadata>

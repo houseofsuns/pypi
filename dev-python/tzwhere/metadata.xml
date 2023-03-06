@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pytzwhere [[Build Status](httpstravis-ci.orgpeglerpytzwhere.svg)](httpstravis-ci.orgpeglerpytzwhere) [[Coverage Status](httpscoveralls.iorepospeglerpytzwherebadge.svg)](httpscoveralls.iorpeglerpytzwhere)pytzwhere is a Python library to lookup the timezone for a given latlng entirely offline. Version 3.0 fixes how pytzwhere deals with [holes](httpsgithub.compeglerpytzwhereissues34) in timezones. It is recommended that you use version 3.0.It is a port from httpsgithub.commattbornskitzwhere with a few improvements. The underlying timezone data is based on work done by [Eric Muller](httpefele.netmapstzworld)If used as a library, basic usage is as follows     from tzwhere import tzwhere     tz  tzwhere.tzwhere()     print tz.tzNameAt(35.29, -89.66)    AmericaChicagoThe polygons used for building the timezones are based on VMAP0. Sometimes points are outside a VMAP0 polygon, but are clearly within a certain timezone (see also this [discussion](httpsgithub.commattbornskitzwhereissues8)). As a solution you can search for the closest timezone within a user defined radius.Dependencies   numpy (optional)   shapely</longdescription>
+</pkgmetadata>

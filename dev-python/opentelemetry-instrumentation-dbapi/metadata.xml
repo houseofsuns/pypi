@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>OpenTelemetry Database API instrumentationpypi.. pypi image httpsbadge.fury.iopyopentelemetry-instrumentation-dbapi.svg   target httpspypi.orgprojectopentelemetry-instrumentation-dbapiInstallation------------    pip install opentelemetry-instrumentation-dbapiReferences---------- OpenTelemetry Database API Instrumentation httpsopentelemetry-python-contrib.readthedocs.ioenlatestinstrumentationdbapidbapi.html_ OpenTelemetry Project httpsopentelemetry.io_ OpenTelemetry Python Examples httpsgithub.comopen-telemetryopentelemetry-pythontreemaindocsexamples_</longdescription>
+</pkgmetadata>

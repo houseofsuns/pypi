@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>OpenTelemetry Distropypi.. pypi image httpsbadge.fury.iopyopentelemetry-distro.svg   target httpspypi.orgprojectopentelemetry-distroInstallation------------    pip install opentelemetry-distroThis package provides entrypoints to configure OpenTelemetry.References---------- OpenTelemetry Project httpsopentelemetry.io_ Example using opentelemetry-distro httpsopentelemetry.iodocsinstrumentationpythondistro_</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>django-wkhtmltopdf.. image httpsbadge.fury.iopydjango-wkhtmltopdf.png    target httpbadge.fury.iopydjango-wkhtmltopdf    alt Latest version.. image httpstravis-ci.orgincunadjango-wkhtmltopdf.pngbranchmaster   target httpstravis-ci.orgincunadjango-wkhtmltopdf   alt Travis-CI.. image httpsimg.shields.iopypidmdjango-wkhtmltopdf.svg    target httpsbadge.fury.iopydjango-wkhtmltopdf    alt Number of PyPI downloads on a monthConverts HTML to PDF--------------------Provides Django views to wrap the HTML to PDF conversion of the wkhtmltopdf httpwkhtmltopdf.org_ binary.Requirements------------Install the wkhtmltopdf static binary httpwkhtmltopdf.orgdownloads.html_.This requires libfontconfig (on Ubuntu sudo aptitude install libfontconfig).Python 2.6+ and 3.3+ are supported.Installation------------Run pip install django-wkhtmltopdf.Add wkhtmltopdf to INSTALLED_APPS in your settings.py.By default it will execute the first wkhtmltopdf command found on your PATH.If you cant add wkhtmltopdf to your PATH, you can set WKHTMLTOPDF_CMD to aspecific executablee.g. in settings.py     WKHTMLTOPDF_CMD  pathtomywkhtmltopdfor alternatively as env variable     export WKHTMLTOPDF_CMDpathtomywkhtmltopdfYou may also set WKHTMLTOPDF_CMD_OPTIONS in settings.py to a dictionaryof default command-line options.The default is     WKHTMLTOPDF_CMD_OPTIONS  {        quiet True,    }Documentation-------------Documentation is available at httpdjango-wkhtmltopdf.readthedocs.orgenlatest.License-------MIT licensed. See the bundled LICENSE httpsgithub.comincunadjango-wkhtmltopdfblobmasterLICENSE_ file for more details.</longdescription>
+</pkgmetadata>

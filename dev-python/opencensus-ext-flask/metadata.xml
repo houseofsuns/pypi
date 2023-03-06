@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>OpenCensus Flask Integrationpypi.. pypi image httpsbadge.fury.iopyopencensus-ext-flask.svg   target httpspypi.orgprojectopencensus-ext-flaskInstallation------------    pip install opencensus-ext-flaskUsage-----.. code python    from flask import Flask    from opencensus.ext.flask.flask_middleware import FlaskMiddleware    app  Flask(__name__)    middleware  FlaskMiddleware(app, excludelist_paths[_ahhealth])    app.route()    def hello()        return Hello World    if __name__  __main__        import logging        logger  logging.getLogger(werkzeug)        logger.setLevel(logging.ERROR)        app.run(hostlocalhost, port8080, threadedTrue)Additional configuration can be provided, please readCustomization httpsgithub.comcensus-instrumentationopencensus-pythoncustomization_for a complete reference... code python    app.config[OPENCENSUS]  {        TRACE {            SAMPLER opencensus.trace.samplers.ProbabilitySampler(rate1),            EXPORTER opencensus.ext.ocagent.trace_exporter.TraceExporter(                service_namefoobar,            ),        }    }References---------- OpenCensus Project httpsopencensus.io_</longdescription>
+</pkgmetadata>

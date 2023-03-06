@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image httpsimg.shields.iobadgecode20style-black-000000.svg   target httpsgithub.compythonblack   alt Python Black Code StyleselinuxPure-python selinux shim module for use in virtualenvs in order to avoidfailure to load selinux in Ansible modules.You still need to have libselinux python bindings package installed on yoursystem for it to work but you no longer have the problem of not being ableto import it from inside isolated (default) virtualenvs.This package was also tested as installed outside virtualenvs and seems notto interfere with the original library.The change-list can be accessed at releases__.__ httpsgithub.compycontribsselinuxreleases</longdescription>
+</pkgmetadata>

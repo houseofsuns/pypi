@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>OpenTelemetry PyMySQL Instrumentationpypi.. pypi image httpsbadge.fury.iopyopentelemetry-instrumentation-pymysql.svg   target httpspypi.orgprojectopentelemetry-instrumentation-pymysqlInstallation------------    pip install opentelemetry-instrumentation-pymysqlReferences---------- OpenTelemetry PyMySQL Instrumentation httpsopentelemetry-python-contrib.readthedocs.ioenlatestinstrumentationpymysqlpymysql.html_ OpenTelemetry Project httpsopentelemetry.io_ OpenTelemetry Python Examples httpsgithub.comopen-telemetryopentelemetry-pythontreemaindocsexamples_</longdescription>
+</pkgmetadata>

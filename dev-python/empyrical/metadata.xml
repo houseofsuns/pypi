@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>empyrical is a Python library with performance and riskstatistics commonly used in quantitative finance by Quantopian Inc_... _Quantopian Inc httpswww.quantopian.com.. _Zipline httpszipline.io.. _pyfolio httpsquantopian.github.iopyfolio</longdescription>
+</pkgmetadata>

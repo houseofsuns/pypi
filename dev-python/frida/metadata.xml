@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> frida-pythonPython bindings for [Frida](httpsfrida.re). Some tips during developmentTo build and test your own wheel, do something along the following linesset FRIDA_VERSION16.0.1-dev.7  from Csrcfridabuildtmp-windowsfrida-version.hset FRIDA_EXTENSIONCsrcfridabuildfrida-windowsx64-Releaselibpython3.10site-packages_frida.pydcd Csrcfridafrida-pythonpip wheel .pip uninstall fridapip install frida-16.0.1.dev7-cp34-abi3-win_amd64.whl</longdescription>
+</pkgmetadata>

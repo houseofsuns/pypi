@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>sphinxcontrib-redocpypi-version travis-ciThe Sphinx_ extension that renders OpenAPI_ (fka Swagger) specs with love() using amazing ReDoc_. Dont believe it Heres the proof_. Now stopfrustrating and start moving your projects to OpenAPI and ReDoc with thissmall first step.. code bash     pip install sphinxcontrib-redoc Free software BSD License Documentation httpssphinxcontrib-redoc.readthedocs.io Source httpsgithub.comikalnytskyisphinxcontrib-redoc Bugs httpsgithub.comikalnytskyisphinxcontrib-redocissuesAny feedback, any contribution is really appreciated.. _Sphinx httpswww.sphinx-doc.org.. _OpenAPI httpsopenapis.orgspecification.. _ReDoc httpsgithub.comRebillyReDoc.. _the proof httpssphinxcontrib-redoc.readthedocs.ioenlatestapigithub.. pypi-version image httpsimg.shields.iopypivsphinxcontrib-redoc.svg   target httpspypi.python.orgpypisphinxcontrib-redoc.. travis-ci image httpsimg.shields.iotravisikalnytskyisphinxcontrib-redoc.svg   target httpstravis-ci.orgikalnytskyisphinxcontrib-redoc</longdescription>
+</pkgmetadata>

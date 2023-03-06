@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> QCS SDK Python In Developmentqcs-sdk-python provides an interface to Rigetti [Quantum Cloud Services](httpsdocs.rigetti.comqcs) (QCS), allowing usersto compile and run Quil programs on Rigetti quantum processors. Internally, it is powered by the [QCS Rust SDK](httpsgithub.comrigettiqcs-sdk-rust).While this package can be used directly, [pyQuil](httpspypi.orgprojectpyquil) offers more functionality and a higher-level interface for building and executing Quil programs. This package is still in early development and breaking changes should be expected between minor versions.</longdescription>
+</pkgmetadata>

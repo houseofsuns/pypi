@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>LOLcatStraight Python port of the Ruby version at httpsgithub.combusylooplolcatbut with 100 more fun, because, hey, its not Ruby. There are no external dependencies..Its a tool like cat, with added lulz.InstallingTo install the stable version     pip install lolcatTo install the development version     pip install git+httpsgithub.comtehmazelolcat.gitUsage and examples[](httpsgithub.comtehmazelolcatrawmasterlolcat.png)DemoCheck out the ASCII cast at httpsasciinema.orga1563BugsSend a PR.</longdescription>
+</pkgmetadata>

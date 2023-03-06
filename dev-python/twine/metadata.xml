@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image httpsimg.shields.iopypivtwine.svg   target httpspypi.orgprojecttwine.. image httpsimg.shields.iopypipyversionstwine.svg   target httpspypi.orgprojecttwine.. image httpsimg.shields.ioreadthedocstwine   target httpstwine.readthedocs.io.. image httpsimg.shields.iogithubworkflowstatuspypatwineMain   target httpsgithub.compypatwineactionstwineTwine is a utility for publishing_ Python packages on PyPI_.It provides build system independent uploads of source and binarydistribution artifacts distributions__ for both new and existingprojects_.See our documentation_ for a description of features, installationand usage instructions, and links to additional resources.Contributing------------See our developer documentation_ for how to get started, anarchitectural overview, and our future development plans.Code of Conduct---------------Everyone interacting in the Twine projects codebases, issuetrackers, chat rooms, and mailing lists is expected to follow thePSF Code of Conduct_... _publishing httpspackaging.python.orgtutorialspackaging-projects.. _PyPI httpspypi.org.. _distributions   httpspackaging.python.orgglossaryterm-Distribution-Package.. _projects httpspackaging.python.orgglossaryterm-Project.. _documentation httpstwine.readthedocs.io.. _developer documentation   httpstwine.readthedocs.ioenlatestcontributing.html.. _PSF Code of Conduct httpsgithub.compypa.githubblobmainCODE_OF_CONDUCT.md</longdescription>
+</pkgmetadata>

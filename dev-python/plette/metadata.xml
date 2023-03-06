@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Plette Structured Pipfile and Pipfile.lock models... image httpsimg.shields.iopypivplette.svg    target httpspypi.orgpypiplette.. image httpsimg.shields.iopypilplette.svg    target httpspypi.orgpypiplette.. image httpsapi.travis-ci.comsarugakuplette.svgbranchmaster    target httpstravis-ci.comsarugakuplette.. image httpsimg.shields.iopypipyversionsplette.svg    target httpspypi.orgpypiplette.. image httpsreadthedocs.orgprojectsplettebadgeversionmaster    target httpplette.readthedocs.ioenmasterbadgemaster    alt Documentation StatusPlette implements Pipfile and Pipfile.lock parsers, generators, and optionalvalidators to let the user work with them in a structured manner.InstallationInstall with pip    pip install pletteInstall with the optional validation feature    pip install plette[validation]Read the documentation httpsplette.readthedocs.io__.</longdescription>
+</pkgmetadata>

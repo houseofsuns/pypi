@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Keras Embedding Similarity[[Version](httpsimg.shields.iopypivkeras-embed-sim.svg)](httpspypi.orgprojectkeras-embed-sim)[License](httpsimg.shields.iopypilkeras-embed-sim.svg)[[](httpsgithub.comCyberZHGkeras-embed-simblobmasterREADME.zh-CN.md)[English](httpsgithub.comCyberZHGkeras-embed-simblobmasterREADME.md)]Compute the similarity between the outputs and the embeddings. Installbashpip install keras-embed-sim Usagepythonfrom tensorflow import kerasfrom keras_embed_sim import EmbeddingRet, EmbeddingSiminput_layer  keras.layers.Input(shape(None,), nameInput)embed, embed_weights  EmbeddingRet(    input_dim20,    output_dim100,    mask_zeroTrue,)(input_layer)output_layer  EmbeddingSim()([embed, embed_weights])</longdescription>
+</pkgmetadata>

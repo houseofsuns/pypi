@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[[pypi version](httpsimg.shields.iopypivcheck-jsonschema.svg)](httpspypi.orgprojectcheck-jsonschema)[[supported pythons](httpsimg.shields.iopypipyversionscheck-jsonschema.svg)](httpspypi.orgprojectcheck-jsonschema)[[build](httpsgithub.compython-jsonschemacheck-jsonschemaactionsworkflowsbuild.yamlbadge.svg)](httpsgithub.compython-jsonschemacheck-jsonschemaactionsworkflowsbuild.yaml)[[pre-commit.ci status](httpsresults.pre-commit.cibadgegithubpython-jsonschemacheck-jsonschemamain.svg)](httpsresults.pre-commit.cilatestgithubpython-jsonschemacheck-jsonschemamain)[[readthedocs documentation](httpsreadthedocs.orgprojectscheck-jsonschemabadgeversionstablestyleflat)](httpscheck-jsonschema.readthedocs.ioenstable) check-jsonschemaA JSON Schema CLI and [pre-commit](httpspre-commit.com) hook built on [jsonschema](httpsgithub.compython-jsonschemajsonschema).The schema may be specified as a local or remote (HTTP or HTTPS) file.Remote files are automatically downloaded and cached if possible. Usagecheck-jsonschema can be installed and run as a CLI tool, or via pre-commit. Example pre-commit configThe following configuration uses check-jsonschema to validate Github Workflowfiles.yaml- repo httpsgithub.compython-jsonschemacheck-jsonschema  rev 0.21.0  hooks    - id check-github-workflows DocumentationFull documentation can be found at httpscheck-jsonschema.readthedocs.io</longdescription>
+</pkgmetadata>

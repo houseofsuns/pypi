@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> optionaldict[[Build Status](httpstravis-ci.orgmessenseoptionaldict.svg)](httpstravis-ci.orgmessenseoptionaldict)[[Build status](httpsci.appveyor.comapiprojectsstatusqkj8q2cuitihj2dxbranchmastersvgtrue)](httpsci.appveyor.comprojectmessenseoptionaldictbranchmaster)[[Coverage Status](httpscoveralls.ioreposmessenseoptionaldictbadge.svg)](httpscoveralls.iormessenseoptionaldict)optionaldict is a dict-like object that ignore NoneType values for Python which is pickable and JSON serializable. InstallationYou can install optionaldict simply using pipbashpip install optionaldict Usageoptionaldicts usage is very simple, you will import it bypythonfrom optionaldict import optionaldictor if you prefer the CamelCasing style naming, you can import it bypythonfrom optionaldict import OptionalDict Tips In fact, optionaldict is just an alias for OptionalDict.Then you can use it just like the built-in dictpythond1  optionaldict(a1, bNone)d1[c]  2d1.setdefault(d, None)d2  optionaldict()d2[a]  1d2[b]  Noned3  optionaldict({    a 1,    b None})</longdescription>
+</pkgmetadata>

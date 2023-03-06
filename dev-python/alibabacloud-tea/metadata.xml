@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>English  [](README-CN.md)[](httpsaliyunsdk-pages.alicdn.comiconsAlibabaCloud.svg) Alibaba Cloud Tea for Python[[PyPI version](httpsbadge.fury.iopyalibabacloud-tea.svg)](httpsbadge.fury.iopyalibabacloud-tea)[[Python Test](httpsgithub.comaliyuntea-pythonactionsworkflowstestPython.ymlbadge.svg)](httpsgithub.comaliyuntea-pythonactionsworkflowstestPython.yml) Installation- Install with pipPython SDK uses a common package management tool named pip. If pip is not installed, see the [pip user guide](httpspip.pypa.ioenstableinstalling pip User Guide) to install pip.bash Install the alibabacloud-teapip install alibabacloud-tea Issues[Opening an Issue](httpsgithub.comaliyuntea-pythonissuesnew), Issues not conforming to the guidelines may be closed immediately. ChangelogDetailed changes for each release are documented in the [release notes](.ChangeLog.md). References [Latest Release](httpsgithub.comaliyuntea-pythontreemasterpython) License[Apache-2.0](httpwww.apache.orglicensesLICENSE-2.0)Copyright (c) 2009-present, Alibaba Cloud All rights reserved.</longdescription>
+</pkgmetadata>

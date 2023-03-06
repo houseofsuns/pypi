@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>fastcrc.. image httpsimg.shields.ioreadthedocsfastcrc.svgstyleflatmaxAge1800    alt Read the Docs    target httpsfastcrc.readthedocs.io.. image httpsimg.shields.iopypivfastcrc.svgstyleflatmaxAge1800    alt PyPI    target httpspypi.python.orgpypifastcrc.. image httpsimg.shields.iobadgepython-3.6207C203.7207C203.8207C203.9207C203.10-bluestyleflat    alt Python - Version    target httpspypi.python.orgpypifastcrcA hyper-fast Python module for computing CRC(16, 32, 64) checksum.Installation.. code-block text   pip install fastcrcUsage.. code python   from fastcrc import crc16, crc32, crc64   data  b123456789   print(fcrc16 checksum with xmodem algorithm {crc16.xmodem(data)})   print(fcrc32 checksum with aixm algorithm {crc32.aixm(data)})   print(fcrc64 checksum with ecma_182 algorithm {crc64.ecma_182(data)})   print(fcrc16 checksum with xmodem algorithm (with initial data) {crc16.xmodem(b56789, crc16.xmodem(b1234))})Documentationfastcrcs documentation can be found at httpsfastcrc.readthedocs.ioLicensefastcrc is licensed under MIT License_.Thanksfastcrc is made possible by crc-rs_... _MIT License .LICENSE.. _crc-rs httpsgithub.commrhooraycrc-rs</longdescription>
+</pkgmetadata>

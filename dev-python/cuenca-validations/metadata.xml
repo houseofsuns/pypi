@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Cuenca - validations[[test](httpsgithub.comcuenca-mxcuenca-validationsworkflowstestbadge.svg)](httpsgithub.comcuenca-mxcuenca-validationsactionsqueryworkflow3Atest)[[codecov](httpscodecov.ioghcuenca-mxcuenca-validationsbranchmastergraphbadge.svg)](httpscodecov.ioghcuenca-mxcuenca-validations)[[PyPI](httpsimg.shields.iopypivcuenca-validations.svg)](httpspypi.orgprojectcuenca-validations)Shared validations library across multiple Cuenca projects</longdescription>
+</pkgmetadata>

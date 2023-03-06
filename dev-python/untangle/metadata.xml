@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>untangle[[Build Status](httpsgithub.comstchrisuntangleactionsworkflowsbuild.ymlbadge.svg)](httpsgithub.comstchrisuntangleactions)[[PyPi version](httpsimg.shields.iopypivuntangle.svg)](httpspypi.python.orgpypiuntangle)a hrefhttpsgithub.compsfblackimg altCode style black srchttpsimg.shields.iobadgecode20style-black-000000.svga[Documentation](httpreadthedocs.orgdocsuntangleenlatest) Converts XML to a Python object. Siblings with similar names are grouped into a list. Children can be accessed with parent.child, attributes with element[attribute]. You can call the parse() method with a filename, an URL or an XML string. Substitutes -, . and  with _ foobarfoo-barfoobar can be accessed with foobar.foo_bar, foo.bar.baz can be accessed with foo_bar_baz and foobarfoobazfoobar can be accessed with foo_bar.foo_baz Works with Python 3.7 - 3.10Installation------------With pippip install untangleWith condaconda install -c conda-forge untangleConda feedstock maintained by htenkanen. Issues and questions about conda-forge packaging  installation can be done [here](httpsgithub.comconda-forgeuntangle-feedstockissues).Usage-----(See and run a hrefhttpsgithub.comstchrisuntangleblobmainexamples.pyexamples.pya or this blog post [Read XML painlessly](httppythonadventures.wordpress.com20111030read-xml-painlessly) for more info)pythonimport untangleobj  untangle.parse(resource)resource can be a URL a filename an XML stringRunning the above code and passing this XMLxmlxml version1.0rootchild namechild1rootallows it to be navigated from the untangled object like thispythonobj.root.child[name]  uchild1Changelog---------see CHANGELOG.md</longdescription>
+</pkgmetadata>

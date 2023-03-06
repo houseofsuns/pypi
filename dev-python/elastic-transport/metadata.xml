@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> elastic-transport-python[[PyPI](httpsimg.shields.iopypivelastic-transport)](httpspypi.orgelastic-transport)[[Python Versions](httpsimg.shields.iopypipyversionselastic-transport)](httpspypi.orgelastic-transport)[[PyPI Downloads](httpspepy.techbadgeelastic-transport)](httpspepy.techprojectelastic-transport)[[CI Status](httpsimg.shields.iogithubworkflowstatuselasticelastic-transport-pythonCImain)](httpsgithub.comelasticelastic-transport-pythonactions)Transport classes and utilities shared among Python Elastic client librariesThis library was lifted from [elasticsearch-py](httpsgithub.comelasticelasticsearch-py)and then transformed to be used across all Elastic servicesrather than only Elasticsearch. Installing from PyPI python -m pip install elastic-transportVersioning follows the major and minor version of the Elastic Stack version andthe patch number is incremented for bug fixes within a minor release.                       DocumentationDocumentation including an API reference is available on [Read the Docs](httpselastic-transport-python.readthedocs.io). Licenseelastic-transport-python is available under the Apache-2.0 license.For more details see [LICENSE](httpsgithub.comelasticelastic-transport-pythonblobmainLICENSE).</longdescription>
+</pkgmetadata>

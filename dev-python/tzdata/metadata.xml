@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>tzdata Python package providing IANA time zone dataThis is a Python package containing zic-compiled binaries for the IANA timezone database. It is intended to be a fallback for systems that do not havesystem time zone data installed (or dont have it installed in a standardlocation), as a part of PEP 615 httpswww.python.orgdevpepspep-0615_This repository generates a pip-installable package, published on PyPI astzdata httpspypi.orgprojecttzdata_.For more information, see the documentation httpstzdata.readthedocs.io_.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Pier One CLI.. image httpstravis-ci.orgzalando-stupspierone-cli.svgbranchmaster   target httpstravis-ci.orgzalando-stupspierone-cli   alt Build Status.. image httpscoveralls.ioreposzalando-stupspierone-clibadge.svg   target httpscoveralls.iorzalando-stupspierone-cli   alt Code Coverage.. image httpsimg.shields.iopypidwstups-pierone.svg   target httpspypi.python.orgpypistups-pierone   alt PyPI Downloads.. image httpsimg.shields.iopypivstups-pierone.svg   target httpspypi.python.orgpypistups-pierone   alt Latest PyPI version.. image httpsimg.shields.iopypilstups-pierone.svg   target httpspypi.python.orgpypistups-pierone   alt LicenseConvenience command line tool for Pier One Docker registry... code-block bash     sudo pip3 install --upgrade stups-pieroneUsage.. code-block bash     pierone login     pierone teamsSee the STUPS documentation on pierone_ for details.You can also run it locally from source.. code-block bash     python3 -m pieroneRunning Unit Tests.. code-block bash     python3 setup.py test --cov-htmltrue.. _STUPS documentation on pierone httpstups.readthedocs.orgenlatestcomponentspierone.htmlReleasing.. code-block bash     .release.sh NEW-VERSION</longdescription>
+</pkgmetadata>

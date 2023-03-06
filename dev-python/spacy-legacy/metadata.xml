@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>a hrefhttpsexplosion.aiimg srchttpsexplosion.aiassetsimglogo.svg width125 height125 alignright a spacy-legacy Legacy functions and architectures for backwards compatibilityThis package includes outdated registered functions for [spaCy](httpsspacy.io) v3.x, for example model architectures, pipeline components and utilities. Its installed automatically as a dependency of spaCy, and allows us to provide backwards compatibility, while keeping the core library tidy and up to date. All of this happens under the hood, so you typically shouldnt have to care about this package.[[Azure Pipelines](httpsimg.shields.ioazure-devopsbuildexplosion-aipublic21master.svglogoazure-pipelinesstyleflat-squarelabelbuild)](httpsdev.azure.comexplosion-aipublic_builddefinitionId21)[[pypi Version](httpsimg.shields.iopypivspacy-legacy.svgstyleflat-squarelogopypilogoColorwhite)](httpspypi.orgprojectspacy-legacy) How it worksWhenever a new backwards-incompatible version of a registered function is available, e.g. spacy.Tok2Vec.v1 rarr spacy.Tok2Vec.v2, the legacy version is moved to spacy-legacy, and exposed via [entry points](setup.cfg). This means that it will still be available if your config files use it, even though the core library only includes the latest version.Legacy functions are exposed with the prefix spacy-legacy, e.g. spacy-legacy.Tok2Vec.v1. When spaCy resolves your config and a function is not available in the core library, e.g. spacy.Tok2Vec.v1, it will check if theres a legacy function available and fall back to that. You can also explicitly refer to legacy functions in your config, to indicate that a newer version is available.</longdescription>
+</pkgmetadata>

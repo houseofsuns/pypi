@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>version python license ci.. version image httpsimg.shields.iopypivalabaster    target httpspypi.orgprojectalabaster    alt PyPI - Package Version.. python image httpsimg.shields.iopypipyversionsalabaster    target httpspypi.orgprojectalabaster    alt PyPI - Python Version.. license image httpsimg.shields.iopypilalabaster    target httpsgithub.combitprophetalabasterblobmainLICENSE    alt PyPI - License.. ci image httpsimg.shields.iocirclecibuildgithubbitprophetalabastermain    target httpsapp.circleci.compipelinesgithubbitprophetalabaster    alt CircleCIWhat is AlabasterAlabaster is a visually (c)lean, responsive, configurable theme for the Sphinxhttpsphinx-doc.org_ documentation system. It is Python 3.6+ compatible.It began as a third-party theme, and is still maintained separately, but as ofSphinx 1.3, Alabaster is an install-time dependency of Sphinx and is selectedas the default theme.Live examples of this theme can be seen on this projects own websitehttpalabaster.readthedocs.io_, paramiko.org httpparamiko.org_,fabfile.org httpfabfile.org_ and pyinvoke.org httppyinvoke.org_.For more documentation, please see httpalabaster.readthedocs.io. For aroadmap, see the maintainers roadmap pagehttpbitprophet.orgprojectsroadmap_... note    You can install the development version via pip install -e    git+httpsgithub.combitprophetalabastereggalabaster.</longdescription>
+</pkgmetadata>

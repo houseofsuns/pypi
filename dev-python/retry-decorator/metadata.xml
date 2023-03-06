@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image httpsbadge.fury.iopyretry_decorator.svg    target httpsbadge.fury.iopyretry_decorator.. image httpstravis-ci.orgpnpnpnretry-decorator.svgbranchmaster    target httpstravis-ci.orgpnpnpnretry-decorator    Usage-----Retry decorator    usrbinenv python    from __future__ import print_function    from retry_decorator import     retry(Exception, tries  3, timeout_secs  0.1)    def test_retry()        import sys        print(hello, file  sys.stderr)        raise Exception(Testing retry)    if __name__  __main__        try            test_retry()        except Exception as e            print(Received the last exception)Contribute---------------I would love for you to fork and send me pull request for this project. Please contribute.</longdescription>
+</pkgmetadata>

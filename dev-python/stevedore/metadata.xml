@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>stevedore -- Manage dynamic plugins for Python applications.. image httpsimg.shields.iopypivstevedore.svg    target httpspypi.orgprojectstevedore    alt Latest Version.. image httpsgovernance.openstack.orgtcbadgesstevedore.svg    target httpsgovernance.openstack.orgtcreferencetagsindex.htmlPython makes loading code dynamically easy, allowing you to configureand extend your application by discovering and loading extensions(plugins) at runtime. Many applications implement their ownlibrary for doing this, using __import__ or importlib.stevedore avoids creating yet another extensionmechanism by building on top of setuptools entry points_. The codefor managing entry points tends to be repetitive, though, so stevedoreprovides manager classes for implementing common patterns for usingdynamically loaded extensions... _setuptools entry points httpsetuptools.readthedocs.ioenlatestpkg_resources.htmlentry-points Free software Apache license Documentation httpsdocs.openstack.orgstevedorelatest Source httpsopendev.orgopenstackstevedore Bugs httpsbugs.launchpad.netpython-stevedore</longdescription>
+</pkgmetadata>

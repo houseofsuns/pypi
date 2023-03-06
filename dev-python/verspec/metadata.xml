@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> verspecverspec is a Python library for handling software versions and specifiers,adapted from the [packaging][packaging] package. An Examplepythonfrom verspec import loose, pythonv1  loose.Version(1.0)s1  loose.SpecifierSet(1.0)assert v1 in s1v2  python.Version(1.0)s2  python.SpecifierSet(1.0)assert v2 in s2 DocumentationForthcoming (Sorry about that...) CreditsThe real credit for this package goes to the [Python Packaging Authority][pypa]. LicenseThis project is dual-licensed under the BSD and Apache licenses.[gh-actions-image] httpsgithub.comjimporterverspecworkflowsbuildbadge.svg[gh-actions-link] httpsgithub.comjimporterverspecactionsquerybranch3Amaster+workflow3Abuild[codecov-image] httpscodecov.ioghjimporterverspecbranchmastergraphbadge.svg[codecov-link] httpscodecov.ioghjimporterverspec[packaging] httpsgithub.compypapackaging[pypa] httpswww.pypa.io</longdescription>
+</pkgmetadata>

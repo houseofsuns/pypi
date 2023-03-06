@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>uritemplateDocumentation_ -- GitHub_ -- Travis-CI_Simple python library to deal with URI Templates_. The API looks like.. code-block python    from uritemplate import URITemplate, expand     NOTE URI params must be strings not integers    gist_uri  httpsapi.github.comuserssigmavirus24gists{gist_id}    t  URITemplate(gist_uri)    print(t.expand(gist_id123456))      httpsapi.github.comuserssigmavirus24gists123456     or    print(expand(gist_uri, gist_id123456))     also    t.expand({gist_id 123456})    print(expand(gist_uri, {gist_id 123456}))Where it might be useful to have a class.. code-block python    import requests    class GitHubUser(object)        url  URITemplate(httpsapi.github.comuser{login})        def __init__(self, name)            self.api_url  url.expand(loginname)            response  requests.get(self.api_url)            if response.status_code  200                self.__dict__.update(response.json())When the module containing this class is loaded, GitHubUser.url isevaluated and so the template is created once. Its often hard to notice inPython, but object creation can consume a great deal of time and so can there module which uritemplate relies on. Constructing the object once shouldreduce the amount of time your code takes to run.Installing----------    pip install uritemplateLicense-------Modified BSD license_.. _Documentation httpsuritemplate.readthedocs.io.. _GitHub httpsgithub.compython-hyperuritemplate.. _Travis-CI httpstravis-ci.orgpython-hyperuritemplate.. _URI Templates httpstools.ietf.orghtmlrfc6570.. _license httpsgithub.compython-hyperuritemplateblobmasterLICENSE</longdescription>
+</pkgmetadata>

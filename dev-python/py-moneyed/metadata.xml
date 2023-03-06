@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image httpsgithub.compy-moneyedpy-moneyedworkflowsbuildbadge.svg    target httpsgithub.compy-moneyedpy-moneyedactionsqueryworkflow3Abuild    alt Build Status.. image httpsbadge.fury.iopypy-moneyed.svg    target httpspypi.orgprojectpy-moneyed    alt Latest PyPI version.. image httpsreadthedocs.orgprojectspy-moneyedbadgeversionlatest   target httppy-moneyed.readthedocs.ioenlatestbadgelatestOverviewThe need to represent instances of money frequently arises in softwaredevelopment, particularly any financialeconomics software. To address thatneed, the py-moneyed package provides the classes of Money and Currency, at alevel more useful than just using Pythons Decimal class, or (DEITY forbid) thefloat primitive. The package is meant to be stand-alone and used directly, orbe subclassed further. py-moneyed is BSD-licensed.Quick start-----------To install    pip install py-moneyedUse.. sourcecode python    from moneyed import Money, USD    five_dollars  Money(5, USD)You then use Money objects as if they were numbers, and they behavesensibly. See docs httpspy-moneyed.readthedocs.ioenlatest_ for moreinformation (or the docs folder).History-------Some of the py-moneyed code was first derived from python-moneyavailable via this URL httpcode.google.comppython-moneyDue to inactivity, it was forked by limist in 2010 and latermoved to the py-moneyed organization.</longdescription>
+</pkgmetadata>

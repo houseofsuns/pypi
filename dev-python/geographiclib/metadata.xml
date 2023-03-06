@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Python implementation of the geodesic routines in GeographicLibThis is a library to solve geodesic problems on an ellipsoid model ofthe earth.Licensed under the MITX11 License see[LICENSE.txt](httpsgeographiclib.sourceforge.ioLICENSE.txt).The algorithms are documented in C. F. F. Karney,  [Algorithms for geodesics](httpsdoi.org10.1007s00190-012-0578-z),  J. Geodesy 87(1), 4355 (2013)  [Addenda](httpsgeographiclib.sourceforge.iogeod-addenda.html).The documentation for this package is inhttpsgeographiclib.sourceforge.ioPythondoc</longdescription>
+</pkgmetadata>

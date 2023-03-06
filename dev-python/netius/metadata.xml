@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Netius httpnetius.hive.pt__Fast and readable async non-blocking network appsNetius is a Python network library that can be used for the rapid creation of asynchronous non-blockingservers and clients. It has no dependencies, its cross-platform, and brings some sample netius-poweredservers out of the box, namely a production-ready WSGI server.Simplicity and performance are the main drivers of this project. The codebase adheres to very strictcode standards, and is extensively commented and as far as performance is concerned, it aims tobe up to par with equivalent native implementations, where PyPy httppypy.org__ can be used toprovide the extra boost to raise performance up to these standards.Installation------------    pip install netiusUsage-----WSGI Server.. code python    import netius.servers    def app(environ, start_response)        status  200 OK        contents  Hello World        content_l  len(contents)        headers  (            (Content-Length, content_l),            (Content-Type, textplain),            (Connection, keep-alive)        )        start_response(status, headers)        yield contents    server  netius.servers.WSGIServer(app  app)    server.serve(port  8080)More----For more information consult the website httpnetius.hive.pt__.</longdescription>
+</pkgmetadata>

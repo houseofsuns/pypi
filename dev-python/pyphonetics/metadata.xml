@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>PyphoneticsPyphonetics is a Python 3 library for phonetic algorithms. Right now, the following algorithms are implemented and supported  Soundex  Metaphone  Refined Soundex  Fuzzy Soundex  Lein  Matching Rating ApproachMore will be added in the future.InstalationThe module is available in PyPI, just use pip install pyphonetics.Usage     from pyphonetics import Soundex     soundex  Soundex()     soundex.phonetics(Rupert)    R163     soundex.phonetics(Robert)    R163     soundex.sounds_like(Robert, Rupert)    TrueThe same API applies to every algorithm, e.g     from pyphonetics import Metaphone     metaphone  Metaphone()     metaphone.phonetics(discrimination)    TSKRMNXNYou can also use the distance(word1, word2, metriclevenshtein) method to find the distance between 2 phonetic representations.     from pyphonetics import RefinedSoundex     rs  RefinedSoundex()     rs.distance(Rupert, Robert)    0     rs.distance(assign, assist, metrichamming)    2CreditsThe module was largely based on the implementation of phonetic algorithms found in the Talisman.js (httpsgithub.comYomguitherealtalisman) Node NLP library.</longdescription>
+</pkgmetadata>

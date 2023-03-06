@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[Ladybug](httpwww.ladybug.toolsassetsimgladybug.png)[[Build Status](httpsgithub.comladybug-toolslbt-ladybugworkflowsCIbadge.svg)](httpsgithub.comladybug-toolslbt-ladybugactions)[[Python 3.7](httpsimg.shields.iobadgepython-3.7-blue.svg)](httpswww.python.orgdownloadsreleasepython-370) [[Python 2.7](httpsimg.shields.iobadgepython-2.7-green.svg)](httpswww.python.orgdownloadsreleasepython-270) [[IronPython](httpsimg.shields.iobadgeironpython-2.7-red.svg)](httpsgithub.comIronLanguagesironpython2releasestagipy-2.7.8) lbt-ladybugCollection of all Ladybug core Python libraries.Note that this repository and corresponding Python package does not contain anycode and it simply exists to provide a shortcut for installing all of the ladybugcore libraries together. Included Ladybug PackagesRunning pip install lbt-ladybug -U will result in the installation of thefollowing Python packages [ladybug-core](httpsgithub.comladybug-toolsladybug) [ladybug-geometry](httpsgithub.comladybug-toolsladybug-geometry) [ladybug-comfort](httpsgithub.comladybug-toolsladybug-comfort) [ladybug-radiance](httpsgithub.comladybug-toolsladybug-radiance) [ladybug-display](httpsgithub.comladybug-toolsladybug-display)</longdescription>
+</pkgmetadata>

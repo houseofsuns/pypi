@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>OpenCensus Django Integrationpypi.. pypi image httpsbadge.fury.iopyopencensus-ext-django.svg   target httpspypi.orgprojectopencensus-ext-djangoInstallation------------    pip install opencensus-ext-djangoUsage-----For tracing Django requests, you will need to add the following line tothe MIDDLEWARE section in the Django settings.py file... code python    MIDDLEWARE  [        ...        opencensus.ext.django.middleware.OpencensusMiddleware,    ]Additional configuration can be provided, please readCustomization httpsgithub.comcensus-instrumentationopencensus-pythoncustomization_for a complete reference... code python    OPENCENSUS  {        TRACE {            SAMPLER opencensus.trace.samplers.ProbabilitySampler(rate1),            EXPORTER opencensus.ext.ocagent.trace_exporter.TraceExporter(                service_namefoobar,            ),        }    }References---------- OpenCensus Project httpsopencensus.io_</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>CacheLibA collection of cache libraries in the same API interface. Extractedfrom Werkzeug.Installing----------Install and update using pip_.. code-block text     pip install -U cachelib.. _pip httpspip.pypa.ioenstablegetting-startedDonate------The Pallets organization develops and supports Flask and the librariesit uses. In order to grow the community of contributors and users, andallow the maintainers to devote more time to the projects, pleasedonate today_... _please donate today httpspalletsprojects.comdonateLinks------   Documentation httpscachelib.readthedocs.io-   Changes httpscachelib.readthedocs.iochanges-   PyPI Releases httpspypi.orgprojectcachelib-   Source Code httpsgithub.compalletscachelib-   Issue Tracker httpsgithub.compalletscachelibissues-   Twitter httpstwitter.comPalletsTeam-   Chat httpsdiscord.ggpallets</longdescription>
+</pkgmetadata>

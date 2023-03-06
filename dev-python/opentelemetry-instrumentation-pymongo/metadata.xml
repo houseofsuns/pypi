@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>OpenTelemetry pymongo Instrumentationpypi.. pypi image httpsbadge.fury.iopyopentelemetry-instrumentation-pymongo.svg   target httpspypi.orgprojectopentelemetry-instrumentation-pymongoInstallation------------    pip install opentelemetry-instrumentation-pymongoReferences---------- OpenTelemetry pymongo Instrumentation httpsopentelemetry-python-contrib.readthedocs.ioenlatestinstrumentationpymongopymongo.html_ OpenTelemetry Project httpsopentelemetry.io_ OpenTelemetry Python Examples httpsgithub.comopen-telemetryopentelemetry-pythontreemaindocsexamples_</longdescription>
+</pkgmetadata>

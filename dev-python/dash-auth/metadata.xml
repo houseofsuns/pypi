@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Dash Authorization and LoginDocs [httpsplotly.comdashauthentication](httpsplotly.comdashauthentication)License MITTests [[CircleCI](httpscircleci.comghplotlydash-auth.svgstylesvg)](httpscircleci.comghplotlydash-auth)For local testing, install and use toxTOX_PYTHON_27python2.7 TOX_PYTHON_36python3.6 toxOr create a virtualenv, install the dev requirements, and run individualtests or test classesvirtualenv venvsource venvactivatepip install -r dev-requirements.txtpython -m unittest -v tests.test_plotlyauth.ProtectedViewsTestNote that Python 2.7.7 or greater is required.</longdescription>
+</pkgmetadata>

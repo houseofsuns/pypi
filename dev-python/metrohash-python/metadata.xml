@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> metrohash-pythonPython bindings for the fast non-cryptograpical hash function MetroHash. MetroHash C++ library by J. Andrew Rogers, Python bindings by Dobatymo. RequirementsThe library has been tested on Linux Python 3.6, and on Windows Python 3.6, 3.7. Installpip install metrohash-pythonCompilation requires a C++ compiler and optionally Cython. ExamplesThe usage is similar to Pythons hashlib.python import metrohash h  metrohash.MetroHash128() h.update(basd) h.update(bqwe) h.digest()bKxfbx17xebxb2Wxbdx93xadxf6x17xcegx14xda h.hexdigest()4bfb17eb3eb257bd93adf617ce6714daOr as simple non-incremental functionpython import metrohash metrohash.metrohash128(basdqwe)bKxfbx17xebxb2Wxbdx93xadxf6x17xcegx14xdaThe interface for MetroHash64 and metrohash64 is the same.</longdescription>
+</pkgmetadata>

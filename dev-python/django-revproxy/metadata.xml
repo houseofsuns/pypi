@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Welcome to django-revproxy.. image httpstravis-ci.orgTracyWebTechdjango-revproxy.svgbranchmaster       target httpstravis-ci.orgTracyWebTechdjango-revproxy.. image httpscoveralls.ioreposTracyWebTechdjango-revproxybadge.svg       target httpscoveralls.iorTracyWebTechdjango-revproxybranchmaster.. image httpslandscape.iogithubTracyWebTechdjango-revproxymasterlandscape.svgstyleflat      target httpslandscape.iogithubTracyWebTechdjango-revproxymasterA simple reverse proxy using Django. It allows to use Django as areverse Proxy to HTTP requests. It also allows to use Django as anauthentication Proxy.Documentation available at httpdjango-revproxy.readthedocs.orgFeatures--------- Proxies all HTTP methods HEAD, GET, POST, PUT, DELETE, OPTIONS, TRACE, CONNECT and PATCH Copy all http headers sent from the client to the proxied server Copy all http headers sent from the proxied server to the client (except hop-by-hop httpwww.w3.orgProtocolsrfc2616rfc2616-sec13.htmlsec13.5.1_) Basic URL rewrite Sets the http header REQUEST_USER if the user is logged in Django Handles redirects Few external dependencies Apply XSLT transformation in the response (requires Diazo)Dependencies------------ django  1.8 urllib3  1.12 diazo  1.0.5 (optional) lxml  3.4,  3.5 (optional, but diazo dependency)Install--------pip install django-revproxy</longdescription>
+</pkgmetadata>

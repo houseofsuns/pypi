@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>unicodecsvThe unicodecsv is a drop-in replacement for Python 2.7s csv module which supports unicode strings without a hassle.  Supported versions are python 2.7, 3.3, 3.4, 3.5, and pypy 2.4.0.More fully----------Python 2s csv module doesnt easily deal with unicode strings, leading to the dreaded ascii codec cant encode characters in position ... exception.You can work around it by encoding everything just before calling write (or just after read), but why not add support to the serializer.. code-block pycon    import unicodecsv as csv    from io import BytesIO    f  BytesIO()    w  csv.writer(f, encodingutf-8)    _  w.writerow((u, u))    _  f.seek(0)    r  csv.reader(f, encodingutf-8)    next(r)  [u, u]   TrueNote that unicodecsv expects a bytestream, not unicode -- so theres no need to use codecs.open or similar wrappers.  Plain open(..., rb) will do.(Version 0.14.0 dropped support for python 2.6, but 0.14.1 added it back.  See c0b7655248c4249 for the mistaken, breaking change.)</longdescription>
+</pkgmetadata>

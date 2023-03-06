@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Terminal for Simple and Beautiful.. image httpstravis-ci.orgleptureterminal.pngbranchmaster        target httpstravis-ci.orgleptureterminal.. image httpscoveralls.ioreposleptureterminalbadge.pngbranchmaster        target httpscoveralls.iorleptureterminalA better terminal tools for python.Find documentation at Read The Docs_... _Read The Docs httpsterminal.readthedocs.orgFeatures-------- An easy to use command parser Full featured ANSI colors and styles Full featured prompt communication Nested and verbose logging No dependencies (windows need colorama)Installation------------To install terminal, simply     pip install terminalContribute----------Read the Contribution Guide_... _Contribution Guide httpsgithub.comleptureterminalblobmasterCONTRIBUTING.rst</longdescription>
+</pkgmetadata>

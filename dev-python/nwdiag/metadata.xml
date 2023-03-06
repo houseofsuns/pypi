@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>nwdiag generate network-diagram image file from spec-text file... image httpsdrone.iobitbucket.orgblockdiagnwdiagstatus.png   target httpsdrone.iobitbucket.orgblockdiagnwdiag   alt drone.io CI build status.. image httpspypip.invnwdiagbadge.png   target httpspypi.python.orgpypinwdiag   alt Latest PyPI version.. image httpspypip.indnwdiagbadge.png   target httpspypi.python.orgpypinwdiag   alt Number of PyPI downloadsFeatures Generate network-diagram from dot like text (basic feature). Multilingualization for node-label (utf-8 only).You can get some examples and generated images on blockdiag.com httpblockdiag.comennwdiagnwdiag-examples.html_ .SetupUse easy_install or pip    sudo easy_install nwdiag   Or    sudo pip nwdiagspec-text setting sampleFew examples are available.You can get more examples atblockdiag.com_ .simple.diag------------simple.diag is simply define nodes and transitions by dot-like text format    nwdiag {      network dmz {          address  210.x.x.x24          web01 [address  210.x.x.1]          web02 [address  210.x.x.2]      }      network internal {          address  172.x.x.x24          web01 [address  172.x.x.1]          web02 [address  172.x.x.2]          db01          db02      }    }UsageExecute nwdiag command    nwdiag simple.diag    ls simple.png   simple.pngRequirements Python 3.7 or later blockdiag 1.5.0 or later funcparserlib 0.3.6 or later reportlab (optional) wand and imagemagick (optional) setuptoolsLicenseApache License 2.0</longdescription>
+</pkgmetadata>

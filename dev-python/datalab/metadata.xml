@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Datalab is deprecated. [Vertex AI Workbench](httpscloud.google.comvertex-aidocsworkbench)provides a notebook-based environment that offers capabilities beyond Datalab.We recommend that you use Vertex AI Workbench for new projects and[migrate your Datalab notebooks to Vertex AI Workbench](httpscloud.google.comdatalabdocsresourcestroubleshootingmigrate).For more information, see[Deprecation information](httpscloud.google.comdatalabdocsresourcesdeprecation).To get help migrating Datalab projects to Vertex AI Workbench see[Get help](httpscloud.google.comdatalabdocsresourcessupportget-help).  </longdescription>
+</pkgmetadata>

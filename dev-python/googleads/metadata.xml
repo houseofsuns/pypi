@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>The googleads Python Client LibrariesThe googleads Python Client Libraries support the following products Google Ad Manager APIYou can find more information about the Google Ads Python Client Librarieshere httpsgithub.comgoogleadsgoogleads-python-lib_.Supported Python VersionsThis library is supported for Python 3.7+.InstallationYou have two options for installing the Ads Python Client Libraries Install with a tool such as pip   sudo pip install googleads Install manually after downloading and extracting the tarball   sudo python setup.py installExamplesIf you would like to obtain example code for any of the includedclient libraries, you can find it on ourdownloads page httpsgithub.comgoogleadsgoogleads-python-libreleases_.Contact UsDo you have an issue using the googleads Client Libraries Or perhaps somefeedback for how we can improve them Feel free to let us know on ourissue tracker httpsgithub.comgoogleadsgoogleads-python-libissues_.</longdescription>
+</pkgmetadata>

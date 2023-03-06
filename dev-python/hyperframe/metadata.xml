@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>hyperframe Pure-Python HTTP2 framing.. image httpsgithub.compython-hyperhyperframeworkflowsCIbadge.svg    target httpsgithub.compython-hyperhyperframeactions    alt Build Status.. image httpscodecov.ioghpython-hyperhyperframebranchmastergraphbadge.svg    target httpscodecov.ioghpython-hyperhyperframe    alt Code Coverage.. image httpsreadthedocs.orgprojectshyperframebadgeversionlatest    target httpshyperframe.readthedocs.ioenlatest    alt Documentation Status.. image httpsimg.shields.iobadgechat-join_now-brightgreen.svg    target httpsgitter.impython-hypercommunity    alt Chat communityThis library contains the HTTP2 framing code used in the hyper_ project. Itprovides a pure-Python codebase that is capable of decoding a binary streaminto HTTP2 frames.This library is used directly by hyper_ and a number of other projects toprovide HTTP2 frame decoding logic.Contributinghyperframe welcomes contributions from anyone Unlike many other projects weare happy to accept cosmetic contributions and small contributions, in additionto large feature requests and changes.Before you contribute (either by opening an issue or filing a pull request),please read the contribution guidelines_... _read the contribution guidelines httphyper.readthedocs.orgendevelopmentcontributing.htmlLicensehyperframe is made available under the MIT License. For more details, see theLICENSE file in the repository.Authorshyperframe is maintained by Cory Benfield, with contributions from others. Formore details about the contributors, please see CONTRIBUTORS.rst... _hyper httppython-hyper.org</longdescription>
+</pkgmetadata>

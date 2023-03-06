@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Motivation----------Suppose you want to import the contents of A.ipynb into B.ipynb.Installation------------.. code bash    pip install import-ipynbHow to use----------Place both ipynb files in the same directory. Then, in the B.ipynb.. code python    import import_ipynb    import ACongratulations You can now run any functions defined in A.ipynb fromB.ipynbHow it works------------The code within import_ipynb.py defines a notebook loader that allowsyou to import other ipynb files into your current ipynb file. Thisentails1. load the notebook document into memory2. create an empty Module3. execute every cell in the Module namespaceNote that since every cell in the A.ipynb is executed when you importthe the file, A.ipynb should only contain classes and functiondefinitions (otherwise youll end up loading all variables and data intomemory).Credits-------The code within imoprt_ipynb.py comes fromhttpjupyter-notebook.readthedocs.ioenlatestexamplesNotebookImporting20Notebooks.html.Riley F. Edmunds (rileyedmunds) wrote instructions on how to use itand Lev Maximov (axil) packaged it.</longdescription>
+</pkgmetadata>

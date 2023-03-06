@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>lit+++++Aboutlit is a portable tool for executing LLVM and Clang style test suites,summarizing their results, and providing indication of failures. lit isdesigned to be a lightweight testing tool with as simple a user interface aspossible.Features  Portable  Flexible test discovery.  Parallel test execution.  Support for multiple test formats and test suite designs.DocumentationThe official lit documentation is in the man page, available online at the LLVMCommand Guide httpllvm.orgcmdslit.html.SourceThe lit source is available as part of LLVM, in the LLVM source repositoryhttpsgithub.comllvmllvm-projecttreemainllvmutilslit</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>For tutorials and API documentation see Stems homepage httpsstem.torproject.org_.Quick Start-----------To install you can either use...  pip install stem... or install from the source tarball. Stem supports both the python 2.x and 3.x series. To use its python3 counterpart you simply need to install using that version of python.  python3 setup.py installAfter that, give some tutorials httpsstem.torproject.orgtutorials.html_ a try For questions or to discuss project ideas were available on irc httpswww.torproject.orgaboutcontact.html.enirc_ and the tor-dev email list httpslists.torproject.orgcgi-binmailmanlistinfotor-dev_.</longdescription>
+</pkgmetadata>

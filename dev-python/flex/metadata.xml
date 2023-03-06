@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> FLEX[[Build Status](httpsbadgen.nettravispipermerriamflex)](httpstravis-ci.orgpipermerriamflex)[[Documentation Status](httpsreadthedocs.orgprojectsflex-swaggerbadgeversionlatest)](httpsreadthedocs.orgprojectsflex-swaggerbadgelatest)[[PyPi version](httpsbadgen.netpypivflex)](httpspypi.orgprojectflex)[[PyPi downloads](httpsimg.shields.iopypidmflex.svg)](httpspypi.python.orgpypiflex)   Validation tooling for [Swagger 2.0](httpsgithub.comwordnikswagger-specblobmasterversions2.0.md) specifications.[Documentation on ReadTheDocs](httpflex-swagger.readthedocs.orgenlatest) Features Validate swagger schemas. JSON Schema Validation Validation of requestresponse objects against schema. Command Line interface. CLI Name ChangeStarting in version 5.0.0 the CLI interface has been changed to swagger-flexdue to a collision with the Apache Flex project.</longdescription>
+</pkgmetadata>

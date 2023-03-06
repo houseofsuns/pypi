@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[[Build Status](httpstravis-ci.comladybug-toolslbt-grasshopper.svgbranchmaster)](httpstravis-ci.comladybug-toolslbt-grasshopper)[[IronPython](httpsimg.shields.iobadgeironpython-2.7-red.svg)](httpsgithub.comIronLanguagesironpython2releasestagipy-2.7.8) lbt-grasshopperCollection of all Ladybug Tools plugins for Grasshopper.Note that this repository and corresponding Python package does not contain anycode and it simply exists to provide a shortcut for installing all of the grasshopperplugin packages together. The repository CI also manages the assignment of versionnumbers to the totality of the grasshopper plugins together. Included Grasshopper PluginsRunning pip install lbt-grasshopper will result in the installation of thefollowing Grasshopper plugin packages [ladybug-grasshopper](httpsgithub.comladybug-toolsladybug-grasshopper) [honeybee-grasshopper-core](httpsgithub.comladybug-toolshoneybee-grasshopper-core) [honeybee-grasshopper-radiance](httpsgithub.comladybug-toolshoneybee-grasshopper-radiance) [honeybee-grasshopper-energy](httpsgithub.comladybug-toolshoneybee-grasshopper-energy) [dragonfly-grasshopper](httpsgithub.comladybug-toolsdragonfly-grasshopper)All of the repositories above contain only Grasshopper components and theirsource code. InstallationSee [the wiki of this repository](httpsgithub.comladybug-toolslbt-grasshopperwiki)for a list of instructions to install the Grasshopper plugin for free.Alternatively, you can use the [Pollination Grasshopper single-click installer ](httpswww.pollination.cloudgrasshopper-plugin) to install the Ladybug Tools plugin for free.</longdescription>
+</pkgmetadata>

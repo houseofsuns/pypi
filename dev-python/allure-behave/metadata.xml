@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Allure Behave Formatter.. image httpsimg.shields.iopypivallure-behave        alt Release Status        target httpspypi.python.orgpypiallure-behave.. image httpsimg.shields.iopypidmallure-behave        alt Downloads        target httpspypi.python.orgpypiallure-behave- Source httpsgithub.comallure-frameworkallure-python_- Documentation httpsdocs.qameta.ioallure-report_- Gitter httpsgitter.imallure-frameworkallure-core_Installation and Usage.. code bash     pip install allure-behave     behave -f allure_behave.formatterAllureFormatter -o allure_result_folder .features     allure serve allure_result_folderSupport behave parallel-----------------------Current implementation of behave-parallel makes some allure features inaccessible. So in this case you need patch yourenvironment.py files instead using formatter. If you dont use environment.py, just crate empty one with calling allurelike in example below... code python    from allure_behave.hooks import allure_report     your code    allure_report(pathtoresultdir)Usage examples--------------See usage examples here examples_.</longdescription>
+</pkgmetadata>

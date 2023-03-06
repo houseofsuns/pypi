@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Mizani    Latest Release       release_License              license_Build Status         buildstatus_Coverage             coverage_Documentation        documentation_    Mizani is a scales package for graphics. It is written in Python and isbased on Hadley Wickhams Scales_. See the documentation_ for howto use it in a graphics system.InstallationOfficial version.. code-block console    pip install mizaniDevelopment version.. code-block console    pip install git+httpsgithub.comhas2k1mizani.gitmain.. release image httpsimg.shields.iopypivmizani.svg.. _release httpspypi.python.orgpypimizani.. license image httpsimg.shields.iopypilmizani.svg.. _license httpspypi.python.orgpypimizani.. buildstatus image httpsgithub.comhas2k1mizaniworkflowsbuildbadge.svgbranchmain.. _buildstatus httpsgithub.comhas2k1mizaniactionsquerybranch3Amain+workflow3A22build22.. coverage image httpscodecov.io githubhas2k1mizanicoverage.svgbranchmain.. _coverage httpscodecov.iogithubhas2k1mizanibranchmain.. documentation image httpsreadthedocs.orgprojectsmizanibadgeversionlatest.. _documentation httpsmizani.readthedocs.ioenlatest.. _Scales httpsgithub.comr-libscales</longdescription>
+</pkgmetadata>

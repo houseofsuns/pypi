@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image httppepy.techbadgehttpagentparser        target httppepy.techprojecthttpagentparser.. image httpsimg.shields.iopypivhttpagentparser.svg        target httpspypi.python.orgpypihttpagentparser.. image httpsimg.shields.iotravisshonhttpagentparser.svg        target httpstravis-ci.orgshonhttpagentparser.. image httpsimg.shields.iotravisshonhttpagentparser.svg        target httpstravis-ci.orgshonhttpagentparserFeatures--------- Fast- Detects OS and Browser. Does not aim to be a full featured agent parser- Will not turn into django-httpagentparser )Usage-----.. code-block python     import httpagentparser     s  Mozilla5.0 (X11 U Linux i686 en-US) AppleWebKit532.9 (KHTML, like Gecko)             Chrome5.0.307.11 Safari532.9     print(httpagentparser.simple_detect(s))    (Linux, Chrome 5.0.307.11)     print(httpagentparser.detect(s))    {os {name Linux},     browser {version 5.0.307.11, name Chrome}}     s  Mozilla5.0 (Linux U Android 2.3.5 en-in HTC_DesireS_S510e BuildGRJ90)             AppleWebKit533.1 (KHTML, like Gecko) Version4.0 Mobile Safari533.1     print(httpagentparser.simple_detect(s))    (Android Linux 2.3.5, Safari 4.0)     print(httpagentparser.detect(s))    {dist {version 2.3.5, name Android},    os {name Linux},    browser {version 4.0, name Safari}}History-------httpstackoverflow.comquestions927552parsing-http-user-agent-string11519561151956</longdescription>
+</pkgmetadata>

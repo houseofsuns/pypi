@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Contains a collection of extensions that add functionality to the Jupyternotebook. These extensions are mostly written in Javascript, and are loadedlocally in the browser.Readthe documentation httpsjupyter-contrib-nbextensions.readthedocs.io_for more information.Thejupyter-contrib repository httpsgithub.comipython-contribjupyter_contrib_nbextensions_is maintained independently by a group of users and developers, and is notofficially related to the Jupyter development team.The maturity of the provided extensions varies, so please checkthe repository issues page httpsgithub.comipython-contribjupyter_contrib_nbextensionsissues_if you encounter any problems, and create a new issue if needed</longdescription>
+</pkgmetadata>

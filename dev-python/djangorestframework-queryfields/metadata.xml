@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Django REST Framework QueryFieldsInstallation------------.. code-block bash    pip install djangorestframework-queryfieldsQuickstart----------Specify your base model serializer like this.. code-block python    from rest_framework.serializers import ModelSerializer    from drf_queryfields import QueryFieldsMixin    class MyModelSerializer(QueryFieldsMixin, ModelSerializer)        passUsage-----.. code-block bash    GET http127.0.0.18000snippets    HTTP1.1 200 OK    ...    [      {        id 1,        title ,        code foo  barn,        linenos false,        language python,        style friendly      },      {        id 2,        title ,        code print hello, worldn,        linenos false,        language python,        style friendly      }    ]    GET http127.0.0.18000snippetsfieldsid,code    HTTP1.1 200 OK    ...    [      {        id 1,        code foo  barn,      },      {        id 2,        code print hello, worldn,      }    ]    GET http127.0.0.18000snippetsfieldscode    HTTP1.1 200 OK    ...    [      {        id 1,        title ,        linenos false,        language python,        style friendly      },      {        id 2,        title ,        linenos false,        language python,        style friendly      }    ]Feedback--------For feature requests or bug reports, please create an issue here httpsgithub.comwimglenndjangorestframework-queryfieldsissues_.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Canonical source for [classifiers][1] on [PyPI][2].Classifiers [categorize projects][3] per [PEP 301][4]. Use this package tovalidate classifiers in packages for PyPI upload or download. UsageTo install [from PyPI][5] pip install trove-classifiersThis package can be invoked as a module to print a list of classifiers python -m trove_classifiers  grep -Ei pyramidFramework  PyramidIn addition, this packages API is two importable objects Classifiers (trove_classifiers.classifiers)A set containing classifiers (as strings). Useful for determining membership.Example - determine if a classifier is validpython from trove_classifiers import classifiers License  OSI Approved in classifiersTrue Fuzzy  Wuzzy  Was  A  Bear in classifiersFalse Deprecated classifiers (trove_classifiers.deprecated_classifiers)A dict, mapping a deprecated classifier (string) to a list of classifierswhich replaces it (strings).Example - determine if a classifier is deprecatedpython from trove_classifiers import deprecated_classifiers License  OSI Approved in deprecated_classifiersFalse Natural Language  Ukranian in deprecated_classifiersTrue deprecated_classifiers[Natural Language  Ukranian][Natural Language  Ukrainian][1] httpspypi.orgclassifiers[2] httpspypi.org[3] httpspackaging.python.orgspecificationscore-metadataclassifier-multiple-use[4] httpswww.python.orgdevpepspep-0301[5] httpspypi.orgprojecttrove-classifiers</longdescription>
+</pkgmetadata>

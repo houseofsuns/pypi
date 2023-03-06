@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>NumcodecsNumcodecs is a Python package providing buffer compression and transformation codecs for use in data storage and communication applications... image httpsreadthedocs.orgprojectsnumcodecsbadgeversionlatest    target httpnumcodecs.readthedocs.ioenlatestbadgelatest.. image httpsgithub.comzarr-developersnumcodecsworkflowsLinux20CIbadge.svgbranchmain    target httpsgithub.comzarr-developersnumcodecsactionsqueryworkflow3A22Linux+CI22.. image httpsgithub.comzarr-developersnumcodecsworkflowsOSX20CIbadge.svgbranchmain    target httpsgithub.comzarr-developersnumcodecsactionsqueryworkflow3A22OSX+CI22.. image httpsgithub.comzarr-developersnumcodecsworkflowsWheelsbadge.svgbranchmain    target httpsgithub.comzarr-developersnumcodecsactionsqueryworkflow3AWheels.. image httpscodecov.ioghzarr-developersnumcodecsbranchmaingraphbadge.svg    target httpscodecov.ioghzarr-developersnumcodecs</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>--httpsreadme42.com--[[](httpsimg.shields.iopypivvalues.svgmaxAge3600)](httpspypi.orgprojectvalues)[[](httpsimg.shields.iobadgeLicense-Unlicense-blue.svglongCacheTrue)](httpsunlicense.org) Installationbash [sudo] pip install values Examplespython import values values.get(1)[1] values.get(string)[string] values.get([1,2])[1,2] values.get(None)[]p aligncenter    a hrefhttpsreadme42.comreadme42.comap</longdescription>
+</pkgmetadata>

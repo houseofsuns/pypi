@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>CogCog content generation tool. Small bits of computation for static files.  license versions status  ci-status kit formatSee httpnedbatchelder.comcodecog for details.Code repository and issue tracker are atGitHub httpsgithub.comnedbatcog_.To run the tests     pip install -r requirements.pip     tox.. ci-status image httpsgithub.comnedbatcogactionsworkflowsci.ymlbadge.svgbranchmastereventpush    target httpsgithub.comnedbatcogactionsworkflowsci.yml    alt CI status.. kit image httpsimg.shields.iopypivcogapp.svg    target httpspypi.orgprojectcogapp    alt PyPI status.. format image httpsimg.shields.iopypiformatcogapp.svg    target httpspypi.orgprojectcogapp    alt Kit format.. license image httpsimg.shields.iopypilcogapp.svg    target httpspypi.orgprojectcogapp    alt License.. versions image httpsimg.shields.iopypipyversionscogapp.svg    target httpspypi.orgprojectcogapp    alt Python versions supported.. status image httpsimg.shields.iopypistatuscogapp.svg    target httpspypi.orgprojectcogapp    alt Package stability</longdescription>
+</pkgmetadata>

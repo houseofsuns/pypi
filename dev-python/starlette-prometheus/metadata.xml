@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Starlette Prometheus[[Build Status](httpsgithub.comperdystarlette-prometheusworkflowsContinuous20Integrationbadge.svg)](httpsgithub.comperdystarlette-prometheusactions)[[codecov](httpscodecov.ioghperdystarlette-prometheusbranchmastergraphbadge.svg)](httpscodecov.ioghperdystarlette-prometheus)[[Package Version](httpsimg.shields.iopypivstarlette-prometheuslogoPyPIlogoColorwhite)](httpspypi.orgprojectstarlette-prometheus)[[PyPI Version](httpsimg.shields.iopypipyversionsstarlette-prometheuslogoPythonlogoColorwhite)](httpspypi.orgprojectstarlette-prometheus) IntroductionPrometheus integration for Starlette. Requirements Python 3.6+ Starlette 0.9+ Installationconsole pip install starlette-prometheus UsageA complete example that exposes prometheus metrics endpoint under metrics path.pythonfrom starlette.applications import Starlettefrom starlette_prometheus import metrics, PrometheusMiddlewareapp  Starlette()app.add_middleware(PrometheusMiddleware)app.add_route(metrics, metrics)Metrics for paths that do not match any Starlette route can be filtered by passingfilter_unhandled_pathsTrue argument to add_middleware method.  Note that notturning on this filtering can lead to unbounded memory use when lots of differentroutes are called. ContributingThis project is absolutely open to contributions so if you have a nice idea, create an issue to let the community discuss it.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Cachy.. image httpstravis-ci.orgsdispatercachy.png   alt Cachy Build status   target httpstravis-ci.orgsdispatercachyCachy provides a simple yet effective caching library.The full documentation is available here httpcachy.readthedocs.orgResources Documentation httpcachy.readthedocs.org_ Issue Tracker httpsgithub.comsdispatercachyissues_</longdescription>
+</pkgmetadata>

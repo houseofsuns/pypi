@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>sphinx-reredirects.. image httpsimg.icons8.comwired64undefinedforward-arrow--v1.png   align right.. image httpsgitlab.comdocumattsphinx-reredirectsbadgesmasterpipeline.svg   target httpsgitlab.comdocumattsphinx-reredirects-commitsmaster.. image httpsimg.shields.iobadgecode20style-black-000000.svg   target httpsgithub.compsfblack.. image httpsimg.shields.iopypivsphinx-reredirects   target httpspypi.orgprojectsphinx-reredirectssphinx-reredirects is the extension for Sphinx documentation httpshttpswww.sphinx-doc.org_ projects that handles redirects for moved pages. It generates HTML pages with meta refresh redirects to the new page location to prevent 404 errors if you rename or move your documents. docs httpsdocumatt.gitlab.iosphinx-reredirects code httpsgitlab.comdocumattsphinx-reredirects where issues and contributions are welcomeGood URLs are never changing URLs. But if you must, sphinx-reredirects helps you manage redirects with ease and from the single place in projects conf.py.  For example, if you rename document start to intro, and tell it to sphinx-reredirects, it will generate HTML page start.html with meta http-equivrefresh content0 urlintro.html. The extension supports wildcards and moving to different domain too.Aboutsphinx-reredirects started from the urge to manage redirects for all documents during moving our Tech writer at work blog to the new domain httpstechwriter.documatt.com.LegalForward Arrow icon by Icons8 httpsicons8.comicon74159forward-arrow_.sphinx-reredirects is licensed under BSD3.</longdescription>
+</pkgmetadata>

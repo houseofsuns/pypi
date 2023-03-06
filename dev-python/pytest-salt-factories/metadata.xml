@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image httpsimg.shields.iogithubworkflowstatussaltstackpytest-salt-factoriesTestingstyleplastic   target httpsgithub.comsaltstackpytest-salt-factoriesactionsworkflowstesting.yml   alt CI.. image httpsreadthedocs.orgprojectspytest-salt-factoriesbadgestyleplastic   target httpspytest-salt-factories.readthedocs.io   alt Docs.. image httpsimg.shields.iocodecovcgithubsaltstackpytest-salt-factoriesstyleplastictokenctdrjPj4mc   target httpscodecov.ioghsaltstackpytest-salt-factories   alt Codecov.. image httpsimg.shields.iopypipyversionspytest-salt-factoriesstyleplastic   target httpspypi.orgprojectpytest-salt-factories   alt Python Versions.. image httpsimg.shields.iopypiwheelpytest-salt-factoriesstyleplastic   target httpspypi.orgprojectpytest-salt-factories   alt Python Wheel.. image httpsimg.shields.iobadgecode20style-black-000000.svgstyleplastic   target httpsgithub.compsfblack   alt Code Style black.. image httpsimg.shields.iopypilpytest-salt-factoriesstyleplastic   alt PyPI - License..   include-starts-hereWhat is Salt FactoriesIts a pytest httpsdocs.pytest.org_ plugin, and also the evolution ofpytest-salt httpsgithub.comsaltstackpytest-salt_, a great start, but ..... image httpsmath.now.shfrom286t5E3202B201295E320-20286t5E320-201295E320-20286t5E2295E3203D202colorDodgerBlue   alt Complicated way to get a result of 2   target httpsarxiv.orgpdf1802.06776.pdfover-engineered.From the ground up, pytest-salt-factories was created to be ..... image httpsmath.now.shfrom1202B201203D202colorDodgerBlue   alt Simpler way to get a result of 2simple...   include-ends-hereDocumentationThe full documentation can be seen here httpspytest-salt-factories.readthedocs.io_.</longdescription>
+</pkgmetadata>

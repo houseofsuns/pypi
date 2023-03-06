@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>PyWebHDFSBuild StatusPyWebHDFS is a Python wrapper for the Hadoop WebHDFS REST API.Many of the current Python HDFS clients rely on Hadoop Streaming whichrequires Java to be installed on the local machine. The other option forinteracting with HDFS is to use the WebHDFS REST API. The purpose ofthis project is to simplify interactions with the WebHDFS API. ThePyWebHdfs client will implement the exact functions available in theWebHDFS REST API and behave in a manner consistent with the API.     pip install pywebhdfsThe initial release provides for basic WebHDFS file and directoryoperations including. Create and Write to a File. Append to a File. Open and Read a File. Make a Directory. Rename a FileDirectory. Delete a FileDirectory. Status of a FileDirectory. Checksum of a File. List a Directory. GetSetListDelete Extended Attributes (Requires Hadoop 2.5.x+)The documentation for the Hadoop WebHDFS REST API can be found athttphadoop.apache.orgdocsr1.0.4webhdfs.html_Pypi package httpspypi.python.orgpypipywebhdfs_Documentation httppythonhosted.orgpywebhdfs_.. _httphadoop.apache.orgdocsr1.0.4webhdfs.html httphadoop.apache.orgdocsr1.0.4webhdfs.html.. _httpspypi.python.orgpypipywebhdfs httpspypi.python.orgpypipywebhdfs.. _httppythonhosted.orgpywebhdfs httppythonhosted.orgpywebhdfs.. Build Status image httpstravis-ci.orgpywebhdfspywebhdfs.svgbranchmaster   target httpstravis-ci.orgpywebhdfspywebhdfs</longdescription>
+</pkgmetadata>

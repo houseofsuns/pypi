@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. contents tabledata   backlinks top   depth 2Summary---------tabledata httpsgithub.comthombashitabledata__ is a Python library to represent tabular data. Used for pytablewriterpytablereaderSimpleSQLiteetc... image httpsbadge.fury.iopytabledata.svg    target httpsbadge.fury.iopytabledata    alt PyPI package version.. image httpsimg.shields.iopypipyversionstabledata.svg    target httpspypi.orgprojecttabledata    alt Supported Python versions.. image httpsimg.shields.iopypiimplementationtabledata.svg    target httpspypi.orgprojecttabledata    alt Supported Python implementations.. image httpsgithub.comthombashitabledataworkflowsTestsbadge.svg    target httpsgithub.comthombashitabledataactionsqueryworkflow3ATests    alt LinuxmacOSWindows CI status.. image httpscoveralls.ioreposgithubthombashitabledatabadge.svgbranchmaster    target httpscoveralls.iogithubthombashitabledatabranchmaster    alt Test coverageInstallationInstall from PyPI------------------------------    pip install tabledataInstall from PPA (for Ubuntu)------------------------------    sudo add-apt-repository ppathombashippa    sudo apt update    sudo apt install python3-tabledataDependencies- Python 3.6+- Mandatory Python package dependencies (automatically installed) httpsgithub.comthombashitabledatanetworkdependencies__Optional Python packages------------------------------------------------- loguru httpsgithub.comDelganloguru__    - Used for logging if the package installed- pandas httpspandas.pydata.org__    - required to get table data as a pandas data frameDocumentationhttpstabledata.rtfd.io</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Selection Documenation[[Tests](httpsgithub.comlorienselectionactionsworkflowstest.ymlbadge.svg)](httpsgithub.comlorienselectionactionsworkflowstest.yml)[[Code Quality](httpsgithub.comlorienselectionactionsworkflowscode_quality.ymlbadge.svg)](httpsgithub.comlorienselectionactionsworkflowscode_quality.yml)[[Typing](httpsgithub.comlorienselectionactionsworkflowsmypy.ymlbadge.svg)](httpsgithub.comlorienselectionactionsworkflowsmypy.yml)[[Test coverage](httpscoveralls.ioreposlorienselectionbadge.svgbranchmaster)](httpscoveralls.iorlorienselectionbranchmaster)API to query DOM tree of HTMLXML document. Usage Examplefrom selection import XpathSelectorfrom lxml.html import fromstringhtml  divh1testh1ul iditemsli1lili2liuldivsel  XpathSelector(fromstring(html))print(sel.select(h1)).text()print(sel.select(li).text_list()print(sel.select(ul).attr(id) InstallationRun pip install -U selection CommunityTelegram English chat [httpst.megrablab](httpst.megrablab)Telegram Russian chat [httpst.megrablab_ru](httpst.megrablab_ru)</longdescription>
+</pkgmetadata>

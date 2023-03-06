@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>flake8-docstringsA simple module that adds an extension for the fantastic pydocstyle_ tool toflake8_.Simply install this extension    pip install flake8-docstringsand run flake8.You can set the pydocstyle convention_ at the command line using     flake8 --docstring-convention numpy ...Or, adding docstring-conventionnumpy to your flake8 configuration file.The available set of conventions depends on the version of pydocstyle installed.The default is pep257, pydocstyle v2.0.0 added numpy (for the numpydocstandard), while pydocstyle v4.0.0 added google.In order to choose a custom list of error codes, use the special valuedocstring-conventionall, then choose the codes you want checked usingflake8_s built-in --ignore--select functionality.Report any issues on our bug tracker_... _pydocstyle httpsgithub.compycqapydocstyle.. _flake8 httpsgithub.compycqaflake8.. _convention httpwww.pydocstyle.orgenlatesterror_codes.htmldefault-conventions.. _bug tracker httpsgithub.compycqaflake8-docstringsissues</longdescription>
+</pkgmetadata>

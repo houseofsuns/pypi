@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>IpcQueueThis package provides SYS V and POSIX message queues to exchange dataamong processes. Both queues have similar functionality with somedifferences. Queues are persistent in the kernel unless either queue isclosedunlinked or system is shut down. Unlike multiprocessing.Queue,the same queue can be joined by different processes according to itsunique namekey, its not necessary to fork main process. Be careful ifyou use signals in your application, because signal interrupts sendingor receiving message.Installation------------Requires Python CFFI, C compiler and Python header files.    cd ipcqueue    python setup.py installUsage-----     from ipcqueue import posixmq     q  posixmq.Queue(foo)     q.qsize()    0     q.put([1, A], priority1)     q.put([2, B], priority2)     q.put([3, C], priority1)     q.qsize()    3     q.get()    [2, B]     q.get()    [1, A]     q.get()    [3, C]     q.close()     q.unlink()     from ipcqueue import sysvmq     q  sysvmq.Queue(1)     q.qsize()     q.put([1, A], msg_type1)     q.put([2, B], msg_type2)     q.put([3, C], msg_type2)     q.put([4, D], msg_type1)     q.qsize()    4     q.get(msg_type2)    [2, B]     q.get()    [1, A]     q.get()    [3, C]     q.get()    [4, D]     q.close()Documentation-------------httppythonhosted.orgipcqueueLicense-------3-clause BSD</longdescription>
+</pkgmetadata>

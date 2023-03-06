@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> pyymlUse python in yaml pythonpythonfrom pyyml import loadwith open(conf.yml) as f    raw_conf  f.read()config  load(raw_conf)print(config)yaml {...} pythonyamlyamlsum {1 + 1}python{sum 2}yaml libs[os, os.pathpath, this] [][] os.pathpath  python  from os import pathyamlyaml libs[os, os.pathpath, this]os_name {os.name}base_dir {path.abspath(path.dirname(__file__))}</longdescription>
+</pkgmetadata>

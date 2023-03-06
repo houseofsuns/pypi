@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Better Boto DescriptionBetter Boto aims to reduce the burden of using AWS Boto3.  AWS Boto3 is a low level SDK for interacting with AWS Services and sometimes it feels too low level or too crud like.Better Boto is a collection of helper functions to make using AWS Boto easier.  For example, it added a create_or_updatemethod to the AWS CloudFormation client.  It also provides some helpers for dealing with pagination operations and somehelp using AWS Organizations.  Check out the [docs](httpsbetter-boto.readthedocs.ioenlatest) for the full set of examples. Badges[[Codacy Badge](httpsapi.codacy.comprojectbadgeGrade186212a8957b42a594ec8aa5f8d8a70c)](httpswww.codacy.comappeamonnfahertybetter-botoutm_sourcegithub.comamputm_mediumreferralamputm_contenteamonnfahertybetter-botoamputm_campaignBadge_Grade)[[Build Status](httpstravis-ci.orgeamonnfahertybetter-boto.svgbranchmaster)](httpstravis-ci.orgeamonnfahertybetter-boto)[[Docs Status](httpsreadthedocs.orgprojectsbetter-botobadgeversionlatest)](httpsbetter-boto.readthedocs.ioenlatest)</longdescription>
+</pkgmetadata>

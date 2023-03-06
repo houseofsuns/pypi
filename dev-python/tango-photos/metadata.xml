@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Tango PhotosTango-Photos is a reusable app for photo galleries in Django. While it forms a key component of Tango, it can also be dropped into an existing non-Tango project. Installation    pip install tango-photos or    pip install git+httpsgithub.comtBaxtertango-photos.gittango_shared is a dependency. It will be installed.  UsageAdd photos and tango_shared to your installed apps, then run syncdb or migrate.</longdescription>
+</pkgmetadata>

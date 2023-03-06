@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Microsoft Azure SDK for PythonThis package was the Microsoft Azure bundle.Starting with v5.0.0, this package is deprecated. Please install the service specific packages prefixed by azure needed for your application.The complete list of available packages can be found athttpsaka.msazsdkpythonallHeres a non-exhaustive list of common packages-  [azure-mgmt-compute](httpspypi.python.orgpypiazure-mgmt-compute)  Management of Virtual Machines, etc.-  [azure-mgmt-storage](httpspypi.python.orgpypiazure-mgmt-storage)  Management of storage accounts.-  [azure-mgmt-resource](httpspypi.python.orgpypiazure-mgmt-resource)  Generic package about Azure Resource Management (ARM)-  [azure-keyvault-secrets](httpspypi.python.orgpypiazure-keyvault-secrets)  Access to secrets in Key Vault-  [azure-storage-blob](httpspypi.python.orgpypiazure-storage-blob)  Access to blobs in storage accountsA more comprehensive discussion of the rationale for this decision can be found in the following issuehttpsgithub.comAzureazure-sdk-for-pythonissues10646[Impressions](httpsazure-sdk-impressions.azurewebsites.netapiimpressionsazure-sdk-for-python2Fazure2FREADME.png)</longdescription>
+</pkgmetadata>

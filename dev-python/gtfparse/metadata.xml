@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[[Build Status](httpstravis-ci.orgopenvaxgtfparse.svgbranchmaster)](httpstravis-ci.orgopenvaxgtfparse) [[Coverage Status](httpscoveralls.ioreposopenvaxgtfparsebadge.svgbranchmasterservicegithub)](httpscoveralls.iogithubopenvaxgtfparsebranchmaster)a hrefhttpspypi.python.orgpypigtfparse    img srchttpsimg.shields.iopypivgtfparse.svgmaxAge1000 altPyPI agtfparseParsing tools for GTF (gene transfer format) files. Example usage Parsing all rows of a GTF file into a Pandas DataFramepythonfrom gtfparse import read_gtf returns GTF with essential columns such as feature, seqname, start, end alongside the names of any optional keys which appeared in the attribute columndf  read_gtf(gene_annotations.gtf) filter DataFrame to gene entries on chrYdf_genes  df[df[feature]  gene]df_genes_chrY  df_genes[df_genes[seqname]  Y] Getting gene FPKM values from a StringTie GTF filepythonfrom gtfparse import read_gtfdf  read_gtf(    Transcripts.gtf,    column_converters{FPKM float})gene_fpkms  {    gene_name fpkm    for (gene_name, fpkm, feature)    in zip(df[seqname], df[FPKM], df[feature])    if feature  gene}</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>flask-oidc-extOpenID Connect_ support for Flask_. image image1 Documentation Status image2.. _OpenID Connect httpsopenid.netconnect.. _Flask httpflask.pocoo.org.. _Google+ Login httpsdevelopers.google.comaccountsdocsOAuth2Login.. _Ipsilon httpsipsilon-project.org.. image image httpsimg.shields.iopypivflask-oidc-ext.svgstyleflat   target httpspypi.python.orgpypiflask-oidc-ext.. image1 image httpsimg.shields.iopypidmflask-oidc-ext.svgstyleflat   target httpspypi.python.orgpypiflask-oidc-ext.. Documentation Status image httpsreadthedocs.orgprojectsflask-oidcbadgeversionlatest   target httpflask-oidc.readthedocs.ioenlatestbadgelatest.. image2 image httpsimg.shields.iotravispuiterwijkflask-oidc.svgstyleflat   target httpstravis-ci.orgpuiterwijkflask-oidcThis library should work with any standards compliant OpenID Connectprovider.It has been tested with Google+ Login httpsdevelopers.google.comaccountsdocsOAuth2Login_ Ipsilon httpsipsilon-project.org_ MojeID httpsmojeid.cz_--------------Project statusThis project comes as is, it is no longer being maintained as it does not need to at its core.Any necessary updates will be reviewed and released.--------------Extension list-  Added extra header option to requests OIDC_EXTRA_REQUEST_HEADERS.   This adds the ability to add a Host issuer header in   environments where the issuer is no the same DNS as where the request   is sent to. E.g localhost vs 127.0.0.1.- Token caching added httpsgithub.comsvintitflask-oidc-extpull9- Better error handling httpsgithub.comsvintitflask-oidc-extpull5- Useful helper functions added get_token and for clearing specific tokens</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> cdk8s-redis Redis constructs for cdk8sBasic implementation of a Redis construct for cdk8s. Contributions are welcome UsageThe following will define a Redis cluster with a primary and 2 replicaspythonimport { Redis } from cdk8s-redis inside your chartconst redis  new Redis(this, my-redis)DNS names can be obtained from redis.primaryHost and redis.replicaHost.You can specify how many replicas to definepythonnew Redis(this, my-redis, {  replicas 4})Or, you can specify no replicaspythonnew Redis(this, my-redis, {  replicas 0}) LicenseDistributed under the [Apache 2.0](.LICENSE) license.</longdescription>
+</pkgmetadata>

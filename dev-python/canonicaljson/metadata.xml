@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Canonical JSON.. image httpsimg.shields.iopypivcanonicaljson.svg    target httpspypi.python.orgpypicanonicaljson    alt Latest VersionFeatures-------- Encodes objects and arrays as RFC 7159_ JSON. Sorts object keys so that you get the same result each time. Has no insignificant whitespace to make the output as small as possible. Escapes only the characters that must be escaped, U+0000 to U+0019  U+0022   U+0056, to keep the output as small as possible. Uses the shortest escape sequence for each escaped character. Encodes the JSON as UTF-8. Can encode frozendict immutable dictionaries.Supports Python versions 3.7 and newer... _RFC 7159 httpstools.ietf.orghtmlrfc7159Installing----------.. code bash   pip install canonicaljsonUsing-----To encode an object into the canonicaljson.. code python    import canonicaljson    assert canonicaljson.encode_canonical_json({})  b{}Theres also an iterator version.. code python    import canonicaljson    assert b.join(canonicaljson.iterencode_canonical_json({}))  b{}The underlying JSON implementation can be chosen with the following.. code python    import json    import canonicaljson    canonicaljson.set_json_library(json).. note    By default canonicaljson uses simplejson_ under the hood (except for PyPy,    which uses the standard library json module)... _simplejson httpssimplejson.readthedocs.io</longdescription>
+</pkgmetadata>

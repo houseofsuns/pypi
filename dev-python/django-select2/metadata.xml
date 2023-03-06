@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>headerDjango-Select2version coverage licenseCustom autocomplete fields for Django_.Documentation-------------Documentation available at httpsdjango-select2.readthedocs.io... note    Djangos admin comes with builtin support for Select2    via the autocomplete_fields_ feature... _Django httpswww.djangoproject.com.. _Select2 httpsselect2.org.. _autocomplete_fields httpsdocs.djangoproject.comenstablerefcontribadmindjango.contrib.admin.ModelAdmin.autocomplete_fields.. header image httpsrepository-images.githubusercontent.com266545281c6db7d26-9f60-454b-845e-395d45c43fa7.. version image httpsimg.shields.iopypivDjango-Select2.svg   target httpspypi.python.orgpypiDjango-Select2.. coverage image httpscodecov.ioghcodingjoedjango-select2branchmastergraphbadge.svg   target httpscodecov.ioghcodingjoedjango-select2.. license image httpsimg.shields.iobadgelicense-APL2-blue.svg   target httpsraw.githubusercontent.comcodingjoedjango-select2masterLICENSE.txt</longdescription>
+</pkgmetadata>

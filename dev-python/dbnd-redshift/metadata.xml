@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> DBND Redshift The plugindbnd-redshift logs redshift resource usage of queries using log_redshift_resource_usage. What does it doIt uses internalsystem redshift tables to get query data after they are completed. Installationbashpip install dbnd-redshift</longdescription>
+</pkgmetadata>

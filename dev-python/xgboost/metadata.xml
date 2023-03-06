@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>XGBoost Python PackagePyPI versionInstallationFrom PyPI httpspypi.python.orgpypixgboost_---------------------------------------------------For a stable version, install using pip    pip install xgboost.. PyPI version image httpsbadge.fury.iopyxgboost.svg   target httpbadge.fury.iopyxgboostFor building from source, see build httpsxgboost.readthedocs.ioenlatestbuild.html_.</longdescription>
+</pkgmetadata>

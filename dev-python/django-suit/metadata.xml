@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Django SuitModern theme for Django admin interface.Django Suit is alternative themeskinextension for Django httpwww.djangoproject.com_ administration interface. Project home httpdjangosuit.com Live demo httpdjangosuit.comadminLicense Django Suit is licensed under Creative Commons Attribution-NonCommercial 3.0 httpcreativecommons.orglicensesby-nc3.0_ license. Licence and pricing httpdjangosuit.compricingDocs  Support Documentation httpdjango-suit.readthedocs.org Support httpdjangosuit.comsupport Demo app httpdjangosuit.comadmin_ repository is here django-suit-examples httpsgithub.comdarklowdjango-suit-examples_ IRC Channel Feel free to join us at django-suit on irc.freenode.net for a chat Follow on Twitter httptwitter.comDjangoSuit_ to get latest newsChangelogSee CHANGELOG.rst httpsgithub.comdarklowdjango-suitblobdevelopCHANGELOG.rst_.ContributingSee Contributing documentation httpdjango-suit.readthedocs.orgendevelopcontributing.html_Build StatusDjango Suit uses Travis CI to perform tests on different Django and Python versions.Tested using Python 2.5-3.4. Django 1.4-1.10. Develop  Master.. develop image httpstravis-ci.orgdarklowdjango-suit.pngbranchdevelop   alt Build Status - develop branch   target httptravis-ci.orgdarklowdjango-suit.. master image httpstravis-ci.orgdarklowdjango-suit.pngbranchmaster   alt Build Status - master branch   target httptravis-ci.orgdarklowdjango-suitdevelop masterPreview.. image httpsraw.github.comdarklowdjango-suitdevelopdocs_staticimgdjango-suit.png   alt Django Suit Preview   target httpdjangosuit.comadminv2.0-devCheck out new v2.0-dev version notes httpsgithub.comdarklowdjango-suitissues475</longdescription>
+</pkgmetadata>

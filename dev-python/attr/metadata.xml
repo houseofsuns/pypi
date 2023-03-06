@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Usage example     Django proposes    def my_calculated_field(...    my_calculated_field.short_description  Field    my_calculated_field.admin_order_field  real_field     DRY    attr(short_descriptionField, admin_order_fieldreal_field)    def my_calculated_field(...Get it    sudo pip install attr    from attr import attrNew popular attrs.org httpattrs.org_ used by pytest.org httpspytest.org_ defines another attr package that shadows this attr module.Please use dry_attr alias to unshadow it    from dry_attr import attr    from dry_attr import dry_attr</longdescription>
+</pkgmetadata>

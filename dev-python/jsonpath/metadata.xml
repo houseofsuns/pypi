@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>A port of the Perl, and JavaScript versions of JSONPathsee httpgoessner.netarticlesJsonPathBased on on JavaScript version by Stefan Goessner at        httpsgoessner.netarticlesJsonPath        httpcode.google.compjsonpathand Perl version by Kate Rhodes at        httpgithub.commasukomijsonpath-perltreemasterPython3 compatibily by Per J. Sandstrom</longdescription>
+</pkgmetadata>

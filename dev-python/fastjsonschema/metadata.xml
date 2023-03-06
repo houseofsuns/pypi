@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Fast JSON schema for PythonPyPI Pythons.. PyPI image httpsimg.shields.iopypivfastjsonschema.svg   alt PyPI version   target httpspypi.python.orgpypifastjsonschema.. Pythons image httpsimg.shields.iopypipyversionsfastjsonschema.svg   alt Supported Python versions   target httpspypi.python.orgpypifastjsonschemaSee documentation httpshorejsek.github.iopython-fastjsonschema_.</longdescription>
+</pkgmetadata>

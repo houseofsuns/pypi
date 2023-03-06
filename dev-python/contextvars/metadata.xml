@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image httpstravis-ci.orgMagicStackcontextvars.svgbranchmaster    target httpstravis-ci.orgMagicStackcontextvarsPEP 567 BackportThis package implements a backport of Python 3.7 contextvarsmodule (see PEP 567) for Python 3.6.Important at this moment this package does not provide anasyncio event loop with PEP 567 support yet.  Stay tuned for updates.Original contextvars PackageThis package replaces the old contextvars PyPI package whichrepository is available here httpsgithub.comgawencontextvars_.DocumentationRead the official contextvars module documentation herehttpsdocs.python.org3.7librarycontextvars.htmlPEP 567 httpswww.python.orgdevpepspep-0567_ also providesa comprehensive overview of the API and explains all design choices.Installation.. code-block bash     pip install contextvarsUsage.. code-block python    import contextvars    my_var  contextvars.ContextVar(my_var)     ...Listing as a DependencyThe good news is that the standard library always takes theprecedence over site packages, so even if a local contextvarsmodule is installed, the one from the standard library will be used.Therefore you can simply list contextvars in yourrequirements.txt or setup.py files.Another option is to use platform specific dependencieshttpsetuptools.readthedocs.ioenlatestsetuptools.htmldeclaring-platform-specific-dependencies_ setuptools feature.. code-block python    import setuptools    setuptools.setup(        nameProject,        ...        install_requires[            contextvarspython_version3.7        ]    )LicenseApache 2.0.</longdescription>
+</pkgmetadata>

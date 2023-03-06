@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Microsoft Azure SDK for PythonThis is the Microsoft Azure Personalizer Client Library.This package has been tested with Python 2.7, 3.4, 3.5, 3.6 and 3.7.For a more complete set of Azure libraries, see the azure httpspypi.python.orgpypiazure__ bundle package.UsageFor code examples, see Personalizerhttpsdocs.microsoft.compythonapioverviewazure__on docs.microsoft.com.Provide FeedbackIf you encounter any bugs or have suggestions, please file an issue in theIssues httpsgithub.comAzureazure-sdk-for-pythonissues__section of the project... image  httpsazure-sdk-impressions.azurewebsites.netapiimpressionsazure-sdk-for-python2Fazure-cognitiveservices-personalizer2FREADME.png.. changelogRelease History0.1.0 (2019-05-29)++++++++++++++++++ Initial Release</longdescription>
+</pkgmetadata>

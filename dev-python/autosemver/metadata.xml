@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image httpstravis-ci.orgdavid-caropython-autosemver.svgbranchmaster   alt Latest commit build status   target httpstravis-ci.orgdavid-caropython-autosemver.. image httpsreadthedocs.orgprojectsautosemverbadgeversionlatest   alt Documentation   target httpsautosemver.readthedocs.io.. image httpsimg.shields.iogithublicensedavid-caropython-autosemvercolorblue   alt License   target httpsgithub.comdavid-caropython-autosemverblobmasterLICENSE.. image httpsbadge.fury.iopyautosemver.svg   alt Latest PyPI - Version   target httpsbadge.fury.iopyautosemver.. image httpsimg.shields.iobadgecode20style-black-000000.svg   alt Code style   target httpsgithub.comambvblack.. image httpsimg.shields.iopypidmautosemver   alt PyPI - DownloadsAutosemverThis small module provides an easy way to automatically manage the evrsion ofyour python modules by extracting information directly from the version controlsystem (currently only git supported, patches welcome).Once installed (ex. pip install autosemver), adding a single line in yoursetup.py file is enough to start using it    setup(        namesome-package,        urlhttpmy.fancyshrubbery,        ...        install_requires[some_important_dep, autosemver],        ...        setup_requires[autosemver],        ...        autosemverTrue,    )That will use tags, commit messages (searches for lines like Sem-Ver ...and  Incompatible) to generate a version compatible with the semanticversioning standard (httpssemver.org).Read the full documentation here httpautosemver.readthedocs.io</longdescription>
+</pkgmetadata>

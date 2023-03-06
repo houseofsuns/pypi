@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>mock-ssh-server - An SSH server for testing purposesmock-ssh-server packs a Python context manager that implements an SSHserver for testing purposes. It is built on top of paramiko_, so it doesnot need OpenSSH binaries to be installed.Sample usage------------As a py.test_ fixture    import os    from pytest import yield_fixture    import mockssh    yield_fixture()    def server()        users  {            sample-user pathtouser-private-key,        }        with mockssh.Server(users) as s            yield s    def test_ssh_session(server)        for uid in server.users            with server.client(uid) as c                _, stdout, _  c.exec_command(ls )                assert stdout.read()    def test_sftp_session(server)        for uid in server.users            target_dir  tempfile.mkdtemp()            target_fname  os.path.join(target_dir, foo)            assert not os.access(target_fname, os.F_OK)            with server.client(uid) as c                sftp  c.open_sftp()                sftp.put(__file__, target_fname, confirmTrue)                assert os.access(target_fname, os.F_OK).. _paramiko httpwww.paramiko.org.. _py.test  httppytest.orglatest.. image httpstravis-ci.orgcarletesmock-ssh-server.svg   target httpstravis-ci.orgcarletesmock-ssh-server</longdescription>
+</pkgmetadata>

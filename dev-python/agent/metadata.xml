@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Agent Async generators for humansagent provides a simple decorator to create python 3.5 [asynchronous iterators](httpsdocs.python.org3referencecompound_stmts.htmlasync-for) via yields ExamplesMake people wait for things for no reasonpythonimport agentimport asyncioagent.gen   Shorthand decoratordef wait_for_me()  yield Like   yield from asyncio.sleep(1)  yield the line   yield from asyncio.sleep(10)  yield at   yield from asyncio.sleep(100)  yield the DMVasync for part in wait_for_me()  print(part)Paginate websites in an easy asynchronous manner.pythonimport agentimport aiohttpagent.async_generatordef gen()  page, url  0, httpexample.compaginatedendpoint  while True    resp  yield from aiohttp.request(GET, url, params{page page})    resp_json  (yield from resp.json())[data]    if not resp_json      break    for blob in resp_json[data]      yield blob    page + 1 Later on....async for blob in gen()     Do workThe possibilities are endlessFor additional, crazier, examples take a look in the [tests directory](tests). Get itbash pip install -U agent Caveatsyield from syntax must be used as yield in an async def block is a syntax error.pythonasync def generator()  yield 1   Syntax Error (asyncio.Futures can not be yield directly, they must be wrapped by agent.Result. LicenseMIT licensed. See the bundled [LICENSE](LICENSE) file for more details.</longdescription>
+</pkgmetadata>

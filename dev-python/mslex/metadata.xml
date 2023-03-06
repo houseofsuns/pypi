@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>mslex.. image httpsimg.shields.iopypivmslex.svg        target httpspypi.python.orgpypimslex.. image httpsimg.shields.iotravissmooframslex.svg        target httpstravis-ci.orgsmooframslex.. image httpsreadthedocs.orgprojectsmslexbadgeversionlatest        target httpsmslex.readthedocs.ioenlatestbadgelatest        alt Documentation Statusshlex for windows Free software Apache Software License 2.0 Documentation httpsmslex.readthedocs.io.Features--------This is the missing shlex package for windows shell quoting.   It provides twofunctions -- split and quote -- just like shlex.Credits-------These are excellent articles to read if you really want to face thesanity-melting reality buried under the surface of how windows passes commandline arguments to your programs.   I recommend you read something else. How a Windows Program Splits Its Command Line Into Individual Arguments_ Everyone quotes command line arguments the wrong way_.. _How a Windows Program Splits Its Command Line Into Individual Arguments  httpwww.windowsinspired.comhow-a-windows-programs-splits-its-command-line-into-individual-arguments.. _Everyone quotes command line arguments the wrong way  httpsblogs.msdn.microsoft.comtwistylittlepassagesallalike20110423everyone-quotes-command-line-arguments-the-wrong-wayThis package was created with Cookiecutter_ and the audreyrcookiecutter-pypackage_ project template... _Cookiecutter httpsgithub.comaudreyrcookiecutter.. _audreyrcookiecutter-pypackage httpsgithub.comaudreyrcookiecutter-pypackageHistory0.1.0 (2019-10-02)------------------ First release on PyPI.</longdescription>
+</pkgmetadata>

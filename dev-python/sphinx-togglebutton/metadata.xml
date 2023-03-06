@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> sphinx-togglebuttonA small sphinx extension to make it possible to add a toggle button tosections of your page. This allows you to- Collapse Sphinx admonitions (notes, warnings, etc) so that their content is hidden  until users click a toggle button.- Collapse arbitrary chunks of content on your page with a collapse directive.[Demonstration of Sphinx Togglebutton](httpsuser-images.githubusercontent.com1839645152654312-a72a320f-e1e0-40be-95ae-3ed34facc4d3.gif)InstallationYou can install sphinx-togglebutton with pipbashpip install sphinx-togglebuttonUsageIn your conf.py configuration file, add sphinx_togglebuttonto your extensions list.E.g.pythonextensions  [    ...    sphinx_togglebutton    ...]Now, whenever you wish for an admonition to be toggle-able, add theclass dropdown parameter to the admonition directive that you use.For example, this code would create a toggle-able note admonitionthat starts hiddenrst.. note    class dropdown    This is my note.Clicking on the toggle button will toggle the items visibility.You may also show the content by default. To do so, add the dropdownclass as well as a toggle-shown class, like sorst.. note    class dropdown, toggle-shown    This is my note.You can also use containers to add arbitrary toggle-able code. For example,heres a container with an image insiderst.. container toggle, toggle-hidden    .. admonition Look at that, an image        .. image httpsmedia.giphy.commediamW05nwEyXLP0Ygiphy.gif</longdescription>
+</pkgmetadata>

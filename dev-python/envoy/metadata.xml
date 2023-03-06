@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Envoy Python Subprocesses for Humans.Note Work in progress.This is a convenience wrapper around the subprocess module.You dont need this... image httpsgithub.comkennethreitzenvoyrawmasterextin_action.pngBut you want it.Usage-----Run a command, get the response     r  envoy.run(git config, datadata to pipe in, timeout2)     r.status_code    129     r.std_out    usage git config [options]     r.std_err    Pipe stuff around too     r  envoy.run(uptime  pbcopy)     r.command    pbcopy     r.status_code    0     r.history    [Response uptime]</longdescription>
+</pkgmetadata>

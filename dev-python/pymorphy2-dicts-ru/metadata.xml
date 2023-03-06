@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pymorphy2-dicts-ruRussian dictionaries for pymorphy2_... _pymorphy2 httpsgithub.comkmikepymorphy2Installation------------Install     pip install pymorphy2-dicts-ruUsage-----To use these dictionaries with pymorphy2 create MorphAnalyzerwith langru parameter import pymorphy2 morph  pymorphy2.MorphAnalyzer(langru)To get a path to the installed dictionary data usepymorphy2_dicts_ru.get_path() method.Development-----------The main repo is httpsgithub.comkmikepymorphy2-dicts. The repositorydoesnt contain the data itself only package template and updatescripts are stored in VCS.License for Python code in this package is MIT.The data is licensed underCreative Commons Attribution-Share Alike httpcreativecommons.orglicensesby-sa3.0_.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Zake.. image httpstravis-ci.orgyahooZake.pngbranchmaster   target httpstravis-ci.orgyahooZakeA python package that works to provide a nice set of testing utilities for the kazoo_ library.It includes the following functionality Storage access (for viewing what was savedcreated). Kazoo mostly compatible client API. Synctransactioncreategetdelete... commands. Listener support. And more...It simplifies testing by providing a client that has a similar API as the kazooclient so that your tests (or applicationslibraries that use kazoo) do notrequire a real zookeeper server to be  tested with (since this is not availablein all testing environments)... _kazoo httpskazoo.readthedocs.orgenlatest</longdescription>
+</pkgmetadata>

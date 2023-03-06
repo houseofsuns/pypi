@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>OpenCensus Exporterpypi.. pypi image httpsbadge.fury.iopyopentelemetry-exporter-opencensus.svg   target httpspypi.orgprojectopentelemetry-exporter-opencensusThis library allows to export traces using OpenCensus.Installation------------     pip install opentelemetry-exporter-opencensusReferences---------- OpenCensus Exporter httpsopentelemetry-python.readthedocs.ioenlatestexporteropencensusopencensus.html_ OpenTelemetry Collector httpsgithub.comopen-telemetryopentelemetry-collector_ OpenTelemetry httpsopentelemetry.io_</longdescription>
+</pkgmetadata>

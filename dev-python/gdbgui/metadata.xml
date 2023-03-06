@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>p aligncentera hrefhttpgdbgui.comimg srchttpsgithub.comcs01gdbguirawmasterimagesgdbgui_banner.pngaph3 aligncenterA browser-based frontend to gdb (gnu debugger)h3p aligncentera hrefhttpsgithub.comcs01gdbguiactionsimg srchttpsgithub.comcs01gdbguiworkflowsTestsbadge.svgbranchmaster altimage aa hrefhttpsbadge.fury.iopygdbguiimg srchttpsbadge.fury.iopygdbgui.svg altPyPI version aimg srchttpspepy.techbadgegdbgui altimage p---Documentation httpsgdbgui.comSource Code httpsgithub.comcs01gdbgui</longdescription>
+</pkgmetadata>

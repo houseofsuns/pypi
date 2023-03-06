@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>simple-websocket[[Build status](httpsgithub.commiguelgrinbergsimple-websocketworkflowsbuildbadge.svg)](httpsgithub.commiguelgrinbergsimple-websocketactions) [[codecov](httpscodecov.ioghmiguelgrinbergsimple-websocketbranchmaingraphbadge.svg)](httpscodecov.ioghmiguelgrinbergsimple-websocket)Simple WebSocket server and client for Python. Resources- [Documentation](httpsimple-websocket.readthedocs.ioenlatest)- [PyPI](httpspypi.python.orgpypisimple-websocket)- [Change Log](httpsgithub.commiguelgrinbergsimple-websocketblobmainCHANGES.md)</longdescription>
+</pkgmetadata>

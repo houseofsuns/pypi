@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>screeninfo----------[[Build](httpsgithub.comrr-screeninfoactionsworkflowsbuild.ymlbadge.svg)](httpsgithub.comrr-screeninfoactionsworkflowsbuild.yml)Fetch location and size of physical screens. Supported environments- MS Windows- MS Windows Cygwin- GNULinux X11 (through Xinerama)- GNULinux DRM (experimental)- OSX (through AppKit)I dont plan on testing OSX or other environments myself. For this reason,I strongly encourage pull requests. Installationpip install screeninfo Usagepythonfrom screeninfo import get_monitorsfor m in get_monitors()    print(str(m))Outputpython consoleMonitor(x3840, y0, width3840, height2160, width_mm1420, height_mm800, nameHDMI-0, is_primaryFalse)Monitor(x0, y0, width3840, height2160, width_mm708, height_mm399, nameDP-0, is_primaryTrue) Forcing environmentIn some cases (emulating X server on Cygwin etc.) you might want to specify thedriver directly. You can do so by passing extra parameter to get_monitors()like thispythonfrom screeninfo import get_monitors, Enumeratorfor m in get_monitors(Enumerator.OSX)    print(str(m))Available drivers windows, cygwin, x11, osx. Contributingshgit clone httpsgithub.comrr-screeninfo.git  clone this repocd screeninfopoetry install  to install the local venvpoetry run pre-commit install  to setup pre-commit hookspoetry shell  to enter the venvThis project uses [poetry](httpspython-poetry.org) for packaging,install instructions at [poetryinstallation](httpspython-poetry.orgdocsinstallation)</longdescription>
+</pkgmetadata>

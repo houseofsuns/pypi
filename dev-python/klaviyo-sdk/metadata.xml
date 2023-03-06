@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>A Python library for Klaviyos API NEW API + SDKNOTE we have a python SDK to go along with our new API.We recommend migrating over to our [newest SDK](httpsgithub.comklaviyoklaviyo-api-python).You can read more about our SDK release history and support [here](httpsdevelopers.klaviyo.comendocssdk_overview)For a comparison between our old and new APIs, check out [this guide](httpsdevelopers.klaviyo.comendocsapis_comparison_chart). InstallationYou can install this library using the pip tool.Depending on your system configuration, you will need to run the following shell commandpip install klaviyo-sdkOR pip3 install klaviyo-sdk ImportTo import this package, run the following Python commandimport klaviyo_sdk Using this LibraryDocumentation specific to this library can be found [here](httpsgithub.comklaviyoklaviyo-python-sdk) Using the Klaviyo APIDocumentation for Klaviyos API can be found [here](httpsdevelopers.klaviyo.com)NOTE sample API calls featured in the API docs do NOT use this library or others rather, they make outright HTTP calls. Setting up a Klaviyo AccountSign up for a free Klaviyo account [here](httpswww.klaviyo.com)</longdescription>
+</pkgmetadata>

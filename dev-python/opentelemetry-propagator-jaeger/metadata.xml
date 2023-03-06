@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>OpenTelemetry Jaeger Propagatorpypi.. pypi image httpsbadge.fury.iopyopentelemetry-propagator-jaeger.svg   target httpspypi.orgprojectopentelemetry-propagator-jaegerThis library provides a propagator for the Jaeger formatInstallation------------     pip install opentelemetry-propagator-jaegerReferences---------- OpenTelemetry httpsopentelemetry.io_ Jaeger format httpswww.jaegertracing.iodocs1.21client-librariespropagation-format_</longdescription>
+</pkgmetadata>

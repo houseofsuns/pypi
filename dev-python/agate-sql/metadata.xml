@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image httpsgithub.comwireserviceagate-sqlworkflowsCIbadge.svg    target httpsgithub.comwireserviceagate-sqlactions    alt Build status.. image httpsimg.shields.iopypidmagate-sql.svg    target httpspypi.python.orgpypiagate-sql    alt PyPI downloads.. image httpsimg.shields.iopypivagate-sql.svg    target httpspypi.python.orgpypiagate-sql    alt Version.. image httpsimg.shields.iopypilagate-sql.svg    target httpspypi.python.orgpypiagate-sql    alt License.. image httpsimg.shields.iopypipyversionsagate-sql.svg    target httpspypi.python.orgpypiagate-sql    alt Support Python versionsagate-sql adds SQL readwrite support to agate httpsgithub.comwireserviceagate_.Important links agate             httpagate.rtfd.org Documentation    httpagate-sql.rtfd.org Repository       httpsgithub.comwireserviceagate-sql Issues           httpsgithub.comwireserviceagate-sqlissues</longdescription>
+</pkgmetadata>

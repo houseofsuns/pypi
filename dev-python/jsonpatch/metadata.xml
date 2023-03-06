@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>python-json-patchPyPI version Supported Python versions Build Status CoverageStatusApplying JSON Patches in Python-------------------------------Library to apply JSON Patches according to RFC6902 httptools.ietf.orghtmlrfc6902__See source code for examples-  Website httpsgithub.comstefankoeglpython-json-patch-  Repository httpsgithub.comstefankoeglpython-json-patch.git-  Documentation httpspython-json-patch.readthedocs.org-  PyPI httpspypi.python.orgpypijsonpatch-  Travis CI httpstravis-ci.orgstefankoeglpython-json-patch-  Coveralls httpscoveralls.iorstefankoeglpython-json-patchRunning external tests----------------------To run external tests (such as those fromhttpsgithub.comjson-patchjson-patch-tests) use ext_test.py    .ext_tests.py ..json-patch-teststests.json.. PyPI version image httpsimg.shields.iopypivjsonpatch.svg   target httpspypi.python.orgpypijsonpatch.. Supported Python versions image httpsimg.shields.iopypipyversionsjsonpatch.svg   target httpspypi.python.orgpypijsonpatch.. Build Status image httpstravis-ci.orgstefankoeglpython-json-patch.pngbranchmaster   target httpstravis-ci.orgstefankoeglpython-json-patch.. Coverage Status image httpscoveralls.ioreposstefankoeglpython-json-patchbadge.pngbranchmaster   target httpscoveralls.iorstefankoeglpython-json-patchbranchmaster</longdescription>
+</pkgmetadata>

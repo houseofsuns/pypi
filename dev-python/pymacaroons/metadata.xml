@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>PyMacaroonsPyMacaroons is a Python implementation of Macaroons. Theyre better than cookiesInstallation------------Install PyMacaroons by running    pip install pymacaroonsContribute----------- Issue Tracker_- Source Code_.. _Issue Tracker httpsgithub.comecordellpymacaroonsissues.. _Source Code httpsgithub.comecordellpymacaroonsLicense-------The project is licensed under the MIT license.</longdescription>
+</pkgmetadata>

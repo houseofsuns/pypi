@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>h1 aligncentertyping-compath1div aligncenter  strongPython typing compatibility libraryastrongdivbr div aligncenter  a hrefhttpsgithub.comrossmacarthurtyping-compatactionsqueryworkflow3Abuild    img srchttpsgithub.comrossmacarthurtyping-compatworkflowsbuildbadge.svgbranchmaster altBuild status   a  a hrefhttpsgithub.compsfblack    img srchttpsimg.shields.iobadgecode20style-black-101010.svg altCode style black   adivbr In Python 3.8 the typing.get_origin and typing.get_args functions areprovided. This library aims to bring the identical behaviour of these functionsto other versions of Python. Getting startedbashpip install typing-compat Usagepython from typing import List, Tuple, TypeVar from typing_compat import get_args, get_origin T  TypeVar(T) tp  List[Tuple[T, T]][int] get_args(tp)(typing.Tuple[int, int],) get_origin(tp)class list LicenseThis library is licensed under either of- Apache License, Version 2.0 ([LICENSE-APACHE](LICENSE-APACHE) or  httpswww.apache.orglicensesLICENSE-2.0)- MIT License ([LICENSE-MIT](LICENSE-MIT) or  httpsopensource.orglicensesMIT)at your option.</longdescription>
+</pkgmetadata>

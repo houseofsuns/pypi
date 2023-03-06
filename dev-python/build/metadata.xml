@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> build[[pre-commit.ci status](httpsresults.pre-commit.cibadgegithubpypabuildmain.svg)](httpsresults.pre-commit.cilatestgithubpypabuildmain)[[CI check](httpsgithub.compypabuildworkflowscheckbadge.svg)](httpsgithub.compypabuildactions)[[CI test](httpsgithub.compypabuildactionsworkflowstest.ymlbadge.svg)](httpsgithub.compypabuildactionsworkflowstest.yml)[[codecov](httpscodecov.ioghpypabuildbranchmaingraphbadge.svg)](httpscodecov.ioghpypabuild)[[Documentation Status](httpsreadthedocs.orgprojectspypa-buildbadgeversionlatest)](httpspypa-build.readthedocs.ioenlatestbadgelatest)[[PyPI version](httpsbadge.fury.iopybuild.svg)](httpspypi.orgprojectbuild)[[Discord](httpsimg.shields.iodiscord803025117553754132labelDiscord20chat2023buildstyleflat-square)](httpsdiscord.ggpypa)A simple, correct Python build frontend.See the [documentation](httpspypa-build.readthedocs.ioenlatest) for more information. Installationbuild can be installed via pip or an equivalent viaconsole pip install build Usageconsole python -m buildThis will build the package in an isolated environment, generating asource-distribution and wheel in the directory dist.See the [documentation](httpspypa-build.readthedocs.ioenlatest) for full information. Code of ConductEveryone interacting in the builds codebase, issue trackers, chat rooms, and mailing lists is expected to followthe [PSF Code of Conduct].[psf code of conduct] httpsgithub.compypa.githubblobmainCODE_OF_CONDUCT.md</longdescription>
+</pkgmetadata>

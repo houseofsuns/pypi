@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Team and repository tags.. image httpsgovernance.openstack.orgtcbadgesfuturist.svg    target httpsgovernance.openstack.orgtcreferencetagsindex.html.. Change things from this point onFuturist.. image httpsimg.shields.iopypivfuturist.svg    target httpspypi.orgprojectfuturist    alt Latest Version.. image httpsimg.shields.iopypidmfuturist.svg    target httpspypi.orgprojectfuturist    alt DownloadsCode from the future, delivered to you in the now. The goal of this librarywould be to provide a well documented futures classesutilitiesadditions thatallows for providing a level of transparency in how asynchronous work getsexecuted. This library currently adds statistics gathering, an eventletexecutor, a synchronous executor etc. Free software Apache license Documentation httpsdocs.openstack.orgfuturistlatest Source httpsopendev.orgopenstackfuturist Bugs httpsbugs.launchpad.netfuturist Blueprints httpsblueprints.launchpad.netfuturist Release notes httpsdocs.openstack.orgreleasenotesfuturist</longdescription>
+</pkgmetadata>

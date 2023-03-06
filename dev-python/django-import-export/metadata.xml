@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>django-import-export.. image httpsgithub.comdjango-import-exportdjango-import-exportactionsworkflowsdjango-import-export-ci.ymlbadge.svg    target httpsgithub.comdjango-import-exportdjango-import-exportactionsworkflowsdjango-import-export-ci.yml    alt Build status on Github.. image httpscoveralls.ioreposgithubdjango-import-exportdjango-import-exportbadge.svgbranchmain    target httpscoveralls.iogithubdjango-import-exportdjango-import-exportbranchmain.. image httpsimg.shields.iopypivdjango-import-export.svg    target httpspypi.orgprojectdjango-import-export    alt Current version on PyPi.. image httpreadthedocs.orgprojectsdjango-import-exportbadgeversionstable    target httpsdjango-import-export.readthedocs.ioenstable    alt Documentation.. image httpsimg.shields.iopypipyversionsdjango-import-export    alt PyPI - Python Version.. image httpsimg.shields.iopypidjversionsdjango-import-export    alt PyPI - Django Version.. image httpsstatic.pepy.techpersonalized-badgedjango-import-exportperiodweekunitsinternational_systemleft_colorblackright_colorblueleft_textDownloads    target httpspepy.techprojectdjango-import-exportdjango-import-export is a Django application and library for importingand exporting data from a variety of formats.  Includes Django Admin site integration. Documentation httpsdjango-import-export.readthedocs.ioenstable GitHub httpsgithub.comdjango-import-exportdjango-import-export Free software BSD license PyPI httpspypi.orgprojectdjango-import-export</longdescription>
+</pkgmetadata>

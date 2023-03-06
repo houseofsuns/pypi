@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>aioamqp.. image httpsbadge.fury.iopyaioamqp.svg    target httpbadge.fury.iopyaioamqp.. image httpstravis-ci.orgPolyconseilaioamqp.svgbranchmaster    target httpstravis-ci.orgPolyconseilaioamqp.. image httpsreadthedocs.orgprojectsaioamqpbadgeversionlatest    alt Documentation Status    scale 100    target httpsaioamqp.readthedocs.orgenlatestbadgelatestaioamqp library is a pure-Python implementation of the AMQP 0.9.1 protocol_.Built on top on Pythons asynchronous IO support introduced in PEP 3156_, it provides an API based on coroutines, making it easy to write highly concurrent applications.Bug reports, patches and suggestions welcome Just open an issue_ or send a pull request_.tests-----To run the tests, youll need to install the Python test dependencies    pip install -r requirements_dev.txtTests require an instance of RabbitMQ. You can start a new instance using docker     docker run -d --log-driversyslog -e RABBITMQ_NODENAMEmy-rabbit --name rabbitmq -p 56725672 -p 1567215672 rabbitmq3-managementThen you can run the tests with make test.tests using docker-composeStart RabbitMQ using docker-compose up -d rabbitmq. When RabbitMQ has started, start the tests using docker-compose up --build aioamqp-test.. _AMQP 0.9.1 protocol httpswww.rabbitmq.comamqp-0-9-1-quickref.html.. _PEP 3156 httpwww.python.orgdevpepspep-3156.. _issue httpsgithub.comPolyconseilaioamqpissuesnew.. _pull request httpsgithub.comPolyconseilaioamqpcompare</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>docker-pyBuild StatusA Python library for the Docker Remote API. It does everything thedocker command does, but from within Python run containers, managethem, pullpush images, etc.Installation------------The latest stable version is always available on PyPi.    pip install docker-pyDocumentation-------------Documentation StatusRead the full documentationhere httpsdocker-py.readthedocs.ioenlatest__. The source isavailable in the docs directory.License-------Docker is licensed under the Apache License, Version 2.0. See LICENSEfor full license text.. Build Status image httpstravis-ci.orgdockerdocker-py.png   target httpstravis-ci.orgdockerdocker-py.. Documentation Status image httpsreadthedocs.orgprojectsdocker-pybadgeversionlatest   target httpsreadthedocs.orgprojectsdocker-pybadgelatest</longdescription>
+</pkgmetadata>

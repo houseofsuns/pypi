@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image httpstravis-ci.orgwireserviceagate-dbf.png    target httpstravis-ci.orgwireserviceagate-dbf    alt Build status.. image httpsimg.shields.iopypidwagate-dbf.svg    target httpspypi.python.orgpypiagate-dbf    alt PyPI downloads.. image httpsimg.shields.iopypivagate-dbf.svg    target httpspypi.python.orgpypiagate-dbf    alt Version.. image httpsimg.shields.iopypilagate-dbf.svg    target httpspypi.python.orgpypiagate-dbf    alt License.. image httpsimg.shields.iopypipyversionsagate-dbf.svg    target httpspypi.python.orgpypiagate-dbf    alt Support Python versionsagate-dbf adds read support for dbf files to agate httpsgithub.comwireserviceagate_.Important links agate             httpagate.rtfd.org Documentation    httpagate-dbf.rtfd.org Repository       httpsgithub.comwireserviceagate-dbf Issues           httpsgithub.comwireserviceagate-dbfissues</longdescription>
+</pkgmetadata>

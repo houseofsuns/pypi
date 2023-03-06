@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> clldutilsUtilities for programmatic data curation[[Build Status](httpsgithub.comclldclldutilsworkflowstestsbadge.svg)](httpsgithub.comclldclldutilsactionsqueryworkflow3Atests)[[Documentation Status](httpsreadthedocs.orgprojectsclldutilsbadgeversionlatest)](httpsclldutils.readthedocs.ioenlatestbadgelatest)[[PyPI](httpsimg.shields.iopypivclldutils.svg)](httpspypi.python.orgpypiclldutils) InstallInstall from PyPI runningshellpip install clldutils OverviewOriginally, clldutils started out as a library for functionality often used in [clld](httpsgithub.comclldclld) web apps. Over time, it turned into a toolbox for various data curation tasks, with a focus on cross-linguisticdata (as reflected by modules such as clldutils.iso_639_3 or clldutils.sfm).Design goals are- wide applicability of the included functionality- small number of dependencies, thus wide installability APIDocumentation of the package is at httpsclldutils.readthedocs.ioenlatestindex.html</longdescription>
+</pkgmetadata>

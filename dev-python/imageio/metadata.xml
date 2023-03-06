@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image httpsgithub.comimageioimageioworkflowsCIbadge.svg    target httpsgithub.comimageioimageioactionsImageio is a Python library that provides an easy interface to read andwrite a wide range of image data, including animated images, volumetricdata, and scientific formats. It is cross-platform, runs on Python 3.5+,and is easy to install.Main website httpsimageio.readthedocs.ioRelease notes httpsgithub.comimageioimageioblobmasterCHANGELOG.mdExample.. code-block python     import imageio     im  imageio.imread(imageioastronaut.png)     im.shape   im is a numpy array    (512, 512, 3)     imageio.imwrite(astronaut-gray.jpg, im[, , 0])See the API Reference httpsimageio.readthedocs.ioenstablereferenceindex.html_or examples httpsimageio.readthedocs.ioenstableexamples.html_for more information.</longdescription>
+</pkgmetadata>

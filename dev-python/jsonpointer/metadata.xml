@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>python-json-pointer[[PyPI version](httpsimg.shields.iopypivjsonpointer.svg)](httpspypi.python.orgpypijsonpointer)[[Supported Python versions](httpsimg.shields.iopypipyversionsjsonpointer.svg)](httpspypi.python.orgpypijsonpointer)[[Build Status](httpstravis-ci.orgstefankoeglpython-json-pointer.svgbranchmaster)](httpstravis-ci.orgstefankoeglpython-json-pointer)[[Coverage Status](httpscoveralls.ioreposstefankoeglpython-json-pointerbadge.svgbranchmaster)](httpscoveralls.iorstefankoeglpython-json-pointerbranchmaster)Resolve JSON Pointers in Python-------------------------------Library to resolve JSON Pointers according to[RFC 6901](httptools.ietf.orghtmlrfc6901)See source code for examples Website httpsgithub.comstefankoeglpython-json-pointer Repository httpsgithub.comstefankoeglpython-json-pointer.git Documentation httpspython-json-pointer.readthedocs.org PyPI httpspypi.python.orgpypijsonpointer Travis CI httpstravis-ci.orgstefankoeglpython-json-pointer Coveralls httpscoveralls.iorstefankoeglpython-json-pointer</longdescription>
+</pkgmetadata>

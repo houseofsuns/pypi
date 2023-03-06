@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>OpenTelemetry elasticsearch Integrationpypi.. pypi image httpsbadge.fury.iopyopentelemetry-instrumentation-elasticsearch.svg   target httpspypi.orgprojectopentelemetry-instrumentation-elasticsearchThis library allows tracing elasticsearch made by theelasticsearch httpselasticsearch-py.readthedocs.ioenmaster_ library.Installation------------     pip install opentelemetry-instrumentation-elasticsearchReferences---------- OpenTelemetry elasticsearch Integration httpsopentelemetry-python-contrib.readthedocs.ioenlatestinstrumentationelasticsearchelasticsearch.html_ OpenTelemetry Project httpsopentelemetry.io_ OpenTelemetry Python Examples httpsgithub.comopen-telemetryopentelemetry-pythontreemaindocsexamples_</longdescription>
+</pkgmetadata>

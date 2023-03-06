@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Psycopg 3 PostgreSQL database adapter for Python - Connection PoolThis distribution contains the optional connection pool packagepsycopg_pool__... __ httpswww.psycopg.orgpsycopg3docsadvancedpool.htmlThis package is kept separate from the main psycopg package because it islikely that it will follow a different release cycle.You can also install this package using    pip install psycopg[pool]Please read the project readme__ and the installation documentation__ formore details... __ httpsgithub.compsycopgpsycopgreadme.. __ httpswww.psycopg.orgpsycopg3docsbasicinstall.html       installing-the-connection-poolCopyright (C) 2020 The Psycopg Team</longdescription>
+</pkgmetadata>

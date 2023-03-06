@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>setuptools-markdownUse Markdown httpdaringfireball.netprojectsmarkdown__ for yourproject description-------------------------------------------------------------------------This project is deprecated.Instead of using this, you should use the built-in functionality ofsetuptools and PyPI.See this pagehttpsdustingram.comarticles20180316markdown-descriptions-on-pypi__for details.-------------------------------------------------------------------------Install1. Install pandoc httpjohnmacfarlane.netpandoc_2. Install this module.. code console    pip install setuptools-markdownUse.. code python    usrbinenv python     setup.py    from setuptools import setup    setup(        ...        setup_requires[setuptools-markdown],        long_description_markdown_filenameREADME.md,        ...    )The plugin will read the specified file, convert it toreST httpen.wikipedia.orgwikiReStructuredText__ usingpypandoc httpspypi.python.orgpypipypandoc__ and store theresulting reST in the long_description metadata field of yourdistribution.</longdescription>
+</pkgmetadata>

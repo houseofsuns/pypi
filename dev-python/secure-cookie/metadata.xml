@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>WSGI Secure Cookie and SessionProvides interfaces for secure cookies and sessions in WSGIapplications. Secure cookies are cryptographically signed (but notencrypted) to prevent tampering. Sessions are data associated with agiven user across requests and responses.Install-------Install in a virtualenv_ with pip_.. code-block text     pip install secure-cookie.. _virtualenv httpsvirtualenv.pypa.ioenstable.. _pip httpspip.pypa.ioenstableLinks------   Documentation httpssecure-cookie.readthedocs.io-   Releases httpspypi.orgprojectsecure-cookie-   Code httpsgithub.compalletssecure-cookie-   Issue tracker httpsgithub.compalletssecure-cookieissues-   Official chat httpsdiscord.ggt6rrQZH</longdescription>
+</pkgmetadata>

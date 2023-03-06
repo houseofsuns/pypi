@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Team and repository tags.. image httpsgovernance.openstack.orgtcbadgesneutron-lib.svg    target httpsgovernance.openstack.orgtcreferencetagsindex.html.. Change things from this point onneutron-libNeutron shared routines and utilities Free software Apache license Documentation httpsdocs.openstack.orgneutron-liblatest Source httpsopendev.orgopenstackneutron-lib Bugs httpsbugs.launchpad.netneutron Release notes httpsdocs.openstack.orgreleasenotesneutron-libFeatures-------- TODO</longdescription>
+</pkgmetadata>

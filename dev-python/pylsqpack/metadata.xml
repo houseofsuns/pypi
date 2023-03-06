@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pylsqpackrtd pypi-v pypi-pyversions pypi-l tests.. rtd image httpsreadthedocs.orgprojectspylsqpackbadgeversionlatest    target httpspylsqpack.readthedocs.io.. pypi-v image httpsimg.shields.iopypivpylsqpack.svg    target httpspypi.python.orgpypipylsqpack.. pypi-pyversions image httpsimg.shields.iopypipyversionspylsqpack.svg    target httpspypi.python.orgpypipylsqpack.. pypi-l image httpsimg.shields.iopypilpylsqpack.svg    target httpspypi.python.orgpypipylsqpack.. tests image httpsgithub.comaiortcpylsqpackworkflowstestsbadge.svg    target httpsgithub.comaiortcpylsqpackactionspylsqpack is a wrapper around the ls-qpack_ library. It provides PythonDecoder and Encoder objects to read or write HTTP3 headers compressedwith QPACK.To learn more about pylsqpack please read the documentation_... _ls-qpack httpsgithub.comlitespeedtechls-qpack.. _read the documentation httpspylsqpack.readthedocs.ioenlatest</longdescription>
+</pkgmetadata>

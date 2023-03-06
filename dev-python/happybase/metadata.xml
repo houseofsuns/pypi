@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>HappyBaseHappyBase is a developer-friendly Python_ library to interact with ApacheHBase_. Documentation httpshappybase.readthedocs.io_ (Read the Docs) Downloads httppypi.python.orgpypihappybase_ (PyPI) Source code httpsgithub.comwbolsterhappybase_ (Github).. _Python httppython.org.. _HBase httphbase.apache.org.. If youre reading this from the README.rst file in a source tree,   you can generate the HTML documentation by running make doc and browsing   to docbuildhtmlindex.html to see the result.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> dsnparseParse [dsn connection url strings](httpen.wikipedia.orgwikiData_source_name). Responsible for parsing dsn strings in projects like [prom](httpsgithub.comjaymonprom) and [morp](httpsgithub.comjaymonmorp).This is a generic version of [dj-database-url](httpsgithub.comkennethreitzdj-database-url).So, now you can create dsns like this    schemeuserpasshostportpathqueryquery_valfragmentFor example, lets look at a prom dsn    prom.interface.postgres.InterfacetestusertestpwlocalhosttestdbNow lets parse itpythonimport dsnparsedsn  prom.interface.postgres.Interfacetestusertestpwlocalhost1234testdbr  dsnparse.parse(dsn)print(r.scheme)  prom.interface.postgres.Interfaceprint(r.username)  testuserprint(r.password)  testpwprint(r.host)  localhostprint(r.port)  1234print(r.hostloc)  localhost1234print(r.paths)  [testdb]Also, dsnparse can easily use environment variablespythonr  dsnparse.parse_environ(ENVIRONMENT_VARIABLE_NAME)I tried to keep the interface very similar to urlparse so it will feel familiar to use. CustomizingBy default, dsnparse.parse(dsn) returns a ParseResult instance, but that can be customizedpythonimport dsnparseclass MyResult(dsnparse.ParseResult)    def configure(self)         expose an interface property        self.interface  self.schemedsn  Interfacetestusertestpwlocalhost1234testdbr  dsnparse.parse(dsn, parse_classMyResult)print(isinstance(r, MyResult))  Trueprint(r.interface)  Interface InstallUse pip    pip install dsnparseor use pip with github    pip install -U git+httpsgithub.comJaymondsnparseeggdsnparse</longdescription>
+</pkgmetadata>

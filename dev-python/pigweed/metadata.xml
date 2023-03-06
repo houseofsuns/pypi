@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> PigweedPigweed is an open source collection of embedded-targeted librariesor as welike to call them, modules. These modules are building blocks and infrastructurethat enable faster and more reliable development on small-footprint MMU-less32-bit microcontrollers like the STMicroelectronics STM32L452 or the NordicnRF52832.For more information please see our website httpspigweed.dev. Links-- TODO(b256680603) Remove query string from issue tracker link. --- [Documentation](httpspigweed.dev)- [Source Code](httpscs.pigweed.devpigweed)- [Code Reviews](httpspigweed-review.googlesource.com)- [Mailing List](httpsgroups.google.comforumforumpigweed)- [Chat Room](httpsdiscord.ggM9NSeTA)- [Issue Tracker](httpsissues.pigweed.devissuesqstatusopen)</longdescription>
+</pkgmetadata>

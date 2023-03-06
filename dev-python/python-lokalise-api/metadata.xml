@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> Lokalise API v2 official Python interface[PyPI](httpsimg.shields.iopypivpython-lokalise-api)[CI](httpsgithub.comlokalisepython-lokalise-apiactionsworkflowsci.ymlbadge.svg)[[Downloads](httpspepy.techbadgepython-lokalise-api)](httpspepy.techprojectpython-lokalise-api)[[Docs](httpsreadthedocs.orgprojectspython-lokalise-apibadgeversionlateststyleflat)](httpspython-lokalise-api.readthedocs.io)Official Python 3 interface for the [Lokalise APIv2](httpsdevelopers.lokalise.comreferencelokalise-rest-api) that represents returned data as Python objects. Quick startThis plugin requires Python 3.7 and above. Install it    pip install python-lokalise-apiObtain a Lokalise API token (in your Personal profile) and use itpythonimport lokaliseclient  lokalise.Client(YOUR_API_TOKEN)project  client.project(123.abc)print(project.name)client.upload_file(project.project_id, {    data ZnI6DQogIHRlc3Q6IHRyYW5zbGF0aW9u,    filename python_upload.yml,    lang_iso en})translation_keys  client.keys(project.project_id, {page 2,    limit 3,    disable_references 1})translation_keys.items[0].key_name[web]   sign_upYou can also use [OAuth 2 tokens](httpspython-lokalise-api.readthedocs.ioenlatestadditional_infooauth2_flow.html)pythonclient  lokalise.OAuthClient(YOUR_OAUTH2_API_TOKEN)project  client.project(123.abc) DocumentationFind detailed documentation at [python-lokalise-api.readthedocs.io](httpspython-lokalise-api.readthedocs.io). LicenseThis plugin is licensed under the [BSD 3 Clause License](httpsgithub.comlokalisepython-lokalise-apiblobmasterLICENSE).Copyright (c) [Lokalise group](httpslokalise.com) and [Ilya Krukowski](httpbodrovis.tech)</longdescription>
+</pkgmetadata>

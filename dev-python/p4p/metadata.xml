@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>PVAccess for PythonPython bindings for the PVAccess network client and server.    python -m virtualenv p4ptest    . p4ptestbinactivate    python -m pip install -U pip    python -m pip install p4p    python -m nose2 p4pSee documentationhttpsmdavidsaver.github.iop4pSourcehttpsgithub.commdavidsaverp4pCI results[Github Actions](httpsgithub.commdavidsaverp4pworkflowsP4Pbadge.svg)</longdescription>
+</pkgmetadata>

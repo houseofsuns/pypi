@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>dnspython3 has been superseded by the regular dnspython kit, which nowsupports both Python 2 and Python 3.Installing this kit will simply cause the regular dnspython kit to be installed as a dependency.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> gitlint [jorisroovers.github.iogitlint](httpjorisroovers.github.iogitlint) [[Tests](httpsgithub.comjorisrooversgitlintworkflowsTests20and20Checksbadge.svg)](httpsgithub.comjorisrooversgitlintactionsqueryworkflow3A22Tests+and+Checks22)[[Coverage Status](httpscoveralls.ioreposgithubjorisrooversgitlintbadge.svgbranchfix-coveralls)](httpscoveralls.iogithubjorisrooversgitlintbranchfix-coveralls)[[PyPi Package](httpsimg.shields.iopypivgitlint.png)](httpspypi.python.orgpypigitlint)[Supported Python Versions](httpsimg.shields.iopypipyversionsgitlint.svg)Git commit message linter written in python, checks your commit messages for style.See [jorisroovers.github.iogitlint](httpjorisroovers.github.iogitlint) for full documentation.a hrefhttpjorisroovers.github.iogitlint target_blankimg srchttpsraw.githubusercontent.comjorisrooversgitlintmaindocsimagesreadme-gitlint.png a Contributing All contributions are welcome and very much appreciatedIm [looking for contributors](httpsgithub.comjorisrooversgitlintissues134) that are interested in taking a more active co-maintainer role as its becoming increasingly difficult for me to find time to maintain gitlint. Please leave a comment in [134](httpsgithub.comjorisrooversgitlintissues134) if youre interestedSee [jorisroovers.github.iogitlintcontributing](httpjorisroovers.github.iogitlintcontributing) for details onhow to get started - its easyWe maintain a [loose project plan on Github Projects](httpsgithub.comusersjorisrooversprojects1views1).</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>PyWorld wrappers WORLD, which is a free software for high-quality speechanalysis, manipulation and synthesis. It can estimate fundamental frequency (F0),aperiodicity and spectral envelope and also generate the speech like input speechwith only estimated parameters.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Numba.. image httpsbadges.gitter.imnumbanumba.svg   target httpsgitter.imnumbanumbautm_sourcebadgeutm_mediumbadgeutm_campaignpr-badge   alt Gitter.. image httpsimg.shields.iobadgediscuss-on20discourse-blue   target httpsnumba.discourse.group   alt Discourse.. image httpszenodo.orgbadge3659275.svg   target httpszenodo.orgbadgelatestdoi3659275   alt Zenodo DOI.. image httpsimg.shields.iopypivnumba.svg   target httpspypi.python.orgpypinumba   alt PyPI.. image httpsdev.azure.comnumbanumba_apisbuildstatusnumba.numbabranchNamemain    target httpsdev.azure.comnumbanumba_buildlatestdefinitionId1branchNamemain    alt Azure PipelinesA Just-In-Time Compiler for Numerical Functions in PythonNumba is an open source, NumPy-aware optimizing compiler for Python sponsoredby Anaconda, Inc.  It uses the LLVM compiler project to generate machine codefrom Python syntax.Numba can compile a large subset of numerically-focused Python, including manyNumPy functions.  Additionally, Numba has support for automaticparallelization of loops, generation of GPU-accelerated code, and creation ofufuncs and C callbacks.For more information about Numba, see the Numba homepagehttpsnumba.pydata.org and the online documentationhttpsnumba.readthedocs.ioenstableindex.htmlInstallationPlease follow the instructionshttpsnumba.readthedocs.ioenstableuserinstalling.htmlDemoPlease have a look and the demo notebooks via the mybinder servicehttpsmybinder.orgv2ghnumbanumba-examplesmasterfilepathnotebooksContactNumba has a discourse forum for discussions httpsnumba.discourse.group</longdescription>
+</pkgmetadata>

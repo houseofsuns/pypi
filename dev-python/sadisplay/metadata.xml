@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>sadisplayAboutSimple package for describing SQLAlchemy schema and display raw databasetables. Relation detecting by ForeignKey columns.Supports mapped class inherit. BSD licensed.Output formats PlantUML httpplantuml.sourceforge.net_ class diagram DOT httpwww.graphviz.org_ graphviz directed graphsRequirements python  2.5 SQLAlchemy  0.5Install    pip install sadisplayFrom bitbucket    pip install httpbitbucket.orgestinsadisplaygettip.tar.gz     or    easy_install httpbitbucket.orgestinsadisplaygettip.tar.gzUsageWrite simple script in your project environment    import codecs    import sadisplay    from yourapp import model    desc  sadisplay.describe(        [getattr(model, attr) for attr in dir(model)],        show_methodsTrue,        show_propertiesTrue,        show_indexesTrue,    )    with codecs.open(schema.plantuml, w, encodingutf-8) as f        f.write(sadisplay.plantuml(desc))    with codecs.open(schema.dot, w, encodingutf-8) as f        f.write(sadisplay.dot(desc))     Or only part of schema    desc  sadisplay.describe([model.User, model.Group, model.Persmission])    with codecs.open(auth.plantuml, w, encodingutf-8) as f        f.write(sadisplay.plantuml(desc))    with codecs.open(auth.dot, w, encodingutf-8) as f        f..write(sadisplay.dot(desc))Render PlantUML class diagram     java -jar plantuml.jar schema.plantuml     or for svg format     java -jar plantuml.jar -Tsvg schema.plantumlRender graph by graphviz     dot -Tpng schema.dot  schema.pngAlso you can display you sql database tables by reflecting feature     sadisplay -u URL connection string to db -r dot  schema.dot     dot -Tpng schema.dot  schema.png</longdescription>
+</pkgmetadata>

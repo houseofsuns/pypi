@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> dpkt[Python package](httpsgithub.comkbandladpktworkflowsPython20packagebadge.svg)[[Coverage Status](httpscoveralls.ioreposgithubkbandladpktbadge.svgbranchmaster)](httpscoveralls.iogithubkbandladpktbranchmaster)[[supported-versions](httpsimg.shields.iopypipyversionsdpkt.svg)](httpspypi.python.orgpypidpkt)[[supported-versions](httpsimg.shields.iopypiimplementationdpkt.svg)](httpspypi.python.orgpypidpkt)The dpkt project is a python module for fast, simple packet parsing, with definitions for the basic TCPIP protocols. Installationpip install dpkt Examples and Documentation- [Main Docs for DPKT](httpskbandla.github.iodpkt)</longdescription>
+</pkgmetadata>

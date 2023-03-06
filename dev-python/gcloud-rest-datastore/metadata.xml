@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>(Asyncio OR Threadsafe) Python Client for Google Cloud Datastore    This is a shared codebase for gcloud-rest-datastore and    gcloud-rest-datastorepypi pythons-aio pythons-restInstallation------------.. code-block console     pip install --upgrade gcloud-{aio,rest}-datastoreUsage-----See our docs_.Contributing------------Please see our contributing guide_... _contributing guide httpsgithub.comtalkiqgcloud-restblobmaster.githubCONTRIBUTING.rst.. _our docs httpstalkiq.github.iogcloud-rest.. pypi image httpsimg.shields.iopypivgcloud-rest-datastore.svgstyleflat-square    alt Latest PyPI Version (gcloud-rest-datastore)    target httpspypi.orgprojectgcloud-rest-datastore.. pythons-aio image httpsimg.shields.iopypipyversionsgcloud-rest-datastore.svgstyleflat-squarelabelpython (aio)    alt Python Version Support (gcloud-rest-datastore)    target httpspypi.orgprojectgcloud-rest-datastore.. pythons-rest image httpsimg.shields.iopypipyversionsgcloud-rest-datastore.svgstyleflat-squarelabelpython (rest)    alt Python Version Support (gcloud-rest-datastore)    target httpspypi.orgprojectgcloud-rest-datastore</longdescription>
+</pkgmetadata>

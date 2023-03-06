@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Jeepney is a pure Python implementation of D-Bus messaging. It has an IO-freehttpssans-io.readthedocs.io__ core, and integration modules for differentevent loops.D-Bus is an inter-process communication system, mainly used in Linux.To install Jeepney    pip install jeepneyJeepney docs on Readthedocs httpsjeepney.readthedocs.ioenlatest__</longdescription>
+</pkgmetadata>

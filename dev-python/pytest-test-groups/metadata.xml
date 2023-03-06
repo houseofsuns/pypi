@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image httpssecure.travis-ci.orgmark-adamspytest-test-groups.pngbranchmaster   alt Build Status   target httpstravis-ci.orgmark-adamspytest-test-groupsWelcome to pytest-test-groupspytest-test-groups allows you to split your test runs into groups of a specificsize to make it easier to split up your test runs.Usage---------------------     Install pytest-test-groups    pip install pytest-test-groups     Split the tests into 10 groups and run the second group    py.test --test-group-count 10 --test-group2         Randomize the test order, split into 10 groups, and run the second group    py.test --test-group-count 10 --test-group2 --test-group-random-seed12345Why would I use this------------------------------------------------------------------Sometimes you may have some long running test jobs that take awhile to complete. This can be a major headache when trying torun tests quickly. pytest-test-groups allows you to easily saysplit my tests into groups of 10 tests and run the second group.This is primarily useful in the context of CI builds.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> uc.micro-py[[pypi](httpsimg.shields.iopypivuc-micro-py)](httpspypi.orgprojectuc-micro-py)[[CI](httpsgithub.comtsutsu3uc.micro-pyworkflowsCIbadge.svgbranchmain)](httpsgithub.comtsutsu3uc.micro-pyactions)[[codecov](httpscodecov.ioghtsutsu3uc.micro-pybranchmaingraphbadge.svgtoken5Y7559D69U)](httpscodecov.ioghtsutsu3uc.micro-py)This is a Python port of [uc.micro](httpsgithub.commarkdown-ituc.micro). Micro subset of unicode data files for [linkify-it-py](httpsgithub.comtsutsu3linkify-it-py) projects.This package content is ONLY for [linkify-it-py](httpsgithub.comtsutsu3linkify-it-py)projects needs. installbashpip install uc-micro-py</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>jieba Python Jieba (Chinese for to stutter) Chinese text segmentation built tobe the best Python Chinese word segmentation module. README.mdGitHub httpsgithub.comfxsjyjieba-     -     -  ,         -  -  -  -  MIT  httpjiebademo.ap01.aws.af.cm Python 23 -   easy_install jieba  pip install jieba  pip3 install jieba-   httpspypi.python.orgpypijieba    python setup.py install-   jieba  site-packages -   import jieba </longdescription>
+</pkgmetadata>

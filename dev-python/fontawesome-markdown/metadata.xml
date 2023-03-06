@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Font Awesome and Markdown, togetherFor when words arent enough.-----------------------------.. image httpstravis-ci.orgbmcorserfontawesome-markdown.svgbranch0.2.4    target httpstravis-ci.orgbmcorserfontawesome-markdownA Markdown extension that looks for things like fa-coffee and replacesthem with the Font Awesome icon markup.Add fontawesome_markdown to your Markdown call and watch themagic unfold.. code-block python     from markdown import Markdown     markdown  Markdown(extensions[fontawesome_markdown]     markdown.convert(i  fa-coffee)    pi  i classfa fa-coffeeipDont forget to make the Font Awesome assets available to your DOM, and youre done</longdescription>
+</pkgmetadata>

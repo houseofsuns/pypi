@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>esmre - Efficient String Matching Regular Expressionsesmre is a Python module that can be used to speed up the execution of a largecollection of regular expressions. It works by building a index of compulsorysubstrings from a collection of regular expressions, which it uses to quicklyexclude those expressions which trivially do not match each input.Here is some example code that uses esmrepycon import esmre index  esmre.Index() index.enter(rMajor-GeneralW, savoy opera) index.enter(rbwayW+hayeb, sea shanty) index.query(I am the very model of a modern Major-General.)[savoy opera] index.query(Way, hay up she rises,)[sea shanty] The esmre module builds on the simpler string matching facilities of the esmmodule, which wraps a C implementation some of the algorithms described inAhos and Corasicks paper on efficient string matching [Aho, A.V, andCorasick, M. J. Efficient String Matching An Aid to Bibliographic Search.Comm. ACM 186 (June 1975), 333-340]. Some minor modifications have been madeto the algorithms in the paper and one algorithm is missing (for now), butthere is enough to implement a quick string matching index.Here is some example code that uses esm directlypycon import esm index  esm.Index() index.enter(he) index.enter(she) index.enter(his) index.enter(hers) index.fix() index.query(this here is history)[((1, 4), his), ((5, 7), he), ((13, 16), his)] index.query(Those are his sheep)[((10, 13), his), ((14, 17), she), ((15, 17), he)] You can see more usage examples in the tests.</longdescription>
+</pkgmetadata>

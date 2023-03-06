@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription> xdgxdg has been renamed to xdg-base-dirs due to an import collision with[PyXDG](httpspypi.orgprojectpyxdg). Therefore the[xdg](httpspypi.orgprojectxdg) package is deprecated. Install[xdg-base-dirs](httpspypi.orgprojectxdg-base-dirs) instead.</longdescription>
+</pkgmetadata>

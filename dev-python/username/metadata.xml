@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>p aligncentera hrefhttpspypi.orgprojectusernameimg srchttpscdn.abranhe.comprojectsusernamelogo.svgabrbrbra hrefhttpspypi.orgprojectusernamebusernameba get the current usernamepp aligncentera hrefhttpsgithub.comabranheusernameactionsworkflowsmain.ymlimg srchttpsgithub.comabranheusernameactionsworkflowsmain.ymlbadge.svg aa hrefhttpsapp.travis-ci.comgithubabranheusernameimg srchttpsimg.shields.iotraviscomabranheusername.svglogotravis aa hrefhttpsci.appveyor.comprojectabranheusernameimg srchttpsci.appveyor.comapiprojectsstatus8bp4dpqr76nx2nxtsvgtrue aa hrefhttpspypi.orgprojectusernameimg srchttpsimg.shields.iopypivusernameaa hrefhttpsgithub.comabranheusernameblobmasterlicenseimg srchttpsimg.shields.iogithublicenseabranheusername.svg ap Installconsole pip install username Usagepythonimport usernameprint(username()) abranhe API username()Get current username Related- [username-cli](httpsgithub.comabranheusername-cli) cli for this package. LicenseMIT  [Abraham Hernandez](httpsgithub.comabranhe)</longdescription>
+</pkgmetadata>

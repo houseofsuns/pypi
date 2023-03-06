@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>wheelThis library is the reference implementation of the Python wheel packagingstandard, as defined in PEP 427_.It has two different roles. A setuptools_ extension for building wheels that provides the   bdist_wheel setuptools command. A command line tool for working with wheel filesIt should be noted that wheel is not intended to be used as a library, andas such there is no stable, public API... _PEP 427 httpswww.python.orgdevpepspep-0427.. _setuptools httpspypi.orgprojectsetuptoolsDocumentation-------------The documentation_ can be found on Read The Docs... _documentation httpswheel.readthedocs.ioCode of Conduct---------------Everyone interacting in the wheel projects codebases, issue trackers, chatrooms, and mailing lists is expected to follow the PSF Code of Conduct_... _PSF Code of Conduct httpsgithub.compypa.githubblobmainCODE_OF_CONDUCT.md</longdescription>
+</pkgmetadata>

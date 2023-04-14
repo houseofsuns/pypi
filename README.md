@@ -20,14 +20,18 @@ future if a better hosting option than GitHub is determined.
 
 Note that due to the size of PyPI this repository has several limitations:
 * only the 65535 most downloaded packages are included to keep the
-  repository manageable,
+  repository manageable (the actual number differs somewhat due to
+  fluctuation and the next point),
 * some packages are omitted due to not providing source files or similar
   hindrances,
 * packages are updated using a probabilistic algorithm, meaning that
   some package updates may be delayed,
 * from each package only the most recent version is provided as ebuild,
 * even with the mitigations the size of all ebuilds combined is rather
-  huge.
+  huge,
+* conversion from PyPI metadata to ebuild is not perfect and for example
+  may contain dependencies which are actually excluded by additional
+  conditions.
 
 This is maintained and updated with the help of g-sorcery [3],[4] and
 gs-pypi [5],[6].

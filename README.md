@@ -31,7 +31,10 @@ Note that due to the size of PyPI this repository has several limitations:
   huge,
 * conversion from PyPI metadata to ebuild is not perfect and for example
   may contain dependencies which are actually excluded by additional
-  conditions.
+  conditions. Additionally package installation may fail due to for
+  example stronger quality checks in an eclass. In these cases please
+  open an issue. As said, there are lots of packages so there probably
+  are some failures still lurking.
 
 This is maintained and updated with the help of g-sorcery [3],[4] and
 gs-pypi [5],[6].

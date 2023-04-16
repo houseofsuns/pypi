@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Substitute the placeholder &quot;{{name}}&quot; in JSON with the corresponding value from another JSON such as {&quot;name&quot;: &quot;Lorenzo&quot;}</longdescription>
+	<longdescription>Substitute the placeholder &quot;{{name}}&quot; in JSON with the corresponding value from another JSON such as {&quot;name&quot;: &quot;Lorenzo&quot;}. Project link: https://github.com/lorenzua02/json-replacer</longdescription>
 </pkgmetadata>

@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># cvperson行人识别通用框架</longdescription>
+	<longdescription># cvtrack行人识别通用框架</longdescription>
 </pkgmetadata>

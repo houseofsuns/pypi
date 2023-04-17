@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># jeff-apiPython library for Jeff interaction. Supports both `jeff-qt` and `jeff-core`.## Installing from PyPi.org```bashpip install jeff-api```## Usage```pythonfrom jeff_api import server, clientsrv = server.Server(None, ext_port)cli = client.Client('localhost', jeff_port)data = srv.listen()cli.send_msg(data)``````pythonfrom jeff_api import client, server, scenariosrv = server.Server(None, ext_port)cli = client.Client('localhost', jeff_port)scn = scenario.Scenario(cli, srv, &quot;Example scenario&quot;)```## Building```bashcd jeff-apipython -m pip install --upgrade buildpython -m build```</longdescription>
+	<longdescription># jeff-apiPython library for Jeff interaction. Supports only `jeff-qt` for now.## Installing from PyPI.org```bashpip install jeff-api```## Usage*TBD*## Building```bashcd jeff-apipython -m pip install --upgrade buildpython -m build```</longdescription>
 </pkgmetadata>

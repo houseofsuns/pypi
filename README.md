@@ -15,8 +15,8 @@ auto-sync = yes
 ```
 
 This is currently an experimental project and updated on a best effort
-basis (aiming for roughly daily). The repository may also move in the
-future if a better hosting option than GitHub is determined.
+basis (aiming for roughly every few days). The repository may also move
+in the future if a better hosting option than GitHub is determined.
 
 Note that due to the size of PyPI this repository has several limitations:
 * only the 65535 most downloaded packages are included to keep the

@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Q-CTRL M-LOOPThe Q-CTRL M-LOOP Python package allows you to integrate Boulder Opalautomated closed-loop optimizers with automated closed-loop optimizationsmanaged by the open-source package M-LOOP.</longdescription>
+	<longdescription># Q-CTRL M-LOOP AdapterThe Q-CTRL M-LOOP Adapter package allows you to integrate Boulder Opalautomated closed-loop optimizers with automated closed-loop optimizationsmanaged by the open-source package M-LOOP.</longdescription>
 </pkgmetadata>

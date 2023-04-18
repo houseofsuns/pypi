@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>FidusWriter-Books=================FidusWriter-Books is a Fidus Writer plugin to allow for the composition of booksand article collections, using individual documents as chapters.Installation------------1) Install Fidus Writer like this:    pip install fiduswriter[books]2) Add &quot;book&quot; to your INSTALLED_APPS setting in the   configuration.py file like this::    INSTALLED_APPS += (        ...        'book',    )3) Run ``fiduswriter setup`` to create the needed database tables and to create the needed JavaScript files.4) (Re)start your Fidus Writer server</longdescription>
+	<longdescription>FidusWriter-Books====FidusWriter-Books is a Fidus Writer plugin to allow for the composition of booksand article collections, using individual documents as chapters.Installation------------1) Install Fidus Writer like this:```shell    pip install fiduswriter[books]```2) Add &quot;book&quot; to your INSTALLED_APPS setting in the   configuration.py file like this:```python    INSTALLED_APPS += (        ...        'book',    )```3) Run ``fiduswriter setup`` to create the needed database tables and to create the needed JavaScript files.4) (Re)start your Fidus Writer server</longdescription>
 </pkgmetadata>

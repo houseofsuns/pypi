@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Q-CTRL QUAThe Q-CTRL QUA Python package allows you to integrate Boulder Opal with the QUAquantum computing language.</longdescription>
+	<longdescription># Q-CTRL QUA AdapterThe Q-CTRL QUA Adapter package allows you to integrate Boulder Opal with the QUAquantum computing language.</longdescription>
 </pkgmetadata>

@@ -3,8 +3,8 @@
 
 EAPI=8
 
-REALNAME="understory-code"
-REALVERSION="0.0.151"
+REALNAME="${PN}"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10} )
 DISTUTILS_USE_PEP517=standalone

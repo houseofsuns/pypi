@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="itkwasm"
+REALNAME="${PN}"
 REALVERSION="1.0b94"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

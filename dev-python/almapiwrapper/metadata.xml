@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>**********************************Almapi Wrapper documentation |doc|**********************************This python module is a tool to use Alma APIs. it manages the logs and thebackup of the records.* Author: Raphaël Rey (raphael.rey@slsp.ch)* Year: 2022* Version: 0.11.2* License: GNU General Public License v3.0* `Documentation &lt;https://almapi-wrapper.readthedocs.io/en/latest/&gt;`_.. |doc| image:: https://readthedocs.org/projects/almapi-wrapper/badge/?version=latest    :target: https://almapi-wrapper.readthedocs.io/en/latest/?badge=latest    :alt: Documentation Status</longdescription>
+	<longdescription>**********************************Almapi Wrapper documentation |doc|**********************************This python module is a tool to use Alma APIs. it manages the logs and thebackup of the records.* Author: Raphaël Rey (raphael.rey@slsp.ch)* Year: 2022* Version: 0.12.1* License: GNU General Public License v3.0* `Documentation &lt;https://almapi-wrapper.readthedocs.io/en/latest/&gt;`_.. |doc| image:: https://readthedocs.org/projects/almapi-wrapper/badge/?version=latest    :target: https://almapi-wrapper.readthedocs.io/en/latest/?badge=latest    :alt: Documentation Status</longdescription>
 </pkgmetadata>

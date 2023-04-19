@@ -3,8 +3,8 @@
 
 EAPI=8
 
-REALNAME="cyrebro-domain-validator"
-REALVERSION="0.3.1"
+REALNAME="${PN}"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )
 DISTUTILS_USE_PEP517=standalone

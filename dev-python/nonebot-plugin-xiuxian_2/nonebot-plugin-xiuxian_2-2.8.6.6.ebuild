@@ -4,7 +4,7 @@
 EAPI=8
 
 REALNAME="nonebot-plugin-xiuxian-2"
-REALVERSION="2.8.6.6"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )
 DISTUTILS_USE_PEP517=standalone

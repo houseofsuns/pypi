@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="lca-algebraic-dev"
+REALNAME="${PN}"
 REALVERSION="1.0.5.1184689.dev0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

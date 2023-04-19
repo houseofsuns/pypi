@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="cppython-cmake"
+REALNAME="${PN}"
 REALVERSION="0.1.1.dev15"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python3_11 )

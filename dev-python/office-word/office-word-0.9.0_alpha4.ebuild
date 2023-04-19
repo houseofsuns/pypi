@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="office-word"
+REALNAME="${PN}"
 REALVERSION="0.9.0a4"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

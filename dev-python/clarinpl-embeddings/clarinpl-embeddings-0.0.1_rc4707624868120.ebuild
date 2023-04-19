@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="clarinpl-embeddings"
+REALNAME="${PN}"
 REALVERSION="0.0.1rc4707624868120"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

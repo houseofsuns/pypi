@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="yyxx-game-pkg-dev"
+REALNAME="${PN}"
 REALVERSION="2023.4.12.1.dev1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="autoreduce-scripts"
+REALNAME="${PN}"
 REALVERSION="22.0.0.dev44"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

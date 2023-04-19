@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="test-project-python"
+REALNAME="${PN}"
 REALVERSION="0.0.2.post9"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

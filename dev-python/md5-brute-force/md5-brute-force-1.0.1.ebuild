@@ -3,8 +3,8 @@
 
 EAPI=8
 
-REALNAME="md5-brute-force"
-REALVERSION="1.0.1"
+REALNAME="${PN}"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10} )
 DISTUTILS_USE_PEP517=standalone

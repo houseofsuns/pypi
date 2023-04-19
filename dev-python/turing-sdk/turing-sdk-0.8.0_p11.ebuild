@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="turing-sdk"
+REALNAME="${PN}"
 REALVERSION="0.8.0.post11"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10} )

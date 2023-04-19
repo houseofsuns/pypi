@@ -3,8 +3,8 @@
 
 EAPI=8
 
-REALNAME="flake8-unused-globals"
-REALVERSION="0.1.9"
+REALNAME="${PN}"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python3_10 )
 DISTUTILS_USE_PEP517=standalone

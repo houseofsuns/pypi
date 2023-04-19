@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="google-cloud-documentai-toolbox"
+REALNAME="${PN}"
 REALVERSION="0.6.0a0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

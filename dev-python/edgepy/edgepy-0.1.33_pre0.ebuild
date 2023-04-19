@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="edgepy"
+REALNAME="${PN}"
 REALVERSION="0.1.33.dev0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

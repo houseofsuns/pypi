@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="sphinx-inline-tabs"
+REALNAME="${PN}"
 REALVERSION="2022.1.2b11"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="robotframework-mqttlibrary"
+REALNAME="${PN}"
 REALVERSION="0.7.1.post3"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

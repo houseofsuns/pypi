@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="costsensitive"
+REALNAME="${PN}"
 REALVERSION="0.1.2.13.post10"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

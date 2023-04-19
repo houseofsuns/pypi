@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="onnx-weekly"
+REALNAME="${PN}"
 REALVERSION="1.15.0.dev20230417"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

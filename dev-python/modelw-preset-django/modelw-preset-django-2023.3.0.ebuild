@@ -3,8 +3,8 @@
 
 EAPI=8
 
-REALNAME="modelw-preset-django"
-REALVERSION="2023.3.0"
+REALNAME="${PN}"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python3_10 )
 DISTUTILS_USE_PEP517=standalone

@@ -3,8 +3,8 @@
 
 EAPI=8
 
-REALNAME="cloudshell-cp-vcenter"
-REALVERSION="5.0.2"
+REALNAME="${PN}"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python3_9 )
 DISTUTILS_USE_PEP517=standalone

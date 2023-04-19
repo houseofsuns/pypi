@@ -3,8 +3,8 @@
 
 EAPI=8
 
-REALNAME="adafruit-circuitpython-displayio-layout"
-REALVERSION="1.19.14"
+REALNAME="${PN}"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )
 DISTUTILS_USE_PEP517=standalone

@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="ptyng"
+REALNAME="${PN}"
 REALVERSION="0.3.3.post1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

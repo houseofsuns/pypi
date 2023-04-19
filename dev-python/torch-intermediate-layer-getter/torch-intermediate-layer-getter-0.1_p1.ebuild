@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="torch-intermediate-layer-getter"
+REALNAME="${PN}"
 REALVERSION="0.1.post1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

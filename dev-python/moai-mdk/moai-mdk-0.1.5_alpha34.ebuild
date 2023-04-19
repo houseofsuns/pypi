@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="moai-mdk"
+REALNAME="${PN}"
 REALVERSION="0.1.5a34"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

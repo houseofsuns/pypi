@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="athena-mathlab"
+REALNAME="${PN}"
 REALVERSION="0.1.2.post2304"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

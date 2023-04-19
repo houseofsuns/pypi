@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="requests-ntlm3"
+REALNAME="${PN}"
 REALVERSION="6.1.3b1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

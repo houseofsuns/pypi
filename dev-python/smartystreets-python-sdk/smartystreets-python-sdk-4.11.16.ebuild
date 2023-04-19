@@ -3,8 +3,8 @@
 
 EAPI=8
 
-REALNAME="smartystreets-python-sdk"
-REALVERSION="4.11.16"
+REALNAME="${PN}"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )
 DISTUTILS_USE_PEP517=standalone

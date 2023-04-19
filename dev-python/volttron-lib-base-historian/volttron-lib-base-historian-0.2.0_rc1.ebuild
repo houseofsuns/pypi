@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="volttron-lib-base-historian"
+REALNAME="${PN}"
 REALVERSION="0.2.0rc1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

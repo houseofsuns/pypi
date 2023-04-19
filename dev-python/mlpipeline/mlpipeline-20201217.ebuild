@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="mlpipeline"
+REALNAME="${PN}"
 REALVERSION="2.0a7.post1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

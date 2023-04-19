@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="sleapyfaces"
+REALNAME="${PN}"
 REALVERSION="1.2.9.post1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

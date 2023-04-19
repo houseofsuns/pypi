@@ -4,7 +4,7 @@
 EAPI=8
 
 REALNAME="np-data-validator-2"
-REALVERSION="0.1.26"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )
 DISTUTILS_USE_PEP517=standalone

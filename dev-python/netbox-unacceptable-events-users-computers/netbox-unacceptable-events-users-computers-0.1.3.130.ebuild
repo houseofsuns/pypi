@@ -3,8 +3,8 @@
 
 EAPI=8
 
-REALNAME="netbox-unacceptable-events-users-computers"
-REALVERSION="0.1.3.130"
+REALNAME="${PN}"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )
 DISTUTILS_USE_PEP517=standalone

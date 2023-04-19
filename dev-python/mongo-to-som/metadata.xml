@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Mongo to SomA small library to analyze data from MongoDB with Self Organizing Map### Installation```pip install mongo-to-som```### Get startedHow to use library:```Pythonfrom mongo_to_som import mongotosom# Instantiate a Multiplication objectmongotosom.mongo_to_som(num_rows, num_cols, max_steps, max_m_distance, max_learning_rate, url, port, db, collection)```</longdescription>
+	<longdescription># Mongo to SomA small library to analyze data from MongoDB with Self Organizing Map### Installation```pip install mongo-to-som```### Get startedHow to use library:```Pythonfrom mongo_to_som import mongotosom# Instantiate Mongo to Som Librarymongotosom.mongo_to_som(num_rows, num_cols, max_steps, max_m_distance, max_learning_rate, url, port, db, collection)```</longdescription>
 </pkgmetadata>

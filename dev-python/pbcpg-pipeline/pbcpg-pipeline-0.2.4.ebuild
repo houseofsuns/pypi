@@ -3,8 +3,8 @@
 
 EAPI=8
 
-REALNAME="pbcpg-pipeline"
-REALVERSION="0.2.4"
+REALNAME="${PN}"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python3_9 )
 DISTUTILS_USE_PEP517=standalone

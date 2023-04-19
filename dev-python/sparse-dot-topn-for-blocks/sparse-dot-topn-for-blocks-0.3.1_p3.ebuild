@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="sparse-dot-topn-for-blocks"
+REALNAME="${PN}"
 REALVERSION="0.3.1.post3"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

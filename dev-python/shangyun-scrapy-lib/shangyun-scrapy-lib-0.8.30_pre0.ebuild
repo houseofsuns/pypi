@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="shangyun-scrapy-lib"
+REALNAME="${PN}"
 REALVERSION="0.8.30.dev0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

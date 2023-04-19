@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="crc32c"
+REALNAME="${PN}"
 REALVERSION="2.3.post0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

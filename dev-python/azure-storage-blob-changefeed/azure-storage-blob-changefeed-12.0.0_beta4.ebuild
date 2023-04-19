@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="azure-storage-blob-changefeed"
+REALNAME="${PN}"
 REALVERSION="12.0.0b4"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

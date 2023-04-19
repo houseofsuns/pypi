@@ -3,8 +3,8 @@
 
 EAPI=8
 
-REALNAME="bleak-retry-connector"
-REALVERSION="3.0.2"
+REALNAME="${PN}"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11} )
 DISTUTILS_USE_PEP517=standalone

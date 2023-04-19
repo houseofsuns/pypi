@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="clickhouse-toolset-extras"
+REALNAME="${PN}"
 REALVERSION="0.16.dev0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10} )

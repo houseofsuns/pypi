@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="htseq-clip"
+REALNAME="${PN}"
 REALVERSION="2.18.2b0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

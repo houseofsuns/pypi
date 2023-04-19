@@ -3,8 +3,8 @@
 
 EAPI=8
 
-REALNAME="aido-protocols-daffy-aido4"
-REALVERSION="5.0.65"
+REALNAME="${PN}"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )
 DISTUTILS_USE_PEP517=standalone

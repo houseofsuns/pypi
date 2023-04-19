@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="sphinxcontrib-towncrier"
+REALNAME="${PN}"
 REALVERSION="0.3.2a0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

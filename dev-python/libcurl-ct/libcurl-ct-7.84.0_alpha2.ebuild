@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="libcurl-ct"
+REALNAME="${PN}"
 REALVERSION="7.84.0a2"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

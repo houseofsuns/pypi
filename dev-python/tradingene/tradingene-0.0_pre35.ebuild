@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="tradingene"
+REALNAME="${PN}"
 REALVERSION="0.0.dev35"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

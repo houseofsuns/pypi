@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="fenics-ufl"
+REALNAME="${PN}"
 REALVERSION="2023.1.1.post0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

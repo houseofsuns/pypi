@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># STRkit Rust extensionExtension for STRKit with components written in Rust, for improved performance.&amp;copy; the contributors of the STRkit Rust extension 2023. Licensed underthe terms of the [GNU General Public License, v3.0](./LICENSE).## Testing locally```bashpip install maturin pytestmaturin developpytest```</longdescription>
+	<longdescription># STRkit Rust extensionExtension for [STRKit](https://github.com/davidlougheed/strkit) with components written in Rust, for improved performance.&amp;copy; the contributors of the STRkit Rust extension 2023. Licensed underthe terms of the [GNU General Public License, v3.0](./LICENSE).&lt;img src=&quot;./rust_ext_logo.png&quot; alt=&quot;STRkit Rust Extension Logo&quot; width=&quot;400&quot; height=&quot;259&quot; /&gt;## Testing locally```bashpip install maturin pytestmaturin developpytest```</longdescription>
 </pkgmetadata>

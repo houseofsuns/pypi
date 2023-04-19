@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="crawlab-sdk"
+REALNAME="${PN}"
 REALVERSION="0.6.0.post11"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

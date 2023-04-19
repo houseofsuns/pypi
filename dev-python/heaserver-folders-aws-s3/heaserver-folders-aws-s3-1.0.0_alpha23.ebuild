@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="heaserver-folders-aws-s3"
+REALNAME="${PN}"
 REALVERSION="1.0.0a23"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11} )

@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="micropython-esp8266-stubs"
+REALNAME="${PN}"
 REALVERSION="1.19.1.post9"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

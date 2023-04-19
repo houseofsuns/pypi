@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="graphql-core-promise"
+REALNAME="${PN}"
 REALVERSION="3.2.3.post1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

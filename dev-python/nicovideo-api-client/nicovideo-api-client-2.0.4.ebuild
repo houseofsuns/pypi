@@ -3,8 +3,8 @@
 
 EAPI=8
 
-REALNAME="nicovideo-api-client"
-REALVERSION="2.0.4"
+REALNAME="${PN}"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python3_11 )
 DISTUTILS_USE_PEP517=standalone

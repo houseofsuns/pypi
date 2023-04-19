@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="azure-ai-anomalydetector"
+REALNAME="${PN}"
 REALVERSION="3.0.0b6"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

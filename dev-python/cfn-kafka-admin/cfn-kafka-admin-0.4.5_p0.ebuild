@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="cfn-kafka-admin"
+REALNAME="${PN}"
 REALVERSION="0.4.5.post0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

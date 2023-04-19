@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="tme-api"
+REALNAME="${PN}"
 REALVERSION="2023.3.24.post1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

@@ -3,8 +3,8 @@
 
 EAPI=8
 
-REALNAME="tascan-ex-fastapi"
-REALVERSION="0.1.12"
+REALNAME="${PN}"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python3_11 )
 DISTUTILS_USE_PEP517=standalone

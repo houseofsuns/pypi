@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="dophon-db"
+REALNAME="${PN}"
 REALVERSION="1.3.1.post1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

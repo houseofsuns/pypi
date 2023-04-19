@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="spacy-nightly"
+REALNAME="${PN}"
 REALVERSION="3.0.0rc5"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

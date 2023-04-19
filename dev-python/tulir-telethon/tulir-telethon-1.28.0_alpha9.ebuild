@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="tulir-telethon"
+REALNAME="${PN}"
 REALVERSION="1.28.0a9"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

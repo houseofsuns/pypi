@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="interpres"
+REALNAME="${PN}"
 REALVERSION="0.3.2b2"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10} )

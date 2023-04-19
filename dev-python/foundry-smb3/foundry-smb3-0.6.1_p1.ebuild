@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="foundry-smb3"
+REALNAME="${PN}"
 REALVERSION="0.6.1.post1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11} )

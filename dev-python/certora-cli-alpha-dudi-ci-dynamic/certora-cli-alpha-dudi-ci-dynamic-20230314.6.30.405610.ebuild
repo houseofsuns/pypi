@@ -3,8 +3,8 @@
 
 EAPI=8
 
-REALNAME="certora-cli-alpha-dudi-ci-dynamic"
-REALVERSION="20230314.6.30.405610"
+REALNAME="${PN}"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )
 DISTUTILS_USE_PEP517=standalone

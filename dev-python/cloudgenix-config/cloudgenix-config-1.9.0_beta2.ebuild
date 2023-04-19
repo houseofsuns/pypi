@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="cloudgenix-config"
+REALNAME="${PN}"
 REALVERSION="1.9.0b2"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

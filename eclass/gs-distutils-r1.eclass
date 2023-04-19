@@ -44,9 +44,9 @@
 # For more information, please see the Python Guide:
 # https://projects.gentoo.org/python/guide/
 
-case ${EAPI:-0} in
+case ${EAPI} in
 	7|8) ;;
-	*) die "EAPI=${EAPI:-0} not supported";;
+	*) die "${ECLASS}: EAPI ${EAPI:-0} not supported" ;;
 esac
 
 # @ECLASS_VARIABLE: DISTUTILS_OPTIONAL
@@ -169,7 +169,8 @@ esac
 #     ${DISTUTILS_DEPS}"
 # @CODE
 
-if [[ ! ${_DISTUTILS_R1} ]]; then
+if [[ -z ${_DISTUTILS_R1_ECLASS} ]]; then
+_DISTUTILS_R1_ECLASS=1
 
 inherit multibuild multilib multiprocessing ninja-utils toolchain-funcs
 
@@ -178,14 +179,6 @@ if [[ ! ${DISTUTILS_SINGLE_IMPL} ]]; then
 else
 	inherit python-single-r1
 fi
-
-fi
-
-if [[ ! ${DISTUTILS_OPTIONAL} ]]; then
-	EXPORT_FUNCTIONS src_prepare src_configure src_compile src_test src_install
-fi
-
-if [[ ! ${_DISTUTILS_R1} ]]; then
 
 _distutils_set_globals() {
 	local rdep bdep
@@ -248,14 +241,8 @@ _distutils_set_globals() {
 				'
 				;;
 			setuptools)
-				# || ( ... ) dep is a workaround for bug #892525
-				# It can be removed once >=67.2.0 is stable and replaced with
-				# a simple >=67.2.0 dep.
 				bdep+='
-					|| (
-						>=dev-python/setuptools-67.2.0[${PYTHON_USEDEP}]
-						<dev-python/setuptools-65.7.1[${PYTHON_USEDEP}]
-					)
+					>=dev-python/setuptools-67.2.0[${PYTHON_USEDEP}]
 					>=dev-python/wheel-0.38.4[${PYTHON_USEDEP}]
 				'
 				;;
@@ -452,7 +439,7 @@ unset -f _distutils_set_globals
 # This helper is meant for the most common case, that is a single Sphinx
 # subdirectory with standard layout, building and installing HTML docs
 # behind USE=doc.  It assumes it's the only consumer of the three
-# aforementioned functions.  If you need to use a custom implemention,
+# aforementioned functions.  If you need to use a custom implementation,
 # you can't use it.
 #
 # If your package uses additional Sphinx plugins, they should be passed
@@ -2122,5 +2109,8 @@ gs-distutils-r1_src_install() {
 	return ${ret}
 }
 
-_DISTUTILS_R1=1
+fi
+
+if [[ ! ${DISTUTILS_OPTIONAL} ]]; then
+	EXPORT_FUNCTIONS src_prepare src_configure src_compile src_test src_install
 fi

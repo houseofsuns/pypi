@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="extended-networkx-tools"
+REALNAME="${PN}"
 REALVERSION="0.16.1rc1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

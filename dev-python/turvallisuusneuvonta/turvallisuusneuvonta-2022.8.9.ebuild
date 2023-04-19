@@ -3,8 +3,8 @@
 
 EAPI=8
 
-REALNAME="turvallisuusneuvonta"
-REALVERSION="2022.8.9"
+REALNAME="${PN}"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )
 DISTUTILS_USE_PEP517=standalone

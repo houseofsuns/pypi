@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="asdconfigobj"
+REALNAME="${PN}"
 REALVERSION="5.1.0.dev0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

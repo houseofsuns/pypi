@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="msorm"
+REALNAME="${PN}"
 REALVERSION="1.7.1a0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

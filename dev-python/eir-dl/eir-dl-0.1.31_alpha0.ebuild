@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="eir-dl"
+REALNAME="${PN}"
 REALVERSION="0.1.31a0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11} )

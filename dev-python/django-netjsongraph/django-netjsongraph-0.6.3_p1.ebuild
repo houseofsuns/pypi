@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="django-netjsongraph"
+REALNAME="${PN}"
 REALVERSION="0.6.3.post1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

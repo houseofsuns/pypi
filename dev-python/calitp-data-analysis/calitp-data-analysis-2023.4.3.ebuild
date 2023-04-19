@@ -3,8 +3,8 @@
 
 EAPI=8
 
-REALNAME="calitp-data-analysis"
-REALVERSION="2023.4.3"
+REALNAME="${PN}"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python3_9 )
 DISTUTILS_USE_PEP517=standalone

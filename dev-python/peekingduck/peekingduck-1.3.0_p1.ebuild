@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="peekingduck"
+REALNAME="${PN}"
 REALVERSION="1.3.0.post1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python3_9 )

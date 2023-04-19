@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="pyrameter"
+REALNAME="${PN}"
 REALVERSION="0.3.5.post3"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="classroom-gizmos"
+REALNAME="${PN}"
 REALVERSION="0.0b2.dev32"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

@@ -3,8 +3,8 @@
 
 EAPI=8
 
-REALNAME="forwardkinematics"
-REALVERSION="1.1.1"
+REALNAME="${PN}"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python3_9 )
 DISTUTILS_USE_PEP517=standalone

@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="optcc"
+REALNAME="${PN}"
 REALVERSION="4.33.20.post1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

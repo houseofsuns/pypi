@@ -3,8 +3,8 @@
 
 EAPI=8
 
-REALNAME="fastapi-keycloak-middleware"
-REALVERSION="0.2.2"
+REALNAME="${PN}"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11} )
 DISTUTILS_USE_PEP517=standalone

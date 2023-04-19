@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="meeple-cli"
+REALNAME="${PN}"
 REALVERSION="0.1.0b6"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11} )

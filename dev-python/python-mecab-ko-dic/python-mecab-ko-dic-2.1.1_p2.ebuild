@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="python-mecab-ko-dic"
+REALNAME="${PN}"
 REALVERSION="2.1.1.post2"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

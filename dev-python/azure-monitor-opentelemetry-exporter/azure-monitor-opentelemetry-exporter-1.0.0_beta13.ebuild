@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="azure-monitor-opentelemetry-exporter"
+REALNAME="${PN}"
 REALVERSION="1.0.0b13"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="napari-pdf-reader"
+REALNAME="${PN}"
 REALVERSION="0.0.1a3"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

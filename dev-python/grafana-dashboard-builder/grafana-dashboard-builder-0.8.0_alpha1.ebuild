@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="grafana-dashboard-builder"
+REALNAME="${PN}"
 REALVERSION="0.8.0a1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

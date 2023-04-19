@@ -3,8 +3,8 @@
 
 EAPI=8
 
-REALNAME="stjudecloud-oliver"
-REALVERSION="1.4.11"
+REALNAME="${PN}"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11} )
 DISTUTILS_USE_PEP517=standalone

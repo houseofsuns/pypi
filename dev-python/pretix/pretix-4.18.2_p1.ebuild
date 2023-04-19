@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="pretix"
+REALNAME="${PN}"
 REALVERSION="4.18.2.post1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

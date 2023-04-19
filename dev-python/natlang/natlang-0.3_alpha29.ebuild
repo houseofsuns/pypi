@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="natlang"
+REALNAME="${PN}"
 REALVERSION="0.3a29"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

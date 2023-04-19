@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="proman-versioning"
+REALNAME="${PN}"
 REALVERSION="0.6.2a2"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

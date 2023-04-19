@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="pyprog"
+REALNAME="${PN}"
 REALVERSION="1.1.0.post2"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

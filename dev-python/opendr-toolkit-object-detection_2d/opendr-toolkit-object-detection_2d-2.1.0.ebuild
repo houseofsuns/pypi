@@ -4,7 +4,7 @@
 EAPI=8
 
 REALNAME="opendr-toolkit-object-detection-2d"
-REALVERSION="2.1.0"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )
 DISTUTILS_USE_PEP517=standalone

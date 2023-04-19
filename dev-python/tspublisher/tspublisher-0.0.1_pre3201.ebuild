@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="tspublisher"
+REALNAME="${PN}"
 REALVERSION="0.0.1.dev3201"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

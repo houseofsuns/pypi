@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="ignition-api-stubs"
+REALNAME="${PN}"
 REALVERSION="8.1.26.post3"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10} )

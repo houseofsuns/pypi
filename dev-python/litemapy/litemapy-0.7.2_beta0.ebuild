@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="litemapy"
+REALNAME="${PN}"
 REALVERSION="0.7.2b0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

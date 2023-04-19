@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="st4sd-runtime-core"
+REALNAME="${PN}"
 REALVERSION="2.0.0a9.dev2"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

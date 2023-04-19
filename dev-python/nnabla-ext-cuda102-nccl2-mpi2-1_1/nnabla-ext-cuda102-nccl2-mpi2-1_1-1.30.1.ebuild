@@ -4,7 +4,7 @@
 EAPI=8
 
 REALNAME="nnabla-ext-cuda102-nccl2-mpi2-1-1"
-REALVERSION="1.30.1"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )
 DISTUTILS_USE_PEP517=standalone

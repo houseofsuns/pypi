@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="pyload-ng"
+REALNAME="${PN}"
 REALVERSION="0.5.0b3.dev54"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

@@ -3,8 +3,8 @@
 
 EAPI=8
 
-REALNAME="humlab-penelope"
-REALVERSION="0.7.21"
+REALNAME="${PN}"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python3_9 )
 DISTUTILS_USE_PEP517=standalone

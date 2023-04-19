@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="cmfrec"
+REALNAME="${PN}"
 REALVERSION="3.5.1.post4"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="ampel-hu-astro"
+REALNAME="${PN}"
 REALVERSION="0.8.3a20"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11} )

@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="nonebot-plugin-mahjong-scoreboard"
+REALNAME="${PN}"
 REALVERSION="0.3.0.post1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

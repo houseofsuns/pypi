@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="highrise-bot-sdk"
+REALNAME="${PN}"
 REALVERSION="23.1.0b6"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11} )

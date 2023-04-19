@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="pygments-markdown-lexer"
+REALNAME="${PN}"
 REALVERSION="0.1.0.dev39"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

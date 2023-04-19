@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="heaobject"
+REALNAME="${PN}"
 REALVERSION="1.0.0a52"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11} )

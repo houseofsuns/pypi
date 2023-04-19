@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="lightweight"
+REALNAME="${PN}"
 REALVERSION="1.0.0.dev52"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

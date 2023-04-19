@@ -3,8 +3,8 @@
 
 EAPI=8
 
-REALNAME="setux-managers"
-REALVERSION="0.23.5.0"
+REALNAME="${PN}"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11} )
 DISTUTILS_USE_PEP517=standalone

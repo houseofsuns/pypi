@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="topicexplorer"
+REALNAME="${PN}"
 REALVERSION="1.0b227"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

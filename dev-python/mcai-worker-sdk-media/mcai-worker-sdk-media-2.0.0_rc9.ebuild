@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="mcai-worker-sdk-media"
+REALNAME="${PN}"
 REALVERSION="2.0.0rc9"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

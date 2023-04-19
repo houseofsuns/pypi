@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="pycaret-nightly"
+REALNAME="${PN}"
 REALVERSION="2.3.10.dev1651454453"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

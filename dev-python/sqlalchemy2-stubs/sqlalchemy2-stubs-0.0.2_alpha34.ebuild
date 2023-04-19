@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="sqlalchemy2-stubs"
+REALNAME="${PN}"
 REALVERSION="0.0.2a34"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

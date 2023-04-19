@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="kubernetes-stubs"
+REALNAME="${PN}"
 REALVERSION="22.6.0.post1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

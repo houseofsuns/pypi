@@ -3,8 +3,8 @@
 
 EAPI=8
 
-REALNAME="dbis-er-diagram"
-REALVERSION="1.0.4"
+REALNAME="${PN}"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11} )
 DISTUTILS_USE_PEP517=standalone

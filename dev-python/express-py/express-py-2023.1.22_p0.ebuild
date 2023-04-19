@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="express-py"
+REALNAME="${PN}"
 REALVERSION="2023.1.22.post0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

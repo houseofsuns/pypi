@@ -3,8 +3,8 @@
 
 EAPI=8
 
-REALNAME="citation-docket"
-REALVERSION="0.1.2"
+REALNAME="${PN}"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python3_11 )
 DISTUTILS_USE_PEP517=standalone

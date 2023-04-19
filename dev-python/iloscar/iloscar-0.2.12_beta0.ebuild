@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="iloscar"
+REALNAME="${PN}"
 REALVERSION="0.2.12b0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10} )

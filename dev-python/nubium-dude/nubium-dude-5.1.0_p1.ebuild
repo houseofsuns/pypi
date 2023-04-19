@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="nubium-dude"
+REALNAME="${PN}"
 REALVERSION="5.1.0.post1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python3_9 )

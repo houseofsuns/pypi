@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="pycooldown"
+REALNAME="${PN}"
 REALVERSION="0.1.0b11"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="diambra-engine"
+REALNAME="${PN}"
 REALVERSION="2.1.0rc10"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

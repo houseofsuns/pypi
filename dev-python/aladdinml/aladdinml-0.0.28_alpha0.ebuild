@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="aladdinml"
+REALNAME="${PN}"
 REALVERSION="0.0.28a0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11} )

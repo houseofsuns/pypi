@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="pulp-cookbook-client"
+REALNAME="${PN}"
 REALVERSION="0.1.0b10.dev1674790525"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

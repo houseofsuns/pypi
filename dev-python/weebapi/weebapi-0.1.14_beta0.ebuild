@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="weebapi"
+REALNAME="${PN}"
 REALVERSION="0.1.14b0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="artemis-common"
+REALNAME="${PN}"
 REALVERSION="0.3.6b0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11} )

@@ -3,8 +3,8 @@
 
 EAPI=8
 
-REALNAME="pylavcogs-shared"
-REALVERSION="0.6.1.5"
+REALNAME="${PN}"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python3_10 )
 DISTUTILS_USE_PEP517=standalone

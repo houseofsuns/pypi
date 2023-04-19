@@ -3,8 +3,8 @@
 
 EAPI=8
 
-REALNAME="zillionare-omicron"
-REALVERSION="1.1.7"
+REALNAME="${PN}"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python3_9 )
 DISTUTILS_USE_PEP517=standalone

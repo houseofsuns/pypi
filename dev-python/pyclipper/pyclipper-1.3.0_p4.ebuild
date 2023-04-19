@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="pyclipper"
+REALNAME="${PN}"
 REALVERSION="1.3.0.post4"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="otf2"
+REALNAME="${PN}"
 REALVERSION="3.1.dev0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

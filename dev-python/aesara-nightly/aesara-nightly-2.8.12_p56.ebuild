@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="aesara-nightly"
+REALNAME="${PN}"
 REALVERSION="2.8.12.post56"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

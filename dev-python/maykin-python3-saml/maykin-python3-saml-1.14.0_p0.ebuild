@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="maykin-python3-saml"
+REALNAME="${PN}"
 REALVERSION="1.14.0.post0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="python-axolotl-curve25519"
+REALNAME="${PN}"
 REALVERSION="0.4.1.post2"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

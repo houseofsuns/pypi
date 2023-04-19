@@ -3,8 +3,8 @@
 
 EAPI=8
 
-REALNAME="openremote-cli"
-REALVERSION="0.6.63"
+REALNAME="${PN}"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )
 DISTUTILS_USE_PEP517=standalone

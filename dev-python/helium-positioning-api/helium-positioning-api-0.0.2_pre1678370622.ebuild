@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="helium-positioning-api"
+REALNAME="${PN}"
 REALVERSION="0.0.2.dev1678370622"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

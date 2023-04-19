@@ -3,8 +3,8 @@
 
 EAPI=8
 
-REALNAME="adafruit-circuitpython-si7021"
-REALVERSION="4.1.7"
+REALNAME="${PN}"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )
 DISTUTILS_USE_PEP517=standalone

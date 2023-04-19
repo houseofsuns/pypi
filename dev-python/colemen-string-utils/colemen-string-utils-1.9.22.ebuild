@@ -3,8 +3,8 @@
 
 EAPI=8
 
-REALNAME="colemen-string-utils"
-REALVERSION="1.9.22"
+REALNAME="${PN}"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )
 DISTUTILS_USE_PEP517=standalone

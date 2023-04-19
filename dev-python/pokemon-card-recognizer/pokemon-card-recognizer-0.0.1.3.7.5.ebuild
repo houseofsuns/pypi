@@ -3,8 +3,8 @@
 
 EAPI=8
 
-REALNAME="pokemon-card-recognizer"
-REALVERSION="0.0.1.3.7.5"
+REALNAME="${PN}"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11} )
 DISTUTILS_USE_PEP517=standalone

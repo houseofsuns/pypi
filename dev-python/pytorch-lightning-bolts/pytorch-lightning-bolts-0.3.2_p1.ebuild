@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="pytorch-lightning-bolts"
+REALNAME="${PN}"
 REALVERSION="0.3.2.post1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

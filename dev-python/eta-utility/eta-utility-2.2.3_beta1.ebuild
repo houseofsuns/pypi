@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="eta-utility"
+REALNAME="${PN}"
 REALVERSION="2.2.3b1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10} )

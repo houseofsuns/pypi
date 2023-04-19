@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="cagen"
+REALNAME="${PN}"
 REALVERSION="0.1.0.post3"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11} )

@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="fontawesome"
+REALNAME="${PN}"
 REALVERSION="5.10.1.post1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

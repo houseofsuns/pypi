@@ -3,8 +3,8 @@
 
 EAPI=8
 
-REALNAME="free-mujoco-py"
-REALVERSION="2.1.6"
+REALNAME="${PN}"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10} )
 DISTUTILS_USE_PEP517=standalone

@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Beka is a fairly basic BGP speaker. It can sendand receive unicast route updates in IPv4 and IPv6,but not too much else. It is designed to be simple to useand to extend, without too much overhead.It uses eventlet for concurrency, but is easy enough to port togevent if that takes your fancy.More information at https://github.com/c65beka/beka</longdescription>
+	<longdescription>Beka is a fairly basic BGP speaker. It can sendand receive unicast route updates in IPv4 and IPv6,but not too much else. It is designed to be simple to useand to extend, without too much overhead.It uses eventlet for concurrency, but is easy enough to port togevent if that takes your fancy.More information at https://github.com/c65sdn/beka</longdescription>
 </pkgmetadata>

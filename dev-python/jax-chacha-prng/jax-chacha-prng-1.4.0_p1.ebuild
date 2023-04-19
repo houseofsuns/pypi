@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="jax-chacha-prng"
+REALNAME="${PN}"
 REALVERSION="1.4.0.post1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

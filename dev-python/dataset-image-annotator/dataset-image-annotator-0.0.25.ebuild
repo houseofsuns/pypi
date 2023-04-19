@@ -3,8 +3,8 @@
 
 EAPI=8
 
-REALNAME="dataset-image-annotator"
-REALVERSION="0.0.25"
+REALNAME="${PN}"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python3_11 )
 DISTUTILS_USE_PEP517=standalone

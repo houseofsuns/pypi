@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="pybbox"
+REALNAME="${PN}"
 REALVERSION="0.0.5-alpha"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

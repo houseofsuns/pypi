@@ -3,8 +3,8 @@
 
 EAPI=8
 
-REALNAME="nvidia-dali-tf-plugin-cuda110"
-REALVERSION="1.24.0"
+REALNAME="${PN}"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10} )
 DISTUTILS_USE_PEP517=standalone

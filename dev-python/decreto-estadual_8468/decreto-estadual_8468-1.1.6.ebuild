@@ -4,7 +4,7 @@
 EAPI=8
 
 REALNAME="decreto-estadual-8468"
-REALVERSION="1.1.6"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )
 DISTUTILS_USE_PEP517=standalone

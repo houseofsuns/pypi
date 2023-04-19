@@ -3,8 +3,8 @@
 
 EAPI=8
 
-REALNAME="adafruit-circuitpython-bme680"
-REALVERSION="3.4.12"
+REALNAME="${PN}"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )
 DISTUTILS_USE_PEP517=standalone

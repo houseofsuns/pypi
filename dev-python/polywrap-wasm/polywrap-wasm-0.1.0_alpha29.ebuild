@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="polywrap-wasm"
+REALNAME="${PN}"
 REALVERSION="0.1.0a29"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11} )

@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="megamock"
+REALNAME="${PN}"
 REALVERSION="0.1.0a8"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11} )

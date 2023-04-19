@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="python3-keyczar"
+REALNAME="${PN}"
 REALVERSION="0.71rc0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

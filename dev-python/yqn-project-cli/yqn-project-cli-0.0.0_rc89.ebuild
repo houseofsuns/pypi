@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="yqn-project-cli"
+REALNAME="${PN}"
 REALVERSION="0.0.0rc89"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

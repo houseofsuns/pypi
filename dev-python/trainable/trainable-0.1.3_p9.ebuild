@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="trainable"
+REALNAME="${PN}"
 REALVERSION="0.1.3.post9"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="hdxcli"
+REALNAME="${PN}"
 REALVERSION="1.0rc41"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11} )

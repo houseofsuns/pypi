@@ -4,7 +4,7 @@
 EAPI=8
 
 REALNAME="django-ckeditor-5"
-REALVERSION="0.2.4"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )
 DISTUTILS_USE_PEP517=standalone

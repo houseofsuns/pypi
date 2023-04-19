@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="pythondata-cpu-serv"
+REALNAME="${PN}"
 REALVERSION="1.2.0.post146"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

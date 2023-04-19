@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="scikit-cars"
+REALNAME="${PN}"
 REALVERSION="0.20.0rc9.dev1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

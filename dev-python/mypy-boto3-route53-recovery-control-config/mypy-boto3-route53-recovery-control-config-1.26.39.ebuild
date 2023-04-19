@@ -3,8 +3,8 @@
 
 EAPI=8
 
-REALNAME="mypy-boto3-route53-recovery-control-config"
-REALVERSION="1.26.39"
+REALNAME="${PN}"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )
 DISTUTILS_USE_PEP517=standalone

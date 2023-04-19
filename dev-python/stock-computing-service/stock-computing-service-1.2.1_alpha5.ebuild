@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="stock-computing-service"
+REALNAME="${PN}"
 REALVERSION="1.2.1a5"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

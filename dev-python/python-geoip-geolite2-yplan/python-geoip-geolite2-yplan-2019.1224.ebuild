@@ -3,8 +3,8 @@
 
 EAPI=8
 
-REALNAME="python-geoip-geolite2-yplan"
-REALVERSION="2019.1224"
+REALNAME="${PN}"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )
 DISTUTILS_USE_PEP517=standalone

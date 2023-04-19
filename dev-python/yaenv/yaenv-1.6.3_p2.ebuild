@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="yaenv"
+REALNAME="${PN}"
 REALVERSION="1.6.3.post2"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11} )

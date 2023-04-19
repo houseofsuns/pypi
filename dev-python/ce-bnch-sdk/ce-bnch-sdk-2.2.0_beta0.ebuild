@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="ce-bnch-sdk"
+REALNAME="${PN}"
 REALVERSION="2.2.0b0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="tox-ignore-env-name-mismatch"
+REALNAME="${PN}"
 REALVERSION="0.2.0.post2"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

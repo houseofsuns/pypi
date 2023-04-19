@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="cygrpc"
+REALNAME="${PN}"
 REALVERSION="1.0.4.post6"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

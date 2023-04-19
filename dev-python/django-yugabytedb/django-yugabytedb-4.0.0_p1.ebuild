@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="django-yugabytedb"
+REALNAME="${PN}"
 REALVERSION="4.0.0.post1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

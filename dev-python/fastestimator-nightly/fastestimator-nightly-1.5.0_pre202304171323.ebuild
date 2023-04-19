@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="fastestimator-nightly"
+REALNAME="${PN}"
 REALVERSION="1.5.0.dev202304171323"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

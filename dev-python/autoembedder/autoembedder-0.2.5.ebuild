@@ -3,8 +3,8 @@
 
 EAPI=8
 
-REALNAME="autoembedder"
-REALVERSION="0.2.5"
+REALNAME="${PN}"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10} )
 DISTUTILS_USE_PEP517=standalone

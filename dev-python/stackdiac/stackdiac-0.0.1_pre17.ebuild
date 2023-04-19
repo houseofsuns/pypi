@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="stackdiac"
+REALNAME="${PN}"
 REALVERSION="0.0.1.dev17"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11} )

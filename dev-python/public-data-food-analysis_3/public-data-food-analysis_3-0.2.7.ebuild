@@ -4,7 +4,7 @@
 EAPI=8
 
 REALNAME="public-data-food-analysis-3"
-REALVERSION="0.2.7"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )
 DISTUTILS_USE_PEP517=standalone

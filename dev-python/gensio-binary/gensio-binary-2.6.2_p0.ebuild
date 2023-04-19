@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="gensio-binary"
+REALNAME="${PN}"
 REALVERSION="2.6.2.post0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

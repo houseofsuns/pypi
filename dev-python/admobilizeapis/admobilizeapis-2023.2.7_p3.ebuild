@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="admobilizeapis"
+REALNAME="${PN}"
 REALVERSION="2023.2.7.post3"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

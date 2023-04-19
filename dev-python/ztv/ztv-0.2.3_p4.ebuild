@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="ztv"
+REALNAME="${PN}"
 REALVERSION="0.2.3.post4"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

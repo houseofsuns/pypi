@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="monai-weekly"
+REALNAME="${PN}"
 REALVERSION="1.2.dev2316"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

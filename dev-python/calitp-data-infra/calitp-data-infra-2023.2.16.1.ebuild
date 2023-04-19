@@ -3,8 +3,8 @@
 
 EAPI=8
 
-REALNAME="calitp-data-infra"
-REALVERSION="2023.2.16.1"
+REALNAME="${PN}"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python3_9 )
 DISTUTILS_USE_PEP517=standalone

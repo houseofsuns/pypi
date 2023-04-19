@@ -4,7 +4,7 @@
 EAPI=8
 
 REALNAME="bottle-swagger-2"
-REALVERSION="2.0.15"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )
 DISTUTILS_USE_PEP517=standalone

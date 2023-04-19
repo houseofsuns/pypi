@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="dapr-ext-fastapi-dev"
+REALNAME="${PN}"
 REALVERSION="1.9.0rc1.dev1472"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

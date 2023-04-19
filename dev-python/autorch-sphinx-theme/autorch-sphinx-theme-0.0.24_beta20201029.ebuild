@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="autorch-sphinx-theme"
+REALNAME="${PN}"
 REALVERSION="0.0.24b20201029"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

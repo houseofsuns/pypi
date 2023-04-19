@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="quickumls-simstring"
+REALNAME="${PN}"
 REALVERSION="1.1.5r1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

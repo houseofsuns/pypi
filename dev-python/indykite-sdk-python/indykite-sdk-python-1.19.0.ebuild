@@ -3,8 +3,8 @@
 
 EAPI=8
 
-REALNAME="indykite-sdk-python"
-REALVERSION="1.19.0"
+REALNAME="${PN}"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python3_11 )
 DISTUTILS_USE_PEP517=standalone

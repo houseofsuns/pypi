@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="python3-indy"
+REALNAME="${PN}"
 REALVERSION="1.16.0.post286"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

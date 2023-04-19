@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="mongodantic"
+REALNAME="${PN}"
 REALVERSION="0.2.7b1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REALNAME="python-sat"
+REALNAME="${PN}"
 REALVERSION="0.1.8.dev2"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_9,3_10,3_11} )

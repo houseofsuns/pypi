@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># megadatalib and tools for 'megadata'# installpython -m pip install -U megadata# TODO## client shell for different databases/server ;)* python -m megadata *args **kwargs## TODO scheme myipc:// ?</longdescription>
+	<longdescription># megadatalib and tools for 'megadata'# philosophy&quot;remove if worthy&quot;# installpython -m pip install -U megadata# TODO## client shell for databases or servers ;)* python -m megadata *args **kwargs``````## TODO scheme myipc:// ??</longdescription>
 </pkgmetadata>

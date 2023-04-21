@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># clang-tidy-checkerTool to check C / C++ source codes using clang-tidy.</longdescription>
+	<longdescription># clang-tidy-checkerTool to check C / C++ source codes using clang-tidy.## Documentation- [Documentation built on develop branch](https://musicscience37projects.gitlab.io/tools/clang-tidy-checker/)</longdescription>
 </pkgmetadata>

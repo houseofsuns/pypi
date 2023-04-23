@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Terka - Ter[minal] Ka[nban]`terka` (pronounced *tyorka* or *Тёрка*) is a CLI tool that helps you manage your tasksin the terminal. Create task, assign it to a project, update it status, writecomments and many more!## InstallationTo install `terka` run the following command:`pip install terka`it will make `terka` command available in your shell.## Usage### Interactive modeYou can simply run `terka` command and this will launch the tool in an interactivemode.Please refer to the [list of commands](docs/command_examples.md) available in terka.Special command `q` is used to exit interactive mode.### Non-interactive modeIn non-interactive`terka &lt;command&gt; &lt;entity&gt; [options]``terka` exposes several commands (`create`, `update`, `show`, `list`, etc) and entities (`tasks`, `projects`, `users`).Please refer to the [list of commands](docs/command_examples.md) available in terka.</longdescription>
+	<longdescription/>
 </pkgmetadata>

@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>=======*pydmt*=======.. image:: https://img.shields.io/pypi/v/pydmt.. image:: https://img.shields.io/github/license/veltzer/pydmt.. image:: https://img.shields.io/badge/code%20style-black-000000.svgproject website: https://veltzer.github.io/pydmtauthor: Mark Veltzerversion: 0.1.79Mark Veltzer &lt;mark.veltzer@gmail.com&gt;, Copyright © 2017, 2018, 2019, 2020, 2021, 2022, 2023</longdescription>
+	<longdescription>=======*pydmt*=======.. image:: https://img.shields.io/pypi/v/pydmt.. image:: https://img.shields.io/github/license/veltzer/pydmt.. image:: https://img.shields.io/badge/code%20style-black-000000.svgproject website: https://veltzer.github.io/pydmtauthor: Mark Veltzerversion: 0.1.80Mark Veltzer &lt;mark.veltzer@gmail.com&gt;, Copyright © 2017, 2018, 2019, 2020, 2021, 2022, 2023</longdescription>
 </pkgmetadata>

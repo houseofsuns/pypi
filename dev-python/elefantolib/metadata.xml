@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Elefantolib-----------------------   **NOTE:** After clone this repository you should run command:   ``console git config core.hooksPath .githooks``</longdescription>
+	<longdescription>Elefantolib-----------------------   **NOTE:** After clone this repository you should run command:   ``git config core.hooksPath .githooks``</longdescription>
 </pkgmetadata>

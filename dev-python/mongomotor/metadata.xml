@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>MongoMotor: An async document-object mapper for MongoDBMongoMotor is a simple-to-use, declarative-style, document-object mapperthat puts together the nice `MongoEngine &lt;http://mongoengine.org/&gt;`_ APIand the clever `Motor &lt;http://motor.readthedocs.org/en/stable/&gt;`_ asynchronousapprouch to create a awesome library for asynchronous access to MongoDBusing python 3.4+.Take a look at the`full documentation &lt;http://mongomotor.poraodojuca.net/&gt;`_.</longdescription>
+	<longdescription>![mongomtor](docs/source/_static/mongomotor.jpg)MongoMotor is a simple-to-use, declarative-style, document-object mapperthat puts together the nice [MongoEngine](http://mongoengine.org/) APIand the clever [Motor](http://motor.readthedocs.org/en/stable/) asynchronousapprouch to create a awesome library for asynchronous access to MongoDBusing python 3.4+.Take a look at the[full documentation](http://mongomotor.poraodojuca.net/).</longdescription>
 </pkgmetadata>

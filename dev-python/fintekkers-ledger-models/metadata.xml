@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription/>
+	<longdescription>Contains the generated python code for the ledger models protos, as well as hand-written wrapper code. See the package url to link to the proto defintions</longdescription>
 </pkgmetadata>

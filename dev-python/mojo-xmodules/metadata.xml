@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Automation Mojo X-Modules (mojo-xmodules)This package contains helper modules that extend the function of standard python modules.</longdescription>
+	<longdescription>=========================================Automation Mojo X-Modules (mojo-xmodules)=========================================This package contains helper modules that extend the function of standard python modules.==========References==========- `User Guide &lt;userguide/userguide.rst&gt;`_- `Coding Standards &lt;userguide/10-00-coding-standards.rst&gt;`_</longdescription>
 </pkgmetadata>

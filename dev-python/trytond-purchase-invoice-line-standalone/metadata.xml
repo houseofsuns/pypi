@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Purchase Invoice Line Standalone Module#######################################The purchase invoice line standalone module makes purchase to generate invoicelines instead of invoices.</longdescription>
+	<longdescription>#######################################Purchase Invoice Line Standalone Module#######################################The *Purchase Invoice Line Standalone Module* allows purchases to generateinvoice lines instead of invoices.</longdescription>
 </pkgmetadata>

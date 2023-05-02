@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Ark===Ark is a static website generator built in Python. It transforms a directoryof text files into a self-contained website.* `Documentation &lt;http://mulholland.xyz/docs/ark/&gt;`_* `Sample Site &lt;http://ark.mulholland.xyz/phoenix/&gt;`_* `Github Homepage &lt;https://github.com/dmulholland/ark&gt;`_</longdescription>
+	<longdescription>A static website generator for people who enjoy the simpler things in life.* `Github &lt;https://github.com/dmulholl/ark&gt;`_* `Documentation &lt;http://www.dmulholl.com/docs/ark/main/&gt;`_* `Demo &lt;http://www.dmulholl.com/demos/ark/&gt;`_</longdescription>
 </pkgmetadata>

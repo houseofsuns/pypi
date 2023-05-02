@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription/>
+	<longdescription># Grai Postgres IntegrationThe Postgres integration synchronizes metadata from your Postgres database into your Grai data lineage graph.</longdescription>
 </pkgmetadata>

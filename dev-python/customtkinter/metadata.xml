@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A modern and customizable python UI-library based on Tkinter: https://github.com/TomSchimansky/CustomTkinter</longdescription>
+	<longdescription>A modern and customizable python UI-library based on Tkinter: https://customtkinter.tomschimansky.com</longdescription>
 </pkgmetadata>

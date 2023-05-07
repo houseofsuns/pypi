@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>PdJ Sphinx Theme================This theme is a dark theme for sphinx documentation based on theread the docs theme.To install it, use pip:.. code-block:: sh  $ pip install sphinx_pdj_themeTo enable it in your project documentation, set the following inyour conf.py file... code-block:: python   import sphinx_pdj_theme   html_theme = 'sphinx_pdj_theme'   htm_theme_path = [sphinx_pdj_theme.get_html_theme_path()]</longdescription>
+	<longdescription>PdJ Sphinx Theme================This theme is a theme for sphinx documentation based on theread the docs theme. It supports light and dark modes.To install it, use pip:```$ pip install sphinx_pdj_theme```To enable it in your project documentation, set the following inyour conf.py file.```pythonimport sphinx_pdj_themehtml_theme = 'sphinx_pdj_theme'htm_theme_path = [sphinx_pdj_theme.get_html_theme_path()]```Screenshots-----------![defaulf](https://raw.githubusercontent.com/jucacrispim/sphinx_pdj_theme/master/default.jpg)![darker](https://raw.githubusercontent.com/jucacrispim/sphinx_pdj_theme/master/darker.jpg)</longdescription>
 </pkgmetadata>

@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>### Project descriptionFaclon I/O Sense Data Access Library#### Where to get ithttps://pypi.org/project/iosense/#### Installationpip install iosensepip3 install iosense#### FeaturesRetrives following details:- User information.- Device Details.- Device metaData.- Time based sensor data of a Device. - Published events details.- Events data in given timeslot.- Event categories.- Events data count.#### Dependencies+ pandas+ requests+ json + time + datetime #### DocumentationThe official documentation is hosted on #### Reach usFor usage questions, please reach out to us at reachus@faclon.com</longdescription>
+	<longdescription>### Project descriptionFaclon I/O Sense Data Access Library#### Where to get ithttps://pypi.org/project/iosense/#### Installationpip install iosense-connectpip3 install iosense-connect#### FeaturesRetrives following details:- User information.- Device Details.- Device metaData.- Time based sensor data of a Device. - Published events details.- Events data in given timeslot.- Event categories.- Events data count.#### Dependencies+ pandas+ requests+ json + time + datetime #### DocumentationThe official documentation is hosted on #### Reach usFor usage questions, please reach out to us at reachus@faclon.com</longdescription>
 </pkgmetadata>

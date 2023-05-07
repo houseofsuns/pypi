@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># estivalCalibration and optimization tools for summerA minimal pip-installable package providing MCMC and support tools for use with the summer2 library Based on the AuTuMN calibration modulehttps://github.com/monash-emu/AuTuMN</longdescription>
+	<longdescription># estivalCalibration and optimization tools for summer2https://github.com/monash-emu/summer2Estival provides a simple API for using summer2 CompartmentalModels with a variety of optimization frameworks, including- pymc- nevergrad### CHANGELOG- 0.2.2  Add logprior/logposterior to BayesianCompartmentalModel- 0.2.3  Include tensorflow-probability(jax) for more (and better tested) stats modules</longdescription>
 </pkgmetadata>

@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>GeoPandas is a project to add support for geographic data to`pandas`_ objects.The goal of GeoPandas is to make working with geospatial data inpython easier. It combines the capabilities of `pandas`_ and `shapely`_,providing geospatial operations in pandas and a high-level interfaceto multiple geometries to shapely. GeoPandas enables you to easily dooperations in python that would otherwise require a spatial databasesuch as PostGIS... _pandas: http://pandas.pydata.org.. _shapely: http://shapely.readthedocs.io/en/latest/</longdescription>
+	<longdescription>GeoPandas is a project to add support for geographic data to`pandas`_ objects.The goal of GeoPandas is to make working with geospatial data inpython easier. It combines the capabilities of `pandas`_ and `shapely`_,providing geospatial operations in pandas and a high-level interfaceto multiple geometries to shapely. GeoPandas enables you to easily dooperations in python that would otherwise require a spatial databasesuch as PostGIS... _pandas: https://pandas.pydata.org.. _shapely: https://shapely.readthedocs.io/en/latest/</longdescription>
 </pkgmetadata>

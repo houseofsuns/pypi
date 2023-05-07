@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>          Set of tools for processing EEG data data using bdf/edf file format. These can be extended to other modalities          too. The overall goal is to produce processing pipelines to process many data in a systematic and reproducible           way. This package includes several statistical, visualization, and output tools to generate consistent SQLITE          databases.           </longdescription>
+	<longdescription/>
 </pkgmetadata>

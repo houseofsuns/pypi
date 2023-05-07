@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>添加日期常用方法</longdescription>
+	<longdescription>1.增加正确的请求展示；2.增加用例运行时动态添加用例；3.添加测试报告中展示图片逻辑；4.api请求优化；5.异常信息优化；6.测试报告优化；7.数据对比采用deepdiff库</longdescription>
 </pkgmetadata>

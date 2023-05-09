@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Anthropic Python SDKThis python repo provides access to Anthropic's safety-first language model APIs.For more information on our APIs, please check out [Anthropic's documentation](https://console.anthropic.com/docs).## How to use```pip install .export ANTHROPIC_API_KEY=&lt;insert token here&gt;python examples/basic_sync.pypython examples/basic_stream.pypython examples/count_tokens.py```</longdescription>
+	<longdescription># Anthropic Python SDKThis python repo provides access to Anthropic's safety-first language model APIs.For more information on our APIs, please check out [Anthropic's documentation](https://console.anthropic.com/docs).## How to useInstall the package with:```pip install anthropic```Then write code with:```import anthropicclient = anthropic.Client(api_key=&lt;insert token here&gt;)client.XXX # look to examples/ directory for code demonstrations```## How to develop and run the examples in this repo```pip install .export ANTHROPIC_API_KEY=&lt;insert token here&gt;python examples/basic_sync.pypython examples/basic_stream.pypython examples/count_tokens.py```</longdescription>
 </pkgmetadata>

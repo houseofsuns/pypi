@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>[![PyPI version](https://badge.fury.io/py/pylinalg.svg)](https://badge.fury.io/py/pylinalg)# pylinalgLinear algebra utilities for Python.</longdescription>
+	<longdescription># pylinalg[![CI](https://github.com/pygfx/pylinalg/actions/workflows/ci.yml/badge.svg)](https://github.com/pygfx/pylinalg/actions/workflows/ci.yml)[![Documentation Status](https://readthedocs.org/projects/pylinalg/badge/?version=latest)](https://pylinalg.readthedocs.io/en/latest/?badge=latest)[![PyPI version ](https://badge.fury.io/py/pylinalg.svg)](https://badge.fury.io/py/pylinalg)Linear algebra utilities for Python.&lt;p align=&quot;center&quot;&gt;[&lt;a href=&quot;https://pylinalg.readthedocs.io/en/latest/reference.html&quot;&gt;API Reference&lt;/a&gt;]&lt;/p&gt;## Installation```bashpip install pylinalg```</longdescription>
 </pkgmetadata>

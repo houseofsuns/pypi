@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Utilities library with several more or less independent componentsThis library is mainly intended for myself, so I can access it fromanywhere. But anyone else is welcome to have a look. Documentationis still lacking, I know, but that shall change. Testing is better.The full documentation (what already exists of it) for this versionis at&lt;https://git.w21.org/ni/jpylib/-/blob/v2023.214.1627/doc/jpylib.md&gt;[ni@w21.org 2022-03-11]</longdescription>
+	<longdescription>Utilities library with several more or less independent componentsThis library is mainly intended for myself, so I can access it fromanywhere. But anyone else is welcome to have a look. Documentationis still lacking, I know, but that shall change. Testing is better.The full documentation (what already exists of it) for this versionis at&lt;https://git.w21.org/ni/jpylib/-/blob/v2023.509.855/doc/jpylib.md&gt;[ni@w21.org 2022-03-11]</longdescription>
 </pkgmetadata>

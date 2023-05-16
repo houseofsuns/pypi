@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># identity-clientClient lib for the identity service## Manual deploymentSince we don't have a CI/CD pipeline set up right now. You'll have to follow the following steps to release1. Do your changes2. Install `bumpversion` and `twine````pip install twine bumpversion```3. Bump the version using `bumpversion````bumpversion patch```4. A commit should be made automatically, just push```git push```5. Build using setup.py```python setup.py sdist```6. Push to pypi using twine```twine upload dist/*```Use `1password` to find the credentials for pypi.</longdescription>
+	<longdescription># identity-clientClient lib for the identity service## Creating a new releaseUpdate the version in pyproject.toml and create a new tag with that version number and push it,this will trigger the release.yml GitHub Action.```bashgit push origin &lt;tag_name&gt;```</longdescription>
 </pkgmetadata>

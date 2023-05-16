@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription/>
+	<longdescription>flit_core---------This provides a `PEP 517 &lt;https://peps.python.org/pep-0517/&gt;`_ build backendfor packages using `Flit &lt;https://pypi.org/project/flit/&gt;`_.  The only publicinterface is the API specified by PEP 517, at ``flit_core.buildapi``.See the `Flit documentation &lt;https://flit.pypa.io/en/stable/&gt;`_ for moreinformation.</longdescription>
 </pkgmetadata>

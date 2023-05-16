@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># EasyPost Tools## How to deploy to PyPiReference: https://medium.com/@joel.barmettler/how-to-upload-your-python-package-to-pypi-65edc5fe9c56Manually change with new number in setup.cfg (increment it)Upload to PyPi cd c:\EasypostLibrary\eptools python -m build python -m twine upload dist/*Afterwards install it globaly on 10.10.10.12:&gt; pip install eptools==&amp;lt;version&amp;gt;E.g. &quot;pip install -U eptools&quot;add config.py of with following methods!    - slacktoken</longdescription>
+	<longdescription># EasyPost Tools## How to deploy to PyPiReference: https://medium.com/@joel.barmettler/how-to-upload-your-python-package-to-pypi-65edc5fe9c56Manually change with new number in setup.cfg (increment it)Upload to PyPi cd c:\EasypostLibrary\eptools python -m build python -m twine upload dist/*Afterwards install it globaly:&gt; pip install eptools==&amp;lt;version&amp;gt;E.g. &quot;pip install -U eptools&quot;add config.py of with following methods!    - slacktoken</longdescription>
 </pkgmetadata>

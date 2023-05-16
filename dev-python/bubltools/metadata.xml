@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># About---Here are some little tools I have come up with. I dont have much right now but you could add an &quot;issue&quot; on the github and suggest a tool or inclusion I could try to add.# Tools## linebreakCreates an empty line in the console/terminal### Usage`bubltools.linebreak(lines)`lines is the amount of lines to get rid of (default is 1)</longdescription>
+	<longdescription># About---Here are some little tools I have come up with. I dont have much right now but you could add an &quot;issue&quot; on the github or email me and suggest a tool or inclusion I could try to add.# Tools## linebreakCreates an empty line in the console/terminal### Usage`bubltools.linebreak(lines)`lines is the amount of lines to get rid of (default is 1)</longdescription>
 </pkgmetadata>

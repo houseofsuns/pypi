@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>wiremock is an API Client to the Admin API for WireMock Standalone installation: https://wiremock.org/docs`Documentation &lt;https://wiremock.readthedocs.org/en/latest/&gt;`_`Report a Bug &lt;https://github.com/platinummonkey/python-wiremock/issues&gt;`_</longdescription>
+	<longdescription># Python WireMock Admin API ClientThis is a python admin API client to a standalone WireMock server.[![Build Status](https://travis-ci.org/wiremock/python-wiremock.svg?branch=master)](https://travis-ci.org/wiremock/python-wiremock)[![Coverage Status](https://coveralls.io/repos/github/wiremock/python-wiremock/badge.svg?branch=master)](https://coveralls.io/github/wiremock/python-wiremock?branch=master)[![Docs](https://img.shields.io/badge/docs-latest-brightgreen.svg)](http://wiremock.readthedocs.org/)## Install as DependencyTo install:    pip install wiremock## Documentationwiremock documentation can be found at http://wiremock.readthedocs.org/## Pull RequestsGeneral Rules:- All Tests must pass- Coverage shouldn't decrease- All Pull Requests should be rebased against master **before** submitting the PR.## DevelopmentSetup the project using poetry.`poetry install`</longdescription>
 </pkgmetadata>

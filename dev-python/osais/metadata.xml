@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># osaisThe osais Python lib for connecting AIs to OSAIS cloud## Installpip install osais## Requirements Kept minimal (requests, schedule, watchdog, Werkzeug)AI that includes osais package must have a ./_input and a ./_output directory, for receiving and generating files## Supporteric [at] incubiq [dot] com</longdescription>
+	<longdescription># osaisThe osais Python lib for connecting AIs to OSAIS cloud## Installpip install osais## Requirements Kept minimal (boto3, Jinja2, requests, schedule, watchdog, Werkzeug)AI that includes osais package must have a ./_input and a ./_output directory, for receiving and generating filesSupport of uploading to AWS S3 is provided## Supporteric [at] incubiq [dot] com</longdescription>
 </pkgmetadata>

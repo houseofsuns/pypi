@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Inference package for MLOpsPython project</longdescription>
+	<longdescription>Extraction package for MLOpsPython project</longdescription>
 </pkgmetadata>

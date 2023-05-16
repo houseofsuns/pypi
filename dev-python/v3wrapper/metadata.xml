@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Documentation to come in future versions.</longdescription>
+	<longdescription># Placeholder packageThis is a placeholder package</longdescription>
 </pkgmetadata>

@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># SAPLibrary of re-usable utilities for python web apps .</longdescription>
+	<longdescription># SAPLibrary of re-usable utilities for python web apps .# TodoAdd support for Timezone datetime with pydantic 2.0</longdescription>
 </pkgmetadata>

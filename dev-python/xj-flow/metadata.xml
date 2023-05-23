@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># xj-flow#### 介绍流程模块#### 软件架构软件架构说明#### 安装教程1.  xxxx2.  xxxx3.  xxxx#### 使用说明1.  xxxx2.  xxxx3.  xxxx#### 参与贡献1.  Fork 本仓库2.  新建 Feat_xxx 分支3.  提交代码4.  新建 Pull Request#### 特技1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)</longdescription>
+	<longdescription># 流程模块（xj-flow）#### 介绍流程模块的设计初衷是为了解决接口调用逻辑复杂，减少前端的工作量，以及对抽象化组件的灵活调用。由于我们的紫薇系统是以模块化开发为基础、以微服务的理念为指引，我们的团队致力于打造一个良好的开发生态。#### 软件架构由**流程节点（flow_node）**与**流程动作（flow_action）**组成。两者进行映射，建立执行规则。以装饰器得到方式调用系统中的流程可控制方法。#### 安装教程```pip install xj_flow```#### 参与贡献1.  孙楷炎 sky4834@163.com2.  赵向明 sieyoo@163.com</longdescription>
 </pkgmetadata>

@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A Sphinx theme for Qiskit that is based on thePytorch Sphinx theme.</longdescription>
+	<longdescription/>
 </pkgmetadata>

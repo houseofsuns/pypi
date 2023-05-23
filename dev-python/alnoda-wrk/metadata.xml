@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># alnoda-wrkA tool to build alnoda workspaces</longdescription>
+	<longdescription># alnoda-wrkA tool to build alnoda workspacesRoadmap:- https://github.com/schollz/croc</longdescription>
 </pkgmetadata>

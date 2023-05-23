@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This python package includes the functions related to paper Nápoles, G., Grau, I., Concepción, L., Koumeri, L.K. and Papa, J.P., 2022. Modeling implicit bias with fuzzy cognitive maps. Neurocomputing, 481, pp.33-45.</longdescription>
+	<longdescription>This python package includes the functions related to the papers &quot;Modeling implicit bias with fuzzy cognitive maps&quot; (Nápoles et al., 2022) and &quot;Measuring Implicit Bias Using SHAP Feature Importance and Fuzzy Cognitive Maps&quot; (Grau et al., 2023). An additional method included is using clustering to automatically discover the groups describing a numeric feature, which allows computing the association between numeric and categorical features using Cramer's V coefficient</longdescription>
 </pkgmetadata>

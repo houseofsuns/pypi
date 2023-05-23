@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>https://packaging.python.org/en/latest/guides/distributing-packages-using-setuptools/#packaging-your-project</longdescription>
+	<longdescription>apt update -yapt install -y python3-venv python3-pippython3 -m pip install --upgrade pip==23.1.2pip install pipx==1.2.0pipx install build/root/.local/bin/pyproject-buildpipx install twineexport TWINE_REPOSITORY_URL=$DEPLOYMENT_PYTHON_REPOSITORYexport TWINE_USERNAME=_json_key_base64export TWINE_PASSWORD=$DEPLOYMENT_REPOSITORY_PUSH_CREDENTIALS_B64/root/.local/bin/twine upload dist/*</longdescription>
 </pkgmetadata>

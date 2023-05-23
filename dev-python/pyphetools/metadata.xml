@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># pyphetoolsPython Phenopacket ToolsThis package currently is designed to test how to use the Python version of the phenopackets package together with pandas to create phenopackets from typical supplemental tables.Development goals include making builder code similar to the Java package to create valid phenopackets and to perform JSON Schema-based validation.## DocumentationSee full  [documentation](https://monarch-initiative.github.io/pyphetools/).## PyPIWe have installed the package in the Python Package Index (pypi) at [pyphentools](https://pypi.org/project/pyphetools/).</longdescription>
+	<longdescription># pyphetoolsPython Phenopacket ToolsThis package currently is designed to test how to use the Python version of the phenopackets package together with pandas to create phenopackets from typical supplemental tables.Development goals include making builder code similar to the Java package to create valid phenopackets and to perform JSON Schema-based validation.## DocumentationSee full  [documentation](https://monarch-initiative.github.io/pyphetools/).## PyPIWe have made the package available in the Python Package Index (pypi) at [pyphetools](https://pypi.org/project/pyphetools/).</longdescription>
 </pkgmetadata>

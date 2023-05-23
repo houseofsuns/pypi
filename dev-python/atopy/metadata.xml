@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># atopyPython Common Library# Install## conda```conda create -n atopy python=3.11conda activate atopypip install flit```## code```cd PATH_TO_CODEflit install```## run```cd PATH_TO_RUNconda activate atopy```</longdescription>
+	<longdescription># atopyPython Common Library# Install## conda```conda create -n atopy python=3.10conda activate atopypip install flit```## code```cd PATH_TO_CODEflit install```## run```cd PATH_TO_RUNconda activate atopy```</longdescription>
 </pkgmetadata>

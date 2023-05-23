@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>    This page lists current APIs.  As of v0.2, all APIs are subject to change without notice.   # noqa: E501    </longdescription>
+	<longdescription>    This page lists current APIs. As of v0.2, all APIs are subject to change without notice.   # noqa: E501    </longdescription>
 </pkgmetadata>

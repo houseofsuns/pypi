@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Momento Client Proto Generated Files for PythonThis package includes gRrpc clients and the response and request classes to interact with Momento Services.</longdescription>
+	<longdescription># Momento Client Proto Generated Files for PythonThis package includes gRPC clients and the response and request classes to interact with Momento Services.</longdescription>
 </pkgmetadata>

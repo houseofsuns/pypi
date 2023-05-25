@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>The package *cypari* is a Python wrapper for the `PARI library&lt;http://pari.math.u-bordeaux.fr/&gt;`_, a computer algebra system fornumber theory computations.  It is derived from the `correspondingcomponent&lt;https://github.com/sagemath/sage/blob/797dd7b4c273556d9677fadffa2ef6dd7f113857/src/sage/libs/cypari2/gen.pyx&gt;`_of `SageMath &lt;http://www.sagemath.org&gt;`_, but is independent of the rest ofSageMath and can be used with any recent version of Python 2 or 3.</longdescription>
+	<longdescription>The package *cypari* is a Python wrapper for the `PARI library&lt;http://pari.math.u-bordeaux.fr/&gt;`_, a computer algebra system fornumber theory computations.  It is derived from the `correspondingcomponent&lt;https://github.com/sagemath/sage/blob/797dd7b4c273556d9677fadffa2ef6dd7f113857/src/sage/libs/cypari2/gen.pyx&gt;`_of `SageMath &lt;http://www.sagemath.org&gt;`_, but is independent of the rest ofSageMath and can be used with any recent version of Python 3.</longdescription>
 </pkgmetadata>

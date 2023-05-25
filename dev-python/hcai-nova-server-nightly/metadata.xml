@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## ProjectThis project contains a nova backend that can be used to train models or generate explanations for the models on a remote server.The server api can be used either from the UI itself or as a standalone tool to just interact with an existing nova database.## UsageThe recommended way of usage is to install the latest stable version of the package via pypi from [here](https://pypi.org/project/hcai-nova-server/).Alternatively you can use the nightly version of the current github dev-commit from [here](https://pypi.org/project/hcai-nova-server-nightly/).</longdescription>
+	<longdescription>## ProjectThis project contains a nova backend that can be used to train models or generate explanations for the models on a remote server.The server api can be used either from the UI itself or as a standalone tool to just interact with an existing nova database.You can find the full documentation of the project [here](https://hcmlab.github.io/nova-server/docbuild/).</longdescription>
 </pkgmetadata>

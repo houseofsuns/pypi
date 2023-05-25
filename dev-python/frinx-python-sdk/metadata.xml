@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Python SDK for Frinx Machine Workflow Manager</longdescription>
+	<longdescription># Frinx Python SDKSome basic information about package [&quot;TODO]## Development### Poetry useful commands#### Virtual Environment activate```shell# Add dependencypoetry env use /path/to/python# If you have the python executable in your PATH you can use it:poetry env use python3.10# Show env infopoetry env info```#### Add dependency```shellpoetry init --python```#### Dependency management```shell# Add dependencypoetry add django@^4.0.0# Remove dependencypoetry remove django```#### Package build```shellpoetry build# Verbose outputpoetry build -vvv```</longdescription>
 </pkgmetadata>

@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription/>
+	<longdescription># Django IntEnumField[![Build Status](https://api.travis-ci.org/HearthSim/django-intenumfield.svg?branch=master)](https://travis-ci.org/HearthSim/django-intenumfield)An IntEnumField for Django.## Features* Store your multiple-choice options as a smallint (2 bytes) instead of varchar* Reuse existing IntEnums as choice values* Integrates well with Django's admin app (display and filter)## Requirements* Python 3.6+* Django 2.2+## Usage```pyfrom enum import IntEnumfrom django.db import modelsfrom django_intenum import IntEnumFieldclass Status(IntEnum):UNKNOWN = 0IN_PROGRESS = 1COMPLETED = 2ERROR = 3class Job(models.Model):status = IntEnumField(enum=Status)```## LicenseThis project is licensed under the MIT license. The full license text isavailable in the LICENSE file.</longdescription>
 </pkgmetadata>

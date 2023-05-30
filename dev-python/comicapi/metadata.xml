@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription/>
+	<longdescription># Historycomicapi originates [here](https://github.com/davide-romanini/comicapi), was integrated into [ComicStreamer](https://github.com/davide-romanini/ComicStreamer), was modified in [this fork](https://github.com/kounch/ComicStreamer), and has now been extracted and packaged by yours truly (Iris W).# Installationyou can use pip to install this. cbr support is off by default—you'll need to do `pip install rarfile` as well as having &quot;unrar&quot; available.</longdescription>
 </pkgmetadata>

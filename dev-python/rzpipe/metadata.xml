@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># rzpipe for PythonInteract with rizin using the `#!pipe` command or in standalone scriptsthat communicate with local or remote rizin via pipe, tcp or http.## Installation```sh$ pip install rzpipe```or```sh$ pip3 install rzpipe```## Usage example:```pythonimport rzpipepipe = rzpipe.open(&quot;/bin/ls&quot;)pipe.cmd('aa')print(pipe.cmd(&quot;afl&quot;))print(pipe.cmdj(&quot;aflj&quot;))            # evaluates JSON and returns an objectprint(pipe.cmdj(&quot;ij&quot;).core.format)  # shows file formatpipe.quit()```</longdescription>
+	<longdescription># rzpipe for PythonInteract with rizin using the `#!pipe` command or in standalone scriptsthat communicate with local or remote rizin via pipe, tcp or http.## Installation```sh$ pip install rzpipe```or```sh$ pip3 install rzpipe```## Usage example:```pythonimport rzpipepipe = rzpipe.open(&quot;/bin/ls&quot;)pipe.cmd('aa')print(pipe.cmd(&quot;afl&quot;))print(pipe.cmdj(&quot;aflj&quot;))            # parses the JSON and returns a dict (note the lowercase j)print(pipe.cmdJ(&quot;ij&quot;).core.format)  # parses the JSON and returns a namedtuple (note the uppercase J)pipe.quit()```</longdescription>
 </pkgmetadata>

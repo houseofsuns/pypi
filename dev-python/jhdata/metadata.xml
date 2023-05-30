@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>JHData================Various interfaces for interacting with files stored in the cloud![image](https://img.shields.io/pypi/v/jhdata?style=flat-square)## InstallingInstall the [PyPI Package](https://pypi.org/project/jhdata/):    pip install jhdata## ExamplesTODO</longdescription>
+	<longdescription>JHData================Various interfaces for interacting with files stored in the cloud![image](https://img.shields.io/pypi/v/jhdata?style=flat-square)![image](https://img.shields.io/static/v1?label=pytest&amp;message=1+failed%2C+1+tests&amp;color=critical&amp;style=flat-square)![image](https://img.shields.io/static/v1?label=coverage&amp;message=2%25&amp;color=red&amp;style=flat-square)## InstallingInstall the [PyPI Package](https://pypi.org/project/jhdata/):    pip install jhdata## ExamplesTODO</longdescription>
 </pkgmetadata>

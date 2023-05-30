@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription/>
+	<longdescription># betfair_parserA simple and fast betfair parser, built with [msgspec](https://github.com/jcrist/msgspec).### ReleasingReleases are published automatically when a tag is pushed to GitHub.```# Set next version numberexport RELEASE=x.x.x# Create tagsgit commit --allow-empty -m &quot;Release $RELEASE&quot;git tag -a $RELEASE -m &quot;Version $RELEASE&quot;# Pushgit push upstream --tags```</longdescription>
 </pkgmetadata>

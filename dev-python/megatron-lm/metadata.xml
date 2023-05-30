@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Placeholder packageThis is a placeholder for megatron-lm package v1.1.5 </longdescription>
+	<longdescription># Placeholder packageThis is a placeholder package</longdescription>
 </pkgmetadata>

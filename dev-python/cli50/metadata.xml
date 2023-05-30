@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription/>
+	<longdescription># `cli50`This is `cli50`, a command-line script that facilitates using [CS50 CLI](https://github.com/cs50/cli).</longdescription>
 </pkgmetadata>

@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Home Assistant IntentsSentences for [Home Assistant](https://www.home-assistant.io/) that will trigger the [built-in intents](https://developers.home-assistant.io/docs/intent_builtin/).</longdescription>
+	<longdescription># Home Assistant Intents PackagePackaging for [intents](https://github.com/home-assistant/intents/)## InstallClone the repo and create a virtual environment:``` shgit clone --recursive https://github.com/home-assistant/intents-packagecd intents-packagepython3 -m venv venvvenv/bin/pip3 install --upgrade pipvenv/bin/pip3 install -r requirements.txt```## PackageUpdate the submodule``` shgit submodule update --remote```Bump the version in `pyproject.toml` to `YYYY.M.D`Generate dist:``` shscript/package```Upload `.tar.gz` and `.whl` to PyPI.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>打包上传</longdescription>
+	<longdescription>apkupload</longdescription>
 </pkgmetadata>

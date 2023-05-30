@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># stqeKernel-QE Storage test suite### Dependencies* Python &gt;= 3.6* pip &gt;= 20.3### InstallationUsing virtualenv:  `python3 -m pip install venv`  `python3 -m venv stqe-venv &amp;&amp; source stqe-venv/bin/activate`  `python3 -m pip install -U pip wheel`  `python3 -m pip install stqe`(optional) edit /etc/san_top.conf example#### How to Uninstall`python3 -m pip uninstall stqe`#### Basic cli usage`stqe-test --help`</longdescription>
+	<longdescription># stqeKernel-QE Storage test suite### Dependencies* Python &gt;= 3.6* pip &gt;= 20.3### InstallationUsing virtualenv:  `python3 -m pip install virtualenv``python3 -m venv stqe-venv &amp;&amp; source stqe-venv/bin/activate`  `python3 -m pip install -U pip wheel`  `python3 -m pip install stqe`(optional) edit /etc/san_top.conf example#### How to Uninstall`python3 -m pip uninstall stqe`#### Basic cli usage`stqe-test --help`</longdescription>
 </pkgmetadata>

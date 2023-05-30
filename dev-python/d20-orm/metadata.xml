@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># arangodb_python_ormORM for datafield based apps on Python and ArangoDB</longdescription>
+	<longdescription># arangodb_python_ormORM for datafield based apps on Python and ArangoDB### Version 2.0.0Added GraphClassFactory wich allows you to create your DB, collections and graphs with no effort.Added support for Metada DB prefixAuto-gen Element table if not presentSearch does not get rid of deleted items automatically, new parameter added</longdescription>
 </pkgmetadata>

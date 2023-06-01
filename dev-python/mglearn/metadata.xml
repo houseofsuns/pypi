@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription/>
+	<longdescription>Helper functions for the book `Introduction to machine learning with Python`</longdescription>
 </pkgmetadata>

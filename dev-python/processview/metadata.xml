@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Description`processview` Toolkit for workflow processes supervision.A workflow process must inherit from &quot;SuperviseProcess&quot;.This way it can provide information to the &quot;manager&quot;. Several processes can be associated to the same &quot;process&quot;.# Installation``` pythonpip install processview[full]```</longdescription>
+	<longdescription/>
 </pkgmetadata>

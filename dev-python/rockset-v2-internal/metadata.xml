@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Official Rockset Python Client==============================A Python library for Rockset's API.Setup-----You can install this package by using the pip tool and installing:    $ pip install rockset-v2-internalUsing the Rockset API---------------------Documentation for this library can be found here:- &quot;https://github.com/rockset/rockset-python-client&quot;</longdescription>
+	<longdescription>Official Rockset Python Client==============================A Python library for Rockset's API.Setup-----You can install this package by using the pip tool and installing:    $ pip install rocksetUsing the Rockset API---------------------Documentation for this library can be found here:- https://github.com/rockset/rockset-python-client</longdescription>
 </pkgmetadata>

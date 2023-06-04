@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Django JSheetDjango JSheet is a little tool to render a simple excel sheet in webpageThere are many around, but mine is cooler because it's made by me .-.Good luck! \o/</longdescription>
+	<longdescription># Django JSheetDjango JSheet is a little tool to render a simple excel sheet in webpageA sheet is generated with all the data and its history.No model is required, but you can eventually add it to allows synchronization of data with the db(to combine with submodule django_jsheet_assets)There are many around, but mine is cooler because it's made by me .-.Good luck! \o/``</longdescription>
 </pkgmetadata>

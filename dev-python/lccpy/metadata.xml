@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Project descriptionThe dependent package of project \&lt;[Make Python simpler](https://github.com/lcctoor/lccpy)\&gt; .</longdescription>
+	<longdescription># 项目描述项目 \&lt;[让 Python 更简单一点](https://github.com/lcctoor/lccpy#readme)\&gt; 的依赖包。</longdescription>
 </pkgmetadata>

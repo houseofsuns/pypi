@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># betfair_parserA simple and fast betfair parser, built with [msgspec](https://github.com/jcrist/msgspec).### ReleasingReleases are published automatically when a tag is pushed to GitHub.```# Set next version numberexport RELEASE=x.x.x# Create tagsgit commit --allow-empty -m &quot;Release $RELEASE&quot;git tag -a $RELEASE -m &quot;Version $RELEASE&quot;# Pushgit push upstream --tags```</longdescription>
+	<longdescription>[![PyPI](https://img.shields.io/pypi/v/betfair_parser.svg?style=flat)](https://pypi.org/project/betfair_parser/)[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)# betfair_parserA simple and fast betfair parser, built with [msgspec](https://github.com/jcrist/msgspec).### ReleasingReleases are published automatically when a tag is pushed to GitHub.```# Set next version numberexport RELEASE=x.x.x# Create tagsgit commit --allow-empty -m &quot;Release $RELEASE&quot;git tag -a $RELEASE -m &quot;Version $RELEASE&quot;# Pushgit push upstream --tags```</longdescription>
 </pkgmetadata>

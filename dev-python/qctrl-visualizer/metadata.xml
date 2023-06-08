@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Q-CTRL VisualizerProvides visualization of data for Q-CTRL's Python products.</longdescription>
+	<longdescription># Q-CTRL VisualizerThe Q-CTRL Visualizer offers broad functionality to visually engage withquantum dynamics and quantum controls.  These tools can help you developunderstanding and intuition, and ultimately support the implementation of yourquantum controls. See the topic [Visualizing your data using the Q-CTRLVisualizer](https://docs.q-ctrl.com/boulder-opal/topics/visualizing-your-data-using-the-q-ctrl-visualizer)in the Q-CTRL documentation for more information.The Q-CTRL Visualizer is meant to be used with the Q-CTRL products BoulderOpal, Fire Opal, and Open Controls. See how you can get started with [BoulderOpal](https://docs.q-ctrl.com/boulder-opal/get-started) and [FireOpal](https://docs.q-ctrl.com/fire-opal/get-started) today.</longdescription>
 </pkgmetadata>

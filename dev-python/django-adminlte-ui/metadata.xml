@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>django-adminlte-ui==================django admin theme base on adminlteadminlte version: 2.4.18install=======::    pip install django-adminlte-uisetup=====::    INSTALLED_APPS = [        'adminlteui',        'django.contrib.admin',        'django.contrib.auth',        'django.contrib.sites',        'django.contrib.sitemaps',        'django.contrib.contenttypes',        'django.contrib.sessions',        'django.contrib.messages',        'django.contrib.staticfiles',        # custom menu base on treebeard        'treebeard',        ...    ]Init models===========::    python manage.py migrate django_admin_settings</longdescription>
+	<longdescription>django-adminlte-ui==================django admin theme base on adminlteadminlte version: 2.4.18install=======::    pip install django-adminlte-uisetup=====::    INSTALLED_APPS = [        'adminlteui',        'django.contrib.admin',        'django.contrib.auth',        ...    ]</longdescription>
 </pkgmetadata>

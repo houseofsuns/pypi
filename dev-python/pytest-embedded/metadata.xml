@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>### pytest-embeddedA pytest plugin for embedded systems. Could activate different services for extra functionalities.Used CLI Options:- `app_path`</longdescription>
+	<longdescription>### pytest-embeddedA pytest plugin for embedded systems. Could activate different services for extra functionalities.</longdescription>
 </pkgmetadata>

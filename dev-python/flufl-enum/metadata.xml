@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>==========flufl.enum==========A Python enumeration package.The ``flufl.enum`` library is a Python enumeration package.  Its goal is toprovide simple, specific, concise semantics in an easy to read and writesyntax.  ``flufl.enum`` has just enough of the features needed to makeenumerations useful, but without a lot of extra baggage to weigh them down.This work grew out of the Mailman 3.0 project.Since enums were added to Python in 3.4, why use this package instead of thePython standard library `enum &lt;https://docs.python.org/3/library/enum.html&gt;`_package?  ``flufl.enum`` is intentionally simpler, and thus potentially fasterand easier to maintain.Author======``flufl.enum`` is Copyright (C) 2004-2023 Barry Warsaw &lt;barry@python.org&gt;Licensed under the terms of the Apache License Version 2.0.  See the LICENSEfile for details.Project details=============== * Project home: https://gitlab.com/warsaw/flufl.enum * Report bugs at: https://gitlab.com/warsaw/flufl.enum/issues * Code hosting: https://gitlab.com/warsaw/flufl.enum.git * Documentation: http://fluflenum.readthedocs.org/ * PyPI: https://pypi.python.org/pypi/flufl.enum</longdescription>
+</pkgmetadata>

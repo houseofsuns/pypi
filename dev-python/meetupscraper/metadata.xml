@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription/>
+	<longdescription>Allows you to access events tied to a specific meetup group in a structured way</longdescription>
 </pkgmetadata>

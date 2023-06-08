@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Powerful backtest python library for Thai stocks</longdescription>
+	<longdescription>Powerful Python backtesting for Thai stocks</longdescription>
 </pkgmetadata>

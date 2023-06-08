@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># xocto - utilities for Python servicesProven utilities used on Python services at Kraken Technologies. This library works with Python 3.8 and above.CI status:[![CircleCI](https://circleci.com/gh/octoenergy/xocto/tree/main.svg?style=svg)](https://circleci.com/gh/octoenergy/xocto/tree/main)- PyPI detail page: &lt;https://pypi.python.org/pypi/xocto&gt;- Documentation: &lt;https://xocto.readthedocs.io/&gt;</longdescription>
+	<longdescription># xocto - utilities for Python servicesProven utilities used on Python services at Kraken Technologies. This libraryworks with Python 3.9 and above.CI status:[![CircleCI](https://circleci.com/gh/octoenergy/xocto/tree/main.svg?style=svg)](https://circleci.com/gh/octoenergy/xocto/tree/main)- PyPI detail page: &lt;https://pypi.python.org/pypi/xocto&gt;- Documentation: &lt;https://xocto.readthedocs.io/&gt;</longdescription>
 </pkgmetadata>

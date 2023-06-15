@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>dvc-s3s3 plugin for dvc</longdescription>
+	<longdescription>dvc-s3======s3 plugin for dvcTests-----By default tests will be run against moto (via pytest-servers).To run against real S3, set ``DVC_TEST_AWS_REPO_BUCKET`` with an AWS bucket name.</longdescription>
 </pkgmetadata>

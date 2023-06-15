@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># pyautd3[autd3 library](https://github.com/shinolab/autd3) for python3.7+version: 11.1.0## Install```pip install pyautd3```or from this repository```pip install git+https://github.com/shinolab/autd3.git#subdirectory=python```## RequirementsIf you are using Linux/macOS, you may need to install and run pyautd3 as root.```sudo pip install pyautd3sudo python&gt;&gt;&gt; import pyautd3```## Examplesee [example](./example)## LICENSEMIT# AuthorShun Suzuki, 2022-2023</longdescription>
+	<longdescription># pyautd3[autd3 library](https://github.com/shinolab/autd3) for python3.7+version: 11.2.0## Install```pip install pyautd3```or from this repository```pip install git+https://github.com/shinolab/autd3.git#subdirectory=python```## RequirementsIf you are using Linux/macOS, you may need to install and run pyautd3 as root.```sudo pip install pyautd3sudo python&gt;&gt;&gt; import pyautd3```## Examplesee [example](./example)## LICENSEMIT# AuthorShun Suzuki, 2022-2023</longdescription>
 </pkgmetadata>

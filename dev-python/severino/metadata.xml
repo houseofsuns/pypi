@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription/>
+	<longdescription># people-analytics-severino-sdkInstall packages:poetry installConfigure pre-commit:poetry run pre-commit installPackage build:poetry buildPublish package:poetry publish</longdescription>
 </pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>==========flufl.i18n==========A high level API for internationalizing Python libraries and applications.The ``flufl.i18n`` library provides a convenient API for managing translationcontexts in Python applications.  It provides facilities not only forsingle-context applications like command line scripts, but also moresophisticated management of multiple-context applications such as Internetservers.Author======``flufl.i18n`` is Copyright (C) 2004-2023 Barry Warsaw &lt;barry@python.org&gt;Licensed under the terms of the Apache License Version 2.0.  See the LICENSEfile for details.Project details=============== * Project home: https://gitlab.com/warsaw/flufl.i18n * Report bugs at: https://gitlab.com/warsaw/flufl.i18n/issues * Code hosting: https://gitlab.com/warsaw/flufl.i18n.git * Documentation: https://flufli18n.readthedocs.io/ * PyPI: https://pypi.python.org/pypi/flufl.i18n</longdescription>
+</pkgmetadata>

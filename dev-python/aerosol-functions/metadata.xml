@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>![logo](logo.png)v. 0.0.11# aerosol-functionsA collection of methods to analyze and visualize atmospheric aerosol data.## Installation`pip install aerosol-functions`## [Documentation](https://jlpl.github.io/aerosol-functions/)</longdescription>
+	<longdescription>![logo](logo.png)---A collection of tools to analyze and visualize atmospheric aerosol data.## Installation```shellpip install aerosol-functions```## DocumentationSee [here](https://jlpl.github.io/aerosol-functions/)</longdescription>
 </pkgmetadata>

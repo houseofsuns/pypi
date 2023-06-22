@@ -6,7 +6,7 @@ EAPI=8
 REALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_9,3_10,3_11} )
+PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,6 @@ DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/cloudpickle[${PYTHON_USEDEP}]
 	dev-python/loky[${PYTHON_USEDEP}]
 	dev-python/versioningit[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	notebook? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )

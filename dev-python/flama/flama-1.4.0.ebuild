@@ -6,7 +6,7 @@ EAPI=8
 REALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_9,3_10,3_11} )
+PYTHON_COMPAT=( python{3_10,3_11} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,6 @@ DEPENDENCIES="dev-python/starlette[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/uvicorn[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	pydantic? ( dev-python/pydantic[${PYTHON_USEDEP}] )
 	full? ( dev-python/pydantic[${PYTHON_USEDEP}] )
 	marshmallow? ( dev-python/marshmallow[${PYTHON_USEDEP}] )

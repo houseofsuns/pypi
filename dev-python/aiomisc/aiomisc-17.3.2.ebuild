@@ -6,7 +6,7 @@ EAPI=8
 REALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_9,3_10,3_11} )
+PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,6 @@ DEPENDENCIES="carbon? ( dev-python/aiocarbon[${PYTHON_USEDEP}] )
 	dev-python/logging-journald[${PYTHON_USEDEP}]
 	raven? ( dev-python/raven[${PYTHON_USEDEP}] )
 	rich? ( dev-python/rich[${PYTHON_USEDEP}] )
-	dev-python/typing_extensions[${PYTHON_USEDEP}]
 	uvloop? ( dev-python/uvloop[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Summary-------support for Sentry (getsentry.com)</longdescription>
+	<longdescription># CubicWeb-Sentry## SummaryThis cube add support of [Sentry](https://sentry.io/) for [CubicWeb](https://www.cubicweb.org/). It is a plug-in for the framework.## Install it1. `pip3 install cubicweb-sentry`2. `add_cube(&quot;sentry&quot;)`.## Configure itSee `~/etc/cubicweb.d/&lt;instance-name&gt;/all-in-one.conf`</longdescription>
 </pkgmetadata>

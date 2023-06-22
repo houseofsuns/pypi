@@ -6,7 +6,7 @@ EAPI=8
 REALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_9,3_10,3_11} )
+PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,9 +28,7 @@ DEPENDENCIES="all? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/xdoctest[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all-strict? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/codecov[${PYTHON_USEDEP}] )
@@ -38,9 +36,7 @@ DEPENDENCIES="all? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	tests-strict? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	tests-strict? ( dev-python/xdoctest[${PYTHON_USEDEP}] )
 	tests-strict? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests-strict? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests-strict? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

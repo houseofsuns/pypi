@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription/>
+	<longdescription>GemPy is a Python-based, open-source geomodeling library. It is capable of constructing complex 3D geological models of folded structures, fault networks and unconformities, based on the underlying powerful implicit representation approach.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Parsagon Python Library</longdescription>
+	<longdescription># parsagonParsagon allows you to create browser automations with natural language. You can create automations that fill out forms, scrape web pages, and much more, all without writing code. Here's a brief overview of how to get started:## RequirementsTo use Parsagon, you must have an up-to-date version of Google Chrome and Python &gt;= 3.8## InstallationTo get started, install the Parsagon python package:`pip install parsagon`and set your API key as an environment variable:`export PARSAGON_API_KEY=&lt;YOUR API KEY&gt;`Please contact us to get your API key if you don't have it already.## Usage```import parsagon# Create a programparsagon.create('Go to https://www.google.com/. Type &quot;the meaning of life&quot; into the search bar and hit enter. Scroll down and click the &quot;More results&quot; button 3 times. Scrape data in the format [{&quot;title&quot;: &quot;str&quot;, &quot;link&quot;: &quot;link&quot;}].')# Run a programparsagon.run(&quot;My program&quot;)# List your programsparsagon.detail()```See [the docs](https://parsagon.io/docs/pipelines/overview) for more information.</longdescription>
 </pkgmetadata>

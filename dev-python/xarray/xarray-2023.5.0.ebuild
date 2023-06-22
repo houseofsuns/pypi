@@ -6,7 +6,7 @@ EAPI=8
 REALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_9,3_10,3_11} )
+PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -44,7 +44,6 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	complete? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	complete? ( dev-python/seaborn[${PYTHON_USEDEP}] )
 	complete? ( dev-python/nc-time-axis[${PYTHON_USEDEP}] )
-	complete? ( dev-python/pydap[${PYTHON_USEDEP}] )
 	docs? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/h5netcdf[${PYTHON_USEDEP}] )
 	docs? ( dev-python/scipy[${PYTHON_USEDEP}] )
@@ -66,7 +65,6 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	docs? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/scanpydoc[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pydap[${PYTHON_USEDEP}] )
 	io? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
 	io? ( dev-python/h5netcdf[${PYTHON_USEDEP}] )
 	io? ( dev-python/scipy[${PYTHON_USEDEP}] )
@@ -74,7 +72,6 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	io? ( dev-python/fsspec[${PYTHON_USEDEP}] )
 	io? ( dev-python/cftime[${PYTHON_USEDEP}] )
 	io? ( dev-python/pooch[${PYTHON_USEDEP}] )
-	io? ( dev-python/pydap[${PYTHON_USEDEP}] )
 	parallel? ( dev-python/dask[${PYTHON_USEDEP}] )
 	viz? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	viz? ( dev-python/seaborn[${PYTHON_USEDEP}] )

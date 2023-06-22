@@ -6,7 +6,7 @@ EAPI=8
 REALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_9,3_10,3_11} )
+PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -152,9 +152,6 @@ DEPENDENCIES="dev-python/cmyt[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mpl[${PYTHON_USEDEP}] )
 	test? ( dev-python/sympy[${PYTHON_USEDEP}] )
-	test? ( dev-python/nose[${PYTHON_USEDEP}] )
-	test? ( dev-python/nose-exclude[${PYTHON_USEDEP}] )
-	test? ( dev-python/nose-timer[${PYTHON_USEDEP}] )
 	typecheck? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	typecheck? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	typecheck? ( dev-python/types-chardet[${PYTHON_USEDEP}] )

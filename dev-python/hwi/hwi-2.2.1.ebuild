@@ -6,7 +6,7 @@ EAPI=8
 REALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_9,3_10,3_11} )
+PYTHON_COMPAT=( python{3_10,3_11} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -22,14 +22,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="qt"
+IUSE=""
 DEPENDENCIES="dev-python/hidapi[${PYTHON_USEDEP}]
 	dev-python/ecdsa[${PYTHON_USEDEP}]
 	dev-python/pyaes[${PYTHON_USEDEP}]
 	dev-python/mnemonic[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev-python/libusb1[${PYTHON_USEDEP}]
-	qt? ( dev-python/pyside2[${PYTHON_USEDEP}] )
 	dev-python/bitbox02[${PYTHON_USEDEP}]
 	dev-python/cbor[${PYTHON_USEDEP}]
 	dev-python/pyserial[${PYTHON_USEDEP}]"

@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>See the README.md file at the github repository for this package:                     https://github.com/noahbenson/neuropythy</longdescription>
+	<longdescription>                     See the README.md file at the github repository for this package:                     https://github.com/noahbenson/neuropythy                     </longdescription>
 </pkgmetadata>

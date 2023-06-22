@@ -6,7 +6,7 @@ EAPI=8
 REALNAME="${PN}"
 REALVERSION="2023.2.12a1"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_9,3_10} )
+PYTHON_COMPAT=( python3_10 )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi

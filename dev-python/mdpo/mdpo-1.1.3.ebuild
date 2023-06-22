@@ -6,7 +6,7 @@ EAPI=8
 REALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_9,3_10,3_11} )
+PYTHON_COMPAT=( python{3_10,3_11} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/contextlib-chdir[${PYTHON_USEDEP}]
 	dev-python/importlib-metadata-argparse-version[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	dev-python/md-ulb-pwrap[${PYTHON_USEDEP}]
 	dev-python/polib[${PYTHON_USEDEP}]
 	dev-python/pymd4c[${PYTHON_USEDEP}]"

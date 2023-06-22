@@ -6,7 +6,7 @@ EAPI=8
 REALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_9,3_10} )
+PYTHON_COMPAT=( python3_10 )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -38,7 +38,6 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/mypy_extensions[${PYTHON_USEDEP}]
-	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	cov? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	cov? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

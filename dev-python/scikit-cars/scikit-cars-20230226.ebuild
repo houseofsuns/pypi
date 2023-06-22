@@ -6,7 +6,7 @@ EAPI=8
 REALNAME="${PN}"
 REALVERSION="0.20.0rc9.dev1"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_9,3_10,3_11} )
+PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="build data default developer docs optional test"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
@@ -44,7 +43,6 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	build? ( dev-python/build[${PYTHON_USEDEP}] )
 	data? ( dev-python/pooch[${PYTHON_USEDEP}] )
 	default? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	default? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	default? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	default? ( dev-python/networkx[${PYTHON_USEDEP}] )
 	default? ( dev-python/pillow[${PYTHON_USEDEP}] )

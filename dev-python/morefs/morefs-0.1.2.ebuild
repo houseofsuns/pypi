@@ -6,7 +6,7 @@ EAPI=8
 REALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_9,3_10,3_11} )
+PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,13 +27,10 @@ DEPENDENCIES="dev-python/fsspec[${PYTHON_USEDEP}]
 	all? ( dev-python/pygtrie[${PYTHON_USEDEP}] )
 	all? ( dev-python/fsspec[${PYTHON_USEDEP}] )
 	all? ( dev-python/aiofile[${PYTHON_USEDEP}] )
-	all? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
 	asynclocal? ( dev-python/fsspec[${PYTHON_USEDEP}] )
 	asynclocal? ( dev-python/aiofile[${PYTHON_USEDEP}] )
-	asynclocal? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
 	asynclocalfs? ( dev-python/fsspec[${PYTHON_USEDEP}] )
 	asynclocalfs? ( dev-python/aiofile[${PYTHON_USEDEP}] )
-	asynclocalfs? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
@@ -45,7 +42,6 @@ DEPENDENCIES="dev-python/fsspec[${PYTHON_USEDEP}]
 	dev? ( dev-python/fsspec[${PYTHON_USEDEP}] )
 	dev? ( dev-python/aiofile[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-aiofiles[${PYTHON_USEDEP}] )
-	dev? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
 	memfs? ( dev-python/pygtrie[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
@@ -56,7 +52,6 @@ DEPENDENCIES="dev-python/fsspec[${PYTHON_USEDEP}]
 	tests? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pygtrie[${PYTHON_USEDEP}] )
 	tests? ( dev-python/fsspec[${PYTHON_USEDEP}] )
-	tests? ( dev-python/aiofile[${PYTHON_USEDEP}] )
-	tests? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )"
+	tests? ( dev-python/aiofile[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

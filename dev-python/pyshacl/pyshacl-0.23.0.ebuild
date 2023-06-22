@@ -6,7 +6,7 @@ EAPI=8
 REALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_9,3_10,3_11} )
+PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,6 @@ IUSE="dev-coverage dev-lint dev-type-checking http js"
 DEPENDENCIES="dev-lint? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev-coverage? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev-python/html5lib[${PYTHON_USEDEP}]
-	dev-type-checking? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev-type-checking? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev-python/owlrl[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]

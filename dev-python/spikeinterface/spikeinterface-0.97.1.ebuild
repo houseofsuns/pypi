@@ -6,7 +6,7 @@ EAPI=8
 REALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_9,3_10,3_11} )
+PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -37,7 +37,6 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	extractors? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	extractors? ( dev-python/ONE-api[${PYTHON_USEDEP}] )
 	extractors? ( dev-python/ibllib[${PYTHON_USEDEP}] )
-	extractors? ( dev-python/sonpy[${PYTHON_USEDEP}] )
 	full? ( dev-python/zarr[${PYTHON_USEDEP}] )
 	full? ( dev-python/h5py[${PYTHON_USEDEP}] )
 	full? ( dev-python/pandas[${PYTHON_USEDEP}] )

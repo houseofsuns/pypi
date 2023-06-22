@@ -6,7 +6,7 @@ EAPI=8
 REALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_9,3_10,3_11} )
+PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,6 @@ DEPENDENCIES="dev-python/IPython[${PYTHON_USEDEP}]
 	dev-python/xinspect[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
 	all? ( dev-python/IPython[${PYTHON_USEDEP}] )
 	all? ( dev-python/autoflake[${PYTHON_USEDEP}] )
 	all? ( dev-python/fire[${PYTHON_USEDEP}] )
@@ -58,11 +57,6 @@ DEPENDENCIES="dev-python/IPython[${PYTHON_USEDEP}]
 	all-strict? ( dev-python/xdoctest[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/xinspect[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/yapf[${PYTHON_USEDEP}] )
-	all-strict? ( dev-python/Levenshtein[${PYTHON_USEDEP}] )
-	all-strict? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	all-strict? ( dev-python/line-profiler[${PYTHON_USEDEP}] )
-	all-strict? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	all-strict? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/parso[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/Levenshtein[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/line-profiler[${PYTHON_USEDEP}] )
@@ -75,11 +69,6 @@ DEPENDENCIES="dev-python/IPython[${PYTHON_USEDEP}]
 	all-strict? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	all? ( dev-python/Levenshtein[${PYTHON_USEDEP}] )
-	all? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	all? ( dev-python/line-profiler[${PYTHON_USEDEP}] )
-	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/parso[${PYTHON_USEDEP}] )
 	all? ( dev-python/Levenshtein[${PYTHON_USEDEP}] )
 	all? ( dev-python/line-profiler[${PYTHON_USEDEP}] )
@@ -98,16 +87,12 @@ DEPENDENCIES="dev-python/IPython[${PYTHON_USEDEP}]
 	optional-strict? ( dev-python/autoflake[${PYTHON_USEDEP}] )
 	optional-strict? ( dev-python/fire[${PYTHON_USEDEP}] )
 	optional-strict? ( dev-python/yapf[${PYTHON_USEDEP}] )
-	optional-strict? ( dev-python/Levenshtein[${PYTHON_USEDEP}] )
-	optional-strict? ( dev-python/line-profiler[${PYTHON_USEDEP}] )
 	optional-strict? ( dev-python/parso[${PYTHON_USEDEP}] )
 	optional-strict? ( dev-python/Levenshtein[${PYTHON_USEDEP}] )
 	optional-strict? ( dev-python/line-profiler[${PYTHON_USEDEP}] )
 	optional-strict? ( dev-python/Levenshtein[${PYTHON_USEDEP}] )
 	optional-strict? ( dev-python/line-profiler[${PYTHON_USEDEP}] )
 	optional-strict? ( dev-python/parso[${PYTHON_USEDEP}] )
-	optional? ( dev-python/Levenshtein[${PYTHON_USEDEP}] )
-	optional? ( dev-python/line-profiler[${PYTHON_USEDEP}] )
 	optional? ( dev-python/parso[${PYTHON_USEDEP}] )
 	optional? ( dev-python/Levenshtein[${PYTHON_USEDEP}] )
 	optional? ( dev-python/line-profiler[${PYTHON_USEDEP}] )
@@ -124,17 +109,12 @@ DEPENDENCIES="dev-python/IPython[${PYTHON_USEDEP}]
 	runtime-strict? ( dev-python/xinspect[${PYTHON_USEDEP}] )
 	runtime-strict? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	runtime-strict? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	runtime-strict? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	tests? ( dev-python/xdoctest[${PYTHON_USEDEP}] )
 	tests-strict? ( dev-python/xdoctest[${PYTHON_USEDEP}] )
-	tests-strict? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tests-strict? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests-strict? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests-strict? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests-strict? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	tests-strict? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )

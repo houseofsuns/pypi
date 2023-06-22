@@ -6,7 +6,7 @@ EAPI=8
 REALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_9,3_10} )
+PYTHON_COMPAT=( python3_10 )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -22,7 +22,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="autogluon plotting pydot pygraphviz"
+IUSE="plotting pydot pygraphviz"
 DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/statsmodels[${PYTHON_USEDEP}]
@@ -37,7 +37,6 @@ DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
 	dev-python/econml[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/causal-learn[${PYTHON_USEDEP}]
-	autogluon? ( dev-python/autogluon-tabular[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	dev-python/sphinx_design[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

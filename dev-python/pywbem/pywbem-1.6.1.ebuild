@@ -6,7 +6,7 @@ EAPI=8
 REALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_9,3_10,3_11} )
+PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,13 +27,10 @@ DEPENDENCIES="dev-python/ply[${PYTHON_USEDEP}]
 	dev-python/nocaselist[${PYTHON_USEDEP}]
 	dev-python/nocasedict[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
 	dev-python/yamlloader[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? ( dev-python/easy-vault[${PYTHON_USEDEP}] )
@@ -44,8 +41,6 @@ DEPENDENCIES="dev-python/ply[${PYTHON_USEDEP}]
 	test? ( dev-python/requests-toolbelt[${PYTHON_USEDEP}] )
 	test? ( dev-python/yagot[${PYTHON_USEDEP}] )
 	test? ( dev-python/virtualenv[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytz[${PYTHON_USEDEP}] )
-	test? ( dev-python/FormEncode[${PYTHON_USEDEP}] )
 	test? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytz[${PYTHON_USEDEP}] )
@@ -53,11 +48,9 @@ DEPENDENCIES="dev-python/ply[${PYTHON_USEDEP}]
 	test? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	test? ( dev-python/colorama[${PYTHON_USEDEP}] )
 	test? ( dev-python/decorator[${PYTHON_USEDEP}] )
-	test? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	test? ( dev-python/testfixtures[${PYTHON_USEDEP}] )
 	test? ( dev-python/packaging[${PYTHON_USEDEP}] )
 	test? ( dev-python/pluggy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

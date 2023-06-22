@@ -6,7 +6,7 @@ EAPI=8
 REALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_9,3_10,3_11} )
+PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="azureservicebus azurestoragequeues confluentkafka consul librabbitmq mongodb msgpack pyro qpid redis slmq sqlalchemy sqs yaml zookeeper"
 DEPENDENCIES="dev-python/amqp[${PYTHON_USEDEP}]
 	dev-python/vine[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	azureservicebus? ( dev-python/azure-servicebus[${PYTHON_USEDEP}] )
 	azurestoragequeues? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
 	azurestoragequeues? ( dev-python/azure-storage-queue[${PYTHON_USEDEP}] )

@@ -6,7 +6,7 @@ EAPI=8
 REALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_9,3_10,3_11} )
+PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,6 @@ DEPENDENCIES="compute-graph? ( dev-python/artifax[${PYTHON_USEDEP}] )
 	dev-python/pyrsistent[${PYTHON_USEDEP}]
 	rds-graphile-worker? ( dev-python/rds-graphile-worker-client[${PYTHON_USEDEP}] )
 	dev-python/semver[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
-	compute-graph? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )"
+	dev-python/simplejson[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

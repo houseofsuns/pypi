@@ -6,7 +6,7 @@ EAPI=8
 REALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_9,3_10,3_11} )
+PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="http"
 DEPENDENCIES="dev-python/ebbe[${PYTHON_USEDEP}]
 	dev-python/file-read-backwards[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	http? ( dev-python/urllib3[${PYTHON_USEDEP}] )
 	http? ( dev-python/certifi[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

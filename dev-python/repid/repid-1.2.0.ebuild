@@ -6,7 +6,7 @@ EAPI=8
 REALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_9,3_10,3_11} )
+PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -23,8 +23,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="amqp cron redis test"
-DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
-	amqp? ( dev-python/aiormq[${PYTHON_USEDEP}] )
+DEPENDENCIES="amqp? ( dev-python/aiormq[${PYTHON_USEDEP}] )
 	cron? ( dev-python/croniter[${PYTHON_USEDEP}] )
 	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

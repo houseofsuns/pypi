@@ -6,7 +6,7 @@ EAPI=8
 REALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_9,3_10,3_11} )
+PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,6 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/drf-openapi-schema[${PYTHON_USEDEP}]
 	dev-python/asgiref[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	pydantic? ( dev-python/pydantic[${PYTHON_USEDEP}] )
 	uvloop? ( dev-python/uvloop[${PYTHON_USEDEP}] )
 	uritemplate? ( dev-python/uritemplate[${PYTHON_USEDEP}] )"

@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>NeqSim (Non-Equilibrium Simulator) is a library for estimation of fluid behaviour for oil and gas production. The basis for NeqSim is fundamental mathematical models related to phase behaviour and physical properties of oil and gas.</longdescription>
+	<longdescription>NeqSim is a library for estimation of fluid behaviour for oil and gas production. The basis for NeqSim is fundamental mathematical models related to phase behaviour and physical properties of oil and gas.</longdescription>
 </pkgmetadata>

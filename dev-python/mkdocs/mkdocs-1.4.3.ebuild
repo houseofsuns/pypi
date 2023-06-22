@@ -6,7 +6,7 @@ EAPI=8
 REALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_9,3_10,3_11} )
+PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="i18n min-versions"
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/ghp-import[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/markdown[${PYTHON_USEDEP}]
 	dev-python/mergedeep[${PYTHON_USEDEP}]
@@ -37,7 +36,6 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	min-versions? ( dev-python/babel[${PYTHON_USEDEP}] )
 	min-versions? ( dev-python/click[${PYTHON_USEDEP}] )
 	min-versions? ( dev-python/ghp-import[${PYTHON_USEDEP}] )
-	min-versions? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
 	min-versions? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	min-versions? ( dev-python/markdown[${PYTHON_USEDEP}] )
 	min-versions? ( dev-python/markupsafe[${PYTHON_USEDEP}] )

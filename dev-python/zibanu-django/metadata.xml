@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Zibanu Django This package or library contains some functionalities commonly used in django projects and django rest_framework projects. ## Django db</longdescription>
+	<longdescription># Zibanu Library for DjangoThis package or library contains some functionalities commonly used in django projects and django rest_framework projects. ## Django db</longdescription>
 </pkgmetadata>

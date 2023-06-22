@@ -6,7 +6,7 @@ EAPI=8
 REALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_9,3_10,3_11} )
+PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -56,7 +56,6 @@ DEPENDENCIES="dev-python/dvc[${PYTHON_USEDEP}]
 	tests? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-tabulate[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-toml[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-docker[${PYTHON_USEDEP}] )
 	webdav? ( dev-python/dvc-webdav[${PYTHON_USEDEP}] )
 	webhdfs? ( dev-python/dvc-webhdfs[${PYTHON_USEDEP}] )
 	webhdfs_kerberos? ( dev-python/dvc-webhdfs[${PYTHON_USEDEP}] )"

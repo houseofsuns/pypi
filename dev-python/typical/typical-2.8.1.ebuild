@@ -6,7 +6,7 @@ EAPI=8
 REALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_9,3_10,3_11} )
+PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,10 +30,8 @@ DEPENDENCIES="dev-python/inflection[${PYTHON_USEDEP}]
 	json? ( dev-python/ujson[${PYTHON_USEDEP}] )
 	tests? ( dev-python/ujson[${PYTHON_USEDEP}] )
 	tests? ( dev-python/orjson[${PYTHON_USEDEP}] )
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	tests? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
 	benchmarks? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
 	benchmarks? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )

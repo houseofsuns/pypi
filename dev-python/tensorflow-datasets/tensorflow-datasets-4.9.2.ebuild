@@ -6,7 +6,7 @@ EAPI=8
 REALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_9,3_10,3_11} )
+PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -22,7 +22,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="aflw2k3d beir ble_wind_field c4 c4_wsrs cats_vs_dogs colorectal_histology common_voice dev duke_ultrasound eurosat groove gtzan huggingface imagenet2012_corrupted librispeech locomotion lsun matplotlib nsynth ogbg_molpcba pet_finder robonet robosuite_panda_pick_place_can smartwatch_gestures svhn tensorflow tensorflow-data-validation tests-all the300w_lp wider_face wiki_dialog wikipedia wsc273 youtube_vis"
+IUSE="aflw2k3d beir ble_wind_field c4 c4_wsrs cats_vs_dogs colorectal_histology common_voice dev duke_ultrasound eurosat groove gtzan huggingface imagenet2012_corrupted librispeech lsun matplotlib nsynth ogbg_molpcba pet_finder robonet smartwatch_gestures svhn tensorflow tensorflow-data-validation tests-all the300w_lp wider_face wiki_dialog wikipedia wsc273 youtube_vis"
 DEPENDENCIES="dev-python/absl-py[${PYTHON_USEDEP}]
 	dev-python/array-record[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
@@ -65,7 +65,6 @@ DEPENDENCIES="dev-python/absl-py[${PYTHON_USEDEP}]
 	dev? ( dev-python/tensorflow-io[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	dev? ( dev-python/yapf[${PYTHON_USEDEP}] )
-	dev? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	duke_ultrasound? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	eurosat? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	eurosat? ( dev-python/tifffile[${PYTHON_USEDEP}] )
@@ -106,12 +105,10 @@ DEPENDENCIES="dev-python/absl-py[${PYTHON_USEDEP}]
 	huggingface? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	huggingface? ( dev-python/pycocotools[${PYTHON_USEDEP}] )
 	huggingface? ( dev-python/datasets[${PYTHON_USEDEP}] )
-	huggingface? ( dev-python/envlogger[${PYTHON_USEDEP}] )
 	imagenet2012_corrupted? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	imagenet2012_corrupted? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	imagenet2012_corrupted? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	librispeech? ( dev-python/pydub[${PYTHON_USEDEP}] )
-	locomotion? ( dev-python/envlogger[${PYTHON_USEDEP}] )
 	lsun? ( dev-python/tensorflow-io[${PYTHON_USEDEP}] )
 	matplotlib? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	nsynth? ( dev-python/crepe[${PYTHON_USEDEP}] )
@@ -121,7 +118,6 @@ DEPENDENCIES="dev-python/absl-py[${PYTHON_USEDEP}]
 	ogbg_molpcba? ( dev-python/networkx[${PYTHON_USEDEP}] )
 	pet_finder? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	robonet? ( dev-python/h5py[${PYTHON_USEDEP}] )
-	robosuite_panda_pick_place_can? ( dev-python/envlogger[${PYTHON_USEDEP}] )
 	smartwatch_gestures? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	svhn? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
@@ -159,8 +155,6 @@ DEPENDENCIES="dev-python/absl-py[${PYTHON_USEDEP}]
 	tests-all? ( dev-python/bs4[${PYTHON_USEDEP}] )
 	tests-all? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	tests-all? ( dev-python/pycocotools[${PYTHON_USEDEP}] )
-	tests-all? ( dev-python/datasets[${PYTHON_USEDEP}] )
-	tests-all? ( dev-python/envlogger[${PYTHON_USEDEP}] )
 	the300w_lp? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	wider_face? ( dev-python/Pillow[${PYTHON_USEDEP}] )
 	wiki_dialog? ( dev-python/apache-beam[${PYTHON_USEDEP}] )

@@ -6,7 +6,7 @@ EAPI=8
 REALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_9,3_10,3_11} )
+PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -22,7 +22,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all argcomplete dev doc fsspec jsonnet jsonschema maintainer mypy omegaconf reconplogger ruyaml signatures test test-no-urls types-pyyaml typing-extensions urls"
+IUSE="all argcomplete dev doc fsspec jsonnet jsonschema maintainer mypy omegaconf reconplogger ruyaml signatures test test-no-urls types-pyyaml urls"
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	all? ( dev-python/jsonargparse[${PYTHON_USEDEP}] )
 	all? ( dev-python/jsonargparse[${PYTHON_USEDEP}] )
@@ -68,7 +68,6 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	test-no-urls? ( dev-python/pytest-subtests[${PYTHON_USEDEP}] )
 	test? ( dev-python/pydantic[${PYTHON_USEDEP}] )
 	types-pyyaml? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
-	typing-extensions? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
 	urls? ( dev-python/requests[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

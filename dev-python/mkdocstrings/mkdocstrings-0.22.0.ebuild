@@ -6,7 +6,7 @@ EAPI=8
 REALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_9,3_10,3_11} )
+PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,8 +29,6 @@ DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/mkdocs[${PYTHON_USEDEP}]
 	dev-python/mkdocs-autorefs[${PYTHON_USEDEP}]
 	dev-python/pymdown-extensions[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	crystal? ( dev-python/mkdocstrings-crystal[${PYTHON_USEDEP}] )
 	python-legacy? ( dev-python/mkdocstrings-python-legacy[${PYTHON_USEDEP}] )
 	python? ( dev-python/mkdocstrings-python[${PYTHON_USEDEP}] )"

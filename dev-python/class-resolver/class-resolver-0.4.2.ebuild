@@ -6,7 +6,7 @@ EAPI=8
 REALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_9,3_10,3_11} )
+PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -23,8 +23,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="click docdata docs numpy optuna sklearn tests torch torch-geometric"
-DEPENDENCIES="dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	click? ( dev-python/click[${PYTHON_USEDEP}] )
+DEPENDENCIES="click? ( dev-python/click[${PYTHON_USEDEP}] )
 	docdata? ( dev-python/docdata[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )

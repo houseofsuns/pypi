@@ -6,7 +6,7 @@ EAPI=8
 REALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_9,3_10,3_11} )
+PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -39,7 +39,6 @@ DEPENDENCIES="dev-python/platformdirs[${PYTHON_USEDEP}]
 	dev-python/msgpack[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/python-gitlab[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev-python/distro[${PYTHON_USEDEP}]
 	core? ( dev-python/platformdirs[${PYTHON_USEDEP}] )
@@ -52,7 +51,6 @@ DEPENDENCIES="dev-python/platformdirs[${PYTHON_USEDEP}]
 	core? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	core? ( dev-python/annexremote[${PYTHON_USEDEP}] )
 	core? ( dev-python/looseversion[${PYTHON_USEDEP}] )
-	core? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
 	core? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
 	core? ( dev-python/distro[${PYTHON_USEDEP}] )
 	devel? ( dev-python/platformdirs[${PYTHON_USEDEP}] )
@@ -105,7 +103,6 @@ DEPENDENCIES="dev-python/platformdirs[${PYTHON_USEDEP}]
 	devel-utils? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	devel-utils? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	devel-utils? ( dev-python/scriv[${PYTHON_USEDEP}] )
-	devel? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
 	devel? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
 	devel? ( dev-python/distro[${PYTHON_USEDEP}] )
 	downloaders? ( dev-python/boto[${PYTHON_USEDEP}] )
@@ -145,7 +142,6 @@ DEPENDENCIES="dev-python/platformdirs[${PYTHON_USEDEP}]
 	full? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	full? ( dev-python/vcrpy[${PYTHON_USEDEP}] )
 	full? ( dev-python/duecredit[${PYTHON_USEDEP}] )
-	full? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
 	full? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
 	full? ( dev-python/distro[${PYTHON_USEDEP}] )
 	misc? ( dev-python/argcomplete[${PYTHON_USEDEP}] )

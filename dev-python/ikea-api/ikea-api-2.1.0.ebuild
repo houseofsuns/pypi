@@ -6,7 +6,7 @@ EAPI=8
 REALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_9,3_10,3_11} )
+PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -23,8 +23,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all httpx requests wrappers"
-DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
-	requests? ( dev-python/requests[${PYTHON_USEDEP}] )
+DEPENDENCIES="requests? ( dev-python/requests[${PYTHON_USEDEP}] )
 	all? ( dev-python/requests[${PYTHON_USEDEP}] )
 	wrappers? ( dev-python/pydantic[${PYTHON_USEDEP}] )
 	all? ( dev-python/pydantic[${PYTHON_USEDEP}] )

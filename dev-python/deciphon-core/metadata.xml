@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># deciphon-corePython package for biding the C implementation.</longdescription>
+	<longdescription># deciphon-corePython wrapper around the Deciphon C library.</longdescription>
 </pkgmetadata>

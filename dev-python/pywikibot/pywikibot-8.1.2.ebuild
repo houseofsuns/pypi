@@ -6,7 +6,7 @@ EAPI=8
 REALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_9,3_10,3_11} )
+PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,6 @@ IUSE="create_isbn_edition-py eventstreams flake8 google graphviz hacking html ht
 DEPENDENCIES="dev-python/mwparserfromhell[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
 	google? ( dev-python/google[${PYTHON_USEDEP}] )
 	graphviz? ( dev-python/pydot[${PYTHON_USEDEP}] )
 	tkinter? ( dev-python/Pillow[${PYTHON_USEDEP}] )

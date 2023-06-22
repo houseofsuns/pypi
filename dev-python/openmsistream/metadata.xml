@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
-<pkgmetadata>
-	<maintainer type="person">
-		<email>gentoo@houseofsuns.org</email>
-		<name>Markus Walter</name>
-	</maintainer>
-	<longdescription>[![JOSS DOI](https://joss.theoj.org/papers/10.21105/joss.04896/status.svg)](https://doi.org/10.21105/joss.04896) ![PyPI](https://img.shields.io/pypi/v/openmsistream) ![License](https://img.shields.io/github/license/openmsi/openmsistream) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/openmsistream) ![CircleCI](https://img.shields.io/circleci/build/github/openmsi/openmsistream/main) [![Documentation Status](https://readthedocs.org/projects/openmsistream/badge/?version=latest)](https://openmsistream.readthedocs.io/en/latest/?badge=latest) [![linting: pylint](https://img.shields.io/badge/linting-pylint-yellowgreen)](https://github.com/PyCQA/pylint)Applications for laboratory, analysis, and computational materials data streaming using [Apache Kafka](https://kafka.apache.org/)Available on PyPI at https://pypi.org/project/openmsistream and GitHub at https://github.com/openmsi/openmsistream Official documentation at https://openmsistream.readthedocs.io/en/latest/Developed for Open MSI (NSF DMREF award #1921959); published in the [Journal of Open Source Software](https://doi.org/10.21105/joss.04896)</longdescription>
-</pkgmetadata>

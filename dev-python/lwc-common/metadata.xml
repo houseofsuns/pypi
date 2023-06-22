@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
-<pkgmetadata>
-	<maintainer type="person">
-		<email>gentoo@houseofsuns.org</email>
-		<name>Markus Walter</name>
-	</maintainer>
-	<longdescription># LinkedIn Web Crawler Common Library[//]: # ([![Tests]&amp;#40;https://github.com/data2bots-internal/data2bots-internship-linkedincrawler/actions/workflows/tests.yml/badge.svg?branch=develop&amp;#41;]&amp;#40;https://github.com/data2bots-internal/data2bots-internship-linkedincrawler/actions/workflows/tests.yml&amp;#41;)&lt;a href=&quot;https://data2bots.com/&quot;&gt;&lt;img src=&quot;https://res.cloudinary.com/kolaisaac10/image/upload/v1632051038/samples/Companies/data2bots_mjqhxe.png&quot; alt=&quot;Data2Bots&quot; width=&quot;120&quot; height=&quot;45&quot; /&gt; &lt;/a&gt;*Data2Bots...Human capital is the greatest asset*---- Inputs a search parameter on Google (e.g. &quot;Data Engineer&quot;)- Logins in to LinkedIn (www.linkedin.com/login)- Crawls individual LinkedIn URLs based on the search result### Special thanks to the Data Engineering Team at Data2Bots</longdescription>
-</pkgmetadata>

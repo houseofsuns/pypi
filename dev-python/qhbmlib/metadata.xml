@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
-<pkgmetadata>
-	<maintainer type="person">
-		<email>gentoo@houseofsuns.org</email>
-		<name>Markus Walter</name>
-	</maintainer>
-	<longdescription># QHBM LibraryThis repository is a collection of tools for building and trainingQuantum Hamiltonian-Based Models.  These tools depend on[TensorFlow Quantum](https://www.tensorflow.org/quantum),and are thus compatible with both real and simulated quantum computers.[Installation instructions](https://github.com/google/qhbm-library/blob/main/docs/INSTALL.md) and [contribution instructions](https://github.com/google/qhbm-library/blob/main/docs/contributing.md) can be found in the docs folder.This is not an officially supported Google product.</longdescription>
-</pkgmetadata>

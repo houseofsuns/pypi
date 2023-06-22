@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
-<pkgmetadata>
-	<maintainer type="person">
-		<email>gentoo@houseofsuns.org</email>
-		<name>Markus Walter</name>
-	</maintainer>
-	<longdescription># blissdataThe `blissdata` library provides access to:* all data produced by Bliss acquisitions (Redis database 1)* all public device settings (Redis database 0)* beamline configuration (Beacon server)## Receive data from Bliss acquisitions```pythonimport gevent.monkeygevent.monkey.patch_all()from blissdata.client import configure_with_beacon_addressfrom blissdata.data.node import get_session_nodeconfigure_with_beacon_address(&quot;localhost&quot;, 10001)node = get_session_node(&quot;demo_session&quot;)for event in node.walk_on_new_events():    print(event)```## Pypi installation```bashpython3 -m pip install blissdata[test]```The installation can be tested when installed with the `test` option```bashpython3 -m pytest --pyargs blissdata```Note for installation on Linux: the `pytango` dependency requiresthe following system packages (Ubuntu) to be installed```bashsudo apt updatesudo apt install libboost-python-dev libtango-dev```## Conda installation```bashconda install blissdata -c esrf-bcu```</longdescription>
-</pkgmetadata>

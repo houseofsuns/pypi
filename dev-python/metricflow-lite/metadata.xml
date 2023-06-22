@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
-<pkgmetadata>
-	<maintainer type="person">
-		<email>gentoo@houseofsuns.org</email>
-		<name>Markus Walter</name>
-	</maintainer>
-	<longdescription>**Note**This is not the full [MetricFlow](https://github.com/transform-data/metricflow/) package, this is MetricFlow-Lite. MetricFlow-Lite is a forked version of MetricFlow with some deps removed.**Warning**MetricFlow-Lite is not supported. I.e., issues/bugs/change requests should happen on the full [MetricFlow](https://github.com/transform-data/metricflow/) pacakge. # Welcome to MetricFlow-LiteMetricFlow-Lite is a forked version of MetricFlow with data warehouse connector dependencies removed. This necessary for some of our (Transform) internal projects. ## LicenseMetricFlow-Lite is open source software. The project relies on several licenses including AGPL-3.0-or-later and Apache (specified at folder level).MetricFlow-Lite is built by [Transform](https://transform.co/)</longdescription>
-</pkgmetadata>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
-<pkgmetadata>
-	<maintainer type="person">
-		<email>gentoo@houseofsuns.org</email>
-		<name>Markus Walter</name>
-	</maintainer>
-	<longdescription># Njinn Worker## InstallationYou can install the Njinn Worker from [PyPI](https://pypi.org/project/njinn_worker/):    pip install njinn-workerThe worker is supported on Python 3.7 and above.## UsageWorker registration    njinn-worker &lt;registration_token&gt;If it's already registered you can run the worker by calling    njinn-worker## DockerThe Njinn Worker is also available from dockerhub as njinn/worker. You can also set the registration key via the environment variable `NJINN_WORKER_TOKEN` </longdescription>
-</pkgmetadata>

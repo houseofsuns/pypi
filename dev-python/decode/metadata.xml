@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
-<pkgmetadata>
-	<maintainer type="person">
-		<email>gentoo@houseofsuns.org</email>
-		<name>Markus Walter</name>
-	</maintainer>
-	<longdescription># De:code[![Release](https://img.shields.io/pypi/v/decode?label=Release&amp;color=cornflowerblue&amp;style=flat-square)](https://pypi.org/pypi/decode/)[![Python](https://img.shields.io/pypi/pyversions/decode?label=Python&amp;color=cornflowerblue&amp;style=flat-square)](https://pypi.org/pypi/decode/)[![Downloads](https://img.shields.io/pypi/dm/decode?label=Downloads&amp;color=cornflowerblue&amp;style=flat-square)](https://pepy.tech/project/decode)[![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.3384216-cornflowerblue?style=flat-square)](https://doi.org/10.5281/zenodo.3384216)[![Tests](https://img.shields.io/github/workflow/status/deshima-dev/decode/Tests?label=Tests&amp;style=flat-square)](https://github.com/deshima-dev/decode/actions/tests.yml)DESHIMA code for data analysis## Installation```shell$ pip install decode```</longdescription>
-</pkgmetadata>

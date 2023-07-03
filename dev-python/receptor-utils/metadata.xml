@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># receptor_utilsSome tools I find useful for working with Ig receptor sequences, including support for allele sequence naming and the creation of custom IgBlast databases. Please see the [documentation](https://williamdlees.github.io/receptor_utils/_build/html/introduction.html)for further details.</longdescription>
+	<longdescription># receptor_utilsSome tools I find useful for working with Ig receptor sequences, including support for allele sequence naming and the creation of custom IgBlast databases. Please see the [documentation](https://williamdlees.github.io/receptor_utils/_build/html/introduction.html)for further details.Changes in version 0.0.38:Improve reporting of issues with conserved residuesChange URL for fetching IMGT reference sets to use https</longdescription>
 </pkgmetadata>

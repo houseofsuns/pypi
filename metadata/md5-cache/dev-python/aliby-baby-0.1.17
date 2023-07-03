@@ -1,0 +1,15 @@
+BDEPEND=dev-python/numpy[python_targets_python3_10(-)?] dev-python/pandas[python_targets_python3_10(-)?] dev-python/tqdm[python_targets_python3_10(-)?] dev-python/matplotlib[python_targets_python3_10(-)?] dev-python/scikit-image[python_targets_python3_10(-)?] dev-python/scikit-learn[python_targets_python3_10(-)?] dev-python/ray[python_targets_python3_10(-)?] dev-python/Pillow[python_targets_python3_10(-)?] dev-python/imageio[python_targets_python3_10(-)?] dev-python/tensorflow[python_targets_python3_10(-)?] dev-python/xgboost[python_targets_python3_10(-)?] dev-python/tune-sklearn[python_targets_python3_10(-)?] dev-python/colorama[python_targets_python3_10(-)?] dev-python/keras-tuner[python_targets_python3_10(-)?] dev-python/protobuf[python_targets_python3_10(-)?] dev-python/scikit-plot[python_targets_python3_10(-)?] dev-python/hpbandster[python_targets_python3_10(-)?] dev-python/configspace[python_targets_python3_10(-)?] python_targets_python3_10? ( >=dev-lang/python-3.10.11:3.10 ) >=dev-python/gpep517-13[python_targets_python3_10(-)?]
+DEFINED_PHASES=compile configure install prepare test unpack
+DESCRIPTION=Birth Annotator for Budding Yeast
+EAPI=8
+INHERIT=python-r1 gs-pypi
+IUSE=python_targets_python3_10
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=dev-python/numpy[python_targets_python3_10(-)?] dev-python/pandas[python_targets_python3_10(-)?] dev-python/tqdm[python_targets_python3_10(-)?] dev-python/matplotlib[python_targets_python3_10(-)?] dev-python/scikit-image[python_targets_python3_10(-)?] dev-python/scikit-learn[python_targets_python3_10(-)?] dev-python/ray[python_targets_python3_10(-)?] dev-python/Pillow[python_targets_python3_10(-)?] dev-python/imageio[python_targets_python3_10(-)?] dev-python/tensorflow[python_targets_python3_10(-)?] dev-python/xgboost[python_targets_python3_10(-)?] dev-python/tune-sklearn[python_targets_python3_10(-)?] dev-python/colorama[python_targets_python3_10(-)?] dev-python/keras-tuner[python_targets_python3_10(-)?] dev-python/protobuf[python_targets_python3_10(-)?] dev-python/scikit-plot[python_targets_python3_10(-)?] dev-python/hpbandster[python_targets_python3_10(-)?] dev-python/configspace[python_targets_python3_10(-)?] python_targets_python3_10? ( >=dev-lang/python-3.10.11:3.10 )
+REQUIRED_USE=|| ( python_targets_python3_10 )
+RESTRICT=test
+SLOT=0
+SRC_URI=https://files.pythonhosted.org/packages/0b/10/5882cc4fcb89d4b7a5ab0c6adffd1921ba563ff487360e9350b6622ae51a/aliby_baby-0.1.17.tar.gz
+_eclasses_=out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	bddcb51b74f4a76724ff7cf8e7388869	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	a34d5f83235297b76d71eaf8deb53768	python-r1	3c6cd0f418ba702c186a9865b85e704d	ninja-utils	76050953ad5b70d7e09a6ca55558db92	gs-distutils-r1	d318092e5a4fd070d9e4ffcefb3d054f	g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	gs-pypi	5d35493d186e30ccb1242b91abc6a312
+_md5_=4c50fa5b157ded802f0096d6574fc46f

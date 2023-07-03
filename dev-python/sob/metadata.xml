@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># sob[![test-distribute](https://github.com/enorganic/sob/actions/workflows/test-distribute.yml/badge.svg)](https://github.com/enorganic/sob/actions/workflows/test-distribute.yml)`sob` is an object serialization/deserialization library intended to facilitateauthoring of API models which are readable and introspective, and to expeditecode and data validation and testing.</longdescription>
+	<longdescription># sob[![test](https://github.com/enorganic/sob/actions/workflows/test.yml/badge.svg)](https://github.com/enorganic/sob/actions/workflows/test.yml)[![distribute](https://github.com/enorganic/sob/actions/workflows/distribute.yml/badge.svg)](https://github.com/enorganic/sob/actions/workflows/distribute.yml)`sob` is an object serialization/deserialization library intended to facilitateauthoring of API models which are readable and introspective, and to expeditecode and data validation and testing.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>### cgepy // 0.7.0###### A simple graphics engine with no dependencies.***cgePy, or cge, is a text-based graphics engine that can operate in the console or terminal.\Currently with zero dependencies, a simple system that can suit many needs, and easily tweaked settings, cgePy will allow you to turn ideas into reality.</longdescription>
+	<longdescription>### cgepy // 0.7.1##### A lightweight 8-bit graphics engine***###### Documentation: https://cgepy.github.io/docsLooking for something simple to use? Want to use a reliable package for once?\cgepy's got you covered.Featuring a powerful, but easy-to-use system, you can make fun games with cgepy.\Though cgepy lacks many things like mouse support and native keyboard support, it is ever growing and will soon have so many features in place of those, while maintaining that same speed and reliablility.</longdescription>
 </pkgmetadata>

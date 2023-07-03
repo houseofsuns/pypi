@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Sodium v2.50[![Documentation Status](https://readthedocs.org/projects/libsodium/badge/?version=latest)](https://libsodium.readthedocs.io/en/latest/?badge=latest)![PyPI](https://img.shields.io/pypi/v/libsodium)Sodium is a WSGI web framework(like django) that is built for creating API's.# InstalationLinux/MacOS:```pip3 install libsodium```Windows:```pip install libsodium```# DocumentationRead our Documentation at &lt;a&gt;https://libsodium.readthedocs.io/en/latest/&lt;/a&gt;</longdescription>
+	<longdescription># Sodium v2.52[![Documentation Status](https://readthedocs.org/projects/libsodium/badge/?version=latest)](https://libsodium.readthedocs.io/en/latest/?badge=latest)![PyPI](https://img.shields.io/pypi/v/libsodium)Sodium is a WSGI web framework(like django) that is built for creating API's.# InstalationLinux/MacOS:```pip3 install libsodium```Windows:```pip install libsodium```# DocumentationRead our Documentation at &lt;a&gt;https://libsodium.readthedocs.io/en/latest/&lt;/a&gt;</longdescription>
 </pkgmetadata>

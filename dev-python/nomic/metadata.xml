@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>The offical Nomic python client.</longdescription>
+	<longdescription>The official Nomic python client.</longdescription>
 </pkgmetadata>

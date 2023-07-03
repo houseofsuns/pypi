@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## IntroductionThe SAP Federated ML Python library for Databricks applies the Data Federation architecture of SAP Datasphere for intelligently sourcing SAP as well as non-SAP data for Machine Learning experiments done in Databricks, thereby removing the need for replicating or moving the data. By abstracting the Data Connection, Data load, Model Deployment in SAP environment, and Inferencing for Machine learning processes , the FedML Databricks library provides end to end integration with few lines of code.## InstallationInstall the SAP FedML Databricks library using pip as follows:`pip install fedml-databricks`## Documentation and getting startedFor getting started with the SAP FedML Databricks Library and for documentation and sample notebooks, please refer the SAP FedML Databricks github page [link](https://github.com/SAP-samples/data-warehouse-cloud-fedml/tree/main/Databricks)</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="Grains of Python"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/68/90/a8727c49ad48e7177858d7538e3c35e8545b2826226a7d422862726da355/python_grains-${REALVERSION}.tar.gz"
-SOURCEFILE="python_grains-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/68/90/a8727c49ad48e7177858d7538e3c35e8545b2826226a7d422862726da355/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

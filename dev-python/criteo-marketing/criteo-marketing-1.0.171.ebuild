@@ -15,8 +15,8 @@ DESCRIPTION="Marketing API v.1.0"
 
 HOMEPAGE="https://github.com/criteo/criteo-python-marketing-sdk"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8c/19/0a337579b66b4d0143210a840e11c8b7c26e0c39f99e161248afaa564232/criteo_marketing-${REALVERSION}.tar.gz"
-SOURCEFILE="criteo_marketing-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8c/19/0a337579b66b4d0143210a840e11c8b7c26e0c39f99e161248afaa564232/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

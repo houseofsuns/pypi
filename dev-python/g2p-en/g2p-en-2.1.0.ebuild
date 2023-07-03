@@ -15,8 +15,8 @@ DESCRIPTION="A Simple Python Module for English Grapheme To Phoneme Conversion"
 
 HOMEPAGE="https://github.com/Kyubyong/g2p"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/5f/22/2c7acbe6164ed6cfd4301e9ad2dbde69c68d22268a0f9b5b0ee6052ed3ab/g2p_en-${REALVERSION}.tar.gz"
-SOURCEFILE="g2p_en-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5f/22/2c7acbe6164ed6cfd4301e9ad2dbde69c68d22268a0f9b5b0ee6052ed3ab/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

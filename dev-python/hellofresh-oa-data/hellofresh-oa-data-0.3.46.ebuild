@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/hellofresh/us-ops-tech-scripts/hellofresh-oa-data"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2f/e1/4303b39b418f8f6c06e623535722dcde34ac9982a13b668fff2102ae93e5/hellofresh_oa_data-${REALVERSION}.tar.gz"
-SOURCEFILE="hellofresh_oa_data-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2f/e1/4303b39b418f8f6c06e623535722dcde34ac9982a13b668fff2102ae93e5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

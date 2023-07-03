@@ -15,8 +15,8 @@ DESCRIPTION="Clients for Arbache's APIs"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/43/3b/c9bb59b6c0cf0c3e7b87900747d3ce0ef74157756c2c032fe1fab96232b3/tapioca_arbache-${REALVERSION}.tar.gz"
-SOURCEFILE="tapioca_arbache-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/43/3b/c9bb59b6c0cf0c3e7b87900747d3ce0ef74157756c2c032fe1fab96232b3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

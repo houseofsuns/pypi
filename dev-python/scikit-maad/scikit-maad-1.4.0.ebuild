@@ -15,8 +15,8 @@ DESCRIPTION="Open-source and modular toolbox for quantitative soundscape analysi
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ec/b7/3b8eb7ef97e460329c7915337a99e0cf0f29f049069d4eaf367706896c9d/scikit_maad-${REALVERSION}.tar.gz"
-SOURCEFILE="scikit_maad-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ec/b7/3b8eb7ef97e460329c7915337a99e0cf0f29f049069d4eaf367706896c9d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

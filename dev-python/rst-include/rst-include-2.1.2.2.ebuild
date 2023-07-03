@@ -15,8 +15,8 @@ DESCRIPTION="commandline tool to resolve RST File includes"
 
 HOMEPAGE="https://github.com/bitranox/rst_include"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/85/4d/ca19c4a0e9e0a0fea07dc21f45eaf7644b1cc0207fb1448076f1daff7339/rst_include-${REALVERSION}.tar.gz"
-SOURCEFILE="rst_include-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/85/4d/ca19c4a0e9e0a0fea07dc21f45eaf7644b1cc0207fb1448076f1daff7339/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

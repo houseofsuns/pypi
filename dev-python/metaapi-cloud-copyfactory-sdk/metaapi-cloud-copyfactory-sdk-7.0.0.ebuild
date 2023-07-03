@@ -15,8 +15,8 @@ DESCRIPTION="Python SDK for SDK for CopyFactory trade copying API. Can copy trad
 
 HOMEPAGE="https://github.com/agiliumtrade-ai/copyfactory-python-sdk"
 LICENSE="SEE LICENSE IN LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/a5/4b/1fe897e59d7c49ac56acfb3af223c6304ace94cf2c123908c6669427f4aa/metaapi_cloud_copyfactory_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="metaapi_cloud_copyfactory_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a5/4b/1fe897e59d7c49ac56acfb3af223c6304ace94cf2c123908c6669427f4aa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

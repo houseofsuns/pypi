@@ -15,8 +15,8 @@ DESCRIPTION="In this lib some base objects under concept ddd are defined"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ee/40/0f565ed1ba98e1864e98b136abd3b5424f16758745cb6764f43498213460/ddd_objects-${REALVERSION}.tar.gz"
-SOURCEFILE="ddd_objects-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ee/40/0f565ed1ba98e1864e98b136abd3b5424f16758745cb6764f43498213460/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

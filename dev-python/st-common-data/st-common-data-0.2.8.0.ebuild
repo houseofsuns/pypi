@@ -15,8 +15,8 @@ DESCRIPTION="Data that is used in different ST projects"
 
 HOMEPAGE="https://github.com/ivanovds/st_common_data"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bd/fc/447c2bfe8d8e37b06dcad7241a7c45ef599cbe510c209a826623d8e9c020/st_common_data-${REALVERSION}.tar.gz"
-SOURCEFILE="st_common_data-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bd/fc/447c2bfe8d8e37b06dcad7241a7c45ef599cbe510c209a826623d8e9c020/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

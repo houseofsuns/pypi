@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ink_extensionsPython dependencies for running [Inkscape](https://inkscape.org) extensions outside of InkscapeUse pip to install:pip install ink_extensionshttps://pypi.org/project/ink-extensions/----Files in the `ink_extensions` dir were initially forked from Inkscape 0.91,and modified slightly to allow operation under both python 2.x and 3.x.Files in `ink_extensions_utils` are written for this package.License: GPL v2.</longdescription>
+</pkgmetadata>

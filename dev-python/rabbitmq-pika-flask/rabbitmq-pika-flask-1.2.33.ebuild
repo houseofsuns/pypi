@@ -15,8 +15,8 @@ DESCRIPTION="Adapter for RabbitMQs pika and flask"
 
 HOMEPAGE="https://github.com/aylton-almeida/rabbitmq-pika-flask"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e6/95/71f643445d3db064c7a6fbbf1acf0d992fa257ce245d36403cf5d7b6727a/rabbitmq_pika_flask-${REALVERSION}.tar.gz"
-SOURCEFILE="rabbitmq_pika_flask-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e6/95/71f643445d3db064c7a6fbbf1acf0d992fa257ce245d36403cf5d7b6727a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

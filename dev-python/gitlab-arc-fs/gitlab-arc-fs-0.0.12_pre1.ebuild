@@ -15,8 +15,8 @@ DESCRIPTION="An experimental and readonly gitlab filesystem extension for PyFile
 
 HOMEPAGE="https://git.bwcloud.uni-freiburg.de/julian.weidhase/GitlabFS"
 LICENSE="MY LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/4a/2a/f2d31e9ed93a8865125b58a154e284a38a9d08f88a8932be432274a04cb0/gitlab_arc_fs-${REALVERSION}.tar.gz"
-SOURCEFILE="gitlab_arc_fs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4a/2a/f2d31e9ed93a8865125b58a154e284a38a9d08f88a8932be432274a04cb0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

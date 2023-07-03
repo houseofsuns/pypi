@@ -15,8 +15,8 @@ DESCRIPTION="BERT for Multi-task Learning"
 
 HOMEPAGE="https://github.com/JayYip/bert-multitask-learning"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/55/9d/12581fd57c88e19308746a67f1d76f6356c91cbcbd1d123ec346c4e35620/bert_multitask_learning-${REALVERSION}.tar.gz"
-SOURCEFILE="bert_multitask_learning-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/55/9d/12581fd57c88e19308746a67f1d76f6356c91cbcbd1d123ec346c4e35620/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

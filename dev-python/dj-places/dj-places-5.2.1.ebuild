@@ -15,8 +15,8 @@ DESCRIPTION="A django app for store places using Google Maps API"
 
 HOMEPAGE="http://oscarmcm.github.io/django-places/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e9/28/d9a9ee710a7fd16e1ee6915885c6179db6345f8095399dc9f3435f450c70/dj_places-${REALVERSION}.tar.gz"
-SOURCEFILE="dj_places-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e9/28/d9a9ee710a7fd16e1ee6915885c6179db6345f8095399dc9f3435f450c70/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

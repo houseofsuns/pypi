@@ -15,8 +15,8 @@ DESCRIPTION="ENOS Docs theme for Sphinx"
 
 HOMEPAGE="https://github.com/TRoam/sphinx_enos_theme/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/27/e3/9d38409f737e0749e44a080e00fe9555df38e410e87d8b11e298a2ea53b7/sphinx_enos_theme-${REALVERSION}.tar.gz"
-SOURCEFILE="sphinx_enos_theme-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/27/e3/9d38409f737e0749e44a080e00fe9555df38e410e87d8b11e298a2ea53b7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

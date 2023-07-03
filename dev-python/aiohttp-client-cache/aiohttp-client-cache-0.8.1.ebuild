@@ -15,8 +15,8 @@ DESCRIPTION="Persistent cache for aiohttp requests"
 
 HOMEPAGE="https://github.com/requests-cache/aiohttp-client-cache"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/12/3a/3be445b1c587b61f85a680e2a1b4ba20b35e8f003dfc50b66fd61d7fcffa/aiohttp_client_cache-${REALVERSION}.tar.gz"
-SOURCEFILE="aiohttp_client_cache-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/12/3a/3be445b1c587b61f85a680e2a1b4ba20b35e8f003dfc50b66fd61d7fcffa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

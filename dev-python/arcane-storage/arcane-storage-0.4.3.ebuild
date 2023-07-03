@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b5/e5/57dd281a6d1d1792db1bb832784cef1d822b94052d3378fbf0481144eb65/arcane_storage-${REALVERSION}.tar.gz"
-SOURCEFILE="arcane_storage-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b5/e5/57dd281a6d1d1792db1bb832784cef1d822b94052d3378fbf0481144eb65/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

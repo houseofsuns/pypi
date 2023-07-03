@@ -15,8 +15,8 @@ DESCRIPTION="SQLAlchemy informix backend"
 
 HOMEPAGE="https://gitlab.com/apollo13/sqlalchemy-informix"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/59/97/f1f102d5ccd6a54e94014053bfdc6d4c601680ceee90656c06aa951a3e8d/sqlalchemy_informix-${REALVERSION}.tar.gz"
-SOURCEFILE="sqlalchemy_informix-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/59/97/f1f102d5ccd6a54e94014053bfdc6d4c601680ceee90656c06aa951a3e8d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

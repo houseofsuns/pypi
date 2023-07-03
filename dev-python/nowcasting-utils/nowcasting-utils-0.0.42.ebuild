@@ -15,8 +15,8 @@ DESCRIPTION="Nowcasting Utilities"
 
 HOMEPAGE="https://github.com/openclimatefix/nowcasting_utils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6a/52/f5ae1a5f8a2d4dfe7cc15c7aaea3a2df759ecafeb34ea0671043f83cdbac/nowcasting_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="nowcasting_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6a/52/f5ae1a5f8a2d4dfe7cc15c7aaea3a2df759ecafeb34ea0671043f83cdbac/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="This is API mode installer for Naruno"
 
 HOMEPAGE="https://docs.naruno.org/"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/46/20/16d3397e308f8d8c3e8e5e1d2c6b1541fb958f5e3222e49966d07c55324c/naruno_api-${REALVERSION}.tar.gz"
-SOURCEFILE="naruno_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/46/20/16d3397e308f8d8c3e8e5e1d2c6b1541fb958f5e3222e49966d07c55324c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

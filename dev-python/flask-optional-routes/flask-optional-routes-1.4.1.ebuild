@@ -15,8 +15,8 @@ DESCRIPTION="This package allows you to specify optional routes in a url path"
 
 HOMEPAGE="https://github.com/sudouser2010/flask_optional_routes"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0e/32/f709b6115a690b3f336f0f954cfc8a9823eaa526b0897685bd18166fe98a/flask_optional_routes-${REALVERSION}.tar.gz"
-SOURCEFILE="flask_optional_routes-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0e/32/f709b6115a690b3f336f0f954cfc8a9823eaa526b0897685bd18166fe98a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

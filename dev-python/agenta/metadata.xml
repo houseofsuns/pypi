@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Agenta SDK and CLI This directory contains the code source for the python SDK and CLI for Agenta AI.Please see the Readme.md in the main dir for installation and usage instructions.</longdescription>
+</pkgmetadata>

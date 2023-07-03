@@ -15,8 +15,8 @@ DESCRIPTION="An AIOHTTP based Python REST client for the Docker Registry."
 
 HOMEPAGE="https://github.com/crashvb/docker-registry-client-async"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/11/6c/89b43f3732b186b550673d70fd11499b46ed13af5da278358b5dbb09cce3/docker_registry_client_async-${REALVERSION}.tar.gz"
-SOURCEFILE="docker_registry_client_async-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/11/6c/89b43f3732b186b550673d70fd11499b46ed13af5da278358b5dbb09cce3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

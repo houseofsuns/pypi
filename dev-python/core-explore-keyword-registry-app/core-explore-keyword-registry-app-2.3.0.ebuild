@@ -15,8 +15,8 @@ DESCRIPTION="Exploration by keywords for the registry project"
 
 HOMEPAGE="https://github.com/usnistgov/core_explore_keyword_registry_app"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0f/bb/a4aba641addd701ebc36e693c1ad59f738d9a1980fe1c88ccf54df3f7aa3/core_explore_keyword_registry_app-${REALVERSION}.tar.gz"
-SOURCEFILE="core_explore_keyword_registry_app-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0f/bb/a4aba641addd701ebc36e693c1ad59f738d9a1980fe1c88ccf54df3f7aa3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

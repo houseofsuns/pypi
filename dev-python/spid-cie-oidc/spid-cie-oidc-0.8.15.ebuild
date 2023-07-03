@@ -15,8 +15,8 @@ DESCRIPTION="SPID/CIE OIDC Federation Entity"
 
 HOMEPAGE="https://github.com/peppelinux/spid-cie-oidc"
 LICENSE="License :: OSI Approved :: Apache Software License"
-SRC_URI="https://files.pythonhosted.org/packages/71/53/914f05533913f7b3cf861254facb1273162c89c4f143bcbd2baabc1f1e92/spid_cie_oidc-${REALVERSION}.tar.gz"
-SOURCEFILE="spid_cie_oidc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/71/53/914f05533913f7b3cf861254facb1273162c89c4f143bcbd2baabc1f1e92/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

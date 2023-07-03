@@ -15,8 +15,8 @@ DESCRIPTION="Python AMQP Client Library"
 
 HOMEPAGE="https://github.com/nutes-uepb/amqp-client-python"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ec/39/45ac60f691d1c2beb18e386aefbfe7140bedf204972928f9da6decc4fb37/amqp_client_python-${REALVERSION}.tar.gz"
-SOURCEFILE="amqp_client_python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ec/39/45ac60f691d1c2beb18e386aefbfe7140bedf204972928f9da6decc4fb37/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

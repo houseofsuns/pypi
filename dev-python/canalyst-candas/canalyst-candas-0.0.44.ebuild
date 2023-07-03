@@ -15,8 +15,8 @@ DESCRIPTION="The official Canalyst Software Development Kit (SDK) for our public
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/7e/c0/4b10cfaae0448a39d8fcc45b3e21a95b12ec4bdbd2a10b68819bed2f6f7e/canalyst_candas-${REALVERSION}.tar.gz"
-SOURCEFILE="canalyst_candas-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7e/c0/4b10cfaae0448a39d8fcc45b3e21a95b12ec4bdbd2a10b68819bed2f6f7e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Python Package with fast math util functions"
 
 HOMEPAGE="https://github.com/rtosholdings/riptide_cpp"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c9/a6/8d6e997ca7624d512bcf7d2f46990a56f56297d79550ba1a49f16cb65a3c/riptide_cpp-${REALVERSION}.tar.gz"
-SOURCEFILE="riptide_cpp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c9/a6/8d6e997ca7624d512bcf7d2f46990a56f56297d79550ba1a49f16cb65a3c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

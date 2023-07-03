@@ -15,8 +15,8 @@ DESCRIPTION="Full and natural support for enumerations as Django model fields."
 
 HOMEPAGE="https://django-enum.readthedocs.io"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/57/6b/d1cc5a44bde7af9886d4ad527bc39039b65423e00e1e26d16918fedc69f1/django_enum-${REALVERSION}.tar.gz"
-SOURCEFILE="django_enum-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/57/6b/d1cc5a44bde7af9886d4ad527bc39039b65423e00e1e26d16918fedc69f1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Security Advisor API Client SDK"
 
 HOMEPAGE="https://github.com/ibm-cloud-security/security-advisor-sdk-python/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/26/cb/93feed2751ad3ab7da5b0b2444b7ea8d5b11b7e0b8efef9be700d0c09d28/ibm_cloud_security_advisor-${REALVERSION}.tar.gz"
-SOURCEFILE="ibm_cloud_security_advisor-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/26/cb/93feed2751ad3ab7da5b0b2444b7ea8d5b11b7e0b8efef9be700d0c09d28/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># SessyPyA python wrapper for Sessy's local REST api.[![PyPI Build &amp; Publish](https://github.com/PimDoos/sessypy/actions/workflows/python-publish.yml/badge.svg)](https://github.com/PimDoos/sessypy/actions/workflows/python-publish.yml)Installation============Automatic installation----------------------Install the package via PyPI:```pip install sessypy```Manual installation-------------------```git clone https://github.com/PimDoos/sessypypip install ./sessypy```</longdescription>
+</pkgmetadata>

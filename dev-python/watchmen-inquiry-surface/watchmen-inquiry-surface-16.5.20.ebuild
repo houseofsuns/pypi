@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/31/39/16967b985ca1debf119d0ffed2c0b847cbcdc3eb0958a377a94ed03d5c98/watchmen_inquiry_surface-${REALVERSION}.tar.gz"
-SOURCEFILE="watchmen_inquiry_surface-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/31/39/16967b985ca1debf119d0ffed2c0b847cbcdc3eb0958a377a94ed03d5c98/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

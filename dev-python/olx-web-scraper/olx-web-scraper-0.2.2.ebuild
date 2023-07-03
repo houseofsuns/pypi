@@ -15,8 +15,8 @@ DESCRIPTION="Use python to scrap for listings on olx.in based on search query."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9a/62/9f939a5af8e0143a510d4de1bdfcadc653e31456b9353551e5f3fccea181/olx_web_scraper-${REALVERSION}.tar.gz"
-SOURCEFILE="olx_web_scraper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9a/62/9f939a5af8e0143a510d4de1bdfcadc653e31456b9353551e5f3fccea181/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Parse OpenEO process graphs from JSON to traversible Python objects
 
 HOMEPAGE="https://github.com/Open-EO/openeo-pg-parser-networkx"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/6a/13/2e05aa7665568199a50f4a5942db678cb8f65c1e1b592572fb1adcebdee0/openeo_pg_parser_networkx-${REALVERSION}.tar.gz"
-SOURCEFILE="openeo_pg_parser_networkx-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6a/13/2e05aa7665568199a50f4a5942db678cb8f65c1e1b592572fb1adcebdee0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

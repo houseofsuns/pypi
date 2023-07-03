@@ -15,8 +15,8 @@ DESCRIPTION="CLI for prettifying Python"
 
 HOMEPAGE="http://www.codeberg/cap_jmk/prettify-py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/09/fa/8523d83701a2a2a65e0f7ba7d56ef5f1968726e6642d1b29944f2bdb31f0/prettify_py-${REALVERSION}.tar.gz"
-SOURCEFILE="prettify_py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/09/fa/8523d83701a2a2a65e0f7ba7d56ef5f1968726e6642d1b29944f2bdb31f0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

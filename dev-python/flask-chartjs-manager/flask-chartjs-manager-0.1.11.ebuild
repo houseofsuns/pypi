@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/SebaSalinass/flask-chartjs"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/81/db/48e72de72e5db704444f9e2ebac6f3ce1ff51db75b7099db4fb0bdfc2f75/flask_chartjs_manager-${REALVERSION}.tar.gz"
-SOURCEFILE="flask_chartjs_manager-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/81/db/48e72de72e5db704444f9e2ebac6f3ce1ff51db75b7099db4fb0bdfc2f75/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Sphinx needs extension for managing needs/requirements and specific
 
 HOMEPAGE="http://github.com/useblocks/sphinx-needs"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2e/6a/c662113decc734c7c89de706151cd91296a087401de68b15a550e3e87e5a/sphinx_needs-${REALVERSION}.tar.gz"
-SOURCEFILE="sphinx_needs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2e/6a/c662113decc734c7c89de706151cd91296a087401de68b15a550e3e87e5a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

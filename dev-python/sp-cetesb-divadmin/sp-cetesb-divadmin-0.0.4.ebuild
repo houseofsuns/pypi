@@ -15,8 +15,8 @@ DESCRIPTION="Dados Espaciais da Divisão Administrativa da CETESB, por meio de s
 
 HOMEPAGE="https://github.com/open-geodata/sp_cetesb_divadmin"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a0/d1/f477c7a7bfae631b41f12e93470257826ff57fdb25090e033f8a25a09662/sp_cetesb_divadmin-${REALVERSION}.tar.gz"
-SOURCEFILE="sp_cetesb_divadmin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a0/d1/f477c7a7bfae631b41f12e93470257826ff57fdb25090e033f8a25a09662/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

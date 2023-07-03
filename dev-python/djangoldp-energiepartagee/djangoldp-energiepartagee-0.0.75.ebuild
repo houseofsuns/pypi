@@ -15,8 +15,8 @@ DESCRIPTION="Custom DjangoLDP based package for Energie Partagee"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/26/ca/620cbe5195b65318e63d806b5436782f5fc54fb1440760584095caf81718/djangoldp_energiepartagee-${REALVERSION}.tar.gz"
-SOURCEFILE="djangoldp_energiepartagee-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/26/ca/620cbe5195b65318e63d806b5436782f5fc54fb1440760584095caf81718/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

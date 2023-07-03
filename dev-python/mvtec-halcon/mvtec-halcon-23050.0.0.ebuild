@@ -15,8 +15,8 @@ DESCRIPTION="Native Python language bindings for MVTec HALCON."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e8/61/f8df70b5ee30d09c0948c4b651c483da2b431f1637f488c7b0c3630471f8/mvtec_halcon-${REALVERSION}.tar.gz"
-SOURCEFILE="mvtec_halcon-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e8/61/f8df70b5ee30d09c0948c4b651c483da2b431f1637f488c7b0c3630471f8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

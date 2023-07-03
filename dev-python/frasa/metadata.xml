@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Frasa's NLP ServicesFrasa is a collection of modules which provides various functions for Natural Language Processing for Bahasa Indonesia. This repository contains all source code related to NLP services.## InstallationTo use this `Frasa`, just install it as usually you did:```pip install frasa```## DocumentationYou can find installation instructions and detailed instructions on how to use this package at [the dedicated documentation site](https://frasa.btekno.id/).## Whatelse ?Soon. Drafting.## LicenseThe MIT License (MIT). Please see [License File](LICENSE.md) for more information.</longdescription>
+</pkgmetadata>

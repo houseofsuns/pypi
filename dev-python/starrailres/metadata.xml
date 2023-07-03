@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># StarRailRes-PythonA python library for StarRailRes.## Installation```bashpip install starrailres```## Usage```pythonfrom pathlib import Pathfrom starrailres import CharacterBasicInfo, Index, LevelInfo# replace with index folderindex = Index(Path(&quot;index&quot;) / &quot;en&quot;)basic = CharacterBasicInfo(    id=&quot;1102&quot;,    rank=0,    level=70,    promotion=5,    skill_tree_levels=[        LevelInfo(id=&quot;1102001&quot;, level=2),        LevelInfo(id=&quot;1102002&quot;, level=5),        LevelInfo(id=&quot;1102003&quot;, level=6),        LevelInfo(id=&quot;1102004&quot;, level=5),        LevelInfo(id=&quot;1102007&quot;, level=1),        LevelInfo(id=&quot;1102101&quot;, level=1),        LevelInfo(id=&quot;1102102&quot;, level=1),        LevelInfo(id=&quot;1102201&quot;, level=1),        LevelInfo(id=&quot;1102202&quot;, level=1),    ],)character = index.get_character_info(basic)print(character)```For more examples, see `examples`.</longdescription>
+</pkgmetadata>

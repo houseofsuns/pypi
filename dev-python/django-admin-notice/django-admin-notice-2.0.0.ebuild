@@ -15,8 +15,8 @@ DESCRIPTION="Show a floating notice banner above the Django admon interface"
 
 HOMEPAGE="https://github.com/DoctorJohn/django-admin-notice"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/80/96/9885a5e1c307f6b0e92dd77d16e7c521c2ffedf7aebac1340eeaaf954ca6/django_admin_notice-${REALVERSION}.tar.gz"
-SOURCEFILE="django_admin_notice-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/80/96/9885a5e1c307f6b0e92dd77d16e7c521c2ffedf7aebac1340eeaaf954ca6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A tool to generate register codes."
 
 HOMEPAGE="https://github.com/zhangyiant/RegisterPrinter.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4e/06/c67b5c68629edae7e821d1de6db165679b18f8b833d9b787935e7898c735/register_printer-${REALVERSION}.tar.gz"
-SOURCEFILE="register_printer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4e/06/c67b5c68629edae7e821d1de6db165679b18f8b833d9b787935e7898c735/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

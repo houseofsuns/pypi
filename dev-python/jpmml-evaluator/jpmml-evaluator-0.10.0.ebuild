@@ -15,8 +15,8 @@ DESCRIPTION="PMML evaluator library for Python"
 
 HOMEPAGE="https://github.com/jpmml/jpmml-evaluator-python"
 LICENSE="GNU Affero General Public License AGPL version 3.0"
-SRC_URI="https://files.pythonhosted.org/packages/e2/e2/72ccf413aaf527aaf33b26eb7442a52de0f5ab4ce3c6497b531997227f85/jpmml_evaluator-${REALVERSION}.tar.gz"
-SOURCEFILE="jpmml_evaluator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e2/e2/72ccf413aaf527aaf33b26eb7442a52de0f5ab4ce3c6497b531997227f85/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Nonebot2 plugin for using ShindanMaker"
 
 HOMEPAGE="https://github.com/noneplugin/nonebot-plugin-shindan"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/56/31/b7671467383f57bf52dc87a66139ead8476e52163386a7179616d516f248/nonebot_plugin_shindan-${REALVERSION}.tar.gz"
-SOURCEFILE="nonebot_plugin_shindan-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/56/31/b7671467383f57bf52dc87a66139ead8476e52163386a7179616d516f248/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

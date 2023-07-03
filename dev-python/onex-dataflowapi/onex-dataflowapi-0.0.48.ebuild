@@ -15,8 +15,8 @@ DESCRIPTION="The Open Network Experiments (ONEx) Python Package"
 
 HOMEPAGE="https://github.com/open-network-experiments/models"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/33/7b/02f7dbb0dcf3caa705acf134d29774231b6af4bc8121da5e9dd2aac486e8/onex_dataflowapi-${REALVERSION}.tar.gz"
-SOURCEFILE="onex_dataflowapi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/33/7b/02f7dbb0dcf3caa705acf134d29774231b6af4bc8121da5e9dd2aac486e8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

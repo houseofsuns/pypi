@@ -15,8 +15,8 @@ DESCRIPTION="Python utils."
 
 HOMEPAGE="https://github.com/da-huin/simple_utils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/97/73/8e4f2e91c5bef06d5f14a4f1aab6173fb731bd1dc8a9505de0b89401298a/simple_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="simple_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/97/73/8e4f2e91c5bef06d5f14a4f1aab6173fb731bd1dc8a9505de0b89401298a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

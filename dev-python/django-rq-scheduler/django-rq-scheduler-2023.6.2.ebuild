@@ -15,8 +15,8 @@ DESCRIPTION="An async job scheduler for django using redis"
 
 HOMEPAGE="https://github.com/dsoftwareinc/django-rq-scheduler"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/05/96/71cfe1fd8099198e01c64b1ddd3a72e15f562d8d61bb358c350321c02b97/django_rq_scheduler-${REALVERSION}.tar.gz"
-SOURCEFILE="django_rq_scheduler-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/05/96/71cfe1fd8099198e01c64b1ddd3a72e15f562d8d61bb358c350321c02b97/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

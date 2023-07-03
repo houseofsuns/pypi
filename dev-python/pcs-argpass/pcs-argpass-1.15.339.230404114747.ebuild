@@ -15,8 +15,8 @@ DESCRIPTION="Argument parser and checker."
 
 HOMEPAGE="https://argpass.readthedocs.io/en/latest/index.html"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9c/e8/86161c7f162dfb9ad459d6841ac949c1a8220846f6cc4a7bc8a51c19361b/pcs_argpass-${REALVERSION}.tar.gz"
-SOURCEFILE="pcs_argpass-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9c/e8/86161c7f162dfb9ad459d6841ac949c1a8220846f6cc4a7bc8a51c19361b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

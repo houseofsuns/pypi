@@ -15,8 +15,8 @@ DESCRIPTION="take English text and convert it to IPA"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/62/3d/8656290e2d537ef66e984a04e903d1a0028ea01524e9dd89e45bb165bc7b/eng_to_ipa-${REALVERSION}.tar.gz"
-SOURCEFILE="eng_to_ipa-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/62/3d/8656290e2d537ef66e984a04e903d1a0028ea01524e9dd89e45bb165bc7b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

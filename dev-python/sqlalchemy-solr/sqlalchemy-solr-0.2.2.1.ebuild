@@ -15,8 +15,8 @@ DESCRIPTION="Apache Solr Dialect for SQLAlchemy and Apache Superset"
 
 HOMEPAGE="https://github.com/aadel/sqlalchemy-solr"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e2/f4/bcd5105daea032e10cb5aa69d07a1eeb919e762f00abacd129bebbbd93cc/sqlalchemy_solr-${REALVERSION}.tar.gz"
-SOURCEFILE="sqlalchemy_solr-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e2/f4/bcd5105daea032e10cb5aa69d07a1eeb919e762f00abacd129bebbbd93cc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

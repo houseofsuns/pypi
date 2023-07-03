@@ -15,8 +15,8 @@ DESCRIPTION="Q-CTRL Python Open Controls"
 
 HOMEPAGE="https://q-ctrl.com"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/64/07/f45932042804efbb7461c7a50f4fe607a0b0bc9975c3cb00c20b748972cb/qctrl_open_controls-${REALVERSION}.tar.gz"
-SOURCEFILE="qctrl_open_controls-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/64/07/f45932042804efbb7461c7a50f4fe607a0b0bc9975c3cb00c20b748972cb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

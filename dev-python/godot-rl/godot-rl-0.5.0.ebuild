@@ -15,8 +15,8 @@ DESCRIPTION="A Deep Reinforcement Learning package for the Godot game engine"
 
 HOMEPAGE="https://github.com/pypa/godot_rl_agents"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/28/8e/c1d1c7cafc6a6d8eb4c3646391e55d3e790b532f297402ee6490996f9a96/godot_rl-${REALVERSION}.tar.gz"
-SOURCEFILE="godot_rl-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/28/8e/c1d1c7cafc6a6d8eb4c3646391e55d3e790b532f297402ee6490996f9a96/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

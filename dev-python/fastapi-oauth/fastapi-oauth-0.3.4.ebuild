@@ -15,8 +15,8 @@ DESCRIPTION="OAuth2 Provider in FastAPI"
 
 HOMEPAGE="https://github.com/vuongtlt13/fastapi-oauth"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/64/cc/8258a4332b43f0ac440f829b2919415589957132917b0bd80475986a8df9/fastapi_oauth-${REALVERSION}.tar.gz"
-SOURCEFILE="fastapi_oauth-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/64/cc/8258a4332b43f0ac440f829b2919415589957132917b0bd80475986a8df9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

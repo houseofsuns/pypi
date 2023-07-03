@@ -15,8 +15,8 @@ DESCRIPTION="Works with cloudformation-cli-python-lib to remove duplicate code w
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7f/ab/d2c9ab05a48e55ecd11d71a02cf6edaa251ec283bc480f57bc0577985534/cfn_guard_rs_hook-${REALVERSION}.tar.gz"
-SOURCEFILE="cfn_guard_rs_hook-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7f/ab/d2c9ab05a48e55ecd11d71a02cf6edaa251ec283bc480f57bc0577985534/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

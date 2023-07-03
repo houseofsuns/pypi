@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f9/6b/490c038a3f0e51b9474b7d205e278416c1fbcbb680de1cf0b89f9a9a20b8/fastapi_resources-${REALVERSION}.tar.gz"
-SOURCEFILE="fastapi_resources-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f9/6b/490c038a3f0e51b9474b7d205e278416c1fbcbb680de1cf0b89f9a9a20b8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

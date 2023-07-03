@@ -15,8 +15,8 @@ DESCRIPTION="Tools and tutorials for voxelwise modeling"
 
 HOMEPAGE=""
 LICENSE="BSD 3-clause"
-SRC_URI="https://files.pythonhosted.org/packages/3a/8c/021879318cebf274a226df6364c7ad2d197457648d07d24411b502b2fa77/voxelwise_tutorials-${REALVERSION}.tar.gz"
-SOURCEFILE="voxelwise_tutorials-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3a/8c/021879318cebf274a226df6364c7ad2d197457648d07d24411b502b2fa77/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/db/95/24c62ce6ae9d8a087576f89dcaffbc05b3c3b2bc6d1367204a5cab570a48/prompthub_py-${REALVERSION}.tar.gz"
-SOURCEFILE="prompthub_py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/db/95/24c62ce6ae9d8a087576f89dcaffbc05b3c3b2bc6d1367204a5cab570a48/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

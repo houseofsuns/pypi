@@ -15,8 +15,8 @@ DESCRIPTION="seven framework"
 
 HOMEPAGE="http://gitlab.tdtech.gao7.com/python/seven_framework"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/71/5f/5f78473ce8155934aab035c95df4bd4e58ce70267ec5d99fc561031464c9/seven_framework-${REALVERSION}.tar.gz"
-SOURCEFILE="seven_framework-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/71/5f/5f78473ce8155934aab035c95df4bd4e58ce70267ec5d99fc561031464c9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Run Typer scripts with completion, without having to create a packa
 
 HOMEPAGE="https://github.com/tiangolo/typer-cli"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e8/71/3cd3c1c09d809f27b723e507d21ad3d41af472eff56fca9a58c06bded58d/typer_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="typer_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e8/71/3cd3c1c09d809f27b723e507d21ad3d41af472eff56fca9a58c06bded58d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

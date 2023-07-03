@@ -15,8 +15,8 @@ DESCRIPTION="Yet another moby(docker) distribution implement by python."
 
 HOMEPAGE="https://github.com/shabbywu/distribution"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f0/47/32758202bbf6587ddc36c800b1f21d6a831e69df70cdb653aeebc4e42064/moby_distribution-${REALVERSION}.tar.gz"
-SOURCEFILE="moby_distribution-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f0/47/32758202bbf6587ddc36c800b1f21d6a831e69df70cdb653aeebc4e42064/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

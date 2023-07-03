@@ -15,8 +15,8 @@ DESCRIPTION="go live from your website"
 
 HOMEPAGE=""
 LICENSE="BSD-2"
-SRC_URI="https://files.pythonhosted.org/packages/38/91/568f16b7242bf47b13dedfd5c1910812ff76aa1393faaafb7f96f60cd4f0/webint_live-${REALVERSION}.tar.gz"
-SOURCEFILE="webint_live-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/38/91/568f16b7242bf47b13dedfd5c1910812ff76aa1393faaafb7f96f60cd4f0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

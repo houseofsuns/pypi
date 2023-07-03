@@ -15,8 +15,8 @@ DESCRIPTION="Simple python authorization library."
 
 HOMEPAGE="https://github.com/julio-vaz/python-authorization"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/46/a5/b7466db8a79b6938d7b1249fad0bc0d00ebf1dfe3bbf6fe8beaf323bce8e/python_authorization-${REALVERSION}.tar.gz"
-SOURCEFILE="python_authorization-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/46/a5/b7466db8a79b6938d7b1249fad0bc0d00ebf1dfe3bbf6fe8beaf323bce8e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Local Storage Support for NoneBot2"
 
 HOMEPAGE="https://github.com/nonebot/plugin-localstore"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/02/b5/d5d93672d6e93c976acc3b48730bbeae06d5c2c6f0f6b9e2407d52e60143/nonebot_plugin_localstore-${REALVERSION}.tar.gz"
-SOURCEFILE="nonebot_plugin_localstore-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/02/b5/d5d93672d6e93c976acc3b48730bbeae06d5c2c6f0f6b9e2407d52e60143/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="kuaizhan zipkin sender"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a1/29/1b767577bb70a9c8b55546b5f5e0374ef978cc3d48ff0d854523ff5db065/kuaizhan_zipkin-${REALVERSION}.tar.gz"
-SOURCEFILE="kuaizhan_zipkin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a1/29/1b767577bb70a9c8b55546b5f5e0374ef978cc3d48ff0d854523ff5db065/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

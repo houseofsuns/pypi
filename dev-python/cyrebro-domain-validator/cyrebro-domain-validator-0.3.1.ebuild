@@ -15,8 +15,8 @@ DESCRIPTION="A domain validation package, written by CYREBRO's Innovation team."
 
 HOMEPAGE="https://github.com/CYREBRO/cyrebro-domain-validator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3f/53/cc60620b19f1328c65673dc98fe5dc4472fcc5c15ca30d55087e378e7818/cyrebro_domain_validator-${REALVERSION}.tar.gz"
-SOURCEFILE="cyrebro_domain_validator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3f/53/cc60620b19f1328c65673dc98fe5dc4472fcc5c15ca30d55087e378e7818/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

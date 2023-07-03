@@ -15,8 +15,8 @@ DESCRIPTION="Computes Short Term Objective Intelligibility in PyTorch"
 
 HOMEPAGE="https://github.com/mpariente/pytorch_stoi"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4a/bb/0a3122124f18d1091274af1fe59bc77218143f4fc35fa48914e89a7431e9/torch_stoi-${REALVERSION}.tar.gz"
-SOURCEFILE="torch_stoi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4a/bb/0a3122124f18d1091274af1fe59bc77218143f4fc35fa48914e89a7431e9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

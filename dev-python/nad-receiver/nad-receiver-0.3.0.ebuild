@@ -15,8 +15,8 @@ DESCRIPTION="Library to interface with NAD receivers through RS232, TCP and teln
 
 HOMEPAGE="https://github.com/joopert/nad_receiver"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0e/94/2cdf730855f776f476252341fe7f38c38aea55c66fbaaea6936c70e203fc/nad_receiver-${REALVERSION}.tar.gz"
-SOURCEFILE="nad_receiver-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0e/94/2cdf730855f776f476252341fe7f38c38aea55c66fbaaea6936c70e203fc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

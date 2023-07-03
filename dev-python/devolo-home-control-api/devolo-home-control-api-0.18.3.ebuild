@@ -15,8 +15,8 @@ DESCRIPTION="devolo Home Control API in Python"
 
 HOMEPAGE="https://github.com/2Fake/devolo_home_control_api"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/18/02/199528ef402713c16a4ebe20a7816e2e6430115dac9fff58f0bdaf6993e0/devolo_home_control_api-${REALVERSION}.tar.gz"
-SOURCEFILE="devolo_home_control_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/18/02/199528ef402713c16a4ebe20a7816e2e6430115dac9fff58f0bdaf6993e0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

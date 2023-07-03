@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># GYM CAS[![PyPI - Version](https://img.shields.io/pypi/v/gym-cas.svg)](https://pypi.org/project/gym-cas)[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/gym-cas.svg)](https://pypi.org/project/gym-cas)Hjælpepakke til at bruge Python som CAS (Computational Algebra System) i gymnasiet.## Installation```consolepip install gym-cas```## CheatsheetI nedenstående afsnit antages det at `gym_cas` først importeres således:```pyfrom gym_cas import *```### B1. Tal- og bogstavregning```pyexpand( udtryk )factor( udtryk )```### B2. Ligninger og uligheder```pysolve( udtryk )solve( [udtryk1, udtryk2] )nsolve( udtryk, start )```Bemærk at den nemmeste måde at bruge `solve` i `SymPy` er ved at omforme sin ligning så en af siderne er lig 0. Hvis man fx vil løse ligningen `x/2 = 10` så kan det skrives `solve(x/2-10)`.### B3. Geometri og trigonometri```pySin( vinkel )Cos( vinkel )Tan( vinkel )aSin( forhold )aCos( forhold )aTan( forhold )```</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="ISIN database for casparser"
 
 HOMEPAGE="https://github.com/codereverser/casparser-isin"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0a/bf/24d6a17a7e2e83dd34e17e847ecf3144c4286baa99687d927963a1a47ce8/casparser_isin-${REALVERSION}.tar.gz"
-SOURCEFILE="casparser_isin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0a/bf/24d6a17a7e2e83dd34e17e847ecf3144c4286baa99687d927963a1a47ce8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

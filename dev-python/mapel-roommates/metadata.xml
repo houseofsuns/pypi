@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Mapel-marriagesThis pacakge is a plugin for [mapel](https://pypi.org/project/mapel/) extendingit with necessary files to draw maps of Stable Roommates intances.For the most recent version of mapel, visit its [gitrepo](https://pypi.org/project/mapel/).# InstallationFor a simple installation, type:`pip install mapel-roommates`in the console.For more complicated variants of installation, refer to the readme of mapel[here](https://github.com/szufix/mapel).# AcknowledgmentsThis project is part of the [PRAGMA project](https://home.agh.edu.pl/~pragma/)which has received funding from the [European Research Council(ERC)](https://home.agh.edu.pl/~pragma/) under the European Union’s Horizon 2020research and innovation programme ([grant agreement No101002854](https://erc.easme-web.eu/?p=101002854)).</longdescription>
+</pkgmetadata>

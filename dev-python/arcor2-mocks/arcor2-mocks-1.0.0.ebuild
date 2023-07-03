@@ -15,8 +15,8 @@ DESCRIPTION="Mocks for services developed by Kinali."
 
 HOMEPAGE=""
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/7b/43/93d59571a1694b93ead3c28fd024bec9f4d93ae9498c0d7c4e1e710e12c9/arcor2_mocks-${REALVERSION}.tar.gz"
-SOURCEFILE="arcor2_mocks-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7b/43/93d59571a1694b93ead3c28fd024bec9f4d93ae9498c0d7c4e1e710e12c9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># datareader```params = datareader.get_params()path = datareader.__path__[0]newpath = os.path.join(path, &quot;data/input/stanford/bookstore/video0/annotations.txt&quot;)X = datareader.read_dataset(params, newpath)print(X)```# Third partyStanford Drone Dataset annotations from https://cvgl.stanford.edu/projects/uav_data/ are used: Please cite also the Stanford Drone Dataset:A. Robicquet, A. Sadeghian, A. Alahi, S. Savarese, Learning Social Etiquette: Human Trajectory Prediction In Crowded Scenes in European Conference on Computer Vision (ECCV), 2016.</longdescription>
+</pkgmetadata>

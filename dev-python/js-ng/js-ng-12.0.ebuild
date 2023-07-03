@@ -15,8 +15,8 @@ DESCRIPTION="system automation, configuration management and RPC framework"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fd/ef/cafe8725fca90a331f1f8ba58c946876d373dc3407b1440394d478486961/js_ng-${REALVERSION}.tar.gz"
-SOURCEFILE="js_ng-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fd/ef/cafe8725fca90a331f1f8ba58c946876d373dc3407b1440394d478486961/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

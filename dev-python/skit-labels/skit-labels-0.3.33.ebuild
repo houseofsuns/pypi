@@ -15,8 +15,8 @@ DESCRIPTION="Command line tool for interacting with labelled datasets at skit.ai
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b3/c2/6842f816d7accaefd66128369c8941ddb5062b95db7a340d06abbaba6d28/skit_labels-${REALVERSION}.tar.gz"
-SOURCEFILE="skit_labels-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b3/c2/6842f816d7accaefd66128369c8941ddb5062b95db7a340d06abbaba6d28/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Search for words, documents, images, news, maps and text translatio
 
 HOMEPAGE="https://github.com/deedy5/duckduckgo_search"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b8/b9/decc47f572704587b6bd468641194fa2486a0d5f3d3959c31db7c3b7f1a7/duckduckgo_search-${REALVERSION}.tar.gz"
-SOURCEFILE="duckduckgo_search-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b8/b9/decc47f572704587b6bd468641194fa2486a0d5f3d3959c31db7c3b7f1a7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

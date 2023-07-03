@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># restblLibrary to manipulate the resource size table (RSTB/RESTBL) in *The Legend ofZelda: Tears of the Kingdom*## Example Usage```pythonfrom restbl import ResourceSizeTablewith open(&quot;ResourceSizeTable.product.112.rsizetable.zs&quot;, &quot;rb&quot;) as file:    table = ResourceSizeTable.from_binary(file.read())    assert table.get_size(&quot;Actor/TwnObj_HatenoObj_A_12.engine__actor__ActorParam.bgyml&quot;) == 6184    table.set_size(&quot;Actor/TwnObj_HatenoObj_A_12.engine__actor__ActorParam.bgyml&quot;, 666)    assert table.get_size(&quot;Actor/TwnObj_HatenoObj_A_12.engine__actor__ActorParam.bgyml&quot;) == 666```## LicenseThis project is licensed under the GPLv3+ license.</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="Line-by-line profiler"
 
 HOMEPAGE="https://github.com/pyutils/line_profiler"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/9d/8f/1e538ef142f5a667f8e7198d3369f8ad1575e664efc88a8b3b49bdbf2017/line_profiler-${REALVERSION}.tar.gz"
-SOURCEFILE="line_profiler-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9d/8f/1e538ef142f5a667f8e7198d3369f8ad1575e664efc88a8b3b49bdbf2017/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

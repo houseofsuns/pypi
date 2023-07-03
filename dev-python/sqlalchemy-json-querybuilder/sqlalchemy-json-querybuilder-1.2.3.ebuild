@@ -15,8 +15,8 @@ DESCRIPTION="Querybuilder to use SqlAlchemy ORM by feeding JSON/object as input"
 
 HOMEPAGE="https://github.com/suyash248/sqlalchemy-json-querybuilder"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1f/cb/8cfd38dd6f4c4bea4abbf7f92f0328fccf8c16969d9ed4275c97d10dd502/sqlalchemy_json_querybuilder-${REALVERSION}.tar.gz"
-SOURCEFILE="sqlalchemy_json_querybuilder-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1f/cb/8cfd38dd6f4c4bea4abbf7f92f0328fccf8c16969d9ed4275c97d10dd502/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Alibaba Cloud Global Acceleration (20191120) SDK Library for Python
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f2/7e/7fad96e8210c6ae04dae5c10fa2635aae3bf5f57aa2f4a8f6fabd9366738/alibabacloud_ga20191120-${REALVERSION}.tar.gz"
-SOURCEFILE="alibabacloud_ga20191120-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f2/7e/7fad96e8210c6ae04dae5c10fa2635aae3bf5f57aa2f4a8f6fabd9366738/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

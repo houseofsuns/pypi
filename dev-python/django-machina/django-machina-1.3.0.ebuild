@@ -15,8 +15,8 @@ DESCRIPTION="A Django forum engine for building powerful community driven websit
 
 HOMEPAGE="https://github.com/ellmetha/django-machina"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/53/64/882414809843e375d02ddd58dacbe7b91f9b111d143bb8dac2d9b908951a/django_machina-${REALVERSION}.tar.gz"
-SOURCEFILE="django_machina-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/53/64/882414809843e375d02ddd58dacbe7b91f9b111d143bb8dac2d9b908951a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Unity Machine Learning Agents Interface"
 
 HOMEPAGE="https://github.com/Unity-Technologies/ml-agents"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/23/35/bae4feca6016b0f530bec49408702da18fc5c2d8bf83925dd70cdc1bf755/mlagents_envs-${REALVERSION}.tar.gz"
-SOURCEFILE="mlagents_envs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/23/35/bae4feca6016b0f530bec49408702da18fc5c2d8bf83925dd70cdc1bf755/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

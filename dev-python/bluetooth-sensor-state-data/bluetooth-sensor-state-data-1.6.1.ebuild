@@ -15,8 +15,8 @@ DESCRIPTION="Models for storing and converting Bluetooth Sensor State Data"
 
 HOMEPAGE="https://github.com/bluetooth-devices/bluetooth-sensor-state-data"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/0b/79/6cb031c47fc502dd100975143a53675e1030976ded504e510504c9b6660e/bluetooth_sensor_state_data-${REALVERSION}.tar.gz"
-SOURCEFILE="bluetooth_sensor_state_data-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0b/79/6cb031c47fc502dd100975143a53675e1030976ded504e510504c9b6660e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

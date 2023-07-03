@@ -15,8 +15,8 @@ DESCRIPTION="BThome BLE support"
 
 HOMEPAGE="https://github.com/bluetooth-devices/bthome-ble"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/17/9f/2998c8e26e6267e74a15f92a84d7c37876614dd87577c8af47e00ebaa83b/bthome_ble-${REALVERSION}.tar.gz"
-SOURCEFILE="bthome_ble-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/17/9f/2998c8e26e6267e74a15f92a84d7c37876614dd87577c8af47e00ebaa83b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

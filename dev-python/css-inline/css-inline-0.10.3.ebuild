@@ -15,8 +15,8 @@ DESCRIPTION="High-performance library for inlining CSS into HTML 'style' attribu
 
 HOMEPAGE="https://github.com/Stranger6667/css-inline/tree/master/bindings/python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cd/fa/83eed967a2d6c90bba180adfec3a729bef04c4af0cb6edb1640979bba444/css_inline-${REALVERSION}.tar.gz"
-SOURCEFILE="css_inline-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cd/fa/83eed967a2d6c90bba180adfec3a729bef04c4af0cb6edb1640979bba444/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

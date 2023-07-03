@@ -15,8 +15,8 @@ DESCRIPTION="Media downloader supporting various sites such as youtube"
 
 HOMEPAGE="https://github.com/blackjack4494/yt-dlc"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1b/12/315fc9d4d619dbe2328b8805a25c26590dc06a0fed276385d89e44ab4e4b/youtube_dlc-${REALVERSION}.tar.gz"
-SOURCEFILE="youtube_dlc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1b/12/315fc9d4d619dbe2328b8805a25c26590dc06a0fed276385d89e44ab4e4b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

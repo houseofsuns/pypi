@@ -15,8 +15,8 @@ DESCRIPTION="A django BBCode integration.."
 
 HOMEPAGE="https://github.com/ellmetha/django-precise-bbcode"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/c7/c3/f7dac7c2463060a1c0584c1e368615e88f08e4c27b5d17d8dc3901195933/django_precise_bbcode-${REALVERSION}.tar.gz"
-SOURCEFILE="django_precise_bbcode-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c7/c3/f7dac7c2463060a1c0584c1e368615e88f08e4c27b5d17d8dc3901195933/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

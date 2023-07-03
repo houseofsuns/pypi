@@ -15,8 +15,8 @@ DESCRIPTION="Role for django User model"
 
 HOMEPAGE="https://github.com/isys35/django-role"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/df/aa/67ff54694a5154ad4dbd79ad365635054b6d1e8aafcb473ec8e3818be308/django_role-${REALVERSION}.tar.gz"
-SOURCEFILE="django_role-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/df/aa/67ff54694a5154ad4dbd79ad365635054b6d1e8aafcb473ec8e3818be308/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

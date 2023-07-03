@@ -15,8 +15,8 @@ DESCRIPTION="Tools for the Maxar ARD grid"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b7/a4/4acf4b471a4c28cc8bc33af8fdf8ee1f934c4af72cca1bebd2c8073f1a15/maxar_ard_grid-${REALVERSION}.tar.gz"
-SOURCEFILE="maxar_ard_grid-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b7/a4/4acf4b471a4c28cc8bc33af8fdf8ee1f934c4af72cca1bebd2c8073f1a15/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

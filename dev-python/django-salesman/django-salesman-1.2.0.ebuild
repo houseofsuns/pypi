@@ -15,8 +15,8 @@ DESCRIPTION="Headless e-commerce framework for Django and Wagtail."
 
 HOMEPAGE="https://pypi.org/project/django-salesman/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/38/16/55f65015e2c4971908b51efee034a17615b1c8a91012a23955f9fb227c6d/django_salesman-${REALVERSION}.tar.gz"
-SOURCEFILE="django_salesman-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/38/16/55f65015e2c4971908b51efee034a17615b1c8a91012a23955f9fb227c6d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

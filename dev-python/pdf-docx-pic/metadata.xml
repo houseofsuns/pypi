@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>请注意最新版本3.1.2.2023.6.19.16.57.42支持2.6, 2.7, 3.3, 3.4, 3.5, 3.6, 3.12但我们不确定依赖库是否存在。请使用以上版本的谨慎安装Please noteThe latest version 3.1.2.2023.6.19.16.57.42 supports 2.6, 2.7, 3.3, 3.4, 3.5, 3.6, 3.12But we are not sure if the dependent library exists.Please use the above version for careful installation</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="Functions and algorithms for analysing Digital Earth Africa data."
 
 HOMEPAGE="https://github.com/digitalearthafrica/deafrica-sandbox-notebooks"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/3d/f1/05ef22dfe9d1a4200c0a8daf44caa7690d3f8e88dd1ab2db9863135757bd/deafrica_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="deafrica_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3d/f1/05ef22dfe9d1a4200c0a8daf44caa7690d3f8e88dd1ab2db9863135757bd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A Python Wrapper for postcodes.io API"
 
 HOMEPAGE="https://github.com/raigad/python-postcodes-io"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/21/f5/dd5558043b1730dcf3591045a2ee09b45385081349ad8ff86e83f156150e/postcodes_io_api-${REALVERSION}.tar.gz"
-SOURCEFILE="postcodes_io_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/21/f5/dd5558043b1730dcf3591045a2ee09b45385081349ad8ff86e83f156150e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

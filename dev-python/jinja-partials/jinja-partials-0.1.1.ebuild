@@ -15,8 +15,8 @@ DESCRIPTION="Simple reuse of partial HTML page templates in the Jinja template l
 
 HOMEPAGE="https://github.com/mikeckennedy/jinja_partials"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f0/30/21850ec17f6be1c2549b98a33ba1e90cff3697e1c111e7ed5c2b375cee33/jinja_partials-${REALVERSION}.tar.gz"
-SOURCEFILE="jinja_partials-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f0/30/21850ec17f6be1c2549b98a33ba1e90cff3697e1c111e7ed5c2b375cee33/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Log to browser console"
 
 HOMEPAGE="https://github.com/betodealmeida/consolelog"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e0/d6/4434fc4bcc0a34600887a6b178d4e8125b8dc6bfc9909761bf3dea3c8443/console_log-${REALVERSION}.tar.gz"
-SOURCEFILE="console_log-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e0/d6/4434fc4bcc0a34600887a6b178d4e8125b8dc6bfc9909761bf3dea3c8443/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Clone of the Moby/Docker random name generator as a Python package.
 
 HOMEPAGE="https://github.com/glentner/names_generator"
 LICENSE="Apache License"
-SRC_URI="https://files.pythonhosted.org/packages/e5/07/61bf80261e47a4b4f827023c83756414b02860c067e4ce593e829b6d46be/names_generator-${REALVERSION}.tar.gz"
-SOURCEFILE="names_generator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e5/07/61bf80261e47a4b4f827023c83756414b02860c067e4ce593e829b6d46be/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

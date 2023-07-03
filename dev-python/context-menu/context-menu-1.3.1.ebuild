@@ -15,8 +15,8 @@ DESCRIPTION="Library to create cross-platform native context menus."
 
 HOMEPAGE="https://github.com/saleguas/context_menu"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b3/0d/6358ca8e07e6914f9bd1e5e8a9c9b3d74375c18840df74dc59976616efd8/context_menu-${REALVERSION}.tar.gz"
-SOURCEFILE="context_menu-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b3/0d/6358ca8e07e6914f9bd1e5e8a9c9b3d74375c18840df74dc59976616efd8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

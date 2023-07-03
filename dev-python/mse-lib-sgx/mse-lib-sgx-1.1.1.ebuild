@@ -15,8 +15,8 @@ DESCRIPTION="Library for Cosmian MSE to bootstrap Flask application"
 
 HOMEPAGE="https://cosmian.com"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3d/7d/4787be1735ea21a7b1174d1cfdc240372a3e40f67dc4c0f0380a9f09d51b/mse_lib_sgx-${REALVERSION}.tar.gz"
-SOURCEFILE="mse_lib_sgx-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3d/7d/4787be1735ea21a7b1174d1cfdc240372a3e40f67dc4c0f0380a9f09d51b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

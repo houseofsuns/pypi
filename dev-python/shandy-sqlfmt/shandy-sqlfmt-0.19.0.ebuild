@@ -15,8 +15,8 @@ DESCRIPTION="sqlfmt is an opinionated CLI tool that formats your sql files"
 
 HOMEPAGE="https://sqlfmt.com"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e6/76/39f2bd844c86b9dc9147c157f3c6e1767dc60d1bea65b93f1941ad788eba/shandy_sqlfmt-${REALVERSION}.tar.gz"
-SOURCEFILE="shandy_sqlfmt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e6/76/39f2bd844c86b9dc9147c157f3c6e1767dc60d1bea65b93f1941ad788eba/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

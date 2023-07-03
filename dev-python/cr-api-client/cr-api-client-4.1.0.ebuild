@@ -15,8 +15,8 @@ DESCRIPTION="AMOSSYS Cyber Range client API"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b5/1f/27b32e5382fba02b94610bb6724b3148ddece84b8b9119218ae908872dc5/cr_api_client-${REALVERSION}.tar.gz"
-SOURCEFILE="cr_api_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b5/1f/27b32e5382fba02b94610bb6724b3148ddece84b8b9119218ae908872dc5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

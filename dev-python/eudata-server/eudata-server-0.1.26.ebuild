@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a6/a6/d60ae18aa53f9a1ffb996c2e92958e8f83b162b60a6b241bd1de2cdee70a/eudata_server-${REALVERSION}.tar.gz"
-SOURCEFILE="eudata_server-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a6/a6/d60ae18aa53f9a1ffb996c2e92958e8f83b162b60a6b241bd1de2cdee70a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

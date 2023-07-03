@@ -15,8 +15,8 @@ DESCRIPTION="Plugins for apispec"
 
 HOMEPAGE="https://github.com/codectl/apispec-plugins"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/46/79/cef8ba8b4f79f41d3dc29729ccc2900272adb228d3d189b9235df733299d/apispec_plugins-${REALVERSION}.tar.gz"
-SOURCEFILE="apispec_plugins-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/46/79/cef8ba8b4f79f41d3dc29729ccc2900272adb228d3d189b9235df733299d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

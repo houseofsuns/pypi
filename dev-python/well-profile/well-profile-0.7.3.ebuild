@@ -15,8 +15,8 @@ DESCRIPTION="Well Profile Builder"
 
 HOMEPAGE="https://github.com/pro-well-plan/well_profile"
 LICENSE="LGPL v3"
-SRC_URI="https://files.pythonhosted.org/packages/d6/ca/3e32f2d08298462eb364ca5dad827730b55553a93307488d841347cf9be3/well_profile-${REALVERSION}.tar.gz"
-SOURCEFILE="well_profile-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d6/ca/3e32f2d08298462eb364ca5dad827730b55553a93307488d841347cf9be3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

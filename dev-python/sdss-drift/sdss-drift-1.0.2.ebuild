@@ -15,8 +15,8 @@ DESCRIPTION="Modbus PLC control library"
 
 HOMEPAGE="https://github.com/sdss/drift"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/47/3d/bfc5200bae6c52e00c75ec0cf9a6f732e4b9b917f4056541c0116c4dd17d/sdss_drift-${REALVERSION}.tar.gz"
-SOURCEFILE="sdss_drift-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/47/3d/bfc5200bae6c52e00c75ec0cf9a6f732e4b9b917f4056541c0116c4dd17d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

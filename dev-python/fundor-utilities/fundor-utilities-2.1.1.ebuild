@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/fundor333/fundor_utilities"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/71/cb/b2994b3d9191c3c5fcfec7278ada8942750cedc11e48051453878ec0988e/fundor_utilities-${REALVERSION}.tar.gz"
-SOURCEFILE="fundor_utilities-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/71/cb/b2994b3d9191c3c5fcfec7278ada8942750cedc11e48051453878ec0988e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

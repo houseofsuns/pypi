@@ -15,8 +15,8 @@ DESCRIPTION="A Pulumi package for creating and managing mongodbatlas cloud resou
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/a6/a7/725f270c7406b8155493fa9198a7db7ad172e66742afe13b852845b4c13a/pulumi_mongodbatlas-${REALVERSION}.tar.gz"
-SOURCEFILE="pulumi_mongodbatlas-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a6/a7/725f270c7406b8155493fa9198a7db7ad172e66742afe13b852845b4c13a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

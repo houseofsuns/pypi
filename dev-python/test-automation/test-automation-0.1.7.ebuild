@@ -15,8 +15,8 @@ DESCRIPTION="test framework for yogiyo"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/48/64/80df9c23cbc3ce1874ed4ea6044fefc5c723e90506cb4acbad3bba06b06c/test_automation-${REALVERSION}.tar.gz"
-SOURCEFILE="test_automation-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/48/64/80df9c23cbc3ce1874ed4ea6044fefc5c723e90506cb4acbad3bba06b06c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

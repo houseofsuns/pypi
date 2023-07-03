@@ -15,8 +15,8 @@ DESCRIPTION="A personal nextcord bot base package for bots."
 
 HOMEPAGE="https://github.com/ooliver1/botbase"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7a/6f/3b55fdcef5debbb795c74f99a0c89e77801d5f64f4613ab7561d00c3a279/ooliver_botbase-${REALVERSION}.tar.gz"
-SOURCEFILE="ooliver_botbase-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7a/6f/3b55fdcef5debbb795c74f99a0c89e77801d5f64f4613ab7561d00c3a279/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

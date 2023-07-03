@@ -15,8 +15,8 @@ DESCRIPTION="iosense connect library"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4f/c3/1b0929510e02291a3b03c75669d12aaec9f95473b5a717a8da116108de1d/iosense_connect-${REALVERSION}.tar.gz"
-SOURCEFILE="iosense_connect-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4f/c3/1b0929510e02291a3b03c75669d12aaec9f95473b5a717a8da116108de1d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

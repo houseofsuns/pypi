@@ -15,8 +15,8 @@ DESCRIPTION="A generator for synthetic oil reservoir values"
 
 HOMEPAGE="https://github.com/equinor/oil_reservoir_synthesizer"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/cb/c2/299c3be2c5c0cafa41b8f47dbb772ba30e556b72579eb0c5463a9b9fc5a2/oil_reservoir_synthesizer-${REALVERSION}.tar.gz"
-SOURCEFILE="oil_reservoir_synthesizer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cb/c2/299c3be2c5c0cafa41b8f47dbb772ba30e556b72579eb0c5463a9b9fc5a2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

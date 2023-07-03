@@ -15,8 +15,8 @@ DESCRIPTION="DSP-TOOLS is a Python package with a command line interface that he
 
 HOMEPAGE="https://www.dasch.swiss/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/82/3d/dd82d78baacfce8281766fdf8f962038024119a214b206b81c5bea7b946a/dsp_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="dsp_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/82/3d/dd82d78baacfce8281766fdf8f962038024119a214b206b81c5bea7b946a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

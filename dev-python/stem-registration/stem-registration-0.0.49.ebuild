@@ -15,8 +15,8 @@ DESCRIPTION="A small registration package"
 
 HOMEPAGE="https://gitlab.stemsc.com/shevelev/registration"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7f/00/55f8f166dbae8d279eb5d1f81caad7e3cde645ce4ae06c81be763a74a0ed/stem_registration-${REALVERSION}.tar.gz"
-SOURCEFILE="stem_registration-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7f/00/55f8f166dbae8d279eb5d1f81caad7e3cde645ce4ae06c81be763a74a0ed/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

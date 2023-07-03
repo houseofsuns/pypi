@@ -15,8 +15,8 @@ DESCRIPTION="Fontes de dados do mercado financeiro brasileiro"
 
 HOMEPAGE="https://github.com/gabrielguarisa/brdata"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7c/cd/a02e8b46c04c39614172c603477ad717348f8f581d9892ab1b8e3f707a2d/brasil_data-${REALVERSION}.tar.gz"
-SOURCEFILE="brasil_data-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7c/cd/a02e8b46c04c39614172c603477ad717348f8f581d9892ab1b8e3f707a2d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

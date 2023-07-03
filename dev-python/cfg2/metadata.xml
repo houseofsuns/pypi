@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>|pipeline| |coverage| |rtd|.. |pipeline| image:: https://framagit.org/1ohmatr/sw/py/cfg2/badges/master/pipeline.svg.. |coverage| image:: https://framagit.org/1ohmatr/sw/py/cfg2/badges/master/coverage.svg.. |rtd| image:: https://readthedocs.org/projects/cfg2/badge/?version=latestPython package generated from template https://framagit.org/1ohmatr/sw/py/template</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="Serverless rules for cfn-lint"
 
 HOMEPAGE=""
 LICENSE="MIT-0"
-SRC_URI="https://files.pythonhosted.org/packages/8e/8d/6ac8b40afbd2795e7ab8247a9d56bcb52036a11ba14688b66b3e34a1ab12/cfn_lint_serverless-${REALVERSION}.tar.gz"
-SOURCEFILE="cfn_lint_serverless-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8e/8d/6ac8b40afbd2795e7ab8247a9d56bcb52036a11ba14688b66b3e34a1ab12/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

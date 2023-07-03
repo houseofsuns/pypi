@@ -15,8 +15,8 @@ DESCRIPTION="Python Library for Nodes which connect to the Zauberzeug Learning L
 
 HOMEPAGE="https://github.com/zauberzeug/learning_loop_node"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/89/44/99a37df6da36031f9089833dbbdfc530ce1976e0b94321fa1e68156556e8/learning_loop_node-${REALVERSION}.tar.gz"
-SOURCEFILE="learning_loop_node-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/89/44/99a37df6da36031f9089833dbbdfc530ce1976e0b94321fa1e68156556e8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

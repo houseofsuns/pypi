@@ -15,8 +15,8 @@ DESCRIPTION="Autoretouch helper library"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8b/20/1247b6641d2f17cc32c570c716164f0309222d5598806f4575f1a570406e/autoretouch_service_library-${REALVERSION}.tar.gz"
-SOURCEFILE="autoretouch_service_library-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8b/20/1247b6641d2f17cc32c570c716164f0309222d5598806f4575f1a570406e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="SENSE-Orchestrator Northbound API Client"
 
 HOMEPAGE="https://github.com/esnet/StackV"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/da/93/49307928c0fd5d974dcb0df408ac7349042ca9261fad0bad44e4f29325c0/sense_o_api-${REALVERSION}.tar.gz"
-SOURCEFILE="sense_o_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/da/93/49307928c0fd5d974dcb0df408ac7349042ca9261fad0bad44e4f29325c0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

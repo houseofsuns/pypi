@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Pyndatic Webargs[![CircleCI](https://circleci.com/gh/nf1s/pydantic-webargs.svg?style=shield)](https://circleci.com/gh/nf1s/pydantic-webargs) [![codecov](https://codecov.io/gh/nf1s/pydantic-webargs/branch/master/graph/badge.svg)](https://codecov.io/gh/nf1s/pydantic-webargs) ![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/nf1s/pydantic-webargs) [![Downloads](https://pepy.tech/badge/pydantic-webargs)](https://pepy.tech/project/pydantic-webargs) ![license](https://img.shields.io/badge/license-MIT-green)A library for parsing and validating http requests for flask web-framework using pydantic library Full documentation [here](https://nf1s.github.io/pydantic-webargs/)## Requirementspython &gt;= 3.7## How to install```bashpip install pydantic-webargs```## Dependenciesflaskpydantic## Example```pythonfrom flask import Flaskfrom pydantic import BaseModelfrom pydantic_webargs import webargsapp = Flask(__name__)class QueryModel(BaseModel):    name: strclass BodyModel(BaseModel):    age: int@app.route(&quot;/get-request&quot;, methods=[&quot;GET&quot;])@webargs(query=QueryModel)def example_get_endpoint(**kwargs):    response = kwargs    return response@app.route(&quot;/post-request&quot;, methods=[&quot;POST&quot;])@webargs(query=QueryModel, body=BodyModel)def example_post_endpoint(**kwargs):    print(kwargs)    response = kwargs    return responseif __name__ == &quot;__main__&quot;:    app.run(host=&quot;0.0.0.0&quot;, port=8000)```</longdescription>
+</pkgmetadata>

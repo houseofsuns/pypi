@@ -15,8 +15,8 @@ DESCRIPTION="Implementation of the kyber crystal algorithm made by https://githu
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0f/95/6eb7811e65f6d1baad9a9ed330bd305f501c0e8e8beaa4c81a018de35dec/kyber_py-${REALVERSION}.tar.gz"
-SOURCEFILE="kyber_py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0f/95/6eb7811e65f6d1baad9a9ed330bd305f501c0e8e8beaa4c81a018de35dec/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

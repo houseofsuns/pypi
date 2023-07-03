@@ -15,8 +15,8 @@ DESCRIPTION="AWS CDK construct for packaging lambda functions with dependencies"
 
 HOMEPAGE="https://github.com/jesse-peters/aws-cdk-lambda-poetry-asset"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6b/28/93d3b5a36cf796a0d5ee8b38e519dcfbb485b55349322dac457b1787857b/aws_cdk_lambda_poetry_asset-${REALVERSION}.tar.gz"
-SOURCEFILE="aws_cdk_lambda_poetry_asset-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6b/28/93d3b5a36cf796a0d5ee8b38e519dcfbb485b55349322dac457b1787857b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

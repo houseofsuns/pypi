@@ -15,8 +15,8 @@ DESCRIPTION="Maximal Updated Density Examples"
 
 HOMEPAGE="https://github.com/mathematicalmichael/mud-examples.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/60/96/4bc3cd302c159d990155bd26dd9d5859b2cd05770b027ed38310bce13895/mud_examples-${REALVERSION}.tar.gz"
-SOURCEFILE="mud_examples-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/60/96/4bc3cd302c159d990155bd26dd9d5859b2cd05770b027ed38310bce13895/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

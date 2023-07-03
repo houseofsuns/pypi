@@ -15,8 +15,8 @@ DESCRIPTION="A library for generating predictive uuids for FOLIO data migrations
 
 HOMEPAGE="https://github.com/FOLIO-FSE/folio_uuid"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/db/ad/e3cb6407bbb3b953084962eea5bc420f7f2bebc1d1c900b67f09cb330c16/folio_uuid-${REALVERSION}.tar.gz"
-SOURCEFILE="folio_uuid-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/db/ad/e3cb6407bbb3b953084962eea5bc420f7f2bebc1d1c900b67f09cb330c16/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

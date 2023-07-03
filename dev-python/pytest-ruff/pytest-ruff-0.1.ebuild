@@ -15,8 +15,8 @@ DESCRIPTION="pytest plugin to check ruff requirements."
 
 HOMEPAGE="https://github.com/businho/pytest-ruff"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/00/e1/7543b5fa9a57e3c06c7bd8e7794811777022d94a4922f9e8dd027f3de9ae/pytest_ruff-${REALVERSION}.tar.gz"
-SOURCEFILE="pytest_ruff-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/00/e1/7543b5fa9a57e3c06c7bd8e7794811777022d94a4922f9e8dd027f3de9ae/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

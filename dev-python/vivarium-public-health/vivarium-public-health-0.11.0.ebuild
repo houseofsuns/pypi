@@ -15,8 +15,8 @@ DESCRIPTION="Components for modelling diseases, risks, and interventions with \`
 
 HOMEPAGE="https://github.com/ihmeuw/vivarium_public_health"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/98/5d/426915138ec43da21af707f8699ce0b60a742636a439f7ceb8a36267441a/vivarium_public_health-${REALVERSION}.tar.gz"
-SOURCEFILE="vivarium_public_health-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/98/5d/426915138ec43da21af707f8699ce0b60a742636a439f7ceb8a36267441a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

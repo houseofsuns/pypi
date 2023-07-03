@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Segmentation mask overlayIf you ever wonder to overlay your segmentations onto a picture in the smoothiest way, you're in a right place.## Installation    pip install segmentation-mask-overlay## DescriptionHere you can take your segmentation map, put on an image individually or in a company. If you have a bunch of them, they will blend if touch each other. You can even name them one by one, providing labels.That's it! As simple as is. Now you are completely ready to laminate images with your segmentation.## How to use```pythonimport matplotlib.pyplot as pltimport numpy as npfrom PIL import Imagefrom segmentation_mask_overlay import overlay_masks# [Example] Load imageimage = Image.open(&quot;cat.jpg&quot;).convert(&quot;L&quot;)image = np.array(image)# [Example] Mimic list of masksmasks = []for i in np.linspace(0, image.shape[1], 10, dtype=&quot;int&quot;):    mask = np.zeros(image.shape, dtype=&quot;bool&quot;)    mask[i : i + 100, i : i + 200] = 1    masks.append(mask)# [Optional] prepare labelsmask_labels = [f&quot;Mask_{i}&quot; for i in range(len(masks))]# [Optional] prepare colorscmap = plt.cm.tab20(np.arange(len(mask_labels)))[..., :-1]# Laminate your image!fig = array = overlay_masks(image, np.stack(masks, -1), mask_labels, return_type=&quot;mpl&quot;)# Do with that image whatever you want to do.fig.savefig(&quot;cat_masked.png&quot;, bbox_inches=&quot;tight&quot;, dpi=300)```![Segmented cat](https://raw.githubusercontent.com/lobantseff/segmentation-mask-overlay/master/examples/cat_masked.jpg)</longdescription>
+</pkgmetadata>

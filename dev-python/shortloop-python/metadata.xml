@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>ShortLoop creates and updates API Collections by sampling traffic in your web application with no performance or memory overhead. We offer SDK for multiple languages and frameworks.`shortloop-python` provides support for python web frameworks.## CompatibilityPython: &gt;= 3.7| Web Framework | Version ||---------------|---------|| Django        | \&gt;= 3.2 |## UsageFor usage, refer [Documentation](https://docs.shortloop.dev)</longdescription>
+</pkgmetadata>

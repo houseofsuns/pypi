@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/eb/ab/50877cc1a3525f40e293750517ee3fef3b57204bce167081b3917d9fd197/cacheme_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="cacheme_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/eb/ab/50877cc1a3525f40e293750517ee3fef3b57204bce167081b3917d9fd197/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

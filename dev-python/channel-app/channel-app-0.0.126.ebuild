@@ -15,8 +15,8 @@ DESCRIPTION="Channel app for Sales Channels"
 
 HOMEPAGE="https://github.com/akinon/channel_app"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a2/29/b563f174c0d8891d6440d702bde8a3c91f9bead205043a67e46a5945a8b6/channel_app-${REALVERSION}.tar.gz"
-SOURCEFILE="channel_app-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a2/29/b563f174c0d8891d6440d702bde8a3c91f9bead205043a67e46a5945a8b6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

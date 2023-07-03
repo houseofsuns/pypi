@@ -15,8 +15,8 @@ DESCRIPTION="Django tag for ajax-enabled tables"
 
 HOMEPAGE="https://github.com/KiwiTrinsic/django-ajax-tables"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/12/f7/0240d6694bb29be34ada44364e5459d0ce318e5b34b850fd4a6b576847ef/django_ajax_tables-${REALVERSION}.tar.gz"
-SOURCEFILE="django_ajax_tables-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/12/f7/0240d6694bb29be34ada44364e5459d0ce318e5b34b850fd4a6b576847ef/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

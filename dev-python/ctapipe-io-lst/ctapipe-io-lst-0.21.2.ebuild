@@ -15,8 +15,8 @@ DESCRIPTION="ctapipe plugin for reading LST prototype files"
 
 HOMEPAGE=""
 LICENSE="BSD 3-clause"
-SRC_URI="https://files.pythonhosted.org/packages/fc/6c/674558657fda7f2f0c77724b29c6ef0c26843c9e194531513f554d4db94b/ctapipe_io_lst-${REALVERSION}.tar.gz"
-SOURCEFILE="ctapipe_io_lst-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fc/6c/674558657fda7f2f0c77724b29c6ef0c26843c9e194531513f554d4db94b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

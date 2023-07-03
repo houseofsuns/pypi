@@ -15,8 +15,8 @@ DESCRIPTION="Robocorp Inspector"
 
 HOMEPAGE="https://github.com/robocorp/inspector"
 LICENSE="Proprietary"
-SRC_URI="https://files.pythonhosted.org/packages/98/9d/eb2301c6fde5c5bce986c45bf45a3c01cea71c34dd4352ce4dc11992f0d7/robocorp_inspector-${REALVERSION}.tar.gz"
-SOURCEFILE="robocorp_inspector-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/98/9d/eb2301c6fde5c5bce986c45bf45a3c01cea71c34dd4352ce4dc11992f0d7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

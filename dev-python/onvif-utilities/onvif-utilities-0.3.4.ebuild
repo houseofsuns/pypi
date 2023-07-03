@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7c/0b/5c459da2aa5914af17fac0e8548eee5245d32ea19fd9ddc03f78e6c9e14f/onvif_utilities-${REALVERSION}.tar.gz"
-SOURCEFILE="onvif_utilities-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7c/0b/5c459da2aa5914af17fac0e8548eee5245d32ea19fd9ddc03f78e6c9e14f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Possibility and properties of Electromagnetically-bright sources of
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d8/3b/dac8236fbccdcee8cf31d0a93ab6ee6cc7f30ed966c472fe130493799f7f/ligo_em_bright-${REALVERSION}.tar.gz"
-SOURCEFILE="ligo_em_bright-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d8/3b/dac8236fbccdcee8cf31d0a93ab6ee6cc7f30ed966c472fe130493799f7f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

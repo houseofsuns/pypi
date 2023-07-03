@@ -15,8 +15,8 @@ DESCRIPTION="Update, Upsert, and Merge from Python dataframes to SQL Server and 
 
 HOMEPAGE="https://github.com/jwcook23/mssql_dataframe"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/18/37/cb11c7b668b4ecc43c2d85f111478aae646f7b7db04a113189c46d55a407/mssql_dataframe-${REALVERSION}.tar.gz"
-SOURCEFILE="mssql_dataframe-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/18/37/cb11c7b668b4ecc43c2d85f111478aae646f7b7db04a113189c46d55a407/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

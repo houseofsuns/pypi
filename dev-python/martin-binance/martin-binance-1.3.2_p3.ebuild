@@ -15,8 +15,8 @@ DESCRIPTION="Free trading system for Binance SPOT API"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/46/85/afed475d0394de101dfdafc53113807488fb01ee87617ba5ea62888253b8/martin_binance-${REALVERSION}.tar.gz"
-SOURCEFILE="martin_binance-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/46/85/afed475d0394de101dfdafc53113807488fb01ee87617ba5ea62888253b8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

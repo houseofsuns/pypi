@@ -15,8 +15,8 @@ DESCRIPTION="Library for loading configuration files"
 
 HOMEPAGE="https://github.com/MartinThoma/cfg_load"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/33/19/19e813c5347b7f7e86e9f1ce58df18bfa839d6c7fde300a0980ff4926d91/cfg_load-${REALVERSION}.tar.gz"
-SOURCEFILE="cfg_load-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/33/19/19e813c5347b7f7e86e9f1ce58df18bfa839d6c7fde300a0980ff4926d91/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

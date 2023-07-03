@@ -15,8 +15,8 @@ DESCRIPTION="gRPC Client library to interact with Elastos Smartweb Service"
 
 HOMEPAGE="https://github.com/cyber-republic/python-grpc-adenine"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cb/ba/c5eff2867465d55ebbe6dda25be4685c1743cd5ceff6d421462bf7ae8b8f/elastos_adenine-${REALVERSION}.tar.gz"
-SOURCEFILE="elastos_adenine-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cb/ba/c5eff2867465d55ebbe6dda25be4685c1743cd5ceff6d421462bf7ae8b8f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

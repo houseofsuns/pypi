@@ -15,8 +15,8 @@ DESCRIPTION="A Python-based API for Using Renderbus cloud rendering service."
 
 HOMEPAGE="https://gitlab.renderbus.com/internal/rayvision_api"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d8/d5/424f9c4b3f7baa8fbfc4cb05122753a5b1ac0ce6ce7cc05c402fc8342f1b/rayvision_api-${REALVERSION}.tar.gz"
-SOURCEFILE="rayvision_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d8/d5/424f9c4b3f7baa8fbfc4cb05122753a5b1ac0ce6ce7cc05c402fc8342f1b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

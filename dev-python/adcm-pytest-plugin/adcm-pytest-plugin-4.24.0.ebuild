@@ -15,8 +15,8 @@ DESCRIPTION="The pytest plugin including a set of common tools for ADCM testing"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c4/3b/e13358fa33c6f99ce651866c581bcbce8baed9d13534d3ef4ee735ca50c7/adcm_pytest_plugin-${REALVERSION}.tar.gz"
-SOURCEFILE="adcm_pytest_plugin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c4/3b/e13358fa33c6f99ce651866c581bcbce8baed9d13534d3ef4ee735ca50c7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

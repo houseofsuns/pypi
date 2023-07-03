@@ -15,8 +15,8 @@ DESCRIPTION="Simple python tool to hash dictionaries using both default hash and
 
 HOMEPAGE="https://github.com/LucaCappelletti94/dict_hash"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/84/6f/f1c6327aac62a21109e4488fe13012bb275fd07a930ae59a9cccb2c5c49f/dict_hash-${REALVERSION}.tar.gz"
-SOURCEFILE="dict_hash-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/84/6f/f1c6327aac62a21109e4488fe13012bb275fd07a930ae59a9cccb2c5c49f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

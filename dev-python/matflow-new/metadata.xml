@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;img src=&quot;https://docs.matflow.io/stable/_static/images/logo-90dpi.png&quot; width=&quot;250&quot; alt=&quot;MatFlow logo&quot;/&gt;**Design, run, and share computational materials science workflows**Documentation: [https://matflow.io/docs](https://matflow.io/docs)## AcknowledgementsMatFlow was developed using funding from the [LightForm](https://lightform.org.uk/) EPSRC programme grant ([EP/R001715/1](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/R001715/1))&lt;img src=&quot;https://lightform-group.github.io/wiki/assets/images/site/lightform-logo.png&quot; width=&quot;150&quot;/&gt;</longdescription>
+</pkgmetadata>

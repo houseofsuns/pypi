@@ -15,8 +15,8 @@ DESCRIPTION="A toolkit for working with CDX indices"
 
 HOMEPAGE="https://github.com/cocrawler/cdx_toolkit"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/4f/0c/ecb67e0ce5b4a3a8fda0d89c6a6b751f74ae404a817aa9d4cae719f8fb05/cdx_toolkit-${REALVERSION}.tar.gz"
-SOURCEFILE="cdx_toolkit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4f/0c/ecb67e0ce5b4a3a8fda0d89c6a6b751f74ae404a817aa9d4cae719f8fb05/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

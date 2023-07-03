@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># EMReaderStreamlit showcase app for extracting data from emails.- Extracts pdfs from attachments.- Saves to storage folder.- Runs OCR on pdfs.- Displays extracted data in a table.- Saves extracted data to csv.## How to run this project</longdescription>
+</pkgmetadata>

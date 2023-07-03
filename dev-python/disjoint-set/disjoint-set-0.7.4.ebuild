@@ -15,8 +15,8 @@ DESCRIPTION="Disjoint set data structure implementation for Python"
 
 HOMEPAGE="https://github.com/mrapacz/disjoint_set"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ee/36/a1e5952c493f4cbc264515a7d23d144b53359c94f8f449a958ef159344d9/disjoint_set-${REALVERSION}.tar.gz"
-SOURCEFILE="disjoint_set-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ee/36/a1e5952c493f4cbc264515a7d23d144b53359c94f8f449a958ef159344d9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

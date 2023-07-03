@@ -15,8 +15,8 @@ DESCRIPTION="SDK for interacting with the Benchling Platform."
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f6/df/ada3bbfa073aa47668ff367c380684a1509e793508782772e8694db475e9/benchling_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="benchling_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f6/df/ada3bbfa073aa47668ff367c380684a1509e793508782772e8694db475e9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

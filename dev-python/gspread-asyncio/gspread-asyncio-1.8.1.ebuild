@@ -15,8 +15,8 @@ DESCRIPTION="asyncio wrapper for burnash's Google Spreadsheet API library, gspre
 
 HOMEPAGE="https://github.com/dgilman/gspread_asyncio"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e5/7c/230958d09cc2bcf06b89d0ffb50ee032d570c97554099cfd36ec1bbd1f46/gspread_asyncio-${REALVERSION}.tar.gz"
-SOURCEFILE="gspread_asyncio-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e5/7c/230958d09cc2bcf06b89d0ffb50ee032d570c97554099cfd36ec1bbd1f46/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

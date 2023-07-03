@@ -15,8 +15,8 @@ DESCRIPTION="A simple PostgreSQL to Python mapper."
 
 HOMEPAGE="https://github.com/collorg/halfORM"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/ec/a8/99c4a73a0badc2afc376d44db180ecacd22ade1e7cecfefa3ef17ed246e8/half_orm-${REALVERSION}.tar.gz"
-SOURCEFILE="half_orm-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ec/a8/99c4a73a0badc2afc376d44db180ecacd22ade1e7cecfefa3ef17ed246e8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

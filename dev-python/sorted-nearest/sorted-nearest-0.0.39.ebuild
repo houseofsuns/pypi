@@ -15,8 +15,8 @@ DESCRIPTION="Find nearest intervals."
 
 HOMEPAGE="http://github.com/pyranges/sorted_nearest"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6d/5b/c94b5c454664cf3588e9c61f9a2057a3328ab3f53f7bd971fb7b6429ab59/sorted_nearest-${REALVERSION}.tar.gz"
-SOURCEFILE="sorted_nearest-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6d/5b/c94b5c454664cf3588e9c61f9a2057a3328ab3f53f7bd971fb7b6429ab59/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

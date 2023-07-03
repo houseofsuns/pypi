@@ -15,8 +15,8 @@ DESCRIPTION="Acceldata SDK."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4f/8b/abedf114946fb8d30879a28770ca5436aa4855efda35cd12517bf653590b/acceldata_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="acceldata_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4f/8b/abedf114946fb8d30879a28770ca5436aa4855efda35cd12517bf653590b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

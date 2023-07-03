@@ -15,8 +15,8 @@ DESCRIPTION="A Pulumi package to safely use randomness in Pulumi programs."
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/55/7f/06e21dd56275973a64a06e6928eed0ba38ca513512ef5adc7084edcef6d4/pulumi_random-${REALVERSION}.tar.gz"
-SOURCEFILE="pulumi_random-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/55/7f/06e21dd56275973a64a06e6928eed0ba38ca513512ef5adc7084edcef6d4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

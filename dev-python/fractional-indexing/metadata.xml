@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Fractional Indexing&gt; This is a Python port of the original JavaScript implementation by [@rocicorp](https://github.com/rocicorp):&gt; https://github.com/rocicorp/fractional-indexing---This is based on [Implementing Fractional Indexing](https://observablehq.com/@dgreensp/implementing-fractional-indexing) by [David Greenspan](https://github.com/dgreensp).Fractional indexing is a technique to create an ordering that can be used for [Realtime Editing of Ordered Sequences](https://www.figma.com/blog/realtime-editing-of-ordered-sequences/).This implementation includes variable-length integers, and the prepend/append optimization described in David's article.This should be byte-for-byte compatible with [rocicorp/fractional-indexing](https://github.com/rocicorp/fractional-indexing) (JavaScript) and [rocicorp/fracdex](https://github.com/rocicorp/fracdex) (Go).## Installation```bash$ pip install fractional-indexing```## Usage```pythonfrom fractional_indexing import generate_key_betweenfirst = generate_key_between(None, None)assert first == 'a0'# Insert after 1stsecond = generate_key_between(first, None)assert second == 'a1'# Insert after 2ndthird = generate_key_between(second, None)assert third == 'a2'# Insert before 1stzeroth = generate_key_between(None, first)assert zeroth == 'Zz'# Insert in between 2nd and 3rd. Midpointsecond_and_half = generate_key_between(second, third)assert second_and_half == 'a1V'```</longdescription>
+</pkgmetadata>

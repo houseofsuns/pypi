@@ -15,8 +15,8 @@ DESCRIPTION="Game data and save game data flag utilities for LoZ:BotW"
 
 HOMEPAGE="https://github.com/GingerAvalanche/botw_flag_util"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6c/13/b62aa1d5991aa522a70d189cf1bd7bf8cb0204300f17c59e3262d67f87d8/botw_flag_util-${REALVERSION}.tar.gz"
-SOURCEFILE="botw_flag_util-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6c/13/b62aa1d5991aa522a70d189cf1bd7bf8cb0204300f17c59e3262d67f87d8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

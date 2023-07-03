@@ -15,8 +15,8 @@ DESCRIPTION="Python wrapper around the Deciphon C library"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5d/82/f218881baaf6a78cf35dd2abdb0ed616337fba227b1e5c5dca26a2b1b09c/deciphon_core-${REALVERSION}.tar.gz"
-SOURCEFILE="deciphon_core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5d/82/f218881baaf6a78cf35dd2abdb0ed616337fba227b1e5c5dca26a2b1b09c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A OpenAI Gym Env for Rover with Arm"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b2/8f/06fee2b51c6da0e06df2cf5ffa3fa0d1bbb2c27a90d5bbe8fdceb726c975/rover_arm-${REALVERSION}.tar.gz"
-SOURCEFILE="rover_arm-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b2/8f/06fee2b51c6da0e06df2cf5ffa3fa0d1bbb2c27a90d5bbe8fdceb726c975/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

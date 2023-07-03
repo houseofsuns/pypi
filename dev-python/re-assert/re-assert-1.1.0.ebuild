@@ -15,8 +15,8 @@ DESCRIPTION="show where your regex match assertion failed!"
 
 HOMEPAGE="https://github.com/asottile/re-assert"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/72/89/5801de335fa7a9cd9f402f66680b14be076d2084dd8244e3a3136a743262/re_assert-${REALVERSION}.tar.gz"
-SOURCEFILE="re_assert-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/72/89/5801de335fa7a9cd9f402f66680b14be076d2084dd8244e3a3136a743262/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

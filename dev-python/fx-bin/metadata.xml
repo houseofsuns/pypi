@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=============FX bin=============A common bin collection for my own usageFeatures--------* sizeInstall-------    pip install --upgrade fx-bin=======History=======0.1.0 (2019-07-27)------------------* First release on PyPI.</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="Factories for Django, creating valid model instances every time."
 
 HOMEPAGE="http://github.com/jamescooke/factory_djoy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5e/ab/49144e33c8d5b74733e84ed4addccfb1b471e033e2bbe229f6d26d7e36a9/factory_djoy-${REALVERSION}.tar.gz"
-SOURCEFILE="factory_djoy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5e/ab/49144e33c8d5b74733e84ed4addccfb1b471e033e2bbe229f6d26d7e36a9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

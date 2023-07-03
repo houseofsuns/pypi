@@ -15,8 +15,8 @@ DESCRIPTION="Checks syntax of reStructuredText and code blocks nested within it"
 
 HOMEPAGE="https://github.com/rstcheck/rstcheck-core"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/59/5f/e294c13355b8cfeb2a8fccd39a596ef653f3c978db72d5dbe8bf237db88d/rstcheck_core-${REALVERSION}.tar.gz"
-SOURCEFILE="rstcheck_core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/59/5f/e294c13355b8cfeb2a8fccd39a596ef653f3c978db72d5dbe8bf237db88d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

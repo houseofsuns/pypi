@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># network_scanner_kbkProject to impliment a network scanner for comparing subnets# Example UsageExample of using the network_scanner utility to scan 2 given subnets and lookfor devices that can only be accessed through exactly one of the subnets.```# Import the NetworkScanner classfrom network_scanner_kbk import NetworkScanner# Create an instance of the NetworkScanner classns = NetworkScanner()# Provide 2 subnet addresses in CIDR /24 notationsubnet1 = &quot;192.168.0.0/24&quot;subnet2 = &quot;192.168.1.0/24&quot;# Call find_singularly_reachable_devices() to obtain the list of devices (ips)devices = ns.find_singularly_reachable_devices(subnet1, subnet2)print(&quot;List of devices accessible on exactly one subnet:&quot;)for d in devices:    print(d)```This package comes with unit tests.  They can be run as follows:```cd network_scanner_kbk/testspython test_network_scanner.py```</longdescription>
+</pkgmetadata>

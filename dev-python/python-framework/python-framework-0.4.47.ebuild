@@ -15,8 +15,8 @@ DESCRIPTION="Flask wrapper"
 
 HOMEPAGE="https://github.com/SamuelJansen/python-framework/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/36/ae/baf24d2e492be778bbc58a231b5c399f06310a0a04358ea2c9761c204bf0/python_framework-${REALVERSION}.tar.gz"
-SOURCEFILE="python_framework-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/36/ae/baf24d2e492be778bbc58a231b5c399f06310a0a04358ea2c9761c204bf0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

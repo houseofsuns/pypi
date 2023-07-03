@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># LOBSTERThe **L**ightweight **O**pen **B**MW **S**oftware **T**raceability**E**vidence **R**eport allows you to demonstrate software traceabilityand requirements coverage, which is essential for meeting standardssuch as ISO 26262.This package contains a tool extract tracing tags from JSON files. Thetool expects a json file with a list of objects, for which you canspecify members to extract by name. It is extremely simplistic but itmay be good enough to support some use-cases.If you have a more complex file format you will likely need to provideyour own tool for your own files.## Tools* `lobster-json`: Extract activities from JSON files## Copyright &amp; License informationThe copyright holder of LOBSTER is the Bayerische Motoren WerkeAktiengesellschaft (BMW AG), and LOBSTER is published under the [GNUAffero General Public License, Version 3](../LICENSE.md).</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="OSDU API Client"
 
 HOMEPAGE="https://github.com/micmurawski/osdu-client/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d2/db/6def5202937247f3c2ed66aa58a3a8ecfd90dc1b7c95dc6acda751da0551/osdu_client-${REALVERSION}.tar.gz"
-SOURCEFILE="osdu_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d2/db/6def5202937247f3c2ed66aa58a3a8ecfd90dc1b7c95dc6acda751da0551/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Scan your WiFi and get access point information and signal quality.
 
 HOMEPAGE="https://github.com/kootenpv/access_points"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ea/67/dc8bb11410f2e4108fbabbeafeff62dedcd30d4f82ece6bcb2965f90c5ec/access_points-${REALVERSION}.tar.gz"
-SOURCEFILE="access_points-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ea/67/dc8bb11410f2e4108fbabbeafeff62dedcd30d4f82ece6bcb2965f90c5ec/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

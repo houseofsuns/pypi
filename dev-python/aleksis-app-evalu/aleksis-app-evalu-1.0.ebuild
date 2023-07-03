@@ -15,8 +15,8 @@ DESCRIPTION="Unofficial AlekSIS App EvaLU (Evaluation of teaching and lesson qua
 
 HOMEPAGE="https://edugit.org/katharineum/AlekSIS-App-EvaLU"
 LICENSE="EUPL-1.2"
-SRC_URI="https://files.pythonhosted.org/packages/b3/e3/0c6a5496fa233bf4eb5d76ae0854e0a0a5f242df9c6da5fcf4a9ccc2475e/aleksis_app_evalu-${REALVERSION}.tar.gz"
-SOURCEFILE="aleksis_app_evalu-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b3/e3/0c6a5496fa233bf4eb5d76ae0854e0a0a5f242df9c6da5fcf4a9ccc2475e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

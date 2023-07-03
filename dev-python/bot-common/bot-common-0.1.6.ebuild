@@ -15,8 +15,8 @@ DESCRIPTION="Common libraries AISAC Bot"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0c/9e/279520225e0bedef2bd07a5e169b629c906fdd5593af7ee03059b2e5151e/bot_common-${REALVERSION}.tar.gz"
-SOURCEFILE="bot_common-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0c/9e/279520225e0bedef2bd07a5e169b629c906fdd5593af7ee03059b2e5151e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

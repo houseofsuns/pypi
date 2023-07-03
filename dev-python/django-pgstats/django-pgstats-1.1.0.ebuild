@@ -15,8 +15,8 @@ DESCRIPTION="Commands and models for tracking internal postgres stats."
 
 HOMEPAGE="https://github.com/Opus10/django-pgstats"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/72/9b/1efd2d4152f0a3072a2edb299cf8c07170c2a074ff385e708f898c971f7f/django_pgstats-${REALVERSION}.tar.gz"
-SOURCEFILE="django_pgstats-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/72/9b/1efd2d4152f0a3072a2edb299cf8c07170c2a074ff385e708f898c971f7f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

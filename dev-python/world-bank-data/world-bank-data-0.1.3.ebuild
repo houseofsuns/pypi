@@ -15,8 +15,8 @@ DESCRIPTION="World Bank Data API in Python"
 
 HOMEPAGE="https://github.com/mwouts/world_bank_data"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/97/bc/2f0b8683be344d0fe39b0c145174c04d9b3c9b4128f73b553e67f9e94368/world_bank_data-${REALVERSION}.tar.gz"
-SOURCEFILE="world_bank_data-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/97/bc/2f0b8683be344d0fe39b0c145174c04d9b3c9b4128f73b553e67f9e94368/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

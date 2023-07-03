@@ -15,8 +15,8 @@ DESCRIPTION="The package allows performing a transformation of a signal using Te
 
 HOMEPAGE="https://github.com/Ilyushin/signal-transformation"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/dc/9b/38df5c3dcfb13e7765fb2df9024b613f84084d80701590ad8dfa05a341c9/signal_transformation-${REALVERSION}.tar.gz"
-SOURCEFILE="signal_transformation-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/dc/9b/38df5c3dcfb13e7765fb2df9024b613f84084d80701590ad8dfa05a341c9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

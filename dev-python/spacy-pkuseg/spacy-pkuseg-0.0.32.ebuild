@@ -15,8 +15,8 @@ DESCRIPTION="Chinese word segmentation toolkit for spaCy (fork of pkuseg-python)
 
 HOMEPAGE="https://github.com/explosion/spacy-pkuseg"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/64/d2/1b8c54075d4acbe8587f25bb69b38fef617af78cfb6502381eba0703dd53/spacy_pkuseg-${REALVERSION}.tar.gz"
-SOURCEFILE="spacy_pkuseg-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/64/d2/1b8c54075d4acbe8587f25bb69b38fef617af78cfb6502381eba0703dd53/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

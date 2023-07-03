@@ -15,8 +15,8 @@ DESCRIPTION="The Python library for Archimedes"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f1/fd/1cc3836bf520a8e6cfb58288fbe1038136c1d7f5f2be5b75420f8a26060d/archimedes_python_client-${REALVERSION}.tar.gz"
-SOURCEFILE="archimedes_python_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f1/fd/1cc3836bf520a8e6cfb58288fbe1038136c1d7f5f2be5b75420f8a26060d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

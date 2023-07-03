@@ -15,8 +15,8 @@ DESCRIPTION="Create STAC Items from raster datasets."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0f/6a/6aa1701df8da0caa214a8e173f0ff5dc35d7bd7c1713133f31c39b744b6b/rio_stac-${REALVERSION}.tar.gz"
-SOURCEFILE="rio_stac-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0f/6a/6aa1701df8da0caa214a8e173f0ff5dc35d7bd7c1713133f31c39b744b6b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Library for running experiments with Seldonian algorithms"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d1/3b/fe279b963a340619b4a3292843ea2748e69962fc4bd95202b860ec5f7e8c/seldonian_experiments-${REALVERSION}.tar.gz"
-SOURCEFILE="seldonian_experiments-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d1/3b/fe279b963a340619b4a3292843ea2748e69962fc4bd95202b860ec5f7e8c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

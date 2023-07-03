@@ -15,8 +15,8 @@ DESCRIPTION="A Python async client for the Meilisearch API"
 
 HOMEPAGE="https://github.com/sanders41/meilisearch-python-async"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/43/ca/b5abfa00acab72928abc9735fbc916a6f85dfc4bfae613a557871dce639e/meilisearch_python_async-${REALVERSION}.tar.gz"
-SOURCEFILE="meilisearch_python_async-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/43/ca/b5abfa00acab72928abc9735fbc916a6f85dfc4bfae613a557871dce639e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

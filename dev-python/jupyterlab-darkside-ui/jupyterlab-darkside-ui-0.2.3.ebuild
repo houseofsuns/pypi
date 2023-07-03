@@ -15,8 +15,8 @@ DESCRIPTION="darkside ui and syntax theme for jupyterlab"
 
 HOMEPAGE="https://github.com/dunovank/jupyterlab_darkside_ui"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/ec/b3/22d60efb018632356a246aed3270e4857da6ecd1def3dce1c659a0d59a04/jupyterlab_darkside_ui-${REALVERSION}.tar.gz"
-SOURCEFILE="jupyterlab_darkside_ui-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ec/b3/22d60efb018632356a246aed3270e4857da6ecd1def3dce1c659a0d59a04/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

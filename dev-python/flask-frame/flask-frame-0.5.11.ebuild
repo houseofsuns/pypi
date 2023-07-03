@@ -15,8 +15,8 @@ DESCRIPTION="基于FLASK快速开发REST接口框架"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5e/58/88bce7016b6ec81c59b15d566606a1fad84524e8cd04ea22bb8c4441e3b1/flask_frame-${REALVERSION}.tar.gz"
-SOURCEFILE="flask_frame-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5e/58/88bce7016b6ec81c59b15d566606a1fad84524e8cd04ea22bb8c4441e3b1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

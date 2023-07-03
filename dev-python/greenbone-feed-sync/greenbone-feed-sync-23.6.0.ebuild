@@ -15,8 +15,8 @@ DESCRIPTION="Synchronization for the Greenbone Community Feed"
 
 HOMEPAGE=""
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/5d/1e/9f6d9581130b2e91673f410482dab648c40dd5ecee221ac2336613d60d56/greenbone_feed_sync-${REALVERSION}.tar.gz"
-SOURCEFILE="greenbone_feed_sync-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5d/1e/9f6d9581130b2e91673f410482dab648c40dd5ecee221ac2336613d60d56/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

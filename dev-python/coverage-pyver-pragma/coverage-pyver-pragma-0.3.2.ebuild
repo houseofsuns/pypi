@@ -15,8 +15,8 @@ DESCRIPTION="Plugin for Coverage.py to selectively ignore branches depending on 
 
 HOMEPAGE="https://github.com/python-coincidence/coverage_pyver_pragma"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e8/a4/690f6724076878e9ab594d0dcc64bda4b0467bbd40dcf6650be538218635/coverage_pyver_pragma-${REALVERSION}.tar.gz"
-SOURCEFILE="coverage_pyver_pragma-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e8/a4/690f6724076878e9ab594d0dcc64bda4b0467bbd40dcf6650be538218635/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

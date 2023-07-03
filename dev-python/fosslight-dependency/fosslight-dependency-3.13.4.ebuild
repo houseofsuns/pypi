@@ -15,8 +15,8 @@ DESCRIPTION="FOSSLight Dependency Scanner"
 
 HOMEPAGE="https://github.com/fosslight/fosslight_dependency_scanner"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/56/c0/af328234014395d93a9f820d8731fd9a81f66807bc4be316b5a243b9b69c/fosslight_dependency-${REALVERSION}.tar.gz"
-SOURCEFILE="fosslight_dependency-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/56/c0/af328234014395d93a9f820d8731fd9a81f66807bc4be316b5a243b9b69c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

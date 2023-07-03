@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## 🌴 tree-sitter-solidity [![Node.js CI](https://github.com/JoranHonig/tree-sitter-solidity/actions/workflows/node.js.yml/badge.svg)](https://github.com/JoranHonig/tree-sitter-solidity/actions/workflows/node.js.yml)[![npm version](https://badge.fury.io/js/tree-sitter-solidity.svg)](https://badge.fury.io/js/tree-sitter-solidity)&gt; 💡 this grammar is still in development, the structure of the generated AST is not stableThis repository contains a grammar for [tree-sitter](https://github.com/tree-sitter/tree-sitter).The goal of this project is to provide an parser efficient low-dependency parser for solidity which targets most solidity versions in use and is designed for enabling metaprogramming.### Navigating this repositoryThe primary file in this repository is `grammar.js` which describes the tree-sitter grammar.```# Primary file:grammar.js# Tests:/test/**/*# Auto generated:/src/**/*index.jsbinding.gyp```### References-&gt; Ethereum solidity grammar: - https://github.com/ethereum/solidity/blob/develop/docs/grammar/SolidityParser.g4- https://github.com/ethereum/solidity/blob/develop/docs/grammar/SolidityLexer.g4- https://docs.soliditylang.org/en/latest/grammar.html?#-&gt; Tree-sitter javascript grammar: https://github.com/tree-sitter/tree-sitter-javascript/blob/master/grammar.js-&gt; Solidity antlr grammar: https://github.com/ConsenSys/solidity-parser-antlrMajor inspriration &amp; some structures have been taken from tree-sitter-javascript, a big thanks to the contributors to this repo! </longdescription>
+</pkgmetadata>

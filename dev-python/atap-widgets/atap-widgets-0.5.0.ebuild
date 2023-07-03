@@ -15,8 +15,8 @@ DESCRIPTION="Interactive widgets used by the Australian Text Analytics Platform"
 
 HOMEPAGE="https://github.com/Australian-Text-Analytics-Platform/atap_widgets"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/25/40/442bc4bc4fa68c446eccec64ab2daa0b7f8240ab65efd103099e5cfa3f7c/atap_widgets-${REALVERSION}.tar.gz"
-SOURCEFILE="atap_widgets-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/25/40/442bc4bc4fa68c446eccec64ab2daa0b7f8240ab65efd103099e5cfa3f7c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

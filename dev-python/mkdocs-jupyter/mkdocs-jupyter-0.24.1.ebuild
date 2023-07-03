@@ -15,8 +15,8 @@ DESCRIPTION="Use Jupyter in mkdocs websites"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e1/ae/e4b8566e908c1960adaee6b0fb10973eafcc43515e50ad907c1059904bf2/mkdocs_jupyter-${REALVERSION}.tar.gz"
-SOURCEFILE="mkdocs_jupyter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e1/ae/e4b8566e908c1960adaee6b0fb10973eafcc43515e50ad907c1059904bf2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

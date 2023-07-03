@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8b/37/d42acba4952d3f2e95075c15b30719e4cbd0b989d0cba95197aac92c746a/crispr_shrinkage-${REALVERSION}.tar.gz"
-SOURCEFILE="crispr_shrinkage-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8b/37/d42acba4952d3f2e95075c15b30719e4cbd0b989d0cba95197aac92c746a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

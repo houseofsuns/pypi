@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># fastapi-healthcheck-sqlalchemyA module built on top of fastapi_healthcheck to check the status of your SQLAlchemy connection.  This requires a Table given to the health check so it can run a count of rows against it.  As long as it returns a value, the connection is alive.## Install`pip install fastapi-healthcheck-sqlalchemy` or `poetry add fastapi-healthcheck-sqlalchemy`## How to useThis module just exposes the service layer that will be used to parse your middleware connection to your database.  ```pythonfrom fastapi import FastAPIfrom fastapi_sqlalchemy import DBSessionMiddlewarefrom fastapi_healthcheck import HealthCheckFactory, healthCheckRoutefrom fastapi_healthcheck_sqlalchemy import HealthCheckSQLAlchemyapp = FastAPI()# Bring SQLAlchemy online first.app.add_middleware(DBSessionMiddleware, db_url=cs.value)_healthChecks = HealthCheckFactory()_healthChecks.add(    HealthCheckSQLAlchemy(        # The name of the object for your reference        alias='postgres db',          # The Table that we will run a count method against.        table=SmtpContactsSqlModel,         tags=('postgres', 'db', 'sql01')    ))app.add_api_route('/health', endpoint=healthCheckRoute(factory=_healthChecks))```</longdescription>
+</pkgmetadata>

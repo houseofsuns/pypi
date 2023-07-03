@@ -15,8 +15,8 @@ DESCRIPTION="Add inline tabbed content to your Sphinx documentation."
 
 HOMEPAGE="https://github.com/pradyunsg/sphinx-inline-tabs"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/48/f5/f8a2be63ed7be9f91a4c2bea0e25bcb56aa4c5cc37ec4d8ead8065f926b1/sphinx_inline_tabs-${REALVERSION}.tar.gz"
-SOURCEFILE="sphinx_inline_tabs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/48/f5/f8a2be63ed7be9f91a4c2bea0e25bcb56aa4c5cc37ec4d8ead8065f926b1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

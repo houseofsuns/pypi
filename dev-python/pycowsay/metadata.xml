@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pycowsayA talking cow!## RunUse [pipx](https://github.com/pipxproject/pipx) to run without permanently installing```pipx run pycowsay mooo``````&gt;&gt; pipx run pycowsay mooooo  ------&lt; mooooo &gt;  ------   \   ^__^    \  (oo)\_______       (__)\       )\/\           ||----w |           ||     ||```## InstallUse [pipx](https://github.com/pipxproject/pipx) to install to isolated environment```pipx install pycowsay```or```pip install pycowsay```---```&gt;&gt; pycowsay mooooo  ------&lt; mooooo &gt;  ------   \   ^__^    \  (oo)\_______       (__)\       )\/\           ||----w |           ||     ||```</longdescription>
+</pkgmetadata>

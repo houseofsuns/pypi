@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>===============================================================Tools to trace cryoEM SPA processing results through EPU output===============================================================Installation------------An installation of `PostgreSQL &lt;https://www.postgresql.org&gt;`_ is required. The easiest way is to work in a ``conda`` environment and simply run ``conda install postgresql``.After installation run .. code:: bash     smartem.init -d &lt;path/to/where/data/will/go&gt;This will run basic database setup. Upon completion this should suggest running a command to set the environment variable ``SMARTEM_CREDENTIALS`` which will setup database access credentials for you. The database server is started with.. code:: bash     smartem.start -d &lt;path/to/where/data/will/go&gt;and once you no longer need the server it can be stopped with .. code:: bash     smartem.stop -d &lt;path/to/where/data/will/go&gt;The ``smartem`` GUI can be launched (if there is a database server running) with .. code:: bash     smartem.launch</longdescription>
+</pkgmetadata>

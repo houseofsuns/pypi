@@ -15,8 +15,8 @@ DESCRIPTION="Tools to manage ODS files"
 
 HOMEPAGE="https://github.com/OasisLMF/OpenDataStandards"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/80/00/7684bafb81fae6d134b41b9cbfc01b91f539c4475a998b1e6e093e2c0258/ods_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="ods_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/80/00/7684bafb81fae6d134b41b9cbfc01b91f539c4475a998b1e6e093e2c0258/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

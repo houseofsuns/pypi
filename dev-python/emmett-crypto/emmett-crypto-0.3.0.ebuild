@@ -15,8 +15,8 @@ DESCRIPTION="Emmett framework cryptographic library"
 
 HOMEPAGE="https://emmett.sh"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/7d/fd/73c8aaf930ae6d08ab71b94ab12fcab76ed6969394ab096f7db280c36295/emmett_crypto-${REALVERSION}.tar.gz"
-SOURCEFILE="emmett_crypto-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7d/fd/73c8aaf930ae6d08ab71b94ab12fcab76ed6969394ab096f7db280c36295/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

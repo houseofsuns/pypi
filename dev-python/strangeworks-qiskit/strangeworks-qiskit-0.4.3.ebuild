@@ -15,8 +15,8 @@ DESCRIPTION="Strangeworks Qiskit SDK Extension"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/4b/ad/32206e83ccff4072701508630e1c6ad26ef5d83d38f5bb2820e599e0143d/strangeworks_qiskit-${REALVERSION}.tar.gz"
-SOURCEFILE="strangeworks_qiskit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4b/ad/32206e83ccff4072701508630e1c6ad26ef5d83d38f5bb2820e599e0143d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

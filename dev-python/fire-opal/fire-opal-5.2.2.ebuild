@@ -15,8 +15,8 @@ DESCRIPTION="Fire Opal Client"
 
 HOMEPAGE="https://q-ctrl.com"
 LICENSE="https://q-ctrl.com/terms"
-SRC_URI="https://files.pythonhosted.org/packages/a5/b1/92212dc51f914c7c0038af7c676678638665d3443cd0d391c02b94c0ecab/fire_opal-${REALVERSION}.tar.gz"
-SOURCEFILE="fire_opal-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a5/b1/92212dc51f914c7c0038af7c676678638665d3443cd0d391c02b94c0ecab/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

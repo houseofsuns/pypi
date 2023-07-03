@@ -15,8 +15,8 @@ DESCRIPTION="Pretty and helpful exceptions, automatically"
 
 HOMEPAGE="https://github.com/qix-/better-exceptions"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/26/d8/30b745b965765c08ee132fd590fca46c31296e8f1a606de0c53cc6b5a68f/better_exceptions-${REALVERSION}.tar.gz"
-SOURCEFILE="better_exceptions-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/26/d8/30b745b965765c08ee132fd590fca46c31296e8f1a606de0c53cc6b5a68f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

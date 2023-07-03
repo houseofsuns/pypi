@@ -15,8 +15,8 @@ DESCRIPTION="fal Serverless is an easy-to-use Serverless Python Framework"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7f/59/1d62bbb4fc4cd4dd249b5c72c0b8def91c25416b6dfe73898ec944f1bc1e/fal_serverless-${REALVERSION}.tar.gz"
-SOURCEFILE="fal_serverless-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7f/59/1d62bbb4fc4cd4dd249b5c72c0b8def91c25416b6dfe73898ec944f1bc1e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Digital signatureThis project is an application for digitally signing pdfs.The user provides a pdf that will be signed using an Ed25519 algorithm.Additionally, for providing a better user experience a new page will be appendedat the end of the pdf that offers visual feedback to the user that the documentwas indeed signed.</longdescription>
+</pkgmetadata>

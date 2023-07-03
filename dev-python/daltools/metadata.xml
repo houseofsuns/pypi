@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![Build Status](https://travis-ci.org/vahtras/daltools.svg?branch=master)](https://travis-ci.org/vahtras/daltools)[![Coverage Status](https://coveralls.io/repos/github/vahtras/daltools/badge.svg?branch=master)](https://coveralls.io/github/vahtras/daltools?branch=master)![Python package](https://github.com/vahtras/daltools/workflows/Python%20package/badge.svg)# About daltoolsDaltools is a collection of utilities for extracting data from a[Dalton](https://daltonprogram.org) calculation. It is experimental in natureand has been designed for prototyping and testing.</longdescription>
+</pkgmetadata>

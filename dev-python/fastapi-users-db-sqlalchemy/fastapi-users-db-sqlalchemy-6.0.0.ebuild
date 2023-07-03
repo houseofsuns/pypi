@@ -15,8 +15,8 @@ DESCRIPTION="FastAPI Users database adapter for SQLAlchemy"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/86/79/0764065ace870449953c1b74e2cec39d63cb2b0b4af2d04aadcd6ce2d025/fastapi_users_db_sqlalchemy-${REALVERSION}.tar.gz"
-SOURCEFILE="fastapi_users_db_sqlalchemy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/86/79/0764065ace870449953c1b74e2cec39d63cb2b0b4af2d04aadcd6ce2d025/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

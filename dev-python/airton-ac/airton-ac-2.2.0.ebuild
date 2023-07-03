@@ -15,8 +15,8 @@ DESCRIPTION="Control an Airton AC device over LAN."
 
 HOMEPAGE="https://github.com/gpajot/airton-ac"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cd/3b/dbb6d6246a2c72c0f2734961a3673bee825fafc0ed43b768c346dce45c9a/airton_ac-${REALVERSION}.tar.gz"
-SOURCEFILE="airton_ac-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cd/3b/dbb6d6246a2c72c0f2734961a3673bee825fafc0ed43b768c346dce45c9a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

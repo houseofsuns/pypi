@@ -15,8 +15,8 @@ DESCRIPTION="Create a version file from a simple YAML config file"
 
 HOMEPAGE="https://github.com/DudeNr33/pyinstaller-versionfile"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b1/51/f6908bdf1c43194d159dfdf82a672d4557e78767e58eacc568c21a0a0253/pyinstaller_versionfile-${REALVERSION}.tar.gz"
-SOURCEFILE="pyinstaller_versionfile-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b1/51/f6908bdf1c43194d159dfdf82a672d4557e78767e58eacc568c21a0a0253/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

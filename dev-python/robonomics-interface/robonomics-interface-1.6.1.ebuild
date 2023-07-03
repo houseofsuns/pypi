@@ -15,8 +15,8 @@ DESCRIPTION="Robonomics wrapper over https://github.com/polkascan/py-substrate-i
 
 HOMEPAGE="https://github.com/Multi-Agent-io/robonomics-interface"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d5/bf/6dbecef0c1fed3224ebe02d8e48bb59efe8a4e2856139d0bb4cccd71c177/robonomics_interface-${REALVERSION}.tar.gz"
-SOURCEFILE="robonomics_interface-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d5/bf/6dbecef0c1fed3224ebe02d8e48bb59efe8a4e2856139d0bb4cccd71c177/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

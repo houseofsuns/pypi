@@ -15,8 +15,8 @@ DESCRIPTION="Pacote de consumo da Plug Boleto"
 
 HOMEPAGE="https://bitbucket.org/grupolinsferrao/pypck-lins-plugboleto/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/99/7e/e1e725ffd62f55f54089e692be3c7007805417ec61e6f1bd080052e20dad/lins_plugboleto-${REALVERSION}.tar.gz"
-SOURCEFILE="lins_plugboleto-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/99/7e/e1e725ffd62f55f54089e692be3c7007805417ec61e6f1bd080052e20dad/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

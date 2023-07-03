@@ -15,8 +15,8 @@ DESCRIPTION="Simplyify sending HTML emails"
 
 HOMEPAGE="https://github.com/abkfenris/email_to"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b6/37/1df96f9687991f7c61830d61395029615198106ab10f1863df03c96b83ba/email_to-${REALVERSION}.tar.gz"
-SOURCEFILE="email_to-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b6/37/1df96f9687991f7c61830d61395029615198106ab10f1863df03c96b83ba/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

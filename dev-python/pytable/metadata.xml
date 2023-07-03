@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>BasicProperty-based RDBMS WrapperPyTable provides a schema-based mechanism for constructingdatabase-based applications.  Included is a fairly elegantSQLQuery object which makes creation of complex SQL in responseto application requirements somewhat easier, as well asclasses allowing the modelling of database schemas.Can read MySQL and PostgreSQL schemas from live databases.Can build databases from schemas.Does not attempt to abstract away differences in SQL syntax.Provides optional object-oriented row-wrappers withBasicProperty properties defining fields.</longdescription>
+</pkgmetadata>

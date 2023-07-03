@@ -15,8 +15,8 @@ DESCRIPTION="Alibaba Cloud 3D space reconstruction (20200101) SDK Library for Py
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python2-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/9e/2e/e9f2ccca4f371d2b5504308cfc65d434f79dd0bc31ae2d4c403cad32b289/alibabacloud_tdsr20200101_py2-${REALVERSION}.tar.gz"
-SOURCEFILE="alibabacloud_tdsr20200101_py2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9e/2e/e9f2ccca4f371d2b5504308cfc65d434f79dd0bc31ae2d4c403cad32b289/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

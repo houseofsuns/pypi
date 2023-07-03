@@ -15,8 +15,8 @@ DESCRIPTION="Generate fancy text"
 
 HOMEPAGE="https://github.com/nitanmarcel/fancy_text"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/54/90/2f28d798a798ebe24602032403967bfa7ee9c75e7172e7e8d831975ed499/fancy_text-${REALVERSION}.tar.gz"
-SOURCEFILE="fancy_text-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/54/90/2f28d798a798ebe24602032403967bfa7ee9c75e7172e7e8d831975ed499/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

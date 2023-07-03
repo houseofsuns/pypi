@@ -15,8 +15,8 @@ DESCRIPTION="Transform Python source code into it's most compact representation"
 
 HOMEPAGE="https://github.com/dflook/python-minifier"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/06/01/693c38fe45f15b7f81f9773d75e465127c6e63932d3474c54504bd32cba7/python_minifier-${REALVERSION}.tar.gz"
-SOURCEFILE="python_minifier-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/06/01/693c38fe45f15b7f81f9773d75e465127c6e63932d3474c54504bd32cba7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="The rpc-util module of alibabaCloud Python SDK."
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-rpc-util-sdk/tree/master/python"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/61/7b/4bceef3b541537184a14162b97c4179a4a55ab7be93075375689b0dce6b5/alibabacloud_rpc_util-${REALVERSION}.tar.gz"
-SOURCEFILE="alibabacloud_rpc_util-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/61/7b/4bceef3b541537184a14162b97c4179a4a55ab7be93075375689b0dce6b5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

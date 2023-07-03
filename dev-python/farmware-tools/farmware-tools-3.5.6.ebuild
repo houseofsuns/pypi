@@ -15,8 +15,8 @@ DESCRIPTION="Farmware convenience functions for use in FarmBot OS."
 
 HOMEPAGE="https://github.com/FarmBot-Labs/farmware-tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a0/39/4b3e1a2e46d4e1c34339c9ae764dc75e318423627ceef15c16b4ef452169/farmware_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="farmware_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a0/39/4b3e1a2e46d4e1c34339c9ae764dc75e318423627ceef15c16b4ef452169/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

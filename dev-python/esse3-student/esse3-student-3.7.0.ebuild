@@ -15,8 +15,8 @@ DESCRIPTION="Esse3 command line utility"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5c/b7/21830ea7cacb6916c39639a8bd27f18183745f0434b2c7fdb28e278a86d6/esse3_student-${REALVERSION}.tar.gz"
-SOURCEFILE="esse3_student-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5c/b7/21830ea7cacb6916c39639a8bd27f18183745f0434b2c7fdb28e278a86d6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

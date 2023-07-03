@@ -15,8 +15,8 @@ DESCRIPTION="OpenTelemetry sklearn instrumentation"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-sklearn"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9b/e4/8013c6378131189338b711c643e34e2b1b2ad4d1e4e4cf68bc702f27dd98/opentelemetry_instrumentation_sklearn-${REALVERSION}.tar.gz"
-SOURCEFILE="opentelemetry_instrumentation_sklearn-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9b/e4/8013c6378131189338b711c643e34e2b1b2ad4d1e4e4cf68bc702f27dd98/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

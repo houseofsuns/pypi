@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/Kontinuum-Investment-Holdings/KIH_API"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c5/2e/ed78b7cd79688da71d69de1b5ff0db8ceeb5ac66fc556b3c50a6f9bdb50c/kih_api-${REALVERSION}.tar.gz"
-SOURCEFILE="kih_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c5/2e/ed78b7cd79688da71d69de1b5ff0db8ceeb5ac66fc556b3c50a6f9bdb50c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A library to create forms in aiogram3"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/04/37/6c80456c065a2979f6465654ba41fef166f9d319d7ae8fae75a8e95068fb/aiogram3_form-${REALVERSION}.tar.gz"
-SOURCEFILE="aiogram3_form-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/04/37/6c80456c065a2979f6465654ba41fef166f9d319d7ae8fae75a8e95068fb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

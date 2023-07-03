@@ -15,8 +15,8 @@ DESCRIPTION="Vanilla HTML components for Dash"
 
 HOMEPAGE="https://github.com/plotly/dash-html-components"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/14/c6/957d5e83b620473eb3c8557a253fb01c6a817b10ca43d3ff9d31796f32a6/dash_html_components-${REALVERSION}.tar.gz"
-SOURCEFILE="dash_html_components-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/14/c6/957d5e83b620473eb3c8557a253fb01c6a817b10ca43d3ff9d31796f32a6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

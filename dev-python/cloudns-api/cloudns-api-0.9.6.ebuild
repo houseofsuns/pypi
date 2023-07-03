@@ -15,8 +15,8 @@ DESCRIPTION="A python interface to the ClouDNS.net API"
 
 HOMEPAGE="https://github.com/prestix-studio/cloudns_api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/00/f0/588cd52ef711394271026411d03e661575d3f8ebc41c61893a13b0fe0722/cloudns_api-${REALVERSION}.tar.gz"
-SOURCEFILE="cloudns_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/00/f0/588cd52ef711394271026411d03e661575d3f8ebc41c61893a13b0fe0722/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

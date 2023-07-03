@@ -15,8 +15,8 @@ DESCRIPTION="A library for working with ONTAP's REST APIs simply in Python"
 
 HOMEPAGE="https://devnet.netapp.com/restapi.php"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/54/1c/2571515b122ec05f82447ca709dd372a8845169005a6a4c7d1834f1391d5/netapp_ontap-${REALVERSION}.tar.gz"
-SOURCEFILE="netapp_ontap-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/54/1c/2571515b122ec05f82447ca709dd372a8845169005a6a4c7d1834f1391d5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

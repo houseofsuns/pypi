@@ -15,8 +15,8 @@ DESCRIPTION="LifeOmic Python Logging Library."
 
 HOMEPAGE="https://github.com/lifeomic/logging-py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7a/ff/9b836c7b618e7e546bddd33c2517c8fbfd4edf6732bc5e18558f02626bb8/lifeomic_logging-${REALVERSION}.tar.gz"
-SOURCEFILE="lifeomic_logging-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7a/ff/9b836c7b618e7e546bddd33c2517c8fbfd4edf6732bc5e18558f02626bb8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Control the web with Python"
 
 HOMEPAGE="https://github.com/idom-team/django-idom"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fc/49/e30ce46840f7c203ea829b0b7f8476eb347e8a3a8bb0d60efb8085a47aed/django_idom-${REALVERSION}.tar.gz"
-SOURCEFILE="django_idom-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fc/49/e30ce46840f7c203ea829b0b7f8476eb347e8a3a8bb0d60efb8085a47aed/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

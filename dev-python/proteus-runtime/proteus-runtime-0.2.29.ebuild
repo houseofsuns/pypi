@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/01/16/c14514444291c7f6df8fa63c262d51f9065acb226211ee5068bdc6baf889/proteus_runtime-${REALVERSION}.tar.gz"
-SOURCEFILE="proteus_runtime-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/01/16/c14514444291c7f6df8fa63c262d51f9065acb226211ee5068bdc6baf889/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

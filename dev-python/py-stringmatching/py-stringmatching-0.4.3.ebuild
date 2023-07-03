@@ -15,8 +15,8 @@ DESCRIPTION="Python library for string matching."
 
 HOMEPAGE="https://sites.google.com/site/anhaidgroup/projects/magellan/py_stringmatching"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/f4/0d/f29825f3a75f30136a91d87580efe658f668bac770df091fcfb758d0ae75/py_stringmatching-${REALVERSION}.tar.gz"
-SOURCEFILE="py_stringmatching-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f4/0d/f29825f3a75f30136a91d87580efe658f668bac770df091fcfb758d0ae75/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

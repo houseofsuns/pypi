@@ -15,8 +15,8 @@ DESCRIPTION="Este es un paquete que permite utilizar cosas comunes a los microse
 
 HOMEPAGE="https://github.com/fernanxd17, https://github.com/PaolaBird"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d1/26/11986e3fbfcbaa17caa96ff860db7c6d6cc6ec636259f3cbfcc86e760ab2/common_structure_microservices-${REALVERSION}.tar.gz"
-SOURCEFILE="common_structure_microservices-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d1/26/11986e3fbfcbaa17caa96ff860db7c6d6cc6ec636259f3cbfcc86e760ab2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

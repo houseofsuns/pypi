@@ -15,8 +15,8 @@ DESCRIPTION="An extendable Django server for Stellar Ecosystem Proposals."
 
 HOMEPAGE="https://github.com/stellar/django-polaris"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f8/83/08274d16372de0466285375b264e5b0d4efb051e004f486f3a11c3d84b8a/django_polaris-${REALVERSION}.tar.gz"
-SOURCEFILE="django_polaris-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f8/83/08274d16372de0466285375b264e5b0d4efb051e004f486f3a11c3d84b8a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

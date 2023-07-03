@@ -15,8 +15,8 @@ DESCRIPTION="Activity worker for performing AWS StepFunctions tasks"
 
 HOMEPAGE="https://github.com/AmberEngine/stepfunctions_activity_worker"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7e/68/6776e400938595e091e4e0d4457f021e508c948560e433689ff66d278d82/stepfunctions_activity_worker-${REALVERSION}.tar.gz"
-SOURCEFILE="stepfunctions_activity_worker-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7e/68/6776e400938595e091e4e0d4457f021e508c948560e433689ff66d278d82/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

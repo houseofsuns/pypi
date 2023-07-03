@@ -15,8 +15,8 @@ DESCRIPTION="Provides asynchronous authentication and access to Freebox servers"
 
 HOMEPAGE="https://github.com/hacf-fr/freebox-api"
 LICENSE="GNU GPL v3"
-SRC_URI="https://files.pythonhosted.org/packages/d2/34/4cc2607c7bcafc18b6f1743c16c3c87171343fdfffb7774c82ce6869855d/freebox_api-${REALVERSION}.tar.gz"
-SOURCEFILE="freebox_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d2/34/4cc2607c7bcafc18b6f1743c16c3c87171343fdfffb7774c82ce6869855d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Computational workflow management"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/70/98/d5842b35de88e6e4312b953d2e25d026b66d1aa7a803116d589266f738d1/hpcflow_new2-${REALVERSION}.tar.gz"
-SOURCEFILE="hpcflow_new2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/70/98/d5842b35de88e6e4312b953d2e25d026b66d1aa7a803116d589266f738d1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

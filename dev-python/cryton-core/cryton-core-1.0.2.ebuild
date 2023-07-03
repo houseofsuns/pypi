@@ -15,8 +15,8 @@ DESCRIPTION="Advanced scheduler for attack scenarios"
 
 HOMEPAGE="https://gitlab.ics.muni.cz/cryton"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c1/98/92aaae9c02267daa795e87425168649a01ab328fe6711e6f952222804e2c/cryton_core-${REALVERSION}.tar.gz"
-SOURCEFILE="cryton_core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c1/98/92aaae9c02267daa795e87425168649a01ab328fe6711e6f952222804e2c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

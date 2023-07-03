@@ -15,8 +15,8 @@ DESCRIPTION="The python package used to generate, parse, and execute noqform yam
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/6f/80/c1e31a0542c8c742b4f9f67bf67da9ea788a31fe7a030465447db59f3205/iambic_core-${REALVERSION}.tar.gz"
-SOURCEFILE="iambic_core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6f/80/c1e31a0542c8c742b4f9f67bf67da9ea788a31fe7a030465447db59f3205/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

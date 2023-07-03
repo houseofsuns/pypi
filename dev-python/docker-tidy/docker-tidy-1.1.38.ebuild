@@ -15,8 +15,8 @@ DESCRIPTION="Keep docker hosts tidy."
 
 HOMEPAGE="https://docker-tidy.geekdocs.de/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/72/55/5ea9692a81f8df8e8a6a38a9a57c353beebbf36817af4d2eadd93116d16b/docker_tidy-${REALVERSION}.tar.gz"
-SOURCEFILE="docker_tidy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/72/55/5ea9692a81f8df8e8a6a38a9a57c353beebbf36817af4d2eadd93116d16b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

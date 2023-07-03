@@ -15,8 +15,8 @@ DESCRIPTION="Cipher, a backtesting framework."
 
 HOMEPAGE="https://cipher.nanvel.com/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0e/21/e671488a801e58e7505d7666e7cfe134cbb650e5e69ec99662866ab195f9/cipher_bt-${REALVERSION}.tar.gz"
-SOURCEFILE="cipher_bt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0e/21/e671488a801e58e7505d7666e7cfe134cbb650e5e69ec99662866ab195f9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

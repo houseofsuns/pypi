@@ -15,8 +15,8 @@ DESCRIPTION="flake8 plugin to check code quality in loops"
 
 HOMEPAGE="https://github.com/bdscharf/flake8_loopy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/21/10/c27d8c094a8815ddaad917735fead5f7cfd5cc898b8f37c29c6ad265076e/flake8_loopy-${REALVERSION}.tar.gz"
-SOURCEFILE="flake8_loopy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/21/10/c27d8c094a8815ddaad917735fead5f7cfd5cc898b8f37c29c6ad265076e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Nonebot2 基于accessToken登录的ChatGPT聊天插件"
 
 HOMEPAGE="https://github.com/nikissXI/nonebot_plugins/tree/main/nonebot_plugin_talk_with_chatgpt"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/62/9d/b5d6382cacaebaaef7f4498f2d118b3b802e2af75f1f3f9b47f6f9bc7801/nonebot_plugin_talk_with_chatgpt-${REALVERSION}.tar.gz"
-SOURCEFILE="nonebot_plugin_talk_with_chatgpt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/62/9d/b5d6382cacaebaaef7f4498f2d118b3b802e2af75f1f3f9b47f6f9bc7801/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

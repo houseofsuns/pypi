@@ -15,8 +15,8 @@ DESCRIPTION="Impala Shell"
 
 HOMEPAGE="https://impala.apache.org/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e6/b7/ab37b0cb95fb0e363193728bd29f8ce55d88bda434d7194821150b535a8b/impala_shell-${REALVERSION}.tar.gz"
-SOURCEFILE="impala_shell-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e6/b7/ab37b0cb95fb0e363193728bd29f8ce55d88bda434d7194821150b535a8b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

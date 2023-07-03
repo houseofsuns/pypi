@@ -15,8 +15,8 @@ DESCRIPTION="Routing Transformer (Pytorch)"
 
 HOMEPAGE="https://github.com/lucidrains/routing-transformer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/86/cb/c2df6d8e5e96c8cac412462a1998d4274ed96b074c69777b8c6d0545ae2f/routing_transformer-${REALVERSION}.tar.gz"
-SOURCEFILE="routing_transformer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/86/cb/c2df6d8e5e96c8cac412462a1998d4274ed96b074c69777b8c6d0545ae2f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

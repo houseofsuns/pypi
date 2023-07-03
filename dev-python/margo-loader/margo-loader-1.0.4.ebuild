@@ -15,8 +15,8 @@ DESCRIPTION="Import Jupyter notebooks using Margo notebook margin notebook synta
 
 HOMEPAGE="https://github.com/margo-notebooks/margo-loader-py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/75/3b/9e310e38de36dfdeadf81cd70fa309197debaa79185de4a2a16f4bd0f6bc/margo_loader-${REALVERSION}.tar.gz"
-SOURCEFILE="margo_loader-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/75/3b/9e310e38de36dfdeadf81cd70fa309197debaa79185de4a2a16f4bd0f6bc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

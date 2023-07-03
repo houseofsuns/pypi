@@ -15,8 +15,8 @@ DESCRIPTION="Pacote para controle de operacoes na AWS."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4e/64/5d07b9d164dc6b281253db76f00ee3b58e036087c090d5e27175b63d185b/nuvem_aws-${REALVERSION}.tar.gz"
-SOURCEFILE="nuvem_aws-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4e/64/5d07b9d164dc6b281253db76f00ee3b58e036087c090d5e27175b63d185b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Pytest plugin for runs tests directly from Markdown files"
 
 HOMEPAGE="https://github.com/mosquito/markdown-pytest"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/75/54/8a7280fd16986ce6ffcd6f2d6440e2d8ec791d1224612db8e02fc4916679/markdown_pytest-${REALVERSION}.tar.gz"
-SOURCEFILE="markdown_pytest-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/75/54/8a7280fd16986ce6ffcd6f2d6440e2d8ec791d1224612db8e02fc4916679/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

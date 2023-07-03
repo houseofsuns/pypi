@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># can_adaPython bindings for [Ada][], a fast and spec-compliant URL parser.## Installation```bashpip install can_ada```Binary wheels are available for most platforms. If not available, aC++17-or-greater compiler will be required to build the underlying Ada library.## UsageParsing is simple:```pythonfrom can_ada import parseurl = parse(&quot;https://tkte.ch/search?q=canada&quot;)print(url.protocol) # https:print(url.host) # tkte.chprint(url.pathname) # /searchprint(url.search) # ?q=canada```You can also modify URLs:```pythonfrom can_ada import parseurl = parse(&quot;https://tkte.ch/search?q=canada&quot;)url.host = &quot;google.com&quot;url.search = &quot;?q=canada&amp;safe=off&quot;print(url) # https://google.com/search?q=canada&amp;safe=off```[Ada]: https://ada-url.com/</longdescription>
+</pkgmetadata>

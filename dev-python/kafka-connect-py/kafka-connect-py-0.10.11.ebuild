@@ -15,8 +15,8 @@ DESCRIPTION="A client for the Confluent Platform Kafka Connect REST API."
 
 HOMEPAGE="https://github.com/aidanmelen/kafka-connect-py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/32/33/d957102f6734291ddea111c1a10ae541ef083c5878b72031547c08a70d8f/kafka_connect_py-${REALVERSION}.tar.gz"
-SOURCEFILE="kafka_connect_py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/32/33/d957102f6734291ddea111c1a10ae541ef083c5878b72031547c08a70d8f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

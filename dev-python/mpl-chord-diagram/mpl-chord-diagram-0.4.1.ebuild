@@ -15,8 +15,8 @@ DESCRIPTION="Python module to plot chord diagrams with matplotlib."
 
 HOMEPAGE="https://codeberg.org/tfardet/mpl_chord_diagram"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d6/af/cb7c24e558073312c72f2f09bb384d4bd79028d3aad3698a501494f0cd4a/mpl_chord_diagram-${REALVERSION}.zip"
-SOURCEFILE="mpl_chord_diagram-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/d6/af/cb7c24e558073312c72f2f09bb384d4bd79028d3aad3698a501494f0cd4a/${REALNAME//-/_}-${REALVERSION}.zip"
+SOURCEFILE="_}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

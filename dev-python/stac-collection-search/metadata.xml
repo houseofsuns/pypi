@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># STAC Collection SearchQuick utility which enables you to search for STAC collections with a given bbox and datetime extent.## How to use``` python  import requests  import datetime  import shapely  from stac_collection_search import search_collections  url =&quot;https://planetarycomputer.microsoft.com/api/stac/v1/collections&quot;  response = requests.get(url)  collection_list_json_dict = response.json()  temporal_extent_start = datetime.datetime(2019, 1, 1)  temporal_extent_end = datetime.datetime(2021, 1, 1)  spatial_extent = shapely.geometry.box(50, 0, 51, 1)  collection_list = search_collections(collection_list_json_dict, spatial_extent=spatial_extent,                                      temporal_extent_start=temporal_extent_start,                                      temporal_extent_end=temporal_extent_end)  print(collection_list, len(collection_list)) &quot;&quot;&quot; -&gt; ['3dep-seamless', 'sentinel-1-rtc', '...'], 66 &quot;&quot;&quot;```</longdescription>
+</pkgmetadata>

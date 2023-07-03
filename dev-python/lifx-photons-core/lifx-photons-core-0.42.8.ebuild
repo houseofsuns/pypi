@@ -15,8 +15,8 @@ DESCRIPTION="The core modules of the photons framework"
 
 HOMEPAGE="http://github.com/delfick/photons"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b9/b0/ae2182bcc3f18beb07f75e31286bfed31cc60d6a9572f3dc1a636b379601/lifx_photons_core-${REALVERSION}.tar.gz"
-SOURCEFILE="lifx_photons_core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b9/b0/ae2182bcc3f18beb07f75e31286bfed31cc60d6a9572f3dc1a636b379601/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

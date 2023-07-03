@@ -15,8 +15,8 @@ DESCRIPTION="Support classes for RobotCode for handling Robot Framework projects
 
 HOMEPAGE="https://robotcode.io"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/12/ca/d5059343a72c2fa069b08eb25713787b003dd4112edcb62a676c173be871/robotcode_robot-${REALVERSION}.tar.gz"
-SOURCEFILE="robotcode_robot-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/12/ca/d5059343a72c2fa069b08eb25713787b003dd4112edcb62a676c173be871/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3d/fd/96ce76c4ce02f8371c88feed0d6243c298b157870df1f7609734a743896a/datapipe_app-${REALVERSION}.tar.gz"
-SOURCEFILE="datapipe_app-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3d/fd/96ce76c4ce02f8371c88feed0d6243c298b157870df1f7609734a743896a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

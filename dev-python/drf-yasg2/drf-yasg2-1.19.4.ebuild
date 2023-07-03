@@ -15,8 +15,8 @@ DESCRIPTION="Automated generation of real Swagger/OpenAPI 2.0 schemas from Djang
 
 HOMEPAGE="https://github.com/JoelLefkowitz/drf-yasg"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1b/67/d5e9cf08a315615e477934812025338e5637f8ce33514bb5712fd8d667f0/drf_yasg2-${REALVERSION}.tar.gz"
-SOURCEFILE="drf_yasg2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1b/67/d5e9cf08a315615e477934812025338e5637f8ce33514bb5712fd8d667f0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

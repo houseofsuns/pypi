@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module for customs"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/13/eb/afb0086862aab708b87507d5ad70cfa31dbe0119bfbe6ee0a3fa8a42de78/trytond_customs-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_customs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/13/eb/afb0086862aab708b87507d5ad70cfa31dbe0119bfbe6ee0a3fa8a42de78/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

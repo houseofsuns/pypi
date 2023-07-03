@@ -15,8 +15,8 @@ DESCRIPTION="Parser for Talon files in Python."
 
 HOMEPAGE=""
 LICENSE="MIT License  Copyright c 2022 Wen Kokke  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files the Software, to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:  The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.  THE SOFTWARE IS PROVIDED AS IS, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. "
-SRC_URI="https://files.pythonhosted.org/packages/f0/a6/ebb752f7eaa0bc89e369aaa53daf025357531bde0886fff6e02a5594f307/tree_sitter_talon-${REALVERSION}.tar.gz"
-SOURCEFILE="tree_sitter_talon-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f0/a6/ebb752f7eaa0bc89e369aaa53daf025357531bde0886fff6e02a5594f307/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

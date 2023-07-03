@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module to store memos"
 
 HOMEPAGE="https://www.m-ds.de/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/7c/2b/0f4bfa426e4e0f57675d52c240970642796329af0239c1fe28553f92f0af/mds_pim_memos-${REALVERSION}.tar.gz"
-SOURCEFILE="mds_pim_memos-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7c/2b/0f4bfa426e4e0f57675d52c240970642796329af0239c1fe28553f92f0af/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

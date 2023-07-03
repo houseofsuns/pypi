@@ -15,8 +15,8 @@ DESCRIPTION="A handler library for cumulus tasks written in python"
 
 HOMEPAGE="https://github.com/cumulus-nasa/cumulus-message-adapter-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/02/8d/07eb060c34fb7ce7ef405dac1ae2cd8471fc92b1449ffdc583031242ef18/cumulus_message_adapter_python-${REALVERSION}.tar.gz"
-SOURCEFILE="cumulus_message_adapter_python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/02/8d/07eb060c34fb7ce7ef405dac1ae2cd8471fc92b1449ffdc583031242ef18/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

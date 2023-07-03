@@ -15,8 +15,8 @@ DESCRIPTION="CI build harness embodying best practices for Python projects."
 
 HOMEPAGE="https://gitlab.com/ci-cd-devops/build_harness"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/dc/a1/c28c8a6a7e2375ec86e37c172f8af17007a50ca2bba761f31d90b970ac60/build_harness-${REALVERSION}.tar.gz"
-SOURCEFILE="build_harness-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/dc/a1/c28c8a6a7e2375ec86e37c172f8af17007a50ca2bba761f31d90b970ac60/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

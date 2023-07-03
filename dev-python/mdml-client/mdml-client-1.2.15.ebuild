@@ -15,8 +15,8 @@ DESCRIPTION="Client to connect to the MDML"
 
 HOMEPAGE="https://github.com/anl-mdml/MDML_Client"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0b/de/1a64f0f2c83ac4981dfc4e23517ed4f4469dfa9152f1d237b2f20b350647/mdml_client-${REALVERSION}.tar.gz"
-SOURCEFILE="mdml_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0b/de/1a64f0f2c83ac4981dfc4e23517ed4f4469dfa9152f1d237b2f20b350647/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>================================================================================  ammcpc --- Archivematica (AM) MediaConch (MC) Policy Checker (PC)================================================================================This command-line application and python module is a simple wrapper around theMediaConch tool which takes a file and a MediaConch policy file as input andprints to stdout a JSON object indicating, in a way that Archivematica likes,whether the file passes the policy check... class:: no-web no-pdf|build|Install with Pip::    $ pip install ammcpcInstall from source::    $ python setup.py installCommand-line usage::    $ ammcpc &lt;PATH_TO_FILE&gt; &lt;PATH_TO_POLICY&gt;Python usage with a policy file path::    &gt;&gt;&gt; from ammcpc import MediaConchPolicyCheckerCommand    &gt;&gt;&gt; policy_checker = MediaConchPolicyCheckerCommand(            policy_file_path='/path/to/my-policy.xml')    &gt;&gt;&gt; exitcode = policy_checker.check('/path/to/file.mkv')Python usage with a policy as a string::    &gt;&gt;&gt; policy_checker = MediaConchPolicyCheckerCommand(            policy='&lt;?xml&gt;&lt;policy&gt; ... &lt;/policy&gt;',            policy_file_name='my-policy.xml')    &gt;&gt;&gt; exitcode = policy_checker.check('/path/to/file.mkv')System dependencies:- MediaConch version 16.12To run the tests, make sure tox is installed, then::    $ tox.. |build|  image:: https://travis-ci.org/artefactual-labs/ammcpc.svg?branch=master    :target: https://travis-ci.org/artefactual-labs/ammcpc    :alt: Build status of the master branch</longdescription>
+</pkgmetadata>

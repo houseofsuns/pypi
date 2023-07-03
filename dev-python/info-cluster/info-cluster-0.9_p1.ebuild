@@ -15,8 +15,8 @@ DESCRIPTION="a hierachical clustering algorithm based on information theory"
 
 HOMEPAGE="https://github.com/zhaofeng-shu33/info-clustering-python-binding"
 LICENSE="Apache License Version 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/be/25/3724ae8b447d98f5eb4f1e9f97bc49b72e06c97b7402ab8d8068b8afc272/info_cluster-${REALVERSION}.tar.gz"
-SOURCEFILE="info_cluster-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/be/25/3724ae8b447d98f5eb4f1e9f97bc49b72e06c97b7402ab8d8068b8afc272/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

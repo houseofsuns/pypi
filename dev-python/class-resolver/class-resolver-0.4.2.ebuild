@@ -15,8 +15,8 @@ DESCRIPTION="Lookup and instantiate classes with style."
 
 HOMEPAGE="https://github.com/cthoyt/class-resolver"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/04/03/d05855a42afc57e16fb3ef900898d875dda55b3a51d63e4fb5a5682e7c38/class_resolver-${REALVERSION}.tar.gz"
-SOURCEFILE="class_resolver-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/04/03/d05855a42afc57e16fb3ef900898d875dda55b3a51d63e4fb5a5682e7c38/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

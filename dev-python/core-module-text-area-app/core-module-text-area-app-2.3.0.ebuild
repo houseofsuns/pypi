@@ -15,8 +15,8 @@ DESCRIPTION="Text Area module for the parser core project"
 
 HOMEPAGE="https://github.com/usnistgov/core_module_text_area_app"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/30/f5/444f82fca1e587ebd2b9cfb9df9b9e8dd9a8dcf69a499b719ed1ced2f32f/core_module_text_area_app-${REALVERSION}.tar.gz"
-SOURCEFILE="core_module_text_area_app-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/30/f5/444f82fca1e587ebd2b9cfb9df9b9e8dd9a8dcf69a499b719ed1ced2f32f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

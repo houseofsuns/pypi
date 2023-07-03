@@ -15,8 +15,8 @@ DESCRIPTION="Set of robotic environments based on PyBullet physics engine and gy
 
 HOMEPAGE="https://github.com/qgallouedec/panda-gym"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/78/b3/899d8afe0dc14beab5d97a83fcdf81da15a3d0517c21741a352f7279f176/panda_gym-${REALVERSION}.tar.gz"
-SOURCEFILE="panda_gym-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/78/b3/899d8afe0dc14beab5d97a83fcdf81da15a3d0517c21741a352f7279f176/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

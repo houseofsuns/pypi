@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://www.grai.io/"
 LICENSE="Elastic-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/8a/97/7bac986385159ffff3dfbc8db5c830872436e0edfbe7254c2a691de20885/grai_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="grai_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8a/97/7bac986385159ffff3dfbc8db5c830872436e0edfbe7254c2a691de20885/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

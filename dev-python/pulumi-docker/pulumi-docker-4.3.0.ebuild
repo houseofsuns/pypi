@@ -15,8 +15,8 @@ DESCRIPTION="A Pulumi package for interacting with Docker in Pulumi programs"
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/a8/26/61ae45d0a8f1211d3d57260bf6070d8927810507dfe6a169e4e07d60bdf3/pulumi_docker-${REALVERSION}.tar.gz"
-SOURCEFILE="pulumi_docker-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a8/26/61ae45d0a8f1211d3d57260bf6070d8927810507dfe6a169e4e07d60bdf3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

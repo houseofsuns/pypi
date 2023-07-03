@@ -15,8 +15,8 @@ DESCRIPTION="Unified multi-module DataFrames client for the Iguazio Data Science
 
 HOMEPAGE="https://github.com/v3io/frames"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0c/52/14717f7188cb811b8ec963169ab29c658eed1efdc747d0ad98a685a77b45/v3io_frames-${REALVERSION}.tar.gz"
-SOURCEFILE="v3io_frames-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0c/52/14717f7188cb811b8ec963169ab29c658eed1efdc747d0ad98a685a77b45/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

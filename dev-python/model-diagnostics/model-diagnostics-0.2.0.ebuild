@@ -15,8 +15,8 @@ DESCRIPTION="Tools for diagnostics and assessment of (machine learning) models"
 
 HOMEPAGE="https://lorentzenchr.github.io/model-diagnostics/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f6/0a/b054f73efc09fff843c0aac55b65713bfd00e19993edac5d3db1548227ac/model_diagnostics-${REALVERSION}.tar.gz"
-SOURCEFILE="model_diagnostics-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f6/0a/b054f73efc09fff843c0aac55b65713bfd00e19993edac5d3db1548227ac/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

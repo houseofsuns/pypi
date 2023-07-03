@@ -15,8 +15,8 @@ DESCRIPTION="Python Orthanc REST API client"
 
 HOMEPAGE="https://github.com/orthanc-team/python-orthanc-api-client"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e5/a8/c24d36a5ec0aca0c7f1276990c157176560356e3659ea4f970b74e37ab90/orthanc_api_client-${REALVERSION}.tar.gz"
-SOURCEFILE="orthanc_api_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e5/a8/c24d36a5ec0aca0c7f1276990c157176560356e3659ea4f970b74e37ab90/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

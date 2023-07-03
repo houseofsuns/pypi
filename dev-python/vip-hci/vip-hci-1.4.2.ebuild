@@ -15,8 +15,8 @@ DESCRIPTION="Package for astronomical high-contrast image processing."
 
 HOMEPAGE="https://github.com/vortex-exoplanet/VIP"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4f/3b/9be46b319f4333b6269402d3954049baa2d87f7454e74426703ff69f6f15/vip_hci-${REALVERSION}.tar.gz"
-SOURCEFILE="vip_hci-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4f/3b/9be46b319f4333b6269402d3954049baa2d87f7454e74426703ff69f6f15/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

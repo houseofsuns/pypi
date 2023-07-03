@@ -15,8 +15,8 @@ DESCRIPTION="Build documentation in multiple repos into one site."
 
 HOMEPAGE="https://pypi.org/project/mkdocs-multirepo-plugin/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/35/a0/20a95a02f4d2e88c3fc5148787c590077cbbf20fed7e373cf9db9dac218a/mkdocs_multirepo_plugin-${REALVERSION}.tar.gz"
-SOURCEFILE="mkdocs_multirepo_plugin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/35/a0/20a95a02f4d2e88c3fc5148787c590077cbbf20fed7e373cf9db9dac218a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

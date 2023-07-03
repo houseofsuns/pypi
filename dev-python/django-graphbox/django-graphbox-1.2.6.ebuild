@@ -15,8 +15,8 @@ DESCRIPTION="Package for easy building GraphQL API with Django"
 
 HOMEPAGE="https://github.com/yefeza/django-graphbox"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f2/1e/906e6c0b1014a63909377540928b29cf514450c877320d58f56caf3ecdbf/django_graphbox-${REALVERSION}.tar.gz"
-SOURCEFILE="django_graphbox-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f2/1e/906e6c0b1014a63909377540928b29cf514450c877320d58f56caf3ecdbf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

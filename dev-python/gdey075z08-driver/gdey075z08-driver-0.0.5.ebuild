@@ -15,8 +15,8 @@ DESCRIPTION="Driver library to GDEY075Z08 e-paper display"
 
 HOMEPAGE="https://github.com/zhufucdev/gdey075z08_driver"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4e/16/a0f6cfc24c06fc0bad6cc1f2691018e317a5bc30450010dbbffab8db8118/gdey075z08_driver-${REALVERSION}.tar.gz"
-SOURCEFILE="gdey075z08_driver-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4e/16/a0f6cfc24c06fc0bad6cc1f2691018e317a5bc30450010dbbffab8db8118/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

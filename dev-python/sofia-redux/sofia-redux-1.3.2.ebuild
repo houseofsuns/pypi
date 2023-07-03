@@ -15,8 +15,8 @@ DESCRIPTION="SOFIA data reduction pipelines"
 
 HOMEPAGE="https://github.com/SOFIA-USRA/sofia_redux"
 LICENSE="BSD 3-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/e5/fe/1d1a1523d1abbaf078560f4578cb5fb649d2c0bbdbb6c9c77e0e4f40a042/sofia_redux-${REALVERSION}.tar.gz"
-SOURCEFILE="sofia_redux-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e5/fe/1d1a1523d1abbaf078560f4578cb5fb649d2c0bbdbb6c9c77e0e4f40a042/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

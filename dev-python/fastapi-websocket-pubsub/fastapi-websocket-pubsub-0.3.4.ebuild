@@ -15,8 +15,8 @@ DESCRIPTION="A fast and durable PubSub channel over Websockets (using fastapi-we
 
 HOMEPAGE="https://github.com/permitio/fastapi_websocket_pubsub"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/58/73/160323f92a29fe1456a5778cd0e1f9fa627d4e28d5a5f5af5b60455d7fe8/fastapi_websocket_pubsub-${REALVERSION}.tar.gz"
-SOURCEFILE="fastapi_websocket_pubsub-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/58/73/160323f92a29fe1456a5778cd0e1f9fa627d4e28d5a5f5af5b60455d7fe8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

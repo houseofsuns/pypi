@@ -15,8 +15,8 @@ DESCRIPTION="Text to sentence splitter using heuristic algorithm by Philipp Koeh
 
 HOMEPAGE="https://github.com/berkmancenter/mediacloud-sentence-splitter"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/20/b3/86b431fe7002ba006c08b8559d2ad78e1153bfc515a453cc96d2f55a2c40/sentence_splitter-${REALVERSION}.tar.gz"
-SOURCEFILE="sentence_splitter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/20/b3/86b431fe7002ba006c08b8559d2ad78e1153bfc515a453cc96d2f55a2c40/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

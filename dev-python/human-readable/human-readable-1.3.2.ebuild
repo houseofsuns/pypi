@@ -15,8 +15,8 @@ DESCRIPTION="Human Readable"
 
 HOMEPAGE="https://github.com/staticdev/human-readable"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f8/b6/f6f466b68a9497bd4a4fd30ebcc34b34357b37b6fa0503f523806258e89e/human_readable-${REALVERSION}.tar.gz"
-SOURCEFILE="human_readable-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f8/b6/f6f466b68a9497bd4a4fd30ebcc34b34357b37b6fa0503f523806258e89e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

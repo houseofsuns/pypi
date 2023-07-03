@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Lint Django migrations## Install```bashpip install lint_django_migrations```## How to use1. Install the app in settings.py```pythonINSTALLED_APPS = [    # ...    &quot;lint_django_migrations&quot;,]```2. Check your migrations```bashpython manage.py lintmigrations```This will return an error if any of the migrations are backwards incompatible.3. Fix errorsIf there is an error, you have 2 options. Fix the migration or tell the linter thatthe migration is not backwards incompatible. If you feel the migration is ok, run the commandagain with the `--interactive` flag```bashpython manage.py lintmigrations --interactive```## Setup on existing code baseIf you would like to setup the linter on the existing codebase, it can be tedious to markevery applied migration as valid. For that purpose, you can snapshot the current state andjust run the linter on future migrations```bashpython manage.py lintmigrations --force-update## All API options```## Run the linter in CIIf you want to run the linter, but not update the state use the following command```bashpython manage.py lintmigrations --check-only```</longdescription>
+</pkgmetadata>

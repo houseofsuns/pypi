@@ -15,8 +15,8 @@ DESCRIPTION="simulated & automated end-to-end website testing software"
 
 HOMEPAGE="https://github.com/patrikpihlstrom/anna"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c6/59/bdcc01ad00906b0ced18955e265bfb5e48e156022d6cd41b5ef1a6ef4dfb/anna_node-${REALVERSION}.tar.gz"
-SOURCEFILE="anna_node-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c6/59/bdcc01ad00906b0ced18955e265bfb5e48e156022d6cd41b5ef1a6ef4dfb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Reading usage data from the Landys & Gyr Ultraheat heat meter unit"
 
 HOMEPAGE="https://github.com/vpathuis/ultraheat"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8b/fc/8381ad02583553314d9943c6a4f737cf65a90bd736778adf208156006f62/ultraheat_api-${REALVERSION}.tar.gz"
-SOURCEFILE="ultraheat_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8b/fc/8381ad02583553314d9943c6a4f737cf65a90bd736778adf208156006f62/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

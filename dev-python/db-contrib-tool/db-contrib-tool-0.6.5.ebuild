@@ -15,8 +15,8 @@ DESCRIPTION="The \`db-contrib-tool\` - MongoDB's tool for contributors."
 
 HOMEPAGE="https://github.com/10gen/db-contrib-tool"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bf/3c/ca44bd7bb676390e452082639d9f83b2291ff7f62e334bfdc423cd570a27/db_contrib_tool-${REALVERSION}.tar.gz"
-SOURCEFILE="db_contrib_tool-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bf/3c/ca44bd7bb676390e452082639d9f83b2291ff7f62e334bfdc423cd570a27/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

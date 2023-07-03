@@ -15,8 +15,8 @@ DESCRIPTION="A magical full-stack framework for Django."
 
 HOMEPAGE="https://www.django-unicorn.com"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/88/2a/99b75bebd723d427a81e17b77fe225765eaba3a661ad3d8795fc3fb46cde/django_unicorn-${REALVERSION}.tar.gz"
-SOURCEFILE="django_unicorn-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/88/2a/99b75bebd723d427a81e17b77fe225765eaba3a661ad3d8795fc3fb46cde/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

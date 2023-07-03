@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># BAIChat API Python## Installation### Pypi``` shellpip install baichat-py```### Codeberg``` shellpip install --index-url https://codeberg.org/api/packages/Bavarder/pypi/simple/ baichat-py```## Usage``` python from baichat_py import Completionprompt = &quot;Hello, world!&quot;for token in Completion.create(prompt):    print(token, end=&quot;&quot;, flush=True)    print(&quot;&quot;)```</longdescription>
+</pkgmetadata>

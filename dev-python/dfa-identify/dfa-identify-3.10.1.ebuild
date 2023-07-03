@@ -15,8 +15,8 @@ DESCRIPTION="Python library for identifying (learning) DFAs (automata) from labe
 
 HOMEPAGE="https://github.com/mvcisback/dfa-identify"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1d/19/6e036e7834cc2762e21e2faa42f089cee569c3a8bad00258aafbb9681b08/dfa_identify-${REALVERSION}.tar.gz"
-SOURCEFILE="dfa_identify-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1d/19/6e036e7834cc2762e21e2faa42f089cee569c3a8bad00258aafbb9681b08/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

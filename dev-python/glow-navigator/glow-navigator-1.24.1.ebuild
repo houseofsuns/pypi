@@ -15,8 +15,8 @@ DESCRIPTION="Tool for navigating Glow object relationships"
 
 HOMEPAGE="https://github.com/thoughtcroft/glow_navigator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/29/b4/b706b5e6a2e1fec7039f6998f91b3b2dc139efc0f37a6d1cb1b6d519b5be/glow_navigator-${REALVERSION}.tar.gz"
-SOURCEFILE="glow_navigator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/29/b4/b706b5e6a2e1fec7039f6998f91b3b2dc139efc0f37a6d1cb1b6d519b5be/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

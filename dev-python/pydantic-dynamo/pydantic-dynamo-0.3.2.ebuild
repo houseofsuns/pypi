@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/david-a-jetter/pydantic-dynamo"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bb/a0/0571829bedce24cf87712fa2ad232eab7460276fb8bd2a35059e0231cd59/pydantic_dynamo-${REALVERSION}.tar.gz"
-SOURCEFILE="pydantic_dynamo-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bb/a0/0571829bedce24cf87712fa2ad232eab7460276fb8bd2a35059e0231cd59/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

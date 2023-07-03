@@ -15,8 +15,8 @@ DESCRIPTION="Command-line interface for ViUR application maintenance."
 
 HOMEPAGE="https://github.com/viur-framework/viur-cli"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c8/1c/6283509f032138d991091630b83866fb71b0ce5fe62d0701d67a281b297b/viur_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="viur_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c8/1c/6283509f032138d991091630b83866fb71b0ce5fe62d0701d67a281b297b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

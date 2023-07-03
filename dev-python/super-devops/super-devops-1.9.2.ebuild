@@ -15,8 +15,8 @@ DESCRIPTION="Tons of devops tools used for testing, monitoring, logging..."
 
 HOMEPAGE="https://github.com/crazy-canux/super-devops"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/da/38/5952ecbbda0cb2b4aab16f70397bab71a0304a2c122118f8f3c61a190407/super_devops-${REALVERSION}.tar.gz"
-SOURCEFILE="super_devops-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/da/38/5952ecbbda0cb2b4aab16f70397bab71a0304a2c122118f8f3c61a190407/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

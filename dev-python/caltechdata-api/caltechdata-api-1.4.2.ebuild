@@ -15,8 +15,8 @@ DESCRIPTION="Python wrapper for CaltechDATA API."
 
 HOMEPAGE="https://github.com/caltechlibrary/caltechdata_api"
 LICENSE="https://data.caltech.edu/license"
-SRC_URI="https://files.pythonhosted.org/packages/94/d9/89486a4eef21b205186a3c80fff63180564d374de4580257ddfc526bf072/caltechdata_api-${REALVERSION}.tar.gz"
-SOURCEFILE="caltechdata_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/94/d9/89486a4eef21b205186a3c80fff63180564d374de4580257ddfc526bf072/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

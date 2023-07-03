@@ -15,8 +15,8 @@ DESCRIPTION="High-speed, Internet-scale, load-balanced paths discovery."
 
 HOMEPAGE="https://github.com/dioptra-io/diamond-miner"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/15/fc/34b594855f28d6710bda1f9ba87b646b3530cc427df1b1bf95e7679d0e14/diamond_miner-${REALVERSION}.tar.gz"
-SOURCEFILE="diamond_miner-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/15/fc/34b594855f28d6710bda1f9ba87b646b3530cc427df1b1bf95e7679d0e14/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

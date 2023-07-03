@@ -15,8 +15,8 @@ DESCRIPTION="Compress and minify Flask responses!"
 
 HOMEPAGE="https://github.com/mkrd/Flask-Squeeze"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/70/0e/6a0cd9dd3a4c2cba18a2dcdfa211c8807e578d055bdf5e179fb0832e2fa0/flask_squeeze-${REALVERSION}.tar.gz"
-SOURCEFILE="flask_squeeze-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/70/0e/6a0cd9dd3a4c2cba18a2dcdfa211c8807e578d055bdf5e179fb0832e2fa0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

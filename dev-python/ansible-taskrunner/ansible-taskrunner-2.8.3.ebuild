@@ -15,8 +15,8 @@ DESCRIPTION="Ansible Task Runner"
 
 HOMEPAGE="https://github.com/berttejeda/ansible-taskrunner.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/00/68/006bb0778349494e15ad3b77bd668b135d03975405eedb188c5bf641e3c3/ansible_taskrunner-${REALVERSION}.tar.gz"
-SOURCEFILE="ansible_taskrunner-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/00/68/006bb0778349494e15ad3b77bd668b135d03975405eedb188c5bf641e3c3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

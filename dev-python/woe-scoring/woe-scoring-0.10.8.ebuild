@@ -15,8 +15,8 @@ DESCRIPTION="Weight Of Evidence Transformer and LogisticRegression model with sc
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5e/7c/7c680c3e2efa351fd7ad50c6b744a43f42e13224b61da5f718afcd29bd10/woe_scoring-${REALVERSION}.tar.gz"
-SOURCEFILE="woe_scoring-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5e/7c/7c680c3e2efa351fd7ad50c6b744a43f42e13224b61da5f718afcd29bd10/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

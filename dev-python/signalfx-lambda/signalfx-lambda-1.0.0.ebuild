@@ -15,8 +15,8 @@ DESCRIPTION="SignalFx Lambda Python Wrapper"
 
 HOMEPAGE="https://github.com/signalfx/lambda-python"
 LICENSE="Apache Software License v2"
-SRC_URI="https://files.pythonhosted.org/packages/44/a0/3e8c21efa451a1489ab3b21855d501fea1d87181c69c6ee9281438467a7c/signalfx_lambda-${REALVERSION}.tar.gz"
-SOURCEFILE="signalfx_lambda-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/44/a0/3e8c21efa451a1489ab3b21855d501fea1d87181c69c6ee9281438467a7c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

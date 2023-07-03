@@ -15,8 +15,8 @@ DESCRIPTION="A simple plugin to use with pytest"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f5/18/3d3101b2a6782d60c80775dcf7f83756b082d9c22f8da8a92424b483a906/pytest_memray-${REALVERSION}.tar.gz"
-SOURCEFILE="pytest_memray-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f5/18/3d3101b2a6782d60c80775dcf7f83756b082d9c22f8da8a92424b483a906/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

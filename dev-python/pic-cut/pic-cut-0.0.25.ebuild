@@ -15,8 +15,8 @@ DESCRIPTION="Cut Long Picture."
 
 HOMEPAGE="https://github.com/gaoyunzhi/pic_cut"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7b/ad/b7be6a54f9cf933bf67343c1a9019e3ad662b55ebab56c64cb5edf57da5c/pic_cut-${REALVERSION}.tar.gz"
-SOURCEFILE="pic_cut-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7b/ad/b7be6a54f9cf933bf67343c1a9019e3ad662b55ebab56c64cb5edf57da5c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

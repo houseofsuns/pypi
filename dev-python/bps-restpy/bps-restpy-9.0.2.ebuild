@@ -15,8 +15,8 @@ DESCRIPTION="BreakingPoint REST API Python Wraper"
 
 HOMEPAGE="https://github.com/OpenIxia/bps_restpy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/04/69/a28b769f3d427b8ddeb4882f0be4e7d707c703f2c9278a3563b310be080d/bps_restpy-${REALVERSION}.tar.gz"
-SOURCEFILE="bps_restpy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/04/69/a28b769f3d427b8ddeb4882f0be4e7d707c703f2c9278a3563b310be080d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

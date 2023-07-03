@@ -15,8 +15,8 @@ DESCRIPTION="Validator for .taskcluster.yml files"
 
 HOMEPAGE="https://github.com/marco-c/taskcluster_yml_validator"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/9c/fa/ce1e01a6633afdb35134b2a064ad40c22c965b03709577d1d6c20a6b2569/taskcluster_yml_validator-${REALVERSION}.tar.gz"
-SOURCEFILE="taskcluster_yml_validator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9c/fa/ce1e01a6633afdb35134b2a064ad40c22c965b03709577d1d6c20a6b2569/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

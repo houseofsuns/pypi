@@ -15,8 +15,8 @@ DESCRIPTION="Python package for orchestrating Pega environments"
 
 HOMEPAGE=""
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/46/6c/02bf6c487c4bbb7dcde29067de5c8bb52dd8947191828baa615d7181e2c0/pypega_dm-${REALVERSION}.tar.gz"
-SOURCEFILE="pypega_dm-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/46/6c/02bf6c487c4bbb7dcde29067de5c8bb52dd8947191828baa615d7181e2c0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

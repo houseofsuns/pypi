@@ -15,8 +15,8 @@ DESCRIPTION="Collection of tasks for working with ARCADE."
 
 HOMEPAGE=""
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/4c/eb/af7723b783434a9d05c6ad5d958cfba579aea0ddd3870472738de2e46870/arcade_collection-${REALVERSION}.tar.gz"
-SOURCEFILE="arcade_collection-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4c/eb/af7723b783434a9d05c6ad5d958cfba579aea0ddd3870472738de2e46870/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

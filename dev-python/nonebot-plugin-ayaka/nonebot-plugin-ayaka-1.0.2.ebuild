@@ -15,8 +15,8 @@ DESCRIPTION="为nonebot插件开发提供状态机支持"
 
 HOMEPAGE="https://bridgel.github.io/ayaka_doc/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/11/19/914d7efd1a9de4e821226f97babc1df28ad09e2f774dc9d1da9d1298618e/nonebot_plugin_ayaka-${REALVERSION}.tar.gz"
-SOURCEFILE="nonebot_plugin_ayaka-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/11/19/914d7efd1a9de4e821226f97babc1df28ad09e2f774dc9d1da9d1298618e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

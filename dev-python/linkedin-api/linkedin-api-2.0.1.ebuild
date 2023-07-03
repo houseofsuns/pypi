@@ -15,8 +15,8 @@ DESCRIPTION="Python wrapper for the Linkedin API"
 
 HOMEPAGE="https://github.com/tomquirk/linkedin-api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/25/3e/3ec0b9972181b96d8b3f5e787be257a6c076c22555845e632c895dfd6abf/linkedin_api-${REALVERSION}.tar.gz"
-SOURCEFILE="linkedin_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/25/3e/3ec0b9972181b96d8b3f5e787be257a6c076c22555845e632c895dfd6abf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

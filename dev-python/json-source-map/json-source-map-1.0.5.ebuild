@@ -15,8 +15,8 @@ DESCRIPTION="Calculate the source map for a JSON document."
 
 HOMEPAGE="https://github.com/open-alchemy/json-source-map/wiki"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e6/f0/560df0f36ad3e6c1e9b2a077a297df2c4dc4a2c427580d1995782aff67d1/json_source_map-${REALVERSION}.tar.gz"
-SOURCEFILE="json_source_map-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e6/f0/560df0f36ad3e6c1e9b2a077a297df2c4dc4a2c427580d1995782aff67d1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

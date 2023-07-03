@@ -15,8 +15,8 @@ DESCRIPTION="Django field that set/get django's new TextChoices/IntegerChoices e
 
 HOMEPAGE="https://github.com/bellini666/django-choices-field"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a7/c1/c75b91972bcabfa170df30969504e59ccbb192e6c486c2fbe96d9d68f3ac/django_choices_field-${REALVERSION}.tar.gz"
-SOURCEFILE="django_choices_field-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a7/c1/c75b91972bcabfa170df30969504e59ccbb192e6c486c2fbe96d9d68f3ac/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

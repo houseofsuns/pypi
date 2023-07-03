@@ -15,8 +15,8 @@ DESCRIPTION="Data Analytics Library for Python"
 
 HOMEPAGE="https://github.com/CrowdStrike/omigo-data-analytics"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c0/0a/bb976423625030688210ddd083a95401cc8a16d82ebf0b88bff6165997f7/omigo_core-${REALVERSION}.tar.gz"
-SOURCEFILE="omigo_core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c0/0a/bb976423625030688210ddd083a95401cc8a16d82ebf0b88bff6165997f7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

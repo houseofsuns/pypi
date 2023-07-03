@@ -15,8 +15,8 @@ DESCRIPTION="OpenTelemetry pymongo instrumentation"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-pymongo"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/09/9a/8fec23bb2c83b6ed63454edacd55e16bdf995b8f442d714b561a58b595f1/opentelemetry_instrumentation_pymongo-${REALVERSION}.tar.gz"
-SOURCEFILE="opentelemetry_instrumentation_pymongo-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/09/9a/8fec23bb2c83b6ed63454edacd55e16bdf995b8f442d714b561a58b595f1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

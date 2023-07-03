@@ -15,8 +15,8 @@ DESCRIPTION="Monero Agent"
 
 HOMEPAGE="https://github.com/ph4r05/monero-agent"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4f/ce/1b96bf92cb059a2eee124f4b63efbdeb8ed13393baf732b86aac8e4c29ee/monero_agent-${REALVERSION}.tar.gz"
-SOURCEFILE="monero_agent-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4f/ce/1b96bf92cb059a2eee124f4b63efbdeb8ed13393baf732b86aac8e4c29ee/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

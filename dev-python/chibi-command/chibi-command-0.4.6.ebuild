@@ -15,8 +15,8 @@ DESCRIPTION="run terminal commands"
 
 HOMEPAGE="https://github.com/dem4ply/chibi_command"
 LICENSE="WTFPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/f2/a5/692f9300b9f0157ce830dd469638cddb7f3d9da8c4bfcf443f66a451a3f7/chibi_command-${REALVERSION}.tar.gz"
-SOURCEFILE="chibi_command-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f2/a5/692f9300b9f0157ce830dd469638cddb7f3d9da8c4bfcf443f66a451a3f7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

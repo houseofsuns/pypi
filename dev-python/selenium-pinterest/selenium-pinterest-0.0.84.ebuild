@@ -15,8 +15,8 @@ DESCRIPTION="Selenium Pinterest helps you follow / unfollow / pin / post to Pint
 
 HOMEPAGE="https://github.com/Zselter07/selenium-pinterest"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b7/43/52da331a0ce9a3d2ebf70e529d012f40cc627eb0e9535a7b1ea0e790d3ab/selenium_pinterest-${REALVERSION}.tar.gz"
-SOURCEFILE="selenium_pinterest-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b7/43/52da331a0ce9a3d2ebf70e529d012f40cc627eb0e9535a7b1ea0e790d3ab/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

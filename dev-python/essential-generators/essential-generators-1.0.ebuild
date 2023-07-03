@@ -15,8 +15,8 @@ DESCRIPTION="Generate fake data for application testing based on simple but flex
 
 HOMEPAGE="https://github.com/shane-mason/essential-document-generator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/96/ed/8f1b16654c55b9ba09a4a5058d85debd0acb89f8eb000071522c6c071952/essential_generators-${REALVERSION}.tar.gz"
-SOURCEFILE="essential_generators-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/96/ed/8f1b16654c55b9ba09a4a5058d85debd0acb89f8eb000071522c6c071952/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

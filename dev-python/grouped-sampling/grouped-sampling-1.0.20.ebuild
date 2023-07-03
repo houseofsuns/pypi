@@ -15,8 +15,8 @@ DESCRIPTION="A faster algorithm for generating texts with cuasal language models
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/21/6b/4e5c695763b494ae71100c80e647341b310c1788ad6e3b461b73cdee5689/grouped_sampling-${REALVERSION}.tar.gz"
-SOURCEFILE="grouped_sampling-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/21/6b/4e5c695763b494ae71100c80e647341b310c1788ad6e3b461b73cdee5689/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

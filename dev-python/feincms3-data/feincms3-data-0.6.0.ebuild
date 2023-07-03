@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/matthiask/feincms3-data/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/da/e8/687d51627ade443ba33d416a5d5cca8e45c046a143c8a7b4745b7804a35c/feincms3_data-${REALVERSION}.tar.gz"
-SOURCEFILE="feincms3_data-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/da/e8/687d51627ade443ba33d416a5d5cca8e45c046a143c8a7b4745b7804a35c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

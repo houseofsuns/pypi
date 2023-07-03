@@ -15,8 +15,8 @@ DESCRIPTION="A Pulumi package for creating and managing Confluent cloud resource
 
 HOMEPAGE="https://www.pulumi.com"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/0a/18/d1c52828a986b2af16f2704e24588fccfab8dc6c3b1ed7e7ca86351472de/pulumi_confluentcloud-${REALVERSION}.tar.gz"
-SOURCEFILE="pulumi_confluentcloud-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0a/18/d1c52828a986b2af16f2704e24588fccfab8dc6c3b1ed7e7ca86351472de/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Software tools to facilitate tracking multiple objects (animals) in
 
 HOMEPAGE="https://github.com/subhacom/argos"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f5/b8/ed2002313e2f9c4e800a7675af7ce93e823ad516c3dc4690d9be971ebdd9/argos_toolkit-${REALVERSION}.tar.gz"
-SOURCEFILE="argos_toolkit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f5/b8/ed2002313e2f9c4e800a7675af7ce93e823ad516c3dc4690d9be971ebdd9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

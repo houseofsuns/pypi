@@ -15,8 +15,8 @@ DESCRIPTION="Useful stuff for django.  ."
 
 HOMEPAGE="http://pypi.python.org/pypi/MyApplication_v010/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/37/92/084fb677fd7c865aea57f58fd95316a92685eb6903eef0819fd01f2cb30e/django_framework-${REALVERSION}.tar.gz"
-SOURCEFILE="django_framework-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/37/92/084fb677fd7c865aea57f58fd95316a92685eb6903eef0819fd01f2cb30e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

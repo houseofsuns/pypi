@@ -15,8 +15,8 @@ DESCRIPTION="Pytest plugin to reverse test order."
 
 HOMEPAGE="https://github.com/adamchainz/pytest-reverse"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8e/96/a6742fdf8fccaf985888adb74f047c2dbd3973427a3434d0cd4090a030cb/pytest_reverse-${REALVERSION}.tar.gz"
-SOURCEFILE="pytest_reverse-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8e/96/a6742fdf8fccaf985888adb74f047c2dbd3973427a3434d0cd4090a030cb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

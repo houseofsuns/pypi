@@ -15,8 +15,8 @@ DESCRIPTION="An OData query parser and transpiler."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1b/87/c75b566ea7b0abb13e40cc6bdb3fbd03aaee2efb1ad70327e0d0496fa1ef/odata_query-${REALVERSION}.tar.gz"
-SOURCEFILE="odata_query-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1b/87/c75b566ea7b0abb13e40cc6bdb3fbd03aaee2efb1ad70327e0d0496fa1ef/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

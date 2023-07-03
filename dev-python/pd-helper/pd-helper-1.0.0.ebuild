@@ -15,8 +15,8 @@ DESCRIPTION="A helpful script to optimize a Pandas DataFrame."
 
 HOMEPAGE="https://github.com/justinhchae/pd-helper"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/91/90/e3db69d9c398cecc805a93885b8494974a7f1f579a5a62340148379be1d5/pd_helper-${REALVERSION}.tar.gz"
-SOURCEFILE="pd_helper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/91/90/e3db69d9c398cecc805a93885b8494974a7f1f579a5a62340148379be1d5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

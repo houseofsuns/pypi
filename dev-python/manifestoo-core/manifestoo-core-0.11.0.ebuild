@@ -15,8 +15,8 @@ DESCRIPTION="A library to reason about Odoo addons manifests"
 
 HOMEPAGE="https://github.com/acsone/manifestoo-core"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cd/c8/fe4d6fc5338c3bed9791ee5b59a66374d6f50a4d9f0710d59bf7d831a175/manifestoo_core-${REALVERSION}.tar.gz"
-SOURCEFILE="manifestoo_core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cd/c8/fe4d6fc5338c3bed9791ee5b59a66374d6f50a4d9f0710d59bf7d831a175/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

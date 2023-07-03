@@ -15,8 +15,8 @@ DESCRIPTION="An asynchronous task queue with priority support."
 
 HOMEPAGE="https://github.com/legnaleurc/wcpan.worker"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7a/db/ead47b139c91da26e3c9b919c88560701b2166eb7e3cf424e652726d753c/wcpan_worker-${REALVERSION}.tar.gz"
-SOURCEFILE="wcpan_worker-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7a/db/ead47b139c91da26e3c9b919c88560701b2166eb7e3cf424e652726d753c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

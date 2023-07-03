@@ -15,8 +15,8 @@ DESCRIPTION="Universal assistant download manga."
 
 HOMEPAGE="https://github.com/manga-py/manga-py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8e/69/fd06f0c63cabe0743884768c8363ef9fb3b16a5f4e49c78412f864edc6b4/manga_py-${REALVERSION}.tar.gz"
-SOURCEFILE="manga_py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8e/69/fd06f0c63cabe0743884768c8363ef9fb3b16a5f4e49c78412f864edc6b4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

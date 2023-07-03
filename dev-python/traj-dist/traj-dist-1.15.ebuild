@@ -15,8 +15,8 @@ DESCRIPTION="Distance to compare 2D-trajectories in Python/Cython"
 
 HOMEPAGE="https://github.com/bguillouet/traj-dist"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/44/f6/ce64756fa8335fb5b17435495aeb41491f8461ca2a9776ba87c12a30594a/traj_dist-${REALVERSION}.tar.gz"
-SOURCEFILE="traj_dist-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/44/f6/ce64756fa8335fb5b17435495aeb41491f8461ca2a9776ba87c12a30594a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

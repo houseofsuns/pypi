@@ -15,8 +15,8 @@ DESCRIPTION="The Combinatorial Equilibrium Modeling framework for COMPAS"
 
 HOMEPAGE="https://github.com/arpastrana/compas_cem"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a1/a2/300a0dda097195c0a4f46b458f7fd9acd664c83ac2c3a81de0ebfdfd3913/compas_cem-${REALVERSION}.tar.gz"
-SOURCEFILE="compas_cem-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a1/a2/300a0dda097195c0a4f46b458f7fd9acd664c83ac2c3a81de0ebfdfd3913/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

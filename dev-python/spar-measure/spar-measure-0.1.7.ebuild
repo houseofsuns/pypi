@@ -15,8 +15,8 @@ DESCRIPTION="SPAR: Semantic Projection with Active Retrieval"
 
 HOMEPAGE="https://github.com/maifeng/SPAR_measure"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/91/26/9b1d4221f79d5bac4844c166d6f3448067c448095f4c07701e06b05c1cfa/spar_measure-${REALVERSION}.tar.gz"
-SOURCEFILE="spar_measure-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/91/26/9b1d4221f79d5bac4844c166d6f3448067c448095f4c07701e06b05c1cfa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

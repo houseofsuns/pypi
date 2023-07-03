@@ -15,8 +15,8 @@ DESCRIPTION="Convert sas7bdat and xport files into other formats"
 
 HOMEPAGE="https://github.com/sanders41/sas7bdat-converter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/58/af/24c421e7de7ac6526c6bc5100788a0a0296aa9b98418f5c300578b95b993/sas7bdat_converter-${REALVERSION}.tar.gz"
-SOURCEFILE="sas7bdat_converter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/58/af/24c421e7de7ac6526c6bc5100788a0a0296aa9b98418f5c300578b95b993/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

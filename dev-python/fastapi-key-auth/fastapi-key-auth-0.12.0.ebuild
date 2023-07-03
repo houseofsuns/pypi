@@ -15,8 +15,8 @@ DESCRIPTION="API key validation Middleware"
 
 HOMEPAGE="https://github.com/iwpnd/fastapi-key-auth"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/95/72/5f0283e7947c0cc0ced2fab36edd7f1ce1c0e80a014c49f823397d9b37ba/fastapi_key_auth-${REALVERSION}.tar.gz"
-SOURCEFILE="fastapi_key_auth-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/95/72/5f0283e7947c0cc0ced2fab36edd7f1ce1c0e80a014c49f823397d9b37ba/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

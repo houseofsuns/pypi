@@ -15,8 +15,8 @@ DESCRIPTION="Converting pydantic classes to avro schemas"
 
 HOMEPAGE="https://github.com/godatadriven/pydantic-avro"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8d/7b/090b609cd705d56910690ae4822fa3467ee934cdda9bb7ccd4ffb3fec131/pydantic_avro-${REALVERSION}.tar.gz"
-SOURCEFILE="pydantic_avro-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8d/7b/090b609cd705d56910690ae4822fa3467ee934cdda9bb7ccd4ffb3fec131/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

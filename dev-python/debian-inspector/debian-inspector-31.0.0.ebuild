@@ -15,8 +15,8 @@ DESCRIPTION="Utilities to parse Debian package, copyright and control files."
 
 HOMEPAGE="https://github.com/nexB/debian-inspector"
 LICENSE="Apache-2.0 AND BSD-3-Clause AND MIT"
-SRC_URI="https://files.pythonhosted.org/packages/76/27/2bdbfe084be16806c35fcc91bac3236706d1d62751c39a293b2cab77ebcc/debian_inspector-${REALVERSION}.tar.gz"
-SOURCEFILE="debian_inspector-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/76/27/2bdbfe084be16806c35fcc91bac3236706d1d62751c39a293b2cab77ebcc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

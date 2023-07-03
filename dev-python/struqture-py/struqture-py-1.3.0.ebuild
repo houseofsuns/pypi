@@ -15,8 +15,8 @@ DESCRIPTION="Python interface of struqture, the HQS tool for representing operat
 
 HOMEPAGE=""
 LICENSE="Apache-2.0 AND Apache-2.0 with LLVM-exception AND MIT AND Unicode-DFS-2016 AND BSD-2-Clause AND BSD-3-CLause"
-SRC_URI="https://files.pythonhosted.org/packages/47/83/a20ddb85318a06bb35a182df5d753562e1e40b065c9ff558e77b683e9fcf/struqture_py-${REALVERSION}.tar.gz"
-SOURCEFILE="struqture_py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/47/83/a20ddb85318a06bb35a182df5d753562e1e40b065c9ff558e77b683e9fcf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

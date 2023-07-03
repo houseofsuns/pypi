@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/ZYKsslm/nonebot_plugin_zyk_novelai"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/18/d3/058182b4945d0c09f944fa20beb24b5139faa40fb805e2dd2ee8ec163d96/nonebot_plugin_zyk_novelai-${REALVERSION}.tar.gz"
-SOURCEFILE="nonebot_plugin_zyk_novelai-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/18/d3/058182b4945d0c09f944fa20beb24b5139faa40fb805e2dd2ee8ec163d96/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

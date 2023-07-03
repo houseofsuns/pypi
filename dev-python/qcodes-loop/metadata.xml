@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>qcodes_loop===========``qcodes_loop`` contains modules that used to be part of QCoDeS but were deprecated and removed in the spring of 2023.The last QCoDeS release supporting usage of the ``Loop`` and associated modules was `v0.37.0 &lt;https://github.com/QCoDeS/Qcodes/releases/tag/v0.37.0&gt;`_.The modules in question are: ``qcodes_loop.data``, ``qcodes_loop.data`` and ``qcodes_loop.plot``The code in this repository is provided as-is but not actively maintained by the QCoDeS developers.We are happy to merge bug fixes contributed but no active development on this code is planned.Please reach out to the QCoDeS development team if you are interested in maintaining this code repository.</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="A small library to help with type hinting for the Swimlane Python S
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3b/16/c6b6a5b3ac57c72fb3b56b684e6cb0278874a1f1e6234ddbfafe9e474181/swimlane_stubs-${REALVERSION}.tar.gz"
-SOURCEFILE="swimlane_stubs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3b/16/c6b6a5b3ac57c72fb3b56b684e6cb0278874a1f1e6234ddbfafe9e474181/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

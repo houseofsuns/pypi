@@ -15,8 +15,8 @@ DESCRIPTION="A SEAMM plug-in for setting up a forcefield or EAM potentials for s
 
 HOMEPAGE="https://github.com/molssi-seam/forcefield_step"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/10/0c/c078bb692648bcf8c17f0e11f882bc70fed45c7074720cf48d68ee290aee/forcefield_step-${REALVERSION}.tar.gz"
-SOURCEFILE="forcefield_step-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/10/0c/c078bb692648bcf8c17f0e11f882bc70fed45c7074720cf48d68ee290aee/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

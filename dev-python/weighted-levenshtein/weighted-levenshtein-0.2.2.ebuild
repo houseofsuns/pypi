@@ -15,8 +15,8 @@ DESCRIPTION="Library providing functions to calculate Levenshtein distance, Opti
 
 HOMEPAGE="https://github.com/infoscout/weighted-levenshtein"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bb/92/132bd5be6d6ef3817e86fb5415e8e4bc90f11293311713212ef58fe5551b/weighted_levenshtein-${REALVERSION}.tar.gz"
-SOURCEFILE="weighted_levenshtein-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bb/92/132bd5be6d6ef3817e86fb5415e8e4bc90f11293311713212ef58fe5551b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

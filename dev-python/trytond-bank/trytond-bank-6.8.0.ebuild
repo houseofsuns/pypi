@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module with banks"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/79/90/7dbd9bf6db10196e9f67d1260e4e920f60577959762631f64ede50aa678e/trytond_bank-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_bank-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/79/90/7dbd9bf6db10196e9f67d1260e4e920f60577959762631f64ede50aa678e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

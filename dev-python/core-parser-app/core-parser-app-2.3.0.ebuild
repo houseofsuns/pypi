@@ -15,8 +15,8 @@ DESCRIPTION="XSD parser tools for the curator core project"
 
 HOMEPAGE="https://github.com/usnistgov/core_parser_app"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/21/f2/f3e053db995ff59438a3948fe9d77483df57be4691202add00924e3014b2/core_parser_app-${REALVERSION}.tar.gz"
-SOURCEFILE="core_parser_app-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/21/f2/f3e053db995ff59438a3948fe9d77483df57be4691202add00924e3014b2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

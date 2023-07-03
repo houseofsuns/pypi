@@ -15,8 +15,8 @@ DESCRIPTION="Jupyter interactive widgets for JupyterLab"
 
 HOMEPAGE="https://github.com/jupyter-widgets/ipywidgets"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/d4/68/ef3070afff437dc92562241294467112566d3b402d85bb9b32e3fd65352a/jupyterlab_widgets-${REALVERSION}.tar.gz"
-SOURCEFILE="jupyterlab_widgets-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d4/68/ef3070afff437dc92562241294467112566d3b402d85bb9b32e3fd65352a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

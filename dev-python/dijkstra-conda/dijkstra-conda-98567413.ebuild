@@ -15,8 +15,8 @@ DESCRIPTION="A test project"
 
 HOMEPAGE="https://github.com/iHeadWater/dijkstra-conda"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fd/55/3855c15b22e78aae1766a7aecd90bd433359198395b473cecfde467a2dd4/dijkstra_conda-${REALVERSION}.tar.gz"
-SOURCEFILE="dijkstra_conda-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fd/55/3855c15b22e78aae1766a7aecd90bd433359198395b473cecfde467a2dd4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

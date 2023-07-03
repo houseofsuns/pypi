@@ -15,8 +15,8 @@ DESCRIPTION="Dash Designable Radio Items"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/70/a8/9369d322653c715acedf24bf4f6e804001a0badc4b717a25238c4c27c8af/designable_radio_items-${REALVERSION}.tar.gz"
-SOURCEFILE="designable_radio_items-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/70/a8/9369d322653c715acedf24bf4f6e804001a0badc4b717a25238c4c27c8af/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

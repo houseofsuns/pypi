@@ -15,8 +15,8 @@ DESCRIPTION="package for measuring the similarity of two texts"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3b/dc/8c6911f9a3be315531d9a1f1deb97f2e8e0ab1ba06b1d35db483877f30f6/similarity_check-${REALVERSION}.tar.gz"
-SOURCEFILE="similarity_check-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3b/dc/8c6911f9a3be315531d9a1f1deb97f2e8e0ab1ba06b1d35db483877f30f6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

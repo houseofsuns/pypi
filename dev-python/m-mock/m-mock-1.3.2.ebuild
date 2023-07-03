@@ -15,8 +15,8 @@ DESCRIPTION="This is a tool for producing random data."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2f/eb/1f5afe2928299638a9f3f6bee3081050fc1c5c886c83e799462ddb2e1b72/m_mock-${REALVERSION}.tar.gz"
-SOURCEFILE="m_mock-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2f/eb/1f5afe2928299638a9f3f6bee3081050fc1c5c886c83e799462ddb2e1b72/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

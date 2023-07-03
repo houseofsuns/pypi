@@ -15,8 +15,8 @@ DESCRIPTION="Convert information between pipelines and CG"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/95/88/0e078ab979ecdfd35dc3cf24960443b622f12597b0d1ee3025ef852cd9e1/cg_hermes-${REALVERSION}.tar.gz"
-SOURCEFILE="cg_hermes-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/95/88/0e078ab979ecdfd35dc3cf24960443b622f12597b0d1ee3025ef852cd9e1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

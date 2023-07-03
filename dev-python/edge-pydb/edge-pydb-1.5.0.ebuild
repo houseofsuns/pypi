@@ -15,8 +15,8 @@ DESCRIPTION="Python based database for CARMA EDGE"
 
 HOMEPAGE="https://github.com/tonywong94/edge_pydb"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/64/74/6640e9acfd23ab6814ccf82de90e676b34ff5bfb729a869e93361f2ebe01/edge_pydb-${REALVERSION}.tar.gz"
-SOURCEFILE="edge_pydb-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/64/74/6640e9acfd23ab6814ccf82de90e676b34ff5bfb729a869e93361f2ebe01/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

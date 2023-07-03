@@ -15,8 +15,8 @@ DESCRIPTION="Django models for Omise"
 
 HOMEPAGE="https://github.com/jamesx00/django-omise"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/70/7c/25eced09f3ecf97aa319734f6b16adb1ba77608f20199296d564f5143379/django_omise-${REALVERSION}.tar.gz"
-SOURCEFILE="django_omise-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/70/7c/25eced09f3ecf97aa319734f6b16adb1ba77608f20199296d564f5143379/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

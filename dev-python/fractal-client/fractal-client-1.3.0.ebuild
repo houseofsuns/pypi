@@ -15,8 +15,8 @@ DESCRIPTION="Client component of the Fractal analytics platform"
 
 HOMEPAGE="https://github.com/fractal-analytics-platform/fractal"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/8b/f0/458388ebb28be637abb67b2cc6728df7d65a911e3621754c355381c81016/fractal_client-${REALVERSION}.tar.gz"
-SOURCEFILE="fractal_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8b/f0/458388ebb28be637abb67b2cc6728df7d65a911e3621754c355381c81016/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

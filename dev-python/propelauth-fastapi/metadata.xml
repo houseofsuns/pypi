@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># PropelAuth FastAPI SDK&lt;p align=&quot;center&quot;&gt;  &lt;a href=&quot;https://www.propelauth.com/?utm_campaign=github-fastapi&quot; target=&quot;_blank&quot; align=&quot;center&quot;&gt;    &lt;img src=&quot;https://propelauth-logos.s3.us-west-2.amazonaws.com/logo-only.png&quot; width=&quot;100&quot;&gt;  &lt;/a&gt;&lt;/p&gt;A FastAPI library for managing authentication, backed by [PropelAuth](https://www.propelauth.com/?utm_campaign=github-fastapi).[PropelAuth](https://www.propelauth.com?ref=github) makes it easy to add authentication and authorization to your B2B/multi-tenant application.Your frontend gets a beautiful, safe, and customizable login screen. Your backend gets easy authorization with just a few lines of code. You get an easy-to-use dashboard to config and manage everything.## Documentation- Full reference this library is [here](https://docs.propelauth.com/reference/backend-apis/fastapi)- Getting started guides for PropelAuth are [here](https://docs.propelauth.com/)## Questions?Feel free to reach out at support@propelauth.com</longdescription>
+</pkgmetadata>

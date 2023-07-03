@@ -15,8 +15,8 @@ DESCRIPTION="Pydra tasks for BIDS I/O"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/90/f3/32564ce3b9caa0126b9fd8a950219485011cdaf93c8059b39885692c9fc0/pydra_bids-${REALVERSION}.tar.gz"
-SOURCEFILE="pydra_bids-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/90/f3/32564ce3b9caa0126b9fd8a950219485011cdaf93c8059b39885692c9fc0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

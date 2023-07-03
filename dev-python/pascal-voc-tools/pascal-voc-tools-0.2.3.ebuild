@@ -15,8 +15,8 @@ DESCRIPTION="Some PascalVOC dataset tools"
 
 HOMEPAGE="https://github.com/wang-tf/pascal_voc_tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f0/8b/8ff24e3a7b97c64df8f8594531ec982838ce63dc30a93b16cafac63bf548/pascal_voc_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="pascal_voc_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f0/8b/8ff24e3a7b97c64df8f8594531ec982838ce63dc30a93b16cafac63bf548/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

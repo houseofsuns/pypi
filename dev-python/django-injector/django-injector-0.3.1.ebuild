@@ -15,8 +15,8 @@ DESCRIPTION="Integrate injector with Django"
 
 HOMEPAGE="https://github.com/blubber/django_injector"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ae/a5/3b19f66ead9ebb919aba5d51182a878c6a080353f18af2a6c950fb306271/django_injector-${REALVERSION}.tar.gz"
-SOURCEFILE="django_injector-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ae/a5/3b19f66ead9ebb919aba5d51182a878c6a080353f18af2a6c950fb306271/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

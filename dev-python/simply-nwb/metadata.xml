@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>###########Simply-NWB###########- Please see the documentation at `readthedocs &lt;https://simply-nwb.readthedocs.io/en/latest/index.html&gt;`_- GitHub available with more information `here &lt;https://github.com/Anschutz-Visual-Cluster/simply-nwb&gt;`_Made for CU Anschutz Vision Cluster</longdescription>
+</pkgmetadata>

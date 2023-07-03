@@ -15,8 +15,8 @@ DESCRIPTION="Mycroft skill installer from .zip or .tar.gz urls"
 
 HOMEPAGE="https://github.com/OpenVoiceOS/ovos_skill_installer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c7/ea/92f5b41f1bb7e38ad6a56d3c0daa0610a7ec654e86ef1db3f52dc5c47907/ovos_skill_installer-${REALVERSION}.tar.gz"
-SOURCEFILE="ovos_skill_installer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c7/ea/92f5b41f1bb7e38ad6a56d3c0daa0610a7ec654e86ef1db3f52dc5c47907/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

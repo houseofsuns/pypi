@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># viashpyVarious tools and utilities to interact with [viash](https://viash.io/) using python.# InstallationTo install viashpy, you can do so from the python package index [PyPI](https://pypi.org/) using `pip`.```bashpip install viashpy```# Running the testsTo run the tests, clone the repository and install the development requirements by running the following command from the root of the repository:```bashpip install .[dev] # Do not forget to quote this if you are using zsh```By default, viashpy can tested against different python versions (more specifically 3.7 to 3.11) using `tox`. These versions of python must be made available to tox (by adding them to your `PATH` environment variable), for example by installing and enabling them using `pyenv`.Afterwards, running the tests is a matter of executing: ```bashtox .```Alternatively, if you wish to test for the python version installed on your system only, you can choose to only test `-e` parameter.```bash# Uses python3.7tox -e py3.7```# LicenseCopyright (C) 2020 Data IntuitiveThis program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.You should have received a copy of the GNU General Public License along with this program. If not, see http://www.gnu.org/licenses/.</longdescription>
+</pkgmetadata>

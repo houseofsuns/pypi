@@ -15,8 +15,8 @@ DESCRIPTION="A GraphQL API for Nextline"
 
 HOMEPAGE="https://github.com/simonsobs/nextline"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e0/97/cd1b8d8793d733e321f416ca6b8b91cf382c87beb7943dc6bbe7bd88ee67/nextline_graphql-${REALVERSION}.tar.gz"
-SOURCEFILE="nextline_graphql-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e0/97/cd1b8d8793d733e321f416ca6b8b91cf382c87beb7943dc6bbe7bd88ee67/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

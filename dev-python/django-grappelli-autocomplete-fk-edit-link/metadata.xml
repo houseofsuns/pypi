@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Django Grappelli Autocomplete Foreign Key Edit Linkdjango-grappelli-autocomplete-fk-edit-link provides a `ModelAdmin` mixin that adds edit links to autocomplete lookups.Install using pip :sudo pip install git+https://github.com/CrossWaterBridge/django-grappelli-autocomplete-fk-edit-link.git@master#egg=django-grappelli-autocomplete-fk-edit-linkAdd `grappelli_autocomplete_fk_edit_link` to your `INSTALLED_APPS`:INSTALLED_APPS = (...'grappelli','grappelli_autocomplete_fk_edit_link',)Add the mixin to any `ModelAdmin` with one or more autocomplete foreign key lookup fields:    from grappelli_autocomplete_fk_edit_link import AutocompleteEditLinkAdminMixin        class MyAdmin(AutocompleteEditLinkAdminMixin, admin.ModelAdmin):    raw_id_fields = ['related_object']autocomplete_lookup_fields = {'fk': ['related_object'],}</longdescription>
+</pkgmetadata>

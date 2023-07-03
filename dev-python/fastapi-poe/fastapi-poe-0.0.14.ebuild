@@ -15,8 +15,8 @@ DESCRIPTION="A demonstration of the Poe protocol using FastAPI"
 
 HOMEPAGE="https://github.com/quora/poe-protocol"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5f/e7/7fcd26ece8788fa8011a092d43e78d9779878fde5eb3cf3359bf5d8020ac/fastapi_poe-${REALVERSION}.tar.gz"
-SOURCEFILE="fastapi_poe-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5f/e7/7fcd26ece8788fa8011a092d43e78d9779878fde5eb3cf3359bf5d8020ac/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

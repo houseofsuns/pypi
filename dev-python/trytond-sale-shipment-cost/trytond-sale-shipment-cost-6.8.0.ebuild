@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module for sale shipment cost"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/3c/e8/2dc09c8162794d78861eda0c28a457208446dde9a8e1f8ef3d835e5d458f/trytond_sale_shipment_cost-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_sale_shipment_cost-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3c/e8/2dc09c8162794d78861eda0c28a457208446dde9a8e1f8ef3d835e5d458f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pydra-petpvc[![PyPI - Version][pypi-version]][pypi-project][![PyPI - Python Version][pypi-pyversions]][pypi-project][![PyPI - Downloads][pypi-downloads]][pypi-project]![][status-test]----Pydra tasks for PETPVC.[Pydra][pydra] is a dataflow engine which providesa set of lightweight abstractions for DAGconstruction, manipulation, and distributed execution.[PETPVC][petpvc] is a toolbox for partial volume correction (PVC)in positron emission tomography (PET).## Installation```consolepip install pydra-petpvc```A separate installation of PETPVC is required to use this package.Please review the project's [homepage][petpvc] for installation instructions and licensing information.An official conda package is available through [conda-forge][petpvc-conda]:```consoleconda install -c conda-forge petpvc```## DevelopmentThis project is managed with [Hatch][hatch]:```consolepipx install hatch```To run the test suite:```consolehatch run test```To fix linting issues:```consolehatch run lint:fix```## LicensingThis project is distributed under the terms of the [Apache License, Version 2.0][license].[hatch]: https://hatch.pypa.io/[license]: https://spdx.org/licenses/Apache-2.0.html[petpvc]: https://github.com/UCL/PETPVC[petpvc-conda]: https://anaconda.org/conda-forge/petpvc[pydra]: https://pydra.readthedocs.io/[pypi-downloads]: https://static.pepy.tech/badge/pydra-petpvc[pypi-project]: https://pypi.org/project/pydra-petpvc[pypi-pyversions]: https://img.shields.io/pypi/pyversions/pydra-petpvc.svg[pypi-version]: https://img.shields.io/pypi/v/pydra-petpvc.svg[status-test]: https://github.com/aramis-lab/pydra-petpvc/actions/workflows/test.yaml/badge.svg</longdescription>
+</pkgmetadata>

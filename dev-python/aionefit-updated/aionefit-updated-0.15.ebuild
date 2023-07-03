@@ -15,8 +15,8 @@ DESCRIPTION="asyncio library for Bosch thermostats"
 
 HOMEPAGE="https://github.com/spoetnik/aionefit"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/99/bb/956ec11b33386efc1fe0be3366648e2cb23e4fb1c4448f7fe841309ca17c/aionefit_updated-${REALVERSION}.tar.gz"
-SOURCEFILE="aionefit_updated-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/99/bb/956ec11b33386efc1fe0be3366648e2cb23e4fb1c4448f7fe841309ca17c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

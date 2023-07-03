@@ -15,8 +15,8 @@ DESCRIPTION="用户模块"
 
 HOMEPAGE=""
 LICENSE="apache 3.0"
-SRC_URI="https://files.pythonhosted.org/packages/1f/2a/41f42d25b0afca7cbca4e9f68ff47654f4dbe5eb454aee88a0e97718d1ee/xj_user-${REALVERSION}.tar.gz"
-SOURCEFILE="xj_user-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1f/2a/41f42d25b0afca7cbca4e9f68ff47654f4dbe5eb454aee88a0e97718d1ee/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

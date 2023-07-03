@@ -15,8 +15,8 @@ DESCRIPTION="A small simple wrapper around the mystb.in API."
 
 HOMEPAGE="https://github.com/PythonistaGuild/mystbin.py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/71/03/75fd9500e2445d1f70bfea1bc60094bfe149f415c9c4ac0c81dd4b1b83ea/mystbin_py-${REALVERSION}.tar.gz"
-SOURCEFILE="mystbin_py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/71/03/75fd9500e2445d1f70bfea1bc60094bfe149f415c9c4ac0c81dd4b1b83ea/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

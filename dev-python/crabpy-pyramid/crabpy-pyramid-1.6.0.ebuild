@@ -15,8 +15,8 @@ DESCRIPTION="Bindings for the CRABpy webservices and the Pyramid framework."
 
 HOMEPAGE="http://github.com/OnroerendErfgoed/crabpy_pyramid"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/81/c9/8851f382ba4275f85ef285b363f9dbdfcc69f53ea75698ca1b95d358b54d/crabpy_pyramid-${REALVERSION}.tar.gz"
-SOURCEFILE="crabpy_pyramid-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/81/c9/8851f382ba4275f85ef285b363f9dbdfcc69f53ea75698ca1b95d358b54d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

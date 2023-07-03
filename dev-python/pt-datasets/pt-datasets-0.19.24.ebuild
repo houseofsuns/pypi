@@ -15,8 +15,8 @@ DESCRIPTION="Library for loading PyTorch datasets and data loaders."
 
 HOMEPAGE=""
 LICENSE="AGPL-3.0 License"
-SRC_URI="https://files.pythonhosted.org/packages/b4/55/5b154c662ab8bf210d931f899036f100470e8f23605f46d63d70667f27c2/pt_datasets-${REALVERSION}.tar.gz"
-SOURCEFILE="pt_datasets-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b4/55/5b154c662ab8bf210d931f899036f100470e8f23605f46d63d70667f27c2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

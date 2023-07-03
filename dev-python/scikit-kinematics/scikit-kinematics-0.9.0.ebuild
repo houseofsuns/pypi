@@ -15,8 +15,8 @@ DESCRIPTION="Python utilites for movements in 3d space"
 
 HOMEPAGE="https://work.thaslwanter.at/skinematics/html"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/7e/27/9b93879d355fb8c11c66a03e0e9d8584ba4c5e236437c512a0705755b5f1/scikit_kinematics-${REALVERSION}.tar.gz"
-SOURCEFILE="scikit_kinematics-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7e/27/9b93879d355fb8c11c66a03e0e9d8584ba4c5e236437c512a0705755b5f1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

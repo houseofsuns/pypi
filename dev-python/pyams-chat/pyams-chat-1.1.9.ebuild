@@ -15,8 +15,8 @@ DESCRIPTION="PyAMS chat and notifications management package"
 
 HOMEPAGE="https://pyams.readthedocs.io"
 LICENSE="ZPL"
-SRC_URI="https://files.pythonhosted.org/packages/fc/57/b90927277e32ae29c580e815cf7f09d4c10e2f2e80125b5471d44778e0cd/pyams_chat-${REALVERSION}.tar.gz"
-SOURCEFILE="pyams_chat-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fc/57/b90927277e32ae29c580e815cf7f09d4c10e2f2e80125b5471d44778e0cd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="PyAMS HTTP proxy"
 
 HOMEPAGE="https://pyams.readthedocs.io"
 LICENSE="ZPL"
-SRC_URI="https://files.pythonhosted.org/packages/9e/fb/e3bcb5550992af292db947b6a415e28c2cb609518624c5ba6fb147dc29f9/pyams_http_proxy-${REALVERSION}.tar.gz"
-SOURCEFILE="pyams_http_proxy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9e/fb/e3bcb5550992af292db947b6a415e28c2cb609518624c5ba6fb147dc29f9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

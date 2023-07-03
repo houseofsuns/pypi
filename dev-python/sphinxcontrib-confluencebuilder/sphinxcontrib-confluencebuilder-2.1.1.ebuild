@@ -15,8 +15,8 @@ DESCRIPTION="Sphinx extension to build Atlassian Confluence Storage Markup"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6d/f7/02722a018c5d52192e80c5b59af7913bfe05db0c021b37c504d7f267893a/sphinxcontrib_confluencebuilder-${REALVERSION}.tar.gz"
-SOURCEFILE="sphinxcontrib_confluencebuilder-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6d/f7/02722a018c5d52192e80c5b59af7913bfe05db0c021b37c504d7f267893a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

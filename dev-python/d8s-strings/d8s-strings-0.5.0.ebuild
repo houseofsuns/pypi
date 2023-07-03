@@ -15,8 +15,8 @@ DESCRIPTION="Democritus functions for working with Python strings."
 
 HOMEPAGE="https://github.com/democritus-project/d8s-strings"
 LICENSE="GNU Lesser General Public License v3"
-SRC_URI="https://files.pythonhosted.org/packages/9f/d4/57949627e245ad733cbf7f753cad9f8bd43d79b91c9720fa279dcb2690d4/d8s_strings-${REALVERSION}.tar.gz"
-SOURCEFILE="d8s_strings-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9f/d4/57949627e245ad733cbf7f753cad9f8bd43d79b91c9720fa279dcb2690d4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

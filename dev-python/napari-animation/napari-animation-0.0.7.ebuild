@@ -15,8 +15,8 @@ DESCRIPTION="A plugin for making animations in napari"
 
 HOMEPAGE="https://github.com/napari/napari-animation"
 LICENSE="BSD 3-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/ce/3f/0cfae7d7cf9a15b7d8ac8bf420a1d4e20777bf684f0f80ce1ce89dc75871/napari_animation-${REALVERSION}.tar.gz"
-SOURCEFILE="napari_animation-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ce/3f/0cfae7d7cf9a15b7d8ac8bf420a1d4e20777bf684f0f80ce1ce89dc75871/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

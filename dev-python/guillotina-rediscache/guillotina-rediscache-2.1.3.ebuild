@@ -15,8 +15,8 @@ DESCRIPTION="guillotina cache implementation using redis + lru in-memory cache"
 
 HOMEPAGE="https://github.com/guillotinaweb/guillotina_rediscache"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/82/7b/fdab6859eb672364ff191a90d4ffcab50e4eb3e87c51057b7b94d100dfc3/guillotina_rediscache-${REALVERSION}.tar.gz"
-SOURCEFILE="guillotina_rediscache-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/82/7b/fdab6859eb672364ff191a90d4ffcab50e4eb3e87c51057b7b94d100dfc3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

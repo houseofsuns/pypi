@@ -15,8 +15,8 @@ DESCRIPTION="Universal Data Schemas"
 
 HOMEPAGE=""
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/4a/98/401114a25d8894221a682e8ee4b29a01c52ba69dc8494fd78ec0c67ab8ec/common_model-${REALVERSION}.tar.gz"
-SOURCEFILE="common_model-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4a/98/401114a25d8894221a682e8ee4b29a01c52ba69dc8494fd78ec0c67ab8ec/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

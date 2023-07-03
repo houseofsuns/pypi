@@ -15,8 +15,8 @@ DESCRIPTION="A small CLI to quickly obtain an API token for Deezer API."
 
 HOMEPAGE="https://github.com/browniebroke/deezer-oauth-cli"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5f/f8/cc423cd5de6d65a401009ae7f0aebc8250b16494801ab01794a497ddfa66/deezer_oauth_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="deezer_oauth_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5f/f8/cc423cd5de6d65a401009ae7f0aebc8250b16494801ab01794a497ddfa66/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Nitra"
 
 HOMEPAGE="https://github.com/HBS-Economics/nitra.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/59/56/f7869a153d5ae47b7da2ae9aff01df03fc13d33da30560ada580dbdb621e/jobspire_nitra-${REALVERSION}.tar.gz"
-SOURCEFILE="jobspire_nitra-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/59/56/f7869a153d5ae47b7da2ae9aff01df03fc13d33da30560ada580dbdb621e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

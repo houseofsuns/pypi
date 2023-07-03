@@ -15,8 +15,8 @@ DESCRIPTION="Control a wide range of LED BLE devices"
 
 HOMEPAGE="https://github.com/bluetooth-devices/led-ble"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ac/31/878d0591869ef0ecfbb5ac253cd7d335d70d3004ce3c5bb1aebc605b6a57/led_ble-${REALVERSION}.tar.gz"
-SOURCEFILE="led_ble-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ac/31/878d0591869ef0ecfbb5ac253cd7d335d70d3004ce3c5bb1aebc605b6a57/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

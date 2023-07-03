@@ -15,8 +15,8 @@ DESCRIPTION="ValidatesAWS EventBridge cron expressions, which are similar to, bu
 
 HOMEPAGE="https://github.com/grumBit/aws_cron_expression_validator.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/86/35/fda6050ccff7afcae83500fd65e63bfab395c0d0b82205381c877f32919a/aws_cron_expression_validator-${REALVERSION}.tar.gz"
-SOURCEFILE="aws_cron_expression_validator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/86/35/fda6050ccff7afcae83500fd65e63bfab395c0d0b82205381c877f32919a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

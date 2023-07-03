@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># xpdf-pythonPython wrapper around the pdftotext functionality of xpdf.# Usage```pythonfrom xpydf.pdf_loader import PdfLoaderloader = PdfLoader(&quot;foo.pdf&quot;)pdf_text = loader.extract_strings()pdf_images = loader.extract_images()```</longdescription>
+</pkgmetadata>

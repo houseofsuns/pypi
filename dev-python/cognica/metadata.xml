@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Cognica Python ClientA Python client for Cognica database server.## Installation```bash$ pip install cognica```## Current StatusThe current version is fully functional and stable for the production environment. However, the API is still subject to change and may break backward compatibility in the next release.### Current Version```pythonimport cognica# Establish connection to a local database server.channel = cognica.Channel(&quot;localhost&quot;, 10080)# List collections.db = cognica.DocumentDB(channel)collections = db.list_collections()for collection in collections:    print(collection)# Find a specific document in the Wikipedia collection.collection = cognica.find_collection(&quot;Wikipedia&quot;)df = collection.find({    &quot;page_id&quot;: 42}, to_pandas=True)print(df)```### Next Version (Work in progress)```pythonimport cognica# Establish connection to a local database server.channel = cognica.Channel(&quot;localhost&quot;, 10080)# Login to the database.ws = cognica.Workspaces(channel, &quot;user_id&quot;, &quot;password&quot;)# List workspaces.workspaces = ws.list_workspaces()for workspace in workspaces:    print(workspace)# Open the workspace and list the collections.workspace = ws.find_workspace(&quot;test&quot;)db = cognica.DocumentDB(workspace)collections = db.list_collections()for collection in collections:    print(collection)# Find a specific document in the Wikipedia collection.collection = cognica.find_collection(&quot;Wikipedia&quot;)df = collection.find({    &quot;page_id&quot;: 42}, to_pandas=True)print(df)```</longdescription>
+</pkgmetadata>

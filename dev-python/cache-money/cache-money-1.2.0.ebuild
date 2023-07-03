@@ -15,8 +15,8 @@ DESCRIPTION="Async cache decorator for memoization using aioredis."
 
 HOMEPAGE="https://github.com/novisto/cache-money"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bc/81/f1c1923bfb123a32e819d824b79ae08134d8729798d01dd89ac65532f8e9/cache_money-${REALVERSION}.tar.gz"
-SOURCEFILE="cache_money-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bc/81/f1c1923bfb123a32e819d824b79ae08134d8729798d01dd89ac65532f8e9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

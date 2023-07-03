@@ -15,8 +15,8 @@ DESCRIPTION="Python package to scrap twitter's front-end easily with selenium"
 
 HOMEPAGE="https://github.com/shaikhsajid1111/twitter-scraper-selenium"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ee/30/f391ccfe52b741e0763c3e87f8e49dced32663ed1f0e5797de640eda1611/twitter_scraper_selenium-${REALVERSION}.tar.gz"
-SOURCEFILE="twitter_scraper_selenium-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ee/30/f391ccfe52b741e0763c3e87f8e49dced32663ed1f0e5797de640eda1611/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

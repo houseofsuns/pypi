@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This API library is only for developers who already have an integration using the [Legacy GoCardless API](https://developer.gocardless.com/legacy). If you're starting a new integration, you should use the new [GoCardless API](https://developer.gocardless.com) with the [gocardless-pro-python](https://github.com/gocardless/gocardless-pro-python) library. If you're not sure whether this is the right library for you, get in touch - you can reach our developer support team at &lt;api@gocardless.com&gt;.</longdescription>
+</pkgmetadata>

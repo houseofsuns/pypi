@@ -15,8 +15,8 @@ DESCRIPTION="Implementation of the govee API to control LED strips and bulbs."
 
 HOMEPAGE="https://github.com/LaggAt/python-govee-api"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ea/c0/aca7f6519e7e14bea4db0d1f59c62bd4cd27787e3fa5fa18dc494e965181/govee_api_laggat-${REALVERSION}.tar.gz"
-SOURCEFILE="govee_api_laggat-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ea/c0/aca7f6519e7e14bea4db0d1f59c62bd4cd27787e3fa5fa18dc494e965181/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

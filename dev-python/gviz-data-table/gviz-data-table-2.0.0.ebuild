@@ -15,8 +15,8 @@ DESCRIPTION="Python API for Google Visualization"
 
 HOMEPAGE=""
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/c3/6a/516ba42f4e85c548508a2aee130b0a5531f13e5517a9adab77dd676dcdf6/gviz_data_table-${REALVERSION}.tar.gz"
-SOURCEFILE="gviz_data_table-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c3/6a/516ba42f4e85c548508a2aee130b0a5531f13e5517a9adab77dd676dcdf6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

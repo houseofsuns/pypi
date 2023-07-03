@@ -15,8 +15,8 @@ DESCRIPTION="Flet core library"
 
 HOMEPAGE="https://flet.dev"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/7b/e4/9926649415bb955d74a8a6656a974cb2de82e228fbc2ce8032aca561c264/flet_core-${REALVERSION}.tar.gz"
-SOURCEFILE="flet_core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7b/e4/9926649415bb955d74a8a6656a974cb2de82e228fbc2ce8032aca561c264/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

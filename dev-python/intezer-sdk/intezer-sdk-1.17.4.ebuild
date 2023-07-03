@@ -15,8 +15,8 @@ DESCRIPTION="Intezer Analyze SDK"
 
 HOMEPAGE="https://github.com/intezer/analyze-python-sdk"
 LICENSE="Apache License v2"
-SRC_URI="https://files.pythonhosted.org/packages/5a/94/5dac41a02656f21d3514f47cce9a09de1f2780f5e4f6ddb55671ecc53ad1/intezer_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="intezer_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5a/94/5dac41a02656f21d3514f47cce9a09de1f2780f5e4f6ddb55671ecc53ad1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Asynchronous Python client for the Frank Energie"
 
 HOMEPAGE="https://github.com/dcsbl/python-frank-energie"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/19/92/9b057f541614b9618159d96e9feac78d8cda0ed366ad5c916a5962e027a2/python_frank_energie-${REALVERSION}.tar.gz"
-SOURCEFILE="python_frank_energie-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/19/92/9b057f541614b9618159d96e9feac78d8cda0ed366ad5c916a5962e027a2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="PyTorch Extension Library of Optimized Scatter Operations"
 
 HOMEPAGE="https://github.com/rusty1s/pytorch_scatter"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/db/ae/3dee934b7118aec8528a6832dbb3cf079e13dd442c4600cae8d29a4f9fea/torch_scatter-${REALVERSION}.tar.gz"
-SOURCEFILE="torch_scatter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/db/ae/3dee934b7118aec8528a6832dbb3cf079e13dd442c4600cae8d29a4f9fea/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

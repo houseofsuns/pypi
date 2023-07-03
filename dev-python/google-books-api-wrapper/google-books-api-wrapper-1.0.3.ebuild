@@ -15,8 +15,8 @@ DESCRIPTION="A simple and easy to use wrapper around the Google Books Web API."
 
 HOMEPAGE="https://github.com/dankrzeminski32/google-books-api-wrapper"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/02/e4/d7d36bfaa63cdaaa6f980265c0033ca55f46acd8291da89fed2159ff53a9/google_books_api_wrapper-${REALVERSION}.tar.gz"
-SOURCEFILE="google_books_api_wrapper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/02/e4/d7d36bfaa63cdaaa6f980265c0033ca55f46acd8291da89fed2159ff53a9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

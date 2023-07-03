@@ -15,8 +15,8 @@ DESCRIPTION="ExplainaBoard Client"
 
 HOMEPAGE="https://github.com/neulab/explainaboard_client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3d/f4/2902da1440f89c09b68279eee221a59baa6bd7523a0bcbf66c295f41ed69/explainaboard_client-${REALVERSION}.tar.gz"
-SOURCEFILE="explainaboard_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3d/f4/2902da1440f89c09b68279eee221a59baa6bd7523a0bcbf66c295f41ed69/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

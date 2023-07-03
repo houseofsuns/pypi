@@ -15,8 +15,8 @@ DESCRIPTION="改自nonebot_plugin_russian合并了nonebot_plugin_horserace还有
 
 HOMEPAGE="https://github.com/KarisAya/nonebot_plugin_game_collection"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b7/53/0f77bef0ea8dcd34c60b9fe7505748d8a465c4afe3d0ab00876f26dcbc41/nonebot_plugin_game_collection-${REALVERSION}.tar.gz"
-SOURCEFILE="nonebot_plugin_game_collection-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b7/53/0f77bef0ea8dcd34c60b9fe7505748d8a465c4afe3d0ab00876f26dcbc41/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

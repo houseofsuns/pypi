@@ -15,8 +15,8 @@ DESCRIPTION="Treasure Data extension for pyspark"
 
 HOMEPAGE="https://docs.treasuredata.com/display/public/INT/Data+Science+and+SQL+Tools"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/03/47/11ef159d4071f745f8f2c7e3e9b5eec72145efc1635bbb1ca5294b630b4f/td_pyspark-${REALVERSION}.tar.gz"
-SOURCEFILE="td_pyspark-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/03/47/11ef159d4071f745f8f2c7e3e9b5eec72145efc1635bbb1ca5294b630b4f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

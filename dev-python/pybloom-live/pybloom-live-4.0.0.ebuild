@@ -15,8 +15,8 @@ DESCRIPTION="Bloom filter: A Probabilistic data structure"
 
 HOMEPAGE="https://github.com/joseph-fox/python-bloomfilter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8c/06/868053bdca7afcc22905d6fa5f515880c31cbb12437aea1814c26cdd1c92/pybloom_live-${REALVERSION}.tar.gz"
-SOURCEFILE="pybloom_live-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8c/06/868053bdca7afcc22905d6fa5f515880c31cbb12437aea1814c26cdd1c92/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

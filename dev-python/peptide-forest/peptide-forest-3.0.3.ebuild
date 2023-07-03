@@ -15,8 +15,8 @@ DESCRIPTION="Integrate multiple search engines"
 
 HOMEPAGE="https://github.com/peptideforest/peptideForest"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/86/5e/7fd2a64da483e6b2c743c4767cda7e5e4ccaabe857c8fd2f7723bc680ff3/peptide_forest-${REALVERSION}.tar.gz"
-SOURCEFILE="peptide_forest-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/86/5e/7fd2a64da483e6b2c743c4767cda7e5e4ccaabe857c8fd2f7723bc680ff3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

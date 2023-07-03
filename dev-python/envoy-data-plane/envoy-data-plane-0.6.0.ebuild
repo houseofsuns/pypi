@@ -15,8 +15,8 @@ DESCRIPTION="Python dataclasses for the Envoy Data-Plane-API"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/aa/e0/53a591282cb4d55bbdf2598429080645b548fcf17b8ff281927f4f54e955/envoy_data_plane-${REALVERSION}.tar.gz"
-SOURCEFILE="envoy_data_plane-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/aa/e0/53a591282cb4d55bbdf2598429080645b548fcf17b8ff281927f4f54e955/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

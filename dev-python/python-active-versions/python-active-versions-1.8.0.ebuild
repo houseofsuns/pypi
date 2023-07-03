@@ -15,8 +15,8 @@ DESCRIPTION="Gather active python versions."
 
 HOMEPAGE="https://github.com/gpongelli/python-active-versions"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2f/1d/66028f690aeeddad9431d7337da07f01025b26a890276cb874b43b3a06e3/python_active_versions-${REALVERSION}.tar.gz"
-SOURCEFILE="python_active_versions-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2f/1d/66028f690aeeddad9431d7337da07f01025b26a890276cb874b43b3a06e3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Dialogs library of RPA Framework"
 
 HOMEPAGE="https://rpaframework.org/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/65/4f/aa5ae6c931e6d5ab93ae53d87952677ca0fb7274efe439b510b27774909f/rpaframework_dialogs-${REALVERSION}.tar.gz"
-SOURCEFILE="rpaframework_dialogs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/65/4f/aa5ae6c931e6d5ab93ae53d87952677ca0fb7274efe439b510b27774909f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

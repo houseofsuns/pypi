@@ -15,8 +15,8 @@ DESCRIPTION="Forked and updated version of https://pypi.org/project/gqlclient/"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ee/d3/de72299dbea4e6b9624bc01a020e2d7097ed4cf286b2642856c641614a97/py_gql_test_client-${REALVERSION}.tar.gz"
-SOURCEFILE="py_gql_test_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ee/d3/de72299dbea4e6b9624bc01a020e2d7097ed4cf286b2642856c641614a97/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

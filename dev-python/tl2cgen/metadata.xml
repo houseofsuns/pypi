@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>======================TL2cgen Python Package======================|PyPI version|.. |PyPI version| image:: https://badge.fury.io/py/tl2cgen.svg   :target: http://badge.fury.io/py/tl2cgen**TL2cgen** is a compiler for decision tree models: you can convert any decision tree models(Random Forests, Gradient Boosting) into C code and compile it to a native binary.See the documentation for more details.</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="IDP Authentication - Hexagonal Architecture Implementation"
 
 HOMEPAGE="https://github.com/CardoAI/idp-authentication"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/48/ff/ac7cd1644ffec7bf19637fad94718d91dbfdbaf97bc5f162791a9d5a0965/idp_authentication-${REALVERSION}.tar.gz"
-SOURCEFILE="idp_authentication-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/48/ff/ac7cd1644ffec7bf19637fad94718d91dbfdbaf97bc5f162791a9d5a0965/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

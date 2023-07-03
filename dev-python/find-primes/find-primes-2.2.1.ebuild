@@ -15,8 +15,8 @@ DESCRIPTION="A module to find primes and factors of big numbers."
 
 HOMEPAGE="https://github.com/git4robot/pypi_find_primes"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0a/2c/aa245dda900c01d0332063e1dc7f75d94042998527abae72652d3ab05894/find_primes-${REALVERSION}.tar.gz"
-SOURCEFILE="find_primes-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0a/2c/aa245dda900c01d0332063e1dc7f75d94042998527abae72652d3ab05894/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

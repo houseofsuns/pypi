@@ -15,8 +15,8 @@ DESCRIPTION="Compress and decompress Microsoft Office VBA data streams."
 
 HOMEPAGE="https://github.com/Beakerboy/MS-OVBA-Compression"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ef/42/7b859d8a31f1c1dd8fd953df70f56e2ddfe9363d9e601ade42cebd5a4b7f/ms_ovba_compression-${REALVERSION}.tar.gz"
-SOURCEFILE="ms_ovba_compression-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ef/42/7b859d8a31f1c1dd8fd953df70f56e2ddfe9363d9e601ade42cebd5a4b7f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

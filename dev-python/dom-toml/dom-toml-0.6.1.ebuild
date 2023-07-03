@@ -15,8 +15,8 @@ DESCRIPTION="Dom's tools for Tom's Obvious, Minimal Language."
 
 HOMEPAGE="https://github.com/domdfcoding/dom_toml"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c1/9f/dcec983da6132c6cb024980d469d2f58527020b68b36b7bada44e5b2b563/dom_toml-${REALVERSION}.tar.gz"
-SOURCEFILE="dom_toml-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c1/9f/dcec983da6132c6cb024980d469d2f58527020b68b36b7bada44e5b2b563/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module to amend purchases"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/7d/96/4f2daaedb543a78e39d3230548eeaa809bbcafc3a43409833fd4d055ca97/trytond_purchase_amendment-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_purchase_amendment-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7d/96/4f2daaedb543a78e39d3230548eeaa809bbcafc3a43409833fd4d055ca97/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

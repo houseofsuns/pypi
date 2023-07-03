@@ -15,8 +15,8 @@ DESCRIPTION="Add properties and method specializations to Python enumeration val
 
 HOMEPAGE="https://enum-properties.readthedocs.io"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/32/78/18f9fc50fa17ac2e6d97a4a0e51fbaa0fdf28da17fd4b9773d7c80cee1fc/enum_properties-${REALVERSION}.tar.gz"
-SOURCEFILE="enum_properties-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/32/78/18f9fc50fa17ac2e6d97a4a0e51fbaa0fdf28da17fd4b9773d7c80cee1fc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

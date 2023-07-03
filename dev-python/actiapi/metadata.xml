@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>*******ActiAPI*******Encapsulate ActiGraph's API in an easy-to-use python package.Example=======Metadata--------&gt;&gt;&gt; from actiapi.v3 import ActiGraphClientV3    api_client = ActiGraphClientV3(&lt;api_access_key&gt;, &lt;api_secret_key&gt;)    metadata = api_client.get_study_metadata(&lt;study_id&gt;)    metadata = {x[&quot;id&quot;]: x for x in metadata}Raw data--------&gt;&gt;&gt; from actiapi.v3 import ActiGraphClientV3    api_client = ActiGraphClientV3(&lt;api_access_key&gt;, &lt;api_secret_key&gt;)    results: List[str] = api_client.get_files(        user=&lt;user_id&gt;, study_id=&lt;self.study_id&gt;    )</longdescription>
+</pkgmetadata>

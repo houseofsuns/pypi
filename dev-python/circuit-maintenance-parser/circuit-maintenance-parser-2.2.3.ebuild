@@ -15,8 +15,8 @@ DESCRIPTION="Python library to parse Circuit Maintenance notifications and retur
 
 HOMEPAGE="https://github.com/networktocode/circuit-maintenance-parser"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/76/17/7f66e19c355c52e85bba44d21d6ccd1915b84311c8b0d17beccf693b4753/circuit_maintenance_parser-${REALVERSION}.tar.gz"
-SOURCEFILE="circuit_maintenance_parser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/76/17/7f66e19c355c52e85bba44d21d6ccd1915b84311c8b0d17beccf693b4753/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

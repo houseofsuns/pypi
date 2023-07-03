@@ -15,8 +15,8 @@ DESCRIPTION="A package cell certain text in specific cell Jupyter Noebook"
 
 HOMEPAGE="https://github.com/LeTriet17"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1a/be/f791a09ffbeafcb2c8972748508f932556a5f68504585e0af9e5cf618332/get_cell-${REALVERSION}.tar.gz"
-SOURCEFILE="get_cell-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1a/be/f791a09ffbeafcb2c8972748508f932556a5f68504585e0af9e5cf618332/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

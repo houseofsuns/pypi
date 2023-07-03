@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/73/4e/bdec4557b83180194575f32010a513c722b1d98945f4119f386f66a873a2/cluster_experiments-${REALVERSION}.tar.gz"
-SOURCEFILE="cluster_experiments-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/73/4e/bdec4557b83180194575f32010a513c722b1d98945f4119f386f66a873a2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

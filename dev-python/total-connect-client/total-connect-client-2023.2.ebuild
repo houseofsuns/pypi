@@ -15,8 +15,8 @@ DESCRIPTION="Interact with Total Connect 2 alarm systems"
 
 HOMEPAGE="https://github.com/craigjmidwinter/total-connect-client"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/eb/98/6b84cdb5bccbc20214eec61453c2ad34fa7f8cce17859f1a80b7043684ed/total_connect_client-${REALVERSION}.tar.gz"
-SOURCEFILE="total_connect_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/eb/98/6b84cdb5bccbc20214eec61453c2ad34fa7f8cce17859f1a80b7043684ed/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

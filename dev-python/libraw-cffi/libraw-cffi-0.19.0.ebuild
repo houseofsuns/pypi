@@ -15,8 +15,8 @@ DESCRIPTION="CFFI bindings for LibRaw"
 
 HOMEPAGE="https://github.com/Julian/libraw-cffi"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4e/39/2053522dae1f00bc69475107424eca6d16932024963b8c361a92474a1651/libraw_cffi-${REALVERSION}.tar.gz"
-SOURCEFILE="libraw_cffi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4e/39/2053522dae1f00bc69475107424eca6d16932024963b8c361a92474a1651/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

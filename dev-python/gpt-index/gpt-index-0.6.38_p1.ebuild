@@ -15,8 +15,8 @@ DESCRIPTION="Interface between LLMs and your data"
 
 HOMEPAGE="https://github.com/jerryjliu/llama_index"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5f/82/49c059dbb3645fa8994198b93fe5ac138cde966ecd53ba0af4c7528f483b/gpt_index-${REALVERSION}.tar.gz"
-SOURCEFILE="gpt_index-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5f/82/49c059dbb3645fa8994198b93fe5ac138cde966ecd53ba0af4c7528f483b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

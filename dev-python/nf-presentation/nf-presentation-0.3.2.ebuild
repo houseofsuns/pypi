@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/thefrol/nanofootball-presentation-maker"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5c/a1/dcd869352699aab4c2c7b91ee361abcdc89da2d94e896495a576fcab9d9d/nf_presentation-${REALVERSION}.tar.gz"
-SOURCEFILE="nf_presentation-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5c/a1/dcd869352699aab4c2c7b91ee361abcdc89da2d94e896495a576fcab9d9d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

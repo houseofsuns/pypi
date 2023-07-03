@@ -15,8 +15,8 @@ DESCRIPTION="Data workflows, cli and dataflow automation."
 
 HOMEPAGE=""
 LICENSE="GNU General Public License v3 GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/f4/ab/7c62dc72575dafb767be2c317e798b7e4ef41fdacb85cc5c03dc63425b36/pipelime_python-${REALVERSION}.tar.gz"
-SOURCEFILE="pipelime_python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f4/ab/7c62dc72575dafb767be2c317e798b7e4ef41fdacb85cc5c03dc63425b36/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

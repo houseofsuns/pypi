@@ -15,8 +15,8 @@ DESCRIPTION="A library to standardize testing of GeneWeaver pacakges."
 
 HOMEPAGE="https://bergsalex.github.io/geneweaver-docs/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/8f/01/07708bb8e17fbeef61e558e2ba32740f05f907faaeef127c130874c8b19a/geneweaver_testing-${REALVERSION}.tar.gz"
-SOURCEFILE="geneweaver_testing-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8f/01/07708bb8e17fbeef61e558e2ba32740f05f907faaeef127c130874c8b19a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Package providing basic functionalities for the semantic modeling p
 
 HOMEPAGE="https://github.com/binh-vu/sm"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d5/75/b4a1a2b8a8aca5a743e5c262c6b1c64d01970a1b53d4d97f5f2ab1fe11d0/sem_desc-${REALVERSION}.tar.gz"
-SOURCEFILE="sem_desc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d5/75/b4a1a2b8a8aca5a743e5c262c6b1c64d01970a1b53d4d97f5f2ab1fe11d0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

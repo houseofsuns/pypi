@@ -15,8 +15,8 @@ DESCRIPTION="Adds Tryton support to Flask application"
 
 HOMEPAGE="http://flask-tryton.b2ck.com/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/31/5b/e02a7aee4f424725cecfe613c9b135e370903c5b7825afd29641c654b307/flask_tryton-${REALVERSION}.tar.gz"
-SOURCEFILE="flask_tryton-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/31/5b/e02a7aee4f424725cecfe613c9b135e370903c5b7825afd29641c654b307/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

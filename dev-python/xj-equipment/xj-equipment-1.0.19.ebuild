@@ -15,8 +15,8 @@ DESCRIPTION="设备模块-修复设备列表问题"
 
 HOMEPAGE=""
 LICENSE="apache 3.0"
-SRC_URI="https://files.pythonhosted.org/packages/4d/f9/fe11a827ceee8c0a6488421118a41ff0936592f7b0569d23c88e7cd02b20/xj_equipment-${REALVERSION}.tar.gz"
-SOURCEFILE="xj_equipment-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4d/f9/fe11a827ceee8c0a6488421118a41ff0936592f7b0569d23c88e7cd02b20/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

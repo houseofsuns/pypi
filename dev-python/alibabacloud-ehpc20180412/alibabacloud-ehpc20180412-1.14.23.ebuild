@@ -15,8 +15,8 @@ DESCRIPTION="Alibaba Cloud Elastic High Performance Computing (20180412) SDK Lib
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ad/f6/7236c1e31558f392009c2039c3f2c1f16ba8f7e02b9d35f4da1d35e27bf4/alibabacloud_ehpc20180412-${REALVERSION}.tar.gz"
-SOURCEFILE="alibabacloud_ehpc20180412-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ad/f6/7236c1e31558f392009c2039c3f2c1f16ba8f7e02b9d35f4da1d35e27bf4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

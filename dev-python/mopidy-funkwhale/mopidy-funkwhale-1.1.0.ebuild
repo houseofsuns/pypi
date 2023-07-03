@@ -15,8 +15,8 @@ DESCRIPTION="\"A backend extension for mopidy to stream music from a Funkwhale s
 
 HOMEPAGE="https://dev.funkwhale.audio/funkwhale/mopidy"
 LICENSE="GLP-3"
-SRC_URI="https://files.pythonhosted.org/packages/82/29/61619376a0dc3cc2ea14a0f4851fafcdf8012dccfddeca0332431b2a604f/mopidy_funkwhale-${REALVERSION}.tar.gz"
-SOURCEFILE="mopidy_funkwhale-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/82/29/61619376a0dc3cc2ea14a0f4851fafcdf8012dccfddeca0332431b2a604f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

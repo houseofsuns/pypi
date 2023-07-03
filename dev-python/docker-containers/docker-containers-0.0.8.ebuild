@@ -15,8 +15,8 @@ DESCRIPTION="Util for start containers"
 
 HOMEPAGE="https://github.com/PonomarevMaksim/docker-containers"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/ce/bf/1ae5f453babc1f2e8e293a22491a1c1c742e07b9c572feee7cfe73457200/docker_containers-${REALVERSION}.tar.gz"
-SOURCEFILE="docker_containers-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ce/bf/1ae5f453babc1f2e8e293a22491a1c1c742e07b9c572feee7cfe73457200/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

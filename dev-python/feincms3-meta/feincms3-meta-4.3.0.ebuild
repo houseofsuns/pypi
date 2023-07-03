@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/matthiask/feincms3-meta/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/d6/e8/d5291f5c8a59086de7aa32c2e9a840b5fc6c8c2268b1c2683432445e2815/feincms3_meta-${REALVERSION}.tar.gz"
-SOURCEFILE="feincms3_meta-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d6/e8/d5291f5c8a59086de7aa32c2e9a840b5fc6c8c2268b1c2683432445e2815/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="asyncio & gevent in harmony"
 
 HOMEPAGE="https://github.com/gfmio/asyncio-gevent"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/66/74/c2bc62952016e6d08a4df3461cceaaf68b0efd81d514cd087f14f426e017/asyncio_gevent-${REALVERSION}.tar.gz"
-SOURCEFILE="asyncio_gevent-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/66/74/c2bc62952016e6d08a4df3461cceaaf68b0efd81d514cd087f14f426e017/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

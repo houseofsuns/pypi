@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ecghelperA utility package for working with electrocardiograms, particularly 12-lead electrocardiograms.## Quickstart```shpip install ecghelper```### DevelopmentAssuming `conda` or `mamba` are available in the shell, you can create a virtual environment for package development as follows.```shconda create -y -n ecghelper &quot;python&gt;=3.9&quot;conda activate ecghelperpip install ecghelper[dev]```If you are using `zsh`, you will need to escape the square brackets, i.e.:```shpip install ecghelper\[dev\]```## Converting functionsDebug - directly call the entry point.```python -m pdb src/ecghelper/__main__.py convert -i 82000.xml -f xml -o 82000_wfdb -t wfdb```</longdescription>
+</pkgmetadata>

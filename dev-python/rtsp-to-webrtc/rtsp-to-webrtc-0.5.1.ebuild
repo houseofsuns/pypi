@@ -15,8 +15,8 @@ DESCRIPTION="Python client library for RTSPtoWeb and RTSPtoWebRTC"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/78/d0/b2d32386955c3d5fa357d4a3af40b069cdbebf75af3f86cef954f27c9081/rtsp_to_webrtc-${REALVERSION}.tar.gz"
-SOURCEFILE="rtsp_to_webrtc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/78/d0/b2d32386955c3d5fa357d4a3af40b069cdbebf75af3f86cef954f27c9081/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

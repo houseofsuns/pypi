@@ -15,8 +15,8 @@ DESCRIPTION="Typesafe, composable validation"
 
 HOMEPAGE="https://github.com/keithasaurus/koda-validate"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fe/b6/e515743fad4b394e5df96584c8ece95031367bf18c6d5779c8990e899235/koda_validate-${REALVERSION}.tar.gz"
-SOURCEFILE="koda_validate-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fe/b6/e515743fad4b394e5df96584c8ece95031367bf18c6d5779c8990e899235/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

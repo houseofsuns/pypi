@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0e/29/7cb4dfe7632f637ee702b540e05286c11e1a68f8adf7966b35714201c178/nextline_rdb-${REALVERSION}.tar.gz"
-SOURCEFILE="nextline_rdb-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0e/29/7cb4dfe7632f637ee702b540e05286c11e1a68f8adf7966b35714201c178/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Easy, opinionated Flask input/output handling with Flask-restx and 
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9d/e2/cb2f45589d7d6be98f537b887f3c6177fd56542be279bc9c29dfe36d00d2/flask_accepts-${REALVERSION}.tar.gz"
-SOURCEFILE="flask_accepts-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9d/e2/cb2f45589d7d6be98f537b887f3c6177fd56542be279bc9c29dfe36d00d2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

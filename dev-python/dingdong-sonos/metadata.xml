@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># DinDongThis is a Python script that allows you to play a DingDong on a Sonos speaker using a local HTTP server. The script uses the soco library to control the Sonos speaker and the click library for command line interface.# How to use it```pip install dingdong-sonosdingdong```You can adjust the volume or set the sonos_ip:```dingdong --sonos_ip &lt;ip-of-your-sonos&gt; --volume 80</longdescription>
+</pkgmetadata>

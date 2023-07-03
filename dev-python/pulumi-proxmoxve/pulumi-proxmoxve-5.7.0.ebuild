@@ -15,8 +15,8 @@ DESCRIPTION="A Pulumi package for creating and managing Proxmox Virtual Environm
 
 HOMEPAGE="https://github.com/muhlba91/pulumi-proxmoxve"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/77/dc/b2e19990a52db7fba10176a00abe171577105164d76bd88c338b7fcac1d0/pulumi_proxmoxve-${REALVERSION}.tar.gz"
-SOURCEFILE="pulumi_proxmoxve-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/77/dc/b2e19990a52db7fba10176a00abe171577105164d76bd88c338b7fcac1d0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Library for creating Cumulus Process tasks in Python"
 
 HOMEPAGE="https://github.com/nasa-cumulus/cumulus-process-py"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/0c/44/a6386664f56325be1316c8a7f65b11baabf0f7f12095dd2dbaf263843f4d/cumulus_process-${REALVERSION}.tar.gz"
-SOURCEFILE="cumulus_process-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0c/44/a6386664f56325be1316c8a7f65b11baabf0f7f12095dd2dbaf263843f4d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

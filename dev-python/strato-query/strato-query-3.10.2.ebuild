@@ -15,8 +15,8 @@ DESCRIPTION="StratoDem Analytics API tools"
 
 HOMEPAGE="https://github.com/StratoDem/strato-query"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a9/a3/4c3071318db948b26065f203152c1cc651bbefd3c945e1a9d439ebcbc59e/strato_query-${REALVERSION}.tar.gz"
-SOURCEFILE="strato_query-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a9/a3/4c3071318db948b26065f203152c1cc651bbefd3c945e1a9d439ebcbc59e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

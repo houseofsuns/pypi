@@ -15,8 +15,8 @@ DESCRIPTION="Clone single branch from all repositories listed in a file."
 
 HOMEPAGE="https://github.com/thegeeklab/git-batch/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/58/1e/c4e80711b4c8f7bb99f428bd88a2f204f79ad67fcce80ad5f904c8a3fd0a/git_batch-${REALVERSION}.tar.gz"
-SOURCEFILE="git_batch-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/58/1e/c4e80711b4c8f7bb99f428bd88a2f204f79ad67fcce80ad5f904c8a3fd0a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

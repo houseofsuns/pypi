@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>OpenTelemetry Protobuf Encoding===============================|pypi|.. |pypi| image:: https://badge.fury.io/py/opentelemetry-exporter-otlp-proto-common.svg   :target: https://pypi.org/project/opentelemetry-exporter-otlp-proto-common/This library is provided as a convenience to encode to Protobuf. Currently used by:* opentelemetry-exporter-otlp-proto-grpc* opentelemetry-exporter-otlp-proto-httpInstallation------------::     pip install opentelemetry-exporter-otlp-proto-commonReferences----------* `OpenTelemetry &lt;https://opentelemetry.io/&gt;`_* `OpenTelemetry Protocol Specification &lt;https://github.com/open-telemetry/oteps/blob/main/text/0035-opentelemetry-protocol.md&gt;`_</longdescription>
+</pkgmetadata>

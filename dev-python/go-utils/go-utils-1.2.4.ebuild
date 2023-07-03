@@ -15,8 +15,8 @@ DESCRIPTION="Utilities for interfacing with GLOBE Observer Data"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6e/7d/fff4761f82db21c40f38ae0e7038156838d9d55a9316034efcd03adc96fc/go_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="go_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6e/7d/fff4761f82db21c40f38ae0e7038156838d9d55a9316034efcd03adc96fc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

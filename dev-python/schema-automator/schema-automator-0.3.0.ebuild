@@ -15,8 +15,8 @@ DESCRIPTION="Infer models, enrich with meaning for terms including enum permissi
 
 HOMEPAGE=""
 LICENSE="BSD 3-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/30/fd/a5c1ba6d0845fd2a138d43d56cb7c14b879eeb967a6d5e2b73bd5593a9c0/schema_automator-${REALVERSION}.tar.gz"
-SOURCEFILE="schema_automator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/30/fd/a5c1ba6d0845fd2a138d43d56cb7c14b879eeb967a6d5e2b73bd5593a9c0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Code for automation and scheduling"
 
 HOMEPAGE="https://gitlab.com/heingroup/hein_control"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/45/b7/a6369dba0e53bd9004c5b78a0496cec1a0d09152aa12fa031f83168ae81a/hein_control-${REALVERSION}.tar.gz"
-SOURCEFILE="hein_control-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/45/b7/a6369dba0e53bd9004c5b78a0496cec1a0d09152aa12fa031f83168ae81a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="simple random movie recommender"
 
 HOMEPAGE="https://github.com/scikit-learn/scikit-learn/tree/main/sklearn/datasets"
 LICENSE="Open Source"
-SRC_URI="https://files.pythonhosted.org/packages/90/1f/0494b277c8500eda6e173a35ab3934102dd3281fba44f4e278a78e7a8246/recommender_testing11-${REALVERSION}.tar.gz"
-SOURCEFILE="recommender_testing11-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/90/1f/0494b277c8500eda6e173a35ab3934102dd3281fba44f4e278a78e7a8246/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A command line application to generate random usernames."
 
 HOMEPAGE="https://github.com/abactel/username_generator_cli"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ad/b9/ff90f3a182bab5f6dc4a3e4019b7d3c3f7f9ccb07ee56d1327513bb902b4/username_generator-${REALVERSION}.tar.gz"
-SOURCEFILE="username_generator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ad/b9/ff90f3a182bab5f6dc4a3e4019b7d3c3f7f9ccb07ee56d1327513bb902b4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

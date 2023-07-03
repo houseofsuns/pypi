@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c8/81/d13d718c2fe5aca0fecabe8eba0ce3a52bb4a519403fe53fd93f82b6420d/cat_merge-${REALVERSION}.tar.gz"
-SOURCEFILE="cat_merge-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c8/81/d13d718c2fe5aca0fecabe8eba0ce3a52bb4a519403fe53fd93f82b6420d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

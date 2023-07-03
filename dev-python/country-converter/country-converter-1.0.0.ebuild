@@ -15,8 +15,8 @@ DESCRIPTION="The country converter (coco) - a Python package for converting coun
 
 HOMEPAGE=""
 LICENSE="GNU General Public License v3 GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/1e/19/a34c543fea205366135e968c89ef24a4a52ca4adab0ea957017a53ec27ba/country_converter-${REALVERSION}.tar.gz"
-SOURCEFILE="country_converter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1e/19/a34c543fea205366135e968c89ef24a4a52ca4adab0ea957017a53ec27ba/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

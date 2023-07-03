@@ -15,8 +15,8 @@ DESCRIPTION="th2_common"
 
 HOMEPAGE="https://github.com/th2-net/th2-common-py"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f0/67/d8a15b384f93154c1b4a555f266e741ead4ba44f8e976291282e936060a6/th2_common-${REALVERSION}.tar.gz"
-SOURCEFILE="th2_common-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f0/67/d8a15b384f93154c1b4a555f266e741ead4ba44f8e976291282e936060a6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

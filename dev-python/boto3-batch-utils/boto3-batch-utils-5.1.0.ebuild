@@ -15,8 +15,8 @@ DESCRIPTION="A Client for managing batch interactions with AWS services"
 
 HOMEPAGE="https://g-farrow.github.io/boto3_batch_utils/"
 LICENSE="GNU APGL v3"
-SRC_URI="https://files.pythonhosted.org/packages/cb/64/e785c8c12a0dd9632251cc849e5999f742769ff92dfcf9fd54d3192c1707/boto3_batch_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="boto3_batch_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cb/64/e785c8c12a0dd9632251cc849e5999f742769ff92dfcf9fd54d3192c1707/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

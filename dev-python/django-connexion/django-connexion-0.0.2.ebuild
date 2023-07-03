@@ -15,8 +15,8 @@ DESCRIPTION="Django connexion extension"
 
 HOMEPAGE="https://github.com/buserbrasil/django-connexion"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d3/02/0bdefc2573a212a9743db3bb3591ef00be6922c907e781220d020e2f16b9/django_connexion-${REALVERSION}.tar.gz"
-SOURCEFILE="django_connexion-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d3/02/0bdefc2573a212a9743db3bb3591ef00be6922c907e781220d020e2f16b9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

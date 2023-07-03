@@ -15,8 +15,8 @@ DESCRIPTION="A constrcut for PII and redaction scenarios with Amazon Comprehend 
 
 HOMEPAGE="https://github.com/HsiehShuJeng/cdk-comprehend-s3olap.git"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e3/64/e88a61078d7bc110186b9a010a4d74fd060f8f3ca526cd02dbbfa54a1ec4/cdk_comprehend_s3olap-${REALVERSION}.tar.gz"
-SOURCEFILE="cdk_comprehend_s3olap-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e3/64/e88a61078d7bc110186b9a010a4d74fd060f8f3ca526cd02dbbfa54a1ec4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

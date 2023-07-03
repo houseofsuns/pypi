@@ -15,8 +15,8 @@ DESCRIPTION="Adjust the plotting range of matplotlib.axes.Axes objects to align 
 
 HOMEPAGE="https://github.com/ryutok/mpl_axes_aligner"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b0/9d/4d96ef72d90c7a19fe1b9fa832efc5a6daafd740e13acaa2c4067cc495c9/mpl_axes_aligner-${REALVERSION}.tar.gz"
-SOURCEFILE="mpl_axes_aligner-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b0/9d/4d96ef72d90c7a19fe1b9fa832efc5a6daafd740e13acaa2c4067cc495c9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

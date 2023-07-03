@@ -15,8 +15,8 @@ DESCRIPTION="A simple python package to print a keras NN training history."
 
 HOMEPAGE="https://github.com/LucaCappelletti94/plot_keras_history"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/49/aa/f54ff192409244209cb8c40127252dcd8b81848cbd36ef4ed411d5388363/plot_keras_history-${REALVERSION}.tar.gz"
-SOURCEFILE="plot_keras_history-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/49/aa/f54ff192409244209cb8c40127252dcd8b81848cbd36ef4ed411d5388363/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

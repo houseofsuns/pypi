@@ -15,8 +15,8 @@ DESCRIPTION="Alibaba Cloud btripOpen (20220520) SDK Library for Python"
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/cf/74/e740e31f9512e3fcd02e9405e83bef4e40c618bcb42a4b0d09bc61865cc2/alibabacloud_btripopen20220520-${REALVERSION}.tar.gz"
-SOURCEFILE="alibabacloud_btripopen20220520-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cf/74/e740e31f9512e3fcd02e9405e83bef4e40c618bcb42a4b0d09bc61865cc2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

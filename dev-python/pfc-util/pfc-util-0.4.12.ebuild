@@ -15,8 +15,8 @@ DESCRIPTION="package for PFC (phase field crystal) simulations"
 
 HOMEPAGE="https://github.com/michael-960/pfc_util"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c4/05/679630cc88dd7d5567739bf97978c3e7ca192f68719e1274068e2c8d82e5/pfc_util-${REALVERSION}.tar.gz"
-SOURCEFILE="pfc_util-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c4/05/679630cc88dd7d5567739bf97978c3e7ca192f68719e1274068e2c8d82e5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

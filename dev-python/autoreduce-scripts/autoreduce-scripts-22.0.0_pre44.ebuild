@@ -15,8 +15,8 @@ DESCRIPTION="ISIS Autoreduce helper scripts"
 
 HOMEPAGE=""
 LICENSE="GNU General Public License"
-SRC_URI="https://files.pythonhosted.org/packages/ae/ef/861dad48b1be65be7807d5b0aca83bc0267cf6021089cd625b1c686f8e79/autoreduce_scripts-${REALVERSION}.tar.gz"
-SOURCEFILE="autoreduce_scripts-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ae/ef/861dad48b1be65be7807d5b0aca83bc0267cf6021089cd625b1c686f8e79/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

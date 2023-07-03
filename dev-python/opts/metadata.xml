@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Welcome to opts        ===============        opts is a simple python library which allows you to easiely parse command line        arguments.                Features        --------                - Supports so called commands e.g. ``hg clone``.                - Supports abbreviations of commands and options e.g. ``hg cl`` instead of          ``hg clone`` or ``hg --he`` instead of ``hg --help``.                - Shows possible alternatives if you pass a command or an option does not exist                - Declarative syntax for commands and parser.                Links        -----                - http://github.com/DasIch/opts        - http://packages.python.org/opts        - http://pypi.python.org/pypi/opts/0.1.1</longdescription>
+</pkgmetadata>

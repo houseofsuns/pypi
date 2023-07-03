@@ -15,8 +15,8 @@ DESCRIPTION="HD (Hierarchical Deterministic) wallet for cryptocurrencies based o
 
 HOMEPAGE="https://github.com/ebellocchia/py_crypto_hd_wallet"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fc/f7/081432652e87435b88cc825268c1329b116d40dd712fd396d7b793f1f87c/py_crypto_hd_wallet-${REALVERSION}.tar.gz"
-SOURCEFILE="py_crypto_hd_wallet-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fc/f7/081432652e87435b88cc825268c1329b116d40dd712fd396d7b793f1f87c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

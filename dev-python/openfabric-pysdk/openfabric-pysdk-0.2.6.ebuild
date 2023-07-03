@@ -15,8 +15,8 @@ DESCRIPTION="Openfabric Python SDK"
 
 HOMEPAGE="https://openfabric.ai"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fb/31/0cf999533f1a6c51ab91efeabbeccf14d3928b0f0522f763f9d8cfc6e245/openfabric_pysdk-${REALVERSION}.tar.gz"
-SOURCEFILE="openfabric_pysdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fb/31/0cf999533f1a6c51ab91efeabbeccf14d3928b0f0522f763f9d8cfc6e245/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

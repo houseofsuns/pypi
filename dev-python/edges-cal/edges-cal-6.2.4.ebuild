@@ -15,8 +15,8 @@ DESCRIPTION="Calibration routines for EDGES data"
 
 HOMEPAGE="https://github.com/edges-collab/edges-cal"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b2/9c/4a6a3f951b1b5481cc65b6bd1d475722f1973d247c93f974535ff4a4dcab/edges_cal-${REALVERSION}.tar.gz"
-SOURCEFILE="edges_cal-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b2/9c/4a6a3f951b1b5481cc65b6bd1d475722f1973d247c93f974535ff4a4dcab/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

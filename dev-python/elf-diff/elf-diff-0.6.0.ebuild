@@ -15,8 +15,8 @@ DESCRIPTION="A tool to compare elf binaries"
 
 HOMEPAGE="https://github.com/noseglasses/elf_diff"
 LICENSE="GPL 3"
-SRC_URI="https://files.pythonhosted.org/packages/71/1e/09611cbc8660836c9f0de403eafcfb349f607a51311919b8db72bdfc241c/elf_diff-${REALVERSION}.tar.gz"
-SOURCEFILE="elf_diff-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/71/1e/09611cbc8660836c9f0de403eafcfb349f607a51311919b8db72bdfc241c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

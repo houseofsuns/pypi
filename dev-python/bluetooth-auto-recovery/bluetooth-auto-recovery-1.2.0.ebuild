@@ -15,8 +15,8 @@ DESCRIPTION="Recover bluetooth adapters that are in an stuck state"
 
 HOMEPAGE="https://github.com/bluetooth-devices/bluetooth-auto-recovery"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/65/af/3f485855d06bdf70745dfac303876766255851a42aaf2167f0e181973ba8/bluetooth_auto_recovery-${REALVERSION}.tar.gz"
-SOURCEFILE="bluetooth_auto_recovery-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/65/af/3f485855d06bdf70745dfac303876766255851a42aaf2167f0e181973ba8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

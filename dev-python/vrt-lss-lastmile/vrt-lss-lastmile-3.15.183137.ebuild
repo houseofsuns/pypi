@@ -15,8 +15,8 @@ DESCRIPTION="Veeroute.Lastmile"
 
 HOMEPAGE="https://docs.veeroute.com/#/lss/lastmile"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/97/a3/024c36f584048cf247c71300f869f58372662e6421ad15042f17c4803b7f/vrt_lss_lastmile-${REALVERSION}.tar.gz"
-SOURCEFILE="vrt_lss_lastmile-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/97/a3/024c36f584048cf247c71300f869f58372662e6421ad15042f17c4803b7f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

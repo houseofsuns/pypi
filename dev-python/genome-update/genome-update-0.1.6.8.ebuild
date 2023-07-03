@@ -15,8 +15,8 @@ DESCRIPTION="A script for updating a local directory with genomes, from NCBI ass
 
 HOMEPAGE="https://github.com/Emisam/genome_update.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fb/31/86bc6828581516b15954c6122e95d014f7c3de4b129bf450661a68c5e010/genome_update-${REALVERSION}.tar.gz"
-SOURCEFILE="genome_update-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fb/31/86bc6828581516b15954c6122e95d014f7c3de4b129bf450661a68c5e010/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

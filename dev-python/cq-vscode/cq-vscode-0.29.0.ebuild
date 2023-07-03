@@ -15,8 +15,8 @@ DESCRIPTION="CadQuery Viewer for VSCode"
 
 HOMEPAGE="https://github.com/bernhard-42/vscode-cadquery-viewer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/99/e3/4c9b1e7b8638d3d17e71e067a68e52d14b0afb71b6a8337fa61e29279217/cq_vscode-${REALVERSION}.tar.gz"
-SOURCEFILE="cq_vscode-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/99/e3/4c9b1e7b8638d3d17e71e067a68e52d14b0afb71b6a8337fa61e29279217/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

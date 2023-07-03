@@ -15,8 +15,8 @@ DESCRIPTION="Logging formatters for ECS (Elastic Common Schema) in Python"
 
 HOMEPAGE="https://github.com/elastic/ecs-logging-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/77/d8/e7f242b0049a2012c99d4abf9bdcfc8e3a2cf3373326d88a012687b4a791/ecs_logging-${REALVERSION}.tar.gz"
-SOURCEFILE="ecs_logging-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/77/d8/e7f242b0049a2012c99d4abf9bdcfc8e3a2cf3373326d88a012687b4a791/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

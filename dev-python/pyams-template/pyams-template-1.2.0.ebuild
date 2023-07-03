@@ -15,8 +15,8 @@ DESCRIPTION="PyAMS templates management"
 
 HOMEPAGE="https://pyams.readthedocs.io"
 LICENSE="ZPL"
-SRC_URI="https://files.pythonhosted.org/packages/f9/57/884ab9366b3d307c02225305dbdfcac54d2c95501085819ae82b52d83d08/pyams_template-${REALVERSION}.tar.gz"
-SOURCEFILE="pyams_template-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f9/57/884ab9366b3d307c02225305dbdfcac54d2c95501085819ae82b52d83d08/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

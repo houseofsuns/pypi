@@ -15,8 +15,8 @@ DESCRIPTION="Making it easier to build ServiceCatalog products"
 
 HOMEPAGE="https://service-catalog-tools-workshop.com/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/90/cf/a9789420aa208e3b9adba06ad121db7859bf95d8f08ae90c042d60f0d031/aws_service_catalog_factory-${REALVERSION}.tar.gz"
-SOURCEFILE="aws_service_catalog_factory-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/90/cf/a9789420aa208e3b9adba06ad121db7859bf95d8f08ae90c042d60f0d031/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

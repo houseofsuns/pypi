@@ -15,8 +15,8 @@ DESCRIPTION="A client to the FAIRsharing API"
 
 HOMEPAGE="https://github.com/cthoyt/fairsharing-client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f4/a3/cb7260829c960b130a2c893cb8dccd2bab3c31518b778541c7e79aee0189/fairsharing_client-${REALVERSION}.tar.gz"
-SOURCEFILE="fairsharing_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f4/a3/cb7260829c960b130a2c893cb8dccd2bab3c31518b778541c7e79aee0189/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

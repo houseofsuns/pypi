@@ -15,8 +15,8 @@ DESCRIPTION="A simple parser for hledger journal files."
 
 HOMEPAGE="https://github.com/rmcl/ledger_reader"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fe/c1/884646f4a3570bb05fa611f94b8ab320a1b29c7425294ae2b8a21409b0ba/ledger_reader-${REALVERSION}.tar.gz"
-SOURCEFILE="ledger_reader-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fe/c1/884646f4a3570bb05fa611f94b8ab320a1b29c7425294ae2b8a21409b0ba/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Honeycomb OpenTelemetry Distro for Python"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9e/eb/5722095f815971c8d31fd26ea2e7d1abd6a9ef371b4fb844dd15b6a9f5f5/honeycomb_opentelemetry-${REALVERSION}.tar.gz"
-SOURCEFILE="honeycomb_opentelemetry-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9e/eb/5722095f815971c8d31fd26ea2e7d1abd6a9ef371b4fb844dd15b6a9f5f5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

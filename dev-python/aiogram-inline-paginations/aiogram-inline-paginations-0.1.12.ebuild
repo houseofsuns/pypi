@@ -15,8 +15,8 @@ DESCRIPTION="A simple library for aiogram that allows you to easily do paginatio
 
 HOMEPAGE="https://github.com/daniilshamraev/aiogram-inline-paginations"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bf/f0/c9026e745867266a38f85374260dea6f7725da1a149e57addd604f32a4fb/aiogram_inline_paginations-${REALVERSION}.tar.gz"
-SOURCEFILE="aiogram_inline_paginations-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bf/f0/c9026e745867266a38f85374260dea6f7725da1a149e57addd604f32a4fb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

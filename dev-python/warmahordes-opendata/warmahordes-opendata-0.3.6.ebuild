@@ -15,8 +15,8 @@ DESCRIPTION="WARMACHINE® and HORDES® Open Data"
 
 HOMEPAGE="https://ironcodex.net/warmahordes_opendata"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5d/1b/88d7f3864a16aedab91a14404fe0b6f37555964b775884c7d15d864d4bca/warmahordes_opendata-${REALVERSION}.tar.gz"
-SOURCEFILE="warmahordes_opendata-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5d/1b/88d7f3864a16aedab91a14404fe0b6f37555964b775884c7d15d864d4bca/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

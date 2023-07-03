@@ -15,8 +15,8 @@ DESCRIPTION="A construct for the quick demo of EMR Serverless."
 
 HOMEPAGE="https://github.com/HsiehShuJeng/cdk-emrserverless-with-delta-lake.git"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/a8/75/cb7d26b20beea67d5d70899ac08e0f15455b7ef9858b72276b83be5162cc/cdk_emrserverless_with_delta_lake-${REALVERSION}.tar.gz"
-SOURCEFILE="cdk_emrserverless_with_delta_lake-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a8/75/cb7d26b20beea67d5d70899ac08e0f15455b7ef9858b72276b83be5162cc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

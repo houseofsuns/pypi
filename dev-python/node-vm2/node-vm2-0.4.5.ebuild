@@ -15,8 +15,8 @@ DESCRIPTION="A binding to Node.js + vm2, helps you execute JavaScript safely."
 
 HOMEPAGE="https://github.com/eight04/node_vm2"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/56/ce/54e534d17d03b370684035734d17bd5f259993f24881f79f99b71ce68aac/node_vm2-${REALVERSION}.tar.gz"
-SOURCEFILE="node_vm2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/56/ce/54e534d17d03b370684035734d17bd5f259993f24881f79f99b71ce68aac/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

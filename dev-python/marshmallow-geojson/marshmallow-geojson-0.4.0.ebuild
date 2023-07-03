@@ -15,8 +15,8 @@ DESCRIPTION="Marshmallow schema validation for GeoJson"
 
 HOMEPAGE="https://github.com/folt/marshmallow-geojson"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b7/6c/06a3a9b2b27946cbb53082e6ad074ef9124b699a306c0634d880f9103946/marshmallow_geojson-${REALVERSION}.tar.gz"
-SOURCEFILE="marshmallow_geojson-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b7/6c/06a3a9b2b27946cbb53082e6ad074ef9124b699a306c0634d880f9103946/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

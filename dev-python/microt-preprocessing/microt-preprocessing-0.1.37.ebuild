@@ -15,8 +15,8 @@ DESCRIPTION="A package that transforms raw sensor data collected from Time study
 
 HOMEPAGE="https://bitbucket.org/mhealthresearchgroup/microt_preprocessing/src/master/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b2/ca/fc731b24120e9a1407cec2056e41669dfe24ad72882aa346de7f4b9ddbc9/microt_preprocessing-${REALVERSION}.tar.gz"
-SOURCEFILE="microt_preprocessing-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b2/ca/fc731b24120e9a1407cec2056e41669dfe24ad72882aa346de7f4b9ddbc9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

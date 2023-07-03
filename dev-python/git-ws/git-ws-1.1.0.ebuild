@@ -15,8 +15,8 @@ DESCRIPTION="Git Workspace - Multi Repository Management Tool"
 
 HOMEPAGE=""
 LICENSE="LGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/20/a4/41a4f62223653a1fc4db06c90810d20cd1159bba991031e0e43047415a3d/git_ws-${REALVERSION}.tar.gz"
-SOURCEFILE="git_ws-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/20/a4/41a4f62223653a1fc4db06c90810d20cd1159bba991031e0e43047415a3d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

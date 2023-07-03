@@ -15,8 +15,8 @@ DESCRIPTION="Validator tooling for InsightConnect integrations"
 
 HOMEPAGE="https://github.com/rapid7/icon-integrations-validators"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3d/f2/964fffd97e8024a562bfa4b98f743e57bcb4e5a86af809e7aeb3de10c0b8/insightconnect_integrations_validators-${REALVERSION}.tar.gz"
-SOURCEFILE="insightconnect_integrations_validators-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3d/f2/964fffd97e8024a562bfa4b98f743e57bcb4e5a86af809e7aeb3de10c0b8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

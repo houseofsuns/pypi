@@ -15,8 +15,8 @@ DESCRIPTION="Python client for Whathif API"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/63/4a/81f3c89635cd36001f6a410bc11605102c3092741c0bad1d5dd9846e2023/toolkit_w-${REALVERSION}.tar.gz"
-SOURCEFILE="toolkit_w-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/63/4a/81f3c89635cd36001f6a410bc11605102c3092741c0bad1d5dd9846e2023/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

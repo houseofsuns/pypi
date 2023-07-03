@@ -15,8 +15,8 @@ DESCRIPTION="Library for easier formatting of matplotlib plots written in a func
 
 HOMEPAGE="https://github.com/vahndi/mpl-format"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/47/0b/87bf3baa1d3108ec97b7601080fc91b23e1c6a3d6250cefe636768f3c2b2/mpl_format-${REALVERSION}.tar.gz"
-SOURCEFILE="mpl_format-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/47/0b/87bf3baa1d3108ec97b7601080fc91b23e1c6a3d6250cefe636768f3c2b2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

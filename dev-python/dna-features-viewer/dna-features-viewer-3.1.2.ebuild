@@ -15,8 +15,8 @@ DESCRIPTION="Plot features from DNA sequences (e.g. Genbank) with Python"
 
 HOMEPAGE="https://github.com/Edinburgh-Genome-Foundry/DnaFeaturesViewer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8b/f9/97d8d2e38d27fdd90b84299bf1bc90c8e74687aae89998f390d68806a4ff/dna_features_viewer-${REALVERSION}.tar.gz"
-SOURCEFILE="dna_features_viewer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8b/f9/97d8d2e38d27fdd90b84299bf1bc90c8e74687aae89998f390d68806a4ff/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

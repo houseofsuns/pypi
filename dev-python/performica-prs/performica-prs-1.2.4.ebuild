@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/66/f4/9101550cca5f9806fd690d0c88babdbc15d9e931f4469f3c4ad8c6b87315/performica_prs-${REALVERSION}.tar.gz"
-SOURCEFILE="performica_prs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/66/f4/9101550cca5f9806fd690d0c88babdbc15d9e931f4469f3c4ad8c6b87315/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="djangoldp event package"
 
 HOMEPAGE="http://git.startinblox.fr/startinblox/applications/etuc/djangoldp-event"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f5/78/9b581b7686ea794ede667535c49aa960d96c77366d8797f42512950f7f7e/djangoldp_event-${REALVERSION}.tar.gz"
-SOURCEFILE="djangoldp_event-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f5/78/9b581b7686ea794ede667535c49aa960d96c77366d8797f42512950f7f7e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

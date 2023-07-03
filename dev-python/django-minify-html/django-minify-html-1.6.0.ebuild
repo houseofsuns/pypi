@@ -15,8 +15,8 @@ DESCRIPTION="Use minify-html, the extremely fast HTML + JS + CSS minifier, with 
 
 HOMEPAGE="https://github.com/adamchainz/django-minify-html"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3f/b4/9fcf7b8e90403d6acadb4924212446871e12d301282f39c79494d1be2fb2/django_minify_html-${REALVERSION}.tar.gz"
-SOURCEFILE="django_minify_html-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3f/b4/9fcf7b8e90403d6acadb4924212446871e12d301282f39c79494d1be2fb2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

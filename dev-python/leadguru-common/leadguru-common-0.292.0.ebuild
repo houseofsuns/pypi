@@ -15,8 +15,8 @@ DESCRIPTION="LGT common builds"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/15/d5/13f0e6d965966af21ce615d7b7fdea244f07abb06b4b8b0afd7081fb6436/leadguru_common-${REALVERSION}.tar.gz"
-SOURCEFILE="leadguru_common-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/15/d5/13f0e6d965966af21ce615d7b7fdea244f07abb06b4b8b0afd7081fb6436/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="An example construct for deploying to npm, PyPi, Maven, and Nuget w
 
 HOMEPAGE="https://github.com/HsiehShuJeng/projen-simple.git"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/99/b6/94047f2dd055cdd4cde05514001d045d29ffa2cf96a582d6760730eba3fb/scotthsieh_projen_statemachine-${REALVERSION}.tar.gz"
-SOURCEFILE="scotthsieh_projen_statemachine-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/99/b6/94047f2dd055cdd4cde05514001d045d29ffa2cf96a582d6760730eba3fb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

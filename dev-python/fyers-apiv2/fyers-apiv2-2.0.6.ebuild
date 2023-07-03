@@ -15,8 +15,8 @@ DESCRIPTION="Fyers trading APIs."
 
 HOMEPAGE="https://github.com/FyersDev/fyers-api-py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bd/a5/4068bc55a03c1de4b709d4956b66bfff0fc7a58dfc6679ce202079074ba7/fyers_apiv2-${REALVERSION}.tar.gz"
-SOURCEFILE="fyers_apiv2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bd/a5/4068bc55a03c1de4b709d4956b66bfff0fc7a58dfc6679ce202079074ba7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A Python 3.8+ library for analyzing GTFS feeds."
 
 HOMEPAGE="https://github.com/mrcagney/gtfs_kit"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ec/17/95b2952b147e3bc6f9eb827c5b1d39fc080ba89fd0feb81bc345956f07b3/gtfs_kit-${REALVERSION}.tar.gz"
-SOURCEFILE="gtfs_kit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ec/17/95b2952b147e3bc6f9eb827c5b1d39fc080ba89fd0feb81bc345956f07b3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

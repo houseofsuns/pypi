@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/farm-ng/farm-ng-pysetup"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ac/a2/283d4d1f99eac36347058a7aeefc0054c4c6973dac4349900b6eede2d856/farm_ng_package-${REALVERSION}.tar.gz"
-SOURCEFILE="farm_ng_package-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ac/a2/283d4d1f99eac36347058a7aeefc0054c4c6973dac4349900b6eede2d856/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

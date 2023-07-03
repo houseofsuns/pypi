@@ -15,8 +15,8 @@ DESCRIPTION="Machine Common Sense Python API to Unity 3D Simulation Environment"
 
 HOMEPAGE="https://github.com/NextCenturyCorporation/MCS/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/fe/b2/7c2b1d98c37135c1e47316b7423b1de34c71397523ac2d14e0218c6c399a/machine_common_sense-${REALVERSION}.tar.gz"
-SOURCEFILE="machine_common_sense-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fe/b2/7c2b1d98c37135c1e47316b7423b1de34c71397523ac2d14e0218c6c399a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

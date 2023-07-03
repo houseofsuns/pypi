@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># AGiXT SDK for Python[![Discord](https://img.shields.io/discord/1097720481970397356?label=Discord&amp;logo=discord&amp;logoColor=white&amp;style=plastic&amp;color=5865f2)](https://discord.gg/d3TkHRZcjD) [![Twitter](https://img.shields.io/badge/Twitter-Follow_@Josh_XT-blue?logo=twitter&amp;style=plastic)](https://twitter.com/Josh_XT) [![Logo](https://josh-xt.github.io/AGiXT/images/AGiXT-gradient-flat.svg)](https://josh-xt.github.io/AGiXT/)This repository is for the [AGiXT](https://github.com/Josh-XT/AGiXT) SDK for Python.## Installation```bashpip install agixtsdk```## UsageCheck out the AGiXT [Examples and Tests Notebook](https://github.com/Josh-XT/AGiXT/blob/main/tests/tests.ipynb) for examples of how to use the AGiXT SDK for Python.## More DocumentationWant to know more about AGiXT?  Check out our [documentation](https://josh-xt.github.io/AGiXT/) or [GitHub](https://github.com/Josh-XT/AGiXT) page.</longdescription>
+</pkgmetadata>

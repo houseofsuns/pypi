@@ -15,8 +15,8 @@ DESCRIPTION="python boltz client"
 
 HOMEPAGE="https://boltz.exchange"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/89/b4/17670c124c756b1135543356fabc38664c08be7de9553fb4cbb893beea2d/boltz_client-${REALVERSION}.tar.gz"
-SOURCEFILE="boltz_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/89/b4/17670c124c756b1135543356fabc38664c08be7de9553fb4cbb893beea2d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

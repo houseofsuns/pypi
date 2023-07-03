@@ -15,8 +15,8 @@ DESCRIPTION="Utilities"
 
 HOMEPAGE="https://github.com/shuttl-tech/flask_sentry_requests_distributed_tracing"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6e/21/aa012489f70b06e8ddd0ecd19ad7c58d6cd69b41ed0a21cba31be9f7b7cb/flask_sentry_requests_distributed_tracing-${REALVERSION}.tar.gz"
-SOURCEFILE="flask_sentry_requests_distributed_tracing-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6e/21/aa012489f70b06e8ddd0ecd19ad7c58d6cd69b41ed0a21cba31be9f7b7cb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

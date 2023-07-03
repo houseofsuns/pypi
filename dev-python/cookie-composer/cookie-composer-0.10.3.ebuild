@@ -15,8 +15,8 @@ DESCRIPTION="Create new projects from a composition of several templates"
 
 HOMEPAGE="https://github.com/coordt/cookie-composer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/28/93/67ceb9f3aef835f487f8278ac7c00d2c8b9a57f4c0a7d2abb0c1b029f5aa/cookie_composer-${REALVERSION}.tar.gz"
-SOURCEFILE="cookie_composer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/28/93/67ceb9f3aef835f487f8278ac7c00d2c8b9a57f4c0a7d2abb0c1b029f5aa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

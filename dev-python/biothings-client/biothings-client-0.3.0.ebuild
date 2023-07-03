@@ -15,8 +15,8 @@ DESCRIPTION="Python Client for BioThings API services."
 
 HOMEPAGE="https://github.com/biothings/biothings_client.py"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/49/58/0c71122374789b288a6c60c98dd84996242508f11e66dca9dd6f2936f8df/biothings_client-${REALVERSION}.tar.gz"
-SOURCEFILE="biothings_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/49/58/0c71122374789b288a6c60c98dd84996242508f11e66dca9dd6f2936f8df/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

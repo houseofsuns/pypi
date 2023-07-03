@@ -15,8 +15,8 @@ DESCRIPTION="Simplest way to run dbt python models."
 
 HOMEPAGE="https://github.com/fal-ai/fal/blob/-/projects/adapter"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d7/b3/8bacf6d04c871e5cfd7c8240e793126980fc4eddbb3753bd1ab225a86dec/dbt_fal-${REALVERSION}.tar.gz"
-SOURCEFILE="dbt_fal-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d7/b3/8bacf6d04c871e5cfd7c8240e793126980fc4eddbb3753bd1ab225a86dec/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

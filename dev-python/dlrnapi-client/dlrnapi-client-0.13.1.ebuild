@@ -15,8 +15,8 @@ DESCRIPTION="Client for DLRN REST API"
 
 HOMEPAGE="http://www.rdoproject.org/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/03/2d/7ead9e5af54a8342ae4b3ed763a8db6ee8afcc1768a307a311ec28a92e46/dlrnapi_client-${REALVERSION}.tar.gz"
-SOURCEFILE="dlrnapi_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/03/2d/7ead9e5af54a8342ae4b3ed763a8db6ee8afcc1768a307a311ec28a92e46/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

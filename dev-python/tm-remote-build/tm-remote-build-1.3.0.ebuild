@@ -15,8 +15,8 @@ DESCRIPTION="Build and deploy openplanet scripts"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ee/77/400be08e03b75f61223d6d1dccae5c5cc59199af023054fca52cb33aad96/tm_remote_build-${REALVERSION}.tar.gz"
-SOURCEFILE="tm_remote_build-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ee/77/400be08e03b75f61223d6d1dccae5c5cc59199af023054fca52cb33aad96/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

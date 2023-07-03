@@ -15,8 +15,8 @@ DESCRIPTION="AWS Toolset for AWS Devs"
 
 HOMEPAGE="https://github.com/sgcooper78/aws_toolset"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5e/e2/472e408716c318f714e6661a7676e0f7135ef9bd30a296957749277920fa/aws_toolset-${REALVERSION}.tar.gz"
-SOURCEFILE="aws_toolset-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5e/e2/472e408716c318f714e6661a7676e0f7135ef9bd30a296957749277920fa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

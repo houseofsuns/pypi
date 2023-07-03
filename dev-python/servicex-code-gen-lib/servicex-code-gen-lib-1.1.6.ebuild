@@ -15,8 +15,8 @@ DESCRIPTION="Library for creating ServiceX Code Generators"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9e/4f/463efa6db01a18564220731fd65c405bae92c7b4db095bf339ab5817dfab/servicex_code_gen_lib-${REALVERSION}.tar.gz"
-SOURCEFILE="servicex_code_gen_lib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9e/4f/463efa6db01a18564220731fd65c405bae92c7b4db095bf339ab5817dfab/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

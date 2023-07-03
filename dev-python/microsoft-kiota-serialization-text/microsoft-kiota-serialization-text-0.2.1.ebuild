@@ -15,8 +15,8 @@ DESCRIPTION="Implementation of Kiota Serialization interfaces for text/plain"
 
 HOMEPAGE="https://github.com/microsoft/kiota#readme"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8b/4b/49be1fff97ef568b6d1aa65423adc26085cf450ac9cf34963f4631dbba3c/microsoft_kiota_serialization_text-${REALVERSION}.tar.gz"
-SOURCEFILE="microsoft_kiota_serialization_text-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8b/4b/49be1fff97ef568b6d1aa65423adc26085cf450ac9cf34963f4631dbba3c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

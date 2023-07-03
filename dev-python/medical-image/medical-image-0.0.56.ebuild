@@ -15,8 +15,8 @@ DESCRIPTION="DICOM Processing Library for AI Apps"
 
 HOMEPAGE="https://www.deepnoid.com"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8c/60/7de6d72449a7fc120e9b49e1c14ec7f397c26e9b29ba3a3580d63216fd60/medical_image-${REALVERSION}.tar.gz"
-SOURCEFILE="medical_image-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8c/60/7de6d72449a7fc120e9b49e1c14ec7f397c26e9b29ba3a3580d63216fd60/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

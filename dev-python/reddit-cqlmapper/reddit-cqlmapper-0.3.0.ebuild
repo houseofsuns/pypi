@@ -15,8 +15,8 @@ DESCRIPTION="a fork of cqlengine modified to work in baseplate.py applications"
 
 HOMEPAGE="https://github.com/reddit/cqlmapper"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/08/6d/747a1656753b7c962b493d12f3f062806da3f544ae80b712148f2fd7cdba/reddit_cqlmapper-${REALVERSION}.tar.gz"
-SOURCEFILE="reddit_cqlmapper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/08/6d/747a1656753b7c962b493d12f3f062806da3f544ae80b712148f2fd7cdba/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Instrumentation Tools & Auto Instrumentation for OpenTelemetry Pyth
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/opentelemetry-instrumentation"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/05/91/8d9442d6814f345b8c6b6bd5a2dd2a274ff24b6f95142fa5dcb6929736fe/opentelemetry_instrumentation-${REALVERSION}.tar.gz"
-SOURCEFILE="opentelemetry_instrumentation-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/05/91/8d9442d6814f345b8c6b6bd5a2dd2a274ff24b6f95142fa5dcb6929736fe/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

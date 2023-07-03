@@ -15,8 +15,8 @@ DESCRIPTION="Django CQRS data synchronisation"
 
 HOMEPAGE="https://django-cqrs.readthedocs.org"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/4a/d0/10ae6c5d9293e22d6e56c9191b1eca00af53645e3ff0df848eca7dd11615/django_cqrs-${REALVERSION}.tar.gz"
-SOURCEFILE="django_cqrs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4a/d0/10ae6c5d9293e22d6e56c9191b1eca00af53645e3ff0df848eca7dd11615/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/80/64/18ff79bd9d32d2c02139432583d5763cf6c177a4283048c56ffd4e9e230e/binarylane_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="binarylane_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/80/64/18ff79bd9d32d2c02139432583d5763cf6c177a4283048c56ffd4e9e230e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

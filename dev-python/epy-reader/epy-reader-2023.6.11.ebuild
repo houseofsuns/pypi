@@ -15,8 +15,8 @@ DESCRIPTION="TUI Ebook Reader"
 
 HOMEPAGE="https://github.com/wustho/epy"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/94/dd/7fd8a9fd26714d53471b67234e74e37ffea13eeea791a1e9d655acbf17f9/epy_reader-${REALVERSION}.tar.gz"
-SOURCEFILE="epy_reader-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/94/dd/7fd8a9fd26714d53471b67234e74e37ffea13eeea791a1e9d655acbf17f9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

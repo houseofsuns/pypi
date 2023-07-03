@@ -15,8 +15,8 @@ DESCRIPTION="Scoring functions for Reinvent"
 
 HOMEPAGE="https://github.com/MolecularAI/reinvent-scoring.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/02/a0/a088deb12f3d80e57195f47ec1348c4d7a3563d2de0f471e916555008dca/reinvent_scoring-${REALVERSION}.tar.gz"
-SOURCEFILE="reinvent_scoring-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/02/a0/a088deb12f3d80e57195f47ec1348c4d7a3563d2de0f471e916555008dca/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

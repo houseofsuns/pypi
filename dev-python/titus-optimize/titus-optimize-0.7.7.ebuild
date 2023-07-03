@@ -15,8 +15,8 @@ DESCRIPTION="A package for optimizing placements of containers."
 
 HOMEPAGE="https://github.com/Netflix-Skunkworks/titus-optimize"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b1/4e/15fe8f081c992f172189235e0efa06653909d746839fd11bf316f3d2008d/titus_optimize-${REALVERSION}.tar.gz"
-SOURCEFILE="titus_optimize-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b1/4e/15fe8f081c992f172189235e0efa06653909d746839fd11bf316f3d2008d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

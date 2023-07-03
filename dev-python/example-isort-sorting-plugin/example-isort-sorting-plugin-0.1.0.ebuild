@@ -15,8 +15,8 @@ DESCRIPTION="An example plugin that modifies isorts sorting order to provide an 
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d8/4a/eef19c44d8a952b8993665fb9d67338deccab506607072d7a45c7c46d369/example_isort_sorting_plugin-${REALVERSION}.tar.gz"
-SOURCEFILE="example_isort_sorting_plugin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d8/4a/eef19c44d8a952b8993665fb9d67338deccab506607072d7a45c7c46d369/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

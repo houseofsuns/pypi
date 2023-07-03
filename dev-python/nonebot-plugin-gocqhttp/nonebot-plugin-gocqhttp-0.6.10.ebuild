@@ -15,8 +15,8 @@ DESCRIPTION="A plugin to run go-cqhttp directly in NoneBot2, without additional 
 
 HOMEPAGE="https://github.com/mnixry/nonebot-plugin-gocqhttp"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/e7/3f/ab4bc216cc21172699aae533a1190947857ff7f68e340ded3762ab399209/nonebot_plugin_gocqhttp-${REALVERSION}.tar.gz"
-SOURCEFILE="nonebot_plugin_gocqhttp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e7/3f/ab4bc216cc21172699aae533a1190947857ff7f68e340ded3762ab399209/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

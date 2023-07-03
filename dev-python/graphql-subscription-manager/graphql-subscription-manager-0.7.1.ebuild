@@ -15,8 +15,8 @@ DESCRIPTION="A python3 library for graphql subscription manager"
 
 HOMEPAGE="https://github.com/Danielhiversen/PyGraphqlWebsocketManager"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b7/5e/ac8cca56ac039f8fe2a1ba2e696a157484438cbcdf616f2d68c4344255b5/graphql_subscription_manager-${REALVERSION}.tar.gz"
-SOURCEFILE="graphql_subscription_manager-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b7/5e/ac8cca56ac039f8fe2a1ba2e696a157484438cbcdf616f2d68c4344255b5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

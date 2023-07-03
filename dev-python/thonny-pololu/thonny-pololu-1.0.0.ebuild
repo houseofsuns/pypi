@@ -15,8 +15,8 @@ DESCRIPTION="Pololu 3pi+ 2040 Robot support for Thonny."
 
 HOMEPAGE="https://github.com/pololu/thonny-pololu"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f3/36/7885c4f096af686327653515b87e95cbbea7fe21ab5a662af2962178bc6d/thonny_pololu-${REALVERSION}.tar.gz"
-SOURCEFILE="thonny_pololu-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f3/36/7885c4f096af686327653515b87e95cbbea7fe21ab5a662af2962178bc6d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

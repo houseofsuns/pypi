@@ -15,8 +15,8 @@ DESCRIPTION="Protects graphene, graphql or strawberry against malicious queries"
 
 HOMEPAGE="https://github.com/devkral/graphene-protector"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/19/69/931b3d852b5c3c9e8f37e3cbc7a50ec7c14cb77024d1a417fe8db4c0209f/graphene_protector-${REALVERSION}.tar.gz"
-SOURCEFILE="graphene_protector-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/19/69/931b3d852b5c3c9e8f37e3cbc7a50ec7c14cb77024d1a417fe8db4c0209f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

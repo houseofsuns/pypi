@@ -15,8 +15,8 @@ DESCRIPTION="User utilities for the Open edX platform"
 
 HOMEPAGE="https://github.com/edx/user-util"
 LICENSE="GNU General Public License v3"
-SRC_URI="https://files.pythonhosted.org/packages/5f/70/f181c73cb35ba9db2fd38bdd49c439e5358305c7b039bb8c978e88197b5c/user_util-${REALVERSION}.tar.gz"
-SOURCEFILE="user_util-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5f/70/f181c73cb35ba9db2fd38bdd49c439e5358305c7b039bb8c978e88197b5c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

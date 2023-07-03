@@ -15,8 +15,8 @@ DESCRIPTION="🌙 A command handler for Hikari that keeps your project neat and 
 
 HOMEPAGE="https://github.com/hikari-crescent/hikari-crescent"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e4/07/e5b4650a950640da53902d8daf250a2a7efffcef98f8e229ea480a24915f/hikari_crescent-${REALVERSION}.tar.gz"
-SOURCEFILE="hikari_crescent-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e4/07/e5b4650a950640da53902d8daf250a2a7efffcef98f8e229ea480a24915f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

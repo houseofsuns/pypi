@@ -15,8 +15,8 @@ DESCRIPTION="J-Quants API Client Library"
 
 HOMEPAGE="https://github.com/J-Quants/jquants-api-client-python"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/7d/83/aaf785d0b6b6042abc71dbdfb70c3e87d102071a343850b718843bd55140/jquants_api_client-${REALVERSION}.tar.gz"
-SOURCEFILE="jquants_api_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7d/83/aaf785d0b6b6042abc71dbdfb70c3e87d102071a343850b718843bd55140/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

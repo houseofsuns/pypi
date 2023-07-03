@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/71/e1/60219a29dbc73ad99eb0afc4c9b910096be9898a08c3529f2b7685b2752e/reddit_decider-${REALVERSION}.tar.gz"
-SOURCEFILE="reddit_decider-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/71/e1/60219a29dbc73ad99eb0afc4c9b910096be9898a08c3529f2b7685b2752e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

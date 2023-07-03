@@ -15,8 +15,8 @@ DESCRIPTION="Library for bdd testing"
 
 HOMEPAGE="https://github.com/me3eh/POM_BiDiDi"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3b/48/2273046a3e03f9bb3a9fafef77fd77c78c2e09b324b80e9429194530353f/pb_testing-${REALVERSION}.tar.gz"
-SOURCEFILE="pb_testing-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3b/48/2273046a3e03f9bb3a9fafef77fd77c78c2e09b324b80e9429194530353f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

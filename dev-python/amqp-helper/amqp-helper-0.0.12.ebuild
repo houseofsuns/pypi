@@ -15,8 +15,8 @@ DESCRIPTION="simple Helper library to configure AMQP communication"
 
 HOMEPAGE="https://github.com/bad-microservices/amqp_helper"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a6/b3/77f2a96c36e1cd2cce0fd3701fdc8babd8fe3f435c16c4225aceadb3245d/amqp_helper-${REALVERSION}.tar.gz"
-SOURCEFILE="amqp_helper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a6/b3/77f2a96c36e1cd2cce0fd3701fdc8babd8fe3f435c16c4225aceadb3245d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

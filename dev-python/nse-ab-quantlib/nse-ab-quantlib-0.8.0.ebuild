@@ -15,8 +15,8 @@ DESCRIPTION="Way of Testing option selling strategies in NSE"
 
 HOMEPAGE="https://github.com/jaskirat1208/backtest-platform"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b6/5e/d2750430b3cd4518ac363f9a95ec552aa4145d153ca001fa2c4f70eaeb7e/nse_ab_quantlib-${REALVERSION}.tar.gz"
-SOURCEFILE="nse_ab_quantlib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b6/5e/d2750430b3cd4518ac363f9a95ec552aa4145d153ca001fa2c4f70eaeb7e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

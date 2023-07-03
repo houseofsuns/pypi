@@ -15,8 +15,8 @@ DESCRIPTION="A library that generates image CAPTCHAs."
 
 HOMEPAGE="https://gitee.com/full-stack-web/util-captcha"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b7/35/53a6007b6331bb695cf480be653eff30b5b0223b1153e50f7aad217157b4/util_captcha-${REALVERSION}.tar.gz"
-SOURCEFILE="util_captcha-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b7/35/53a6007b6331bb695cf480be653eff30b5b0223b1153e50f7aad217157b4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

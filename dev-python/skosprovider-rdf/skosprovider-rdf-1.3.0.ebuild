@@ -15,8 +15,8 @@ DESCRIPTION="skosprovider_rdf"
 
 HOMEPAGE="http://github.com/OnroerendErfgoed/skosprovider_rdf"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ef/de/541065f044331498471382b35b2aac4e35d87665622bf7a0d8086e5f20fc/skosprovider_rdf-${REALVERSION}.tar.gz"
-SOURCEFILE="skosprovider_rdf-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ef/de/541065f044331498471382b35b2aac4e35d87665622bf7a0d8086e5f20fc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Responsive cross-browser image library using modern codes like AVIF
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c6/73/9f5c88bfcff245c452aa0b9ef4e660ae3decf1c27c239ba2848c0f5abcb5/django_pictures-${REALVERSION}.tar.gz"
-SOURCEFILE="django_pictures-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c6/73/9f5c88bfcff245c452aa0b9ef4e660ae3decf1c27c239ba2848c0f5abcb5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

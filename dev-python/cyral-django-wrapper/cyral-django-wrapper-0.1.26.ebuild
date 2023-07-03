@@ -15,8 +15,8 @@ DESCRIPTION="Enriches your Django database queries with user identity informatio
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/aa/d3/e83174f14b9568a7eedd6d067f6c6859ba8845776f7e58a08931e188da83/cyral_django_wrapper-${REALVERSION}.tar.gz"
-SOURCEFILE="cyral_django_wrapper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/aa/d3/e83174f14b9568a7eedd6d067f6c6859ba8845776f7e58a08931e188da83/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

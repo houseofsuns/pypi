@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;div align=&quot;center&quot;&gt;  &lt;h1&gt;Dart Tools&lt;/h1&gt;  &lt;p&gt;    &lt;a href=&quot;https://pypi.org/project/dart-tools&quot;&gt;&lt;img src=&quot;https://img.shields.io/pypi/v/dart-tools.svg&quot; alt=&quot;PyPI&quot;&gt;&lt;/a&gt;    &lt;a href=&quot;tox.ini&quot;&gt;&lt;img src=&quot;https://img.shields.io/pypi/pyversions/dart-tools&quot; alt=&quot;Supported Python Versions&quot;&gt;&lt;/a&gt;    &lt;a href=&quot;LICENSE&quot;&gt;&lt;img src=&quot;https://img.shields.io/github/license/its-dart/dart-tools&quot; alt=&quot;License&quot;&gt;&lt;/a&gt;  &lt;/p&gt;&lt;/div&gt;[Dart](https://itsdart.com?nr=1) is Project Management on Autopilot.`dart-tools` is the Dart CLI and Python Library. It enables direct integration with Dart through a terminal CLI or through Python.## SetupIn the terminal, install with```bashpip install dart-tools```Then, login with```bashdart login```## Usage### As a CLIIn the terminal, see the help message with```bashdart --help```Create a task with```bashdart createtask &quot;new task&quot;```Begin work on a task with```bashdart begintask```### As a Python LibraryIn Python, run```pythonfrom dart import login, create_task, begin_task# only needed one timelogin()create_task(&quot;new task&quot;)begin_task()```## Help and Resources- [Homepage](https://www.itsdart.com/?nr=1)- [Web App](https://app.itsdart.com/)- [Help Center](https://its-dart.notion.site/Dart-Help-Center-8206a2aa2956496f8988b7b32cdcd205)- [Bugs and Features](https://github.com/its-dart/dart-tools/issues)- [Library Source](https://github.com/its-dart/dart-tools/)- Email us at [support@itsdart.com](mailto:support@itsdart.com)</longdescription>
+</pkgmetadata>

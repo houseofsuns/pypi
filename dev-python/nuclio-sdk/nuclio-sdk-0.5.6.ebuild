@@ -15,8 +15,8 @@ DESCRIPTION="Client for the Nuclio serverless platform"
 
 HOMEPAGE="https://github.com/nuclio/nuclio-sdk-py"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/17/6b/cb84e26d0ae3bb2dbd29317670214d07b8587bcfe2816a2b3ab5ca54de29/nuclio_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="nuclio_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/17/6b/cb84e26d0ae3bb2dbd29317670214d07b8587bcfe2816a2b3ab5ca54de29/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

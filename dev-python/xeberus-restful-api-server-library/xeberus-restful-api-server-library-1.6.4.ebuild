@@ -15,8 +15,8 @@ DESCRIPTION="Xeberus RESTful API Server Python Library"
 
 HOMEPAGE="https://github.com/majormode/xeberus-restful-api-server-python-library"
 LICENSE="SEE LICENSE IN <LICENSE.md>"
-SRC_URI="https://files.pythonhosted.org/packages/9b/5f/e90b623452d004dbe3a83de6cb1cd8b01e8bf5b8c05d044e4124eeb120bb/xeberus_restful_api_server_library-${REALVERSION}.tar.gz"
-SOURCEFILE="xeberus_restful_api_server_library-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9b/5f/e90b623452d004dbe3a83de6cb1cd8b01e8bf5b8c05d044e4124eeb120bb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

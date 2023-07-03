@@ -15,8 +15,8 @@ DESCRIPTION="Vehicle related Provider for the Faker Python package."
 
 HOMEPAGE="https://github.com/kennethwsmith/faker_vehicle"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/a3/f9/3432a540a3b6599b7365190df1030aaf93cb7c0113d2528b55511c6a48de/faker_vehicle-${REALVERSION}.tar.gz"
-SOURCEFILE="faker_vehicle-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a3/f9/3432a540a3b6599b7365190df1030aaf93cb7c0113d2528b55511c6a48de/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

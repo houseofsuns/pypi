@@ -15,8 +15,8 @@ DESCRIPTION="一个通过 OpenAI 来对b站视频进行总结插件"
 
 HOMEPAGE=""
 LICENSE="AGPL3.0"
-SRC_URI="https://files.pythonhosted.org/packages/ea/95/f46ecc21876b4792c8a8e47824e9ac48b87c05c9e6d6d790ca58163f4f92/nonebot_plugin_bilichat-${REALVERSION}.tar.gz"
-SOURCEFILE="nonebot_plugin_bilichat-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ea/95/f46ecc21876b4792c8a8e47824e9ac48b87c05c9e6d6d790ca58163f4f92/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

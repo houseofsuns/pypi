@@ -15,8 +15,8 @@ DESCRIPTION="Alibaba Cloud BssOpenApi (20171214) SDK Library for Python2"
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python2-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d9/d2/ac265d105318c3a5c085e948ad6886d5ed88efb84b044116637e284dbb5a/alibabacloud_bssopenapi20171214_py2-${REALVERSION}.tar.gz"
-SOURCEFILE="alibabacloud_bssopenapi20171214_py2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d9/d2/ac265d105318c3a5c085e948ad6886d5ed88efb84b044116637e284dbb5a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

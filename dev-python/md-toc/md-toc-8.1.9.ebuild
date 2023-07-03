@@ -15,8 +15,8 @@ DESCRIPTION="Automatically generate and add an accurate table of contents to mar
 
 HOMEPAGE="https://blog.franco.net.eu.org/software/#md-toc"
 LICENSE="GPLv3+,"
-SRC_URI="https://files.pythonhosted.org/packages/a7/03/97d13931dd0249cc156df8aedbe027ac0cf48452ca73d9bfe9ce2afb1170/md_toc-${REALVERSION}.tar.gz"
-SOURCEFILE="md_toc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a7/03/97d13931dd0249cc156df8aedbe027ac0cf48452ca73d9bfe9ce2afb1170/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

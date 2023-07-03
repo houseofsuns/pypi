@@ -15,8 +15,8 @@ DESCRIPTION="HDX Python database utilities"
 
 HOMEPAGE="https://github.com/OCHA-DAP/hdx-python-database"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/44/43/3b22f96a915a0ac0bb8b5239af8dca00419fbe859d3eb138d126ff96cd57/hdx_python_database-${REALVERSION}.tar.gz"
-SOURCEFILE="hdx_python_database-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/44/43/3b22f96a915a0ac0bb8b5239af8dca00419fbe859d3eb138d126ff96cd57/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

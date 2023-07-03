@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://pypi.org/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c1/e6/3d84345b88737688bf46b52a6753afdcdcd7b0fbd23a295bce9bcc921d51/hello_world_client_fuck-${REALVERSION}.tar.gz"
-SOURCEFILE="hello_world_client_fuck-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c1/e6/3d84345b88737688bf46b52a6753afdcdcd7b0fbd23a295bce9bcc921d51/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

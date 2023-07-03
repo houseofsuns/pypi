@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image:: https://badge.fury.io/py/galaxy-config.svg   :target: https://pypi.org/project/galaxy-config/Overview--------The Galaxy_ config module.* Code: https://github.com/galaxyproject/galaxy.. _Galaxy: http://galaxyproject.org/History-------.. to_doc-------------------23.0.4 (2023-06-30)-------------------No recorded changes since last release-------------------23.0.3 (2023-06-26)-------------------No recorded changes since last release-------------------23.0.2 (2023-06-13)-------------------No recorded changes since last release-------------------23.0.1 (2023-06-08)-------------------=========Bug fixes=========* Change default watchdog inotify_buffer log level to info by `@mvdbeek &lt;https://github.com/mvdbeek&gt;`_ in `#15967 &lt;https://github.com/galaxyproject/galaxy/pull/15967&gt;`_============Enhancements============* Add ``ca_certs`` option for sentry client by `@mvdbeek &lt;https://github.com/mvdbeek&gt;`_ in `#15943 &lt;https://github.com/galaxyproject/galaxy/pull/15943&gt;`_-------------------22.1.1 (2022-08-22)-------------------* Initial release</longdescription>
+</pkgmetadata>

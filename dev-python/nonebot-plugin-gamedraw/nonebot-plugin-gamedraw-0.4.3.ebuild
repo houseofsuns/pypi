@@ -15,8 +15,8 @@ DESCRIPTION="nonebot2 实现自动更新的 原神/明日方舟/赛马娘/坎公
 
 HOMEPAGE="https://github.com/HibiKier/nonebot_plugin_gamedraw"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/19/05/ecaebba45ca234253d49bb6e142acabc449fe935797aa30a5b0721b86bf5/nonebot_plugin_gamedraw-${REALVERSION}.tar.gz"
-SOURCEFILE="nonebot_plugin_gamedraw-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/19/05/ecaebba45ca234253d49bb6e142acabc449fe935797aa30a5b0721b86bf5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

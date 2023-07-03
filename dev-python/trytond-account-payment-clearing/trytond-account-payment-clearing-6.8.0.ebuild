@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module for payment clearing"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/4e/fd/bb39ff8ceba113c75c8ecd29c620e9359766562387ff723b4862692f9380/trytond_account_payment_clearing-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_account_payment_clearing-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4e/fd/bb39ff8ceba113c75c8ecd29c620e9359766562387ff723b4862692f9380/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

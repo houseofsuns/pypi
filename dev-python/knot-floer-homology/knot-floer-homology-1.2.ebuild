@@ -15,8 +15,8 @@ DESCRIPTION="Python wrapper for Zoltán Szabó's HFK Calculator"
 
 HOMEPAGE="https://github.com/3-manifolds/knot_floer_homology"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/26/64/055a6fcdb73e08a5c8f88cf289a1b32801e9deda8bdf7f365f3ae3e29433/knot_floer_homology-${REALVERSION}.tar.gz"
-SOURCEFILE="knot_floer_homology-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/26/64/055a6fcdb73e08a5c8f88cf289a1b32801e9deda8bdf7f365f3ae3e29433/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

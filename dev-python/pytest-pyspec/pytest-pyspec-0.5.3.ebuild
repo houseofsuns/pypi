@@ -15,8 +15,8 @@ DESCRIPTION="A plugin that transforms the pytest output into a result similar to
 
 HOMEPAGE="https://github.com/felipecrp/pytest-pyspec"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/e7/47/90345c86065883e291eb1029b356ad8affa9d244d3bfd5f23e8e461ac9cf/pytest_pyspec-${REALVERSION}.tar.gz"
-SOURCEFILE="pytest_pyspec-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e7/47/90345c86065883e291eb1029b356ad8affa9d244d3bfd5f23e8e461ac9cf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

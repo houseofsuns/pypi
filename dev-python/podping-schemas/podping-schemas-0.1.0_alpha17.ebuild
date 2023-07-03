@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d1/79/ad5e1d25b59795ef4fbdd399c234ef2f5e45c6242abb16814f8386593dd6/podping_schemas-${REALVERSION}.tar.gz"
-SOURCEFILE="podping_schemas-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d1/79/ad5e1d25b59795ef4fbdd399c234ef2f5e45c6242abb16814f8386593dd6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>gunfolds========Tools to explore dynamic causal graphs in the case of  undersampled data helping to unfold the apparent structure into the underlying truth.Acknowledgment========This work was initially supported by  NSF IIS-1318759 grant and is currently supported by NIH 1R01MH129047.</longdescription>
+</pkgmetadata>

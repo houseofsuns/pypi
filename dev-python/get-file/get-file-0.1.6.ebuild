@@ -15,8 +15,8 @@ DESCRIPTION="Download any file or files on the go!"
 
 HOMEPAGE="https://github.com/ahtesham007/get-file/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/73/9c/1b16677c1fdcd8ffdd3244bed97771fb2da00e67788eab256a1283986386/get_file-${REALVERSION}.tar.gz"
-SOURCEFILE="get_file-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/73/9c/1b16677c1fdcd8ffdd3244bed97771fb2da00e67788eab256a1283986386/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

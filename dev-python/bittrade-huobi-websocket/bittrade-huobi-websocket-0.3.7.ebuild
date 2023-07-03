@@ -15,8 +15,8 @@ DESCRIPTION="Reactive Websocket for Huboi"
 
 HOMEPAGE="https://github.com/TechSpaceAsia/bittrade-huobi-websocket"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/18/30/1070be5c6876632591f0f08018cff064250130f1361c203480cd8d7e9340/bittrade_huobi_websocket-${REALVERSION}.tar.gz"
-SOURCEFILE="bittrade_huobi_websocket-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/18/30/1070be5c6876632591f0f08018cff064250130f1361c203480cd8d7e9340/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

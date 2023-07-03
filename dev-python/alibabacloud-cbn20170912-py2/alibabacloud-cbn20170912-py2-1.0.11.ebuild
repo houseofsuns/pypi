@@ -15,8 +15,8 @@ DESCRIPTION="Alibaba Cloud Cloud Enterprise Network (20170912) SDK Library for P
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python2-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ca/f2/44349d8cd6c03740273f560cd60f8b263d35ca89f51837f81187ab4ee8bf/alibabacloud_cbn20170912_py2-${REALVERSION}.tar.gz"
-SOURCEFILE="alibabacloud_cbn20170912_py2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ca/f2/44349d8cd6c03740273f560cd60f8b263d35ca89f51837f81187ab4ee8bf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

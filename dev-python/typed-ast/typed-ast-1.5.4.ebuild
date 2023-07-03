@@ -15,8 +15,8 @@ DESCRIPTION="a fork of Python 2 and 3 ast modules with type comment support"
 
 HOMEPAGE="https://github.com/python/typed_ast"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/07/d2/d55702e8deba2c80282fea0df53130790d8f398648be589750954c2dcce4/typed_ast-${REALVERSION}.tar.gz"
-SOURCEFILE="typed_ast-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/07/d2/d55702e8deba2c80282fea0df53130790d8f398648be589750954c2dcce4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Compatibility shims for pip versions 8 thru current."
 
 HOMEPAGE="https://github.com/sarugaku/pip-shims"
 LICENSE="ISC License"
-SRC_URI="https://files.pythonhosted.org/packages/4d/68/97bd36a9c01eba78a1c9e6df5971729b4bb10e3446a92a44b8a8c921b577/pip_shims-${REALVERSION}.tar.gz"
-SOURCEFILE="pip_shims-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4d/68/97bd36a9c01eba78a1c9e6df5971729b4bb10e3446a92a44b8a8c921b577/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

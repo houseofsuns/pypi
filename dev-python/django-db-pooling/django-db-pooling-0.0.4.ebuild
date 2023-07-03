@@ -15,8 +15,8 @@ DESCRIPTION="Django Database Connection Pooling with Gevent workers"
 
 HOMEPAGE="https://github.com/zhangi/django_db_pooling"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/71/ce/bd81e8d1cf4a0d012034f2c5cb746dd87a132042b2140484b14d66b2fea1/django_db_pooling-${REALVERSION}.tar.gz"
-SOURCEFILE="django_db_pooling-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/71/ce/bd81e8d1cf4a0d012034f2c5cb746dd87a132042b2140484b14d66b2fea1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

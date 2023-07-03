@@ -15,8 +15,8 @@ DESCRIPTION="A flake8 plugin for testing PEP-8 conform package and module names.
 
 HOMEPAGE="https://github.com/ohjeah/flake8_module_name"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f8/b3/3d24df19f2f0a3baed26d331100e9e80941bd1890ee9c918cfd096b28331/flake8_module_name-${REALVERSION}.tar.gz"
-SOURCEFILE="flake8_module_name-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f8/b3/3d24df19f2f0a3baed26d331100e9e80941bd1890ee9c918cfd096b28331/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

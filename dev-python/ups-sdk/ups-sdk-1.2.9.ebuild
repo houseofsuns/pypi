@@ -15,8 +15,8 @@ DESCRIPTION="UPS Sdk"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5f/b2/f874ed2793eda33ff3a761150fdedc4c3c2fb49bcd4a56862e1915154073/ups_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="ups_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5f/b2/f874ed2793eda33ff3a761150fdedc4c3c2fb49bcd4a56862e1915154073/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

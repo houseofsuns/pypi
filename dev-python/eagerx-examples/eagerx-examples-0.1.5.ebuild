@@ -15,8 +15,8 @@ DESCRIPTION="Code examples of EAGERx."
 
 HOMEPAGE="https://github.com/eager-dev/eagerx_examples"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/82/7c/bd2c34f7bb66c927b3e30ffc579646f8751fe626c41ba8e365eba4b0a74b/eagerx_examples-${REALVERSION}.tar.gz"
-SOURCEFILE="eagerx_examples-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/82/7c/bd2c34f7bb66c927b3e30ffc579646f8751fe626c41ba8e365eba4b0a74b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

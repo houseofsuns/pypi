@@ -15,8 +15,8 @@ DESCRIPTION="An FPS plugin for the login API"
 
 HOMEPAGE="https://jupyter.org"
 LICENSE="BSD 3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/b1/51/6f74b84165a9f4372773a3ac8629dceeed65fe56fc34a1b9a56d72e5733c/fps_login-${REALVERSION}.tar.gz"
-SOURCEFILE="fps_login-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b1/51/6f74b84165a9f4372773a3ac8629dceeed65fe56fc34a1b9a56d72e5733c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

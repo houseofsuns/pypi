@@ -15,8 +15,8 @@ DESCRIPTION="Directed Acyclic Graph implementation for Django & Postgresql"
 
 HOMEPAGE="https://github.com/OmenApps/django-postgresql-dag"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/eb/48/3d681301bb28efa0aa79c1f660686f681f08e8833ea68ec1bfe856caea44/django_postgresql_dag-${REALVERSION}.tar.gz"
-SOURCEFILE="django_postgresql_dag-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/eb/48/3d681301bb28efa0aa79c1f660686f681f08e8833ea68ec1bfe856caea44/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

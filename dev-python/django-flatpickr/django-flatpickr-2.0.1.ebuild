@@ -15,8 +15,8 @@ DESCRIPTION="Flatpickr based DatePickerInput, TimePickerInput and DateTimePicker
 
 HOMEPAGE="https://github.com/monim67/django-flatpickr"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/43/c1/b00732fbc5aa17267a6b31ebdeaecdd0e2a6a0bd4c239936a0df2cdeadf3/django_flatpickr-${REALVERSION}.tar.gz"
-SOURCEFILE="django_flatpickr-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/43/c1/b00732fbc5aa17267a6b31ebdeaecdd0e2a6a0bd4c239936a0df2cdeadf3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Complete lxml external type annotation"
 
 HOMEPAGE="https://github.com/abelcheung/types-lxml"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/8f/ed/fd3f882a388a665131eb9aad66a907a44e536d55e101e62a0a63a73a6b36/types_lxml-${REALVERSION}.tar.gz"
-SOURCEFILE="types_lxml-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8f/ed/fd3f882a388a665131eb9aad66a907a44e536d55e101e62a0a63a73a6b36/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

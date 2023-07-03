@@ -15,8 +15,8 @@ DESCRIPTION="TXL plugin for the jpterm app"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5d/36/ec12a6e4e002ae87783687b54674dbb6f544d47d47b3bf1c1ea184ee177d/txl_jpterm-${REALVERSION}.tar.gz"
-SOURCEFILE="txl_jpterm-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5d/36/ec12a6e4e002ae87783687b54674dbb6f544d47d47b3bf1c1ea184ee177d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

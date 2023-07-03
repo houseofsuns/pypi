@@ -15,8 +15,8 @@ DESCRIPTION="A Pylint plugin for improving code analysis when editing code using
 
 HOMEPAGE="https://gitlab.anybox.cloud/rboyer/pylint_flask_sqlalchemy"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/24/b9/a21c275e8859afc946559d9ff8358a95c2979e1e20733ff5a7b461e37024/pylint_flask_sqlalchemy-${REALVERSION}.tar.gz"
-SOURCEFILE="pylint_flask_sqlalchemy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/24/b9/a21c275e8859afc946559d9ff8358a95c2979e1e20733ff5a7b461e37024/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

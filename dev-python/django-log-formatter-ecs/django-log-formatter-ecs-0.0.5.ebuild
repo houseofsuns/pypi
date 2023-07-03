@@ -15,8 +15,8 @@ DESCRIPTION="ECS log formatter for Django"
 
 HOMEPAGE="https://github.com/uktrade/django-log-formatter-ecs"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/02/58/2e48c32905202857a37e4abf1847c2eab11c6260deea7d2eced53b9fa642/django_log_formatter_ecs-${REALVERSION}.tar.gz"
-SOURCEFILE="django_log_formatter_ecs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/02/58/2e48c32905202857a37e4abf1847c2eab11c6260deea7d2eced53b9fa642/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

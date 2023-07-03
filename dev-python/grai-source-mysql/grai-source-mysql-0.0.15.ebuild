@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://www.grai.io/"
 LICENSE="Elastic-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/31/da/e63574f65a8fc77ca09b15669d4d4b06bf53827aa637e9fe6ddcd8f28407/grai_source_mysql-${REALVERSION}.tar.gz"
-SOURCEFILE="grai_source_mysql-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/31/da/e63574f65a8fc77ca09b15669d4d4b06bf53827aa637e9fe6ddcd8f28407/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

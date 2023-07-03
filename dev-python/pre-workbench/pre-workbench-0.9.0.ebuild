@@ -15,8 +15,8 @@ DESCRIPTION="Protocol Reverse Engineering Workbench"
 
 HOMEPAGE="https://github.com/pre-workbench"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/21/24/401c048b0c620de82a7f4b271281b769d711f4c11785994d36bf5f3d9e9c/pre_workbench-${REALVERSION}.tar.gz"
-SOURCEFILE="pre_workbench-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/21/24/401c048b0c620de82a7f4b271281b769d711f4c11785994d36bf5f3d9e9c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

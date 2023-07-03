@@ -15,8 +15,8 @@ DESCRIPTION="REMOTE_USER Authenticator: An Authenticator for Jupyterhub to read 
 
 HOMEPAGE="https://github.com/manavmisra2/fintech_test.git"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/ad/77/26fccb0999e54c428eefe069800a048255467a9a8f1d945c5c6c9bfd433c/fintech_test-${REALVERSION}.tar.gz"
-SOURCEFILE="fintech_test-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ad/77/26fccb0999e54c428eefe069800a048255467a9a8f1d945c5c6c9bfd433c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

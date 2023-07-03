@@ -15,8 +15,8 @@ DESCRIPTION="Alice in Modular Provenance-Enabled Land"
 
 HOMEPAGE="https://ampelproject.github.io"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/0b/f1/c35d1b693bc5f9d4305d831b65aa8d828d304890beddb59d40c55dd960e7/ampel_core-${REALVERSION}.tar.gz"
-SOURCEFILE="ampel_core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0b/f1/c35d1b693bc5f9d4305d831b65aa8d828d304890beddb59d40c55dd960e7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

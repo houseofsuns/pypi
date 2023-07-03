@@ -15,8 +15,8 @@ DESCRIPTION="An async GeoRSS client library."
 
 HOMEPAGE="https://github.com/exxamalte/python-aio-georss-client"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/5a/1b/8bcdd36315771b57fec09dba735b0211e18d865a8e60bd2402578fb8bd51/aio_georss_client-${REALVERSION}.tar.gz"
-SOURCEFILE="aio_georss_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5a/1b/8bcdd36315771b57fec09dba735b0211e18d865a8e60bd2402578fb8bd51/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

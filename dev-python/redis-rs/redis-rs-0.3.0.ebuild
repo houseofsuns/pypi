@@ -15,8 +15,8 @@ DESCRIPTION="Python wrapper for redis-rs and redis_cluster_async"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/51/9c/f3a64aa7ad80ee5948afdabad7068a12d0c4d73a79fc5859dcab1da0990c/redis_rs-${REALVERSION}.tar.gz"
-SOURCEFILE="redis_rs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/51/9c/f3a64aa7ad80ee5948afdabad7068a12d0c4d73a79fc5859dcab1da0990c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="pylint reporter for junit format."
 
 HOMEPAGE="https://github.com/rasjani/pylint_junit"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/da/0b/3d1ded083fcff2c94deac3d4b2407028327bc5a9fa8aff9ed18d1d148308/pylint_junit-${REALVERSION}.tar.gz"
-SOURCEFILE="pylint_junit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/da/0b/3d1ded083fcff2c94deac3d4b2407028327bc5a9fa8aff9ed18d1d148308/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A small library to handle JWT auth including roles and permissions"
 
 HOMEPAGE=""
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/5b/5d/c4f527a0a2c5fc3221a827c3c4446421341489b5d8b8b92342756f7357f5/inuits_jwt_auth-${REALVERSION}.tar.gz"
-SOURCEFILE="inuits_jwt_auth-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5b/5d/c4f527a0a2c5fc3221a827c3c4446421341489b5d8b8b92342756f7357f5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

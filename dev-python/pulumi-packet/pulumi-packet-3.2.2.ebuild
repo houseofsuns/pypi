@@ -15,8 +15,8 @@ DESCRIPTION="A Pulumi package for creating and managing Packet cloud resources."
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/04/3e/5ad3aef1ce1d4b3abe1de6e54750f82bea8206881baf4cbe9b564f5db9e4/pulumi_packet-${REALVERSION}.tar.gz"
-SOURCEFILE="pulumi_packet-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/04/3e/5ad3aef1ce1d4b3abe1de6e54750f82bea8206881baf4cbe9b564f5db9e4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

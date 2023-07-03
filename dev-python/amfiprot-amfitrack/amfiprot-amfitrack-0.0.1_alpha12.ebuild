@@ -15,8 +15,8 @@ DESCRIPTION="AmfiTrack extension for Amfiprot"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/43/4e/fb9ab9389aa0bcf40fa1165886fb7a8639bdd6e528c80f94517186679afc/amfiprot_amfitrack-${REALVERSION}.tar.gz"
-SOURCEFILE="amfiprot_amfitrack-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/43/4e/fb9ab9389aa0bcf40fa1165886fb7a8639bdd6e528c80f94517186679afc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

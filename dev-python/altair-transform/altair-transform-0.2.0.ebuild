@@ -15,8 +15,8 @@ DESCRIPTION="A python engine for evaluating Altair transforms."
 
 HOMEPAGE="http://github.com/altair-viz/altair-transform/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d0/15/f84008e6cd08d0f99976091cd82e1b39796f5abdbcfc2d6890261fdb1c87/altair_transform-${REALVERSION}.tar.gz"
-SOURCEFILE="altair_transform-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d0/15/f84008e6cd08d0f99976091cd82e1b39796f5abdbcfc2d6890261fdb1c87/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Market and exchange trading calendars for pandas"
 
 HOMEPAGE="https://github.com/rsheftel/pandas_market_calendars"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b6/2a/2876204daafe71de069ccac255819caf501961443643018ca27ab68eb0e0/pandas_market_calendars-${REALVERSION}.tar.gz"
-SOURCEFILE="pandas_market_calendars-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b6/2a/2876204daafe71de069ccac255819caf501961443643018ca27ab68eb0e0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

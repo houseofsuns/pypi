@@ -15,8 +15,8 @@ DESCRIPTION="Extensions to Magnus core"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/43/3a/5c70e1685f6325d60bd0279b08571c76a5f281fbbab749a4b7b621361654/magnus_extensions-${REALVERSION}.tar.gz"
-SOURCEFILE="magnus_extensions-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/43/3a/5c70e1685f6325d60bd0279b08571c76a5f281fbbab749a4b7b621361654/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

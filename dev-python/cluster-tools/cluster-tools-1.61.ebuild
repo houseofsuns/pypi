@@ -15,8 +15,8 @@ DESCRIPTION="Utility library for easily distributing code execution on clusters"
 
 HOMEPAGE="https://github.com/scalableminds/cluster_tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f1/c8/cfa558d3aa9a9e9a7b5d923e1008b8553c75e12df34ecec1666b038ba0d1/cluster_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="cluster_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f1/c8/cfa558d3aa9a9e9a7b5d923e1008b8553c75e12df34ecec1666b038ba0d1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

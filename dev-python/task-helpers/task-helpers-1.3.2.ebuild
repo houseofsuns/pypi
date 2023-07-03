@@ -15,8 +15,8 @@ DESCRIPTION="A package for creating task helpers."
 
 HOMEPAGE="https://github.com/loievskyi/task_helpers"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/04/9c/1671e8dc5ed3700e145ebcc1791f7ccd2a462983e92e7c3ff02b6e968353/task_helpers-${REALVERSION}.tar.gz"
-SOURCEFILE="task_helpers-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/04/9c/1671e8dc5ed3700e145ebcc1791f7ccd2a462983e92e7c3ff02b6e968353/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

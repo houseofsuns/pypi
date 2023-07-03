@@ -15,8 +15,8 @@ DESCRIPTION="Extract data created in a corporate Workplace by Facebook installat
 
 HOMEPAGE="https://github.com/denisduarte/workplace_extractor"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a0/a6/b3df697b604bca163e143e770bef0e812c0bf662509d60d8a1a2f25adfd7/workplace_extractor-${REALVERSION}.tar.gz"
-SOURCEFILE="workplace_extractor-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a0/a6/b3df697b604bca163e143e770bef0e812c0bf662509d60d8a1a2f25adfd7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

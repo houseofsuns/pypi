@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ModernMT Python LibraryProvides convenient access to the ModernMT API.## DocumentationSee the official website [API docs](https://www.modernmt.com/api?lang=python).## RequirementsPython 3</longdescription>
+</pkgmetadata>

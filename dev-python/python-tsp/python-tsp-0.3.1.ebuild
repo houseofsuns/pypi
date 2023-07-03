@@ -15,8 +15,8 @@ DESCRIPTION="Simple library to solve the Traveling Salesperson Problem in pure P
 
 HOMEPAGE="https://github.com/fillipe-gsm/python-tsp"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/14/bf/0d3ac69eac0d55e3faefa764e968c91da05f19d7f64e8cd6185231019e52/python_tsp-${REALVERSION}.tar.gz"
-SOURCEFILE="python_tsp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/14/bf/0d3ac69eac0d55e3faefa764e968c91da05f19d7f64e8cd6185231019e52/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

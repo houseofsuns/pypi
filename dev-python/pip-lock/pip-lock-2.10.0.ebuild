@@ -15,8 +15,8 @@ DESCRIPTION="Check for differences between requirements.txt files and your envir
 
 HOMEPAGE="https://github.com/adamchainz/pip-lock"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2b/f6/727aa8f3131f1460f0524f86d7f25fb3cc99778667625efc9384c1760539/pip_lock-${REALVERSION}.tar.gz"
-SOURCEFILE="pip_lock-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2b/f6/727aa8f3131f1460f0524f86d7f25fb3cc99778667625efc9384c1760539/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

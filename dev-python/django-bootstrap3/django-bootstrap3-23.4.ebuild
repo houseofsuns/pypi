@@ -15,8 +15,8 @@ DESCRIPTION="Bootstrap 3 for Django"
 
 HOMEPAGE="https://github.com/zostera/django-bootstrap3"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/79/11/bcbb7c5bf19219bc6b00daf04c0e4b3091ad002f564175e9dc865329a0c1/django_bootstrap3-${REALVERSION}.tar.gz"
-SOURCEFILE="django_bootstrap3-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/79/11/bcbb7c5bf19219bc6b00daf04c0e4b3091ad002f564175e9dc865329a0c1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

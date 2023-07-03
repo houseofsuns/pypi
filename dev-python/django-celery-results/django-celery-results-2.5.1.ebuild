@@ -15,8 +15,8 @@ DESCRIPTION="Celery result backends for Django."
 
 HOMEPAGE="https://github.com/celery/django-celery-results"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/75/24/a13ad6a276f62385da6d83a1995ded452d173841b6e0a83a899c3b75062e/django_celery_results-${REALVERSION}.tar.gz"
-SOURCEFILE="django_celery_results-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/75/24/a13ad6a276f62385da6d83a1995ded452d173841b6e0a83a899c3b75062e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

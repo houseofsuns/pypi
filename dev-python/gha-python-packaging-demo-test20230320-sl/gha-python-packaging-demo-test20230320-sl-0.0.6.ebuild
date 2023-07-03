@@ -15,8 +15,8 @@ DESCRIPTION="Demo of a simple way to use GitHub Actions to build your Python pac
 
 HOMEPAGE="https://github.com/seanh/gha-python-packaging-demo"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c9/b8/4add3d1dd06e60a6d4238e1f50f92a73fe1a7eeabe2269870c981492f636/gha_python_packaging_demo_test20230320_sl-${REALVERSION}.tar.gz"
-SOURCEFILE="gha_python_packaging_demo_test20230320_sl-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c9/b8/4add3d1dd06e60a6d4238e1f50f92a73fe1a7eeabe2269870c981492f636/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

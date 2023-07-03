@@ -15,8 +15,8 @@ DESCRIPTION="Flask+Vite integration."
 
 HOMEPAGE="https://github.com/abilian/flask-vite"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a4/f4/e1b3a5d710988022cfedc1c7dfa1faf30c02c23bf149d0171f931ae23fd8/flask_vite-${REALVERSION}.tar.gz"
-SOURCEFILE="flask_vite-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a4/f4/e1b3a5d710988022cfedc1c7dfa1faf30c02c23bf149d0171f931ae23fd8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

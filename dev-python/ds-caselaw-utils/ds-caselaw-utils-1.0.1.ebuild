@@ -15,8 +15,8 @@ DESCRIPTION="Utilities for the National Archives Caselaw project"
 
 HOMEPAGE="https://github.com/nationalarchives/ds-caselaw-utils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/29/85/90c62aae9bf7a8bbdb1ad5bd74c000c67abb0943c46a82655951e6421c8e/ds_caselaw_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="ds_caselaw_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/29/85/90c62aae9bf7a8bbdb1ad5bd74c000c67abb0943c46a82655951e6421c8e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

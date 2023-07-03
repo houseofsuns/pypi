@@ -15,8 +15,8 @@ DESCRIPTION="Provides AWS compliance details"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d3/48/b4cc7abe4ac7859bdb7281ab72333fe999b7b2bdeefa8b4632cc21385e23/cis_checks_2023-${REALVERSION}.tar.gz"
-SOURCEFILE="cis_checks_2023-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d3/48/b4cc7abe4ac7859bdb7281ab72333fe999b7b2bdeefa8b4632cc21385e23/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

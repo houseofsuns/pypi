@@ -15,8 +15,8 @@ DESCRIPTION="Bindings for yolov7 in one class"
 
 HOMEPAGE="https://github.com/maxwolf8852/yolov7_package.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/33/a1/1f80ed002a397a7a965f6cc9eaa5cb92c7bf1b919520fc99e7c5f9c199d7/yolov7_package-${REALVERSION}.tar.gz"
-SOURCEFILE="yolov7_package-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/33/a1/1f80ed002a397a7a965f6cc9eaa5cb92c7bf1b919520fc99e7c5f9c199d7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

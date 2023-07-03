@@ -15,8 +15,8 @@ DESCRIPTION="GPIB interface for Python implemented using ctypes, API-compatible 
 
 HOMEPAGE="https://github.com/tivek/gpib_ctypes"
 LICENSE="GNU General Public License v2"
-SRC_URI="https://files.pythonhosted.org/packages/01/be/fa6877f869665e855788d3bb351cfb788fa2207ee7686d1dd5919d441421/gpib_ctypes-${REALVERSION}.tar.gz"
-SOURCEFILE="gpib_ctypes-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/01/be/fa6877f869665e855788d3bb351cfb788fa2207ee7686d1dd5919d441421/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

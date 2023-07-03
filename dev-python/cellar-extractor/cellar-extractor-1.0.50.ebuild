@@ -15,8 +15,8 @@ DESCRIPTION="Library for extracting cellar data"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e1/5e/6e223904fce28a5fc11a1194392872ff43c96e2afca8daf2def4cce0aecf/cellar_extractor-${REALVERSION}.tar.gz"
-SOURCEFILE="cellar_extractor-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e1/5e/6e223904fce28a5fc11a1194392872ff43c96e2afca8daf2def4cce0aecf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

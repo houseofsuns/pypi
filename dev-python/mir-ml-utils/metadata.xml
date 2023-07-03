@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># mir-ml-utilsThe ML engine for the mir (Marine Inspection by Remote) app.## InstallYou can install the utilities via ```pip``````pip install mir-ml-utils```For a specific version use```pip install mir-ml-utils==x.x.x```You can uninstall the project via```pip3 uninstall mir-ml-utils```## Dependencies- PyTorch- Numpy- Pillow- matplolib- sphinx (if you want to build the documentation)The project also gets benefited from &lt;a href=&quot;https://pypi.org/project/easyfsl/&quot;&gt;easyfsl&lt;/a&gt; and&lt;a href=&quot;https://github.com/sicara/easy-few-shot-learning&quot;&gt;easy-few-shot-learning&lt;/a&gt;. However,you don't need to install this as a fork is maintained within mir-engine### TestingThere are additional dependencies if you want to run the tests- pytest- coverage- flake8In order to test locally, you can run the```local_test_pipeline.sh```The script first runs ```flake8``` and then ```pytest``` with coverage. Finally, it producesa report ```coverage_report.txt```.## Installation </longdescription>
+</pkgmetadata>

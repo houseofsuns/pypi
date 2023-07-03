@@ -15,8 +15,8 @@ DESCRIPTION="Kompas 3D Wrapper"
 
 HOMEPAGE="https://github.com/nikolai-in/kompas-3d-wrapper"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ce/8c/0a711ce1251648eb398dece552777a294d1dc284e3f22d437a61b50d382b/kompas_3d_wrapper-${REALVERSION}.tar.gz"
-SOURCEFILE="kompas_3d_wrapper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ce/8c/0a711ce1251648eb398dece552777a294d1dc284e3f22d437a61b50d382b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

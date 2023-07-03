@@ -15,8 +15,8 @@ DESCRIPTION="A package to access meteorological data from Environment Canada"
 
 HOMEPAGE="https://github.com/michaeldavie/env_canada"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/83/c9/62246a125f930dfa289acc5748eb34331948d426850609d3bb02b4a8fb64/env_canada-${REALVERSION}.tar.gz"
-SOURCEFILE="env_canada-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/83/c9/62246a125f930dfa289acc5748eb34331948d426850609d3bb02b4a8fb64/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

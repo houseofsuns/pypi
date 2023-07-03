@@ -15,8 +15,8 @@ DESCRIPTION="Flet for Pyodide - build standalone SPA in Python with Flutter UI."
 
 HOMEPAGE="https://flet.dev"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b9/cc/048c4ee94321f00c9938a4137fd21283453be3f7347936c48174814e242a/flet_pyodide-${REALVERSION}.tar.gz"
-SOURCEFILE="flet_pyodide-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b9/cc/048c4ee94321f00c9938a4137fd21283453be3f7347936c48174814e242a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

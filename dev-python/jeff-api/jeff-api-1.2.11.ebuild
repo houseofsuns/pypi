@@ -15,8 +15,8 @@ DESCRIPTION="A Python library for intercommunicating with Jeff."
 
 HOMEPAGE="https://github.com/markcda/jeff"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/59/bf/776d2bcc44ed6f58f2dd30f7e7be53202c77130803fe1c63ab574fdf4c25/jeff_api-${REALVERSION}.tar.gz"
-SOURCEFILE="jeff_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/59/bf/776d2bcc44ed6f58f2dd30f7e7be53202c77130803fe1c63ab574fdf4c25/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

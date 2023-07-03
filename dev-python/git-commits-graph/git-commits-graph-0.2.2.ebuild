@@ -15,8 +15,8 @@ DESCRIPTION="Display graph of changes in number of lines in project or changed l
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/48/7f/aacdc9c7f00e844d73f8682804708dcd2197724c5964b8d67b899d2b88f0/git_commits_graph-${REALVERSION}.tar.gz"
-SOURCEFILE="git_commits_graph-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/48/7f/aacdc9c7f00e844d73f8682804708dcd2197724c5964b8d67b899d2b88f0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

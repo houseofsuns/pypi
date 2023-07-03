@@ -15,8 +15,8 @@ DESCRIPTION="Stay on top of your docker images security vulnerabilities in AWS E
 
 HOMEPAGE=""
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/fb/6a/79af1659eed0370cbf92e02de8983c6f24982c7e9458b154a90afeac368f/ecr_scan_reporter-${REALVERSION}.tar.gz"
-SOURCEFILE="ecr_scan_reporter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fb/6a/79af1659eed0370cbf92e02de8983c6f24982c7e9458b154a90afeac368f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

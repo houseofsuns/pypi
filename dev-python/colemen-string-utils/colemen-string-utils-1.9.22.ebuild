@@ -15,8 +15,8 @@ DESCRIPTION="Colemen String Utils"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8b/b5/9d422cdda8aa3c310bc497a806e05c5377b7c226c4d98da8c12bd064ebfa/colemen_string_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="colemen_string_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8b/b5/9d422cdda8aa3c310bc497a806e05c5377b7c226c4d98da8c12bd064ebfa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

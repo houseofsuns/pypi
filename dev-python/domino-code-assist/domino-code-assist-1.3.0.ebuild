@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e9/b1/3c6bbb35b12e0658a94f3283f8fc30e03dcd021f907351f40f63bb0c24e5/domino_code_assist-${REALVERSION}.tar.gz"
-SOURCEFILE="domino_code_assist-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e9/b1/3c6bbb35b12e0658a94f3283f8fc30e03dcd021f907351f40f63bb0c24e5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

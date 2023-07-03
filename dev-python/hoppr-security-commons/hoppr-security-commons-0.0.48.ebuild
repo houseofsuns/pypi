@@ -15,8 +15,8 @@ DESCRIPTION="Common Library For hoppr-cop"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/08/93/370d42f3df36778469d0a3c3a406ab4229611b70090d3498ce334dea19d9/hoppr_security_commons-${REALVERSION}.tar.gz"
-SOURCEFILE="hoppr_security_commons-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/08/93/370d42f3df36778469d0a3c3a406ab4229611b70090d3498ce334dea19d9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A Flask application for logging pool water quality"
 
 HOMEPAGE="https://github.com/adinfinitum225/pool-log"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c8/fe/7dcc4fc7bd6ac4306855cebbf52b74c04ac636334f2b38d230354f077635/pool_log_zach_13_wells-${REALVERSION}.tar.gz"
-SOURCEFILE="pool_log_zach_13_wells-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c8/fe/7dcc4fc7bd6ac4306855cebbf52b74c04ac636334f2b38d230354f077635/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

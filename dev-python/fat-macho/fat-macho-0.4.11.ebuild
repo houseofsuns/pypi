@@ -15,8 +15,8 @@ DESCRIPTION="Mach-O fat binary writer"
 
 HOMEPAGE="https://github.com/messense/fat-macho-rs"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/84/98/0b8426a210a9e36cd5dcdd38976f2c4d658961add6a480ed92f67eb4229f/fat_macho-${REALVERSION}.tar.gz"
-SOURCEFILE="fat_macho-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/84/98/0b8426a210a9e36cd5dcdd38976f2c4d658961add6a480ed92f67eb4229f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

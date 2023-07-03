@@ -15,8 +15,8 @@ DESCRIPTION="Less downtime during migrations."
 
 HOMEPAGE="https://github.com/Opus10/django-pgmigrate"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/f7/4d/e9b687e46c7559d01c84bbb51026bee2fc5a671f56cdbdc3f4e6b3b58744/django_pgmigrate-${REALVERSION}.tar.gz"
-SOURCEFILE="django_pgmigrate-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f7/4d/e9b687e46c7559d01c84bbb51026bee2fc5a671f56cdbdc3f4e6b3b58744/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Prometheus metrics exporter for Flask"
 
 HOMEPAGE="https://github.com/rycus86/prometheus_flask_exporter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/26/14/9d665b264490e0ab10ef1dc12ac583057f2bdbd98e9592b61a2a558adbfd/prometheus_flask_exporter-${REALVERSION}.tar.gz"
-SOURCEFILE="prometheus_flask_exporter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/26/14/9d665b264490e0ab10ef1dc12ac583057f2bdbd98e9592b61a2a558adbfd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

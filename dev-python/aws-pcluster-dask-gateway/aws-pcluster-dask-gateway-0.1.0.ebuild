@@ -15,8 +15,8 @@ DESCRIPTION="A helper function to configure Dask Gateway to play nice with AWS P
 
 HOMEPAGE="https://github.com/bioanalyze/aws_pcluster_helpers"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/3d/d7/e09fcbffbb3b1bbf949ec4b8b9794fbe4eb05d8d23f7e5dfec3d2e6bfe88/aws_pcluster_dask_gateway-${REALVERSION}.tar.gz"
-SOURCEFILE="aws_pcluster_dask_gateway-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3d/d7/e09fcbffbb3b1bbf949ec4b8b9794fbe4eb05d8d23f7e5dfec3d2e6bfe88/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

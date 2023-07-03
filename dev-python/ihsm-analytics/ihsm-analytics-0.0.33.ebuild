@@ -15,8 +15,8 @@ DESCRIPTION="The package provides advanced geo-analytics functionalities."
 
 HOMEPAGE="https://ihsmarkit.com/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/22/35/58f2eb787fb7bd495a6732b0f21bae36d5625db6c51cbf3cf796765e0348/ihsm_analytics-${REALVERSION}.tar.gz"
-SOURCEFILE="ihsm_analytics-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/22/35/58f2eb787fb7bd495a6732b0f21bae36d5625db6c51cbf3cf796765e0348/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

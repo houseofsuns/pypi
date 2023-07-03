@@ -15,8 +15,8 @@ DESCRIPTION="API for sqlite3"
 
 HOMEPAGE="https://github.com/AlexDev-py/sqlite3-api.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/31/6d/0ff52aa61c422790bae6c49e8345685c14f43dce3aedb0b0dc18b0b72eaa/sqlite3_api-${REALVERSION}.tar.gz"
-SOURCEFILE="sqlite3_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/31/6d/0ff52aa61c422790bae6c49e8345685c14f43dce3aedb0b0dc18b0b72eaa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

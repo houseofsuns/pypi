@@ -15,8 +15,8 @@ DESCRIPTION="endi_payment"
 
 HOMEPAGE="https://framagit.org/endi/endi_payment"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/58/8c/425d4a5fe2856edebca1c177cbc046cbf0fe9f9c3e66aa67e637d0545365/endi_payment-${REALVERSION}.tar.gz"
-SOURCEFILE="endi_payment-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/58/8c/425d4a5fe2856edebca1c177cbc046cbf0fe9f9c3e66aa67e637d0545365/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

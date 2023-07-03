@@ -15,8 +15,8 @@ DESCRIPTION="Neptune.ai Optuna integration library"
 
 HOMEPAGE="https://neptune.ai/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/01/11/ec95c41b01a960780af93a5ff13033755699f52e68d0ac36cca04a086d42/neptune_optuna-${REALVERSION}.tar.gz"
-SOURCEFILE="neptune_optuna-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/01/11/ec95c41b01a960780af93a5ff13033755699f52e68d0ac36cca04a086d42/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

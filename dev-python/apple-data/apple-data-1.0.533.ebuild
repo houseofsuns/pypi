@@ -15,8 +15,8 @@ DESCRIPTION="Static data from https://docs.hackdiffe.rent"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e3/75/1d1d0278d5f4dcdc94ab8246330f6c31334cafe06dd95281f8d6f1e47cf1/apple_data-${REALVERSION}.tar.gz"
-SOURCEFILE="apple_data-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e3/75/1d1d0278d5f4dcdc94ab8246330f6c31334cafe06dd95281f8d6f1e47cf1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

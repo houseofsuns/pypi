@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Nanocal## 1. Install MCC Universal Library for Linux (uldaq)**Author:** Measurement ComputingThe **uldaq** package contains programming libraries and components for developing applications using C/C++ on Linux and macOS Operating Systems. For more information please refer to [mccdaq github](https://github.com/mccdaq/uldaq)## 2. Install the Python interfaceInstall the uldaq Python API with:   ```   $ pip install uldaq ```Refer to https://pypi.org/project/uldaq/ for more detailes.  **Note:** sometimes one needs to change date on raspberry pi: ```   $ sudo date -s &quot;YYYY-MM-DD HH:MM:SS&quot; ```## 3. For developersRefer to the UL documentation:https://www.mccdaq.com/PDFs/Manuals/UL-Linux/python/index.htmlpython -m buildpip install -e .</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="Latex specific features for jupyter book"
 
 HOMEPAGE="https://executablebooks.org/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/5f/1b/ec6ed7ddbca3c94991d475133fc617de7b6fa2708b6ab665c5cec002c3f5/jupyterbook_latex-${REALVERSION}.tar.gz"
-SOURCEFILE="jupyterbook_latex-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5f/1b/ec6ed7ddbca3c94991d475133fc617de7b6fa2708b6ab665c5cec002c3f5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

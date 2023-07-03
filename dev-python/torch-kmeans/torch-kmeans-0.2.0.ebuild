@@ -15,8 +15,8 @@ DESCRIPTION="PyTorch implementations of KMeans, Soft-KMeans and Constrained-KMea
 
 HOMEPAGE="https://github.com/jokofa/torch_kmeans"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/40/53/025447c9c725f2f83d194606ee8c6867a71975d7e393697956e2907521a9/torch_kmeans-${REALVERSION}.tar.gz"
-SOURCEFILE="torch_kmeans-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/40/53/025447c9c725f2f83d194606ee8c6867a71975d7e393697956e2907521a9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

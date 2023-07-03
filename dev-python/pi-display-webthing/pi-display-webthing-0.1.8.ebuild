@@ -15,8 +15,8 @@ DESCRIPTION="A web connected LCD display module"
 
 HOMEPAGE="https://github.com/grro/pi_display_webthing"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bd/33/d412fa64e39cd566d13bd2b5bf934a553de31aa532052b15c3f667b83196/pi_display_webthing-${REALVERSION}.tar.gz"
-SOURCEFILE="pi_display_webthing-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bd/33/d412fa64e39cd566d13bd2b5bf934a553de31aa532052b15c3f667b83196/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Monitor, kill, and analyze Postgres queries."
 
 HOMEPAGE="https://github.com/Opus10/django-pgactivity"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/47/8e/2fd3a759aeb003f8a7b21405fed6a77c45dce8dcac21eb8f3addfc752967/django_pgactivity-${REALVERSION}.tar.gz"
-SOURCEFILE="django_pgactivity-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/47/8e/2fd3a759aeb003f8a7b21405fed6a77c45dce8dcac21eb8f3addfc752967/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

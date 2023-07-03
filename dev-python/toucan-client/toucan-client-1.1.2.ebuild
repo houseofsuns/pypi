@@ -15,8 +15,8 @@ DESCRIPTION="Toucan API client"
 
 HOMEPAGE="https://github.com/ToucanToco/toucan-client"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/15/9d/7555bbf6b291d52484cd8b17077a1fd4705c307158b932006be115b59fb4/toucan_client-${REALVERSION}.tar.gz"
-SOURCEFILE="toucan_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/15/9d/7555bbf6b291d52484cd8b17077a1fd4705c307158b932006be115b59fb4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

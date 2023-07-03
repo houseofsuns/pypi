@@ -15,8 +15,8 @@ DESCRIPTION="Poetry plugin to run commands through aliases"
 
 HOMEPAGE="https://github.com/rocshers/poetry-alias-plugin"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/53/72/1ecc3b82ec8eeea09cf9b59632b74552da566d661bcbdec45817026008c6/poetry_aliases_plugin-${REALVERSION}.tar.gz"
-SOURCEFILE="poetry_aliases_plugin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/53/72/1ecc3b82ec8eeea09cf9b59632b74552da566d661bcbdec45817026008c6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

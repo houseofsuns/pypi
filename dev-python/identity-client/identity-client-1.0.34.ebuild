@@ -15,8 +15,8 @@ DESCRIPTION="A middleware and a set of handlers to handle Code Grant authenticat
 
 HOMEPAGE="https://github.com/hatch-studio/identity-client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ad/52/971a73f52c01aab0dd27b25f8040220a011b6cd42ad48190e6146dad13da/identity_client-${REALVERSION}.tar.gz"
-SOURCEFILE="identity_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ad/52/971a73f52c01aab0dd27b25f8040220a011b6cd42ad48190e6146dad13da/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

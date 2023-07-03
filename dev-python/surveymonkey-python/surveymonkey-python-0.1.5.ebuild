@@ -15,8 +15,8 @@ DESCRIPTION="API wrapper for SurveyMonkey written in Python"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/74/f0/a312ab5a5f18d3f191f7b6cc10b076a94ba79e08956db9236c634fe7de5b/surveymonkey_python-${REALVERSION}.tar.gz"
-SOURCEFILE="surveymonkey_python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/74/f0/a312ab5a5f18d3f191f7b6cc10b076a94ba79e08956db9236c634fe7de5b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

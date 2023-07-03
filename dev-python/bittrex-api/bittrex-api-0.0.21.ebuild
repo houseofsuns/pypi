@@ -15,8 +15,8 @@ DESCRIPTION="bittrex_api"
 
 HOMEPAGE="https://github.com/kkristof200/py_bittrex_api"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/86/d3/9555c771e5d34e8d99ab60d6cfe3bec152d3ed5ce9b1002e350a7fadabb8/bittrex_api-${REALVERSION}.tar.gz"
-SOURCEFILE="bittrex_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/86/d3/9555c771e5d34e8d99ab60d6cfe3bec152d3ed5ce9b1002e350a7fadabb8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

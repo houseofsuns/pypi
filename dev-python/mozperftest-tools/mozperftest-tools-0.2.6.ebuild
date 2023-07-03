@@ -15,8 +15,8 @@ DESCRIPTION="This repository is a collection of various tools that are useful fo
 
 HOMEPAGE="https://github.com/mozilla/mozperftest-tools"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3f/1d/6c1d6e7828e1043a6b377c193d6f506f127e021843f6b999f39cf426feee/mozperftest_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="mozperftest_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3f/1d/6c1d6e7828e1043a6b377c193d6f506f127e021843f6b999f39cf426feee/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

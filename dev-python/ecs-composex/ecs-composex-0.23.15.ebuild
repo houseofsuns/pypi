@@ -15,8 +15,8 @@ DESCRIPTION="Manage, Configure and Deploy your services and AWS services and app
 
 HOMEPAGE=""
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/43/26/ebcbf28659a7cc829df6b82ea82ec683347b4bf30dfe2f7f81efa3f05a43/ecs_composex-${REALVERSION}.tar.gz"
-SOURCEFILE="ecs_composex-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/43/26/ebcbf28659a7cc829df6b82ea82ec683347b4bf30dfe2f7f81efa3f05a43/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

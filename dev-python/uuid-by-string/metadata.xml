@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># uuid-by-stringGenerate the RFC-4122 Name-Based UUID. Supports 3 (md5) and 5(sha1) versions of UUID. Referenced from [danakt/uuid-by-string: Generates the RFC-4122 Name-Based UUID](https://github.com/danakt/uuid-by-string).## Install```bash$ pip install uuid-by-string```## Usage```pythonfrom uuid_by_string import generate_uuiduuid = generate_uuid(&quot;a string&quot;)# 555d01e6-c832-56b3-a9f9-2bd811905370uuid_v3 = generate_uuid(&quot;❤️&quot;, version=3)# 080c1417-9a0e-3386-a131-a7fa8dbe2c51uuid_v5 = generate_uuid(&quot;❤️&quot;, 5)# f11c13f0-5595-551d-bdee-e6c2e43fd2a9```</longdescription>
+</pkgmetadata>

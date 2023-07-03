@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/0f/2d/d6c3b36ae244694b7dee8c179e87e547170b28c1d426e8ee1a74d7281b2f/netbox_lists-${REALVERSION}.tar.gz"
-SOURCEFILE="netbox_lists-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0f/2d/d6c3b36ae244694b7dee8c179e87e547170b28c1d426e8ee1a74d7281b2f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

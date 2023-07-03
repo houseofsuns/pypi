@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/63/a0/5915b363048bb6cad23c49dc0e1b27d6bd77ccdbc5f9c3e1af9778c63886/dummy_kinematics-${REALVERSION}.tar.gz"
-SOURCEFILE="dummy_kinematics-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/63/a0/5915b363048bb6cad23c49dc0e1b27d6bd77ccdbc5f9c3e1af9778c63886/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

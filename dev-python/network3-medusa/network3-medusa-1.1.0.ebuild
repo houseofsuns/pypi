@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f4/59/4d0d5c61764a59f3013b06923874fe2110e68fe6ca5dd5edd8240cc15fab/network3_medusa-${REALVERSION}.tar.gz"
-SOURCEFILE="network3_medusa-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f4/59/4d0d5c61764a59f3013b06923874fe2110e68fe6ca5dd5edd8240cc15fab/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

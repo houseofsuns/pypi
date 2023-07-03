@@ -15,8 +15,8 @@ DESCRIPTION="Python sync/async framework for Interactive Brokers API"
 
 HOMEPAGE="https://github.com/erdewit/ib_insync"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/55/bb/733d5c81c8c2f54e90898afc7ff3a99f4d53619e6917c848833f9cc1ab56/ib_insync-${REALVERSION}.tar.gz"
-SOURCEFILE="ib_insync-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/55/bb/733d5c81c8c2f54e90898afc7ff3a99f4d53619e6917c848833f9cc1ab56/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="the Chinese version of CLIP."
 
 HOMEPAGE="https://github.com/OFA-Sys/Chinese-CLIP"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b4/ca/f3e8ac3f71aa0f5ae75f8d54d258dbdc811e556f40516ba1f87e8abc97a8/cn_clip-${REALVERSION}.tar.gz"
-SOURCEFILE="cn_clip-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b4/ca/f3e8ac3f71aa0f5ae75f8d54d258dbdc811e556f40516ba1f87e8abc97a8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

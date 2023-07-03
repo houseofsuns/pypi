@@ -15,8 +15,8 @@ DESCRIPTION="Common functions for applications"
 
 HOMEPAGE="https://github.com/devsetgo/dev_com_lib"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/09/40/aa9f803590adb11df021b0e12aca93e38ab716c82c95d9e2215ca2200ba1/devsetgo_lib-${REALVERSION}.tar.gz"
-SOURCEFILE="devsetgo_lib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/09/40/aa9f803590adb11df021b0e12aca93e38ab716c82c95d9e2215ca2200ba1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

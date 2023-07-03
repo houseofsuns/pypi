@@ -15,8 +15,8 @@ DESCRIPTION="Client package for melon-translate."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e6/1f/8e0f561c3516d38c9830c5fe1a34bd219837a15c1aeea1a11077fb941404/melon_translate_client-${REALVERSION}.tar.gz"
-SOURCEFILE="melon_translate_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e6/1f/8e0f561c3516d38c9830c5fe1a34bd219837a15c1aeea1a11077fb941404/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

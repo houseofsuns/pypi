@@ -15,8 +15,8 @@ DESCRIPTION="Sphinx Domain for Modern CMake"
 
 HOMEPAGE="https://github.com/scikit-build/moderncmakedomain"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cc/68/2287c700e37887bb0f3b06a88e1d2a27f5bf522d3c4de18c5160935b5450/sphinxcontrib_moderncmakedomain-${REALVERSION}.tar.gz"
-SOURCEFILE="sphinxcontrib_moderncmakedomain-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cc/68/2287c700e37887bb0f3b06a88e1d2a27f5bf522d3c4de18c5160935b5450/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

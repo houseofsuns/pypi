@@ -15,8 +15,8 @@ DESCRIPTION="Addons to the XLED package for controling Twinkly LED lights"
 
 HOMEPAGE="https://github.com/Anders-Holst/xled_plus"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ab/f0/2fc165103c77990ed3a40d1e29c03ea270750ed55264ca8410a349a0e29d/xled_plus-${REALVERSION}.tar.gz"
-SOURCEFILE="xled_plus-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ab/f0/2fc165103c77990ed3a40d1e29c03ea270750ed55264ca8410a349a0e29d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

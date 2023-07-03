@@ -15,8 +15,8 @@ DESCRIPTION="Manages device lifecycles for platforms and software."
 
 HOMEPAGE="https://github.com/nautobot/nautobot-plugin-device-lifecycle-mgmt"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c4/ce/0e76188f3dbc8efb5e2251a73600b6edae0e9dfb760b718e958e72cba909/nautobot_device_lifecycle_mgmt-${REALVERSION}.tar.gz"
-SOURCEFILE="nautobot_device_lifecycle_mgmt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c4/ce/0e76188f3dbc8efb5e2251a73600b6edae0e9dfb760b718e958e72cba909/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

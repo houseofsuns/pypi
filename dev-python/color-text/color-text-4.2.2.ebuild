@@ -15,8 +15,8 @@ DESCRIPTION="A library for printing colored text, getting colored input, changin
 
 HOMEPAGE="https://github.com/ChongChong-qyx/color-text"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f5/b6/a68741a2bc0f6403c31387efbf8177e1b65c3bb3b8e8a0718266386bcba2/color_text-${REALVERSION}.tar.gz"
-SOURCEFILE="color_text-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f5/b6/a68741a2bc0f6403c31387efbf8177e1b65c3bb3b8e8a0718266386bcba2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

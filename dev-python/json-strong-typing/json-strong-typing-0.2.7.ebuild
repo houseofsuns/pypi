@@ -15,8 +15,8 @@ DESCRIPTION="Type-safe data interchange for Python data classes"
 
 HOMEPAGE="https://github.com/hunyadi/strong_typing"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/20/bb/648193e34c8789c20878df66ae3869f5cc4ad462f92c9a2e11a9c8be9f73/json_strong_typing-${REALVERSION}.tar.gz"
-SOURCEFILE="json_strong_typing-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/20/bb/648193e34c8789c20878df66ae3869f5cc4ad462f92c9a2e11a9c8be9f73/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

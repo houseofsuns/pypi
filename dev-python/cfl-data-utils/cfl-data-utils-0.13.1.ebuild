@@ -15,8 +15,8 @@ DESCRIPTION="Utilities for the Data and Analytics team at Chetwood Financial"
 
 HOMEPAGE="https://github.com/chetwoodfinancial/data-utilities"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b9/e5/10aacb6b7dcf9f874a6c47902f7bf21ff3d8e5ebba0ca38b66c6a72a32cd/cfl_data_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="cfl_data_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b9/e5/10aacb6b7dcf9f874a6c47902f7bf21ff3d8e5ebba0ca38b66c6a72a32cd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

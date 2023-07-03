@@ -15,8 +15,8 @@ DESCRIPTION="ISIS Autoreduce"
 
 HOMEPAGE="https://github.com/ISISScientificComputing/autoreduce-db/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ab/67/4866aa659978119326df770d264cc5b3df0ecb1bbff5868e101f2f5ce59d/autoreduce_db-${REALVERSION}.tar.gz"
-SOURCEFILE="autoreduce_db-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ab/67/4866aa659978119326df770d264cc5b3df0ecb1bbff5868e101f2f5ce59d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Eva: Community Discovery for labeled graphs"
 
 HOMEPAGE="https://github.com/GiulioRossetti/eva"
 LICENSE="BSD-Clause-2"
-SRC_URI="https://files.pythonhosted.org/packages/86/5c/5f73dd22f24adaf6e80ffbe45d29496e83cc13d0351569f79946e63ca204/eva_lcd-${REALVERSION}.tar.gz"
-SOURCEFILE="eva_lcd-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/86/5c/5f73dd22f24adaf6e80ffbe45d29496e83cc13d0351569f79946e63ca204/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

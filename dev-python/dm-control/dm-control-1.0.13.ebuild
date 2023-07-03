@@ -15,8 +15,8 @@ DESCRIPTION="Continuous control environments and MuJoCo Python bindings."
 
 HOMEPAGE="https://github.com/deepmind/dm_control"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/26/74/9e6270c7a4a81469adbdd8bdc5e5a2c93d49459c71be97a4e4a2abf6d535/dm_control-${REALVERSION}.tar.gz"
-SOURCEFILE="dm_control-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/26/74/9e6270c7a4a81469adbdd8bdc5e5a2c93d49459c71be97a4e4a2abf6d535/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

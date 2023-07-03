@@ -15,8 +15,8 @@ DESCRIPTION="A plugin to visualize, deskew, and combine Snouty data."
 
 HOMEPAGE="https://github.com/aelefebv/snouty-viewer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d0/32/b943875bc527118b059912cbaee7d28b87082125c666bab5064ae3978bde/snouty_viewer-${REALVERSION}.tar.gz"
-SOURCEFILE="snouty_viewer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d0/32/b943875bc527118b059912cbaee7d28b87082125c666bab5064ae3978bde/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

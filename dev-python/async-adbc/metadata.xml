@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ADBCADBC是ADB Client的纯python异步实现，ADBC直接跟ADB Server通信不需要靠进程调用命令行来执行ADB命令。有以下特性：1. 支持async/await和同步调用2. 封装了一些性能测试有用的接口，供性能采集工具使用## 参考1. adb协议 https://github.com/kaluluosi/adbDocumentation/blob/master/README.zh-cn.md2. ppadb https://github.com/Swind/pure-python-adb</longdescription>
+</pkgmetadata>

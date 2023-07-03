@@ -15,8 +15,8 @@ DESCRIPTION="pytest-aiomoto"
 
 HOMEPAGE="https://github.com/dazza-codes/pytest-aiomoto"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/85/ed/282bf22db2eb68e02aaeb663dc6d8f21838dc0206ed03c96267af86b687b/pytest_aiomoto-${REALVERSION}.tar.gz"
-SOURCEFILE="pytest_aiomoto-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/85/ed/282bf22db2eb68e02aaeb663dc6d8f21838dc0206ed03c96267af86b687b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

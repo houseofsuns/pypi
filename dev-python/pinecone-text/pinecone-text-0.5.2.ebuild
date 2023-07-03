@@ -15,8 +15,8 @@ DESCRIPTION="Text utilities library by Pinecone.io"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/86/8f/3aaf254d5872cbbded5f4ac651be02458732eb47e6f20236751e520d68f1/pinecone_text-${REALVERSION}.tar.gz"
-SOURCEFILE="pinecone_text-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/86/8f/3aaf254d5872cbbded5f4ac651be02458732eb47e6f20236751e520d68f1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

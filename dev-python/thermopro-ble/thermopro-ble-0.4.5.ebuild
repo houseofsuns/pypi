@@ -15,8 +15,8 @@ DESCRIPTION="Thermopro BLE Sensors"
 
 HOMEPAGE="https://github.com/bluetooth-devices/thermopro-ble"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/65/94/52b2e1a8b5b9ae6bcae002d7fcf41e962212fe29eec4559989ef00e5ae00/thermopro_ble-${REALVERSION}.tar.gz"
-SOURCEFILE="thermopro_ble-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/65/94/52b2e1a8b5b9ae6bcae002d7fcf41e962212fe29eec4559989ef00e5ae00/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

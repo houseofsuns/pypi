@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/skaughtx0r/pip-login"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5e/d8/df62ecd353f538b1f626d447aaae2c3bd7b961d5a927ef699a0e90260e1f/pip_login-${REALVERSION}.tar.gz"
-SOURCEFILE="pip_login-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5e/d8/df62ecd353f538b1f626d447aaae2c3bd7b961d5a927ef699a0e90260e1f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

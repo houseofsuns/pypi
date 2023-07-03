@@ -15,8 +15,8 @@ DESCRIPTION="Package for post-processing of results obtained with the Beagle SED
 
 HOMEPAGE="https://github.com/jacopo-chevallard/PyP-BEAGLE"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b4/9d/2ecd002af74ad0def5e65765437f89db99b127e974a6cffbfa77335657c4/pyp_beagle-${REALVERSION}.tar.gz"
-SOURCEFILE="pyp_beagle-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b4/9d/2ecd002af74ad0def5e65765437f89db99b127e974a6cffbfa77335657c4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

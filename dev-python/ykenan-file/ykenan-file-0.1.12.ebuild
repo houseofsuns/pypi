@@ -15,8 +15,8 @@ DESCRIPTION="File read and write operations"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/49/19/8a164107755f0db999659a05746df44f37ed94ab305b7467cbf1a29d2fa9/ykenan_file-${REALVERSION}.tar.gz"
-SOURCEFILE="ykenan_file-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/49/19/8a164107755f0db999659a05746df44f37ed94ab305b7467cbf1a29d2fa9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

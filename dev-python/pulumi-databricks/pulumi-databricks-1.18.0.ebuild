@@ -15,8 +15,8 @@ DESCRIPTION="A Pulumi package for creating and managing databricks cloud resourc
 
 HOMEPAGE="https://www.pulumi.com"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b5/14/511020a7e1441f1322ea442e53c904324ce841a18b4f663eddc5838e1cb8/pulumi_databricks-${REALVERSION}.tar.gz"
-SOURCEFILE="pulumi_databricks-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b5/14/511020a7e1441f1322ea442e53c904324ce841a18b4f663eddc5838e1cb8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># SMQTK - Data Providers## IntentThis package builds on top of SMQTK-Core to provide data structures that areabstractions around data and where it is fundamentally stored.## DocumentationYou can build the sphinx documentation locally for the most up-to-datereference:```bash# Install dependenciespoetry install# Navigate to the documentation root.cd docs# Build the docs.poetry run make html# Open in your favorite browser!firefox _build/html/index.html```</longdescription>
+</pkgmetadata>

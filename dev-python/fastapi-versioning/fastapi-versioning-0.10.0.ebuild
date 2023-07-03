@@ -15,8 +15,8 @@ DESCRIPTION="api versioning for fastapi web applications"
 
 HOMEPAGE="https://github.com/DeanWay/fastapi-versioning"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e0/d9/0e81a2680c960b84b3f5b8c434259ad5f7731737be27b5bee0cb6d7b796f/fastapi_versioning-${REALVERSION}.tar.gz"
-SOURCEFILE="fastapi_versioning-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e0/d9/0e81a2680c960b84b3f5b8c434259ad5f7731737be27b5bee0cb6d7b796f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Pangea API SDK"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5f/c7/d7f67c27ed3eb8ca4bf3e81a349c59576fb19c57583ca7fbb1a7df08ac50/pangea_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="pangea_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5f/c7/d7f67c27ed3eb8ca4bf3e81a349c59576fb19c57583ca7fbb1a7df08ac50/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

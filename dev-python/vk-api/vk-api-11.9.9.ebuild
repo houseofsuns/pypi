@@ -15,8 +15,8 @@ DESCRIPTION="Python модуль для создания скриптов для
 
 HOMEPAGE="https://github.com/python273/vk_api"
 LICENSE="Apache License, Version 2.0, see LICENSE file"
-SRC_URI="https://files.pythonhosted.org/packages/fc/6c/b696dcc8f10136f0c1afc98e37a267e46b63301e7f48ab5fc13065f0755f/vk_api-${REALVERSION}.tar.gz"
-SOURCEFILE="vk_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fc/6c/b696dcc8f10136f0c1afc98e37a267e46b63301e7f48ab5fc13065f0755f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

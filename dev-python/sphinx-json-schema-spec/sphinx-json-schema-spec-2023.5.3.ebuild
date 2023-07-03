@@ -15,8 +15,8 @@ DESCRIPTION="Sphinx support for the JSON Schema specifications"
 
 HOMEPAGE="https://github.com/python-jsonschema/sphinx-json-schema-spec"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ce/1d/2caee91c6e16c6f2a6a9d382ecc8d26a47567aa6c9773810fcc619c499c7/sphinx_json_schema_spec-${REALVERSION}.tar.gz"
-SOURCEFILE="sphinx_json_schema_spec-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ce/1d/2caee91c6e16c6f2a6a9d382ecc8d26a47567aa6c9773810fcc619c499c7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

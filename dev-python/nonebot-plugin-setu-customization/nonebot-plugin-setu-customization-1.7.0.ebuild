@@ -15,8 +15,8 @@ DESCRIPTION="Nonebot2 可动态管理API并带网页浏览的setu插件"
 
 HOMEPAGE="https://github.com/nikissXI/nonebot_plugins/tree/main/nonebot_plugin_setu_customization"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b5/1c/90f58e876212d17cd1f1cc34a368d2d57537653048a52ac34eddc58ca63d/nonebot_plugin_setu_customization-${REALVERSION}.tar.gz"
-SOURCEFILE="nonebot_plugin_setu_customization-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b5/1c/90f58e876212d17cd1f1cc34a368d2d57537653048a52ac34eddc58ca63d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

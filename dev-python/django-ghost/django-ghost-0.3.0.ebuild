@@ -15,8 +15,8 @@ DESCRIPTION="Django Ghost is a Django app to sync a Django model with Ghost CMS 
 
 HOMEPAGE="http://github.com/bitsy-ai/django-ghost"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/4b/41/ffd139db87988bb039b988a4c0f800bde5fb5ac089f38b61c09441789878/django_ghost-${REALVERSION}.tar.gz"
-SOURCEFILE="django_ghost-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4b/41/ffd139db87988bb039b988a4c0f800bde5fb5ac089f38b61c09441789878/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

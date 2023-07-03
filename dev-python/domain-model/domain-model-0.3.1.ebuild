@@ -15,8 +15,8 @@ DESCRIPTION="Persisting objects."
 
 HOMEPAGE="https://github.com/CuriBio/domain-model"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b0/cd/1dc595c7624bb4579a0df2ac87ce39f7f8ba9098661d0d23970d0927e344/domain_model-${REALVERSION}.tar.gz"
-SOURCEFILE="domain_model-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b0/cd/1dc595c7624bb4579a0df2ac87ce39f7f8ba9098661d0d23970d0927e344/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

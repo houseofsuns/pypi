@@ -15,8 +15,8 @@ DESCRIPTION="Groestlcoin hash algorithm."
 
 HOMEPAGE="https://github.com/Groestlcoin/groestlcoin-hash-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b0/57/82f0544a41a24292d2b8a291f09ac468862ddfa964e46a346fefaffe70ff/groestlcoin_hash-${REALVERSION}.tar.gz"
-SOURCEFILE="groestlcoin_hash-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b0/57/82f0544a41a24292d2b8a291f09ac468862ddfa964e46a346fefaffe70ff/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

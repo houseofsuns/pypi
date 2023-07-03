@@ -15,8 +15,8 @@ DESCRIPTION="Utilities and helpers for writing Pylint plugins"
 
 HOMEPAGE="https://github.com/PyCQA/pylint-plugin-utils"
 LICENSE="GPL-2+"
-SRC_URI="https://files.pythonhosted.org/packages/4b/d2/3b9728910bc69232ec38d8fb7053c03c887bfe7e6e170649b683dd351750/pylint_plugin_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="pylint_plugin_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4b/d2/3b9728910bc69232ec38d8fb7053c03c887bfe7e6e170649b683dd351750/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

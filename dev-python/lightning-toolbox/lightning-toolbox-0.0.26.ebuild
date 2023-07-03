@@ -15,8 +15,8 @@ DESCRIPTION="A collection of utilities for PyTorch Lightning."
 
 HOMEPAGE="https://github.com/vahidzee/lightning-toolbox"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/53/d2/546f0660152427d152f1b32535d61fe3629656c7589e80164d4fe39a84d7/lightning_toolbox-${REALVERSION}.tar.gz"
-SOURCEFILE="lightning_toolbox-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/53/d2/546f0660152427d152f1b32535d61fe3629656c7589e80164d4fe39a84d7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="RISC-V CTG"
 
 HOMEPAGE="https://github.com/riscv/riscv-ctg"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/21/28/51f0b00cadcc5fccfa98e53e34b1d81979c973216f719238855995383a31/riscv_ctg-${REALVERSION}.tar.gz"
-SOURCEFILE="riscv_ctg-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/21/28/51f0b00cadcc5fccfa98e53e34b1d81979c973216f719238855995383a31/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

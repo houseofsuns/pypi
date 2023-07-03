@@ -15,8 +15,8 @@ DESCRIPTION="A Pulumi package for creating and managing nomad cloud resources."
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d2/87/0b5a2d5bc8cca614534684637a5f1851ca4a8a3ab2e975882ce2bddf8659/pulumi_nomad-${REALVERSION}.tar.gz"
-SOURCEFILE="pulumi_nomad-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d2/87/0b5a2d5bc8cca614534684637a5f1851ca4a8a3ab2e975882ce2bddf8659/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

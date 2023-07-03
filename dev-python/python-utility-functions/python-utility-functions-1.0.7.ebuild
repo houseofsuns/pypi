@@ -15,8 +15,8 @@ DESCRIPTION="Utility funtions in python"
 
 HOMEPAGE="https://github.com/daniel-men/python_utility_functions"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b8/e2/5ded4a80b39adfca6ed2816ca79725045ea21365fc11e9838ec8bbb8b6da/python_utility_functions-${REALVERSION}.tar.gz"
-SOURCEFILE="python_utility_functions-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b8/e2/5ded4a80b39adfca6ed2816ca79725045ea21365fc11e9838ec8bbb8b6da/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

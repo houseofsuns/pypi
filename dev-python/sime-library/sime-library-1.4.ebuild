@@ -15,8 +15,8 @@ DESCRIPTION="Library"
 
 HOMEPAGE="https://dmitros-organization.gitbook.io/sime_library/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1d/36/31c8d23c42310920de9ae48d9796bdb24e0abc25c7cb8562cba25b8b3698/sime_library-${REALVERSION}.tar.gz"
-SOURCEFILE="sime_library-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1d/36/31c8d23c42310920de9ae48d9796bdb24e0abc25c7cb8562cba25b8b3698/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

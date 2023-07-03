@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module for commission waiting"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/f3/3c/10739e39aa44f7fcc91edacecd09b10be5ffae9be66e51be0c3764ddda98/trytond_commission_waiting-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_commission_waiting-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f3/3c/10739e39aa44f7fcc91edacecd09b10be5ffae9be66e51be0c3764ddda98/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Result object"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f3/41/bdc67f7a35fa4e8df55fd5846bddfb3649abced9a7e51a2ef823cc91e4d7/polywrap_result-${REALVERSION}.tar.gz"
-SOURCEFILE="polywrap_result-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f3/41/bdc67f7a35fa4e8df55fd5846bddfb3649abced9a7e51a2ef823cc91e4d7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

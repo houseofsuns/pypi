@@ -15,8 +15,8 @@ DESCRIPTION="Fuzzy matching in pandas using csvmatch"
 
 HOMEPAGE="http://github.com/jsoma/fuzzy_pandas"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/37/1c/e0e1ea616ff1d09a33b53915258dd5e4cf586aed6237358e3312a5c90be6/fuzzy_pandas-${REALVERSION}.tar.gz"
-SOURCEFILE="fuzzy_pandas-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/37/1c/e0e1ea616ff1d09a33b53915258dd5e4cf586aed6237358e3312a5c90be6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Generated protobuf stubs for Google Home Foyer API"
 
 HOMEPAGE="https://github.com/KapJI/ghome-foyer-api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e5/46/c866e3db2cbe14b2479ac57b03cce0aaebcc8a7a2e1835761fbae71d4466/ghome_foyer_api-${REALVERSION}.tar.gz"
-SOURCEFILE="ghome_foyer_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e5/46/c866e3db2cbe14b2479ac57b03cce0aaebcc8a7a2e1835761fbae71d4466/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

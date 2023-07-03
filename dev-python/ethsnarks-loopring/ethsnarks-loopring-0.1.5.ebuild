@@ -15,8 +15,8 @@ DESCRIPTION="A toolkit for zkSNARKS signing specific to loopring"
 
 HOMEPAGE="https://github.com/Linq-Liquidity-Network/ethsnarks-loopring"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d8/0c/3d7ad467ba8111f86b13501a176b22106eeaa376e7cb34345d16f429b9f7/ethsnarks_loopring-${REALVERSION}.tar.gz"
-SOURCEFILE="ethsnarks_loopring-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d8/0c/3d7ad467ba8111f86b13501a176b22106eeaa376e7cb34345d16f429b9f7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="ASDF WCS Schemas"
 
 HOMEPAGE="https://github.com/spacetelescope/asdf-wcs-schemas"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/b8/8a/04ac71bad96a221aaca30a8958ee73491478e55faaf99f20771948197ca0/asdf_wcs_schemas-${REALVERSION}.tar.gz"
-SOURCEFILE="asdf_wcs_schemas-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b8/8a/04ac71bad96a221aaca30a8958ee73491478e55faaf99f20771948197ca0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

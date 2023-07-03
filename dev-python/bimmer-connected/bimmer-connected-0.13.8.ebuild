@@ -15,8 +15,8 @@ DESCRIPTION="Library to read data from the BMW Connected Drive portal"
 
 HOMEPAGE="https://github.com/bimmerconnected/bimmer_connected"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ea/c0/9b788c087a011b53f949d0769887eeae3b3b264eaf9b35c61a51366d0f2a/bimmer_connected-${REALVERSION}.tar.gz"
-SOURCEFILE="bimmer_connected-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ea/c0/9b788c087a011b53f949d0769887eeae3b3b264eaf9b35c61a51366d0f2a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

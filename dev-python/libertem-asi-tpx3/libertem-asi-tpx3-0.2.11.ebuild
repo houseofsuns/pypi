@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/21/96/28a2f115c8b0a32a949f3b423fb4d6f516150ddea358cecc8d6714779c04/libertem_asi_tpx3-${REALVERSION}.tar.gz"
-SOURCEFILE="libertem_asi_tpx3-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/21/96/28a2f115c8b0a32a949f3b423fb4d6f516150ddea358cecc8d6714779c04/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

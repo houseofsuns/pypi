@@ -15,8 +15,8 @@ DESCRIPTION="pytube 9.5.1 but async"
 
 HOMEPAGE="https://github.com/Andrebcd4/async_pytube"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/51/89/6355d0c554f5879bb1d6ca3770f4e0703480ca7f46710f8498201a85f11f/async_pytube-${REALVERSION}.tar.gz"
-SOURCEFILE="async_pytube-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/51/89/6355d0c554f5879bb1d6ca3770f4e0703480ca7f46710f8498201a85f11f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

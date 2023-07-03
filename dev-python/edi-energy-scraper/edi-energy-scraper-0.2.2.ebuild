@@ -15,8 +15,8 @@ DESCRIPTION="a scraper to mirror edi-energy.de"
 
 HOMEPAGE="https://github.com/Hochfrequenz/edi_energy_scraper"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ad/21/d8e13e2aef0a90cb96d25e12f781e36a6925baa494b654505d00736cd2c3/edi_energy_scraper-${REALVERSION}.tar.gz"
-SOURCEFILE="edi_energy_scraper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ad/21/d8e13e2aef0a90cb96d25e12f781e36a6925baa494b654505d00736cd2c3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

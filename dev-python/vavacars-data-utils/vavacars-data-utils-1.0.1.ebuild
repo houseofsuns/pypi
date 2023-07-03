@@ -15,8 +15,8 @@ DESCRIPTION="Package with utils"
 
 HOMEPAGE="https://dev.azure.com/vavacars/DataScience/_git/Data.Utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/59/f6/0f2cb983b5abce492295ace4c0f264e4224b6bcdc5746cc692e46f7abae8/vavacars_data_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="vavacars_data_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/59/f6/0f2cb983b5abce492295ace4c0f264e4224b6bcdc5746cc692e46f7abae8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

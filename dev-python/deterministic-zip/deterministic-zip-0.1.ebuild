@@ -15,8 +15,8 @@ DESCRIPTION="A program to create deterministic zip files."
 
 HOMEPAGE="https://github.com/bboe/deterministic_zip"
 LICENSE="Simplified BSD License"
-SRC_URI="https://files.pythonhosted.org/packages/04/5a/297b8b79061e9ac3b1c23cc238c78c89bca8b07379864d37ef172fa182de/deterministic_zip-${REALVERSION}.tar.gz"
-SOURCEFILE="deterministic_zip-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/04/5a/297b8b79061e9ac3b1c23cc238c78c89bca8b07379864d37ef172fa182de/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

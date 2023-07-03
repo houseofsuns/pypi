@@ -15,8 +15,8 @@ DESCRIPTION="PyTorch library for computing moving averages of model parameters."
 
 HOMEPAGE="https://github.com/fadel/pytorch_ema"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/45/af/db7d0c8b26a13062d9b85bdcf8d977acd8a51057fb6edca9eb30613ef5ef/torch_ema-${REALVERSION}.tar.gz"
-SOURCEFILE="torch_ema-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/45/af/db7d0c8b26a13062d9b85bdcf8d977acd8a51057fb6edca9eb30613ef5ef/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

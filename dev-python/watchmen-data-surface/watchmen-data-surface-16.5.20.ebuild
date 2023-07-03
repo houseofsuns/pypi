@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/21/c8/ba0c97ecce1057ded1f6896974de8a874378e8a8fdc492e9b053dbc8faf3/watchmen_data_surface-${REALVERSION}.tar.gz"
-SOURCEFILE="watchmen_data_surface-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/21/c8/ba0c97ecce1057ded1f6896974de8a874378e8a8fdc492e9b053dbc8faf3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

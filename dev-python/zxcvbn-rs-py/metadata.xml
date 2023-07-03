@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># zxcvbn-rs-py&lt;p align=&quot;center&quot;&gt;    &lt;em&gt;Python bindings for &lt;a href=&quot;https://github.com/shssoichiro/zxcvbn-rs&quot;&gt;zxcvbn-rs&lt;/a&gt;, the Rust implementation of zxcvbn&lt;/em&gt;&lt;/p&gt;[![build](https://github.com/fief-dev/zxcvbn-rs-py/workflows/CI/badge.svg)](https://github.com/fief-dev/zxcvbn-rs-py/actions)[![PyPI version](https://badge.fury.io/py/zxcvbn-rs-py.svg)](https://badge.fury.io/py/zxcvbn-rs-py)---**Documentation**: &lt;a href=&quot;https://fief-dev.github.io/zxcvbn-rs-py/&quot; target=&quot;_blank&quot;&gt;https://fief-dev.github.io/zxcvbn-rs-py/&lt;/a&gt;**Source Code**: &lt;a href=&quot;https://github.com/fief-dev/zxcvbn-rs-py&quot; target=&quot;_blank&quot;&gt;https://github.com/fief-dev/zxcvbn-rs-py&lt;/a&gt;---## Installation```shpip install zxcvbn-rs-py```## Quickstart```pyfrom zxcvbn_rs_py import zxcvbnr = zxcvbn(&quot;correcthorsebatterystaple&quot;)print(r.score)```## BenchmarkThanks to its Rust core, zxcvbn-rs-py is **~5 times faster** than the pure Python implementation, [zxcvbn-python](https://github.com/dwolfhub/zxcvbn-python).![zxcvbn-rs-py benchmark](https://raw.githubusercontent.com/fief-dev/zxcvbn-rs-py/main/benchmark/benchmark.svg?sanitize=true)## Serve the documentationYou can serve the Mkdocs documentation with:```bashhatch run docs-serve```It'll automatically watch for changes in your code.## LicenseThis project is licensed under the terms of the MIT license.</longdescription>
+</pkgmetadata>

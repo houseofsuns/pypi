@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>The Open API Diff Tool - &quot;impoasdiff&quot; provides an essential solution for effectively managing and understanding API changes. It empowers developers and organizations to maintain API compatibility, streamline development processes, and ensure smooth transitions between API versions.# installationpip install impoasdiff# usageimpoasdiff &lt;source&gt; &lt;target&gt;# output(s)summary.htmlsummary.txt</longdescription>
+</pkgmetadata>

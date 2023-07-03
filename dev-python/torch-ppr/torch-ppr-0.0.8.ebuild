@@ -15,8 +15,8 @@ DESCRIPTION="(Personalized) Page-Rank computation using PyTorch"
 
 HOMEPAGE="https://github.com/mberr/torch-ppr"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/63/59/ec5bdce39629903b14ce9464bfcb06ec2f647d5d69b66abb15f6f5b3bb36/torch_ppr-${REALVERSION}.tar.gz"
-SOURCEFILE="torch_ppr-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/63/59/ec5bdce39629903b14ce9464bfcb06ec2f647d5d69b66abb15f6f5b3bb36/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

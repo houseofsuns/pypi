@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module to automate statement import with rules"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/6f/0a/31e431cce7050cade5ad81be1e5d4bb05193621fc6408715671cca22867f/trytond_account_statement_rule-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_account_statement_rule-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6f/0a/31e431cce7050cade5ad81be1e5d4bb05193621fc6408715671cca22867f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

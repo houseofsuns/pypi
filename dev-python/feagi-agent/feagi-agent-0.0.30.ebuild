@@ -15,8 +15,8 @@ DESCRIPTION="Feagi agent to work with general and simulation robots"
 
 HOMEPAGE="https://github.com/feagi/feagi"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/35/29/6f137a9235ddabaac72f7402445e2b27302c54ace9b7f2cdcafd4fa8535a/feagi_agent-${REALVERSION}.tar.gz"
-SOURCEFILE="feagi_agent-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/35/29/6f137a9235ddabaac72f7402445e2b27302c54ace9b7f2cdcafd4fa8535a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Python Hive Library"
 
 HOMEPAGE="https://hexway.io/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/67/16/2b55f3ef20ba1eeba4b1b350f683085dd81a6930f46df42dd4cdc67b37c9/hive_library-${REALVERSION}.tar.gz"
-SOURCEFILE="hive_library-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/67/16/2b55f3ef20ba1eeba4b1b350f683085dd81a6930f46df42dd4cdc67b37c9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

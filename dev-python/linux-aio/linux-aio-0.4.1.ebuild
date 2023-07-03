@@ -15,8 +15,8 @@ DESCRIPTION="Linux aio ABI wrapper"
 
 HOMEPAGE="https://github.com/isac322/linux_aio"
 LICENSE="LGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/0a/14/04041de341534654eb6d7475ab8b6c25e057f43e612e21f7134ac744ad42/linux_aio-${REALVERSION}.tar.gz"
-SOURCEFILE="linux_aio-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0a/14/04041de341534654eb6d7475ab8b6c25e057f43e612e21f7134ac744ad42/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

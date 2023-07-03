@@ -15,8 +15,8 @@ DESCRIPTION="tool for recording youtube streams"
 
 HOMEPAGE="https://github.com/gmankab/yt_stream_recorder"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d1/ba/49b497d04b50ae0d39d53ff19315b03f30805dc294e53624dd8aaaf60214/yt_stream_recorder-${REALVERSION}.tar.gz"
-SOURCEFILE="yt_stream_recorder-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d1/ba/49b497d04b50ae0d39d53ff19315b03f30805dc294e53624dd8aaaf60214/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="simple_multiprocessing"
 
 HOMEPAGE="https://github.com/kkristof200/py_simple_multiprocessing"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3d/d0/9ee1ce28bbf3e89ec082853f44b7539edbc3736ccf3f5ad87bf736657613/simple_multiprocessing-${REALVERSION}.tar.gz"
-SOURCEFILE="simple_multiprocessing-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3d/d0/9ee1ce28bbf3e89ec082853f44b7539edbc3736ccf3f5ad87bf736657613/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

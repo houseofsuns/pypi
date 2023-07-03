@@ -15,8 +15,8 @@ DESCRIPTION="Arknights Helper based on ADB and Python"
 
 HOMEPAGE="https://github.com/Konano/arknights-mower"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/df/7f/159f303955f88c7c2aca6469ec464f0b3e48894adf856762b8c465642a3e/arknights_mower-${REALVERSION}.tar.gz"
-SOURCEFILE="arknights_mower-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/df/7f/159f303955f88c7c2aca6469ec464f0b3e48894adf856762b8c465642a3e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

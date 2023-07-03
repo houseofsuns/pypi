@@ -15,8 +15,8 @@ DESCRIPTION="图床上传工具"
 
 HOMEPAGE="https://github.com/hujingnb/image_depot"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/04/4f/3cb9e3c5f915d092728f54affcee33d4e05bc5f97395e8d7c385e6ecc0ee/image_depot-${REALVERSION}.tar.gz"
-SOURCEFILE="image_depot-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/04/4f/3cb9e3c5f915d092728f54affcee33d4e05bc5f97395e8d7c385e6ecc0ee/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

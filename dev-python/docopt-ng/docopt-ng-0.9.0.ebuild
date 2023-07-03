@@ -15,8 +15,8 @@ DESCRIPTION="Jazzband-maintained fork of docopt, the humane command line argumen
 
 HOMEPAGE="https://github.com/jazzband/docopt-ng"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e4/50/8d6806cf13138127692ae6ff79ddeb4e25eb3b0bcc3c1bd033e7e04531a9/docopt_ng-${REALVERSION}.tar.gz"
-SOURCEFILE="docopt_ng-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e4/50/8d6806cf13138127692ae6ff79ddeb4e25eb3b0bcc3c1bd033e7e04531a9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

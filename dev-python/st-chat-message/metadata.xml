@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># st-chat-message## DescriptionThis is a simple chat message component for streamlit. It is based on the [streamlit-chat](https://github.com/AI-Yash/st-chat) component, trying to be as compatible as possible, but it adding a few features:- Markdown support- LaTeX support- Tables## Installation```bashpip install st-chat-message```or```bashpoetry add st-chat-message```## Usage```pythonimport streamlit as stfrom st_chat_message import messagemessage(&quot;Hello world!&quot;, is_user=True)message(&quot;Hi&quot;)```![img.png](docs/img.png)## Buiding from source### Prerequisites- nodejs &gt;= 18.x- yarn &gt;= 1.22.x- poetry &gt;= 1.2.x- python &gt;= 3.8.x### Building```bash./build.sh```### Publishing```bashpoetry publish ```## LicenseThis project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details</longdescription>
+</pkgmetadata>

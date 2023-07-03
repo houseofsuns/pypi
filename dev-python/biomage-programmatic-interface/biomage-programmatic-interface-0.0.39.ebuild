@@ -15,8 +15,8 @@ DESCRIPTION="For programmatic upload of files to Cellencis"
 
 HOMEPAGE="https://github.com/biomage-org/programmatic_interface"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/87/a5/f18315559cd34587b9e6a6eaf692893befa03781b521ae9e819bd1595d60/biomage_programmatic_interface-${REALVERSION}.tar.gz"
-SOURCEFILE="biomage_programmatic_interface-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/87/a5/f18315559cd34587b9e6a6eaf692893befa03781b521ae9e819bd1595d60/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

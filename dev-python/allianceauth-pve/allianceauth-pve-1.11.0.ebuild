@@ -15,8 +15,8 @@ DESCRIPTION="PvE tool for AllianceAuth"
 
 HOMEPAGE="https://github.com/Maestro-Zacht/allianceauth-pve"
 LICENSE="GNU General Public License v3"
-SRC_URI="https://files.pythonhosted.org/packages/f3/cf/6d83a0594daa957a928125607c7442e2c4910d6bd560d8cde294a929dd34/allianceauth_pve-${REALVERSION}.tar.gz"
-SOURCEFILE="allianceauth_pve-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f3/cf/6d83a0594daa957a928125607c7442e2c4910d6bd560d8cde294a929dd34/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

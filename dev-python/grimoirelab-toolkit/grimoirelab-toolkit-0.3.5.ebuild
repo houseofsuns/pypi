@@ -15,8 +15,8 @@ DESCRIPTION="Toolkit of common functions used across GrimoireLab"
 
 HOMEPAGE="https://chaoss.github.io/grimoirelab/"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/28/28/62206ec8114199ce9e151faf9f1fdf54d5e849c02a506f5bbb7984082776/grimoirelab_toolkit-${REALVERSION}.tar.gz"
-SOURCEFILE="grimoirelab_toolkit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/28/28/62206ec8114199ce9e151faf9f1fdf54d5e849c02a506f5bbb7984082776/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

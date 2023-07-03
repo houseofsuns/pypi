@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Settei======.. image:: https://readthedocs.org/projects/settei/badge/?version=latest   :target: https://settei.readthedocs.io/   :alt: Documentation Status.. image:: https://badge.fury.io/py/settei.svg   :target: https://badge.fury.io/py/settei.. image:: https://travis-ci.org/spoqa/settei.svg   :target: https://travis-ci.org/spoqa/setteiConfiguration utility for common Python applications and services.FYI, &quot;settei&quot; (設定) means settings in Japanese. :)Loading a configuration is easy-------------------------------Suppose you use `Flask`_ with Settei... code-block:: python   from flask import Flask   from settei import Configuration, config_property   class WebConfiguration(Configuration):      &quot;&quot;&quot;Load Configuration::         [web]         debug = true      &quot;&quot;&quot;      #: debug option      debug = config_property('web.debug', bool, default=False)   conf = WebConfiguration.from_path(pathlib.Path('.') / 'dev.toml')   app = Flask(__name__)   if __name__ == '__main__':       app.run(debug=conf.debug).. _Flask: http://flask.pocoo.org/</longdescription>
+</pkgmetadata>

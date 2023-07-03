@@ -15,8 +15,8 @@ DESCRIPTION="Mock data generation for pydantic based models and python dataclass
 
 HOMEPAGE="https://github.com/starlite-api/pydantic-factories"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/31/c1/73e688b29bee1d68604b45e8ce3ee410b4bd09ded23546e18263c1855c74/pydantic_factories-${REALVERSION}.tar.gz"
-SOURCEFILE="pydantic_factories-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/31/c1/73e688b29bee1d68604b45e8ce3ee410b4bd09ded23546e18263c1855c74/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

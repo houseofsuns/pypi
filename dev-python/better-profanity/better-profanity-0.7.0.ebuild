@@ -15,8 +15,8 @@ DESCRIPTION="Blazingly fast cleaning swear words (and their leetspeak) in string
 
 HOMEPAGE="https://github.com/snguyenthanh/better_profanity"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b5/4a/52966c1c883819f0b48540312a4a7f63b5c49f4e5b1a10838ae7f06ebb3c/better_profanity-${REALVERSION}.tar.gz"
-SOURCEFILE="better_profanity-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b5/4a/52966c1c883819f0b48540312a4a7f63b5c49f4e5b1a10838ae7f06ebb3c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

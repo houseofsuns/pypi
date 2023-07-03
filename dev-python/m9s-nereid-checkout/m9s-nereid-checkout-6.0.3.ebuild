@@ -15,8 +15,8 @@ DESCRIPTION="Tryton Nereid Checkout Module"
 
 HOMEPAGE="http://www.m9s.biz/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/6e/81/8014f74f4166a7c5640da96f0eca41641470059c929215e136de7f1a0288/m9s_nereid_checkout-${REALVERSION}.tar.gz"
-SOURCEFILE="m9s_nereid_checkout-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6e/81/8014f74f4166a7c5640da96f0eca41641470059c929215e136de7f1a0288/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

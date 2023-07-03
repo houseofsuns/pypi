@@ -15,8 +15,8 @@ DESCRIPTION="A small utility for simplifying and cleaning up argument parsing sc
 
 HOMEPAGE="https://github.com/lebrice/SimpleParsing"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a7/a0/1e80e6f22ffea2f85c3e4840dbc5728e293aa3e6f8213848a1ff578b083e/simple_parsing-${REALVERSION}.tar.gz"
-SOURCEFILE="simple_parsing-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a7/a0/1e80e6f22ffea2f85c3e4840dbc5728e293aa3e6f8213848a1ff578b083e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

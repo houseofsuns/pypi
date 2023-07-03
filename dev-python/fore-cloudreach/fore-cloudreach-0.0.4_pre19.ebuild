@@ -15,8 +15,8 @@ DESCRIPTION="package to ingest data in Google Sheets file for FinOps reporting"
 
 HOMEPAGE="https://github.com/cloudreach/finops-reporter/browse"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/08/48/a39a1299764466f981fad3f136d0b2ffc909f5d412c28dd6b43a7b2ed7f6/fore_cloudreach-${REALVERSION}.tar.gz"
-SOURCEFILE="fore_cloudreach-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/08/48/a39a1299764466f981fad3f136d0b2ffc909f5d412c28dd6b43a7b2ed7f6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

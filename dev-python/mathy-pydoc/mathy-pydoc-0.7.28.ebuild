@@ -15,8 +15,8 @@ DESCRIPTION="Minimal python API documentation generation for https://mathy.ai"
 
 HOMEPAGE="https://github.com/mathy/mathy_pydoc"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cb/73/b2f19174f1d61cb68f972a4b4c79c8e8ce9430bc758f1e269e9067b34de2/mathy_pydoc-${REALVERSION}.tar.gz"
-SOURCEFILE="mathy_pydoc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cb/73/b2f19174f1d61cb68f972a4b4c79c8e8ce9430bc758f1e269e9067b34de2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

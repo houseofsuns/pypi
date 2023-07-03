@@ -15,8 +15,8 @@ DESCRIPTION="Code useful for implementing chinilla consensus."
 
 HOMEPAGE="https://github.com/Chinilla/chinilla_rs/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/be/29/5b7d6e9a87baca866c630c5c121a5429e350c8d130f82f7f67b8126d3c7e/chinilla_rs-${REALVERSION}.tar.gz"
-SOURCEFILE="chinilla_rs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/be/29/5b7d6e9a87baca866c630c5c121a5429e350c8d130f82f7f67b8126d3c7e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

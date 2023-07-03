@@ -15,8 +15,8 @@ DESCRIPTION="Correlation module for pytorch"
 
 HOMEPAGE="https://github.com/ClementPinard/Pytorch-Correlation-extension"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d4/0d/5ae9dd5053a98a6d9e4554cbd8f83adb50f11ebeff1b262d4aea29fea55e/spatial_correlation_sampler-${REALVERSION}.tar.gz"
-SOURCEFILE="spatial_correlation_sampler-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d4/0d/5ae9dd5053a98a6d9e4554cbd8f83adb50f11ebeff1b262d4aea29fea55e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Python library for logging with colors and http status code."
 
 HOMEPAGE="https://github.com/frexco-digital/frexco-pylogger.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ce/c4/f7230c3d96a26e4d106c3c48d6d5b609b4313f76e4a7125d219c6d80e1b7/frexco_pylogger-${REALVERSION}.tar.gz"
-SOURCEFILE="frexco_pylogger-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ce/c4/f7230c3d96a26e4d106c3c48d6d5b609b4313f76e4a7125d219c6d80e1b7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

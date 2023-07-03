@@ -15,8 +15,8 @@ DESCRIPTION="Common utilities for Synapse, Sydent and Sygnal"
 
 HOMEPAGE="https://github.com/matrix-org/matrix-python-common"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b9/ca/a5e92bc5f01374fadc56e2249f876d70c6b60798c73d3d5c889709691b14/matrix_common-${REALVERSION}.tar.gz"
-SOURCEFILE="matrix_common-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b9/ca/a5e92bc5f01374fadc56e2249f876d70c6b60798c73d3d5c889709691b14/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/aporacloudmobile/exactonline_prefect_tasks"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/33/65/8656dbebfec1e05b3100fff7ecb1b9e1fe9a59126fc0513f45bd59a27f5b/exactonline_prefect_tasks-${REALVERSION}.tar.gz"
-SOURCEFILE="exactonline_prefect_tasks-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/33/65/8656dbebfec1e05b3100fff7ecb1b9e1fe9a59126fc0513f45bd59a27f5b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

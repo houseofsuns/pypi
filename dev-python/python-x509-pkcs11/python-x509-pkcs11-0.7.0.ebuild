@@ -15,8 +15,8 @@ DESCRIPTION="Python async library for signing x509 using keys in a pkcs11 device
 
 HOMEPAGE="https://github.com/SUNET/python_x509_pkcs11"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/66/7b/2ba30885351821455436bf429cee7891bbb607e1112ad0aeb8c02ddf13dd/python_x509_pkcs11-${REALVERSION}.tar.gz"
-SOURCEFILE="python_x509_pkcs11-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/66/7b/2ba30885351821455436bf429cee7891bbb607e1112ad0aeb8c02ddf13dd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

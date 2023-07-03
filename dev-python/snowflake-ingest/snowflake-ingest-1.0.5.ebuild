@@ -15,8 +15,8 @@ DESCRIPTION="Official SnowflakeDB File Ingest SDK"
 
 HOMEPAGE="https://www.snowflake.net"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/1f/87/d0d2d4714c3722509a01d4e7fd4ea0de4e15d44459fdbcc0a3e790bc98bd/snowflake_ingest-${REALVERSION}.tar.gz"
-SOURCEFILE="snowflake_ingest-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1f/87/d0d2d4714c3722509a01d4e7fd4ea0de4e15d44459fdbcc0a3e790bc98bd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

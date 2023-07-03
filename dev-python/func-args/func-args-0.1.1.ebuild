@@ -15,8 +15,8 @@ DESCRIPTION="Bring in sentinel \`\`NOTHING\`\` into your Python function argumen
 
 HOMEPAGE="https://github.com/MacHu-GWU/func_args-project"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/04/19/bb084bcac2442ff3a764e59b08ea60ac7840cfc674f9074751caf21a0498/func_args-${REALVERSION}.tar.gz"
-SOURCEFILE="func_args-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/04/19/bb084bcac2442ff3a764e59b08ea60ac7840cfc674f9074751caf21a0498/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

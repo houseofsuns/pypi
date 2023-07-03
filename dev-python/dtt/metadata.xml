@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>dtt is the text-mode interface for docker and kubectl command.the ui of dtt is inspired by vim, ranger and tig.A main usecase for dtt is to login container or pod with shell.Exec dtt command and move to container with j or k key (like vim) and press Enter-key when you want to login the container or pod.You can exec another shell or command with `X` key when you select the container or pod.</longdescription>
+</pkgmetadata>

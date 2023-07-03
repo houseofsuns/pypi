@@ -15,8 +15,8 @@ DESCRIPTION="Export LibreLingo courses in the JSON format used by the web app"
 
 HOMEPAGE=""
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/22/de/4ef362435eb5145e7677714ce2cc2f0df36cb35b7d6f1e3c6a3b843eb092/librelingo_json_export-${REALVERSION}.tar.gz"
-SOURCEFILE="librelingo_json_export-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/22/de/4ef362435eb5145e7677714ce2cc2f0df36cb35b7d6f1e3c6a3b843eb092/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A plugin to test mp"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3b/88/edff2d4dfc61f9e900ad5b11bc8df7213bd5321be1f8cabfa992bcba45e3/pytest_mini-${REALVERSION}.tar.gz"
-SOURCEFILE="pytest_mini-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3b/88/edff2d4dfc61f9e900ad5b11bc8df7213bd5321be1f8cabfa992bcba45e3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

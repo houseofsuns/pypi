@@ -15,8 +15,8 @@ DESCRIPTION="BeakerX: Beaker Base Extensions for Jupyter Notebook"
 
 HOMEPAGE="http://beakerx.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/97/91/493d991775a32f1310635c2e6387fec3822fd19342eed548d4b11102fe0c/beakerx_base-${REALVERSION}.tar.gz"
-SOURCEFILE="beakerx_base-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/97/91/493d991775a32f1310635c2e6387fec3822fd19342eed548d4b11102fe0c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

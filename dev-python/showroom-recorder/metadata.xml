@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># showroom-recorderA Script for Recording Showroom Streaming Video## Installation1. Install the python3.2. Install requirements.``` shellpip install showroom-recorder```3. Install ffmpeg``` shellsudo apt install ffmpeg```4. Install font `font/msgothic.ttc`. (If you need to use subtitle files)## UsageDirectly input the member room name as a parameter:``` shellshowroom-recorder -i LOVE_MAIKA_SASAKI```Or modify the rooms.ini file，and run without parameter. The configuration file will be automatically created on the first run.&gt; The SHOWROOM live address is &quot;https://www.showroom-live.com/ROOM_URL_KEY&quot;.&gt; Please copy the last segment of the room name and paste it into the rooms.ini file.&gt; Enter multiple room names separated by line breaks and use &quot;#&quot; for comments.``` shellshowroom-recorder```The recorded video will be stored in the save folder.And the comments will be saved in the comments folder as subtitles.</longdescription>
+</pkgmetadata>

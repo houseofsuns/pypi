@@ -15,8 +15,8 @@ DESCRIPTION="A collection of functions to calculate attributes of the great circ
 
 HOMEPAGE="https://github.com/seangrogan/great_circle_calculator"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ba/2c/b1aff551ec064d986167413aab7e2ff57c465638e83165ede57b69d5202e/great_circle_calculator-${REALVERSION}.tar.gz"
-SOURCEFILE="great_circle_calculator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ba/2c/b1aff551ec064d986167413aab7e2ff57c465638e83165ede57b69d5202e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

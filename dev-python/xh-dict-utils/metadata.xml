@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>A dictionary utility of self dev py library## Build```shellrm -fr distpython -m build# automate by following `-u {user} -p {token / password}`# api automate by following `-u __token__ -p {token / password}`python -m twine upload dist/*```</longdescription>
+</pkgmetadata>

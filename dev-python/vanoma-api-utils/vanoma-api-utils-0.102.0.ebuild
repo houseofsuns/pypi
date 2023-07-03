@@ -15,8 +15,8 @@ DESCRIPTION="Python utils for vanoma APIs"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f5/ea/85a8b12a7fba15a7694c51ffba8015a82745cea5c0971eb7cdafee307c18/vanoma_api_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="vanoma_api_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f5/ea/85a8b12a7fba15a7694c51ffba8015a82745cea5c0971eb7cdafee307c18/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

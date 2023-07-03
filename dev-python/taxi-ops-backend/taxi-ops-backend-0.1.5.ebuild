@@ -15,8 +15,8 @@ DESCRIPTION="Taxi Ops Backend for capstone project"
 
 HOMEPAGE="https://github.com/abhinavofficial/IITM-ACSEFeb22-Capstone-TaxiOps"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/31/ee/6546f5bfb2b2fad3af6af8dfbf760c00ba79ec2bc865ef41bb6e00aa8aaf/taxi_ops_backend-${REALVERSION}.tar.gz"
-SOURCEFILE="taxi_ops_backend-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/31/ee/6546f5bfb2b2fad3af6af8dfbf760c00ba79ec2bc865ef41bb6e00aa8aaf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

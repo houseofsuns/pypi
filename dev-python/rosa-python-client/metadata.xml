@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># rosa-python-clientPypi: [rosa-python-client](https://pypi.org/project/rosa-python-client/)  A utility to run ROSA commands in CLI## Release new version### requirements:* Export GitHub token```bashexport GITHUB_TOKEN=&lt;your_github_token&gt;```* [release-it](https://github.com/release-it/release-it)```bashsudo npm install --global release-itnpm install --save-dev @release-it/bumper```### usage:* To create a new release, run:```bashgit maingit pullrelease-it # Follow the instructions```</longdescription>
+</pkgmetadata>

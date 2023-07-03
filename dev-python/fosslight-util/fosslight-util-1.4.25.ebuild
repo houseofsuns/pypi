@@ -15,8 +15,8 @@ DESCRIPTION="FOSSLight Util"
 
 HOMEPAGE="https://github.com/fosslight/fosslight_util"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/33/6b/d92f9ecdbe8610a9a18a1990cc1400f3335c37fefb419ed01b7b2a238841/fosslight_util-${REALVERSION}.tar.gz"
-SOURCEFILE="fosslight_util-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/33/6b/d92f9ecdbe8610a9a18a1990cc1400f3335c37fefb419ed01b7b2a238841/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

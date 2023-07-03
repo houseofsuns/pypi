@@ -15,8 +15,8 @@ DESCRIPTION="The package for lvmcam"
 
 HOMEPAGE="https://github.com/sdss/lvmcam"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/79/41/55d6665751bcd790611ac0bcb516b7df401e954e1afb4f5a11d89c73f499/sdss_lvmcam-${REALVERSION}.tar.gz"
-SOURCEFILE="sdss_lvmcam-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/79/41/55d6665751bcd790611ac0bcb516b7df401e954e1afb4f5a11d89c73f499/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

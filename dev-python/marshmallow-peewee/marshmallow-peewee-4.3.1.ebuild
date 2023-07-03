@@ -15,8 +15,8 @@ DESCRIPTION="Peewee ORM integration with the Marshmallow (de)serialization libra
 
 HOMEPAGE="https://github.com/klen/marshmallow-peewee"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/30/f3/070110509a56cad78fca9cbba6548670a181b1937139b725f9c0c83e4178/marshmallow_peewee-${REALVERSION}.tar.gz"
-SOURCEFILE="marshmallow_peewee-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/30/f3/070110509a56cad78fca9cbba6548670a181b1937139b725f9c0c83e4178/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

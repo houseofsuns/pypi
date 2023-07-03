@@ -15,8 +15,8 @@ DESCRIPTION="Fast and accurate Thai tokenization library."
 
 HOMEPAGE="https://github.com/IDDT/thai-tokenizer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/80/ef/af243b5948557d76b51c32588bde7d6f910243241491a85c58a2ea732803/thai_tokenizer-${REALVERSION}.tar.gz"
-SOURCEFILE="thai_tokenizer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/80/ef/af243b5948557d76b51c32588bde7d6f910243241491a85c58a2ea732803/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

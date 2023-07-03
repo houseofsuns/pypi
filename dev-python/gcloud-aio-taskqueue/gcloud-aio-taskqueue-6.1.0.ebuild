@@ -15,8 +15,8 @@ DESCRIPTION="Python Client for Google Cloud Task Queue"
 
 HOMEPAGE="https://github.com/talkiq/gcloud-aio"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cd/7a/0273aa9159e344d0a006a602286f8ea6b9294b313665cf3293e17a786ff4/gcloud_aio_taskqueue-${REALVERSION}.tar.gz"
-SOURCEFILE="gcloud_aio_taskqueue-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cd/7a/0273aa9159e344d0a006a602286f8ea6b9294b313665cf3293e17a786ff4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

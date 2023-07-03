@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/26/a5/4039d4e7853c821b15458451ba9899dbf8e9c3a2dad3252134c032f0a47a/ftd_sys-${REALVERSION}.tar.gz"
-SOURCEFILE="ftd_sys-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/26/a5/4039d4e7853c821b15458451ba9899dbf8e9c3a2dad3252134c032f0a47a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

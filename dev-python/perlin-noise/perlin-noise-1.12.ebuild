@@ -15,8 +15,8 @@ DESCRIPTION="Python implementation for Perlin Noise with unlimited coordinates s
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/02/82/4762c741b3edee5cda7207d45592c959760797860f1e8e69b143cf1805bc/perlin_noise-${REALVERSION}.tar.gz"
-SOURCEFILE="perlin_noise-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/02/82/4762c741b3edee5cda7207d45592c959760797860f1e8e69b143cf1805bc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

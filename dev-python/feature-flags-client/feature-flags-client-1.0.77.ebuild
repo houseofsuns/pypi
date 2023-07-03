@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/03/3b/6008014db3ea72942197f9357feba3bd58d5866bbdbd5e494052dba9fb7a/feature_flags_client-${REALVERSION}.tar.gz"
-SOURCEFILE="feature_flags_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/03/3b/6008014db3ea72942197f9357feba3bd58d5866bbdbd5e494052dba9fb7a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

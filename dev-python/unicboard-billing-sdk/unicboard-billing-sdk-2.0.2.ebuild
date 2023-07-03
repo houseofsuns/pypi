@@ -15,8 +15,8 @@ DESCRIPTION="Unicboard billing api"
 
 HOMEPAGE="https://github.com/uniclab-01/billing-api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d0/42/670ae5191fcbbc0769f0ec15087ef01af77b5c5d1852c40b6ccb089291d1/unicboard_billing_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="unicboard_billing_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d0/42/670ae5191fcbbc0769f0ec15087ef01af77b5c5d1852c40b6ccb089291d1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

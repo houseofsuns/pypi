@@ -15,8 +15,8 @@ DESCRIPTION="Python Wrapper for Homeassistant's REST API"
 
 HOMEPAGE="https://github.com/GrandMoff100/HomeAssistantAPI"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/1a/f8/0df01e9920f445c5971e467dbb44e00ac54cdfac7fd9d59722664ce667fa/homeassistant_api-${REALVERSION}.tar.gz"
-SOURCEFILE="homeassistant_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1a/f8/0df01e9920f445c5971e467dbb44e00ac54cdfac7fd9d59722664ce667fa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

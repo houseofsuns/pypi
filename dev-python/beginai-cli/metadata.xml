@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This is Begin AI CLI for both batch processing.It can be used to process historical data and generate signatures that are sent over to Begin AI serversYou do not need machine learning experience to use this library, check out our documentation for details. https://docs.begin.ai/ddbb8c093f7a49e4b9c1d20a49317527Register at https://begin.ai to get started.</longdescription>
+</pkgmetadata>

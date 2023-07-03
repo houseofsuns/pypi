@@ -15,8 +15,8 @@ DESCRIPTION="Typed Argument Parsing with Pydantic"
 
 HOMEPAGE="https://pydantic-argparse.supimdos.com"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/30/a5/ae32e92cc5293322d89e6d40dc59e69e2eaa0ea8fff4281be86a26b791d0/pydantic_argparse-${REALVERSION}.tar.gz"
-SOURCEFILE="pydantic_argparse-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/30/a5/ae32e92cc5293322d89e6d40dc59e69e2eaa0ea8fff4281be86a26b791d0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

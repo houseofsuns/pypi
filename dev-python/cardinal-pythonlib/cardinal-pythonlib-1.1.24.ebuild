@@ -15,8 +15,8 @@ DESCRIPTION="Miscellaneous Python libraries"
 
 HOMEPAGE="https://github.com/RudolfCardinal/pythonlib"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/90/af/58f0f8b46db14ca44b935dd0a27d158d566845565d886e8a7cb1a8e8763a/cardinal_pythonlib-${REALVERSION}.tar.gz"
-SOURCEFILE="cardinal_pythonlib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/90/af/58f0f8b46db14ca44b935dd0a27d158d566845565d886e8a7cb1a8e8763a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

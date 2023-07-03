@@ -15,8 +15,8 @@ DESCRIPTION="Load & Stress Testing Freamework"
 
 HOMEPAGE="https://github.com/JE-Chen/je_opencv_wrapper"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3d/45/a0da32f33b486158b7b59ff0fb2b6d6209863f5bc5d1e444e070d8a081b0/je_open_cv-${REALVERSION}.tar.gz"
-SOURCEFILE="je_open_cv-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3d/45/a0da32f33b486158b7b59ff0fb2b6d6209863f5bc5d1e444e070d8a081b0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

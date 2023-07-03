@@ -15,8 +15,8 @@ DESCRIPTION="Apache Airflow connector for Ocean for Apache Spark"
 
 HOMEPAGE="https://spot.io/products/ocean-apache-spark/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/dc/d2/d08e92d20e155d6ab62a555dd5d50f49a8771a0d6860cfaade06e1440c9c/ocean_spark_airflow_provider-${REALVERSION}.tar.gz"
-SOURCEFILE="ocean_spark_airflow_provider-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/dc/d2/d08e92d20e155d6ab62a555dd5d50f49a8771a0d6860cfaade06e1440c9c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

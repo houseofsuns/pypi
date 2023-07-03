@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># 🤗 AutoTrain AdvancedAutoTrain Advanced: faster and easier training and deployments of state-of-the-art machine learning models## InstallationYou can Install AutoTrain-Advanced python package via PIP. Please note you will need python &gt;= 3.8 for AutoTrain Advanced to work properly.    pip install autotrain-advanced    Please make sure that you have git lfs installed. Check out the instructions here: https://github.com/git-lfs/git-lfs/wiki/Installation## Coming Soon!</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module to communicate with Chorus"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/9d/15/96b6020373df0ef3b8cb8bbe5c88681ca76fdf832abc48397ee9931ebe58/trytond_account_fr_chorus-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_account_fr_chorus-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9d/15/96b6020373df0ef3b8cb8bbe5c88681ca76fdf832abc48397ee9931ebe58/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="abstracted ML pipelines based on pytorch"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/58/c4/51f51ca6d8c59e152b8342b1c1a29fe91b59c9af26bc2123b1301b254432/pytorch_nlp_pipeline-${REALVERSION}.tar.gz"
-SOURCEFILE="pytorch_nlp_pipeline-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/58/c4/51f51ca6d8c59e152b8342b1c1a29fe91b59c9af26bc2123b1301b254432/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

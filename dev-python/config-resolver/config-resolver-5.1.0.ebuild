@@ -15,8 +15,8 @@ DESCRIPTION="A small package to automatically find a configuration file."
 
 HOMEPAGE="https://github.com/exhuma/config_resolver"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/63/bd/1c687689b2bd07eb32dbf880e1fa7c826c7761d5d52c1f394daf5b051197/config_resolver-${REALVERSION}.tar.gz"
-SOURCEFILE="config_resolver-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/63/bd/1c687689b2bd07eb32dbf880e1fa7c826c7761d5d52c1f394daf5b051197/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

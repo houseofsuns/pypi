@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=======randstr=======.. image:: https://pypip.in/d/randstr/badge.png        :target: https://pypi.python.org/pypi/randstrSometimes you just want a random string. For those times, there is `randstr`.Usage=====The default is a 7 character string composed of `a-z0-9`... code-block:: python   from randstr import randstr   print(randstr())You can get a longer string by passing in a length argument... code-block:: python   randstr(19)* Free software: BSD license</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="KIWI Lock Client Library"
 
 HOMEPAGE="https://github.com/c7h/kiwiki_client"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ef/f2/805ef3f6e91ec846283800f5bdf8699e9616cca3716dcab0bfc426791a80/kiwiki_client-${REALVERSION}.tar.gz"
-SOURCEFILE="kiwiki_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ef/f2/805ef3f6e91ec846283800f5bdf8699e9616cca3716dcab0bfc426791a80/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

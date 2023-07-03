@@ -15,8 +15,8 @@ DESCRIPTION="Extensions for Plotly Dash."
 
 HOMEPAGE="https://dash-extensions.com"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a5/da/7a207b3ff2edd0fcf48e8db3174461e7d7659b597f7c87539d5746de5ac0/dash_extensions-${REALVERSION}.tar.gz"
-SOURCEFILE="dash_extensions-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a5/da/7a207b3ff2edd0fcf48e8db3174461e7d7659b597f7c87539d5746de5ac0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

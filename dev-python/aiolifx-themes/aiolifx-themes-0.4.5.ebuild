@@ -15,8 +15,8 @@ DESCRIPTION="Async library that applies color themes to LIFX lights"
 
 HOMEPAGE="https://github.com/Djelibeybi/aiolifx-themes"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e5/5b/71aab01a0af5ac48986ffd36ce21f9a47b486b497ae7d2daf15f82524a16/aiolifx_themes-${REALVERSION}.tar.gz"
-SOURCEFILE="aiolifx_themes-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e5/5b/71aab01a0af5ac48986ffd36ce21f9a47b486b497ae7d2daf15f82524a16/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

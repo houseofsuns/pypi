@@ -15,8 +15,8 @@ DESCRIPTION="Generate project documentation using GPT."
 
 HOMEPAGE="https://github.com/Nomendi6/create_doc"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bc/d4/245f8e296a395c5c9d7c52f9e858a5ef62ceeff0041749b700519e530ee0/create_doc-${REALVERSION}.tar.gz"
-SOURCEFILE="create_doc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bc/d4/245f8e296a395c5c9d7c52f9e858a5ef62ceeff0041749b700519e530ee0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

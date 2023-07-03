@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module for account dunning letter"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/45/80/f0fe388fc5c815ae27c9dd2ece72039fa94078c1d13189122b653583217f/trytond_account_dunning_letter-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_account_dunning_letter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/45/80/f0fe388fc5c815ae27c9dd2ece72039fa94078c1d13189122b653583217f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Embeds phylogenetic tree distances and produce representations"
 
 HOMEPAGE="https://github.com/AndreaRubbi/TreeEmbedding"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e8/66/81d0bcccbb832dc4f7f1d29ad79f2d5e0a71a2fdc5af33c2454a6ef7aa7d/pear_ebi-${REALVERSION}.tar.gz"
-SOURCEFILE="pear_ebi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e8/66/81d0bcccbb832dc4f7f1d29ad79f2d5e0a71a2fdc5af33c2454a6ef7aa7d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

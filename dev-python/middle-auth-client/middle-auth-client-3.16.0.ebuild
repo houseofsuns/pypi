@@ -15,8 +15,8 @@ DESCRIPTION="tools for helping web services and users interact with the middle_a
 
 HOMEPAGE="https://github.com/seung-lab/middle_auth_client"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/06/3b/f1b63d40fe8680b1f61c4520a98ee73c59a3f2381df6d4fd9d23cb5e176a/middle_auth_client-${REALVERSION}.tar.gz"
-SOURCEFILE="middle_auth_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/06/3b/f1b63d40fe8680b1f61c4520a98ee73c59a3f2381df6d4fd9d23cb5e176a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

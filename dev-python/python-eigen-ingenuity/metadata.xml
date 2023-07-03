@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>python-eigen-ingenuity is a python library used to query data from the Eigen ingenuity systemREQUIREMENTS============python-eigen-ingenuity requires Python 2.X/3.X and nineINSTALL=======The recommended method of installation on production systems is to use the generated .deb and RPM packagessince these contain all the correct dependency information, and are the easiest to integrate into ansibleand/or install onto existing systems.LOCAL INSTALL=============Install python 2.X or 3.X  (in windows suggest you select the option to Add python.exe to path and reboot after python install.)unzip the install to a folder then run pip (for python3 run pip3)e.g. in windows```pip install C:\path\to\python-eigen-ingenuity -r requirements.txt```Third party libraries should be automatically installed through requirements.txt.DEPENDENCIES============Unfortunately the pip requirements.txt doesn't appear to easily integrate with .deb and RPM packagingsystems and so currently dependencies need to be tracked in 3 places:- requirements.txt- debian/control- setup.cfg.jenkinsAny suggestions as to how to improve this situation would be gratefully received.EXAMPLE-------Go to the examples folder and copy example-python-to-eigen-ingenuity.py modify the eigen-ingenuity server and tags then runpython example-python-to-eigen-ingenuity.pylicense(c)2016-2018 Eigen Ltd. No redistribution without permission</longdescription>
+</pkgmetadata>

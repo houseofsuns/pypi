@@ -15,8 +15,8 @@ DESCRIPTION="A small tool for retargetting images to any dimension greater or sm
 
 HOMEPAGE="https://github.com/dharness/seam_carving"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/29/29/befe6a7b0c46f03f53d36c43f1032516b288425a422ed44024d0ea947242/seam_carver-${REALVERSION}.tar.gz"
-SOURCEFILE="seam_carver-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/29/29/befe6a7b0c46f03f53d36c43f1032516b288425a422ed44024d0ea947242/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Python library to interact transparently with Prometheus, Pushgatew
 
 HOMEPAGE="https://github.com/snyk/python-metrics"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/15/87/1e710a631ea4cdd2cacf4c783a4cdc831d7b9cf04bcd1d4a2b97bfec3d6f/snyk_metrics-${REALVERSION}.tar.gz"
-SOURCEFILE="snyk_metrics-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/15/87/1e710a631ea4cdd2cacf4c783a4cdc831d7b9cf04bcd1d4a2b97bfec3d6f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

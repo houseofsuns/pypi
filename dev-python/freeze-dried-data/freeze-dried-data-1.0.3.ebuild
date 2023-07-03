@@ -15,8 +15,8 @@ DESCRIPTION="A simple format for machine learning datasets"
 
 HOMEPAGE="https://github.com/tstandley/freeze_dried_data"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d0/25/966059e2ef0a2b718d96131dd88341bc20a4864b017651336f0381936f2d/freeze_dried_data-${REALVERSION}.tar.gz"
-SOURCEFILE="freeze_dried_data-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d0/25/966059e2ef0a2b718d96131dd88341bc20a4864b017651336f0381936f2d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

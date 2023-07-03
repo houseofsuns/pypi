@@ -15,8 +15,8 @@ DESCRIPTION="CFA (Colour Filter Array) Demosaicing Algorithms for Python"
 
 HOMEPAGE="https://www.colour-science.org/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/82/94/747f803f1bfbf04b801f61549b7a044051db24c78a2b8fe4225c01422c9f/colour_demosaicing-${REALVERSION}.tar.gz"
-SOURCEFILE="colour_demosaicing-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/82/94/747f803f1bfbf04b801f61549b7a044051db24c78a2b8fe4225c01422c9f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

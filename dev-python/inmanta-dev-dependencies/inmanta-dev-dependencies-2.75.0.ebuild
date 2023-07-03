@@ -15,8 +15,8 @@ DESCRIPTION="Package collecting all common dev dependencies of inmanta modules a
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b4/0b/626acad7ae2af53a86d0f2805c12f739673c8e5dd8dfadf1a4be51370bf5/inmanta_dev_dependencies-${REALVERSION}.tar.gz"
-SOURCEFILE="inmanta_dev_dependencies-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b4/0b/626acad7ae2af53a86d0f2805c12f739673c8e5dd8dfadf1a4be51370bf5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

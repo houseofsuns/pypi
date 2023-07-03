@@ -15,8 +15,8 @@ DESCRIPTION="Middleware to intercept JWT auth token and more utils functions"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/55/2e/f3cc16c008db5ed6dc4bc2ab97b92cc98cb0d642d2b4781b81da190ee08e/jsm_user_services-${REALVERSION}.tar.gz"
-SOURCEFILE="jsm_user_services-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/55/2e/f3cc16c008db5ed6dc4bc2ab97b92cc98cb0d642d2b4781b81da190ee08e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

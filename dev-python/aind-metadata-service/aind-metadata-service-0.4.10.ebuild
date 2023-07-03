@@ -15,8 +15,8 @@ DESCRIPTION="REST service to retrive metadata from databases."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/dd/8b/f84f9edd52d68dc5621b7be7adba66040b46636db5bf0e60f4040548cc53/aind_metadata_service-${REALVERSION}.tar.gz"
-SOURCEFILE="aind_metadata_service-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/dd/8b/f84f9edd52d68dc5621b7be7adba66040b46636db5bf0e60f4040548cc53/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

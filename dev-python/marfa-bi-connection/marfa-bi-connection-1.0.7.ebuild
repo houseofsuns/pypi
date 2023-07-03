@@ -15,8 +15,8 @@ DESCRIPTION="MarfaBI connections"
 
 HOMEPAGE="https://github.com/NorddyM/MarfaBI"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/60/29/c4d8db0df7b91f22660c5e7a8a1f4cfeccf0fbed4150483c6b57fe282058/marfa_bi_connection-${REALVERSION}.tar.gz"
-SOURCEFILE="marfa_bi_connection-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/60/29/c4d8db0df7b91f22660c5e7a8a1f4cfeccf0fbed4150483c6b57fe282058/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

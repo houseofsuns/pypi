@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5b/9e/a9eebeeac7613c9870b103ed4d4c775b1c3922a459d627eb4af1836e4715/github_projectv2-${REALVERSION}.tar.gz"
-SOURCEFILE="github_projectv2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5b/9e/a9eebeeac7613c9870b103ed4d4c775b1c3922a459d627eb4af1836e4715/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

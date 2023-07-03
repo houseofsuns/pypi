@@ -15,8 +15,8 @@ DESCRIPTION="A module I devloped to abstract the Fedex API for use in my program
 
 HOMEPAGE="https://github.com/chnoma/fedex-api"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3b/47/037cfc3a29523109f612509072aa81a70f45166643deadb3743155f02ce9/fedexapi_chnoma-${REALVERSION}.tar.gz"
-SOURCEFILE="fedexapi_chnoma-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3b/47/037cfc3a29523109f612509072aa81a70f45166643deadb3743155f02ce9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

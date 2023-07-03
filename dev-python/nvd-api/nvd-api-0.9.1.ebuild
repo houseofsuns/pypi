@@ -15,8 +15,8 @@ DESCRIPTION="NVD API 2.0 Python API"
 
 HOMEPAGE="https://github.com/kannkyo/nvd-api"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/07/00/1334a9f18269f50aa5d1b0a4552fb62d2a91ae98b720e6c39319d6c93814/nvd_api-${REALVERSION}.tar.gz"
-SOURCEFILE="nvd_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/07/00/1334a9f18269f50aa5d1b0a4552fb62d2a91ae98b720e6c39319d6c93814/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

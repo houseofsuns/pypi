@@ -15,8 +15,8 @@ DESCRIPTION="Datateer CLI to support devops and infrastructure"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4f/c6/5f0fb971ed250e490099b90ebc31696f50802949a7335729dfd5d7196e3f/datateer_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="datateer_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4f/c6/5f0fb971ed250e490099b90ebc31696f50802949a7335729dfd5d7196e3f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

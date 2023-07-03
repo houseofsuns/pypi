@@ -15,8 +15,8 @@ DESCRIPTION="Module for dispatching jobs and timed operations"
 
 HOMEPAGE="https://github.com/jdotpy/dispatch"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9a/a7/b8d946ab2b4369f552a2aa33c8f9314c0046af1e77c62917bf3f2d645f5f/dispatch_reactor-${REALVERSION}.tar.gz"
-SOURCEFILE="dispatch_reactor-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9a/a7/b8d946ab2b4369f552a2aa33c8f9314c0046af1e77c62917bf3f2d645f5f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

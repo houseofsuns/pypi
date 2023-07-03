@@ -15,8 +15,8 @@ DESCRIPTION="iCalendar vTimezone Data"
 
 HOMEPAGE="https://pypi.org/project/ics_vtimezones/"
 LICENSE="CC0-1.0"
-SRC_URI="https://files.pythonhosted.org/packages/fb/87/b32db69b65cc4e0094f383ca62fb11f4dd209af11ff1b64c4580018832db/ics_vtimezones-${REALVERSION}.tar.gz"
-SOURCEFILE="ics_vtimezones-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fb/87/b32db69b65cc4e0094f383ca62fb11f4dd209af11ff1b64c4580018832db/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

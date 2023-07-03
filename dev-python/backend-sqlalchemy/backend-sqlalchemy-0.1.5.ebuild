@@ -15,8 +15,8 @@ DESCRIPTION="Core for SQLAlchemy"
 
 HOMEPAGE="https://example.com/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cc/11/4654eb0eac178366cb8fd76d0df7e9a4ac04fd3e23ab90ab3890efc6748a/backend_sqlalchemy-${REALVERSION}.tar.gz"
-SOURCEFILE="backend_sqlalchemy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cc/11/4654eb0eac178366cb8fd76d0df7e9a4ac04fd3e23ab90ab3890efc6748a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

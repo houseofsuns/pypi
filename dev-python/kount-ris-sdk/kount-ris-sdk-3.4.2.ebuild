@@ -15,8 +15,8 @@ DESCRIPTION="Kount Python RIS SDK"
 
 HOMEPAGE="https://github.com/Kount/kount-ris-python-sdk"
 LICENSE="Kount"
-SRC_URI="https://files.pythonhosted.org/packages/c9/e3/aa504becf1e567072f1b5032baeb8957c0ddeaa39d4d70f5e1b3232c6063/kount_ris_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="kount_ris_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c9/e3/aa504becf1e567072f1b5032baeb8957c0ddeaa39d4d70f5e1b3232c6063/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

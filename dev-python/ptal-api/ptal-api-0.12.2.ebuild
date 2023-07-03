@@ -15,8 +15,8 @@ DESCRIPTION="TALISMAN API adapter"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/24/e3/c37239a926d454e9053a9f1677cdf7920f97b33b082035dbc7ec204ec34f/ptal_api-${REALVERSION}.tar.gz"
-SOURCEFILE="ptal_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/24/e3/c37239a926d454e9053a9f1677cdf7920f97b33b082035dbc7ec204ec34f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

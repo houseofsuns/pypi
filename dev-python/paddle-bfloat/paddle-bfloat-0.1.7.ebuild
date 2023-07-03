@@ -15,8 +15,8 @@ DESCRIPTION="Paddle numpy bfloat16 package"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/46/0a/6dc932c8471b86c8331bdaeaf1765be091e18974b359c9c358f0c021eeff/paddle_bfloat-${REALVERSION}.tar.gz"
-SOURCEFILE="paddle_bfloat-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/46/0a/6dc932c8471b86c8331bdaeaf1765be091e18974b359c9c358f0c021eeff/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

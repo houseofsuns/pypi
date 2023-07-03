@@ -15,8 +15,8 @@ DESCRIPTION="simple dependency injection library"
 
 HOMEPAGE="https://github.com/bentoml/simple_di"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/2a/b8/f2e3d1d6eac545c897a9b8ae339f2f2437a0e0b00bf0df3767109bede14d/simple_di-${REALVERSION}.tar.gz"
-SOURCEFILE="simple_di-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2a/b8/f2e3d1d6eac545c897a9b8ae339f2f2437a0e0b00bf0df3767109bede14d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

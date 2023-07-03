@@ -15,8 +15,8 @@ DESCRIPTION="Thrift SASL Python module that implements SASL transports for Thrif
 
 HOMEPAGE="https://github.com/cloudera/thrift_sasl"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/fa/fb/5d9ba73be60b32f6fda080a5556cff25e15daf33bafe043c226404b39b25/thrift_sasl-${REALVERSION}.tar.gz"
-SOURCEFILE="thrift_sasl-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fa/fb/5d9ba73be60b32f6fda080a5556cff25e15daf33bafe043c226404b39b25/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

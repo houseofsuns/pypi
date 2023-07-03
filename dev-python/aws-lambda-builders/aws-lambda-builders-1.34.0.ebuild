@@ -15,8 +15,8 @@ DESCRIPTION="Python library to compile, build & package AWS Lambda functions for
 
 HOMEPAGE="https://github.com/awslabs/aws-lambda-builders"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/bb/22/f1062f5493a1611b710e3bffcdae7a48769e178f34bfa06acc35f35dfc77/aws_lambda_builders-${REALVERSION}.tar.gz"
-SOURCEFILE="aws_lambda_builders-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bb/22/f1062f5493a1611b710e3bffcdae7a48769e178f34bfa06acc35f35dfc77/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

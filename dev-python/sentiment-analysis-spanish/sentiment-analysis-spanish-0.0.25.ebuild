@@ -15,8 +15,8 @@ DESCRIPTION="Sentiment analysis for sentences in spanish"
 
 HOMEPAGE="https://github.com/sentiment-analysis-spanish/sentiment-spanish"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f7/c9/3b7de30ed4ba6951eddb4596b8e1bb370d943de0fedc2929538816ba4b7e/sentiment_analysis_spanish-${REALVERSION}.tar.gz"
-SOURCEFILE="sentiment_analysis_spanish-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f7/c9/3b7de30ed4ba6951eddb4596b8e1bb370d943de0fedc2929538816ba4b7e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

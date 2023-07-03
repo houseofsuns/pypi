@@ -15,8 +15,8 @@ DESCRIPTION="Ask Scholars Portal School Name Conversion"
 
 HOMEPAGE="https://github.com/guinslym/ask_schools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5d/50/2e5f76a59ff7efb29127178f8d71defdfd8338d815a20d79af2f0c64a8b9/ask_schools-${REALVERSION}.tar.gz"
-SOURCEFILE="ask_schools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5d/50/2e5f76a59ff7efb29127178f8d71defdfd8338d815a20d79af2f0c64a8b9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

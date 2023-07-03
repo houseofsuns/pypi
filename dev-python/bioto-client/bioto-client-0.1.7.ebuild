@@ -15,8 +15,8 @@ DESCRIPTION="A python CLI client for accessing Bioto data"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/95/5b/3f27518db5d0aba27907cd16a27704888afa2c4ee4ee79c28fec7889f310/bioto_client-${REALVERSION}.tar.gz"
-SOURCEFILE="bioto_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/95/5b/3f27518db5d0aba27907cd16a27704888afa2c4ee4ee79c28fec7889f310/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Automatically Build Deep Learning Models and Pipelines fast!"
 
 HOMEPAGE="https://github.com/AutoViML/deep_autoviml"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/3b/82/89798e93977d8714d8d345449965a06413599098dcf3d8fb0168b58c8762/deep_autoviml-${REALVERSION}.tar.gz"
-SOURCEFILE="deep_autoviml-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3b/82/89798e93977d8714d8d345449965a06413599098dcf3d8fb0168b58c8762/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

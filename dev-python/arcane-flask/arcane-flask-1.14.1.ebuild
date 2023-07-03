@@ -15,8 +15,8 @@ DESCRIPTION="Utility functions for flask apps."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/79/da/56c5276f2194a2f1b5c260fa8d413c0a9c3b32b2a78058a5b86a614bc425/arcane_flask-${REALVERSION}.tar.gz"
-SOURCEFILE="arcane_flask-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/79/da/56c5276f2194a2f1b5c260fa8d413c0a9c3b32b2a78058a5b86a614bc425/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

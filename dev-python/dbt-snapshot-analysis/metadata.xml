@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;/br&gt;&lt;p align=&quot;center&quot;&gt;  &lt;a href=&quot;https://www.data-drift.io&quot;&gt;    &lt;img src=&quot;https://github.com/data-drift/data-drift/blob/main/datadrift-logo.png?raw=true&quot; width=&quot;100px&quot; alt=&quot;DataDrift logo&quot; /&gt;  &lt;/a&gt;&lt;/p&gt;&lt;h2 align=&quot;center&quot; &gt;dbt Snapshot Analysis&lt;/h3&gt;&lt;p align=&quot;center&quot;&gt;&lt;a href=&quot;https://data-drift.io&quot;&gt;Website&lt;/a&gt; · &lt;a href=&quot;https://www.data-drift.io/blog&quot;&gt;Blog&lt;/a&gt;&lt;/p&gt;&lt;/br&gt;# dbt Snapshot Analysis[![PyPI version](https://badge.fury.io/py/dbt-snapshot-analysis.svg)](https://badge.fury.io/py/dbt-snapshot-analysis)**Analyse the stability of your key metrics**&lt;/br&gt;Changes of a metric’s historical value harms data consumers’ trust.dbt Snapshot Analysis is Python package to get insight on the quality and stability of the metrics your report.&lt;/br&gt;&lt;p align=&quot;center&quot;&gt;  &lt;a href=&quot;https://pypi.org/project/dbt-snapshot-analysis&quot;&gt;    &lt;img src=&quot;dbt-snapshot-analysis.gif&quot; alt=&quot;Dat&quot; /&gt;  &lt;/a&gt;&lt;/p&gt;# 🚀 Quickstart## InstallationYou can install DBT Snapshot Analysis using `pip`:```shpip install dbt-snapshot-analysis```## Usage```shdbt_snapshot_analysis```&lt;/br&gt;This project is developped by the DataDrift team with 💚. Check out our [main repository](https://github.com/data-drift/data-drift).</longdescription>
+</pkgmetadata>

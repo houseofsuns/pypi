@@ -15,8 +15,8 @@ DESCRIPTION="Running/online statistics for PyTorch"
 
 HOMEPAGE="https://github.com/mir-group/pytorch_runstats"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/10/0f/0b7710b63cf4fe09c8710db208a2c5cf66b1e09efbbcae0adc6fcf149caa/torch_runstats-${REALVERSION}.tar.gz"
-SOURCEFILE="torch_runstats-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/10/0f/0b7710b63cf4fe09c8710db208a2c5cf66b1e09efbbcae0adc6fcf149caa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

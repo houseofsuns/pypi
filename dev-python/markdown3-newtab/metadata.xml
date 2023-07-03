@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>markdown-newtab===============[![Build Status](https://travis-ci.org/pehala/markdown-newtab.svg?branch=master)](https://travis-ci.org/pehala/markdown-newtab)[![PyPI](https://img.shields.io/pypi/v/markdown3-newtab.svg)](https://pypi.python.org/pypi/markdown3-newtab)![CC0 License](https://img.shields.io/badge/license-CC0-lightgrey.svg)This extension modifies the HTML output of Python-Markdown to open alllinks in a new tab by adding `target=&quot;_blank&quot;`. See `run_tests.py` forexample usage.Updated to work on Markdown 3.0+.```pip install markdown3-newtab```### Usage```pythonfrom markdown import MarkdownMarkdown(extensions=[NewTabExtension()])```or```pythonfrom markdown import MarkdownMarkdown(extensions=[markdown3-newtab])```</longdescription>
+</pkgmetadata>

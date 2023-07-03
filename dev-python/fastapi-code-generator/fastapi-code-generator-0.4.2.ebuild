@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/koxudaxi/fastapi-code-generator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/60/c5/a31120644d65b2bc7ef99ad8b1334ff398082c360ca5d3d5e7bf9adb5082/fastapi_code_generator-${REALVERSION}.tar.gz"
-SOURCEFILE="fastapi_code_generator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/60/c5/a31120644d65b2bc7ef99ad8b1334ff398082c360ca5d3d5e7bf9adb5082/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

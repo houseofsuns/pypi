@@ -15,8 +15,8 @@ DESCRIPTION="Reactive Websocket for Crypto.com"
 
 HOMEPAGE="https://github.com/TechSpaceAsia/bittrade-cryptodotcom-websocket"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/df/9e/b91fd46a2239b71e0af811b3a70780f843d8bcae546eb9f4b83aa021eec5/bittrade_cryptodotcom_websocket-${REALVERSION}.tar.gz"
-SOURCEFILE="bittrade_cryptodotcom_websocket-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/df/9e/b91fd46a2239b71e0af811b3a70780f843d8bcae546eb9f4b83aa021eec5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

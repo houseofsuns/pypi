@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b7/37/e4d36d852c441233c306c5fbd98147685dce3ac9b0a8bbf4a587d0ea29ea/nr_stream-${REALVERSION}.tar.gz"
-SOURCEFILE="nr_stream-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b7/37/e4d36d852c441233c306c5fbd98147685dce3ac9b0a8bbf4a587d0ea29ea/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

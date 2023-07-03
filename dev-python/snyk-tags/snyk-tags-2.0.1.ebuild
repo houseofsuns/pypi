@@ -15,8 +15,8 @@ DESCRIPTION="CLI tool designed to manage tags and attributes at scale"
 
 HOMEPAGE="https://github.com/snyk-labs/snyk-tags-tool"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9c/62/6776449c9bba68797395e672beabafe0273e42b23807abaf38ebe5b5a2c5/snyk_tags-${REALVERSION}.tar.gz"
-SOURCEFILE="snyk_tags-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9c/62/6776449c9bba68797395e672beabafe0273e42b23807abaf38ebe5b5a2c5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

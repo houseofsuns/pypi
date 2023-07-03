@@ -15,8 +15,8 @@ DESCRIPTION="Check code for 1 element tuple."
 
 HOMEPAGE="https://github.com/ar4s/flake8_tuple"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/66/40/03b86236fa107562e3e8f9a7dbecb51339828daeaedf7cb7af8e87fc1b41/flake8_tuple-${REALVERSION}.tar.gz"
-SOURCEFILE="flake8_tuple-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/66/40/03b86236fa107562e3e8f9a7dbecb51339828daeaedf7cb7af8e87fc1b41/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

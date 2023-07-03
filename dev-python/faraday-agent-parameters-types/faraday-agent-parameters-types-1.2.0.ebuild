@@ -15,8 +15,8 @@ DESCRIPTION="The faraday agents run code remotely to ensure your domains. This i
 
 HOMEPAGE="https://github.com/infobyte/faraday_agent_parameters_types"
 LICENSE="GNU General Public License v3"
-SRC_URI="https://files.pythonhosted.org/packages/11/7d/70ddd0ad0840ac45d67388d844625ad78873021a18122f7408b18cefddf2/faraday_agent_parameters_types-${REALVERSION}.tar.gz"
-SOURCEFILE="faraday_agent_parameters_types-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/11/7d/70ddd0ad0840ac45d67388d844625ad78873021a18122f7408b18cefddf2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

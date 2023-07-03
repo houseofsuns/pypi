@@ -15,8 +15,8 @@ DESCRIPTION="A package for generating straight line trajectories in SE(3) with t
 
 HOMEPAGE="https://github.com/otokatli/pySmoothTrajectory"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2c/60/85b521c5c86393602668a8c7be26aad929c091347c2d528a7dfba20c0919/smooth_trajectory-${REALVERSION}.tar.gz"
-SOURCEFILE="smooth_trajectory-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2c/60/85b521c5c86393602668a8c7be26aad929c091347c2d528a7dfba20c0919/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

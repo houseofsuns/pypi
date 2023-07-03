@@ -15,8 +15,8 @@ DESCRIPTION="Python library for the USB-ISS board."
 
 HOMEPAGE="https://github.com/sneakypete81/usb_iss"
 LICENSE="GNU General Public License v3"
-SRC_URI="https://files.pythonhosted.org/packages/88/01/8bebeb27d45090075682ea002f23511cf9ff266274948ac4b1e86c9c95d6/usb_iss-${REALVERSION}.tar.gz"
-SOURCEFILE="usb_iss-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/88/01/8bebeb27d45090075682ea002f23511cf9ff266274948ac4b1e86c9c95d6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

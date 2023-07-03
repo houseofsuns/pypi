@@ -15,8 +15,8 @@ DESCRIPTION="This repository contains code to run faster sentence-transformers u
 
 HOMEPAGE="https://github.com/pandora-intelligence/fast-sentence-transformers"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7b/c3/d8911a83ea89808bacb066f778db78ef60cd02363ed2e31fd93ffc5f7b1b/fast_sentence_transformers-${REALVERSION}.tar.gz"
-SOURCEFILE="fast_sentence_transformers-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7b/c3/d8911a83ea89808bacb066f778db78ef60cd02363ed2e31fd93ffc5f7b1b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

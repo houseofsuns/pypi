@@ -15,8 +15,8 @@ DESCRIPTION="Profile dask distributed clusters with py-spy"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/17/5a/0cb25ba2b9aab8832b700c74ac81825d4d8d499ab46fb7f6b37626121b33/dask_pyspy-${REALVERSION}.tar.gz"
-SOURCEFILE="dask_pyspy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/17/5a/0cb25ba2b9aab8832b700c74ac81825d4d8d499ab46fb7f6b37626121b33/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

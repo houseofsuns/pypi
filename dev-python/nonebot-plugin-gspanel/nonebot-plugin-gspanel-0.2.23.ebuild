@@ -15,8 +15,8 @@ DESCRIPTION="Genshin player cards plugin for NoneBot2"
 
 HOMEPAGE="https://github.com/monsterxcn/nonebot-plugin-gspanel"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4a/92/7640abe02405cbd62c9aaa4fa454411f4328270633103c40873e7a5237ff/nonebot_plugin_gspanel-${REALVERSION}.tar.gz"
-SOURCEFILE="nonebot_plugin_gspanel-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4a/92/7640abe02405cbd62c9aaa4fa454411f4328270633103c40873e7a5237ff/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

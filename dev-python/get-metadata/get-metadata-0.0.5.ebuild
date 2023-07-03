@@ -15,8 +15,8 @@ DESCRIPTION="Get metadata string. Works on GAE(Google App Engine), GCF(Google Cl
 
 HOMEPAGE="https://github.com/hisashimurai/get_metadata"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0b/f1/05078d815aca5e1e493128763e400112a3bd960e5fb213b2b7065cf59693/get_metadata-${REALVERSION}.tar.gz"
-SOURCEFILE="get_metadata-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0b/f1/05078d815aca5e1e493128763e400112a3bd960e5fb213b2b7065cf59693/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

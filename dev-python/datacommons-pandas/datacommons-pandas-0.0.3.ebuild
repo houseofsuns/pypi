@@ -15,8 +15,8 @@ DESCRIPTION="A library to create pandas objects using the Data Commons Python AP
 
 HOMEPAGE="https://github.com/datacommonsorg/api-python"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/18/68/d3fcacf9d2431b31a9bab007985a0f2f8dcf919f29878141a06a9b8b2061/datacommons_pandas-${REALVERSION}.tar.gz"
-SOURCEFILE="datacommons_pandas-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/18/68/d3fcacf9d2431b31a9bab007985a0f2f8dcf919f29878141a06a9b8b2061/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

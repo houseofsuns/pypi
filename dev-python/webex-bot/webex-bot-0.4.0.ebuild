@@ -15,8 +15,8 @@ DESCRIPTION="Python package for a Webex Bot based on websockets."
 
 HOMEPAGE="https://github.com/fbradyirl/webex_bot"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/78/bf/94f831dfdebf3dd851136dd9eb004b4f1c5fdbd757e19c09c95c4d6b9ec4/webex_bot-${REALVERSION}.tar.gz"
-SOURCEFILE="webex_bot-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/78/bf/94f831dfdebf3dd851136dd9eb004b4f1c5fdbd757e19c09c95c4d6b9ec4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="seven cloudapp ppmt"
 
 HOMEPAGE="http://gitlab.tdtech.gao7.com/TaoBaoCloud/seven_cloudapp_ppmt.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e8/46/014f48a4e81f183d3a591076281a28210ea5bd5c180e543fb4ae000f30c7/seven_cloudapp_ppmt-${REALVERSION}.tar.gz"
-SOURCEFILE="seven_cloudapp_ppmt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e8/46/014f48a4e81f183d3a591076281a28210ea5bd5c180e543fb4ae000f30c7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

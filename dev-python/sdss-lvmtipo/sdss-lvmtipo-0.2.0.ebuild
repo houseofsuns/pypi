@@ -15,8 +15,8 @@ DESCRIPTION="Additional functionality for sdss-clu"
 
 HOMEPAGE="https://github.com/sdss/lvmtipo"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/74/d4/5071a26f677bcf5b9a5d62229ec51efadab9a06b519ceb21522acd8ca6a8/sdss_lvmtipo-${REALVERSION}.tar.gz"
-SOURCEFILE="sdss_lvmtipo-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/74/d4/5071a26f677bcf5b9a5d62229ec51efadab9a06b519ceb21522acd8ca6a8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

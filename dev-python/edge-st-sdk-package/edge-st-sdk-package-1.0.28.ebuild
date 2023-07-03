@@ -15,8 +15,8 @@ DESCRIPTION="IoT edge computing abstraction library package."
 
 HOMEPAGE="https://github.com/STMicroelectronics/EdgeSTSDK_Python"
 LICENSE="BSD 3-clause"
-SRC_URI="https://files.pythonhosted.org/packages/e3/d5/be7b07ac985e2354de61ca997ece32dbd8a3fa4262dcbe68d2994d4e2af2/edge_st_sdk_package-${REALVERSION}.tar.gz"
-SOURCEFILE="edge_st_sdk_package-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e3/d5/be7b07ac985e2354de61ca997ece32dbd8a3fa4262dcbe68d2994d4e2af2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

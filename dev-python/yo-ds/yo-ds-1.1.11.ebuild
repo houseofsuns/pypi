@@ -15,8 +15,8 @@ DESCRIPTION="Personal library with data science tools"
 
 HOMEPAGE="http://github.com/okulovsky/yo_ds"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3d/52/41ae696264ec68a311ee4fd11fa28999cfe0b5965fe0b4a1ad05ce43b694/yo_ds-${REALVERSION}.tar.gz"
-SOURCEFILE="yo_ds-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3d/52/41ae696264ec68a311ee4fd11fa28999cfe0b5965fe0b4a1ad05ce43b694/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Extract files from UBI and UBIFS images."
 
 HOMEPAGE=""
 LICENSE="GNU GPL"
-SRC_URI="https://files.pythonhosted.org/packages/70/a3/2970c204adf7053ad94045290c501bf27905fb279438c2c20d00c43510ee/ubi_reader-${REALVERSION}.tar.gz"
-SOURCEFILE="ubi_reader-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/70/a3/2970c204adf7053ad94045290c501bf27905fb279438c2c20d00c43510ee/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

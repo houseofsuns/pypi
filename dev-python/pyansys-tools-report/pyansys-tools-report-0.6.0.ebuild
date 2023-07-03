@@ -15,8 +15,8 @@ DESCRIPTION="PyAnsys Tools Report package."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4a/2f/cd20d0a82246e9f1b78f53c2bd09339905ce03fb3ef2fd4d639006b6e19b/pyansys_tools_report-${REALVERSION}.tar.gz"
-SOURCEFILE="pyansys_tools_report-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4a/2f/cd20d0a82246e9f1b78f53c2bd09339905ce03fb3ef2fd4d639006b6e19b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

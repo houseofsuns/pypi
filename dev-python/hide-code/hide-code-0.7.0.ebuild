@@ -15,8 +15,8 @@ DESCRIPTION="A Jupyter notebook extension to hide code, prompts and outputs."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/63/67/8c7fbe3830e0de9067523cd672d631799a5f3fd3289a0bc13588eb45822a/hide_code-${REALVERSION}.tar.gz"
-SOURCEFILE="hide_code-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/63/67/8c7fbe3830e0de9067523cd672d631799a5f3fd3289a0bc13588eb45822a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

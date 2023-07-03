@@ -15,8 +15,8 @@ DESCRIPTION="Gradually Warm-up LR Scheduler for Pytorch"
 
 HOMEPAGE="https://github.com/ildoonet/pytorch-gradual-warmup-lr"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/00/39/f77fb5a7a572891c1f4df1d8e1373a1380cb6d861933886334553244d002/warmup_scheduler-${REALVERSION}.tar.gz"
-SOURCEFILE="warmup_scheduler-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/00/39/f77fb5a7a572891c1f4df1d8e1373a1380cb6d861933886334553244d002/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Postgres Utils to create users, databases, functions, ..."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/23/7d/49361a161327b19110bdbacef4f2c26b115414d54fcde907d92ad811270d/lcdp_postgres_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="lcdp_postgres_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/23/7d/49361a161327b19110bdbacef4f2c26b115414d54fcde907d92ad811270d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

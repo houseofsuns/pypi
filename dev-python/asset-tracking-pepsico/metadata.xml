@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># audit_logging_pepsicoUnder Construction.A DTO for transforming the data coming from different sources into a single object or schema.This will be used to write the data to postgres. Developed by Jatin Talati## Examples of How To Use```pythonfrom asset_tracking_pepsico.asset_tracking_ingest import AssetTrackingIngestfrom asset_tracking_pepsico import utilitiesblob_conn_str = &quot;&lt;BLOB_CONNECTION_STRING&gt;&quot;container_name = &quot;&lt;NAME_OF_THE_CONTAINER&gt;&quot;blob_name = &quot;&lt;NAME_OF_THE_BLOB&gt;&quot;ast = AssetTrackingIngest()data = utilities.read_data_from_blob(blob_conn_str, container_name, blob_name)# Other Code```For accessing the schema and parameters use the following code```pythonfrom asset_tracking_pepsico.dto.PostgresSchema import PostgresSchemaDtoschema = PostgresSchemaDto()print(schema.__str__())```This will print out the values for all the parameters in the class.For dict you can use```pythonprint(schema.__dict__())```Explore the package to use other functions and parameters. </longdescription>
+</pkgmetadata>

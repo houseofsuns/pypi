@@ -15,8 +15,8 @@ DESCRIPTION="Firebase Admin Python SDK"
 
 HOMEPAGE="https://firebase.google.com/docs/admin/setup/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/4d/0b/9c2a1827bbba8f21fb9bc6c08231b6891071f805aea0727489f3d4c9492f/firebase_admin-${REALVERSION}.tar.gz"
-SOURCEFILE="firebase_admin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4d/0b/9c2a1827bbba8f21fb9bc6c08231b6891071f805aea0727489f3d4c9492f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

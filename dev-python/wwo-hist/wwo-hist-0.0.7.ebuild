@@ -15,8 +15,8 @@ DESCRIPTION="This package is used to retrieve and transform historical weather d
 
 HOMEPAGE="https://github.com/ekapope/WorldWeatherOnline"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5d/bf/ecad8e88302c526b157a4c19754c7dc0e4879cf1e9dd5288c12ee020e5fe/wwo_hist-${REALVERSION}.tar.gz"
-SOURCEFILE="wwo_hist-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5d/bf/ecad8e88302c526b157a4c19754c7dc0e4879cf1e9dd5288c12ee020e5fe/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

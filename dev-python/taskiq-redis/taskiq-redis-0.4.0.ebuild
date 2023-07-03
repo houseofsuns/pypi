@@ -15,8 +15,8 @@ DESCRIPTION="Redis integration for taskiq"
 
 HOMEPAGE="https://github.com/taskiq-python/taskiq-redis"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b3/a9/d641045fe3ef4e6a76d6af1517233fcf5f2c12abb15f1dc6ee6e1bca9d81/taskiq_redis-${REALVERSION}.tar.gz"
-SOURCEFILE="taskiq_redis-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b3/a9/d641045fe3ef4e6a76d6af1517233fcf5f2c12abb15f1dc6ee6e1bca9d81/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

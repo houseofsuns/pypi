@@ -15,8 +15,8 @@ DESCRIPTION="Nautobot Single Source of Truth"
 
 HOMEPAGE="https://github.com/nautobot/nautobot-plugin-ssot"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/34/71/2ea84288dcfe1875923705fe7a47ad422662ba2be04f0d897da8cda52e7e/nautobot_ssot-${REALVERSION}.tar.gz"
-SOURCEFILE="nautobot_ssot-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/34/71/2ea84288dcfe1875923705fe7a47ad422662ba2be04f0d897da8cda52e7e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

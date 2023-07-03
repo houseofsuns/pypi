@@ -15,8 +15,8 @@ DESCRIPTION="A plugin to use Cirq with QURI Parts"
 
 HOMEPAGE="https://github.com/QunaSys/quri-parts"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/4b/1d/c668c2369636da69473b8fc2de135bad7b77d58d3c93b75385b3e08f80e8/quri_parts_cirq-${REALVERSION}.tar.gz"
-SOURCEFILE="quri_parts_cirq-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4b/1d/c668c2369636da69473b8fc2de135bad7b77d58d3c93b75385b3e08f80e8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

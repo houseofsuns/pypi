@@ -15,8 +15,8 @@ DESCRIPTION="Example of a Dash library that uses Flow Types"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7c/e7/a712e5ece98b64e841b582727a489de8fffa674bcc9e949c56e0789da3b6/dash_flow_example-${REALVERSION}.tar.gz"
-SOURCEFILE="dash_flow_example-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7c/e7/a712e5ece98b64e841b582727a489de8fffa674bcc9e949c56e0789da3b6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

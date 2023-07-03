@@ -15,8 +15,8 @@ DESCRIPTION="helpful python starter functions for various repository use"
 
 HOMEPAGE="https://pypi.org/project/kabbes-py-starter/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/34/7e/7f696ffdb32320d2a4e658b18ec1911083af5380db9630d20119ce093b12/kabbes_py_starter-${REALVERSION}.tar.gz"
-SOURCEFILE="kabbes_py_starter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/34/7e/7f696ffdb32320d2a4e658b18ec1911083af5380db9630d20119ce093b12/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

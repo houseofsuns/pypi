@@ -15,8 +15,8 @@ DESCRIPTION="Simple forum for Alliance Auth"
 
 HOMEPAGE="https://github.com/ppfeufer/aa-forum"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/89/cd/004b6893f9f30f4d01516cdba556b1bdc134b7fd54d988662da2da50c87f/aa_forum-${REALVERSION}.tar.gz"
-SOURCEFILE="aa_forum-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/89/cd/004b6893f9f30f4d01516cdba556b1bdc134b7fd54d988662da2da50c87f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

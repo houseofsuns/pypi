@@ -15,8 +15,8 @@ DESCRIPTION="Django Rest Framework Utils"
 
 HOMEPAGE="https://github.com/EnterpriseBusinessSolutions/drf-util"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0d/f2/d559c91ef1e4871c1dc65ad1798c6cf6ee9066ebcd642bd7bf783c743cba/drf_util-${REALVERSION}.tar.gz"
-SOURCEFILE="drf_util-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0d/f2/d559c91ef1e4871c1dc65ad1798c6cf6ee9066ebcd642bd7bf783c743cba/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

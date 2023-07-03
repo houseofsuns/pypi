@@ -15,8 +15,8 @@ DESCRIPTION="Multimedia Extensible Git Runtime Library"
 
 HOMEPAGE="https://github.com/MultimediaExtensibleGit/Runtime"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a7/c5/f0ffdf44ae3f0b193cfa0a561e526f33097608beef148650e609528a8825/meg_runtime-${REALVERSION}.tar.gz"
-SOURCEFILE="meg_runtime-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a7/c5/f0ffdf44ae3f0b193cfa0a561e526f33097608beef148650e609528a8825/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

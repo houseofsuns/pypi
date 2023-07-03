@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>OOpgrade========.. image:: https://travis-ci.org/gisce/oopgrade.svg?branch=master    :target: https://travis-ci.org/gisce/oopgrade.. image:: https://coveralls.io/repos/github/gisce/oopgrade/badge.svg?branch=master    :target: https://coveralls.io/github/gisce/oopgrade?branch=master.. note::    The API is quite unstable due the active developmentOpenObject upgrade lib forked from `openupgrade project &lt;https://github.com/OCA/OpenUpgrade/tree/5.0/bin/openupgrade&gt;`_and improved and adapted to meed our needs.</longdescription>
+</pkgmetadata>

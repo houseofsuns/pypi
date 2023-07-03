@@ -15,8 +15,8 @@ DESCRIPTION="Library of functions with utilities for the popular xlsx Python mod
 
 HOMEPAGE="https://github.com/SebastianMCarreira/openpyxl_utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/17/fe/66d09a0059fd6d4f3aafe1205bd12224cea4d1491d6b6ea40c9b5fcc0776/openpyxl_utilities-${REALVERSION}.tar.gz"
-SOURCEFILE="openpyxl_utilities-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/17/fe/66d09a0059fd6d4f3aafe1205bd12224cea4d1491d6b6ea40c9b5fcc0776/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

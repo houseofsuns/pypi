@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Python Config Loader![badge](https://img.shields.io/badge/version-1.0.0-blue)The objective of this library is to easily load external configs for a Python project and use it for anywhere in your project.---## How does it work?By default, it will load a config file called &quot;**application.yaml**&quot; stored in &quot;**/app/resources**&quot;.But you can override :- the name of the config file- the extension to JSON- the path to the directory with the configs filesAlso you can define an environment, then 2 files will be loaded :- the &quot;common&quot; config file - *application.yaml*- the &quot;environment&quot; config file - *application-[environment].yaml*## How to use itInstall with pip&gt; pip install adaendra-python-config-loaderImport the configs and use it!```pythonfrom AdaendraConfigs import AdaendraConfigsprint(AdaendraConfigs.configs.abc)```## Configuration environment variables|Name|Description|Default value||---|---|---||CONFIG_ENVIRONMENT|Environment to load|*None*||CONFIG_FOLDER|Path to the config files|'/app/resources'||CONFIG_FILE_EXTENSION|File extensions of your config file. Allow : '.yml'/'.yaml'/'.json'|'.yaml'||CONFIG_PROJECT_NAME|Name of your project *(which is generally the name of the config files)*|'application'|---## Documentation- [PyPi](./documentation/pypi.md)</longdescription>
+</pkgmetadata>

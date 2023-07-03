@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module to split production"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/8f/6c/97cba6dda073cc0fe1e0e651656966456ae833c1e419c6873751dc745768/trytond_production_split-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_production_split-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8f/6c/97cba6dda073cc0fe1e0e651656966456ae833c1e419c6873751dc745768/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

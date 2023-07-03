@@ -15,8 +15,8 @@ DESCRIPTION="Toucan Toco Connectors"
 
 HOMEPAGE=""
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/a7/26/c2e440bdd9b26c932e4d958793bdae40a8e68e1ed45981fca12ba19828b1/toucan_connectors-${REALVERSION}.tar.gz"
-SOURCEFILE="toucan_connectors-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a7/26/c2e440bdd9b26c932e4d958793bdae40a8e68e1ed45981fca12ba19828b1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

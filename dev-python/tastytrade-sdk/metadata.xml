@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![PyPI](https://img.shields.io/pypi/v/tastytrade-sdk)](https://pypi.org/project/tastytrade-sdk/)[![PyPI - Downloads](https://img.shields.io/pypi/dm/tastytrade-sdk)](https://pypi.org/project/tastytrade-sdk/)# tastytrade-sdk-pythonA python wrapper around the [tastytrade open API](https://developer.tastytrade.com/)## DocumentationFor users: [Official Documentation](https://amamparo.github.io/tastytrade-sdk-python)For contributors: [Developer Guide](./docs/contributors/README.md)</longdescription>
+</pkgmetadata>

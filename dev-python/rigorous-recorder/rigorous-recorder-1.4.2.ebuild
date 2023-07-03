@@ -15,8 +15,8 @@ DESCRIPTION="Save everything in a filterable way"
 
 HOMEPAGE="https://github.com/jeff-hykin/rigorous_recorder.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f5/cb/750eec335f1828b0a26515ef2bcbc33b48ddea3df59ce6e988b49f01c4f8/rigorous_recorder-${REALVERSION}.tar.gz"
-SOURCEFILE="rigorous_recorder-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f5/cb/750eec335f1828b0a26515ef2bcbc33b48ddea3df59ce6e988b49f01c4f8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

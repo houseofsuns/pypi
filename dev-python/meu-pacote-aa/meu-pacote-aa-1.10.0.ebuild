@@ -15,8 +15,8 @@ DESCRIPTION="Um simples pacote python hmmmm"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/12/61/7431300d6f8a7f3f7a7962dd04256efe656a78f0f0e8d6992f577efffb35/meu_pacote_aa-${REALVERSION}.tar.gz"
-SOURCEFILE="meu_pacote_aa-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/12/61/7431300d6f8a7f3f7a7962dd04256efe656a78f0f0e8d6992f577efffb35/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

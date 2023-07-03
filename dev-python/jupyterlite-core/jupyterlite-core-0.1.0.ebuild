@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fe/ee/60f28f01f2cc618e5b0a46decfac7e0e56e50102cb3a87f6ba9950c02b1f/jupyterlite_core-${REALVERSION}.tar.gz"
-SOURCEFILE="jupyterlite_core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fe/ee/60f28f01f2cc618e5b0a46decfac7e0e56e50102cb3a87f6ba9950c02b1f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

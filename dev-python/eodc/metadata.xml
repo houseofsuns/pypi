@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># EODC SDK![PyPI - Status](https://img.shields.io/pypi/status/eodc)![PyPI](https://img.shields.io/pypi/v/eodc)![PyPI - Python Version](https://img.shields.io/pypi/pyversions/eodc)Python SDK for interacting with EODC services.## InstallationInstall the SDK with pip:```pip install eodc```## Usage### Dask Clusters```from eodc import settingsfrom eodc.dask import EODCClustersettings.DASK_URL = &quot;&lt;EODC dask gateway endpoint&gt;&quot;cluster = EODCCluster()```### Function-as-a-Service (FaaS)TODO</longdescription>
+</pkgmetadata>

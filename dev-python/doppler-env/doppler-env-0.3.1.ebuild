@@ -15,8 +15,8 @@ DESCRIPTION="Inject Doppler secrets as environment variables into your Python ap
 
 HOMEPAGE="https://github.com/dopplerhq/python-doppler-env"
 LICENSE="APL 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/8f/8b/38b4f570db3a1c68f84565078991fca249ffa878968e653e34e5442660a0/doppler_env-${REALVERSION}.tar.gz"
-SOURCEFILE="doppler_env-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8f/8b/38b4f570db3a1c68f84565078991fca249ffa878968e653e34e5442660a0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

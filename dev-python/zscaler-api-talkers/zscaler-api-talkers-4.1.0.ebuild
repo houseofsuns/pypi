@@ -15,8 +15,8 @@ DESCRIPTION="Unofficial Zscaler API python SDK for ZIA, ZPA, ZDX, and ZCC"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/80/b4/a41d63e31ee90f638ad3caf17a35ae9acbfdcc65bf273498919291f3993d/zscaler_api_talkers-${REALVERSION}.tar.gz"
-SOURCEFILE="zscaler_api_talkers-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/80/b4/a41d63e31ee90f638ad3caf17a35ae9acbfdcc65bf273498919291f3993d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

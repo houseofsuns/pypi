@@ -15,8 +15,8 @@ DESCRIPTION="Hiro Client for Graph REST API of HIRO 7"
 
 HOMEPAGE="https://github.com/arago/hiro-client-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f7/f4/ee5efd07aaa4a8f5ac75fe7b9803f33479d0db8343c3763281942fa44117/hiro_graph_client-${REALVERSION}.tar.gz"
-SOURCEFILE="hiro_graph_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f7/f4/ee5efd07aaa4a8f5ac75fe7b9803f33479d0db8343c3763281942fa44117/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

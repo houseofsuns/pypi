@@ -15,8 +15,8 @@ DESCRIPTION="A Language Server Protocol implementation for Ruff."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d6/88/18a9ef22af60dc2ea0d70edf36209210e5be74f54214fc9c765126afd4d2/ruff_lsp-${REALVERSION}.tar.gz"
-SOURCEFILE="ruff_lsp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d6/88/18a9ef22af60dc2ea0d70edf36209210e5be74f54214fc9c765126afd4d2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

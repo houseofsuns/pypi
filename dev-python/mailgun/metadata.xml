@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Python wrapper for MailGun REST APIDocumentation:=============Please visit our documentation page athttp://documentation.mailgun.netInstallation============There are two ways to install Mailgun API:1. sudo python setup.py install2. Grab mailgun.py from the 'lib' folder of this repo and place it on your PYTHONPATH manuallySamples tryout:===================&gt; ./run_sample.sh samples/creating-routes.py&gt; ./run_sample.sh samples/sending-mail.py&gt; ./run_sample.sh samples/using-mailboxes.pyGetting started:================from mailgun import Mailgun, MailboxMailgun.init(&quot;my-api-key&quot;, &quot;https://mailgun.net/api&quot;)for mailbox in Mailbox.find():    print &quot;{0} has size of {1}&quot;.format (mailbox.id, mailbox.size)For more visit http://documentation.mailgun.net--MG team</longdescription>
+</pkgmetadata>

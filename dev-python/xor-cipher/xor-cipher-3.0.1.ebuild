@@ -15,8 +15,8 @@ DESCRIPTION="Simple, reusable and optimized XOR ciphers in Python."
 
 HOMEPAGE="https://github.com/xor-cipher/xor-cipher"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c6/7a/ef10965ad006c4f43702be510820fa346793db9c865c1bd7442a3747f889/xor_cipher-${REALVERSION}.tar.gz"
-SOURCEFILE="xor_cipher-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c6/7a/ef10965ad006c4f43702be510820fa346793db9c865c1bd7442a3747f889/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

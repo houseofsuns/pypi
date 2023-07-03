@@ -15,8 +15,8 @@ DESCRIPTION="Amazon SageMaker FeatureStore PySpark Bindings"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e5/43/949176df1d083f328e34bbb338b1ebb1954e5de8da8678edffd0d95490c8/sagemaker_feature_store_pyspark-${REALVERSION}.tar.gz"
-SOURCEFILE="sagemaker_feature_store_pyspark-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e5/43/949176df1d083f328e34bbb338b1ebb1954e5de8da8678edffd0d95490c8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

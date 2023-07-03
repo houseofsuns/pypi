@@ -15,8 +15,8 @@ DESCRIPTION="Quart-DB is a Quart extension that provides managed connection(s) t
 
 HOMEPAGE="https://github.com/pgjones/quart-db/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d3/46/c650a002540020ec06727982bf75e6a46cabb26500fb3c57f1f7ec305ffd/quart_db-${REALVERSION}.tar.gz"
-SOURCEFILE="quart_db-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d3/46/c650a002540020ec06727982bf75e6a46cabb26500fb3c57f1f7ec305ffd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

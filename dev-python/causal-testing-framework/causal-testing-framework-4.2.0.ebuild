@@ -15,8 +15,8 @@ DESCRIPTION="A framework for causal testing using causal directed acyclic graphs
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/25/da/a04785672bd51a57aa37db98e986c09bf57ebcb009ac3a81369cbab629c7/causal_testing_framework-${REALVERSION}.tar.gz"
-SOURCEFILE="causal_testing_framework-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/25/da/a04785672bd51a57aa37db98e986c09bf57ebcb009ac3a81369cbab629c7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

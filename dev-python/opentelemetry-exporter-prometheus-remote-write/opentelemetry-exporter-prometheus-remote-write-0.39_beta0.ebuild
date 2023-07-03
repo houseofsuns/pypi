@@ -15,8 +15,8 @@ DESCRIPTION="Prometheus Remote Write Metrics Exporter for OpenTelemetry"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/exporter/opentelemetry-exporter-prometheus-remote-write"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/11/2b/18627b42e8b82cc9c3393c4f5adc0566dc795231c9f799c808ce63651b3d/opentelemetry_exporter_prometheus_remote_write-${REALVERSION}.tar.gz"
-SOURCEFILE="opentelemetry_exporter_prometheus_remote_write-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/11/2b/18627b42e8b82cc9c3393c4f5adc0566dc795231c9f799c808ce63651b3d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

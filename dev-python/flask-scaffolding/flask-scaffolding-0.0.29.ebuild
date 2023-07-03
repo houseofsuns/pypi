@@ -15,8 +15,8 @@ DESCRIPTION="Flask Scaffolding with buiiltin Authentication & Authorization"
 
 HOMEPAGE="https://github.com/Muhammad-Yunus/Flask-Scaffolding-Base"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1c/82/57a0f377983f97de7b3b3a46051f7d2b4619dc794b1a3a34ef466c60451f/flask_scaffolding-${REALVERSION}.tar.gz"
-SOURCEFILE="flask_scaffolding-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1c/82/57a0f377983f97de7b3b3a46051f7d2b4619dc794b1a3a34ef466c60451f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

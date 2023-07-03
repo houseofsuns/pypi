@@ -15,8 +15,8 @@ DESCRIPTION="Injectively, deterministically maps arbitrary objects to hashable v
 
 HOMEPAGE="https://github.com/charmoniumQ/charmonium.freeze"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/33/e3/5e28d994c54326d0a9f3c2e2c58c604ad94343e046d0152bfebe10b44952/charmonium_freeze-${REALVERSION}.tar.gz"
-SOURCEFILE="charmonium_freeze-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/33/e3/5e28d994c54326d0a9f3c2e2c58c604ad94343e046d0152bfebe10b44952/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="RiotKit Tools - Continuous Integration tools"
 
 HOMEPAGE="https://riotkit.org"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/bb/60/9e26ef9c7c53f910943b45e66fe5fbcabac63498e3bc275b4262f33aaaf4/rkt_ciutils-${REALVERSION}.tar.gz"
-SOURCEFILE="rkt_ciutils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bb/60/9e26ef9c7c53f910943b45e66fe5fbcabac63498e3bc275b4262f33aaaf4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

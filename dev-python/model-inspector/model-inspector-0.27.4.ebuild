@@ -15,8 +15,8 @@ DESCRIPTION="Inspect machine learning models"
 
 HOMEPAGE="https://github.com/gsganden/model_inspector/"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b4/0a/b5d157541b43b5ddffa2802dab05149d42e76fb1db8c8e9235cd97805aa7/model_inspector-${REALVERSION}.tar.gz"
-SOURCEFILE="model_inspector-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b4/0a/b5d157541b43b5ddffa2802dab05149d42e76fb1db8c8e9235cd97805aa7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

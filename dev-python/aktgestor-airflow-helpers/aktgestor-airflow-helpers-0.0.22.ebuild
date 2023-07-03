@@ -15,8 +15,8 @@ DESCRIPTION="Helper functions for ariflow."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/34/50/03f5afe2c462b99b0218d667bec4e02ed476094e51eb9336abe6a6c1e458/aktgestor_airflow_helpers-${REALVERSION}.tar.gz"
-SOURCEFILE="aktgestor_airflow_helpers-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/34/50/03f5afe2c462b99b0218d667bec4e02ed476094e51eb9336abe6a6c1e458/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

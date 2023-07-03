@@ -15,8 +15,8 @@ DESCRIPTION="A simple Django app to comunicate with postoffice"
 
 HOMEPAGE="https://github.com/mercadona/postoffice_django/"
 LICENSE="APACHE License"
-SRC_URI="https://files.pythonhosted.org/packages/c7/46/f3af054b9338928aec763f5bf8646ab3da22566c139c01d4ac6278028c67/postoffice_django-${REALVERSION}.tar.gz"
-SOURCEFILE="postoffice_django-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c7/46/f3af054b9338928aec763f5bf8646ab3da22566c139c01d4ac6278028c67/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

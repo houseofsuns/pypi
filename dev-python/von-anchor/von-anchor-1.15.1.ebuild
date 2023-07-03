@@ -15,8 +15,8 @@ DESCRIPTION="VON anchors"
 
 HOMEPAGE="https://github.com/PSPC-SPAC-buyandsell/von_anchor"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/95/96/df523c39c9d35d3056c32e2cf08c3f08f9c781d2d84b6024654e2e458c13/von_anchor-${REALVERSION}.tar.gz"
-SOURCEFILE="von_anchor-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/95/96/df523c39c9d35d3056c32e2cf08c3f08f9c781d2d84b6024654e2e458c13/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

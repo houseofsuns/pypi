@@ -15,8 +15,8 @@ DESCRIPTION="A NetworkX extension providing graphs and algorithms relevent to wo
 
 HOMEPAGE="https://github.com/dwavesystems/dwave_networkx"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/31/bb/b80c1caac1d42d3522337278092a75fa8f210bed8736f851cb49b2e6da41/dwave_networkx-${REALVERSION}.tar.gz"
-SOURCEFILE="dwave_networkx-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/31/bb/b80c1caac1d42d3522337278092a75fa8f210bed8736f851cb49b2e6da41/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

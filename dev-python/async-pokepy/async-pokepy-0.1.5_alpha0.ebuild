@@ -15,8 +15,8 @@ DESCRIPTION="A simple asynchronous wrapper for the PokeAPI.co API."
 
 HOMEPAGE="https://github.com/PendragonLore/async_pokepy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b0/5f/2b7a1b5932e8b6c4dfa8dd504a4e5d6178d20dbf2325f55a62955540fad0/async_pokepy-${REALVERSION}.tar.gz"
-SOURCEFILE="async_pokepy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b0/5f/2b7a1b5932e8b6c4dfa8dd504a4e5d6178d20dbf2325f55a62955540fad0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

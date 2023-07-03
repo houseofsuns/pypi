@@ -15,8 +15,8 @@ DESCRIPTION="Collection of utility functions and classes to manage temporary dat
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/9c/61/e1411fa736cb39700511d8597e2f34a7852c225f3725d04735433dccee67/jk_temporary-${REALVERSION}.tar.gz"
-SOURCEFILE="jk_temporary-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9c/61/e1411fa736cb39700511d8597e2f34a7852c225f3725d04735433dccee67/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

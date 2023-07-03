@@ -15,8 +15,8 @@ DESCRIPTION="Dataclasses + JAX"
 
 HOMEPAGE="http://github.com/brentyi/jax_dataclasses"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/84/ec/0f112b584cc9baf1e99eb4e7788b1bb2df37030eb31b609df5d2602920a1/jax_dataclasses-${REALVERSION}.tar.gz"
-SOURCEFILE="jax_dataclasses-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/84/ec/0f112b584cc9baf1e99eb4e7788b1bb2df37030eb31b609df5d2602920a1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

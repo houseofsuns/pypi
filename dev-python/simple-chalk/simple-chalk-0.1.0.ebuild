@@ -15,8 +15,8 @@ DESCRIPTION="A terminal string styling library"
 
 HOMEPAGE="https://github.com/olsonpm/py_simple-chalk"
 LICENSE="WTFNMFPL-1.0"
-SRC_URI="https://files.pythonhosted.org/packages/31/97/b8114a347aee340570eb92b1a1fe512a038766903af7aa4e28447dc25c80/simple_chalk-${REALVERSION}.tar.gz"
-SOURCEFILE="simple_chalk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/31/97/b8114a347aee340570eb92b1a1fe512a038766903af7aa4e28447dc25c80/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

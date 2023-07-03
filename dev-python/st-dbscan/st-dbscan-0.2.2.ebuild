@@ -15,8 +15,8 @@ DESCRIPTION="Spatial-temporal DBSCAN"
 
 HOMEPAGE="https://github.com/eren-ck/st_dbscan"
 LICENSE="License :: OSI Approved :: MIT License"
-SRC_URI="https://files.pythonhosted.org/packages/98/ea/870a4a8577f00ff9580d09575b3b05113b2685b8a07c057b22c0277045e8/st_dbscan-${REALVERSION}.tar.gz"
-SOURCEFILE="st_dbscan-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/98/ea/870a4a8577f00ff9580d09575b3b05113b2685b8a07c057b22c0277045e8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

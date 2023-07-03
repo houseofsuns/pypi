@@ -15,8 +15,8 @@ DESCRIPTION="Live patches pip to use system certs by default"
 
 HOMEPAGE="https://gitlab.com/alelec/pip-system-certs"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/27/9a/4e949d0a281c5dd45c8d5b02b03fe32044936234675e967de49317a1daee/pip_system_certs-${REALVERSION}.tar.gz"
-SOURCEFILE="pip_system_certs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/27/9a/4e949d0a281c5dd45c8d5b02b03fe32044936234675e967de49317a1daee/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Minify css selectors in css, html, js files."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1f/5a/7d2d69b2fe30771631962df3974d7118f7f7f8c071ce35b5210b1142c85c/css_selector_minifier-${REALVERSION}.tar.gz"
-SOURCEFILE="css_selector_minifier-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1f/5a/7d2d69b2fe30771631962df3974d7118f7f7f8c071ce35b5210b1142c85c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

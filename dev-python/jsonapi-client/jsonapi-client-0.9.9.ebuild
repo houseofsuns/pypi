@@ -15,8 +15,8 @@ DESCRIPTION="Comprehensive, yet easy-to-use, pythonic, ORM-like access to JSON A
 
 HOMEPAGE="https://github.com/qvantel/jsonapi-client"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/8e/b0/c0ff1c3c9716c84bdf32e676ea836e8db9a3c137fbefb2cf228fb7c4de1c/jsonapi_client-${REALVERSION}.tar.gz"
-SOURCEFILE="jsonapi_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8e/b0/c0ff1c3c9716c84bdf32e676ea836e8db9a3c137fbefb2cf228fb7c4de1c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

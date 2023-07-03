@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A collection of useful code &quot;snippets&quot; or &quot;helpers&quot; that implement little but annoying to add things for you# Install```shellpip install einfach```# Use/Features[List of Features in the wiki](https://github.com/rotgruengelb/einfach/wiki/Features)</longdescription>
+	<longdescription>A collection of useful code &quot;snippets&quot; or &quot;helpers&quot; that implement little but annoying to add things for you# Install```shellpip install einfach```# Use/Features[List of Features on the Features Wiki Page](https://github.com/rotgruengelb/einfach/wiki/Features)</longdescription>
 </pkgmetadata>

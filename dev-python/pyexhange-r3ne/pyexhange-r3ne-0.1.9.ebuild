@@ -15,8 +15,8 @@ DESCRIPTION="Python code that allows users to create and manage their own virtua
 
 HOMEPAGE="https://github.com/JAAKKQ/pyexhange"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e5/3d/095fb49cac1273a731f9f3ae4e93063a316ef6c24484d0b13a0afa621923/pyexhange_r3ne-${REALVERSION}.tar.gz"
-SOURCEFILE="pyexhange_r3ne-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e5/3d/095fb49cac1273a731f9f3ae4e93063a316ef6c24484d0b13a0afa621923/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

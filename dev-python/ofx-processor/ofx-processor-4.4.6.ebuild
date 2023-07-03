@@ -15,8 +15,8 @@ DESCRIPTION="Personal ofx processor"
 
 HOMEPAGE="https://git.augendre.info/gaugendre/ofx-processor"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8c/2a/5b86c606c9e4dbf461d20510464bc12e3680fa69e5262650ceb7e9d87d62/ofx_processor-${REALVERSION}.tar.gz"
-SOURCEFILE="ofx_processor-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8c/2a/5b86c606c9e4dbf461d20510464bc12e3680fa69e5262650ceb7e9d87d62/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A nonebot plugin for chatpdf"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f7/2c/c1ef137a252ae8d566ac010890ded11e67c35e7079a6c24d5a8f65296e62/nonebot_plugin_chatpdf-${REALVERSION}.tar.gz"
-SOURCEFILE="nonebot_plugin_chatpdf-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f7/2c/c1ef137a252ae8d566ac010890ded11e67c35e7079a6c24d5a8f65296e62/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

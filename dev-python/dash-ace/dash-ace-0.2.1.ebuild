@@ -15,8 +15,8 @@ DESCRIPTION="Dash Ace Editor Component"
 
 HOMEPAGE="https://github.com/reasoned-ai/dash-ace"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e4/27/3c6332fe93420c3c7316769fb245bf7da46e8299666d50c0d059ee00857a/dash_ace-${REALVERSION}.tar.gz"
-SOURCEFILE="dash_ace-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e4/27/3c6332fe93420c3c7316769fb245bf7da46e8299666d50c0d059ee00857a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

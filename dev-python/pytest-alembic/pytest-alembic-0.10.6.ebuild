@@ -15,8 +15,8 @@ DESCRIPTION="A pytest plugin for verifying alembic migrations."
 
 HOMEPAGE="https://github.com/schireson/pytest-alembic"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5e/aa/39fbd7a89071a6091b7aee0931cd8357be29a4b5d37364319793e9f2052a/pytest_alembic-${REALVERSION}.tar.gz"
-SOURCEFILE="pytest_alembic-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5e/aa/39fbd7a89071a6091b7aee0931cd8357be29a4b5d37364319793e9f2052a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

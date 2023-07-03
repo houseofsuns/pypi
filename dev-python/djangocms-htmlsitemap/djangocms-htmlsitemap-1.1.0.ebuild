@@ -15,8 +15,8 @@ DESCRIPTION="A Django CMS plugin for building HTML sitemaps showing organized li
 
 HOMEPAGE="https://gitlab.com/kapt/open-source/djangocms-htmlsitemap"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/a1/63/1bc3843e527b84aa1dc35eb8d069495f8edc636555b10719a907c9d383df/djangocms_htmlsitemap-${REALVERSION}.tar.gz"
-SOURCEFILE="djangocms_htmlsitemap-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a1/63/1bc3843e527b84aa1dc35eb8d069495f8edc636555b10719a907c9d383df/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

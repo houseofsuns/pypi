@@ -15,8 +15,8 @@ DESCRIPTION="Produces acestream m3u playlist, xml epg or json data."
 
 HOMEPAGE="https://github.com/vstavrinov/acestream_search"
 LICENSE="GNU General Public License v3 GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/6a/4a/18bad3a7e7f8d4ce407737e07099f8f6c521555893d107b017cdc656fb62/acestream_search-${REALVERSION}.tar.gz"
-SOURCEFILE="acestream_search-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6a/4a/18bad3a7e7f8d4ce407737e07099f8f6c521555893d107b017cdc656fb62/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

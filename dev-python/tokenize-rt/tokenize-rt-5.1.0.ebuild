@@ -15,8 +15,8 @@ DESCRIPTION="A wrapper around the stdlib \`tokenize\` which roundtrips."
 
 HOMEPAGE="https://github.com/asottile/tokenize-rt"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/73/07/fe750a9c98b1449fc11f9f2893bff3cd093ddf966441bc126c8ffc75c6f0/tokenize_rt-${REALVERSION}.tar.gz"
-SOURCEFILE="tokenize_rt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/73/07/fe750a9c98b1449fc11f9f2893bff3cd093ddf966441bc126c8ffc75c6f0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

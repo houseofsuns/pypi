@@ -15,8 +15,8 @@ DESCRIPTION="django microsip inventarios fisicos"
 
 HOMEPAGE=""
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/ad/7d/8f6aff5d67185d2a10eb3ca3dd00eec7d29825422371b2c259bc8bb78009/djmicrosip_inventarios-${REALVERSION}.zip"
-SOURCEFILE="djmicrosip_inventarios-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/ad/7d/8f6aff5d67185d2a10eb3ca3dd00eec7d29825422371b2c259bc8bb78009/${REALNAME//-/_}-${REALVERSION}.zip"
+SOURCEFILE="_}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

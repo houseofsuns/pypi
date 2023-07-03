@@ -15,8 +15,8 @@ DESCRIPTION="Tools to analyze the ecology of evolutionary algorithms"
 
 HOMEPAGE="https://github.com/emilydolson/ec_ecology_toolbox"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f5/41/e64e20779373c8f36b2829453369bf984153fa40dd647069fff26cff6cc1/ec_ecology_toolbox-${REALVERSION}.tar.gz"
-SOURCEFILE="ec_ecology_toolbox-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f5/41/e64e20779373c8f36b2829453369bf984153fa40dd647069fff26cff6cc1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

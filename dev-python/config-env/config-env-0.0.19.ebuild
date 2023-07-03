@@ -15,8 +15,8 @@ DESCRIPTION="Manage enviroment variables"
 
 HOMEPAGE="https://github.com/raslanribeiro/config_env"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/12/17/beb20010a1799e1be22c6fa4a9a0896a8407f670c2af19729c294aef52dd/config_env-${REALVERSION}.tar.gz"
-SOURCEFILE="config_env-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/12/17/beb20010a1799e1be22c6fa4a9a0896a8407f670c2af19729c294aef52dd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

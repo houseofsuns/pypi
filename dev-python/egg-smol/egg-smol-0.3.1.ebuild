@@ -15,8 +15,8 @@ DESCRIPTION="e-graphs in Python built around the the egg-smol rust library"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/01/8d/ddb7f81127e13d752412fbc9c6f2823f155ca97da3e6b72c7082be8ddb6d/egg_smol-${REALVERSION}.tar.gz"
-SOURCEFILE="egg_smol-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/01/8d/ddb7f81127e13d752412fbc9c6f2823f155ca97da3e6b72c7082be8ddb6d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

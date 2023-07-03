@@ -15,8 +15,8 @@ DESCRIPTION="Palo Alto Networks Utilities"
 
 HOMEPAGE="https://github.com/dapacruz/panw-utils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/dd/43/542d7edaab09ed45f0e67714bd7d7920c3fe752a9b2994324095ba018091/panw_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="panw_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/dd/43/542d7edaab09ed45f0e67714bd7d7920c3fe752a9b2994324095ba018091/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

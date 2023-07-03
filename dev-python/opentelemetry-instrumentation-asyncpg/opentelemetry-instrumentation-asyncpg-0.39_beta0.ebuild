@@ -15,8 +15,8 @@ DESCRIPTION="OpenTelemetry instrumentation for AsyncPG"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-asyncpg"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/36/c8/16f499673b35b3031b4b81dd7fba79dc514ff9ea40e09c85bda4138af9b0/opentelemetry_instrumentation_asyncpg-${REALVERSION}.tar.gz"
-SOURCEFILE="opentelemetry_instrumentation_asyncpg-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/36/c8/16f499673b35b3031b4b81dd7fba79dc514ff9ea40e09c85bda4138af9b0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

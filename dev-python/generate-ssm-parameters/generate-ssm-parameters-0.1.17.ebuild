@@ -15,8 +15,8 @@ DESCRIPTION="A script for creating AWS SSM Parameters in bulk from a CSV file."
 
 HOMEPAGE="https://github.com/travers-co/generate-ssm-parameters"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7a/3b/7ba962b43050259ac86e13a60062cdafe09fd23276026ce6557e151ec88e/generate_ssm_parameters-${REALVERSION}.tar.gz"
-SOURCEFILE="generate_ssm_parameters-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7a/3b/7ba962b43050259ac86e13a60062cdafe09fd23276026ce6557e151ec88e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="This package help you visualize the ONNX model graph. Client-Server
 
 HOMEPAGE="https://github.com/sleepingsaint/onnx_visualizer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/90/55/42391801f716c0ef324b88ce8971d54081371e13ed528d070fe4769c8eee/onnx_vis-${REALVERSION}.tar.gz"
-SOURCEFILE="onnx_vis-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/90/55/42391801f716c0ef324b88ce8971d54081371e13ed528d070fe4769c8eee/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

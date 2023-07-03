@@ -15,8 +15,8 @@ DESCRIPTION="Interface to Tuya devices over LAN."
 
 HOMEPAGE="https://github.com/gpajot/local-tuya"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6a/ab/a01cb632471db62042ca479ee480f78fcf6a9b344b6888b1ef4de7b1282d/local_tuya-${REALVERSION}.tar.gz"
-SOURCEFILE="local_tuya-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6a/ab/a01cb632471db62042ca479ee480f78fcf6a9b344b6888b1ef4de7b1282d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

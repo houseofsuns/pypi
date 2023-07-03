@@ -15,8 +15,8 @@ DESCRIPTION="Calculates business duration in days, hours, minutes and seconds by
 
 HOMEPAGE="https://github.com/gnaneshwar441/Business_Duration"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e5/1d/12b3bb612a19d20ca2d9fe7ebfc80ab6b9e1d5d575c6a3dcd121c7cbfed4/business_duration-${REALVERSION}.tar.gz"
-SOURCEFILE="business_duration-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e5/1d/12b3bb612a19d20ca2d9fe7ebfc80ab6b9e1d5d575c6a3dcd121c7cbfed4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

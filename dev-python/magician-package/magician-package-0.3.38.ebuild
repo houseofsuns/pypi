@@ -15,8 +15,8 @@ DESCRIPTION="A small example package for text mining application with hyper-para
 
 HOMEPAGE="https://github.com/ai-se/magician_package"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/65/60/85688a418640e41141a48e074070cc584dfadce236dbdd935371d74d9784/magician_package-${REALVERSION}.tar.gz"
-SOURCEFILE="magician_package-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/65/60/85688a418640e41141a48e074070cc584dfadce236dbdd935371d74d9784/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

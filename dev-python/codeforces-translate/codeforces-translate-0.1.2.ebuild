@@ -15,8 +15,8 @@ DESCRIPTION="codeforces 翻译"
 
 HOMEPAGE="https://github.com/therehello/codeforces-translate"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/94/da/6cb4002b8a464d25614bbc6e18794b52c9d99ddd01e98dfdc4c8900f0c4a/codeforces_translate-${REALVERSION}.tar.gz"
-SOURCEFILE="codeforces_translate-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/94/da/6cb4002b8a464d25614bbc6e18794b52c9d99ddd01e98dfdc4c8900f0c4a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

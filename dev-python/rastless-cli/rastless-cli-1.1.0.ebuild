@@ -15,8 +15,8 @@ DESCRIPTION="A cli for managing data and user access for the cloud application r
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1b/f6/6895808c084ef7952a6fa5253db079ffdb9c9d6abed1d0e6cb733a9aa386/rastless_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="rastless_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1b/f6/6895808c084ef7952a6fa5253db079ffdb9c9d6abed1d0e6cb733a9aa386/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Fake deployment and data generator"
 
 HOMEPAGE="https://github.com/mlrun/metrics-gen"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/21/e1/6589e069013cd67673526803f91feb7259e8ce5892abac5ee2445f9511f9/metrics_gen-${REALVERSION}.tar.gz"
-SOURCEFILE="metrics_gen-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/21/e1/6589e069013cd67673526803f91feb7259e8ce5892abac5ee2445f9511f9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

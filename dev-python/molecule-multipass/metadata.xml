@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># `molecule-multipass`## DescriptionThis is a `molecule` plugin for using `multipass` as a provider.## Usage```bashpip install molecule-multipass```### DependenciesInstall `multipass`:```bashbrew install --cask multipass```## Example scenario```bashmolecule init scenario scenario_name -d molecule_multipass```## Example `molecule.yml````yaml---dependency:  name: galaxydriver:  name: molecule_multipassplatforms:  - name: instanceprovisioner:  name: ansibleverifier:  name: ansible```# Referencehttps://github.com/andreygubarev/molecule-multipass&gt; Source code for molecule-multipasshttps://pypi.org/project/molecule-multipass/&gt; Molecule Multipass Providerhttps://www.ansible.com/&gt; Ansible is a suite of software tools that enables infrastructure as code.https://molecule.readthedocs.io/&gt; Molecule project is designed to aid in the development and testing of Ansible roles.https://multipass.run/&gt; Ubuntu VMs on demand for any workstationhttps://github.com/ansible-community/molecule-libvirt&gt; Molecule LibVirt Providerhttps://github.com/ansible-community/molecule-plugins&gt; Collection on molecule plugins</longdescription>
+</pkgmetadata>

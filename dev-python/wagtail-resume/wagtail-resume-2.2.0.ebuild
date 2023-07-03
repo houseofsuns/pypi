@@ -15,8 +15,8 @@ DESCRIPTION="A Wagtail project made to simplify creation of resumes for develope
 
 HOMEPAGE="https://github.com/adinhodovic/wagtail-resume"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/df/b9/c1e8acef32d06ce1b8d8742e3185d1e82bdf7c253ba06331b928bf260277/wagtail_resume-${REALVERSION}.tar.gz"
-SOURCEFILE="wagtail_resume-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/df/b9/c1e8acef32d06ce1b8d8742e3185d1e82bdf7c253ba06331b928bf260277/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

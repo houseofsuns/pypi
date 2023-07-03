@@ -15,8 +15,8 @@ DESCRIPTION="StyleGan2 in Pytorch"
 
 HOMEPAGE="https://github.com/lucidrains/stylegan2-pytorch"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/45/ff/096b7217efab1cab97fe566b2cb5857f5c8dfe5d53bdaa51ee62f65ef649/stylegan2_pytorch-${REALVERSION}.tar.gz"
-SOURCEFILE="stylegan2_pytorch-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/45/ff/096b7217efab1cab97fe566b2cb5857f5c8dfe5d53bdaa51ee62f65ef649/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

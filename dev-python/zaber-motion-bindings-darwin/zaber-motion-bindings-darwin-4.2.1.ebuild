@@ -15,8 +15,8 @@ DESCRIPTION="Mac OS bindings for Zaber Motion Library"
 
 HOMEPAGE="https://gitlab.com/ZaberTech/zaber-motion-lib"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/97/5b/b7b792ad6ac8cff2ca2e41fcd0baadee12d98071da0b4ed47c27e0eea24d/zaber_motion_bindings_darwin-${REALVERSION}.tar.gz"
-SOURCEFILE="zaber_motion_bindings_darwin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/97/5b/b7b792ad6ac8cff2ca2e41fcd0baadee12d98071da0b4ed47c27e0eea24d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

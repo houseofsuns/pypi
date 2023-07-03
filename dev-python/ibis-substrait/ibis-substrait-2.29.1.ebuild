@@ -15,8 +15,8 @@ DESCRIPTION="Subtrait compiler for ibis"
 
 HOMEPAGE="https://github.com/ibis-project/ibis-substrait"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/8e/1d/dead3380e9335ad662fa852959cd311cef912e22f78e3377ad492ad736e1/ibis_substrait-${REALVERSION}.tar.gz"
-SOURCEFILE="ibis_substrait-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8e/1d/dead3380e9335ad662fa852959cd311cef912e22f78e3377ad492ad736e1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

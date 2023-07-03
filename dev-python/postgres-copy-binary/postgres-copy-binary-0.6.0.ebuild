@@ -15,8 +15,8 @@ DESCRIPTION="Provides a decoder for postgres COPY FROM WITH BINARY format that p
 
 HOMEPAGE="https://github.com/grihabor/postgres-copy-binary"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cb/c2/0dcdf0bab6c34df5157140c8e1d4296430a4d485635639b8daf77b0732a1/postgres_copy_binary-${REALVERSION}.tar.gz"
-SOURCEFILE="postgres_copy_binary-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cb/c2/0dcdf0bab6c34df5157140c8e1d4296430a4d485635639b8daf77b0732a1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

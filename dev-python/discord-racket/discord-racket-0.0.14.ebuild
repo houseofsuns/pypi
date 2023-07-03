@@ -15,8 +15,8 @@ DESCRIPTION="Discord bot utility framework."
 
 HOMEPAGE="https://github.com/burtonwilliamt/racket"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/52/41/9c846bb3ff12e62cc01fffbacffcfad3fa57508e0e0ff62147e2025757e2/discord_racket-${REALVERSION}.tar.gz"
-SOURCEFILE="discord_racket-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/52/41/9c846bb3ff12e62cc01fffbacffcfad3fa57508e0e0ff62147e2025757e2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

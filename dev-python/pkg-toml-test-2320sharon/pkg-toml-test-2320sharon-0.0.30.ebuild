@@ -15,8 +15,8 @@ DESCRIPTION="A Global shoreline mapping tool from satellite imagery"
 
 HOMEPAGE="https://github.com/kvos/CoastSat"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b8/a0/27a7bf8cd2730dc780eb7ff4fff180de50c9368d42609d67d7a7aa7c3beb/pkg_toml_test_2320sharon-${REALVERSION}.tar.gz"
-SOURCEFILE="pkg_toml_test_2320sharon-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b8/a0/27a7bf8cd2730dc780eb7ff4fff180de50c9368d42609d67d7a7aa7c3beb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

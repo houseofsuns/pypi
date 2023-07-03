@@ -15,8 +15,8 @@ DESCRIPTION="Build neural networks in 1 line"
 
 HOMEPAGE="https://github.com/p-christ/nn_builder"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6f/2e/4db9d142ad6c39a91503bdde1bb1f0d8ebe796dc4de34dabc335de0a7781/nn_builder-${REALVERSION}.tar.gz"
-SOURCEFILE="nn_builder-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6f/2e/4db9d142ad6c39a91503bdde1bb1f0d8ebe796dc4de34dabc335de0a7781/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

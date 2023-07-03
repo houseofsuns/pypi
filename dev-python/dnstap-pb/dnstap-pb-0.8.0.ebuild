@@ -15,8 +15,8 @@ DESCRIPTION="Dnstap Protocol Buffers implementation in Python"
 
 HOMEPAGE="https://github.com/dmachard/python-dnstap-protobuf"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5e/6d/86af123d749a528ebc9655806d8a8f7704d7193a96a98fd759f1c4c280e8/dnstap_pb-${REALVERSION}.tar.gz"
-SOURCEFILE="dnstap_pb-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5e/6d/86af123d749a528ebc9655806d8a8f7704d7193a96a98fd759f1c4c280e8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

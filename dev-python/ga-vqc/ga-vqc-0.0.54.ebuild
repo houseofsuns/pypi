@@ -15,8 +15,8 @@ DESCRIPTION="Genetic Algorithm for VQC ansatz search."
 
 HOMEPAGE="https://github.com/tcoulvert/GA_Ansatz_Search"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/91/65/5160bffaa0732bcdee7e9171d01d2d8b7e3322d626c47365e8fb8a21afa9/ga_vqc-${REALVERSION}.tar.gz"
-SOURCEFILE="ga_vqc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/91/65/5160bffaa0732bcdee7e9171d01d2d8b7e3322d626c47365e8fb8a21afa9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Pharmacokinetic modelling of drug delivery"
 
 HOMEPAGE="https://github.com/mwhitemfldm/zxara_PK"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/af/d2/ddd493f865143b391f212a5f708997bce30779193f1ae35bd7a2b0f83c46/pkmodel_zxara-${REALVERSION}.tar.gz"
-SOURCEFILE="pkmodel_zxara-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/af/d2/ddd493f865143b391f212a5f708997bce30779193f1ae35bd7a2b0f83c46/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

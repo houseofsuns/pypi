@@ -15,8 +15,8 @@ DESCRIPTION="Pyramid plugin for openapi spec generation"
 
 HOMEPAGE="https://github.com/ergo/pyramid_apispec"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/a7/8d/8a48ad8ddb056d365602df00ecf4aad75ea543c1ca029254214f1ee2ee4b/pyramid_apispec-${REALVERSION}.tar.gz"
-SOURCEFILE="pyramid_apispec-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a7/8d/8a48ad8ddb056d365602df00ecf4aad75ea543c1ca029254214f1ee2ee4b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

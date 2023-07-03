@@ -15,8 +15,8 @@ DESCRIPTION="pyppeteer stealth"
 
 HOMEPAGE="https://github.com/MeiK2333/pyppeteer-stealth"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f8/64/ae51d6c88406ab8a685b0c83af9fc6ef4275982f391258d9167ddde88cf1/pyppeteer_stealth-${REALVERSION}.tar.gz"
-SOURCEFILE="pyppeteer_stealth-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f8/64/ae51d6c88406ab8a685b0c83af9fc6ef4275982f391258d9167ddde88cf1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

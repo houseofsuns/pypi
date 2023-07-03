@@ -15,8 +15,8 @@ DESCRIPTION="Standalone cython_bbox"
 
 HOMEPAGE="https://github.com/samson-wang/cython_bbox.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fa/b9/fc7d60e8c3b29cc0ff24a3bb3c4b7457e10b7610fbb2893741b623487b34/cython_bbox-${REALVERSION}.tar.gz"
-SOURCEFILE="cython_bbox-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fa/b9/fc7d60e8c3b29cc0ff24a3bb3c4b7457e10b7610fbb2893741b623487b34/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

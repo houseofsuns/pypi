@@ -15,8 +15,8 @@ DESCRIPTION="A pool of coroutine functions."
 
 HOMEPAGE="https://github.com/smithk86/asyncio-pool-ng"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/50/f8/ef56d70f5be4245e3af21ea51a6841fe7c16a5d7b4cd1f0f7aaeb2a0f8e3/asyncio_pool_ng-${REALVERSION}.tar.gz"
-SOURCEFILE="asyncio_pool_ng-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/50/f8/ef56d70f5be4245e3af21ea51a6841fe7c16a5d7b4cd1f0f7aaeb2a0f8e3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

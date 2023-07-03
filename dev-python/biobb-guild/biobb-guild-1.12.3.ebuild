@@ -15,8 +15,8 @@ DESCRIPTION="Biobb_Guild is use case to build a prioritize PPI Network through D
 
 HOMEPAGE="https://github.com/mapoferri/Biobb_Guild"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/62/17/f6b2c894eefd7284197fc6ce03b5929ed4918a2012424c2ab01aeb71f7d6/biobb_guild-${REALVERSION}.tar.gz"
-SOURCEFILE="biobb_guild-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/62/17/f6b2c894eefd7284197fc6ce03b5929ed4918a2012424c2ab01aeb71f7d6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

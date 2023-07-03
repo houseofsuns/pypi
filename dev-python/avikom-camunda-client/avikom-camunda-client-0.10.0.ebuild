@@ -15,8 +15,8 @@ DESCRIPTION="A python client for Camunda to process external service tasks."
 
 HOMEPAGE="https://www.avikom.app"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/34/48/cbe124226eedc8af9bcbbeef43987e44fd4963d5a76bda178ce2e8a67b81/avikom_camunda_client-${REALVERSION}.tar.gz"
-SOURCEFILE="avikom_camunda_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/34/48/cbe124226eedc8af9bcbbeef43987e44fd4963d5a76bda178ce2e8a67b81/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

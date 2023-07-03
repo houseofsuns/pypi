@@ -15,8 +15,8 @@ DESCRIPTION="⭐ AWS CloudFormation deployment for human, Enable terraform plan,
 
 HOMEPAGE="https://github.com/MacHu-GWU/aws_cloudformation-project"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a8/19/437fe6f08f25e3cbe71c9746179d47b9b54f6d539afbf37f0dbea7ae95a7/aws_cloudformation-${REALVERSION}.tar.gz"
-SOURCEFILE="aws_cloudformation-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a8/19/437fe6f08f25e3cbe71c9746179d47b9b54f6d539afbf37f0dbea7ae95a7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

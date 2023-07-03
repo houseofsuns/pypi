@@ -15,8 +15,8 @@ DESCRIPTION="Perform automated Bing Rewards searches"
 
 HOMEPAGE="https://github.com/jack-mil/bing-rewards"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/48/eb/6e5a189252f02fc8cb377477672adfd47ab0e4701a68b2b2982ff85ea75c/bing_rewards-${REALVERSION}.tar.gz"
-SOURCEFILE="bing_rewards-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/48/eb/6e5a189252f02fc8cb377477672adfd47ab0e4701a68b2b2982ff85ea75c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

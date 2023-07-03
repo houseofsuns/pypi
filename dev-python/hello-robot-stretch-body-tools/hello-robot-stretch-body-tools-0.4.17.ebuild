@@ -15,8 +15,8 @@ DESCRIPTION="Stretch Body Tools"
 
 HOMEPAGE="https://github.com/hello-robot/stretch_body"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7f/bb/f5e7152ee6c4bbaa360c0e0981e1450e41620396c5ca11555fe575cbcb93/hello_robot_stretch_body_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="hello_robot_stretch_body_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7f/bb/f5e7152ee6c4bbaa360c0e0981e1450e41620396c5ca11555fe575cbcb93/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

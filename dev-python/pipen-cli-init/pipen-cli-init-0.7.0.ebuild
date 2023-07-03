@@ -15,8 +15,8 @@ DESCRIPTION="A pipen cli plugin to create a pipen project (pipeline)"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/70/63/5f1b1b0a5eab6e9a241adda7a8692dd60e00e426f7c4551c9c9c18e32b03/pipen_cli_init-${REALVERSION}.tar.gz"
-SOURCEFILE="pipen_cli_init-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/70/63/5f1b1b0a5eab6e9a241adda7a8692dd60e00e426f7c4551c9c9c18e32b03/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

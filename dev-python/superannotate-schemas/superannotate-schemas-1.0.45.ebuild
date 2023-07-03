@@ -15,8 +15,8 @@ DESCRIPTION="SuperAnnotate JSON Schemas"
 
 HOMEPAGE="https://www.superannotate.com/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bb/5c/609592c6e042946f96e7ddec61708e870b45ff18b2ab61c3583bd85eaefd/superannotate_schemas-${REALVERSION}.tar.gz"
-SOURCEFILE="superannotate_schemas-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bb/5c/609592c6e042946f96e7ddec61708e870b45ff18b2ab61c3583bd85eaefd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

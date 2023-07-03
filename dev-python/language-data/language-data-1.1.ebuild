@@ -15,8 +15,8 @@ DESCRIPTION="Supplementary data about languages used by the langcodes module"
 
 HOMEPAGE="https://github.com/rspeer/language_data"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f4/ef/b2176538ebb01ac7c08b29c9d8cf878275ff98a4e717c57ee8123c373424/language_data-${REALVERSION}.tar.gz"
-SOURCEFILE="language_data-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f4/ef/b2176538ebb01ac7c08b29c9d8cf878275ff98a4e717c57ee8123c373424/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

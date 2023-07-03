@@ -15,8 +15,8 @@ DESCRIPTION="A library for python dependency specifiers, better known as PEP 508
 
 HOMEPAGE=""
 LICENSE="Apache-2.0 OR BSD-2-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/1d/2e/1eadd0590412dcca3ba6b33653f8d8bbf742de38a9fa22e5aa61d3dce959/pep508_rs-${REALVERSION}.tar.gz"
-SOURCEFILE="pep508_rs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1d/2e/1eadd0590412dcca3ba6b33653f8d8bbf742de38a9fa22e5aa61d3dce959/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

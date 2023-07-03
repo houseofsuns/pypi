@@ -15,8 +15,8 @@ DESCRIPTION="Rosette API Python client SDK"
 
 HOMEPAGE="https://github.com/rosette-api/python"
 LICENSE="Apache License"
-SRC_URI="https://files.pythonhosted.org/packages/7b/0e/8582c14b2028ef4e256d110dd36f4b04edca926459d29aa68a15ebba47d0/rosette_api-${REALVERSION}.tar.gz"
-SOURCEFILE="rosette_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7b/0e/8582c14b2028ef4e256d110dd36f4b04edca926459d29aa68a15ebba47d0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Use C and Swig to Speed up jieba<Chinese Words Segementation Utilit
 
 HOMEPAGE="https://github.com/deepcs233/jieba_fast"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/87/6f/9c22f7b0ecc043f8e7d324e30767fdc9ce8d3cf5fd66e60823dd2b84432e/jieba_fast-${REALVERSION}.tar.gz"
-SOURCEFILE="jieba_fast-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/87/6f/9c22f7b0ecc043f8e7d324e30767fdc9ce8d3cf5fd66e60823dd2b84432e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

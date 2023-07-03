@@ -15,8 +15,8 @@ DESCRIPTION="Zoho CRM SDK for Python developers"
 
 HOMEPAGE="https://github.com/zoho/zohocrm-python-sdk-2.0"
 LICENSE="Apache Software License, Version 2.0, http://www.apache.org/licenses/LICENSE-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/02/36/1fe6e9c627e3e22acd0dd11fcaeaf607202bb0280f4a9596a3bd72e89c28/zohocrmsdk2_0-${REALVERSION}.tar.gz"
-SOURCEFILE="zohocrmsdk2_0-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/02/36/1fe6e9c627e3e22acd0dd11fcaeaf607202bb0280f4a9596a3bd72e89c28/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

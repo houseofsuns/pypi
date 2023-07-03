@@ -15,8 +15,8 @@ DESCRIPTION="A DSL for defining source code pretty printers"
 
 HOMEPAGE="https://docs.rs/typeset/latest/typeset/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b5/03/119d516ddf278e9a73fa3dd5064019fab9b53a2785c6872b98220b4251d1/typeset_soren_n-${REALVERSION}.tar.gz"
-SOURCEFILE="typeset_soren_n-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b5/03/119d516ddf278e9a73fa3dd5064019fab9b53a2785c6872b98220b4251d1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

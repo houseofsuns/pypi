@@ -15,8 +15,8 @@ DESCRIPTION="Python Client for European XFEL Calibration Catalogue Web App avail
 
 HOMEPAGE="https://git.xfel.eu/ITDM/calibration_client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/07/30/68ca46efd43be3d78d2d1622c056118373203e149f3ddb522833a31b9edd/calibration_client-${REALVERSION}.tar.gz"
-SOURCEFILE="calibration_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/07/30/68ca46efd43be3d78d2d1622c056118373203e149f3ddb522833a31b9edd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

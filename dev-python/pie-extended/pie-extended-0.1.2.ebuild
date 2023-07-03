@@ -15,8 +15,8 @@ DESCRIPTION="Extension for nlp-pie package"
 
 HOMEPAGE="https://github.com/hipster-philology/nlp-pie-taggers"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/02/95/4fee65f85fc39cb573a5e71737583c78e2b51e6da097a13d31aed6b80b42/pie_extended-${REALVERSION}.tar.gz"
-SOURCEFILE="pie_extended-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/02/95/4fee65f85fc39cb573a5e71737583c78e2b51e6da097a13d31aed6b80b42/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

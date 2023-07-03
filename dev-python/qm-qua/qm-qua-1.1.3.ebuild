@@ -15,8 +15,8 @@ DESCRIPTION="QUA language SDK to control a Quantum Computer"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ab/0f/42d20f3374bb02a1dd952e729f232fdcb164fcf9b54cf56d588d20f8fd33/qm_qua-${REALVERSION}.tar.gz"
-SOURCEFILE="qm_qua-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ab/0f/42d20f3374bb02a1dd952e729f232fdcb164fcf9b54cf56d588d20f8fd33/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

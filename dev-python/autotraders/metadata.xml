@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Autotraders[![Downloads](https://static.pepy.tech/badge/autotraders)](https://pepy.tech/project/autotraders)[![Python package](https://github.com/cosmictraders/autotraders/actions/workflows/python-package.yml/badge.svg)](https://github.com/cosmictraders/autotraders/actions/workflows/python-package.yml)A spacetraders API focused on automation and ease of use## UsageFirst you need a client, which can be generated ```pythonfrom autotraders import sessions = session.get_session(&quot;YOUR_TOKEN_HERE&quot;)```And now you're all set to use they actual API.## Ships```pythonfrom autotraders.ship import Ship, get_all_ships# create a session hereship = Ship(&quot;SYMBOL-Here&quot;, session)  # This makes an API requestships = get_all_ships(session)  # This also only makes one API requestship.dock()ship.refuel()ship.orbit()  # All these functions make API calls (one each), but the line below doesn'tprint(ship.fuel.current + &quot;/&quot; + ship.fuel.total)```## Contract```pythonfrom autotraders.faction.contract import Contract, get_all_contracts# create a session herecontract = Contract(&quot;id-here&quot;, session)contracts = get_all_contracts(session)contract.accept()print(contract.accepted) # Truecontract.deliver(&quot;SHIP_SYMBOL&quot;, &quot;ALUMINUM_ORE&quot;, 30)contract.fulfill()print(contract.fulfilled) # True```</longdescription>
+</pkgmetadata>

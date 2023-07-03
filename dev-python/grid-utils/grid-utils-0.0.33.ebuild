@@ -15,8 +15,8 @@ DESCRIPTION="Data grid related utils"
 
 HOMEPAGE="https://github.com/claydodo/grid_utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2d/17/1797cfa841003443b8106dd420f9a08a25c6f3080caa54e5df344c0223c7/grid_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="grid_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2d/17/1797cfa841003443b8106dd420f9a08a25c6f3080caa54e5df344c0223c7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

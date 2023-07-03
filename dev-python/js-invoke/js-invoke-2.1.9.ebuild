@@ -15,8 +15,8 @@ DESCRIPTION="Invoke Task Library"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/21/1d/9890cb7bbe511beab331633f95de35278b56f81634365ca802cf975f5930/js_invoke-${REALVERSION}.tar.gz"
-SOURCEFILE="js_invoke-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/21/1d/9890cb7bbe511beab331633f95de35278b56f81634365ca802cf975f5930/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

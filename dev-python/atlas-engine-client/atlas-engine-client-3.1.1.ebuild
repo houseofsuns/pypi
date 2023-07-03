@@ -15,8 +15,8 @@ DESCRIPTION="A Client for the workflow engine of the ProcessCube platform."
 
 HOMEPAGE="https://github.com/atlas-engine/Client.py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b1/e8/87627aae56e924bd44d5c42da730faa52274a120d6e5cf4679bb6f7af733/atlas_engine_client-${REALVERSION}.tar.gz"
-SOURCEFILE="atlas_engine_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b1/e8/87627aae56e924bd44d5c42da730faa52274a120d6e5cf4679bb6f7af733/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

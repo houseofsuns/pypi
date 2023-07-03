@@ -15,8 +15,8 @@ DESCRIPTION="A wrapper to conveniently store nested Python dictionaries in hdf5 
 
 HOMEPAGE="https://github.com/INM-6/h5py_wrapper"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/0e/6a/3c31aa1f428c0aca3140168e5fb74f2f59d6bca173cb95da7fc6db2674a8/h5py_wrapper-${REALVERSION}.tar.gz"
-SOURCEFILE="h5py_wrapper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0e/6a/3c31aa1f428c0aca3140168e5fb74f2f59d6bca173cb95da7fc6db2674a8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

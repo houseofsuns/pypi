@@ -15,8 +15,8 @@ DESCRIPTION="Tools for doing model runs with views"
 
 HOMEPAGE="https://www.github.com/prio-data/views_runs"
 LICENSE="CC-BY-NC"
-SRC_URI="https://files.pythonhosted.org/packages/97/48/81d6938048159029456a98889dfd9bf970965cffe3d949382548482685bc/views_runs-${REALVERSION}.tar.gz"
-SOURCEFILE="views_runs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/97/48/81d6938048159029456a98889dfd9bf970965cffe3d949382548482685bc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

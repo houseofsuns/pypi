@@ -15,8 +15,8 @@ DESCRIPTION="Producer for AWS Kinesis Stream with record aggregation"
 
 HOMEPAGE="https://github.com/ludia/kinesis_producer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/80/46/6dbba56b6f038e90246b926fd01f384e5fbea3c32a048597c6f2e1d44611/kinesis_producer-${REALVERSION}.tar.gz"
-SOURCEFILE="kinesis_producer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/80/46/6dbba56b6f038e90246b926fd01f384e5fbea3c32a048597c6f2e1d44611/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

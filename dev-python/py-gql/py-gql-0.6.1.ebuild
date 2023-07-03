@@ -15,8 +15,8 @@ DESCRIPTION="Comprehensive GraphQL implementation for Python."
 
 HOMEPAGE="https://github.com/lirsacc/py-gql"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/51/f3/c299e8f6de546c3d2540da076c4437bdff32c24014c91e2437b4ade9ec8c/py_gql-${REALVERSION}.tar.gz"
-SOURCEFILE="py_gql-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/51/f3/c299e8f6de546c3d2540da076c4437bdff32c24014c91e2437b4ade9ec8c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

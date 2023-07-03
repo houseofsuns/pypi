@@ -15,8 +15,8 @@ DESCRIPTION="Flamingos 2 - Probe Detector"
 
 HOMEPAGE="https://gitlab.gemini.edu/DRSoftware/gemaux_python/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2e/76/003190b262b5f94f0f780c0b5f5bdb65cf93cdb707c16bda8ea880c911f8/f2_probe_detector-${REALVERSION}.tar.gz"
-SOURCEFILE="f2_probe_detector-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2e/76/003190b262b5f94f0f780c0b5f5bdb65cf93cdb707c16bda8ea880c911f8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

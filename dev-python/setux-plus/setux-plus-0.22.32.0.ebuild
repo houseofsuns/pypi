@@ -15,8 +15,8 @@ DESCRIPTION="System deployment"
 
 HOMEPAGE="https://notabug.org/dugres/setux_plus"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/22/81/5073307d0567f030a6f6958781ebd6cb656ec335d1cfe114c29c58534537/setux_plus-${REALVERSION}.tar.gz"
-SOURCEFILE="setux_plus-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/22/81/5073307d0567f030a6f6958781ebd6cb656ec335d1cfe114c29c58534537/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

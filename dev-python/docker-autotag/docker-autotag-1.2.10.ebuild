@@ -15,8 +15,8 @@ DESCRIPTION="Creates a list of docker tags from a given version string."
 
 HOMEPAGE="https://github.com/thegeeklab/docker-autotag/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/27/9d/60cb4caf307d3ec5756dc3a0208e1116ce1154d014d97c54a8b33eb15ead/docker_autotag-${REALVERSION}.tar.gz"
-SOURCEFILE="docker_autotag-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/27/9d/60cb4caf307d3ec5756dc3a0208e1116ce1154d014d97c54a8b33eb15ead/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

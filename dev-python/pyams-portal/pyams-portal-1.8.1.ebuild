@@ -15,8 +15,8 @@ DESCRIPTION="PyAMS portlets management package"
 
 HOMEPAGE="https://pyams.readthedocs.io"
 LICENSE="ZPL"
-SRC_URI="https://files.pythonhosted.org/packages/ee/c9/b12b38afbb18b5c573a12b97264a19af29e326818b7e2131ca0cc8a96dc4/pyams_portal-${REALVERSION}.tar.gz"
-SOURCEFILE="pyams_portal-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ee/c9/b12b38afbb18b5c573a12b97264a19af29e326818b7e2131ca0cc8a96dc4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

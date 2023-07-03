@@ -15,8 +15,8 @@ DESCRIPTION="Aiven.io client library / command-line client"
 
 HOMEPAGE="https://github.com/aiven/aiven-client"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d4/85/cf96c822d14517b65bed9928c594cfb9d87b5eafe42ffe45d4ef39f21093/aiven_client-${REALVERSION}.tar.gz"
-SOURCEFILE="aiven_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d4/85/cf96c822d14517b65bed9928c594cfb9d87b5eafe42ffe45d4ef39f21093/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

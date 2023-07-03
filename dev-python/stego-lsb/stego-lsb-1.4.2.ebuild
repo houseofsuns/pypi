@@ -15,8 +15,8 @@ DESCRIPTION="stego lsb"
 
 HOMEPAGE="https://github.com/ragibson/Steganography"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/29/12/6f8c397943df22e902312fecf9c0657a3561f1781b4120dec3e1e77ec88f/stego_lsb-${REALVERSION}.tar.gz"
-SOURCEFILE="stego_lsb-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/29/12/6f8c397943df22e902312fecf9c0657a3561f1781b4120dec3e1e77ec88f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

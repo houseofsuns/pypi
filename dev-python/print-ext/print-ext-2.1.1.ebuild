@@ -15,8 +15,8 @@ DESCRIPTION="Extensions to the print function for pretty-printing with a layout 
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e1/74/370f569ba2be8846546451051a2d626e942b653e573edbffe822676154cd/print_ext-${REALVERSION}.tar.gz"
-SOURCEFILE="print_ext-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e1/74/370f569ba2be8846546451051a2d626e942b653e573edbffe822676154cd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

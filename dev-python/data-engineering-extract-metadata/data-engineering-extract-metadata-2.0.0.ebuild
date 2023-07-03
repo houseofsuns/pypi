@@ -15,8 +15,8 @@ DESCRIPTION="A python package for extracting and formatting table metadata from 
 
 HOMEPAGE="https://github.com/moj-analytical-services/data-engineering-extract-metadata"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2a/ff/c6520ce94dd8378a31ba54e40414ce87253dddac29d6300e4e85a35b4ab3/data_engineering_extract_metadata-${REALVERSION}.tar.gz"
-SOURCEFILE="data_engineering_extract_metadata-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2a/ff/c6520ce94dd8378a31ba54e40414ce87253dddac29d6300e4e85a35b4ab3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

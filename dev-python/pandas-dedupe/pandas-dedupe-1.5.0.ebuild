@@ -15,8 +15,8 @@ DESCRIPTION="The Dedupe library made easy with Pandas."
 
 HOMEPAGE="https://github.com/Lyonk71/pandas-dedupe"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/45/1f/f24ba1dbb5ff59f07dc8829c9d80c3ff9d1d4367f21d7d482243a92f3f4e/pandas_dedupe-${REALVERSION}.tar.gz"
-SOURCEFILE="pandas_dedupe-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/45/1f/f24ba1dbb5ff59f07dc8829c9d80c3ff9d1d4367f21d7d482243a92f3f4e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

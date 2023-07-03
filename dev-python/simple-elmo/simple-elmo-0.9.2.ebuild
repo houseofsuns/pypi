@@ -15,8 +15,8 @@ DESCRIPTION="Handy library to work with pre-trained ELMo embeddings in TensorFlo
 
 HOMEPAGE="https://github.com/ltgoslo/simple_elmo"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/11/c3/9053831e91d9c51adf2fe377a694ecc0682c927c829adfa104b87a99d839/simple_elmo-${REALVERSION}.tar.gz"
-SOURCEFILE="simple_elmo-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/11/c3/9053831e91d9c51adf2fe377a694ecc0682c927c829adfa104b87a99d839/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

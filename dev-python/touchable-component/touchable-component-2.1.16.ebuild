@@ -15,8 +15,8 @@ DESCRIPTION="Component to acquire coordinates and movements for smartphones"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2e/08/d6c2b89d4a2c97c1b13b40a560eea95fd2e1f79e56ce673c8dddef207b6d/touchable_component-${REALVERSION}.tar.gz"
-SOURCEFILE="touchable_component-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2e/08/d6c2b89d4a2c97c1b13b40a560eea95fd2e1f79e56ce673c8dddef207b6d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

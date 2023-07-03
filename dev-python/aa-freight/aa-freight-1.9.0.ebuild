@@ -15,8 +15,8 @@ DESCRIPTION="Freight is an Alliance Auth app for running a freight service"
 
 HOMEPAGE="https://gitlab.com/ErikKalkoken/aa-freight"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8b/d5/e632782f40e48007fb3cd63c5e753c4a356c305a6071aa7aa59468847cb7/aa_freight-${REALVERSION}.tar.gz"
-SOURCEFILE="aa_freight-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8b/d5/e632782f40e48007fb3cd63c5e753c4a356c305a6071aa7aa59468847cb7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

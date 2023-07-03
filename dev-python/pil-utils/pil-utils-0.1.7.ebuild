@@ -15,8 +15,8 @@ DESCRIPTION="A simple PIL wrapper and text-to-image tool"
 
 HOMEPAGE="https://github.com/MeetWq/pil-utils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/83/bc/29163ff913798e2f4fd1526f12f9d76982dd9cd1c3198e30d694f7acd98a/pil_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="pil_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/83/bc/29163ff913798e2f4fd1526f12f9d76982dd9cd1c3198e30d694f7acd98a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

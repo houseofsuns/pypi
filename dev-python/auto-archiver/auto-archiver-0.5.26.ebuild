@@ -15,8 +15,8 @@ DESCRIPTION="Easily archive online media content"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c5/d9/7b1d79f2bb3fea433af261a28824ac7afb75d328e6419e94c68931e1d7f4/auto_archiver-${REALVERSION}.tar.gz"
-SOURCEFILE="auto_archiver-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c5/d9/7b1d79f2bb3fea433af261a28824ac7afb75d328e6419e94c68931e1d7f4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

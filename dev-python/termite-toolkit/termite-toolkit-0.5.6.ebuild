@@ -15,8 +15,8 @@ DESCRIPTION="scibite-toolkit - python library for calling TERMite, TExpress and 
 
 HOMEPAGE="https://github.com/elsevier-health/scibite-toolkit"
 LICENSE="Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License"
-SRC_URI="https://files.pythonhosted.org/packages/87/b8/1f98f9adc77bc6fc0c66e1af2974b289d9d49c06342aaab34f33d75d1f3b/termite_toolkit-${REALVERSION}.tar.gz"
-SOURCEFILE="termite_toolkit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/87/b8/1f98f9adc77bc6fc0c66e1af2974b289d9d49c06342aaab34f33d75d1f3b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

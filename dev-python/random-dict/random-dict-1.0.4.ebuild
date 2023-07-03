@@ -15,8 +15,8 @@ DESCRIPTION="Simple python package to generate random dictionaries of given type
 
 HOMEPAGE="https://github.com/LucaCappelletti94/random_dict"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/28/fb/62fcd4ad3ff0d52841d0f0573f135c6b561a85ab8350fcf1d3072087a8e1/random_dict-${REALVERSION}.tar.gz"
-SOURCEFILE="random_dict-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/28/fb/62fcd4ad3ff0d52841d0f0573f135c6b561a85ab8350fcf1d3072087a8e1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

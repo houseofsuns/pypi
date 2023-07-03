@@ -15,8 +15,8 @@ DESCRIPTION="A flake8 plugin to ban PEP-420 implicit namespace packages."
 
 HOMEPAGE="https://github.com/adamchainz/flake8-no-pep420"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6f/c0/8887019fc82898ff6b02ecf847603e0b7d94e337c9bccc4b85581b67f0c1/flake8_no_pep420-${REALVERSION}.tar.gz"
-SOURCEFILE="flake8_no_pep420-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6f/c0/8887019fc82898ff6b02ecf847603e0b7d94e337c9bccc4b85581b67f0c1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

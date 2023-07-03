@@ -15,8 +15,8 @@ DESCRIPTION="Multimodal Extension Library for PyTorch HuggingFace Transformers"
 
 HOMEPAGE="https://github.com/georgianpartners/Multimodal-Toolkit"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/39/fd/dae32c91cf7936cae0f2131f28bebab5b65d78b27e4a2aa47ae66a5a18ba/multimodal_transformers-${REALVERSION}.tar.gz"
-SOURCEFILE="multimodal_transformers-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/39/fd/dae32c91cf7936cae0f2131f28bebab5b65d78b27e4a2aa47ae66a5a18ba/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

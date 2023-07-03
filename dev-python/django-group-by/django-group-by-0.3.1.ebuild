@@ -15,8 +15,8 @@ DESCRIPTION="Group by arbitrary model fields"
 
 HOMEPAGE="https://github.com/kako-nawao/django-group-by"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c8/0a/b98b8fbb9cd8879e13b5bfebcdda90e5d2490b90bacfd272dbfc6f7d6ad7/django_group_by-${REALVERSION}.tar.gz"
-SOURCEFILE="django_group_by-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c8/0a/b98b8fbb9cd8879e13b5bfebcdda90e5d2490b90bacfd272dbfc6f7d6ad7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

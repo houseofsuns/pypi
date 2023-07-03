@@ -15,8 +15,8 @@ DESCRIPTION="data profiling and basic data quality rules check"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/07/e4/603bdb8bf7234901891f59cc189145b04e5457dfd3b2680237532bcbcb3f/module_dataquality-${REALVERSION}.tar.gz"
-SOURCEFILE="module_dataquality-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/07/e4/603bdb8bf7234901891f59cc189145b04e5457dfd3b2680237532bcbcb3f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

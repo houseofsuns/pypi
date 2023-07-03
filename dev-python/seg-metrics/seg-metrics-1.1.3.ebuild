@@ -15,8 +15,8 @@ DESCRIPTION="A package to compute different segmentation metrics for 2D/3D medic
 
 HOMEPAGE="https://github.com/Ordgod/segmentation_metrics"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e2/2a/609b24ca37b73776253bb8e5a120d0f5efa41f6a030e23d889fe9554729a/seg_metrics-${REALVERSION}.tar.gz"
-SOURCEFILE="seg_metrics-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e2/2a/609b24ca37b73776253bb8e5a120d0f5efa41f6a030e23d889fe9554729a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

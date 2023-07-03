@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># audit_logging_pepsicoUnder construction! Can be Used to write logs in pepsico format.More Functions will come soon. Developed by Jatin Talati## Examples of How To UseFor plain Logging into Log files```pythonfrom audit_logging_pepsico.audit_config import Loggerlogger = Logger(&quot;&lt;Service_Name&quot;)logger.info(&quot;Info Message&quot;)logger.error(&quot;Error Message&quot;)logger.debug(&quot;Debug Message&quot;)# Other Code```For Audit Logging into log files```pythonfrom audit_logging_pepsico.audit_config import AuditLog, Loggerlogger = Logger(&quot;&lt;Service_Name&quot;)auditlog = AuditLog(logger)auditlog.audit_log()# Other Code```For Audit Logging into blob```pythonfrom audit_logging_pepsico.audit_config import AuditLog, Loggerlogger = Logger(&quot;&lt;Service_Name&quot;)auditlog = AuditLog()client = auditlog.get_block_blob_client(&quot;Connection_String&quot;, &quot;Container_Name&quot;, &quot;Logs_Blob_name&quot;)auditlog.audit_log(logger, write_to_blob=True, client)# Other Code```Explore the AuditLog class to use other parameters. </longdescription>
+</pkgmetadata>

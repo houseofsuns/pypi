@@ -15,8 +15,8 @@ DESCRIPTION="A collection of property variants"
 
 HOMEPAGE="https://github.com/madman-bob/python-more-properties"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/92/79/bf355e368c07fcf55a6a69e79af00addfa15e0e8a58eea14a39281e5721e/more_properties-${REALVERSION}.tar.gz"
-SOURCEFILE="more_properties-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/92/79/bf355e368c07fcf55a6a69e79af00addfa15e0e8a58eea14a39281e5721e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

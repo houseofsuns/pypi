@@ -15,8 +15,8 @@ DESCRIPTION="The JSON Schema meta-schemas and vocabularies, exposed as a Registr
 
 HOMEPAGE="https://github.com/python-jsonschema/jsonschema-specifications"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9a/8c/3d028449ac15cba52db3e1c95ca53b9240b4707fbe17f43e01cc73dd9336/jsonschema_specifications-${REALVERSION}.tar.gz"
-SOURCEFILE="jsonschema_specifications-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9a/8c/3d028449ac15cba52db3e1c95ca53b9240b4707fbe17f43e01cc73dd9336/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

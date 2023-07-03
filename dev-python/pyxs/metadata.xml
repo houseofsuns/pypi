@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. -*- mode: rst -*-::        .---. .-..-..-.,-. .--.        : .; `: :; :`.  .'`._-.'        : ._.'`._. ;:_,._;`.__.'        : :    .-. :        :_;    `._.'       0.4.1        -- XenStore access the Python way!What is ``pyxs``?-----------------It's a pure Python XenStore client implementation, which covers all ofthe ``libxs`` features and adds some nice Pythonic sugar on top. Here'sa shortlist:* ``pyxs`` supports both Python 2 and 3,* works over a Unix socket or XenBus,* has a clean and well-documented API,* is writen in easy to understand Python,* can be used with `gevent &lt;http://www.gevent.org&gt;`_ or  `eventlet &lt;http://eventlet.net&gt;`_.Installation------------If you have `pip &lt;https://pip.pypa.io/en/stable&gt;`_ you can do the usual::    pip install --user pyxsOtherwise, download the source from `GitHub &lt;https://github.com/selectel/pyxs&gt;`_and run::    python setup.py install</longdescription>
+</pkgmetadata>

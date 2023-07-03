@@ -15,8 +15,8 @@ DESCRIPTION="The IxNetwork Open Traffic Generator Python Package"
 
 HOMEPAGE="https://github.com/open-traffic-generator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3a/c1/5439d272fcb841544c24e4a83e223dcb4e4aa9939654402e22a94f545ee3/ixnetwork_open_traffic_generator-${REALVERSION}.tar.gz"
-SOURCEFILE="ixnetwork_open_traffic_generator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3a/c1/5439d272fcb841544c24e4a83e223dcb4e4aa9939654402e22a94f545ee3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

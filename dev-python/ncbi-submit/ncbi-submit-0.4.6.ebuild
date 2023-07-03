@@ -15,8 +15,8 @@ DESCRIPTION="A tool for submitting to NCBI (SRA, BioSample, & GenBank)."
 
 HOMEPAGE="https://github.com/enviro-lab/ncbi-submit"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4a/05/9f83546a042a6769fec52d55b90a461bbc3dfda45a126f358f4958976754/ncbi_submit-${REALVERSION}.tar.gz"
-SOURCEFILE="ncbi_submit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4a/05/9f83546a042a6769fec52d55b90a461bbc3dfda45a126f358f4958976754/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Standard NumPy array interface for defining uncertain parameters"
 
 HOMEPAGE="https://bitbucket.org/cmutel/stats_arrays"
 LICENSE="BSD 3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/cc/77/94b7e05d844187b4bbc7e48254330da55fc8d6e5cdbe94220168fcce251a/stats_arrays-${REALVERSION}.tar.gz"
-SOURCEFILE="stats_arrays-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cc/77/94b7e05d844187b4bbc7e48254330da55fc8d6e5cdbe94220168fcce251a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

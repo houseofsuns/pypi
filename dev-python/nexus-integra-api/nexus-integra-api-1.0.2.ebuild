@@ -15,8 +15,8 @@ DESCRIPTION=" Nexus API connection methods and utilities"
 
 HOMEPAGE="https://nexusintegra.io"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5c/c3/43e6ab5e7d8fbbf874333eabefb895bcb0a6cdf20b3c383399db88e81fb8/nexus_integra_api-${REALVERSION}.tar.gz"
-SOURCEFILE="nexus_integra_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5c/c3/43e6ab5e7d8fbbf874333eabefb895bcb0a6cdf20b3c383399db88e81fb8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

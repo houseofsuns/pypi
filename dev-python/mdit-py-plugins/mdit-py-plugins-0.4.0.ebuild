@@ -15,8 +15,8 @@ DESCRIPTION="Collection of plugins for markdown-it-py"
 
 HOMEPAGE="https://github.com/executablebooks/mdit-py-plugins"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b4/db/61960d68d5c39ff0dd48cb799a39ae4e297f6e9b96bf2f8da29d897fba0c/mdit_py_plugins-${REALVERSION}.tar.gz"
-SOURCEFILE="mdit_py_plugins-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b4/db/61960d68d5c39ff0dd48cb799a39ae4e297f6e9b96bf2f8da29d897fba0c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

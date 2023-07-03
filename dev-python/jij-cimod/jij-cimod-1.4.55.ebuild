@@ -15,8 +15,8 @@ DESCRIPTION="C++ library for a binary (and polynomial) quadratic model."
 
 HOMEPAGE="https://www.openjij.org"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/47/61/ee6f951f8baa335fa2d9f07b5835c71093f7877c8c0b0ec59f9c455b4644/jij_cimod-${REALVERSION}.tar.gz"
-SOURCEFILE="jij_cimod-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/47/61/ee6f951f8baa335fa2d9f07b5835c71093f7877c8c0b0ec59f9c455b4644/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

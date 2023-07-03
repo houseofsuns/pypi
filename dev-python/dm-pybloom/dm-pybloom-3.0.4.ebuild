@@ -15,8 +15,8 @@ DESCRIPTION="Datamaran's fork of Pybloom adapted to Python3"
 
 HOMEPAGE="https://github.com/datamaranai/python-bloomfilter/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6e/27/2e1d03cc38f0cb89149a47702e97895d19ac4d29919c25526e7f7b26db12/dm_pybloom-${REALVERSION}.tar.gz"
-SOURCEFILE="dm_pybloom-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6e/27/2e1d03cc38f0cb89149a47702e97895d19ac4d29919c25526e7f7b26db12/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

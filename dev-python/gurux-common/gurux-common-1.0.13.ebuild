@@ -15,8 +15,8 @@ DESCRIPTION="Gurux common helpers for device commmunication."
 
 HOMEPAGE="https://github.com/gurux/gurux.common.python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/dd/b2/9c92b62f2b1b2324fa3f9310a14b27ab3b8c5d426191f3b849e4fef84c1f/gurux_common-${REALVERSION}.tar.gz"
-SOURCEFILE="gurux_common-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/dd/b2/9c92b62f2b1b2324fa3f9310a14b27ab3b8c5d426191f3b849e4fef84c1f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

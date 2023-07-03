@@ -15,8 +15,8 @@ DESCRIPTION="Genshin gacha history analysis plugin for NoneBot2"
 
 HOMEPAGE="https://github.com/monsterxcn/nonebot-plugin-gachalogs"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bc/ff/787e4b286c3680e152e81f9cbd1d2bed68fe24124f7e4a124f23cd2c619e/nonebot_plugin_gachalogs-${REALVERSION}.tar.gz"
-SOURCEFILE="nonebot_plugin_gachalogs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bc/ff/787e4b286c3680e152e81f9cbd1d2bed68fe24124f7e4a124f23cd2c619e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

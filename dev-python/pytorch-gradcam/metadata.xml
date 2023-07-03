@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>### A Simple pytorch implementation of GradCAM[1], and GradCAM++[2]&lt;br&gt;&lt;p align=&quot;center&quot;&gt;&lt;img src=assets/readme.png&gt;&lt;/p&gt;### Installation```shpip install pytorch-gradcam```### Supported torchvision models- alexnet- vgg- resnet- densenet- squeezenet### Usageplease refer to `example.ipynb` for general usage and refer to documentations of each layer-finding functions in `utils.py` if you want to know how to set `target_layer_name` properly.Use your own model and layer:```pythonmodel = MyModel()target_layer = model.my_submodulegradcam = GradCAM(model, target_layer)```### References:[1] Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization, Selvaraju et al, ICCV, 2017 &lt;br&gt;[2] Grad-CAM++: Generalized Gradient-based Visual Explanations for Deep Convolutional Networks, Chattopadhyay et al, WACV, 2018</longdescription>
+</pkgmetadata>

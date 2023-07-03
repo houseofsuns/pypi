@@ -15,8 +15,8 @@ DESCRIPTION="upf to json converter"
 
 HOMEPAGE="https://github.com/simonpintarelli/upf_to_json"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/01/a8/877a300aaa06ad18c33e1b9516ceef4089780a174d76bea2d9e482e179f6/upf_to_json-${REALVERSION}.tar.gz"
-SOURCEFILE="upf_to_json-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/01/a8/877a300aaa06ad18c33e1b9516ceef4089780a174d76bea2d9e482e179f6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

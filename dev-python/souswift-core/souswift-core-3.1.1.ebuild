@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a7/97/30a977bf76a07ef38f7d25fb2f056ee2f4510bac223352f6a4f5e19ca8ca/souswift_core-${REALVERSION}.tar.gz"
-SOURCEFILE="souswift_core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a7/97/30a977bf76a07ef38f7d25fb2f056ee2f4510bac223352f6a4f5e19ca8ca/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

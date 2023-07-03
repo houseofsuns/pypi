@@ -15,8 +15,8 @@ DESCRIPTION="A general util package"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3f/15/0eb20d5f01d86f420f5ad8a2cde4e046cec0b5517f50a0d5a4f2f6ad2600/jbg_util-${REALVERSION}.tar.gz"
-SOURCEFILE="jbg_util-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3f/15/0eb20d5f01d86f420f5ad8a2cde4e046cec0b5517f50a0d5a4f2f6ad2600/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

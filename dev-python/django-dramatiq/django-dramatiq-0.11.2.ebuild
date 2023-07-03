@@ -15,8 +15,8 @@ DESCRIPTION="A Django app for Dramatiq."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/53/c8/eccbf696f8fe3a585d68573b7985609be0490cfeec75ca5c0dcd1d8e87fc/django_dramatiq-${REALVERSION}.tar.gz"
-SOURCEFILE="django_dramatiq-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/53/c8/eccbf696f8fe3a585d68573b7985609be0490cfeec75ca5c0dcd1d8e87fc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

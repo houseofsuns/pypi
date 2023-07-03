@@ -15,8 +15,8 @@ DESCRIPTION="Redis Client"
 
 HOMEPAGE="https://github.com/schlitzered/pyredis"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/df/2c/4eca6e8bb610df6130844ff00bd580b13771fb764b4cb2ef7a63c0672d11/python_redis-${REALVERSION}.tar.gz"
-SOURCEFILE="python_redis-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/df/2c/4eca6e8bb610df6130844ff00bd580b13771fb764b4cb2ef7a63c0672d11/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

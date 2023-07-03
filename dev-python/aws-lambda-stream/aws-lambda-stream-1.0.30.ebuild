@@ -15,8 +15,8 @@ DESCRIPTION="Create stream processors with AWS Lambda functions"
 
 HOMEPAGE="https://github.com/clandro89/aws-lambda-stream"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/32/ec/9b7c152d7e96069edff1a3f11fe8786a56c92631ce9770525f640ee04922/aws_lambda_stream-${REALVERSION}.tar.gz"
-SOURCEFILE="aws_lambda_stream-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/32/ec/9b7c152d7e96069edff1a3f11fe8786a56c92631ce9770525f640ee04922/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Godot Excel导表工具"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9e/f2/26e39410247dad1bfbbfdd1f873afef9ab0e0c2f6a60ac4f229e66a18d35/gd_excelexporter-${REALVERSION}.tar.gz"
-SOURCEFILE="gd_excelexporter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9e/f2/26e39410247dad1bfbbfdd1f873afef9ab0e0c2f6a60ac4f229e66a18d35/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

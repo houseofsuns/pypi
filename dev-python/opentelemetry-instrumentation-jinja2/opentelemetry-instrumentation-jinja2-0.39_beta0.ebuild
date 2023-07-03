@@ -15,8 +15,8 @@ DESCRIPTION="OpenTelemetry jinja2 instrumentation"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-jinja2"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9c/c1/e8f7df6533dd74013d53e4fb862cb95d244d56ff4245789a1a6d1dd2d542/opentelemetry_instrumentation_jinja2-${REALVERSION}.tar.gz"
-SOURCEFILE="opentelemetry_instrumentation_jinja2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9c/c1/e8f7df6533dd74013d53e4fb862cb95d244d56ff4245789a1a6d1dd2d542/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

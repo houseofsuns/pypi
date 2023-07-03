@@ -15,8 +15,8 @@ DESCRIPTION="Purpose To make a cloudflare v2 challenge pass successfully, Can be
 
 HOMEPAGE="https://github.com/vvanglro/cf_clearance"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/16/df/ab2f7729573ab75e76b97da4c77c63f864bd18b8b9efdcb4bbdb3ad7c4b3/cf_clearance-${REALVERSION}.tar.gz"
-SOURCEFILE="cf_clearance-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/16/df/ab2f7729573ab75e76b97da4c77c63f864bd18b8b9efdcb4bbdb3ad7c4b3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

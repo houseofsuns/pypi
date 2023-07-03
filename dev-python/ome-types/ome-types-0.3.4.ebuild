@@ -15,8 +15,8 @@ DESCRIPTION="Python dataclasses for the OME data model"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5b/35/36087eb1db3d5ab3dfd7c160540e0ef9da15fd73072b30d991cd865eedd4/ome_types-${REALVERSION}.tar.gz"
-SOURCEFILE="ome_types-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5b/35/36087eb1db3d5ab3dfd7c160540e0ef9da15fd73072b30d991cd865eedd4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Utilities for binary analysis using vivisect."
 
 HOMEPAGE="https://github.com/williballenthin/viv-utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/63/21/bc04ea4fb6ea998704e0ed6d06c22d0033c66a2e63c67c1b6044ac76e73f/viv_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="viv_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/63/21/bc04ea4fb6ea998704e0ed6d06c22d0033c66a2e63c67c1b6044ac76e73f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

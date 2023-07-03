@@ -15,8 +15,8 @@ DESCRIPTION="Type hints (PEP 484) support for the Sphinx autodoc extension"
 
 HOMEPAGE="https://github.com/tox-dev/sphinx-autodoc-typehints"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/86/9d/91203df679a4ed1ee8c027426bb4abfa6163b6ba71f0a859b86c67693c0e/sphinx_autodoc_typehints-${REALVERSION}.tar.gz"
-SOURCEFILE="sphinx_autodoc_typehints-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/86/9d/91203df679a4ed1ee8c027426bb4abfa6163b6ba71f0a859b86c67693c0e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

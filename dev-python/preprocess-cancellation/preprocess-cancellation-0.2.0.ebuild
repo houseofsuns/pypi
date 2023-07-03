@@ -15,8 +15,8 @@ DESCRIPTION="GCode processor to add klipper cancel-object markers"
 
 HOMEPAGE="https://github.com/kageurufu/cancelobject-preprocessor"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/96/02/c8bd237196ca3ec99b0757744e591b3d7c64d7269c991bb7ca50008b6f8d/preprocess_cancellation-${REALVERSION}.tar.gz"
-SOURCEFILE="preprocess_cancellation-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/96/02/c8bd237196ca3ec99b0757744e591b3d7c64d7269c991bb7ca50008b6f8d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

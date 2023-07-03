@@ -15,8 +15,8 @@ DESCRIPTION="PyAMS security management package"
 
 HOMEPAGE="https://pyams.readthedocs.io"
 LICENSE="ZPL"
-SRC_URI="https://files.pythonhosted.org/packages/48/7c/022de6e6139bc272f62e78ae902542e0dcd1d4632f3be579531458adef5a/pyams_security-${REALVERSION}.tar.gz"
-SOURCEFILE="pyams_security-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/48/7c/022de6e6139bc272f62e78ae902542e0dcd1d4632f3be579531458adef5a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

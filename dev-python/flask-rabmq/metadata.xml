@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Flask-RabmqFlask-Rabmq is an extension for Flask that adds support for Rabbitmq to your application.It aims to simplify using Rabbitmq with Flask by providing useful defaults and extra helpersthat make it easier to accomplish common tasks.## InstallingInstall and update using `pip`:```$ pip install Flask-Rabmq```## A Simple Example[示例](example/hello.py)</longdescription>
+</pkgmetadata>

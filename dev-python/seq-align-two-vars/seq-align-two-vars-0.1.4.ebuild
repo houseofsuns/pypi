@@ -15,8 +15,8 @@ DESCRIPTION="seq_align_two_vars"
 
 HOMEPAGE="https://gitlab.bucknell.edu/jc092/doc_networks"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/20/0b/7a1ae6c2147f379f889cfd8e972c673c74ef2c225a3c9acbab2500bb76dd/seq_align_two_vars-${REALVERSION}.tar.gz"
-SOURCEFILE="seq_align_two_vars-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/20/0b/7a1ae6c2147f379f889cfd8e972c673c74ef2c225a3c9acbab2500bb76dd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

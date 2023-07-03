@@ -15,8 +15,8 @@ DESCRIPTION="Adds the ability to _assert_ types when typechecking to mypy"
 
 HOMEPAGE="https://github.com/thejcannon/mypy-typing-asserts"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a9/22/09ad7d73a546eee818b671f990d3d63ff18cc17b3c343dca9d4963eb228f/mypy_typing_asserts-${REALVERSION}.tar.gz"
-SOURCEFILE="mypy_typing_asserts-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a9/22/09ad7d73a546eee818b671f990d3d63ff18cc17b3c343dca9d4963eb228f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="napari + DeepLabCut annotation tool"
 
 HOMEPAGE="https://github.com/DeepLabCut/napari-deeplabcut"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/c6/c4/391ef86e3a7a96974069c37ebb8795fd784473e789bdbbbc96cde23ed934/napari_deeplabcut-${REALVERSION}.tar.gz"
-SOURCEFILE="napari_deeplabcut-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c6/c4/391ef86e3a7a96974069c37ebb8795fd784473e789bdbbbc96cde23ed934/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

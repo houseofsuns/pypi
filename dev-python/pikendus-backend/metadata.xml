@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![pdm-managed](https://img.shields.io/badge/pdm-managed-blueviolet)](https://dev.to/frostming/a-review-pipenv-vs-poetry-vs-pdm-39b4)[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)[![Python](https://img.shields.io/badge/python-3.8-green)]()[![Doc](https://ydethe.gitlab.io/pikendus-backend/doc_badge.svg)](https://ydethe.gitlab.io/pikendus-backend/)[![Coverage](https://ydethe.gitlab.io/pikendus-backend/cov_badge.svg)]()# Quick lookpikendus backend is a PEP517 compliant build backend, able to compile C and fortran source filespikendus is an estonian word that means 'extension'# Build the docJust run:    pdm docThis will create the doc in ./htmldocA few guidelines for updating the dochttps://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html</longdescription>
+</pkgmetadata>

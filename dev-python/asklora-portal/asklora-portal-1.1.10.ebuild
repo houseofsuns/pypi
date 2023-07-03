@@ -15,8 +15,8 @@ DESCRIPTION="portal to use various api data service"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/77/0f/88b2f17cb8b8ab9c6d5dba1f9f1c37c17b2dafa169470b4725b6c4abe764/asklora_portal-${REALVERSION}.tar.gz"
-SOURCEFILE="asklora_portal-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/77/0f/88b2f17cb8b8ab9c6d5dba1f9f1c37c17b2dafa169470b4725b6c4abe764/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

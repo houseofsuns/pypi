@@ -15,8 +15,8 @@ DESCRIPTION="Automate pip-compile for multiple environments."
 
 HOMEPAGE="https://github.com/KSmanis/pip-autocompile"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/42/19/a49441fd790d445785389c9b233466f7dcf9b33e14e64482dbfb935f7126/pip_autocompile-${REALVERSION}.tar.gz"
-SOURCEFILE="pip_autocompile-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/42/19/a49441fd790d445785389c9b233466f7dcf9b33e14e64482dbfb935f7126/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

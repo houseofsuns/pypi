@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/eb/14/28087fa8d4654e6bbf1e18f4ddd1d5ee8dbb334c6c47d8175f53726326fa/foggy_training-${REALVERSION}.tar.gz"
-SOURCEFILE="foggy_training-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/eb/14/28087fa8d4654e6bbf1e18f4ddd1d5ee8dbb334c6c47d8175f53726326fa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

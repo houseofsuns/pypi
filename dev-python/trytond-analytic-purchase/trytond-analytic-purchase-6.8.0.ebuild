@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module to add analytic accounting on purchase"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/7d/68/d558783297ccf07ae972336b34c35fb50951170f38f44ef1bdd362ed706d/trytond_analytic_purchase-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_analytic_purchase-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7d/68/d558783297ccf07ae972336b34c35fb50951170f38f44ef1bdd362ed706d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

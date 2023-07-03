@@ -15,8 +15,8 @@ DESCRIPTION="Van's Django Migration Helper"
 
 HOMEPAGE="https://github.com/bluedenim/vmigration-helper"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fd/84/7edfff89ef2af8ea412cba64298724c0139cf928ce0845086e1f7c4f892d/vmigration_helper-${REALVERSION}.tar.gz"
-SOURCEFILE="vmigration_helper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fd/84/7edfff89ef2af8ea412cba64298724c0139cf928ce0845086e1f7c4f892d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

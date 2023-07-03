@@ -15,8 +15,8 @@ DESCRIPTION="Prowler is an Open Source security tool to perform Cloud Security b
 
 HOMEPAGE="https://github.com/prowler-cloud/prowler"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/58/06/42692256361b18535895275d421bc255a4f504c9e35e91ca2bc1f22c8e2b/prowler_cloud-${REALVERSION}.tar.gz"
-SOURCEFILE="prowler_cloud-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/58/06/42692256361b18535895275d421bc255a4f504c9e35e91ca2bc1f22c8e2b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

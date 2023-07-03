@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module for invoicing"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/19/ec/161aa3c2db2cf78630b418c0c2bee725a3bcfa30eecc0fd1e7317e6a0256/trytond_account_invoice-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_account_invoice-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/19/ec/161aa3c2db2cf78630b418c0c2bee725a3bcfa30eecc0fd1e7317e6a0256/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

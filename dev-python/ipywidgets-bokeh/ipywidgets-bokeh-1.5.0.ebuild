@@ -15,8 +15,8 @@ DESCRIPTION="Allows embedding of Jupyter widgets in Bokeh layouts."
 
 HOMEPAGE="https://github.com/bokeh/ipywidgets_bokeh"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/7c/04/4c617b4b4168848db7c95de47469733a9068653f94b2e90faaf8a85d25be/ipywidgets_bokeh-${REALVERSION}.tar.gz"
-SOURCEFILE="ipywidgets_bokeh-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7c/04/4c617b4b4168848db7c95de47469733a9068653f94b2e90faaf8a85d25be/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="pySigma Splunk backend"
 
 HOMEPAGE="https://github.com/SigmaHQ/pySigma-backend-splunk"
 LICENSE="LGPL-2.1"
-SRC_URI="https://files.pythonhosted.org/packages/71/c0/e60b4b1d6ba493d00d29b17711d028622fc4af6bdabb0c0f2ebe641b9503/pysigma_backend_splunk-${REALVERSION}.tar.gz"
-SOURCEFILE="pysigma_backend_splunk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/71/c0/e60b4b1d6ba493d00d29b17711d028622fc4af6bdabb0c0f2ebe641b9503/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

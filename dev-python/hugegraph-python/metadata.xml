@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># hugegraph-pythonA Python SDK for Apache HugeGraph, maintained by [cvte research data-mining team](https://github.com/cvte-research-datamining/hugegraph-python).This project currently in alpha testing, will open source the code soon.# Installation## PyPihttps://pypi.org/project/hugegraph-python/```shellpip3 install hugegraph-python```## Install from sourcerelease soon# Examples```pythonfrom hugegraph.connection import PyHugeGraph# init clientclient = PyHugeGraph(&quot;127.0.0.1&quot;, &quot;8080&quot;, user=&quot;admin&quot;, pwd=&quot;pwd&quot;, graph=&quot;hugegraph&quot;)# schemaschema = client.schema()schema.getVertexLabels()# graphg = client.graph()g.getVertexById(&quot;1:tom&quot;)g.close()# gremlingremlin = client.gremlin()gremlin.exec(&quot;g.V().limit(10)&quot;)```Any questions contact [ming@apache.org](ming@apache.org)- TODO    - document    - ut    - ci    - more api</longdescription>
+</pkgmetadata>

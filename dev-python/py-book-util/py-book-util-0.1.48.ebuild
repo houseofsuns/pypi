@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b6/18/cd4770d5529cb6715699c32e35c19c7cfb99bebea639a1103778ac287752/py_book_util-${REALVERSION}.tar.gz"
-SOURCEFILE="py_book_util-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b6/18/cd4770d5529cb6715699c32e35c19c7cfb99bebea639a1103778ac287752/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

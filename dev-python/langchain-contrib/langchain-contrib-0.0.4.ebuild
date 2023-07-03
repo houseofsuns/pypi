@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/50/64/0f1a82fcd9e474bb0dfbb2733fe10f101982ab2b1a702c2a33bb092b936a/langchain_contrib-${REALVERSION}.tar.gz"
-SOURCEFILE="langchain_contrib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/50/64/0f1a82fcd9e474bb0dfbb2733fe10f101982ab2b1a702c2a33bb092b936a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

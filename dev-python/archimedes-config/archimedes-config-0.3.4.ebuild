@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a0/3c/40e466463ebe041d270a93d6848fdc8f3ccb85fdf6d412f352b6387939de/archimedes_config-${REALVERSION}.tar.gz"
-SOURCEFILE="archimedes_config-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a0/3c/40e466463ebe041d270a93d6848fdc8f3ccb85fdf6d412f352b6387939de/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Windows library for RPA Framework"
 
 HOMEPAGE="https://rpaframework.org/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/da/29/4f1ec087ae535604e4b102ea083e39353554a49662f7ee5c19fd6d3098e4/rpaframework_windows-${REALVERSION}.tar.gz"
-SOURCEFILE="rpaframework_windows-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/da/29/4f1ec087ae535604e4b102ea083e39353554a49662f7ee5c19fd6d3098e4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

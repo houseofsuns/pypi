@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># SMQTK - Classifier## IntentThis package provides interfaces and implementations around the classificationof inputs into some form of labeled probabilistic values.Additional data structure abstractions are defined here to standardize thisbehavior into common terms.## DocumentationYou can build the sphinx documentation locally for the most up-to-datereference:```bash# Install dependenciespoetry install# Navigate to the documentation root.cd docs# Build the docs.poetry run make html# Open in your favorite browser!firefox _build/html/index.html```</longdescription>
+</pkgmetadata>

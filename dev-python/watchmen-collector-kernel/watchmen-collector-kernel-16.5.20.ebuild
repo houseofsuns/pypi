@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/dc/2e/709a820ca3d68c23cf38837dd39aa0eaff80843648e954c66bb723b16310/watchmen_collector_kernel-${REALVERSION}.tar.gz"
-SOURCEFILE="watchmen_collector_kernel-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/dc/2e/709a820ca3d68c23cf38837dd39aa0eaff80843648e954c66bb723b16310/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

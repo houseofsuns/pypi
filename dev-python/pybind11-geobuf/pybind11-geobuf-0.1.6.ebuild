@@ -15,8 +15,8 @@ DESCRIPTION="c++ geobuf with python binding"
 
 HOMEPAGE="https://geobuf-cpp.readthedocs.io"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c3/7d/e5e0412bd5b343334e0d2bd6d424463b5d2bba4cbed43135c7dda8ca1572/pybind11_geobuf-${REALVERSION}.tar.gz"
-SOURCEFILE="pybind11_geobuf-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c3/7d/e5e0412bd5b343334e0d2bd6d424463b5d2bba4cbed43135c7dda8ca1572/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

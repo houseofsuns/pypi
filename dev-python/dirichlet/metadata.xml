@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Dirichlet Test--------------Calculates nested model Dirichlet test of independence by finding maximumlikelihood estimates of Dirichlet distributions for different data setsand comparing to the null hypothesis of the data being derived from onedistribution.In addition, ``dirichlet.simplex`` module creates scatter, contour, and filledcontour 2-simplex plots.</longdescription>
+</pkgmetadata>

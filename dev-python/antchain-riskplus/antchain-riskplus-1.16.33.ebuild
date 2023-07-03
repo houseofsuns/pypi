@@ -15,8 +15,8 @@ DESCRIPTION="Ant Chain RISKPLUS SDK Library for Python"
 
 HOMEPAGE="https://github.com/alipay/antchain-openapi-prod-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/fa/53/7a622aa36a6456dca1a6a8c739b2523461d05192aefd9d4f710b90b1c07c/antchain_riskplus-${REALVERSION}.tar.gz"
-SOURCEFILE="antchain_riskplus-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fa/53/7a622aa36a6456dca1a6a8c739b2523461d05192aefd9d4f710b90b1c07c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

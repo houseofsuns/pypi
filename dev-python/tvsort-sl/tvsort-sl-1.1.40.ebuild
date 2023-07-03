@@ -15,8 +15,8 @@ DESCRIPTION="Sort movies and TV-shows files"
 
 HOMEPAGE="https://github.com/shlomiLan/tvsort_sl"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2b/02/58129324abfc4d79281cdc2e4e514bb1742f030b0a3cfd7f3b0a32f44411/tvsort_sl-${REALVERSION}.tar.gz"
-SOURCEFILE="tvsort_sl-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2b/02/58129324abfc4d79281cdc2e4e514bb1742f030b0a3cfd7f3b0a32f44411/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

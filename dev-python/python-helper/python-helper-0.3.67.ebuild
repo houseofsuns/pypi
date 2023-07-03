@@ -15,8 +15,8 @@ DESCRIPTION="python helper package"
 
 HOMEPAGE="https://github.com/SamuelJansen/python-helper/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/de/b0/e7bdd4aec6f3a599edd6149ab78448a59529e4ed7a72e81862b24f8fff1d/python_helper-${REALVERSION}.tar.gz"
-SOURCEFILE="python_helper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/de/b0/e7bdd4aec6f3a599edd6149ab78448a59529e4ed7a72e81862b24f8fff1d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

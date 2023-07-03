@@ -15,8 +15,8 @@ DESCRIPTION="Utilities for working with MuJoCo Python bindings and dm_control."
 
 HOMEPAGE="https://github.com/kevinzakka/mujoco_utils"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/3e/f3/bff27f5bd774c69a3aa5bf0a195a6957feb8bf9171add16714dc89cd8365/mujoco_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="mujoco_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3e/f3/bff27f5bd774c69a3aa5bf0a195a6957feb8bf9171add16714dc89cd8365/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Helper class to connect to Redshift, Snowflake, DynamoDB and S3"
 
 HOMEPAGE="https://github.com/ktechboston/db_utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/08/54/59af67000f5e00c9e8511afac1ac309e5353b6d68d2413a52f6657ed9f0b/db_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="db_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/08/54/59af67000f5e00c9e8511afac1ac309e5353b6d68d2413a52f6657ed9f0b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

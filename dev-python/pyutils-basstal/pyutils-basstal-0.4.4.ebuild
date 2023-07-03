@@ -15,8 +15,8 @@ DESCRIPTION="self used py utils"
 
 HOMEPAGE="https://github.com/basstal/pyutils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c7/30/f95c6e45003191c260e46e47a8557910a2839ab70b4676abf9b26fc82066/pyutils_basstal-${REALVERSION}.tar.gz"
-SOURCEFILE="pyutils_basstal-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c7/30/f95c6e45003191c260e46e47a8557910a2839ab70b4676abf9b26fc82066/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

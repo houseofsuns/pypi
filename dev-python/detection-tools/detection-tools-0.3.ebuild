@@ -15,8 +15,8 @@ DESCRIPTION="Tensorflow Object Detection Tools Library"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/be/d1/79c9aae5b20fc99f99cc58d9f94e6c7fb762949acedb2fd1112e84ac222c/detection_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="detection_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/be/d1/79c9aae5b20fc99f99cc58d9f94e6c7fb762949acedb2fd1112e84ac222c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

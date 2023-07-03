@@ -15,8 +15,8 @@ DESCRIPTION="Datasette plugin providing data dashboards from metadata"
 
 HOMEPAGE="https://github.com/rclement/datasette-dashboards"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/41/d6/e68209b81cc50c94d69c200fbaac810f94cd3db1610a49636ded00158a76/datasette_dashboards-${REALVERSION}.tar.gz"
-SOURCEFILE="datasette_dashboards-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/41/d6/e68209b81cc50c94d69c200fbaac810f94cd3db1610a49636ded00158a76/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

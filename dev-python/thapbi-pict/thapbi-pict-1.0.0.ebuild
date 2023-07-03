@@ -15,8 +15,8 @@ DESCRIPTION="THAPBI Phytophthora ITS1 Classifier Tool (PICT)."
 
 HOMEPAGE="https://github.com/peterjc/thapbi-pict"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6f/cd/b582f0af6b6d1f391ac58191776a4d9037f42f3d8c5e61f8a303d1b72413/thapbi_pict-${REALVERSION}.tar.gz"
-SOURCEFILE="thapbi_pict-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6f/cd/b582f0af6b6d1f391ac58191776a4d9037f42f3d8c5e61f8a303d1b72413/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

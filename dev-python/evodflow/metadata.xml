@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># evoflow[![codecov](https://codecov.io/gh/maycuatroi/evo-flow/branch/main/graph/badge.svg?token=evo-flow_token_here)](https://codecov.io/gh/maycuatroi/evo-flow)[![CI](https://github.com/maycuatroi/evo-flow/actions/workflows/main.yml/badge.svg)](https://github.com/maycuatroi/evo-flow/actions/workflows/main.yml)a lite weight RPA and Workflow engine## Install it from PyPI```bashpip install evodflow```## Usage```pyfrom evoflow import BaseClassfrom evoflow import base_functionBaseClass().base_method()base_function()``````bash$ python -m evoflow#or$ evo_flow```## DevelopmentRead the [CONTRIBUTING.md](CONTRIBUTING.md) file.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># bibleitInteractive bible reading## How to run```shpython -m bibleit``````shpython -m bibleit help``````shpython -m bibleit ref Joao 11```</longdescription>
+</pkgmetadata>

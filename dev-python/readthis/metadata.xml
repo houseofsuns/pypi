@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ReadthisReadthis is a command line tool that reads aloud a given text file using the gTTS (Google Text-to-Speech) interface.## Usage```bash$ readthis [OPTIONS] FILE```### Positional Arguments- `FILE`: The file to read aloud. Use - to read from stdin.### Options- `-h, --help`: Show the help message and exit.- `--lang LANG, -l LANG`: Choose the language to use for reading. Specify the language using the language code (e.g., fr for French). Defaults to English.## Installation```bash$ pip install readthis```## Examples- Read a text file named sample.txt in English:```bash$ readthis --lang en sample.txt```- Read from stdin in French:```bash$ echo &quot;Bonjour, comment ça va ?&quot; | readthis -l fr -```## LicenseThis project is licensed under the [MIT License](./LICENCE).</longdescription>
+</pkgmetadata>

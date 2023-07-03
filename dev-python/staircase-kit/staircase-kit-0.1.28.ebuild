@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6f/ba/15748ddd4195d1acd86cb3a0e838ae1f69fe94c7ec6ff48148583bbf5088/staircase_kit-${REALVERSION}.tar.gz"
-SOURCEFILE="staircase_kit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6f/ba/15748ddd4195d1acd86cb3a0e838ae1f69fe94c7ec6ff48148583bbf5088/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

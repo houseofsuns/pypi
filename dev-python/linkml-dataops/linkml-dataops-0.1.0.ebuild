@@ -15,8 +15,8 @@ DESCRIPTION="LinkML Data Operations API"
 
 HOMEPAGE="http://github.com/linkml/linkml-dataops"
 LICENSE="CC0 1.0 Universal"
-SRC_URI="https://files.pythonhosted.org/packages/3c/60/cf6440d566738b6ab2564df0db6ce093cb79b92738b5a92e865f2df5c153/linkml_dataops-${REALVERSION}.tar.gz"
-SOURCEFILE="linkml_dataops-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3c/60/cf6440d566738b6ab2564df0db6ce093cb79b92738b5a92e865f2df5c153/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

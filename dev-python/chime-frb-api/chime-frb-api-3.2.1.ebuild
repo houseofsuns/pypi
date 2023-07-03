@@ -15,8 +15,8 @@ DESCRIPTION="CHIME/FRB API"
 
 HOMEPAGE="https://github.com/CHIMEFRB/frb-api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5f/b5/4deabdb313e796a856508b451c85431348cc32c9187577a458471a106e08/chime_frb_api-${REALVERSION}.tar.gz"
-SOURCEFILE="chime_frb_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5f/b5/4deabdb313e796a856508b451c85431348cc32c9187577a458471a106e08/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

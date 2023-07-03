@@ -15,8 +15,8 @@ DESCRIPTION="Neptune.ai Prophet integration library"
 
 HOMEPAGE="https://neptune.ai/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/45/0b/af001385c94fbd69f859481afd78d8ea99e9e81e0f611fc40396e8c555ce/neptune_prophet-${REALVERSION}.tar.gz"
-SOURCEFILE="neptune_prophet-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/45/0b/af001385c94fbd69f859481afd78d8ea99e9e81e0f611fc40396e8c555ce/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

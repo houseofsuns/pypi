@@ -15,8 +15,8 @@ DESCRIPTION="Clone of simstring for medspacy which was cloned from another clone
 
 HOMEPAGE="https://github.com/medspacy/simstring"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2e/fc/96053978ae96c8527fdad53ce0c92ca2fb5e0cc2e0a496fd37e277cf277b/medspacy_simstring-${REALVERSION}.tar.gz"
-SOURCEFILE="medspacy_simstring-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2e/fc/96053978ae96c8527fdad53ce0c92ca2fb5e0cc2e0a496fd37e277cf277b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

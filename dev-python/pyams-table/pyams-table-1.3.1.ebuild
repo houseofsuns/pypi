@@ -15,8 +15,8 @@ DESCRIPTION="PyAMS management package for HTML tables"
 
 HOMEPAGE="https://pyams.readthedocs.io"
 LICENSE="ZPL"
-SRC_URI="https://files.pythonhosted.org/packages/17/33/9dfbd82871b8725770b8319ba39374dc0c3c33d2e8d061daa341a10aa348/pyams_table-${REALVERSION}.tar.gz"
-SOURCEFILE="pyams_table-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/17/33/9dfbd82871b8725770b8319ba39374dc0c3c33d2e8d061daa341a10aa348/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

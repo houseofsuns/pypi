@@ -15,8 +15,8 @@ DESCRIPTION="An experimental version of Streamlit Multi-Page Apps"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a3/63/e94a59de48c7e8a3a3d8b152cb340a07371ab2032a506d65f2dead55714a/st_pages-${REALVERSION}.tar.gz"
-SOURCEFILE="st_pages-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a3/63/e94a59de48c7e8a3a3d8b152cb340a07371ab2032a506d65f2dead55714a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

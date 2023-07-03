@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module to add accounting on product"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/e7/d9/d372c26014f5a5311db0df090e038a432434e46221e28e90178c620aa24d/trytond_account_product-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_account_product-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e7/d9/d372c26014f5a5311db0df090e038a432434e46221e28e90178c620aa24d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

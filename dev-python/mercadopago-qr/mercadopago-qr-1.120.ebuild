@@ -15,8 +15,8 @@ DESCRIPTION="MercadoPago - QR code for payments"
 
 HOMEPAGE="https://api.whatsapp.com/send?phone=573128097090"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ae/6c/d1f7e92ed6f2e09edcf9870ce724e85552cc2e94d98cca6719b5dc2d6de5/mercadopago_qr-${REALVERSION}.tar.gz"
-SOURCEFILE="mercadopago_qr-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ae/6c/d1f7e92ed6f2e09edcf9870ce724e85552cc2e94d98cca6719b5dc2d6de5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

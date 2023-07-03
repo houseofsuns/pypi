@@ -15,8 +15,8 @@ DESCRIPTION="An implementation of Transferable Augmented Instruction Graph"
 
 HOMEPAGE="https://github.com/AMR-/instruction_graph"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/03/27/8a36fa4f4556b00ae58b8408baed612039bb7a649e2734dc655504647046/instruction_graph-${REALVERSION}.tar.gz"
-SOURCEFILE="instruction_graph-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/03/27/8a36fa4f4556b00ae58b8408baed612039bb7a649e2734dc655504647046/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

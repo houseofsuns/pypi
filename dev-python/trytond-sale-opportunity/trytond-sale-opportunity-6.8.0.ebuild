@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module with leads and opportunities"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/a4/d2/d935c40fab8c4d2c2b4873d16bda2d0d23dbcf1a6c867c507f610802f257/trytond_sale_opportunity-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_sale_opportunity-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a4/d2/d935c40fab8c4d2c2b4873d16bda2d0d23dbcf1a6c867c507f610802f257/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

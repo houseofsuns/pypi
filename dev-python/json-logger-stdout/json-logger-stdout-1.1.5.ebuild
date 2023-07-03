@@ -15,8 +15,8 @@ DESCRIPTION="JSON Logger for MicroServices. Prints logs to the stdout of the ser
 
 HOMEPAGE="https://gitlab.com/chalukyaj/json-logger-stdout"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9a/a3/d744cd782faee181e51ed811c65944942d9ebbde42d7d4bc7b8bf1364152/json_logger_stdout-${REALVERSION}.tar.gz"
-SOURCEFILE="json_logger_stdout-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9a/a3/d744cd782faee181e51ed811c65944942d9ebbde42d7d4bc7b8bf1364152/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

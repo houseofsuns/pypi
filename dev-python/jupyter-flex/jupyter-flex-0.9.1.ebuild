@@ -15,8 +15,8 @@ DESCRIPTION="Build dashboards using Jupyter Notebooks"
 
 HOMEPAGE="https://github.com/danielfrg/jupyter-flex"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d9/42/4bf352ca3c25586e7d19297bb707c8264b282158a26a302f5f22953888ca/jupyter_flex-${REALVERSION}.tar.gz"
-SOURCEFILE="jupyter_flex-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d9/42/4bf352ca3c25586e7d19297bb707c8264b282158a26a302f5f22953888ca/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

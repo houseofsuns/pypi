@@ -15,8 +15,8 @@ DESCRIPTION="Various Stock Utilties Created by me"
 
 HOMEPAGE="https://github.com/FriendlyUser/cad_tickers"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/36/be/11252f36035ff2ee981ce25d1a966a76dacb56bb510a61d7315e88dcbbb0/cad_tickers-${REALVERSION}.tar.gz"
-SOURCEFILE="cad_tickers-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/36/be/11252f36035ff2ee981ce25d1a966a76dacb56bb510a61d7315e88dcbbb0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

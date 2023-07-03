@@ -15,8 +15,8 @@ DESCRIPTION="A library for producing CycloneDX SBOM (Software Bill of Materials)
 
 HOMEPAGE="https://github.com/CycloneDX/cyclonedx-python-lib/#readme"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/92/6f/b5e9ede426a65367bdb1f34f1f19101fa95d69441776a65597ab6cc7d88f/cyclonedx_python_lib-${REALVERSION}.tar.gz"
-SOURCEFILE="cyclonedx_python_lib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/92/6f/b5e9ede426a65367bdb1f34f1f19101fa95d69441776a65597ab6cc7d88f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

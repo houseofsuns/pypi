@@ -15,8 +15,8 @@ DESCRIPTION="Explainable Fuzzy Challenge - Asteroids Simulation Environment"
 
 HOMEPAGE="https://github.com/xfuzzycomp/FuzzyAsteroids"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/63/4b/da5bd14aef725721519d099a1d167bb18d4d0bd448aaf4a49d668bc0bf1c/fuzzy_asteroids-${REALVERSION}.tar.gz"
-SOURCEFILE="fuzzy_asteroids-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/63/4b/da5bd14aef725721519d099a1d167bb18d4d0bd448aaf4a49d668bc0bf1c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

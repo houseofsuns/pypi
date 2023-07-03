@@ -15,8 +15,8 @@ DESCRIPTION="GIS functions used at Statistics Norway."
 
 HOMEPAGE="https://github.com/statisticsnorway/ssb-sgis"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f6/c0/cb20e518ed5c0a804aff988845c55892868f00000abdf0d9acf03e486155/ssb_sgis-${REALVERSION}.tar.gz"
-SOURCEFILE="ssb_sgis-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f6/c0/cb20e518ed5c0a804aff988845c55892868f00000abdf0d9acf03e486155/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

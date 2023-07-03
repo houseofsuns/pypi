@@ -15,8 +15,8 @@ DESCRIPTION="Development tools for template authors using Flexlate"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/28/c4/29bd3942c6c6cd2f559025ab6671a1f600d7e0e588c20445c2b672393f32/flexlate_dev-${REALVERSION}.tar.gz"
-SOURCEFILE="flexlate_dev-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/28/c4/29bd3942c6c6cd2f559025ab6671a1f600d7e0e588c20445c2b672393f32/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

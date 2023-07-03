@@ -15,8 +15,8 @@ DESCRIPTION="simple data validation"
 
 HOMEPAGE="https://andrjas.github.io/data_check/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/02/e0/0f3a012704d7586e49dfe9a6a2efd1f9c12a39921243d9ad81411543eb0a/data_check-${REALVERSION}.tar.gz"
-SOURCEFILE="data_check-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/02/e0/0f3a012704d7586e49dfe9a6a2efd1f9c12a39921243d9ad81411543eb0a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

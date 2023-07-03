@@ -15,8 +15,8 @@ DESCRIPTION="Hkube Python Wrapper"
 
 HOMEPAGE="https://github.com/kube-HPC/python-wrapper.hkube"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a1/1d/981075a575145e730fa7b586bb32c95c7f26f38190fcd0f9d8ff59668b8b/hkube_python_wrapper-${REALVERSION}.tar.gz"
-SOURCEFILE="hkube_python_wrapper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a1/1d/981075a575145e730fa7b586bb32c95c7f26f38190fcd0f9d8ff59668b8b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

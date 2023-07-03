@@ -15,8 +15,8 @@ DESCRIPTION="PDF library of RPA Framework"
 
 HOMEPAGE="https://rpaframework.org/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/dc/e1/050d9e05931d062ff3636ab075b4bdcb8ac40deba4f4b5cd76ffcd70c0f1/rpaframework_pdf-${REALVERSION}.tar.gz"
-SOURCEFILE="rpaframework_pdf-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/dc/e1/050d9e05931d062ff3636ab075b4bdcb8ac40deba4f4b5cd76ffcd70c0f1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

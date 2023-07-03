@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Readme!=======This is a simple and specific solver to gimpy captcha types like SEACEPORTAL. The model has been trained with 4000 images and 92 porcent ofaccuracy.steps=====1. pip install gimpysolver2. Import the package like: from gimpysolver import captchaSolverRPA3. Create your first object captchasolver. myCaptcha =   captchaSolverRPA.captcha_solver(path_img). *Where path_img es where   you image exist.* **Caution** Only read \*.png images and size image   would be 380,854. If you don’t meet requirements about image dimension you can resize   with: myCaptcha.resize()5. To solve captcha you can call predict method: myCaptcha.predict()**Gimpy captcha SEACEexample**\ \*!:https://i.ibb.co/RNHtgm5/captcha-capture-1.png</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="A package for accessing and analysing MalariaGEN data."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e8/c9/e9073b36e7b476f78bdbe82b54139dabf1064b48878daa45a07c6fcfbc30/malariagen_data-${REALVERSION}.tar.gz"
-SOURCEFILE="malariagen_data-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e8/c9/e9073b36e7b476f78bdbe82b54139dabf1064b48878daa45a07c6fcfbc30/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

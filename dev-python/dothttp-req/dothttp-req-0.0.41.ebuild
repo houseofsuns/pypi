@@ -15,8 +15,8 @@ DESCRIPTION="DotHttp recommended tool for making http requests."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/55/ab/83533e7bcc8878e1d9228bffe187297f8dc25791c98d2c248ce3ad339ae0/dothttp_req-${REALVERSION}.tar.gz"
-SOURCEFILE="dothttp_req-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/55/ab/83533e7bcc8878e1d9228bffe187297f8dc25791c98d2c248ce3ad339ae0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

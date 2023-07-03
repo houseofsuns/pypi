@@ -15,8 +15,8 @@ DESCRIPTION="Classes implementing the SARIF 2.1.0 object model."
 
 HOMEPAGE="https://github.com/microsoft/sarif-python-om"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ba/de/bbdd93fe456d4011500784657c5e4a31e3f4fcbb276255d4db1213aed78c/sarif_om-${REALVERSION}.tar.gz"
-SOURCEFILE="sarif_om-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ba/de/bbdd93fe456d4011500784657c5e4a31e3f4fcbb276255d4db1213aed78c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

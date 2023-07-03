@@ -15,8 +15,8 @@ DESCRIPTION="The \`bq-validator\` command enables us to validate BigQuery querie
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/38/a2/91ad5df40e94ac66d06f479f5a717127997b0d1591ea9c51ca1a00837eab/bq_validator-${REALVERSION}.tar.gz"
-SOURCEFILE="bq_validator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/38/a2/91ad5df40e94ac66d06f479f5a717127997b0d1591ea9c51ca1a00837eab/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

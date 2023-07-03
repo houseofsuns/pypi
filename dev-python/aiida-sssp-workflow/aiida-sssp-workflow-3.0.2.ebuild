@@ -15,8 +15,8 @@ DESCRIPTION="Package for the AiiDA SSSP workflow"
 
 HOMEPAGE="https://github.com/aiidateam/aiida-sssp-workflow"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/99/bb/4d55f8944d3333648f6e5ba751356f14d2842e5db4f7a779a277c4b254f3/aiida_sssp_workflow-${REALVERSION}.tar.gz"
-SOURCEFILE="aiida_sssp_workflow-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/99/bb/4d55f8944d3333648f6e5ba751356f14d2842e5db4f7a779a277c4b254f3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Server component of the Fractal analytics platform"
 
 HOMEPAGE="https://github.com/fractal-analytics-platform/fractal-server"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/8e/5f/d79be83e4062517b031ed95b1a81b6181fa7902f04cb70dd1ca0c788e02d/fractal_server-${REALVERSION}.tar.gz"
-SOURCEFILE="fractal_server-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8e/5f/d79be83e4062517b031ed95b1a81b6181fa7902f04cb70dd1ca0c788e02d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

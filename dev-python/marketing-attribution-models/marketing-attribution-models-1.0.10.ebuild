@@ -15,8 +15,8 @@ DESCRIPTION="Metodos de atribuicao de midia"
 
 HOMEPAGE="https://github.com/DP6/Marketing-Attribution-Models"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/61/1b/0f8bb1945f423d436ab0dff2bd9825948d00351c21385f1bad426fc2e50a/marketing_attribution_models-${REALVERSION}.tar.gz"
-SOURCEFILE="marketing_attribution_models-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/61/1b/0f8bb1945f423d436ab0dff2bd9825948d00351c21385f1bad426fc2e50a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

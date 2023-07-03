@@ -15,8 +15,8 @@ DESCRIPTION="private tools"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/48/b9/561f4cb6a694af9809d1dfe76524fe2ef8335c9b9c50a835d784efef561a/rogue_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="rogue_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/48/b9/561f4cb6a694af9809d1dfe76524fe2ef8335c9b9c50a835d784efef561a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

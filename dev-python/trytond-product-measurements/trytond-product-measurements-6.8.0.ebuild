@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module to add measurements to product"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/77/5c/bbbc3dd23136e1db96e3c79ae8fa069f2ac9e21bc7dd5ac69bdb4ee2bed2/trytond_product_measurements-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_product_measurements-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/77/5c/bbbc3dd23136e1db96e3c79ae8fa069f2ac9e21bc7dd5ac69bdb4ee2bed2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

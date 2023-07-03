@@ -15,8 +15,8 @@ DESCRIPTION="The 3Di simulation container hub"
 
 HOMEPAGE="https://github.com/nens/container-hub"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/98/5d/8e946665f8ae487f59b164370cd05cc63cde859c1ff4f12b7368e3a07530/container_hub-${REALVERSION}.tar.gz"
-SOURCEFILE="container_hub-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/98/5d/8e946665f8ae487f59b164370cd05cc63cde859c1ff4f12b7368e3a07530/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

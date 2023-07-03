@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># VeighNa框架的CTA策略模块&lt;p align=&quot;center&quot;&gt;  &lt;img src =&quot;https://vnpy.oss-cn-shanghai.aliyuncs.com/vnpy-logo.png&quot;/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;    &lt;img src =&quot;https://img.shields.io/badge/version-1.1.4-blueviolet.svg&quot;/&gt;    &lt;img src =&quot;https://img.shields.io/badge/platform-windows|linux|macos-yellow.svg&quot;/&gt;    &lt;img src =&quot;https://img.shields.io/badge/python-3.7|3.8|3.9|3.10-blue.svg&quot; /&gt;    &lt;img src =&quot;https://img.shields.io/github/license/vnpy/vnpy.svg?color=orange&quot;/&gt;&lt;/p&gt;## 说明针对单标的CTA类量化策略设计的应用模块，用于实现CTA策略从代码开发、历史回测、参数优化到自动交易的全流程业务功能。## 安装安装环境推荐基于3.6.0版本以上的【[**VeighNa Studio**](https://www.vnpy.com)】。直接使用pip命令：```pip install vnpy_ctastrategy```或者下载源代码后，解压后在cmd中运行：```pip install .```</longdescription>
+</pkgmetadata>

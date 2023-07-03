@@ -15,8 +15,8 @@ DESCRIPTION="Pandas Profiling component for Streamlit."
 
 HOMEPAGE="https://share.streamlit.io/okld/streamlit-gallery/main?p=pandas-profiling"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/25/ea/4602872d82b115b096bd8b5057d52fdf063d9894f999290d5eccfe937b85/streamlit_pandas_profiling-${REALVERSION}.tar.gz"
-SOURCEFILE="streamlit_pandas_profiling-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/25/ea/4602872d82b115b096bd8b5057d52fdf063d9894f999290d5eccfe937b85/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

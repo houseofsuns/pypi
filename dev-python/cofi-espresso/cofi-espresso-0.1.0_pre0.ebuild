@@ -15,8 +15,8 @@ DESCRIPTION="Earth Science PRoblems for the Evaluation of Strategies, Solvers an
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8e/08/732c8064497e491314586460c0727ceb9fbd461a223f14eb59e1ac6d997a/cofi_espresso-${REALVERSION}.tar.gz"
-SOURCEFILE="cofi_espresso-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8e/08/732c8064497e491314586460c0727ceb9fbd461a223f14eb59e1ac6d997a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="ArenaData Cluster Manager Client"
 
 HOMEPAGE="https://github.com/arenadata/adcm"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8f/6a/d428fde46bdf21386ab3cc2a2cab7f82ad1860dcb77f9bef87de1a70bf89/adcm_client-${REALVERSION}.tar.gz"
-SOURCEFILE="adcm_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8f/6a/d428fde46bdf21386ab3cc2a2cab7f82ad1860dcb77f9bef87de1a70bf89/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

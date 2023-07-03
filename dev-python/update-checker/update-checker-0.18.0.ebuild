@@ -15,8 +15,8 @@ DESCRIPTION="A python module that will check for package updates."
 
 HOMEPAGE="https://github.com/bboe/update_checker"
 LICENSE="Simplified BSD License"
-SRC_URI="https://files.pythonhosted.org/packages/5c/0b/1bec4a6cc60d33ce93d11a7bcf1aeffc7ad0aa114986073411be31395c6f/update_checker-${REALVERSION}.tar.gz"
-SOURCEFILE="update_checker-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5c/0b/1bec4a6cc60d33ce93d11a7bcf1aeffc7ad0aa114986073411be31395c6f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

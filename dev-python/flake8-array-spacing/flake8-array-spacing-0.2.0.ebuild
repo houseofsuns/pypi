@@ -15,8 +15,8 @@ DESCRIPTION="flake8 plugin to make exceptions for array-like variables"
 
 HOMEPAGE="https://github.com/larsoner/flake8-array-spacing"
 LICENSE="BSD 3-clause"
-SRC_URI="https://files.pythonhosted.org/packages/a4/21/ff29b901128b681b7de7a2787b3aeb3e1f3cba4a8c0cffa9712cbff016bc/flake8_array_spacing-${REALVERSION}.tar.gz"
-SOURCEFILE="flake8_array_spacing-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a4/21/ff29b901128b681b7de7a2787b3aeb3e1f3cba4a8c0cffa9712cbff016bc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Automate downloading UMLS data."
 
 HOMEPAGE="https://github.com/cthoyt/umls_downloader"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1f/84/15a5d760511d4e2edd5e3903d930f1729c6021b64c6c265018c15a4f7594/umls_downloader-${REALVERSION}.tar.gz"
-SOURCEFILE="umls_downloader-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1f/84/15a5d760511d4e2edd5e3903d930f1729c6021b64c6c265018c15a4f7594/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

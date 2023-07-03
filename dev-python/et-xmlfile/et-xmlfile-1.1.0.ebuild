@@ -15,8 +15,8 @@ DESCRIPTION="An implementation of lxml.xmlfile for the standard library"
 
 HOMEPAGE="https://foss.heptapod.net/openpyxl/et_xmlfile"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3d/5d/0413a31d184a20c763ad741cc7852a659bf15094c24840c5bdd1754765cd/et_xmlfile-${REALVERSION}.tar.gz"
-SOURCEFILE="et_xmlfile-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3d/5d/0413a31d184a20c763ad741cc7852a659bf15094c24840c5bdd1754765cd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

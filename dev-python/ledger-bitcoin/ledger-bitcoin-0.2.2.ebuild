@@ -15,8 +15,8 @@ DESCRIPTION="Client for Ledger Nano Bitcoin application"
 
 HOMEPAGE="https://github.com/LedgerHQ/app-bitcoin-new"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/25/6d/b2569086c30ee2dcec251124df817e662fbe05504c9be5392b8ad78f6351/ledger_bitcoin-${REALVERSION}.tar.gz"
-SOURCEFILE="ledger_bitcoin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/25/6d/b2569086c30ee2dcec251124df817e662fbe05504c9be5392b8ad78f6351/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="stock_computing_service"
 
 HOMEPAGE=""
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/5f/db/497db2063d84335f56e39d6f5533843ecd06f7e8e894464eef446a502c40/stock_computing_service-${REALVERSION}.tar.gz"
-SOURCEFILE="stock_computing_service-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5f/db/497db2063d84335f56e39d6f5533843ecd06f7e8e894464eef446a502c40/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

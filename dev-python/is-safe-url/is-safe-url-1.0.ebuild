@@ -15,8 +15,8 @@ DESCRIPTION="Django's is_safe_url() bundled as a standalone package."
 
 HOMEPAGE="https://gitlab.com/MarkusH/is_safe_url"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/a4/94/be63323c7096a133a1b3ca89f4c096f0828ad0e169dba24cef6c28e1dd0d/is_safe_url-${REALVERSION}.tar.gz"
-SOURCEFILE="is_safe_url-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a4/94/be63323c7096a133a1b3ca89f4c096f0828ad0e169dba24cef6c28e1dd0d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

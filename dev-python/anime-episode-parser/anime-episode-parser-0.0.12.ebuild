@@ -15,8 +15,8 @@ DESCRIPTION="A library to parse episode info from anime title"
 
 HOMEPAGE="https://github.com/BGmi/anime-episode-parser"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/79/be/01d563e17096865f8e6a86aa823e02b05903ea877d50a1058c778d6542dc/anime_episode_parser-${REALVERSION}.tar.gz"
-SOURCEFILE="anime_episode_parser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/79/be/01d563e17096865f8e6a86aa823e02b05903ea877d50a1058c778d6542dc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Library for extracting ECHR data"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/dc/5b/ec590c852446cef4f8341ce49fb84c6e09b470835a51afb2d36878d049c2/echr_extractor-${REALVERSION}.tar.gz"
-SOURCEFILE="echr_extractor-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/dc/5b/ec590c852446cef4f8341ce49fb84c6e09b470835a51afb2d36878d049c2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

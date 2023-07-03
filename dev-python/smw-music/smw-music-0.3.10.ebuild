@@ -15,8 +15,8 @@ DESCRIPTION="Tools for working with SMW Music"
 
 HOMEPAGE="http://github.com/com-posers-pit/smw_music"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/79/00/fd75fd0decefe323c264214940cbf4d6ebfd88720eae60ecc10580aaf3b3/smw_music-${REALVERSION}.tar.gz"
-SOURCEFILE="smw_music-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/79/00/fd75fd0decefe323c264214940cbf4d6ebfd88720eae60ecc10580aaf3b3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

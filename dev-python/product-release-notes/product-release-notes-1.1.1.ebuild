@@ -15,8 +15,8 @@ DESCRIPTION="Release notes page for your product."
 
 HOMEPAGE="https://github.com/nickromano/product-release-notes"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6f/f9/034d5da511bd5086a49812399177beb14040bb6016be32446facb1f96f42/product_release_notes-${REALVERSION}.tar.gz"
-SOURCEFILE="product_release_notes-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6f/f9/034d5da511bd5086a49812399177beb14040bb6016be32446facb1f96f42/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

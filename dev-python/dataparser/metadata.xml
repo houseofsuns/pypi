@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># dataparserSimple data storing file writer using JSONDataparser reads and writes JSON files into specified locations,it takes dictionaries and returns them, it also can return a part of the data storedusing simple filters## Known issues- The path must exist on drive, the file is authomatically created</longdescription>
+</pkgmetadata>

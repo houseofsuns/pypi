@@ -15,8 +15,8 @@ DESCRIPTION="Migration data and utilities for Brightway IO and LCA in general"
 
 HOMEPAGE="https://github.com/brightway-lca/bw_migrations"
 LICENSE="NewBSD 3-clause; LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/51/56/647c42d2c7ec041da11a04cb583e8ec4f14b3cae2ed420669ef5e443ae43/bw_migrations-${REALVERSION}.tar.gz"
-SOURCEFILE="bw_migrations-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/51/56/647c42d2c7ec041da11a04cb583e8ec4f14b3cae2ed420669ef5e443ae43/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

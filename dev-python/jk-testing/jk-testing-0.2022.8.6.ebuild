@@ -15,8 +15,8 @@ DESCRIPTION="This python module provides a simple to use infrastructure for runn
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/3b/05/8548f9455bf08c70d4532e26b4d4b64950083d612843aed05b8ff3f8a3e6/jk_testing-${REALVERSION}.tar.gz"
-SOURCEFILE="jk_testing-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3b/05/8548f9455bf08c70d4532e26b4d4b64950083d612843aed05b8ff3f8a3e6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

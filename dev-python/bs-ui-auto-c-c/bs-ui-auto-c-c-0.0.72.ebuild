@@ -15,8 +15,8 @@ DESCRIPTION="一个selenium自动安装驱动、日志的项目"
 
 HOMEPAGE=""
 LICENSE="apache3.0"
-SRC_URI="https://files.pythonhosted.org/packages/9b/b9/a139f98003cfb34b072c33c74b5bbca43601f68d1f4483f82d3dc72f27ef/bs_ui_auto_c_c-${REALVERSION}.tar.gz"
-SOURCEFILE="bs_ui_auto_c_c-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9b/b9/a139f98003cfb34b072c33c74b5bbca43601f68d1f4483f82d3dc72f27ef/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

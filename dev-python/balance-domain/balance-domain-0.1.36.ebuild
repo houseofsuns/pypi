@@ -15,8 +15,8 @@ DESCRIPTION="Objetivos:"
 
 HOMEPAGE="https://pypi.org/project/balance-domain"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/70/e2/29b8c5a5c856c39b5af455dc5bc518442aadd543ee52c23c66b5080b5e15/balance_domain-${REALVERSION}.tar.gz"
-SOURCEFILE="balance_domain-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/70/e2/29b8c5a5c856c39b5af455dc5bc518442aadd543ee52c23c66b5080b5e15/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

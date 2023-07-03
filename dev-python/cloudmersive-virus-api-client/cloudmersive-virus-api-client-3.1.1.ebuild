@@ -15,8 +15,8 @@ DESCRIPTION="virusapi"
 
 HOMEPAGE="https://www.cloudmersive.com/virus-api"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6c/66/5afb27fb0a3c7eae21923cf87779c64885b2225a70bb71d5701984c08c9d/cloudmersive_virus_api_client-${REALVERSION}.tar.gz"
-SOURCEFILE="cloudmersive_virus_api_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6c/66/5afb27fb0a3c7eae21923cf87779c64885b2225a70bb71d5701984c08c9d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

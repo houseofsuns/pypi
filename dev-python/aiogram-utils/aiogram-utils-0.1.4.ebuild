@@ -15,8 +15,8 @@ DESCRIPTION="Misc utils for aiogram"
 
 HOMEPAGE="https://github.com/LDmitriy7/aiogram_utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3b/22/4fab4584c5a4ea3d4e624a56408dc356d6563eb1be840ffded6b7fddcd8a/aiogram_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="aiogram_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3b/22/4fab4584c5a4ea3d4e624a56408dc356d6563eb1be840ffded6b7fddcd8a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

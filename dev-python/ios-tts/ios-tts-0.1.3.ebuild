@@ -15,8 +15,8 @@ DESCRIPTION="a unitts driver for ios device, it use AVFoundation.AVSpeechSynthes
 
 HOMEPAGE="https://github.com/yumoqing/ios_tts"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2c/95/46fbad8950c70b26abd156bcb076496b05c4a9f058d0407b7a99ff748fad/ios_tts-${REALVERSION}.tar.gz"
-SOURCEFILE="ios_tts-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2c/95/46fbad8950c70b26abd156bcb076496b05c4a9f058d0407b7a99ff748fad/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

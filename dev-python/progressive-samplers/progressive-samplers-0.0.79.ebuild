@@ -15,8 +15,8 @@ DESCRIPTION="A collection of general-purpose Progressive Samplers (Latin-Hypercu
 
 HOMEPAGE="https://github.com/ELC/progressive_samplers/tree/master/"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b1/73/8cc5a24a211e99b83ce0240e262fdf743173e0e205c3a8ec6e73d423eaf8/progressive_samplers-${REALVERSION}.tar.gz"
-SOURCEFILE="progressive_samplers-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b1/73/8cc5a24a211e99b83ce0240e262fdf743173e0e205c3a8ec6e73d423eaf8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

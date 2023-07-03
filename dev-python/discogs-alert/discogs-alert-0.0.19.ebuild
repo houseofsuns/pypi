@@ -15,8 +15,8 @@ DESCRIPTION="Configurable, real-time alerts for your discogs wantlist"
 
 HOMEPAGE="https://github.com/michaelhball/discogs_alert"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6d/ba/6e41f80b62543004d4f10a1b3209a46474c57d4c746fceab924e6e792a68/discogs_alert-${REALVERSION}.tar.gz"
-SOURCEFILE="discogs_alert-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6d/ba/6e41f80b62543004d4f10a1b3209a46474c57d4c746fceab924e6e792a68/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

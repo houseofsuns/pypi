@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/t3rn0/ast-comments"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2c/eb/38858d1d59d20fcb91a5a798533b1ba9c20634dbed0f731a51d21d58d047/ast_comments-${REALVERSION}.tar.gz"
-SOURCEFILE="ast_comments-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2c/eb/38858d1d59d20fcb91a5a798533b1ba9c20634dbed0f731a51d21d58d047/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

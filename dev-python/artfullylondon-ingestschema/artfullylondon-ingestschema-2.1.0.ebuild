@@ -15,8 +15,8 @@ DESCRIPTION="Domain schema for Artfully London ingest system"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/27/41/a61fd7ef6cf9972b40c337d1cdaaa7678e151a224d988d3123030fda6241/artfullylondon_ingestschema-${REALVERSION}.tar.gz"
-SOURCEFILE="artfullylondon_ingestschema-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/27/41/a61fd7ef6cf9972b40c337d1cdaaa7678e151a224d988d3123030fda6241/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

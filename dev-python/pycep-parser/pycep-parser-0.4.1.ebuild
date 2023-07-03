@@ -15,8 +15,8 @@ DESCRIPTION="A Python based Bicep parser"
 
 HOMEPAGE="https://github.com/gruebel/pycep"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/1c/fb/3912b366eaae9414758dda5c4b6903f3931bafe25490bd7c6a4a27409ea1/pycep_parser-${REALVERSION}.tar.gz"
-SOURCEFILE="pycep_parser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1c/fb/3912b366eaae9414758dda5c4b6903f3931bafe25490bd7c6a4a27409ea1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

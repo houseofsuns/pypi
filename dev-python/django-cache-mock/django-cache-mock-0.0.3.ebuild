@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/67/2c/4551dcf3478879496a333641573f2706301a56c2d5a6da98b1c8ef5570c4/django_cache_mock-${REALVERSION}.tar.gz"
-SOURCEFILE="django_cache_mock-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/67/2c/4551dcf3478879496a333641573f2706301a56c2d5a6da98b1c8ef5570c4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="ARTEMIS utility modules"
 
 HOMEPAGE="https://github.com/FORTH-ICS-INSPIRE/artemis"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7a/1f/1de48b2be3d3c611dab20039fa29308b2306c309dfd1272374984f34a3d6/artemis_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="artemis_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7a/1f/1de48b2be3d3c611dab20039fa29308b2306c309dfd1272374984f34a3d6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

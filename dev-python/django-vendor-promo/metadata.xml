@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>![Django Vendor Promo CI](https://github.com/renderbox/django-vendor-promo/workflows/Django%20Vendor%20Promo%20CI/badge.svg)![Django Vendor Promo CI](https://github.com/renderbox/django-vendor-promo/workflows/Django%20Vendor%20Promo%20Develop/badge.svg)# Django Vendor PromoExtension to Django Vendor to add Promo Code capabilities</longdescription>
+</pkgmetadata>

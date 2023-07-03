@@ -15,8 +15,8 @@ DESCRIPTION="A collection of fields and utilities to help make model fields more
 
 HOMEPAGE="https://github.com/Opus10/django-strict-fields"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/4e/c5/1951a01eb784eebd104af0cb1f47faad2378d61d0d6d8fe4667f6fe268cc/django_strict_fields-${REALVERSION}.tar.gz"
-SOURCEFILE="django_strict_fields-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4e/c5/1951a01eb784eebd104af0cb1f47faad2378d61d0d6d8fe4667f6fe268cc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Teapy[![Build](https://github.com/teamon9161/teapy/workflows/Build/badge.svg)](https://github.com/teamon9161/teapy/actions)[![PyPI](https://img.shields.io/pypi/v/teapy)](https://pypi.org/project/teapy)[![codecov](https://codecov.io/gh/teamon9161/teapy/branch/master/graph/badge.svg?token=WK0F7P1VC6)](https://codecov.io/gh/teamon9161/teapy)## Blazingly fast datadict library in PythonTeapy is a blazingly fast datadict library implemented in Rust.* Lazy evaluation* Handle NaN* Multi-threaded* Any Dimension</longdescription>
+</pkgmetadata>

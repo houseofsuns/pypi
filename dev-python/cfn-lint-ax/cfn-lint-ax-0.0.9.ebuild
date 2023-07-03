@@ -15,8 +15,8 @@ DESCRIPTION="Rules for cfn lint."
 
 HOMEPAGE="https://github.com/aexeagmbh/cfn-lint-rules"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b5/42/420fe4fe1c5abe54d05bdbba74bf9cdbfbde778f13394b722dfad61059fc/cfn_lint_ax-${REALVERSION}.tar.gz"
-SOURCEFILE="cfn_lint_ax-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b5/42/420fe4fe1c5abe54d05bdbba74bf9cdbfbde778f13394b722dfad61059fc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

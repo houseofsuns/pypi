@@ -15,8 +15,8 @@ DESCRIPTION="Python package which provides an abstract object store"
 
 HOMEPAGE="https://github.com/rmetcalf9/object_store_abstraction"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b2/37/c1e9f49b89638414d20e354051a6d078cfcfa5ee98b225af3b1c6b26e0f3/object_store_abstraction-${REALVERSION}.tar.gz"
-SOURCEFILE="object_store_abstraction-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b2/37/c1e9f49b89638414d20e354051a6d078cfcfa5ee98b225af3b1c6b26e0f3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

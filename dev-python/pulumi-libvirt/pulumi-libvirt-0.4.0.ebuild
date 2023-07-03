@@ -15,8 +15,8 @@ DESCRIPTION="A Pulumi package for creating and managing libvirt cloud resources.
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/a8/3a/54778dc00f7a6c7656b95312151f86eb871e30ae1e7b0f1c4d50bac5395e/pulumi_libvirt-${REALVERSION}.tar.gz"
-SOURCEFILE="pulumi_libvirt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a8/3a/54778dc00f7a6c7656b95312151f86eb871e30ae1e7b0f1c4d50bac5395e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

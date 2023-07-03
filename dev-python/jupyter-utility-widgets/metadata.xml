@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># python-utilitySeeing I have been using a few widgets &quot;patterns&quot; over and over, I have decided to share and pack them in a convenient manner.## Installation`pip install jupyter-utility-widgets`may require jupyterlab installation.## Widgets1. Index Selector    A simple combination of widgets that help exploring a list of options.      see `examples/index_selector.ipynb`2. File Selector    A combination of widgets that help exploring the file system    see `examples/file_selector.ipynb`3. Spectrogram Viewer    A class for viewing spectrogram of data, with a simultaneous zoomed view.    see `examples/spectrogram.ipynb`</longdescription>
+</pkgmetadata>

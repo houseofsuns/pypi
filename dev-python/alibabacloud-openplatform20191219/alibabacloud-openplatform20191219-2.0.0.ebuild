@@ -15,8 +15,8 @@ DESCRIPTION="Alibaba Cloud OpenPlatform (20191219) SDK Library for Python"
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/4f/bf/f7fa2f3657ed352870f442434cb2f27b7f70dcd52a544a1f3998eeaf6d71/alibabacloud_openplatform20191219-${REALVERSION}.tar.gz"
-SOURCEFILE="alibabacloud_openplatform20191219-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4f/bf/f7fa2f3657ed352870f442434cb2f27b7f70dcd52a544a1f3998eeaf6d71/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

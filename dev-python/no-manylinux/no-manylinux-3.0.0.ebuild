@@ -15,8 +15,8 @@ DESCRIPTION="Install this package to disable manylinux wheels when dowloading fr
 
 HOMEPAGE="https://github.com/asottile/no-manylinux"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d8/47/39d15a552312b21f33991ea9672fac2c47bd430f6da82ae795eb80eeb714/no_manylinux-${REALVERSION}.tar.gz"
-SOURCEFILE="no_manylinux-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d8/47/39d15a552312b21f33991ea9672fac2c47bd430f6da82ae795eb80eeb714/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="BRSynth Utilities"
 
 HOMEPAGE="https://github.com/brsynth/brs-utils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/99/f8/0290fe17f253ab28d5a3ede046c5eabe554acdef0008fd0a0b424b522131/brs_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="brs_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/99/f8/0290fe17f253ab28d5a3ede046c5eabe554acdef0008fd0a0b424b522131/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

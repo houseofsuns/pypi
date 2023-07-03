@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/iterative/pytest-test-utils"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ec/01/6a7fedb98245c40489c7b1fc9dd60476283646226bfef38f848e258322ec/pytest_test_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="pytest_test_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ec/01/6a7fedb98245c40489c7b1fc9dd60476283646226bfef38f848e258322ec/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Generate a context file of your whole software project to feed into
 
 HOMEPAGE="https://github.com/estill01/ChatGPContextMaker"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3e/90/443dd4a79a5b0f9a3e9c4cbe48eded0dfe0575147827eb35e97cf0c8bc69/gpcontext_maker-${REALVERSION}.tar.gz"
-SOURCEFILE="gpcontext_maker-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3e/90/443dd4a79a5b0f9a3e9c4cbe48eded0dfe0575147827eb35e97cf0c8bc69/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

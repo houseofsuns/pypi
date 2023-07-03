@@ -15,8 +15,8 @@ DESCRIPTION="set of tools facilitating development, exporting and payment manage
 
 HOMEPAGE="https://github.com/chapkovski/otree_tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c0/c9/144abda866f4b5a188f2378d5d1711397305441c140e8f025d165acf4869/otree_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="otree_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c0/c9/144abda866f4b5a188f2378d5d1711397305441c140e8f025d165acf4869/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="wordnet for russian language"
 
 HOMEPAGE="https://github.com/jamsic/ru-wordnet"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4a/94/0bd5cb96f0b92bc98908194721a1d49f122e3c670fc2705aae19535dee39/wiki_ru_wordnet-${REALVERSION}.tar.gz"
-SOURCEFILE="wiki_ru_wordnet-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4a/94/0bd5cb96f0b92bc98908194721a1d49f122e3c670fc2705aae19535dee39/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="An ansible-like network automation framework."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/82/9e/ca8644b289a108b14f3b34110afef50b819380d4d77cfec3a922d33d0a95/network_automation_usman_u-${REALVERSION}.tar.gz"
-SOURCEFILE="network_automation_usman_u-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/82/9e/ca8644b289a108b14f3b34110afef50b819380d4d77cfec3a922d33d0a95/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

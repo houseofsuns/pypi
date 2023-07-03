@@ -15,8 +15,8 @@ DESCRIPTION="An async job system using RabbitMQ & CloudEvents"
 
 HOMEPAGE=""
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/b2/a4/944003b3124d4f75749732ee7ff26367ca2c5741aa0942f405d1a23b1e20/job_helper-${REALVERSION}.tar.gz"
-SOURCEFILE="job_helper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b2/a4/944003b3124d4f75749732ee7ff26367ca2c5741aa0942f405d1a23b1e20/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

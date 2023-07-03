@@ -15,8 +15,8 @@ DESCRIPTION="Weighted Prediction Error for speech dereverberation"
 
 HOMEPAGE="https://github.com/fgnt/nara_wpe"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/57/1a/167020679cdc66c93a132cd2c1f7370529a33614c37a14f936375c18d0f2/nara_wpe-${REALVERSION}.tar.gz"
-SOURCEFILE="nara_wpe-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/57/1a/167020679cdc66c93a132cd2c1f7370529a33614c37a14f936375c18d0f2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Uses tokenized query returned by python-sqlparse and generates quer
 
 HOMEPAGE="https://github.com/macbre/sql-metadata"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f7/c0/61731ddba44b2e9afc31cc35892c20510504dbec9fc20903bffa0a583993/sql_metadata-${REALVERSION}.tar.gz"
-SOURCEFILE="sql_metadata-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f7/c0/61731ddba44b2e9afc31cc35892c20510504dbec9fc20903bffa0a583993/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

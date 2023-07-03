@@ -15,8 +15,8 @@ DESCRIPTION="Plugins for MkDocs and Python Markdown"
 
 HOMEPAGE="https://github.com/Neoteroi/mkdocs-plugins"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/69/e9/bfe0996b6d3a041d0ba41d626b397afb95de313841978c686f24e3f0a63e/neoteroi_mkdocs-${REALVERSION}.tar.gz"
-SOURCEFILE="neoteroi_mkdocs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/69/e9/bfe0996b6d3a041d0ba41d626b397afb95de313841978c686f24e3f0a63e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Python Social Auth - Flask[![Donate](https://img.shields.io/badge/Donate-PayPal-orange.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=matiasaguirre%40gmail%2ecom&amp;lc=US&amp;item_name=Python%20Social%20Auth&amp;no_note=0&amp;currency_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHostedGuest)Python Social Auth is an easy to setup social authentication/registrationmechanism with support for several frameworks and auth providers.## DescriptionThis is the [Flask](http://flask.pocoo.org/) component of the[python-social-auth ecosystem](https://github.com/python-social-auth/social-core),it implements the needed functionality to integrate[social-auth-core](https://github.com/python-social-auth/social-core)in a Flask based project using [SQLAlchemy](http://www.sqlalchemy.org/) bydefault.## DocumentationProject documentation is available at http://python-social-auth.readthedocs.org/.## Setup```shell$ pip install social-auth-app-flask-sqlalchemy```## ContributingSee the [CONTRIBUTING.md](CONTRIBUTING.md) document for details.## VersioningThis project follows [Semantic Versioning 2.0.0](http://semver.org/spec/v2.0.0.html).## LicenseThis project follows the BSD license. See the [LICENSE](LICENSE) for details.## DonationsThis project is maintened on my spare time, consider donating to keepit improving.[![Donate](https://img.shields.io/badge/Donate-PayPal-orange.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=matiasaguirre%40gmail%2ecom&amp;lc=US&amp;item_name=Python%20Social%20Auth&amp;no_note=0&amp;currency_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHostedGuest)</longdescription>
+</pkgmetadata>

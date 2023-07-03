@@ -15,8 +15,8 @@ DESCRIPTION="Search contents on YouTube."
 
 HOMEPAGE="https://github.com/jun50/yt-search"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/8e/38/85bddf720fbd87eff4639fbb9b4c7b9b3190604f2db3e93446f26dfbea26/yt_search-${REALVERSION}.tar.gz"
-SOURCEFILE="yt_search-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8e/38/85bddf720fbd87eff4639fbb9b4c7b9b3190604f2db3e93446f26dfbea26/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

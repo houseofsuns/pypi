@@ -15,8 +15,8 @@ DESCRIPTION="Assists in parsing output of *nix system commands such as df, syste
 
 HOMEPAGE=""
 LICENSE="proprietary"
-SRC_URI="https://files.pythonhosted.org/packages/2c/73/d3c53d3e58e3a0c682a8e5179637766c7e1d5a5bbd70ccf8cf8542e8673f/jk_cmdoutputparsinghelper-${REALVERSION}.tar.gz"
-SOURCEFILE="jk_cmdoutputparsinghelper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2c/73/d3c53d3e58e3a0c682a8e5179637766c7e1d5a5bbd70ccf8cf8542e8673f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

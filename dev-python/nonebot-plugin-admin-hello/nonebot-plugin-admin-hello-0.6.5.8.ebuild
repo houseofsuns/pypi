@@ -15,8 +15,8 @@ DESCRIPTION="nonebot plugin admin hello"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/aa/43/164ff077bbef641f5bdf244c363beb93e8725268b8384ca4cac82ab2f7b2/nonebot_plugin_admin_hello-${REALVERSION}.tar.gz"
-SOURCEFILE="nonebot_plugin_admin_hello-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/aa/43/164ff077bbef641f5bdf244c363beb93e8725268b8384ca4cac82ab2f7b2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

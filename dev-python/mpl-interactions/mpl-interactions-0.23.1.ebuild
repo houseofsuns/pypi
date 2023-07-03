@@ -15,8 +15,8 @@ DESCRIPTION="Matplotlib aware interact functions"
 
 HOMEPAGE=""
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/4c/06/11a92565a15fe2ecab5e076528feb49a28ef13bb14a48affda6ac95124f5/mpl_interactions-${REALVERSION}.tar.gz"
-SOURCEFILE="mpl_interactions-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4c/06/11a92565a15fe2ecab5e076528feb49a28ef13bb14a48affda6ac95124f5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

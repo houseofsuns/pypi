@@ -15,8 +15,8 @@ DESCRIPTION="Django REST framework views using the pipeline pattern."
 
 HOMEPAGE="https://github.com/MrThearMan/drf-pipeline-views"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e1/7d/f90fd5df9c12578316be157c37ff03b753101766d76a6e695a1e95cc2ba5/drf_pipeline_views-${REALVERSION}.tar.gz"
-SOURCEFILE="drf_pipeline_views-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e1/7d/f90fd5df9c12578316be157c37ff03b753101766d76a6e695a1e95cc2ba5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

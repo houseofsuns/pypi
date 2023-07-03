@@ -15,8 +15,8 @@ DESCRIPTION="Plugin for PyLint that checks if we import from permitted modules"
 
 HOMEPAGE="https://github.com/Enforcer/pylint_forbidden_imports"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c8/77/74546ee7dd81af01e5e2e69812b97188bfb593da1fe948086c1efe240f18/pylint_forbidden_imports-${REALVERSION}.tar.gz"
-SOURCEFILE="pylint_forbidden_imports-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c8/77/74546ee7dd81af01e5e2e69812b97188bfb593da1fe948086c1efe240f18/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

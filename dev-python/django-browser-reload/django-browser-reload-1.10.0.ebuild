@@ -15,8 +15,8 @@ DESCRIPTION="Automatically reload your browser in development."
 
 HOMEPAGE="https://github.com/adamchainz/django-browser-reload"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/95/bd/39014b19c5efdb301c319a19613119e3176f106f383ad44d74b679cd1ad7/django_browser_reload-${REALVERSION}.tar.gz"
-SOURCEFILE="django_browser_reload-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/95/bd/39014b19c5efdb301c319a19613119e3176f106f383ad44d74b679cd1ad7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

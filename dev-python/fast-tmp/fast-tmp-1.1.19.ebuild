@@ -15,8 +15,8 @@ DESCRIPTION="fastapi tortoise amis admin"
 
 HOMEPAGE="https://github.com/Chise1/fast-tmp"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d6/db/0bf0c9fba42b94848dd8b8d49eba8d4c9f97e3c739f01429fbecf64becc4/fast_tmp-${REALVERSION}.tar.gz"
-SOURCEFILE="fast_tmp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d6/db/0bf0c9fba42b94848dd8b8d49eba8d4c9f97e3c739f01429fbecf64becc4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

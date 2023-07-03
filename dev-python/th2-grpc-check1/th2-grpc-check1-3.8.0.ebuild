@@ -15,8 +15,8 @@ DESCRIPTION="th2_grpc_check1"
 
 HOMEPAGE="https://github.com/th2-net/th2-grpc-check1"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/a8/47/1ad6cfea3aa70252cc93edb394cf533f863be89f325ed2a3d7b9920c403e/th2_grpc_check1-${REALVERSION}.tar.gz"
-SOURCEFILE="th2_grpc_check1-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a8/47/1ad6cfea3aa70252cc93edb394cf533f863be89f325ed2a3d7b9920c403e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

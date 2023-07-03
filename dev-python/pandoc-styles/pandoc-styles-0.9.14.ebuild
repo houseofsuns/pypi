@@ -15,8 +15,8 @@ DESCRIPTION="A script to convert files with pandoc using styles."
 
 HOMEPAGE="https://github.com/dickloraine/pandoc_styles"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6e/b6/492151e3c9d68845badf8498c21a1ab75f3cde56af1b2cd421fd64885fbc/pandoc_styles-${REALVERSION}.tar.gz"
-SOURCEFILE="pandoc_styles-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6e/b6/492151e3c9d68845badf8498c21a1ab75f3cde56af1b2cd421fd64885fbc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Some useful RDKit functions"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bb/04/e7acc985594ce2e4c20c2cb7d643d659c7d3f6ce7374c3ef1b90ffa3a0d2/useful_rdkit_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="useful_rdkit_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bb/04/e7acc985594ce2e4c20c2cb7d643d659c7d3f6ce7374c3ef1b90ffa3a0d2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Flake8 Type Annotation Checks"
 
 HOMEPAGE="https://github.com/sco1/flake8-annotations"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4a/1c/61f759cc427138603a3b2b9aee875193987e74a9c289b79bc9aa6c661687/flake8_annotations-${REALVERSION}.tar.gz"
-SOURCEFILE="flake8_annotations-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4a/1c/61f759cc427138603a3b2b9aee875193987e74a9c289b79bc9aa6c661687/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

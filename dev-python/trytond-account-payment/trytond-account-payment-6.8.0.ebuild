@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module for payment"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/00/93/8b2c7dacd207eeb0253c3bb12ce1c59d4fbb349f68f80f18f297f969d3f6/trytond_account_payment-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_account_payment-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/00/93/8b2c7dacd207eeb0253c3bb12ce1c59d4fbb349f68f80f18f297f969d3f6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

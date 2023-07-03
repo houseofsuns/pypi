@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b8/fa/14596a2954c761f95f32be11432515d08a48bd7dc1e4e26a4681ede0f20b/watchmen_storage_mssql-${REALVERSION}.tar.gz"
-SOURCEFILE="watchmen_storage_mssql-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b8/fa/14596a2954c761f95f32be11432515d08a48bd7dc1e4e26a4681ede0f20b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Landlord AI Core"
 
 HOMEPAGE=""
 LICENSE="GNU"
-SRC_URI="https://files.pythonhosted.org/packages/e3/2d/1e2dce45373094a93fb6f8d27b79dc1ee247b5a1139d8ea377b9ac807d61/landlord_ai-${REALVERSION}.tar.gz"
-SOURCEFILE="landlord_ai-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e3/2d/1e2dce45373094a93fb6f8d27b79dc1ee247b5a1139d8ea377b9ac807d61/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A client to interact with freud-net API"
 
 HOMEPAGE="https://github.com/acdh-oeaw/freud_api_crawler"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1c/b0/3ba7472a0776cf72ac00af5a8437d1ef88a5d403eadcd32778055e5f32b8/freud_api_crawler-${REALVERSION}.tar.gz"
-SOURCEFILE="freud_api_crawler-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1c/b0/3ba7472a0776cf72ac00af5a8437d1ef88a5d403eadcd32778055e5f32b8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

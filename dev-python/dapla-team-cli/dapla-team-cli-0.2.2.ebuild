@@ -15,8 +15,8 @@ DESCRIPTION="CLI for working with Dapla Teams"
 
 HOMEPAGE="https://github.com/statisticsnorway/dapla-team-cli"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fc/f1/f8e111f4b0c1ee9f64144868cc4afb95bfe65797414153b88b610ac1ddcb/dapla_team_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="dapla_team_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fc/f1/f8e111f4b0c1ee9f64144868cc4afb95bfe65797414153b88b610ac1ddcb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

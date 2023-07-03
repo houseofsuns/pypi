@@ -15,8 +15,8 @@ DESCRIPTION="Automatically generate Docker Swarm mode node"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/90/79/26e76d551679c19174227e5aeb915af9585391841ec631d0b5b16cb6b7d8/docker_auto_labels-${REALVERSION}.tar.gz"
-SOURCEFILE="docker_auto_labels-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/90/79/26e76d551679c19174227e5aeb915af9585391841ec631d0b5b16cb6b7d8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

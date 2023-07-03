@@ -15,8 +15,8 @@ DESCRIPTION="Provides a decorator that automatically catches known transient exc
 
 HOMEPAGE="https://github.com/BobTheBuidler/eth_retry"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/36/05/f2381c017644b685f2b662c7d63b81f76ae21cf9323025a17ade981bae11/eth_retry-${REALVERSION}.tar.gz"
-SOURCEFILE="eth_retry-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/36/05/f2381c017644b685f2b662c7d63b81f76ae21cf9323025a17ade981bae11/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

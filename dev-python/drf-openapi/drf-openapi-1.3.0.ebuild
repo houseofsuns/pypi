@@ -15,8 +15,8 @@ DESCRIPTION="Utilities to generate OpenAPI-compatible schema from API made with 
 
 HOMEPAGE="https://github.com/limdauto/drf_openapi"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d1/62/272f29af7e2bf38fe92897abf57f49c9674b5d3b1f9a1683a953c59b9859/drf_openapi-${REALVERSION}.tar.gz"
-SOURCEFILE="drf_openapi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d1/62/272f29af7e2bf38fe92897abf57f49c9674b5d3b1f9a1683a953c59b9859/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

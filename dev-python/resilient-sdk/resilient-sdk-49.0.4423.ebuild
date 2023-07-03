@@ -15,8 +15,8 @@ DESCRIPTION="Python SDK for developing Apps for IBM SOAR"
 
 HOMEPAGE="https://github.com/ibmresilient/resilient-python-api/tree/main/resilient-sdk"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/79/ac/7936a6a36005e8aae1bfdbda448c23fd86ee081a7f33b486849ebbf4ddf2/resilient_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="resilient_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/79/ac/7936a6a36005e8aae1bfdbda448c23fd86ee081a7f33b486849ebbf4ddf2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

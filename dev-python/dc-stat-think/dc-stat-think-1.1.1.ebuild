@@ -15,8 +15,8 @@ DESCRIPTION="Utility functions used in the DataCamp Statistical Thinking courses
 
 HOMEPAGE="https://github.com/justinbois/dc_stat_think"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2f/9c/b824da2a757f12fd92df3d0c6cac361e57135c41ba0cd69b4fce1a44dc8e/dc_stat_think-${REALVERSION}.tar.gz"
-SOURCEFILE="dc_stat_think-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2f/9c/b824da2a757f12fd92df3d0c6cac361e57135c41ba0cd69b4fce1a44dc8e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

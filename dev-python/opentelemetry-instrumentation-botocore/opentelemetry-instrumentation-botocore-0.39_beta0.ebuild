@@ -15,8 +15,8 @@ DESCRIPTION="OpenTelemetry Botocore instrumentation"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-botocore"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2e/eb/ac7ff54d19af97beeec166abad784b777a3cfa8d1ae025acae2418f1063c/opentelemetry_instrumentation_botocore-${REALVERSION}.tar.gz"
-SOURCEFILE="opentelemetry_instrumentation_botocore-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2e/eb/ac7ff54d19af97beeec166abad784b777a3cfa8d1ae025acae2418f1063c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="fast crossing"
 
 HOMEPAGE="https://fast-crossing.readthedocs.io"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/16/fd/2491b8b8fd5a8021bc22b87b552a5d1c8c2a0c33e93122d1cf2a9b87b491/fast_crossing-${REALVERSION}.tar.gz"
-SOURCEFILE="fast_crossing-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/16/fd/2491b8b8fd5a8021bc22b87b552a5d1c8c2a0c33e93122d1cf2a9b87b491/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

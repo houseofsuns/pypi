@@ -15,8 +15,8 @@ DESCRIPTION="Falcon instrumentation for OpenTelemetry"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-falcon"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fb/39/f9d068aa2bec37f26e96c7bd64dd87cef8857b9e3f0372fc8cf5c176ec1f/opentelemetry_instrumentation_falcon-${REALVERSION}.tar.gz"
-SOURCEFILE="opentelemetry_instrumentation_falcon-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fb/39/f9d068aa2bec37f26e96c7bd64dd87cef8857b9e3f0372fc8cf5c176ec1f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

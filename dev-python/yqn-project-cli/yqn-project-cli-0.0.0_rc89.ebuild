@@ -15,8 +15,8 @@ DESCRIPTION="For more faster to create semi-project based on flask"
 
 HOMEPAGE="https://blog.zoukaihua.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2c/83/773a2fdb6124a841b1fb80a967a11a33164326703a08e69a1ad9ff5d1682/yqn_project_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="yqn_project_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2c/83/773a2fdb6124a841b1fb80a967a11a33164326703a08e69a1ad9ff5d1682/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

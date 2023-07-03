@@ -15,8 +15,8 @@ DESCRIPTION="re_data - data quality framework"
 
 HOMEPAGE="https://github.com/re-data/re-data"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/75/2b/d94ba8917413eea50fda14a316775ee3edc7ce3dd4c943dcef12be1b93c6/re_data-${REALVERSION}.tar.gz"
-SOURCEFILE="re_data-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/75/2b/d94ba8917413eea50fda14a316775ee3edc7ce3dd4c943dcef12be1b93c6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

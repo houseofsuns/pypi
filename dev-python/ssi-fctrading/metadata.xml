@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![Semantic Release](https://github.com/SSI-Securities-Corporation/python-fctrading/actions/workflows/publish.yaml/badge.svg)](https://github.com/SSI-Securities-Corporation/python-fctrading/actions/workflows/publish.yaml)# Installation#### From tar ball (most stable)``` pythonpip install ssi-fctrading```#### Install behind proxy```pythonpip install --trusted-host pypi.org --trusted-hostfiles.pythonhosted.org --proxy=http://&lt;username&gt;:&lt;password&gt;@&lt;host&gt;:&lt;port&gt; dist/ssi_fctrading-2.2.0.tar.gz```#### Pypi``` pythonpip install ssi_fctrading```</longdescription>
+</pkgmetadata>

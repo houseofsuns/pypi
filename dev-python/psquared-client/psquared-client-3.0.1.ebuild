@@ -15,8 +15,8 @@ DESCRIPTION="Manage the connection and communications to a PSquared server."
 
 HOMEPAGE=""
 LICENSE="BSD-3-Clause-LBNL"
-SRC_URI="https://files.pythonhosted.org/packages/c3/32/52f55e20e53950dc94528db8826a33c0b455ccbe8c1c7ffa9691389af2b1/psquared_client-${REALVERSION}.tar.gz"
-SOURCEFILE="psquared_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c3/32/52f55e20e53950dc94528db8826a33c0b455ccbe8c1c7ffa9691389af2b1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

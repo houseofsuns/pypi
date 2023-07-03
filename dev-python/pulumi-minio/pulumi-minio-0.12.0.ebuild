@@ -15,8 +15,8 @@ DESCRIPTION="A Pulumi package for creating and managing minio cloud resources."
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/46/ca/c1ac600735865010dad9cc0b69ae307d2156dffdb32885b2ed3427bc3ee3/pulumi_minio-${REALVERSION}.tar.gz"
-SOURCEFILE="pulumi_minio-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/46/ca/c1ac600735865010dad9cc0b69ae307d2156dffdb32885b2ed3427bc3ee3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

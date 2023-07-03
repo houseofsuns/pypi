@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/avast/pe_tools"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/52/b9/b73c7787bc00e84104c0a15ecdd4f28832847bf1a7a56506460ffcab94d9/pe_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="pe_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/52/b9/b73c7787bc00e84104c0a15ecdd4f28832847bf1a7a56506460ffcab94d9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

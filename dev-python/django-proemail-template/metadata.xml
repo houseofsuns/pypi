@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>A few months ago, I ran into this post https://blog.anvileight.com/posts/django-email-templates-with-context-stored-in-database/and decided to make it into a lib after using it on one of my projectsQuick start-----------0. Add it to your Environment using::    pip install django-proemail-template django-summernote1. Add &quot;django-email-template&quot; to your INSTALLED_APPS setting like this::    INSTALLED_APPS = [        ...        'django_summernote'#required        'EmailTemplate',    ]2. Run `python manage.py migrate` to create the polls models.3. add url for summernote::    path('summernote/', include('django_summernote.urls')),You should see it under adminHow to use it-------------Create a new template on admin called default, setting the required info. Use &quot;object&quot; as the context to access the variables (like on a view).And send it from any code::    EmailTemplate.send('default', {        'object': your_model_instance,    })    </longdescription>
+</pkgmetadata>

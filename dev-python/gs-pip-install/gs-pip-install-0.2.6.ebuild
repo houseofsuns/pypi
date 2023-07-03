@@ -15,8 +15,8 @@ DESCRIPTION="Pip Install Packages Stored in Google Cloud Buckets"
 
 HOMEPAGE="https://github.com/lucidsushi/gs_pip_install"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0e/48/4ffbade79d84c43bae146b2bf135d6718e177745cab96ee15b3d7f1f132b/gs_pip_install-${REALVERSION}.tar.gz"
-SOURCEFILE="gs_pip_install-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0e/48/4ffbade79d84c43bae146b2bf135d6718e177745cab96ee15b3d7f1f132b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="OCR capabilities used by RPA Framework"
 
 HOMEPAGE="https://rpaframework.org/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/23/00/cb2059eb90c79d9914c2a0aa7206aa95bf0f3329b999177ab5261bcb8527/rpaframework_recognition-${REALVERSION}.tar.gz"
-SOURCEFILE="rpaframework_recognition-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/23/00/cb2059eb90c79d9914c2a0aa7206aa95bf0f3329b999177ab5261bcb8527/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

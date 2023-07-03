@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Your Autograding Deputy (YAD)Visit the GitHub for all your needs: https://github.com/AutoGradingDeputy/YADIf you are looking for the user manual you can find it here: https://autogradingdeputy.github.io/YAD/</longdescription>
+</pkgmetadata>

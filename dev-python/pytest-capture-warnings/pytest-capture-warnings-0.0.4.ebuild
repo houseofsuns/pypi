@@ -15,8 +15,8 @@ DESCRIPTION="pytest plugin to capture all warnings and put them in one file of y
 
 HOMEPAGE="https://github.com/athinkingape/pytest-capture-warnings"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e8/6e/d21ec12ab5a03f388f8d103af5e2ddb2c2b46d32c59885c209595c634ab9/pytest_capture_warnings-${REALVERSION}.tar.gz"
-SOURCEFILE="pytest_capture_warnings-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e8/6e/d21ec12ab5a03f388f8d103af5e2ddb2c2b46d32c59885c209595c634ab9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

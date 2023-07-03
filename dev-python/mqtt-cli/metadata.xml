@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># mqtt-cliA command-line tool for publishing and subscribing to mqtt. Use cases:* Trials* As part of a bash pipeline## Installation`pip install mqtt-cli`## Usage`mqtt --help`TBC</longdescription>
+</pkgmetadata>

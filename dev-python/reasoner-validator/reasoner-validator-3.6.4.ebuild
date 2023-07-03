@@ -15,8 +15,8 @@ DESCRIPTION="Validation tools for Reasoner API"
 
 HOMEPAGE="https://github.com/NCATSTranslator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d6/98/05195e20b05b2835d2a70ad033a4c1d9713375f6c85b363f2aab71313670/reasoner_validator-${REALVERSION}.tar.gz"
-SOURCEFILE="reasoner_validator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d6/98/05195e20b05b2835d2a70ad033a4c1d9713375f6c85b363f2aab71313670/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

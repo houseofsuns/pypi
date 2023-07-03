@@ -15,8 +15,8 @@ DESCRIPTION="Two Sigma's Waiter CLI"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2c/dc/0e184d2b07c14b59152f5f33afdb745a010d633df6a121a7e8ec022fc3c1/waiter_client-${REALVERSION}.tar.gz"
-SOURCEFILE="waiter_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2c/dc/0e184d2b07c14b59152f5f33afdb745a010d633df6a121a7e8ec022fc3c1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

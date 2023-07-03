@@ -15,8 +15,8 @@ DESCRIPTION="Strawberry GraphQL Django extension"
 
 HOMEPAGE="https://github.com/strawberry-graphql/strawberry-graphql-django"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/34/c7/6761d3816f5a7cf02928b5d035b4ed20b4e6d2a12ec6a4cf9400ce4d7cbb/strawberry_graphql_django-${REALVERSION}.tar.gz"
-SOURCEFILE="strawberry_graphql_django-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/34/c7/6761d3816f5a7cf02928b5d035b4ed20b4e6d2a12ec6a4cf9400ce4d7cbb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

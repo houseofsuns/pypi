@@ -15,8 +15,8 @@ DESCRIPTION="Importer for parsing OpenQASM 2 strings into Qiskit circuits"
 
 HOMEPAGE="https://github.com/jakelishman/qiskit-qasm2"
 LICENSE="Apache 2.0 License"
-SRC_URI="https://files.pythonhosted.org/packages/aa/73/a38af416f8cda842835a54d0c702b744b324a60677c8b663df500aa8ba63/qiskit_qasm2-${REALVERSION}.tar.gz"
-SOURCEFILE="qiskit_qasm2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/aa/73/a38af416f8cda842835a54d0c702b744b324a60677c8b663df500aa8ba63/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

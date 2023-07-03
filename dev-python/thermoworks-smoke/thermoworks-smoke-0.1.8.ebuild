@@ -15,8 +15,8 @@ DESCRIPTION="Pull data for your thermoworks smoke thermometer"
 
 HOMEPAGE="https://github.com/nhorvath/python-thermoworks-smoke"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/7d/60/e2f3b71020eada429acbd7a0de779a916e9eb5ec43f3f319f53cb3c14545/thermoworks_smoke-${REALVERSION}.tar.gz"
-SOURCEFILE="thermoworks_smoke-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7d/60/e2f3b71020eada429acbd7a0de779a916e9eb5ec43f3f319f53cb3c14545/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

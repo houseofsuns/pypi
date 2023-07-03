@@ -15,8 +15,8 @@ DESCRIPTION="An FPS plugin for the Yjs API"
 
 HOMEPAGE="https://jupyter.org"
 LICENSE="BSD 3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/d2/d1/03813ad73dd45b8b3d7bedeba204f06ebd203e4fe77630f6094fe9b240be/fps_yjs-${REALVERSION}.tar.gz"
-SOURCEFILE="fps_yjs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d2/d1/03813ad73dd45b8b3d7bedeba204f06ebd203e4fe77630f6094fe9b240be/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

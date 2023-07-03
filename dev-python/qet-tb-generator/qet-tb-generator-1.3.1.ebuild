@@ -15,8 +15,8 @@ DESCRIPTION="Script that generates terminal blocks & connectors for QElectroTech
 
 HOMEPAGE=""
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/70/aa/ebde0dddfbde799a4e8cf0564e52f95089105a7f562739ee1d16ff5a495a/qet_tb_generator-${REALVERSION}.tar.gz"
-SOURCEFILE="qet_tb_generator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/70/aa/ebde0dddfbde799a4e8cf0564e52f95089105a7f562739ee1d16ff5a495a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

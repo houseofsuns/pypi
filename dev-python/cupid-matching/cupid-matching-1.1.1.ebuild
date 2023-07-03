@@ -15,8 +15,8 @@ DESCRIPTION="Solves, simulates, and estimates separable matching TU models"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/73/a7/4c09b39348015fb0f3f693e0d5a41fd8d89287d18354ac3e11a66bb8e760/cupid_matching-${REALVERSION}.tar.gz"
-SOURCEFILE="cupid_matching-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/73/a7/4c09b39348015fb0f3f693e0d5a41fd8d89287d18354ac3e11a66bb8e760/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

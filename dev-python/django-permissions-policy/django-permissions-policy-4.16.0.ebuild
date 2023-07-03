@@ -15,8 +15,8 @@ DESCRIPTION="Set the draft security HTTP header Permissions-Policy (previously F
 
 HOMEPAGE="https://github.com/adamchainz/django-permissions-policy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2d/77/6820bf9a1eb01d9e3b178316ce72c2d6bc4cd445c1e7a51844097ff96832/django_permissions_policy-${REALVERSION}.tar.gz"
-SOURCEFILE="django_permissions_policy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2d/77/6820bf9a1eb01d9e3b178316ce72c2d6bc4cd445c1e7a51844097ff96832/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Work with python versions"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6d/fa/d0a59abf5b4b30445efb13ea3168a0f2b0371f156adcc17d80bacceb9c10/dephell_pythons-${REALVERSION}.tar.gz"
-SOURCEFILE="dephell_pythons-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6d/fa/d0a59abf5b4b30445efb13ea3168a0f2b0371f156adcc17d80bacceb9c10/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

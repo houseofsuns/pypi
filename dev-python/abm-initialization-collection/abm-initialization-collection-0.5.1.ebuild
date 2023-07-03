@@ -15,8 +15,8 @@ DESCRIPTION="Collection of tasks for initializing abm simulations."
 
 HOMEPAGE=""
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/eb/43/7dc5a196ce453989c3961ee115d892ee7aa5e228a6febe3fd98854c4cd9a/abm_initialization_collection-${REALVERSION}.tar.gz"
-SOURCEFILE="abm_initialization_collection-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/eb/43/7dc5a196ce453989c3961ee115d892ee7aa5e228a6febe3fd98854c4cd9a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

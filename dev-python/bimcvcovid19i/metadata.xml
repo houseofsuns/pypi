@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># BIMCV COVID 19 interfaceThis repository provides a python interface for working with [BIMCV COVID 19 dataset](https://github.com/BIMCV-CSUSP/BIMCV-COVID-19)Before use, please read the [license agreement](https://github.com/BIMCV-CSUSP/BIMCV-COVID-19) for the use of the BIMCV-COVID19 Dataset.## Installation```bashpip install bimcvcovid19i```## System requirements|Dataset                         |Original|Prepered|Total||--------------------------------|:------:|:------:|:---:||BIMCV COVID19 positive cIter 12 |    390G|    408G| 797G||BIMCV COVID19 negative cIter 12 |    469G|    480G| 948G||BIMCV COVID19 positive cIter 123|    2.8T|      ?T|   ?T|</longdescription>
+</pkgmetadata>

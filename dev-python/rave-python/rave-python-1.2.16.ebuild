@@ -15,8 +15,8 @@ DESCRIPTION="Python library for Flutterwave for Business (F4B) v2 APIs."
 
 HOMEPAGE="https://github.com/Flutterwave/rave-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/15/e8/d6d36a1d547006b0389062a51802fdf6f8d7eaaf0f7f00c6f0364263b0e4/rave_python-${REALVERSION}.tar.gz"
-SOURCEFILE="rave_python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/15/e8/d6d36a1d547006b0389062a51802fdf6f8d7eaaf0f7f00c6f0364263b0e4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

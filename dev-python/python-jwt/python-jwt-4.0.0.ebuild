@@ -15,8 +15,8 @@ DESCRIPTION="Module for generating and verifying JSON Web Tokens"
 
 HOMEPAGE="https://github.com/davedoesdev/python-jwt"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a2/6f/0a73aaf6264d764c1c3257c280fded3c26af35817fc6dcd8c3c3c0c7726c/python_jwt-${REALVERSION}.tar.gz"
-SOURCEFILE="python_jwt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a2/6f/0a73aaf6264d764c1c3257c280fded3c26af35817fc6dcd8c3c3c0c7726c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Interface between LLMs and your data"
 
 HOMEPAGE="https://github.com/jerryjliu/llama_index"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/39/2f/6ac2fdf9cda917255b8dbce99b3a8da90e1281a9f0571de26ec9082672fb/llama_index-${REALVERSION}.tar.gz"
-SOURCEFILE="llama_index-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/39/2f/6ac2fdf9cda917255b8dbce99b3a8da90e1281a9f0571de26ec9082672fb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

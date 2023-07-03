@@ -15,8 +15,8 @@ DESCRIPTION="Configuration file support for click applications."
 
 HOMEPAGE="http://github.com/phha/click_config_file"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/13/09/dfee76b0d2600ae8bd65e9cc375b6de62f6ad5600616a78ee6209a9f17f3/click_config_file-${REALVERSION}.tar.gz"
-SOURCEFILE="click_config_file-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/13/09/dfee76b0d2600ae8bd65e9cc375b6de62f6ad5600616a78ee6209a9f17f3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Tools to supervise slurm jobs"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/52/54/93ef21b57f78f54d6fad72206b373140ff1f7ac2415f7425013cfb58c59b/jobs_supervisor-${REALVERSION}.tar.gz"
-SOURCEFILE="jobs_supervisor-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/52/54/93ef21b57f78f54d6fad72206b373140ff1f7ac2415f7425013cfb58c59b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

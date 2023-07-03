@@ -15,8 +15,8 @@ DESCRIPTION="ESPN scraper for major sports"
 
 HOMEPAGE="http://github.com/andr3w321/espn_scraper"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/89/67/d707dd851dd4d615ea16e641623f78e29d173f3e00589168c17ede50c734/espn_scraper-${REALVERSION}.tar.gz"
-SOURCEFILE="espn_scraper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/89/67/d707dd851dd4d615ea16e641623f78e29d173f3e00589168c17ede50c734/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

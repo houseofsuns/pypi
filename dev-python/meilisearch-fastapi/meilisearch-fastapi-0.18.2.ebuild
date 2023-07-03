@@ -15,8 +15,8 @@ DESCRIPTION="Meilisearch integration with FastAPI"
 
 HOMEPAGE="https://github.com/sanders41/meilisearch-fastapi"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c1/a8/4a84270141f322515a5cda2a8b48629c5c8b30cb763123fb55178481181a/meilisearch_fastapi-${REALVERSION}.tar.gz"
-SOURCEFILE="meilisearch_fastapi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c1/a8/4a84270141f322515a5cda2a8b48629c5c8b30cb763123fb55178481181a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

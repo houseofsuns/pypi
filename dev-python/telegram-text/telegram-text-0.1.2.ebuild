@@ -15,8 +15,8 @@ DESCRIPTION="Python markup module for Telegram messenger. This module provides a
 
 HOMEPAGE="https://telegram-text.alinsky.tech"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3c/87/da98869571691e1b563cbc2ba51d5270a4e9ccc4f89d2070cefd4d6ca420/telegram_text-${REALVERSION}.tar.gz"
-SOURCEFILE="telegram_text-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3c/87/da98869571691e1b563cbc2ba51d5270a4e9ccc4f89d2070cefd4d6ca420/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

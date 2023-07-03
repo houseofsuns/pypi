@@ -15,8 +15,8 @@ DESCRIPTION="OpenAI library for RPA Framework"
 
 HOMEPAGE="https://rpaframework.org/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/7d/5d/041f179a13cace696c809e4f99495891fc9aa799d382aa1f8669e68dcfb7/rpaframework_openai-${REALVERSION}.tar.gz"
-SOURCEFILE="rpaframework_openai-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7d/5d/041f179a13cace696c809e4f99495891fc9aa799d382aa1f8669e68dcfb7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

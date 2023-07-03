@@ -15,8 +15,8 @@ DESCRIPTION="Jinja2 Extension for Raise Error"
 
 HOMEPAGE="https://github.com/mumubin/jiaja2_error"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0c/94/d5594dad929477c5e47cbbfaefa9a006e8348e9971f7a7d72b1f904a6830/jinja2_error-${REALVERSION}.tar.gz"
-SOURCEFILE="jinja2_error-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0c/94/d5594dad929477c5e47cbbfaefa9a006e8348e9971f7a7d72b1f904a6830/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

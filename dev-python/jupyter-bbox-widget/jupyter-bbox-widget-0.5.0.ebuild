@@ -15,8 +15,8 @@ DESCRIPTION="A Jupyter widget for annotating images with bounding boxes"
 
 HOMEPAGE="https://github.com/gereleth/jupyter-bbox-widget"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/ca/3c/e370d7277f77855cb0655c57d8e4b8ad32449c82c9c41f191280062d23a8/jupyter_bbox_widget-${REALVERSION}.tar.gz"
-SOURCEFILE="jupyter_bbox_widget-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ca/3c/e370d7277f77855cb0655c57d8e4b8ad32449c82c9c41f191280062d23a8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

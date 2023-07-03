@@ -15,8 +15,8 @@ DESCRIPTION="This project refers to a password encryptor, which also serves to e
 
 HOMEPAGE="https://github.com/NaraAndrad3/Cripto"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ea/ef/11ebe504bd09f11d2ce62f6a113236431deb7b3f355828ea1f6db5313d96/crypto_cr-${REALVERSION}.tar.gz"
-SOURCEFILE="crypto_cr-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ea/ef/11ebe504bd09f11d2ce62f6a113236431deb7b3f355828ea1f6db5313d96/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

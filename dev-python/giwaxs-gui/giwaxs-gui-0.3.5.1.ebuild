@@ -15,8 +15,8 @@ DESCRIPTION="A GUI program for GIWAXS images analysis"
 
 HOMEPAGE="https://pypi.org/project/giwaxs-gui"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/1a/5a/5ea854dbd2b03b8c510fcbbe9e15a81d360ea5a8caab3992dadc59d301ae/giwaxs_gui-${REALVERSION}.tar.gz"
-SOURCEFILE="giwaxs_gui-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1a/5a/5ea854dbd2b03b8c510fcbbe9e15a81d360ea5a8caab3992dadc59d301ae/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

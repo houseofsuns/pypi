@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># YotpyAn easy-to-use Python wrapper for the Yotpo API. Developed to fill the gap of existing packages that didn't meet specific needs.## InstallationInstall `yotpy` using pip:```bashpip install yotpy```## DocumentationThe current documentation is updated on every update to main and can be found [here](https://wlk-dev.github.io/yotpy/yotpy.html).</longdescription>
+</pkgmetadata>

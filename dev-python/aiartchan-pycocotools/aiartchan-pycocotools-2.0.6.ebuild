@@ -15,8 +15,8 @@ DESCRIPTION="Official APIs for the MS-COCO dataset"
 
 HOMEPAGE="https://github.com/ppwwyyxx/cocoapi"
 LICENSE="FreeBSD"
-SRC_URI="https://files.pythonhosted.org/packages/31/98/563ab132cae1097e61af0ff0510fb75bb7ebe55813aefff5561e4fde6620/aiartchan_pycocotools-${REALVERSION}.tar.gz"
-SOURCEFILE="aiartchan_pycocotools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/31/98/563ab132cae1097e61af0ff0510fb75bb7ebe55813aefff5561e4fde6620/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

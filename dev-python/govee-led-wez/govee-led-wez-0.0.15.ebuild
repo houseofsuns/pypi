@@ -15,8 +15,8 @@ DESCRIPTION="Control Govee LED lights"
 
 HOMEPAGE="https://github.com/wez/govee-py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8b/ff/f03b6a96287b5327adfbbac540613aba9d89b5261843b54ada796803042c/govee_led_wez-${REALVERSION}.tar.gz"
-SOURCEFILE="govee_led_wez-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8b/ff/f03b6a96287b5327adfbbac540613aba9d89b5261843b54ada796803042c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

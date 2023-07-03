@@ -15,8 +15,8 @@ DESCRIPTION="Alibaba Cloud CGCS (20211111) SDK Library for Python"
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f8/55/e2a4884de2148c27d0c446190ca58e1dc6258ff3a53020395657fdeec8fd/alibabacloud_cgcs20211111-${REALVERSION}.tar.gz"
-SOURCEFILE="alibabacloud_cgcs20211111-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f8/55/e2a4884de2148c27d0c446190ca58e1dc6258ff3a53020395657fdeec8fd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

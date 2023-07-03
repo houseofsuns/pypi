@@ -15,8 +15,8 @@ DESCRIPTION="Package for creating CLI's with ease."
 
 HOMEPAGE="https://github.com/seanrcollings/arc"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fa/50/c685f20bc33b58239afa6605296ef562481e8010c116c3aeb0a0f5ad2510/arc_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="arc_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fa/50/c685f20bc33b58239afa6605296ef562481e8010c116c3aeb0a0f5ad2510/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

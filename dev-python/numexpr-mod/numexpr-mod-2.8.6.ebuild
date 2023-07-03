@@ -15,8 +15,8 @@ DESCRIPTION="Fast numerical expression evaluator for NumPy"
 
 HOMEPAGE="https://github.com/mrcheatak/numexpr_mod"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d3/10/18a7fa7a04e49300095ab22690e4c5a85bac50c261948c6db1bb2150ce8d/numexpr_mod-${REALVERSION}.tar.gz"
-SOURCEFILE="numexpr_mod-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d3/10/18a7fa7a04e49300095ab22690e4c5a85bac50c261948c6db1bb2150ce8d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

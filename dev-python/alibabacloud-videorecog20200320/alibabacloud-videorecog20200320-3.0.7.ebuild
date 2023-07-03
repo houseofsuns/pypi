@@ -15,8 +15,8 @@ DESCRIPTION="Alibaba Cloud videorecog (20200320) SDK Library for Python"
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ff/97/34f9444f6b12f59f7fea02299dbb1d5542fe7088356b9dd36e18b9b29242/alibabacloud_videorecog20200320-${REALVERSION}.tar.gz"
-SOURCEFILE="alibabacloud_videorecog20200320-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ff/97/34f9444f6b12f59f7fea02299dbb1d5542fe7088356b9dd36e18b9b29242/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

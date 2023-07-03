@@ -15,8 +15,8 @@ DESCRIPTION="Image segmentation models with pre-trained backbones with Keras."
 
 HOMEPAGE="https://github.com/qubvel/segmentation_models"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3c/4d/c83cbaef289d23eb858a7ffa2459655ae4e17765fd883d59685fb8a2e17d/segmentation_models-${REALVERSION}.tar.gz"
-SOURCEFILE="segmentation_models-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3c/4d/c83cbaef289d23eb858a7ffa2459655ae4e17765fd883d59685fb8a2e17d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

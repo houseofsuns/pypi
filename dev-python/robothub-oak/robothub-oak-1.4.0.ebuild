@@ -15,8 +15,8 @@ DESCRIPTION="RobotHub-OAK integration library"
 
 HOMEPAGE="https://www.luxonis.com/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/31/12/08a5ed51e5ce8740d3c3cd752f182915723cf89a9afb853dc3fe5ea48fcf/robothub_oak-${REALVERSION}.tar.gz"
-SOURCEFILE="robothub_oak-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/31/12/08a5ed51e5ce8740d3c3cd752f182915723cf89a9afb853dc3fe5ea48fcf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="user_db is a database package for user CRUD operations"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a7/9c/db3614a7a0b57fb090b3dfe949a2cb228475471077e626b3d610575c4ae3/users_db-${REALVERSION}.tar.gz"
-SOURCEFILE="users_db-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a7/9c/db3614a7a0b57fb090b3dfe949a2cb228475471077e626b3d610575c4ae3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

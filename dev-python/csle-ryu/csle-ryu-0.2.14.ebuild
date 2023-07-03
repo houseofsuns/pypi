@@ -15,8 +15,8 @@ DESCRIPTION="RYU SDN Controllers in CSLE"
 
 HOMEPAGE=""
 LICENSE="Creative Commons Attribution-ShareAlike 4.0 International"
-SRC_URI="https://files.pythonhosted.org/packages/28/3d/9f29dc6d4ead28902f79a4f7ac6ab178d8f1ec2c42d46cc7e8ecf56cfcaa/csle_ryu-${REALVERSION}.tar.gz"
-SOURCEFILE="csle_ryu-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/28/3d/9f29dc6d4ead28902f79a4f7ac6ab178d8f1ec2c42d46cc7e8ecf56cfcaa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

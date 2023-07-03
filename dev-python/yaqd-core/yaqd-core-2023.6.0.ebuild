@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8a/96/d5f2eddc596a9f50a25a5cd2a318808fb32fca7647e50d6478ea866988b6/yaqd_core-${REALVERSION}.tar.gz"
-SOURCEFILE="yaqd_core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8a/96/d5f2eddc596a9f50a25a5cd2a318808fb32fca7647e50d6478ea866988b6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

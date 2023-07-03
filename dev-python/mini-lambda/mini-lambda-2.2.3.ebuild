@@ -15,8 +15,8 @@ DESCRIPTION="Simple lambda functions without \`lambda x:\` and with string conve
 
 HOMEPAGE="https://github.com/smarie/python-mini-lambda"
 LICENSE="BSD 3-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/df/51/378017cd0f0a9435c7144ae139f3cf13a8afa4a395a2663adc37f1e2994e/mini_lambda-${REALVERSION}.tar.gz"
-SOURCEFILE="mini_lambda-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/df/51/378017cd0f0a9435c7144ae139f3cf13a8afa4a395a2663adc37f1e2994e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Pint Fields for Django and Postgres"
 
 HOMEPAGE="https://github.com/jacklinke/django-pint-field"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1a/6a/6e9b1835b81e77eb36036515d1e6caaa45b91744e8e00281117d7bcfbe04/django_pint_field-${REALVERSION}.tar.gz"
-SOURCEFILE="django_pint_field-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1a/6a/6e9b1835b81e77eb36036515d1e6caaa45b91744e8e00281117d7bcfbe04/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

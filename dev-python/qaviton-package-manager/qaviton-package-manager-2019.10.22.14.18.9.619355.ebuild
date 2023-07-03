@@ -15,8 +15,8 @@ DESCRIPTION="a package manager for git projects with private repositories"
 
 HOMEPAGE="https://github.com/qaviton/qaviton_package_manager"
 LICENSE="apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c7/19/1e7e10406e2ba940624c7b2e0f060f0f5fdc244485883bf3b1c685c27381/qaviton_package_manager-${REALVERSION}.tar.gz"
-SOURCEFILE="qaviton_package_manager-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c7/19/1e7e10406e2ba940624c7b2e0f060f0f5fdc244485883bf3b1c685c27381/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A clean way to import scripts on other folders via a context manage
 
 HOMEPAGE="https://github.com/cgarciae/python_path"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/14/95/88242c8d41bd18e825f8b76f38746d52b25746509e73d3909d9e19947dc1/python_path-${REALVERSION}.tar.gz"
-SOURCEFILE="python_path-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/14/95/88242c8d41bd18e825f8b76f38746d52b25746509e73d3909d9e19947dc1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

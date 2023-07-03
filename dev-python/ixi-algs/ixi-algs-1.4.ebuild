@@ -15,8 +15,8 @@ DESCRIPTION="ixi_algs"
 
 HOMEPAGE="https://github.com/ixslea/ixi_algs"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/54/f8/23089a6753682f95d17fb78892caa7c255ab2af3ee3c3ac4c634ddebbbbb/ixi_algs-${REALVERSION}.tar.gz"
-SOURCEFILE="ixi_algs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/54/f8/23089a6753682f95d17fb78892caa7c255ab2af3ee3c3ac4c634ddebbbbb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

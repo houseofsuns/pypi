@@ -15,8 +15,8 @@ DESCRIPTION="A lightweight plugin extending label layer control"
 
 HOMEPAGE="https://github.com/loicsauteur/napari-annotator"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/41/5e/21cbc3cd0dbdd1bd0a69cc9cfecb4bd5986c16ec77aa55b2af3d3a13f16e/napari_annotator-${REALVERSION}.tar.gz"
-SOURCEFILE="napari_annotator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/41/5e/21cbc3cd0dbdd1bd0a69cc9cfecb4bd5986c16ec77aa55b2af3d3a13f16e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

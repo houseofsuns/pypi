@@ -15,8 +15,8 @@ DESCRIPTION="Chains and factories for building user access / control functionali
 
 HOMEPAGE="https://git.getme.co.uk/manhattan/manhattan_users"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/15/0d/6f6277fb231ec32433ec6dbeb8c879e4a24c0d400350df6d23c3abf93e85/manhattan_users-${REALVERSION}.tar.gz"
-SOURCEFILE="manhattan_users-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/15/0d/6f6277fb231ec32433ec6dbeb8c879e4a24c0d400350df6d23c3abf93e85/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

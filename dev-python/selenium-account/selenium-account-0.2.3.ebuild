@@ -15,8 +15,8 @@ DESCRIPTION="selenium_account"
 
 HOMEPAGE="https://github.com/kkristof200/selenium_account"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3f/87/7530a228ee3e18ba71246aaea37779433cc268301f6c2b52824583b5ca88/selenium_account-${REALVERSION}.tar.gz"
-SOURCEFILE="selenium_account-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3f/87/7530a228ee3e18ba71246aaea37779433cc268301f6c2b52824583b5ca88/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="OpenCensus Exporter"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python/tree/main/exporter/opentelemetry-exporter-opencensus"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2f/9c/60cbcbc6659ebea54277e72ec2221adc0cdb020e43719d48c78d683dfc0a/opentelemetry_exporter_opencensus-${REALVERSION}.tar.gz"
-SOURCEFILE="opentelemetry_exporter_opencensus-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2f/9c/60cbcbc6659ebea54277e72ec2221adc0cdb020e43719d48c78d683dfc0a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

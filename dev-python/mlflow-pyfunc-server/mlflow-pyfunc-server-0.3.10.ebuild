@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/VK/mlflow-pyfunc-server"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1d/24/6c948e9935ea5bb8c3e3047d808be6411c6c36f0c250368ef97c24050e9b/mlflow_pyfunc_server-${REALVERSION}.tar.gz"
-SOURCEFILE="mlflow_pyfunc_server-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1d/24/6c948e9935ea5bb8c3e3047d808be6411c6c36f0c250368ef97c24050e9b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

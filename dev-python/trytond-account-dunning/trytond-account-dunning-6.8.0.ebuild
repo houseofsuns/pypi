@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module for account dunning"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/bb/c3/fd3c36c2c6480041ff4b26c78775c0527d47e05f4a0a74c82f758c07410f/trytond_account_dunning-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_account_dunning-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bb/c3/fd3c36c2c6480041ff4b26c78775c0527d47e05f4a0a74c82f758c07410f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

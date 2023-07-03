@@ -15,8 +15,8 @@ DESCRIPTION="ayaka小游戏合集"
 
 HOMEPAGE="https://github.com/bridgeL/ayaka_games"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/59/96/0a93ccc83b7c5b3c38aa73b8ac4debe32a0c618080bb7e54a3c173145d76/ayaka_games-${REALVERSION}.tar.gz"
-SOURCEFILE="ayaka_games-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/59/96/0a93ccc83b7c5b3c38aa73b8ac4debe32a0c618080bb7e54a3c173145d76/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

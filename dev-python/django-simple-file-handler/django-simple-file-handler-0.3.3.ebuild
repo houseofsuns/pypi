@@ -15,8 +15,8 @@ DESCRIPTION="A Django app for storing and processing documents and images"
 
 HOMEPAGE="https://github.com/jonathanrickard/django-simple-file-handler"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ae/82/7698f1d4c136f736b1d9f391045e844baaad33a177bfe5039530aee185bf/django_simple_file_handler-${REALVERSION}.tar.gz"
-SOURCEFILE="django_simple_file_handler-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ae/82/7698f1d4c136f736b1d9f391045e844baaad33a177bfe5039530aee185bf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

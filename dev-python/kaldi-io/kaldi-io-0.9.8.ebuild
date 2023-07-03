@@ -15,8 +15,8 @@ DESCRIPTION="Glue code connecting Kaldi data and Python."
 
 HOMEPAGE="https://github.com/vesis84/kaldi-io-for-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c7/f8/d841f5d352370a3576c4339d59cc0d0c17d153b71f221798fefa05953562/kaldi_io-${REALVERSION}.tar.gz"
-SOURCEFILE="kaldi_io-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c7/f8/d841f5d352370a3576c4339d59cc0d0c17d153b71f221798fefa05953562/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

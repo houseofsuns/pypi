@@ -15,8 +15,8 @@ DESCRIPTION="Alibaba Cloud CloudConfig (20200907) SDK Library for Python"
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/11/d8/3e1351bf5a27648da7124aa5f463c27638814a9c4da4ee10597e8182a3d5/alibabacloud_config20200907-${REALVERSION}.tar.gz"
-SOURCEFILE="alibabacloud_config20200907-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/11/d8/3e1351bf5a27648da7124aa5f463c27638814a9c4da4ee10597e8182a3d5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

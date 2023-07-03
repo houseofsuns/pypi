@@ -15,8 +15,8 @@ DESCRIPTION="Ready-to-use and customizable users management for FastAPI"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a3/fd/b3d2c60085096cc0dffd90851f5384277c5ae0c1916125a4178be1b7a545/fastapi_users-${REALVERSION}.tar.gz"
-SOURCEFILE="fastapi_users-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a3/fd/b3d2c60085096cc0dffd90851f5384277c5ae0c1916125a4178be1b7a545/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

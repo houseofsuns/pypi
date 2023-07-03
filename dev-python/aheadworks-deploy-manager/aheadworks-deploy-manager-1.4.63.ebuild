@@ -15,8 +15,8 @@ DESCRIPTION="deploy manager from aheadworks"
 
 HOMEPAGE="https://bitbucket.org/awimpl/deploy-tools"
 LICENSE="EULA"
-SRC_URI="https://files.pythonhosted.org/packages/8e/05/b176dce056e044a52638187521d206832fcc1733eba13eebbf88e6b80330/aheadworks_deploy_manager-${REALVERSION}.tar.gz"
-SOURCEFILE="aheadworks_deploy_manager-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8e/05/b176dce056e044a52638187521d206832fcc1733eba13eebbf88e6b80330/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

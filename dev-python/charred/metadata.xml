@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># CharredVery simple package with `is_ascii_char`, `is_same_char`, `is_string`, `is_unicode_char` and `repeat_char` methods.I will probably add more later.Install package:```pip install charred# or pip3```Usage:```from charred import is_ascii_char, is_same_char, is_string, is_unicode_char, repeat_char&gt;&gt;&gt; is_ascii_char('$')True&gt;&gt;&gt; is_ascii_char('£')False&gt;&gt;&gt; is_same_char('FF')True&gt;&gt;&gt; is_same_char('FD')False&gt;&gt;&gt; is_string('F')True&gt;&gt;&gt; is_string(1)False&gt;&gt;&gt; is_unicode_char('£')True&gt;&gt;&gt; is_unicode_char('F')False&gt;&gt;&gt; repeat_char('F', 6)FFFFFF```</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="BioSimulators-compliant command-line interface to the AMICI simulat
 
 HOMEPAGE="https://github.com/biosimulators/Biosimulators_AMICI>"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/10/16/822269839c687adca6e170f10db4b240725cc43b63212b58564e0ec5b1ad/biosimulators_amici-${REALVERSION}.tar.gz"
-SOURCEFILE="biosimulators_amici-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/10/16/822269839c687adca6e170f10db4b240725cc43b63212b58564e0ec5b1ad/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

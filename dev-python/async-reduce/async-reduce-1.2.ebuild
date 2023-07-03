@@ -15,8 +15,8 @@ DESCRIPTION="Reducer for similar simultaneously coroutines"
 
 HOMEPAGE="https://github.com/sirkonst/async-reduce"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cd/df/920978a0c85d45ee937b73a3648f120b97942c2a49b609263ab0d491e7d4/async_reduce-${REALVERSION}.tar.gz"
-SOURCEFILE="async_reduce-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cd/df/920978a0c85d45ee937b73a3648f120b97942c2a49b609263ab0d491e7d4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

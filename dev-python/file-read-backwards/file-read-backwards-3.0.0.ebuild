@@ -15,8 +15,8 @@ DESCRIPTION="Memory efficient way of reading files line-by-line from the end of 
 
 HOMEPAGE="https://github.com/RobinNil/file_read_backwards"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e2/0f/04d8a9877d80c26506cad53e3ff7024747e9429a5a06479c68f060948d1a/file_read_backwards-${REALVERSION}.tar.gz"
-SOURCEFILE="file_read_backwards-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e2/0f/04d8a9877d80c26506cad53e3ff7024747e9429a5a06479c68f060948d1a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

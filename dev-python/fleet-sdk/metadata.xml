@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## Set Up Fleet# Install the SDK pip install fleet-sdk# Import the SDK at the top of your plugin's filesfrom fleet_sdk.fastapi import Tracker from fleet_sdk.flask import Tracker from fleet_sdk.quart import Tracker # Initialize the SDK with your Plugins Analytics's ID.tracker = Tracker(&quot;fleet-49b1bee7-b471-492a-a814-1bfbc2c2afa8&quot;, app=app)# Add this decorator to the endpoints you want to track.@tracker.log_event</longdescription>
+</pkgmetadata>

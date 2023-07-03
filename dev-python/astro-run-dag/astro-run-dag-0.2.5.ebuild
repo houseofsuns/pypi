@@ -15,8 +15,8 @@ DESCRIPTION="Run Airflow DAGs with just python"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/4c/7c/319a8a4b3e24b8572542814b33476ca1692dbac6a9cb43a0936adacee5e7/astro_run_dag-${REALVERSION}.tar.gz"
-SOURCEFILE="astro_run_dag-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4c/7c/319a8a4b3e24b8572542814b33476ca1692dbac6a9cb43a0936adacee5e7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

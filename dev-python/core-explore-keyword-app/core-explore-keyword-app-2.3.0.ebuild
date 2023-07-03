@@ -15,8 +15,8 @@ DESCRIPTION="Exploration by keywords for the curator core project"
 
 HOMEPAGE="https://github.com/usnistgov/core_explore_keyword_app"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c0/3c/ad5a01b6239e63ff2cd04afe1d159222135285a2f905473a0b239148bed0/core_explore_keyword_app-${REALVERSION}.tar.gz"
-SOURCEFILE="core_explore_keyword_app-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c0/3c/ad5a01b6239e63ff2cd04afe1d159222135285a2f905473a0b239148bed0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

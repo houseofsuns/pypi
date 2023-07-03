@@ -15,8 +15,8 @@ DESCRIPTION="PICAI Preprocessing"
 
 HOMEPAGE="https://github.com/DIAGNijmegen/picai_prep"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/29/3b/e98bdfdf752eba827d61df5aac0c42698d3784bb6c089c82ce33dd5f8e1f/picai_prep-${REALVERSION}.tar.gz"
-SOURCEFILE="picai_prep-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/29/3b/e98bdfdf752eba827d61df5aac0c42698d3784bb6c089c82ce33dd5f8e1f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

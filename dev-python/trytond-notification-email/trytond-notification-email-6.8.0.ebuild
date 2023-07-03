@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module for sending email notifications"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/6e/7d/1e7d6928deb275d789ae5b82de0cadef207ff38c01648123f1c736155e6e/trytond_notification_email-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_notification_email-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6e/7d/1e7d6928deb275d789ae5b82de0cadef207ff38c01648123f1c736155e6e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

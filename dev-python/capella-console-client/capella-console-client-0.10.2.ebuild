@@ -15,8 +15,8 @@ DESCRIPTION="Python SDK for api.capellaspace.com (search, order, download)"
 
 HOMEPAGE="https://github.com/capellaspace/console-client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bf/d4/14153205f296cf7ef4da41dc0488a159af3cf636b2dae14761e706f35664/capella_console_client-${REALVERSION}.tar.gz"
-SOURCEFILE="capella_console_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bf/d4/14153205f296cf7ef4da41dc0488a159af3cf636b2dae14761e706f35664/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

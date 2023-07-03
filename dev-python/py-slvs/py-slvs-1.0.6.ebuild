@@ -15,8 +15,8 @@ DESCRIPTION="Python binding of SOLVESPACE geometry constraint solver"
 
 HOMEPAGE="https://github.com/realthunder/slvs_py"
 LICENSE="Gnu General Public License 3.0"
-SRC_URI="https://files.pythonhosted.org/packages/da/c5/ac1a0f5f6872706eb6205ecd4774322892893943f8ac3537079701c183a3/py_slvs-${REALVERSION}.tar.gz"
-SOURCEFILE="py_slvs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/da/c5/ac1a0f5f6872706eb6205ecd4774322892893943f8ac3537079701c183a3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

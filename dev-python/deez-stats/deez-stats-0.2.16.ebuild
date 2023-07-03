@@ -15,8 +15,8 @@ DESCRIPTION="Python bindings to access competitive league stats."
 
 HOMEPAGE="https://github.com/salty-spitoon/deez_stats"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b8/a5/207af88ef56121a2a861674e1568f13a616f4deb93eb8f3cd39619cc1d32/deez_stats-${REALVERSION}.tar.gz"
-SOURCEFILE="deez_stats-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b8/a5/207af88ef56121a2a861674e1568f13a616f4deb93eb8f3cd39619cc1d32/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

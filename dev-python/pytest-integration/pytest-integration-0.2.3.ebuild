@@ -15,8 +15,8 @@ DESCRIPTION="Organizing pytests by integration or not"
 
 HOMEPAGE="https://github.com/jbwdevries/pytest-integration"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/35/e0/c823048dc0866f2e0fa2e4a34cd6ec290697b238b7672b30cb07c65e59cc/pytest_integration-${REALVERSION}.tar.gz"
-SOURCEFILE="pytest_integration-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/35/e0/c823048dc0866f2e0fa2e4a34cd6ec290697b238b7672b30cb07c65e59cc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

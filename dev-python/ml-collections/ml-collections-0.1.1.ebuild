@@ -15,8 +15,8 @@ DESCRIPTION="ML Collections is a library of Python collections designed for ML u
 
 HOMEPAGE="https://github.com/google/ml_collections"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/aa/ea/853aa32dfa1006d3eb43384712f35b8f2d6f0a757b8c779d40c29e3e8515/ml_collections-${REALVERSION}.tar.gz"
-SOURCEFILE="ml_collections-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/aa/ea/853aa32dfa1006d3eb43384712f35b8f2d6f0a757b8c779d40c29e3e8515/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A client interface for the private Instagram API."
 
 HOMEPAGE="https://github.com/ping/instagram_private_api/tree/master"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ca/81/282d8f016de44260296e1fd50ec6aaadb6c542d3bab982eb14783b54cf8b/instagram_private_api-${REALVERSION}.tar.gz"
-SOURCEFILE="instagram_private_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ca/81/282d8f016de44260296e1fd50ec6aaadb6c542d3bab982eb14783b54cf8b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

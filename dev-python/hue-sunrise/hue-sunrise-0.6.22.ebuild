@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/91/57/415d302d3b3c4a201fd6958fc87e5dfc22b3025db74de0b27550d2dbdae4/hue_sunrise-${REALVERSION}.tar.gz"
-SOURCEFILE="hue_sunrise-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/91/57/415d302d3b3c4a201fd6958fc87e5dfc22b3025db74de0b27550d2dbdae4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

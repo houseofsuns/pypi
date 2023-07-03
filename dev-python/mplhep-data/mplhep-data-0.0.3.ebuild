@@ -15,8 +15,8 @@ DESCRIPTION="Font (Data) sub-package for mplhep"
 
 HOMEPAGE="https://github.com/Scikit-HEP/mplhep_data"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a8/a0/1e9326ff0ca6a667e2b4d3b65d810adf1d593003bb6aed20dc31325e9eaa/mplhep_data-${REALVERSION}.tar.gz"
-SOURCEFILE="mplhep_data-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a8/a0/1e9326ff0ca6a667e2b4d3b65d810adf1d593003bb6aed20dc31325e9eaa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

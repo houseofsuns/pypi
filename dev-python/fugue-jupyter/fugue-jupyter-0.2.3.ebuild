@@ -15,8 +15,8 @@ DESCRIPTION="Jupyterlab Extension for Fugue"
 
 HOMEPAGE="https://github.com/fugue-project/fugue-jupyter"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/72/5a/b68726011da895c7bb98a6b227f1b3620af1e549bdceae09e55e2c44eb1c/fugue_jupyter-${REALVERSION}.tar.gz"
-SOURCEFILE="fugue_jupyter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/72/5a/b68726011da895c7bb98a6b227f1b3620af1e549bdceae09e55e2c44eb1c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

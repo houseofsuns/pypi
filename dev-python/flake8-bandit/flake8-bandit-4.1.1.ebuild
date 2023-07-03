@@ -15,8 +15,8 @@ DESCRIPTION="Automated security testing with bandit and flake8."
 
 HOMEPAGE="https://github.com/tylerwince/flake8-bandit"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/77/1c/4f66a7a52a246d6c64312b5c40da3af3630cd60b27af81b137796af3c0bc/flake8_bandit-${REALVERSION}.tar.gz"
-SOURCEFILE="flake8_bandit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/77/1c/4f66a7a52a246d6c64312b5c40da3af3630cd60b27af81b137796af3c0bc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

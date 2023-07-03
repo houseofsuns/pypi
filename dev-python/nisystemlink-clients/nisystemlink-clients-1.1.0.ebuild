@@ -15,8 +15,8 @@ DESCRIPTION="NI-SystemLink Python API"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c0/67/f7e57fbe3ef342cb1d62871a7b96ba89f3486e503bcb86ee7c1b9562ca5d/nisystemlink_clients-${REALVERSION}.tar.gz"
-SOURCEFILE="nisystemlink_clients-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c0/67/f7e57fbe3ef342cb1d62871a7b96ba89f3486e503bcb86ee7c1b9562ca5d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

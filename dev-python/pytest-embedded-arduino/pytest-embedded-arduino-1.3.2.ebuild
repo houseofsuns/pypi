@@ -15,8 +15,8 @@ DESCRIPTION="Make pytest-embedded plugin work with Arduino."
 
 HOMEPAGE="https://github.com/espressif/pytest-embedded"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a9/87/19a333fa2ab71561e2d6ae5c4fa7c4a4342cf49187e302c32067774a4cf6/pytest_embedded_arduino-${REALVERSION}.tar.gz"
-SOURCEFILE="pytest_embedded_arduino-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a9/87/19a333fa2ab71561e2d6ae5c4fa7c4a4342cf49187e302c32067774a4cf6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

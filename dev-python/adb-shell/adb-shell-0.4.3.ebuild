@@ -15,8 +15,8 @@ DESCRIPTION="A Python implementation of ADB with shell and FileSync functionalit
 
 HOMEPAGE="https://github.com/JeffLIrion/adb_shell"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9d/ba/7cdd068d6ac371c9de00c52262b27c1648248bb3cd6386e94a890a2cf045/adb_shell-${REALVERSION}.tar.gz"
-SOURCEFILE="adb_shell-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9d/ba/7cdd068d6ac371c9de00c52262b27c1648248bb3cd6386e94a890a2cf045/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

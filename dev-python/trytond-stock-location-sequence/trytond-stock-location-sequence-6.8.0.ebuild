@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module to add sequence on location"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/0e/53/ab009bbf05fef9041b09e1a89ce8b87078eb78d6de8ff5264cadfd2b0e5d/trytond_stock_location_sequence-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_stock_location_sequence-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0e/53/ab009bbf05fef9041b09e1a89ce8b87078eb78d6de8ff5264cadfd2b0e5d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

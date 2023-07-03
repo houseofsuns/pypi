@@ -15,8 +15,8 @@ DESCRIPTION="A api for schoolware written in python"
 
 HOMEPAGE="https://github.com/Maarten-buelens/schoolware_api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6c/31/cc7a63944af53cf1d7f0ad321718ba90a55b520473fe42472de0030b05d6/schoolware_api-${REALVERSION}.tar.gz"
-SOURCEFILE="schoolware_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6c/31/cc7a63944af53cf1d7f0ad321718ba90a55b520473fe42472de0030b05d6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

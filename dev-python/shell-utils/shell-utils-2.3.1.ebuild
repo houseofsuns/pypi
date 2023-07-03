@@ -15,8 +15,8 @@ DESCRIPTION="Shell automation tools, like Make on steroids."
 
 HOMEPAGE="https://github.com/knowsuchagency/shell-utils"
 LICENSE="BSD-4"
-SRC_URI="https://files.pythonhosted.org/packages/a9/67/d74b0d95e120126113ee62f3085d684fbd48e33091bcf6e74684e8809875/shell_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="shell_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a9/67/d74b0d95e120126113ee62f3085d684fbd48e33091bcf6e74684e8809875/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

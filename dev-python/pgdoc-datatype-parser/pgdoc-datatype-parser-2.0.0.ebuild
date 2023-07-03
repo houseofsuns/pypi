@@ -15,8 +15,8 @@ DESCRIPTION="PostgreSQL documentation data types parser."
 
 HOMEPAGE="https://github.com/mondeja/pgdoc-datatype-parser"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/dd/06/65f05666e0d44ccf5bf477e3dcda45b1b318da627679198d412312e2a505/pgdoc_datatype_parser-${REALVERSION}.tar.gz"
-SOURCEFILE="pgdoc_datatype_parser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/dd/06/65f05666e0d44ccf5bf477e3dcda45b1b318da627679198d412312e2a505/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

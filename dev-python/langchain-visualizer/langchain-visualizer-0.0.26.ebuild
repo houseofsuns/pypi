@@ -15,8 +15,8 @@ DESCRIPTION="Visualization and debugging tool for LangChain workflows"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4a/d3/01fed3d54597ee519c0c9f9a9293f68f318b1dd5bde34a5af598cba4a0d3/langchain_visualizer-${REALVERSION}.tar.gz"
-SOURCEFILE="langchain_visualizer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4a/d3/01fed3d54597ee519c0c9f9a9293f68f318b1dd5bde34a5af598cba4a0d3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

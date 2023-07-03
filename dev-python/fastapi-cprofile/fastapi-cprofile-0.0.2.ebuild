@@ -15,8 +15,8 @@ DESCRIPTION="A FastAPI Middleware with cProfile to stats your service performanc
 
 HOMEPAGE="https://github.com/Jijun/fastapi-cprofile.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0d/77/34a599a7093a877b944871acbdaf6d20a76a62e2e58bddefad8041d4a86a/fastapi_cprofile-${REALVERSION}.tar.gz"
-SOURCEFILE="fastapi_cprofile-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0d/77/34a599a7093a877b944871acbdaf6d20a76a62e2e58bddefad8041d4a86a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

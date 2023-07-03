@@ -15,8 +15,8 @@ DESCRIPTION="Django app for email based authentication and registration via a RE
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c3/d8/cb5d15f215a74935202e6bb563995ea1c25326939f8bc06cb4885f25e541/django_rest_email_auth-${REALVERSION}.tar.gz"
-SOURCEFILE="django_rest_email_auth-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c3/d8/cb5d15f215a74935202e6bb563995ea1c25326939f8bc06cb4885f25e541/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Alibaba Cloud Object Storage Service (20190517) SDK Library for Pyt
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/77/aa/5ac616ef633edbd9a76f4db67a61fa67fcf646899cc66ab3c3003b0dde51/alibabacloud_oss20190517-${REALVERSION}.tar.gz"
-SOURCEFILE="alibabacloud_oss20190517-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/77/aa/5ac616ef633edbd9a76f4db67a61fa67fcf646899cc66ab3c3003b0dde51/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

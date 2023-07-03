@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module for european accounting"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/e9/63/d5ed71359efaa7adb56b07ac3d06380c2d607bb55d553f378d518c8a069c/trytond_account_eu-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_account_eu-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e9/63/d5ed71359efaa7adb56b07ac3d06380c2d607bb55d553f378d518c8a069c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

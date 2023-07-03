@@ -15,8 +15,8 @@ DESCRIPTION="Mopidy extension for playling music/managing playlists in Youtube M
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/85/98/5b4b9b17759634e5337f400ffebffd67702de1ac77b65c44b181e7bbafb9/mopidy_ytmusic-${REALVERSION}.tar.gz"
-SOURCEFILE="mopidy_ytmusic-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/85/98/5b4b9b17759634e5337f400ffebffd67702de1ac77b65c44b181e7bbafb9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

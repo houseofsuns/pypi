@@ -15,8 +15,8 @@ DESCRIPTION="用来下载学习通课件资料"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/21/b5/9dd24250ca9ddd05b8302c16961ad592da751c11a6e4be40c7367f3e100f/xuexitong_fileloads-${REALVERSION}.tar.gz"
-SOURCEFILE="xuexitong_fileloads-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/21/b5/9dd24250ca9ddd05b8302c16961ad592da751c11a6e4be40c7367f3e100f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

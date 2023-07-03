@@ -15,8 +15,8 @@ DESCRIPTION="A Django app to use email as username for user authentication."
 
 HOMEPAGE="https://github.com/jmfederico/django-use-email-as-username"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/41/eb/b83930f39b81116484364f3a7e1dda5e668cda14bf32f43a9b03f3a453bd/django_use_email_as_username-${REALVERSION}.tar.gz"
-SOURCEFILE="django_use_email_as_username-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/41/eb/b83930f39b81116484364f3a7e1dda5e668cda14bf32f43a9b03f3a453bd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

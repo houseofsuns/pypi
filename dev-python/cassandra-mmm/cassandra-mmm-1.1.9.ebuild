@@ -15,8 +15,8 @@ DESCRIPTION="Cassandra library"
 
 HOMEPAGE="https://github.com/Tsurty/cassandra"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/86/a1/1d1ce967dad8ff29bbedee7ce90de1603778e104c19ee76033788dc2dc87/cassandra_mmm-${REALVERSION}.tar.gz"
-SOURCEFILE="cassandra_mmm-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/86/a1/1d1ce967dad8ff29bbedee7ce90de1603778e104c19ee76033788dc2dc87/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

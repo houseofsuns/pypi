@@ -15,8 +15,8 @@ DESCRIPTION="Proxy connector for aiohttp"
 
 HOMEPAGE="https://github.com/romis2012/aiohttp-socks"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/03/eb/85d2c04c111a8cc872f2ba2b9323278873e23f4a45045a436909da8ce2d2/aiohttp_socks-${REALVERSION}.tar.gz"
-SOURCEFILE="aiohttp_socks-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/03/eb/85d2c04c111a8cc872f2ba2b9323278873e23f4a45045a436909da8ce2d2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

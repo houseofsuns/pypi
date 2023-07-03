@@ -15,8 +15,8 @@ DESCRIPTION="Library and command line tool to interact with the LOCKSS 1.x Debug
 
 HOMEPAGE="https://www.lockss.org/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/f8/12/4b66a2edde51620a746c307640c86213458759ca67f743251b7ad2c20f30/lockss_debugpanel-${REALVERSION}.tar.gz"
-SOURCEFILE="lockss_debugpanel-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f8/12/4b66a2edde51620a746c307640c86213458759ca67f743251b7ad2c20f30/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

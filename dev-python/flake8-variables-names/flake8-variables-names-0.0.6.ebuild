@@ -15,8 +15,8 @@ DESCRIPTION="A flake8 extension that helps to make more readable variables names
 
 HOMEPAGE="https://github.com/best-doctor/flake8-variables-names"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6a/4f/a04c504e1cc53a17f296837cc98140707b45f2deaad6d3e34503c161a3b0/flake8_variables_names-${REALVERSION}.tar.gz"
-SOURCEFILE="flake8_variables_names-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6a/4f/a04c504e1cc53a17f296837cc98140707b45f2deaad6d3e34503c161a3b0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/SiwatINC/siwat-light-control-protocol"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/1b/59/df014809d4e2145060d27dfe5deb6cd4e09035c4cfab51409dfe345441eb/siwat_light_control_protocol-${REALVERSION}.tar.gz"
-SOURCEFILE="siwat_light_control_protocol-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1b/59/df014809d4e2145060d27dfe5deb6cd4e09035c4cfab51409dfe345441eb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

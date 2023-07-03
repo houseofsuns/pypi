@@ -15,8 +15,8 @@ DESCRIPTION="A newer version of MINER."
 
 HOMEPAGE="https://github.com/baliga-lab/miner2"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ea/0f/a1b69398902cd57d7a6acf2edb9bcc9d245fe3feb2edaa52ca2dbfc07002/isb_miner2-${REALVERSION}.tar.gz"
-SOURCEFILE="isb_miner2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ea/0f/a1b69398902cd57d7a6acf2edb9bcc9d245fe3feb2edaa52ca2dbfc07002/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

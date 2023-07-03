@@ -15,8 +15,8 @@ DESCRIPTION="Python SDK for Genuity Science Services"
 
 HOMEPAGE="https://www.github.com/wuxi-nextcode/nextcode-python-sdk"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/35/a3/97047f46f529b8ac6de5d46a4a5b30ad81e5b96a425254c0fca2f0a36b4c/nextcode_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="nextcode_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/35/a3/97047f46f529b8ac6de5d46a4a5b30ad81e5b96a425254c0fca2f0a36b4c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

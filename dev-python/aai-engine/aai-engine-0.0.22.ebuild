@@ -15,8 +15,8 @@ DESCRIPTION="Ad Astra Industries RPA engine"
 
 HOMEPAGE="https://github.com/pypa/sampleproject"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d3/29/a7b45b06eb97985d7ffc7bf5f340f24f1f0be6e92039f133998ea292620c/aai_engine-${REALVERSION}.tar.gz"
-SOURCEFILE="aai_engine-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d3/29/a7b45b06eb97985d7ffc7bf5f340f24f1f0be6e92039f133998ea292620c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

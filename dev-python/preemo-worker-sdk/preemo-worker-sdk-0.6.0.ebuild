@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://www.preemo.io/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/80/3d/612224a74f725f7c6bb3a3ff7ad34348ced610b50e80fe2b69581a522fe4/preemo_worker_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="preemo_worker_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/80/3d/612224a74f725f7c6bb3a3ff7ad34348ced610b50e80fe2b69581a522fe4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

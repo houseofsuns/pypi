@@ -15,8 +15,8 @@ DESCRIPTION="Clean & minimal Django admin theme based on Tailwind CSS"
 
 HOMEPAGE="https://unfoldadmin.com"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/28/b5/262b97ef0d65c2a1b8b0848bdfb70c73d2beaa6599889d98906cd4eb53dd/django_unfold-${REALVERSION}.tar.gz"
-SOURCEFILE="django_unfold-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/28/b5/262b97ef0d65c2a1b8b0848bdfb70c73d2beaa6599889d98906cd4eb53dd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

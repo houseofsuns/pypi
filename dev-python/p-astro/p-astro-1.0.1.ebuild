@@ -15,8 +15,8 @@ DESCRIPTION="Low-latency classification of GW triggers from compact binary coale
 
 HOMEPAGE="https://lscsoft.docs.ligo.org/p-astro/"
 LICENSE="GNU General Public License Version 3"
-SRC_URI="https://files.pythonhosted.org/packages/4e/f1/9855d86cc8c8d7ed67ae46f5af2ad9dc1fd81c79e655915ced7713202772/p_astro-${REALVERSION}.tar.gz"
-SOURCEFILE="p_astro-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4e/f1/9855d86cc8c8d7ed67ae46f5af2ad9dc1fd81c79e655915ced7713202772/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

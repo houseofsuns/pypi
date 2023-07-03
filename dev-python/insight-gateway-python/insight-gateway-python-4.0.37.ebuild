@@ -15,8 +15,8 @@ DESCRIPTION="insight_gateway_python"
 
 HOMEPAGE=""
 LICENSE="insightpythonsdk"
-SRC_URI="https://files.pythonhosted.org/packages/27/3c/faf712fa973cb3e2d92e361649936d60902f0226fc39d528ee30810a31b1/insight_gateway_python-${REALVERSION}.tar.gz"
-SOURCEFILE="insight_gateway_python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/27/3c/faf712fa973cb3e2d92e361649936d60902f0226fc39d528ee30810a31b1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Data Access Control for the Modern Data Stack"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/41/fb/33d3de6fd0e2de6962866a46e11088923257eaeea950fe49f1e2d281d590/jetty_core-${REALVERSION}.tar.gz"
-SOURCEFILE="jetty_core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/41/fb/33d3de6fd0e2de6962866a46e11088923257eaeea950fe49f1e2d281d590/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

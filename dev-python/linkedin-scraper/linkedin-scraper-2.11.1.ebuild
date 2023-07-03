@@ -15,8 +15,8 @@ DESCRIPTION="Scrapes user data from Linkedin"
 
 HOMEPAGE="https://github.com/joeyism/linkedin_scraper"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/84/d9/2be2c0c0fccc42c2c3749ff0b4bd3affd1d4a8d54249799c7b107aa8f52c/linkedin_scraper-${REALVERSION}.tar.gz"
-SOURCEFILE="linkedin_scraper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/84/d9/2be2c0c0fccc42c2c3749ff0b4bd3affd1d4a8d54249799c7b107aa8f52c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

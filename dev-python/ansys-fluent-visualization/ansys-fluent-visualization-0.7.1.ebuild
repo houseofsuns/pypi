@@ -15,8 +15,8 @@ DESCRIPTION="A python wrapper for ansys Fluent visualization"
 
 HOMEPAGE="https://github.com/pyansys/pyfluent-visualization"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/da/41/dbd4bf17f9ff00cd74b10c61351af9e7b896a509ad31632ee931e9128301/ansys_fluent_visualization-${REALVERSION}.tar.gz"
-SOURCEFILE="ansys_fluent_visualization-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/da/41/dbd4bf17f9ff00cd74b10c61351af9e7b896a509ad31632ee931e9128301/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

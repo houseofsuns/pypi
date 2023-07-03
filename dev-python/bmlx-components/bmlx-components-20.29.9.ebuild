@@ -15,8 +15,8 @@ DESCRIPTION="bmlx components is repo for components used in bmlx"
 
 HOMEPAGE="https://git.sysop.bigo.sg/mlplat/bmlx-components"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/fe/0a/99a2e1a006775aec07cebcd3d6c07b76fb6ac20466d9d53c6367bd6e8fe9/bmlx_components-${REALVERSION}.tar.gz"
-SOURCEFILE="bmlx_components-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fe/0a/99a2e1a006775aec07cebcd3d6c07b76fb6ac20466d9d53c6367bd6e8fe9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

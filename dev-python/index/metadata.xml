@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>===========index===========INSTALLATION------------::   sudo easy_install indexHOW TO USE----------::  from index import main  main.main()or cli::  from index import export  export.main(files)  from index import export  export.main(files, &quot;Example list (proceed_default)&quot;)Use *tksettings.py* for import setting from plugins'*proceed_default*', '*proceed_default2*'(Click 'Import from module' and choose files:'*proceed_default/presets_default.py*' and'*proceed_default2/presets_default.py*').</longdescription>
+</pkgmetadata>

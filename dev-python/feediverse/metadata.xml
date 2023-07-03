@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>*feediverse* will read RSS/Atom feeds and send the messages as Mastodon posts.It's meant to add a little bit of spice to your timeline from other places.Please use it responsibly.## Install    pip install feediverse## RunThe first time you run *feediverse* you'll need to tell it your Mastodoninstance and get an access token which it will save in a configuration file. Ifyou don't specify a config file it will use `~/.feediverse`:    feediverseOnce *feediverse* is configured you can add it to your crontab:    */15 * * * * /usr/local/bin/feediverse    Run `feediverse --help` to show the command line options.## Post FormatYou can customize the post format by opening the configuration file (default is~/.feediverse) and updating the *template* property of your feed. The defaultformat is:    {title} {url}If you want you can use `{summary}` in your template, and add boilerplate textlike so:    Bookmark: {title} {url} {summary}`{hashtags}` will look for tags in the feed entry and turn them into a spaceseparated list of hashtags. For some feeds (e.g. youtube-rss) you should use `{link}` instead of `{url}`.`{content}` is the whole content of the feed entry (with html-tagsstripped). Please be aware that this might easily exceed Mastodon'slimit of 512 characters.## Multiple FeedsSince *feeds* is a list you can add additional feeds to watch if you want.    ...    feeds:      - url: https://example.com/feed/        template: &quot;dot com: {title} {url}&quot;      - url: https://example.org/feed/        template: &quot;dot org: {title} {url}&quot;</longdescription>
+</pkgmetadata>

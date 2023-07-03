@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>rattail_corepos===============Rattail is a retail software framework, released under the GNU General PublicLicense.This package contains software interfaces for the `CORE POS`_ system... _`CORE POS`: https://github.com/CORE-POS/IS4CPlease see Rattail's `home page`_ for more information... _`home page`: https://rattailproject.org/</longdescription>
+</pkgmetadata>

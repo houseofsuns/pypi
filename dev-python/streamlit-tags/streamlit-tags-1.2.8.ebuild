@@ -15,8 +15,8 @@ DESCRIPTION="Tags custom component for Streamlit"
 
 HOMEPAGE="https://github.com/gagan3012/streamlit-tags"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c8/c9/047d5e24f3ca5d31ed8c0ced4ed2e6ac20db5514c7fc814583b0c495e6ee/streamlit_tags-${REALVERSION}.tar.gz"
-SOURCEFILE="streamlit_tags-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c8/c9/047d5e24f3ca5d31ed8c0ced4ed2e6ac20db5514c7fc814583b0c495e6ee/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Integrate your Django Project with Elastic App Search with ease."
 
 HOMEPAGE="https://github.com/infoxchange/django_elastic_appsearch"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/76/e4/a9d296b71c7333c876d575e572e7392d69935f157baf41d23a2cda268a51/django_elastic_appsearch-${REALVERSION}.tar.gz"
-SOURCEFILE="django_elastic_appsearch-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/76/e4/a9d296b71c7333c876d575e572e7392d69935f157baf41d23a2cda268a51/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

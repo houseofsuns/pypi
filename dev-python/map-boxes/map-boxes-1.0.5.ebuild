@@ -15,8 +15,8 @@ DESCRIPTION="Function to calculate mAP for set of detected boxes and annotated b
 
 HOMEPAGE="https://github.com/ZFTurbo/Mean-Average-Precision-for-Boxes"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6a/30/271784e41a4421e85248085fa731111465af0090bd1a105898a15185d1f4/map_boxes-${REALVERSION}.tar.gz"
-SOURCEFILE="map_boxes-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6a/30/271784e41a4421e85248085fa731111465af0090bd1a105898a15185d1f4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="An FPS plugin for the authentication API, using Fief"
 
 HOMEPAGE="https://jupyter.org"
 LICENSE="BSD 3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/ca/ac/d36c0f42284be4b2830028731134ab4563da360ca74d8c921b78a622d9fd/fps_auth_fief-${REALVERSION}.tar.gz"
-SOURCEFILE="fps_auth_fief-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ca/ac/d36c0f42284be4b2830028731134ab4563da360ca74d8c921b78a622d9fd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

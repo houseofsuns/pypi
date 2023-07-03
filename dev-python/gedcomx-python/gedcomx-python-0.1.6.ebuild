@@ -15,8 +15,8 @@ DESCRIPTION="GEDCOM X Python is the Python implementation of [GEDCOM X](http://w
 
 HOMEPAGE="https://github.com/maiorsi/pyGedcomX"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5c/9c/93a066613ba3463bbcb9dd6b158541c88c66c3feb3da2e13f0f33fe03e40/gedcomx_python-${REALVERSION}.tar.gz"
-SOURCEFILE="gedcomx_python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5c/9c/93a066613ba3463bbcb9dd6b158541c88c66c3feb3da2e13f0f33fe03e40/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

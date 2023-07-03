@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># FinOpsFinOps is a python package for financial operations.## Table of Contents- [Installation](#installation)- [Usage](#usage)- [Contributing](#contributing)## InstallationUse the package manager [pip](https://pip.pypa.io/en/stable/) to install finops.```pip install finops```## Usage```import finopsimport datetimeticker = finops.Ticker(&quot;778253364357513&quot;)ticker.get_price_history()tse = finops.TehranStockExchange()tse.get_shareholders_data(start_date=datetime(2020, 1, 1), end_date=datetime(2023, 1, 1))```## ContributingContributions are always welcome!</longdescription>
+</pkgmetadata>

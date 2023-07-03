@@ -15,8 +15,8 @@ DESCRIPTION="Pybullet wrapper for easy use"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/af/cd/3e0fcf64f59da5bed476f0639975efd31bbbe8e37be3fd9a5cc3e5820596/pybullet_suite-${REALVERSION}.tar.gz"
-SOURCEFILE="pybullet_suite-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/af/cd/3e0fcf64f59da5bed476f0639975efd31bbbe8e37be3fd9a5cc3e5820596/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

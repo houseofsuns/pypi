@@ -15,8 +15,8 @@ DESCRIPTION="Python SDK for the SignNow system"
 
 HOMEPAGE="https://github.com/signnow/SNPythonSDK"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d7/c7/6382a052f036c6f807e8b17ef520039187c4554e8e577e9d161377a5ba7b/signnow_python_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="signnow_python_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d7/c7/6382a052f036c6f807e8b17ef520039187c4554e8e577e9d161377a5ba7b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

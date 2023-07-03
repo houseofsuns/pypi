@@ -15,8 +15,8 @@ DESCRIPTION="Squirrel public datasets collection"
 
 HOMEPAGE="https://merantix-momentum.com/technology/squirrel/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c0/b3/b5b59add9bd5ef738eee84313930fc9702da56e9d43009a0a573d6fdad16/squirrel_datasets_core-${REALVERSION}.tar.gz"
-SOURCEFILE="squirrel_datasets_core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c0/b3/b5b59add9bd5ef738eee84313930fc9702da56e9d43009a0a573d6fdad16/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="The NASA Prognostic Model Package is a python modeling framework fo
 
 HOMEPAGE="https://nasa.github.io/progpy/prog_models_guide.html"
 LICENSE="NOSA"
-SRC_URI="https://files.pythonhosted.org/packages/c2/4c/5bc88f93016839f3ba2030049c4657a85380abb471eea12d17f7455c0d97/prog_models-${REALVERSION}.tar.gz"
-SOURCEFILE="prog_models-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c2/4c/5bc88f93016839f3ba2030049c4657a85380abb471eea12d17f7455c0d97/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

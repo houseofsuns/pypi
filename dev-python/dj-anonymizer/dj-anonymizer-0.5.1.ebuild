@@ -15,8 +15,8 @@ DESCRIPTION="This project helps anonymize production database with fake data of 
 
 HOMEPAGE="https://github.com/preply/dj_anonymizer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d9/2e/c7e47017473f6b2a8e1c5248955225f88d12d8388fd1c2a8df313554a9db/dj_anonymizer-${REALVERSION}.tar.gz"
-SOURCEFILE="dj_anonymizer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d9/2e/c7e47017473f6b2a8e1c5248955225f88d12d8388fd1c2a8df313554a9db/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

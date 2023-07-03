@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module for timesheet on production work"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/d5/0d/f00aaeda8e7eb2ae6e07c69e659dd5d955be849e176f55749e3b56065cae/trytond_production_work_timesheet-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_production_work_timesheet-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d5/0d/f00aaeda8e7eb2ae6e07c69e659dd5d955be849e176f55749e3b56065cae/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

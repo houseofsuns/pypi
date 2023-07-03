@@ -15,8 +15,8 @@ DESCRIPTION="pyobs module for Pilar TCS"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8f/db/75d33169383bf1e0b203f1a283213cc34222a585718fff50e6dc6282b582/pyobs_pilar-${REALVERSION}.tar.gz"
-SOURCEFILE="pyobs_pilar-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8f/db/75d33169383bf1e0b203f1a283213cc34222a585718fff50e6dc6282b582/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

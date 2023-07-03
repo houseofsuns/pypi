@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module to manage customer product on sale"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/26/53/d1e4d1b930dde3502609f33a64e50d0f68b5aa217c31f451243b52d1540c/trytond_sale_product_customer-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_sale_product_customer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/26/53/d1e4d1b930dde3502609f33a64e50d0f68b5aa217c31f451243b52d1540c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

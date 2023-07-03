@@ -15,8 +15,8 @@ DESCRIPTION="Resource management via a dashboard for the registry core project"
 
 HOMEPAGE="https://github.com/usnistgov/core_dashboard_registry_app"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/96/2e/a0643852a2ed120f9aabd71d30e062c9d7dafa7d70aad970746989f98c84/core_dashboard_registry_app-${REALVERSION}.tar.gz"
-SOURCEFILE="core_dashboard_registry_app-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/96/2e/a0643852a2ed120f9aabd71d30e062c9d7dafa7d70aad970746989f98c84/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

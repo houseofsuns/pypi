@@ -15,8 +15,8 @@ DESCRIPTION="A wifi application build with textual and nmcli (py)"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/82/19/4be554915530375f4b81591ec2f81c5f9019b28609ef0f7992166cd65f1e/textual_wifi-${REALVERSION}.tar.gz"
-SOURCEFILE="textual_wifi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/82/19/4be554915530375f4b81591ec2f81c5f9019b28609ef0f7992166cd65f1e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

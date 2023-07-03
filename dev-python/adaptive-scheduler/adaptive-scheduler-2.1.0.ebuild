@@ -15,8 +15,8 @@ DESCRIPTION="Run many \`adaptive.Learner\`s on many cores (>10k) using \`mpi4py.
 
 HOMEPAGE="https://adaptive-scheduler.readthedocs.io/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/51/19/0f2d3ebd8a0f6f3ab1be998da26fb55605674f3f9c4c6c0cb0d247ea7044/adaptive_scheduler-${REALVERSION}.tar.gz"
-SOURCEFILE="adaptive_scheduler-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/51/19/0f2d3ebd8a0f6f3ab1be998da26fb55605674f3f9c4c6c0cb0d247ea7044/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Download historical stock prices (daily / weekly / monthly), realti
 
 HOMEPAGE="http://theautomatic.net/yahoo_fin-documentation/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/da/d2/0ac82f1b28492ad49664f630ed8157938d5be808428c7cef81cbd018ae41/yahoo_fin-${REALVERSION}.tar.gz"
-SOURCEFILE="yahoo_fin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/da/d2/0ac82f1b28492ad49664f630ed8157938d5be808428c7cef81cbd018ae41/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

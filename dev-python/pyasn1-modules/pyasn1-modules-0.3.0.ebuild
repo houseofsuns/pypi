@@ -15,8 +15,8 @@ DESCRIPTION="A collection of ASN.1-based protocols modules"
 
 HOMEPAGE="https://github.com/pyasn1/pyasn1-modules"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/3b/e4/7dec823b1b5603c5b3c51e942d5d9e65efd6ff946e713a325ed4146d070f/pyasn1_modules-${REALVERSION}.tar.gz"
-SOURCEFILE="pyasn1_modules-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3b/e4/7dec823b1b5603c5b3c51e942d5d9e65efd6ff946e713a325ed4146d070f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

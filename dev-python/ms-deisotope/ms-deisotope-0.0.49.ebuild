@@ -15,8 +15,8 @@ DESCRIPTION="Access, Deisotope, and Charge Deconvolute Mass Spectra"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f5/44/0275a69b254a6abd9a07108d0787739bff3fa843d67b965b62d985c1cdca/ms_deisotope-${REALVERSION}.tar.gz"
-SOURCEFILE="ms_deisotope-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f5/44/0275a69b254a6abd9a07108d0787739bff3fa843d67b965b62d985c1cdca/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

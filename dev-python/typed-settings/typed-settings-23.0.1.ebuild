@@ -15,8 +15,8 @@ DESCRIPTION="Typed settings based on attrs classes"
 
 HOMEPAGE="https://gitlab.com/sscherfke/typed-settings"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/90/20/d161c3d0faa815cae2716a9eaf78560d7bcd301cbaf6dca468aa012d51d9/typed_settings-${REALVERSION}.tar.gz"
-SOURCEFILE="typed_settings-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/90/20/d161c3d0faa815cae2716a9eaf78560d7bcd301cbaf6dca468aa012d51d9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

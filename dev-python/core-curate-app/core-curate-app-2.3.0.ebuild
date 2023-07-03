@@ -15,8 +15,8 @@ DESCRIPTION="Curation functionalities for the curator core project"
 
 HOMEPAGE="https://github.com/usnistgov/core_curate_app"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4b/ef/e81b3ba71173a9ce5294ebc8cf5f32233218aa86023fccb528d88874437c/core_curate_app-${REALVERSION}.tar.gz"
-SOURCEFILE="core_curate_app-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4b/ef/e81b3ba71173a9ce5294ebc8cf5f32233218aa86023fccb528d88874437c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

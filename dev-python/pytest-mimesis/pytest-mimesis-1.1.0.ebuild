@@ -15,8 +15,8 @@ DESCRIPTION="Mimesis integration with the pytest test runner"
 
 HOMEPAGE="https://github.com/pytest-dev/pytest-mimesis"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bb/37/0b0ecfcee75ef3b9d92592e2402df81de2f795bf4e266c3beb3df7c4f325/pytest_mimesis-${REALVERSION}.tar.gz"
-SOURCEFILE="pytest_mimesis-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bb/37/0b0ecfcee75ef3b9d92592e2402df81de2f795bf4e266c3beb3df7c4f325/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Applitools Python SDK core package stub. Can be uninstalled safely.
 
 HOMEPAGE="http://www.applitools.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/57/81/feb3c6c5b83dc993ff1868bbba967e23e419b41d7d2fb531fffee5fdc32e/eyes_core-${REALVERSION}.tar.gz"
-SOURCEFILE="eyes_core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/57/81/feb3c6c5b83dc993ff1868bbba967e23e419b41d7d2fb531fffee5fdc32e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

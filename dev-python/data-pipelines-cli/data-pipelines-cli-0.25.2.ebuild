@@ -15,8 +15,8 @@ DESCRIPTION="CLI for data platform"
 
 HOMEPAGE="https://github.com/getindata/data-pipelines-cli/"
 LICENSE="Apache Software License Apache 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/8c/f1/b9e7374f6d966c096001a66eb3c0efa86c204a9507923c696e05eeb63d94/data_pipelines_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="data_pipelines_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8c/f1/b9e7374f6d966c096001a66eb3c0efa86c204a9507923c696e05eeb63d94/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

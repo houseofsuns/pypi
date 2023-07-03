@@ -15,8 +15,8 @@ DESCRIPTION="Collection of useful middlewares for aiohttp applications."
 
 HOMEPAGE="https://igordavydenko.com/projects.html#aiohttp-middlewares"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/bf/d0/ad1887bca385f2849681a119409925a4e57d4822fd7ec646b3dc9321614d/aiohttp_middlewares-${REALVERSION}.tar.gz"
-SOURCEFILE="aiohttp_middlewares-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bf/d0/ad1887bca385f2849681a119409925a4e57d4822fd7ec646b3dc9321614d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

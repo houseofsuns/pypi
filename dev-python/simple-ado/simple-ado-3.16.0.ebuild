@@ -15,8 +15,8 @@ DESCRIPTION="A simple wrapper around the Azure DevOps REST API"
 
 HOMEPAGE="https://github.com/Microsoft/simple_ado"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a7/58/2ce71135c067dae0717356a0b792089654fc28f97481707128c0d410636a/simple_ado-${REALVERSION}.tar.gz"
-SOURCEFILE="simple_ado-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a7/58/2ce71135c067dae0717356a0b792089654fc28f97481707128c0d410636a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

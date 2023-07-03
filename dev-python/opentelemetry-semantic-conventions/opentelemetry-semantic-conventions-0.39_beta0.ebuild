@@ -15,8 +15,8 @@ DESCRIPTION="OpenTelemetry Semantic Conventions"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python/tree/main/opentelemetry-semantic-conventions"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/87/55/806a15ae7923e42b511d3a64e76964b0cb921425fa8a294a6f3f7b5be0b6/opentelemetry_semantic_conventions-${REALVERSION}.tar.gz"
-SOURCEFILE="opentelemetry_semantic_conventions-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/87/55/806a15ae7923e42b511d3a64e76964b0cb921425fa8a294a6f3f7b5be0b6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

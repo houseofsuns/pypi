@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># OneCompiler### Compilation of many languages in Python!- [Project on PyPi](https://pypi.org/project/onecompiler/)&lt;br&gt;&lt;details open&gt;&lt;summary&gt; Mini documentation &lt;/summary&gt; &lt;br&gt;Installing the library```&gt; pip install onecompiler```&lt;br&gt;Import```from onecompiler import Compiler# Syncfrom onecompiler import AsyncCompiler# Async```&lt;br&gt;Initialization```compiler = Compiler()```&lt;br&gt;Get a list of available languages```print( compiler.all_languages )```&lt;br&gt;Languages are compiled through the Compiler attribute or using &lt;code&gt;compiler.to.lang&lt;/code&gt; &lt;br&gt;» For query languages &lt;code&gt;compiler.query.lang&lt;/code&gt;&lt;br&gt;Example```# Sample JavaScript coderes = compiler.to.js('console.log(&quot;Hello&quot;);')print(res.stdout)# Hello# Sample MySQL coderes2 = compiler.query.mysql('SELECT 10')print(res2.stdout)# 10```Or```res = compiler.compile(lang='js', code='console.log(&quot;Hello&quot;);')print(res.stdout)# Hellores2 = compiler.compile(lang='mysql', code='SELECT 10')print(res2.stdout)# 10```</longdescription>
+</pkgmetadata>

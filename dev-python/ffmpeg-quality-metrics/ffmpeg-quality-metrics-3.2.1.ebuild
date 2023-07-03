@@ -15,8 +15,8 @@ DESCRIPTION="Calculate video quality metrics with FFmpeg (SSIM, PSNR, VMAF)"
 
 HOMEPAGE="https://github.com/slhck/ffmpeg-quality-metrics"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f9/da/c6d9aa0d41664c91235d2173441142ffe6b96998832631c5fdbc2a2dae9e/ffmpeg_quality_metrics-${REALVERSION}.tar.gz"
-SOURCEFILE="ffmpeg_quality_metrics-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f9/da/c6d9aa0d41664c91235d2173441142ffe6b96998832631c5fdbc2a2dae9e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

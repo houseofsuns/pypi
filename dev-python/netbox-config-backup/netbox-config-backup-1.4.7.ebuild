@@ -15,8 +15,8 @@ DESCRIPTION="NetBox Configuration Backup"
 
 HOMEPAGE="https://github.com/dansheps/netbox-config-backup/"
 LICENSE="Proprietary"
-SRC_URI="https://files.pythonhosted.org/packages/bf/87/76e728cd652039b1b76fdd0b44f940da9a17db1a0cf8e1cc75fc785837d5/netbox_config_backup-${REALVERSION}.tar.gz"
-SOURCEFILE="netbox_config_backup-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bf/87/76e728cd652039b1b76fdd0b44f940da9a17db1a0cf8e1cc75fc785837d5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

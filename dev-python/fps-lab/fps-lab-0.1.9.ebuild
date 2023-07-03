@@ -15,8 +15,8 @@ DESCRIPTION="An FPS plugin for the JupyterLab/RetroLab API"
 
 HOMEPAGE="https://jupyter.org"
 LICENSE="BSD 3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/66/10/6040805d2dc4c662907f17752bb9dc0c6439e24beb65768b78983bd8b4fd/fps_lab-${REALVERSION}.tar.gz"
-SOURCEFILE="fps_lab-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/66/10/6040805d2dc4c662907f17752bb9dc0c6439e24beb65768b78983bd8b4fd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

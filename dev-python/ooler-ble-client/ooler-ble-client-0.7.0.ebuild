@@ -15,8 +15,8 @@ DESCRIPTION="A library to communicate with Ooler Sleep System Bluetooth devices.
 
 HOMEPAGE="https://github.com/PostLogical/ooler_ble_client"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/28/b8/e56c35208d4e2c205b6c8e61dc20c4dbff18282c203f48944292ab03d38a/ooler_ble_client-${REALVERSION}.tar.gz"
-SOURCEFILE="ooler_ble_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/28/b8/e56c35208d4e2c205b6c8e61dc20c4dbff18282c203f48944292ab03d38a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

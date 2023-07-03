@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fb/d3/81374b68e7e46b48c2c12c39ea7637eb17fa0347f14ef64bd8cb577a3b64/watchmen_auth-${REALVERSION}.tar.gz"
-SOURCEFILE="watchmen_auth-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fb/d3/81374b68e7e46b48c2c12c39ea7637eb17fa0347f14ef64bd8cb577a3b64/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

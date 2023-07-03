@@ -15,8 +15,8 @@ DESCRIPTION="Easy install parquet-tools"
 
 HOMEPAGE="https://github.com/ktrueda/parquet-tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/19/6c/fb51781b06066fb1f10096e05d6266508f0d10f584a5ce14b1ebf37616ad/parquet_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="parquet_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/19/6c/fb51781b06066fb1f10096e05d6266508f0d10f584a5ce14b1ebf37616ad/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

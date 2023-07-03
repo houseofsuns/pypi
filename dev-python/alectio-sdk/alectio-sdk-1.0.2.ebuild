@@ -15,8 +15,8 @@ DESCRIPTION="Integrate customer side ML application with the Alectio Platform"
 
 HOMEPAGE="https://github.com/alectio/SDK"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/68/ca/3544bbbe58ab0130f336c2ebd15c37232a22f94ba3178952fc09c1335f3c/alectio_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="alectio_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/68/ca/3544bbbe58ab0130f336c2ebd15c37232a22f94ba3178952fc09c1335f3c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

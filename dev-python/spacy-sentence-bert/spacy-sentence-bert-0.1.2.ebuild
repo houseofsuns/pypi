@@ -15,8 +15,8 @@ DESCRIPTION="SpaCy models for using sentence-BERT"
 
 HOMEPAGE="https://github.com/MartinoMensio/spacy-sentence-bert"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b1/49/1be66adaa30d7fb513c8b2b470d1cc386e3f013d0d1bfde5a4fdd3b758eb/spacy_sentence_bert-${REALVERSION}.tar.gz"
-SOURCEFILE="spacy_sentence_bert-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b1/49/1be66adaa30d7fb513c8b2b470d1cc386e3f013d0d1bfde5a4fdd3b758eb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

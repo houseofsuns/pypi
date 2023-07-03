@@ -15,8 +15,8 @@ DESCRIPTION="Librería que convierte el formato de nóminas del BCI al formato d
 
 HOMEPAGE="https://github.com/tonicanada/conversor_nominas_bancos_chile"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b4/2e/b8ba38d1918f482c534fcd1833e32d174a63621826a38d8e2398bbca8b62/conversor_nominas_bancos_chile-${REALVERSION}.tar.gz"
-SOURCEFILE="conversor_nominas_bancos_chile-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b4/2e/b8ba38d1918f482c534fcd1833e32d174a63621826a38d8e2398bbca8b62/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

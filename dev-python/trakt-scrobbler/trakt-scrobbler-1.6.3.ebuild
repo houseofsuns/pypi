@@ -15,8 +15,8 @@ DESCRIPTION="Scrobbler for trakt.tv that supports VLC, Plex, MPC-HC, and MPV"
 
 HOMEPAGE="https://github.com/iamkroot/trakt-scrobbler"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/76/e0/5c6f8e4126ba3d0cd7f32c15142ebb78052b63481803b69436ca7c0ca7d8/trakt_scrobbler-${REALVERSION}.tar.gz"
-SOURCEFILE="trakt_scrobbler-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/76/e0/5c6f8e4126ba3d0cd7f32c15142ebb78052b63481803b69436ca7c0ca7d8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

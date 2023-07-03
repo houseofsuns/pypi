@@ -15,8 +15,8 @@ DESCRIPTION="misc helpers for bpp behave tests"
 
 HOMEPAGE="https://gitlab.com/blueprintprep/bpp-qa/utilities/environment-helpers"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/20/6c/178e8d351632909871559deacdb9f48131e316d1defd7e778b366fcfbf10/bpp_env_helpers-${REALVERSION}.tar.gz"
-SOURCEFILE="bpp_env_helpers-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/20/6c/178e8d351632909871559deacdb9f48131e316d1defd7e778b366fcfbf10/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

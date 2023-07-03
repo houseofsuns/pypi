@@ -15,8 +15,8 @@ DESCRIPTION="A Command Line Toolbox"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/59/a4/dce114e662feb9a2d46692594bd9c94b684bb605f8ae01b7bb5c46c0fa09/quickstart_rhy-${REALVERSION}.tar.gz"
-SOURCEFILE="quickstart_rhy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/59/a4/dce114e662feb9a2d46692594bd9c94b684bb605f8ae01b7bb5c46c0fa09/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Sherpa knowledge import plugins"
 
 HOMEPAGE="https://kairntech.com/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b2/a2/b754311a37826d76ed56e23d0e99431cf76f8ad94d34e575322a8e263863/pyimporters_csv-${REALVERSION}.tar.gz"
-SOURCEFILE="pyimporters_csv-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b2/a2/b754311a37826d76ed56e23d0e99431cf76f8ad94d34e575322a8e263863/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

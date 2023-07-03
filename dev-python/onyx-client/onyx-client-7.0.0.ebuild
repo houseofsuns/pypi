@@ -15,8 +15,8 @@ DESCRIPTION="HTTP Client for Hella's ONYX.CENTER API."
 
 HOMEPAGE="https://github.com/muhlba91/onyx-client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6a/53/bc32526d1dafc412b6792942a26ae4ba69d37c86a7d0bd01460ce70a0502/onyx_client-${REALVERSION}.tar.gz"
-SOURCEFILE="onyx_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6a/53/bc32526d1dafc412b6792942a26ae4ba69d37c86a7d0bd01460ce70a0502/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

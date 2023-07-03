@@ -15,8 +15,8 @@ DESCRIPTION="API wrapper to communicate locally with SolarEdge Inverters"
 
 HOMEPAGE="https://github.com/drobtravels/solaredge-local"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/51/96/c24bc40ba8848ba2bc3c9894edcf46579dd6a36d39b73ab378d44eac7790/solaredge_local-${REALVERSION}.tar.gz"
-SOURCEFILE="solaredge_local-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/51/96/c24bc40ba8848ba2bc3c9894edcf46579dd6a36d39b73ab378d44eac7790/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

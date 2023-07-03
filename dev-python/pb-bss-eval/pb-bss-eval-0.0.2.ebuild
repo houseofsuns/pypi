@@ -15,8 +15,8 @@ DESCRIPTION="EM algorithms for integrated spatial and spectral models."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/37/2a/377b05ba6c4293b8e86a3f85184181e3d681b146b812fc98781862490ff9/pb_bss_eval-${REALVERSION}.tar.gz"
-SOURCEFILE="pb_bss_eval-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/37/2a/377b05ba6c4293b8e86a3f85184181e3d681b146b812fc98781862490ff9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

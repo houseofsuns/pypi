@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=============================acdh-django-browsing=============================.. image:: https://badge.fury.io/py/acdh-django-browsing.svg    :target: https://badge.fury.io/py/acdh-django-browsingDjango-App providing some useful things to create browsing viewsQuickstart----------Install acdh-django-browsing:    pip install acdh-django-browsingAdd it to your `INSTALLED_APPS`:.. code-block:: python    INSTALLED_APPS = (        ...        'browsing',        ...    )build and publishrm -rf ./distpython setup.py sdist bdist_wheeltwine upload dist/*</longdescription>
+</pkgmetadata>

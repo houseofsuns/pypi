@@ -15,8 +15,8 @@ DESCRIPTION="A pygame addon for animated image files"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/18/43/965e615753a345fa1d1d1e87a13f558f2ab8e88fe93786074f9fb2594304/gif_pygame-${REALVERSION}.tar.gz"
-SOURCEFILE="gif_pygame-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/18/43/965e615753a345fa1d1d1e87a13f558f2ab8e88fe93786074f9fb2594304/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

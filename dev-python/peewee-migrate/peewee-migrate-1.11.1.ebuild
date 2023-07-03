@@ -15,8 +15,8 @@ DESCRIPTION="Support for migrations in Peewee ORM"
 
 HOMEPAGE="https://github.com/klen/peewee_migrate"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a4/53/caf6c69a96e23fc5a7b69bc8f4e40d906d064d139f786ef41e6873937c66/peewee_migrate-${REALVERSION}.tar.gz"
-SOURCEFILE="peewee_migrate-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a4/53/caf6c69a96e23fc5a7b69bc8f4e40d906d064d139f786ef41e6873937c66/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module to add cost method \"on percentage\" on carrier"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/16/a2/36d1ff0b193b9144473bb276f5efc5f7b83ded689b66b85d7d934d569039/trytond_carrier_percentage-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_carrier_percentage-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/16/a2/36d1ff0b193b9144473bb276f5efc5f7b83ded689b66b85d7d934d569039/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

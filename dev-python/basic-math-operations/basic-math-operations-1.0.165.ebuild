@@ -15,8 +15,8 @@ DESCRIPTION="Biginteger library written in assembly and C."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4f/3e/2d2f9916e6aa674f00b7ceb8cbf39242e793a91660f7505b10cc6a4ca71a/basic_math_operations-${REALVERSION}.tar.gz"
-SOURCEFILE="basic_math_operations-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4f/3e/2d2f9916e6aa674f00b7ceb8cbf39242e793a91660f7505b10cc6a4ca71a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

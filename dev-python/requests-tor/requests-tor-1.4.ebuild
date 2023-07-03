@@ -15,8 +15,8 @@ DESCRIPTION="Multithreading requests via TOR with automatic TOR new identity"
 
 HOMEPAGE="https://github.com/deedy5/requests_tor"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/66/d1/e14635310900e17c13bdf331c805034e7116a6bc91aff12fced4b21d12e2/requests_tor-${REALVERSION}.tar.gz"
-SOURCEFILE="requests_tor-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/66/d1/e14635310900e17c13bdf331c805034e7116a6bc91aff12fced4b21d12e2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

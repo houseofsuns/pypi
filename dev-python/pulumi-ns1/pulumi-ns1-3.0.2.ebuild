@@ -15,8 +15,8 @@ DESCRIPTION="A Pulumi package for creating and managing ns1 cloud resources."
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/85/5f/c7b2bd1c0006b85b0e70233ac274b890bd1834823274b90c7d4d4b5bda42/pulumi_ns1-${REALVERSION}.tar.gz"
-SOURCEFILE="pulumi_ns1-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/85/5f/c7b2bd1c0006b85b0e70233ac274b890bd1834823274b90c7d4d4b5bda42/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

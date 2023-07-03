@@ -15,8 +15,8 @@ DESCRIPTION="tox plugin that provides integration with conda"
 
 HOMEPAGE="https://github.com/tox-dev/tox-conda"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/19/dd/537cdb8eb0cdaa384f9bd56c8e6e031679ae5c3ca7be8ee32e98e56720f4/tox_conda-${REALVERSION}.tar.gz"
-SOURCEFILE="tox_conda-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/19/dd/537cdb8eb0cdaa384f9bd56c8e6e031679ae5c3ca7be8ee32e98e56720f4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

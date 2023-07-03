@@ -15,8 +15,8 @@ DESCRIPTION="Welcome to the Garden - We're so glad you're here <3"
 
 HOMEPAGE="https://github.com/jonmatthis/golem_garden"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/35/27/39e44433eb42e281bfe3b03c823a5ae93eed16a9c1e0bcf832dd477275fb/golem_garden-${REALVERSION}.tar.gz"
-SOURCEFILE="golem_garden-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/35/27/39e44433eb42e281bfe3b03c823a5ae93eed16a9c1e0bcf832dd477275fb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

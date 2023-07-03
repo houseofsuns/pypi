@@ -15,8 +15,8 @@ DESCRIPTION="BGPKIT Parser Python Binding"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4a/7d/fcb7fddd0ad3ea37a4d29593a8d0a1f95923351f33c35ed722bc24ae084a/pybgpkit_parser-${REALVERSION}.tar.gz"
-SOURCEFILE="pybgpkit_parser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4a/7d/fcb7fddd0ad3ea37a4d29593a8d0a1f95923351f33c35ed722bc24ae084a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

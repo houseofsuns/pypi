@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module with stock forecasts"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/cb/95/d23684b85c01f2cb7f44b89d9f47f1aff8b213de7a39425df03567681263/trytond_stock_forecast-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_stock_forecast-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cb/95/d23684b85c01f2cb7f44b89d9f47f1aff8b213de7a39425df03567681263/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

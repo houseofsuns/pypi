@@ -15,8 +15,8 @@ DESCRIPTION="A simple client for doccano API."
 
 HOMEPAGE="https://github.com/doccano/doccano-client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/43/91/e62fb0495d1751cb1c9f02b7bc04d5799e16e7d0d24018de24c440f49376/doccano_client-${REALVERSION}.tar.gz"
-SOURCEFILE="doccano_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/43/91/e62fb0495d1751cb1c9f02b7bc04d5799e16e7d0d24018de24c440f49376/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

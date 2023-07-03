@@ -15,8 +15,8 @@ DESCRIPTION="Transformers Model Optimization Tool of ONNXRuntime"
 
 HOMEPAGE="https://github.com/microsoft/onnxruntime"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fd/b5/c36283fef3b1d492a39d1b5f3f195965fbf002b168633daad302c51d8f4c/onnxruntime_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="onnxruntime_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fd/b5/c36283fef3b1d492a39d1b5f3f195965fbf002b168633daad302c51d8f4c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

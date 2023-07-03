@@ -15,8 +15,8 @@ DESCRIPTION="Alibaba Cloud ICE (20201109) SDK Library for Python2"
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python2-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/4b/91/16df90d66b5648cdce1d7b52f59f560360cfc416ef572662755f80380b7f/alibabacloud_ice20201109_py2-${REALVERSION}.tar.gz"
-SOURCEFILE="alibabacloud_ice20201109_py2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4b/91/16df90d66b5648cdce1d7b52f59f560360cfc416ef572662755f80380b7f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

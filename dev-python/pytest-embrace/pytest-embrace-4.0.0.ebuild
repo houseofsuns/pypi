@@ -15,8 +15,8 @@ DESCRIPTION="💝  Dataclasses-as-tests. Describe the runtime once and multiply 
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/53/4d/d57b94fa8d230f263369e54348073262875db6dbfb5b166f0ac461858337/pytest_embrace-${REALVERSION}.tar.gz"
-SOURCEFILE="pytest_embrace-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/53/4d/d57b94fa8d230f263369e54348073262875db6dbfb5b166f0ac461858337/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

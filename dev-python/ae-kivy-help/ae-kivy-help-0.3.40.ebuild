@@ -15,8 +15,8 @@ DESCRIPTION="ae namespace package portion kivy_help: enhance your app with conte
 
 HOMEPAGE="https://gitlab.com/ae-group/ae_kivy_help"
 LICENSE="OSI Approved :: GNU General Public License v3 or later GPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/a6/07/1cac77e80f75eca825c5e61099edb767fbfa1270dc4501e68d52fd36eb72/ae_kivy_help-${REALVERSION}.tar.gz"
-SOURCEFILE="ae_kivy_help-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a6/07/1cac77e80f75eca825c5e61099edb767fbfa1270dc4501e68d52fd36eb72/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

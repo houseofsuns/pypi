@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Forked version of old pytz https://github.com/stub42/pytz, we want to use old timezone aberrations which have been removed on new version of pytzPytz version: 2016.18Jira ticket: https://paradoxai.atlassian.net/browse/OL-30533Install: pip install opytz</longdescription>
+</pkgmetadata>

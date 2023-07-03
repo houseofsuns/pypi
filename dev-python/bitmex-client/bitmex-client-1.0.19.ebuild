@@ -15,8 +15,8 @@ DESCRIPTION="Bitmex websocket API"
 
 HOMEPAGE="https://github.com/joliveros/bitmex-websocket"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/88/0a/65f2c5892c715ea16d56bbaba81e736fcf3624ab1204fdbbc238ca85327c/bitmex_client-${REALVERSION}.tar.gz"
-SOURCEFILE="bitmex_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/88/0a/65f2c5892c715ea16d56bbaba81e736fcf3624ab1204fdbbc238ca85327c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="The 51Degrees Pipeline API is a generic web request intelligence an
 
 HOMEPAGE="https://51degrees.com/"
 LICENSE="EUPL-1.2"
-SRC_URI="https://files.pythonhosted.org/packages/6b/95/db65322b6bc7c0e4e2cb94c839191565def3d46ed1ee559f0ca6d588e227/fiftyone_pipeline_engines_fiftyone-${REALVERSION}.tar.gz"
-SOURCEFILE="fiftyone_pipeline_engines_fiftyone-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6b/95/db65322b6bc7c0e4e2cb94c839191565def3d46ed1ee559f0ca6d588e227/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

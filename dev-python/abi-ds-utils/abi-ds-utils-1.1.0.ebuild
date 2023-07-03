@@ -15,8 +15,8 @@ DESCRIPTION="Utility modules for working with spark, containers, aws and more."
 
 HOMEPAGE=""
 LICENSE="Private"
-SRC_URI="https://files.pythonhosted.org/packages/5f/f4/50e698a943cbf55721c5ecf21700ae8ad98834bb009a1ce8e615514faaf0/abi_ds_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="abi_ds_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5f/f4/50e698a943cbf55721c5ecf21700ae8ad98834bb009a1ce8e615514faaf0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

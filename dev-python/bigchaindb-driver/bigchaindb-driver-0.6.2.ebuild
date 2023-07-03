@@ -15,8 +15,8 @@ DESCRIPTION="Python driver for BigchainDB"
 
 HOMEPAGE="https://github.com/bigchaindb/bigchaindb-driver"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b8/bb/7f32dcc7758c22271c7d4dbfc1619be5950d08ca6e63a05a3c8bdd5de3e5/bigchaindb_driver-${REALVERSION}.tar.gz"
-SOURCEFILE="bigchaindb_driver-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b8/bb/7f32dcc7758c22271c7d4dbfc1619be5950d08ca6e63a05a3c8bdd5de3e5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

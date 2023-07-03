@@ -15,8 +15,8 @@ DESCRIPTION="Validator and generator of Chile id"
 
 HOMEPAGE="https://github.com/gmgarciag/chile_rut"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b1/38/30729d87c9b4a26891f085643d2787cbee8fa2a0d05df3b73b87e7c81aef/chile_rut-${REALVERSION}.tar.gz"
-SOURCEFILE="chile_rut-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b1/38/30729d87c9b4a26891f085643d2787cbee8fa2a0d05df3b73b87e7c81aef/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

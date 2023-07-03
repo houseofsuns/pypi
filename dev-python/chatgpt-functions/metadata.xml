@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Example of usage:```pythonimport asynciofrom chatgpt_functions import (    ChatGPT,    Message,    Roles,    ChatGptFunction,    Parameters,    Property,)from config import API_KEYchatgpt = ChatGPT(openai_api_key=API_KEY)async def main():    def say_hello(args):        print(args)    await chatgpt.get_chatgpt_response_with_functions(        functions=[            ChatGptFunction(                function=say_hello,                parameters=Parameters(                    properties=[                        Property(                            property_name=&quot;name&quot;,                            prop_type=&quot;string&quot;,                            description=&quot;Name who to say hello to&quot;,                            enum=[&quot;Evan&quot;, &quot;Micha&quot;],                        ),                        Property(                            property_name=&quot;text&quot;,                            prop_type=&quot;string&quot;,                            description=&quot;Greeting&quot;,                        ),                    ]                ),                function_description=&quot;Say hello to user&quot;,            )        ],        messages_to_set=[Message(role=Roles.USER, content='РЎРєР°Р¶Рё РїСЂРёРІРµС‚РёРє РјРёС‡Рµ')]    )loop = asyncio.new_event_loop()asyncio.set_event_loop(loop)loop.run_until_complete(main())```</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="Utilities for gostatit.com"
 
 HOMEPAGE="https://github.com/keyboardcat1/statit_py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/91/2d/478adb49cbadc5d85262b16e5cbacb4e97c64a9c22e0b808c081741f9be9/statit_py-${REALVERSION}.tar.gz"
-SOURCEFILE="statit_py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/91/2d/478adb49cbadc5d85262b16e5cbacb4e97c64a9c22e0b808c081741f9be9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

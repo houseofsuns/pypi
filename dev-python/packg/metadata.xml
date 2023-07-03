@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># packg&lt;p align=&quot;center&quot;&gt;&lt;a href=&quot;https://github.com/gingsi/packg/actions/workflows/build_py37.yml&quot;&gt;  &lt;img alt=&quot;build 3.7 status&quot; title=&quot;build 3.7 status&quot; src=&quot;https://img.shields.io/github/actions/workflow/status/gingsi/packg/build_py37.yml?branch=main&amp;label=build%203.7&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;https://github.com/gingsi/packg/actions/workflows/build_py39.yml&quot;&gt;  &lt;img alt=&quot;build 3.9 status&quot; title=&quot;build 3.9 status&quot; src=&quot;https://img.shields.io/github/actions/workflow/status/gingsi/packg/build_py39.yml?branch=main&amp;label=build%203.9&quot; /&gt;&lt;/a&gt;&lt;img alt=&quot;coverage&quot; title=&quot;coverage&quot; src=&quot;https://raw.githubusercontent.com/gingsi/packg/main/docs/coverage.svg&quot; /&gt;&lt;a href=&quot;https://pypi.org/project/packg/&quot;&gt;  &lt;img alt=&quot;version&quot; title=&quot;version&quot; src=&quot;https://img.shields.io/pypi/v/packg?color=success&quot; /&gt;&lt;/a&gt;&lt;/p&gt;Collection of utilities used in other python projects. ## Features* `caching`: Cache objects to disk / to memory* `Const`: Base class for defining constants, as alternative to `enum.Enum` * `typext`: Type definitions* etc## InstallRequires `python&gt;=3.7````bashpip install packg```## Dev installClone repository and cd into, then:~~~bashpip install -e .pip install pytest pytest-cov pylint pytest-lazy-fixturepython -m pytest --covpylint packgpylint tests~~~</longdescription>
+</pkgmetadata>

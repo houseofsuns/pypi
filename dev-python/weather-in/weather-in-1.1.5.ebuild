@@ -15,8 +15,8 @@ DESCRIPTION="OpenWeather CLI script"
 
 HOMEPAGE="https://github.com/fleetyeets/weather.in"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/56/93/004a812d72a5fd0657602710bdb0efa08b73fd6c0a230519ecc1b31affca/weather_in-${REALVERSION}.tar.gz"
-SOURCEFILE="weather_in-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/56/93/004a812d72a5fd0657602710bdb0efa08b73fd6c0a230519ecc1b31affca/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

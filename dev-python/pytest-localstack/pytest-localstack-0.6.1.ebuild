@@ -15,8 +15,8 @@ DESCRIPTION="Pytest plugin for AWS integration tests"
 
 HOMEPAGE="https://github.com/mintel/pytest-localstack"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/07/8f/bac39c3847d027da9683f482145b3ac7595b1eb9b7666d4368cd4d809566/pytest_localstack-${REALVERSION}.tar.gz"
-SOURCEFILE="pytest_localstack-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/07/8f/bac39c3847d027da9683f482145b3ac7595b1eb9b7666d4368cd4d809566/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

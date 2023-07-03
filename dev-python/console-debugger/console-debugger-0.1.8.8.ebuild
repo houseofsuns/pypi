@@ -15,8 +15,8 @@ DESCRIPTION="Это подключаемая библиотека, для удо
 
 HOMEPAGE="https://github.com/denisxab/console_debugger"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d3/23/fffd02f0325114a2ddd69bd5876ccdc5d3f8c54d56942a210d2bbc5ccf35/console_debugger-${REALVERSION}.tar.gz"
-SOURCEFILE="console_debugger-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d3/23/fffd02f0325114a2ddd69bd5876ccdc5d3f8c54d56942a210d2bbc5ccf35/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="AWS SQS Consumer"
 
 HOMEPAGE="https://aws-sqs-consumer-python.readthedocs.io/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0e/f7/ce2c24b3c8d2f753ccd56282185df1e4e745d7538412d669993c2e66afce/aws_sqs_consumer-${REALVERSION}.tar.gz"
-SOURCEFILE="aws_sqs_consumer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0e/f7/ce2c24b3c8d2f753ccd56282185df1e4e745d7538412d669993c2e66afce/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

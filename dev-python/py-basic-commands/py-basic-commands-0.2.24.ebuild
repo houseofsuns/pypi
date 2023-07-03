@@ -15,8 +15,8 @@ DESCRIPTION="Basic tools for Python"
 
 HOMEPAGE="https://github.com/RasseTheBoy/Py_Basic_Commands"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/92/80/6d4e2f50c261cc4cb5fa4353ccd45f1d7b7602b143ddded759879ad0a6e7/py_basic_commands-${REALVERSION}.tar.gz"
-SOURCEFILE="py_basic_commands-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/92/80/6d4e2f50c261cc4cb5fa4353ccd45f1d7b7602b143ddded759879ad0a6e7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

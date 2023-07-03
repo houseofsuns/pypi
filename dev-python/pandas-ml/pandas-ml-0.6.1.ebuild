@@ -15,8 +15,8 @@ DESCRIPTION="pandas, scikit-learn and xgboost integration"
 
 HOMEPAGE="http://pandas-ml.readthedocs.org/en/stable"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/ac/69/f63b234546e39558e8121980daaf7389e52554a608da50005f52dc14f53f/pandas_ml-${REALVERSION}.tar.gz"
-SOURCEFILE="pandas_ml-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ac/69/f63b234546e39558e8121980daaf7389e52554a608da50005f52dc14f53f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

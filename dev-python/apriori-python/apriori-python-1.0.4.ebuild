@@ -15,8 +15,8 @@ DESCRIPTION="A simple apriori algorithm python implementation"
 
 HOMEPAGE="https://github.com/chonyy/apriori_python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/48/06/c024915133b5ed59910a725ac740cd37c9ac99fd5da65a5bb3e4173261cf/apriori_python-${REALVERSION}.tar.gz"
-SOURCEFILE="apriori_python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/48/06/c024915133b5ed59910a725ac740cd37c9ac99fd5da65a5bb3e4173261cf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

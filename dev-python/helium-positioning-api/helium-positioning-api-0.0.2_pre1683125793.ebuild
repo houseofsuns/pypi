@@ -15,8 +15,8 @@ DESCRIPTION="Helium Positioning API"
 
 HOMEPAGE="https://github.com/emergotechnologies/helium-positioning-api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/93/37/570fb2199af8cc6783e87cdcbc2cbc5817456720e51e9ef9084fa8f1e0fc/helium_positioning_api-${REALVERSION}.tar.gz"
-SOURCEFILE="helium_positioning_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/93/37/570fb2199af8cc6783e87cdcbc2cbc5817456720e51e9ef9084fa8f1e0fc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

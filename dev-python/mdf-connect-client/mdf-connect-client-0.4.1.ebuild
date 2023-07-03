@@ -15,8 +15,8 @@ DESCRIPTION="Materials Data Facility Connect Client"
 
 HOMEPAGE="https://github.com/materials-data-facility/connect_client"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b2/b6/97382c4b0d7b435bbd015f0a79c7befdebf2642bca0901b8738ac6f0389a/mdf_connect_client-${REALVERSION}.tar.gz"
-SOURCEFILE="mdf_connect_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b2/b6/97382c4b0d7b435bbd015f0a79c7befdebf2642bca0901b8738ac6f0389a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

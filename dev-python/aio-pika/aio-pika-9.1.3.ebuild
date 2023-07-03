@@ -15,8 +15,8 @@ DESCRIPTION="Wrapper around the aiormq for asyncio and humans"
 
 HOMEPAGE="https://github.com/mosquito/aio-pika"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/00/46/c9d74afdac0e843f6e8ab808b49e9f899db0793bda974bc203ebe8574f1e/aio_pika-${REALVERSION}.tar.gz"
-SOURCEFILE="aio_pika-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/00/46/c9d74afdac0e843f6e8ab808b49e9f899db0793bda974bc203ebe8574f1e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

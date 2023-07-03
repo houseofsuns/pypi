@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>python-astexport================.. image:: https://travis-ci.org/fpoli/python-astexport.svg?branch=master    :target: https://travis-ci.org/fpoli/python-astexportPython command line application to export Python 3 AST as JSON.Python 2.7 AST was used up to version 0.2.1 of this library.Installation------------.. code-block:: bash    $ pip install astexportUsage-----.. code-block:: bash    $ astexport &lt; example.py &gt; ast.json.. code-block:: bash    $ astexport --helpLicense-------Copyright (c) 2015, Federico Poli &lt;federpoli@gmail.com&gt;Released under the MIT license.</longdescription>
+</pkgmetadata>

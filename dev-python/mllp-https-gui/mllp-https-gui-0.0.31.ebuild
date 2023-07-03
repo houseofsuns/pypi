@@ -15,8 +15,8 @@ DESCRIPTION="GUI to install and configure mllp-https"
 
 HOMEPAGE="https://github.com/tiagoepr/mllp-https"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e0/ef/ca57dfca4ec129231003df280ed9812a65bc3a719218dcab75ac1c8d12f0/mllp_https_gui-${REALVERSION}.tar.gz"
-SOURCEFILE="mllp_https_gui-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e0/ef/ca57dfca4ec129231003df280ed9812a65bc3a719218dcab75ac1c8d12f0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

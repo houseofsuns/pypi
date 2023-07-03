@@ -15,8 +15,8 @@ DESCRIPTION="Pure python rfc3986 validator"
 
 HOMEPAGE="https://github.com/naimetti/rfc3986-validator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/da/88/f270de456dd7d11dcc808abfa291ecdd3f45ff44e3b549ffa01b126464d0/rfc3986_validator-${REALVERSION}.tar.gz"
-SOURCEFILE="rfc3986_validator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/da/88/f270de456dd7d11dcc808abfa291ecdd3f45ff44e3b549ffa01b126464d0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

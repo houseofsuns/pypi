@@ -15,8 +15,8 @@ DESCRIPTION="PyAMS generic modules"
 
 HOMEPAGE="https://pyams.readthedocs.io"
 LICENSE="ZPL"
-SRC_URI="https://files.pythonhosted.org/packages/54/39/56df49f35a488f8d3f0ca92f17909ba01279cc88fad3fa960c902470beca/pyams_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="pyams_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/54/39/56df49f35a488f8d3f0ca92f17909ba01279cc88fad3fa960c902470beca/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

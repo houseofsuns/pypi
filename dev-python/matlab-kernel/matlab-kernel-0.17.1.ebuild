@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/Calysto/matlab_kernel"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/7c/33/cc16cbf7e3890d7cb88a88a6c3ab363d73742d0ba87d3eacff86c39ca766/matlab_kernel-${REALVERSION}.tar.gz"
-SOURCEFILE="matlab_kernel-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7c/33/cc16cbf7e3890d7cb88a88a6c3ab363d73742d0ba87d3eacff86c39ca766/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

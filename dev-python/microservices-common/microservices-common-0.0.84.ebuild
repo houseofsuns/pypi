@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/arrivy-dev/microservices-python-common"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c9/47/e3e5f3b132c97d62e460e709d309b8cae335d89a77a22901ed445451f527/microservices_common-${REALVERSION}.tar.gz"
-SOURCEFILE="microservices_common-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c9/47/e3e5f3b132c97d62e460e709d309b8cae335d89a77a22901ed445451f527/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

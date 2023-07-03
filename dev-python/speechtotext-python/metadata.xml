@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># SpeechtotextPython package to benchmark speech2text models. ## DocumentationThe documentation can be found [here](https://jarneamerlinck.github.io/speechtotext/)## Install package### Python```bashpip install speechtotext-python```### Conda ```yamlname: sample_envchannels:dependencies:  - python&lt;3.11,&gt;=3.9.2  - pip  - pip:    - speechtotext-python```</longdescription>
+</pkgmetadata>

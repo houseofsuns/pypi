@@ -15,8 +15,8 @@ DESCRIPTION="collection of utilities for array and list manipulation"
 
 HOMEPAGE="http://pypi.python.org/pypi/np_utils/"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/83/09/612afbe0a602d35fae6b87fd201c5237f049bb27dbb99a6c5e3a931e5ae3/np_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="np_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/83/09/612afbe0a602d35fae6b87fd201c5237f049bb27dbb99a6c5e3a931e5ae3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

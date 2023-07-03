@@ -15,8 +15,8 @@ DESCRIPTION="stack multiple SVG images into a single output"
 
 HOMEPAGE="http://github.com/astraw/svg_stack"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ec/e6/22e486c86ca081f05288f949a2b14bf09da2a49f40903469e7c85b85adc0/svg_stack-${REALVERSION}.zip"
-SOURCEFILE="svg_stack-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/ec/e6/22e486c86ca081f05288f949a2b14bf09da2a49f40903469e7c85b85adc0/${REALNAME//-/_}-${REALVERSION}.zip"
+SOURCEFILE="_}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

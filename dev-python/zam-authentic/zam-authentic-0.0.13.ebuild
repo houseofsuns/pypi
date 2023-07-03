@@ -15,8 +15,8 @@ DESCRIPTION="A validation library for Zambia"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4f/00/fcbde5608ac1670c730783247aca42aab4b4e5e9dfdeeadbc40d0dc64615/zam_authentic-${REALVERSION}.tar.gz"
-SOURCEFILE="zam_authentic-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4f/00/fcbde5608ac1670c730783247aca42aab4b4e5e9dfdeeadbc40d0dc64615/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

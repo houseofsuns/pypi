@@ -15,8 +15,8 @@ DESCRIPTION="A framework for managing and maintaining multi-language pre-commit 
 
 HOMEPAGE="https://github.com/pre-commit/pre-commit"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/35/0e/564c71fe3cdf59a4acaaccaea354d066e5d9044eba564dac070bb2075432/pre_commit-${REALVERSION}.tar.gz"
-SOURCEFILE="pre_commit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/35/0e/564c71fe3cdf59a4acaaccaea354d066e5d9044eba564dac070bb2075432/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

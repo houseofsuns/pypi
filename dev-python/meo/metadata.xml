@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ✨ meo*frequently-used function library*Looking forward to your star! [0.x Document](https://github.com/miaobuao/meo/blob/main/docs/0.x_en.md): https://github.com/miaobuao/meo/blob/main/docs/0.x_en.md[repo](https://github.com/miaobuao/meo): https://github.com/miaobuao/meo</longdescription>
+</pkgmetadata>

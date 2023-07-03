@@ -15,8 +15,8 @@ DESCRIPTION="O projeto objetiva disponibilizar os parâmetros de qualidade em fo
 
 HOMEPAGE="https://github.com/gaemapiracicaba/norma_dec_8468-76"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a5/7e/cd4236dcfeaed489a12c64bacf35b2af4c6e3f7c30d908fb766eb12d7eb5/decreto_estadual_8468-${REALVERSION}.tar.gz"
-SOURCEFILE="decreto_estadual_8468-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a5/7e/cd4236dcfeaed489a12c64bacf35b2af4c6e3f7c30d908fb766eb12d7eb5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

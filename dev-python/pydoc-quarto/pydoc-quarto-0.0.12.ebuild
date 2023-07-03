@@ -15,8 +15,8 @@ DESCRIPTION="Generate minimal reference API docs from a python library in the fo
 
 HOMEPAGE="https://github.com/hamelsmu/pydoc_quarto"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/7d/b3/664d9c6bea71b2b1613788ea05eff16add729416ab6c200f5023bf5c3369/pydoc_quarto-${REALVERSION}.tar.gz"
-SOURCEFILE="pydoc_quarto-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7d/b3/664d9c6bea71b2b1613788ea05eff16add729416ab6c200f5023bf5c3369/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

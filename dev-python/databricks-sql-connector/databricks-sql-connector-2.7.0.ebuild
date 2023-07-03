@@ -15,8 +15,8 @@ DESCRIPTION="Databricks SQL Connector for Python"
 
 HOMEPAGE="https://github.com/databricks/databricks-sql-python"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/40/e5/3ab0492dd5e3b02dc1165b66e499ee7db7bb360ed384348692f45950f13d/databricks_sql_connector-${REALVERSION}.tar.gz"
-SOURCEFILE="databricks_sql_connector-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/40/e5/3ab0492dd5e3b02dc1165b66e499ee7db7bb360ed384348692f45950f13d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/dd/1c/7c7759b8909a35be37846ed7dfd53fbb717289157ee9e2de53fe1cd331c2/zygoat_django-${REALVERSION}.tar.gz"
-SOURCEFILE="zygoat_django-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/dd/1c/7c7759b8909a35be37846ed7dfd53fbb717289157ee9e2de53fe1cd331c2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Reinforcement learning agents for CSLE"
 
 HOMEPAGE=""
 LICENSE="Creative Commons Attribution-ShareAlike 4.0 International"
-SRC_URI="https://files.pythonhosted.org/packages/26/68/440f4f994705364911dc9622a25f867f22b6568548052aa19d2d7af3a81a/csle_agents-${REALVERSION}.tar.gz"
-SOURCEFILE="csle_agents-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/26/68/440f4f994705364911dc9622a25f867f22b6568548052aa19d2d7af3a81a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

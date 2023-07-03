@@ -15,8 +15,8 @@ DESCRIPTION="Shared Django Template for QiYUTech"
 
 HOMEPAGE="https://www.qiyutech.tech/"
 LICENSE="LGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/ae/a5/7af4e625b1e6374f4cba2dec604c6c84bf176e19a325285d8f6b65e1fe90/dj_qiyu_tpl-${REALVERSION}.tar.gz"
-SOURCEFILE="dj_qiyu_tpl-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ae/a5/7af4e625b1e6374f4cba2dec604c6c84bf176e19a325285d8f6b65e1fe90/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

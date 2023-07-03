@@ -15,8 +15,8 @@ DESCRIPTION="Expose the Raspberry Pi GPIO pins (and/or external IO modules such 
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e1/74/f220836a409f80ff3d159b2fb17e1031716ed9a0a7722c155882e0d49cc4/pi_mqtt_gpio-${REALVERSION}.tar.gz"
-SOURCEFILE="pi_mqtt_gpio-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e1/74/f220836a409f80ff3d159b2fb17e1031716ed9a0a7722c155882e0d49cc4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

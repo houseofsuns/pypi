@@ -15,8 +15,8 @@ DESCRIPTION="Library and command line interface for darwin.v7labs.com"
 
 HOMEPAGE="https://docs.v7labs.com/reference/getting-started-2"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/24/5f/d70d59ac5ee1e4710c944e6064527b63cc68e2d8f9ef03db50d982216e5e/darwin_py-${REALVERSION}.tar.gz"
-SOURCEFILE="darwin_py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/24/5f/d70d59ac5ee1e4710c944e6064527b63cc68e2d8f9ef03db50d982216e5e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

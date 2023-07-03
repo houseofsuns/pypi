@@ -15,8 +15,8 @@ DESCRIPTION="React based declarative usage of vtk.js for Dash"
 
 HOMEPAGE="https://github.com/plotly/dash-vtk"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e9/56/2489ae0e422c201baa12adbd331f8d2408063fc156a405f86617a4147aef/dash_vtk-${REALVERSION}.tar.gz"
-SOURCEFILE="dash_vtk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e9/56/2489ae0e422c201baa12adbd331f8d2408063fc156a405f86617a4147aef/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

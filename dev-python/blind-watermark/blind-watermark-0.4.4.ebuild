@@ -15,8 +15,8 @@ DESCRIPTION="Blind Watermark in Python"
 
 HOMEPAGE="https://github.com/guofei9987/blind_watermark"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/11/2a/1f209958d9ddf83cb4895132c9329224b96093945e8d3ce331e2064966e0/blind_watermark-${REALVERSION}.tar.gz"
-SOURCEFILE="blind_watermark-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/11/2a/1f209958d9ddf83cb4895132c9329224b96093945e8d3ce331e2064966e0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

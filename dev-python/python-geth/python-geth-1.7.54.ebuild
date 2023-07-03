@@ -15,8 +15,8 @@ DESCRIPTION="Release of the unofficial python geth library"
 
 HOMEPAGE="https://github.com/macutko/py_geth"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0d/fc/d68fe4decc567ad93ab4d58da44aebe48b268f0b97f68addd618ca0b1088/python_geth-${REALVERSION}.tar.gz"
-SOURCEFILE="python_geth-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0d/fc/d68fe4decc567ad93ab4d58da44aebe48b268f0b97f68addd618ca0b1088/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Automatically write pandas DataFrames to SQL by creating pipelines 
 
 HOMEPAGE="https://github.com/zypp-io/df_to_azure"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c8/b7/ef4f6d7a7a9609393ecccd731f61ee6c2ac060b88b07d4b8a7e73179f7ba/df_to_azure-${REALVERSION}.tar.gz"
-SOURCEFILE="df_to_azure-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c8/b7/ef4f6d7a7a9609393ecccd731f61ee6c2ac060b88b07d4b8a7e73179f7ba/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

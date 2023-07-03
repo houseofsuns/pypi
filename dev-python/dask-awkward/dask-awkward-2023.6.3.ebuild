@@ -15,8 +15,8 @@ DESCRIPTION="Awkward Array meets Dask"
 
 HOMEPAGE="https://github.com/dask-contrib/dask-awkward"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/d3/73/49f89a0b52ab9f821b1325ec5e3d9f488231fc09b2f60059c51823cb4c8b/dask_awkward-${REALVERSION}.tar.gz"
-SOURCEFILE="dask_awkward-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d3/73/49f89a0b52ab9f821b1325ec5e3d9f488231fc09b2f60059c51823cb4c8b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

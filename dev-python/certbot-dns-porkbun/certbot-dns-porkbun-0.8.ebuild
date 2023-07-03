@@ -15,8 +15,8 @@ DESCRIPTION="Plugin for certbot to obtain certificates using a DNS TXT record fo
 
 HOMEPAGE="https://github.com/infinityofspace/certbot_dns_porkbun"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5d/06/4dd9075c7e4c74f2158130fc9d0b4328989d0850d5aa7491abdfa80fb31e/certbot_dns_porkbun-${REALVERSION}.tar.gz"
-SOURCEFILE="certbot_dns_porkbun-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5d/06/4dd9075c7e4c74f2158130fc9d0b4328989d0850d5aa7491abdfa80fb31e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Jotform api library for python3&lt;div style=&quot;text-align: center;&quot;&gt;  &lt;img src=&quot;https://raw.githubusercontent.com/mirkan1/crossmark-jotform-api/master/logo.png&quot;&gt;&lt;/div&gt;## descriptionspecilized library for jotform api and crossmark needs## updates- 2023-04-26: added `set_new_submission` function, time to time it cannot find the submission, in that cases pulls the data directly from the api and sets as it is.- 2023-05-01: added a logic for get_emails function. and added a TODO there.- 2023-05-01: setted set_answer function.- 2023-05-10: deleted submissions array and enhanced the logic according to it- 2023-05-16: created emails on class initilaization so that one dont need to call get_emails function- 2023-05-16: summary for get_form function, format document, cleared some of the self.update and its fucntionality for faster performance- 2023-05-22:   * change of default submission value return from none to 1,   * default timeout form 30 secs to 45 secs</longdescription>
+</pkgmetadata>

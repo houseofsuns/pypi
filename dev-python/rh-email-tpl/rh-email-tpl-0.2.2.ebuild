@@ -15,8 +15,8 @@ DESCRIPTION="Internal RegioHelden tool for building styled html emails"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/33/6a/5c4d8397f84bf20b6c995617f10c9c08ed7895865e9815dd58ab9986f5e5/rh_email_tpl-${REALVERSION}.tar.gz"
-SOURCEFILE="rh_email_tpl-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/33/6a/5c4d8397f84bf20b6c995617f10c9c08ed7895865e9815dd58ab9986f5e5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A package for creating and handling input files for vasp"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/dd/ca/20ed22f69018a69729fe0d422164e24b841725f05c541b508beae38121fb/vasp_suite-${REALVERSION}.tar.gz"
-SOURCEFILE="vasp_suite-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/dd/ca/20ed22f69018a69729fe0d422164e24b841725f05c541b508beae38121fb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

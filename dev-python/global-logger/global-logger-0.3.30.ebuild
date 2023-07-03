@@ -15,8 +15,8 @@ DESCRIPTION="Based on Python built-in logger, expands it, and provides a global 
 
 HOMEPAGE="https://github.com/alertua/global_logger"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a5/6c/2a67cd6ab4eac3f349968aba625a3d074512dbbdff879d6dd9c4c19d516b/global_logger-${REALVERSION}.tar.gz"
-SOURCEFILE="global_logger-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a5/6c/2a67cd6ab4eac3f349968aba625a3d074512dbbdff879d6dd9c4c19d516b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

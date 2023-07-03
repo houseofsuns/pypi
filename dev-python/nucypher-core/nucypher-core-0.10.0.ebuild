@@ -15,8 +15,8 @@ DESCRIPTION="Protocol structures of Nucypher network"
 
 HOMEPAGE="https://github.com/nucypher/nucypher-core/tree/main/nucypher-core-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/51/85/a77206834177daf35ba93024d1875646d826633db21d98daa98e8f583edf/nucypher_core-${REALVERSION}.tar.gz"
-SOURCEFILE="nucypher_core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/51/85/a77206834177daf35ba93024d1875646d826633db21d98daa98e8f583edf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

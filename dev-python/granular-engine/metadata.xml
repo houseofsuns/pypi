@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Engine======A Utility Library that assists in Geospatial Machine Learning ExperimentTracking.Installation------------.. code:: shell   pip install granular-engineUsage-----CLI~~~.. figure:: https://user-images.githubusercontent.com/2713531/210276844-16d3867d-461c-44ba-870b-00d6d6266dbf.gif   :alt: engine_cli   engine_cliExperiment Tracking~~~~~~~~~~~~~~~~~~~.. code:: python   from engine import Engine   engine = Engine(&quot;test_config.yaml&quot;)   for epoch in enumerate(epochs):      # train       # eval      engine.log(step=epoch, train_loss=train_loss, val_loss=val_loss)   engine.done()License-------GPLv3Documentation-------------View documentation ``here &lt;https://engine.granular.ai/&gt;``\ \_</longdescription>
+</pkgmetadata>

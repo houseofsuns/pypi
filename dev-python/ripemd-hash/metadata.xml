@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Ripemd======Given headache openssl devs gave to everyone, this is tiny ripemd module for python 3. Shamelessly ~~stolen~~ extracted from [pycryptodome](https://github.com/Legrandin/pycryptodome).### UsageSingle call:```pyfrom ripemd.ripemd160 import ripemd160  # import functionripemd160(b'abc').hex() == '8eb208f7e05d987a9b044a8e98c6b087f15a0bfc'ripemd160(b'a' * 1000000).hex() == '52783243c1697bdbe16d37f97f68f08325dc1528'```Update mode:```pyfrom ripemd import ripemd160  # import moduleh = ripemd160.new()h.update(b'abc')h.digest().hex() == '8eb208f7e05d987a9b044a8e98c6b087f15a0bfc'```</longdescription>
+</pkgmetadata>

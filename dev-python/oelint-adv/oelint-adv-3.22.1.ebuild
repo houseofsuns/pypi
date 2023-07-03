@@ -15,8 +15,8 @@ DESCRIPTION="Advanced bitbake-recipe linter"
 
 HOMEPAGE="https://github.com/priv-kweihmann/oelint-adv"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ab/2b/e0e3e575041e5c240f6f6efec157585baa4fc810516a71046e2c0dbc5384/oelint_adv-${REALVERSION}.tar.gz"
-SOURCEFILE="oelint_adv-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ab/2b/e0e3e575041e5c240f6f6efec157585baa4fc810516a71046e2c0dbc5384/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

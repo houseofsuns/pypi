@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/75/ab/4870e06ea2da62ced4422cb188fa2d55a04b40e750e4795cd3fa9c9e3629/osint_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="osint_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/75/ab/4870e06ea2da62ced4422cb188fa2d55a04b40e750e4795cd3fa9c9e3629/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

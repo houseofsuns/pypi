@@ -15,8 +15,8 @@ DESCRIPTION="A gym environment for the Schieber variant of the Swiss card game J
 
 HOMEPAGE="https://github.com/JoelNiklaus/gym-jass"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f4/a2/863e8aa839c0031473ebe23235c0099d722ccdb6d71eb5acf47d3e78e5be/gym_jass-${REALVERSION}.tar.gz"
-SOURCEFILE="gym_jass-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f4/a2/863e8aa839c0031473ebe23235c0099d722ccdb6d71eb5acf47d3e78e5be/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

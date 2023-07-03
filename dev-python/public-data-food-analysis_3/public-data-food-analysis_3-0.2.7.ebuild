@@ -15,8 +15,8 @@ DESCRIPTION="This project analyzes data from a few input sources."
 
 HOMEPAGE="https://github.com/QiwenZz/public_data_food_analysis_3/tree/master/"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/0f/f7/20d190fc76725d605f19cafbff3f58df160bd990b77afb396f6ad5622d79/public_data_food_analysis_3-${REALVERSION}.tar.gz"
-SOURCEFILE="public_data_food_analysis_3-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0f/f7/20d190fc76725d605f19cafbff3f58df160bd990b77afb396f6ad5622d79/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

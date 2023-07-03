@@ -15,8 +15,8 @@ DESCRIPTION="A Pulumi package for consuming Terraform Remote State resources."
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d5/55/852831f5867bbe948b79bee8ed4f78ea824f35b9118b017f494186aea912/pulumi_terraform-${REALVERSION}.tar.gz"
-SOURCEFILE="pulumi_terraform-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d5/55/852831f5867bbe948b79bee8ed4f78ea824f35b9118b017f494186aea912/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

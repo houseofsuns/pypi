@@ -15,8 +15,8 @@ DESCRIPTION="Point Cloud Deep Learning Extension Library for PyTorch"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8b/47/81203ffccd866a37e7b4bf805245a3043a69826c8084059a13591a2e1b3a/torch_points3d-${REALVERSION}.tar.gz"
-SOURCEFILE="torch_points3d-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8b/47/81203ffccd866a37e7b4bf805245a3043a69826c8084059a13591a2e1b3a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

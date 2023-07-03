@@ -15,8 +15,8 @@ DESCRIPTION="Python Project Poetry Template"
 
 HOMEPAGE="https://mrjk.github.io/python-project-poetry-template/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/d4/b6/69ce45c60a6b54ac631debd736613c345997ba055aa9a7c21d496713e05f/python_project_poetry_template-${REALVERSION}.tar.gz"
-SOURCEFILE="python_project_poetry_template-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d4/b6/69ce45c60a6b54ac631debd736613c345997ba055aa9a7c21d496713e05f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

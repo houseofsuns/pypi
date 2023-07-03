@@ -15,8 +15,8 @@ DESCRIPTION="All the assets, entities and levels that come with Yodine (the game
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/31/ee/8181b0a9c2248176e97649812268d7e7093443d5ee0d840e8c8c36d2e7d9/yodine_data-${REALVERSION}.tar.gz"
-SOURCEFILE="yodine_data-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/31/ee/8181b0a9c2248176e97649812268d7e7093443d5ee0d840e8c8c36d2e7d9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

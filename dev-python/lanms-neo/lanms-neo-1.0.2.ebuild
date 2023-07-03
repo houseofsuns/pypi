@@ -15,8 +15,8 @@ DESCRIPTION="Standalone Locality-Aware NMS module."
 
 HOMEPAGE="https://github.com/gen-ko/lanms-neo"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7b/fe/beff7e7e4455cb9f69c5734897ca8552a57f6423b062ec86b2ebc1d79c0d/lanms_neo-${REALVERSION}.tar.gz"
-SOURCEFILE="lanms_neo-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7b/fe/beff7e7e4455cb9f69c5734897ca8552a57f6423b062ec86b2ebc1d79c0d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

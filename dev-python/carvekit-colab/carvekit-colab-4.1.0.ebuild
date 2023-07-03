@@ -15,8 +15,8 @@ DESCRIPTION="Open-Source background removal framework"
 
 HOMEPAGE="https://github.com/OPHoperHPO/image-background-remove-tool"
 LICENSE="Apache License v2.0"
-SRC_URI="https://files.pythonhosted.org/packages/7c/22/ba2595bf058310507970af1f1eddede0a3ab05d7c7c8743172d4382d485d/carvekit_colab-${REALVERSION}.tar.gz"
-SOURCEFILE="carvekit_colab-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7c/22/ba2595bf058310507970af1f1eddede0a3ab05d7c7c8743172d4382d485d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

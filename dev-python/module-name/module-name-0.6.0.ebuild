@@ -15,8 +15,8 @@ DESCRIPTION="Simple Module to resolve module namespace"
 
 HOMEPAGE="https://github.com/dalejung/module_name"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/11/25/ff4b1ad56270798ecd0ed7c1bbe5674c3e5f7c2f60a229331d00dd27fba2/module_name-${REALVERSION}.tar.gz"
-SOURCEFILE="module_name-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/11/25/ff4b1ad56270798ecd0ed7c1bbe5674c3e5f7c2f60a229331d00dd27fba2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

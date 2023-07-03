@@ -15,8 +15,8 @@ DESCRIPTION="('Compresses linked and inline JavaScript or CSS into single cached
 
 HOMEPAGE="https://django-compressor.readthedocs.io/en/latest/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1c/7d/8b878b082d7aca3f3d76da1743754d2a812571d0ee2cccbb6ee543f05843/django_compressor-${REALVERSION}.tar.gz"
-SOURCEFILE="django_compressor-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1c/7d/8b878b082d7aca3f3d76da1743754d2a812571d0ee2cccbb6ee543f05843/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

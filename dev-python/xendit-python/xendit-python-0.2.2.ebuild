@@ -15,8 +15,8 @@ DESCRIPTION="Xendit REST API Client for Python - Card, Virtual Account, Invoice,
 
 HOMEPAGE="https://github.com/xendit/xendit-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/eb/0a/00ddb43bee7a64a6cb3097a4d8426d7d03ceed78e87ab8d2fa679e55b0ab/xendit_python-${REALVERSION}.tar.gz"
-SOURCEFILE="xendit_python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/eb/0a/00ddb43bee7a64a6cb3097a4d8426d7d03ceed78e87ab8d2fa679e55b0ab/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

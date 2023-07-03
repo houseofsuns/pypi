@@ -15,8 +15,8 @@ DESCRIPTION="A Python package for managing books in Shopify"
 
 HOMEPAGE="https://github.com/sikegame/bluetree-shopify-book"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/54/9e/5eaffa2765f78ea449cb946cd2b8f7f84599b43138d252398efc21809af1/bluetree_shopify_book-${REALVERSION}.tar.gz"
-SOURCEFILE="bluetree_shopify_book-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/54/9e/5eaffa2765f78ea449cb946cd2b8f7f84599b43138d252398efc21809af1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

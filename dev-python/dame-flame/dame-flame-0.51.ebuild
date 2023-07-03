@@ -15,8 +15,8 @@ DESCRIPTION="Causal Inference Covariate Matching"
 
 HOMEPAGE="https://github.com/almost-matching-exactly/DAME-FLAME-Python-Package"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/03/fb/a83870884fb83be6f2dfa3b28b6b5be475f913e01b91d4fc247853c64799/dame_flame-${REALVERSION}.tar.gz"
-SOURCEFILE="dame_flame-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/03/fb/a83870884fb83be6f2dfa3b28b6b5be475f913e01b91d4fc247853c64799/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Easy way to add GoogleMaps to Flask Applications"
 
 HOMEPAGE="https://flaskextensions.com"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a1/ad/11ae6cfbc08c5f045d3a2e1b700b1259ebc6acf700b2a0f29baa5f97a301/flask_googlemaps-${REALVERSION}.tar.gz"
-SOURCEFILE="flask_googlemaps-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a1/ad/11ae6cfbc08c5f045d3a2e1b700b1259ebc6acf700b2a0f29baa5f97a301/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

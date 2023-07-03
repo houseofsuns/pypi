@@ -15,8 +15,8 @@ DESCRIPTION="This package allows for HTTP NTLM authentication using the requests
 
 HOMEPAGE="https://github.com/requests/requests-ntlm"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/7a/ad/486a6ca1879cf1bb181e3e4af4d816d23ec538a220ef75ca925ccb7dd31d/requests_ntlm-${REALVERSION}.tar.gz"
-SOURCEFILE="requests_ntlm-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7a/ad/486a6ca1879cf1bb181e3e4af4d816d23ec538a220ef75ca925ccb7dd31d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

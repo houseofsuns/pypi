@@ -15,8 +15,8 @@ DESCRIPTION="女生自用(?)电报机器人"
 
 HOMEPAGE="https://github.com/tkgs0/RemiliaBot"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/eb/c1/db38639fe974ef69552f1f980009d507fdbbf16af7135172e5cd028d0a42/remilia_bot-${REALVERSION}.tar.gz"
-SOURCEFILE="remilia_bot-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/eb/c1/db38639fe974ef69552f1f980009d507fdbbf16af7135172e5cd028d0a42/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

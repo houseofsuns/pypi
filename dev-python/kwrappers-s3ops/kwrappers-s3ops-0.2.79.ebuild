@@ -15,8 +15,8 @@ DESCRIPTION="S3 operations."
 
 HOMEPAGE="https://bitbucket.org/tim_kablamo/kwrappers"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1b/b4/fbef4276c8e357163a59e1d6cfa90dd6ed26652ec27d5f5e287195448fec/kwrappers_s3ops-${REALVERSION}.tar.gz"
-SOURCEFILE="kwrappers_s3ops-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1b/b4/fbef4276c8e357163a59e1d6cfa90dd6ed26652ec27d5f5e287195448fec/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

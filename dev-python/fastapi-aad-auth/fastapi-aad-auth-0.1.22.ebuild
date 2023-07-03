@@ -15,8 +15,8 @@ DESCRIPTION="Provide Azure Active Directory Authentication for FastAPI"
 
 HOMEPAGE="https://djpugh.github.io/fastapi_aad_auth"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a7/91/9c7e70e53dd54e1c82cdda2fe49c86628c4ce32adf375178f67b800b9436/fastapi_aad_auth-${REALVERSION}.tar.gz"
-SOURCEFILE="fastapi_aad_auth-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a7/91/9c7e70e53dd54e1c82cdda2fe49c86628c4ce32adf375178f67b800b9436/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

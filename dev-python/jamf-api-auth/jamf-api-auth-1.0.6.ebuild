@@ -15,8 +15,8 @@ DESCRIPTION="Provides automatically-refreshing token authentication for the Jamf
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2c/8f/8df4a25429c32a9fa2a9dd9ac5dbe825048f6b09ee8b84b842b7cea5edf3/jamf_api_auth-${REALVERSION}.tar.gz"
-SOURCEFILE="jamf_api_auth-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2c/8f/8df4a25429c32a9fa2a9dd9ac5dbe825048f6b09ee8b84b842b7cea5edf3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

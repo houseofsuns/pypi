@@ -15,8 +15,8 @@ DESCRIPTION="some convenience functions for lists"
 
 HOMEPAGE="https://github.com/bitranox/lib_list"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d8/77/acff39ce01751490a8a1c40ff43f501ca1081a7c8f9fe08d71e9af868a0e/lib_list-${REALVERSION}.tar.gz"
-SOURCEFILE="lib_list-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d8/77/acff39ce01751490a8a1c40ff43f501ca1081a7c8f9fe08d71e9af868a0e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

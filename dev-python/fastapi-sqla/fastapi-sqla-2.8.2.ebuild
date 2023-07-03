@@ -15,8 +15,8 @@ DESCRIPTION="SQLAlchemy extension for FastAPI with support for pagination, async
 
 HOMEPAGE="https://github.com/dialoguemd/fastapi-sqla"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/56/21/75268d0da21ece4053243ae1739d1ec865eb9f21b0aa4c41615623eee038/fastapi_sqla-${REALVERSION}.tar.gz"
-SOURCEFILE="fastapi_sqla-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/56/21/75268d0da21ece4053243ae1739d1ec865eb9f21b0aa4c41615623eee038/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Provides yaml file parsing with environment variable resolution"
 
 HOMEPAGE="https://github.com/mkaranasou/pyaml_env"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/28/72/7a65881cb83e8af22b36259436fb87507e9399e7251831dc9248303faaae/pyaml_env-${REALVERSION}.tar.gz"
-SOURCEFILE="pyaml_env-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/28/72/7a65881cb83e8af22b36259436fb87507e9399e7251831dc9248303faaae/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

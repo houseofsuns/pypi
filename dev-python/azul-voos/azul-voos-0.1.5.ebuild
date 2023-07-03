@@ -15,8 +15,8 @@ DESCRIPTION="Scraping de dados de voo da empresa Azul utilizando selenium"
 
 HOMEPAGE="https://github.com/ricardostange/azul-voos"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4a/d3/6a6ac6877c3efeafc1647e33423127e57cbc0a47f0ccb622878b2413b457/azul_voos-${REALVERSION}.tar.gz"
-SOURCEFILE="azul_voos-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4a/d3/6a6ac6877c3efeafc1647e33423127e57cbc0a47f0ccb622878b2413b457/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

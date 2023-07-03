@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6b/e3/0254d056fa15479e03da617f7b42d0c2f466e8dcd4b1399614cb2749b7c8/jenfi_pipeline_data_app-${REALVERSION}.tar.gz"
-SOURCEFILE="jenfi_pipeline_data_app-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6b/e3/0254d056fa15479e03da617f7b42d0c2f466e8dcd4b1399614cb2749b7c8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A Pulumi package for creating and managing New Relic resources."
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e6/51/9a1e6031a370244745de66ad14300bced41686d035b938a415eadaa86837/pulumi_newrelic-${REALVERSION}.tar.gz"
-SOURCEFILE="pulumi_newrelic-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e6/51/9a1e6031a370244745de66ad14300bced41686d035b938a415eadaa86837/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A sidecar "
 
 HOMEPAGE="https://github.com/kafonek/kernel-sidecar"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e0/4b/7db49438ccef684d7d4a8fa56fa663e9418159788d0b39177c9a864ed9f6/kernel_sidecar-${REALVERSION}.tar.gz"
-SOURCEFILE="kernel_sidecar-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e0/4b/7db49438ccef684d7d4a8fa56fa663e9418159788d0b39177c9a864ed9f6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

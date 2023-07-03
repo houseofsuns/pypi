@@ -15,8 +15,8 @@ DESCRIPTION="Documentation generator for flask"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/50/05/ccb71af0f2422fe450804199aee92f0e3b68420815d359b94407e14a567d/flask_selfdoc-${REALVERSION}.tar.gz"
-SOURCEFILE="flask_selfdoc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/50/05/ccb71af0f2422fe450804199aee92f0e3b68420815d359b94407e14a567d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Job scheduler for Docker containers, configured via container label
 
 HOMEPAGE="https://github.com/funkyfuture/deck-chores"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/45/dc/edfe73d84c02b18b0199a8242a1ae77cd31b3285bc495c0536f7243a0f6f/deck_chores-${REALVERSION}.tar.gz"
-SOURCEFILE="deck_chores-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/45/dc/edfe73d84c02b18b0199a8242a1ae77cd31b3285bc495c0536f7243a0f6f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

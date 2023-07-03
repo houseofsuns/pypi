@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/85/d6/b233f2309db764ddbe79c1db98116aca331036ff7c5a644901c8a53e1db0/poetry_template_plugin-${REALVERSION}.tar.gz"
-SOURCEFILE="poetry_template_plugin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/85/d6/b233f2309db764ddbe79c1db98116aca331036ff7c5a644901c8a53e1db0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

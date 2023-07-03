@@ -15,8 +15,8 @@ DESCRIPTION="LibreOffice Developer Tools"
 
 HOMEPAGE="https://github.com/Amourspirit/python_ooo_dev_tools"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/1a/7c/16f113b96125e9fa86069e01e1ff31a7929f453e50a3f48e95336b5eeb57/ooo_dev_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="ooo_dev_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1a/7c/16f113b96125e9fa86069e01e1ff31a7929f453e50a3f48e95336b5eeb57/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="vk_types for vk json answers"
 
 HOMEPAGE="https://github.com/kz159/vk_types"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1f/0a/fc3b9336a320c6c9044adf4df5b5615ad5d20dd49c3f8f8696385182264f/vk_types-${REALVERSION}.tar.gz"
-SOURCEFILE="vk_types-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1f/0a/fc3b9336a320c6c9044adf4df5b5615ad5d20dd49c3f8f8696385182264f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

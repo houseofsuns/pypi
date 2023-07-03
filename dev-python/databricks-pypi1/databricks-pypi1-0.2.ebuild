@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ab/7d/20231e46fbcc69a1dee4337264182e38d03b7951e47188a8034d5d7d7e0b/databricks_pypi1-${REALVERSION}.tar.gz"
-SOURCEFILE="databricks_pypi1-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ab/7d/20231e46fbcc69a1dee4337264182e38d03b7951e47188a8034d5d7d7e0b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

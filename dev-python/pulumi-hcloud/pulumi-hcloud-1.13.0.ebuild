@@ -15,8 +15,8 @@ DESCRIPTION="A Pulumi package for creating and managing hcloud cloud resources."
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ec/39/c1a348cd819be5291399ce852420dfa743464eb8afbdc4ee5674f3cc6d81/pulumi_hcloud-${REALVERSION}.tar.gz"
-SOURCEFILE="pulumi_hcloud-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ec/39/c1a348cd819be5291399ce852420dfa743464eb8afbdc4ee5674f3cc6d81/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

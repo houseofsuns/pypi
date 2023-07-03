@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/d8/59/1b2316d65a909dc8a95503679799e4b96c734e35a828ed05bed31c2bef5a/cli_chat-${REALVERSION}.tar.gz"
-SOURCEFILE="cli_chat-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d8/59/1b2316d65a909dc8a95503679799e4b96c734e35a828ed05bed31c2bef5a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

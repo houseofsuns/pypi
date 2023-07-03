@@ -15,8 +15,8 @@ DESCRIPTION="Unstructured set of the helper functions."
 
 HOMEPAGE="https://github.com/ternaus/iglovikov_helper_functions"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/34/c4/6fe712dfce6ee22472f605ac792f70e276fa51a8dc14cb7fb18c56f85774/iglovikov_helper_functions-${REALVERSION}.tar.gz"
-SOURCEFILE="iglovikov_helper_functions-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/34/c4/6fe712dfce6ee22472f605ac792f70e276fa51a8dc14cb7fb18c56f85774/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

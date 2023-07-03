@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Fingerprint -- Document Fingerprint Generator---------------------------------------------Fingerprint is a signature of the document. In particular, it is a representative subset of hash values from the set of all hash values of a document. For more detail, please consider taking a look at [Winnowing: Local Algorithms for Document Fingerprinting](http://theory.stanford.edu/~aiken/publications/papers/sigmod03.pdf) *(specifically Figure 2)*.Fingerprint Module Installation-------------------------------The recommended way to install the `fingerprint` module is to simply use `pip`:```console$ pip install fingerprint```Fingerprint officially supports Python &gt;= 3.0.How to use fingerprint?-----------------------```pycon&gt;&gt;&gt; import fingerprint&gt;&gt;&gt; fprint = fingerprint.Fingerprint(kgram_len=4, window_len=5, base=10, modulo=1000)&gt;&gt;&gt; fprint.generate(str=&quot;adorunrunrunadorunrun&quot;)&gt;&gt;&gt; fprint.generate(fpath=&quot;../CHANGES.txt&quot;)```The default values for the parameters are```pythonkgram_len = 50window_len = 100base = 101modulo = sys.maxint```</longdescription>
+</pkgmetadata>

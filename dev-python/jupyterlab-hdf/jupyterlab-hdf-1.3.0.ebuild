@@ -15,8 +15,8 @@ DESCRIPTION="A Jupyter Notebook server extension that provides APIs for fetching
 
 HOMEPAGE="https://github.com/telamonian/jupyterlab-hdf5"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/a0/88/e9c7eb0851e03ec98a18399410aa4f18ca1cab5a19eb6b68b1705c50f646/jupyterlab_hdf-${REALVERSION}.tar.gz"
-SOURCEFILE="jupyterlab_hdf-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a0/88/e9c7eb0851e03ec98a18399410aa4f18ca1cab5a19eb6b68b1705c50f646/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

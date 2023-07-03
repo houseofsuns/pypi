@@ -15,8 +15,8 @@ DESCRIPTION="Mkdocs Markdown includer plugin."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d0/f0/42ed4496d1ff557fdb09c7c44561d5445e548c043996f8c8a4aa36d80688/mkdocs_include_markdown_plugin-${REALVERSION}.tar.gz"
-SOURCEFILE="mkdocs_include_markdown_plugin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d0/f0/42ed4496d1ff557fdb09c7c44561d5445e548c043996f8c8a4aa36d80688/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

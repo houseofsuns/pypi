@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d0/94/44162fe01817396d2693580532559817cd935f46ccee10c08339d08b52ff/can_show_you_anything_ai-${REALVERSION}.tar.gz"
-SOURCEFILE="can_show_you_anything_ai-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d0/94/44162fe01817396d2693580532559817cd935f46ccee10c08339d08b52ff/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

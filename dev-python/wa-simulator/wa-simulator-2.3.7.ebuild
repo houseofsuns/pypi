@@ -15,8 +15,8 @@ DESCRIPTION="Simulation tool for prototyping autonomous vehicle related algorith
 
 HOMEPAGE="https://github.com/WisconsinAutonomous/wa_simulator/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/37/a5/e749b3cff73a4dc65441d6362c68ddb95b20fadfa83749f0e5d359c3acf1/wa_simulator-${REALVERSION}.tar.gz"
-SOURCEFILE="wa_simulator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/37/a5/e749b3cff73a4dc65441d6362c68ddb95b20fadfa83749f0e5d359c3acf1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Interface for FlightGear network connections"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4e/2a/5dc66309514aed60ee239e305b5101245c01ca026b5244a2da07a5ea2308/flightgear_python-${REALVERSION}.tar.gz"
-SOURCEFILE="flightgear_python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4e/2a/5dc66309514aed60ee239e305b5101245c01ca026b5244a2da07a5ea2308/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

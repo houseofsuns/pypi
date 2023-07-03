@@ -15,8 +15,8 @@ DESCRIPTION="Thrift server using gunicorn"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/34/b5/1410bf22b2d58b95d473afc6f21303cb665864a0c4139e6c423e263d1894/gunicorn_thrift-${REALVERSION}.tar.gz"
-SOURCEFILE="gunicorn_thrift-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/34/b5/1410bf22b2d58b95d473afc6f21303cb665864a0c4139e6c423e263d1894/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

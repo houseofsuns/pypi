@@ -15,8 +15,8 @@ DESCRIPTION="A TUI for Managing and Searching with Meilisearch"
 
 HOMEPAGE="https://github.com/sanders41/meilisearch-tui"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b1/4b/073602901ba299494508347fb0c73e29ef843cb11cc5f4376af1d9abe05f/meilisearch_tui-${REALVERSION}.tar.gz"
-SOURCEFILE="meilisearch_tui-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b1/4b/073602901ba299494508347fb0c73e29ef843cb11cc5f4376af1d9abe05f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

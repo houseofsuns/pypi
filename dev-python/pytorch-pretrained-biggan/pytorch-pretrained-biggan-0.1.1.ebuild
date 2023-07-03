@@ -15,8 +15,8 @@ DESCRIPTION="PyTorch version of DeepMind's BigGAN model with pre-trained models"
 
 HOMEPAGE="https://github.com/huggingface/pytorch-pretrained-BigGAN"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/85/38/93d2cc3e1642af251518adbe5f5996c7c8e127ed744afdf51e74694a651c/pytorch_pretrained_biggan-${REALVERSION}.tar.gz"
-SOURCEFILE="pytorch_pretrained_biggan-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/85/38/93d2cc3e1642af251518adbe5f5996c7c8e127ed744afdf51e74694a651c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

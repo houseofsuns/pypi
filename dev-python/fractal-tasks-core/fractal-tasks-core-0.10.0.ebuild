@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/fractal-analytics-platform/fractal-tasks-core"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/23/09/838be725142747406b82436ef7df71e1901f438ba66365eff571466c2239/fractal_tasks_core-${REALVERSION}.tar.gz"
-SOURCEFILE="fractal_tasks_core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/23/09/838be725142747406b82436ef7df71e1901f438ba66365eff571466c2239/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

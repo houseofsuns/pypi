@@ -15,8 +15,8 @@ DESCRIPTION="Contains traditional optimization techniques from the field of Mult
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/65/a4/5f3aa472fecacd1054d150e179345d0e1d17d82256d4b6beb21949af8d91/desdeo_mcdm-${REALVERSION}.tar.gz"
-SOURCEFILE="desdeo_mcdm-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/65/a4/5f3aa472fecacd1054d150e179345d0e1d17d82256d4b6beb21949af8d91/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

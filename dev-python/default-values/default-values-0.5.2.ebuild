@@ -15,8 +15,8 @@ DESCRIPTION="Sphinx extension to show default values in documentation."
 
 HOMEPAGE="https://github.com/sphinx-toolbox/default_values"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f1/b7/7cf4ee3a7b1d3c01194dd872b2d3e8aad19b4a16c7caff55f97150cf72cc/default_values-${REALVERSION}.tar.gz"
-SOURCEFILE="default_values-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f1/b7/7cf4ee3a7b1d3c01194dd872b2d3e8aad19b4a16c7caff55f97150cf72cc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

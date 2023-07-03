@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/14/9b/79e6a15ba6b0875361b993874897503ca4928806ce2764a14d78f8ff4a14/defi_common-${REALVERSION}.tar.gz"
-SOURCEFILE="defi_common-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/14/9b/79e6a15ba6b0875361b993874897503ca4928806ce2764a14d78f8ff4a14/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Conda Environment Management, Builds, and Serve"
 
 HOMEPAGE="https://conda.store/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4c/26/1cbbd0a19cb6ae7af7ce486697f22f1a5022a8c5667777ec0f76530b0f07/conda_store_server-${REALVERSION}.tar.gz"
-SOURCEFILE="conda_store_server-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4c/26/1cbbd0a19cb6ae7af7ce486697f22f1a5022a8c5667777ec0f76530b0f07/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

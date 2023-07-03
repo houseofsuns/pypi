@@ -15,8 +15,8 @@ DESCRIPTION="A plugin for nonebot2. Query Bilibili user information（一个None
 
 HOMEPAGE="https://github.com/Ikaros-521/nonebot_plugin_searchBiliInfo"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ac/87/4c21d9c8c6ba23ce799e6f4d3aeecfb690b82ddc68534bb2230246a6c4ae/nonebot_plugin_searchbiliinfo-${REALVERSION}.tar.gz"
-SOURCEFILE="nonebot_plugin_searchbiliinfo-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ac/87/4c21d9c8c6ba23ce799e6f4d3aeecfb690b82ddc68534bb2230246a6c4ae/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

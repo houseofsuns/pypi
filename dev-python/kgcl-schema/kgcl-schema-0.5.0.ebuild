@@ -15,8 +15,8 @@ DESCRIPTION="Schema for the KGCL project."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3a/a4/9d68bf8b5ccea9fffe93577321819801be32877b3dfe62bdd8af6e806a63/kgcl_schema-${REALVERSION}.tar.gz"
-SOURCEFILE="kgcl_schema-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3a/a4/9d68bf8b5ccea9fffe93577321819801be32877b3dfe62bdd8af6e806a63/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

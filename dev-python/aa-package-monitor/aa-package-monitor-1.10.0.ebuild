@@ -15,8 +15,8 @@ DESCRIPTION="An app that helps keep track of installed packages and outstanding 
 
 HOMEPAGE="https://gitlab.com/ErikKalkoken/aa-package-monitor"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/df/65/099cece7bb5c03bf44a913a5b775cffe2347a546cbd5baa37203f715d0a7/aa_package_monitor-${REALVERSION}.tar.gz"
-SOURCEFILE="aa_package_monitor-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/df/65/099cece7bb5c03bf44a913a5b775cffe2347a546cbd5baa37203f715d0a7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

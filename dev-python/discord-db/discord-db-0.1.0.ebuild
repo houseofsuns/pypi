@@ -15,8 +15,8 @@ DESCRIPTION="Helpfull db writen on sqlite3, already has channel vars, global use
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fd/e3/67d0b18a06fa55d7bb2d2ee4345638e5450eab43a67bedf732a3a4bc3b87/discord_db-${REALVERSION}.tar.gz"
-SOURCEFILE="discord_db-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fd/e3/67d0b18a06fa55d7bb2d2ee4345638e5450eab43a67bedf732a3a4bc3b87/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

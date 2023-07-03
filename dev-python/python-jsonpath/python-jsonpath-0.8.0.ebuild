@@ -15,8 +15,8 @@ DESCRIPTION="Another JSONPath implementation for Python."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d5/23/cf94d8b9ef4519eb311ce1a92886bf4d570ab4e63c0fd60f21861207ad48/python_jsonpath-${REALVERSION}.tar.gz"
-SOURCEFILE="python_jsonpath-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d5/23/cf94d8b9ef4519eb311ce1a92886bf4d570ab4e63c0fd60f21861207ad48/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="REST API and WebSocket asyncio wrapper with grpc powered multiplexe
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2b/4e/70cb2043f6c528ae8665c148c5143308f2f3c23c1f5eaee2d031c782e4e8/exchanges_wrapper-${REALVERSION}.tar.gz"
-SOURCEFILE="exchanges_wrapper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2b/4e/70cb2043f6c528ae8665c148c5143308f2f3c23c1f5eaee2d031c782e4e8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

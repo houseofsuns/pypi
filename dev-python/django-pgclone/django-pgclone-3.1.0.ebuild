@@ -15,8 +15,8 @@ DESCRIPTION="Dump and restore Postgres databases with Django."
 
 HOMEPAGE="https://github.com/Opus10/django-pgclone"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/4f/be/e77633126316d3ddd73338723530c31c7f3666e0af88a2497155307b8d75/django_pgclone-${REALVERSION}.tar.gz"
-SOURCEFILE="django_pgclone-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4f/be/e77633126316d3ddd73338723530c31c7f3666e0af88a2497155307b8d75/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

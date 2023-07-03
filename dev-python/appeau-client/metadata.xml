@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># DescriptionUn client Python pour l'API appeau, généré à partir du fichier de description suivant la spec OpenAPI 3.0.Il nécessite une version de python &gt;= 3.8, pour le typage des dictionnaires.# Build &amp; InstallPour générer le module, suivre ce lien: https://docs.python.org/fr/3.8/distutils/introduction.html#distutils-simple-exampleEn synthèse:```shellpython setup.py sdist # à la racine, voir https://docs.python.org/fr/3/distutils/sourcedist.html pour les formats d'archive possible```puis, par défaut dans /dist, et après extraction de l'archive, à la racine:```shellpython setup.py install```# Exemple```pythonimport sample.login_check_postimport sample.api_parcelles_get_collectionresponse = sample.login_check_post.login_check_post(host = 'http://appeau.api.vignevin-epicure.com', body_parameters = {&quot;username&quot;: 'vitisexplorer',&quot;password&quot;: 'Ajfkmdkp34'})token = response.json()print(token['token'])parcelles = sample.api_parcelles_get_collection.api_parcelles_get_collection('http://appeau.api.vignevin-epicure.com', headers = {&quot;Authorization&quot;: &quot;Bearer &quot; + token['token']})print(parcelles.json())```</longdescription>
+</pkgmetadata>

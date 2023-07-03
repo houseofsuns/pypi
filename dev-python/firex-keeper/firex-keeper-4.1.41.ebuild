@@ -15,8 +15,8 @@ DESCRIPTION="FireX event processor for creating an sqlite DB."
 
 HOMEPAGE="https://github.com/FireXStuff/firex-keeper"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/64/25/f538c0cd8aec7504a5c18e55dacb746a33ab6f40ec647f09b6a2006d6471/firex_keeper-${REALVERSION}.tar.gz"
-SOURCEFILE="firex_keeper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/64/25/f538c0cd8aec7504a5c18e55dacb746a33ab6f40ec647f09b6a2006d6471/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

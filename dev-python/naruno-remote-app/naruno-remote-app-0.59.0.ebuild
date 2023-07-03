@@ -15,8 +15,8 @@ DESCRIPTION="This is a tool for apps on Naruno"
 
 HOMEPAGE="https://docs.naruno.org/"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/be/ab/e1d84c97b1ec26582477c7904b382eaf96cf308db1ff2037605fb1673558/naruno_remote_app-${REALVERSION}.tar.gz"
-SOURCEFILE="naruno_remote_app-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/be/ab/e1d84c97b1ec26582477c7904b382eaf96cf308db1ff2037605fb1673558/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A pluggable framework for adding two-factor authentication to Djang
 
 HOMEPAGE="https://github.com/django-otp/django-otp"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8d/97/705e766e4e1c4bc1bd1ef34732d57451eafb7f5223d968c28719fef3d66c/django_otp-${REALVERSION}.tar.gz"
-SOURCEFILE="django_otp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8d/97/705e766e4e1c4bc1bd1ef34732d57451eafb7f5223d968c28719fef3d66c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

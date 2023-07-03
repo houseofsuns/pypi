@@ -15,8 +15,8 @@ DESCRIPTION="Map file parser library focusing decompilation projects"
 
 HOMEPAGE="https://github.com/Decompollaborate/mapfile_parser"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/63/37/3dced45e6428ac0310205dfa134665c83f88bb68f96bb0501ad8b4634726/mapfile_parser-${REALVERSION}.tar.gz"
-SOURCEFILE="mapfile_parser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/63/37/3dced45e6428ac0310205dfa134665c83f88bb68f96bb0501ad8b4634726/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

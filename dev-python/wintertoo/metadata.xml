@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># wintertoo[![PyPI version](https://badge.fury.io/py/wintertoo.svg)](https://badge.fury.io/py/wintertoo)[![CI](https://github.com/winter-telescope/wintertoo/actions/workflows/continuous_integration.yml/badge.svg)](https://github.com/winter-telescope/wintertoo/actions/workflows/continuous_integration.yml) [![Coverage Status](https://coveralls.io/repos/github/winter-telescope/wintertoo/badge.svg?branch=main)](https://coveralls.io/github/winter-telescope/wintertoo?branch=main) General package for Target-of-Opportunity (ToO) observations with the [WINTER observatory](https://github.com/winter-telescope). Current functionality includes:* Converting RA/DEC positions to fields* Building ToO schedules* Verifying ToO schedules## Installation### Install from pypi```bashpip install wintertoo```### Install from source```bashgit clone git@github.com:winter-telescope/wintertoo.gitcd wintertoopip install --editable &quot;.[dev]&quot;pre-commit install```</longdescription>
+</pkgmetadata>

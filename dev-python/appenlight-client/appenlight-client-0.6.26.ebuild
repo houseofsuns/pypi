@@ -15,8 +15,8 @@ DESCRIPTION="Client for AppEnlight reporting - WSGI applications and django moni
 
 HOMEPAGE=""
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/2e/56/418fc10379b96e795ee39a15e69a730c222818af04c3821fa354eaa859ec/appenlight_client-${REALVERSION}.tar.gz"
-SOURCEFILE="appenlight_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2e/56/418fc10379b96e795ee39a15e69a730c222818af04c3821fa354eaa859ec/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

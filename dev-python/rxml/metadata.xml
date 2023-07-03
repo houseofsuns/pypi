@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># rxml## What is rxml?`rxml` is a simple python library to read xml files up to 2 times faster than python's `xml(ElementTree)` library.## InstallationTo install `rxml` you can use `pip`:```bashpip install rxml```Simply as that!## Example usageTo a given xml with `test.xml` as name:```xml&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;note example_attr=&quot;example value&quot;&gt;    &lt;to&gt;        &lt;name&gt;Example Name&lt;/name&gt;    &lt;/to&gt;    &lt;from&gt;        &lt;name&gt;Example Name&lt;/name&gt;    &lt;/from&gt;    &lt;heading&gt;An Example Heading&lt;/heading&gt;    &lt;body&gt;An Example Body!&lt;/body&gt;&lt;/note&gt;```We write the following python code:```pythonfrom rxml import read_fileroot_file = read_file(&quot;test.xml&quot;, &quot;note&quot;)```where `&quot;test.xml&quot;` is the `file_name` and `&quot;note&quot;` is the `root_tag`.After that we can simply iter through the children with:```pythonfor node in root_file.children:    # do something whith the node here```You can also write it to a file or string(refer to the `.pyi` file for the args).```pythonfrom rxml import Node, write_fileexample_node = Node(    name=&quot;hello_world&quot;,     attrs={&quot;example_attr&quot;: &quot;example&quot;},    text=&quot;Hello World!&quot;)write_file(example_node, &quot;test_ex.xml&quot;)```## Node attributesThis is how the `Node` looks like:```pythonclass Node:    name: str    attrs: dict[str, str]    children: list[Node]    text: str```</longdescription>
+</pkgmetadata>

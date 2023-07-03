@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0c/ec/0773b3e3c4e9f030399e65ce67076dd4cb559ecde187149b82724d05276d/extreme_parser-${REALVERSION}.tar.gz"
-SOURCEFILE="extreme_parser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0c/ec/0773b3e3c4e9f030399e65ce67076dd4cb559ecde187149b82724d05276d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

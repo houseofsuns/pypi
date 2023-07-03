@@ -15,8 +15,8 @@ DESCRIPTION="ESPnet Model Zoo"
 
 HOMEPAGE="http://github.com/espnet/espnet_model_zoo"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d8/88/3b49dca3f981380746ea5c6e766360aac42b28466c9fc9a29096669d9e45/espnet_model_zoo-${REALVERSION}.tar.gz"
-SOURCEFILE="espnet_model_zoo-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d8/88/3b49dca3f981380746ea5c6e766360aac42b28466c9fc9a29096669d9e45/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

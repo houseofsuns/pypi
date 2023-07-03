@@ -15,8 +15,8 @@ DESCRIPTION="Python implementation of the planetmint transactions spec"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cf/e4/69691bce9a45b37cf115bc185f07a458498158551e544320990f7f0b2670/planetmint_transactions-${REALVERSION}.tar.gz"
-SOURCEFILE="planetmint_transactions-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cf/e4/69691bce9a45b37cf115bc185f07a458498158551e544320990f7f0b2670/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

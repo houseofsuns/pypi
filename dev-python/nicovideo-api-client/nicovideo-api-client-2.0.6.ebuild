@@ -15,8 +15,8 @@ DESCRIPTION="ニコニコ動画 スナップショット検索APIv2の Python �
 
 HOMEPAGE="https://github.com/Javakky/NicoApiClient"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bf/cc/63750806acaf3f9bf0826ec757c5b1a749bfab40dc6c51dff2b9db886039/nicovideo_api_client-${REALVERSION}.tar.gz"
-SOURCEFILE="nicovideo_api_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bf/cc/63750806acaf3f9bf0826ec757c5b1a749bfab40dc6c51dff2b9db886039/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

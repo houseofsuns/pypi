@@ -15,8 +15,8 @@ DESCRIPTION="Core utilities for Virtool."
 
 HOMEPAGE="https://github.com/virtool/virtool-core"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ac/bb/4af653568cdcc683e129a5d4002967760608dcc92aa55be04cae401134ee/virtool_core-${REALVERSION}.tar.gz"
-SOURCEFILE="virtool_core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ac/bb/4af653568cdcc683e129a5d4002967760608dcc92aa55be04cae401134ee/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

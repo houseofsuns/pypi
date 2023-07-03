@@ -15,8 +15,8 @@ DESCRIPTION="Simple translatable Django fields"
 
 HOMEPAGE=""
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/3f/f5/581736610e54587d37e50b36f65b01a674cfdf12624671affd63f5c13074/django_garnett-${REALVERSION}.tar.gz"
-SOURCEFILE="django_garnett-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3f/f5/581736610e54587d37e50b36f65b01a674cfdf12624671affd63f5c13074/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

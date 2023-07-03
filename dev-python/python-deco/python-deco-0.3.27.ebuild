@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://py-decorators.readthedocs.io/en/latest/index.html"
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/8b/ca/8298defe3678147cd9bfeaa4e3f22b4611e2584aba9445903d78952405bd/python_deco-${REALVERSION}.tar.gz"
-SOURCEFILE="python_deco-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8b/ca/8298defe3678147cd9bfeaa4e3f22b4611e2584aba9445903d78952405bd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

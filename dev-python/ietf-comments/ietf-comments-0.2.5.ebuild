@@ -15,8 +15,8 @@ DESCRIPTION="Automating IETF comment handling"
 
 HOMEPAGE="https://github.com/mnot/ietf-comments"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5d/75/81c84496a760ae1fe1a75e970d82d83fa3b12eb54425dc1ed99dc54ae0ca/ietf_comments-${REALVERSION}.tar.gz"
-SOURCEFILE="ietf_comments-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5d/75/81c84496a760ae1fe1a75e970d82d83fa3b12eb54425dc1ed99dc54ae0ca/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

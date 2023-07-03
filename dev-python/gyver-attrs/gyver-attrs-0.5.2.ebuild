@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/07/c6/3139a205d17a08ab48d9cf56836eb75aa8f28e8e5a142c4ab6b3e7df1d04/gyver_attrs-${REALVERSION}.tar.gz"
-SOURCEFILE="gyver_attrs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/07/c6/3139a205d17a08ab48d9cf56836eb75aa8f28e8e5a142c4ab6b3e7df1d04/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

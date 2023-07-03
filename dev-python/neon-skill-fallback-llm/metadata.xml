@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># &lt;img src='./logo.svg' card_color=&quot;#FF8600&quot; width=&quot;50&quot; style=&quot;vertical-align:bottom&quot; style=&quot;vertical-align:bottom&quot;&gt;LLM Fallback    ## SummaryGet an LLM response from the Neon Diana backend.## DescriptionConverse with an LLM and enable LLM responses when Neon doesn't have a betterresponse.To send a single query to an LLM, you can ask Neon to &quot;ask Chat GPT &lt;something&gt;&quot;.To start conversing with an LLM, ask to &quot;talk to Chat GPT&quot; and have all of your inputsent to an LLM until you say goodbye or stop talking for a while.Enable fallback behavior by asking to &quot;enable LLM fallback skill&quot; or disable itby asking to &quot;disable LLM fallback&quot;.To have a copy of LLM interactions sent via email, ask Neon to &quot;email me a copy of our conversation&quot;.## Examples * &quot;Explain quantum computing in simple terms&quot;* &quot;Ask chat GPT what an LLM is&quot;* &quot;Talk to chat GPT&quot;* &quot;Enable LLM fallback skill&quot;* &quot;Disable LLM fallback skill&quot;* &quot;Email me a copy of our conversation&quot;</longdescription>
+</pkgmetadata>

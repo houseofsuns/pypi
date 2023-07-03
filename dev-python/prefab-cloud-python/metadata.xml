@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># prefab-cloud-pythonPython client for prefab.cloud, providing Config, FeatureFlags as a Service**Note: This library is under active development and not quite ready for production usage**[Sign up to be notified when this library releases](https://forms.gle/2qsjMFvjGnkTnA9T8)## Example usage```pythonfrom prefab_cloud_python import Client, Optionsoptions = Options(    prefab_api_key=&quot;your-prefab-api-key&quot;)context = {  &quot;user&quot;: {    &quot;team_id&quot;: 432,    &quot;id&quot;: 123,    &quot;subscription_level&quot;: 'pro',    &quot;email&quot;: &quot;alice@example.com&quot;  }}client = Client(options)result = client.enabled(&quot;my-first-feature-flag&quot;, context=context)print(&quot;my-first-feature-flag is:&quot;, result)```See full documentation https://docs.prefab.cloud/docs/python-sdk/python</longdescription>
+</pkgmetadata>

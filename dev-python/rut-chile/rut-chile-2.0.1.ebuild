@@ -15,8 +15,8 @@ DESCRIPTION="Package for validating Chilean RUT"
 
 HOMEPAGE="https://github.com/gevalenz/rut-chile"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a2/71/94ea4e208dcdba5f0c5b0c02b4af48801c75ba241cf8aea27c22d9c74f2c/rut_chile-${REALVERSION}.tar.gz"
-SOURCEFILE="rut_chile-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a2/71/94ea4e208dcdba5f0c5b0c02b4af48801c75ba241cf8aea27c22d9c74f2c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

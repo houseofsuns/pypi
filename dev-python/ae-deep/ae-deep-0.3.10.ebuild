@@ -15,8 +15,8 @@ DESCRIPTION="ae namespace module portion deep: easy handling of deeply nested da
 
 HOMEPAGE="https://gitlab.com/ae-group/ae_deep"
 LICENSE="OSI Approved :: GNU General Public License v3 or later GPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/71/80/920549e16ba1d37de74609c46b3b12547ca6e47eae6377f15c5021f36992/ae_deep-${REALVERSION}.tar.gz"
-SOURCEFILE="ae_deep-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/71/80/920549e16ba1d37de74609c46b3b12547ca6e47eae6377f15c5021f36992/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

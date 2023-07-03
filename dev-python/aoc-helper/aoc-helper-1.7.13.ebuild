@@ -15,8 +15,8 @@ DESCRIPTION="A helper package for Advent of Code"
 
 HOMEPAGE="https://github.com/Starwort/aoc_helper"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ad/6a/e873549abf043ed5703cf44391bb0156e9d32e015ffcd03a9f854471a7f4/aoc_helper-${REALVERSION}.tar.gz"
-SOURCEFILE="aoc_helper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ad/6a/e873549abf043ed5703cf44391bb0156e9d32e015ffcd03a9f854471a7f4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

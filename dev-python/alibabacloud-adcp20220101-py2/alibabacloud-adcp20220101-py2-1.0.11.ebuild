@@ -15,8 +15,8 @@ DESCRIPTION="Alibaba Cloud adcp (20220101) SDK Library for Python2"
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python2-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c8/50/170929c84671cacd464f1b624469fb393dd00ec2ccfb375814b0159c4f77/alibabacloud_adcp20220101_py2-${REALVERSION}.tar.gz"
-SOURCEFILE="alibabacloud_adcp20220101_py2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c8/50/170929c84671cacd464f1b624469fb393dd00ec2ccfb375814b0159c4f77/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="OpenTelemetry urllib3 instrumentation"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-urllib3"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/64/b5/d089147cbe567c7a18f88470779fac7899a7a83ec70ae99806559d574a1b/opentelemetry_instrumentation_urllib3-${REALVERSION}.tar.gz"
-SOURCEFILE="opentelemetry_instrumentation_urllib3-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/64/b5/d089147cbe567c7a18f88470779fac7899a7a83ec70ae99806559d574a1b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

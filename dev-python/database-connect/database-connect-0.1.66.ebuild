@@ -15,8 +15,8 @@ DESCRIPTION="A single Package for all the database connectivities  ( E.g : MySQL
 
 HOMEPAGE="https://github.com/hrisikesh-neogi/Database-Connect"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ce/28/726546bfa5254c5f38a341e4164539ca5bce8da823d813b876a7ce839972/database_connect-${REALVERSION}.tar.gz"
-SOURCEFILE="database_connect-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ce/28/726546bfa5254c5f38a341e4164539ca5bce8da823d813b876a7ce839972/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

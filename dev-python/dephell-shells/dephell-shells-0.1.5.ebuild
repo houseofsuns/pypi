@@ -15,8 +15,8 @@ DESCRIPTION="activate virtual environment for current shell"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b1/6e/ca45ab70f782c71293584398a50f3d73da873f1fd5fee2a0faddea2a2ed9/dephell_shells-${REALVERSION}.tar.gz"
-SOURCEFILE="dephell_shells-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b1/6e/ca45ab70f782c71293584398a50f3d73da873f1fd5fee2a0faddea2a2ed9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

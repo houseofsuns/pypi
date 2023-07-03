@@ -15,8 +15,8 @@ DESCRIPTION="Image segmentation models training of popular architectures."
 
 HOMEPAGE="https://github.com/phborba/pytorch_segmentation_models_trainer"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/23/77/6763d17050316adab53302082893346db749f2b350e85357562331c795ec/pytorch_segmentation_models_trainer-${REALVERSION}.tar.gz"
-SOURCEFILE="pytorch_segmentation_models_trainer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/23/77/6763d17050316adab53302082893346db749f2b350e85357562331c795ec/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

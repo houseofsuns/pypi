@@ -15,8 +15,8 @@ DESCRIPTION="PyTorch implementation of the neural network introduced by Szegedy 
 
 HOMEPAGE="https://github.com/mhconradt/InceptionResNetV2"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bf/ac/6abd262f1479b058f392fdd32acf75b3fe5320f6b91d526934ddcc050a21/torch_inception_resnet_v2-${REALVERSION}.tar.gz"
-SOURCEFILE="torch_inception_resnet_v2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bf/ac/6abd262f1479b058f392fdd32acf75b3fe5320f6b91d526934ddcc050a21/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

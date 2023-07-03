@@ -15,8 +15,8 @@ DESCRIPTION="OWL mappings for Linked Open Data Modeling Language"
 
 HOMEPAGE="https://github.com/linkml/linkml-owl"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/29/db/fe343b656463c92123e7c06cbaa28e73493aeae85b132050cab7d760e51b/linkml_owl-${REALVERSION}.tar.gz"
-SOURCEFILE="linkml_owl-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/29/db/fe343b656463c92123e7c06cbaa28e73493aeae85b132050cab7d760e51b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

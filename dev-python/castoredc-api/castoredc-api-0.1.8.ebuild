@@ -15,8 +15,8 @@ DESCRIPTION="Python wrapper for the Castor EDC API"
 
 HOMEPAGE="https://github.com/reiniervlinschoten/castoredc_api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f6/86/af6e07dd99f6db943e3178bb24c29849d07cf1f5aaaaf4b405efc0499480/castoredc_api-${REALVERSION}.tar.gz"
-SOURCEFILE="castoredc_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f6/86/af6e07dd99f6db943e3178bb24c29849d07cf1f5aaaaf4b405efc0499480/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="API wrapper для быстрого получения данных
 
 HOMEPAGE="https://github.com/leshchenko1979/fast_bitrix24"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1c/f1/62322143189c60ca416cf6a8292260b1db12fc29fa43382e21d94a0c6424/fast_bitrix24-${REALVERSION}.tar.gz"
-SOURCEFILE="fast_bitrix24-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1c/f1/62322143189c60ca416cf6a8292260b1db12fc29fa43382e21d94a0c6424/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

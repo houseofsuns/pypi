@@ -15,8 +15,8 @@ DESCRIPTION="Command-line timer for tmux"
 
 HOMEPAGE="https://github.com/chrahunt/python-tmux-timer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/04/07/61928428ad45ad99f52e31c62f56faac942029c7f30cfd83cdb669e26da1/tmux_timer-${REALVERSION}.tar.gz"
-SOURCEFILE="tmux_timer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/04/07/61928428ad45ad99f52e31c62f56faac942029c7f30cfd83cdb669e26da1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

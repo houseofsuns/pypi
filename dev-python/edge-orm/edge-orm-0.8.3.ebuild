@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1f/b1/6172f38056cdb72c06ade747dde4be4d235da92b8975398929080ced1be6/edge_orm-${REALVERSION}.tar.gz"
-SOURCEFILE="edge_orm-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1f/b1/6172f38056cdb72c06ade747dde4be4d235da92b8975398929080ced1be6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

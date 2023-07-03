@@ -15,8 +15,8 @@ DESCRIPTION="Q-CTRL QUA Adapter"
 
 HOMEPAGE="https://q-ctrl.com"
 LICENSE="https://q-ctrl.com/terms"
-SRC_URI="https://files.pythonhosted.org/packages/5d/71/33335fd669cc84213003972a29ccdc4bcf905a3c6edf5a109a0f9ace0815/qctrl_qua-${REALVERSION}.tar.gz"
-SOURCEFILE="qctrl_qua-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5d/71/33335fd669cc84213003972a29ccdc4bcf905a3c6edf5a109a0f9ace0815/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

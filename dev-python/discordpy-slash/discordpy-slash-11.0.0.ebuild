@@ -15,8 +15,8 @@ DESCRIPTION="A package that you can use to easily implement slash commands and b
 
 HOMEPAGE="https://github.com/TricolorHen061/discordpy-slash"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8d/b4/177b48ee34c05b47d0ad60ba01a644ec50b98b5617742608d0d8a82bec47/discordpy_slash-${REALVERSION}.tar.gz"
-SOURCEFILE="discordpy_slash-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8d/b4/177b48ee34c05b47d0ad60ba01a644ec50b98b5617742608d0d8a82bec47/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

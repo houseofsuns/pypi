@@ -15,8 +15,8 @@ DESCRIPTION="Markdown tables parsing to pyspark / pandas DataFrames"
 
 HOMEPAGE="https://github.com/exacaster/markdown_frames"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b5/1c/e1bf523d26db16a99d1b3c024834f8f5cdb3c52afb6f381fcc6ae6463c5e/markdown_frames-${REALVERSION}.tar.gz"
-SOURCEFILE="markdown_frames-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b5/1c/e1bf523d26db16a99d1b3c024834f8f5cdb3c52afb6f381fcc6ae6463c5e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

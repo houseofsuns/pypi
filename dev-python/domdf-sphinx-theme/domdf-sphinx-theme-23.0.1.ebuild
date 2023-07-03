@@ -15,8 +15,8 @@ DESCRIPTION="Customised 'sphinx_rtd_theme' used by my Python projects."
 
 HOMEPAGE="https://github.com/domdfcoding/domdf_sphinx_theme"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/37/c7/4fb06369a3bc463c7f34ec9a9c3cf5249d0ae98729027f7b00a4f9d5b0fe/domdf_sphinx_theme-${REALVERSION}.tar.gz"
-SOURCEFILE="domdf_sphinx_theme-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/37/c7/4fb06369a3bc463c7f34ec9a9c3cf5249d0ae98729027f7b00a4f9d5b0fe/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A script to score CSV files via DataRobot's prediction API"
 
 HOMEPAGE="http://www.datarobot.com/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/f7/ad/69e32da9cbb57ea9744e04357f8ee786a747365171a8db53c970e3970c68/datarobot_batch_scoring-${REALVERSION}.tar.gz"
-SOURCEFILE="datarobot_batch_scoring-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f7/ad/69e32da9cbb57ea9744e04357f8ee786a747365171a8db53c970e3970c68/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

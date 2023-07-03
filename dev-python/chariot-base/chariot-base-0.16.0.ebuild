@@ -15,8 +15,8 @@ DESCRIPTION="Chariot base micro-service"
 
 HOMEPAGE="https://gitlab.com/chariot-h2020/chariot_base"
 LICENSE="EPL-1.0"
-SRC_URI="https://files.pythonhosted.org/packages/ca/83/2e7dfdea183d7832a6141cd3e3b98ced51389d37d8a7af481acd3b8fb43b/chariot_base-${REALVERSION}.tar.gz"
-SOURCEFILE="chariot_base-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ca/83/2e7dfdea183d7832a6141cd3e3b98ced51389d37d8a7af481acd3b8fb43b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

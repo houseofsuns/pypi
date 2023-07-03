@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/Jaseci-Labs/jaseci"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2b/f4/36ffcd0d494c11acbf8a930a857a758aebad3bd3875009531ab12dd4229d/jac_speech-${REALVERSION}.tar.gz"
-SOURCEFILE="jac_speech-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2b/f4/36ffcd0d494c11acbf8a930a857a758aebad3bd3875009531ab12dd4229d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

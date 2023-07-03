@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6b/f9/b8036133682283f1614652532389ba6a39e07eb111073e19d3d4af52a4d3/watchmen_storage_s3-${REALVERSION}.tar.gz"
-SOURCEFILE="watchmen_storage_s3-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6b/f9/b8036133682283f1614652532389ba6a39e07eb111073e19d3d4af52a4d3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

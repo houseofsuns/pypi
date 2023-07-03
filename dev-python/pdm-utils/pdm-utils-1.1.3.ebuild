@@ -15,8 +15,8 @@ DESCRIPTION="MySQL phage genomics database management utilities"
 
 HOMEPAGE="https://github.com/SEA-PHAGES/pdm_utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/91/c2/9aaebbc0ef06005bdabb306e6436b057d446a1b427cf910b289a000c88f0/pdm_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="pdm_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/91/c2/9aaebbc0ef06005bdabb306e6436b057d446a1b427cf910b289a000c88f0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

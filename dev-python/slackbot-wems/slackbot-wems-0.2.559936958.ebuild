@@ -15,8 +15,8 @@ DESCRIPTION="Python Code for Tech Em Studios WEMS Class"
 
 HOMEPAGE="https://github.com/wray/wems"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f3/cf/f7592d703c7ced3baf3804a3c6d0b5fbc89984a94970b588f0dfc4690696/slackbot_wems-${REALVERSION}.tar.gz"
-SOURCEFILE="slackbot_wems-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f3/cf/f7592d703c7ced3baf3804a3c6d0b5fbc89984a94970b588f0dfc4690696/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

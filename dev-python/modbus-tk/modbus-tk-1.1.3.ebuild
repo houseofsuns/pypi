@@ -15,8 +15,8 @@ DESCRIPTION="Implementation of modbus protocol in python"
 
 HOMEPAGE="https://github.com/ljean/modbus-tk/"
 LICENSE="LGPL-2.1+"
-SRC_URI="https://files.pythonhosted.org/packages/8d/9f/5963e30dba160dbc646b76c59ca8136709c7fe9002bbaaa3cf1e1bb0404b/modbus_tk-${REALVERSION}.tar.gz"
-SOURCEFILE="modbus_tk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8d/9f/5963e30dba160dbc646b76c59ca8136709c7fe9002bbaaa3cf1e1bb0404b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

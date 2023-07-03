@@ -15,8 +15,8 @@ DESCRIPTION="Fork of peewee-migrate with active support"
 
 HOMEPAGE="https://github.com/spumer/peewee_migrate"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/d8/f2/fb24bcca2148a0f5d1f1c9e61395d1674d503fcb1689007b183528c5ba5d/peewee_migrate2-${REALVERSION}.tar.gz"
-SOURCEFILE="peewee_migrate2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d8/f2/fb24bcca2148a0f5d1f1c9e61395d1674d503fcb1689007b183528c5ba5d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="The common location package for Catalpa's projects"
 
 HOMEPAGE="https://github.com/catalpainternational/simple_locations"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/04/89/91714a2f82d98971df2469bb9a4e02513178b3f8e252656d7ddc16d37894/simple_locations-${REALVERSION}.tar.gz"
-SOURCEFILE="simple_locations-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/04/89/91714a2f82d98971df2469bb9a4e02513178b3f8e252656d7ddc16d37894/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

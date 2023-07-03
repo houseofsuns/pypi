@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># opm-origen### Bulding with docker-composeFirst, create an env variables file by copying `config.env.example` into `config.env`:```bash$&gt; cp config.env.example config.env```If you wish to publish the package in pypi, you will have to obtain a pypi token and set the environment variable`PYPI_API_TOKEN` in `config.env`.After that, you can simply use docker-compose to run commands:```bashdocker-compose run build ```### Building the package without docker/docker-compose## Prerequisites- Install make, cmake and g++- Build/Install Opm-Common- Build/Install Opm-Grid## Install opm packages```bashsudo apt-add-repository ppa:opm/ppasudo apt-get updatesudo apt-get install libopm-common-devsudo apt-get install libopm-grid-dev```## How to build```bashgit clone git@github.com:OriGenAI/opm-origen.gitcd opm-origenmkdir buildcd buildcmake ..make```## How to use- Copy the binary under `build/lib` folder- Import the binary from your Python code- Call the library functions### Examples```pythonfrom origen.ai.ecl import read_transmissibilitytrans = read_transmissibility(&quot;path-to-data.DATA&quot;)print(trans)```### DevelopYou can use the main.cpp file to debug. Just call your function from there and compile the code. You will find the binary in `build/bin/main`</longdescription>
+</pkgmetadata>

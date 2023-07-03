@@ -15,8 +15,8 @@ DESCRIPTION="python-keycloak is a Python package providing access to the Keycloa
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7a/2d/3ede7c4074941b7057352d566c5d74d57abe69d467c610c71c2dfd76d30b/python_keycloak-${REALVERSION}.tar.gz"
-SOURCEFILE="python_keycloak-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7a/2d/3ede7c4074941b7057352d566c5d74d57abe69d467c610c71c2dfd76d30b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Classes of OMFIT (One Modeling Framework For Integrated Tasks)"
 
 HOMEPAGE="https://omfit.io"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/be/d6/d2f16c7fd2e581efce5c1680eea917553b98ce570a86da1b5910df5ea7cf/omfit_classes-${REALVERSION}.tar.gz"
-SOURCEFILE="omfit_classes-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/be/d6/d2f16c7fd2e581efce5c1680eea917553b98ce570a86da1b5910df5ea7cf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

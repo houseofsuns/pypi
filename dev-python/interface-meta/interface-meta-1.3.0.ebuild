@@ -15,8 +15,8 @@ DESCRIPTION="\`interface_meta\` provides a convenient way to expose an extensibl
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4d/75/10526292b332f3479c246750a96f6ec11a28e297839a9c25583b2aadc119/interface_meta-${REALVERSION}.tar.gz"
-SOURCEFILE="interface_meta-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4d/75/10526292b332f3479c246750a96f6ec11a28e297839a9c25583b2aadc119/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

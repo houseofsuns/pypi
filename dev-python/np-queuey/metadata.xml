@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># np_queueyTools for submitting and processing jobs through a message queue for Mindscope Neuropixels workflows.## todo - setup behavior session upload task    - path to modules in - make __main__ cli and executable</longdescription>
+</pkgmetadata>

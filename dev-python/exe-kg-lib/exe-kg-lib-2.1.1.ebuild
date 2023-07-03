@@ -15,8 +15,8 @@ DESCRIPTION="Library for executable ML pipelines represented by KGs."
 
 HOMEPAGE="https://boschresearch.github.io/ExeKGLib"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/df/4c/aaa3c57d4a4243f3282e76ca13940824cded764d839237f114abf1c6d612/exe_kg_lib-${REALVERSION}.tar.gz"
-SOURCEFILE="exe_kg_lib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/df/4c/aaa3c57d4a4243f3282e76ca13940824cded764d839237f114abf1c6d612/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

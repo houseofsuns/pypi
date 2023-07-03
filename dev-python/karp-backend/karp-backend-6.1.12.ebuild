@@ -15,8 +15,8 @@ DESCRIPTION="Karp backend"
 
 HOMEPAGE="https://spraakbanken.gu.se"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/74/47/77d45f3f80019f1ed72327044bb023819dd2d54de325decc43683c21c7bd/karp_backend-${REALVERSION}.tar.gz"
-SOURCEFILE="karp_backend-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/74/47/77d45f3f80019f1ed72327044bb023819dd2d54de325decc43683c21c7bd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

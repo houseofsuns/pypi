@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://gitlab.cern.ch/chart-magnum/magnum-api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/07/2a/5a35b9131725725f3239f33b09f7278568d01f892fc6c77ace93bb41bce9/magnum_api-${REALVERSION}.tar.gz"
-SOURCEFILE="magnum_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/07/2a/5a35b9131725725f3239f33b09f7278568d01f892fc6c77ace93bb41bce9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

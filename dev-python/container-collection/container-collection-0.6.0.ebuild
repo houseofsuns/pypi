@@ -15,8 +15,8 @@ DESCRIPTION="Collection of tasks for running containerized models."
 
 HOMEPAGE=""
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/ce/61/d02f4816aeb7d6ccb9f7b78c4534b57e1ba545d55dcf12299b076970182e/container_collection-${REALVERSION}.tar.gz"
-SOURCEFILE="container_collection-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ce/61/d02f4816aeb7d6ccb9f7b78c4534b57e1ba545d55dcf12299b076970182e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Conditional coverage based on any rules you define!"
 
 HOMEPAGE="https://github.com/wemake-services/coverage-conditional-plugin"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2e/6e/82f411d325a38cc24289060ca5f80d990ee8d026f4de9782006acf061f9b/coverage_conditional_plugin-${REALVERSION}.tar.gz"
-SOURCEFILE="coverage_conditional_plugin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2e/6e/82f411d325a38cc24289060ca5f80d990ee8d026f4de9782006acf061f9b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

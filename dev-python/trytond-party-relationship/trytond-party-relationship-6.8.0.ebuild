@@ -15,8 +15,8 @@ DESCRIPTION="Party Relationship module for Tryton"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/06/26/76e4011bcc0d452191f1bb00d18ab9c7eeb1a45b545d41414be20016bde8/trytond_party_relationship-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_party_relationship-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/06/26/76e4011bcc0d452191f1bb00d18ab9c7eeb1a45b545d41414be20016bde8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

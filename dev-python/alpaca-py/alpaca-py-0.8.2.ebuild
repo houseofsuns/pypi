@@ -15,8 +15,8 @@ DESCRIPTION="The Official Python SDK for Alpaca APIs"
 
 HOMEPAGE="https://github.com/alpacahq/alpaca-py"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/95/9a/c866d3091981080489f14171b69712fa22c65dcb09c2888eca936fa89cd8/alpaca_py-${REALVERSION}.tar.gz"
-SOURCEFILE="alpaca_py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/95/9a/c866d3091981080489f14171b69712fa22c65dcb09c2888eca936fa89cd8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

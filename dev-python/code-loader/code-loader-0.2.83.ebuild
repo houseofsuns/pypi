@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/tensorleap/code-loader"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c2/43/83c555642b63081f9232555b1e536bc6c2707ef1fc97f1d7f62c7ab1bafe/code_loader-${REALVERSION}.tar.gz"
-SOURCEFILE="code_loader-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c2/43/83c555642b63081f9232555b1e536bc6c2707ef1fc97f1d7f62c7ab1bafe/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

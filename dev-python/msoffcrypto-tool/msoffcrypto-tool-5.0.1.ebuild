@@ -15,8 +15,8 @@ DESCRIPTION="Python tool and library for decrypting MS Office files with passwor
 
 HOMEPAGE="https://github.com/nolze/msoffcrypto-tool"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/af/e3/e47fa6c5418144b6396e36d9059461ed2e8a8e2f1e1380debdca43084c6f/msoffcrypto_tool-${REALVERSION}.tar.gz"
-SOURCEFILE="msoffcrypto_tool-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/af/e3/e47fa6c5418144b6396e36d9059461ed2e8a8e2f1e1380debdca43084c6f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

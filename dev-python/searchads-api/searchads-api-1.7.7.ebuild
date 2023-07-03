@@ -15,8 +15,8 @@ DESCRIPTION="Apple Searchads API non-official python library"
 
 HOMEPAGE="https://github.com/phiture/searchads_api"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a0/bf/e028841ef23e3cd8504a66a737b785a1da8fa473e939ded6de278a56d4a8/searchads_api-${REALVERSION}.tar.gz"
-SOURCEFILE="searchads_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a0/bf/e028841ef23e3cd8504a66a737b785a1da8fa473e939ded6de278a56d4a8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

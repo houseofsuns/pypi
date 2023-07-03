@@ -15,8 +15,8 @@ DESCRIPTION="Scrapli's plugin for Nornir"
 
 HOMEPAGE="https://github.com/scrapli/nornir_scrapli"
 LICENSE="MIT License  Copyright c 2021 Carl Montanari  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files the Software, to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:  The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.  THE SOFTWARE IS PROVIDED AS IS, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. "
-SRC_URI="https://files.pythonhosted.org/packages/4e/bc/85f23f8da920fc1a142d10af201007ed3bb53c49a26871020d3b9ff6480e/nornir_scrapli-${REALVERSION}.tar.gz"
-SOURCEFILE="nornir_scrapli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4e/bc/85f23f8da920fc1a142d10af201007ed3bb53c49a26871020d3b9ff6480e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

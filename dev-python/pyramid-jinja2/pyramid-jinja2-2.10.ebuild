@@ -15,8 +15,8 @@ DESCRIPTION="Jinja2 template bindings for the Pyramid web framework"
 
 HOMEPAGE="https://github.com/Pylons/pyramid_jinja2"
 LICENSE="BSD-derived Repoze"
-SRC_URI="https://files.pythonhosted.org/packages/d4/4f/cd3601e09d86cf68a08d532249e67c56b8afdfff83bd921acec8cacf285a/pyramid_jinja2-${REALVERSION}.tar.gz"
-SOURCEFILE="pyramid_jinja2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d4/4f/cd3601e09d86cf68a08d532249e67c56b8afdfff83bd921acec8cacf285a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

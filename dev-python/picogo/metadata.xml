@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>A beginner-friendly library for using picogo with the Raspberry Pi Pico.```pythonfrom picogo import Robotrobot = Robot()robot.forward( speed = 30 )```Documentation is available at (https://github.com/sunabove/PicoGo/).</longdescription>
+</pkgmetadata>

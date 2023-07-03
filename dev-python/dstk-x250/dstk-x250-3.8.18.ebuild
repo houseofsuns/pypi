@@ -15,8 +15,8 @@ DESCRIPTION="Package d'utilitaires pour les projets de data science."
 
 HOMEPAGE="https://gitlab.com/Kirire/x250"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e0/db/9b104c3513584cfe945e2433aeea30b68ac52ba14cf8bb538134e724cfff/dstk_x250-${REALVERSION}.tar.gz"
-SOURCEFILE="dstk_x250-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e0/db/9b104c3513584cfe945e2433aeea30b68ac52ba14cf8bb538134e724cfff/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

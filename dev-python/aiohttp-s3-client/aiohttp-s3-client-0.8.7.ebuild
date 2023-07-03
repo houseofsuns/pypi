@@ -15,8 +15,8 @@ DESCRIPTION="The simple module for putting and getting object from Amazon S3 com
 
 HOMEPAGE="https://github.com/aiokitchen/aiohttp-s3-client"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/7a/95/8eb0b9473bc41750b725473422d528651a2765b5b932ccbc69a34a1e7f82/aiohttp_s3_client-${REALVERSION}.tar.gz"
-SOURCEFILE="aiohttp_s3_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7a/95/8eb0b9473bc41750b725473422d528651a2765b5b932ccbc69a34a1e7f82/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

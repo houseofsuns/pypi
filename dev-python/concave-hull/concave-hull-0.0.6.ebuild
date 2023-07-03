@@ -15,8 +15,8 @@ DESCRIPTION="A very fast 2D concave hull algorithm"
 
 HOMEPAGE="https://concave-hull.readthedocs.io"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ff/ce/d4a09ddeb1ac1e53763a739a96446ce81ac1a025dc97678d0f52c47ca894/concave_hull-${REALVERSION}.tar.gz"
-SOURCEFILE="concave_hull-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ff/ce/d4a09ddeb1ac1e53763a739a96446ce81ac1a025dc97678d0f52c47ca894/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

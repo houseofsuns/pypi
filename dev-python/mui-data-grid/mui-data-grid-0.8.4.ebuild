@@ -15,8 +15,8 @@ DESCRIPTION="Unofficial backend utilities for using Material-UI's X-Data-Grid co
 
 HOMEPAGE="https://github.com/kkirsche/mui-data-grid"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/59/02/592ba421f27d54fecf01555882adaa2d650d99db970daedd42e53a63e0db/mui_data_grid-${REALVERSION}.tar.gz"
-SOURCEFILE="mui_data_grid-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/59/02/592ba421f27d54fecf01555882adaa2d650d99db970daedd42e53a63e0db/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

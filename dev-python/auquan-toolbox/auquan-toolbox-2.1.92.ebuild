@@ -15,8 +15,8 @@ DESCRIPTION="Auquan Toolbox for developing strategies and backtesting"
 
 HOMEPAGE="https://auquan.com"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d7/30/65e90e69beaeb2a266759ce8d90378a8edcc86f81c0ba451ee78ad33cd87/auquan_toolbox-${REALVERSION}.tar.gz"
-SOURCEFILE="auquan_toolbox-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d7/30/65e90e69beaeb2a266759ce8d90378a8edcc86f81c0ba451ee78ad33cd87/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="PyTest plugin for TestRail"
 
 HOMEPAGE="https://git.cashwagon.com/billing/pytest-testrail-plugin"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/d4/e4/a4c9fbbfe9247c6a8cfd6d0858bd302c2b737ec72270d84ec0b85fb8b286/pytest_testrail_plugin-${REALVERSION}.tar.gz"
-SOURCEFILE="pytest_testrail_plugin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d4/e4/a4c9fbbfe9247c6a8cfd6d0858bd302c2b737ec72270d84ec0b85fb8b286/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

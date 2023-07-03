@@ -15,8 +15,8 @@ DESCRIPTION="Collection of generic-purpose and stand-alone functions"
 
 HOMEPAGE="https://github.com/Lyncs-API/lyncs.utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1c/cb/157e9685a5d3f204569cfba7041c98917af2675150d5f90395f63aeef103/lyncs_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="lyncs_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1c/cb/157e9685a5d3f204569cfba7041c98917af2675150d5f90395f63aeef103/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

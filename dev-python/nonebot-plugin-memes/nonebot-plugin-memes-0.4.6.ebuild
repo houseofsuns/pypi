@@ -15,8 +15,8 @@ DESCRIPTION="Nonebot2 plugin for making memes"
 
 HOMEPAGE="https://github.com/noneplugin/nonebot-plugin-memes"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/60/5f/d6a49b88de692b26b8316d7671cc04be9b21947709a652ab08dbb041b4f7/nonebot_plugin_memes-${REALVERSION}.tar.gz"
-SOURCEFILE="nonebot_plugin_memes-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/60/5f/d6a49b88de692b26b8316d7671cc04be9b21947709a652ab08dbb041b4f7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

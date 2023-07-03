@@ -15,8 +15,8 @@ DESCRIPTION="Bandersnatch filtering plugin to filter packages listed in safety_d
 
 HOMEPAGE="https://github.com/dwighthubbard/bandersnatch_safety_db"
 LICENSE="Academic Free License, version 3"
-SRC_URI="https://files.pythonhosted.org/packages/4c/bd/113ccac93f28caea13e32ad14e681cd8e78022523056cad1d4d61171bbaa/bandersnatch_safety_db-${REALVERSION}.tar.gz"
-SOURCEFILE="bandersnatch_safety_db-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4c/bd/113ccac93f28caea13e32ad14e681cd8e78022523056cad1d4d61171bbaa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

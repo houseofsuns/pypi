@@ -15,8 +15,8 @@ DESCRIPTION="Viewer for Altair and Vega-Lite visualizations."
 
 HOMEPAGE="http://github.com/altair-viz/altair_viewer/"
 LICENSE="BSD 3-clause"
-SRC_URI="https://files.pythonhosted.org/packages/9e/55/976c41be000f996978ddd48d304939515ed00a160b669c819cc3b6d068c9/altair_viewer-${REALVERSION}.tar.gz"
-SOURCEFILE="altair_viewer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9e/55/976c41be000f996978ddd48d304939515ed00a160b669c819cc3b6d068c9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

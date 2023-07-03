@@ -15,8 +15,8 @@ DESCRIPTION="Material sphinx theme"
 
 HOMEPAGE="https://github.com/bashtage/sphinx-material"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/74/9c/492343fb8080c8518171efdf3924d9c02166204e2e01e5b4acb80094434d/sphinx_material-${REALVERSION}.tar.gz"
-SOURCEFILE="sphinx_material-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/74/9c/492343fb8080c8518171efdf3924d9c02166204e2e01e5b4acb80094434d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

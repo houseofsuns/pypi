@@ -15,8 +15,8 @@ DESCRIPTION="OARepo rdm records data model"
 
 HOMEPAGE="https://github.com/oarepo/oarepo-rdm-records"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b2/43/7897a0d30e6e786cba4bb86440a52fa950b11c85b3ae34a40059730d31c2/oarepo_rdm_records-${REALVERSION}.tar.gz"
-SOURCEFILE="oarepo_rdm_records-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b2/43/7897a0d30e6e786cba4bb86440a52fa950b11c85b3ae34a40059730d31c2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

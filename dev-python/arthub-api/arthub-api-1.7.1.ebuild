@@ -15,8 +15,8 @@ DESCRIPTION="ArHhub Python SDK"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f4/24/0845bc4c88e49cde9477a83ab373593a3f0c22eca3e316f1d8d077aae25f/arthub_api-${REALVERSION}.tar.gz"
-SOURCEFILE="arthub_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f4/24/0845bc4c88e49cde9477a83ab373593a3f0c22eca3e316f1d8d077aae25f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

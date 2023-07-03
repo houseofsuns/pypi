@@ -15,8 +15,8 @@ DESCRIPTION="A client library for accessing Windmill API"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/26/e6/372d73d3aed8b7c7e63105bae9e25898e6619ab2ad5e77ce57f12184ae92/windmill_api-${REALVERSION}.tar.gz"
-SOURCEFILE="windmill_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/26/e6/372d73d3aed8b7c7e63105bae9e25898e6619ab2ad5e77ce57f12184ae92/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

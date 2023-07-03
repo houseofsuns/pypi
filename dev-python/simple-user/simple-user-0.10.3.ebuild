@@ -15,8 +15,8 @@ DESCRIPTION="Simple reusable user storing only uuid and manage JWT Token auth_uu
 
 HOMEPAGE="https://github.com/exolever/django-simple-user"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/81/f9/1b6e810be56398681adcec5f3fec0625261b077e32bf45c5931759fada84/simple_user-${REALVERSION}.tar.gz"
-SOURCEFILE="simple_user-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/81/f9/1b6e810be56398681adcec5f3fec0625261b077e32bf45c5931759fada84/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Tenha acesso facilmente aos dados dos campeões e skins do League o
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fc/1b/f53182ae1b4e1ef7080f5396271cfd5a485813bc98b7859db268ee232b0c/league_data-${REALVERSION}.tar.gz"
-SOURCEFILE="league_data-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fc/1b/f53182ae1b4e1ef7080f5396271cfd5a485813bc98b7859db268ee232b0c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

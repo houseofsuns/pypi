@@ -15,8 +15,8 @@ DESCRIPTION="Parallel WaveGAN implementation"
 
 HOMEPAGE="http://github.com/kan-bayashi/ParallelWaveGAN"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/16/5b/a1b594076db3883a798d721293ed21e20fc571e0d576c1203924648567c0/parallel_wavegan-${REALVERSION}.tar.gz"
-SOURCEFILE="parallel_wavegan-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/16/5b/a1b594076db3883a798d721293ed21e20fc571e0d576c1203924648567c0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

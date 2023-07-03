@@ -15,8 +15,8 @@ DESCRIPTION="Enum provider for the Faker Python package."
 
 HOMEPAGE="https://github.com/NazarioJL/faker_enum"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/80/ea/75195f82822e4b91a9b9c7f36fdce81f5c48d740423ceac51fdf955a1b1f/faker_enum-${REALVERSION}.tar.gz"
-SOURCEFILE="faker_enum-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/80/ea/75195f82822e4b91a9b9c7f36fdce81f5c48d740423ceac51fdf955a1b1f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

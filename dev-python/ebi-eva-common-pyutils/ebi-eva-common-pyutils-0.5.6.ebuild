@@ -15,8 +15,8 @@ DESCRIPTION="EBI EVA - Common Python Utilities"
 
 HOMEPAGE="https://github.com/EBIVariation/eva-common-pyutils"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e4/88/db568129665c413dac8acc14790bef36c680cd1481e87eb58a2d1120ade0/ebi_eva_common_pyutils-${REALVERSION}.tar.gz"
-SOURCEFILE="ebi_eva_common_pyutils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e4/88/db568129665c413dac8acc14790bef36c680cd1481e87eb58a2d1120ade0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

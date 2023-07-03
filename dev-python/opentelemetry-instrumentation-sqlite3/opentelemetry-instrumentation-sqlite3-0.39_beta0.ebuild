@@ -15,8 +15,8 @@ DESCRIPTION="OpenTelemetry SQLite3 instrumentation"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-sqlite3"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e8/45/aaf4d78bdf1c473fe10ecbf286e932ffe4b5d78c263c31b834f590168d41/opentelemetry_instrumentation_sqlite3-${REALVERSION}.tar.gz"
-SOURCEFILE="opentelemetry_instrumentation_sqlite3-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e8/45/aaf4d78bdf1c473fe10ecbf286e932ffe4b5d78c263c31b834f590168d41/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

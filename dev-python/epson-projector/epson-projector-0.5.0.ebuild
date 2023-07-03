@@ -15,8 +15,8 @@ DESCRIPTION="Epson projector support for Python"
 
 HOMEPAGE="https://github.com/pszafer/epson_projector"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/26/4c/70d8f13492095c48ba640f246ce2e1fdb57e0c7cae89aa31fbf7e80efe0b/epson_projector-${REALVERSION}.tar.gz"
-SOURCEFILE="epson_projector-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/26/4c/70d8f13492095c48ba640f246ce2e1fdb57e0c7cae89aa31fbf7e80efe0b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

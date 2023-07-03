@@ -15,8 +15,8 @@ DESCRIPTION="quick_ml : ML For Everyone. Official Website -> www.antoreepjana.wi
 
 HOMEPAGE="https://gitlab.com/antoreep_jana/quick_ml"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e5/d5/dc0ab387e6dd998d6f37c7f111a1dd6cabe4bd5b2ab870a367ba7c9b2b8d/quick_ml-${REALVERSION}.tar.gz"
-SOURCEFILE="quick_ml-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e5/d5/dc0ab387e6dd998d6f37c7f111a1dd6cabe4bd5b2ab870a367ba7c9b2b8d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

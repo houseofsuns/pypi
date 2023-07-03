@@ -15,8 +15,8 @@ DESCRIPTION="API Wrappers for the Energy Markets"
 
 HOMEPAGE="https://github.com/jericmac/energy-trading-api-wrappers"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5c/16/20f9350ebd04ae9c7c5a94ecc60f9342e573a97361609273927d7bfc46fc/energy_trading_api-${REALVERSION}.tar.gz"
-SOURCEFILE="energy_trading_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5c/16/20f9350ebd04ae9c7c5a94ecc60f9342e573a97361609273927d7bfc46fc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

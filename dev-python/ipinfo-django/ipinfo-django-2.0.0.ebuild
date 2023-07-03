@@ -15,8 +15,8 @@ DESCRIPTION="Official Django library for IPinfo"
 
 HOMEPAGE="https://github.com/ipinfo/django"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/9d/40/e7d19c6c354c2432720280a602cdf05dc61b01813c3bfd35c9ba65c63caa/ipinfo_django-${REALVERSION}.tar.gz"
-SOURCEFILE="ipinfo_django-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9d/40/e7d19c6c354c2432720280a602cdf05dc61b01813c3bfd35c9ba65c63caa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

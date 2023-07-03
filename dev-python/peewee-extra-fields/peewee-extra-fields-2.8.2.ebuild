@@ -15,8 +15,8 @@ DESCRIPTION="Extra fields for Peewee"
 
 HOMEPAGE="https://github.com/juancarlospaco/peewee-extra-fields"
 LICENSE="GPL-3 LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/b1/1d/3895c1c72a2279217e4d8cdde03fbfdb10716cc67deb0875569875608156/peewee_extra_fields-${REALVERSION}.zip"
-SOURCEFILE="peewee_extra_fields-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/b1/1d/3895c1c72a2279217e4d8cdde03fbfdb10716cc67deb0875569875608156/${REALNAME//-/_}-${REALVERSION}.zip"
+SOURCEFILE="_}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

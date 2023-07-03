@@ -15,8 +15,8 @@ DESCRIPTION="A support library for using OpenQASM 3 with QURI Parts"
 
 HOMEPAGE="https://github.com/QunaSys/quri-parts"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/56/72/783d384bde63d6d686f1e22253002b1483c82d8b10759e609d2badbd16b8/quri_parts_openqasm-${REALVERSION}.tar.gz"
-SOURCEFILE="quri_parts_openqasm-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/56/72/783d384bde63d6d686f1e22253002b1483c82d8b10759e609d2badbd16b8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

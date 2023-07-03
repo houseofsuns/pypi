@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module to create inventories by locations"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/c5/fe/bef2c671a1fa98c8c2f71942af7f1cc6f6e9cb036544838ff91fae16ca7d/trytond_stock_inventory_location-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_stock_inventory_location-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c5/fe/bef2c671a1fa98c8c2f71942af7f1cc6f6e9cb036544838ff91fae16ca7d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

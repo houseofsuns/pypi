@@ -15,8 +15,8 @@ DESCRIPTION="Provides a python wrapper around the Microsoft Graph API.  Current 
 
 HOMEPAGE="https://github.com/carpnick/ms_graph_client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5d/e2/68fdbc6b06e5ffb2fcd7b0b4ef9b1b871ddd7aedee3249528bf6a502722d/ms_graph_client-${REALVERSION}.tar.gz"
-SOURCEFILE="ms_graph_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5d/e2/68fdbc6b06e5ffb2fcd7b0b4ef9b1b871ddd7aedee3249528bf6a502722d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

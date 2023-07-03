@@ -15,8 +15,8 @@ DESCRIPTION="Performs model counting using restrictive formulas"
 
 HOMEPAGE="https://github.com/Meterius/rfb-mc"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/64/eb/b5231a347a92fe1bfb90d21da4baa9ec3a00a6ced8afef8df19862736ded/rfb_mc-${REALVERSION}.tar.gz"
-SOURCEFILE="rfb_mc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/64/eb/b5231a347a92fe1bfb90d21da4baa9ec3a00a6ced8afef8df19862736ded/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

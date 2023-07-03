@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module with price list"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/1c/ee/34307db4fb4f0828bd8e1e3bd7188eab7606cbe3601e2f6681de97ed3242/trytond_product_price_list-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_product_price_list-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1c/ee/34307db4fb4f0828bd8e1e3bd7188eab7606cbe3601e2f6681de97ed3242/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

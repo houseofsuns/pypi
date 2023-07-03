@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/91/d8/f13e80a656667e7edb44e0c01e23327739d85f8f2bf5a83ca7eab911abb8/canonicalwebteam_store_api-${REALVERSION}.tar.gz"
-SOURCEFILE="canonicalwebteam_store_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/91/d8/f13e80a656667e7edb44e0c01e23327739d85f8f2bf5a83ca7eab911abb8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

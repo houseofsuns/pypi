@@ -15,8 +15,8 @@ DESCRIPTION="PyAnsys Tools Versioning."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6e/26/4b51a193359e58b24eaf4e60c5f62e7d71f025948618e28590d8238072f5/pyansys_tools_versioning-${REALVERSION}.tar.gz"
-SOURCEFILE="pyansys_tools_versioning-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6e/26/4b51a193359e58b24eaf4e60c5f62e7d71f025948618e28590d8238072f5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

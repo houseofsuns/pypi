@@ -15,8 +15,8 @@ DESCRIPTION="PowerML python package"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8a/82/0461df67e51448d308cf080351a948d48143aa7a0c62d40561f991c9edcd/powerml_app-${REALVERSION}.tar.gz"
-SOURCEFILE="powerml_app-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8a/82/0461df67e51448d308cf080351a948d48143aa7a0c62d40561f991c9edcd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

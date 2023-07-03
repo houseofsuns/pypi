@@ -15,8 +15,8 @@ DESCRIPTION="Tool for creating python nanowire plugins"
 
 HOMEPAGE="https://github.com/SpotlightData/nanowire-plugin-py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c6/39/ec1237016a1bc3540641de937f67b0fcff868b92433275073f0781d66029/nanowire_plugin-${REALVERSION}.tar.gz"
-SOURCEFILE="nanowire_plugin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c6/39/ec1237016a1bc3540641de937f67b0fcff868b92433275073f0781d66029/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

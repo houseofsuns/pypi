@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># 一个文档自动处理工具暂时没有啥说明安装:  pip install docrobot  升级： pip install --upgrade docrobot然后找到构建环境准备:python -m pip install -U pip setuptoolspip install pywin32 python-docx openpyxl pyside6 -i https://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com</longdescription>
+</pkgmetadata>

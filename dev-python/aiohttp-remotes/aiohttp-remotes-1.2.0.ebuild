@@ -15,8 +15,8 @@ DESCRIPTION="Control remote side information."
 
 HOMEPAGE="https://github.com/aio-libs/aiohttp-remotes"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/54/05/7c4be6171cc78a13171a4f89e5d308c4a636bdd8ee36101367e99e410ed8/aiohttp_remotes-${REALVERSION}.tar.gz"
-SOURCEFILE="aiohttp_remotes-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/54/05/7c4be6171cc78a13171a4f89e5d308c4a636bdd8ee36101367e99e410ed8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

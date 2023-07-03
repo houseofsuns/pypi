@@ -15,8 +15,8 @@ DESCRIPTION="This package provides a decorator for Python Lambda functions handl
 
 HOMEPAGE="https://github.com/mixja/cfn-lambda-handler"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/3c/06/62371253a8e61a804ac9a02a8f381fcb9fe9009f8a1325dd7ef94cacbf61/cfn_lambda_handler-${REALVERSION}.tar.gz"
-SOURCEFILE="cfn_lambda_handler-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3c/06/62371253a8e61a804ac9a02a8f381fcb9fe9009f8a1325dd7ef94cacbf61/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

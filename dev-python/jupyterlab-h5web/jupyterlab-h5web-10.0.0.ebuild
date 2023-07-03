@@ -15,8 +15,8 @@ DESCRIPTION="A JupyterLab extension to explore and visualize HDF5 file contents.
 
 HOMEPAGE="https://github.com/silx-kit/jupyterlab-h5web"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2f/d3/4dac6d072f057d94bbcf242d0fcc6c2dd2021549096c39084860e0693caa/jupyterlab_h5web-${REALVERSION}.tar.gz"
-SOURCEFILE="jupyterlab_h5web-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2f/d3/4dac6d072f057d94bbcf242d0fcc6c2dd2021549096c39084860e0693caa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

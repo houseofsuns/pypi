@@ -15,8 +15,8 @@ DESCRIPTION="A command line tool to generate jinja templates"
 
 HOMEPAGE="https://bitbucket.org/dataductus/jinja-renderer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/76/25/cd01f5590048618a661b95994d02a2cd7293bd2e868387ce5427551bd182/dd_jinja_renderer-${REALVERSION}.tar.gz"
-SOURCEFILE="dd_jinja_renderer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/76/25/cd01f5590048618a661b95994d02a2cd7293bd2e868387ce5427551bd182/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

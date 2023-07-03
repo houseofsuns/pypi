@@ -15,8 +15,8 @@ DESCRIPTION="colored log messages and banners from commandline and python"
 
 HOMEPAGE="https://github.com/bitranox/lib_log_utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/38/80/25a3beb747f44387b8f8194135a94d618bd6b94b49daf7b4cbcb50d8c6e0/lib_log_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="lib_log_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/38/80/25a3beb747f44387b8f8194135a94d618bd6b94b49daf7b4cbcb50d8c6e0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

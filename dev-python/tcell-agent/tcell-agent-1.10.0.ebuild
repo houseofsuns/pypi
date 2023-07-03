@@ -15,8 +15,8 @@ DESCRIPTION="tCell Python Agent"
 
 HOMEPAGE="https://www.rapid7.com/products/tcell/"
 LICENSE="Free-to-use, proprietary software."
-SRC_URI="https://files.pythonhosted.org/packages/a7/92/88d5c143d23069ab6aa586299657b87369215a90f315721b20bc22fc9007/tcell_agent-${REALVERSION}.tar.gz"
-SOURCEFILE="tcell_agent-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a7/92/88d5c143d23069ab6aa586299657b87369215a90f315721b20bc22fc9007/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

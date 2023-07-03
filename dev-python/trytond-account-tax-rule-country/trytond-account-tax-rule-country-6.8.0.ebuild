@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module to add countries on tax rules"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/71/db/a4c0578d9ad41ad925c2b9ccb76b7f1585a67f3a177d885d7dd3dc5f2db3/trytond_account_tax_rule_country-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_account_tax_rule_country-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/71/db/a4c0578d9ad41ad925c2b9ccb76b7f1585a67f3a177d885d7dd3dc5f2db3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

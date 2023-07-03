@@ -15,8 +15,8 @@ DESCRIPTION="trading_calendars is a Python library with securities exchange cale
 
 HOMEPAGE="https://github.com/quantopian/trading_calendars"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/1e/6e/613df8268dea3aac81d3b9d9872d4e48526f8650e970ca1d14911f02dad0/trading_calendars-${REALVERSION}.tar.gz"
-SOURCEFILE="trading_calendars-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1e/6e/613df8268dea3aac81d3b9d9872d4e48526f8650e970ca1d14911f02dad0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

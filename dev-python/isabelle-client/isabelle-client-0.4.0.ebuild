@@ -15,8 +15,8 @@ DESCRIPTION="A client to Isabelle proof assistant server"
 
 HOMEPAGE="https://github.com/inpefess/isabelle-client"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/52/7d/cff45fa7c011711571811d6289061c4a4aaa36746201d18352f53a84e2a7/isabelle_client-${REALVERSION}.tar.gz"
-SOURCEFILE="isabelle_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/52/7d/cff45fa7c011711571811d6289061c4a4aaa36746201d18352f53a84e2a7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

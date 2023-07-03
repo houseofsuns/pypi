@@ -15,8 +15,8 @@ DESCRIPTION="Easy Python GUI applications (tkinter wrapper)"
 
 HOMEPAGE="https://github.com/zachbateman/easy_gui.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2c/fd/77097fbcaa91b861e2edc9172175d52aa12bca5191559a213727ad8a03f4/easy_gui-${REALVERSION}.tar.gz"
-SOURCEFILE="easy_gui-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2c/fd/77097fbcaa91b861e2edc9172175d52aa12bca5191559a213727ad8a03f4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

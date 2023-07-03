@@ -15,8 +15,8 @@ DESCRIPTION="A dataset plugin for climetlab for the dataset mltc-surface-observa
 
 HOMEPAGE="http://github.com/mchantry/climetlab-mltc-surface-observation-postprocessing"
 LICENSE="Apache License Version 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/fe/b8/a5cfe34d849813ed944e4c948111c03b1e25aaeda7646d713c58b004269a/climetlab_mltc_surface_observation_postprocessing-${REALVERSION}.tar.gz"
-SOURCEFILE="climetlab_mltc_surface_observation_postprocessing-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fe/b8/a5cfe34d849813ed944e4c948111c03b1e25aaeda7646d713c58b004269a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Execy[![Upload Python Package](https://github.com/hglong16/execy/actions/workflows/python-publishing.yml/badge.svg)](https://github.com/hglong16/execy/actions/workflows/python-publishing.yml)The execy `@exec_time` decorator is a utility that measures the execution time of a function. It can be used to easily track and log the time taken by a function to execute, both for synchronous and asynchronous functions.## Table of Contents- [Execy](#execy)  - [Table of Contents](#table-of-contents)  - [Installation](#installation)  - [Usage](#usage)## Installation```bashpip install execy```## UsageTo use the exec_time decorator, follow these steps:```pythonfrom execy import exec_timeimport asyncioimport time@exec_timedef sync_function():    # Simulate a time-consuming synchronous task    time.sleep(2)@exec_timeasync def async_function():    # Simulate a time-consuming asynchronous task    await asyncio.sleep(2)# Call the decorated synchronous functionsync_function()# Call the decorated asynchronous functionasyncio.run(async_function())```The result will be```bashFunction 'sync_function' executed in 2.0001089572906494 seconds.Function 'async_function' executed in 2.001432180404663 seconds.```</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="Tools and scripts related to the automated processing of PollyXT fi
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3a/54/0fac1b643a8a5460c5f1436cc94a61e1e5bd67236160d439ee48e3a60a18/pollyxt_pipelines-${REALVERSION}.tar.gz"
-SOURCEFILE="pollyxt_pipelines-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3a/54/0fac1b643a8a5460c5f1436cc94a61e1e5bd67236160d439ee48e3a60a18/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

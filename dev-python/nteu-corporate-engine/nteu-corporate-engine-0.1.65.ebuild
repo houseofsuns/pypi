@@ -15,8 +15,8 @@ DESCRIPTION="NTEU model wrapper for corporate injection"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a9/00/80e301936a7a98cd79ac2eebb0ffcc553a60cea3424e3d0e4033ec589759/nteu_corporate_engine-${REALVERSION}.tar.gz"
-SOURCEFILE="nteu_corporate_engine-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a9/00/80e301936a7a98cd79ac2eebb0ffcc553a60cea3424e3d0e4033ec589759/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

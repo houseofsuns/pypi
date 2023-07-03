@@ -15,8 +15,8 @@ DESCRIPTION="The official wrapper for the Onfido API"
 
 HOMEPAGE="https://github.com/onfido/onfido-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1d/35/dd3d360bd3b724db22fdb5065fd54ac83b8ba8ff469699bc1b70cde613e1/onfido_python-${REALVERSION}.tar.gz"
-SOURCEFILE="onfido_python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1d/35/dd3d360bd3b724db22fdb5065fd54ac83b8ba8ff469699bc1b70cde613e1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

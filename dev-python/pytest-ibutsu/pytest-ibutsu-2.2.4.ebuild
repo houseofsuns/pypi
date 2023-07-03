@@ -15,8 +15,8 @@ DESCRIPTION="A plugin to sent pytest results to an Ibutsu server"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/27/ab/63b4efffedbe8747989f34aa326f8aee86ebe74adcf185faec0fb985b410/pytest_ibutsu-${REALVERSION}.tar.gz"
-SOURCEFILE="pytest_ibutsu-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/27/ab/63b4efffedbe8747989f34aa326f8aee86ebe74adcf185faec0fb985b410/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

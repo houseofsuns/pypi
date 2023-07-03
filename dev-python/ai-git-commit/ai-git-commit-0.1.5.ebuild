@@ -15,8 +15,8 @@ DESCRIPTION=" AI Git Commit is a Python-based tool that uses AI to generate Git 
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2f/98/ca10eb628d37da90c5664b51d89760883b3c2ce569e0f6f256dfe22db567/ai_git_commit-${REALVERSION}.tar.gz"
-SOURCEFILE="ai_git_commit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2f/98/ca10eb628d37da90c5664b51d89760883b3c2ce569e0f6f256dfe22db567/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

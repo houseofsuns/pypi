@@ -15,8 +15,8 @@ DESCRIPTION="python client of c.a.s"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/95/f4/f25644f5e3bc9746551f6ef368ce5b900ce592d187b4de80fcc3ec4ffd95/py_cas-${REALVERSION}.tar.gz"
-SOURCEFILE="py_cas-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/95/f4/f25644f5e3bc9746551f6ef368ce5b900ce592d187b4de80fcc3ec4ffd95/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

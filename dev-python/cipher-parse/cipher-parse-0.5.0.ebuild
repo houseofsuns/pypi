@@ -15,8 +15,8 @@ DESCRIPTION="Pre- and post-processing for the phase-field code CIPHER."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ec/7f/4a82426c452bddbe77d4c7c1c590e6c22a16ea7ca0c82c4eb0cacd33a74f/cipher_parse-${REALVERSION}.tar.gz"
-SOURCEFILE="cipher_parse-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ec/7f/4a82426c452bddbe77d4c7c1c590e6c22a16ea7ca0c82c4eb0cacd33a74f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

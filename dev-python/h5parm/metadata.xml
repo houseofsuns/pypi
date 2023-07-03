@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># h5parmProvides H5Parm data interface# Example```pythonfrom h5parm.utils import make_example_datapackfrom h5parm import DataPackdatapack = make_example_datapack(4,5,6)#select your slicesdatapack.select(ant=&quot;RS*&quot;, time=slice(0,None,2), freq=2)```This will select all antennas with names starting with 'RS', every other time, and the 3rd frequency.```python#get your soltabphase, axes = datapack.phase#get the coordinates of axespatch_names, directions = datapack.get_directions(axes['dir'])antenna_labels, antennas = datapack.get_antennas(axes['ant'])timestamp, times = datapack.get_antennas(axes['time'])freq_labels, freqs = datapack.get_freqs(axes['freq'])pol_labels, pols = datapack.get_pols(axes['pol'])```In general the first element returned by all `get_*` methods are string labels, and the second is a dimensionful `astropy` object, e.g. `ICRS` object, `Time` object etc.</longdescription>
+</pkgmetadata>

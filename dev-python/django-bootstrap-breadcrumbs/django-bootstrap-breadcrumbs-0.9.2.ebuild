@@ -15,8 +15,8 @@ DESCRIPTION="Django breadcrumbs for Bootstrap 2, 3 or 4"
 
 HOMEPAGE="http://prymitive.github.com/bootstrap-breadcrumbs"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3e/14/e993e59ff113432200a1a497b3fcaaa018966f536f5edfbd2e0d2e7d2dad/django_bootstrap_breadcrumbs-${REALVERSION}.tar.gz"
-SOURCEFILE="django_bootstrap_breadcrumbs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3e/14/e993e59ff113432200a1a497b3fcaaa018966f536f5edfbd2e0d2e7d2dad/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

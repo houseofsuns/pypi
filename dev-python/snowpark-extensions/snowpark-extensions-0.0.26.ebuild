@@ -15,8 +15,8 @@ DESCRIPTION="A set of helpers to extend snowpark functionality"
 
 HOMEPAGE="http://github.com/MobilizeNet/snowpark-extensions-py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f6/ee/1ed2d7413cbec018ae2572c69c7ec1492f9a43af88ccb26df9318d40fe05/snowpark_extensions-${REALVERSION}.tar.gz"
-SOURCEFILE="snowpark_extensions-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f6/ee/1ed2d7413cbec018ae2572c69c7ec1492f9a43af88ccb26df9318d40fe05/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

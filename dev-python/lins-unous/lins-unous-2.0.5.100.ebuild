@@ -15,8 +15,8 @@ DESCRIPTION="Classe para uso da API unous."
 
 HOMEPAGE="https://bitbucket.org/grupolinsferrao/pypck-lins_unous/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8c/9c/18f3250443c204116ab983388a9c5ee91f8b7754c2c9c97c3a498afdef5e/lins_unous-${REALVERSION}.tar.gz"
-SOURCEFILE="lins_unous-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8c/9c/18f3250443c204116ab983388a9c5ee91f8b7754c2c9c97c3a498afdef5e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c9/34/18eb6ab9963729826b61702d1232e0a473ccaa6f21d03ce963a4e816b42e/edx_user_state_client-${REALVERSION}.tar.gz"
-SOURCEFILE="edx_user_state_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c9/34/18eb6ab9963729826b61702d1232e0a473ccaa6f21d03ce963a4e816b42e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

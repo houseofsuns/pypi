@@ -15,8 +15,8 @@ DESCRIPTION="An arcaea plugin for nonebot2. ( A cross platform Python async bot 
 
 HOMEPAGE="https://github.com/SEAFHMC/nonebot-plugin-arcaeabot"
 LICENSE="AGPL-3.0 License"
-SRC_URI="https://files.pythonhosted.org/packages/49/cc/7676f9017550e479024e74a8907c370c54d7068116d3aa73e049144ad8a5/nonebot_plugin_arcaeabot-${REALVERSION}.tar.gz"
-SOURCEFILE="nonebot_plugin_arcaeabot-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/49/cc/7676f9017550e479024e74a8907c370c54d7068116d3aa73e049144ad8a5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

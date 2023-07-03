@@ -15,8 +15,8 @@ DESCRIPTION="Provides server-backed sessions for Sanic using Redis, Memcache and
 
 HOMEPAGE="http://github.com/subyraman/sanic_session"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/da/99/14e37b8a0141495d5141adbc62bb88c223a6fd53255b8ab623d20dc89c09/sanic_session-${REALVERSION}.tar.gz"
-SOURCEFILE="sanic_session-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/da/99/14e37b8a0141495d5141adbc62bb88c223a6fd53255b8ab623d20dc89c09/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

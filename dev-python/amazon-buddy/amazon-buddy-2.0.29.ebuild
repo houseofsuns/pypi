@@ -15,8 +15,8 @@ DESCRIPTION="python wrapper for the amazon_buddy npm package"
 
 HOMEPAGE="https://github.com/kkristof200/py_amazon_buddy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/19/8c/2ad8c21034e0bdbf82640db82d166dc81c33231daf712f4c33c94eb50e4d/amazon_buddy-${REALVERSION}.tar.gz"
-SOURCEFILE="amazon_buddy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/19/8c/2ad8c21034e0bdbf82640db82d166dc81c33231daf712f4c33c94eb50e4d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

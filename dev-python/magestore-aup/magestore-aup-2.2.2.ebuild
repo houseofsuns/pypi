@@ -15,8 +15,8 @@ DESCRIPTION="Fix get nearly newest version"
 
 HOMEPAGE="https://magestore.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f8/49/a021f680108a98cd880c088bbdd11e06b33a333cf17cdbd242b46e7f4733/magestore_aup-${REALVERSION}.tar.gz"
-SOURCEFILE="magestore_aup-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f8/49/a021f680108a98cd880c088bbdd11e06b33a333cf17cdbd242b46e7f4733/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

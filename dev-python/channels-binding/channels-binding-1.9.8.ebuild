@@ -15,8 +15,8 @@ DESCRIPTION="a RESTful API Streaming system over django channels, with model bin
 
 HOMEPAGE="https://github.com/workon-io/channels-binding"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a6/2c/5a8e8321920f81cd7c86ecbe5bcd6686596181101f8953dd2cb930d67c95/channels_binding-${REALVERSION}.tar.gz"
-SOURCEFILE="channels_binding-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a6/2c/5a8e8321920f81cd7c86ecbe5bcd6686596181101f8953dd2cb930d67c95/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

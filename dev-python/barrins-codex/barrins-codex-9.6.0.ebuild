@@ -15,8 +15,8 @@ DESCRIPTION="\"A Collection of Duel Commander commented games in French\","
 
 HOMEPAGE="https://github.com/Spigushe/barrins-codex"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6e/9f/6e004dee2848c701c391437937cdd869200f31991d118bdbb633bc5219ab/barrins_codex-${REALVERSION}.tar.gz"
-SOURCEFILE="barrins_codex-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6e/9f/6e004dee2848c701c391437937cdd869200f31991d118bdbb633bc5219ab/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

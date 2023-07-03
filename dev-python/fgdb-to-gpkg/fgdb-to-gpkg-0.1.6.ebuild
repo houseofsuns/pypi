@@ -15,8 +15,8 @@ DESCRIPTION="A lightweight Python package that converts Esri File GeoDataBases i
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/dd/4a/c83f64cb0b33a2791b7438e0b938dd3503fa5137066ad28c6a4a8078cbf2/fgdb_to_gpkg-${REALVERSION}.tar.gz"
-SOURCEFILE="fgdb_to_gpkg-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/dd/4a/c83f64cb0b33a2791b7438e0b938dd3503fa5137066ad28c6a4a8078cbf2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

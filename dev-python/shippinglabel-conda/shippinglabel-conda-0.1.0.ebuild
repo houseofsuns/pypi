@@ -15,8 +15,8 @@ DESCRIPTION="Shippinglabel extension with utilities conda packages."
 
 HOMEPAGE="https://github.com/domdfcoding/shippinglabel-conda"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/16/ad/65846d7550882c8da28f1b2ee3311a0767a0711e7ac991077ebd2df54bb4/shippinglabel_conda-${REALVERSION}.tar.gz"
-SOURCEFILE="shippinglabel_conda-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/16/ad/65846d7550882c8da28f1b2ee3311a0767a0711e7ac991077ebd2df54bb4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

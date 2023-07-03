@@ -15,8 +15,8 @@ DESCRIPTION="The modern realtime feature engineering platform"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d9/7d/9cf0ce974a3256404db6a68aeacb0e6cd6e742484ae4fa9d9c0d45596d80/fennel_ai-${REALVERSION}.tar.gz"
-SOURCEFILE="fennel_ai-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d9/7d/9cf0ce974a3256404db6a68aeacb0e6cd6e742484ae4fa9d9c0d45596d80/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

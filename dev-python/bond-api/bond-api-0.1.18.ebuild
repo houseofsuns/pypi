@@ -15,8 +15,8 @@ DESCRIPTION="Asynchronous Python wrapper library over Bond Local API"
 
 HOMEPAGE="https://github.com/prystupa/bond-api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fc/b1/b926a7b3eccea7749f91592b87209435c49471d4bcd148a4ce414986101b/bond_api-${REALVERSION}.tar.gz"
-SOURCEFILE="bond_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fc/b1/b926a7b3eccea7749f91592b87209435c49471d4bcd148a4ce414986101b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

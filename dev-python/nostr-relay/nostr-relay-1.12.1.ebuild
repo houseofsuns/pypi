@@ -15,8 +15,8 @@ DESCRIPTION="nostr relay"
 
 HOMEPAGE="https://code.pobblelabs.org/fossil/nostr_relay"
 LICENSE="BSD 3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/60/2c/4caa9d14dc1f256d15da8f0bbf9c6b0583b5f1d7090c3a75f76bcb47e592/nostr_relay-${REALVERSION}.tar.gz"
-SOURCEFILE="nostr_relay-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/60/2c/4caa9d14dc1f256d15da8f0bbf9c6b0583b5f1d7090c3a75f76bcb47e592/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

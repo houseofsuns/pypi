@@ -15,8 +15,8 @@ DESCRIPTION="A price proxy for the OpenAI API"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/29/76/f81845cb385bc7bdc58b2975661401874d20bd15eca2f8e3f1d424795dae/openai_proxy-${REALVERSION}.tar.gz"
-SOURCEFILE="openai_proxy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/29/76/f81845cb385bc7bdc58b2975661401874d20bd15eca2f8e3f1d424795dae/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

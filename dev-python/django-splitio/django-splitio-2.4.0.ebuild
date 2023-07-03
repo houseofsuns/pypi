@@ -15,8 +15,8 @@ DESCRIPTION="Split.io Django Application"
 
 HOMEPAGE="https://github.com/splitio/django-splitio"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/5a/08/bf63174f8cdaf62e97fe3727d7484aee3bc2e4c49b1ff4014bdd936515e0/django_splitio-${REALVERSION}.tar.gz"
-SOURCEFILE="django_splitio-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5a/08/bf63174f8cdaf62e97fe3727d7484aee3bc2e4c49b1ff4014bdd936515e0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

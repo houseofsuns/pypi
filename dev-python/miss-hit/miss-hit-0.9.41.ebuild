@@ -15,8 +15,8 @@ DESCRIPTION="Static analysis and other utilities for programs written in the MAT
 
 HOMEPAGE="https://misshit.org"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/97/8f/22c94fb4aeb9b420afa2492ad4b90b29aa165086031d1c90902b8ecd9927/miss_hit-${REALVERSION}.tar.gz"
-SOURCEFILE="miss_hit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/97/8f/22c94fb4aeb9b420afa2492ad4b90b29aa165086031d1c90902b8ecd9927/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

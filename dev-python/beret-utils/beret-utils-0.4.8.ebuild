@@ -15,8 +15,8 @@ DESCRIPTION="Subjective Python tools selection."
 
 HOMEPAGE="https://github.com/berecik/python_utils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d1/6f/4ddf4bc8b53d7961f1301924d496b90cc636dffb7d995e48a0e3838b3377/beret_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="beret_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d1/6f/4ddf4bc8b53d7961f1301924d496b90cc636dffb7d995e48a0e3838b3377/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

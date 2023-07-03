@@ -15,8 +15,8 @@ DESCRIPTION="Python GraphQL Client"
 
 HOMEPAGE="https://github.com/prodigyeducation/python-graphql-client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/04/bf/6ebd129e957c3fd8ea1c36ae03cbd68e2342ec2bea7010d5379bd363da06/python_graphql_client-${REALVERSION}.tar.gz"
-SOURCEFILE="python_graphql_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/04/bf/6ebd129e957c3fd8ea1c36ae03cbd68e2342ec2bea7010d5379bd363da06/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

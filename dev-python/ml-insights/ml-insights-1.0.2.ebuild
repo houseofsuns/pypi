@@ -15,8 +15,8 @@ DESCRIPTION="Package to calibrate and understand ML Models"
 
 HOMEPAGE="http://ml-insights.readthedocs.io/en/latest/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/21/a3/b43ed7c627ceabb7c30c583e3bd67a7d15be10722da2a1d8c0320c99ff82/ml_insights-${REALVERSION}.tar.gz"
-SOURCEFILE="ml_insights-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/21/a3/b43ed7c627ceabb7c30c583e3bd67a7d15be10722da2a1d8c0320c99ff82/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c0/f8/467d9f77d1bdd8df2d8afe40aed4e85422e665b0521f23c59b391e721445/lol_id_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="lol_id_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c0/f8/467d9f77d1bdd8df2d8afe40aed4e85422e665b0521f23c59b391e721445/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

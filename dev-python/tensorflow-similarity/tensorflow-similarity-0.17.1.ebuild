@@ -15,8 +15,8 @@ DESCRIPTION="Metric Learning for Humans"
 
 HOMEPAGE="https://github.com/tensorflow/similarity"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/84/ef/0cb2ca431a62b057446683b5839a39c51505c8d900928793afe1fe39cdfe/tensorflow_similarity-${REALVERSION}.tar.gz"
-SOURCEFILE="tensorflow_similarity-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/84/ef/0cb2ca431a62b057446683b5839a39c51505c8d900928793afe1fe39cdfe/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

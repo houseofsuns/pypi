@@ -15,8 +15,8 @@ DESCRIPTION="Django extension that eases communication with Galaxy instance to e
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a8/0b/6b865a5e0a357b2d963f2eec734169a7278d83a070127a3bd901a4b30d53/django_to_galaxy-${REALVERSION}.tar.gz"
-SOURCEFILE="django_to_galaxy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a8/0b/6b865a5e0a357b2d963f2eec734169a7278d83a070127a3bd901a4b30d53/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/jams2/py-svg-hush"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/03/bf/4fc983d1b90e4262229d7ae14e110451c3fad19426b2ae158ad26e42ea11/py_svg_hush-${REALVERSION}.tar.gz"
-SOURCEFILE="py_svg_hush-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/03/bf/4fc983d1b90e4262229d7ae14e110451c3fad19426b2ae158ad26e42ea11/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

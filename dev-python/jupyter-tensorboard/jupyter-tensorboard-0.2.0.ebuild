@@ -15,8 +15,8 @@ DESCRIPTION="Start tensorboard in Jupyter! Jupyter notebook integration for tens
 
 HOMEPAGE="http://github.com/lspvic/jupyter_tensorboard"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/27/37/c30047f7d773cb2a58c2ae8498a03a10d3653fe625b33137219aa3b2e407/jupyter_tensorboard-${REALVERSION}.tar.gz"
-SOURCEFILE="jupyter_tensorboard-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/27/37/c30047f7d773cb2a58c2ae8498a03a10d3653fe625b33137219aa3b2e407/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Websocket integration for Django"
 
 HOMEPAGE="https://github.com/d9pouces/df_websockets"
 LICENSE="CeCILL-B"
-SRC_URI="https://files.pythonhosted.org/packages/9b/dd/f8f12f7451d21c56fb7aa929087662ba72b1f79d2a19170e26255c9dcecd/df_websockets-${REALVERSION}.tar.gz"
-SOURCEFILE="df_websockets-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9b/dd/f8f12f7451d21c56fb7aa929087662ba72b1f79d2a19170e26255c9dcecd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

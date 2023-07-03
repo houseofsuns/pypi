@@ -15,8 +15,8 @@ DESCRIPTION="Core functionality for git-project"
 
 HOMEPAGE="http://github.com/greened/git-project-core-plugins"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/39/2f/ea4ffbaa09e349c6a0848669d7d9eb20a77155d1e1fdf5d603213862f86d/git_project_core_plugins-${REALVERSION}.tar.gz"
-SOURCEFILE="git_project_core_plugins-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/39/2f/ea4ffbaa09e349c6a0848669d7d9eb20a77155d1e1fdf5d603213862f86d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

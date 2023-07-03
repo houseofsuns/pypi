@@ -15,8 +15,8 @@ DESCRIPTION="Provide classes for DBnomics entities and a storage abstraction"
 
 HOMEPAGE="https://git.nomics.world/dbnomics/dbnomics-data-model"
 LICENSE="AGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/38/c8/f3d9b5edd17bed4cc10a5cfb114507c18703154f7ba4f333ead12ef2b044/dbnomics_data_model-${REALVERSION}.tar.gz"
-SOURCEFILE="dbnomics_data_model-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/38/c8/f3d9b5edd17bed4cc10a5cfb114507c18703154f7ba4f333ead12ef2b044/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

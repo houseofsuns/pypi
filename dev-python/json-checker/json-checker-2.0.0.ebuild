@@ -15,8 +15,8 @@ DESCRIPTION="Simple schema validation library"
 
 HOMEPAGE="https://github.com/DKorytkin/json_checker"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9f/22/d742329cf03f9edcb58dc673f39608d0bf57046e99770d2c45ea88709986/json_checker-${REALVERSION}.tar.gz"
-SOURCEFILE="json_checker-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9f/22/d742329cf03f9edcb58dc673f39608d0bf57046e99770d2c45ea88709986/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="driver for the Nortek Nucleus"
 
 HOMEPAGE="https://github.com/nortekgroup/nucleus_driver"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/74/ce/289c7d3878882a6d862f2924e8801653eaeee81400e3f8e854e798354f12/nucleus_driver-${REALVERSION}.tar.gz"
-SOURCEFILE="nucleus_driver-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/74/ce/289c7d3878882a6d862f2924e8801653eaeee81400e3f8e854e798354f12/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

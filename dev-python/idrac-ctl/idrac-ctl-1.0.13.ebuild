@@ -15,8 +15,8 @@ DESCRIPTION="Standalone command line tool to interact with Dell iDRAC via Redfis
 
 HOMEPAGE="https://github.com/spyroot/idrac_ctl"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f5/93/213002a8cbe85e59283634e25e5ba586e4675883284c3aaa77350d5c9be3/idrac_ctl-${REALVERSION}.tar.gz"
-SOURCEFILE="idrac_ctl-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f5/93/213002a8cbe85e59283634e25e5ba586e4675883284c3aaa77350d5c9be3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

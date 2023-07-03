@@ -15,8 +15,8 @@ DESCRIPTION="pytest plugin for comparing call arguments."
 
 HOMEPAGE="https://pytesty.github.io/pytest-compare/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/03/58/a873f215603b1ab0998cb625da8c3e0a4de6d86cf4fd4d697aa3a7f51803/pytest_compare-${REALVERSION}.tar.gz"
-SOURCEFILE="pytest_compare-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/03/58/a873f215603b1ab0998cb625da8c3e0a4de6d86cf4fd4d697aa3a7f51803/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

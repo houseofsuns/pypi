@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module with Belgian chart of accounts"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/9f/c2/789dff063fd2f9f825575f4fb6396d046eb844aa95f3d804b094312414b7/trytond_account_be-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_account_be-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9f/c2/789dff063fd2f9f825575f4fb6396d046eb844aa95f3d804b094312414b7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

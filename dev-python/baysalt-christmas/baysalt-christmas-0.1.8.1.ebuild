@@ -15,8 +15,8 @@ DESCRIPTION="Some simple tools for Christmas"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/63/8c/4b9da7b51a6bd89c80bc7d6bbcf517710bb177663c5886dddf5bfd345c89/baysalt_christmas-${REALVERSION}.tar.gz"
-SOURCEFILE="baysalt_christmas-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/63/8c/4b9da7b51a6bd89c80bc7d6bbcf517710bb177663c5886dddf5bfd345c89/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A package which provides an interactive HTML debugger for Pyramid a
 
 HOMEPAGE="https://docs.pylonsproject.org/projects/pyramid-debugtoolbar/en/latest/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/f5/70/83346d56e99b736ad1adc71584e9462ca9f4d3e92e70be6479c4c34193fb/pyramid_debugtoolbar-${REALVERSION}.tar.gz"
-SOURCEFILE="pyramid_debugtoolbar-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f5/70/83346d56e99b736ad1adc71584e9462ca9f4d3e92e70be6479c4c34193fb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

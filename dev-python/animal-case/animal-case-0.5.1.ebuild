@@ -15,8 +15,8 @@ DESCRIPTION="Convert from camel case to snake case and vice-versa"
 
 HOMEPAGE="https://github.com/dternyak/animal_case"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/99/2b/3ddb5bf83c77710d5d658a7f8f6a786953b12bcddfc264b239ab9b6a3389/animal_case-${REALVERSION}.tar.gz"
-SOURCEFILE="animal_case-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/99/2b/3ddb5bf83c77710d5d658a7f8f6a786953b12bcddfc264b239ab9b6a3389/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

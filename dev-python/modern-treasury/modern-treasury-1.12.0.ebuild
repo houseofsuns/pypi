@@ -15,8 +15,8 @@ DESCRIPTION="Client library for the Modern Treasury API"
 
 HOMEPAGE="https://github.com/Modern-Treasury/modern-treasury-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/79/fb/9c775d284d00ac0cb5a5e02e7ea5f101bf3775c4517ce25695fc3fbcd03c/modern_treasury-${REALVERSION}.tar.gz"
-SOURCEFILE="modern_treasury-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/79/fb/9c775d284d00ac0cb5a5e02e7ea5f101bf3775c4517ce25695fc3fbcd03c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

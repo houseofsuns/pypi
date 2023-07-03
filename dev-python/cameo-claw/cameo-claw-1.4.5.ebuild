@@ -15,8 +15,8 @@ DESCRIPTION="Multiprocessing download, filter, streaming. ⚡️FAST⚡️ remov
 
 HOMEPAGE="https://github.com/bohachu/cameo_claw"
 LICENSE="BSD 2-clause"
-SRC_URI="https://files.pythonhosted.org/packages/0d/b4/382ec03ccd73563f7d5d626fa1126be02f3a2a050d5930d21e5ead14136b/cameo_claw-${REALVERSION}.tar.gz"
-SOURCEFILE="cameo_claw-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0d/b4/382ec03ccd73563f7d5d626fa1126be02f3a2a050d5930d21e5ead14136b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Python 3 Gearman API - Client, worker, and admin client interfaces"
 
 HOMEPAGE="https://github.com/josiahmwalton/python3-gearman"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/1b/d2/c142c6edbab9415ee97c8f0080489507865ff747e0903f83de9c262659d8/python3_gearman-${REALVERSION}.tar.gz"
-SOURCEFILE="python3_gearman-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1b/d2/c142c6edbab9415ee97c8f0080489507865ff747e0903f83de9c262659d8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Quilt3 catalog: local development mode"
 
 HOMEPAGE="https://quiltdata.com"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/6d/f9/ac4d27e01ca286684cd9c399bfe247c6ea826d8b6ebd5f693a459c2e7b74/quilt3_local-${REALVERSION}.tar.gz"
-SOURCEFILE="quilt3_local-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6d/f9/ac4d27e01ca286684cd9c399bfe247c6ea826d8b6ebd5f693a459c2e7b74/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

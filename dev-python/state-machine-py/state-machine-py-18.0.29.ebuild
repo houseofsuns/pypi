@@ -15,8 +15,8 @@ DESCRIPTION="A state diagram machine package"
 
 HOMEPAGE="https://github.com/muzudho/state-machine-py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/aa/1e/df7f82bd12fa797b9d6021f50d3c587e90e5c8d813d13c57a83f70b75550/state_machine_py-${REALVERSION}.tar.gz"
-SOURCEFILE="state_machine_py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/aa/1e/df7f82bd12fa797b9d6021f50d3c587e90e5c8d813d13c57a83f70b75550/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

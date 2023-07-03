@@ -15,8 +15,8 @@ DESCRIPTION="Parsing Textfields"
 
 HOMEPAGE="https://github.com/thhapke/textfield_parser"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c9/a5/1c5dfede2f0cbc0fc4b8d92eb917ab513ebc723ed568dd06da3790f18f04/textfield_parser-${REALVERSION}.tar.gz"
-SOURCEFILE="textfield_parser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c9/a5/1c5dfede2f0cbc0fc4b8d92eb917ab513ebc723ed568dd06da3790f18f04/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

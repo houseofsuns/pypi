@@ -15,8 +15,8 @@ DESCRIPTION="Particle selection tool for cryo-em"
 
 HOMEPAGE="https://github.com/MPI-Dortmund/napari-boxmanager"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/36/41/4433c2e06aee88f4c0414c7b1a8443f8213d46846e0ef130b5852e561802/napari_boxmanager-${REALVERSION}.tar.gz"
-SOURCEFILE="napari_boxmanager-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/36/41/4433c2e06aee88f4c0414c7b1a8443f8213d46846e0ef130b5852e561802/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

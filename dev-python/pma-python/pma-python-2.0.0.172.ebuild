@@ -15,8 +15,8 @@ DESCRIPTION="Universal viewing of digital microscopy, whole slide imaging and di
 
 HOMEPAGE="http://github.com/pathomation/pma_python"
 LICENSE="http://free.pathomation.com/eula/"
-SRC_URI="https://files.pythonhosted.org/packages/1d/d9/8a8d6c9a0bc68a98da3a99f8228df6d599614dcb41892b401a0cec395926/pma_python-${REALVERSION}.tar.gz"
-SOURCEFILE="pma_python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1d/d9/8a8d6c9a0bc68a98da3a99f8228df6d599614dcb41892b401a0cec395926/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

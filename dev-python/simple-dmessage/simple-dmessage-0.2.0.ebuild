@@ -15,8 +15,8 @@ DESCRIPTION="A package for sending direct messages via Discord"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/27/dd/1fb4b64cc6890d2d65b8d89ada79acf2a4f3a5f8f2c7012e4f61f31fda15/simple_dmessage-${REALVERSION}.tar.gz"
-SOURCEFILE="simple_dmessage-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/27/dd/1fb4b64cc6890d2d65b8d89ada79acf2a4f3a5f8f2c7012e4f61f31fda15/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

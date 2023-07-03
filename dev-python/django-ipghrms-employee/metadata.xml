@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>============================Django IPG HRMS employee============================Quick start============1. Add 'employee' to your INSTALLED_APPS settings like this::    INSTALLED_APPS = [        'employee'    ]2. Include the employee to project URLS like this::    path('employee/', include('employee.urls')),3. Run ``python manage.py migrate`` to create employee model4. Another Apps Need for this Apps::    4.1. custom::    4.2. employee::    4.3. user</longdescription>
+</pkgmetadata>

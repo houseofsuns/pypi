@@ -15,8 +15,8 @@ DESCRIPTION="Python Orthanc Tools"
 
 HOMEPAGE="https://github.com/orthanc-team/python-orthanc-tools"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bd/8e/dccd32034ccb28b2e8b808aadc8136927fc992550589e51f0ecefe531cb2/orthanc_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="orthanc_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bd/8e/dccd32034ccb28b2e8b808aadc8136927fc992550589e51f0ecefe531cb2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

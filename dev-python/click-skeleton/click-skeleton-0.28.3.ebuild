@@ -15,8 +15,8 @@ DESCRIPTION="Click app skeleton"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f5/9c/c24a83cd1359863710adfa8276fa5b98cbf4ad402174466ac86673b22692/click_skeleton-${REALVERSION}.tar.gz"
-SOURCEFILE="click_skeleton-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f5/9c/c24a83cd1359863710adfa8276fa5b98cbf4ad402174466ac86673b22692/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

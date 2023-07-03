@@ -15,8 +15,8 @@ DESCRIPTION="A package for interacting with Major Tom's Scripting API."
 
 HOMEPAGE="https://github.com/kubos/majortom_scripting_package"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/61/60/ce264f85ea7a3bb53b69406ca6340571a6fabaf2b2b47734f93c580183ae/majortom_scripting-${REALVERSION}.tar.gz"
-SOURCEFILE="majortom_scripting-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/61/60/ce264f85ea7a3bb53b69406ca6340571a6fabaf2b2b47734f93c580183ae/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

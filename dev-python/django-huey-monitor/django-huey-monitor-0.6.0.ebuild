@@ -15,8 +15,8 @@ DESCRIPTION="Django based tool for monitoring huey task queue: https://github.co
 
 HOMEPAGE="https://github.com/boxine/django-huey-monitor/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ae/8e/81c245bab127cf549f7cd9306d63e49a1ab239180acc269f14a67a7b7b0a/django_huey_monitor-${REALVERSION}.tar.gz"
-SOURCEFILE="django_huey_monitor-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ae/8e/81c245bab127cf549f7cd9306d63e49a1ab239180acc269f14a67a7b7b0a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

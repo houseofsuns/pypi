@@ -15,8 +15,8 @@ DESCRIPTION="SDK for communicating with Mona's servers"
 
 HOMEPAGE="https://github.com/monalabs/mona-sdk"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/48/b3/ed27ee6b93d739a003c2e40f7296891e56194b7a45cfec373e2cda792cad/mona_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="mona_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/48/b3/ed27ee6b93d739a003c2e40f7296891e56194b7a45cfec373e2cda792cad/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

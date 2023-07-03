@@ -15,8 +15,8 @@ DESCRIPTION="Flask Ninja is a web framework for building APIs with Flask and Pyt
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b9/a6/cdef0bc7f4bdb4c0a820530cc880fb2e0ac38dc9700f6a66d0849ec2680c/flask_ninja-${REALVERSION}.tar.gz"
-SOURCEFILE="flask_ninja-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b9/a6/cdef0bc7f4bdb4c0a820530cc880fb2e0ac38dc9700f6a66d0849ec2680c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

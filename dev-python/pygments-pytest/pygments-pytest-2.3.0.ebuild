@@ -15,8 +15,8 @@ DESCRIPTION="A pygments lexer for pytest output."
 
 HOMEPAGE="https://github.com/asottile/pygments-pytest"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e9/4f/ec5086af65a9995d01a2ad5b0879d698fbb4900cc989ea72ca1047326fa3/pygments_pytest-${REALVERSION}.tar.gz"
-SOURCEFILE="pygments_pytest-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e9/4f/ec5086af65a9995d01a2ad5b0879d698fbb4900cc989ea72ca1047326fa3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

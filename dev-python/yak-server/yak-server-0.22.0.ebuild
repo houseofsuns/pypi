@@ -15,8 +15,8 @@ DESCRIPTION="Football bet rest/graphql server"
 
 HOMEPAGE="https://github.com/yak-toto/yak-server"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/16/83/e2678897d2490a9643159c7c0499499adb9f820cabd831e5f2c00af6a4ee/yak_server-${REALVERSION}.tar.gz"
-SOURCEFILE="yak_server-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/16/83/e2678897d2490a9643159c7c0499499adb9f820cabd831e5f2c00af6a4ee/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

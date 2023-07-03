@@ -15,8 +15,8 @@ DESCRIPTION="SQLAlchemy soft delete"
 
 HOMEPAGE="https://github.com/vitaly-efremov/sqla-softdelete"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/d1/13/d591ac1b4339614687641b45fdeb83171b550881059f29f5ab13d5b42ae9/sqla_softdelete-${REALVERSION}.tar.gz"
-SOURCEFILE="sqla_softdelete-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d1/13/d591ac1b4339614687641b45fdeb83171b550881059f29f5ab13d5b42ae9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

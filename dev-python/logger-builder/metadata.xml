@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Logger builderPackage meant to be a facade for native logging. It simplifies the creation of the logger andusing several handlers.## PrerequisitesPython &gt; 3.6## InstallationThe Package is available directly on the Python Package Index```pip install logger_builder```## RunningThe use of the basic stream logger involves initialization of the formatter, stream handler factory,logger builder, and running the create logger function.```from logger_builder import LoggerBuilderfrom logger_builder.formatter import create_formatterfrom logger_builder.handler.factory import StreamHandlerFactoryif __name__ == &quot;__main__&quot;:    formatter = create_formatter(simple_description=True)    stream_handler_factory = StreamHandlerFactory(formatter)    handler_factories = [stream_handler_factory]    logger_builder = LoggerBuilder(handler_factories)    logger = logger_builder.create_logger(&quot;example&quot;)    logger.info(f&quot;Log something&quot;)```Log to file , and buffering handler factories were implemented as well (FileHandlerFactory, andMemoryHandlerFactory, respectively).# Change Log## 0.0.3Released on 2022-05-06.### Added### ChangedCorrected project description in PyPI### Removed## 0.0.2Released on 2022-05-04.### AddedMemory handler so that the logs are not emitted one by one, but in batches.### ChangedImproved basic formatter, so that different logging information can be included.### Removed</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="A Pulumi package for creating and managing consul resources."
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/41/67/fa3a6ce9933e0b2c002d5aab938ab218f385989679be307112798d80b239/pulumi_consul-${REALVERSION}.tar.gz"
-SOURCEFILE="pulumi_consul-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/41/67/fa3a6ce9933e0b2c002d5aab938ab218f385989679be307112798d80b239/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

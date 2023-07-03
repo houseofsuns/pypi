@@ -15,8 +15,8 @@ DESCRIPTION="The Observatory Control System (OCS) Observation Portal django apps
 
 HOMEPAGE="https://observatorycontrolsystem.github.io"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/b0/1c/360cb4fe4c088f6301d4e0acad7c110bbf21458715099c6343893aba250b/django_ocs_observation_portal-${REALVERSION}.tar.gz"
-SOURCEFILE="django_ocs_observation_portal-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b0/1c/360cb4fe4c088f6301d4e0acad7c110bbf21458715099c6343893aba250b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

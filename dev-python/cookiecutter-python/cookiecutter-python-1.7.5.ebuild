@@ -15,8 +15,8 @@ DESCRIPTION="Yet another modern Python Package (pypi) with emphasis in CI/CD and
 
 HOMEPAGE="https://github.com/boromir674/cookiecutter-python-package"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/98/1a/f9941ebbedb570cced79797e73a488f099ab84cf5484c266b8fdae945883/cookiecutter_python-${REALVERSION}.tar.gz"
-SOURCEFILE="cookiecutter_python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/98/1a/f9941ebbedb570cced79797e73a488f099ab84cf5484c266b8fdae945883/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

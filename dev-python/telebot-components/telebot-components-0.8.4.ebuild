@@ -15,8 +15,8 @@ DESCRIPTION="Framework/toolkit for building Telegram bots with telebot and redis
 
 HOMEPAGE="https://github.com/bots-against-war/telebot-components"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/8d/69/5dad3e4d000c21035d06eefdf7e4f1b76aac145febf02f43a0feb4212b5e/telebot_components-${REALVERSION}.tar.gz"
-SOURCEFILE="telebot_components-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8d/69/5dad3e4d000c21035d06eefdf7e4f1b76aac145febf02f43a0feb4212b5e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

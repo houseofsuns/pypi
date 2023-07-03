@@ -15,8 +15,8 @@ DESCRIPTION="A test bench to benchmark learn algorithms for graphical models"
 
 HOMEPAGE="https://github.com/windisch/bn_testing"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/8f/09/b540a7c48b061552232bd26af396efa8ec0b3ad1b929765f48196eb8b609/bn_testing-${REALVERSION}.tar.gz"
-SOURCEFILE="bn_testing-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8f/09/b540a7c48b061552232bd26af396efa8ec0b3ad1b929765f48196eb8b609/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

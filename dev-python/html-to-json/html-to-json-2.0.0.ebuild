@@ -15,8 +15,8 @@ DESCRIPTION="Convert html to json."
 
 HOMEPAGE="https://github.com/fhightower/html-to-json"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/da/83/c425c27e4c8f4b622901f8b58ad48e53be14a080d341a70c67570f1ec30a/html_to_json-${REALVERSION}.tar.gz"
-SOURCEFILE="html_to_json-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/da/83/c425c27e4c8f4b622901f8b58ad48e53be14a080d341a70c67570f1ec30a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

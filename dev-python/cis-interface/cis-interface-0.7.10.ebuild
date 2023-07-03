@@ -15,8 +15,8 @@ DESCRIPTION="A framework for combining interdependent models from multiple langu
 
 HOMEPAGE="https://github.com/cropsinsilico/cis_interface"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/33/c5/4108a6fa4667ad26c752cb1a3d36f0914d17d523a343e458eccac8d0edee/cis_interface-${REALVERSION}.tar.gz"
-SOURCEFILE="cis_interface-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/33/c5/4108a6fa4667ad26c752cb1a3d36f0914d17d523a343e458eccac8d0edee/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

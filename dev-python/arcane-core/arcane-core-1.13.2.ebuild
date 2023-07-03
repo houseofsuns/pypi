@@ -15,8 +15,8 @@ DESCRIPTION="Common utility functions"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6c/3c/70a41e1219410c68081c506d00acf5a2eab52173ac424d243c7072386b3e/arcane_core-${REALVERSION}.tar.gz"
-SOURCEFILE="arcane_core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6c/3c/70a41e1219410c68081c506d00acf5a2eab52173ac424d243c7072386b3e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

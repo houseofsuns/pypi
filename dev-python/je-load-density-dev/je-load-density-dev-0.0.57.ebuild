@@ -15,8 +15,8 @@ DESCRIPTION="Load & Stress Automation Freamework"
 
 HOMEPAGE="https://github.com/Intergration-Automation-Testing/LoadDensity"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ca/a4/ed3e3bbd34c544064e269a3ee8c9ebe00e221ce2e4de5f902da296b8588f/je_load_density_dev-${REALVERSION}.tar.gz"
-SOURCEFILE="je_load_density_dev-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ca/a4/ed3e3bbd34c544064e269a3ee8c9ebe00e221ce2e4de5f902da296b8588f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

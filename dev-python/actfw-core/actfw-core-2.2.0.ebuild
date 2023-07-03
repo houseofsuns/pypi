@@ -15,8 +15,8 @@ DESCRIPTION="Core components of actfw, independent of specific devices"
 
 HOMEPAGE="https://github.com/Idein/actfw-core"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9a/cd/aed60800a6a41dcb32a0d1a22fa85d4d3deffd6bf47bbe0ab39908281f7e/actfw_core-${REALVERSION}.tar.gz"
-SOURCEFILE="actfw_core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9a/cd/aed60800a6a41dcb32a0d1a22fa85d4d3deffd6bf47bbe0ab39908281f7e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

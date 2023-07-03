@@ -15,8 +15,8 @@ DESCRIPTION="Skyplane efficiently transports data between cloud regions and prov
 
 HOMEPAGE="https://skyplane.org/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/78/96/a7cb1a0cb2c780b4f4955e20b0bb5a790cb30e9230f4557530ce72d69530/skyplane_nightly-${REALVERSION}.tar.gz"
-SOURCEFILE="skyplane_nightly-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/78/96/a7cb1a0cb2c780b4f4955e20b0bb5a790cb30e9230f4557530ce72d69530/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

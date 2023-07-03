@@ -15,8 +15,8 @@ DESCRIPTION="A framework for transforming .usfm files into specified targets"
 
 HOMEPAGE="https://github.com/unfoldingWord-dev/USFM-Tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5e/9f/5a79ed9c77e186bd0112ddd13a8678c0ad86f5cfe0128bfadbb5e2df0739/usfm_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="usfm_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5e/9f/5a79ed9c77e186bd0112ddd13a8678c0ad86f5cfe0128bfadbb5e2df0739/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

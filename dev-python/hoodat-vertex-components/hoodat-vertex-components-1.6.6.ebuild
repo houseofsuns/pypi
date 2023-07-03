@@ -15,8 +15,8 @@ DESCRIPTION="Re-usable kfp components for hoodat"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/71/fc/278b099231e7a4bbbb10fc9bbd26ec4f7869832989db6b274e47985eec78/hoodat_vertex_components-${REALVERSION}.tar.gz"
-SOURCEFILE="hoodat_vertex_components-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/71/fc/278b099231e7a4bbbb10fc9bbd26ec4f7869832989db6b274e47985eec78/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

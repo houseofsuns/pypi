@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This package provides the [PERT](https://en.wikipedia.org/wiki/PERT_distribution) (also known as beta-PERT) distribution.Both the PERT distribution and its generalization, the modified PERT distribution, are provided.The distributions work exactly like SciPy continuous probability distributions. They are subclasses of `rv_continuous`.# Installation```shell# or `poetry add betapert`pip install betapert```# Usage```pythonfrom betapert import pert, mpert# Define the distribution:dist = pert(10, 30, 90)# Or, using keyword arguments:dist = pert(mini=10, mode=30, maxi=90)# Call standard SciPy methods:dist.pdf(50)dist.cdf(50)dist.mean()dist.rvs(size=10)# Or, you can directly use the methods on this object:pert.pdf(50, mini=10, mode=30, maxi=90)pert.cdf(50, mini=10, mode=30, maxi=90)pert.mean(mini=10, mode=30, maxi=90)pert.rvs(mini=10, mode=30, maxi=90, size=10)# The modified PERT distribution is also available.# A PERT distribution corresponds to `lambd=4`.# Note that you cannot call `mpert` without specifying `lambd`# (`pert` and `mpert` must have different signatures since SciPy does# not support optional shape parameters).mdist = mpert(10, 30, 90, lambd=2)# Values of `lambd&lt;4` have the effect of flattening the density curve#       6%                 &gt;  1.5%assert (1 - mdist.cdf(80)) &gt; (1 - dist.cdf(80))```# TestsA thorough test suite is included.```❯ pytest=============== 250 passed in 3.52s ===============tests/test_frozen.py tests/test_generalization.pytests/test_mpert_parametrized.pytests/test_special_cases.py ```</longdescription>
+</pkgmetadata>

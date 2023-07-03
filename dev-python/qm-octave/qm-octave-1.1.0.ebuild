@@ -15,8 +15,8 @@ DESCRIPTION="SDK to control an Octave with QUA"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fc/3e/aad6d99ddf5b47f66072fe354f1cbf0012d13721786aebfbe99c872ca5d8/qm_octave-${REALVERSION}.tar.gz"
-SOURCEFILE="qm_octave-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fc/3e/aad6d99ddf5b47f66072fe354f1cbf0012d13721786aebfbe99c872ca5d8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

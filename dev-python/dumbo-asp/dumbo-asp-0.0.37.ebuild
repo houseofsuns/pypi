@@ -15,8 +15,8 @@ DESCRIPTION="Utilities for Answer Set Programming"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d4/a4/e1b3f034d6f25b8d0472688bf1ca8a562fca1b0d4fc18f5718a7263cb7d4/dumbo_asp-${REALVERSION}.tar.gz"
-SOURCEFILE="dumbo_asp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d4/a4/e1b3f034d6f25b8d0472688bf1ca8a562fca1b0d4fc18f5718a7263cb7d4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

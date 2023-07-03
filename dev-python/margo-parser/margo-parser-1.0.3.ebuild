@@ -15,8 +15,8 @@ DESCRIPTION="A notebook description language parser"
 
 HOMEPAGE="https://github.com/margo-notebooks/margo-parser-py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9f/63/99aa66b1dc69cf3e29902149a104b610b2fedd5d7ae433dc5fe6da14038b/margo_parser-${REALVERSION}.tar.gz"
-SOURCEFILE="margo_parser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9f/63/99aa66b1dc69cf3e29902149a104b610b2fedd5d7ae433dc5fe6da14038b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

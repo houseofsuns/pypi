@@ -15,8 +15,8 @@ DESCRIPTION="flake8 plugin which checks for misuse of \`sys.version\` or \`sys.v
 
 HOMEPAGE="https://github.com/asottile/flake8-2020"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cf/0b/e71a0d9efd854a631e2d51707676886997c73bec70c3c221b84601b976d2/flake8_2020-${REALVERSION}.tar.gz"
-SOURCEFILE="flake8_2020-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cf/0b/e71a0d9efd854a631e2d51707676886997c73bec70c3c221b84601b976d2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

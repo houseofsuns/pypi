@@ -15,8 +15,8 @@ DESCRIPTION="setuptools_scm plugin for git archives"
 
 HOMEPAGE="https://github.com/Changaco/setuptools_scm_git_archive/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/69/5f/7135eec07395c51d3dd6899251b277405ecc2f8f7a80ef80a483e3c5a2bd/setuptools_scm_git_archive-${REALVERSION}.tar.gz"
-SOURCEFILE="setuptools_scm_git_archive-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/69/5f/7135eec07395c51d3dd6899251b277405ecc2f8f7a80ef80a483e3c5a2bd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

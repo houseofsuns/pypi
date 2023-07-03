@@ -15,8 +15,8 @@ DESCRIPTION="Code cell vim bindings"
 
 HOMEPAGE="https://github.com/jupyterlab-contrib/jupyterlab-vim"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bd/da/fe2ab4e186b9a27d84bb9b0a0999b411aba796f38509777a5a37e436cdc3/jupyterlab_vim-${REALVERSION}.tar.gz"
-SOURCEFILE="jupyterlab_vim-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bd/da/fe2ab4e186b9a27d84bb9b0a0999b411aba796f38509777a5a37e436cdc3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

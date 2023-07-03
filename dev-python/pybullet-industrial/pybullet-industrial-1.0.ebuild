@@ -15,8 +15,8 @@ DESCRIPTION="Pybullet_industrial is a process-aware robot simulation framework f
 
 HOMEPAGE="https://pybullet-industrial.readthedocs.io/en/latest/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ed/d9/ae6e36b2fd0d490ac46b40b1ba38941fff35f83aa3c8d57f73425e3e4c99/pybullet_industrial-${REALVERSION}.tar.gz"
-SOURCEFILE="pybullet_industrial-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ed/d9/ae6e36b2fd0d490ac46b40b1ba38941fff35f83aa3c8d57f73425e3e4c99/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

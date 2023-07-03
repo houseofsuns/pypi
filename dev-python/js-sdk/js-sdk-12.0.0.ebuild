@@ -15,8 +15,8 @@ DESCRIPTION="SDK for threefold grid"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/77/48/09df431d6b0bf376303d7849ffb2f65eb7451223f73c37ab78cae0f0b393/js_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="js_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/77/48/09df431d6b0bf376303d7849ffb2f65eb7451223f73c37ab78cae0f0b393/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

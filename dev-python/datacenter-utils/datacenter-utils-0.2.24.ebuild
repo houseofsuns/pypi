@@ -15,8 +15,8 @@ DESCRIPTION="datacenter_utils"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/de/fd/61e7de66971c40d4a1bcf456dbf828af1db005df41cebd0b31644c27ae3c/datacenter_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="datacenter_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/de/fd/61e7de66971c40d4a1bcf456dbf828af1db005df41cebd0b31644c27ae3c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

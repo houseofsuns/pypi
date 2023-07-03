@@ -15,8 +15,8 @@ DESCRIPTION="A Poetry plugin that adds tooling support for the Polylith Architec
 
 HOMEPAGE="https://davidvujic.github.io/python-polylith-docs/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/52/70/c4799a5cd60474db4fa25f1cff95f09641ef893abd0389070ab235a3cc20/poetry_polylith_plugin-${REALVERSION}.tar.gz"
-SOURCEFILE="poetry_polylith_plugin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/52/70/c4799a5cd60474db4fa25f1cff95f09641ef893abd0389070ab235a3cc20/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

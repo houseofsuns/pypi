@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/95/34/0ce0f4f99fb4b439416c986c96424c5f701f9dad23f5944795bfb02ba962/philbot_voice-${REALVERSION}.tar.gz"
-SOURCEFILE="philbot_voice-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/95/34/0ce0f4f99fb4b439416c986c96424c5f701f9dad23f5944795bfb02ba962/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

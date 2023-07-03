@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pyodide-importer[Pyodide](https://pyodide.org) + external file import support## InstallationInside Pyodide:```pyimport micropipawait micropip.install(&quot;pyodide-importer&quot;)```## Basic Usage```pyfrom pyodide_importer import register_hookregister_hook(&quot;&lt;Base URL where python scripts are in&gt;&quot;)import external_module```__Example__```pyimport micropipawait micropip.install(&quot;pyodide-importer&quot;)from pyodide_importer import register_hookregister_hook(&quot;https://raw.githubusercontent.com/ryanking13/pyodide-importer/main/test_modules/&quot;)# https://raw.githubusercontent.com/ryanking13/pyodide-importer/main/test_modules/file_module.pyimport file_modulefile_module.hello()# https://raw.githubusercontent.com/ryanking13/pyodide-importer/main/test_modules/regular_module/__init__.pyimport regular_moduleregular_module.hello()```## Advanced Usage__Whitelisting modules to import__Whitelisting modules will prevent from generating redundant HTTP requests when looking for not existing modules.```pyregister_hook(    &quot;&lt;Base URL where python scripts are in&gt;&quot;,    modules=[&quot;module1&quot;, &quot;module2&quot;])```__Changing path where modules will be downloaded__`download_path` option changes the path where modules will be downloaded inside the virtual file system,default is set to the current working directory.```pyregister_hook(    &quot;&lt;Base URL where python scripts are in&gt;&quot;,    download_path=&quot;/path/to/be/downloaded&quot;,)```</longdescription>
+</pkgmetadata>

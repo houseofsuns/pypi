@@ -15,8 +15,8 @@ DESCRIPTION="PyAMS tasks scheduler"
 
 HOMEPAGE="https://pyams.readthedocs.io"
 LICENSE="ZPL"
-SRC_URI="https://files.pythonhosted.org/packages/23/c1/c6bd809f5da494ae78d06ad36d3d6beb065b89ab8e49f874a12fa091f978/pyams_scheduler-${REALVERSION}.tar.gz"
-SOURCEFILE="pyams_scheduler-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/23/c1/c6bd809f5da494ae78d06ad36d3d6beb065b89ab8e49f874a12fa091f978/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

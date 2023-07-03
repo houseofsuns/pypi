@@ -15,8 +15,8 @@ DESCRIPTION="pyramid_ldap3"
 
 HOMEPAGE="https://trypyramid.com/extending-pyramid.html"
 LICENSE="BSD-derived Repoze"
-SRC_URI="https://files.pythonhosted.org/packages/5a/43/a840ec8e681ff635786dccfc41f540a002973e2dbe2fb60758c75d6b1881/pyramid_ldap3-${REALVERSION}.tar.gz"
-SOURCEFILE="pyramid_ldap3-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5a/43/a840ec8e681ff635786dccfc41f540a002973e2dbe2fb60758c75d6b1881/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="None"
 
 HOMEPAGE="https://github.com/flatironinstitute/kachery-cloud"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3b/9f/39e2778bbe1419f7f289abb7a25ce011ae0eb127dc157816a23d14335c87/kachery_cloud-${REALVERSION}.tar.gz"
-SOURCEFILE="kachery_cloud-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3b/9f/39e2778bbe1419f7f289abb7a25ce011ae0eb127dc157816a23d14335c87/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

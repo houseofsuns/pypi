@@ -15,8 +15,8 @@ DESCRIPTION="Python Client for Google Cloud Storage"
 
 HOMEPAGE="https://github.com/talkiq/gcloud-aio"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/06/46/721406eba9444ac1edeb559078e4cc1b019d6420e6cf4e21d69269588f19/gcloud_aio_storage-${REALVERSION}.tar.gz"
-SOURCEFILE="gcloud_aio_storage-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/06/46/721406eba9444ac1edeb559078e4cc1b019d6420e6cf4e21d69269588f19/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

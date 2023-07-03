@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>AIEarth Engine Python SDKVisit the [AIEarth main page](https://engine-aiearth.aliyun.com/)for more information.    # Quickstart[快速入门](https://engine-aiearth.aliyun.com/docs/page/guide?d=c2989d)</longdescription>
+</pkgmetadata>

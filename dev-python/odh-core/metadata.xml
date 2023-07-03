@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ODH CORECore helper py lib for working with ODH# Changelogsee docs/changelog.rst# Todo- add logging with docs about uvicorn- get secrets from azure key valut</longdescription>
+</pkgmetadata>

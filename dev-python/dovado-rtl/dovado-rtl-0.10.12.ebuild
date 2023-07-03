@@ -15,8 +15,8 @@ DESCRIPTION="RTL Design Space Exploration on top of Vivado"
 
 HOMEPAGE="https://github.com/DPaletti/dovado"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/14/83/6fb9dc791e96c47940ad4e72ac6da035cd436f8831d8ecc7475a52c54f71/dovado_rtl-${REALVERSION}.tar.gz"
-SOURCEFILE="dovado_rtl-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/14/83/6fb9dc791e96c47940ad4e72ac6da035cd436f8831d8ecc7475a52c54f71/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

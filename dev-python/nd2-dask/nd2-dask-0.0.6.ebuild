@@ -15,8 +15,8 @@ DESCRIPTION="Plugin to load nd2 data into napari"
 
 HOMEPAGE="https://github.com/DragaDoncila/nd2-dask"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/0b/ae/373e3852477a9bb962d45f3bb96c54961791d7838283dad68dcdd7d1845a/nd2_dask-${REALVERSION}.tar.gz"
-SOURCEFILE="nd2_dask-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0b/ae/373e3852477a9bb962d45f3bb96c54961791d7838283dad68dcdd7d1845a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

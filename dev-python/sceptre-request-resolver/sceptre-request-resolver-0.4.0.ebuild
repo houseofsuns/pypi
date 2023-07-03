@@ -15,8 +15,8 @@ DESCRIPTION="A Sceptre resolver to make requests from REST API endpoints"
 
 HOMEPAGE="https://github.com/Sceptre/sceptre-request-resolver"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/da/68/f4a55691fd78554ed2b3c48bce0756fd45986289e421e05d32c9c98d3457/sceptre_request_resolver-${REALVERSION}.tar.gz"
-SOURCEFILE="sceptre_request_resolver-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/da/68/f4a55691fd78554ed2b3c48bce0756fd45986289e421e05d32c9c98d3457/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

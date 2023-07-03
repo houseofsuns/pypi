@@ -15,8 +15,8 @@ DESCRIPTION="Greedy, suboptimal solver for the Travelling Salesman Problem"
 
 HOMEPAGE="https://github.com/dmishin/tsp-solver"
 LICENSE="free domain"
-SRC_URI="https://files.pythonhosted.org/packages/7e/d6/5a9a87fe672381a78c5ed1bb8d4e0b42e0748013de48aafc016bb8ac50c5/tsp_solver2-${REALVERSION}.tar.gz"
-SOURCEFILE="tsp_solver2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7e/d6/5a9a87fe672381a78c5ed1bb8d4e0b42e0748013de48aafc016bb8ac50c5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

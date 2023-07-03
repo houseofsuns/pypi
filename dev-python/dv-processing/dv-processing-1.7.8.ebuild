@@ -15,8 +15,8 @@ DESCRIPTION="Generic algorithms for event cameras."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c3/f1/6447b9434f6a22c59b6fedc6b3db0b639af06c587ac01463c22a556ddb89/dv_processing-${REALVERSION}.tar.gz"
-SOURCEFILE="dv_processing-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c3/f1/6447b9434f6a22c59b6fedc6b3db0b639af06c587ac01463c22a556ddb89/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

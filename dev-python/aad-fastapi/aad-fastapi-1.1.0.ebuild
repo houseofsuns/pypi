@@ -15,8 +15,8 @@ DESCRIPTION="aad_fastapi middleware backend helper for bearer verification with 
 
 HOMEPAGE="https://github.com/Mimetis/aad_fastapi"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2c/f1/6f56a2b908ec6ee0ee1843c43fb49c386b0aa31a4fed0fb4ccb9578f55d0/aad_fastapi-${REALVERSION}.tar.gz"
-SOURCEFILE="aad_fastapi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2c/f1/6f56a2b908ec6ee0ee1843c43fb49c386b0aa31a4fed0fb4ccb9578f55d0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

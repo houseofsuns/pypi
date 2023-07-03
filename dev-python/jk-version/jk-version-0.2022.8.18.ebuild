@@ -15,8 +15,8 @@ DESCRIPTION="This python module provides a version class. Instances of this clas
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/65/6e/756296fcfc780b57f30b2f86c6741e9d4eb2a79c668d14a03708aa68e811/jk_version-${REALVERSION}.tar.gz"
-SOURCEFILE="jk_version-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/65/6e/756296fcfc780b57f30b2f86c6741e9d4eb2a79c668d14a03708aa68e811/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

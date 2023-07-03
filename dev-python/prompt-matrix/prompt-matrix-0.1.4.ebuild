@@ -15,8 +15,8 @@ DESCRIPTION="Expand a prompt matrix strings into a list of prompts."
 
 HOMEPAGE="https://osteele.github.io/prompt-matrix.py/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/40/c3/c2131ef06b660b61d053ffedf53ec71c87afbe34e3580a031fc1a07f8280/prompt_matrix-${REALVERSION}.tar.gz"
-SOURCEFILE="prompt_matrix-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/40/c3/c2131ef06b660b61d053ffedf53ec71c87afbe34e3580a031fc1a07f8280/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

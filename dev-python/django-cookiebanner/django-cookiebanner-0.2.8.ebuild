@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/sinnwerkstatt/django-cookiebanner"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/08/75/31d0e47b632dbe52fa4f1c94de1c6b1e20fb04e7bcab8b4436cd97c7095a/django_cookiebanner-${REALVERSION}.tar.gz"
-SOURCEFILE="django_cookiebanner-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/08/75/31d0e47b632dbe52fa4f1c94de1c6b1e20fb04e7bcab8b4436cd97c7095a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

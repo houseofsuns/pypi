@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3f/15/7c4ce988c98fa37af152a33c49cd40c75080825c3c5ab0312c232d8d754b/aide_infra-${REALVERSION}.tar.gz"
-SOURCEFILE="aide_infra-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3f/15/7c4ce988c98fa37af152a33c49cd40c75080825c3c5ab0312c232d8d754b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

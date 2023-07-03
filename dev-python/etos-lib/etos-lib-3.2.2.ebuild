@@ -15,8 +15,8 @@ DESCRIPTION="ETOS Library"
 
 HOMEPAGE="https://github.com/eiffel-community/etos-library"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e6/e8/808cc45246f9ee8372c482f3958272196d8380494f837c161da0ac7a35b2/etos_lib-${REALVERSION}.tar.gz"
-SOURCEFILE="etos_lib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e6/e8/808cc45246f9ee8372c482f3958272196d8380494f837c161da0ac7a35b2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

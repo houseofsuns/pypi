@@ -15,8 +15,8 @@ DESCRIPTION="OCR-D framework - file format APIs and schemas"
 
 HOMEPAGE="https://github.com/OCR-D/core"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f9/eb/f6afc8290d15f4fc8229511f561702070dc1c4c82bbaf852492eba68419b/ocrd_models-${REALVERSION}.tar.gz"
-SOURCEFILE="ocrd_models-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f9/eb/f6afc8290d15f4fc8229511f561702070dc1c4c82bbaf852492eba68419b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

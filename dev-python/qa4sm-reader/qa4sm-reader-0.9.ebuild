@@ -15,8 +15,8 @@ DESCRIPTION="Processes output of qa4sm.eodc.eu (NetCDF file), creating plots and
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d7/17/a342487ae7574d3981f016c9a80226005254802c18e58a8d7390d4e13d8b/qa4sm_reader-${REALVERSION}.tar.gz"
-SOURCEFILE="qa4sm_reader-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d7/17/a342487ae7574d3981f016c9a80226005254802c18e58a8d7390d4e13d8b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

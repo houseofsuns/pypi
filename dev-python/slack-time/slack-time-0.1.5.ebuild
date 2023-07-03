@@ -15,8 +15,8 @@ DESCRIPTION="A simple, intuitive and fast Slack API client for the Slack Web API
 
 HOMEPAGE="http://github.com/jackwardell/SlackTime/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/78/58/63746768f602157c4076f5a5ae4fc61f21c454fbbd5583f07d9e7aceb267/slack_time-${REALVERSION}.tar.gz"
-SOURCEFILE="slack_time-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/78/58/63746768f602157c4076f5a5ae4fc61f21c454fbbd5583f07d9e7aceb267/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

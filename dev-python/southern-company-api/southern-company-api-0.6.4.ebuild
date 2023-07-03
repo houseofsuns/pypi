@@ -15,8 +15,8 @@ DESCRIPTION="Control Southern company websites with this api"
 
 HOMEPAGE="https://github.com/Lash-L/southern-company-api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f9/1e/068c3646795a800cc7dfce70ed1911158355fc06d80a1cef646119b9e6dc/southern_company_api-${REALVERSION}.tar.gz"
-SOURCEFILE="southern_company_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f9/1e/068c3646795a800cc7dfce70ed1911158355fc06d80a1cef646119b9e6dc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

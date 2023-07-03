@@ -15,8 +15,8 @@ DESCRIPTION="A SEAMM plug-in for building periodic boxes of fluid using Packmol"
 
 HOMEPAGE="https://github.com/molssi-seam/packmol_step"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/ed/cc/2489af366f524e03b0a1a36a0236da7aacb3d03aa0249403d5410f2ffd33/packmol_step-${REALVERSION}.tar.gz"
-SOURCEFILE="packmol_step-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ed/cc/2489af366f524e03b0a1a36a0236da7aacb3d03aa0249403d5410f2ffd33/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

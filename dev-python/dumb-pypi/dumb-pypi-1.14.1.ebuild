@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/chriskuehl/dumb-pypi"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/7d/d9/e118974a2c0f37629f6301c96c79ed3be83333e2bd2ef1adca18e2fd4844/dumb_pypi-${REALVERSION}.tar.gz"
-SOURCEFILE="dumb_pypi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7d/d9/e118974a2c0f37629f6301c96c79ed3be83333e2bd2ef1adca18e2fd4844/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

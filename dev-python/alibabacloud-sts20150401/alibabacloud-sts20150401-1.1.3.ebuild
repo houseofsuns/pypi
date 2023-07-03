@@ -15,8 +15,8 @@ DESCRIPTION="Alibaba Cloud Sts (20150401) SDK Library for Python"
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/4f/f3/90f263ed79f27d61f6ad0824849b1b62341f3a2c7e9222269f4aced9f17c/alibabacloud_sts20150401-${REALVERSION}.tar.gz"
-SOURCEFILE="alibabacloud_sts20150401-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4f/f3/90f263ed79f27d61f6ad0824849b1b62341f3a2c7e9222269f4aced9f17c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

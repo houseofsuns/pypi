@@ -15,8 +15,8 @@ DESCRIPTION="FastAPI integration for asyncpg"
 
 HOMEPAGE="https://github.com/jordic/fastapi_asyncpg"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f5/a9/a23d2a4755e66024d49c36fe5ebd1477b014ecd0baac26c67f0b22ca71f9/fastapi_asyncpg-${REALVERSION}.tar.gz"
-SOURCEFILE="fastapi_asyncpg-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f5/a9/a23d2a4755e66024d49c36fe5ebd1477b014ecd0baac26c67f0b22ca71f9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

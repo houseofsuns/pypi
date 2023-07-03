@@ -15,8 +15,8 @@ DESCRIPTION="Python3 port of matomo's Device Detector"
 
 HOMEPAGE="https://github.com/thinkwelltwd/device_detector"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ff/10/6752d657eb8e216446b29e35aea8b6fc4a24eedda1f8fe922110f1dd961d/device_detector-${REALVERSION}.tar.gz"
-SOURCEFILE="device_detector-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ff/10/6752d657eb8e216446b29e35aea8b6fc4a24eedda1f8fe922110f1dd961d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

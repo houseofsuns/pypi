@@ -15,8 +15,8 @@ DESCRIPTION="Program analysis utilities for Python, by r2c. Used in [Bento](http
 
 HOMEPAGE="https://bento.dev"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ab/59/e7559f4ddfd6440dd471880b38bea758364ae61260cb26939c2c69528595/r2c_py_ast-${REALVERSION}.tar.gz"
-SOURCEFILE="r2c_py_ast-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ab/59/e7559f4ddfd6440dd471880b38bea758364ae61260cb26939c2c69528595/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

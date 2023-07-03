@@ -15,8 +15,8 @@ DESCRIPTION="python agent interface native package"
 
 HOMEPAGE="https://github.com/ProtectOnce/agent_interface.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7e/18/854f93abb84ac47f3d72266d26af0d00c57a4eba2aa4b2d22e343662117d/protectonce_native-${REALVERSION}.tar.gz"
-SOURCEFILE="protectonce_native-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7e/18/854f93abb84ac47f3d72266d26af0d00c57a4eba2aa4b2d22e343662117d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

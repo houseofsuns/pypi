@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c9/58/841d94ee9790b29953e3629cd8ed40f61041601406944640ac3fd5e826a9/cognite_seismic_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="cognite_seismic_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c9/58/841d94ee9790b29953e3629cd8ed40f61041601406944640ac3fd5e826a9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

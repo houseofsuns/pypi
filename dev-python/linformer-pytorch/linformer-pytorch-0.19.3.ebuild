@@ -15,8 +15,8 @@ DESCRIPTION="An implementation of the Linformer in Pytorch"
 
 HOMEPAGE="https://github.com/tatp22/linformer-pytorch"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/40/b6/a20386e46144deff0d4013fe0bf490a860bfeb34702f839f0a3db8d8dd96/linformer_pytorch-${REALVERSION}.tar.gz"
-SOURCEFILE="linformer_pytorch-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/40/b6/a20386e46144deff0d4013fe0bf490a860bfeb34702f839f0a3db8d8dd96/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

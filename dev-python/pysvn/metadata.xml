@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pysvn![PyPI](https://img.shields.io/pypi/v/pysvn)This is a Python package that can operate `svn`, provide `log`, `diff`, `numstat` operation.## InstallBinary installers for the latest released version are available at the `Pypi`.```python -m pip install --upgrade pysvn```## Usage### Init&gt; initialize the client on `cwd````pythonimport pysvnclient = pysvn.Client(cwd = os.getcwd(), stdout = subprocess.PIPE)```### log&gt; Show the log messages for a set of revision(s) and/or path(s)..```pythonclient.log(decoding = 'utf8')```### diff&gt; Display local changes or differences between two revisions or paths```pythonclient.diff(start_version, end_version = None, decoding = 'utf8', cache = False)```### numstat&gt; Shows number of added and deleted lines in decimal notation and pathname```pythonclient.numstat(start_version, end_version = None, decoding = 'utf8', cache = False)```## License[BSD](https://github.com/leafvmaple/pysvn/blob/main/LICENSE)</longdescription>
+</pkgmetadata>

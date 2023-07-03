@@ -15,8 +15,8 @@ DESCRIPTION="Checksec tool implemented in Python"
 
 HOMEPAGE="https://github.com/Wenzel/checksec.py"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/7a/32/f905c88fb8d280ad6165454be45f92c9363419ef2370c9d26eea71dfd738/checksec_py-${REALVERSION}.tar.gz"
-SOURCEFILE="checksec_py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7a/32/f905c88fb8d280ad6165454be45f92c9363419ef2370c9d26eea71dfd738/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

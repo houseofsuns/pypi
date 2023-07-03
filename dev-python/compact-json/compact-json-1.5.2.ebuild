@@ -15,8 +15,8 @@ DESCRIPTION="A JSON formatter that produces compact but human-readable"
 
 HOMEPAGE="https://github.com/masaccio/compact-json"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/df/ed/b31d6bac38f644513ea333d3acae9017d38ca5cf6f1c89ba3d9410e72bdf/compact_json-${REALVERSION}.tar.gz"
-SOURCEFILE="compact_json-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/df/ed/b31d6bac38f644513ea333d3acae9017d38ca5cf6f1c89ba3d9410e72bdf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

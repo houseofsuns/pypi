@@ -15,8 +15,8 @@ DESCRIPTION="Reach Python Library"
 
 HOMEPAGE="https://github.com/lijian418/reach"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d9/f1/bed512a3ef1b0e3176117e691dcafabccdc82844701e30cef6c828140f14/reach_python-${REALVERSION}.tar.gz"
-SOURCEFILE="reach_python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d9/f1/bed512a3ef1b0e3176117e691dcafabccdc82844701e30cef6c828140f14/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Gurux network media is used to commmunication with TCP/IP or UDP co
 
 HOMEPAGE="https://github.com/gurux/gurux.net.python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b7/15/151085c2043f20f213e7b5047d448f5af5abdf991e3f31fff672108765db/gurux_net-${REALVERSION}.tar.gz"
-SOURCEFILE="gurux_net-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b7/15/151085c2043f20f213e7b5047d448f5af5abdf991e3f31fff672108765db/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

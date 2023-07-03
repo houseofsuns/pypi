@@ -15,8 +15,8 @@ DESCRIPTION="Work with environment markers (PEP-496)"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6a/a7/9cae07b074f7fd3fedd0cf415292f4fb18ec95bb7fe1a0cc4764061939d3/dephell_markers-${REALVERSION}.tar.gz"
-SOURCEFILE="dephell_markers-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6a/a7/9cae07b074f7fd3fedd0cf415292f4fb18ec95bb7fe1a0cc4764061939d3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

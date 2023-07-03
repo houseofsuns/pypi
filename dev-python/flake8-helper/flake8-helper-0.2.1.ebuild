@@ -15,8 +15,8 @@ DESCRIPTION="A helper library for Flake8 plugins."
 
 HOMEPAGE="https://github.com/python-formate/flake8-helper"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/91/c5/0f5eeabbdbac711011e3fc27cc9dd4f3d49adca00c1d539ab761ea407749/flake8_helper-${REALVERSION}.tar.gz"
-SOURCEFILE="flake8_helper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/91/c5/0f5eeabbdbac711011e3fc27cc9dd4f3d49adca00c1d539ab761ea407749/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

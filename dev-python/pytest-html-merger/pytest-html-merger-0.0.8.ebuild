@@ -15,8 +15,8 @@ DESCRIPTION="Pytest HTML reports merging utility"
 
 HOMEPAGE="https://github.com/akavbathen/pytest_html_merger.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c7/be/3990da6ad1b62e861cb6ae486c19fa61b606a1c4065c4136451faa10ea81/pytest_html_merger-${REALVERSION}.tar.gz"
-SOURCEFILE="pytest_html_merger-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c7/be/3990da6ad1b62e861cb6ae486c19fa61b606a1c4065c4136451faa10ea81/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

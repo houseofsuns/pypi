@@ -15,8 +15,8 @@ DESCRIPTION="Bluetooth control of Yale and August locks"
 
 HOMEPAGE="https://github.com/bdraco/yalexs-ble"
 LICENSE="GNU General Public License v3.0"
-SRC_URI="https://files.pythonhosted.org/packages/d9/60/112d5f745862f2e0670ee9423f2de1fca8c77658f08fe7ffd0dd1969691c/yalexs_ble-${REALVERSION}.tar.gz"
-SOURCEFILE="yalexs_ble-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d9/60/112d5f745862f2e0670ee9423f2de1fca8c77658f08fe7ffd0dd1969691c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

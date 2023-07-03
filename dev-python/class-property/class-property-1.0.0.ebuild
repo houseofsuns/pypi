@@ -15,8 +15,8 @@ DESCRIPTION="Class property that shares the same value with the class and any in
 
 HOMEPAGE="https://github.com/justengel/class_property"
 LICENSE="Proprietary"
-SRC_URI="https://files.pythonhosted.org/packages/44/72/33137436b56a1bbd0451d6ac219662545b9190c97d01a4e4768de4348e18/class_property-${REALVERSION}.tar.gz"
-SOURCEFILE="class_property-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/44/72/33137436b56a1bbd0451d6ac219662545b9190c97d01a4e4768de4348e18/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

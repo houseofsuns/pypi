@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Utility python library for interaction with data-village middleware## AboutThis repository contains a set of utilities for the development of application within the cage, especially with respectto interfacing with the middleware APIs.## Release processThe version management and git tagging must be done in accordance with the versioning practices describedin  [`dv-product` README](../dv-product/README.md#versioning-management).## Deployment## Code Referencescode references for this packages are generated with MkDocs and hosted on Github Pages for this repo:https://datavillage-me.github.io/dv-utils/</longdescription>
+</pkgmetadata>

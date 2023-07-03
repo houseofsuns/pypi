@@ -15,8 +15,8 @@ DESCRIPTION="mini-library for GeneGraph tool and GCB project"
 
 HOMEPAGE="https://github.com/DNKonanov/gene_graph_lib"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/10/5a/581946e3c5e13c5c6add8e7985415c88ae98312d68ca2d31c6be2ecb3bc6/gene_graph_lib-${REALVERSION}.tar.gz"
-SOURCEFILE="gene_graph_lib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/10/5a/581946e3c5e13c5c6add8e7985415c88ae98312d68ca2d31c6be2ecb3bc6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

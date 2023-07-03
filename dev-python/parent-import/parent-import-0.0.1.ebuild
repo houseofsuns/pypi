@@ -15,8 +15,8 @@ DESCRIPTION="This package makes it easier to import from parent directory."
 
 HOMEPAGE="https://github.com/simitii/python_parent_import"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/96/59/ebdf2eb731975131b3c39bcc6e0049f300540e0802ac7e65b11ce80f0c92/parent_import-${REALVERSION}.tar.gz"
-SOURCEFILE="parent_import-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/96/59/ebdf2eb731975131b3c39bcc6e0049f300540e0802ac7e65b11ce80f0c92/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

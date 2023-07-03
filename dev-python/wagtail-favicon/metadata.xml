@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Wagtail FaviconEasily add shortcut icons to any wagtail site. Upload a .png image from a wagtail settings page and wagtail-favicon will resize it and add provide markup to your pages via a template tag.---### Installation &amp; Setup#### Install with pip```pip install wagtail-faviconorpoetry add wagtail-favicon```#### Add to Django installed apps```INSTALLED_APPS = [    #...    'wagtail.contrib.settings'  # &lt;-- ensure you have wagtail settings loaded     'wagtail_favicon',]```#### Add routes to app.urls```from wagtail_favicon.urls import urls as favicon_urlsurlpatterns += [    url(r'^documents/', include(wagtaildocs_urls)),    url(r'^search/$', search, name='search'),    url(r'', include(wagtail_urls)),    url(r'', include(favicon_urls)),  # &lt;------ add urls to existing urls]# note: newer versions of django may use `path` instead of `url````Once you've completed setup you will now be able to access the folloing urls:- https://example.com/manifest.json- https://example.com/browser-config.xml#### Add template tag to &lt;head&gt; tag in templates/base.html```{% load favicon_tags %}  &lt;html&gt;    &lt;head&gt;        {% favicon_meta %}    &lt;/head&gt;```#### Edit SettingsGo to `Wagtail Admin &gt;&gt; Settings &gt;&gt; Favicon`  Configure settings  For best results use a transparent png at 1024 x 1024.  Ideally pre optimised with a tool like [tinypng.com](https://tinypng.com).![Screenshot](https://github.com/octavenz/wagtail-favicon/blob/master/screenshot.jpg)</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="Photometry add-on for the Ampel system"
 
 HOMEPAGE=""
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/c4/c6/992219cf46b65357e4ff0072e2ee66b1f157d23a8c32aee85d8923c0ae85/ampel_photometry-${REALVERSION}.tar.gz"
-SOURCEFILE="ampel_photometry-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c4/c6/992219cf46b65357e4ff0072e2ee66b1f157d23a8c32aee85d8923c0ae85/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="HDX Python scraper utilities to assemble data from multiple sources
 
 HOMEPAGE="https://github.com/OCHA-DAP/hdx-python-scraper"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/51/19/9affedb490d3d9c67c824d3e87fb535c2e4ee5fa884ca267e370a44e7582/hdx_python_scraper-${REALVERSION}.tar.gz"
-SOURCEFILE="hdx_python_scraper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/51/19/9affedb490d3d9c67c824d3e87fb535c2e4ee5fa884ca267e370a44e7582/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

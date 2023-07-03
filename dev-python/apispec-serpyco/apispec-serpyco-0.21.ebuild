@@ -15,8 +15,8 @@ DESCRIPTION="Serpyco plugin for Apispec"
 
 HOMEPAGE="https://github.com/algoo/apispec_plugins"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/00/c6/a6eca826e76e0921b075c501a12495a788cb61b43f427337bbd0712d913e/apispec_serpyco-${REALVERSION}.tar.gz"
-SOURCEFILE="apispec_serpyco-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/00/c6/a6eca826e76e0921b075c501a12495a788cb61b43f427337bbd0712d913e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/aporacloudmobile/zohocrm_prefect_tasks"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/17/d0/4c9a7f831d3fd577ec987b9a840aa5dd09aa2ad1cdc5713a2502428547d1/zohocrm_prefect_tasks-${REALVERSION}.tar.gz"
-SOURCEFILE="zohocrm_prefect_tasks-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/17/d0/4c9a7f831d3fd577ec987b9a840aa5dd09aa2ad1cdc5713a2502428547d1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

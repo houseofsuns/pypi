@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module to add revenue on project"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/43/cb/1c54cd69ed3bd6332c7167db5e90827e55c32213ad82bbe33f1a09af247e/trytond_project_revenue-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_project_revenue-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/43/cb/1c54cd69ed3bd6332c7167db5e90827e55c32213ad82bbe33f1a09af247e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

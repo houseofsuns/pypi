@@ -15,8 +15,8 @@ DESCRIPTION="A collection of modules to facilitate reading text from various sou
 
 HOMEPAGE="https://github.com/medspacy/medspacy_io"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/34/e3/7554953f1761ecbcb7c039c703590c1e0e2ef4a62a486d32d313cb3a0547/medspacy_io-${REALVERSION}.tar.gz"
-SOURCEFILE="medspacy_io-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/34/e3/7554953f1761ecbcb7c039c703590c1e0e2ef4a62a486d32d313cb3a0547/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

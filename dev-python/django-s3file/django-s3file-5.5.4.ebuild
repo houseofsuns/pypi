@@ -15,8 +15,8 @@ DESCRIPTION="A lightweight file uploader input for Django and Amazon S3."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b1/7e/2342dbb9ad8bec283a618cc8f2d7633547ae7da7200ecf25963197c12375/django_s3file-${REALVERSION}.tar.gz"
-SOURCEFILE="django_s3file-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b1/7e/2342dbb9ad8bec283a618cc8f2d7633547ae7da7200ecf25963197c12375/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

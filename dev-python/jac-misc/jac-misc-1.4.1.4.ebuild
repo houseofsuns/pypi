@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/Jaseci-Labs/jaseci/jaseci_ai_kit/jac_misc"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/88/11/74ba2c92c1750aef4a54b5176b4ece1db955d34c9d68b8a626502782c861/jac_misc-${REALVERSION}.tar.gz"
-SOURCEFILE="jac_misc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/88/11/74ba2c92c1750aef4a54b5176b4ece1db955d34c9d68b8a626502782c861/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

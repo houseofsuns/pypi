@@ -15,8 +15,8 @@ DESCRIPTION="SQLAlchemy infrastructure for Minty"
 
 HOMEPAGE="https://gitlab.com/minty-python/minty-infra-sqlalchemy"
 LICENSE="EUPL license"
-SRC_URI="https://files.pythonhosted.org/packages/4f/ad/b4446699c924152baf763be5bba4d60950868fc489e2c8e75d31c809401c/minty_infra_sqlalchemy-${REALVERSION}.tar.gz"
-SOURCEFILE="minty_infra_sqlalchemy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4f/ad/b4446699c924152baf763be5bba4d60950868fc489e2c8e75d31c809401c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

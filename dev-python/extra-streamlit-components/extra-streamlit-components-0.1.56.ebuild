@@ -15,8 +15,8 @@ DESCRIPTION="An all-in-one place, to find complex or just natively unavailable c
 
 HOMEPAGE="https://github.com/Mohamed-512/Extra-Streamlit-Components"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/77/e9/c6c21c33b7f83ba23ac0fbabc6031f51ad9cea5d2d0562b453158770a3bc/extra_streamlit_components-${REALVERSION}.tar.gz"
-SOURCEFILE="extra_streamlit_components-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/77/e9/c6c21c33b7f83ba23ac0fbabc6031f51ad9cea5d2d0562b453158770a3bc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

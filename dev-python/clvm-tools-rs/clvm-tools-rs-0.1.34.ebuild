@@ -15,8 +15,8 @@ DESCRIPTION="tools for working with chialisp language; compiler, repl, python an
 
 HOMEPAGE="https://prozacchiwawa.github.io/clvm_tools_rs/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d4/a5/0f4e4178c6367bcff685c3c7d780e21d9ea81572ee8e79426d169cb3116c/clvm_tools_rs-${REALVERSION}.tar.gz"
-SOURCEFILE="clvm_tools_rs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d4/a5/0f4e4178c6367bcff685c3c7d780e21d9ea81572ee8e79426d169cb3116c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

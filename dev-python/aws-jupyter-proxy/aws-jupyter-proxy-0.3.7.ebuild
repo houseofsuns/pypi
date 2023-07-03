@@ -15,8 +15,8 @@ DESCRIPTION="A Jupyter server extension to proxy requests with AWS SigV4 authent
 
 HOMEPAGE="https://github.com/aws/aws-jupyter-proxy"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/28/fc/29dba72ca93cc6547c6a675ca51defcc7172ec561ee671659e628d2f7f35/aws_jupyter_proxy-${REALVERSION}.tar.gz"
-SOURCEFILE="aws_jupyter_proxy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/28/fc/29dba72ca93cc6547c6a675ca51defcc7172ec561ee671659e628d2f7f35/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

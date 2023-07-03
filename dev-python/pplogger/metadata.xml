@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>pplogger========Logging helperPyPI package: `pplogger &lt;https://pypi.python.org/pypi/pplogger&gt;`__If you spot any problems or have any improvement ideas then feel free toopen an issue and I will be glad to look into it for you.Installation------------A recommended way of installing the module is pip install.pip install~~~~~~~~~~~The tool is available in PyPI and can be installed using pip:::   $ pip install --user pploggerUsage-----::   from pplogger import get_logger   log = get_logger(debug=True)   log.debug('Debug message')</longdescription>
+</pkgmetadata>

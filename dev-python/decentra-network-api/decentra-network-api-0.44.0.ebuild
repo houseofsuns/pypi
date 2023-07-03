@@ -15,8 +15,8 @@ DESCRIPTION="This is API mode installer for Decentra Network"
 
 HOMEPAGE="https://docs.decentranetwork.net/"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f0/a3/bc4df14c60e8e9ac7b5ec1b6166b33798a840b4ac7d83985ffe0a074950c/decentra_network_api-${REALVERSION}.tar.gz"
-SOURCEFILE="decentra_network_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f0/a3/bc4df14c60e8e9ac7b5ec1b6166b33798a840b4ac7d83985ffe0a074950c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

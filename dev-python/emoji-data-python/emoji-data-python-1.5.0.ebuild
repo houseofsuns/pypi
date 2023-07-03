@@ -15,8 +15,8 @@ DESCRIPTION="Python emoji toolkit"
 
 HOMEPAGE="https://github.com/alexmick/emoji-data-python/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/42/82/e2dc3bf8512d957db128c667b8503678bf16e75519c461608fd1d5913b9f/emoji_data_python-${REALVERSION}.tar.gz"
-SOURCEFILE="emoji_data_python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/42/82/e2dc3bf8512d957db128c667b8503678bf16e75519c461608fd1d5913b9f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

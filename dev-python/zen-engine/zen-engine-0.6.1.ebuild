@@ -15,8 +15,8 @@ DESCRIPTION="Open-Source Business Rules Engine"
 
 HOMEPAGE="https://github.com/gorules/zen"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fb/8b/24ee84f88766f1d947a54e9c439842e186c253bfa4dca8d95080466c83b5/zen_engine-${REALVERSION}.tar.gz"
-SOURCEFILE="zen_engine-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fb/8b/24ee84f88766f1d947a54e9c439842e186c253bfa4dca8d95080466c83b5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

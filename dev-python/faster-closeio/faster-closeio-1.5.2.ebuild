@@ -15,8 +15,8 @@ DESCRIPTION="Slim API wrapper to access close.io CRM."
 
 HOMEPAGE="https://github.com/Thermondo/closeio"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/39/0e/1e8ac528ef49e9fe764689ceb3bcd286287dc8fa050f9ff0b79404efd4b3/faster_closeio-${REALVERSION}.tar.gz"
-SOURCEFILE="faster_closeio-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/39/0e/1e8ac528ef49e9fe764689ceb3bcd286287dc8fa050f9ff0b79404efd4b3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f0/ba/79ec0fadece5544200f914e0203c9894e2fd9dce3211411d1aa1f66e38b0/terrascript_aws-${REALVERSION}.tar.gz"
-SOURCEFILE="terrascript_aws-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f0/ba/79ec0fadece5544200f914e0203c9894e2fd9dce3211411d1aa1f66e38b0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

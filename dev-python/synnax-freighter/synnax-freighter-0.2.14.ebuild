@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/71/69/0829361d7f0ee1eaf235a4078f4ba00ed5734361b639da2bbf1fc3802e07/synnax_freighter-${REALVERSION}.tar.gz"
-SOURCEFILE="synnax_freighter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/71/69/0829361d7f0ee1eaf235a4078f4ba00ed5734361b639da2bbf1fc3802e07/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

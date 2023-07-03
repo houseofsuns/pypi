@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module for sale credit limit"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/b3/5d/f3c55a4a8a50bad0a5dcefbf1fc908b0ac26ad238468966c693f4cdd579b/trytond_sale_credit_limit-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_sale_credit_limit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b3/5d/f3c55a4a8a50bad0a5dcefbf1fc908b0ac26ad238468966c693f4cdd579b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

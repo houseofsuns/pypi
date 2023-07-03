@@ -15,8 +15,8 @@ DESCRIPTION="SARIF Formatting Reporter plugin for Flake8"
 
 HOMEPAGE="https://github.com/pycqa/flake8-sarif"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/dc/53/e2d563bd2e2aa7d2a791b1fd9227c1bae871e1ff416f7e43c8f4288b84fc/flake8_sarif-${REALVERSION}.tar.gz"
-SOURCEFILE="flake8_sarif-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/dc/53/e2d563bd2e2aa7d2a791b1fd9227c1bae871e1ff416f7e43c8f4288b84fc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

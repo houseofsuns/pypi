@@ -15,8 +15,8 @@ DESCRIPTION="A flake8 extension that checks classes attributes order"
 
 HOMEPAGE="https://github.com/best-doctor/flake8-class-attributes-order"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/48/86/4d6eb75d7108ea84a72d5100da5bdb23165938cc0daae83e291f5fc51dd3/flake8_class_attributes_order-${REALVERSION}.tar.gz"
-SOURCEFILE="flake8_class_attributes_order-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/48/86/4d6eb75d7108ea84a72d5100da5bdb23165938cc0daae83e291f5fc51dd3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

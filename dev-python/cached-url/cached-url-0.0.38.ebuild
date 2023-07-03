@@ -15,8 +15,8 @@ DESCRIPTION="Library for get url content (cached when testing)."
 
 HOMEPAGE="https://github.com/gaoyunzhi/cached_url"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/21/4c/871362f29115583ca5286558b4f6e65f8638afd687d917ef25d45f5a94b4/cached_url-${REALVERSION}.tar.gz"
-SOURCEFILE="cached_url-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/21/4c/871362f29115583ca5286558b4f6e65f8638afd687d917ef25d45f5a94b4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

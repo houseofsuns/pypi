@@ -15,8 +15,8 @@ DESCRIPTION="aedev namespace package portion tpl_project: outsourced Python proj
 
 HOMEPAGE="https://gitlab.com/aedev-group/aedev_tpl_project"
 LICENSE="OSI Approved :: GNU General Public License v3 or later GPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/28/e6/2439416c84824218d491c86cef5347cfdd982b6d4dce88541a918177cf6e/aedev_tpl_project-${REALVERSION}.tar.gz"
-SOURCEFILE="aedev_tpl_project-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/28/e6/2439416c84824218d491c86cef5347cfdd982b6d4dce88541a918177cf6e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

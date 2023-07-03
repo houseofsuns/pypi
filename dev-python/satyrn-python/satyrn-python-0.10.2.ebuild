@@ -15,8 +15,8 @@ DESCRIPTION="A Notebook alternative that supports branching code"
 
 HOMEPAGE="https://github.com/CharlesAverill/satyrn/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b1/4a/33e578e147dbe470acef4df83292ecf87ab8eb93ae9b2095073e3ff4d145/satyrn_python-${REALVERSION}.tar.gz"
-SOURCEFILE="satyrn_python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b1/4a/33e578e147dbe470acef4df83292ecf87ab8eb93ae9b2095073e3ff4d145/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/06/c6/c49bd23c82420cd942725de01451301efb81b3d72702da5cce9d1429d662/fast_box_lib_py-${REALVERSION}.tar.gz"
-SOURCEFILE="fast_box_lib_py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/06/c6/c49bd23c82420cd942725de01451301efb81b3d72702da5cce9d1429d662/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="An ESA implementation in python."
 
 HOMEPAGE="https://git.webis.de/args/args-topic-modeling/tree/master/src/python/esa"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/85/c8/4fc090bc1b235a0b08e8e7c5f61ede22688f374d875f24e75f639f776b2d/argument_esa_model-${REALVERSION}.linux-x86_64.tar.gz"
-SOURCEFILE="argument_esa_model-${REALVERSION}.linux-x86_64.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/85/c8/4fc090bc1b235a0b08e8e7c5f61ede22688f374d875f24e75f639f776b2d/${REALNAME//-/_}-${REALVERSION}.linux-x86_64.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.linux-x86_64.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

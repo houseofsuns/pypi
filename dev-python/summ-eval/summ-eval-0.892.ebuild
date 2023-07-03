@@ -15,8 +15,8 @@ DESCRIPTION="Toolkit for summarization evaluation"
 
 HOMEPAGE="https://github.com/Yale-LILY/SummEval"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ce/bd/cda7a3e42e0f9bd2cea98a3ccf39af467569f12134cdfaee1907a958491c/summ_eval-${REALVERSION}.tar.gz"
-SOURCEFILE="summ_eval-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ce/bd/cda7a3e42e0f9bd2cea98a3ccf39af467569f12134cdfaee1907a958491c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

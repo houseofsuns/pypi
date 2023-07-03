@@ -15,8 +15,8 @@ DESCRIPTION="Scrapes data from Yahoo! Finance earnings calendar"
 
 HOMEPAGE="https://github.com/wenboyu2/yahoo-earnings-calendar"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0e/c3/b218141a92bd38da91cf1a2246f3855a308b3810a12a8bd7c50e3e68d78d/yahoo_earnings_calendar-${REALVERSION}.tar.gz"
-SOURCEFILE="yahoo_earnings_calendar-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0e/c3/b218141a92bd38da91cf1a2246f3855a308b3810a12a8bd7c50e3e68d78d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

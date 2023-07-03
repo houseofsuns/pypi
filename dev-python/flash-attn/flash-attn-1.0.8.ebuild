@@ -15,8 +15,8 @@ DESCRIPTION="Flash Attention: Fast and Memory-Efficient Exact Attention"
 
 HOMEPAGE="https://github.com/HazyResearch/flash-attention"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2b/8f/4f33f2c0538980a0c21fb9fc79288b8a553cba5328d6e7923d3af1630842/flash_attn-${REALVERSION}.tar.gz"
-SOURCEFILE="flash_attn-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2b/8f/4f33f2c0538980a0c21fb9fc79288b8a553cba5328d6e7923d3af1630842/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

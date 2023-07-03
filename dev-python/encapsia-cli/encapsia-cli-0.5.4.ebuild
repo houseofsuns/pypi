@@ -15,8 +15,8 @@ DESCRIPTION="Client CLI for talking to an Encapsia system."
 
 HOMEPAGE="https://github.com/Encapsia/encapsia-cli"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c4/8a/862858966a938f6f59116dd3c9c853ac46e0e345a8d0eb85050d839d5986/encapsia_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="encapsia_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c4/8a/862858966a938f6f59116dd3c9c853ac46e0e345a8d0eb85050d839d5986/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Remote Frame Buffer for Jupyter"
 
 HOMEPAGE="https://github.com/vispy/jupyter_rfb"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9b/88/0f3976e0e5820a611dfad087e0e7c0eedd4d96fbbae7efaf8971e2613f5f/jupyter_rfb-${REALVERSION}.tar.gz"
-SOURCEFILE="jupyter_rfb-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9b/88/0f3976e0e5820a611dfad087e0e7c0eedd4d96fbbae7efaf8971e2613f5f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

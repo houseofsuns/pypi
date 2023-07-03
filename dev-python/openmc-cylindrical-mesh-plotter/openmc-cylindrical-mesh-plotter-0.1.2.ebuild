@@ -15,8 +15,8 @@ DESCRIPTION="A Python package for creating publication quality plots of cylindri
 
 HOMEPAGE="https://github.com/fusion-energy/openmc_cylindrical_mesh_plotter"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d6/81/e8ed3a17f1edfc88a384438d368595aa4d306b9a784d02ee98a1d7821e3d/openmc_cylindrical_mesh_plotter-${REALVERSION}.tar.gz"
-SOURCEFILE="openmc_cylindrical_mesh_plotter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d6/81/e8ed3a17f1edfc88a384438d368595aa4d306b9a784d02ee98a1d7821e3d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

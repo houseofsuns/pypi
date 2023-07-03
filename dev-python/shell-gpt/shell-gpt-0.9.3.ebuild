@@ -15,8 +15,8 @@ DESCRIPTION="A command-line productivity tool powered by OpenAI GPT models, will
 
 HOMEPAGE="https://github.com/ther1d/shell_gpt"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/20/ec/9c897796fbcf1c34370d76ad95fd4ef4dfd1cd9100a101ee2e72c7088a47/shell_gpt-${REALVERSION}.tar.gz"
-SOURCEFILE="shell_gpt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/20/ec/9c897796fbcf1c34370d76ad95fd4ef4dfd1cd9100a101ee2e72c7088a47/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

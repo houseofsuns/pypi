@@ -15,8 +15,8 @@ DESCRIPTION="A gorgeous theme for Tkinter, based on Windows 11's UI"
 
 HOMEPAGE="https://github.com/rdbende/Sun-Valley-ttk-theme"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/77/10/c48e98bb963d3e3727bb5705e1f322fb5ff0283ceae59ff2b2b470ac45e1/sv_ttk-${REALVERSION}.tar.gz"
-SOURCEFILE="sv_ttk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/77/10/c48e98bb963d3e3727bb5705e1f322fb5ff0283ceae59ff2b2b470ac45e1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Lib to connect to thrift services with pools"
 
 HOMEPAGE="https://github.com/eleme/thrift_connector"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/42/16/125bb8c6f8c076b4a3fe32b7a9f721963b0101c75c80b62a46e5f059f884/thrift_connector-${REALVERSION}.tar.gz"
-SOURCEFILE="thrift_connector-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/42/16/125bb8c6f8c076b4a3fe32b7a9f721963b0101c75c80b62a46e5f059f884/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

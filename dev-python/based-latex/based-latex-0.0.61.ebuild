@@ -15,8 +15,8 @@ DESCRIPTION="Generates properly baselined images and HTML code from LaTeX formul
 
 HOMEPAGE="https://github.com/wircho/based_latex"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/55/cc/d0af0ddeadac7554f814dfeaeb194c8f89d7667dae36f94820908aa3f9fe/based_latex-${REALVERSION}.tar.gz"
-SOURCEFILE="based_latex-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/55/cc/d0af0ddeadac7554f814dfeaeb194c8f89d7667dae36f94820908aa3f9fe/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

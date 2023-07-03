@@ -15,8 +15,8 @@ DESCRIPTION="A library to benchmark code snippets."
 
 HOMEPAGE="https://github.com/google/benchmark"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ef/84/6400474e242b72002c25da1d0aa718a6e27b5e51591ca908f26202557e66/google_benchmark-${REALVERSION}.tar.gz"
-SOURCEFILE="google_benchmark-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ef/84/6400474e242b72002c25da1d0aa718a6e27b5e51591ca908f26202557e66/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

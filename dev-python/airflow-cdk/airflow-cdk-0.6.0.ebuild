@@ -15,8 +15,8 @@ DESCRIPTION="Custom cdk constructs for apache airflow"
 
 HOMEPAGE="https://github.com/knowsuchagency/airflow-cdk"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0a/78/00908e34dde551f53119da36efa7a5e6afdb082be2a14cc1ea3329aaebc1/airflow_cdk-${REALVERSION}.tar.gz"
-SOURCEFILE="airflow_cdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0a/78/00908e34dde551f53119da36efa7a5e6afdb082be2a14cc1ea3329aaebc1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

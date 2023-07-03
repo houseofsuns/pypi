@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/lixun910/travel_time"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/76/be/2279c230c75a9abc55d12939ee6f5e36eb2ceea14a33ec426a2350852862/travel_time-${REALVERSION}.tar.gz"
-SOURCEFILE="travel_time-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/76/be/2279c230c75a9abc55d12939ee6f5e36eb2ceea14a33ec426a2350852862/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

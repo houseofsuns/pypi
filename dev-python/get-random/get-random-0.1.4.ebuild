@@ -15,8 +15,8 @@ DESCRIPTION="A sample progrram"
 
 HOMEPAGE="https://stash.office.webassign.net:7999/~sgambino/project-random.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ce/85/d4d7b38213d49fda5f053354240430b85980bafc2840ff47eaba8f6d0bb2/get_random-${REALVERSION}.tar.gz"
-SOURCEFILE="get_random-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ce/85/d4d7b38213d49fda5f053354240430b85980bafc2840ff47eaba8f6d0bb2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

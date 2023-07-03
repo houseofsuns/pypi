@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Plots a function as a string by calling the Python ``print`` function.See the `GitHub project page &lt;http://github.com/imh/hipsterplot&gt;`_ for more information.</longdescription>
+</pkgmetadata>

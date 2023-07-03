@@ -15,8 +15,8 @@ DESCRIPTION="Hatch plugin to create a commit and tag when bumping version"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ac/50/04c25e5dd94443c17ef0526b627134debdbe876806a8e8ef15dddbfff54b/hatch_regex_commit-${REALVERSION}.tar.gz"
-SOURCEFILE="hatch_regex_commit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ac/50/04c25e5dd94443c17ef0526b627134debdbe876806a8e8ef15dddbfff54b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

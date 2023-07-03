@@ -15,8 +15,8 @@ DESCRIPTION="A wikilink extension for Python Markdown"
 
 HOMEPAGE="https://github.com/neurobin/mdx_wikilink_plus"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/93/ec/b0967db0ec70bfe249359804319a9854491e20bfc06ed4a5e2470095e76a/mdx_wikilink_plus-${REALVERSION}.tar.gz"
-SOURCEFILE="mdx_wikilink_plus-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/93/ec/b0967db0ec70bfe249359804319a9854491e20bfc06ed4a5e2470095e76a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

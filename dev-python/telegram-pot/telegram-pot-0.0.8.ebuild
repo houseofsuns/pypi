@@ -15,8 +15,8 @@ DESCRIPTION="A Telegram python bot api"
 
 HOMEPAGE="https://github.com/fazlali/telegram_pot"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f5/e8/6c5d292f87f1422293089ad6971eff0b2d31897786ab0e4d30b57a7b6819/telegram_pot-${REALVERSION}.tar.gz"
-SOURCEFILE="telegram_pot-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f5/e8/6c5d292f87f1422293089ad6971eff0b2d31897786ab0e4d30b57a7b6819/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="CodeOcean API manager in Python"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2e/f7/d1501512213563e3115d738795aa6a87cb2b45132ddaf89d073b44d2a075/aind_codeocean_api-${REALVERSION}.tar.gz"
-SOURCEFILE="aind_codeocean_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2e/f7/d1501512213563e3115d738795aa6a87cb2b45132ddaf89d073b44d2a075/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

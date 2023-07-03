@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>    Methods    get_volume: Returns the current volume of the device's speakers    set_volume: Sets the volume of the device's speakers to the given volume level.    rangify: Interpolates or maps the given volume range of the speakers to the user-specified range.</longdescription>
+</pkgmetadata>

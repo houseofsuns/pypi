@@ -15,8 +15,8 @@ DESCRIPTION="Run connectors by schema definitions"
 
 HOMEPAGE="https://github.com/swimlane/connector-definition-runner"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/34/74/8da8eb0a6e20e731a7a678d41cc134be080cb51de86be6365235685fca01/connector_def_runner-${REALVERSION}.tar.gz"
-SOURCEFILE="connector_def_runner-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/34/74/8da8eb0a6e20e731a7a678d41cc134be080cb51de86be6365235685fca01/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

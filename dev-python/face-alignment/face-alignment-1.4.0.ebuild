@@ -15,8 +15,8 @@ DESCRIPTION="Detector 2D or 3D face landmarks from Python"
 
 HOMEPAGE="https://github.com/1adrianb/face-alignment"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/2d/28/d9ae69b38d712480a310e99c0c841a68ffec678da6bb2997fd4a6525802b/face_alignment-${REALVERSION}.tar.gz"
-SOURCEFILE="face_alignment-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2d/28/d9ae69b38d712480a310e99c0c841a68ffec678da6bb2997fd4a6525802b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

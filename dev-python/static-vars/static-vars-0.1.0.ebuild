@@ -15,8 +15,8 @@ DESCRIPTION="<Enter a one-sentence description of this project here.>"
 
 HOMEPAGE="https://github.com/etijskens/static_vars"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/00/41/fcf9941170d9a2ee98ff58369230b750fea5b3af8d60a32703d93e9960ea/static_vars-${REALVERSION}.tar.gz"
-SOURCEFILE="static_vars-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/00/41/fcf9941170d9a2ee98ff58369230b750fea5b3af8d60a32703d93e9960ea/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

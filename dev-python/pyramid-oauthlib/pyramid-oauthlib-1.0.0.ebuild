@@ -15,8 +15,8 @@ DESCRIPTION="Pyramid OAuthLib integration"
 
 HOMEPAGE="https://github.com/tilgovi/pyramid_oauthlib"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c3/68/4e6eac91fd76c21cd70e8c722393fa5901e4bd509d63e7149a64a7eb8260/pyramid_oauthlib-${REALVERSION}.tar.gz"
-SOURCEFILE="pyramid_oauthlib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c3/68/4e6eac91fd76c21cd70e8c722393fa5901e4bd509d63e7149a64a7eb8260/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

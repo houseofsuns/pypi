@@ -15,8 +15,8 @@ DESCRIPTION="A mixins app that provides some standard mixins for Giant projects"
 
 HOMEPAGE="https://github.com/giantmade/giant-mixins"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0e/c3/f2bab74341e9fa7db7db13f022ca91608b27c6edf69b29ddddaf2ff93bd8/giant_mixins-${REALVERSION}.tar.gz"
-SOURCEFILE="giant_mixins-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0e/c3/f2bab74341e9fa7db7db13f022ca91608b27c6edf69b29ddddaf2ff93bd8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

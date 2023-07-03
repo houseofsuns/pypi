@@ -15,8 +15,8 @@ DESCRIPTION="Terra Nanotech Template Overrides for Alliance Auth"
 
 HOMEPAGE="https://github.com/terra-nanotech/tn-nt-auth-templates"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/d1/e0/ab0d836433861e73744dcbfc541d75129882f627965ca3e76ad7e9260546/tnnt_templates-${REALVERSION}.tar.gz"
-SOURCEFILE="tnnt_templates-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d1/e0/ab0d836433861e73744dcbfc541d75129882f627965ca3e76ad7e9260546/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

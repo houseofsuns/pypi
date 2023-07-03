@@ -15,8 +15,8 @@ DESCRIPTION="Neptune.ai LightGBM integration library"
 
 HOMEPAGE="https://neptune.ai/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/24/20/8e12db5d9b599986450a2155581dfd42241ecfd29d353adf6099968560ca/neptune_lightgbm-${REALVERSION}.tar.gz"
-SOURCEFILE="neptune_lightgbm-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/24/20/8e12db5d9b599986450a2155581dfd42241ecfd29d353adf6099968560ca/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

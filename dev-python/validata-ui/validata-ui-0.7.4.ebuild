@@ -15,8 +15,8 @@ DESCRIPTION="Validata Web UI"
 
 HOMEPAGE="https://git.opendatafrance.net/validata/validata-ui"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/05/27/f5605436a601ac3dff0f5540eec3519f568556e68331ce7c39130f3ae1be/validata_ui-${REALVERSION}.tar.gz"
-SOURCEFILE="validata_ui-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/05/27/f5605436a601ac3dff0f5540eec3519f568556e68331ce7c39130f3ae1be/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

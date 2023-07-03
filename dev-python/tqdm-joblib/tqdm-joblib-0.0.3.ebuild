@@ -15,8 +15,8 @@ DESCRIPTION="Tracking progress of joblib.Parallel execution"
 
 HOMEPAGE="https://stackoverflow.com/a/58936697/5133167"
 LICENSE="CC BY-SA 4.0"
-SRC_URI="https://files.pythonhosted.org/packages/28/5e/7b58cf9296197768ee8e4a7975be52f4500578c2c5b2a331e5676d3d3b55/tqdm_joblib-${REALVERSION}.tar.gz"
-SOURCEFILE="tqdm_joblib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/28/5e/7b58cf9296197768ee8e4a7975be52f4500578c2c5b2a331e5676d3d3b55/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Statically populate the \`known_third_party\` \`isort\` setting."
 
 HOMEPAGE="https://github.com/asottile/seed-isort-config"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e1/b2/bda7e27d9b42e7fae4d78f47709f2c21f9cf0f3f927f701d9e6a8bd533a6/seed_isort_config-${REALVERSION}.tar.gz"
-SOURCEFILE="seed_isort_config-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e1/b2/bda7e27d9b42e7fae4d78f47709f2c21f9cf0f3f927f701d9e6a8bd533a6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module to correct invoice"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/68/ca/a7b9c051f5171d7562cffc732d71a3ff5b3dfddc4aa64a1b14e2d34a49e3/trytond_account_invoice_correction-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_account_invoice_correction-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/68/ca/a7b9c051f5171d7562cffc732d71a3ff5b3dfddc4aa64a1b14e2d34a49e3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

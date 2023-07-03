@@ -15,8 +15,8 @@ DESCRIPTION="Scripts for cluster management in CSLE"
 
 HOMEPAGE=""
 LICENSE="Creative Commons Attribution-ShareAlike 4.0 International"
-SRC_URI="https://files.pythonhosted.org/packages/94/3e/60c2a3f84e16027e71c80800be50a3667957d03ccd57cfc9686bde3a1a81/csle_cluster-${REALVERSION}.tar.gz"
-SOURCEFILE="csle_cluster-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/94/3e/60c2a3f84e16027e71c80800be50a3667957d03ccd57cfc9686bde3a1a81/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

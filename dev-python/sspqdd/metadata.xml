@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Single-Shot-Power-Quality-Disturbance-Detector (SSPQDD) is a Python package that provides a comprehensive solution for detection and classification of power quality disturbances. It utilizes state-of-the-art deep learning algorithms to analyze power signals and identify various types of disturbances, such as voltagesags, swells, harmonics, transients, notch and interruptions. The SSPQDD is designed to empower engineers and researchers working in the field of power quality analysis. By leveraging deep learning techniques, it offers an efficient and accurate approach to automatically detect and classify power disturbances, saving time and effort compared to manual inspection. With the SSPQDD, users can gain valuable insights into power quality issues and make informed decisions for optimal system performance and reliability.</longdescription>
+</pkgmetadata>

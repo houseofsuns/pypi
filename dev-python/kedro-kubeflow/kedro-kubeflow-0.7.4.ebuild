@@ -15,8 +15,8 @@ DESCRIPTION="Kedro plugin with Kubeflow Pipelines support"
 
 HOMEPAGE="https://github.com/getindata/kedro-kubeflow"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/bd/28/4c9d960af6b9d3ae14aa0d85c83489992b71ae1d0be0cfd0c3013d6649f2/kedro_kubeflow-${REALVERSION}.tar.gz"
-SOURCEFILE="kedro_kubeflow-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bd/28/4c9d960af6b9d3ae14aa0d85c83489992b71ae1d0be0cfd0c3013d6649f2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

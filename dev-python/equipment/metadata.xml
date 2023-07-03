@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://rogervila.es/static/img/equipment-logo.png&quot; alt=&quot;Equipment python framework&quot; height=&quot;200&quot; /&gt;&lt;/p&gt;[![PyPI version](https://badge.fury.io/py/equipment.svg)](https://badge.fury.io/py/equipment)[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=rogervila_equipment&amp;metric=alert_status)](https://sonarcloud.io/dashboard?id=rogervila_equipment)[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=rogervila_equipment&amp;metric=sqale_rating)](https://sonarcloud.io/dashboard?id=rogervila_equipment)[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=rogervila_equipment&amp;metric=coverage)](https://sonarcloud.io/dashboard?id=rogervila_equipment)# EquipmentThe root of your next python project## DocsVisit the [documentation website](https://equipment-python.vercel.app)## LicenseThis project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).Equipment icons created by &lt;a href=&quot;https://www.flaticon.com/free-icons/toolbox&quot;&gt;Freepik - Flaticon&lt;/a&gt;</longdescription>
+</pkgmetadata>

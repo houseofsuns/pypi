@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Pseudo-LabellerPseudo Irradience Labeller for generating training labels for other PV generation forecasting, and hindcasts.## InstallYou can install this package by doing `pip install pseudo-labeller`## Usage## Train## Notes</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="This is a python package to interact with Public Health England's F
 
 HOMEPAGE="https://github.com/PublicHealthEngland/PHDS_fingertips_py.git"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/eb/c3/61b14adccc3c94ade4e279e541f98787f5cf8ddc040093cae94d3a05b82c/fingertips_py-${REALVERSION}.tar.gz"
-SOURCEFILE="fingertips_py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/eb/c3/61b14adccc3c94ade4e279e541f98787f5cf8ddc040093cae94d3a05b82c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

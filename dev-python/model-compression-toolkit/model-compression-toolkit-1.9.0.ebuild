@@ -15,8 +15,8 @@ DESCRIPTION="A Model Compression Toolkit for neural networks"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1c/0e/f62c985a2e1acc2dfd34535af1be2526a1c9aaa04b49afde37e45a4f37dd/model_compression_toolkit-${REALVERSION}.tar.gz"
-SOURCEFILE="model_compression_toolkit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1c/0e/f62c985a2e1acc2dfd34535af1be2526a1c9aaa04b49afde37e45a4f37dd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

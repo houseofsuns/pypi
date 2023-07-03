@@ -15,8 +15,8 @@ DESCRIPTION="a fast kmeans clustering algorithm implemented in pytorch"
 
 HOMEPAGE="https://github.com/DeMoriarty/fast_pytorch_kmeans"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f2/59/e232b7313a7c812148eb346a5bda6eb794dfda34fc406bf23148428d0012/fast_pytorch_kmeans-${REALVERSION}.tar.gz"
-SOURCEFILE="fast_pytorch_kmeans-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f2/59/e232b7313a7c812148eb346a5bda6eb794dfda34fc406bf23148428d0012/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

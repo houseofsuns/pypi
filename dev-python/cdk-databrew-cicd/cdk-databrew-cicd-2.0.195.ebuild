@@ -15,8 +15,8 @@ DESCRIPTION="A construct for AWS Glue DataBrew wtih CICD"
 
 HOMEPAGE="https://github.com/HsiehShuJeng/cdk-databrew-cicd.git"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b8/2e/4e72b0e20b1f2362aa62a89139884fd2c6deae4f11cc6450fb64335aebee/cdk_databrew_cicd-${REALVERSION}.tar.gz"
-SOURCEFILE="cdk_databrew_cicd-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b8/2e/4e72b0e20b1f2362aa62a89139884fd2c6deae4f11cc6450fb64335aebee/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

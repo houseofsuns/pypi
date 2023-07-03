@@ -15,8 +15,8 @@ DESCRIPTION="Simple retry client for aiohttp"
 
 HOMEPAGE="https://github.com/inyutin/aiohttp_retry"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/01/c1/d57818a0ed5b0313ad8c620638225ddd44094d0d606ee33f3df5105572cd/aiohttp_retry-${REALVERSION}.tar.gz"
-SOURCEFILE="aiohttp_retry-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/01/c1/d57818a0ed5b0313ad8c620638225ddd44094d0d606ee33f3df5105572cd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

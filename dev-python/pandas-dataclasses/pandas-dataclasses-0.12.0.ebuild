@@ -15,8 +15,8 @@ DESCRIPTION="pandas data creation made easy by dataclass"
 
 HOMEPAGE="https://github.com/astropenguin/pandas-dataclasses/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e8/2d/edd146c0a959138ca624cb68ec5ef51f4c49129add7e11e3d18f1f324acf/pandas_dataclasses-${REALVERSION}.tar.gz"
-SOURCEFILE="pandas_dataclasses-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e8/2d/edd146c0a959138ca624cb68ec5ef51f4c49129add7e11e3d18f1f324acf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

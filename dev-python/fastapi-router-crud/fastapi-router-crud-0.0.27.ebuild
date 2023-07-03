@@ -15,8 +15,8 @@ DESCRIPTION="FastAPI API router that generates model based routes(CRUD operation
 
 HOMEPAGE="https://github.com/milanchanstveni/fastapi-crud-router"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3f/86/a2f3dff821c2a699857545c3bbdcfaeb678b3c13761c52f263018db72b6b/fastapi_router_crud-${REALVERSION}.tar.gz"
-SOURCEFILE="fastapi_router_crud-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3f/86/a2f3dff821c2a699857545c3bbdcfaeb678b3c13761c52f263018db72b6b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

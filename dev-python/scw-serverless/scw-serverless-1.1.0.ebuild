@@ -15,8 +15,8 @@ DESCRIPTION="Framework for writing serverless APIs in Python, using Scaleway fun
 
 HOMEPAGE="https://github.com/scaleway/serverless-api-framework-python-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6e/a2/bcef3f2817d93c6190f71a4a3d6019350bd137d6e562e1e882b2c61add1b/scw_serverless-${REALVERSION}.tar.gz"
-SOURCEFILE="scw_serverless-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6e/a2/bcef3f2817d93c6190f71a4a3d6019350bd137d6e562e1e882b2c61add1b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A dumb as hell rpc implementation built on rabbitmq"
 
 HOMEPAGE="https://github.com/Mause/rpc"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/98/f1/161a875b8056790555f70b788d8bfdf45bd09fa37d3c443bbc877fa5b7f5/mause_rpc-${REALVERSION}.tar.gz"
-SOURCEFILE="mause_rpc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/98/f1/161a875b8056790555f70b788d8bfdf45bd09fa37d3c443bbc877fa5b7f5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

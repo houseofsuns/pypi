@@ -15,8 +15,8 @@ DESCRIPTION="Utility functions to work with Baserow"
 
 HOMEPAGE="https://github.com/acdh-oeaw/acdh-baserow-pyutils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a9/bf/d91ef3db7cc22aa708350bb814bc084a5c8364956617a02469b98579bc3c/acdh_baserow_pyutils-${REALVERSION}.tar.gz"
-SOURCEFILE="acdh_baserow_pyutils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a9/bf/d91ef3db7cc22aa708350bb814bc084a5c8364956617a02469b98579bc3c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

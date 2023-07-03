@@ -15,8 +15,8 @@ DESCRIPTION="Alliance Auth module to post news from RSS feeds to your Discord"
 
 HOMEPAGE="https://github.com/ppfeufer/aa-rss-to-discord"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/86/dc/9879d47f90a65f554a8d760609fb719817b43355c08cc0e2fd72a23a8bf0/aa_rss_to_discord-${REALVERSION}.tar.gz"
-SOURCEFILE="aa_rss_to_discord-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/86/dc/9879d47f90a65f554a8d760609fb719817b43355c08cc0e2fd72a23a8bf0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

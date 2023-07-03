@@ -15,8 +15,8 @@ DESCRIPTION="Alibaba Cloud Intelligent Media Management (20200930) SDK Library f
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/61/de/5d72c56e233f453cd0f2afef19b05958b73ff3757ef076835020b240cb90/alibabacloud_imm20200930-${REALVERSION}.tar.gz"
-SOURCEFILE="alibabacloud_imm20200930-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/61/de/5d72c56e233f453cd0f2afef19b05958b73ff3757ef076835020b240cb90/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

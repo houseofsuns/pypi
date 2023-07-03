@@ -15,8 +15,8 @@ DESCRIPTION="digit package"
 
 HOMEPAGE="https://example.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/14/5a/90ed1958125f32ca7b0865a564e907345c3cdfca96a038f049844e5ce68d/ir_digit-${REALVERSION}.tar.gz"
-SOURCEFILE="ir_digit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/14/5a/90ed1958125f32ca7b0865a564e907345c3cdfca96a038f049844e5ce68d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

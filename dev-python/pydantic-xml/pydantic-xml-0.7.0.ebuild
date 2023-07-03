@@ -15,8 +15,8 @@ DESCRIPTION="pydantic xml extension"
 
 HOMEPAGE="https://github.com/dapper91/pydantic-xml"
 LICENSE="Unlicense"
-SRC_URI="https://files.pythonhosted.org/packages/35/de/84f27b875e9fa3917f6881e02e22ee4184473bac3770d731bb739d4321dc/pydantic_xml-${REALVERSION}.tar.gz"
-SOURCEFILE="pydantic_xml-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/35/de/84f27b875e9fa3917f6881e02e22ee4184473bac3770d731bb739d4321dc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

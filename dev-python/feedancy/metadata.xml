@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># feedancy-clientThe client is provided with async and sync adapters.To install the async version with all its dependencies use:```bashpip install feedancy-client[asyncio]```To install the sync version with all its dependencies use:```bashpip install feedancy-client[sync]```To install both versions with all their dependencies use:```bashpip install feedancy-client[asyncio,sync]```## Client instantiation example```pythonfrom feedancy_client import new_client, Configurationfrom feedancy_client.lib.adapter.requests import RequestsAdapterclient = new_client(RequestsAdapter(), Configuration(host=&quot;&lt;your openapi server URL&gt;&quot;))```</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="Reconstruct Arabic sentences to be used in applications that do not
 
 HOMEPAGE="https://github.com/mpcabd/python-arabic-reshaper/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/29/27/9f488e21f87fd8b7ff3b52c372b9510c619ecf1398e4ba30d5f4becc7d86/arabic_reshaper-${REALVERSION}.tar.gz"
-SOURCEFILE="arabic_reshaper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/29/27/9f488e21f87fd8b7ff3b52c372b9510c619ecf1398e4ba30d5f4becc7d86/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

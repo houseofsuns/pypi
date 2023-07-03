@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cb/02/6c53f9ebd1b15663f4e4021735c836eecaa00a92d82f6d343507e3292428/quilt_py-${REALVERSION}.tar.gz"
-SOURCEFILE="quilt_py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cb/02/6c53f9ebd1b15663f4e4021735c836eecaa00a92d82f6d343507e3292428/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

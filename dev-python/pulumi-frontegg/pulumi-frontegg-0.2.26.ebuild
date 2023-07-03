@@ -15,8 +15,8 @@ DESCRIPTION="A Pulumi package for creating and managing Frontegg resources."
 
 HOMEPAGE="https://github.com/MaterializeInc/pulumi-frontegg"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/83/7d/56c557b14ea5155aacc71f2657183b1de1aa85adc83a401f70e1c80558c5/pulumi_frontegg-${REALVERSION}.tar.gz"
-SOURCEFILE="pulumi_frontegg-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/83/7d/56c557b14ea5155aacc71f2657183b1de1aa85adc83a401f70e1c80558c5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

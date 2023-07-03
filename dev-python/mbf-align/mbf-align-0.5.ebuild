@@ -15,8 +15,8 @@ DESCRIPTION="Alignment of high througput sequencing data"
 
 HOMEPAGE="https://github.com/TyberiusPrime/mbf_align"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b2/a8/ab2ad5772fdb6aeb4e2226fd446e8f35492b7d2fea06ae198a710621ac0b/mbf_align-${REALVERSION}.tar.gz"
-SOURCEFILE="mbf_align-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b2/a8/ab2ad5772fdb6aeb4e2226fd446e8f35492b7d2fea06ae198a710621ac0b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

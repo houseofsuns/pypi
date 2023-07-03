@@ -15,8 +15,8 @@ DESCRIPTION="PyTorch Extension Library of Optimized Graph Cluster Algorithms"
 
 HOMEPAGE="https://github.com/rusty1s/pytorch_cluster"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5f/e8/0e6b8b8a2889b5860da15fa704ff081b3bb7002cd8ec086f5834244ed591/torch_cluster-${REALVERSION}.tar.gz"
-SOURCEFILE="torch_cluster-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5f/e8/0e6b8b8a2889b5860da15fa704ff081b3bb7002cd8ec086f5834244ed591/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Periodic table module for the parser core project"
 
 HOMEPAGE="https://github.com/usnistgov/core_module_periodic_table_app"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4a/26/d94ca8e7388dfead875d98450c39d533ffac41685f45f331887bae46ba7f/core_module_periodic_table_app-${REALVERSION}.tar.gz"
-SOURCEFILE="core_module_periodic_table_app-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4a/26/d94ca8e7388dfead875d98450c39d533ffac41685f45f331887bae46ba7f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;p align=&quot;center&quot;&gt;  &lt;a href=&quot;https://github.com/godatadriven/pytest-dbt-core/blob/main/LICENSE&quot;&gt;&lt;img alt=&quot;License: Apache 2.0&quot; src=&quot;https://img.shields.io/badge/license-Apache%202-blue.svg&quot;&gt;&lt;/a&gt;  &lt;a href=&quot;https://pypi.org/project/pytest-dbt-core/&quot;&gt;&lt;img alt=&quot;pypi: pytest-dbt-core&quot; src=&quot;https://img.shields.io/badge/pypi-pytest%20dbt%20core-green.svg&quot;&gt;&lt;/a&gt;  &lt;a href=&quot;https://github.com/godatadriven/pytest-dbt-core/actions/workflows/workflow.yml&quot;&gt;&lt;img alt=&quot;build: pytest-dbt-core&quot; src=&quot;https://github.com/godatadriven/pytest-dbt-core/actions/workflows/workflow.yml/badge.svg&quot;&gt;&lt;/a&gt;  &lt;a href=&quot;https://github.com/psf/black&quot;&gt;&lt;img alt=&quot;code style: black&quot; src=&quot;https://img.shields.io/badge/code%20style-black-000000.svg&quot;&gt;&lt;/a&gt;  &lt;a href=&quot;https://pepy.tech/badge/pytest-dbt-core/&quot;&gt;&lt;img alt=&quot;downloads&quot; src=&quot;https://pepy.tech/badge/pytest-dbt-core/month&quot;&gt;&lt;/a&gt;&lt;/p&gt;Pytest dbt core is a [pytest](https://docs.pytest.org) plugin for testing your[dbt](https://www.getdbt.com/) projects. Write unit test for your dbt logic withpytest!# :information_desk_person: User documentationThe user documentation is hosted on[read the docs](https://pytest-dbt-core.readthedocs.io/en/latest/).# :raising_hand: Contributing guideThe contributing guide is [here](./CONTRIBUTING.md).# :gift: How to releaseThe &quot;how to release&quot; guide is [here](./HOWTORELEASE.md).# :cop: LicenseThe license is given [here](./LICENSE).</longdescription>
+</pkgmetadata>

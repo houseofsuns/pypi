@@ -15,8 +15,8 @@ DESCRIPTION="Utilities for using the Piccolo ORM in ASGI apps, plus essential AS
 
 HOMEPAGE="https://github.com/piccolo-orm/piccolo_api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/44/88/561087b8b96ec789c938d76e642fd7cb33b51dc54f73ab9204b0cfec0fea/piccolo_api-${REALVERSION}.tar.gz"
-SOURCEFILE="piccolo_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/44/88/561087b8b96ec789c938d76e642fd7cb33b51dc54f73ab9204b0cfec0fea/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

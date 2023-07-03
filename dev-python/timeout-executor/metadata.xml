@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># timeout-executor[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)[![github action](https://github.com/phi-friday/timeout-executor/actions/workflows/check.yaml/badge.svg?event=push&amp;branch=dev)](#)[![PyPI version](https://badge.fury.io/py/timeout-executor.svg)](https://badge.fury.io/py/timeout-executor)[![python version](https://img.shields.io/pypi/pyversions/timeout_executor.svg)](#)## how to install```shell$ pip install timeout_executor# or$ pip install &quot;timeout_executor[all]&quot;# or$ pip install &quot;timeout_executor[billiard]&quot;# or$ pip install &quot;timeout_executor[loky]&quot;# or$ pip install &quot;timeout_executor[dill]&quot;# or$ pip install &quot;timeout_executor[cloudpickle]&quot;```## how to use```pythonimport timefrom timeout_executor import TimeoutExecutordef sample_func() -&gt; None:    time.sleep(10)executor = TimeoutExecutor(1)try:    executor.apply(sample_func)except Exception as exc:    assert isinstance(exc, TimeoutError)executor = TimeoutExecutor(1, pickler=&quot;dill&quot;)  # or cloudpickleresult = executor.apply(lambda: &quot;done&quot;)assert result == &quot;done&quot;```## LicenseMIT, see [LICENSE](https://github.com/phi-friday/timeout-executor/blob/main/LICENSE).</longdescription>
+</pkgmetadata>

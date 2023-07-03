@@ -15,8 +15,8 @@ DESCRIPTION="One line functions for common tasks"
 
 HOMEPAGE="https://github.com/sizhky/torch_snippets/tree/master/"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c5/fd/31535a73899128862b6a9b53b4f1fcb079bbbb7c0026ca27fdb241b6b396/torch_snippets-${REALVERSION}.tar.gz"
-SOURCEFILE="torch_snippets-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c5/fd/31535a73899128862b6a9b53b4f1fcb079bbbb7c0026ca27fdb241b6b396/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

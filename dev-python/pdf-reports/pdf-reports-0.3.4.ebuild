@@ -15,8 +15,8 @@ DESCRIPTION="Create nice-looking PDF reports from HTML content."
 
 HOMEPAGE="https://github.com/Edinburgh-Genome-Foundry/pdf_reports"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/64/e0/e096fa686a41a1d89ccbe8b01e44670eb6c0a6f6b801810585cf6828f822/pdf_reports-${REALVERSION}.tar.gz"
-SOURCEFILE="pdf_reports-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/64/e0/e096fa686a41a1d89ccbe8b01e44670eb6c0a6f6b801810585cf6828f822/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Sphinx extension for adding alternative code-blocks as selectable t
 
 HOMEPAGE="https://github.com/coldfix/sphinx-code-tabs"
 LICENSE="Unlicense"
-SRC_URI="https://files.pythonhosted.org/packages/e8/43/40000a9332991f3796acae46cc7d3c2479d2e446cdd90c4708fe46e36091/sphinx_code_tabs-${REALVERSION}.tar.gz"
-SOURCEFILE="sphinx_code_tabs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e8/43/40000a9332991f3796acae46cc7d3c2479d2e446cdd90c4708fe46e36091/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

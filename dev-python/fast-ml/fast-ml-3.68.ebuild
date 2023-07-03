@@ -15,8 +15,8 @@ DESCRIPTION="Package by the Data-Scientists for the Data Scientists ; with Sciki
 
 HOMEPAGE="https://github.com/samarth-agrawal-86/fast_ml"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f6/36/20b43f164f371780a0f3571604acd3e8f4758e71b069018e74d60c38ba1f/fast_ml-${REALVERSION}.tar.gz"
-SOURCEFILE="fast_ml-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f6/36/20b43f164f371780a0f3571604acd3e8f4758e71b069018e74d60c38ba1f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

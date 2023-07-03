@@ -15,8 +15,8 @@ DESCRIPTION="Un cli para manejar proyectos de API con flask"
 
 HOMEPAGE="https://github.com/DavidCuy/easyflask-cli"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/63/8d/3c68c0b44f061a594806d2a4600c8685b95c80cd1affb77d7767bb51ee1b/isyflask_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="isyflask_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/63/8d/3c68c0b44f061a594806d2a4600c8685b95c80cd1affb77d7767bb51ee1b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

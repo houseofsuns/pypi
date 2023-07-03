@@ -15,8 +15,8 @@ DESCRIPTION="Chord chart validation and transposition"
 
 HOMEPAGE="https://github.com/vrslev/chord-chart"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/de/eb/5380e35a0cd4529210a7c9b51cbba7c708c5087cff7422fee91f9565c04b/chord_chart-${REALVERSION}.tar.gz"
-SOURCEFILE="chord_chart-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/de/eb/5380e35a0cd4529210a7c9b51cbba7c708c5087cff7422fee91f9565c04b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

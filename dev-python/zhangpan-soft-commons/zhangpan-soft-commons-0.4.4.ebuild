@@ -15,8 +15,8 @@ DESCRIPTION="my commons"
 
 HOMEPAGE="https://github.com/zhangpan-soft/py-commons"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/95/55/6ef8c298ddf317ba8115ed958aca754e150093bc714f7fafb447ff5618ee/zhangpan_soft_commons-${REALVERSION}.tar.gz"
-SOURCEFILE="zhangpan_soft_commons-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/95/55/6ef8c298ddf317ba8115ed958aca754e150093bc714f7fafb447ff5618ee/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

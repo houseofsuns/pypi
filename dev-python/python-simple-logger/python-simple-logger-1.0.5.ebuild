@@ -15,8 +15,8 @@ DESCRIPTION="A simple logger for python"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/92/48/a6297cd74a3e316cc83d7de9901997f1506c6340573e11f09b90cb6ee802/python_simple_logger-${REALVERSION}.tar.gz"
-SOURCEFILE="python_simple_logger-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/92/48/a6297cd74a3e316cc83d7de9901997f1506c6340573e11f09b90cb6ee802/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

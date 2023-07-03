@@ -15,8 +15,8 @@ DESCRIPTION="Client library to download and publish models, datasets and other r
 
 HOMEPAGE="https://github.com/huggingface/huggingface_hub"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/6a/18/42d8bb8a7a87e28f024d4c6ec380ad135836873679e60a641813d22407f7/huggingface_hub-${REALVERSION}.tar.gz"
-SOURCEFILE="huggingface_hub-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6a/18/42d8bb8a7a87e28f024d4c6ec380ad135836873679e60a641813d22407f7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

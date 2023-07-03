@@ -15,8 +15,8 @@ DESCRIPTION="My first upload test."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4f/94/e8e108ab0c4fa597a4c9089ce31adb28f8b3e5149ec1c7c32ad9237ff6a0/1_test_package-${REALVERSION}.tar.gz"
-SOURCEFILE="1_test_package-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4f/94/e8e108ab0c4fa597a4c9089ce31adb28f8b3e5149ec1c7c32ad9237ff6a0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

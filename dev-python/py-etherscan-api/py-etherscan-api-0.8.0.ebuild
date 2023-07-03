@@ -15,8 +15,8 @@ DESCRIPTION="Python Bindings to Etherscan.io API"
 
 HOMEPAGE="https://github.com/corpetty/py-etherscan-api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/44/7a/9bc6ea9e81d4731cfcab4f458bc09a1720ba1deea2169f22af79f17afe41/py_etherscan_api-${REALVERSION}.tar.gz"
-SOURCEFILE="py_etherscan_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/44/7a/9bc6ea9e81d4731cfcab4f458bc09a1720ba1deea2169f22af79f17afe41/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

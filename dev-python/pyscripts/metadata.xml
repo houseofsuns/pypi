@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=========pyscripts=========.. image:: https://img.shields.io/travis/mramospe/pyscripts.svg   :target: https://travis-ci.org/mramospe/pyscripts.. image:: https://img.shields.io/badge/documentation-link-blue.svg   :target: https://mramospe.github.io/pyscripts/.. inclusion-marker-do-not-removeThe **pyscripts** package provides tools to work with python scripts. It ismeant to help researches doing analysis, where many of their tasks translateinto python scripts running with a given configuration mode.Main points===========The idea behind this package is to provide a way to execute python scripts whichmake use of pakages which handle command line arguments, like`argparse &lt;https://docs.python.org/3/library/argparse.html&gt;`_.It is also suggested to use it in combination with`snakemake &lt;https://snakemake.readthedocs.io/en/stable/&gt;`_,which would allow analysts to create fully reproducible analysis.Installation:=============This package is available on `PyPi &lt;https://pypi.org/&gt;`_, so simply type.. code-block:: bash   pip install pyscriptsto install the package in your current python environment.To use the **latest development version**, clone the repository and install with `pip`:.. code-block:: bash   git clone https://github.com/mramospe/pyscripts.git   pip install pyscripts</longdescription>
+</pkgmetadata>

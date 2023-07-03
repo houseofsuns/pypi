@@ -15,8 +15,8 @@ DESCRIPTION="A library for Visual Document Testing"
 
 HOMEPAGE="https://github.com/manykarim/robotframework-doctestlibrary"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/22/c6/326190e3c8f85c5be4283ca3fb9f554553aad138f840396bf30d57581aa6/robotframework_doctestlibrary-${REALVERSION}.tar.gz"
-SOURCEFILE="robotframework_doctestlibrary-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/22/c6/326190e3c8f85c5be4283ca3fb9f554553aad138f840396bf30d57581aa6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

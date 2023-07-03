@@ -15,8 +15,8 @@ DESCRIPTION="Categorizes spatial and temporal columns for csv files. Standardize
 
 HOMEPAGE="https://github.com/jataware/geotime_classify"
 LICENSE="LGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/a9/cd/2d375ffb52ed2d843396cad896bbed22764e0d5ff0a7f2bc9462176f357c/geotime_classify-${REALVERSION}.tar.gz"
-SOURCEFILE="geotime_classify-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a9/cd/2d375ffb52ed2d843396cad896bbed22764e0d5ff0a7f2bc9462176f357c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

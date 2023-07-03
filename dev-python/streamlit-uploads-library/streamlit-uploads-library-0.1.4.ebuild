@@ -15,8 +15,8 @@ DESCRIPTION="A simple library or gallery for Streamlit made from widgets."
 
 HOMEPAGE="https://github.com/hreikin/streamlit-uploads-library"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/39/d6/4495b9a600b1eb0f264927b997c259dd9b0e70be08c402b35465d8f3bc99/streamlit_uploads_library-${REALVERSION}.tar.gz"
-SOURCEFILE="streamlit_uploads_library-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/39/d6/4495b9a600b1eb0f264927b997c259dd9b0e70be08c402b35465d8f3bc99/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

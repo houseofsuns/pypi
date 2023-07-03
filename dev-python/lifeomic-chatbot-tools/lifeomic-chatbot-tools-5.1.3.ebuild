@@ -15,8 +15,8 @@ DESCRIPTION="Utilities for machine learning, web services, and cloud infrastruct
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/84/34/015f24bd5f09c748d77f1ce74a75cf0a9925b488e7cf982e1fda7f5c894c/lifeomic_chatbot_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="lifeomic_chatbot_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/84/34/015f24bd5f09c748d77f1ce74a75cf0a9925b488e7cf982e1fda7f5c894c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

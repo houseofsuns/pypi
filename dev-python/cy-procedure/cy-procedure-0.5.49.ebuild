@@ -15,8 +15,8 @@ DESCRIPTION="Procedures based on components/widgets/dao"
 
 HOMEPAGE="https://github.com/cragod/CYProcedure"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a4/8c/2d7d0a7df0bb4a6921e45cc61e3f5624a5c139984361b2814881df845250/cy_procedure-${REALVERSION}.tar.gz"
-SOURCEFILE="cy_procedure-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a4/8c/2d7d0a7df0bb4a6921e45cc61e3f5624a5c139984361b2814881df845250/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

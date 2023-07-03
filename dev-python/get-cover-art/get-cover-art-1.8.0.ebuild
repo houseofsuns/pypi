@@ -15,8 +15,8 @@ DESCRIPTION="Batch cover art downloader and embedder for audio files"
 
 HOMEPAGE="https://github.com/regosen/get_cover_art"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f2/52/5c8d4a03723fcd667209217d5e4b08723718a9e2f7e7cba592058bdba89a/get_cover_art-${REALVERSION}.tar.gz"
-SOURCEFILE="get_cover_art-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f2/52/5c8d4a03723fcd667209217d5e4b08723718a9e2f7e7cba592058bdba89a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

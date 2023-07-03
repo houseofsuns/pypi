@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Loop rate limiters[![Build](https://img.shields.io/github/actions/workflow/status/stephane-caron/loop-rate-limiters/main.yml?branch=main)](https://github.com/stephane-caron/loop-rate-limiters/actions)[![Coverage](https://coveralls.io/repos/github/stephane-caron/loop-rate-limiters/badge.svg?branch=main)](https://coveralls.io/github/stephane-caron/loop-rate-limiters?branch=main)[![Conda version](https://img.shields.io/conda/vn/conda-forge/loop-rate-limiters.svg)](https://anaconda.org/conda-forge/loop-rate-limiters)[![PyPI version](https://img.shields.io/pypi/v/loop-rate-limiters)](https://pypi.org/project/loop-rate-limiters/)Simple loop frequency regulators in Python with an API similar to [``rospy.Rate``](https://wiki.ros.org/rospy/Overview/Time#Sleeping_and_Rates).## InstallationFrom conda-forge:```shconda install loop-rate-limiters -c conda-forge```From PyPI:```shpip install loop-rate-limiters```## UsageThe ``RateLimiter`` class provides a loop frequency limiter:```pythonfrom loop_rate_limiters import RateLimiterfrom time import perf_counterrate = RateLimiter(frequency=400.0)while True:    print(f&quot;Hello from loop at {perf_counter():.3f} s&quot;)    rate.sleep()```### asyncioThe ``AsyncRateLimiter`` class provides a loop frequency limiter for [asyncio](https://docs.python.org/3/library/asyncio.html):```pythonimport asynciofrom loop_rate_limiters import AsyncRateLimiterasync def main():    rate = AsyncRateLimiter(frequency=400.0)    while True:        loop_time = asyncio.get_event_loop().time()        print(f&quot;Hello from loop at {loop_time:.3f} s&quot;)        await rate.sleep()if __name__ == &quot;__main__&quot;:    asyncio.run(main())```</longdescription>
+</pkgmetadata>

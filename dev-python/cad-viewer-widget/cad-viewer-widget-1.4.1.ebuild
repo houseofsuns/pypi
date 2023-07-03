@@ -15,8 +15,8 @@ DESCRIPTION="A Jupyter widget to view cad objects"
 
 HOMEPAGE="https://github.com/bernhard-42/cad-viewer-widget"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/de/d0/93dede0b6b616aea9efd73f2f059a3152598a037c7cb40f0cf725cb57e32/cad_viewer_widget-${REALVERSION}.tar.gz"
-SOURCEFILE="cad_viewer_widget-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/de/d0/93dede0b6b616aea9efd73f2f059a3152598a037c7cb40f0cf725cb57e32/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A QGIS EnMAPBox plugin providing a GUI for the EnMAP processing too
 
 HOMEPAGE="https://git.gfz-potsdam.de/EnMAP/GFZ_Tools_EnMAP_BOX/enpt_enmapboxapp"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/bd/a3/21a53eea41a0cf7b4a171328ec7ae7b91dcad266024904c5e19cc7a5dea8/enpt_enmapboxapp-${REALVERSION}.tar.gz"
-SOURCEFILE="enpt_enmapboxapp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bd/a3/21a53eea41a0cf7b4a171328ec7ae7b91dcad266024904c5e19cc7a5dea8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

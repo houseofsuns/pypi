@@ -15,8 +15,8 @@ DESCRIPTION="Manage Adobe Analytics Reports API v2 requests to build reports pro
 
 HOMEPAGE="https://github.com/konosp/adobe-analytics-reports-api-v2.0"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/70/c0/8b6ebbd4bff5bdbd25142463c7bafba4ba87d6855d0e537264fe0d4785d6/analytics_mayhem_adobe-${REALVERSION}.tar.gz"
-SOURCEFILE="analytics_mayhem_adobe-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/70/c0/8b6ebbd4bff5bdbd25142463c7bafba4ba87d6855d0e537264fe0d4785d6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Python Ethereum Signing Utils"
 
 HOMEPAGE="https://github.com/rmeissner/py-eth-sig-utils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/be/3a/39ccef3364026226cddb01ad201d2fee5a9591864fdb4ed6dc1077d6d9a0/py_eth_sig_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="py_eth_sig_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/be/3a/39ccef3364026226cddb01ad201d2fee5a9591864fdb4ed6dc1077d6d9a0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

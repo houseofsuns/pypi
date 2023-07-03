@@ -15,8 +15,8 @@ DESCRIPTION="Utility functions to work with collatex"
 
 HOMEPAGE="https://github.com/acdh-oeaw/acdh_collatex_utils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/01/7a/8470f27b64049d9cc439459ef948c0b79e632f2308577eba6c008cee721d/acdh_collatex_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="acdh_collatex_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/01/7a/8470f27b64049d9cc439459ef948c0b79e632f2308577eba6c008cee721d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Poetry plugin to sort the dependencies alphabetically"
 
 HOMEPAGE="https://github.com/andrei-shabanski/poetry-plugin-sort"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/40/8a/c107c4901f83ae6016ff86578147dc196347ebbaaa1d1e6891cb4848a754/poetry_plugin_sort-${REALVERSION}.tar.gz"
-SOURCEFILE="poetry_plugin_sort-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/40/8a/c107c4901f83ae6016ff86578147dc196347ebbaaa1d1e6891cb4848a754/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

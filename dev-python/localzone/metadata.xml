@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image:: https://localzone.iomaestro.com/_images/localzone.png    :align: center    :width: 100px    :height: 100px    :alt: Project link: localzone (calzone image by sobinsergey from the Noun Project)    :target: https://localzone.iomaestro.comA low-calorie library for managing DNS zones============================================.. code:: python   import localzone   with localzone.manage(&quot;db.example.com&quot;) as z:       r = z.add_record(&quot;greeting&quot;, &quot;TXT&quot;, &quot;hello, world!&quot;)       r.name    # the record name, i.e. &quot;greeting&quot;       r.rdtype  # the record type, i.e. &quot;TXT&quot;       r.content # the record content, i.e. &quot;hello,&quot; &quot;world!&quot;Powered by `dnspython &lt;https://pypi.org/project/dnspython/&gt;`_.Features--------- A simple API focused on managing resource records in local zone files- Support for almost all resource record types- Auto-save and auto-serial- Built for automationInstalling localzone--------------------.. code-block:: shell    $ pip install localzoneRaison d'être-------------Comprehensive, low-level DNS toolkits can be cumbersome for the more common zone management tasks--especially those related to making simple changes to zone records. They can also come with a steep learning curve. Enter localzone: a simple library for managing DNS zones. While `localzone` may be a low-calorie library, it's stuffed full of everything that a hungry hostmaster needs.License-------- BSD- Calzone image by sobinsergey from the Noun ProjectWhere did the calories go? The likely `suspect &lt;https://www.traegergrills.com/recipes/pork/meat-lovers-calzone-smoked-marinara&gt;`_.</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="ARCOR2 Execution service"
 
 HOMEPAGE=""
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/ca/5e/339fc28240d07242344fa9822548290bde0db15db78ba54a2741ffc84c7b/arcor2_execution-${REALVERSION}.tar.gz"
-SOURCEFILE="arcor2_execution-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ca/5e/339fc28240d07242344fa9822548290bde0db15db78ba54a2741ffc84c7b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

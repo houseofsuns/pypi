@@ -15,8 +15,8 @@ DESCRIPTION="An python CLI for analyze PII Entities with Microsoft Presidio fram
 
 HOMEPAGE="https://github.com/insightsengineering/presidio-cli"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/7c/30/923a5d594bb92c5fbdb33a4b6a9b569465122604d25e9cd69dcc6f51c0b2/presidio_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="presidio_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7c/30/923a5d594bb92c5fbdb33a4b6a9b569465122604d25e9cd69dcc6f51c0b2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

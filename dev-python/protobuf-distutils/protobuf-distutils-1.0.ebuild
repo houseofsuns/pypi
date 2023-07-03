@@ -15,8 +15,8 @@ DESCRIPTION="This is a distutils extension to generate Python code for .proto fi
 
 HOMEPAGE="https://github.com/protocolbuffers/protobuf/"
 LICENSE="3-Clause BSD License"
-SRC_URI="https://files.pythonhosted.org/packages/81/91/9c1d919528b38d9461c2c209df85845d286b901274bbe65e4957baf27366/protobuf_distutils-${REALVERSION}.tar.gz"
-SOURCEFILE="protobuf_distutils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/81/91/9c1d919528b38d9461c2c209df85845d286b901274bbe65e4957baf27366/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

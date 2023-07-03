@@ -15,8 +15,8 @@ DESCRIPTION="checksum_dict's objects handle the simple but repetitive task of ch
 
 HOMEPAGE="https://github.com/BobTheBuidler/checksum_dict"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4d/44/c72f428a96d0ddb3daf441db0fe5c18f149b8211868161ce24ddc9b47b39/checksum_dict-${REALVERSION}.tar.gz"
-SOURCEFILE="checksum_dict-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4d/44/c72f428a96d0ddb3daf441db0fe5c18f149b8211868161ce24ddc9b47b39/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

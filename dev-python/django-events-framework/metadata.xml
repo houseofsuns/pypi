@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># OverviewAn events framework that allows for logging and processing of Django models custom events.# Setup## Requirements* Python 3.9+## InstallationInstall it directly into an activated virtual environment:```text$ pip install django-events-framework```# UsageAfter installation, the framework can be used by:```textINSTALLED_APPS = [    ...,    &quot;events_framework&quot;]```</longdescription>
+</pkgmetadata>

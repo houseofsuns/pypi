@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/91/1e/d97280f6109de4597bfb9c31a8120744f736b993356660642b118dbc137b/jpeg_converter-${REALVERSION}.tar.gz"
-SOURCEFILE="jpeg_converter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/91/1e/d97280f6109de4597bfb9c31a8120744f736b993356660642b118dbc137b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

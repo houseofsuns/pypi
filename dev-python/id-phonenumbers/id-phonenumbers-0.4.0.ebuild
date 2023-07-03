@@ -15,8 +15,8 @@ DESCRIPTION="Indonesian Phonenumbers Parser"
 
 HOMEPAGE="https://github.com/SeiryuZ/id_phonenumbers"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ff/6b/a41afe120f3c3755f6d1fdced524afba11028b80c91a2db5c478d0b6def8/id_phonenumbers-${REALVERSION}.tar.gz"
-SOURCEFILE="id_phonenumbers-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ff/6b/a41afe120f3c3755f6d1fdced524afba11028b80c91a2db5c478d0b6def8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

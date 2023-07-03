@@ -15,8 +15,8 @@ DESCRIPTION="Config fetching from file or Zookeeper - with local backup - repack
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a0/d8/20d1723e3c571494c6b7f6dec87c82429f56fc8ebac47909854116c4276c/np_config-${REALVERSION}.tar.gz"
-SOURCEFILE="np_config-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a0/d8/20d1723e3c571494c6b7f6dec87c82429f56fc8ebac47909854116c4276c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A background data server for Altair charts."
 
 HOMEPAGE="http://github.com/altair-viz/altair_data_server/"
 LICENSE="BSD 3-clause"
-SRC_URI="https://files.pythonhosted.org/packages/32/24/9f6a6c755fdaf5307e57222f64af85882c6a5e193a0c5537a456058748bc/altair_data_server-${REALVERSION}.tar.gz"
-SOURCEFILE="altair_data_server-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/32/24/9f6a6c755fdaf5307e57222f64af85882c6a5e193a0c5537a456058748bc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

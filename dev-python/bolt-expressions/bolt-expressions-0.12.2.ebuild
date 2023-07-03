@@ -15,8 +15,8 @@ DESCRIPTION="Provides pandas-like expressions capabilities to the bolt extension
 
 HOMEPAGE="https://github.com/rx-modules/bolt-expressions"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/02/04/513d718dbc63280e19479f03299c23e0e7f2ee49154ac8f263b918b6a6ec/bolt_expressions-${REALVERSION}.tar.gz"
-SOURCEFILE="bolt_expressions-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/02/04/513d718dbc63280e19479f03299c23e0e7f2ee49154ac8f263b918b6a6ec/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

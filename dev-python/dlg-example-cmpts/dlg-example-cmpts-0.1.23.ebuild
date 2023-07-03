@@ -15,8 +15,8 @@ DESCRIPTION="DALiuGE Component Examples created by ICRAR"
 
 HOMEPAGE="https://github.com/ICRAR/daliuge-component-examples/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/97/1d/2b3e231e7e15d7250760adb6f1c9daec2b5349aa40d20442f6602b49445d/dlg_example_cmpts-${REALVERSION}.tar.gz"
-SOURCEFILE="dlg_example_cmpts-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/97/1d/2b3e231e7e15d7250760adb6f1c9daec2b5349aa40d20442f6602b49445d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Q-CTRL Sphinx Theme"
 
 HOMEPAGE="https://q-ctrl.com"
 LICENSE="https://q-ctrl.com/terms"
-SRC_URI="https://files.pythonhosted.org/packages/26/5a/1d79e82b1b22aef9a5dcf25d297571da9ba7944b879ba2f05dabd65c16b7/qctrl_sphinx_theme-${REALVERSION}.tar.gz"
-SOURCEFILE="qctrl_sphinx_theme-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/26/5a/1d79e82b1b22aef9a5dcf25d297571da9ba7944b879ba2f05dabd65c16b7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1a/e6/384e889e73e870e2e944acc3209d2bb433d9d2a02cdcc3dd2ba5655bf2c4/nixos_compose-${REALVERSION}.tar.gz"
-SOURCEFILE="nixos_compose-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1a/e6/384e889e73e870e2e944acc3209d2bb433d9d2a02cdcc3dd2ba5655bf2c4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

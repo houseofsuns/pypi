@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># nxs-analysis-tools## Overviewnxs-analysis-tools provides a suite of tools for slicing (2D), cutting (1D), and transforming (e.g., symmetrizing, interpolating, deltaPDF) nexus format (.nxs) scattering data.View the documentation [here](https://nxs-analysis-tools.readthedocs.io/en/stable/).## InstallationInstall nxs-analysis-tools with ``pip``:```{code-block} consolepip install nxs-analysis-tools```## LicenseThis project is licensed under the MIT License.</longdescription>
+</pkgmetadata>

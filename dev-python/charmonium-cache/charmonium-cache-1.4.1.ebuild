@@ -15,8 +15,8 @@ DESCRIPTION="Provides a decorator for caching a function between subsequent proc
 
 HOMEPAGE="https://github.com/charmoniumQ/charmonium.cache"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/52/cd/3e602970ad6b73a189c46be89b2558162b2209ed56f09e89f6bd773b5e7c/charmonium_cache-${REALVERSION}.tar.gz"
-SOURCEFILE="charmonium_cache-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/52/cd/3e602970ad6b73a189c46be89b2558162b2209ed56f09e89f6bd773b5e7c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

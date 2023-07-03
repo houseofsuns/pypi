@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/fx-kirin/add_parent_path"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e4/0a/47d3bf19bd44a880a4f23f91d38d2d6304c0db10531042381421f88de405/add_parent_path-${REALVERSION}.tar.gz"
-SOURCEFILE="add_parent_path-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e4/0a/47d3bf19bd44a880a4f23f91d38d2d6304c0db10531042381421f88de405/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

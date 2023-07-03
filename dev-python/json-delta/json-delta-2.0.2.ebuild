@@ -15,8 +15,8 @@ DESCRIPTION="A diff/patch pair for JSON-serialized data structures."
 
 HOMEPAGE="http://json-delta.readthedocs.org/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/aa/b6/cdc4ccf3923651cb42797b4c703b77a626014f3ebe3fdee7858a38e0a82e/json_delta-${REALVERSION}.tar.gz"
-SOURCEFILE="json_delta-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/aa/b6/cdc4ccf3923651cb42797b4c703b77a626014f3ebe3fdee7858a38e0a82e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

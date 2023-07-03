@@ -15,8 +15,8 @@ DESCRIPTION="Unnamed repository; edit this file 'description' to name the reposi
 
 HOMEPAGE="https://pypi.org/project/kabbes-client"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3c/14/1b241f0f1d43526d1622d70dee7cb07109a80350d69e00645b1abf7f1d70/kabbes_client-${REALVERSION}.tar.gz"
-SOURCEFILE="kabbes_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3c/14/1b241f0f1d43526d1622d70dee7cb07109a80350d69e00645b1abf7f1d70/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

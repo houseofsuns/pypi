@@ -15,8 +15,8 @@ DESCRIPTION="Hammer is a physical design framework that wraps around vendor spec
 
 HOMEPAGE="https://github.com/ucb-bar/hammer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3d/47/4533ba9397f0ad864e81f2902ea3fe30f3e551611af8447a5f3a282bf065/hammer_vlsi-${REALVERSION}.tar.gz"
-SOURCEFILE="hammer_vlsi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3d/47/4533ba9397f0ad864e81f2902ea3fe30f3e551611af8447a5f3a282bf065/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

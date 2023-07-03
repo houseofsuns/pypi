@@ -15,8 +15,8 @@ DESCRIPTION="Reusable widgets for AiiDAlab applications."
 
 HOMEPAGE="https://github.com/aiidalab/aiidalab-widgets-base"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4e/fd/dbb910d23f77d2c00cd32bb0bea6178671e304ad9be500cd83a57ab1d7c9/aiidalab_widgets_base-${REALVERSION}.tar.gz"
-SOURCEFILE="aiidalab_widgets_base-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4e/fd/dbb910d23f77d2c00cd32bb0bea6178671e304ad9be500cd83a57ab1d7c9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

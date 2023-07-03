@@ -15,8 +15,8 @@ DESCRIPTION="Client module for connecting to Volume Segmantics User Inteface"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f3/39/415061c1c55299ab2cf715357d89e758514a3289dfe7bf334e23a5dd6499/vsui_client-${REALVERSION}.tar.gz"
-SOURCEFILE="vsui_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f3/39/415061c1c55299ab2cf715357d89e758514a3289dfe7bf334e23a5dd6499/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

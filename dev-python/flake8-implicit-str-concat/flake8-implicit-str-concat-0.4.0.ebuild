@@ -15,8 +15,8 @@ DESCRIPTION="Flake8 plugin to encourage correct string literal concatenation."
 
 HOMEPAGE="https://github.com/flake8-implicit-str-concat/flake8-implicit-str-concat"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/de/a4/2cdbe12c014e80b7a1d0b301305861ee30e85091406fb75ee085fcdb044e/flake8_implicit_str_concat-${REALVERSION}.tar.gz"
-SOURCEFILE="flake8_implicit_str_concat-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/de/a4/2cdbe12c014e80b7a1d0b301305861ee30e85091406fb75ee085fcdb044e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

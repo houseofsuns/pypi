@@ -15,8 +15,8 @@ DESCRIPTION="A package to control MadVR Envy over IP"
 
 HOMEPAGE="https://github.com/iloveicedgreentea/py-madvr"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/31/ea/c0abf3b059e8e8bec759247cd227cd0cedcdf8e32a1f6627536bc5f53c71/py_madvr-${REALVERSION}.tar.gz"
-SOURCEFILE="py_madvr-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/31/ea/c0abf3b059e8e8bec759247cd227cd0cedcdf8e32a1f6627536bc5f53c71/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

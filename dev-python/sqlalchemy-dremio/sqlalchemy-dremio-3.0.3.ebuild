@@ -15,8 +15,8 @@ DESCRIPTION="A SQLAlchemy dialect for Dremio via the Flight interface."
 
 HOMEPAGE="https://github.com/narendrans/sqlalchemy_dremio"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d0/77/50b01d25764332fd5ddd4f8738b53b4e89ac1e75ea937691b25b52297f97/sqlalchemy_dremio-${REALVERSION}.tar.gz"
-SOURCEFILE="sqlalchemy_dremio-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d0/77/50b01d25764332fd5ddd4f8738b53b4e89ac1e75ea937691b25b52297f97/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

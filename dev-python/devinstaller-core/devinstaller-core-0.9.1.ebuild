@@ -15,8 +15,8 @@ DESCRIPTION="The core library for creating a Devinstaller application."
 
 HOMEPAGE="https://justine.kizhak.com/projects/devinstaller-core-py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/72/98/7bd7467f7a5965340dca481754f5ba923a142680288ffdf528bc953fc46c/devinstaller_core-${REALVERSION}.tar.gz"
-SOURCEFILE="devinstaller_core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/72/98/7bd7467f7a5965340dca481754f5ba923a142680288ffdf528bc953fc46c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

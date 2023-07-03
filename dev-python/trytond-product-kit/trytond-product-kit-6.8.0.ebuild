@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module to manage product kits and components"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/7e/3a/500dcd58b890c28bf490af017cda84ed24b8fa9e399cab7bb99cc34a300f/trytond_product_kit-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_product_kit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7e/3a/500dcd58b890c28bf490af017cda84ed24b8fa9e399cab7bb99cc34a300f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

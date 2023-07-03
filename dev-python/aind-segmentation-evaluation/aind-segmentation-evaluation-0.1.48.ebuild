@@ -15,8 +15,8 @@ DESCRIPTION="Python package for evaluating neuron segmentations in terms of the 
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8d/a1/e1e129c8e619fe0e2f16ac29fae5da5dce373881fe327801d3dbbef358e9/aind_segmentation_evaluation-${REALVERSION}.tar.gz"
-SOURCEFILE="aind_segmentation_evaluation-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8d/a1/e1e129c8e619fe0e2f16ac29fae5da5dce373881fe327801d3dbbef358e9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

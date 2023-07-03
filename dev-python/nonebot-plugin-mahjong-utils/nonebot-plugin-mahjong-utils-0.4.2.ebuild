@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/ssttkkl/nonebot-plugin-mahjong-utils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/26/cd/949a2d454f6bb62dc2985cc1ef2283ea7ecfccdf7aa5067831bfb50e5134/nonebot_plugin_mahjong_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="nonebot_plugin_mahjong_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/26/cd/949a2d454f6bb62dc2985cc1ef2283ea7ecfccdf7aa5067831bfb50e5134/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># coolpyThis is a project demonstrating how publich a muon beam cooling module to PyPI##InstallationRun the following to install:'''python pip install coolpy'''##Usage'''python from coolpy import quadrupole## Generate &quot;Qudarupole matrix!&quot;'''# Developing Hello WorldTo install coolpy, aling with the tool you need to develop and run tests, run the following in you r virtualenv:'''bash$ pip install -e .[dev]'''</longdescription>
+</pkgmetadata>

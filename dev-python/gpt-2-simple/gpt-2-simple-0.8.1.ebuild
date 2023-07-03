@@ -15,8 +15,8 @@ DESCRIPTION="Python package to easily retrain OpenAI's GPT-2 text-generating mod
 
 HOMEPAGE="https://github.com/minimaxir/gpt-2-simple"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ec/d5/d1e9ab56bd82bc206fbd26a284115bee8101c2057a03d6ce8bcd069a1525/gpt_2_simple-${REALVERSION}.tar.gz"
-SOURCEFILE="gpt_2_simple-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ec/d5/d1e9ab56bd82bc206fbd26a284115bee8101c2057a03d6ce8bcd069a1525/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Type annotations and code completion for s3transfer"
 
 HOMEPAGE="https://youtype.github.io/mypy_boto3_builder/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e2/ce/d5754d2b30292d0e8e37ec677c9175f0a773f2c608ceb2ef35bd645131d2/types_s3transfer-${REALVERSION}.tar.gz"
-SOURCEFILE="types_s3transfer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e2/ce/d5754d2b30292d0e8e37ec677c9175f0a773f2c608ceb2ef35bd645131d2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

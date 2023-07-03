@@ -15,8 +15,8 @@ DESCRIPTION="Cookies and Session Management for Sanic"
 
 HOMEPAGE="https://github.com/omarryhan/sanic-cookies"
 LICENSE="GNU"
-SRC_URI="https://files.pythonhosted.org/packages/db/0b/a503a143ff62835982c280b71c632f4e0233d3c5d533e46a26223ad4c6dc/sanic_cookies-${REALVERSION}.tar.gz"
-SOURCEFILE="sanic_cookies-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/db/0b/a503a143ff62835982c280b71c632f4e0233d3c5d533e46a26223ad4c6dc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

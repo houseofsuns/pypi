@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>---------------------------------------# Keyauth API Wrapper  - KeyAuth is an Open-source authentication system with cloud-hosted subscriptions available as well.---------------------------------------# Installation```bashpip3 install keyauth```# Usage```pythonimport pwinputfrom keyauth import *client = Keyauth(    name=&quot;application name&quot;,    owner_id=&quot;your account id&quot;,    secret=&quot;application secret&quot;,    version=&quot;current version&quot;,    file_hash=misc.get_checksum())print(client.application)print(&quot;Validation status: %s&quot; % (client.check()))print(&quot;Blacklist status: %s&quot; % (client.check_blacklist()))print()print(&quot;1=login; 2=register; 3=upgrade, 4=license key&quot;)option = int(input(&quot;Option: &quot;))if option == 1:    reply = client.login(        username=input(&quot;Username: &quot;),        password=pwinput.pwinput(&quot;Password: &quot;)    )if option == 2:    reply = client.register(        username=input(&quot;Username: &quot;),        password=pwinput.pwinput(&quot;Password: &quot;),        license_key=pwinput.pwinput(&quot;License: &quot;)    )if option == 3:    reply = client.upgrade(        username=input(&quot;Username: &quot;),        license_key=pwinput.pwinput(&quot;License: &quot;)    )if option == 4:    reply = client.license(        license_key=pwinput.pwinput(&quot;License: &quot;)    )print(client.user)```</longdescription>
+</pkgmetadata>

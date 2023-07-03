@@ -15,8 +15,8 @@ DESCRIPTION="Scaffolding for Brewblox backend services"
 
 HOMEPAGE=""
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/e5/9d/5c65adce07a196d5e2a96b4297e40443b06ffb8fab3a0c33df29e34261cf/brewblox_service-${REALVERSION}.tar.gz"
-SOURCEFILE="brewblox_service-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e5/9d/5c65adce07a196d5e2a96b4297e40443b06ffb8fab3a0c33df29e34261cf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

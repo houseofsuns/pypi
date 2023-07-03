@@ -15,8 +15,8 @@ DESCRIPTION="A Library for Uncertainty Quantification."
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/4e/ed/feaaf6e7c84e28f6a5323a100589ce3d02e36f35edd581bf3c6e686c3cc5/aws_fortuna-${REALVERSION}.tar.gz"
-SOURCEFILE="aws_fortuna-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4e/ed/feaaf6e7c84e28f6a5323a100589ce3d02e36f35edd581bf3c6e686c3cc5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

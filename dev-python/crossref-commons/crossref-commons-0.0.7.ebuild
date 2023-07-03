@@ -15,8 +15,8 @@ DESCRIPTION="Crossref Commons"
 
 HOMEPAGE="https://gitlab.com/crossref/crossref_commons_py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8a/9d/a69673e371afa0d77edcb0cc8dfb6b05ccd9e1ffe879ca7804cf32e7851c/crossref_commons-${REALVERSION}.tar.gz"
-SOURCEFILE="crossref_commons-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8a/9d/a69673e371afa0d77edcb0cc8dfb6b05ccd9e1ffe879ca7804cf32e7851c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

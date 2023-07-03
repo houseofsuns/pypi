@@ -15,8 +15,8 @@ DESCRIPTION="Functional, streaming approach to HTML generation"
 
 HOMEPAGE="https://github.com/quadrant-newmedia/html_generators"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ab/a7/bf77b2ce73114b54c2cecb20eb9e1b13d80bd2ebacef2a5b4d9ab49e8748/html_generators-${REALVERSION}.tar.gz"
-SOURCEFILE="html_generators-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ab/a7/bf77b2ce73114b54c2cecb20eb9e1b13d80bd2ebacef2a5b4d9ab49e8748/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

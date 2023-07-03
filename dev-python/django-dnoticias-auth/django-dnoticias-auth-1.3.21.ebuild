@@ -15,8 +15,8 @@ DESCRIPTION="Dnoticias Authentication Backend"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/03/de/ceb070180d9e5678665be20c773e0e69911c504550a87600459ff6cface8/django_dnoticias_auth-${REALVERSION}.tar.gz"
-SOURCEFILE="django_dnoticias_auth-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/03/de/ceb070180d9e5678665be20c773e0e69911c504550a87600459ff6cface8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="FastAPI filter"
 
 HOMEPAGE="https://github.com/arthurio/fastapi-filter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c9/b8/24667e23c49ac882f380d93e18a63ec6c8becd1d9288e42b712abce23a78/fastapi_filter-${REALVERSION}.tar.gz"
-SOURCEFILE="fastapi_filter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c9/b8/24667e23c49ac882f380d93e18a63ec6c8becd1d9288e42b712abce23a78/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

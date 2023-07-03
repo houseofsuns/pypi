@@ -15,8 +15,8 @@ DESCRIPTION="Platform agnostic command and shell execution tool, also allows UAC
 
 HOMEPAGE="https://github.com/netinvent/command_runner"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/38/52/5eb93d67e1ec6ee947b265401056cd9aa191d0522213bf411b6260655c19/command_runner-${REALVERSION}.tar.gz"
-SOURCEFILE="command_runner-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/38/52/5eb93d67e1ec6ee947b265401056cd9aa191d0522213bf411b6260655c19/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

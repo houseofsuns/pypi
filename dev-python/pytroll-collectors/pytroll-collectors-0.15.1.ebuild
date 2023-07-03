@@ -15,8 +15,8 @@ DESCRIPTION="Pytroll data collectors"
 
 HOMEPAGE="https://github.com/pytroll/pytroll-collectors"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ae/7a/9f0c4ef4d24a02fea21fdcab37395899e03e4e698c849110ac62181da2a3/pytroll_collectors-${REALVERSION}.tar.gz"
-SOURCEFILE="pytroll_collectors-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ae/7a/9f0c4ef4d24a02fea21fdcab37395899e03e4e698c849110ac62181da2a3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

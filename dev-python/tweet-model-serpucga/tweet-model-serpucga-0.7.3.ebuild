@@ -15,8 +15,8 @@ DESCRIPTION="A modelization of a tweet object with convenient features and funct
 
 HOMEPAGE="https://gitlab.com/Serbaf/tweet-model-serpucga"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6b/1e/f74423b1c05d823d246d06c2b17c409d76db07a114f1bea849fab0b8472e/tweet_model_serpucga-${REALVERSION}.tar.gz"
-SOURCEFILE="tweet_model_serpucga-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6b/1e/f74423b1c05d823d246d06c2b17c409d76db07a114f1bea849fab0b8472e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

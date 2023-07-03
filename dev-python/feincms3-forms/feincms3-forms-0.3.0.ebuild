@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/matthiask/feincms3-forms/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/09/c5/a5446d4a2030a66608ce7fed66a94a3bfb9443963d398560d37b3ef1e6f3/feincms3_forms-${REALVERSION}.tar.gz"
-SOURCEFILE="feincms3_forms-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/09/c5/a5446d4a2030a66608ce7fed66a94a3bfb9443963d398560d37b3ef1e6f3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

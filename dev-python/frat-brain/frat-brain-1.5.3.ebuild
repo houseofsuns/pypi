@@ -15,8 +15,8 @@ DESCRIPTION="Application for ROI fMRI data analysis."
 
 HOMEPAGE="https://fmri-roi-analysis-tool.readthedocs.io/en/latest/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a0/d3/73090d5241069f1e950a700cf01e853bd3e8305ed68dc588f2942cba8aca/frat_brain-${REALVERSION}.tar.gz"
-SOURCEFILE="frat_brain-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a0/d3/73090d5241069f1e950a700cf01e853bd3e8305ed68dc588f2942cba8aca/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

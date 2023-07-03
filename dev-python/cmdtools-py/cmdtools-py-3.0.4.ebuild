@@ -15,8 +15,8 @@ DESCRIPTION="A (not quite) flexible command framework"
 
 HOMEPAGE="https://github.com/HugeBrain16/cmdtools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/20/c1/2e68e4012ea39a402d137d26e509c89b865008256dc085245bb0afc45d51/cmdtools_py-${REALVERSION}.tar.gz"
-SOURCEFILE="cmdtools_py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/20/c1/2e68e4012ea39a402d137d26e509c89b865008256dc085245bb0afc45d51/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

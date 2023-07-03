@@ -15,8 +15,8 @@ DESCRIPTION="Scout Application Performance Monitoring Agent"
 
 HOMEPAGE="https://github.com/scoutapp/scout_apm_python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/01/1f/6a895625819680c01a178bfbcacd919953802b634815b16e5dec4aa6cabb/scout_apm-${REALVERSION}.tar.gz"
-SOURCEFILE="scout_apm-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/01/1f/6a895625819680c01a178bfbcacd919953802b634815b16e5dec4aa6cabb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

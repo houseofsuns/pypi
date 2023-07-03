@@ -15,8 +15,8 @@ DESCRIPTION="Bootstrap 5 for Django"
 
 HOMEPAGE="https://github.com/zostera/django-bootstrap5"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9c/e9/eeef97a8886b3c74317fe62c2872fc58bfbe0afcce31d3244f81119f6843/django_bootstrap5-${REALVERSION}.tar.gz"
-SOURCEFILE="django_bootstrap5-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9c/e9/eeef97a8886b3c74317fe62c2872fc58bfbe0afcce31d3244f81119f6843/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

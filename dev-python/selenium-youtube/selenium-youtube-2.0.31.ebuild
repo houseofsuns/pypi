@@ -15,8 +15,8 @@ DESCRIPTION="selenium_youtube"
 
 HOMEPAGE="https://github.com/kkristof200/selenium_youtube"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6b/db/8124330d5cec8d9670f57689531c62f8c77706bbc8c19ccff91acbe05a99/selenium_youtube-${REALVERSION}.tar.gz"
-SOURCEFILE="selenium_youtube-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6b/db/8124330d5cec8d9670f57689531c62f8c77706bbc8c19ccff91acbe05a99/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

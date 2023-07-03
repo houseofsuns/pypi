@@ -15,8 +15,8 @@ DESCRIPTION="Report licenses information for dependencies in use by a Python pro
 
 HOMEPAGE="https://github.com/abduhbm/dep-license"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/22/d4/c1cf6f6c6b16f00aa298827aca422ea7a658cdb65c4067259f27ad3acd5c/dep_license-${REALVERSION}.tar.gz"
-SOURCEFILE="dep_license-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/22/d4/c1cf6f6c6b16f00aa298827aca422ea7a658cdb65c4067259f27ad3acd5c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

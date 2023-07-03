@@ -15,8 +15,8 @@ DESCRIPTION="IoT Greenhouse service"
 
 HOMEPAGE="https://github.com/k2controls/iot_gh"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d2/d0/c1848ee6f82b17043308eafd1744773875cc3fa1188893428fe97d835d3c/iot_gh-${REALVERSION}.tar.gz"
-SOURCEFILE="iot_gh-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d2/d0/c1848ee6f82b17043308eafd1744773875cc3fa1188893428fe97d835d3c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

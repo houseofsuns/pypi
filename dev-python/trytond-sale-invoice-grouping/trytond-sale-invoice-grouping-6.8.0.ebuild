@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module to group sale invoices"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/8d/89/b5a88466748275dc4b68b23ef9e46024b3e31ed1a869c0e4c48f13f6806f/trytond_sale_invoice_grouping-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_sale_invoice_grouping-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8d/89/b5a88466748275dc4b68b23ef9e46024b3e31ed1a869c0e4c48f13f6806f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

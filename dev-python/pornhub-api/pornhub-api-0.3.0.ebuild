@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/Derfirm/pornhub_api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f7/61/25220dbaf61d1ca9ac3d4e5968c74f3741dde085c33cdd38bd10dd4932da/pornhub_api-${REALVERSION}.tar.gz"
-SOURCEFILE="pornhub_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f7/61/25220dbaf61d1ca9ac3d4e5968c74f3741dde085c33cdd38bd10dd4932da/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

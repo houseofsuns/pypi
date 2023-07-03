@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e4/4b/8a7a24af1b446622007889f2390d087e8d9a0388c8de31b491b1ea793005/poetry_stickywheel_plugin-${REALVERSION}.tar.gz"
-SOURCEFILE="poetry_stickywheel_plugin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e4/4b/8a7a24af1b446622007889f2390d087e8d9a0388c8de31b491b1ea793005/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

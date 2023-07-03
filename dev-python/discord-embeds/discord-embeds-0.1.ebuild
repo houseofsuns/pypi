@@ -15,8 +15,8 @@ DESCRIPTION="Package for make eazy embeds"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/de/c6/73549126c8d6ecaf0796cd59acf83ef087b1d1c858750f0a40cd9e1b68eb/discord_embeds-${REALVERSION}.tar.gz"
-SOURCEFILE="discord_embeds-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/de/c6/73549126c8d6ecaf0796cd59acf83ef087b1d1c858750f0a40cd9e1b68eb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

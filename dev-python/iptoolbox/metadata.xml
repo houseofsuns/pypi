@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;div align=&quot;right&quot;&gt;![Version](https://img.shields.io/badge/Version-0.0.3-ff6fff?style=for-the-badge&amp;logoColor=black&amp;labelColor=3f00ff)&lt;/div&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;div align=&quot;center&quot;&gt;# iptoolbox### `iptoolbox` is a tool for purposefully creating IP, testing and scanning it[![Repository](https://img.shields.io/badge/Repository-002147?style=for-the-badge&amp;logo=github&amp;logoColor=white&amp;labelColor=36454f)][Repository][![pypi](https://img.shields.io/badge/pypi-package-4b8bbe?style=for-the-badge&amp;logo=python&amp;logoColor=004242&amp;labelColor=ffd43b)][pypi][![Documentation](https://img.shields.io/badge/Documentation-458b00?style=for-the-badge&amp;logo=Read%20the%20Docs&amp;logoColor=36454f&amp;labelColor=b0bf1a)][Documentation][![BugTracker](https://img.shields.io/badge/Bug%20Tracker-red?style=for-the-badge&amp;logo=openbugbounty&amp;logoColor=white&amp;labelColor=cd3700)][BugTracker][Repository]:https://github.com/V70024/iptoolbox/tree/0.0.3/[pypi]:https://pypi.org/project/iptoolbox/0.0.3/[Documentation]:https://github.com/V70024/iptoolbox/wiki/iptoolbox-0.0.3/[BugTracker]:https://github.com/V70024/iptoolbox/issues/&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;</longdescription>
+</pkgmetadata>

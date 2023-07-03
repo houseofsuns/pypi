@@ -15,8 +15,8 @@ DESCRIPTION="Easy Least-Squares trilateration using scipy"
 
 HOMEPAGE="https://github.com/agusalex/Least-Squares-Trilateration"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/da/82/b73e14f1db6996701e642aa35083ba40771ea664e4afbff8eedccdcea2af/easy_trilateration-${REALVERSION}.tar.gz"
-SOURCEFILE="easy_trilateration-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/da/82/b73e14f1db6996701e642aa35083ba40771ea664e4afbff8eedccdcea2af/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

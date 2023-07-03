@@ -15,8 +15,8 @@ DESCRIPTION="Enables annotations of tensor shapes in numerical computing librari
 
 HOMEPAGE="https://github.com/deepmind/tensor_annotations"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d8/8f/f6a29d78569cdf62e2bef0fa34cf27b36608c06134aa7fbb0ee0e60d2ffe/tensor_annotations-${REALVERSION}.tar.gz"
-SOURCEFILE="tensor_annotations-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d8/8f/f6a29d78569cdf62e2bef0fa34cf27b36608c06134aa7fbb0ee0e60d2ffe/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

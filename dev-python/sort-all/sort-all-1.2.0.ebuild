@@ -15,8 +15,8 @@ DESCRIPTION="Automatically Sort __all__ records alphabetically"
 
 HOMEPAGE="https://github.com/aio-libs/sort-all"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/90/9b/0f576cdc67160fe3c8d10fbabc8c25937829f82a75053a54311fde7cb3fa/sort_all-${REALVERSION}.tar.gz"
-SOURCEFILE="sort_all-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/90/9b/0f576cdc67160fe3c8d10fbabc8c25937829f82a75053a54311fde7cb3fa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

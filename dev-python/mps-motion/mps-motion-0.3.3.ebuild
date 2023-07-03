@@ -15,8 +15,8 @@ DESCRIPTION="Library for tracking motion in cardiac mps data"
 
 HOMEPAGE="https://github.com/ComputationalPhysiology/mps_motion"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/49/12/27b90db1462b1ff280592dac7844a38507260d1cb1d79aead21375b578b3/mps_motion-${REALVERSION}.tar.gz"
-SOURCEFILE="mps_motion-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/49/12/27b90db1462b1ff280592dac7844a38507260d1cb1d79aead21375b578b3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

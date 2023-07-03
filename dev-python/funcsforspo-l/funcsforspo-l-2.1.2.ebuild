@@ -15,8 +15,8 @@ DESCRIPTION="Funções Para Melhorar Desenvolvimento de Robôs com Selenium - Li
 
 HOMEPAGE="https://github.com/githubpaycon/funcsforspo_l"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/29/97/f86738bd593b0b71ff1476cc4dc87a1686e3ee8799d4a7822fdbe61ae286/funcsforspo_l-${REALVERSION}.tar.gz"
-SOURCEFILE="funcsforspo_l-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/29/97/f86738bd593b0b71ff1476cc4dc87a1686e3ee8799d4a7822fdbe61ae286/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

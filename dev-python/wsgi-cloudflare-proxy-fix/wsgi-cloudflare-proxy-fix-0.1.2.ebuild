@@ -15,8 +15,8 @@ DESCRIPTION="Sets REMOTE_ADDR to the correct value when behind Cloudflare, based
 
 HOMEPAGE="https://github.com/wolever/wsgi-cloudflare-proxy-fix"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6c/b3/fd2281a91ffe55a69e74aa4b71d031c238059800b3307a8f21184b13b00c/wsgi_cloudflare_proxy_fix-${REALVERSION}.tar.gz"
-SOURCEFILE="wsgi_cloudflare_proxy_fix-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6c/b3/fd2281a91ffe55a69e74aa4b71d031c238059800b3307a8f21184b13b00c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

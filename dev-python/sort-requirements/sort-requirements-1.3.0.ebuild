@@ -15,8 +15,8 @@ DESCRIPTION="A simple script to sort python dependencies in requirement text fil
 
 HOMEPAGE="https://github.com/rehandalal/sort-requirements"
 LICENSE="Mozilla Public License Version 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f6/ee/27fed6c658e73598356f8e758a116adacb72f7e50d34fc27fc7f1d2beed3/sort_requirements-${REALVERSION}.tar.gz"
-SOURCEFILE="sort_requirements-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f6/ee/27fed6c658e73598356f8e758a116adacb72f7e50d34fc27fc7f1d2beed3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

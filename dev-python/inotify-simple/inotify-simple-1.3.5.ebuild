@@ -15,8 +15,8 @@ DESCRIPTION="A simple wrapper around inotify. No fancy bells and whistles, just 
 
 HOMEPAGE="https://github.com/chrisjbillington/inotify_simple"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/51/41/59ca6011f5463d5e5eefcfed2e7fe470922d3a958b7f3aad95eda208d7d3/inotify_simple-${REALVERSION}.tar.gz"
-SOURCEFILE="inotify_simple-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/51/41/59ca6011f5463d5e5eefcfed2e7fe470922d3a958b7f3aad95eda208d7d3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

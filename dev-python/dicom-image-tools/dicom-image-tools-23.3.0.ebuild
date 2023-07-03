@@ -15,8 +15,8 @@ DESCRIPTION="Python package for managing DICOM images from different modalities"
 
 HOMEPAGE="https://github.com/BwKodex/dicomimagetools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/82/07/abbc06b360a16074cc3058ed7c5e6f91a3644f1aa05cd520d0fdede786f9/dicom_image_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="dicom_image_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/82/07/abbc06b360a16074cc3058ed7c5e6f91a3644f1aa05cd520d0fdede786f9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

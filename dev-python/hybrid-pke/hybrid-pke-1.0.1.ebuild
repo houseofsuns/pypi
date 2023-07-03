@@ -15,8 +15,8 @@ DESCRIPTION="The Hybrid Public Key Encryption (HPKE) standard in Python"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3d/39/0ac1e9f66b28591bda40baccee86bf0e290c01de8832e8081c935bf53dfd/hybrid_pke-${REALVERSION}.tar.gz"
-SOURCEFILE="hybrid_pke-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3d/39/0ac1e9f66b28591bda40baccee86bf0e290c01de8832e8081c935bf53dfd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

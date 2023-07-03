@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># django-short-linksURL / Link shortener web app.## Getting StartedInstall `links`:```shellpip install django-short-links```Add `links` to `INSTALLED_APPS`. Make sure that `django.contrib.auth` installed, then add a new setting `LINKS_SITE_NAME`, in `settings.py`:```python# settings.pyINSTALLED_APPS = [    ...    'links',    'django.contrib.auth',    ...]# Your server's IP address without trailing slashLINKS_SITE_URL = 'https://your.domain.com'```Include `links` and `django.contrib.auth.urls`, in project's `urls.py`:```python# urls.pyurlpatterns = [    ...    path('l/', include('links.urls')),    path('accounts/', include('django.contrib.auth.urls')),    ...]```Run `migrate`:```shellpython manage.py migrate```Now, you can open your browser at `https://your.domain.com/l/`.I hope that you find this useful.</longdescription>
+</pkgmetadata>

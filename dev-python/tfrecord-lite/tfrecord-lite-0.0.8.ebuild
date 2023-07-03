@@ -15,8 +15,8 @@ DESCRIPTION="A lightweight tfrecord parser"
 
 HOMEPAGE="https://github.com/jongwook/tfrecord_lite"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/af/9c/9d466e9de1c0db3e0867908f6973e0b7a145a9dd0d981ffb7bb17b5487a1/tfrecord_lite-${REALVERSION}.tar.gz"
-SOURCEFILE="tfrecord_lite-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/af/9c/9d466e9de1c0db3e0867908f6973e0b7a145a9dd0d981ffb7bb17b5487a1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

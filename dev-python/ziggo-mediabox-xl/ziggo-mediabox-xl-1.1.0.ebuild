@@ -15,8 +15,8 @@ DESCRIPTION="Python interface to Ziggo's Mediabox XL"
 
 HOMEPAGE="https://github.com/b10m/ziggo_mediabox_xl"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ee/15/72e4acd8992bed77c4216c525237ae606c774475dad489723f7fb788412b/ziggo_mediabox_xl-${REALVERSION}.tar.gz"
-SOURCEFILE="ziggo_mediabox_xl-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ee/15/72e4acd8992bed77c4216c525237ae606c774475dad489723f7fb788412b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

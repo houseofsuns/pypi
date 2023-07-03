@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Databricks Session Util**A simple utility for spark and mlflow session objects**## Setup### Quick Install```shellpython -m pip install databricks_session```### Build from sourceClone the repository```shellgit clone https://github.com/Broomva/databricks_session.git```Install the package``` shellcd databricks_session &amp;&amp; make install```### Build manuallyAfter cloning, create a virtual environment```shellconda create -n databricks_session python=3.10conda activate databricks_session```Install the requirements```shellpip install -r requirements.txt```Run the python installation```shellpython setup.py install```## UsageThe deployment requires a .env file created under local folder:```shelltouch .env```It should have a schema like this:```tomldatabricks_experiment_name=''databricks_experiment_id=''databricks_host=''databricks_token=''databricks_username=''databricks_password=''databricks_cluster_id=''``````pythonimport databricks_session # Create a Spark sessionspark = DatabricksSparkSession().get_session()# Connect to MLFLow Artifact Servermlflow_session = DatabricksMLFlowSession().get_session()```</longdescription>
+</pkgmetadata>

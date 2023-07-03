@@ -15,8 +15,8 @@ DESCRIPTION="A plugin for pytest to manage expected test failures"
 
 HOMEPAGE="https://github.com/EnergySage/pytest-quarantine"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/95/5a/47db22b0f863bb4f33187e2f97c710dab27d5d542fedcc228b80980a7502/pytest_quarantine-${REALVERSION}.tar.gz"
-SOURCEFILE="pytest_quarantine-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/95/5a/47db22b0f863bb4f33187e2f97c710dab27d5d542fedcc228b80980a7502/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

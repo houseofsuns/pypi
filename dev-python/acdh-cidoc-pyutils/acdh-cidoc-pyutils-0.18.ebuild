@@ -15,8 +15,8 @@ DESCRIPTION="Helper functions for the generation of CIDOC CRMish RDF (from XML/T
 
 HOMEPAGE="https://github.com/acdh-oeaw/acdh-cidoc-pyutils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a5/55/18cf3d0b5741436d690f81a4ae511a73f99e92d8d2e89bd96e29f94234bd/acdh_cidoc_pyutils-${REALVERSION}.tar.gz"
-SOURCEFILE="acdh_cidoc_pyutils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a5/55/18cf3d0b5741436d690f81a4ae511a73f99e92d8d2e89bd96e29f94234bd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Allows you to focus on building applications using the latest model
 
 HOMEPAGE="https://github.com/AI-Core/ai-core"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fc/65/dbfab55521581b69c0892efc1d12086978f3a8d29b0a06ef496d4589c7aa/ai_core-${REALVERSION}.tar.gz"
-SOURCEFILE="ai_core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fc/65/dbfab55521581b69c0892efc1d12086978f3a8d29b0a06ef496d4589c7aa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

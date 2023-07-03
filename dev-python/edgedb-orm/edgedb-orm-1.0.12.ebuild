@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9f/7e/a47d54c2f6ec6bdf04c050122450eda8f02ce64acdb9443c0fc92557b8ff/edgedb_orm-${REALVERSION}.tar.gz"
-SOURCEFILE="edgedb_orm-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9f/7e/a47d54c2f6ec6bdf04c050122450eda8f02ce64acdb9443c0fc92557b8ff/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

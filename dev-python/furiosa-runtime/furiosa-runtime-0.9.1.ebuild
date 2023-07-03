@@ -15,8 +15,8 @@ DESCRIPTION="Provide high-level Python APIs to access Furiosa AI's NPUs and its 
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f7/8a/9657dffa84a2d14662b0cbb1d1b55e7c7e655bf258e570b45f8077de3d68/furiosa_runtime-${REALVERSION}.tar.gz"
-SOURCEFILE="furiosa_runtime-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f7/8a/9657dffa84a2d14662b0cbb1d1b55e7c7e655bf258e570b45f8077de3d68/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

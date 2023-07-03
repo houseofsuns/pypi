@@ -15,8 +15,8 @@ DESCRIPTION="time series model for training sequence dataset"
 
 HOMEPAGE="https://doc.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ed/9c/17725435ffc9c9a958675d7d29d6647509dd4bf12974430f63a16491a617/sequence_model_train-${REALVERSION}.tar.gz"
-SOURCEFILE="sequence_model_train-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ed/9c/17725435ffc9c9a958675d7d29d6647509dd4bf12974430f63a16491a617/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

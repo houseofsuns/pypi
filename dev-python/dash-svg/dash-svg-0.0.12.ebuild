@@ -15,8 +15,8 @@ DESCRIPTION="SVG support library for Plotly/Dash"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/26/b1/a17887bd3243925d8801319a5f9a6df4379426c43f54d39652facbab10a2/dash_svg-${REALVERSION}.tar.gz"
-SOURCEFILE="dash_svg-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/26/b1/a17887bd3243925d8801319a5f9a6df4379426c43f54d39652facbab10a2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

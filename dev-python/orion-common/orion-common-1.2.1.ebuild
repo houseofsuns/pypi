@@ -15,8 +15,8 @@ DESCRIPTION="A small example package"
 
 HOMEPAGE="https://edugonmor.autogen.ovh"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/12/e2/fa637999f3e178d4ec9c0a3a563c8e7040a6ef847e2cef3e519d6af82579/orion_common-${REALVERSION}.tar.gz"
-SOURCEFILE="orion_common-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/12/e2/fa637999f3e178d4ec9c0a3a563c8e7040a6ef847e2cef3e519d6af82579/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

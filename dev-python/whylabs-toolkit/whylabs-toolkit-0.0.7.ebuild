@@ -15,8 +15,8 @@ DESCRIPTION="Whylabs CLI and Helpers package."
 
 HOMEPAGE=""
 LICENSE="Apache-2.0 license"
-SRC_URI="https://files.pythonhosted.org/packages/a3/24/c2ec16c70b936c957bd3f0a8f0d21250a2cfddca1ba9b7dc9f39d15169f8/whylabs_toolkit-${REALVERSION}.tar.gz"
-SOURCEFILE="whylabs_toolkit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a3/24/c2ec16c70b936c957bd3f0a8f0d21250a2cfddca1ba9b7dc9f39d15169f8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

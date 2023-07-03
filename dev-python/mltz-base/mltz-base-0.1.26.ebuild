@@ -15,8 +15,8 @@ DESCRIPTION="Base Package for ML related dev"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0c/c0/d1096df4387a2e280516157d6920b6f617022a581b0d763532881d08baa8/mltz_base-${REALVERSION}.tar.gz"
-SOURCEFILE="mltz_base-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0c/c0/d1096df4387a2e280516157d6920b6f617022a581b0d763532881d08baa8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

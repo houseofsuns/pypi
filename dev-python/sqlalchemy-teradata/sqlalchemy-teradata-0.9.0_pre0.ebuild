@@ -15,8 +15,8 @@ DESCRIPTION="Teradata dialect for SQLAlchemy"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/43/92/5c054f915aebfc86904c906444c35ce28a3ba3381dd439dac0833b938944/sqlalchemy_teradata-${REALVERSION}.tar.gz"
-SOURCEFILE="sqlalchemy_teradata-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/43/92/5c054f915aebfc86904c906444c35ce28a3ba3381dd439dac0833b938944/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

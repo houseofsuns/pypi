@@ -15,8 +15,8 @@ DESCRIPTION="Some tools I find useful for working with Ig receptor sequences"
 
 HOMEPAGE="https://github.com/williamdlees/receptor_utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/18/e9/0e7334da46703f84105751149f6e0afe1040e63f99466d9def0afe808ec7/receptor_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="receptor_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/18/e9/0e7334da46703f84105751149f6e0afe1040e63f99466d9def0afe808ec7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

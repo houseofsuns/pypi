@@ -15,8 +15,8 @@ DESCRIPTION="Logger utilities for databutton"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2a/ef/af5a5c8e7a847195867100123acd4dc8e15033a13b707ff9291ddab5c7b4/databutton_logger-${REALVERSION}.tar.gz"
-SOURCEFILE="databutton_logger-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2a/ef/af5a5c8e7a847195867100123acd4dc8e15033a13b707ff9291ddab5c7b4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

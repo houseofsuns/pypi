@@ -15,8 +15,8 @@ DESCRIPTION="Tools for building Ansible documentation"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/57/91/7d7e9a0a3d19a91bf4f02e151a535376a30c65f182d56fbd3012fd2e742f/antsibull_docs-${REALVERSION}.tar.gz"
-SOURCEFILE="antsibull_docs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/57/91/7d7e9a0a3d19a91bf4f02e151a535376a30c65f182d56fbd3012fd2e742f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

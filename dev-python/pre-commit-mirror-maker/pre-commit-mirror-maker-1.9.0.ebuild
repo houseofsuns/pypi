@@ -15,8 +15,8 @@ DESCRIPTION="Scripts for creating mirror repositories that do not have .pre-comm
 
 HOMEPAGE="https://github.com/pre-commit/pre-commit-mirror-maker"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/74/a2/be5ed0961fd706ae1a2ecd86396d2ba27c98c33de0520fc8c81702a7e87d/pre_commit_mirror_maker-${REALVERSION}.tar.gz"
-SOURCEFILE="pre_commit_mirror_maker-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/74/a2/be5ed0961fd706ae1a2ecd86396d2ba27c98c33de0520fc8c81702a7e87d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Anime extractor api implementation"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/65/1f/fbcb4a66c68c825f8341af48d2c7817bfc958cadb7e08d1fd6af858cebc1/anicli_api-${REALVERSION}.tar.gz"
-SOURCEFILE="anicli_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/65/1f/fbcb4a66c68c825f8341af48d2c7817bfc958cadb7e08d1fd6af858cebc1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

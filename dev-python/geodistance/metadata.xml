@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>A library that is used to calculate the distance between 2 coordinates &lt;br /&gt; **Installation** &lt;br /&gt; `pip install geodistance` &lt;br /&gt; **Get Started** &lt;br /&gt; Calculating distance between 2 coordinates &lt;br /&gt; `from geodistance import Geodistance` &lt;br /&gt; `length = Geodistance().distance(42.546245, 1.601554, 23.424076, 53.847818)` &lt;br /&gt; `print(length)`</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="Magic: the Gathering decklist parser"
 
 HOMEPAGE="https://github.com/lheyberger/mtg-parser"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/49/87/0b041bcb6b63c1f7cf05331508a61cd0b9a7dd4186640704ef6ae7589ad3/mtg_parser-${REALVERSION}.tar.gz"
-SOURCEFILE="mtg_parser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/49/87/0b041bcb6b63c1f7cf05331508a61cd0b9a7dd4186640704ef6ae7589ad3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

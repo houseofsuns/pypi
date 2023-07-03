@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fc/0f/aec948ad6022471d128dc1217ad589632b03a5094b9a59932e2766be965c/django_willing_zg-${REALVERSION}.tar.gz"
-SOURCEFILE="django_willing_zg-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fc/0f/aec948ad6022471d128dc1217ad589632b03a5094b9a59932e2766be965c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

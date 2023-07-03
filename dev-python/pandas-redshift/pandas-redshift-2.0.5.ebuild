@@ -15,8 +15,8 @@ DESCRIPTION="Load data from redshift into a pandas DataFrame and vice versa."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/61/26/403e93e0709d29dfac21c75319eb5fe4d6df85b42bea01ebff221a7b00e2/pandas_redshift-${REALVERSION}.tar.gz"
-SOURCEFILE="pandas_redshift-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/61/26/403e93e0709d29dfac21c75319eb5fe4d6df85b42bea01ebff221a7b00e2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="DAQ components for Dash"
 
 HOMEPAGE="http://github.com/plotly/dash-daq"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/16/c1/9c6adfc3646990965a5b2ca073f579cc9c09d15553fcfcd83aefd1255494/dash_daq-${REALVERSION}.tar.gz"
-SOURCEFILE="dash_daq-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/16/c1/9c6adfc3646990965a5b2ca073f579cc9c09d15553fcfcd83aefd1255494/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

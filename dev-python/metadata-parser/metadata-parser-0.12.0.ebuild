@@ -15,8 +15,8 @@ DESCRIPTION="A module to parse metadata out of urls and html documents"
 
 HOMEPAGE="https://github.com/jvanasco/metadata_parser"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/80/8f/3f3077ae70fa8ea6a535f7da28aa90065ef4586cf63d88eb06028ca482e3/metadata_parser-${REALVERSION}.tar.gz"
-SOURCEFILE="metadata_parser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/80/8f/3f3077ae70fa8ea6a535f7da28aa90065ef4586cf63d88eb06028ca482e3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

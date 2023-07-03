@@ -15,8 +15,8 @@ DESCRIPTION="Command line client for eccenca Corporate Memory"
 
 HOMEPAGE="https://eccenca.com/go/cmemc"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/21/87/7c191205448d3013413128900fdecadd9f7e0a15e8d23f7ec55031a2db6c/cmem_cmemc-${REALVERSION}.tar.gz"
-SOURCEFILE="cmem_cmemc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/21/87/7c191205448d3013413128900fdecadd9f7e0a15e8d23f7ec55031a2db6c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

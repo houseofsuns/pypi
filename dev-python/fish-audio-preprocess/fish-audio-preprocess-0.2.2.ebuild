@@ -15,8 +15,8 @@ DESCRIPTION="Preprocess audio data"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f4/49/18aa8361e51858f1c060cf6bc1b51987fdaf5fe038189d15a09b505632b5/fish_audio_preprocess-${REALVERSION}.tar.gz"
-SOURCEFILE="fish_audio_preprocess-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f4/49/18aa8361e51858f1c060cf6bc1b51987fdaf5fe038189d15a09b505632b5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

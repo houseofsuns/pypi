@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># downscale_imageA utility to downscale an image to the desired file size.Relies on an install of ffmpeg to incrementally downscale the image file into a new file.This modules provides the script `downscale-image````&gt; downscale-image --helpUsage: downscale-image [OPTIONS] FILE_OR_DIRECTORY  Downscale file_or_directory to desired max-size.Options:  --max-size INTEGER RANGE   Max output size (in MB)  [default: 2; x&gt;0]  --add-to-right-click-menu  (Windows only) Register this program in right                             click menu for supported file types.  --help                     Show this message and exit.```</longdescription>
+</pkgmetadata>

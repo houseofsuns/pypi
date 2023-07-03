@@ -15,8 +15,8 @@ DESCRIPTION="A library for managing generic leads in CRMs"
 
 HOMEPAGE="https://github.com/matiasnu/lead_crm_library"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a1/97/7b9cd70052f6a03b1aac57f27a96ddd1930c1734960fa5a6752b168f8914/lead_crm_library-${REALVERSION}.tar.gz"
-SOURCEFILE="lead_crm_library-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a1/97/7b9cd70052f6a03b1aac57f27a96ddd1930c1734960fa5a6752b168f8914/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

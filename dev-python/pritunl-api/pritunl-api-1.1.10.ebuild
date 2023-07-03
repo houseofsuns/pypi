@@ -15,8 +15,8 @@ DESCRIPTION="Pritunl API Client for Python"
 
 HOMEPAGE="https://github.com/nathanielvarona/pritunl-api-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2d/a4/e4b864881f92a56f676f6ab488fd9a8bde45d8dceaa96d564130c8be6121/pritunl_api-${REALVERSION}.tar.gz"
-SOURCEFILE="pritunl_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2d/a4/e4b864881f92a56f676f6ab488fd9a8bde45d8dceaa96d564130c8be6121/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/tyua07/FP-Browser-SDK"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/27/c4/4082144d33dd0382b5556afb3a1c51fea25bea171a448f1624f45354741a/fp_browser_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="fp_browser_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/27/c4/4082144d33dd0382b5556afb3a1c51fea25bea171a448f1624f45354741a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

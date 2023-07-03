@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/0b/9a/8aafcf3a3fddbebc2a6e20528d9b25b0783f7a1dda9edc299e9a2be46489/pulumi_aws_apigateway-${REALVERSION}.tar.gz"
-SOURCEFILE="pulumi_aws_apigateway-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0b/9a/8aafcf3a3fddbebc2a6e20528d9b25b0783f7a1dda9edc299e9a2be46489/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

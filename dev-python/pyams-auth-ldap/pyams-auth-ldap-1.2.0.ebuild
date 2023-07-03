@@ -15,8 +15,8 @@ DESCRIPTION="PyAMS security plug-in for LDAP authentication"
 
 HOMEPAGE="https://pyams.readthedocs.io"
 LICENSE="ZPL"
-SRC_URI="https://files.pythonhosted.org/packages/e4/73/6df9fe3b1464a862a9a763eed4df2bdf40111ce414bec989fe4a43f024bd/pyams_auth_ldap-${REALVERSION}.tar.gz"
-SOURCEFILE="pyams_auth_ldap-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e4/73/6df9fe3b1464a862a9a763eed4df2bdf40111ce414bec989fe4a43f024bd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

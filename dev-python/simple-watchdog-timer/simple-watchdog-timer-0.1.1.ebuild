@@ -15,8 +15,8 @@ DESCRIPTION="A simple WatchDog Timer (WDT) to trigger events if inactivity, of a
 
 HOMEPAGE="https://github.com/hjortlund/simple_watchdog_timer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1f/89/effec63c05486da013ccace5db25257921c9bdb390c359f0d12ce123d37f/simple_watchdog_timer-${REALVERSION}.tar.gz"
-SOURCEFILE="simple_watchdog_timer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1f/89/effec63c05486da013ccace5db25257921c9bdb390c359f0d12ce123d37f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

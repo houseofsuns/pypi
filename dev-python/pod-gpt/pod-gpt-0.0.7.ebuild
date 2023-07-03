@@ -15,8 +15,8 @@ DESCRIPTION="Package for building podcast search indexes."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/22/94/47306d0699fe842536ebd8a61d3a69cf0ccb8e4a3e5b31b1d6ffa25f06c0/pod_gpt-${REALVERSION}.tar.gz"
-SOURCEFILE="pod_gpt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/22/94/47306d0699fe842536ebd8a61d3a69cf0ccb8e4a3e5b31b1d6ffa25f06c0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

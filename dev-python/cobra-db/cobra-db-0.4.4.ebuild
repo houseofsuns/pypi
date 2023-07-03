@@ -15,8 +15,8 @@ DESCRIPTION="COnsolidated BReast cancer Analysis DataBase"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e2/3a/87889881be57ee79981a91552fdaeeae92c9a4e5781f4a62fadad89f4781/cobra_db-${REALVERSION}.tar.gz"
-SOURCEFILE="cobra_db-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e2/3a/87889881be57ee79981a91552fdaeeae92c9a4e5781f4a62fadad89f4781/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

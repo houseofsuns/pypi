@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># protobuf support for setuptoolsPlugin for `setuptools` that adds support for compiling protobuf files.## DependenciesThe plugin requires the external ``protoc`` executable that is part of the[protobuf project](https://github.com/protocolbuffers/protobuf) to be present.On Debian systems, this executable is shipped in the ``protobuf-compiler`` package.Optionally, it can also generate typing hints if the ``mypy`` extra is selected.## UsageYou can configure `setuptools-protobuf` in either `setup.py`, `setup.cfg` or `pyproject.toml`.## setup.py```pythonfrom setuptools_protobuf import Protobufsetup(...    setup_requires=['setuptools-protobuf'],    protobufs=[Protobuf('example/foo.proto')],)```## setup.cfg```ini...[options]setup_requires =    setuptools    setuptools-protobuf```## pyproject.toml```toml[build-system]requires = [&quot;setuptools&quot;, &quot;setuptools-protobuf&quot;]```</longdescription>
+</pkgmetadata>

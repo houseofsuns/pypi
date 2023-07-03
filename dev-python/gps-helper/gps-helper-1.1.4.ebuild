@@ -15,8 +15,8 @@ DESCRIPTION="GPS helper module"
 
 HOMEPAGE="https://github.com/gps-helper/gps-helper"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bb/65/e8cb6da067c246608fc2572097bb7da882df023289e7233f390b9cf8f0cc/gps_helper-${REALVERSION}.tar.gz"
-SOURCEFILE="gps_helper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bb/65/e8cb6da067c246608fc2572097bb7da882df023289e7233f390b9cf8f0cc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module for landed cost"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/ea/a3/5aa3e218e948322ff1cdb89cf625967e67b247e13876496d5f02fb4f8f1a/trytond_account_stock_landed_cost-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_account_stock_landed_cost-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ea/a3/5aa3e218e948322ff1cdb89cf625967e67b247e13876496d5f02fb4f8f1a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/GlitchCorp/fastapi-another-jwt-auth"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/47/e5/f8e460bdef2844f14622508ce8205c5daf661276802f6105540611f4906c/fastapi_another_jwt_auth-${REALVERSION}.tar.gz"
-SOURCEFILE="fastapi_another_jwt_auth-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/47/e5/f8e460bdef2844f14622508ce8205c5daf661276802f6105540611f4906c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

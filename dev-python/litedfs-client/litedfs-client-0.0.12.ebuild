@@ -15,8 +15,8 @@ DESCRIPTION="LiteDFS Client: distributed file system python client"
 
 HOMEPAGE="https://github.com/fiefdx/LiteDFS"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/91/b3/1f47ab1416883cbe9ce7404f4f3b9959917e39aa9cae35a98611c3ef5374/litedfs_client-${REALVERSION}.tar.gz"
-SOURCEFILE="litedfs_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/91/b3/1f47ab1416883cbe9ce7404f4f3b9959917e39aa9cae35a98611c3ef5374/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

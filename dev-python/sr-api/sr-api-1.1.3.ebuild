@@ -15,8 +15,8 @@ DESCRIPTION="An async wrapper for some-random-api"
 
 HOMEPAGE="https://github.com/iDutchy/sr_api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/09/85/c8a5b914308c053f86631dad6440dd519ffa54f13ecf7be5c7239ad527de/sr_api-${REALVERSION}.tar.gz"
-SOURCEFILE="sr_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/09/85/c8a5b914308c053f86631dad6440dd519ffa54f13ecf7be5c7239ad527de/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

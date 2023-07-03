@@ -15,8 +15,8 @@ DESCRIPTION="a library to easily integrate shaders into your new or existing pyg
 
 HOMEPAGE="https://github.com/ScriptLineStudios/pygame_shaders"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b1/48/3b938faf2528a2ba1d0ea4266a452bb9ee9d5e26629fb52d16cfd14ecf84/pygame_shaders-${REALVERSION}.tar.gz"
-SOURCEFILE="pygame_shaders-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b1/48/3b938faf2528a2ba1d0ea4266a452bb9ee9d5e26629fb52d16cfd14ecf84/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

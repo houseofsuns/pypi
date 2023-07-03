@@ -15,8 +15,8 @@ DESCRIPTION="JUnit XML Formatter for flake8"
 
 HOMEPAGE="https://github.com/astj/flake8-formatter-junit-xml"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e6/5f/7805a65d85b7361b063ddbe6a0a2f7d2bb5b333be7695ca7e7e78b0844dc/flake8_formatter_junit_xml-${REALVERSION}.tar.gz"
-SOURCEFILE="flake8_formatter_junit_xml-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e6/5f/7805a65d85b7361b063ddbe6a0a2f7d2bb5b333be7695ca7e7e78b0844dc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

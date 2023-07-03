@@ -15,8 +15,8 @@ DESCRIPTION="Client for the Landscape API (Python 3)"
 
 HOMEPAGE="https://github.com/jurya/landscape_api_py3"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5a/0b/dd81bad3d9dfba77e48c920230f332033248318ebd27e29383cd480e30da/landscape_api_py3-${REALVERSION}.tar.gz"
-SOURCEFILE="landscape_api_py3-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5a/0b/dd81bad3d9dfba77e48c920230f332033248318ebd27e29383cd480e30da/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

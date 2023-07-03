@@ -15,8 +15,8 @@ DESCRIPTION="Allows selection of a different tox envlist."
 
 HOMEPAGE="https://github.com/python-coincidence/tox-envlist"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/82/eb/c63fa72ad5a6d8c04f7ed13b3c33826d413a29e62286fa46011fa0ab5b53/tox_envlist-${REALVERSION}.tar.gz"
-SOURCEFILE="tox_envlist-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/82/eb/c63fa72ad5a6d8c04f7ed13b3c33826d413a29e62286fa46011fa0ab5b53/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

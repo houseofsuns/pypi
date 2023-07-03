@@ -15,8 +15,8 @@ DESCRIPTION="Reads a csv and generates a table design for Postgres, MySQL, sqlit
 
 HOMEPAGE="https://github.com/daveskura/schemawizard"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a2/64/79ca5c117676dc95d4a2d271139b9eaac341c2461769cf55a11d46ecc6c3/schemawizard_package-${REALVERSION}.tar.gz"
-SOURCEFILE="schemawizard_package-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a2/64/79ca5c117676dc95d4a2d271139b9eaac341c2461769cf55a11d46ecc6c3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

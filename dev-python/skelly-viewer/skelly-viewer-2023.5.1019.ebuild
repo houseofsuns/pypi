@@ -15,8 +15,8 @@ DESCRIPTION="View a skelly"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/53/ba/771cdb85fb99f7c97e869a37d6d71333c1d7f0a981a0ca797d5a81181302/skelly_viewer-${REALVERSION}.tar.gz"
-SOURCEFILE="skelly_viewer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/53/ba/771cdb85fb99f7c97e869a37d6d71333c1d7f0a981a0ca797d5a81181302/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

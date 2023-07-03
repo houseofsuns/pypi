@@ -15,8 +15,8 @@ DESCRIPTION="iPhone kernel panic parser"
 
 HOMEPAGE="https://gitlab.com/yanivhasbanidev/la_panic"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/61/77/2146d558c7e789b9207dcd754384a515d0a91a5d4ce34117c6e33ef6f175/la_panic-${REALVERSION}.tar.gz"
-SOURCEFILE="la_panic-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/61/77/2146d558c7e789b9207dcd754384a515d0a91a5d4ce34117c6e33ef6f175/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

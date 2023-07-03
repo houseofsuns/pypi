@@ -15,8 +15,8 @@ DESCRIPTION="spaCy pipeline component for guessing the language of Doc and Span 
 
 HOMEPAGE="https://github.com/nickdavidhaynes/spacy-cld"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e3/3b/f5344007259b5beb0a8e0d7b9e6b0d2c5c4dcfe674bc94b7497bcc201ee0/spacy_cld-${REALVERSION}.tar.gz"
-SOURCEFILE="spacy_cld-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e3/3b/f5344007259b5beb0a8e0d7b9e6b0d2c5c4dcfe674bc94b7497bcc201ee0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

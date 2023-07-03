@@ -15,8 +15,8 @@ DESCRIPTION="reheader a BAM to include GDC @SQ info"
 
 HOMEPAGE="https://github.com/jeremiahsavage/bam_reheader/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/35/e6/dfd4e3182dd8b7e2817afcc6da6489a25ee5f221d487e0481a6072725f55/bam_reheader-${REALVERSION}.tar.gz"
-SOURCEFILE="bam_reheader-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/35/e6/dfd4e3182dd8b7e2817afcc6da6489a25ee5f221d487e0481a6072725f55/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

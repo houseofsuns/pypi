@@ -15,8 +15,8 @@ DESCRIPTION="PyTorch implementation of AdaBelief Optimizer"
 
 HOMEPAGE="https://juntang-zhuang.github.io/adabelief/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4f/27/6658949d593e39143b62b85dc42d8f6fe9314b88606897ea68c5ff6d5b08/ranger_adabelief-${REALVERSION}.tar.gz"
-SOURCEFILE="ranger_adabelief-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4f/27/6658949d593e39143b62b85dc42d8f6fe9314b88606897ea68c5ff6d5b08/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

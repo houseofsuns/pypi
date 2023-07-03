@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Mindsight People Control API[![PyPI Latest Release](https://img.shields.io/pypi/v/mindsight-people-control-api.svg)](https://pypi.org/project/mindsight-people-control-api/)Use mindsight people control functionalities in your python application.## Instalation```shpip install mindsight-people-control-api```# Configuration## Environment variablesTo use mindsight-people-control-api, you need to set two environment variables:```dotenv# ---DOTENV EXAMPLE---MINDSIGHT_CP_API_TOKEN= # Token to authenticateMINDSIGHT_CP_API_URL=https://controle.mindsight.com.br/api # Base path of your api instance```# Usage ExampleYou can use mindsight-people-control-api in order to create, update and delete registers on all system tables.## List registersYou can use get methods to list registers of system table. See the following example:```pythonimport mindsight_people_control_api# Instantiate Areas client objectareas_client = mindsight_people_control_api.Areas()# get_list_areas will return a ApiPaginationResponse object.# This object represents a pagination response from rest api from people control# and with get_all method from ApiPaginationResponse object, you can get all# data of all pages. The data will stored in results attribute of ApiPaginationResponseareas_data = areas_client.get_list_areas().get_all().results```</longdescription>
+</pkgmetadata>

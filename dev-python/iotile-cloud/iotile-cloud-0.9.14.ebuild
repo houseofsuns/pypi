@@ -15,8 +15,8 @@ DESCRIPTION="Python client for https://iotile.cloud"
 
 HOMEPAGE="https://github.com/iotile/python_iotile_cloud"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/96/af/40b1c8135b83967c00de311db505fb1645be2cf8d65929a865388933b7fa/iotile_cloud-${REALVERSION}.tar.gz"
-SOURCEFILE="iotile_cloud-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/96/af/40b1c8135b83967c00de311db505fb1645be2cf8d65929a865388933b7fa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

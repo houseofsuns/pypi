@@ -15,8 +15,8 @@ DESCRIPTION="seven cloudapp"
 
 HOMEPAGE="http://gitlab.tdtech.gao7.com/TaoBaoCloud/seven_cloudapp.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1c/2b/ef868f23a161164278d040661a25794888e9eafcc1035f647f3ead4b4c35/seven_cloudapp-${REALVERSION}.tar.gz"
-SOURCEFILE="seven_cloudapp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1c/2b/ef868f23a161164278d040661a25794888e9eafcc1035f647f3ead4b4c35/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

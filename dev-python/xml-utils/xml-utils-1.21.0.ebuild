@@ -15,8 +15,8 @@ DESCRIPTION="XML utils for the curator core project"
 
 HOMEPAGE="https://github.com/usnistgov/xml_utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/98/a3/d52827aab38e98b80f33aace0941d2ac61c8e4bdefbd61e023589d75e9a4/xml_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="xml_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/98/a3/d52827aab38e98b80f33aace0941d2ac61c8e4bdefbd61e023589d75e9a4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

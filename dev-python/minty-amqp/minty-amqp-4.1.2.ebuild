@@ -15,8 +15,8 @@ DESCRIPTION="AMQP Consumer framework for minty project"
 
 HOMEPAGE="https://gitlab.com/minty-python/minty_amqp"
 LICENSE="EUPL license"
-SRC_URI="https://files.pythonhosted.org/packages/9d/45/d536c9baf73547cadf489efb3d8ca69aa65ea37c4ee0c11d3a2f2c9cd291/minty_amqp-${REALVERSION}.tar.gz"
-SOURCEFILE="minty_amqp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9d/45/d536c9baf73547cadf489efb3d8ca69aa65ea37c4ee0c11d3a2f2c9cd291/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

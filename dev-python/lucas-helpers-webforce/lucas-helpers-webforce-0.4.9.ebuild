@@ -15,8 +15,8 @@ DESCRIPTION="description"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/96/4e/377c4b2a56fca719d31c42991f3ab4769f4baa78df8bb92e6267617c099b/lucas_helpers_webforce-${REALVERSION}.tar.gz"
-SOURCEFILE="lucas_helpers_webforce-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/96/4e/377c4b2a56fca719d31c42991f3ab4769f4baa78df8bb92e6267617c099b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

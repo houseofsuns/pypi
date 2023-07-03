@@ -15,8 +15,8 @@ DESCRIPTION="OneSignal"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/07/09/02a0f5a8f7831c65e3de88570fd65f56b96602e5345022f83913b6912cad/onesignal_python_api-${REALVERSION}.tar.gz"
-SOURCEFILE="onesignal_python_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/07/09/02a0f5a8f7831c65e3de88570fd65f56b96602e5345022f83913b6912cad/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

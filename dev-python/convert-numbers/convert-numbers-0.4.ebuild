@@ -15,8 +15,8 @@ DESCRIPTION="Arabic Persian English Hindi Numbers is a Python library to convert
 
 HOMEPAGE="https://github.com/azwri/convert_numbers"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/82/28/38b315f803d0eebe447663468f30b02057df9162a1ee5fa90e1db57feb61/convert_numbers-${REALVERSION}.tar.gz"
-SOURCEFILE="convert_numbers-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/82/28/38b315f803d0eebe447663468f30b02057df9162a1ee5fa90e1db57feb61/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

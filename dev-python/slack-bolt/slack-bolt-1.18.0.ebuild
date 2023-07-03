@@ -15,8 +15,8 @@ DESCRIPTION="The Bolt Framework for Python"
 
 HOMEPAGE="https://github.com/slackapi/bolt-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7a/12/1d9e749cdc298fa49ebc1d040ca05c9637713945a3e48257725d8174073b/slack_bolt-${REALVERSION}.tar.gz"
-SOURCEFILE="slack_bolt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7a/12/1d9e749cdc298fa49ebc1d040ca05c9637713945a3e48257725d8174073b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

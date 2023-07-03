@@ -15,8 +15,8 @@ DESCRIPTION="Platform-independent exit codes."
 
 HOMEPAGE="http://github.com/sixty-north/exit-codes"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f8/20/1a8671601b459a8388185ee29f98cee5965a94aeaccc6b9c926f4afec4dc/exit_codes-${REALVERSION}.tar.gz"
-SOURCEFILE="exit_codes-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f8/20/1a8671601b459a8388185ee29f98cee5965a94aeaccc6b9c926f4afec4dc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

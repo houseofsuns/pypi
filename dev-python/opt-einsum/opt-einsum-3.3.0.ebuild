@@ -15,8 +15,8 @@ DESCRIPTION="Optimizing numpys einsum function"
 
 HOMEPAGE="https://github.com/dgasmith/opt_einsum"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7d/bf/9257e53a0e7715bc1127e15063e831f076723c6cd60985333a1c18878fb8/opt_einsum-${REALVERSION}.tar.gz"
-SOURCEFILE="opt_einsum-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7d/bf/9257e53a0e7715bc1127e15063e831f076723c6cd60985333a1c18878fb8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Python helper library for working with the Veracode APIs. Handles r
 
 HOMEPAGE="https://github.com/tjarrettveracode"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c3/5c/bc3bafd0e2d3ae0d75ee0a164d5d02754fff4a69c314f99ce15fe64dd959/veracode_api_py-${REALVERSION}.tar.gz"
-SOURCEFILE="veracode_api_py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c3/5c/bc3bafd0e2d3ae0d75ee0a164d5d02754fff4a69c314f99ce15fe64dd959/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

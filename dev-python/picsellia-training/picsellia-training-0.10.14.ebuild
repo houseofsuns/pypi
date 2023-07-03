@@ -15,8 +15,8 @@ DESCRIPTION="Python SDK raining module for Picsell.ia"
 
 HOMEPAGE="https://www.picsellia.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9a/01/118eae2beded4f0fc6b484671d1ac5cdcada516590a54fc8b2eb919e8552/picsellia_training-${REALVERSION}.tar.gz"
-SOURCEFILE="picsellia_training-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9a/01/118eae2beded4f0fc6b484671d1ac5cdcada516590a54fc8b2eb919e8552/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

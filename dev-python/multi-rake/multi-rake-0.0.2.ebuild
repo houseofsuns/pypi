@@ -15,8 +15,8 @@ DESCRIPTION="Multilingual Rapid Automatic Keyword Extraction (RAKE) for Python"
 
 HOMEPAGE="https://github.com/vgrabovets/multi_rake"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f3/75/a63afc122215e70b257038653507283a6d5e8407eee26bae18d401ac56b0/multi_rake-${REALVERSION}.tar.gz"
-SOURCEFILE="multi_rake-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f3/75/a63afc122215e70b257038653507283a6d5e8407eee26bae18d401ac56b0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

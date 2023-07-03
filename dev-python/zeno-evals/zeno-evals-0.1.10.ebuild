@@ -15,8 +15,8 @@ DESCRIPTION="Visualize OpenAI evals with Zeno"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f0/3f/fd3e7dfa364afea27e0add96cfb03daeb9cee94f0632a80fffb2e5dcfe95/zeno_evals-${REALVERSION}.tar.gz"
-SOURCEFILE="zeno_evals-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f0/3f/fd3e7dfa364afea27e0add96cfb03daeb9cee94f0632a80fffb2e5dcfe95/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

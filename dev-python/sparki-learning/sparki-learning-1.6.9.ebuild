@@ -15,8 +15,8 @@ DESCRIPTION="library to implement the Myro API with the Sparki robot"
 
 HOMEPAGE="https://github.com/radarjd/sparki_learning"
 LICENSE="Apache License Version 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/3a/99/f0afd60723fb61b5441d496d31e20f097823be4d06972caa6aa9a69d18ac/sparki_learning-${REALVERSION}.tar.gz"
-SOURCEFILE="sparki_learning-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3a/99/f0afd60723fb61b5441d496d31e20f097823be4d06972caa6aa9a69d18ac/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

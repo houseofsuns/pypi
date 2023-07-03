@@ -15,8 +15,8 @@ DESCRIPTION="Ant Chain SHUZIWULIU SDK Library for Python"
 
 HOMEPAGE="https://github.com/alipay/antchain-openapi-prod-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ae/95/1dbcd62d09c4899e98cdb023571ba19f2448dffdb097cdb95c33ead673d2/antchain_shuziwuliu-${REALVERSION}.tar.gz"
-SOURCEFILE="antchain_shuziwuliu-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ae/95/1dbcd62d09c4899e98cdb023571ba19f2448dffdb097cdb95c33ead673d2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

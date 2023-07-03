@@ -15,8 +15,8 @@ DESCRIPTION="Restartable webdriver instances"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/50/1a/493e18e25f0f4d62718ea78a3349d425b252c63b75b8d34d5c790ab904a0/webdriver_kaifuku-${REALVERSION}.tar.gz"
-SOURCEFILE="webdriver_kaifuku-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/50/1a/493e18e25f0f4d62718ea78a3349d425b252c63b75b8d34d5c790ab904a0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

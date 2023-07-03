@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/gmyrianthous/example-publish-pypi"
 LICENSE="UNLICENSED"
-SRC_URI="https://files.pythonhosted.org/packages/1b/c3/84c270bff4e03ce3d2c88d61c88c1f174c1b48f42c2884c8bd532c482d8b/broker_clients-${REALVERSION}.tar.gz"
-SOURCEFILE="broker_clients-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1b/c3/84c270bff4e03ce3d2c88d61c88c1f174c1b48f42c2884c8bd532c482d8b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

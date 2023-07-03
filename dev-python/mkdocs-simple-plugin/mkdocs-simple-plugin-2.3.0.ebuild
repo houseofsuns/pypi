@@ -15,8 +15,8 @@ DESCRIPTION="Plugin for adding simple wiki site creation from markdown files int
 
 HOMEPAGE="http://www.althack.dev/mkdocs-simple-plugin"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b3/63/89171088d2377e4f10dbe1e0321c2de2c9857718c0e74fc3d29b6cfee16a/mkdocs_simple_plugin-${REALVERSION}.tar.gz"
-SOURCEFILE="mkdocs_simple_plugin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b3/63/89171088d2377e4f10dbe1e0321c2de2c9857718c0e74fc3d29b6cfee16a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

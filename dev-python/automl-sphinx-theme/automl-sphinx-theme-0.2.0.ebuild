@@ -15,8 +15,8 @@ DESCRIPTION="AutoML Theme for Sphinx"
 
 HOMEPAGE="https://github.com/automl/automl_sphinx_theme"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/be/c3/3a6a7c3f4529b5e8174ddb8c2ef70dbd74ed2ee5de7e16ddd9cb43d9ffc0/automl_sphinx_theme-${REALVERSION}.tar.gz"
-SOURCEFILE="automl_sphinx_theme-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/be/c3/3a6a7c3f4529b5e8174ddb8c2ef70dbd74ed2ee5de7e16ddd9cb43d9ffc0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

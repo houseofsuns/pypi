@@ -15,8 +15,8 @@ DESCRIPTION="HTTP client for OCTo (Open Connection for Tourism) APIs."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/68/df/6c9c5caba261ea4df1e68bc7d4eb2202d0724ad308df810bbcc919d518ad/octo_api_client-${REALVERSION}.tar.gz"
-SOURCEFILE="octo_api_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/68/df/6c9c5caba261ea4df1e68bc7d4eb2202d0724ad308df810bbcc919d518ad/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

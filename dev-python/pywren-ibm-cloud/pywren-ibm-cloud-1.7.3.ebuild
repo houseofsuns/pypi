@@ -15,8 +15,8 @@ DESCRIPTION="Run many jobs over IBM Cloud"
 
 HOMEPAGE="https://github.com/pywren/pywren-ibm-cloud"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b5/3a/013430f5c0ac0b854ff842f942c55760f579ca78bba4aeba50fbcb62c937/pywren_ibm_cloud-${REALVERSION}.tar.gz"
-SOURCEFILE="pywren_ibm_cloud-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b5/3a/013430f5c0ac0b854ff842f942c55760f579ca78bba4aeba50fbcb62c937/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

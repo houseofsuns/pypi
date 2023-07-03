@@ -15,8 +15,8 @@ DESCRIPTION="RobotCode analyze plugin for Robot Framework"
 
 HOMEPAGE="https://robotcode.io"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/47/d2/8e4d92b90f68a59b48427a2aff1247939b34deb011355336605ec0331ffb/robotcode_analyze-${REALVERSION}.tar.gz"
-SOURCEFILE="robotcode_analyze-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/47/d2/8e4d92b90f68a59b48427a2aff1247939b34deb011355336605ec0331ffb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

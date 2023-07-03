@@ -15,8 +15,8 @@ DESCRIPTION="Common methods for handling ascendpbm's IT needs."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7b/43/03a6436242b76092538f36eaabc5def9f4f450bec5737b1789481419da2d/ascendpbm_package-${REALVERSION}.tar.gz"
-SOURCEFILE="ascendpbm_package-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7b/43/03a6436242b76092538f36eaabc5def9f4f450bec5737b1789481419da2d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

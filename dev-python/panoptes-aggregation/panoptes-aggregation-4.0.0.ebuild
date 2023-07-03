@@ -15,8 +15,8 @@ DESCRIPTION="Aggregation code for Zooniverse panoptes projects."
 
 HOMEPAGE="https://github.com/zooniverse/aggregation-for-caesar"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/65/9c/b93f240acf68a5ddc1a562d445769c213299d7f6d8747b9e251a823f31d7/panoptes_aggregation-${REALVERSION}.tar.gz"
-SOURCEFILE="panoptes_aggregation-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/65/9c/b93f240acf68a5ddc1a562d445769c213299d7f6d8747b9e251a823f31d7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

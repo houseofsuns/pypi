@@ -15,8 +15,8 @@ DESCRIPTION="\`datapipe\` is a realtime incremental ETL library for Python appli
 
 HOMEPAGE="https://github.com/epoch8/datapipe"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/69/55/a7f3938eebb9fc7b952fe353be854c918520adf49a256edf90da6ab12c8c/datapipe_core-${REALVERSION}.tar.gz"
-SOURCEFILE="datapipe_core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/69/55/a7f3938eebb9fc7b952fe353be854c918520adf49a256edf90da6ab12c8c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

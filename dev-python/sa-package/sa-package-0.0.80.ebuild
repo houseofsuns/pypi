@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/tmddk2709/sa_package"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cf/27/b9f80094b9c631b19bdb485f60cda65e1775e35e306e51f5c3c1ff23c385/sa_package-${REALVERSION}.tar.gz"
-SOURCEFILE="sa_package-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cf/27/b9f80094b9c631b19bdb485f60cda65e1775e35e306e51f5c3c1ff23c385/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

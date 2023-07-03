@@ -15,8 +15,8 @@ DESCRIPTION="Repostory of Protein Benchmarking and Modeling"
 
 HOMEPAGE="https://github.com/songlab-cal/tape"
 LICENSE="BSD 3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/33/73/2ad28ffc84c24c6af016ee166b436ef47fb7719abfbca320ef967e79602a/tape_proteins-${REALVERSION}.tar.gz"
-SOURCEFILE="tape_proteins-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/33/73/2ad28ffc84c24c6af016ee166b436ef47fb7719abfbca320ef967e79602a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Front-end component renderer for Dash"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5f/d3/d661a68b4ce71498d5c0c79617bce3d5fc884d4448c698f77c2247cd1b46/dash_renderer-${REALVERSION}.tar.gz"
-SOURCEFILE="dash_renderer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5f/d3/d661a68b4ce71498d5c0c79617bce3d5fc884d4448c698f77c2247cd1b46/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

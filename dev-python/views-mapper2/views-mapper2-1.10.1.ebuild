@@ -15,8 +15,8 @@ DESCRIPTION="Mapper version 2 for viewser"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0b/a6/43b0e146fdf867cf49b34d24c9258c62953c6b2336239d3ccdcc205574ca/views_mapper2-${REALVERSION}.tar.gz"
-SOURCEFILE="views_mapper2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0b/a6/43b0e146fdf867cf49b34d24c9258c62953c6b2336239d3ccdcc205574ca/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

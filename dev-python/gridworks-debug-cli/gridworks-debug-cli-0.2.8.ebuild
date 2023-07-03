@@ -15,8 +15,8 @@ DESCRIPTION="Gridworks Debug Cli"
 
 HOMEPAGE="https://github.com/anschweitzer/gridworks-debug-cli"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/21/67/8037694c0555dfd7a859935d9b63a39dab17b6d0179a78311e09e16618e8/gridworks_debug_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="gridworks_debug_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/21/67/8037694c0555dfd7a859935d9b63a39dab17b6d0179a78311e09e16618e8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

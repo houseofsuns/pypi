@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/71/52/fbbc78be97db7b37c2739f4f4cf96a38bb625e131b9d74c0fd6eafcf70b2/dh_potluck-${REALVERSION}.tar.gz"
-SOURCEFILE="dh_potluck-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/71/52/fbbc78be97db7b37c2739f4f4cf96a38bb625e131b9d74c0fd6eafcf70b2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

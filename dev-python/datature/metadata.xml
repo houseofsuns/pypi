@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Datatue Python SDK## Get started- [Documentation](#documentation)- [Installation](#installation)- [Requirements](#requirements)- [Usage](#usage)- [Unit Test](#unit-test)## DocumentationSee the [API docs](https://developers.datature.io/).## Installation```shpip install --upgrade datature```### Requirements- Python 3.7+## UsageThe library needs to be configured with your project's secret key which is available in your Project Dashboard `Advanced/API Management````pythonimport dataturedatature.secret_key = &quot;6874c3c9b...&quot;# retrieve projectproject = datature.Project.retrieve()# print project informationprint(project)# retrieve project insightinsight = datature.Project.insight()# print insight detailsprint(insight)# list all assetsassets = datature.Asset.list()# print the assetsprint(assets)```## CLIThe CLI is part of `datature` package, once installed the package `datature` will be available from the command line.### PATHFor those who may encounter a `datature not found` issue, please try setting the `PATH` manually:```shellexport PATH=&quot;${PATH}:$(python3 -c 'import site; print(site.USER_BASE)')/bin&quot;```### Functions```shelldatature project authdatature project selectdatature project listdatature asset uploaddatature asset groupdatature annotation uploaddatature annotation downloaddatature artifact download```## Unit TestTo run the tests, run command:```shpython -m coverage run -m unittest```</longdescription>
+</pkgmetadata>

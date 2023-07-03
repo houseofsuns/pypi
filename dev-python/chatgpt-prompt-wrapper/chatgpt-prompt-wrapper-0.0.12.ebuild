@@ -15,8 +15,8 @@ DESCRIPTION="CLI tool to wrap ChatGPT Python API."
 
 HOMEPAGE="https://github.com/rcmdnk/chatgpt-prompt-wrapper"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/fa/16/941c221df0ca2652a40c8f658b86781e429ea01e4c91ad12892a44ff376c/chatgpt_prompt_wrapper-${REALVERSION}.tar.gz"
-SOURCEFILE="chatgpt_prompt_wrapper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fa/16/941c221df0ca2652a40c8f658b86781e429ea01e4c91ad12892a44ff376c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

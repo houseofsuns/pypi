@@ -15,8 +15,8 @@ DESCRIPTION="Simple, yet powerful, code-based menus for Django applications"
 
 HOMEPAGE="https://github.com/jazzband/django-simple-menu"
 LICENSE="BSD-2"
-SRC_URI="https://files.pythonhosted.org/packages/eb/02/e76f6fd8f6d53bc6e276700bc37a1cc674c9b1ee875fa1a22697b7654c4f/django_simple_menu-${REALVERSION}.tar.gz"
-SOURCEFILE="django_simple_menu-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/eb/02/e76f6fd8f6d53bc6e276700bc37a1cc674c9b1ee875fa1a22697b7654c4f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Python Client for Google Cloud Datastore"
 
 HOMEPAGE="https://github.com/talkiq/gcloud-aio"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1f/48/1fe09a18fba5c8d8b49e54c523a8285144a7d83ba2c4f345eea1e6d455ec/gcloud_rest_datastore-${REALVERSION}.tar.gz"
-SOURCEFILE="gcloud_rest_datastore-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1f/48/1fe09a18fba5c8d8b49e54c523a8285144a7d83ba2c4f345eea1e6d455ec/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

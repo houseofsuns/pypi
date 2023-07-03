@@ -15,8 +15,8 @@ DESCRIPTION="Base classes for the Ampel analysis platform"
 
 HOMEPAGE="https://ampelproject.github.io"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/37/11/c9ebfad826f36e587ec940cba06ea90f090d072463f3b9dfa000b989bd41/ampel_interface-${REALVERSION}.tar.gz"
-SOURCEFILE="ampel_interface-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/37/11/c9ebfad826f36e587ec940cba06ea90f090d072463f3b9dfa000b989bd41/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

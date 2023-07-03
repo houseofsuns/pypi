@@ -15,8 +15,8 @@ DESCRIPTION="Tempest plugin for Magnum Project"
 
 HOMEPAGE="https://opendev.org/openstack/magnum-tempest-plugin"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/17/af/ab7982a3362956d7de9769a194fd2e2ced888f9742e56ac76cfb6e5d0e3b/magnum_tempest_plugin-${REALVERSION}.tar.gz"
-SOURCEFILE="magnum_tempest_plugin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/17/af/ab7982a3362956d7de9769a194fd2e2ced888f9742e56ac76cfb6e5d0e3b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

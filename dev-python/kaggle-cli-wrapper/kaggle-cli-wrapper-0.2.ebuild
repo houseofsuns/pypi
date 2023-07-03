@@ -15,8 +15,8 @@ DESCRIPTION="Kaggle CLI based python wrapper"
 
 HOMEPAGE="https://github.com/sunny1401/kaggle_utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8a/9a/c57ff02d0c852b3fe117599e72ffd349acbcb0217e99479b895842d4a32c/kaggle_cli_wrapper-${REALVERSION}.tar.gz"
-SOURCEFILE="kaggle_cli_wrapper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8a/9a/c57ff02d0c852b3fe117599e72ffd349acbcb0217e99479b895842d4a32c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

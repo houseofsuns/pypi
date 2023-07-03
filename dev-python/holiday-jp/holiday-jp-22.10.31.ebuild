@@ -15,8 +15,8 @@ DESCRIPTION="Japanese holiday for Python"
 
 HOMEPAGE="https://github.com/LUXEYS/holiday_jp-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/03/d1/84481d97a46691b9e6de90051b4b521d9abba6f2d6607a42bd04a02f73df/holiday_jp-${REALVERSION}.tar.gz"
-SOURCEFILE="holiday_jp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/03/d1/84481d97a46691b9e6de90051b4b521d9abba6f2d6607a42bd04a02f73df/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

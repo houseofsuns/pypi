@@ -15,8 +15,8 @@ DESCRIPTION="Project Mu distributed dependency management, build, test, and tool
 
 HOMEPAGE="https://github.com/microsoft/mu_pip_environment"
 LICENSE="BSD2"
-SRC_URI="https://files.pythonhosted.org/packages/1b/21/a2d33286ec9869ce2292f3a8548c1927f54d7b7205e3db9925022ca13f42/mu_environment-${REALVERSION}.tar.gz"
-SOURCEFILE="mu_environment-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1b/21/a2d33286ec9869ce2292f3a8548c1927f54d7b7205e3db9925022ca13f42/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

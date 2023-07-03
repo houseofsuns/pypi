@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://tryrelevance.com/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d7/b5/bcf9528ffa16e4f831835e36cda57addb32849b15b4d23807c9c062f3754/ai_transform-${REALVERSION}.tar.gz"
-SOURCEFILE="ai_transform-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d7/b5/bcf9528ffa16e4f831835e36cda57addb32849b15b4d23807c9c062f3754/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

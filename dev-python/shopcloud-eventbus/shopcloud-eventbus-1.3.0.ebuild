@@ -15,8 +15,8 @@ DESCRIPTION="CLI tool for the Shopcloud EventBus"
 
 HOMEPAGE="https://github.com/Talk-Point/shopcloud-eventbus"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cf/e8/b9cd70973a8d8deda9c7ef4c09958a6542bf573ec1b69dc3a0554bb80c24/shopcloud_eventbus-${REALVERSION}.tar.gz"
-SOURCEFILE="shopcloud_eventbus-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cf/e8/b9cd70973a8d8deda9c7ef4c09958a6542bf573ec1b69dc3a0554bb80c24/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

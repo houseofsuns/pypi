@@ -15,8 +15,8 @@ DESCRIPTION="A program to read from an Enphase Envoy on the local network"
 
 HOMEPAGE="https://github.com/jesserizzo/envoy_reader"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/14/6c/20ae176d010e3adcc5bc15efeac45a0ed4935f794ac72a652799b339409c/envoy_reader-${REALVERSION}.tar.gz"
-SOURCEFILE="envoy_reader-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/14/6c/20ae176d010e3adcc5bc15efeac45a0ed4935f794ac72a652799b339409c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

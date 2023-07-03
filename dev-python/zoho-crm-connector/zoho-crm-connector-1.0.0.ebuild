@@ -15,8 +15,8 @@ DESCRIPTION="Zoho CRM connector"
 
 HOMEPAGE="https://github.com/timrichardson/zoho_crm_package"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3b/71/14af781bd0ce8e917fe6e61efa717e1f90a1de038f764ed478c9ca790d95/zoho_crm_connector-${REALVERSION}.tar.gz"
-SOURCEFILE="zoho_crm_connector-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3b/71/14af781bd0ce8e917fe6e61efa717e1f90a1de038f764ed478c9ca790d95/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

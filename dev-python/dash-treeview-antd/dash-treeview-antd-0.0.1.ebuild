@@ -15,8 +15,8 @@ DESCRIPTION="Tree view component based on Ant Design widget."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9f/17/787dd4c073c66939477e98c441a6999b30eefaf37caa4ef69d8a24ed151b/dash_treeview_antd-${REALVERSION}.tar.gz"
-SOURCEFILE="dash_treeview_antd-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9f/17/787dd4c073c66939477e98c441a6999b30eefaf37caa4ef69d8a24ed151b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

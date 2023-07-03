@@ -15,8 +15,8 @@ DESCRIPTION="Report generation system for pipen"
 
 HOMEPAGE="https://github.com/pwwang/pipen-report"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4f/4c/7e1d5a6c4a68018beaffc39312ffda0e165b95e1d65743e08e03164784a7/pipen_report-${REALVERSION}.tar.gz"
-SOURCEFILE="pipen_report-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4f/4c/7e1d5a6c4a68018beaffc39312ffda0e165b95e1d65743e08e03164784a7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Django Content Security Policy support."
 
 HOMEPAGE="http://github.com/mozilla/django-csp"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/04/76/bdb879b0e73798a8f5d568d19e77995c0319b82ddfa6c2fee4d15e956e1a/django_csp-${REALVERSION}.tar.gz"
-SOURCEFILE="django_csp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/04/76/bdb879b0e73798a8f5d568d19e77995c0319b82ddfa6c2fee4d15e956e1a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

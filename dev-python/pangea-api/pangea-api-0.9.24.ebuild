@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b5/15/506184b53e149762562f9cfa4f417ec53b60ade7166d59dd2e4fcdc2afb3/pangea_api-${REALVERSION}.tar.gz"
-SOURCEFILE="pangea_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b5/15/506184b53e149762562f9cfa4f417ec53b60ade7166d59dd2e4fcdc2afb3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

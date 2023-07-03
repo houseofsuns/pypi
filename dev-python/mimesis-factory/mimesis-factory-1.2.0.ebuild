@@ -15,8 +15,8 @@ DESCRIPTION="Mimesis integration with factory_boy"
 
 HOMEPAGE="https://github.com/mimesis-lab/mimesis-factory"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/34/2e/392b366d45ee16523f6e751a40f7e4050f19ab2c6a6572827d3baecb60f7/mimesis_factory-${REALVERSION}.tar.gz"
-SOURCEFILE="mimesis_factory-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/34/2e/392b366d45ee16523f6e751a40f7e4050f19ab2c6a6572827d3baecb60f7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

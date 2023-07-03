@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b4/85/46f77bffc8753b8de291fbb4964d9d2e30fb5230a90937252384c1a6e01b/eventful_aio_pika-${REALVERSION}.tar.gz"
-SOURCEFILE="eventful_aio_pika-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b4/85/46f77bffc8753b8de291fbb4964d9d2e30fb5230a90937252384c1a6e01b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

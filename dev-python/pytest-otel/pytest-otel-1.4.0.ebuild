@@ -15,8 +15,8 @@ DESCRIPTION="pytest-otel report OpenTelemetry traces about test executed"
 
 HOMEPAGE="https://github.com/elastic/apm-pipeline-library/tree/main/resources/scripts/pytest_otel"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/cc/52/8c13b51be30a05b6f2c71f6d6e7033aca14da8691360509a925471767b22/pytest_otel-${REALVERSION}.tar.gz"
-SOURCEFILE="pytest_otel-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cc/52/8c13b51be30a05b6f2c71f6d6e7033aca14da8691360509a925471767b22/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

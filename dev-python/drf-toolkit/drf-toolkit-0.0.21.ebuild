@@ -15,8 +15,8 @@ DESCRIPTION="Django rest framework toolkit"
 
 HOMEPAGE="https://github.com/agorinenko/drf-toolkit"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c4/2d/3c9f8277b987df43a2ac9c875197c8a83c4093b2e8de85eaf4ebbea09dd5/drf_toolkit-${REALVERSION}.tar.gz"
-SOURCEFILE="drf_toolkit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c4/2d/3c9f8277b987df43a2ac9c875197c8a83c4093b2e8de85eaf4ebbea09dd5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

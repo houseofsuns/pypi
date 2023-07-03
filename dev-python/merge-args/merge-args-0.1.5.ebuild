@@ -15,8 +15,8 @@ DESCRIPTION="Merge signatures of two functions with Advanced Hackery."
 
 HOMEPAGE="https://github.com/Kwpolska/merge_args"
 LICENSE="3-clause BSD"
-SRC_URI="https://files.pythonhosted.org/packages/cd/6e/7dc4bd3583b991b7e131c948ede058f6678afa9aea6b88961d507b4fa951/merge_args-${REALVERSION}.tar.gz"
-SOURCEFILE="merge_args-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cd/6e/7dc4bd3583b991b7e131c948ede058f6678afa9aea6b88961d507b4fa951/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module with countries"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/a8/46/5a1fba51f73e9cc0070a7344ad29acf82e1a929b5b56fccd6dd0799e3260/trytond_country-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_country-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a8/46/5a1fba51f73e9cc0070a7344ad29acf82e1a929b5b56fccd6dd0799e3260/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

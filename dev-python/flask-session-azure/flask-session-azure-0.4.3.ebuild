@@ -15,8 +15,8 @@ DESCRIPTION="Flask Session using Azure Table Storage or CosmosDB table API"
 
 HOMEPAGE="https://github.com/claasd/FlaskAzureTableSession"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cd/13/8faea9da74b02939851a330f6c5de6c565526f59be69334907c8dfc6deb3/flask_session_azure-${REALVERSION}.tar.gz"
-SOURCEFILE="flask_session_azure-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cd/13/8faea9da74b02939851a330f6c5de6c565526f59be69334907c8dfc6deb3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

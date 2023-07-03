@@ -15,8 +15,8 @@ DESCRIPTION="A parser for the opening_hours fields from OpenStreetMap."
 
 HOMEPAGE="http://github.com/rezemika/humanized_opening_hours"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8a/96/2df7dd71ed3a00cc9ac765d262c229ed83127354e3f789686b34388c7ee2/osm_humanized_opening_hours-${REALVERSION}.tar.gz"
-SOURCEFILE="osm_humanized_opening_hours-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8a/96/2df7dd71ed3a00cc9ac765d262c229ed83127354e3f789686b34388c7ee2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

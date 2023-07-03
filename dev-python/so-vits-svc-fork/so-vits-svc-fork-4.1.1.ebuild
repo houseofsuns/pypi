@@ -15,8 +15,8 @@ DESCRIPTION="A fork of so-vits-svc."
 
 HOMEPAGE="https://github.com/34j/so-vits-svc-fork"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/db/51/3135e331098a475021c134bf27d17c9816dc35fb4d78faec139929ffff0d/so_vits_svc_fork-${REALVERSION}.tar.gz"
-SOURCEFILE="so_vits_svc_fork-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/db/51/3135e331098a475021c134bf27d17c9816dc35fb4d78faec139929ffff0d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A user-friendly library for Data Science in Python."
 
 HOMEPAGE="https://github.com/Safe-DS/Stdlib"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/46/bb/55487cb6c2150643b0bc608f4b20a0b14ba9a0712035709a8f6def4c15b7/safe_ds-${REALVERSION}.tar.gz"
-SOURCEFILE="safe_ds-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/46/bb/55487cb6c2150643b0bc608f4b20a0b14ba9a0712035709a8f6def4c15b7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

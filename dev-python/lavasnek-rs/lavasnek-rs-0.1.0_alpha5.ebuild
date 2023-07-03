@@ -15,8 +15,8 @@ DESCRIPTION="A lavalink-rs wrapper for any python async library"
 
 HOMEPAGE="https://github.com/vicky5124/lavasnek_rs"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/55/82/4500902d6eec37a6d2e69ba79b03021f1e7249c8fdbf858ff5ad78d34ad6/lavasnek_rs-${REALVERSION}.tar.gz"
-SOURCEFILE="lavasnek_rs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/55/82/4500902d6eec37a6d2e69ba79b03021f1e7249c8fdbf858ff5ad78d34ad6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

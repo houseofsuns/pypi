@@ -15,8 +15,8 @@ DESCRIPTION="Write less unittest boilerplate."
 
 HOMEPAGE="https://github.com/cthoyt/unittest-templates"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/db/a9/c09513131f69456cc477475e965737bf8e7b2eb24d0dd0b9ff642602aa1b/unittest_templates-${REALVERSION}.tar.gz"
-SOURCEFILE="unittest_templates-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/db/a9/c09513131f69456cc477475e965737bf8e7b2eb24d0dd0b9ff642602aa1b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

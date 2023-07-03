@@ -15,8 +15,8 @@ DESCRIPTION="General utility scripts for Quetzal projects"
 
 HOMEPAGE="https://github.com/Becheler/quetzal-CRUMBS"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f6/2b/0b42fc27d7b80351ae48124ef50e7227826169568ea5a9ac0c07979b927e/quetzal_crumbs-${REALVERSION}.tar.gz"
-SOURCEFILE="quetzal_crumbs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f6/2b/0b42fc27d7b80351ae48124ef50e7227826169568ea5a9ac0c07979b927e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

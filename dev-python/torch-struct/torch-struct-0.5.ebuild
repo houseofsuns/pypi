@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/harvardnlp/pytorch-struct"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f3/e1/bb2ad949a56c25014e1a7c0e2b0f5a7f670eff876fe733156afe2119eede/torch_struct-${REALVERSION}.tar.gz"
-SOURCEFILE="torch_struct-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f3/e1/bb2ad949a56c25014e1a7c0e2b0f5a7f670eff876fe733156afe2119eede/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Fast extraction of job titles from strings"
 
 HOMEPAGE="https://github.com/fluquid/find_job_titles"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/dd/79/961b1af12d2d57cdc2d2d4bb0206dcdb1fbce9032e18d7a0b530afa72efb/find_job_titles-${REALVERSION}.tar.gz"
-SOURCEFILE="find_job_titles-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/dd/79/961b1af12d2d57cdc2d2d4bb0206dcdb1fbce9032e18d7a0b530afa72efb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

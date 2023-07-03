@@ -15,8 +15,8 @@ DESCRIPTION="fake winreg, in order to test registry related functions on linux"
 
 HOMEPAGE="https://github.com/bitranox/fake_winreg"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fc/39/01f9a8ca314bc62926c2675e6fcf8d64987c2292b507e4ea96452828d3a6/fake_winreg-${REALVERSION}.tar.gz"
-SOURCEFILE="fake_winreg-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fc/39/01f9a8ca314bc62926c2675e6fcf8d64987c2292b507e4ea96452828d3a6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

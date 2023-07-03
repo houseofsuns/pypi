@@ -15,8 +15,8 @@ DESCRIPTION="Gurux DLMS library for Python."
 
 HOMEPAGE="https://github.com/gurux/gurux.dlms.python"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/69/88/bd1d34b6a5ca3c85c760474f14a979d30fb264e574e887809fc89fc08a13/gurux_dlms-${REALVERSION}.tar.gz"
-SOURCEFILE="gurux_dlms-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/69/88/bd1d34b6a5ca3c85c760474f14a979d30fb264e574e887809fc89fc08a13/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

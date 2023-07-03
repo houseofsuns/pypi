@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>buvar_aiohttp=============Solves some boilerplate around starting an `aiohttp`_ server... code-block:: python    import aiohttp.web    from buvar import context, di, fork, plugin    from buvar_aiohttp import AioHttpConfig    async def hello(request):        return aiohttp.web.Response(body=b&quot;Hello, world&quot;)    async def prepare_aiohttp(load: plugin.Loader):        # provide config        context.add(AioHttpConfig(host=&quot;0.0.0.0&quot;, port=5678))        # prepare server site        await load(&quot;buvar_aiohttp&quot;)        # mount routes        app = await di.nject(aiohttp.web.Application)        app.router.add_route(&quot;GET&quot;, &quot;/&quot;, hello)    # start a process for each available CPU and provide a shared socket to all    # children    fork.stage(prepare_aiohttp, forks=0, sockets=[&quot;tcp://:5678&quot;]).. _aiohttp: https://docs.aiohttp.org</longdescription>
+</pkgmetadata>

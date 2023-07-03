@@ -15,8 +15,8 @@ DESCRIPTION="Generating shell commands and code using natural language models (O
 
 HOMEPAGE="https://github.com/JohnnyIrvin/shell-craft"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e9/25/1dfc71bc33c66e30c559f7ae9450182804d902c98b275e5031b7363e7e39/openai_shell_craft-${REALVERSION}.tar.gz"
-SOURCEFILE="openai_shell_craft-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e9/25/1dfc71bc33c66e30c559f7ae9450182804d902c98b275e5031b7363e7e39/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

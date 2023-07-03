@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Basic Antiword via libreofficeThis package is nothing more than a convenience wrapper around `libreoffice--convert-to txt` which dumps to stdout, cleaning up the generated temporaryfile as it goes.I probably should have written it in bash, but there we go.</longdescription>
+</pkgmetadata>

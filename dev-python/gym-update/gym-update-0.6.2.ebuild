@@ -15,8 +15,8 @@ DESCRIPTION="A OpenAI Gym Env for continuous control"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/96/2e/a1b89842b773f90616ac09b0a409f5d5eb30a7e7546cf3436c1121d47d23/gym_update-${REALVERSION}.tar.gz"
-SOURCEFILE="gym_update-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/96/2e/a1b89842b773f90616ac09b0a409f5d5eb30a7e7546cf3436c1121d47d23/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

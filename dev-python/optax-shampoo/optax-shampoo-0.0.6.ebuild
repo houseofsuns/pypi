@@ -15,8 +15,8 @@ DESCRIPTION="Distributed Shampoo (Second order Optimizer for Deep Learning) Opta
 
 HOMEPAGE="https://github.com/google-research/google-research/tree/master/scalable_shampoo"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f4/ab/5c370d310ace203de7ebf50f0800e1c36041de707e5c7374c978d8d727cf/optax_shampoo-${REALVERSION}.tar.gz"
-SOURCEFILE="optax_shampoo-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f4/ab/5c370d310ace203de7ebf50f0800e1c36041de707e5c7374c978d8d727cf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

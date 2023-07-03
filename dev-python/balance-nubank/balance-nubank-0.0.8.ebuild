@@ -15,8 +15,8 @@ DESCRIPTION="Objetivos:"
 
 HOMEPAGE="https://pypi.org/project/balance-service"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c2/39/863b713bc83bb5297a0acaffc6d58a8715edee7b0d307ff11c261c3a44e4/balance_nubank-${REALVERSION}.tar.gz"
-SOURCEFILE="balance_nubank-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c2/39/863b713bc83bb5297a0acaffc6d58a8715edee7b0d307ff11c261c3a44e4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Command Line Tools for Kodexa"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ac/82/a15b391cd262661af7f9b5f699c1c3b595047e5d6bd687fe66dc1efe7021/kodexa_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="kodexa_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ac/82/a15b391cd262661af7f9b5f699c1c3b595047e5d6bd687fe66dc1efe7021/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

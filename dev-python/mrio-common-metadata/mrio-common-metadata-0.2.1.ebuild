@@ -15,8 +15,8 @@ DESCRIPTION="Common Datapackage schema and utilities for MRIO tables"
 
 HOMEPAGE="https://github.com/brightway-lca/mrio_common_metadata"
 LICENSE="BSD 3-clause"
-SRC_URI="https://files.pythonhosted.org/packages/70/5e/ebe242536f4bf8368d8624a6489959c9f8738d5cdd7d322dd288141244fa/mrio_common_metadata-${REALVERSION}.tar.gz"
-SOURCEFILE="mrio_common_metadata-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/70/5e/ebe242536f4bf8368d8624a6489959c9f8738d5cdd7d322dd288141244fa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

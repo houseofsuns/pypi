@@ -15,8 +15,8 @@ DESCRIPTION="Unified Planning Framework"
 
 HOMEPAGE="https://www.aiplan4eu-project.eu"
 LICENSE="APACHE"
-SRC_URI="https://files.pythonhosted.org/packages/c1/f6/b67c649b8809f9a0f915a1b9324153c125ca2698b59be61faf286d2a6b48/unified_planning-${REALVERSION}.tar.gz"
-SOURCEFILE="unified_planning-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c1/f6/b67c649b8809f9a0f915a1b9324153c125ca2698b59be61faf286d2a6b48/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

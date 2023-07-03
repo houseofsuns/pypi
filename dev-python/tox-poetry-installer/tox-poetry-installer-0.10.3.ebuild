@@ -15,8 +15,8 @@ DESCRIPTION="A plugin for Tox that lets you install test environment dependencie
 
 HOMEPAGE="https://github.com/enpaul/tox-poetry-installer/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9e/69/f57a579ac09a9ff17261054d55ff2c1a2ac0975219f4695fdcba6bdfd387/tox_poetry_installer-${REALVERSION}.tar.gz"
-SOURCEFILE="tox_poetry_installer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9e/69/f57a579ac09a9ff17261054d55ff2c1a2ac0975219f4695fdcba6bdfd387/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="PyTorch Profiler TensorBoard Plugin"
 
 HOMEPAGE="https://github.com/pytorch/kineto/tree/main/tb_plugin"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/cb/af/5e5b8c918131e579f969149aca5094be75ba2ec16ac98ef2dbfeed1eb58c/torch_tb_profiler-${REALVERSION}.tar.gz"
-SOURCEFILE="torch_tb_profiler-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cb/af/5e5b8c918131e579f969149aca5094be75ba2ec16ac98ef2dbfeed1eb58c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

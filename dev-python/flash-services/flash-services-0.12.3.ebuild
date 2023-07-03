@@ -15,8 +15,8 @@ DESCRIPTION="The services that can be shown on a Flash dashboard."
 
 HOMEPAGE="http://github.com/textbook/flash/"
 LICENSE="License :: OSI Approved :: ISC License ISCL"
-SRC_URI="https://files.pythonhosted.org/packages/dc/f1/b2ddd883843e053b510bf795e0cbaef0e762435669f9160c39cbccb05892/flash_services-${REALVERSION}.tar.gz"
-SOURCEFILE="flash_services-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/dc/f1/b2ddd883843e053b510bf795e0cbaef0e762435669f9160c39cbccb05892/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

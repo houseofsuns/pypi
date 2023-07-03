@@ -15,8 +15,8 @@ DESCRIPTION="High performance and actively maintained server-side session framew
 
 HOMEPAGE="https://github.com/jvanasco/pyramid_session_redis"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/ec/79/fdd2f9554061e498a5743be5071906af6c36e5f1fa1d44b44f8f6785bb8b/pyramid_session_redis-${REALVERSION}.tar.gz"
-SOURCEFILE="pyramid_session_redis-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ec/79/fdd2f9554061e498a5743be5071906af6c36e5f1fa1d44b44f8f6785bb8b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Generate locked-down AWS IAM Policies"
 
 HOMEPAGE="https://github.com/salesforce/policy_sentry"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/30/a9/cb31f88f691b90bf4d596be369bff6f66051a17c2bd30564b4761bf7aba2/policy_sentry-${REALVERSION}.tar.gz"
-SOURCEFILE="policy_sentry-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/30/a9/cb31f88f691b90bf4d596be369bff6f66051a17c2bd30564b4761bf7aba2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

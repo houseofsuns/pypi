@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module to manage consignment stock"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/73/f5/9eb2aafb073ec89cd1c321ea8ca46b4de2563447787234b430f25804cae3/trytond_stock_consignment-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_stock_consignment-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/73/f5/9eb2aafb073ec89cd1c321ea8ca46b4de2563447787234b430f25804cae3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

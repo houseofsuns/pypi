@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># FSDict## Design principles1) Every key of a fsdict must be of type 'str' or 'FunctionType'.2) A fsdict may not be part of a list.3) A fsdict may contain other fsdicts.4) Dictionaries in python are passed by reference; so are fsdicts. By defaultan fsdict is always passed by refernece. That is, its values are not copied butthe fsdict is symlinked to the new position.## InternalsKeys of type 'str' work just as normal dictionary keys. Keys of type'FunctionType' are used as filters for the keys of an fsdict. So```pythondictionary[lambda key: &quot;foo&quot; in key]```would return a generator which yields the values for keys which contain thestring 'foo'.Possible value types and how they are handled:- fsdict - a directory- 'bytes' type - written to file as is- any other python object (except for 'bytes') - pickled</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="Generate source code for Python classes from a JSON schema."
 
 HOMEPAGE="https://github.com/microsoft/jschema-to-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1d/7f/5ae3d97ddd86ec33323231d68453afd504041efcfd4f4dde993196606849/jschema_to_python-${REALVERSION}.tar.gz"
-SOURCEFILE="jschema_to_python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1d/7f/5ae3d97ddd86ec33323231d68453afd504041efcfd4f4dde993196606849/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

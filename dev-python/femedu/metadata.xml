@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># FEM.eduA python-based general finite element analysis package for simple testing and developing of finite elements and material models and solution algorithms.For a detailed documentation visit https://pmackenz.github.io/FEM.edu.documentation/</longdescription>
+</pkgmetadata>

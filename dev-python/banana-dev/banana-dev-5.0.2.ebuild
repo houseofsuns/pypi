@@ -15,8 +15,8 @@ DESCRIPTION="The banana package is a python client to interact with your machine
 
 HOMEPAGE="https://www.banana.dev"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/57/68/45f96e36bd31e7f7cf3e89d517c08ad2e5346aa147cd610f0929ea9daff6/banana_dev-${REALVERSION}.tar.gz"
-SOURCEFILE="banana_dev-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/57/68/45f96e36bd31e7f7cf3e89d517c08ad2e5346aa147cd610f0929ea9daff6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

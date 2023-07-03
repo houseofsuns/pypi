@@ -15,8 +15,8 @@ DESCRIPTION="seven studio"
 
 HOMEPAGE="http://gitlab.tdtech.gao7.com/python/seven_studio"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/60/30/e47de327695719d630bbe2fc91d45398e944284a415b53f6c0ef9a73f588/seven_studio-${REALVERSION}.tar.gz"
-SOURCEFILE="seven_studio-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/60/30/e47de327695719d630bbe2fc91d45398e944284a415b53f6c0ef9a73f588/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

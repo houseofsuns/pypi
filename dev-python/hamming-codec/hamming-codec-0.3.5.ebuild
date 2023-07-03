@@ -15,8 +15,8 @@ DESCRIPTION="Simple encode/decode utilities for bit-error correcting Hamming cod
 
 HOMEPAGE="https://github.com/dantrim/hamming-codec"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/51/83/ecb661b9b1addca363d983fd0406784ad3d04659fe689af1bcc6b3072610/hamming_codec-${REALVERSION}.tar.gz"
-SOURCEFILE="hamming_codec-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/51/83/ecb661b9b1addca363d983fd0406784ad3d04659fe689af1bcc6b3072610/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

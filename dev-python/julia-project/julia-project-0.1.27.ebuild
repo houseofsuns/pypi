@@ -15,8 +15,8 @@ DESCRIPTION="Manage Julia dependency in a Python module"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b3/37/3948b817bfd85a2fa495ec0d4bb299307b694d181d6177229ea779cdbbbe/julia_project-${REALVERSION}.tar.gz"
-SOURCEFILE="julia_project-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b3/37/3948b817bfd85a2fa495ec0d4bb299307b694d181d6177229ea779cdbbbe/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

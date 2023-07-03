@@ -15,8 +15,8 @@ DESCRIPTION="Courseware for Making With Code"
 
 HOMEPAGE="https://github.com/cproctor/making-with-code-courseware"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/68/a5/430dfe7dd8d54a68cc9bf7f5880c230f9991b90667d83678ee3b84d3282a/making_with_code_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="making_with_code_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/68/a5/430dfe7dd8d54a68cc9bf7f5880c230f9991b90667d83678ee3b84d3282a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

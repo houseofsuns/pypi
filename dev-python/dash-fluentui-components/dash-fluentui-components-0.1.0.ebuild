@@ -15,8 +15,8 @@ DESCRIPTION="FluentUI components for Plotly Dash."
 
 HOMEPAGE="https://github.com/roeap/dash-fluentui-components"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/00/f1/a867d7fc27be76bc927e0b0b62e618c7f02f6ee60f7d8b898d17261ca8a6/dash_fluentui_components-${REALVERSION}.tar.gz"
-SOURCEFILE="dash_fluentui_components-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/00/f1/a867d7fc27be76bc927e0b0b62e618c7f02f6ee60f7d8b898d17261ca8a6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

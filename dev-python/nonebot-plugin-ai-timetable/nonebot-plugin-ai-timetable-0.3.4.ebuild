@@ -15,8 +15,8 @@ DESCRIPTION="小爱课程表"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/82/e1/16aebb9613dc81b9eecba99a193570b755d22815ee30fb4c2d61edeaaeff/nonebot_plugin_ai_timetable-${REALVERSION}.tar.gz"
-SOURCEFILE="nonebot_plugin_ai_timetable-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/82/e1/16aebb9613dc81b9eecba99a193570b755d22815ee30fb4c2d61edeaaeff/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

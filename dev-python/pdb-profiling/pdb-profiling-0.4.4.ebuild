@@ -15,8 +15,8 @@ DESCRIPTION="Profiling Protein Structures from Protein Data Bank and integrate v
 
 HOMEPAGE="https://github.com/NatureGeorge/pdb-profiling"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e1/47/613f1ea5cb7b8bd7dc4dd2af58f678ec82234fb2df62755d22e3958cfa29/pdb_profiling-${REALVERSION}.tar.gz"
-SOURCEFILE="pdb_profiling-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e1/47/613f1ea5cb7b8bd7dc4dd2af58f678ec82234fb2df62755d22e3958cfa29/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

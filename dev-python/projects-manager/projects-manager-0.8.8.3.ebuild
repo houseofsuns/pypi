@@ -15,8 +15,8 @@ DESCRIPTION="A simple projects manager."
 
 HOMEPAGE="https://github.com/ThaaoBlues/pmanager"
 LICENSE="CC BY-NC-ND 4.0"
-SRC_URI="https://files.pythonhosted.org/packages/81/34/1ad4e0905091591b9f9f5ab91dbf108a0fe1016dd272dc794dc6c2a61888/projects_manager-${REALVERSION}.tar.gz"
-SOURCEFILE="projects_manager-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/81/34/1ad4e0905091591b9f9f5ab91dbf108a0fe1016dd272dc794dc6c2a61888/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

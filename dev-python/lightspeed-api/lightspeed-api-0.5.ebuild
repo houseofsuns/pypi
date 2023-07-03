@@ -15,8 +15,8 @@ DESCRIPTION="Simple library for interacting with the Lightspeed HQ API"
 
 HOMEPAGE="https://github.com/beckf/lightspeed_api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fb/59/7b8927b2a19c2660d251f8a91327bd31833e837901872dcd339d9992bb76/lightspeed_api-${REALVERSION}.tar.gz"
-SOURCEFILE="lightspeed_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fb/59/7b8927b2a19c2660d251f8a91327bd31833e837901872dcd339d9992bb76/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

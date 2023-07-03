@@ -15,8 +15,8 @@ DESCRIPTION="Dash component which allows to update a dcc.Graph its traces. This 
 
 HOMEPAGE="https://github.com/predict-idlab/trace-updater"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/33/ee/2f17f3f2ca5760f118c404a0740d6f09056e24a74e453bc5b3588641381f/trace_updater-${REALVERSION}.tar.gz"
-SOURCEFILE="trace_updater-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/33/ee/2f17f3f2ca5760f118c404a0740d6f09056e24a74e453bc5b3588641381f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

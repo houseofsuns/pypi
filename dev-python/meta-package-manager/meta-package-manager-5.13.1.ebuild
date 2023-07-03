@@ -15,8 +15,8 @@ DESCRIPTION="🎁 wraps all package managers with a unifying CLI"
 
 HOMEPAGE="https://github.com/kdeldycke/meta-package-manager"
 LICENSE="GPL-2+"
-SRC_URI="https://files.pythonhosted.org/packages/a0/94/b9dbfbf058f40ce3c64257806ae8ae76f377fc28f627b9b40777d26a742c/meta_package_manager-${REALVERSION}.tar.gz"
-SOURCEFILE="meta_package_manager-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a0/94/b9dbfbf058f40ce3c64257806ae8ae76f377fc28f627b9b40777d26a742c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

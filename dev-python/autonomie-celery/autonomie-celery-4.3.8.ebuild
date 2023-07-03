@@ -15,8 +15,8 @@ DESCRIPTION="autonomie_celery"
 
 HOMEPAGE="https://github.com/CroissanceCommune/autonomie_base"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/e8/09/4bd1363f1e032c0f8f5ecd6d3755ce202ca4b854a6c63a30aa63dfaa00d0/autonomie_celery-${REALVERSION}.tar.gz"
-SOURCEFILE="autonomie_celery-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e8/09/4bd1363f1e032c0f8f5ecd6d3755ce202ca4b854a6c63a30aa63dfaa00d0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

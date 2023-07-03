@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Django admin multi-select filterDjango admin multi-select filter is a Django app that allows you to add a multi-select filter to the Django admin.## Installation1. Install using pip:    ```bash    pip install django-admin-multi-select-filter    ```2. Use the `MultiSelectFilter` (or `MultiSelectRelatedFieldListFilter` when using on related fields) in your admin classes (you do **not** need to add the app to `INSTALLED_APPS`):    ```python    from django.contrib import admin    from django_admin_multi_select_filter.filters import MultiSelectFieldListFilter    class MyModelAdmin(admin.ModelAdmin):        list_filter = (            ...            ('my_field', MultiSelectFieldListFilter),            ...        )    ```</longdescription>
+</pkgmetadata>

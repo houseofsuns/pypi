@@ -15,8 +15,8 @@ DESCRIPTION="Package for parsing a Tracefinder file containing processed Mass Sp
 
 HOMEPAGE="https://github.com/llegregam/MSReader"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4f/7a/9cefee99cf454e6186d23e82f48577457fc50ffb931a017e72f86cb31efd/ms_reader-${REALVERSION}.tar.gz"
-SOURCEFILE="ms_reader-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4f/7a/9cefee99cf454e6186d23e82f48577457fc50ffb931a017e72f86cb31efd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

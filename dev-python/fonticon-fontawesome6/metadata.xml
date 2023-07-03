@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># fonticon-fontawesome6[![License](https://img.shields.io/pypi/l/fonticon-fontawesome6.svg?color=green)](https://github.com/pyapp-kit/fonticon-fontawesome6/raw/master/LICENSE)[![PyPI](https://img.shields.io/pypi/v/fonticon-fontawesome6.svg?color=green)](https://pypi.org/project/fonticon-fontawesome6)[![Python Version](https://img.shields.io/pypi/pyversions/fonticon-fontawesome6.svg?color=green)](https://python.org)[FontAwesome 6](https://github.com/FortAwesome/Font-Awesome) extension for [superqt font icons](https://pyapp-kit.github.io/superqt/utilities/fonticon/)```shpip install superqt fonticon-fontawesome6``````pythonfrom fonticon_fa6 import FA6Sfrom qtpy.QtCore import QSizefrom qtpy.QtWidgets import QApplication, QPushButtonfrom superqt.fonticon import icon, pulseapp = QApplication([])btn2 = QPushButton()btn2.setIcon(icon(FA6S.spinner, animation=pulse(btn2)))btn2.setIconSize(QSize(225, 225))btn2.show()app.exec_()```### Dev noteTo update this package for new fonticon releases, update the `VERSION = ...` stringin `scripts/bundle.py`, and rerun `python scripts/bundle.py`.</longdescription>
+</pkgmetadata>

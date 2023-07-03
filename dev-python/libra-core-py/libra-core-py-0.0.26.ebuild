@@ -15,8 +15,8 @@ DESCRIPTION="libra core"
 
 HOMEPAGE=""
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/27/0b/f6542ff3dec2571b16aa9060f4e50fd57373045ab54e374b080b4ec67be3/libra_core_py-${REALVERSION}.tar.gz"
-SOURCEFILE="libra_core_py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/27/0b/f6542ff3dec2571b16aa9060f4e50fd57373045ab54e374b080b4ec67be3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

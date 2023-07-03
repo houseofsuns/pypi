@@ -15,8 +15,8 @@ DESCRIPTION="Another simple class wrapper for interacting with Discord webhooks 
 
 HOMEPAGE="https://gitlab.com/ErikKalkoken/dhooks-lite"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2e/b1/7cf96eb5e61dec3266e64654023eab1297c722429eea572d3550c88e9c33/dhooks_lite-${REALVERSION}.tar.gz"
-SOURCEFILE="dhooks_lite-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2e/b1/7cf96eb5e61dec3266e64654023eab1297c722429eea572d3550c88e9c33/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

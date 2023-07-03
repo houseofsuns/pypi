@@ -15,8 +15,8 @@ DESCRIPTION="OpenTelemetry Starlette Instrumentation"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-starlette"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/af/0e/86572e0dedf612e88819a4f6ff8d0fc9ef2297c1862da458c64d0f7febea/opentelemetry_instrumentation_starlette-${REALVERSION}.tar.gz"
-SOURCEFILE="opentelemetry_instrumentation_starlette-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/af/0e/86572e0dedf612e88819a4f6ff8d0fc9ef2297c1862da458c64d0f7febea/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="RemotiveLabs Broker gRPC API"
 
 HOMEPAGE="https://remotivelabs.com/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/23/d2/4712e8ae26be2b2bd6adf4896ddd2da407e1f9597d29999b62b20e1c86f0/remotivelabs_broker-${REALVERSION}.tar.gz"
-SOURCEFILE="remotivelabs_broker-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/23/d2/4712e8ae26be2b2bd6adf4896ddd2da407e1f9597d29999b62b20e1c86f0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

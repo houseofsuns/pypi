@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/hyperledger/aries-cloudagent-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2b/46/ff31db6cfe24b07c502d9b01a8c5a2a8326efcf9c9c876af8604eabe763f/aries_cloudagent-${REALVERSION}.tar.gz"
-SOURCEFILE="aries_cloudagent-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2b/46/ff31db6cfe24b07c502d9b01a8c5a2a8326efcf9c9c876af8604eabe763f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

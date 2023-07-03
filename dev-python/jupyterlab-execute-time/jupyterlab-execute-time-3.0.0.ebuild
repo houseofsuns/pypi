@@ -15,8 +15,8 @@ DESCRIPTION="Display cell timings in Jupyter Lab"
 
 HOMEPAGE="https://github.com/deshaw/jupyterlab-execute-time"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/f9/ab/eaca56a68478c06b932b9d94023d213362d8778b33da7d31c84e11cc5d7c/jupyterlab_execute_time-${REALVERSION}.tar.gz"
-SOURCEFILE="jupyterlab_execute_time-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f9/ab/eaca56a68478c06b932b9d94023d213362d8778b33da7d31c84e11cc5d7c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

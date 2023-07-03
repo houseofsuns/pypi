@@ -15,8 +15,8 @@ DESCRIPTION="Poetry plugin to export the dependencies to various formats"
 
 HOMEPAGE="https://python-poetry.org/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d0/a7/e6aeb797f4dd965e28700dc72fa1c44a2c956a2336ab181a9c7259752585/poetry_plugin_export-${REALVERSION}.tar.gz"
-SOURCEFILE="poetry_plugin_export-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d0/a7/e6aeb797f4dd965e28700dc72fa1c44a2c956a2336ab181a9c7259752585/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

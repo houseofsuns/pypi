@@ -15,8 +15,8 @@ DESCRIPTION="use torch to do bert_seq2seq task"
 
 HOMEPAGE="https://github.com/920232796/bert_seq2seq"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ff/56/eed32b8d08a288781ace03ac412b916486861b83c285f70070c3a5a9f8dc/bert_seq2seq-${REALVERSION}.tar.gz"
-SOURCEFILE="bert_seq2seq-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ff/56/eed32b8d08a288781ace03ac412b916486861b83c285f70070c3a5a9f8dc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

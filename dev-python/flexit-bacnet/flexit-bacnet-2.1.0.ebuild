@@ -15,8 +15,8 @@ DESCRIPTION="Client BACnet library for Flexit Nordic series of air handling unit
 
 HOMEPAGE="https://github.com/piotrbulinski/flexit_bacnet"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/78/65/efcd1ad1201b83eadf3ce7ffa0f72c2cf558fdb43a8161f1a90cc3c93c4a/flexit_bacnet-${REALVERSION}.tar.gz"
-SOURCEFILE="flexit_bacnet-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/78/65/efcd1ad1201b83eadf3ce7ffa0f72c2cf558fdb43a8161f1a90cc3c93c4a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

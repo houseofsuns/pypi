@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module with French chart of accounts"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/fe/8e/8e46beb2e9bd14f7ca192aec87e97e98514c0d94543fc43959893451423c/trytond_account_fr-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_account_fr-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fe/8e/8e46beb2e9bd14f7ca192aec87e97e98514c0d94543fc43959893451423c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![PyPI version](https://badge.fury.io/py/streamdeckapi.svg)](https://badge.fury.io/py/streamdeckapi)# streamdeckapiStream Deck API Library for Home Assistant Stream Deck IntegrationOnly compatible with separate [Stream Deck Plugin](https://github.com/Patrick762/streamdeckapi-plugin) or the bundled server.## ServerThis library also contains a server to use the streamdeck with Linux or without the official Stream Deck Software.For this to work, the following software is required:- LibUSB HIDAPI [Installation instructions](https://python-elgato-streamdeck.readthedocs.io/en/stable/pages/backend_libusb_hidapi.html) or [Installation instructions](https://github.com/jamesridgway/devdeck/wiki/Installation)- cairo [Installation instructions for Windows](https://stackoverflow.com/a/73913080)Cairo Installation for Windows:```bashpip install pipwinpipwin install cairocffi```The event `doubleTap` is not working with this server software.### LimitationsDiscovery might not work.### Installation on Linux / Raspberry PiInstall requirements:`sudo apt install -y libudev-dev libusb-1.0-0-dev libhidapi-libusb0 libjpeg-dev zlib1g-dev libopenjp2-7 libtiff5`Allow all users non-root access to Stream Deck Devices:```bashsudo tee /etc/udev/rules.d/10-streamdeck.rules &lt;&lt; EOFSUBSYSTEMS==&quot;usb&quot;, ATTRS{idVendor}==&quot;0fd9&quot;, GROUP=&quot;users&quot;, TAG+=&quot;uaccess&quot;EOF```Reload access rules:`sudo udevadm control --reload-rules`Install the package:`pip install streamdeckapi`Reboot your systemStart the server:`streamdeckapi-server`</longdescription>
+</pkgmetadata>

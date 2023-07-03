@@ -15,8 +15,8 @@ DESCRIPTION="Library for getting your data into HEPData"
 
 HOMEPAGE="https://github.com/HEPData/hepdata_lib"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/51/fe/5a1b3de9e313eeb2485848dbd1069610b0b8e072a662d93b2b22e80c0475/hepdata_lib-${REALVERSION}.tar.gz"
-SOURCEFILE="hepdata_lib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/51/fe/5a1b3de9e313eeb2485848dbd1069610b0b8e072a662d93b2b22e80c0475/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

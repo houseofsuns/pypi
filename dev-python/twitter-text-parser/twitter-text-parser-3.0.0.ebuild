@@ -15,8 +15,8 @@ DESCRIPTION="A library to parse or validate Twitter texts properly"
 
 HOMEPAGE="https://github.com/swen128/twitter-text-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a6/e6/332b2a4a8e29c773274099e0fa92fb68d72cd276b0e7f960780bc7898881/twitter_text_parser-${REALVERSION}.tar.gz"
-SOURCEFILE="twitter_text_parser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a6/e6/332b2a4a8e29c773274099e0fa92fb68d72cd276b0e7f960780bc7898881/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

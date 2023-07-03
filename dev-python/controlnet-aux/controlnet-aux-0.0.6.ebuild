@@ -15,8 +15,8 @@ DESCRIPTION="Auxillary models for controlnet"
 
 HOMEPAGE="https://github.com/patrickvonplaten/controlnet_aux"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/6e/bc/9f83b166c5c3732ddb98ebb023d2ce8c4e47dbc4c3e4c7de51896c65d7c2/controlnet_aux-${REALVERSION}.tar.gz"
-SOURCEFILE="controlnet_aux-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6e/bc/9f83b166c5c3732ddb98ebb023d2ce8c4e47dbc4c3e4c7de51896c65d7c2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

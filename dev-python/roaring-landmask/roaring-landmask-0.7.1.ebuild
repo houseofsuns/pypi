@@ -15,8 +15,8 @@ DESCRIPTION="A fast and limited-memory structure with a landmask based on GSHHG 
 
 HOMEPAGE="https://github.com/gauteh/roaring-landmask"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/31/cc/861515523f6186434a19eeac8d5d2e9122a13977b5f8b0ae2dc99469714c/roaring_landmask-${REALVERSION}.tar.gz"
-SOURCEFILE="roaring_landmask-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/31/cc/861515523f6186434a19eeac8d5d2e9122a13977b5f8b0ae2dc99469714c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

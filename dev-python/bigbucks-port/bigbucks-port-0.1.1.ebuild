@@ -15,8 +15,8 @@ DESCRIPTION="A package used for portfolio analysis in Fintech512"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4a/fe/592216b36a0c345590204bafd0f55b994473ca96a6982132cfaae3e6e313/bigbucks_port-${REALVERSION}.tar.gz"
-SOURCEFILE="bigbucks_port-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4a/fe/592216b36a0c345590204bafd0f55b994473ca96a6982132cfaae3e6e313/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

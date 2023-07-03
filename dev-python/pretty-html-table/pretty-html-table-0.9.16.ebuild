@@ -15,8 +15,8 @@ DESCRIPTION="Make pandas dataframe looking pretty again"
 
 HOMEPAGE="https://github.com/sbi-rviot/ph_table"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d5/cf/99ae7225dcd8ab44f80778fd4a1ef024f1535cad520df7b852a84fd0962a/pretty_html_table-${REALVERSION}.tar.gz"
-SOURCEFILE="pretty_html_table-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d5/cf/99ae7225dcd8ab44f80778fd4a1ef024f1535cad520df7b852a84fd0962a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

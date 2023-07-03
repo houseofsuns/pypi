@@ -15,8 +15,8 @@ DESCRIPTION="Tiktok Downloader&Scraper using bs4&requests"
 
 HOMEPAGE="https://github.com/krypton-byte/tiktok_downloader"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c0/64/07d671ef643d0083d2c9b18f14782ef7a6c96bd803d6179026ed68c14042/tiktok_downloader-${REALVERSION}.tar.gz"
-SOURCEFILE="tiktok_downloader-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c0/64/07d671ef643d0083d2c9b18f14782ef7a6c96bd803d6179026ed68c14042/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

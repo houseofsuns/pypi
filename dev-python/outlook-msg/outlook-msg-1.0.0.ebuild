@@ -15,8 +15,8 @@ DESCRIPTION="Read contents, metadata and attachments from Outlook Message files"
 
 HOMEPAGE="https://github.com/HamiltonInsurance/outlook_msg"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bd/db/10e5e3e82cbf6201ba1555543c061c91fa4d84dd96dbc4920c7b4ffe2a8b/outlook_msg-${REALVERSION}.tar.gz"
-SOURCEFILE="outlook_msg-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bd/db/10e5e3e82cbf6201ba1555543c061c91fa4d84dd96dbc4920c7b4ffe2a8b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

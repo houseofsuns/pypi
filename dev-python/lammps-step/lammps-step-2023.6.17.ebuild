@@ -15,8 +15,8 @@ DESCRIPTION="A SEAMM plug-in for LAMMPS, a forcefield-based molecular dynamics c
 
 HOMEPAGE="https://github.com/molssi-seamm/lammps_step"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/d8/c1/94f090db4961b376b0afd2cec31fdbebc22d01193b2d319bfb6daebcb49b/lammps_step-${REALVERSION}.tar.gz"
-SOURCEFILE="lammps_step-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d8/c1/94f090db4961b376b0afd2cec31fdbebc22d01193b2d319bfb6daebcb49b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

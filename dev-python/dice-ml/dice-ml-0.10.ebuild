@@ -15,8 +15,8 @@ DESCRIPTION="Generate Diverse Counterfactual Explanations for any machine learni
 
 HOMEPAGE="https://github.com/interpretml/DiCE"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/89/e3/99f9a819cf5c770ec9bae2c5524b25c54591a596ce8298628792beabdd44/dice_ml-${REALVERSION}.tar.gz"
-SOURCEFILE="dice_ml-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/89/e3/99f9a819cf5c770ec9bae2c5524b25c54591a596ce8298628792beabdd44/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

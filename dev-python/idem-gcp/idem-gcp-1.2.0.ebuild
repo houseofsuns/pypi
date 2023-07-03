@@ -15,8 +15,8 @@ DESCRIPTION="GCP Cloud Provider for Idem"
 
 HOMEPAGE="https://gitlab.com/vmware/idem/idem-gcp"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ad/88/9071ef48035486562a1d7ea9b37d649a00988cec546de10c03075aac086e/idem_gcp-${REALVERSION}.tar.gz"
-SOURCEFILE="idem_gcp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ad/88/9071ef48035486562a1d7ea9b37d649a00988cec546de10c03075aac086e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

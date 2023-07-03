@@ -15,8 +15,8 @@ DESCRIPTION="Bundle of Perceval backends for Weblate."
 
 HOMEPAGE="https://chaoss.github.io/grimoirelab/"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/71/d0/4a0f5b1dcf9c61150270085850a9937b697fff86241ca2c55aca2a6a42d8/perceval_weblate-${REALVERSION}.tar.gz"
-SOURCEFILE="perceval_weblate-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/71/d0/4a0f5b1dcf9c61150270085850a9937b697fff86241ca2c55aca2a6a42d8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A flake8 formatter plugin that shows the absolute path of files wit
 
 HOMEPAGE="https://github.com/jarshwah/flake8_formatter_abspath"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f1/8a/5e8820f3f7c7dc93a81e384538e42a6a6ec2a2248548ba37e2ea3169fd01/flake8_formatter_abspath-${REALVERSION}.tar.gz"
-SOURCEFILE="flake8_formatter_abspath-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f1/8a/5e8820f3f7c7dc93a81e384538e42a6a6ec2a2248548ba37e2ea3169fd01/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

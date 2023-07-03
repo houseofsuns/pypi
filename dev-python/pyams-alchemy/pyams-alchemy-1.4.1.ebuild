@@ -15,8 +15,8 @@ DESCRIPTION="PyAMS SQLAlchemy extension"
 
 HOMEPAGE="https://pyams.readthedocs.io"
 LICENSE="ZPL"
-SRC_URI="https://files.pythonhosted.org/packages/c2/7d/6a0ffd348bae0343fe9bf9084351b0e55a95446e5bfd0615cdfd90dc548f/pyams_alchemy-${REALVERSION}.tar.gz"
-SOURCEFILE="pyams_alchemy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c2/7d/6a0ffd348bae0343fe9bf9084351b0e55a95446e5bfd0615cdfd90dc548f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

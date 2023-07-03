@@ -15,8 +15,8 @@ DESCRIPTION="Operation log for drf serializers."
 
 HOMEPAGE="https://github.com/anyidea/drf-operation-log"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f6/3b/447ddb092f65829a80b32e69d4842ed8b515b5279633bc7c80d1b5a8c129/drf_operation_log-${REALVERSION}.tar.gz"
-SOURCEFILE="drf_operation_log-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f6/3b/447ddb092f65829a80b32e69d4842ed8b515b5279633bc7c80d1b5a8c129/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

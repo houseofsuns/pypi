@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Utilities for using Neptune client on AWSThis integration exposes the `init_run()` function that reads the Neptune API token and project name fromAWS Secrets Manager instead of environment variables.```pythonfrom neptune.integrations.aws import init_runrun = init_run(    secret=&quot;neptune-secret&quot;,  # Use your secret name here    region=&quot;us-west-1&quot;,  # Use the appropriate region here)```</longdescription>
+</pkgmetadata>

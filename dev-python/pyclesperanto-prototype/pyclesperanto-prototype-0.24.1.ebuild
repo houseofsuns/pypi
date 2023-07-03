@@ -15,8 +15,8 @@ DESCRIPTION="GPU-accelerated image processing in python using OpenCL"
 
 HOMEPAGE="https://github.com/clEsperanto/pyclesperanto_prototype"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/ae/5e/713a9e6ab51e99ce555e153285a0f38a3edfe518ff553460282065df70fa/pyclesperanto_prototype-${REALVERSION}.tar.gz"
-SOURCEFILE="pyclesperanto_prototype-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ae/5e/713a9e6ab51e99ce555e153285a0f38a3edfe518ff553460282065df70fa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

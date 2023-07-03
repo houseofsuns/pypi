@@ -15,8 +15,8 @@ DESCRIPTION="My Study Notebook"
 
 HOMEPAGE="https://github.com/shunkakinoki/shun_notebook"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/3d/69/957dc2495ac4405fd5bd00ac734da18e8fa99d5d8a5050e6f8205fc340ac/shun_notebook-${REALVERSION}.tar.gz"
-SOURCEFILE="shun_notebook-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3d/69/957dc2495ac4405fd5bd00ac734da18e8fa99d5d8a5050e6f8205fc340ac/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

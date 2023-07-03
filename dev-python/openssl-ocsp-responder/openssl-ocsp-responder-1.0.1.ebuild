@@ -15,8 +15,8 @@ DESCRIPTION="Simple wrapper for OpenSSL OCSP server"
 
 HOMEPAGE="https://github.com/eyalbrami1/openssl_ocsp_responder"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fa/f2/9014f8fddff1b3089e283947a2ca339ffddb79657f0a8572c0efb6942e35/openssl_ocsp_responder-${REALVERSION}.tar.gz"
-SOURCEFILE="openssl_ocsp_responder-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fa/f2/9014f8fddff1b3089e283947a2ca339ffddb79657f0a8572c0efb6942e35/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Merge pdfMerge by name, all pdfs in the current folder, or specific list of files, into a single pdf file# Install ```bash$ pip install merge-pdf```## How to use``` python# Import modulefrom merge_pdf import merge# Path of the output pdf fileoutput_file = &quot;c:\\output\\merged_files.pdf&quot;# Folder of the output fileoutput_file_folder = &quot;c:\\output&quot;# Folder within have pdf filesfolder_files_pdf = &quot;c:\\pdf_files&quot;# List of specific pdf filesfiles_list = [    &quot;c:\\pdf_files\\01.pdf&quot;,    &quot;c:\\pdf_files\\02.pdf&quot;,    &quot;c:\\pdf_files\\03.pdf&quot;]# Merge the files inside of specific folder and save in output filemerge.Merge (output_file).merge_folder (folder_files_pdf)# Use a folder to generate the output file with the default name in this foldermerge.Merge (output_file_folder).merge_folder (folder_files_pdf)# Merge specific list of filesmerge.Merge (output_file, replace= True).merge_file_list (files_list)# Merge files and allow replace existing file outputmerge.Merge (output_file, replace=True).merge_folder (folder_files_pdf)# Merge files and print the status of the programmerge.Merge (output_file, debug=True).merge_folder (folder_files_pdf)```</longdescription>
+</pkgmetadata>

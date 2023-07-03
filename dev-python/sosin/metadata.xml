@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># sosin: easy to use Python utils for general works[![PyPI Latest Release](https://img.shields.io/pypi/v/sosin.svg)](https://pypi.org/project/sosin/)[![License](https://img.shields.io/pypi/l/sosin.svg)](https://github.com/devsosin/sosin/blob/main/LICENSE)[![Downloads](https://static.pepy.tech/personalized-badge/sosin?period=month&amp;units=international_system&amp;left_color=black&amp;right_color=orange&amp;left_text=PyPI%20downloads%20per%20month)](https://pepy.tech/project/sosin)----## Dependencies![Python](https://img.shields.io/badge/python-&gt;=3.9-blue)![MariaDB](https://img.shields.io/badge/MariaDB-&gt;=10.3-yellow)![Chrome](https://img.shields.io/badge/Chrome--red)## Installation```bash# PyPIpip install sosin```## License[MIT](LICENSE)## Getting HelpFor usage questions, Please contact [me](https://github.com/devsosin)</longdescription>
+</pkgmetadata>

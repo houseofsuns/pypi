@@ -15,8 +15,8 @@ DESCRIPTION="适用于 NoneBot2 的词云插件"
 
 HOMEPAGE="https://github.com/he0119/nonebot-plugin-wordcloud"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/78/62/2a7acd755e7bd8980eae453e7655195585206a0679511d8ef5df33d75789/nonebot_plugin_wordcloud-${REALVERSION}.tar.gz"
-SOURCEFILE="nonebot_plugin_wordcloud-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/78/62/2a7acd755e7bd8980eae453e7655195585206a0679511d8ef5df33d75789/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Python protocol definition for the Blueye drones"
 
 HOMEPAGE="https://www.blueyerobotics.com"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/fa/da/6d6609c5d3ba8675a610017073cb70969a42fcf0ce15c287a3a418614d99/blueye_protocol-${REALVERSION}.tar.gz"
-SOURCEFILE="blueye_protocol-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fa/da/6d6609c5d3ba8675a610017073cb70969a42fcf0ce15c287a3a418614d99/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Plugin for Poetry to enable dynamic versioning based on VCS tags"
 
 HOMEPAGE="https://github.com/mtkennerly/poetry-dynamic-versioning"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4e/d8/cc501707cc772fc940842cab5e1d9fd127e252cf553b9fea641f0b3b6ba2/poetry_dynamic_versioning-${REALVERSION}.tar.gz"
-SOURCEFILE="poetry_dynamic_versioning-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4e/d8/cc501707cc772fc940842cab5e1d9fd127e252cf553b9fea641f0b3b6ba2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

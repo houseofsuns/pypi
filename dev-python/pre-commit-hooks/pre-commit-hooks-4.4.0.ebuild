@@ -15,8 +15,8 @@ DESCRIPTION="Some out-of-the-box hooks for pre-commit."
 
 HOMEPAGE="https://github.com/pre-commit/pre-commit-hooks"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7f/b9/aea24394ad0918e28adb17d11ede2109847da6117105604fc2b675a0da2e/pre_commit_hooks-${REALVERSION}.tar.gz"
-SOURCEFILE="pre_commit_hooks-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7f/b9/aea24394ad0918e28adb17d11ede2109847da6117105604fc2b675a0da2e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

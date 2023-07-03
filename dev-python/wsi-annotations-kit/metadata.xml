@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># wsi_annotations_kitUtility functions for generation, conversion, and saving annotation files for various whole slide image viewersVersion 1.0.0: Initial release, annotations from shapely PolygonsVersion 1.0.1: Annotations generated from masks</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="A flake8 formatter that turns output into Github Annotations"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7a/0f/00e212bc7c016800e24defaab6d869c288b40f16f55a1f7626f5144bbd86/flake8_github_annotations-${REALVERSION}.tar.gz"
-SOURCEFILE="flake8_github_annotations-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7a/0f/00e212bc7c016800e24defaab6d869c288b40f16f55a1f7626f5144bbd86/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

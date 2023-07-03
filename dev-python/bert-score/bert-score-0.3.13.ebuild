@@ -15,8 +15,8 @@ DESCRIPTION="PyTorch implementation of BERT score"
 
 HOMEPAGE="https://github.com/Tiiiger/bert_score"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1c/93/2c97a85cbb66a8a256a13176e11c9c4508074e2341299fe75ee955c81eff/bert_score-${REALVERSION}.tar.gz"
-SOURCEFILE="bert_score-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1c/93/2c97a85cbb66a8a256a13176e11c9c4508074e2341299fe75ee955c81eff/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>  # Gen3 UtilitiesUtilities to manage Gen3 schemas, projects and submissions.## Installation## Use```$gen3_util --helpUsage: gen3_util [OPTIONS] COMMAND [ARGS]...  Gen3 Management UtilitiesOptions:  --config TEXT              Path to config file. GEN3_UTIL_CONFIG  --format [yaml|json|text]  Result format. GEN3_UTIL_FORMAT  --help                     Show this message and exit.Commands:  projects  Manage Gen3 projects.  meta      Manage meta data.  files     Manage file buckets.  config    Configure this utility.```## Development Setup```python3 -m venv venvsource venv/bin/activatepip install -r requirements.txtpip install -r requirements-dev.txtpip install -e . ```## Test* fixtures```tests/fixtures/└── custom_config    └── config.yaml  # testing configuration```## Distribution- PyPi```# update pypiexport TWINE_USERNAME=  #  the username to use for authentication to the repository.export TWINE_PASSWORD=  # the password to use for authentication to the repository.rm -r dist/python3  setup.py sdist bdist_wheeltwine upload dist/*```</longdescription>
+</pkgmetadata>

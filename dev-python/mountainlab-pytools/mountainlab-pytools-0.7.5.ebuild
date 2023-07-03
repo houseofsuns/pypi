@@ -15,8 +15,8 @@ DESCRIPTION="Tools for using MountainLab with python"
 
 HOMEPAGE="https://github.com/magland/mountainlab_pytools"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d8/9e/11ae0becee8532bc38eab5d7f9f643186f4a29955a168caa4f56b43ae1ef/mountainlab_pytools-${REALVERSION}.tar.gz"
-SOURCEFILE="mountainlab_pytools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d8/9e/11ae0becee8532bc38eab5d7f9f643186f4a29955a168caa4f56b43ae1ef/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

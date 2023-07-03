@@ -15,8 +15,8 @@ DESCRIPTION="Client library to download application from sharpai hub"
 
 HOMEPAGE="https://github.com/SharpAI/sharpai_hub"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c8/23/0f3fd17b37d4e3a3ee82ef7d6760330326d5bedab1fd31633db636260183/sharpai_hub-${REALVERSION}.tar.gz"
-SOURCEFILE="sharpai_hub-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c8/23/0f3fd17b37d4e3a3ee82ef7d6760330326d5bedab1fd31633db636260183/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/15/7c/2682f279a8599434e4a2dcffad70d43bbbf810bccf930a999a4de911ad15/mlcube_docker-${REALVERSION}.tar.gz"
-SOURCEFILE="mlcube_docker-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/15/7c/2682f279a8599434e4a2dcffad70d43bbbf810bccf930a999a4de911ad15/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

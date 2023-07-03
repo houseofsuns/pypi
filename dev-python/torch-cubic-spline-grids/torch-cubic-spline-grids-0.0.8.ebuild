@@ -15,8 +15,8 @@ DESCRIPTION="Cubic spline interpolation on multidimensional grids in PyTorch"
 
 HOMEPAGE="https://github.com/alisterburt/torch-cubic-spline-grids"
 LICENSE="BSD 3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/b9/e7/24dd5f302a0f80c7fd66d3744f5e3e90d06fe2dd98450efcb6cbb9a25a54/torch_cubic_spline_grids-${REALVERSION}.tar.gz"
-SOURCEFILE="torch_cubic_spline_grids-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b9/e7/24dd5f302a0f80c7fd66d3744f5e3e90d06fe2dd98450efcb6cbb9a25a54/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

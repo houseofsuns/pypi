@@ -15,8 +15,8 @@ DESCRIPTION="Various python stuff: testing, aio helpers, etc"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3d/cb/5e36b24ed2a6b1c28ca2e1d682120d4cd1599e73b8857ff6a4843ff6045a/fan_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="fan_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3d/cb/5e36b24ed2a6b1c28ca2e1d682120d4cd1599e73b8857ff6a4843ff6045a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

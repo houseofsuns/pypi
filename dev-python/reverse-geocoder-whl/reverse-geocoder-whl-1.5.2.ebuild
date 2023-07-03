@@ -15,8 +15,8 @@ DESCRIPTION="Fast, offline reverse geocoder"
 
 HOMEPAGE="https://github.com/TalAmuyal/reverse-geocoder-whl"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1e/48/e28f831894b806bc969356312b624ec642b451b492b7113c73889866c17b/reverse_geocoder_whl-${REALVERSION}.tar.gz"
-SOURCEFILE="reverse_geocoder_whl-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1e/48/e28f831894b806bc969356312b624ec642b451b492b7113c73889866c17b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

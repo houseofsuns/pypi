@@ -15,8 +15,8 @@ DESCRIPTION="Expands hostnames/nodelists"
 
 HOMEPAGE="https://github.com/zanussbaum/nodelist-inflator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ab/cf/f881b666db9dfe775cbfb6f00f6a482d00bb8be118c1736e035b80cdad22/nodelist_inflator-${REALVERSION}.tar.gz"
-SOURCEFILE="nodelist_inflator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ab/cf/f881b666db9dfe775cbfb6f00f6a482d00bb8be118c1736e035b80cdad22/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Faraday agent dispatcher to communicate an agent to faraday"
 
 HOMEPAGE="https://github.com/infobyte/faraday_agent_dispatcher"
 LICENSE="GNU General Public License v3"
-SRC_URI="https://files.pythonhosted.org/packages/80/93/fd2eb4aca6dcb99696fe21068dfc1808f5cb4efb05d1c7fff59650c30889/faraday_agent_dispatcher-${REALVERSION}.tar.gz"
-SOURCEFILE="faraday_agent_dispatcher-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/80/93/fd2eb4aca6dcb99696fe21068dfc1808f5cb4efb05d1c7fff59650c30889/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

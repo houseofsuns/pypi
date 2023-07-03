@@ -15,8 +15,8 @@ DESCRIPTION="Dash wrapper around AG Grid, the best interactive data grid for the
 
 HOMEPAGE="https://dash.plotly.com/dash-ag-grid"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0f/51/0ac9cd9324e10897488e0d06a1e3ae4db94e74a50c67a13f2c0d44c42db3/dash_ag_grid-${REALVERSION}.tar.gz"
-SOURCEFILE="dash_ag_grid-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0f/51/0ac9cd9324e10897488e0d06a1e3ae4db94e74a50c67a13f2c0d44c42db3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

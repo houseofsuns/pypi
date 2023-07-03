@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Flake8 Boolean TrapA flake8 plugin to detect boolean traps.docs availabe at [readthedocs](https://flake8-boolean-trap.readthedocs.io/en/latest/)## Setup### prerequisites* python&gt;=3.8### install```console$ pip install flake8_boolean_trap```## UsageJust run `flake8` as you normally would.## Lint Codes| Code.  | Description                                   || ------ | --------------------------------------------- || FBT001 | Boolean positional arg in function definition || FBT002 | Boolean default value in function definition  || FBT003 | Boolean positional value in function call     |</longdescription>
+</pkgmetadata>

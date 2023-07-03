@@ -15,8 +15,8 @@ DESCRIPTION="MkDocs plugin to allow clickable sections that lead to an index pag
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/66/a9/6035523224ff83bccbc459733d6153666d208cb0e078584945ae26fcd38c/mkdocs_section_index-${REALVERSION}.tar.gz"
-SOURCEFILE="mkdocs_section_index-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/66/a9/6035523224ff83bccbc459733d6153666d208cb0e078584945ae26fcd38c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

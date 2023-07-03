@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Health Calc Pack PyHealth Calc Pack Py é uma API para calcular o Índice de Massa Corporal (IMC) e os macronutrientes necessários para um indivíduo de acordo com seu objetivo nutricional.## Instalação1. Clone o repositório:git clone https://github.com/Angelo-Diniz/health-calc-pack-py2. Entre no diretório do projeto:cd health_calc_pack_py3. Crie um ambiente virtual e ative-o (opcional, mas recomendado):python -m venv venvsource venv/bin/activate  # Linux/macOSvenv\Scripts\activate  # Windows4. Entre na diretorio /health_calc_pack_py5. Instale as dependências:poetry installObs: Certifique-se de que o Poetry esteja instalado. Caso contrário, instale-o seguindo as instruções na documentação oficial: https://python-poetry.org/docs/#installation## Executando localmenteApós instalar as dependências, execute o seguinte comando para iniciar o servidor de desenvolvimento:poetry run python -m health_calc_pack_py.appA API estará disponível em http://localhost:5000. Envie requisições HTTP para os endpoints disponíveis para interagir com a aplicação.## SwaggerAcesse o http://localhost:5000/docs/## Testes unitáriospython -m unittest discover testsIsso executará todos os testes unitários definidos na pasta tests e exibirá os resultados.EndpointsA API fornece os seguintes endpoints:/imc: Recebe um JSON contendo altura e peso, e retorna o IMC calculado./macronutrientes: Recebe um JSON contendo peso e objetivo nutricional, e retorna os macronutrientes calculados.</longdescription>
+</pkgmetadata>

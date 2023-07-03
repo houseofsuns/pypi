@@ -15,8 +15,8 @@ DESCRIPTION="A backport of __future__ annotations to python<3.7"
 
 HOMEPAGE="https://github.com/asottile/future-annotations"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/45/3a/168feb6471a3142b1a501947e2f45afbbe9753e44f9d05317553ad7c04c0/future_annotations-${REALVERSION}.tar.gz"
-SOURCEFILE="future_annotations-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/45/3a/168feb6471a3142b1a501947e2f45afbbe9753e44f9d05317553ad7c04c0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

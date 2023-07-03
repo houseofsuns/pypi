@@ -15,8 +15,8 @@ DESCRIPTION="Pyramid addon for OpenAPI3 validation of requests and responses."
 
 HOMEPAGE="https://github.com/Pylons/pyramid_openapi3"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f9/9d/b6e037bdc73fd6f65fdbc33fcaa0a5bcc26b9e2bbe6e3cf551918ef2fc01/pyramid_openapi3-${REALVERSION}.tar.gz"
-SOURCEFILE="pyramid_openapi3-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f9/9d/b6e037bdc73fd6f65fdbc33fcaa0a5bcc26b9e2bbe6e3cf551918ef2fc01/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

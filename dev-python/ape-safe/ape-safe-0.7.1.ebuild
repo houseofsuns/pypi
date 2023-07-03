@@ -15,8 +15,8 @@ DESCRIPTION="Build complex Gnosis Safe transactions and safely preview them in a
 
 HOMEPAGE="https://github.com/banteg/ape-safe"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/38/87/ba74328dcc5a0691d6d039ebc407003046d993a7b87fd7fdf15ac6abfedd/ape_safe-${REALVERSION}.tar.gz"
-SOURCEFILE="ape_safe-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/38/87/ba74328dcc5a0691d6d039ebc407003046d993a7b87fd7fdf15ac6abfedd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

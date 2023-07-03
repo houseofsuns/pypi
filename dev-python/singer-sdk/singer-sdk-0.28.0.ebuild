@@ -15,8 +15,8 @@ DESCRIPTION="A framework for building Singer taps"
 
 HOMEPAGE="https://sdk.meltano.com/en/latest/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e0/61/ef46666b3fa4b96d0a6f201b4851699f0bdbc438192738e13260052e247a/singer_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="singer_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e0/61/ef46666b3fa4b96d0a6f201b4851699f0bdbc438192738e13260052e247a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

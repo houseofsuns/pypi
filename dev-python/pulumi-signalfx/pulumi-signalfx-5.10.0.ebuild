@@ -15,8 +15,8 @@ DESCRIPTION="A Pulumi package for creating and managing SignalFx resources."
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/5a/64/d7a43c323befeea5a064395921cb2924bd45e112896e0bb0d548d9f3ad7c/pulumi_signalfx-${REALVERSION}.tar.gz"
-SOURCEFILE="pulumi_signalfx-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5a/64/d7a43c323befeea5a064395921cb2924bd45e112896e0bb0d548d9f3ad7c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

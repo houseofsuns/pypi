@@ -15,8 +15,8 @@ DESCRIPTION="Learnosity SDK for Python"
 
 HOMEPAGE="https://github.com/Learnosity/learnosity-sdk-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a0/61/9e155438cd256953bc786076f11c120163213b2f7185fd29c9db8da4b4cf/learnosity_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="learnosity_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a0/61/9e155438cd256953bc786076f11c120163213b2f7185fd29c9db8da4b4cf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Search a string for multiple substrings at once"
 
 HOMEPAGE="https://github.com/G-Research/ahocorasick_rs"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/00/3b/a44d5ff4347bffa859f92a5cc7137e49658cf1c5d37c3b69e5413c135023/ahocorasick_rs-${REALVERSION}.tar.gz"
-SOURCEFILE="ahocorasick_rs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/00/3b/a44d5ff4347bffa859f92a5cc7137e49658cf1c5d37c3b69e5413c135023/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

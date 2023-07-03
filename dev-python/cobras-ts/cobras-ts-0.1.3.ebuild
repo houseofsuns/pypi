@@ -15,8 +15,8 @@ DESCRIPTION="Semi-supervised time series clustering with COBRAS"
 
 HOMEPAGE="https://dtai.cs.kuleuven.be/software/cobras/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9d/fb/7031046aa59dc2d4c0a4b4b9550ac82a61e3124030dd524c59465c694783/cobras_ts-${REALVERSION}.tar.gz"
-SOURCEFILE="cobras_ts-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9d/fb/7031046aa59dc2d4c0a4b4b9550ac82a61e3124030dd524c59465c694783/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

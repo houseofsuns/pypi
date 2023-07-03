@@ -15,8 +15,8 @@ DESCRIPTION="Looker REST API"
 
 HOMEPAGE="https://pypi.python.org/pypi/looker_sdk"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6c/29/8f413566db59587dc098467ed6c8def2526189c469a2261f378fb7b6e58e/looker_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="looker_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6c/29/8f413566db59587dc098467ed6c8def2526189c469a2261f378fb7b6e58e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Python bindings for canonical_json"
 
 HOMEPAGE=""
 LICENSE="Mozilla Public License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/8e/b5/dcb6138a8859390afb774353d6c7b4f14508caf454cc26ccc2fc02ecd45e/canonicaljson_rs-${REALVERSION}.tar.gz"
-SOURCEFILE="canonicaljson_rs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8e/b5/dcb6138a8859390afb774353d6c7b4f14508caf454cc26ccc2fc02ecd45e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

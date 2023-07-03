@@ -15,8 +15,8 @@ DESCRIPTION="A package to perform ETL (Extract, Transform and Load) and  interac
 
 HOMEPAGE="https://github.com/mediumroast/mediumroast_py"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ff/a1/8728570dd12452776c6347acd22f864efbfae9daf5eb22b12a7b38b66655/mediumroast_py-${REALVERSION}.tar.gz"
-SOURCEFILE="mediumroast_py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ff/a1/8728570dd12452776c6347acd22f864efbfae9daf5eb22b12a7b38b66655/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

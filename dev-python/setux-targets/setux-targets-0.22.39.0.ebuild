@@ -15,8 +15,8 @@ DESCRIPTION="System deployment"
 
 HOMEPAGE="https://gitlab.com/dugres/setux_targets"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/79/2c/51172146ec5ef05624d6a514e868623dcac093f49021325bec27fc5af5d4/setux_targets-${REALVERSION}.tar.gz"
-SOURCEFILE="setux_targets-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/79/2c/51172146ec5ef05624d6a514e868623dcac093f49021325bec27fc5af5d4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

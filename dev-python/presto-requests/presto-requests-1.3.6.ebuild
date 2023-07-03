@@ -15,8 +15,8 @@ DESCRIPTION="A modern object-oriented HTTP REST client."
 
 HOMEPAGE="https://github.com/sitbon/presto"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/4a/d9/071f8f25e41f86351a0a3dec07c2712b7a8cad4e010f7aa6b339beea3e52/presto_requests-${REALVERSION}.tar.gz"
-SOURCEFILE="presto_requests-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4a/d9/071f8f25e41f86351a0a3dec07c2712b7a8cad4e010f7aa6b339beea3e52/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

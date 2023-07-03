@@ -15,8 +15,8 @@ DESCRIPTION="Common tools for DessIA software"
 
 HOMEPAGE="https://github.com/Dessia-tech/dessia-common"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7c/2e/02fda63fd2c4118a089004774f1d358574854d5ff9a376b71bb5cf66b231/dessia_common-${REALVERSION}.tar.gz"
-SOURCEFILE="dessia_common-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7c/2e/02fda63fd2c4118a089004774f1d358574854d5ff9a376b71bb5cf66b231/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

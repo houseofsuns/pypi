@@ -15,8 +15,8 @@ DESCRIPTION="Applitools Python SDK common package stub. Can be uninstalled safel
 
 HOMEPAGE="http://www.applitools.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/82/11/c3ea84f90ff6348efa5dd264e7b2a6be4b0097d733b0ce963e65cd3f170d/eyes_common-${REALVERSION}.tar.gz"
-SOURCEFILE="eyes_common-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/82/11/c3ea84f90ff6348efa5dd264e7b2a6be4b0097d733b0ce963e65cd3f170d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

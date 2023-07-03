@@ -15,8 +15,8 @@ DESCRIPTION="Testing installation of Package"
 
 HOMEPAGE="https://github.com/luigicfh/cf_handler_module"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/41/e0/44696e2d2bc1f1d9c7ec863b26aa8ba29edee2d9e1aaa497351aac7c730b/handler_cf_v1-${REALVERSION}.tar.gz"
-SOURCEFILE="handler_cf_v1-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/41/e0/44696e2d2bc1f1d9c7ec863b26aa8ba29edee2d9e1aaa497351aac7c730b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

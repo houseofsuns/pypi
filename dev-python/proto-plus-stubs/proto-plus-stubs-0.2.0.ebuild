@@ -15,8 +15,8 @@ DESCRIPTION="Type stubs for proto-plus"
 
 HOMEPAGE="https://github.com/henribru/proto-plus-stubs"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ff/6b/f40fcc93d5b54a9ee6d44f1c70988fcd736eff5159cb622b4f26615049da/proto_plus_stubs-${REALVERSION}.tar.gz"
-SOURCEFILE="proto_plus_stubs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ff/6b/f40fcc93d5b54a9ee6d44f1c70988fcd736eff5159cb622b4f26615049da/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

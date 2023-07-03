@@ -15,8 +15,8 @@ DESCRIPTION="Use Spacy NER models to clean personally identifiable information f
 
 HOMEPAGE="https://github.com/LeapBeyond/scrubadub_spacy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ff/fd/431c9cad14075f01a1f2ca007fdc71d76bc37e796d842a9d41200215eb35/scrubadub_spacy-${REALVERSION}.tar.gz"
-SOURCEFILE="scrubadub_spacy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ff/fd/431c9cad14075f01a1f2ca007fdc71d76bc37e796d842a9d41200215eb35/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

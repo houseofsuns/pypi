@@ -15,8 +15,8 @@ DESCRIPTION="Make pytest-embedded plugin work with Espressif target boards."
 
 HOMEPAGE="https://github.com/espressif/pytest-embedded"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1d/a2/dc6c879d47509cbfc808ed8fdd1a9f3601442e0edb663ed65d9479909edf/pytest_embedded_serial_esp-${REALVERSION}.tar.gz"
-SOURCEFILE="pytest_embedded_serial_esp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1d/a2/dc6c879d47509cbfc808ed8fdd1a9f3601442e0edb663ed65d9479909edf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

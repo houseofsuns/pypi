@@ -15,8 +15,8 @@ DESCRIPTION="REST client for Databricks"
 
 HOMEPAGE="https://github.com/microsoft/DataOps"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d3/2d/ce9b221b49889d17ecac400ac54b7e434abec6176e42fecc7cde637ed5d0/databricks_client-${REALVERSION}.tar.gz"
-SOURCEFILE="databricks_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d3/2d/ce9b221b49889d17ecac400ac54b7e434abec6176e42fecc7cde637ed5d0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

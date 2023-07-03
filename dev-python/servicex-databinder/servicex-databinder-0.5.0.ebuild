@@ -15,8 +15,8 @@ DESCRIPTION="ServiceX data management                     using a configuration 
 
 HOMEPAGE="https://github.com/kyungeonchoi/ServiceXDataBinder"
 LICENSE="BSD 3-clause"
-SRC_URI="https://files.pythonhosted.org/packages/19/d1/d6a857f314de610749fd3bd80d4c1c28c01018c77b2188392e3b12d96ec3/servicex_databinder-${REALVERSION}.tar.gz"
-SOURCEFILE="servicex_databinder-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/19/d1/d6a857f314de610749fd3bd80d4c1c28c01018c77b2188392e3b12d96ec3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

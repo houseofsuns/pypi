@@ -15,8 +15,8 @@ DESCRIPTION="Ant Chain IDENTITYMARRIAGE SDK Library for Python"
 
 HOMEPAGE="https://github.com/alipay/antchain-openapi-prod-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f0/f5/eb4bd577f6c980e25fd0a58a8ebe2ad93a1eb165c4750bb50c071e7ad787/antchain_identitymarriage-${REALVERSION}.tar.gz"
-SOURCEFILE="antchain_identitymarriage-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f0/f5/eb4bd577f6c980e25fd0a58a8ebe2ad93a1eb165c4750bb50c071e7ad787/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

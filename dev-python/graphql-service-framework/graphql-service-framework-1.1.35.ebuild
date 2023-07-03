@@ -15,8 +15,8 @@ DESCRIPTION="GraphQL Service Framework."
 
 HOMEPAGE="https://gitlab.com/parob/graphql-service-framework"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/08/ac/0cfd61991b4a739accd01997908ec90ea0ccd1670e51a69d6c6092669b9d/graphql_service_framework-${REALVERSION}.tar.gz"
-SOURCEFILE="graphql_service_framework-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/08/ac/0cfd61991b4a739accd01997908ec90ea0ccd1670e51a69d6c6092669b9d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

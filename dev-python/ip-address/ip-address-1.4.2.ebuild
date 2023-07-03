@@ -15,8 +15,8 @@ DESCRIPTION="A tracker that gets your public IP address"
 
 HOMEPAGE="https://github.com/dewittethomas/ip-address"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f4/67/5b63e935145a96b722cb77c6245b9576495ee8c5deaf7afc6a4981aa6d35/ip_address-${REALVERSION}.tar.gz"
-SOURCEFILE="ip_address-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f4/67/5b63e935145a96b722cb77c6245b9576495ee8c5deaf7afc6a4981aa6d35/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## serial-tool```&gt; serial-tool -husage: serial-tool.py [-h] [-b BPS] [-l] portpositional arguments:  port        serial port. like COM1 or /dev/serialoptional arguments:  -h, --help  show this help message and exit  -b BPS      serial boundrates  -l          is logging```</longdescription>
+</pkgmetadata>

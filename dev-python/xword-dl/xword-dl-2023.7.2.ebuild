@@ -15,8 +15,8 @@ DESCRIPTION="a download tool for online crossword puzzles"
 
 HOMEPAGE="https://github.com/thisisparker/xword-dl"
 LICENSE="License :: OSI Approved :: MIT License"
-SRC_URI="https://files.pythonhosted.org/packages/01/1e/9de87dd9ea6bae46a8c2d944c0ae156190a90f00f7210159f0ee0b67e567/xword_dl-${REALVERSION}.tar.gz"
-SOURCEFILE="xword_dl-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/01/1e/9de87dd9ea6bae46a8c2d944c0ae156190a90f00f7210159f0ee0b67e567/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Dovecot authentication plugin for Radicale"
 
 HOMEPAGE="https://github.com/Arvedui/radicale-dovecot-auth"
 LICENSE="GNU GPL v3"
-SRC_URI="https://files.pythonhosted.org/packages/04/4f/faa35cde4037c03d512730e62b7d78ec1d5565089384822805de36d5370e/radicale_dovecot_auth-${REALVERSION}.tar.gz"
-SOURCEFILE="radicale_dovecot_auth-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/04/4f/faa35cde4037c03d512730e62b7d78ec1d5565089384822805de36d5370e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Wrapper around Odoo-Bin with some convinience RPC functions."
 
 HOMEPAGE="https://github.com/OpenJKSoftware/gOdoo"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/aa/b0/ccdf17f7e69c45e7d607cdfd92d24651a5a71bf6473d845cbd56b12de794/godoo_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="godoo_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/aa/b0/ccdf17f7e69c45e7d607cdfd92d24651a5a71bf6473d845cbd56b12de794/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

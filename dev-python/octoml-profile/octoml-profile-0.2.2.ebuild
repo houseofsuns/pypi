@@ -15,8 +15,8 @@ DESCRIPTION="Client package for OctoML Profile service"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/69/ab/55d8af9d67b065166e4e9f53ab828aeecb47d6d8ea0d75b9baf7796cb4e8/octoml_profile-${REALVERSION}.tar.gz"
-SOURCEFILE="octoml_profile-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/69/ab/55d8af9d67b065166e4e9f53ab828aeecb47d6d8ea0d75b9baf7796cb4e8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

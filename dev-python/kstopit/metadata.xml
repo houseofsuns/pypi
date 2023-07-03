@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># kstopit![python_version](https://img.shields.io/static/v1?label=Python&amp;message=3.5%20|%203.6%20|%203.7&amp;color=blue) [![PyPI downloads/month](https://img.shields.io/pypi/dm/kstopit?logo=pypi&amp;logoColor=white)](https://pypi.python.org/pypi/kstopit)## Description## Install~~~~bashpip install kstopit# orpip3 install kstopit~~~~</longdescription>
+</pkgmetadata>

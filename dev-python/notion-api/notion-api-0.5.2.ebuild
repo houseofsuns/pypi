@@ -15,8 +15,8 @@ DESCRIPTION="An unofficial wrapper for Notion's API, aiming to simplify the dyna
 
 HOMEPAGE="https://github.com/ayvi-0001/notion-api"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/32/14/8e1b8b132d16365ce9b9fec6e18f619143da28b07914f34b459d57656580/notion_api-${REALVERSION}.tar.gz"
-SOURCEFILE="notion_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/32/14/8e1b8b132d16365ce9b9fec6e18f619143da28b07914f34b459d57656580/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

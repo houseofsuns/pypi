@@ -15,8 +15,8 @@ DESCRIPTION="Extend the commitizen tools to create conventional commits and READ
 
 HOMEPAGE="https://github.com/apheris/cz-github-jira-conventional"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f8/13/3c2d005d0d175581c0c5a00622ccce5c73e124d1415e7ee70a4d76eb1a51/cz_github_jira_conventional-${REALVERSION}.tar.gz"
-SOURCEFILE="cz_github_jira_conventional-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f8/13/3c2d005d0d175581c0c5a00622ccce5c73e124d1415e7ee70a4d76eb1a51/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="The web framework"
 
 HOMEPAGE="https://github.com/PonomarevMaksim/bff-graphql"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/4f/3c/ffe1db4eddfb8602c1b050652db4091c051b10d7ff09ecc67fc534832663/gql_ext-${REALVERSION}.tar.gz"
-SOURCEFILE="gql_ext-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4f/3c/ffe1db4eddfb8602c1b050652db4091c051b10d7ff09ecc67fc534832663/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

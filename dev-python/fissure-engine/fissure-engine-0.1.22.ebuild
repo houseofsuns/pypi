@@ -15,8 +15,8 @@ DESCRIPTION="Engine for getting fissure information in Warframe."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/99/79/5aa4447ee29f4a8cde2a343abbbccf390a6569cf6625b18fe9986f717217/fissure_engine-${REALVERSION}.tar.gz"
-SOURCEFILE="fissure_engine-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/99/79/5aa4447ee29f4a8cde2a343abbbccf390a6569cf6625b18fe9986f717217/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

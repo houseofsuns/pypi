@@ -15,8 +15,8 @@ DESCRIPTION="Estimators for entropy and other information theoretic quantities o
 
 HOMEPAGE="https://github.com/paulbrodersen/entropy_estimators"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ad/bb/c3fbb485e7ab05821c8ac940405b7b87504a86d660a500f8c09acda15ea6/entropy_estimators-${REALVERSION}.tar.gz"
-SOURCEFILE="entropy_estimators-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ad/bb/c3fbb485e7ab05821c8ac940405b7b87504a86d660a500f8c09acda15ea6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Python dataclasses for radioplayer generated from XSD"
 
 HOMEPAGE="https://github.com/radiorabe/python-radioplayer-dataclasses"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/c8/1a/c70ddae55b6dd1655434b84d0ffa3a8f0ca8e3b0e91d134e0f4b48330181/radioplayer_dataclasses-${REALVERSION}.tar.gz"
-SOURCEFILE="radioplayer_dataclasses-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c8/1a/c70ddae55b6dd1655434b84d0ffa3a8f0ca8e3b0e91d134e0f4b48330181/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

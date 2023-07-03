@@ -15,8 +15,8 @@ DESCRIPTION="Django database backends to use AWS Database IAM Authentication"
 
 HOMEPAGE="https://github.com/LabD/django-iam-dbauth"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8d/eb/1ed75a9e259ad6c79cbe36fbacf2055c8985a5bca7b77cdd38aeb0cd660e/django_rds_iam_auth-${REALVERSION}.tar.gz"
-SOURCEFILE="django_rds_iam_auth-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8d/eb/1ed75a9e259ad6c79cbe36fbacf2055c8985a5bca7b77cdd38aeb0cd660e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

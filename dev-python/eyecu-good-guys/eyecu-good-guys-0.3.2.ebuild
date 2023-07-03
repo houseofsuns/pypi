@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f1/75/e69f7be4e176041d4151c8cdc4a7ffa064e8beaac94cbd1304a3b80b70f5/eyecu_good_guys-${REALVERSION}.tar.gz"
-SOURCEFILE="eyecu_good_guys-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f1/75/e69f7be4e176041d4151c8cdc4a7ffa064e8beaac94cbd1304a3b80b70f5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="WireGuard interface for mitmproxy"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/46/71/5529c5c0eefdee81dedce09deb76578dd416deec38e10b70a111d57322fd/mitmproxy_wireguard-${REALVERSION}.tar.gz"
-SOURCEFILE="mitmproxy_wireguard-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/46/71/5529c5c0eefdee81dedce09deb76578dd416deec38e10b70a111d57322fd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

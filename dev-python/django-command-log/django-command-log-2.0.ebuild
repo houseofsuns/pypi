@@ -15,8 +15,8 @@ DESCRIPTION="Django management command auditing app"
 
 HOMEPAGE="https://github.com/yunojuno/django-management-command-log"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/da/5b/b022911d5dcb3649c9f01ca9f0037fdb8bdff48c128315b329e1f522e7fe/django_command_log-${REALVERSION}.tar.gz"
-SOURCEFILE="django_command_log-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/da/5b/b022911d5dcb3649c9f01ca9f0037fdb8bdff48c128315b329e1f522e7fe/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

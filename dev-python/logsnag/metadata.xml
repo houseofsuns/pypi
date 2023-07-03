@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;div align=&quot;center&quot;&gt;&lt;img src=&quot;https://logsnag.com/og-image.png&quot; alt=&quot;LogSnag&quot;/&gt;&lt;br&gt;    &lt;h1&gt;LogSnag&lt;/h1&gt;&lt;p&gt;Get notifications and track your project events.&lt;/p&gt;&lt;a href=&quot;https://discord.gg/dY3pRxgWua&quot;&gt;&lt;img src=&quot;https://img.shields.io/discord/922560704454750245?color=%237289DA&amp;label=Discord&quot; alt=&quot;Discord&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://docs.logsnag.com&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/Docs-LogSnag&quot; alt=&quot;Documentation&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;## Installation```shpip3 install logsnag```## Usage### Import Library```pythonfrom logsnag import LogSnag```### Initialize Client```pythonlogsnag = LogSnag(token='7f568d735724351757637b1dbf108e5', project=&quot;my-saas&quot;)```### Publish Event```pythonlogsnag.publish(    channel=&quot;waitlist&quot;,    event=&quot;User Joined&quot;,    description=&quot;Email: john@doe.com&quot;,    icon=&quot;🎉&quot;,    tags={      &quot;email&quot;: &quot;john@doe.com&quot;,      &quot;user-id&quot;: &quot;uid-12&quot;      },    notify=True)```### Publish Insight```pythonlogsnag.insight(    title='User Count',    value=100,    icon='👨',)```</longdescription>
+</pkgmetadata>

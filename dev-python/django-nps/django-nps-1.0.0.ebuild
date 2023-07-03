@@ -15,8 +15,8 @@ DESCRIPTION="Django app supporting Net Promoter Score (NPS) surveys."
 
 HOMEPAGE="https://github.com/yunojuno/django-nps"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ed/20/f690f34e714ccf83b70c1160fa883a147553efa5559a9e80cc82b6860616/django_nps-${REALVERSION}.tar.gz"
-SOURCEFILE="django_nps-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ed/20/f690f34e714ccf83b70c1160fa883a147553efa5559a9e80cc82b6860616/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

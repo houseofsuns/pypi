@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># DateType## A WorkaroundDateType is a [workaround for thisbug](https://github.com/python/mypy/issues/9015) to demonstrate that we couldhave a type-checking-time wrapper for `datetime` that doesn't change (or almostdoesn't change) the implementation, but fixes up two very annoying behaviors ofthe stdlib `datetime` module:1. a `datetime` now won't type-check as a `date` - it still inherits at runtime   (the implementation is, after all, not changed) but it doesn't inherit at   type-time.2. there are separate types for naive and aware `datetime`s.There's a very small bit of implementation glue (concrete `@classmethod`s forconstruction on the `Naive` and `Aware` types, and a few functions that doruntime checks to convert to/from stdlib types).</longdescription>
+</pkgmetadata>

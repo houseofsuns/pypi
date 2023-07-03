@@ -15,8 +15,8 @@ DESCRIPTION="ADAM 6050-D REST API Python Wrapper"
 
 HOMEPAGE="https://adam-io.readthedocs.io/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ff/c0/9cc9ad62f4d291fb392a1968ff17a3d540f0f987259bd5bef69113ba1f78/adam_io-${REALVERSION}.tar.gz"
-SOURCEFILE="adam_io-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ff/c0/9cc9ad62f4d291fb392a1968ff17a3d540f0f987259bd5bef69113ba1f78/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

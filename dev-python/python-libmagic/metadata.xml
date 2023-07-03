@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># python-libmagic![magic.h](http://i.imgur.com/GbN8szC.jpg)# Usage```pythonimport magicwith magic.Magic() as m:    print m.from_buffer(&quot;hello&quot;) # =&gt; &quot;text/plain&quot;``````pythonimport magicimport magic.flagsmagic = magic.Magic()mimetype = magic.from_buffer(&quot;\x89\x50\x4E\x47\x0D\x0A\x1A\x0A&quot;)print mimetype # =&gt; &quot;image/png&quot;mimetype = magic.from_file(&quot;/etc/passwd&quot;)print mimetype # =&gt; &quot;text/plain&quot;updated = magic.set_flags(magic.flags.MAGIC_NONE)print updated # =&gt; Truemimetype = magic.from_file(&quot;demo.docx&quot;)print mimetype # =&gt; &quot;Microsoft Word 2007+&quot;magic.close() # don't forget about this```# Installation`python-libmagic` works on CPython 2.7/3.3+ and PyPy.```bash$ apt-get install libmagic-dev$ pip install python-libmagic```# LicenseLicensed under MIT license.</longdescription>
+</pkgmetadata>

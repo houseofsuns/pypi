@@ -15,8 +15,8 @@ DESCRIPTION="OpenTelemetry Jaeger Propagator"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python/tree/main/propagator/opentelemetry-propagator-jaeger"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/41/93/7898c98637582c15d2afa4d76b6999e709d8954db449b81f34bcaddeedb1/opentelemetry_propagator_jaeger-${REALVERSION}.tar.gz"
-SOURCEFILE="opentelemetry_propagator_jaeger-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/41/93/7898c98637582c15d2afa4d76b6999e709d8954db449b81f34bcaddeedb1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="An easy to use Python 3 Pandas Extension with 130+ Technical Analys
 
 HOMEPAGE="https://github.com/twopirllc/pandas-ta"
 LICENSE="The MIT License MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f7/0b/1666f0a185d4f08215f53cc088122a73c92421447b04028f0464fabe1ce6/pandas_ta-${REALVERSION}.tar.gz"
-SOURCEFILE="pandas_ta-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f7/0b/1666f0a185d4f08215f53cc088122a73c92421447b04028f0464fabe1ce6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

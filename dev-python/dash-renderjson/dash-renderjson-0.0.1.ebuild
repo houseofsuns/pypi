@@ -15,8 +15,8 @@ DESCRIPTION="Render dicts/json files with Dash"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d6/52/5f4ca768f394d94fafb4b0160d82250d313189ccb458d7da1dd41e5c03d8/dash_renderjson-${REALVERSION}.tar.gz"
-SOURCEFILE="dash_renderjson-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d6/52/5f4ca768f394d94fafb4b0160d82250d313189ccb458d7da1dd41e5c03d8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

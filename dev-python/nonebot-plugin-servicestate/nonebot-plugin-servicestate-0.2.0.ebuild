@@ -15,8 +15,8 @@ DESCRIPTION="基于NoneBot2的状态监测插件"
 
 HOMEPAGE="https://github.com/OREOCODEDEV/nonebot-plugin-servicestate"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/08/4b/458d396b76517dff5f279c7acd31357150e14d9d539654891e84701b4afc/nonebot_plugin_servicestate-${REALVERSION}.tar.gz"
-SOURCEFILE="nonebot_plugin_servicestate-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/08/4b/458d396b76517dff5f279c7acd31357150e14d9d539654891e84701b4afc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

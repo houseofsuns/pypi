@@ -15,8 +15,8 @@ DESCRIPTION="Checkout.com Python SDK"
 
 HOMEPAGE="https://github.com/checkout/checkout-sdk-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bd/8a/e8507793c63dfdd04a355b2fb02d031bdb13b79547e24e2a8a90c580f2f2/checkout_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="checkout_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bd/8a/e8507793c63dfdd04a355b2fb02d031bdb13b79547e24e2a8a90c580f2f2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

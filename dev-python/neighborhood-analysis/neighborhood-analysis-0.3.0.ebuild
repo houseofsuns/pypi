@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/08/a1/dadf8d9155891c6a5c848bf96ff24a6b3d31c7f4b75a3814e5bbee7613b2/neighborhood_analysis-${REALVERSION}.tar.gz"
-SOURCEFILE="neighborhood_analysis-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/08/a1/dadf8d9155891c6a5c848bf96ff24a6b3d31c7f4b75a3814e5bbee7613b2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

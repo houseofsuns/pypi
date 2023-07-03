@@ -15,8 +15,8 @@ DESCRIPTION="ae namespace module portion updater: application environment update
 
 HOMEPAGE="https://gitlab.com/ae-group/ae_updater"
 LICENSE="OSI Approved :: GNU General Public License v3 or later GPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/a4/d3/1df1a68901b7b34e07aa3bd77ccf7628b1f73ee64f1b27098aa0e0fd97a6/ae_updater-${REALVERSION}.tar.gz"
-SOURCEFILE="ae_updater-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a4/d3/1df1a68901b7b34e07aa3bd77ccf7628b1f73ee64f1b27098aa0e0fd97a6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

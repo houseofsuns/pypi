@@ -15,8 +15,8 @@ DESCRIPTION="Converts a string from snake case to camel case or camel case to sn
 
 HOMEPAGE="https://github.com/sanders41/camel-converter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ef/76/78f586cb8e74b117dbe0120f4962cbbcbd095be83e6bc700c244456a6ecd/camel_converter-${REALVERSION}.tar.gz"
-SOURCEFILE="camel_converter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ef/76/78f586cb8e74b117dbe0120f4962cbbcbd095be83e6bc700c244456a6ecd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

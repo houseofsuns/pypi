@@ -15,8 +15,8 @@ DESCRIPTION="DaVinci Resolve script/plugin for interfacing with CatDV Web Panel"
 
 HOMEPAGE="https://github.com/Lordfirespeed/CatDVResolve"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/28/e6/aebbd4b5a7d7d382d7fdc6c20cbf6da3927bc357a6de7939d3bd1482f500/catdv_resolve-${REALVERSION}.tar.gz"
-SOURCEFILE="catdv_resolve-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/28/e6/aebbd4b5a7d7d382d7fdc6c20cbf6da3927bc357a6de7939d3bd1482f500/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

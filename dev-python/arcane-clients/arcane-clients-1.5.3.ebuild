@@ -15,8 +15,8 @@ DESCRIPTION="Utility functions to interact with our clients_service"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/71/a2/c851423b810c64f6593c791e99a5e33ebebd157c46bba24187e1e89d96da/arcane_clients-${REALVERSION}.tar.gz"
-SOURCEFILE="arcane_clients-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/71/a2/c851423b810c64f6593c791e99a5e33ebebd157c46bba24187e1e89d96da/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

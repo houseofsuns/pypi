@@ -15,8 +15,8 @@ DESCRIPTION="testdata include chinese personal four element and offen use dateti
 
 HOMEPAGE="http://www.cnblogs.com/yicaifeitian/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/31/1f/0921bbb168dcd2db811e958c7b353d5bd2be305176a1b37b68b4629605db/lazy_testdata-${REALVERSION}.tar.gz"
-SOURCEFILE="lazy_testdata-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/31/1f/0921bbb168dcd2db811e958c7b353d5bd2be305176a1b37b68b4629605db/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

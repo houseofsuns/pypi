@@ -15,8 +15,8 @@ DESCRIPTION="Sdk for i2a chat api"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/88/8d/8e5bb7e0a02f08e3d32f247c6f58e43d11ac67528aab777c23180515390b/i2a_chat_api_client-${REALVERSION}.tar.gz"
-SOURCEFILE="i2a_chat_api_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/88/8d/8e5bb7e0a02f08e3d32f247c6f58e43d11ac67528aab777c23180515390b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Machine readable FITS specifications for DKIST data."
 
 HOMEPAGE="https://bitbucket.org/dkistdc/dkist-fits-specifications/src/main/"
 LICENSE="BSD 3-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/7a/cf/9f94b938e4daef460ad26c4e616b477ede04498f4c9f74bd75411c4fdf98/dkist_fits_specifications-${REALVERSION}.tar.gz"
-SOURCEFILE="dkist_fits_specifications-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7a/cf/9f94b938e4daef460ad26c4e616b477ede04498f4c9f74bd75411c4fdf98/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

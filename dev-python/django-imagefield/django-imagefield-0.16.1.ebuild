@@ -15,8 +15,8 @@ DESCRIPTION="Image field for Django"
 
 HOMEPAGE="https://github.com/matthiask/django-imagefield/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/1e/c6/6275edcc3650c281056188b00a4f67ef6805b89508bd00cf59f5251bf71f/django_imagefield-${REALVERSION}.tar.gz"
-SOURCEFILE="django_imagefield-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1e/c6/6275edcc3650c281056188b00a4f67ef6805b89508bd00cf59f5251bf71f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

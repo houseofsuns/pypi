@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># DBT Documentor (Python Version)Automatically generate docs for undocumented DBT models.## Table of Contents- [Installation](#installation)- [Usage](#usage)- [Documentation](#documentation)- [Contributing](#contributing)- [License](#license)## InstallationTo install the package, run the following command:```bashpip install dbt-doc-py```## UsagePlace inside of the DBT project folder and run this command:```dbt-doc-py```You can execute it from other directories, this way:```dbt-doc-py --working-directory /folder/DBTproject```TO-DO: Finish README file:## Documentation## Contributing## LicenseThis project is licensed under the MIT License. See the LICENSE file for details.</longdescription>
+</pkgmetadata>

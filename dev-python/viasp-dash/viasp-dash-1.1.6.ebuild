@@ -15,8 +15,8 @@ DESCRIPTION="The dash frontend for the viasp package."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/45/ec/c6b210f620140a522516d2f9db44fb7963ac3114c419db5c8c4828250af4/viasp_dash-${REALVERSION}.tar.gz"
-SOURCEFILE="viasp_dash-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/45/ec/c6b210f620140a522516d2f9db44fb7963ac3114c419db5c8c4828250af4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

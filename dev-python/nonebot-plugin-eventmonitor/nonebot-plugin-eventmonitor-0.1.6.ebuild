@@ -15,8 +15,8 @@ DESCRIPTION="监控群事件的插件，支持戳一戳，成员变动，群荣�
 
 HOMEPAGE="https://github.com/Reversedeer/nonebot_plugin_eventmonitor"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fa/69/6e70c78fc7af4e40f5c65a3652270d8f4cc5f99b519f0a995b76fe773a5a/nonebot_plugin_eventmonitor-${REALVERSION}.tar.gz"
-SOURCEFILE="nonebot_plugin_eventmonitor-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fa/69/6e70c78fc7af4e40f5c65a3652270d8f4cc5f99b519f0a995b76fe773a5a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

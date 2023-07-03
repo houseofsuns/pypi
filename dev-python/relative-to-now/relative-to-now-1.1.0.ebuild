@@ -15,8 +15,8 @@ DESCRIPTION="Print a datetime's distance from now"
 
 HOMEPAGE="https://github.com/Riverside-Healthcare/RelativeToNow"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/fd/fb/1790f745b5d01d52d4d1864e784ddebf9b25bfb8fd3aebc1261b83f4a793/relative_to_now-${REALVERSION}.tar.gz"
-SOURCEFILE="relative_to_now-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fd/fb/1790f745b5d01d52d4d1864e784ddebf9b25bfb8fd3aebc1261b83f4a793/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

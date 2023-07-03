@@ -15,8 +15,8 @@ DESCRIPTION="ErgoScript and Python wrappers for Paideia"
 
 HOMEPAGE="https://github.com/ergo-pad/paideia-contracts"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e6/16/f10a7ba95bcecb0e0016d210f1f60e18a4d81de588efb87212512dbc2618/paideia_contracts-${REALVERSION}.tar.gz"
-SOURCEFILE="paideia_contracts-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e6/16/f10a7ba95bcecb0e0016d210f1f60e18a4d81de588efb87212512dbc2618/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

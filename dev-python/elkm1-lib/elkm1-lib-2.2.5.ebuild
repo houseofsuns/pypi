@@ -15,8 +15,8 @@ DESCRIPTION="Library for interacting with ElkM1 alarm/automation panel."
 
 HOMEPAGE="https://github.com/gwww/elkm1"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b3/d2/e2e39dd25438d45c6a7754bd94225f0121a5b3b8df75c6b7275695f78b4a/elkm1_lib-${REALVERSION}.tar.gz"
-SOURCEFILE="elkm1_lib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b3/d2/e2e39dd25438d45c6a7754bd94225f0121a5b3b8df75c6b7275695f78b4a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

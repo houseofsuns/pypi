@@ -15,8 +15,8 @@ DESCRIPTION="command line tool for wcpan.drive"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/14/a3/027b7f92a93ebe617cdbe07e3758da1f0f70fc8f32aed6c931c5a922c350/wcpan_drive_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="wcpan_drive_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/14/a3/027b7f92a93ebe617cdbe07e3758da1f0f70fc8f32aed6c931c5a922c350/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

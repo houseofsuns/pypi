@@ -15,8 +15,8 @@ DESCRIPTION="Leaflet component for Dash"
 
 HOMEPAGE="https://github.com/thedirtyfew/dash-leaflet"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/be/c2/0c4f555fa3ad4cd68c5e8c77c3a08f578a98b2bbfe293e7ad26541e55c9f/dash_leaflet-${REALVERSION}.tar.gz"
-SOURCEFILE="dash_leaflet-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/be/c2/0c4f555fa3ad4cd68c5e8c77c3a08f578a98b2bbfe293e7ad26541e55c9f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

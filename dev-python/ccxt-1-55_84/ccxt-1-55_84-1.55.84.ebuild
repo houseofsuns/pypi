@@ -15,8 +15,8 @@ DESCRIPTION="A copy of project https://pypi.org/project/ccxt/1.55.84/"
 
 HOMEPAGE="https://github.com/ccxt/ccxt"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/92/21/6555e9545a25f4ce92bf18b074c17c5216ac5cd753ca12df33e6978660ab/ccxt_1_55_84-${REALVERSION}.tar.gz"
-SOURCEFILE="ccxt_1_55_84-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/92/21/6555e9545a25f4ce92bf18b074c17c5216ac5cd753ca12df33e6978660ab/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

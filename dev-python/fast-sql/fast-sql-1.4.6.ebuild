@@ -15,8 +15,8 @@ DESCRIPTION="Multithreaded packaging based on python3.6, for fast read read SQL 
 
 HOMEPAGE="https://github.com/tosmart01/fastsql"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0a/1b/1e915751ce71b94a8baf5a08e942dbeb673c07956f27caed136b1fe87da7/fast_sql-${REALVERSION}.tar.gz"
-SOURCEFILE="fast_sql-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0a/1b/1e915751ce71b94a8baf5a08e942dbeb673c07956f27caed136b1fe87da7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

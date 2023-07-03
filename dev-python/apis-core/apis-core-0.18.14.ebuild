@@ -15,8 +15,8 @@ DESCRIPTION="Base package for the APIS framework"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/87/d3/eb51d317c0547a83881d7c7c2dfb309c657ccdc239376bfce029514c4771/apis_core-${REALVERSION}.tar.gz"
-SOURCEFILE="apis_core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/87/d3/eb51d317c0547a83881d7c7c2dfb309c657ccdc239376bfce029514c4771/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

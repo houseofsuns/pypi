@@ -15,8 +15,8 @@ DESCRIPTION="A Pulumi package for creating and managing dnsimple cloud resources
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/fb/8e/979567954d7f2f15229a33d0d071056c375af3b88a6cfb4aa430f1142563/pulumi_dnsimple-${REALVERSION}.tar.gz"
-SOURCEFILE="pulumi_dnsimple-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fb/8e/979567954d7f2f15229a33d0d071056c375af3b88a6cfb4aa430f1142563/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

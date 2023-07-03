@@ -15,8 +15,8 @@ DESCRIPTION="A set of simple tools for splitting, merging, OP deletion, size com
 
 HOMEPAGE="https://github.com/PINTO0309/simple-onnx-processing-tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bb/50/9120a7ba09c117466266a5f01e1875b6119daca483502dfdd9a36a31d7c0/simple_onnx_processing_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="simple_onnx_processing_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bb/50/9120a7ba09c117466266a5f01e1875b6119daca483502dfdd9a36a31d7c0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

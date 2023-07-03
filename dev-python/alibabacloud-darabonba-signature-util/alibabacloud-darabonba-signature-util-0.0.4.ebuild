@@ -15,8 +15,8 @@ DESCRIPTION="Darabonba Util Library for Alibaba Cloud Python SDK"
 
 HOMEPAGE="https://github.com/aliyun/darabonba-crypto-util"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/13/09/2118a2df631eaa06a291013ea61f31e449ba7a3cc3d6061477a43420e93a/alibabacloud_darabonba_signature_util-${REALVERSION}.tar.gz"
-SOURCEFILE="alibabacloud_darabonba_signature_util-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/13/09/2118a2df631eaa06a291013ea61f31e449ba7a3cc3d6061477a43420e93a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

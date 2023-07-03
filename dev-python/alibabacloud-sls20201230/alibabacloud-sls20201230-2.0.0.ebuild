@@ -15,8 +15,8 @@ DESCRIPTION="Alibaba Cloud Log Service (20201230) SDK Library for Python"
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e3/9f/e205101f96ff275fb20918b5abef20d4029d63d7fd1a738c26754257bf1e/alibabacloud_sls20201230-${REALVERSION}.tar.gz"
-SOURCEFILE="alibabacloud_sls20201230-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e3/9f/e205101f96ff275fb20918b5abef20d4029d63d7fd1a738c26754257bf1e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

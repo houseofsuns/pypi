@@ -15,8 +15,8 @@ DESCRIPTION="Fast random access of gzip files in Python"
 
 HOMEPAGE="https://github.com/pauldmccarthy/indexed_gzip"
 LICENSE="ZLIB"
-SRC_URI="https://files.pythonhosted.org/packages/0e/24/6b7f45d8bb5ed7ed0253b399c0a54880c8540c4cb34ea5579fe3f038b326/indexed_gzip-${REALVERSION}.tar.gz"
-SOURCEFILE="indexed_gzip-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0e/24/6b7f45d8bb5ed7ed0253b399c0a54880c8540c4cb34ea5579fe3f038b326/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

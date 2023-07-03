@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Pandora Bluetooth test interfacesPandora Bluetooth test interfaces are Remote Procedure Call (RPC) interfacesexposed to testing tools to trigger behaviors within a Bluetooth stack undertest. They are built using the following [requirements](doc/overview.md) and[style guide](doc/style-guide.md).A test interface is defined for each Bluetooth profile.## Supported profiles* **Host**: Interface for general methods (reset, connection, advertise...).* **Security**: Interface to trigger Bluetooth Host security pairing procedures.</longdescription>
+</pkgmetadata>

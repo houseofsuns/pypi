@@ -15,8 +15,8 @@ DESCRIPTION="Generic repository patterm for python."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8a/2a/c33b2cb7b5da0a7e5ba079a333854709fea28a0e94dbbe9285c5e311d253/generic_repository-${REALVERSION}.tar.gz"
-SOURCEFILE="generic_repository-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8a/2a/c33b2cb7b5da0a7e5ba079a333854709fea28a0e94dbbe9285c5e311d253/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

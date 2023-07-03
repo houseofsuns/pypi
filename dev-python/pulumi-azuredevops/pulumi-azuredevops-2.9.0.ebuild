@@ -15,8 +15,8 @@ DESCRIPTION="A Pulumi package for creating and managing Azure DevOps."
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d9/68/839de7186fb7bc7596ef15314b9cda71420e15863a59226e8344709084e1/pulumi_azuredevops-${REALVERSION}.tar.gz"
-SOURCEFILE="pulumi_azuredevops-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d9/68/839de7186fb7bc7596ef15314b9cda71420e15863a59226e8344709084e1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="KM3NeT TestData"
 
 HOMEPAGE="https://git.km3net.de/km3py/km3net-testdata"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d9/4c/2926f94066620da2be83f57a1894133122f5638a137f6642eba0bee6af5d/km3net_testdata-${REALVERSION}.tar.gz"
-SOURCEFILE="km3net_testdata-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d9/4c/2926f94066620da2be83f57a1894133122f5638a137f6642eba0bee6af5d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

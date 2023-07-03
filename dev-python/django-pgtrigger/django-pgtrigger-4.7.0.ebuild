@@ -15,8 +15,8 @@ DESCRIPTION="Postgres trigger support integrated with Django models."
 
 HOMEPAGE="https://github.com/Opus10/django-pgtrigger"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/5d/48/451d7f9880be0de28475f3a23d38699f2aee48b13c8a7931478e37d8d252/django_pgtrigger-${REALVERSION}.tar.gz"
-SOURCEFILE="django_pgtrigger-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5d/48/451d7f9880be0de28475f3a23d38699f2aee48b13c8a7931478e37d8d252/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

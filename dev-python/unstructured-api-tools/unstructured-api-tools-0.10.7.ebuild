@@ -15,8 +15,8 @@ DESCRIPTION="A library that prepares raw documents for downstream ML tasks."
 
 HOMEPAGE="https://github.com/Unstructured-IO/unstructured-api-tools"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f3/59/28a07a923e1bb70d0f4853ef1161fc2e66358896a74e18624b71bd40ce68/unstructured_api_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="unstructured_api_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f3/59/28a07a923e1bb70d0f4853ef1161fc2e66358896a74e18624b71bd40ce68/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

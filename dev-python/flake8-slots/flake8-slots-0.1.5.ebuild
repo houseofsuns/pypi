@@ -15,8 +15,8 @@ DESCRIPTION="A Flake8 plugin to require __slots__ to be defined for subclasses o
 
 HOMEPAGE="https://github.com/python-formate/flake8-slots"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7e/8c/3ce10814006ef2603c1f0c983dbfa839d5b92b609c4c29e70821652c07f3/flake8_slots-${REALVERSION}.tar.gz"
-SOURCEFILE="flake8_slots-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7e/8c/3ce10814006ef2603c1f0c983dbfa839d5b92b609c4c29e70821652c07f3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

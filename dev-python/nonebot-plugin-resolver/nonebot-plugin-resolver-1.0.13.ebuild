@@ -15,8 +15,8 @@ DESCRIPTION="NoneBot2链接分享解析器插件。解析视频、图片链接/�
 
 HOMEPAGE="https://github.com/zhiyu1998/nonebot_plugin_resolver"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/16/d8/64e53f359db87d669973c096131c263b65642be0e8566992bcef33638608/nonebot_plugin_resolver-${REALVERSION}.tar.gz"
-SOURCEFILE="nonebot_plugin_resolver-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/16/d8/64e53f359db87d669973c096131c263b65642be0e8566992bcef33638608/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

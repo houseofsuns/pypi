@@ -15,8 +15,8 @@ DESCRIPTION="F Prime Flight Software Ground Data System layer."
 
 HOMEPAGE="https://github.com/nasa/fprime"
 LICENSE="Apache 2.0 License"
-SRC_URI="https://files.pythonhosted.org/packages/86/ac/6474492f64bd16eb900aa4bfb77d092a24735e364571dbc37df5f0425b58/fprime_gds-${REALVERSION}.tar.gz"
-SOURCEFILE="fprime_gds-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/86/ac/6474492f64bd16eb900aa4bfb77d092a24735e364571dbc37df5f0425b58/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

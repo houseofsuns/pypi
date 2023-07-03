@@ -15,8 +15,8 @@ DESCRIPTION="Syslog Connector for the Carbon Black Cloud"
 
 HOMEPAGE="https://github.com/carbonblack/cbc-syslog"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/41/4c/e911cbdf2710c3294068dcf6a3bc54da863d0189aaf416511e8b9499aec1/cbc_syslog-${REALVERSION}.tar.gz"
-SOURCEFILE="cbc_syslog-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/41/4c/e911cbdf2710c3294068dcf6a3bc54da863d0189aaf416511e8b9499aec1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

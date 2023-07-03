@@ -15,8 +15,8 @@ DESCRIPTION="大淘客接口"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/43/db/64697947c02635a0ae18c3844bdf912732b98dc9c85e5055519ef3ca7dde/dtk_api-${REALVERSION}.tar.gz"
-SOURCEFILE="dtk_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/43/db/64697947c02635a0ae18c3844bdf912732b98dc9c85e5055519ef3ca7dde/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

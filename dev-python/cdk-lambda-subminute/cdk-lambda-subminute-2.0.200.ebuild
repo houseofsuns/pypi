@@ -15,8 +15,8 @@ DESCRIPTION="A construct for deploying a Lambda function that can be invoked eve
 
 HOMEPAGE="https://github.com/HsiehShuJeng/cdk-lambda-subminute.git"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/69/ac/1713987402dd2422b5e3ef3456e0f93c104857366b453ac50d7ee3dcea3c/cdk_lambda_subminute-${REALVERSION}.tar.gz"
-SOURCEFILE="cdk_lambda_subminute-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/69/ac/1713987402dd2422b5e3ef3456e0f93c104857366b453ac50d7ee3dcea3c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

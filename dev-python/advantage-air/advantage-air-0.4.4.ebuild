@@ -15,8 +15,8 @@ DESCRIPTION="API helper for Advantage Air's MyAir and e-zone API"
 
 HOMEPAGE="https://github.com/Bre77/advantage_air"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/eb/5d/4d51418e4b50deb663dae00cf2efaccb78d54720d5218b950a237057c8cf/advantage_air-${REALVERSION}.tar.gz"
-SOURCEFILE="advantage_air-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/eb/5d/4d51418e4b50deb663dae00cf2efaccb78d54720d5218b950a237057c8cf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Library for E-DRIVE"
 
 HOMEPAGE="http://www.byrobot.co.kr"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/58/71/361f928cc5b38ce2a1b680170b70f581f8ecc48bcfed4540c3116a1fc371/e_drive-${REALVERSION}.tar.gz"
-SOURCEFILE="e_drive-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/58/71/361f928cc5b38ce2a1b680170b70f581f8ecc48bcfed4540c3116a1fc371/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

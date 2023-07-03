@@ -15,8 +15,8 @@ DESCRIPTION="th2_grpc_lw_data_provider"
 
 HOMEPAGE="https://github.com/th2-net/th2-read-db"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/23/cf/22d1ed4823cbd80d101f3b41b753e5c64087d6630849f4c5ca6d58384b87/th2_grpc_lw_data_provider-${REALVERSION}.tar.gz"
-SOURCEFILE="th2_grpc_lw_data_provider-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/23/cf/22d1ed4823cbd80d101f3b41b753e5c64087d6630849f4c5ca6d58384b87/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

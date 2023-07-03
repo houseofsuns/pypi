@@ -15,8 +15,8 @@ DESCRIPTION="A small library for adding total orderings to enums"
 
 HOMEPAGE="https://pypi.org/project/ordered_enum/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/05/36/01197d5890411e83c05285c3326197962ec240d2ec29cd31a6e9151a7764/ordered_enum-${REALVERSION}.tar.gz"
-SOURCEFILE="ordered_enum-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/05/36/01197d5890411e83c05285c3326197962ec240d2ec29cd31a6e9151a7764/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

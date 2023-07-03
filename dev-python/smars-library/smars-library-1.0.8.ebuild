@@ -15,8 +15,8 @@ DESCRIPTION="SMARS Robot Python Library"
 
 HOMEPAGE="https://github.com/kevinmcaleer/smars_library"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cd/85/4ed5780c74cc62403974018dc9cbf129bd3cffbce293cef23ac2e585b5f0/smars_library-${REALVERSION}.tar.gz"
-SOURCEFILE="smars_library-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cd/85/4ed5780c74cc62403974018dc9cbf129bd3cffbce293cef23ac2e585b5f0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

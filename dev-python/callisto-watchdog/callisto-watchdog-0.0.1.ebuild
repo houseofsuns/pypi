@@ -15,8 +15,8 @@ DESCRIPTION="Filesystem events monitoring"
 
 HOMEPAGE="https://github.com/gorakhargosh/watchdog"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/fa/f6/5b71752ec8699e30a0740ad5df3e44a4fec8f683ec1e86750bd7c93f80de/callisto_watchdog-${REALVERSION}.tar.gz"
-SOURCEFILE="callisto_watchdog-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fa/f6/5b71752ec8699e30a0740ad5df3e44a4fec8f683ec1e86750bd7c93f80de/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

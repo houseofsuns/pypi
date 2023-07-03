@@ -15,8 +15,8 @@ DESCRIPTION="This library contains AI code for training purposes."
 
 HOMEPAGE="https://scm.atosresearch.eu/ari/easier/trainer-library"
 LICENSE="ATOS"
-SRC_URI="https://files.pythonhosted.org/packages/81/85/b0c8e63b58bb05fc6e3451b660530104f2ce71adab7a13e38c14bca7537f/easierai_trainer_library-${REALVERSION}.tar.gz"
-SOURCEFILE="easierai_trainer_library-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/81/85/b0c8e63b58bb05fc6e3451b660530104f2ce71adab7a13e38c14bca7537f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

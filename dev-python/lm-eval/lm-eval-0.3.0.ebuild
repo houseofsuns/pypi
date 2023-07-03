@@ -15,8 +15,8 @@ DESCRIPTION="A framework for evaluating autoregressive language models"
 
 HOMEPAGE="https://github.com/EleutherAI/lm-evaluation-harness"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c4/f8/58abc65390a758c8c2e5f1d8bb9b58d7885d02535d5f48de27006453d07e/lm_eval-${REALVERSION}.tar.gz"
-SOURCEFILE="lm_eval-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c4/f8/58abc65390a758c8c2e5f1d8bb9b58d7885d02535d5f48de27006453d07e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

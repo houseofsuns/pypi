@@ -15,8 +15,8 @@ DESCRIPTION="CTLML Trader Commons"
 
 HOMEPAGE="https://github.com/mhowell234/ctlml_commons"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/10/e0/a53592ec320bde1d264cc834d4ce7511c259fcaae8fd136c303c4c5ef294/ctlml_commons-${REALVERSION}.tar.gz"
-SOURCEFILE="ctlml_commons-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/10/e0/a53592ec320bde1d264cc834d4ce7511c259fcaae8fd136c303c4c5ef294/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

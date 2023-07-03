@@ -15,8 +15,8 @@ DESCRIPTION="Simplifies class-based views for more organized and maintainable co
 
 HOMEPAGE="https://github.com/yezz123/fastapi-class"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0d/53/004f9d789a6eda63715560f41bde73400201fa45cb1a3ee4687280ac76bc/fastapi_class-${REALVERSION}.tar.gz"
-SOURCEFILE="fastapi_class-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0d/53/004f9d789a6eda63715560f41bde73400201fa45cb1a3ee4687280ac76bc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

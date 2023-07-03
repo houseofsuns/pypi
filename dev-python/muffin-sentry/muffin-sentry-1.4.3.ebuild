@@ -15,8 +15,8 @@ DESCRIPTION="Sentry Integration for Muffin framework"
 
 HOMEPAGE="https://github.com/klen/muffin-sentry"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e4/b5/8e11dcbff17ec8ce038bf491a543b533e8093f08e9dbd909be497e94ed14/muffin_sentry-${REALVERSION}.tar.gz"
-SOURCEFILE="muffin_sentry-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e4/b5/8e11dcbff17ec8ce038bf491a543b533e8093f08e9dbd909be497e94ed14/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Fudan Utilities- [Fudan Utilities](#fudan-utilities)  - [Installation](#installation)    - [pipx](#pipx)    - [pip](#pip)  - [Supplying your credentials](#supplying-your-credentials)  - [List of utilities](#list-of-utilities)    - [`fudan-grades`](#fudan-grades)  - [Develop](#develop)  - [See also](#see-also)  - [Credits](#credits)## Installation### pipxThis is the recommended installation method.```$ pipx install fudan-utils```### [pip](https://pypi.org/project/fudan-utils/)```$ pip install fudan-utils```## Supplying your credentialsSet the `FUDAN_PID` and `FUDAN_PW` environment variables to your Fudan ID and password.```bashexport FUDAN_PID=18309990001export FUDAN_PW='123456verysecure!!!'```## List of utilities### `fudan-grades`Logs in to jwfw.fudan.edu.cn and get grades from the site.```$ fudan-grades -husage: fudan-grades [-h]Get Fudan grades from jwfwoptions:  -h, --help  show this help message and exit  -j, --json        output in json format (default: False)  -t, --html-table  output in html table format (default: False)$ fudan-grades # don't forget to supply your credentials via environment variables学年学期      课程代码      课程序号        课程名称     课程类别        学分     最终      绩点-----------  ----------  -------------  ----------  ------------  ------  ------  ------2022-2023 2  GTHB139999  GTHB139999.01  毕业论文     专业必修课程          6  F           0```## Develop```$ git clone https://github.com/tddschn/fudan-utils.git$ cd fudan-utils$ poetry install```## See also- https://github.com/tddschn/fudan-jwc-news## Credits- https://github.com/FDUCSLG/pafd-automated for reverse engineering the login process</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># jupyter-vibecheckA Jupyter Widget to get atomic feedback as a student progresses through a didactic jupyter notebook.&lt;img width=&quot;1164&quot; alt=&quot;image&quot; src=&quot;https://user-images.githubusercontent.com/693511/215613608-4746b8ed-77ff-4696-9f92-3ba720448a8f.png&quot;&gt;</longdescription>
+</pkgmetadata>

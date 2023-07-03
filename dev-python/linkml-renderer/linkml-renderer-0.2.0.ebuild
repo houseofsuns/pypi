@@ -15,8 +15,8 @@ DESCRIPTION="linkml-renderer"
 
 HOMEPAGE=""
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f0/25/69619fcab51538be7aa5dec8e27e4f3a1aabb25359e45f8de85eee1f6e35/linkml_renderer-${REALVERSION}.tar.gz"
-SOURCEFILE="linkml_renderer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f0/25/69619fcab51538be7aa5dec8e27e4f3a1aabb25359e45f8de85eee1f6e35/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

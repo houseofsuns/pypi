@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Gamedev-pyvedA new Game Creation toolbox (+the associated visual editor) 100% based on Python.**And it’s open-source**## Installation for end users```pip get install pyved```## Getting started (the Dev mode)```git clone https://github.com/wkta/gamedev-pyved.git# create a separate different folder, create a virtual environment!cd ..mkdir testing-pyvedcd testing-pyvedpython -m venv venv# activate the VENV, install pyved-engine in editable modevenv\Scripts\activate.bat# (move to the folder where one should the game engine)cd ..\pyved-enginepip install -e .# go back to pyved and install basic requirements, then,# also install it in editable modecd ..\gamedev-pyvedpip install -r requirements.txtpip install -e .```Your are ready to use/mod the `pyved` toolbox, at last!```cd ..\testing-pyvedpyved new myProjectpyved open myProject\pyved.json```## DisclaimerThis is an *experimental technology* (proof-of-concept).therefore it is still very raw and unfinishedIf you wish to contruibute, be our guest! &lt;3You can create pull requests directly, or send an e-mail to thomas.iw@kata.games if you want to discuss with the project maintainer.### (Recipe for the core team)1. create a PYTHON package using `make_package.bat` (uses `setup.py`+the whole folder)1. after extensive testing under virtual env, publish the release with: `twine upload dist/*`</longdescription>
+</pkgmetadata>

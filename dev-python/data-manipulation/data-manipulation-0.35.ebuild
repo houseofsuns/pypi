@@ -15,8 +15,8 @@ DESCRIPTION="Powerful data manipulation"
 
 HOMEPAGE="https://github.com/shawnngtq/data-manipulation"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/5a/42/41ed24297f653d9480fee05ece7c9b798ea43080215836e953e9fae640bf/data_manipulation-${REALVERSION}.tar.gz"
-SOURCEFILE="data_manipulation-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5a/42/41ed24297f653d9480fee05ece7c9b798ea43080215836e953e9fae640bf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="一个简单小巧但实用的模块"
 
 HOMEPAGE="https://github.com/MCTF-Alpha-27/easy_functions"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fd/03/fcea9d5d71823b2d8c0344b05c23da1c96e2f748b915d6215d19e1d8d054/easy_functions-${REALVERSION}.tar.gz"
-SOURCEFILE="easy_functions-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fd/03/fcea9d5d71823b2d8c0344b05c23da1c96e2f748b915d6215d19e1d8d054/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

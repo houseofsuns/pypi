@@ -15,8 +15,8 @@ DESCRIPTION="Abstraction for Mobileye setups."
 
 HOMEPAGE="http://gitlab.mobileye.com/idof/me-setups"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bb/c3/aff1e0b9d1bf9f2ca80282d42ae53aca03400af08ce34f8320438eb8fa57/me_setups-${REALVERSION}.tar.gz"
-SOURCEFILE="me_setups-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bb/c3/aff1e0b9d1bf9f2ca80282d42ae53aca03400af08ce34f8320438eb8fa57/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

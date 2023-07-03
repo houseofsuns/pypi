@@ -15,8 +15,8 @@ DESCRIPTION="OpenTelemetry Boto instrumentation"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-boto"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d3/ad/5d7709324abf7e5cfa904ec199af41252aa2fa23e7a716af0d4e872f5d51/opentelemetry_instrumentation_boto-${REALVERSION}.tar.gz"
-SOURCEFILE="opentelemetry_instrumentation_boto-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d3/ad/5d7709324abf7e5cfa904ec199af41252aa2fa23e7a716af0d4e872f5d51/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

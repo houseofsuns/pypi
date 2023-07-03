@@ -15,8 +15,8 @@ DESCRIPTION="URL decorator for django views"
 
 HOMEPAGE="https://github.com/isik-kaplan/django_urls"
 LICENSE="MIT LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/d3/c5/e9b898bec9b034ffbf68cec024c0c0d4eac311d64bb875796408b2d7e793/django_urls-${REALVERSION}.tar.gz"
-SOURCEFILE="django_urls-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d3/c5/e9b898bec9b034ffbf68cec024c0c0d4eac311d64bb875796408b2d7e793/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

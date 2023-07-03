@@ -15,8 +15,8 @@ DESCRIPTION="AQT backend for qoqo quantum computing toolkit"
 
 HOMEPAGE="https://github.com/HQSquantumsimulations/qoqo_aqt"
 LICENSE="Apache-2.0 AND Apache-2.0 with LLVM-exception AND MIT AND Unicode-DFS-2016 AND BSD-2-Clause AND BSD-3-CLause"
-SRC_URI="https://files.pythonhosted.org/packages/d0/3b/e82c4ef53945425e17990478d1b383c68838c324ddbb0aade590df89b031/qoqo_aqt-${REALVERSION}.tar.gz"
-SOURCEFILE="qoqo_aqt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d0/3b/e82c4ef53945425e17990478d1b383c68838c324ddbb0aade590df89b031/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

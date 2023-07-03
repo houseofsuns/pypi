@@ -15,8 +15,8 @@ DESCRIPTION="Factory Boy support for pytest."
 
 HOMEPAGE="https://pytest-factoryboy.readthedocs.io/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a0/33/b77ca315584ea22124288990265c00011ec55175dc3ce5312127256b9b14/pytest_factoryboy-${REALVERSION}.tar.gz"
-SOURCEFILE="pytest_factoryboy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a0/33/b77ca315584ea22124288990265c00011ec55175dc3ce5312127256b9b14/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

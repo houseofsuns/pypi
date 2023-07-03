@@ -15,8 +15,8 @@ DESCRIPTION="Libraries for testing openmodule services"
 
 HOMEPAGE="https://gitlab.com/arivo-public/device-python/openmodule.git"
 LICENSE="GNU General Public License v2 GPLv2"
-SRC_URI="https://files.pythonhosted.org/packages/f8/b4/760b2e78ccee0a89713e7b4422207a59f2cea171e9c0e055a92742cfccd5/openmodule_test-${REALVERSION}.tar.gz"
-SOURCEFILE="openmodule_test-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f8/b4/760b2e78ccee0a89713e7b4422207a59f2cea171e9c0e055a92742cfccd5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

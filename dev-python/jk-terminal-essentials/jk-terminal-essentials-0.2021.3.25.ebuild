@@ -15,8 +15,8 @@ DESCRIPTION="This module provides essential constants and information about the 
 
 HOMEPAGE=""
 LICENSE="proprietary"
-SRC_URI="https://files.pythonhosted.org/packages/2e/07/10d01eb259843d9b2937b1b588502ed6b24de0bbda338fdc56646d775fbb/jk_terminal_essentials-${REALVERSION}.tar.gz"
-SOURCEFILE="jk_terminal_essentials-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2e/07/10d01eb259843d9b2937b1b588502ed6b24de0bbda338fdc56646d775fbb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

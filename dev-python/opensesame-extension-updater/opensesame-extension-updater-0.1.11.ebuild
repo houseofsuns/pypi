@@ -15,8 +15,8 @@ DESCRIPTION="Checks for updates to extensions and plugins in OpenSesame"
 
 HOMEPAGE="https://osdoc.cogsci.nl"
 LICENSE="COPYING"
-SRC_URI="https://files.pythonhosted.org/packages/46/0b/27bdb8d2185887f2e8c621b5770aaf7a3f723adf15231fccfbbaf69064bf/opensesame_extension_updater-${REALVERSION}.tar.gz"
-SOURCEFILE="opensesame_extension_updater-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/46/0b/27bdb8d2185887f2e8c621b5770aaf7a3f723adf15231fccfbbaf69064bf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

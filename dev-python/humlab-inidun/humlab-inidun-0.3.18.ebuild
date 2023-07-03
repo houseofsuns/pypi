@@ -15,8 +15,8 @@ DESCRIPTION="INIDUN research project text analysis tools and utilities"
 
 HOMEPAGE="https://inidun.github.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ce/4a/aac6cca52bd689b4d182103a91fdad798727f4fac9876f5a147e0b5f4157/humlab_inidun-${REALVERSION}.tar.gz"
-SOURCEFILE="humlab_inidun-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ce/4a/aac6cca52bd689b4d182103a91fdad798727f4fac9876f5a147e0b5f4157/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

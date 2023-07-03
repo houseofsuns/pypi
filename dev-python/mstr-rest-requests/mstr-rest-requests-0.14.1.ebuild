@@ -15,8 +15,8 @@ DESCRIPTION="Easily make requests of the MicroStrategy REST API"
 
 HOMEPAGE="https://github.com/paulbailey/mstr-rest-requests"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/06/8d/c4615be25ad33c02c44df3c59ac66e9731dfa4127d59ccd0e03f41e10842/mstr_rest_requests-${REALVERSION}.tar.gz"
-SOURCEFILE="mstr_rest_requests-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/06/8d/c4615be25ad33c02c44df3c59ac66e9731dfa4127d59ccd0e03f41e10842/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

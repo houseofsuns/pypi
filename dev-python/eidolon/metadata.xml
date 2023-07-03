@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># EidolonA utility to concurrently make HTTP requests, with an optional rate limit. Powered by asyncio and aiohttp.## InstallationInstall and update via [pip](https://pip.pypa.io/en/stable/getting-started/)```bashpip install --U eidolon```## A Simple Example```py3import asyncioimport loggingfrom eidolon import Parallelizerfrom eidolon.api_request import APIRequest&quot;&quot;&quot;the callback should ideally be an async function, since methodslike .json or .text on the response are async&quot;&quot;&quot;async def callback(request, response):    print(response.status)    print(await response.text())&quot;&quot;&quot;Create an APIRequest object. Each object corresponds to a single request, and can take in an optional callbackEverything except request_method and request_url is optional&quot;&quot;&quot;req = APIRequest(    request_method=&quot;GET&quot;,    request_url=&quot;https://www.google.com&quot;,    request_headers={&quot;User-Agent&quot;: &quot;Mozilla/5.0&quot;},    request_params={&quot;q&quot;: &quot;python&quot;},    request_json={&quot;key&quot;: &quot;value&quot;},    request_form_data={&quot;key&quot;: &quot;value&quot;},    callback=callback,)p = Parallelizer(    logging_level=logging.INFO, # default: logging.ERROR    max_requests_per_second=10, # default: 1    max_retry_attempts=1, # default: 3    seconds_to_sleep_after_rate_limit_error=10, # default: 15)# make 100 requestsasyncio.run(p.make_requests([req] * 100))```</longdescription>
+</pkgmetadata>

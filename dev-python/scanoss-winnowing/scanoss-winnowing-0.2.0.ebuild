@@ -15,8 +15,8 @@ DESCRIPTION="Python Library implementing a C version of the SCANOSS Winnowing al
 
 HOMEPAGE="https://scanoss.com"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ac/87/17c14439837029f507731ae87a2bd2bd195b1e7c9219c09bfe4e66a6a8c9/scanoss_winnowing-${REALVERSION}.tar.gz"
-SOURCEFILE="scanoss_winnowing-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ac/87/17c14439837029f507731ae87a2bd2bd195b1e7c9219c09bfe4e66a6a8c9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

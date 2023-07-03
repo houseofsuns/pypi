@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>===========GFW Creator===========.. image:: https://img.shields.io/pypi/v/gfw-creator.svg        :target: https://pypi.python.org/pypi/gfw_creator.. image:: https://github.com/pgierz/gfw_creator/workflows/Python%20package/badge.svg        :target: https://github.com/pgierz/gfw_creator/actions.. image:: https://readthedocs.org/projects/gfw-creator/badge/?version=latest        :target: https://gfw-creator.readthedocs.io/en/latest/?badge=latest        :alt: Documentation StatusGFW Creator allows you to generate files for the gfw_atmo switch in ECHAM6/JSBACH of AWI-ESM* Free software: GNU General Public License v3* Documentation: https://gfw-creator.readthedocs.io.Features--------* TODOCredits-------This package was created with Cookiecutter_ and the `elgertam/cookiecutter-pipenv`_ project template, based on `audreyr/cookiecutter-pypackage`_... _Cookiecutter: https://github.com/audreyr/cookiecutter.. _`elgertam/cookiecutter-pipenv`: https://github.com/elgertam/cookiecutter-pipenv.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage=======History=======0.1.0 (2020-11-03)------------------* First release on PyPI.</longdescription>
+</pkgmetadata>

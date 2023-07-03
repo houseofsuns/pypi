@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Knowledgebase GSheet GPT此專案為使用 GPT 模型回答基於 Google 試算表的知識庫問題。## 功能- 從 Google 試算表下載知識庫內容- 使用 GPT 模型 (gpt-3.5-turbo 或 gpt-4) 生成知識庫內容的向量表示(embeddings)- 根據提供的問題，找出與問題最相似的知識庫內容- 使用 GPT 模型回答問題，並將最相似的知識庫內容作為參考## 安裝1. 請先確保已安裝 Python 3.7 或更高版本。2. 下載此專案的存儲庫：```python3 -m pip install knowledgebase-gsheet-gpt```## 使用方法1. 首先，確保您已擁有 Google API 憑證 (JSON 檔案)。若尚未擁有，請參考 [Google API 官方文件](https://developers.google.com/identity/protocols/oauth2/service-account#creatinganaccount) 以建立一個。2. 運行以下命令行，將 `user` 替換為您的電子郵件地址，將 `key_file` 替換為您 Google API 憑證的路徑，將 `sheet_ids` 替換為您要下載的 Google 試算表 ID（以逗號分隔），並將 `prompt` 替換為您的問題：```python3 -m knowledgebase_gsheet_gpt --user 用戶電子郵件 --prompt 提示問題 --sheet-ids 試算表ID --key-file Google服務帳戶密鑰JSON文件路徑 ```例如：```python3 -m knowledgebase_gsheet_gpt --user example@example.com --prompt &quot;請問屁股癢癢的怎麼辦?&quot; --sheet-ids 1abcdefg,2hijklmn --key-file google_key_file.json ```3. 您將會看到 GPT 模型生成的串流回答。</longdescription>
+</pkgmetadata>

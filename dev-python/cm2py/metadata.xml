@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># cm2pycm2py is a Python package for generating and manipulating save strings for the roblox game [Circuit Maker 2](https://www.roblox.com/games/6652606416/Circuit-Maker-2).## InstallationUse the package manager [pip](https://pip.pypa.io/en/stable/) to install cm2py.```bashpip install cm2py```## UsageBasic program to generate a line of 8 looping OR gates:```pythonimport cm2py as cm2length = 8save = cm2.Save()blocks = []for i in range(length):    blocks.append(save.addBlock(cm2.OR, (i, 0, 0)))### Commented out for clarity. ### You should store connections in a list if you want to modify them later.# connections = []  for i in range(length):    # connections.append(save.addConnection(blocks[i-1], blocks[i]))    save.addConnection(blocks[i-1], blocks[i])  # Directly add the connections to the save objectsaveString = save.exportSave()print(saveString)```(from [the loop.py example](examples/loop.py))## ContributingPull requests are welcome. For major changes, please open an issue firstto discuss what you would like to change.## License[MIT](https://choosealicense.com/licenses/mit/)</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="Python Win App Packager"
 
 HOMEPAGE="https://github.com/barry-scott/PythonWinAppPackager"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/74/b1/88cfdd04c2efb17cb26e4f9f43c749311822d83c80f226fd5371e3afe2f6/win_app_packager-${REALVERSION}.tar.gz"
-SOURCEFILE="win_app_packager-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/74/b1/88cfdd04c2efb17cb26e4f9f43c749311822d83c80f226fd5371e3afe2f6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

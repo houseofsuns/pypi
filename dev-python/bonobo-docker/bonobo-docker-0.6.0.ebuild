@@ -15,8 +15,8 @@ DESCRIPTION="Docker extension for Bonobo"
 
 HOMEPAGE="https://www.bonobo-project.org/with/docker"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/15/31/8b091b03573ae7698aeaf12fcfb440f5d75de9477df284c8dca90c2a3d35/bonobo_docker-${REALVERSION}.tar.gz"
-SOURCEFILE="bonobo_docker-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/15/31/8b091b03573ae7698aeaf12fcfb440f5d75de9477df284c8dca90c2a3d35/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

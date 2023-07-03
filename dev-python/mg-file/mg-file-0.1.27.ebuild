@@ -15,8 +15,8 @@ DESCRIPTION="Удобное пользование файлами"
 
 HOMEPAGE="https://github.com/denisxab/mg_file"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/af/68/3d39cd619dab9e73c8d22a6ea3d59deb5a1aaaad3fabd1d93cb4d60b437d/mg_file-${REALVERSION}.tar.gz"
-SOURCEFILE="mg_file-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/af/68/3d39cd619dab9e73c8d22a6ea3d59deb5a1aaaad3fabd1d93cb4d60b437d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

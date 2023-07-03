@@ -15,8 +15,8 @@ DESCRIPTION="A library for python version numbers and specifiers, implementing P
 
 HOMEPAGE=""
 LICENSE="Apache-2.0 OR BSD-2-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/ff/4c/4ff2ddda7b3095d85d1bb3a2e8ee9baea6a9fe915f42664c57c6ccab0b13/pep440_rs-${REALVERSION}.tar.gz"
-SOURCEFILE="pep440_rs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ff/4c/4ff2ddda7b3095d85d1bb3a2e8ee9baea6a9fe915f42664c57c6ccab0b13/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

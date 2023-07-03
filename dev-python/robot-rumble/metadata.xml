@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Robot Rumble is a 2D Side-Scroller Game for UF CEN4930 Performant Programming (in Japan!)Installation: pip install robot_rumbleRun Command: play_robot_rumbleGitHub: https://github.com/guptat07/Robot-Rumble</longdescription>
+</pkgmetadata>

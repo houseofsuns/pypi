@@ -15,8 +15,8 @@ DESCRIPTION="Generate fully typed GraphQL client from schema, queries and mutati
 
 HOMEPAGE="https://ariadnegraphql.org/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6e/af/8cc45d1e3f74aa22bcfa4222da314f8b408cd97c70c89b6bebbd8110c85c/ariadne_codegen-${REALVERSION}.tar.gz"
-SOURCEFILE="ariadne_codegen-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6e/af/8cc45d1e3f74aa22bcfa4222da314f8b408cd97c70c89b6bebbd8110c85c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

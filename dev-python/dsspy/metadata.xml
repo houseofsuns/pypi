@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Welcome to the PyDSS Repository!**PyDSS** is a high level python interface for **OpenDSS** and provides the following functionalitiesDocumentation on installation, setup and examples can be found here https://nrel.github.io/PyDSS/index.html</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="Use ChatGPT to accelerator your research."
 
 HOMEPAGE="https://github.com/cauliyang/ChatResearch"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3a/41/7f716f883271b5aeeab925358b9b639dc95cad7154d388b4f44335752a36/chat_research-${REALVERSION}.tar.gz"
-SOURCEFILE="chat_research-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3a/41/7f716f883271b5aeeab925358b9b639dc95cad7154d388b4f44335752a36/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

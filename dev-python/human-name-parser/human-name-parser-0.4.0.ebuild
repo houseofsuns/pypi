@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6c/8b/6e7f66d2c83009ef9874c73fda5381f2e501d11f423570bdfbab8aa23e25/human_name_parser-${REALVERSION}.tar.gz"
-SOURCEFILE="human_name_parser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6c/8b/6e7f66d2c83009ef9874c73fda5381f2e501d11f423570bdfbab8aa23e25/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

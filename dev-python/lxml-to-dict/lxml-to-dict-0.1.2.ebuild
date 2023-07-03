@@ -15,8 +15,8 @@ DESCRIPTION="A simple conversion of an lxml.objectify element to a python dictio
 
 HOMEPAGE="https://github.com/CRiva/lxml_to_dict"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d8/ae/fa93a5ce28a721f975997567d3327e60a2513122b4c5b53ef06c452c0f7c/lxml_to_dict-${REALVERSION}.tar.gz"
-SOURCEFILE="lxml_to_dict-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d8/ae/fa93a5ce28a721f975997567d3327e60a2513122b4c5b53ef06c452c0f7c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

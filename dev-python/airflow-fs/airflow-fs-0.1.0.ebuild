@@ -15,8 +15,8 @@ DESCRIPTION="Composable filesystem hooks and operators for Airflow."
 
 HOMEPAGE="https://github.com/jrderuiter/airflow-fs"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ee/93/9dd4d7aae61aef9079f1d9f720ded7f643047ac6d52675ecd0fa4cb4de2d/airflow_fs-${REALVERSION}.tar.gz"
-SOURCEFILE="airflow_fs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ee/93/9dd4d7aae61aef9079f1d9f720ded7f643047ac6d52675ecd0fa4cb4de2d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

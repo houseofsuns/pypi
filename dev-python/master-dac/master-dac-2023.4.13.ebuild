@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a6/48/f16f54c353176715e8e2231254482412814a3a32b782677bf6366d1a6bd9/master_dac-${REALVERSION}.tar.gz"
-SOURCEFILE="master_dac-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a6/48/f16f54c353176715e8e2231254482412814a3a32b782677bf6366d1a6bd9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

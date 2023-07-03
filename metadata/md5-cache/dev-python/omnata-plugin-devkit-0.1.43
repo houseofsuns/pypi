@@ -1,0 +1,13 @@
+BDEPEND=dev-python/behave[python_targets_python3_10(-)?] dev-python/behave_pandas[python_targets_python3_10(-)?] dev-python/jinja2[python_targets_python3_10(-)?] dev-python/omnata-plugin-runtime[python_targets_python3_10(-)?] dev-python/omnata_cli[python_targets_python3_10(-)?] dev-python/pandas[python_targets_python3_10(-)?] dev-python/pydantic[python_targets_python3_10(-)?] dev-python/python-slugify[python_targets_python3_10(-)?] dev-python/tabulate[python_targets_python3_10(-)?] dev-python/vcrpy[python_targets_python3_10(-)?] python_targets_python3_10? ( >=dev-lang/python-3.10.12:3.10 ) >=dev-python/gpep517-13[python_targets_python3_10(-)?]
+DEFINED_PHASES=compile configure install prepare test unpack
+EAPI=8
+INHERIT=python-r1 gs-pypi
+IUSE=python_targets_python3_10
+KEYWORDS=~amd64 ~x86
+RDEPEND=dev-python/behave[python_targets_python3_10(-)?] dev-python/behave_pandas[python_targets_python3_10(-)?] dev-python/jinja2[python_targets_python3_10(-)?] dev-python/omnata-plugin-runtime[python_targets_python3_10(-)?] dev-python/omnata_cli[python_targets_python3_10(-)?] dev-python/pandas[python_targets_python3_10(-)?] dev-python/pydantic[python_targets_python3_10(-)?] dev-python/python-slugify[python_targets_python3_10(-)?] dev-python/tabulate[python_targets_python3_10(-)?] dev-python/vcrpy[python_targets_python3_10(-)?] python_targets_python3_10? ( >=dev-lang/python-3.10.12:3.10 )
+REQUIRED_USE=|| ( python_targets_python3_10 )
+RESTRICT=test
+SLOT=0
+SRC_URI=https://files.pythonhosted.org/packages/ff/8e/9eee01d4d33a6d536ed5013e8cbd7722e404c2a4b5526733399a9b26e1d5/omnata_plugin_devkit-0.1.43.tar.gz
+_eclasses_=out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	bddcb51b74f4a76724ff7cf8e7388869	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	a013e16d5d896b3d8be68dd2a0e846ea	python-r1	3c6cd0f418ba702c186a9865b85e704d	ninja-utils	76050953ad5b70d7e09a6ca55558db92	gs-distutils-r1	146a801fad4dc88cf90e137e345be7bb	g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	gs-pypi	5d35493d186e30ccb1242b91abc6a312
+_md5_=b21e2f58fb562f58eff584c6632d3c0a

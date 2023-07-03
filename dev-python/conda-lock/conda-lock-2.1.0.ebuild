@@ -15,8 +15,8 @@ DESCRIPTION="Lockfiles for conda"
 
 HOMEPAGE="https://github.com/conda/conda-lock"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cf/2a/051d4090f1d8d26c55dfbab7975562f95b28e22b2f871fe5e1f0fda32164/conda_lock-${REALVERSION}.tar.gz"
-SOURCEFILE="conda_lock-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cf/2a/051d4090f1d8d26c55dfbab7975562f95b28e22b2f871fe5e1f0fda32164/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

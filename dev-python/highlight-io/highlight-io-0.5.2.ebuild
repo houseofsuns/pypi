@@ -15,8 +15,8 @@ DESCRIPTION="Session replay and error monitoring: stop guessing why bugs happen!
 
 HOMEPAGE="https://www.highlight.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ca/31/7c755e8b1012a7e2b6a3da6986335cedac8543fba46d8aef79e7a96d69fd/highlight_io-${REALVERSION}.tar.gz"
-SOURCEFILE="highlight_io-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ca/31/7c755e8b1012a7e2b6a3da6986335cedac8543fba46d8aef79e7a96d69fd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

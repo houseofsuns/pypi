@@ -15,8 +15,8 @@ DESCRIPTION="A variety of helper functions and classes, useful for many differen
 
 HOMEPAGE="https://github.com/Privex/python-helpers"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/44/e8/b179dadc0c73b88c51b5e2c0563d6ead690093165fadaaa0549f0cb71ed1/privex_helpers-${REALVERSION}.tar.gz"
-SOURCEFILE="privex_helpers-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/44/e8/b179dadc0c73b88c51b5e2c0563d6ead690093165fadaaa0549f0cb71ed1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

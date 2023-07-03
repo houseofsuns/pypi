@@ -15,8 +15,8 @@ DESCRIPTION="A Pylint plugin that checks for a specific implementation of Enum s
 
 HOMEPAGE="https://github.com/cs-cordero/pylint_enums"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d0/98/0cefde3c334f7000b1b9faec113db958e8368da82043d7818a2d4d86df14/pylint_enums-${REALVERSION}.tar.gz"
-SOURCEFILE="pylint_enums-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d0/98/0cefde3c334f7000b1b9faec113db958e8368da82043d7818a2d4d86df14/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

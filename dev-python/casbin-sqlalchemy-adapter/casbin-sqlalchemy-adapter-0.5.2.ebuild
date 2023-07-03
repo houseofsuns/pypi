@@ -15,8 +15,8 @@ DESCRIPTION="SQLAlchemy Adapter for PyCasbin"
 
 HOMEPAGE="https://github.com/pycasbin/sqlalchemy-adapter"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/83/5f/a138090d36e6deacb387a0f6a4488a7721338b7ffb25c775fa891364ed8d/casbin_sqlalchemy_adapter-${REALVERSION}.tar.gz"
-SOURCEFILE="casbin_sqlalchemy_adapter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/83/5f/a138090d36e6deacb387a0f6a4488a7721338b7ffb25c775fa891364ed8d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

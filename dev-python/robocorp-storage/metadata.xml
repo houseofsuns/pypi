@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Robocorp Control Room Asset Storage API library`robocorp-storage` is a library which provides read and write access to the*Asset Storage* in Robocorp **Control Room**.## Usage```pythonfrom robocorp import storagedef store_email():    storage.set_asset(&quot;cosmin&quot;, &quot;cosmin@robocorp.com&quot;)    print(&quot;E-mail:&quot;, storage.get_asset(&quot;cosmin&quot;))    storage.delete_asset(&quot;cosmin&quot;)```</longdescription>
+</pkgmetadata>

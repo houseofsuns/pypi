@@ -15,8 +15,8 @@ DESCRIPTION="opentmi-client"
 
 HOMEPAGE="https://github.com/OpenTMI/opentmi-pyclient.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3a/5f/06dde21e35d7ed4bdc2a5c6f884c97165d72b3ebc287bacf36744980bd1d/opentmi_client-${REALVERSION}.tar.gz"
-SOURCEFILE="opentmi_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3a/5f/06dde21e35d7ed4bdc2a5c6f884c97165d72b3ebc287bacf36744980bd1d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

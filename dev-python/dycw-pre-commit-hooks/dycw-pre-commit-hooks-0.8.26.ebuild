@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f3/f6/dfdeb87845583cb2027255cecd8b9f698f23e510b29fa2c1f403460790af/dycw_pre_commit_hooks-${REALVERSION}.tar.gz"
-SOURCEFILE="dycw_pre_commit_hooks-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f3/f6/dfdeb87845583cb2027255cecd8b9f698f23e510b29fa2c1f403460790af/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

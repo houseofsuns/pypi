@@ -15,8 +15,8 @@ DESCRIPTION="Active Record, Django-like queries, nested eager load and beauty __
 
 HOMEPAGE="https://github.com/absent1706/sqlalchemy-mixins"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/98/ed/32396bc043a7ac85f1720a75762fc127dfcc80d2cec88dce0a0fa2880c7a/sqlalchemy_mixins-${REALVERSION}.tar.gz"
-SOURCEFILE="sqlalchemy_mixins-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/98/ed/32396bc043a7ac85f1720a75762fc127dfcc80d2cec88dce0a0fa2880c7a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

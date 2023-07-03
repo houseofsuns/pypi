@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9a/ff/dee63e2d549186b29cb0ffbba1c982a79741ebf554c3d47e88a0be270897/cognite_wells_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="cognite_wells_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9a/ff/dee63e2d549186b29cb0ffbba1c982a79741ebf554c3d47e88a0be270897/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

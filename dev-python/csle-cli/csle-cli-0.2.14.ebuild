@@ -15,8 +15,8 @@ DESCRIPTION="CLI tool for CSLE"
 
 HOMEPAGE=""
 LICENSE="Creative Commons Attribution-ShareAlike 4.0 International"
-SRC_URI="https://files.pythonhosted.org/packages/9b/b9/82649b3f8b90a673bbf8310fcc2abd98273d57d6d2a23b007b9559573627/csle_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="csle_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9b/b9/82649b3f8b90a673bbf8310fcc2abd98273d57d6d2a23b007b9559573627/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

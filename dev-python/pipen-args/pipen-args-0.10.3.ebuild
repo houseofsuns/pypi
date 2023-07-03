@@ -15,8 +15,8 @@ DESCRIPTION="Command-line argument parser for pipen."
 
 HOMEPAGE="https://github.com/pwwang/pipen-args"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b4/64/a304d74f412861be30f2b2d2ab3f2c519b60e3ed8f67d21e6b8fa32bc0e4/pipen_args-${REALVERSION}.tar.gz"
-SOURCEFILE="pipen_args-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b4/64/a304d74f412861be30f2b2d2ab3f2c519b60e3ed8f67d21e6b8fa32bc0e4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

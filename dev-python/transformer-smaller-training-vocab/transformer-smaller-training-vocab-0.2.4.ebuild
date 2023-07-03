@@ -15,8 +15,8 @@ DESCRIPTION="Temporary remove unused tokens during training to save ram and spee
 
 HOMEPAGE="https://github.com/helpmefindaname/transformer-smaller-training-vocab"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4f/1b/22119b86eefc153bae07298a19b24ab8b8f3bcb2c64f200a788d4beb8718/transformer_smaller_training_vocab-${REALVERSION}.tar.gz"
-SOURCEFILE="transformer_smaller_training_vocab-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4f/1b/22119b86eefc153bae07298a19b24ab8b8f3bcb2c64f200a788d4beb8718/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

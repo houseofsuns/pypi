@@ -15,8 +15,8 @@ DESCRIPTION="A linter that checks test docstrings for the arrange/act/assert str
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/1a/cc/69bd58b17228835507aad88f8ebbd13bf3442ff7d6c5330e55aee9d847e1/flake8_test_docs-${REALVERSION}.tar.gz"
-SOURCEFILE="flake8_test_docs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1a/cc/69bd58b17228835507aad88f8ebbd13bf3442ff7d6c5330e55aee9d847e1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

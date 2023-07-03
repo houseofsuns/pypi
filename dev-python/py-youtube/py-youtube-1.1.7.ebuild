@@ -15,8 +15,8 @@ DESCRIPTION="Python library Get YouTube Video Data & Search Video"
 
 HOMEPAGE="https://github.com/lntechnical2/PyYouTube"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0f/39/5102a53b31034d541a44cfd8df12aef81e9823713724a246915edafc4226/py_youtube-${REALVERSION}.tar.gz"
-SOURCEFILE="py_youtube-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0f/39/5102a53b31034d541a44cfd8df12aef81e9823713724a246915edafc4226/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

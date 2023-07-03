@@ -15,8 +15,8 @@ DESCRIPTION="Arista Networking drivers"
 
 HOMEPAGE="https://opendev.org/x/networking-arista/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5e/a9/53458bbc9a068ac60a58da8914e72e78bc1ee3e12fcd0186097adc917fb1/networking_arista-${REALVERSION}.tar.gz"
-SOURCEFILE="networking_arista-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5e/a9/53458bbc9a068ac60a58da8914e72e78bc1ee3e12fcd0186097adc917fb1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

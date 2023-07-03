@@ -15,8 +15,8 @@ DESCRIPTION="Python SQLAlchemy Dialect for JDBCAPI."
 
 HOMEPAGE="https://github.com/daneshpatel/sqlalchemy-jdbcapi"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/4f/07/6477cfb3b16c0abea0f2ecb815a40f29502a8302bd98f6f68321e4059efd/sqlalchemy_jdbcapi-${REALVERSION}.tar.gz"
-SOURCEFILE="sqlalchemy_jdbcapi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4f/07/6477cfb3b16c0abea0f2ecb815a40f29502a8302bd98f6f68321e4059efd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

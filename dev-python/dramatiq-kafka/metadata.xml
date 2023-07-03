@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Uses kafka-python package to write a Kafka broker for dramatiq.```pythonimport dramatiqfrom dramatiq.middleware import AgeLimit, TimeLimit, Callbacks, Pipelines, Prometheus, Retriesfrom dramatiq_kafka import KafkaBrokerbroker = KafkaBroker(    bootstrap_servers=&quot;localhost:9092&quot;,    topic=&quot;testdramatiq_topic&quot;, # default is `default`    group_id=&quot;testdramatiq_consumergroup&quot;, # optional, default is `default`    middleware=[        Prometheus(),        AgeLimit(),        TimeLimit(),        Callbacks(),        Pipelines(),        Retries(min_backoff=1000, max_backoff=900000, max_retries=96),    ],)dramatiq.set_broker(broker)```Use dramatiq to send a message to a Kafka topic (`queue_name`) as usual:```python    message = Message(        queue_name=&quot;rita&quot;,        actor_name=&quot;email_customer&quot;,        args=(&quot;testing@gmail.com&quot;,),        kwargs={},        options={},    )    broker = get_broker()    broker.enqueue(message)```Write tasks as described in django_dramatiq's documentation (i.e. create dramatiq actors in the task.py files) and modify settings as shown in `django_example` to get started. To send messages, view the views.py file for an example</longdescription>
+</pkgmetadata>

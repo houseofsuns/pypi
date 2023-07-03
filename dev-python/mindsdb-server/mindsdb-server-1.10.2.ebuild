@@ -15,8 +15,8 @@ DESCRIPTION="MindsDB server, provides server capabilities to mindsdb native pyth
 
 HOMEPAGE="https://github.com/mindsdb/mindsdb_server"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b5/34/7a9dcb7d5a37546e6d9805a01790ee2d0763aa3db9cbdc293a0674a2991a/mindsdb_server-${REALVERSION}.tar.gz"
-SOURCEFILE="mindsdb_server-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b5/34/7a9dcb7d5a37546e6d9805a01790ee2d0763aa3db9cbdc293a0674a2991a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

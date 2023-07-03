@@ -15,8 +15,8 @@ DESCRIPTION="A Python tool for dynamically updating Linode Domain Records"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/30/54/69d31f3c1fa405b619ef59ee49f6ab7b16b444dc7a00945f8c7564308cf2/linode_dyndns-${REALVERSION}.tar.gz"
-SOURCEFILE="linode_dyndns-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/30/54/69d31f3c1fa405b619ef59ee49f6ab7b16b444dc7a00945f8c7564308cf2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

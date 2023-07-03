@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ec/8a/155fce09127e02df92e448933d03429ec58f8514d5ce7caf9ab8b76269a4/ase_extension-${REALVERSION}.tar.gz"
-SOURCEFILE="ase_extension-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ec/8a/155fce09127e02df92e448933d03429ec58f8514d5ce7caf9ab8b76269a4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

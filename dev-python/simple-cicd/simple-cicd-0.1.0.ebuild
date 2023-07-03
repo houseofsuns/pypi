@@ -15,8 +15,8 @@ DESCRIPTION="Dead simple CI/CD pipeline executor"
 
 HOMEPAGE="https://gitlab.com/FrancoisSevestre/simple-ci"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/fd/fd/bedcc367801baab01af12dcab691f6b52b98d8c4c59d8db6adf00b95411b/simple_cicd-${REALVERSION}.tar.gz"
-SOURCEFILE="simple_cicd-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fd/fd/bedcc367801baab01af12dcab691f6b52b98d8c4c59d8db6adf00b95411b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

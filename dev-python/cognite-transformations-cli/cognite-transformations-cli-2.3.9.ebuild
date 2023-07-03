@@ -15,8 +15,8 @@ DESCRIPTION="A CLI for the Transformations service in CDF"
 
 HOMEPAGE="https://github.com/cognitedata/transformations-cli"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c2/26/52828a8b7cc3d0f4d731b324fd2c21eef3fef5dcaffa6cd1715d0d642f50/cognite_transformations_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="cognite_transformations_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c2/26/52828a8b7cc3d0f4d731b324fd2c21eef3fef5dcaffa6cd1715d0d642f50/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

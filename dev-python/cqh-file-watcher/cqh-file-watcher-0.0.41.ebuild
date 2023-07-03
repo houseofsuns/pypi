@@ -15,8 +15,8 @@ DESCRIPTION="tools like vscode file-watcher but for command only"
 
 HOMEPAGE="https://github.com/chen19901225/cqh_file_watcher"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4a/48/f5b8759a1925cfec7c7261a352cb2ceecd77fb443335914b07959bd9f95d/cqh_file_watcher-${REALVERSION}.tar.gz"
-SOURCEFILE="cqh_file_watcher-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4a/48/f5b8759a1925cfec7c7261a352cb2ceecd77fb443335914b07959bd9f95d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

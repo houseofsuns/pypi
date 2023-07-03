@@ -15,8 +15,8 @@ DESCRIPTION="A small authorisation decorator package for the ACE project"
 
 HOMEPAGE="https://github.com/IncentroNext/ace-utils/tree/feature/ace_authorize/ace_authorize"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/98/d6/a61d1ebba8f60287e6965fdb363b69ad119b26884db40d7e63a5fda129fb/ace_authorize-${REALVERSION}.tar.gz"
-SOURCEFILE="ace_authorize-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/98/d6/a61d1ebba8f60287e6965fdb363b69ad119b26884db40d7e63a5fda129fb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

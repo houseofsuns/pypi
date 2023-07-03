@@ -15,8 +15,8 @@ DESCRIPTION="library for parsing dns zone files"
 
 HOMEPAGE="https://github.com/aredwood/zone-file-parser"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ee/6e/724ec75598fe614f19f65fcb00cb22fa5b4dac9434204e0a8d13dc31593d/zonefile_parser-${REALVERSION}.tar.gz"
-SOURCEFILE="zonefile_parser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ee/6e/724ec75598fe614f19f65fcb00cb22fa5b4dac9434204e0a8d13dc31593d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

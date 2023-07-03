@@ -15,8 +15,8 @@ DESCRIPTION="Alibaba Cloud Performance Testing (20201020) SDK Library for Python
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b4/24/08f471d4a7c05c23114c8d28cab03d18c135dce13c4fd0598b92060f2d55/alibabacloud_pts20201020-${REALVERSION}.tar.gz"
-SOURCEFILE="alibabacloud_pts20201020-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b4/24/08f471d4a7c05c23114c8d28cab03d18c135dce13c4fd0598b92060f2d55/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

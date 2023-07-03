@@ -15,8 +15,8 @@ DESCRIPTION="A package for interacting with Major Tom's Gateway API."
 
 HOMEPAGE="https://github.com/kubos/majortom_gateway_package"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c7/85/700ad7b43c60759e95a8d3c7659f71d71b5dfe499354f70799385b160ef0/majortom_gateway-${REALVERSION}.tar.gz"
-SOURCEFILE="majortom_gateway-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c7/85/700ad7b43c60759e95a8d3c7659f71d71b5dfe499354f70799385b160ef0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

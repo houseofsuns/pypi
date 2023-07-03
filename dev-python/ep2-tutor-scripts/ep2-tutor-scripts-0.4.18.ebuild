@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/21/2b/913583bafbd4223960245884c16af31ea1bedbdb98d27fb3db4b2572801e/ep2_tutor_scripts-${REALVERSION}.tar.gz"
-SOURCEFILE="ep2_tutor_scripts-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/21/2b/913583bafbd4223960245884c16af31ea1bedbdb98d27fb3db4b2572801e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

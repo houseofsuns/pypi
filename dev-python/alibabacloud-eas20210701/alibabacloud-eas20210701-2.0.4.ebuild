@@ -15,8 +15,8 @@ DESCRIPTION="Alibaba Cloud eas (20210701) SDK Library for Python"
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/1a/94/db3fcb4da6ca8a1f62726d36df704fbb09ee1e00bed165ef324ef1e07e47/alibabacloud_eas20210701-${REALVERSION}.tar.gz"
-SOURCEFILE="alibabacloud_eas20210701-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1a/94/db3fcb4da6ca8a1f62726d36df704fbb09ee1e00bed165ef324ef1e07e47/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

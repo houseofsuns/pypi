@@ -15,8 +15,8 @@ DESCRIPTION="Utilities that simplify enelpeing in Jupyter Lab"
 
 HOMEPAGE="https://github.com/humlab/penelope"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/24/61/080caae9534e88cc9291edd24505f6392c0fc85202707cffc88ca2f37ea3/humlab_penelope-${REALVERSION}.tar.gz"
-SOURCEFILE="humlab_penelope-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/24/61/080caae9534e88cc9291edd24505f6392c0fc85202707cffc88ca2f37ea3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

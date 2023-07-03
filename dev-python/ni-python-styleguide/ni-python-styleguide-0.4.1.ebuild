@@ -15,8 +15,8 @@ DESCRIPTION="NI's internal and external Python linter rules and plugins"
 
 HOMEPAGE="https://github.com/ni/python-styleguide"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c7/4a/3338646f91e0c71be804178ae41f99949ea384f7f0b52efa38ce80e9bbfd/ni_python_styleguide-${REALVERSION}.tar.gz"
-SOURCEFILE="ni_python_styleguide-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c7/4a/3338646f91e0c71be804178ae41f99949ea384f7f0b52efa38ce80e9bbfd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

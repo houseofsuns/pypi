@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/Yaroslav1233/driver-h"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/89/ac/6359007c2ff45bad053f5f7f760d8dec7e8620076f1ce1ef349284ee8305/driver_h-${REALVERSION}.tar.gz"
-SOURCEFILE="driver_h-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/89/ac/6359007c2ff45bad053f5f7f760d8dec7e8620076f1ce1ef349284ee8305/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

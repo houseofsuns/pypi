@@ -15,8 +15,8 @@ DESCRIPTION="A GUI program to allow for exploring MSG files using extract-msg."
 
 HOMEPAGE="https://github.com/TeamMsgExtractor/msg-explorer"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/72/f5/6fc90badfee334b04400bb30d33d3537a7b3bcb418a2d6499990073aa2b8/msg_explorer-${REALVERSION}.tar.gz"
-SOURCEFILE="msg_explorer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/72/f5/6fc90badfee334b04400bb30d33d3537a7b3bcb418a2d6499990073aa2b8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="基于 NoneBot2 的 Apex Legends API 查询插件"
 
 HOMEPAGE="https://github.com/H-xiaoH/nonebot-plugin-apex-api-query"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/da/8f/729374828e2609ccbbbe177b17546aeefaa579e3fbad6c6baf5c7e855d7f/nonebot_plugin_apex_api_query-${REALVERSION}.tar.gz"
-SOURCEFILE="nonebot_plugin_apex_api_query-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/da/8f/729374828e2609ccbbbe177b17546aeefaa579e3fbad6c6baf5c7e855d7f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

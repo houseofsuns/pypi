@@ -15,8 +15,8 @@ DESCRIPTION="Library to interact with firefly exchange protocol including its of
 
 HOMEPAGE="https://github.com/fireflyprotocol/firefly_exchange_client"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ad/a6/1d1e2c6c5a7a4f83c522989cf857c5867599126913ef67bc3bcbf5f63b83/firefly_exchange_client-${REALVERSION}.tar.gz"
-SOURCEFILE="firefly_exchange_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ad/a6/1d1e2c6c5a7a4f83c522989cf857c5867599126913ef67bc3bcbf5f63b83/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

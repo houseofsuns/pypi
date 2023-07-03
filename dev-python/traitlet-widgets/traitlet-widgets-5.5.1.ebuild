@@ -15,8 +15,8 @@ DESCRIPTION="A library which provides the ability to create widget views for tra
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0f/c5/cd7b1d0f24e8314d8ecce960eb4a501ad0468c7fd6c1b290b62ad3662ff6/traitlet_widgets-${REALVERSION}.tar.gz"
-SOURCEFILE="traitlet_widgets-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0f/c5/cd7b1d0f24e8314d8ecce960eb4a501ad0468c7fd6c1b290b62ad3662ff6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

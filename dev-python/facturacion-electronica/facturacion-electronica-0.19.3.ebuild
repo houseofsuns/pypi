@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://gitlab.com/dansanti/facturacion_electronica"
 LICENSE="GPLV3+"
-SRC_URI="https://files.pythonhosted.org/packages/87/5e/152a3405456f0b941af5a8bf3e9ea1570867ede53c7e9f9479e251298abc/facturacion_electronica-${REALVERSION}.tar.gz"
-SOURCEFILE="facturacion_electronica-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/87/5e/152a3405456f0b941af5a8bf3e9ea1570867ede53c7e9f9479e251298abc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

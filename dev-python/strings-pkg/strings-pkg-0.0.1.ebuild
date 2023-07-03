@@ -15,8 +15,8 @@ DESCRIPTION="string extension package"
 
 HOMEPAGE="https://github.com/lpe234/strings_pkg"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8a/06/faf764e865fdc64f6879a4b15361cf26fc4ed753e0c21458737acd9aaa7c/strings_pkg-${REALVERSION}.tar.gz"
-SOURCEFILE="strings_pkg-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8a/06/faf764e865fdc64f6879a4b15361cf26fc4ed753e0c21458737acd9aaa7c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

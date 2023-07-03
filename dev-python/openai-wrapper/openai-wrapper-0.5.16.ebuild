@@ -15,8 +15,8 @@ DESCRIPTION="A wrapper for OpenAI's python API which wraps around the openAI fun
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/25/5a/cd8fcddda67713387dbcafaae2bbfb98a1bd4f404cd659162cf0221b10f0/openai_wrapper-${REALVERSION}.tar.gz"
-SOURCEFILE="openai_wrapper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/25/5a/cd8fcddda67713387dbcafaae2bbfb98a1bd4f404cd659162cf0221b10f0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/98/e1/5d55f372a758cede87c3652adee38bb0a408e6b9a3aa5f23881a610e0cc2/filtration_domination-${REALVERSION}.tar.gz"
-SOURCEFILE="filtration_domination-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/98/e1/5d55f372a758cede87c3652adee38bb0a408e6b9a3aa5f23881a610e0cc2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

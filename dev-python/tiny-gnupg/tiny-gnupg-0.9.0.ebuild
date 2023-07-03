@@ -15,8 +15,8 @@ DESCRIPTION="tiny_gnupg - A small-as-possible solution for handling GnuPG ed2551
 
 HOMEPAGE=""
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/e7/1d/5fcc9d4d4d0884366278e310d6aa79ac8bb1e9ca755fdf986d1b5a034971/tiny_gnupg-${REALVERSION}.tar.gz"
-SOURCEFILE="tiny_gnupg-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e7/1d/5fcc9d4d4d0884366278e310d6aa79ac8bb1e9ca755fdf986d1b5a034971/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

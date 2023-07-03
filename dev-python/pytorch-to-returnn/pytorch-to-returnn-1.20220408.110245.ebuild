@@ -15,8 +15,8 @@ DESCRIPTION="Make PyTorch code runnable within RETURNN (TensorFlow)"
 
 HOMEPAGE="https://github.com/rwth-i6/pytorch-to-returnn"
 LICENSE="RETURNN license"
-SRC_URI="https://files.pythonhosted.org/packages/68/ba/deb99fe8f84c9305b8e99d3d7e16c7a3c20f47e0174c15361d1137f81882/pytorch_to_returnn-${REALVERSION}.tar.gz"
-SOURCEFILE="pytorch_to_returnn-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/68/ba/deb99fe8f84c9305b8e99d3d7e16c7a3c20f47e0174c15361d1137f81882/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

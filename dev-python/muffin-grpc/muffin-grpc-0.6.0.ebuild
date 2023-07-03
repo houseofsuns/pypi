@@ -15,8 +15,8 @@ DESCRIPTION="GRPC support for Muffin framework."
 
 HOMEPAGE="https://github.com/klen/muffin-grpc"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ef/7e/a9c07ac38e36d2c66ee14db606f8e4562ba1a63f137daba2d5129a423b8d/muffin_grpc-${REALVERSION}.tar.gz"
-SOURCEFILE="muffin_grpc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ef/7e/a9c07ac38e36d2c66ee14db606f8e4562ba1a63f137daba2d5129a423b8d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

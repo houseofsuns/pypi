@@ -15,8 +15,8 @@ DESCRIPTION="contextvars friendly ThreadPoolExecutor"
 
 HOMEPAGE="https://github.com/hellysmile/contextvars_executor"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2a/b7/b465571636dfd2ae00f26a8647183e9d97ea2daca790347db5c27a4ec423/contextvars_executor-${REALVERSION}.tar.gz"
-SOURCEFILE="contextvars_executor-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2a/b7/b465571636dfd2ae00f26a8647183e9d97ea2daca790347db5c27a4ec423/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Generate JSON Files of Bible Translations from SWORD Modules"
 
 HOMEPAGE="https://github.com/evnskc/sword-to-json"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/d9/3b/720050d0fb3957579d6909db4047035bbb2739f306a95347648e322cf320/sword_to_json-${REALVERSION}.tar.gz"
-SOURCEFILE="sword_to_json-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d9/3b/720050d0fb3957579d6909db4047035bbb2739f306a95347648e322cf320/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

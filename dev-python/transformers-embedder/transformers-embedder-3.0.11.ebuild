@@ -15,8 +15,8 @@ DESCRIPTION="Word level transformer based embeddings"
 
 HOMEPAGE="https://github.com/Riccorl/transformers-embedder"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/27/a4/656b056e7b7a96ff0d1bdcad3991cdce81379de2c63810077b9f27e78b04/transformers_embedder-${REALVERSION}.tar.gz"
-SOURCEFILE="transformers_embedder-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/27/a4/656b056e7b7a96ff0d1bdcad3991cdce81379de2c63810077b9f27e78b04/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

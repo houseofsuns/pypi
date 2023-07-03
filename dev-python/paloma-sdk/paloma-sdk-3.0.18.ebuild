@@ -15,8 +15,8 @@ DESCRIPTION="The Python SDK for Paloma"
 
 HOMEPAGE="https://github.com/palomachain/paloma.py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/96/50/307671b804a2109270545039582940f6f477ff1c9557eb5be94184e9379d/paloma_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="paloma_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/96/50/307671b804a2109270545039582940f6f477ff1c9557eb5be94184e9379d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

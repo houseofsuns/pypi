@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># statute-utils![Github CI](https://github.com/justmars/statute-utils/actions/workflows/main.yml/badge.svg)Philippine statutory law pattern matching and unit retrieval; utilized in [LawSQL dataset](https://lawsql.com).## DocumentationSee [documentation](https://justmars.github.io/statute-utils).## DevelopmentCheckout code, create a new virtual environment:```shpoetry add statute-utils # python -m pip install statute-utilspoetry update # install dependenciespoetry shell```## Some unit patterns```json title=&quot;Convention used when desiring to exclude appropriation laws.&quot;{  &quot;units&quot;: [    {        &quot;item&quot;: &quot;Container 1&quot;,        &quot;content&quot;: &quot;Appropriation laws are excluded.&quot;,    }  ]}``````json title=&quot;Convention used when no content found.&quot;UNITS_NONE = [    {        &quot;item&quot;: &quot;Container 1&quot;,        &quot;content&quot;: &quot;Individual provisions not detected.&quot;,    }]```</longdescription>
+</pkgmetadata>

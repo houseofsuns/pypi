@@ -15,8 +15,8 @@ DESCRIPTION="Return photo list and caption (markdown format) from weibo."
 
 HOMEPAGE="https://github.com/gaoyunzhi/weibo_2_album"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/36/73/1510a8cf26178e8cde5c507a667452e05a5e845713a3e5073fdbaab3e09c/weibo_2_album-${REALVERSION}.tar.gz"
-SOURCEFILE="weibo_2_album-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/36/73/1510a8cf26178e8cde5c507a667452e05a5e845713a3e5073fdbaab3e09c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

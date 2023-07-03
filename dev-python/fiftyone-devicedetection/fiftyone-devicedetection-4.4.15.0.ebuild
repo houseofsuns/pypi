@@ -15,8 +15,8 @@ DESCRIPTION="The 51Degrees Pipeline API is a generic web request intelligence an
 
 HOMEPAGE="https://51degrees.com/"
 LICENSE="EUPL-1.2"
-SRC_URI="https://files.pythonhosted.org/packages/16/8d/cd799cfc295c92e879587bab3bc9cb8e044a7ae235aca818ee51da24f95f/fiftyone_devicedetection-${REALVERSION}.tar.gz"
-SOURCEFILE="fiftyone_devicedetection-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/16/8d/cd799cfc295c92e879587bab3bc9cb8e044a7ae235aca818ee51da24f95f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

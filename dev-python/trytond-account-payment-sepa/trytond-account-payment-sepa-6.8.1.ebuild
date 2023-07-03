@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module for SEPA payment"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/b9/41/1ce84f51dcc7449006c88cef91216e170ef40a09208dd0df20a3b871061f/trytond_account_payment_sepa-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_account_payment_sepa-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b9/41/1ce84f51dcc7449006c88cef91216e170ef40a09208dd0df20a3b871061f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

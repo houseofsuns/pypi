@@ -15,8 +15,8 @@ DESCRIPTION="Python tool to backup unifi event clips in realtime."
 
 HOMEPAGE="https://github.com/ep1cman/unifi-protect-backup"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ea/1d/e5d959dc80051fb8331b2936b70120e1c55805bc2b9c4d0ab1b2b595cda5/unifi_protect_backup-${REALVERSION}.tar.gz"
-SOURCEFILE="unifi_protect_backup-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ea/1d/e5d959dc80051fb8331b2936b70120e1c55805bc2b9c4d0ab1b2b595cda5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

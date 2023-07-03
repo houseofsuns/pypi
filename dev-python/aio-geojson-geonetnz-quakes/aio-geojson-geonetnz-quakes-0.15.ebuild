@@ -15,8 +15,8 @@ DESCRIPTION="An async GeoJSON client library for GeoNet NZ Quakes feed."
 
 HOMEPAGE="https://github.com/exxamalte/python-aio-geojson-geonetnz-quakes"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e5/55/2063c2100c44b1a7cb032c793d1f4a89ff99cdca0e501ee75557ea35cc04/aio_geojson_geonetnz_quakes-${REALVERSION}.tar.gz"
-SOURCEFILE="aio_geojson_geonetnz_quakes-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e5/55/2063c2100c44b1a7cb032c793d1f4a89ff99cdca0e501ee75557ea35cc04/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="a helpful set of convocations to create certs"
 
 HOMEPAGE="https://bitbucket.org/dbuy/secure_sedge"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/fb/e6/7b96a2ac6e0035921f74136420aa4f442dfac3ba915fc0e93563bb2a18e0/secure_sedge-${REALVERSION}.tar.gz"
-SOURCEFILE="secure_sedge-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fb/e6/7b96a2ac6e0035921f74136420aa4f442dfac3ba915fc0e93563bb2a18e0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

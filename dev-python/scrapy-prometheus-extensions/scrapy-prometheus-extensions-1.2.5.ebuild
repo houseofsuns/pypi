@@ -15,8 +15,8 @@ DESCRIPTION="scrapy_prometheus_extensions"
 
 HOMEPAGE="https://github.com/boyLong/scrapy-prometheus-extensions"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ea/46/bd5c7f900bef2efdf65d38de866f63e7ff0229b63f2094033e4e9698c4af/scrapy_prometheus_extensions-${REALVERSION}.tar.gz"
-SOURCEFILE="scrapy_prometheus_extensions-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ea/46/bd5c7f900bef2efdf65d38de866f63e7ff0229b63f2094033e4e9698c4af/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

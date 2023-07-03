@@ -15,8 +15,8 @@ DESCRIPTION="Test Framework for the ByteBlower Traffic Generator."
 
 HOMEPAGE="https://www.byteblower.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/db/17/856abdf32c7297bb40ea4cc7d19ffcc5cc9ae4bcf284b02f5289a0b3eee5/byteblower_test_framework-${REALVERSION}.tar.gz"
-SOURCEFILE="byteblower_test_framework-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/db/17/856abdf32c7297bb40ea4cc7d19ffcc5cc9ae4bcf284b02f5289a0b3eee5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

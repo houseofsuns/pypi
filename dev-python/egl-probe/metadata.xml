@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># egl_probeAuthor: Fei Xia (feixia@stanford.edu)Adapted from (https://github.com/erwincoumans/egl_example).## Install from pypi```bashpip install egl_probepython -m egl_probe.get_available_devices```## Install from source```bashpip install -e .python get_available_devices.py```## Example output```INFO:root:Device 0 is available for renderingINFO:root:Device 1 is available for renderingINFO:root:Device 2 is available for renderingINFO:root:Device 3 is available for renderingINFO:root:Graphics Devices: [0, 1, 2, 3]INFO:root:Graphics Device CUDA Ids: [3, 2, 1, 0]```</longdescription>
+</pkgmetadata>

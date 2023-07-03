@@ -15,8 +15,8 @@ DESCRIPTION="SpaCy models for using Universal Sentence Encoder from TensorFlow H
 
 HOMEPAGE="https://github.com/MartinoMensio/spacy-universal-sentence-encoder"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5b/11/9eee30bbe6110ac63939df08ba3007f4a8244a086dafb645bacb826a6a9f/spacy_universal_sentence_encoder-${REALVERSION}.tar.gz"
-SOURCEFILE="spacy_universal_sentence_encoder-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5b/11/9eee30bbe6110ac63939df08ba3007f4a8244a086dafb645bacb826a6a9f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

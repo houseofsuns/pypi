@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>==============Altocumulus==============|PyPI| |Python| |License| |Docs|.. |PyPI| image:: https://img.shields.io/pypi/v/altocumulus.svg   :target: https://pypi.org/project/altocumulus.. |Python| image:: https://img.shields.io/pypi/pyversions/altocumulus   :target: https://pypi.org/project/altocumulus.. |License| image:: https://img.shields.io/github/license/lilab-bcb/altocumulus   :target: https://github.com/lilab-bcb/altocumulus/blob/master/LICENSE.. |Docs| image:: https://readthedocs.org/projects/altocumulus/badge/?version=latest   :target: https://altocumulus.readthedocs.ioCommand line utilities for running workflows on `Terra &lt;https://app.terra.bio&gt;`_ or `Cromwell &lt;https://cromwell.readthedocs.io&gt;`_ including:- Run a Terra method, and bulk add/delete methods on Terra.- Submit WDL workflow jobs to a sever running Cromwell, as well as check jobs' status, abort jobs, and get logs.- Replace local file paths with remote Cloud (Google Cloud or Amazon AWS) bucket URIs, and automatically upload referenced files to Cloud buckets.- Parse monitoring log files to determine optimal instance type and disk space.Important tools used by Altocumulus:- `FireCloud Swagger &lt;https://api.firecloud.org/&gt;`_- `Dockstore Swagger &lt;https://dockstore.org/api/static/swagger-ui/index.html&gt;`_- `FireCloud Service Selector &lt;https://github.com/broadinstitute/fiss&gt;`_ (FISS). In particular, `fiss/firecloud/api.py &lt;https://github.com/broadinstitute/fiss/blob/master/firecloud/api.py&gt;`_.</longdescription>
+</pkgmetadata>

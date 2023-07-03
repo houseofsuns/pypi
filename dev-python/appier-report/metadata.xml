@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># appier-report[![release](https://img.shields.io/pypi/v/appier-report.svg)](https://pypi.org/project/appier-report/)[![docs](https://img.shields.io/website/https/ikamedawn.github.io/appier-report/index.html.svg?label=docs&amp;down_message=unavailable&amp;up_message=available)](https://ikamedawn.github.io/appier-report)[![develop](https://github.com/ikamedawn/appier-report/actions/workflows/dev.yml/badge.svg)](https://github.com/ikamedawn/appier-report/actions/workflows/dev.yml)[![main](https://github.com/ikamedawn/appier-report/actions/workflows/release.yml/badge.svg)](https://github.com/ikamedawn/appier-report/actions/workflows/release.yml)Report APIs wrapper## Features* Something* Something else</longdescription>
+</pkgmetadata>

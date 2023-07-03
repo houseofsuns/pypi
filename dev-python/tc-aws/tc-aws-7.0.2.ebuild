@@ -15,8 +15,8 @@ DESCRIPTION="Thumbor AWS extensions"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/44/31/eb0fc62990d060ccab8300eb08c05f49a83b40eeed2efa80510a7e32f80e/tc_aws-${REALVERSION}.tar.gz"
-SOURCEFILE="tc_aws-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/44/31/eb0fc62990d060ccab8300eb08c05f49a83b40eeed2efa80510a7e32f80e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="py.test plugin to check import ordering using isort"
 
 HOMEPAGE="https://github.com/stephrdev/pytest-isort"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ab/64/34069208235cdf6650c41a210ca08c47eba88b44de817c92ac0a4df68641/pytest_isort-${REALVERSION}.tar.gz"
-SOURCEFILE="pytest_isort-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ab/64/34069208235cdf6650c41a210ca08c47eba88b44de817c92ac0a4df68641/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="SDK for Hyperliquid API trading with Python."
 
 HOMEPAGE="https://github.com/hyperliquid-dex/hyperliquid-python-sdk"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9c/49/fa1503d98c853477291ba88e727e2bd743323c446022d174b114da55fbde/hyperliquid_python_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="hyperliquid_python_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9c/49/fa1503d98c853477291ba88e727e2bd743323c446022d174b114da55fbde/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

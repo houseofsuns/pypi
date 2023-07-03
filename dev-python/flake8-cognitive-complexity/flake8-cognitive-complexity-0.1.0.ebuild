@@ -15,8 +15,8 @@ DESCRIPTION="An extension for flake8 that validates cognitive functions complexi
 
 HOMEPAGE="https://github.com/Melevir/flake8-cognitive-complexity"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e7/d6/2bb09fab21521424d5afc836aa0057d15a92f5e738e506a3e3cb035be517/flake8_cognitive_complexity-${REALVERSION}.tar.gz"
-SOURCEFILE="flake8_cognitive_complexity-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e7/d6/2bb09fab21521424d5afc836aa0057d15a92f5e738e506a3e3cb035be517/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

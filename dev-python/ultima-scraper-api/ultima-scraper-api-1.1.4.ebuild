@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6e/c9/e8ba6e9014c6c9e82044d36e15711bf53472dddf4268fe676dcc851ee115/ultima_scraper_api-${REALVERSION}.tar.gz"
-SOURCEFILE="ultima_scraper_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6e/c9/e8ba6e9014c6c9e82044d36e15711bf53472dddf4268fe676dcc851ee115/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

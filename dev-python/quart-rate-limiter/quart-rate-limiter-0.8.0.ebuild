@@ -15,8 +15,8 @@ DESCRIPTION="A Quart extension to provide rate limiting support"
 
 HOMEPAGE="https://github.com/pgjones/quart-rate-limiter/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2b/70/c456febb81e89b89d9fff424d1ddf1753efffbb6854afaf70de85633df78/quart_rate_limiter-${REALVERSION}.tar.gz"
-SOURCEFILE="quart_rate_limiter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2b/70/c456febb81e89b89d9fff424d1ddf1753efffbb6854afaf70de85633df78/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

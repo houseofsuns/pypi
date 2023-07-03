@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># text2speech[![PyPI - Version](https://img.shields.io/pypi/v/farm-haystack-text2speech.svg)](https://pypi.org/project/farm-haystack-text2speech)[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/farm-haystack-text2speech.svg)](https://pypi.org/project/farm-haystack-text2speech)---**Table of Contents**- [Installation](#installation)- [Usage](#usage)- [License](#license)## Installation```consolepip install farm-haystack-text2speech```## InstallationStep 1. Install the audio system dependencies. On Debian-based systems:```consolesudo apt-get install libsndfile1 ffmpeg```Step 2. Install the package. With pip:```consolepip install farm-haystack-text2speech```## License`haystack-text2speech` is distributed under the terms of the [Apache-2.0](https://spdx.org/licenses/Apache-2.0.html) license.</longdescription>
+</pkgmetadata>

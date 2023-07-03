@@ -15,8 +15,8 @@ DESCRIPTION="RTB House SDK"
 
 HOMEPAGE="https://github.com/rtbhouse-apps/rtbhouse-python-sdk"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/74/de/7f3d7cb077827de899c2036108f120da1c8c3fcba0dea4ed129337bfc6a3/rtbhouse_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="rtbhouse_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/74/de/7f3d7cb077827de899c2036108f120da1c8c3fcba0dea4ed129337bfc6a3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

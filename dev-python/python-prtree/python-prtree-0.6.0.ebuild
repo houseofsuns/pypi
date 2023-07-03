@@ -15,8 +15,8 @@ DESCRIPTION="Python implementation of Priority R-Tree"
 
 HOMEPAGE="https://github.com/atksh/python_prtree"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/31/f8/b8d9d99fdc6873030490c1ecb7bae1099ff798669ed8f8440cb762ecaf19/python_prtree-${REALVERSION}.tar.gz"
-SOURCEFILE="python_prtree-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/31/f8/b8d9d99fdc6873030490c1ecb7bae1099ff798669ed8f8440cb762ecaf19/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

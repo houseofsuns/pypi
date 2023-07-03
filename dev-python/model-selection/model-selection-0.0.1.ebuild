@@ -15,8 +15,8 @@ DESCRIPTION="A Library which provides more information about suitable Machine le
 
 HOMEPAGE="https://github.com/ManikandanJeyabal/ChooseMyALGO"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6e/ae/a6f948ccbc61576635d9efa49c721d4b3dd0b877138e14488c22dfbccdd9/model_selection-${REALVERSION}.tar.gz"
-SOURCEFILE="model_selection-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6e/ae/a6f948ccbc61576635d9efa49c721d4b3dd0b877138e14488c22dfbccdd9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

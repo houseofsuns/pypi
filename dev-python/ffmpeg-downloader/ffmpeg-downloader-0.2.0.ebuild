@@ -15,8 +15,8 @@ DESCRIPTION="FFmpeg Release Build Downloader"
 
 HOMEPAGE=""
 LICENSE="GPL-2.0 License"
-SRC_URI="https://files.pythonhosted.org/packages/4c/f2/ad7ba6c53181b78c09171b5ed0be8295c15f2653cc01f42b9090320b409b/ffmpeg_downloader-${REALVERSION}.tar.gz"
-SOURCEFILE="ffmpeg_downloader-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4c/f2/ad7ba6c53181b78c09171b5ed0be8295c15f2653cc01f42b9090320b409b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

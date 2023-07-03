@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>flake8-init-return================flake8 plugin which forbids not having a return type on a class' `__init__` function## installation`pip install flake8-init-return`## flake8 codes| Code   | Description                         ||--------|-------------------------------------|| FIR100 | missing return value for initalizer |## rationaleAs [PEP-484](https://peps.python.org/pep-0484/) says, a class' `__init__`functions ought to be annotated with `-&gt; None`. This plugin makes surethat they are annotated, but it leaves up the type checking for anothertool.This might be useful when a type checker is not yet integratedinto a project's development flow.## as a pre-commit hookSee [pre-commit](https://github.com/pre-commit/pre-commit) for instructionsSample `.pre-commit-config.yaml`:```yaml-   repo: https://github.com/pycqa/flake8    rev: 3.8.1    hooks:    -   id: flake8        additional_dependencies: [flake8-init-return==1.0.0]```</longdescription>
+</pkgmetadata>

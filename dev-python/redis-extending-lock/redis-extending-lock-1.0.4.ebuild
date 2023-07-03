@@ -15,8 +15,8 @@ DESCRIPTION="Reacquiring lock for redis"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2c/52/157c5b49184eaf363c1c76a44d8aededa2b72e8ef2fe8f10040a2120ce74/redis_extending_lock-${REALVERSION}.tar.gz"
-SOURCEFILE="redis_extending_lock-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2c/52/157c5b49184eaf363c1c76a44d8aededa2b72e8ef2fe8f10040a2120ce74/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="RPC bridge to/from Python2/Python3/Jython/etc"
 
 HOMEPAGE="https://github.com/justfoxing/jfx_bridge"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ce/13/796445dd00e517bc9551261cb86e9b0d8cff873b37f92421a3e0badc61bc/jfx_bridge-${REALVERSION}.tar.gz"
-SOURCEFILE="jfx_bridge-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ce/13/796445dd00e517bc9551261cb86e9b0d8cff873b37f92421a3e0badc61bc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

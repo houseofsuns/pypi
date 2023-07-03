@@ -15,8 +15,8 @@ DESCRIPTION="Sandbox for Computational Protein Design"
 
 HOMEPAGE="https://github.com/martinez-zacharya/TRILL"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/10/ac/1165a5c4b32c543a902eae231233713e82922be806bd25690888d18d7df1/trill_proteins-${REALVERSION}.tar.gz"
-SOURCEFILE="trill_proteins-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/10/ac/1165a5c4b32c543a902eae231233713e82922be806bd25690888d18d7df1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Get and cast environment variables"
 
 HOMEPAGE="http://github.com/Media-Platforms/cast-from-env"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/42/21/b113ff62cfe4fdd6850ffa827589686f146965324c8f8598a7fc171adfbd/cast_from_env-${REALVERSION}.tar.gz"
-SOURCEFILE="cast_from_env-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/42/21/b113ff62cfe4fdd6850ffa827589686f146965324c8f8598a7fc171adfbd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

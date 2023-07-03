@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/62/a0/0374ddf6a0e904e6dd37411e555fd2f623dc942d159ee2693de7c46a666e/ultima_scraper_renamer-${REALVERSION}.tar.gz"
-SOURCEFILE="ultima_scraper_renamer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/62/a0/0374ddf6a0e904e6dd37411e555fd2f623dc942d159ee2693de7c46a666e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

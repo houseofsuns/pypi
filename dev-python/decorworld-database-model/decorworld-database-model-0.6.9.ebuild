@@ -15,8 +15,8 @@ DESCRIPTION="Database models for DecorWorld"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d9/1d/e136f1627d0b5d423fe100cfac5dad5a81b0d08203b07e7956bd2e1c2033/decorworld_database_model-${REALVERSION}.tar.gz"
-SOURCEFILE="decorworld_database_model-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d9/1d/e136f1627d0b5d423fe100cfac5dad5a81b0d08203b07e7956bd2e1c2033/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

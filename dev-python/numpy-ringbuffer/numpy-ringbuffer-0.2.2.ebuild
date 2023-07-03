@@ -15,8 +15,8 @@ DESCRIPTION="Ring buffer implementation for numpy"
 
 HOMEPAGE="https://github.com/eric-wieser/numpy_ringbuffer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3a/0b/08bc9f01677daa58059325e6a1efb18e79c93fbe5d3ffe910349bfbbdea0/numpy_ringbuffer-${REALVERSION}.tar.gz"
-SOURCEFILE="numpy_ringbuffer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3a/0b/08bc9f01677daa58059325e6a1efb18e79c93fbe5d3ffe910349bfbbdea0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

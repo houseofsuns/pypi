@@ -15,8 +15,8 @@ DESCRIPTION="Toolset for antivirus, NTFS/ReFS ACLs, file ownership, registry, us
 
 HOMEPAGE="https://github.com/netinvent/windows_tools"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/3c/98/ee4d614817ce76024bafb3a7640449c92fbe9ea6ea17dddc40e7c069e249/windows_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="windows_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3c/98/ee4d614817ce76024bafb3a7640449c92fbe9ea6ea17dddc40e7c069e249/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Foreground modeling/removal and Power Spectra generation"
 
 HOMEPAGE="https://gitlab.com/flomertens/ps_eor"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/35/55/0f41115d001e4e8085dc38fac4cc7808a5c0ba41a56f6281ddcf23409597/ps_eor-${REALVERSION}.tar.gz"
-SOURCEFILE="ps_eor-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/35/55/0f41115d001e4e8085dc38fac4cc7808a5c0ba41a56f6281ddcf23409597/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

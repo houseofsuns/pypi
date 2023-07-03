@@ -15,8 +15,8 @@ DESCRIPTION="Open source toolkit for helping create serving containers to run on
 
 HOMEPAGE="https://github.com/aws/sagemaker-inference-toolkit/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e7/20/97ee2c50294b3518c0b00a484d12224b133a2eeb3764e4b84200c2c83c11/sagemaker_inference-${REALVERSION}.tar.gz"
-SOURCEFILE="sagemaker_inference-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e7/20/97ee2c50294b3518c0b00a484d12224b133a2eeb3764e4b84200c2c83c11/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

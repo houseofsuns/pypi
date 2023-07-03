@@ -15,8 +15,8 @@ DESCRIPTION="pymysql connection & pool manager for python3"
 
 HOMEPAGE="https://github.com/zhouyl/pymysql-connection-manager"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/85/1c/a90903f3f775fad223f2e9995a3ac04a4b6be19e68508b6434fbb893e648/pymysql_manager-${REALVERSION}.tar.gz"
-SOURCEFILE="pymysql_manager-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/85/1c/a90903f3f775fad223f2e9995a3ac04a4b6be19e68508b6434fbb893e648/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A small example package"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ad/e8/f55d83d8608559dc58631f69e29900f5d2a99d0f89470e16ea22d394eacf/cb_kafka_consumer-${REALVERSION}.tar.gz"
-SOURCEFILE="cb_kafka_consumer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ad/e8/f55d83d8608559dc58631f69e29900f5d2a99d0f89470e16ea22d394eacf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

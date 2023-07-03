@@ -15,8 +15,8 @@ DESCRIPTION="Client for making Web API request from a Microsoft Dynamics 365 Dat
 
 HOMEPAGE="https://github.com/MrThearMan/dynamics-client/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/33/36/a9479e5426c72c3a57a29b0d3ccd8edefdc51fece193c13a263838745859/dynamics_client-${REALVERSION}.tar.gz"
-SOURCEFILE="dynamics_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/33/36/a9479e5426c72c3a57a29b0d3ccd8edefdc51fece193c13a263838745859/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

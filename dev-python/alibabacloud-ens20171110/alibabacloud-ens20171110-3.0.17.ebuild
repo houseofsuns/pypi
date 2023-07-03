@@ -15,8 +15,8 @@ DESCRIPTION="Alibaba Cloud edge node service (20171110) SDK Library for Python"
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d1/5c/c9c4c2c4d2a6cf591bfba0e65c3b337a2827b9defac35af14e91ac9a1924/alibabacloud_ens20171110-${REALVERSION}.tar.gz"
-SOURCEFILE="alibabacloud_ens20171110-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d1/5c/c9c4c2c4d2a6cf591bfba0e65c3b337a2827b9defac35af14e91ac9a1924/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Main functionalities for the curator core project"
 
 HOMEPAGE="https://github.com/usnistgov/core_main_app"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a4/f4/ed44606144dc6f96ef5bc94abeb8b87bac3ac884a51a25da1ca252fd5c34/core_main_app-${REALVERSION}.tar.gz"
-SOURCEFILE="core_main_app-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a4/f4/ed44606144dc6f96ef5bc94abeb8b87bac3ac884a51a25da1ca252fd5c34/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

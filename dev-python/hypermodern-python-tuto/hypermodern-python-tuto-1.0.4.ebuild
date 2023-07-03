@@ -15,8 +15,8 @@ DESCRIPTION="Repo to follow the Claudio Jolowicz's tutorial about Hypermodern Py
 
 HOMEPAGE="https://github.com/le-chartreux/hypermodern-python-tuto"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c2/b5/64f2d2f0acbec507503d56e4ed4bff82bf131148dbab13b438dc470012c6/hypermodern_python_tuto-${REALVERSION}.tar.gz"
-SOURCEFILE="hypermodern_python_tuto-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c2/b5/64f2d2f0acbec507503d56e4ed4bff82bf131148dbab13b438dc470012c6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

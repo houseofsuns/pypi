@@ -15,8 +15,8 @@ DESCRIPTION="HTTP REST client, simplified for Python"
 
 HOMEPAGE="https://github.com/sendgrid/python-http-client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/56/fa/284e52a8c6dcbe25671f02d217bf2f85660db940088faf18ae7a05e97313/python_http_client-${REALVERSION}.tar.gz"
-SOURCEFILE="python_http_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/56/fa/284e52a8c6dcbe25671f02d217bf2f85660db940088faf18ae7a05e97313/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

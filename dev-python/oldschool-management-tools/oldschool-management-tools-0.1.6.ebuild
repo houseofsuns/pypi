@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0d/26/b36a9ed7fd4893c1107d00614bc2f3c311a90a2d93296edf2bd148b05d6b/oldschool_management_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="oldschool_management_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0d/26/b36a9ed7fd4893c1107d00614bc2f3c311a90a2d93296edf2bd148b05d6b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

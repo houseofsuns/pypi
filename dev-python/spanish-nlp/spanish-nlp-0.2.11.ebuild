@@ -15,8 +15,8 @@ DESCRIPTION="A package for NLP in Spanish"
 
 HOMEPAGE="https://github.com/jorgeortizfuentes/spanish_nlp"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cc/13/ae4fa94d702bd020a09d03f7492e69e8480d0df7bbbf3c82a4c8ee7b810c/spanish_nlp-${REALVERSION}.tar.gz"
-SOURCEFILE="spanish_nlp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cc/13/ae4fa94d702bd020a09d03f7492e69e8480d0df7bbbf3c82a4c8ee7b810c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

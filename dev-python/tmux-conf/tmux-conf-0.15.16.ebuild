@@ -15,8 +15,8 @@ DESCRIPTION="Generates version checked tmux conf"
 
 HOMEPAGE="https://github.com/jaclu/tmux-conf"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3c/02/95fa272d2b6fead1d4a2447b22ade65880953becc9b2e27aee345fb36f5d/tmux_conf-${REALVERSION}.tar.gz"
-SOURCEFILE="tmux_conf-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3c/02/95fa272d2b6fead1d4a2447b22ade65880953becc9b2e27aee345fb36f5d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

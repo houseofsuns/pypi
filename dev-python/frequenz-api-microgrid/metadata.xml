@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Frequenz Microgrid API======================Microgrid is a gRPC API used to provide monitoring and control over thecomponents of a microgrid.This repository provides the core gRPC and protobuf spec together withsupport for generating dedicated API packages for various languages.Contributing============If you want to know how to build this project and contribute to it, pleasecheck out the [ContributingGuide](https://github.com/frequenz-floss/frequenz-api-microgrid/blob/v0.x.x/CONTRIBUTING.md).</longdescription>
+</pkgmetadata>

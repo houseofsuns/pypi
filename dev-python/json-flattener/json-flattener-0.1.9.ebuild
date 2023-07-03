@@ -15,8 +15,8 @@ DESCRIPTION="Python library for denormalizing nested dicts or json objects to ta
 
 HOMEPAGE="https://github.com/cmungall/json-flattener"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/6d/77/b00e46d904818826275661a690532d3a3a43a4ded0264b2d7fcdb5c0feea/json_flattener-${REALVERSION}.tar.gz"
-SOURCEFILE="json_flattener-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6d/77/b00e46d904818826275661a690532d3a3a43a4ded0264b2d7fcdb5c0feea/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

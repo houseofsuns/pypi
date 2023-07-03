@@ -15,8 +15,8 @@ DESCRIPTION="OCF Blosc2 is a codec for numcodecs for compressing image data in Z
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a8/64/0881cd650c29a8932c206edfedd966a3f873de871e11db196975bf3b112d/ocf_blosc2-${REALVERSION}.tar.gz"
-SOURCEFILE="ocf_blosc2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a8/64/0881cd650c29a8932c206edfedd966a3f873de871e11db196975bf3b112d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

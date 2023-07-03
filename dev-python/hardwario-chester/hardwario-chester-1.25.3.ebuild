@@ -15,8 +15,8 @@ DESCRIPTION="HARDWARIO CHESTER"
 
 HOMEPAGE="https://github.com/hardwario/py-hardwario-chester"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/de/45/1613c70ae7a4ebdd5f3e4e66dc4901ebae137ca6067e4dc022dbe73b472e/hardwario_chester-${REALVERSION}.tar.gz"
-SOURCEFILE="hardwario_chester-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/de/45/1613c70ae7a4ebdd5f3e4e66dc4901ebae137ca6067e4dc022dbe73b472e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

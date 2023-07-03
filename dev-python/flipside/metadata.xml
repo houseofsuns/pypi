@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Python SDK for the Flipside API, by Flipside Crypto[![Python Continuous Testing](https://github.com/FlipsideCrypto/sdk/actions/workflows/ci_python.yml/badge.svg)](https://github.com/FlipsideCrypto/sdk/actions/workflows/ci_python.yml)The Python SDK, by Flipside Crypto gives you programmatic query access to the most reliable &amp; comprehensive blockchain data sets in Web3, for free. More details on the SDK/API [here](https://docs.flipsidecrypto.com/flipside-api/get-started).## Get StartedGet started by checking out the docs on our [Gitbook here](https://docs.flipsidecrypto.com/flipside-api/get-started/python):[📖 Official Docs](https://docs.flipsidecrypto.com/flipside-api/get-started/python)</longdescription>
+</pkgmetadata>

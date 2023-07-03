@@ -15,8 +15,8 @@ DESCRIPTION="Tornado instrumentation for OpenTelemetry"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-tornado"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ac/27/cbebba5a214e919e93e377c184ee3cd22cda0667549c52f66e830633115a/opentelemetry_instrumentation_tornado-${REALVERSION}.tar.gz"
-SOURCEFILE="opentelemetry_instrumentation_tornado-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ac/27/cbebba5a214e919e93e377c184ee3cd22cda0667549c52f66e830633115a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

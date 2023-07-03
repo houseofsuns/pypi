@@ -15,8 +15,8 @@ DESCRIPTION="Kmer Mapper"
 
 HOMEPAGE="http://github.com/ivargr/kmer_mapper"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b0/ec/2971e7985e707175112582148b5ed1775f9348ca9fc5e861e2f36a97540d/kmer_mapper-${REALVERSION}.tar.gz"
-SOURCEFILE="kmer_mapper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b0/ec/2971e7985e707175112582148b5ed1775f9348ca9fc5e861e2f36a97540d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

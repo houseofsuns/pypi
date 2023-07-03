@@ -15,8 +15,8 @@ DESCRIPTION="Create histogram and density plots from PySpark Dataframes"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/de/73/87e3f5d72420be7f13861d760d6b22d877a9bea3d37e04b3d1097f56cdec/pyspark_dist_explore-${REALVERSION}.tar.gz"
-SOURCEFILE="pyspark_dist_explore-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/de/73/87e3f5d72420be7f13861d760d6b22d877a9bea3d37e04b3d1097f56cdec/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

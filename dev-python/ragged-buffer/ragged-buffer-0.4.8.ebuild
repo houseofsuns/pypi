@@ -15,8 +15,8 @@ DESCRIPTION="Efficient RaggedBuffer datatype that implements 3D arrays with vari
 
 HOMEPAGE=""
 LICENSE="MIT OR Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/72/8f/38ebc4f35320f3ed2b7e328a5c5355c36d2db00125e4fecc57a3cfde34d0/ragged_buffer-${REALVERSION}.tar.gz"
-SOURCEFILE="ragged_buffer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/72/8f/38ebc4f35320f3ed2b7e328a5c5355c36d2db00125e4fecc57a3cfde34d0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Python library to download bulk images from Bing.com"
 
 HOMEPAGE="https://github.com/gurugaurav/bing_image_downloader"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/11/a5/2151c13f10a365617bceba904e7ae27a352dd847fe1a4d3d02b2e7d94736/bing_image_downloader-${REALVERSION}.tar.gz"
-SOURCEFILE="bing_image_downloader-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/11/a5/2151c13f10a365617bceba904e7ae27a352dd847fe1a4d3d02b2e7d94736/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

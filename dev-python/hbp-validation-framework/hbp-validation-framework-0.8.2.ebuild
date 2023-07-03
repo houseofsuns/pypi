@@ -15,8 +15,8 @@ DESCRIPTION="Python client for the EBRAINS Validation Framework web services"
 
 HOMEPAGE="https://github.com/HumanBrainProject/hbp-validation-client"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/ec/f2/8844fafd4d38e6503d01a658dd2f94bce1983d14a9ee24203383302b0f6f/hbp_validation_framework-${REALVERSION}.tar.gz"
-SOURCEFILE="hbp_validation_framework-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ec/f2/8844fafd4d38e6503d01a658dd2f94bce1983d14a9ee24203383302b0f6f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

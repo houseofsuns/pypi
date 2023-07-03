@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># rx[rx](https://www.run-rx.com) is a command-line tool to help make remoteexecution easy.When you run rx it creates a private hosted environment in the cloud where allof your source code is automatically synced and any packages you need areinstalled. It automatically syncs output back to your machine and syncs localchanges to your cloud instance.Right now rx is free to use, please give it a try and [let us know](mailto:eng@run-rx.com) what you think!## InstallationInstall via pip:    pip install run-rxrx also requires rsync to run, make sure you have it installed:    which rsyncIf not, check out [its website](https://rsync.samba.org/download.html) or yourfavorite package manager to install.## UsageIn the directory containing your project (often your git root), run:    rx initThis will prompt you to log in (or create an account) and allocate a machinein the cloud for you to use. Then it will copy your project from your localmachine to the cloud instance and install any packages that your project needs.It may take several minutes to allocate a machine, copy your source code, and install packages (depending on your project).Once rx finishes initializing, you can run any command on your remote workerby prefixing it with &quot;rx&quot;:    rx python my-script.py    rx ps ax    rx 'echo $PATH &gt; my-path.txt'Check out the [getting-started](https://github.com/run-rx/getting-started) repository for more examples.## FeedbackFeel free to [file an issue](https://github.com/run-rx/rx/issues) if you haveany questions or problems!## TestingTo run tests, use:```pip install -r test_requirements.txtPYTHONPATH=. pytest```</longdescription>
+</pkgmetadata>

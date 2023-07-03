@@ -15,8 +15,8 @@ DESCRIPTION="Canvas course tools"
 
 HOMEPAGE="https://github.com/davidfokkema/canvas-course-tools"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/94/ee/fe68dc895580bbb1308f4cf4842736e824dcb315ae8b9e9bd88d29b62017/canvas_course_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="canvas_course_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/94/ee/fe68dc895580bbb1308f4cf4842736e824dcb315ae8b9e9bd88d29b62017/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="This SDK provides operations for interfacing with the Cohesity Clus
 
 HOMEPAGE="https://github.com/cohesity/management-sdk-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/00/ac/dea2c4b9c92573dac3fb0c306eb51a7d3fc0b1ee9886cd57001d69b1bd5e/cohesity_management_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="cohesity_management_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/00/ac/dea2c4b9c92573dac3fb0c306eb51a7d3fc0b1ee9886cd57001d69b1bd5e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

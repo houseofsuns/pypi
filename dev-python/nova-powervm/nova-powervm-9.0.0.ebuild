@@ -15,8 +15,8 @@ DESCRIPTION="PowerVM driver for OpenStack Nova."
 
 HOMEPAGE="https://nova-powervm.readthedocs.io"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0a/db/596ebab4ae43c5cdcb6569846e1bc57ea58b09c913980b3d90696e50e2af/nova_powervm-${REALVERSION}.tar.gz"
-SOURCEFILE="nova_powervm-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0a/db/596ebab4ae43c5cdcb6569846e1bc57ea58b09c913980b3d90696e50e2af/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

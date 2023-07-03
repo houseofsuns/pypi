@@ -15,8 +15,8 @@ DESCRIPTION="Logging/encoding/decoding using CLP's IR stream format"
 
 HOMEPAGE="https://github.com/y-scope/clp-loglib-py"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/4d/c7/638111e67be0f58b6980319ff7569e6d4665fe92a7e14adb290134237775/clp_logging-${REALVERSION}.tar.gz"
-SOURCEFILE="clp_logging-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4d/c7/638111e67be0f58b6980319ff7569e6d4665fe92a7e14adb290134237775/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

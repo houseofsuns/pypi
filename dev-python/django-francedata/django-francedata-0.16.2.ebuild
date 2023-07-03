@@ -15,8 +15,8 @@ DESCRIPTION="A Django app to provide a database structure, API and import script
 
 HOMEPAGE="https://github.com/entrepreneur-interet-general/django-francedata"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/fc/8e/a12f2762be8578d62adae22af9159feaf3efc3acf29038043f429e8c2ce0/django_francedata-${REALVERSION}.tar.gz"
-SOURCEFILE="django_francedata-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fc/8e/a12f2762be8578d62adae22af9159feaf3efc3acf29038043f429e8c2ce0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

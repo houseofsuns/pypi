@@ -15,8 +15,8 @@ DESCRIPTION="fast_diff_match_patch: Python package wrapping the C++ implementati
 
 HOMEPAGE="https://github.com/JoshData/fast_diff_match_patch"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/db/b3/d21a9e7d31a32564874046042caf695b04c7967941d237bbc4f6dd2d76a0/fast_diff_match_patch-${REALVERSION}.tar.gz"
-SOURCEFILE="fast_diff_match_patch-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/db/b3/d21a9e7d31a32564874046042caf695b04c7967941d237bbc4f6dd2d76a0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

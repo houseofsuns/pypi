@@ -15,8 +15,8 @@ DESCRIPTION="The python version reference vector guided evolutionary algorithm."
 
 HOMEPAGE=""
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/28/da/933debb996b94b5865ae407dee0cee4248be590fd8067ab2cca0bd8f2a46/desdeo_emo-${REALVERSION}.tar.gz"
-SOURCEFILE="desdeo_emo-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/28/da/933debb996b94b5865ae407dee0cee4248be590fd8067ab2cca0bd8f2a46/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

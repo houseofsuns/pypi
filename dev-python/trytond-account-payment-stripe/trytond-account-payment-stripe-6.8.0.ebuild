@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module for Stripe payment"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/0f/ab/7af644d6061046414eb954cc32f27cffc8ef39d91e361774eade8ca9297b/trytond_account_payment_stripe-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_account_payment_stripe-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0f/ab/7af644d6061046414eb954cc32f27cffc8ef39d91e361774eade8ca9297b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Reusable Django app for Penn Labs accounts"
 
 HOMEPAGE="https://github.com/pennlabs/django-labs-accounts"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3e/db/066d9f0d8fc6d966ef8051037dd9a423f475180db3eca207800acd31a5a9/django_labs_accounts-${REALVERSION}.tar.gz"
-SOURCEFILE="django_labs_accounts-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3e/db/066d9f0d8fc6d966ef8051037dd9a423f475180db3eca207800acd31a5a9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

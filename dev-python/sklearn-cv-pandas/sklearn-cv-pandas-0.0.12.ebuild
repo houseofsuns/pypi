@@ -15,8 +15,8 @@ DESCRIPTION="RandomizedSearchCV/GridSearchCV with pandas.DataFrame interface"
 
 HOMEPAGE="https://github.com/not-so-fat/sklearn_cv_pandas"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/05/2c/b1b023e8f187f264bd2cef41e91c0e9f5dbd88b9ecee7216263e91de1666/sklearn_cv_pandas-${REALVERSION}.tar.gz"
-SOURCEFILE="sklearn_cv_pandas-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/05/2c/b1b023e8f187f264bd2cef41e91c0e9f5dbd88b9ecee7216263e91de1666/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

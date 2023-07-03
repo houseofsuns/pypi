@@ -15,8 +15,8 @@ DESCRIPTION="An unified tool for the research in extracting information from Wik
 
 HOMEPAGE="https://twb.lingxi.li/"
 LICENSE="GNU GPL"
-SRC_URI="https://files.pythonhosted.org/packages/2c/a1/84658a9e867828027bfe171d8ad9a9605f2cb3ff9631907c868edfa99880/twb_project-${REALVERSION}.tar.gz"
-SOURCEFILE="twb_project-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2c/a1/84658a9e867828027bfe171d8ad9a9605f2cb3ff9631907c868edfa99880/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

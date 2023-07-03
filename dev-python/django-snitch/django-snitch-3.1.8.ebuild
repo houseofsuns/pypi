@@ -15,8 +15,8 @@ DESCRIPTION="Django app made to integrate generic events that create notificatio
 
 HOMEPAGE="https://github.com/marcosgabarda/django-snitch"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/65/cc/384a28e0bf8e09cce7607df4183402bfd591586f6b77d436ad51e66bbf5a/django_snitch-${REALVERSION}.tar.gz"
-SOURCEFILE="django_snitch-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/65/cc/384a28e0bf8e09cce7607df4183402bfd591586f6b77d436ad51e66bbf5a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

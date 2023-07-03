@@ -15,8 +15,8 @@ DESCRIPTION="Confluent Cloud API SDK"
 
 HOMEPAGE=""
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/9b/70/8dc4ed6f49ff879bbde24d8abb568befaeaf8adc5f9b3ec428458226a3f3/confluent_cloud_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="confluent_cloud_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9b/70/8dc4ed6f49ff879bbde24d8abb568befaeaf8adc5f9b3ec428458226a3f3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

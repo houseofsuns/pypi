@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Multiple and Heterogeneous Question-Answering (MuHeQA) system## Quick Start!Install the `muheqa` package:````pythonpip install muheqa````Create a new connection to Wikidata, or DBpedia, or D4C (Drugs4Covid). *The first time it may take a few minutes to download the required models*:````pythonimport muheqa.connector as mhqawikidata = mhqa.connect(wikidata=True)````And finally, make a question in natural language!:````pythonresponse = wikidata.query(&quot;Who is the father of Barack Obama&quot;)print(&quot;Response:&quot;,response)````</longdescription>
+</pkgmetadata>

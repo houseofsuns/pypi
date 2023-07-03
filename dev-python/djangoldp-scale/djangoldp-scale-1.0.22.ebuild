@@ -15,8 +15,8 @@ DESCRIPTION="djangoldp package for BSGN-SCALE"
 
 HOMEPAGE="https://git.startinblox.com/djangoldp-packages/djangoldp-scale"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/af/f2/fc0c975e4baeac25f80fa61bd11a6b9d6c2ad63fddca3cc44b478dd2b073/djangoldp_scale-${REALVERSION}.tar.gz"
-SOURCEFILE="djangoldp_scale-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/af/f2/fc0c975e4baeac25f80fa61bd11a6b9d6c2ad63fddca3cc44b478dd2b073/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

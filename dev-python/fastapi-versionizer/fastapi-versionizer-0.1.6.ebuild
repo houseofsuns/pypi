@@ -15,8 +15,8 @@ DESCRIPTION="API versionizer for FastAPI web applications"
 
 HOMEPAGE="https://github.com/alexschimpf/fastapi-versionizer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e0/95/1de997e0ccde4c945160e4d7219439b708caa00c1172647e4ebcda8c4748/fastapi_versionizer-${REALVERSION}.tar.gz"
-SOURCEFILE="fastapi_versionizer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e0/95/1de997e0ccde4c945160e4d7219439b708caa00c1172647e4ebcda8c4748/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

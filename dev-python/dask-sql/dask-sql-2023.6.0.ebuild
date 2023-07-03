@@ -15,8 +15,8 @@ DESCRIPTION="SQL query layer for Dask"
 
 HOMEPAGE="https://github.com/dask-contrib/dask-sql/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c8/dd/2cb75136da798f0ae3074fd855375ad7feb858dc53ff1cfc14fa0dd6ce96/dask_sql-${REALVERSION}.tar.gz"
-SOURCEFILE="dask_sql-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c8/dd/2cb75136da798f0ae3074fd855375ad7feb858dc53ff1cfc14fa0dd6ce96/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/wemake-services/docker-image-size-limit"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4f/a5/0dd23710b29adf2e55bfe681ae941afd0fc2e020fbd6f9c38aa9bca40abb/docker_image_size_limit-${REALVERSION}.tar.gz"
-SOURCEFILE="docker_image_size_limit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4f/a5/0dd23710b29adf2e55bfe681ae941afd0fc2e020fbd6f9c38aa9bca40abb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

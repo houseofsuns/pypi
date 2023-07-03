@@ -15,8 +15,8 @@ DESCRIPTION="Django package provides easy configuration admin template"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ea/87/f582cb3256c9f8f06762f090c2b098caab0730717ce50a2b8066245b636d/django_base_template-${REALVERSION}.tar.gz"
-SOURCEFILE="django_base_template-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ea/87/f582cb3256c9f8f06762f090c2b098caab0730717ce50a2b8066245b636d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

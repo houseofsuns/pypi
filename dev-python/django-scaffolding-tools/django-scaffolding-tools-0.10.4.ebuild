@@ -15,8 +15,8 @@ DESCRIPTION="Django tools for quick scaffolding."
 
 HOMEPAGE="https://github.com/luiscberrocal/django_scaffolding_tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5a/28/70854e77f1b71ab7cdc7b1e7ca777207ea4bc47e2d6f78158820f7c3159a/django_scaffolding_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="django_scaffolding_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5a/28/70854e77f1b71ab7cdc7b1e7ca777207ea4bc47e2d6f78158820f7c3159a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

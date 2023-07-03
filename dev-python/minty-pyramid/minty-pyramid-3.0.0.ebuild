@@ -15,8 +15,8 @@ DESCRIPTION="Minty HTTP Api server based on Pyramid"
 
 HOMEPAGE="https://gitlab.com/minty-python/minty-pyramid"
 LICENSE="EUPL license"
-SRC_URI="https://files.pythonhosted.org/packages/b2/4b/98c02e20da626712c0911e6ebd78b56ef7555d62eef40bd4b4924c56d248/minty_pyramid-${REALVERSION}.tar.gz"
-SOURCEFILE="minty_pyramid-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b2/4b/98c02e20da626712c0911e6ebd78b56ef7555d62eef40bd4b4924c56d248/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

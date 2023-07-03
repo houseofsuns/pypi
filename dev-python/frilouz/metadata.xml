@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>An adaptor for AST parser like `ast.parse` and `gast.parse` which is capable ofrecovering from syntax error and provide a list of syntax errors metduring parsing.</longdescription>
+</pkgmetadata>

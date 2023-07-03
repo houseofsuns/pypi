@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Swiftly - A client for SwiftProvides a command line tool as well as Client and other classes for commonSwift functions. Works both with access as a standard external user and as aninternal administrator of a cluster with direct access to the rings and to allback end servers.You can read the Sphinx-built documentation athttp://gholt.github.io/swiftly/</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Cigar=====cigar is a simple library for dealing with cigar strings. the most usefulfeature now is soft-masking from left or right. This allows one to adjusta SAM record only by changing the cigar string to soft-mask a number of basessuch that the rest of the SAM record (pos, tlen, etc.) remain valid, butdownstream tools will not consider the soft-masked bases in further analysis.```Python&gt;&gt;&gt; from cigar import Cigar&gt;&gt;&gt; c = Cigar('100M')&gt;&gt;&gt; len(c)100&gt;&gt;&gt; str(c)'100M'&gt;&gt;&gt; list(c.items())[(100, 'M')]&gt;&gt;&gt; c = Cigar('20H20M20S')&gt;&gt;&gt; len(c)40&gt;&gt;&gt; str(c)'20H20M20S'&gt;&gt;&gt; list(c.items())[(20, 'H'), (20, 'M'), (20, 'S')]&gt;&gt;&gt; c.mask_left(29).cigar, c.cigar('20H9S11M20S', '20H20M20S')&gt;&gt;&gt; c = Cigar('10M20S10M')&gt;&gt;&gt; c.mask_left(10).cigar'30S10M'&gt;&gt;&gt; c.mask_left(9).cigar'9S1M20S10M'&gt;&gt;&gt; Cigar('10S').mask_left(10).cigar'10S'&gt;&gt;&gt; Cigar('10H').mask_left(10).cigar'10H'&gt;&gt;&gt; Cigar('10H').mask_left(11).cigar'10H'&gt;&gt;&gt; Cigar('10H').mask_left(9).cigar'10H'&gt;&gt;&gt; Cigar('1M10H').mask_left(9).cigar'1S10H'&gt;&gt;&gt; Cigar('5M10H').mask_left(9).cigar'5S10H'&gt;&gt;&gt; c = Cigar('1S1H1S5H1S5M10H')&gt;&gt;&gt; c.mask_left(9).cigar == c.cigarTrue&gt;&gt;&gt; c = Cigar('1S1H1S5H1S5M10H')&gt;&gt;&gt; c.mask_right(9).cigar == c.cigarTrue&gt;&gt;&gt; c.mask_right(11).cigar'1S1H1S5H1S4M1S10H'```Installation============    pip install cigar</longdescription>
+</pkgmetadata>

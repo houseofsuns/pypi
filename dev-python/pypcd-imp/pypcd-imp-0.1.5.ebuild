@@ -15,8 +15,8 @@ DESCRIPTION="Pure Python PCD reader/writer"
 
 HOMEPAGE="https://github.com/joelosw/pypcd-imp"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9a/77/13f23d2e68f1213f16a2567fe89880ae66e3393c565574a53e5edd60b1d5/pypcd_imp-${REALVERSION}.tar.gz"
-SOURCEFILE="pypcd_imp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9a/77/13f23d2e68f1213f16a2567fe89880ae66e3393c565574a53e5edd60b1d5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

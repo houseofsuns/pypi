@@ -15,8 +15,8 @@ DESCRIPTION="This convert number to thai text lib"
 
 HOMEPAGE="https://github.com/pinyoothotaboot/num-thai"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/27/8c/4a1ce8d85a040c6f9af2c0f702253633fd85bdaadaea8d410439c3ffaebb/num_thai-${REALVERSION}.tar.gz"
-SOURCEFILE="num_thai-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/27/8c/4a1ce8d85a040c6f9af2c0f702253633fd85bdaadaea8d410439c3ffaebb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

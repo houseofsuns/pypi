@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/06/f7/fe99cf86f55f1db868cdd8d8c6b4e4452a8ac99dc9aebb1ce6e7d8b8d8a3/nonebot_plugin_apexranklookup-${REALVERSION}.tar.gz"
-SOURCEFILE="nonebot_plugin_apexranklookup-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/06/f7/fe99cf86f55f1db868cdd8d8c6b4e4452a8ac99dc9aebb1ce6e7d8b8d8a3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

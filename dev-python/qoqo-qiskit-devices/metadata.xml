@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;img src=&quot;../qoqo_Logo_vertical_color.png&quot; alt=&quot;qoqo logo&quot; width=&quot;300&quot; /&gt;# qoqo_qiskit_devicesQiskit devices interface for the qoqo quantum toolkit by [HQS Quantum Simulations](https://quantumsimulations.de).In order to make the update a device instance with Qiskit's information possible, the user has to run the following code before using this package:```pythonfrom qiskit_ibm_provider import IBMProviderIBMProvider.save_account(token=MY_API_TOKEN)```Where `MY_API_TOKEN` is the API key that can be found in the account settings of the IBM Quantum website after registration.### InstallationWe provide pre-built binaries for linux, macos and windows on x86_64 hardware and macos on arm64. Simply install the pre-built wheels with```shellpip install qoqo-qiskit-devices```## GeneralQiskit is under the Apache-2.0 license ( see https://github.com/Qiskit/qiskit/blob/master/LICENSE.txt ).qoqo_qiskit_devices itself is also provided under the Apache-2.0 license.## TestingThis software is still in the beta stage. Functions and documentation are not yet complete and breaking changes can occur.If you find unexpected behaviour please open a github issue. You can also run the pytests in qoqo_qiskit_devices/python_tests/ locally.</longdescription>
+</pkgmetadata>

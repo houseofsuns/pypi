@@ -15,8 +15,8 @@ DESCRIPTION="Deep Utils"
 
 HOMEPAGE="https://github.com/pooya-mohammadi/deep_utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/67/b8/b77fac6ecaaaa12c98b08f52373619e35e0340c3513f4d701efeb4b0f663/deep_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="deep_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/67/b8/b77fac6ecaaaa12c98b08f52373619e35e0340c3513f4d701efeb4b0f663/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># APPA (Adequate Python Package for Astrodynamics)A collection of python functions and classes for astrodynamics. Currently is relatively simple. See the Github repo for usage examples and to contribute.![Screenshot](images/low_thrust_screenshot.png)</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="REST toolkit"
 
 HOMEPAGE="https://github.com/wichert/rest_toolkit"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/40/d9/2f1e18ada19fe4d92b60ac1d5ec86bc2941a173443c229276b15d0ff4be0/rest_toolkit-${REALVERSION}.tar.gz"
-SOURCEFILE="rest_toolkit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/40/d9/2f1e18ada19fe4d92b60ac1d5ec86bc2941a173443c229276b15d0ff4be0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

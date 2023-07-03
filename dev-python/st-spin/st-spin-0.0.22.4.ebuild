@@ -15,8 +15,8 @@ DESCRIPTION="Interface for ST SpinFamily motor drivers"
 
 HOMEPAGE="https://github.com/m-laniakea/st_spin"
 LICENSE="GPLv1"
-SRC_URI="https://files.pythonhosted.org/packages/d3/e2/56cff23150a354dc2888b91c9bc85166f5378119004368b48857052a205b/st_spin-${REALVERSION}.tar.gz"
-SOURCEFILE="st_spin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d3/e2/56cff23150a354dc2888b91c9bc85166f5378119004368b48857052a205b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

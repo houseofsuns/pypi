@@ -15,8 +15,8 @@ DESCRIPTION="OpenID Provider framework for sanic"
 
 HOMEPAGE="https://github.com/terrycain/sanic-openid-provider"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/85/ce/fa5a34bf4fc4eabb12e1a083df6cb0e1f964aa4bd977d03b82cfde8ce763/sanic_openid_connect_provider-${REALVERSION}.tar.gz"
-SOURCEFILE="sanic_openid_connect_provider-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/85/ce/fa5a34bf4fc4eabb12e1a083df6cb0e1f964aa4bd977d03b82cfde8ce763/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Wrapper of Tensorflow Object Detection Library for Picsellia"
 
 HOMEPAGE=""
 LICENSE="MSI"
-SRC_URI="https://files.pythonhosted.org/packages/21/ea/ff245a89ea17826580684340741440a5ef11ea3b1de8c9d705dd6bad4888/picsellia_tf2-${REALVERSION}.tar.gz"
-SOURCEFILE="picsellia_tf2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/21/ea/ff245a89ea17826580684340741440a5ef11ea3b1de8c9d705dd6bad4888/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

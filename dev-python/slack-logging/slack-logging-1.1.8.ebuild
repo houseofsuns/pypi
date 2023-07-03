@@ -15,8 +15,8 @@ DESCRIPTION="Python logger/handler for slack integration"
 
 HOMEPAGE="https://github.com/iotgdev/slack_logging/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d5/97/70dd8367d5d636666dd45d3697eb2037a4cfe55ede42c0843430a571ecaf/slack_logging-${REALVERSION}.tar.gz"
-SOURCEFILE="slack_logging-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d5/97/70dd8367d5d636666dd45d3697eb2037a4cfe55ede42c0843430a571ecaf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

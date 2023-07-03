@@ -15,8 +15,8 @@ DESCRIPTION="Alternate syntax for @pytest.mark.parametrize with test cases as di
 
 HOMEPAGE="https://github.com/akaihola/pytest-kwparametrize"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/45/f3/d46ba14711016f9d8a16360e6afe06a10e3193e2bed6c003c834b60967d2/pytest_kwparametrize-${REALVERSION}.tar.gz"
-SOURCEFILE="pytest_kwparametrize-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/45/f3/d46ba14711016f9d8a16360e6afe06a10e3193e2bed6c003c834b60967d2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

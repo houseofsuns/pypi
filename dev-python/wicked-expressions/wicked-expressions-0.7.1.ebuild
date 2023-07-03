@@ -15,8 +15,8 @@ DESCRIPTION="Extension of bolt-expressions written in Bolt."
 
 HOMEPAGE="https://github.com/reapermc/wicked-expressions"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/03/c1/4c82ff2af438e266e1e5d771d615165e8396d0d68a7b92e42c125299700d/wicked_expressions-${REALVERSION}.tar.gz"
-SOURCEFILE="wicked_expressions-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/03/c1/4c82ff2af438e266e1e5d771d615165e8396d0d68a7b92e42c125299700d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

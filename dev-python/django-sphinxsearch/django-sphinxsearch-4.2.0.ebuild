@@ -15,8 +15,8 @@ DESCRIPTION="Sphinxsearch database backend for django>=2.0"
 
 HOMEPAGE="http://github.com/tumb1er/django_sphinxsearch"
 LICENSE="BEER-WARE"
-SRC_URI="https://files.pythonhosted.org/packages/5d/08/abf7a6279f0e8b0b4ff2a6a2b1924215009e77bc6787b64423f5cd34b2b2/django_sphinxsearch-${REALVERSION}.tar.gz"
-SOURCEFILE="django_sphinxsearch-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5d/08/abf7a6279f0e8b0b4ff2a6a2b1924215009e77bc6787b64423f5cd34b2b2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

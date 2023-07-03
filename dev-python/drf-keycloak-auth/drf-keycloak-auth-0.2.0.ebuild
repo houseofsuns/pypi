@@ -15,8 +15,8 @@ DESCRIPTION="A convenience libary for authenticating users from Keycloak access 
 
 HOMEPAGE="https://gitlab.com/ecocommons-australia/lib/drf-keycloak-auth"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5b/4b/ca925c6d9b8c4274ba3b52d15c0eee9dd917c9268eb7c4fba82b05d8aae4/drf_keycloak_auth-${REALVERSION}.tar.gz"
-SOURCEFILE="drf_keycloak_auth-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5b/4b/ca925c6d9b8c4274ba3b52d15c0eee9dd917c9268eb7c4fba82b05d8aae4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

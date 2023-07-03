@@ -15,8 +15,8 @@ DESCRIPTION="A python wrapper for ansys dpf composites"
 
 HOMEPAGE="https://github.com/ansys/pydpf-composites"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5a/19/7953f3728491b9f23f6392582e8a6bde45d3f5674c979c893cdd08570e2e/ansys_dpf_composites-${REALVERSION}.tar.gz"
-SOURCEFILE="ansys_dpf_composites-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5a/19/7953f3728491b9f23f6392582e8a6bde45d3f5674c979c893cdd08570e2e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

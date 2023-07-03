@@ -15,8 +15,8 @@ DESCRIPTION="AI Library using BERT"
 
 HOMEPAGE="https://github.com/kaushaltrivedi/fast-bert"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ab/b3/1421b3627acb871a0d842a50765aa72f4f486548c6813338c471bd65513b/fast_bert-${REALVERSION}.tar.gz"
-SOURCEFILE="fast_bert-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ab/b3/1421b3627acb871a0d842a50765aa72f4f486548c6813338c471bd65513b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="SAP wrapper from Salure"
 
 HOMEPAGE=""
 LICENSE="Salure License"
-SRC_URI="https://files.pythonhosted.org/packages/2d/ab/05364653783f17223131819a949fdddabcedb8665fb7a1eecf601c6370d2/salure_helpers_sap-${REALVERSION}.tar.gz"
-SOURCEFILE="salure_helpers_sap-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2d/ab/05364653783f17223131819a949fdddabcedb8665fb7a1eecf601c6370d2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

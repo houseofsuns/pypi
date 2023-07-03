@@ -15,8 +15,8 @@ DESCRIPTION="An async QuakeML client library."
 
 HOMEPAGE="https://github.com/exxamalte/python-aio-quakeml-client"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/be/d1/480257fe4c339d1cde359b95dbc3a35bbb921818dd60b96bb26d04767911/aio_quakeml_client-${REALVERSION}.tar.gz"
-SOURCEFILE="aio_quakeml_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/be/d1/480257fe4c339d1cde359b95dbc3a35bbb921818dd60b96bb26d04767911/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

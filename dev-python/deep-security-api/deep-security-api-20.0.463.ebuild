@@ -15,8 +15,8 @@ DESCRIPTION="Trend Micro Deep Security API"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b7/27/bf0c815707d047a3b21d169f185bffd68ceeef6a7bd7c5f79881e3f9fc51/deep_security_api-${REALVERSION}.tar.gz"
-SOURCEFILE="deep_security_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b7/27/bf0c815707d047a3b21d169f185bffd68ceeef6a7bd7c5f79881e3f9fc51/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

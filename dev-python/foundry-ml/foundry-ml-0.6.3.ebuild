@@ -15,8 +15,8 @@ DESCRIPTION="Package to support simplified application of machine learning model
 
 HOMEPAGE="https://github.com/MLMI2-CSSI/foundry"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b8/07/cf4adbb29ea6020fe528de44e2ac9955a939c47a2ebc458caa93bc29cf82/foundry_ml-${REALVERSION}.tar.gz"
-SOURCEFILE="foundry_ml-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b8/07/cf4adbb29ea6020fe528de44e2ac9955a939c47a2ebc458caa93bc29cf82/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

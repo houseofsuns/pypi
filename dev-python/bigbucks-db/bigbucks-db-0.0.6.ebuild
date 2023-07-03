@@ -15,8 +15,8 @@ DESCRIPTION="This is for FINTECH 512 Group Project Backend Supabase Database"
 
 HOMEPAGE="https://github.com/codemakerss/512_BigBucks_Proj_Pkg"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5f/5a/e333f6a40994141d0cf2227dcba82d05d74f205b0b565c77a3a3c30936ea/bigbucks_db-${REALVERSION}.tar.gz"
-SOURCEFILE="bigbucks_db-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5f/5a/e333f6a40994141d0cf2227dcba82d05d74f205b0b565c77a3a3c30936ea/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

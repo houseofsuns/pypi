@@ -15,8 +15,8 @@ DESCRIPTION="Configurable, reproducible, and scalable workflows in Python, via H
 
 HOMEPAGE="https://mit-ll-responsible-ai.github.io/hydra-zen/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e0/90/14367d2bceff500b845b228733706836622bfe8123cf671c9fd15c5202eb/hydra_zen-${REALVERSION}.tar.gz"
-SOURCEFILE="hydra_zen-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e0/90/14367d2bceff500b845b228733706836622bfe8123cf671c9fd15c5202eb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

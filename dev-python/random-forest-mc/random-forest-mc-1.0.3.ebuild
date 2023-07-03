@@ -15,8 +15,8 @@ DESCRIPTION="This project is about use Random Forest approach using a dynamic tr
 
 HOMEPAGE="https://github.com/ysraell/random-forest-mc"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/59/a6/ab3063d395dcf2c0d39ed3d3d7ac44cfe09a63595833443c32212b49ac9b/random_forest_mc-${REALVERSION}.tar.gz"
-SOURCEFILE="random_forest_mc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/59/a6/ab3063d395dcf2c0d39ed3d3d7ac44cfe09a63595833443c32212b49ac9b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

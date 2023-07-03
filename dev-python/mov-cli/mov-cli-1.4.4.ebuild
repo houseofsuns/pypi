@@ -15,8 +15,8 @@ DESCRIPTION="A cli tool to browse and watch Movies/Shows/TV/Sports."
 
 HOMEPAGE="https://github.com/mov-cli/mov-cli"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/e4/65/b3d02fc0e11abbb3956b5b63bc5b43d0ad8b2d69b7247b1491b04ea6db7d/mov_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="mov_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e4/65/b3d02fc0e11abbb3956b5b63bc5b43d0ad8b2d69b7247b1491b04ea6db7d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

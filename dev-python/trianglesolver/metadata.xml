@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Written by Steven Byrnes, http://sjbyrnes.com/Download: https://pypi.python.org/pypi/trianglesolver/Source code repository: https://github.com/sbyrnes321/trianglesolverThis little package applies the law of sines or cosines to find all thesides and angles of a triangle, if you know some of the sides and/orangles.The main function defined by this package is solve(...). Simple example::    from math import pi    from trianglesolver import solve    a,b,c,A,B,C = solve(b=7.6, c=8.3, A=pi/3)Following the usual convention, lower-case letters are side lengths andcapital letters are angles. Corresponding letters are opposite each other,e.g. side b is opposite angle B.All angles are in radians! However, you can use the degree constant toconvert::    from trianglesolver import solve, degree    a,b,c,A,B,C = solve(b=7, A=5*degree, B=70*degree)    print(C / degree)</longdescription>
+</pkgmetadata>

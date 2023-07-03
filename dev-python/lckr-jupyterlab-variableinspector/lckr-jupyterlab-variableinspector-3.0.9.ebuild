@@ -15,8 +15,8 @@ DESCRIPTION="Variable inspector extension for JupyterLab"
 
 HOMEPAGE="https://github.com/lckr/jupyterlab-variableInspector.git"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/81/52/db62d097de82c65cf25847b9bbe2fdddda0e40968f0c9752ea360b8b5060/lckr_jupyterlab_variableinspector-${REALVERSION}.tar.gz"
-SOURCEFILE="lckr_jupyterlab_variableinspector-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/81/52/db62d097de82c65cf25847b9bbe2fdddda0e40968f0c9752ea360b8b5060/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

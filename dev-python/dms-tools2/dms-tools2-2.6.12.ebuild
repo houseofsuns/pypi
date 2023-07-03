@@ -15,8 +15,8 @@ DESCRIPTION="Deep mutational scanning (DMS) analysis tools."
 
 HOMEPAGE="http://jbloomlab.github.io/dms_tools2"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/be/fe/a44ef5b8d2e2da715f52c25d4d3c3614e8045d1726409789be686027d4b0/dms_tools2-${REALVERSION}.tar.gz"
-SOURCEFILE="dms_tools2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/be/fe/a44ef5b8d2e2da715f52c25d4d3c3614e8045d1726409789be686027d4b0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

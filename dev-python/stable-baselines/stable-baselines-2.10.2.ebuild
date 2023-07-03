@@ -15,8 +15,8 @@ DESCRIPTION="A fork of OpenAI Baselines, implementations of reinforcement learni
 
 HOMEPAGE="https://github.com/hill-a/stable-baselines"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ba/e5/b59ee753d93632fd28d15acaf5043e8cd1d14385191f0ab843f277c00a5d/stable_baselines-${REALVERSION}.tar.gz"
-SOURCEFILE="stable_baselines-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ba/e5/b59ee753d93632fd28d15acaf5043e8cd1d14385191f0ab843f277c00a5d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

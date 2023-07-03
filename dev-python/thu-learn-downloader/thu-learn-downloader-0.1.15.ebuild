@@ -15,8 +15,8 @@ DESCRIPTION="Download everything from Web Learning of Tsinghua University"
 
 HOMEPAGE="https://github.com/liblaf/thu-learn-downloader"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a2/54/5e57405abf00c6040f484c9bf0e875f2034220b5a1da58a343e1524db9c9/thu_learn_downloader-${REALVERSION}.tar.gz"
-SOURCEFILE="thu_learn_downloader-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a2/54/5e57405abf00c6040f484c9bf0e875f2034220b5a1da58a343e1524db9c9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

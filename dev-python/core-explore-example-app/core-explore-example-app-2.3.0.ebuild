@@ -15,8 +15,8 @@ DESCRIPTION="Exploration by example for the curator core project"
 
 HOMEPAGE="https://github.com/usnistgov/core_explore_example_app"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/58/9d/503cd3521c7bbb34882a240b18da3fbc506b1d229c5e778ed76a6d1704c9/core_explore_example_app-${REALVERSION}.tar.gz"
-SOURCEFILE="core_explore_example_app-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/58/9d/503cd3521c7bbb34882a240b18da3fbc506b1d229c5e778ed76a6d1704c9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

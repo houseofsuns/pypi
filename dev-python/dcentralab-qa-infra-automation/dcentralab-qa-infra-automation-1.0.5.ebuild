@@ -15,8 +15,8 @@ DESCRIPTION="Selenium Python Framework developed by veriSoft"
 
 HOMEPAGE="https://github.com/pypa/sampleproject"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fd/1c/f58a80ad1b35586649ec2bc09043bf55965b1d41cc3b018cce0e33cd2e82/dcentralab_qa_infra_automation-${REALVERSION}.tar.gz"
-SOURCEFILE="dcentralab_qa_infra_automation-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fd/1c/f58a80ad1b35586649ec2bc09043bf55965b1d41cc3b018cce0e33cd2e82/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

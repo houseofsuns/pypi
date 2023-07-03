@@ -15,8 +15,8 @@ DESCRIPTION="A toolkit for developing OpenAI Gym environments simulated with Ign
 
 HOMEPAGE="https://github.com/robotology/gym-ignition"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/e4/ff/ff52744644bf1a5901383fa4076a8945ce312fc43da82949a6bc7b9e7c40/gym_ignition-${REALVERSION}.tar.gz"
-SOURCEFILE="gym_ignition-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e4/ff/ff52744644bf1a5901383fa4076a8945ce312fc43da82949a6bc7b9e7c40/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

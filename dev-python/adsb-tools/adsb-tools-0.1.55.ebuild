@@ -15,8 +15,8 @@ DESCRIPTION="ADS-B tools for reading Dump1090 messages"
 
 HOMEPAGE="https://github.com/herereadthis/adsb_tools"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/23/b2/b5fe9dcf463c3eef3eff747405baa20f5ce9cf2449b556e9dee50e082ff4/adsb_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="adsb_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/23/b2/b5fe9dcf463c3eef3eff747405baa20f5ce9cf2449b556e9dee50e082ff4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

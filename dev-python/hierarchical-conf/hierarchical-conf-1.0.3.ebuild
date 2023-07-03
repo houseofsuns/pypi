@@ -15,8 +15,8 @@ DESCRIPTION="A tool for loading settings from files hierarchically"
 
 HOMEPAGE="https://github.com/quintoandar/hierarchical-conf"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3d/fb/b004d7e36330a66e8333beb534f3c6a0cea85e1d09284d0fb3a2ca7d8d59/hierarchical_conf-${REALVERSION}.tar.gz"
-SOURCEFILE="hierarchical_conf-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3d/fb/b004d7e36330a66e8333beb534f3c6a0cea85e1d09284d0fb3a2ca7d8d59/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

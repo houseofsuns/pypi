@@ -15,8 +15,8 @@ DESCRIPTION="the python version of vcc"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/27/2e/e69752f4cd36f028e872eb9db48d8bf5839fbd0bfa46bc11d7a32e1e1e07/vcc_py-${REALVERSION}.tar.gz"
-SOURCEFILE="vcc_py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/27/2e/e69752f4cd36f028e872eb9db48d8bf5839fbd0bfa46bc11d7a32e1e1e07/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

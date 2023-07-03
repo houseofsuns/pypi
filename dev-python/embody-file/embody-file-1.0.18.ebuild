@@ -15,8 +15,8 @@ DESCRIPTION="Embody file converter"
 
 HOMEPAGE="https://github.com/aidee-health/embody-file"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/94/bd/aa58b104b24d88cefe4a7d2749b0f83a31d03fbb0b76f6b5107aeef4ff7d/embody_file-${REALVERSION}.tar.gz"
-SOURCEFILE="embody_file-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/94/bd/aa58b104b24d88cefe4a7d2749b0f83a31d03fbb0b76f6b5107aeef4ff7d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

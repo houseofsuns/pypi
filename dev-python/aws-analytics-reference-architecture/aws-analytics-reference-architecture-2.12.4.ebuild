@@ -15,8 +15,8 @@ DESCRIPTION="aws-analytics-reference-architecture"
 
 HOMEPAGE="https://aws-samples.github.io/aws-analytics-reference-architecture/"
 LICENSE="MIT-0"
-SRC_URI="https://files.pythonhosted.org/packages/9b/1d/5217a8e4ba1ae4bcf2c4340dcfd1e9b01e664802b0ac4386d42d59f24662/aws_analytics_reference_architecture-${REALVERSION}.tar.gz"
-SOURCEFILE="aws_analytics_reference_architecture-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9b/1d/5217a8e4ba1ae4bcf2c4340dcfd1e9b01e664802b0ac4386d42d59f24662/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="PyAMS base skin management features"
 
 HOMEPAGE="https://pyams.readthedocs.io"
 LICENSE="ZPL"
-SRC_URI="https://files.pythonhosted.org/packages/5f/e3/c802754074c3376115ac2169f91bbb9129bd2ed7a6224609a62db844ba10/pyams_skin-${REALVERSION}.tar.gz"
-SOURCEFILE="pyams_skin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5f/e3/c802754074c3376115ac2169f91bbb9129bd2ed7a6224609a62db844ba10/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

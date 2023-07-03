@@ -15,8 +15,8 @@ DESCRIPTION="Chunking Django file handlers for S3 and ClamAV service uploads"
 
 HOMEPAGE="https://github.com/uktrade/django-chunk-s3-av-upload-handlers"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2e/61/02a838744f0f281c4785c86d0188d03b148275da6b952d4f7c887d9813a3/django_chunk_upload_handlers-${REALVERSION}.tar.gz"
-SOURCEFILE="django_chunk_upload_handlers-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2e/61/02a838744f0f281c4785c86d0188d03b148275da6b952d4f7c887d9813a3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

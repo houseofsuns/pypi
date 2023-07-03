@@ -15,8 +15,8 @@ DESCRIPTION="OpenStack microversion header parser"
 
 HOMEPAGE="http://www.openstack.org/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1c/bb/ffeb8ac7acfe77425220352f1338e164ceb1177fdb69f7bcbc6750ca878d/microversion_parse-${REALVERSION}.tar.gz"
-SOURCEFILE="microversion_parse-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1c/bb/ffeb8ac7acfe77425220352f1338e164ceb1177fdb69f7bcbc6750ca878d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

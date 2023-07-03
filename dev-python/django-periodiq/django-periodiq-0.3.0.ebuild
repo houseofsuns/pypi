@@ -15,8 +15,8 @@ DESCRIPTION="A Django app for Periodiq."
 
 HOMEPAGE="https://github.com/q0w/django-periodiq/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/87/9b/593e10702be6ad36e49b36042b62f8d68df1cafaa32b418e31f696020050/django_periodiq-${REALVERSION}.tar.gz"
-SOURCEFILE="django_periodiq-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/87/9b/593e10702be6ad36e49b36042b62f8d68df1cafaa32b418e31f696020050/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

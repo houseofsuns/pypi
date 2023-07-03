@@ -15,8 +15,8 @@ DESCRIPTION="Engine for generating dictionaries of relics and prime sets."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/35/cd/2a2931d28b4118f68dda0861f3fef110489f0090485e29e82c271b188490/relic_engine-${REALVERSION}.tar.gz"
-SOURCEFILE="relic_engine-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/35/cd/2a2931d28b4118f68dda0861f3fef110489f0090485e29e82c271b188490/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

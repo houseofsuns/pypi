@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f0/2f/b8f78aed44ecee033610b54e82fbfe8758721add05da61c0916f97235b3d/watchmen_storage_mongodb-${REALVERSION}.tar.gz"
-SOURCEFILE="watchmen_storage_mongodb-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f0/2f/b8f78aed44ecee033610b54e82fbfe8758721add05da61c0916f97235b3d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Python port of ubuntu-name-generator"
 
 HOMEPAGE="https://github.com/crypdick/ubuntu-namer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a1/d4/fc8680a83fe5ba09ef5a860e1d9517f5cb68bdb62e3daabd1b1c717a1bdf/ubuntu_namer-${REALVERSION}.tar.gz"
-SOURCEFILE="ubuntu_namer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a1/d4/fc8680a83fe5ba09ef5a860e1d9517f5cb68bdb62e3daabd1b1c717a1bdf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

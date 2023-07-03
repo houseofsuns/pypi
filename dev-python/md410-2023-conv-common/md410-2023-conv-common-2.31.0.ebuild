@@ -15,8 +15,8 @@ DESCRIPTION="Common libraries for applications related to the 2023 Lions MD410 C
 
 HOMEPAGE="https://gitlab.com/md410_2023_conv/md410_2023_conv_common"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/12/9e/df2fba1be856324b904ec8e97d64e8d9f2169dc24a623f90bf1473d90d99/md410_2023_conv_common-${REALVERSION}.tar.gz"
-SOURCEFILE="md410_2023_conv_common-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/12/9e/df2fba1be856324b904ec8e97d64e8d9f2169dc24a623f90bf1473d90d99/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

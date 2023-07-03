@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/02/69/8f924accedfab4f3421dbc4569ab5f8066a5926defbffecaa3aeb9e58c11/cloudam_stream-${REALVERSION}.tar.gz"
-SOURCEFILE="cloudam_stream-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/02/69/8f924accedfab4f3421dbc4569ab5f8066a5926defbffecaa3aeb9e58c11/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

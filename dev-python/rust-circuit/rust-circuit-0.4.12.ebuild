@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/83/01/aaf378562d84d2a24320b93bb67fbaa1551cfeab9ab94154d7d1be7eaff9/rust_circuit-${REALVERSION}.tar.gz"
-SOURCEFILE="rust_circuit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/83/01/aaf378562d84d2a24320b93bb67fbaa1551cfeab9ab94154d7d1be7eaff9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

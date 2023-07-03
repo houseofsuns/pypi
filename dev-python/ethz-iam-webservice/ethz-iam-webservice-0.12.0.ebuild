@@ -15,8 +15,8 @@ DESCRIPTION="Manage users, groups and services of the ETH Identity and Access Ma
 
 HOMEPAGE="https://gitlab.ethz.ch/vermeul/ethz-iam-webservice"
 LICENSE="Apache Software License Version 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/36/3e/a1364d4415c01f6cc09056197b7ac0492b0d7af876acad1d64b3478d7049/ethz_iam_webservice-${REALVERSION}.tar.gz"
-SOURCEFILE="ethz_iam_webservice-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/36/3e/a1364d4415c01f6cc09056197b7ac0492b0d7af876acad1d64b3478d7049/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

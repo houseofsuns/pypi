@@ -15,8 +15,8 @@ DESCRIPTION="Unofficial API for Whirlpool's 6th Sense appliances"
 
 HOMEPAGE="https://github.com/abmantis/whirlpool-sixth-sense/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/05/0a/72577cc97a920b9dcd7cd7a5d2dbfa185da85d7456f29eada95af1cdff86/whirlpool_sixth_sense-${REALVERSION}.tar.gz"
-SOURCEFILE="whirlpool_sixth_sense-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/05/0a/72577cc97a920b9dcd7cd7a5d2dbfa185da85d7456f29eada95af1cdff86/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

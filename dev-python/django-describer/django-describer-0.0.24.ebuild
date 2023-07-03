@@ -15,8 +15,8 @@ DESCRIPTION="A tool for automated generation of several APIs from a Django webap
 
 HOMEPAGE="https://github.com/karlosss/django_describer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/81/e6/a4c7b822014f67235fffbe1bc3e11d7bd5841326e9b4ecaa04798dc82b78/django_describer-${REALVERSION}.tar.gz"
-SOURCEFILE="django_describer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/81/e6/a4c7b822014f67235fffbe1bc3e11d7bd5841326e9b4ecaa04798dc82b78/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

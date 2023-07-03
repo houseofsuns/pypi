@@ -15,8 +15,8 @@ DESCRIPTION="Deltavision/MRC file reader for napari"
 
 HOMEPAGE="https://github.com/tlambert03/napari-dv"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fb/01/e59bc1d6ac96f84ce9d7a46cc5422250e047958ead6c5693ed386cf94003/napari_dv-${REALVERSION}.tar.gz"
-SOURCEFILE="napari_dv-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fb/01/e59bc1d6ac96f84ce9d7a46cc5422250e047958ead6c5693ed386cf94003/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

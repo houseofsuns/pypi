@@ -15,8 +15,8 @@ DESCRIPTION="Nonebot2查询原神历史卡池小插件"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/65/33/c1ab1e67fc9ea393b73ea688b7ee22c9fd97a203dc3314a97e974696877d/nonebot_plugin_gshisbanner-${REALVERSION}.tar.gz"
-SOURCEFILE="nonebot_plugin_gshisbanner-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/65/33/c1ab1e67fc9ea393b73ea688b7ee22c9fd97a203dc3314a97e974696877d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

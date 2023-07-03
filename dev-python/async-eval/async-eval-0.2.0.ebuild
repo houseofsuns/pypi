@@ -15,8 +15,8 @@ DESCRIPTION="eval async code from sync"
 
 HOMEPAGE="https://github.com/uriyyo/async-eval"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bd/e9/15ce9dafcb604838a6b0b290c0789adc047e4a93fc7d317e518d6334ccb9/async_eval-${REALVERSION}.tar.gz"
-SOURCEFILE="async_eval-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bd/e9/15ce9dafcb604838a6b0b290c0789adc047e4a93fc7d317e518d6334ccb9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Empower analysts to build workflows to transform data using SQL"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d7/c3/6056b1a6ca79915d74e9e9471bc1bed5b05846709b2fb556b2c1d7330b62/astro_sql_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="astro_sql_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d7/c3/6056b1a6ca79915d74e9e9471bc1bed5b05846709b2fb556b2c1d7330b62/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

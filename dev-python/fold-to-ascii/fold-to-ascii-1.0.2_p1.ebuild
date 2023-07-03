@@ -15,8 +15,8 @@ DESCRIPTION="A Python port of the Apache Lucene ASCII Folding Filter that conver
 
 HOMEPAGE="https://github.com/spanishdict/fold_to_ascii"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/71/c4/3d131637f5b728b01c3ebcc982709384b43e6ccc521dd419d89f95308e51/fold_to_ascii-${REALVERSION}.tar.gz"
-SOURCEFILE="fold_to_ascii-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/71/c4/3d131637f5b728b01c3ebcc982709384b43e6ccc521dd419d89f95308e51/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

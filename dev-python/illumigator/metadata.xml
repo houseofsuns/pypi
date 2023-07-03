@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># IllumiGator2D Light-Based Puzzle Game## Source Code and Other Resourceshttps://github.com/EltonLi2000/IllumiGatorhttps://drive.google.com/drive/folders/1HQ1lIxgZJNANgWnts3bsWUUTnnfJrKXW?usp=sharing(contains timesheet and project ideas)## Dependenciesarcadenumpyscreeninfo## Installpip install illumigatorrun **illumigator** command</longdescription>
+</pkgmetadata>

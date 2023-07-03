@@ -15,8 +15,8 @@ DESCRIPTION="Web3py provider that makes it easy to switch between different bloc
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/33/c4/a1a7527395d4de1ecc3fa3b20944b36531d9c8d2b1b4b79db64e78abe1cd/web3_multi_provider-${REALVERSION}.tar.gz"
-SOURCEFILE="web3_multi_provider-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/33/c4/a1a7527395d4de1ecc3fa3b20944b36531d9c8d2b1b4b79db64e78abe1cd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/UKP-SQuARE/square-model-client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/45/55/e0921c7afc66ac8ebcb85ac2c3c608c765a3d701f6c19f8c6753ee91c379/square_model_client-${REALVERSION}.tar.gz"
-SOURCEFILE="square_model_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/45/55/e0921c7afc66ac8ebcb85ac2c3c608c765a3d701f6c19f8c6753ee91c379/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

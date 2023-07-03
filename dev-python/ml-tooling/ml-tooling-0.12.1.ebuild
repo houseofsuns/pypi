@@ -15,8 +15,8 @@ DESCRIPTION="A library for machine learning utilities"
 
 HOMEPAGE="https://github.com/andersbogsnes/ml_tooling"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/74/dd/561aa9e9b2f27bdec4961bef1203688d61b202e861132acd850b88434421/ml_tooling-${REALVERSION}.tar.gz"
-SOURCEFILE="ml_tooling-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/74/dd/561aa9e9b2f27bdec4961bef1203688d61b202e861132acd850b88434421/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

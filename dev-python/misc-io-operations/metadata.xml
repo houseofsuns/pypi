@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Miscellaneous I/O Operations Package## AboutThis is a collection of miscellaneous Python functionsthat can be used to simplify daily andlengthy coding processes and tasks.## DocumentationThe import statment:```&gt;&gt;&gt; import miops as mps``````c``` (in function name) - Console-Based Input/Output Operations</longdescription>
+</pkgmetadata>

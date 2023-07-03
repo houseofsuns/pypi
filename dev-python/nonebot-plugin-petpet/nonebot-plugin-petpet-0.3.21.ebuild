@@ -15,8 +15,8 @@ DESCRIPTION="Nonebot2 plugin for making fun pictures"
 
 HOMEPAGE="https://github.com/noneplugin/nonebot-plugin-petpet"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/84/42/782a7f4363aa5dcf42754685d6ef6818f9181fb87a800566f2c88c59fa0c/nonebot_plugin_petpet-${REALVERSION}.tar.gz"
-SOURCEFILE="nonebot_plugin_petpet-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/84/42/782a7f4363aa5dcf42754685d6ef6818f9181fb87a800566f2c88c59fa0c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

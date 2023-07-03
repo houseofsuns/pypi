@@ -15,8 +15,8 @@ DESCRIPTION="Provide type hints for \`wsadmin\` object methods"
 
 HOMEPAGE="https://lukesavefrogs.github.io/wsadmin-type-hints/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d1/21/0c670d7b69d940cb439831b5113dca772e6893539921689510526ff2223d/wsadmin_type_hints-${REALVERSION}.tar.gz"
-SOURCEFILE="wsadmin_type_hints-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d1/21/0c670d7b69d940cb439831b5113dca772e6893539921689510526ff2223d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

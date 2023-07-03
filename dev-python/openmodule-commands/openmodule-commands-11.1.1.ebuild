@@ -15,8 +15,8 @@ DESCRIPTION="Commands for openmodule services"
 
 HOMEPAGE="https://gitlab.com/arivo-public/device-python/openmodule.git"
 LICENSE="GNU General Public License v2 GPLv2"
-SRC_URI="https://files.pythonhosted.org/packages/4b/e0/9440ff9ae28466a161f90f94221a25316164e4fc440473d464e413b14a9d/openmodule_commands-${REALVERSION}.tar.gz"
-SOURCEFILE="openmodule_commands-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4b/e0/9440ff9ae28466a161f90f94221a25316164e4fc440473d464e413b14a9d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

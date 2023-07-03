@@ -15,8 +15,8 @@ DESCRIPTION="A library for the iterative ensemble smoother algorithm."
 
 HOMEPAGE="https://github.com/equinor/iterative_ensemble_smoother"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/8a/4a/92923a46afafc7aa9343e9e23c9aca417f12039b7896d8eea90eb11f8857/iterative_ensemble_smoother-${REALVERSION}.tar.gz"
-SOURCEFILE="iterative_ensemble_smoother-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8a/4a/92923a46afafc7aa9343e9e23c9aca417f12039b7896d8eea90eb11f8857/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

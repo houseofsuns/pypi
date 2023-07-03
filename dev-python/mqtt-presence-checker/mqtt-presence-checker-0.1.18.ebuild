@@ -15,8 +15,8 @@ DESCRIPTION="Check if you (or your phone) is at home and notify your smarthome v
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/64/46/089fac2fdb24156f8fd03d8e03aa7956b348e1b0ffb50dde75236f4b2b73/mqtt_presence_checker-${REALVERSION}.tar.gz"
-SOURCEFILE="mqtt_presence_checker-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/64/46/089fac2fdb24156f8fd03d8e03aa7956b348e1b0ffb50dde75236f4b2b73/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

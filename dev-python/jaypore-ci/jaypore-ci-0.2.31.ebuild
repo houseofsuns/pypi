@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://www.jayporeci.in/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b0/d0/23be2e326d122dff74d8d5bf5c1219131abf7fbab02a6d92604de5854a11/jaypore_ci-${REALVERSION}.tar.gz"
-SOURCEFILE="jaypore_ci-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b0/d0/23be2e326d122dff74d8d5bf5c1219131abf7fbab02a6d92604de5854a11/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

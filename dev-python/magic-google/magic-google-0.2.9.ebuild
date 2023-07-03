@@ -15,8 +15,8 @@ DESCRIPTION="A google search results crawler"
 
 HOMEPAGE="https://github.com/howie6879/MagicGoogle/blob/master/README.md"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/83/f0/63df23f639d0d1810fc6a5c8b09aa78b97b443418ed62025e564103cca29/magic_google-${REALVERSION}.tar.gz"
-SOURCEFILE="magic_google-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/83/f0/63df23f639d0d1810fc6a5c8b09aa78b97b443418ed62025e564103cca29/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

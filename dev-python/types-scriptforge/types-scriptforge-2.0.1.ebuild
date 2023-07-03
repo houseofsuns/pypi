@@ -15,8 +15,8 @@ DESCRIPTION="Type annotations for LibreOffice API"
 
 HOMEPAGE="https://github.com/Amourspirit/python-types-scriptforge"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c3/b5/0297bfa1e0bc8153c58ba7f5caa028474eb2009afd370eb6e025fe48f05e/types_scriptforge-${REALVERSION}.tar.gz"
-SOURCEFILE="types_scriptforge-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c3/b5/0297bfa1e0bc8153c58ba7f5caa028474eb2009afd370eb6e025fe48f05e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Bi-directional synchronization of CRUD data sources"
 
 HOMEPAGE="https://gitlab.com/sebastianspies9/synchronizer-framework"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/46/18/35c343c34cd6046c0a23ed8eb49dfabe6a532479b3c4add7cd4e308558c5/synchronizer_framework-${REALVERSION}.linux-x86_64.tar.gz"
-SOURCEFILE="synchronizer_framework-${REALVERSION}.linux-x86_64.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/46/18/35c343c34cd6046c0a23ed8eb49dfabe6a532479b3c4add7cd4e308558c5/${REALNAME//-/_}-${REALVERSION}.linux-x86_64.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.linux-x86_64.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

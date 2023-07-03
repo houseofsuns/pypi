@@ -15,8 +15,8 @@ DESCRIPTION="Python Cryptonight"
 
 HOMEPAGE="https://github.com/ph4r05/py-cryptonight"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/de/4c/6a373ebf4ca60cdf3f210e7572d6e5c0a6cd6abc78557cad1f5e512028f5/py_cryptonight-${REALVERSION}.tar.gz"
-SOURCEFILE="py_cryptonight-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/de/4c/6a373ebf4ca60cdf3f210e7572d6e5c0a6cd6abc78557cad1f5e512028f5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

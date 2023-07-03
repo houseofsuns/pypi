@@ -15,8 +15,8 @@ DESCRIPTION="A Pulumi package for creating and managing RabbitMQ resources."
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/08/45/ecf28858412ca85c2279b0c9d1ac7669d534fa1c1006c89b1309881ab4e0/pulumi_rabbitmq-${REALVERSION}.tar.gz"
-SOURCEFILE="pulumi_rabbitmq-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/08/45/ecf28858412ca85c2279b0c9d1ac7669d534fa1c1006c89b1309881ab4e0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

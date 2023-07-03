@@ -15,8 +15,8 @@ DESCRIPTION="Time the execution of Python code using syntax similar to MATLAB's 
 
 HOMEPAGE="https://github.com/chrimaho/py-tictoc-timer.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/43/33/940d56a35ee851d648ed8a1bfba4d31186804f85b140339e7c04fcb2d526/py_tictoc_timer-${REALVERSION}.tar.gz"
-SOURCEFILE="py_tictoc_timer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/43/33/940d56a35ee851d648ed8a1bfba4d31186804f85b140339e7c04fcb2d526/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

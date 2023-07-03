@@ -15,8 +15,8 @@ DESCRIPTION="Flake8 based checking for jupyter notebooks"
 
 HOMEPAGE="https://github.com/s-weigand/flake8-nb"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b1/e8/660afa7a10f8211145d82a9b74affd9407b1c9f06459bfe92320f7ada850/flake8_nb-${REALVERSION}.tar.gz"
-SOURCEFILE="flake8_nb-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b1/e8/660afa7a10f8211145d82a9b74affd9407b1c9f06459bfe92320f7ada850/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

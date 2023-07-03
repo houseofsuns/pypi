@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5b/32/4e802c1cab0e38455c93efaf3a93ec01591a19e1cb95122756d6d2f35962/watchmen_indicator_kernel-${REALVERSION}.tar.gz"
-SOURCEFILE="watchmen_indicator_kernel-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5b/32/4e802c1cab0e38455c93efaf3a93ec01591a19e1cb95122756d6d2f35962/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

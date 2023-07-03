@@ -15,8 +15,8 @@ DESCRIPTION="MCAI SDK to develop Python worker"
 
 HOMEPAGE="https://gitlab.com/media-cloud-ai/sdks/py_mcai_worker_sdk"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5a/70/75258d1dcdeec242a101ad01edaa808f80016af06191013f51611a33dac3/mcai_worker_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="mcai_worker_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5a/70/75258d1dcdeec242a101ad01edaa808f80016af06191013f51611a33dac3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

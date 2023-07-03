@@ -15,8 +15,8 @@ DESCRIPTION="EpicGameStore free games promotions plugin for NoneBot2"
 
 HOMEPAGE="https://github.com/monsterxcn/nonebot_plugin_epicfree"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d0/ca/21af65c8e8b2b5410fbbd3f157df5315ffb255b5764b561fdb09397d0a6d/nonebot_plugin_epicfree-${REALVERSION}.tar.gz"
-SOURCEFILE="nonebot_plugin_epicfree-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d0/ca/21af65c8e8b2b5410fbbd3f157df5315ffb255b5764b561fdb09397d0a6d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

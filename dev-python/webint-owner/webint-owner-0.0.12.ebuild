@@ -15,8 +15,8 @@ DESCRIPTION="manage website ownership"
 
 HOMEPAGE=""
 LICENSE="BSD-2"
-SRC_URI="https://files.pythonhosted.org/packages/89/9e/7b6171de03dd89e5144dbbd2f8e5894c7fbb20bf84140acdae987059007b/webint_owner-${REALVERSION}.tar.gz"
-SOURCEFILE="webint_owner-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/89/9e/7b6171de03dd89e5144dbbd2f8e5894c7fbb20bf84140acdae987059007b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

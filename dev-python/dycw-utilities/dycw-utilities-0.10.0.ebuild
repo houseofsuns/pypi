@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d2/19/4f62d002bc3b0c83c3aa9b683bac887f5ff9e0101234979c7e3f190e525e/dycw_utilities-${REALVERSION}.tar.gz"
-SOURCEFILE="dycw_utilities-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d2/19/4f62d002bc3b0c83c3aa9b683bac887f5ff9e0101234979c7e3f190e525e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

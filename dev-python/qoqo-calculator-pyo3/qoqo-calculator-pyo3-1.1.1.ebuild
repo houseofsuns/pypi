@@ -15,8 +15,8 @@ DESCRIPTION="Python interface to qoqo calculator, the calculator backend of the 
 
 HOMEPAGE=""
 LICENSE="Apache-2.0 AND Apache-2.0 with LLVM-exception AND MIT AND Unicode-DFS-2016"
-SRC_URI="https://files.pythonhosted.org/packages/81/87/6ddb95f63deb2d4dbdde9d8666cbe271c9fc6708d82c5fe383854e200110/qoqo_calculator_pyo3-${REALVERSION}.tar.gz"
-SOURCEFILE="qoqo_calculator_pyo3-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/81/87/6ddb95f63deb2d4dbdde9d8666cbe271c9fc6708d82c5fe383854e200110/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

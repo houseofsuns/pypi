@@ -15,8 +15,8 @@ DESCRIPTION="Package for connection to Picsellia platforms with some wrapper aro
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/53/1d/0de3853d44074dc7ea4a67906e476987a342c35e46e77e3b31792fe10bf1/picsellia_connexion_services-${REALVERSION}.tar.gz"
-SOURCEFILE="picsellia_connexion_services-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/53/1d/0de3853d44074dc7ea4a67906e476987a342c35e46e77e3b31792fe10bf1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

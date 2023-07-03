@@ -15,8 +15,8 @@ DESCRIPTION="Alibaba Cloud Cloudfw (20171207) SDK Library for Python"
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b5/4f/349a4c520587ec73d22c5474714db1f057af3acd68a3b97f89d78ed5ce20/alibabacloud_cloudfw20171207-${REALVERSION}.tar.gz"
-SOURCEFILE="alibabacloud_cloudfw20171207-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b5/4f/349a4c520587ec73d22c5474714db1f057af3acd68a3b97f89d78ed5ce20/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

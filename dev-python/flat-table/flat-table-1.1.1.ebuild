@@ -15,8 +15,8 @@ DESCRIPTION="A broader implementation of pandas json_normalize function."
 
 HOMEPAGE="https://github.com/metinsenturk/flat_table"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e0/77/9bdf148a4dbe87e143c722b5b7be5495b8b4ce82b431aecc9ec8e0cb4c78/flat_table-${REALVERSION}.tar.gz"
-SOURCEFILE="flat_table-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e0/77/9bdf148a4dbe87e143c722b5b7be5495b8b4ce82b431aecc9ec8e0cb4c78/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

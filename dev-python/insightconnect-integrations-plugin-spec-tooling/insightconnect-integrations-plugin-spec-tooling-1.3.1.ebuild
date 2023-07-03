@@ -15,8 +15,8 @@ DESCRIPTION="Plugin spec parser tooling for InsightConnect integrations"
 
 HOMEPAGE="https://github.com/rapid7/icon-integrations-plugin-spec"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5b/d9/f089c45931a6fc272c14a7cbb5543ed800572b80e97f3f53e426bc4ba7c6/insightconnect_integrations_plugin_spec_tooling-${REALVERSION}.tar.gz"
-SOURCEFILE="insightconnect_integrations_plugin_spec_tooling-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5b/d9/f089c45931a6fc272c14a7cbb5543ed800572b80e97f3f53e426bc4ba7c6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

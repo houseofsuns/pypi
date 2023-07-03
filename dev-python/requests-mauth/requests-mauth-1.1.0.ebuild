@@ -15,8 +15,8 @@ DESCRIPTION="An MAuth client based around the excellent requests library."
 
 HOMEPAGE="https://github.com/mdsol/requests-mauth"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d4/eb/47d63ab35fc44e826b9426062b364daf9142be53dfc051801fc2a3a38690/requests_mauth-${REALVERSION}.tar.gz"
-SOURCEFILE="requests_mauth-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d4/eb/47d63ab35fc44e826b9426062b364daf9142be53dfc051801fc2a3a38690/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

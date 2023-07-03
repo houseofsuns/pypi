@@ -15,8 +15,8 @@ DESCRIPTION="Swagger UI bundled for usage with Python"
 
 HOMEPAGE="https://github.com/spec-first/py-swagger-ui"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/92/94/c2484ced144c2dd48d7939b30762ff11f9b9311db0f6f877217d4163203e/py_swagger_ui-${REALVERSION}.tar.gz"
-SOURCEFILE="py_swagger_ui-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/92/94/c2484ced144c2dd48d7939b30762ff11f9b9311db0f6f877217d4163203e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

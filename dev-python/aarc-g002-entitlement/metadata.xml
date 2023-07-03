@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![Documentation Status](https://readthedocs.org/projects/aarc-g002-entitlement/badge/?version=latest&amp;token=5f5165c8ebde7726ae9df9f62331a59e7344d6e61a4bb9ea8c97cecfae25f4f3)](https://aarc-g002-entitlement.readthedocs.io/en/latest/?badge=latest)# AARC G002 Entitlement Parser## Deprecation warningThe newer [AarcEntitlement](https://github.com/KIT-SCC/AarcEntitlement)supports AARC-G002 and the updated version AARC-G069.# IntroductionThis package provides a python Class to parse and compare entitlements accordingto the AARC-G002 Recommendation https://aarc-community.org/guidelines/aarc-g002.# Example```pythonfrom aarc_g002_entitlement import Aarc_g002_entitlementrequired = Aarc_g002_entitlement(    'urn:geant:h-df.de:group:aai-admin',    strict=False)actual = Aarc_g002_entitlement(    'urn:geant:h-df.de:group:aai-admin:role=member#backupserver.used.for.developmt.de')# is a user with actual permitted to use a resource which needs required?permitted = required.is_contained_in(actual) # True in this case# are the two entitlements the same?equals = required == actual # False in this case```For more examples: `./example.py`# Installation```pip --user install aarc-g002-entitlement```# Documentation```tox -e docs```After this, the documentation should be located at `doc/build/index.html`.Documentation is also available at [Readthedocs](https://aarc-g002-entitlement.readthedocs.io/en/latest)# TestsRun tests for all supported python versions```tox```# Funding NoticeThe AARC project has received funding from the European Union’s Horizon2020 research and innovation programme under grant agreement No 653965 and730941.</longdescription>
+</pkgmetadata>

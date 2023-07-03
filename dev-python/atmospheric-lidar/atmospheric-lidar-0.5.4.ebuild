@@ -15,8 +15,8 @@ DESCRIPTION="Package for reading raw atmospheric lidar data."
 
 HOMEPAGE="https://bitbucket.org/iannis_b/atmospheric-lidar/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f5/ba/c19918750cb05324537212ab71325dd1abfa93e13a13c273df2dee3b81e3/atmospheric_lidar-${REALVERSION}.tar.gz"
-SOURCEFILE="atmospheric_lidar-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f5/ba/c19918750cb05324537212ab71325dd1abfa93e13a13c273df2dee3b81e3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

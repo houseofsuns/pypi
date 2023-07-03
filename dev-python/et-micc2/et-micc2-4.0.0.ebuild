@@ -15,8 +15,8 @@ DESCRIPTION="A practical Python project skeleton generator."
 
 HOMEPAGE="https://github.com/etijskens/et-micc2"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/17/1f/532bf05e51e5e092051ea210a1a82ac0130677a43c7b067e15d732dc27fd/et_micc2-${REALVERSION}.tar.gz"
-SOURCEFILE="et_micc2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/17/1f/532bf05e51e5e092051ea210a1a82ac0130677a43c7b067e15d732dc27fd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="International address formatter"
 
 HOMEPAGE="https://github.com/dunkelstern/international_address_formatter"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/10/cc/3cf1a88898491d2e14013a14df14f98857c0488dc0388ae1daf3edb024a5/international_address_formatter-${REALVERSION}.tar.gz"
-SOURCEFILE="international_address_formatter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/10/cc/3cf1a88898491d2e14013a14df14f98857c0488dc0388ae1daf3edb024a5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

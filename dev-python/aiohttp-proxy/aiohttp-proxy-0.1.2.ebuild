@@ -15,8 +15,8 @@ DESCRIPTION="Full-featured proxy connector for aiohttp"
 
 HOMEPAGE="https://github.com/Skactor/aiohttp-proxy"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/03/93/d7cc02c794a3febbbe7b0fd1b2c7cb31234b2556b9da7bee273c33ae0f6f/aiohttp_proxy-${REALVERSION}.tar.gz"
-SOURCEFILE="aiohttp_proxy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/03/93/d7cc02c794a3febbbe7b0fd1b2c7cb31234b2556b9da7bee273c33ae0f6f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="High-resolution map visualization and conversion tool"
 
 HOMEPAGE="https://github.com/daohu527/imap"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/00/72/20c720c61111b08ebb8b807c74cfd29702db7d74ede5233274fa2448b15f/imap_box-${REALVERSION}.tar.gz"
-SOURCEFILE="imap_box-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/00/72/20c720c61111b08ebb8b807c74cfd29702db7d74ede5233274fa2448b15f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

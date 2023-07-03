@@ -15,8 +15,8 @@ DESCRIPTION="Tryton Sale Payment Gateway Module"
 
 HOMEPAGE="http://www.m9s.biz/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/5e/39/fb6a6f60430d6f9030a8215f22ebd7f7ed2817e236fe3f0fff6e75ebe843/m9s_sale_payment_gateway-${REALVERSION}.tar.gz"
-SOURCEFILE="m9s_sale_payment_gateway-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5e/39/fb6a6f60430d6f9030a8215f22ebd7f7ed2817e236fe3f0fff6e75ebe843/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

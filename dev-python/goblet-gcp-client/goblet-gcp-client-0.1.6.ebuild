@@ -15,8 +15,8 @@ DESCRIPTION="GCP Client and GCP integration testing helpers"
 
 HOMEPAGE="https://github.com/goblet/goblet_gcp_client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c5/fb/44b8f7dbd191bab2705c3db94e4855f346fee2b966ed8a47a8a456f847ff/goblet_gcp_client-${REALVERSION}.tar.gz"
-SOURCEFILE="goblet_gcp_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c5/fb/44b8f7dbd191bab2705c3db94e4855f346fee2b966ed8a47a8a456f847ff/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

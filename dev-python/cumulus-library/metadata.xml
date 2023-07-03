@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Cumulus Library - CoreA framework for designing, executing, and distributing SQL queries packaged as &quot;studies&quot;, e.g., for quality monitoring, clinical research, or public health. Part of the [SMART on FHIR Cumulus Project](https://smarthealthit.org/cumulus-a-universal-sidecar-for-a-smart-learning-healthcare-system/)## InstallingFor end users, just run `pip install cumulus-library`. For running from source, checkout the repo, and at the project root run `pip install -e .`.For more information, [browse the documentation](https://docs.smarthealthit.org/cumulus/library).</longdescription>
+</pkgmetadata>

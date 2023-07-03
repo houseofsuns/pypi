@@ -15,8 +15,8 @@ DESCRIPTION="Modern distributed automation engine built with love by Target"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/98/1d/339eb8ac4deb1e07dc0a0bf825e6236a8fa5b62d7ddd73f40fa5cac2845a/tgt_grease-${REALVERSION}.tar.gz"
-SOURCEFILE="tgt_grease-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/98/1d/339eb8ac4deb1e07dc0a0bf825e6236a8fa5b62d7ddd73f40fa5cac2845a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Python SDK for Frinx Machine Workflow Manager"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/4d/09/8e66e9a6cc7e4409fec976eb5865e845ce154556e4ea072e670767825c0a/frinx_python_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="frinx_python_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4d/09/8e66e9a6cc7e4409fec976eb5865e845ce154556e4ea072e670767825c0a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Tools running parallel processes"
 
 HOMEPAGE="http://www2.compute.dtu.dk/~dabi/"
 LICENSE="COPYING.LESSER"
-SRC_URI="https://files.pythonhosted.org/packages/84/9b/8761c59955c230342a6719f38ba78474a482e0adf88ce436631bee2e17bd/mpi_map-${REALVERSION}.tar.gz"
-SOURCEFILE="mpi_map-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/84/9b/8761c59955c230342a6719f38ba78474a482e0adf88ce436631bee2e17bd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

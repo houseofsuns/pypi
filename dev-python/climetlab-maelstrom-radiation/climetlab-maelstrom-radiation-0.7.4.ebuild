@@ -15,8 +15,8 @@ DESCRIPTION="A dataset plugin for climetlab for the dataset maelstrom-radiation.
 
 HOMEPAGE="https://git.ecmwf.int/projects/MLFET/repos/maelstrom-radiation"
 LICENSE="Apache License Version 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/3a/30/02b7605fe0317c47cbe595613643c8a4417bba4c7e8718c12ef42f6d3fe7/climetlab_maelstrom_radiation-${REALVERSION}.tar.gz"
-SOURCEFILE="climetlab_maelstrom_radiation-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3a/30/02b7605fe0317c47cbe595613643c8a4417bba4c7e8718c12ef42f6d3fe7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

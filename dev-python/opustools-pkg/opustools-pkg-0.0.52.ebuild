@@ -15,8 +15,8 @@ DESCRIPTION="Tools to read OPUS"
 
 HOMEPAGE="https://github.com/Helsinki-NLP/OpusTools"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/14/25/843d07bee632c269820bbe7e0a0843c9e2af8ad7ebd441970ca2869432ca/opustools_pkg-${REALVERSION}.tar.gz"
-SOURCEFILE="opustools_pkg-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/14/25/843d07bee632c269820bbe7e0a0843c9e2af8ad7ebd441970ca2869432ca/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

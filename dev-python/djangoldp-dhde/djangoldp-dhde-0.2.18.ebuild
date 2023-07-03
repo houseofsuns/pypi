@@ -15,8 +15,8 @@ DESCRIPTION="djangoldp package for Spacecoop-DHDE"
 
 HOMEPAGE="https://git.startinblox.com/djangoldp-packages/djangoldp-dhde"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cc/92/932ca5f1fc9bec4d470cb76d7c88c39410d2a9238d67dc16a3b835ead65e/djangoldp_dhde-${REALVERSION}.tar.gz"
-SOURCEFILE="djangoldp_dhde-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cc/92/932ca5f1fc9bec4d470cb76d7c88c39410d2a9238d67dc16a3b835ead65e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

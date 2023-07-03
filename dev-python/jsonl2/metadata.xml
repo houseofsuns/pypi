@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Json Line librarythis is a library aiming to handle json line files.## What is a Json line file (*.jsonl)A json line file is a text file where each line is a single json document.The advantages to have a jsonl file are:1. fast reading, we don't need to wait to read the entire file to know data 2. skip lines very fast without parsing json documents3. we can read a jsonl file in parallel# Installation``pip install jsonl``# Usage```pythonfrom jsonl import Jsonl#read whole filedata0 = [x for x in Jsonl(&quot;/path/to/file&quot;)]#alternative to read data1 = list(Jsonl(&quot;/path/to/file&quot;))#read 100 rows after row 20data2 = [x for x in Jsonl(&quot;/path/to/file&quot;, offset=20, limit=100)]#write objectsdata3=[{&quot;name&quot;:&quot;Newton&quot;}, {&quot;name&quot;:&quot;Galileo&quot;}]Jsonl(&quot;/path/to/file&quot;,&quot;w&quot;).write(data3)```If the file is located in the cloud, you only need to configure your environment`Jsonl` class will handle it for aws, gcp, etc.`Jsonl` can handle `.zip` or `.gz` files automaticallyyou only need to specify the right extension in the path#AuthorPedro Mayorga.</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="Contains helper functions for the generated idl library by ts_sal."
 
 HOMEPAGE=""
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/b9/1d/e0b149723a87728c402f0027434f201451df289d6afc6671af7cf1f127e1/ts_idl-${REALVERSION}.tar.gz"
-SOURCEFILE="ts_idl-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b9/1d/e0b149723a87728c402f0027434f201451df289d6afc6671af7cf1f127e1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

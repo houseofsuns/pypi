@@ -15,8 +15,8 @@ DESCRIPTION="CSC eRecording python wrapper"
 
 HOMEPAGE="https://github.com/Lenders-Cooperative/CSCRecorder"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3c/f5/64be558546fafd9e682c912553628ec21211afd337bef6222c68a757745a/csc_recorder-${REALVERSION}.tar.gz"
-SOURCEFILE="csc_recorder-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3c/f5/64be558546fafd9e682c912553628ec21211afd337bef6222c68a757745a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

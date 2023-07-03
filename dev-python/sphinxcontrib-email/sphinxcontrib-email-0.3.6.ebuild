@@ -15,8 +15,8 @@ DESCRIPTION="Sphinx email obfuscation extension"
 
 HOMEPAGE="https://github.com/sphinx-contrib/email"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/92/57/b89465c5574334a750d2d5f603c235d2392d3777bef6799ef5fc13ef97a9/sphinxcontrib_email-${REALVERSION}.tar.gz"
-SOURCEFILE="sphinxcontrib_email-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/92/57/b89465c5574334a750d2d5f603c235d2392d3777bef6799ef5fc13ef97a9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

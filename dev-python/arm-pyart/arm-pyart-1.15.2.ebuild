@@ -15,8 +15,8 @@ DESCRIPTION="Py-ART: Python ARM Radar Toolkit"
 
 HOMEPAGE="https://github.com/ARM-DOE/pyart"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/61/dc/edc91762b1ae7d1b6ec9814049f539d1efec1376b17671d5cd3ff88f00b2/arm_pyart-${REALVERSION}.tar.gz"
-SOURCEFILE="arm_pyart-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/61/dc/edc91762b1ae7d1b6ec9814049f539d1efec1376b17671d5cd3ff88f00b2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

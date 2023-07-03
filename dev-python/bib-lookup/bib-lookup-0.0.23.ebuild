@@ -15,8 +15,8 @@ DESCRIPTION="A useful tool for looking up Bib entries using DOI, or pubmed ID (o
 
 HOMEPAGE="https://github.com/DeepPSP/bib_lookup"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a4/41/386082f1849a416afb51d03c2d4ab674c7b4826ef84913b3f996bcd4c0c7/bib_lookup-${REALVERSION}.tar.gz"
-SOURCEFILE="bib_lookup-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a4/41/386082f1849a416afb51d03c2d4ab674c7b4826ef84913b3f996bcd4c0c7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

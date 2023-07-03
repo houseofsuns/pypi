@@ -15,8 +15,8 @@ DESCRIPTION="Utilities for writing Behave step implementations"
 
 HOMEPAGE="https://code.kodo.org.uk/dom/behave-utils"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/fb/fe/b93c4737b3c65ccbbf5898659b971b534994b537e0df5560f2a05ed484b9/behave_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="behave_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fb/fe/b93c4737b3c65ccbbf5898659b971b534994b537e0df5560f2a05ed484b9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

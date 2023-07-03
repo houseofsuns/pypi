@@ -15,8 +15,8 @@ DESCRIPTION="A helper library for pulling data from netdata into a pandas datafr
 
 HOMEPAGE="https://github.com/netdata/netdata-pandas/tree/master/"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/88/c1/123e074fbf95e06db00d5cc9a8483872fb409df7e2127374a352a8c36b92/netdata_pandas-${REALVERSION}.tar.gz"
-SOURCEFILE="netdata_pandas-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/88/c1/123e074fbf95e06db00d5cc9a8483872fb409df7e2127374a352a8c36b92/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

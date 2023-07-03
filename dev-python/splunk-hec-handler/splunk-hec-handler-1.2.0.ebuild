@@ -15,8 +15,8 @@ DESCRIPTION="A Python logging handler to sends logs to Splunk using HTTP event c
 
 HOMEPAGE="https://github.com/vavarachen/splunk_hec_handler"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/67/f8/ebdee911502f7dc21be0d253083ce89e18dd0addcb53f2d8cd11e0010743/splunk_hec_handler-${REALVERSION}.tar.gz"
-SOURCEFILE="splunk_hec_handler-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/67/f8/ebdee911502f7dc21be0d253083ce89e18dd0addcb53f2d8cd11e0010743/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

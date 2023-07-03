@@ -15,8 +15,8 @@ DESCRIPTION="travis related utilities"
 
 HOMEPAGE="https://github.com/bitranox/lib_travis"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fd/b2/f7e0e53314c51a736f5b4ec35b56f74cab2bc330b6a33103067e4e8a315a/lib_travis-${REALVERSION}.tar.gz"
-SOURCEFILE="lib_travis-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fd/b2/f7e0e53314c51a736f5b4ec35b56f74cab2bc330b6a33103067e4e8a315a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

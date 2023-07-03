@@ -15,8 +15,8 @@ DESCRIPTION="A utility package for lightly"
 
 HOMEPAGE="https://www.lightly.ai"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/12/3a/fc1c006440cef68bd618056633aea5ae50c1ceee1b8eeb25e101df8e6ded/lightly_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="lightly_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/12/3a/fc1c006440cef68bd618056633aea5ae50c1ceee1b8eeb25e101df8e6ded/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

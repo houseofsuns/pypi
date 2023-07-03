@@ -15,8 +15,8 @@ DESCRIPTION="zhconv as in MediaWiki, oxidized with more efficiency 🦀"
 
 HOMEPAGE=""
 LICENSE="GPL-2+"
-SRC_URI="https://files.pythonhosted.org/packages/2d/57/4e615c2a78e12e418f0291ef0912a2761e14b443d852179e8a3fb92b7934/zhconv_rs-${REALVERSION}.tar.gz"
-SOURCEFILE="zhconv_rs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2d/57/4e615c2a78e12e418f0291ef0912a2761e14b443d852179e8a3fb92b7934/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

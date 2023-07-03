@@ -15,8 +15,8 @@ DESCRIPTION="A logger."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4c/ea/e9d7fb98eb43af8f0b14fc267c58ec8615d2cd11d282869d1e887598f5a4/arko_logger-${REALVERSION}.tar.gz"
-SOURCEFILE="arko_logger-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4c/ea/e9d7fb98eb43af8f0b14fc267c58ec8615d2cd11d282869d1e887598f5a4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

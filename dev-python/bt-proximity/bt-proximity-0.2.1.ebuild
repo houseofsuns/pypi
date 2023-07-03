@@ -15,8 +15,8 @@ DESCRIPTION="Allows for querying of the RSSI values for nearby devices using pyb
 
 HOMEPAGE="https://github.com/FrederikBolding/bluetooth-proximity"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/00/fc/0dd534e55857af29c3f1f2d54f6a0d508cbe69e5ec2124ed238d1dfecf04/bt_proximity-${REALVERSION}.tar.gz"
-SOURCEFILE="bt_proximity-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/00/fc/0dd534e55857af29c3f1f2d54f6a0d508cbe69e5ec2124ed238d1dfecf04/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

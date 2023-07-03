@@ -15,8 +15,8 @@ DESCRIPTION="信息模块"
 
 HOMEPAGE=""
 LICENSE="apache 3.0"
-SRC_URI="https://files.pythonhosted.org/packages/72/6a/11a14d8bdd81d8d72183126373300b5df2472d064254cfb91f1b65697618/xj_thread-${REALVERSION}.tar.gz"
-SOURCEFILE="xj_thread-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/72/6a/11a14d8bdd81d8d72183126373300b5df2472d064254cfb91f1b65697618/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="MkDocs plugin that added captions to images by converting markdown 
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/33/2e/e3dba8299645c26ec3d1bf0d03923cb8af8dbafa7f1df3e640ed7e937ca9/mkdocs_image_captions-${REALVERSION}.tar.gz"
-SOURCEFILE="mkdocs_image_captions-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/33/2e/e3dba8299645c26ec3d1bf0d03923cb8af8dbafa7f1df3e640ed7e937ca9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

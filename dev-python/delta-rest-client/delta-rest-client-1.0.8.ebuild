@@ -15,8 +15,8 @@ DESCRIPTION="Rest Client for Delta Exchange"
 
 HOMEPAGE="https://github.com/delta-exchange/python-rest-client"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/40/e3/c0f2a9f8f2854df3fffd43b6638f58e0036d2082c1ce7b55c47cf26dd4e9/delta_rest_client-${REALVERSION}.tar.gz"
-SOURCEFILE="delta_rest_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/40/e3/c0f2a9f8f2854df3fffd43b6638f58e0036d2082c1ce7b55c47cf26dd4e9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="NICHE Vlaanderen: hydro-ecological model for valley-ecosystems in F
 
 HOMEPAGE="https://github.com/inbo/niche_vlaanderen"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b2/10/b6febbb2ca0642ff14249a9cb514894e800040e03b012861596aeb57849d/niche_vlaanderen-${REALVERSION}.tar.gz"
-SOURCEFILE="niche_vlaanderen-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b2/10/b6febbb2ca0642ff14249a9cb514894e800040e03b012861596aeb57849d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

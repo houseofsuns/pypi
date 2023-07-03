@@ -15,8 +15,8 @@ DESCRIPTION="Highlighter module for annotations in APIS framework"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e2/4e/1086798879a287e388bee86bed4042bc2acb184d4d0138d8bceee3e0d26b/apis_highlighter-${REALVERSION}.tar.gz"
-SOURCEFILE="apis_highlighter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e2/4e/1086798879a287e388bee86bed4042bc2acb184d4d0138d8bceee3e0d26b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

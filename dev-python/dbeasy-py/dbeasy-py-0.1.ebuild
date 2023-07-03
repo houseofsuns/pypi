@@ -15,8 +15,8 @@ DESCRIPTION="A package to facilitate the use of the database."
 
 HOMEPAGE="https://github.com/brunowanderson7/dbeasy_py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bc/4d/b884f4464fb6f1d3ebfd910f2015703a80af4970aefe60dc553d6a99e2e3/dbeasy_py-${REALVERSION}.tar.gz"
-SOURCEFILE="dbeasy_py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bc/4d/b884f4464fb6f1d3ebfd910f2015703a80af4970aefe60dc553d6a99e2e3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

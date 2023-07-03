@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8e/c6/8ac8b38db2a2f4e051826d25edaa20cef99d14cd04436257a3f7d032ff0b/starfish_library-${REALVERSION}.tar.gz"
-SOURCEFILE="starfish_library-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8e/c6/8ac8b38db2a2f4e051826d25edaa20cef99d14cd04436257a3f7d032ff0b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/lagranges/people_also_ask"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/da/74/a74192775ebe441b6e217d3daf9ce5ba8475985cbba8dc73ed80b19507d0/people_also_ask-${REALVERSION}.tar.gz"
-SOURCEFILE="people_also_ask-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/da/74/a74192775ebe441b6e217d3daf9ce5ba8475985cbba8dc73ed80b19507d0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

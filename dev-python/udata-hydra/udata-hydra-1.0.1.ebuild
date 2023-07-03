@@ -15,8 +15,8 @@ DESCRIPTION="Async crawler and datalake service for data.gouv.fr"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0c/41/7cef2098fee321cb88de599a32b0c1f349c5fa34caad128c123bc14138ef/udata_hydra-${REALVERSION}.tar.gz"
-SOURCEFILE="udata_hydra-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0c/41/7cef2098fee321cb88de599a32b0c1f349c5fa34caad128c123bc14138ef/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

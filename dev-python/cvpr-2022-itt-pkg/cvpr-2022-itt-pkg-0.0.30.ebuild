@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/64/fd/0ac428ac22fd0c4e62330b2d450bb6d342e4b0a4c530dcd1f0a6d9240ee2/cvpr_2022_itt_pkg-${REALVERSION}.tar.gz"
-SOURCEFILE="cvpr_2022_itt_pkg-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/64/fd/0ac428ac22fd0c4e62330b2d450bb6d342e4b0a4c530dcd1f0a6d9240ee2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

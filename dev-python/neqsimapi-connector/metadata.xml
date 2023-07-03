@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># NeqSimAPI-connectorA python package to simplify calling NeqSimAPI for end-users handling authentication.  See https://neqsimapi.app.radix.equinor.com/docs for available endpoints.# UsageSee [https://github.com/equinor/neqsimapi-connector/blob/main/example/demo.py](/example/demo.py) for a simple demo that connects and gets data from NeqSimAPI.A short snippet is seen below```from neqsimapi_connector.Connector import Connector as neqsim_api_connectordata = {&quot;compression_factor&quot;: 10,        &quot;refrigerant&quot;: {            &quot;fluid&quot;: &quot;propane&quot;,            &quot;fraction&quot;: 1,            &quot;unit_temperature&quot;: &quot;C&quot;,            &quot;unit_pressure&quot;: &quot;bara&quot;,            &quot;unit_flowrate&quot;: &quot;kg/hr&quot;,            &quot;temperature&quot;: 30,            &quot;pressure&quot;: 15,            &quot;flowrate&quot;: 1000}        }c = neqsim_api_connector()res = c.post(&quot;DEMO/demo-process/simulate&quot;, data=data)print(res)```# Install using pipUsage of NeqSimAPI is limited to equinor users, but the package is available on pip.  ```python -m pip install neqsimapi_connector```</longdescription>
+</pkgmetadata>

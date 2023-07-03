@@ -15,8 +15,8 @@ DESCRIPTION="commom tools"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8b/48/f054ba12d41f96ab12eadf99834e30d1e3e49a1c5e9b10c4030d16aab5a8/dg_util-${REALVERSION}.tar.gz"
-SOURCEFILE="dg_util-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8b/48/f054ba12d41f96ab12eadf99834e30d1e3e49a1c5e9b10c4030d16aab5a8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="ORM api for collector projects, include a REST API to expose some k
 
 HOMEPAGE=""
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/55/b3/b7554679f9f57fb5cd444a3b19cd4106327c12b7aa1c35b807cc11d7be74/orm_collector-${REALVERSION}.tar.gz"
-SOURCEFILE="orm_collector-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/55/b3/b7554679f9f57fb5cd444a3b19cd4106327c12b7aa1c35b807cc11d7be74/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

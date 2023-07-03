@@ -15,8 +15,8 @@ DESCRIPTION="Utilities for analyzing short tandem repeats (STRs)"
 
 HOMEPAGE="https://github.com/broadinstitute/str-analysis"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5b/a1/b7500825c41207e5548f382d0f1adb7329dcb7b9a566a04aab51debee14e/str_analysis-${REALVERSION}.tar.gz"
-SOURCEFILE="str_analysis-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5b/a1/b7500825c41207e5548f382d0f1adb7329dcb7b9a566a04aab51debee14e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

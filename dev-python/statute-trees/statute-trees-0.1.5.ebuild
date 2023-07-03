@@ -15,8 +15,8 @@ DESCRIPTION="Tree-based Philippine Codifications, Statutes, and Documents, using
 
 HOMEPAGE="https://lawsql.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/81/71/59e19a6e73ef712f8fab9f5a79362ad4920e614ff070e0e65e6d80fc5f73/statute_trees-${REALVERSION}.tar.gz"
-SOURCEFILE="statute_trees-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/81/71/59e19a6e73ef712f8fab9f5a79362ad4920e614ff070e0e65e6d80fc5f73/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>===============================Automation Mojo Interop Package===============================This *Automation Mojo Interop Package* contains interop extensions that add interop functionality tothe test environment *Landscape* object for a variety of platform clients, clusters, and protocols.==========References==========- `User Guide &lt;userguide/userguide.rst&gt;`- `Coding Standards &lt;userguide/10-00-coding-standards.rst&gt;`</longdescription>
+</pkgmetadata>

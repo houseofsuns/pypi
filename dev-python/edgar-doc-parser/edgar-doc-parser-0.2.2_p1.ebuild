@@ -15,8 +15,8 @@ DESCRIPTION="Download, extraction, and parsing of documents available through th
 
 HOMEPAGE="https://github.com/kamilkrukowski/EDGAR-DOC-PARSER"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/be/b0/456ca074f49d303b563aa545bcfd7c0e64ad6bd133c1f7fa06d2b69133d8/edgar_doc_parser-${REALVERSION}.tar.gz"
-SOURCEFILE="edgar_doc_parser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/be/b0/456ca074f49d303b563aa545bcfd7c0e64ad6bd133c1f7fa06d2b69133d8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

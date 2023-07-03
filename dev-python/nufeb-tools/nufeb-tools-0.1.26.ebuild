@@ -15,8 +15,8 @@ DESCRIPTION="Python-based tools and utilities for NUFEB simulations"
 
 HOMEPAGE="https://github.com/Jsakkos/nufeb-tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a9/3b/7c837d0cfd7fb3cb52c95381959b1c23b4f68c6b6049a34eb621cffabfb3/nufeb_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="nufeb_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a9/3b/7c837d0cfd7fb3cb52c95381959b1c23b4f68c6b6049a34eb621cffabfb3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

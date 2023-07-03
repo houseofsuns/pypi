@@ -15,8 +15,8 @@ DESCRIPTION="Recursively compare two Python data structures"
 
 HOMEPAGE="https://github.com/crusaderky/recursive_diff"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f7/e5/c98e19838d6196208c08e6e2a875f4a559974a6c6538cb62bd1c0c1b06a1/recursive_diff-${REALVERSION}.tar.gz"
-SOURCEFILE="recursive_diff-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f7/e5/c98e19838d6196208c08e6e2a875f4a559974a6c6538cb62bd1c0c1b06a1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

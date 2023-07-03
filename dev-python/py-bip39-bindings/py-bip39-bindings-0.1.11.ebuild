@@ -15,8 +15,8 @@ DESCRIPTION="Python bindings for tiny-bip39 RUST crate"
 
 HOMEPAGE="https://github.com/polkascan/py-bip39-bindings"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f0/8a/5e22cbd00b799b33ce0a45ae3715c9ea3fcd263f877544819e7d03753c49/py_bip39_bindings-${REALVERSION}.tar.gz"
-SOURCEFILE="py_bip39_bindings-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f0/8a/5e22cbd00b799b33ce0a45ae3715c9ea3fcd263f877544819e7d03753c49/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

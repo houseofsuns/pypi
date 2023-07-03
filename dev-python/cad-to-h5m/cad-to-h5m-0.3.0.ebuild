@@ -15,8 +15,8 @@ DESCRIPTION="Converts CAD files to a DAGMC h5m file using Cubit"
 
 HOMEPAGE="https://github.com/fusion-energy/cad_to_h5m"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b9/74/2bff7a5ad47e49f527608ceb6d6a3f998050d6aa4e10889a71f7444429ae/cad_to_h5m-${REALVERSION}.tar.gz"
-SOURCEFILE="cad_to_h5m-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b9/74/2bff7a5ad47e49f527608ceb6d6a3f998050d6aa4e10889a71f7444429ae/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

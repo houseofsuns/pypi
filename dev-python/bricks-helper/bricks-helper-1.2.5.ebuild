@@ -15,8 +15,8 @@ DESCRIPTION="A Python package for helping with databricks related work"
 
 HOMEPAGE="https://dev.azure.com/lerxstvso/main/_git/brickshelper"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3b/3d/6ac46e956cd130219bbcc1833d964a33ca380f24adf4fbab84e06ff7ed9a/bricks_helper-${REALVERSION}.tar.gz"
-SOURCEFILE="bricks_helper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3b/3d/6ac46e956cd130219bbcc1833d964a33ca380f24adf4fbab84e06ff7ed9a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

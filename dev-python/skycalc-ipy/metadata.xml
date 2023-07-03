@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>No doubt, this will change in the future. For the moment though:We invoke the licence of honour. Ask yourself, what would Thor do?If ambiguity ensues, ScopeSim will use the MIT software licence.https://choosealicense.com/licenses/mit/TLDR; Give credit where credit is due, and reuse this licence.Description: # skycalc_ipy                [![Documentation Status](https://readthedocs.org/projects/skycalc-ipy/badge/?version=latest)](https://skycalc-ipy.readthedocs.io/en/latest/?badge=latest)        [![Workflow Status](https://github.com/AstarVienna/skycalc_ipy/actions/workflows/tests.yml/badge.svg)](https://github.com/AstarVienna/skycalc_ipy/actions/workflows/tests.yml)                [![](http://github-actions.40ants.com/AstarVienna/skycalc_ipy/matrix.svg)](https://github.com/AstarVienna/skycalc_ipy)                [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)                A python package which mirrors the functionality of         [ESO's ``skycalc_cli`` utility](https://www.eso.org/observing/etc/doc/skycalc/helpskycalccli.html),        but can be used from within an ipython session or Juypter notebook.                # Documentation        Please visit the [skycalc readthedocs site](https://skycalc-ipy.readthedocs.io/en/latest/) for more extensive documentation.        Platform: UNKNOWNDescription-Content-Type: text/markdown</longdescription>
+</pkgmetadata>

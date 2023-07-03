@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module to historize sales"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/05/46/63752f063fd4e569ab9339b78f39d3b9505db44269dd1bb3c98617aa52ea/trytond_sale_history-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_sale_history-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/05/46/63752f063fd4e569ab9339b78f39d3b9505db44269dd1bb3c98617aa52ea/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Streaming via range requests."
 
 HOMEPAGE="https://github.com/lmmx/range-streams"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/72/81/a76794547a4ec3ef394e7bbd04fc766a5e46582239ae49c6fd09d1ef6481/range_streams-${REALVERSION}.tar.gz"
-SOURCEFILE="range_streams-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/72/81/a76794547a4ec3ef394e7bbd04fc766a5e46582239ae49c6fd09d1ef6481/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

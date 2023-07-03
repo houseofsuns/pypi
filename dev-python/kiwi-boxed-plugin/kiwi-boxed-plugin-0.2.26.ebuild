@@ -15,8 +15,8 @@ DESCRIPTION="KIWI - Boxed Build Plugin"
 
 HOMEPAGE="https://github.com/OSInside/kiwi-boxed-plugin"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/d4/68/3ad0208b85012926f7790461053821a391755f495d24febb7c429157102f/kiwi_boxed_plugin-${REALVERSION}.tar.gz"
-SOURCEFILE="kiwi_boxed_plugin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d4/68/3ad0208b85012926f7790461053821a391755f495d24febb7c429157102f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

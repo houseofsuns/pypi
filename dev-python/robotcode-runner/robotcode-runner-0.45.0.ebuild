@@ -15,8 +15,8 @@ DESCRIPTION="RobotCode runner plugin for Robot Framework"
 
 HOMEPAGE="https://robotcode.io"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/54/7b/b86624599e39b6ec911f614389cf9a8a13290d27f6742d32f4317c25655c/robotcode_runner-${REALVERSION}.tar.gz"
-SOURCEFILE="robotcode_runner-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/54/7b/b86624599e39b6ec911f614389cf9a8a13290d27f6742d32f4317c25655c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

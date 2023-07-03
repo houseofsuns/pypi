@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4b/30/489065e184a87317aa66c611f49d4ad8aee65dc2344dccd9dee841ceccc0/dodo_is_api-${REALVERSION}.tar.gz"
-SOURCEFILE="dodo_is_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4b/30/489065e184a87317aa66c611f49d4ad8aee65dc2344dccd9dee841ceccc0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Canonical Webteam Store-base## AboutThis is the base application for all stores. Each store is registered as a blueprint when the app is initialized, other configs and blueprints that are store-specific are also registered on the app. This allows for uniformity of certain endpoints and functionalities across all stores and also allows for extension and customization of endpoints and features that are store specific. See Usage section for example.## How to InstallTo install this extension as a requirement in your project, you can use PIP:`pip install canonicalwebteam.store-base`## DevelopmentThe package leverages poetry for dependency management.## TestingAll tests can be run with `poetry run python3 -m unittest discover tests`.Note: You might have to do `poetry install` before running the command above.## Usage```from canonicalwebteam.store_base.app import create_appimport store-specific blueprintimport store-specific utility processorapp = create_app(    &quot;app_name&quot;,    store_bp=store-specific blueprint,    utility_processor=store-specific utility_processor,)app.static_folder=app_static_folderapp.template_folder=app_template_folderapp.static_url_path=app_static_url_pathall other store blueprints and configurations should be registered here```</longdescription>
+</pkgmetadata>

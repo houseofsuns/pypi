@@ -15,8 +15,8 @@ DESCRIPTION="A city selector for django xadmin"
 
 HOMEPAGE="https://www.example.com/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/5a/49/48c4ef64bebbdebbd98773e91bb1b15d14bae56a3fb8d74ca27fff773bc0/urllib3_fixed-${REALVERSION}.tar.gz"
-SOURCEFILE="urllib3_fixed-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5a/49/48c4ef64bebbdebbd98773e91bb1b15d14bae56a3fb8d74ca27fff773bc0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

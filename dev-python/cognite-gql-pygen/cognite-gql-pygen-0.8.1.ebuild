@@ -15,8 +15,8 @@ DESCRIPTION="Cognite GraphQL Python Generation SDK"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/6d/ca/221f7717ef84370ac8a9b27b0ec840d8ffb5bebfc147e0adfa70bfda1fef/cognite_gql_pygen-${REALVERSION}.tar.gz"
-SOURCEFILE="cognite_gql_pygen-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6d/ca/221f7717ef84370ac8a9b27b0ec840d8ffb5bebfc147e0adfa70bfda1fef/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

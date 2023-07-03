@@ -15,8 +15,8 @@ DESCRIPTION="Sinnia Utilities"
 
 HOMEPAGE="https://github.com/sinnia/scripts/tree/develop/shared"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/19/29/e03476809a46c895df5756d5c600978ad2bdef6df111a4a9410077c54fae/sinnia_shared-${REALVERSION}.tar.gz"
-SOURCEFILE="sinnia_shared-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/19/29/e03476809a46c895df5756d5c600978ad2bdef6df111a4a9410077c54fae/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

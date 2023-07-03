@@ -15,8 +15,8 @@ DESCRIPTION="ServiceX DID Library Routines"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ee/ad/6f4b8b9f9d5977bb83c0d64c9bf395b6c2e9a7e38bb41185ccd68bd29184/servicex_did_finder_lib-${REALVERSION}.tar.gz"
-SOURCEFILE="servicex_did_finder_lib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ee/ad/6f4b8b9f9d5977bb83c0d64c9bf395b6c2e9a7e38bb41185ccd68bd29184/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

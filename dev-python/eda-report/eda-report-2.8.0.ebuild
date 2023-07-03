@@ -15,8 +15,8 @@ DESCRIPTION="A simple program to automate exploratory data analysis and reportin
 
 HOMEPAGE="https://eda-report.readthedocs.io/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b9/05/63612500eba8c69cff9001d3d196e8c7b3c44e0fd3402a2ac2803420cd0f/eda_report-${REALVERSION}.tar.gz"
-SOURCEFILE="eda_report-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b9/05/63612500eba8c69cff9001d3d196e8c7b3c44e0fd3402a2ac2803420cd0f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

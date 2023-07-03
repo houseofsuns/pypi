@@ -15,8 +15,8 @@ DESCRIPTION="Python implementation of XVIZ protocol"
 
 HOMEPAGE="https://github.com/uber/xviz"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/01/bf/f62cc6cd0299584b4ef26f1d8c3976e8aeada98dcdd2f685bee5f47b232b/xviz_avs-${REALVERSION}.tar.gz"
-SOURCEFILE="xviz_avs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/01/bf/f62cc6cd0299584b4ef26f1d8c3976e8aeada98dcdd2f685bee5f47b232b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

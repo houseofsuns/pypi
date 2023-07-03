@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/xncbf/rcs-pydantic"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/20/ab/4e7a8029697db6775569e8c83746f86d5f281de4c674bfbed82809bf24f6/rcs_pydantic-${REALVERSION}.tar.gz"
-SOURCEFILE="rcs_pydantic-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/20/ab/4e7a8029697db6775569e8c83746f86d5f281de4c674bfbed82809bf24f6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># install package## virtual environment```pip install mindmate```&gt; It's not recommended to install in virtual environment _(except for  testing)_ try it with default `pip`## operating system level```sudo apt updatesudo apt install -y python3-pipexport PATH=&quot;$PATH:/home/$USER/.local/bin&quot;pip install mindmate```# usage```$ mindmate [ARGUMENT] [OPTIONS] [OPTIONS] [OPTIONS] --help```## examples```$ mindmate configure$ mindmate directory prompting list$ mindmate chat --platform openai \  --model text-davinci-003 \  --stream true \  --max-tokens 500 \  --prompt &quot;Act as a professional developer, provide best file structure for fastAPI framework&quot;$ mindmate image create -p &quot;mindmate written on the background in a garden and friends playing around&quot;```# compatibility__Not tested__ yet, but should be compatible with any Python &gt;= 3.8</longdescription>
+</pkgmetadata>

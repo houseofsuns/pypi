@@ -15,8 +15,8 @@ DESCRIPTION="A Python package to communicate with the laundrify API"
 
 HOMEPAGE="https://github.com/laundrify/laundrify-pypi"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4d/85/f40c78c23d8f69fde0e853d3c6f4eb28d84f2cbdd20e0398c247e5349abd/laundrify_aio-${REALVERSION}.tar.gz"
-SOURCEFILE="laundrify_aio-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4d/85/f40c78c23d8f69fde0e853d3c6f4eb28d84f2cbdd20e0398c247e5349abd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

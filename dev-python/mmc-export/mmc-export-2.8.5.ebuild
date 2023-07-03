@@ -15,8 +15,8 @@ DESCRIPTION="Export MMC modpack to other modpack formats"
 
 HOMEPAGE="https://github.com/RozeFound/mmc-export"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4b/08/af40b2353a71a88639e2a396402a8543225394a1c9dc2c7ca92b59a29045/mmc_export-${REALVERSION}.tar.gz"
-SOURCEFILE="mmc_export-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4b/08/af40b2353a71a88639e2a396402a8543225394a1c9dc2c7ca92b59a29045/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

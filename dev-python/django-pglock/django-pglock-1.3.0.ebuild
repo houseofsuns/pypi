@@ -15,8 +15,8 @@ DESCRIPTION="Postgres locking routines and lock table access."
 
 HOMEPAGE="https://github.com/Opus10/django-pglock"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/19/af/d841df74bbbebcf42f3159ed7050b142198e8ba356b6f38809d29f77588f/django_pglock-${REALVERSION}.tar.gz"
-SOURCEFILE="django_pglock-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/19/af/d841df74bbbebcf42f3159ed7050b142198e8ba356b6f38809d29f77588f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Wrapper for ZMQ comunication."
 
 HOMEPAGE="https://github.com/calcite/zmq_tubes"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b2/17/efc855b7513dc7ac8f16766f60ebef27a1b33832402b9dd5229e54142cea/zmq_tubes-${REALVERSION}.tar.gz"
-SOURCEFILE="zmq_tubes-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b2/17/efc855b7513dc7ac8f16766f60ebef27a1b33832402b9dd5229e54142cea/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

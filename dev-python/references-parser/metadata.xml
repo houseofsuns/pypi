@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Install```bashpip install references-parser```# Usage### Use help to see CLI parameters```bash➜ python -m references_parser parse --help        Usage: python -m references_parser parse [OPTIONS] PATHOptions:  -s, --save TEXT         Path to file where to save the result of parsing.  -p, --parser TEXT       Parser to use. Available parsers: ieee, ssau.                          Default: ssau.  -v, --verbose           Whether to print output to stdout or not  -b, --beautify INTEGER  Number of line wraps between references. Default: 1  --help                  Show this message and exit.```### Usual way of using the script```bashpython -m references_parser parse in.txt```# Website referencesIt's hard to fully parse a website automatically, so some manual interactions are required.How to add a website reference:1. Add the links directly to the input file.2. Invoke the `prepare-urls` command like this:```bashpython -m references_parser prepare-urls in.txt```3. Then, the URL in the file will be replaced with a BibTeX-annotated URL:```@online{Google,    title={Google},    date={18.05.2023},    year={2023},    origin={TODO: Author or place or corp here},    base={TODO: Base resource title here},    url={&lt;https://google.com&gt;}}```4. Here, you can fill in the fields `origin` **(mandatory)** and `base` with the required information.5. Then, you can use parsers as usual, but pay attention that the result contains `[Б.м.]`, which you may want to delete.# ExamplesFollow `examples` folder to see input and outputs file examples# ContributionIf you want to improve the program - just fork it and make a pool request</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="Python wrapper of the Oracle Forms API"
 
 HOMEPAGE="https://github.com/LatvianPython/pyoracle_forms"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/36/ac/b68aecb4fb4a4225536a54b8b8ddd46e7a982c1bedd93f439f360fad4dce/pyoracle_forms-${REALVERSION}.tar.gz"
-SOURCEFILE="pyoracle_forms-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/36/ac/b68aecb4fb4a4225536a54b8b8ddd46e7a982c1bedd93f439f360fad4dce/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

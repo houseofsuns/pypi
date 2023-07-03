@@ -15,8 +15,8 @@ DESCRIPTION="PEP 484 typing stubs for Home Assistant Core"
 
 HOMEPAGE="https://github.com/KapJI/homeassistant-stubs"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/76/f7/0b7001e09d46a890ec0bc9b69283e7940163638543197540f598ae24c2cc/homeassistant_stubs-${REALVERSION}.tar.gz"
-SOURCEFILE="homeassistant_stubs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/76/f7/0b7001e09d46a890ec0bc9b69283e7940163638543197540f598ae24c2cc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

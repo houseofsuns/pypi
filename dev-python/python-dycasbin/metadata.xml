@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>DynamoDB adopter for casbinInstallation------------Run `pip install python-dycasbin`Usage-----```pythonimport casbinfrom python_dycasbin import adapteradapter = adapter.Adapter(table_name='casbin_rule', endpoint_url='http://localhost:8000')e = casbin.Enforcer(&quot;model.conf&quot;, adapter, True)sub = &quot;eve4&quot;  # the user that wants to access a resource.obj = &quot;data3&quot;  # the resource that is going to be accessed.act = &quot;read&quot;  # the operation that the user performs on the resource.if e.enforce(sub, obj, act):    print(&quot;Allow&quot;)else:    print(&quot;Deny&quot;)```Running tests---------------* Install [pytest](https://pypi.org/project/pytest/) and [pytest-mock](https://pypi.org/project/pytest-mock/)* Run `pytest` from project root</longdescription>
+</pkgmetadata>

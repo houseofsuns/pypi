@@ -15,8 +15,8 @@ DESCRIPTION="SDK for interacting with Feishu(previously Lark)"
 
 HOMEPAGE="https://github.com/yuanfeiz/feishu-bot"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/78/19/dcc47423fb3389f106354ec6750ecb52f962db70996168e21af702fa1b33/feishu_bot-${REALVERSION}.tar.gz"
-SOURCEFILE="feishu_bot-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/78/19/dcc47423fb3389f106354ec6750ecb52f962db70996168e21af702fa1b33/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

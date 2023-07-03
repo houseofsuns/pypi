@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/mozilla/pyo3-parsepatch"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/9e/09/55cb30ce3751cd1f32ecfc3420c7b0d278c2b9c3f46814d4947774283883/rs_parsepatch-${REALVERSION}.tar.gz"
-SOURCEFILE="rs_parsepatch-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9e/09/55cb30ce3751cd1f32ecfc3420c7b0d278c2b9c3f46814d4947774283883/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

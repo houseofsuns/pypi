@@ -15,8 +15,8 @@ DESCRIPTION="Sphinx API documentation for Terraform Modules"
 
 HOMEPAGE="https://github.com/twang817/sphinx-tfdoc"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1e/30/a6479cddf6bfae65864489037f0e7ed2937963bece26d746327d711acec0/sphinx_tfdoc-${REALVERSION}.tar.gz"
-SOURCEFILE="sphinx_tfdoc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1e/30/a6479cddf6bfae65864489037f0e7ed2937963bece26d746327d711acec0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

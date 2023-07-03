@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## Elefantolib for FastAPI&gt; **_NOTE:_**  Only for this library developers. After clone this repository you should run command:&gt;  ```console git config core.hooksPath .githooks```## Installation&lt;div class=&quot;termy&quot;&gt;```consolepoetry add elefantolib-fastapi```&lt;/div&gt;## Example### Prepare* Add environmental variables```SECRET=ALGORITHM=ISSUER=```* Defaults:        - SECRET - not set, this is required    - ALGORITHM=HS256    - ISSUER=Consumer### Create it* Create a file `main.py` with:```Pythonfrom elefantolib_fastapi.requests import Requestfrom elefantolib_fastapi.routes import APIRoutefrom fastapi import FastAPIapp = FastAPI()app.router.route_class = APIRoute@app.get('/')def index(request: Request):    # TODO something    response = request.pfm.services.some_service_name.get('path-to-endpoint')    return response```</longdescription>
+</pkgmetadata>

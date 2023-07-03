@@ -15,8 +15,8 @@ DESCRIPTION="LINQ (Language Integrated Query) is a popular querying language ava
 
 HOMEPAGE="https://github.com/viralogic/py-enumerable"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fb/fe/bae330fc84aa15f7a450939e64f82895b011ee61cc858ad8f3a1ab037624/py_linq-${REALVERSION}.tar.gz"
-SOURCEFILE="py_linq-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fb/fe/bae330fc84aa15f7a450939e64f82895b011ee61cc858ad8f3a1ab037624/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

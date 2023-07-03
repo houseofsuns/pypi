@@ -15,8 +15,8 @@ DESCRIPTION="A fork of the Python implementation of the SimString by (Katsuma Na
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a7/48/036b7316ee7e73035c7bf54d429522b211fadba26fdcf13592a9e6731832/simstring_fast-${REALVERSION}.tar.gz"
-SOURCEFILE="simstring_fast-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a7/48/036b7316ee7e73035c7bf54d429522b211fadba26fdcf13592a9e6731832/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

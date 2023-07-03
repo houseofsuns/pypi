@@ -15,8 +15,8 @@ DESCRIPTION="Factory test tool for the PinePhone"
 
 HOMEPAGE="https://gitlab.com/MartijnBraam/factorytest"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7b/4c/6f3ec1dda6e2c79b0db8e98f60b94dd8d8bf917ec1acc2847f199d59b1ff/factorytest_pinephone-${REALVERSION}.tar.gz"
-SOURCEFILE="factorytest_pinephone-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7b/4c/6f3ec1dda6e2c79b0db8e98f60b94dd8d8bf917ec1acc2847f199d59b1ff/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

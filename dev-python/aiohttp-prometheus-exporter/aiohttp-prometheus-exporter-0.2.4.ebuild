@@ -15,8 +15,8 @@ DESCRIPTION="Prometheus exporter for aiohttp server and client."
 
 HOMEPAGE="https://github.com/adriankrupa/aiohttp_prometheus_exporter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/02/5d/9591729be12bf51d2117eaceab0c63a5bb7953fc8e34c043d20f55c487e2/aiohttp_prometheus_exporter-${REALVERSION}.tar.gz"
-SOURCEFILE="aiohttp_prometheus_exporter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/02/5d/9591729be12bf51d2117eaceab0c63a5bb7953fc8e34c043d20f55c487e2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

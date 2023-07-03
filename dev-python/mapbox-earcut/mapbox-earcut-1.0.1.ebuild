@@ -15,8 +15,8 @@ DESCRIPTION="Python bindings for the mapbox earcut C++ polygon triangulation lib
 
 HOMEPAGE="https://github.com/skogler/mapbox_earcut_python"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/97/f9/38f72877be0a5bf35c04a75c8ceb261589f2807eeaffaa22055079f53839/mapbox_earcut-${REALVERSION}.tar.gz"
-SOURCEFILE="mapbox_earcut-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/97/f9/38f72877be0a5bf35c04a75c8ceb261589f2807eeaffaa22055079f53839/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

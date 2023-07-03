@@ -15,8 +15,8 @@ DESCRIPTION="Product Key Memory"
 
 HOMEPAGE="https://github.com/lucidrains/product-key-memory"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/61/20/e6517400965c5099f8e72a49f38d4ecc5a6e2beb302ab60836d6b659e9af/product_key_memory-${REALVERSION}.tar.gz"
-SOURCEFILE="product_key_memory-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/61/20/e6517400965c5099f8e72a49f38d4ecc5a6e2beb302ab60836d6b659e9af/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

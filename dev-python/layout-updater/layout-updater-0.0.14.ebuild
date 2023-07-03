@@ -15,8 +15,8 @@ DESCRIPTION="Project Description"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6a/9e/667974c815fb711701fab04390a873cac29d06167007c5bf7c8df544e7cf/layout_updater-${REALVERSION}.tar.gz"
-SOURCEFILE="layout_updater-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6a/9e/667974c815fb711701fab04390a873cac29d06167007c5bf7c8df544e7cf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

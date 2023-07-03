@@ -15,8 +15,8 @@ DESCRIPTION="Alibaba Cloud videoenhan (20200320) SDK Library for Python"
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/14/ce/7cff1390d9f9b75cbab542b40c8c4a97a2fced11175af371a5ec634ee1d3/alibabacloud_videoenhan20200320-${REALVERSION}.tar.gz"
-SOURCEFILE="alibabacloud_videoenhan20200320-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/14/ce/7cff1390d9f9b75cbab542b40c8c4a97a2fced11175af371a5ec634ee1d3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

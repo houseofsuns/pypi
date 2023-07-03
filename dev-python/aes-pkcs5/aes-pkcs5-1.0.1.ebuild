@@ -15,8 +15,8 @@ DESCRIPTION="Implementation of AES with CBC/ECB mode and padding scheme PKCS5"
 
 HOMEPAGE="https://github.com/Laerte/aes_pkcs5"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/49/56/a46d97f744f9e98500c07d83d6854e825310c10e2e72364d557f261c1954/aes_pkcs5-${REALVERSION}.tar.gz"
-SOURCEFILE="aes_pkcs5-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/49/56/a46d97f744f9e98500c07d83d6854e825310c10e2e72364d557f261c1954/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

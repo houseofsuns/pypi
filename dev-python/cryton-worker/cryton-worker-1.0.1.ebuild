@@ -15,8 +15,8 @@ DESCRIPTION="Attack scenario orchestrator for Cryton"
 
 HOMEPAGE="https://gitlab.ics.muni.cz/cryton"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/88/56/5d8d4611ecfeddf274a6df8b8e21f52dbe85ff1c6b79d9fe1ba23cea2ef0/cryton_worker-${REALVERSION}.tar.gz"
-SOURCEFILE="cryton_worker-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/88/56/5d8d4611ecfeddf274a6df8b8e21f52dbe85ff1c6b79d9fe1ba23cea2ef0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

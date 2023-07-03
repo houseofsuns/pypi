@@ -15,8 +15,8 @@ DESCRIPTION="Python library for Uniswap, Aave, ChainLink, Enzyme and other proto
 
 HOMEPAGE="https://tradingstrategy.ai"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5c/8b/c6c37b3ace217b13755c038fd685ea4a9fb52aa0b3ae3e246c78d78876ed/web3_ethereum_defi-${REALVERSION}.tar.gz"
-SOURCEFILE="web3_ethereum_defi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5c/8b/c6c37b3ace217b13755c038fd685ea4a9fb52aa0b3ae3e246c78d78876ed/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

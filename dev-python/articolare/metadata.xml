@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Articolare Python ClientArticolare is a Python client for the Articolare API. It is designed to facilitate interactions with the API, providing a simple and intuitive interface for creating and managing requests.# InstallationTo install the Articolare Python client, you can use pip:* Copy code ```  pip install articolare```# UsageFirst, you need to initialize the ArticolareClient with your API key:```from articolare import create``````  client = create.ArticolareClient(api_key=&quot;your-api-key&quot;))```# CreateYou can then use the create method to make a request to the API:* languages available:  * English  * Portuguese  * Spanish  * Italian* Tokens:  * Max Tokens = 1000 - If you require more tokens, please refer to our documentation on https://www.articolare.com/```response = client.create(    model=&quot;art-translator&quot;,    lang=&quot;english&quot;,    style=&quot;conversation&quot;,    dialect=&quot;european&quot;    prompt=&quot;Enter your prompt here&quot;,    max_tokens=1000)```* The create method returns a dictionary containing the response data from the API.# TestingThis library includes a basic test suite, which you can run using pytest:* pytest```pytest```# LicenseThe Articolare library is owned and managed by Articolare ltd. </longdescription>
+</pkgmetadata>

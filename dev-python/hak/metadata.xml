@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># hakThis project is a collection of function test pairs for common tasks.Mostly for my own use but others are welcome to leverage it.## Required configuration`git config --global user.email &quot;you@example.com&quot;``git config --global user.name &quot;Your Name`## Required packages* `sudo apt install twine`## Recommended packages* `sudo npm i -g nodemon`## Test Cycle`nodemon --exec python3 test.py`</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="Tools package for extending functionality of the networkx package."
 
 HOMEPAGE="https://github.com/vonNiklasson/extended-networkx-tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bd/15/7ac808aeb42726102d04321efb2d803ab46dcd0f8ccc510f790abe710ea9/extended_networkx_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="extended_networkx_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bd/15/7ac808aeb42726102d04321efb2d803ab46dcd0f8ccc510f790abe710ea9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

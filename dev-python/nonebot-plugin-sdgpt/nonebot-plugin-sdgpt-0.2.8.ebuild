@@ -15,8 +15,8 @@ DESCRIPTION="ChatBot for NoneBot : 链接 ChatGPT / Bing / Poe / Stable-Diffusio
 
 HOMEPAGE="https://github.com/thx114/SDGPT"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/68/ab/91368b41519de4288c62b84e2a2eea37098c859c52749c69c705705d3718/nonebot_plugin_sdgpt-${REALVERSION}.tar.gz"
-SOURCEFILE="nonebot_plugin_sdgpt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/68/ab/91368b41519de4288c62b84e2a2eea37098c859c52749c69c705705d3718/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/GeoDaCenter/spatial_access"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/79/78/acc1e0b05c18d04fd95136ee1d9a80e2fe48482b29e5534fa71ea02ef926/spatial_access-${REALVERSION}.tar.gz"
-SOURCEFILE="spatial_access-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/79/78/acc1e0b05c18d04fd95136ee1d9a80e2fe48482b29e5534fa71ea02ef926/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Python Client for Google Cloud BigQuery"
 
 HOMEPAGE="https://github.com/talkiq/gcloud-aio"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a7/15/4b8f8b45cc075991e689c0cdc30ced11b71f68fbce21bc50eceae87ed881/gcloud_aio_bigquery-${REALVERSION}.tar.gz"
-SOURCEFILE="gcloud_aio_bigquery-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a7/15/4b8f8b45cc075991e689c0cdc30ced11b71f68fbce21bc50eceae87ed881/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

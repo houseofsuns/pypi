@@ -15,8 +15,8 @@ DESCRIPTION="Pulumi Amazon Web Services (AWS) AWSX Components."
 
 HOMEPAGE="https://pulumi.com"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/22/54/076af0e5d0b6ffde29af3abe2bab657b240779ce0cb71b26ebb5c1b7a31d/pulumi_awsx-${REALVERSION}.tar.gz"
-SOURCEFILE="pulumi_awsx-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/22/54/076af0e5d0b6ffde29af3abe2bab657b240779ce0cb71b26ebb5c1b7a31d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

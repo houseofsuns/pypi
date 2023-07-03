@@ -15,8 +15,8 @@ DESCRIPTION="Database Connection for OpenSTEF"
 
 HOMEPAGE="https://github.com/openstef/openstef-dbc"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d6/14/1b9cdeccd4998fb899ef99330e6ae5bd73ba51d9cca7e9f08c836ce8f678/openstef_dbc-${REALVERSION}.tar.gz"
-SOURCEFILE="openstef_dbc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d6/14/1b9cdeccd4998fb899ef99330e6ae5bd73ba51d9cca7e9f08c836ce8f678/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/13/f6/0347b2c4684166e78b12cd19068b7b27299cf92db41af952d898c05ddbdb/watchmen_storage_oracle-${REALVERSION}.tar.gz"
-SOURCEFILE="watchmen_storage_oracle-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/13/f6/0347b2c4684166e78b12cd19068b7b27299cf92db41af952d898c05ddbdb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

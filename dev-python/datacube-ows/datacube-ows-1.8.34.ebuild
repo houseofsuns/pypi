@@ -15,8 +15,8 @@ DESCRIPTION="Open Data Cube Open Web Services"
 
 HOMEPAGE="https://github.com/opendatacube/datacube-ows"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/13/e0/a94236e2602be06cb3b7cd85ee29316c687f2ac4d687837f7116e1a4246c/datacube_ows-${REALVERSION}.tar.gz"
-SOURCEFILE="datacube_ows-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/13/e0/a94236e2602be06cb3b7cd85ee29316c687f2ac4d687837f7116e1a4246c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

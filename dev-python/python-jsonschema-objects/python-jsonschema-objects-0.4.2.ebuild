@@ -15,8 +15,8 @@ DESCRIPTION="An object wrapper for JSON Schema definitions"
 
 HOMEPAGE="http://python-jsonschema-objects.readthedocs.org/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/93/52/2d661bb6da98d90ecd844aae1f87b69f669b8f04c0fdf21d7a84674f32db/python_jsonschema_objects-${REALVERSION}.tar.gz"
-SOURCEFILE="python_jsonschema_objects-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/93/52/2d661bb6da98d90ecd844aae1f87b69f669b8f04c0fdf21d7a84674f32db/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/KentoNishi/torch-pitch-shift"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/01/13/771250fc721f387cb4dab3dc17b9167d6df1b87f7161dcff90337293fe5d/torch_pitch_shift-${REALVERSION}.tar.gz"
-SOURCEFILE="torch_pitch_shift-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/01/13/771250fc721f387cb4dab3dc17b9167d6df1b87f7161dcff90337293fe5d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

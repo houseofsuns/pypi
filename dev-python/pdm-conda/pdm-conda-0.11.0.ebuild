@@ -15,8 +15,8 @@ DESCRIPTION="A PDM plugin to resolve/install/uninstall project dependencies with
 
 HOMEPAGE="https://github.com/macro128/pdm-conda"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e9/d2/c00119713e23e7bd12651724e0086409697a6a4a04267a41bf94eb4cddf0/pdm_conda-${REALVERSION}.tar.gz"
-SOURCEFILE="pdm_conda-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e9/d2/c00119713e23e7bd12651724e0086409697a6a4a04267a41bf94eb4cddf0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

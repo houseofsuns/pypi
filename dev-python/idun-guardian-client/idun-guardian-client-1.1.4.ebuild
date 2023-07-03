@@ -15,8 +15,8 @@ DESCRIPTION="Python SDK for communication with the IDUN Guardian earbuds and IDU
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d1/2b/b21f6b52711b12108e718761be9b577a493191b59e032348ac67e3516e4e/idun_guardian_client-${REALVERSION}.tar.gz"
-SOURCEFILE="idun_guardian_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d1/2b/b21f6b52711b12108e718761be9b577a493191b59e032348ac67e3516e4e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

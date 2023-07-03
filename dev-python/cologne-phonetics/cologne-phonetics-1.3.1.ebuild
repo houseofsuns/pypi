@@ -15,8 +15,8 @@ DESCRIPTION="Python implementation of the cologne-phonetics algorithm"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3f/a0/d9e4ac9971217cf232ea8d6009747c0c05c075d072c7f01fcb5cb3b0e9a8/cologne_phonetics-${REALVERSION}.tar.gz"
-SOURCEFILE="cologne_phonetics-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3f/a0/d9e4ac9971217cf232ea8d6009747c0c05c075d072c7f01fcb5cb3b0e9a8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

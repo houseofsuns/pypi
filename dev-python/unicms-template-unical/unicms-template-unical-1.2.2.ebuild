@@ -15,8 +15,8 @@ DESCRIPTION="uniCMS Unical Template based on Bootstrap Italia"
 
 HOMEPAGE="https://github.com/UniversitaDellaCalabria/unicms-template-unical"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/a2/50/73991667840d34d2c7183d0fc93368694d31d66457fd87c1d739af209d70/unicms_template_unical-${REALVERSION}.tar.gz"
-SOURCEFILE="unicms_template_unical-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a2/50/73991667840d34d2c7183d0fc93368694d31d66457fd87c1d739af209d70/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

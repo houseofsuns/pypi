@@ -15,8 +15,8 @@ DESCRIPTION="Simplified COPASI interface for python"
 
 HOMEPAGE="https://github.com/copasi/basico"
 LICENSE="Artistic-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/94/5f/1e917630419d3258a2d9af251e9f63344d824af5f7cb11f11bef1585fc6a/copasi_basico-${REALVERSION}.tar.gz"
-SOURCEFILE="copasi_basico-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/94/5f/1e917630419d3258a2d9af251e9f63344d824af5f7cb11f11bef1585fc6a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

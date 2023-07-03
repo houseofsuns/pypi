@@ -15,8 +15,8 @@ DESCRIPTION="Check catkin packages for common errors"
 
 HOMEPAGE="https://github.com/fkie/catkin_lint"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/a3/03/eaa8830d94bd20e149df580ed098f6c3491d102704cfde8cbba44aa8eabf/catkin_lint-${REALVERSION}.tar.gz"
-SOURCEFILE="catkin_lint-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a3/03/eaa8830d94bd20e149df580ed098f6c3491d102704cfde8cbba44aa8eabf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Submit Codeforces codes via terminal and other coll stuff"
 
 HOMEPAGE="https://github.com/bacali95/cf_submit"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f0/b6/2d788a6ebd1c8bafbf4d573e160bf277fedbca351d95f3be1396584d089f/cf_submit-${REALVERSION}.tar.gz"
-SOURCEFILE="cf_submit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f0/b6/2d788a6ebd1c8bafbf4d573e160bf277fedbca351d95f3be1396584d089f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

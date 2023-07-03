@@ -15,8 +15,8 @@ DESCRIPTION="Qiskit-Braket provider to execute Qiskit programs on AWS quantum co
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8c/4e/f7ce70e2a1166fb58618360ca7003a55508c5b1adb29e0676f1c39d82df4/qiskit_braket_provider-${REALVERSION}.tar.gz"
-SOURCEFILE="qiskit_braket_provider-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8c/4e/f7ce70e2a1166fb58618360ca7003a55508c5b1adb29e0676f1c39d82df4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

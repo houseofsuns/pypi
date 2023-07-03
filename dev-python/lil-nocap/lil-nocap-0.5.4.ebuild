@@ -15,8 +15,8 @@ DESCRIPTION="A package for downloading bulk files from courtlistener"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/56/78/6056a109a171c976f36de98aa1b804846373107460e97d14a137dc75a4d2/lil_nocap-${REALVERSION}.tar.gz"
-SOURCEFILE="lil_nocap-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/56/78/6056a109a171c976f36de98aa1b804846373107460e97d14a137dc75a4d2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

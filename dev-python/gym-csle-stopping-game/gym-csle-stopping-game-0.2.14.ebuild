@@ -15,8 +15,8 @@ DESCRIPTION="OpenAI gym reinforcement learning environment of a Dynkin (Optimal 
 
 HOMEPAGE=""
 LICENSE="Creative Commons Attribution-ShareAlike 4.0 International"
-SRC_URI="https://files.pythonhosted.org/packages/26/6a/c2b4387bf4c57cbd234951858a1846ebed8bc5e57e915e9e45bd6312a7f1/gym_csle_stopping_game-${REALVERSION}.tar.gz"
-SOURCEFILE="gym_csle_stopping_game-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/26/6a/c2b4387bf4c57cbd234951858a1846ebed8bc5e57e915e9e45bd6312a7f1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

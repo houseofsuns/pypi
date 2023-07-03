@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># TypeScript for Python```virtualenv venvsource venv/bin/activate``````pip install typescript```Import TypeScript for single file usage```import typescriptmyNumber = 0print(type(myNumber))#&lt;class 'int'&gt;```</longdescription>
+</pkgmetadata>

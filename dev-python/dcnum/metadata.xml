@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>|dcnum|=======|PyPI Version| |Build Status| |Coverage Status| |Docs Status|Numerics toolbox for imaging deformability cytometry.Documentation-------------The documentation, including the code reference and examples, is available at`dcnum.readthedocs.io &lt;https://dcnum.readthedocs.io/en/stable/&gt;`__.Installation------------::    pip install dcnumFor more options, please check out the `documentation&lt;https://dcnum.readthedocs.io/&gt;`__... |dcnum| image:: https://raw.github.com/DC-analysis/dcnum/master/docs/logo/dcnum.png.. |PyPI Version| image:: https://img.shields.io/pypi/v/dcnum.svg   :target: https://pypi.python.org/pypi/dcnum.. |Build Status| image:: https://img.shields.io/github/actions/workflow/status/DC-analysis/dcnum/check.yml   :target: https://github.com/DC-analysis/dcnum/actions?query=workflow%3AChecks.. |Coverage Status| image:: https://img.shields.io/codecov/c/github/DC-analysis/dcnum/master.svg   :target: https://codecov.io/gh/DC-analysis/dcnum.. |Docs Status| image:: https://readthedocs.org/projects/dcnum/badge/?version=latest   :target: https://readthedocs.org/projects/dcnum/builds/</longdescription>
+</pkgmetadata>

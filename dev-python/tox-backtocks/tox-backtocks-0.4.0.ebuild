@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/Anvil/tox-backtocks/"
 LICENSE="LGPL-2.1+"
-SRC_URI="https://files.pythonhosted.org/packages/f0/ae/8844adb49e86222fbc63d9caa05d83a40247d285e2dfbbb09a5281ecb1f0/tox_backtocks-${REALVERSION}.tar.gz"
-SOURCEFILE="tox_backtocks-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f0/ae/8844adb49e86222fbc63d9caa05d83a40247d285e2dfbbb09a5281ecb1f0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

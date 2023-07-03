@@ -15,8 +15,8 @@ DESCRIPTION="We need more free software interface testing."
 
 HOMEPAGE="https://github.com/chineseluo/opensourcetest"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ab/fa/b7910e6c11ff32cbb8ff89a23b757676ac1d624d448e858860af6f22355c/opensourcetest_test_test-${REALVERSION}.tar.gz"
-SOURCEFILE="opensourcetest_test_test-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ab/fa/b7910e6c11ff32cbb8ff89a23b757676ac1d624d448e858860af6f22355c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

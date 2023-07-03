@@ -15,8 +15,8 @@ DESCRIPTION="This library contains reusable code for various projects"
 
 HOMEPAGE="https://scm.atosresearch.eu/ari/easier/common-python-helper-functions"
 LICENSE="ATOS"
-SRC_URI="https://files.pythonhosted.org/packages/a1/6a/15bc8007aa2b67350a72da7f00627ad9860f2f1ead57d91880c3012c1404/easierai_common_functions-${REALVERSION}.tar.gz"
-SOURCEFILE="easierai_common_functions-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a1/6a/15bc8007aa2b67350a72da7f00627ad9860f2f1ead57d91880c3012c1404/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

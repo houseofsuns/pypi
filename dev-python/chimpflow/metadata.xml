@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>chimpflow=======================================================================Service which polls the database for subwell images which need to have the chimp detector run on them.Uses xchembku for database interaction.For documentation see: https://diamondlightsource.github.io/chimpflowModel file for xchem-chimp-----------------------------------------------------------------------The model file is saved in::    https://gitlab.diamond.ac.uk/xchem/xchem-chimp-modelsThis file is too large for github.For GitHub pytest to find the file in its CI/CD Actions, this file has been uploaded to zenodo:    https://zenodo.org/record/7810708/2022-12-07_CHiMP_Mask_R_CNN_XChem_50eph_VMXi_finetune_DICT_NZ.pytorchThe tests/conftest.py fetches this file automatically.</longdescription>
+</pkgmetadata>

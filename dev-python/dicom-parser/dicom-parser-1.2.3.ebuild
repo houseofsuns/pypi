@@ -15,8 +15,8 @@ DESCRIPTION="DICOM files parser meant to facilitate data access."
 
 HOMEPAGE="https://github.com/ZviBaratz/dicom_parser"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e1/f2/8c435bf211e42760e082a267f71d9d4a008b041f8a4a9a647ae179b60a48/dicom_parser-${REALVERSION}.tar.gz"
-SOURCEFILE="dicom_parser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e1/f2/8c435bf211e42760e082a267f71d9d4a008b041f8a4a9a647ae179b60a48/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

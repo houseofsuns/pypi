@@ -15,8 +15,8 @@ DESCRIPTION="A package that transform intermediate log files into features of in
 
 HOMEPAGE="https://bitbucket.org/mhealthresearchgroup/microt_compliance/src/master/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cf/0c/5ac634214e834c618855752ab3c306ae7fe2883057273b164750849d55fe/microt_compliance-${REALVERSION}.tar.gz"
-SOURCEFILE="microt_compliance-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cf/0c/5ac634214e834c618855752ab3c306ae7fe2883057273b164750849d55fe/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

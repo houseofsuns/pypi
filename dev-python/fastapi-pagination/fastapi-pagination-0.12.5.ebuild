@@ -15,8 +15,8 @@ DESCRIPTION="FastAPI pagination"
 
 HOMEPAGE="https://github.com/uriyyo/fastapi-pagination"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6c/c8/2d1e880f884e3127574659f74577ee72167806113d5da684ecbf49483f84/fastapi_pagination-${REALVERSION}.tar.gz"
-SOURCEFILE="fastapi_pagination-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6c/c8/2d1e880f884e3127574659f74577ee72167806113d5da684ecbf49483f84/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

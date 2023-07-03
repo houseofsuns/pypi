@@ -15,8 +15,8 @@ DESCRIPTION="A pytest plugin to send testrun information to Sentry.io"
 
 HOMEPAGE="https://github.com/untitaker/pytest-sentry"
 LICENSE="BSD-2"
-SRC_URI="https://files.pythonhosted.org/packages/02/02/e8fc90d06287557a94d25952ae7aac6bf87402c14ec4ed664539364fe864/pytest_sentry-${REALVERSION}.tar.gz"
-SOURCEFILE="pytest_sentry-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/02/02/e8fc90d06287557a94d25952ae7aac6bf87402c14ec4ed664539364fe864/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

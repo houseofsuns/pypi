@@ -15,8 +15,8 @@ DESCRIPTION="A reader plugin for read iacs/ipac images and export .rtdc files."
 
 HOMEPAGE="https://github.com/zcqwh/iacs_ipac_reader"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/54/fd/0daef54f3e51d98e65f3b507d91e83484e5f165fe3d44c63ba5035ff2a69/iacs_ipac_reader-${REALVERSION}.tar.gz"
-SOURCEFILE="iacs_ipac_reader-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/54/fd/0daef54f3e51d98e65f3b507d91e83484e5f165fe3d44c63ba5035ff2a69/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

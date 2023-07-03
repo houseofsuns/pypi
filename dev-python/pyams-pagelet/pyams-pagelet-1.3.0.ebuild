@@ -15,8 +15,8 @@ DESCRIPTION="PyAMS pagelets management package"
 
 HOMEPAGE="https://pyams.readthedocs.io"
 LICENSE="ZPL"
-SRC_URI="https://files.pythonhosted.org/packages/e7/b5/8b978c2e60a7bf7fba5d42d355b8da36f2587bd63b2df390b76e83d0bac6/pyams_pagelet-${REALVERSION}.tar.gz"
-SOURCEFILE="pyams_pagelet-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e7/b5/8b978c2e60a7bf7fba5d42d355b8da36f2587bd63b2df390b76e83d0bac6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

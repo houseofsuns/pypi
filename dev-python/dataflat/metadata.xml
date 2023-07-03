@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># dataflatA library to flatten all this annoiyng nested keys and columns on Dictionaries, Pandas Dataframesand Spark (pyspark) Dataframes.### Installation```pip install dataflat```### Get startedHow to instantiate a Flattener:```Pythonfrom dataflat.flattener_handler import Options, Flattenerid_key = 'id'black_list = ['keys','or','columns','to','skip']#The following variables have the default values for each transform functionto_snake_case = Falsereplace_dots = False# Instantiate a Dictionary Flattenerdict_name = 'dct'flattener_dict = Flattener().handler(Options.DICTIONARY)flattener_dict.transform(dictionary, id_key, black_list, dict_name, to_snake_case, replace_dots)# Instantiate a Pandas Dataframe Flattener##Default chunk size = 500dataframe_name = 'df'chunk_size = 500flattener_pd = Flattener().handler(Options.PANDAS_DF)flattener_pd.transform(dataframe, id_key, black_list, dataframe_name, to_snake_case, replace_dots, chunk_size)# Instantiate a Spark Dataframe Flattenerdataframe_name = 'df'flattener_sp = Flattener().handler(Options.SPARK_DF)flattener_sp.transform(dataframe, id_key, black_list, dataframe_name, to_snake_case, replace_dots)```</longdescription>
+</pkgmetadata>

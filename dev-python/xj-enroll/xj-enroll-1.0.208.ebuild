@@ -15,8 +15,8 @@ DESCRIPTION="报名模块"
 
 HOMEPAGE=""
 LICENSE="apache 3.0"
-SRC_URI="https://files.pythonhosted.org/packages/5f/2a/0c158e9dc202dbce5087a97806115fcf6a7a51fb23d70db29227e11c4adc/xj_enroll-${REALVERSION}.tar.gz"
-SOURCEFILE="xj_enroll-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5f/2a/0c158e9dc202dbce5087a97806115fcf6a7a51fb23d70db29227e11c4adc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Docflow: Python Document Workflows==================================Docflow is an implementation of document workflows in Python. A workflowdefines `states` and `transitions`. A state is an &quot;end point&quot; associated witha document. A transition is a path from one state to another state(unidirectional). Docflow was inspired by `repoze.workflow`_ but aspiresto be a framework-independent implementation... _repoze.workflow: http://docs.repoze.org/workflow/0.3.3------ Bugfix: Instantiating a workflow would clobber the workflow class0.3.2------ Transition handlers can now connect multiple from/to states- New: transition_from for specifying a transition in reverse- New: interactive transitions with form/validate/submit methods- Python 3 compatibility- Support for multiple workflows per document class, with workflow names0.3.1------ Fixed distribution package on PyPI0.3---- States now remember the order in which they were defined, for UI purposes- Document sorting by workflow state- Helper method to list available transitions- Subclasses can now override workflow exceptions  (for framework-specific Forbidden handlers)0.2---- Workflows now have an ``apply_on`` class method.0.1---- Initial version (alpha)</longdescription>
+</pkgmetadata>

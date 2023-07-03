@@ -15,8 +15,8 @@ DESCRIPTION="Helpers to request facebook API"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1a/5c/771bfe12d6094dbf52382c33519ed463d3a08d62342410c816a57dc14db8/arcane_facebook-${REALVERSION}.tar.gz"
-SOURCEFILE="arcane_facebook-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1a/5c/771bfe12d6094dbf52382c33519ed463d3a08d62342410c816a57dc14db8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Cepton Python SDK"
 
 HOMEPAGE="https://github.com/ceptontech/cepton_sdk_redist"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/83/2f/c521b7a2750e804e9e42692f967cb44355da72803cdf36a425006d84f6bb/cepton_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="cepton_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/83/2f/c521b7a2750e804e9e42692f967cb44355da72803cdf36a425006d84f6bb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A set of FEniCS-based python tools for Computational Mechanics."
 
 HOMEPAGE="https://gitlab.inria.fr/mgenet/dolfin_mech"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/15/78/c78513fd1fb16dd235ca546c28364b27965a944f9b39e7723b90cd935685/dolfin_mech-${REALVERSION}.tar.gz"
-SOURCEFILE="dolfin_mech-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/15/78/c78513fd1fb16dd235ca546c28364b27965a944f9b39e7723b90cd935685/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

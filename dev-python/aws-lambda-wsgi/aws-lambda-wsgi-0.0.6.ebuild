@@ -15,8 +15,8 @@ DESCRIPTION="AWS Lambda WSGI - WSGI adapter for AWS API Gateway/Lambda Proxy Int
 
 HOMEPAGE="https://github.com/truckpad/aws-lambda-wsgi"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fb/c7/c2b1ebe38b48adb0c156b2e335efa6405b33cee3aa65e918f0d6008aeb77/aws_lambda_wsgi-${REALVERSION}.tar.gz"
-SOURCEFILE="aws_lambda_wsgi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fb/c7/c2b1ebe38b48adb0c156b2e335efa6405b33cee3aa65e918f0d6008aeb77/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

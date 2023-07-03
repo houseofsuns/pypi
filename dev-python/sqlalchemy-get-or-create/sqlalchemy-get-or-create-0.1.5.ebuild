@@ -15,8 +15,8 @@ DESCRIPTION="SQLAlchemy versions of Django's get_or_create() and update_or_creat
 
 HOMEPAGE="https://github.com/enricobarzetti/sqlalchemy_get_or_create"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f8/55/4570d4ab8c7527bb8c767ee1e19adbec9370e17c95c2af1233ffb191113f/sqlalchemy_get_or_create-${REALVERSION}.tar.gz"
-SOURCEFILE="sqlalchemy_get_or_create-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f8/55/4570d4ab8c7527bb8c767ee1e19adbec9370e17c95c2af1233ffb191113f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

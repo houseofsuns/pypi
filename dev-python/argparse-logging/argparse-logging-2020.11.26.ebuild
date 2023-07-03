@@ -15,8 +15,8 @@ DESCRIPTION="This is a simple library to configure logging from command line arg
 
 HOMEPAGE="https://github.com/nanassito/argparse_logging"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b1/85/52a7ee13a298085b94516a3079132c2291fff8749c99b81ee69558616bda/argparse_logging-${REALVERSION}.tar.gz"
-SOURCEFILE="argparse_logging-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b1/85/52a7ee13a298085b94516a3079132c2291fff8749c99b81ee69558616bda/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

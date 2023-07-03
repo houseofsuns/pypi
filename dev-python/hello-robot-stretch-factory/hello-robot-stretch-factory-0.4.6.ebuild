@@ -15,8 +15,8 @@ DESCRIPTION="Stretch Factory Tools"
 
 HOMEPAGE="https://github.com/hello-robot/stretch_factory"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b3/be/a98a20813958de3ee8f4a2b280d81080048a47993a84dd412d636b66dc3e/hello_robot_stretch_factory-${REALVERSION}.tar.gz"
-SOURCEFILE="hello_robot_stretch_factory-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b3/be/a98a20813958de3ee8f4a2b280d81080048a47993a84dd412d636b66dc3e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Create and manage workflows using Celery tasks"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5c/76/cc02831db0e9cd71b4e7551e63f22653daff4db050dec1fb46bb95a974ae/sca_rhythm-${REALVERSION}.tar.gz"
-SOURCEFILE="sca_rhythm-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5c/76/cc02831db0e9cd71b4e7551e63f22653daff4db050dec1fb46bb95a974ae/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

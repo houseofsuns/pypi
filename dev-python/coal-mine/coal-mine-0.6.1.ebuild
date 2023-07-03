@@ -15,8 +15,8 @@ DESCRIPTION="Coal Mine - Periodic task execution monitor"
 
 HOMEPAGE="https://github.com/quantopian/coal-mine"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/63/26/bcf6d7e4a2795a6da366cd6c2940a3db2ed0ddab2dd0c75f9e8abb0609dc/coal_mine-${REALVERSION}.tar.gz"
-SOURCEFILE="coal_mine-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/63/26/bcf6d7e4a2795a6da366cd6c2940a3db2ed0ddab2dd0c75f9e8abb0609dc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

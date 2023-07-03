@@ -15,8 +15,8 @@ DESCRIPTION="Djangoldp Polls package"
 
 HOMEPAGE="https://git.startinblox.com/djangoldp-packages/djangoldp-poll"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a9/a9/ab88a8b8b243a4ae072f32c5341220ac5bf4d60996abc11b20c257109dcd/djangoldp_polls-${REALVERSION}.tar.gz"
-SOURCEFILE="djangoldp_polls-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a9/a9/ab88a8b8b243a4ae072f32c5341220ac5bf4d60996abc11b20c257109dcd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

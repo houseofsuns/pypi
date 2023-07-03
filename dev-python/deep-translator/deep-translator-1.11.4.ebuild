@@ -15,8 +15,8 @@ DESCRIPTION="A flexible free and unlimited python tool to translate between diff
 
 HOMEPAGE="https://github.com/nidhaloff/deep_translator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7d/03/8fa7635c729a01de71151894cdf002ad6d245bfd6d1a731da864cf534dcf/deep_translator-${REALVERSION}.tar.gz"
-SOURCEFILE="deep_translator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7d/03/8fa7635c729a01de71151894cdf002ad6d245bfd6d1a731da864cf534dcf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

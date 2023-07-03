@@ -15,8 +15,8 @@ DESCRIPTION="Keenetic NDMS 2.x and 3.x client"
 
 HOMEPAGE="https://github.com/foxel/python_ndms2_client"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c4/4a/6617f98a7cfacc2aeeef736678f4f595e2adbf44e9e24a8b3677b97f0d7f/ndms2_client-${REALVERSION}.tar.gz"
-SOURCEFILE="ndms2_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c4/4a/6617f98a7cfacc2aeeef736678f4f595e2adbf44e9e24a8b3677b97f0d7f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

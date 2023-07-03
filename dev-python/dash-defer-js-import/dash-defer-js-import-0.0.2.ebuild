@@ -15,8 +15,8 @@ DESCRIPTION="Deferring loading of JS files until after React loads"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/01/55/00cb28fbfa48c14815cef2c3754fab9c9dad93cbe4b8a8492e0e5aa516ea/dash_defer_js_import-${REALVERSION}.tar.gz"
-SOURCEFILE="dash_defer_js_import-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/01/55/00cb28fbfa48c14815cef2c3754fab9c9dad93cbe4b8a8492e0e5aa516ea/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

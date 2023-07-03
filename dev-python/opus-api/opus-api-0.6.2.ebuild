@@ -15,8 +15,8 @@ DESCRIPTION="OPUS (opus.nlpl.eu) Python API"
 
 HOMEPAGE="https://github.com/yonkornilov/opus-api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b6/a5/f5f56f02012774d4a770d858923d2513ce04cd88fc0057dc49b0e55b94e0/opus_api-${REALVERSION}.tar.gz"
-SOURCEFILE="opus_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b6/a5/f5f56f02012774d4a770d858923d2513ce04cd88fc0057dc49b0e55b94e0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

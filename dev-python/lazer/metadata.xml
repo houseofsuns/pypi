@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># LazerLazer is a Python library that provides a convenient way to expose Python functions as schemas for OpenAI chat models.For those not in the know: [OpenAI - Function Calling](https://platform.openai.com/docs/guides/gpt/function-calling)### What it DoesAllows you to more easily inform GPT about functions in your code 😊&gt; **Warning** don't RCE yourself lol## InstallationTo install Lazer, simply run:```bashpip install lazer```## UsageHere is an example of how to use Lazer:```pythonfrom lazer import Lazer, LazerConversationlazer = Lazer()# GPT is now made aware of your function `qux`@lazer.usedef qux(num: int, name: str) -&gt; str:    &quot;&quot;&quot;Retrieve a number and a name from the user and compute the qux of it&quot;&quot;&quot;    return str(num + len(name) * 13)conversation = LazerConversation(lazer, {&quot;model&quot;: &quot;gpt-3.5-turbo-0613&quot;})response = conversation.talk(&quot;What is the qux of 3 and steven&quot;)print(response)# ... 81 ...```&gt; **Note** You do not have to use the LazerConversation GPT frontend, you can simply usethe Lazer functions `.use` (decorator) and `.get_functions()` as well as`.dispatch()` to build your own GPT frontend utilizing Lazer.&gt; **Note** If you are using the LazerConversation frontend be sure to set an`OPENAI_API_KEY` in a `.env` file somewhere in your directory.## DemoGo to [demo/](demo/) for some demo code.## Authors:* @JustinStitt* @diamondburned</longdescription>
+</pkgmetadata>

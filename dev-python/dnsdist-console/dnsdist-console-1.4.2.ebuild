@@ -15,8 +15,8 @@ DESCRIPTION="Python client for dnsdist console"
 
 HOMEPAGE="https://github.com/dmachard/dnsdist_console"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/35/1d/722fae580977b9b04fa7a65c449a5222d7cacdfaa837ff57fe11581478a3/dnsdist_console-${REALVERSION}.tar.gz"
-SOURCEFILE="dnsdist_console-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/35/1d/722fae580977b9b04fa7a65c449a5222d7cacdfaa837ff57fe11581478a3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

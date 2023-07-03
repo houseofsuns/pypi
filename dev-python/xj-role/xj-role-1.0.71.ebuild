@@ -15,8 +15,8 @@ DESCRIPTION="权限模块"
 
 HOMEPAGE=""
 LICENSE="apache 3.0"
-SRC_URI="https://files.pythonhosted.org/packages/3e/7c/517cd64bf930e55d1789fb7703836ce613ecdf8d6bc61d98c46ace43265f/xj_role-${REALVERSION}.tar.gz"
-SOURCEFILE="xj_role-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3e/7c/517cd64bf930e55d1789fb7703836ce613ecdf8d6bc61d98c46ace43265f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

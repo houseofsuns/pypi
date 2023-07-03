@@ -15,8 +15,8 @@ DESCRIPTION="This python module provides a mixin for creating pretty debugging o
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f6/5e/87eae873913f4c84d7e78cafb8d7c8892ce88a03b57fbd2532cd61d966aa/jk_prettyprintobj-${REALVERSION}.tar.gz"
-SOURCEFILE="jk_prettyprintobj-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f6/5e/87eae873913f4c84d7e78cafb8d7c8892ce88a03b57fbd2532cd61d966aa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

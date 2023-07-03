@@ -15,8 +15,8 @@ DESCRIPTION="SDK for computing RAI insights for AutoML models."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a8/0d/b0288fea7b07470a66ffb980bce7a973bafbeb9526f0955b55b959dc21fd/responsibleai_tabular_automl-${REALVERSION}.tar.gz"
-SOURCEFILE="responsibleai_tabular_automl-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a8/0d/b0288fea7b07470a66ffb980bce7a973bafbeb9526f0955b55b959dc21fd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

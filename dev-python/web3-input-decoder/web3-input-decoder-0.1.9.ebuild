@@ -15,8 +15,8 @@ DESCRIPTION="A simple offline web3 transaction input decoder for functions and c
 
 HOMEPAGE="https://github.com/kigawas/web3-input-decoder"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f2/fc/3d4f1db6e567ba6f6f8e807aa023240d993bc1219fcd071ac1e698fbecfb/web3_input_decoder-${REALVERSION}.tar.gz"
-SOURCEFILE="web3_input_decoder-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f2/fc/3d4f1db6e567ba6f6f8e807aa023240d993bc1219fcd071ac1e698fbecfb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

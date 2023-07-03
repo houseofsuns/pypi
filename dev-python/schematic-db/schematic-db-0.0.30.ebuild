@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e9/fa/42d8636e507f4da30f56b64f7e4f6736c06435028db1525683d12f9e0083/schematic_db-${REALVERSION}.tar.gz"
-SOURCEFILE="schematic_db-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e9/fa/42d8636e507f4da30f56b64f7e4f6736c06435028db1525683d12f9e0083/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

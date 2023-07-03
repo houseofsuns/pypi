@@ -15,8 +15,8 @@ DESCRIPTION="Use your pydantic models as an ORM, storing data in Redis."
 
 HOMEPAGE="https://github.com/andrewthetechie/pydantic-aioredis"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c7/8b/3a0f4af52d969967fd7cccbc67579eaf69faecdc6d6a4a76dcba2cf3a923/pydantic_aioredis-${REALVERSION}.tar.gz"
-SOURCEFILE="pydantic_aioredis-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c7/8b/3a0f4af52d969967fd7cccbc67579eaf69faecdc6d6a4a76dcba2cf3a923/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Library to create Self-Organizing Map from MongoDB collection"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ca/1d/3d922eaba8e657d8d6d760084641ba4738b34746e93560b90d9f54c97553/mongo_to_som-${REALVERSION}.tar.gz"
-SOURCEFILE="mongo_to_som-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ca/1d/3d922eaba8e657d8d6d760084641ba4738b34746e93560b90d9f54c97553/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

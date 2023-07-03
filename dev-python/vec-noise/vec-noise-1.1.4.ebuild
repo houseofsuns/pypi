@@ -15,8 +15,8 @@ DESCRIPTION="Vectorized Perlin noise for Python"
 
 HOMEPAGE="https://github.com/zbenjamin/vec_noise"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/65/0f/11ca3df43ace7f9cdb1aeed855879331a53203c643f90da1cf711e6ab296/vec_noise-${REALVERSION}.zip"
-SOURCEFILE="vec_noise-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/65/0f/11ca3df43ace7f9cdb1aeed855879331a53203c643f90da1cf711e6ab296/${REALNAME//-/_}-${REALVERSION}.zip"
+SOURCEFILE="_}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

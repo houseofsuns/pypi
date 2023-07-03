@@ -15,8 +15,8 @@ DESCRIPTION="JSON API driven by aiohttp"
 
 HOMEPAGE="https://github.com/vovanbo/aiohttp_json_api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1c/11/b30be5a15a494d4f07bdcc04cdb53f97c62a3c82c6038a896361d4134ec1/aiohttp_json_api-${REALVERSION}.tar.gz"
-SOURCEFILE="aiohttp_json_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1c/11/b30be5a15a494d4f07bdcc04cdb53f97c62a3c82c6038a896361d4134ec1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

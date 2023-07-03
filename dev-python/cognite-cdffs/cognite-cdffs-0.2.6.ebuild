@@ -15,8 +15,8 @@ DESCRIPTION="File System Interface for CDF Files"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/86/47/0ca7dff8e0442eab5233131cf0354f6536365d94049c68957037e43868ac/cognite_cdffs-${REALVERSION}.tar.gz"
-SOURCEFILE="cognite_cdffs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/86/47/0ca7dff8e0442eab5233131cf0354f6536365d94049c68957037e43868ac/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

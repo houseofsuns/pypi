@@ -15,8 +15,8 @@ DESCRIPTION="API wrapper for Bitbucket written in Python"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a6/0d/2fbba4a2ef73a64281535e2ca75355d731b176627cc42e40fa4c6063a9c1/bitbucket_python-${REALVERSION}.tar.gz"
-SOURCEFILE="bitbucket_python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a6/0d/2fbba4a2ef73a64281535e2ca75355d731b176627cc42e40fa4c6063a9c1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

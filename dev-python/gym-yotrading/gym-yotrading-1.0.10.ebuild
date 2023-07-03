@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ad/a2/ce18af230b381c2d194001400e094c3ad97fa931da875e323289e282a1bd/gym_yotrading-${REALVERSION}.tar.gz"
-SOURCEFILE="gym_yotrading-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ad/a2/ce18af230b381c2d194001400e094c3ad97fa931da875e323289e282a1bd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

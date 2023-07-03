@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># 'irene-pro'This is my customized user interface which is rooted from tkinter package.nothing big that I did from here that is different from what already in tkinter, but I rather set my default parameters and styles for those rooted to ttk, example Combobox.this is the first version, and later I will keep making extra-improvement including adding default icons to buttons and othercool stuffs until it will be large package or framework in coming years.=========how to use the package======from irene-pro import widgets, logic# create buttonbutton = widgets.btn(master = root, text = 'send')button.pack(side = LEFT)# create table guitable = widgets.Table_gui(parent = root)</longdescription>
+</pkgmetadata>

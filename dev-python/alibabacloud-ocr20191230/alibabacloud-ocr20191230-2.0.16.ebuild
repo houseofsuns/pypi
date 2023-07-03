@@ -15,8 +15,8 @@ DESCRIPTION="Alibaba Cloud OCR (20191230) SDK Library for Python"
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/8f/14/6e3f315a48058f61c2e4abd95f262651ed4c8079e43914cdc08f9eb8cb8d/alibabacloud_ocr20191230-${REALVERSION}.tar.gz"
-SOURCEFILE="alibabacloud_ocr20191230-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8f/14/6e3f315a48058f61c2e4abd95f262651ed4c8079e43914cdc08f9eb8cb8d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

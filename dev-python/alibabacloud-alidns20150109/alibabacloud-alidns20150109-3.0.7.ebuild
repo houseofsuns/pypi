@@ -15,8 +15,8 @@ DESCRIPTION="Alibaba Cloud Alidns (20150109) SDK Library for Python"
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/59/12/5a9a71762ca038663928cc70065b740898bdd41e7e67ec781c98ca8fe01a/alibabacloud_alidns20150109-${REALVERSION}.tar.gz"
-SOURCEFILE="alibabacloud_alidns20150109-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/59/12/5a9a71762ca038663928cc70065b740898bdd41e7e67ec781c98ca8fe01a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

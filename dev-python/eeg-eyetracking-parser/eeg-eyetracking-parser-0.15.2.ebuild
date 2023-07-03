@@ -15,8 +15,8 @@ DESCRIPTION="A Python module for reading concurrently recorded EEG and eye-track
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f7/c0/6fcecfbae00c91dcbb214fa9e5ba071b3fae880258da7871d25604c9a741/eeg_eyetracking_parser-${REALVERSION}.tar.gz"
-SOURCEFILE="eeg_eyetracking_parser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f7/c0/6fcecfbae00c91dcbb214fa9e5ba071b3fae880258da7871d25604c9a741/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

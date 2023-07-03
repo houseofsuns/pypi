@@ -15,8 +15,8 @@ DESCRIPTION="Client for the Harbor API"
 
 HOMEPAGE="https://container-registry.com"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b4/8e/75ca7abac9690c7f7aef86783891ccad941c1703d15498936c914ce15472/harbor_api_client-${REALVERSION}.tar.gz"
-SOURCEFILE="harbor_api_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b4/8e/75ca7abac9690c7f7aef86783891ccad941c1703d15498936c914ce15472/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

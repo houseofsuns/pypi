@@ -15,8 +15,8 @@ DESCRIPTION="Scripts for system identification in CSLE"
 
 HOMEPAGE=""
 LICENSE="Creative Commons Attribution-ShareAlike 4.0 International"
-SRC_URI="https://files.pythonhosted.org/packages/2e/0b/82baf4149174817333eb6822b938dace0806a2039a70ef2a18b8b13b0b81/csle_system_identification-${REALVERSION}.tar.gz"
-SOURCEFILE="csle_system_identification-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2e/0b/82baf4149174817333eb6822b938dace0806a2039a70ef2a18b8b13b0b81/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

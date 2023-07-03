@@ -15,8 +15,8 @@ DESCRIPTION="Convert your csvs fast"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/73/e1/825491faf1acc5851360d2a6a888ca75a0b4451b4d1ba1ed8c34a02509fe/csvs_convert-${REALVERSION}.tar.gz"
-SOURCEFILE="csvs_convert-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/73/e1/825491faf1acc5851360d2a6a888ca75a0b4451b4d1ba1ed8c34a02509fe/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

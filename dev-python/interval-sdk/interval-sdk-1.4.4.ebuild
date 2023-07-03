@@ -15,8 +15,8 @@ DESCRIPTION="The frontendless framework for high growth companies. Interval auto
 
 HOMEPAGE="https://interval.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0b/82/c717abba0572f47b4e2643fb926c683d43cbe3f330bd9d8f40ac61145557/interval_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="interval_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0b/82/c717abba0572f47b4e2643fb926c683d43cbe3f330bd9d8f40ac61145557/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

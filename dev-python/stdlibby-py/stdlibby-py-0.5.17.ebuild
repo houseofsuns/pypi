@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a6/b3/aa83ca69e8c95744c1b5fb0a3bcdd37bce7f65b3a55898d207f6779a0549/stdlibby_py-${REALVERSION}.tar.gz"
-SOURCEFILE="stdlibby_py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a6/b3/aa83ca69e8c95744c1b5fb0a3bcdd37bce7f65b3a55898d207f6779a0549/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

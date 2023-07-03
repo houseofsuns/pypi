@@ -15,8 +15,8 @@ DESCRIPTION="An FPS plugin for the kernels API"
 
 HOMEPAGE="https://jupyter.org"
 LICENSE="BSD 3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/a1/46/17f6b7968189bd6556a71f25ccc655b8a7c1026861b1ad8b81aac827ee3b/fps_kernels-${REALVERSION}.tar.gz"
-SOURCEFILE="fps_kernels-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a1/46/17f6b7968189bd6556a71f25ccc655b8a7c1026861b1ad8b81aac827ee3b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

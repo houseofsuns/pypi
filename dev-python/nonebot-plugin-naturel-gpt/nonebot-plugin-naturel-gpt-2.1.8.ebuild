@@ -15,8 +15,8 @@ DESCRIPTION="一个基于NoneBot框架的Ai聊天插件，对接OpenAi文本生�
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/61/6b/e28112e5c2072df861b67c877ec7a41ffb0e48723ece527b220e3efdc0c6/nonebot_plugin_naturel_gpt-${REALVERSION}.tar.gz"
-SOURCEFILE="nonebot_plugin_naturel_gpt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/61/6b/e28112e5c2072df861b67c877ec7a41ffb0e48723ece527b220e3efdc0c6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

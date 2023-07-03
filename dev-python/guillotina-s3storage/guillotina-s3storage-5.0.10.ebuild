@@ -15,8 +15,8 @@ DESCRIPTION="s3 guillotina storage support"
 
 HOMEPAGE="https://pypi.python.org/pypi/guillotina_s3storage"
 LICENSE="GPL version 3"
-SRC_URI="https://files.pythonhosted.org/packages/72/6c/4a4312be31ee8e2947128c61e075396cca81c9dd64c42ca8a8d4479f5c65/guillotina_s3storage-${REALVERSION}.tar.gz"
-SOURCEFILE="guillotina_s3storage-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/72/6c/4a4312be31ee8e2947128c61e075396cca81c9dd64c42ca8a8d4479f5c65/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

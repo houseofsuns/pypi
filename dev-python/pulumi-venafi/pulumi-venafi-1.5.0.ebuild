@@ -15,8 +15,8 @@ DESCRIPTION="A Pulumi package for creating and managing venafi cloud resources."
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/a5/ea/db250137f8d4fbe7cd45d30ba74a44ee3f1a4de47998872af7fec5524b15/pulumi_venafi-${REALVERSION}.tar.gz"
-SOURCEFILE="pulumi_venafi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a5/ea/db250137f8d4fbe7cd45d30ba74a44ee3f1a4de47998872af7fec5524b15/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Create Python API documentation in Markdown format."
 
 HOMEPAGE="https://github.com/NiklasRosenstein/pydoc-markdown"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e1/8a/2c7f7ad656d22371a596d232fc140327b958d7f1d491b889632ea0cb7e87/pydoc_markdown-${REALVERSION}.tar.gz"
-SOURCEFILE="pydoc_markdown-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e1/8a/2c7f7ad656d22371a596d232fc140327b958d7f1d491b889632ea0cb7e87/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

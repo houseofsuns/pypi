@@ -15,8 +15,8 @@ DESCRIPTION="Get all NBA player data into JSON format"
 
 HOMEPAGE="https://github.com/avyayv/python_nba_players"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c0/1e/cb014a576681ce52047361281e60d367d073c11a9c9e8d31af6c5f777fd6/nba_player-${REALVERSION}.tar.gz"
-SOURCEFILE="nba_player-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c0/1e/cb014a576681ce52047361281e60d367d073c11a9c9e8d31af6c5f777fd6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

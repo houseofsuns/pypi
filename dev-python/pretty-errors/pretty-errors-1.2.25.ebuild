@@ -15,8 +15,8 @@ DESCRIPTION="Prettifies Python exception output to make it legible."
 
 HOMEPAGE="https://github.com/onelivesleft/PrettyErrors/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c8/a7/823f451d48726729b4983072aad7c442f4c02fbaec04b71c1f4c03993964/pretty_errors-${REALVERSION}.tar.gz"
-SOURCEFILE="pretty_errors-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c8/a7/823f451d48726729b4983072aad7c442f4c02fbaec04b71c1f4c03993964/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

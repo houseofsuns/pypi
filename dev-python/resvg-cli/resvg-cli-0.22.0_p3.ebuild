@@ -15,8 +15,8 @@ DESCRIPTION="Precompiled binaries for the 'resvg' CLI tool, from the homonymous 
 
 HOMEPAGE=""
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/26/77/e7da052c621fd14815b70676ae9ddee2305cdf40c3cccd8afb24b7aafee1/resvg_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="resvg_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/26/77/e7da052c621fd14815b70676ae9ddee2305cdf40c3cccd8afb24b7aafee1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="An NES Emulator and OpenAI Gym interface"
 
 HOMEPAGE="https://github.com/Kautenja/nes-py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/04/6b/51c9efe4fc67a9311b1125a19ec7a6176c8f0b8334e418d7f5bc53aeec56/nes_py-${REALVERSION}.tar.gz"
-SOURCEFILE="nes_py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/04/6b/51c9efe4fc67a9311b1125a19ec7a6176c8f0b8334e418d7f5bc53aeec56/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

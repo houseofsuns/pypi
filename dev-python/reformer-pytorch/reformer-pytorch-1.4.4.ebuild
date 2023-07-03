@@ -15,8 +15,8 @@ DESCRIPTION="Reformer, the Efficient Transformer, Pytorch"
 
 HOMEPAGE="https://github.com/lucidrains/reformer-pytorch"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f9/55/b65983177c31e255074455c1872358019485252c838c175f95a0d9128f1c/reformer_pytorch-${REALVERSION}.tar.gz"
-SOURCEFILE="reformer_pytorch-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f9/55/b65983177c31e255074455c1872358019485252c838c175f95a0d9128f1c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="OCR-D framework - data validators"
 
 HOMEPAGE="https://github.com/OCR-D/core"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/12/17/c5a9b52e500db04cfd12ee11dd60b7bab18532e41249bae3a1805b05dbb5/ocrd_validators-${REALVERSION}.tar.gz"
-SOURCEFILE="ocrd_validators-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/12/17/c5a9b52e500db04cfd12ee11dd60b7bab18532e41249bae3a1805b05dbb5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

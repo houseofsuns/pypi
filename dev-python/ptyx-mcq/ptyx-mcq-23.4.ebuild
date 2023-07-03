@@ -15,8 +15,8 @@ DESCRIPTION="pTyX is a python precompiler for LaTeX."
 
 HOMEPAGE="https://github.com/wxgeo/ptyx"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/fe/af/0d0e335fd30d3e69f2c009bbf0c13bf3302e5e4e813334fc709ccf206b10/ptyx_mcq-${REALVERSION}.tar.gz"
-SOURCEFILE="ptyx_mcq-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fe/af/0d0e335fd30d3e69f2c009bbf0c13bf3302e5e4e813334fc709ccf206b10/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

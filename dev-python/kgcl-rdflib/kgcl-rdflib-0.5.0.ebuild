@@ -15,8 +15,8 @@ DESCRIPTION="Schema for the KGCL project."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0e/02/76dfc99158963295d69344c74cdb73ffad94a890e80b7ee4d794a796dbb1/kgcl_rdflib-${REALVERSION}.tar.gz"
-SOURCEFILE="kgcl_rdflib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0e/02/76dfc99158963295d69344c74cdb73ffad94a890e80b7ee4d794a796dbb1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

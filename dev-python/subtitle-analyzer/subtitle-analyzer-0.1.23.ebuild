@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/qishe-nlp/subtitle-analyzer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a0/5c/f2f9216a5d6ccd1af833fb9512799ec6e692b935a163fc302e87c68657ad/subtitle_analyzer-${REALVERSION}.tar.gz"
-SOURCEFILE="subtitle_analyzer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a0/5c/f2f9216a5d6ccd1af833fb9512799ec6e692b935a163fc302e87c68657ad/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

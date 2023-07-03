@@ -15,8 +15,8 @@ DESCRIPTION="Manage DBnomics fetchers"
 
 HOMEPAGE=""
 LICENSE="AGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/e3/83/239a592671a1047038af38198221f7cf533ead38f4fe85ce109e886779af/dbnomics_fetcher_ops-${REALVERSION}.tar.gz"
-SOURCEFILE="dbnomics_fetcher_ops-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e3/83/239a592671a1047038af38198221f7cf533ead38f4fe85ce109e886779af/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

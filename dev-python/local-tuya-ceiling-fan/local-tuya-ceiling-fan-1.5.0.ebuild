@@ -15,8 +15,8 @@ DESCRIPTION="Control a Tuya Ceiling fan over LAN."
 
 HOMEPAGE="https://github.com/gpajot/local-tuya-ceiling-fan"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/27/7d/0f5d6ce01571cf5df0948951ba13da1772e4de4900c008612041cd87297d/local_tuya_ceiling_fan-${REALVERSION}.tar.gz"
-SOURCEFILE="local_tuya_ceiling_fan-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/27/7d/0f5d6ce01571cf5df0948951ba13da1772e4de4900c008612041cd87297d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

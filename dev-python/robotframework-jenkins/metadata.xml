@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>JenkinsLibrary for Robot Framework==============================![PyPI](https://img.shields.io/pypi/v/robotframework-jenkins?style=for-the-badge&amp;color=green)![Supported Jenkins Version](https://img.shields.io/badge/Tested%20with%20Jenkins-%3E2.176.1%20%3C2.234-blue?style=for-the-badge)Introduction------------JenkinsLibrary is a Robot Framework testlibrary which helps you to involve Jenkins in your tests.Installation------------Just run:    pip install robotframework-jenkinsUsage------------You need to import Jenkins library:    *** Settings ***    Library    JenkinsLibraryThen, you need to initialize Jenkins server with keyword:    Set Jenkins Server    url=http://example.com:8080    username=admin    password=adminExample------------    *** Settings ***    Library    JenkinsLibrary    *** Test Cases ***    Jenkins Create And Run Job        [Setup]    Set Jenkins Server    url=http://example.com:8080    username=admin    password=admin        Create Jenkins Job    test_job        Start Jenkins Job    test_job</longdescription>
+</pkgmetadata>

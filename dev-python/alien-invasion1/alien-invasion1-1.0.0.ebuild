@@ -15,8 +15,8 @@ DESCRIPTION="这是我第一阶段的项目"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/99/2a/4cbe8257f802287a9577201020cc5843550fd20fe74fc32f6381c09188b5/alien_invasion1-${REALVERSION}.tar.gz"
-SOURCEFILE="alien_invasion1-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/99/2a/4cbe8257f802287a9577201020cc5843550fd20fe74fc32f6381c09188b5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

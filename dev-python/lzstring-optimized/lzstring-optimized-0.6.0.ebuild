@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9d/89/b32fda2668699a1a1346964dbea866551149040ef624481dac1e77d33db5/lzstring_optimized-${REALVERSION}.tar.gz"
-SOURCEFILE="lzstring_optimized-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9d/89/b32fda2668699a1a1346964dbea866551149040ef624481dac1e77d33db5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

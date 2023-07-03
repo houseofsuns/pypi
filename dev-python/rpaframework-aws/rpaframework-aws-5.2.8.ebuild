@@ -15,8 +15,8 @@ DESCRIPTION="AWS library for RPA Framework"
 
 HOMEPAGE="https://rpaframework.org/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/45/07/37a5a32a06059a901e90fd7e4b1486d6b9a54606bf3549bcafade3064179/rpaframework_aws-${REALVERSION}.tar.gz"
-SOURCEFILE="rpaframework_aws-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/45/07/37a5a32a06059a901e90fd7e4b1486d6b9a54606bf3549bcafade3064179/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

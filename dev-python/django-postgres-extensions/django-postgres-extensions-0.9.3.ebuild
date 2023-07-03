@@ -15,8 +15,8 @@ DESCRIPTION="Extra features for django.contrib.postgres"
 
 HOMEPAGE="https://github.com/primal100/django_postgres_extensions"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b9/21/4fe39d09f6471aea59bc2dccf7c3b3ed2dd7a47c9d001a367cfa0be9e46b/django_postgres_extensions-${REALVERSION}.tar.gz"
-SOURCEFILE="django_postgres_extensions-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b9/21/4fe39d09f6471aea59bc2dccf7c3b3ed2dd7a47c9d001a367cfa0be9e46b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

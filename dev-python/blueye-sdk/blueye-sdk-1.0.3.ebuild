@@ -15,8 +15,8 @@ DESCRIPTION="SDK for controlling a Blueye underwater drone"
 
 HOMEPAGE="https://www.blueyerobotics.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bd/f9/77f4bf448f445fe5f60998d0065991282b3defe8eb90d65dc4496bb99d8e/blueye_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="blueye_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bd/f9/77f4bf448f445fe5f60998d0065991282b3defe8eb90d65dc4496bb99d8e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

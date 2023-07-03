@@ -15,8 +15,8 @@ DESCRIPTION="Migrations to Astro"
 
 HOMEPAGE="https://astronomer.io"
 LICENSE="Proprietary"
-SRC_URI="https://files.pythonhosted.org/packages/d9/39/940f14e37bc94ad5e83e4ed5cea93572b6d542c2d15453b5803500b1273f/astronomer_starship-${REALVERSION}.tar.gz"
-SOURCEFILE="astronomer_starship-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d9/39/940f14e37bc94ad5e83e4ed5cea93572b6d542c2d15453b5803500b1273f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

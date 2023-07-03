@@ -15,8 +15,8 @@ DESCRIPTION="Alibaba Cloud Dysmsapi (20170525) SDK Library for Python"
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/44/6c/a080eb3bcee06cd26701a856c867cab080eb18ec7140c179e7cef56362ee/alibabacloud_dysmsapi20170525-${REALVERSION}.tar.gz"
-SOURCEFILE="alibabacloud_dysmsapi20170525-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/44/6c/a080eb3bcee06cd26701a856c867cab080eb18ec7140c179e7cef56362ee/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

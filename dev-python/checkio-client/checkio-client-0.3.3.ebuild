@@ -15,8 +15,8 @@ DESCRIPTION="Command line interface for playing CheckiO games"
 
 HOMEPAGE="https://github.com/CheckiO/checkio-client"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/83/cc/6271fafd98e6f09affc9e4f5bb00c07fb1aade1017c6a5b56baa6587bd7a/checkio_client-${REALVERSION}.tar.gz"
-SOURCEFILE="checkio_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/83/cc/6271fafd98e6f09affc9e4f5bb00c07fb1aade1017c6a5b56baa6587bd7a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

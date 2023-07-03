@@ -15,8 +15,8 @@ DESCRIPTION="Library to use D3M AutoML Systems"
 
 HOMEPAGE="https://gitlab.com/ViDA-NYU/d3m/d3m_interface"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/9f/73/458781b573ca500823844bb45be201876522ee05f8ee95f8e19750fe73c6/d3m_interface-${REALVERSION}.tar.gz"
-SOURCEFILE="d3m_interface-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9f/73/458781b573ca500823844bb45be201876522ee05f8ee95f8e19750fe73c6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

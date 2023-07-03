@@ -15,8 +15,8 @@ DESCRIPTION="Example PyPI (Python Package Index) Package"
 
 HOMEPAGE="https://github.com/tomchen/example_pypi_package"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/93/8d/e1e98360dc899e533cb3dd857494f2571b129bdffcee76365009b2bb507c/example_pypi_package-${REALVERSION}.tar.gz"
-SOURCEFILE="example_pypi_package-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/93/8d/e1e98360dc899e533cb3dd857494f2571b129bdffcee76365009b2bb507c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

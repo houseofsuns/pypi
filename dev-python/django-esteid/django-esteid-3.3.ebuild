@@ -15,8 +15,8 @@ DESCRIPTION="Django-esteid is a package that provides Esteid based authenticatio
 
 HOMEPAGE="https://github.com/thorgate/django-esteid"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/df/49/1eb737f1727e62dc5622912284c98bb8da3c151dc996c39247a55a491594/django_esteid-${REALVERSION}.tar.gz"
-SOURCEFILE="django_esteid-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/df/49/1eb737f1727e62dc5622912284c98bb8da3c151dc996c39247a55a491594/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

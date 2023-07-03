@@ -15,8 +15,8 @@ DESCRIPTION="Objetivos:"
 
 HOMEPAGE="https://pypi.org/project/balance-service"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/20/a5/72d475e3b0fcdfe758768fd94033c334817528e8fba115b9f9c8ce21d495/balance_service-${REALVERSION}.tar.gz"
-SOURCEFILE="balance_service-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/20/a5/72d475e3b0fcdfe758768fd94033c334817528e8fba115b9f9c8ce21d495/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

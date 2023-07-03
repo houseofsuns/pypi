@@ -15,8 +15,8 @@ DESCRIPTION="A fast, vectorized approach to calculating Implied Volatility and G
 
 HOMEPAGE="https://github.com/marcdemers/py_vollib_vectorized"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6e/0b/f29a131bf3a46a0413fad1729ec39d21f7be98f3f58de9833b735e806a65/py_vollib_vectorized-${REALVERSION}.tar.gz"
-SOURCEFILE="py_vollib_vectorized-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6e/0b/f29a131bf3a46a0413fad1729ec39d21f7be98f3f58de9833b735e806a65/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

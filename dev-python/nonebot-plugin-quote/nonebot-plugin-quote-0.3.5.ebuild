@@ -15,8 +15,8 @@ DESCRIPTION="一款适用于QQ群聊天的语录库插件"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bf/69/7857eaba3160e86c82a4be062a27704b6f1828e397a8c781a80fab49668e/nonebot_plugin_quote-${REALVERSION}.tar.gz"
-SOURCEFILE="nonebot_plugin_quote-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bf/69/7857eaba3160e86c82a4be062a27704b6f1828e397a8c781a80fab49668e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

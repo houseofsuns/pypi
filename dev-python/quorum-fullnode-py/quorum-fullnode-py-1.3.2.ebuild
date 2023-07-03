@@ -15,8 +15,8 @@ DESCRIPTION="Python SDK for FullNode of QuoRum"
 
 HOMEPAGE="https://github.com/liujuanjuan1984/quorum_fullnode_py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/75/43/cf186b2507fb0921d52a25094bfbf9910ac1dc67871a29995e969ad189c6/quorum_fullnode_py-${REALVERSION}.tar.gz"
-SOURCEFILE="quorum_fullnode_py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/75/43/cf186b2507fb0921d52a25094bfbf9910ac1dc67871a29995e969ad189c6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

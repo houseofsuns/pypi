@@ -15,8 +15,8 @@ DESCRIPTION="This django library allows you to add React components into your dj
 
 HOMEPAGE="https://github.com/frojd/django-react-templatetags"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/be/e3/ab3ca0c1dc80c6064eb41b3736cb8d8dc823e043ba273385fb97c870130c/django_react_templatetags-${REALVERSION}.tar.gz"
-SOURCEFILE="django_react_templatetags-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/be/e3/ab3ca0c1dc80c6064eb41b3736cb8d8dc823e043ba273385fb97c870130c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

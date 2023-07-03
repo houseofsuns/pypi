@@ -15,8 +15,8 @@ DESCRIPTION="ProcessPool은 여러 개의 프로세스를 생성하여 각각의
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d5/19/46fc49cb35cc1726866ab2613716044b17ce623db40d80d75d633bc3e6f4/py_parallel_processing-${REALVERSION}.tar.gz"
-SOURCEFILE="py_parallel_processing-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d5/19/46fc49cb35cc1726866ab2613716044b17ce623db40d80d75d633bc3e6f4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

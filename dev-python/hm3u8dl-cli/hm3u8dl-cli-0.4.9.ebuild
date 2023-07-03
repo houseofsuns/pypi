@@ -15,8 +15,8 @@ DESCRIPTION="m3u8视频解析，下载，解密，合并的python程序，支持
 
 HOMEPAGE="https://github.com/hecoter/hm3u8dl_cli"
 LICENSE="MulanPSL2"
-SRC_URI="https://files.pythonhosted.org/packages/af/0b/2bce908db01d357349c2f0b095173acdd4ae1f40457f88465f1d1e6f5771/hm3u8dl_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="hm3u8dl_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/af/0b/2bce908db01d357349c2f0b095173acdd4ae1f40457f88465f1d1e6f5771/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

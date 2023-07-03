@@ -15,8 +15,8 @@ DESCRIPTION="Code useful for implementing chia consensus."
 
 HOMEPAGE="https://github.com/Chia-Network/chia_rs/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/bf/5b/0c23a1524ebf8e9bc0f76078be39f0a74db2ff0da0247a1d7f31d70024cc/chia_rs-${REALVERSION}.tar.gz"
-SOURCEFILE="chia_rs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bf/5b/0c23a1524ebf8e9bc0f76078be39f0a74db2ff0da0247a1d7f31d70024cc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

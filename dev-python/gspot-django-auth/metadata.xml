@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># OverviewGSpot Auth is a Django app for GSpot project https://github.com/DJWOMS/GSpotQuick start-----------1. Add &quot;gspot_auth&quot; to your INSTALLED_APPS setting like this:```INSTALLED_APPS = [    ...    'gspot_django_auth',]```2. Define these parameters in `settings.py`- `REDIS_ACCESS_PREFIX`- `REDIS_ACCESS_DB`- `REDIS_HOST`- `REDIS_PORT`- `REDIS_PASSWORD`- `GET_TOKEN_FROM` - 'headers' or 'cookies'3. Add CustomJWTAuthentication to DEFAULT_AUTHENTICATION_CLASSES in settings.py```REST_FRAMEWORK = {    ...    'DEFAULT_AUTHENTICATION_CLASSES': [        'gspot_django_auth.authentication.CustomJWTAuthentication'    ],}```</longdescription>
+</pkgmetadata>

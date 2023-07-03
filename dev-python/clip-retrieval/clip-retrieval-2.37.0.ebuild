@@ -15,8 +15,8 @@ DESCRIPTION="Easily computing clip embeddings and building a clip retrieval syst
 
 HOMEPAGE="https://github.com/rom1504/clip-retrieval"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a7/ac/c09cb03cb135e283d637c97e930f8e568174c0773949f109ea7b09864c20/clip_retrieval-${REALVERSION}.tar.gz"
-SOURCEFILE="clip_retrieval-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a7/ac/c09cb03cb135e283d637c97e930f8e568174c0773949f109ea7b09864c20/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

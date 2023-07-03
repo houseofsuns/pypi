@@ -15,8 +15,8 @@ DESCRIPTION="Azure Database done easy"
 
 HOMEPAGE="https://github.com/user/reponame"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/91/ed/0ff1e8d295b838fb10e809bb0a2abe21c6e31cd8a392e574727bf6c8fc44/azure_sql-${REALVERSION}.tar.gz"
-SOURCEFILE="azure_sql-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/91/ed/0ff1e8d295b838fb10e809bb0a2abe21c6e31cd8a392e574727bf6c8fc44/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

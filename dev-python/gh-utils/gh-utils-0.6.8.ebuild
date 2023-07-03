@@ -15,8 +15,8 @@ DESCRIPTION="GitHub CLI Utilities"
 
 HOMEPAGE="https://github.com/tddschn/gh-utils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1d/5d/9f71d935427481dd3f100396b9154efe1824551cee6c781ba4562fa77f06/gh_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="gh_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1d/5d/9f71d935427481dd3f100396b9154efe1824551cee6c781ba4562fa77f06/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

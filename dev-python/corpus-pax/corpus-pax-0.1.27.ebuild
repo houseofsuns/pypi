@@ -15,8 +15,8 @@ DESCRIPTION="Using Github API (to pull individuals, orgs, and article content), 
 
 HOMEPAGE="https://lawsql.com"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8a/97/97c7d5636a49d425c7a2c8692d7cba936023d876aef4ec0e552d4152d534/corpus_pax-${REALVERSION}.tar.gz"
-SOURCEFILE="corpus_pax-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8a/97/97c7d5636a49d425c7a2c8692d7cba936023d876aef4ec0e552d4152d534/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

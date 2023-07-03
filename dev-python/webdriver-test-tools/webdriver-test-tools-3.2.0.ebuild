@@ -15,8 +15,8 @@ DESCRIPTION="A front-end testing framework using Selenium WebDriver and Python"
 
 HOMEPAGE="https://github.com/connordelacruz/webdriver-test-tools/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/dc/a7/4771d0309418f5bf3390d5e27e971f22353f5cbe72fb43103912b0903dea/webdriver_test_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="webdriver_test_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/dc/a7/4771d0309418f5bf3390d5e27e971f22353f5cbe72fb43103912b0903dea/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

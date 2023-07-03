@@ -15,8 +15,8 @@ DESCRIPTION="Pytest plugin providing a fixture interface for spulec/freezegun"
 
 HOMEPAGE="https://github.com/pytest-dev/pytest-freezer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/69/fa/a93d40dd50f712c276a5a15f9c075bee932cc4d28c376e60b4a35904976d/pytest_freezer-${REALVERSION}.tar.gz"
-SOURCEFILE="pytest_freezer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/69/fa/a93d40dd50f712c276a5a15f9c075bee932cc4d28c376e60b4a35904976d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A quantum proof (post-quantum) implementation of the NTRU algorithm
 
 HOMEPAGE="https://github.com/protdos/pq-ntru"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/25/2d/ed156bdef92b2b08c3e6613f364c27f33f360dcc8a0cd20fda50cecb2b64/pq_ntru-${REALVERSION}.tar.gz"
-SOURCEFILE="pq_ntru-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/25/2d/ed156bdef92b2b08c3e6613f364c27f33f360dcc8a0cd20fda50cecb2b64/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

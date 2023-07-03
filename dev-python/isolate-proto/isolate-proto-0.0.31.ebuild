@@ -15,8 +15,8 @@ DESCRIPTION="(internal) gRPC definitions for Isolate Cloud"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2d/68/2c5c4a02312987af1bf0c6cf4239229ce3a0324e218c5d80d7e164128c60/isolate_proto-${REALVERSION}.tar.gz"
-SOURCEFILE="isolate_proto-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2d/68/2c5c4a02312987af1bf0c6cf4239229ce3a0324e218c5d80d7e164128c60/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

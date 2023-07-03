@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/89/50/9bd8e97ab94bc091f2a00c519ca7316530310b48deb450eff504d8b92638/rust_dfs-${REALVERSION}.tar.gz"
-SOURCEFILE="rust_dfs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/89/50/9bd8e97ab94bc091f2a00c519ca7316530310b48deb450eff504d8b92638/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Boto3 SQS service tracing for OpenTelemetry"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-boto3sqs"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bb/8b/1ab38820681bd8b039704c24dae2581d7b6dfefb4c636ac700d4913e9855/opentelemetry_instrumentation_boto3sqs-${REALVERSION}.tar.gz"
-SOURCEFILE="opentelemetry_instrumentation_boto3sqs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bb/8b/1ab38820681bd8b039704c24dae2581d7b6dfefb4c636ac700d4913e9855/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

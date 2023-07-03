@@ -15,8 +15,8 @@ DESCRIPTION="HDX Python API for interacting with the Humanitarian Data Exchange"
 
 HOMEPAGE="https://github.com/OCHA-DAP/hdx-python-api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d8/18/0fca0e6182f0b00551622439e171cd2cec8ccdbbb096fb121962d8739fdb/hdx_python_api-${REALVERSION}.tar.gz"
-SOURCEFILE="hdx_python_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d8/18/0fca0e6182f0b00551622439e171cd2cec8ccdbbb096fb121962d8739fdb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

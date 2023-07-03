@@ -15,8 +15,8 @@ DESCRIPTION="Simplifies to build parse types based on the parse module"
 
 HOMEPAGE="https://github.com/jenisys/parse_type"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/46/29/558531fda406a29d7a4a26d5c07a928aedb2bceea820c3c9f105dce39584/parse_type-${REALVERSION}.tar.gz"
-SOURCEFILE="parse_type-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/46/29/558531fda406a29d7a4a26d5c07a928aedb2bceea820c3c9f105dce39584/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

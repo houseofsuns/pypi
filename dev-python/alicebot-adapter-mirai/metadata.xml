@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;div align=&quot;center&quot;&gt;  &lt;a href=&quot;https://docs.alicebot.dev/&quot;&gt;&lt;img src=&quot;https://raw.githubusercontent.com/AliceBotProject/alicebot/master/docs/public/logo.png&quot; width=&quot;200&quot; height=&quot;200&quot; alt=&quot;logo&quot;&gt;&lt;/a&gt;# AliceBot-Adapter-CQHTTP**Mirai 协议适配**&lt;/div&gt;</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="Pulumi Amazon Web Services (AWS) EKS Components."
 
 HOMEPAGE="https://pulumi.com"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/5e/a3/f75fd332652ccf0a8a26a281bf6dfc92a64b1037b055f85fb526255faa12/pulumi_eks-${REALVERSION}.tar.gz"
-SOURCEFILE="pulumi_eks-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5e/a3/f75fd332652ccf0a8a26a281bf6dfc92a64b1037b055f85fb526255faa12/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

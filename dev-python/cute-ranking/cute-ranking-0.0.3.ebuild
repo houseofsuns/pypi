@@ -15,8 +15,8 @@ DESCRIPTION="A cute little python module for calculating different ranking metri
 
 HOMEPAGE="https://github.com/ncoop57/cute_ranking/tree/main/"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/af/7e/ef728679c6f11668b99c8f4d5e3bbda5f1abd05c983850ca04cf666ff9c3/cute_ranking-${REALVERSION}.tar.gz"
-SOURCEFILE="cute_ranking-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/af/7e/ef728679c6f11668b99c8f4d5e3bbda5f1abd05c983850ca04cf666ff9c3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

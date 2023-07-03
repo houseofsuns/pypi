@@ -15,8 +15,8 @@ DESCRIPTION="Tool for managing bioinformatics content repositories."
 
 HOMEPAGE="https://github.com/truwl/capanno-utils"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/16/cc/386737fea76c4bd3d786da04fd9f66c672e5ba0159c76a205f25be91be2f/capanno_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="capanno_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/16/cc/386737fea76c4bd3d786da04fd9f66c672e5ba0159c76a205f25be91be2f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

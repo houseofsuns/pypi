@@ -15,8 +15,8 @@ DESCRIPTION="Parse structured metadata from dbt logs"
 
 HOMEPAGE="https://github.com/mdzhang/dbt_log_parser"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a0/10/181b84d6178bf2c3ecad8fd8f2b5dacde3dae8c5bfd581098fd1344412dd/dbt_log_parser-${REALVERSION}.tar.gz"
-SOURCEFILE="dbt_log_parser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a0/10/181b84d6178bf2c3ecad8fd8f2b5dacde3dae8c5bfd581098fd1344412dd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

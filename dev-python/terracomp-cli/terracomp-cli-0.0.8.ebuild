@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/41/52/b59ab9c1fb7537d1ca4ad307cd452d1623f095d9954ef2fcf1af0abb4517/terracomp_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="terracomp_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/41/52/b59ab9c1fb7537d1ca4ad307cd452d1623f095d9954ef2fcf1af0abb4517/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

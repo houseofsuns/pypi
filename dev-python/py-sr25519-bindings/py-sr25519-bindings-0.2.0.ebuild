@@ -15,8 +15,8 @@ DESCRIPTION="Python bindings for sr25519 library"
 
 HOMEPAGE="https://github.com/polkascan/py-sr25519-bindings"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f7/81/3c6f3c6e37f51ec49a3dbf98162a5008c321d8a137b07b3b8521b71bf1b8/py_sr25519_bindings-${REALVERSION}.tar.gz"
-SOURCEFILE="py_sr25519_bindings-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f7/81/3c6f3c6e37f51ec49a3dbf98162a5008c321d8a137b07b3b8521b71bf1b8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

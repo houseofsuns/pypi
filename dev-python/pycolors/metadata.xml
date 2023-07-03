@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Module colors    ~~~~~~~~~~~~~~        Python module to ease the use of colors on programs that run on CLI.    Works fine on Linux and any Operating System running BaSH or compatibles.    If the shell's not color compatible, he'll get the raw string.    The module have predefined some basic colors, but you can use any color,    if you know the color code.    Usage example    -------------        &gt;&gt;&gt; from colors import Color        &gt;&gt;&gt; yellow = Color('1;33')        &gt;&gt;&gt; print yellow('Hello World')        Hello World                &gt;&gt;&gt; from colors import red        &gt;&gt;&gt; print red('Ola Mundo')    Working with this module as an optional dependency    --------------------------------------------------    If you don't want to force the users to have PyColors installed    you can make the use of the colors module optional. For example: ::            # trying to use colors        try:            from colors import light_blue, light_red, red, white        except:            light_blue = light_red = red = white = lambda(x): str(x)        With this, if the user don't have the colors module, he'll get the    raw strings normally.        :copyright: 2009 Rafael Goncalves Martins.    :license: BSD, see LICENSE for more details.</longdescription>
+</pkgmetadata>

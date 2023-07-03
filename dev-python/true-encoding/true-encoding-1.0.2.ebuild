@@ -15,8 +15,8 @@ DESCRIPTION="true_encoding is the method of solving the problem of 'ISO-8859-1' 
 
 HOMEPAGE="https://github.com/shinalone/true_encoding"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/07/f5/ba06262ce40720cf1f2de5d59a9614a444402be341bc4c8382f4e1efee9b/true_encoding-${REALVERSION}.tar.gz"
-SOURCEFILE="true_encoding-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/07/f5/ba06262ce40720cf1f2de5d59a9614a444402be341bc4c8382f4e1efee9b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

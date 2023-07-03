@@ -15,8 +15,8 @@ DESCRIPTION="Plugin to extend MkDocs Material theme."
 
 HOMEPAGE="https://github.com/facelessuser/mkdocs_pymdownx_material_extras"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a8/47/49a2d2f87f6236b83aa2032145e705ce67332a8c07b431bd9930594450a0/mkdocs_pymdownx_material_extras-${REALVERSION}.tar.gz"
-SOURCEFILE="mkdocs_pymdownx_material_extras-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a8/47/49a2d2f87f6236b83aa2032145e705ce67332a8c07b431bd9930594450a0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

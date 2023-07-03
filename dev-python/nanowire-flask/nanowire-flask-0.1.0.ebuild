@@ -15,8 +15,8 @@ DESCRIPTION="Tool for creating nanowire tools with the flask structure."
 
 HOMEPAGE="https://github.com/SpotlightData/nanowire_flask"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/16/ee/0f4de903fd7eb9a3407ff248cab912eb391ef08d8e987201a9d8c4234581/nanowire_flask-${REALVERSION}.tar.gz"
-SOURCEFILE="nanowire_flask-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/16/ee/0f4de903fd7eb9a3407ff248cab912eb391ef08d8e987201a9d8c4234581/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

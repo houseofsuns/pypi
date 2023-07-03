@@ -15,8 +15,8 @@ DESCRIPTION="Python API for interacting with Glances"
 
 HOMEPAGE="https://github.com/home-assistant-ecosystem/python-glances-api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/db/42/b1387feaac89b09c85dbc01333a7f924987e0dd6a016b8136bbaeb2539ab/glances_api-${REALVERSION}.tar.gz"
-SOURCEFILE="glances_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/db/42/b1387feaac89b09c85dbc01333a7f924987e0dd6a016b8136bbaeb2539ab/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

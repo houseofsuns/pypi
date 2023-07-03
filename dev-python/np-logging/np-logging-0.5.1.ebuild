@@ -15,8 +15,8 @@ DESCRIPTION="Pre-configured file, web, and email logging for Mindscope neuropixe
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b2/5e/a21974a9ef2026884e679eda11222093ae5daa19b4a614a54f4a93800888/np_logging-${REALVERSION}.tar.gz"
-SOURCEFILE="np_logging-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b2/5e/a21974a9ef2026884e679eda11222093ae5daa19b4a614a54f4a93800888/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

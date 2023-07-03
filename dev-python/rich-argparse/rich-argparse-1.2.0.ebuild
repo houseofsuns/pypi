@@ -15,8 +15,8 @@ DESCRIPTION="Rich help formatters for argparse and optparse"
 
 HOMEPAGE="https://github.com/hamdanal/rich-argparse"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/91/ac/789c1a81ac85f70cf17711e0fda2e0d27674d30b8addbfb36e92188a4f41/rich_argparse-${REALVERSION}.tar.gz"
-SOURCEFILE="rich_argparse-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/91/ac/789c1a81ac85f70cf17711e0fda2e0d27674d30b8addbfb36e92188a4f41/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

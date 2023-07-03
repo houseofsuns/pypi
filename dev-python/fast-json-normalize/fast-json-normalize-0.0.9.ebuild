@@ -15,8 +15,8 @@ DESCRIPTION="Faster pandas json normalize"
 
 HOMEPAGE="https://github.com/smpurkis/fast_json_normalize"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a6/9c/a3774cc9bcc8a126e69c3a96cd684605351d766000d7b5e950f3acb174a1/fast_json_normalize-${REALVERSION}.tar.gz"
-SOURCEFILE="fast_json_normalize-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a6/9c/a3774cc9bcc8a126e69c3a96cd684605351d766000d7b5e950f3acb174a1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

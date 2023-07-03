@@ -15,8 +15,8 @@ DESCRIPTION="Backport of Python 3.8's unittest.async_case"
 
 HOMEPAGE="https://github.com/nvllsvm/async_case"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c8/09/87f2a23f5696ac6deb2fff92421f8af46226ea2410d101b453d5aa63e53a/async_case-${REALVERSION}.tar.gz"
-SOURCEFILE="async_case-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c8/09/87f2a23f5696ac6deb2fff92421f8af46226ea2410d101b453d5aa63e53a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

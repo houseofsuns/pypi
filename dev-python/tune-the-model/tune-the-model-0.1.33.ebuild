@@ -15,8 +15,8 @@ DESCRIPTION="beyondml"
 
 HOMEPAGE="https://github.com/tune-the-model/tune-the-model-py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5f/ba/52259d21fe2ee021ca557101ff267184ab49dc8a81bd3383c798948f4263/tune_the_model-${REALVERSION}.tar.gz"
-SOURCEFILE="tune_the_model-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5f/ba/52259d21fe2ee021ca557101ff267184ab49dc8a81bd3383c798948f4263/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

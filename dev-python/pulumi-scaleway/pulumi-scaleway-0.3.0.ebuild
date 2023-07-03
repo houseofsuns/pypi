@@ -15,8 +15,8 @@ DESCRIPTION="A Pulumi package for creating and managing scaleway cloud resources
 
 HOMEPAGE="https://leebriggs.co.uk/projects#pulumi-scaleway"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/11/d9/3b812aa06c786cd0158a9160c05513937970ec5273664cb2577243211a15/pulumi_scaleway-${REALVERSION}.tar.gz"
-SOURCEFILE="pulumi_scaleway-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/11/d9/3b812aa06c786cd0158a9160c05513937970ec5273664cb2577243211a15/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

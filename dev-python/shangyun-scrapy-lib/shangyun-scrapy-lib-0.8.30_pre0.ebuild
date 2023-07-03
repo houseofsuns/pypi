@@ -15,8 +15,8 @@ DESCRIPTION="This is a service of redis subscripe"
 
 HOMEPAGE="https://ssl.xxx.org/redmine/projects/RedisRun"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/b2/00/edd3231d73da463149dff1df237ba6e4090cb782203ad9a184ee798d26ce/shangyun_scrapy_lib-${REALVERSION}.tar.gz"
-SOURCEFILE="shangyun_scrapy_lib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b2/00/edd3231d73da463149dff1df237ba6e4090cb782203ad9a184ee798d26ce/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

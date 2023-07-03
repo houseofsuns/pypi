@@ -15,8 +15,8 @@ DESCRIPTION="This module helps to render reports"
 
 HOMEPAGE="https://github.com/IslasGECI/jinja_render"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a3/e9/eed01159c55b278cd15a0f0cb21387dc5334b5e7e3708155fcd1ff936f94/jinja_render-${REALVERSION}.tar.gz"
-SOURCEFILE="jinja_render-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a3/e9/eed01159c55b278cd15a0f0cb21387dc5334b5e7e3708155fcd1ff936f94/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

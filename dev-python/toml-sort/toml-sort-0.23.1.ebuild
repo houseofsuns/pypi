@@ -15,8 +15,8 @@ DESCRIPTION="Toml sorting library"
 
 HOMEPAGE="https://toml-sort.readthedocs.io/en/latest/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/be/87/73d4464480f5191a21ff7e142131fedbf65ad90bc84a9be04db8e0554a15/toml_sort-${REALVERSION}.tar.gz"
-SOURCEFILE="toml_sort-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/be/87/73d4464480f5191a21ff7e142131fedbf65ad90bc84a9be04db8e0554a15/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

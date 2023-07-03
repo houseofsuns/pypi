@@ -15,8 +15,8 @@ DESCRIPTION="Kursversorgung Google Sheets"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2c/3a/828a6ad6a049c640bde0c5864161c9ee66a1308e5621223509cc2ad2888b/kursversorgung_google_sheets-${REALVERSION}.tar.gz"
-SOURCEFILE="kursversorgung_google_sheets-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2c/3a/828a6ad6a049c640bde0c5864161c9ee66a1308e5621223509cc2ad2888b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Blurred face"
 
 HOMEPAGE=""
 LICENSE="apache 3.0"
-SRC_URI="https://files.pythonhosted.org/packages/32/ed/36733890d621e7714cc687e293aeb89a8feb44e00535e12549df110c0542/blurredface_sts_test-${REALVERSION}.tar.gz"
-SOURCEFILE="blurredface_sts_test-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/32/ed/36733890d621e7714cc687e293aeb89a8feb44e00535e12549df110c0542/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

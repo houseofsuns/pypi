@@ -15,8 +15,8 @@ DESCRIPTION="Python wrapper for ASF's SearchAPI"
 
 HOMEPAGE="https://github.com/asfadmin/Discovery-asf_search.git"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/a3/ad/3bbcf03b37aed208909525833cbf5402636992d7d320513d1a6c5278e8f8/asf_search-${REALVERSION}.tar.gz"
-SOURCEFILE="asf_search-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a3/ad/3bbcf03b37aed208909525833cbf5402636992d7d320513d1a6c5278e8f8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

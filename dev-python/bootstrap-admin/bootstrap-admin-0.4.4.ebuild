@@ -15,8 +15,8 @@ DESCRIPTION="Responsive Theme for Django Admin With Sidebar Menu (Django 1.11)"
 
 HOMEPAGE="https://github.com/douglasmiranda/django-admin-bootstrap"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/7a/15/52cd6c1af482e83d10f14cf9eab81878bdf2653139c8f53152196e26ac1d/bootstrap_admin-${REALVERSION}.tar.gz"
-SOURCEFILE="bootstrap_admin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7a/15/52cd6c1af482e83d10f14cf9eab81878bdf2653139c8f53152196e26ac1d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

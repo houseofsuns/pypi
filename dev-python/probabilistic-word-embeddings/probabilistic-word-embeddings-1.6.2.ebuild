@@ -15,8 +15,8 @@ DESCRIPTION="Probabilistic Word Embeddings for Python"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/52/45/1330ab6f9d48c762b1498c58c8e84f42cf04ddba30360d26c7b0daf614db/probabilistic_word_embeddings-${REALVERSION}.tar.gz"
-SOURCEFILE="probabilistic_word_embeddings-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/52/45/1330ab6f9d48c762b1498c58c8e84f42cf04ddba30360d26c7b0daf614db/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

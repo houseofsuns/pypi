@@ -15,8 +15,8 @@ DESCRIPTION="Dk Analyzer"
 
 HOMEPAGE="https://github.com/nymann/dk-analyzer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6e/ff/a9e78d255da996c7c1ba3d6dde437fa712ca2c48868e61fd036f5b4d13e7/dk_analyzer-${REALVERSION}.tar.gz"
-SOURCEFILE="dk_analyzer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6e/ff/a9e78d255da996c7c1ba3d6dde437fa712ca2c48868e61fd036f5b4d13e7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

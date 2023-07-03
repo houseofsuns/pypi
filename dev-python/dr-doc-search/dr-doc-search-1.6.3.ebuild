@@ -15,8 +15,8 @@ DESCRIPTION="Search through a document using a chat interface"
 
 HOMEPAGE="https://namuan.github.io/dr-doc-search"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/35/e4/d219a9ac56ef962e39cdf20e105427db006f682ff0d36797e7058b838f04/dr_doc_search-${REALVERSION}.tar.gz"
-SOURCEFILE="dr_doc_search-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/35/e4/d219a9ac56ef962e39cdf20e105427db006f682ff0d36797e7058b838f04/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

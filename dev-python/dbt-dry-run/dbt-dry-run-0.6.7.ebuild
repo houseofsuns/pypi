@@ -15,8 +15,8 @@ DESCRIPTION="Dry run dbt projects"
 
 HOMEPAGE="https://github.com/autotraderuk/dbt-dry-run"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/18/b2/9397a3d2f2c437731c668f7e6e77af08c5d98504897eafbdc4a400b087ed/dbt_dry_run-${REALVERSION}.tar.gz"
-SOURCEFILE="dbt_dry_run-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/18/b2/9397a3d2f2c437731c668f7e6e77af08c5d98504897eafbdc4a400b087ed/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

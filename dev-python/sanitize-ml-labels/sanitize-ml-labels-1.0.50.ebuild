@@ -15,8 +15,8 @@ DESCRIPTION="Simple python package to sanitize in a standard way ML-related labe
 
 HOMEPAGE="https://github.com/LucaCappelletti94/sanitize_ml_labels"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/01/4c/3515c327f6c6b05195fdc5a80a377d1f1b4a944b72294e4edf656eb7fb88/sanitize_ml_labels-${REALVERSION}.tar.gz"
-SOURCEFILE="sanitize_ml_labels-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/01/4c/3515c327f6c6b05195fdc5a80a377d1f1b4a944b72294e4edf656eb7fb88/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

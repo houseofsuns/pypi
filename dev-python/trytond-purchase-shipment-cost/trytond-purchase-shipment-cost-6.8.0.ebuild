@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module for purchase shipment cost"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/90/8c/f9b1fc1544b2e443c01b82e481977fc651b2ce938d504505fa4a2402fc94/trytond_purchase_shipment_cost-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_purchase_shipment_cost-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/90/8c/f9b1fc1544b2e443c01b82e481977fc651b2ce938d504505fa4a2402fc94/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

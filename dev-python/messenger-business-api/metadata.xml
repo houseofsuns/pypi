@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Messenger Business api======================This repository is a wrapper for Meta messenger api for Messenger andInstagramSend a message--------------.. code:: python   from messenger-business-apy import MessengerApi   access_token: &quot;YOUR TOKEN&quot;,    page_id: &quot;YOUR PAGE ID&quot;  # like ID of page instagram   api_version: &quot;YOUR PAGE VERSION&quot;  # default v16.0 - OPTIONAL   messenger = MessengerApi(access_token=access_token,page_id=page_id,api_version=api_version)   messenger.send_text_message(user_id='291380182300130918', message='This is a test!')   #ps the user_id is fake only exampleDownload of file----------------.. code:: python   from messenger-business-apy import MessengerApi   access_token: 'YOUR TOKEN,    page_id: &quot;YOUR PAGE ID&quot;  # like ID of page instagram   api_version: &quot;YOUR PAGE VERSION&quot;  # default v16.0 - OPTIONAL   messenger = MessengerApi(access_token=access_token,page_id=page_id,api_version=api_version)   uri: &quot;URL for downloading media file&quot;    messenger.get_media(uri=uri )</longdescription>
+</pkgmetadata>

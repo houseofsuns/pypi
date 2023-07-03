@@ -15,8 +15,8 @@ DESCRIPTION="Python Data for Apps of QuoRum"
 
 HOMEPAGE="https://github.com/liujuanjuan1984/quorum_data_py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b7/ca/753af29a77535d1a0e6dfa4260cf3fc1aea828763ed8b1e4b6cc4141b137/quorum_data_py-${REALVERSION}.tar.gz"
-SOURCEFILE="quorum_data_py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b7/ca/753af29a77535d1a0e6dfa4260cf3fc1aea828763ed8b1e4b6cc4141b137/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

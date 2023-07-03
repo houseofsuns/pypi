@@ -15,8 +15,8 @@ DESCRIPTION="Straighforward wrapper around Ruamel Yaml"
 
 HOMEPAGE="https://github.com/jeff-hykin/ez_yaml"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f3/0e/3cbb12dc4df825409811b41d54418bc31358b5f66179139745c7fb2720a9/ez_yaml-${REALVERSION}.tar.gz"
-SOURCEFILE="ez_yaml-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f3/0e/3cbb12dc4df825409811b41d54418bc31358b5f66179139745c7fb2720a9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

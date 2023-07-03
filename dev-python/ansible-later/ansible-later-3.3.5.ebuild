@@ -15,8 +15,8 @@ DESCRIPTION="Reviews ansible playbooks, roles and inventories and suggests impro
 
 HOMEPAGE="https://ansible-later.geekdocs.de/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b7/c4/6d4aead5ac3115f09ac0d6349a79c84be91b9e7ed7c74677e098fbd509e0/ansible_later-${REALVERSION}.tar.gz"
-SOURCEFILE="ansible_later-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b7/c4/6d4aead5ac3115f09ac0d6349a79c84be91b9e7ed7c74677e098fbd509e0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

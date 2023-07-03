@@ -15,8 +15,8 @@ DESCRIPTION="Convert raw SQL to Pypika Objects"
 
 HOMEPAGE="https://github.com/pahwaranger/sql_to_pypika"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/73/94/655dcbe1367394e35997127973cd7c2f878c02377d5b9c5c976325c386a5/sql_to_pypika-${REALVERSION}.tar.gz"
-SOURCEFILE="sql_to_pypika-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/73/94/655dcbe1367394e35997127973cd7c2f878c02377d5b9c5c976325c386a5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

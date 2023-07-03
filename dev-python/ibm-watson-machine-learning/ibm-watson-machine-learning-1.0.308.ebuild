@@ -15,8 +15,8 @@ DESCRIPTION="IBM Watson Machine Learning API Client"
 
 HOMEPAGE="https://ibm.github.io/watson-machine-learning-sdk"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/1e/85/d2cee9a9d9e2dd58eb94a3a006c882d3931f2d6cf15893bc4bbb18345639/ibm_watson_machine_learning-${REALVERSION}.tar.gz"
-SOURCEFILE="ibm_watson_machine_learning-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1e/85/d2cee9a9d9e2dd58eb94a3a006c882d3931f2d6cf15893bc4bbb18345639/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

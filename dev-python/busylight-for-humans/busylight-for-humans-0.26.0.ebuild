@@ -15,8 +15,8 @@ DESCRIPTION="Control USB connected LED lights, like a human."
 
 HOMEPAGE="https://github.com/JnyJny/busylight.git"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c7/75/c5e04241385513524eddba34286c0e3bddd01ae0683b01ea171a93a1eb9a/busylight_for_humans-${REALVERSION}.tar.gz"
-SOURCEFILE="busylight_for_humans-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c7/75/c5e04241385513524eddba34286c0e3bddd01ae0683b01ea171a93a1eb9a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

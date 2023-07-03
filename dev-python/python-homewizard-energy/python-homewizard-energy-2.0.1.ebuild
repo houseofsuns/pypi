@@ -15,8 +15,8 @@ DESCRIPTION="Asynchronous Python client for the HomeWizard Energy"
 
 HOMEPAGE="https://github.com/dcsbl/python-homewizard-energy"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/2d/fa/5301afc922cc74f939cb4b8c76c0033f676e16f00d3b7209530be2bd853d/python_homewizard_energy-${REALVERSION}.tar.gz"
-SOURCEFILE="python_homewizard_energy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2d/fa/5301afc922cc74f939cb4b8c76c0033f676e16f00d3b7209530be2bd853d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

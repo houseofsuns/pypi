@@ -15,8 +15,8 @@ DESCRIPTION="Slap is a command-line utility for developing Python applications."
 
 HOMEPAGE="https://github.com/NiklasRosenstein/slap"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/46/01/c96d4c2ab438da45b6d7eaf4e4c410df0a5771789b03a4fc2ed42d9e9985/slap_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="slap_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/46/01/c96d4c2ab438da45b6d7eaf4e4c410df0a5771789b03a4fc2ed42d9e9985/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

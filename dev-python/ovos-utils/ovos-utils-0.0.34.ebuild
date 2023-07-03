@@ -15,8 +15,8 @@ DESCRIPTION="collection of simple utilities for use across the mycroft ecosystem
 
 HOMEPAGE="https://github.com/OpenVoiceOS/ovos_utils"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/3a/39/c0129206518da84943e83ba720699e928b57ce2621a10b1ac1101c7bbb77/ovos_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="ovos_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3a/39/c0129206518da84943e83ba720699e928b57ce2621a10b1ac1101c7bbb77/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

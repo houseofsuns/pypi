@@ -15,8 +15,8 @@ DESCRIPTION="Save the response from the server. This may be needed when debuggin
 
 HOMEPAGE="https://gitlab.com/whiteapfel/response_report"
 LICENSE="Mozilla Public License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b7/4c/fb55964112c7112b390f9f89f15d7cf2d18aeffd172f0c30e4e45b56cd75/response_report-${REALVERSION}.tar.gz"
-SOURCEFILE="response_report-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b7/4c/fb55964112c7112b390f9f89f15d7cf2d18aeffd172f0c30e4e45b56cd75/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Python based tools for spherical geometry"
 
 HOMEPAGE="https://github.com/spacetelescope/spherical_geometry"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/4c/d1/3436f3d9ceba55eedb6ff1bbd04dbd79475c7781b13896ab6fc86de9c55c/spherical_geometry-${REALVERSION}.tar.gz"
-SOURCEFILE="spherical_geometry-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4c/d1/3436f3d9ceba55eedb6ff1bbd04dbd79475c7781b13896ab6fc86de9c55c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

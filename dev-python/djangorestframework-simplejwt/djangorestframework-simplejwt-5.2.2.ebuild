@@ -15,8 +15,8 @@ DESCRIPTION="A minimal JSON Web Token authentication plugin for Django REST Fram
 
 HOMEPAGE="https://github.com/jazzband/djangorestframework-simplejwt"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/13/f9/2de663009b139fa29d5344f7c0d431e70fc7e0732ab1c31e8abfe84634b2/djangorestframework_simplejwt-${REALVERSION}.tar.gz"
-SOURCEFILE="djangorestframework_simplejwt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/13/f9/2de663009b139fa29d5344f7c0d431e70fc7e0732ab1c31e8abfe84634b2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

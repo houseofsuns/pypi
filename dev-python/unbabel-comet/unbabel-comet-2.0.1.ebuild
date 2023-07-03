@@ -15,8 +15,8 @@ DESCRIPTION="High-quality Machine Translation Evaluation"
 
 HOMEPAGE="https://github.com/Unbabel/COMET"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d1/02/6f0cdf6bc5973189daa96adf26721eb6f14cfc7cb1d57310493040856caf/unbabel_comet-${REALVERSION}.tar.gz"
-SOURCEFILE="unbabel_comet-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d1/02/6f0cdf6bc5973189daa96adf26721eb6f14cfc7cb1d57310493040856caf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

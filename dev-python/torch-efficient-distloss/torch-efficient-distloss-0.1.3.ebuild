@@ -15,8 +15,8 @@ DESCRIPTION="Efficient distortion loss with O(n) realization."
 
 HOMEPAGE="https://github.com/sunset1995"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d8/57/a65f02aa109ac185089090eca35dedc4d2e53b8ed4c4e3a51fda7daee6df/torch_efficient_distloss-${REALVERSION}.tar.gz"
-SOURCEFILE="torch_efficient_distloss-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d8/57/a65f02aa109ac185089090eca35dedc4d2e53b8ed4c4e3a51fda7daee6df/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

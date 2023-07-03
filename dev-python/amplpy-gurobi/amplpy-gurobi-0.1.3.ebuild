@@ -15,8 +15,8 @@ DESCRIPTION="GUROBI extension for amplpy"
 
 HOMEPAGE="http://ampl.com/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/31/30/f6593dbb0d1b55b7fc88107974b1ede7d3d5b0dd326fd3480868005d1724/amplpy_gurobi-${REALVERSION}.tar.gz"
-SOURCEFILE="amplpy_gurobi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/31/30/f6593dbb0d1b55b7fc88107974b1ede7d3d5b0dd326fd3480868005d1724/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

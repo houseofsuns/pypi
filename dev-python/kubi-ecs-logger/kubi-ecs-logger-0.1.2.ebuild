@@ -15,8 +15,8 @@ DESCRIPTION="Logger based on Elasticsearch Common Schema."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/71/7d/10f197320bddb8d1eeff23f15b3b96ce403669a781ed0ac26b833b477bed/kubi_ecs_logger-${REALVERSION}.tar.gz"
-SOURCEFILE="kubi_ecs_logger-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/71/7d/10f197320bddb8d1eeff23f15b3b96ce403669a781ed0ac26b833b477bed/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

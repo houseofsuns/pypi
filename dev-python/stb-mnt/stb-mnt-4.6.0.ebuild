@@ -15,8 +15,8 @@ DESCRIPTION="A universal tool for local microservice management."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3d/54/6dd63e7579749bbaba6fde5ff9fa956a8bc76a6cadf8d189d811ad0b6706/stb_mnt-${REALVERSION}.tar.gz"
-SOURCEFILE="stb_mnt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3d/54/6dd63e7579749bbaba6fde5ff9fa956a8bc76a6cadf8d189d811ad0b6706/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

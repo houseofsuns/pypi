@@ -15,8 +15,8 @@ DESCRIPTION="Tools for logging MLPerf compliance tags."
 
 HOMEPAGE="https://github.com/mlperf/training/tree/master/compliance"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/62/80/1da650a9e3f83242f4996f3919d41e0d54c6ba9a8dcfce38a090f998ea30/mlperf_compliance-${REALVERSION}.tar.gz"
-SOURCEFILE="mlperf_compliance-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/62/80/1da650a9e3f83242f4996f3919d41e0d54c6ba9a8dcfce38a090f998ea30/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

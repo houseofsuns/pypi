@@ -15,8 +15,8 @@ DESCRIPTION="Fast random access to zstd files"
 
 HOMEPAGE="https://github.com/martinellimarco/indexed_zstd"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/90/38/fb4db668c97832a4532ff810e630306b59b30a487d7169ee3c28d7ad6a78/indexed_zstd-${REALVERSION}.tar.gz"
-SOURCEFILE="indexed_zstd-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/90/38/fb4db668c97832a4532ff810e630306b59b30a487d7169ee3c28d7ad6a78/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

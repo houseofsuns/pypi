@@ -15,8 +15,8 @@ DESCRIPTION="A library for contract-testing OpenAPI / Swagger APIs."
 
 HOMEPAGE="https://github.com/MarketSquare/robotframework-openapidriver"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d1/0e/a941a96fc3de5967e7f7d2e68bba022b86bfb6ad18c04b0efc7dbb7ac8bf/robotframework_openapidriver-${REALVERSION}.tar.gz"
-SOURCEFILE="robotframework_openapidriver-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d1/0e/a941a96fc3de5967e7f7d2e68bba022b86bfb6ad18c04b0efc7dbb7ac8bf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

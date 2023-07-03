@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module to import CODA statements"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/b3/aa/cb0ccb3537bf975b23d96032a7da5c8a4b98198fae13da90d3a377146584/trytond_account_statement_coda-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_account_statement_coda-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b3/aa/cb0ccb3537bf975b23d96032a7da5c8a4b98198fae13da90d3a377146584/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

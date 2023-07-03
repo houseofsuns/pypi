@@ -15,8 +15,8 @@ DESCRIPTION="Iterable processing functions"
 
 HOMEPAGE="https://github.com/sixty-north/les_iterables"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/42/e4/68c9c69d7ead167526f6be52c588e46d9abce16f676661cb9fe043fd3808/les_iterables-${REALVERSION}.tar.gz"
-SOURCEFILE="les_iterables-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/42/e4/68c9c69d7ead167526f6be52c588e46d9abce16f676661cb9fe043fd3808/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

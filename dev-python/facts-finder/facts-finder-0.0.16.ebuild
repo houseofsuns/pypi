@@ -15,8 +15,8 @@ DESCRIPTION="facts_finder for Networking Geeks"
 
 HOMEPAGE="https://github.com/alias1978/facts_finder"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/03/ab/f366fd64a263fc9560c37a6c51a937125131b930d0d70fe628eaa736e4a4/facts_finder-${REALVERSION}.tar.gz"
-SOURCEFILE="facts_finder-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/03/ab/f366fd64a263fc9560c37a6c51a937125131b930d0d70fe628eaa736e4a4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

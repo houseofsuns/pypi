@@ -15,8 +15,8 @@ DESCRIPTION="A PEP 518 build backend that uses setuptools_scm to generate a vers
 
 HOMEPAGE="https://gitlab.com/WillDaSilva/flit_scm"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e2/99/961b062461652435b6ad9042d2ffdd75e327b36936987c2073aa784334d5/flit_scm-${REALVERSION}.tar.gz"
-SOURCEFILE="flit_scm-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e2/99/961b062461652435b6ad9042d2ffdd75e327b36936987c2073aa784334d5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

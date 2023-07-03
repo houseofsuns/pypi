@@ -15,8 +15,8 @@ DESCRIPTION="A package for manipulating xyz files and chemical structures"
 
 HOMEPAGE="https://gitlab.com/jonkragskow/xyz_py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fa/c6/1222f07f464b7ad6280b2be33d4db5d7f29cb43bd99256cc57ac23079481/xyz_py-${REALVERSION}.tar.gz"
-SOURCEFILE="xyz_py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fa/c6/1222f07f464b7ad6280b2be33d4db5d7f29cb43bd99256cc57ac23079481/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

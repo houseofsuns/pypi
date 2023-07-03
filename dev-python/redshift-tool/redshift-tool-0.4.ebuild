@@ -15,8 +15,8 @@ DESCRIPTION="Elegant data load from Pandas to Redshift"
 
 HOMEPAGE="http://github.com/mkgiitr/redshift_tool"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/32/95/e2a68463b8a4e6e0cfef02a18ba832cbc3df55afafe022dea8730f0b7306/redshift_tool-${REALVERSION}.tar.gz"
-SOURCEFILE="redshift_tool-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/32/95/e2a68463b8a4e6e0cfef02a18ba832cbc3df55afafe022dea8730f0b7306/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

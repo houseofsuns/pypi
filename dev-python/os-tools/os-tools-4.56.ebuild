@@ -15,8 +15,8 @@ DESCRIPTION="py tools for os"
 
 HOMEPAGE="https://github.com/osfunapps/os-tools-py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ec/30/20cab8512a092f4087026c08d7e003e7118c6f0775f08aa3667c30f7266c/os_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="os_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ec/30/20cab8512a092f4087026c08d7e003e7118c6f0775f08aa3667c30f7266c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

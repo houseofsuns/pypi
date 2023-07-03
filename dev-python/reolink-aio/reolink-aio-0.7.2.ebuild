@@ -15,8 +15,8 @@ DESCRIPTION="Reolink NVR/cameras API package"
 
 HOMEPAGE="https://github.com/starkillerOG/reolink_aio"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ba/1f/6e686836fa32ab9dc3c14cb49d38f876350ebf49e612e02848d93061581e/reolink_aio-${REALVERSION}.tar.gz"
-SOURCEFILE="reolink_aio-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ba/1f/6e686836fa32ab9dc3c14cb49d38f876350ebf49e612e02848d93061581e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

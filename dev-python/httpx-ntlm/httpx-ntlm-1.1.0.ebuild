@@ -15,8 +15,8 @@ DESCRIPTION="This package allows for HTTP NTLM authentication using the HTTPX li
 
 HOMEPAGE="https://github.com/ulodciv/httpx-ntlm"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/bc/03/0382fcd7106c8354e96f94b3f28b0ffaee9a49b9a6c54510012a635db929/httpx_ntlm-${REALVERSION}.tar.gz"
-SOURCEFILE="httpx_ntlm-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bc/03/0382fcd7106c8354e96f94b3f28b0ffaee9a49b9a6c54510012a635db929/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

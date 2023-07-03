@@ -15,8 +15,8 @@ DESCRIPTION="Tree queries with explicit opt-in, without configurability"
 
 HOMEPAGE="https://github.com/matthiask/django-tree-queries/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/77/2d/110d293f286e6c85c28da95bb753251259245217ac7986af3875ce51ae1f/django_tree_queries-${REALVERSION}.tar.gz"
-SOURCEFILE="django_tree_queries-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/77/2d/110d293f286e6c85c28da95bb753251259245217ac7986af3875ce51ae1f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

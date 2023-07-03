@@ -15,8 +15,8 @@ DESCRIPTION="Generate UI interactive API's from APISpec specifications."
 
 HOMEPAGE="https://github.com/codectl/apispec-ui"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cb/20/0a8dbfc4778787285396595566bb499f4a6b7caa0ddc1bebc3c1ca8394da/apispec_ui-${REALVERSION}.tar.gz"
-SOURCEFILE="apispec_ui-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cb/20/0a8dbfc4778787285396595566bb499f4a6b7caa0ddc1bebc3c1ca8394da/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

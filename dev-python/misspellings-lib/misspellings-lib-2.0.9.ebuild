@@ -15,8 +15,8 @@ DESCRIPTION="A tool to detect misspellings with opinionated additions"
 
 HOMEPAGE="https://github.com/mazulo/misspelling"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1e/8a/9cd4358c90116addbc385a4568001bbec2433c21ef9fd567bf5f75571251/misspellings_lib-${REALVERSION}.tar.gz"
-SOURCEFILE="misspellings_lib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1e/8a/9cd4358c90116addbc385a4568001bbec2433c21ef9fd567bf5f75571251/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

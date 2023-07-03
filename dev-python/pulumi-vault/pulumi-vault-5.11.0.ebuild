@@ -15,8 +15,8 @@ DESCRIPTION="A Pulumi package for creating and managing HashiCorp Vault cloud re
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/6a/22/cb0e7aa26c7ae43242224d965238e9c8d5c559ba04c1304630c5c3f7b0d3/pulumi_vault-${REALVERSION}.tar.gz"
-SOURCEFILE="pulumi_vault-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6a/22/cb0e7aa26c7ae43242224d965238e9c8d5c559ba04c1304630c5c3f7b0d3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="With this you can extract all zip , tar ,tar.gz files which can fur
 
 HOMEPAGE="https://github.com/ayush571995/Extract_zip"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b3/de/85f890d6ed1fb3bc917e49b4a0ede98c5bc083d0d66e2fb049359b5062b6/extract_zip-${REALVERSION}.tar.gz"
-SOURCEFILE="extract_zip-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b3/de/85f890d6ed1fb3bc917e49b4a0ede98c5bc083d0d66e2fb049359b5062b6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

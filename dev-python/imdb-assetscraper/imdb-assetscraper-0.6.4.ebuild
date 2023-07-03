@@ -15,8 +15,8 @@ DESCRIPTION="imdb_assetscraper"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/54/3e/212f72cdb9cfe8f61dbe3dda746281df5f2d0f786432147d9281b47c3537/imdb_assetscraper-${REALVERSION}.tar.gz"
-SOURCEFILE="imdb_assetscraper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/54/3e/212f72cdb9cfe8f61dbe3dda746281df5f2d0f786432147d9281b47c3537/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

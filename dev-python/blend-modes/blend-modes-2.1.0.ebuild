@@ -15,8 +15,8 @@ DESCRIPTION="Image processing blend modes"
 
 HOMEPAGE="https://github.com/flrs/blend_modes"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b4/00/61401b0ef3a1e58e2ba305292fef3fc043be4eff0162138e67d9b9fc77de/blend_modes-${REALVERSION}.tar.gz"
-SOURCEFILE="blend_modes-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b4/00/61401b0ef3a1e58e2ba305292fef3fc043be4eff0162138e67d9b9fc77de/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Apache Airflow code editor and file manager"
 
 HOMEPAGE="https://github.com/andreax79/airflow-code-editor"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/2c/ff/df7b3e6c51cfbd69aba9f97f9ad2caa97ebcf0fd5bb3bc6c1f01c76ed481/airflow_code_editor-${REALVERSION}.tar.gz"
-SOURCEFILE="airflow_code_editor-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2c/ff/df7b3e6c51cfbd69aba9f97f9ad2caa97ebcf0fd5bb3bc6c1f01c76ed481/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A wrapper for creating model classes using Google's Cloud Firestore
 
 HOMEPAGE="https://gitlab.com/futureprojects/firestore-model"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/99/f1/7f6eeddb70f28b348c47826fcb47c843798664edebb6e2e228c59c5c1423/firestore_model-${REALVERSION}.tar.gz"
-SOURCEFILE="firestore_model-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/99/f1/7f6eeddb70f28b348c47826fcb47c843798664edebb6e2e228c59c5c1423/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

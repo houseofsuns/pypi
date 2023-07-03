@@ -15,8 +15,8 @@ DESCRIPTION="A module for developing data pipelines from external api's and on E
 
 HOMEPAGE="http://github.com/RingierIMU/sdc-dataPipeline-helpers"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e1/5a/b9bde7c4b0a31c91c5860e3bb6b646c331c8919cbbcbbd42b054b6c6ca54/sdc_dp_helpers-${REALVERSION}.tar.gz"
-SOURCEFILE="sdc_dp_helpers-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e1/5a/b9bde7c4b0a31c91c5860e3bb6b646c331c8919cbbcbbd42b054b6c6ca54/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

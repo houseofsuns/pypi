@@ -15,8 +15,8 @@ DESCRIPTION="Common code for feed"
 
 HOMEPAGE="https://github.com/rorymcstay/feed_utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/94/35/cfc3aefa8b89258fedb6c75b8f9fb9c1dad1b41cc9b7f27c13297fc1337e/feed_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="feed_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/94/35/cfc3aefa8b89258fedb6c75b8f9fb9c1dad1b41cc9b7f27c13297fc1337e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

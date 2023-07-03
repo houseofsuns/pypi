@@ -15,8 +15,8 @@ DESCRIPTION="SDK for creating ISCCs (International Standard Content Codes)"
 
 HOMEPAGE="https://sdk.iscc.codes"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/9f/f9/fd5743ad90869fb85b38fb230a37df72baa1db68e588ac1e66729dbc321b/iscc_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="iscc_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9f/f9/fd5743ad90869fb85b38fb230a37df72baa1db68e588ac1e66729dbc321b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

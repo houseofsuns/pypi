@@ -15,8 +15,8 @@ DESCRIPTION="Amazon Advertising SDK"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cc/89/e096706d7a42b137187663f3eccb46257abea8a5e9a97e8c81b0f56882a5/amazon_ad_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="amazon_ad_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cc/89/e096706d7a42b137187663f3eccb46257abea8a5e9a97e8c81b0f56882a5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

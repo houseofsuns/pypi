@@ -15,8 +15,8 @@ DESCRIPTION="Python common code base to control devices high voltage research de
 
 HOMEPAGE="https://gitlab.com/ethz_hvl/hvl_ccb/"
 LICENSE="GNU General Public License v3"
-SRC_URI="https://files.pythonhosted.org/packages/b3/bc/ba32eb0fc26fccaf3077442bdc92f7ad85b97835b2bb3030e8985a78a5d1/hvl_ccb-${REALVERSION}.tar.gz"
-SOURCEFILE="hvl_ccb-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b3/bc/ba32eb0fc26fccaf3077442bdc92f7ad85b97835b2bb3030e8985a78a5d1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="API plugin  for CDCI online data analysis"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/82/ff/9d91a101070c7e039c7bcd3a5450c68f7ad4117b999df26534e491187d6f/oda_api-${REALVERSION}.tar.gz"
-SOURCEFILE="oda_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/82/ff/9d91a101070c7e039c7bcd3a5450c68f7ad4117b999df26534e491187d6f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

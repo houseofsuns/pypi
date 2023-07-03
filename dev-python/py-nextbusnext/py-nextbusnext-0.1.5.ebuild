@@ -15,8 +15,8 @@ DESCRIPTION="Minimalistic Python client for the NextBus public API for real-time
 
 HOMEPAGE="https://github.com/vividboarder/py_nextbus"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/69/da/e281cc2e658521c87cb3258b569d2f3094808dc59810c5c9bdf412ebf6b1/py_nextbusnext-${REALVERSION}.tar.gz"
-SOURCEFILE="py_nextbusnext-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/69/da/e281cc2e658521c87cb3258b569d2f3094808dc59810c5c9bdf412ebf6b1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A Python package that provides customized docstring inheritance    
 
 HOMEPAGE="https://github.com/rsokl/custom_inherit"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/22/fa/c4619d463cb76d88ffc383c2115883219efffa55e7ecd0ff972cd0034f29/custom_inherit-${REALVERSION}.tar.gz"
-SOURCEFILE="custom_inherit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/22/fa/c4619d463cb76d88ffc383c2115883219efffa55e7ecd0ff972cd0034f29/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

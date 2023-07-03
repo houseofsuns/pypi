@@ -15,8 +15,8 @@ DESCRIPTION="A Python package for interacting with the Rubrik CDM API."
 
 HOMEPAGE="https://github.com/rubrik-devops/rubrik-sdk-for-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c1/ce/4e2cf1f75ecd532409930a0374483b2922c3a541cd714e526505fa43847b/rubrik_cdm-${REALVERSION}.tar.gz"
-SOURCEFILE="rubrik_cdm-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c1/ce/4e2cf1f75ecd532409930a0374483b2922c3a541cd714e526505fa43847b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

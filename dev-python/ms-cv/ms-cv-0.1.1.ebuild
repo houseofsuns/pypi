@@ -15,8 +15,8 @@ DESCRIPTION="A correlation vector implementation in python"
 
 HOMEPAGE="https://github.com/OpenXbox/ms_cv"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1c/e0/581b746c4b26aa0fac038fc300c6ec8b70c2a2837860bb08c4307cba9673/ms_cv-${REALVERSION}.tar.gz"
-SOURCEFILE="ms_cv-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1c/e0/581b746c4b26aa0fac038fc300c6ec8b70c2a2837860bb08c4307cba9673/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

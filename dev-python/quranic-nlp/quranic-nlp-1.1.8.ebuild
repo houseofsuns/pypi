@@ -15,8 +15,8 @@ DESCRIPTION="quarnic nlp"
 
 HOMEPAGE="https://github.com/language-ml/hadith-quranic_nlp/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/08/5e/a12d20587ad5b7f039ded5d9489e4be76d6de68c53d365c07260b6e4a732/quranic_nlp-${REALVERSION}.tar.gz"
-SOURCEFILE="quranic_nlp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/08/5e/a12d20587ad5b7f039ded5d9489e4be76d6de68c53d365c07260b6e4a732/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

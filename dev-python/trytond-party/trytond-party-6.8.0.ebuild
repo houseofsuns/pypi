@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module with parties and addresses"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/1b/3a/9eaee94e05b75f53b58308dc1f6fdce99d0d354922d95759645e9b847c57/trytond_party-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_party-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1b/3a/9eaee94e05b75f53b58308dc1f6fdce99d0d354922d95759645e9b847c57/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

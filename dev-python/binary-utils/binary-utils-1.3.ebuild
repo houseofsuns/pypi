@@ -15,8 +15,8 @@ DESCRIPTION="Podrum's Binary Utilities."
 
 HOMEPAGE="https://github.com/Podrum/binary_utils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f8/6f/4205f1df23534d845c613d09ec6a76fb5e4994fc746a02bca7da54804ae4/binary_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="binary_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f8/6f/4205f1df23534d845c613d09ec6a76fb5e4994fc746a02bca7da54804ae4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

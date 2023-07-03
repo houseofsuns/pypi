@@ -15,8 +15,8 @@ DESCRIPTION="Python package to create shellcdoes from elfs supported arch (mips,
 
 HOMEPAGE="https://github.com/jonatanSh/elf_to_shellcode"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/25/11/7bbc0bde9738c88511b6a93b74be4825dddbcbf41c472e940aac860fb8ec/elf_to_shellcode-${REALVERSION}.tar.gz"
-SOURCEFILE="elf_to_shellcode-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/25/11/7bbc0bde9738c88511b6a93b74be4825dddbcbf41c472e940aac860fb8ec/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Open source library for creating MXNet containers for serving on Sa
 
 HOMEPAGE="https://github.com/aws/sagemaker-mxnet-inference-toolkit"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/38/2c/4b4bc436809e04ce84f6043295fe45f5179e3bb678e76ccfcf2c5bc55aa1/sagemaker_mxnet_inference-${REALVERSION}.tar.gz"
-SOURCEFILE="sagemaker_mxnet_inference-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/38/2c/4b4bc436809e04ce84f6043295fe45f5179e3bb678e76ccfcf2c5bc55aa1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

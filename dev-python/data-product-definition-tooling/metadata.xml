@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Data Product Definitions toolingTools for managing Data Product definitions# Installation```shellpoetry install```# Usage```shellpoetry run converter --help# run testspoetry run invoke test# release a new version (after bumping it in pyproject.toml)poetry run invoke release```## Pre-commit hooks```yamlrepos:  - repo: https://github.com/ioxio-dataspace/data-product-definition-tooling    rev: main # You probably want to lock this to a specific tag    hooks:      - id: data-product-definition-converter        files: &quot;src/.*py$&quot;        args: [&quot;src&quot;, &quot;dest&quot;]```</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="A Python DSL for bioinformatics pipelines"
 
 HOMEPAGE="https://github.com/calculs-ca/DryPipe"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/69/26/fb032808b3d328df96ecd899c5024a10926195386bcbd5cc4f750b805a53/dry_pipe-${REALVERSION}.tar.gz"
-SOURCEFILE="dry_pipe-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/69/26/fb032808b3d328df96ecd899c5024a10926195386bcbd5cc4f750b805a53/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

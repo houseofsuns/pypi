@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># File ManagersA Python Package to manage your files and folders easily in different ways[![Release](https://github.com/MusfiqDehan/file-managers/actions/workflows/release.yml/badge.svg)](https://github.com/MusfiqDehan/file-managers/actions/workflows/release.yml)[![Update Changelog](https://github.com/MusfiqDehan/file-managers/actions/workflows/changelog.yml/badge.svg)](https://github.com/MusfiqDehan/file-managers/actions/workflows/changelog.yml)## Quick Install```pip3 install file-managers```</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="Helpers for Rockefeller Archive Center's Elasticsearch implementati
 
 HOMEPAGE="http://github.com/RockefellerArchiveCenter/rac_es"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/72/54/8208ff5fd1ebde2711b9d25a4dba7ca4d94496a7733f7eb3cb0e6be22240/rac_es-${REALVERSION}.tar.gz"
-SOURCEFILE="rac_es-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/72/54/8208ff5fd1ebde2711b9d25a4dba7ca4d94496a7733f7eb3cb0e6be22240/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;p align=&quot;center&quot;&gt;  &lt;img width=&quot;64&quot; src=&quot;https://avatars2.githubusercontent.com/u/22204821?s=200&amp;v=4&quot; alt=&quot;Rehive Logo&quot;&gt;  &lt;h1 align=&quot;center&quot;&gt;DRF Rehive Extras&lt;/h1&gt;  &lt;p align=&quot;center&quot;&gt;Extra utilities for using Django REST Framework.&lt;/p&gt;&lt;/p&gt;## Features- Python &gt;= 3.6- Django &gt;= 3.0- Generic views and mixins for all CRUD.- Custom pagination that supports cursor and page based pagination.- Integrated support for flex fields and django filters.- Base serializers.- Metadata, timestamp and enum serializer fields.## Getting started1. Install the package:```shpip install drf-rehive-extras```2. Add &quot;drf_rehive_extras&quot; to your INSTALLED_APPS settings like this:```pythonINSTALLED_APPS = [    ...    'drf_rehive_extras',]```</longdescription>
+</pkgmetadata>

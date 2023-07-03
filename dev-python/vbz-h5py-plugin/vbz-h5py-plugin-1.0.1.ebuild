@@ -15,8 +15,8 @@ DESCRIPTION="Oxford Nanopore Technologies VBZ HDF plugin for h5py"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/22/43/feb5016ab64d83f5a9cd0baa3da1f62c17a42764f44375fa59dbd576f6a0/vbz_h5py_plugin-${REALVERSION}.tar.gz"
-SOURCEFILE="vbz_h5py_plugin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/22/43/feb5016ab64d83f5a9cd0baa3da1f62c17a42764f44375fa59dbd576f6a0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

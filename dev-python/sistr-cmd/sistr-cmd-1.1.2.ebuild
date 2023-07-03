@@ -15,8 +15,8 @@ DESCRIPTION="Serovar predictions from Salmonella whole-genome sequence assemblie
 
 HOMEPAGE="https://github.com/phac-nml/sistr_cmd"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/1d/55/5155a4611e85639298992c5374a83c247ed74f6eb6dd5c55267996b43e81/sistr_cmd-${REALVERSION}.tar.gz"
-SOURCEFILE="sistr_cmd-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1d/55/5155a4611e85639298992c5374a83c247ed74f6eb6dd5c55267996b43e81/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

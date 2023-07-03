@@ -15,8 +15,8 @@ DESCRIPTION="Convenience package for parallelized hyperparameter optimization (e
 
 HOMEPAGE="https://github.com/nick2202/ts-hyperparam-opt"
 LICENSE="MIT License  Copyright c 2023 nick2202  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files the Software, to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:  The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.  THE SOFTWARE IS PROVIDED AS IS, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. "
-SRC_URI="https://files.pythonhosted.org/packages/5e/30/1ee04080e66c8682dc3729098ad7eb85b898a948cd90a317844936873685/ts_hyperparam_opt-${REALVERSION}.tar.gz"
-SOURCEFILE="ts_hyperparam_opt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5e/30/1ee04080e66c8682dc3729098ad7eb85b898a948cd90a317844936873685/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

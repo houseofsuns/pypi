@@ -15,8 +15,8 @@ DESCRIPTION="A plugin for PDM providing the ability to modify the version accord
 
 HOMEPAGE="https://github.com/carstencodes/pdm-bump"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5f/2d/2034266cffc2e5785f703d4d3455f897003e3ab61d1590afeb5644496a1a/pdm_bump-${REALVERSION}.tar.gz"
-SOURCEFILE="pdm_bump-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5f/2d/2034266cffc2e5785f703d4d3455f897003e3ab61d1590afeb5644496a1a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

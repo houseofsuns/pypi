@@ -15,8 +15,8 @@ DESCRIPTION="the blessed package to manage your versions by scm tags"
 
 HOMEPAGE="https://github.com/pypa/setuptools_scm/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/98/12/2c1e579bb968759fc512391473340d0661b1a8c96a59fb7c65b02eec1321/setuptools_scm-${REALVERSION}.tar.gz"
-SOURCEFILE="setuptools_scm-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/98/12/2c1e579bb968759fc512391473340d0661b1a8c96a59fb7c65b02eec1321/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

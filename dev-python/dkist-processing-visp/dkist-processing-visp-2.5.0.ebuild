@@ -15,8 +15,8 @@ DESCRIPTION="Science processing code for the ViSP instrument on DKIST"
 
 HOMEPAGE="https://bitbucket.org/dkistdc/dkist-processing-visp/src/main/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f4/e9/3df25f715c4219729f25cf339e5763b8192fefc132a223092ea2eb7e3112/dkist_processing_visp-${REALVERSION}.tar.gz"
-SOURCEFILE="dkist_processing_visp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f4/e9/3df25f715c4219729f25cf339e5763b8192fefc132a223092ea2eb7e3112/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

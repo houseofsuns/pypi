@@ -15,8 +15,8 @@ DESCRIPTION="RESTful API for Deciphon scheduler"
 
 HOMEPAGE="https://github.com/EBI-Metagenomics/deciphon-api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8f/03/430a15ef277d12c5ae71fc3e98495777fe296f96cf017ef52753c4de34eb/deciphon_api-${REALVERSION}.tar.gz"
-SOURCEFILE="deciphon_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8f/03/430a15ef277d12c5ae71fc3e98495777fe296f96cf017ef52753c4de34eb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/62/d2/7f6edfeff062a4cb89df34d9105d13feaeca2ea04a9acf6d6515a65e7ca0/shared_dependencies-${REALVERSION}.tar.gz"
-SOURCEFILE="shared_dependencies-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/62/d2/7f6edfeff062a4cb89df34d9105d13feaeca2ea04a9acf6d6515a65e7ca0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

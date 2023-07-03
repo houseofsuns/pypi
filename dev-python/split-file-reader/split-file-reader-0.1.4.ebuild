@@ -15,8 +15,8 @@ DESCRIPTION="A package to read parted files on disk."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/97/02/eda254e6828ba5165bb5ad3ff3ba679ded1c700b5fa4a806d52ff7b51701/split_file_reader-${REALVERSION}.tar.gz"
-SOURCEFILE="split_file_reader-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/97/02/eda254e6828ba5165bb5ad3ff3ba679ded1c700b5fa4a806d52ff7b51701/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

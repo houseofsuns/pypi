@@ -15,8 +15,8 @@ DESCRIPTION="Pydantic lambda handler modelled on FastAPI"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e3/b3/83606375914fa1aad6c2e631e528f935f6f0acb3cab8f3566f7919ce3920/pydantic_lambda_handler-${REALVERSION}.tar.gz"
-SOURCEFILE="pydantic_lambda_handler-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e3/b3/83606375914fa1aad6c2e631e528f935f6f0acb3cab8f3566f7919ce3920/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Yet Another Keypress Handler"
 
 HOMEPAGE="https://github.com/petereon/yakh"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bd/9a/20919fc5d265a568cb59223887326cdaf5b8d983dc0639d2b0b3dfdf59ca/python_yakh-${REALVERSION}.tar.gz"
-SOURCEFILE="python_yakh-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bd/9a/20919fc5d265a568cb59223887326cdaf5b8d983dc0639d2b0b3dfdf59ca/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

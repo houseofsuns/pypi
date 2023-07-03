@@ -15,8 +15,8 @@ DESCRIPTION="Joulescope™ driver"
 
 HOMEPAGE="https://joulescope.readthedocs.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/90/ae/155517c2fed5a19f9cf5a95518f5bb3830e2537379387026a59a42970787/pyjoulescope_driver-${REALVERSION}.tar.gz"
-SOURCEFILE="pyjoulescope_driver-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/90/ae/155517c2fed5a19f9cf5a95518f5bb3830e2537379387026a59a42970787/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

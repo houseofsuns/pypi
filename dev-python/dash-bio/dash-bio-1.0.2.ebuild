@@ -15,8 +15,8 @@ DESCRIPTION="Dash components for bioinformatics"
 
 HOMEPAGE="http://github.com/plotly/dash-bio"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7e/eb/5f12d4b0b91974e2457aaf344230010488453edadffb9e5c241eb9f02d34/dash_bio-${REALVERSION}.tar.gz"
-SOURCEFILE="dash_bio-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7e/eb/5f12d4b0b91974e2457aaf344230010488453edadffb9e5c241eb9f02d34/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

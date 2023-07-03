@@ -15,8 +15,8 @@ DESCRIPTION="up_enhsp"
 
 HOMEPAGE=""
 LICENSE="APACHE"
-SRC_URI="https://files.pythonhosted.org/packages/78/2d/0974b9b6175f234b93fda39cc63b0ca1ee65eb14e97589bc10a397b8ed0e/up_enhsp-${REALVERSION}.tar.gz"
-SOURCEFILE="up_enhsp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/78/2d/0974b9b6175f234b93fda39cc63b0ca1ee65eb14e97589bc10a397b8ed0e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

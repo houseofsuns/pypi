@@ -15,8 +15,8 @@ DESCRIPTION="Static Python code analyzer, that tries to check if functions in co
 
 HOMEPAGE="https://github.com/best-doctor/mr_proper"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e3/35/a50ba9e3097ee0d71232c996c626a17f80424140b365122c8f1bc9933118/mr_proper-${REALVERSION}.tar.gz"
-SOURCEFILE="mr_proper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e3/35/a50ba9e3097ee0d71232c996c626a17f80424140b365122c8f1bc9933118/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

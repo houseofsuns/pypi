@@ -15,8 +15,8 @@ DESCRIPTION="TypedDict typings for OpenAPI specification"
 
 HOMEPAGE="http://github.com/unmock/openapi-typed"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c4/4d/e1857d0c7881bacc0c4fdae2e6e7cb5ab49065d7eb0b8fc83f3c81a432a9/openapi_typed-${REALVERSION}.tar.gz"
-SOURCEFILE="openapi_typed-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c4/4d/e1857d0c7881bacc0c4fdae2e6e7cb5ab49065d7eb0b8fc83f3c81a432a9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

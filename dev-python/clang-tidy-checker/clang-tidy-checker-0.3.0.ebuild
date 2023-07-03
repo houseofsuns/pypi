@@ -15,8 +15,8 @@ DESCRIPTION="Tool to check C / C++ source codes using clang-tidy."
 
 HOMEPAGE="https://gitlab.com/MusicScience37Projects/tools/clang-tidy-checker"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c2/eb/846a805476154c518c18751864da6e20b36ddcd42a0038d53d0f4256e7e3/clang_tidy_checker-${REALVERSION}.tar.gz"
-SOURCEFILE="clang_tidy_checker-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c2/eb/846a805476154c518c18751864da6e20b36ddcd42a0038d53d0f4256e7e3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

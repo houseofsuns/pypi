@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;div align=&quot;center&quot;&gt;&lt;h1&gt;Somnium&lt;/h1&gt;Create beautiful artwork using the power of AI&lt;br/&gt;&lt;br/&gt;&lt;img src=&quot;https://static.pepy.tech/personalized-badge/somnium?period=total&amp;amp;units=none&amp;amp;left_color=black&amp;amp;right_color=blue&amp;amp;left_text=Total Downloads&quot; alt=&quot;Downloads&quot;&gt;&lt;/div&gt;&lt;h2&gt;Installation:&lt;/h2&gt;```bash&gt;&gt;&gt; python3 -m pip install somnium```&lt;h2&gt;Examples:&lt;/h2&gt;&lt;h3&gt;somnium:&lt;/h3&gt;```pythonfrom somnium import Somnium# Get Styles (url)print(Somnium.StylesGraph())# Get Styles (list)print(Somnium.Styles())# Generate Artworkprint(Somnium.Generate('Hunter Schafer', 2009))```&lt;h3&gt;somnium.sync:&lt;/h3&gt;```pythonimport asynciofrom somnium.sync import Somniumasync def my_test():    # Get Styles (url)    print(await Somnium.StylesGraph())    # Get Styles (list)    print(await Somnium.Styles())    # Generate Artwork    print(await Somnium.Generate('Hunter Schafer', 2009))    asyncio.run(my_test())```</longdescription>
+</pkgmetadata>

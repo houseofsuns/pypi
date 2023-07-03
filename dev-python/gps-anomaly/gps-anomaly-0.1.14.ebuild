@@ -15,8 +15,8 @@ DESCRIPTION="Detecet and Remove GPS anomalies points"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/52/82/4827907185222f44d71c3edfec4eb4651317f24e6d99eaf4bd26ca7456a7/gps_anomaly-${REALVERSION}.tar.gz"
-SOURCEFILE="gps_anomaly-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/52/82/4827907185222f44d71c3edfec4eb4651317f24e6d99eaf4bd26ca7456a7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

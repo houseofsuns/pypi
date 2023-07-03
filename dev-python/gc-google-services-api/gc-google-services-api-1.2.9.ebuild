@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/70/ca/38ac8f2061615afa8f6d6e345298b97737a307dd4e9c0bf1c76d0630b1c7/gc_google_services_api-${REALVERSION}.tar.gz"
-SOURCEFILE="gc_google_services_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/70/ca/38ac8f2061615afa8f6d6e345298b97737a307dd4e9c0bf1c76d0630b1c7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

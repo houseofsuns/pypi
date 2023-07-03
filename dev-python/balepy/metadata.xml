@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># balepy&gt; balepy Library Python for create bot API in bale application=&gt; Install and Update:```pythonpip install -U balepy```=&gt; START&gt; doc: github.com/onlyrad/balepy&lt;hr&gt;# Social Media:### Rubika: @TheLinux### Rubika: @Tommy969</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="project descriptions here"
 
 HOMEPAGE="https://console.cloud.baidu-int.com/devops/icode/repos/baidu/themis/windmill-endpoint/tree/master"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a6/ea/bb4856ab64fff8221e14e176a93658c25ef2043b0add99563842aecf9bd1/data_capture-${REALVERSION}.tar.gz"
-SOURCEFILE="data_capture-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a6/ea/bb4856ab64fff8221e14e176a93658c25ef2043b0add99563842aecf9bd1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Django app that manages the creation of, and proxies requests to, D
 
 HOMEPAGE="https://github.com/refinery-platform/django_docker_engine/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a6/54/f53de02c8df2061fa99c07319edf9a3763a5d81688d22330a3190f67a6ac/django_docker_engine-${REALVERSION}.tar.gz"
-SOURCEFILE="django_docker_engine-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a6/54/f53de02c8df2061fa99c07319edf9a3763a5d81688d22330a3190f67a6ac/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Type annotations for LibreOffice API"
 
 HOMEPAGE="https://github.com/Amourspirit/python-types-unopy"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/67/3b/d4e0e052aed661c35ded4935d6e3ac5adee833bed6c8b88714006e64f362/types_unopy-${REALVERSION}.tar.gz"
-SOURCEFILE="types_unopy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/67/3b/d4e0e052aed661c35ded4935d6e3ac5adee833bed6c8b88714006e64f362/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

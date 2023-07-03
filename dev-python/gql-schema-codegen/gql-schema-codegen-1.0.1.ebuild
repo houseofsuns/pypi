@@ -15,8 +15,8 @@ DESCRIPTION="A module to generate Python typings from a GrapqhQL schema"
 
 HOMEPAGE="https://github.com/sauldom102/gql_schema_codegen"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2d/3e/2336f3a3d6faa3ef975abb5ecccdc999c4670ebb3dca3e52ed346be3aff6/gql_schema_codegen-${REALVERSION}.tar.gz"
-SOURCEFILE="gql_schema_codegen-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2d/3e/2336f3a3d6faa3ef975abb5ecccdc999c4670ebb3dca3e52ed346be3aff6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

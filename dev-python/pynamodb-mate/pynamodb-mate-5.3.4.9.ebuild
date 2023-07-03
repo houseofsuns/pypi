@@ -15,8 +15,8 @@ DESCRIPTION="Provide Additional Features for pynamodb."
 
 HOMEPAGE="https://github.com/MacHu-GWU/pynamodb_mate-project"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6a/9a/818108585fb7980f6545e1c49af5471013b2635d110a62d0a2e41a9b9b67/pynamodb_mate-${REALVERSION}.tar.gz"
-SOURCEFILE="pynamodb_mate-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6a/9a/818108585fb7980f6545e1c49af5471013b2635d110a62d0a2e41a9b9b67/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

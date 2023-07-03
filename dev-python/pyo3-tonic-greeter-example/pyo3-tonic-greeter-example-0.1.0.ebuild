@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b7/7c/dcdbf5a2eb478e0c07e3cffe791fc62280a2ad509b1cf032271d1ede9e00/pyo3_tonic_greeter_example-${REALVERSION}.tar.gz"
-SOURCEFILE="pyo3_tonic_greeter_example-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b7/7c/dcdbf5a2eb478e0c07e3cffe791fc62280a2ad509b1cf032271d1ede9e00/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

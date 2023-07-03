@@ -15,8 +15,8 @@ DESCRIPTION="A simple package to clean Jupyter notebooks"
 
 HOMEPAGE="https://github.com/hoxbro/clean_notebook"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/62/28/ba0c8f7e69196a9b490523bdaebe98d28693b27db50f33227e54c7e7d396/clean_notebook-${REALVERSION}.tar.gz"
-SOURCEFILE="clean_notebook-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/62/28/ba0c8f7e69196a9b490523bdaebe98d28693b27db50f33227e54c7e7d396/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Removal of outliers using pandas"
 
 HOMEPAGE="https://github.com/NishantDhanda/101703375_p2/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2a/ac/3ca87862916678a51ec69657ebfae7f4d604537c712dc84f98edeb174be7/101703375_p2-${REALVERSION}.tar.gz"
-SOURCEFILE="101703375_p2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2a/ac/3ca87862916678a51ec69657ebfae7f4d604537c712dc84f98edeb174be7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

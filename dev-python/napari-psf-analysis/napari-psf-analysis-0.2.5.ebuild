@@ -15,8 +15,8 @@ DESCRIPTION="A plugin to analyse point spread functions (PSFs)."
 
 HOMEPAGE="https://github.com/fmi-faim/napari-psf-analysis.git"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/04/77/59e3de6bf3e132e1a40afc47258d9772e655ca9ae785d5535b6291ed1f92/napari_psf_analysis-${REALVERSION}.tar.gz"
-SOURCEFILE="napari_psf_analysis-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/04/77/59e3de6bf3e132e1a40afc47258d9772e655ca9ae785d5535b6291ed1f92/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

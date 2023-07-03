@@ -15,8 +15,8 @@ DESCRIPTION="Onedrive provider"
 
 HOMEPAGE="https://github.com/atakamallc/cloudsync-onedrive"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/14/69/9f37fb73c39ed87f38e3cddd2b6a902c8ccb4c02585b4909872243e0f74d/cloudsync_onedrive-${REALVERSION}.tar.gz"
-SOURCEFILE="cloudsync_onedrive-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/14/69/9f37fb73c39ed87f38e3cddd2b6a902c8ccb4c02585b4909872243e0f74d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

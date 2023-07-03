@@ -15,8 +15,8 @@ DESCRIPTION="Integrate amqp into guillotina"
 
 HOMEPAGE="https://github.com/guillotinaweb/guillotina_amqp"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/f3/e7/16fd710fada9470b6a16dc10ca392d712f55a698a220a30ca308a8ee47d1/guillotina_amqp-${REALVERSION}.tar.gz"
-SOURCEFILE="guillotina_amqp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f3/e7/16fd710fada9470b6a16dc10ca392d712f55a698a220a30ca308a8ee47d1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

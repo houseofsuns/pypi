@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Python 3 modules for accessing .dbf files------------------------------------------Port to Python 3 and released at PyPi by Frank Xu.### Features* Support FoxPro* Support memo* Code page### TODO* Write test* dBase compatible### InstallRun `pip install dbfpy3`---### NOT FULLY TEST YET### USE AT YOUR OWN RISK### NO WARRANTIES WHATSOEVER---steelywing &lt;https://github.com/steelywing/dbfpy&gt;Jeff Kunce &lt;kuncej@mail.conservation.state.mo.us&gt;Hans Fiby &lt;hans@fiby.at&gt;Frank Xu &lt;https://github.com/frankyxhl/dbfpy3&gt;Zdeněk Böhm &lt;https://github.com/zbohm&gt;=======History=======0.1.0 (2020-12-26)------------------* First release on PyPI.</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="The official python SDK for Linode API v4"
 
 HOMEPAGE="https://github.com/linode/linode_api4-python"
 LICENSE="BSD 3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/8f/97/378fed13763228ae170825015380f683c6a44f7fd9a8b13ab42d61b19b00/linode_api4-${REALVERSION}.tar.gz"
-SOURCEFILE="linode_api4-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8f/97/378fed13763228ae170825015380f683c6a44f7fd9a8b13ab42d61b19b00/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

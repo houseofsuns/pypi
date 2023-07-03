@@ -15,8 +15,8 @@ DESCRIPTION="A wrapper for running your Python web application using Twisted in 
 
 HOMEPAGE="https://github.com/coderanger/kubernetes-wsgi"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/2f/e9/59c46ddaf8144334e81657fb36b0df330416b1a74e4b90c8c73e79e95f92/kubernetes_wsgi-${REALVERSION}.tar.gz"
-SOURCEFILE="kubernetes_wsgi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2f/e9/59c46ddaf8144334e81657fb36b0df330416b1a74e4b90c8c73e79e95f92/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

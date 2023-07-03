@@ -15,8 +15,8 @@ DESCRIPTION="Parser for iBeacon devices"
 
 HOMEPAGE="https://github.com/bluetooth-devices/ibeacon-ble"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/39/69/2c69372cf48dc92643a1c8a5cc1d02e682f71ee84e2e701e9398d12f2250/ibeacon_ble-${REALVERSION}.tar.gz"
-SOURCEFILE="ibeacon_ble-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/39/69/2c69372cf48dc92643a1c8a5cc1d02e682f71ee84e2e701e9398d12f2250/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

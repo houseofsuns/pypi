@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f4/28/7734f93d911317422960a051c6a70e6a5f23f85298a3c877702d19bcd8dd/watchmen_pipeline_kernel-${REALVERSION}.tar.gz"
-SOURCEFILE="watchmen_pipeline_kernel-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f4/28/7734f93d911317422960a051c6a70e6a5f23f85298a3c877702d19bcd8dd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>.. image:: https://badge.fury.io/py/galaxy-web-framework.svg   :target: https://pypi.org/project/galaxy-web-framework/Overview--------The Galaxy_ web framework.* Code: https://github.com/galaxyproject/galaxy.. _Galaxy: http://galaxyproject.org/History-------.. to_doc-------------------23.0.4 (2023-06-30)-------------------No recorded changes since last release-------------------23.0.3 (2023-06-26)-------------------No recorded changes since last release-------------------23.0.2 (2023-06-13)-------------------No recorded changes since last release-------------------23.0.1 (2023-06-08)-------------------=========Bug fixes=========* Various fixes to path prefix handling by `@mvdbeek &lt;https://github.com/mvdbeek&gt;`_ in `#16033 &lt;https://github.com/galaxyproject/galaxy/pull/16033&gt;`_-------------------20.9.0 (2020-10-15)-------------------* First release from the 20.09 branch of Galaxy.-------------------20.5.0 (2020-07-04)-------------------* First release from the 20.05 branch of Galaxy.</longdescription>
+</pkgmetadata>

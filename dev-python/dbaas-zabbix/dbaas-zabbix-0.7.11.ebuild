@@ -15,8 +15,8 @@ DESCRIPTION="A Zabbix Integration for DBaaS."
 
 HOMEPAGE="https://github.com/globocom/dbaas-zabbix"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/e2/29/812ce6489236eec7a4fcdd99cff05892565137cd1835c92668a0b8c7a7a5/dbaas_zabbix-${REALVERSION}.tar.gz"
-SOURCEFILE="dbaas_zabbix-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e2/29/812ce6489236eec7a4fcdd99cff05892565137cd1835c92668a0b8c7a7a5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

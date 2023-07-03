@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module for stock packaging"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/b9/0d/588aa9baeb8626465e1b5d2e24d2d523547d2909fd2cec9af72716747275/trytond_stock_package-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_stock_package-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b9/0d/588aa9baeb8626465e1b5d2e24d2d523547d2909fd2cec9af72716747275/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Python wrapper of the Snips NLU ontology"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d1/65/5792d3c1837aad7105ceca7bb917a27a0adaabf15da033ff4a3bc0a1bba6/snips_nlu_ontology-${REALVERSION}.tar.gz"
-SOURCEFILE="snips_nlu_ontology-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d1/65/5792d3c1837aad7105ceca7bb917a27a0adaabf15da033ff4a3bc0a1bba6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

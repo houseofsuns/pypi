@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># data-ml-utilsA utility python package that covers the common libraries we use.## InstallationThis is an open source library hosted on pypi. Run the following command to install the library.```pip install hip-data-ml-utils --upgrade```## DocumentationHead over to https://hip-data-ml-utils.readthedocs.io/en/latest/index.html# to read our library documentation## Feature### Pyathena client initialisationAlmost one liner```pythonimport osfrom hip_data_ml_utils.pyathena_client.client import PyAthenaClientos.environ[&quot;AWS_ACCESS_KEY_ID&quot;] = &quot;xxx&quot;os.environ[&quot;AWS_SECRET_ACCESS_KEY&quot;] = &quot;xxx&quot; # pragma: allowlist secretos.environ[&quot;S3_BUCKET&quot;] = &quot;xxx&quot;pyathena_client = PyAthenaClient()```![Pyathena client initialisation](docs/_static/initialise_pyathena_client.png)### Pyathena queryAlmost one liner```pythonquery = &quot;&quot;&quot;    SELECT        *    FROM        dev.example_pyathena_client_table    LIMIT 10&quot;&quot;&quot;df_raw = pyathena_client.query_as_pandas(final_query=query)```![Pyathena query](docs/_static/query_pyathena_client.png)### MLflow utilsVisit [link](https://data-ml-utils.readthedocs.io/en/latest/index.html#mlflow-utils)### More to Come* You suggest, raise a feature request issue and we will review!## Tutorials### PyathenaThere is a jupyter notebook to show how to use the package utility package for `pyathena`: [notebook](tutorials/[TUTO]%20pyathena.ipynb)### MLflow utilsThere is a jupyter notebook to show how to use the package utility package for `mlflow_databricks`: [notebook](tutorials/[TUTO]%20mlflow_databricks.ipynb)</longdescription>
+</pkgmetadata>

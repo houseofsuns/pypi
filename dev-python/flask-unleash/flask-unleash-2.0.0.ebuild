@@ -15,8 +15,8 @@ DESCRIPTION="Flask extension for unleash-client-python."
 
 HOMEPAGE="https://github.com/Unleash/Flask-Unleash"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cc/b0/145e5c81bc1c9ddf0509f51695b1895fbd49ce8f2c1c1372fde991fe0657/flask_unleash-${REALVERSION}.tar.gz"
-SOURCEFILE="flask_unleash-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cc/b0/145e5c81bc1c9ddf0509f51695b1895fbd49ce8f2c1c1372fde991fe0657/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

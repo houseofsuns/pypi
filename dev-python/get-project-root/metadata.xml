@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># py_get_project_rootA simple package for resolving project root in most situations.I found myself rewriting something to resolve this in various different project structures &amp; situations, annoyingly, so I wrotothis to save myself time.Let me know if you run into any situations where it doesn't resolvethe project root path correctly.____```pip install get-project-root```____```pyfrom get_project_root import root_pathproject_root = root_path(ignore_cwd=False)# &gt;&gt; &quot;C:/Users/person/source/some_project/&quot;```____### ignore_cwd:   Ignores the current working directory for deriving the root path.  In the case where the directory of the file this is called from is    the same as the current working directory CWD, it will return   the current working directory if this is set to True.</longdescription>
+</pkgmetadata>

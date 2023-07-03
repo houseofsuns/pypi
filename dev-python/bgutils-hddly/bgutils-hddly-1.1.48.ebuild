@@ -15,8 +15,8 @@ DESCRIPTION="bigdata utils."
 
 HOMEPAGE="https://biglab.site"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1c/bd/ac83e6dabee93cf1460be9adcb33cccf8459f02bae768b22ed84d1516da1/bgutils_hddly-${REALVERSION}.tar.gz"
-SOURCEFILE="bgutils_hddly-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1c/bd/ac83e6dabee93cf1460be9adcb33cccf8459f02bae768b22ed84d1516da1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

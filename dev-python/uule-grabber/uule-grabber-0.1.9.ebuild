@@ -15,8 +15,8 @@ DESCRIPTION="Generates UULE codes for Google Search"
 
 HOMEPAGE="https://github.com/ogun/uule_grabber"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/64/25/d02ec5c76b37fed33bf112f2db5f5a5ca01889307d1ec5a068068d11fc07/uule_grabber-${REALVERSION}.tar.gz"
-SOURCEFILE="uule_grabber-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/64/25/d02ec5c76b37fed33bf112f2db5f5a5ca01889307d1ec5a068068d11fc07/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

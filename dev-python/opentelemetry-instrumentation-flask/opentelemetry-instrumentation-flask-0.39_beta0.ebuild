@@ -15,8 +15,8 @@ DESCRIPTION="Flask instrumentation for OpenTelemetry"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-flask"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f7/2f/70c2d8508961d42dc1c0091b366ea0b23adabcc02dfdf2c6c88cb0c02b82/opentelemetry_instrumentation_flask-${REALVERSION}.tar.gz"
-SOURCEFILE="opentelemetry_instrumentation_flask-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f7/2f/70c2d8508961d42dc1c0091b366ea0b23adabcc02dfdf2c6c88cb0c02b82/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

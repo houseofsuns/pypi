@@ -15,8 +15,8 @@ DESCRIPTION="An ASGI3 middleware to implement maximum content size limits (mostl
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ac/5b/54a62053480a2cc3e17e441bfe15c5732028a328b6d5063d46e93a38dbdc/content_size_limit_asgi-${REALVERSION}.tar.gz"
-SOURCEFILE="content_size_limit_asgi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ac/5b/54a62053480a2cc3e17e441bfe15c5732028a328b6d5063d46e93a38dbdc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

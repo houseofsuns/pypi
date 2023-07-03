@@ -15,8 +15,8 @@ DESCRIPTION="Package for easily installing and setting up project environments"
 
 HOMEPAGE="https://pypi.org/project/kabbes-repository-generator/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d7/9e/89f8848034a0b20ef44b98369e7b49c6954b9fda8b401fb65b3270f68cd0/kabbes_repository_generator-${REALVERSION}.tar.gz"
-SOURCEFILE="kabbes_repository_generator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d7/9e/89f8848034a0b20ef44b98369e7b49c6954b9fda8b401fb65b3270f68cd0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

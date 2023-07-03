@@ -15,8 +15,8 @@ DESCRIPTION="A really simple to use Python fetch screen"
 
 HOMEPAGE="https://github.com/bygregonline/py-common-fetch"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/36/b0/ff5462d47ff7628bf8176ac3fb1c163364ec2269088af3932389af7425c8/py_common_fetch-${REALVERSION}.tar.gz"
-SOURCEFILE="py_common_fetch-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/36/b0/ff5462d47ff7628bf8176ac3fb1c163364ec2269088af3932389af7425c8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

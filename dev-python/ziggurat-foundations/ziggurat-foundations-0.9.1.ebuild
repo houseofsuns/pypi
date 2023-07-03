@@ -15,8 +15,8 @@ DESCRIPTION="Set of SQLAlchemy mixins that make application building an easy tas
 
 HOMEPAGE="https://github.com/ergo/ziggurat_foundations"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/ac/74/3c5fbd92586484544aa69259cb4cc5f5825b77c573d19ee7da6548983247/ziggurat_foundations-${REALVERSION}.tar.gz"
-SOURCEFILE="ziggurat_foundations-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ac/74/3c5fbd92586484544aa69259cb4cc5f5825b77c573d19ee7da6548983247/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

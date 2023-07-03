@@ -15,8 +15,8 @@ DESCRIPTION="A set of tools for using Fedora's messaging infrastructure"
 
 HOMEPAGE="https://github.com/fedora-infra/fedora-messaging"
 LICENSE="GPL-2+"
-SRC_URI="https://files.pythonhosted.org/packages/e2/fb/e58560bc254a8f66ddbad954f1abb9e1c428e29bd4f488af800d83bc27cc/fedora_messaging-${REALVERSION}.tar.gz"
-SOURCEFILE="fedora_messaging-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e2/fb/e58560bc254a8f66ddbad954f1abb9e1c428e29bd4f488af800d83bc27cc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

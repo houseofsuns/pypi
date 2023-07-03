@@ -15,8 +15,8 @@ DESCRIPTION="Zipkin Span Exporters for OpenTelemetry"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python/tree/main/exporter/opentelemetry-exporter-zipkin"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/10/cf/f383b2db8769664a7b89d469322a619ce09a4b2c0a7bc4f556c6595feed0/opentelemetry_exporter_zipkin-${REALVERSION}.tar.gz"
-SOURCEFILE="opentelemetry_exporter_zipkin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/10/cf/f383b2db8769664a7b89d469322a619ce09a4b2c0a7bc4f556c6595feed0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

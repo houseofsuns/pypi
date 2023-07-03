@@ -15,8 +15,8 @@ DESCRIPTION="Importable mixin methods for Python."
 
 HOMEPAGE="https://github.com/quansight/type_extensions/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/80/d0/18bf3a92af3f6a0fc38f874e858d707242ac5c14148ff1c4ee1615397e73/type_extensions-${REALVERSION}.tar.gz"
-SOURCEFILE="type_extensions-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/80/d0/18bf3a92af3f6a0fc38f874e858d707242ac5c14148ff1c4ee1615397e73/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

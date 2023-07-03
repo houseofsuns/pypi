@@ -15,8 +15,8 @@ DESCRIPTION="new variable terminal entry in contextmenu"
 
 HOMEPAGE="https://github.com/Stunkymonkey/nautilus-open-any-terminal"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/08/39/efd9b1fd05ef17353266b5a1a606994b649cce1876ad3268aa654318ee25/nautilus_open_any_terminal-${REALVERSION}.tar.gz"
-SOURCEFILE="nautilus_open_any_terminal-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/08/39/efd9b1fd05ef17353266b5a1a606994b649cce1876ad3268aa654318ee25/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

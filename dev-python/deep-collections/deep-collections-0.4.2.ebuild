@@ -15,8 +15,8 @@ DESCRIPTION="Easy access to items in deep collections."
 
 HOMEPAGE="https://github.com/terminal-labs/deep_collections"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/97/cc/729a17c19c86f00ba15e1cec2c0bd3610eb318da64b2519f25660c041152/deep_collections-${REALVERSION}.tar.gz"
-SOURCEFILE="deep_collections-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/97/cc/729a17c19c86f00ba15e1cec2c0bd3610eb318da64b2519f25660c041152/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

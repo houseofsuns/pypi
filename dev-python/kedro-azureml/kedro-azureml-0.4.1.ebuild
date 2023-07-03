@@ -15,8 +15,8 @@ DESCRIPTION="Kedro plugin with Azure ML Pipelines support"
 
 HOMEPAGE="https://github.com/getindata/kedro-azureml"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/49/3f/18a6f4cb12cc5b7b9c5a451c4f895762f07aba0fd68ae60c27d043387a6d/kedro_azureml-${REALVERSION}.tar.gz"
-SOURCEFILE="kedro_azureml-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/49/3f/18a6f4cb12cc5b7b9c5a451c4f895762f07aba0fd68ae60c27d043387a6d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

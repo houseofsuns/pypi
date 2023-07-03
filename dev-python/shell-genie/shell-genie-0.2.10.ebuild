@@ -15,8 +15,8 @@ DESCRIPTION="Shell Genie is a command-line tool that lets you interact with the 
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/63/9d/2569d965fc66112aeb8b0ffa1add6bc4456a1bb74413dff92424c32f6993/shell_genie-${REALVERSION}.tar.gz"
-SOURCEFILE="shell_genie-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/63/9d/2569d965fc66112aeb8b0ffa1add6bc4456a1bb74413dff92424c32f6993/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

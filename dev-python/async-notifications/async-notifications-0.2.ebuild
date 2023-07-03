@@ -15,8 +15,8 @@ DESCRIPTION="Email async notifications with celery."
 
 HOMEPAGE="https://github.com/luisza/async_notifications"
 LICENSE="GNU General Public License"
-SRC_URI="https://files.pythonhosted.org/packages/17/3f/d60636158f0b3a714e32d10ba3fc0098bec0a0090e80050d1d050fc25e87/async_notifications-${REALVERSION}.tar.gz"
-SOURCEFILE="async_notifications-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/17/3f/d60636158f0b3a714e32d10ba3fc0098bec0a0090e80050d1d050fc25e87/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># parquet2hive [![Build Status](https://travis-ci.org/mozilla/parquet2hive.svg?branch=master)](https://travis-ci.org/mozilla/parquet2hive)Hive import statement generator for Parquet datasets. Supports versioned datasets and schema evolution.## Installing from Pypi To install this package from Pypi, run:```bashpip install parquet2hive```## Updating the Package on PyPiTo upload the most recent version, run:```bashpython setup.py sdist upload```## Using the TestPypi ServersYou will need a separate account on https://testpypi.python.org.To upload the file to the pypi test servers, ensure your ```~/.pypirc``` contains the following:```bash[distutils]index-servers=    pypi    pypitest[pypitest]repository = https://testpypi.python.org/pypiusername = testpypi_username password = testpypi_password [pypi]repository = https://pypi.python.org/pypiusername = pypi_username password = pypi_password   ```Upload the code using:```bashpython setup.py sdist upload -r https://testpypi.python.org/pypi```Finally, pull the most recent package from the test-repository on any machine using:```bashpip install parquet2hive -i https://testpypi.python.org/pypi```## Example usage```bashparquet2hive s3://telemetry-parquet/longitudinal | bash```To see the allowed command line interface arguments, run ```parquet2hive -h```</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="python client sdk for bloc"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/28/60/0a19cb483cb0fa1bc0b0b9e95d79ded1be07f8f6b140082eb67c0671eeef/bloc_client-${REALVERSION}.tar.gz"
-SOURCEFILE="bloc_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/28/60/0a19cb483cb0fa1bc0b0b9e95d79ded1be07f8f6b140082eb67c0671eeef/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

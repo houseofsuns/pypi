@@ -15,8 +15,8 @@ DESCRIPTION="Added link to launch the safari and locate to physics folder in gdr
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9f/fe/41c0492b771159ec01cdabf2fc474688a9050c4190c82f06928fe486655c/init_problem-${REALVERSION}.tar.gz"
-SOURCEFILE="init_problem-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9f/fe/41c0492b771159ec01cdabf2fc474688a9050c4190c82f06928fe486655c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

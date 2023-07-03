@@ -15,8 +15,8 @@ DESCRIPTION="Abstract classes for representing storage-related objects"
 
 HOMEPAGE="https://github.com/Infinidat/storage_interfaces"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/d0/f0/9caf3089e19dced3892714cef0817d87fb985e8215e468cc88a86a9afaf1/storage_interfaces-${REALVERSION}.tar.gz"
-SOURCEFILE="storage_interfaces-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d0/f0/9caf3089e19dced3892714cef0817d87fb985e8215e468cc88a86a9afaf1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

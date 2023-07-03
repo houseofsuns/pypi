@@ -15,8 +15,8 @@ DESCRIPTION="Personal DS tools"
 
 HOMEPAGE="https://github.com/f1se4/fiser_tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/68/f0/8d2d468cfa1381fa9cd01baba0ce5f58d0d8c7c8802d9e1a5a8031c131b3/fiser_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="fiser_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/68/f0/8d2d468cfa1381fa9cd01baba0ce5f58d0d8c7c8802d9e1a5a8031c131b3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

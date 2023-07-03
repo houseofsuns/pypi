@@ -15,8 +15,8 @@ DESCRIPTION="OpenTelemetry System Metrics Instrumentation"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-system-metrics"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9d/a6/540de8bf6d9110b888fa857545eb26e1a8e533b0c0a747a9fa09343c90f1/opentelemetry_instrumentation_system_metrics-${REALVERSION}.tar.gz"
-SOURCEFILE="opentelemetry_instrumentation_system_metrics-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9d/a6/540de8bf6d9110b888fa857545eb26e1a8e533b0c0a747a9fa09343c90f1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Korean Lunar Calendar"
 
 HOMEPAGE="https://github.com/usingsky/korean_lunar_calendar_py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5a/93/a0bd2bd53ab19330e83ecc5652b7774ae86fd2fee19bc05ad220cf9db08b/korean_lunar_calendar-${REALVERSION}.tar.gz"
-SOURCEFILE="korean_lunar_calendar-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5a/93/a0bd2bd53ab19330e83ecc5652b7774ae86fd2fee19bc05ad220cf9db08b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

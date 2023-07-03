@@ -15,8 +15,8 @@ DESCRIPTION="python useful function"
 
 HOMEPAGE="https://zeroincombenze-tools.readthedocs.io"
 LICENSE="Affero GPL"
-SRC_URI="https://files.pythonhosted.org/packages/85/e5/71e8240e0f79ff1e70a9425f6c45207e7f1f3c2ec7b51f71a2b504a8a317/python_plus-${REALVERSION}.tar.gz"
-SOURCEFILE="python_plus-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/85/e5/71e8240e0f79ff1e70a9425f6c45207e7f1f3c2ec7b51f71a2b504a8a317/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

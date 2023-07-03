@@ -15,8 +15,8 @@ DESCRIPTION="Alibaba Cloud Ddi (20200617) SDK Library for Python2"
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python2-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/8a/c9/9152b6ae43d5d19ee7e5b18e20e0c6ab9d0202fa57504204813746470be1/alibabacloud_ddi20200617_py2-${REALVERSION}.tar.gz"
-SOURCEFILE="alibabacloud_ddi20200617_py2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8a/c9/9152b6ae43d5d19ee7e5b18e20e0c6ab9d0202fa57504204813746470be1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

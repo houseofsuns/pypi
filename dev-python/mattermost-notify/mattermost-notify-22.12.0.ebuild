@@ -15,8 +15,8 @@ DESCRIPTION="Python tool to post GitHub Action runs to mattermost"
 
 HOMEPAGE=""
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/6e/e5/5d0469b257ac0f629f0db025e6d0eafc94acd9da69337b47657e116079f3/mattermost_notify-${REALVERSION}.tar.gz"
-SOURCEFILE="mattermost_notify-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6e/e5/5d0469b257ac0f629f0db025e6d0eafc94acd9da69337b47657e116079f3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

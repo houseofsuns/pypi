@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Rs-TablerThis lib is used to format plain-text table, written in both Rust and Python.## ExampleCode:```pythonfrom tabler import tabler, utilstable = utils.auto_table_create(    header = [&quot;Header Left&quot;, utils.auto_cell(&quot;Header Right&quot;).with_align(tabler.settings.Align.Right)],    content = [[&quot;Row&quot;, utils.auto_cell(&quot;Content&quot;).with_align(tabler.settings.Align.Right)] for _ in range(2)],    splitter = True)table.border = tabler.settings.Border.Allres = table.render(tabler.settings.Renderer.Normal)print(res)```Output:```─────────────────────────────| Header Left  Header Right ||───────────────────────────|| Row               Content || Row               Content |─────────────────────────────```&gt; Actually the border &amp; header of the table is bold, but it cannot be rendered in markdown.## Future PlanWaiting for report :)## Change Log### V0.1.0Initial version.## OriginThis project is an encapsulation based on my rust crate [table_formatter](https://crates.io/crates/table_formatter), with almost the same apis.If you have any problems or this project has any bugs, you can make an issue on both [this repo](https://github.com/Embers-of-the-Fire/rs-tabler) as well as the [original repo](https://github.com/Embers-of-the-Fire/rust-table-formatter).## License[MIT][MIT-License] or [Apache-2.0][Apache-License][MIT-License]: LICENSE-MIT[Apache-License]: LICENSE-APACHE</longdescription>
+</pkgmetadata>

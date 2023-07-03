@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Akita HTTP Archive (HAR) UtilityThis package provides Pydantic models for HTTP Archive (HAR) files, along witha thread-safe file-writer for creating and concurrently writing HAR entries.## See it in ActionTake a look at the [Akita DjangoIntegration](https://github.com/akitasoftware/akita-django), which extends the`django.test.Client` to produce a HAR file containing requests and responsesfrom Django integration tests.</longdescription>
+</pkgmetadata>

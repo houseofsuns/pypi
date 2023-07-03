@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># LiteIndexultra fast, thread and process safe, easily queryable Indexes for Python.# DefinedIndex```pythonfrom liteindex import DefinedIndex# Define the schema for the indexschema = {    &quot;name&quot;: &quot;&quot;,    &quot;age&quot;: 0,    &quot;address&quot;: {        &quot;street&quot;: &quot;&quot;,        &quot;city&quot;: &quot;&quot;,        &quot;country&quot;: &quot;&quot;    }}# Create a DefinedIndex instanceindex = DefinedIndex(name=&quot;people&quot;, schema=schema) #optional: db_path=&quot;path to a file&quot; #auto_key=False or True. # Insert or update a single item in the index if auto_key=False (default)index.set(user_name, {    &quot;name&quot;: &quot;Alice&quot;,    &quot;password&quot;: &quot;xxxjjssjsjsjsksk&quot;,    &quot;age&quot;: 30,    &quot;address&quot;: {        &quot;street&quot;: &quot;123 Main St&quot;,        &quot;city&quot;: &quot;New York&quot;,        &quot;country&quot;: &quot;USA&quot;    }})# If auto_key=Trueinteger_id = index.add({    &quot;name&quot;: &quot;Alice&quot;,    &quot;password&quot;: &quot;xxxjjssjsjsjsksk&quot;,    &quot;age&quot;: 30,    &quot;address&quot;: {        &quot;street&quot;: &quot;123 Main St&quot;,        &quot;city&quot;: &quot;New York&quot;,        &quot;country&quot;: &quot;USA&quot;    }})# Set full or partial value for a keyindex.set(key, value)# Set value for a keyindex.set((key, sub_key), value)# Get value of a keyindex.get(key)# Get value of a sub keyindex.get(key, sub_key)# index.search()# index.count()# index.delete()# index.drop()```</longdescription>
+</pkgmetadata>

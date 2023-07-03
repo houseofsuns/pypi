@@ -15,8 +15,8 @@ DESCRIPTION="Homeconnect WebThing adapter"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c3/65/44041c0c26acd46b831a677158ced8f5ca5e1a792210e3b71d3ec3295c21/homeconnect_webthing-${REALVERSION}.tar.gz"
-SOURCEFILE="homeconnect_webthing-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c3/65/44041c0c26acd46b831a677158ced8f5ca5e1a792210e3b71d3ec3295c21/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

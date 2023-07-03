@@ -15,8 +15,8 @@ DESCRIPTION="Asyncio Time Travel Loop"
 
 HOMEPAGE="https://github.com/realcr/asyncio_time_travel"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/64/72/facd0556495b46c5f4e05a629de0db5c9340d0dca882294ef23fb68fab79/asyncio_time_travel-${REALVERSION}.tar.gz"
-SOURCEFILE="asyncio_time_travel-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/64/72/facd0556495b46c5f4e05a629de0db5c9340d0dca882294ef23fb68fab79/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

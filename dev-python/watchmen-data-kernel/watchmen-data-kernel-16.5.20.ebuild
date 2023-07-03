@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2b/55/8d12a3f88179b2d42674d853a7dfd2013da8f84584b79ea1dee89ad6f986/watchmen_data_kernel-${REALVERSION}.tar.gz"
-SOURCEFILE="watchmen_data_kernel-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2b/55/8d12a3f88179b2d42674d853a7dfd2013da8f84584b79ea1dee89ad6f986/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="some extensions for solidpython2"
 
 HOMEPAGE=""
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/a7/99/b1b8bb2bde762f529897839583396b01d0971547def0431c0f3eafcf9f2e/solidpython2_extensions-${REALVERSION}.tar.gz"
-SOURCEFILE="solidpython2_extensions-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a7/99/b1b8bb2bde762f529897839583396b01d0971547def0431c0f3eafcf9f2e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

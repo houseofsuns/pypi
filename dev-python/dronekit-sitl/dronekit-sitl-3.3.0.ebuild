@@ -15,8 +15,8 @@ DESCRIPTION="DroneKit library to run SITL (simulation environment)"
 
 HOMEPAGE="https://github.com/dronekit/dronekit-sitl/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/de/f2/2d7b0cb4e4ed158f380ce4f5a1faba9a0b4172a06abca26a40344674ce7f/dronekit_sitl-${REALVERSION}.tar.gz"
-SOURCEFILE="dronekit_sitl-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/de/f2/2d7b0cb4e4ed158f380ce4f5a1faba9a0b4172a06abca26a40344674ce7f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

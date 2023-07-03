@@ -15,8 +15,8 @@ DESCRIPTION="Users and authentication management SaaS"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0a/0a/2cec4fd17aeb9cf511aa6e2905799c9b43718a3d337e4f88fa4338617d67/fief_server-${REALVERSION}.tar.gz"
-SOURCEFILE="fief_server-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0a/0a/2cec4fd17aeb9cf511aa6e2905799c9b43718a3d337e4f88fa4338617d67/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

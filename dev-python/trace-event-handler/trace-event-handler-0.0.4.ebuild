@@ -15,8 +15,8 @@ DESCRIPTION="Python Logging Handler which dumps in the Trace Event Format suppor
 
 HOMEPAGE="https://github.com/lochbrunner/trace_event_handler"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/48/e5/d3cf9bccac9614cfd26a4e193f973ed90f89bb369330d095bb5322b53757/trace_event_handler-${REALVERSION}.tar.gz"
-SOURCEFILE="trace_event_handler-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/48/e5/d3cf9bccac9614cfd26a4e193f973ed90f89bb369330d095bb5322b53757/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

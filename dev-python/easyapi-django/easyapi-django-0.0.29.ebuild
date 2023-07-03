@@ -15,8 +15,8 @@ DESCRIPTION="A simple rest api generator for django based on models"
 
 HOMEPAGE="https://github.com/ssjunior/easyapi-django"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bb/7a/91e7ef610acbcf53ecd5cb540145df1148b26abf45c5337813432289a5ec/easyapi_django-${REALVERSION}.tar.gz"
-SOURCEFILE="easyapi_django-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bb/7a/91e7ef610acbcf53ecd5cb540145df1148b26abf45c5337813432289a5ec/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Run Black on Python code blocks in documentation files."
 
 HOMEPAGE="https://github.com/asottile/blacken-docs"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e8/a1/1ddfe5ee374db0a10757b55693cb04f1a9d3d87c0bb4f64c71fee5c1ed00/blacken_docs-${REALVERSION}.tar.gz"
-SOURCEFILE="blacken_docs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e8/a1/1ddfe5ee374db0a10757b55693cb04f1a9d3d87c0bb4f64c71fee5c1ed00/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

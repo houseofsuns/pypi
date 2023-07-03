@@ -15,8 +15,8 @@ DESCRIPTION="flake8 plugin to limit line number in a module"
 
 HOMEPAGE="https://github.com/brabadu/flake8-linenumber"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/62/a2/785c44fb5f4eb4c62e90e93f69b5760322d8bc21cd91781f30d24b62b96e/flake8_linenumber-${REALVERSION}.tar.gz"
-SOURCEFILE="flake8_linenumber-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/62/a2/785c44fb5f4eb4c62e90e93f69b5760322d8bc21cd91781f30d24b62b96e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

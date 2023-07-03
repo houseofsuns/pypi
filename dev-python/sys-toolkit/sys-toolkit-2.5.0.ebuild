@@ -15,8 +15,8 @@ DESCRIPTION="Classes for operating system utilities"
 
 HOMEPAGE="https://github.com/hile/sys-toolkit"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/49/4e/c8b4d352100a429952fd1b9dac17c60cc1be4bb3e89be8033ddac752871c/sys_toolkit-${REALVERSION}.tar.gz"
-SOURCEFILE="sys_toolkit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/49/4e/c8b4d352100a429952fd1b9dac17c60cc1be4bb3e89be8033ddac752871c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

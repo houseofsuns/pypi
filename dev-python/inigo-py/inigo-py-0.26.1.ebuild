@@ -15,8 +15,8 @@ DESCRIPTION="Inigo Middleware"
 
 HOMEPAGE="https://github.com/inigolabs/inigo-py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/38/64/80af360a98bbb0ccde86190976e9ca5ff2fd3a4e9ce25f409073cf25a0bd/inigo_py-${REALVERSION}.tar.gz"
-SOURCEFILE="inigo_py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/38/64/80af360a98bbb0ccde86190976e9ca5ff2fd3a4e9ce25f409073cf25a0bd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

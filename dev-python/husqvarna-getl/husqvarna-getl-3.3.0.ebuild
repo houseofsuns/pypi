@@ -15,8 +15,8 @@ DESCRIPTION="An elegant way to ETL'ing"
 
 HOMEPAGE="https://github.com/husqvarnagroup/GETL/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bd/ae/cc10e3cdcaf91162f62bb855683f1ba9c2c50ae6a1caaf86837ac31ea043/husqvarna_getl-${REALVERSION}.tar.gz"
-SOURCEFILE="husqvarna_getl-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bd/ae/cc10e3cdcaf91162f62bb855683f1ba9c2c50ae6a1caaf86837ac31ea043/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

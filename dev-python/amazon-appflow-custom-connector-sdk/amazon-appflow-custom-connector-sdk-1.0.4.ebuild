@@ -15,8 +15,8 @@ DESCRIPTION="Amazon AppFlow Custom Connector SDK"
 
 HOMEPAGE="https://github.com/awslabs/aws-appflow-custom-connector-python"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/3c/e8/9811970cfad29ae9cef7038da0b789980fb469fd94adc1ac75584a91112a/amazon_appflow_custom_connector_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="amazon_appflow_custom_connector_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3c/e8/9811970cfad29ae9cef7038da0b789980fb469fd94adc1ac75584a91112a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

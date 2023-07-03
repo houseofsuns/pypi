@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># irisml-tasks-transformersThis is a MLTest task package for Huggingface's transformers package.For the detail of IrisML framework, visit [irisml repository](https://github.com/microsoft/irisml)# Tasks## create_transformers_modelCreate a model using transformers library. Currently only CLIPModel is supported.```pythonclass Config:    name: str    pretrained: bool = Falseclass Outputs:    model: torch.nn.Module```## create_transformers_tokenizerCreate a tokenizer using transformers library.```pythonclass Config:    name: strclass Outputs:    tokenizer: typing.Callable```</longdescription>
+</pkgmetadata>

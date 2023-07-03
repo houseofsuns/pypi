@@ -15,8 +15,8 @@ DESCRIPTION="Compute-over-Data (CoD) network for time series data on Aleph.im"
 
 HOMEPAGE=""
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/df/02/a65755217cdb54ec1a41936fdbf559f58a4f9da85d6099e086d9b3457619/fishnet_cod-${REALVERSION}.tar.gz"
-SOURCEFILE="fishnet_cod-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/df/02/a65755217cdb54ec1a41936fdbf559f58a4f9da85d6099e086d9b3457619/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

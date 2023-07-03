@@ -15,8 +15,8 @@ DESCRIPTION="Tumult's differential privacy primitives"
 
 HOMEPAGE="https://gitlab.com/tumult-labs/core"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/41/68/b04f0b6a99bbf110ffefb6cd5ee3f39f32ffabd27c41405c58fd01d068f3/tmlt_core-${REALVERSION}.tar.gz"
-SOURCEFILE="tmlt_core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/41/68/b04f0b6a99bbf110ffefb6cd5ee3f39f32ffabd27c41405c58fd01d068f3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

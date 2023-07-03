@@ -15,8 +15,8 @@ DESCRIPTION="An API to talk to Spine databases."
 
 HOMEPAGE="https://github.com/spine-tools/Spine-Database-API"
 LICENSE="LGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/91/1e/1179a9208056e8d632447c5c08246267c186bff12dc12cf5b748eeefe0f9/spinedb_api-${REALVERSION}.tar.gz"
-SOURCEFILE="spinedb_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/91/1e/1179a9208056e8d632447c5c08246267c186bff12dc12cf5b748eeefe0f9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

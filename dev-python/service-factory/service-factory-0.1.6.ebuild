@@ -15,8 +15,8 @@ DESCRIPTION="JSON RPC service factory for Python."
 
 HOMEPAGE="https://github.com/proofit404/service-factory"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/33/15/5beb1df57ec538bfa48f61f34a8de6061139ff7aca0f2bcf30b525bc07cb/service_factory-${REALVERSION}.tar.gz"
-SOURCEFILE="service_factory-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/33/15/5beb1df57ec538bfa48f61f34a8de6061139ff7aca0f2bcf30b525bc07cb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

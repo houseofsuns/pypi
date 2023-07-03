@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![PyPI version](https://badge.fury.io/py/solidgate-card-sdk.svg)](https://badge.fury.io/py/solidgate-card-sdk)# SolidGate APIThis library provides basic API options of SolidGate payment gateway.## Requirements- Python 3.7- Packages: requests- SolidGate account. If you don’t have this you can request it by contacting sales@solidgate.com## InstallationUse pip command: ```pip3 install solidgate-card-sdk```## UsageCreate a class instance of the 'ApiClient' class.```from solidgate import ApiClientclient = ApiClient(merchant_id, private_key)```- merchant_id - unique merchant identification;- private_key - secret code for request signature. It's provided at the moment of merchant registration.## Documentation* https://solidgate.atlassian.net/wiki/spaces/API/overview## SupportIf you have any problems, questions or suggestions send your inquiry to info@solidgate.com.</longdescription>
+</pkgmetadata>

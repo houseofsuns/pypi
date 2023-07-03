@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module to add work time on company"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/49/90/e313e1af203f7465bd7cbe05b0c944ccd6bc0b75310a02e8ef8f603291b8/trytond_company_work_time-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_company_work_time-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/49/90/e313e1af203f7465bd7cbe05b0c944ccd6bc0b75310a02e8ef8f603291b8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

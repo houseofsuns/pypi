@@ -15,8 +15,8 @@ DESCRIPTION="python_openzwave is a python wrapper for the openzwave c++ library.
 
 HOMEPAGE="https://github.com/OpenZWave/python-openzwave"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/52/e8/11d3a559e90f9223a61e4c048dc94ec212d6ece920908a7daa6b4e06fc77/python_openzwave-${REALVERSION}.zip"
-SOURCEFILE="python_openzwave-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/52/e8/11d3a559e90f9223a61e4c048dc94ec212d6ece920908a7daa6b4e06fc77/${REALNAME//-/_}-${REALVERSION}.zip"
+SOURCEFILE="_}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

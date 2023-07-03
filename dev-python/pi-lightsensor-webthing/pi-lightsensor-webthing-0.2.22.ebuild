@@ -15,8 +15,8 @@ DESCRIPTION="A web connected digital light sensor measuring the intensity of amb
 
 HOMEPAGE="https://github.com/grro/pi_lightsensor_webthing"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/44/70/5b73b42e069348ea2e068a9925f2b1e3d307b62485a5cdf5b94edb8bb9ed/pi_lightsensor_webthing-${REALVERSION}.tar.gz"
-SOURCEFILE="pi_lightsensor_webthing-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/44/70/5b73b42e069348ea2e068a9925f2b1e3d307b62485a5cdf5b94edb8bb9ed/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

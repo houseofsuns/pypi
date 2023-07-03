@@ -15,8 +15,8 @@ DESCRIPTION="ASTERIX decoder in Python"
 
 HOMEPAGE="https://github.com/CroatiaControlLtd/asterix"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/a6/90/4872126533193f257f6f05144507cc6bf71018347ec0207564c31b04488e/asterix_decoder-${REALVERSION}.tar.gz"
-SOURCEFILE="asterix_decoder-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a6/90/4872126533193f257f6f05144507cc6bf71018347ec0207564c31b04488e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

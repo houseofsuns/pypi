@@ -15,8 +15,8 @@ DESCRIPTION="PyDis core provides core functionality and utility to the bots of t
 
 HOMEPAGE="https://pythondiscord.com/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/96/ea/24086af09e4ddbaadef214cb3eec448b6fa50a23542bbe2b74922d9f0f38/pydis_core-${REALVERSION}.tar.gz"
-SOURCEFILE="pydis_core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/96/ea/24086af09e4ddbaadef214cb3eec448b6fa50a23542bbe2b74922d9f0f38/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

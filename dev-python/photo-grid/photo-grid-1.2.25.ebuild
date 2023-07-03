@@ -15,8 +15,8 @@ DESCRIPTION="A GUI for field segmentation"
 
 HOMEPAGE="https://github.com/Poissonfish/GRID"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/50/84/449fe5c509a1a946307dcce766f8d92e916c146a485bf96b4fb9f0d9a6d4/photo_grid-${REALVERSION}.tar.gz"
-SOURCEFILE="photo_grid-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/50/84/449fe5c509a1a946307dcce766f8d92e916c146a485bf96b4fb9f0d9a6d4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

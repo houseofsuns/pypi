@@ -15,8 +15,8 @@ DESCRIPTION="Runtime inspection utilities for typing module."
 
 HOMEPAGE="https://github.com/ilevkivskyi/typing_inspect"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/dc/74/1789779d91f1961fa9438e9a8710cdae6bd138c80d7303996933d117264a/typing_inspect-${REALVERSION}.tar.gz"
-SOURCEFILE="typing_inspect-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/dc/74/1789779d91f1961fa9438e9a8710cdae6bd138c80d7303996933d117264a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

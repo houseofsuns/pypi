@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># FastAPI health checksConfigurable health checks endpoints for FastAPI applications.## Quickstart```pythonapp = FastAPI()app.include_router(    HealthcheckRouter(        Probe(            name=&quot;readiness&quot;,            checks=[                PostgreSqlCheck(host=&quot;db.example.com&quot;, username=..., password=...),                RedisCheck(host=&quot;redis.example.com&quot;, username=..., password=...),            ],        ),        Probe(            name=&quot;liveness&quot;,            checks=[                ...,            ],        ),    ),    prefix=&quot;/health&quot;,)```The probes from this example will be available as `GET /health/readiness` and `GET /health/liveness`.## Bundled checks* `PostgreSqlCheck` – checks PostgreSQL server availability* `RedisCheck` – checks Redis server availability* `RabbitMqCheck` – checks RabbitMQ server availability* `SettingsCheck` – validates settings models based on pydantic BaseModel* `HttpCheck` – checks availability of specified URL* `CephCheck` – checks Ceph server availability## Custom checksYou can create your own checks by providing custom `fastapi_healthchecks.checks.Check` implementations. Like this:```pythonclass MaintenanceCheck(Check):    async def __call__(self) -&gt; CheckResult:        if is_maintenance():            return CheckResult(name=&quot;Maintenance&quot;, passed=False, details=&quot;Closed for maintenance&quot;)        else:            return CheckResult(name=&quot;Maintenance&quot;, passed=True)```</longdescription>
+</pkgmetadata>

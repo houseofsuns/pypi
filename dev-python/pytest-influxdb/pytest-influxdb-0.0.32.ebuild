@@ -15,8 +15,8 @@ DESCRIPTION="Plugin for influxdb and pytest integration."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d2/06/88f4cd9fbc2da13c457f2011851238e03d2429e71d54ad168dea0859d4b2/pytest_influxdb-${REALVERSION}.tar.gz"
-SOURCEFILE="pytest_influxdb-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d2/06/88f4cd9fbc2da13c457f2011851238e03d2429e71d54ad168dea0859d4b2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

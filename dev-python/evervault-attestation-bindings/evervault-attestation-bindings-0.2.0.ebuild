@@ -15,8 +15,8 @@ DESCRIPTION="A Python library for attesting Nitro Enclaves according to the Ever
 
 HOMEPAGE="https://github.com/evervault/attestation-doc-validation"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/8e/24/75b8ae29ea4fbc51525ba45ad414c62502f40396b6422ff0f1df3a86fc1e/evervault_attestation_bindings-${REALVERSION}.tar.gz"
-SOURCEFILE="evervault_attestation_bindings-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8e/24/75b8ae29ea4fbc51525ba45ad414c62502f40396b6422ff0f1df3a86fc1e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

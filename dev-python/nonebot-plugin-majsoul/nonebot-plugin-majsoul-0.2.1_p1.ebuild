@@ -15,8 +15,8 @@ DESCRIPTION="NoneBot2 雀魂信息查询插件"
 
 HOMEPAGE=""
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/e4/20/ea6b1bfb57b055c12b5940e4bd5087d78de0c98fbbf05cc5d1d4e844d9cf/nonebot_plugin_majsoul-${REALVERSION}.tar.gz"
-SOURCEFILE="nonebot_plugin_majsoul-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e4/20/ea6b1bfb57b055c12b5940e4bd5087d78de0c98fbbf05cc5d1d4e844d9cf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

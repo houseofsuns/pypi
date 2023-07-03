@@ -15,8 +15,8 @@ DESCRIPTION="A Block for wagtail that lets users choose a Page/Document/URL/emai
 
 HOMEPAGE=""
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/26/1e/ed6a8b7fcb2bbdb5dc416b14a8a4e586459c873666df194c23bb628e0ef4/wagtail_link_block-${REALVERSION}.tar.gz"
-SOURCEFILE="wagtail_link_block-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/26/1e/ed6a8b7fcb2bbdb5dc416b14a8a4e586459c873666df194c23bb628e0ef4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

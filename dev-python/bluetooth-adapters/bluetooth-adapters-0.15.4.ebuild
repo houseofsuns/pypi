@@ -15,8 +15,8 @@ DESCRIPTION="Tools to enumerate and find Bluetooth Adapters"
 
 HOMEPAGE="https://github.com/bluetooth-devices/bluetooth-adapters"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b0/db/6e7518a38400383fd3da436460b32953b50913b1a31b42a6e8e40bf58f21/bluetooth_adapters-${REALVERSION}.tar.gz"
-SOURCEFILE="bluetooth_adapters-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b0/db/6e7518a38400383fd3da436460b32953b50913b1a31b42a6e8e40bf58f21/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

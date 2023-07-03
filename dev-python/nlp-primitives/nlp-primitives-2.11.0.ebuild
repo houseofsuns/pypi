@@ -15,8 +15,8 @@ DESCRIPTION="natural language processing primitives for Featuretools"
 
 HOMEPAGE=""
 LICENSE="BSD 3-clause"
-SRC_URI="https://files.pythonhosted.org/packages/e2/35/183d2fec15e454e5b2e97f5832eb3384ca9d3097d1562187402e0e750892/nlp_primitives-${REALVERSION}.tar.gz"
-SOURCEFILE="nlp_primitives-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e2/35/183d2fec15e454e5b2e97f5832eb3384ca9d3097d1562187402e0e750892/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

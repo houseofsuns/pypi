@@ -15,8 +15,8 @@ DESCRIPTION="Django template coverage.py plugin"
 
 HOMEPAGE="https://github.com/nedbat/django_coverage_plugin"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/2f/33/11e6aa1bdeb4da936d50a14da069286c465a75e9debdeab1d415a534d9d8/django_coverage_plugin-${REALVERSION}.tar.gz"
-SOURCEFILE="django_coverage_plugin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2f/33/11e6aa1bdeb4da936d50a14da069286c465a75e9debdeab1d415a534d9d8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

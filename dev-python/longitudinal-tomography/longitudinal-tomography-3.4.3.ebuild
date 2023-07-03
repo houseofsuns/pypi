@@ -15,8 +15,8 @@ DESCRIPTION="A python library for longitudinal particle beam tomography"
 
 HOMEPAGE="https://gitlab.cern.ch/longitudinaltomography/tomographyv3"
 LICENSE="GNU General Public License version 3"
-SRC_URI="https://files.pythonhosted.org/packages/ac/ff/82f0440b986b19ff306c392b4aa2829d30b8ea123e613f5325a4f6ebcada/longitudinal_tomography-${REALVERSION}.tar.gz"
-SOURCEFILE="longitudinal_tomography-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ac/ff/82f0440b986b19ff306c392b4aa2829d30b8ea123e613f5325a4f6ebcada/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

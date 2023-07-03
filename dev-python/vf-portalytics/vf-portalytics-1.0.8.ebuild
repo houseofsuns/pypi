@@ -15,8 +15,8 @@ DESCRIPTION="A consistent interface for creating Machine Learning Models compati
 
 HOMEPAGE="https://github.com/visualfabriq/portalytics"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b5/9d/9d6e170fb5292fa4e621364a7878996d7118dde7bf5923c942785ce078ca/vf_portalytics-${REALVERSION}.tar.gz"
-SOURCEFILE="vf_portalytics-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b5/9d/9d6e170fb5292fa4e621364a7878996d7118dde7bf5923c942785ce078ca/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Django URL Filter provides a safe way to filter data via human-frie
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/01/f4/b2e3f84e8e973df4f58061f6f227f246e0d5be590aaf7f2cf5ff9ca2ba0f/dj_url_filter-${REALVERSION}.tar.gz"
-SOURCEFILE="dj_url_filter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/01/f4/b2e3f84e8e973df4f58061f6f227f246e0d5be590aaf7f2cf5ff9ca2ba0f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

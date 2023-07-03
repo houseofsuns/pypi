@@ -15,8 +15,8 @@ DESCRIPTION="Outil de manipulation de SCD"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3a/ff/d0729921c16307823a9de87b46fd0a1c18c6fa12a1441d0da6c59052f145/scl_loader-${REALVERSION}.tar.gz"
-SOURCEFILE="scl_loader-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3a/ff/d0729921c16307823a9de87b46fd0a1c18c6fa12a1441d0da6c59052f145/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

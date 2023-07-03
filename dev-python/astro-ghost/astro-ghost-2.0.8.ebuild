@@ -15,8 +15,8 @@ DESCRIPTION="A package to associate transients with host galaxies, and a databas
 
 HOMEPAGE="https://github.com/pypa/sampleproject"
 LICENSE="GNU GPL v3+"
-SRC_URI="https://files.pythonhosted.org/packages/81/cc/e015f6d152a41fa71ae84b7e3ae9552d3c1720e031b70dfd4e8964151397/astro_ghost-${REALVERSION}.tar.gz"
-SOURCEFILE="astro_ghost-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/81/cc/e015f6d152a41fa71ae84b7e3ae9552d3c1720e031b70dfd4e8964151397/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

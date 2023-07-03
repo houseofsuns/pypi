@@ -15,8 +15,8 @@ DESCRIPTION="Qlattice utilities"
 
 HOMEPAGE=""
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/89/7e/86e82c9f06c877b3231fd44ef06c380432de03da2d33a725f3eab8d85caa/qlat_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="qlat_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/89/7e/86e82c9f06c877b3231fd44ef06c380432de03da2d33a725f3eab8d85caa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

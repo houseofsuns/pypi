@@ -15,8 +15,8 @@ DESCRIPTION="Deciphon scheduler wrapper"
 
 HOMEPAGE="https://github.com/EBI-Metagenomics/deciphon-sched-py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/97/cb/9d9adbcabbec238feb1edec28071b3e6de57e3f40f350a667c3aa4140456/deciphon_sched-${REALVERSION}.tar.gz"
-SOURCEFILE="deciphon_sched-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/97/cb/9d9adbcabbec238feb1edec28071b3e6de57e3f40f350a667c3aa4140456/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

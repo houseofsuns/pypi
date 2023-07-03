@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>|PyPI version| |apikey|apikey======Installation------------The ``apikey`` `git repo &lt;http://github.com/ulf1/apikey&gt;`__ is availableas `PyPi package &lt;https://pypi.org/project/apikey&gt;`__::   pip install &quot;apikey&gt;=0.2.1&quot;   pip install git+ssh://git@github.com/ulf1/apikey.gitUsage-----Store in default location ``$HOME/.apikey-store``.. code:: python   import apikey   apikey.save(&quot;service1&quot;, &quot;supersecret&quot;)   apikey.save(&quot;service2&quot;, &quot;donttellanyone&quot;)   apikey.save(&quot;service3&quot;, &quot;aboutthiskey&quot;)   key1 = apikey.load(&quot;service1&quot;)   key2 = apikey.load(&quot;service2&quot;)   key3 = apikey.load(&quot;service3&quot;)Store in a specific file.. code:: python   apikey.save(&quot;service42&quot;, &quot;topsecretkey&quot;, filename=&quot;/srv/.secretkeys&quot;)   key = apikey.load(&quot;service42&quot;, filename=&quot;/srv/.secretkeys&quot;)Appendix--------Install a virtual environment~~~~~~~~~~~~~~~~~~~~~~~~~~~~~.. code:: sh   python3.6 -m venv .venv   source .venv/bin/activate   pip install --upgrade pip   pip install -r requirements-dev.txtPython commands~~~~~~~~~~~~~~~-  Check syntax:   ``flake8 --ignore=F401 --exclude=$(grep -v '^#' .gitignore | xargs | sed -e 's/ /,/g')``-  Run Unit Tests: ``pytest``Publish.. code:: sh   pandoc README.md --from markdown --to rst -s -o README.rst   python setup.py sdist    twine upload -r pypi dist/*.. |PyPI version| image:: https://badge.fury.io/py/apikey.svg   :target: https://badge.fury.io/py/apikey.. |apikey| image:: https://snyk.io/advisor/python/apikey/badge.svg   :target: https://snyk.io/advisor/python/apikey</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="A native Pulumi package for creating and managing Google Cloud reso
 
 HOMEPAGE="https://pulumi.com"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/20/f5/295cfa9a3b42634fc32f48319fdf2805ab6526a0e47182d32a79201c0eb6/pulumi_google_native-${REALVERSION}.tar.gz"
-SOURCEFILE="pulumi_google_native-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/20/f5/295cfa9a3b42634fc32f48319fdf2805ab6526a0e47182d32a79201c0eb6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

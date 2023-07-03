@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="http://github.com/duckietown/duckietown_swarm"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/fd/d9/81397969ca2d6b93fc143f2c2c0de0260f4f20be52ab786a7e8ac087498c/duckietown_swarm-${REALVERSION}.tar.gz"
-SOURCEFILE="duckietown_swarm-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fd/d9/81397969ca2d6b93fc143f2c2c0de0260f4f20be52ab786a7e8ac087498c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

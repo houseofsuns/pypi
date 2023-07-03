@@ -15,8 +15,8 @@ DESCRIPTION="Pytest plugin to restrict the test types allowed"
 
 HOMEPAGE="https://github.com/adamchainz/pytest-restrict"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/02/b4/701d159767e72d3bd8eaaa609fab09f701a982f6390bbd14722c13a3a5a8/pytest_restrict-${REALVERSION}.tar.gz"
-SOURCEFILE="pytest_restrict-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/02/b4/701d159767e72d3bd8eaaa609fab09f701a982f6390bbd14722c13a3a5a8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

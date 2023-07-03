@@ -15,8 +15,8 @@ DESCRIPTION="Seclea integration."
 
 HOMEPAGE="https://github.com/seclea/seclea_ai"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/24/22/3568f31b12f6cc741f8d18587ace87766452dbe83e3387acf7defa3067bf/seclea_ai-${REALVERSION}.tar.gz"
-SOURCEFILE="seclea_ai-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/24/22/3568f31b12f6cc741f8d18587ace87766452dbe83e3387acf7defa3067bf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

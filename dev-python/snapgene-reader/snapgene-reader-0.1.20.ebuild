@@ -15,8 +15,8 @@ DESCRIPTION="Convert Snapgene *.dna files dict/json/biopython."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4d/f6/65adcb02387a23896867a8eddbfa2aa6cc350e8a89a18cc35c511f1108fd/snapgene_reader-${REALVERSION}.tar.gz"
-SOURCEFILE="snapgene_reader-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4d/f6/65adcb02387a23896867a8eddbfa2aa6cc350e8a89a18cc35c511f1108fd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

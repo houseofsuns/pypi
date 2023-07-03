@@ -15,8 +15,8 @@ DESCRIPTION="Suite of tools for working with count data"
 
 HOMEPAGE="https://bitbucket.org/bubioinformaticshub/de_toolkit"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/91/aa/79bd1aadde63756203c94e731829d74a0ce074e6df4b3c1134be804ea88f/de_toolkit-${REALVERSION}.tar.gz"
-SOURCEFILE="de_toolkit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/91/aa/79bd1aadde63756203c94e731829d74a0ce074e6df4b3c1134be804ea88f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

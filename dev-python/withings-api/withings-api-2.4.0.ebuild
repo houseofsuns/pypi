@@ -15,8 +15,8 @@ DESCRIPTION="Library for the Withings API"
 
 HOMEPAGE="https://github.com/vangorra/python_withings_api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f6/d8/30b7a5b2190a67a7266bd747eb0eedcf546105a6fa3c94cea39293ef6980/withings_api-${REALVERSION}.tar.gz"
-SOURCEFILE="withings_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f6/d8/30b7a5b2190a67a7266bd747eb0eedcf546105a6fa3c94cea39293ef6980/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

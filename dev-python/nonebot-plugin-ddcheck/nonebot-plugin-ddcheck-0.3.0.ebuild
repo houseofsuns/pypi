@@ -15,8 +15,8 @@ DESCRIPTION="Nonebot2 成分姬插件"
 
 HOMEPAGE="https://github.com/noneplugin/nonebot-plugin-ddcheck"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/51/7c/7cbbdfa23ab4ea10264054439cb9b3dc5f0ba85a978d8dff4f18d02bf7de/nonebot_plugin_ddcheck-${REALVERSION}.tar.gz"
-SOURCEFILE="nonebot_plugin_ddcheck-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/51/7c/7cbbdfa23ab4ea10264054439cb9b3dc5f0ba85a978d8dff4f18d02bf7de/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

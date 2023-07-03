@@ -15,8 +15,8 @@ DESCRIPTION="Neuroglancer compressed_segmentation codec."
 
 HOMEPAGE="https://github.com/janelia-flyem/compressedseg"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8b/a3/97d51d3fe8609508b7bb498cb26c631df011cf4bfd0f18245d7a6f51a70b/compressed_segmentation-${REALVERSION}.tar.gz"
-SOURCEFILE="compressed_segmentation-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8b/a3/97d51d3fe8609508b7bb498cb26c631df011cf4bfd0f18245d7a6f51a70b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

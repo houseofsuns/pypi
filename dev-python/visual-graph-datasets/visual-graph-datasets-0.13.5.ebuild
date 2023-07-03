@@ -15,8 +15,8 @@ DESCRIPTION="Datasets for the training of graph neural networks (GNNs) and subse
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/83/99/c94c292a0bbd72b9fa5f98192ba32d9be2f65a91d6db6359445a2ab56348/visual_graph_datasets-${REALVERSION}.tar.gz"
-SOURCEFILE="visual_graph_datasets-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/83/99/c94c292a0bbd72b9fa5f98192ba32d9be2f65a91d6db6359445a2ab56348/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

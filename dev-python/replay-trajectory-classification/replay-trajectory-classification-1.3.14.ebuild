@@ -15,8 +15,8 @@ DESCRIPTION="Classify replay trajectories."
 
 HOMEPAGE="https://github.com/Eden-Kramer-Lab/replay_trajectory_classification"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/83/17/34db69ad5d72eef8bdbcb2660e7fe8a3fb3065bb682e54d14c6280b49b0c/replay_trajectory_classification-${REALVERSION}.tar.gz"
-SOURCEFILE="replay_trajectory_classification-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/83/17/34db69ad5d72eef8bdbcb2660e7fe8a3fb3065bb682e54d14c6280b49b0c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

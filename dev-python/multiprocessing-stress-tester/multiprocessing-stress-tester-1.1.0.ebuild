@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/15/32/a3632b9ab039da46de445933eb5c9f178d40a46c68e17c669c23b147de8b/multiprocessing_stress_tester-${REALVERSION}.tar.gz"
-SOURCEFILE="multiprocessing_stress_tester-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/15/32/a3632b9ab039da46de445933eb5c9f178d40a46c68e17c669c23b147de8b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

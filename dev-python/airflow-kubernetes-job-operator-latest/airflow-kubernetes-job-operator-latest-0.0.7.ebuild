@@ -15,8 +15,8 @@ DESCRIPTION="An airflow job operator that executes a task as a Kubernetes job on
 
 HOMEPAGE="https://github.com/Fahadsaadullahkhan/KubernetesJobOperator"
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/58/30/982e67b7a77ab8e7cbd677805260412cad7f8514e50026df0541ec9f8fbd/airflow_kubernetes_job_operator_latest-${REALVERSION}.tar.gz"
-SOURCEFILE="airflow_kubernetes_job_operator_latest-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/58/30/982e67b7a77ab8e7cbd677805260412cad7f8514e50026df0541ec9f8fbd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

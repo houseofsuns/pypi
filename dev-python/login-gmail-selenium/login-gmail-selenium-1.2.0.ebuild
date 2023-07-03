@@ -15,8 +15,8 @@ DESCRIPTION="A python package for login google by selenium"
 
 HOMEPAGE="https://github.com/ngminhhoang1412/LoginGmailSelenium"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bc/21/64cf0fcf546675df61f95d6d1bc8ca3dc5de3124a41a2b3b76c18545ddb4/login_gmail_selenium-${REALVERSION}.tar.gz"
-SOURCEFILE="login_gmail_selenium-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bc/21/64cf0fcf546675df61f95d6d1bc8ca3dc5de3124a41a2b3b76c18545ddb4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

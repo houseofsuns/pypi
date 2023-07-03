@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># TypeFit[![Read the Docs](https://img.shields.io/readthedocs/typefit)](http://typefit.rtfd.io/)[![Build Status](https://img.shields.io/travis/Xowap/typefit)](https://travis-ci.org/Xowap/typefit)[![LGTM Grade](https://img.shields.io/lgtm/grade/python/github/Xowap/typefit)](https://lgtm.com/projects/g/Xowap/typefit/)Typing annotations make Python awesome, however it's complicated to keep yourdata annotated when it comes from external sources like APIs. The goal ofTypefit is to help you map that external data into type-annotated native Pythonobjects.```pythonfrom typefit import apifrom typing import NamedTuple, Textclass Item(NamedTuple):    id: int    title: Textclass HackerNews(api.SyncClient):    BASE_URL = &quot;https://hacker-news.firebaseio.com/v0/&quot;    @api.get(&quot;item/{item_id}.json&quot;)    def get_item(self, item_id: int) -&gt; Item:        passstory = HackerNews().get_item(42)print(story.title)# An alternative to VC: &amp;#34;Selling In&amp;#34;```This is the full example of a Hacker News API client. Its functionality islimited but in 14 lines counting white space you can build a type-safe clientfor Hacker News. You'll find a [full example](example/typefit_hn) attached ifyou're interested.## Documentation[✨ **Documentation is there** ✨](http://typefit.rtfd.io/)## LicenceThis library is provided under the terms of the [WTFPL](./LICENSE).If you find it useful, you can have a look at the[contributors](https://github.com/Xowap/typefit/graphs/contributors) page toknow who helped.</longdescription>
+</pkgmetadata>

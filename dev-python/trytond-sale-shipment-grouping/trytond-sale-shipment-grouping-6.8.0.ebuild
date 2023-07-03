@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module to group sale stock moves"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/4e/71/21cd5a8fca56f836daca343849fe8f624918c687d9f38fd79f9029a10c9b/trytond_sale_shipment_grouping-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_sale_shipment_grouping-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4e/71/21cd5a8fca56f836daca343849fe8f624918c687d9f38fd79f9029a10c9b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

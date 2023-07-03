@@ -15,8 +15,8 @@ DESCRIPTION="Small library to parse TLS records."
 
 HOMEPAGE="https://github.com/nabla-c0d3/tls_parser"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e8/78/c3e4399f18f734ea3051b1ab1a68bd34b7a8d13fb17b0aadc4c6a1810b10/tls_parser-${REALVERSION}.tar.gz"
-SOURCEFILE="tls_parser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e8/78/c3e4399f18f734ea3051b1ab1a68bd34b7a8d13fb17b0aadc4c6a1810b10/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

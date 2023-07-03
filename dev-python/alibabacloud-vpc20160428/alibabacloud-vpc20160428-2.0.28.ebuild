@@ -15,8 +15,8 @@ DESCRIPTION="Alibaba Cloud Virtual Private Cloud (20160428) SDK Library for Pyth
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/16/c8/c828e2a32c4bbb31dd68752bbae05609bb35a861796b31111d195fd72312/alibabacloud_vpc20160428-${REALVERSION}.tar.gz"
-SOURCEFILE="alibabacloud_vpc20160428-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/16/c8/c828e2a32c4bbb31dd68752bbae05609bb35a861796b31111d195fd72312/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bc/3e/b414e03300892d454f87bf367e7237e567440a7161d965821ef7001fc2fd/formic_opcua-${REALVERSION}.tar.gz"
-SOURCEFILE="formic_opcua-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bc/3e/b414e03300892d454f87bf367e7237e567440a7161d965821ef7001fc2fd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Covert SpikeGadgets rec files to binaries"
 
 HOMEPAGE="https://github.com/LorenFrankLab/rec_to_binaries"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0f/70/7c8402954c94f6c43ffdd788bfc05569f8d5cb27b0d316866e20fbd50f10/rec_to_binaries-${REALVERSION}.tar.gz"
-SOURCEFILE="rec_to_binaries-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0f/70/7c8402954c94f6c43ffdd788bfc05569f8d5cb27b0d316866e20fbd50f10/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

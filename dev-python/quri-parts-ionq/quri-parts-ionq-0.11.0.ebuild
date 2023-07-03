@@ -15,8 +15,8 @@ DESCRIPTION="A plugin to use IonQ with QIRI Parts"
 
 HOMEPAGE="https://github.com/QunaSys/quri-parts"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/74/e8/03057f7ebb2c0682da5fbe98609f7c54cbbafac83c86569c822194abe0e0/quri_parts_ionq-${REALVERSION}.tar.gz"
-SOURCEFILE="quri_parts_ionq-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/74/e8/03057f7ebb2c0682da5fbe98609f7c54cbbafac83c86569c822194abe0e0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

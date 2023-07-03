@@ -15,8 +15,8 @@ DESCRIPTION="Galaxy content importer"
 
 HOMEPAGE="https://github.com/ansible/galaxy-importer"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/03/f1/b43d1aaa0e5886f199459d44832f7814236c34f3f2b36f35f6f2ee42e8db/galaxy_importer-${REALVERSION}.tar.gz"
-SOURCEFILE="galaxy_importer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/03/f1/b43d1aaa0e5886f199459d44832f7814236c34f3f2b36f35f6f2ee42e8db/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

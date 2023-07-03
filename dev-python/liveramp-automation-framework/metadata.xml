@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>### 1. Descprition of the repository        This repository is to build a base autoamtion framework.         We would like to integrate the common helpers and libraries here and then build a lib.        Later the only thing is to add the cases according to the features.         Since most of the common helpers and libraries have been integrated to the lib,         you only need to import that lib and methods.### 2. How to use?        python setup.py sdist bdist_wheel   ### 3. Things need to follow:           </longdescription>
+</pkgmetadata>

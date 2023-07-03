@@ -15,8 +15,8 @@ DESCRIPTION="Python client SDK for Sendbee Public API"
 
 HOMEPAGE="https://github.com/sendbee/sendbee-python-client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8a/bb/3f84e945e0c8a886bb240f7466db4027b7f47bb6537e92e35593d3e69ddd/sendbee_api-${REALVERSION}.tar.gz"
-SOURCEFILE="sendbee_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8a/bb/3f84e945e0c8a886bb240f7466db4027b7f47bb6537e92e35593d3e69ddd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

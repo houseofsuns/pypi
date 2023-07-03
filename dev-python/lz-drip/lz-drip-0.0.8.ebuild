@@ -15,8 +15,8 @@ DESCRIPTION="Provides the LZ specific code to run a drip-drip"
 
 HOMEPAGE=""
 LICENSE="BSD-3-Clause-LBNL"
-SRC_URI="https://files.pythonhosted.org/packages/96/82/32f824c7ee145d997a3164cf92b83df5527c3e210b9358992502334d7cfd/lz_drip-${REALVERSION}.tar.gz"
-SOURCEFILE="lz_drip-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/96/82/32f824c7ee145d997a3164cf92b83df5527c3e210b9358992502334d7cfd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

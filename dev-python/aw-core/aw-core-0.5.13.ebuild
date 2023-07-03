@@ -15,8 +15,8 @@ DESCRIPTION="Core library for ActivityWatch"
 
 HOMEPAGE="https://activitywatch.net/"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/97/a8/995d460e4c18c69941abbb85f153f026a89c4bc45e491a3e915a6f0fbf94/aw_core-${REALVERSION}.tar.gz"
-SOURCEFILE="aw_core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/97/a8/995d460e4c18c69941abbb85f153f026a89c4bc45e491a3e915a6f0fbf94/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

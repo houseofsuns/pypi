@@ -15,8 +15,8 @@ DESCRIPTION="A library that provides a Python async interface to Nightscout"
 
 HOMEPAGE="https://github.com/marciogranzotto/py-nightscout"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cb/b1/84674ad7e5215da7ee68c273b70f709992b31ee3b1c8f7c14a72abc3db44/py_nightscout-${REALVERSION}.tar.gz"
-SOURCEFILE="py_nightscout-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cb/b1/84674ad7e5215da7ee68c273b70f709992b31ee3b1c8f7c14a72abc3db44/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

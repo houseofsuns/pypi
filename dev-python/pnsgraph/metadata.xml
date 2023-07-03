@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># P-graph for Process Network Synthesis (PNS)Early version of P-graph for PNS. Contains Python implementation of algorithms (Maximal Structure Generation, Solution Structure Generation) in P-graph</longdescription>
+</pkgmetadata>

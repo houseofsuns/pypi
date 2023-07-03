@@ -15,8 +15,8 @@ DESCRIPTION="Alibaba Cloud Dm (20151123) SDK Library for Python"
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/7b/10/fde03f3be352e5dc7fbe096fe6e6dfba35691093488e29a984b1c43007c2/alibabacloud_dm20151123-${REALVERSION}.tar.gz"
-SOURCEFILE="alibabacloud_dm20151123-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7b/10/fde03f3be352e5dc7fbe096fe6e6dfba35691093488e29a984b1c43007c2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

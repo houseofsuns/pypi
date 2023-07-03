@@ -15,8 +15,8 @@ DESCRIPTION="Cifrazia Action Transport System for Python"
 
 HOMEPAGE="https://adambrianbright.github.io/cats-python/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3d/8a/38c7c0b899e2717060136dd6b7963a8fa423d575fb3cdd541f49a86e6d20/cats_python-${REALVERSION}.tar.gz"
-SOURCEFILE="cats_python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3d/8a/38c7c0b899e2717060136dd6b7963a8fa423d575fb3cdd541f49a86e6d20/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

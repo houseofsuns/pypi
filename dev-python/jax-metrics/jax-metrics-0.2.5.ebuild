@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://cgarciae.github.io/jax_metrics"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d9/e1/fc767449db82f757d0effa76cf82f93168a0d52d04222094241a73bf6251/jax_metrics-${REALVERSION}.tar.gz"
-SOURCEFILE="jax_metrics-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d9/e1/fc767449db82f757d0effa76cf82f93168a0d52d04222094241a73bf6251/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

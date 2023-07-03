@@ -15,8 +15,8 @@ DESCRIPTION="VON agents"
 
 HOMEPAGE="https://github.com/PSPC-SPAC-buyandsell/von_agent"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/3c/15/6a3dc4f920cb2e5b23703dc4e453457397a46c4b14d349c4026cb630c499/von_agent-${REALVERSION}.tar.gz"
-SOURCEFILE="von_agent-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3c/15/6a3dc4f920cb2e5b23703dc4e453457397a46c4b14d349c4026cb630c499/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

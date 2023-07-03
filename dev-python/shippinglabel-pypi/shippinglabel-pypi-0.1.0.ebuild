@@ -15,8 +15,8 @@ DESCRIPTION="Shippinglabel extension for interacting with PyPI."
 
 HOMEPAGE="https://github.com/domdfcoding/shippinglabel-pypi"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/df/93/b3dd7282c9566202ee54899a482c6d98d4103193e2ffad3c14e18c518c92/shippinglabel_pypi-${REALVERSION}.tar.gz"
-SOURCEFILE="shippinglabel_pypi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/df/93/b3dd7282c9566202ee54899a482c6d98d4103193e2ffad3c14e18c518c92/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

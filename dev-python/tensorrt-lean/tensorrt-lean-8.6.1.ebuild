@@ -15,8 +15,8 @@ DESCRIPTION="A high performance deep learning inference library"
 
 HOMEPAGE="https://developer.nvidia.com/tensorrt"
 LICENSE="Proprietary"
-SRC_URI="https://files.pythonhosted.org/packages/3a/38/afa9ca9f02e97ca91c33d695279cf03124bdfc627d24221e884b7e62eebb/tensorrt_lean-${REALVERSION}.tar.gz"
-SOURCEFILE="tensorrt_lean-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3a/38/afa9ca9f02e97ca91c33d695279cf03124bdfc627d24221e884b7e62eebb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

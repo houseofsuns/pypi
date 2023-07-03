@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># corpus-judge![Github CI](https://github.com/justmars/corpus-judge/actions/workflows/main.yml/badge.svg)## DevelopmentSee [documentation](https://justmars.github.io/corpus-judge).1. Run `poetry install`2. Run `poetry shell`3. Run `pytest`</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="Library for interacting with UPB PIM."
 
 HOMEPAGE="https://github.com/gwww/upb-lib"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/90/25/8c62a8875c216f0b8a13c59209057c4a9bad7cba21374b08afe3292135c3/upb_lib-${REALVERSION}.tar.gz"
-SOURCEFILE="upb_lib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/90/25/8c62a8875c216f0b8a13c59209057c4a9bad7cba21374b08afe3292135c3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Read PLINK files into Pandas data frames"
 
 HOMEPAGE="https://github.com/limix/pandas-plink"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/32/98/3a9ce4ab7cc8274fdb7e9d2911cdb946e953280214c06f70943fc02b5b2a/pandas_plink-${REALVERSION}.tar.gz"
-SOURCEFILE="pandas_plink-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/32/98/3a9ce4ab7cc8274fdb7e9d2911cdb946e953280214c06f70943fc02b5b2a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

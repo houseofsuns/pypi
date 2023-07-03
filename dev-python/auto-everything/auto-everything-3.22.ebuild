@@ -15,8 +15,8 @@ DESCRIPTION="do automate things on Linux"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8e/bd/9fa3461133ca499b7b79a84b8adaab2f417f7b4f713245ce5d0bac4936ba/auto_everything-${REALVERSION}.tar.gz"
-SOURCEFILE="auto_everything-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8e/bd/9fa3461133ca499b7b79a84b8adaab2f417f7b4f713245ce5d0bac4936ba/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

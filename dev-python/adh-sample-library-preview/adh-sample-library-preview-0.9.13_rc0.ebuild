@@ -15,8 +15,8 @@ DESCRIPTION="A preview of an ADH (Aveva Data Hub) client library"
 
 HOMEPAGE="https://github.com/osisoft/sample-adh-sample_libraries-python"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/4b/e3/e10e3b77352b771f3bc6179259bc3fb0cd03784b8190bd3f58908f1cd0aa/adh_sample_library_preview-${REALVERSION}.tar.gz"
-SOURCEFILE="adh_sample_library_preview-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4b/e3/e10e3b77352b771f3bc6179259bc3fb0cd03784b8190bd3f58908f1cd0aa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

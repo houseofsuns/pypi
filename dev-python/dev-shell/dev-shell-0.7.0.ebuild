@@ -15,8 +15,8 @@ DESCRIPTION="Devloper shell for easy startup..."
 
 HOMEPAGE="https://github.com/jedie/dev-shell"
 LICENSE="GNU General Public License v3.0"
-SRC_URI="https://files.pythonhosted.org/packages/0d/f9/20e923e6b2eb0eade4d6ce5503de9d445a5855c596f31c58f167760cb287/dev_shell-${REALVERSION}.tar.gz"
-SOURCEFILE="dev_shell-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0d/f9/20e923e6b2eb0eade4d6ce5503de9d445a5855c596f31c58f167760cb287/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

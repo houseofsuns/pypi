@@ -15,8 +15,8 @@ DESCRIPTION="SRL Transformer model"
 
 HOMEPAGE="https://github.com/Riccorl/transformer-srl"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ff/82/291d469c3692938c12c8a5403a7c7a053159f383176a6ec3d8503137fdf6/transformer_srl-${REALVERSION}.tar.gz"
-SOURCEFILE="transformer_srl-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ff/82/291d469c3692938c12c8a5403a7c7a053159f383176a6ec3d8503137fdf6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Dash Extension Components for Smartphones"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b6/a5/e31c0879cc608929cdee3347bf23c440769d3069ad27ff80c2088565278a/thinks_dash_components-${REALVERSION}.tar.gz"
-SOURCEFILE="thinks_dash_components-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b6/a5/e31c0879cc608929cdee3347bf23c440769d3069ad27ff80c2088565278a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

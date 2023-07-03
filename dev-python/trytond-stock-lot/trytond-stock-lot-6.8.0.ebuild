@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module for lot of products"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/fc/79/181f4017bbc2c77392bb9fb364fa8503dcb68ad7e4d9830759d7ad79d063/trytond_stock_lot-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_stock_lot-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fc/79/181f4017bbc2c77392bb9fb364fa8503dcb68ad7e4d9830759d7ad79d063/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

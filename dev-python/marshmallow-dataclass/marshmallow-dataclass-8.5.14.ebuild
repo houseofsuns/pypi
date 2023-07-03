@@ -15,8 +15,8 @@ DESCRIPTION="Python library to convert dataclasses into marshmallow schemas."
 
 HOMEPAGE="https://github.com/lovasoa/marshmallow_dataclass"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/20/f2/1af94d8e8432ddd80e30983b3c7fdeb4cf7c9b0790d6d4855c4343dbecde/marshmallow_dataclass-${REALVERSION}.tar.gz"
-SOURCEFILE="marshmallow_dataclass-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/20/f2/1af94d8e8432ddd80e30983b3c7fdeb4cf7c9b0790d6d4855c4343dbecde/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

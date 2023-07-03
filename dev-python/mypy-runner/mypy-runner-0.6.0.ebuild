@@ -15,8 +15,8 @@ DESCRIPTION="Run mypy with options to filter errors and colorize output"
 
 HOMEPAGE="https://github.com/chadrik/mypy-runner"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ef/23/d3b8cee91d3bf7dea160d9e166b929582dcb4735fcdd0f845bc575414a02/mypy_runner-${REALVERSION}.tar.gz"
-SOURCEFILE="mypy_runner-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ef/23/d3b8cee91d3bf7dea160d9e166b929582dcb4735fcdd0f845bc575414a02/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

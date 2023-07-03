@@ -15,8 +15,8 @@ DESCRIPTION="Simple NLP library"
 
 HOMEPAGE="https://github.com/marekm4/simple_nlp_library"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/48/35/58acfb29b2f6146530d3bba5262bd70eaff9ae31a29fd17c5d936c670ac2/simple_nlp_library-${REALVERSION}.tar.gz"
-SOURCEFILE="simple_nlp_library-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/48/35/58acfb29b2f6146530d3bba5262bd70eaff9ae31a29fd17c5d936c670ac2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Python module for integration to Atrium Sports APIs"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e6/94/17f5e3c2c38418af1187c0cb398f1d8823d524030c786627ecb70455a9b8/atriumsports_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="atriumsports_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e6/94/17f5e3c2c38418af1187c0cb398f1d8823d524030c786627ecb70455a9b8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

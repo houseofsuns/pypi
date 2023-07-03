@@ -15,8 +15,8 @@ DESCRIPTION="Locust.io 1.X influxdb listener"
 
 HOMEPAGE="https://github.com/pjcalvo/locust-influxdb-listener"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d8/9d/b89cf463be978b03f39a1ccccebe1205044bab2ba035d4f822820dac4a72/locust_influxdb_listener-${REALVERSION}.tar.gz"
-SOURCEFILE="locust_influxdb_listener-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d8/9d/b89cf463be978b03f39a1ccccebe1205044bab2ba035d4f822820dac4a72/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

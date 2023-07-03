@@ -15,8 +15,8 @@ DESCRIPTION="Animated plotting extension for Pandas with Matplotlib"
 
 HOMEPAGE="https://github.com/JackMcKew/pandas_alive"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6e/36/ab7fc2dfbddbfae059dcfba2de63255faa78bdb8c9370498dd8f803b1df4/pandas_alive-${REALVERSION}.tar.gz"
-SOURCEFILE="pandas_alive-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6e/36/ab7fc2dfbddbfae059dcfba2de63255faa78bdb8c9370498dd8f803b1df4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

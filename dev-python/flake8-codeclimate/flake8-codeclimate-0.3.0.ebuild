@@ -15,8 +15,8 @@ DESCRIPTION="Code Climate reporting formatter plugin for Flake8"
 
 HOMEPAGE="https://github.com/bennylope/flake8-codeclimate"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/51/b0/7acd47afcf61c91b3ef308243b116dec69f245a4ab63dfa7595df038d5d4/flake8_codeclimate-${REALVERSION}.tar.gz"
-SOURCEFILE="flake8_codeclimate-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/51/b0/7acd47afcf61c91b3ef308243b116dec69f245a4ab63dfa7595df038d5d4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

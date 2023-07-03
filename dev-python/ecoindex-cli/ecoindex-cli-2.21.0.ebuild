@@ -15,8 +15,8 @@ DESCRIPTION="\`ecoindex-cli\` is a CLI tool that let you make ecoindex tests on 
 
 HOMEPAGE="https://www.ecoindex.fr"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/be/7c/7a1994ef1183fe31d4cf0350e08f2930592712b4d2490e58a06535d24fea/ecoindex_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="ecoindex_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/be/7c/7a1994ef1183fe31d4cf0350e08f2930592712b4d2490e58a06535d24fea/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

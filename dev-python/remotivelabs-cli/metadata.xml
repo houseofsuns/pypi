@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># RemotiveLabs - CLIUse this CLI with our cloud and broker as a compliment to code and web tools.*NOTE: This is currently an experimental version*## InstallRequires python 3```pip install -U remotivelabs-cliremotive --helpUsage: remotive [OPTIONS] COMMAND [ARGS]...╭─ Options ───────────────────────────────────────────────────────────────────────────────────────────────╮│ --install-completion          Install completion for the current shell.                                 ││ --show-completion             Show completion for the current shell, to copy it or customize the        ││                               installation.                                                             ││ --help                        Show this message and exit.                                               │╰─────────────────────────────────────────────────────────────────────────────────────────────────────────╯╭─ Commands ──────────────────────────────────────────────────────────────────────────────────────────────╮│ cloud            Manage resources in RemotiveCloud                                                      │╰─────────────────────────────────────────────────────────────────────────────────────────────────────────╯```</longdescription>
+</pkgmetadata>

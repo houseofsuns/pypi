@@ -15,8 +15,8 @@ DESCRIPTION="Attempt to shrink Pandas \`dtypes\` without losing data so you have
 
 HOMEPAGE="https://github.com/noklam/dtype_diet/tree/master/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/42/fb/f42cd291a1649b8dc1254cfd0aa38f0f1e9038f1a059cdc1c419876b6ed6/dtype_diet-${REALVERSION}.tar.gz"
-SOURCEFILE="dtype_diet-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/42/fb/f42cd291a1649b8dc1254cfd0aa38f0f1e9038f1a059cdc1c419876b6ed6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

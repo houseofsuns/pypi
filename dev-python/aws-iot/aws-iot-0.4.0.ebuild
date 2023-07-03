@@ -15,8 +15,8 @@ DESCRIPTION="easing interaction with AWS IoT"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a6/1d/9597eb583d4a921ecb33c3fee27dacfa40087c14e0324a7642c158eb6548/aws_iot-${REALVERSION}.tar.gz"
-SOURCEFILE="aws_iot-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a6/1d/9597eb583d4a921ecb33c3fee27dacfa40087c14e0324a7642c158eb6548/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

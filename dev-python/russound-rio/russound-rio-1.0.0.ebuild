@@ -15,8 +15,8 @@ DESCRIPTION="Asyncio client for Russound RIO devices"
 
 HOMEPAGE="https://github.com/chphilli/russound_rio"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f6/d6/0e50320d116f5ce4a35a7cb0bd1049f7b385e88840f42931a618bdf643d2/russound_rio-${REALVERSION}.tar.gz"
-SOURCEFILE="russound_rio-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f6/d6/0e50320d116f5ce4a35a7cb0bd1049f7b385e88840f42931a618bdf643d2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

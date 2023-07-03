@@ -15,8 +15,8 @@ DESCRIPTION="A simple python library for ICD-10 codes"
 
 HOMEPAGE="https://github.com/StefanoTrv/simple_icd_10"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2f/84/71d4fa9da767b4795f33f5f08dadf1814ea99e8144388316eba5ea0a0224/simple_icd_10-${REALVERSION}.tar.gz"
-SOURCEFILE="simple_icd_10-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2f/84/71d4fa9da767b4795f33f5f08dadf1814ea99e8144388316eba5ea0a0224/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

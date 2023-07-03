@@ -15,8 +15,8 @@ DESCRIPTION="A module for lazy loading of Python modules"
 
 HOMEPAGE="https://github.com/mnmelo/lazy_import"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/44/2e/5378f9b9cbc893826c2ecb022646c97ece9efbaad351adf89425fff33990/lazy_import-${REALVERSION}.tar.gz"
-SOURCEFILE="lazy_import-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/44/2e/5378f9b9cbc893826c2ecb022646c97ece9efbaad351adf89425fff33990/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A library of uninformed, informed and optimization search algorithm
 
 HOMEPAGE="https://pypi.python.org/pypi/py_search/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5b/ce/a0ad8f4c147e53c291b2931a8c491879811c6d93ec678d88f08574717a21/py_search-${REALVERSION}.tar.gz"
-SOURCEFILE="py_search-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5b/ce/a0ad8f4c147e53c291b2931a8c491879811c6d93ec678d88f08574717a21/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

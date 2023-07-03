@@ -15,8 +15,8 @@ DESCRIPTION="Alibaba Cloud cams (20200606) SDK Library for Python2"
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python2-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/3a/5a/ec81c7ee22799ad213c97efa33f7aaad1b41af0298939f6661e608752df8/alibabacloud_cams20200606_py2-${REALVERSION}.tar.gz"
-SOURCEFILE="alibabacloud_cams20200606_py2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3a/5a/ec81c7ee22799ad213c97efa33f7aaad1b41af0298939f6661e608752df8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

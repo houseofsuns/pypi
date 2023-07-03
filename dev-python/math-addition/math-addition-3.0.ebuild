@@ -15,8 +15,8 @@ DESCRIPTION="Math Addition"
 
 HOMEPAGE="https://www.github.com/shivamzaz/addition"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f2/f3/cbfcdcc947ce38f28d1122601c2e6e02b0d40dad8de9f8bcfb5b636ece98/math_addition-${REALVERSION}.tar.gz"
-SOURCEFILE="math_addition-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f2/f3/cbfcdcc947ce38f28d1122601c2e6e02b0d40dad8de9f8bcfb5b636ece98/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

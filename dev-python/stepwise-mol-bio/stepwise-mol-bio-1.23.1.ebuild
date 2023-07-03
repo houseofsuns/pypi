@@ -15,8 +15,8 @@ DESCRIPTION="Protocols relating to molecular biology, e.g. PCR."
 
 HOMEPAGE="https://github.com/kalekundert/stepwise_mol_bio"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/76/9c/aeddd763514143567c8c1fd42ff7cbbfac0f94f135e024385c776daefb58/stepwise_mol_bio-${REALVERSION}.tar.gz"
-SOURCEFILE="stepwise_mol_bio-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/76/9c/aeddd763514143567c8c1fd42ff7cbbfac0f94f135e024385c776daefb58/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

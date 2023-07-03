@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># HagisA GIS client```pip install hagis``````pythonfrom hagis import Layer, Pointclass City:    objectid: int    areaname: str    pop2000: int    geometry: Pointlayer = Layer(&quot;https://sampleserver6.arcgisonline.com/arcgis/rest/services/USA/MapServer/0&quot;, City)for city in layer.query():    print(city.areaname, city.pop2000, city.geometry.x, city.geometry.y)```[More examples](https://github.com/jshirota/Hagis/blob/main/demo.ipynb)</longdescription>
+</pkgmetadata>

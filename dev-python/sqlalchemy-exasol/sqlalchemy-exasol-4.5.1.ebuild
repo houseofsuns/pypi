@@ -15,8 +15,8 @@ DESCRIPTION="EXASOL dialect for SQLAlchemy"
 
 HOMEPAGE="https://www.exasol.com/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/95/02/fcdbd5736db1095fa7e2bc9ee1547c1f0b3ffbec9276f4d9127927b01ef4/sqlalchemy_exasol-${REALVERSION}.tar.gz"
-SOURCEFILE="sqlalchemy_exasol-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/95/02/fcdbd5736db1095fa7e2bc9ee1547c1f0b3ffbec9276f4d9127927b01ef4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

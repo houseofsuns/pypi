@@ -15,8 +15,8 @@ DESCRIPTION="A Looker Deployment Tool"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/4b/e4/4f62dab12735972d82eede271d42c81150ee514d6e2537ceda15514cee0e/looker_deployer-${REALVERSION}.tar.gz"
-SOURCEFILE="looker_deployer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4b/e4/4f62dab12735972d82eede271d42c81150ee514d6e2537ceda15514cee0e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

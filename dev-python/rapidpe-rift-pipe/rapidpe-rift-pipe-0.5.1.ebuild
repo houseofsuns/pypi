@@ -15,8 +15,8 @@ DESCRIPTION="Pipeline for running RapidPE and RIFT parameter estimation codes"
 
 HOMEPAGE=""
 LICENSE="GPL-2+"
-SRC_URI="https://files.pythonhosted.org/packages/9e/56/a23f9af5c0e3e89080c89d4f1aaf44ff73d9a018c6aae56ae36f50c1ba01/rapidpe_rift_pipe-${REALVERSION}.tar.gz"
-SOURCEFILE="rapidpe_rift_pipe-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9e/56/a23f9af5c0e3e89080c89d4f1aaf44ff73d9a018c6aae56ae36f50c1ba01/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># sparta-spannerSparta [Google Spanner](https://console.cloud.google.com/spanner/instances) library.## Usage```pythonimport osimport sparta.spannerfrom sparta.spanner.utils import zip_resultsproject_id = os.getenv(&quot;PROJECT_ID&quot;)instance_id = os.getenv(&quot;INSTANCE_ID&quot;)database_id = os.getenv(&quot;DATABASE_ID&quot;)db_service = sparta.spanner.DBService(    project_id=project_id,    instance_id=instance_id,    database_id=database_id,    pool_size=5,    session_request_timeout=2,)# Blockingresults = zip_results(db_service.execute_sql(&quot;SELECT 1 as my_field&quot;))assert results is not Noneassert len(results) == 1assert results[0] == {&quot;my_field&quot;: 1}# Non-Blockingdef task(snapshot):    result1 = zip_results(snapshot.execute_sql(&quot;SELECT 1 as my_field&quot;))    result2 = zip_results(snapshot.execute_sql(&quot;SELECT 2 as my_field&quot;))    return result1 + result2results = await db_service.run_in_snapshot(task, multi_use=True)assert results is not Noneassert len(results) == 2assert results[0] == {&quot;my_field&quot;: 1}assert results[1] == {&quot;my_field&quot;: 2}```</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="SDK for Webex APIs with special focus on Webex Calling specific end
 
 HOMEPAGE="https://github.com/jeokrohn/wxc_sdk"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d8/68/c157bc83e9a33eee6899ee7a39c3b96e368fc21dcec3ab053c83883e8ed2/wxc_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="wxc_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d8/68/c157bc83e9a33eee6899ee7a39c3b96e368fc21dcec3ab053c83883e8ed2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Xin's self created helper functions"
 
 HOMEPAGE="https://github.com/XINZHANG-ops/OwnUtilities"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e1/0d/e25f782b0a0da16352354ed3ec6692b62afbe57840f52ed141d646401a84/xin_util-${REALVERSION}.tar.gz"
-SOURCEFILE="xin_util-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e1/0d/e25f782b0a0da16352354ed3ec6692b62afbe57840f52ed141d646401a84/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="An MkDocs plugin that simplifies configuring page titles and their 
 
 HOMEPAGE="https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/52/92/3d5c99eae782aecfb9ad92ad77478a9863a72d5b560810f56d3a5cad1f63/mkdocs_awesome_pages_plugin-${REALVERSION}.tar.gz"
-SOURCEFILE="mkdocs_awesome_pages_plugin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/52/92/3d5c99eae782aecfb9ad92ad77478a9863a72d5b560810f56d3a5cad1f63/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

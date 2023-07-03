@@ -15,8 +15,8 @@ DESCRIPTION="Docker Compose Control Center is a small utility web application. I
 
 HOMEPAGE="https://github.com/usnistgov/docker-control-center"
 LICENSE="Public domain"
-SRC_URI="https://files.pythonhosted.org/packages/3f/99/fa0fb2f5c03993e92e1dc9ce023a5e16f338f0d877f1a743649297faf7f3/docker_compose_control_center-${REALVERSION}.tar.gz"
-SOURCEFILE="docker_compose_control_center-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3f/99/fa0fb2f5c03993e92e1dc9ce023a5e16f338f0d877f1a743649297faf7f3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

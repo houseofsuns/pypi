@@ -15,8 +15,8 @@ DESCRIPTION="The build backend used by PDM that supports latest packaging standa
 
 HOMEPAGE="https://github.com/pdm-project/pdm-backend"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/87/8e/2b9d0017e388c3f30fe61fe1da5b0cd3b52bd8bb1c0327f4307d77c43361/pdm_backend-${REALVERSION}.tar.gz"
-SOURCEFILE="pdm_backend-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/87/8e/2b9d0017e388c3f30fe61fe1da5b0cd3b52bd8bb1c0327f4307d77c43361/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

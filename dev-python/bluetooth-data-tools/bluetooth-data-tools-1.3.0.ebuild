@@ -15,8 +15,8 @@ DESCRIPTION="Tools for converting bluetooth data and packets"
 
 HOMEPAGE="https://github.com/bdraco/bluetooth-data-tools"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/a4/79/4b0d5407d71c15569ab5eb75995bac150629223e99987f6ea2d439d5c150/bluetooth_data_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="bluetooth_data_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a4/79/4b0d5407d71c15569ab5eb75995bac150629223e99987f6ea2d439d5c150/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

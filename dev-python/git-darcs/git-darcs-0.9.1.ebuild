@@ -15,8 +15,8 @@ DESCRIPTION=" Incremental import of git into darcs and back again"
 
 HOMEPAGE="https://github.com/ganwell/git-darcs"
 LICENSE="AGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/f1/59/f385f0603222f645788c9b6253ee8479362e8220892cd33620fbac38dbfc/git_darcs-${REALVERSION}.tar.gz"
-SOURCEFILE="git_darcs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f1/59/f385f0603222f645788c9b6253ee8479362e8220892cd33620fbac38dbfc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

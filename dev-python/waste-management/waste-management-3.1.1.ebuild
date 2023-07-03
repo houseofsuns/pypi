@@ -15,8 +15,8 @@ DESCRIPTION="Provides ability to query the Waste Management REST API."
 
 HOMEPAGE="https://github.com/dcmeglio/waste_management"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/19/8d/20beca6e6396a9711f4d8f76a2e640657affdc6c4ab7f5234c5d3a0235e4/waste_management-${REALVERSION}.tar.gz"
-SOURCEFILE="waste_management-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/19/8d/20beca6e6396a9711f4d8f76a2e640657affdc6c4ab7f5234c5d3a0235e4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

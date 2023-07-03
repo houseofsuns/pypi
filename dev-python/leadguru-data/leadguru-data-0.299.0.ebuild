@@ -15,8 +15,8 @@ DESCRIPTION="LGT data builds"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bc/c7/0c03cfbd35fea25902b15e6266eaa876977084ec927615a84719a225a6f0/leadguru_data-${REALVERSION}.tar.gz"
-SOURCEFILE="leadguru_data-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bc/c7/0c03cfbd35fea25902b15e6266eaa876977084ec927615a84719a225a6f0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

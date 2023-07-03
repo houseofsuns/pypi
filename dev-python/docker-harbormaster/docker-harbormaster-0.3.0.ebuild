@@ -15,8 +15,8 @@ DESCRIPTION="A supervisor for docker-compose apps."
 
 HOMEPAGE="https://gitlab.com/stavros/harbormaster"
 LICENSE="AGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/95/9d/b52852e3ee48f2a81ef97d11f9765bb0b45106bda0b30817ce81d56ef1c5/docker_harbormaster-${REALVERSION}.tar.gz"
-SOURCEFILE="docker_harbormaster-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/95/9d/b52852e3ee48f2a81ef97d11f9765bb0b45106bda0b30817ce81d56ef1c5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

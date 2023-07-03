@@ -15,8 +15,8 @@ DESCRIPTION="Feature-rich Github-flavored Markdown to html python and command li
 
 HOMEPAGE="https://github.com/phseiff/github-flavored-markdown-to-html/"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/bb/d2/9fd3029afb469651a3fbe7fa26cd5fef24c93819c4446035bc75938fc082/gh_md_to_html-${REALVERSION}.tar.gz"
-SOURCEFILE="gh_md_to_html-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bb/d2/9fd3029afb469651a3fbe7fa26cd5fef24c93819c4446035bc75938fc082/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

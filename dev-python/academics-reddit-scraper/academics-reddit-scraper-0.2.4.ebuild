@@ -15,8 +15,8 @@ DESCRIPTION="A Reddit post and comment scraper"
 
 HOMEPAGE="https://github.com/yourusername/reddit_scraper"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/05/a2/1acb74a8d142c32d2a2104e7cae27b422ba6560a168f7ff090c7c51f7e4b/academics_reddit_scraper-${REALVERSION}.tar.gz"
-SOURCEFILE="academics_reddit_scraper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/05/a2/1acb74a8d142c32d2a2104e7cae27b422ba6560a168f7ff090c7c51f7e4b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

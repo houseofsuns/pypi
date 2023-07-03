@@ -15,8 +15,8 @@ DESCRIPTION="A re-implementation of the asyncio mainloop on top of Trio"
 
 HOMEPAGE="https://github.com/python-trio/trio-asyncio"
 LICENSE="MIT -or- Apache License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/4f/3a/81a237ce611c4c807cf50646858db413c8a99597dc6a8ddd5f1da3a3f3ef/trio_asyncio-${REALVERSION}.tar.gz"
-SOURCEFILE="trio_asyncio-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4f/3a/81a237ce611c4c807cf50646858db413c8a99597dc6a8ddd5f1da3a3f3ef/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

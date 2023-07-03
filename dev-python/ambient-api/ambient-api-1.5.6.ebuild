@@ -15,8 +15,8 @@ DESCRIPTION="A Python class for accessing the Ambient Weather API."
 
 HOMEPAGE="https://github.com/avryhof/ambient_api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f8/68/1b1d29dce0f4b51f31b11edf1895ccaef3c023aaaf9dab8d38253a484bf2/ambient_api-${REALVERSION}.tar.gz"
-SOURCEFILE="ambient_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f8/68/1b1d29dce0f4b51f31b11edf1895ccaef3c023aaaf9dab8d38253a484bf2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

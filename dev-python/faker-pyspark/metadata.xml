@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># PySpark provider for Faker[![Python package](https://github.com/spsoni/faker_pyspark/actions/workflows/python-package.yml/badge.svg)](https://github.com/spsoni/faker_pyspark/actions/workflows/python-package.yml)[![CodeQL](https://github.com/spsoni/faker-pyspark/actions/workflows/codeql.yml/badge.svg)](https://github.com/spsoni/faker-pyspark/actions/workflows/codeql.yml)`faker-pyspark` is a PySpark DataFrame and Schema (StructType) provider for the `Faker` Python package.## Description`faker-pyspark` provides PySpark based fake data for testing purposes.  The definition of &quot;fake&quot; in this context really means &quot;random,&quot; as the data may look real.  However, I make no claims about accuracy, so do not use this as real data!## InstallationInstall with pip:``` bashpip install faker-pyspark```Add as a provider to your Faker instance:``` pythonfrom faker import Fakerfrom faker_pyspark import PySparkProviderfake = Faker()fake.add_provider(PySparkProvider)```### PySpark DataFrame, Schema and more``` python&gt;&gt;&gt; df           = fake.pyspark_dataframe()&gt;&gt;&gt; schema       = fake.pyspark_schema()&gt;&gt;&gt; df_updated   = fake.pyspark_update_dataframe(df)&gt;&gt;&gt; column_names = fake.pyspark_column_names()&gt;&gt;&gt; data         = fake.pyspark_data_dict_using_schema(schema)&gt;&gt;&gt; data         = fake.pyspark_data_dict()```### CLI `faker````bash$ faker pyspark_schema       -i faker_pyspark$ faker pyspark_dataframe    -i faker_pyspark$ faker pyspark_schema       -i faker_pyspark$ faker pyspark_column_names -i faker_pyspark$ faker pyspark_data_dict    -i faker_pyspark```</longdescription>
+</pkgmetadata>

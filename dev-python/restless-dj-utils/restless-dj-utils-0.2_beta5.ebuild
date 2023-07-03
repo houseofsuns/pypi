@@ -15,8 +15,8 @@ DESCRIPTION="Restless utils for django API development."
 
 HOMEPAGE="http://github.com/AdvancedThreatAnalytics/restless_dj_utils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/52/a9/81fd4ce4ecc0997c7a68ad0e35f8584299fdf9afffb69e3426853a4ed8dd/restless_dj_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="restless_dj_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/52/a9/81fd4ce4ecc0997c7a68ad0e35f8584299fdf9afffb69e3426853a4ed8dd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

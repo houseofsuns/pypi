@@ -15,8 +15,8 @@ DESCRIPTION="Docker forensic analysis tool."
 
 HOMEPAGE="https://github.com/google/docker-explorer"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/4f/58/9c68ed8337a22d3678f7e840405e46d0d5998bf607e70cdac41aeb1f27d3/docker_explorer-${REALVERSION}.tar.gz"
-SOURCEFILE="docker_explorer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4f/58/9c68ed8337a22d3678f7e840405e46d0d5998bf607e70cdac41aeb1f27d3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/dd/80/d86257b6272eaba83590f396706f2aa3d8c0cb01004dcdb677be7216b52a/ngff_zarr-${REALVERSION}.tar.gz"
-SOURCEFILE="ngff_zarr-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/dd/80/d86257b6272eaba83590f396706f2aa3d8c0cb01004dcdb677be7216b52a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

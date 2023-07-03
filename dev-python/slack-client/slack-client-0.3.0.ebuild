@@ -15,8 +15,8 @@ DESCRIPTION="An interface for the Slack web API"
 
 HOMEPAGE="https://github.com/Shir0kamii/slack-client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a6/c0/b5343a7fdd612f3310a6a3fad80bc49c06e9f52910524df9ebc3366b0b12/slack_client-${REALVERSION}.tar.gz"
-SOURCEFILE="slack_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a6/c0/b5343a7fdd612f3310a6a3fad80bc49c06e9f52910524df9ebc3366b0b12/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

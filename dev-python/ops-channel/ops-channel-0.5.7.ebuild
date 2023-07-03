@@ -15,8 +15,8 @@ DESCRIPTION="ops_channel util"
 
 HOMEPAGE="https://github.com/sjqzhang/ops_channel"
 LICENSE="MIT Licence"
-SRC_URI="https://files.pythonhosted.org/packages/2f/51/055205a8f14faca60f382d7c14061757c9f7ba49c4b6e9b03c7ead9ec133/ops_channel-${REALVERSION}.tar.gz"
-SOURCEFILE="ops_channel-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2f/51/055205a8f14faca60f382d7c14061757c9f7ba49c4b6e9b03c7ead9ec133/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

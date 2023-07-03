@@ -15,8 +15,8 @@ DESCRIPTION="Builds LLVM snapshots on Copr"
 
 HOMEPAGE="https://pypi.org/project/llvm_snapshot_builder/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/db/f1/4003b354c4b9a7b497cc8d0db0c06650b8e4796572ad4d7f8d901a26ccf8/llvm_snapshot_builder-${REALVERSION}.tar.gz"
-SOURCEFILE="llvm_snapshot_builder-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/db/f1/4003b354c4b9a7b497cc8d0db0c06650b8e4796572ad4d7f8d901a26ccf8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

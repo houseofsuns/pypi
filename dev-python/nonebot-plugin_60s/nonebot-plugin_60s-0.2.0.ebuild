@@ -15,8 +15,8 @@ DESCRIPTION="每天60秒读懂世界"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/86/1f/448acb3faf4772bb73a3c116c612a6822a6afbd221c0ba0a92149208dee1/nonebot_plugin_60s-${REALVERSION}.tar.gz"
-SOURCEFILE="nonebot_plugin_60s-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/86/1f/448acb3faf4772bb73a3c116c612a6822a6afbd221c0ba0a92149208dee1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

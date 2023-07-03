@@ -15,8 +15,8 @@ DESCRIPTION="Symphony REST API - Python Client"
 
 HOMEPAGE="https://github.com/SymphonyPlatformSolutions/symphony-api-client-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/43/f5/e8cc8b8c9471838fef33cfb8e5a71aad59c53b95a4d6dd2ab97e4502adf6/sym_api_client_python-${REALVERSION}.tar.gz"
-SOURCEFILE="sym_api_client_python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/43/f5/e8cc8b8c9471838fef33cfb8e5a71aad59c53b95a4d6dd2ab97e4502adf6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

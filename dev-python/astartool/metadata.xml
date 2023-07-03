@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>=========astartool=========toolkit for python.A.Star私房工具包唉~ 写了辣么多代码，总觉得过于臃肿。我把简单的代码能重复利用的摘出来作为工具包，以后就引用他了目前此代码包含一下几部分:1. data_structurekeymap: 两端键值的类字典linked_list: 链表queue: 链式队列2. error错误的包MethodNotFoundError: 方法错误ParameterError: 参数错误ParameterTypeError: 参数类型错误ParameterValueError: 参数值错误3. exception异常的包4. file  downloadhelper: 大文件下载  excelhelper: excel生成  filehelper: 简单的文件哈希、文件简单操作  imagehelper: 简单的图片转化,目前对base64转image5. numbernumber包包含数论/数字处理的一些基本代码equals_zero: 与numpy.isclose类似，只不过这个是专门判断0的equals_zero_any: 只要有一个为0,则返回True, 否则是Falseequals_zero_all: 只有全部为0, 返回True, 否则是Falseishex: 判断是否是16进制字符串gcd: 辗转相处法求最大公约lcm: 最小公倍数prime_factorzation: 筛选法求素数rotate_left: 循环左移6. projectfile_logging/std_logging 日志装饰器_project: 文档模板生成_platform: 判断当前运行环境操作系统类型time_clock: 对time.clock的改良，操作系统导致使用错误7. randomrandom 包包含随机数相关的函数generate_password: 随机密码random_digit_string: 随机生成n位数字random_string: 随机生成一个长度为n的字符串random_hex_string: 随机生成n位16进制字符串random_ip: 随机生成一个ip地址, 目前只支持IPV4security_random_hex: 基于国密SM3的KDF8. setuptool包含打包相关的函数_tool: 调用setup方法之前做一些处理_version: 版本管理9. string包含字符串处理相关函数is_email: 判断是不是邮箱is_mobile: 判断是否是手机号generate_number: 生成n位带时间编号check_number: 检验生成n位带时间编号to_binary: str转bytesto_text: bytes转strpassword_check 检查口令合法性的小工具</longdescription>
+</pkgmetadata>

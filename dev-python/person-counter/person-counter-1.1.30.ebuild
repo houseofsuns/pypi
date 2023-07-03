@@ -15,8 +15,8 @@ DESCRIPTION="Person Counter using torch"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d3/f2/ccc94a07615c188ff3e3548777a34ed08b64de0c38c035af0140a303dd74/person_counter-${REALVERSION}.tar.gz"
-SOURCEFILE="person_counter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d3/f2/ccc94a07615c188ff3e3548777a34ed08b64de0c38c035af0140a303dd74/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

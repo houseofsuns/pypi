@@ -15,8 +15,8 @@ DESCRIPTION="HERA Data Quality Metrics."
 
 HOMEPAGE="https://github.com/HERA-Team/hera_qm"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/b6/f5/e750ce634ccfd63d056034987b7471ad78808789cbee0336945899b3cef1/hera_qm-${REALVERSION}.tar.gz"
-SOURCEFILE="hera_qm-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b6/f5/e750ce634ccfd63d056034987b7471ad78808789cbee0336945899b3cef1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

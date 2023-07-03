@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>============================Django IPG HRMS contract============================Quick start============1. Add 'contract' to your INSTALLED_APPS settings like this::    INSTALLED_APPS = [        'contract'    ]2. Include the contract to project URLS like this::    path('contract/', include('contract.urls')),3. Run ``python manage.py migrate`` to create contract model4. Another Apps Need for this Apps::    4.1. custom::    4.2. employee::    4.3. user</longdescription>
+</pkgmetadata>

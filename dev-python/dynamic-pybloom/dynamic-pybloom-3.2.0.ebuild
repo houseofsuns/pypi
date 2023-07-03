@@ -15,8 +15,8 @@ DESCRIPTION="Dynamic Pybloom: A Suite of Probabilistic Data Structures"
 
 HOMEPAGE="http://github.com/srf5132/dynamic-pybloom/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/65/41/6f1daf633c94c6af1cbda1558cca4abb51f47f4caea275255fef92fefe8b/dynamic_pybloom-${REALVERSION}.tar.gz"
-SOURCEFILE="dynamic_pybloom-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/65/41/6f1daf633c94c6af1cbda1558cca4abb51f47f4caea275255fef92fefe8b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Nornir plugins used with SaltStack Salt-Nornir Proxy Minion"
 
 HOMEPAGE="https://github.com/dmulyalin/nornir-salt"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a6/e2/974f861f7c3f3c5cdc888a793af76d4113d54b3abbc0f8d886de8ce4b611/nornir_salt-${REALVERSION}.tar.gz"
-SOURCEFILE="nornir_salt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a6/e2/974f861f7c3f3c5cdc888a793af76d4113d54b3abbc0f8d886de8ce4b611/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="An extensible, asyncio interface to subprocesses, plus a set of wra
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e9/4d/087163f37a42d18c4d93464c528258e5b49458161ec93ff8865c7e92d808/yaclipy_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="yaclipy_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e9/4d/087163f37a42d18c4d93464c528258e5b49458161ec93ff8865c7e92d808/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

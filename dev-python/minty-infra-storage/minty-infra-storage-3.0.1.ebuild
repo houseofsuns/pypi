@@ -15,8 +15,8 @@ DESCRIPTION="Storage infrastructure for the Minty framework"
 
 HOMEPAGE="https://gitlab.com/minty-python/minty-infra-storage"
 LICENSE="EUPL license"
-SRC_URI="https://files.pythonhosted.org/packages/b7/13/954b14ba4eb30e9fdb05a9790ab26784136ff575682715f7ab66fed54d26/minty_infra_storage-${REALVERSION}.tar.gz"
-SOURCEFILE="minty_infra_storage-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b7/13/954b14ba4eb30e9fdb05a9790ab26784136ff575682715f7ab66fed54d26/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

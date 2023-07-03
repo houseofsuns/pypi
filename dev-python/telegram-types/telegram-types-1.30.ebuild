@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/telectron"
 LICENSE="LGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/78/79/0c126f6f5a46e25919628b4195f6050694d5b1eec6661ac14fa0c3035b34/telegram_types-${REALVERSION}.tar.gz"
-SOURCEFILE="telegram_types-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/78/79/0c126f6f5a46e25919628b4195f6050694d5b1eec6661ac14fa0c3035b34/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

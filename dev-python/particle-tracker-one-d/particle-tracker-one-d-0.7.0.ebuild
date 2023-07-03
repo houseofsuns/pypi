@@ -15,8 +15,8 @@ DESCRIPTION="Particle tracking in Kymographs"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7b/1a/288639b5c47924f0995fa9c353880aeeb7ad64eb7e859712b68cff4d0d55/particle_tracker_one_d-${REALVERSION}.tar.gz"
-SOURCEFILE="particle_tracker_one_d-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7b/1a/288639b5c47924f0995fa9c353880aeeb7ad64eb7e859712b68cff4d0d55/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

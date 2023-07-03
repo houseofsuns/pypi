@@ -15,8 +15,8 @@ DESCRIPTION="Library for bumping project version like a pro"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/70/a2/a84d89721fc35a05ae08388161f79eecfb1c6fab333f5a42eb4924968c47/dephell_versioning-${REALVERSION}.tar.gz"
-SOURCEFILE="dephell_versioning-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/70/a2/a84d89721fc35a05ae08388161f79eecfb1c6fab333f5a42eb4924968c47/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="AWS SQS queue consumer/publisher"
 
 HOMEPAGE="http://github.com/Media-Platforms/py-sqs-queue"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/88/07/411edd7e964acf147c6f59c219f28d105d4d00af891c22ab515abbb6f4d0/sqs_queue-${REALVERSION}.tar.gz"
-SOURCEFILE="sqs_queue-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/88/07/411edd7e964acf147c6f59c219f28d105d4d00af891c22ab515abbb6f4d0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

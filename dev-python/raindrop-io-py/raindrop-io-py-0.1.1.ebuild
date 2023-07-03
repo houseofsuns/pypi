@@ -15,8 +15,8 @@ DESCRIPTION="API and terminal-based CLI for Raindrop.io bookmark manager"
 
 HOMEPAGE="https://github.com/PBorocz/raindrop-io-py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0d/4c/888b702f86ee5a0c8a9d415dfae53e8140f998a11075e7807b1ae7736034/raindrop_io_py-${REALVERSION}.tar.gz"
-SOURCEFILE="raindrop_io_py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0d/4c/888b702f86ee5a0c8a9d415dfae53e8140f998a11075e7807b1ae7736034/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

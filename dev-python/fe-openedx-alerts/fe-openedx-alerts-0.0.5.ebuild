@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b4/2d/6d4f3be8af7c8ef5799269a4818eb8c04ec50b40d3883f800de472054981/fe_openedx_alerts-${REALVERSION}.tar.gz"
-SOURCEFILE="fe_openedx_alerts-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b4/2d/6d4f3be8af7c8ef5799269a4818eb8c04ec50b40d3883f800de472054981/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

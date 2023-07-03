@@ -15,8 +15,8 @@ DESCRIPTION="Use fast UDPipe models directly in spaCy"
 
 HOMEPAGE="https://github.com/TakeLab/spacy-udpipe"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/dc/27/cb47e9f96d3871c4f77a53beca23e152f93621a726ddd11fef4818a066e6/spacy_udpipe-${REALVERSION}.tar.gz"
-SOURCEFILE="spacy_udpipe-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/dc/27/cb47e9f96d3871c4f77a53beca23e152f93621a726ddd11fef4818a066e6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

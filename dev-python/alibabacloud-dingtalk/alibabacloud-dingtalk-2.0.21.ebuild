@@ -15,8 +15,8 @@ DESCRIPTION="Alibaba Cloud Dingtalk SDK Library for Python"
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/16/ec/78119d6146518a404ab9bf84353701078fbb0e5c60148a3ade52239b1958/alibabacloud_dingtalk-${REALVERSION}.tar.gz"
-SOURCEFILE="alibabacloud_dingtalk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/16/ec/78119d6146518a404ab9bf84353701078fbb0e5c60148a3ade52239b1958/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

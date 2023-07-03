@@ -15,8 +15,8 @@ DESCRIPTION="API key-based security for FastAPI"
 
 HOMEPAGE="https://github.com/mrtolkien/fastapi_simple_security"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a8/50/ccf3d210ec8fa9ba1acc051888bb249595f4eecc32289b26b0045e878ab3/fastapi_simple_security-${REALVERSION}.tar.gz"
-SOURCEFILE="fastapi_simple_security-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a8/50/ccf3d210ec8fa9ba1acc051888bb249595f4eecc32289b26b0045e878ab3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

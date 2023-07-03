@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9a/fe/2780e78fc58b755c5c654c7f1dd64d4248de98267b2c34d68e4d06d4b9de/rz_bindings-${REALVERSION}.tar.gz"
-SOURCEFILE="rz_bindings-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9a/fe/2780e78fc58b755c5c654c7f1dd64d4248de98267b2c34d68e4d06d4b9de/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

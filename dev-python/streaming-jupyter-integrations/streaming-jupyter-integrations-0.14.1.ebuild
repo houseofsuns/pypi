@@ -15,8 +15,8 @@ DESCRIPTION="JupyterNotebook Flink magics"
 
 HOMEPAGE="https://github.com/getindata/streaming-jupyter-integrations"
 LICENSE="Apache Software License Apache 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c5/5c/707bbf416ee9eb4aa4d2fcce5ba9dee2b4b002d2dd7cef073423bbb72a9f/streaming_jupyter_integrations-${REALVERSION}.tar.gz"
-SOURCEFILE="streaming_jupyter_integrations-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c5/5c/707bbf416ee9eb4aa4d2fcce5ba9dee2b4b002d2dd7cef073423bbb72a9f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

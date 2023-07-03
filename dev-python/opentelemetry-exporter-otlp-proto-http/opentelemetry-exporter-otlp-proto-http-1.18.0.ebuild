@@ -15,8 +15,8 @@ DESCRIPTION="OpenTelemetry Collector Protobuf over HTTP Exporter"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python/tree/main/exporter/opentelemetry-exporter-otlp-proto-http"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a1/ea/c23b75b076885cf4760fe4fb46d67304dba360d5d24a6ea5434c8cda7165/opentelemetry_exporter_otlp_proto_http-${REALVERSION}.tar.gz"
-SOURCEFILE="opentelemetry_exporter_otlp_proto_http-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a1/ea/c23b75b076885cf4760fe4fb46d67304dba360d5d24a6ea5434c8cda7165/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

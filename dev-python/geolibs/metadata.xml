@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Engine======A wrapper library that integrates GeoEngine and MMLab libraries for GeoSpatial ML development.Installation------------.. code:: shell   pip install torch torchvision   pip install -U openmim   mim install &quot;mmengine&gt;=0.6.0&quot;   mim install &quot;mmcv&gt;=2.0.0rc4,&lt;2.1.0&quot;   mim install &quot;mmdet&gt;=3.0.0rc6,&lt;3.1.0&quot;   mim install &quot;mmyolo&quot;   mim install &quot;mmsegmentation&gt;=1.0.0&quot;   mim install &quot;mmpretrain&gt;=1.0.0rc7&quot;   pip install geolibsLicense-------GPLv3Documentation-------------View documentation ``here &lt;https://engine.granular.ai/&gt;``\ \_</longdescription>
+</pkgmetadata>

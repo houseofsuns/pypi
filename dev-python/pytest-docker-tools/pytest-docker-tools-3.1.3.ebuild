@@ -15,8 +15,8 @@ DESCRIPTION="Docker integration tests for pytest"
 
 HOMEPAGE="https://github.com/Jc2k/pytest-docker-tools"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/4f/a2/620ff42d20a2c2b107805a12633a2cb9eb01db3a4eb371a6bc1f71728217/pytest_docker_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="pytest_docker_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4f/a2/620ff42d20a2c2b107805a12633a2cb9eb01db3a4eb371a6bc1f71728217/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

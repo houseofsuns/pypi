@@ -15,8 +15,8 @@ DESCRIPTION="Import CAD files to Shapely geometry"
 
 HOMEPAGE="https://github.com/aegis1980/cad_to_shapely"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c8/90/9b81553073d497d8de555a837c6817a3d3ba9e4ac16be560b8336ba39467/cad_to_shapely-${REALVERSION}.tar.gz"
-SOURCEFILE="cad_to_shapely-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c8/90/9b81553073d497d8de555a837c6817a3d3ba9e4ac16be560b8336ba39467/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Sphinx extension to create tags for documentation pages."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c0/f1/7188fe692e9bf5a366ed7d8db975ba2ed5c0dfac5a55892f496c6304140f/sphinx_tags-${REALVERSION}.tar.gz"
-SOURCEFILE="sphinx_tags-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c0/f1/7188fe692e9bf5a366ed7d8db975ba2ed5c0dfac5a55892f496c6304140f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

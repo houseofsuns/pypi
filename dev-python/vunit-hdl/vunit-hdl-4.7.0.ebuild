@@ -15,8 +15,8 @@ DESCRIPTION="VUnit is an open source unit testing framework for VHDL/SystemVeril
 
 HOMEPAGE="https://github.com/VUnit/vunit"
 LICENSE="Mozilla Public License 2.0 MPL 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/06/4e/bb6c6c1aaccc19f5ebd261fa241a044b501a3704dcb8103b769335badbc4/vunit_hdl-${REALVERSION}.tar.gz"
-SOURCEFILE="vunit_hdl-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/06/4e/bb6c6c1aaccc19f5ebd261fa241a044b501a3704dcb8103b769335badbc4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

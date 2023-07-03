@@ -15,8 +15,8 @@ DESCRIPTION="A simple journal for use at home by the family"
 
 HOMEPAGE="https://github.com/cidrblock/home_journal"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e2/63/1da5b85bd14884209aff14c4885a1bfb6fe0b2b6a814453993fa6cf09e80/home_journal-${REALVERSION}.tar.gz"
-SOURCEFILE="home_journal-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e2/63/1da5b85bd14884209aff14c4885a1bfb6fe0b2b6a814453993fa6cf09e80/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

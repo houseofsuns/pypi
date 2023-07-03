@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Expert Intelligence ToolboxExpert Intelligence is a company working with data, and with geographies. These are our tools.This is an experimental v0.1, which currently serves no function other than testing.You (Mac) may also need to install lxml to use this, which will need to be downloaded separately first.```xcode-select --installpip install lxml==4.9.2```</longdescription>
+</pkgmetadata>

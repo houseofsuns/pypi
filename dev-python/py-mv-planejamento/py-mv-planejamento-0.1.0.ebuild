@@ -15,8 +15,8 @@ DESCRIPTION="A small example package"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6a/71/3dc9f34469521ed19cd7e536a6fd9ef899f87f01febf5b16234c81fae187/py_mv_planejamento-${REALVERSION}.tar.gz"
-SOURCEFILE="py_mv_planejamento-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6a/71/3dc9f34469521ed19cd7e536a6fd9ef899f87f01febf5b16234c81fae187/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

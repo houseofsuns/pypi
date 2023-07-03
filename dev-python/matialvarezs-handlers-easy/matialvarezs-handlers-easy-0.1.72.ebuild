@@ -15,8 +15,8 @@ DESCRIPTION="Easy handler functions"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cd/7d/3a18d38d231f45649abc8f4926fd4ea156c0eb963ca2f0b33998a1ae6e6a/matialvarezs_handlers_easy-${REALVERSION}.tar.gz"
-SOURCEFILE="matialvarezs_handlers_easy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cd/7d/3a18d38d231f45649abc8f4926fd4ea156c0eb963ca2f0b33998a1ae6e6a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

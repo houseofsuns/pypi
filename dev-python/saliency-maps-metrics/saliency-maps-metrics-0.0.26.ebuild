@@ -15,8 +15,8 @@ DESCRIPTION="This repository implements the faithfulness metrics mentionned in t
 
 HOMEPAGE="https://github.com/TristanGomez44/metrics-saliency-maps"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/79/ec/d67ed95f785ddb6b54f0fec2528b74771a7b8bc7c8c675d3f699ee840a90/saliency_maps_metrics-${REALVERSION}.tar.gz"
-SOURCEFILE="saliency_maps_metrics-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/79/ec/d67ed95f785ddb6b54f0fec2528b74771a7b8bc7c8c675d3f699ee840a90/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

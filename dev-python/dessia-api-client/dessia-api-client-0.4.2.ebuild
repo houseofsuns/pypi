@@ -15,8 +15,8 @@ DESCRIPTION="Python client to interact with DessiA API"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e8/d6/2fc1b86237be8c64acc3e9016027189e4d6d4a546730634fa33f99e5269a/dessia_api_client-${REALVERSION}.tar.gz"
-SOURCEFILE="dessia_api_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e8/d6/2fc1b86237be8c64acc3e9016027189e4d6d4a546730634fa33f99e5269a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

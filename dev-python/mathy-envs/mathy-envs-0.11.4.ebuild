@@ -15,8 +15,8 @@ DESCRIPTION="Learning environments for solving math problems step-by-step"
 
 HOMEPAGE="https://mathy.ai"
 LICENSE="All rights reserved"
-SRC_URI="https://files.pythonhosted.org/packages/50/e3/6257fe25c194ac4e1bf6dc70c824073018be162e5b10a98d39c55d849cce/mathy_envs-${REALVERSION}.tar.gz"
-SOURCEFILE="mathy_envs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/50/e3/6257fe25c194ac4e1bf6dc70c824073018be162e5b10a98d39c55d849cce/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

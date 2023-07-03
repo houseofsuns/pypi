@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Chart of accounts 'SKR04'=========================- A german account chart module for the Tryton application platform.- Converted and adapted by the module 'account_de_skr03'- Contains the accounts according to SKR04Install=======  pip install mds-account-de-skr04Changes=======*6.8.7 - 23.06.2023*- compatiblity to Tryton 6.8</longdescription>
+</pkgmetadata>

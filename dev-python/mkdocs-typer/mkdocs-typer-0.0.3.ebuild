@@ -15,8 +15,8 @@ DESCRIPTION="An MkDocs extension to generate documentation for Typer command lin
 
 HOMEPAGE="https://github.com/bruce-szalwinski/mkdocs-typer"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/91/1a/b2ac21a04c8e487a1fccc3982f9d91319b83a64c3fc3dc51d89658f43b57/mkdocs_typer-${REALVERSION}.tar.gz"
-SOURCEFILE="mkdocs_typer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/91/1a/b2ac21a04c8e487a1fccc3982f9d91319b83a64c3fc3dc51d89658f43b57/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

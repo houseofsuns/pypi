@@ -15,8 +15,8 @@ DESCRIPTION="A simple python implementation of Fuzzy C-means algorithm."
 
 HOMEPAGE="https://github.com/omadson/fuzzy-c-means"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9e/a1/fe18a9cb3a65fe0fbe2e96ec6acf0753a09fe4d24868f42530f7db5df22d/fuzzy_c_means-${REALVERSION}.tar.gz"
-SOURCEFILE="fuzzy_c_means-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9e/a1/fe18a9cb3a65fe0fbe2e96ec6acf0753a09fe4d24868f42530f7db5df22d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

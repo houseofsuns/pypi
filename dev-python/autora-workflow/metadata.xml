@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># WorkflowWorkflow management tools for AutoRA.## Quickstart GuideYou will need:- `python` 3.8 or greater: [https://www.python.org/downloads/](https://www.python.org/downloads/)Workflow is a part of the `autora` package:```shellpip install -U &quot;autora&quot;```!!! success    It is recommended to use a `python` environment manager like `virtualenv`.Check your installation by running:```shellpython -m autora.workflow --help```</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="Convert query parameters from API urls to MongoDB queries !"
 
 HOMEPAGE="https://pypi.org/project/mongo-queries-manager/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/03/8e/1c633143856fe67d5a9b53d4319c31dc2475ea30f0fef320fd2963f4ed52/mongo_queries_manager-${REALVERSION}.tar.gz"
-SOURCEFILE="mongo_queries_manager-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/03/8e/1c633143856fe67d5a9b53d4319c31dc2475ea30f0fef320fd2963f4ed52/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

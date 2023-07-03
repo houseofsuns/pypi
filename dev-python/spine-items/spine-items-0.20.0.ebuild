@@ -15,8 +15,8 @@ DESCRIPTION="Spine project items"
 
 HOMEPAGE="https://github.com/spine-tools/spine-items"
 LICENSE="LGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/aa/5c/35c731532fe4075c813bf6d2f23464e0e5f20576bbde01d8e3f6cd3824ac/spine_items-${REALVERSION}.tar.gz"
-SOURCEFILE="spine_items-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/aa/5c/35c731532fe4075c813bf6d2f23464e0e5f20576bbde01d8e3f6cd3824ac/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

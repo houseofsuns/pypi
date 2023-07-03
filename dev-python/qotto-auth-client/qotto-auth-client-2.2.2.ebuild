@@ -15,8 +15,8 @@ DESCRIPTION="Qotto/QottoAuthClient"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ad/3d/21cf685b38f118d3260e7f69ce58275fbda1aa8e2e1369c9a3a54facc268/qotto_auth_client-${REALVERSION}.tar.gz"
-SOURCEFILE="qotto_auth_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ad/3d/21cf685b38f118d3260e7f69ce58275fbda1aa8e2e1369c9a3a54facc268/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

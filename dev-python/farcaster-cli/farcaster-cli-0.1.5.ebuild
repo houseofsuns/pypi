@@ -15,8 +15,8 @@ DESCRIPTION="Farcaster CLI Client"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/01/c0/24834a8e1bc497b892acbd7c0ed38257fda213c30d3e90d46cca71be63a2/farcaster_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="farcaster_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/01/c0/24834a8e1bc497b892acbd7c0ed38257fda213c30d3e90d46cca71be63a2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

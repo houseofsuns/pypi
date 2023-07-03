@@ -15,8 +15,8 @@ DESCRIPTION="Common Fate core schema types"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/85/74/474b20d320991521dd68ffa2f3386e95dfce93e4b2febc4e49c7ed363d9e/common_fate_schema-${REALVERSION}.tar.gz"
-SOURCEFILE="common_fate_schema-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/85/74/474b20d320991521dd68ffa2f3386e95dfce93e4b2febc4e49c7ed363d9e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

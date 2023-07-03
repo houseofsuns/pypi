@@ -15,8 +15,8 @@ DESCRIPTION="A small example package"
 
 HOMEPAGE="https://github.com/valluzzi/gecosistema_database.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f6/12/50bcd149cdfddd159e37d0943a32f9a01b7076d6021df7cdb00babd23fec/gecosistema_database-${REALVERSION}.tar.gz"
-SOURCEFILE="gecosistema_database-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f6/12/50bcd149cdfddd159e37d0943a32f9a01b7076d6021df7cdb00babd23fec/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

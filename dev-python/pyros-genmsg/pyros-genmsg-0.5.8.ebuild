@@ -15,8 +15,8 @@ DESCRIPTION=" Standalone Python library for generating ROS message and service d
 
 HOMEPAGE="https://github.com/ros/genmsg"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/f8/ca/96c243af4feb684bbb0f4126e6b3d2d330cc935e6a3c31fb1d7194ef4729/pyros_genmsg-${REALVERSION}.tar.gz"
-SOURCEFILE="pyros_genmsg-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f8/ca/96c243af4feb684bbb0f4126e6b3d2d330cc935e6a3c31fb1d7194ef4729/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

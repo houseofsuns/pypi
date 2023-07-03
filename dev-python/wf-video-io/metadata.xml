@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># video_ioTools for accessing Wildflower video data## TestTests are written with *behave* and *pytest*. As of 11/10/2022, *behave* tests are not functional.__Run pytest tests__```pytest```## Task list* ~~Add ability to request concatenation of videos~~ (11/7/2022)</longdescription>
+</pkgmetadata>

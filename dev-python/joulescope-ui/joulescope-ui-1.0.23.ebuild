@@ -15,8 +15,8 @@ DESCRIPTION="Joulescope™ graphical user interface"
 
 HOMEPAGE="https://www.joulescope.com"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/da/66/3d399d7a444a136a831d8b9764712c3bdf9e3236b905185bf4aa3b2986fa/joulescope_ui-${REALVERSION}.tar.gz"
-SOURCEFILE="joulescope_ui-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/da/66/3d399d7a444a136a831d8b9764712c3bdf9e3236b905185bf4aa3b2986fa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="This python module provides parser and validator for JSON files and
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/61/1f/a0245731ef929811f466d8af8325e3ae0a076898da498f7fac78b7c88645/jk_json-${REALVERSION}.tar.gz"
-SOURCEFILE="jk_json-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/61/1f/a0245731ef929811f466d8af8325e3ae0a076898da498f7fac78b7c88645/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

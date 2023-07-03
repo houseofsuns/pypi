@@ -15,8 +15,8 @@ DESCRIPTION="Imitating an Internet user by mimicking popular web traffic."
 
 HOMEPAGE="https://github.com/deedy5/duckduckgo_search"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/25/c9/203b261cf06558196eccb8544ad8f6d05948c259d1c50767667720716ec9/fake_traffic-${REALVERSION}.tar.gz"
-SOURCEFILE="fake_traffic-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/25/c9/203b261cf06558196eccb8544ad8f6d05948c259d1c50767667720716ec9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

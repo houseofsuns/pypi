@@ -15,8 +15,8 @@ DESCRIPTION="sentence segmenter for japanese text"
 
 HOMEPAGE="https://github.com/wwwcojp"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/73/8d/917bdefdaae77934c8b84293e6a40ee1609d28c49535d02c0efd55fe0748/ja_sentence_segmenter-${REALVERSION}.tar.gz"
-SOURCEFILE="ja_sentence_segmenter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/73/8d/917bdefdaae77934c8b84293e6a40ee1609d28c49535d02c0efd55fe0748/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

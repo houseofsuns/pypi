@@ -15,8 +15,8 @@ DESCRIPTION="mytoos"
 
 HOMEPAGE="https://github.com/MemoryD/mxgames"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c3/44/0d9d7016d51971518388a2a62652224fbb466f5ef140daffbf5d9f500b6d/mytools_wjs-${REALVERSION}.tar.gz"
-SOURCEFILE="mytools_wjs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c3/44/0d9d7016d51971518388a2a62652224fbb466f5ef140daffbf5d9f500b6d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

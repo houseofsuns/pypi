@@ -15,8 +15,8 @@ DESCRIPTION="Calendar Plot made with Plotly"
 
 HOMEPAGE="https://github.com/brunorosilva/plotly-calplot"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9e/30/0f5480d73f7a3324ca8b2b1d8a4a09d11dd258cf85cea85d3826f2dc43b0/plotly_calplot-${REALVERSION}.tar.gz"
-SOURCEFILE="plotly_calplot-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9e/30/0f5480d73f7a3324ca8b2b1d8a4a09d11dd258cf85cea85d3826f2dc43b0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Client for Errormator reporting -  supporting WSGI and django  (htt
 
 HOMEPAGE="https://errormator.com"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/0c/19/9f2c39b2081140de6912a097abca5226e0c09237858944c98fa5fbee91be/errormator_client-${REALVERSION}.tar.gz"
-SOURCEFILE="errormator_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0c/19/9f2c39b2081140de6912a097abca5226e0c09237858944c98fa5fbee91be/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

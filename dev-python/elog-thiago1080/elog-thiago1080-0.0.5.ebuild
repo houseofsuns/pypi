@@ -15,8 +15,8 @@ DESCRIPTION="This is a Python package that provides decorators for logging funct
 
 HOMEPAGE="https://github.com/thiago1080/log_exc_decorator"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/94/17/eab54d34acdd5eea6a2f5c068373e0e044c940223875cb52d36fb993b834/elog_thiago1080-${REALVERSION}.tar.gz"
-SOURCEFILE="elog_thiago1080-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/94/17/eab54d34acdd5eea6a2f5c068373e0e044c940223875cb52d36fb993b834/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

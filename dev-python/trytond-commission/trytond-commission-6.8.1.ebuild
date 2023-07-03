@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module for commission"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/67/fd/6993e4b90318f56ac58b502515d7f393731437288510267eee87477ab717/trytond_commission-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_commission-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/67/fd/6993e4b90318f56ac58b502515d7f393731437288510267eee87477ab717/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

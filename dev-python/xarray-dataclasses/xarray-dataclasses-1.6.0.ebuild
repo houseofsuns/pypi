@@ -15,8 +15,8 @@ DESCRIPTION="xarray data creation made easy by dataclass"
 
 HOMEPAGE="https://github.com/astropenguin/xarray-dataclasses/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/93/a9/34c12b872afd7030d59a15079e6a7fbe78d3a77c01ab8aa10f0c072f314e/xarray_dataclasses-${REALVERSION}.tar.gz"
-SOURCEFILE="xarray_dataclasses-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/93/a9/34c12b872afd7030d59a15079e6a7fbe78d3a77c01ab8aa10f0c072f314e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

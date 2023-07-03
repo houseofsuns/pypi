@@ -15,8 +15,8 @@ DESCRIPTION="An API package using US National Park Services API to gather data a
 
 HOMEPAGE="https://github.com/bengusuozcan/nationalparks_v1"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1e/b6/ddccd0bea05052803ffc502b25edd6b1726b89f4d5ea3066efa07c928914/nationalparks_v1-${REALVERSION}.tar.gz"
-SOURCEFILE="nationalparks_v1-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1e/b6/ddccd0bea05052803ffc502b25edd6b1726b89f4d5ea3066efa07c928914/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

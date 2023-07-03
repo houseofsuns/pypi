@@ -15,8 +15,8 @@ DESCRIPTION="Criteo Marketing Transition SDK"
 
 HOMEPAGE="https://github.com/criteo/criteo-python-marketing-transition-sdk"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c0/c4/796f5240804eb673050ead70ac3b0e5bfce47f99b60467560b013d31e7e0/criteo_marketing_transition-${REALVERSION}.tar.gz"
-SOURCEFILE="criteo_marketing_transition-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c0/c4/796f5240804eb673050ead70ac3b0e5bfce47f99b60467560b013d31e7e0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

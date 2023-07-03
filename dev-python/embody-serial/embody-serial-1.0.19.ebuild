@@ -15,8 +15,8 @@ DESCRIPTION="Communicate with the embody device over a serial port"
 
 HOMEPAGE="https://github.com/aidee-health/embody-serial"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1a/b9/b22fbd660e229e75b2e1ec05c45447a73cdae9037c3308835e57f8264a56/embody_serial-${REALVERSION}.tar.gz"
-SOURCEFILE="embody_serial-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1a/b9/b22fbd660e229e75b2e1ec05c45447a73cdae9037c3308835e57f8264a56/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

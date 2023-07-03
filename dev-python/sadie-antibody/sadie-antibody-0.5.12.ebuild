@@ -15,8 +15,8 @@ DESCRIPTION="\"The Complete Antibody Library\""
 
 HOMEPAGE="https://sadie.jordanrwillis.com"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/be/51/85ae9656e04e35acc267174c7a64ffc62c129bf5097c3df498512c29a025/sadie_antibody-${REALVERSION}.tar.gz"
-SOURCEFILE="sadie_antibody-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/be/51/85ae9656e04e35acc267174c7a64ffc62c129bf5097c3df498512c29a025/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

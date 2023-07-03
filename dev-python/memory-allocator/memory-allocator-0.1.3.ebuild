@@ -15,8 +15,8 @@ DESCRIPTION="An extension class to allocate memory easily with cython"
 
 HOMEPAGE="https://github.com/sagemath/memory_allocator"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/b0/10/368adbcb611c2d1c018f0dc5f4643414f8678a5b9a14f42f44f78c74a56a/memory_allocator-${REALVERSION}.tar.gz"
-SOURCEFILE="memory_allocator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b0/10/368adbcb611c2d1c018f0dc5f4643414f8678a5b9a14f42f44f78c74a56a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

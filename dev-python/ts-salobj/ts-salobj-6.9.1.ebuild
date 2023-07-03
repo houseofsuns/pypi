@@ -15,8 +15,8 @@ DESCRIPTION="Object-oriented interface to LSST SAL communications middleware."
 
 HOMEPAGE=""
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/10/9d/104ed95c137c6f8dbda15c496af4767281a8d20379ef42a80a53aaa6a73d/ts_salobj-${REALVERSION}.tar.gz"
-SOURCEFILE="ts_salobj-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/10/9d/104ed95c137c6f8dbda15c496af4767281a8d20379ef42a80a53aaa6a73d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

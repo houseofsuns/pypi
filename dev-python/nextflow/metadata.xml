@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Nextflow launcher python package## DescriptionThis package is purely an installer for the Nextflow launcher (&lt;https://nextflow.io/&gt;) that allowsyou to easily have the `nextflow` command line available on your system.## How to install - Install Nextflow launcher using `pip install nextflow`.  - Now `nextflow` command is available on your path. - Run `nextflow info` to force it download all the dependencies the first time (optional). - Now you are ready to run a pipeline `nextflow run hello`. ## RequirementsThe Nextflow launcher requires Java and `curl` or `wget` available on yoursystem to be able to download Nextflow Java dependencies and launch Nextflow.## NoteIf you are looking for previous versions of this package that was a wrapper around the Nextflowpipeline framework that lets you run pipelines from Python code, check `nextflowpy` package.</longdescription>
+</pkgmetadata>

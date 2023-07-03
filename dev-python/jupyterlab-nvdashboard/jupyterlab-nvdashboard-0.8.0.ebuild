@@ -15,8 +15,8 @@ DESCRIPTION="A JupyterLab extension for displaying GPU usage dashboards"
 
 HOMEPAGE="https://github.com/rapidsai/jupyterlab-nvdashboard"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/7d/b3/fedbbca88281863a576d054f002cf7db32950f97ddfc27deb34a49c4f65e/jupyterlab_nvdashboard-${REALVERSION}.tar.gz"
-SOURCEFILE="jupyterlab_nvdashboard-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7d/b3/fedbbca88281863a576d054f002cf7db32950f97ddfc27deb34a49c4f65e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

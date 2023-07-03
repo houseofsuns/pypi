@@ -15,8 +15,8 @@ DESCRIPTION="Manipulate Finder .DS_Store files from Python"
 
 HOMEPAGE="http://alastairs-place.net/projects/ds_store"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7c/36/902259bf7ddb142dd91cf7a9794aa15e1a8ab985974f90375e5d3463b441/ds_store-${REALVERSION}.tar.gz"
-SOURCEFILE="ds_store-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7c/36/902259bf7ddb142dd91cf7a9794aa15e1a8ab985974f90375e5d3463b441/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

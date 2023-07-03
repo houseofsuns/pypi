@@ -15,8 +15,8 @@ DESCRIPTION="A Pulumi package for creating and managing Amazon Web Services (AWS
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/da/e0/41f69cdd21de2f1b95a2bc787f4d38a63777c873be9f46438ef4cb6ba7a9/pulumi_aws-${REALVERSION}.tar.gz"
-SOURCEFILE="pulumi_aws-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/da/e0/41f69cdd21de2f1b95a2bc787f4d38a63777c873be9f46438ef4cb6ba7a9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

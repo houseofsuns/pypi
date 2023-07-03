@@ -15,8 +15,8 @@ DESCRIPTION="Minimal Python Bindings for ASSIMP Library using C-API"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d7/23/e986ed6964530e005218d8b131fa0fddd60fe3c4571b454aaceb42862e17/assimp_py-${REALVERSION}.tar.gz"
-SOURCEFILE="assimp_py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d7/23/e986ed6964530e005218d8b131fa0fddd60fe3c4571b454aaceb42862e17/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

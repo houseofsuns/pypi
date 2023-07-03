@@ -15,8 +15,8 @@ DESCRIPTION="An implementation of an efficient object store writing directly int
 
 HOMEPAGE="http://github.com/aiidateam/disk-objectstore"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/43/b9/158c2ce983ee199c0c951eed942247ed9f3e9a6fcf379f647f8125a9a67d/disk_objectstore-${REALVERSION}.tar.gz"
-SOURCEFILE="disk_objectstore-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/43/b9/158c2ce983ee199c0c951eed942247ed9f3e9a6fcf379f647f8125a9a67d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

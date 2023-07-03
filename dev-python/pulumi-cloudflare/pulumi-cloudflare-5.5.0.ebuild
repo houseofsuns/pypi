@@ -15,8 +15,8 @@ DESCRIPTION="A Pulumi package for creating and managing Cloudflare cloud resourc
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/cc/91/069c2db24a971fa1764da643423847f6de37698e80134e81f3df8bfee522/pulumi_cloudflare-${REALVERSION}.tar.gz"
-SOURCEFILE="pulumi_cloudflare-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cc/91/069c2db24a971fa1764da643423847f6de37698e80134e81f3df8bfee522/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

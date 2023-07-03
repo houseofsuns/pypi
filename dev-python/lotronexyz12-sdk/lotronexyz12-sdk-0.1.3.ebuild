@@ -15,8 +15,8 @@ DESCRIPTION="LOTR coding test"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/44/79/cc323650c2046302e78a559c8d2ed0c08d1acf0f653594a4f5e0d358f08d/lotronexyz12_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="lotronexyz12_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/44/79/cc323650c2046302e78a559c8d2ed0c08d1acf0f653594a4f5e0d358f08d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

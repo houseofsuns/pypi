@@ -15,8 +15,8 @@ DESCRIPTION="OpenTelemetry Collector Exporters"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python/tree/main/exporter/opentelemetry-exporter-otlp"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a5/94/6b451aea59260d09c5bee089c492a1d3ad9794825995f0acfa73c0acdc19/opentelemetry_exporter_otlp-${REALVERSION}.tar.gz"
-SOURCEFILE="opentelemetry_exporter_otlp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a5/94/6b451aea59260d09c5bee089c492a1d3ad9794825995f0acfa73c0acdc19/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

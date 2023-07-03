@@ -15,8 +15,8 @@ DESCRIPTION="Package that enables deployment of AWS CDK stacks in parallel."
 
 HOMEPAGE="https://github.com/biomapas/B.AwsCdkParallel.git"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/67/ca/99544c8928c82ce74f4e8cf5145594f90a7945f402eaac1760d767b3d086/b_aws_cdk_parallel-${REALVERSION}.tar.gz"
-SOURCEFILE="b_aws_cdk_parallel-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/67/ca/99544c8928c82ce74f4e8cf5145594f90a7945f402eaac1760d767b3d086/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

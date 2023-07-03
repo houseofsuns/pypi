@@ -15,8 +15,8 @@ DESCRIPTION="GCS_HELPERS: helper methods for working with google cloud storage"
 
 HOMEPAGE="https://github.com/brookisme/gcs_helpers"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f7/fa/42e2b1d7614dffec66a347fc363611904cd3f04b520ee1c9e5a33e8dc17f/gcs_helpers-${REALVERSION}.tar.gz"
-SOURCEFILE="gcs_helpers-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f7/fa/42e2b1d7614dffec66a347fc363611904cd3f04b520ee1c9e5a33e8dc17f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

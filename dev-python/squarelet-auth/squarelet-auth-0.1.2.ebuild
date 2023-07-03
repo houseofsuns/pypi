@@ -15,8 +15,8 @@ DESCRIPTION="Django authentication against the MuckRock user service"
 
 HOMEPAGE="https://github.com/muckrock/squarelet-auth/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8c/b0/0f95095304a5a6091ae302f76d3d052b9477af8c242d16dfb2c275ddbefb/squarelet_auth-${REALVERSION}.tar.gz"
-SOURCEFILE="squarelet_auth-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8c/b0/0f95095304a5a6091ae302f76d3d052b9477af8c242d16dfb2c275ddbefb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

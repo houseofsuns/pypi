@@ -15,8 +15,8 @@ DESCRIPTION="API for the Sense Energy Monitor"
 
 HOMEPAGE="https://github.com/scottbonline/sense"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/32/df/572c35e9e58b737b7c1cbdb23c6394219ab698c77d78feec8705b1edcf09/sense_energy-${REALVERSION}.tar.gz"
-SOURCEFILE="sense_energy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/32/df/572c35e9e58b737b7c1cbdb23c6394219ab698c77d78feec8705b1edcf09/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

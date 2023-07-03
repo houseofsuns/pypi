@@ -15,8 +15,8 @@ DESCRIPTION="A Pulumi package for creating and managing github cloud resources."
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/28/2f/1380f9bdbb3c0d5045cecc1eee055538865dc9662647a8064113e4d9e70b/pulumi_github-${REALVERSION}.tar.gz"
-SOURCEFILE="pulumi_github-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/28/2f/1380f9bdbb3c0d5045cecc1eee055538865dc9662647a8064113e4d9e70b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

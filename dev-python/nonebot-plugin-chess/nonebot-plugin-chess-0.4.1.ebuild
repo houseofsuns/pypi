@@ -15,8 +15,8 @@ DESCRIPTION="Nonebot2 国际象棋插件"
 
 HOMEPAGE="https://github.com/noneplugin/nonebot-plugin-chess"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6d/aa/14ebd3f1fa2a12a3276d3c9a02b57b8c8e8aa673db7c73757c67cdbbd1d6/nonebot_plugin_chess-${REALVERSION}.tar.gz"
-SOURCEFILE="nonebot_plugin_chess-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6d/aa/14ebd3f1fa2a12a3276d3c9a02b57b8c8e8aa673db7c73757c67cdbbd1d6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

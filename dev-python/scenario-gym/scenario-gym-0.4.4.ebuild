@@ -15,8 +15,8 @@ DESCRIPTION="scenario_gym - a lightweight framework for learning from scenario d
 
 HOMEPAGE="https://github.com/driskai/scenario_gym"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/77/36/94872ded27fc252224962e6756caf7a6aa3b21e7d64128c927f6aede9812/scenario_gym-${REALVERSION}.tar.gz"
-SOURCEFILE="scenario_gym-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/77/36/94872ded27fc252224962e6756caf7a6aa3b21e7d64128c927f6aede9812/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

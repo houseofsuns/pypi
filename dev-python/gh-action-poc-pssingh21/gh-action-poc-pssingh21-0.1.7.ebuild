@@ -15,8 +15,8 @@ DESCRIPTION="Github actions for Python package"
 
 HOMEPAGE="https://github.com/pssingh21/gh-action"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/67/cc/4f54f28215dfb9d5f508a4e65f06177967ca94b8b74f582307885a474ea2/gh_action_poc_pssingh21-${REALVERSION}.tar.gz"
-SOURCEFILE="gh_action_poc_pssingh21-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/67/cc/4f54f28215dfb9d5f508a4e65f06177967ca94b8b74f582307885a474ea2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

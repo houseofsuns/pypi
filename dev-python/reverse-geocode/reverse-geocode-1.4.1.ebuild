@@ -15,8 +15,8 @@ DESCRIPTION="Reverse geocode the given latitude / longitude"
 
 HOMEPAGE="https://github.com/richardpenman/reverse_geocode/"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/35/84/9e4292b930fa6d3bdef96a154240f59bb60eb2893b63a088ccf9d1a6178a/reverse_geocode-${REALVERSION}.tar.gz"
-SOURCEFILE="reverse_geocode-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/35/84/9e4292b930fa6d3bdef96a154240f59bb60eb2893b63a088ccf9d1a6178a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

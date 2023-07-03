@@ -15,8 +15,8 @@ DESCRIPTION="small package to deal with data exported from Horos"
 
 HOMEPAGE="https://github.com/santomon/horos_io"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/07/24/8385b845b63d30d2059bef86eaed7dfec1d7bfbf42145263da8f1ce35669/horos_io-${REALVERSION}.tar.gz"
-SOURCEFILE="horos_io-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/07/24/8385b845b63d30d2059bef86eaed7dfec1d7bfbf42145263da8f1ce35669/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

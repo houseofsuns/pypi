@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module to add planning capabilities on projects"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/5b/0d/b6e74d2c86e090a4b51745793ce91ed59d7ccc26c797348a515512148315/trytond_project_plan-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_project_plan-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5b/0d/b6e74d2c86e090a4b51745793ce91ed59d7ccc26c797348a515512148315/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

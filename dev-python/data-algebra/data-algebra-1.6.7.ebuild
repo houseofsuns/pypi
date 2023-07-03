@@ -15,8 +15,8 @@ DESCRIPTION="data_algebra is a data manipulation language that can both generate
 
 HOMEPAGE="https://github.com/WinVector/data_algebra"
 LICENSE="License :: OSI Approved :: BSD 3-clause License"
-SRC_URI="https://files.pythonhosted.org/packages/75/e6/9afa3c6d6a4e4b4e4000f9d23bd3543151e5072cade6d675b8aec7965605/data_algebra-${REALVERSION}.tar.gz"
-SOURCEFILE="data_algebra-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/75/e6/9afa3c6d6a4e4b4e4000f9d23bd3543151e5072cade6d675b8aec7965605/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

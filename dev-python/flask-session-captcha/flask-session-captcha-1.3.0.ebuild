@@ -15,8 +15,8 @@ DESCRIPTION="Captcha implementation for flask and flask-session."
 
 HOMEPAGE="https://github.com/Tethik/flask-session-captcha"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ae/fc/2f4c5d41173011531b4d94814dafc1146d11f365cec45b293ec2b1b5065d/flask_session_captcha-${REALVERSION}.tar.gz"
-SOURCEFILE="flask_session_captcha-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ae/fc/2f4c5d41173011531b4d94814dafc1146d11f365cec45b293ec2b1b5065d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

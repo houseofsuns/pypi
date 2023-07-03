@@ -15,8 +15,8 @@ DESCRIPTION="Transform Scripts"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7d/12/a4977124109f8410cccc91233966d2085788b450c637a5719f9633078866/transform_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="transform_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7d/12/a4977124109f8410cccc91233966d2085788b450c637a5719f9633078866/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

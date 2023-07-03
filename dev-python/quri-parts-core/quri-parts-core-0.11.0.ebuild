@@ -15,8 +15,8 @@ DESCRIPTION="A platform-independent library for quantum computing"
 
 HOMEPAGE="https://github.com/QunaSys/quri-parts"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/10/c1/345a5ecb3fcf09f1947d32b6e1867f39c132929488c5d741cdbaf9040aea/quri_parts_core-${REALVERSION}.tar.gz"
-SOURCEFILE="quri_parts_core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/10/c1/345a5ecb3fcf09f1947d32b6e1867f39c132929488c5d741cdbaf9040aea/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

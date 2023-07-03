@@ -15,8 +15,8 @@ DESCRIPTION="Generate single HTML file from allure report."
 
 HOMEPAGE="https://github.com/MihanEntalpo/allure-single-html-file"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c9/38/06ebd56515397613d930a066a04fee460d4a3d546701b8ea20c2ffaec215/allure_combine-${REALVERSION}.tar.gz"
-SOURCEFILE="allure_combine-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c9/38/06ebd56515397613d930a066a04fee460d4a3d546701b8ea20c2ffaec215/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

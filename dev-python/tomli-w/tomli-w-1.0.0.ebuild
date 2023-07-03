@@ -15,8 +15,8 @@ DESCRIPTION="A lil' TOML writer"
 
 HOMEPAGE="https://github.com/hukkin/tomli-w"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/49/05/6bf21838623186b91aedbda06248ad18f03487dc56fbc20e4db384abde6c/tomli_w-${REALVERSION}.tar.gz"
-SOURCEFILE="tomli_w-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/49/05/6bf21838623186b91aedbda06248ad18f03487dc56fbc20e4db384abde6c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

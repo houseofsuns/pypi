@@ -15,8 +15,8 @@ DESCRIPTION="A core functions package"
 
 HOMEPAGE="https://github.com/valluzzi/opensitua_http.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ee/f0/dd4ca1b378a880b32cd486da7effb9b281c703ebd62870f83d2d364df616/opensitua_http-${REALVERSION}.tar.gz"
-SOURCEFILE="opensitua_http-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ee/f0/dd4ca1b378a880b32cd486da7effb9b281c703ebd62870f83d2d364df616/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

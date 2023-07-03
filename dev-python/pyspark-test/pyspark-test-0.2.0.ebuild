@@ -15,8 +15,8 @@ DESCRIPTION="Check that left and right spark DataFrame are equal."
 
 HOMEPAGE="https://github.com/debugger24/pyspark-test"
 LICENSE="Apache Software License Apache 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f8/a9/3ca6c0f3289da348d25693adb4f80e3d8b2389dea603f222feae4dd78e76/pyspark_test-${REALVERSION}.tar.gz"
-SOURCEFILE="pyspark_test-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f8/a9/3ca6c0f3289da348d25693adb4f80e3d8b2389dea603f222feae4dd78e76/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

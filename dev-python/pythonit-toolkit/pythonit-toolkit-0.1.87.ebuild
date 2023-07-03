@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0a/88/7f4547d265545ee5fb4d4f96ac431a8e5e2ed563820dbf5718e63af945f6/pythonit_toolkit-${REALVERSION}.tar.gz"
-SOURCEFILE="pythonit_toolkit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0a/88/7f4547d265545ee5fb4d4f96ac431a8e5e2ed563820dbf5718e63af945f6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

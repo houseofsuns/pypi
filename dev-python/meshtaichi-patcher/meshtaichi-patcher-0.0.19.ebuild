@@ -15,8 +15,8 @@ DESCRIPTION="a mesh patcher for meshtaichi"
 
 HOMEPAGE="https://github.com/BillXu2000/meshtaichi_patcher"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/19/31/4842022c24e401a344f34fa482924746b76baf3aa735a795306c1991d2d9/meshtaichi_patcher-${REALVERSION}.tar.gz"
-SOURCEFILE="meshtaichi_patcher-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/19/31/4842022c24e401a344f34fa482924746b76baf3aa735a795306c1991d2d9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

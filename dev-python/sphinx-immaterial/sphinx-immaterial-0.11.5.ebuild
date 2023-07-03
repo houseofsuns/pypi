@@ -15,8 +15,8 @@ DESCRIPTION="Adaptation of mkdocs-material theme for the Sphinx documentation sy
 
 HOMEPAGE="https://github.com/jbms/sphinx-immaterial"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e2/04/cebd0d89a4e84780e8438f66208be19680f9773240fbc5a939b3dfe6b373/sphinx_immaterial-${REALVERSION}.tar.gz"
-SOURCEFILE="sphinx_immaterial-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e2/04/cebd0d89a4e84780e8438f66208be19680f9773240fbc5a939b3dfe6b373/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

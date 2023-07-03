@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/94/db/82ca48206f03b63e3687cbb82a822ad88aeac8e5f8382cc3925677c80b82/polarismesh_specification-${REALVERSION}.tar.gz"
-SOURCEFILE="polarismesh_specification-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/94/db/82ca48206f03b63e3687cbb82a822ad88aeac8e5f8382cc3925677c80b82/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

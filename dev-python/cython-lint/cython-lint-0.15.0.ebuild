@@ -15,8 +15,8 @@ DESCRIPTION="A linter for Cython files"
 
 HOMEPAGE="https://github.com/MarcoGorelli/cython-lint"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7d/8a/0be1b4242b85bc02015ddc6e179ede0a20d510f8dc4be73429438cf6187c/cython_lint-${REALVERSION}.tar.gz"
-SOURCEFILE="cython_lint-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7d/8a/0be1b4242b85bc02015ddc6e179ede0a20d510f8dc4be73429438cf6187c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

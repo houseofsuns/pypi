@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/garpixcms/garpix_notify"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6d/9d/4ecee07f34bf5a92b10f67e2494f763f77ada3760601892ea7d739e34f78/garpix_notify-${REALVERSION}.tar.gz"
-SOURCEFILE="garpix_notify-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6d/9d/4ecee07f34bf5a92b10f67e2494f763f77ada3760601892ea7d739e34f78/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

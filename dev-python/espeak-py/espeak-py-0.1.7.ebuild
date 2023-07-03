@@ -15,8 +15,8 @@ DESCRIPTION="Python bindings for a narrow subset of espeak"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/db/1d/9ef88db5aa189ede0ab39843665284228adc90394aa2c1b1a66d1dfc89d5/espeak_py-${REALVERSION}.tar.gz"
-SOURCEFILE="espeak_py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/db/1d/9ef88db5aa189ede0ab39843665284228adc90394aa2c1b1a66d1dfc89d5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

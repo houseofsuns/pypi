@@ -15,8 +15,8 @@ DESCRIPTION="Middleware correlating project logs to individual requests"
 
 HOMEPAGE="https://github.com/snok/asgi-correlation-id"
 LICENSE="BSD-4"
-SRC_URI="https://files.pythonhosted.org/packages/d7/15/cf3a0c746a1e5061589a9271bec880e64e5175f2efc4c1584a0b9a1bd46e/asgi_correlation_id-${REALVERSION}.tar.gz"
-SOURCEFILE="asgi_correlation_id-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d7/15/cf3a0c746a1e5061589a9271bec880e64e5175f2efc4c1584a0b9a1bd46e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Run functions in parallel safely with typesafe parmap!."
 
 HOMEPAGE="https://github.com/thejaminator/typesafe_parmap"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/56/b0/b6887d178406c11341253437444ddaf0e6e4c8c48c9e856103e6b5133831/typesafe_parmap-${REALVERSION}.tar.gz"
-SOURCEFILE="typesafe_parmap-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/56/b0/b6887d178406c11341253437444ddaf0e6e4c8c48c9e856103e6b5133831/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

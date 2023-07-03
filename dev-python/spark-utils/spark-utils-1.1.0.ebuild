@@ -15,8 +15,8 @@ DESCRIPTION="Utility classes for comfy Spark job authoriing."
 
 HOMEPAGE="https://github.com/SneaksAndData/spark-utils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7e/cf/263e7b62ab0552ac90dc7262a37c8d7764f819de358947ac785b0d4dfc7f/spark_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="spark_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7e/cf/263e7b62ab0552ac90dc7262a37c8d7764f819de358947ac785b0d4dfc7f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

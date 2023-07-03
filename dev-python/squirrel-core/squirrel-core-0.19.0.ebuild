@@ -15,8 +15,8 @@ DESCRIPTION="Squirrel is a Python library that enables ML teams to share, load, 
 
 HOMEPAGE="https://merantix-momentum.com/technology/squirrel/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d5/d6/ea5a2df0583efd26ac33fe59de35d0274bba5905ed6730c425f846b6eab2/squirrel_core-${REALVERSION}.tar.gz"
-SOURCEFILE="squirrel_core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d5/d6/ea5a2df0583efd26ac33fe59de35d0274bba5905ed6730c425f846b6eab2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

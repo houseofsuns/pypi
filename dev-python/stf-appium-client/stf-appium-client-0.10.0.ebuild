@@ -15,8 +15,8 @@ DESCRIPTION="STF client with appium"
 
 HOMEPAGE="https://github.com/OpenTMI/stf-appium-python-client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/58/39/f6ff8bf6dd729247e73fe0f65292edc748c63b0b1c874dcbacb703fa8c88/stf_appium_client-${REALVERSION}.tar.gz"
-SOURCEFILE="stf_appium_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/58/39/f6ff8bf6dd729247e73fe0f65292edc748c63b0b1c874dcbacb703fa8c88/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

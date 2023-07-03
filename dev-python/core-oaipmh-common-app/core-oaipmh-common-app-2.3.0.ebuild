@@ -15,8 +15,8 @@ DESCRIPTION="Base OAI-PMH functions for the curator core project"
 
 HOMEPAGE="https://github.com/usnistgov/core_oaipmh_common_app"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/14/db/e09ef894d1d9d07026a1c5c3cf7d30fa211d2fbdc8985cd8c574f67fe2bc/core_oaipmh_common_app-${REALVERSION}.tar.gz"
-SOURCEFILE="core_oaipmh_common_app-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/14/db/e09ef894d1d9d07026a1c5c3cf7d30fa211d2fbdc8985cd8c574f67fe2bc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

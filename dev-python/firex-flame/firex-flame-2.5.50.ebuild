@@ -15,8 +15,8 @@ DESCRIPTION="FireX event processor and web server."
 
 HOMEPAGE="https://github.com/FireXStuff/firex-flame"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/50/ab/8959d7c410cd47bd3ce4ea3b31cbc438d67d12fe1f42950c8c1bf7a6bcd7/firex_flame-${REALVERSION}.tar.gz"
-SOURCEFILE="firex_flame-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/50/ab/8959d7c410cd47bd3ce4ea3b31cbc438d67d12fe1f42950c8c1bf7a6bcd7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

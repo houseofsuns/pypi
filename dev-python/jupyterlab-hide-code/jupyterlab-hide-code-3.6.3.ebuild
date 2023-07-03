@@ -15,8 +15,8 @@ DESCRIPTION="A JupyterLab extension to run and hide source code."
 
 HOMEPAGE="https://github.com/osscar-org/jupyterlab-hide-code"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/fd/3b/5cf90d661c693db77a68669f08b389b8502b77350edddcde6262c66ec504/jupyterlab_hide_code-${REALVERSION}.tar.gz"
-SOURCEFILE="jupyterlab_hide_code-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fd/3b/5cf90d661c693db77a68669f08b389b8502b77350edddcde6262c66ec504/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

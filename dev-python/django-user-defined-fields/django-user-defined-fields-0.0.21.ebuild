@@ -15,8 +15,8 @@ DESCRIPTION="A Django app for user defined fields"
 
 HOMEPAGE="https://github.com/uptick/django-user-defined-fields/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1e/ab/8e393e75cdd2bbe8d5f8bc3c8f6ba7f281f379b0aa686ce578428955c074/django_user_defined_fields-${REALVERSION}.tar.gz"
-SOURCEFILE="django_user_defined_fields-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1e/ab/8e393e75cdd2bbe8d5f8bc3c8f6ba7f281f379b0aa686ce578428955c074/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

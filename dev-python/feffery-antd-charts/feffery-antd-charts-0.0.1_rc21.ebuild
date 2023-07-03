@@ -15,8 +15,8 @@ DESCRIPTION="Best implementation of Ant Design Charts in Plotly Dash."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ec/18/9af1283a7a338696da1e1b2dde97bd05e9a1f631845a0b11e0d6c0bd3705/feffery_antd_charts-${REALVERSION}.tar.gz"
-SOURCEFILE="feffery_antd_charts-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ec/18/9af1283a7a338696da1e1b2dde97bd05e9a1f631845a0b11e0d6c0bd3705/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Syneto Client API library"
 
 HOMEPAGE="https://github.com/SynetoNet/syneto-api"
 LICENSE="Proprietary"
-SRC_URI="https://files.pythonhosted.org/packages/a8/29/107e77fabce48c2372d80a5d65a8097aa2bbb86810a2d3e9b6c5ae1812f5/syneto_api-${REALVERSION}.tar.gz"
-SOURCEFILE="syneto_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a8/29/107e77fabce48c2372d80a5d65a8097aa2bbb86810a2d3e9b6c5ae1812f5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

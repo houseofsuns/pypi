@@ -15,8 +15,8 @@ DESCRIPTION="Some useful collection classes."
 
 HOMEPAGE="https://github.com/palmb/fancy-collections"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5f/b8/be8b0f6b3dbe8ea754fedceda921cfc272046b38834fb566b787bfc93c61/fancy_collections-${REALVERSION}.tar.gz"
-SOURCEFILE="fancy_collections-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5f/b8/be8b0f6b3dbe8ea754fedceda921cfc272046b38834fb566b787bfc93c61/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

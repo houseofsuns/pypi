@@ -15,8 +15,8 @@ DESCRIPTION="A JupyterLab Extension for NBGallery integration"
 
 HOMEPAGE="https://github.com/nbgallery/lab-extensions"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1d/83/66b1172600c11f1396e6ae3d3944ed71f3db2f8a57dbaf9f4b10bcf4186b/jupyterlab_nbgallery-${REALVERSION}.tar.gz"
-SOURCEFILE="jupyterlab_nbgallery-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1d/83/66b1172600c11f1396e6ae3d3944ed71f3db2f8a57dbaf9f4b10bcf4186b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

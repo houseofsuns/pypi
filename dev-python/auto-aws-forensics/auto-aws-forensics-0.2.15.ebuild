@@ -15,8 +15,8 @@ DESCRIPTION="Automates the process of creating a forensics capture of an EC2"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b1/c5/4d2309f09469c03564303657acd8d2a7036e341974d92cc637aef9884b2e/auto_aws_forensics-${REALVERSION}.tar.gz"
-SOURCEFILE="auto_aws_forensics-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b1/c5/4d2309f09469c03564303657acd8d2a7036e341974d92cc637aef9884b2e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

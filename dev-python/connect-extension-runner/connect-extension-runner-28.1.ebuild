@@ -15,8 +15,8 @@ DESCRIPTION="CloudBlue Connect EaaS Extension Runner"
 
 HOMEPAGE="https://connect.cloudblue.com"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/35/bc/283830c07ba268fb01efb18a407377b8489d3322f82576cae4e5378ab073/connect_extension_runner-${REALVERSION}.tar.gz"
-SOURCEFILE="connect_extension_runner-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/35/bc/283830c07ba268fb01efb18a407377b8489d3322f82576cae4e5378ab073/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="AsyncExitStack backport for Python 3.5+"
 
 HOMEPAGE="https://github.com/sorcio/async_exit_stack"
 LICENSE="PYTHON"
-SRC_URI="https://files.pythonhosted.org/packages/33/9c/ecf37497cd8c4aa6d62de0a67deeb80d4407fd930a689362e588458aff81/async_exit_stack-${REALVERSION}.tar.gz"
-SOURCEFILE="async_exit_stack-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/33/9c/ecf37497cd8c4aa6d62de0a67deeb80d4407fd930a689362e588458aff81/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A flake8 extension that checks functions"
 
 HOMEPAGE="https://github.com/best-doctor/flake8-functions"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7e/f4/af475b75382a6403a6a184f01ae42e8c9bdd97ee8e84b4c4d6660da0f4d9/flake8_functions-${REALVERSION}.tar.gz"
-SOURCEFILE="flake8_functions-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7e/f4/af475b75382a6403a6a184f01ae42e8c9bdd97ee8e84b4c4d6660da0f4d9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

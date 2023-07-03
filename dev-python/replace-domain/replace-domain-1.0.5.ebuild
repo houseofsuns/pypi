@@ -15,8 +15,8 @@ DESCRIPTION="Nginx conf file string replacement."
 
 HOMEPAGE="https://github.com/mrstephenneal/Dockerizer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bd/cf/abc00bbda194325508593caad6cd25fb63910e4b5456bb3093b035e4e63d/replace_domain-${REALVERSION}.tar.gz"
-SOURCEFILE="replace_domain-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bd/cf/abc00bbda194325508593caad6cd25fb63910e4b5456bb3093b035e4e63d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cd/93/9bea456e7691c97197b165dc4162ed247cab6b1d6526f5dd95c6424ac786/fdk_rdf_parser-${REALVERSION}.tar.gz"
-SOURCEFILE="fdk_rdf_parser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cd/93/9bea456e7691c97197b165dc4162ed247cab6b1d6526f5dd95c6424ac786/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

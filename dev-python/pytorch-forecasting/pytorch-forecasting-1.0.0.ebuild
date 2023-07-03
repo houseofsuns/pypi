@@ -15,8 +15,8 @@ DESCRIPTION="Forecasting timeseries with PyTorch - dataloaders, normalizers, met
 
 HOMEPAGE="https://pytorch-forecasting.readthedocs.io"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/02/7b/c931802d961f0818dd8da74003fb98b0e1102bfe56a05eff01966596280a/pytorch_forecasting-${REALVERSION}.tar.gz"
-SOURCEFILE="pytorch_forecasting-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/02/7b/c931802d961f0818dd8da74003fb98b0e1102bfe56a05eff01966596280a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A Triggers system for Django made for implementing event-based busi
 
 HOMEPAGE="https://github.com/cockpithq/django-triggers"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/85/03/127beb3bde4355218251d4ed4b09a8d75b22f420c31679e7f9f29bf13b61/dj_triggers-${REALVERSION}.tar.gz"
-SOURCEFILE="dj_triggers-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/85/03/127beb3bde4355218251d4ed4b09a8d75b22f420c31679e7f9f29bf13b61/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

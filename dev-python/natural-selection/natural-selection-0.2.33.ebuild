@@ -15,8 +15,8 @@ DESCRIPTION="Tools for running evolutionary algorithm experiments"
 
 HOMEPAGE="https://github.com/Zipfian-Science/natural-selection"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/75/71/93382094adfcb184c4f97c01664f3dd5beca09b33bcc9061e4e5b798427c/natural_selection-${REALVERSION}.tar.gz"
-SOURCEFILE="natural_selection-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/75/71/93382094adfcb184c4f97c01664f3dd5beca09b33bcc9061e4e5b798427c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

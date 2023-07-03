@@ -15,8 +15,8 @@ DESCRIPTION="Snowflake CLI"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5b/77/b077af23cb7eda57f0d97a7a6882fdfd8dcbaa594e24a74cb1d6f659bed2/snowflake_cli_labs-${REALVERSION}.tar.gz"
-SOURCEFILE="snowflake_cli_labs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5b/77/b077af23cb7eda57f0d97a7a6882fdfd8dcbaa594e24a74cb1d6f659bed2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

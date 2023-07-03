@@ -15,8 +15,8 @@ DESCRIPTION="Django queryset and serialization together"
 
 HOMEPAGE="https://github.com/buserbrasil/django-qserializer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/14/55/9340e26adc88c469969b9a406ebb6bc2b181bb00c2c4bc29bd91e5d692ba/django_qserializer-${REALVERSION}.tar.gz"
-SOURCEFILE="django_qserializer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/14/55/9340e26adc88c469969b9a406ebb6bc2b181bb00c2c4bc29bd91e5d692ba/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

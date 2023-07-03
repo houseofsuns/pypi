@@ -15,8 +15,8 @@ DESCRIPTION="A sqlalchemy/alembic extension for migrating procedures and views"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cc/ad/1637a58020876da21d6b7da64053c24a7733954bb25e779e2236eb1940f0/alembic_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="alembic_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cc/ad/1637a58020876da21d6b7da64053c24a7733954bb25e779e2236eb1940f0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

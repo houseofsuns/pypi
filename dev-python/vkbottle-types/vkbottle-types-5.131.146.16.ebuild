@@ -15,8 +15,8 @@ DESCRIPTION="Types for vkbottle"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/67/45/01cf2e2909477b116e6a0ae2cc1d20f1ee38c6e2ac7839b7c57687030e3b/vkbottle_types-${REALVERSION}.tar.gz"
-SOURCEFILE="vkbottle_types-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/67/45/01cf2e2909477b116e6a0ae2cc1d20f1ee38c6e2ac7839b7c57687030e3b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE="LICENSE.md"
-SRC_URI="https://files.pythonhosted.org/packages/63/93/22ca5e5e43df7bd4582271738e2eab83bf5960399f9f6be45b72326e026b/velait_api-${REALVERSION}.tar.gz"
-SOURCEFILE="velait_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/63/93/22ca5e5e43df7bd4582271738e2eab83bf5960399f9f6be45b72326e026b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

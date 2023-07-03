@@ -15,8 +15,8 @@ DESCRIPTION="Rename image file to only digit name and convert ebook files."
 
 HOMEPAGE="https://github.com/tubone24/ebook_homebrew"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2e/e8/d4fd6b80e4b7173d7c5069a059072247b797270d0519bcb0344da106d9c6/ebook_homebrew-${REALVERSION}.tar.gz"
-SOURCEFILE="ebook_homebrew-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2e/e8/d4fd6b80e4b7173d7c5069a059072247b797270d0519bcb0344da106d9c6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

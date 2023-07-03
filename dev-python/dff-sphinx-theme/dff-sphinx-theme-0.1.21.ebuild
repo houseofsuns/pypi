@@ -15,8 +15,8 @@ DESCRIPTION="Dialog Flow Framework Sphinx Theme is a sphinx theme for building D
 
 HOMEPAGE="https://github.com/deeppavlov/dff_sphinx_theme"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/89/3d/5a2595c3058c04a7f0424b3a10f0ffe59721ab261f258a0cda7298a5226d/dff_sphinx_theme-${REALVERSION}.tar.gz"
-SOURCEFILE="dff_sphinx_theme-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/89/3d/5a2595c3058c04a7f0424b3a10f0ffe59721ab261f258a0cda7298a5226d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

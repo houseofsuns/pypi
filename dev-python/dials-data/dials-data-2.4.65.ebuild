@@ -15,8 +15,8 @@ DESCRIPTION="DIALS Regression Data Manager"
 
 HOMEPAGE="https://github.com/dials/data"
 LICENSE="BSD 3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/b3/9e/13bc81a4a1c89e9333c90d32ce35e053cafc23e9101a5deef45ed686c206/dials_data-${REALVERSION}.tar.gz"
-SOURCEFILE="dials_data-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b3/9e/13bc81a4a1c89e9333c90d32ce35e053cafc23e9101a5deef45ed686c206/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

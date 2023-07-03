@@ -15,8 +15,8 @@ DESCRIPTION="Utility functions for requests"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4f/cb/06c4c67715ccd854dd7e6962e3d5d3fcba8b025ae656f179936550786776/arcane_requests-${REALVERSION}.tar.gz"
-SOURCEFILE="arcane_requests-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4f/cb/06c4c67715ccd854dd7e6962e3d5d3fcba8b025ae656f179936550786776/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

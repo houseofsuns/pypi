@@ -15,8 +15,8 @@ DESCRIPTION="基于百度amis前端框架的python pydantic模型封装。"
 
 HOMEPAGE="https://github.com/CMHopeSunshine/amis-py"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/2e/04/282fd64df0b50c93e58b41af67c195c64a2d9b72848dd3951ce3b9baca6d/amis_python-${REALVERSION}.tar.gz"
-SOURCEFILE="amis_python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2e/04/282fd64df0b50c93e58b41af67c195c64a2d9b72848dd3951ce3b9baca6d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

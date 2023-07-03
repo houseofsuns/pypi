@@ -15,8 +15,8 @@ DESCRIPTION="A package allowing you to display interactive help in Discord easil
 
 HOMEPAGE="https://github.com/astariul/discord_interactive_help"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/77/da/af3272fbd0c8f8cf09e8a865c3a3d18414b756b051ad6c8fda213cf0138f/discord_interactive-${REALVERSION}.tar.gz"
-SOURCEFILE="discord_interactive-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/77/da/af3272fbd0c8f8cf09e8a865c3a3d18414b756b051ad6c8fda213cf0138f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

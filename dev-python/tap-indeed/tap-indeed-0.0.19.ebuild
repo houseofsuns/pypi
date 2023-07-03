@@ -15,8 +15,8 @@ DESCRIPTION="\`tap-indeed\` is a Singer tap for IndeedSponsoredJobs, built with 
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/15/90/4f8e78512c8611b8e59287571951bc535e1dbdfb0471d2d4a7514d221d58/tap_indeed-${REALVERSION}.tar.gz"
-SOURCEFILE="tap_indeed-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/15/90/4f8e78512c8611b8e59287571951bc535e1dbdfb0471d2d4a7514d221d58/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

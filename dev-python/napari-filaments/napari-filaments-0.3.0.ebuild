@@ -15,8 +15,8 @@ DESCRIPTION="A napari plugin for filament analysis"
 
 HOMEPAGE="https://github.com/hanjinliu/napari-filaments"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/2b/32/41317bd26442f5bf7821faefdfc13716c359cb05f6387461e52073ed4fac/napari_filaments-${REALVERSION}.tar.gz"
-SOURCEFILE="napari_filaments-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2b/32/41317bd26442f5bf7821faefdfc13716c359cb05f6387461e52073ed4fac/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

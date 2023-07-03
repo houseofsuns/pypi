@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module to add analytic accounting on invoice"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/db/f8/c9e53d964c10e4e1379ca4030fff842e12e890b7ff09b643e5ab26b0c946/trytond_analytic_invoice-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_analytic_invoice-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/db/f8/c9e53d964c10e4e1379ca4030fff842e12e890b7ff09b643e5ab26b0c946/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

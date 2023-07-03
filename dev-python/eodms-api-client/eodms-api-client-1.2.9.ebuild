@@ -15,8 +15,8 @@ DESCRIPTION="Tool for querying and submitting image orders to Natural Resources 
 
 HOMEPAGE="https://eodms-api-client.readthedocs.io/en/latest"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e5/3a/78fbed6db6b9b344df227f74dbe05bcd2616a0d989af1ee749377c396995/eodms_api_client-${REALVERSION}.tar.gz"
-SOURCEFILE="eodms_api_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e5/3a/78fbed6db6b9b344df227f74dbe05bcd2616a0d989af1ee749377c396995/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

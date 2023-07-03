@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># np_tools### *For use on internal Allen Institute network*[![PythonVersions](https://img.shields.io/pypi/pyversions/np_tools.svg)](https://pypi.python.org/pypi/np-tools/)General-purpose tools for common tasks encountered in Mindscope Neuropixels workflows.</longdescription>
+</pkgmetadata>

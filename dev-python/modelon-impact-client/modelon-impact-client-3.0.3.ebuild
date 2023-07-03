@@ -15,8 +15,8 @@ DESCRIPTION="Client library for easy scripting against Modelon Impact"
 
 HOMEPAGE="https://www.modelon.com/modelon-impact"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/b5/53/51b520ccb3abade41e88a1bbb3a2632aff3498fe7212d45bf9f90c160962/modelon_impact_client-${REALVERSION}.tar.gz"
-SOURCEFILE="modelon_impact_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b5/53/51b520ccb3abade41e88a1bbb3a2632aff3498fe7212d45bf9f90c160962/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

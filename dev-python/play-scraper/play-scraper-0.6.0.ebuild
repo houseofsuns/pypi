@@ -15,8 +15,8 @@ DESCRIPTION="Google Play Store application scraper"
 
 HOMEPAGE="https://github.com/danieliu/play-scraper"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/59/03/2f4bd9d3666cd808768c63891181e4b8062c5f317a85078a8d68d732a996/play_scraper-${REALVERSION}.tar.gz"
-SOURCEFILE="play_scraper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/59/03/2f4bd9d3666cd808768c63891181e4b8062c5f317a85078a8d68d732a996/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

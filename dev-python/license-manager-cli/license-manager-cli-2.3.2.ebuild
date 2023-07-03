@@ -15,8 +15,8 @@ DESCRIPTION="License Manager CLI Client"
 
 HOMEPAGE="https://github.com/omnivector-solutions/license-manager"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/73/c3/6a851bff32739fe5c584359e4ca2af8746454d45666a1a85d99fd8f81572/license_manager_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="license_manager_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/73/c3/6a851bff32739fe5c584359e4ca2af8746454d45666a1a85d99fd8f81572/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

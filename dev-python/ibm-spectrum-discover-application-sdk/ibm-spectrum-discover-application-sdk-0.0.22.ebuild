@@ -15,8 +15,8 @@ DESCRIPTION="IBM Spectrum Discover Application SDK"
 
 HOMEPAGE="https://github.com/IBM/Spectrum_Discover_Application_SDK"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1c/2f/a49e2b5012dc60db2977835c7d4021064614458f81b40e630e33e3051fcb/ibm_spectrum_discover_application_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="ibm_spectrum_discover_application_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1c/2f/a49e2b5012dc60db2977835c7d4021064614458f81b40e630e33e3051fcb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

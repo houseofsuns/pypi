@@ -15,8 +15,8 @@ DESCRIPTION="PyTorch version of Google AI BERT model with script to load Google 
 
 HOMEPAGE="https://github.com/huggingface/pytorch-pretrained-BERT"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/62/99/32f994e64c1f3c23f73ccff01ae7324ecd82ac2e5f16657940cb72832a06/pytorch_pretrained_bert-${REALVERSION}.tar.gz"
-SOURCEFILE="pytorch_pretrained_bert-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/62/99/32f994e64c1f3c23f73ccff01ae7324ecd82ac2e5f16657940cb72832a06/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

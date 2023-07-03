@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Odoo Python Client===============================![PyPI](https://img.shields.io/pypi/v/odoo-client?style=flat-square)  Odoo API Client in Python- Free Software: MIT License### Installation```shpip install odoo_client```### Quickstart```pythonfrom odoo_client import OdooClientODOO_URL = &quot;&lt;Your Odoo URL&gt;&quot;ODOO_DB = &quot;&lt;Your Odoo Database Name&gt;&quot;ODOO_USER = &quot;&lt;Your Odoo Username&gt;&quot;ODOO_PW = &quot;&lt;Your Odoo Password&gt;&quot;CLIENT = OdooClient(ODOO_URL, ODOO_DB, ODOO_USER, ODOO_PW)PARTNER = CLIENT.object(&quot;res.partner&quot;)# Search for Partners that are companies and return the fields: &quot;name&quot;, &quot;country_id&quot; and &quot;comment&quot;records = PARTNER.search_read([[&quot;is_company&quot;, &quot;=&quot;, True]], [&quot;name&quot;, &quot;country_id&quot;, &quot;comment&quot;])```</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="A small example package"
 
 HOMEPAGE="https://github.com/thetakana/discord_command"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6c/03/1448a5eeb17d04f2b20be1d4c698296e1ccd42f92a528799398fdf7a191d/discord_command-${REALVERSION}.tar.gz"
-SOURCEFILE="discord_command-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6c/03/1448a5eeb17d04f2b20be1d4c698296e1ccd42f92a528799398fdf7a191d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

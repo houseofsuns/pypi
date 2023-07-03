@@ -15,8 +15,8 @@ DESCRIPTION="A small python library for discovery and interacting with Melnor, E
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/82/7a/c10cf5ff3ccb2b69ed94f9a5d2008d59d29780bee2cf6cb32657edb489e2/melnor_bluetooth-${REALVERSION}.tar.gz"
-SOURCEFILE="melnor_bluetooth-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/82/7a/c10cf5ff3ccb2b69ed94f9a5d2008d59d29780bee2cf6cb32657edb489e2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

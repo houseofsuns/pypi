@@ -15,8 +15,8 @@ DESCRIPTION="Allow receipt parsing"
 
 HOMEPAGE="https://github.com/slgero/receipt_parser"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1e/10/3a84acf4f5ed6b563abe8ebd5533b99fd651e1f5db6ac2f34430654b71fe/receipt_parser-${REALVERSION}.tar.gz"
-SOURCEFILE="receipt_parser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1e/10/3a84acf4f5ed6b563abe8ebd5533b99fd651e1f5db6ac2f34430654b71fe/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Cloudera Manager API client"
 
 HOMEPAGE="http://cloudera.github.com/cm_api/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e4/20/f3d00b0b1f83b7162f246328a888cb23b2b4ef023b527f3bc3e645b1ffe7/cm_api-${REALVERSION}.tar.gz"
-SOURCEFILE="cm_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e4/20/f3d00b0b1f83b7162f246328a888cb23b2b4ef023b527f3bc3e645b1ffe7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

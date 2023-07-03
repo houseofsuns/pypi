@@ -15,8 +15,8 @@ DESCRIPTION="Deeptracy Dependency Checker"
 
 HOMEPAGE="https://github.com/BBVA/deeptracy-core"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2e/5e/25bc950671c3d37a724cebd5d3333f7d75621b67ffac12476dfd0622bc02/deeptracy_core-${REALVERSION}.tar.gz"
-SOURCEFILE="deeptracy_core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2e/5e/25bc950671c3d37a724cebd5d3333f7d75621b67ffac12476dfd0622bc02/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

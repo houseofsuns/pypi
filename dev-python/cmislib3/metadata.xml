@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>ABOUTThanks for using cmislib, the CMIS client library for Python v. &gt;= 3.The goal of this library is to provide an interoperable API to CMISrepositories such as Alfresco, Nuxeo, KnowledgeTree, MS SharePoint,EMC Documentum, and any other content repository that is CMIS-compliant.More info on CMIS can be found at:http://www.oasis-open.org/committees/cmisSOURCEThe source code for this project implemented for Python 2 lives at http://chemistry.apache.org/.The source code for this project implemented for Python 3 lives at https://github.com/luca-92/cmislib3.TESTSThere are unit tests available in the tests directory. They require accessto a CMIS provider. There are many freely-available CMIS repositoriesavailable to run locally or that are hosted.DOCDocumentation that tells you what this is all about can be found in the docdirectory. Please see the doc for dependencies, required CMIS version level,required Python version, etc.</longdescription>
+</pkgmetadata>

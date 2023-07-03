@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module to link addresses to Google Maps"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/b9/83/ddb833ed65fee7ad391f865fa3c07a0e0cf4662efc8c91d918c234b8402f/trytond_google_maps-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_google_maps-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b9/83/ddb833ed65fee7ad391f865fa3c07a0e0cf4662efc8c91d918c234b8402f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

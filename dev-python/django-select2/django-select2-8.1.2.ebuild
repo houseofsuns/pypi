@@ -15,8 +15,8 @@ DESCRIPTION="This is a Django_ integration of Select2_."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7f/af/2fc371e1dea6686b588ab9cd445e55b63248a525f8c90550767a42dd77bb/django_select2-${REALVERSION}.tar.gz"
-SOURCEFILE="django_select2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7f/af/2fc371e1dea6686b588ab9cd445e55b63248a525f8c90550767a42dd77bb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

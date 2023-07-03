@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/dd/0d/adbff63e28f25a20c5d003c2d54f41bc81d8b5d78f0191128b18a8754a56/vcs_p_pack-${REALVERSION}.tar.gz"
-SOURCEFILE="vcs_p_pack-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/dd/0d/adbff63e28f25a20c5d003c2d54f41bc81d8b5d78f0191128b18a8754a56/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

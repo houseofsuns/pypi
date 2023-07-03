@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/tensorflow/privacy"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/a7/a4/b7c58792416419334bdd73c3634c1da1dc0b59faa718df987beba03e56b5/tensorflow_privacy-${REALVERSION}.tar.gz"
-SOURCEFILE="tensorflow_privacy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a7/a4/b7c58792416419334bdd73c3634c1da1dc0b59faa718df987beba03e56b5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

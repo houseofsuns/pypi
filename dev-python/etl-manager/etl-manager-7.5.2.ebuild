@@ -15,8 +15,8 @@ DESCRIPTION="A python package to manage etl processes on AWS"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e4/bc/abcda44a74f280ca3be9ab5803c6a28cdb7084ba2ae3d980a5eeea9be056/etl_manager-${REALVERSION}.tar.gz"
-SOURCEFILE="etl_manager-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e4/bc/abcda44a74f280ca3be9ab5803c6a28cdb7084ba2ae3d980a5eeea9be056/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

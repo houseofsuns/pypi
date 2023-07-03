@@ -15,8 +15,8 @@ DESCRIPTION="Federation exploration functions for curator core project"
 
 HOMEPAGE="https://github.com/usnistgov/core_explore_federated_search_app"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6d/87/7b5fb5e1cdd60b67c63f33bc0d7d311b7e6fec6d965e18719564371c8cb5/core_explore_federated_search_app-${REALVERSION}.tar.gz"
-SOURCEFILE="core_explore_federated_search_app-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6d/87/7b5fb5e1cdd60b67c63f33bc0d7d311b7e6fec6d965e18719564371c8cb5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

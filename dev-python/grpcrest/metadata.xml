@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>grpcrest - A Rest Wrapper for Grpc APIs---------------------------------------To use , simply do::    pip install grpcrest    start-grpc-rest &lt;port-number&gt; (Default Port number is 5000)The above commands will start a simple flask based webserver in the localhost. To verify the server is up and running , hit the below url in browser</longdescription>
+</pkgmetadata>

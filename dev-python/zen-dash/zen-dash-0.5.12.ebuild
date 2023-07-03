@@ -15,8 +15,8 @@ DESCRIPTION="Simple yet scable and production ready python dashboard that is bet
 
 HOMEPAGE="https://zen-reportz.github.io/zen_dash/index.html"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f9/45/cc856731357f1d0fcd20e4089e7d28b2753c6fc32ddc37b63027691e6621/zen_dash-${REALVERSION}.tar.gz"
-SOURCEFILE="zen_dash-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f9/45/cc856731357f1d0fcd20e4089e7d28b2753c6fc32ddc37b63027691e6621/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

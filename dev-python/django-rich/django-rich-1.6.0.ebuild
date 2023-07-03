@@ -15,8 +15,8 @@ DESCRIPTION="Extensions for using Rich with Django."
 
 HOMEPAGE="https://github.com/adamchainz/django-rich"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/60/82/e0fb105d9f866228a5baa6f090bbffefb5bb461df5127665fc3d7a943149/django_rich-${REALVERSION}.tar.gz"
-SOURCEFILE="django_rich-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/60/82/e0fb105d9f866228a5baa6f090bbffefb5bb461df5127665fc3d7a943149/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

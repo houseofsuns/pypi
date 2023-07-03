@@ -15,8 +15,8 @@ DESCRIPTION="PIX is an image processing library in JAX, for JAX."
 
 HOMEPAGE="https://github.com/deepmind/dm_pix"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/35/e6/35dda8b7dae0272c72ed4cf9413099efe97aab25c092c17e91f51bbb8de3/dm_pix-${REALVERSION}.tar.gz"
-SOURCEFILE="dm_pix-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/35/e6/35dda8b7dae0272c72ed4cf9413099efe97aab25c092c17e91f51bbb8de3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

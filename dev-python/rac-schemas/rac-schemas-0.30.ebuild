@@ -15,8 +15,8 @@ DESCRIPTION="RAC JSON Schemas and validators"
 
 HOMEPAGE="http://github.com/RockefellerArchiveCenter/rac_schemas"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/62/a9/1788d826c91f7f4e96301d8e04ef93bf696f85a5bd61a51338967abb0f60/rac_schemas-${REALVERSION}.tar.gz"
-SOURCEFILE="rac_schemas-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/62/a9/1788d826c91f7f4e96301d8e04ef93bf696f85a5bd61a51338967abb0f60/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

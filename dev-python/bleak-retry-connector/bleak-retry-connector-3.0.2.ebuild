@@ -15,8 +15,8 @@ DESCRIPTION="A connector for Bleak Clients that handles transient connection fai
 
 HOMEPAGE="https://github.com/bluetooth-devices/bleak-retry-connector"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5d/60/b0e5df0330456a4bd853c7c3299edd0a1d8549a8253cfad5b6d2fa93b005/bleak_retry_connector-${REALVERSION}.tar.gz"
-SOURCEFILE="bleak_retry_connector-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5d/60/b0e5df0330456a4bd853c7c3299edd0a1d8549a8253cfad5b6d2fa93b005/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

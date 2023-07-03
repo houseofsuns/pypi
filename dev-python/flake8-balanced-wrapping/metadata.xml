@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># flake8-balanced-wrapping[![CircleCI](https://circleci.com/gh/PeterJCLaw/flake8-balanced-wrapping/tree/main.svg?style=svg)](https://circleci.com/gh/PeterJCLaw/flake8-balanced-wrapping/tree/main)A flake8 plugin that helps you wrap code with visual balance.The aim of this linter is to complement the use of developer-assistance pythonformatting tools, i.e: those where the developer remains in control of _when_ toformat code a particular way, while still enforcing a consistent style of _how_the code is formatted.## StyleThe style which this linter checks for is one which aims for clarity and visualbalance while reducing diff noise, without concern for vertical space. This issimilar to the [`tuck`](https://pypi.org/project/tuck/) wrapping tool.As much as possible this linter will not duplicate checks provided by otherplugins where they are are in agreement.**Example**: Function definitions``` python# Unwrappeddef foo(bar: str, quox: int = 0) -&gt; float:    return 4.2# Wrappeddef foo(    bar: str,    quox: int = 0,) -&gt; float:    return 4.2```**Example**: List comprehension``` python# Unwrapped[x for x in 'aBcD' if x.isupper()]# Wrapped[    x    for x in 'aBcD'    if x.isupper()]```</longdescription>
+</pkgmetadata>

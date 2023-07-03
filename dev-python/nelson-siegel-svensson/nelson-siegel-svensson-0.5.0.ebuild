@@ -15,8 +15,8 @@ DESCRIPTION="Implementation of the Nelson-Siegel-Svensson interest rate curve mo
 
 HOMEPAGE="https://github.com/luphord/nelson_siegel_svensson"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/49/18/b0889a14db20f21f4164196661d8714e9f09797ab0e2788b550d7574cfc1/nelson_siegel_svensson-${REALVERSION}.tar.gz"
-SOURCEFILE="nelson_siegel_svensson-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/49/18/b0889a14db20f21f4164196661d8714e9f09797ab0e2788b550d7574cfc1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

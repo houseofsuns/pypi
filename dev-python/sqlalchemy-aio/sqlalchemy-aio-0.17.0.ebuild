@@ -15,8 +15,8 @@ DESCRIPTION="Async support for SQLAlchemy."
 
 HOMEPAGE="https://github.com/RazerM/sqlalchemy_aio"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/73/ac/817e18bdd735a4e9bf4a2d6a25229dfe50847fd072249d500a06b588b0a5/sqlalchemy_aio-${REALVERSION}.tar.gz"
-SOURCEFILE="sqlalchemy_aio-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/73/ac/817e18bdd735a4e9bf4a2d6a25229dfe50847fd072249d500a06b588b0a5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

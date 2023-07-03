@@ -15,8 +15,8 @@ DESCRIPTION="A library to store and retrieve python objects in a DynamoDB databa
 
 HOMEPAGE="https://github.com/druid-rio/druid-data"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5c/9e/576b9c077387fc78dc67cd114a43cfcaa4f4ecc606d6f1d29ce5089ac4e1/druid_data-${REALVERSION}.tar.gz"
-SOURCEFILE="druid_data-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5c/9e/576b9c077387fc78dc67cd114a43cfcaa4f4ecc606d6f1d29ce5089ac4e1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Alibaba Cloud Alb (20200616) SDK Library for Python"
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/5d/e3/b2c7c9e78f021ceb357c5fd18c61256457e64ef1eb975dc92ef972bcf0d8/alibabacloud_alb20200616-${REALVERSION}.tar.gz"
-SOURCEFILE="alibabacloud_alb20200616-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5d/e3/b2c7c9e78f021ceb357c5fd18c61256457e64ef1eb975dc92ef972bcf0d8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

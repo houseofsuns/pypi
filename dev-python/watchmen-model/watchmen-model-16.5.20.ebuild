@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f6/c4/1daf336335866a3d023b67f8497aea14fdbd7216776aeacb5dcc07927665/watchmen_model-${REALVERSION}.tar.gz"
-SOURCEFILE="watchmen_model-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f6/c4/1daf336335866a3d023b67f8497aea14fdbd7216776aeacb5dcc07927665/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

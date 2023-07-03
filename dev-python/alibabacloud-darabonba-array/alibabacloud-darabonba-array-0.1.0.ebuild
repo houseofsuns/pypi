@@ -15,8 +15,8 @@ DESCRIPTION="Alibaba Cloud Darabonba Array SDK Library for Python"
 
 HOMEPAGE="https://github.com/aliyun/darabonba-array"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/50/be/1813d7553e11e20a1422ffaaead392cfa7239a855c7e67c6a6b5776cfa64/alibabacloud_darabonba_array-${REALVERSION}.tar.gz"
-SOURCEFILE="alibabacloud_darabonba_array-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/50/be/1813d7553e11e20a1422ffaaead392cfa7239a855c7e67c6a6b5776cfa64/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

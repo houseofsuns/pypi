@@ -15,8 +15,8 @@ DESCRIPTION="A small example package"
 
 HOMEPAGE="https://github.com/pypa/sampleproject"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9d/99/823013e2e8f504b248429beacd5e6fb0a707a5b21b689c92e64119b898c6/aib_logging-${REALVERSION}.tar.gz"
-SOURCEFILE="aib_logging-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9d/99/823013e2e8f504b248429beacd5e6fb0a707a5b21b689c92e64119b898c6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

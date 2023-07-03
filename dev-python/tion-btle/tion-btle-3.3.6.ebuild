@@ -15,8 +15,8 @@ DESCRIPTION="Python module for interacting with Tion breezers"
 
 HOMEPAGE="https://github.com/TionAPI/tion_python/tree/dev"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ae/1f/0e3dfc9aaf54f85187af9ace02377b78f85f4446d110849eef50774e11c5/tion_btle-${REALVERSION}.tar.gz"
-SOURCEFILE="tion_btle-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ae/1f/0e3dfc9aaf54f85187af9ace02377b78f85f4446d110849eef50774e11c5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Ready-to-use examples for the Safe-DS Python library."
 
 HOMEPAGE="https://github.com/Safe-DS/Stdlib-Examples"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/87/3b/5ee083fc6dd5bb2a77560f5cf47b9a455d65dddc4c3a5d32c9c1d9c392ea/safe_ds_examples-${REALVERSION}.tar.gz"
-SOURCEFILE="safe_ds_examples-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/87/3b/5ee083fc6dd5bb2a77560f5cf47b9a455d65dddc4c3a5d32c9c1d9c392ea/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

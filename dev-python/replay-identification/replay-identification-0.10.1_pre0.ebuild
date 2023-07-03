@@ -15,8 +15,8 @@ DESCRIPTION="Identify non-local events using multiple information sources"
 
 HOMEPAGE="https://github.com/Eden-Kramer-Lab/replay_identification"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/32/16/41960dda41953e5147bad1bd307330133631e136a557b6c2c1396cb2f3e3/replay_identification-${REALVERSION}.tar.gz"
-SOURCEFILE="replay_identification-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/32/16/41960dda41953e5147bad1bd307330133631e136a557b6c2c1396cb2f3e3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Collection of motion models for 2D and 3D CT motion compensation"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/68/f4/65921a1073e8759a99de0c0e181aa1fcd8e21c7fe13dc2ea8de91a9c8561/motion_models-${REALVERSION}.tar.gz"
-SOURCEFILE="motion_models-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/68/f4/65921a1073e8759a99de0c0e181aa1fcd8e21c7fe13dc2ea8de91a9c8561/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

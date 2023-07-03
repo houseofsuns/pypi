@@ -15,8 +15,8 @@ DESCRIPTION="Integrate the French government Design System into a Django app"
 
 HOMEPAGE="https://github.com/entrepreneur-interet-general/django-dsfr"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b7/7a/34f4ba181434fba5ce5c483251976eb25428b3eba2f7b8546a43df37ad0d/django_dsfr-${REALVERSION}.tar.gz"
-SOURCEFILE="django_dsfr-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b7/7a/34f4ba181434fba5ce5c483251976eb25428b3eba2f7b8546a43df37ad0d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

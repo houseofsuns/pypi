@@ -15,8 +15,8 @@ DESCRIPTION="A very simple and fast key-value store but persisting data to disk,
 
 HOMEPAGE="https://github.com/sopherapps/py_scdb"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/31/26/d8099f79c7d9cab922952809f0493e8ecd69c72e7a94bc7029a62efd8ff3/py_scdb-${REALVERSION}.tar.gz"
-SOURCEFILE="py_scdb-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/31/26/d8099f79c7d9cab922952809f0493e8ecd69c72e7a94bc7029a62efd8ff3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

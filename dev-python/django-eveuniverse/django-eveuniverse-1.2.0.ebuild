@@ -15,8 +15,8 @@ DESCRIPTION="Complete set of Eve Universe models with on-demand loading from ESI
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/74/37/1aaf4531f16b25c07b8eac48e78e4beb58791254792a946d25ae6d1da77f/django_eveuniverse-${REALVERSION}.tar.gz"
-SOURCEFILE="django_eveuniverse-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/74/37/1aaf4531f16b25c07b8eac48e78e4beb58791254792a946d25ae6d1da77f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="pythonic implementation of behaviour trees"
 
 HOMEPAGE="https://github.com/splintered-reality/py_trees"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/29/57/03dc256d51e1daf80be6f098e82154676bf90003e5db7e17b130b3300611/py_trees-${REALVERSION}.tar.gz"
-SOURCEFILE="py_trees-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/29/57/03dc256d51e1daf80be6f098e82154676bf90003e5db7e17b130b3300611/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

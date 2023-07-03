@@ -15,8 +15,8 @@ DESCRIPTION="pytest plugin for test session metadata"
 
 HOMEPAGE="https://github.com/pytest-dev/pytest-metadata"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fa/0a/2d380e69561a2fea3f395ef2504461cdb52387fba780d13796bfddc6a416/pytest_metadata-${REALVERSION}.tar.gz"
-SOURCEFILE="pytest_metadata-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fa/0a/2d380e69561a2fea3f395ef2504461cdb52387fba780d13796bfddc6a416/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

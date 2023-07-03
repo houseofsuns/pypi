@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/19/fb/9648606ffac877b3b1db68398907691c5558cb108b3947f2131b44cf6cf2/uptick_datawarehouse-${REALVERSION}.tar.gz"
-SOURCEFILE="uptick_datawarehouse-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/19/fb/9648606ffac877b3b1db68398907691c5558cb108b3947f2131b44cf6cf2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Helpers for using timezones in the Facebook Graph API."
 
 HOMEPAGE="https://github.com/mayple/facebook_timezones"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/56/f7/1508b5bbd49678bc29d4e50da891c7feb3b16c82c3eddedf5dddb75d2227/facebook_timezones-${REALVERSION}.tar.gz"
-SOURCEFILE="facebook_timezones-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/56/f7/1508b5bbd49678bc29d4e50da891c7feb3b16c82c3eddedf5dddb75d2227/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

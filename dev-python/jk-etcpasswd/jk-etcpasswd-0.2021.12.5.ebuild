@@ -15,8 +15,8 @@ DESCRIPTION="This python module provides classes to parse and model data from /e
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/db/06/40084c5a3bbd4c81b44ec55324cf5c97bad00e7ee756f92714d93f65f34f/jk_etcpasswd-${REALVERSION}.tar.gz"
-SOURCEFILE="jk_etcpasswd-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/db/06/40084c5a3bbd4c81b44ec55324cf5c97bad00e7ee756f92714d93f65f34f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

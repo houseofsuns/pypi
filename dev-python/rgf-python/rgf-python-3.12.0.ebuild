@@ -15,8 +15,8 @@ DESCRIPTION="Scikit-learn Wrapper for Regularized Greedy Forest"
 
 HOMEPAGE="https://github.com/RGF-team/rgf/tree/master/python-package"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8e/76/f54da5d5adb09db12ea4dbf28ee038f7b6978ac04d006f8e0561974abf05/rgf_python-${REALVERSION}.tar.gz"
-SOURCEFILE="rgf_python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8e/76/f54da5d5adb09db12ea4dbf28ee038f7b6978ac04d006f8e0561974abf05/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

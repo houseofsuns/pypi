@@ -15,8 +15,8 @@ DESCRIPTION="Python interface to AuditorClient"
 
 HOMEPAGE="https://alu-schumacher.github.io/AUDITOR/"
 LICENSE="MIT OR Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/5c/e9/e1abd31521351eaf378ad366ddf8f3ef7b50e6ae87e46fc966825407c861/python_auditor-${REALVERSION}.tar.gz"
-SOURCEFILE="python_auditor-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5c/e9/e1abd31521351eaf378ad366ddf8f3ef7b50e6ae87e46fc966825407c861/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

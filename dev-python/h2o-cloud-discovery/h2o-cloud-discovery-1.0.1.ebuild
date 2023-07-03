@@ -15,8 +15,8 @@ DESCRIPTION="H2O Cloud Discovery Python CLient"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/29/c6/acb8088ef933f10334acbc333ff2568b75261e86a850d72574dded49bcdd/h2o_cloud_discovery-${REALVERSION}.tar.gz"
-SOURCEFILE="h2o_cloud_discovery-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/29/c6/acb8088ef933f10334acbc333ff2568b75261e86a850d72574dded49bcdd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Some helper subdomain_takeover_tools to validate subdomain takeover
 
 HOMEPAGE="https://github.com/martinvw/subdomain-takeover-tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/57/dc/163fe26f3fc6294e8a7158acfaeb2eda1364b4bbeda04418bfd00e392829/subdomain_takeover_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="subdomain_takeover_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/57/dc/163fe26f3fc6294e8a7158acfaeb2eda1364b4bbeda04418bfd00e392829/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

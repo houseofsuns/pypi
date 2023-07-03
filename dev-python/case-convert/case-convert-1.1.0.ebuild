@@ -15,8 +15,8 @@ DESCRIPTION="Cross library to convert case with permissive input"
 
 HOMEPAGE="https://gitlab.com/olive007/case-convert"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bd/7b/eda64cbd50cc0e37bb40923ad88ee750f5c97afff2fa8da61ef31ce4c1dd/case_convert-${REALVERSION}.tar.gz"
-SOURCEFILE="case_convert-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bd/7b/eda64cbd50cc0e37bb40923ad88ee750f5c97afff2fa8da61ef31ce4c1dd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Communicate with the EmBody device over BLE (bluetooth)"
 
 HOMEPAGE="https://github.com/aidee-health/embody-ble"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f6/1b/d9d4f2d82a1b1890988349b21c6620284b348f076c7230241138e16e8a32/embody_ble-${REALVERSION}.tar.gz"
-SOURCEFILE="embody_ble-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f6/1b/d9d4f2d82a1b1890988349b21c6620284b348f076c7230241138e16e8a32/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

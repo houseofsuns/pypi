@@ -15,8 +15,8 @@ DESCRIPTION="Python implementation of FP Growth algorithm"
 
 HOMEPAGE="https://github.com/chonyy/fpgrowth_py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/78/4b/9ba2c8866128219ab17eeb3ac0df0c5998cd139f1be2933adc91a8642d7b/fpgrowth_py-${REALVERSION}.tar.gz"
-SOURCEFILE="fpgrowth_py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/78/4b/9ba2c8866128219ab17eeb3ac0df0c5998cd139f1be2933adc91a8642d7b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

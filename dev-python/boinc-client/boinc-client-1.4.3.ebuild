@@ -15,8 +15,8 @@ DESCRIPTION="Python API for interacting with a BOINC client via RPC"
 
 HOMEPAGE="https://github.com/SplinterHead/boinc-client"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e8/47/e142bc37b57637b9d2208eb3ee34e694227ecab5fcb7b43bf4ec3e7737f3/boinc_client-${REALVERSION}.tar.gz"
-SOURCEFILE="boinc_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e8/47/e142bc37b57637b9d2208eb3ee34e694227ecab5fcb7b43bf4ec3e7737f3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Alibaba Cloud CloudAPI (20160714) SDK Library for Python2"
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python2-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/24/cb/4a4836d2e6c5bf76011ab1a36719751185487bd4428aadb970016d3ce037/alibabacloud_cloudapi20160714_py2-${REALVERSION}.tar.gz"
-SOURCEFILE="alibabacloud_cloudapi20160714_py2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/24/cb/4a4836d2e6c5bf76011ab1a36719751185487bd4428aadb970016d3ce037/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="check youtuber live status"
 
 HOMEPAGE="https://github.com/phillychi3/youtube_lv"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c2/66/fbc71b17e597913f38c1fced16a8010d94ddcedff652f12e4de55eea1ef5/youtube_lv-${REALVERSION}.tar.gz"
-SOURCEFILE="youtube_lv-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c2/66/fbc71b17e597913f38c1fced16a8010d94ddcedff652f12e4de55eea1ef5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

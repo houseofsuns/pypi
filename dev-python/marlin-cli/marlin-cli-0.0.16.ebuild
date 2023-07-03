@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d7/6c/db6368f73b48286cd5b8efd841f2483a528183fc3d343272b12d10335316/marlin_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="marlin_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d7/6c/db6368f73b48286cd5b8efd841f2483a528183fc3d343272b12d10335316/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

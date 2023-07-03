@@ -15,8 +15,8 @@ DESCRIPTION="Additional code for Stable-baselines3 to load and upload models fro
 
 HOMEPAGE="https://github.com/huggingface/huggingface_sb3"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/3b/29/fd0c1c3383d0a60a851b8d043761f7107bb23828ca2f63e5cdfa4c164f57/huggingface_sb3-${REALVERSION}.tar.gz"
-SOURCEFILE="huggingface_sb3-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3b/29/fd0c1c3383d0a60a851b8d043761f7107bb23828ca2f63e5cdfa4c164f57/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

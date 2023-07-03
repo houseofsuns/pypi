@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module to historize product cost"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/c6/8f/a94c4c8b2034747def1fb4ffe44971e9497255d1e6f75735874b33b55a9a/trytond_product_cost_history-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_product_cost_history-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c6/8f/a94c4c8b2034747def1fb4ffe44971e9497255d1e6f75735874b33b55a9a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Utilities to augment attrs."
 
 HOMEPAGE="https://github.com/domdfcoding/attr_utils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6b/29/2ead62728af1f9c91fa7cab1937649a7e9428dab5596590eaf2f664e476c/attr_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="attr_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6b/29/2ead62728af1f9c91fa7cab1937649a7e9428dab5596590eaf2f664e476c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

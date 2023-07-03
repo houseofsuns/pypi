@@ -15,8 +15,8 @@ DESCRIPTION="Mycroft's multilingual text parsing and formatting library"
 
 HOMEPAGE="https://github.com/MycroftAI/lingua-franca"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/4d/2b/137c99aaef1e4fc0eaed14d2c36570d18ede7bd09b3a1531c84378adb60c/lingua_franca-${REALVERSION}.tar.gz"
-SOURCEFILE="lingua_franca-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4d/2b/137c99aaef1e4fc0eaed14d2c36570d18ede7bd09b3a1531c84378adb60c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

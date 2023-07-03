@@ -15,8 +15,8 @@ DESCRIPTION="NAPALM's plugins for nornir"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/fd/26/c981802445765073b9e2effd32816b1015b3f281adcdd193d5d0b36a20cb/nornir_napalm-${REALVERSION}.tar.gz"
-SOURCEFILE="nornir_napalm-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fd/26/c981802445765073b9e2effd32816b1015b3f281adcdd193d5d0b36a20cb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

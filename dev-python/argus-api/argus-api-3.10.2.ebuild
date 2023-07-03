@@ -15,8 +15,8 @@ DESCRIPTION="SDK for the Argus API"
 
 HOMEPAGE="https://mnemonic.io"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/d7/79/0830dbde52c672f1bc02cedfe6d1deca179403064481f52895222bdc960b/argus_api-${REALVERSION}.tar.gz"
-SOURCEFILE="argus_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d7/79/0830dbde52c672f1bc02cedfe6d1deca179403064481f52895222bdc960b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

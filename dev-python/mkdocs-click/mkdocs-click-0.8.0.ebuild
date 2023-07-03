@@ -15,8 +15,8 @@ DESCRIPTION="An MkDocs extension to generate documentation for Click command lin
 
 HOMEPAGE="https://github.com/DataDog/mkdocs-click"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0b/e3/e374fb472f42fefff190d5a656326aece0cedbd573d21786d6a5aa6853d6/mkdocs_click-${REALVERSION}.tar.gz"
-SOURCEFILE="mkdocs_click-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0b/e3/e374fb472f42fefff190d5a656326aece0cedbd573d21786d6a5aa6853d6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

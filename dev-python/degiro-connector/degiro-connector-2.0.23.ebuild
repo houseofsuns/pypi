@@ -15,8 +15,8 @@ DESCRIPTION="This is yet another library to access Degiro's API."
 
 HOMEPAGE="https://github.com/chavithra/degiro-connector"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/59/28/98380ff9e3b8e873e7693a13276f0e3a694333dbd0dd7e19535f1c642301/degiro_connector-${REALVERSION}.tar.gz"
-SOURCEFILE="degiro_connector-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/59/28/98380ff9e3b8e873e7693a13276f0e3a694333dbd0dd7e19535f1c642301/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

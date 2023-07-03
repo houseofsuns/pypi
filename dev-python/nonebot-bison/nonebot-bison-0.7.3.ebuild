@@ -15,8 +15,8 @@ DESCRIPTION="Subscribe message from social medias"
 
 HOMEPAGE="https://github.com/felinae98/nonebot-bison"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ef/04/f9000bb8c8b6ec57cd6365bb1a1298c6911d12d52064e7ca3ddde2ed2258/nonebot_bison-${REALVERSION}.tar.gz"
-SOURCEFILE="nonebot_bison-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ef/04/f9000bb8c8b6ec57cd6365bb1a1298c6911d12d52064e7ca3ddde2ed2258/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

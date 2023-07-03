@@ -15,8 +15,8 @@ DESCRIPTION="Bodhi client"
 
 HOMEPAGE="https://bodhi.fedoraproject.org/"
 LICENSE="GPL-2+"
-SRC_URI="https://files.pythonhosted.org/packages/07/5a/a404b8886e454f614ef7af5e27c72c42d5f976c800d16f2d716551b47087/bodhi_client-${REALVERSION}.tar.gz"
-SOURCEFILE="bodhi_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/07/5a/a404b8886e454f614ef7af5e27c72c42d5f976c800d16f2d716551b47087/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

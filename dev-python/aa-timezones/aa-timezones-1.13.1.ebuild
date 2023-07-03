@@ -15,8 +15,8 @@ DESCRIPTION="Time Zones Overview for Alliance Auth"
 
 HOMEPAGE="https://github.com/ppfeufer/aa-timezones"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a6/76/3061e479a079919308557f053dcb3bf4bbc817b10559f0890d360bdc9a13/aa_timezones-${REALVERSION}.tar.gz"
-SOURCEFILE="aa_timezones-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a6/76/3061e479a079919308557f053dcb3bf4bbc817b10559f0890d360bdc9a13/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

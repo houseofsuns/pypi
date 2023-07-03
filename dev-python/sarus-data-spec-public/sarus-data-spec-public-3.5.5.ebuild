@@ -15,8 +15,8 @@ DESCRIPTION="A library to manage Sarus datasets"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/13/18/b4b8d73a5e834d8a75a9f948856ecfefc6685549e8f0542c6ce73b249ba7/sarus_data_spec_public-${REALVERSION}.tar.gz"
-SOURCEFILE="sarus_data_spec_public-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/13/18/b4b8d73a5e834d8a75a9f948856ecfefc6685549e8f0542c6ce73b249ba7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

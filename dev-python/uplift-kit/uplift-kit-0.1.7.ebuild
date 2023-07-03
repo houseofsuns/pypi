@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d1/56/56882581b362f76c956054eeaf375a0c43bb4c81562a75265043d80284f3/uplift_kit-${REALVERSION}.tar.gz"
-SOURCEFILE="uplift_kit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d1/56/56882581b362f76c956054eeaf375a0c43bb4c81562a75265043d80284f3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

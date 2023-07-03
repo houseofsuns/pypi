@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This NLP package for Portuguese lemmatization is a powerful and advanced tool that can accurately transform words into their base forms or lemmas, taking into account the specific grammatical rules and variations of the Portuguese language. It is designed to handle various types of text input and supports multiple output formats, making it a versatile tool for applications such as information retrieval, machine translation, sentiment analysis, and text classification. Additionally, the package is customizable and user-friendly, allowing users to specify their own dictionaries and rules for lemmatization and providing features for error correction and word sense disambiguation.Whether you are a researcher, developer, or linguist working with Portuguese text data, this NLP package can help you save time and improve the accuracy and quality of your analyses. With its advanced algorithms and techniques in NLP, you can trust that this tool will provide high-quality results and make the lemmatization process more efficient.*_A lemma is a word that stands at the head of a definition in a dictionary._* [Wikipedia](https://simple.wikipedia.org/wiki/Lemma_(linguistics)#:~:text=A%20lemma%20is%20a%20word,you%20find%20in%20the%20dictionary.)### Example```from pt_lemmatizer import Lemmatizerl = Lemmatizer()l.lemmatize('apagou')  #all words must be unidecoded and lowercased&gt;&gt; 'apagar'l.lemmatize('nasalaram')&gt;&gt; 'nasalar'</longdescription>
+</pkgmetadata>

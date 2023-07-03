@@ -15,8 +15,8 @@ DESCRIPTION="Pydantic models for the OME-NGFF"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/45/65/c432d9e9880d34b8f37d761a222ef3d8c581063529585c5b6e4487f945ca/pydantic_ome_ngff-${REALVERSION}.tar.gz"
-SOURCEFILE="pydantic_ome_ngff-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/45/65/c432d9e9880d34b8f37d761a222ef3d8c581063529585c5b6e4487f945ca/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

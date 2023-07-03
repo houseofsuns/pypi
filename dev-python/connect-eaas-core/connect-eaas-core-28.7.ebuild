@@ -15,8 +15,8 @@ DESCRIPTION="Connect Eaas Core"
 
 HOMEPAGE="https://connect.cloudblue.com"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/77/4e/049bda4c8e916c6503dc44333263d7c2206e6e37aad154f58888d318591c/connect_eaas_core-${REALVERSION}.tar.gz"
-SOURCEFILE="connect_eaas_core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/77/4e/049bda4c8e916c6503dc44333263d7c2206e6e37aad154f58888d318591c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

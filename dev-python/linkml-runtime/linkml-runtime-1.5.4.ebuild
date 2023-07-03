@@ -15,8 +15,8 @@ DESCRIPTION="Runtime environment for LinkML, the Linked open data modeling langu
 
 HOMEPAGE="https://github.com/linkml/linkml-runtime"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/35/8d/db7307b93adc71461969de8c66885fd856d481fe666e54e37c0cb5eb16de/linkml_runtime-${REALVERSION}.tar.gz"
-SOURCEFILE="linkml_runtime-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/35/8d/db7307b93adc71461969de8c66885fd856d481fe666e54e37c0cb5eb16de/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

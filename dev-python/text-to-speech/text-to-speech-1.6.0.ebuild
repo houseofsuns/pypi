@@ -15,8 +15,8 @@ DESCRIPTION="A simple text to speech engine"
 
 HOMEPAGE="https://github.com/dewittethomas/text-to-speech"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e7/fa/9f35f1fbc446d1c3af3406e16f44a98de4a79b0cff672a56ffa0fec63866/text_to_speech-${REALVERSION}.tar.gz"
-SOURCEFILE="text_to_speech-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e7/fa/9f35f1fbc446d1c3af3406e16f44a98de4a79b0cff672a56ffa0fec63866/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

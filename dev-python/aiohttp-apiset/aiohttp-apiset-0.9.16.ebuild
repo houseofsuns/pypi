@@ -15,8 +15,8 @@ DESCRIPTION="Build routes using swagger specification"
 
 HOMEPAGE="https://github.com/aamalev/aiohttp_apiset/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/aa/d0/1ab31722f7123ba37f2abb4bb75e126b43d3d869380e05cabe794b2d85c5/aiohttp_apiset-${REALVERSION}.tar.gz"
-SOURCEFILE="aiohttp_apiset-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/aa/d0/1ab31722f7123ba37f2abb4bb75e126b43d3d869380e05cabe794b2d85c5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

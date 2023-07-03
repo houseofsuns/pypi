@@ -15,8 +15,8 @@ DESCRIPTION="Python Dependency Check Tool"
 
 HOMEPAGE="https://github.com/lumapps/dep-check"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0e/64/3573fc67e5f9a9e5729873d2eb139a486eed841f5068178c2bd869dd0a06/dep_check-${REALVERSION}.tar.gz"
-SOURCEFILE="dep_check-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0e/64/3573fc67e5f9a9e5729873d2eb139a486eed841f5068178c2bd869dd0a06/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

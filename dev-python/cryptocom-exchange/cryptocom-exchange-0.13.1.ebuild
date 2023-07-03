@@ -15,8 +15,8 @@ DESCRIPTION="Python 3.7+ async library for crypto.com/exchange API using httpx a
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c7/3f/4f43058eab456c1c71f38d93c035b685781b903254bcbe7e4aa07c2a4fe9/cryptocom_exchange-${REALVERSION}.tar.gz"
-SOURCEFILE="cryptocom_exchange-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c7/3f/4f43058eab456c1c71f38d93c035b685781b903254bcbe7e4aa07c2a4fe9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

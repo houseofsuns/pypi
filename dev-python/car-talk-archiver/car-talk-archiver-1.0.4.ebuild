@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/bheinks/car-talk-archiver"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cd/41/3af1c0e69e27b2ec3afdc80f473705c837957fae7f245206be9ae4b1fc18/car_talk_archiver-${REALVERSION}.tar.gz"
-SOURCEFILE="car_talk_archiver-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cd/41/3af1c0e69e27b2ec3afdc80f473705c837957fae7f245206be9ae4b1fc18/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

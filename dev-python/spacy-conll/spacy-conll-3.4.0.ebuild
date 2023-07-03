@@ -15,8 +15,8 @@ DESCRIPTION="A custom pipeline component for spaCy that can convert any parsed D
 
 HOMEPAGE="https://github.com/BramVanroy/spacy_conll"
 LICENSE="BSD 2"
-SRC_URI="https://files.pythonhosted.org/packages/47/d7/d44f97e01ab22c2c21b0c7c6d581c5888a4049dfd2c249f3ee5f3b44426b/spacy_conll-${REALVERSION}.tar.gz"
-SOURCEFILE="spacy_conll-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/47/d7/d44f97e01ab22c2c21b0c7c6d581c5888a4049dfd2c249f3ee5f3b44426b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

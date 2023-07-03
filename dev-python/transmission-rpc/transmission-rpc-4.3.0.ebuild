@@ -15,8 +15,8 @@ DESCRIPTION="Python module that implements the Transmission bittorent client JSO
 
 HOMEPAGE="https://github.com/Trim21/transmission-rpc"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/61/15/98fcf6c008d8046b815bf56a4539c5e5c32aa35260de4c5042e6cdde5520/transmission_rpc-${REALVERSION}.tar.gz"
-SOURCEFILE="transmission_rpc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/61/15/98fcf6c008d8046b815bf56a4539c5e5c32aa35260de4c5042e6cdde5520/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

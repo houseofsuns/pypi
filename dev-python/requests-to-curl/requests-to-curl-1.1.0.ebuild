@@ -15,8 +15,8 @@ DESCRIPTION="Library to convert python requests object to curl command."
 
 HOMEPAGE="https://github.com/ritajie/requests_to_curl"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cf/f4/3f6e6e87cf2de47bcddab1859378f6452cff98ec2a21ae0348300677aae4/requests_to_curl-${REALVERSION}.tar.gz"
-SOURCEFILE="requests_to_curl-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cf/f4/3f6e6e87cf2de47bcddab1859378f6452cff98ec2a21ae0348300677aae4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

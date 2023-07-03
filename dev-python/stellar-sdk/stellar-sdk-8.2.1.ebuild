@@ -15,8 +15,8 @@ DESCRIPTION="The Python Stellar SDK library provides APIs to build transactions 
 
 HOMEPAGE="https://github.com/StellarCN/py-stellar-base"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f1/d6/9e3ddc30a25f401b2f5ddcf19c4ea4d2dfb9854893239a427a132da9b784/stellar_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="stellar_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f1/d6/9e3ddc30a25f401b2f5ddcf19c4ea4d2dfb9854893239a427a132da9b784/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="An easy interface to query the EC2 metadata API, with caching."
 
 HOMEPAGE="https://github.com/adamchainz/ec2-metadata"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0f/62/52ca61d8beef4792556c4f0f45cf106716496dd09a857990340a7e8d099f/ec2_metadata-${REALVERSION}.tar.gz"
-SOURCEFILE="ec2_metadata-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0f/62/52ca61d8beef4792556c4f0f45cf106716496dd09a857990340a7e8d099f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

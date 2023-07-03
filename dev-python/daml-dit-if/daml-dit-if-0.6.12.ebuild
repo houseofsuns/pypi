@@ -15,8 +15,8 @@ DESCRIPTION="Daml Hub Integration Framework"
 
 HOMEPAGE="https://github.com/digital-asset/daml-dit-if"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/32/42/534eeebe5b3cee094d0f8712c6c1da8829bc821ec57f1b04674e91255cbc/daml_dit_if-${REALVERSION}.tar.gz"
-SOURCEFILE="daml_dit_if-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/32/42/534eeebe5b3cee094d0f8712c6c1da8829bc821ec57f1b04674e91255cbc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

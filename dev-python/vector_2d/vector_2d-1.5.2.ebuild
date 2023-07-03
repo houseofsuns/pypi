@@ -15,8 +15,8 @@ DESCRIPTION="A module witch implements a two-dimensional vector, both in cartesi
 
 HOMEPAGE="https://github.com/betados/vector_2d"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/93/26/3483944ba31065b4aafa2be815b8107e6b2c1f0c9a8a4d4c71a816b79890/vector_2d-${REALVERSION}.tar.gz"
-SOURCEFILE="vector_2d-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/93/26/3483944ba31065b4aafa2be815b8107e6b2c1f0c9a8a4d4c71a816b79890/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

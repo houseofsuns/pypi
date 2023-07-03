@@ -15,8 +15,8 @@ DESCRIPTION="Slobr utilities"
 
 HOMEPAGE="https://github.com/pypa/sampleproject"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cf/0e/67038d7a2f4d1e33be6170a4127e474cbdb19a0e0e182e78af4996ab9c81/llama_slobber-${REALVERSION}.tar.gz"
-SOURCEFILE="llama_slobber-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cf/0e/67038d7a2f4d1e33be6170a4127e474cbdb19a0e0e182e78af4996ab9c81/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

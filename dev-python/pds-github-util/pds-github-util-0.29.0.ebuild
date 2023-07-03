@@ -15,8 +15,8 @@ DESCRIPTION="util functions for software life cycle enforcement on github"
 
 HOMEPAGE="https://github.com/NASA-PDS/pds-github-util"
 LICENSE="apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/27/b6/0af3854c3161c4086c2bb9a77550ee89e63d7f6b1ecfdc255fd4ca221fcd/pds_github_util-${REALVERSION}.tar.gz"
-SOURCEFILE="pds_github_util-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/27/b6/0af3854c3161c4086c2bb9a77550ee89e63d7f6b1ecfdc255fd4ca221fcd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Docusign Django Wrapper for integrating DocuSign with Django Applic
 
 HOMEPAGE="https://github.com/Lenders-Cooperative/Django-DocuSign"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/62/d5/178bf56b3e065737fb43514423c2ce7cd889da834a621258473a42dc7670/los_docusign-${REALVERSION}.tar.gz"
-SOURCEFILE="los_docusign-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/62/d5/178bf56b3e065737fb43514423c2ce7cd889da834a621258473a42dc7670/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

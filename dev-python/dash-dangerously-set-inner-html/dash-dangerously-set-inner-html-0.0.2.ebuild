@@ -15,8 +15,8 @@ DESCRIPTION="A dash component for specifying raw HTML"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/56/b1/5102060b9b6836409db84265f4f934475c2707cce87e75f3f8a04493e0dc/dash_dangerously_set_inner_html-${REALVERSION}.tar.gz"
-SOURCEFILE="dash_dangerously_set_inner_html-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/56/b1/5102060b9b6836409db84265f4f934475c2707cce87e75f3f8a04493e0dc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

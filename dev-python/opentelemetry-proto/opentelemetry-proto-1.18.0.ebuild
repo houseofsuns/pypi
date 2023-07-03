@@ -15,8 +15,8 @@ DESCRIPTION="OpenTelemetry Python Proto"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python/tree/main/opentelemetry-proto"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4c/d1/f68e32af720ca50a57cb2b47dfdebd9069bfde519c5e783a175d01355dc3/opentelemetry_proto-${REALVERSION}.tar.gz"
-SOURCEFILE="opentelemetry_proto-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4c/d1/f68e32af720ca50a57cb2b47dfdebd9069bfde519c5e783a175d01355dc3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

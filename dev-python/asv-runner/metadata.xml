@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># AboutCore Python benchmark code for `asv`.**This package shall not have any dependencies on external packages and must becompatible with all Python versions greater than or equal to `3.8`.**For other functionality, refer to the `asv` package or consider writing an extension.</longdescription>
+</pkgmetadata>

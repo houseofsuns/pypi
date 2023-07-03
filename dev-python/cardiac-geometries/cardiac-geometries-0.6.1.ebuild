@@ -15,8 +15,8 @@ DESCRIPTION="A python library for cardiac geometries"
 
 HOMEPAGE="https://github.com/ComputationalPhysiology/cardiac_geometries"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e5/03/aa687640f3fd8009cd7d4695732e948fb20af9a084dbc121e2dcc5e12f9f/cardiac_geometries-${REALVERSION}.tar.gz"
-SOURCEFILE="cardiac_geometries-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e5/03/aa687640f3fd8009cd7d4695732e948fb20af9a084dbc121e2dcc5e12f9f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

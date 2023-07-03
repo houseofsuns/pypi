@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># LIVE  python_strategies## Steps to install Strategy Library for LIVE```pythonpip install breeze_strategies==1.0.4```## Updating Library```pythonpip install --upgrade breeze_strategies```## code usage```python#Import the libraryfrom breeze_strategies import Strategies#Configure the strategy using API Keys and set stoploss/takeprofit level.obj = Strategies(app_key = &quot;your app key&quot;,                 secret_key = &quot;your secret key&quot;,                 api_session = &quot;your api session&quot;,                 max_profit = &quot;your max profit&quot;,                 max_loss = &quot;your max loss&quot;)#Execute the strategyobj.straddle(strategy_type = &quot;long&quot;,             stock_code = &quot;NIFTY&quot;,             strike_price = &quot;18700&quot;,             quantity = &quot;50&quot;,             expiry_date = &quot;2023-06-29T06:00:00.000Z&quot;)#SquareOff existing positions and exit the strategyobj.stop() #Generate Profit &amp; Loss reportobj.get_pnl()```</longdescription>
+</pkgmetadata>

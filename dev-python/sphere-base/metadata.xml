@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Sphere Base############Introduction=============This library was created as a building block for use in applications were information should be displayed as nodes orlabels on a sphere. These nodes are interactive so they can be moved by dragging and can be connected to other nodes.* Development Status: 4 - Beta* Free software: MIT licenseFeatures=========- Customizable spheres with textures and colors- Nodes, sockets and edges can be dragged over the surface of the sphere- Support for undo/redo, cut and paste using serialization- Hovering effects, dragging nodes, cutting edges- Background skybox image can be changed- Sphere color and texture can be changed- Example on how the library can be implementedRequirements=============This package is created in python using a pyqt5 window.- Python 3.x- PyOpenGL- PyQt5- pyperclip- pybullet- Pillow- numpySupported Environment======================* Windows (Win32, x64)The library is available from PyPI    $ pip install sphere-baseOr download the source code from github    git clone https://github.com/rboltze/sphere_base.git</longdescription>
+</pkgmetadata>

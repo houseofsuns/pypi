@@ -15,8 +15,8 @@ DESCRIPTION="Test Interface Robot"
 
 HOMEPAGE="https://github.com/totvs/tir"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a1/b5/d026c12fb807e5dfe91787312ccc9c881fcd8334e9efbc6f1786a46697a1/tir_framework-${REALVERSION}.tar.gz"
-SOURCEFILE="tir_framework-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a1/b5/d026c12fb807e5dfe91787312ccc9c881fcd8334e9efbc6f1786a46697a1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

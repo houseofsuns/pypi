@@ -15,8 +15,8 @@ DESCRIPTION="Library provides the way to automatically manage drivers for differ
 
 HOMEPAGE="https://github.com/SergeyPirogov/webdriver_manager"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f1/c9/9a9b29560817537fd8ed71d60cab74aebb180b81da964f480a1c30880768/webdriver_manager-${REALVERSION}.tar.gz"
-SOURCEFILE="webdriver_manager-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f1/c9/9a9b29560817537fd8ed71d60cab74aebb180b81da964f480a1c30880768/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

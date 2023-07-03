@@ -15,8 +15,8 @@ DESCRIPTION="Admin interface for Muffin Framework"
 
 HOMEPAGE="https://github.com/klen/muffin-admin"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5a/9f/ea1847028a3162fd0825d9499df2dd36fc36668333fa571bf7abae3a456a/muffin_admin-${REALVERSION}.tar.gz"
-SOURCEFILE="muffin_admin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5a/9f/ea1847028a3162fd0825d9499df2dd36fc36668333fa571bf7abae3a456a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A package for scraping property information from Finny website"
 
 HOMEPAGE="https://github.com/samueltanner/rfin_scraper"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2f/70/664f7a7fb3eea7f9a661093eba36918a6add2b5d484fa1d9ef420628e353/finny_scraper-${REALVERSION}.tar.gz"
-SOURCEFILE="finny_scraper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2f/70/664f7a7fb3eea7f9a661093eba36918a6add2b5d484fa1d9ef420628e353/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

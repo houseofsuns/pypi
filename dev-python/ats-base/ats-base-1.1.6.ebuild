@@ -15,8 +15,8 @@ DESCRIPTION="Test Script Development Library"
 
 HOMEPAGE="https://gitee.com/henry9000/ats_base"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1d/a9/115b4cfcfe6366ff8a708d60bbfa6b3e08e0a0f4224799d2743167e1f613/ats_base-${REALVERSION}.tar.gz"
-SOURCEFILE="ats_base-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1d/a9/115b4cfcfe6366ff8a708d60bbfa6b3e08e0a0f4224799d2743167e1f613/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

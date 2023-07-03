@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/pydantic/pydantic-core"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bb/c9/a03a85dcfdfac6907b7203f375368460e473f2d48417ad83c88b564995a0/pydantic_core-${REALVERSION}.tar.gz"
-SOURCEFILE="pydantic_core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bb/c9/a03a85dcfdfac6907b7203f375368460e473f2d48417ad83c88b564995a0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

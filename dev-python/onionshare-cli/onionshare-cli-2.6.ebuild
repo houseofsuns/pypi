@@ -15,8 +15,8 @@ DESCRIPTION="OnionShare lets you securely and anonymously send and receive files
 
 HOMEPAGE=""
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/d7/cf/4270d541a4f7916d67cd66b43c30e1f0fd2c52b0d533a170742af192fdc9/onionshare_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="onionshare_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d7/cf/4270d541a4f7916d67cd66b43c30e1f0fd2c52b0d533a170742af192fdc9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

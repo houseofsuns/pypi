@@ -15,8 +15,8 @@ DESCRIPTION="A customizable parser/transpiler for SCIM2.0 filters."
 
 HOMEPAGE="https://pypi.org/project/scim2-filter-parser/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a5/b1/d8cb9f0848cb02f590aed8b50b53b14887339a69f07c3a0e12efd1ed57e8/scim2_filter_parser-${REALVERSION}.tar.gz"
-SOURCEFILE="scim2_filter_parser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a5/b1/d8cb9f0848cb02f590aed8b50b53b14887339a69f07c3a0e12efd1ed57e8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

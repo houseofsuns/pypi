@@ -15,8 +15,8 @@ DESCRIPTION="Segment organoids and measure intensities"
 
 HOMEPAGE="https://github.com/aaristov/napari-segment"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/53/d4/7ce9d564eb7c384f63d02d6c8c7d1a85c80f8755518d3a3e90b3420b1758/napari_segment-${REALVERSION}.tar.gz"
-SOURCEFILE="napari_segment-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/53/d4/7ce9d564eb7c384f63d02d6c8c7d1a85c80f8755518d3a3e90b3420b1758/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="AWS를 쉽게 사용할 수 있게 도와줍니다."
 
 HOMEPAGE="https://github.com/da-huin/aws_glove"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/92/99/531387877c6ae4ed06d938625cc79ce3b5e398ed9389bbbc15a77a301d52/aws_glove-${REALVERSION}.tar.gz"
-SOURCEFILE="aws_glove-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/92/99/531387877c6ae4ed06d938625cc79ce3b5e398ed9389bbbc15a77a301d52/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

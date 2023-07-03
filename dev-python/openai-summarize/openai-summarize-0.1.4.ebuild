@@ -15,8 +15,8 @@ DESCRIPTION="A package for summarizing text using OpenAI"
 
 HOMEPAGE="https://github.com/kixpanganiban/openai-summarize-py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ea/b9/49b83a5b8aef8ab48fd4211e514281bfdfe19a3db8150c8f64396e3bc1c0/openai_summarize-${REALVERSION}.tar.gz"
-SOURCEFILE="openai_summarize-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ea/b9/49b83a5b8aef8ab48fd4211e514281bfdfe19a3db8150c8f64396e3bc1c0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

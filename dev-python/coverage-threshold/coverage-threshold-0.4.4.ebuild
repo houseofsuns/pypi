@@ -15,8 +15,8 @@ DESCRIPTION="Tools for coverage threshold limits"
 
 HOMEPAGE="https://github.com/DeanWay/coverage-threshold"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9a/c3/98f30064ad7e50847d4502a82718446919b4277c51c499592d2b4e49fe79/coverage_threshold-${REALVERSION}.tar.gz"
-SOURCEFILE="coverage_threshold-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9a/c3/98f30064ad7e50847d4502a82718446919b4277c51c499592d2b4e49fe79/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

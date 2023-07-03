@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># FireGSFireGS is a command-line tool for managing Firebase Android Apps. It allows you to create new apps and list all apps in your Firebase project.## InstallationYou can install FireGS using pip:```bashpip install firegs```You will also need to provide the path to your Firebase service account key file. You can do this by running the `firegs` command:```bashfiregs```This will prompt you for the path to your service account key file.## UsageTo create a new Firebase Android app, run the `firegs` command with the `-c` flag followed by the package name of the new app. You can also provide a display name for the app with the `-d` flag:```bashfiregs -c com.example.app -d &quot;Example App&quot;```To list all Firebase Android apps in your project, run the `firegs` command with the `-l` flag:```firegs -l```## LicenseFireGS is released under the MIT License. See the LICENSE file for more details.</longdescription>
+</pkgmetadata>

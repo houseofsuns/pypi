@@ -15,8 +15,8 @@ DESCRIPTION="Pygments styles designed for friendly/friendly-traceback"
 
 HOMEPAGE="https://github.com/friendly-traceback/friendly_styles"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a7/e1/d15b6919142e4788076ef0dcac5de006fd36273336b9871e95298fb79c30/friendly_styles-${REALVERSION}.tar.gz"
-SOURCEFILE="friendly_styles-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a7/e1/d15b6919142e4788076ef0dcac5de006fd36273336b9871e95298fb79c30/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

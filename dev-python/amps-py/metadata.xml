@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># AMPS PythonThis package serves as an interface to the [Agile Message Processing System (AMPS)]() by providing Action, Endpoint, and Service classes that can be used in AMPS Actions, Gateways, and Custom Services, respectively. The package documentation is available [here](https://mft-labs.github.io/amps-py)</longdescription>
+</pkgmetadata>

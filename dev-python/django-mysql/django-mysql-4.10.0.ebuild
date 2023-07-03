@@ -15,8 +15,8 @@ DESCRIPTION="Django-MySQL extends Django's built-in MySQL and MariaDB support th
 
 HOMEPAGE="https://github.com/adamchainz/django-mysql"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/62/48/86c4e4040db6f6237f3b9d1823bedc2fcd1a223061d4a6ccaaf57d3b0a81/django_mysql-${REALVERSION}.tar.gz"
-SOURCEFILE="django_mysql-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/62/48/86c4e4040db6f6237f3b9d1823bedc2fcd1a223061d4a6ccaaf57d3b0a81/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

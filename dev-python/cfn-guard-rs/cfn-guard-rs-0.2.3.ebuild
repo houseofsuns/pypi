@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e9/9e/e147e1da2e1510405b1b277bbc26ac1d7076458b8130e088908a32b6a849/cfn_guard_rs-${REALVERSION}.tar.gz"
-SOURCEFILE="cfn_guard_rs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e9/9e/e147e1da2e1510405b1b277bbc26ac1d7076458b8130e088908a32b6a849/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

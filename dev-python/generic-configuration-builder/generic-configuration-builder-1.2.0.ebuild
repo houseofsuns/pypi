@@ -15,8 +15,8 @@ DESCRIPTION="A simple library for parsing a configuration file format which is i
 
 HOMEPAGE="https://github.com/Sebastian-Griesbach/Generic-Configuration-Builder"
 LICENSE="MIT License  Copyright c 2022 Sebastian Griesbach  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files the Software, to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:  The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.  THE SOFTWARE IS PROVIDED AS IS, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
-SRC_URI="https://files.pythonhosted.org/packages/b3/1b/e91573b2bfaf6666c67db35c41bc57e08ad0d4729012d44583c10c8d1a95/generic_configuration_builder-${REALVERSION}.tar.gz"
-SOURCEFILE="generic_configuration_builder-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b3/1b/e91573b2bfaf6666c67db35c41bc57e08ad0d4729012d44583c10c8d1a95/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

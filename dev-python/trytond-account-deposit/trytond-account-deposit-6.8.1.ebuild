@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module for accounting deposit"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/09/8c/83a051e4ee9673b5cc66e58fadb4513b1bbe6769cc1dc200a893c7ddb4d5/trytond_account_deposit-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_account_deposit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/09/8c/83a051e4ee9673b5cc66e58fadb4513b1bbe6769cc1dc200a893c7ddb4d5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

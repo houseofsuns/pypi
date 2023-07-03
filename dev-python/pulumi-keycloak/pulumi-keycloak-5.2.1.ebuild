@@ -15,8 +15,8 @@ DESCRIPTION="A Pulumi package for creating and managing keycloak cloud resources
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/2f/23/493400f2abe2650bf8fbc90763642728c0668f2654fdac2653d98176f1c5/pulumi_keycloak-${REALVERSION}.tar.gz"
-SOURCEFILE="pulumi_keycloak-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2f/23/493400f2abe2650bf8fbc90763642728c0668f2654fdac2653d98176f1c5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Pytest plugin for testing examples in docstrings and markdown files
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8b/60/a29aaeb7daee6f02090be1c668d61eb5078800abac5a4dcdfd9f46ad1a4b/pytest_examples-${REALVERSION}.tar.gz"
-SOURCEFILE="pytest_examples-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8b/60/a29aaeb7daee6f02090be1c668d61eb5078800abac5a4dcdfd9f46ad1a4b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

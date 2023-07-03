@@ -15,8 +15,8 @@ DESCRIPTION="Parse command line arguments by defining dataclasses"
 
 HOMEPAGE="https://github.com/SunDoge/typed-args"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/46/c1/edcdab2b965576da41dcdfd2b35528f8fa11e8d7fbcedb598073211bfc81/typed_args-${REALVERSION}.tar.gz"
-SOURCEFILE="typed_args-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/46/c1/edcdab2b965576da41dcdfd2b35528f8fa11e8d7fbcedb598073211bfc81/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

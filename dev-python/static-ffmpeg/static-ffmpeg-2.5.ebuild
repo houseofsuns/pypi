@@ -15,8 +15,8 @@ DESCRIPTION="Cross platform ffmpeg to work on various systems."
 
 HOMEPAGE="https://github.com/zackees/static_ffmpeg"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cd/ce/c196ac40956e2e99b07a6c25a3defde3e87e9569bdb9ebbf6897c8f4ec4e/static_ffmpeg-${REALVERSION}.tar.gz"
-SOURCEFILE="static_ffmpeg-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cd/ce/c196ac40956e2e99b07a6c25a3defde3e87e9569bdb9ebbf6897c8f4ec4e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

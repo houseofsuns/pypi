@@ -15,8 +15,8 @@ DESCRIPTION="CLI tool to show differences on text data tracked by dvc."
 
 HOMEPAGE="https://github.com/ruizdesotto/data_cliff"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/8f/39/d4a112f8b175a55b149ff2c2e886a45883c72cb2d31e57ec5ebd66cb552b/data_cliff-${REALVERSION}.tar.gz"
-SOURCEFILE="data_cliff-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8f/39/d4a112f8b175a55b149ff2c2e886a45883c72cb2d31e57ec5ebd66cb552b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

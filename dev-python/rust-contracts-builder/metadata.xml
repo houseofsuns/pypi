@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># rust-contracts-builder## installation```bashpython3 -m pip install rust-contracts-builder```## init```bash    rust-contract init hello```## build```bashrust-contract build --stack-size 8192```</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="Build Docker Images in Amazon SageMaker Studio using AWS CodeBuild"
 
 HOMEPAGE="https://github.com/aws-samples/sagemaker-studio-image-build-cli"
 LICENSE="MIT-0"
-SRC_URI="https://files.pythonhosted.org/packages/e7/22/304e74f0afc681545eee1376d32190225889e8275f7a0c2a17c647446b5f/sagemaker_studio_image_build-${REALVERSION}.tar.gz"
-SOURCEFILE="sagemaker_studio_image_build-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e7/22/304e74f0afc681545eee1376d32190225889e8275f7a0c2a17c647446b5f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

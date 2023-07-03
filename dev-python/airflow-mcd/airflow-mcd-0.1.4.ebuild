@@ -15,8 +15,8 @@ DESCRIPTION="Monte Carlo's Apache Airflow Provider"
 
 HOMEPAGE="https://www.montecarlodata.com/"
 LICENSE="Apache Software License Apache 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/99/1c/c8f17151159fecef5e180d4c30860976b26f9cfc977a01408228dedf8d1d/airflow_mcd-${REALVERSION}.tar.gz"
-SOURCEFILE="airflow_mcd-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/99/1c/c8f17151159fecef5e180d4c30860976b26f9cfc977a01408228dedf8d1d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

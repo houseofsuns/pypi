@@ -15,8 +15,8 @@ DESCRIPTION="Pacote de métodos usados para implementação da API de acesso aos
 
 HOMEPAGE="https://gitlab.com/diego.yosiura.ampere/espaco-exclusivo-package.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c8/ee/60dbb717d27946142896c2fe4b348915f9bcb078e1e6b336a0a5806183ec/espaco_exclusivo_package-${REALVERSION}.tar.gz"
-SOURCEFILE="espaco_exclusivo_package-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c8/ee/60dbb717d27946142896c2fe4b348915f9bcb078e1e6b336a0a5806183ec/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

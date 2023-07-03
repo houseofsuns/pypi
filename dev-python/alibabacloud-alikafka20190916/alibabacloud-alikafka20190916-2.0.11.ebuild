@@ -15,8 +15,8 @@ DESCRIPTION="Alibaba Cloud MQ for Kafka (20190916) SDK Library for Python"
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/fa/16/c28e3318cb5a3a27ef9e03e72a40b2765f31e80d35790ef9b952b1d9c779/alibabacloud_alikafka20190916-${REALVERSION}.tar.gz"
-SOURCEFILE="alibabacloud_alikafka20190916-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fa/16/c28e3318cb5a3a27ef9e03e72a40b2765f31e80d35790ef9b952b1d9c779/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

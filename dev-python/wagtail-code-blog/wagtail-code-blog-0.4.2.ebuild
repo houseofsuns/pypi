@@ -15,8 +15,8 @@ DESCRIPTION="A wagtail code blog"
 
 HOMEPAGE="https://github.com/honeylogic-io/wagtail-code-blog"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/67/67/3483d72abbd3afe628755de164178d667f60a5590e6b11b7e5a405642127/wagtail_code_blog-${REALVERSION}.tar.gz"
-SOURCEFILE="wagtail_code_blog-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/67/67/3483d72abbd3afe628755de164178d667f60a5590e6b11b7e5a405642127/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

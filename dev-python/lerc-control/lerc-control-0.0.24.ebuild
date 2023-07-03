@@ -15,8 +15,8 @@ DESCRIPTION="Libraries and utilities for controling and working with Live Endpoi
 
 HOMEPAGE="https://github.com/ace-ecosystem/lerc/lerc_control"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d0/4b/dbf65da00aa0d564ec2e851341c9d1f3e48250248cf4f2016a42799a554e/lerc_control-${REALVERSION}.tar.gz"
-SOURCEFILE="lerc_control-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d0/4b/dbf65da00aa0d564ec2e851341c9d1f3e48250248cf4f2016a42799a554e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Record and replay LLM interactions for langchain"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bc/af/387e33154d01ee330bab0d7529b8c2ef03b5bb4070a162e87b3481dcee90/vcr_langchain-${REALVERSION}.tar.gz"
-SOURCEFILE="vcr_langchain-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bc/af/387e33154d01ee330bab0d7529b8c2ef03b5bb4070a162e87b3481dcee90/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

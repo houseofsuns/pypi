@@ -15,8 +15,8 @@ DESCRIPTION="An intelligent cross-platform wrapper for pyright that makes it les
 
 HOMEPAGE="https://github.com/jamielinux/pyright-polite"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e3/d5/a21c4f663d49e682240271e201301fa5b122799833c3f9ae5b3ec42f03a0/pyright_polite-${REALVERSION}.tar.gz"
-SOURCEFILE="pyright_polite-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e3/d5/a21c4f663d49e682240271e201301fa5b122799833c3f9ae5b3ec42f03a0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

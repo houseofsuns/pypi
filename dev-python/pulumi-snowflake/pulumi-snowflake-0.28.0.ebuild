@@ -15,8 +15,8 @@ DESCRIPTION="A Pulumi package for creating and managing snowflake cloud resource
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c4/d0/1c67a8ddb91fe66031d6d297dd626e2b2f17c2e8e666dfe586b8c8e65c96/pulumi_snowflake-${REALVERSION}.tar.gz"
-SOURCEFILE="pulumi_snowflake-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c4/d0/1c67a8ddb91fe66031d6d297dd626e2b2f17c2e8e666dfe586b8c8e65c96/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

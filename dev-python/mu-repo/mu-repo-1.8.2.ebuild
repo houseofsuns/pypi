@@ -15,8 +15,8 @@ DESCRIPTION="Tool to work with multiple git repositories"
 
 HOMEPAGE="http://fabioz.github.io/mu-repo"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fc/3f/46e5e7a3445a46197335e769bc3bf7933b94f2fe7207cc636c15fb98ba70/mu_repo-${REALVERSION}.tar.gz"
-SOURCEFILE="mu_repo-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fc/3f/46e5e7a3445a46197335e769bc3bf7933b94f2fe7207cc636c15fb98ba70/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

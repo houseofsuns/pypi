@@ -15,8 +15,8 @@ DESCRIPTION="A package for logging all requests"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ee/76/f87f4edee4dd80e69a35ee2d94716f2012fbc70d8feca02c8a306a93164a/django_logging_requests-${REALVERSION}.tar.gz"
-SOURCEFILE="django_logging_requests-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ee/76/f87f4edee4dd80e69a35ee2d94716f2012fbc70d8feca02c8a306a93164a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

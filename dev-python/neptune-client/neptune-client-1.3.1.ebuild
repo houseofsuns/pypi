@@ -15,8 +15,8 @@ DESCRIPTION="Neptune Client"
 
 HOMEPAGE="https://neptune.ai/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/3d/af/cecdd351f13b54f65202970fe2dfd5e933abbbb10fa3181e06aded5bf652/neptune_client-${REALVERSION}.tar.gz"
-SOURCEFILE="neptune_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3d/af/cecdd351f13b54f65202970fe2dfd5e933abbbb10fa3181e06aded5bf652/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>AtomicLong==========Sometimes you need to increment some numbers... atomically... in python.``AtomicLong`` was born out of the need for fast thread-safe counters in python.It uses `CFFI`_ to bind `GCC's Atomic Builtins`_.Its value is a C ``long`` which can be incremented, decremented, and setatomically.  It is inspired by Java's `java.util.concurrent.atomic.AtomicLong`_.Example::    &gt;&gt;&gt; from atomiclong import AtomicLong    &gt;&gt;&gt; a = AtomicLong(0)    &gt;&gt;&gt; a += 1    &gt;&gt;&gt; a.value    1    &gt;&gt;&gt; a += 10    &gt;&gt;&gt; a.value    11    &gt;&gt;&gt; a.value = 1000    &gt;&gt;&gt; a.value    1000    &gt;&gt;&gt; a -= 100    &gt;&gt;&gt; a.value    900.. _GCC's Atomic Builtins: http://gcc.gnu.org/onlinedocs/gcc-4.3.5/gcc/Atomic-Builtins.html.. _CFFI: https://cffi.readthedocs.org.. _java.util.concurrent.atomic.AtomicLong: http://docs.oracle.com/javase/7/docs/api/java/util/concurrent/atomic/AtomicLong.html</longdescription>
+</pkgmetadata>

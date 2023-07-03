@@ -15,8 +15,8 @@ DESCRIPTION="A framework for developing bioinformatics workflows for Virtool."
 
 HOMEPAGE="https://github.com/virtool/virtool-workflow"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8f/ba/22c9402bd34bf25f45df8929d1144f9045c0729e7e2a9841540ed5960fb4/virtool_workflow-${REALVERSION}.tar.gz"
-SOURCEFILE="virtool_workflow-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8f/ba/22c9402bd34bf25f45df8929d1144f9045c0729e7e2a9841540ed5960fb4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

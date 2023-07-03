@@ -15,8 +15,8 @@ DESCRIPTION="PSDファイルのレイヤー構造＋画像をディレクトリ�
 
 HOMEPAGE="https://github.com/aoirint/psdlayer2dirpy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8e/12/e19749c3caf896fdfb15a9010d98f47bf8d2a79d8c077bc0cd6870a3268a/aoirint_psdlayer2dirpy-${REALVERSION}.tar.gz"
-SOURCEFILE="aoirint_psdlayer2dirpy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8e/12/e19749c3caf896fdfb15a9010d98f47bf8d2a79d8c077bc0cd6870a3268a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

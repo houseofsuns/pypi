@@ -15,8 +15,8 @@ DESCRIPTION="Pylint plugin for GitHub Actions"
 
 HOMEPAGE="https://github.com/skhomuti/pylint-actions"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0f/4c/d1d529c3e7ce80c7f6f7f5bb479f23f30e114b0cf25da5466d18dc22e21a/pylint_actions-${REALVERSION}.tar.gz"
-SOURCEFILE="pylint_actions-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0f/4c/d1d529c3e7ce80c7f6f7f5bb479f23f30e114b0cf25da5466d18dc22e21a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

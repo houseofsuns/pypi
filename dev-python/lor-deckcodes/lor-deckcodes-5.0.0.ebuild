@@ -15,8 +15,8 @@ DESCRIPTION="Legends of Runeterra deck coder and decoder"
 
 HOMEPAGE="https://github.com/Rafalonso/LoRDeckCodesPython"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d6/c0/ae9ef82b077ca494576d6963f040e01f05fd60dc6a31f9c80741945cae12/lor_deckcodes-${REALVERSION}.tar.gz"
-SOURCEFILE="lor_deckcodes-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d6/c0/ae9ef82b077ca494576d6963f040e01f05fd60dc6a31f9c80741945cae12/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

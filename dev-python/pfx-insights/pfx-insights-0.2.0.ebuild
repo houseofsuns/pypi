@@ -15,8 +15,8 @@ DESCRIPTION="Reusable python utilities for PFX Insights team"
 
 HOMEPAGE="https://github.com/pypa/sampleproject"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5c/24/2e8b5d5649346493845e0dae8387290626d55b5e513ef8c9e6d29b9ddd5e/pfx_insights-${REALVERSION}.tar.gz"
-SOURCEFILE="pfx_insights-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5c/24/2e8b5d5649346493845e0dae8387290626d55b5e513ef8c9e6d29b9ddd5e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

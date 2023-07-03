@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># PYVIUMTiny Python wrapper around the &quot;Software development driver DLL&quot; for IviumSoft.# Important:This module uses a dll from the IviumSoft application. You need to have this software installed on a Windows machine. The IviumSoft application can be downloaded from here: https://www.ivium.com/support/#Software%20updateThis version of Pyvium has been tested for IviumSoft release 4.1100.## InstallationInstall PYVIUM easily with pip:```pip install pyvium```Or with poetry:```poetry add pyvium```## Usage Example (Using IviumSoft Core functions)To use the same functions available in the &quot;IviumSoft driver DLL&quot; you can import the Core class as follows. All functions return a result code (integer) and a result value if available. For further information you can check the IviumSoft documentation.```from pyvium import CoreCore.IV_open()Core.IV_getdevicestatus()Core.IV_close()```## Usage Example (Using Pyvium methods)This is a wrapper around the Core functions that adds a few things:- Exception management (you can find an example [here](https://github.com/SF-Tec/pyvium/blob/main/docs/error_management.md))- New functionalities```from pyvium import PyviumPyvium.open_driver()Pyvium.get_device_status()Pyvium.close_driver()```## Usage Example (Using Tools methods)This offers further functionality in data processing:```from pyvium import ToolsTools.convert_idf_dir_to_csv()```## Supported functionsThe list of currently supported and implemented functions can be found [here](https://github.com/SF-Tec/pyvium/blob/main/docs/method_list.md).## Links- [See on GitHub](https://github.com/sf-tec/pyvium)- [See on PyPI](https://pypi.org/project/pyvium)</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="A collection of Airflow operators, hooks, and utilities to execute 
 
 HOMEPAGE="https://github.com/tomasfarias/airflow-dbt-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7f/90/a66b249bcc78896244e270d9022cdfd56016f14d3393945d2db647723ecd/airflow_dbt_python-${REALVERSION}.tar.gz"
-SOURCEFILE="airflow_dbt_python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7f/90/a66b249bcc78896244e270d9022cdfd56016f14d3393945d2db647723ecd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

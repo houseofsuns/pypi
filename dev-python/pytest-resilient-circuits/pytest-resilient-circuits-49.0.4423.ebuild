@@ -15,8 +15,8 @@ DESCRIPTION="Resilient Circuits fixtures for PyTest"
 
 HOMEPAGE="https://github.com/ibmresilient/resilient-python-api/tree/main/resilient-resilient-circuits"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c5/bc/388cf139b1ca3d1418185d09961135071d44a78e2c82b419315385d96cb2/pytest_resilient_circuits-${REALVERSION}.tar.gz"
-SOURCEFILE="pytest_resilient_circuits-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c5/bc/388cf139b1ca3d1418185d09961135071d44a78e2c82b419315385d96cb2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

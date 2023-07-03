@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f8/1f/72f71f13ab7ed74d4f74a54af91876302a8ce33b771ec53475aba21cfd8e/slai_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="slai_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f8/1f/72f71f13ab7ed74d4f74a54af91876302a8ce33b771ec53475aba21cfd8e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

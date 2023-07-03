@@ -15,8 +15,8 @@ DESCRIPTION="A select widget (aka dropdown) for Textual."
 
 HOMEPAGE="https://github.com/mitosch/textual-select"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/23/48/4c1ad7e5190908f7b8083584e78534a79cb538d9ce38486a5c69e514b221/textual_select-${REALVERSION}.tar.gz"
-SOURCEFILE="textual_select-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/23/48/4c1ad7e5190908f7b8083584e78534a79cb538d9ce38486a5c69e514b221/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

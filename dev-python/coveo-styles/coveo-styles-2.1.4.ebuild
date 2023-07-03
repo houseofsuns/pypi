@@ -15,8 +15,8 @@ DESCRIPTION="Styles, colors and emojis for the command line."
 
 HOMEPAGE="https://github.com/coveooss/coveo-python-oss/tree/main/coveo-styles"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e5/26/a51061bcc803de6b8962e1f9b8419785b9fc7c76c7fdc70eb79b136cd24b/coveo_styles-${REALVERSION}.tar.gz"
-SOURCEFILE="coveo_styles-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e5/26/a51061bcc803de6b8962e1f9b8419785b9fc7c76c7fdc70eb79b136cd24b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># twirp python sdk generator[python-betterproto](https://github.com/danielgtaylor/python-betterproto) 生成的代码只能配合 grpc 使用，但生成的 message 确实很香。所以我重写了 service 代码生成逻辑，使其支持 twirp 协议。我发现可以上传到 pypi，包名是 [betterproto-twirp](https://pypi.org/project/betterproto-twirp)## 安装- 本地源码安装：  ```bash   pip install .   ```- 从 pypi 安装：```bash     pip install betterproto-twirp    安装失败的话先安装 pip install 'betterproto-twirp[compiler]'     ```## 使用protoc -I . --python_betterproto_out=. service.proto[改动历史](docs/history.MD)</longdescription>
+</pkgmetadata>

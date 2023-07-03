@@ -15,8 +15,8 @@ DESCRIPTION="Zulip's Flask server for running bots"
 
 HOMEPAGE="https://www.zulip.org/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b5/d9/1754cf621103a1f08d43b8973d79a8bb220fad56d6ee34b8c63325c1d11d/zulip_botserver-${REALVERSION}.tar.gz"
-SOURCEFILE="zulip_botserver-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b5/d9/1754cf621103a1f08d43b8973d79a8bb220fad56d6ee34b8c63325c1d11d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

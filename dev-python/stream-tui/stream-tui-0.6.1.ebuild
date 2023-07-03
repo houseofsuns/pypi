@@ -15,8 +15,8 @@ DESCRIPTION="Easily create pretty user interfaces for your CLI apps"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3f/f6/6870950b368e5d9418d4326ac71214a09686a673fa9ec76d57ac2690d1e1/stream_tui-${REALVERSION}.tar.gz"
-SOURCEFILE="stream_tui-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3f/f6/6870950b368e5d9418d4326ac71214a09686a673fa9ec76d57ac2690d1e1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

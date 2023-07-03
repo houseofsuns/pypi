@@ -15,8 +15,8 @@ DESCRIPTION="Simple colored debug prints"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c9/4c/6c572bb5ba7e1d1c37073ca194ad24d583282d8493d02f730d7e966b76eb/colored_debug_prints-${REALVERSION}.tar.gz"
-SOURCEFILE="colored_debug_prints-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c9/4c/6c572bb5ba7e1d1c37073ca194ad24d583282d8493d02f730d7e966b76eb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

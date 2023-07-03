@@ -15,8 +15,8 @@ DESCRIPTION="Multicall batching middleware for asynchronous scripts using web3.p
 
 HOMEPAGE="https://github.com/BobTheBuidler/dank_mids"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c9/78/c41e63d2466b781ad399ceade6ea1d590e7f7d39a35b831e8a147c03f413/dank_mids-${REALVERSION}.tar.gz"
-SOURCEFILE="dank_mids-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c9/78/c41e63d2466b781ad399ceade6ea1d590e7f7d39a35b831e8a147c03f413/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

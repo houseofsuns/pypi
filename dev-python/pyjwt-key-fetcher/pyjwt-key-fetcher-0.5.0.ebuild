@@ -15,8 +15,8 @@ DESCRIPTION="Async library to fetch JWKs for JWT tokens"
 
 HOMEPAGE="https://github.com/ioxiocom/pyjwt-key-fetcher"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/57/12/7bcb722afb51411e80793813ea898893afe10b6c48ff42147e49f33d2912/pyjwt_key_fetcher-${REALVERSION}.tar.gz"
-SOURCEFILE="pyjwt_key_fetcher-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/57/12/7bcb722afb51411e80793813ea898893afe10b6c48ff42147e49f33d2912/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

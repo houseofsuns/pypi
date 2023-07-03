@@ -15,8 +15,8 @@ DESCRIPTION="Pdb_Manip_py is a python library allowing simple operations on pdb 
 
 HOMEPAGE="https://github.com/samuelmurail/pdb_manip_py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/96/ba/8e296ad27972ab3458cf29c4b0f9e7e2435c78d974a3f41f3f7aa8747b5a/pdb_manip_py-${REALVERSION}.tar.gz"
-SOURCEFILE="pdb_manip_py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/96/ba/8e296ad27972ab3458cf29c4b0f9e7e2435c78d974a3f41f3f7aa8747b5a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

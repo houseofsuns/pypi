@@ -15,8 +15,8 @@ DESCRIPTION="A Python wrapper for cngal.org API"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9b/99/1179b4ef8487c4f7178804c5e3073fd2b69526e5d73a91d00dd58f8ab666/python_cngal-${REALVERSION}.tar.gz"
-SOURCEFILE="python_cngal-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9b/99/1179b4ef8487c4f7178804c5e3073fd2b69526e5d73a91d00dd58f8ab666/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

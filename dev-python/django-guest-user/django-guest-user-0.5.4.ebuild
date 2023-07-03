@@ -15,8 +15,8 @@ DESCRIPTION="A Django app that lets visitors interact with your site without reg
 
 HOMEPAGE="https://github.com/julianwachholz/django-guest-user"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/40/ed/cb2d4b26c0113a9f4ac8f8bed15d754d8bc18fd6c87d7266ca4ecfc1f3a9/django_guest_user-${REALVERSION}.tar.gz"
-SOURCEFILE="django_guest_user-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/40/ed/cb2d4b26c0113a9f4ac8f8bed15d754d8bc18fd6c87d7266ca4ecfc1f3a9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

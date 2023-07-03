@@ -15,8 +15,8 @@ DESCRIPTION="flake8 plugin which forbids assert statements without messages"
 
 HOMEPAGE="https://github.com/rkm/flake8-assert-msg"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c8/a1/e4d211d12cd29271a2a726349a4d29864c38c08b06e504f8d6163f0b0358/flake8_assert_msg-${REALVERSION}.tar.gz"
-SOURCEFILE="flake8_assert_msg-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c8/a1/e4d211d12cd29271a2a726349a4d29864c38c08b06e504f8d6163f0b0358/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

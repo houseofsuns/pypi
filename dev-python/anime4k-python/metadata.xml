@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Anime4K PythonPython wrapper of Anime4K GLSL shaders achieved with FFmpeg and libplacebo.## Usages```from anime4k_python import Anime4Kanime4k = Anime4K(mode=&quot;A&quot;)anime4k.process_video(    &quot;input.mp4&quot;,    &quot;output.mp4&quot;,    1280,    720,    scale=2,)```</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Howard, FUN documents for Marion, The Documents FactoryHoward is a collection of document issuers for[Marion](https://openfun.github.io/marion).## ContributingThis project is intended to be community-driven, so please, do not hesitate toget in touch if you have any questions related to our implementation or designdecisions.We try to raise our code quality standards and expect contributors to followthe recommendations from our[handbook](https://openfun.gitbooks.io/handbook/content).## LicenseThis work is released under the MIT License (see [LICENSE](./LICENSE))</longdescription>
+</pkgmetadata>

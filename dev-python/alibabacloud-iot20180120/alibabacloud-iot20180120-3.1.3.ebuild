@@ -15,8 +15,8 @@ DESCRIPTION="Alibaba Cloud IoT Platform (20180120) SDK Library for Python"
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c9/5e/3fca1063ff705f42bc9082da62ebcb18078b9488e32ac759a997e9ad7155/alibabacloud_iot20180120-${REALVERSION}.tar.gz"
-SOURCEFILE="alibabacloud_iot20180120-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c9/5e/3fca1063ff705f42bc9082da62ebcb18078b9488e32ac759a997e9ad7155/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

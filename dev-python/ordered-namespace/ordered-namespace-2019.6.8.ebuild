@@ -15,8 +15,8 @@ DESCRIPTION="An easy-to-use Python namespace class derived from OrderedDict, inc
 
 HOMEPAGE="https://github.com/who8mylunch/OrderedNamespace"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/61/c2/88f541420d7c37a99be61de696e7c4430e84a7eb9c504b2fca80297b247b/ordered_namespace-${REALVERSION}.tar.gz"
-SOURCEFILE="ordered_namespace-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/61/c2/88f541420d7c37a99be61de696e7c4430e84a7eb9c504b2fca80297b247b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

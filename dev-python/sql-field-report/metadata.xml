@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># SQL Field Report## InstallationTo install use pip:`pip install sql-field-report`## UsageSQL Field Report is a [Typer](https://github.com/tiangolo/typer) CLI tool to see the available functions run:`sql-field-report --help````MSSQL Database ReportGenerate an excel report summarising the data in an MSSQL DatabaseArgs:    server (str): The SQL server name    port (int): The SQL server port    user (str): Your SQL Server username    password (str): Your SQL Server password    database_name (str): The name of the database to analyse    schema (str): The schema for the database tables to analyse    output_file_name (str): The output file name of the report```</longdescription>
+</pkgmetadata>

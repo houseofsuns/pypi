@@ -15,8 +15,8 @@ DESCRIPTION="guillotina oauth support"
 
 HOMEPAGE="https://pypi.python.org/pypi/guillotina_oauth"
 LICENSE="GPL version 3"
-SRC_URI="https://files.pythonhosted.org/packages/c6/d1/729ecd4518627d7bdc68a9ec4f4b864c126aaadfb876e195906d4f0fd503/guillotina_oauth-${REALVERSION}.tar.gz"
-SOURCEFILE="guillotina_oauth-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c6/d1/729ecd4518627d7bdc68a9ec4f4b864c126aaadfb876e195906d4f0fd503/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

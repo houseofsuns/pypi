@@ -15,8 +15,8 @@ DESCRIPTION="Utils for mapping dataclass fields to dictionary keys, making it po
 
 HOMEPAGE="https://github.com/jackd68ed/dict-to-dataclass"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7a/88/6a903c9f96e94763cab43627798017110c302323da49d4184b3fecbb7a88/dict_to_dataclass-${REALVERSION}.tar.gz"
-SOURCEFILE="dict_to_dataclass-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7a/88/6a903c9f96e94763cab43627798017110c302323da49d4184b3fecbb7a88/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

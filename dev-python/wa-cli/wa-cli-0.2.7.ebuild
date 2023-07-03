@@ -15,8 +15,8 @@ DESCRIPTION="Wisconsin Autonomous Command Line Interface Tool"
 
 HOMEPAGE="https://github.com/WisconsinAutonomous/wa_cli/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/57/9d/ef27e68306da4f9b9666a5210262f931f85ebb76ffc9c5936f41f7562572/wa_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="wa_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/57/9d/ef27e68306da4f9b9666a5210262f931f85ebb76ffc9c5936f41f7562572/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

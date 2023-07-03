@@ -15,8 +15,8 @@ DESCRIPTION="A Python library to find html in strings"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9e/73/d82a6056090900c05cd31f9a532742a63c365345beb836c9b719d270129b/markdown_html_finder-${REALVERSION}.tar.gz"
-SOURCEFILE="markdown_html_finder-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9e/73/d82a6056090900c05cd31f9a532742a63c365345beb836c9b719d270129b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

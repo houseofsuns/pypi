@@ -15,8 +15,8 @@ DESCRIPTION="ct tools"
 
 HOMEPAGE="https://github.com/Vvegetables/ct_tools.git"
 LICENSE="Public domain"
-SRC_URI="https://files.pythonhosted.org/packages/6c/22/3e12290cfca83306b401bbb77fbf21b2e969e1bb996e8dcde4b86a6c2aeb/ct_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="ct_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6c/22/3e12290cfca83306b401bbb77fbf21b2e969e1bb996e8dcde4b86a6c2aeb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

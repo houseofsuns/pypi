@@ -15,8 +15,8 @@ DESCRIPTION="Auto Build TI ElasticCube datamodel via API"
 
 HOMEPAGE="https://github.com/treasure-data-ps/td_ml_datamodel_create"
 LICENSE="Copyright  2022 Treasure Data, Inc. or its affiliates. All rights reserved"
-SRC_URI="https://files.pythonhosted.org/packages/53/c6/e1426b599cee6b7e9c47008466cd99167cd118926a6b0fa3d08cfb1f147b/td_ml_datamodel_create-${REALVERSION}.tar.gz"
-SOURCEFILE="td_ml_datamodel_create-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/53/c6/e1426b599cee6b7e9c47008466cd99167cd118926a6b0fa3d08cfb1f147b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

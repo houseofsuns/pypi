@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/77/94/6960c50b54340dd97d082622332570452a667a2a100feb22fd2a58f67e3e/dc_avro-${REALVERSION}.tar.gz"
-SOURCEFILE="dc_avro-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/77/94/6960c50b54340dd97d082622332570452a667a2a100feb22fd2a58f67e3e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

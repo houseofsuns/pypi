@@ -15,8 +15,8 @@ DESCRIPTION="Library for the Google Nest SDM API"
 
 HOMEPAGE="https://github.com/allenporter/python-google-nest-sdm"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/77/2f/5e5ca117da6b8da7160ae4d480b48ca7ffa24aca63afe8a03fd916fa76c5/google_nest_sdm-${REALVERSION}.tar.gz"
-SOURCEFILE="google_nest_sdm-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/77/2f/5e5ca117da6b8da7160ae4d480b48ca7ffa24aca63afe8a03fd916fa76c5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

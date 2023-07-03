@@ -15,8 +15,8 @@ DESCRIPTION="Simple easy to use module to get the intermediate results from chos
 
 HOMEPAGE="https://github.com/sebamenabar/Pytorch-IntermediateLayerGetter"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/38/98/8a37ff086257cdc9fd3e62f47b76de7d0091e9a43f3c719521411068449a/torch_intermediate_layer_getter-${REALVERSION}.tar.gz"
-SOURCEFILE="torch_intermediate_layer_getter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/38/98/8a37ff086257cdc9fd3e62f47b76de7d0091e9a43f3c719521411068449a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

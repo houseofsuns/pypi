@@ -15,8 +15,8 @@ DESCRIPTION="Tool for accessing and modifying Symphony database"
 
 HOMEPAGE="https://github.com/facebookincubator/symphony"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/fe/87/7fbbd8330d7f6efc54df64c7177e92cbebe3e7ce07dee764deada9cadb55/psym_nttdata-${REALVERSION}.tar.gz"
-SOURCEFILE="psym_nttdata-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fe/87/7fbbd8330d7f6efc54df64c7177e92cbebe3e7ce07dee764deada9cadb55/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

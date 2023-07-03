@@ -15,8 +15,8 @@ DESCRIPTION="Interfaces to interact with Wirepas backend services."
 
 HOMEPAGE="https://github.com/wirepas/backend-client"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b7/5a/a6d1dff9bc0f5b67405c35410ab7a05402f17931dd628482cad6abeecb70/wirepas_backend_client-${REALVERSION}.tar.gz"
-SOURCEFILE="wirepas_backend_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b7/5a/a6d1dff9bc0f5b67405c35410ab7a05402f17931dd628482cad6abeecb70/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

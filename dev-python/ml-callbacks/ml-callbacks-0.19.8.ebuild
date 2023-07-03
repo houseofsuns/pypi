@@ -15,8 +15,8 @@ DESCRIPTION="Simple ml callbacks to track model performance and state"
 
 HOMEPAGE="https://github.com/EimantasN/Equusight_BackEnd"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a4/b2/4a09dcfb42113f106ac54c7037d32426b35ec3ed02a581d63feff94bc440/ml_callbacks-${REALVERSION}.tar.gz"
-SOURCEFILE="ml_callbacks-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a4/b2/4a09dcfb42113f106ac54c7037d32426b35ec3ed02a581d63feff94bc440/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

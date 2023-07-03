@@ -15,8 +15,8 @@ DESCRIPTION="Listen in an email folder and process incoming emails."
 
 HOMEPAGE="https://github.com/njdreikosen/email_listener"
 LICENSE="GNU GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/7a/ce/1a2af5fc8cbe07fdaab835c2d0ef77f72187f2faebb6b4b179bb0e725956/email_listener-${REALVERSION}.tar.gz"
-SOURCEFILE="email_listener-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7a/ce/1a2af5fc8cbe07fdaab835c2d0ef77f72187f2faebb6b4b179bb0e725956/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

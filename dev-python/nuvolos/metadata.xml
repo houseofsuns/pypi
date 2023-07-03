@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>nuvolos - The database connectivity library for Nuvolos=======================================================Installation============.. code:: bash    $ pip install --upgrade nuvolosUsage=====The library provides two convenience functions for returning a database connection to access table data in Nuvolos.Documentation and examples available at: https://docs.nuvolos.cloud/data/access-data-from-applications#connecting-with-python</longdescription>
+</pkgmetadata>

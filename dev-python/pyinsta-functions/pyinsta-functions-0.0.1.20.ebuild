@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fa/78/c9e90106302907953992fc0029a3d72925d7a2ddbc5a18b9f80c05a41f2b/pyinsta_functions-${REALVERSION}.tar.gz"
-SOURCEFILE="pyinsta_functions-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fa/78/c9e90106302907953992fc0029a3d72925d7a2ddbc5a18b9f80c05a41f2b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b1/71/98799a45b6a1655dc8dc4ad4fac427f8afaa127f3a6f2933db9e7205855b/granola_py-${REALVERSION}.tar.gz"
-SOURCEFILE="granola_py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b1/71/98799a45b6a1655dc8dc4ad4fac427f8afaa127f3a6f2933db9e7205855b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

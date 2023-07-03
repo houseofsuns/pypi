@@ -15,8 +15,8 @@ DESCRIPTION="A Pulumi package for building Docker images with Buildkit."
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/04/2e/ec91f64383f40326143ffc7c81fd540207a86a4396685b0bbdbf34ac5bd8/pulumi_docker_buildkit-${REALVERSION}.tar.gz"
-SOURCEFILE="pulumi_docker_buildkit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/04/2e/ec91f64383f40326143ffc7c81fd540207a86a4396685b0bbdbf34ac5bd8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

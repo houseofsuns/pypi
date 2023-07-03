@@ -15,8 +15,8 @@ DESCRIPTION="A super simple MIT licensed fuzzy matching library"
 
 HOMEPAGE="https://mrbot.ai"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c9/83/ed267314b11f6e1bba34bd323da2b739ad43b3456f7df17228af3382e16b/fuzzy_matcher-${REALVERSION}.tar.gz"
-SOURCEFILE="fuzzy_matcher-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c9/83/ed267314b11f6e1bba34bd323da2b739ad43b3456f7df17228af3382e16b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

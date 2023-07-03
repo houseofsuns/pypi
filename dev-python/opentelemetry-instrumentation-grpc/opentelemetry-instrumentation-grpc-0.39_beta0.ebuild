@@ -15,8 +15,8 @@ DESCRIPTION="OpenTelemetry gRPC instrumentation"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-grpc"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/73/88/00719f0680e15f7e62a36e8688cf57ff476d386fb2892cc5b72ddd363b80/opentelemetry_instrumentation_grpc-${REALVERSION}.tar.gz"
-SOURCEFILE="opentelemetry_instrumentation_grpc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/73/88/00719f0680e15f7e62a36e8688cf57ff476d386fb2892cc5b72ddd363b80/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

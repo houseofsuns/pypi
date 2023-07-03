@@ -15,8 +15,8 @@ DESCRIPTION="A Python port with a few small tools, snippets and utils (with a lo
 
 HOMEPAGE="https://github.com/EzequielPuerta/smalltools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/38/3f/5d1f81a56d96bf8d8d6067c019285abfedcf6604b7732b8f821d7719907c/smalltools_st-${REALVERSION}.tar.gz"
-SOURCEFILE="smalltools_st-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/38/3f/5d1f81a56d96bf8d8d6067c019285abfedcf6604b7732b8f821d7719907c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

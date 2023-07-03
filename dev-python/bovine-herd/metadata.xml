@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># bovine_herd`bovine_herd` is a `bovine` powered ActivityPub server, which interoperates with the rest of the FediVerse.Running:```bashpip install bovine_herdhypercorn bovine_herd:app```This will start `bovine_herd` using an sqlite3 database.## Interacting with the fediverseAssume that you alias `$DOMAIN` so that it redirects to the above server. Then by running```bashpip install bovine_toolpython -mbovine_tool.register --domain $DOMAIN moocow```you create a new account for __moocow__. This command returns its bovine name, which will be of the form `moocow + uuid4()`, e.g. `moocow_09c80006-483c-4826-b48c-cf5134b4e898`. By running:```bashpython -mbovine_tool.manage --new_did_key $BOVINE_NAME```you will be given a secret (an Ed25519 private key, i.e. starts with `z3u2`). Once you have this secret, you can send a message via```bashpython -mbovine.msg --secret $SECRET --host $DOMAIN moooo```## ConfigurationThe default database connection is &quot;sqlite://bovine.sqlite3&quot;. This can be overwridden with the environment variable &quot;BOVINE_DB_URL&quot;.- `BOVINE_REDIS` represents how to reach redis, e.g. `redis://localhost`. If not set, redis is not used. Redis is necessary when using more than one worker.</longdescription>
+</pkgmetadata>

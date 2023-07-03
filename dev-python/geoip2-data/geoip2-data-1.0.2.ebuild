@@ -15,8 +15,8 @@ DESCRIPTION="Show how to structure a Python project."
 
 HOMEPAGE="https://github.com/SoundOn/geoip2-data"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9f/78/f04561ea09805599990264c5c18d1d2b44f1c5297fef44c8943b3214f3a9/geoip2_data-${REALVERSION}.tar.gz"
-SOURCEFILE="geoip2_data-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9f/78/f04561ea09805599990264c5c18d1d2b44f1c5297fef44c8943b3214f3a9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="An easy job scheduling interface for flask projects."
 
 HOMEPAGE="https://github.com/GrantGMiller/flask_jobs"
 LICENSE="PSF-2.4"
-SRC_URI="https://files.pythonhosted.org/packages/61/1a/14fa37caf356db393521756d33a592ac0a87f6afb34291778d385203bd7a/flask_jobs-${REALVERSION}.tar.gz"
-SOURCEFILE="flask_jobs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/61/1a/14fa37caf356db393521756d33a592ac0a87f6afb34291778d385203bd7a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

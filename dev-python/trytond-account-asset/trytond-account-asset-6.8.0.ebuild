@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module for assets management"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/26/07/a35d9b798f0b9525caf4c05678f2b60f08bec0494a9e4e400341aa2be5f8/trytond_account_asset-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_account_asset-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/26/07/a35d9b798f0b9525caf4c05678f2b60f08bec0494a9e4e400341aa2be5f8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Python-related tasks for RKD, including building, testing and relea
 
 HOMEPAGE="https://riotkit-do.readthedocs.io/en/latest/standardlib/python.html"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d0/f0/234bd7a1b4735b23ef3dbb00c717069b0be0fdeb7b5d0bc664420d2c02ea/rkd_python-${REALVERSION}.tar.gz"
-SOURCEFILE="rkd_python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d0/f0/234bd7a1b4735b23ef3dbb00c717069b0be0fdeb7b5d0bc664420d2c02ea/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

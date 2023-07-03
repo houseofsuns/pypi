@@ -15,8 +15,8 @@ DESCRIPTION="Environmental Water Requirement calculator"
 
 HOMEPAGE="https://github.com/MDBAuth/EWR_tool"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b1/b1/e77a1ddd3a80b6768c9b56e183eee5d6e19333d036a451ef92823ea78a1f/py_ewr-${REALVERSION}.tar.gz"
-SOURCEFILE="py_ewr-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b1/b1/e77a1ddd3a80b6768c9b56e183eee5d6e19333d036a451ef92823ea78a1f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

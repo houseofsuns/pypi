@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;!--https://readme42.com--&gt;[![](https://img.shields.io/pypi/v/git-status.svg?maxAge=3600)](https://pypi.org/project/git-status/)[![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)### Installation```bash$ [sudo] pip install git-status```#### Examples```python&gt;&gt;&gt; import git_status&gt;&gt;&gt; git_status.get(&quot;.&quot;) M  path/to/modified A  path/to/added D  path/to/deleted R  path/to/renamed ?? path/to/untracked````Status` class```python&gt;&gt;&gt; status = git_status.Status(&quot;.&quot;)&gt;&gt;&gt; status.A['path/to/added']&gt;&gt;&gt; status.M['path/to/modified']&gt;&gt;&gt; status.D['path/to/deleted']&gt;&gt;&gt; status.R['path/to/renamed']&gt;&gt;&gt; status.untracked['path/to/untracked']```&lt;p align=&quot;center&quot;&gt;    &lt;a href=&quot;https://readme42.com/&quot;&gt;readme42.com&lt;/a&gt;&lt;/p&gt;</longdescription>
+</pkgmetadata>

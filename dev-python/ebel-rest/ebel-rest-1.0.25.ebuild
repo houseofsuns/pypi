@@ -15,8 +15,8 @@ DESCRIPTION="e(BE:L) API client"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e2/be/9c6110c1a455bbd4c8b490e9aa29f6756c5adc17216ce3653ce7d618e852/ebel_rest-${REALVERSION}.tar.gz"
-SOURCEFILE="ebel_rest-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e2/be/9c6110c1a455bbd4c8b490e9aa29f6756c5adc17216ce3653ce7d618e852/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

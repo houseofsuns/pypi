@@ -15,8 +15,8 @@ DESCRIPTION="A set of Python regularly used classes/functions"
 
 HOMEPAGE="https://github.com/dev4py/dev4py-utils"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/fb/2f/5c4517e68def6932b517ba63bf6d06ccd455d1807e7df9d7cbbd08188e74/dev4py_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="dev4py_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fb/2f/5c4517e68def6932b517ba63bf6d06ccd455d1807e7df9d7cbbd08188e74/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

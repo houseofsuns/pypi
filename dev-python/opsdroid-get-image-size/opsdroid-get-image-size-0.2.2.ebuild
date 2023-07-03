@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/opsdroid/image_size"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c5/98/1ac0cb475f90dee4d9c11a2ef3fe715438d569f71dc239ff8431f14f28fd/opsdroid_get_image_size-${REALVERSION}.tar.gz"
-SOURCEFILE="opsdroid_get_image_size-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c5/98/1ac0cb475f90dee4d9c11a2ef3fe715438d569f71dc239ff8431f14f28fd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

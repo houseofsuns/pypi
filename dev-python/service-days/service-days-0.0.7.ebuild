@@ -15,8 +15,8 @@ DESCRIPTION="A tool to help calculate the number of 'work days' between two date
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/72/da/bfd77697b396ad6b5df9a8366a6bd7feb5a19e9fd19a85464fa8958efe9f/service_days-${REALVERSION}.tar.gz"
-SOURCEFILE="service_days-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/72/da/bfd77697b396ad6b5df9a8366a6bd7feb5a19e9fd19a85464fa8958efe9f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

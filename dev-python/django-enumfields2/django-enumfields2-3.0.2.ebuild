@@ -15,8 +15,8 @@ DESCRIPTION="Real Python Enums for Django."
 
 HOMEPAGE="https://github.com/akx/django-enumfields2"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/03/e4/96daf09b637433a08dc720650d22bbb5a669d069a1afefd08bcc03eb71f3/django_enumfields2-${REALVERSION}.tar.gz"
-SOURCEFILE="django_enumfields2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/03/e4/96daf09b637433a08dc720650d22bbb5a669d069a1afefd08bcc03eb71f3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A robust email address syntax and deliverability validation library
 
 HOMEPAGE="https://github.com/JoshData/python-email-validator"
 LICENSE="CC0 copyright waived"
-SRC_URI="https://files.pythonhosted.org/packages/01/c4/b3972387f0ed2374035b61b46c17367c2363b958c966cfb1607282db5b56/email_validator-${REALVERSION}.tar.gz"
-SOURCEFILE="email_validator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/01/c4/b3972387f0ed2374035b61b46c17367c2363b958c966cfb1607282db5b56/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

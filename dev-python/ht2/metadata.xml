@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># htlibJust a bag of quality of life tools for Machine Learning Engineers## install`pip install ht2 ` or`pip install ht2 --index-url https://pypi.org/simple`## post upgrades`python3 -m build``python3 -m twine upload --repository pypi dist/*`## TODO* sphinx documentation</longdescription>
+</pkgmetadata>

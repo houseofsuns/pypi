@@ -15,8 +15,8 @@ DESCRIPTION="Training for models conforming to the scikit-learn api"
 
 HOMEPAGE="https://github.com/EricSchles/honest_ml"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c8/fd/f0e8adf3b92406181cc336775dac9e3447523aefa381317f97b0e3e2f408/honest_ml-${REALVERSION}.tar.gz"
-SOURCEFILE="honest_ml-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c8/fd/f0e8adf3b92406181cc336775dac9e3447523aefa381317f97b0e3e2f408/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

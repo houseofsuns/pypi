@@ -15,8 +15,8 @@ DESCRIPTION="Systems Engineering Library (se-lib)"
 
 HOMEPAGE="http://se-lib.org"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e4/9c/1c2eb6f0d1e059baa69d33334c23133a2ed1635c8044a039939a8257bb0e/se_lib-${REALVERSION}.tar.gz"
-SOURCEFILE="se_lib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e4/9c/1c2eb6f0d1e059baa69d33334c23133a2ed1635c8044a039939a8257bb0e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

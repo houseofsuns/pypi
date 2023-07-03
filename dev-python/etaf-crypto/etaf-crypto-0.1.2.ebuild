@@ -15,8 +15,8 @@ DESCRIPTION="crypto implemented or wrapped using rust"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/83/92/fc09acb04749a2e6b735b7434c9beb5d3fa07114d62cf9f49f289f76df00/etaf_crypto-${REALVERSION}.tar.gz"
-SOURCEFILE="etaf_crypto-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/83/92/fc09acb04749a2e6b735b7434c9beb5d3fa07114d62cf9f49f289f76df00/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/brakisto/PV-sizing"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/16/d4/abda9c7f3aac0d8e0af016bccb306ba8186dacb5a00dc5beedbe866af626/pv_sizing-${REALVERSION}.tar.gz"
-SOURCEFILE="pv_sizing-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/16/d4/abda9c7f3aac0d8e0af016bccb306ba8186dacb5a00dc5beedbe866af626/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

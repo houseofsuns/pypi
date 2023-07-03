@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2b/36/32a36b3918028f20172c037e8ccc2a9e333c5ae19b25441f6ec4021e671b/f1z1_async_http-${REALVERSION}.tar.gz"
-SOURCEFILE="f1z1_async_http-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2b/36/32a36b3918028f20172c037e8ccc2a9e333c5ae19b25441f6ec4021e671b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

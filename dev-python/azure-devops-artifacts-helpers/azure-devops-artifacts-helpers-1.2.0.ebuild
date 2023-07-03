@@ -15,8 +15,8 @@ DESCRIPTION="Bootstrap using Private Azure Devops Artifacts Feeds as an index-ur
 
 HOMEPAGE="https://djpugh.github.io/azure_devops_artifacts_helpers"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/13/0d/b688ac513c4aba1c78f0b54bbcca51f7f64d496778331468d788c6a759d5/azure_devops_artifacts_helpers-${REALVERSION}.tar.gz"
-SOURCEFILE="azure_devops_artifacts_helpers-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/13/0d/b688ac513c4aba1c78f0b54bbcca51f7f64d496778331468d788c6a759d5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

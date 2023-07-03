@@ -15,8 +15,8 @@ DESCRIPTION="A small package to pull data from Ecowater water softeners"
 
 HOMEPAGE="https://github.com/barleybobs/ecowater-softener"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/29/a7/8d2061d1f791972607b60fa3b9fe7993b511d91185b0218cf51ed1c6dc2f/ecowater_softener-${REALVERSION}.tar.gz"
-SOURCEFILE="ecowater_softener-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/29/a7/8d2061d1f791972607b60fa3b9fe7993b511d91185b0218cf51ed1c6dc2f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

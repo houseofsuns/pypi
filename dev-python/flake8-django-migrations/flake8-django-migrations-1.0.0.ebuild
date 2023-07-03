@@ -15,8 +15,8 @@ DESCRIPTION="Flake8 plugin to lint for backwards incompatible database migration
 
 HOMEPAGE="https://github.com/browniebroke/flake8-django-migrations"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7c/f1/d74474aa62f389df6a6eed499ce7b7b71c3376f8b55d56bf46b2a86260cd/flake8_django_migrations-${REALVERSION}.tar.gz"
-SOURCEFILE="flake8_django_migrations-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7c/f1/d74474aa62f389df6a6eed499ce7b7b71c3376f8b55d56bf46b2a86260cd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

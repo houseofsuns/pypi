@@ -15,8 +15,8 @@ DESCRIPTION="Publication-quality data representation library based on Matplotlib
 
 HOMEPAGE="https://github.com/alopezrivera/mpl_plotter"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/de/5b/690e2f94f224b27f7315197770311fe07895a9128d50035a429e760d6949/mpl_plotter-${REALVERSION}.tar.gz"
-SOURCEFILE="mpl_plotter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/de/5b/690e2f94f224b27f7315197770311fe07895a9128d50035a429e760d6949/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A python package for text preprocessing task in natural language pr
 
 HOMEPAGE="https://github.com/berknology/text-preprocessing"
 LICENSE="BSD license"
-SRC_URI="https://files.pythonhosted.org/packages/71/db/92c1ce26b943e220819b094d8eade7122cefdc283e6fdf6699d798e9bf95/text_preprocessing-${REALVERSION}.tar.gz"
-SOURCEFILE="text_preprocessing-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/71/db/92c1ce26b943e220819b094d8eade7122cefdc283e6fdf6699d798e9bf95/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Stretch RE1 end of arm tool interfaces"
 
 HOMEPAGE="https://github.com/hello-robot/stretch_tool_share"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c4/6c/3e9abfb3e5014653f553846de37c72c797fbeffa147c84a4d1c77c7de37b/hello_robot_stretch_tool_share-${REALVERSION}.tar.gz"
-SOURCEFILE="hello_robot_stretch_tool_share-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c4/6c/3e9abfb3e5014653f553846de37c72c797fbeffa147c84a4d1c77c7de37b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

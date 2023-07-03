@@ -15,8 +15,8 @@ DESCRIPTION="MyAMS.js extension framework"
 
 HOMEPAGE="https://pyams.readthedocs.io"
 LICENSE="ZPL"
-SRC_URI="https://files.pythonhosted.org/packages/a4/30/353a732ee2868c91774b789e52d6ac8b82b444b5b7e2b7d3418d9e3781ac/myams_js-${REALVERSION}.tar.gz"
-SOURCEFILE="myams_js-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a4/30/353a732ee2868c91774b789e52d6ac8b82b444b5b7e2b7d3418d9e3781ac/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

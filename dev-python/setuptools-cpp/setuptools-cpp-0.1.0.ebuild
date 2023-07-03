@@ -15,8 +15,8 @@ DESCRIPTION="Simplified packaging for pybind11-based C++ extensions"
 
 HOMEPAGE="https://setuptools-cpp.davidmontague.xyz"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7a/39/4610d5eb60c0b772682d490132568a4e7f6c17c2d05bafd33fcd49f1a13f/setuptools_cpp-${REALVERSION}.tar.gz"
-SOURCEFILE="setuptools_cpp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7a/39/4610d5eb60c0b772682d490132568a4e7f6c17c2d05bafd33fcd49f1a13f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

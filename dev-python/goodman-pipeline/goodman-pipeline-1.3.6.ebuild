@@ -15,8 +15,8 @@ DESCRIPTION="Pipeline for reducing Goodman HTS data."
 
 HOMEPAGE="https://github.com/soar-telescope/goodman_pipeline"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/53/bb/8e167c812564170ea41f948f6302669c500867804840a0094b5153d7b20f/goodman_pipeline-${REALVERSION}.tar.gz"
-SOURCEFILE="goodman_pipeline-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/53/bb/8e167c812564170ea41f948f6302669c500867804840a0094b5153d7b20f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

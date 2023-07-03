@@ -15,8 +15,8 @@ DESCRIPTION="Graph Neural Network Library for PyTorch"
 
 HOMEPAGE="https://pyg.org"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/06/a5/9f5af849c4185da5ea55f70ef17e23f93355cd4e989d82cfc8ba2d8747af/torch_geometric-${REALVERSION}.tar.gz"
-SOURCEFILE="torch_geometric-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/06/a5/9f5af849c4185da5ea55f70ef17e23f93355cd4e989d82cfc8ba2d8747af/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

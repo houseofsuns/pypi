@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># About Semantic Kernel**Semantic Kernel (SK)** is a lightweight SDK enabling integration of AI LargeLanguage Models (LLMs) with conventional programming languages. The SKextensible programming model combines natural language **semantic functions**,traditional code **native functions**, and **embeddings-based memory** unlockingnew potential and adding value to applications with AI.Semantic Kernel incorporates cutting-edge design patterns from the latest in AIresearch. This enables developers to augment their applications with advancedcapabilities, such as prompt engineering, prompt chaining, retrieval-augmentedgeneration, contextual and long-term vectorized memory, embeddings,summarization, zero or few-shot learning, semantic indexing, recursivereasoning, intelligent planning, and access to external knowledge stores andproprietary data.# Getting Started ⚡- Learn more at the [documentation site](https://aka.ms/SK-Docs).- Join the [Discord community](https://aka.ms/SKDiscord).- Follow the team on [Semantic Kernel blog](https://aka.ms/sk/blog).- Check out the [GitHub repository](https://github.com/microsoft/semantic-kernel) for the latest updates.</longdescription>
+</pkgmetadata>

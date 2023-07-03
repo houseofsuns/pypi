@@ -15,8 +15,8 @@ DESCRIPTION="Include pyramid request attributes in your log messages"
 
 HOMEPAGE="http://pypi.python.org/pypi/pyramid_log/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/5e/08/6752a1f0dcaff9d534c3c869259b31c35c41820588475ef29b88b3549ceb/pyramid_log-${REALVERSION}.tar.gz"
-SOURCEFILE="pyramid_log-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5e/08/6752a1f0dcaff9d534c3c869259b31c35c41820588475ef29b88b3549ceb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

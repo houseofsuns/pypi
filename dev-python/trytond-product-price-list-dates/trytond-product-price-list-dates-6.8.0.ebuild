@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module to add dates on price list"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/c8/fc/75132108f70cc4248242341f9cb67f25d9de48af4e69ec6b7a607534a1da/trytond_product_price_list_dates-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_product_price_list_dates-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c8/fc/75132108f70cc4248242341f9cb67f25d9de48af4e69ec6b7a607534a1da/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

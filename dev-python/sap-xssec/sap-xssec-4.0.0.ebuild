@@ -15,8 +15,8 @@ DESCRIPTION="SAP Python Security Library"
 
 HOMEPAGE="https://github.com/SAP/cloud-pysec"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8b/3b/5de30698e865b41cbfcc892d238970535453c4b697305359cd82624b521e/sap_xssec-${REALVERSION}.tar.gz"
-SOURCEFILE="sap_xssec-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8b/3b/5de30698e865b41cbfcc892d238970535453c4b697305359cd82624b521e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

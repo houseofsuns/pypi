@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![Python application](https://github.com/AndreiPuchko/q2terminal/actions/workflows/main.yml/badge.svg)](https://github.com/AndreiPuchko/q2terminal/actions/workflows/main.yml)# Interaction with a terminal session```pythonfrom q2terminal.q2terminal import Q2Terminalimport syst = Q2Terminal()t.run(&quot;programm&quot;, echo=True)assert t.exit_code != 0assert t.run(&quot;$q2 = 123&quot;) == []assert t.run(&quot;echo $q2&quot;) == [&quot;123&quot;]if &quot;win32&quot; in sys.platform:    t.run(&quot;notepad&quot;)    assert t.exit_code == 0```</longdescription>
+</pkgmetadata>

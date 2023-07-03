@@ -15,8 +15,8 @@ DESCRIPTION="Create project boilerplate for any programming language in minutes,
 
 HOMEPAGE="https://www.github.com/ajndkr/boilerplate-x"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1f/b6/9557fa721947cd5db90d34bbef3dbdcfedc7741674a6a2830b7dc8bb5d9e/boilerplate_x-${REALVERSION}.tar.gz"
-SOURCEFILE="boilerplate_x-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1f/b6/9557fa721947cd5db90d34bbef3dbdcfedc7741674a6a2830b7dc8bb5d9e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

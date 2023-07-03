@@ -15,8 +15,8 @@ DESCRIPTION="Python Greek stemmer."
 
 HOMEPAGE="https://github.com/alup/python_greek_stemmer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9c/89/6a7e01dd15100bb4c8b64a9ed3a2afb188cbbc71911545e74463811fba3b/greek_stemmer-${REALVERSION}.tar.gz"
-SOURCEFILE="greek_stemmer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9c/89/6a7e01dd15100bb4c8b64a9ed3a2afb188cbbc71911545e74463811fba3b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

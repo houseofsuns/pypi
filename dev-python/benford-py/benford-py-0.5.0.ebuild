@@ -15,8 +15,8 @@ DESCRIPTION="A library for testing data sets with Bendford's Law"
 
 HOMEPAGE="https://github.com/milcent/benford_py"
 LICENSE="BSD 3-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/9a/98/643d32eac72ace755fd06eee566210c581ce536ed94956dd7b4e71e613ea/benford_py-${REALVERSION}.tar.gz"
-SOURCEFILE="benford_py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9a/98/643d32eac72ace755fd06eee566210c581ce536ed94956dd7b4e71e613ea/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

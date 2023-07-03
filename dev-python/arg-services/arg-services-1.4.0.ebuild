@@ -15,8 +15,8 @@ DESCRIPTION="gRPC definitions for microservice-based argumentation machines"
 
 HOMEPAGE="http://recap.uni-trier.de"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/09/f6/7048d6073f28d67519ad65bc256fc3144f9d55a13ac0628624ede9d67952/arg_services-${REALVERSION}.tar.gz"
-SOURCEFILE="arg_services-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/09/f6/7048d6073f28d67519ad65bc256fc3144f9d55a13ac0628624ede9d67952/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

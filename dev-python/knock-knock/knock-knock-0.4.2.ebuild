@@ -15,8 +15,8 @@ DESCRIPTION="Exploring, categorizing, and quantifying the sequence outcomes prod
 
 HOMEPAGE="https://pypi.org/projects/knock-knock"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0d/06/b5006ab4afc432fca2bd1688c2c8257dd6efb8368f5a9d4675565f3e3032/knock_knock-${REALVERSION}.tar.gz"
-SOURCEFILE="knock_knock-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0d/06/b5006ab4afc432fca2bd1688c2c8257dd6efb8368f5a9d4675565f3e3032/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

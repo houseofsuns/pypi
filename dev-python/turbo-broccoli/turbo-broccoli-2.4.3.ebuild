@@ -15,8 +15,8 @@ DESCRIPTION="JSON (de)serialization extensions"
 
 HOMEPAGE="https://github.com/altaris/turbo-broccoli"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/46/e6/4d30812885ccec5b03e91f4ac57bd889a4ddbb84340ad2246ca22d82e475/turbo_broccoli-${REALVERSION}.tar.gz"
-SOURCEFILE="turbo_broccoli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/46/e6/4d30812885ccec5b03e91f4ac57bd889a4ddbb84340ad2246ca22d82e475/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

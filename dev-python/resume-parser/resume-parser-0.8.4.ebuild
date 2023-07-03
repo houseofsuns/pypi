@@ -15,8 +15,8 @@ DESCRIPTION="A resume parser used for extracting information from resumes"
 
 HOMEPAGE="https://github.com/kbrajwani/resume_parser"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/19/21/503cee167c3aa184b16db39801efd004a36f35c954fd7701c5ae40e009ec/resume_parser-${REALVERSION}.tar.gz"
-SOURCEFILE="resume_parser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/19/21/503cee167c3aa184b16db39801efd004a36f35c954fd7701c5ae40e009ec/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

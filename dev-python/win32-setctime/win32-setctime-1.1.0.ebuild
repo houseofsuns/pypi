@@ -15,8 +15,8 @@ DESCRIPTION="A small Python utility to set file creation time on Windows"
 
 HOMEPAGE="https://github.com/Delgan/win32-setctime"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6b/dd/f95a13d2b235a28d613ba23ebad55191514550debb968b46aab99f2e3a30/win32_setctime-${REALVERSION}.tar.gz"
-SOURCEFILE="win32_setctime-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6b/dd/f95a13d2b235a28d613ba23ebad55191514550debb968b46aab99f2e3a30/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

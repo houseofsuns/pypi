@@ -15,8 +15,8 @@ DESCRIPTION="Question Answering Dialog System"
 
 HOMEPAGE="https://github.com/kikejimenez/let_me_answer_for_you/tree/master/"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/dc/df/660b46e2d4852663cb5d103aa350ded789bc0087e2d0420b83d82dff3543/let_me_answer_for_you-${REALVERSION}.tar.gz"
-SOURCEFILE="let_me_answer_for_you-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/dc/df/660b46e2d4852663cb5d103aa350ded789bc0087e2d0420b83d82dff3543/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

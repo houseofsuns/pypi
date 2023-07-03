@@ -15,8 +15,8 @@ DESCRIPTION="Interface server connecting Django's channels and IRC"
 
 HOMEPAGE="https://github.com/AdvocatesInc/django-channels-irc"
 LICENSE="Proprietary and confidential"
-SRC_URI="https://files.pythonhosted.org/packages/c5/f9/e6a0d6d7b0b5c66ef2fc3cbd5f5d5e3c6690f14f6ef10181ab4f40c6cea8/channels_irc-${REALVERSION}.tar.gz"
-SOURCEFILE="channels_irc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c5/f9/e6a0d6d7b0b5c66ef2fc3cbd5f5d5e3c6690f14f6ef10181ab4f40c6cea8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

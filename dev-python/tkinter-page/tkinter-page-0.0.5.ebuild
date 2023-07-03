@@ -15,8 +15,8 @@ DESCRIPTION="tkinter components extention"
 
 HOMEPAGE="https://github.com/CharlesShan-hub/tkinter_page"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a5/71/b9194755e9c1dda55806a883d3bb3573ab8b23cbcdf331fa3933128cdabc/tkinter_page-${REALVERSION}.tar.gz"
-SOURCEFILE="tkinter_page-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a5/71/b9194755e9c1dda55806a883d3bb3573ab8b23cbcdf331fa3933128cdabc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

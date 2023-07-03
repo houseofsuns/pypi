@@ -15,8 +15,8 @@ DESCRIPTION="Calculates currency, country and industry allocations for portfolio
 
 HOMEPAGE="https://github.com/fertkir/portfolio-allocation"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e1/05/82f7adbb71160d57782224c48735167fb8e2a75924fbc3ada47770508365/portfolio_allocation-${REALVERSION}.tar.gz"
-SOURCEFILE="portfolio_allocation-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e1/05/82f7adbb71160d57782224c48735167fb8e2a75924fbc3ada47770508365/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

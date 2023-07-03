@@ -15,8 +15,8 @@ DESCRIPTION="Gets the weather forecast data from Swedish weather institute"
 
 HOMEPAGE="https://github.com/joysoftware/pypi_smhi"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3f/20/2cf3222077adfcd79d1d3e37d94ea0a0db225d7d34cc713ee34fa171a594/smhi_pkg-${REALVERSION}.tar.gz"
-SOURCEFILE="smhi_pkg-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3f/20/2cf3222077adfcd79d1d3e37d94ea0a0db225d7d34cc713ee34fa171a594/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

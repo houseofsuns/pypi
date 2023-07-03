@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/95/b1/65f4dcf1399e8d660024bf0883494b6d4bdba5fbb576f9f475106eb33e69/tools_hjh-${REALVERSION}.tar.gz"
-SOURCEFILE="tools_hjh-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/95/b1/65f4dcf1399e8d660024bf0883494b6d4bdba5fbb576f9f475106eb33e69/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

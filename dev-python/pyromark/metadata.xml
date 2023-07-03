@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># PyroMark[![CI](https://github.com/monosans/pyromark/actions/workflows/ci.yml/badge.svg)](https://github.com/monosans/pyromark/actions/workflows/ci.yml)[![Downloads](https://static.pepy.tech/badge/pyromark)](https://pepy.tech/project/pyromark)PyroMark (stands for Python Rust Optimized Markdown) is a blazingly fast CommonMark-compliant Markdown parser for Python.Uses [pulldown-cmark](https://github.com/raphlinus/pulldown-cmark) Rust crate under the hood.## Installation```bashpython -m pip install -U pyromark```## Documentation&lt;https://pyromark.readthedocs.io/&gt;## Performance118x faster than [Markdown](https://pypi.org/project/Markdown/),99x faster than [markdown-it-py](https://pypi.org/project/markdown-it-py/),73x faster than [mistune](https://pypi.org/project/mistune/),7x faster than [markdown-it-pyrs](https://pypi.org/project/markdown-it-pyrs/).If you use threading, the difference with other libraries will be even more enormous, since pyromark releases the [GIL](https://docs.python.org/3/glossary.html#term-global-interpreter-lock).See [benchmark](https://pyromark.readthedocs.io/en/latest/performance/).## License[MIT](https://github.com/monosans/pyromark/blob/main/LICENSE)</longdescription>
+</pkgmetadata>

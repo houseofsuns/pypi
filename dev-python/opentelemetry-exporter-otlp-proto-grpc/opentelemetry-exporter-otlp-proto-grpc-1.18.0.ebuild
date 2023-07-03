@@ -15,8 +15,8 @@ DESCRIPTION="OpenTelemetry Collector Protobuf over gRPC Exporter"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python/tree/main/exporter/opentelemetry-exporter-otlp-proto-grpc"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/46/6c/a90f9dbf1df17a02b0141098b44e4391529f5b0d03caa5a88fa69cf58f4b/opentelemetry_exporter_otlp_proto_grpc-${REALVERSION}.tar.gz"
-SOURCEFILE="opentelemetry_exporter_otlp_proto_grpc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/46/6c/a90f9dbf1df17a02b0141098b44e4391529f5b0d03caa5a88fa69cf58f4b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

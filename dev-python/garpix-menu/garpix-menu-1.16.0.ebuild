@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b4/0e/41a12d3b38caa3e2e528a1ec9b3cd7ef522bf95d45fa3e9753cde404c8d2/garpix_menu-${REALVERSION}.tar.gz"
-SOURCEFILE="garpix_menu-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b4/0e/41a12d3b38caa3e2e528a1ec9b3cd7ef522bf95d45fa3e9753cde404c8d2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

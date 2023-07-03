@@ -15,8 +15,8 @@ DESCRIPTION="A package with useful functions to convert between different proble
 
 HOMEPAGE="https://github.com/open-resources/problem_bank_scripts"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/26/87/69ec7f1302431e3d0ea2d3dc4ee4176234c6f983e074566a5e23a9ece141/problem_bank_scripts-${REALVERSION}.tar.gz"
-SOURCEFILE="problem_bank_scripts-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/26/87/69ec7f1302431e3d0ea2d3dc4ee4176234c6f983e074566a5e23a9ece141/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

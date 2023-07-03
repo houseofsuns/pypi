@@ -15,8 +15,8 @@ DESCRIPTION="Easy to use Reinforcement Library for finance"
 
 HOMEPAGE="https://github.com/Bonobo791/rl-trade/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/74/a0/2a9e05f45af76a06fc1f98b812384799e01562d0eb9bbb4dadde50239694/rltrade_test-${REALVERSION}.tar.gz"
-SOURCEFILE="rltrade_test-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/74/a0/2a9e05f45af76a06fc1f98b812384799e01562d0eb9bbb4dadde50239694/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

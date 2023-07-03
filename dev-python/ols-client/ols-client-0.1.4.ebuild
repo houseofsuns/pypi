@@ -15,8 +15,8 @@ DESCRIPTION="A client to the EBI Ontology Lookup Service"
 
 HOMEPAGE="https://github.com/cthoyt/ols-client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7a/09/eeca61cc40048d764dacb955e5991cb13f16efe841e6eed37ad7e2a601ec/ols_client-${REALVERSION}.tar.gz"
-SOURCEFILE="ols_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7a/09/eeca61cc40048d764dacb955e5991cb13f16efe841e6eed37ad7e2a601ec/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

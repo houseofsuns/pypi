@@ -15,8 +15,8 @@ DESCRIPTION="Python package for causal inference using Bayesian structural time-
 
 HOMEPAGE="https://github.com/tcassou/causal_impact"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4a/b2/26f5e9585cccac86f116493d5b74b9a15e7a5188cfabddc8131101507637/causal_impact-${REALVERSION}.tar.gz"
-SOURCEFILE="causal_impact-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4a/b2/26f5e9585cccac86f116493d5b74b9a15e7a5188cfabddc8131101507637/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

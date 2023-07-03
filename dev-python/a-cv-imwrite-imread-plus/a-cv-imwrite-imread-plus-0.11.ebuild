@@ -15,8 +15,8 @@ DESCRIPTION="Less trouble reading/writing images with OpenCV (from url/path/buff
 
 HOMEPAGE="https://github.com/hansalemaos/a_cv_imwrite_imread_plus"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8a/49/dac663a29d796928fabe1f29a3a41210b1b8964d8cf493c2f515b21a6725/a_cv_imwrite_imread_plus-${REALVERSION}.tar.gz"
-SOURCEFILE="a_cv_imwrite_imread_plus-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8a/49/dac663a29d796928fabe1f29a3a41210b1b8964d8cf493c2f515b21a6725/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

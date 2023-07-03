@@ -15,8 +15,8 @@ DESCRIPTION="Super simple test sequencer for production testing"
 
 HOMEPAGE="https://www.jotautomation.com"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/70/da/1af111e36e6a75ed0264bbf2944791bc74cf29c5fb096db41f24c2f7a815/super_simple_test_sequencer-${REALVERSION}.tar.gz"
-SOURCEFILE="super_simple_test_sequencer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/70/da/1af111e36e6a75ed0264bbf2944791bc74cf29c5fb096db41f24c2f7a815/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Bin Packing ProblemThis library is a grouping of 1D approximate solutions for the BPP  There is also a generic function to create variants.## Example`pythonimport randomfrom binpackp import NumberBin, Fitbin_size = random.randint(10,100)fit_these = [random.randint(1, bin_size) for _ in range(1000)]generic_results = Fit.fit(NumberBin, bin_size, fit_these)first_fit_results = Fit.ff(NumberBin, bin_size, fit_these)print(&quot;General Function: &quot;, generic_results)print(&quot;First Fit Function: &quot;, first_fit_results)</longdescription>
+</pkgmetadata>

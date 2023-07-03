@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># aioratelimitsClient rate limiter. It enqueues function calls and run them as leaky bucket toensure specified rates.## ImplementationLeaky bucket. We have one queue for requests and `count` number of workers.Each worker can handle one request per `delay` seconds## Install```pip install aioratelimits```## UseThe following code prints not more than 2 lines per second.```pythonimport asynciofrom aioratelimits import RateLimiterasync def critical_resource(i: int):    print('request:', i)async def main():    async with RateLimiter(count=2, delay=1) as limiter:        await asyncio.gather(*(            limiter.run(critical_resource(i))            for i in range(10)        ))asyncio.run(main())```Arguments to `RateLimiter`:- `count` - how many calls can we do in the specified interval- `delay` - the interval in seconds </longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="Key Value DataBase"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3e/24/a5410d33ccc029c34577dc836305b59f9795722f38ffac729eea8f23d55c/keyvalue_database_replit-${REALVERSION}.tar.gz"
-SOURCEFILE="keyvalue_database_replit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3e/24/a5410d33ccc029c34577dc836305b59f9795722f38ffac729eea8f23d55c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

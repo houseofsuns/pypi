@@ -15,8 +15,8 @@ DESCRIPTION="Simplify the usage of containers"
 
 HOMEPAGE=""
 LICENSE="BSD 3 Clause"
-SRC_URI="https://files.pythonhosted.org/packages/cd/3c/bba0ba658aee7129d91a591d2d2bb30c95d44a877e88e94b4e0c19b776ac/containers_sugar-${REALVERSION}.tar.gz"
-SOURCEFILE="containers_sugar-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cd/3c/bba0ba658aee7129d91a591d2d2bb30c95d44a877e88e94b4e0c19b776ac/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

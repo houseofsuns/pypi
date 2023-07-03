@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f0/2e/e0e24348e1d565c0cd493d2d00f66aa4725ddd39e74e60c3f5decfc6f737/rayter_generator-${REALVERSION}.tar.gz"
-SOURCEFILE="rayter_generator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f0/2e/e0e24348e1d565c0cd493d2d00f66aa4725ddd39e74e60c3f5decfc6f737/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

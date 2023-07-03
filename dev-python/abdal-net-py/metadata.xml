@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Abdal Net Py## Made ForPowerful security network package for hackers and all security experts**Requires Lib**&gt; hurry.filesize - psutil**Requires python**&gt; Python &gt;= 3.9## Features- calculate internet speed with unit- calculate byte to other unit (show in xbit vs xbyte )- Convert byte to other unit by select unit- multi password generator - log writer + logging ram and cpu usage- iranian mobile phone generate- **How To install**```pypip install abdal-net-py```**How To upgrade**```pypip install abdal-net-py -U```**How To use**```pyimport abdal_net_py```## ❤️ Donation&gt; USDT:      TXLasexoQTjKMoWarikkfYRYWWXtbaVadB&gt; BTC :   bc1q9w9ymgz2wluax60rsuza4q0at7gpy82g8el6zj&gt; ETH :   0x402b9f67091Af07224286F16d7377bc50268Db94&gt; For Iranian People -&gt; MellatBank : 6104-3378-5301-4247## 🤵 ProgrammerEbrahim Shafiei (EbraSha)E-Mail = Prof.Shafiei@Gmail.comTelegram: https://t.me/ProfShafiei## LicenseAbdal Net Py is open-source software licensed under the [MIT license.](https://choosealicense.com/licenses/mit/)## ☠️ Reporting IssuesIf you are facing a configuration issue or something is not working as you expected to be, please use the **Prof.Shafiei@Gmail.com** . Issues on GitLab are also welcomed.## ⚠️ Legal disclaimer ⚠️Usage of Abdal Net Py for Spying targets without prior mutual consent is illegal. It's the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program.</longdescription>
+</pkgmetadata>

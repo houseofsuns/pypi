@@ -15,8 +15,8 @@ DESCRIPTION="lib for fast work with pip commands"
 
 HOMEPAGE="https://github.com/pavelglazunov/pip-command"
 LICENSE="Apache License, Version 2.0, see LICENSE file"
-SRC_URI="https://files.pythonhosted.org/packages/65/5b/604406c47851091cf2c3c437495b98bc57808c4a522d20b9aad762576406/pip_command-${REALVERSION}.tar.gz"
-SOURCEFILE="pip_command-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/65/5b/604406c47851091cf2c3c437495b98bc57808c4a522d20b9aad762576406/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

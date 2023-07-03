@@ -15,8 +15,8 @@ DESCRIPTION="Convert Abstract Meaning Representation (AMR) into first-order logi
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/92/f1/1f59d2086836dc7cbb83ff0abea27da12b1a07d04a581150d5bd8dfa73bf/amr_logic_converter-${REALVERSION}.tar.gz"
-SOURCEFILE="amr_logic_converter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/92/f1/1f59d2086836dc7cbb83ff0abea27da12b1a07d04a581150d5bd8dfa73bf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

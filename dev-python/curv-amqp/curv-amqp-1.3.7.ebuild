@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="http://github.com/rep-ai/curv_amqp"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fb/99/76a486fd062665e13f7690e2a036687eee5f6ba6724299fa20695fc2c500/curv_amqp-${REALVERSION}.tar.gz"
-SOURCEFILE="curv_amqp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fb/99/76a486fd062665e13f7690e2a036687eee5f6ba6724299fa20695fc2c500/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

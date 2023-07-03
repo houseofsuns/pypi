@@ -15,8 +15,8 @@ DESCRIPTION="wpscan_out_parse is a Python parser for WPScan output files (JSON a
 
 HOMEPAGE="http://github.com/tristanlatr/wpscan_out_parse"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e9/0a/51492856e669d7ab9a509b634bccb0fa9800b270a7f55300c82f71b3e340/wpscan_out_parse-${REALVERSION}.tar.gz"
-SOURCEFILE="wpscan_out_parse-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e9/0a/51492856e669d7ab9a509b634bccb0fa9800b270a7f55300c82f71b3e340/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A Compact Voicemeeter Remote App"
 
 HOMEPAGE="https://github.com/onyx-and-iris/voicemeeter-compact"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3b/94/5e15043d2a39dfdd9d729021561c9b73285600f738a17a256bfef4712021/voicemeeter_compact-${REALVERSION}.tar.gz"
-SOURCEFILE="voicemeeter_compact-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3b/94/5e15043d2a39dfdd9d729021561c9b73285600f738a17a256bfef4712021/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

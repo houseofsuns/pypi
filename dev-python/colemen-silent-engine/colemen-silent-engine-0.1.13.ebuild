@@ -15,8 +15,8 @@ DESCRIPTION="colemen_silentEngine"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b9/e7/035a44a0a619e2653533ccbb859cee5f5df4cd7b6995733df53dbbe279a0/colemen_silent_engine-${REALVERSION}.tar.gz"
-SOURCEFILE="colemen_silent_engine-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b9/e7/035a44a0a619e2653533ccbb859cee5f5df4cd7b6995733df53dbbe279a0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

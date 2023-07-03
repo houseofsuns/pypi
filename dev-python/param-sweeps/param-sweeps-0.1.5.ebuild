@@ -15,8 +15,8 @@ DESCRIPTION="Parameter sweeper for ui.json powered applications"
 
 HOMEPAGE="https://mirageoscience.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4a/5a/54c0bef44e9e58de1b7eb2a8f8e4cb7ab10279f0f82cbac75c72f4f0d935/param_sweeps-${REALVERSION}.tar.gz"
-SOURCEFILE="param_sweeps-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4a/5a/54c0bef44e9e58de1b7eb2a8f8e4cb7ab10279f0f82cbac75c72f4f0d935/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

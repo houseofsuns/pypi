@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Erscipcard=========Quick start-----------1.Add &quot;ersciyt&quot; to your INSTALLED_APPS in your project setting.py file:```INSTALLED_APPS = [...,'ersciyt',]```2.Include the erscipcard URLconf in your project urls.py like this:```path('yt/', include('ersciyt.urls')),```3.Visit http://127.0.0.1:8000/yt/ to create users and its cards.4.run this command if you on shell.cloud.google:```python&gt;&gt;&gt;from ersciyt import inst&gt;&gt;&gt;inst.run()```</longdescription>
+</pkgmetadata>

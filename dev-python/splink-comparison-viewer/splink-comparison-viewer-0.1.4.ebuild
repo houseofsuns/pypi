@@ -15,8 +15,8 @@ DESCRIPTION="Create an interactive webpage to visualise Splink record comparison
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8f/78/7e85d2d9ac391247d5c3ab28a2ff7dc8dc441304a975fd7f893ec3aa750a/splink_comparison_viewer-${REALVERSION}.tar.gz"
-SOURCEFILE="splink_comparison_viewer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8f/78/7e85d2d9ac391247d5c3ab28a2ff7dc8dc441304a975fd7f893ec3aa750a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

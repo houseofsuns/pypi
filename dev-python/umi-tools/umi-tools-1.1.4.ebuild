@@ -15,8 +15,8 @@ DESCRIPTION="umi_tools: Tools for UMI analyses"
 
 HOMEPAGE="https://github.com/CGATOxford/UMI-tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/14/99/0fdd1dc7a3effb29fc80a14076da2496e69d0714b7858bb1ec816d6571c6/umi_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="umi_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/14/99/0fdd1dc7a3effb29fc80a14076da2496e69d0714b7858bb1ec816d6571c6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Swimlane Email Utility Package"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bb/66/3ad338749c7daf9525bc3dc877df3e0e970a4a88a774822c571c21f9fbf8/swimbundle_email-${REALVERSION}.tar.gz"
-SOURCEFILE="swimbundle_email-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bb/66/3ad338749c7daf9525bc3dc877df3e0e970a4a88a774822c571c21f9fbf8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

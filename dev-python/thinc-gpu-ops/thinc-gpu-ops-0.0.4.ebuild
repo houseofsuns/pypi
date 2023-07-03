@@ -15,8 +15,8 @@ DESCRIPTION="CUDA kernels for Thinc"
 
 HOMEPAGE="https://github.com/explosion/thinc"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a4/ad/11ab80a24bcedd7dd0cfabaedba2ceaeca11f1aaeeff432a3d2e63ca7d02/thinc_gpu_ops-${REALVERSION}.tar.gz"
-SOURCEFILE="thinc_gpu_ops-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a4/ad/11ab80a24bcedd7dd0cfabaedba2ceaeca11f1aaeeff432a3d2e63ca7d02/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

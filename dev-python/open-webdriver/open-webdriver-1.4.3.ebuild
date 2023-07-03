@@ -15,8 +15,8 @@ DESCRIPTION="Easiest zero-config selenium webdriver for Python"
 
 HOMEPAGE="https://github.com/zackees/open-webdriver"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/46/22/bb3c5f32c84ddd6b8c1ae79d6bbaf26c6379c451c7fe93576a097a1caf39/open_webdriver-${REALVERSION}.tar.gz"
-SOURCEFILE="open_webdriver-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/46/22/bb3c5f32c84ddd6b8c1ae79d6bbaf26c6379c451c7fe93576a097a1caf39/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Python client for Toolchest"
 
 HOMEPAGE="https://github.com/trytoolchest/toolchest-client-python"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/78/86/c0c8f742b1af521f35a07feefd7845c82c22f1a7fe785918d7208d2a3d2d/toolchest_client-${REALVERSION}.tar.gz"
-SOURCEFILE="toolchest_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/78/86/c0c8f742b1af521f35a07feefd7845c82c22f1a7fe785918d7208d2a3d2d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

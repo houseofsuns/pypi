@@ -15,8 +15,8 @@ DESCRIPTION="Queue Manager"
 
 HOMEPAGE="https://github.com/SamuelJansen/queue-manager-api/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/61/60/4b3e6fa66be9911203d43deabb975af6c9b87cb6bd8fa3dc0befd6279b9d/queue_manager_api-${REALVERSION}.tar.gz"
-SOURCEFILE="queue_manager_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/61/60/4b3e6fa66be9911203d43deabb975af6c9b87cb6bd8fa3dc0befd6279b9d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

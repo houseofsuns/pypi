@@ -15,8 +15,8 @@ DESCRIPTION="Multi-tenancy on Django using PostgreSQL schemas."
 
 HOMEPAGE="https://github.com/lorinkoz/django-pgschemas"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3d/9f/251d96ade3a4ab3fa1f3706921dee7e2ed573b0639d5aca8f4713fbfda1c/django_pgschemas-${REALVERSION}.tar.gz"
-SOURCEFILE="django_pgschemas-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3d/9f/251d96ade3a4ab3fa1f3706921dee7e2ed573b0639d5aca8f4713fbfda1c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

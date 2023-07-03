@@ -15,8 +15,8 @@ DESCRIPTION="A flexible command framework designed to extend Hikari."
 
 HOMEPAGE="https://github.com/FasterSpeeding/Tanjun"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/91/2c/72b22d972b82cbf1a0b683c04562245a8cb224fef3cf19da80164ade1909/hikari_tanjun-${REALVERSION}.tar.gz"
-SOURCEFILE="hikari_tanjun-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/91/2c/72b22d972b82cbf1a0b683c04562245a8cb224fef3cf19da80164ade1909/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

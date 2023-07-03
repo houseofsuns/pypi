@@ -15,8 +15,8 @@ DESCRIPTION="Hatch plugin for versioning from a package.json file"
 
 HOMEPAGE="https://github.com/agoose77/hatch-nodejs-version"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1a/f7/e563b874c1ebd181e002b56801562516408fa1ff12bbba4f803faa4f433b/hatch_nodejs_version-${REALVERSION}.tar.gz"
-SOURCEFILE="hatch_nodejs_version-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1a/f7/e563b874c1ebd181e002b56801562516408fa1ff12bbba4f803faa4f433b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Banditcoot====================&lt;img align=&quot;left&quot; width=&quot;75&quot; src=&quot;https://github.com/dan-kwon/banditcoot/blob/master/resources/Banditcoot.png&quot;/&gt; **banditcoot** is a Python module is intended for my own personal use when developing and testing multi-armed bandit algorithms. Forked from the accompanying [code repository](https://github.com/johnmyleswhite/BanditsBook) for [Bandit Algorithms for Website Optimization](https://www.oreilly.com/library/view/bandit-algorithms-for/9781449341565/).*Any use of this code is at your own risk.*&lt;/br&gt;## Installation--------------------Recommended method of installation is to use pip ```pip install banditcoot```## Quickstart--------------------</longdescription>
+</pkgmetadata>

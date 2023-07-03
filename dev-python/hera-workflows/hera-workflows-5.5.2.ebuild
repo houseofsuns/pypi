@@ -15,8 +15,8 @@ DESCRIPTION="Hera is a Python framework for constructing and submitting Argo Wor
 
 HOMEPAGE="https://github.com/argoproj-labs/hera"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/55/16/087f3fe11e4b246726c21330a6428b404a2bbb97993c13b2cb4cc41fa490/hera_workflows-${REALVERSION}.tar.gz"
-SOURCEFILE="hera_workflows-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/55/16/087f3fe11e4b246726c21330a6428b404a2bbb97993c13b2cb4cc41fa490/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

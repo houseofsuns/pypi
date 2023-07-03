@@ -15,8 +15,8 @@ DESCRIPTION="Integration testing environment for WEB Testing、GUI Testing、API
 
 HOMEPAGE="https://github.com/JE-Chen/Integration-testing-environment"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2c/7c/f8a992f0ed21561088d6af9d7a1854436993663a15065843181abeb54fb2/integration_testing_environment_dev-${REALVERSION}.tar.gz"
-SOURCEFILE="integration_testing_environment_dev-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2c/7c/f8a992f0ed21561088d6af9d7a1854436993663a15065843181abeb54fb2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

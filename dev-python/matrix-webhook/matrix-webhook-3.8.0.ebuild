@@ -15,8 +15,8 @@ DESCRIPTION="Post a message to a matrix room with a simple HTTP POST"
 
 HOMEPAGE="https://github.com/nim65s/matrix-webhook"
 LICENSE="BSD-2"
-SRC_URI="https://files.pythonhosted.org/packages/82/14/90723aa7c345ce8c6e37bf6479eb4d1b380cc80a2f3fd8636fd54785c335/matrix_webhook-${REALVERSION}.tar.gz"
-SOURCEFILE="matrix_webhook-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/82/14/90723aa7c345ce8c6e37bf6479eb4d1b380cc80a2f3fd8636fd54785c335/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

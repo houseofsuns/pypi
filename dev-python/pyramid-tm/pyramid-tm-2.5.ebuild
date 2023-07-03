@@ -15,8 +15,8 @@ DESCRIPTION="A package which allows Pyramid requests to join the active transact
 
 HOMEPAGE="https://github.com/Pylons/pyramid_tm"
 LICENSE="BSD-derived Repoze"
-SRC_URI="https://files.pythonhosted.org/packages/65/93/601f4410a76026abf4d589c815ef6626b4923d004f30a7af105117c67d44/pyramid_tm-${REALVERSION}.tar.gz"
-SOURCEFILE="pyramid_tm-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/65/93/601f4410a76026abf4d589c815ef6626b4923d004f30a7af105117c67d44/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

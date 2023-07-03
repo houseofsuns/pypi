@@ -15,8 +15,8 @@ DESCRIPTION="Machine Learning dataset loaders"
 
 HOMEPAGE="https://github.com/explosion/ml-datasets"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3c/a8/149700bd6087fbffdbe85d32a7587f497cf45c432864d0000eef6bad1020/ml_datasets-${REALVERSION}.tar.gz"
-SOURCEFILE="ml_datasets-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3c/a8/149700bd6087fbffdbe85d32a7587f497cf45c432864d0000eef6bad1020/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

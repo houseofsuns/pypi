@@ -15,8 +15,8 @@ DESCRIPTION="A Django app to send push notifications to to users."
 
 HOMEPAGE="https://www.madithouse.com/"
 LICENSE="Other/Proprietary License"
-SRC_URI="https://files.pythonhosted.org/packages/b1/3a/6e20bf6b47ea4eedec5a8e81b34997a3ed5d212626a214c695541ca0488a/mad_notifications-${REALVERSION}.tar.gz"
-SOURCEFILE="mad_notifications-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b1/3a/6e20bf6b47ea4eedec5a8e81b34997a3ed5d212626a214c695541ca0488a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

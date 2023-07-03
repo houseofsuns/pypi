@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module for sale promotion"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/ee/54/e1c5abe00358d876f5e1bb59b8cbd14a5f6f9afabc832728fb82384e364c/trytond_sale_promotion-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_sale_promotion-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ee/54/e1c5abe00358d876f5e1bb59b8cbd14a5f6f9afabc832728fb82384e364c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

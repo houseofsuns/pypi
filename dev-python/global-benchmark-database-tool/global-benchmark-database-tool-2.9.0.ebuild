@@ -15,8 +15,8 @@ DESCRIPTION="Superseded by: gbd-tools"
 
 HOMEPAGE="https://github.com/Udopia/gbd"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/64/14/c1117cd6623a0223831fb4e3714a443dadc19c5520a97ce0a42085fd5424/global_benchmark_database_tool-${REALVERSION}.tar.gz"
-SOURCEFILE="global_benchmark_database_tool-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/64/14/c1117cd6623a0223831fb4e3714a443dadc19c5520a97ce0a42085fd5424/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

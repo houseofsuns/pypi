@@ -15,8 +15,8 @@ DESCRIPTION="Utilities for Kwrappers."
 
 HOMEPAGE="https://bitbucket.org/tim_kablamo/kwrappers"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/90/83/8cb4c32a61a85ade511e2ad883ecec86eb6640095357c82109437ef9b978/kwrappers_util-${REALVERSION}.tar.gz"
-SOURCEFILE="kwrappers_util-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/90/83/8cb4c32a61a85ade511e2ad883ecec86eb6640095357c82109437ef9b978/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

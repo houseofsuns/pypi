@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module to historize invoices"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/4f/b7/67a4c5a0e6a51f50a0673c7c2a292d36c6f8425324df1feb89d27a9db839/trytond_account_invoice_history-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_account_invoice_history-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4f/b7/67a4c5a0e6a51f50a0673c7c2a292d36c6f8425324df1feb89d27a9db839/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

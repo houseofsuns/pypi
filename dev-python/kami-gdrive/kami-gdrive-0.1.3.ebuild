@@ -15,8 +15,8 @@ DESCRIPTION="Settings to Upload files to google drive"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e6/2a/bb6ad94a5fdad96f6a7f1a969227228c93089c3e77335dc2b8736d795748/kami_gdrive-${REALVERSION}.tar.gz"
-SOURCEFILE="kami_gdrive-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e6/2a/bb6ad94a5fdad96f6a7f1a969227228c93089c3e77335dc2b8736d795748/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

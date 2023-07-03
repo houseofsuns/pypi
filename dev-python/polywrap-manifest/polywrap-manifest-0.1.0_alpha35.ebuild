@@ -15,8 +15,8 @@ DESCRIPTION="WRAP manifest"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6f/8b/97434bf37499c35bb0382a0ac879b41b1362524ec596ec4c7d87c21d0a56/polywrap_manifest-${REALVERSION}.tar.gz"
-SOURCEFILE="polywrap_manifest-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6f/8b/97434bf37499c35bb0382a0ac879b41b1362524ec596ec4c7d87c21d0a56/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

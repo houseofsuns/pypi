@@ -15,8 +15,8 @@ DESCRIPTION="A simple bulletin board for Alliance Auth"
 
 HOMEPAGE="https://github.com/ppfeufer/aa-bulletin-board"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/db/96/39d56eb9ecf516d1e84b88afb1e8f00ebeee9860d531285596b9e82f2fd0/aa_bulletin_board-${REALVERSION}.tar.gz"
-SOURCEFILE="aa_bulletin_board-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/db/96/39d56eb9ecf516d1e84b88afb1e8f00ebeee9860d531285596b9e82f2fd0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

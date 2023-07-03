@@ -15,8 +15,8 @@ DESCRIPTION="A small example package"
 
 HOMEPAGE="https://github.com/valluzzi/gecosistema_erre.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cd/dd/78cf0d6a438a06989d7235df069f438bc038e6f719660ef5e0b7a1a162ad/gecosistema_erre-${REALVERSION}.tar.gz"
-SOURCEFILE="gecosistema_erre-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cd/dd/78cf0d6a438a06989d7235df069f438bc038e6f719660ef5e0b7a1a162ad/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2f/d2/2f69702838fe9cd5711f9d90bd9f7b6ab841bd9e531cbdcdc09d8286106a/beam_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="beam_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2f/d2/2f69702838fe9cd5711f9d90bd9f7b6ab841bd9e531cbdcdc09d8286106a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

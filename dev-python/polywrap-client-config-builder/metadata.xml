@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># polywrap-client-config-builderA utility class for building the PolywrapClient config. Supports building configs using method chaining or imperatively.## Quickstart### InitializeInitialize a ClientConfigBuilder using the constructor```python# start with a blank slate (typical usage)builder = ClientConfigBuilder()```### ConfigureAdd client configuration with add, or flexibly mix and match builder configuration methods to add and remove configuration items.```python# add multiple items to the configuration using the catch-all `add` methodbuilder.add(    BuilderConfig(        envs={},        interfaces={},        redirects={},        wrappers={},        packages={},        resolvers=[]    ))// add or remove items by chaining method callsbuilder    .add_package(&quot;wrap://plugin/package&quot;, test_plugin({}))    .remove_package(&quot;wrap://plugin/package&quot;)    .add_packages(      {        &quot;wrap://plugin/http&quot;: http_plugin({}),        &quot;wrap://plugin/filesystem&quot;: file_system_plugin({}),      }    )```### BuildFinally, build a ClientConfig to pass to the PolywrapClient constructor.```python# accepted by the PolywrapClientconfig = builder.build()# build with a custom cacheconfig = builder.build({  resolution_result_cache: ResolutionResultCache(),})# or build with a custom resolverconfig = builder.build({  resolver: RecursiveResolver(...),})```</longdescription>
+</pkgmetadata>

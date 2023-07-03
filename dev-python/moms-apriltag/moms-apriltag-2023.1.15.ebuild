@@ -15,8 +15,8 @@ DESCRIPTION="Generate apriltags, calibration targets, and camera (mono/stereo) c
 
 HOMEPAGE="https://pypi.org/project/apriltag_gen/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d5/0b/72b03320fffc595f62cda0555f6c4baa0a43b635cb5161dc98a204b05199/moms_apriltag-${REALVERSION}.tar.gz"
-SOURCEFILE="moms_apriltag-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d5/0b/72b03320fffc595f62cda0555f6c4baa0a43b635cb5161dc98a204b05199/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

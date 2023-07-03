@@ -15,8 +15,8 @@ DESCRIPTION="The official Python client library for VirusTotal Graph API"
 
 HOMEPAGE="https://github.com/virustotal/vt-graph-api"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/11/86/b8ee2227801dab78841370232c8a6e1e20a898d6463caa1411806c7ecef7/vt_graph_api-${REALVERSION}.tar.gz"
-SOURCEFILE="vt_graph_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/11/86/b8ee2227801dab78841370232c8a6e1e20a898d6463caa1411806c7ecef7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

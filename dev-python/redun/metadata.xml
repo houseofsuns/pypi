@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>redun aims to be a more expressive and efficient workflow framework, built ontop of the popular Python programming language. It takes the somewhat contrarianview that writing dataflows directly is unnecessarily restrictive, and by doingso we lose abstractions we have come to rely on in most modern high-levellanguages (control flow, compositiblity, recursion, high order functions, etc).redun's key insight is that workflows can be expressed as lazy expressions, thatare then evaluated by a scheduler which performs automatic parallelization,caching, and data provenance logging.redun's key features are:- Workflows are defined by lazy expressions that when evaluated emit dynamic directed acyclic  graphs (DAGs), enabling complex data flows.- Incremental computation that is reactive to both data changes as well as code changes.- Workflow tasks can be executed on a variety of compute backend (threads, processes, AWS batch  jobs, Spark jobs, etc).- Data changes are detected for in memory values as well as external data sources such as files  and object stores using file hashing.- Code changes are detected by hashing individual Python functions and comparing against  historical call graph recordings.- Past intermediate results are cached centrally and reused across workflows.- Past call graphs can be used as a data lineage record and can be queried for debugging and  auditing.</longdescription>
+</pkgmetadata>

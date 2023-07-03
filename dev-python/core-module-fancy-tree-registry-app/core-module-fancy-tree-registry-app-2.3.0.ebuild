@@ -15,8 +15,8 @@ DESCRIPTION="Fancy Tree module for the parser core project"
 
 HOMEPAGE="https://github.com/usnistgov/core_module_fancy_tree_registry_app"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bc/3c/833ece71084390b3a4fda446a76134fc0beb8f5b3fa23e9fabeb50f278d8/core_module_fancy_tree_registry_app-${REALVERSION}.tar.gz"
-SOURCEFILE="core_module_fancy_tree_registry_app-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bc/3c/833ece71084390b3a4fda446a76134fc0beb8f5b3fa23e9fabeb50f278d8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

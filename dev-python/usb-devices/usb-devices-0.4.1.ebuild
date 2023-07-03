@@ -15,8 +15,8 @@ DESCRIPTION="Tools for mapping, describing, and resetting USB devices"
 
 HOMEPAGE="https://github.com/bluetooth-devices/usb-devices"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/47/ca/1bda7edb4a35e6bc3a23c71db0f09c049f87e22029aee848210c23c73208/usb_devices-${REALVERSION}.tar.gz"
-SOURCEFILE="usb_devices-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/47/ca/1bda7edb4a35e6bc3a23c71db0f09c049f87e22029aee848210c23c73208/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

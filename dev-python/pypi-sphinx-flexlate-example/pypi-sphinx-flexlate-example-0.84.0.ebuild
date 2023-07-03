@@ -15,8 +15,8 @@ DESCRIPTION="Example output for https://github.com/nickderobertis/copier-pypi-sp
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cd/9a/be934f0eac0f04af4a6ec94b261e643b76a6ac615f4fde7b5d5bdae3da52/pypi_sphinx_flexlate_example-${REALVERSION}.tar.gz"
-SOURCEFILE="pypi_sphinx_flexlate_example-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cd/9a/be934f0eac0f04af4a6ec94b261e643b76a6ac615f4fde7b5d5bdae3da52/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="P-DR0ZD-SSG"
 
 HOMEPAGE=""
 LICENSE="GNU"
-SRC_URI="https://files.pythonhosted.org/packages/18/9a/05f7343348a96fdfcf1978e2ac826049909881cc849be68ea6af18cfbd70/pdrozd_ssg-${REALVERSION}.tar.gz"
-SOURCEFILE="pdrozd_ssg-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/18/9a/05f7343348a96fdfcf1978e2ac826049909881cc849be68ea6af18cfbd70/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

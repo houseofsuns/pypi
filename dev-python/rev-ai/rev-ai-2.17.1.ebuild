@@ -15,8 +15,8 @@ DESCRIPTION="Rev AI makes speech applications easy to build!"
 
 HOMEPAGE="https://github.com/revdotcom/revai-python-sdk"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/74/8e/f31131fc1f0b46cd7a996640bf4f8a231f6aa2a973004abffa6acb919fb0/rev_ai-${REALVERSION}.tar.gz"
-SOURCEFILE="rev_ai-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/74/8e/f31131fc1f0b46cd7a996640bf4f8a231f6aa2a973004abffa6acb919fb0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

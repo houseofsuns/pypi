@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>### Example use:```pythonfrom mentord import *User_client: Client = Client()User_client.connect(token='YOUR TOKEN')```### Use decorators:```python@on_ready(client=User_client, delay=5.0)def client_on_ready() -&gt; None:    print('Self-bot is started!')@on_message(client=User_client, delay=0.5)def client_on_message(message: Message) -&gt; None:    utils.channel_opers.ChannelOperations(channel=message.channel_id, client=User_client).send_message(&quot;hello!&quot;)```</longdescription>
+</pkgmetadata>

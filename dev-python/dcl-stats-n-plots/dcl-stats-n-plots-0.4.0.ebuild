@@ -15,8 +15,8 @@ DESCRIPTION="coming soon"
 
 HOMEPAGE="https://github.com/DSegebarth/dcl_stats_n_plots/tree/master/"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/86/bb/87034952ba8afe8127dad774801c09e285510e6872d7f88b2c456cc38472/dcl_stats_n_plots-${REALVERSION}.tar.gz"
-SOURCEFILE="dcl_stats_n_plots-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/86/bb/87034952ba8afe8127dad774801c09e285510e6872d7f88b2c456cc38472/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

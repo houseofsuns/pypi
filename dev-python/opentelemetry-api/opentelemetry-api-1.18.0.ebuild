@@ -15,8 +15,8 @@ DESCRIPTION="OpenTelemetry Python API"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python/tree/main/opentelemetry-api"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f5/c8/59c36fb0c45491b7fd3ca15f96c05e7a3cd32b5a6be19ca801a5d556b701/opentelemetry_api-${REALVERSION}.tar.gz"
-SOURCEFILE="opentelemetry_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f5/c8/59c36fb0c45491b7fd3ca15f96c05e7a3cd32b5a6be19ca801a5d556b701/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

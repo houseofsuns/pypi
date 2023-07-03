@@ -15,8 +15,8 @@ DESCRIPTION="DEEP Python Agent"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/16/f9/a30bb82ef74b76d7e2932ad9db33d7d05d5acd8e38acc8bdfb51960a16a0/deep_agent-${REALVERSION}.tar.gz"
-SOURCEFILE="deep_agent-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/16/f9/a30bb82ef74b76d7e2932ad9db33d7d05d5acd8e38acc8bdfb51960a16a0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

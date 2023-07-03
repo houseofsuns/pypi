@@ -15,8 +15,8 @@ DESCRIPTION="Cipher based on AES256-CBC"
 
 HOMEPAGE="https://github.com/ebellocchia/aes_cipher"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/46/68/b27ed2b9f15bdc992e16c62a3210caabe5e90646524ba811dac8afbd25bb/aes_cipher-${REALVERSION}.tar.gz"
-SOURCEFILE="aes_cipher-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/46/68/b27ed2b9f15bdc992e16c62a3210caabe5e90646524ba811dac8afbd25bb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

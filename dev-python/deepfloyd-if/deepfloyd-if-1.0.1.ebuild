@@ -15,8 +15,8 @@ DESCRIPTION="DeepFloyd-IF (Imagen Free)"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/65/6b/b9d4449a31f1fe1508d347edd573138597e61acc855c47a6c20c79307d83/deepfloyd_if-${REALVERSION}.tar.gz"
-SOURCEFILE="deepfloyd_if-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/65/6b/b9d4449a31f1fe1508d347edd573138597e61acc855c47a6c20c79307d83/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

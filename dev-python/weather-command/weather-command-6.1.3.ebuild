@@ -15,8 +15,8 @@ DESCRIPTION="Command line weather app"
 
 HOMEPAGE="https://github.com/sanders41/weather-command"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/01/c4/fc08393a43a21672c300bceb7b3f4df793958394197ddecc33987b79ac11/weather_command-${REALVERSION}.tar.gz"
-SOURCEFILE="weather_command-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/01/c4/fc08393a43a21672c300bceb7b3f4df793958394197ddecc33987b79ac11/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

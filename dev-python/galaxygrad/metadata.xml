@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Contains two jax functions ScoreNet32 and ScoreNet64. These are used to return the gradients of an arbitrary image with respect to a prior distribution of individual artifact free galaxy models. Current functions include ScoreNetXX(image) returns gradients as stated. generateSample(samples=n, hi_res=bool, seed=XXXX) will generate an array of n galaxy samples which can be plotted with imshow.</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># prototxt-parserprototxt-parser allows to parse `*.prototxt` files to python dict objects## Usage:From command line from this repo:```commandline$ python3 prototxt_parser_main.py prototxt_file```Alternatively can use pip as well to get the package:```commandlinepip3 install prototxt-parser```To run, from python:```pythoninput_string = ... # the prototxt string to be parsed e.g., open(&quot;some_prototxt_file&quot;).read()from prototxt_parser.prototxt import parseparsed_dict = parse(input_string)```</longdescription>
+</pkgmetadata>

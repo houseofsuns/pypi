@@ -15,8 +15,8 @@ DESCRIPTION="Custom Dash components for use in Webviz"
 
 HOMEPAGE="https://github.com/equinor/webviz-subsurface-components"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b3/8f/5d76057a3d17af514720b9d860416027d7526c733a63c776cb8a92ae424d/webviz_subsurface_components-${REALVERSION}.tar.gz"
-SOURCEFILE="webviz_subsurface_components-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b3/8f/5d76057a3d17af514720b9d860416027d7526c733a63c776cb8a92ae424d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

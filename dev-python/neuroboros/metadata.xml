@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[PyPI](https://pypi.org/project/neuroboros/) | [GitHub](https://github.com/neuroboros/neuroboros) | [Issues](https://github.com/neuroboros/neuroboros/issues)`neuroboros` is a Python package for neuroimaging data analysis. It is under active development, and the API might differ across versions.</longdescription>
+</pkgmetadata>

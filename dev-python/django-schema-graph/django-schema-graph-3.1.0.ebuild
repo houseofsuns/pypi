@@ -15,8 +15,8 @@ DESCRIPTION="An interactive graph of your Django model structure."
 
 HOMEPAGE="https://github.com/meshy/django-schema-graph"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b1/d5/07fa056788e1a9dc398e10f389b971b99fa4a653c7780bf83640fceecc30/django_schema_graph-${REALVERSION}.tar.gz"
-SOURCEFILE="django_schema_graph-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b1/d5/07fa056788e1a9dc398e10f389b971b99fa4a653c7780bf83640fceecc30/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

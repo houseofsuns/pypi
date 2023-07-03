@@ -15,8 +15,8 @@ DESCRIPTION="Integrates dogpile.cache for Pyramid"
 
 HOMEPAGE="https://github.com/zeitonline/pyramid_dogpile_cache2"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/c8/88/84330ba6243d99845f742a157420370c04c19b7719a6c419636731da4c7b/pyramid_dogpile_cache2-${REALVERSION}.tar.gz"
-SOURCEFILE="pyramid_dogpile_cache2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c8/88/84330ba6243d99845f742a157420370c04c19b7719a6c419636731da4c7b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

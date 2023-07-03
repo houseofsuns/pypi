@@ -15,8 +15,8 @@ DESCRIPTION="Daemon which provides TLS client policy for Postfix via socketmap, 
 
 HOMEPAGE="https://github.com/Snawoot/postfix-mta-sts-resolver"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/41/65/3699a8cd634e95660814e6f86f6c551d5f321a096e81b425e11d6b6da069/postfix_mta_sts_resolver-${REALVERSION}.tar.gz"
-SOURCEFILE="postfix_mta_sts_resolver-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/41/65/3699a8cd634e95660814e6f86f6c551d5f321a096e81b425e11d6b6da069/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

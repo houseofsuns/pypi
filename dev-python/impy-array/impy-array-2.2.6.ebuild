@@ -15,8 +15,8 @@ DESCRIPTION="Speed up coding/extending image analysis in Python."
 
 HOMEPAGE=""
 LICENSE="BSD 3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/bf/13/53a22fd52426c9aab7878926089e2a754b3574d217535fc5862ea9df3c74/impy_array-${REALVERSION}.tar.gz"
-SOURCEFILE="impy_array-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bf/13/53a22fd52426c9aab7878926089e2a754b3574d217535fc5862ea9df3c74/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

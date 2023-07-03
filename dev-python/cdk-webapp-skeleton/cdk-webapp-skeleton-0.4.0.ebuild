@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/16/fc/23690cbc0b3f2915eaea70f7788a61fc1a96fe72386b544cf4be074dac6a/cdk_webapp_skeleton-${REALVERSION}.tar.gz"
-SOURCEFILE="cdk_webapp_skeleton-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/16/fc/23690cbc0b3f2915eaea70f7788a61fc1a96fe72386b544cf4be074dac6a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

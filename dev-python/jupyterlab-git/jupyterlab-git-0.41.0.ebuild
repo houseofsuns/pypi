@@ -15,8 +15,8 @@ DESCRIPTION="A JupyterLab extension for version control using git"
 
 HOMEPAGE="https://github.com/jupyterlab/jupyterlab-git"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/d9/59/d2a2dceac873fe9de6cde6698db8ef5a434b5816fc5f720317befbd05f35/jupyterlab_git-${REALVERSION}.tar.gz"
-SOURCEFILE="jupyterlab_git-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d9/59/d2a2dceac873fe9de6cde6698db8ef5a434b5816fc5f720317befbd05f35/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

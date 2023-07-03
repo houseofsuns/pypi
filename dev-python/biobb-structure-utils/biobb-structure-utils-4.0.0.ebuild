@@ -15,8 +15,8 @@ DESCRIPTION="biobb_structure_utils is the Biobb module collection to perform bas
 
 HOMEPAGE="https://github.com/bioexcel/biobb_structure_utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4e/08/770aa4505bbf486c8ebc5256e7a8d5a955534a0f78078945bf92840a15a5/biobb_structure_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="biobb_structure_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4e/08/770aa4505bbf486c8ebc5256e7a8d5a955534a0f78078945bf92840a15a5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

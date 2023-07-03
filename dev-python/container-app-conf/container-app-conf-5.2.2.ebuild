@@ -15,8 +15,8 @@ DESCRIPTION="Convenient configuration of containerized applications"
 
 HOMEPAGE="https://github.com/markusressel/container-app-conf"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ae/b4/270aba4e359cf858dc38b8a2f8f311d60c3d046532eab244e3fa5593b82f/container_app_conf-${REALVERSION}.tar.gz"
-SOURCEFILE="container_app_conf-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ae/b4/270aba4e359cf858dc38b8a2f8f311d60c3d046532eab244e3fa5593b82f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

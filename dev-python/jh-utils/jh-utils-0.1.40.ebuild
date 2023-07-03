@@ -15,8 +15,8 @@ DESCRIPTION="Some simple functions to all projects"
 
 HOMEPAGE="https://github.com/JohnHolz/jh_utils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/31/48/5e0896a3797744721a2226c66ab3a08825a1baedc4fa372fa4634013d5a2/jh_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="jh_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/31/48/5e0896a3797744721a2226c66ab3a08825a1baedc4fa372fa4634013d5a2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

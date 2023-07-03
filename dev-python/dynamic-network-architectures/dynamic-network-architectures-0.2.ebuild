@@ -15,8 +15,8 @@ DESCRIPTION="none"
 
 HOMEPAGE=""
 LICENSE="private"
-SRC_URI="https://files.pythonhosted.org/packages/73/2a/1e47760b5746bca04fd06c58f339d4f97009beeac53501f21ebd28fb44d9/dynamic_network_architectures-${REALVERSION}.tar.gz"
-SOURCEFILE="dynamic_network_architectures-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/73/2a/1e47760b5746bca04fd06c58f339d4f97009beeac53501f21ebd28fb44d9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

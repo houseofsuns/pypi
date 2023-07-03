@@ -15,8 +15,8 @@ DESCRIPTION="A client library for accessing the Rigetti QCS API"
 
 HOMEPAGE="https://github.com/rigetti/qcs-api-client-python"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/60/31/993872025a7bcd469b621143d1ba0aebe09d926719769dc8907ec75f3918/qcs_api_client-${REALVERSION}.tar.gz"
-SOURCEFILE="qcs_api_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/60/31/993872025a7bcd469b621143d1ba0aebe09d926719769dc8907ec75f3918/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

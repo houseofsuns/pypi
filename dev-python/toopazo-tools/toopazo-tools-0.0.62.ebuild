@@ -15,8 +15,8 @@ DESCRIPTION="Python methods for common file and folder operations"
 
 HOMEPAGE="https://github.com/toopazo/toopazo_tools"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cb/31/31fe40e7db27e27408d419f10706c16b5c3abe1bce377055f37fb1eb1525/toopazo_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="toopazo_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cb/31/31fe40e7db27e27408d419f10706c16b5c3abe1bce377055f37fb1eb1525/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

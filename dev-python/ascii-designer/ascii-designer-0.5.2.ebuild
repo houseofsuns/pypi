@@ -15,8 +15,8 @@ DESCRIPTION="Builds dialogs from ASCII art definition."
 
 HOMEPAGE="http://github.com/loehnertj/ascii_designer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8c/74/38ed83dd976d596054ebb25a495d352b50f068e128e071de83610a2c8a73/ascii_designer-${REALVERSION}.tar.gz"
-SOURCEFILE="ascii_designer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8c/74/38ed83dd976d596054ebb25a495d352b50f068e128e071de83610a2c8a73/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

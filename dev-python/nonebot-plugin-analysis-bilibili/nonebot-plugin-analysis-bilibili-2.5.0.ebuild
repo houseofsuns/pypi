@@ -15,8 +15,8 @@ DESCRIPTION="nonebot2解析bilibili插件"
 
 HOMEPAGE="https://github.com/mengshouer/nonebot_plugin_analysis_bilibili"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3b/68/82341b6fdbfcf3a30c8ed125c0c555ec3f1c990df46c7fdb3e2cba903c30/nonebot_plugin_analysis_bilibili-${REALVERSION}.tar.gz"
-SOURCEFILE="nonebot_plugin_analysis_bilibili-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3b/68/82341b6fdbfcf3a30c8ed125c0c555ec3f1c990df46c7fdb3e2cba903c30/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Japanese multi-task CNN trained on UD-Japanese BCCWJ r2.8 + GSK2014
 
 HOMEPAGE="https://github.com/megagonlabs/ginza"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d0/1f/f7147acb3eac1580a9d477ace4796542e0f4271d53d95326ee8a347bd453/ja_ginza_electra-${REALVERSION}.tar.gz"
-SOURCEFILE="ja_ginza_electra-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d0/1f/f7147acb3eac1580a9d477ace4796542e0f4271d53d95326ee8a347bd453/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

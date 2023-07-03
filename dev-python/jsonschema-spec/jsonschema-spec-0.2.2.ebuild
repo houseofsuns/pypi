@@ -15,8 +15,8 @@ DESCRIPTION="JSONSchema Spec with object-oriented paths"
 
 HOMEPAGE="https://github.com/p1c2u/jsonschema-spec"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f5/ba/683ef5e4e5a9a18006447971283d81683b62c405338932c68979dd8e3e85/jsonschema_spec-${REALVERSION}.tar.gz"
-SOURCEFILE="jsonschema_spec-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f5/ba/683ef5e4e5a9a18006447971283d81683b62c405338932c68979dd8e3e85/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

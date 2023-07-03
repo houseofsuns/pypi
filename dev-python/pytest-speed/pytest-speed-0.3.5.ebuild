@@ -15,8 +15,8 @@ DESCRIPTION="Modern benchmarking library for python with pytest integration."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/61/21/6acc1504e62f5b72ede4a1d10b70dd3e6a2acc14e21f214673fe701c272b/pytest_speed-${REALVERSION}.tar.gz"
-SOURCEFILE="pytest_speed-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/61/21/6acc1504e62f5b72ede4a1d10b70dd3e6a2acc14e21f214673fe701c272b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

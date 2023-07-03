@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># foxops 🦊A modest templating tool to keep your projects up-to-date.more coming soon, stay tuned! 🚧## DocumentationThe documentation is available on rtd: https://foxops.readthedocs.io## InstallationThe `foxops` package is available on PyPI and can be installed using `pip`:```shellpython -m pip install foxops```The `foxops` is available in a container image hosted on [ghcr](https://github.com/Roche/foxops/pkgs/container/foxops):```shelldocker run -it --rm ghcr.io/roche/foxops --help```</longdescription>
+</pkgmetadata>

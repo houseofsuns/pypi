@@ -15,8 +15,8 @@ DESCRIPTION="Outscale Gateway python SDK"
 
 HOMEPAGE="https://github.com/outscale/osc_sdk_python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e2/c4/9a031b5b6ec6213c0a70e5cbf4b8e880f58a2b29fb454e5e04bf67d6d4e8/osc_sdk_python-${REALVERSION}.tar.gz"
-SOURCEFILE="osc_sdk_python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e2/c4/9a031b5b6ec6213c0a70e5cbf4b8e880f58a2b29fb454e5e04bf67d6d4e8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

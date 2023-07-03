@@ -15,8 +15,8 @@ DESCRIPTION="Python wrapper for Spotify Webplayer access token"
 
 HOMEPAGE="https://github.com/enriquegh/spotify-webplayer-token"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/34/77/5c6e7df64edc56286ebbd036e405aa6ff21d6864f96cbd5e428408e09b92/spotify_token-${REALVERSION}.tar.gz"
-SOURCEFILE="spotify_token-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/34/77/5c6e7df64edc56286ebbd036e405aa6ff21d6864f96cbd5e428408e09b92/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

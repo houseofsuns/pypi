@@ -15,8 +15,8 @@ DESCRIPTION="适用于 Nonebot2 的聊天记录插件"
 
 HOMEPAGE="https://github.com/noneplugin/nonebot-plugin-chatrecorder"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/58/50/d57326d2130101a89620a05a5347bc4fe22938dbafaa4d28e737c017574c/nonebot_plugin_chatrecorder-${REALVERSION}.tar.gz"
-SOURCEFILE="nonebot_plugin_chatrecorder-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/58/50/d57326d2130101a89620a05a5347bc4fe22938dbafaa4d28e737c017574c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="djangoldp package for circle data models"
 
 HOMEPAGE="https://git.startinblox.com/djangoldp-packages/djangoldp-circle"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/af/fc/cc170a693fe005d443c07f7e50759ad824ff0feacdd999429baad25b1a11/djangoldp_circle-${REALVERSION}.tar.gz"
-SOURCEFILE="djangoldp_circle-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/af/fc/cc170a693fe005d443c07f7e50759ad824ff0feacdd999429baad25b1a11/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

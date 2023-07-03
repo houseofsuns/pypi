@@ -15,8 +15,8 @@ DESCRIPTION="A Django app that adds graphiql explorer to the graphiql view"
 
 HOMEPAGE="https://github.com/creimers/graphene-graphiql-explorer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4c/50/a57cd4ec8f8562c4966e9fe936fb498f14deeec91fc5ab2eb63e7d04e7a8/graphene_graphiql_explorer-${REALVERSION}.tar.gz"
-SOURCEFILE="graphene_graphiql_explorer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4c/50/a57cd4ec8f8562c4966e9fe936fb498f14deeec91fc5ab2eb63e7d04e7a8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

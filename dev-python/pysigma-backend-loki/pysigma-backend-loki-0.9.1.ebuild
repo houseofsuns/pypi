@@ -15,8 +15,8 @@ DESCRIPTION="pySigma Loki backend"
 
 HOMEPAGE="https://github.com/grafana/pySigma-backend-loki"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/73/14/dbea29f5e6ffce8a35e714f3610c64f181b86fc776ec32141d71280f45f9/pysigma_backend_loki-${REALVERSION}.tar.gz"
-SOURCEFILE="pysigma_backend_loki-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/73/14/dbea29f5e6ffce8a35e714f3610c64f181b86fc776ec32141d71280f45f9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

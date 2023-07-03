@@ -15,8 +15,8 @@ DESCRIPTION="Generates AWS credentials for roles using STS"
 
 HOMEPAGE="https://github.com/petergillardmoss/aws_role_credentials"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/7d/a0/cda6e2d31190fc1fcec0cfb547dd2d5143d1b5348288725adec9a911ee98/aws_role_credentials-${REALVERSION}.tar.gz"
-SOURCEFILE="aws_role_credentials-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7d/a0/cda6e2d31190fc1fcec0cfb547dd2d5143d1b5348288725adec9a911ee98/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

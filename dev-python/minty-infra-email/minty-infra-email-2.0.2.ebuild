@@ -15,8 +15,8 @@ DESCRIPTION="Infrastructure class for sending email"
 
 HOMEPAGE="https://gitlab.com/minty-python/minty-infra-email"
 LICENSE="EUPL license"
-SRC_URI="https://files.pythonhosted.org/packages/ca/0d/bb6323aa006eaa9f2d271b3d04b6abb359bc0c683624622fa6ac6c7c1d48/minty_infra_email-${REALVERSION}.tar.gz"
-SOURCEFILE="minty_infra_email-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ca/0d/bb6323aa006eaa9f2d271b3d04b6abb359bc0c683624622fa6ac6c7c1d48/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

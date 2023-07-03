@@ -15,8 +15,8 @@ DESCRIPTION="Travel through time in your tests."
 
 HOMEPAGE="https://github.com/adamchainz/time-machine"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ac/60/0793032eef5b1dcab2aee60deb5cf3e42fc6437cfa7428a87e2745f5d640/time_machine-${REALVERSION}.tar.gz"
-SOURCEFILE="time_machine-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ac/60/0793032eef5b1dcab2aee60deb5cf3e42fc6437cfa7428a87e2745f5d640/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

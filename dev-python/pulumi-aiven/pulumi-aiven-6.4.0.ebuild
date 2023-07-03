@@ -15,8 +15,8 @@ DESCRIPTION="A Pulumi package for creating and managing Aiven cloud resources."
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c3/8b/508f7ca4c4858cce356824289c975b3d65cc7593b2be3b00d67c4debdb51/pulumi_aiven-${REALVERSION}.tar.gz"
-SOURCEFILE="pulumi_aiven-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c3/8b/508f7ca4c4858cce356824289c975b3d65cc7593b2be3b00d67c4debdb51/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

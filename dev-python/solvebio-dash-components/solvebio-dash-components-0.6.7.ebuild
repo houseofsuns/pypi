@@ -15,8 +15,8 @@ DESCRIPTION="The SolveBio Dash components suite"
 
 HOMEPAGE="https://github.com/solvebio/solvebio-dash-components"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ca/35/73047da1ce76b8ea0b81fb401dcacb492339f6271c7b3a747abe5cfcd898/solvebio_dash_components-${REALVERSION}.tar.gz"
-SOURCEFILE="solvebio_dash_components-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ca/35/73047da1ce76b8ea0b81fb401dcacb492339f6271c7b3a747abe5cfcd898/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Convert your datapackages"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/88/8c/ee83a1586065160ae323c7c66f4af1bfe49d2b935bbc089f1c946604e177/datapackage_convert-${REALVERSION}.tar.gz"
-SOURCEFILE="datapackage_convert-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/88/8c/ee83a1586065160ae323c7c66f4af1bfe49d2b935bbc089f1c946604e177/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

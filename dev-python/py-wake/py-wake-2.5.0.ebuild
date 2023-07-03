@@ -15,8 +15,8 @@ DESCRIPTION="PyWake a collection of wake models"
 
 HOMEPAGE="https://gitlab.windenergy.dtu.dk/TOPFARM/PyWake"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/46/77/9f09901d8dd10f891f2407a5a605758bac85fd3c5f7b55551cc2787b508c/py_wake-${REALVERSION}.tar.gz"
-SOURCEFILE="py_wake-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/46/77/9f09901d8dd10f891f2407a5a605758bac85fd3c5f7b55551cc2787b508c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

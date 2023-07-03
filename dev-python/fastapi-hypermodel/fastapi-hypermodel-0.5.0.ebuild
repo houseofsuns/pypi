@@ -15,8 +15,8 @@ DESCRIPTION="A FastAPI + Pydantic extension for simplifying hypermedia-driven AP
 
 HOMEPAGE="https://github.com/jtc42/fastapi-hypermodel"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d2/ec/719f161c420a2c8232493ddc9332b3ddb7e8fe456b19b88bd5ed7b0b070b/fastapi_hypermodel-${REALVERSION}.tar.gz"
-SOURCEFILE="fastapi_hypermodel-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d2/ec/719f161c420a2c8232493ddc9332b3ddb7e8fe456b19b88bd5ed7b0b070b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

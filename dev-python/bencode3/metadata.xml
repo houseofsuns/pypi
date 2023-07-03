@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Bencode3## Description&gt; A simple bencode lib for python3## License&gt; MIT## Note### Python2&gt; Please referer [this repo](https://github.com/bittorrent/bencode)</longdescription>
+</pkgmetadata>

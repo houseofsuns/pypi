@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9e/35/10ddabfd6ff5f3ec576bee32b9556df013c37bed221c83ab334b1c9a5195/terra_ai-${REALVERSION}.tar.gz"
-SOURCEFILE="terra_ai-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9e/35/10ddabfd6ff5f3ec576bee32b9556df013c37bed221c83ab334b1c9a5195/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

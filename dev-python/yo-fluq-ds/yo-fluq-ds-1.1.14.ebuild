@@ -15,8 +15,8 @@ DESCRIPTION="Fluent interface for data processing, advanced toolkit for data sci
 
 HOMEPAGE="http://github.com/okulovsky/yo_ds"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c0/aa/1143089f91cde8b932328ad55a42b99e4240e2aa134c3f1217aed6654da4/yo_fluq_ds-${REALVERSION}.tar.gz"
-SOURCEFILE="yo_fluq_ds-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c0/aa/1143089f91cde8b932328ad55a42b99e4240e2aa134c3f1217aed6654da4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

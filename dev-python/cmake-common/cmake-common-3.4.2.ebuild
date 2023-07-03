@@ -15,8 +15,8 @@ DESCRIPTION="Utilities to help develop C++/CMake projects"
 
 HOMEPAGE="https://github.com/egor-tensin/cmake-common"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3a/6a/a2ea9dc2ee5e4eac70449772d67e608725c911931ac1385f14242fb4b168/cmake_common-${REALVERSION}.tar.gz"
-SOURCEFILE="cmake_common-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3a/6a/a2ea9dc2ee5e4eac70449772d67e608725c911931ac1385f14242fb4b168/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

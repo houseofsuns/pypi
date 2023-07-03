@@ -15,8 +15,8 @@ DESCRIPTION="Provide easy access to minecraft data in python"
 
 HOMEPAGE="https://github.com/SpockBotMC/python-minecraft-data"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ff/a5/58c75dd0fa11ac99b6358ab50368dc069c03b2c984fd7119543edfdcd1f4/minecraft_data-${REALVERSION}.tar.gz"
-SOURCEFILE="minecraft_data-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ff/a5/58c75dd0fa11ac99b6358ab50368dc069c03b2c984fd7119543edfdcd1f4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

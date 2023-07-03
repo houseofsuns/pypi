@@ -15,8 +15,8 @@ DESCRIPTION="Python Client for ONVIF Camera"
 
 HOMEPAGE="http://github.com/quatanium/python-onvif"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d7/3c/fe79b4f59337b5cf5d40ea747764b4ff38bab322b2de66706a4d8d7b01e8/onvif_zeep-${REALVERSION}.tar.gz"
-SOURCEFILE="onvif_zeep-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d7/3c/fe79b4f59337b5cf5d40ea747764b4ff38bab322b2de66706a4d8d7b01e8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

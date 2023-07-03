@@ -15,8 +15,8 @@ DESCRIPTION="Python package for easy access to Brazilian basketball data: NBB (N
 
 HOMEPAGE="https://github.com/GabrielPastorello/nbb_api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/00/a3/49f67c0c07ba8d36349e6ea1710ee2a2acd2e16d1ad33d9a3c0653b88d43/nbb_api-${REALVERSION}.tar.gz"
-SOURCEFILE="nbb_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/00/a3/49f67c0c07ba8d36349e6ea1710ee2a2acd2e16d1ad33d9a3c0653b88d43/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

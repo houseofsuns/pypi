@@ -15,8 +15,8 @@ DESCRIPTION="PyAMS security plug-in for JWT authentication"
 
 HOMEPAGE="https://pyams.readthedocs.io"
 LICENSE="ZPL"
-SRC_URI="https://files.pythonhosted.org/packages/f8/c3/eef7b1a5befa67b2f49ca152b467ea28f3bd052cce900e5e85144066a1ca/pyams_auth_jwt-${REALVERSION}.tar.gz"
-SOURCEFILE="pyams_auth_jwt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f8/c3/eef7b1a5befa67b2f49ca152b467ea28f3bd052cce900e5e85144066a1ca/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

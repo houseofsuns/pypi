@@ -15,8 +15,8 @@ DESCRIPTION="This a E2E CLI tool for myAccount"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/83/73/b0b85021e854a46b1297cbee75e3b87d945472dfb64aaf377c27b50d559d/e2e_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="e2e_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/83/73/b0b85021e854a46b1297cbee75e3b87d945472dfb64aaf377c27b50d559d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

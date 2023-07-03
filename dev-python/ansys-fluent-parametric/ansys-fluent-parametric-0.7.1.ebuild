@@ -15,8 +15,8 @@ DESCRIPTION="A python wrapper for Ansys Fluent parametric workflows"
 
 HOMEPAGE="https://github.com/pyansys/pyfluent-parametric"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/73/19/8c0fd51f8d0a8fb9ac45e09983e3808a3c56626a5e2746aa0a3b22a88d41/ansys_fluent_parametric-${REALVERSION}.tar.gz"
-SOURCEFILE="ansys_fluent_parametric-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/73/19/8c0fd51f8d0a8fb9ac45e09983e3808a3c56626a5e2746aa0a3b22a88d41/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

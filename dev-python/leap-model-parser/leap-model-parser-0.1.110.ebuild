@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/tensorleap/leap-model-parser"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8f/2f/c9080145a1b5ce606bf7d38c167e586c282b748575ddf274c519cc2dacbd/leap_model_parser-${REALVERSION}.tar.gz"
-SOURCEFILE="leap_model_parser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8f/2f/c9080145a1b5ce606bf7d38c167e586c282b748575ddf274c519cc2dacbd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

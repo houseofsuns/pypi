@@ -15,8 +15,8 @@ DESCRIPTION="The python client for the Rockset API. Internal version."
 
 HOMEPAGE="https://github.com/rockset/rockset-python-client"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/8d/b4/3ef113f2561a195a71d04ae2bf1086ddc77f2e1b5eeeeb1ef1772b41a14c/rockset_v2_internal-${REALVERSION}.tar.gz"
-SOURCEFILE="rockset_v2_internal-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8d/b4/3ef113f2561a195a71d04ae2bf1086ddc77f2e1b5eeeeb1ef1772b41a14c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

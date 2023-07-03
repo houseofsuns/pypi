@@ -15,8 +15,8 @@ DESCRIPTION="Modal for streamlit"
 
 HOMEPAGE="https://github.com/teamtv/streamlit_modal"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/43/e0/13984cc4e979e601dafdb7ac075de8c63e4f7062b732042090174cbddc33/streamlit_modal-${REALVERSION}.tar.gz"
-SOURCEFILE="streamlit_modal-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/43/e0/13984cc4e979e601dafdb7ac075de8c63e4f7062b732042090174cbddc33/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

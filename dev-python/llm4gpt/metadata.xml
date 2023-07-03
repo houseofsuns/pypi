@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>![image](https://img.shields.io/pypi/v/llm4gpt.svg) ![image](https://img.shields.io/travis/yuanjie-ai/llm4gpt.svg) ![image](https://readthedocs.org/projects/llm4gpt/badge/?version=latest)&lt;h1 align = &quot;center&quot;&gt;🔥LLM4GPT 为大模型而生🔥&lt;/h1&gt;---# Install```pythonpip install -U llm4gpt```# [Docs](https://jie-yuan.github.io/llm4gpt/)# Usages```pythonfrom llm.qa import QAfrom llm.kb import FaissANNfrom llm.chatllm import ChatLLMfrom llm.utils import llm_loadfrom meutils.pipe import *# 解析知识库texts = []metadatas = []for p in Path('data').glob('*.txt'):    texts.append(p.read_text())    metadatas.append({'source': p})# 文档向量化faissann = FaissANN(model_name_or_path=&quot;shibing624/text2vec-base-chinese&quot;)faissann.add_texts(texts, metadatas)# 构建pipelinemodel, tokenizer = llm_load(model_name_or_path=&quot;THUDM/chatglm-6b&quot;, device='cpu')glm = ChatLLM()glm.chat_func = partial(model.chat, tokenizer=tokenizer)qa = QA(glm, faiss_ann=faissann.faiss_ann)qa.get_knowledge_based_answer('周杰伦在干吗')qa.get_knowledge_based_answer('姚明住哪里')```---# TODO- [ ] 增加UI- [x] 增加本地知识库组件- [ ] 增加互联网搜索组件- [ ] 增加知识图谱组件- [ ] 增加微调模块- [ ] 增加流式输出=======History=======0.0.0 (2023-04-11)------------------* First release on PyPI.</longdescription>
+</pkgmetadata>

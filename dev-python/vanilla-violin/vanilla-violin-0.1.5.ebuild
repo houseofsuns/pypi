@@ -15,8 +15,8 @@ DESCRIPTION="Wrappers for AWS and Gitlab APIs"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bc/4c/f0bf1b454909f8d63437935e6a1f3c07b19ff15a1f026fd58be546e58122/vanilla_violin-${REALVERSION}.tar.gz"
-SOURCEFILE="vanilla_violin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bc/4c/f0bf1b454909f8d63437935e6a1f3c07b19ff15a1f026fd58be546e58122/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

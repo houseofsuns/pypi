@@ -15,8 +15,8 @@ DESCRIPTION="Blog theme for miyadaiku static site generator"
 
 HOMEPAGE="https://github.com/aoirint/aoirint-miyadaiku-theme-blog/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9e/02/99ca73316a4f7f76b67afe35e5504303e031419d96137f6af571479ca0c8/aoirint_miyadaiku_theme_blog-${REALVERSION}.tar.gz"
-SOURCEFILE="aoirint_miyadaiku_theme_blog-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9e/02/99ca73316a4f7f76b67afe35e5504303e031419d96137f6af571479ca0c8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

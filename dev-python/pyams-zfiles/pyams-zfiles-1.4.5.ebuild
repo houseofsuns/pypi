@@ -15,8 +15,8 @@ DESCRIPTION="PyAMS files storage manager"
 
 HOMEPAGE="https://pyams.readthedocs.io"
 LICENSE="ZPL"
-SRC_URI="https://files.pythonhosted.org/packages/8d/0f/57bfb207b57476eb80d19d6a5161dd3bc9c00ca464c0df1e6456a5bcf45c/pyams_zfiles-${REALVERSION}.tar.gz"
-SOURCEFILE="pyams_zfiles-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8d/0f/57bfb207b57476eb80d19d6a5161dd3bc9c00ca464c0df1e6456a5bcf45c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="CSIRO Geoanalytics FastAPI Common Framework. Standardises Data acce
 
 HOMEPAGE=""
 LICENSE="CSIRO Open Source Software License"
-SRC_URI="https://files.pythonhosted.org/packages/b2/cf/b4bffacdaf9fd012d1e10ff006e48f36efb94c8840f9d06eed448647d03d/fa_common-${REALVERSION}.tar.gz"
-SOURCEFILE="fa_common-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b2/cf/b4bffacdaf9fd012d1e10ff006e48f36efb94c8840f9d06eed448647d03d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Simple Python library for creating SEPA Credit Transfer XML documen
 
 HOMEPAGE="https://github.com/boris-savic/python_sepa"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/58/00/20f43ed910b192a980f4dc77f55a015735af8b8fd5bd0498fa271e247e1e/sepa_generator-${REALVERSION}.tar.gz"
-SOURCEFILE="sepa_generator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/58/00/20f43ed910b192a980f4dc77f55a015735af8b8fd5bd0498fa271e247e1e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

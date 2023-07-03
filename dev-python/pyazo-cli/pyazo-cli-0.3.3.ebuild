@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/pyazo-screenshot/cli"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/cd/aa/3f08ae245ebb33ad7a5207965e2329eca95c2e6d837e1e14d28bcb5982f1/pyazo_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="pyazo_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cd/aa/3f08ae245ebb33ad7a5207965e2329eca95c2e6d837e1e14d28bcb5982f1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

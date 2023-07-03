@@ -15,8 +15,8 @@ DESCRIPTION="A common integration package"
 
 HOMEPAGE="https://github.com/kaizen-group/yom-integration-package"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/57/8e/633c49adfb4c60c5dc7295849ec2481d467334815c62a9c3e7f0a87e14a1/common_integration_yom-${REALVERSION}.tar.gz"
-SOURCEFILE="common_integration_yom-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/57/8e/633c49adfb4c60c5dc7295849ec2481d467334815c62a9c3e7f0a87e14a1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

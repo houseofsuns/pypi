@@ -15,8 +15,8 @@ DESCRIPTION="AccelByte Python SDK"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fa/46/d21f8ef99d9fe66aafbd38c4072184f9aa3c4d7b45e61a402b310a5d6b98/accelbyte_py_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="accelbyte_py_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fa/46/d21f8ef99d9fe66aafbd38c4072184f9aa3c4d7b45e61a402b310a5d6b98/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

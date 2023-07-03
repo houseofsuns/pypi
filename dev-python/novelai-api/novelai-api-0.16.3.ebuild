@@ -15,8 +15,8 @@ DESCRIPTION="Python API for the NovelAI REST API"
 
 HOMEPAGE="https://github.com/Aedial/novelai-api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/20/97/a40967ce993b5484b30e7ee278181bd3ea9bdf0574de5d19e005a4a0e0f1/novelai_api-${REALVERSION}.tar.gz"
-SOURCEFILE="novelai_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/20/97/a40967ce993b5484b30e7ee278181bd3ea9bdf0574de5d19e005a4a0e0f1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

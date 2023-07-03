@@ -15,8 +15,8 @@ DESCRIPTION="FastAPI Users database adapter for SQLModel"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/27/ff/46aa6bc684351d02d6e978538ca988e915f89587b7c68b4a7497f694305f/fastapi_users_db_sqlmodel-${REALVERSION}.tar.gz"
-SOURCEFILE="fastapi_users_db_sqlmodel-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/27/ff/46aa6bc684351d02d6e978538ca988e915f89587b7c68b4a7497f694305f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

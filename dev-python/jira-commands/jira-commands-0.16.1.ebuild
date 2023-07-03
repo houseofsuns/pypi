@@ -15,8 +15,8 @@ DESCRIPTION="Command line utilities for interacting with JIRA"
 
 HOMEPAGE="https://github.com/unixorn/jira-commands"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6d/48/a15dc7f3b6ef485d29440fff62ab6441b9f540ab831e1e82e826d57d21f2/jira_commands-${REALVERSION}.tar.gz"
-SOURCEFILE="jira_commands-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6d/48/a15dc7f3b6ef485d29440fff62ab6441b9f540ab831e1e82e826d57d21f2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module to have standalone invoice lines"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/e8/32/cb8dd90e82b10d307e67b2dde0f127d51adeedbc46d8bcbda4125b7a4ec4/trytond_account_invoice_line_standalone-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_account_invoice_line_standalone-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e8/32/cb8dd90e82b10d307e67b2dde0f127d51adeedbc46d8bcbda4125b7a4ec4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

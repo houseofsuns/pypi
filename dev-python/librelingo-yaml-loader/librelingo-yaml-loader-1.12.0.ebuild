@@ -15,8 +15,8 @@ DESCRIPTION="Load YAML-based LibreLingo courses in your Python project."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3a/3a/499fd930419eaeed3e079cd6ab4e656de5e849b78fd3345179166c8da4ab/librelingo_yaml_loader-${REALVERSION}.tar.gz"
-SOURCEFILE="librelingo_yaml_loader-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3a/3a/499fd930419eaeed3e079cd6ab4e656de5e849b78fd3345179166c8da4ab/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

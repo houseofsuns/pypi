@@ -15,8 +15,8 @@ DESCRIPTION="Repository with scripts used in my LSS research"
 
 HOMEPAGE="https://github.com/vcalderon2009/cosmo_utils"
 LICENSE="BSD 3-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/3b/f9/22520dcdaf917b9340d1a675a41629e52b0d5c89e399aa452df68041d913/cosmo_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="cosmo_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3b/f9/22520dcdaf917b9340d1a675a41629e52b0d5c89e399aa452df68041d913/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

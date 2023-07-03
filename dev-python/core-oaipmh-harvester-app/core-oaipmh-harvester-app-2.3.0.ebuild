@@ -15,8 +15,8 @@ DESCRIPTION="OAI-PMH harvesting capabilities for the curator core project"
 
 HOMEPAGE="https://github.com/usnistgov/core_oaipmh_harvester_app"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4a/0a/a42068a6895b754a70910bb453b678cec1f92ebaab059f32f323f0bfbc6e/core_oaipmh_harvester_app-${REALVERSION}.tar.gz"
-SOURCEFILE="core_oaipmh_harvester_app-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4a/0a/a42068a6895b754a70910bb453b678cec1f92ebaab059f32f323f0bfbc6e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

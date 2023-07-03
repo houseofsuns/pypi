@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Better iterators for python (all typed)## Examples### 1. Simple```python## create iterator for even integers squaredeven_integers = Iter(range(100)) \    .filter(lambda x: x % 2 == 0) \    .map(lambda x: x ** 2)## to evaluate into a list usemy_list = even_integers.to_list()## The smart list will allow the usage of iterator notation again bytimes2_iter = my_list.iter() \    .map(lambda x: x * 2)```### 2. Usage with inbuilt typesUnfortunately python doesn't support extensions to in-built types.Thus we can only create wrappers to allow the functionalityTo use it with in-built lists while keeping the list functionality use```python# Instead of my_list = list([5, 4, 3, 2, 1])# Use the following to be Iter compatiblemy_list = SList([5, 4, 3, 2, 1])```### 3. Sized iteratorsWhen using stored data where we know the size of the collection (see [collection](https://docs.python.org/3/library/collections.html))Then we can wrap them slightly differently to have a few more functions in a nice format```python# store the list as a collection iterable (aka sized)my_collection = IterCollection(list(10)) # Then we can know the length of the collection without having to traverse the iteratorl = my_collection.len() # will call the __len__ of the wrapped class. In this case list# We can also reverse the collectionrev = my_collection.reversed() # returns an iterator not a collection```</longdescription>
+</pkgmetadata>

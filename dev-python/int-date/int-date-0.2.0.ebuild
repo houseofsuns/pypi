@@ -15,8 +15,8 @@ DESCRIPTION="Utility for int date like 20150312."
 
 HOMEPAGE="https://github.com/jealous/int_date"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/15/9e/146b4ea9d7892b7b21948269f37e8e79724c1da2a059d282c2367a3ea072/int_date-${REALVERSION}.tar.gz"
-SOURCEFILE="int_date-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/15/9e/146b4ea9d7892b7b21948269f37e8e79724c1da2a059d282c2367a3ea072/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

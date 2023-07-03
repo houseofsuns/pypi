@@ -15,8 +15,8 @@ DESCRIPTION="A library for backend side session with starlette"
 
 HOMEPAGE="https://github.com/auredentan/starlette-session"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0a/76/e973d473cfabcce37d8bc3832de51f0b22dd29d49d41ce58ec6e7daadc9b/starlette_session-${REALVERSION}.tar.gz"
-SOURCEFILE="starlette_session-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0a/76/e973d473cfabcce37d8bc3832de51f0b22dd29d49d41ce58ec6e7daadc9b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

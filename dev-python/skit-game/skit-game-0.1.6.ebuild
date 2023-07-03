@@ -15,8 +15,8 @@ DESCRIPTION="A tool for prototyping card games"
 
 HOMEPAGE="https://github.com/vtbassmatt/skit"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6f/76/9c8eb7a7aef8f746ddf6a8a89ff580681e65bf502c78d4ba58199dded006/skit_game-${REALVERSION}.tar.gz"
-SOURCEFILE="skit_game-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6f/76/9c8eb7a7aef8f746ddf6a8a89ff580681e65bf502c78d4ba58199dded006/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

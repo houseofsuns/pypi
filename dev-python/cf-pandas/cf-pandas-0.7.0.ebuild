@@ -15,8 +15,8 @@ DESCRIPTION="an accessor for pandas objects that interprets CF attributes"
 
 HOMEPAGE="https://github.com/axiom-data-science/cf-pandas"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ca/61/654a836d7cf95aa042a7fd3b52cbf62b796facaee387030aa883b638b78e/cf_pandas-${REALVERSION}.tar.gz"
-SOURCEFILE="cf_pandas-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ca/61/654a836d7cf95aa042a7fd3b52cbf62b796facaee387030aa883b638b78e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Costeo de cas"
 
 HOMEPAGE="https://github.com/francomrf/Costeo_Python.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bd/f4/7236e17349548815fd7ace4b40ce85076fae9644717c7d11654844804e48/costeopy_package-${REALVERSION}.tar.gz"
-SOURCEFILE="costeopy_package-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bd/f4/7236e17349548815fd7ace4b40ce85076fae9644717c7d11654844804e48/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

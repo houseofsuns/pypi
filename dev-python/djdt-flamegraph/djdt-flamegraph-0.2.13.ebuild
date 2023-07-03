@@ -15,8 +15,8 @@ DESCRIPTION="Flamegraphs for Django Debug Toolbar"
 
 HOMEPAGE="https://github.com/23andme/djdt-flamegraph"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ce/75/bcd75d857c95195588cad1f09e7679b0c21958f513a06f89d267e81ec6d0/djdt_flamegraph-${REALVERSION}.tar.gz"
-SOURCEFILE="djdt_flamegraph-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ce/75/bcd75d857c95195588cad1f09e7679b0c21958f513a06f89d267e81ec6d0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

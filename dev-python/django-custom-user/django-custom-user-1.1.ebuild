@@ -15,8 +15,8 @@ DESCRIPTION="Custom user model for Django with the same behaviour as the default
 
 HOMEPAGE="https://github.com/jcugat/django-custom-user"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/fe/24/589c86b02b3238dc1e45124f3a127790fca5cc5d847ae36e5af8aa299724/django_custom_user-${REALVERSION}.tar.gz"
-SOURCEFILE="django_custom_user-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fe/24/589c86b02b3238dc1e45124f3a127790fca5cc5d847ae36e5af8aa299724/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

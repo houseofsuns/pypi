@@ -15,8 +15,8 @@ DESCRIPTION="This package helps users do distributed training with TensorFlow on
 
 HOMEPAGE="https://github.com/tensorflow/ecosystem/tree/master/spark/spark-tensorflow-distributor"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a6/95/9cc0a72f6c686e6178777de9926202c260e49eee189170cc50ec29491bec/spark_tensorflow_distributor-${REALVERSION}.tar.gz"
-SOURCEFILE="spark_tensorflow_distributor-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a6/95/9cc0a72f6c686e6178777de9926202c260e49eee189170cc50ec29491bec/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

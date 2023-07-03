@@ -15,8 +15,8 @@ DESCRIPTION="ICU based universal language tokenizer"
 
 HOMEPAGE="https://github.com/mingruimingrui/ICU-tokenizer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/26/36/d4fdf94a2b58135d4df4b9c12c9602e18a6e1f0267e60802c3bf455e530d/icu_tokenizer-${REALVERSION}.tar.gz"
-SOURCEFILE="icu_tokenizer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/26/36/d4fdf94a2b58135d4df4b9c12c9602e18a6e1f0267e60802c3bf455e530d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

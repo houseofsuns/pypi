@@ -15,8 +15,8 @@ DESCRIPTION="A package to interact with the (currently 3.3.0) newest version of 
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3e/8f/abe0e6025a45eb093c4b082ee11b0936643c2143d23fc12c48b862679e44/hij5_topdesk_api-${REALVERSION}.tar.gz"
-SOURCEFILE="hij5_topdesk_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3e/8f/abe0e6025a45eb093c4b082ee11b0936643c2143d23fc12c48b862679e44/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

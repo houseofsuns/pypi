@@ -15,8 +15,8 @@ DESCRIPTION="OpenTelemetry Aio-pika instrumentation"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-aio-pika"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/df/b6/162b1ed76b17d94063483849e3f06c131878e7546877ec1bb90c7250ebaa/opentelemetry_instrumentation_aio_pika-${REALVERSION}.tar.gz"
-SOURCEFILE="opentelemetry_instrumentation_aio_pika-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/df/b6/162b1ed76b17d94063483849e3f06c131878e7546877ec1bb90c7250ebaa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

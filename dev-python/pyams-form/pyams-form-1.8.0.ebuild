@@ -15,8 +15,8 @@ DESCRIPTION="PyAMS forms management package"
 
 HOMEPAGE="https://pyams.readthedocs.io"
 LICENSE="ZPL"
-SRC_URI="https://files.pythonhosted.org/packages/f4/ee/12b35db9b33417516cbc8ece1383ffed42022862cb20ba6d2c0e93b207c8/pyams_form-${REALVERSION}.tar.gz"
-SOURCEFILE="pyams_form-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f4/ee/12b35db9b33417516cbc8ece1383ffed42022862cb20ba6d2c0e93b207c8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

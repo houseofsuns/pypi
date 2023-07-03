@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>WSGI middleware to prefix SCRIPT_NAME with X-Forwarded-Prefix header.For services behind a reverse proxy so their URLs contain the proxied path.</longdescription>
+</pkgmetadata>

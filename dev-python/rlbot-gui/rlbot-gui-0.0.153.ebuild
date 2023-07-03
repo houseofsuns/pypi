@@ -15,8 +15,8 @@ DESCRIPTION="A streamlined user interface for RLBot."
 
 HOMEPAGE="https://github.com/RLBot/RLBotGUI"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8d/cb/ec2ead5df1bdc54234ea725b0354fe5aac7307eb2044e1f87f5fd7b53fa4/rlbot_gui-${REALVERSION}.tar.gz"
-SOURCEFILE="rlbot_gui-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8d/cb/ec2ead5df1bdc54234ea725b0354fe5aac7307eb2044e1f87f5fd7b53fa4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

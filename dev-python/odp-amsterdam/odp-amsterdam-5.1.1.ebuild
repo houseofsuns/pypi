@@ -15,8 +15,8 @@ DESCRIPTION="Asynchronous Python client providing Open Data information of Amste
 
 HOMEPAGE="https://github.com/klaasnicolaas/python-odp-amsterdam"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9d/73/752106d50ee903b17320b32a3a7288c106d6cc1f5a4e59eecedfd6232f82/odp_amsterdam-${REALVERSION}.tar.gz"
-SOURCEFILE="odp_amsterdam-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9d/73/752106d50ee903b17320b32a3a7288c106d6cc1f5a4e59eecedfd6232f82/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

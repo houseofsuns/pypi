@@ -15,8 +15,8 @@ DESCRIPTION="base on asyncio, spider module like scrapy."
 
 HOMEPAGE="https://github.com/noHairMan/nhm-spider"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/aa/13/83875eee61d51e86f3a8c749515608e1b6bdf85c2bb03aadf7f85963838b/nhm_spider-${REALVERSION}.tar.gz"
-SOURCEFILE="nhm_spider-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/aa/13/83875eee61d51e86f3a8c749515608e1b6bdf85c2bb03aadf7f85963838b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

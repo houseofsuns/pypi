@@ -15,8 +15,8 @@ DESCRIPTION="A Python3, async interface to the SimpliSafe API"
 
 HOMEPAGE="https://github.com/bachya/simplisafe-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e7/a6/6c3f15bb2c99db5383692242d946913f5ce993f88493509cabe2edc012af/simplisafe_python-${REALVERSION}.tar.gz"
-SOURCEFILE="simplisafe_python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e7/a6/6c3f15bb2c99db5383692242d946913f5ce993f88493509cabe2edc012af/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

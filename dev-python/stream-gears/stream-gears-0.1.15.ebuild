@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0c/35/a27aafa872ff3b043700d3f698285ebf38c618f6bed052a41812cd9dcfc5/stream_gears-${REALVERSION}.tar.gz"
-SOURCEFILE="stream_gears-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0c/35/a27aafa872ff3b043700d3f698285ebf38c618f6bed052a41812cd9dcfc5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

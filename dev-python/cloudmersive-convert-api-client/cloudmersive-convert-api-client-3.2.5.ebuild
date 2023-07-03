@@ -15,8 +15,8 @@ DESCRIPTION="convertapi"
 
 HOMEPAGE="https://www.cloudmersive.com/convert-api"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c1/00/374e3649eb1faf17a4bb8fd6626830fb283c5c312a1f56544901fa656221/cloudmersive_convert_api_client-${REALVERSION}.tar.gz"
-SOURCEFILE="cloudmersive_convert_api_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c1/00/374e3649eb1faf17a4bb8fd6626830fb283c5c312a1f56544901fa656221/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

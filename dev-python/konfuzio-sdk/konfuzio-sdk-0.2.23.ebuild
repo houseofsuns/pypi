@@ -15,8 +15,8 @@ DESCRIPTION="Konfuzio Software Development Kit"
 
 HOMEPAGE="https://github.com/konfuzio-ai/konfuzio-sdk/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9e/38/6cf711fbea7d7a1c6afe3cfc8c3a00405d04a8187ac025c2eb8e5c1615be/konfuzio_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="konfuzio_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9e/38/6cf711fbea7d7a1c6afe3cfc8c3a00405d04a8187ac025c2eb8e5c1615be/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

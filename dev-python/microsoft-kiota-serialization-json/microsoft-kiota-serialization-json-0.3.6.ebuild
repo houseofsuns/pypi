@@ -15,8 +15,8 @@ DESCRIPTION="Implementation of Kiota Serialization interfaces for JSON"
 
 HOMEPAGE="https://github.com/microsoft/kiota#readme"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/de/04/e827b99eb48ea77cbb1f699e36068b335d9573a78d370a2a2053c5f322b5/microsoft_kiota_serialization_json-${REALVERSION}.tar.gz"
-SOURCEFILE="microsoft_kiota_serialization_json-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/de/04/e827b99eb48ea77cbb1f699e36068b335d9573a78d370a2a2053c5f322b5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

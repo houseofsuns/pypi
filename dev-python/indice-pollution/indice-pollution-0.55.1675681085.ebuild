@@ -15,8 +15,8 @@ DESCRIPTION="API giving air pollution level in France"
 
 HOMEPAGE="https://github.com/l-vincent-l/indice_pollution"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2c/13/0fcfbf70cd11969212a33af45a01ccf10dcbfc97479fd38766d591f05f00/indice_pollution-${REALVERSION}.tar.gz"
-SOURCEFILE="indice_pollution-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2c/13/0fcfbf70cd11969212a33af45a01ccf10dcbfc97479fd38766d591f05f00/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

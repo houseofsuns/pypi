@@ -15,8 +15,8 @@ DESCRIPTION="Fast, pure Python S3 downloader"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d6/25/d5cee60bf2baf615ee8177c645864aa855431a891d311a3234ab9400e5cd/retriever_research-${REALVERSION}.tar.gz"
-SOURCEFILE="retriever_research-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d6/25/d5cee60bf2baf615ee8177c645864aa855431a891d311a3234ab9400e5cd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

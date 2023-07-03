@@ -15,8 +15,8 @@ DESCRIPTION="The Laboro demonstration module"
 
 HOMEPAGE="https://codeberg.org/laboro/laboro_demo"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2e/52/8942cf65a6b616f34542345af7a80a38c8a8500a62f3bb95288a6cfb35fa/laboro_demo-${REALVERSION}.tar.gz"
-SOURCEFILE="laboro_demo-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2e/52/8942cf65a6b616f34542345af7a80a38c8a8500a62f3bb95288a6cfb35fa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

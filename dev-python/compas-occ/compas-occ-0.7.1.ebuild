@@ -15,8 +15,8 @@ DESCRIPTION="COMPAS wrapper for the Python bindings of OCC"
 
 HOMEPAGE="https://github.com/compas-dev/compas_occ"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b8/aa/b5b44540b3f2c5b3ff90be95b0a0fd1ad6b7da88ea8b1dfdd53613c03ee4/compas_occ-${REALVERSION}.tar.gz"
-SOURCEFILE="compas_occ-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b8/aa/b5b44540b3f2c5b3ff90be95b0a0fd1ad6b7da88ea8b1dfdd53613c03ee4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/8b/d8/437c2e7fc0cacf5262160790305ed368b5fd1ca281b29c37784473f6d4ad/balena_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="balena_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8b/d8/437c2e7fc0cacf5262160790305ed368b5fd1ca281b29c37784473f6d4ad/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

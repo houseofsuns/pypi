@@ -15,8 +15,8 @@ DESCRIPTION="Error-handling functions for boto3/botocore"
 
 HOMEPAGE="https://github.com/benkehoe/aws-error-utils"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/2a/fc/2541892cafad6658e9ce5226e54088eff9692cbe4a32cd5a7dfec5846cbf/aws_error_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="aws_error_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2a/fc/2541892cafad6658e9ce5226e54088eff9692cbe4a32cd5a7dfec5846cbf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

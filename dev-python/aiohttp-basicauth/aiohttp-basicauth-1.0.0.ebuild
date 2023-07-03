@@ -15,8 +15,8 @@ DESCRIPTION="HTTP basic authentication middleware for aiohttp 3.0+"
 
 HOMEPAGE="https://github.com/romis2012/aiohttp-basicauth"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e0/98/3c164b1b29ad3d32f6824482a9dfd655f177e274012a4abf3078674e300b/aiohttp_basicauth-${REALVERSION}.tar.gz"
-SOURCEFILE="aiohttp_basicauth-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e0/98/3c164b1b29ad3d32f6824482a9dfd655f177e274012a4abf3078674e300b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

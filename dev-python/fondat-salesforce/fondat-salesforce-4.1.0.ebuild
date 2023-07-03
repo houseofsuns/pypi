@@ -15,8 +15,8 @@ DESCRIPTION="Fondat package for Salesforce."
 
 HOMEPAGE="https://github.com/fondat/fondat-salesforce/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/45/ce/81f7198f12d2ebb7362c496436652efcfbbfa94627693ad2fb3acef96450/fondat_salesforce-${REALVERSION}.tar.gz"
-SOURCEFILE="fondat_salesforce-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/45/ce/81f7198f12d2ebb7362c496436652efcfbbfa94627693ad2fb3acef96450/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

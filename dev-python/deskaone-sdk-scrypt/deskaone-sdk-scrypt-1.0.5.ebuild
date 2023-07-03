@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/78/75/d952a3b762088b31cf083ff8cd9b4507734ca62ada3912fe77d981650dbd/deskaone_sdk_scrypt-${REALVERSION}.tar.gz"
-SOURCEFILE="deskaone_sdk_scrypt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/78/75/d952a3b762088b31cf083ff8cd9b4507734ca62ada3912fe77d981650dbd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

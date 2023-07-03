@@ -15,8 +15,8 @@ DESCRIPTION="Find a good commit to base your work on"
 
 HOMEPAGE="https://github.com/evergreen-ci/git-co-evg-base"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/20/d7/dcc4de10a61611dfa1f8af620f4ed64b44c6c942db8d50cae266d2dfe90c/git_co_evg_base-${REALVERSION}.tar.gz"
-SOURCEFILE="git_co_evg_base-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/20/d7/dcc4de10a61611dfa1f8af620f4ed64b44c6c942db8d50cae266d2dfe90c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

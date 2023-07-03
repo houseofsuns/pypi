@@ -15,8 +15,8 @@ DESCRIPTION="always_updates updates your system, always."
 
 HOMEPAGE="https://github.com/alwaysupdates/always_updates"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/99/79/84c0d7d08791ecb83bcb12a40acebb6d100250524c525b39d3ddac19d0fb/always_updates-${REALVERSION}.tar.gz"
-SOURCEFILE="always_updates-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/99/79/84c0d7d08791ecb83bcb12a40acebb6d100250524c525b39d3ddac19d0fb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

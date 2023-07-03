@@ -15,8 +15,8 @@ DESCRIPTION="Python library for pydantic factur-x bindings"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/aa/4a/6c183a57f8d13cc39414f6716a1378e5c3a4c5ee435ac825e3402bb936e9/pydantic_factur_x-${REALVERSION}.tar.gz"
-SOURCEFILE="pydantic_factur_x-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/aa/4a/6c183a57f8d13cc39414f6716a1378e5c3a4c5ee435ac825e3402bb936e9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

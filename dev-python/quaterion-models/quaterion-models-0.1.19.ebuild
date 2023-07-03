@@ -15,8 +15,8 @@ DESCRIPTION="The collection of building blocks to build fine-tunable similarity 
 
 HOMEPAGE="https://github.com/qdrant/quaterion-models"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2d/2d/8476f1db81e6dd79f936c0a58873b65272ca0892583f1331a86f591b4a9e/quaterion_models-${REALVERSION}.tar.gz"
-SOURCEFILE="quaterion_models-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2d/2d/8476f1db81e6dd79f936c0a58873b65272ca0892583f1331a86f591b4a9e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

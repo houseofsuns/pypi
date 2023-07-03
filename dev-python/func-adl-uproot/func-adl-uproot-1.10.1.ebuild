@@ -15,8 +15,8 @@ DESCRIPTION="Functional Analysis Description Language uproot backend for accessi
 
 HOMEPAGE="https://github.com/iris-hep/func_adl_uproot"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ef/fe/8bb86526bb583c5a3e176e5461e3c8673177ae011952b15612062474b10f/func_adl_uproot-${REALVERSION}.tar.gz"
-SOURCEFILE="func_adl_uproot-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ef/fe/8bb86526bb583c5a3e176e5461e3c8673177ae011952b15612062474b10f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

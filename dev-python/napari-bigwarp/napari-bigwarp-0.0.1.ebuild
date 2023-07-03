@@ -15,8 +15,8 @@ DESCRIPTION="BigWarp-like interface for napari"
 
 HOMEPAGE="https://github.com/bkntr/napari-bigwarp"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/fd/97/16b357d724bfbd69fb8722d13efea6422134bf2fc22ddc1dda39ad628be6/napari_bigwarp-${REALVERSION}.tar.gz"
-SOURCEFILE="napari_bigwarp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fd/97/16b357d724bfbd69fb8722d13efea6422134bf2fc22ddc1dda39ad628be6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

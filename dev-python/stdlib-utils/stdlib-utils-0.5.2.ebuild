@@ -15,8 +15,8 @@ DESCRIPTION="Various utility functions and classes using only the Python standar
 
 HOMEPAGE="https://github.com/CuriBio/stdlib-utils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/46/a0/6cff1bdd74e154bf7f5116f5e37cbbc7044a21e676a099fdd807f3501cae/stdlib_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="stdlib_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/46/a0/6cff1bdd74e154bf7f5116f5e37cbbc7044a21e676a099fdd807f3501cae/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

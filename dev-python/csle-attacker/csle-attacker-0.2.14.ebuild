@@ -15,8 +15,8 @@ DESCRIPTION="Scripts for emulated cyber attacks in CSLE"
 
 HOMEPAGE=""
 LICENSE="Creative Commons Attribution-ShareAlike 4.0 International"
-SRC_URI="https://files.pythonhosted.org/packages/9e/52/3b15e39fea77f888f0ef8661a2e41c8666d36b1ee3f622ef5437e524eb22/csle_attacker-${REALVERSION}.tar.gz"
-SOURCEFILE="csle_attacker-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9e/52/3b15e39fea77f888f0ef8661a2e41c8666d36b1ee3f622ef5437e524eb22/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

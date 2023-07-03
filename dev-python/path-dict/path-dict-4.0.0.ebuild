@@ -15,8 +15,8 @@ DESCRIPTION="Extends Python's dict with useful extras"
 
 HOMEPAGE="https://github.com/mkrd/PathDict"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ce/9c/e2c3aa4ee325718b4d4fdee377e8bfb6f93f17f92c49ad6350ec21847fbb/path_dict-${REALVERSION}.tar.gz"
-SOURCEFILE="path_dict-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ce/9c/e2c3aa4ee325718b4d4fdee377e8bfb6f93f17f92c49ad6350ec21847fbb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

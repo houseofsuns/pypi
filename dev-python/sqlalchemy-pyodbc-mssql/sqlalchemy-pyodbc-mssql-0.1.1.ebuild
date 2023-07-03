@@ -15,8 +15,8 @@ DESCRIPTION="SA dialect for MSSQL using PyODBC which handles MSSQL-specific limi
 
 HOMEPAGE="https://github.com/level12/sqlalchemy_pyodbc_mssql"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3b/18/b8c6c5752ce82484e6f78bc214d93f6b239c464847db521e289e0c231bab/sqlalchemy_pyodbc_mssql-${REALVERSION}.tar.gz"
-SOURCEFILE="sqlalchemy_pyodbc_mssql-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3b/18/b8c6c5752ce82484e6f78bc214d93f6b239c464847db521e289e0c231bab/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

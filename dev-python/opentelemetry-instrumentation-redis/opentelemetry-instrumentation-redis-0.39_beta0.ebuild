@@ -15,8 +15,8 @@ DESCRIPTION="OpenTelemetry Redis instrumentation"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-redis"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4a/8c/b9730cb9a00d01d56bd575f6910f80625cd86424b2d57babbaa9a164b626/opentelemetry_instrumentation_redis-${REALVERSION}.tar.gz"
-SOURCEFILE="opentelemetry_instrumentation_redis-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4a/8c/b9730cb9a00d01d56bd575f6910f80625cd86424b2d57babbaa9a164b626/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

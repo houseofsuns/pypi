@@ -15,8 +15,8 @@ DESCRIPTION="A JSON based language interpreter for drawing in 2D"
 
 HOMEPAGE="https://github.com/Dessia-tech/plot_data"
 LICENSE="Creative Commons Attribution-Share Alike license"
-SRC_URI="https://files.pythonhosted.org/packages/6d/1d/a55d1818805036b532c06e8cbd472158d236edb795fb621f9420b3cf4817/plot_data-${REALVERSION}.tar.gz"
-SOURCEFILE="plot_data-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6d/1d/a55d1818805036b532c06e8cbd472158d236edb795fb621f9420b3cf4817/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

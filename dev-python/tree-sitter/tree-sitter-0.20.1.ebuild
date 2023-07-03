@@ -15,8 +15,8 @@ DESCRIPTION="Python bindings to the Tree-sitter parsing library"
 
 HOMEPAGE="https://github.com/tree-sitter/py-tree-sitter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ea/11/8d3f8ed4761c375dca0918a5b170aa2d777f5325c5442c36c0851305b77a/tree_sitter-${REALVERSION}.tar.gz"
-SOURCEFILE="tree_sitter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ea/11/8d3f8ed4761c375dca0918a5b170aa2d777f5325c5442c36c0851305b77a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

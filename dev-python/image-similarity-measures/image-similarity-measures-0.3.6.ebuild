@@ -15,8 +15,8 @@ DESCRIPTION="Evaluation metrics to assess the similarity between two images."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/59/9e/3a0f1469f258b75d7743cd344aee1d7f48426720fb654e03cc1c6778ec0b/image_similarity_measures-${REALVERSION}.tar.gz"
-SOURCEFILE="image_similarity_measures-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/59/9e/3a0f1469f258b75d7743cd344aee1d7f48426720fb654e03cc1c6778ec0b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

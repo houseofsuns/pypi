@@ -15,8 +15,8 @@ DESCRIPTION="Combines multiprocessing and multithreading for fast computation."
 
 HOMEPAGE="https://github.com/michalmonday/fast_map"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b4/ed/9a36688ec08a4cd2a7343264c8dd38e1ffa21b0c48f563528eb8a707b994/fast_map-${REALVERSION}.tar.gz"
-SOURCEFILE="fast_map-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b4/ed/9a36688ec08a4cd2a7343264c8dd38e1ffa21b0c48f563528eb8a707b994/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

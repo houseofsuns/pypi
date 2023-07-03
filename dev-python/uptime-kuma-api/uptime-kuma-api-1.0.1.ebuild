@@ -15,8 +15,8 @@ DESCRIPTION="A python wrapper for the Uptime Kuma WebSocket API"
 
 HOMEPAGE="https://github.com/lucasheld/uptime-kuma-api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6c/5d/5248d2195d7299835fb3ceec4cc1fad877b1ea475bfc7dbf6f58d547eeaa/uptime_kuma_api-${REALVERSION}.tar.gz"
-SOURCEFILE="uptime_kuma_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6c/5d/5248d2195d7299835fb3ceec4cc1fad877b1ea475bfc7dbf6f58d547eeaa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

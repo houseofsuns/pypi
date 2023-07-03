@@ -15,8 +15,8 @@ DESCRIPTION="娶群友"
 
 HOMEPAGE="https://github.com/KarisAya/nonebot_plugin_groupmate_waifu"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/41/57/951aa6378c0f228b3035aedbc146665fc92301a46169a7fb4765780edb23/nonebot_plugin_groupmate_waifu-${REALVERSION}.tar.gz"
-SOURCEFILE="nonebot_plugin_groupmate_waifu-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/41/57/951aa6378c0f228b3035aedbc146665fc92301a46169a7fb4765780edb23/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

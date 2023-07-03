@@ -15,8 +15,8 @@ DESCRIPTION="Flake8 plugin to find commented out code"
 
 HOMEPAGE="https://github.com/wemake-services/flake8-eradicate"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9e/72/a3975dfa4287396e9fb8fc2b4ee94a80d0809babbf92abed5af9c8e29c95/flake8_eradicate-${REALVERSION}.tar.gz"
-SOURCEFILE="flake8_eradicate-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9e/72/a3975dfa4287396e9fb8fc2b4ee94a80d0809babbf92abed5af9c8e29c95/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

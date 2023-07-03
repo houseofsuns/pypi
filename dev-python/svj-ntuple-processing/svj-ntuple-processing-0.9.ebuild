@@ -15,8 +15,8 @@ DESCRIPTION="Description text"
 
 HOMEPAGE="https://github.com/tklijnsma/svj_ntuple_processing.git"
 LICENSE="BSD 3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/db/60/b913da71d26369c9c796eb8912a3208b15bc87bd9f127c4595e5b3242ed9/svj_ntuple_processing-${REALVERSION}.tar.gz"
-SOURCEFILE="svj_ntuple_processing-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/db/60/b913da71d26369c9c796eb8912a3208b15bc87bd9f127c4595e5b3242ed9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Python library for fast multi-threaded data manipulation and mungin
 
 HOMEPAGE="https://github.com/h2oai/datatable"
 LICENSE="Mozilla Public License v2.0"
-SRC_URI="https://files.pythonhosted.org/packages/8d/45/2115a7d65483be25906e2c574111e924fec10aa4e8f37f6f4845019c06d6/python_datatable-${REALVERSION}.tar.gz"
-SOURCEFILE="python_datatable-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8d/45/2115a7d65483be25906e2c574111e924fec10aa4e8f37f6f4845019c06d6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

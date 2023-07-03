@@ -15,8 +15,8 @@ DESCRIPTION="ae namespace module portion kivy_dyn_chi: dynamic children mix-in f
 
 HOMEPAGE="https://gitlab.com/ae-group/ae_kivy_dyn_chi"
 LICENSE="OSI Approved :: GNU General Public License v3 or later GPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/d8/65/97ae874bb79b9f16f194c639f5e7e551a4c8fc888f7738bc5a2e0ea70b2f/ae_kivy_dyn_chi-${REALVERSION}.tar.gz"
-SOURCEFILE="ae_kivy_dyn_chi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d8/65/97ae874bb79b9f16f194c639f5e7e551a4c8fc888f7738bc5a2e0ea70b2f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

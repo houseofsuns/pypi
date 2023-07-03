@@ -15,8 +15,8 @@ DESCRIPTION="A simple framework for bootstrapping your Crypto Trading Bots"
 
 HOMEPAGE="https://github.com/snake575/trading-bots"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b0/b4/8876481fb1fd3522dcb8aacf49d67452cd6e36a6ea9850ced10e54c3eff2/trading_bots-${REALVERSION}.tar.gz"
-SOURCEFILE="trading_bots-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b0/b4/8876481fb1fd3522dcb8aacf49d67452cd6e36a6ea9850ced10e54c3eff2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

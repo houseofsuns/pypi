@@ -15,8 +15,8 @@ DESCRIPTION="A module for service"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/93/d3/52232d5bc7703dfdb6b35ae3d9340c1cefbe0cd6481138f75a6189135c00/clife_svc-${REALVERSION}.tar.gz"
-SOURCEFILE="clife_svc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/93/d3/52232d5bc7703dfdb6b35ae3d9340c1cefbe0cd6481138f75a6189135c00/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

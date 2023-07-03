@@ -15,8 +15,8 @@ DESCRIPTION="Official Python interface for the Lokalise API v2"
 
 HOMEPAGE="https://github.com/lokalise/python-lokalise-api"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/7f/3d/62bbdd37e005cf12a5076d47cd0c1ecf32ed0fefafba0a4c98d7764b4245/python_lokalise_api-${REALVERSION}.tar.gz"
-SOURCEFILE="python_lokalise_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7f/3d/62bbdd37e005cf12a5076d47cd0c1ecf32ed0fefafba0a4c98d7764b4245/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

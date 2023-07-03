@@ -15,8 +15,8 @@ DESCRIPTION="A python library for manipulating sequential and-inverter gates."
 
 HOMEPAGE="https://github.com/mvcisback/py-aiger"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a7/88/ed0e7a84a45eeabf8695bf896330a87d36c6b1faa5a21e0e5333ff5a0f93/py_aiger-${REALVERSION}.tar.gz"
-SOURCEFILE="py_aiger-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a7/88/ed0e7a84a45eeabf8695bf896330a87d36c6b1faa5a21e0e5333ff5a0f93/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

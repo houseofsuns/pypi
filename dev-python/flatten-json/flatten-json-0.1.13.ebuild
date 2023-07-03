@@ -15,8 +15,8 @@ DESCRIPTION="Flatten JSON objects"
 
 HOMEPAGE="https://github.com/amirziai/flatten"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cb/be/8f8e563004c7eae0b03be0fc6427a4ce07691c758250fdb31a9e934028d4/flatten_json-${REALVERSION}.tar.gz"
-SOURCEFILE="flatten_json-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cb/be/8f8e563004c7eae0b03be0fc6427a4ce07691c758250fdb31a9e934028d4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

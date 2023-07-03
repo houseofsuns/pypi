@@ -15,8 +15,8 @@ DESCRIPTION="Standard APIReponse for Django Rest Framework"
 
 HOMEPAGE="https://boomslag.com"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c1/b8/b6309d278a2fdc2a591953d11dd784f042db77f1c0f0544aa9f2d40b387b/djangorestframework_api_response-${REALVERSION}.tar.gz"
-SOURCEFILE="djangorestframework_api_response-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c1/b8/b6309d278a2fdc2a591953d11dd784f042db77f1c0f0544aa9f2d40b387b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

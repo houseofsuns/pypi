@@ -15,8 +15,8 @@ DESCRIPTION="Easily and safety cast objects to the desired data type"
 
 HOMEPAGE="https://github.com/agorinenko/try-parse"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/89/b9/0662b557c227e05b4bb4fb404ff55efd78e8cfb8aad7855982f78c74fbbc/try_parse-${REALVERSION}.tar.gz"
-SOURCEFILE="try_parse-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/89/b9/0662b557c227e05b4bb4fb404ff55efd78e8cfb8aad7855982f78c74fbbc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

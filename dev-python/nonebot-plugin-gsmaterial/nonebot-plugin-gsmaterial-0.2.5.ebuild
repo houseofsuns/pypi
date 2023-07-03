@@ -15,8 +15,8 @@ DESCRIPTION="Genshin daily material plugin for NoneBot2"
 
 HOMEPAGE="https://github.com/monsterxcn/nonebot-plugin-gsmaterial"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/eb/55/92e08cf19a3b9f95b8d8c8287a8d59f9fca341b33f52fd0a82dc415513a0/nonebot_plugin_gsmaterial-${REALVERSION}.tar.gz"
-SOURCEFILE="nonebot_plugin_gsmaterial-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/eb/55/92e08cf19a3b9f95b8d8c8287a8d59f9fca341b33f52fd0a82dc415513a0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

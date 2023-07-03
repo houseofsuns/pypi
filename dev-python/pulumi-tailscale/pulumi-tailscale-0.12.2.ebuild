@@ -15,8 +15,8 @@ DESCRIPTION="A Pulumi package for creating and managing Tailscale cloud resource
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/a7/7b/e4ad3851f729e4384adc05ab27198c55fd6d16e67a838941a4fbee6b18cb/pulumi_tailscale-${REALVERSION}.tar.gz"
-SOURCEFILE="pulumi_tailscale-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a7/7b/e4ad3851f729e4384adc05ab27198c55fd6d16e67a838941a4fbee6b18cb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

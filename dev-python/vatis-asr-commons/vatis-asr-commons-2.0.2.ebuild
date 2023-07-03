@@ -15,8 +15,8 @@ DESCRIPTION="Common objects for Vatis ASR clients"
 
 HOMEPAGE="https://gitlab.com/vatistech/asr-commons"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/40/60/6d5126c4f018f5a39a7b2701323c9f63acf981cd0b7e63394f0463cdd819/vatis_asr_commons-${REALVERSION}.tar.gz"
-SOURCEFILE="vatis_asr_commons-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/40/60/6d5126c4f018f5a39a7b2701323c9f63acf981cd0b7e63394f0463cdd819/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

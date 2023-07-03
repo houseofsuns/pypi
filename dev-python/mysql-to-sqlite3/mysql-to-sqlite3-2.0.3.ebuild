@@ -15,8 +15,8 @@ DESCRIPTION="A simple Python tool to transfer data from MySQL to SQLite 3"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c8/2c/4ea73f5cb4354a442d54128b54f6897760558216c8930798566122f70929/mysql_to_sqlite3-${REALVERSION}.tar.gz"
-SOURCEFILE="mysql_to_sqlite3-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c8/2c/4ea73f5cb4354a442d54128b54f6897760558216c8930798566122f70929/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

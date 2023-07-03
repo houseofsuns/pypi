@@ -15,8 +15,8 @@ DESCRIPTION="Simple caching transport for httpx."
 
 HOMEPAGE="https://github.com/obendidi/httpx-cache"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/18/00/5b158caf9842d710d636a95e2ed6983b989449f37753016b9675671da05b/httpx_cache-${REALVERSION}.tar.gz"
-SOURCEFILE="httpx_cache-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/18/00/5b158caf9842d710d636a95e2ed6983b989449f37753016b9675671da05b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

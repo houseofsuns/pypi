@@ -15,8 +15,8 @@ DESCRIPTION="Fast JSON Schema validation for Python implemented in Rust"
 
 HOMEPAGE="https://github.com/Stranger6667/jsonschema-rs/tree/master/python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9b/74/c5c2e6a279394e31e6df138cfe0c97078cab067b7e72bd006a75f7cba4ec/jsonschema_rs-${REALVERSION}.tar.gz"
-SOURCEFILE="jsonschema_rs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9b/74/c5c2e6a279394e31e6df138cfe0c97078cab067b7e72bd006a75f7cba4ec/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

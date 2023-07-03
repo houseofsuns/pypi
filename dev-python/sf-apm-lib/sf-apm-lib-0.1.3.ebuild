@@ -15,8 +15,8 @@ DESCRIPTION="Snappyflow pip package"
 
 HOMEPAGE="https://github.com/snappyflow/py_snappyflow"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/75/d1/88f9b7ba14ee68d6dcb11a6506969c5129c6d045dc71001aa0d55df71364/sf_apm_lib-${REALVERSION}.tar.gz"
-SOURCEFILE="sf_apm_lib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/75/d1/88f9b7ba14ee68d6dcb11a6506969c5129c6d045dc71001aa0d55df71364/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

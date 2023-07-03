@@ -15,8 +15,8 @@ DESCRIPTION="Evaluating and scoring financial data"
 
 HOMEPAGE="https://pypi.org/project/eval-hj3415/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a2/35/6a61e11273a4546786fc5c5ad28d287f88b2dfd369f8840bec62e8b73f11/eval_hj3415-${REALVERSION}.tar.gz"
-SOURCEFILE="eval_hj3415-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a2/35/6a61e11273a4546786fc5c5ad28d287f88b2dfd369f8840bec62e8b73f11/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

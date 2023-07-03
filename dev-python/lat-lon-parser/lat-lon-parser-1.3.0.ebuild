@@ -15,8 +15,8 @@ DESCRIPTION="Simple parser for latitude-longitude strings"
 
 HOMEPAGE="https://github.com/NOAA-ORR-ERD/lat_lon_parser"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7d/2b/81e2823a820449daaa2ad4d9b8299981e8cb6620669ef9c34f7438c66891/lat_lon_parser-${REALVERSION}.tar.gz"
-SOURCEFILE="lat_lon_parser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7d/2b/81e2823a820449daaa2ad4d9b8299981e8cb6620669ef9c34f7438c66891/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

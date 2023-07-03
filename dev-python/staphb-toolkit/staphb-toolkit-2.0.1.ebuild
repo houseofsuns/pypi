@@ -15,8 +15,8 @@ DESCRIPTION="A ToolKit of commonly used Public Health Bioinformatics Tools"
 
 HOMEPAGE="https://github.com/StaPH-B/staphb_toolkit"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f0/3f/c068851ec9c5b1778abe0a706dae33c21174dbc7926b1a37d7187acefe2a/staphb_toolkit-${REALVERSION}.tar.gz"
-SOURCEFILE="staphb_toolkit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f0/3f/c068851ec9c5b1778abe0a706dae33c21174dbc7926b1a37d7187acefe2a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

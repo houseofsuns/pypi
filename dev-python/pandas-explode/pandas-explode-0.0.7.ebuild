@@ -15,8 +15,8 @@ DESCRIPTION="Explode utility for Pandas dataframes (similar to UNNEST or explode
 
 HOMEPAGE="https://github.com/orenovadia/pandas_explode"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0c/b9/979555fcb95a2396c8a61ff92e87c7030320c24a62fc4af28d5512cf9669/pandas_explode-${REALVERSION}.tar.gz"
-SOURCEFILE="pandas_explode-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0c/b9/979555fcb95a2396c8a61ff92e87c7030320c24a62fc4af28d5512cf9669/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="OpenAI gym reinforcement learning environment of an intrusion respo
 
 HOMEPAGE=""
 LICENSE="Creative Commons Attribution-ShareAlike 4.0 International"
-SRC_URI="https://files.pythonhosted.org/packages/a2/50/5f8863fb488b42f3ae708b84f01eaeaf6ebc53951c2a3d86fc5394e322c3/gym_csle_intrusion_response_game-${REALVERSION}.tar.gz"
-SOURCEFILE="gym_csle_intrusion_response_game-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a2/50/5f8863fb488b42f3ae708b84f01eaeaf6ebc53951c2a3d86fc5394e322c3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

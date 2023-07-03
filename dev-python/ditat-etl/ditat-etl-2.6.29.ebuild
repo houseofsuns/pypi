@@ -15,8 +15,8 @@ DESCRIPTION="Multiple tools and utilities for ETL pipelines and others."
 
 HOMEPAGE="https://github.com/ditat-llc/ditat_etl"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/63/db/d35e64df183a538e539c56d48bc2f9e7b58595af71c59f498e0e636d0aa9/ditat_etl-${REALVERSION}.tar.gz"
-SOURCEFILE="ditat_etl-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/63/db/d35e64df183a538e539c56d48bc2f9e7b58595af71c59f498e0e636d0aa9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

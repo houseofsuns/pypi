@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Python Redis Object Mapper======================asyncio based Redis object mapper## Table of content- [Installation](#installation)- [Usage](#usage)- [Features](#usage)- [TODO](#todo)- [Limitations](#limitations)## InstallationTODO## Usage```pythonimport asynciofrom dataclasses import fieldfrom typing import Set, Dictfrom aio_rom import Modelfrom aio_rom.fields import Metadatafrom aio_rom.session import redis_poolclass Foo(Model):    bar: int    foobar: Set[int] = field(default_factory=set)    my_boolean: bool = False    transient_field: Dict = field(metadata=Metadata(transient=True))class OtherFoo(Model):    foo: Fooasync def main():    async with redis_pool(&quot;redis://localhost&quot;):        foo = Foo(123, {1,2,3}, True)        await foo.save()        ...        foo2 = await Foo.get(321)        other_foo = OtherFoo(303, foo2)        await other_foo.save()asyncio.run(main())```## FeaturesTODO## TODO1. Docs1. Tests## Limitations1. `configure` must be called before other calls to Redis can succeed, no defaults to localhost atm.1. You cannot use `from __future__ import annotations` in the same file you define your models. See https://bugs.python.org/issue394421. TODO Supported datatypes1. Probably more ...</longdescription>
+</pkgmetadata>

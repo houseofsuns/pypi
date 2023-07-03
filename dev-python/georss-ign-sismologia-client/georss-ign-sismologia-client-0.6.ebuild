@@ -15,8 +15,8 @@ DESCRIPTION="A GeoRSS client library for the IGN Sismologia feed."
 
 HOMEPAGE="https://github.com/exxamalte/python-georss-ign-sismologia-client"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ef/44/d478eb8c1fb5c3e01d2615a1c4b0ff808103677b6b3c4150d6fcbd66f25b/georss_ign_sismologia_client-${REALVERSION}.tar.gz"
-SOURCEFILE="georss_ign_sismologia_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ef/44/d478eb8c1fb5c3e01d2615a1c4b0ff808103677b6b3c4150d6fcbd66f25b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

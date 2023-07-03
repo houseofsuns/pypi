@@ -15,8 +15,8 @@ DESCRIPTION="A library for creating GraphQL APIs"
 
 HOMEPAGE="https://strawberry.rocks/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/77/c3/a748781283f0b5daf9a7e00f06a9012dabb5f3422a529e123ef7ace683db/strawberry_graphql-${REALVERSION}.tar.gz"
-SOURCEFILE="strawberry_graphql-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/77/c3/a748781283f0b5daf9a7e00f06a9012dabb5f3422a529e123ef7ace683db/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

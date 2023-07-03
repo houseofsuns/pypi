@@ -15,8 +15,8 @@ DESCRIPTION="Stretch Diagnostics"
 
 HOMEPAGE="https://github.com/hello-robot/stretch_diagnostics"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/81/43/4a1473108f4038a29a5b97e4b924a75a0ebc421302b75db930ec50789669/hello_robot_stretch_diagnostics-${REALVERSION}.tar.gz"
-SOURCEFILE="hello_robot_stretch_diagnostics-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/81/43/4a1473108f4038a29a5b97e4b924a75a0ebc421302b75db930ec50789669/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

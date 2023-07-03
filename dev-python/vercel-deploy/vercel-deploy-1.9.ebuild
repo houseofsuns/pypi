@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/39/c5/f3377aadfeba9ba96c7c71c411a4d1a85c940bcab168af275de41960c8b0/vercel_deploy-${REALVERSION}.tar.gz"
-SOURCEFILE="vercel_deploy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/39/c5/f3377aadfeba9ba96c7c71c411a4d1a85c940bcab168af275de41960c8b0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

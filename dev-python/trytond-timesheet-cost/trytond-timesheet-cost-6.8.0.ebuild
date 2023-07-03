@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module to add cost on timesheet"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/e1/46/7560e859fb571bb3b4accdd3d37e72b45cae38ac30676e19405f80103bd0/trytond_timesheet_cost-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_timesheet_cost-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e1/46/7560e859fb571bb3b4accdd3d37e72b45cae38ac30676e19405f80103bd0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

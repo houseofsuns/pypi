@@ -15,8 +15,8 @@ DESCRIPTION="Package for Media-Mix-Modelling"
 
 HOMEPAGE="https://github.com/google/lightweight_mmm"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/a4/f8/e62ca95469c338a8715b9bcde7b92af2f687e47900bf9f4a571a577a8a7a/lightweight_mmm-${REALVERSION}.tar.gz"
-SOURCEFILE="lightweight_mmm-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a4/f8/e62ca95469c338a8715b9bcde7b92af2f687e47900bf9f4a571a577a8a7a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

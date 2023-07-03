@@ -15,8 +15,8 @@ DESCRIPTION="Analyze deep mutational scanning of barcoded variants."
 
 HOMEPAGE="https://github.com/jbloomlab/dms_variants"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/61/80/cda588d962f19c9f26cbde00db16c32e689fdbf2aad32c9133caaf1053ea/dms_variants-${REALVERSION}.tar.gz"
-SOURCEFILE="dms_variants-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/61/80/cda588d962f19c9f26cbde00db16c32e689fdbf2aad32c9133caaf1053ea/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># ἐντελέχεια 【en.te.lé.kʰeː.a】[![home-img]][home-url][![course-img]][course-url][![lecture-img]][lecture-url][![research-img]][research-url][![linkedin-img]][linkedin-url][home-img]: https://img.shields.io/badge/home-entelecheia.me-blue[home-url]: https://entelecheia.me[course-img]: https://img.shields.io/badge/course-entelecheia.ai-blue[course-url]: https://course.entelecheia.ai[lecture-img]: https://img.shields.io/badge/lecture-entelecheia.ai-blue[lecture-url]: https://lecture.entelecheia.ai[research-img]: https://img.shields.io/badge/research-entelecheia.ai-blue[research-url]: https://research.entelecheia.ai[linkedin-img]: https://img.shields.io/badge/LinkedIn-blue?logo=linkedin[linkedin-url]: https://www.linkedin.com/in/entelecheia/Coined by Aristotle from ἐντελής (entelḗs, “complete, full, accomplished”) + ἔχειν (ékhein, “have, hold”).[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=entelecheia&amp;layout=compact&amp;size_weight=0.1&amp;count_weight=0.9&amp;langs_count=10&amp;theme=transparent&amp;card_width=400&amp;hide_border=true)](https://entelecheia.me/repositories/) [![GitHub Streak](https://streak-stats.demolab.com?user=entelecheia&amp;theme=transparent&amp;hide_border=true&amp;card_width=400)](https://entelecheia.me/repositories/)[![entelecheia's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=entelecheia&amp;layout=compact&amp;theme=transparent&amp;hide_border=true&amp;hide=other,browsing,shell,writing,reviewing,searching,researching,github,ai,text)](https://wakatime.com/@entelecheia)</longdescription>
+</pkgmetadata>

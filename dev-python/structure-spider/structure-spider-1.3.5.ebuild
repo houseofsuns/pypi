@@ -15,8 +15,8 @@ DESCRIPTION="multi requests to combine a structure item."
 
 HOMEPAGE="https://www.github.com/ShichaoMa/structure_spider"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2c/df/28bc46579d984d3eeeb6adb20ba32aca38d355ea40d7a4cea6e6f88dc35d/structure_spider-${REALVERSION}.tar.gz"
-SOURCEFILE="structure_spider-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2c/df/28bc46579d984d3eeeb6adb20ba32aca38d355ea40d7a4cea6e6f88dc35d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

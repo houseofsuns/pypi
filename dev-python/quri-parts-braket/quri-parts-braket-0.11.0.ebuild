@@ -15,8 +15,8 @@ DESCRIPTION="A plugin to use Amazon Braket SDK with QURI Parts"
 
 HOMEPAGE="https://github.com/QunaSys/quri-parts"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f0/9b/357fca1019ab7d1e666d148be3ae5becd156959a8e542934dbe0966891d1/quri_parts_braket-${REALVERSION}.tar.gz"
-SOURCEFILE="quri_parts_braket-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f0/9b/357fca1019ab7d1e666d148be3ae5becd156959a8e542934dbe0966891d1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

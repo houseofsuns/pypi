@@ -15,8 +15,8 @@ DESCRIPTION="Library to fetch calls from a given environment."
 
 HOMEPAGE="https://github.com/skit-ai/skit-calls"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/d4/de/b8a2178a33936101e2a2da3cfea72edb69ea78ed11c90e02c5851140baa4/skit_calls-${REALVERSION}.tar.gz"
-SOURCEFILE="skit_calls-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d4/de/b8a2178a33936101e2a2da3cfea72edb69ea78ed11c90e02c5851140baa4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

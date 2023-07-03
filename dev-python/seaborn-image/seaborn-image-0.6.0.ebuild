@@ -15,8 +15,8 @@ DESCRIPTION="Attractive, descriptive and effective image visualization with seab
 
 HOMEPAGE="https://github.com/SarthakJariwala/seaborn-image"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/94/29/40f1eedb855a7e567ece34b9b2ac8ee2cdf3ebffc2d16b18143da814e2c8/seaborn_image-${REALVERSION}.tar.gz"
-SOURCEFILE="seaborn_image-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/94/29/40f1eedb855a7e567ece34b9b2ac8ee2cdf3ebffc2d16b18143da814e2c8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A library to communicate with EufyLife Bluetooth devices."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2e/1a/8c1757c4472ab7665e598e509aeb193036833c5d2909ffd6d4545c3c9c30/eufylife_ble_client-${REALVERSION}.tar.gz"
-SOURCEFILE="eufylife_ble_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2e/1a/8c1757c4472ab7665e598e509aeb193036833c5d2909ffd6d4545c3c9c30/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

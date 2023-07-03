@@ -15,8 +15,8 @@ DESCRIPTION="Tools to manage elasticsearch indexes"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e5/6c/e9637782ac1270925f7f8e87d287a95565a5857e9fe6a818c5a9635d0e1b/opscidia_elasticsearch-${REALVERSION}.tar.gz"
-SOURCEFILE="opscidia_elasticsearch-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e5/6c/e9637782ac1270925f7f8e87d287a95565a5857e9fe6a818c5a9635d0e1b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

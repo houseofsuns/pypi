@@ -15,8 +15,8 @@ DESCRIPTION="Client side tool for clkhash and blocklib"
 
 HOMEPAGE="https://github.com/data61/anonlink-client"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/32/d6/6f41605dd1072bb6b7d5eec443cf68abce4498c656b0ab249a2b5a30b109/anonlink_client-${REALVERSION}.tar.gz"
-SOURCEFILE="anonlink_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/32/d6/6f41605dd1072bb6b7d5eec443cf68abce4498c656b0ab249a2b5a30b109/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

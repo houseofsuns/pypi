@@ -15,8 +15,8 @@ DESCRIPTION="Reference client for Duo Security APIs"
 
 HOMEPAGE="https://github.com/duosecurity/duo_client_python"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/03/5c/e67bb8009b05e47cc6846033813f30b3daac1d3511ae5b2c1a7de66753f6/duo_client-${REALVERSION}.tar.gz"
-SOURCEFILE="duo_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/03/5c/e67bb8009b05e47cc6846033813f30b3daac1d3511ae5b2c1a7de66753f6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

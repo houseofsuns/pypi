@@ -15,8 +15,8 @@ DESCRIPTION="CLI App to manage window environment variables"
 
 HOMEPAGE="https://github.com/beliaev-maksim/py_setenv"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/27/78/91e53c57ef084d8e70d4e48ed1f5cc175da117ccb0d63d2da79ecc5e92cf/py_setenv-${REALVERSION}.tar.gz"
-SOURCEFILE="py_setenv-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/27/78/91e53c57ef084d8e70d4e48ed1f5cc175da117ccb0d63d2da79ecc5e92cf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

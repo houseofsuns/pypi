@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/38/22/f4b183013bae0cb42da5c17e25e4139a58d85c2cd75c2f0fa017bada0752/watchmen_inquiry_kernel-${REALVERSION}.tar.gz"
-SOURCEFILE="watchmen_inquiry_kernel-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/38/22/f4b183013bae0cb42da5c17e25e4139a58d85c2cd75c2f0fa017bada0752/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

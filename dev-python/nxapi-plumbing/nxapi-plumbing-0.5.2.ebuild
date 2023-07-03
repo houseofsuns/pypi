@@ -15,8 +15,8 @@ DESCRIPTION="A library for managing Cisco devices through NX-API using XML or js
 
 HOMEPAGE="https://github.com/ktbyers/nxapi_plumbing"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/4d/5f/4c1d7dfbf987d3e4725957d0791d3c891c25a472bcee66ab20ebc4beb326/nxapi_plumbing-${REALVERSION}.tar.gz"
-SOURCEFILE="nxapi_plumbing-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4d/5f/4c1d7dfbf987d3e4725957d0791d3c891c25a472bcee66ab20ebc4beb326/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

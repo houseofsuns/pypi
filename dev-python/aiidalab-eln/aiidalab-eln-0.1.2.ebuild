@@ -15,8 +15,8 @@ DESCRIPTION="Package that integrates AiiDAlab with Electronic Laboratory Noteboo
 
 HOMEPAGE="https://github.com/aiidalab/aiidalab-eln"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6e/b1/df4eab59f75c7b37edc1e28c7cecfb3b11a0e5827b74066df73d77b8f80b/aiidalab_eln-${REALVERSION}.tar.gz"
-SOURCEFILE="aiidalab_eln-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6e/b1/df4eab59f75c7b37edc1e28c7cecfb3b11a0e5827b74066df73d77b8f80b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

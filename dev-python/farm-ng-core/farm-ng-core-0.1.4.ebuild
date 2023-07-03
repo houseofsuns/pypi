@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/farm-ng/farm-ng-core"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3b/79/0778b874033ca4cc1dd3ef3b5ec41b16edf11dbea46a6018e7369a4467f4/farm_ng_core-${REALVERSION}.tar.gz"
-SOURCEFILE="farm_ng_core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3b/79/0778b874033ca4cc1dd3ef3b5ec41b16edf11dbea46a6018e7369a4467f4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Python Daily Development Tools"
 
 HOMEPAGE="https://github.com/Eric-jxl/Tools"
 LICENSE="Apache License"
-SRC_URI="https://files.pythonhosted.org/packages/5a/a7/2fd81430a52a8764c2a03772cdbe50fc57e6c61972a9596f77c2f664b439/eric_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="eric_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5a/a7/2fd81430a52a8764c2a03772cdbe50fc57e6c61972a9596f77c2f664b439/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

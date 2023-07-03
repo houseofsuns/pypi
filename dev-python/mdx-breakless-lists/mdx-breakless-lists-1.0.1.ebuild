@@ -15,8 +15,8 @@ DESCRIPTION="Python Markdown package extension to allow lists without a precedin
 
 HOMEPAGE="https://github.com/adamb70/mdx-breakless-lists"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/87/87/e8097f9a40ba0ccc38dc3e2914aac06ef74e8c5e4cefb8fd0d60457f63f2/mdx_breakless_lists-${REALVERSION}.tar.gz"
-SOURCEFILE="mdx_breakless_lists-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/87/87/e8097f9a40ba0ccc38dc3e2914aac06ef74e8c5e4cefb8fd0d60457f63f2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

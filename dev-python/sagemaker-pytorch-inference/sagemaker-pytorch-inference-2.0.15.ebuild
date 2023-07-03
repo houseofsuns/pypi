@@ -15,8 +15,8 @@ DESCRIPTION="Open source library for creating PyTorch containers to run on Amazo
 
 HOMEPAGE="https://github.com/aws/sagemaker-pytorch-inference-toolkit"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/13/15/41a2ad9816b7c4b316bd5f0cb7f4f7948a3c81c6d0b37ba7279661641d37/sagemaker_pytorch_inference-${REALVERSION}.tar.gz"
-SOURCEFILE="sagemaker_pytorch_inference-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/13/15/41a2ad9816b7c4b316bd5f0cb7f4f7948a3c81c6d0b37ba7279661641d37/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

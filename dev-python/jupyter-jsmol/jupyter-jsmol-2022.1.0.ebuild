@@ -15,8 +15,8 @@ DESCRIPTION="JSmol viewer widget for Jupyter"
 
 HOMEPAGE="https://github.com/fekad/jupyter-jsmol"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/96/68/5abc7b170bfdd30514ae21c20e27924058fce1245cb720a258410854a91a/jupyter_jsmol-${REALVERSION}.tar.gz"
-SOURCEFILE="jupyter_jsmol-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/96/68/5abc7b170bfdd30514ae21c20e27924058fce1245cb720a258410854a91a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

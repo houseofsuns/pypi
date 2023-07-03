@@ -15,8 +15,8 @@ DESCRIPTION="This is GUI mode installer for Decentra Network"
 
 HOMEPAGE="https://docs.decentranetwork.net/"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/1f/e3/a8fe13ccfbc0d1dc79283e23338fe2d12d7664de000554acbfb3a6c16591/decentra_network_gui-${REALVERSION}.tar.gz"
-SOURCEFILE="decentra_network_gui-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1f/e3/a8fe13ccfbc0d1dc79283e23338fe2d12d7664de000554acbfb3a6c16591/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

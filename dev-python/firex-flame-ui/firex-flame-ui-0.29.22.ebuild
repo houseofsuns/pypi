@@ -15,8 +15,8 @@ DESCRIPTION="UI for FireX."
 
 HOMEPAGE="https://github.com/FireXStuff/firex-flame-ui"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/2e/cc/18f5b5c193a5a1311b55a0dfdbd9ba216bcc2faf4ed994f24b3c8630e200/firex_flame_ui-${REALVERSION}.tar.gz"
-SOURCEFILE="firex_flame_ui-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2e/cc/18f5b5c193a5a1311b55a0dfdbd9ba216bcc2faf4ed994f24b3c8630e200/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

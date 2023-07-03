@@ -15,8 +15,8 @@ DESCRIPTION="Youtube Downloader GUI"
 
 HOMEPAGE="https://oleksis.github.io/youtube-dl-gui/"
 LICENSE="Unlicense"
-SRC_URI="https://files.pythonhosted.org/packages/f8/39/c979736a35230bcd114d81caa8094a0bc7b0f5ca6818665024b19e48527c/yt_dlg-${REALVERSION}.tar.gz"
-SOURCEFILE="yt_dlg-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f8/39/c979736a35230bcd114d81caa8094a0bc7b0f5ca6818665024b19e48527c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

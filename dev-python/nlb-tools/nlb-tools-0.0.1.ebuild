@@ -15,8 +15,8 @@ DESCRIPTION="Python tools for participating in Neural Latents Benchmark '21"
 
 HOMEPAGE="https://github.com/neurallatents/nlb_tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f6/00/bf16407f4be57bef972fd4623bee8df5c1665bdca156af95bc870610b2f2/nlb_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="nlb_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f6/00/bf16407f4be57bef972fd4623bee8df5c1665bdca156af95bc870610b2f2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

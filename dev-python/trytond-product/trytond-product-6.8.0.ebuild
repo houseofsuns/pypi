@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module with products"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/f4/2d/29ea1c51f2041dd1a80ec146805dfeed6722037973f91dba4b55f95f068c/trytond_product-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_product-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f4/2d/29ea1c51f2041dd1a80ec146805dfeed6722037973f91dba4b55f95f068c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Alibaba Cloud Serverless App Engine (20190506) SDK Library for Pyth
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/64/d8/ba9b0ad8bbaed9a0314f39dea0195f9253f718d1fc215a67a3b3d6b158d6/alibabacloud_sae20190506-${REALVERSION}.tar.gz"
-SOURCEFILE="alibabacloud_sae20190506-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/64/d8/ba9b0ad8bbaed9a0314f39dea0195f9253f718d1fc215a67a3b3d6b158d6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

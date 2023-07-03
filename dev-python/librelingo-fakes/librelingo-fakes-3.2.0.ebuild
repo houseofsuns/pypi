@@ -15,8 +15,8 @@ DESCRIPTION="Fake data for testing LibreLingo-related packages"
 
 HOMEPAGE=""
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/63/b5/3faa45c0259d2b17b2d4d1137a1e37d10387966bd6410ec587731bc4f312/librelingo_fakes-${REALVERSION}.tar.gz"
-SOURCEFILE="librelingo_fakes-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/63/b5/3faa45c0259d2b17b2d4d1137a1e37d10387966bd6410ec587731bc4f312/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

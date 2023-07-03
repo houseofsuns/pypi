@@ -15,8 +15,8 @@ DESCRIPTION="Waffle Utils 🥛"
 
 HOMEPAGE="https://github.com/snuailab/waffle_utils"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/1a/fa/1f980e6d52e9fc85930b5fa1a6ae31b64ceffe2dc3957ea3b16d1eb54f41/waffle_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="waffle_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1a/fa/1f980e6d52e9fc85930b5fa1a6ae31b64ceffe2dc3957ea3b16d1eb54f41/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

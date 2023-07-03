@@ -15,8 +15,8 @@ DESCRIPTION="A small example package"
 
 HOMEPAGE="https://github.com/valluzzi/gecosistema_learning.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cb/e9/df310e3c43993ed7a428e2c409d60b82aeb95dd83ca5969283019a2d7420/gecosistema_learning-${REALVERSION}.tar.gz"
-SOURCEFILE="gecosistema_learning-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cb/e9/df310e3c43993ed7a428e2c409d60b82aeb95dd83ca5969283019a2d7420/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

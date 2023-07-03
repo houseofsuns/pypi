@@ -15,8 +15,8 @@ DESCRIPTION="Persistence layer utilities for mir project"
 
 HOMEPAGE="https://github.com/Navalmartin/mir_persistence_layer_utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/11/aa/8989cd03c489e8e877fc3231706d7cbac7432338a6b6cf9cb091ac9e9d1e/navalmartin_mir_db_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="navalmartin_mir_db_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/11/aa/8989cd03c489e8e877fc3231706d7cbac7432338a6b6cf9cb091ac9e9d1e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

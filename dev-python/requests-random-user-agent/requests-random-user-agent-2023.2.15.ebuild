@@ -15,8 +15,8 @@ DESCRIPTION="Automatically generate a random User Agent for the requests library
 
 HOMEPAGE="https://github.com/DavidWittman/requests-random-user-agent"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6a/dc/305960124ac0b19e2d50c879520a1e4d646d10509722491fce6026e85a72/requests_random_user_agent-${REALVERSION}.tar.gz"
-SOURCEFILE="requests_random_user_agent-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6a/dc/305960124ac0b19e2d50c879520a1e4d646d10509722491fce6026e85a72/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

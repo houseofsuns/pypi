@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module to import OFX statements"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/9e/a2/01b42e9762c9799cadf0ed882d59a1986100be4ca08c90b6471a816b9cc2/trytond_account_statement_ofx-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_account_statement_ofx-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9e/a2/01b42e9762c9799cadf0ed882d59a1986100be4ca08c90b6471a816b9cc2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

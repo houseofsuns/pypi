@@ -15,8 +15,8 @@ DESCRIPTION="A set of tools for OS2MO data import and export"
 
 HOMEPAGE="https://git.magenta.dk/rammearkitektur/os2mo_data_import"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/92/68/5c45e0ed0c9e8c22ecbafa0774ed5a4e36d368eb78a6b3e68686a4d36c52/os2mo_data_import-${REALVERSION}.tar.gz"
-SOURCEFILE="os2mo_data_import-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/92/68/5c45e0ed0c9e8c22ecbafa0774ed5a4e36d368eb78a6b3e68686a4d36c52/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

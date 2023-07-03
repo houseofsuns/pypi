@@ -15,8 +15,8 @@ DESCRIPTION="a jinja2 extension to use humanize library inside jinja2 templates"
 
 HOMEPAGE="https://github.com/metwork-framework/jinja2_humanize_extension"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/24/63/4bca2a5af5d2900a1bf9cf6c30a4010924959aede3a3e13524a0b259d3fc/jinja2_humanize_extension-${REALVERSION}.tar.gz"
-SOURCEFILE="jinja2_humanize_extension-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/24/63/4bca2a5af5d2900a1bf9cf6c30a4010924959aede3a3e13524a0b259d3fc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

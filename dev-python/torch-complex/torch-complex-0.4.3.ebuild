@@ -15,8 +15,8 @@ DESCRIPTION="A fugacious python class for PyTorch-ComplexTensor"
 
 HOMEPAGE="https://github.com/kamo-naoyuki/torch_complex"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1d/fe/638980e57d68dd79fa94d7db43598b2c2bceb74a3715774d854476c556d1/torch_complex-${REALVERSION}.tar.gz"
-SOURCEFILE="torch_complex-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1d/fe/638980e57d68dd79fa94d7db43598b2c2bceb74a3715774d854476c556d1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

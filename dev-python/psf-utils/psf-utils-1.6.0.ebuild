@@ -15,8 +15,8 @@ DESCRIPTION="Cadence PSF file utilities"
 
 HOMEPAGE="https://psf_utils.readthedocs.io"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/b4/f5/521ff8811898637eb361e947b7e611058b89dc265af6127aeabb5870962f/psf_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="psf_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b4/f5/521ff8811898637eb361e947b7e611058b89dc265af6127aeabb5870962f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

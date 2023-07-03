@@ -15,8 +15,8 @@ DESCRIPTION="Python bindings for the ed25519-zebra RUST crate"
 
 HOMEPAGE="https://github.com/polkascan/py-ed25519-zebra-bindings"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/96/d5/ed2b224fb83a75b6e8c8d78de94834ba1cc0dca3b191ca4169040101cf27/py_ed25519_zebra_bindings-${REALVERSION}.tar.gz"
-SOURCEFILE="py_ed25519_zebra_bindings-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/96/d5/ed2b224fb83a75b6e8c8d78de94834ba1cc0dca3b191ca4169040101cf27/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

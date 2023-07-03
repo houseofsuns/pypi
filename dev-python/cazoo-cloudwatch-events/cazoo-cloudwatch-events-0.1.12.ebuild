@@ -15,8 +15,8 @@ DESCRIPTION="Cazoo common library for Cloudwatch Events"
 
 HOMEPAGE="https://github.com/Cazoo-uk/cazoo-cloudwatch-events/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/91/c3/1eaf5eed62df65f58d2c9084c3c2a6717ba3724cc60158b5c5cbe0971f1f/cazoo_cloudwatch_events-${REALVERSION}.tar.gz"
-SOURCEFILE="cazoo_cloudwatch_events-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/91/c3/1eaf5eed62df65f58d2c9084c3c2a6717ba3724cc60158b5c5cbe0971f1f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

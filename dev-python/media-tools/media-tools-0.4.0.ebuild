@@ -15,8 +15,8 @@ DESCRIPTION="Creating and managing playlists, and managing the filenames and dir
 
 HOMEPAGE="https://gitlab.com/lilacashes/music-library-tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e1/02/717c60a03bfb1871e23a0ef3d489def8797e92f3f07ecd92033218bde6ab/media_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="media_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e1/02/717c60a03bfb1871e23a0ef3d489def8797e92f3f07ecd92033218bde6ab/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

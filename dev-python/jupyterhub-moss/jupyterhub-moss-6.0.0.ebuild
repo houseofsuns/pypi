@@ -15,8 +15,8 @@ DESCRIPTION="JupyterHub SLURM Spawner with specific spawn page"
 
 HOMEPAGE="https://github.com/silx-kit/jupyterhub_moss"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e3/4a/7d31411bd1ad264c5abca9678239d6ccc832e430750bac2c31542f8d146f/jupyterhub_moss-${REALVERSION}.tar.gz"
-SOURCEFILE="jupyterhub_moss-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e3/4a/7d31411bd1ad264c5abca9678239d6ccc832e430750bac2c31542f8d146f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Alibaba Cloud DAS (20200116) SDK Library for Python"
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/3c/1b/723033d6a85bad2ab530132051f3c8d272d89b55dccca2bed2eedc8e822c/alibabacloud_das20200116-${REALVERSION}.tar.gz"
-SOURCEFILE="alibabacloud_das20200116-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3c/1b/723033d6a85bad2ab530132051f3c8d272d89b55dccca2bed2eedc8e822c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

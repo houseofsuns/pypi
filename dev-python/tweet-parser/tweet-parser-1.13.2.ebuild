@@ -15,8 +15,8 @@ DESCRIPTION="Tools for Tweet parsing"
 
 HOMEPAGE="https://github.com/twitterdev/tweet_parser"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/98/27/f02fbe44e5b1757246a4a53b8f24695835787d835729997c953459df5efc/tweet_parser-${REALVERSION}.tar.gz"
-SOURCEFILE="tweet_parser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/98/27/f02fbe44e5b1757246a4a53b8f24695835787d835729997c953459df5efc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

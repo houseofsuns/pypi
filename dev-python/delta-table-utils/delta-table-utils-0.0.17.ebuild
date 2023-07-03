@@ -15,8 +15,8 @@ DESCRIPTION="Delta table utilities."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c1/26/3f5c0aaccdf171bce44c8274ba322490089dabf7c54839ce568b75a91a73/delta_table_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="delta_table_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c1/26/3f5c0aaccdf171bce44c8274ba322490089dabf7c54839ce568b75a91a73/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

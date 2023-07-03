@@ -15,8 +15,8 @@ DESCRIPTION="A library, that makes using SQLAlchemy tables with FastAPI easy. It
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2e/a3/f4f24da4d87b5ff3c422dbe5a2aa857bc54c8ae23f6e8b9ae260cc7267e2/fastapi_datatables-${REALVERSION}.tar.gz"
-SOURCEFILE="fastapi_datatables-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2e/a3/f4f24da4d87b5ff3c422dbe5a2aa857bc54c8ae23f6e8b9ae260cc7267e2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

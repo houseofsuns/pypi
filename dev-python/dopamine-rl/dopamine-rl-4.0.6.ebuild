@@ -15,8 +15,8 @@ DESCRIPTION="Dopamine: A framework for flexible Reinforcement Learning research"
 
 HOMEPAGE="https://github.com/google/dopamine"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ec/ec/ab07ca64802f209f7dc23a653c91015fb7459fba60866279684ded589725/dopamine_rl-${REALVERSION}.tar.gz"
-SOURCEFILE="dopamine_rl-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ec/ec/ab07ca64802f209f7dc23a653c91015fb7459fba60866279684ded589725/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

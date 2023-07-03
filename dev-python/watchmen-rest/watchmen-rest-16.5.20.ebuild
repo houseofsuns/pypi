@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b1/37/dd37fb6b5d62436abe19013d0e0f67f229ac9c62a588c6db2867a4ef848a/watchmen_rest-${REALVERSION}.tar.gz"
-SOURCEFILE="watchmen_rest-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b1/37/dd37fb6b5d62436abe19013d0e0f67f229ac9c62a588c6db2867a4ef848a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

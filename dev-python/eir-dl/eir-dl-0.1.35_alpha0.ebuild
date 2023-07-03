@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/c6/25/71b7cd62ce9d787a2daf82067950d38138ef8299574da6542412b98177b3/eir_dl-${REALVERSION}.tar.gz"
-SOURCEFILE="eir_dl-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c6/25/71b7cd62ce9d787a2daf82067950d38138ef8299574da6542412b98177b3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

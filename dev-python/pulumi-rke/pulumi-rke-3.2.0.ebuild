@@ -15,8 +15,8 @@ DESCRIPTION="A Pulumi package for creating and managing rke cloud resources."
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c3/e2/f75d83f98c694d6874aa505e80fce4c557aaf4450ef6f8667c7bb4811f8a/pulumi_rke-${REALVERSION}.tar.gz"
-SOURCEFILE="pulumi_rke-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c3/e2/f75d83f98c694d6874aa505e80fce4c557aaf4450ef6f8667c7bb4811f8a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

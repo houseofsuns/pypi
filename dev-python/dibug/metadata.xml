@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/star0202/dibug/release.yml?branch=stable&amp;style=flat-square)](https://github.com/star0202/dibug/actions/workflows/release.yml)[![GitHub](https://img.shields.io/github/license/star0202/dibug?style=flat-square)](https://github.com/star0202/dibug/blob/master/LICENSE)[![PyPI](https://img.shields.io/pypi/v/dibug?style=flat-square)](https://pypi.org/project/dibug)[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/dibug?style=flat-square)](https://pypi.org/project/dibug)# dibugDebugging Tool for discord.py# InstallationPython 3.10+ is required```shpip install dibug```# Usage```pyfrom discord import Client, Intents, Messagefrom dibug import Dibuggerowners = [1234567890]  # owners idasync def user_has_perm(msg: Message) -&gt; bool:    return msg.author.id in ownersintents = Intents.default()intents.message_content = True  # dibug requires message content intentbot = Client(intents=intents)Dibugger.attach(bot, user_has_perm)bot.run(&quot;token&quot;)```# Commands### Default Prefix: `!dbg`- `&lt;prefix&gt;` | `&lt;prefix&gt; info | i`: Show bot info- `&lt;prefix&gt; eval | e | python | py &lt;code&gt;`: Evaluate python code- `&lt;prefix&gt; kill | k | shutdown`: Kill bot process- `&lt;prefix&gt; shell | sh &lt;code&gt;`: Execute shell command</longdescription>
+</pkgmetadata>

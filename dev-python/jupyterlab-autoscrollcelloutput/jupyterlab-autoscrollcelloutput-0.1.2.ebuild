@@ -15,8 +15,8 @@ DESCRIPTION="A JupyterLab extension."
 
 HOMEPAGE="https://github.com/aldder/jupyterlab_autoscrollcelloutput"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/eb/71/972ddc9826382ba90cfbcd75a74bf8682c19c10a2820f8936d964a38637b/jupyterlab_autoscrollcelloutput-${REALVERSION}.tar.gz"
-SOURCEFILE="jupyterlab_autoscrollcelloutput-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/eb/71/972ddc9826382ba90cfbcd75a74bf8682c19c10a2820f8936d964a38637b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

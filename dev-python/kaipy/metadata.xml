@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Project KaijuSimulation tools for space plasmas using fluid and particle models.To build:Create a build folder.From inside the build folder, call cmake on the base kaiju directory.From inside the build folder, call &quot;make&quot; to build the application.To use Python tools:Assuming $KAIJUDIR is base installation directory, add $KAIJUDIR/scripts to $PATH and $KAIJUDIR to $PYTHONPATH.  For help, see the wiki athttps://bitbucket.org/aplkaiju/kaiju/wiki/Home</longdescription>
+</pkgmetadata>

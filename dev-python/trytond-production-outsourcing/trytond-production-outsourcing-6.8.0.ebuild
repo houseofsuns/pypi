@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module to outsource production"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/69/bc/7222a2c88277735234410090ed99b37c8b720d174fefdbde85dc15620be5/trytond_production_outsourcing-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_production_outsourcing-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/69/bc/7222a2c88277735234410090ed99b37c8b720d174fefdbde85dc15620be5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

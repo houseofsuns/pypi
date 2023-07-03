@@ -15,8 +15,8 @@ DESCRIPTION="The Basis Set Exchange"
 
 HOMEPAGE="https://github.com/MolSSI-BSE/basis_set_exchange"
 LICENSE="BSD-3C"
-SRC_URI="https://files.pythonhosted.org/packages/46/66/ba696586dbceea9483739f5e11be1b8602d75c465b83fdf8dbaf541c5f1c/basis_set_exchange-${REALVERSION}.tar.gz"
-SOURCEFILE="basis_set_exchange-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/46/66/ba696586dbceea9483739f5e11be1b8602d75c465b83fdf8dbaf541c5f1c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

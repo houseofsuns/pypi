@@ -15,8 +15,8 @@ DESCRIPTION="A CPython extension supporting pyinstrument"
 
 HOMEPAGE="https://github.com/joerick/pyinstrument_cext"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/54/b3/3cf887fecbca2f63b08441e8f113f7559fc6f1d379e2527a51692d0ec68c/pyinstrument_cext-${REALVERSION}.tar.gz"
-SOURCEFILE="pyinstrument_cext-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/54/b3/3cf887fecbca2f63b08441e8f113f7559fc6f1d379e2527a51692d0ec68c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

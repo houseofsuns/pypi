@@ -15,8 +15,8 @@ DESCRIPTION="ae namespace module portion core: application core constants, helpe
 
 HOMEPAGE="https://gitlab.com/ae-group/ae_core"
 LICENSE="OSI Approved :: GNU General Public License v3 or later GPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/65/78/dc4b36a57da4028a424c9273cd4bd744f0a095486f97900bc94c822886dc/ae_core-${REALVERSION}.tar.gz"
-SOURCEFILE="ae_core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/65/78/dc4b36a57da4028a424c9273cd4bd744f0a095486f97900bc94c822886dc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

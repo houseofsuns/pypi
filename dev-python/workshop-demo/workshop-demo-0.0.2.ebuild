@@ -15,8 +15,8 @@ DESCRIPTION="A demo napari plugin incorporating reader, writer and dock widget c
 
 HOMEPAGE="https://github.com/DragaDoncila/workshop-demo"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/8d/3b/00c3abba6228b53235eb9bff3567dd0e982d0e8427d4ed5cc384a61cc159/workshop_demo-${REALVERSION}.tar.gz"
-SOURCEFILE="workshop_demo-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8d/3b/00c3abba6228b53235eb9bff3567dd0e982d0e8427d4ed5cc384a61cc159/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

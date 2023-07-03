@@ -15,8 +15,8 @@ DESCRIPTION="A plugin to use Honeywell with QIRI Parts"
 
 HOMEPAGE="https://github.com/QunaSys/quri-parts"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/66/f5/393164b4dcd51b8e85fc60f0a4c6c391066a6b6640051c38fa655e96ed2b/quri_parts_honeywell-${REALVERSION}.tar.gz"
-SOURCEFILE="quri_parts_honeywell-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/66/f5/393164b4dcd51b8e85fc60f0a4c6c391066a6b6640051c38fa655e96ed2b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

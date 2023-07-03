@@ -15,8 +15,8 @@ DESCRIPTION="A cli tool to pull movie information about actors/actresses."
 
 HOMEPAGE="https://github.com/Zocozoro/imdb"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/89/9d/2ab1d35106ba5edf882ad8105815dd9864734146d724e0df8789282d59d0/imdb_cli_tool-${REALVERSION}.tar.gz"
-SOURCEFILE="imdb_cli_tool-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/89/9d/2ab1d35106ba5edf882ad8105815dd9864734146d724e0df8789282d59d0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

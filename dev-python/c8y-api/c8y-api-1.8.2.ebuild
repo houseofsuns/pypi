@@ -15,8 +15,8 @@ DESCRIPTION="Python client for the Cumulocity REST API"
 
 HOMEPAGE="https://github.com/SoftwareAG/cumulocity-python-api"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/27/16/a3bb167dc33be84d984fabb26f4ebc21b2fd8459d7dc948919e8da78c248/c8y_api-${REALVERSION}.tar.gz"
-SOURCEFILE="c8y_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/27/16/a3bb167dc33be84d984fabb26f4ebc21b2fd8459d7dc948919e8da78c248/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

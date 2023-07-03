@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Abstract Cachememory cache | redis cache하루 단위의 rcp_no 저장해서 이미 처리된 rcp_no 를 구분한다collection compare for distributed environment</longdescription>
+</pkgmetadata>

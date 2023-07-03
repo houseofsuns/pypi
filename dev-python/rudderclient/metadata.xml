@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Rudder clientThe official library for Realnaut Rudder tool. Realnaut Rudder tool backend consist of multiple Cloud Runs and this library contains the necessary code for these services to communicate with different APIs.</longdescription>
+</pkgmetadata>

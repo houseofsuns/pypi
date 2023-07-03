@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># E-mail Cloak: A Plugin for Pelican[![PyPI Version](https://img.shields.io/pypi/v/pelican-email-cloak)](https://pypi.org/project/pelican-email-cloak/)![License](https://img.shields.io/pypi/l/pelican-email-cloak?color=blue)E-mail cloaking plugin for Pelican## InstallationThis plugin can be installed via:    python -m pip install pelican-email-cloak## UsageTo use this plugin, add the following to your `pelicanconf.py`:```pythonPLUGINS = [    # ...    'email_cloak',    # ...]```Pelican should automatically discover the plugin after installation under the namespace `pelican.plugins`.E-mails in articles and pages will be cloaked.## Changelog-   0.0.1 up to 0.0.3: Initial release    -   Version bumped to update PyPI description## LicenseThis project is licensed under the MIT license.</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="Dash components for JBrowse 2 embeddable components"
 
 HOMEPAGE="https://github.com/GMOD/dash_jbrowse"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/a0/5a/8c24e43ac3dc99eea25baa7e538dca50636a7547aa7fd108908a39c3fef5/dash_jbrowse-${REALVERSION}.tar.gz"
-SOURCEFILE="dash_jbrowse-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a0/5a/8c24e43ac3dc99eea25baa7e538dca50636a7547aa7fd108908a39c3fef5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="AI_HUB utils package"
 
 HOMEPAGE="https://github.com/gaoxiaos/AI_HUB"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a7/5c/ff87471a72519800e6346a79e545f573e70bfeee06bb5422eb50ce266ad5/ai_hub-${REALVERSION}.tar.gz"
-SOURCEFILE="ai_hub-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a7/5c/ff87471a72519800e6346a79e545f573e70bfeee06bb5422eb50ce266ad5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

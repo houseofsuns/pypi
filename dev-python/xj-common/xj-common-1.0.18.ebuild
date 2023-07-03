@@ -15,8 +15,8 @@ DESCRIPTION="公共模块"
 
 HOMEPAGE=""
 LICENSE="apache 3.0"
-SRC_URI="https://files.pythonhosted.org/packages/ad/ba/2707150c731e73f5f9ed9e9a78dd370c30ea97ffc7289b38e0ec795be99c/xj_common-${REALVERSION}.tar.gz"
-SOURCEFILE="xj_common-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ad/ba/2707150c731e73f5f9ed9e9a78dd370c30ea97ffc7289b38e0ec795be99c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

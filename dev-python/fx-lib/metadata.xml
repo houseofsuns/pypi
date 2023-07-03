@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>======fx-lib======Frank Xu(FX)'s personal FX common lib in PythonInstall--------    .. code-block:: bash        pip install git+https://github.com/frankyxhl/py_fx_lib    or    .. code-block:: bash        pip install fx-libLog Module----------    .. code-block:: python        import logging        from fx_lib.log import setup_logging        setup_logging(&quot;.sync.logging.yaml&quot;, default_level=logging.DEBUG)        log = logging.getLogger(&quot;frank&quot;)        # Usage        # log.info(&quot;Hello, World&quot;)Email Module------------    .. code-block:: python        from fx_lib.zoho_email import Email        # Usage        # with Email.read_config() as e:        #     e.send(&quot;Email Title&quot;, &quot;Content&quot;)Example**********************Please check here `Config example file &lt;docs/log_config_example.yaml&gt;`_=======History=======0.1.0 (2019-07-28)------------------* First release on PyPI.</longdescription>
+</pkgmetadata>

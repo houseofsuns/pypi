@@ -15,8 +15,8 @@ DESCRIPTION="Filesystem tree utilities"
 
 HOMEPAGE="https://github.com/hile/pathlib-tree"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/17/6e/791b4d4bced8908412480eebbcfb0d4ef73ea28ee51445ffafa55f899b0f/pathlib_tree-${REALVERSION}.tar.gz"
-SOURCEFILE="pathlib_tree-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/17/6e/791b4d4bced8908412480eebbcfb0d4ef73ea28ee51445ffafa55f899b0f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

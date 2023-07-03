@@ -15,8 +15,8 @@ DESCRIPTION="Investment Research for Everyone, Anywhere."
 
 HOMEPAGE="https://openbb.co"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a1/93/42ac2ca9d331f04c37feb4d3898b987e56e6beeb216fcc0a87c346e6de47/openbb_nightly-${REALVERSION}.tar.gz"
-SOURCEFILE="openbb_nightly-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a1/93/42ac2ca9d331f04c37feb4d3898b987e56e6beeb216fcc0a87c346e6de47/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

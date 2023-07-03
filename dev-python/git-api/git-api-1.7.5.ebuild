@@ -15,8 +15,8 @@ DESCRIPTION="A GitHub API. Extracts data from GitHub into json style data."
 
 HOMEPAGE="https://github.com/JBYT27/Git-API"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/27/be/a783128b2becc5b4691b448b0984bce510afa79135be70a5adf1391336a3/git_api-${REALVERSION}.tar.gz"
-SOURCEFILE="git_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/27/be/a783128b2becc5b4691b448b0984bce510afa79135be70a5adf1391336a3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

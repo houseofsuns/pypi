@@ -15,8 +15,8 @@ DESCRIPTION="Nautobot Secrets Providers Plugin."
 
 HOMEPAGE="https://github.com/nautobot/nautobot-plugin-secrets-providers"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/7a/72/a69606a3e18d988c84882be6c11f159b04d346da304e0227b7bf055cfa02/blackdark_nautobot_secrets_providers-${REALVERSION}.tar.gz"
-SOURCEFILE="blackdark_nautobot_secrets_providers-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7a/72/a69606a3e18d988c84882be6c11f159b04d346da304e0227b7bf055cfa02/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

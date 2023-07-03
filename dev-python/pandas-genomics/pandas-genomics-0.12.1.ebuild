@@ -15,8 +15,8 @@ DESCRIPTION="Pandas ExtensionDtypes and ExtensionArray for working with genomics
 
 HOMEPAGE="https://github.com/HallLab/pandas-genomics/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/72/f2/fead449c0609df1d016655823521bc20e0ca7679159c13431060cf08dd1b/pandas_genomics-${REALVERSION}.tar.gz"
-SOURCEFILE="pandas_genomics-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/72/f2/fead449c0609df1d016655823521bc20e0ca7679159c13431060cf08dd1b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

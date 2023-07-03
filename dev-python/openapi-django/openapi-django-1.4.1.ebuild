@@ -15,8 +15,8 @@ DESCRIPTION="OpenApi for django"
 
 HOMEPAGE="https://gitlab.com/kappasama.ks/openapi_django"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/85/21/16ea620323099d0aa6c684e8ca736df75f6ecc9d34687901f929ddb3a3f2/openapi_django-${REALVERSION}.tar.gz"
-SOURCEFILE="openapi_django-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/85/21/16ea620323099d0aa6c684e8ca736df75f6ecc9d34687901f929ddb3a3f2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

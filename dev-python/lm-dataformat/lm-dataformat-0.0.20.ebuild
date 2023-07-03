@@ -15,8 +15,8 @@ DESCRIPTION="A utility for storing and reading files for LM training."
 
 HOMEPAGE="https://github.com/leogao2/lm_dataformat"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/75/9d/bd07ed572bde0e1c0eefb8c3ef9ca2fb31592946e82fef0ce902534e55e0/lm_dataformat-${REALVERSION}.tar.gz"
-SOURCEFILE="lm_dataformat-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/75/9d/bd07ed572bde0e1c0eefb8c3ef9ca2fb31592946e82fef0ce902534e55e0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

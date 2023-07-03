@@ -15,8 +15,8 @@ DESCRIPTION="pylint-venv provides a Pylint init-hook to use the same Pylint inst
 
 HOMEPAGE="https://github.com/jgosmann/pylint-venv/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ea/04/fa516038113abce53f817a8f749e8c80c5876463bdfa58458eb93e42776d/pylint_venv-${REALVERSION}.tar.gz"
-SOURCEFILE="pylint_venv-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ea/04/fa516038113abce53f817a8f749e8c80c5876463bdfa58458eb93e42776d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

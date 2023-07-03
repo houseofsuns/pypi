@@ -15,8 +15,8 @@ DESCRIPTION="Parse statute, decision data from a specified location"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c9/d8/4091783725ead7ca5eb71afe82b4a0427e2ae73dbaf316b88d25ba23ad9e/acquisition_extractor-${REALVERSION}.tar.gz"
-SOURCEFILE="acquisition_extractor-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c9/d8/4091783725ead7ca5eb71afe82b4a0427e2ae73dbaf316b88d25ba23ad9e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

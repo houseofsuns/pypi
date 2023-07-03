@@ -15,8 +15,8 @@ DESCRIPTION="Lora beYond Conventional methods, Other Rank adaptation Implementat
 
 HOMEPAGE="https://github.com/KohakuBlueleaf/LyCORIS"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a4/9c/5f211ae9d1784d47fc4380d86e032d06770044bbaff92e4480e58da53470/lycoris_lora-${REALVERSION}.tar.gz"
-SOURCEFILE="lycoris_lora-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a4/9c/5f211ae9d1784d47fc4380d86e032d06770044bbaff92e4480e58da53470/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

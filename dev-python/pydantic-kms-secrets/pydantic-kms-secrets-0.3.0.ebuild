@@ -15,8 +15,8 @@ DESCRIPTION="Utility to decrypt and encrypt secrets using AWS KMS keys that is c
 
 HOMEPAGE="https://github.com/nplutt/pydantic-kms-secrets"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8e/f4/26541c4916a0b571997e90db31653d1152e50ebd36b06002a603306aa283/pydantic_kms_secrets-${REALVERSION}.tar.gz"
-SOURCEFILE="pydantic_kms_secrets-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8e/f4/26541c4916a0b571997e90db31653d1152e50ebd36b06002a603306aa283/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

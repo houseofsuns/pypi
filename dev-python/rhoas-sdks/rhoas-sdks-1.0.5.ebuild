@@ -15,8 +15,8 @@ DESCRIPTION="A package which includes RHOAS SDKs"
 
 HOMEPAGE=""
 LICENSE="Apache License"
-SRC_URI="https://files.pythonhosted.org/packages/69/f9/81eecbe6ed145a122bd62afdd2820785a4423068251bfc2953c0691e8110/rhoas_sdks-${REALVERSION}.tar.gz"
-SOURCEFILE="rhoas_sdks-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/69/f9/81eecbe6ed145a122bd62afdd2820785a4423068251bfc2953c0691e8110/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

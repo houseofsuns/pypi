@@ -15,8 +15,8 @@ DESCRIPTION="Ensure that gevent is properly patched when invoking pytest"
 
 HOMEPAGE="https://github.com/asottile/pytest-gevent"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ab/49/cbed2ecff68e851a454437e7a80f05e483409eff3a6bef9fab31038d4018/pytest_gevent-${REALVERSION}.tar.gz"
-SOURCEFILE="pytest_gevent-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ab/49/cbed2ecff68e851a454437e7a80f05e483409eff3a6bef9fab31038d4018/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

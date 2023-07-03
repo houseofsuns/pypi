@@ -15,8 +15,8 @@ DESCRIPTION="Test django schema and data migrations, including ordering"
 
 HOMEPAGE="https://github.com/wemake-services/django-test-migrations"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/66/dc/2252f7c674ea5f8a43415b7a7a5f6b5fee8752f85cbef797e227c2d24733/django_test_migrations-${REALVERSION}.tar.gz"
-SOURCEFILE="django_test_migrations-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/66/dc/2252f7c674ea5f8a43415b7a7a5f6b5fee8752f85cbef797e227c2d24733/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

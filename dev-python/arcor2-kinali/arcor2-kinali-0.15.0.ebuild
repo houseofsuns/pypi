@@ -15,8 +15,8 @@ DESCRIPTION="ARCOR2 integration for Kinali services."
 
 HOMEPAGE=""
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/c3/90/4b2a2ad34a11e267cc61bea7a3c19754d5d2e556950ea6279a9d6efcc5fa/arcor2_kinali-${REALVERSION}.tar.gz"
-SOURCEFILE="arcor2_kinali-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c3/90/4b2a2ad34a11e267cc61bea7a3c19754d5d2e556950ea6279a9d6efcc5fa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

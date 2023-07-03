@@ -15,8 +15,8 @@ DESCRIPTION="Datamodel Code Generator"
 
 HOMEPAGE="https://github.com/koxudaxi/datamodel-code-generator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2a/b2/fe03c5c9f7daabf8cfb20b1a2f56bc4a276ae84c788a3e99cade56e824c3/datamodel_code_generator-${REALVERSION}.tar.gz"
-SOURCEFILE="datamodel_code_generator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2a/b2/fe03c5c9f7daabf8cfb20b1a2f56bc4a276ae84c788a3e99cade56e824c3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

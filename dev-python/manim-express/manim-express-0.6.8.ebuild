@@ -15,8 +15,8 @@ DESCRIPTION="Animation engine for explanatory math videos"
 
 HOMEPAGE="https://github.com/beidongjiedeguang/manim-express"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f5/43/4af11159f602e01bcf716bd09eb2386ebfa9e264b9c32bbfe8dca94305c9/manim_express-${REALVERSION}.tar.gz"
-SOURCEFILE="manim_express-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f5/43/4af11159f602e01bcf716bd09eb2386ebfa9e264b9c32bbfe8dca94305c9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

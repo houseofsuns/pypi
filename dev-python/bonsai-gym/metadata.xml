@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Bonsai Gym Common=================A python library for integrating Bonsai BRAIN with Open AI Gym environments.Installation------------Install the latest stable from PyPI:`$ pip install bonsai-gym`Usage-----Once installed, import `bonsai_gym` in order to accessbase class `GymSimulator`, which implements all of theenvironment-independent Bonsai SDK integrations necessary totrain a Bonsai BRAIN to play an OpenAI Gym simulator.::    import gym    from bonsai_gym import GymSimulator    class CartPoleSimulator(GymSimulator):        # Perform cartpole-specific integrations here.</longdescription>
+</pkgmetadata>

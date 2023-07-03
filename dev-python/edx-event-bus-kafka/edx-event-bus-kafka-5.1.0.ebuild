@@ -15,8 +15,8 @@ DESCRIPTION="Kafka implementation for Open edX event bus."
 
 HOMEPAGE="https://github.com/openedx/event-bus-kafka"
 LICENSE="AGPL 3.0"
-SRC_URI="https://files.pythonhosted.org/packages/7e/5f/7d37868734a7d63aa35bb14281a9217a325b5233dca8c543e8de548cfffc/edx_event_bus_kafka-${REALVERSION}.tar.gz"
-SOURCEFILE="edx_event_bus_kafka-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7e/5f/7d37868734a7d63aa35bb14281a9217a325b5233dca8c543e8de548cfffc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

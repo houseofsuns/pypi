@@ -15,8 +15,8 @@ DESCRIPTION="A package build from Tensorflow's object detection API."
 
 HOMEPAGE="https://github.com/brandonschabell/models/tree/master/research/object_detection"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/61/40/00826e52abc78b1fac0c3fbabdbede418de13cd177fb1abdc5e9f2f6ff99/object_detection-${REALVERSION}.tar.gz"
-SOURCEFILE="object_detection-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/61/40/00826e52abc78b1fac0c3fbabdbede418de13cd177fb1abdc5e9f2f6ff99/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Package description"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a4/f4/e1d793c590d1f089c31c49035a93f438bc229c8ce5ef8d86ddaad68a99f1/arcane_mct-${REALVERSION}.tar.gz"
-SOURCEFILE="arcane_mct-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a4/f4/e1d793c590d1f089c31c49035a93f438bc229c8ce5ef8d86ddaad68a99f1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

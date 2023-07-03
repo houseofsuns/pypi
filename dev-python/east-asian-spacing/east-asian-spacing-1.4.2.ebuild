@@ -15,8 +15,8 @@ DESCRIPTION="East Asian Contextual Spacing Build Tools"
 
 HOMEPAGE="https://github.com/kojiishi/east_asian_spacing"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/62/76/37f473abbfcb826786a14de2cf30f82d2b0550e1e3b8978774e48004ba2a/east_asian_spacing-${REALVERSION}.tar.gz"
-SOURCEFILE="east_asian_spacing-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/62/76/37f473abbfcb826786a14de2cf30f82d2b0550e1e3b8978774e48004ba2a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

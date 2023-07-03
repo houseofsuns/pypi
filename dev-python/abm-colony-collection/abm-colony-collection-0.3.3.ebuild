@@ -15,8 +15,8 @@ DESCRIPTION="Collection of tasks for analyzing colony dynamics."
 
 HOMEPAGE=""
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/48/0e/157520c16571b9da32b9a391e5b703ae835f4ee46a5a2d35b8d5f4c93414/abm_colony_collection-${REALVERSION}.tar.gz"
-SOURCEFILE="abm_colony_collection-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/48/0e/157520c16571b9da32b9a391e5b703ae835f4ee46a5a2d35b8d5f4c93414/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

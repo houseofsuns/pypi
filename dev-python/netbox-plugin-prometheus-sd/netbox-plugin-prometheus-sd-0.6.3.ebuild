@@ -15,8 +15,8 @@ DESCRIPTION="A Netbox plugin to provide Netbox entires to Prometheus HTTP servic
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/62/56/3fef3480177f1e5a92dc93281ce000ff6ea8024eebc9382b81da73fcc2f1/netbox_plugin_prometheus_sd-${REALVERSION}.tar.gz"
-SOURCEFILE="netbox_plugin_prometheus_sd-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/62/56/3fef3480177f1e5a92dc93281ce000ff6ea8024eebc9382b81da73fcc2f1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

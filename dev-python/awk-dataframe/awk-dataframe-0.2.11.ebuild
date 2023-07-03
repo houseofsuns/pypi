@@ -15,8 +15,8 @@ DESCRIPTION="Wrapper around awk to use as a dataframe implementation in python"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9f/7a/9781efde656f5a1aefa755b403a8a5c1a42e875bef8bd56d011452cec530/awk_dataframe-${REALVERSION}.tar.gz"
-SOURCEFILE="awk_dataframe-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9f/7a/9781efde656f5a1aefa755b403a8a5c1a42e875bef8bd56d011452cec530/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

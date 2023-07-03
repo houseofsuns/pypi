@@ -15,8 +15,8 @@ DESCRIPTION="A Python API client for the Tyba Public API"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a2/6c/58f69240c6c0e648100a4b22f4fece1f5e298e8b7afb20b49cf9673c51eb/tyba_client-${REALVERSION}.tar.gz"
-SOURCEFILE="tyba_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a2/6c/58f69240c6c0e648100a4b22f4fece1f5e298e8b7afb20b49cf9673c51eb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

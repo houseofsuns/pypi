@@ -15,8 +15,8 @@ DESCRIPTION="Officially supported models for the AllenNLP framework"
 
 HOMEPAGE="https://github.com/allenai/allennlp-models"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/89/1e/a8cd36505daed178b4c47239facb748c549f19a9312bce6bff7dfbec06ca/allennlp_models-${REALVERSION}.tar.gz"
-SOURCEFILE="allennlp_models-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/89/1e/a8cd36505daed178b4c47239facb748c549f19a9312bce6bff7dfbec06ca/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

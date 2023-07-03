@@ -15,8 +15,8 @@ DESCRIPTION="Document structures for collaborative editing using Ypy"
 
 HOMEPAGE="https://jupyter.org"
 LICENSE="BSD 3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/f5/32/7be05fc28fc1fdad7f616b6b3f9ad02dc099cad39084f9f66f45b3b26d69/jupyter_ydoc-${REALVERSION}.tar.gz"
-SOURCEFILE="jupyter_ydoc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f5/32/7be05fc28fc1fdad7f616b6b3f9ad02dc099cad39084f9f66f45b3b26d69/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

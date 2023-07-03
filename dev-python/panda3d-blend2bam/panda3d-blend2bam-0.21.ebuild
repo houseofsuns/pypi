@@ -15,8 +15,8 @@ DESCRIPTION="A tool to convert Blender blend files to Panda3D BAM files"
 
 HOMEPAGE="https://github.com/Moguri/panda3d-blend2bam"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b9/fc/e5880e4589c53276f6f31ecb59916e0283f1277029911f59e8837e26b582/panda3d_blend2bam-${REALVERSION}.tar.gz"
-SOURCEFILE="panda3d_blend2bam-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b9/fc/e5880e4589c53276f6f31ecb59916e0283f1277029911f59e8837e26b582/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

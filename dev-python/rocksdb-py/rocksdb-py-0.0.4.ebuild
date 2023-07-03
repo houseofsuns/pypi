@@ -15,8 +15,8 @@ DESCRIPTION="Python bindings for RocksDB"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/0e/05/f4fe89ca992005fa3cd3e966bb59be71749e8da3d6133e2e2514e6a9ffd2/rocksdb_py-${REALVERSION}.tar.gz"
-SOURCEFILE="rocksdb_py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0e/05/f4fe89ca992005fa3cd3e966bb59be71749e8da3d6133e2e2514e6a9ffd2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

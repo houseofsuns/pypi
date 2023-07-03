@@ -15,8 +15,8 @@ DESCRIPTION="Dark mode for the Sphinx Read the Docs theme."
 
 HOMEPAGE="https://github.com/MrDogeBro/sphinx_rtd_dark_mode"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/33/aa/a721ab63d83c8cfe2b37d8c744337713ee8858dabe6ff6f2b2593b25d010/sphinx_rtd_dark_mode-${REALVERSION}.tar.gz"
-SOURCEFILE="sphinx_rtd_dark_mode-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/33/aa/a721ab63d83c8cfe2b37d8c744337713ee8858dabe6ff6f2b2593b25d010/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

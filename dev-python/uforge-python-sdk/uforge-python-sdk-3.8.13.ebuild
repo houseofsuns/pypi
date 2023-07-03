@@ -15,8 +15,8 @@ DESCRIPTION="UForge python SDK"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/97/a2/d763bdc43ce9c0fab8fdc4679795e565040250b63ad75a6bb3fe1892bc70/uforge_python_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="uforge_python_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/97/a2/d763bdc43ce9c0fab8fdc4679795e565040250b63ad75a6bb3fe1892bc70/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

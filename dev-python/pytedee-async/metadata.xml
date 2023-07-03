@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Python Tedee Async Client PackageThis is a Tedee Lock Client package. It is an async implementation of [joerg65's original package](https://github.com/joerg65/pytedee.git).## Install:pipenv install -e .orpython3 setup.py install## Try it outwith the example.py:- Generate personal key. Instructions: https://tedee-tedee-api-doc.readthedocs-hosted.com/en/latest/howtos/authenticate.html#personal-access-key  Minimal scopes required for enable integration are:    - Devices.Read    - Lock.Operate- Edit personalKey with generated value.If module six generates erorr:&lt;br/&gt;Ensure module version of six is at least 1.15.0.pip3 install six==1.15.0</longdescription>
+</pkgmetadata>

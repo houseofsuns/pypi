@@ -15,8 +15,8 @@ DESCRIPTION="Common Operations On Lots-of Sequences Tool."
 
 HOMEPAGE="https://github.com/GenomicMedLab/cool-seq-tool"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c3/11/c091dde0e33abbe92565a98d06649f66aae74e5605f4a9a45b5ba26d60b9/cool_seq_tool-${REALVERSION}.tar.gz"
-SOURCEFILE="cool_seq_tool-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c3/11/c091dde0e33abbe92565a98d06649f66aae74e5605f4a9a45b5ba26d60b9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

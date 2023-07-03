@@ -15,8 +15,8 @@ DESCRIPTION="weDeliverCore package"
 
 HOMEPAGE="https://www.wedeliverapp.com/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3d/5c/feb44c197c5b47d09fc013c77d6b7d66cd071bc0e821caa9e9f76ae66cfb/wedeliver_core-${REALVERSION}.tar.gz"
-SOURCEFILE="wedeliver_core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3d/5c/feb44c197c5b47d09fc013c77d6b7d66cd071bc0e821caa9e9f76ae66cfb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

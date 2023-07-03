@@ -15,8 +15,8 @@ DESCRIPTION="Twitter Web App (Web 版公式クライアント) の内部 API を
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d1/63/d57dd52d989c1d5d112d3e7bad22dd8649e026e1d1a70ce94dd2ee38ee72/tweepy_authlib-${REALVERSION}.tar.gz"
-SOURCEFILE="tweepy_authlib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d1/63/d57dd52d989c1d5d112d3e7bad22dd8649e026e1d1a70ce94dd2ee38ee72/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

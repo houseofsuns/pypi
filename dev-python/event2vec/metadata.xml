@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># event2vec**Documentation**: [https://straymat.gitlab.io/event2vec/](https://straymat.gitlab.io/event2vec/)**Source Code**: [https://gitlab.com/strayMat/event2vec](https://gitlab.com/strayMat/event2vec)## OverviewElectronic Health Record and claims contain sequences of care: every contactbetween a patient and a healthcare system (either hospital, either insurance) isrecorded in a central database. Medical terminologies are often used to encodethe type of care : diagnoses, acts, drugs, laboratory, ...Such healthcare trajectories can be viewed as sequence of tokens, similarly tosequences of words.This package propose to use matrix factorization as a simple and efficient wayto build event embedding from a medical observational database.</longdescription>
+</pkgmetadata>

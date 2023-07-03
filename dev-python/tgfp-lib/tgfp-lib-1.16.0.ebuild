@@ -15,8 +15,8 @@ DESCRIPTION="The Great Football Pool Project"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/19/ba/0557046ed929ed9be5b54b7eb0459978bf9f647cf74f56b05105a933b99e/tgfp_lib-${REALVERSION}.tar.gz"
-SOURCEFILE="tgfp_lib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/19/ba/0557046ed929ed9be5b54b7eb0459978bf9f647cf74f56b05105a933b99e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

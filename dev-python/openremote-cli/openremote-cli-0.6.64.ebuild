@@ -15,8 +15,8 @@ DESCRIPTION="OpenRemote Command-line interface"
 
 HOMEPAGE="https://www.openremote.io"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/7a/8f/737c274e8751599ce7aaf91a2dc1279f921957bbaf176c09f1e2c792a571/openremote_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="openremote_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7a/8f/737c274e8751599ce7aaf91a2dc1279f921957bbaf176c09f1e2c792a571/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

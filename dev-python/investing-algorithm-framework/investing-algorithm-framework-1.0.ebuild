@@ -15,8 +15,8 @@ DESCRIPTION="A framework for creating an investment algorithm"
 
 HOMEPAGE="https://github.com/coding-kitties/investing-algorithm-framework.git"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/48/40/9887684cd8b96e036aeb57c31ba54f407a716adc091e2c8553ca566257df/investing_algorithm_framework-${REALVERSION}.tar.gz"
-SOURCEFILE="investing_algorithm_framework-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/48/40/9887684cd8b96e036aeb57c31ba54f407a716adc091e2c8553ca566257df/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

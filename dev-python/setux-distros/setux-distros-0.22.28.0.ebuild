@@ -15,8 +15,8 @@ DESCRIPTION="System deployment"
 
 HOMEPAGE="https://framagit.org/louis-riviere-xyz/setux_distros"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c6/83/2edb6cf6af1ff01c85189700c04199b48d6c9bba6806edc1679641491239/setux_distros-${REALVERSION}.tar.gz"
-SOURCEFILE="setux_distros-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c6/83/2edb6cf6af1ff01c85189700c04199b48d6c9bba6806edc1679641491239/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

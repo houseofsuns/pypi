@@ -15,8 +15,8 @@ DESCRIPTION="Python package for validating datasets in the microdata platform"
 
 HOMEPAGE="https://github.com/statisticsnorway/microdata-validator"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/71/95/845cc3d8314dc40f7f5004c83cabfdaf313068bcf96c5f5975f910f84979/microdata_validator-${REALVERSION}.tar.gz"
-SOURCEFILE="microdata_validator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/71/95/845cc3d8314dc40f7f5004c83cabfdaf313068bcf96c5f5975f910f84979/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

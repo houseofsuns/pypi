@@ -15,8 +15,8 @@ DESCRIPTION="Aztec Code generator in Python"
 
 HOMEPAGE="https://github.com/dlenski/aztec_code_generator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1f/2f/b9273de94780611c9a6cb9f4b5774455a2f35d9833ac37be2706b171ed9c/aztec_code_generator-${REALVERSION}.tar.gz"
-SOURCEFILE="aztec_code_generator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1f/2f/b9273de94780611c9a6cb9f4b5774455a2f35d9833ac37be2706b171ed9c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

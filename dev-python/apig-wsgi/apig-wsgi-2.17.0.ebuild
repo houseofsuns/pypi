@@ -15,8 +15,8 @@ DESCRIPTION="Wrap a WSGI application in an AWS Lambda handler function for runni
 
 HOMEPAGE="https://github.com/adamchainz/apig-wsgi"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6d/e9/88ef9720e7873ed4f635192750208adb06ebcbe8170422c6c7e819d96dc5/apig_wsgi-${REALVERSION}.tar.gz"
-SOURCEFILE="apig_wsgi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6d/e9/88ef9720e7873ed4f635192750208adb06ebcbe8170422c6c7e819d96dc5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

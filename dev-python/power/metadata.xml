@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Library that allows you get current power source type (AC, Battery or UPS), warning level (none, &lt;22%, &lt;10min) and remaining minutes. You can also observe changes of power source and remaining time.</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/jdcloud-api/jdcloud-sdk-python"
 LICENSE="Apache License V2.0"
-SRC_URI="https://files.pythonhosted.org/packages/13/4a/82e01a0e31a354571c40a9ce19dfaf00cbc4c8fe5cb7c5dc441f44809bfd/jdcloud_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="jdcloud_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/13/4a/82e01a0e31a354571c40a9ce19dfaf00cbc4c8fe5cb7c5dc441f44809bfd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

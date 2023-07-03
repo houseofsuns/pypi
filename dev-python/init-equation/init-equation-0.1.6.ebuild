@@ -15,8 +15,8 @@ DESCRIPTION="Added qrcode lines in main.py for main.tex"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3e/a8/2834741823ab55ba1689d5e9229916dd5f30a97a2057095b0ed497f8dab6/init_equation-${REALVERSION}.tar.gz"
-SOURCEFILE="init_equation-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3e/a8/2834741823ab55ba1689d5e9229916dd5f30a97a2057095b0ed497f8dab6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

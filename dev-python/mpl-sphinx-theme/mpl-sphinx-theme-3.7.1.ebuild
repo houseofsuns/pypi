@@ -15,8 +15,8 @@ DESCRIPTION="Matplotlib theme for Sphinx"
 
 HOMEPAGE="https://github.com/matplotlib/mpl-sphinx-theme"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/41/12/56a91d6cd7f9617188291a731ab94fad8c18d1e7b2f70e2dc3008d6cbf03/mpl_sphinx_theme-${REALVERSION}.tar.gz"
-SOURCEFILE="mpl_sphinx_theme-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/41/12/56a91d6cd7f9617188291a731ab94fad8c18d1e7b2f70e2dc3008d6cbf03/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

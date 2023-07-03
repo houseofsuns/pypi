@@ -15,8 +15,8 @@ DESCRIPTION="Python package for making fun pictures"
 
 HOMEPAGE="https://github.com/MeetWq/meme-generator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2a/7b/944a453c426af03e87a660907df4f13dae98ee4e1e85491e47cefbb88427/meme_generator-${REALVERSION}.tar.gz"
-SOURCEFILE="meme_generator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2a/7b/944a453c426af03e87a660907df4f13dae98ee4e1e85491e47cefbb88427/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

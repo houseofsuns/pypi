@@ -15,8 +15,8 @@ DESCRIPTION="Analytics engineering for data lakes."
 
 HOMEPAGE="https://github.com/ez-transform/ezt-core"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/1e/35/cf7ad23623a09fcadcdc952e7025fb476b62df58f887eeb6a532fefa1c7e/ez_transform-${REALVERSION}.tar.gz"
-SOURCEFILE="ez_transform-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1e/35/cf7ad23623a09fcadcdc952e7025fb476b62df58f887eeb6a532fefa1c7e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

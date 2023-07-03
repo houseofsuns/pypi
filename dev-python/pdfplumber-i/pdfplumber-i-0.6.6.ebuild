@@ -15,8 +15,8 @@ DESCRIPTION="Plumb a PDF for detailed information about each char, rectangle, an
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9f/62/fc7b41cd49ed0be84c30502f6c360f4eebd435809103e1004f0ab7bccb01/pdfplumber_i-${REALVERSION}.tar.gz"
-SOURCEFILE="pdfplumber_i-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9f/62/fc7b41cd49ed0be84c30502f6c360f4eebd435809103e1004f0ab7bccb01/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

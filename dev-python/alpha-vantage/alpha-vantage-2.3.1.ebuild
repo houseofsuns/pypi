@@ -15,8 +15,8 @@ DESCRIPTION="Python module to get stock data from the Alpha Vantage Api"
 
 HOMEPAGE="https://github.com/RomelTorres/alpha_vantage"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/75/ea/28417504b1d0701626b76e150cf114b958c4b40d44da006303dc6a6dcce3/alpha_vantage-${REALVERSION}.tar.gz"
-SOURCEFILE="alpha_vantage-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/75/ea/28417504b1d0701626b76e150cf114b958c4b40d44da006303dc6a6dcce3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

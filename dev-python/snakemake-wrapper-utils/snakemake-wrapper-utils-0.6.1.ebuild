@@ -15,8 +15,8 @@ DESCRIPTION="A collection of utils for Snakemake wrappers."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b6/09/60b6adc4264145fb6cc061212b6dcf2159e6228da421dee1816c0a3d0081/snakemake_wrapper_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="snakemake_wrapper_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b6/09/60b6adc4264145fb6cc061212b6dcf2159e6228da421dee1816c0a3d0081/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

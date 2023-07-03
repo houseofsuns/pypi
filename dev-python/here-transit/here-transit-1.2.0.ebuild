@@ -15,8 +15,8 @@ DESCRIPTION="Asynchronous Python client for the HERE Transit V8 API"
 
 HOMEPAGE="http://github.com/eifinger/here_transit"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/51/67/c15ab7f12129311c69ff352b2575699667de3724bc82e00889ee8adefb77/here_transit-${REALVERSION}.tar.gz"
-SOURCEFILE="here_transit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/51/67/c15ab7f12129311c69ff352b2575699667de3724bc82e00889ee8adefb77/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

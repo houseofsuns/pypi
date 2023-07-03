@@ -15,8 +15,8 @@ DESCRIPTION="Python API for interacting with transport.opendata.ch."
 
 HOMEPAGE="https://github.com/home-assistant-ecosystem/python-opendata-transport"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1a/63/9e155e494e8b3d0ad061ec4fe93553a82ef141bf0775378ef6254130da18/python_opendata_transport-${REALVERSION}.tar.gz"
-SOURCEFILE="python_opendata_transport-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1a/63/9e155e494e8b3d0ad061ec4fe93553a82ef141bf0775378ef6254130da18/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

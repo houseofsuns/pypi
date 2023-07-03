@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8b/97/c080c43a5b9ec434d2567f6e90ac871b409f66ceb4d002dfe8cde19fb9ce/neo_vendors-${REALVERSION}.tar.gz"
-SOURCEFILE="neo_vendors-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8b/97/c080c43a5b9ec434d2567f6e90ac871b409f66ceb4d002dfe8cde19fb9ce/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

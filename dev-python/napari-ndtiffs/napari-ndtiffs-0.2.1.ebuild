@@ -15,8 +15,8 @@ DESCRIPTION="napari plugin for nd tiff folders with OpenCl deskew"
 
 HOMEPAGE=""
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/5d/c3/eaabb32578a5e15fd85b867fbd21fc5d120b7ba7c413973fcdb1ac11b8e1/napari_ndtiffs-${REALVERSION}.tar.gz"
-SOURCEFILE="napari_ndtiffs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5d/c3/eaabb32578a5e15fd85b867fbd21fc5d120b7ba7c413973fcdb1ac11b8e1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

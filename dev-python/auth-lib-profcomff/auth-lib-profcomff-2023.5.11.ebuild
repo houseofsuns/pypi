@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/profcomff/auth-lib"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0d/5d/f1ede44408f3f8eea29ba6ab2ccbd8abe4d4a36af90fbb863fdf00fdce3b/auth_lib_profcomff-${REALVERSION}.tar.gz"
-SOURCEFILE="auth_lib_profcomff-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0d/5d/f1ede44408f3f8eea29ba6ab2ccbd8abe4d4a36af90fbb863fdf00fdce3b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

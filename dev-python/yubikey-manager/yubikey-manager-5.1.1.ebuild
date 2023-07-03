@@ -15,8 +15,8 @@ DESCRIPTION="Tool for managing your YubiKey configuration."
 
 HOMEPAGE="https://github.com/Yubico/yubikey-manager"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/8e/70/d4c632df03f0c1f45ce26981a356fd10fe3ae49fccc1856769448efe396a/yubikey_manager-${REALVERSION}.tar.gz"
-SOURCEFILE="yubikey_manager-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8e/70/d4c632df03f0c1f45ce26981a356fd10fe3ae49fccc1856769448efe396a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

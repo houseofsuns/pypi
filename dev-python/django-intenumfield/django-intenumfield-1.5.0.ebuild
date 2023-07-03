@@ -15,8 +15,8 @@ DESCRIPTION="An IntEnumField for Django"
 
 HOMEPAGE="https://github.com/HearthSim/django-intenumfield"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a8/6d/ff04c0aeae3e89c17e85fb0055db663afd0cfc8179f75b0184ba15c5b512/django_intenumfield-${REALVERSION}.tar.gz"
-SOURCEFILE="django_intenumfield-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a8/6d/ff04c0aeae3e89c17e85fb0055db663afd0cfc8179f75b0184ba15c5b512/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A package for dealing with OpenMOLCAS input and output files"
 
 HOMEPAGE="https://gitlab.com/chilton-group/molcas_suite"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/08/bc/ab2d3ed39243d7a29eb6b78af83db6f365860a89cf4e79bbc3442aa2e547/molcas_suite-${REALVERSION}.tar.gz"
-SOURCEFILE="molcas_suite-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/08/bc/ab2d3ed39243d7a29eb6b78af83db6f365860a89cf4e79bbc3442aa2e547/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

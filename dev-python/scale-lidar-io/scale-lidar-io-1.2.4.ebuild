@@ -15,8 +15,8 @@ DESCRIPTION="Lidar data conversion helpers"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1c/00/cbdd18ba793220e6e728cf6374793363ff03d812fb5e6a2fb30d6a73e101/scale_lidar_io-${REALVERSION}.tar.gz"
-SOURCEFILE="scale_lidar_io-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1c/00/cbdd18ba793220e6e728cf6374793363ff03d812fb5e6a2fb30d6a73e101/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

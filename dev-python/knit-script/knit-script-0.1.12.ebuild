@@ -15,8 +15,8 @@ DESCRIPTION="Knit Script is a domain specific programming language for writing v
 
 HOMEPAGE="https://github.com/mhofmann-Khoury/knit_script"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8c/f4/b0351182ecabb59112bbcae2d819c6c15644d7984e7457f253bef8164d0f/knit_script-${REALVERSION}.tar.gz"
-SOURCEFILE="knit_script-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8c/f4/b0351182ecabb59112bbcae2d819c6c15644d7984e7457f253bef8164d0f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

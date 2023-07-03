@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module to split stock move"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/7f/25/87e858c4656558c5c56781913cc19e6ba0a4f4c082de349112147718f216/trytond_stock_split-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_stock_split-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7f/25/87e858c4656558c5c56781913cc19e6ba0a4f4c082de349112147718f216/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

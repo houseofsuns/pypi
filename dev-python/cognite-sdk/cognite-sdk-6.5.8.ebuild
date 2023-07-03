@@ -15,8 +15,8 @@ DESCRIPTION="Cognite Python SDK"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/cf/bd/ed0c603e273522f771ffef191ac307d46ad86d0b44dd24ab64feba027418/cognite_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="cognite_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cf/bd/ed0c603e273522f771ffef191ac307d46ad86d0b44dd24ab64feba027418/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

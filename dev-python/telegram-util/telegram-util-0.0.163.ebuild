@@ -15,8 +15,8 @@ DESCRIPTION="Telegram Util."
 
 HOMEPAGE="https://github.com/gaoyunzhi/telegram_util"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/36/45/9b1a36745f440f47e828a9eae548879d02693ec5aa8274eb6d5245300d2a/telegram_util-${REALVERSION}.tar.gz"
-SOURCEFILE="telegram_util-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/36/45/9b1a36745f440f47e828a9eae548879d02693ec5aa8274eb6d5245300d2a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

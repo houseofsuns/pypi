@@ -15,8 +15,8 @@ DESCRIPTION="Bootstrap3/Bootstrap4/Bootstrap5 DatePickerInput, TimePickerInput, 
 
 HOMEPAGE="https://github.com/monim67/django-bootstrap-datepicker-plus"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5e/f4/85d10276dafbf2599019578980c2f8f227d28cff1b95759cffe7169d28d3/django_bootstrap_datepicker_plus-${REALVERSION}.tar.gz"
-SOURCEFILE="django_bootstrap_datepicker_plus-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5e/f4/85d10276dafbf2599019578980c2f8f227d28cff1b95759cffe7169d28d3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

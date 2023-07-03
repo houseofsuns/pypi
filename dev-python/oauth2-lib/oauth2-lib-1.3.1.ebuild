@@ -15,8 +15,8 @@ DESCRIPTION="This is the SURF Oauth2 module that interfaces with the oauth2 setu
 
 HOMEPAGE="https://github.com/workfloworchestrator/oauth2-lib"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/dd/b0/b06aa8ea58aa04d019bd3aa1e1093c03c71fc4cc7d05606e291fc42b9cf3/oauth2_lib-${REALVERSION}.tar.gz"
-SOURCEFILE="oauth2_lib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/dd/b0/b06aa8ea58aa04d019bd3aa1e1093c03c71fc4cc7d05606e291fc42b9cf3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

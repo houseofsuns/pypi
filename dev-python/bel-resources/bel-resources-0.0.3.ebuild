@@ -15,8 +15,8 @@ DESCRIPTION="Utilities for BEL resource files."
 
 HOMEPAGE="https://github.com/cthoyt/bel-resources"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/37/7a/e07e28ed8728a0b91460c22bc8ff7856f4587ce6d1ea4228a6a4916feae8/bel_resources-${REALVERSION}.tar.gz"
-SOURCEFILE="bel_resources-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/37/7a/e07e28ed8728a0b91460c22bc8ff7856f4587ce6d1ea4228a6a4916feae8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

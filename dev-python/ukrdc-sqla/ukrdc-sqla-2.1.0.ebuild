@@ -15,8 +15,8 @@ DESCRIPTION="SQLAlchemy models for the UKRDC"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/28/c0/90777d5f11db4afa57ba05fd48d6985313cc7f5db8f95c8e80df4e60c5cd/ukrdc_sqla-${REALVERSION}.tar.gz"
-SOURCEFILE="ukrdc_sqla-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/28/c0/90777d5f11db4afa57ba05fd48d6985313cc7f5db8f95c8e80df4e60c5cd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Automatically add bin-dir to PATH for every process in your virtual
 
 HOMEPAGE="https://github.com/libranet/autoadd_bindir"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3b/cb/4782b080c26098002ebbb0398d565d39252bde5cc933ad947dfdb5a6e4ae/autoadd_bindir-${REALVERSION}.tar.gz"
-SOURCEFILE="autoadd_bindir-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3b/cb/4782b080c26098002ebbb0398d565d39252bde5cc933ad947dfdb5a6e4ae/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9a/66/dffcaa04615c5373225ea709a4f9eacd4c7da7053c98aedb77ea64b680e5/psycop_feature_generation-${REALVERSION}.tar.gz"
-SOURCEFILE="psycop_feature_generation-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9a/66/dffcaa04615c5373225ea709a4f9eacd4c7da7053c98aedb77ea64b680e5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

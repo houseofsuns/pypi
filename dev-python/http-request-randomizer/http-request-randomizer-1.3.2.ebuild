@@ -15,8 +15,8 @@ DESCRIPTION="A package using public proxies to randomise http requests"
 
 HOMEPAGE="http://pgaref.com/blog/python-proxy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7b/84/ea11a2ccbe215ac200c0e6342245f2db0747ca963f38339219e6df46b546/http_request_randomizer-${REALVERSION}.tar.gz"
-SOURCEFILE="http_request_randomizer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7b/84/ea11a2ccbe215ac200c0e6342245f2db0747ca963f38339219e6df46b546/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

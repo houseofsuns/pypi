@@ -15,8 +15,8 @@ DESCRIPTION="Histogramming with Dask."
 
 HOMEPAGE="https://github.com/dask-contrib/dask-histogram"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/38/a8/d40011df157ac0721ab5153a03ad871dfeaf658537aa22897734ded9dd0a/dask_histogram-${REALVERSION}.tar.gz"
-SOURCEFILE="dask_histogram-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/38/a8/d40011df157ac0721ab5153a03ad871dfeaf658537aa22897734ded9dd0a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

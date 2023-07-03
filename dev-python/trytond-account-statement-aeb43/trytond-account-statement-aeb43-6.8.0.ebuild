@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module to import AEB43 statements"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/28/88/05d4262de22729f2b3d0d1c5cd8a9b7f1d1cdef2ba0eabec059c06d4a30c/trytond_account_statement_aeb43-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_account_statement_aeb43-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/28/88/05d4262de22729f2b3d0d1c5cd8a9b7f1d1cdef2ba0eabec059c06d4a30c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

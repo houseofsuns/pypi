@@ -15,8 +15,8 @@ DESCRIPTION="Some tools and defaults to program for the ProcessCube."
 
 HOMEPAGE="https://github.com/atlas-engine-contrib/processcube_sdk.py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/99/94/56b104dd73530b7984b832bdbfe433bdc83c00dcee8802582b1584440112/processcube_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="processcube_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/99/94/56b104dd73530b7984b832bdbfe433bdc83c00dcee8802582b1584440112/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

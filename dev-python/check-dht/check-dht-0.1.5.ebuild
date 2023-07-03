@@ -15,8 +15,8 @@ DESCRIPTION="Nagios plugin to monitor humidity and temperature data from a Raspb
 
 HOMEPAGE="https://github.com/j0hax/check-dht"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/fb/03/b517547cce90d309b044ab7fbfab3ec6873eb31f5df95c7e0cdd161b87d8/check_dht-${REALVERSION}.tar.gz"
-SOURCEFILE="check_dht-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fb/03/b517547cce90d309b044ab7fbfab3ec6873eb31f5df95c7e0cdd161b87d8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

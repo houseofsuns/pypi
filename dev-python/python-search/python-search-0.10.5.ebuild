@@ -15,8 +15,8 @@ DESCRIPTION="Build your knowledge database in python and retrieve it efficiently
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/46/07/52a615d5363fa076914ad2cecab4176ac1693f879dba3773fdf2fe2caea0/python_search-${REALVERSION}.tar.gz"
-SOURCEFILE="python_search-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/46/07/52a615d5363fa076914ad2cecab4176ac1693f879dba3773fdf2fe2caea0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

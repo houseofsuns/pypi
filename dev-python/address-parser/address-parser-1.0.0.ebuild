@@ -15,8 +15,8 @@ DESCRIPTION="Address parser"
 
 HOMEPAGE="https://github.com/CivicKnowledge/address_parser"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5e/08/c202f4a36837594bbadd77c7ae6749b7666d2e74bd6612a050fd7cd4fbe0/address_parser-${REALVERSION}.tar.gz"
-SOURCEFILE="address_parser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5e/08/c202f4a36837594bbadd77c7ae6749b7666d2e74bd6612a050fd7cd4fbe0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

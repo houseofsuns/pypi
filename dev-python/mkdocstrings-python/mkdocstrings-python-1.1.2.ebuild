@@ -15,8 +15,8 @@ DESCRIPTION="A Python handler for mkdocstrings."
 
 HOMEPAGE="https://mkdocstrings.github.io/python"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/7b/22/eaa1ccd8aaeac72953a780f4b6c82650475d241dd953582706db547db004/mkdocstrings_python-${REALVERSION}.tar.gz"
-SOURCEFILE="mkdocstrings_python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7b/22/eaa1ccd8aaeac72953a780f4b6c82650475d241dd953582706db547db004/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

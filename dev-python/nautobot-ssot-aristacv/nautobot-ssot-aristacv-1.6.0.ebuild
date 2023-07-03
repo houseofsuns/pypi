@@ -15,8 +15,8 @@ DESCRIPTION="Nautobot SSoT Arista CloudVision"
 
 HOMEPAGE="https://github.com/nautobot/nautobot-plugin-ssot-arista-cloudvision"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/1a/4b/10e980be24e0b96dc47e4bfdd350bb05084cef8edfdc89a8f2a032e1b307/nautobot_ssot_aristacv-${REALVERSION}.tar.gz"
-SOURCEFILE="nautobot_ssot_aristacv-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1a/4b/10e980be24e0b96dc47e4bfdd350bb05084cef8edfdc89a8f2a032e1b307/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

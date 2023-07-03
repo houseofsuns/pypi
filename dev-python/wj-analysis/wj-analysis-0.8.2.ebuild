@@ -15,8 +15,8 @@ DESCRIPTION="Whale&Jaguar Libary - Analysis"
 
 HOMEPAGE=""
 LICENSE="GNU3"
-SRC_URI="https://files.pythonhosted.org/packages/4a/a9/bac7f9d2b932c1a3226630e49b58539b8af8abdb02068d6a7c28e11786b5/wj_analysis-${REALVERSION}.tar.gz"
-SOURCEFILE="wj_analysis-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4a/a9/bac7f9d2b932c1a3226630e49b58539b8af8abdb02068d6a7c28e11786b5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

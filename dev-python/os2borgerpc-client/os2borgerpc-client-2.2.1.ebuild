@@ -15,8 +15,8 @@ DESCRIPTION="Client for the OS2borgerPC system"
 
 HOMEPAGE="https://github.com/OS2borgerPC/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/2c/61/b8b511466448766f412fd2b8890f12c7f9b2c6672878e26a31f1e2c072cb/os2borgerpc_client-${REALVERSION}.tar.gz"
-SOURCEFILE="os2borgerpc_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2c/61/b8b511466448766f412fd2b8890f12c7f9b2c6672878e26a31f1e2c072cb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

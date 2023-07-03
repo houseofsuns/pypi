@@ -15,8 +15,8 @@ DESCRIPTION="Basil - a data acquisition and system testing framework"
 
 HOMEPAGE="https://github.com/SiLab-Bonn/basil"
 LICENSE="BSD 3-Clause BSD New or BSD Simplified License"
-SRC_URI="https://files.pythonhosted.org/packages/a7/dd/ae393a9403d7ab8f9b4aad3323ed6bb52e9538d6ebab1281b91d8368f13e/basil_daq-${REALVERSION}.tar.gz"
-SOURCEFILE="basil_daq-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a7/dd/ae393a9403d7ab8f9b4aad3323ed6bb52e9538d6ebab1281b91d8368f13e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

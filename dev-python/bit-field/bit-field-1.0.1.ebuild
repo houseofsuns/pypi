@@ -15,8 +15,8 @@ DESCRIPTION="A bitfield diagram renderer"
 
 HOMEPAGE="https://github.com/Arth-ur/bitfield"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/10/57/7cd9318081a4e194e972a023aaa4b209c7e580a72341e6b1c4550d44f18f/bit_field-${REALVERSION}.tar.gz"
-SOURCEFILE="bit_field-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/10/57/7cd9318081a4e194e972a023aaa4b209c7e580a72341e6b1c4550d44f18f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

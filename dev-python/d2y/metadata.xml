@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># D2Y Python SDKThe D2Y Python SDK is a convenient and user-friendly library for interacting with the D2Y Exchange API. It simplifies the process of accessing and managing data from the D2Y platform and offers an easy-to-use interface for developers.## InstallationTo install the D2Y Python SDK, use pip:```pip install d2y```## DocumentationFor comprehensive documentation, including getting started guides and detailed examples, please visit our [official SDK documentation](https://d2y.readme.io/docs/getting-started).</longdescription>
+</pkgmetadata>

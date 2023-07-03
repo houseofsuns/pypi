@@ -15,8 +15,8 @@ DESCRIPTION="Python-Markdown extension to add support for mermaid graph inside m
 
 HOMEPAGE="https://github.com/oruelle/md_mermaid"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8c/1d/a160a3ab3af132753c704a92c7053f26eec78105773a0364f2d60a9b5c2d/md_mermaid-${REALVERSION}.tar.gz"
-SOURCEFILE="md_mermaid-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8c/1d/a160a3ab3af132753c704a92c7053f26eec78105773a0364f2d60a9b5c2d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

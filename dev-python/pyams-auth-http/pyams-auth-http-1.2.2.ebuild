@@ -15,8 +15,8 @@ DESCRIPTION="PyAMS security plug-in for HTTP authentication"
 
 HOMEPAGE="https://pyams.readthedocs.io"
 LICENSE="ZPL"
-SRC_URI="https://files.pythonhosted.org/packages/49/e2/f657139e194050b2c2b373414aac4be49df852586fc59026181c8a9b4c64/pyams_auth_http-${REALVERSION}.tar.gz"
-SOURCEFILE="pyams_auth_http-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/49/e2/f657139e194050b2c2b373414aac4be49df852586fc59026181c8a9b4c64/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

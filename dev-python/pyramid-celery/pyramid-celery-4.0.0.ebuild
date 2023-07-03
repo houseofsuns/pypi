@@ -15,8 +15,8 @@ DESCRIPTION="Celery integration with pyramid"
 
 HOMEPAGE="https://github.com/sontek/pyramid_celery"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5c/81/6c47ad0cd519f8edfc5a20313bbb8b1a73f2014fad1e323a9fe87fc4ab5a/pyramid_celery-${REALVERSION}.tar.gz"
-SOURCEFILE="pyramid_celery-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5c/81/6c47ad0cd519f8edfc5a20313bbb8b1a73f2014fad1e323a9fe87fc4ab5a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

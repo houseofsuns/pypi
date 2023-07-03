@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Libheader### lhA file type that encapsualtes a header (.h), and a static library (.lib/.a)should be able to be `#include` by normal C, but requires a special linker that can recognize a .lh file## Examplemain.c```c#include &quot;sample/test.lh&quot;int main() {    testfunc();    return 0;}```test.h```h#include &lt;stdio.h&gt;void testfunc();```test.c```c#include &quot;test.h&quot;void testfunc() { printf(&quot;Hello, World!\n&quot;); }``` - `makelh test.h test.c` creates a test.lh - `gcclh main.c --lh=test.lh -o test.exe` compiles using the test.lh file</longdescription>
+</pkgmetadata>

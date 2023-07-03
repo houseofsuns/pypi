@@ -15,8 +15,8 @@ DESCRIPTION="Feature engineering done with Polars"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8b/da/8ef4b94b4966019e24cc946357118873512b26662f4e7336b50bab93bc7c/feature_engineering_polars-${REALVERSION}.tar.gz"
-SOURCEFILE="feature_engineering_polars-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8b/da/8ef4b94b4966019e24cc946357118873512b26662f4e7336b50bab93bc7c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

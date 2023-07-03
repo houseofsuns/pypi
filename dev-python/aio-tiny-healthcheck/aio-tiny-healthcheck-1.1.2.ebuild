@@ -15,8 +15,8 @@ DESCRIPTION="Tiny asynchronous implementation of healthcheck provider and http-s
 
 HOMEPAGE="https://github.com/nabrosimoff/aio_tiny_healthcheck"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/01/a6/b58735ef01f8a30f52ce5146c9b185c08a52706b373c8074dcb601053d97/aio_tiny_healthcheck-${REALVERSION}.tar.gz"
-SOURCEFILE="aio_tiny_healthcheck-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/01/a6/b58735ef01f8a30f52ce5146c9b185c08a52706b373c8074dcb601053d97/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

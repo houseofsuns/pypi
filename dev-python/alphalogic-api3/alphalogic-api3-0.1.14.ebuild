@@ -15,8 +15,8 @@ DESCRIPTION="Python3 stub library for Alphalogic adapters."
 
 HOMEPAGE="https://github.com/Alphaopen/alphalogic_api3"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/97/3f/1a4a1e200ac2233cded1b868aa2976a1f367477666004897bf688f65ec7d/alphalogic_api3-${REALVERSION}.zip"
-SOURCEFILE="alphalogic_api3-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/97/3f/1a4a1e200ac2233cded1b868aa2976a1f367477666004897bf688f65ec7d/${REALNAME//-/_}-${REALVERSION}.zip"
+SOURCEFILE="_}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Dash components for the Materials Project"
 
 HOMEPAGE=""
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/43/45/ac6b15c697af1e2a1496698a13a68c49b25fddf1d9e54347d1330bb0b69f/dash_mp_components-${REALVERSION}.tar.gz"
-SOURCEFILE="dash_mp_components-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/43/45/ac6b15c697af1e2a1496698a13a68c49b25fddf1d9e54347d1330bb0b69f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

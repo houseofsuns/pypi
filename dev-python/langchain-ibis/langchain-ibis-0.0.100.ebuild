@@ -15,8 +15,8 @@ DESCRIPTION="Building applications with LLMs through composability"
 
 HOMEPAGE="https://www.github.com/hwchase17/langchain"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d5/21/d89c87e5f6eb52e7ca89c819ce962aa6f4f85f81e3adbf1044bdcdca1625/langchain_ibis-${REALVERSION}.tar.gz"
-SOURCEFILE="langchain_ibis-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d5/21/d89c87e5f6eb52e7ca89c819ce962aa6f4f85f81e3adbf1044bdcdca1625/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Platform support packages for Twisted."
 
 HOMEPAGE="https://github.com/twisted/twisted_platform_support"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cf/45/45eca4c45f48d58fcfd1abded04c7b78b45b592a55bb2b0fbe19a69854d2/twisted_platform_support-${REALVERSION}.tar.gz"
-SOURCEFILE="twisted_platform_support-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cf/45/45eca4c45f48d58fcfd1abded04c7b78b45b592a55bb2b0fbe19a69854d2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

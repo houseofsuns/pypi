@@ -15,8 +15,8 @@ DESCRIPTION="Port forwarding manager"
 
 HOMEPAGE="https://github.com/kxiros/port-forward-manager"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b3/49/38cdcba564616a1fb53f691f76656e34040a8cbe17983966d883837160e4/port_forward_manager-${REALVERSION}.tar.gz"
-SOURCEFILE="port_forward_manager-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b3/49/38cdcba564616a1fb53f691f76656e34040a8cbe17983966d883837160e4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Automatically apply the awesome walrus operator"
 
 HOMEPAGE="https://github.com/MarcoGorelli/auto-walrus"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bc/62/e1d4ed1e64506c0d26062b208a9afa92ade7b7652c759c608a37582a4f1f/auto_walrus-${REALVERSION}.tar.gz"
-SOURCEFILE="auto_walrus-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bc/62/e1d4ed1e64506c0d26062b208a9afa92ade7b7652c759c608a37582a4f1f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

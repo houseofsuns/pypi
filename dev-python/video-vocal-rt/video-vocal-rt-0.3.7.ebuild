@@ -15,8 +15,8 @@ DESCRIPTION="Video-Vocal-RT: a minimal package for vocal response to video"
 
 HOMEPAGE="https://github.com/LoonanChauvette/video-vocal-RT"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e9/c0/f59b972ab535fb4c82417515de6e87512ec972e7f817ec11b5fdc121fb8c/video_vocal_rt-${REALVERSION}.tar.gz"
-SOURCEFILE="video_vocal_rt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e9/c0/f59b972ab535fb4c82417515de6e87512ec972e7f817ec11b5fdc121fb8c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

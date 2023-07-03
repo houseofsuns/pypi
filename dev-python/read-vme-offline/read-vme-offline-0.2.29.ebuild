@@ -15,8 +15,8 @@ DESCRIPTION="Automatically created environment for python package"
 
 HOMEPAGE="http://gitlab.com/npicas/read_vme_offline"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/49/11/1afe5e6815fc10a5a20417edf4c1f79087b0f141b03926e5e07d9d528aa1/read_vme_offline-${REALVERSION}.tar.gz"
-SOURCEFILE="read_vme_offline-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/49/11/1afe5e6815fc10a5a20417edf4c1f79087b0f141b03926e5e07d9d528aa1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

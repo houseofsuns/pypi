@@ -15,8 +15,8 @@ DESCRIPTION="This is a tool for tests on Naruno"
 
 HOMEPAGE="https://docs.naruno.org/"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/90/c1/f6797f12ab68dd9c32acbd16091d7a6636465a0149fd954f673a170a6b6e/naruno_tests-${REALVERSION}.tar.gz"
-SOURCEFILE="naruno_tests-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/90/c1/f6797f12ab68dd9c32acbd16091d7a6636465a0149fd954f673a170a6b6e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

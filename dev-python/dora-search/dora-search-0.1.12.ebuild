@@ -15,8 +15,8 @@ DESCRIPTION="Easy grid searches for ML."
 
 HOMEPAGE="https://github.com/facebookresearch/dora"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d5/9d/9a13947db237375486c0690f4741dd2b7e1eee20e0ffcb55dbd1b21cc600/dora_search-${REALVERSION}.tar.gz"
-SOURCEFILE="dora_search-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d5/9d/9a13947db237375486c0690f4741dd2b7e1eee20e0ffcb55dbd1b21cc600/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

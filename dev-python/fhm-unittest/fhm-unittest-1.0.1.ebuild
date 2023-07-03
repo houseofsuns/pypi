@@ -15,8 +15,8 @@ DESCRIPTION="A package for unittest"
 
 HOMEPAGE="https://github.com/pypa/sampleproject"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c4/46/848f7bca36ed4b65fb7585d29b9b90db1ce09d533c6f406b0ea439da5576/fhm_unittest-${REALVERSION}.tar.gz"
-SOURCEFILE="fhm_unittest-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c4/46/848f7bca36ed4b65fb7585d29b9b90db1ce09d533c6f406b0ea439da5576/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

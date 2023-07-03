@@ -15,8 +15,8 @@ DESCRIPTION="Streaming operations with pandas."
 
 HOMEPAGE="http://www.xavierdupre.fr/app/pandas_streaming/helpsphinx/index.html"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/04/e9/b162bae9e7761119cfa1f200fc932dedee313451216f58375ef95975166e/pandas_streaming-${REALVERSION}.tar.gz"
-SOURCEFILE="pandas_streaming-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/04/e9/b162bae9e7761119cfa1f200fc932dedee313451216f58375ef95975166e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

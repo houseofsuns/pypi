@@ -15,8 +15,8 @@ DESCRIPTION="Handle H transport properties"
 
 HOMEPAGE="https://github.com/RemDelaporteMathurin/h_transport_materials"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ac/84/9c36a506b1bb0a414ac8ec7ed788435f63d3cb5bd8e5706fa48ca28ef6e6/h_transport_materials-${REALVERSION}.tar.gz"
-SOURCEFILE="h_transport_materials-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ac/84/9c36a506b1bb0a414ac8ec7ed788435f63d3cb5bd8e5706fa48ca28ef6e6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

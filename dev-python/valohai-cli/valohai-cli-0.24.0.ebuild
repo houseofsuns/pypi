@@ -15,8 +15,8 @@ DESCRIPTION="Command line client for Valohai"
 
 HOMEPAGE="https://github.com/valohai/valohai-cli"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4c/81/284e7bdb4944e9102a99e5c02ae4547c4cefffb5e2488a9e9ffe2d1c6843/valohai_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="valohai_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4c/81/284e7bdb4944e9102a99e5c02ae4547c4cefffb5e2488a9e9ffe2d1c6843/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Spanish pipeline optimized for CPU. Components: tok2vec, morphologi
 
 HOMEPAGE="https://explosion.ai"
 LICENSE="GNU GPL 3.0"
-SRC_URI="https://files.pythonhosted.org/packages/a8/a3/b330d349d8ffd9a34ba12873143bfbc838851b64b4996487232aa46a9004/es_core_news_sm-${REALVERSION}.tar.gz"
-SOURCEFILE="es_core_news_sm-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a8/a3/b330d349d8ffd9a34ba12873143bfbc838851b64b4996487232aa46a9004/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

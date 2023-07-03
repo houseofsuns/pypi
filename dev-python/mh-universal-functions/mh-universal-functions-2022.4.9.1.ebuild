@@ -15,8 +15,8 @@ DESCRIPTION="General functions library"
 
 HOMEPAGE="https://pypi.org/project/mh-universal-functions"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f9/75/bdfeda7df8dd666dc5c8c3031655b3baf739eb1b5b118b2cbbb8bec3f591/mh_universal_functions-${REALVERSION}.tar.gz"
-SOURCEFILE="mh_universal_functions-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f9/75/bdfeda7df8dd666dc5c8c3031655b3baf739eb1b5b118b2cbbb8bec3f591/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

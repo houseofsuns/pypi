@@ -15,8 +15,8 @@ DESCRIPTION="Client library for the Qdrant vector search engine"
 
 HOMEPAGE="https://github.com/qdrant/qdrant-client"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b3/58/cefc3c0653be5ddb2f651eab26179e7474cc0aa30865d09cea787e4a1952/qdrant_client-${REALVERSION}.tar.gz"
-SOURCEFILE="qdrant_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b3/58/cefc3c0653be5ddb2f651eab26179e7474cc0aa30865d09cea787e4a1952/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

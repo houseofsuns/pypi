@@ -15,8 +15,8 @@ DESCRIPTION="把GIF图片字符gif图片"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c8/04/9e29e395f020c6499667ae264d1ef17e220f0d5ca72ee47f2255308e55de/gif2txt_gif-${REALVERSION}.tar.gz"
-SOURCEFILE="gif2txt_gif-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c8/04/9e29e395f020c6499667ae264d1ef17e220f0d5ca72ee47f2255308e55de/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

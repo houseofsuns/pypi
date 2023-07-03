@@ -15,8 +15,8 @@ DESCRIPTION="Czech language files for gruut tokenizer/phonemizer"
 
 HOMEPAGE="https://github.com/rhasspy/gruut"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c9/0a/2e5d6d2f4794a175b86225168786739b8416c5ad43490fe757e7a3be2b0a/gruut_lang_cs-${REALVERSION}.tar.gz"
-SOURCEFILE="gruut_lang_cs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c9/0a/2e5d6d2f4794a175b86225168786739b8416c5ad43490fe757e7a3be2b0a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

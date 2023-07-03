@@ -15,8 +15,8 @@ DESCRIPTION="A Python wrapper around for YouTube Data API."
 
 HOMEPAGE="https://github.com/sns-sdks/python-youtube"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/01/3f/1c78ceeaaff6b63c3c703d2585c03e095a7df546b5dbdf2282ce6d94f4d7/python_youtube-${REALVERSION}.tar.gz"
-SOURCEFILE="python_youtube-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/01/3f/1c78ceeaaff6b63c3c703d2585c03e095a7df546b5dbdf2282ce6d94f4d7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

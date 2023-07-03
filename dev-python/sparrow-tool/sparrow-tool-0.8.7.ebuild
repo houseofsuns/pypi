@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/beidongjiedeguang/sparrow"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fc/60/a045d5678cfd9259297faf80b2aa05499616cda571173356884ca894c112/sparrow_tool-${REALVERSION}.tar.gz"
-SOURCEFILE="sparrow_tool-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fc/60/a045d5678cfd9259297faf80b2aa05499616cda571173356884ca894c112/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

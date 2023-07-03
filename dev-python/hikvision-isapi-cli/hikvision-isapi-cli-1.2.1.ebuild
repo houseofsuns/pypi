@@ -15,8 +15,8 @@ DESCRIPTION="A client library for accessing Hikvision ISAPI and more"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/51/54/0ef7945d9b8f7fade71ac8bde19597048d2195bddad6884519031f2251ea/hikvision_isapi_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="hikvision_isapi_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/51/54/0ef7945d9b8f7fade71ac8bde19597048d2195bddad6884519031f2251ea/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

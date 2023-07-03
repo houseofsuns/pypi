@@ -15,8 +15,8 @@ DESCRIPTION="Use Postgres' generate_series to create sequences with Django's ORM
 
 HOMEPAGE="https://github.com/jacklinke/django-generate-series/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d3/52/48f0d808f22742e91f13f36292709b070bd4ee5948db80b5ef8489c31164/django_generate_series-${REALVERSION}.tar.gz"
-SOURCEFILE="django_generate_series-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d3/52/48f0d808f22742e91f13f36292709b070bd4ee5948db80b5ef8489c31164/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

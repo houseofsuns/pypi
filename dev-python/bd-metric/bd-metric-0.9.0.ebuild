@@ -15,8 +15,8 @@ DESCRIPTION="Bjontegaard metric calculation"
 
 HOMEPAGE="https://github.com/shengbinmeng/Bjontegaard_metric"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1d/af/e5c2572d3b4d2c8c997f0fe76c72feb2cefc1be6a9da1cfe16c953fd1993/bd_metric-${REALVERSION}.tar.gz"
-SOURCEFILE="bd_metric-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1d/af/e5c2572d3b4d2c8c997f0fe76c72feb2cefc1be6a9da1cfe16c953fd1993/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

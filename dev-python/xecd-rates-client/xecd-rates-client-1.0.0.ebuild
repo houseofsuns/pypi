@@ -15,8 +15,8 @@ DESCRIPTION="XECD REST Client"
 
 HOMEPAGE="https://github.com/XenonLab/xecd-rates-client-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/40/90/0a2c3914afa2c6e73cd8c2d74591c9bdd621ed0621747d03a171698b39dd/xecd_rates_client-${REALVERSION}.tar.gz"
-SOURCEFILE="xecd_rates_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/40/90/0a2c3914afa2c6e73cd8c2d74591c9bdd621ed0621747d03a171698b39dd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

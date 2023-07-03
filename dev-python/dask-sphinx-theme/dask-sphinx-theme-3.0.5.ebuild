@@ -15,8 +15,8 @@ DESCRIPTION="Dask theme for Sphinx"
 
 HOMEPAGE="https://github.com/dask/dask-sphinx-theme/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/f6/32/23c6312934ba912510156e049918fdc142fa39ae6ffd6e57d78c2560d262/dask_sphinx_theme-${REALVERSION}.tar.gz"
-SOURCEFILE="dask_sphinx_theme-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f6/32/23c6312934ba912510156e049918fdc142fa39ae6ffd6e57d78c2560d262/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="📧 CLI to deduplicate mails from mail boxes."
 
 HOMEPAGE="https://github.com/kdeldycke/mail-deduplicate"
 LICENSE="GPL-2+"
-SRC_URI="https://files.pythonhosted.org/packages/fa/a2/f4a3112f008d2da9081b0aabda11f52b80085c6626078497deb5c8fdb3b3/mail_deduplicate-${REALVERSION}.tar.gz"
-SOURCEFILE="mail_deduplicate-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fa/a2/f4a3112f008d2da9081b0aabda11f52b80085c6626078497deb5c8fdb3b3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

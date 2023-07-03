@@ -15,8 +15,8 @@ DESCRIPTION="ae namespace package portion enaml_app: enaml application widgets, 
 
 HOMEPAGE="https://gitlab.com/ae-group/ae_enaml_app"
 LICENSE="OSI Approved :: GNU General Public License v3 or later GPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/ec/d3/f246e5e3b0091756278d7ea974caebc6a28e1c4741ea63f89994d0373741/ae_enaml_app-${REALVERSION}.tar.gz"
-SOURCEFILE="ae_enaml_app-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ec/d3/f246e5e3b0091756278d7ea974caebc6a28e1c4741ea63f89994d0373741/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

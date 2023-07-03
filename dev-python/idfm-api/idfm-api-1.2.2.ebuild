@@ -15,8 +15,8 @@ DESCRIPTION="API for Ile de france mobilite"
 
 HOMEPAGE="https://github.com/droso-hass/idfm-api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8d/9e/8d1f222299caed96ffbf7d9e6339e115080697858effcacfae7b48cace05/idfm_api-${REALVERSION}.tar.gz"
-SOURCEFILE="idfm_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8d/9e/8d1f222299caed96ffbf7d9e6339e115080697858effcacfae7b48cace05/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

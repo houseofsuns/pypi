@@ -15,8 +15,8 @@ DESCRIPTION="Helper tool for qontract-reconcile development"
 
 HOMEPAGE="http://github.com/chassing/qontract-development-cli"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8b/63/2f9dc67af1d62ca32516f196c20994c0812154b2825e67534515edd3969f/qontract_development_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="qontract_development_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8b/63/2f9dc67af1d62ca32516f196c20994c0812154b2825e67534515edd3969f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

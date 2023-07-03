@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># opentelemetry-instrument-openaiIt's OpenTelemetry instrumentation (python) for OpenAI's library.Project site: https://github.com/cartermp/opentelemetry-instrument-openai-pySupported APIs:- [x] Chat- [x] Embeddings- [x] Moderation- [x] Image (generation, edit, variation)- [x] Audio (transcribe, translate)- [x] Completion (GPT-3)- [x] Edit (GPT-3)## How to use itSimple! First, install this package.### UsageWith autoinstrumentation agent:```poetry add opentelemetry-instrument-openaipoetry run opentelemetry-bootstrap -a installpoetry run opentelemetry-instrument python your_app.py```If you prefer to do it in code, you can do that too:```pythonimport openaifrom dotenv import load_dotenvfrom opentelemetry.instrument.openai import OpenAIInstrumentorOpenAIInstrumentor().instrument()load_dotenv()openai.api_key = os.getenv(&quot;OPENAI_API_KEY&quot;)openai.ChatCompletion.create(    model=&quot;gpt-3.5-turbo&quot;,    messages=[{&quot;role&quot;:&quot;user&quot;, &quot;content&quot;:&quot;Tell me a joke about opentelemetry&quot;}],)```You can then run your app normally with your own opentelemetry initialization.## How to developGet [poetry](https://python-poetry.org/).Now install and run tests:```poetry installpoetry run pytest```Now you can develop and run tests as you go!## How to run the exampleClick the example folder and read the README.</longdescription>
+</pkgmetadata>

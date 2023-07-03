@@ -15,8 +15,8 @@ DESCRIPTION="Tools for Tamr"
 
 HOMEPAGE="https://github.com/Datatamer/tamr-toolbox"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bc/d9/a68959f6b959d12d70ab1d964b76923edc6cc3d44c0a6c7702172589f6fa/tamr_toolbox-${REALVERSION}.tar.gz"
-SOURCEFILE="tamr_toolbox-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bc/d9/a68959f6b959d12d70ab1d964b76923edc6cc3d44c0a6c7702172589f6fa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

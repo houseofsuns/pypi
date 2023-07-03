@@ -15,8 +15,8 @@ DESCRIPTION="Official URDF and SDF models of the iCub humanoid robot."
 
 HOMEPAGE="https://github.com/robotolgy/icub-models"
 LICENSE="Creative Commons Attribution Share Alike 4.0 International"
-SRC_URI="https://files.pythonhosted.org/packages/52/9d/46dad55fa092c91524cdf4db08dcbf615b7a33e9931cb75196d7e2d03aa9/icub_models-${REALVERSION}.tar.gz"
-SOURCEFILE="icub_models-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/52/9d/46dad55fa092c91524cdf4db08dcbf615b7a33e9931cb75196d7e2d03aa9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

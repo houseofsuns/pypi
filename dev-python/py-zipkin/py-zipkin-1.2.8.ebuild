@@ -15,8 +15,8 @@ DESCRIPTION="Library for using Zipkin in Python."
 
 HOMEPAGE="https://github.com/Yelp/py_zipkin"
 LICENSE="Copyright Yelp 2019"
-SRC_URI="https://files.pythonhosted.org/packages/a9/d7/1bc99e67df74d8125182a532f1a99eace67fec1d32f239d4ee67a5538a12/py_zipkin-${REALVERSION}.tar.gz"
-SOURCEFILE="py_zipkin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a9/d7/1bc99e67df74d8125182a532f1a99eace67fec1d32f239d4ee67a5538a12/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Python bindings for the petra_grid crate"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bf/7e/06797dde3d1b1b465605161dfdb81a8ef85271b443786119284f5bb5853a/petra_grid-${REALVERSION}.tar.gz"
-SOURCEFILE="petra_grid-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bf/7e/06797dde3d1b1b465605161dfdb81a8ef85271b443786119284f5bb5853a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

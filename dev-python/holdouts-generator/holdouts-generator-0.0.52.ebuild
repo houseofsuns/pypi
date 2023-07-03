@@ -15,8 +15,8 @@ DESCRIPTION="Simple python package to generate and cache both random and chromos
 
 HOMEPAGE="https://github.com/LucaCappelletti94/holdouts_generator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e1/aa/196ccb1abbafaf6ac3f1c38b193f22e63adbc90d1e087c45bd5710ee504b/holdouts_generator-${REALVERSION}.tar.gz"
-SOURCEFILE="holdouts_generator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e1/aa/196ccb1abbafaf6ac3f1c38b193f22e63adbc90d1e087c45bd5710ee504b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

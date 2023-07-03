@@ -15,8 +15,8 @@ DESCRIPTION="Palantir Python SDK"
 
 HOMEPAGE="https://github.com/palantir/palantir-python-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/62/e6/237d045ca61853f900186790d8f1ce0dbba1e7f2fb10e5386cef89530151/palantir_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="palantir_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/62/e6/237d045ca61853f900186790d8f1ce0dbba1e7f2fb10e5386cef89530151/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

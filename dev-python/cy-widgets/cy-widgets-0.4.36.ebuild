@@ -15,8 +15,8 @@ DESCRIPTION="Widgets of quant app"
 
 HOMEPAGE="https://github.com/cragod/CYWidgets"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9b/28/426aab57e2ae7190d7ced19aec259cb77878c6e0e249a828854d2fd4b526/cy_widgets-${REALVERSION}.tar.gz"
-SOURCEFILE="cy_widgets-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9b/28/426aab57e2ae7190d7ced19aec259cb77878c6e0e249a828854d2fd4b526/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

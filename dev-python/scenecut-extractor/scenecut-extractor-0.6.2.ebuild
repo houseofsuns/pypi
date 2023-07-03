@@ -15,8 +15,8 @@ DESCRIPTION="Get scenecuts from a video file using ffmpeg"
 
 HOMEPAGE="https://github.com/slhck/scenecut-extractor"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b7/3a/dad0b08da91c0666c76cdfca70d9d90c2ac2832c7c028379976cf83bb5af/scenecut_extractor-${REALVERSION}.tar.gz"
-SOURCEFILE="scenecut_extractor-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b7/3a/dad0b08da91c0666c76cdfca70d9d90c2ac2832c7c028379976cf83bb5af/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

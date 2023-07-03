@@ -15,8 +15,8 @@ DESCRIPTION="API wrapper for Pipedrive written in Python"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cf/00/5b5e4bb068ccc9de518e9103ebce10142a9da290035c4e51a7cec0e66037/pipedrive_python_lib-${REALVERSION}.tar.gz"
-SOURCEFILE="pipedrive_python_lib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cf/00/5b5e4bb068ccc9de518e9103ebce10142a9da290035c4e51a7cec0e66037/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

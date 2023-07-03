@@ -15,8 +15,8 @@ DESCRIPTION="Momento Client Proto Generated Files"
 
 HOMEPAGE="https://gomomento.com"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/9f/80/c3d7c870429dd8a7dca551c4117008302d05c2c6c421348b94babed715db/momento_wire_types-${REALVERSION}.tar.gz"
-SOURCEFILE="momento_wire_types-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9f/80/c3d7c870429dd8a7dca551c4117008302d05c2c6c421348b94babed715db/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Aquisition and guiding package for SDSS-V LVM"
 
 HOMEPAGE="https://github.com/sdss/lvmagp"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/5f/09/b48bb08b3220460b584acfdd23eb32aab6d77b9a84d69286100fe3510f6b/sdss_lvmagp-${REALVERSION}.tar.gz"
-SOURCEFILE="sdss_lvmagp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5f/09/b48bb08b3220460b584acfdd23eb32aab6d77b9a84d69286100fe3510f6b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

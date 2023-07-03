@@ -15,8 +15,8 @@ DESCRIPTION="Fast marine heatwaves and extrem events detector based on https://g
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d8/3c/799ea2f47ed3bd9a3c549eabea93625bc43663dca791af75c1cf6bbfcb1e/mhw_detect-${REALVERSION}.tar.gz"
-SOURCEFILE="mhw_detect-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d8/3c/799ea2f47ed3bd9a3c549eabea93625bc43663dca791af75c1cf6bbfcb1e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

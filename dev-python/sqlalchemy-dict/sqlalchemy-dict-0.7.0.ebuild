@@ -15,8 +15,8 @@ DESCRIPTION="sqlalchemy extension for interacting models with python dictionary.
 
 HOMEPAGE="https://github.com/meyt/sqlalchemy-dict"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a1/2b/f62a226f70f3bad341cdd341ddda1e373f92f7653b9f832c4fb08190ddce/sqlalchemy_dict-${REALVERSION}.tar.gz"
-SOURCEFILE="sqlalchemy_dict-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a1/2b/f62a226f70f3bad341cdd341ddda1e373f92f7653b9f832c4fb08190ddce/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

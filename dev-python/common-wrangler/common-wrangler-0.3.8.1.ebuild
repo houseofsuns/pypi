@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/93/79/4557b8a2c8bd0b8a96bcb568809c5383700b21c4466518f60d42239dde58/common_wrangler-${REALVERSION}.tar.gz"
-SOURCEFILE="common_wrangler-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/93/79/4557b8a2c8bd0b8a96bcb568809c5383700b21c4466518f60d42239dde58/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Flask/FastAPI Architecture Application Generator"
 
 HOMEPAGE="https://github.com/DevzoneCommunity/faag_cli"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/66/7f/eb5580fc2f46d59bc2b0ed4c3c00e9421bf06dcc36a5d2d34ab52d900075/faag_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="faag_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/66/7f/eb5580fc2f46d59bc2b0ed4c3c00e9421bf06dcc36a5d2d34ab52d900075/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

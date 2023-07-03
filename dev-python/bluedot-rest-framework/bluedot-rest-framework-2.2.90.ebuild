@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fc/69/8a9d389a17610916d4192c8ee4da87f9aeeea87340d5dcc3d6100f606781/bluedot_rest_framework-${REALVERSION}.tar.gz"
-SOURCEFILE="bluedot_rest_framework-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fc/69/8a9d389a17610916d4192c8ee4da87f9aeeea87340d5dcc3d6100f606781/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

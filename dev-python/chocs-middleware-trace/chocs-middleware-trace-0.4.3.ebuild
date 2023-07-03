@@ -15,8 +15,8 @@ DESCRIPTION="Http tracing middleware for chocs library."
 
 HOMEPAGE="https://github.com/kodemore/chocs-trace"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c1/6d/2ededaad91dabe4602095fee005da85be23643600c01439e1ef7c7cfc2d5/chocs_middleware_trace-${REALVERSION}.tar.gz"
-SOURCEFILE="chocs_middleware_trace-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c1/6d/2ededaad91dabe4602095fee005da85be23643600c01439e1ef7c7cfc2d5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Jupyter notebook extension which support coding auto-completion bas
 
 HOMEPAGE="https://github.com/wenmin-wu/jupyter-tabnine"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f8/b9/a68d61937fc11ba7064faba971d096eb51947ad05b3916382bd8c41ae286/jupyter_tabnine-${REALVERSION}.tar.gz"
-SOURCEFILE="jupyter_tabnine-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f8/b9/a68d61937fc11ba7064faba971d096eb51947ad05b3916382bd8c41ae286/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

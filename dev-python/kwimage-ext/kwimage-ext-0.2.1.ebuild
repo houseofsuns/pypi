@@ -15,8 +15,8 @@ DESCRIPTION="The kwimage_ext module"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/3d/db/ae50e939c46c69af8cac61748a2c13cc7fd2fdbebb639f0da7cb2182e802/kwimage_ext-${REALVERSION}.tar.gz"
-SOURCEFILE="kwimage_ext-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3d/db/ae50e939c46c69af8cac61748a2c13cc7fd2fdbebb639f0da7cb2182e802/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

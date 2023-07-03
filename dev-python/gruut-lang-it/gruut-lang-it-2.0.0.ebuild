@@ -15,8 +15,8 @@ DESCRIPTION="Italian language files for gruut tokenizer/phonemizer"
 
 HOMEPAGE="https://github.com/rhasspy/gruut"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d8/db/503d7547d7e9bcc767abef30f50b509e313690e0e38e77928f66e10f0f11/gruut_lang_it-${REALVERSION}.tar.gz"
-SOURCEFILE="gruut_lang_it-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d8/db/503d7547d7e9bcc767abef30f50b509e313690e0e38e77928f66e10f0f11/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

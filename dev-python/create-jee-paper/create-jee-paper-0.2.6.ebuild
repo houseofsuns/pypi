@@ -15,8 +15,8 @@ DESCRIPTION="Added raw text for respective papers."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d3/ee/6f5fc4da43a74a2373502ed11475f070c38716127a58038717fae16f34e3/create_jee_paper-${REALVERSION}.tar.gz"
-SOURCEFILE="create_jee_paper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d3/ee/6f5fc4da43a74a2373502ed11475f070c38716127a58038717fae16f34e3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

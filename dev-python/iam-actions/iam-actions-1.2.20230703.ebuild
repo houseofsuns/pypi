@@ -15,8 +15,8 @@ DESCRIPTION="JSON of AWS policy components"
 
 HOMEPAGE="https://github.com/constableapp/iam_actions"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/13/f5/b265eee7fd05a333cc3a8c07b5e8fd9346bcf1a7ec37537e26cb09ac7a67/iam_actions-${REALVERSION}.tar.gz"
-SOURCEFILE="iam_actions-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/13/f5/b265eee7fd05a333cc3a8c07b5e8fd9346bcf1a7ec37537e26cb09ac7a67/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

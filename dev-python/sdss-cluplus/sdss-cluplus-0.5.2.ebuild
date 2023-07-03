@@ -15,8 +15,8 @@ DESCRIPTION="Additional functionality for sdss-clu"
 
 HOMEPAGE="https://github.com/sdss/cluplus"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/94/e9/83672ae73be1974ed7abd1797b507a253cd701befa41edea353ecbe62018/sdss_cluplus-${REALVERSION}.tar.gz"
-SOURCEFILE="sdss_cluplus-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/94/e9/83672ae73be1974ed7abd1797b507a253cd701befa41edea353ecbe62018/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

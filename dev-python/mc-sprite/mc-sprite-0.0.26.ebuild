@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://www.coding4fun.com.cn/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e8/6b/81a1938dec26f272902543f7c36f9748e889b1e297fe64dcc04acd9de090/mc_sprite-${REALVERSION}.tar.gz"
-SOURCEFILE="mc_sprite-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e8/6b/81a1938dec26f272902543f7c36f9748e889b1e297fe64dcc04acd9de090/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

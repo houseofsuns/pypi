@@ -15,8 +15,8 @@ DESCRIPTION="A Python wrapper for llama.cpp"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/96/79/3dbc78c1a6e14d088673d21549a736aa27ca69ef1734541a07c36f349cf7/llama_cpp_python-${REALVERSION}.tar.gz"
-SOURCEFILE="llama_cpp_python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/96/79/3dbc78c1a6e14d088673d21549a736aa27ca69ef1734541a07c36f349cf7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

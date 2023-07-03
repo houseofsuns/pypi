@@ -15,8 +15,8 @@ DESCRIPTION="Tool for downloading ssl certificates from remote servers."
 
 HOMEPAGE="https://github.com/michalmazurek/get_cert"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6e/6c/9ade330af8e9624529e697ff49e821c1611987a34963f86094d693c554aa/get_cert-${REALVERSION}.tar.gz"
-SOURCEFILE="get_cert-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6e/6c/9ade330af8e9624529e697ff49e821c1611987a34963f86094d693c554aa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

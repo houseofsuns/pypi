@@ -15,8 +15,8 @@ DESCRIPTION="A Flexible Static Site Generator for Python"
 
 HOMEPAGE="https://github.com/kjaymiller/render_engine/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/56/5f/f433a5fe2b6113fdb93674dc0c9783010b9d7160042eabbf09dac80ed11a/render_engine-${REALVERSION}.tar.gz"
-SOURCEFILE="render_engine-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/56/5f/f433a5fe2b6113fdb93674dc0c9783010b9d7160042eabbf09dac80ed11a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

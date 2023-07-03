@@ -15,8 +15,8 @@ DESCRIPTION="A backport of \`breakpoint\` to python<3.7"
 
 HOMEPAGE="https://github.com/asottile/future-breakpoint"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/82/2e/b6de83dc3ff83bd799e167247efb967f0b1fa45117d3948025ad2b60ab88/future_breakpoint-${REALVERSION}.tar.gz"
-SOURCEFILE="future_breakpoint-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/82/2e/b6de83dc3ff83bd799e167247efb967f0b1fa45117d3948025ad2b60ab88/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/06/92/f2207454656922c315e99838576ce68dda141100df38c63ae8e88ec0c076/iotile_support_lib_controller_3-${REALVERSION}.tar.gz"
-SOURCEFILE="iotile_support_lib_controller_3-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/06/92/f2207454656922c315e99838576ce68dda141100df38c63ae8e88ec0c076/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

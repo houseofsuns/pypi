@@ -15,8 +15,8 @@ DESCRIPTION="Flower: A Friendly Federated Learning Framework"
 
 HOMEPAGE="https://flower.dev"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/7c/08/a86a0757d62331c01439fcbbe56d263191c77c1b8976cd070c5f95f67e1a/flwr_nightly-${REALVERSION}.tar.gz"
-SOURCEFILE="flwr_nightly-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7c/08/a86a0757d62331c01439fcbbe56d263191c77c1b8976cd070c5f95f67e1a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

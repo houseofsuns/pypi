@@ -15,8 +15,8 @@ DESCRIPTION="A few utilities for pytest to help with integration into gradescope
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b1/2c/113790549f5d5b618d0dc7456a5fabc8bc0dec1cd595b9cc725b088d4efa/byu_pytest_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="byu_pytest_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b1/2c/113790549f5d5b618d0dc7456a5fabc8bc0dec1cd595b9cc725b088d4efa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

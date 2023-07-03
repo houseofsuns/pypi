@@ -15,8 +15,8 @@ DESCRIPTION="A library for annotating and checking the shapes of tensors."
 
 HOMEPAGE="https://gpflow.github.io/check_shapes"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/78/4c/cd16435d5b12630c9f16b85c7d8d37a8ae114d8e5b4dd13aabae9a202571/check_shapes-${REALVERSION}.tar.gz"
-SOURCEFILE="check_shapes-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/78/4c/cd16435d5b12630c9f16b85c7d8d37a8ae114d8e5b4dd13aabae9a202571/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

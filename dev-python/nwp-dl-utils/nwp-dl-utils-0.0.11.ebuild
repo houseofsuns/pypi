@@ -15,8 +15,8 @@ DESCRIPTION="Tools to download (relevant parts of) various NWP products."
 
 HOMEPAGE="https://github.com/sintef/nwp-dl-utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/da/cc/785e859779644f288dcdb56ec3a3dddf7199ad1d84eff890f71b98e3e4d3/nwp_dl_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="nwp_dl_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/da/cc/785e859779644f288dcdb56ec3a3dddf7199ad1d84eff890f71b98e3e4d3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

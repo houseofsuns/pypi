@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5e/2f/33bb116d805aa666ecf28808b740f9ae85cf2f1b74e46e08a85cbd75ec7b/pg_to_evalscript-${REALVERSION}.tar.gz"
-SOURCEFILE="pg_to_evalscript-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5e/2f/33bb116d805aa666ecf28808b740f9ae85cf2f1b74e46e08a85cbd75ec7b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Deal PySol FC Cards"
 
 HOMEPAGE="https://github.com/shlomif/pysol_cards"
 LICENSE="3-clause BSD"
-SRC_URI="https://files.pythonhosted.org/packages/4f/90/34c8f488a29dd76a945606bd915f019b37f56d8aead2b89df8f1b1f811a8/pysol_cards-${REALVERSION}.tar.gz"
-SOURCEFILE="pysol_cards-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4f/90/34c8f488a29dd76a945606bd915f019b37f56d8aead2b89df8f1b1f811a8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

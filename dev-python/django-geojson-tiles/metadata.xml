@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>++++++++++++++++++++Django GeoJSON Tiles++++++++++++++++++++A simple Django view to serve GeoJSON tiles from a GeoDjango modelDescription===========The view will return a GeoJSON FeatureCollection for each tile.Each feature corresponds to a row of the model.Setup=====::        pip install django-geojson-tilesAdd the following to your urls.py:::        from geojson_tiles.views import GeoJSONTile        from your_app import GeometryModel        urlpatterns = patterns('',            url(r'^your_endpoint/(?P&lt;z&gt;\d+)/(?P&lt;x&gt;\d+)/(?P&lt;y&gt;\d+).json$',                 GeoJSONTile(GeometryModel, geometry_field='geometry_field', trim_to_boundary=True))        )Notes=====1. ``geometry_field='geometry_field'`` specifies the geometry to use in the feature. If no geometry_field is specified: the first GeometryField in the model's field set is used.2. ``trim_to_boundary=True`` will result in GeoJSON tiles with geometries trimmed to the tile boundary3. ``properties=[...]`` can be used to limit the feature's properties that are serialized4. ``properties={'field_name': 'property name'}`` will limit the feature's properties and map field names (keys) to property names (values).</longdescription>
+</pkgmetadata>

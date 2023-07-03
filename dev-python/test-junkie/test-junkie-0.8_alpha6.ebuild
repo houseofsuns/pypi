@@ -15,8 +15,8 @@ DESCRIPTION="Modern Testing Framework"
 
 HOMEPAGE="https://www.test-junkie.com/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/42/dd/194c65f52556eda7114f31a5d56f3614fd8e9fc7250f9754afa9e3bfbc05/test_junkie-${REALVERSION}.tar.gz"
-SOURCEFILE="test_junkie-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/42/dd/194c65f52556eda7114f31a5d56f3614fd8e9fc7250f9754afa9e3bfbc05/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

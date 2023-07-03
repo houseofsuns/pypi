@@ -15,8 +15,8 @@ DESCRIPTION="Python client for Incident.io"
 
 HOMEPAGE="https://github.com/expobrain/python-incidentio-client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6c/42/7332a437003b96177fd51eb62e37661d5f5152fdd3c16ec07c6b845dc4e9/python_incidentio_client-${REALVERSION}.tar.gz"
-SOURCEFILE="python_incidentio_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6c/42/7332a437003b96177fd51eb62e37661d5f5152fdd3c16ec07c6b845dc4e9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

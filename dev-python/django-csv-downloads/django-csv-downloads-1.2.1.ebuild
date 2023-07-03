@@ -15,8 +15,8 @@ DESCRIPTION="Django app for enabling and tracking CSV downloads"
 
 HOMEPAGE="https://github.com/yunojuno/django-csv-downloads"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e0/e0/dd890c30798fceb7d3111733ba5aa369d599b2fa282d3b4d9ca42e9e4a44/django_csv_downloads-${REALVERSION}.tar.gz"
-SOURCEFILE="django_csv_downloads-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e0/e0/dd890c30798fceb7d3111733ba5aa369d599b2fa282d3b4d9ca42e9e4a44/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

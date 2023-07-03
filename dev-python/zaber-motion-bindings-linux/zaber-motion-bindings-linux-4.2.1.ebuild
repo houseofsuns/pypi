@@ -15,8 +15,8 @@ DESCRIPTION="Linux bindings for Zaber Motion Library"
 
 HOMEPAGE="https://gitlab.com/ZaberTech/zaber-motion-lib"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7e/9f/a3134d6913a943e26f1feaa32f5d64362d6bc412c5931fefb2464442fdfb/zaber_motion_bindings_linux-${REALVERSION}.tar.gz"
-SOURCEFILE="zaber_motion_bindings_linux-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7e/9f/a3134d6913a943e26f1feaa32f5d64362d6bc412c5931fefb2464442fdfb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

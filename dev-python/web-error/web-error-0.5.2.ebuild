@@ -15,8 +15,8 @@ DESCRIPTION="Web based error utils"
 
 HOMEPAGE="https://github.com/EdgyEdgemond/web-error/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/3e/bf/9aca369f8ea19b1000c59d06bc3c69ec8d4f7ff7512e150766f5271c2cf7/web_error-${REALVERSION}.tar.gz"
-SOURCEFILE="web_error-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3e/bf/9aca369f8ea19b1000c59d06bc3c69ec8d4f7ff7512e150766f5271c2cf7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

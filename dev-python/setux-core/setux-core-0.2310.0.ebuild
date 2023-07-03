@@ -15,8 +15,8 @@ DESCRIPTION="System deployment"
 
 HOMEPAGE="https://github.com/louis-riviere-xyz/setux_core"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0d/7c/45b12a750c15f2edc97f442151d0f21aa4b4f3b3b8b795d3c0a5479b343f/setux_core-${REALVERSION}.tar.gz"
-SOURCEFILE="setux_core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0d/7c/45b12a750c15f2edc97f442151d0f21aa4b4f3b3b8b795d3c0a5479b343f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

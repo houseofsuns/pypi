@@ -15,8 +15,8 @@ DESCRIPTION="a library about all python projects"
 
 HOMEPAGE="https://gitee.com/xujiangios/re-common"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7f/6a/a4945defc8d6bb9fe7cdce8778ccdcd8cefa7c641f05a8b3d2c64e1529e6/re_common-${REALVERSION}.tar.gz"
-SOURCEFILE="re_common-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7f/6a/a4945defc8d6bb9fe7cdce8778ccdcd8cefa7c641f05a8b3d2c64e1529e6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Python module to decompile AST to Python code"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/32/41/34be61bdc044829af6edcff823485d881883ab5b33fa68d9ae9a53be594d/ast_decompiler-${REALVERSION}.tar.gz"
-SOURCEFILE="ast_decompiler-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/32/41/34be61bdc044829af6edcff823485d881883ab5b33fa68d9ae9a53be594d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

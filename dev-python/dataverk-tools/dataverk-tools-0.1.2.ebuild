@@ -15,8 +15,8 @@ DESCRIPTION="Theming and colors for dataverker and python dataviz"
 
 HOMEPAGE="https://github.com/navikt/dataverk_tools/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ba/4d/c93facbb21b7436a5de9a9a98cbf6f605f2236fb24c7fab9cfdbb9336009/dataverk_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="dataverk_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ba/4d/c93facbb21b7436a5de9a9a98cbf6f605f2236fb24c7fab9cfdbb9336009/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

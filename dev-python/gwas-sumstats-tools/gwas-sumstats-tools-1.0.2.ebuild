@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/17/87/5db14bfb5da0f13e319627133901a5163393c450f59865906ff186fd5af7/gwas_sumstats_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="gwas_sumstats_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/17/87/5db14bfb5da0f13e319627133901a5163393c450f59865906ff186fd5af7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

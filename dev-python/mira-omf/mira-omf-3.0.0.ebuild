@@ -15,8 +15,8 @@ DESCRIPTION="API Library for Open Mining Format"
 
 HOMEPAGE="http://www.globalminingstandards.org/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/77/22/417054aa656e340bf72318f9b8988bcb4d69fefa1c4a5fee7e74a2d7b2fa/mira_omf-${REALVERSION}.tar.gz"
-SOURCEFILE="mira_omf-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/77/22/417054aa656e340bf72318f9b8988bcb4d69fefa1c4a5fee7e74a2d7b2fa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

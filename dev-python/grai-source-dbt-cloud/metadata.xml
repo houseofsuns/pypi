@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Grai dbt Cloud IntegrationThe dbt Cloud integration synchronizes metadata from your dbt cloud instance into your Grai data lineage graph.</longdescription>
+</pkgmetadata>

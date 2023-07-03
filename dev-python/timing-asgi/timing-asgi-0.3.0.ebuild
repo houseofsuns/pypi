@@ -15,8 +15,8 @@ DESCRIPTION="ASGI middleware to emit timing metrics with something like statsd"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b6/8b/c070b8ab36440eee215e4920ce9c37dd02c7eae96d9e2cf310f8227d9677/timing_asgi-${REALVERSION}.tar.gz"
-SOURCEFILE="timing_asgi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b6/8b/c070b8ab36440eee215e4920ce9c37dd02c7eae96d9e2cf310f8227d9677/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="build upgrade package."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a0/b7/3db72e613186f88b194f9089ff239a9cd2e51a32e547baeff6280bc663da/build_upgrade_package-${REALVERSION}.tar.gz"
-SOURCEFILE="build_upgrade_package-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a0/b7/3db72e613186f88b194f9089ff239a9cd2e51a32e547baeff6280bc663da/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

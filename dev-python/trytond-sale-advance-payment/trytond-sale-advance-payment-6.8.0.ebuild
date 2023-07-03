@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module for sale advance payment"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/7a/5d/140a79f05fbf3f4c7aac0ea1995d9f6e6df65e1d4b9e92955a60f73f9b3c/trytond_sale_advance_payment-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_sale_advance_payment-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7a/5d/140a79f05fbf3f4c7aac0ea1995d9f6e6df65e1d4b9e92955a60f73f9b3c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

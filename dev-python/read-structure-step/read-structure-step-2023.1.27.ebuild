@@ -15,8 +15,8 @@ DESCRIPTION="A SEAMM plug-in to read common formats in computational chemistry"
 
 HOMEPAGE="https://github.com/molssi-seamm/read_structure_step"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/18/b4/4ba96d9f67312bdc4ecd2b60357e315219f1a6fc86c350e636c8d648c1bc/read_structure_step-${REALVERSION}.tar.gz"
-SOURCEFILE="read_structure_step-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/18/b4/4ba96d9f67312bdc4ecd2b60357e315219f1a6fc86c350e636c8d648c1bc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

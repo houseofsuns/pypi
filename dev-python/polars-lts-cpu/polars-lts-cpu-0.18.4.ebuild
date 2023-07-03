@@ -15,8 +15,8 @@ DESCRIPTION="Blazingly fast DataFrame library"
 
 HOMEPAGE="https://www.pola.rs/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ad/da/dc310c15c2a56c18ca8054175f8d49d7010eb17f79cb204a21897e873eb6/polars_lts_cpu-${REALVERSION}.tar.gz"
-SOURCEFILE="polars_lts_cpu-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ad/da/dc310c15c2a56c18ca8054175f8d49d7010eb17f79cb204a21897e873eb6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

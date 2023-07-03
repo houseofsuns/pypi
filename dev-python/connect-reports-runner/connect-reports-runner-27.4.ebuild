@@ -15,8 +15,8 @@ DESCRIPTION="Connect Reports Runner"
 
 HOMEPAGE="https://connect.cloudblue.com"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d9/ba/608bd4f07a153d60f5782d8effa7ecc42094b1612958222f66bac3c96b6b/connect_reports_runner-${REALVERSION}.tar.gz"
-SOURCEFILE="connect_reports_runner-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d9/ba/608bd4f07a153d60f5782d8effa7ecc42094b1612958222f66bac3c96b6b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

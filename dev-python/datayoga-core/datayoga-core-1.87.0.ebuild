@@ -15,8 +15,8 @@ DESCRIPTION="DataYoga for Python"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/95/71/67665bfe8eecf6c58e06a6ca51e0f35ab808b1fd4612f45584a4338e4919/datayoga_core-${REALVERSION}.tar.gz"
-SOURCEFILE="datayoga_core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/95/71/67665bfe8eecf6c58e06a6ca51e0f35ab808b1fd4612f45584a4338e4919/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

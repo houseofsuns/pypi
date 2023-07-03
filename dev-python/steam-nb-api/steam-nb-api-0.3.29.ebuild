@@ -15,8 +15,8 @@ DESCRIPTION="A package with an API for STEAM."
 
 HOMEPAGE="https://gitlab.cern.ch/steam/steam-notebook-api"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/06/60/920d6dc550a0d09a9c9bdf6e0165e3bb0a483a1958e8f32463534e330348/steam_nb_api-${REALVERSION}.tar.gz"
-SOURCEFILE="steam_nb_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/06/60/920d6dc550a0d09a9c9bdf6e0165e3bb0a483a1958e8f32463534e330348/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

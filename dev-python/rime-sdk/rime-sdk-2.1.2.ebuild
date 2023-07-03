@@ -15,8 +15,8 @@ DESCRIPTION="Package to programmatically access a RIME deployment"
 
 HOMEPAGE=""
 LICENSE="OSI Approved :: Apache Software License"
-SRC_URI="https://files.pythonhosted.org/packages/ba/9c/d203af1ae24a201ef9641e1b728d35b8648ff7e63ef42b173283845ecfd3/rime_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="rime_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ba/9c/d203af1ae24a201ef9641e1b728d35b8648ff7e63ef42b173283845ecfd3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

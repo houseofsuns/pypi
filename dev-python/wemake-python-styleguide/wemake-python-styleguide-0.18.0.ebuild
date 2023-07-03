@@ -15,8 +15,8 @@ DESCRIPTION="The strictest and most opinionated python linter ever"
 
 HOMEPAGE="https://wemake-python-styleguide.rtfd.io"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/72/42/8950f0b684f58b305de3080568adb6c0c0ac2f65ea49344400483bfde5fa/wemake_python_styleguide-${REALVERSION}.tar.gz"
-SOURCEFILE="wemake_python_styleguide-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/72/42/8950f0b684f58b305de3080568adb6c0c0ac2f65ea49344400483bfde5fa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

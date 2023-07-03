@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/lirsacc/statsd_client_python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d4/c4/9f8726660c7a83c97cf289dfadcf513e90555f90caa3d2e772e65fb0af2b/statsd_python-${REALVERSION}.tar.gz"
-SOURCEFILE="statsd_python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d4/c4/9f8726660c7a83c97cf289dfadcf513e90555f90caa3d2e772e65fb0af2b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="CLI Command Parser"
 
 HOMEPAGE="https://github.com/dskrypa/cli_command_parser"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/2c/79/8a30c7721c9f854db0fd3b6785d9c7497ff838dddcbd0bed42d02233d4b2/cli_command_parser-${REALVERSION}.tar.gz"
-SOURCEFILE="cli_command_parser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2c/79/8a30c7721c9f854db0fd3b6785d9c7497ff838dddcbd0bed42d02233d4b2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

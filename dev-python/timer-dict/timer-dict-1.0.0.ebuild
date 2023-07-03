@@ -15,8 +15,8 @@ DESCRIPTION="A dictionary where values are removed after a certain time"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6d/4b/1d1a0720fc448f789d41297b6e063fc38e33f4df227f4a36436b6653c9e1/timer_dict-${REALVERSION}.tar.gz"
-SOURCEFILE="timer_dict-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6d/4b/1d1a0720fc448f789d41297b6e063fc38e33f4df227f4a36436b6653c9e1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

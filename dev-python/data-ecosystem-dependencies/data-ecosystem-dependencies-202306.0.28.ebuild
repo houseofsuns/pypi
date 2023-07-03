@@ -15,8 +15,8 @@ DESCRIPTION="Data Ecosystem  Dependencies - Python (PADE)"
 
 HOMEPAGE="https://github.com/cdcent/data_ecosystem_services"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/35/a2/0932c3f781f5de1dc6931b9f057b851455e75c0702d7fa076d85c8ecee54/data_ecosystem_dependencies-${REALVERSION}.tar.gz"
-SOURCEFILE="data_ecosystem_dependencies-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/35/a2/0932c3f781f5de1dc6931b9f057b851455e75c0702d7fa076d85c8ecee54/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

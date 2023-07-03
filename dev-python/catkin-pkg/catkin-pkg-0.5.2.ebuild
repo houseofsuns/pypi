@@ -15,8 +15,8 @@ DESCRIPTION="catkin package library"
 
 HOMEPAGE="http://wiki.ros.org/catkin_pkg"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/b0/c3/c2f0de6be573b2209e229f7c65e54123f1a49a24e2d25698e5de05148a17/catkin_pkg-${REALVERSION}.tar.gz"
-SOURCEFILE="catkin_pkg-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b0/c3/c2f0de6be573b2209e229f7c65e54123f1a49a24e2d25698e5de05148a17/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

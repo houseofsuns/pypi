@@ -15,8 +15,8 @@ DESCRIPTION="robotic telescope software"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2a/44/b979f277591c5c518c71850329ef03b8bbf39c4539017a2252ab1a1d69e5/pyobs_core-${REALVERSION}.tar.gz"
-SOURCEFILE="pyobs_core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2a/44/b979f277591c5c518c71850329ef03b8bbf39c4539017a2252ab1a1d69e5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

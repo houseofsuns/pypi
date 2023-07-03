@@ -15,8 +15,8 @@ DESCRIPTION="Get information about your Letterboxd activity."
 
 HOMEPAGE="https://github.com/mBaratta96/letterboxd_stats"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/08/0c/b4fb1b4a6de94c433ff2deb8005fd42bef099afcf6972dd96ac60acd2076/letterboxd_stats-${REALVERSION}.tar.gz"
-SOURCEFILE="letterboxd_stats-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/08/0c/b4fb1b4a6de94c433ff2deb8005fd42bef099afcf6972dd96ac60acd2076/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

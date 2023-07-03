@@ -15,8 +15,8 @@ DESCRIPTION="Sphinx extension to enable modeling and set constraints for sphinx-
 
 HOMEPAGE="http://github.com/useblocks/sphinx-modeling"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/84/88/f113d3b7b5eaa2bef42d70ef6464e923bf7920c64cc76982374e72741d57/sphinx_modeling-${REALVERSION}.tar.gz"
-SOURCEFILE="sphinx_modeling-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/84/88/f113d3b7b5eaa2bef42d70ef6464e923bf7920c64cc76982374e72741d57/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

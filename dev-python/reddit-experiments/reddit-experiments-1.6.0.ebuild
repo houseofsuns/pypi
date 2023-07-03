@@ -15,8 +15,8 @@ DESCRIPTION="reddit's python experiments framework"
 
 HOMEPAGE="https://github.com/reddit/experiments.py"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/94/db/73b21f956ea624d3b7709affc8681fc875f982204b0d3c5dc69d232753e3/reddit_experiments-${REALVERSION}.tar.gz"
-SOURCEFILE="reddit_experiments-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/94/db/73b21f956ea624d3b7709affc8681fc875f982204b0d3c5dc69d232753e3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

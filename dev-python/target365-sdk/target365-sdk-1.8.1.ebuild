@@ -15,8 +15,8 @@ DESCRIPTION="Target365 SDK"
 
 HOMEPAGE="https://github.com/Target365/sdk-for-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/62/2e/3971de4cd30f78069ed7f1d0f77cdcd1d323b5d55438a7a1628402598ad4/target365_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="target365_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/62/2e/3971de4cd30f78069ed7f1d0f77cdcd1d323b5d55438a7a1628402598ad4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="(mostly) single stroke vim commands"
 
 HOMEPAGE="https://github.com/Josiah-tan/plover-vim"
 LICENSE="GNU General Public License v3 GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/64/13/a9afd54f3117da694fadb1c49bcde9dbc5243c89d390f2155debd68a294d/plover_vim-${REALVERSION}.tar.gz"
-SOURCEFILE="plover_vim-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/64/13/a9afd54f3117da694fadb1c49bcde9dbc5243c89d390f2155debd68a294d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Nornir Nautobot"
 
 HOMEPAGE="https://nautobot.com"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e8/20/1c8e2a2397fa877b360a68f5c7ba81ad930a26d99bb78e650df0b6529269/nornir_nautobot-${REALVERSION}.tar.gz"
-SOURCEFILE="nornir_nautobot-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e8/20/1c8e2a2397fa877b360a68f5c7ba81ad930a26d99bb78e650df0b6529269/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Dramatiq task processor integration for the Sentry SDK"
 
 HOMEPAGE="https://github.com/jmagnusson/sentry-dramatiq"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/e3/a2/0a604154bac61c38003b21f714eaed5fc866855e98d918ba0717a756f00d/sentry_dramatiq-${REALVERSION}.tar.gz"
-SOURCEFILE="sentry_dramatiq-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e3/a2/0a604154bac61c38003b21f714eaed5fc866855e98d918ba0717a756f00d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

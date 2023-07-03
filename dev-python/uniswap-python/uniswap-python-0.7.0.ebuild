@@ -15,8 +15,8 @@ DESCRIPTION="An unofficial Python wrapper for the decentralized exchange Uniswap
 
 HOMEPAGE="https://github.com/shanefontaine/uniswap-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/85/99/99ece6235b235d294f22423023257925253c3f4dbe6a3c1ad9cf35578006/uniswap_python-${REALVERSION}.tar.gz"
-SOURCEFILE="uniswap_python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/85/99/99ece6235b235d294f22423023257925253c3f4dbe6a3c1ad9cf35578006/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

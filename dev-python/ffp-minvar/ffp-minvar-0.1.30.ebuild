@@ -15,8 +15,8 @@ DESCRIPTION="rewritten python package of ffp_minvar algorithm"
 
 HOMEPAGE="https://github.com/luciusluo/ffp_minvar"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/26/86/aa096de795bb5feaf6d59f03dcc3f242e91c5dc300f87b0967ca4ec62c8e/ffp_minvar-${REALVERSION}.tar.gz"
-SOURCEFILE="ffp_minvar-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/26/86/aa096de795bb5feaf6d59f03dcc3f242e91c5dc300f87b0967ca4ec62c8e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

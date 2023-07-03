@@ -15,8 +15,8 @@ DESCRIPTION="Identify and characterise 3D cloud objects"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f5/85/09c995af7cff09d451d924d330e1fb1102d6dacaa7842fe5876870aeb27c/cloud_identification-${REALVERSION}.tar.gz"
-SOURCEFILE="cloud_identification-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f5/85/09c995af7cff09d451d924d330e1fb1102d6dacaa7842fe5876870aeb27c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

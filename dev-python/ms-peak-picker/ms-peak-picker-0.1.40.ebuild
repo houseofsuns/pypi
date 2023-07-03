@@ -15,8 +15,8 @@ DESCRIPTION="A library to pick peaks from mass spectral data"
 
 HOMEPAGE=""
 LICENSE="License :: OSI Approved :: Apache Software License"
-SRC_URI="https://files.pythonhosted.org/packages/39/86/97cfc3b10edd35cc38c08759e707d6f7be23ba3ae8130015c159eea6cfae/ms_peak_picker-${REALVERSION}.tar.gz"
-SOURCEFILE="ms_peak_picker-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/39/86/97cfc3b10edd35cc38c08759e707d6f7be23ba3ae8130015c159eea6cfae/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Web mining module for Python."
 
 HOMEPAGE="http://www.clips.ua.ac.be/pages/pattern"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/53/c9/44df2e48530ff9ebdc0f5a916831aecef2cf10806f3021f09cb4a5040674/patternfork_nosql-${REALVERSION}.tar.gz"
-SOURCEFILE="patternfork_nosql-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/53/c9/44df2e48530ff9ebdc0f5a916831aecef2cf10806f3021f09cb4a5040674/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

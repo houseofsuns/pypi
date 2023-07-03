@@ -15,8 +15,8 @@ DESCRIPTION="Utilities for MOP"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/51/80/87d208a3a0539257bc9de02190d6b7611a3e95739f281fc8ce61056efa11/mop_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="mop_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/51/80/87d208a3a0539257bc9de02190d6b7611a3e95739f281fc8ce61056efa11/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

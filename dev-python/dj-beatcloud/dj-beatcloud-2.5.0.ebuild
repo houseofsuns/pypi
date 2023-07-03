@@ -15,8 +15,8 @@ DESCRIPTION="DJ Tools is a library for managing a collection of music and Rekord
 
 HOMEPAGE="https://github.com/a-rich/DJ-tools"
 LICENSE="GNU GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/92/e1/0a4c565c0b41237897843a8cbf1f6df34db4f3e378f04fbee1898f865c03/dj_beatcloud-${REALVERSION}.tar.gz"
-SOURCEFILE="dj_beatcloud-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/92/e1/0a4c565c0b41237897843a8cbf1f6df34db4f3e378f04fbee1898f865c03/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

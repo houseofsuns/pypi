@@ -15,8 +15,8 @@ DESCRIPTION="An FPS plugin for the nbconvert API"
 
 HOMEPAGE="https://jupyter.org"
 LICENSE="BSD 3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/ec/fa/245b7e8358e7a274756a81b1e79ba664b7ab405c85dc95006576107dbf6e/fps_nbconvert-${REALVERSION}.tar.gz"
-SOURCEFILE="fps_nbconvert-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ec/fa/245b7e8358e7a274756a81b1e79ba664b7ab405c85dc95006576107dbf6e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

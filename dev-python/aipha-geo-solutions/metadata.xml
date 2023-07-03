@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># AIPHA Python APIThis package contains the AIPHA python API. You can install it via:pip install aipha_geo_solutionsYou can find a detailed documentation at the [AIPHA Webservices](https://aipha.ch/documentation)</longdescription>
+</pkgmetadata>

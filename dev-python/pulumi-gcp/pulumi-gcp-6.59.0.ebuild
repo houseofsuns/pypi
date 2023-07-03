@@ -15,8 +15,8 @@ DESCRIPTION="A Pulumi package for creating and managing Google Cloud Platform re
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/2f/cc/e6d27e68ef1bf7128738a1b9c4f5e3d06f3ee80bba6a4e02b967c1ec6683/pulumi_gcp-${REALVERSION}.tar.gz"
-SOURCEFILE="pulumi_gcp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2f/cc/e6d27e68ef1bf7128738a1b9c4f5e3d06f3ee80bba6a4e02b967c1ec6683/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

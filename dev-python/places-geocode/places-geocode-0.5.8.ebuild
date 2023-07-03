@@ -15,8 +15,8 @@ DESCRIPTION="Python Package for Places Geocoding API service"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/77/fc/323f92fed839cc6c0d6eda9e70a2a63fd4a4e8d427cdd7ca3148c6e1c1ec/places_geocode-${REALVERSION}.tar.gz"
-SOURCEFILE="places_geocode-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/77/fc/323f92fed839cc6c0d6eda9e70a2a63fd4a4e8d427cdd7ca3148c6e1c1ec/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

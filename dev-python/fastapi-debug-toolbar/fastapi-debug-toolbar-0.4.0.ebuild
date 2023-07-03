@@ -15,8 +15,8 @@ DESCRIPTION="A debug toolbar for FastAPI."
 
 HOMEPAGE="https://github.com/mongkok/fastapi-debug-toolbar"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/09/a5/2c8b7552420a784cd7e69f083153b734558142d86291beef8d322a868191/fastapi_debug_toolbar-${REALVERSION}.tar.gz"
-SOURCEFILE="fastapi_debug_toolbar-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/09/a5/2c8b7552420a784cd7e69f083153b734558142d86291beef8d322a868191/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

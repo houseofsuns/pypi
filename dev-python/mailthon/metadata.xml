@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Mailthon========**Useful links:** `Documentation`_ | `Issue Tracker`_ | `PyPI Page`_Mailthon is an email library for Python that aims to be highlyextensible and composable. Mailthon is unicode aware and supportsinternationalised headers and email addresses. Also it aims to behighly transport agnostic, meaning that SMTP can be swapped outfor other transports... code-block:: python    &gt;&gt;&gt; from mailthon import postman, email    &gt;&gt;&gt; p = postman(host='smtp.gmail.com', auth=('username', 'password'))    &gt;&gt;&gt; r = p.send(email(            content=u'&lt;p&gt;Hello 世界&lt;/p&gt;',            subject='Hello world',            sender='John &lt;john@jon.com&gt;',            receivers=['doe@jon.com'],        ))    &gt;&gt;&gt; assert r.ok.. _Documentation: http://mailthon.readthedocs.org/en/latest/.. _Issue Tracker: http://github.com/eugene-eeo/mailthon/issues/.. _PyPI Page: http://pypi.python.org/pypi/MailthonPlatforms---------+-------------+----------------------------------------------------------------------------------+| **Linux**   | .. image:: https://travis-ci.org/eugene-eeo/mailthon.svg?branch=master           ||             |     :target: https://travis-ci.org/eugene-eeo/mailthon                           |+-------------+----------------------------------------------------------------------------------+| **Windows** | .. image:: https://ci.appveyor.com/api/projects/status/eadeytartlka64a1?svg=true ||             |     :target: https://ci.appveyor.com/project/eugene-eeo/mailthon                 |+-------------+----------------------------------------------------------------------------------+</longdescription>
+</pkgmetadata>

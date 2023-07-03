@@ -15,8 +15,8 @@ DESCRIPTION="Python API for writing unoffical kik bots that act like humans"
 
 HOMEPAGE="https://github.com/tomer8007/kik-bot-api-unofficial"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3e/f2/cb4349044657a3a3d3c7acc58157bc27764d41296adf53e68acc9e804e0a/kik_unofficial-${REALVERSION}.zip"
-SOURCEFILE="kik_unofficial-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/3e/f2/cb4349044657a3a3d3c7acc58157bc27764d41296adf53e68acc9e804e0a/${REALNAME//-/_}-${REALVERSION}.zip"
+SOURCEFILE="_}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

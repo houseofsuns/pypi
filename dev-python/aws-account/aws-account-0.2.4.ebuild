@@ -15,8 +15,8 @@ DESCRIPTION="Print out AWS account and identity information to verify which acco
 
 HOMEPAGE="https://github.com/rollwagen/aws-account"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/35/fe/cc289be6aec210989bc6ea92072db8ee5ffb311b24b69932215cc8be5800/aws_account-${REALVERSION}.tar.gz"
-SOURCEFILE="aws_account-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/35/fe/cc289be6aec210989bc6ea92072db8ee5ffb311b24b69932215cc8be5800/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

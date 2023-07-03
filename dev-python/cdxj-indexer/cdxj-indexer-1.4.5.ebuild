@@ -15,8 +15,8 @@ DESCRIPTION="CDXJ Indexer for WARC and ARC files"
 
 HOMEPAGE="https://github.com/webrecorder/cdxj-indexer"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/5d/2e/c245b73d2897afc0f1eb369e30b56dae1cf8ec4762086e74b200448f1fa0/cdxj_indexer-${REALVERSION}.tar.gz"
-SOURCEFILE="cdxj_indexer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5d/2e/c245b73d2897afc0f1eb369e30b56dae1cf8ec4762086e74b200448f1fa0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

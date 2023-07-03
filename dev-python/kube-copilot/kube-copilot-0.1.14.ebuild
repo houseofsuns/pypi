@@ -15,8 +15,8 @@ DESCRIPTION="Kubernetes Copilot"
 
 HOMEPAGE="https://github.com/feiskyer/kube-copilot"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1a/ae/b0e6f9b6ecc8cc5ef33c2c4be76d87a06333e79f291358be1fcbfd57352c/kube_copilot-${REALVERSION}.tar.gz"
-SOURCEFILE="kube_copilot-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1a/ae/b0e6f9b6ecc8cc5ef33c2c4be76d87a06333e79f291358be1fcbfd57352c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

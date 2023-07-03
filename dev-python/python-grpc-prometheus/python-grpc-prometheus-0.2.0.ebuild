@@ -15,8 +15,8 @@ DESCRIPTION="Python gRPC Prometheus Interceptors"
 
 HOMEPAGE="https://github.com/zhyon404/python-grpc-prometheus"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/71/b8/e799163d7bb76d6ad2b8362a218f0e2e0044ebc415870261978d23fc4847/python_grpc_prometheus-${REALVERSION}.tar.gz"
-SOURCEFILE="python_grpc_prometheus-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/71/b8/e799163d7bb76d6ad2b8362a218f0e2e0044ebc415870261978d23fc4847/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

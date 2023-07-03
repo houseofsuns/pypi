@@ -15,8 +15,8 @@ DESCRIPTION="Python implementation of Poseidon hash"
 
 HOMEPAGE="https://github.com/drknzz/poseidon-py.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1e/74/d0398a056018cdc435b25f951318fbb7fb2a147058ce9c39eb307ba3808d/poseidon_py-${REALVERSION}.tar.gz"
-SOURCEFILE="poseidon_py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1e/74/d0398a056018cdc435b25f951318fbb7fb2a147058ce9c39eb307ba3808d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

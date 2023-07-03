@@ -15,8 +15,8 @@ DESCRIPTION="simple migration script, migrate pipenv to poetry"
 
 HOMEPAGE="https://github.com/yhino/pipenv-poetry-migrate"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/51/52/99eb9d6bdf27b84a9166ff1ee53616cf4405e934b33471adf1bccdd192ad/pipenv_poetry_migrate-${REALVERSION}.tar.gz"
-SOURCEFILE="pipenv_poetry_migrate-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/51/52/99eb9d6bdf27b84a9166ff1ee53616cf4405e934b33471adf1bccdd192ad/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

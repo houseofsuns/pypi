@@ -15,8 +15,8 @@ DESCRIPTION="Dash Loading Wrapper Component"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2b/c3/aeea1a7729570ab699f9808a958e9e94949e2e77670d4fce94c474679891/loading_wrapper-${REALVERSION}.tar.gz"
-SOURCEFILE="loading_wrapper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2b/c3/aeea1a7729570ab699f9808a958e9e94949e2e77670d4fce94c474679891/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

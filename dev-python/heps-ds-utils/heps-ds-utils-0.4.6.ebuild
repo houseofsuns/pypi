@@ -15,8 +15,8 @@ DESCRIPTION="A Module to enable Hepsiburada Data Science Team to utilize differe
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/01/78/fbf48cfecdaadc9ddac391e966d5e2f76c2d0a8b735a5e3787bd50db3507/heps_ds_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="heps_ds_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/01/78/fbf48cfecdaadc9ddac391e966d5e2f76c2d0a8b735a5e3787bd50db3507/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a9/bf/00e5ed8360183b33189dc9380a9a9b7d820a32feee7533e0e92279479307/py_arkworks_bls12381-${REALVERSION}.tar.gz"
-SOURCEFILE="py_arkworks_bls12381-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a9/bf/00e5ed8360183b33189dc9380a9a9b7d820a32feee7533e0e92279479307/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

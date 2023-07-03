@@ -15,8 +15,8 @@ DESCRIPTION="Utility modules for Class management"
 
 HOMEPAGE="https://github.com/Phornee/baseutils_phornee"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2e/3f/0bfdb0003bc6cbecedf9eb2eeaf598c6a03bd039f9795047e213e512bedf/baseutils_phornee-${REALVERSION}.tar.gz"
-SOURCEFILE="baseutils_phornee-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2e/3f/0bfdb0003bc6cbecedf9eb2eeaf598c6a03bd039f9795047e213e512bedf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

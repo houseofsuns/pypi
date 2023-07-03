@@ -15,8 +15,8 @@ DESCRIPTION="version"
 
 HOMEPAGE="https://pypi.org/project/documennt_detection"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8a/8c/579f2a3956ca5a4ac42661668dca3446ff33ebd49cc2a0a7197329a08dc0/documennt_detection-${REALVERSION}.tar.gz"
-SOURCEFILE="documennt_detection-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8a/8c/579f2a3956ca5a4ac42661668dca3446ff33ebd49cc2a0a7197329a08dc0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

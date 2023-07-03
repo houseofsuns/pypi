@@ -15,8 +15,8 @@ DESCRIPTION="Django model for Japanese birthday."
 
 HOMEPAGE="https://github.com/shimakaze-git/django-jp-birthday"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ee/17/98ef687603fdcfa1c0022c4fc1e9e3aa0edd5b2d016f297e1c11cbbdfa8e/django_jp_birthday-${REALVERSION}.tar.gz"
-SOURCEFILE="django_jp_birthday-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ee/17/98ef687603fdcfa1c0022c4fc1e9e3aa0edd5b2d016f297e1c11cbbdfa8e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

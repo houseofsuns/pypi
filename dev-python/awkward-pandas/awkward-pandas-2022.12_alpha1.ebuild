@@ -15,8 +15,8 @@ DESCRIPTION="Awkward Array Pandas Extension"
 
 HOMEPAGE="https://github.com/intake/awkward-pandas"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fc/88/ba0cacbe5df740a2c78e9eca1364f1091e6776ea0004025d9b40e3af8fab/awkward_pandas-${REALVERSION}.tar.gz"
-SOURCEFILE="awkward_pandas-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fc/88/ba0cacbe5df740a2c78e9eca1364f1091e6776ea0004025d9b40e3af8fab/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

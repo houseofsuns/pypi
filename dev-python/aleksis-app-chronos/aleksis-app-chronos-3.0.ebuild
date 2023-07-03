@@ -15,8 +15,8 @@ DESCRIPTION="AlekSIS (School Information System) — App Χρόνος (digit
 
 HOMEPAGE="https://aleksis.org/"
 LICENSE="EUPL-1.2-or-later"
-SRC_URI="https://files.pythonhosted.org/packages/73/c3/ee79f78cc6a0eb449483336cb3497442faeeadc9a8f3cac2295920ff0170/aleksis_app_chronos-${REALVERSION}.tar.gz"
-SOURCEFILE="aleksis_app_chronos-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/73/c3/ee79f78cc6a0eb449483336cb3497442faeeadc9a8f3cac2295920ff0170/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A Python client for Radiant MLHub"
 
 HOMEPAGE="https://github.com/radiantearth/radiant-mlhub"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/4d/5d/ecc0d3e8639b23f4745368b3dbb12ad8f3d4dd31da297495ba7c4edf2b09/radiant_mlhub-${REALVERSION}.tar.gz"
-SOURCEFILE="radiant_mlhub-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4d/5d/ecc0d3e8639b23f4745368b3dbb12ad8f3d4dd31da297495ba7c4edf2b09/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

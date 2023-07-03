@@ -15,8 +15,8 @@ DESCRIPTION="TOPTICA Python Laser SDK"
 
 HOMEPAGE="https://toptica.github.io/python-lasersdk/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/af/a4/4163dd9a17d7e8dab3546ae48cf8d3827aa76d1982683d4342d7fb98240b/toptica_lasersdk-${REALVERSION}.tar.gz"
-SOURCEFILE="toptica_lasersdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/af/a4/4163dd9a17d7e8dab3546ae48cf8d3827aa76d1982683d4342d7fb98240b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

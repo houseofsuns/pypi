@@ -15,8 +15,8 @@ DESCRIPTION="Python library that emulates the java-based dynamo-db-client from a
 
 HOMEPAGE="https://github.com/mohankishore/python_dynamodb_lock"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ac/94/4aca685482ddba53e9c7b2eaf9b8e8f18012c0fd36ad67ca31e9b4699f07/python_dynamodb_lock-${REALVERSION}.tar.gz"
-SOURCEFILE="python_dynamodb_lock-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ac/94/4aca685482ddba53e9c7b2eaf9b8e8f18012c0fd36ad67ca31e9b4699f07/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

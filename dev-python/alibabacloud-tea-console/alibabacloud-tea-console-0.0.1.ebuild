@@ -15,8 +15,8 @@ DESCRIPTION="The tea-console module of alibabaCloud Python SDK."
 
 HOMEPAGE="https://github.com/aliyun/tea-console/tree/master/python"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ff/09/967d26ececf2349e65585a7b1fc7b7c94cb360d5430f1ebe442b71c0a2b0/alibabacloud_tea_console-${REALVERSION}.tar.gz"
-SOURCEFILE="alibabacloud_tea_console-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ff/09/967d26ececf2349e65585a7b1fc7b7c94cb360d5430f1ebe442b71c0a2b0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

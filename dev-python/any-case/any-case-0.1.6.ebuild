@@ -15,8 +15,8 @@ DESCRIPTION="Snake/Camel case converter with Django and Djnago REST framework in
 
 HOMEPAGE="https://github.com/asduj/any_case"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3b/5b/41d060ecf49f57c4558fdd2699ff018285525d98bbed359d8d07e32995d9/any_case-${REALVERSION}.tar.gz"
-SOURCEFILE="any_case-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3b/5b/41d060ecf49f57c4558fdd2699ff018285525d98bbed359d8d07e32995d9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

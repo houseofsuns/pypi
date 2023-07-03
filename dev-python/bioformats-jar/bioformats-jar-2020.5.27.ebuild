@@ -15,8 +15,8 @@ DESCRIPTION="bioformats_package.jar installer for scyjava"
 
 HOMEPAGE="https://github.com/tlambert03/bioformats_jar"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/b5/10/0f7b9521bc51d768130bd405122dcde00f6fe9b51de514fccf32f2e531d2/bioformats_jar-${REALVERSION}.tar.gz"
-SOURCEFILE="bioformats_jar-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b5/10/0f7b9521bc51d768130bd405122dcde00f6fe9b51de514fccf32f2e531d2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

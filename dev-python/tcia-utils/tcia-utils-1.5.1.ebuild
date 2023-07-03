@@ -15,8 +15,8 @@ DESCRIPTION="A package to simplify common tasks one might perform when interacti
 
 HOMEPAGE="https://github.com/kirbyju/tcia_utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a1/30/708a8cec81db9cc61ae127f5c63801ccdb1c9dfc6a121e9cd9be9c30ad91/tcia_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="tcia_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a1/30/708a8cec81db9cc61ae127f5c63801ccdb1c9dfc6a121e9cd9be9c30ad91/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

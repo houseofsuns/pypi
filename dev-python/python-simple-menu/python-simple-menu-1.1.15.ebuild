@@ -15,8 +15,8 @@ DESCRIPTION="Yet another simple console menu"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/05/94/b9c84f52e6d2b88d252246c6a6ff2112dbbe05cc2e5eb95e099b01a1b60d/python_simple_menu-${REALVERSION}.tar.gz"
-SOURCEFILE="python_simple_menu-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/05/94/b9c84f52e6d2b88d252246c6a6ff2112dbbe05cc2e5eb95e099b01a1b60d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

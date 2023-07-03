@@ -15,8 +15,8 @@ DESCRIPTION="Swagger coverage for API tests"
 
 HOMEPAGE="https://github.com/berpress/swagger-coverage"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0f/0b/a2007ecda7d6a3071f0809543e996b166f9d4c240cb6e010c8d6847e48a6/test_swagger_coverage-${REALVERSION}.tar.gz"
-SOURCEFILE="test_swagger_coverage-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0f/0b/a2007ecda7d6a3071f0809543e996b166f9d4c240cb6e010c8d6847e48a6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

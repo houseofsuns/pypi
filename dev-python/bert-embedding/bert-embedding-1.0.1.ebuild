@@ -15,8 +15,8 @@ DESCRIPTION="BERT token level embedding with MxNet"
 
 HOMEPAGE="https://github.com/imgarylai/bert_embedding"
 LICENSE="ALv2"
-SRC_URI="https://files.pythonhosted.org/packages/32/49/13f76cef121677994bb1b0e8baa8b8bf88405eb1be554925fe8682b7b71e/bert_embedding-${REALVERSION}.tar.gz"
-SOURCEFILE="bert_embedding-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/32/49/13f76cef121677994bb1b0e8baa8b8bf88405eb1be554925fe8682b7b71e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A python library to retrieve statistics from your Oekofen Pelletron
 
 HOMEPAGE="https://github.com/ckarrie/oekofen-api"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2c/a3/fbec580a2fe547b4293746769b33a182a707f075abd9b8f62cb882925414/oekofen_api-${REALVERSION}.tar.gz"
-SOURCEFILE="oekofen_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2c/a3/fbec580a2fe547b4293746769b33a182a707f075abd9b8f62cb882925414/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

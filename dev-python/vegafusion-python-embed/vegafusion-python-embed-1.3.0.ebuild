@@ -15,8 +15,8 @@ DESCRIPTION="vegafusion-python-embed PyO3 Python Package"
 
 HOMEPAGE=""
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/d6/4e/27399c7952481480d609418909e107c4a11eb52cba5612e5afc93f71bb7d/vegafusion_python_embed-${REALVERSION}.tar.gz"
-SOURCEFILE="vegafusion_python_embed-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d6/4e/27399c7952481480d609418909e107c4a11eb52cba5612e5afc93f71bb7d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

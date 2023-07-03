@@ -15,8 +15,8 @@ DESCRIPTION="SQLAlchemy extension for dealing with SphinxQL"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4d/6f/9b6046805de5f370d0686eab853f7a82a1d281a4ad26c8deb8357511c5e0/sqlalchemy_sphinx-${REALVERSION}.tar.gz"
-SOURCEFILE="sqlalchemy_sphinx-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4d/6f/9b6046805de5f370d0686eab853f7a82a1d281a4ad26c8deb8357511c5e0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

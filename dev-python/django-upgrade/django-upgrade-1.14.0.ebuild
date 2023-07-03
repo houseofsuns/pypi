@@ -15,8 +15,8 @@ DESCRIPTION="Automatically upgrade your Django project code."
 
 HOMEPAGE="https://github.com/adamchainz/django-upgrade"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e0/0b/de05a61124aed0412d8e114c942eb86b0d0ca4b4e18fa03673ec006e245e/django_upgrade-${REALVERSION}.tar.gz"
-SOURCEFILE="django_upgrade-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e0/0b/de05a61124aed0412d8e114c942eb86b0d0ca4b4e18fa03673ec006e245e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

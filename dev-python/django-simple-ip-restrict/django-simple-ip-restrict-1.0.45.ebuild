@@ -15,8 +15,8 @@ DESCRIPTION="This middleware allows you to mark Django URL namespaces as unavail
 
 HOMEPAGE="https://github.com/hatch-studio/django-simple-ip-restrict"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bc/67/7573288a998aac570098d6b6eb369e00fcf2223ee344e6f8d5c69019afc8/django_simple_ip_restrict-${REALVERSION}.tar.gz"
-SOURCEFILE="django_simple_ip_restrict-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bc/67/7573288a998aac570098d6b6eb369e00fcf2223ee344e6f8d5c69019afc8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

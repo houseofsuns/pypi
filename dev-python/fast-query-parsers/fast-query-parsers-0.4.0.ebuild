@@ -15,8 +15,8 @@ DESCRIPTION="Ultra-fast query string and url-encoded form-data parsers"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/51/aa/838662fb57827fefbdaf2ee63fc534bbadaeb6b98639a9a02abc94729f05/fast_query_parsers-${REALVERSION}.tar.gz"
-SOURCEFILE="fast_query_parsers-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/51/aa/838662fb57827fefbdaf2ee63fc534bbadaeb6b98639a9a02abc94729f05/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

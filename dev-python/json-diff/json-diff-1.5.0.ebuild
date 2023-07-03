@@ -15,8 +15,8 @@ DESCRIPTION="Generates diff between two JSON files"
 
 HOMEPAGE="https://gitlab.com/mcepl/json_diff"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6a/48/f6106761581a54d370ac8342ab81a6414548ae72eb126c2a650b5a590252/json_diff-${REALVERSION}.tar.gz"
-SOURCEFILE="json_diff-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6a/48/f6106761581a54d370ac8342ab81a6414548ae72eb126c2a650b5a590252/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

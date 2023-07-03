@@ -15,8 +15,8 @@ DESCRIPTION="Utilities for easier development of extractors for CDF"
 
 HOMEPAGE="https://github.com/cognitedata/python-extractor-utils"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/7b/e1/455c023956648a09bb88f85fe4fbf44094b7fd9a4f49547093437fff30d2/cognite_extractor_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="cognite_extractor_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7b/e1/455c023956648a09bb88f85fe4fbf44094b7fd9a4f49547093437fff30d2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

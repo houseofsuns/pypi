@@ -15,8 +15,8 @@ DESCRIPTION="OpenTelemetry psycopg2 instrumentation"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-psycopg2"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d7/a4/76deab0d696ea92e653bb49b40a41c707fe95816b12f9c0a5874ade91bd6/opentelemetry_instrumentation_psycopg2-${REALVERSION}.tar.gz"
-SOURCEFILE="opentelemetry_instrumentation_psycopg2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d7/a4/76deab0d696ea92e653bb49b40a41c707fe95816b12f9c0a5874ade91bd6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

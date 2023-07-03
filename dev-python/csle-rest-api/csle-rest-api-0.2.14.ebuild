@@ -15,8 +15,8 @@ DESCRIPTION="CSLE REST API"
 
 HOMEPAGE=""
 LICENSE="Creative Commons Attribution-ShareAlike 4.0 International"
-SRC_URI="https://files.pythonhosted.org/packages/8e/32/6d77a65ac2be69a364afb4983f1a92373fb3f736c912776845f86fd94257/csle_rest_api-${REALVERSION}.tar.gz"
-SOURCEFILE="csle_rest_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8e/32/6d77a65ac2be69a364afb4983f1a92373fb3f736c912776845f86fd94257/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

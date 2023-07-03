@@ -15,8 +15,8 @@ DESCRIPTION="Open source library for using PyTorch to train models on Amazon Sag
 
 HOMEPAGE="https://github.com/aws/sagemaker-pytorch-training-toolkit"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/05/f6/540fd5d19b8634f76c41e42777672db49fad075494019e8cc54e86ebc567/sagemaker_pytorch_training-${REALVERSION}.tar.gz"
-SOURCEFILE="sagemaker_pytorch_training-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/05/f6/540fd5d19b8634f76c41e42777672db49fad075494019e8cc54e86ebc567/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

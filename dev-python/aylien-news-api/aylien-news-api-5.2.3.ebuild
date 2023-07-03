@@ -15,8 +15,8 @@ DESCRIPTION="AYLIEN News API"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/08/58/9177f332542f678367f4883de742cb9911ae99b33d11252e8893238f608b/aylien_news_api-${REALVERSION}.tar.gz"
-SOURCEFILE="aylien_news_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/08/58/9177f332542f678367f4883de742cb9911ae99b33d11252e8893238f608b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

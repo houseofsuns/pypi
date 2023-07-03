@@ -15,8 +15,8 @@ DESCRIPTION="A Python interface library that disallows function body content on 
 
 HOMEPAGE="https://github.com/seequent/pure_interface"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/79/3c/55d630ef2f690ee9db9ae0b0307ea75893fdedc52eb16480f8ca3018e4ae/pure_interface-${REALVERSION}.tar.gz"
-SOURCEFILE="pure_interface-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/79/3c/55d630ef2f690ee9db9ae0b0307ea75893fdedc52eb16480f8ca3018e4ae/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

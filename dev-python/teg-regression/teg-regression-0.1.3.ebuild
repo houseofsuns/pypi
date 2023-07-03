@@ -15,8 +15,8 @@ DESCRIPTION="Linear regression, with F-tests, AIC, and linear constraints."
 
 HOMEPAGE="https://tegladwin.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2e/e2/80207e926368ebbcc6ab08761edda370aa48fe0878da58d30cc457e90c4d/teg_regression-${REALVERSION}.tar.gz"
-SOURCEFILE="teg_regression-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2e/e2/80207e926368ebbcc6ab08761edda370aa48fe0878da58d30cc457e90c4d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

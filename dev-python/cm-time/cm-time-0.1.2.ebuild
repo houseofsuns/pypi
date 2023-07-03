@@ -15,8 +15,8 @@ DESCRIPTION="A simple context manager that measures time using perf_counter()"
 
 HOMEPAGE="https://github.com/34j/cm-time"
 LICENSE="CC0-1.0"
-SRC_URI="https://files.pythonhosted.org/packages/fb/db/aef662a01ec5b855f1fa1ca969f5cf6489a2e7c83f38704426bdf8c6c1d9/cm_time-${REALVERSION}.tar.gz"
-SOURCEFILE="cm_time-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fb/db/aef662a01ec5b855f1fa1ca969f5cf6489a2e7c83f38704426bdf8c6c1d9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

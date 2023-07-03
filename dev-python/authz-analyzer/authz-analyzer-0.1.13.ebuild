@@ -15,8 +15,8 @@ DESCRIPTION="Analyze authorization."
 
 HOMEPAGE="https://github.com/satoricyber/authz-analyzer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3d/5f/52136fd17a16f7ab785c8970b2928857ab0570e9e117c29cc521a5210174/authz_analyzer-${REALVERSION}.tar.gz"
-SOURCEFILE="authz_analyzer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3d/5f/52136fd17a16f7ab785c8970b2928857ab0570e9e117c29cc521a5210174/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

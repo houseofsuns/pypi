@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8d/f3/f338e79ebe7f56ad5f0c8fa6a9fac1387894e05ab81f018ab220b5a0b61c/upgrade_knausj-${REALVERSION}.tar.gz"
-SOURCEFILE="upgrade_knausj-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8d/f3/f338e79ebe7f56ad5f0c8fa6a9fac1387894e05ab81f018ab220b5a0b61c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

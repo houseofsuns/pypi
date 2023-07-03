@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># GimeiThis package generates the name and the address at random.Original is [gimei](https://github.com/willnet/gimei).Thank's @willnet## Installation### stable```sh$ pip install gimei```### test version```shpip install -i https://test.pypi.org/simple/ gimei```## Usage```pythonfrom gimei import Gimeiname = Gimei().nameprint name                # 川端 一世 print name.kanji          # 川端 一世print name.hiragana       # かわばた ひとせprint name.katakana       # カワバタ ヒトセprint name.last.kanji     # 川端print name.last.hiragana  # かわばたprint name.last.katakana  # カワバタprint name.first.kanji    # 一世print name.first.hiragana # ひとせprint name.first.katakana # ヒトセaddress = Gimei().address print address             # 大分県三潴郡大木町小原西print address.kanji       # 大分県三潴郡大木町小原西print address.hiragana    # おおいたけんみずまぐんおおきまちこばらにしprint address.katakana    # オオイタケンミズマグンオオキマチコバラニシprint address.prefecture.kanji     # 大分県print address.prefecture.hiragana  # おおいたけんprint address.prefecture.katakana  # オオイタケンprint address.city.kanji     # 三潴郡大木町print address.city.hiragana  # みずまぐんおおきまちprint address.city.katakana  # ミズマグンオオキマチprint address.town.kanji     # 小原西print address.town.hiragana  # こばらにしprint address.town.katakana  # コバラニシ```## Recommendation`pyyaml` is very convenient, but it's for a short while later to deal with a great deal of data.It's recommended hard to install [libyaml](http://pyyaml.org/wiki/LibYAML).## LicenseMIT## AuthorMao Nabeta[twitter](https://twitter.com/nabetama)</longdescription>
+</pkgmetadata>

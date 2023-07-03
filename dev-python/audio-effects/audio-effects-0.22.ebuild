@@ -15,8 +15,8 @@ DESCRIPTION="Some audio effects such as delay, speed changes implemented in pyth
 
 HOMEPAGE="https://github.com/Rainbow-Dreamer/audio_effects"
 LICENSE="LGPL-2.1"
-SRC_URI="https://files.pythonhosted.org/packages/af/b9/ff6610e40387550a77a80bae47d4e5ecbba03f6f7818aba8d350afb44f36/audio_effects-${REALVERSION}.tar.gz"
-SOURCEFILE="audio_effects-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/af/b9/ff6610e40387550a77a80bae47d4e5ecbba03f6f7818aba8d350afb44f36/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

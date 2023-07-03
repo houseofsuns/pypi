@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>nonebot-plugin-escape-url========自动转换发送消息中的URL🤔支持适配器：OneBot V11、QQ频道## 卖家秀使用前：![使用前](img/1.png)使用后：![使用后](img/2.png)## 配置项### escape_url_replace_dot_by将URL中的点替换为类型：`str`默认值：`&quot;。&quot;`### escape_url_ignore_adapters不进行转换的适配器类型：`List[str]`默认值：`[]`</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="Type annotations for boto3. Adds code completion in IDEs such as Py
 
 HOMEPAGE="https://github.com/alliefitter/boto3_type_annotations"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6f/03/57139338cdd4e5f982d2fcdccc7cad352e21a07dd399717b7c0d489374d7/boto3_type_annotations_with_docs-${REALVERSION}.tar.gz"
-SOURCEFILE="boto3_type_annotations_with_docs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6f/03/57139338cdd4e5f982d2fcdccc7cad352e21a07dd399717b7c0d489374d7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

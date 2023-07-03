@@ -15,8 +15,8 @@ DESCRIPTION="AsyncSender is a tiny module for SMTP mail sending, Inspired by Sen
 
 HOMEPAGE="https://github.com/theruziev/async_sender"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/43/67/71303b19cefd1aba563c5c614fa3bfec70a2194d6a547117f44df81f9ab5/async_sender-${REALVERSION}.tar.gz"
-SOURCEFILE="async_sender-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/43/67/71303b19cefd1aba563c5c614fa3bfec70a2194d6a547117f44df81f9ab5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Async and Sync SQL Engine for Python, with support for MySQL, Postg
 
 HOMEPAGE="https://carlos-rian.github.io/pysqlx-engine"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8c/ce/38de6262fcb0143e7f5464830039b3f9e76833e1fdd8cfb52c708ff3551e/pysqlx_engine-${REALVERSION}.tar.gz"
-SOURCEFILE="pysqlx_engine-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8c/ce/38de6262fcb0143e7f5464830039b3f9e76833e1fdd8cfb52c708ff3551e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

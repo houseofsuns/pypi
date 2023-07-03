@@ -15,8 +15,8 @@ DESCRIPTION="Wrapper of DevExtreme components for Plotly Dash"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/60/c6/36e0c79673862af5b6e85889f2a4c0adeb7a2900a2c005be4ed7dceb7d54/dash_devextreme-${REALVERSION}.tar.gz"
-SOURCEFILE="dash_devextreme-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/60/c6/36e0c79673862af5b6e85889f2a4c0adeb7a2900a2c005be4ed7dceb7d54/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>[![GitHub issues](https://img.shields.io/github/issues/layerqa/aiopayok?style=for-the-badge)](https://github.com/layerqa/aiopayok/issues)[![GitHub license](https://img.shields.io/github/license/layerqa/aiopayok?style=for-the-badge)](https://github.com/layerqa/aiopayok/blob/main/LICENSE)[![PyPI](https://img.shields.io/pypi/v/aiopayok?style=for-the-badge)](https://pypi.org/project/aiopayok/)## AIOPayok&gt;payok.io asynchronous python wrapper``` pythonimport asynciofrom aiopayok import Payokpayok = Payok(&quot;API_ID&quot;, &quot;API_KEY&quot;)async def main() -&gt; None:    print(await payok.get_balance())asyncio.run(main())```### Installing``` bashpip install aiopayok```### Resources- Check out the docs at https://payok.io/cabinet/documentation/doc_main.php to learn more about PayOk,</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="Generate and process base models for dbt"
 
 HOMEPAGE="https://github.com/tuanchris/dbt-generator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/16/71/930b1cb729eedea82cec46c79c9c542c4a795d26f4548a7019cbb8a33df8/dbt_generator-${REALVERSION}.tar.gz"
-SOURCEFILE="dbt_generator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/16/71/930b1cb729eedea82cec46c79c9c542c4a795d26f4548a7019cbb8a33df8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

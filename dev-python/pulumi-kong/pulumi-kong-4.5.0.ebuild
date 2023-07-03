@@ -15,8 +15,8 @@ DESCRIPTION="A Pulumi package for creating and managing Kong resources."
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/48/9c/bc7c587a842d94dc5ad2d018c2b3d2920fe8ba3ff8cee4798bdeb36a4e86/pulumi_kong-${REALVERSION}.tar.gz"
-SOURCEFILE="pulumi_kong-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/48/9c/bc7c587a842d94dc5ad2d018c2b3d2920fe8ba3ff8cee4798bdeb36a4e86/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

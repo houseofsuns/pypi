@@ -15,8 +15,8 @@ DESCRIPTION="The best Domain-driven design patterns for your projects"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6d/19/ffcc25b2efcdb164c8ed5fcff85c7a14b35ce792ff71574d73e489e9a893/py_assimilator-${REALVERSION}.tar.gz"
-SOURCEFILE="py_assimilator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6d/19/ffcc25b2efcdb164c8ed5fcff85c7a14b35ce792ff71574d73e489e9a893/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

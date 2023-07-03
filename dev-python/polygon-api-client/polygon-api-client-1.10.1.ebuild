@@ -15,8 +15,8 @@ DESCRIPTION="Official Polygon.io REST and Websocket client."
 
 HOMEPAGE="https://polygon.io"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/70/b4/d0385ed153fde9f77f5c02a202fd460a5192d084d1a4fe82332f1a0139fa/polygon_api_client-${REALVERSION}.tar.gz"
-SOURCEFILE="polygon_api_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/70/b4/d0385ed153fde9f77f5c02a202fd460a5192d084d1a4fe82332f1a0139fa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

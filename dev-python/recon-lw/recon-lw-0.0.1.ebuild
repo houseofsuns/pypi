@@ -15,8 +15,8 @@ DESCRIPTION="recon_lw"
 
 HOMEPAGE="https://github.com/th2-net/recon-lw"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/9c/cf/60010e480582940da99811fee3844553240b03f0c3473910d6a1ca780b16/recon_lw-${REALVERSION}.tar.gz"
-SOURCEFILE="recon_lw-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9c/cf/60010e480582940da99811fee3844553240b03f0c3473910d6a1ca780b16/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

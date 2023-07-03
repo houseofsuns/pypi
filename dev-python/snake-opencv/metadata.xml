@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Snake-OpenCVSnake case OpenCV with type annotations for Python.Note: still in early development## Install```shpip install snake-opencv```## Usage```pyimport snake_opencv as cvpath = '..'image = cv.imread(path)assert image is not Nonegray_image = cv.cvt_color(image, cv.COLOR_BGR2GRAY)cv.imshow(window_name, gray_image) ```</longdescription>
+</pkgmetadata>

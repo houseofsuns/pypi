@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>``aiobtclientapi`` is an asynchronous API for communicating with BitTorrentclients. It is a high-level wrapper around `aiobtclientrpc`_... _aiobtclientrpc: https://codeberg.org/plotski/aiobtclientrpcAll client-specific details are abstracted away as much as possible, but theindividual quirks of each client can still be accessed if necessary.| Documentation: https://aiobtclientapi.readthedocs.io/| Repository: https://codeberg.org/plotski/aiobtclientapi| Package: https://pypi.org/project/aiobtclientapi/License-------`GPLv3+ &lt;https://www.gnu.org/licenses/gpl-3.0.en.html&gt;`_</longdescription>
+</pkgmetadata>

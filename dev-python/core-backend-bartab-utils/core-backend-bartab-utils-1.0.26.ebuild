@@ -15,8 +15,8 @@ DESCRIPTION="Common utils files used for any python3 BarTab repository"
 
 HOMEPAGE="https://github.com/BarTabPayments/core_backend_bartab_utils"
 LICENSE="BSD 2-clause"
-SRC_URI="https://files.pythonhosted.org/packages/bb/c7/c1a334f6ece555e65e8aa15147891fc67c2400682c42cfe9b81dae9db34c/core_backend_bartab_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="core_backend_bartab_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bb/c7/c1a334f6ece555e65e8aa15147891fc67c2400682c42cfe9b81dae9db34c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

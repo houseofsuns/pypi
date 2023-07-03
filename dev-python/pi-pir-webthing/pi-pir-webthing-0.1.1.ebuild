@@ -15,8 +15,8 @@ DESCRIPTION="A web connected PIR motion sensor detecting movement running on Ras
 
 HOMEPAGE="https://github.com/grro/pi_pir_webthing"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ac/eb/80fbc756fb6c65d8eb9ce6cbd02672e8b92d08cc4acb4ed37bc1716e85de/pi_pir_webthing-${REALVERSION}.tar.gz"
-SOURCEFILE="pi_pir_webthing-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ac/eb/80fbc756fb6c65d8eb9ce6cbd02672e8b92d08cc4acb4ed37bc1716e85de/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

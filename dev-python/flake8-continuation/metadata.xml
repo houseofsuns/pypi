@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>===========================Flake8 Continuation Plugin===========================A `Flake8 &lt;http://flake8.readthedocs.org/en/latest/&gt;`_ plugin that checks for the line continuation style to be in the `preferred method according to PEP-8 &lt;https://www.python.org/dev/peps/pep-0008/#maximum-line-length&gt;`_, specifically:    The preferred way of wrapping long lines is by using Python's implied line continuation inside parentheses, brackets and braces. Long lines can be broken over multiple lines by wrapping expressions in parentheses. These should be used in preference to using a backslash for line continuation.Installation============Via pip:``pip install flake8-continuation``The `--user &lt;https://pip.pypa.io/en/stable/user_guide/#user-installs&gt;`__flag is highly recommended for those new to `pip &lt;https://pip.pypa.io&gt;`__.Warnings========This package adds a single new warning, ``C092: prefer implied line continuation inside parentheses, brackets, and braces as opposed to a backslash``. That error code was picked because ``ord('\\') == 92``.</longdescription>
+</pkgmetadata>

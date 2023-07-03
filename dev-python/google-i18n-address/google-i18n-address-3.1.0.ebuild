@@ -15,8 +15,8 @@ DESCRIPTION="Address validation helpers for Google's i18n address database"
 
 HOMEPAGE="https://github.com/mirumee/google-i18n-address"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ba/41/617ea3c1f2dd9d2028630ee1cb22edd91c090ceb5eed9b8001337151db1c/google_i18n_address-${REALVERSION}.tar.gz"
-SOURCEFILE="google_i18n_address-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ba/41/617ea3c1f2dd9d2028630ee1cb22edd91c090ceb5eed9b8001337151db1c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="for cis423 class"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f3/3d/91889c6f9026c9d1b73910135ce8b85ec6b585280e9c6ac09127d66fccc0/uo_puddles-${REALVERSION}.tar.gz"
-SOURCEFILE="uo_puddles-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f3/3d/91889c6f9026c9d1b73910135ce8b85ec6b585280e9c6ac09127d66fccc0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

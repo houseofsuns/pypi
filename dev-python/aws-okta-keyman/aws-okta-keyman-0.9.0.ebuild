@@ -15,8 +15,8 @@ DESCRIPTION="AWS Okta Keyman"
 
 HOMEPAGE="https://github.com/nathan-v/aws_okta_keyman"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f1/f2/84ad9c65c163715265266424ca3c2134629d64f6800f2eb24e78f3a9f296/aws_okta_keyman-${REALVERSION}.tar.gz"
-SOURCEFILE="aws_okta_keyman-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f1/f2/84ad9c65c163715265266424ca3c2134629d64f6800f2eb24e78f3a9f296/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

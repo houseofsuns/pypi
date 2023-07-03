@@ -15,8 +15,8 @@ DESCRIPTION="eduVPN client"
 
 HOMEPAGE="https://github.com/eduvpn/python-eduvpn-client"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/e9/3e/8bb2ae80388f2a995c673c8233baa15d726f24dd462cb0ddf50a6065184e/eduvpn_client-${REALVERSION}.tar.gz"
-SOURCEFILE="eduvpn_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e9/3e/8bb2ae80388f2a995c673c8233baa15d726f24dd462cb0ddf50a6065184e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

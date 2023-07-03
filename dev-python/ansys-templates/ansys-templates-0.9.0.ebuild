@@ -15,8 +15,8 @@ DESCRIPTION="Creates Python projects according to PyAnsys guidelines"
 
 HOMEPAGE="https://templates.ansys.com/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a3/89/4846a1003871136604f43a50d0bc7336ed39bfa8d571d913f8a170dd4bb5/ansys_templates-${REALVERSION}.tar.gz"
-SOURCEFILE="ansys_templates-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a3/89/4846a1003871136604f43a50d0bc7336ed39bfa8d571d913f8a170dd4bb5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

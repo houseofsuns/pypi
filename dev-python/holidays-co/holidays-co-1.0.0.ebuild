@@ -15,8 +15,8 @@ DESCRIPTION="Módulo de utilidades para festivos en Colombia"
 
 HOMEPAGE="https://github.com/jmejia32/holidays_co"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/df/82/b86f7e0232bf6771a4378766f75b93da1de37899eedfa1dd3fe251deb563/holidays_co-${REALVERSION}.tar.gz"
-SOURCEFILE="holidays_co-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/df/82/b86f7e0232bf6771a4378766f75b93da1de37899eedfa1dd3fe251deb563/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

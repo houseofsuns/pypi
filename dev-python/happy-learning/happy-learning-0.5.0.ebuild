@@ -15,8 +15,8 @@ DESCRIPTION="Toolbox for reinforced developing of machine learning models (as pr
 
 HOMEPAGE="https://github.com/GianniBalistreri/happy_learning"
 LICENSE="GNU"
-SRC_URI="https://files.pythonhosted.org/packages/9a/40/70cb3eba749057af04b42d868831ed4cec2c5216c018d2c4b66d5c236ed3/happy_learning-${REALVERSION}.tar.gz"
-SOURCEFILE="happy_learning-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9a/40/70cb3eba749057af04b42d868831ed4cec2c5216c018d2c4b66d5c236ed3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

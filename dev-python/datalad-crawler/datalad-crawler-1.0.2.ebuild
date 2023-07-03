@@ -15,8 +15,8 @@ DESCRIPTION="DataLad extension package for crawling external web resources into 
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/23/90/d7c969b60351a230f5b0fd282d810930a4a86cc17d248a018c483303606f/datalad_crawler-${REALVERSION}.tar.gz"
-SOURCEFILE="datalad_crawler-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/23/90/d7c969b60351a230f5b0fd282d810930a4a86cc17d248a018c483303606f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

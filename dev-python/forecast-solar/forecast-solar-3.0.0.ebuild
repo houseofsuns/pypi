@@ -15,8 +15,8 @@ DESCRIPTION="Asynchronous Python client for getting forecast solar information"
 
 HOMEPAGE="https://github.com/klaasnicolaas/forecast_solar"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/52/f4/662ddd720ea21908ac055cc40bbd51f6e521a5ad13ebb1c654f500435462/forecast_solar-${REALVERSION}.tar.gz"
-SOURCEFILE="forecast_solar-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/52/f4/662ddd720ea21908ac055cc40bbd51f6e521a5ad13ebb1c654f500435462/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

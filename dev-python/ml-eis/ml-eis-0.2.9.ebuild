@@ -15,8 +15,8 @@ DESCRIPTION="data processing and machine learning model for EIS"
 
 HOMEPAGE="https://github.com/yuefan98/Machine-Learning-on-EIS"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/01/0b/93ffa84d47c037da0c7adaa10eb88dc7afed6cc9fafb78d56d04e29d82bb/ml_eis-${REALVERSION}.tar.gz"
-SOURCEFILE="ml_eis-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/01/0b/93ffa84d47c037da0c7adaa10eb88dc7afed6cc9fafb78d56d04e29d82bb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="test PyPI"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/99/e1/057f5fda5eb64e444a3777b7ebd1e36c0be14a9aa947c446db340e13d471/ocr_general_method-${REALVERSION}.tar.gz"
-SOURCEFILE="ocr_general_method-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/99/e1/057f5fda5eb64e444a3777b7ebd1e36c0be14a9aa947c446db340e13d471/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

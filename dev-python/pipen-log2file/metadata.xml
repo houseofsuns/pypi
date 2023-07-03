@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pipen-log2fileSave running logs to file for [pipen][1].The log file is saved to `&lt;workdir&gt;/&lt;pipeline&gt;/.logs/run-&lt;date-time&gt;.log` by default.A symlink `&lt;workdir&gt;/&lt;pipeline&gt;/run-latest.log` is created to the latest log file.The xqute logs are also saved to `&lt;workdir&gt;/&lt;pipeline&gt;/&lt;proc&gt;/proc.xqute.log`Note that the original handler of xqute logger is removed during pipeline running.## Options- `plugin_opts.log2file_xqute`: Whether to save xqute logs. Default: `True`.    if False, the xqute logger will be kept intact.- `plugin_opts.log2file_xqute_level`: The log level for xqute logger. Default: `INFO`.- `plugin_opts.log2file_xqute_append`: Whether to append to the log file. Default: `False`.## Installation```pip install -U pipen-log2file```## Enabling/Disabling the pluginThe plugin is registered via entrypoints. It's by default enabled. To disable it:`plugins=[..., &quot;no:log2file&quot;]`, or uninstall this plugin.[1]: https://github.com/pwwang/pipen</longdescription>
+</pkgmetadata>

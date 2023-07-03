@@ -15,8 +15,8 @@ DESCRIPTION="API interface to the OCI-P provisioning interface of a Broadworks s
 
 HOMEPAGE="https://pypi.org/project/broadworks-ocip/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/72/ef/3c8fdf4be8d2590475f44ac5a08a27c7a2d4dacbd25b0df1fcd781ec11f4/broadworks_ocip-${REALVERSION}.tar.gz"
-SOURCEFILE="broadworks_ocip-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/72/ef/3c8fdf4be8d2590475f44ac5a08a27c7a2d4dacbd25b0df1fcd781ec11f4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

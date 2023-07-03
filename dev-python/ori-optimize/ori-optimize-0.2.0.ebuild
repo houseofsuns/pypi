@@ -15,8 +15,8 @@ DESCRIPTION="a environment that controls STL model rotate to reach the maximal 3
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c1/b8/a3d975ac91ccc6c5016a98643de4bc3ddb05727283e23fcf86284b79d50c/ori_optimize-${REALVERSION}.tar.gz"
-SOURCEFILE="ori_optimize-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c1/b8/a3d975ac91ccc6c5016a98643de4bc3ddb05727283e23fcf86284b79d50c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

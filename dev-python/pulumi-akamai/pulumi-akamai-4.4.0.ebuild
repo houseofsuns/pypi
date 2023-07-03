@@ -15,8 +15,8 @@ DESCRIPTION="A Pulumi package for creating and managing akamai cloud resources."
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ea/75/4aec076ca3a8194ca0e355b427828e08b7c555ecc1179a5adce39334bbfc/pulumi_akamai-${REALVERSION}.tar.gz"
-SOURCEFILE="pulumi_akamai-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ea/75/4aec076ca3a8194ca0e355b427828e08b7c555ecc1179a5adce39334bbfc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

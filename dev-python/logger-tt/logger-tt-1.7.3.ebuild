@@ -15,8 +15,8 @@ DESCRIPTION="Make logging simple, log even exception that you forgot to catch. M
 
 HOMEPAGE="https://github.com/Dragon2fly/logger_tt"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/70/a0/f8805669ab0cf24f240d907e9647c0c6bcddc12b4601c36dcb524389c8b0/logger_tt-${REALVERSION}.tar.gz"
-SOURCEFILE="logger_tt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/70/a0/f8805669ab0cf24f240d907e9647c0c6bcddc12b4601c36dcb524389c8b0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

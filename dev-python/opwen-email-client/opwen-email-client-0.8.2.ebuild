@@ -15,8 +15,8 @@ DESCRIPTION="Email client for the Lokole project: https://ascoderu.ca"
 
 HOMEPAGE="https://github.com/ascoderu/lokole"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/6b/18/7506335b84a75ab4aeace5fb9118b8387151fedb59bb63a52e86a470efa4/opwen_email_client-${REALVERSION}.tar.gz"
-SOURCEFILE="opwen_email_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6b/18/7506335b84a75ab4aeace5fb9118b8387151fedb59bb63a52e86a470efa4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

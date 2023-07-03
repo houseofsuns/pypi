@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/46/10/ad9e04315c6ff4548d3b61693f9177ffa560433a4e8c6211bb5e9b30f5e4/strkit_rust_ext-${REALVERSION}.tar.gz"
-SOURCEFILE="strkit_rust_ext-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/46/10/ad9e04315c6ff4548d3b61693f9177ffa560433a4e8c6211bb5e9b30f5e4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

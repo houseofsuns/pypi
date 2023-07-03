@@ -15,8 +15,8 @@ DESCRIPTION="ocrapi"
 
 HOMEPAGE="https://www.cloudmersive.com/ocr-api"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2f/3f/a4a78f0a379ba6b4374d0425641b7e52b59b254abf16847c483eb4ca2444/cloudmersive_ocr_api_client-${REALVERSION}.tar.gz"
-SOURCEFILE="cloudmersive_ocr_api_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2f/3f/a4a78f0a379ba6b4374d0425641b7e52b59b254abf16847c483eb4ca2444/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

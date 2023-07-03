@@ -15,8 +15,8 @@ DESCRIPTION="grpc for Humans. grpc reflection support client"
 
 HOMEPAGE="https://github.com/wesky93/grpc_requests"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/73/14/ce8787e44e1e320c4efc014652e387a31ee8ae35e01060be6501e0d50cce/grpc_requests-${REALVERSION}.tar.gz"
-SOURCEFILE="grpc_requests-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/73/14/ce8787e44e1e320c4efc014652e387a31ee8ae35e01060be6501e0d50cce/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A Quill-Based Rich Text Editor Component for Dash"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b2/0e/1d0171df0f8de56812a2896c7071e3ff7d441dd162aee9354e14bf8af901/dash_quill-${REALVERSION}.tar.gz"
-SOURCEFILE="dash_quill-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b2/0e/1d0171df0f8de56812a2896c7071e3ff7d441dd162aee9354e14bf8af901/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># AutoRA Synthetic DataSynthetic experiment data for testing AutoRA theorists and experimentalists. ## User GuideYou will need:- `python` 3.8 or greater: [https://www.python.org/downloads/](https://www.python.org/downloads/)Install the synthetic data package (as part of `autora`):```shellpip install -U &quot;autora&quot;```&gt; 💡We recommend using a `python` environment manager like `virtualenv`.Print a description of the prospect theory model by Kahneman and Tversky by running:```shellpython -c &quot;from autora.experiment_runner.synthetic.economics.prospect_theory import prospect_theorystudy = prospect_theory()print(study.description)&quot;```For more information, see the[documentation](https://autoresearch.github.io/autora/user-guide/experiment-runners/synthetic/).</longdescription>
+</pkgmetadata>

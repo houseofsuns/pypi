@@ -15,8 +15,8 @@ DESCRIPTION="Easy to use Ads library"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/50/34/9e9adb334411836a595c1c5104b26d1301c202f16dd36258677569555b9f/autoads_test-${REALVERSION}.tar.gz"
-SOURCEFILE="autoads_test-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/50/34/9e9adb334411836a595c1c5104b26d1301c202f16dd36258677569555b9f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

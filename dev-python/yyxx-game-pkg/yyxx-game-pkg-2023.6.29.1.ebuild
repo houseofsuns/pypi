@@ -15,8 +15,8 @@ DESCRIPTION="yyxx game custom module"
 
 HOMEPAGE="https://github.com/yyxxgame/yyxxgame-pkg"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d6/5a/c527163ca9b014631daf7be1f082277d9b368cb64cde8110244d18587d9d/yyxx_game_pkg-${REALVERSION}.tar.gz"
-SOURCEFILE="yyxx_game_pkg-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d6/5a/c527163ca9b014631daf7be1f082277d9b368cb64cde8110244d18587d9d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Common entities and utilities for Moontour services"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1f/aa/9a87b6cb8e74704886f7fa76e83ab3c8663a99bb9f843844453e81014e37/moontour_common-${REALVERSION}.tar.gz"
-SOURCEFILE="moontour_common-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1f/aa/9a87b6cb8e74704886f7fa76e83ab3c8663a99bb9f843844453e81014e37/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

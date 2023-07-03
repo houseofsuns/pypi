@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a4/60/c5a8de71a3d6194b340b036ff241639060791db691ee91211c1ddfeb9689/xarray_multiscale-${REALVERSION}.tar.gz"
-SOURCEFILE="xarray_multiscale-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a4/60/c5a8de71a3d6194b340b036ff241639060791db691ee91211c1ddfeb9689/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

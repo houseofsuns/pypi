@@ -15,8 +15,8 @@ DESCRIPTION="ClowdFlows natural language processing module"
 
 HOMEPAGE="https://github.com/xflows/cf_nlp"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4f/da/0c0000131ab1cf3a977dfff14ca8cff67c7b6c33b54ebd217d29c7e28f68/cf_nlp-${REALVERSION}.tar.gz"
-SOURCEFILE="cf_nlp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4f/da/0c0000131ab1cf3a977dfff14ca8cff67c7b6c33b54ebd217d29c7e28f68/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

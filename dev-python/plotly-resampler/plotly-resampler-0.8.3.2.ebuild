@@ -15,8 +15,8 @@ DESCRIPTION="Visualizing large time series with plotly"
 
 HOMEPAGE="https://github.com/predict-idlab/plotly-resampler"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/19/4f/43f591976de48685196f3d569738fe3d54c3d7c0afec7b2c40ea0e4b6bc0/plotly_resampler-${REALVERSION}.tar.gz"
-SOURCEFILE="plotly_resampler-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/19/4f/43f591976de48685196f3d569738fe3d54c3d7c0afec7b2c40ea0e4b6bc0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

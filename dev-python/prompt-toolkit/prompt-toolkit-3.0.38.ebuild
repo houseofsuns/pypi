@@ -15,8 +15,8 @@ DESCRIPTION="Library for building powerful interactive command lines in Python"
 
 HOMEPAGE="https://github.com/prompt-toolkit/python-prompt-toolkit"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4b/bb/75cdcd356f57d17b295aba121494c2333d26bfff1a837e6199b8b83c415a/prompt_toolkit-${REALVERSION}.tar.gz"
-SOURCEFILE="prompt_toolkit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4b/bb/75cdcd356f57d17b295aba121494c2333d26bfff1a837e6199b8b83c415a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

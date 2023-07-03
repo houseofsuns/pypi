@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>DISCOtoolkit is an python package that allows users to access data and use the tools provided by the DISCO database.         It provides the following functionsFilter and download DISCO data based on sample metadata and cell type informationCELLiD:             cell type annotationscEnrichment: geneset enrichment using DISCO DEGs</longdescription>
+</pkgmetadata>

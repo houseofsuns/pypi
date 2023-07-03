@@ -15,8 +15,8 @@ DESCRIPTION="Zulip's Bot framework"
 
 HOMEPAGE="https://www.zulip.org/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/86/f4/a7dbe3b2712ac8f71ef7cab4709e4cfd38a3513cabdbe14cca730a851097/zulip_bots-${REALVERSION}.tar.gz"
-SOURCEFILE="zulip_bots-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/86/f4/a7dbe3b2712ac8f71ef7cab4709e4cfd38a3513cabdbe14cca730a851097/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

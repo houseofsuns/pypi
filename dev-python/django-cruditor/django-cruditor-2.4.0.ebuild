@@ -15,8 +15,8 @@ DESCRIPTION="A set of class based views and mixins to generate CRUD interfaces."
 
 HOMEPAGE="https://github.com/stephrdev/django-cruditor"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3c/69/d2885c5e2b8c13f0085c122f5f2eb4e907673fb4843059423faa63e11d6d/django_cruditor-${REALVERSION}.tar.gz"
-SOURCEFILE="django_cruditor-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3c/69/d2885c5e2b8c13f0085c122f5f2eb4e907673fb4843059423faa63e11d6d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

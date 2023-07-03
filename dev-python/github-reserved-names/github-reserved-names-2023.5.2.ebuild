@@ -15,8 +15,8 @@ DESCRIPTION="A list of paths that GitHub uses which aren't real users"
 
 HOMEPAGE="https://github.com/Julian/github-reserved-names"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6b/7e/0ce98d1bb09cc61e5d5d7da7474a668b03ca96f1ad5d1541b9bb80ac8169/github_reserved_names-${REALVERSION}.tar.gz"
-SOURCEFILE="github_reserved_names-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6b/7e/0ce98d1bb09cc61e5d5d7da7474a668b03ca96f1ad5d1541b9bb80ac8169/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

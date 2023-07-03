@@ -15,8 +15,8 @@ DESCRIPTION="Facebook Business SDK"
 
 HOMEPAGE="https://github.com/facebook/facebook-python-business-sdk"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/58/6b/6720ee16372824b8f3f635aefed18cc5f4628efa40856f4256f7bf5e3883/facebook_business-${REALVERSION}.tar.gz"
-SOURCEFILE="facebook_business-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/58/6b/6720ee16372824b8f3f635aefed18cc5f4628efa40856f4256f7bf5e3883/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

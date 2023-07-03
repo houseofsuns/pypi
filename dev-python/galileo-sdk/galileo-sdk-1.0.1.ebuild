@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://hypernetlabs.io/galileo/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/02/c9/ecdb295c7cf685dedb3acd263827a6404e53c4a83d7056ee302a14214f5f/galileo_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="galileo_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/02/c9/ecdb295c7cf685dedb3acd263827a6404e53c4a83d7056ee302a14214f5f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

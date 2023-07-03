@@ -15,8 +15,8 @@ DESCRIPTION="Yet another Python library for Grafana API"
 
 HOMEPAGE="https://github.com/m0nhawk/grafana_api/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f8/f4/c1a1ae50758ca7b65ea909c536f28204e6e8cae48822c394762a3d7e0e35/grafana_api-${REALVERSION}.tar.gz"
-SOURCEFILE="grafana_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f8/f4/c1a1ae50758ca7b65ea909c536f28204e6e8cae48822c394762a3d7e0e35/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

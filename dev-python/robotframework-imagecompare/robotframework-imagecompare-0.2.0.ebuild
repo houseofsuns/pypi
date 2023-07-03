@@ -15,8 +15,8 @@ DESCRIPTION="A Robot Framework Library for image comparisons"
 
 HOMEPAGE="https://github.com/manykarim/robotframework-imagecompare"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/df/58/0dd8a779f80774435fc5ca6287e77f4f6b6634b964770c6240c03574a959/robotframework_imagecompare-${REALVERSION}.tar.gz"
-SOURCEFILE="robotframework_imagecompare-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/df/58/0dd8a779f80774435fc5ca6287e77f4f6b6634b964770c6240c03574a959/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

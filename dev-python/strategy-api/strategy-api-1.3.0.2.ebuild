@@ -15,8 +15,8 @@ DESCRIPTION="仓位查询 API 添加"
 
 HOMEPAGE="https://gitee.com/Jason520deng/strategy_api"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fb/da/cc514e99290cd6472b540eb2c1e1a5fc07b01e6eec69d262c12b54cc83cb/strategy_api-${REALVERSION}.tar.gz"
-SOURCEFILE="strategy_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fb/da/cc514e99290cd6472b540eb2c1e1a5fc07b01e6eec69d262c12b54cc83cb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

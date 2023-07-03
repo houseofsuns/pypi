@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># flake8-clean-blockThis is a [flake8](https://flake8.pycqa.org/en/latest/) plugin that enforces a blank line after `if`/`for`/`while`/`with`/`try` blocks in Python code.## Installation```bashpip install flake8-clean-block```## Violation codesThere is one violation code that this plugin reports:| Code      | Description                                            || --------- | ------------------------------------------------------ || CLB100    | no blank line after the end of an indented block       |## Style examples### _Wrong_This plugin considers the following styles wrong:```pythonfor i in range(5):    print(i)some_var = 2``````pythonfor i in range(5):    print(i)if k == 2:    print(k)else:    print(&quot;k&quot;)for j in range(5):    print(j)``````pythonfor i in range(5): a += iprint(a)``````pythonwith open('filename.txt', 'r') as fp:    content = fp.readlines()print(content)```### _Correct_Correspondingly, here are the correct styles, because they are easier to read and less error-prone:```pythonfor i in range(5):    print(i)some_var = 2``````pythonfor i in range(5):    print(i)if k == 2:    print(k)else:    print(&quot;k&quot;)for j in range(5):    print(j)``````pythonfor i in range(5): a += iprint(a)``````pythonwith open('filename.txt', 'r') as fp:    content = fp.readlines()print(content)```## RationaleWhen two lines belonging to different indentation level are right next to each other, it's difficult to read.  Additionally, accidentally hitting the &quot;tab&quot; key on the outer line leads to subtle and hard-to-find bugs (and vice versa).Therefore, it's better that we add at least one blank line between lines of different indentation levels.</longdescription>
+</pkgmetadata>

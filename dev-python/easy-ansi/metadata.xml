@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Easy ANSI![Easy ANSI Splash Screen](https://gitlab.com/easy-ansi/easy-ansi-demos/-/raw/main/images/easy_ansi_splash_screen.png)Easy ANSI is a terminal framework API to give you an easy way to use colors, attributes, screen actions, andcursor control movements.  This framework adheres to the ANSI standard codes, and does not implementoperating system specific features.  It uses only the standard Python library, and does not have externaldependencies such as ncurses.Documentation can be found here: [Easy ANSI Documentation](https://gitlab.com/easy-ansi/easy-ansi/-/blob/main/docs/README.md)The change log can be found here: [Easy ANSI Change Log](https://gitlab.com/easy-ansi/easy-ansi/-/blob/main/CHANGELOG.md)</longdescription>
+</pkgmetadata>

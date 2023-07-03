@@ -15,8 +15,8 @@ DESCRIPTION="A Python wrapper around Cisco vManage API"
 
 HOMEPAGE="https://github.com/aatikturk/py_viptela"
 LICENSE="GNU General Public License v2.0"
-SRC_URI="https://files.pythonhosted.org/packages/09/04/2a2e863b3014600ed5c322484a85e8a576cb7183025fb2c65f58ed97c77c/py_viptela-${REALVERSION}.tar.gz"
-SOURCEFILE="py_viptela-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/09/04/2a2e863b3014600ed5c322484a85e8a576cb7183025fb2c65f58ed97c77c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

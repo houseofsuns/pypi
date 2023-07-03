@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># kingscripts Python PackageThis open source python package allows for easy access to the majority of KOC data products for KOC employees. Currently on version 2.0.8Developed and Maintained by Michael Tanner. Please email mtanner@kingoperating.com with any questions.Visit [KOC Development Site](https://mtanner161.github.io/kingdashboard/#/kingdashboard) for our ongoing front-end application developmentOne moudle `enverus`1.  `enverus.getWellProductionData` - returns pandas dataframe of monthly oil/gas/water production- Arguments:  - `apiKey`: Enverus API authentication `object`  - `wellApi14`: Well API14 of interest `str`</longdescription>
+</pkgmetadata>

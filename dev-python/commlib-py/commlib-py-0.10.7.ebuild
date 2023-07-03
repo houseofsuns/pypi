@@ -15,8 +15,8 @@ DESCRIPTION="Internal  DSL for communication and messaging in CPS"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/25/c9/8c7f3b2bf1d7c7c380679f4ba16d03567b5e5d1911f452735395a4eae924/commlib_py-${REALVERSION}.tar.gz"
-SOURCEFILE="commlib_py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/25/c9/8c7f3b2bf1d7c7c380679f4ba16d03567b5e5d1911f452735395a4eae924/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

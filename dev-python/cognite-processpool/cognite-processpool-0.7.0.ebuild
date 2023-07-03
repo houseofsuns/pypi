@@ -15,8 +15,8 @@ DESCRIPTION="Stable process pool library"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f1/71/9afa1149b4ea8da8788f50592665f8a1ac46ff10a1f16b7ff3f220cae5c1/cognite_processpool-${REALVERSION}.tar.gz"
-SOURCEFILE="cognite_processpool-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f1/71/9afa1149b4ea8da8788f50592665f8a1ac46ff10a1f16b7ff3f220cae5c1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

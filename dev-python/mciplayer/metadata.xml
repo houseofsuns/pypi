@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;p&gt;&lt;span&gt;&lt;span style=&quot;font-family:Verdana, Arial, Helvetica, sans-serif;line-height:19px;text-indent:26px;&quot;&gt;&lt;span style=&quot;font-size:14px;&quot;&gt;&lt;span style=&quot;font-family:Arial;line-height:26px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;### This package should be built AND installed in WindowsTo build this package, you need:1. Python&gt;=3.62. pybind11 already installed in Python environment.If you just want to install (using wheel), then pybind11 is not required.Example code:```pythonfrom mciplayer import MCIPlayerplayer=MCIPlayer() # Create a player instance, this will also create a MCI window.player.open('test.wav') # Open the audio fileplayer.play() # Play the audioplayer.wait() # Wait until the audio ends.```UTF-8 support has been added.</longdescription>
+</pkgmetadata>

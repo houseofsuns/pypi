@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Cognite PowerOps SDK==========================[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)[Documentation](https://cognite-power-ops-sdk.readthedocs-hosted.com/en/latest/)## InstallationTo install this package:```bash$ pip install cognite-power-ops```</longdescription>
+</pkgmetadata>

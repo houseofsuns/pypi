@@ -15,8 +15,8 @@ DESCRIPTION="Prometheus metrics exporter for Starlette applications."
 
 HOMEPAGE="https://github.com/stephenhillier/starlette_exporter"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/91/7a/1edb5c8de27ab3e28a4e6b1f96f5a9de1fffc2a645a095bc5368a0776dcb/starlette_exporter-${REALVERSION}.tar.gz"
-SOURCEFILE="starlette_exporter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/91/7a/1edb5c8de27ab3e28a4e6b1f96f5a9de1fffc2a645a095bc5368a0776dcb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

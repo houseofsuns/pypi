@@ -15,8 +15,8 @@ DESCRIPTION="Repository of pre-trained NLP Transformer models: BERT & RoBERTa, G
 
 HOMEPAGE="https://github.com/huggingface/pytorch-transformers"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/39/46/60ade12cd10f3e3dc7cb109361a73ebd8a8530c35bed71f681d2588aa277/pytorch_transformers-${REALVERSION}.tar.gz"
-SOURCEFILE="pytorch_transformers-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/39/46/60ade12cd10f3e3dc7cb109361a73ebd8a8530c35bed71f681d2588aa277/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

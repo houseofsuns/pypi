@@ -15,8 +15,8 @@ DESCRIPTION="Toolkit for working with playlists of music."
 
 HOMEPAGE="https://gitlab.com/samthursfield/calliope"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a3/d8/61c676899818d6e095fa1d06479d82b8d37f5eb40dba02737ec481ccf2d2/calliope_music-${REALVERSION}.tar.gz"
-SOURCEFILE="calliope_music-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a3/d8/61c676899818d6e095fa1d06479d82b8d37f5eb40dba02737ec481ccf2d2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Import data from Loren Frank lab"
 
 HOMEPAGE="https://github.com/Eden-Kramer-Lab/loren_frank_data_processing"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/ab/ae/fe8a49270419852109f9c0d0eff38b915c2e1545917864482a9d90c00769/loren_frank_data_processing-${REALVERSION}.tar.gz"
-SOURCEFILE="loren_frank_data_processing-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ab/ae/fe8a49270419852109f9c0d0eff38b915c2e1545917864482a9d90c00769/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

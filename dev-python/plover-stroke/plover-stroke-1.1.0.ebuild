@@ -15,8 +15,8 @@ DESCRIPTION="Stroke handling helper library for Plover"
 
 HOMEPAGE="https://github.com/benoit-pierre/plover_stroke"
 LICENSE="GNU General Public License v2 or later GPLv2+"
-SRC_URI="https://files.pythonhosted.org/packages/cc/53/92635d8bf00b883bfbc6ab9dd48b6df2ed01c241379fe99f063a41530cab/plover_stroke-${REALVERSION}.tar.gz"
-SOURCEFILE="plover_stroke-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cc/53/92635d8bf00b883bfbc6ab9dd48b6df2ed01c241379fe99f063a41530cab/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

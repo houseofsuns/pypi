@@ -15,8 +15,8 @@ DESCRIPTION="Feature extractor from noisy time series"
 
 HOMEPAGE=""
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/66/83/9cb0d7c5ec6022f51d88996ad14ebc1a974bb2f7c49f8ea5e559ed2d9d1f/light_curve-${REALVERSION}.tar.gz"
-SOURCEFILE="light_curve-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/66/83/9cb0d7c5ec6022f51d88996ad14ebc1a974bb2f7c49f8ea5e559ed2d9d1f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

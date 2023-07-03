@@ -15,8 +15,8 @@ DESCRIPTION="Markdown to dict and json deserializer"
 
 HOMEPAGE="https://github.com/njvack/markdown_to_json"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/25/50/61b5710d3201ee9e14f599f06d886dba3958423b99428179d3f6f7206a63/markdown_to_json-${REALVERSION}.tar.gz"
-SOURCEFILE="markdown_to_json-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/25/50/61b5710d3201ee9e14f599f06d886dba3958423b99428179d3f6f7206a63/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

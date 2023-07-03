@@ -15,8 +15,8 @@ DESCRIPTION="The Utils for Library TensorNeko."
 
 HOMEPAGE="https://github.com/ControlNet/tensorneko"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c0/e8/3d8b864075e776f99408377b10cdc8f710b8bfbf37bee930bea6f1bacf01/tensorneko_util-${REALVERSION}.tar.gz"
-SOURCEFILE="tensorneko_util-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c0/e8/3d8b864075e776f99408377b10cdc8f710b8bfbf37bee930bea6f1bacf01/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Forget about working directory errors"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ae/30/5259cfafc8372df008a5605ca19aba9d560285471ee043f39cbc5a7b7fa2/from_root-${REALVERSION}.tar.gz"
-SOURCEFILE="from_root-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ae/30/5259cfafc8372df008a5605ca19aba9d560285471ee043f39cbc5a7b7fa2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

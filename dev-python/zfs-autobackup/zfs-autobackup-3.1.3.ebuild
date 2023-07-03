@@ -15,8 +15,8 @@ DESCRIPTION="ZFS autobackup is used to periodicly backup ZFS filesystems to othe
 
 HOMEPAGE="https://github.com/psy0rz/zfs_autobackup"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b3/f0/dbab582982a581758725f9e48fe6f2eb9d9d56891125a4634abbdf71eadb/zfs_autobackup-${REALVERSION}.tar.gz"
-SOURCEFILE="zfs_autobackup-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b3/f0/dbab582982a581758725f9e48fe6f2eb9d9d56891125a4634abbdf71eadb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Utilites for the mapping pipeline from WASP"
 
 HOMEPAGE="https://gitlab.com/aaylward/wasp_map"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e4/ea/dadb591153800998b5bd6f53f6b8e849c3226014d548ec2c0c28fb3139c7/wasp_map-${REALVERSION}.tar.gz"
-SOURCEFILE="wasp_map-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e4/ea/dadb591153800998b5bd6f53f6b8e849c3226014d548ec2c0c28fb3139c7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

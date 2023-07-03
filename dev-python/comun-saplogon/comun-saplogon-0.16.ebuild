@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1e/77/0202f18c9c50a4904e62ec741c1ae86137b0c8c05273944e99f367153ddb/comun_saplogon-${REALVERSION}.tar.gz"
-SOURCEFILE="comun_saplogon-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1e/77/0202f18c9c50a4904e62ec741c1ae86137b0c8c05273944e99f367153ddb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

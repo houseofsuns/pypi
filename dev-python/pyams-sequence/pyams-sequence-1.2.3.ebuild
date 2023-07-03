@@ -15,8 +15,8 @@ DESCRIPTION="PyAMS sequences management package"
 
 HOMEPAGE="https://pyams.readthedocs.io"
 LICENSE="ZPL"
-SRC_URI="https://files.pythonhosted.org/packages/1d/69/08eaa3b14a7fd2e6cad66956f166561e8605f1372523e84584471a0ff4a8/pyams_sequence-${REALVERSION}.tar.gz"
-SOURCEFILE="pyams_sequence-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1d/69/08eaa3b14a7fd2e6cad66956f166561e8605f1372523e84584471a0ff4a8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Thoughtful BitWarden CLI Package"
 
 HOMEPAGE="https://www.thoughtful.ai/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/05/1f/4b145794b5fb3da2e7f1936794c72511cd9a7a51e0bc32fc7e2ae766eeb2/ta_bitwarden_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="ta_bitwarden_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/05/1f/4b145794b5fb3da2e7f1936794c72511cd9a7a51e0bc32fc7e2ae766eeb2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

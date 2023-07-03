@@ -15,8 +15,8 @@ DESCRIPTION="Wrapper around configuration files for packit and alpa"
 
 HOMEPAGE="https://github.com/alpa-team/alpa-conf"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/ea/ab/8bdc553a50669d2b84f8202e4ac0592b8936b6d8b428ea0f286edf37f478/alpa_conf-${REALVERSION}.tar.gz"
-SOURCEFILE="alpa_conf-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ea/ab/8bdc553a50669d2b84f8202e4ac0592b8936b6d8b428ea0f286edf37f478/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

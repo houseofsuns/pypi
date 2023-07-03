@@ -15,8 +15,8 @@ DESCRIPTION="Open source library for creating containers to run on Amazon SageMa
 
 HOMEPAGE="https://github.com/aws/sagemaker-containers/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f3/4d/ee2ef5a6cccdcf39aa1b3c8f978a462f0c32faddab807a8ba3506b898262/sagemaker_containers-${REALVERSION}.tar.gz"
-SOURCEFILE="sagemaker_containers-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f3/4d/ee2ef5a6cccdcf39aa1b3c8f978a462f0c32faddab807a8ba3506b898262/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

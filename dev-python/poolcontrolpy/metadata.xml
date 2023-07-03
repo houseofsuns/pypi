@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># poolcontrolpyPackage for accessing nodejs-poolController for use with a planned Home Assistant integration.## Installation```bash$ pip install poolcontrolpy```## UsageConfigure pool controller and confirm successful connection.```pythonimport asyncioimport aiohttpfrom poolcontrolpy.poolcontrolpy import Controllerasync def checkconnection():    async with aiohttp.ClientSession() as client:        controller = Controller(client, &quot;10.0.20.13&quot;, 4200)        return await controller.checkconnect()resp = asyncio.run(checkconnection())print(resp)```*Note: This example uses 'asyncio.run' so it cannot be called when another asyncio event loop is running in the same thread.*## ContributingInterested in contributing? Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.## License`poolcontrolpy` was created by Kevin Robinson. It is licensed under the terms of the MIT license.## Credits`poolcontrolpy` was created with [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the `py-pkgs-cookiecutter` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).</longdescription>
+</pkgmetadata>

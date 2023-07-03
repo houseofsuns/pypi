@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># abqcyWrite Abaqus Subroutines in Cython- GitHub repository: [https://github.com/haiiliin/abqcy](https://github.com/haiiliin/abqcy)- PyPI: [https://pypi.org/project/abqcy](https://pypi.org/project/abqcy)- Documentation: [https://abqcy.readthedocs.io](https://abqcy.readthedocs.io)- Read the Docs: [https://readthedocs.org/projects/abqcy](https://readthedocs.org/projects/abqcy)- Bug Report: [https://github.com/haiiliin/abqcy/issues](https://github.com/haiiliin/abqcy/issues)</longdescription>
+</pkgmetadata>

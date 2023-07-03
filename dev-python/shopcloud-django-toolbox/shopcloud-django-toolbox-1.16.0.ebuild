@@ -15,8 +15,8 @@ DESCRIPTION="Django tool"
 
 HOMEPAGE="https://github.com/Talk-Point/shopcloud-django-authenticator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7f/18/ad65a5c0f4d213a83fc04a2a780456d1dd0e81b07786274172c20926b2f4/shopcloud_django_toolbox-${REALVERSION}.tar.gz"
-SOURCEFILE="shopcloud_django_toolbox-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7f/18/ad65a5c0f4d213a83fc04a2a780456d1dd0e81b07786274172c20926b2f4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

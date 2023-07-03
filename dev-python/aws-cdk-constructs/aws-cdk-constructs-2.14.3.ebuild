@@ -15,8 +15,8 @@ DESCRIPTION="AWS CDK constructs"
 
 HOMEPAGE="https://bitbucket.org/cioapps/aws-cdk-constructs"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/75/16/0c287917d1b5ff24a09f37c3fe062d3927b736eab80d2ad9a8fef97ba3d5/aws_cdk_constructs-${REALVERSION}.tar.gz"
-SOURCEFILE="aws_cdk_constructs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/75/16/0c287917d1b5ff24a09f37c3fe062d3927b736eab80d2ad9a8fef97ba3d5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

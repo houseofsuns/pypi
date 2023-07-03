@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Dronefly coreThis is an incomplete rewrite of [Dronefly](https://dronefly.readthedocs.io)Discord bot's core components. We're not yet making version guarantees untilit is more usable.# Related packages## Dronefly command-line clientThe [dronefly-cli](https://github.com/dronefly-garden/dronefly-cli) command-lineclient will provide a standalone text user interface that can perform a usablesubset of Dronefly Discord bot's capabilities, built solely with Dronefly core.## Dronefly Discord botDronefly Discord bot brings [iNaturalist](https://www.inaturalist.org) taxa,observations, and other data from the site into conversations on the[Discord](https://discord.com) chat platform.</longdescription>
+</pkgmetadata>

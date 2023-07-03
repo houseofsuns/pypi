@@ -15,8 +15,8 @@ DESCRIPTION="For working with Spring Cloud Data Flow"
 
 HOMEPAGE="https://github.com/airndlab/py-spring-dataflow"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1c/c2/bd1a6b16982359fb9fc664c315d3111b583b7e3497b8f387f1452fdfac1a/py_spring_dataflow-${REALVERSION}.tar.gz"
-SOURCEFILE="py_spring_dataflow-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1c/c2/bd1a6b16982359fb9fc664c315d3111b583b7e3497b8f387f1452fdfac1a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

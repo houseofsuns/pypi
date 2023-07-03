@@ -15,8 +15,8 @@ DESCRIPTION="FSM middleware for using with pybotx"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/64/6f/60dccd331057f76b57150c0d1beef6621aae6568f2b3e1fe8d13b925135b/pybotx_fsm-${REALVERSION}.tar.gz"
-SOURCEFILE="pybotx_fsm-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/64/6f/60dccd331057f76b57150c0d1beef6621aae6568f2b3e1fe8d13b925135b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

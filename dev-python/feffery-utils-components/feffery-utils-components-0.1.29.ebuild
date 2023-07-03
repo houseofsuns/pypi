@@ -15,8 +15,8 @@ DESCRIPTION="Build more utility components for Plotly Dash."
 
 HOMEPAGE="https://github.com/CNFeffery/feffery-utils-components"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5d/7d/4efff6e9d45bfdf27c8fc0365a4c22912c7b3a1dcb2f83ee2269a015b2fe/feffery_utils_components-${REALVERSION}.tar.gz"
-SOURCEFILE="feffery_utils_components-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5d/7d/4efff6e9d45bfdf27c8fc0365a4c22912c7b3a1dcb2f83ee2269a015b2fe/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="The Refinery Toolkit (RFTK)"
 
 HOMEPAGE="https://github.com/jmwoloso/rftk"
 LICENSE="BSD 3 Clause"
-SRC_URI="https://files.pythonhosted.org/packages/4d/f7/5cd230f3c4967286fd1a36bb7c489d23d789100bdd87119b238e29a159d3/the_refinery_toolkit-${REALVERSION}.tar.gz"
-SOURCEFILE="the_refinery_toolkit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4d/f7/5cd230f3c4967286fd1a36bb7c489d23d789100bdd87119b238e29a159d3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

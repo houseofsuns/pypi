@@ -15,8 +15,8 @@ DESCRIPTION="实盘易（ShiPanE）Python SDK，通达信自动化交易 API。"
 
 HOMEPAGE="https://github.com/sinall/ShiPanE-Python-SDK"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c8/71/8ce6a91863998f279a2a015e7ddff9fbb2aac67c1f54fe73167117e0a69d/shipane_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="shipane_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c8/71/8ce6a91863998f279a2a015e7ddff9fbb2aac67c1f54fe73167117e0a69d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

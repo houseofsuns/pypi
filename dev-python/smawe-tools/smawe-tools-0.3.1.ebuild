@@ -15,8 +15,8 @@ DESCRIPTION="small tool"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/94/bd/79351d8ab7d613684ac7796f041e6a97399e07ee21874384fd5b91f267c5/smawe_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="smawe_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/94/bd/79351d8ab7d613684ac7796f041e6a97399e07ee21874384fd5b91f267c5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Enhance experience of running JupyterLab in Posit Workbench."
 
 HOMEPAGE="https://docs.posit.co/ide/server-pro/user/jupyter-lab/guide/posit-workbench-extension.html"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/11/18/028c871e564b13ccd2018383a041306e69db32b3b8ed1ac4e7b458ee1800/workbench_jupyterlab-${REALVERSION}.tar.gz"
-SOURCEFILE="workbench_jupyterlab-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/11/18/028c871e564b13ccd2018383a041306e69db32b3b8ed1ac4e7b458ee1800/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

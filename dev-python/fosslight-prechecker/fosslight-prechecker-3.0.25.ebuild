@@ -15,8 +15,8 @@ DESCRIPTION="FOSSLight Prechecker"
 
 HOMEPAGE="https://github.com/fosslight/fosslight_prechecker"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/a8/94/b359de156c1a498e7b9c2d67ad5d698650f1dc37f9f332f4aeede1f17b98/fosslight_prechecker-${REALVERSION}.tar.gz"
-SOURCEFILE="fosslight_prechecker-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a8/94/b359de156c1a498e7b9c2d67ad5d698650f1dc37f9f332f4aeede1f17b98/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

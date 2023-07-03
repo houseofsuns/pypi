@@ -15,8 +15,8 @@ DESCRIPTION="apply a consistent format to \`setup.cfg\` files"
 
 HOMEPAGE="https://github.com/asottile/setup-cfg-fmt"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/26/cc/d74752915edcbb87f955c7d8bd759b8148fcf39b2ab4f2c3fa584b9952a0/setup_cfg_fmt-${REALVERSION}.tar.gz"
-SOURCEFILE="setup_cfg_fmt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/26/cc/d74752915edcbb87f955c7d8bd759b8148fcf39b2ab4f2c3fa584b9952a0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

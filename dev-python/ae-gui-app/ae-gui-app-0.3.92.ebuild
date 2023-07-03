@@ -15,8 +15,8 @@ DESCRIPTION="ae namespace package portion gui_app: base class for python applica
 
 HOMEPAGE="https://gitlab.com/ae-group/ae_gui_app"
 LICENSE="OSI Approved :: GNU General Public License v3 or later GPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/09/bf/65ac1473c4a53443daf2e75e296dc174f328999683a7919b9c93e1542fe3/ae_gui_app-${REALVERSION}.tar.gz"
-SOURCEFILE="ae_gui_app-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/09/bf/65ac1473c4a53443daf2e75e296dc174f328999683a7919b9c93e1542fe3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

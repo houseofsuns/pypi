@@ -15,8 +15,8 @@ DESCRIPTION="User interface for Spot Seeing Monitor."
 
 HOMEPAGE="https://github.com/lsst-sitcom/spot_motion_monitor"
 LICENSE="BSD 3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/c0/2e/564a9c66ff37e06e4b72f0a1efc9c8bc15ddbb28a8097778af71f450f9de/spot_motion_monitor-${REALVERSION}.tar.gz"
-SOURCEFILE="spot_motion_monitor-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c0/2e/564a9c66ff37e06e4b72f0a1efc9c8bc15ddbb28a8097778af71f450f9de/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

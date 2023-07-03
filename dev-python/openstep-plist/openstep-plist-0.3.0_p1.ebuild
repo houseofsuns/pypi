@@ -15,8 +15,8 @@ DESCRIPTION="ASCII plist parser written in Cython"
 
 HOMEPAGE="https://github.com/fonttools/openstep-plist"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8b/91/93e85357548eb41a699854d8ac6054c7c0736d73999dd2708bd3257a4acf/openstep_plist-${REALVERSION}.zip"
-SOURCEFILE="openstep_plist-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/8b/91/93e85357548eb41a699854d8ac6054c7c0736d73999dd2708bd3257a4acf/${REALNAME//-/_}-${REALVERSION}.zip"
+SOURCEFILE="_}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

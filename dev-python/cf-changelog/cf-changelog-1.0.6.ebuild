@@ -15,8 +15,8 @@ DESCRIPTION="Conflict-Free Changelog manager"
 
 HOMEPAGE="https://gitlab.com/salekpawel/cf_changelog"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/16/bb/1be632adb883957c84aaee39c8f56aaa2016d96608f1a8acac4b7bc38430/cf_changelog-${REALVERSION}.tar.gz"
-SOURCEFILE="cf_changelog-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/16/bb/1be632adb883957c84aaee39c8f56aaa2016d96608f1a8acac4b7bc38430/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

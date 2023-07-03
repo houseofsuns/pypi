@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## Lana 🧶[![stability-wip](https://img.shields.io/badge/stability-wip-lightgrey.svg)](https://github.com/mkenney/software-guides/blob/master/STABILITY-BADGES.md#work-in-progress) **L***inear* **A**lgebra for **n***octurnal* *and* **a**dventurous *data scientists.*## Install ```consolepip install lana```## Example ```pythonfrom lana import Matrix, injectzeros = Matrix.zeros((3,3))print(zeros)print(f&quot;shape: {zeros.shape}, type: {type(zeros)}&quot;)print(zeros.to_list()[0], zeros.to_list()[0][0])mat = Matrix.matrix([[1,2,3],[4,5,6]])print(mat)print(f&quot;shape: {mat.shape}, type: {type(mat)}&quot;)for rows in mat.to_list():    print(rows, type(rows))submat = Matrix.matrix(inject(mat.to_list()[0]))print(submat)print(submat.shape, type(submat))```</longdescription>
+</pkgmetadata>

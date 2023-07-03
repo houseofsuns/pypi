@@ -15,8 +15,8 @@ DESCRIPTION="pytest plugin for Selenium"
 
 HOMEPAGE="https://github.com/pytest-dev/pytest-selenium"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1e/b0/01025f883d50bafad2d7c40e0f259417b03ffd5679ea5cd672b1f71b4d4e/pytest_selenium-${REALVERSION}.tar.gz"
-SOURCEFILE="pytest_selenium-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1e/b0/01025f883d50bafad2d7c40e0f259417b03ffd5679ea5cd672b1f71b4d4e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

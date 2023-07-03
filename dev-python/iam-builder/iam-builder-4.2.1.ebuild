@@ -15,8 +15,8 @@ DESCRIPTION="A lil python package to generate iam policies"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4e/c0/61d621987277a6a82ebdc1e5b5cca25e30e2d3299c404ca005276dee062f/iam_builder-${REALVERSION}.tar.gz"
-SOURCEFILE="iam_builder-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4e/c0/61d621987277a6a82ebdc1e5b5cca25e30e2d3299c404ca005276dee062f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Traditional Chinese sentiment analysis tool based on BERT."
 
 HOMEPAGE="https://github.com/hsinmin/senti_c"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/eb/6c/9eb76d6c0b938b212ceec3a54ccde2f3e1664aae1d5b7184e90bdca0af20/senti_c-${REALVERSION}.tar.gz"
-SOURCEFILE="senti_c-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/eb/6c/9eb76d6c0b938b212ceec3a54ccde2f3e1664aae1d5b7184e90bdca0af20/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

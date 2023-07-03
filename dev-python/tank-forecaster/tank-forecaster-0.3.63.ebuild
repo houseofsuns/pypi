@@ -15,8 +15,8 @@ DESCRIPTION="small package for generating forecasts for gas tanks"
 
 HOMEPAGE="https://www.capspire.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5e/2a/9ed9908b0a2545aee838b7f54dcdb69334360fa9b9c7986a5f98afef42d4/tank_forecaster-${REALVERSION}.tar.gz"
-SOURCEFILE="tank_forecaster-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5e/2a/9ed9908b0a2545aee838b7f54dcdb69334360fa9b9c7986a5f98afef42d4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="HTTPServer for GraphQL."
 
 HOMEPAGE="https://gitlab.com/parob/graphql-http-server"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9c/51/cba333212c5dbbaa8e9e844dc1b05d24d3f9ca9fe0af7a6bdf478e464226/graphql_http_server-${REALVERSION}.tar.gz"
-SOURCEFILE="graphql_http_server-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9c/51/cba333212c5dbbaa8e9e844dc1b05d24d3f9ca9fe0af7a6bdf478e464226/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

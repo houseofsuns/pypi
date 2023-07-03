@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6e/9a/cf2339e356ecdd7fef116c1f994bfbcfaf4ef8e6c17e5fdefba159bf4e67/theine_core-${REALVERSION}.tar.gz"
-SOURCEFILE="theine_core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6e/9a/cf2339e356ecdd7fef116c1f994bfbcfaf4ef8e6c17e5fdefba159bf4e67/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

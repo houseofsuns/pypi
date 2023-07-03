@@ -15,8 +15,8 @@ DESCRIPTION="A project showcasing features and plugins for Hatch"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/37/f6/65ddbe7b652767696c914cdeefffcb116a73033e889df3ee568bc4a4968f/hatch_showcase-${REALVERSION}.tar.gz"
-SOURCEFILE="hatch_showcase-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/37/f6/65ddbe7b652767696c914cdeefffcb116a73033e889df3ee568bc4a4968f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

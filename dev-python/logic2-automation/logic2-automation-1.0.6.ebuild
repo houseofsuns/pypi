@@ -15,8 +15,8 @@ DESCRIPTION="Library for using the Saleae Logic 2 Automation API"
 
 HOMEPAGE="https://github.com/saleae/logic2-automation"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3c/80/af125bd84c0b3bdc5f5cb228aea98016ab019cb0b1d44c10ae2988359f1d/logic2_automation-${REALVERSION}.tar.gz"
-SOURCEFILE="logic2_automation-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3c/80/af125bd84c0b3bdc5f5cb228aea98016ab019cb0b1d44c10ae2988359f1d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="OpenTelemetry Celery Instrumentation"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-celery"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3c/66/2829bc918d76b6d3fb9d39ef91f4d31e8fb6154f3a719717453692827cdd/opentelemetry_instrumentation_celery-${REALVERSION}.tar.gz"
-SOURCEFILE="opentelemetry_instrumentation_celery-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3c/66/2829bc918d76b6d3fb9d39ef91f4d31e8fb6154f3a719717453692827cdd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Library for various tools scripts in FMU scope"
 
 HOMEPAGE="https://github.com/equinor/fmu-tools"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4b/6c/7ff10764857a3fd517bd19ec86e2d2bf32c49d61012eb43f6608f533cd83/fmu_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="fmu_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4b/6c/7ff10764857a3fd517bd19ec86e2d2bf32c49d61012eb43f6608f533cd83/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Provides some enhancements to built-in logging module."
 
 HOMEPAGE="https://bitbucket.org/davisowb/logging-helper.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fa/0d/8eca5084c022e771bd3d49c1bc8c9da64a558b054ffdb112e79a1de41396/logging_helper-${REALVERSION}.tar.gz"
-SOURCEFILE="logging_helper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fa/0d/8eca5084c022e771bd3d49c1bc8c9da64a558b054ffdb112e79a1de41396/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

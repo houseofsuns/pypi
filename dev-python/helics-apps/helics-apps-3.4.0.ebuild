@@ -15,8 +15,8 @@ DESCRIPTION="Hierarchical Engine for Large-scale Infrastructure Co-Simulation (H
 
 HOMEPAGE="https://github.com/GMLC-TDC/HELICS"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/8a/88/2b0e5a141cd22d889e2383c7692788e693c892c2ee4bc018aa35b17834fa/helics_apps-${REALVERSION}.tar.gz"
-SOURCEFILE="helics_apps-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8a/88/2b0e5a141cd22d889e2383c7692788e693c892c2ee4bc018aa35b17834fa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

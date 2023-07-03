@@ -15,8 +15,8 @@ DESCRIPTION="Developer productivity tool for making high-quality FastAPI product
 
 HOMEPAGE="https://github.com/fastapi-mvc/fastapi-mvc"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/06/b7/19547a6f89a5ab84185c8bdb4e1c174dde8c3415624c4580e216177e1963/fastapi_mvc-${REALVERSION}.tar.gz"
-SOURCEFILE="fastapi_mvc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/06/b7/19547a6f89a5ab84185c8bdb4e1c174dde8c3415624c4580e216177e1963/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

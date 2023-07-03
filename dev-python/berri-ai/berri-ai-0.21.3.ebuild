@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ce/72/95b0bda0b9f8708d2d88304a986929315032684931ff2f4e32cf21227bdd/berri_ai-${REALVERSION}.tar.gz"
-SOURCEFILE="berri_ai-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ce/72/95b0bda0b9f8708d2d88304a986929315032684931ff2f4e32cf21227bdd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

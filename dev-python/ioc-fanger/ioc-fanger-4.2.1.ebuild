@@ -15,8 +15,8 @@ DESCRIPTION="Python package to defang and fang indicators of compromise from tex
 
 HOMEPAGE="https://github.com/ioc-fang/ioc_fanger"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ff/72/fad00a23dfa666d391879654ad7dd166211a9d8fd74f83a228f5e5fa4164/ioc_fanger-${REALVERSION}.tar.gz"
-SOURCEFILE="ioc_fanger-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ff/72/fad00a23dfa666d391879654ad7dd166211a9d8fd74f83a228f5e5fa4164/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

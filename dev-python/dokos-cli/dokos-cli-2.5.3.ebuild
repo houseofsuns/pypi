@@ -15,8 +15,8 @@ DESCRIPTION="CLI to manage Multi-tenant deployments for Dodock apps"
 
 HOMEPAGE="https://frappe.io/bench"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c0/b8/fb8065531f75bacfa1c7667e7737d8683cec433103f4adf96c918092fb72/dokos_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="dokos_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c0/b8/fb8065531f75bacfa1c7667e7737d8683cec433103f4adf96c918092fb72/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

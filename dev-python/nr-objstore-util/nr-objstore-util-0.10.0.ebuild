@@ -15,8 +15,8 @@ DESCRIPTION="Utility to bundle commonly used object store operations into an eas
 
 HOMEPAGE="https://github.com/bcgov/nr-objectstore-util"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/26/5b/39c4ec636254a6c52808e2c78502e353bc0d921e1ee8c17df38bada48495/nr_objstore_util-${REALVERSION}.tar.gz"
-SOURCEFILE="nr_objstore_util-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/26/5b/39c4ec636254a6c52808e2c78502e353bc0d921e1ee8c17df38bada48495/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

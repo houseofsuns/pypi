@@ -15,8 +15,8 @@ DESCRIPTION="Multiplatorm Blender downloader."
 
 HOMEPAGE="https://github.com/mondeja/blender-downloader"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/e5/ff/1e4c4d05262f550608490b3629559d0ce7fbd775d9574c5ab020490921f4/blender_downloader-${REALVERSION}.tar.gz"
-SOURCEFILE="blender_downloader-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e5/ff/1e4c4d05262f550608490b3629559d0ce7fbd775d9574c5ab020490921f4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

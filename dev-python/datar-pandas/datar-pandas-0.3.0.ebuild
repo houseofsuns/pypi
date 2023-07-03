@@ -15,8 +15,8 @@ DESCRIPTION="The pandas backend for datar"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/22/84/d5b2f56649be1f572576caa91ac3edb858db02958971d8e63471d2d59c2a/datar_pandas-${REALVERSION}.tar.gz"
-SOURCEFILE="datar_pandas-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/22/84/d5b2f56649be1f572576caa91ac3edb858db02958971d8e63471d2d59c2a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

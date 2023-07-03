@@ -15,8 +15,8 @@ DESCRIPTION="This python module provides a special dictionary like data data str
 
 HOMEPAGE="https://github.com/jkpubsrc/python-module-jk-flexdata"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d9/36/2354f0721715da1fb1645458bc53f3638b84c076f600ea931de8d4d15346/jk_flexdata-${REALVERSION}.tar.gz"
-SOURCEFILE="jk_flexdata-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d9/36/2354f0721715da1fb1645458bc53f3638b84c076f600ea931de8d4d15346/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

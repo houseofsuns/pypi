@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Acapela Downloader but in PythonTranslated over to Python from C#: https://github.com/weespin/WillFromAfarDownloader# How to useFirst download the pip package.```pip install acapela-downloader-py```Then use the 'generate_audio' function from the 'acapela' library``` pythonfrom acapela import generate_audiogenerate_audio(&quot;Great Test&quot;, &quot;enu_willhappy_22k_ns.bvcu&quot;, &quot;output.mp3&quot;)```## Other StuffIf you find any code from StupidTown in my package feel free to make a pull request.</longdescription>
+</pkgmetadata>

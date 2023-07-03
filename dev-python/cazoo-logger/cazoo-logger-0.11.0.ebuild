@@ -15,8 +15,8 @@ DESCRIPTION="Super-opinionated structured logger for AWS lambda"
 
 HOMEPAGE="https://github.com/Cazoo-uk/py-logger"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/de/cc/359015c50eebf7992ca13149fbd5ada15c512f1b622e8113d06edd77aa24/cazoo_logger-${REALVERSION}.tar.gz"
-SOURCEFILE="cazoo_logger-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/de/cc/359015c50eebf7992ca13149fbd5ada15c512f1b622e8113d06edd77aa24/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

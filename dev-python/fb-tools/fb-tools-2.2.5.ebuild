@@ -15,8 +15,8 @@ DESCRIPTION="Modules for common used objects, error classes and methods."
 
 HOMEPAGE="https://github.com/fbrehm/python_fb_tools"
 LICENSE="LGPL3+"
-SRC_URI="https://files.pythonhosted.org/packages/67/09/9456f96b9bd1d1337c1b4ec20b079acfd832d384d2a3d71c1dda09b91bc7/fb_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="fb_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/67/09/9456f96b9bd1d1337c1b4ec20b079acfd832d384d2a3d71c1dda09b91bc7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

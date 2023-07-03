@@ -15,8 +15,8 @@ DESCRIPTION="Chemistry functions for Reinvent"
 
 HOMEPAGE="https://github.com/MolecularAI/reinvent-chemistry"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/40/06/70864f7fa6b9711c069a8917c6a98971ef24eb305d5f32724ccc253b71e4/reinvent_chemistry-${REALVERSION}.tar.gz"
-SOURCEFILE="reinvent_chemistry-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/40/06/70864f7fa6b9711c069a8917c6a98971ef24eb305d5f32724ccc253b71e4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

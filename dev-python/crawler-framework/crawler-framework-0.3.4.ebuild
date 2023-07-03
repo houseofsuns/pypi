@@ -15,8 +15,8 @@ DESCRIPTION="Framework for crawling"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c1/dd/ce77ec2a41c3ae4655faebf7211adc3a3447efb437119fa2564ce575942a/crawler_framework-${REALVERSION}.tar.gz"
-SOURCEFILE="crawler_framework-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c1/dd/ce77ec2a41c3ae4655faebf7211adc3a3447efb437119fa2564ce575942a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

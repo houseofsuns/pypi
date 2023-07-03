@@ -15,8 +15,8 @@ DESCRIPTION="Doublepoint Touch SDK"
 
 HOMEPAGE="https://github.com/doublepointlab/touch-sdk-py#readme"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/59/a1/0441156a6eff59fe42964a1c867e3dc1e43840abc36a614d1652cfc5ea03/touch_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="touch_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/59/a1/0441156a6eff59fe42964a1c867e3dc1e43840abc36a614d1652cfc5ea03/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

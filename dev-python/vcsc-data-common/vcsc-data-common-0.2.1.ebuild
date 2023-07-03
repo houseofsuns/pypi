@@ -15,8 +15,8 @@ DESCRIPTION="My package description"
 
 HOMEPAGE=""
 LICENSE="BSD 3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/1e/91/07deb6c6cf0ea61f0734fba9acd8497c3f3abeda67a41bbe4ac5489f2680/vcsc_data_common-${REALVERSION}.tar.gz"
-SOURCEFILE="vcsc_data_common-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1e/91/07deb6c6cf0ea61f0734fba9acd8497c3f3abeda67a41bbe4ac5489f2680/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

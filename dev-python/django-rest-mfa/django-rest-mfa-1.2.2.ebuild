@@ -15,8 +15,8 @@ DESCRIPTION="Django Rest Framework Endpoints for MFA including TOTP and FIDO2"
 
 HOMEPAGE="https://gitlab.com/burke-software/django-rest-mfa"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fa/e7/f39f489d08a28058095b8eea12caba288708349741a84ac47561a8c54650/django_rest_mfa-${REALVERSION}.tar.gz"
-SOURCEFILE="django_rest_mfa-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fa/e7/f39f489d08a28058095b8eea12caba288708349741a84ac47561a8c54650/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

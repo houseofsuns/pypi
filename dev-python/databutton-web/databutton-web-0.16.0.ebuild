@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/27/70/8b7b71ca7ad5f80720a10053497f05575405fe2a0282b86e5afd29778151/databutton_web-${REALVERSION}.tar.gz"
-SOURCEFILE="databutton_web-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/27/70/8b7b71ca7ad5f80720a10053497f05575405fe2a0282b86e5afd29778151/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

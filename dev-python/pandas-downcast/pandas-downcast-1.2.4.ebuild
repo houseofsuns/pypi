@@ -15,8 +15,8 @@ DESCRIPTION="Shrink Pandas DataFrames with precision safe schema inference."
 
 HOMEPAGE="https://github.com/domvwt/pandas-downcast"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/88/80/1cf3e8ac26523c26fdaf4b50c951d3af0123cdd4d1706c1ece7e721d0097/pandas_downcast-${REALVERSION}.tar.gz"
-SOURCEFILE="pandas_downcast-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/88/80/1cf3e8ac26523c26fdaf4b50c951d3af0123cdd4d1706c1ece7e721d0097/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

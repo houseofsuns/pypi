@@ -15,8 +15,8 @@ DESCRIPTION="Flask-based web data proxy for the Humanitarian Exchange Language (
 
 HOMEPAGE=""
 LICENSE="public-domain"
-SRC_URI="https://files.pythonhosted.org/packages/8b/13/70f54759b5c3b537ae155ee5492573915f4a882f42b2f11ffde2edc6bda1/hxl_proxy-${REALVERSION}.tar.gz"
-SOURCEFILE="hxl_proxy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8b/13/70f54759b5c3b537ae155ee5492573915f4a882f42b2f11ffde2edc6bda1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="OpenStack fault-injection library"
 
 HOMEPAGE="http://os-faults.readthedocs.io/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7a/29/1b2354fa909a84d370362f8f31f647486c008f136599d44f8f69394e6e4b/os_faults-${REALVERSION}.tar.gz"
-SOURCEFILE="os_faults-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7a/29/1b2354fa909a84d370362f8f31f647486c008f136599d44f8f69394e6e4b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

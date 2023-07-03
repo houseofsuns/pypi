@@ -15,8 +15,8 @@ DESCRIPTION="Django 辅助工具类"
 
 HOMEPAGE="https://oss.qiyutech.tech/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9f/7d/f4eefdca0ed35df67d3211af7465a5c8748b8cec31f64c061d9f24276a78/django_qiyu_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="django_qiyu_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9f/7d/f4eefdca0ed35df67d3211af7465a5c8748b8cec31f64c061d9f24276a78/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

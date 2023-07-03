@@ -15,8 +15,8 @@ DESCRIPTION="KYC &amp; Onboarding"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d5/0e/e4b573bd6dc02ca568f70d6e1f945664582b9dcb5e9ab536afa52e54d506/decentro_in_kyc_python_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="decentro_in_kyc_python_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d5/0e/e4b573bd6dc02ca568f70d6e1f945664582b9dcb5e9ab536afa52e54d506/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

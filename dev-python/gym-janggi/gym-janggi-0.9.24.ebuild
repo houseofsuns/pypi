@@ -15,8 +15,8 @@ DESCRIPTION="OpenAI Gym environment for Korean chess Janggi"
 
 HOMEPAGE="https://github.com/sungho-cho/gym-janggi"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/37/34/25b1071d7caa072e9533408bccfe3da70b0d5ec13b3a400e342743f6fe53/gym_janggi-${REALVERSION}.tar.gz"
-SOURCEFILE="gym_janggi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/37/34/25b1071d7caa072e9533408bccfe3da70b0d5ec13b3a400e342743f6fe53/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

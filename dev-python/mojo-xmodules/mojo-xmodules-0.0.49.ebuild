@@ -15,8 +15,8 @@ DESCRIPTION="Automation Mojo X-Modules"
 
 HOMEPAGE="http://automationmojo.com"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/9b/82/fea939de4a8105e98192fc68bce471670703e1808ec959254ddbb7660ed2/mojo_xmodules-${REALVERSION}.tar.gz"
-SOURCEFILE="mojo_xmodules-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9b/82/fea939de4a8105e98192fc68bce471670703e1808ec959254ddbb7660ed2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

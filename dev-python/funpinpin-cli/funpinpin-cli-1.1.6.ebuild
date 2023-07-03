@@ -15,8 +15,8 @@ DESCRIPTION="funpinpin cli tool"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ae/75/9ad80ef75e381d4689284515f8277dd59880ea24a0775315615ee46a2072/funpinpin_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="funpinpin_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ae/75/9ad80ef75e381d4689284515f8277dd59880ea24a0775315615ee46a2072/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="install-jdk allows you to easily install latest Java OpenJDK versio
 
 HOMEPAGE="https://github.com/jyksnw/install-jdk"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/34/d2/b1f7dfcba325cdc8af3d7920d08323814e1ba8013cee35d662137291e79a/install_jdk-${REALVERSION}.tar.gz"
-SOURCEFILE="install_jdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/34/d2/b1f7dfcba325cdc8af3d7920d08323814e1ba8013cee35d662137291e79a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

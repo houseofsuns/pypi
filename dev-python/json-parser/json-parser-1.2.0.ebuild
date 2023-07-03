@@ -15,8 +15,8 @@ DESCRIPTION="A JSON parser written in Python."
 
 HOMEPAGE="https://github.com/tusharsadhwani/json_parser"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/24/5b/5e89f17131c145aa2c2359faadf8d9165e4d6a69bb2508e7637162b3f824/json_parser-${REALVERSION}.tar.gz"
-SOURCEFILE="json_parser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/24/5b/5e89f17131c145aa2c2359faadf8d9165e4d6a69bb2508e7637162b3f824/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

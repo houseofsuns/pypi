@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># nazo_randInspired to write from [Pyewacket](https://github.com/BrokenShell/Pyewacket)A fast random number generator for python`rand_int.choice(seq: list|Tuple) -&gt; Any`example：```pythonfrom nazo_rand import choicetemp = [1,2,3,4,5,6]choice(temp)````rand_int.randbelow(a: int) -&gt; int`example:```pythonfrom nazo_rand import randbelowrandbelow(10)   # -&gt; [0, 10)randbelow(0)    # -&gt; [0, 0) =&gt; 0randbelow(-10)  # -&gt; (-10, 0]````rand_int.randint(a: int , b: int) -&gt; int`example:```pythonfrom nazo_rand import randintrandint(1, 10)   # -&gt; [1, 10]randint(10, 1)   # -&gt; [1, 10]randint(10, 10)  # -&gt; [10, 10] =&gt; 10````rand_int.randrange(start: int , stop: int = 0 , step: int = 1 )`example:```pythonfrom nazo_rand import randrangerandrange(10)           # -&gt; [0, 10) by whole numbersrandrange(1, 10)        # -&gt; [1, 10) by whole numbersrandrange(1, 10, 2)     # -&gt; [1, 10) by 2, odd numbersrandrange(-10)          # -&gt; [-10, 0) by 1randrange(10, 1)        # -&gt; [1, 10) by 1randrange(10, 0, 2)     # -&gt; [0, 10) by 2, even numbersrandrange(10, 10, 0)    # -&gt; [10, 10) =&gt; 10```</longdescription>
+</pkgmetadata>

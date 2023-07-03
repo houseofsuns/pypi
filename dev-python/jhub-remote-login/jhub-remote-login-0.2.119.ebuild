@@ -15,8 +15,8 @@ DESCRIPTION="REMOTE_USER Authenticator: An Authenticator for Jupyterhub to read 
 
 HOMEPAGE="https://github.com/cbjuan/jhub_remote_login"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/58/6e/ab09bce6f8b94b0edb25fca627a7c91e937308bd33b5ae417580c96827b1/jhub_remote_login-${REALVERSION}.tar.gz"
-SOURCEFILE="jhub_remote_login-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/58/6e/ab09bce6f8b94b0edb25fca627a7c91e937308bd33b5ae417580c96827b1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

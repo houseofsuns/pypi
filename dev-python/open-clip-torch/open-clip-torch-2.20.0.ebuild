@@ -15,8 +15,8 @@ DESCRIPTION="OpenCLIP"
 
 HOMEPAGE="https://github.com/mlfoundations/open_clip"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d7/c4/59f4373b2c3558179fc3634b7edf49ea1c3040f262b4ea7ba4b8383b0a81/open_clip_torch-${REALVERSION}.tar.gz"
-SOURCEFILE="open_clip_torch-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d7/c4/59f4373b2c3558179fc3634b7edf49ea1c3040f262b4ea7ba4b8383b0a81/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

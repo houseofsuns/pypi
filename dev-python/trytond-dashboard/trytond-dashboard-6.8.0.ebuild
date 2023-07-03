@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module for dashboard"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/91/21/828045eae027868084a2b4626e1e1ad2eff06361e311ad78caff1e08fedb/trytond_dashboard-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_dashboard-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/91/21/828045eae027868084a2b4626e1e1ad2eff06361e311ad78caff1e08fedb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

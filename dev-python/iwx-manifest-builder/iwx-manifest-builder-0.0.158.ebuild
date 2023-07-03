@@ -15,8 +15,8 @@ DESCRIPTION="Validates data used in building an iwx manifest file."
 
 HOMEPAGE="https://github.com/fsai-dev/fsai-cli-tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/87/9a/73e3014a5a970909d1be69fb091b1e822b84c7685f44f8dfc45494be1625/iwx_manifest_builder-${REALVERSION}.tar.gz"
-SOURCEFILE="iwx_manifest_builder-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/87/9a/73e3014a5a970909d1be69fb091b1e822b84c7685f44f8dfc45494be1625/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

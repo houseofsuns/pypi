@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># py-redis-cachetoolscachetools core + redisRequirements:-------------redis 3.5.3Installation:-------------    pip install py-redis-cachetoolsenv variables:-------------    REDIS_HOST    REDIS_DBUsage:------    import time    import cachetools, cachetools.rcache    # cache = cachetools.rcache.RedisCache(ttl=60)    cache = cachetools.rcache.PrefixedRedisCache(&quot;hb-cachetools-cache&quot;, ttl=60)    @cachetools.cached(cache=cache)    def test(a, b):        return {            'hi': 'hello'        }    a = 1    while True:        print(test(a, 2))        print(a)        time.sleep(1)        a = a+1</longdescription>
+</pkgmetadata>

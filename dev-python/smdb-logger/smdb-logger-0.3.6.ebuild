@@ -15,8 +15,8 @@ DESCRIPTION="Logger used by Server Monitoring Discord Bot and all extentions mad
 
 HOMEPAGE="https://github.com/NightKey/Server-monitoring-discord-bot"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d8/22/d4edd4c4e2834e72848dcb0fe6d78cc523e5a786a9da32153a71954c2db1/smdb_logger-${REALVERSION}.tar.gz"
-SOURCEFILE="smdb_logger-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d8/22/d4edd4c4e2834e72848dcb0fe6d78cc523e5a786a9da32153a71954c2db1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

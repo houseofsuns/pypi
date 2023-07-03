@@ -15,8 +15,8 @@ DESCRIPTION="Python library for performing string similarity joins."
 
 HOMEPAGE="https://sites.google.com/site/anhaidgroup/projects/magellan/py_stringsimjoin"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/3e/7e/a0293827a63c393f57261ce6c46a71520f7ec69a3cfd11a7e36b04cadfe2/py_stringsimjoin-${REALVERSION}.tar.gz"
-SOURCEFILE="py_stringsimjoin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3e/7e/a0293827a63c393f57261ce6c46a71520f7ec69a3cfd11a7e36b04cadfe2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

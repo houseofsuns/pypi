@@ -15,8 +15,8 @@ DESCRIPTION="DataAccess of quant app"
 
 HOMEPAGE="https://github.com/cragod/CYDataAccess"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/86/ba/c71e5755623e2ab464c02094cf08ffd62bfc27c2bd59f732383bf9379048/cy_data_access-${REALVERSION}.tar.gz"
-SOURCEFILE="cy_data_access-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/86/ba/c71e5755623e2ab464c02094cf08ffd62bfc27c2bd59f732383bf9379048/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

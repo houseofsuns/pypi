@@ -15,8 +15,8 @@ DESCRIPTION="Utils for streaming large files (S3, HDFS, GCS, Azure Blob Storage,
 
 HOMEPAGE="https://github.com/piskvorky/smart_open"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b0/2b/ebc6d835bb354eb6d7f5f560be53dc746dab84d0958c363a082bfdf1e862/smart_open-${REALVERSION}.tar.gz"
-SOURCEFILE="smart_open-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b0/2b/ebc6d835bb354eb6d7f5f560be53dc746dab84d0958c363a082bfdf1e862/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

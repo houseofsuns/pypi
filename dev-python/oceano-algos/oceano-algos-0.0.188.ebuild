@@ -15,8 +15,8 @@ DESCRIPTION="A description of your project"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/75/2f/222b0549c6a3b5ae598b95131a1a177d415af5e60bfecc0a36e7d531e6e1/oceano_algos-${REALVERSION}.tar.gz"
-SOURCEFILE="oceano_algos-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/75/2f/222b0549c6a3b5ae598b95131a1a177d415af5e60bfecc0a36e7d531e6e1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

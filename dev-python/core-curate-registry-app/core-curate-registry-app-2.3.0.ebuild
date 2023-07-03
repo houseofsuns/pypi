@@ -15,8 +15,8 @@ DESCRIPTION="Curation functionalities specific to Registry applications for the 
 
 HOMEPAGE="https://github.com/usnistgov/core_curate_registry_app"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b8/8d/1ed4a7f74cadb0ea69ebf42963bd038482fbce03f01cfc57fe849f85a0bd/core_curate_registry_app-${REALVERSION}.tar.gz"
-SOURCEFILE="core_curate_registry_app-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b8/8d/1ed4a7f74cadb0ea69ebf42963bd038482fbce03f01cfc57fe849f85a0bd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

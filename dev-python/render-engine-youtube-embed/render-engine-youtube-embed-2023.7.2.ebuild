@@ -15,8 +15,8 @@ DESCRIPTION="A Render Engine Plugin for replacing Youtube Links with Embed Links
 
 HOMEPAGE="https://github.com/kjaymiller/render-engine-youtube-link-embed"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/36/d8/735eca87938c9ddd175e7281b125ff7a6736f82a9ca782e9d51eb3edbd3f/render_engine_youtube_embed-${REALVERSION}.tar.gz"
-SOURCEFILE="render_engine_youtube_embed-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/36/d8/735eca87938c9ddd175e7281b125ff7a6736f82a9ca782e9d51eb3edbd3f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

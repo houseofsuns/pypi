@@ -15,8 +15,8 @@ DESCRIPTION="Opinioned code formatter, just like Python's black code formatter b
 
 HOMEPAGE="https://github.com/LaunchPlatform/beancount-black"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/11/ec/041b337ee218d54fc6b929ba3e6c9a471eb92fbc9b5ac756b22ebd4dbea0/beancount_black-${REALVERSION}.tar.gz"
-SOURCEFILE="beancount_black-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/11/ec/041b337ee218d54fc6b929ba3e6c9a471eb92fbc9b5ac756b22ebd4dbea0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

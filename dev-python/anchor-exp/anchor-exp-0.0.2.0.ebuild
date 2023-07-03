@@ -15,8 +15,8 @@ DESCRIPTION="Anchor explanations for machine learning models"
 
 HOMEPAGE="http://github.com/marcotcr/anchor"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/7b/4b/8010d17764da0d9b68305cb62a5c4cc4c4ff89016fa6587f8a811e663278/anchor_exp-${REALVERSION}.tar.gz"
-SOURCEFILE="anchor_exp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7b/4b/8010d17764da0d9b68305cb62a5c4cc4c4ff89016fa6587f8a811e663278/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A Python wrapper for Ansys MAPDL."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/83/ca/7bfbf7be7ba270ae9d8f497d21947f9bce90b7d7e73e83a6a411d00bdb3a/ansys_mapdl_core-${REALVERSION}.tar.gz"
-SOURCEFILE="ansys_mapdl_core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/83/ca/7bfbf7be7ba270ae9d8f497d21947f9bce90b7d7e73e83a6a411d00bdb3a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

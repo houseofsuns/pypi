@@ -15,8 +15,8 @@ DESCRIPTION="Python Bravia TV remote control"
 
 HOMEPAGE="https://github.com/dcnielsen90/python-bravia-tv.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b2/5c/4a241ca2a959bf6ca179caf8d54c8255df1c62319e2aad55338907d8994c/bravia_tv-${REALVERSION}.tar.gz"
-SOURCEFILE="bravia_tv-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b2/5c/4a241ca2a959bf6ca179caf8d54c8255df1c62319e2aad55338907d8994c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

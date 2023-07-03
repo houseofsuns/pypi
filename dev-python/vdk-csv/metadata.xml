@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## Versatile Data Kit CSV PluginThis plugin provides functionality to ingest and export CSV files.### UsageTo use the plugin, just install it using```bashpip install vdk-csv```Then run help to see what you can do.```bashvdk ingest-csv --help```and```bashvdk export-csv --help```For example you can ingest CSV file into tables, or export the result of an executed query to a cvs file.The ingestion destination depends on how vdk has been configured.See vdk config-help - search for &quot;ingest&quot; to check for possible ingestion configurations.</longdescription>
+</pkgmetadata>

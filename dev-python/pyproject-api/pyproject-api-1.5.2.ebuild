@@ -15,8 +15,8 @@ DESCRIPTION="API to interact with the python pyproject.toml based projects"
 
 HOMEPAGE="http://pyproject_api.readthedocs.org"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6f/26/82a2773463e1b739b62e432cff62d39daf21b3172e5ace6213b7f2bbfad7/pyproject_api-${REALVERSION}.tar.gz"
-SOURCEFILE="pyproject_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6f/26/82a2773463e1b739b62e432cff62d39daf21b3172e5ace6213b7f2bbfad7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

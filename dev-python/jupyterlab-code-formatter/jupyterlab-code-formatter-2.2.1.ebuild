@@ -15,8 +15,8 @@ DESCRIPTION="A JupyterLab plugin to facilitate invocation of code formatters."
 
 HOMEPAGE="https://github.com/ryantam626/jupyterlab_code_formatter"
 LICENSE="Copyright 2023 Ryan TAM  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files the Software, to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:  The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.  THE SOFTWARE IS PROVIDED AS IS, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
-SRC_URI="https://files.pythonhosted.org/packages/fb/0a/f0741ed906dc5f8d3a9ca7150f319af3049b0b4eb56a96503c62219b8c95/jupyterlab_code_formatter-${REALVERSION}.tar.gz"
-SOURCEFILE="jupyterlab_code_formatter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fb/0a/f0741ed906dc5f8d3a9ca7150f319af3049b0b4eb56a96503c62219b8c95/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

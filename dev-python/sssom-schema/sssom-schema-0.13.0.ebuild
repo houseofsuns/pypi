@@ -15,8 +15,8 @@ DESCRIPTION="SSSOM is a Simple Standard for Sharing Ontology Mappings."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fc/05/36e3654e9019d781acbd081b5680b7447e39839395e5285744e6875d2b01/sssom_schema-${REALVERSION}.tar.gz"
-SOURCEFILE="sssom_schema-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fc/05/36e3654e9019d781acbd081b5680b7447e39839395e5285744e6875d2b01/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

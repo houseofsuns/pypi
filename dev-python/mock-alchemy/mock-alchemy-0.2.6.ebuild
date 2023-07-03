@@ -15,8 +15,8 @@ DESCRIPTION="SQLAlchemy mock helpers."
 
 HOMEPAGE="https://github.com/rajivsarvepalli/mock-alchemy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a7/80/5af6036ed9a97d927c36384b63ea2f270224726cda7f1402cb62781d7054/mock_alchemy-${REALVERSION}.tar.gz"
-SOURCEFILE="mock_alchemy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a7/80/5af6036ed9a97d927c36384b63ea2f270224726cda7f1402cb62781d7054/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

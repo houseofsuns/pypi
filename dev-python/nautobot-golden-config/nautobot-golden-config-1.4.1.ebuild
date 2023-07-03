@@ -15,8 +15,8 @@ DESCRIPTION="A plugin for configuration on nautobot"
 
 HOMEPAGE="https://github.com/nautobot/nautobot-plugin-golden-config"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/0e/59/5dfd1eed4a6ce6aed3e11ff133fa94dd92914171387963d2026d7f694ee7/nautobot_golden_config-${REALVERSION}.tar.gz"
-SOURCEFILE="nautobot_golden_config-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0e/59/5dfd1eed4a6ce6aed3e11ff133fa94dd92914171387963d2026d7f694ee7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

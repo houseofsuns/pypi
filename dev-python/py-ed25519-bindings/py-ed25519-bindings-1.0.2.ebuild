@@ -15,8 +15,8 @@ DESCRIPTION="Python bindings for the ed25519-dalek RUST crate"
 
 HOMEPAGE="https://github.com/polkascan/py-ed25519-bindings"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/af/d2/dcd5e44ea87407f1f09361f62b2aca5f08b0404d0d718ec82b648b08a840/py_ed25519_bindings-${REALVERSION}.tar.gz"
-SOURCEFILE="py_ed25519_bindings-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/af/d2/dcd5e44ea87407f1f09361f62b2aca5f08b0404d0d718ec82b648b08a840/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

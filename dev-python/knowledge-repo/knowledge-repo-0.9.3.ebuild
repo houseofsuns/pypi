@@ -15,8 +15,8 @@ DESCRIPTION="A workflow for contributing company knowledge, in the form  of RMar
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ea/51/0c8ef9c1c6c9c49d147d9d7639b15b32d3bfd0bb57f4524650e81279c7ed/knowledge_repo-${REALVERSION}.tar.gz"
-SOURCEFILE="knowledge_repo-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ea/51/0c8ef9c1c6c9c49d147d9d7639b15b32d3bfd0bb57f4524650e81279c7ed/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

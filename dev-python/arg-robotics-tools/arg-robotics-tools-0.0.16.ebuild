@@ -15,8 +15,8 @@ DESCRIPTION="A toolset for navigation (no ros) created by arg lab"
 
 HOMEPAGE="https://github.com/ARG-NCTU/arg_robotics_tools/tree/master/"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e1/02/0fa6df80d29ccff5a03e126aa01d413dc3b02d67dd69caaeaa6916fa240f/arg_robotics_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="arg_robotics_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e1/02/0fa6df80d29ccff5a03e126aa01d413dc3b02d67dd69caaeaa6916fa240f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

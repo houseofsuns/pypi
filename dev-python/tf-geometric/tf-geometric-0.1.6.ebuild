@@ -15,8 +15,8 @@ DESCRIPTION="Efficient and Friendly Graph Neural Network Library for TensorFlow 
 
 HOMEPAGE="https://github.com/CrawlScript/tf_geometric"
 LICENSE="GNU General Public License v3.0 See LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/be/65/4194f9c75ccebe479a8faa161ce28456e5d7cf1766c803944336e6bce8ed/tf_geometric-${REALVERSION}.tar.gz"
-SOURCEFILE="tf_geometric-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/be/65/4194f9c75ccebe479a8faa161ce28456e5d7cf1766c803944336e6bce8ed/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

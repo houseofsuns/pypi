@@ -15,8 +15,8 @@ DESCRIPTION="A service, Web Interface, and UI for interacting with your computer
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7b/02/4b1bb6f5421f33c23e7b9115ee3373d459745dffc0bc40375a94699714f3/streamdeck_ui-${REALVERSION}.tar.gz"
-SOURCEFILE="streamdeck_ui-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7b/02/4b1bb6f5421f33c23e7b9115ee3373d459745dffc0bc40375a94699714f3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

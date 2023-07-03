@@ -15,8 +15,8 @@ DESCRIPTION="Artemis Labs"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/55/6f/f3f8beef483b7b09a4ad3e45d450107269100468a60d55e3875da2c89bca/artemis_labs-${REALVERSION}.tar.gz"
-SOURCEFILE="artemis_labs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/55/6f/f3f8beef483b7b09a4ad3e45d450107269100468a60d55e3875da2c89bca/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

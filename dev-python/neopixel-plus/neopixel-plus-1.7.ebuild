@@ -15,8 +15,8 @@ DESCRIPTION="The NeoPixel library plus animations and terminal testing mode - so
 
 HOMEPAGE="https://github.com/glowingkitty/NeoPixelPlus"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5a/fe/e0a728f2dc394acfd05947cb454c81f8799268f7c17f1d846852882d720c/neopixel_plus-${REALVERSION}.tar.gz"
-SOURCEFILE="neopixel_plus-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5a/fe/e0a728f2dc394acfd05947cb454c81f8799268f7c17f1d846852882d720c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

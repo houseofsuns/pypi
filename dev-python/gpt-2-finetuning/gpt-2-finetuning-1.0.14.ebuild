@@ -15,8 +15,8 @@ DESCRIPTION="Package for finetuning GPT-2 models"
 
 HOMEPAGE="https://github.com/jonheng/gpt-2-finetuning"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/00/41/5b2fb50bfe44b7d1e7ae148a46f7a627a5eac64770696e39526e81724808/gpt_2_finetuning-${REALVERSION}.tar.gz"
-SOURCEFILE="gpt_2_finetuning-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/00/41/5b2fb50bfe44b7d1e7ae148a46f7a627a5eac64770696e39526e81724808/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

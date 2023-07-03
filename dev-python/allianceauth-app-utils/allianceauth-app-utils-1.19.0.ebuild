@@ -15,8 +15,8 @@ DESCRIPTION="Commonly used utilities and helpers for rapid development of Allian
 
 HOMEPAGE="https://gitlab.com/ErikKalkoken/allianceauth-app-utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fb/64/a996074b4e629cd06aeb0c8755a4ce4bb337b4c15410a7d9f28878007dd3/allianceauth_app_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="allianceauth_app_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fb/64/a996074b4e629cd06aeb0c8755a4ce4bb337b4c15410a7d9f28878007dd3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

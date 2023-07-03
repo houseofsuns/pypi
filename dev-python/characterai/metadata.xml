@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># 💬 CharacterAI[![Tag](https://img.shields.io/badge/chat-telegram-blue?style=flat&amp;logo=Telegram)](https://t.me/characterapi)![Tag](https://img.shields.io/github/license/kramcat/CharacterAI)[![Downloads](https://static.pepy.tech/badge/characterai/month)](https://pepy.tech/project/characterai)An unofficial API for Character AI for Python using PlaywrightIf you have any questions or just want to chat about character.ai, go to [Telegram](https://t.me/characterapi) chat## 💻 Installation```bashpip install characterai```## 📙 ExampleSimple code for chatting with character```Pythonfrom characterai import PyCAIclient = PyCAI('TOKEN')while True:    message = input('You: ')        data = client.chat.send_message('CHAR', message)        message = data['replies'][0]['text']    name = data['src_char']['participant']['name']        print(f&quot;{name}: {message}&quot;)```## 📚 DocumentationThe library has [documentation](https://pycai.gitbook.io/welcome/)! It says everything about this library## ⭐️ Features- The only library for character.ai- Asynchronous- So easy to use## ⚠️ DisclaimerThis library is written by a beginner in python, if you have any problems, write to me in [Telegram](https://t.me/kramcat)</longdescription>
+</pkgmetadata>

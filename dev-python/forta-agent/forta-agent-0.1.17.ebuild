@@ -15,8 +15,8 @@ DESCRIPTION="Forta Agent Python SDK"
 
 HOMEPAGE="https://forta.org/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d5/a4/081891a11eeaa94c85a213ef38f58b7b762f31050c2751f4803f0bf68cb1/forta_agent-${REALVERSION}.tar.gz"
-SOURCEFILE="forta_agent-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d5/a4/081891a11eeaa94c85a213ef38f58b7b762f31050c2751f4803f0bf68cb1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

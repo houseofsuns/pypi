@@ -15,8 +15,8 @@ DESCRIPTION="Mojec core package"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8e/a0/4f94ddc03d856ed1d4aba830f64cfb897f821e17499684ea2e90305b0589/mojec_core-${REALVERSION}.tar.gz"
-SOURCEFILE="mojec_core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8e/a0/4f94ddc03d856ed1d4aba830f64cfb897f821e17499684ea2e90305b0589/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

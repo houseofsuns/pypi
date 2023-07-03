@@ -15,8 +15,8 @@ DESCRIPTION="A Pulumi package for creating and managing sumologic cloud resource
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/00/dc/cb57c222325c0c6ca675ae2f7a739f9e1a101d4f3d65ccd372d359900c7c/pulumi_sumologic-${REALVERSION}.tar.gz"
-SOURCEFILE="pulumi_sumologic-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/00/dc/cb57c222325c0c6ca675ae2f7a739f9e1a101d4f3d65ccd372d359900c7c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

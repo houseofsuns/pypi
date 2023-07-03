@@ -15,8 +15,8 @@ DESCRIPTION="Alibaba Cloud IoTCC (20210513) SDK Library for Python"
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/a8/b2/79316f2c890260ee6f4062171a21284979218507f4b4cdd7f4a31f49c881/alibabacloud_iotcc20210513-${REALVERSION}.tar.gz"
-SOURCEFILE="alibabacloud_iotcc20210513-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a8/b2/79316f2c890260ee6f4062171a21284979218507f4b4cdd7f4a31f49c881/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

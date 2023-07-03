@@ -15,8 +15,8 @@ DESCRIPTION="Craft AI MLOps platform SDK"
 
 HOMEPAGE="https://www.craft.ai/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/bc/f1/0b392f19c8883117ee120f447ca612ba7ceae27f85118e11499828743d5a/craft_ai_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="craft_ai_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bc/f1/0b392f19c8883117ee120f447ca612ba7ceae27f85118e11499828743d5a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

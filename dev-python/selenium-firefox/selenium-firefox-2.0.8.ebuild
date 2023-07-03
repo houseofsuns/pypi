@@ -15,8 +15,8 @@ DESCRIPTION="selenium_firefox"
 
 HOMEPAGE="https://github.com/kkristof200/selenium_firefox"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3e/21/c7299b7ce0ecee45dc7d91229b338cec6e4d6759fd4c9e362bdd2d4f61bd/selenium_firefox-${REALVERSION}.tar.gz"
-SOURCEFILE="selenium_firefox-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3e/21/c7299b7ce0ecee45dc7d91229b338cec6e4d6759fd4c9e362bdd2d4f61bd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

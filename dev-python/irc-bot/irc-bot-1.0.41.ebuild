@@ -15,8 +15,8 @@ DESCRIPTION="A small library to create an IRC bot. Uses asyncore to ensure compa
 
 HOMEPAGE="https://github.com/cvium/irc_bot"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1f/ab/453b72a4e13013a0531f738628ab3d2a82a8983b68b78123fed5e8fff40c/irc_bot-${REALVERSION}.tar.gz"
-SOURCEFILE="irc_bot-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1f/ab/453b72a4e13013a0531f738628ab3d2a82a8983b68b78123fed5e8fff40c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

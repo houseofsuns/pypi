@@ -15,8 +15,8 @@ DESCRIPTION="Ecephys and behavior workflows for the Mindscope Neuropixels team."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/10/4e/35f0feef233d31cb4cf52c01cc43bbdf21cab97a3a40581132da4be4589f/np_workflows-${REALVERSION}.tar.gz"
-SOURCEFILE="np_workflows-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/10/4e/35f0feef233d31cb4cf52c01cc43bbdf21cab97a3a40581132da4be4589f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Logging to WatchTower instance"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/79/7f/7738d010dd9165b74dba2b7badd79bab950ae1296b2aab7cf3b9ac131d80/watchtower_logging-${REALVERSION}.tar.gz"
-SOURCEFILE="watchtower_logging-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/79/7f/7738d010dd9165b74dba2b7badd79bab950ae1296b2aab7cf3b9ac131d80/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

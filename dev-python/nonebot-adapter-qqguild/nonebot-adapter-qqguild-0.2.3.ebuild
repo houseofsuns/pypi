@@ -15,8 +15,8 @@ DESCRIPTION="QQ Guild adapter for nonebot2"
 
 HOMEPAGE="https://github.com/nonebot/adapter-qqguild"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6a/34/8dc5351a724e57530bf22264bdee877a50f3fb7f3a90b51fdd9b46d9138b/nonebot_adapter_qqguild-${REALVERSION}.tar.gz"
-SOURCEFILE="nonebot_adapter_qqguild-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6a/34/8dc5351a724e57530bf22264bdee877a50f3fb7f3a90b51fdd9b46d9138b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

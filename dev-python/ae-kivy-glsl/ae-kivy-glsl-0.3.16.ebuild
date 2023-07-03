@@ -15,8 +15,8 @@ DESCRIPTION="ae namespace module portion kivy_glsl: add glsl shaders to your kiv
 
 HOMEPAGE="https://gitlab.com/ae-group/ae_kivy_glsl"
 LICENSE="OSI Approved :: GNU General Public License v3 or later GPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/25/46/ef42edae896a0401920bf2ecaf972d0c245756639395b5ccaa91d0080d1a/ae_kivy_glsl-${REALVERSION}.tar.gz"
-SOURCEFILE="ae_kivy_glsl-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/25/46/ef42edae896a0401920bf2ecaf972d0c245756639395b5ccaa91d0080d1a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

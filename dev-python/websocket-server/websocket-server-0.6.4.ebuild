@@ -15,8 +15,8 @@ DESCRIPTION="A simple fully working websocket-server in Python with no external 
 
 HOMEPAGE="https://github.com/Pithikos/python-websocket-server"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/80/19/1587bc8033debcb42d8176ca93cc44c8c874a043a1a8513e4890ad6447fb/websocket_server-${REALVERSION}.tar.gz"
-SOURCEFILE="websocket_server-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/80/19/1587bc8033debcb42d8176ca93cc44c8c874a043a1a8513e4890ad6447fb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

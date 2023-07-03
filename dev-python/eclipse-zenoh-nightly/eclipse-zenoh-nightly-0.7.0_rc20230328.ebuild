@@ -15,8 +15,8 @@ DESCRIPTION="The python API for Eclipse zenoh"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cb/64/241d80c8b5df7dfedbefb8838ab288ed6cf19f60cd12f67bbaf03cbcf370/eclipse_zenoh_nightly-${REALVERSION}.tar.gz"
-SOURCEFILE="eclipse_zenoh_nightly-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cb/64/241d80c8b5df7dfedbefb8838ab288ed6cf19f60cd12f67bbaf03cbcf370/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

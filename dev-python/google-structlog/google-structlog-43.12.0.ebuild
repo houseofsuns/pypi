@@ -15,8 +15,8 @@ DESCRIPTION="Send queryable JSON structured logs to Google Cloud (GCP) stackdriv
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b3/93/6457aa9037120fbdee9f1a840c9dfcbfe3f8dc8f65c05ec97ffe14da2e3b/google_structlog-${REALVERSION}.tar.gz"
-SOURCEFILE="google_structlog-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b3/93/6457aa9037120fbdee9f1a840c9dfcbfe3f8dc8f65c05ec97ffe14da2e3b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A package for perform unlimited machine translation via batches"
 
 HOMEPAGE="https://github.com/Axel-Vs/unlimited_machine_translator"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c2/25/70c72b93437b79121fafe914b51d3920ffe390046bab855bb538593b16a3/unlimited_machine_translator-${REALVERSION}.tar.gz"
-SOURCEFILE="unlimited_machine_translator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c2/25/70c72b93437b79121fafe914b51d3920ffe390046bab855bb538593b16a3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

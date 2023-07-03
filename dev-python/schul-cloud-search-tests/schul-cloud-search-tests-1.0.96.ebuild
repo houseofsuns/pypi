@@ -15,8 +15,8 @@ DESCRIPTION="Schul-Cloud Search API"
 
 HOMEPAGE="https://github.com/schul-cloud/schul_cloud_search_tests"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f7/ad/bef60ab335b7e3f9c1481c507d92ac204bd45e3de045f13d46886cdffff3/schul_cloud_search_tests-${REALVERSION}.tar.gz"
-SOURCEFILE="schul_cloud_search_tests-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f7/ad/bef60ab335b7e3f9c1481c507d92ac204bd45e3de045f13d46886cdffff3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

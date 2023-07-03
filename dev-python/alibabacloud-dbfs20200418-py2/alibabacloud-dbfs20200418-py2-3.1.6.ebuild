@@ -15,8 +15,8 @@ DESCRIPTION="Alibaba Cloud DBFS (20200418) SDK Library for Python2"
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python2-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/57/86/90703a01f79c3c906d9e85d7111b86818ec698d20883d8e67c3a0be17d19/alibabacloud_dbfs20200418_py2-${REALVERSION}.tar.gz"
-SOURCEFILE="alibabacloud_dbfs20200418_py2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/57/86/90703a01f79c3c906d9e85d7111b86818ec698d20883d8e67c3a0be17d19/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

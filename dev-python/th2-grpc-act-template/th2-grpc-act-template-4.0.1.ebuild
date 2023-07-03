@@ -15,8 +15,8 @@ DESCRIPTION="th2_grpc_act_template"
 
 HOMEPAGE="https://github.com/th2-net/th2-grpc-act-template"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/45/76/3b744aa01257dcf1a76ad3b7aca115c43248468bd98e74f55db8cb666f99/th2_grpc_act_template-${REALVERSION}.tar.gz"
-SOURCEFILE="th2_grpc_act_template-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/45/76/3b744aa01257dcf1a76ad3b7aca115c43248468bd98e74f55db8cb666f99/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

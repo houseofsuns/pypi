@@ -15,8 +15,8 @@ DESCRIPTION="Use docstring to annotate pipen processes"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f3/2d/1c81c3ebdea39fe302835947d2aa9912d7d8bce4fc9362f1fa5bb311c9c7/pipen_annotate-${REALVERSION}.tar.gz"
-SOURCEFILE="pipen_annotate-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f3/2d/1c81c3ebdea39fe302835947d2aa9912d7d8bce4fc9362f1fa5bb311c9c7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

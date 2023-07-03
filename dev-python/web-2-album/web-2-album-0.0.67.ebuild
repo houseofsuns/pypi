@@ -15,8 +15,8 @@ DESCRIPTION="Return photo list and caption (markdown format) from web."
 
 HOMEPAGE="https://github.com/gaoyunzhi/web_2_album"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c3/20/2eb8e02e4263daabf014b57ce56731790c6c796a13cd74f2ef8033c7ffd9/web_2_album-${REALVERSION}.tar.gz"
-SOURCEFILE="web_2_album-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c3/20/2eb8e02e4263daabf014b57ce56731790c6c796a13cd74f2ef8033c7ffd9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

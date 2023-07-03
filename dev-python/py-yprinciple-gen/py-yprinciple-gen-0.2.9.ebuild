@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/be/32/09a27a6deb348e8c7c3f4514268eb44d5e9bb23cae2d57c66a963882404e/py_yprinciple_gen-${REALVERSION}.tar.gz"
-SOURCEFILE="py_yprinciple_gen-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/be/32/09a27a6deb348e8c7c3f4514268eb44d5e9bb23cae2d57c66a963882404e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

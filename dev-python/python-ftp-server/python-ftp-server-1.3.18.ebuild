@@ -15,8 +15,8 @@ DESCRIPTION="Command line FTP server tool designed for performance and ease of u
 
 HOMEPAGE="https://github.com/Red-Eyed/python_ftp_server"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/dc/3a/dbcb2d6107e4ae6acfdb16acfe2bd652b277d369fb0188fceb3cfa6dd822/python_ftp_server-${REALVERSION}.tar.gz"
-SOURCEFILE="python_ftp_server-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/dc/3a/dbcb2d6107e4ae6acfdb16acfe2bd652b277d369fb0188fceb3cfa6dd822/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

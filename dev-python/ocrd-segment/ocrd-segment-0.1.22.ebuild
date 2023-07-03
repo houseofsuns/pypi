@@ -15,8 +15,8 @@ DESCRIPTION="Page segmentation and segmentation evaluation"
 
 HOMEPAGE="https://github.com/OCR-D/ocrd_segment"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/69/52/e203af71610dee4cf9b9c5d8e5641e61b488cca8abd18d6ab4e835b0217f/ocrd_segment-${REALVERSION}.tar.gz"
-SOURCEFILE="ocrd_segment-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/69/52/e203af71610dee4cf9b9c5d8e5641e61b488cca8abd18d6ab4e835b0217f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

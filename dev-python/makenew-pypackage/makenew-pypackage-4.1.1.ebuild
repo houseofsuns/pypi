@@ -15,8 +15,8 @@ DESCRIPTION="Package skeleton for a Python module."
 
 HOMEPAGE="https://github.com/makenew/pypackage"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7a/42/d252373f6af41193ff72d13d7f7930fc7e6645b7f891b9c6bb6ae88c4735/makenew_pypackage-${REALVERSION}.tar.gz"
-SOURCEFILE="makenew_pypackage-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7a/42/d252373f6af41193ff72d13d7f7930fc7e6645b7f891b9c6bb6ae88c4735/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

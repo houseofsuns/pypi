@@ -15,8 +15,8 @@ DESCRIPTION="Lightweight utilities to assist model writing and model-based testi
 
 HOMEPAGE="https://mbt.informal.systems/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bc/10/167bd6a8474118c7d3a2a0afa4d01645d4257f20d8427175d989b442b154/modelator_py-${REALVERSION}.tar.gz"
-SOURCEFILE="modelator_py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bc/10/167bd6a8474118c7d3a2a0afa4d01645d4257f20d8427175d989b442b154/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

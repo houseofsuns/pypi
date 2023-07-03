@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This program was developed as a wrapper to the keyring module. It was specifically developed to:- provide a JSON structure for storing objects beyond just a password- get around the windows maximum storage size for secrets by fracturing them (up to 10 &quot;fragments&quot;)</longdescription>
+</pkgmetadata>

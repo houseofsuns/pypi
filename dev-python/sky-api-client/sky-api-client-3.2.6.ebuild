@@ -15,8 +15,8 @@ DESCRIPTION="Python client for RENXT APIs"
 
 HOMEPAGE="https://bitbucket.org/kalyanvarma/skyapi"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/16/1b/132f52a66c6d767912ee8faefa3d0c60732c6420136076076abba8138eb9/sky_api_client-${REALVERSION}.tar.gz"
-SOURCEFILE="sky_api_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/16/1b/132f52a66c6d767912ee8faefa3d0c60732c6420136076076abba8138eb9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

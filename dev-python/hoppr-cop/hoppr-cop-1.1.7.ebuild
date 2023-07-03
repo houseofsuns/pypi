@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/43/e3/67619047f6d3b40546a3aed6f5d9e8b10f3e6340d98eefac64f06739a729/hoppr_cop-${REALVERSION}.tar.gz"
-SOURCEFILE="hoppr_cop-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/43/e3/67619047f6d3b40546a3aed6f5d9e8b10f3e6340d98eefac64f06739a729/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

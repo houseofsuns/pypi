@@ -15,8 +15,8 @@ DESCRIPTION="Redis-backed ASGI channel layer implementation"
 
 HOMEPAGE="http://github.com/django/channels_redis/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/5b/3b/941efa8e337c3537475926fbf86e8cfe38a919e0f60bb9538b1cff364b8d/channels_redis-${REALVERSION}.tar.gz"
-SOURCEFILE="channels_redis-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5b/3b/941efa8e337c3537475926fbf86e8cfe38a919e0f60bb9538b1cff364b8d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A python durations parsing library."
 
 HOMEPAGE="https://github.com/timwedde/durations_nlp"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a1/82/b07a77f35f4e96216b95eac3b474b4ecb724f89be8a57128497a7f6eaecd/durations_nlp-${REALVERSION}.tar.gz"
-SOURCEFILE="durations_nlp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a1/82/b07a77f35f4e96216b95eac3b474b4ecb724f89be8a57128497a7f6eaecd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Sentry error reporting for Routemaster."
 
 HOMEPAGE="https://github.com/thread/routemaster"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a2/00/cd6422c30ad5d589769a7bede6256ec6e01547eb60a03c40b957198ef196/routemaster_sentry-${REALVERSION}.tar.gz"
-SOURCEFILE="routemaster_sentry-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a2/00/cd6422c30ad5d589769a7bede6256ec6e01547eb60a03c40b957198ef196/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

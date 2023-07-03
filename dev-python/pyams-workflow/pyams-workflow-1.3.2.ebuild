@@ -15,8 +15,8 @@ DESCRIPTION="PyAMS workflow management package"
 
 HOMEPAGE="https://pyams.readthedocs.io"
 LICENSE="ZPL"
-SRC_URI="https://files.pythonhosted.org/packages/db/bd/e0bc69933995b2c298de2a9a3af6aee2ac68a041c28aaa05d1287006efdf/pyams_workflow-${REALVERSION}.tar.gz"
-SOURCEFILE="pyams_workflow-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/db/bd/e0bc69933995b2c298de2a9a3af6aee2ac68a041c28aaa05d1287006efdf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

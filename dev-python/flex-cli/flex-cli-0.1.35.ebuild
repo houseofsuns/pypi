@@ -15,8 +15,8 @@ DESCRIPTION="Local CLI is an extendable interactive command line tool built in m
 
 HOMEPAGE="https://github.com/a42ss/lcli"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1b/fb/4b4eba9c2153c6f1785e50ea07549a6a40041998086e5f64fb8c00facbb7/flex_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="flex_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1b/fb/4b4eba9c2153c6f1785e50ea07549a6a40041998086e5f64fb8c00facbb7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

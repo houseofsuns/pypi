@@ -15,8 +15,8 @@ DESCRIPTION="A distributed task processing framework for Django built on top of 
 
 HOMEPAGE="https://github.com/Opus10/django-pgpubsub"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/1c/44/eba339101e903d78eeef626ab3ad7aa124c3ccb3b2cee934785a1ae81d3d/django_pgpubsub-${REALVERSION}.tar.gz"
-SOURCEFILE="django_pgpubsub-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1c/44/eba339101e903d78eeef626ab3ad7aa124c3ccb3b2cee934785a1ae81d3d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

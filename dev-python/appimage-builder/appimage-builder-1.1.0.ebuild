@@ -15,8 +15,8 @@ DESCRIPTION="Recipe based AppImage creation meta-tool"
 
 HOMEPAGE="https://github.com/AppImageCrafters/appimage-builder"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0a/04/ec9580d948c9e0acea65a637a7ee6050a8377bee04b5f26c2402499fe853/appimage_builder-${REALVERSION}.tar.gz"
-SOURCEFILE="appimage_builder-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0a/04/ec9580d948c9e0acea65a637a7ee6050a8377bee04b5f26c2402499fe853/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

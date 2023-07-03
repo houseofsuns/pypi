@@ -15,8 +15,8 @@ DESCRIPTION="Fast random access of gzip files in Python"
 
 HOMEPAGE="https://github.com/pauldmccarthy/indexed_gzip_fileobj_fork_epicfaace"
 LICENSE="ZLIB"
-SRC_URI="https://files.pythonhosted.org/packages/4f/95/87e51a4e1391fc798afc71d322df46866147402208b757ca6a42801a399b/indexed_gzip_fileobj_fork_epicfaace-${REALVERSION}.tar.gz"
-SOURCEFILE="indexed_gzip_fileobj_fork_epicfaace-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4f/95/87e51a4e1391fc798afc71d322df46866147402208b757ca6a42801a399b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

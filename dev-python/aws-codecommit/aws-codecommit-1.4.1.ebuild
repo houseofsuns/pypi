@@ -15,8 +15,8 @@ DESCRIPTION="empower AWS CodeCommit"
 
 HOMEPAGE="https://github.com/MacHu-GWU/aws_codecommit-project"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6c/7c/88e2be487f796f0a35c182cbd72c6461930506a56e92a99ab9865e19eda3/aws_codecommit-${REALVERSION}.tar.gz"
-SOURCEFILE="aws_codecommit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6c/7c/88e2be487f796f0a35c182cbd72c6461930506a56e92a99ab9865e19eda3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Generate an HTML report for your unit tests"
 
 HOMEPAGE="https://github.com/mgrijalva/nose2-html-report"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/47/46/fc4ecf643bd1d5452ce0fa3fd61172a1d64fea79687c6a4fe3ad567651c7/nose2_html_report-${REALVERSION}.tar.gz"
-SOURCEFILE="nose2_html_report-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/47/46/fc4ecf643bd1d5452ce0fa3fd61172a1d64fea79687c6a4fe3ad567651c7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

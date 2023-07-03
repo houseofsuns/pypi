@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># mkdocs-walt🍃 Walt is a minimal documentation theme for MkDocs.It has the following features:- classless styles for semantic HTML based on [writ.css](https://writ.cmcenroe.me)- light mode and dark mode based on system settings- an emoji favicon for browsers that support svg site icons- code syntax highlighting using highlight.js&lt;img src=&quot;https://raw.githubusercontent.com/codesue/walt/main/assets/images/mkdocs-walt-light.png&quot; alt=&quot;Screenshot of the Walt website&quot; /&gt;## Installation```shpip install mkdocs-walt```## UsageCreate a new MkDocs project with the `mkdocs` CLI and add the following yourproject's `mkdocs.yml`:```yamltheme:  name: walt```See the [end to end example](https://github.com/codesue/walt/tree/main/examples/mkdocs).## DefaultsWalt sets the following configurations by default:```yamlsite_emoji: 🍃locale: entheme_color: &quot;hsl(0, 0%, 100%)&quot;theme_color_dark: &quot;hsl(232, 23%, 18%)&quot;include_header: trueinclude_nav: truehighlightjs: true```## LicenseCopyright &amp;copy; 2023 [Suzen Fylke](https://suzenfylke.com). Distributed under the MIT License.## AcknowledgementsWalt uses [writ.css](https://github.com/programble/writ/tree/master) for stylesand [Catppuccin](https://github.com/catppuccin/catppuccin) for code block syntaxhighlighting and dark mode color palettes.</longdescription>
+</pkgmetadata>

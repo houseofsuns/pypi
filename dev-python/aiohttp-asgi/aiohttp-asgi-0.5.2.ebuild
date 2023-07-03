@@ -15,8 +15,8 @@ DESCRIPTION="Adapter to running ASGI applications on aiohttp"
 
 HOMEPAGE="https://github.com/mosquito/aiohttp-asgi"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/8b/0e/a97a05f992765d666b066cf08d968ffc98e719f28ebeaf0601869e5e0044/aiohttp_asgi-${REALVERSION}.tar.gz"
-SOURCEFILE="aiohttp_asgi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8b/0e/a97a05f992765d666b066cf08d968ffc98e719f28ebeaf0601869e5e0044/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

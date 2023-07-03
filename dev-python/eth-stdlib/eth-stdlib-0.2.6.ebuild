@@ -15,8 +15,8 @@ DESCRIPTION="Ethereum Standard Library for Python"
 
 HOMEPAGE="https://github.com/skellet0r/eth-stdlib"
 LICENSE="LGPL-3.0-only"
-SRC_URI="https://files.pythonhosted.org/packages/ac/24/bd1c171936b9102a56dbf093e18f9addd8b2aa3a48f8f0adcf410d4bd956/eth_stdlib-${REALVERSION}.tar.gz"
-SOURCEFILE="eth_stdlib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ac/24/bd1c171936b9102a56dbf093e18f9addd8b2aa3a48f8f0adcf410d4bd956/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

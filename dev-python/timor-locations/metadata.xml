@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Timor GISTimor Leste GIS data as Django modelsThis initial release uses administrative boundariew from Estrada, tweaked to include Atauro as a separate entity, with pcode which are intended to match existing data from PNDS.Data inputs are stored as `gpkg` files in Git LFS.## EnvironmentThis is intended to be compatible with:- Django 4.1+- Python 3.10+```shgh repo clone catalpainternational/timor_locationscd timor_locationspoetry install```### Development - When developing please install prerequisites with `poetry install --with dev --no-root`### Pre CommitIf `pre-commit` is installed your code will be checked before commit.This includes- black- flake8- isort- mypyThe same checks are run on push. See `pytest.yaml` for details on the checks being run.### New ReleaseFor a new release, change the `version` property in pyproject.toml and push a git tag with the version numberSee `build.yaml` for details on release tagging## Changelog...## Manually Uploading a new version to PyPiBump `pyproject.toml`Then run `poetry build` and `poetry publish````bashpoetry buildpoetry publish```See the file `build.yml` for the workflow</longdescription>
+</pkgmetadata>

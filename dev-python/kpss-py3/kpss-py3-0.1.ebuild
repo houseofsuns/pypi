@@ -15,8 +15,8 @@ DESCRIPTION="Python 3 implementation of the Kraaij-Pohlmann Snowball Stemmer"
 
 HOMEPAGE="http://github.com/thomasbrockmeier/kpss_py3"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/34/35/fdb528c3a009b1a42ef0b818235342f426c0639c6d65f1cffafe1a145de5/kpss_py3-${REALVERSION}.tar.gz"
-SOURCEFILE="kpss_py3-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/34/35/fdb528c3a009b1a42ef0b818235342f426c0639c6d65f1cffafe1a145de5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

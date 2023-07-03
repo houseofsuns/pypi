@@ -15,8 +15,8 @@ DESCRIPTION="Python wrapper around kallisto | bustools for scRNA-seq analysis"
 
 HOMEPAGE="https://github.com/pachterlab/kb_python"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/3d/75/90b203d98600aa8c774cdeab2c97f7badbeab518babd8182de317ba039e9/kb_python-${REALVERSION}.tar.gz"
-SOURCEFILE="kb_python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3d/75/90b203d98600aa8c774cdeab2c97f7badbeab518babd8182de317ba039e9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

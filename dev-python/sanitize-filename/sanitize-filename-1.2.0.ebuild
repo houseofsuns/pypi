@@ -15,8 +15,8 @@ DESCRIPTION="A permissive filename sanitizer."
 
 HOMEPAGE="https://gitlab.com/jplusplus/sanitize-filename"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a3/1c/2757fe1d119304407c501236de0fa7482975f4fbef3d955abc3f7d88c986/sanitize_filename-${REALVERSION}.tar.gz"
-SOURCEFILE="sanitize_filename-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a3/1c/2757fe1d119304407c501236de0fa7482975f4fbef3d955abc3f7d88c986/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

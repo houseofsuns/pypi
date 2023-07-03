@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>Code - Print colored text```from waivek import Codeprint(Code.RED + &quot;Hello, World!&quot;)```common```from waivek import Date, Timestampdt = Date(&quot;2020-01-01&quot;timestamp = Timestamp(3600)``````&gt;&gt;&gt; Date(1672511400) == Date('2023-01-01')True&gt;&gt;&gt; date = Date(1672511400)&gt;&gt;&gt; date12:00 AM, Jan 01 (5 months ago)&gt;&gt;&gt; date.epoch1672511400&gt;&gt;&gt; date.string2023-01-01T00:00:00+05:30&gt;&gt;&gt; date.timeago()5 months ago&gt;&gt;&gt; str(date)12:00 AM, Jan 01 (5 months ago)&gt;&gt;&gt; date.dt2023-01-01 00:00:00+05:30``````from waivek import create_partitions, smart_pad, enumerate_count```db```from waivek import db_init, insert_dictionariescursor, connection = db_init(db_path)insert_dictionaries(cursor, table_name, dictionaries)```error```from waivek import handlerwith handler():    main()```get```from waivek import agetaget(urls)```ic```from waivek import ic, ibic({&quot;key&quot;: &quot;value&quot;})ib(str)```print\_utils - Print and manipulate text.```from waivek import head, truncate, abbreviate```reltools - Do path manipulation relative to ```from waivek import rel2abs, read, write```timer - Measure execution time of code snippets```from waivek import Timer```</longdescription>
+</pkgmetadata>

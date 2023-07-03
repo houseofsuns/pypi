@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="http://jupyter.org"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/29/2d/b0f46d8c1da722a8239c28d897448b31e433c562e7d2d53832a477ee7360/jupyter_francy-${REALVERSION}.tar.gz"
-SOURCEFILE="jupyter_francy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/29/2d/b0f46d8c1da722a8239c28d897448b31e433c562e7d2d53832a477ee7360/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

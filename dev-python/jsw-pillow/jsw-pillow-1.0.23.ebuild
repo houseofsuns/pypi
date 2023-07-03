@@ -15,8 +15,8 @@ DESCRIPTION="Pillow for jsw."
 
 HOMEPAGE="https://js.work"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/39/99/4f136dc1ea3c9bd0b57258cc76ad6fbb4da39f64f34c7fc031fe48adca59/jsw_pillow-${REALVERSION}.tar.gz"
-SOURCEFILE="jsw_pillow-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/39/99/4f136dc1ea3c9bd0b57258cc76ad6fbb4da39f64f34c7fc031fe48adca59/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

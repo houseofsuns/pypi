@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/08/72/ad4defe23ba9a0c322a69b37bd51333c5c58a9bcae040bae8caafa5b1313/model_data_util-${REALVERSION}.tar.gz"
-SOURCEFILE="model_data_util-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/08/72/ad4defe23ba9a0c322a69b37bd51333c5c58a9bcae040bae8caafa5b1313/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Shares Python package metadata at runtime."
 
 HOMEPAGE="https://pypi.org/project/pkg_about/"
 LICENSE="zlib/libpng License ; https://opensource.org/licenses/Zlib"
-SRC_URI="https://files.pythonhosted.org/packages/f1/1a/eb285cc4e540acd3c915a06a84da329f3f737ca2e3d843325474b3ad8796/pkg_about-${REALVERSION}.zip"
-SOURCEFILE="pkg_about-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/f1/1a/eb285cc4e540acd3c915a06a84da329f3f737ca2e3d843325474b3ad8796/${REALNAME//-/_}-${REALVERSION}.zip"
+SOURCEFILE="_}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

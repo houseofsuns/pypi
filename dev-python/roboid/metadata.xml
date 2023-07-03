@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># roboid## OverviewPart of the ROBOID project - http://hamster.schoolCopyright (C) 2016 Kwang-Hyun Park (akaii@kw.ac.kr)## Installation``pip install -U roboid`` should work for most users.</longdescription>
+</pkgmetadata>

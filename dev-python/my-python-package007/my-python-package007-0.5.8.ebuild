@@ -15,8 +15,8 @@ DESCRIPTION="My awesome Python package v2"
 
 HOMEPAGE="https://github.com/DipakMehta/python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6f/03/09cf937681ac1384b6d4c7def14dca442f03ac4ffb09e4d5cfe35f1a7958/my_python_package007-${REALVERSION}.tar.gz"
-SOURCEFILE="my_python_package007-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6f/03/09cf937681ac1384b6d4c7def14dca442f03ac4ffb09e4d5cfe35f1a7958/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># abstract_instrument_interfaceThis package contains general classes for interfaces and GUIs, which are inherited by different other packages to control lab instruments.## InstallationUse the package manager pip to install,```bashpip install abstract-instrument-interface```## Used byThis is a list of all instrument interfaces that use this package (and that are compatible with Ergastirio)* [pyThorlabsPM100x](https://github.com/MicheleCotrufo/pyThorlabsPM100x)* [pyThorlabsAPT](https://github.com/MicheleCotrufo/pyThorlabsAPT)</longdescription>
+</pkgmetadata>

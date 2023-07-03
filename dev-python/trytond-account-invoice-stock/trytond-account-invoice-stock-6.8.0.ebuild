@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module to link stock and invoice"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/69/37/af0661b29c285f47e9713b11f926dee3008545bcf130359ec7a2a5a69494/trytond_account_invoice_stock-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_account_invoice_stock-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/69/37/af0661b29c285f47e9713b11f926dee3008545bcf130359ec7a2a5a69494/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

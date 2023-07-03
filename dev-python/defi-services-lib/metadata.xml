@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># defi-services-libQuery EVM State and Calculate The APY/APR, Wallet Information,... in Decentralized Applications## ExamplesLending Protocol: [examples/lending_pools](https://github.com/phamvietbang/defi-services-lib/tree/main/examples/lending_pools/bsc)</longdescription>
+</pkgmetadata>

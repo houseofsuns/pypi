@@ -15,8 +15,8 @@ DESCRIPTION="A Training Framework for Stable Baselines3 Reinforcement Learning A
 
 HOMEPAGE="https://github.com/DLR-RM/rl-baselines3-zoo"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9c/ad/9425352b54de436a39bcb49e0ad60657ef0ae25247cebbf8c7268df0a697/rl_zoo3-${REALVERSION}.tar.gz"
-SOURCEFILE="rl_zoo3-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9c/ad/9425352b54de436a39bcb49e0ad60657ef0ae25247cebbf8c7268df0a697/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="flake8 plugin which checks that typing imports are properly guarded
 
 HOMEPAGE="https://github.com/asottile/flake8-typing-imports"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/04/ae/3e6e7dad6cb04573315a5bad115590dffd66f80de0f71e898cf0bb32cdae/flake8_typing_imports-${REALVERSION}.tar.gz"
-SOURCEFILE="flake8_typing_imports-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/04/ae/3e6e7dad6cb04573315a5bad115590dffd66f80de0f71e898cf0bb32cdae/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

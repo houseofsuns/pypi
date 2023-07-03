@@ -15,8 +15,8 @@ DESCRIPTION="A django app enabling Django models to use xworkflows."
 
 HOMEPAGE="http://github.com/rbarrois/django_xworkflows"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/66/58/715dc4cd9ddf05f24e53220ca11261c868fe34284f429dc9942340f4c894/django_xworkflows-${REALVERSION}.tar.gz"
-SOURCEFILE="django_xworkflows-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/66/58/715dc4cd9ddf05f24e53220ca11261c868fe34284f429dc9942340f4c894/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="conda-store client"
 
 HOMEPAGE="https://conda.store/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d9/ef/91539cd062b087305f8199b48cd31f60577f7c62e4498e938844344337f6/conda_store-${REALVERSION}.tar.gz"
-SOURCEFILE="conda_store-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d9/ef/91539cd062b087305f8199b48cd31f60577f7c62e4498e938844344337f6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

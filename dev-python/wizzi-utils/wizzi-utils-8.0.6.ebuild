@@ -15,8 +15,8 @@ DESCRIPTION="Debugging tools and fast coding"
 
 HOMEPAGE="https://github.com/2easy4wizzi/wizzi_utils_pypi"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ba/47/245715c89705365bbdae3a14d0a3d1a1a702cd4bc1a99320a022be032497/wizzi_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="wizzi_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ba/47/245715c89705365bbdae3a14d0a3d1a1a702cd4bc1a99320a022be032497/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

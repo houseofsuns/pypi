@@ -15,8 +15,8 @@ DESCRIPTION="Jupyter Notebook integration with RStudio Workbench"
 
 HOMEPAGE="https://docs.rstudio.com/ide"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/72/7c/5a9c71f250fbbaa219f248b24825e770c7b70de0a6f7076130c21263884a/rsp_jupyter-${REALVERSION}.tar.gz"
-SOURCEFILE="rsp_jupyter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/72/7c/5a9c71f250fbbaa219f248b24825e770c7b70de0a6f7076130c21263884a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

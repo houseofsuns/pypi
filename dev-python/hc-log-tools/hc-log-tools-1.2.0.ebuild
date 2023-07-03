@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/50/51/def058c84ae67b97547ff5272b4115f9ac6a6d3a74a166de42b56af2276b/hc_log_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="hc_log_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/50/51/def058c84ae67b97547ff5272b4115f9ac6a6d3a74a166de42b56af2276b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

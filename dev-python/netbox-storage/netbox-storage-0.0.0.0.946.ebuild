@@ -15,8 +15,8 @@ DESCRIPTION="Netbox Storage Plugin"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/65/e3/fd330e9e45b382dc0f6da9b4ee02718fcb93888896f989c0d8fd0830f052/netbox_storage-${REALVERSION}.tar.gz"
-SOURCEFILE="netbox_storage-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/65/e3/fd330e9e45b382dc0f6da9b4ee02718fcb93888896f989c0d8fd0830f052/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

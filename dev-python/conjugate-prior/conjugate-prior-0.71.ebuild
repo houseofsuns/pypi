@@ -15,8 +15,8 @@ DESCRIPTION="Bayesian Statistics conjugate prior distributions"
 
 HOMEPAGE="https://github.com/urigoren/conjugate_prior"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fd/c0/96fa46726ab43adf3affb8e6a4a5fb054d0a06d32156fed7fcbffd95d6dc/conjugate_prior-${REALVERSION}.tar.gz"
-SOURCEFILE="conjugate_prior-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fd/c0/96fa46726ab43adf3affb8e6a4a5fb054d0a06d32156fed7fcbffd95d6dc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/garpixcms/garpix_company"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f1/18/bd533daef09e5f1fb3e123a0a8e6cf1a1dfba9cae05f9f565d49eac4f5e2/garpix_company-${REALVERSION}.tar.gz"
-SOURCEFILE="garpix_company-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f1/18/bd533daef09e5f1fb3e123a0a8e6cf1a1dfba9cae05f9f565d49eac4f5e2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

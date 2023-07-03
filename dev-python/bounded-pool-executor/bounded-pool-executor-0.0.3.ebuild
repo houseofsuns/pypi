@@ -15,8 +15,8 @@ DESCRIPTION="Bounded Process&Thread Pool Executor"
 
 HOMEPAGE="http://github.com/mowshon/bounded_pool_executor"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/23/f1/e34501c1228415e9fbcac8cb9c81098900e78331b30eeee1816176324bab/bounded_pool_executor-${REALVERSION}.tar.gz"
-SOURCEFILE="bounded_pool_executor-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/23/f1/e34501c1228415e9fbcac8cb9c81098900e78331b30eeee1816176324bab/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

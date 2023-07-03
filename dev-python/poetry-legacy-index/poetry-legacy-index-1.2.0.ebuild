@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9a/40/61bbf3ebea00e3a8353ead2ec02b66b3f80aee8cfca15af88f28880f468a/poetry_legacy_index-${REALVERSION}.tar.gz"
-SOURCEFILE="poetry_legacy_index-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9a/40/61bbf3ebea00e3a8353ead2ec02b66b3f80aee8cfca15af88f28880f468a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

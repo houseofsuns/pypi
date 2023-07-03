@@ -15,8 +15,8 @@ DESCRIPTION="Alvin CLI"
 
 HOMEPAGE="https://github.com/alvindotai/alvin"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/27/4a/d20cc3ba9a88cc0cf8107de11e558c299aedb0884533cdc984402daa009b/alvin_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="alvin_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/27/4a/d20cc3ba9a88cc0cf8107de11e558c299aedb0884533cdc984402daa009b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="elasticsearch catalog support for guillotina"
 
 HOMEPAGE="https://github.com/plone/guillotina_elasticsearch"
 LICENSE="GPL version 3"
-SRC_URI="https://files.pythonhosted.org/packages/28/c6/4640c764352812e8e50b078dcaedd940d66e17fdbc659d76dcba82524bf3/guillotina_elasticsearch-${REALVERSION}.tar.gz"
-SOURCEFILE="guillotina_elasticsearch-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/28/c6/4640c764352812e8e50b078dcaedd940d66e17fdbc659d76dcba82524bf3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

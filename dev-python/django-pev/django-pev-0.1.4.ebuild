@@ -15,8 +15,8 @@ DESCRIPTION="Context manager to upload explain plans to https://explain.dalibo.c
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/89/43/aca39074df281cbd4cfba73a3dc5feb10811d342ad3ca268db8f6018176f/django_pev-${REALVERSION}.tar.gz"
-SOURCEFILE="django_pev-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/89/43/aca39074df281cbd4cfba73a3dc5feb10811d342ad3ca268db8f6018176f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

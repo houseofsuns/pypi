@@ -15,8 +15,8 @@ DESCRIPTION="Utility for reproducing the wall and dice information from the game
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/86/4d/2c51afc73b5c35c33fe8b9d80ed93c9b26378a19f209da2e1cda34d9762f/tenhou_wall_reproducer-${REALVERSION}.tar.gz"
-SOURCEFILE="tenhou_wall_reproducer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/86/4d/2c51afc73b5c35c33fe8b9d80ed93c9b26378a19f209da2e1cda34d9762f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

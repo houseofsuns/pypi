@@ -15,8 +15,8 @@ DESCRIPTION="Apify API client for Python"
 
 HOMEPAGE="https://docs.apify.com/api/client/python/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e2/02/24ef75c589d1ef8b5b023ee415a43b364e29d158049450cc1c323d3e2849/apify_client-${REALVERSION}.tar.gz"
-SOURCEFILE="apify_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e2/02/24ef75c589d1ef8b5b023ee415a43b364e29d158049450cc1c323d3e2849/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

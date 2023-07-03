@@ -15,8 +15,8 @@ DESCRIPTION=" Utility functions and data structure for aiding in Analog Integrat
 
 HOMEPAGE="https://github.com/das-dias/modelling_utils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/71/f9/fc9dbe209d2fac64184c253c018385bbb26629c2113bbf3f6c3a1f488cbb/modelling_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="modelling_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/71/f9/fc9dbe209d2fac64184c253c018385bbb26629c2113bbf3f6c3a1f488cbb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

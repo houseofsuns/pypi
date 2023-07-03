@@ -15,8 +15,8 @@ DESCRIPTION="Manage OpenApi documentation with DRF"
 
 HOMEPAGE="https://github.com/gungnir888/drf-openapi"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/c1/cd/3ab56c0b811e7a0a87b6b38a308f811d01db2f4b011f37e44c7c5828151d/drf_openapi3-${REALVERSION}.tar.gz"
-SOURCEFILE="drf_openapi3-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c1/cd/3ab56c0b811e7a0a87b6b38a308f811d01db2f4b011f37e44c7c5828151d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

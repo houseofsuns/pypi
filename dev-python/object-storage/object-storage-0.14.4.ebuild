@@ -15,8 +15,8 @@ DESCRIPTION="Python library for accessing files over various file transfer proto
 
 HOMEPAGE="https://github.com/ustudio/storage"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a7/0c/9cce901e30f488d1317432bde0957c9e7b1825b8d84352706ee866d063d5/object_storage-${REALVERSION}.tar.gz"
-SOURCEFILE="object_storage-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a7/0c/9cce901e30f488d1317432bde0957c9e7b1825b8d84352706ee866d063d5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

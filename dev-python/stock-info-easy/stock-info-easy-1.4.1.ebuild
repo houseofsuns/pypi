@@ -15,8 +15,8 @@ DESCRIPTION="This package provides user-friendly functions to easily navigate st
 
 HOMEPAGE="https://github.com/shaunahan/Stock_Info_Easy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/94/2f/244dd20933d6762ff6d6ebd9ae94b8dce6a12e94b2f9503496f537c107cd/stock_info_easy-${REALVERSION}.tar.gz"
-SOURCEFILE="stock_info_easy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/94/2f/244dd20933d6762ff6d6ebd9ae94b8dce6a12e94b2f9503496f537c107cd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

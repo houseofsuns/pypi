@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/ShoesFly/fund_alchemy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f2/5c/b7dae777afd51b9e45173ae848d99d36bbc12589745f2a5570e46c69edb2/fund_alchemy-${REALVERSION}.tar.gz"
-SOURCEFILE="fund_alchemy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f2/5c/b7dae777afd51b9e45173ae848d99d36bbc12589745f2a5570e46c69edb2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="MkDocs plugin to specify the navigation in Markdown instead of YAML
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/46/91/75eb48eafdbe609ca80d6c271ad5bc4edc75cffde4d1d70604f2a4c2145a/mkdocs_literate_nav-${REALVERSION}.tar.gz"
-SOURCEFILE="mkdocs_literate_nav-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/46/91/75eb48eafdbe609ca80d6c271ad5bc4edc75cffde4d1d70604f2a4c2145a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A simple, Pythonic wrapper for the ChargePoint API."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ee/ab/648937e7be9a7f56383e9c982089ce0204f1b53cb253a441e1c08f30b644/python_chargepoint-${REALVERSION}.tar.gz"
-SOURCEFILE="python_chargepoint-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ee/ab/648937e7be9a7f56383e9c982089ce0204f1b53cb253a441e1c08f30b644/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

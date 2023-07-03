@@ -15,8 +15,8 @@ DESCRIPTION="A Django email backend for Amazon's Simple Email Service"
 
 HOMEPAGE="https://github.com/django-ses/django-ses"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/eb/31/0e5d3a4bc42ec672512424788c7231ff932384c39ec5b6d0879d76ca4a56/django_ses-${REALVERSION}.tar.gz"
-SOURCEFILE="django_ses-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/eb/31/0e5d3a4bc42ec672512424788c7231ff932384c39ec5b6d0879d76ca4a56/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

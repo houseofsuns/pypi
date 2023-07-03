@@ -15,8 +15,8 @@ DESCRIPTION="pydantic-i18n is an extension to support an i18n for the pydantic e
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4e/17/d601d8db7bb39ea05efa8e5c8bea29a10762b36c24674eacef2b0511d816/pydantic_i18n-${REALVERSION}.tar.gz"
-SOURCEFILE="pydantic_i18n-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4e/17/d601d8db7bb39ea05efa8e5c8bea29a10762b36c24674eacef2b0511d816/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module for sale supply drop shipment"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/f7/e7/14ebcddf6be68d55ab2407002abe8601868de875c89f6da7c46de04fdaae/trytond_sale_supply_drop_shipment-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_sale_supply_drop_shipment-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f7/e7/14ebcddf6be68d55ab2407002abe8601868de875c89f6da7c46de04fdaae/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

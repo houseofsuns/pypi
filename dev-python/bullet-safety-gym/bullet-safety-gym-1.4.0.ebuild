@@ -15,8 +15,8 @@ DESCRIPTION="A framework to benchmark safety in Reinforcement Learning."
 
 HOMEPAGE="https://github.com/liuzuxin/Bullet-Safety-Gym"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2d/27/4b314cf78896b88efeb48cab246169af1e7eb714a36bcc8ef30e1f17a31c/bullet_safety_gym-${REALVERSION}.tar.gz"
-SOURCEFILE="bullet_safety_gym-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2d/27/4b314cf78896b88efeb48cab246169af1e7eb714a36bcc8ef30e1f17a31c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

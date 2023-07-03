@@ -15,8 +15,8 @@ DESCRIPTION="A standard framework for using Deep Learning for tabular data"
 
 HOMEPAGE="https://github.com/manujosephv/pytorch_tabular"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/61/ca/1633e652b463aab63dfa3d1bff849a61efaf238c8fe369854739e39bf18d/pytorch_tabular-${REALVERSION}.tar.gz"
-SOURCEFILE="pytorch_tabular-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/61/ca/1633e652b463aab63dfa3d1bff849a61efaf238c8fe369854739e39bf18d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="WEB Automation Framework"
 
 HOMEPAGE="https://github.com/Intergration-Automation-Testing/WebRunner"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/36/78/88d38a665c16f88e2938bbe74fef0a47d101efab2b11581eb283f6078e1f/je_web_runner-${REALVERSION}.tar.gz"
-SOURCEFILE="je_web_runner-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/36/78/88d38a665c16f88e2938bbe74fef0a47d101efab2b11581eb283f6078e1f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

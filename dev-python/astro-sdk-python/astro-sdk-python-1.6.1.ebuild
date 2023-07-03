@@ -15,8 +15,8 @@ DESCRIPTION="Astro SDK allows rapid and clean development of {Extract, Load, Tra
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ca/0b/d5a048b9eecf30ae04a6dde6f8764493404e4c6e3f76b8a7126c65e1454e/astro_sdk_python-${REALVERSION}.tar.gz"
-SOURCEFILE="astro_sdk_python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ca/0b/d5a048b9eecf30ae04a6dde6f8764493404e4c6e3f76b8a7126c65e1454e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

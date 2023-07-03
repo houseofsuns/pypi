@@ -15,8 +15,8 @@ DESCRIPTION="kuksa.val python clients and SDK"
 
 HOMEPAGE="https://github.com/eclipse/kuksa.val"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0d/1e/2c3dc326d2bf211ac4baf81958d5156f35435f4d8fd18455b29d2d918d73/kuksa_client-${REALVERSION}.tar.gz"
-SOURCEFILE="kuksa_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0d/1e/2c3dc326d2bf211ac4baf81958d5156f35435f4d8fd18455b29d2d918d73/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

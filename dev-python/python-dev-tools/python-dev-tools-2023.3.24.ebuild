@@ -15,8 +15,8 @@ DESCRIPTION="Needed and up-to-date tools to develop in Python"
 
 HOMEPAGE="https://github.com/vpoulailleau/python-dev-tools"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/fc/95/006e7e12c861b66407cf9dc582ee7b522b39cbfaa4ac5f8a8df0f28aca8d/python_dev_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="python_dev_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fc/95/006e7e12c861b66407cf9dc582ee7b522b39cbfaa4ac5f8a8df0f28aca8d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

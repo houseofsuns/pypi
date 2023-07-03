@@ -15,8 +15,8 @@ DESCRIPTION="Module for working with asynchronous RabbitMQ library"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1c/a0/22ae7d3bd9678e7406226f27634e43f7d84ce3748ce78623d09261bbc2f2/async_rmq-${REALVERSION}.tar.gz"
-SOURCEFILE="async_rmq-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1c/a0/22ae7d3bd9678e7406226f27634e43f7d84ce3748ce78623d09261bbc2f2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

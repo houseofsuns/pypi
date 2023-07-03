@@ -15,8 +15,8 @@ DESCRIPTION="mDast core package"
 
 HOMEPAGE="https://github.com/Dynamic-Mobile-Security/mdast-cli-core"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c5/d7/aaaac49248ef9816f347c9a904f82667ab3af13181480684a16ef9fcf99a/mdast_cli_core-${REALVERSION}.tar.gz"
-SOURCEFILE="mdast_cli_core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c5/d7/aaaac49248ef9816f347c9a904f82667ab3af13181480684a16ef9fcf99a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Russian language files for gruut tokenizer/phonemizer"
 
 HOMEPAGE="https://github.com/rhasspy/gruut"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/22/f2/5229e659ae42b17ddd1b48db39bc039aeabef0c2655d350582dc2b2e5fa4/gruut_lang_ru-${REALVERSION}.tar.gz"
-SOURCEFILE="gruut_lang_ru-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/22/f2/5229e659ae42b17ddd1b48db39bc039aeabef0c2655d350582dc2b2e5fa4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

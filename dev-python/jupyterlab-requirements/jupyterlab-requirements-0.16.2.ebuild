@@ -15,8 +15,8 @@ DESCRIPTION="JupyterLab Extension for dependency management and optimization"
 
 HOMEPAGE="https://github.com/thoth-station/jupyterlab-requirements"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/f7/2d/0b88d54960c8beb6aa85163eadbcf96fd02982127b4c37f8a0072ae759ce/jupyterlab_requirements-${REALVERSION}.tar.gz"
-SOURCEFILE="jupyterlab_requirements-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f7/2d/0b88d54960c8beb6aa85163eadbcf96fd02982127b4c37f8a0072ae759ce/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

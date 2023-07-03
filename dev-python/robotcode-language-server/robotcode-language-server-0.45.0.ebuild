@@ -15,8 +15,8 @@ DESCRIPTION="RobotCode Language Server for Robot Framework"
 
 HOMEPAGE="https://robotcode.io"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/91/59/31e72adf526414c73ed11d042ff976a105a6f08c7a28c4e58977c287fe4b/robotcode_language_server-${REALVERSION}.tar.gz"
-SOURCEFILE="robotcode_language_server-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/91/59/31e72adf526414c73ed11d042ff976a105a6f08c7a28c4e58977c287fe4b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Lightning Cloud"
 
 HOMEPAGE="https://lightning.ai"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/2e/a6/ee366478e804deaba69accb445748d0e26f83df15078ffa19ebeccfc17bf/lightning_cloud-${REALVERSION}.tar.gz"
-SOURCEFILE="lightning_cloud-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2e/a6/ee366478e804deaba69accb445748d0e26f83df15078ffa19ebeccfc17bf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

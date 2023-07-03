@@ -15,8 +15,8 @@ DESCRIPTION="Create graphs"
 
 HOMEPAGE="https://github.com/aaristov/napari-griottes"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/fb/b5/3870dc0a8e38d37e91aebe6dc7d7515906bfef641d5c31144e28239ad29e/napari_griottes-${REALVERSION}.tar.gz"
-SOURCEFILE="napari_griottes-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fb/b5/3870dc0a8e38d37e91aebe6dc7d7515906bfef641d5c31144e28239ad29e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

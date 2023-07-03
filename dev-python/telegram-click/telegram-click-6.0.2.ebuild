@@ -15,8 +15,8 @@ DESCRIPTION="Click inspired command interface toolkit for pyton-telegram-bot"
 
 HOMEPAGE="https://github.com/markusressel/telegram-click"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9a/22/58f2e0a9f4ec71308728050602584475498582ac1311bc7d0ee9480612c4/telegram_click-${REALVERSION}.tar.gz"
-SOURCEFILE="telegram_click-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9a/22/58f2e0a9f4ec71308728050602584475498582ac1311bc7d0ee9480612c4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

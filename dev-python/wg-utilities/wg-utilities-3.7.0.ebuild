@@ -15,8 +15,8 @@ DESCRIPTION="Loads of useful stuff for the things I do :)"
 
 HOMEPAGE="https://github.com/worgarside/wg-utilities"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1f/d0/50c6b5d45480ed483b82d19b8ba58566339302ae000e990b6c2d0f06d1ea/wg_utilities-${REALVERSION}.tar.gz"
-SOURCEFILE="wg_utilities-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1f/d0/50c6b5d45480ed483b82d19b8ba58566339302ae000e990b6c2d0f06d1ea/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

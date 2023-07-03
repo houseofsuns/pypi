@@ -15,8 +15,8 @@ DESCRIPTION="Django Ninja Extra - Class Based Utility and more for Django Ninja(
 
 HOMEPAGE="https://github.com/eadwinCode/django-ninja-extra"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/57/eb/3dd1a1f1744db870e9e506a2a698957258d08c43004482fdb1928d921250/django_ninja_extra-${REALVERSION}.tar.gz"
-SOURCEFILE="django_ninja_extra-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/57/eb/3dd1a1f1744db870e9e506a2a698957258d08c43004482fdb1928d921250/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

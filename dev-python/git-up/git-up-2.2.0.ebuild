@@ -15,8 +15,8 @@ DESCRIPTION="A python implementation of 'git up'"
 
 HOMEPAGE="https://github.com/msiemens/PyGitUp"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/55/13/2dd3d4c9a021eb5fa6d8afbb29eb9e6eb57faa56cf10effe879c9626eed1/git_up-${REALVERSION}.tar.gz"
-SOURCEFILE="git_up-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/55/13/2dd3d4c9a021eb5fa6d8afbb29eb9e6eb57faa56cf10effe879c9626eed1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

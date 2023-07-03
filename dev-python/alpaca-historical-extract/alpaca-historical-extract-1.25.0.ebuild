@@ -15,8 +15,8 @@ DESCRIPTION="README.md"
 
 HOMEPAGE="https://github.com/Cole-Dylewski/Alpaca-Stock-Algo"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/da/63/b5da845aa751b6044433e136aba047c423b67b2cb022dec19190a5c8e7ca/alpaca_historical_extract-${REALVERSION}.tar.gz"
-SOURCEFILE="alpaca_historical_extract-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/da/63/b5da845aa751b6044433e136aba047c423b67b2cb022dec19190a5c8e7ca/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

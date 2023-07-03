@@ -15,8 +15,8 @@ DESCRIPTION="Python Wrapper for Android UiAutomator test_set tool"
 
 HOMEPAGE="https://github.com/xiaocong/uiautomator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/61/8b/b42a514562577170d8ddd99ddc99382c62a3dbe796b84105b51929d6db58/atc_uiautomator-${REALVERSION}.tar.gz"
-SOURCEFILE="atc_uiautomator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/61/8b/b42a514562577170d8ddd99ddc99382c62a3dbe796b84105b51929d6db58/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

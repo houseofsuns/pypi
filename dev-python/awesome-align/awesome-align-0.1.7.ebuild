@@ -15,8 +15,8 @@ DESCRIPTION="An awesome word alignment tool"
 
 HOMEPAGE="https://github.com/neulab/awesome-align"
 LICENSE="BSD 3-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/4f/b0/ef1f2a92a4a67b261a82aae887044b592cea72217fd5def45bc36ba484f0/awesome_align-${REALVERSION}.tar.gz"
-SOURCEFILE="awesome_align-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4f/b0/ef1f2a92a4a67b261a82aae887044b592cea72217fd5def45bc36ba484f0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Parse comments from various source files."
 
 HOMEPAGE="http://github.com/jeanralphaviles/comment_parser"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/76/cd/6e4c79d4a25e3b6542d1a3728b3e2b2c4650e3f8c3cde950aaecc6f64764/comment_parser-${REALVERSION}.tar.gz"
-SOURCEFILE="comment_parser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/76/cd/6e4c79d4a25e3b6542d1a3728b3e2b2c4650e3f8c3cde950aaecc6f64764/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

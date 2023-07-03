@@ -15,8 +15,8 @@ DESCRIPTION="The antchain alipay util module of alibabaCloud Python SDK."
 
 HOMEPAGE="https://github.com/alipay/antchain-openapi-util-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/14/a1/7e8f89acc43436807a5eacf76d9eb5edd436c7ad8f5e5f71f77d70b991ce/antchain_alipay_util-${REALVERSION}.tar.gz"
-SOURCEFILE="antchain_alipay_util-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/14/a1/7e8f89acc43436807a5eacf76d9eb5edd436c7ad8f5e5f71f77d70b991ce/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

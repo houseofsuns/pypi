@@ -15,8 +15,8 @@ DESCRIPTION="Netbox Disk Plugin"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ce/75/33d16b62cea5d9bbf4d100bbfbc0852dbdb53987df6df6dd8255020f73df/netbox_disk-${REALVERSION}.tar.gz"
-SOURCEFILE="netbox_disk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ce/75/33d16b62cea5d9bbf4d100bbfbc0852dbdb53987df6df6dd8255020f73df/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

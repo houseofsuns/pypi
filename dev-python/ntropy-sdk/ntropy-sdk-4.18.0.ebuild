@@ -15,8 +15,8 @@ DESCRIPTION="SDK for the Ntropy API"
 
 HOMEPAGE="https://github.com/ntropy-network/ntropy-sdk"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/94/df/6cf8494a9e178261d5279c7e7674cafb0bfa7d7fef9a60c45c4a99a4f24f/ntropy_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="ntropy_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/94/df/6cf8494a9e178261d5279c7e7674cafb0bfa7d7fef9a60c45c4a99a4f24f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

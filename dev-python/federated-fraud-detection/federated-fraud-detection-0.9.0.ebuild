@@ -15,8 +15,8 @@ DESCRIPTION="WIP: Elliptic curve-based protocol for checking transactions' consi
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e1/7f/a25709d62fc07dd150c0e937dc8405e1e84b005c0fadec43df46ede59e52/federated_fraud_detection-${REALVERSION}.tar.gz"
-SOURCEFILE="federated_fraud_detection-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e1/7f/a25709d62fc07dd150c0e937dc8405e1e84b005c0fadec43df46ede59e52/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

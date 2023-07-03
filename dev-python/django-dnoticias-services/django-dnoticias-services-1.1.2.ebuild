@@ -15,8 +15,8 @@ DESCRIPTION="Dnoticias Services"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/13/81/e44a130c798589d509ccda650d8071cee094f033d18b713ce901c38fcb5f/django_dnoticias_services-${REALVERSION}.tar.gz"
-SOURCEFILE="django_dnoticias_services-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/13/81/e44a130c798589d509ccda650d8071cee094f033d18b713ce901c38fcb5f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

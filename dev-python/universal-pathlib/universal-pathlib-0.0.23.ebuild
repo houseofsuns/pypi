@@ -15,8 +15,8 @@ DESCRIPTION="Pathlib API extended to use fsspec backends"
 
 HOMEPAGE="https://github.com/fsspec/universal_pathlib"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/89/db/8a76b8daab9da19c3c25bd7ca8bc16067b41fe59f44675009f6394f05318/universal_pathlib-${REALVERSION}.tar.gz"
-SOURCEFILE="universal_pathlib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/89/db/8a76b8daab9da19c3c25bd7ca8bc16067b41fe59f44675009f6394f05318/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

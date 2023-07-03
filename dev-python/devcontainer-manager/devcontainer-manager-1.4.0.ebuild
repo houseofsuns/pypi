@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/gnox/devcontainer-manager"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/da/85/431c2064637a0ffba1460d904aa92e835e16199fe6cb84cc6d7b74ceab97/devcontainer_manager-${REALVERSION}.tar.gz"
-SOURCEFILE="devcontainer_manager-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/da/85/431c2064637a0ffba1460d904aa92e835e16199fe6cb84cc6d7b74ceab97/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

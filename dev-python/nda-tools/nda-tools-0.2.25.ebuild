@@ -15,8 +15,8 @@ DESCRIPTION="NIMH Data Archive Python Client"
 
 HOMEPAGE="https://github.com/NDAR/nda-tools/tree/master/NDATools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5d/ed/fbc8a2c4b876183e1370fee210ac08c4c52dc5d21a0feb0a6e23743e3d3e/nda_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="nda_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5d/ed/fbc8a2c4b876183e1370fee210ac08c4c52dc5d21a0feb0a6e23743e3d3e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

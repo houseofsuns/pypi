@@ -15,8 +15,8 @@ DESCRIPTION="TXL plugin for a cell"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/20/53/7dcec2329dd05fa7bb257b6b17a4697029ad52597892ae260acff785f5a0/txl_cell-${REALVERSION}.tar.gz"
-SOURCEFILE="txl_cell-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/20/53/7dcec2329dd05fa7bb257b6b17a4697029ad52597892ae260acff785f5a0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="The React front end for Lino"
 
 HOMEPAGE="https://gitlab.com/lino-framework/react"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/47/98/b8f181536ba0ac182a5ed3bb4cce45fcc180658b940dfac85a092c1d6dae/lino_react-${REALVERSION}.tar.gz"
-SOURCEFILE="lino_react-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/47/98/b8f181536ba0ac182a5ed3bb4cce45fcc180658b940dfac85a092c1d6dae/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

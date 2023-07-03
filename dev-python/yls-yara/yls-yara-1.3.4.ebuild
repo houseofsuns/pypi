@@ -15,8 +15,8 @@ DESCRIPTION="YLS plugin adding linting using yara-python."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a8/71/11e1ab356234bf18169f7f7946970a4f9f96fb19426089ced23f4f6d6618/yls_yara-${REALVERSION}.tar.gz"
-SOURCEFILE="yls_yara-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a8/71/11e1ab356234bf18169f7f7946970a4f9f96fb19426089ced23f4f6d6618/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

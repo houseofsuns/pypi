@@ -15,8 +15,8 @@ DESCRIPTION="Django-based framework for rapid application development."
 
 HOMEPAGE="https://github.com/VizardEdward/blitz_work"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/47/b4/7a9119dfc55e7c0ecbaa6f178955118aa254287c6cd6eb0ac4dba9aae3e1/blitz_work-${REALVERSION}.tar.gz"
-SOURCEFILE="blitz_work-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/47/b4/7a9119dfc55e7c0ecbaa6f178955118aa254287c6cd6eb0ac4dba9aae3e1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

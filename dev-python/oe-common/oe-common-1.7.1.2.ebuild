@@ -15,8 +15,8 @@ DESCRIPTION="OeCommon"
 
 HOMEPAGE="https://github.com/jok4r/oe_common"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6a/a7/427d1cc3a53f136b0d0560b0a9f8996d682c47e2cae4ab39af408161c8af/oe_common-${REALVERSION}.tar.gz"
-SOURCEFILE="oe_common-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6a/a7/427d1cc3a53f136b0d0560b0a9f8996d682c47e2cae4ab39af408161c8af/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

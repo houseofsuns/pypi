@@ -15,8 +15,8 @@ DESCRIPTION="ETOS Test Runner"
 
 HOMEPAGE="https://github.com/eiffel-community/etos-test-runner"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f8/5b/8877f2de2c8efcf039be0ac39072a6d3cc8e8dee4ae3046ff5eb1c7a27b0/etos_test_runner-${REALVERSION}.tar.gz"
-SOURCEFILE="etos_test_runner-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f8/5b/8877f2de2c8efcf039be0ac39072a6d3cc8e8dee4ae3046ff5eb1c7a27b0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

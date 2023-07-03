@@ -15,8 +15,8 @@ DESCRIPTION="Neptune.ai scikit-learn integration library"
 
 HOMEPAGE="https://neptune.ai/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/eb/ce/8cd5c232fa15c62b6d15eee2560e046996c7031a4d433df900b96f3b14e3/neptune_sklearn-${REALVERSION}.tar.gz"
-SOURCEFILE="neptune_sklearn-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/eb/ce/8cd5c232fa15c62b6d15eee2560e046996c7031a4d433df900b96f3b14e3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

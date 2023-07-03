@@ -15,8 +15,8 @@ DESCRIPTION="Toucan data SDK"
 
 HOMEPAGE="https://github.com/ToucanToco/toucan-data-sdk"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/3f/78/5e54b939d2a4f266a740987c9701779d31ef7815ded5d0ecbd44fe95fd5a/toucan_data_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="toucan_data_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3f/78/5e54b939d2a4f266a740987c9701779d31ef7815ded5d0ecbd44fe95fd5a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

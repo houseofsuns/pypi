@@ -15,8 +15,8 @@ DESCRIPTION="Stream JSON and JSON-Lines lazily."
 
 HOMEPAGE="https://github.com/spraakbanken/json-streams-py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/53/6b/012694d911841e1ae5ac5e962a01ea0167d292025b640c4e197170c8de69/json_streams-${REALVERSION}.tar.gz"
-SOURCEFILE="json_streams-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/53/6b/012694d911841e1ae5ac5e962a01ea0167d292025b640c4e197170c8de69/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

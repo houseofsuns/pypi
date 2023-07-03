@@ -15,8 +15,8 @@ DESCRIPTION="SparkFun Electronics qwiic library"
 
 HOMEPAGE="http://www.sparkfun.com/qwiic"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/be/51/1d60263159f9477ac856881dc04608e8af19d7c1c40b31bb099d0a80324e/sparkfun_qwiic-${REALVERSION}.tar.gz"
-SOURCEFILE="sparkfun_qwiic-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/be/51/1d60263159f9477ac856881dc04608e8af19d7c1c40b31bb099d0a80324e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

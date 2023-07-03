@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># lpython_emulationThis is a python package to add typing information to python code.## Example```pythonfrom lpython import i32, f64def add(a: i32, b: i32) -&gt; i32:    return a + bdef area_of_circle(radius: f64) -&gt; f64:    pi: f64 = 3.14    return pi * (radius * radius)def main0():    print(&quot;The sum of 5 and 3 is&quot;, end=&quot; &quot;)    print(add(5, 3))    print(&quot;Area of circle with radius 5.0 is&quot;, end=&quot; &quot;)    print(area_of_circle(5.0))main0()``````bash$ python main.pyThe sum of 5 and 3 is 8Area of circle with radius 5.0 is 78.5```</longdescription>
+</pkgmetadata>

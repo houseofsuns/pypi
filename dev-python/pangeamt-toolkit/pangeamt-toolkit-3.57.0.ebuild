@@ -15,8 +15,8 @@ DESCRIPTION="h1 align=\"center\">"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6b/75/9988133c3365e194fe84ff23cd7b9f3c9a191fc84543f6d9a91d378891f2/pangeamt_toolkit-${REALVERSION}.tar.gz"
-SOURCEFILE="pangeamt_toolkit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6b/75/9988133c3365e194fe84ff23cd7b9f3c9a191fc84543f6d9a91d378891f2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

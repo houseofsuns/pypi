@@ -15,8 +15,8 @@ DESCRIPTION="Native postgres bulk update and upsert operations."
 
 HOMEPAGE="https://github.com/Opus10/django-pgbulk"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/b8/2c/d3a9b7403a877f6e200b1f5f390fd15bf5da04dfa47333b51b053e48e384/django_pgbulk-${REALVERSION}.tar.gz"
-SOURCEFILE="django_pgbulk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b8/2c/d3a9b7403a877f6e200b1f5f390fd15bf5da04dfa47333b51b053e48e384/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

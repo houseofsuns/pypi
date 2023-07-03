@@ -15,8 +15,8 @@ DESCRIPTION="A python package that knows how to do various tricky computations r
 
 HOMEPAGE="https://github.com/AMLab-Amsterdam/lie_learn"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/14/6b/a0660174724902ecff31adf58c766e698a5a0a2a187ca1666432a0be4c90/lie_learn-${REALVERSION}.tar.gz"
-SOURCEFILE="lie_learn-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/14/6b/a0660174724902ecff31adf58c766e698a5a0a2a187ca1666432a0be4c90/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

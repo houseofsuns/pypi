@@ -15,8 +15,8 @@ DESCRIPTION="Runtime validators for attrs"
 
 HOMEPAGE="https://github.com/bloomberg/attrs-strict"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/9a/11/f753d21da36bc7218930d423f10c284530e316058ffbe9e1691651ce7b25/attrs_strict-${REALVERSION}.tar.gz"
-SOURCEFILE="attrs_strict-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9a/11/f753d21da36bc7218930d423f10c284530e316058ffbe9e1691651ce7b25/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Enable users to improve machine learning models in an active learni
 
 HOMEPAGE="https://encord.com/encord-active/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/9b/b1/94d27c4626e71fce2afd812199a72890d005388f1d5070f423ea166804c3/encord_active-${REALVERSION}.tar.gz"
-SOURCEFILE="encord_active-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9b/b1/94d27c4626e71fce2afd812199a72890d005388f1d5070f423ea166804c3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

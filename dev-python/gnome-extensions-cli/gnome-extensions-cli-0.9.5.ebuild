@@ -15,8 +15,8 @@ DESCRIPTION="Command line tool to manage your Gnome Shell extensions"
 
 HOMEPAGE="https://github.com/essembeh/gnome-extensions-cli"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/92/93/aeb9b5374862f2f1b9c8743d53f145f74ed6cb6ef54fa08abbe80d5e6010/gnome_extensions_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="gnome_extensions_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/92/93/aeb9b5374862f2f1b9c8743d53f145f74ed6cb6ef54fa08abbe80d5e6010/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

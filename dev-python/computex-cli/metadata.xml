@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># cxThe ComputeX Python CLI lets you interact with ComputeX REST APIs and push images for your models to the ComputeX container registry.## Installation### Requirements- Python &gt;= 3.8Run `pip install cx`.## Command Line InterfaceAt any time, you can utilize the `--help` flag with any command or subcommand:```shell$ cx --helpUsage: cx [OPTIONS] COMMAND [ARGS]...Options:  --help  Show this message and exit.Commands:  login  ...```### Logging In```shell$ cx login --username {username} --password {password}```### Building an ImageWIP### Pushing an ImageWIP## DevelopmentWIP</longdescription>
+</pkgmetadata>

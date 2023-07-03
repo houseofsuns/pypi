@@ -15,8 +15,8 @@ DESCRIPTION="avro-to-python is a light tool for compiling avro schema files (.av
 
 HOMEPAGE="https://github.com/srserves85/avro-to-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/65/bf/1592b7de3c4573adc1b23a1aa3aa080c5cf6a23ec28143ee6db4694a149b/avro_to_python-${REALVERSION}.tar.gz"
-SOURCEFILE="avro_to_python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/65/bf/1592b7de3c4573adc1b23a1aa3aa080c5cf6a23ec28143ee6db4694a149b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

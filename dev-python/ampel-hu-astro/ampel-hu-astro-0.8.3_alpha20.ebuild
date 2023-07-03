@@ -15,8 +15,8 @@ DESCRIPTION="Astronomy units for the Ampel system from HU-Berlin"
 
 HOMEPAGE="https://ampelproject.github.io"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/b0/cb/4686b5822d5d88994f04870e9ad166be73a7b6d6864fcbb7b5f6fda0b56c/ampel_hu_astro-${REALVERSION}.tar.gz"
-SOURCEFILE="ampel_hu_astro-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b0/cb/4686b5822d5d88994f04870e9ad166be73a7b6d6864fcbb7b5f6fda0b56c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

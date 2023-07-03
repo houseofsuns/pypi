@@ -15,8 +15,8 @@ DESCRIPTION="Core utilities used by RPA Framework"
 
 HOMEPAGE="https://rpaframework.org/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/12/6a/4e45d63c701684a4e1c44ce45ef7a9a0b886309262db7ac2cc361489326c/rpaframework_core-${REALVERSION}.tar.gz"
-SOURCEFILE="rpaframework_core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/12/6a/4e45d63c701684a4e1c44ce45ef7a9a0b886309262db7ac2cc361489326c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

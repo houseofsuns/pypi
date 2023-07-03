@@ -15,8 +15,8 @@ DESCRIPTION="An implementation of the Quine-McCluskey algorithm"
 
 HOMEPAGE="https://github.com/tomas789/quine-mccluskey-tomas789"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/d8/67/8f2bf0c147312691ed5d3bdf0e5043eb96009e549e829ff6d6389b5ed6a5/quine_mccluskey_tomas789-${REALVERSION}.tar.gz"
-SOURCEFILE="quine_mccluskey_tomas789-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d8/67/8f2bf0c147312691ed5d3bdf0e5043eb96009e549e829ff6d6389b5ed6a5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

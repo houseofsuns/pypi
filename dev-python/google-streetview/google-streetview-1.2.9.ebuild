@@ -15,8 +15,8 @@ DESCRIPTION="A command line tool and module for Google Street View Image API."
 
 HOMEPAGE="https://github.com/rrwen/google_streetview"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/04/33/be168a62a973e8dd3f00a83b2481f4c5602bb8339cbe81cf70a437b04ade/google_streetview-${REALVERSION}.tar.gz"
-SOURCEFILE="google_streetview-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/04/33/be168a62a973e8dd3f00a83b2481f4c5602bb8339cbe81cf70a437b04ade/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

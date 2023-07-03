@@ -15,8 +15,8 @@ DESCRIPTION="A glowing 80s theme based on Synthwave '84 and  JupyterLab's Neon N
 
 HOMEPAGE="https://github.com/timkpaine/jupyterlab_miami_nights"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/70/ed/afa2f2af90da92263807e0a522cfa44e90f4cc272fe69dbf6becbe69271f/jupyterlab_miami_nights-${REALVERSION}.tar.gz"
-SOURCEFILE="jupyterlab_miami_nights-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/70/ed/afa2f2af90da92263807e0a522cfa44e90f4cc272fe69dbf6becbe69271f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

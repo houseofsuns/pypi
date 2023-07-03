@@ -15,8 +15,8 @@ DESCRIPTION="data client of class card server"
 
 HOMEPAGE="http://gitlab.h3c.com/edtech/openconnection"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3a/1a/414345cf003574cc233a7aedba1de583101e655f0de3a7507a10f3c3e3e0/classcard_dataclient-${REALVERSION}.tar.gz"
-SOURCEFILE="classcard_dataclient-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3a/1a/414345cf003574cc233a7aedba1de583101e655f0de3a7507a10f3c3e3e0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

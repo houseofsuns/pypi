@@ -15,8 +15,8 @@ DESCRIPTION="A Python SDK for OBS Studio WebSocket v5.0"
 
 HOMEPAGE="https://github.com/aatikturk/obsws-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/23/f1/8282f18b05b2673cbf85fa22e593e4d6ce026e227eb9a0dd484bd55894df/obsws_python-${REALVERSION}.tar.gz"
-SOURCEFILE="obsws_python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/23/f1/8282f18b05b2673cbf85fa22e593e4d6ce026e227eb9a0dd484bd55894df/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

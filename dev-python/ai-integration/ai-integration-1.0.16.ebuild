@@ -15,8 +15,8 @@ DESCRIPTION="AI Model Integration for python"
 
 HOMEPAGE="https://github.com/deepai-org/ai_integration"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/2e/a0/1a4f1a7bee6838afae38528b11e8ab8039b9355e6f01e580d501adc69045/ai_integration-${REALVERSION}.tar.gz"
-SOURCEFILE="ai_integration-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2e/a0/1a4f1a7bee6838afae38528b11e8ab8039b9355e6f01e580d501adc69045/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

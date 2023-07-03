@@ -15,8 +15,8 @@ DESCRIPTION="Python lib for DE"
 
 HOMEPAGE="https://github.com/oncase/pyscora-wrangler"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b3/fb/30e5315088c757513ae5d16573b22990f9a7189a36ea8538564b4f065734/pyscora_wrangler-${REALVERSION}.tar.gz"
-SOURCEFILE="pyscora_wrangler-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b3/fb/30e5315088c757513ae5d16573b22990f9a7189a36ea8538564b4f065734/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

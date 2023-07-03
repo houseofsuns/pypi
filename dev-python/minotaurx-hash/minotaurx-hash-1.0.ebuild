@@ -15,8 +15,8 @@ DESCRIPTION="Bindings for proof of work used by MinotaurX"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/82/20/1f3e68084b289ecd35938d946a99eda1ec358017a901ce6de29c112b5d71/minotaurx_hash-${REALVERSION}.tar.gz"
-SOURCEFILE="minotaurx_hash-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/82/20/1f3e68084b289ecd35938d946a99eda1ec358017a901ce6de29c112b5d71/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

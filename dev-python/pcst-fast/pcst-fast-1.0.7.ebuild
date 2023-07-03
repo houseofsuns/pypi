@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/fraenkel-lab/pcst_fast"
 LICENSE="GNU General Public License"
-SRC_URI="https://files.pythonhosted.org/packages/e0/79/dce8011fbd714ea94908205901a74e76eac5eb963a9f44f61338aa111a62/pcst_fast-${REALVERSION}.tar.gz"
-SOURCEFILE="pcst_fast-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e0/79/dce8011fbd714ea94908205901a74e76eac5eb963a9f44f61338aa111a62/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

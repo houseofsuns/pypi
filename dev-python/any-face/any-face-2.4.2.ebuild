@@ -15,8 +15,8 @@ DESCRIPTION="Anonymize human faces with Multi-Cascaded CNN"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/18/b6/0aa002b8493ea9837c875f1c0439974e16fe0f10ead09fca627f783e6cc6/any_face-${REALVERSION}.tar.gz"
-SOURCEFILE="any_face-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/18/b6/0aa002b8493ea9837c875f1c0439974e16fe0f10ead09fca627f783e6cc6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

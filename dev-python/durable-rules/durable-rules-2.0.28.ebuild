@@ -15,8 +15,8 @@ DESCRIPTION="for real time analytics (a Python Rules Engine)"
 
 HOMEPAGE="https://github.com/jruizgit/rules"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/91/f2/3194b4eaf7260bae0a4f046dfdda5db2ed9d58b3d7a051e375b3c14d8f26/durable_rules-${REALVERSION}.tar.gz"
-SOURCEFILE="durable_rules-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/91/f2/3194b4eaf7260bae0a4f046dfdda5db2ed9d58b3d7a051e375b3c14d8f26/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

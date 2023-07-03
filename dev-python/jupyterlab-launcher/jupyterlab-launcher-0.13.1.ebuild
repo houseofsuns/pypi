@@ -15,8 +15,8 @@ DESCRIPTION="Jupyter Launcher"
 
 HOMEPAGE="http://jupyter.org"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/b0/30/96dd5c4caaacbc0c41754cb72547717ac8de67bb48a393b5d8b74080fbd9/jupyterlab_launcher-${REALVERSION}.tar.gz"
-SOURCEFILE="jupyterlab_launcher-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b0/30/96dd5c4caaacbc0c41754cb72547717ac8de67bb48a393b5d8b74080fbd9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="修仙插件"
 
 HOMEPAGE="https://github.com/QingMuCat/nonebot_plugin_xiuxian_2"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d4/52/083ac9907cc30f227d49c173cec08d8fcdcf6a0a805566ba98992c5a0141/nonebot_plugin_xiuxian_2-${REALVERSION}.tar.gz"
-SOURCEFILE="nonebot_plugin_xiuxian_2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d4/52/083ac9907cc30f227d49c173cec08d8fcdcf6a0a805566ba98992c5a0141/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

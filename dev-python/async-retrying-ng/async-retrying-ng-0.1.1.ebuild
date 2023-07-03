@@ -15,8 +15,8 @@ DESCRIPTION="Next Gen. simple retrying for asyncio."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/00/ee/14323082aa70c2181ec789d161ed859c004fd7a67d51c81b4898b9f29659/async_retrying_ng-${REALVERSION}.tar.gz"
-SOURCEFILE="async_retrying_ng-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/00/ee/14323082aa70c2181ec789d161ed859c004fd7a67d51c81b4898b9f29659/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

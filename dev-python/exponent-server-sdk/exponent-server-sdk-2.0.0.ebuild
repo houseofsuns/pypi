@@ -15,8 +15,8 @@ DESCRIPTION="Expo Server SDK for Python"
 
 HOMEPAGE="https://github.com/expo/exponent-server-sdk-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/95/5a/263a29f6fdf0fc4c91bfe7bfa6ea6b124a279df4614a30005f59e9eeb5d6/exponent_server_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="exponent_server_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/95/5a/263a29f6fdf0fc4c91bfe7bfa6ea6b124a279df4614a30005f59e9eeb5d6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

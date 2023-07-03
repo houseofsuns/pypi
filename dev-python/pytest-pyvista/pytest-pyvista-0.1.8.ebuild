@@ -15,8 +15,8 @@ DESCRIPTION="Pytest-pyvista package"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0b/30/3e0547a9d33c6494bddb7a97a3b50c1e9483cb3f83b5cae030c1ec813c6c/pytest_pyvista-${REALVERSION}.tar.gz"
-SOURCEFILE="pytest_pyvista-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0b/30/3e0547a9d33c6494bddb7a97a3b50c1e9483cb3f83b5cae030c1ec813c6c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

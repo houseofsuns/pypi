@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/TechSpaceAsia/elm-framework-helpers"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/42/bb/783389e6fc4ce79d724729e7904d429284388155832692ccd508a275cb22/elm_framework_helpers-${REALVERSION}.tar.gz"
-SOURCEFILE="elm_framework_helpers-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/42/bb/783389e6fc4ce79d724729e7904d429284388155832692ccd508a275cb22/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

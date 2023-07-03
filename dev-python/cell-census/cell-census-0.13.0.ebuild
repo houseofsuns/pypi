@@ -15,8 +15,8 @@ DESCRIPTION="cell-census is now cellxgene-census"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b9/be/7feb6da7d893cfb73baab97891fe730acb858f7d2e5803cf5bd9544828e2/cell_census-${REALVERSION}.tar.gz"
-SOURCEFILE="cell_census-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b9/be/7feb6da7d893cfb73baab97891fe730acb858f7d2e5803cf5bd9544828e2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

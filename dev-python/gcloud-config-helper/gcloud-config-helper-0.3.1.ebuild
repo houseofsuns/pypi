@@ -15,8 +15,8 @@ DESCRIPTION="obtain Google GCloud configuration credentials"
 
 HOMEPAGE="https://github.com/binxio/python-gcloud-config-helper"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/77/fc/c39b5e2410f59d5c989b54522e4e3cd3d89c07b82b8452a331a46c4feb8e/gcloud_config_helper-${REALVERSION}.tar.gz"
-SOURCEFILE="gcloud_config_helper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/77/fc/c39b5e2410f59d5c989b54522e4e3cd3d89c07b82b8452a331a46c4feb8e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

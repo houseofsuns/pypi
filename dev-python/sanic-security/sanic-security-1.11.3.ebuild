@@ -15,8 +15,8 @@ DESCRIPTION="An effective, simple, and async security library for the Sanic fram
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/94/0f/700bd07e2512f1ec0f72e20b2b625b8f9e3e95dddb6742881fe14bf9396a/sanic_security-${REALVERSION}.tar.gz"
-SOURCEFILE="sanic_security-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/94/0f/700bd07e2512f1ec0f72e20b2b625b8f9e3e95dddb6742881fe14bf9396a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

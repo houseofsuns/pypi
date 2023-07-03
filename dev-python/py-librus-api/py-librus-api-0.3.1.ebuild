@@ -15,8 +15,8 @@ DESCRIPTION="A librus api made in python."
 
 HOMEPAGE="https://github.com/TheAmazingRak/py-librus-api"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/09/66/1f32cfdc508cddc74cf79461ff5c74c25a518943043212869984ba9d31e9/py_librus_api-${REALVERSION}.tar.gz"
-SOURCEFILE="py_librus_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/09/66/1f32cfdc508cddc74cf79461ff5c74c25a518943043212869984ba9d31e9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

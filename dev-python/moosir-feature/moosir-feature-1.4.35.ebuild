@@ -15,8 +15,8 @@ DESCRIPTION="Add a short description here!"
 
 HOMEPAGE="https://github.com/pyscaffold/pyscaffold/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/61/2e/8447dd477f3b0dd129d3fb94efde2d851e371aba5183008365607d41bc24/moosir_feature-${REALVERSION}.tar.gz"
-SOURCEFILE="moosir_feature-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/61/2e/8447dd477f3b0dd129d3fb94efde2d851e371aba5183008365607d41bc24/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

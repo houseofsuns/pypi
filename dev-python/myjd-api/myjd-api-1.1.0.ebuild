@@ -15,8 +15,8 @@ DESCRIPTION="A simple json interface for the MyJDownloader API to be used with O
 
 HOMEPAGE="https://github.com/rix1337/MyJD-API"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8f/68/1d86661121c87e453a17c0834ad5e9e9c3ebe61cd4b74e705f8d954cfe72/myjd_api-${REALVERSION}.tar.gz"
-SOURCEFILE="myjd_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8f/68/1d86661121c87e453a17c0834ad5e9e9c3ebe61cd4b74e705f8d954cfe72/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

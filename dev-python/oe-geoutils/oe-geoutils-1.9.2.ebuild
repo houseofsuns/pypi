@@ -15,8 +15,8 @@ DESCRIPTION="Utility Library"
 
 HOMEPAGE="https://github.com/OnroerendErfgoed/oe_geoutils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/31/8c/941d2c1560bdc8b03f974b1aea8f0fbcf757f9439665c0ff58143867ccde/oe_geoutils-${REALVERSION}.tar.gz"
-SOURCEFILE="oe_geoutils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/31/8c/941d2c1560bdc8b03f974b1aea8f0fbcf757f9439665c0ff58143867ccde/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

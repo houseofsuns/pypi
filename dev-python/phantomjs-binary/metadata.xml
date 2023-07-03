@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># phantomjs-bin-pipA pip package for installing binary file of phantomjs## Usage```pythonfrom selenium import webdriverfrom phantomjs_bin import executable_pathdriver = webdriver.PhantomJS(executable_path=executable_path)```</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="Sphinx eager \".. only::\" directive and other selective rendition 
 
 HOMEPAGE="https://github.com/pfalcon/sphinx_selective_exclude"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c2/07/4d6cb9dbe1b06be5caa21eed9813ac1e5ca5b29f3728be1d5e52f1cd7267/sphinx_selective_exclude-${REALVERSION}.tar.gz"
-SOURCEFILE="sphinx_selective_exclude-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c2/07/4d6cb9dbe1b06be5caa21eed9813ac1e5ca5b29f3728be1d5e52f1cd7267/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

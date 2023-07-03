@@ -15,8 +15,8 @@ DESCRIPTION="Create a qlr file definition"
 
 HOMEPAGE="https://github.com/valluzzi/module_qlr.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/47/4d/64ae6e47c04e4480e3c36db444fce081de700d98943044711e5a2c9fac72/module_qlr-${REALVERSION}.tar.gz"
-SOURCEFILE="module_qlr-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/47/4d/64ae6e47c04e4480e3c36db444fce081de700d98943044711e5a2c9fac72/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

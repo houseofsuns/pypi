@@ -15,8 +15,8 @@ DESCRIPTION="SFR Box API"
 
 HOMEPAGE="https://github.com/hacf-fr/sfrbox-api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/82/0f/59cb724a18833d518fd62bb7b125fd08cd83c2de9d984ffa394214aa84f3/sfrbox_api-${REALVERSION}.tar.gz"
-SOURCEFILE="sfrbox_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/82/0f/59cb724a18833d518fd62bb7b125fd08cd83c2de9d984ffa394214aa84f3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

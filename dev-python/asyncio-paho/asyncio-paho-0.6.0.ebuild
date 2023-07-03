@@ -15,8 +15,8 @@ DESCRIPTION="A Paho MQTT client supporting asyncio loop without additional setup
 
 HOMEPAGE="https://github.com/toreamun/asyncio-paho"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/68/15/6ef5c2395603a322ae76282a06ea59501f83a3c949918b35a9c09948ac0e/asyncio_paho-${REALVERSION}.tar.gz"
-SOURCEFILE="asyncio_paho-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/68/15/6ef5c2395603a322ae76282a06ea59501f83a3c949918b35a9c09948ac0e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Python interface for libheif library"
 
 HOMEPAGE="https://github.com/bigcat88/pillow_heif"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/31/6e/249691b646ad19b55ceb9da06bf0b828ac2f97b8966d658acbf10a7bde72/pillow_heif-${REALVERSION}.tar.gz"
-SOURCEFILE="pillow_heif-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/31/6e/249691b646ad19b55ceb9da06bf0b828ac2f97b8966d658acbf10a7bde72/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

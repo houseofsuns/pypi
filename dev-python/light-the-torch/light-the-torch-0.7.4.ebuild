@@ -15,8 +15,8 @@ DESCRIPTION="Install PyTorch distributions with computation backend auto-detecti
 
 HOMEPAGE=""
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/95/d8/5a11b4689c28fabf1028c945d542e5468255b606f3ab8d824b29285e29a0/light_the_torch-${REALVERSION}.tar.gz"
-SOURCEFILE="light_the_torch-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/95/d8/5a11b4689c28fabf1028c945d542e5468255b606f3ab8d824b29285e29a0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

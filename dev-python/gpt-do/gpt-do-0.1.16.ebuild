@@ -15,8 +15,8 @@ DESCRIPTION="GPT-powered bash commands."
 
 HOMEPAGE="https://github.com/yasyf/gpt-do"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f7/db/4ad300d9d405017d7eab313ac18a563d52a84dd59d9c075e63d4cee8eff0/gpt_do-${REALVERSION}.tar.gz"
-SOURCEFILE="gpt_do-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f7/db/4ad300d9d405017d7eab313ac18a563d52a84dd59d9c075e63d4cee8eff0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="ASTC decoder for PIL"
 
 HOMEPAGE="https://github.com/K0lb3/astc_decomp/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c0/18/949c8fc2346cab088154fcc144cc94695972df2067229a2f3f59b1e15e78/astc_decomp-${REALVERSION}.tar.gz"
-SOURCEFILE="astc_decomp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c0/18/949c8fc2346cab088154fcc144cc94695972df2067229a2f3f59b1e15e78/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

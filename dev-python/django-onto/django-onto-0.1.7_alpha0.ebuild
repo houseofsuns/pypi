@@ -15,8 +15,8 @@ DESCRIPTION="Onto (as in 'ontology') is a lightweight extension to Django center
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bd/c4/73b2355acac61f007be01bb8268c5aba452f1cf50d2b3ebb1737e07d1237/django_onto-${REALVERSION}.tar.gz"
-SOURCEFILE="django_onto-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bd/c4/73b2355acac61f007be01bb8268c5aba452f1cf50d2b3ebb1737e07d1237/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

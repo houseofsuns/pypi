@@ -15,8 +15,8 @@ DESCRIPTION="Static type checking of pandas DataFrames"
 
 HOMEPAGE="https://github.com/nanne-aben/strictly_typed_pandas"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/47/a2/4b6ecf78da6f9d56cf005c56a2de9edd7eb625edbb4257d2411de7223518/strictly_typed_pandas-${REALVERSION}.tar.gz"
-SOURCEFILE="strictly_typed_pandas-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/47/a2/4b6ecf78da6f9d56cf005c56a2de9edd7eb625edbb4257d2411de7223518/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

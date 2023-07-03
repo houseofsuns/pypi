@@ -15,8 +15,8 @@ DESCRIPTION="Human readable IDs, in Python"
 
 HOMEPAGE="https://github.com/orf/human_id"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4a/59/ef55a878f44a339b401b3d4c4d83b145f99e200abeddf61359a24dd3c40d/human_id-${REALVERSION}.tar.gz"
-SOURCEFILE="human_id-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4a/59/ef55a878f44a339b401b3d4c4d83b145f99e200abeddf61359a24dd3c40d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

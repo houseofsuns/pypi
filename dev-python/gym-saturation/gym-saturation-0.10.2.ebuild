@@ -15,8 +15,8 @@ DESCRIPTION="Gymnasium environments for saturation provers"
 
 HOMEPAGE="https://github.com/inpefess/gym-saturation"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/de/55/3bfb6665e7becf52b6797de1d3a70981962cdfd6a6bfe8d08a279274d486/gym_saturation-${REALVERSION}.tar.gz"
-SOURCEFILE="gym_saturation-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/de/55/3bfb6665e7becf52b6797de1d3a70981962cdfd6a6bfe8d08a279274d486/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

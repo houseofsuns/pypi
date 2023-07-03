@@ -15,8 +15,8 @@ DESCRIPTION="Python bindings for the Rust regex crate"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d1/f0/e08207e2e695b1f6f4b71c18915242a6ca6eeca35527e4782b9015f95175/rust_regex-0.1.0_alpha1.tar.gz"
-SOURCEFILE="rust_regex-0.1.0_alpha1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d1/f0/e08207e2e695b1f6f4b71c18915242a6ca6eeca35527e4782b9015f95175/${REALNAME//-/_}-0.1.0_alpha1.tar.gz"
+SOURCEFILE="_}-0.1.0_alpha1.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A library to apply some data augmentations in semantic segmentation
 
 HOMEPAGE="https://github.com/ruescog/semantic_segmentation_augmentations"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/03/28/a9e3a3fb4012144632508db29250c2fdb7fdbd49d63fe82de44f19eb8daf/semantic_segmentation_augmentations-${REALVERSION}.tar.gz"
-SOURCEFILE="semantic_segmentation_augmentations-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/03/28/a9e3a3fb4012144632508db29250c2fdb7fdbd49d63fe82de44f19eb8daf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

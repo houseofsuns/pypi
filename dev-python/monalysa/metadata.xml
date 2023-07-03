@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># &lt;span style=&quot;color:#555&quot;&gt;&lt;span style=&quot;color:#A62B17&quot;&gt;**Mo**&lt;/span&gt;vement  A&lt;span style=&quot;color:#A62B17&quot;&gt;**nalys**&lt;/span&gt;is Libr&lt;span style=&quot;color:#A62B17&quot;&gt;**a**&lt;/span&gt;ry (Monalysa)&lt;/span&gt;Monalysa, _aka_ &lt;u&gt;**Mo**&lt;/u&gt;ovement a&lt;u&gt;**nalys**&lt;/u&gt;is libr&lt;u&gt;**a**&lt;/u&gt;y, is a unified python library for the quantitative analysis of sensorimotor behavior. Monalysa provides a set of data structures, functions, and classes for representing, analyzing, and visualizing movement-related data from different technologies (motion capture, inertial measurement units, robots, force/torque sensors, force plates, etc.).## Purpose of the libraryIn the spirit of open science, the monalysa library provides open-source code for a set of commonly used methods, measures, and tools for analyzing movement data. Such a library can be a step towards the standardization of procedures used for movement analysis.## Who is this library for?This library is aimed at students, researchers, clinicians and industry professionals working with movement data.</longdescription>
+</pkgmetadata>

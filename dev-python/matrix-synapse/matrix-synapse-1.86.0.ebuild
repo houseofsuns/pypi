@@ -15,8 +15,8 @@ DESCRIPTION="Homeserver for the Matrix decentralised comms protocol"
 
 HOMEPAGE="https://github.com/matrix-org/synapse"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/09/5c/ca862e193f45c889dbf8a86240feae10ccb42ffa60054e0a7ffee36db65a/matrix_synapse-${REALVERSION}.tar.gz"
-SOURCEFILE="matrix_synapse-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/09/5c/ca862e193f45c889dbf8a86240feae10ccb42ffa60054e0a7ffee36db65a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

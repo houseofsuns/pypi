@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>COPR is lightweight build system. It allows you to create new projectin WebUI, and submit new builds and COPR will create yum repository from latest builds.This package contains python code used by other Copr packages. Mostlyuseful for developers only.</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="Extend a FastAPI OpenAPI spec to include all possible HTTPException
 
 HOMEPAGE="https://github.com/Saran33/fastapi-docx"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/61/01/57dca32d6c7a5fbefd2f04d0797f29b9248ee3742d39fe5fc44e9d74e8f5/fastapi_docx-${REALVERSION}.tar.gz"
-SOURCEFILE="fastapi_docx-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/61/01/57dca32d6c7a5fbefd2f04d0797f29b9248ee3742d39fe5fc44e9d74e8f5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

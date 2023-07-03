@@ -15,8 +15,8 @@ DESCRIPTION="Two view classes to handle API endpoints"
 
 HOMEPAGE="https://github.com/TiphaineLAURENT/Django_APIView"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/93/39/3c818fc7048a65b3f56665d11e739fc04c270b0bd81fe57b256b2288783c/django_modelapiview-${REALVERSION}.tar.gz"
-SOURCEFILE="django_modelapiview-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/93/39/3c818fc7048a65b3f56665d11e739fc04c270b0bd81fe57b256b2288783c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

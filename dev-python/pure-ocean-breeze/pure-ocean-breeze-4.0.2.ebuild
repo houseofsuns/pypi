@@ -15,8 +15,8 @@ DESCRIPTION="stock factor test"
 
 HOMEPAGE="https://github.com/chen-001/pure_ocean_breeze.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/08/a3/244ecb0600db68ffe4aacfc2c7f4dea04802fe20f50c210df1215bf0f784/pure_ocean_breeze-${REALVERSION}.tar.gz"
-SOURCEFILE="pure_ocean_breeze-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/08/a3/244ecb0600db68ffe4aacfc2c7f4dea04802fe20f50c210df1215bf0f784/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

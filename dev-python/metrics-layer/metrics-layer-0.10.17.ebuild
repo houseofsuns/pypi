@@ -15,8 +15,8 @@ DESCRIPTION="The open source metrics layer."
 
 HOMEPAGE="https://github.com/Zenlytic/metrics_layer"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/52/8b/fb231b867c088244acaed434718f4ba092e4653505dfb90fcf2b725e01e9/metrics_layer-${REALVERSION}.tar.gz"
-SOURCEFILE="metrics_layer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/52/8b/fb231b867c088244acaed434718f4ba092e4653505dfb90fcf2b725e01e9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

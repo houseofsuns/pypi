@@ -15,8 +15,8 @@ DESCRIPTION="Flask Simple Login - Login Extension for Flask"
 
 HOMEPAGE="https://github.com/flask-extensions/Flask-SimpleLogin"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e3/9b/942c42c1122e502e0bea52ac96230591df3bf58369de11ad3ad2e0c448d3/flask_simplelogin-${REALVERSION}.tar.gz"
-SOURCEFILE="flask_simplelogin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e3/9b/942c42c1122e502e0bea52ac96230591df3bf58369de11ad3ad2e0c448d3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

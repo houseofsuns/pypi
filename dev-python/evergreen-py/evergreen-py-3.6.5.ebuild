@@ -15,8 +15,8 @@ DESCRIPTION="Python client for the Evergreen API"
 
 HOMEPAGE="https://github.com/evergreen-ci/evergreen.py"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ae/2c/f9a39fa28324816a99734ae8936cd75bd6820d7a76c6f6e773d6ab0552d9/evergreen_py-${REALVERSION}.tar.gz"
-SOURCEFILE="evergreen_py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ae/2c/f9a39fa28324816a99734ae8936cd75bd6820d7a76c6f6e773d6ab0552d9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

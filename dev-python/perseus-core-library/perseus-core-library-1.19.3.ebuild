@@ -15,8 +15,8 @@ DESCRIPTION="Perseus Core Python library"
 
 HOMEPAGE="https://github.com/majormode/perseus-core-python-library"
 LICENSE="SEE LICENSE IN <LICENSE.md>"
-SRC_URI="https://files.pythonhosted.org/packages/89/da/c6a8a5bd7c16c441e97ae71c13f41e5e0b4d2b1390ea5a7ac205bbccd51a/perseus_core_library-${REALVERSION}.tar.gz"
-SOURCEFILE="perseus_core_library-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/89/da/c6a8a5bd7c16c441e97ae71c13f41e5e0b4d2b1390ea5a7ac205bbccd51a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

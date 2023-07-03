@@ -15,8 +15,8 @@ DESCRIPTION="PyAMS management interface package"
 
 HOMEPAGE="https://pyams.readthedocs.io"
 LICENSE="ZPL"
-SRC_URI="https://files.pythonhosted.org/packages/f3/e4/7c5464cde189d1d084a6bbbbe60be6182b705fbfb427c2a4517f662c54c8/pyams_zmi-${REALVERSION}.tar.gz"
-SOURCEFILE="pyams_zmi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f3/e4/7c5464cde189d1d084a6bbbbe60be6182b705fbfb427c2a4517f662c54c8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

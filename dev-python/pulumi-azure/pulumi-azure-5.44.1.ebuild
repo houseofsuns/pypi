@@ -15,8 +15,8 @@ DESCRIPTION="A Pulumi package for creating and managing Microsoft Azure cloud re
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b1/e2/a1f0143e778cdb519eb2587e982090e7b5b0f6e4e727c844e8ad6d4cd15f/pulumi_azure-${REALVERSION}.tar.gz"
-SOURCEFILE="pulumi_azure-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b1/e2/a1f0143e778cdb519eb2587e982090e7b5b0f6e4e727c844e8ad6d4cd15f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Flowchain - Method Chaining for TensorFlowExtensive and simple tensor method chaining for TensorFlowThis package requires Python &gt;= 3.7 and uses some Python magics for extensive injection. Therefore, there could be some unexpected behaviour among method chaining. If you have experienced such behaviours, please feel free to open new issue in this repo!Currently, I am still finding a way to support code completion for IDEs like PyCharm, Visual Studio Code, etc.Install via:```pip install flowchain```Add only 2 lines of code at the top of your code!```pythonfrom flowchain import enable_tensor_chainingenable_tensor_chaining()  # this does everything for you.```This package makes following approach possible:```python# beforex = tf.abs(lhs - rhs)x = tf.reduce_sum(x, 1)x = tf.argmin(x, output_type=tf.int32)# afterx = (lhs - rhs).abs().reduce_sum(1).argmin(output_type=tf.int32)```</longdescription>
+</pkgmetadata>

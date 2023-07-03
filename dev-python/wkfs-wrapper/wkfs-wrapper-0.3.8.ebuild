@@ -15,8 +15,8 @@ DESCRIPTION="WKFS wrapper to generate documents from WKFS system"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9a/e0/06b9546de71a196ce4d69aec33edc5b93a6b105335e6931b80e7521f1869/wkfs_wrapper-${REALVERSION}.tar.gz"
-SOURCEFILE="wkfs_wrapper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9a/e0/06b9546de71a196ce4d69aec33edc5b93a6b105335e6931b80e7521f1869/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

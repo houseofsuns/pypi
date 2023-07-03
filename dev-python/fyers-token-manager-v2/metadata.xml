@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>```config = {  &quot;username&quot;: &quot;&lt;USERNAME&gt;&quot;,  &quot;totp_key&quot;: &quot;&lt;TOTP_KEY&gt;&quot;,  &quot;pin&quot;: &quot;&lt;PIN&gt;&quot;,  &quot;client_id&quot;: &quot;&lt;CLIENT_ID&gt;&quot;,  &quot;secret_key&quot;: &quot;&lt;SECRET_KEY&gt;&quot;,  &quot;redirect_uri&quot;: &lt;REDIRECT_URL&gt;}```## Install```pip install fyers-token-manager-v2```## Fyers Token Generator```from fyers_api import accessToken, fyersModelfrom fyers_api.Websocket import wsfrom fyers_token_manager_v2 import FyersTokenManager```#### Initialization```fyersTokenManager = FyersTokenManager(config, accessToken, fyersModel, ws)print(fyersTokenManager.http_access_token)print(fyersTokenManager.ws_access_token)```#### HTTP Client- fyersTokenManager.http_client.get_profile()#### WebSocket Client- fyersTokenManager.ws_client.subscribe(payload)</longdescription>
+</pkgmetadata>

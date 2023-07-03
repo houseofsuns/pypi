@@ -15,8 +15,8 @@ DESCRIPTION="Merlin utils"
 
 HOMEPAGE="https://http//github.com/merlinapp/merlin_python_utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7a/2e/653b741f87cc74204d5ebe2f2c4394177b18b5e6a9f8fdf838862ec08eac/merlin_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="merlin_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7a/2e/653b741f87cc74204d5ebe2f2c4394177b18b5e6a9f8fdf838862ec08eac/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

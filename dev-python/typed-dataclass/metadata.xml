@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Typed DataclassTyped Dataclass is a Python library providing a decorator for dataclasses that enables runtime type checking.## InstallationUse the package manager [pip](https://pip.pypa.io/en/stable/) to install typed-dataclass.&gt; pip install typed-dataclass## UsageThis library should be used in conjunction with the `@dataclas` decorator and should be placedbelow `@dataclass`. On object initialization it checks types by using[typeguard](https://github.com/agronholm/typeguard) package. Internally this works by modifying the `__post__init__` method of the dataclass.```pythonfrom dataclasses import dataclassfrom typed_dataclass import typed_dataclass@dataclass@typed_dataclassclass MyClass:    my_field: intMyClass(12)   # will succeedMyClass (&quot;a&quot;) # will fail```### Pre ValidationYou can also implement logic that is happening before Type checks defining `__before_type_check__` function:```pythonfrom dataclasses import dataclassfrom typed_dataclass import typed_dataclass@dataclass@typed_dataclassclass MyClass:    my_int: int        def __before_type_check__(self):        self.my_int = int(self.my_int)```## Testing&gt; python -m unittest discover tests## ContributingPull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.Please make sure to update tests as appropriate.## License[MIT](https://choosealicense.com/licenses/mit/)</longdescription>
+</pkgmetadata>

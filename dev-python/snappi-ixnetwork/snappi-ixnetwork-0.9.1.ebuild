@@ -15,8 +15,8 @@ DESCRIPTION="The Snappi IxNetwork Open Traffic Generator Python Package"
 
 HOMEPAGE="https://github.com/open-traffic-generator/snappi-ixnetwork"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f2/c4/75c1e4f2c81a0e93b13ed3e96a758615b645ee1c7e70dff382173e5a7e4a/snappi_ixnetwork-${REALVERSION}.tar.gz"
-SOURCEFILE="snappi_ixnetwork-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f2/c4/75c1e4f2c81a0e93b13ed3e96a758615b645ee1c7e70dff382173e5a7e4a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

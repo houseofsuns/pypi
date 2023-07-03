@@ -15,8 +15,8 @@ DESCRIPTION="Testing for models confirming to the scikit-learn api"
 
 HOMEPAGE="https://github.com/EricSchles/drifter_ml"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/08/36/335e44943f5f2056cf8dbb698efaf056bdccdf46b0fa005035e29e7c9611/drifter_ml-${REALVERSION}.tar.gz"
-SOURCEFILE="drifter_ml-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/08/36/335e44943f5f2056cf8dbb698efaf056bdccdf46b0fa005035e29e7c9611/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

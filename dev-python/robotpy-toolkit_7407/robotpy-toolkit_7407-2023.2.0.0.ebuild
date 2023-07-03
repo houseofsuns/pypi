@@ -15,8 +15,8 @@ DESCRIPTION="FRC Wired Boars Team 7407's Toolkit for usage with RobotPy"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/db/69/6d0e61459ef67c206718a708bab5b3542892788d6a62510b4d1a69e435e3/robotpy_toolkit_7407-${REALVERSION}.tar.gz"
-SOURCEFILE="robotpy_toolkit_7407-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/db/69/6d0e61459ef67c206718a708bab5b3542892788d6a62510b4d1a69e435e3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

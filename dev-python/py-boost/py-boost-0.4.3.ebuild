@@ -15,8 +15,8 @@ DESCRIPTION="Python based GBDT"
 
 HOMEPAGE="https://github.com/AILab-MLTools/Py-Boost"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bb/e2/259f931f53bcc2dac5960307b7a31c3f1aca8640aa4e33ca538119119f0e/py_boost-${REALVERSION}.tar.gz"
-SOURCEFILE="py_boost-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bb/e2/259f931f53bcc2dac5960307b7a31c3f1aca8640aa4e33ca538119119f0e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

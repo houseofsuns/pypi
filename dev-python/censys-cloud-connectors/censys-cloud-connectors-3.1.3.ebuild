@@ -15,8 +15,8 @@ DESCRIPTION="The Censys Unified Cloud Connector is a standalone connector that g
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/85/bc/a5adf23712b69899276048a351d990f0b511c73b0eb72be5590ded64c2cf/censys_cloud_connectors-${REALVERSION}.tar.gz"
-SOURCEFILE="censys_cloud_connectors-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/85/bc/a5adf23712b69899276048a351d990f0b511c73b0eb72be5590ded64c2cf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

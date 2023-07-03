@@ -15,8 +15,8 @@ DESCRIPTION="Python client for Gatey (https://gatey.florgon.com)"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/53/ba/90f9c4a311617b4abdd614c51707b2428e9a6006246a35e532a07c25af1b/gatey_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="gatey_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/53/ba/90f9c4a311617b4abdd614c51707b2428e9a6006246a35e532a07c25af1b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="An async GeoJSON client library for GeoNet NZ Volcanic Alert Level 
 
 HOMEPAGE="https://github.com/exxamalte/python-aio-geojson-geonetnz-volcano"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/9b/b1/d4001c20b07d4ffe080c767a2e79053f314d9de2b032f16da1bfcf60d9ea/aio_geojson_geonetnz_volcano-${REALVERSION}.tar.gz"
-SOURCEFILE="aio_geojson_geonetnz_volcano-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9b/b1/d4001c20b07d4ffe080c767a2e79053f314d9de2b032f16da1bfcf60d9ea/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

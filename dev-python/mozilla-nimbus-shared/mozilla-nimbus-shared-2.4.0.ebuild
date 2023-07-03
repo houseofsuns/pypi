@@ -15,8 +15,8 @@ DESCRIPTION="Shared data and schemas for Project Nimbus"
 
 HOMEPAGE=""
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/33/a7/1c349a365548d504926b47c57fa0ed9335df8a8e72c28aba300946624e8e/mozilla_nimbus_shared-${REALVERSION}.tar.gz"
-SOURCEFILE="mozilla_nimbus_shared-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/33/a7/1c349a365548d504926b47c57fa0ed9335df8a8e72c28aba300946624e8e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

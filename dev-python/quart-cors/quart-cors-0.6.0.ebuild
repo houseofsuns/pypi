@@ -15,8 +15,8 @@ DESCRIPTION="A Quart extension to provide Cross Origin Resource Sharing, access 
 
 HOMEPAGE="https://github.com/pgjones/quart-cors/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/06/bd/7e413c380484264f04ea390de82f5d78871010b445c2b08567682b9ce076/quart_cors-${REALVERSION}.tar.gz"
-SOURCEFILE="quart_cors-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/06/bd/7e413c380484264f04ea390de82f5d78871010b445c2b08567682b9ce076/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

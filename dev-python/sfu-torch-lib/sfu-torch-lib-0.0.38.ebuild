@@ -15,8 +15,8 @@ DESCRIPTION="Libraries that support the development of machine learning models i
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b8/40/0540491cbddd7dc50711807f7181411f6467d6330f2e64ee75324663b129/sfu_torch_lib-${REALVERSION}.tar.gz"
-SOURCEFILE="sfu_torch_lib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b8/40/0540491cbddd7dc50711807f7181411f6467d6330f2e64ee75324663b129/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

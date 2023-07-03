@@ -15,8 +15,8 @@ DESCRIPTION="A friendly wrapper library for the Deezer API"
 
 HOMEPAGE="https://github.com/browniebroke/deezer-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b7/9b/6f553f7c646784708a860be8c9a562f5af67abd5e17d5c3acdae863754c2/deezer_python-${REALVERSION}.tar.gz"
-SOURCEFILE="deezer_python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b7/9b/6f553f7c646784708a860be8c9a562f5af67abd5e17d5c3acdae863754c2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

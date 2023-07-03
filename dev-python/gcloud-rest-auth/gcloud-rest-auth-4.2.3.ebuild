@@ -15,8 +15,8 @@ DESCRIPTION="Python Client for Google Cloud Auth"
 
 HOMEPAGE="https://github.com/talkiq/gcloud-aio"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/dd/66/26f381b664a9b41dae485d287ac1fe947dd5ca7ccab28cb25f8bab576891/gcloud_rest_auth-${REALVERSION}.tar.gz"
-SOURCEFILE="gcloud_rest_auth-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/dd/66/26f381b664a9b41dae485d287ac1fe947dd5ca7ccab28cb25f8bab576891/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

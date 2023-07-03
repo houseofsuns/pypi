@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># qqwry-linux-python3Linux下自动更新qqwry的工具## 安装```bashpip3  install qqwry-linux-python3```## 更新 qqwry.dat### 原理1. 从微信公众号文章中取出最新zip包地址并下载   &gt; https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzg3Mzc0NTA3NA==&amp;action=getalbum&amp;album_id=2329805780276838401   &gt;   &gt; zip地址如：https://www.cz88.net/soft/H50VASDc3-2023-06-21.zip2. 解压zip得到setup.exe3. 解压setup.exe得到qqwry.dat### 代码```python&gt;&gt;&gt; from qqwry.src import UpdateQQwry&gt;&gt;&gt; uq = UpdateQQwry('./qqwry.dat')&gt;&gt;&gt; uq.update()/usr/local/bin/innoextract is validhttps://www.cz88.net/soft/H50VASDc3-2023-06-21.zip Downloading...https://www.cz88.net/soft/H50VASDc3-2023-06-21.zip Download completedcopy /tmp/app/qqwry.dat to /root/.nali/qqwry.dat completedTrue```## 使用 qqwry.dat```python&gt;&gt;&gt; from qqwry.src import QQwry&gt;&gt;&gt; qw = QQwry()&gt;&gt;&gt; qw.load_file('./qqwry.dat')True&gt;&gt;&gt; print(qw.lookup('8.8.8.8'))('美国加利福尼亚州圣克拉拉县山景市', '谷歌公司DNS服务器')```</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="Alibaba Cloud Yuqing (20210126) SDK Library for Python2"
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python2-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ff/d1/a42222688b535ccc2de0720fc0c2730bc58dc30d7af5ee0747f397ce4ade/alibabacloud_yuqing20210126_py2-${REALVERSION}.tar.gz"
-SOURCEFILE="alibabacloud_yuqing20210126_py2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ff/d1/a42222688b535ccc2de0720fc0c2730bc58dc30d7af5ee0747f397ce4ade/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

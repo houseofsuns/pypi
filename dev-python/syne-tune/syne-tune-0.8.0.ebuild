@@ -15,8 +15,8 @@ DESCRIPTION="Distributed Hyperparameter Optimization on SageMaker"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0b/15/8ade3c35f9d0fe896da1efb8348c9f7b624a240a91547934ab703b833eb6/syne_tune-${REALVERSION}.tar.gz"
-SOURCEFILE="syne_tune-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0b/15/8ade3c35f9d0fe896da1efb8348c9f7b624a240a91547934ab703b833eb6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

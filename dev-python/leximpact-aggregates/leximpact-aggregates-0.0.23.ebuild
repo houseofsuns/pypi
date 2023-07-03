@@ -15,8 +15,8 @@ DESCRIPTION="Store aggregates of french data."
 
 HOMEPAGE=""
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/28/c9/b66859dbb0274cf3fae1d8c02da3da40393cc18c0db3726ec35e41f3f4a7/leximpact_aggregates-${REALVERSION}.tar.gz"
-SOURCEFILE="leximpact_aggregates-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/28/c9/b66859dbb0274cf3fae1d8c02da3da40393cc18c0db3726ec35e41f3f4a7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

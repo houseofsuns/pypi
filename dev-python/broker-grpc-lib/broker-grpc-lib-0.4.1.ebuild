@@ -15,8 +15,8 @@ DESCRIPTION="Python package for easier use message brokers with gRPC application
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c8/6b/b5d7eda4388244e9243d4dbeecba1061e04070d75357ba8df7a54ddf612b/broker_grpc_lib-${REALVERSION}.tar.gz"
-SOURCEFILE="broker_grpc_lib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c8/6b/b5d7eda4388244e9243d4dbeecba1061e04070d75357ba8df7a54ddf612b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

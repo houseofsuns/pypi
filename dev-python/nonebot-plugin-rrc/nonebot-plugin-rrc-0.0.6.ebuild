@@ -15,8 +15,8 @@ DESCRIPTION="修仙插件"
 
 HOMEPAGE="https://github.com/QingMuCat/nonebot_plugin_rrc"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/95/f8/37242e4d8be89ee187ee31bb97361ffcf7401635396260a7f1fa5a822163/nonebot_plugin_rrc-${REALVERSION}.tar.gz"
-SOURCEFILE="nonebot_plugin_rrc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/95/f8/37242e4d8be89ee187ee31bb97361ffcf7401635396260a7f1fa5a822163/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

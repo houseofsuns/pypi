@@ -15,8 +15,8 @@ DESCRIPTION="For logging & accessing application data with NoSQL databases (Mong
 
 HOMEPAGE="https://github.com/hiteshmishra708/python-nosql-logger"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/27/74/578be90f6d359ac42d2e41bad976eff486dcd3a8795158c39226e23e903b/python_nosql_logger-${REALVERSION}.tar.gz"
-SOURCEFILE="python_nosql_logger-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/27/74/578be90f6d359ac42d2e41bad976eff486dcd3a8795158c39226e23e903b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

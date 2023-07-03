@@ -15,8 +15,8 @@ DESCRIPTION="Simplifies arranging text fragments with multiple speakers and proc
 
 HOMEPAGE="https://github.com/knochenhans/tts_arranger"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a4/42/6f4557870b624a438ce48253867114b2d3c3527cb496f75a6dd8efe41c78/tts_arranger-${REALVERSION}.tar.gz"
-SOURCEFILE="tts_arranger-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a4/42/6f4557870b624a438ce48253867114b2d3c3527cb496f75a6dd8efe41c78/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

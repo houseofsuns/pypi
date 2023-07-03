@@ -15,8 +15,8 @@ DESCRIPTION="Robust image registration for napari"
 
 HOMEPAGE="https://github.com/glichtner/napari-pystackreg"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/8d/d6/80d198df5a0a8b8f579228b562b3fc2285b4b3c1eb0b3ddc2530e3466a83/napari_pystackreg-${REALVERSION}.tar.gz"
-SOURCEFILE="napari_pystackreg-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8d/d6/80d198df5a0a8b8f579228b562b3fc2285b4b3c1eb0b3ddc2530e3466a83/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Render inline graphs with Markdown and Graphviz (python3 version)"
 
 HOMEPAGE="https://github.com/cesaremorel/markdown-inline-graphviz"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/53/45/afd2f42c4bfd00e4098ce4f6a168e92a95fa2f1015c5fc9b95cd22264f25/markdown_inline_graphviz_extension-${REALVERSION}.tar.gz"
-SOURCEFILE="markdown_inline_graphviz_extension-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/53/45/afd2f42c4bfd00e4098ce4f6a168e92a95fa2f1015c5fc9b95cd22264f25/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

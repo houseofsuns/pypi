@@ -15,8 +15,8 @@ DESCRIPTION="Django RQL Filtering"
 
 HOMEPAGE="https://connect.cloudblue.com/community/api/rql/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c7/84/914c73100cd34071fd81a109ebafef37272d8db1b39495f48b8020b0dc5a/django_rql-${REALVERSION}.tar.gz"
-SOURCEFILE="django_rql-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c7/84/914c73100cd34071fd81a109ebafef37272d8db1b39495f48b8020b0dc5a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Openhab python rule engine"
 
 HOMEPAGE="https://github.com/grro/openhab_pythonrule_engine"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ed/d4/de759914c82a076ade03ee6313072f7459ff7c44bb3299b83f14f5913ec0/openhab_pythonrule_engine-${REALVERSION}.tar.gz"
-SOURCEFILE="openhab_pythonrule_engine-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ed/d4/de759914c82a076ade03ee6313072f7459ff7c44bb3299b83f14f5913ec0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

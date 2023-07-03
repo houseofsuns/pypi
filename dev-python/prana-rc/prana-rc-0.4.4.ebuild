@@ -15,8 +15,8 @@ DESCRIPTION="Python library and CLI to control Prana recuperators via BLE connec
 
 HOMEPAGE="https://github.com/corvis/prana_rc"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/be/c3/ec3e2b0f056586d01890fc2e0a8e59229e591964ea32a07e8ad33e3c8ad8/prana_rc-${REALVERSION}.tar.gz"
-SOURCEFILE="prana_rc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/be/c3/ec3e2b0f056586d01890fc2e0a8e59229e591964ea32a07e8ad33e3c8ad8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

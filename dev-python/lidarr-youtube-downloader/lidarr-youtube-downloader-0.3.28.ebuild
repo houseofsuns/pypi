@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/dmzoneill/lidarr-youtube-downloader"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e4/c2/c804c90b4173f8acd28299fa8562170e1eba5e5f15fb9a2beb7d769fe21e/lidarr_youtube_downloader-${REALVERSION}.tar.gz"
-SOURCEFILE="lidarr_youtube_downloader-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e4/c2/c804c90b4173f8acd28299fa8562170e1eba5e5f15fb9a2beb7d769fe21e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

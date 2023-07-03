@@ -15,8 +15,8 @@ DESCRIPTION="Type annotations and code completion for botocore"
 
 HOMEPAGE="https://youtype.github.io/mypy_boto3_builder/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/38/4e/673c929f4d2506d027b6f76d8620cba11391c5642a8409dc6c429f39d829/botocore_stubs-${REALVERSION}.tar.gz"
-SOURCEFILE="botocore_stubs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/38/4e/673c929f4d2506d027b6f76d8620cba11391c5642a8409dc6c429f39d829/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

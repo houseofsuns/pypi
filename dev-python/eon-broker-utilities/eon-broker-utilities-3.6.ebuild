@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://bitbucket.org/eon-mes/broker_utilities/src/master"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/34/58/0eb69caa4d372093109e65d126c11ac3ac8ddd58d25ab903f98dc1c614de/eon_broker_utilities-${REALVERSION}.tar.gz"
-SOURCEFILE="eon_broker_utilities-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/34/58/0eb69caa4d372093109e65d126c11ac3ac8ddd58d25ab903f98dc1c614de/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

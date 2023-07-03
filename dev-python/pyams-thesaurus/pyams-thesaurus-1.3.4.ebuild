@@ -15,8 +15,8 @@ DESCRIPTION="PyAMS thesaurus management package"
 
 HOMEPAGE="https://pyams.readthedocs.io"
 LICENSE="ZPL"
-SRC_URI="https://files.pythonhosted.org/packages/5f/8b/f81e306d04b4637a6ce22e13804ecfdee5edfe5fd162a0fb58b36194cea2/pyams_thesaurus-${REALVERSION}.tar.gz"
-SOURCEFILE="pyams_thesaurus-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5f/8b/f81e306d04b4637a6ce22e13804ecfdee5edfe5fd162a0fb58b36194cea2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

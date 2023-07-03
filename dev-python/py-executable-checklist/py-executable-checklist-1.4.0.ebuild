@@ -15,8 +15,8 @@ DESCRIPTION="Helper classes to develop executable workflow scripts"
 
 HOMEPAGE="https://namuan.github.io/py-executable-checklist"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c5/96/e403ad980a9e651536bc4003228f4115805d8c0dcde35e14cc4425269e22/py_executable_checklist-${REALVERSION}.tar.gz"
-SOURCEFILE="py_executable_checklist-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c5/96/e403ad980a9e651536bc4003228f4115805d8c0dcde35e14cc4425269e22/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

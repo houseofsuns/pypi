@@ -15,8 +15,8 @@ DESCRIPTION="ae namespace module portion literal: literal type detection and eva
 
 HOMEPAGE="https://gitlab.com/ae-group/ae_literal"
 LICENSE="OSI Approved :: GNU General Public License v3 or later GPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/ed/05/7b81d8d696a38365c2c4b08554c26c3cda62347de57ddfe6f274783e8268/ae_literal-${REALVERSION}.tar.gz"
-SOURCEFILE="ae_literal-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ed/05/7b81d8d696a38365c2c4b08554c26c3cda62347de57ddfe6f274783e8268/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

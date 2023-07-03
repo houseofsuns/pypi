@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Hipersim## IntroductionHipersim is a collection of tools for computationally-efficient simulation of Wind Energy problems using statistical and machine learning methods. Currently, the package contains the following submodules:- **turbgen**:     - Generation of 3D frozen turbulence fields (&quot;turbulence boxes&quot;) with the Mann turbulence spectrum    - Constrained turbulence field generation and application of constraints on pre-generated turbulence fields- **surrogates**:    - A feedforward neural network toolbox, training and evaluation of feedforward neural networks. - A set of tools for surrogate-based modeling and analysis of wind farms## InstallationHipersim is registered as installable Python package in PyPi.org. Installation happens automatically with the following command:pip install hipersim## References## LicenseHipersim uses the MIT License.</longdescription>
+</pkgmetadata>

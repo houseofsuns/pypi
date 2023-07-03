@@ -15,8 +15,8 @@ DESCRIPTION="Extensions to the AWS SDK for Python"
 
 HOMEPAGE="https://bitbucket.org/atlassian/boto3_extensions/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/62/6e/714270f561066d2076bd73106429c157748e99a6ba231d79069da4e755d7/boto3_extensions-${REALVERSION}.tar.gz"
-SOURCEFILE="boto3_extensions-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/62/6e/714270f561066d2076bd73106429c157748e99a6ba231d79069da4e755d7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Publish message into SNS Topic with attributes"
 
 HOMEPAGE="https://github.com/msantino/publish-event-sns"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/61/9d/4f48f7130106b26ec432db863df20c840b3baa5100f5ead97dd8880657c0/publish_event_sns-${REALVERSION}.tar.gz"
-SOURCEFILE="publish_event_sns-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/61/9d/4f48f7130106b26ec432db863df20c840b3baa5100f5ead97dd8880657c0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

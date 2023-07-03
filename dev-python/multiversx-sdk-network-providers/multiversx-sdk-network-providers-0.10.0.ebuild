@@ -15,8 +15,8 @@ DESCRIPTION="Network providers for MultiversX Python SDK."
 
 HOMEPAGE="https://github.com/multiversx/mx-sdk-py-network-providers"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/33/bf/6e78824282c93f29f07f0e0427ef391aaa25c44983902a673b9e79a491c1/multiversx_sdk_network_providers-${REALVERSION}.tar.gz"
-SOURCEFILE="multiversx_sdk_network_providers-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/33/bf/6e78824282c93f29f07f0e0427ef391aaa25c44983902a673b9e79a491c1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

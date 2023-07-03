@@ -15,8 +15,8 @@ DESCRIPTION="Alibaba Cloud imageseg (20191230) SDK Library for Python"
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f5/72/d1f7e6872ad156328de06adfb14e050172e1cebecaec33ab161f581bacb5/alibabacloud_imageseg20191230-${REALVERSION}.tar.gz"
-SOURCEFILE="alibabacloud_imageseg20191230-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f5/72/d1f7e6872ad156328de06adfb14e050172e1cebecaec33ab161f581bacb5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

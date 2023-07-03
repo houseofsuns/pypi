@@ -15,8 +15,8 @@ DESCRIPTION="tool"
 
 HOMEPAGE="https://gitlab.inhand.design/hancj-dev/py-common"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d2/5c/4cf2037d518cda1799c6873119cb2a0d3a1d92938136c21fe220d9f97a40/ih_common-${REALVERSION}.tar.gz"
-SOURCEFILE="ih_common-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d2/5c/4cf2037d518cda1799c6873119cb2a0d3a1d92938136c21fe220d9f97a40/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

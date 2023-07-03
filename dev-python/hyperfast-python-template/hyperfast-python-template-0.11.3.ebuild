@@ -15,8 +15,8 @@ DESCRIPTION="A python template that helps you jump start your project"
 
 HOMEPAGE="https://hyperfast-python.entelecheia.ai"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ca/58/dc08b1273879817bd35985f4f0aaf251047aa4a313e087150e317de7e671/hyperfast_python_template-${REALVERSION}.tar.gz"
-SOURCEFILE="hyperfast_python_template-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ca/58/dc08b1273879817bd35985f4f0aaf251047aa4a313e087150e317de7e671/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

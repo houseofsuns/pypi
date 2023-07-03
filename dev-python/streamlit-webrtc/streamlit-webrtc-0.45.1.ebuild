@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/whitphx/streamlit-webrtc"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1c/ba/d6303e1101adb177ce1e529bf37fe0bae2ebf07c39af613fac324e8c593d/streamlit_webrtc-${REALVERSION}.tar.gz"
-SOURCEFILE="streamlit_webrtc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1c/ba/d6303e1101adb177ce1e529bf37fe0bae2ebf07c39af613fac324e8c593d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

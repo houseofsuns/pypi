@@ -15,8 +15,8 @@ DESCRIPTION="unofficial caprover api to deploy apps to caprover"
 
 HOMEPAGE="https://github.com/ak4zh/caprover-api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8d/b7/caf38fef2902e07ce0be3d171a8471d43cdf569cfe9569b4cdba6c64c4c7/caprover_api-${REALVERSION}.tar.gz"
-SOURCEFILE="caprover_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8d/b7/caf38fef2902e07ce0be3d171a8471d43cdf569cfe9569b4cdba6c64c4c7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

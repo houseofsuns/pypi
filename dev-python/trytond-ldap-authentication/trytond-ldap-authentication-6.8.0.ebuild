@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module to authenticate users through LDAP"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/6a/42/a3ed47a5e16bbc823a9e37edfc2d1f11b5326b0aa33e2da57edd2edf0de6/trytond_ldap_authentication-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_ldap_authentication-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6a/42/a3ed47a5e16bbc823a9e37edfc2d1f11b5326b0aa33e2da57edd2edf0de6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

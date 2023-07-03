@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/CLARIN-PL/embeddings"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/41/5d/f26b539c815554ba052f303a148eee4b5b0c52d0e902a267244925838814/clarinpl_embeddings-${REALVERSION}.tar.gz"
-SOURCEFILE="clarinpl_embeddings-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/41/5d/f26b539c815554ba052f303a148eee4b5b0c52d0e902a267244925838814/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

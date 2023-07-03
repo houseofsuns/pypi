@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/54/fb/f8e2b63509d151ef7d20a8b10b8749b8ad51641fb44b5b87c639ddbd3dcd/rakun_python-${REALVERSION}.tar.gz"
-SOURCEFILE="rakun_python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/54/fb/f8e2b63509d151ef7d20a8b10b8749b8ad51641fb44b5b87c639ddbd3dcd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

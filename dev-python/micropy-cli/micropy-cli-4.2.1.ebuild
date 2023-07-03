@@ -15,8 +15,8 @@ DESCRIPTION="Micropython Project Management Tool with VSCode support, Linting, I
 
 HOMEPAGE="https://github.com/BradenM/micropy-cli"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/74/c9/4f8f28f406f37a45c51fdf80786a58eac642f7ea7bfac2fc0e2799b4a4e5/micropy_cli-${REALVERSION}.tar.gz"
-SOURCEFILE="micropy_cli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/74/c9/4f8f28f406f37a45c51fdf80786a58eac642f7ea7bfac2fc0e2799b4a4e5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

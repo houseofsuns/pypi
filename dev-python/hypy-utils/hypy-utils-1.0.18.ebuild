@@ -15,8 +15,8 @@ DESCRIPTION="Python utility functions for HyDEV"
 
 HOMEPAGE="https://github.com/hykilpikonna/HyPyUtils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b8/f6/4f231dcbc33e15d95cc7a7cab8661ae19ce14f1523c2b26ca6998e441fcb/hypy_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="hypy_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b8/f6/4f231dcbc33e15d95cc7a7cab8661ae19ce14f1523c2b26ca6998e441fcb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

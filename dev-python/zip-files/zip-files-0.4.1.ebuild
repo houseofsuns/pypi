@@ -15,8 +15,8 @@ DESCRIPTION="Command line utilities for creating zip files"
 
 HOMEPAGE="https://github.com/goerz/zip_files"
 LICENSE="BSD license"
-SRC_URI="https://files.pythonhosted.org/packages/57/32/f1c1ff96aa74a664a99abf18202a36cab61d981d14d72760e5fe8344cd81/zip_files-${REALVERSION}.tar.gz"
-SOURCEFILE="zip_files-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/57/32/f1c1ff96aa74a664a99abf18202a36cab61d981d14d72760e5fe8344cd81/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

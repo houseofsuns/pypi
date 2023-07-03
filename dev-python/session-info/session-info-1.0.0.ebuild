@@ -15,8 +15,8 @@ DESCRIPTION="session_info outputs version information for modules loaded in the 
 
 HOMEPAGE="https://gitlab.com/joelostblom/session_info"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/94/e4/ea615bb8185a298b21df1ac52a4a5db4e3351823a218f47ef3f883def88c/session_info-${REALVERSION}.tar.gz"
-SOURCEFILE="session_info-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/94/e4/ea615bb8185a298b21df1ac52a4a5db4e3351823a218f47ef3f883def88c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

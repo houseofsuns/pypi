@@ -15,8 +15,8 @@ DESCRIPTION="A Pulumi package for creating and managing OpenStack cloud resource
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c9/36/36fce6111451780136422517cac4cd4bf4807351d9bbf743eaea92d2f9fb/pulumi_openstack-${REALVERSION}.tar.gz"
-SOURCEFILE="pulumi_openstack-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c9/36/36fce6111451780136422517cac4cd4bf4807351d9bbf743eaea92d2f9fb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

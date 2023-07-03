@@ -15,8 +15,8 @@ DESCRIPTION="Utilities for data analysis"
 
 HOMEPAGE="https://SinyiDataTeam@dev.azure.com/SinyiDataTeam/Label360/_git/sinyi_utils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/71/32/8a05ad986b3bf4ffead945666b94c92d5ebead95308b50969ddb83118947/sinyi_datateam_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="sinyi_datateam_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/71/32/8a05ad986b3bf4ffead945666b94c92d5ebead95308b50969ddb83118947/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

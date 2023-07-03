@@ -15,8 +15,8 @@ DESCRIPTION="适用于 Nonebot2 的数据存储插件"
 
 HOMEPAGE="https://github.com/he0119/nonebot-plugin-datastore"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b0/78/ea3852086d8052e5f16d78aff69115c04c07557aa38b84b9dd3558482648/nonebot_plugin_datastore-${REALVERSION}.tar.gz"
-SOURCEFILE="nonebot_plugin_datastore-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b0/78/ea3852086d8052e5f16d78aff69115c04c07557aa38b84b9dd3558482648/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

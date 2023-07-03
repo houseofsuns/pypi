@@ -15,8 +15,8 @@ DESCRIPTION="A simple Python wrapper for Twitter API v2 ✨ 🍰 ✨"
 
 HOMEPAGE="https://github.com/sns-sdks/python-twitter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/57/ef/cc9a74be78060ebf90ccdbac1dcdb6f13f1d071017c94d71f5668b992fb4/python_twitter_v2-${REALVERSION}.tar.gz"
-SOURCEFILE="python_twitter_v2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/57/ef/cc9a74be78060ebf90ccdbac1dcdb6f13f1d071017c94d71f5668b992fb4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

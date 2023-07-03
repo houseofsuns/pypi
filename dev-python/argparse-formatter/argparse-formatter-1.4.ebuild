@@ -15,8 +15,8 @@ DESCRIPTION="Paragraph-preserving formatter for argparse"
 
 HOMEPAGE="https://github.com/davesteele/argparse_formatter"
 LICENSE="GPL 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f1/46/095633f2da154b09938ab568c951ce67e67f2ae22a67f5dce922039c8202/argparse_formatter-${REALVERSION}.tar.gz"
-SOURCEFILE="argparse_formatter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f1/46/095633f2da154b09938ab568c951ce67e67f2ae22a67f5dce922039c8202/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

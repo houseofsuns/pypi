@@ -15,8 +15,8 @@ DESCRIPTION="A library for converting MIDI files from and to CSV format"
 
 HOMEPAGE="https://github.com/timwedde/py_midicsv"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/32/50/6569ce1e69ee6326cf08865c17ab4dacce53ef89119dce67480d36ec724f/py_midicsv-${REALVERSION}.tar.gz"
-SOURCEFILE="py_midicsv-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/32/50/6569ce1e69ee6326cf08865c17ab4dacce53ef89119dce67480d36ec724f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

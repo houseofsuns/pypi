@@ -15,8 +15,8 @@ DESCRIPTION="Striving towards backwards compatibility with the Theano -> Aesara 
 
 HOMEPAGE="https://github.com/exoplanet-dev/aesara-theano-fallback"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3c/13/49533a51effa0a234ca1950b984945990c3fe94a2365725af39359ddd33e/aesara_theano_fallback-${REALVERSION}.tar.gz"
-SOURCEFILE="aesara_theano_fallback-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3c/13/49533a51effa0a234ca1950b984945990c3fe94a2365725af39359ddd33e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

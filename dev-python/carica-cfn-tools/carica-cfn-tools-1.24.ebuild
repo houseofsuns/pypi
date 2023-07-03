@@ -15,8 +15,8 @@ DESCRIPTION="Tools to manage CloudFormation stack configuration"
 
 HOMEPAGE="https://github.com/caricalabs/carica-cfn-tools"
 LICENSE="APL 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/36/51/6a4e66851df71731d93a550201d72f1535499d191543d4355caa63ef39a2/carica_cfn_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="carica_cfn_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/36/51/6a4e66851df71731d93a550201d72f1535499d191543d4355caa63ef39a2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

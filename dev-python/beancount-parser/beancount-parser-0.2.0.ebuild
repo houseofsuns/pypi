@@ -15,8 +15,8 @@ DESCRIPTION="Standalone Lark based Beancount syntax parser (not relying on Beanc
 
 HOMEPAGE="https://github.com/LaunchPlatform/beancount-parser"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fa/cf/3f6dc8321ed6ffe25d4c548d97c78bc7e316f35cdfb262755337053c70c1/beancount_parser-${REALVERSION}.tar.gz"
-SOURCEFILE="beancount_parser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fa/cf/3f6dc8321ed6ffe25d4c548d97c78bc7e316f35cdfb262755337053c70c1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

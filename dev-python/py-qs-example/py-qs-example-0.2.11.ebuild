@@ -15,8 +15,8 @@ DESCRIPTION="Python package PyPi Sphinx quickstart example app"
 
 HOMEPAGE="https://github.com/nickderobertis/pypi-sphinx-quickstart"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c5/95/b185bb874d32d6fbb8e9c34f2d75e57f95b2fe2089877983d3d6f27abbbd/py_qs_example-${REALVERSION}.tar.gz"
-SOURCEFILE="py_qs_example-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c5/95/b185bb874d32d6fbb8e9c34f2d75e57f95b2fe2089877983d3d6f27abbbd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Tools for reading, processing, and writing CUWB data"
 
 HOMEPAGE="https://github.com/WildflowerSchools/wf-process-cuwb-data"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d8/42/dac083d7bc89bb8d165c78bd4260e2aac0696a47558f7f91ab6015a121b5/wf_process_cuwb_data-${REALVERSION}.tar.gz"
-SOURCEFILE="wf_process_cuwb_data-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d8/42/dac083d7bc89bb8d165c78bd4260e2aac0696a47558f7f91ab6015a121b5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="OpenTelemetry MySQL instrumentation"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-mysql"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5f/44/c863ae60b82d961adcf0dba59d5196ba767d762db8368aac7bb3aadef496/opentelemetry_instrumentation_mysql-${REALVERSION}.tar.gz"
-SOURCEFILE="opentelemetry_instrumentation_mysql-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5f/44/c863ae60b82d961adcf0dba59d5196ba767d762db8368aac7bb3aadef496/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

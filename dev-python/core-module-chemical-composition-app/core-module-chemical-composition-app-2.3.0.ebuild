@@ -15,8 +15,8 @@ DESCRIPTION="Chemical composition module for the parser core project"
 
 HOMEPAGE="https://github.com/usnistgov/core_module_chemical_composition_app"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6d/a8/350841297368a630ab4b5d625290236a3eea0d9e00266273b2f6a869466a/core_module_chemical_composition_app-${REALVERSION}.tar.gz"
-SOURCEFILE="core_module_chemical_composition_app-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6d/a8/350841297368a630ab4b5d625290236a3eea0d9e00266273b2f6a869466a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

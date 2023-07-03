@@ -15,8 +15,8 @@ DESCRIPTION="Mutalyzer genomic reference retriever."
 
 HOMEPAGE="https://github.com/mutalyzer/retriever"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6e/3c/06dce8f3b2d76a2c023339b987ba42a29dde2b90ac567296e993a93513f5/mutalyzer_retriever-${REALVERSION}.tar.gz"
-SOURCEFILE="mutalyzer_retriever-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6e/3c/06dce8f3b2d76a2c023339b987ba42a29dde2b90ac567296e993a93513f5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

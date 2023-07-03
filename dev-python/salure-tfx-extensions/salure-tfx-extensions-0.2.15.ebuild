@@ -15,8 +15,8 @@ DESCRIPTION="TFX components, helper functions and pipeline definition, developed
 
 HOMEPAGE=""
 LICENSE="Salure License"
-SRC_URI="https://files.pythonhosted.org/packages/ee/d7/adbb255ea385ea8d5e719811cfc8c309c91601db75f755f4c2c2fdcdc27b/salure_tfx_extensions-${REALVERSION}.tar.gz"
-SOURCEFILE="salure_tfx_extensions-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ee/d7/adbb255ea385ea8d5e719811cfc8c309c91601db75f755f4c2c2fdcdc27b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Package for installing the latest chrome/firefox webdrivers automat
 
 HOMEPAGE="http://github.com/shadowmoose/chrome_driver"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f7/c4/0cd1ee4242a350df2e1fdc2b7daee4f47456d65d3da5a6393eca6c91ba38/chromedriver_install-${REALVERSION}.tar.gz"
-SOURCEFILE="chromedriver_install-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f7/c4/0cd1ee4242a350df2e1fdc2b7daee4f47456d65d3da5a6393eca6c91ba38/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

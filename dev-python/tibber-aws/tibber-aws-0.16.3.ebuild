@@ -15,8 +15,8 @@ DESCRIPTION="A python3 library to communicate with Aws"
 
 HOMEPAGE="https://github.com/tibber/tibber-pyAws"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6a/21/77f1bb3e1649851fec3923cbdb016cdc4f5e4c2d6af888199cb54e514653/tibber_aws-${REALVERSION}.tar.gz"
-SOURCEFILE="tibber_aws-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6a/21/77f1bb3e1649851fec3923cbdb016cdc4f5e4c2d6af888199cb54e514653/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

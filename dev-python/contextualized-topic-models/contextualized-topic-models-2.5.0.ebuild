@@ -15,8 +15,8 @@ DESCRIPTION="Contextualized Topic Models"
 
 HOMEPAGE="https://github.com/MilaNLProc/contextualized-topic-models"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d3/d0/8e9d863b665fd6d686918e703914cabb923e58aae87576ccc380c52ab53b/contextualized_topic_models-${REALVERSION}.tar.gz"
-SOURCEFILE="contextualized_topic_models-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d3/d0/8e9d863b665fd6d686918e703914cabb923e58aae87576ccc380c52ab53b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

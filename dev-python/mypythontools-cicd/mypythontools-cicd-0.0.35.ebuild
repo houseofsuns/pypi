@@ -15,8 +15,8 @@ DESCRIPTION="Some tools/functions/snippets used across projects."
 
 HOMEPAGE="https://github.com/Malachov/mypythontools_cicd"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4d/bc/d268159b8d23dae5db940906c6c17b1aed9786d77f5f9ab8144902b0b6fe/mypythontools_cicd-${REALVERSION}.tar.gz"
-SOURCEFILE="mypythontools_cicd-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4d/bc/d268159b8d23dae5db940906c6c17b1aed9786d77f5f9ab8144902b0b6fe/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

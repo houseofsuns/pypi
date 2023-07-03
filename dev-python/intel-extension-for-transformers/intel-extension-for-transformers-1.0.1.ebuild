@@ -15,8 +15,8 @@ DESCRIPTION="Repository of Intel® Intel Extension for Transformers"
 
 HOMEPAGE="https://github.com/intel/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/90/28/88eb93a441d38af442614732e1da4ebaae5cee1c77181d55002741b6ead7/intel_extension_for_transformers-${REALVERSION}.tar.gz"
-SOURCEFILE="intel_extension_for_transformers-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/90/28/88eb93a441d38af442614732e1da4ebaae5cee1c77181d55002741b6ead7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

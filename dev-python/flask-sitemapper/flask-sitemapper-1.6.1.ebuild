@@ -15,8 +15,8 @@ DESCRIPTION="Flask extension for generating XML sitemaps"
 
 HOMEPAGE="https://github.com/h-janes/flask-sitemapper"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3f/1c/80411d7f1141f7202165fbbe278ce40fd59e28245dc539e47db893968e0c/flask_sitemapper-${REALVERSION}.tar.gz"
-SOURCEFILE="flask_sitemapper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3f/1c/80411d7f1141f7202165fbbe278ce40fd59e28245dc539e47db893968e0c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

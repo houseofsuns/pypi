@@ -15,8 +15,8 @@ DESCRIPTION="some extensions for bleach"
 
 HOMEPAGE="http://github.com/jvanasco/bleach_extras"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9d/32/66ca245a0bcc3a28542137348642149603aad4d5faafa21da6c832283cfb/bleach_extras-${REALVERSION}.tar.gz"
-SOURCEFILE="bleach_extras-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9d/32/66ca245a0bcc3a28542137348642149603aad4d5faafa21da6c832283cfb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

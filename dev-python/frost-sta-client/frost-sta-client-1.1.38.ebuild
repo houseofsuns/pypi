@@ -15,8 +15,8 @@ DESCRIPTION="a client library to facilitate interaction with a FROST SensorThing
 
 HOMEPAGE="https://github.com/FraunhoferIOSB/FROST-Python-Client"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/3d/a0/7189c50afb3ecf851c1fae3c6533352ae4b36934f6fc245a3e7d6ef1175b/frost_sta_client-${REALVERSION}.tar.gz"
-SOURCEFILE="frost_sta_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3d/a0/7189c50afb3ecf851c1fae3c6533352ae4b36934f6fc245a3e7d6ef1175b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

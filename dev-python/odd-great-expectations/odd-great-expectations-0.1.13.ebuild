@@ -15,8 +15,8 @@ DESCRIPTION="OpenDataDiscovery Action for Great Expectations"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/a6/92/983577689e01558bcbcbb39197f37f37265a0a69205c537401d12898128f/odd_great_expectations-${REALVERSION}.tar.gz"
-SOURCEFILE="odd_great_expectations-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a6/92/983577689e01558bcbcbb39197f37f37265a0a69205c537401d12898128f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

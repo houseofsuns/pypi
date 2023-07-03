@@ -15,8 +15,8 @@ DESCRIPTION="ae namespace module portion i18n: internationalization / localizati
 
 HOMEPAGE="https://gitlab.com/ae-group/ae_i18n"
 LICENSE="OSI Approved :: GNU General Public License v3 or later GPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/48/85/1342491f01ea13b7fbd22ba4bc00202ec354908bbf4253c3060a5257b28a/ae_i18n-${REALVERSION}.tar.gz"
-SOURCEFILE="ae_i18n-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/48/85/1342491f01ea13b7fbd22ba4bc00202ec354908bbf4253c3060a5257b28a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

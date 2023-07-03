@@ -15,8 +15,8 @@ DESCRIPTION="A client library for the GoCardless Pro API."
 
 HOMEPAGE="https://github.com/gocardless/gocardless-pro-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/43/d6/c4f2536ed6ee65b94dc29eb536b31fa585617c274935d23ed855dfbe2f3d/gocardless_pro-${REALVERSION}.tar.gz"
-SOURCEFILE="gocardless_pro-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/43/d6/c4f2536ed6ee65b94dc29eb536b31fa585617c274935d23ed855dfbe2f3d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

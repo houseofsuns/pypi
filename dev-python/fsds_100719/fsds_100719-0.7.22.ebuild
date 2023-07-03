@@ -15,8 +15,8 @@ DESCRIPTION="Tools for Flatiron 100719 cohorts"
 
 HOMEPAGE="https://github.com/jirvingphd/fsds_100719"
 LICENSE="GNU General Public License v3"
-SRC_URI="https://files.pythonhosted.org/packages/27/72/f448d3198465daaba9596f49fafed644c7b007f354ebb267d72dfc57b8d8/fsds_100719-${REALVERSION}.tar.gz"
-SOURCEFILE="fsds_100719-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/27/72/f448d3198465daaba9596f49fafed644c7b007f354ebb267d72dfc57b8d8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

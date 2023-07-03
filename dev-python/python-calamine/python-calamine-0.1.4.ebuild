@@ -15,8 +15,8 @@ DESCRIPTION="Python binding for Rust's library for reading excel and odf file - 
 
 HOMEPAGE="https://github.com/dimastbk/python-calamine"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b2/62/da43780a0f4ccb4d4cf3d8d8b9aab07f1c7ac7433254e0875a7d091a12e2/python_calamine-${REALVERSION}.tar.gz"
-SOURCEFILE="python_calamine-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b2/62/da43780a0f4ccb4d4cf3d8d8b9aab07f1c7ac7433254e0875a7d091a12e2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

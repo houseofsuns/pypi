@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://xxxxxxxxx"
 LICENSE="Apache License"
-SRC_URI="https://files.pythonhosted.org/packages/89/9a/a3a3951090343aad2a6cefec3efc289f58864e174ad5edbb3091bb723f1d/tool_utils-${REALVERSION}.tar.gz"
-SOURCEFILE="tool_utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/89/9a/a3a3951090343aad2a6cefec3efc289f58864e174ad5edbb3091bb723f1d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

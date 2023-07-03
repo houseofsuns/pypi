@@ -15,8 +15,8 @@ DESCRIPTION="An easy-to-use authentication library for FastAPI."
 
 HOMEPAGE="https://gitlab.com/galvanize-inc/foss/jwtdown-fastapi"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d2/4a/241fb0285cd22b11b24772192f93cbe52d6011a24b09b9c13838f755ea48/jwtdown_fastapi-${REALVERSION}.tar.gz"
-SOURCEFILE="jwtdown_fastapi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d2/4a/241fb0285cd22b11b24772192f93cbe52d6011a24b09b9c13838f755ea48/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

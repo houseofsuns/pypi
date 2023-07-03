@@ -15,8 +15,8 @@ DESCRIPTION="This is a packaged crypto-cpp program"
 
 HOMEPAGE="https://github.com/software-mansion-labs/crypto-cpp-py.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/eb/58/4a70900417f2ed574666956573eb117eb8710fe25ef99205bab86318ea8f/crypto_cpp_py-${REALVERSION}.tar.gz"
-SOURCEFILE="crypto_cpp_py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/eb/58/4a70900417f2ed574666956573eb117eb8710fe25ef99205bab86318ea8f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

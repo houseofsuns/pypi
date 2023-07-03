@@ -15,8 +15,8 @@ DESCRIPTION="CPLEX extension for amplpy"
 
 HOMEPAGE="http://ampl.com/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/61/ab/f038cfb15d47107af10de1965e712ac058c8bdfa51351a6a5743f57e6e4a/amplpy_cplex-${REALVERSION}.tar.gz"
-SOURCEFILE="amplpy_cplex-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/61/ab/f038cfb15d47107af10de1965e712ac058c8bdfa51351a6a5743f57e6e4a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

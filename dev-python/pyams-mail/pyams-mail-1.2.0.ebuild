@@ -15,8 +15,8 @@ DESCRIPTION="PyAMS mailing helper package"
 
 HOMEPAGE="https://pyams.readthedocs.io"
 LICENSE="ZPL"
-SRC_URI="https://files.pythonhosted.org/packages/34/da/155892147f1ff8a4006dead3b50f1df257adb77722970fec40720468d41f/pyams_mail-${REALVERSION}.tar.gz"
-SOURCEFILE="pyams_mail-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/34/da/155892147f1ff8a4006dead3b50f1df257adb77722970fec40720468d41f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

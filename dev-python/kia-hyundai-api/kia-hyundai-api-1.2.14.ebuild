@@ -15,8 +15,8 @@ DESCRIPTION="Kia Uvo/Hyundai Blue Link Api Wrapper"
 
 HOMEPAGE="https://github.com/dahlb/kia_hyundai_api"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5b/e9/f807672ec590ff9789ab8683bed8d2ae86ee2b41273b45a74b19d87aba04/kia_hyundai_api-${REALVERSION}.tar.gz"
-SOURCEFILE="kia_hyundai_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5b/e9/f807672ec590ff9789ab8683bed8d2ae86ee2b41273b45a74b19d87aba04/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

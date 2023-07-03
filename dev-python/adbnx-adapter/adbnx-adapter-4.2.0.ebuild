@@ -15,8 +15,8 @@ DESCRIPTION="Convert ArangoDB graphs to NetworkX & vice-versa."
 
 HOMEPAGE="https://github.com/arangoml/networkx-adapter"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e5/2b/a029b7d7bc9c62509477c033f7d4902399f5e1b4ca454922caa492e7bbe8/adbnx_adapter-${REALVERSION}.tar.gz"
-SOURCEFILE="adbnx_adapter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e5/2b/a029b7d7bc9c62509477c033f7d4902399f5e1b4ca454922caa492e7bbe8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

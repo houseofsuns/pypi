@@ -15,8 +15,8 @@ DESCRIPTION="Qiskit Random Number Generator."
 
 HOMEPAGE="https://github.com/qiskit-community/qiskit_rng"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d7/41/8e685e16034b5960d2c506202bea50cd08ea5087d65824ed2b25b9f8dbc7/qiskit_rng-${REALVERSION}.tar.gz"
-SOURCEFILE="qiskit_rng-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d7/41/8e685e16034b5960d2c506202bea50cd08ea5087d65824ed2b25b9f8dbc7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

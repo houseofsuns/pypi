@@ -15,8 +15,8 @@ DESCRIPTION="Universal naming system and varaible stroage for better collaborati
 
 HOMEPAGE="https://pypi.org/project/kabbes-user-profile/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5b/f7/79b98c82b3f1efac585c50b21fc7f0fec49942715c49214476d1015f1a23/kabbes_user_profile-${REALVERSION}.tar.gz"
-SOURCEFILE="kabbes_user_profile-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5b/f7/79b98c82b3f1efac585c50b21fc7f0fec49942715c49214476d1015f1a23/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

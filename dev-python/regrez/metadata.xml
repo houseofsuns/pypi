@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>This is a simple Python package that aims to make using linear regression easier for programmers. For now, it only provides a simple linear regresion calculation that is based on one independent variable.You can create a simple linear regression model as following:```from regrez import Modelsm = Models.Simple(&quot;path/to/csv&quot;, &quot;label for column that'll be used for x axis&quot;, &quot;label for column that'll be used for y axis&quot;)```After that, you can train your model using `m.Train()` and test using `m.Test(test_x, test_y)`. Alternatively, there is a function called `m.TrainAndTest()` you can use if you only want to see how accurate would the model work. It separates 20% of the data for testing, trains the model with the rest of it, tests the model with separated data and shows how accurate your model is. You can use `m.Visualize()` after training if you want to see a plot showing both data points and the line to see how relative your variables are.You can create a multiple regression model as following:```from regrez import Modelsm = Models.Multiple(&quot;path/to/csv&quot;, [&quot;X Label 1&quot;, &quot;X Label 2&quot;, &quot;X Label 3&quot;], [&quot;Y Label&quot;])```After that, you can train your model using `m.Train()` and test using `m.Test(test_x, test_y)`. Alternatively, there is a function called `m.TrainAndTest()` you can use if you only want to see how accurate would the model work. It separates 20% of the data for testing, trains the model with the rest of it, tests the model with separated data and shows how accurate your model is. There is no `m.Visualize()` for multiple linear regression models.</longdescription>
+</pkgmetadata>

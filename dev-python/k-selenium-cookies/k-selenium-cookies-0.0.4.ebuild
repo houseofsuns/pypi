@@ -15,8 +15,8 @@ DESCRIPTION="k_selenium_cookies"
 
 HOMEPAGE="https://github.com/kkristof200/selenium_cookies"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ed/79/f6d7829a8c4d01e8e1a29ef78b6036c4f65efcae6a5165779669e8aec7d5/k_selenium_cookies-${REALVERSION}.tar.gz"
-SOURCEFILE="k_selenium_cookies-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ed/79/f6d7829a8c4d01e8e1a29ef78b6036c4f65efcae6a5165779669e8aec7d5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

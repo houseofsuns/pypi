@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module for shelf life expiration date of product lots"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/fa/65/2e51c561d7d28e6a0099f19c7843696269a8747bd23ef8031cd98204cde5/trytond_stock_lot_sled-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_stock_lot_sled-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fa/65/2e51c561d7d28e6a0099f19c7843696269a8747bd23ef8031cd98204cde5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

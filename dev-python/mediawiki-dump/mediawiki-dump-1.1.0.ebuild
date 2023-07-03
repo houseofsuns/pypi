@@ -15,8 +15,8 @@ DESCRIPTION="Python package for working with MediaWiki XML content dumps"
 
 HOMEPAGE="https://github.com/macbre/mediawiki-dump"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/91/60/a9a5068a51823feeb79319fa95256db30c9e1a01d773f5c3891e4857cdc0/mediawiki_dump-${REALVERSION}.tar.gz"
-SOURCEFILE="mediawiki_dump-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/91/60/a9a5068a51823feeb79319fa95256db30c9e1a01d773f5c3891e4857cdc0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

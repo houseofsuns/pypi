@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Hotjar Data Wrapper[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)This is a wrapper for Hotjar APIs to let you login and download survey data and metadata for your account.## Supported APIs and docs- [Hotjar Data Wrapper](#hotjar-data-wrapper)  - [Supported APIs and docs](#supported-apis-and-docs)    - [Get survey metadata](#get-survey-metadata)    - [Get survey questions](#get-survey-questions)    - [List all surveys](#list-all-surveys)    - [Get all survey metadata](#get-all-survey-metadata)### Get survey metadataLogin and download metadata for a specific survey.```pythonimport hotjar_data_wrapper.hotjar_api as hotmeta = hot.get_survey_metadata(survey_id=survey_id, site_id=site_id, username=username, password=password)meta.status_code # 200meta.content # prints content```### Get survey questionsLogin and download questions for a specific survey.```pythonquestions = hot.get_survey_questions(survey_id=survey_id, site_id=site_id, username=username, password=password)questions.content ```### List all surveysLogin and download list of all surveys for a given site ID.```pythonall_surveys = hot.get_list_all_surveys(site_id=site_id, username=username, password=password)all_surveys.content```### Get all survey metadataLogin and download metadata for a list of surveys with survey IDs.```pythonhot.get_all_surveys_metadata(    path=&quot;data/hotjar surveys&quot;,    surveys_list=ids,    site_id=site_id,    username=username,    password=password,)```</longdescription>
+</pkgmetadata>

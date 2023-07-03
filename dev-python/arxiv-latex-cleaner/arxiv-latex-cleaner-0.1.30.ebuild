@@ -15,8 +15,8 @@ DESCRIPTION="Cleans the LaTeX code of your paper to submit to arXiv."
 
 HOMEPAGE="https://github.com/google-research/arxiv-latex-cleaner"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/50/94/1ef60b7f751ab669a420c13a6c0421efa9e9166c1ff47b76541905873758/arxiv_latex_cleaner-${REALVERSION}.tar.gz"
-SOURCEFILE="arxiv_latex_cleaner-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/50/94/1ef60b7f751ab669a420c13a6c0421efa9e9166c1ff47b76541905873758/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

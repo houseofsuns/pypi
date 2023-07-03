@@ -15,8 +15,8 @@ DESCRIPTION="Bidirectional communication for the HoloViz ecosystem."
 
 HOMEPAGE="https://holoviz.org"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/a1/49/ef0942b1764ebe5ab173ff6a0292307bbe94b183aaaf92a0cc26e98a6b3a/pyviz_comms-${REALVERSION}.tar.gz"
-SOURCEFILE="pyviz_comms-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a1/49/ef0942b1764ebe5ab173ff6a0292307bbe94b183aaaf92a0cc26e98a6b3a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

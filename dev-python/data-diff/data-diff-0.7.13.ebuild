@@ -15,8 +15,8 @@ DESCRIPTION="Command-line tool and Python library to efficiently diff rows acros
 
 HOMEPAGE="https://github.com/datafold/data-diff"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9d/1c/859f9736eebbcac25ad7ca08d7ff7092d72667f446fc262d0e15f35f849e/data_diff-${REALVERSION}.tar.gz"
-SOURCEFILE="data_diff-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9d/1c/859f9736eebbcac25ad7ca08d7ff7092d72667f446fc262d0e15f35f849e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

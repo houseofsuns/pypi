@@ -15,8 +15,8 @@ DESCRIPTION="A flake8 plugin checking common style issues or inconsistencies wit
 
 HOMEPAGE="https://pypi.org/project/flake8-pytest-style"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c0/6b/12c40bbb136b0423485f5b4ac5939fb984ddbe85f38e6ed484472a89692d/flake8_pytest_style-${REALVERSION}.tar.gz"
-SOURCEFILE="flake8_pytest_style-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c0/6b/12c40bbb136b0423485f5b4ac5939fb984ddbe85f38e6ed484472a89692d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

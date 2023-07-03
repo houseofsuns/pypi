@@ -15,8 +15,8 @@ DESCRIPTION="Excel Uploader module for the parser core project"
 
 HOMEPAGE="https://github.com/usnistgov/core_module_excel_uploader_app"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2a/b6/f217ad50208e2ea1e4d3da9bc33a1f2b75aec9a4a2567ff86db5cc949dab/core_module_excel_uploader_app-${REALVERSION}.tar.gz"
-SOURCEFILE="core_module_excel_uploader_app-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2a/b6/f217ad50208e2ea1e4d3da9bc33a1f2b75aec9a4a2567ff86db5cc949dab/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

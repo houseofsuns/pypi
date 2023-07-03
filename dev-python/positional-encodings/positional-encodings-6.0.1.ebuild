@@ -15,8 +15,8 @@ DESCRIPTION="1D, 2D, and 3D Sinusodal Positional Encodings in PyTorch"
 
 HOMEPAGE="https://github.com/tatp22/multidim-positional-encoding"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2e/e3/0806ada8ac7d4eeacf9557e41167d1253bdb24979c60709397091648993a/positional_encodings-${REALVERSION}.tar.gz"
-SOURCEFILE="positional_encodings-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2e/e3/0806ada8ac7d4eeacf9557e41167d1253bdb24979c60709397091648993a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

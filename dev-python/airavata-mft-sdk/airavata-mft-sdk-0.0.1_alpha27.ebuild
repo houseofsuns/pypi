@@ -15,8 +15,8 @@ DESCRIPTION="Python SDK for Apache Airavata Managed File Transfers (MFT)"
 
 HOMEPAGE="https://github.com/apache/airavata-mft"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/32/31/2129064a1253fda2eea0118088215d91eb30c2c08899ec562dd2c57929db/airavata_mft_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="airavata_mft_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/32/31/2129064a1253fda2eea0118088215d91eb30c2c08899ec562dd2c57929db/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

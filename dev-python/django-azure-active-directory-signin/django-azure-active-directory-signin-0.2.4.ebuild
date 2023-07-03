@@ -15,8 +15,8 @@ DESCRIPTION="Sign-in users to your Django Web app with Azure Active Directory."
 
 HOMEPAGE="https://github.com/JV-conseil-Internet-Consulting/django-azure-active-directory-signin"
 LICENSE="EUPL-1.2"
-SRC_URI="https://files.pythonhosted.org/packages/4a/08/28b684d467737e9a40ffe2dd949cd3fa7b0d938dcc4609624d1961a42967/django_azure_active_directory_signin-${REALVERSION}.tar.gz"
-SOURCEFILE="django_azure_active_directory_signin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4a/08/28b684d467737e9a40ffe2dd949cd3fa7b0d938dcc4609624d1961a42967/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

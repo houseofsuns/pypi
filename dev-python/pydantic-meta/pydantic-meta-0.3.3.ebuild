@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4b/99/7197c245fae862167061f124bdbee5be7d313e9d69853779afd7dbf6017e/pydantic_meta-${REALVERSION}.tar.gz"
-SOURCEFILE="pydantic_meta-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4b/99/7197c245fae862167061f124bdbee5be7d313e9d69853779afd7dbf6017e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

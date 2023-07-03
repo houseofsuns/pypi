@@ -15,8 +15,8 @@ DESCRIPTION="modded netmiko 4.1.2 with lancom and edgecore support"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/07/dd/4a2d462fc47a3ae216fb7cef3fd08c4eec0011039248347674d0da53d4aa/netmiko_mishki-${REALVERSION}.tar.gz"
-SOURCEFILE="netmiko_mishki-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/07/dd/4a2d462fc47a3ae216fb7cef3fd08c4eec0011039248347674d0da53d4aa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/SheikhChili/aipackage"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d3/e8/8d862ac2ef7cf21a405b663df2f00a73708981fd061765b43afca987f780/ai_automation-${REALVERSION}.tar.gz"
-SOURCEFILE="ai_automation-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d3/e8/8d862ac2ef7cf21a405b663df2f00a73708981fd061765b43afca987f780/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

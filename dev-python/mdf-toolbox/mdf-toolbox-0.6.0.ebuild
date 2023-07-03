@@ -15,8 +15,8 @@ DESCRIPTION="Materials Data Facility Python utilities"
 
 HOMEPAGE="https://github.com/materials-data-facility/toolbox"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/82/a1/dcc2caa4dc4b02f05b00ca392c482587e9a9a8f9f9e804db3013fbe67648/mdf_toolbox-${REALVERSION}.tar.gz"
-SOURCEFILE="mdf_toolbox-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/82/a1/dcc2caa4dc4b02f05b00ca392c482587e9a9a8f9f9e804db3013fbe67648/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

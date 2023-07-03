@@ -15,8 +15,8 @@ DESCRIPTION="A backport of fstrings to python<3.6"
 
 HOMEPAGE="https://github.com/asottile/future-fstrings"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5d/e2/3874574cce18a2e3608abfe5b4b5b3c9765653c464f5da18df8971cf501d/future_fstrings-${REALVERSION}.tar.gz"
-SOURCEFILE="future_fstrings-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5d/e2/3874574cce18a2e3608abfe5b4b5b3c9765653c464f5da18df8971cf501d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Pyramid views for PyAMS_file package"
 
 HOMEPAGE="https://pyams.readthedocs.io"
 LICENSE="ZPL"
-SRC_URI="https://files.pythonhosted.org/packages/47/8f/6a399080d263a9c6da67449f4efd9250f6db9c950e9816d48c6d320cf7fa/pyams_file_views-${REALVERSION}.tar.gz"
-SOURCEFILE="pyams_file_views-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/47/8f/6a399080d263a9c6da67449f4efd9250f6db9c950e9816d48c6d320cf7fa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/LegendarySaiyan/payment_order_renderer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1a/99/3e129958f4712803d06ad71bc751a679292929587a8b90d82044ded24b57/payment_order_renderer-${REALVERSION}.tar.gz"
-SOURCEFILE="payment_order_renderer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1a/99/3e129958f4712803d06ad71bc751a679292929587a8b90d82044ded24b57/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

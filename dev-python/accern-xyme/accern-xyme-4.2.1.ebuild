@@ -15,8 +15,8 @@ DESCRIPTION="AccernXYME is a library for easily accessing XYME via python."
 
 HOMEPAGE="https://github.com/Accern/accern-xyme"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a2/6a/d0b2a7140b5193536c8bc11422b77264ffc679e69667dd3b90ab8ce434a6/accern_xyme-${REALVERSION}.tar.gz"
-SOURCEFILE="accern_xyme-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a2/6a/d0b2a7140b5193536c8bc11422b77264ffc679e69667dd3b90ab8ce434a6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

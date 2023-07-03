@@ -15,8 +15,8 @@ DESCRIPTION="Python Xplora® Api"
 
 HOMEPAGE="https://github.com/Ludy87/pyxplora_api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/66/14/df10aa3ffab103e9711c943d55e8f146dbf2cd108374411512a0def8c1bb/pyxplora_api-${REALVERSION}.tar.gz"
-SOURCEFILE="pyxplora_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/66/14/df10aa3ffab103e9711c943d55e8f146dbf2cd108374411512a0def8c1bb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="flake8 plugin which forbids assignment expressions (the walrus oper
 
 HOMEPAGE="https://github.com/asottile/flake8-walrus"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9f/1b/b42d60e72bd90fb679fff33ab5cb82bcbdfd7ec93838628632e2b52f732b/flake8_walrus-${REALVERSION}.tar.gz"
-SOURCEFILE="flake8_walrus-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9f/1b/b42d60e72bd90fb679fff33ab5cb82bcbdfd7ec93838628632e2b52f732b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Colorable, scalable logger for CLI"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5e/7b/c7b5810eca5d0788fbe3d550205ab33248642583c5133ce41c207419033d/inspy_logger-${REALVERSION}.tar.gz"
-SOURCEFILE="inspy_logger-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5e/7b/c7b5810eca5d0788fbe3d550205ab33248642583c5133ce41c207419033d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Python SDK for the Cognitive Face API"
 
 HOMEPAGE="https://github.com/Microsoft/Cognitive-Face-Python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/84/42/24f0f6a3a93095911fd1444370ce66dc7cc76e4737a9e2bf51d092b8bea9/cognitive_face-${REALVERSION}.tar.gz"
-SOURCEFILE="cognitive_face-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/84/42/24f0f6a3a93095911fd1444370ce66dc7cc76e4737a9e2bf51d092b8bea9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

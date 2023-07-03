@@ -15,8 +15,8 @@ DESCRIPTION="Flake8 plugin for QGIS python plugins."
 
 HOMEPAGE="https://github.com/GispoCoding/flake8-qgis"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cc/e0/7e1307a647e7a8a2b6c9dae58873ef17162bfe41fc28e473d1619a9f1943/flake8_qgis-${REALVERSION}.tar.gz"
-SOURCEFILE="flake8_qgis-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cc/e0/7e1307a647e7a8a2b6c9dae58873ef17162bfe41fc28e473d1619a9f1943/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

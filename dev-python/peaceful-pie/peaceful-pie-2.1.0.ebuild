@@ -15,8 +15,8 @@ DESCRIPTION="Control Unity from Python!"
 
 HOMEPAGE="https://github.com/hughperkins/peaceful-pie"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/36/f9/807b55578f463569629463d9b358ea01a3623a2dac2b513960c2dcbcb06b/peaceful_pie-${REALVERSION}.tar.gz"
-SOURCEFILE="peaceful_pie-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/36/f9/807b55578f463569629463d9b358ea01a3623a2dac2b513960c2dcbcb06b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

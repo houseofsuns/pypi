@@ -15,8 +15,8 @@ DESCRIPTION="Jaccard Index for Two Strings"
 
 HOMEPAGE="https://github.com/aniruddhadave/jaccard_index"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/51/e8/ba9b2e28b7ddee139606d27a314a6baef7f2212a8123a2853216a231d5e6/jaccard_index-${REALVERSION}.tar.gz"
-SOURCEFILE="jaccard_index-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/51/e8/ba9b2e28b7ddee139606d27a314a6baef7f2212a8123a2853216a231d5e6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

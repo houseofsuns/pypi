@@ -15,8 +15,8 @@ DESCRIPTION="Alibaba Cloud openapi SDK Library for Python2"
 
 HOMEPAGE="https://github.com/aliyun/darabonba-openapi"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/65/5c/c855e543f992fb04404546678e976464ce4272fe1f5aaafac32131651505/alibabacloud_tea_openapi_py2-${REALVERSION}.tar.gz"
-SOURCEFILE="alibabacloud_tea_openapi_py2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/65/5c/c855e543f992fb04404546678e976464ce4272fe1f5aaafac32131651505/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

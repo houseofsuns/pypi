@@ -15,8 +15,8 @@ DESCRIPTION="PsychoPy plugins for OpenSesame"
 
 HOMEPAGE="https://osdoc.cogsci.nl/"
 LICENSE="COPYING"
-SRC_URI="https://files.pythonhosted.org/packages/81/40/579c0658df4ec5547245c056d5caaf86b08ef35232ec0d816d97b7e8fe8e/opensesame_plugin_psychopy-${REALVERSION}.tar.gz"
-SOURCEFILE="opensesame_plugin_psychopy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/81/40/579c0658df4ec5547245c056d5caaf86b08ef35232ec0d816d97b7e8fe8e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

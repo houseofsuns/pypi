@@ -15,8 +15,8 @@ DESCRIPTION="The cores of my stock program"
 
 HOMEPAGE="https://pypi.org/project/stock_core/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/85/74/4fa3cc5d32ec66d4903014635268f8b209b68892d368615dddf67662dd83/stock_core-${REALVERSION}.tar.gz"
-SOURCEFILE="stock_core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/85/74/4fa3cc5d32ec66d4903014635268f8b209b68892d368615dddf67662dd83/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

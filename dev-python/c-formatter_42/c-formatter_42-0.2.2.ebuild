@@ -15,8 +15,8 @@ DESCRIPTION="formatting tool complient with 42 school's norm"
 
 HOMEPAGE="https://github.com/dawnbeen/c_formatter_42"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/67/51/e9f8da3afb9f0a86d0d4e6ed35048191eb85711ac61d5762a2549d36b525/c_formatter_42-${REALVERSION}.tar.gz"
-SOURCEFILE="c_formatter_42-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/67/51/e9f8da3afb9f0a86d0d4e6ed35048191eb85711ac61d5762a2549d36b525/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

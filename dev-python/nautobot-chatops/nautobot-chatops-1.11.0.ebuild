@@ -15,8 +15,8 @@ DESCRIPTION="A plugin providing chatbot capabilities for Nautobot"
 
 HOMEPAGE="https://github.com/nautobot/nautobot-plugin-chatops"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/02/43/a246a99cf9bc6a378c273b6454775c946c115c165022fe7eacd68aee56c5/nautobot_chatops-${REALVERSION}.tar.gz"
-SOURCEFILE="nautobot_chatops-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/02/43/a246a99cf9bc6a378c273b6454775c946c115c165022fe7eacd68aee56c5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

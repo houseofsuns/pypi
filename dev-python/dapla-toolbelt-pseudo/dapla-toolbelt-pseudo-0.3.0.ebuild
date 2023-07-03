@@ -15,8 +15,8 @@ DESCRIPTION="Pseudonymization extensions for Dapla Toolbelt"
 
 HOMEPAGE="https://github.com/statisticsnorway/dapla-toolbelt-pseudo"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9c/47/487fe9c5cb75086587c94374c49597d0f6212f4d9fb17c787332537c8d93/dapla_toolbelt_pseudo-${REALVERSION}.tar.gz"
-SOURCEFILE="dapla_toolbelt_pseudo-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9c/47/487fe9c5cb75086587c94374c49597d0f6212f4d9fb17c787332537c8d93/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

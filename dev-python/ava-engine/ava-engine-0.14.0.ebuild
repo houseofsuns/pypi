@@ -15,8 +15,8 @@ DESCRIPTION="Official Ava Engine Python SDK."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0c/42/1aaa535478f6cd9141cbebba679421c25b54437d117cb054fc0853375699/ava_engine-${REALVERSION}.tar.gz"
-SOURCEFILE="ava_engine-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0c/42/1aaa535478f6cd9141cbebba679421c25b54437d117cb054fc0853375699/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

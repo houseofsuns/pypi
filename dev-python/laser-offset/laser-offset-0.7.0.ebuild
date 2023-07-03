@@ -15,8 +15,8 @@ DESCRIPTION="Simple Tools that creates external and internal offsets for shapes.
 
 HOMEPAGE="https://github.com/AndreyZarembo/LaserOffset"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/aa/db/748777e0d12de36043f90df6f5678830d928f49ea8e44509770936045437/laser_offset-${REALVERSION}.tar.gz"
-SOURCEFILE="laser_offset-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/aa/db/748777e0d12de36043f90df6f5678830d928f49ea8e44509770936045437/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

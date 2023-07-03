@@ -15,8 +15,8 @@ DESCRIPTION="Ant Chain BOT SDK Library for Python"
 
 HOMEPAGE="https://github.com/alipay/antchain-openapi-prod-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/1d/20/40b9924f0ee63f9db9223315e4f17db962e3e858d0563b5506a2482b88c7/antchain_bot-${REALVERSION}.tar.gz"
-SOURCEFILE="antchain_bot-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1d/20/40b9924f0ee63f9db9223315e4f17db962e3e858d0563b5506a2482b88c7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

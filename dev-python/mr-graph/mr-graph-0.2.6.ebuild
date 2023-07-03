@@ -15,8 +15,8 @@ DESCRIPTION="A graph definition execution library for async/sync python function
 
 HOMEPAGE="https://mr-graph.readthedocs.io/en/latest/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/92/fa/bc17d9d6351bf51d92d4abf9d24268f5c8eca305646d75588692e450e055/mr_graph-${REALVERSION}.tar.gz"
-SOURCEFILE="mr_graph-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/92/fa/bc17d9d6351bf51d92d4abf9d24268f5c8eca305646d75588692e450e055/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

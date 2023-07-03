@@ -15,8 +15,8 @@ DESCRIPTION="The semi-automatic segmentation and quantification of patchy areas 
 
 HOMEPAGE="https://gitlab.com/digiratory/biomedimaging/bcanalyzer"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/6e/e9/29a7a8878fd0daa64575c5297ad6a77b948fa3705649f997a54733fbc1c0/bio_cntrs_analyzer-${REALVERSION}.tar.gz"
-SOURCEFILE="bio_cntrs_analyzer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6e/e9/29a7a8878fd0daa64575c5297ad6a77b948fa3705649f997a54733fbc1c0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

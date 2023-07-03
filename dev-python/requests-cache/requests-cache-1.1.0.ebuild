@@ -15,8 +15,8 @@ DESCRIPTION="A persistent cache for python requests"
 
 HOMEPAGE="https://github.com/requests-cache/requests-cache"
 LICENSE="BSD-2"
-SRC_URI="https://files.pythonhosted.org/packages/79/13/c37358338bbbe223caf2ec59580be675c1657f3f295598ac69e275590140/requests_cache-${REALVERSION}.tar.gz"
-SOURCEFILE="requests_cache-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/79/13/c37358338bbbe223caf2ec59580be675c1657f3f295598ac69e275590140/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

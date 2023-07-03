@@ -15,8 +15,8 @@ DESCRIPTION="A configurable set of panels that display various debug information
 
 HOMEPAGE="https://github.com/jazzband/django-debug-toolbar"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/9b/e0/9a439dd58ac27ceaecce015fe57916bbd84dbbaf7ca3208c122b46c7d3ff/django_debug_toolbar-${REALVERSION}.tar.gz"
-SOURCEFILE="django_debug_toolbar-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9b/e0/9a439dd58ac27ceaecce015fe57916bbd84dbbaf7ca3208c122b46c7d3ff/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Unofficial TradingView technical analysis API wrapper."
 
 HOMEPAGE="https://github.com/brian-the-dev/python-tradingview-ta"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a8/e1/5066e9e1ff3be56615fd5347501aaae92918947d30f76a36a7f707acfe0a/tradingview_ta-${REALVERSION}.tar.gz"
-SOURCEFILE="tradingview_ta-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a8/e1/5066e9e1ff3be56615fd5347501aaae92918947d30f76a36a7f707acfe0a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

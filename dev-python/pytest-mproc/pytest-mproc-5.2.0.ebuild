@@ -15,8 +15,8 @@ DESCRIPTION="low-startup-overhead, scalable, distributed-testing pytest plugin"
 
 HOMEPAGE="https://github.com/nak/pytest_mproc"
 LICENSE="BSD 2-CLAUSE"
-SRC_URI="https://files.pythonhosted.org/packages/0e/0c/8ec7b067702eb31ded20eacba1a236dbef3f2ba855cb288be8c227a4c86c/pytest_mproc-${REALVERSION}.tar.gz"
-SOURCEFILE="pytest_mproc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0e/0c/8ec7b067702eb31ded20eacba1a236dbef3f2ba855cb288be8c227a4c86c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

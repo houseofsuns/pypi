@@ -15,8 +15,8 @@ DESCRIPTION="Shows top suspects for memory leaks in your Python program."
 
 HOMEPAGE="https://github.com/denis-ryzhkov/mem_top"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c3/f0/8b6cc0ff682dee2760bfeb045fb4c0188a6040aee36f6c1e0e4568d4609e/mem_top-${REALVERSION}.tar.gz"
-SOURCEFILE="mem_top-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c3/f0/8b6cc0ff682dee2760bfeb045fb4c0188a6040aee36f6c1e0e4568d4609e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

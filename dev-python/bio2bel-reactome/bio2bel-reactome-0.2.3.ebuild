@@ -15,8 +15,8 @@ DESCRIPTION="A wrapper around Reactome RESTful API"
 
 HOMEPAGE="https://github.com/bio2bel/reactome"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e0/6f/51a767f5cad75858ac8e19eec476ae7a1aafe917442db8ddf3a8058c7b36/bio2bel_reactome-${REALVERSION}.tar.gz"
-SOURCEFILE="bio2bel_reactome-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e0/6f/51a767f5cad75858ac8e19eec476ae7a1aafe917442db8ddf3a8058c7b36/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

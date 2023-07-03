@@ -15,8 +15,8 @@ DESCRIPTION="Blob Host module for the parser core project"
 
 HOMEPAGE="https://github.com/usnistgov/core_module_blob_host_app"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/12/15/0fe388e08c1680c777c1ac4bf4cdfc2176e88b4ba599a6db415c50f152fb/core_module_blob_host_app-${REALVERSION}.tar.gz"
-SOURCEFILE="core_module_blob_host_app-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/12/15/0fe388e08c1680c777c1ac4bf4cdfc2176e88b4ba599a6db415c50f152fb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

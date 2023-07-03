@@ -15,8 +15,8 @@ DESCRIPTION="Linting and validation tool for STAC assets"
 
 HOMEPAGE="https://github.com/stac-utils/stac-check"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/63/0d/536b3aa7444f1f049b6d0e29e978cb809033e6f2d5d95827983aa84b458a/stac_check-${REALVERSION}.tar.gz"
-SOURCEFILE="stac_check-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/63/0d/536b3aa7444f1f049b6d0e29e978cb809033e6f2d5d95827983aa84b458a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

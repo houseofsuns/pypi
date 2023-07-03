@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># How Fake AccountsPacote python criado para gerar contas fakes, para o primeiro desafio do bootcamp de engenharia de dados da How. O pacote é a implementação de um provider customizado do [Faker](https://faker.readthedocs.io/en/master/#), conforme sugerido em https://faker.readthedocs.io/en/master/#how-to-create-a-provider.As contas feitas simulam o cadastro de usuários em um aplicativo e contém as seguintes informações para cada usuário cadastrado:- nome- email- número de telefone- cpf- data de nascimento- endereço- emprego## How to install```bashpip install how-fake-accounts```## How to useWe have mainly two ways to use the package:- as a package itself, to be imported in python scripts- as a command line interface### Package Interface```pythonimport osfrom datetime import datetimefrom how_fake_accounts import fake# generate 10 random accountsaccounts = fake.generate_accounts(10)print(accounts)filename = datetime.now().strftime('%Y-%m-%d-%H-%M-%S') + '-accounts.json'fake.save_into_s3(    accounts,    bucket='missy-aulas-how',    key='bronze/desafio-01/' + filename,    aws_access_key_id=os.getenv('AWS_ID'),    aws_secret_access_key=os.getenv('AWS_KEY'))```### CLI InterfaceTo generate 50 accounts, just type into terminal:```bashhow_fake --n-accounts 50```or```bashpython -m how_fake --n-accounts 50```for help, just type:```bashhow_fake --help```</longdescription>
+</pkgmetadata>

@@ -15,8 +15,8 @@ DESCRIPTION="Extended Dictionary Package"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fa/fc/2448e58e7485aaf1b8745256971344a9ce46f58fdcdb50d52ac8c5c071b5/dict_plus-${REALVERSION}.tar.gz"
-SOURCEFILE="dict_plus-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fa/fc/2448e58e7485aaf1b8745256971344a9ce46f58fdcdb50d52ac8c5c071b5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="BioSimulators-compliant command-line interface to the tellurium sim
 
 HOMEPAGE="https://github.com/biosimulators/Biosimulators_tellurium"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3f/18/1853e3f300b22b2571b17ffec55e0467c552e0387ea129a9127aca46582e/biosimulators_tellurium-${REALVERSION}.tar.gz"
-SOURCEFILE="biosimulators_tellurium-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3f/18/1853e3f300b22b2571b17ffec55e0467c552e0387ea129a9127aca46582e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Whole-slide image streamer for machine learning frameworks."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/09/1c/23981c86e5506e1a353785b3948c3371709b3b39da7d64973307ab076759/histomics_stream-${REALVERSION}.tar.gz"
-SOURCEFILE="histomics_stream-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/09/1c/23981c86e5506e1a353785b3948c3371709b3b39da7d64973307ab076759/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="A JupyterLab extension."
 
 HOMEPAGE="https://github.com/Bodo-inc/jupyterlab-extensions"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/7b/a6/c4d9063cddbb7aadbcc3c09a83d858b8f3affb49e05d887d911296322f88/bodo_jupyterlab-${REALVERSION}.tar.gz"
-SOURCEFILE="bodo_jupyterlab-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7b/a6/c4d9063cddbb7aadbcc3c09a83d858b8f3affb49e05d887d911296322f88/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

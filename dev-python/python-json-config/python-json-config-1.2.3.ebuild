@@ -15,8 +15,8 @@ DESCRIPTION="This library allows to load json configs and access the values like
 
 HOMEPAGE="https://github.com/janehmueller/python-config"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2d/1f/d1e59b55d9606d83bd0d1acfa3c2c961bbdabdd73ee83f4f9630a3e121d3/python_json_config-${REALVERSION}.tar.gz"
-SOURCEFILE="python_json_config-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2d/1f/d1e59b55d9606d83bd0d1acfa3c2c961bbdabdd73ee83f4f9630a3e121d3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Tryton module to implement product classification"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/7a/a5/3fa205adb38ca8bb3974448e794bc1b3f0c2ea7803c256ce3d1327ad427f/trytond_product_classification-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_product_classification-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7a/a5/3fa205adb38ca8bb3974448e794bc1b3f0c2ea7803c256ce3d1327ad427f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

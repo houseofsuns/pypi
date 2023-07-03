@@ -15,8 +15,8 @@ DESCRIPTION="A tool for information system allowing a retrieval of information o
 
 HOMEPAGE="https://github.com/illagrenan/ares_util"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/94/d8/e5b1ac69477dbf2251ac68cfc82621b70fb30293760fac97a4b61de8dad3/ares_util-${REALVERSION}.tar.gz"
-SOURCEFILE="ares_util-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/94/d8/e5b1ac69477dbf2251ac68cfc82621b70fb30293760fac97a4b61de8dad3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

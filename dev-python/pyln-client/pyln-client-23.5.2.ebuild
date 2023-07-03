@@ -15,8 +15,8 @@ DESCRIPTION="Client library and plugin library for Core Lightning"
 
 HOMEPAGE=""
 LICENSE="BSD-MIT"
-SRC_URI="https://files.pythonhosted.org/packages/15/ff/fdd3c0c9a051a1c198b603adebd0f3519c1e7ebea14c6644b6c1a1d10082/pyln_client-${REALVERSION}.tar.gz"
-SOURCEFILE="pyln_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/15/ff/fdd3c0c9a051a1c198b603adebd0f3519c1e7ebea14c6644b6c1a1d10082/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

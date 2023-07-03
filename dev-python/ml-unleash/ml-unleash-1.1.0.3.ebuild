@@ -15,8 +15,8 @@ DESCRIPTION="Package and run machine learning models as docker containers."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/57/0e/ad7e2f451083fe0c08259d8db80168c02c08063ac8a4963bb79603b84ca1/ml_unleash-${REALVERSION}.tar.gz"
-SOURCEFILE="ml_unleash-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/57/0e/ad7e2f451083fe0c08259d8db80168c02c08063ac8a4963bb79603b84ca1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

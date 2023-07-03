@@ -15,8 +15,8 @@ DESCRIPTION="Angaza Nexus backend libraries for managing PAYG devices"
 
 HOMEPAGE="https://github.com/angaza/nexus-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2d/19/d6b08a7c7f88bb16405026fcb0edff0535e4ba504546f7fec13d1ec87753/nexus_keycode-${REALVERSION}.tar.gz"
-SOURCEFILE="nexus_keycode-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2d/19/d6b08a7c7f88bb16405026fcb0edff0535e4ba504546f7fec13d1ec87753/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

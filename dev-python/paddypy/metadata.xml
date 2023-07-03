@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># paddypyUnder construction! Not ready for use yet! Currently experimenting and planning!Developed by Patrik (c) 2022## Examples of How To Use (Alpha Version) Print and get azure app-configuration keys and flags```pythonfrom paddypy import access# does a logging print out of the azure app-configuration keys and flags.access.listConfig()key = &quot;username&quot;# gets the lastest value for a given key# deactivate_kv_access choose if kv-ref should be accessed (access policies need to be correct)  value = access.getValue(key=key, deactivate_kv_access=True) logging.info(&quot;Lastest value: &quot; + value)# sets a key value# deactivate_kv_access choose if kv-ref should be accessed (access policies need to be correct)  value = access.setValue(key=key, value=&quot;julia&quot;, content_type=None, tags: dict={}, label=None, deactivate_kv_access=False):logging.info(&quot;Lastest value: &quot; + value)</longdescription>
+</pkgmetadata>

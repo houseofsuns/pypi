@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/57/54/169e13ed3a18d9839a5e2bc100fad516fefab2d22b3ff42ec239158facb8/datashack_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="datashack_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/57/54/169e13ed3a18d9839a5e2bc100fad516fefab2d22b3ff42ec239158facb8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

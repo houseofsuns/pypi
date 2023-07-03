@@ -15,8 +15,8 @@ DESCRIPTION="Pretty and opinionated topic model visualization in Python."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/66/de/aafb721b7f46b3704c1f3d311089b6b0a112bd97a4d51dce18945f6d77cf/topic_wizard-${REALVERSION}.tar.gz"
-SOURCEFILE="topic_wizard-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/66/de/aafb721b7f46b3704c1f3d311089b6b0a112bd97a4d51dce18945f6d77cf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

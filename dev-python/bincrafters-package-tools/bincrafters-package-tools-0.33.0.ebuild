@@ -15,8 +15,8 @@ DESCRIPTION="Bincrafters Packaging tools for build Conan projects"
 
 HOMEPAGE="https://github.com/bincrafters/bincrafters-package-tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/40/76/2f2d06a9fbd2fe37e4d244d1ec100a0b83daf73da75177c8d61a2de27d95/bincrafters_package_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="bincrafters_package_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/40/76/2f2d06a9fbd2fe37e4d244d1ec100a0b83daf73da75177c8d61a2de27d95/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

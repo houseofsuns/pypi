@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>django-requests-debug-toolbar=============================A `Django Debug Toolbar &lt;https://django-debug-toolbar.readthedocs.io/&gt;`_ panel for RequestsAbout-----Django Requests Debug Toolbar tracks all HTTP requests made with the popular`requests &lt;https://requests.readthedocs.io/&gt;`_ library.Usage-----#. Install using pip::    pip install django-requests-debug-toolbar#. Add ``requests_panel`` to your ``INSTALLED_APPS`` setting.#. Add ``requests_panel.panel.RequestsDebugPanel`` to your ``DEBUG_TOOLBAR_PANELS``.Contributing------------All suggestions are welcome.</longdescription>
+</pkgmetadata>

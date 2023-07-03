@@ -15,8 +15,8 @@ DESCRIPTION="Override Poetry's update command to audit packages before they are 
 
 HOMEPAGE=""
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/e1/12/3eea798889301b68421e8e6c41d1a005305b732d63bcf988d522792769b5/customs_inspector-${REALVERSION}.tar.gz"
-SOURCEFILE="customs_inspector-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e1/12/3eea798889301b68421e8e6c41d1a005305b732d63bcf988d522792769b5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

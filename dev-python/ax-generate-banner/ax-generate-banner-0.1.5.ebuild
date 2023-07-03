@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2f/94/299427aa7226b71c4153867dffb136260baaae6f5445c8fb008e5f806106/ax_generate_banner-${REALVERSION}.tar.gz"
-SOURCEFILE="ax_generate_banner-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2f/94/299427aa7226b71c4153867dffb136260baaae6f5445c8fb008e5f806106/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

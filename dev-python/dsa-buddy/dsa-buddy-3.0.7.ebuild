@@ -15,8 +15,8 @@ DESCRIPTION="dsa_buddy client for DSA preparation and code submission utlity"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6a/2c/d1ddfc35eb2c2c10f28314920167b1d02d17bdcef87e182124b2a83daa67/dsa_buddy-${REALVERSION}.tar.gz"
-SOURCEFILE="dsa_buddy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6a/2c/d1ddfc35eb2c2c10f28314920167b1d02d17bdcef87e182124b2a83daa67/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

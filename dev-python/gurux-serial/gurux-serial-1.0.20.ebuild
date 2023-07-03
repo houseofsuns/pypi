@@ -15,8 +15,8 @@ DESCRIPTION="Gurux serial media is used to commmunication with serial port conne
 
 HOMEPAGE="https://github.com/gurux/gurux.serial.python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/34/e0/7367edf616b3f0265e5929e998a709739099694779288c9196ec7ac4b96f/gurux_serial-${REALVERSION}.tar.gz"
-SOURCEFILE="gurux_serial-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/34/e0/7367edf616b3f0265e5929e998a709739099694779288c9196ec7ac4b96f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

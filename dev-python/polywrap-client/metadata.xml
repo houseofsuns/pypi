@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># polywrap-clientPython implementation of the polywrap client.## Usage### Configure and InstantiateUse the `polywrap-uri-resolvers` package to configure resolver and build config for the client.```pythonfrom polywrap_uri_resolvers import (    FsUriResolver,    SimpleFileReader)from polywrap_core import Uri, ClientConfigfrom polywrap_client import PolywrapClientfrom polywrap_client_config_builder import PolywrapClientConfigBuilderbuilder = (    PolywrapClientConfigBuilder()    .add_resolver(FsUriResolver(file_reader=SimpleFileReader()))    .set_env(Uri.from_str(&quot;ens/foo.eth&quot;), {&quot;foo&quot;: &quot;bar&quot;})    .add_interface_implementations(        Uri.from_str(&quot;ens/foo.eth&quot;), [            Uri.from_str(&quot;ens/bar.eth&quot;),            Uri.from_str(&quot;ens/baz.eth&quot;)        ]    ))config = builder.build()client = PolywrapClient(config)```### InvokeInvoke a wrapper.```pythonuri = Uri.from_str(    'fs/&lt;path to wrapper&gt;'  # Example uses simple math wrapper)args = {    &quot;arg1&quot;: &quot;123&quot;,  # The base number    &quot;obj&quot;: {        &quot;prop1&quot;: &quot;1000&quot;,  # multiply the base number by this factor    },}result = client.invoke(uri=uri, method=&quot;method&quot;, args=args, encode_result=False)assert result == &quot;123000&quot;```</longdescription>
+</pkgmetadata>

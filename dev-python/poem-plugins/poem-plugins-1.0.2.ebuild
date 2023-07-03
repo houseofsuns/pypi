@@ -15,8 +15,8 @@ DESCRIPTION="Some set of poetry plugins"
 
 HOMEPAGE="https://pypi.org/project/poem-plugins"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ca/ee/e2c763b780bd43158f591044e61d4a5126462c21169373e543f56c12b4c6/poem_plugins-${REALVERSION}.tar.gz"
-SOURCEFILE="poem_plugins-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ca/ee/e2c763b780bd43158f591044e61d4a5126462c21169373e543f56c12b4c6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

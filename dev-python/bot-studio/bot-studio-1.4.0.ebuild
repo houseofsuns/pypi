@@ -15,8 +15,8 @@ DESCRIPTION="Automation Library"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/18/31/075652a4bee05a376cd8f1e38937d0b957c426123a615d8cb8ebab290b5f/bot_studio-${REALVERSION}.tar.gz"
-SOURCEFILE="bot_studio-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/18/31/075652a4bee05a376cd8f1e38937d0b957c426123a615d8cb8ebab290b5f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="Allows users to enter requests for product supply (requisition). Th
 
 HOMEPAGE="http://www.tryton.org"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/77/6c/15afdb3d02fb56d63eda88361336b90b3e8eab1d116ead2cd2767adea460/trytond_purchase_requisition-${REALVERSION}.tar.gz"
-SOURCEFILE="trytond_purchase_requisition-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/77/6c/15afdb3d02fb56d63eda88361336b90b3e8eab1d116ead2cd2767adea460/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

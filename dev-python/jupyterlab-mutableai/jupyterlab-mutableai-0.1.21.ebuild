@@ -15,8 +15,8 @@ DESCRIPTION="Transform Jupyter prototypes into production quality Python with AI
 
 HOMEPAGE="https://github.com/mutableai/jupyter_extension"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/0c/ba/70aba021fdf8ffcd0b01c24ea44151bfccdc718d9419a48d2aee1d63da08/jupyterlab_mutableai-${REALVERSION}.tar.gz"
-SOURCEFILE="jupyterlab_mutableai-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0c/ba/70aba021fdf8ffcd0b01c24ea44151bfccdc718d9419a48d2aee1d63da08/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

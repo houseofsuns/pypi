@@ -15,8 +15,8 @@ DESCRIPTION="A plugin to read whole slide images within napari."
 
 HOMEPAGE="https://github.com/AstraZeneca/napari-wsi"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/a7/44/fdcad4a3545c9eb319179523679e5770537795ec357f163db529b2d33dda/napari_wsi-${REALVERSION}.tar.gz"
-SOURCEFILE="napari_wsi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a7/44/fdcad4a3545c9eb319179523679e5770537795ec357f163db529b2d33dda/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

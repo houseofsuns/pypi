@@ -15,8 +15,8 @@ DESCRIPTION="This package is intended for matrix blocks, boosting a sparse matri
 
 HOMEPAGE="https://github.com/ParticularMiner/sparse_dot_topn_for_blocks"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d2/04/b4e2614091b0f0afa69ee4bf630b2a60f1fbaf285140363885c3f936918d/sparse_dot_topn_for_blocks-${REALVERSION}.tar.gz"
-SOURCEFILE="sparse_dot_topn_for_blocks-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d2/04/b4e2614091b0f0afa69ee4bf630b2a60f1fbaf285140363885c3f936918d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

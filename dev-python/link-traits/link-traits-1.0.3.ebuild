@@ -15,8 +15,8 @@ DESCRIPTION="A fork to traitlets' link and dlink to link traits in addition to t
 
 HOMEPAGE="https://github.com/hyperspy/link_traits"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/03/17/eb40ed2030e2c6dad5050216e124d5d1c9512bc1085353c83111599c2ee6/link_traits-${REALVERSION}.tar.gz"
-SOURCEFILE="link_traits-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/03/17/eb40ed2030e2c6dad5050216e124d5d1c9512bc1085353c83111599c2ee6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

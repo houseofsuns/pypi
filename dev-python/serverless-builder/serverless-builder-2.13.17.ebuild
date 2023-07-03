@@ -15,8 +15,8 @@ DESCRIPTION="Python interface to easily generate \`serverless.yml\`."
 
 HOMEPAGE="https://epsylabs.github.io/serverless-builder/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/61/73/77153e932fd5e82ea8d4ac81c1ce34fff7b1a088aabad8096aff20a22b34/serverless_builder-${REALVERSION}.tar.gz"
-SOURCEFILE="serverless_builder-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/61/73/77153e932fd5e82ea8d4ac81c1ce34fff7b1a088aabad8096aff20a22b34/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

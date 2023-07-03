@@ -15,8 +15,8 @@ DESCRIPTION="A custom package demo"
 
 HOMEPAGE=""
 LICENSE="Some licence"
-SRC_URI="https://files.pythonhosted.org/packages/86/99/db1236004d7b34ae266ace1269ba76e6e2e4ca29dd0be8d8f2b144e77f43/my_pypi_custom_package-${REALVERSION}.tar.gz"
-SOURCEFILE="my_pypi_custom_package-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/86/99/db1236004d7b34ae266ace1269ba76e6e2e4ca29dd0be8d8f2b144e77f43/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

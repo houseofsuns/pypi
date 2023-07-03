@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pytket-qir`pytket-qir` is a python package, aimed at interfacing QIR programs with `pytket`.The source code can be found in the corresponding GitHub repository.## Installation`pytket-qir` is tested against Python 3.8, 3.9 and 3.10.The main requirements are:- `pytket`- `pyqir`Standard local installation using `pip`:```shpip install -U .````pytket-qir` has been packaged using `poetry`:```shpoetry install```_N.B._: `pytket-qir` is tested against x86_64 platforms since `pyqir` is not available for arm64.</longdescription>
+</pkgmetadata>

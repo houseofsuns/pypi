@@ -15,8 +15,8 @@ DESCRIPTION="\"異体字正規化モジュール\""
 
 HOMEPAGE="https://github.com/ekurerice/ja_cvu_normalizer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/90/df/eac073152aa5227e0f42106912497356c9c075cf8dede1a9268d5c9fb9bc/ja_cvu_normalizer-${REALVERSION}.tar.gz"
-SOURCEFILE="ja_cvu_normalizer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/90/df/eac073152aa5227e0f42106912497356c9c075cf8dede1a9268d5c9fb9bc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

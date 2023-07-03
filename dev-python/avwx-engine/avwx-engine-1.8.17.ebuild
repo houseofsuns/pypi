@@ -15,8 +15,8 @@ DESCRIPTION="Aviation weather report parsing library"
 
 HOMEPAGE="https://engine.avwx.rest"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/16/dc/e33d11bc78d3fec7e2ac95f85cc66bc3fd752729c03cb4eb42ec24761e9d/avwx_engine-${REALVERSION}.tar.gz"
-SOURCEFILE="avwx_engine-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/16/dc/e33d11bc78d3fec7e2ac95f85cc66bc3fd752729c03cb4eb42ec24761e9d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

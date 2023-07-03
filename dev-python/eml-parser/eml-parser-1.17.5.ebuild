@@ -15,8 +15,8 @@ DESCRIPTION="Python EML parser library"
 
 HOMEPAGE="https://github.com/GOVCERT-LU/eml_parser"
 LICENSE="AGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/2a/df/74a8e9b2e45d411978cd414d9a6b420a51263846ddc633ebfb99e97c8417/eml_parser-${REALVERSION}.tar.gz"
-SOURCEFILE="eml_parser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2a/df/74a8e9b2e45d411978cd414d9a6b420a51263846ddc633ebfb99e97c8417/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

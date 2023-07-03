@@ -15,8 +15,8 @@ DESCRIPTION="A SQL formatter"
 
 HOMEPAGE="https://github.com/PabloRMira/sql_formatter/tree/master/"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/70/23/e74806c786d9cef4d115e60ab839a7718a83966fec72b33a7630261b32ba/sql_formatter-${REALVERSION}.tar.gz"
-SOURCEFILE="sql_formatter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/70/23/e74806c786d9cef4d115e60ab839a7718a83966fec72b33a7630261b32ba/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/84/ce/3470b2c555e1f9bfa39228ed4d13db91df296f18b162bb583e34c0de120e/pair_ai-${REALVERSION}.tar.gz"
-SOURCEFILE="pair_ai-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/84/ce/3470b2c555e1f9bfa39228ed4d13db91df296f18b162bb583e34c0de120e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

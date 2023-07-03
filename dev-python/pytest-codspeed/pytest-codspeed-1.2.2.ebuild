@@ -15,8 +15,8 @@ DESCRIPTION="Pytest plugin to create CodSpeed benchmarks"
 
 HOMEPAGE="https://codspeed.io/"
 LICENSE="The MIT License MIT"
-SRC_URI="https://files.pythonhosted.org/packages/92/e3/ce0bbd33084fe687f63f4088afb57c7e027df721c4df7c1683ce90491a2f/pytest_codspeed-${REALVERSION}.tar.gz"
-SOURCEFILE="pytest_codspeed-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/92/e3/ce0bbd33084fe687f63f4088afb57c7e027df721c4df7c1683ce90491a2f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

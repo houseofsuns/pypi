@@ -15,8 +15,8 @@ DESCRIPTION="Camunda external task Robot Framework RCC client"
 
 HOMEPAGE="https://github.com/datakurre/carrot-rcc"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/77/13/5d951721faffb45918b0e3eb87939b3521ad2393d6d10fedcc1e88799cab/carrot_rcc-${REALVERSION}.tar.gz"
-SOURCEFILE="carrot_rcc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/77/13/5d951721faffb45918b0e3eb87939b3521ad2393d6d10fedcc1e88799cab/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

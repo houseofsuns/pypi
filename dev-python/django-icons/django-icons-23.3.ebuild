@@ -15,8 +15,8 @@ DESCRIPTION="Icons for Django"
 
 HOMEPAGE="https://github.com/zostera/django-icons"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/34/26/ff735619822770bb0d33da02368856fd6ce49ce962b2607d091d4594127b/django_icons-${REALVERSION}.tar.gz"
-SOURCEFILE="django_icons-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/34/26/ff735619822770bb0d33da02368856fd6ce49ce962b2607d091d4594127b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

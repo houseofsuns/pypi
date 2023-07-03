@@ -15,8 +15,8 @@ DESCRIPTION="OpenAI gym environment for training agents on Wordle"
 
 HOMEPAGE="https://github.com/ryan-snyder/gym-wordle"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7c/db/eae561e8d0a3d14663e867be0d15eb724685879bba9063c6a02163fed04f/alt_gym_wordle-${REALVERSION}.tar.gz"
-SOURCEFILE="alt_gym_wordle-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7c/db/eae561e8d0a3d14663e867be0d15eb724685879bba9063c6a02163fed04f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,8 +15,8 @@ DESCRIPTION="backend for whitesource-api-extension"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a3/e5/4a48a612212b3846d1da16962fe32def6b416de6dc28dc7b60ad6f8ceb31/whitesource_api_extension-${REALVERSION}.tar.gz"
-SOURCEFILE="whitesource_api_extension-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a3/e5/4a48a612212b3846d1da16962fe32def6b416de6dc28dc7b60ad6f8ceb31/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

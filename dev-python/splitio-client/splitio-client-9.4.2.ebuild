@@ -15,8 +15,8 @@ DESCRIPTION="Split.io Python Client"
 
 HOMEPAGE="https://github.com/splitio/python-client"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/1f/bf/b5bef5cba51699804b0c807d1de3e713de718733644f67bd6298d44cf18f/splitio_client-${REALVERSION}.tar.gz"
-SOURCEFILE="splitio_client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1f/bf/b5bef5cba51699804b0c807d1de3e713de718733644f67bd6298d44cf18f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

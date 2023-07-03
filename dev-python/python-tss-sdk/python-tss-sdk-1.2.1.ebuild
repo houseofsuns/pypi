@@ -15,8 +15,8 @@ DESCRIPTION="The Delinea Secret Server Python SDK"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/18/d9/5bd488fd6e112e69c850a45054e1a7f4c73f6eb7dbec6f4132a20da99fac/python_tss_sdk-${REALVERSION}.tar.gz"
-SOURCEFILE="python_tss_sdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/18/d9/5bd488fd6e112e69c850a45054e1a7f4c73f6eb7dbec6f4132a20da99fac/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
